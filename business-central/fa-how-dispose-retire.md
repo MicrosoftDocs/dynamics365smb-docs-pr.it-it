@@ -1,6 +1,6 @@
 ---
-title: Cessione o ritiro dei cespiti| Documenti Microsoft
-description: È necessario registrare un valore di cessione quando si scarta, si vende o si ritira un cespite.
+title: Cessione o ritiro dei cespiti
+description: In caso di vendita o cessione di un cespite, occorre registrare il valore di cessione per calcolare e registrare il guadagno o la perdita.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 041f228a0ea2e34fb9986ebb45e98c1300f02f8d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2b3f12dd385a40510cf01c214ac0893b6357207c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774032"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441724"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Smaltimento o ritiro dei cespiti
 
@@ -28,7 +28,7 @@ I seguenti passaggi presuppongono che le categorie di registrazione pertinenti s
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Per registrare una cessione tramite Registrazioni Cespiti in C/G
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
 2. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Nel campo **Tipo reg. cespite** scegliere **Cessione**.  
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della cessione.  
@@ -42,7 +42,7 @@ In caso di vendita o di cessione parziale di un cespite occorre suddividere il c
 ## <a name="to-view-disposal-ledger-entries"></a>Per visualizzare i movimenti contabili di cessione
 In caso di vendita o di cessione di un cespite, il valore di cessione viene registrato nella contabilità generale dove è possibile visualizzare il risultato.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.  
 2. Selezionare il cespite di cui visualizzare i movimenti, quindi scegliere l'azione **Registri beni ammortizzabili**.  
 3. Selezionare il registro beni ammortizzabili di cui visualizzare i movimenti, quindi scegliere l'azione **Movimenti contabili**.  
 4. Selezionare una riga con **Cessione** nel campo **Categoria reg. cespite** e scegliere l'azione **Trova movimenti**.  

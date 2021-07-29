@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786000"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441120"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Copiare articoli esistenti per creare nuovi articoli
 
@@ -23,7 +23,7 @@ Quando si aggiunge un nuovo articolo, per risparmiare tempo è possibile usare l
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Per copiare un articolo esistente in un nuovo articolo
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Scegliere l'articolo che si intende copiare, quindi scegliere l'azione **Copia articolo**.  
 
     Se non si riesce a trovare l'azione **Copia articolo**, scegliere di visualizzare più opzioni, quindi trovarla in **Azioni**, **Funzioni**.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 923f68b13619013dd54062438c66192a682868bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4bce7a2e07f9d559df74f4862e9aa841f4cfe6f0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787879"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441599"
 ---
 # <a name="batch-post-output-and-run-times"></a>Registrare l'output e i tempi di lavorazione tramite processo batch
 La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quantità finita e capacità utilizzata del centro lavoro o della macchina.
@@ -31,7 +31,7 @@ La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quant
 Tramite la finestra **Registrazioni di produzione**, è possibile eseguire le stesse attività della finestra **Registrazioni output** e allo stesso tempo le relative attività di registrazione del consumo. Per ulteriori informazioni, vedi [Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md).
 
 ## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Per registrare quantità di output e/o registrare tempi di lavorazione per una o più righe dell'ordine di produzione
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni output** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
 2. Compilare i campi inserendo i dati relativi agli ordini di produzione e/o ai tempi di lavorazione. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     Puoi usare la funzione **Esplodi ciclo** per generare righe di registrazione dagli ordini di produzione.

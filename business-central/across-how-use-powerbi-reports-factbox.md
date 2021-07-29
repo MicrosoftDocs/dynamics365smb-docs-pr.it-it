@@ -1,6 +1,6 @@
 ---
-title: Visualizzare report Power BI personalizzati per i dati di Business Central
-description: Puoi usare i report Power BI per ottenere informazioni aggiuntive sui dati negli elenchi.
+title: Visualizzare report Power BI personalizzati
+description: Puoi usare Power BI FactBox per visualizzare report Power BI e ottenere informazioni dettagliate sui dati dei record negli elenchi chiave.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/26/2021
+ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087696"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440926"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -53,7 +53,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
     2. Trascina il campo sul riquadro **Filtri** e rilascialo nella casella **Filtri su tutte le pagine**.
     3. Imposta il **Tipo di filtro** su **Filtro di base**. Non può essere un filtro di pagina, visivo o avanzato.
 
-    ![Impostare il filtro del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+    ![Imposta il filtro del report per il report Attività Fattura vendita.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 4. Progetta l'area di disposizione del report.
 
     Crea l'area di disposizione trascinando i campi e aggiungendo visualizzazioni. Per ulteriori informazioni, vedi [Lavora con la visualizzazione Report in Power BI Desktop](/power-bi/create-reports/desktop-report-view) nella documentazione di Power BI.
@@ -86,7 +86,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 La dimensione del report deve essere impostata su 325 x 310 pixel. Questa dimensione fornisce il corretto ridimensionamento del report nello spazio disponibile dal controllo del riquadro dettaglio informazioni Power BI in [!INCLUDE[prod_short](includes/prod_short.md)]. Per definire la dimensione del report, posizionare il focus all'esterno dell'area del layout di report e quindi scegliere l'icona del rullo di verniciatura.
 
-![Impostare la larghezza e l'altezza del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
+![Imposta la larghezza e l'altezza del report per il report Attività Fattura vendita.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 È possibile modificare la larghezza e l'altezza del report scegliendo **Personalizzato** nel campo **Tipo**.
 

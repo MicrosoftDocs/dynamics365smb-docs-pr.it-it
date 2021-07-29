@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 019767f671f48f7ae5bb1c0d795c8085d8a97472
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7d946020bb6f9a1eabf5ab68d3dd64a9af344993
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786414"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442062"
 ---
 # <a name="work-with-inventory-periods"></a>Utilizzare periodi di magazzino
 I periodi di magazzino definiscono un periodo di tempo durante il quale è possibile registrare modifiche al magazzino. Un periodo di magazzino è definito dalla data in cui termina, ovvero la data di fine. Quando il periodo di magazzino è chiuso, non è possibile registrare modifiche al magazzino, previsto o fatturato, precedente alla data di fine. Non è inoltre possibile inserire qualsiasi nuovo valore nel magazzino prima della data di fine. Se nel periodo chiuso sono presenti movimenti articoli aperti, ovvero quantità positive non ancora consumate da, o collegate a, transazioni in uscita, è ancora possibile collegare quantità in uscita a questi movimenti, anche se il periodo è chiuso.  
@@ -27,7 +27,7 @@ Nelle sezioni successive viene descritto come effettuare le seguenti operazioni:
 * Riaprire periodi di magazzino.  
 
 ## <a name="to-create-an-inventory-period"></a>Per creare un periodo di magazzino  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi magazzino** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Periodi di magazzino**, quindi scegli il collegamento correlato.  
 2. Creare una nuova riga.  
 3. Nel campo **Data fine** immettere l'ultima data del periodo di magazzino che si desidera definire. Quando il periodo è chiuso, non sarà possibile registrare modifiche al magazzino prima di tale data.  
 4. Nel campo **Nome** immettere un nome descrittivo. Scegliere il pulsante **OK**.  
@@ -59,7 +59,7 @@ Questo significa che tutte le quantità relative a transazioni in uscita, ad ese
 Dopo aver chiuso una volta il periodo di magazzino, non è più possibile eliminarlo. È tuttavia possibile riaprirlo se si desidera consentire la registrazione prima della data di fine del periodo stesso. Riaprendo un periodo vengono riaperti anche tutti i periodi con date di fine successive a quella del periodo riaperto.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Per riaprire un periodo di magazzino  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi magazzino** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Periodi di magazzino**, quindi scegli il collegamento correlato.  
 2. Selezionare il periodo di magazzino che si desidera riaprire.  
 3. Scegliere l'azione **Riapri periodo**. Confermare che si desidera riaprire il periodo.  
 4. Vengono riaperti anche tutti i periodi con date di fine successive a quella del periodo selezionato.  

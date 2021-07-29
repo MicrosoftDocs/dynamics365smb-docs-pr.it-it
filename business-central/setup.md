@@ -1,6 +1,6 @@
 ---
 title: Panoramica dei task per impostare Business Central
-description: Descrive i task per impostare, inizializzare e configurare Business Central in base alle esigenze.
+description: Leggi una panoramica dei task per impostare, inizializzare e configurare Business Central in base alle esigenze.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781458"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441424"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781458"
 
 Ad esempio, il piano dei conti è precompilato con una serie di conti di registrazione pronti per l'uso. Naturalmente, è possibile modificarlo in base alle esigenze. Per ulteriori informazioni, vedere [Contabilità](finance.md).
 
-Dal menu ![icona dell'ingrannagio per aprire il menu Impostazioni ](media/ui-experience/settings_icon_small.png), è possibile accedere alle guide di setup assistito che consentono di configurare determinati scenari e aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Per informazioni su come accedere a tutte le pagine assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).  
+Dal menu ![Icona ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) puoi accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Per informazioni su come accedere a tutte le pagine assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

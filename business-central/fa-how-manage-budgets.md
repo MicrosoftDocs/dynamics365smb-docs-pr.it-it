@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: forecast
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b435d1e9edae7a13514786f2de51e32237aaf94
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f3654610847a4110517e88f98205da780bafdf21
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783561"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441649"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gestione dei budget per i cespiti
 È possibile impostare i cespiti previsti. Ad esempio, ciò consente di includere qualsiasi vendita o acquisto previsto nei report.  
@@ -29,7 +29,7 @@ Al fine di preparare un budget occorre impostare le schede cespiti per i cespiti
 
 Durante la registrazione del costo di acquisto, immettere il numero del cespite previsto nel campo **Nr. cespite previsto**. Ciò provocherà la registrazione del costo di acquisto con segno opposto per il cespite previsto. Ne consegue che il costo totale di acquisto del cespite previsto risulta dalla differenza tra il costo di acquisto previsto e quello effettivo.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per creare una nuova scheda cespite per il cespite previsto.
 3. Selezionare la casella di controllo **Cespite previsto** per evitare la registrazione nella contabilità generale.
 4. Compilare i campi rimanenti, assegnare un registro beni ammortizzabili e registrare il primo costo di acquisto con il cespite previsto immesso nel campo **Nr. cespite previsto** nella riga delle registrazioni. Per ulteriori informazioni, vedere [Acquisire i cespiti](fa-how-acquire.md).
@@ -37,21 +37,21 @@ Durante la registrazione del costo di acquisto, immettere il numero del cespite 
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>Per prevedere la cessione di un cespite
 Nel caso in cui si progetti la vendita di cespiti all'interno del periodo di budget è possibile immettere informazioni relative al prezzo di vendita e alla data di vendita.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.
 2. Selezionare il cespite da cedere e scegliere l'azione **Registri beni ammortizz.**.
 3. Nella pagina **Registro beni amm. cespiti** compilare i campi **Data cessione prev.** e **Proventi di cessione previsti**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Per visualizzare i valori di cessione previsti
 Per visualizzare i valori di cessione previsti e calcolare i profitti e perdite è possibile utilizzare il report **Cespite - Valore Previsto**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Valore previsto cespiti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valore previsto cespiti**, quindi scegli il collegamento correlato.
 2. Compilare i campi, se necessario.
 3. Selezionare il pulsante **Stampa** o **Anteprima**.
 
 ## <a name="to-budget-depreciation"></a>Per prevedere l'ammortamento
 Utilizzare il report **Cespite - Valore Previsto** per calcolare l'ammortamento futuro. Il report mostra il valore contabile e l'ammortamento accumulato all'inizio del periodo selezionato, le modifiche apportate durante il periodo, il valore contabile e l'ammortamento accumulato alla fine del periodo selezionato.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Valore previsto cespiti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valore previsto cespiti**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze.
 3. Per visualizzare i valori totali di tutti i cespiti, deselezionare la casella di controllo **Stampa per cespite**.
 4. Non compilare la Scheda dettaglio **Cespite** in modo che vengano inclusi tutti i cespiti. Nel campo **Cespite previsto** immettere **No** per escludere i cespiti previsti o **Sì** per visualizzare solo i cespiti previsti.

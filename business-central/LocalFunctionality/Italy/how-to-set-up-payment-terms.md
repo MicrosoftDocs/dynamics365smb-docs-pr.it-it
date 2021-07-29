@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 30d5bda1394804248b7a6d0b2dfab8fa6873a3bb
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: ce3d79ea1404ef470cffceb526cb5ffc094ea845
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985353"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441389"
 ---
 # <a name="set-up-payment-terms-in-the-italian-version"></a>Impostare le condizioni pagamento nella versione italiana
 
@@ -24,7 +24,7 @@ Quando ti iscrivi per la prima volta a [!INCLUDE [prod_short](../../includes/pro
 
 ## <a name="to-set-up-payment-terms"></a>Impostare le condizioni pagamento
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Condizioni pagamento** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Condizioni pagamento**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 3. Scegliere l'azione **Calcola**.  
 4. Nella pagina **Righe condizioni pagamento**, compilare i campi come indicato nella tabella riportata di seguito.  

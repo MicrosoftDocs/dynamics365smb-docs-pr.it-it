@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0abd3da4abd0b91b7541fb545606c569f98b987
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d13bfaf069a10cb1ff92806dbceb46811a770fac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787854"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441574"
 ---
 # <a name="post-scrap-manually"></a>Registrare lo scarto manualmente
 Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto. 
@@ -24,7 +24,7 @@ Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto
 > La quantità di scarto non aumenta la quantità di output.  
 
 ## <a name="to-post-scrap-manually"></a>Per registrare lo scarto manualmente  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni output** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Immettere la quantità di scarto nel campo **Quantità Scartata**.  
 4. Immettere il codice di scarto nel campo **Codice scarto**.  

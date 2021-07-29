@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a0eb78d64948498b315679c45eb9a8b48fd5606
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784344"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441449"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Impostare le procedure ottimali: metodi di riordino
 Nel campo **Metodo di riordino** delle schede articolo vengono offerti quattro diversi metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.  
@@ -30,7 +30,7 @@ Una delle migliori basi per la selezione di un metodo di riordino è la classifi
 
 La classificazione ABC stabilisce che è possibile risparmiare tempo e denaro applicando un controllo meno restrittivo agli articoli con un valore-volume basso rispetto agli articoli con un valore-volume alto. L'esempio seguente mostra quale metodo di riordino in [!INCLUDE[prod_short](includes/prod_short.md)] è più appropriato per gli articoli con classificazione A, B e C rispettivamente.
 
-![Classificazione di ABC](media/abc_classification.png "abc_classification")
+![Classificazione di ABC.](media/abc_classification.png "abc_classification")
 
 Nella seguente tabella vengono fornite le procedure consigliate per la selezione tra quattro metodi.  
 

@@ -1,6 +1,6 @@
 ---
 title: Connettersi a Microsoft Dataverse
-description: È possibile integrare altre app con Business Central tramite Microsoft Dataverse. Questo articolo fornisce suggerimenti e trucchi per impostare le connessioni.
+description: Imposta una connessione tra Business Central e Dataverse. In genere le aziende creano la connessione per integrare i dati con un'altra app aziendale di Dynamics 365.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/26/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063479"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441345"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Connettersi a Microsoft Dataverse
 
@@ -64,7 +64,7 @@ La guida Setup connessione a Dataverse può semplificare la connessione delle ap
 > [!IMPORTANT]
 > In genere, utilizzi la sincronizzazione completa solo quando si integrano le applicazioni per la prima volta e solo un'applicazione contiene dati. La sincronizzazione completa può essere utile in un ambiente dimostrativo perché crea e associa automaticamente i record in ciascuna applicazione, il che rende più veloce iniziare a lavorare con i dati sincronizzati. Tuttavia, devi eseguire la sincronizzazione completa solo se desideri una riga in [!INCLUDE[prod_short](includes/prod_short.md)] per ogni riga in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] per i mapping di tabella. In caso contrario, il risultato può essere record duplicati.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assistito**, quindi scegli il collegamento correlato.
 2. Scegliere **Impostare una connessione a Microsoft Dataverse** per avviare la guida al setup assistito.
 3. Compilare i campi in base alle esigenze.
 
@@ -75,7 +75,7 @@ La guida Setup connessione a Dataverse può semplificare la connessione delle ap
 
 La procedura seguente illustra come configurare la connessione manualmente nella pagina **Setup connessione a Dataverse**. Questa è anche la pagina in cui si gestiscono le impostazioni per l'integrazione.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup connessione Dataverse** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup connessione a Dataverse**, quindi scegli il collegamento correlato.
 2. Immettere le seguenti informazioni per la connessione da [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Campo|Descrizione|
@@ -106,6 +106,28 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Aggiornare le connessioni da Business Central Online per utilizzare l'autenticazione basata su certificato
+> [!NOTE]
+> Questa sezione è pertinente solo per i tenant di Business Central online ospitati da Microsoft. I tenant online ospitati dagli ISV e le installazioni locali non sono interessati.
+
+Ad aprile 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] depreca il tipo di autenticazione di Office365 (nome utente/password). Per ulteriori informazioni, vedi [Deprecazione del tipo di autenticazione Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Inoltre, nel marzo 2022, [!INCLUDE[prod_short](includes/prod_short.md)] depreca l'uso dell'autenticazione da servizio a servizio basata su segreto client per i tenant online e richiede l'uso dell'autenticazione da servizio a servizio basata su certificato per le connessioni a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. I tenant [!INCLUDE[cds_long_md](includes/cds_long_md.md)] online ospitati da ISV e le installazioni locali possono continuare a usare l'autenticazione di Office365 configurata dal partner Microsoft.
+
+Per evitare di interrompere le integrazioni, _devi aggiornare_ la connessione per utilizzare l'autenticazione basata su certificato. Sebbene la modifica sia prevista per marzo 2022, ti consigliamo vivamente di eseguire l'upgrade il prima possibile. I passaggi seguenti descrivono come eseguire l'aggiornamento all'autenticazione basata su certificato. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Per aggiornare la connessione di Business Central online per utilizzare l'autenticazione basata su certificato
+> [!NOTE]
+> L'autenticazione basata su certificato è disponibile nel primo ciclo di rilascio di Business Central 2021 e versioni successive. Se usi una versione precedente, devi pianificare un aggiornamento al primo ciclo di rilascio di Business Central 2021 prima di marzo 2022. Per ulteriori informazioni, vedi [Programmazione degli aggiornamenti](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Se riscontri problemi, contatta il tuo partner o l'assistenza.
+
+1. Nell'[interfaccia di amministrazione di Business Central]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verifica di utilizzare il primo ciclo di rilascio di Business Central 2021 o versione successiva (versione 18 o successiva).
+2. A seconda dell'integrazione o meno con Dynamics 365 Sales, esegui una delle seguenti operazioni:
+   * Se integri, apri la pagina **Setup connessione a Microsoft Dynamics 365**.
+   * In caso contrario, apri la pagina **Setup connessione a Dataverse**.
+3. Scegli **Connessione**, poi **Usa autenticazione certificato** per aggiornare la connessione e utilizzare l'autenticazione basata su certificato.
+4. Accedi con le credenziali di amministratore per Dataverse. L'accesso dovrebbe richiedere meno di un minuto.
+
+> [!NOTE]
+> Devi ripetere questi passaggi in ciascun ambiente [!INCLUDE[prod_short](includes/prod_short.md)], compresi gli ambienti di produzione e sandbox, e in ogni azienda per cui hai una connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ## <a name="connecting-on-premises-versions"></a>Connessione alle versioni locali
 
@@ -149,7 +171,7 @@ I seguenti passaggi presuppongono che si stia utilizzando Azure AD per gestire i
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Per disconnettersi da [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup connessione Dataverse** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup connessione a Dataverse**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup connessione a Dataverse**, disattiva l'opzione **Abilitato**.  
 
 ## <a name="see-also"></a>Vedere anche

@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Flusso warehouse in entrata | Microsoft Docs'
-description: Il flusso in entrata in una warehouse inizia quando gli articoli arrivano nella warehouse dell'ubicazione della società, ricevuti dalle origini esterne o da un'altra ubicazione della società. Un impiegato registra gli articoli, in genere eseguendo la scansione di un codice a barre. Dal dock di ricezione, le attività di magazzino vengono eseguite a livelli diversi di complessità per introdurre gli articoli nell'area di immagazzinamento.
+title: Dettagli di progettazione - Flusso warehouse in entrata
+description: Il flusso di warehouse in entrata inizia quando gli articoli arrivano nell'ubicazione della società di warehouse. Gli articoli vengono registrati ed eventualmente associati ai documenti di origine in entrata.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215180"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441774"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in entrata
 Il flusso in entrata in una warehouse inizia quando gli articoli arrivano nella warehouse dell'ubicazione della società, ricevuti dalle origini esterne o da un'altra ubicazione della società. Un impiegato registra gli articoli, in genere eseguendo la scansione di un codice a barre. Dal dock di ricezione, le attività di magazzino vengono eseguite a livelli diversi di complessità per introdurre gli articoli nell'area di immagazzinamento.  
@@ -51,7 +51,7 @@ Nei metodi A, B e C, le azioni di carico e di stoccaggio sono combinate in un un
 ## <a name="basic-warehouse-configurations"></a>Configurazioni di base della warehouse  
 Nel diagramma seguente vengono illustrati i flussi warehouse in entrata per tipo di documento nelle configurazioni di base della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
-![Flusso in entrata nelle configurazioni di base della warehouse](media/design_details_warehouse_management_inbound_basic_flow.png "Flusso in entrata nelle configurazioni di base della warehouse")  
+![Flusso in entrata nelle configurazioni di base della warehouse.](media/design_details_warehouse_management_inbound_basic_flow.png "Flusso in entrata nelle configurazioni di base della warehouse")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Rilasciare il documento di origine / Creare stoccaggio di inventario  
 Quando gli articoli vengono caricati nella warehouse, l'utente responsabile della ricezione pubblica il documento di origine, ad esempio un ordine di acquisto o di trasferimento in entrata, per segnalare agli addetti alla warehouse che gli articoli caricati possono essere stoccati in magazzino. In alternativa, l'utente crea documenti di stoccaggio magazzino per le singole righe ordine, in modalità push, in base alle collocazioni specificate e le quantità da gestire.  
@@ -70,7 +70,7 @@ Vengono creati i movimenti contabili articoli positivi e i movimenti warehouse e
 ## <a name="advanced-warehouse-configurations"></a>Configurazioni avanzate della warehouse  
 Nel diagramma seguente viene illustrato il flusso warehouse in entrata per tipo di documento nelle configurazioni avanzate della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
-![Flusso in entrata nelle configurazioni avanzate della warehouse](media/design_details_warehouse_management_inbound_advanced_flow.png "Flusso in entrata nelle configurazioni avanzate della warehouse")  
+![Flusso in entrata nelle configurazioni avanzate della warehouse.](media/design_details_warehouse_management_inbound_advanced_flow.png "Flusso in entrata nelle configurazioni avanzate della warehouse")  
 
 ### <a name="1-release-source-document"></a>1: Rilasciare documenti di origine  
 Quando gli articoli vengono caricati nella warehouse, l'utente responsabile della ricezione pubblica il documento di origine, ad esempio un ordine di acquisto o di trasferimento in entrata, per segnalare agli addetti alla warehouse che gli articoli caricati possono essere stoccati in magazzino.  

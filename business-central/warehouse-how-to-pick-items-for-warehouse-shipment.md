@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Prelevare articoli per la spedizione warehouse | Documenti Microsoft'
-description: Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi e delle spedizioni warehouse, è possibile utilizzare i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima della registrazione della spedizione warehouse.
+title: Prelevare articoli per la spedizione warehouse
+description: Informazioni su come utilizzare i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima di registrare la spedizione warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f9cc098fc414afcf015821dadbfbe438ca157ef
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b5b92c04fea101959c32775c768bbbaab22a7c3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771756"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441862"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi e delle spedizioni warehouse, è possibile utilizzare i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima della registrazione della spedizione warehouse.  
@@ -38,7 +38,7 @@ In alternativa, è possibile utilizzare la pagina **Prospetto prelievi** per est
 >  Per informazioni sul prelievo generale di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio non fa parte di una spedizione vendita, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md)..  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Per prelevare articoli per la spedizione warehouse  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 
     Se è necessario utilizzare un determinato prelievo, selezionare il prelievo dalla lista oppure filtrare la lista per individuare i prelievi specificatamente assegnati a se stessi. Aprire la scheda prelievo.  
 2.  Se il campo **ID utente assegnato** è vuoto, immettere il proprio ID per identificarsi, se necessario.  

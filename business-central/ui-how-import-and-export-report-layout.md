@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784667"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441070"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importare ed esportare layout di report personalizzati
 È possibile esportare e importare un layout di report personalizzato esistente come file da e verso un computer o una rete. Ad esempio, è possibile esportare un layout di report e inviare il file a un'altra persona per essere modificato. Dopo le modifiche, il file può essere importato nuovamente.  
@@ -25,7 +25,7 @@ ms.locfileid: "5784667"
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Per esportare un layout di report verso un file  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
 
 2.  Selezionare la riga per il report che contiene il layout di report personalizzato che si desidera esportare, quindi scegliere l'azione **Layout personalizzati**.  
 
@@ -39,7 +39,7 @@ ms.locfileid: "5784667"
 
      Un file del layout di report Word deve avere l'estensione .docx. Un file del layout di report RDLC deve avere l'estensione .rdl o .rdlc.  
 
-2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
+2.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
 
 3.  Selezionare la riga per il report nel quale si desidera importare il layout di report, quindi scegliere l'azione **Layout personalizzati**.  
 

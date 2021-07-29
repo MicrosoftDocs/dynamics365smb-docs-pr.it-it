@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 777de65d2cda454491b6c3ea82ebb99d4839dce4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb1469242408164f73296f27f5cadd432b15fa2e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780384"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441474"
 ---
 # <a name="use-resources-for-jobs"></a>Utilizzare le risorse per le commesse
 Si registra l'utilizzo di risorse nelle registrazioni commesse per tenere traccia dei costi, dei prezzi e dei tipi di lavoro che sono collegati alle commesse. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
@@ -31,14 +31,14 @@ Si può anche registrare l'utilizzo di una risorsa nelle registrazioni risorse. 
 È possibile assegnare le risorse alle commesse creando righe di pianificazione commessa per la commessa. Per ulteriori informazioni, vedere [Creare le commesse](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Per registrare l'utilizzo delle risorse per una commessa
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni commesse** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.
 2. Aprire il batch di registrazioni delle commesse interessato e compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Una volta completate le registrazioni, scegliere l'azione **Registra**.
 
 ## <a name="to-adjust-resource-prices"></a>Per rettificare i prezzi delle risorse
 Se si desidera modificare i costi o i prezzi di un gran numero di risorse, si può usare un processo batch.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rettifica costi/prezzi risorse** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Rettifica costi/prezzi risorse**, quindi scegli il collegamento correlato.
 2. Compilare i campi su una riga in base alle esigenze, quindi scegliere **OK**.
 
 > [!NOTE]  
@@ -47,7 +47,7 @@ Se si desidera modificare i costi o i prezzi di un gran numero di risorse, si pu
 ## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi alternativi esistenti
 Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, è possibile utilizzare un processo batch per impostare più prezzi di risorse alternativi.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modifiche prezzi risorse** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modifiche prezzi risorse**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Sugg. modif. prezzo ris. (prezzo)** e compilare i campi in base alle esigenze.
 3. Scegliere il pulsante **OK**.  
 4. Al termine del processo batch, i relativi risultati saranno visualizzati nella pagina **Modifiche prezzi risorsa**.
@@ -55,7 +55,7 @@ Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi standard
 Se si desidera impostare più prezzi di risorsa alternativi basati sui prezzi standard nelle schede risorse, è possibile utilizzare un processo batch .  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modifiche prezzi risorse** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modifiche prezzi risorse**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Sugg. mod. prezzo ris. (ris.)** e compilare i campi in base alle esigenze.  
 3. Scegliere il pulsante **OK**.  
 4. Al termine del processo batch, aprire la pagina **Modifiche prezzi risorsa** per visualizzarne i risultati.
@@ -63,7 +63,7 @@ Se si desidera impostare più prezzi di risorsa alternativi basati sui prezzi st
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi alternativi
 Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, è possibile utilizzare un processo batch per impostare più prezzi di risorse alternativi.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Sugg. mod. prezzo ris.(prezzo)** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Sugg. mod. prezzo ris. (prezzo)**, quindi scegli il collegamento correlato.  
 2. Compilare i campi, se necessario.
 3. Scegliere il pulsante **OK**.  
 4. Al termine del processo batch, aprire la pagina **Modifiche prezzi risorsa** per visualizzarne i risultati.

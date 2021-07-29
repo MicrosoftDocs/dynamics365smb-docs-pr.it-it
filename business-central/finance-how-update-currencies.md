@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184451"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441624"
 ---
 # <a name="update-currency-exchange-rates"></a>Aggiornare i tassi di cambio valuta
 
@@ -23,7 +23,10 @@ Successivamente, è necessario impostare i codici valuta per ogni valuta che uti
 > [!Important]
 > Non creare il codice valuta locale sia nella pagina **Setup contabilità generale** che nella pagina **Valute**. Ciò creerà confusione tra la valuta vuota e il codice LCY nella tabella delle valute e potrebbero essere creati accidentalmente conti bancari, clienti o fornitori, alcuni con la valuta vuota e altri con il codice LCY.
 
-La contabilità generale è impostata per utilizzare la valuta locale (VL) ma è anche possibile impostarla per l'uso di un'altra valuta con un tasso di cambio della valuta assegnato. Se si imposta una seconda valuta come valuta contabile addizionale, in [!INCLUDE[prod_short](includes/prod_short.md)] gli importi in ogni movimento C/G e in tutti gli altri movimenti, ad esempio i movimenti IVA, vengono registrati automaticamente sia nella valuta locale che nella valuta addizionale. Per ulteriori informazioni, vedere [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md). La valuta di rendicontazione aggiuntiva viene spesso utilizzata per facilitare la rendicontazione finanziaria ai proprietari che risiedono in paesi/aree geografiche che utilizzano valute diverse dalla valuta locale (LCY).
+La contabilità generale è impostata per utilizzare la valuta locale (VL) ma è anche possibile impostarla per l'uso di un'altra valuta con un tasso di cambio della valuta assegnato. Se si imposta una seconda valuta come valuta contabile addizionale, in [!INCLUDE[prod_short](includes/prod_short.md)] gli importi in ogni movimento C/G e in tutti gli altri movimenti, ad esempio i movimenti IVA, vengono registrati automaticamente sia nella valuta locale che nella valuta addizionale. Per ulteriori informazioni, vedere [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md). La valuta di rendicontazione aggiuntiva viene spesso utilizzata per facilitare la rendicontazione finanziaria ai proprietari che risiedono in paesi/aree geografiche che utilizzano valute diverse dalla valuta locale (LCY).  
+
+> [!IMPORTANT]
+> Se desideri utilizzare una valuta aggiuntiva per i report finanziari, assicurati di aver compreso le limitazioni. Per ulteriori informazioni, vedere [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valute
 
@@ -66,6 +69,8 @@ Specificare i codici valuta in **Valute**, comprese le informazioni e le imposta
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Esempio di una transazione in valuta esigibile
 
+Quando ricevi una fattura da un'azienda in valuta estera, è abbastanza facile calcolare il valore in valuta locale (VL) della fattura in base al tasso di cambio corrente. Tuttavia, la fattura spesso viene fornita con termini di pagamento in modo da poter ritardare il pagamento a una data successiva, il che implica un tasso di cambio potenzialmente diverso. Questo problema, in combinazione con il fatto che i tassi di valuta bancaria differiscono sempre dai tassi di valuta ufficiali, rende impossibile anticipare l'importo esatto in valuta locale (VL) richiesto per coprire la fattura. Se la data di scadenza della fattura si estende al mese successivo, potrebbe essere necessario rivalutare l'importo in valuta locale (VL) alla fine del mese. La rettifica della valuta è necessaria perché il nuovo valore VL richiesto per coprire l'importo della fattura potrebbe essere diverso e il debito della società nei confronti del fornitore è potenzialmente cambiato. Il nuovo importo VL potrebbe essere superiore o inferiore all'importo precedente e rappresenta quindi un guadagno o una perdita. Tuttavia, poiché la fattura non è stata ancora pagata, si considera l'utile o la perdita come *non realizzati*. Successivamente, la fattura viene pagata e la banca restituisce il tasso di cambio effettivo per il pagamento. Fino ad allora l'utile o la perdita *realizzati* non vengono calcolati. L'utile o la perdita non realizzati vengono quindi stornati e al loro posto vengono registrati l'utile o la perdita realizzati.
+
 Nell'esempio seguente, il 1° gennaio viene ricevuta una fattura con l'importo in valuta di 1000. Al momento il tasso di cambio è 1,123.
 
 |Date|Azione|Importo valuta|Aliquota documento|Importo LCY nel documento|Tasso di cambio|Importo utili non realizzati|Aliquota Pagamento|Importo perdite realizzate|  
@@ -85,7 +90,7 @@ Infine, il pagamento viene registrato e la perdita effettiva viene registrata ne
 
 ## <a name="available-currency-functions"></a>Funzioni valuta disponibili
 
-la tabella seguente illustra le azioni chiave sulla pagina ***Valute**. alcune delle azioni sono spiegate nelle sezioni successive.  
+La tabella seguente illustra le azioni chiave sulla pagina **Valute**. Alcune delle azioni sono spiegate nelle sezioni successive.  
 
 |Menu|Azione|Descrizione|
 |-------------|--------------|------------------------------|
@@ -117,14 +122,14 @@ In generale, i valori dei campi **Importo del tasso di cambio** e **Importo del 
 
 > [!Note]
 > Il tasso di cambio effettivo verrà calcolato utilizzando questa formula:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
 L'importo del tasso di cambio di rettifica o l'importo del tasso di cambio di rettifica relazionale verrà utilizzato per aggiornare tutte le transazioni bancarie, attive o passive aperte.  
 
 > [!Note]
 > Il tasso di cambio effettivo verrà calcolato utilizzando questa formula:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Rettifica di tassi di cambio
@@ -143,12 +148,15 @@ Per i conti di clienti e fornitori, la valuta viene rettificata in base al tasso
 Il processo batch consente di elaborare tutti i movimenti registro clienti e i movimenti fornitori aperti. Se per un movimento vi è una differenza di tasso di cambio, il processo batch crea un nuovo registro fornitori o un nuovo registro clienti dettagliato, che riflette l'importo rettificato nel registro fornitori o clienti.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensioni nei movimenti clienti e fornitori
+
 Ai movimenti di rettifica vengono assegnate le dimensioni dei movimenti del registro clienti/fornitori e le rettifiche vengono registrate per combinazione di valori di dimensione.
 
 ### <a name="effect-on-bank-accounts"></a>Effetto su conti correnti bancari
+
 Per i conti correnti bancari, la valuta viene rettificata utilizzando il tasso di cambio valido alla data di registrazione specificata nel processo batch. Durante il processo batch vengono calcolate le differenze per ogni conto corrente bancario che ha un codice di valuta, quindi gli importi vengono registrati nel conto C/G specificato nel campo **Conto utili realizzati** o nel campo **Conto Perdite Realizzate** della pagina **Valuta**. I movimenti rettificativi vengono automaticamente registrati nei conti correnti bancari CoGe specificati nelle categorie di registrazione dei conti correnti bancari. Viene calcolato un solo movimento per valuta per categoria di registrazione.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Dimensioni nei movimenti di conti correnti bancari
+
 Ai movimenti di rettifica per il conto CoGe del conto corrente bancario e per il conto profitti/perdite vengono assegnate le dimensioni di default del conto corrente bancario.
 
 ### <a name="effect-on-gl-accounts"></a>Effetto su conti C/G
@@ -165,20 +173,20 @@ Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti i
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Per impostare un servizio dei tassi di cambio delle valute
 È possibile utilizzare un servizio esterno per mantenere aggiornati i tassi di cambio delle valute, ad esempio FloatRates.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Servizi tasso di cambio valuta** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Servizi di tassi di cambio valute**, quindi seleziona il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella pagina **Servizi tasso di cambio valuta** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Attivare il pulsante **Abilitato** per attivare per abilitare il servizio.
 
 > [!NOTE]
-> Il seguente video mostra un esempio di come connettersi a un servizio di cambio valuta, utilizzando la Banca centrale europea come esempio. Nel segmento che descrive come impostare le mappature dei campi, l'impostazione nella colonna **Sorgente** per il **Nodo padre per codice valuta** restituirà solo la prima valuta trovata. L'impostazione dovrebbe essere **/gesmes:Busta/Codice/Codice/Codice**.
+> Il seguente video mostra un esempio di come connettersi a un servizio di cambio valuta, utilizzando la Banca centrale europea come esempio. Nel segmento che descrive come impostare le mappature dei campi, l'impostazione nella colonna **Sorgente** per il **Nodo padre per codice valuta** restituirà solo la prima valuta trovata. L'impostazione deve essere `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Per aggiornare i tassi di cambio delle valute mediante un servizio
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Valute** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valute**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Aggiorna tassi di cambio**.
 
 Il valore nel campo **Tasso di cambio** della pagina **Valute** viene aggiornato con il tasso di cambio delle valute più recente.

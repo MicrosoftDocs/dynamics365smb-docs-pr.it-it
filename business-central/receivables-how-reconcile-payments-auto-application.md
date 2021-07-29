@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c13e41d102e2a7ff2ca80275571a1a05eea225e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a39798d56aa18dffa929d719cecd68a522bde00d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779049"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441987"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Riconciliare i pagamenti utilizzando il collegamento automatico
 
@@ -44,7 +44,7 @@ Per ogni riga di registrazione nella pagina **Registrazione riconciliazione paga
 > È possibile avviare l'importazione delle transazioni bancarie contemporaneamente all'apertura della pagina **Registrazione riconciliazione pagamenti** per la registrazione esistente. Nella procedura riportata di seguito viene descritto come importare le transazioni bancarie nella pagina **Registrazione riconciliazione pagamenti** dopo avere creato nuove registrazioni.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Per riconciliare i pagamenti utilizzando il collegamento automatico
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni riconciliazione pagamenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni riconciliazione pagamenti**, quindi scegli il collegamento correlato.
 2. Per utilizzare nuove registrazioni riconciliazione pagamenti, scegliere l'azione **Nuove registrazioni**.
 3. Nella pagina **Lista C/C bancari pagamenti** selezionare il conto bancario per il quale si desidera riconciliare i pagamenti, quindi scegliere **OK**.
    Verrà aperta la pagina **Registrazione riconciliazione pagamenti** predisposta per il conto corrente bancario selezionato.

@@ -1,6 +1,6 @@
 ---
-title: Ottenere una panoramica della disponibilità| Documenti Microsoft
-description: È possibile ottenere informazioni su come visualizzare la disponibilità di articoli o scorte tra le ubicazioni, per eventi di vendita o di acquisto, in base a un periodo di tempo o alla posizione dell'articolo su una DB di assemblaggio o di produzione.
+title: Ottenere una panoramica della disponibilità
+description: Informazioni su come visualizzare la disponibilità di articoli o scorte tra le ubicazioni, per eventi di vendita o di acquisto, in base a un periodo di tempo e altro.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e5be238c74496ca92c0f26ef0c2a1377a6c93466
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786070"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441195"
 ---
 # <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
 Dal contesto di un task di business, è possibile ottenere informazioni avanzate relative al momento e all'ubicazione in cui un articolo è disponibile, ad esempio quando si parla con un cliente per proporre una data di consegna.
 
-È possibile visualizzare la disponibilità di tutti gli articoli per ubicazione ed è possibile visualizzare la disponibilità di ciascun articolo per evento, periodo o ubicazione. Per evento si intende qualsiasi transazione articolo pianificata, ad esempio una spedizione o un carico di trasferimento in entrata.
+È possibile visualizzare la disponibilità di tutti gli articoli per ubicazione ed è possibile visualizzare la disponibilità di ciascun articolo per evento o periodo. Per evento si intende qualsiasi transazione articolo pianificata, ad esempio una spedizione o un carico di trasferimento in entrata.
 
 > [!NOTE]  
 >   Le visualizzazioni di disponibilità per ubicazione richiedono che si disponga di un magazzino presso più di un'ubicazione. Per ulteriori informazioni, vedere [Impostare le ubicazioni](inventory-how-setup-locations.md).
@@ -42,7 +42,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], i dati relativi alla disponib
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Per visualizzare la disponibilità di un articolo secondo quando verrà ricevuto o spedito
 Si visualizza la disponibilità di un articolo secondo le transazioni pianificate dell'articolo nella pagina **Disponibilità articolo per evento**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Aprire la scheda di un articolo per cui si desidera visualizzare la disponibilità.
 3. Scegliere l'azione **Disponibilità articolo per** quindi scegliere l'azione **Evento**.
 
@@ -52,8 +52,8 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Per visualizzare la disponibilità di un articolo in diversi periodi di tempo
 È possibile visualizzare la disponibilità di un articolo nel tempo per periodi specificati nella pagina **Disponibilità art. per periodi**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
-2. Aprire la scheda di un articolo per cui si desidera visualizzare la disponibilità.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+2. Apri la scheda di un articolo per cui vuoi visualizzare la disponibilità.
 3. Scegliere l'azione **Disponibilità articolo per** quindi scegliere l'azione **Periodo**.
 
     La pagina **Disponibilità articolo per periodo** mostra come le quantità di magazzino dell'articolo si svilupperanno nel tempo in base al periodo selezionato, ad esempio giorno, settimana oppure trimestre.
@@ -62,8 +62,8 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Per visualizzare la disponibilità di un articolo nelle ubicazioni dove è immagazzinato
 È possibile visualizzare la disponibilità di un articolo presso i luoghi diversi dove viene immagazzinato nella pagina **Disp. art. per ubicazione**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
-2. Aprire la scheda di un articolo per cui si desidera visualizzare la disponibilità.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+2. Apri la scheda di un articolo per cui vuoi visualizzare la disponibilità.
 3. Scegliere l'azione **Disponibilità articolo per** quindi scegliere l'azione **Ubicazione**.
 
     La pagina **Disponibilità articolo per ubicazione** mostra come le quantità di magazzino dell'articolo si svilupperanno nel futuro in ogni ubicazione in cui è immagazzinato.
@@ -73,7 +73,7 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Per visualizzare la disponibilità di tutti gli articoli in base all'ubicazione in cui sono immagazzinati
 È possibile visualizzare la disponibilità di tutti gli articoli in tutte le ubicazioni nella pagina **Articoli per ubicazione**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Articoli per ubicazione**.
 
     La pagina **Articoli per ubicazione** mostra per tutti gli articoli le quantità disponibili in ogni ubicazione.

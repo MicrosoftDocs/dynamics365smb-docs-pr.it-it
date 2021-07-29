@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Pianificare prelievi nei prospetti | Documenti Microsoft'
-description: Se la warehouse prevede l'elaborazione dei prelievi e delle spedizioni, è possibile fare in modo che le righe dei documenti di spedizione non vengano convertite automaticamente in istruzioni di prelievo, bensì vengano rese disponibili per il prospetto prelievi.
+title: Come pianificare prelievi nei prospetti
+description: Scopri come la warehouse può scegliere di operare in modo che le righe sui documenti di spedizione siano rese disponibili per il prospetto prelievi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 55ac86ff992709bb454eaadfa65d8d5eed98732e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782586"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441837"
 ---
 # <a name="plan-picks-in-worksheets"></a>Pianificare prelievi nei prospetti
 
@@ -39,11 +39,11 @@ Se di effettua l'ordinamento in base alla data di scadenza, è possibile sceglie
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Per pianificare prelievi nel prospetto
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prelievi** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Prendi documenti warehouse**.  
 3. Selezionare le spedizioni per cui preparare un prelievo. A questo punto, le righe possono essere ordinate solo in certa misura, ma l'ordinamento specificato in questa fase non viene applicato all'istruzione di prelievo. È inoltre possibile eliminare alcune righe per creare un prelievo più efficace. Se ad esempio vi sono diverse righe con articoli nelle collocazioni di cross-dock, può essere utile creare un prelievo per tutte le righe associate a tali righe. Gli articoli sottoposti a cross-dock verranno spediti insieme agli altri articoli e nelle collocazioni di cross-dock sarà disponibile una maggiore quantità di spazio per ulteriori articoli in entrata.  
 4. Scegliere l'azione **Crea prelievo** e compila la pagina di richiesta **Crea prelievo**. Le righe di prelievo create verranno ordinate in base ai criteri di ordinamento specificati in questa finestra. È ad esempio possibile creare un prelievo per ciascuna zona e ordinare le righe in base alla valutazione della collocazione all'interno di ciascun prelievo.  
-5. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi warehouse** e quindi scegliere il collegamento correlato. Viene visualizzata la pagina **Prelievi warehouse**.  
+5. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi warehouse**, quindi scegli il collegamento correlato. Viene visualizzata la pagina **Prelievi warehouse**.  
 6. È possibile individuare l'assegnazione di prelievo appena creata selezionando il prelievo con il numero più elevato.  
 7. Se necessario, modificare l'ID utente assegnato e la modalità di ordinamento delle righe nel prelievo.  
 8. Scegliere l'azione **Stampa** per stampare le istruzioni per il prelievo.  

@@ -1,6 +1,6 @@
 ---
-title: Modificare manualmente i costi degli articoli| Documenti Microsoft
-description: È possibile modificare la valutazione di magazzino di un articolo mediante i metodi di costing Media o FIFO, ad esempio, quando i costi degli articoli cambiano per i motivi diversi dalle transazioni.
+title: Modificare manualmente i costi degli articoli
+description: È possibile modificare la valutazione di magazzino di un articolo mediante i metodi di costing Media o FIFO quando cambiano i costi dei prodotti.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 43a99fb56bd2d941faca34f72f9100b3cc9fd0fb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7ed2e9ebad96d29c9fc2d73e426b6e37f577f9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786095"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441220"
 ---
 # <a name="adjust-item-costs"></a>Rettifica costi articolo
 Il costo di un articolo (valore di magazzino) che si acquista e in seguito si vende può variare nel tempo, ad esempio perché un costo di spedizione viene aggiunto al costo di acquisto dopo che è stato venduto l'articolo. La rettifica dei costi è un'operazione particolarmente importante nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Per conoscere sempre il valore di magazzino corretto, i costi degli articoli devono quindi essere regolarmente rettificati. In questo modo si garantisce che le statistiche relative ai margini siano aggiornate e che gli indicatore KPI finanziari siano corretti. Per ulteriori informazioni, vedere [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md).
@@ -37,7 +37,7 @@ Se si utilizza il metodo di costing Media, il costo unitario di un articolo vien
 Tramite i processi della funzione di rettifica dei costi vengono elaborati solo i movimenti di valorizzazione che non sono ancora stati rettificati. Se si verifica una situazione in cui è necessario trasferire costi in entrata modificati ai movimenti in uscita associati, vengono creati nuovi movimenti di valorizzazione di rettifica, basati sulle informazioni dei movimenti di valorizzazione originali, ma che contengono l'importo di rettifica. La funzione di rettifica dei costi viene utilizzata la data di registrazione del movimento di valorizzazione originale, a meno che tale data non sia inclusa in un periodo di magazzino chiuso. In tal caso, viene utilizzata la data di inizio del successivo periodo di magazzino aperto. Se non si utilizzano i periodi magazzino, la data nel campo **Consenti registraz. da** della pagina **Setup contabilità generale** verrà definita quando la rettifica viene registrata.
 
 ## <a name="to-adjust-item-costs-manually"></a>Per rettificare i costi degli articoli manualmente
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rettifica costo - Movimenti articoli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Rettifica costo - Mov. art.**, quindi scegli il collegamento correlato.
 2. Nella pagina **Rettifica costo - Movimenti articoli** specificare per quali articoli rettificare i costi.
 3. Scegliere il pulsante **OK**.
 
@@ -46,7 +46,7 @@ Se si desidera modificare il costo diretto unitario per vari articoli, si può u
 
  Il processo batch modificherà il contenuto del campo **Prezzo unitario** della scheda articolo. Il contenuto del campo verrà modificato nello stesso modo per tutti gli articoli o per quelli selezionati. La modifica viene eseguita moltiplicando il valore nel campo per un fattore di rettifica specificato.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rettifica costi/prezzi articoli** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Rettifica costi/prezzi articoli**, quindi scegli il collegamento correlato.  
 2. Nel campo **Rettifica campo**, indicare il campo della scheda articolo o SKU da rettificare.  
 3. Nel campo **Fattore rettifica** specificare il fattore in base al quale il valore verrà rettificato. Ad esempio, immettere **1,5** per aumentare il valore del 50%.  
 4. Nella Scheda dettaglio **Articolo**, impostare i filtri per specificare, per esempio, gli articoli da lavorare con il processo batch.  

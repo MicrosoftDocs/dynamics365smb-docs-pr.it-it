@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c17aec818a65aef9e298b40301142cbb40715306
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2e178778e51d63c3398fd4a870bf41fa8b1a086f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782332"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442212"
 ---
 # <a name="revalue-fixed-assets"></a>Rivalutazione dei cespiti
 La rivalutazione dei cespiti può essere costituita da rivalutazioni, svalutazioni o rettifiche dei valori generali.
@@ -28,7 +28,7 @@ Quando il valore di un cespite è diminuito, si registra una riga di registrazio
 L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le modifiche generali a livello di prezzo. Il processo batch **Indice cespiti** consente di modificare vari importi quali gli importi di svalutazione e di rivalutazione.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Per registrare una rivalutazione tramite Registrazioni Cespiti in C/G
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
 2. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze.
 3. Nel campo **Tipo reg. cespite** scegliere **Rivalutazione**.
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della rivalutazione.
@@ -38,7 +38,7 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 5. Scegliere l'azione **Registra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Per registrare una svalutazione tramite Registrazioni Cespiti in C/G
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
 2. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze.
 3. Nel campo **Tipo reg. cespite** scegliere **Svalutazione**.
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della svalutazione.
@@ -50,12 +50,12 @@ L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Per eseguire la rivalutazione generali dei cespiti
 L'indicizzazione consente di correggere i valori di più cespiti, ad esempio le modifiche generali a livello di prezzo. Il processo batch **Indice cespiti** consente di modificare vari importi quali gli importi di svalutazione e di rivalutazione. La casella di controllo **Permetti indicizzazione** nella pagina **Registro beni ammortizzabili** deve essere selezionata.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Indice cespiti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Indice cespiti**, quindi scegli il collegamento correlato.  
 2. Compilare i campi, se necessario.
 3. Scegliere il pulsante **OK**.
 
     Le righe di rivalutazione vengono create in base alle impostazioni del passaggio 2. Le righe vengono create nella registrazione cespiti o nella registrazione cespiti in C/G, a seconda dell'impostazione del batch e del modello nella pagina **Setup registrazioni cespiti**. Per ulteriori informazioni, vedere [Impostare i valori generali per i cespiti](fa-how-setup-general.md).
-4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
+4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
 5. Selezionare la registrazione con i cespiti da rivalutare, quindi scegliere l'azione **Movimenti contabili**.  
 6. Controllare i movimenti creati quindi scegliere l'azione **Registra** per eseguire la registrazione.
 

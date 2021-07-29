@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935313"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440876"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Utilizzo delle app [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
 
@@ -63,7 +63,7 @@ Iscriversi al servizio Power BI. Se non si è già registrati andare a [https://
 1. Aprire il browser, passare a [https://powerbi.microsoft.com](https://powerbi.microsoft.com) e accedere al proprio account.
 2. Selezionare **Ottieni i dati** nella parte inferiore del riquadro di spostamento sinistro.  
 
-    ![Passare a Ottieni i dati](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Passa a Ottieni i dati.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     È inoltre possibile iniziare da [!INCLUDE [prod_short](includes/prod_short.md)]. Nella Home page, passare a **Selezione report** nella sezione Power BI. Selezionare **Assistenza** o **Organizzazione personale** dalla barra multifunzione. La raccolta dell'organizzazione in Power BI o Microsoft AppSource si apre, filtrata per visualizzare solo le app relative a [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,7 +89,7 @@ Iscriversi al servizio Power BI. Se non si è già registrati andare a [https://
 5. Quando richiesto, immettere il nome utente e la password per l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Dopo la connessione, un dashboard e i report vengono aggiunti all'area di lavoro Power BI. Al termine, i riquadri visualizzano i dati della società [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    ![Selezionare Dynamics 365 Business Central e quindi Ottienilo ora.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Seleziona Dynamics 365 Business Central e Ottienilo ora.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Risolvere i problemi
 

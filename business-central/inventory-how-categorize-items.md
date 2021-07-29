@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 55196b8026e5efc5a79ce1a547e2ff594fae231c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b831443bd9e068b4c20f583cc8e0e7132d75ac5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786025"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441145"
 ---
 # <a name="categorize-items"></a>Classificare gli articoli
 
@@ -27,7 +27,7 @@ Per trovare gli articoli in base alle caratteristiche, è possibile assegnare gl
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
 ## <a name="to-create-an-item-category"></a>Per creare una categoria articolo
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie articoli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie articoli**, quindi scegli il collegamento correlato.
 2. Nella pagina **Categorie articoli** scegliere l'azione **Nuovo**.
 3. Nella pagina **Scheda categoria articolo**, nella Scheda dettaglio **Generale**, compilare i campi in base alle necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Nella Scheda dettaglio **Attributi**, specificare tutti gli attributi per la categoria articolo. Per ulteriori informazioni, vedere [Per assegnare attributi articolo alle categorie articoli](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
@@ -42,7 +42,7 @@ Se si cambia idea su una categoria di articoli, è possibile eliminarla. Tuttavi
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Per assegnare una categoria articolo a un articolo
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Aprire la scheda per l'articolo a cui si desidera assegnare una categoria articolo.
 3. Nel campo **Codice categoria articolo** scegliere il pulsante di ricerca e selezionare una categoria articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima una nuova categoria articolo come descritto in [Per creare una categoria articolo](inventory-how-categorize-items.md#to-create-an-item-category).
 

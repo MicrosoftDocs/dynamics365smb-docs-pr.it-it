@@ -1,6 +1,6 @@
 ---
-title: Come creare fatture di pagamenti anticipati | Microsoft Docs
-description: Informazioni su come gestire situazioni in cui un pagamento anticipato viene richiesto ai clienti o dal fornitore.
+title: Come creare fatture di pagamenti anticipati
+description: Informazioni su come gestire situazioni in cui un pagamento anticipato viene richiesto da te o dal fornitore. Usa le percentuali predefinite per ogni riga di vendita o di acquisto oppure rettifica l'importo come necessario.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 72a073fcde9ddf20df7c138ab544afb6719b93ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782165"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442187"
 ---
 # <a name="create-prepayment-invoices"></a>Creare fatture per i pagamenti anticipati
 
@@ -29,7 +29,7 @@ La procedura seguente descrive come fatturare un pagamento anticipato per un ord
 
 ## <a name="to-create-a-prepayment-invoice"></a>Per creare una fattura di pagamento anticipato
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Creare un nuovo ordine di vendita per un cliente pertinente. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
 
     Nella scheda dettaglio **Pagamento anticipato** il campo **% pagamento anticipato** specifica la percentuale da utilizzare per calcolare l'importo del pagamento anticipato. Se nella scheda cliente è impostata una percentuale pagamento anticipato di default, il campo viene compilato automaticamente. È possibile modificare la percentuale. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  

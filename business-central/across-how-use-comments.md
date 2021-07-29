@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6d7a5882829bb12620337c5985c31f85d69c5c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787209"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440976"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Aggiungere commenti a schede o documenti
 È possibile aggiungere informazioni supplementari a conti COGE, schede clienti o negli ordini di vendita per comunicare eccezioni o accordi speciali ad altri utenti.
@@ -31,8 +31,8 @@ Inoltre, è possibile specificare se i commenti devono essere trasferiti da un t
 Di seguito viene descritto come aggiungere un commento a una scheda articolo. I passaggi sono simili per tutte le altre schede e i documenti, eccetto nelle righe del documento, l'azione **Commenti** verrà inserita in un menu di azione delle righe.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Per aggiungere dei commenti alla scheda articolo
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
-2. Aprire la scheda articolo desiderata.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+2. Apri la scheda articolo desiderata.
 3. Scegliere l'azione **Commenti**.
 4. Nella pagina **Scheda Commenti** immettere il testo desiderato e quindi scegliere il pulsante **OK**.
 

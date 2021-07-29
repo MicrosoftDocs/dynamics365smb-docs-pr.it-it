@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 92965b353dadb78e50b11138a832115885518f4f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19cfc6b241e72d63a0f2c00ee43b32682cdeefae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780709"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441095"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Creare interazioni per i contatti e i segmenti
 È possibile creare interazioni per registrare tutte le interazioni e le comunicazioni intercorse con i contatti e i segmenti, ad esempio messaggi di posta.
@@ -38,7 +38,7 @@ Prima di creare interazioni, è necessario impostare i modelli di interazione. P
 3. Selezionare l'interazione che si desidera chiudere e scegliere l'azione **Riprendi**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Per creare un'interazione in un segmento
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Segmenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Segmenti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Segmento**, nella sezione **Interazione**, compilare i campi per specificare l'interazione che si desidera assegnare al segmento.
 
     Una volta assegnata un'interazione al segmento, è possibile personalizzare l'interazione per ogni singolo contatto all'interno del segmento, ad esempio selezionando un altro modello di interazione nelle righe della pagina **Segmento**.  

@@ -1,6 +1,6 @@
 ---
-title: Assicurare i cespiti| Documenti Microsoft
-Description: È possibile assegnare un cespite a una polizza assicurativa che è rappresentata da una scheda assicurazione.
+title: Assicurazione di cespiti
+description: Puoi assegnare uno o più cespiti a una polizza assicurativa registrando nel registro di copertura assicurativa dalla pagina **Registr. assicuraz.**.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 134342fac90d133bc0891b72310f73aa807ab7ed
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89db12527ae6e2656f29277d9bb63c3dd258fb1f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777725"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441699"
 ---
 # <a name="insure-fixed-assets"></a>Assicurazione di cespiti
 La polizza assicurativa di un cespite è rappresentata da una scheda assicurazione. È possibile assegnare un solo cespite a una sola polizza assicurativa o più cespiti a una sola polizza assicurativa.
@@ -38,7 +38,7 @@ La polizza assicurativa di un cespite deve essere rappresentata da una scheda as
 
 In caso di ricezione di informazioni relative a modifiche dell'importo di copertura, è necessario immettere le nuove informazioni nella pagina **Scheda assicurazione** per assicurarsi che la copertura della polizza venga analizzata correttamente.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Assicurazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Assicurazione**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per creare una nuova scheda per una polizza assicurativa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In alternativa, selezionare la polizza assicurativa che si desidera modificare, quindi scegliere l'azione **Modifica**.
 
@@ -47,7 +47,7 @@ Assegnare un cespite a una polizza assicurativa mediante la registrazione al reg
 
 La seguente procedura illustra come creare manualmente una riga di registrazione assicurazioni. Se la casella di controllo **Reg. automatica assicurazione** è selezionata nella pagina **Setup cespiti**, le righe di registrazione assicurazioni vengono create automaticamente durante la registrazione dei costi di acquisto. In tal caso, è sufficiente registrare la registrazione.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni assicurazioni** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni assicurazioni**, quindi scegli il collegamento correlato.  
 2. Aprire la registrazione pertinente e compilare le righe di registrazione necessarie.  
 3. Per assegnare più cespiti a una sola polizza, creare righe di registrazione con lo stesso valore nel campo **Nr. assicurazione** e valori diversi nel campo **Nr. cespite**.  
 4. Scegliere l'azione **Registra**.  
@@ -58,7 +58,7 @@ La seguente procedura illustra come creare manualmente una riga di registrazione
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Per aggiornare il valore dell'assicurazione di un cespite
 Il processo batch **Indice Cespiti** consente di aggiornare il valore dei cespiti coperti da assicurazione.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Index Insurance** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Indice assicurazioni**, quindi scegli il collegamento correlato.
 2. Compilare i campi, se necessario.
 
     > [!NOTE]  
@@ -66,7 +66,7 @@ Il processo batch **Indice Cespiti** consente di aggiornare il valore dei cespit
 3. Scegliere il pulsante **OK**.  
 
    Tramite il processo batch verrà calcolato il nuovo importo come percentuale del valore totale assicurato, come indicato nella pagina **Statistiche Assicurazioni** e verrà creata una riga nelle registrazioni delle assicurazioni.  
-4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni assicurazioni** e quindi scegliere il collegamento correlato.  
+4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni assicurazioni**, quindi scegli il collegamento correlato.  
 5. Aprire la registrazione assicurazioni appropriata, esaminare i valori creati e registrarli nel registro di copertura assicurativa.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Per controllare la copertura assicurativa
@@ -92,13 +92,13 @@ Per controllare di non aver dimenticato di assegnare un cespite ad una polizza a
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>Per visualizzare i movimenti contabili di copertura assicurativa
 È possibile visualizzare i movimenti effettuati nel registro copertura assicurativa.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Assicurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Assicurazione**, quindi scegli il collegamento correlato.  
 2. Selezionare la polizza assicurativa rilevante e scegliere l'azione **Mov.cont. copert. assicurativa**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Per visualizzare il valore totale assicurato dei cespiti
 In una pagina della matrice dedicata vengono visualizzati i valori assicurativi registrati per ognuna delle polizze assicurative di ogni cespite come risultato degli importi contabilizzati a fini assicurativi registrati.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Assicurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Assicurazione**, quindi scegli il collegamento correlato.  
 2. Selezionare la polizza assicurativa rilevante e scegliere l'azione **Val. tot. assicurato per cespite**.  
 3. Compilare i campi, se necessario.  
 4. Scegliere l'azione **Mostra matrice**.  
@@ -107,7 +107,7 @@ In una pagina della matrice dedicata vengono visualizzati i valori assicurativi 
 ## <a name="to-correct-insurance-coverage-entries"></a>Per correggere i movimenti di copertura assicurativa
 Se un cespite è stato collegato a una polizza assicurativa errata, è possibile correggere creando due movimenti di riclassificazione dalla registrazione assicurazioni.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni assicurazioni** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni assicurazioni**, quindi scegli il collegamento correlato.  
 2. Creare una riga di registrazione per il cespite e la polizza assicurativa corretta in cui il valore del campo **Importo** è positivo.  
 3. Creare un'altra riga di registrazione per il cespite e la polizza assicurativa non corretta in cui il valore del campo **Importo** è negativo.  
 4. Scegliere l'azione **Registra**.  

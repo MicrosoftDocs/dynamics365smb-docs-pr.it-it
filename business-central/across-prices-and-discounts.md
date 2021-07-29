@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7988d7f1b40fed65078032d05c8b12d8e174bc90
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787234"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440826"
 ---
 # <a name="set-up-prices-and-discounts"></a>Impostare prezzi e sconti
 > [!NOTE]
@@ -47,7 +47,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Scegliere il cliente, quindi l'azione **Prezzi**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà un prezzo di vendita speciale al cliente.
 
@@ -58,7 +58,7 @@ Per default, lo stato dei nuovi listini prezzi è **Bozza**. Quando si è pronti
 
 Per rivedere i listini prezzi e i prezzi che si applicano a clienti o fornitori specifici, nella pagina **Cliente** o **Venditore** scegliere l'azione **Listini prezzi di vendita** o **Listini prezzi di acquisto**. Per articoli e risorse, è possibile visualizzare le righe del listino prezzi scegliendo **Prezzi di vendita** o **Prezzi di acquisto** nelle pagine **Articolo** e **Risorsa**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Scegliere il cliente, quindi l'azione **Listini prezzi di vendita**. 
 3. Scegliere **Nuovo** per creare un nuovo listino prezzi di vendita.
 4. Nelle Schede dettaglio **Generale** e **Imposta** compilare i campi appropriati. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +75,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Aprire la scheda cliente interessata e scegliere l'azione **Sconti riga**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà uno sconto riga vendita al cliente.
 
@@ -86,8 +86,8 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
-2. Scegliere il cliente, quindi l'azione **Listini prezzi di vendita**.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
+2. Scegli il cliente, quindi l'azione **Listini prezzi di vendita**.
 3. Aprire il listino prezzi per il quale specificare lo sconto riga.
 4. Attivare **Consenti sconto riga**.
 5. Creare una nuova riga o scegliere una riga esistente, quindi compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -118,7 +118,7 @@ Oltre a (oppure invece di) una percentuale di sconto, è possibile collegare l'i
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Per impostare uno sconto fattura per un cliente
 Dopo avere stabilito a quali clienti si devono applicare gli sconti fattura, è necessario immettere i codici di sconto fattura nelle schede clienti e impostare le condizioni relative ai singoli codici.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Aprire la pagina relativa al cliente al quale saranno applicati gli sconti fattura.
 3. Nel campo **Cod. sconto fatt.** selezionare un codice per le condizioni di sconto fattura in questione che verrà utilizzato per calcolare gli sconti fattura per il cliente. <!--Looks like I can only choose customers in this list-->
 
@@ -142,7 +142,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un singolo cliente per poterli utilizzare per un gruppo prezzi cliente, eseguire il processo batch **Suggerisci prezzo vendita in prosp.** nella pagina **Prospetto Prezzi Vendita**.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prezzi vendita** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto prezzi vendita**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci prezzo vendita in prosp.** .  
 3. Nella Scheda dettaglio **Prezzi vendita** immettere i prezzi di vendita originali che si desidera copiare nei campi **Tipo vendita** e **Codice vendita**.  
 4. Nella sezione superiore della pagina di richiesta compilare i campi **Tipo vendita** e **Codice vendita** con il tipo e il nome con cui si desidera copiare i prezzi di vendita.  
@@ -156,7 +156,7 @@ Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un s
 
 Lo stato del listino prezzi deve essere **Bozza**. 
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Listini prezzi di vendita** e quindi scegliere il collegamento correlato. 
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Listini prezzi di vendita**, quindi seleziona il collegamento correlato. 
 2. Scegliere il listino prezzi da copiare e quindi scegliere **Copia righe**.
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -172,7 +172,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 Eseguire il processo batch **Suggerisci prezzo articolo in prosp.** per aggiornare in blocco i prezzi degli articoli, come aumentare tutti i prezzi di una determinata percentuale. Il collegamento al processo batch è disponibile nella pagina **Prospetto Prezzi Vendita**.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prezzi vendita** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto prezzi vendita**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci prezzo articolo in prosp.** .  
 3. Nella Scheda dettaglio **Articolo**, riempire il campo **Nr.** o **Categoria registrazione magazzino** o altri campi con i prezzi degli articoli originali che si desidera aggiornare.  
 4. Nella sezione superiore della pagina di richiesta compilare i campi **Tipo vendita** e **Codice vendita** con il tipo e il nome con cui si desidera copiare i prezzi di vendita.

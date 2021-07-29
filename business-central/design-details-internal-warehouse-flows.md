@@ -1,6 +1,6 @@
 ---
-title: 'Dettagli di progettazione: Flussi warehouse interni | Microsoft Docs'
-description: Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine.
+title: Dettagli di progettazione - Flussi warehouse interni
+description: Il flusso tra i contenitori è incentrato sul prelievo dei componenti e sullo stoccaggio degli articoli finali per gli ordini di assemblaggio o di produzione e movimenti ad hoc, senza documenti di origine.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7be0a3907b59a17e6f77e4ae8eb3a36fc62d8f7a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215130"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441749"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Dettagli di progettazione: Flussi warehouse interni
 Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine. L'ambito e la natura delle attività implicate variano tra la gestione di base e avanzata della warehouse.  
@@ -114,7 +114,7 @@ Il flusso di articoli in una collocazione all'interno della società si concentr
 
  Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione** nell'elenco di componenti viene compilato in base all'ubicazione o all'impostazione area di produzione/centro di lavoro.  
 
- ![Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato](media/binflow.png "Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato")  
+ ![Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.](media/binflow.png "Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato")  
 
 ## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935163"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440751"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Ricerca di clienti, fornitori e altri contatti da Microsoft Teams
 
@@ -42,13 +42,13 @@ La casella di comando si trova nella parte superiore di ogni schermata in Teams.
 
 1. Nella casella di comando, digita **@Business Central**, quindi seleziona l'app Business Central dai risultati.
 
-    ![Apri l'app Business Central per cercare i contatti dalla casella di comando](media/teams-contacts-command-1.png)
+    ![Apri l'app Business Central per cercare i contatti dalla casella di comando.](media/teams-contacts-command-1.png)
 
 2. Nella casella **Business Central**, inizia a digitare il testo di ricerca, come un nome, un indirizzo o un numero di telefono.
 
     Durante la digitazione, verranno visualizzati i risultati corrispondenti.
 
-    ![Ricerca contatti Business Central dalla casella di comando in Teams](media/teams-contacts-command-2.png)
+    ![Ricerca contatti Business Central dalla casella di comando in Teams.](media/teams-contacts-command-2.png)
 3. Seleziona un contatto dai risultati.
 
     La scheda del contatto viene visualizzata sotto la casella di comando.
@@ -65,13 +65,13 @@ Il vantaggio di utilizzare la casella di composizione del messaggio è che puoi 
 
     Se non vedi l'icona **Business Central**, seleziona **... (Estensioni messaggi)**.
 
-    ![Apri l'app Business Central per cercare i contatti dalla casella del messaggio](media/teams-contacts-message-box.png)
+    ![Apri l'app Business Central per cercare i contatti dalla casella del messaggio.](media/teams-contacts-message-box.png)
 
 2. Nella casella **Business Central**, inizia a digitare il testo di ricerca, come un nome, un indirizzo o un numero di telefono.
 
     Durante la digitazione, verranno visualizzati i risultati corrispondenti.
 
-    ![Cerca i contatti Business Central dalla casella del messaggio](media/teams-contacts-5.png)
+    ![Cerca i contatti Business Central dalla casella del messaggio.](media/teams-contacts-5.png)
 3. Seleziona un contatto dai risultati.
 
     La scheda del contatto viene visualizzata nella casella di composizione del messaggio.
@@ -101,6 +101,8 @@ La scheda del contatto funziona come le schede per i record, come articoli, clie
 [Panoramica dell'integrazione di Business Central e Microsoft Teams](across-teams-overview.md)  
 [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
 [Domande frequenti su Teams](teams-faq.md)  
+[Modifica della società e di altre impostazioni in Teams](across-teams-settings.md)  
+[Condividere i record in Microsoft Teams](across-working-with-teams.md)  
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  
 [Sviluppo per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

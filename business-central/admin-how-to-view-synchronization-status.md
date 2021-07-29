@@ -1,6 +1,6 @@
 ---
-title: Visualizzare lo stato dei processi di sincronizzazione | Microsoft Docs
-description: Informazioni su come visualizzare lo stato dopo la sincronizzazione di record associati.
+title: Visualizzare lo stato dei processi d sincronizzazione
+description: Utilizza la pagina Errori di sincronizzazione dati associati per visualizzare lo stato dei lavori di sincronizzazione che sono stati eseguiti per i record associati in integrazioni.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b87bd1061adbcaae3a5497fa1af020cfaa412593
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781263"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441320"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visualizzare lo stato dei processi d sincronizzazione
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -35,7 +35,7 @@ Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizz
 -->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Per visualizzare e risolvere gli errori di sincronizzazione per record associati
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Errori di sincronizzazione dati associati** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Errori di sincronizzazione dati associati** e scegli il collegamento correlato.
 2. Nella pagina **Errori di sincronizzazione dati associati** vengono visualizzati i problemi verificatisi durante la sincronizzazione di record associati. La seguente tabella include le azioni che è possibile utilizzare per risolvere i problemi singolarmente:
 
 |Azione|Descrizione|

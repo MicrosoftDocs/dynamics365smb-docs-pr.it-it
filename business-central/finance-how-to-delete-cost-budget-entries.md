@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2f05388149e9e6587f916db79b652e64ad5d02e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d506a6f1a5aa40a7dcc77bab66d5a13085d364c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774841"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442162"
 ---
 # <a name="delete-cost-budget-entries"></a>Elimina mov. budget costi
 Utilizzare il processo batch **Elimina mov. budget costi** per annullare i movimenti di budget costi dal registro budget costi.  
@@ -24,7 +24,7 @@ Per evitare qualsiasi gap nei movimenti di budget costi e nei movimenti del regi
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Per eliminare un mov. budget costi  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina mov. budget costi** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Elimina mov. budget costi**, quindi seleziona il collegamento correlato.  
 
     Nel campo **A nr. registro** è incluso l'ultimo numero del movimento del registro e non può essere modificato.  
 

@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Impostare le warehouse di base con aree di operazioni | Documenti Microsoft'
-description: Se le aree delle operazioni interne, ad esempio produzione o assemblaggio, sono presenti nelle configurazioni di warehouse di base in cui le ubicazioni utilizzano il campo di setup **Collocazione obbligatoria** ed eventualmente i campi di setup **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile utilizzare tre documenti warehouse di base per registrare le attività di warehouse per le aree delle operazioni interne.
+title: Impostare le warehouse di base con aree di operazioni
+description: Imposta le aree operative della warehouse e utilizza i movimenti di magazzino, i prelievi e gli stoccaggi per spostare le merci.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 10b435bd353609f3fd554e977098acc585b797e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782486"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441399"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Impostare le warehouse di base con aree di operazioni
 Se le aree delle operazioni interne, ad esempio produzione o assemblaggio, sono presenti nelle configurazioni di base della warehouse in cui le ubicazioni utilizzano il campo di setup **Collocazione obbligatoria** ed eventualmente i campi di setup **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile utilizzare i seguenti documenti warehouse di base per registrare le attività di warehouse per le aree delle operazioni interne:  
@@ -41,13 +41,13 @@ Le procedure riportate di seguito sono basate sull'impostazione di attività di 
 >  Nella procedura riportata di seguito, il campo di setup **Collocazione obbligatoria** nelle schede ubicazione è selezionato come condizione preliminare perché è considerato la base di qualsiasi livello di gestione warehouse.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Per abilitare i documenti di magazzino per le attività delle operazioni interne  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
 2. Aprire la scheda Ubicazione che si desidera configurare.  
 3.  Nella Scheda Dettaglio **Warehouse** selezionare la casella di controllo **Richiesto stoccaggio** per indicare che quando viene rilasciato un documento di origine in entrata o interno con un codice collocazione, può essere creato un documento di stoccaggio magazzino o di movimento di magazzino.  
 4.  Selezionare la casella di controllo **Richiesto prelievo** per indicare che quando viene creato un documento di origine in uscita o interno con un codice collocazione, deve essere creato un documento di prelievi magazzino o di movimento di magazzino.  
 
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Per definire una struttura di collocazione di default nell'area di produzione  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
 2. Aprire l'ubicazione che si desidera configurare.  
 3.  Nel campo **Codice coll. produzione aperta** della Scheda Dettaglio **Collocazioni** immettere il codice della collocazione nell'area di produzione con tutti i componenti che l'operatore macchina può consumare senza richiedere un'attività di warehouse per portarli alla collocazione. Gli articoli che si trovano in questa collocazione vengono in genere impostati per la registrazione automatica o la consuntivazione. Ciò significa che il campo **Metodo consuntivazione** contiene **Avanti** o **Indietro**.  
 4. Nel campo **Cod. coll. art. per produzione** immettere il codice della collocazione nell'area di produzione in cui i componenti prelevati per la produzione in questa ubicazione vengono inseriti per default prima di poter essere consumati. Gli articoli che si trovano in questa collocazione vengono in genere impostati per la registrazione del consumo manuale. Ciò significa che il campo **Metodo consuntivazione** contiene **Manuale** o **Prelievo+Aut.Inizio** o **Prelievo+Aut.Fine** per i prelievi warehouse e i movimenti di magazzino.  
@@ -61,7 +61,7 @@ A questo punto, le righe dei componenti dell'ordine di produzione con il codice 
 
 Questo diagramma di flusso illustra in che modo il campo **Cod. collocazione** nelle righe del componente dell'ordine di produzione viene compilato in base al setup.  
 
-![Diagramma di flusso collocazione](media/binflow.png "BinFlow")    
+![Diagramma di flusso collocazione.](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Per definire una struttura di collocazione di default nell'area di assemblaggio
 I componenti per gli ordini di assemblaggio non possono essere prelevati o registrati con i prelievi da magazzino. Pertanto, utilizzare la pagina **Movimento di magazzino**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
@@ -71,14 +71,14 @@ Durante il prelievo e la spedizione di quantità righe di vendita assemblate sul
 Per ulteriori informazioni, vedere [Gestione assemblaggio](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Per impostare la creazione automatica di un movimento di magazzino quando viene creato il prelievo magazzino per l'articolo di assemblaggio
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup modello interazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assemblaggio**, quindi scegli il collegamento correlato.
 2. Selezionare la casella di controllo **Crea movimenti automaticamente**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Per impostare la collocazione nell'area di assemblaggio in cui i componenti vengono inseriti per default prima di poter essere consumati in fase di assemblaggio
 Il valore in questo campo viene automaticamente inserito nel campo **Codice collocazione** nelle righe ordine di assemblaggio quando questa ubicazione viene immessa nel campo **Codice ubicazione** nella riga di ordine di assemblaggio.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
-2. Aprire l'ubicazione che si desidera configurare.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
+2. Apri l'ubicazione che desideri configurare.
 3. Compilare il campo **Cod. coll. art. per assembl.**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Per impostare la collocazione nell'area di assemblaggio in cui gli articoli di assemblaggio completati sono registrati quando vengono assemblati per magazzino
@@ -89,8 +89,8 @@ I codici collocazione impostati nelle schede ubicazione consentono di definire u
 > [!NOTE]
 > Questo setup è possibile soltanto per le ubicazioni in cui è selezionato il campo Collocazione obbligatoria.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
-2. Aprire l'ubicazione che si desidera configurare.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
+2. Apri l'ubicazione che desideri configurare.
 3. Compilare il campo **Cod. coll. art. da assembl.**.
 
 ### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Per impostare la collocazione in cui gli articoli di assemblaggio completati sono registrati quando vengono assemblati per ordine di vendita collegato
@@ -110,8 +110,8 @@ Se **Cod. coll. sp. ass. su ordine** è vuoto, viene utilizzato il campo **Cod. 
 
 Lo stesso codice collocazione a sua volta viene copiato nel campo **Codice collocazione** sulla riga di prelievo magazzino che gestisce la spedizione della quantità per l'assemblaggio su ordine. Per altre informazioni, vedere la sezione "Gestione di articoli da assemblare su ordine in prelievi magazzino" in [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
-2. Aprire l'ubicazione che si desidera configurare.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
+2. Apri l'ubicazione che desideri configurare.
 3. Compilare il campo **Cod. coll. sp. ass. su ordine**.
 
 ## <a name="to-create-dedicated-component-bins"></a>Per creare collocazioni di componenti dedicate
@@ -126,7 +126,7 @@ La creazione di una collocazione dedicata fornisce una funzionalità simile all'
 > [!Caution]
 > Gli articoli nelle collocazioni dedicate non sono protetti quando vengono prelevati e utilizzati come componenti di produzione tramite la pagina Prelievo magazzino.
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato. Selezionare l'ubicazione che si desidera aggiornare.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato. Selezionare l'ubicazione che si desidera aggiornare.  
 2.  Scegliere l'azione **Collocazioni**.  
 3.  Selezionare il campo **Dedicata** per ogni collocazione che si desidera utilizzare in modo esclusivo per determinate operazioni interne e in cui si desidera impegnare quantità per tale operazione interna, una volta inserite.  
 
