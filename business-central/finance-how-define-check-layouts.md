@@ -1,6 +1,6 @@
 ---
-title: Specificare il layout di un assegno| Documenti Microsoft
-description: È possibile progettare e stampare gli assegni in modi diversi per conformità agli standard.
+title: Specificare il layout di un assegno
+description: È possibile progettare e stampare gli assegni in modi diversi per conformità agli standard impostati dalle autorità locali.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24d046d9284797e371a9cca98ad68618bf248be7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781608"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444639"
 ---
 # <a name="select-a-check-layout"></a>Selezionare un layout degli assegni
 È possibile progettare i controlli per assicurare la conformità agli standard definiti dalle autorità locali. Le immagini degli assegni possono essere stampati in inglese, francese, o spagnolo.
@@ -23,7 +23,7 @@ ms.locfileid: "5781608"
 Gli assegni sono stati progettati per la stampa dei formati di immagine sia degli Stati Uniti che del Canada con formato assegno-matrice- assegno o matrice-matrice-assegno.
 
 ## <a name="to-select-a-check-layout"></a>Per selezionare un layout degli assegni
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezioni report C/C bancari** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezioni report C/C bancari**, quindi scegli il collegamento correlato.
 2. Nella pagina **Selez. report - C/C bancario**, nel campo **Utilizzo** selezionare **Assegno**.
 3. Selezionare uno dei seguenti ID report:
 
@@ -52,10 +52,10 @@ Nell'aggiornamento 15.3 e successivi, i caratteri Magnetic Ink Character Recogni
 ### <a name="micr-e-13b-specifications"></a>Specifiche MICR E-13B
 Di seguito sono riepilogate le specifiche per i caratteri MICR E-13B che possono essere utili per la calibrazione dei caratteri per layout di controllo con specifiche stampanti MICR.
 
-![Specifiche MICR E-13B](media/font_MICR_E-13B_Specifications.png "Specifiche MICR E-13B")
+![Specifiche MICR E-13B.](media/font_MICR_E-13B_Specifications.png "Specifiche MICR E-13B")
 
 ### <a name="delimiter-characters"></a>Caratteri delimitatori
-![Caratteri delimitatori](media/font-micr-letters.png "Caratteri delimitatori")
+![Caratteri delimitatori.](media/font-micr-letters.png "Caratteri delimitatori")
 
 Le specifiche complete dei caratteri MICR E-13B sono disponibili nella documentazione del fornitore qui: (https://www.idautomation.com/micr-fonts/e13b/).
 
@@ -69,17 +69,17 @@ I seguenti caratteri CMC-7 sono disponibili in [!INCLUDE[prod_short](includes/pr
 
 Di seguito sono riepilogate le specifiche per i caratteri MICR CMC-7 che possono essere utili per la calibrazione dei caratteri per layout di controllo con specifiche stampanti MICR.
 
-![Specifiche MICR CMC-7](media/font_MICR_CMC-7_Specifications.png "Specifiche MICR CMC-7")
+![Specifiche MICR CMC-7.](media/font_MICR_CMC-7_Specifications.png "Specifiche MICR CMC-7")
 
 ### <a name="delimiter-characters"></a>Caratteri delimitatori
-![Caratteri delimitatori](media/font-cmc7-letters.png "Caratteri delimitatori")
+![Caratteri delimitatori per CMC-7.](media/font-cmc7-letters.png "Caratteri delimitatori per CMC-7")
 
 Le specifiche complete dei caratteri MICR CMC-7 sono disponibili nella documentazione del fornitore qui: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Specifiche dei caratteri di sicurezza
 Di seguito sono riepilogate le specifiche per i caratteri dei controlli di sicurezza che possono essere utili per la calibrazione dei caratteri per layout di controllo con specifiche stampanti MICR.
 
-![Specifiche dei caratteri dei controlli di sicurezza](media/font_check-security-font_Specifications.png "Specifiche dei caratteri dei controlli di sicurezza")
+![Specifiche dei caratteri dei controlli di sicurezza.](media/font_check-security-font_Specifications.png "Specifiche dei caratteri dei controlli di sicurezza")
 
 Le specifiche complete dei caratteri dei controlli di sicurezza sono disponibili nella documentazione del fornitore qui: (https://www.idautomation.com/security-fonts/).
 

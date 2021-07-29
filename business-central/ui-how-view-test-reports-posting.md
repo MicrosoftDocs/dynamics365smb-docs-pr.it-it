@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 9c2d32fd87112b839e6f60362fbd929870d47138
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774463"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445426"
 ---
 # <a name="view-test-reports-before-posting"></a>Visualizzare i report dei test prima della registrazione
 È possibile verificare un documento pronto per la registrazione, ad esempio un ordine di acquisto, una fattura o una nota di credito, per assicurarsi che non vi siano problemi che possano bloccare la registrazione.
@@ -25,7 +25,7 @@ ms.locfileid: "5774463"
 >   La seguente procedura descrive come eseguire i test su un documento di acquisto prima di registrarlo. La funzionalità agisce nello stesso modo per i documenti di vendita.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Per stampare un report di test prima di registrare una fattura di acquisto
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi selezionare il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi seleziona il collegamento correlato.
 2. Visualizzare la fattura di acquisto che si desidera testare.
 3. Scegliere l'azione **Report test**.  
 

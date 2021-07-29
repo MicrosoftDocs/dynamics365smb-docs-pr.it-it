@@ -1,6 +1,6 @@
 ---
 title: Impostazione e utilizzo di un workflow di approvazione acquisti
-description: È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i workflow con le fasi indicate per le approvazioni in questione. Prima di creare workflow di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.
+description: Questa procedura dettagliata illustra tutte le fasi coinvolte nell'impostazione e nell'utilizzo di un flusso di lavoro di approvazione acquisti in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/26/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 5c7575f0b3a35536e412757fe90993b764fc3ba5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110981"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445153"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto
 
@@ -52,7 +52,7 @@ Quando si esegue l'accesso come utente corrente, impostare Alicia come utente di
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Per impostare l'utente corrente e Alicia come utenti approvazione
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup utente approvazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup utente approvazione** scegliere l'azione **Nuovo**.  
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Creare il workflow di approvazione dell'ordine di acquisto copiando i passaggi d
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Per creare e abilitare un workflow di approvazione dell'ordine di acquisto
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Worflows**, selezionare **Azioni**, quindi **Nuovo**, poi scegliere l'azione **Nuovo workflow da modello**.  
 3. Nella pagina **Modelli del workflow**, selezionare il modello di flusso di lavoro denominato **Flusso di lavoro approvazione ordine acquisto**.  
 
@@ -100,7 +100,7 @@ Utilizzare il nuovo workflow di approvazione dell'ordine di acquisto eseguendo p
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Per richiedere l'approvazione di un ordine di acquisto, come Alicia
 
 1. Effettuare l'accesso come Alicia.
-2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 3. Selezionare la riga per aprire l'ordine di acquisto 106001.  
 4. Nella pagina **Ordine acquisto**, selezionare **Azioni**, poi **Richiedi approvazione**, quindi scegli l'azione **Invia richiesta di approvazione**.  
 

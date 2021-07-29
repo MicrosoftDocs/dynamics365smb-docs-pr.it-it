@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985364"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444872"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Utilizzo di Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.
@@ -115,7 +115,7 @@ Nell'attuale esperienza di determinazione dei prezzi [!INCLUDE[prod_short](inclu
     1. Associa gli articoli per i quali i prezzi sono impostati dal gruppo di prezzi del cliente.
     2. Nella pagina **Gruppi prezzi cliente** associa il gruppo prezzi cliente scegliendo **Correlati**, quindi **Dynamics 365 Sales**, **Associazione**, quindi **Imposta associazione**. L'associazione creerà un listino prezzi attivo in [!INCLUDE[prod_short](includes/prod_short.md)] con lo stesso nome del gruppo di prezzi del cliente in [!INCLUDE[crm_md](includes/crm_md.md)] e sincronizza automaticamente tutti gli articoli per i quali il gruppo di prezzi del cliente definisce il prezzo.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Pagina Gruppo prezzi cliente":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Pagina Gruppo prezzi cliente.":::
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ La nuova esperienza di determinazione del prezzo sincronizza i listini prezzi ch
 
 Per sincronizzare i listini prezzi, nella pagina **Listino prezzi di vendita** scegli **Correlato**, **Dynamics 365 Sales**, **Associazione**, quindi **Imposta associazione**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Pagina Listino prezzi di vendita":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Pagina Listino prezzi di vendita.":::
 
 ---
 

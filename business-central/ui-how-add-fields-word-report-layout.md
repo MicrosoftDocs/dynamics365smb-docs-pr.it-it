@@ -1,6 +1,6 @@
 ---
-title: Come aggiungere campi a un layout di report Word | Microsoft Docs
-description: Descrive come aggiungere campi di un set di dati del report a un layout di report Word esistente per un report.
+title: Come aggiungere campi a un layout di report Word
+description: Questo argomento descrive come aggiungere campi di un set di dati del report a un layout di report Word esistente per un report.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771112"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444797"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
@@ -111,7 +111,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
   
  La figura seguente illustra la parte XML semplice personalizzata dalla sezione precedente nel riquadro **Mapping XML** di un documento Word.  
   
- ![Clip del riquadro Mapping XML in Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Clip del riquadro Mapping XML in Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Per aggiungere un'etichetta o un campo al layout, si inserisce un controllo contenuto che mappa all'elemento presente nel riquadro di **Mapping XML**.  
   

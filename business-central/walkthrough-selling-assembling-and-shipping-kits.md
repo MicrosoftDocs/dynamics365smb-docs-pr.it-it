@@ -1,6 +1,6 @@
 ---
-title: 'Procedura dettagliata: vendita, assemblaggio e spedizione di kit | Documenti Microsoft'
-description: Per supportare un magazzino JIT (just-in-time) e la capacità di personalizzare i prodotti in base alle richieste del cliente, gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita. Il collegamento tra la domanda di vendita e l'approvvigionamento di assemblaggio consente ai gestori dell'ordine di vendita di personalizzare l'articolo di assemblaggio al fine di comunicare le date di consegna in base alla disponibilità dei componenti. Inoltre, con la spedizione dell'ordine di vendita collegato vengono registrati automaticamente l'output e il consumo in fase di assemblaggio.
+title: Vendita, assemblaggio e spedizione di kit
+description: Per supportare un magazzino JIT (just-in-time), gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f14defdd15acd82df76d1446b56d86ecda6e3cb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216307"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445203"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
 
@@ -82,7 +82,7 @@ Prima di svolgere le attività di questa procedura dettagliata, è necessario:
 -   Installare [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   È possibile diventare un impiegato warehouse presso l'ubicazione BIANCA effettuando i seguenti passaggi:  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
 2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
 4.  Selezionare il campo **Default**.  
@@ -92,7 +92,7 @@ Prima di svolgere le attività di questa procedura dettagliata, è necessario:
 
 Preparare l'ubicazione BIANCA per l'elaborazione dell'assemblaggio effettuando i seguenti passaggi:  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda Ubicazione dell'ubicazione BIANCA.  
 3.  Nella Scheda dettaglio **Collocazioni** immettere **W-10-0001** nel campo **Cod. coll. art. per assembl.**.  
 
@@ -104,7 +104,7 @@ Preparare l'ubicazione BIANCA per l'elaborazione dell'assemblaggio effettuando i
 
 Rimuovere il lead time di default per i processi interni effettuando i seguenti passaggi:  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup manufacturing** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup manufacturing**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Setup manufacturing**, nella Scheda dettaglio **Pianificazione** rimuovere il valore del campo **Lead time di sicurezza di default**.  
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
@@ -138,7 +138,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ## <a name="prepare-sample-data"></a>Preparazione dei dati di esempio  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni articoli whse.** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni articoli whse.**, quindi scegli il collegamento correlato.  
 2.  Selezionare il campo **Nome batch**, quindi selezionare la registrazione di default.  
 3.  Creare le rettifiche di magazzino positive nell'ubicazione BIANCA nella data di elaborazione, ossia il 23 gennaio, immettendo le informazioni riportate di seguito.  
 
@@ -155,14 +155,14 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     A questo punto, è necessario sincronizzare i nuovi movimenti warehouse con il magazzino.  
 
-5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni magazzino** e quindi scegliere il collegamento correlato. Viene visualizzata la pagina **Registrazioni magazzino**.  
+5.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni articoli**, quindi scegli il collegamento correlato. Viene visualizzata la pagina **Registrazioni magazzino**.  
 6.  Scegliere l'azione **Calcola rettifica whse.**.  
 7.  Nella pagina **Calcola rettifica whse.** scegliere il pulsante **OK**.  
 8.  Nella pagina **Registrazioni magazzino** scegliere l'azione **Registra** quindi scegliere il pulsante **Sì**.  
 
 ### <a name="creating-the-assembly-items"></a>Creazione degli articoli di assemblaggio  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Creare il primo articolo di assemblaggio in base ai seguenti dati.  
 
@@ -213,7 +213,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ### <a name="selling-the-assembly-items"></a>Vendita degli articoli di assemblaggio  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Creare due righe di ordine di vendita per il cliente 62000, reparto dispositivi, per la data di elaborazione con i seguenti dati.  
 
@@ -266,7 +266,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Pianificazione per gli articoli ATS non disponibili  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto pianificazione** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto pianificazione**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
 3.  Nella pagina **Calcola piano** immettere i seguenti filtri.  
 
@@ -284,7 +284,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Assemblaggio e spedizione della prima quantità di ATO  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizione warehouse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizione warehouse**, quindi scegli il collegamento correlato.  
 
     > [!NOTE]  
     >  In questa sezione la persona responsabile della spedizione è incaricata della registrazione del lavoro di assemblaggio di ATO completato nella riga di spedizione warehouse. Questo flusso di lavoro può verificarsi negli ambienti in cui il lavoro di assemblaggio viene eseguito dalla persona responsabile della spedizione o dagli addetti all'assemblaggio nell'area di spedizione.  
@@ -303,7 +303,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     A questo punto, è necessario eseguire il task di prelievo.  
 
-4.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi** e quindi scegliere il collegamento correlato.  
+4.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 5.  Aprire il documento di prelievo warehouse creato nel passaggio 3 di questa sezione.  
 
     Osservare il valore nel campo **Documento origine** e come tutte le righe di prelievo si riferiscano ai componenti di assemblaggio.  
@@ -344,7 +344,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Assemblaggio e registrazione della seconda quantità di ATO  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di assemblaggio**, quindi scegli il collegamento correlato.  
 
     Si noti che l'ordine di ATO delle unità spedite è ancora nella lista sebbene **Quantità residua** sia vuoto. Ciò accade perché l'ordine di vendita collegato non è ancora completamente fatturato.  
 
@@ -368,7 +368,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ### <a name="assembling-the-ats-quantity"></a>Assemblaggio della quantità di ATO  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di assemblaggio**, quindi scegli il collegamento correlato.  
 2.  Aprire l'ordine di assemblaggio per dieci unità di Kit A.  
 
     Si noti che il campo **Quantità da assemblare** viene compilato con la quantità prevista.  
@@ -380,7 +380,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     A questo punto, è necessario eseguire il task di prelievo.  
 
-5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi** e quindi scegliere il collegamento correlato.  
+5.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 6.  Aprire il documento di prelievo warehouse creati nel passaggio 4 di questa sezione.  
 
      Procedere quindi alla registrazione del prelievo senza modificare i dati di default.  
@@ -396,7 +396,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Spedizione degli articoli restanti, in parte dal magazzino e assemblati su ordine  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizione warehouse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizione warehouse**, quindi scegli il collegamento correlato.  
 2.  Aprire la spedizione warehouse più recente creata presso l'ubicazione BIANCA.  
 
     Nella riga relativa a dieci unità di kit A, si noti che i campi **Qtà da spedire** e **Qtà prelevata** sono vuoti.  
@@ -407,8 +407,8 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Infine, eseguire l'ultimo task di prelievo relativo a questa spedizione warehouse.  
 
-4.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievi** e quindi scegliere il collegamento correlato.  
-5.  Aprire il documento di prelievo warehouse creato nel passaggio 3 di questa sezione.  
+4.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
+5.  Apri il documento di prelievo warehouse creato nel passaggio 3 di questa sezione.  
 
     Si noti che il documento di prelievo è riferito all'articolo di assemblaggio, non ai componenti di assemblaggio.  
 
@@ -427,7 +427,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Il documento di spedizione warehouse viene rimosso ad indicare che le attività di warehouse interessare sono state completate. Infine, verificare che l'ordine di vendita sia stato elaborato.  
 
-10. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+10. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato  
 11. Aprire l'ordine di vendita per il reparto dispositivi.  
 
     Si noti che il campo **Quantità spedita** contiene la quantità complessiva su entrambe le righe.  

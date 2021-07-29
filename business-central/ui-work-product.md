@@ -7,16 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772131"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445253"
 ---
 # <a name="working-with-prod_short"></a>Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi modi, ad esempio attraverso la creazione di record e l'immissione di dati, l'ordinamento e il filtraggio dei dati, la scrittura di note e l'output di dati ad altre applicazioni.
 
 È possibile, ad esempio, rettificare le dimensioni e l'ubicazione di una pagina, espandere la larghezza di colonne e aumentare l'altezza delle intestazioni di colonna e modificare l'ordinamento dei dati nelle colonne. Se si desidera utilizzare la barra di scorrimento orizzontale per visualizzare tutte le colonne in una pagina di elenco o nelle righe documenti, è disponibile un blocca quadro verticale per evitare lo scorrimento di alcune colonne.
@@ -26,7 +27,7 @@ Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi mod
 > [!TIP]
 > Per una versione stampabile della panoramica delle funzioni più utilizzate, vedere l'immagine seguente e scaricare il file PDF.
 >
-> [ ![Icona per il file PDF](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icona che apre un PDF")
+> [ ![Icona per il file PDF.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icona che apre un PDF")
 
 ## <a name="links-to-learn-more"></a>Collegamenti per ulteriori informazioni
 
@@ -67,6 +68,21 @@ Di seguito un breve video su come esplorare [!INCLUDE[prod_short](includes/prod_
 
     Internet Explorer non è più supportato. Per ulteriori informazioni, vedere [Documentazione di Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Mantieni il tuo browser sempre aggiornato all'ultima versione.
+
+## <a name="action-bars"></a>Barre delle azioni
+
+In [!INCLUDE [prod_short](includes/prod_short.md)], svolgi la maggior parte del tuo lavoro in un elenco, in un documento o in una scheda. Tutti e tre i tipi di pagine hanno una barra con azioni rilevanti per la pagina particolare e le azioni sono quasi le stesse per la singola scheda o documento e per l'elenco delle entità. In questo modo è possibile gestire un singolo ordine di vendita nella pagina **Ordine di vendita** e nell'elenco **Ordini di vendita**, inclusa la pubblicazione e la fatturazione.  
+
+Ma le azioni possono anche avere un aspetto diverso, o addirittura non essere presenti, a seconda di come apri la pagina. In particolare per le pagine elenco, la pagina elenco che apri dalla home page e la pagina che viene visualizzata quando la cerchi utilizzando l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") non sono identiche.  
+
+Quando cerchi una pagina di elenco aperta, come l'elenco **Ordini di vendita**, è in modalità di visualizzazione. Le azioni per la modifica, la visualizzazione o l'eliminazione di una singola entità, come un ordine di vendita, vengono mostrate quando scegli l'azione **Gestisci**.  
+
+> [!TIP]
+> Se sai che utilizzerai spesso le azioni su questo secondo livello della barra delle azioni, scegli l'icona :::image type="icon" source="media/pin.png" border="false"::: per aggiungere la barra delle azioni e rendere immediatamente individuabili le azioni sotto i vari menu.
+>
+> Per nascondere di nuovo il secondo livello della barra delle azioni, scegli l'icona :::image type="icon" source="media/unpin.png" border="false":::.
+
+Ma quando apri la stessa pagina dell'elenco dalla tua home page, l'azione **Gestisci** non è presente. Invece, per aprire un singolo ordine di vendita, è sufficiente scegliere il campo **Numero**. In questa visualizzazione non puoi aggiungere la barra delle azioni.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 

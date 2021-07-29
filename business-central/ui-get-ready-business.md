@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074664"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444822"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
 
@@ -23,9 +23,9 @@ Congratulazioni per aver avviato la prima società in [!INCLUDE[prod_short](incl
 
 Per ulteriori informazioni su come avviare un business, è possibile visualizzare la pagina **Setup assistito** in cui avviare guide al setup assistito, video o argomenti di assistenza per alcuni task di setup. Per accedere alla pagina è sufficiente scegliere [questo link](https://businesscentral.dynamics.com/?page=1801).  
 
-In alternativa, seleziona semplicemente l'![Icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi l'azione **Setup assistito**.
+In alternativa, scegli l'icona ![Icona ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) e quindi l'azione **Setup assistito**.
 
-Puoi anche trovare l'elenco di guide al setup assistito, se scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup assistito** e quindi scegliere il collegamento correlato.  
+Puoi anche trovare l'elenco delle guide di setup assistito se scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assistito**, quindi scegli il collegamento correlato.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ A partire dal primo ciclo di rilascio del 2021, quando accedi per la prima volta
 
 Una volta migrati i dati quali i fornitori, i clienti e gli articoli dal sistema contabile esistente, sarà possibile iniziare. In base alle proprie esigenze, valutare se sono necessarie altre guide di setup assistito.
 
-Se un'area non è coperta da un setup assistito, selezionare l'![icona ingranaggio per aprire il menu Impostazioni](media/ui-experience/settings_icon_small.png), quindi l'azione **Impostazioni avanzate**. In **Impostazioni avanzate**, la sezione **Setup manuale** fornisce l'accesso alle pagine di configurazione in cui è possibile compilare manualmente i campi di configurazione per tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+Se un'area non è coperta da un setup assistito, seleziona l'icona ![ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) e quindi l'azione **Impostazioni avanzate**. In **Impostazioni avanzate**, la sezione **Setup manuale** fornisce l'accesso alle pagine di configurazione in cui è possibile compilare manualmente i campi di configurazione per tutte le aree. Per ulteriori informazioni, vedere anche [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > L'elenco delle guide al setup assistito, delle estensioni e dei servizi disponibili è diverso in base all'esperienza utente scelta per la società. L'esperienza **Essential** offre accesso a un numero inferiore di funzionalità rispetto all'esperienza **Premium**.

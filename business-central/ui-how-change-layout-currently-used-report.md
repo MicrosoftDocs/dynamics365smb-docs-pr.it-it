@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad5dd28d10df38fbd780ec4df5d4a87056670b99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e833d29df72d10786b050222d342b2d6dce927e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771087"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444756"
 ---
 # <a name="change-the-current-report-layout"></a>Modificare il layout del report corrente
 Un report può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità.
@@ -30,7 +30,7 @@ Quando vengono definiti layout di report personalizzati, è possibile selezionar
 > I report documento (non elenchi) che utilizzano un layout report Word sono in genere più rapidi di quelli che utilizzano un layout report RDLC. Quindi, se si ha la possibilità di scegliere tra un layout report Word o RDLC per un report documento, utilizzare il report layout Word per ottenere le migliori prestazioni.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Per modificare il layout di report da utilizzare per un report o un documento
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
    Nella pagina **Selezione layout report** sono elencati tutti i report disponibili per la società specificata nel campo **Società** nella parte superiore della pagina. Il campo **Layout selezionato** specifica il layout che attualmente è utilizzato nel report.
 2. Impostare il campo **Società** nella parte superiore della pagina alla società che include il report.
 3. Per modificare il layout utilizzato da un report, nella riga del report, impostare il campo **Layout selezionato** su una delle seguenti opzioni:

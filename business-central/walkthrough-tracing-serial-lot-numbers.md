@@ -1,6 +1,6 @@
 ---
-title: 'Procedura dettagliata: Tracciabilità dei numeri seriali/lotto | Documenti Microsoft'
-description: Questo argomento descrive le azioni da intraprendere per interrompere la vendita di un articolo difettoso.
+title: Procedura dettagliata - Tracciabilità dei numeri seriali/lotto
+description: Questo argomento descrive le azioni necessarie per evitare la vendita di un articolo difettoso e anche come rintracciare e richiamare gli articoli quando necessario.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eff79c853e5976ce85705b790542854e0e2a6ebc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216282"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445103"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/lotto
 
@@ -77,7 +77,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
 ### <a name="to-create-the-items"></a>Per creare gli articoli  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Nel campo **Nr.** immettere **2000**, quindi procedere al completamento dei campi seguenti.  
 
@@ -114,7 +114,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
 ### <a name="to-purchase-components"></a>Per acquistare i componenti
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Creare un ordine di acquisto per il fornitore, Custom Metals Incorporated, compilando i seguenti campi della riga.  
 
@@ -128,7 +128,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 7. Scegliere l'azione **Registra**, selezionare l'opzione **Carico e fattura**, quindi il pulsante **OK**.  
 
     A questo punto, acquistare i telai da corsa da Coolwood Technologies.  
-8. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.  
+8. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 9. Scegliere l'azione **Nuovo**.
 10. Creare un ordine di acquisto per il fornitore, Coolwood Technologies, compilando i seguenti campi della riga.  
 
@@ -145,7 +145,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
 ### <a name="to-produce-end-items"></a>Per produrre gli articoli finali
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione rilasciati** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
 2. Scegliere il gruppo **Nuovo**.  
 3. Creare un nuovo ordine di produzione rilasciato compilando i campi seguenti.  
 
@@ -166,7 +166,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     Quindi, produrre altre due biciclette da corsa, NS3 e NS4.  
 
-11. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione rilasciati** e quindi scegliere il collegamento correlato.  
+11. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
 12. Scegliere l'azione **Nuovo**.  
 13. Creare un nuovo ordine di produzione rilasciato compilando i campi seguenti nella testata.  
 
@@ -191,7 +191,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
     A questo punto, vendere le biciclette. In primo luogo vendere la bicicletta da corsa con NS1 a Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>Per vendere gli articoli finali  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**, quindi creare un ordine di vendita compilando i campi seguenti.  
 
     |Cliente|Articolo|Qtà|Nr. seriale|  
@@ -203,7 +203,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     Infine, vendere la bicicletta da corsa con NS2 a The Cannon Group PLC.  
 
-5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+5.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 6.  Scegliere l'azione **Nuovo**, quindi creare un ordine di vendita compilando i campi seguenti.  
 
     |Cliente|Articolo|Qtà|Nr. seriale|  
@@ -215,7 +215,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     Infine, vendere alcuni telai da corsa separatamente. Cannon Group SpA ordina quattro telai da corsa separati per la sua linea di montaggio.  
 
-9. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+9. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 10. Scegliere l'azione **Nuovo**, quindi creare un ordine di vendita compilando i campi seguenti.  
 
     |Cliente|Articolo|Qtà|Nr. seriale|  
@@ -233,7 +233,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
  Il reparto vendite comunica al manager qualità che il numero seriale della bicicletta restituita, l'articolo 1002, è NS1. Con questa informazione di base può determinare dove la bicicletta da corsa finita è stata utilizzata l'ultima volta, in questo caso nella spedizione a Selangorian Ltd. Il manager qualità deve quindi tracciare all'indietro l'origine per stabilire il lotto di provenienza del telaio difettoso e il relativo fornitore.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Per risalire al lotto che includeva il telaio difettoso e al relativo fornitore  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tracciabilità articolo** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tracciabilità articolo**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Tracciabilità articolo** immettere **NS1** nel campo **Filtro nr. seriale**, quindi immettere **1002** nel campo **Filtro articolo**.  
 3.  Mantenere l'impostazione di default **Solo articoli tracciati** nel campo **Mostra componenti** e il metodo di analisi **Utilizzo - Origine** nel campo **Metodo analisi**.  
 4.  Scegliere l'azione **Analizza**.  
