@@ -1,6 +1,6 @@
 ---
-title: Crea un'offerta di vendita per un cliente
-description: Descrive come creare un documento di un'offerta di vendita o una richiesta di offerta (RdO) per registrare la propria offerta a un cliente per la vendita di prodotti in base a termini determinati.
+title: Creare offerte di vendita
+description: Leggi come creare un documento di un'offerta di vendita o una richiesta di offerta (RdO) per registrare la propria offerta a un cliente o prospect per la vendita di prodotti in base a termini determinati.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,36 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 05/27/2021
+ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a538b7099521b10227bf5aeaefad0a9c60971068
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115542"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543122"
 ---
 # <a name="make-sales-quotes"></a>Creare offerte di vendita
 
-Creare un'offerta di vendita per registrare la propria offerta al cliente per vendere alcuni prodotti a determinate condizioni di consegna e di pagamento. È possibile inviare l'offerta di vendita al cliente per comunicare l'offerta. È possibile inviare il documento via e-mail come allegato PDF. È inoltre possibile fare in modo che il corpo e-mail venga precompilato con un riepilogo dell'offerta. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
+Creare un'offerta di vendita per registrare la propria offerta al cliente o prospect per vendere alcuni prodotti a determinate condizioni di consegna e di pagamento. È possibile inviare l'offerta di vendita al cliente per comunicare l'offerta. È possibile inviare il documento via e-mail come allegato PDF. È inoltre possibile fare in modo che il corpo e-mail venga precompilato con un riepilogo dell'offerta. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
 
-Quando si negozia con il cliente, è possibile modificare e inviare nuovamente l'offerta di vendita in base alle esigenze. Se il cliente accetta l'offerta, si converte l'offerta di vendita in un ordine o una fattura di vendita in cui viene elaborata la vendita. Per ulteriori informazioni vedere [Fatturare le vendite](sales-how-invoice-sales.md) o [Vendere prodotti](sales-how-sell-products.md).
+Quando si negozia con il cliente o prospect è possibile modificare e inviare nuovamente l'offerta di vendita in base alle esigenze. Se il cliente accetta l'offerta, si converte l'offerta di vendita in un ordine o una fattura di vendita in cui viene elaborata la vendita. Per ulteriori informazioni vedere [Fatturare le vendite](sales-how-invoice-sales.md) o [Vendere prodotti](sales-how-sell-products.md).
 
-È possibile compilare i campi cliente nell'offerta di vendita in due modi a seconda che il cliente sia già registrato o meno. Vedere i passaggi 2 e 3 della procedura riportata di seguito.
+Nella maggior parte dei casi, si inviano offerte di vendita a potenziali clienti. Hai spesso una persona di contatto con cui negoziare. Se accetta la tua offerta, trasformi l'offerta di vendita in un ordine e registri il prospect come cliente in [!INCLUDE [prod_short](includes/prod_short.md)]. Nella procedura seguente, ci concentriamo sui contatti, ma puoi anche inviare offerte a clienti esistenti.  
 
 ## <a name="to-create-a-sales-quote"></a>Per creare un'offerta di vendita
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerte vendita** e quindi scegliere il collegamento correlato.
-2. Nel campo **Cliente** immettere il nome di un cliente esistente.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Offerte di vendita**, quindi seleziona il collegamento correlato.
+2. Specifica il contatto o il cliente a cui vuoi inviare l'offerta di vendita.
 
-   Altri campi nella pagina **Offerte di vendita** contengono informazioni standard del cliente selezionato.  
+    - Se l'offerta di vendita riguarda un contatto esistente, specifica il nome nel campo **Nr. contatto** .  
 
-    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]
+        Se l'offerta di vendita riguarda un cliente esistente, specifica il cliente nel campo **Nr. cliente**.
+    - Se il contatto non è registrato, segui la seguente procedura:
 
-    Diversi campi nell'offerta di vendita sono ora compilati con le informazioni specificate nella nuova scheda cliente.  
+        1. Nel campo **Nr. contratto** scegli il pulsante di modifica :::image type="icon" source="media/assist-edit-icon.png" border="false":::.
+        2. Nella finestra di dialogo sulla selezione del contatto, scegli l'azione **Nuovo** quindi compila i campi pertinenti. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Per ulteriori informazioni, vedi [Creare contatti](marketing-create-contact-companies.md).  
+        3. Una volta completata la scheda contatto, seleziona il contatto appena creato nell'elenco dei contatti, quindi scegli il pulsante OK per tornare all'offerta di vendita.
+
+        Diversi campi nell'offerta di vendita sono ora compilati con le informazioni specificate nella nuova scheda contatto.
+
+        > [!NOTE]
+        > Per calcolare correttamente le tasse e i prezzi per un'offerta, è necessario scegliere il modello cliente pertinente nel campo **Codice modello cliente**. Il modello verrà utilizzato per convertire il contatto in un cliente una volta convertita l'offerta in un ordine di vendita o in una fattura.
+    -  Se l'offerta è per un nuovo cliente, è necessario aggiungere il cliente. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
+
 3. Compilare i restanti campi della pagina **Offerta di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    È ora possibile compilare le righe dell'ordine di vendita per i prodotti che si vendono al cliente o per ogni transazione con il cliente per il quale si desidera effettuare la registrazione in un conto C/G.  
+    A questo punto puoi compilare le righe di vendita per i prodotti che vendi o per ogni transazione con il cliente o prospect per il quale vuoi effettuare la registrazione in un conto C/G.  
 
     Se sono state impostate le righe di vendita periodiche per il cliente, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nell'ordine scegliendo l'azione **Ottieni righe di vendita ricorrenti**.  
 
@@ -59,7 +69,7 @@ Quando si negozia con il cliente, è possibile modificare e inviare nuovamente l
 7. Se si desidera assegnare uno sconto, immettere una percentuale nel campo **% sconto riga**. Il valore nel campo **Importo riga** viene aggiornato di conseguenza.  
 
     Se sono stati impostati prezzi articolo speciali nella Scheda dettaglio **Prezzi di vendita e sconti riga di vendita** per il cliente o la scheda articolo, la percentuale di sconto riga, il prezzo e l'importo nella riga dei vendita vengono automaticamente aggiornati se vengono soddisfatti i criteri di prezzo concordati. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).  
-8. Ripetere i passaggi da 4 a 7 per ogni prodotto che si desidera offrire al cliente.
+8. Ripeti i passaggi da 4 a 7 per ogni prodotto che vuoi offrire al cliente.
 
     I totali sotto le righe vengono automaticamente calcolati quando si creano o si modificano le righe.  
 9. Nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.**.
@@ -70,10 +80,19 @@ Quando si negozia con il cliente, è possibile modificare e inviare nuovamente l
     > Per compilare automaticamente il campo **Offerta valida fino alla data** con un determinato numero di giorni dopo la creazione di un'offerta, è possibile compilare il campo **Calcolo validità offerta** nella pagina **Contabilità clienti**.
 
 10. Una volta completate le righe dell'offerta di vendita, scegliere l'azione **Invia tramite messaggio e-mail**.
-11. Nella pagina **Invia messaggio e-mail** compilare tutti i campi restanti ed esaminare l'offerta di vendita inclusa. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
-12. Se il cliente accetta l'offerta, scegliere l'azione **Crea fattura** o **Crea ordine**.
+11. Nella pagina **Invia messaggio e-mail** compilare tutti i campi restanti ed esaminare l'offerta di vendita inclusa. Per ulteriori informazioni, vedi [Inviare documenti via e-mail](ui-how-send-documents-email.md).
+12. Se il contatto accetta l'offerta, scegli l'azione **Crea ordine**.  
 
-L'offerta di vendita viene rimossa dal database. Viene creata una fattura, o un ordine, di vendita basata sulle informazioni contenute nell'offerta di vendita nella quale è possibile elaborare la vendita. Nel campo **Nr. offerta** dell'ordine o della fattura di vendita è presente il numero dell'offerta di vendita da cui è stato convertito. Per ulteriori informazioni vedere [Fatturare le vendite](sales-how-invoice-sales.md) o [Vendere prodotti](sales-how-sell-products.md).  
+    In alternativa, se la tua organizzazione preferisce quel processo, scegli l'azione **Crea fattura**.  
+    > [!NOTE]
+    > Se hai aggiunto un cliente nel passaggio 2, ti verrà chiesto di confermare la conversione dell'offerta in ordine.  
+    >
+    > Se hai aggiunto un contatto da un potenziale cliente nel passaggio 2, ti verrà chiesto di eseguire i seguenti passaggi:
+    >
+    >  - Converti il contatto o il prospect in un cliente scegliendo uno dei modelli di conversione dei contatti. Per ulteriori informazioni, vedi [Per creare un contatto come cliente, fornitore, dipendente o conto corrente bancario da un contatto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+    > - Conferma la conversione dell'offerta in ordine.
+
+La conversione rimuove l'offerta di vendita dal database. Viene creata una fattura, o un ordine, di vendita basata sulle informazioni contenute nell'offerta di vendita e in tal modo puoi elaborare la vendita. Nel campo **Nr. offerta** dell'ordine o della fattura di vendita è presente il numero dell'offerta di vendita da cui è stato convertito. Per ulteriori informazioni vedere [Fatturare le vendite](sales-how-invoice-sales.md) o [Vendere prodotti](sales-how-sell-products.md).  
 
 ## <a name="external-document-number"></a>Numero di documento esterni
 
@@ -84,6 +103,7 @@ L'offerta di vendita viene rimossa dal database. Viene creata una fattura, o un 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Archiviare documenti](across-how-to-archive-documents.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

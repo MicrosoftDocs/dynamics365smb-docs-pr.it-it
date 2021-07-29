@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216378"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543172"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Report di acquisto e analisi in Business Central
 
@@ -24,8 +24,7 @@ La tabella seguente descrive alcuni dei report di acquisto chiave.
 
 |Report |ID oggetto|Descrizione  |
 |---------|---------|---------|
-|**Statistica acquisti**|312|Mostra le statistiche acquisto per ogni venditore. Ciò include informazioni per cinque periodi, a partire dalla data specificata.<br>
-Il report include gli acquisti totali, i pagamenti, gli oneri finanziari e le informazioni sugli sconti, inclusi gli sconti pagamento applicati e persi. Le statistiche sono calcolate per gli acquisti prima della data inserita, a tre intervalli di un mese dalla data inserita e per un periodo che include tutti gli acquisti effettuati dopo il terzo intervallo di un mese.|
+|**Statistiche acquisti**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**Fornitore - Lista primi 10**|311|Mostra informazioni sugli acquisti dai fornitori in un determinato periodo. È possibile scegliere il numero di fornitori da includere nel report.<br>I fornitori sono ordinati secondo l'importo ed è possibile scegliere se ordinarli per importo acquisto o saldo. Il report offre una panoramica dei fornitori da cui si acquista di più o di cui si è maggiormente debitori.|
 |**Catalogo degli articoli del venditore** o **Catalogo articolo/fornitore**|320 oppure 720|Visualizza un elenco dei fornitori per gli articoli selezionati o gli articoli per i fornitori selezionati. Per ciascuna combinazione articolo/fornitore vengono indicati il costo unitario diretto, il calcolo del lead time e il numero articolo del fornitore.<br>Negli Stati Uniti, in Canada e in Messico, questo rapporto non è disponibile. Invece, usa il report **Catalogo articolo/fornitore** (10164).|
 |**Acquisti fornitore/articolo**|313|Viene visualizzata una lista di movimenti articoli per ogni fornitore in un determinato periodo. Il report contiene informazioni su quantità fatturata, importo e possibili sconti. Può essere utilizzato, ad esempio, per analizzare gli acquisti articoli adottati da una società e per indicare se esiste una relazione tra gli sconti e gli acquisti dell'articolo.|

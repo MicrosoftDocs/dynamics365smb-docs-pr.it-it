@@ -1,6 +1,6 @@
 ---
-title: Impostazione della contabilità industriale | Microsoft Docs
-description: Prima di iniziare a utilizzare la contabilità industriale, è necessario effettuare attività di impostazione.
+title: Impostazione della contabilità industriale
+description: Prima di iniziare a utilizzare la contabilità industriale, è necessario effettuare l'impostazione. A ogni movimento di costo deve essere assegnato un tipo di costo e un codice del centro di costo o un oggetto di costo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 808efe140a0330d9892c01839090b28ef2c0d50c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0ed9b58b9ceec962d7f55ef5687ac36e11fbd681
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783749"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446367"
 ---
 # <a name="setting-up-cost-accounting"></a>Impostazione della contabilità industriale
 Prima di iniziare a utilizzare la contabilità industriale, è necessario effettuare attività di impostazione.
@@ -36,7 +36,7 @@ Il piano dei tipi di costo è simile al piano dei conti nella contabilità gener
 -   Creare un nuovo piano dei tipi di costo o aggiungere nuovi tipi di costo al piano dei tipi di costo esistente. È necessario creare ogni nuovo tipo di costo singolarmente.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Per trasferire il piano dei conti della contabilità generale al piano dei tipi di costo  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei tipi di costo** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei tipi di costo**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Ottieni tipi costo da piano dei conti**. Nella finestra di dialogo fare clic sul pulsante **Sì** per confermare il trasferimento. La funzione utilizza il piano dei conti per creare un piano dei tipi di costo.  
 
     Il piano dei tipi di costo contiene ora tutti i conti economici nella contabilità generale e include le testate e i subtotali. È possibile modificare il piano dei tipi di costo, in base alle esigenze. Ad esempio, è possibile eliminare i tipi di costo esistenti duplicati.  
@@ -98,7 +98,7 @@ I centri di costo sono i reparti responsabili dei costi e delle entrate. Il graf
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Per trasferire i valori dimensioni nella contabilità generale al grafico dei centri di costo  
 1.  Impostare una dimensione come dimensione centro di costo nella pagina **Aggiorna dimensioni cont. industriale** . Solo i valori di questa dimensione vengono trasferiti.  
-2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei centri di costo** e quindi scegliere il collegamento correlato.  
+2.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei centri di costo**, quindi scegli il collegamento correlato.  
 3.  Nel gruppo **Funzioni** della scheda **Azioni** selezionare **Ottieni centri di costo da dimensione** per trasferire i valori dimensioni al grafico dei centri di costo. Con la funzione è possibile trasferire i valori dimensioni definiti nel passaggio 1.  
 
     > [!NOTE]  
@@ -131,7 +131,7 @@ Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Per trasferire i valori dimensioni dalla contabilità generale al grafico degli oggetti di costo  
 1.  Impostare una dimensione come dimensione dell'oggetto di costo nella pagina **Aggiorna dimensioni contabilità industriale**. Solo i valori di questa dimensione vengono trasferiti.  
-2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano degli oggetti di costo** e quindi scegliere il collegamento correlato.  
+2.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano degli oggetti di costo**, quindi scegli il collegamento correlato.  
 3.  Scegliere l'azione **Ottieni oggetti di costo da dimensione** per trasferire i valori dimensioni al piano degli oggetti di costo. Con la funzione è possibile trasferire i valori dimensioni definiti nel passaggio 1.  
 
     > [!NOTE]  

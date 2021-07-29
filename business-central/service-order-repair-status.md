@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ba9b99a7c205106b77386f297a361067b2227cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776818"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446074"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Come impostare gli stati per gli ordini di assistenza e le riparazioni
 
@@ -29,7 +29,7 @@ Prima di poter impostare uno stato di riparazione, è necessario impostare le pr
 
 ## <a name="to-set-up-service-status-priorities"></a>Per impostare le priorità di stato di assistenza
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stato ordine assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stato ordine assistenza**, quindi scegli il collegamento correlato.  
 2. Selezionare lo stato dell'ordine di assistenza per cui si desidera impostare una priorità.  
 3. Nel campo **Priorità** scegliere la priorità che si desidera assegnare a questo stato dell'ordine di assistenza.  
 
@@ -37,7 +37,7 @@ Ripetere i passaggi 2 e 3 per impostare la priorità per ciascuna delle quattro 
 
 ## <a name="to-set-up-a-repair-status"></a>Per impostare uno stato di riparazione
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stato riparazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stato riparazione**, quindi scegli il collegamento correlato.
 2. Creare un nuovo stato di riparazione.  
 3. Compilare i campi **Codice** e **Descrizione**.  
 4. Nel campo **Stato ordine assistenza** selezionare lo stato dell'ordine a cui collegare lo stato della riparazione. Nel campo **Priorità** viene visualizzata la priorità corrispondente allo stato dell'ordine di assistenza scelto.  

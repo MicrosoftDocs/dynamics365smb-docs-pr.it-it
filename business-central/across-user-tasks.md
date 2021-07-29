@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71e9c93eede8b39561dc78ff61732273003ce8de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786984"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446417"
 ---
 # <a name="define-user-tasks"></a>Definisci task dell'utente
 
@@ -27,7 +27,7 @@ La pagina **Task dell'utente** mostra tutti i task e consente di creare e assegn
 
 Ad esempio, è possibile creare un task per se stessi o un collaboratore per visualizzare tutte le fatture di vendita registrate. In tal caso, collegare il task alla pagina 143, **Fatture di vendita registrate**. Nello screenshot seguente, qualcuno sta creando un'attività per MeganB per rivedere le fatture di vendita registrate.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Esempio di un'attività utente":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Esempio di un'attività utente.":::
 
 > [!TIP]  
 > Utilizzare la funzionalità di ricerca nel campo **Pagina**, quindi utilizzare il campo **Cerca** per identificare la pagina che si desidera.  

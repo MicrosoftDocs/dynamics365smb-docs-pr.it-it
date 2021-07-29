@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110956"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445974"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Utilizzo di modelli Word per comunicazioni in blocco
 I modelli di Microsoft Word possono semplificare le comunicazioni di massa con entità come clienti e fornitori. Ad esempio, è possibile creare brochure per avvisare i clienti di una campagna di vendita, lettere per informare i fornitori su una nuova politica di acquisto o inviti per attirare contatti a un evento imminente.
@@ -38,7 +38,7 @@ Quando si imposta il modello in Word, nella scheda **Corrispondenza** puoi aggiu
 Quando il tuo modello di Word è pronto, nella pagina **Modelli di Word** puoi scegliere **Applica** per generare i documenti. Puoi creare un documento che contiene sezioni per ogni entità o dividere l'operazione per creare un nuovo documento per ogni entità.
 
 ## <a name="to-create-a-word-template"></a>Per creare un modello di Word
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli di Word** e quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli di Word**, quindi scegli il collegamento correlato.
 2. Segui i passaggi nella guida di setup assistito. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Vedere anche

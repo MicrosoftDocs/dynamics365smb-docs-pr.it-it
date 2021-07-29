@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783394"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445924"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passare a un'altra società o ambiente
 
@@ -23,7 +23,7 @@ ms.locfileid: "5783394"
 
 ## <a name="switch-to-another-environment"></a>Passare a un altro ambiente
 
-Quando si accedere a [!INCLUDE[prod_short](includes/prod_short.md)], gli ambienti a cui è possibile accedere sono disponibili nella Home page di Dynamics 365. È possibile aprire la pagina selezionando l'icona **Avvio delle applicazioni** ![Avvio delle applicazioni](media/app-launcher-icon.png "L'avvio delle applicazioni fornisce l'accesso a più funzionalità") e scegliendo **Dynamics 365**. Per andare alla società predefinita in quell'ambiente, selezionare il riquadro. Ci sarà un riquadro per ogni tipo di ambiente. Se sono disponibili più ambienti di un certo tipo, quando si sceglie il riquadro è possibile scegliere l'ambiente a cui accedere.
+Quando si accedere a [!INCLUDE[prod_short](includes/prod_short.md)], gli ambienti a cui è possibile accedere sono disponibili nella Home page di Dynamics 365. Puoi aprire la pagina selezionando l'icona **Avvio delle applicazioni** ![Avvio delle applicazioni.](media/app-launcher-icon.png "L'avvio delle applicazioni fornisce l'accesso a più funzionalità") e scegliendo **Dynamics 365**. Per andare alla società predefinita in quell'ambiente, selezionare il riquadro. Ci sarà un riquadro per ogni tipo di ambiente. Se sono disponibili più ambienti di un certo tipo, quando si sceglie il riquadro è possibile scegliere l'ambiente a cui accedere.
 
 L'immagine seguente mostra i riquadri per l'accesso agli ambienti di produzione e sandbox nella Home page di Dynamics 365.
 
@@ -33,7 +33,7 @@ L'immagine seguente mostra i riquadri per l'accesso agli ambienti di produzione 
 
 Quando si accedere a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile passare rapidamente a un'altra società. Dopo aver effettuato il passaggio, la società scelta diventa la società predefinita e verrà visualizzata al successivo accesso.
 
-1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegliere l'azione **Impostazioni personali**.
+1. Nell'angolo superiore destro scegli l'icona **Impostazioni** ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegli l'azione **Impostazioni personali**.
 
     > [!TIP]
     > È possibile anche usare la scelta rapida da tastiera ALT + T per aprire rapidamente la pagina delle impostazioni personali.

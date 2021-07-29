@@ -1,17 +1,17 @@
 ---
 title: Gestire l'archiviazione eliminando documenti o comprimendo i dati
-description: Informazioni su come conservare i dati storici comprimendo i movimenti contabili o eliminarli.
+description: Scopri come gestire l'accumulo di documenti storici (e ridurre la quantità di dati archiviati in un database) eliminandoli o comprimendoli.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c41e4d871740efde811a6bfc6190605aa4e3f573
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781213"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543047"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gestire l'archiviazione eliminando documenti o comprimendo i dati
 
@@ -34,67 +34,46 @@ Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la 
 
 ## <a name="compress-data-with-date-compression"></a>Comprimere i dati con la compressione della data
 
-È possibile comprimere i dati in [!INCLUDE [prod_short](includes/prod_short.md)] in modo da risparmiare spazio nel database, che in [!INCLUDE [prod_short](includes/prod_short.md)] online può anche far risparmiare denaro. La compressione si basa sulle date e consiste nel combinare diversi movimenti vecchi in un unico movimento nuovo. È possibile comprimere soltanto movimenti appartenenti ad anni fiscali chiusi e movimenti contabili fornitori nel cui campo **Aperto** è impostato su *No*.  
+È possibile comprimere i dati in [!INCLUDE [prod_short](includes/prod_short.md)] in modo da risparmiare spazio nel database, che in [!INCLUDE [prod_short](includes/prod_short.md)] online può anche far risparmiare denaro. La compressione si basa sulle date e consiste nel combinare diversi movimenti vecchi in un unico movimento nuovo. È possibile comprimere soltanto movimenti appartenenti ad anni fiscali chiusi e movimenti nel cui campo **Aperto** è impostato su **No**.  
 
 Ad esempio, i movimenti di registro fornitori dell'ultimo anno fiscale trascorso possono essere compressi in modo da ottenere un solo valore di dare/avere per ogni mese. L'importo del nuovo movimento corrisponderà alla somma di tutti i movimenti compressi. La data assegnata sarà la data iniziale del periodo compresso, ad esempio il primo giorno del mese se i movimenti sono stati compressi per mese. In seguito alla compressione sarà comunque possibile visualizzare il saldo periodo per ogni conto dell'anno fiscale trascorso.
 
 Il numero dei movimenti creati da una compressione data dipende dal numero di filtri impostati, dai campi che vengono associati e dalla durata del periodo. Il risultato del processo sarà sempre di almeno un movimento. Al termine del processo batch è possibile visualizzare il risultato nella pagina **Registri compressione data**.
 
-È possibile comprimere i seguenti tipi di dati in [!INCLUDE [prod_short](includes/prod_short.md)] utilizzando i processi batch:
+È possibile comprimere i seguenti tipi di dati utilizzando i processi batch. C'è un lavoro batch per ogni tipo di dati.
 
-* Movimenti contabili C/C bancari
+* Movimenti finanziari - movimenti C/G, movimenti IVA, movimenti contabili conti bancari, movimenti budget C/G, movimenti contabili clienti, movimenti contabili fornitori.
+* Movimenti warehouse 
+* Movimenti risorse
+* Movimenti budget articoli
+* Cespiti - movimenti contabili cespiti, movimenti contabili di manutenzione cespiti, movimenti contabili di assicurazione cespiti.
 
-  In seguito alla compressione, tramite la funzione **Mantieni contenuto campo** è possibile mantenere le informazioni dei campi **Nr. Documento, Cod. Nostro Contatto**, **Cod. Dimens. Globale 1** e **Cod. Dimens. Globale 2**.
-* Movimenti contabili fornitori
+Quando definisci i criteri per la compressione, puoi utilizzare le opzioni sotto **Mantieni contenuto campo** per mantenere il contenuto di determinati campi. I campi disponibili dipendono dai dati che stai comprimendo.
 
 > [!NOTE]
-> I movimenti compressi per clienti, fornitori, banca e registri secondari cespiti vengono registrati in modo leggermente diverso rispetto alla registrazione standard. Ciò serve a ridurre il numero di nuovi movimenti di contabilità generale creati dalla compressione della data ed è particolarmente importante quando si conservano informazioni quali dimensioni e numeri di documento. La compressione della data crea nuovi movimenti come segue:
+> Prima di poter eseguire la compressione della data, le visualizzazioni dell'analisi devono essere aggiornate. Per ulteriori informazioni, vedi [Per aggiornare una vista di analisi](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+
+In seguito alla compressione verranno sempre mantenute le informazioni contenute nei seguenti campi: **Data di registrazione**, **Nr. fornitore**, **Tipo di documento**, **Codice valuta**, **Categoria registrazione**, **Importo**, **Importo residuo**, **Importo originario (VL)**, **Importo residuo (VL)**, **Importo (VL)**, **Acquisti (VL)**, **Sconto fattura (VL)**, **Sconto pagam. applicato (VL)** e **Colleg. sconto pag. possibile**.
+
+> [!NOTE]
+> Le voci compresse vengono pubblicate in modo leggermente diverso rispetto alla registrazione standard. Ciò serve a ridurre il numero di nuovi movimenti di contabilità generale creati dalla compressione della data ed è particolarmente importante quando si conservano informazioni quali dimensioni e numeri di documento. La compressione della data crea nuovi movimenti come segue:
 >* Nella pagina **Movimenti C/G** vengono creati nuovi movimenti con nuovi numeri per i movimenti compressi. Il campo **Descrizione** contiene **Data compressa** in modo da rendere i movimenti compressi facili da identificare. 
 >* Nelle pagine dei movimenti, ad esempio **Movimenti contabili clienti**, vengono creati uno o più movimenti con i nuovi numeri di movimento. 
 > Il processo di registrazione crea interruzioni nella numerazione per i movimenti nella pagina **Movimenti C/G**. Questi numeri vengono assegnati solo ai movimenti nelle pagine dei movimenti contabili. L'intervallo di numeri assegnato ai movimenti è disponibile nella pagina **Registro C/G**, nei campi **Dal nr. movimento** e **Al nr. movimento**. 
 
-In seguito alla compressione verranno sempre mantenute le informazioni contenute nei seguenti campi: **Data di registrazione**, **Nr. fornitore**, **Tipo di documento**, **Codice valuta**, **Categoria registrazione**, **Importo**, **Importo residuo**, **Importo originario (VL)**, **Importo residuo (VL)**, **Importo (VL)**, **Acquisti (VL)**, **Sconto fattura (VL)**, **Sconto pagam. applicato (VL)** e **Colleg. sconto pag. possibile**.
-
-  Con la funzionalità **Mantieni contenuto campo** è inoltre possibile mantenere anche le informazioni contenute nei campi aggiuntivi seguenti: **Nr. documento**, **Acquistare da - Nr. for.**, **Cod. addetto acq.**, **Cod. dimens. globale 1** e **Cod. dimens. globale 2**.
-
 > [!NOTE]
 > Dopo aver eseguito la compressione della data, tutti i conti nel libro mastro vengono bloccati. Ad esempio, non è possibile annullare l'applicazione di movimenti contabili bancari o fornitore per qualsiasi conto durante il periodo in cui le date sono compresse.
-
-<!--* General ledger entries
-* Customer ledger entries-->
-<!--* Fixed asset ledger entries
-* G/L budget entries
-* VAT entries
-
-  After the compression the contents of the following fields are always retained: **Posting Date**, **Type**, **Closed**, **Gen. Bus. Posting Group**, **Gen. Prod. Posting Group**, **VAT Calculation Type**, **Base**, and **Amount**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Bill-to/Pay-to No.**, **EU 3-Party Trade**, **Country/Region Code**, and **Internal Ref. No.**.
-* Insurance ledger entries
-* Maintenance ledger entries
-* Resource ledger entries
-
-  After the compression, the contents of the following fields are retained: **Posting Date**, **Resource No.**, **Resource Group No.**, **Entry Type**, **Quantity**, **Total Cost**, **Total Price**, and **Chargeable**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Work Type Code**, **Job No.**, **Unit of Measure Code**, **Source Type**, **Source No.**. **Chargeable**, **
-* Warehouse entries
-
-  After the compression the contents of the following fields are always retained: **Registering Date**, **Location Code**, **Zone Code**, **Bin Code**, **Item No.**, **Quantity**, **Qty. (Base)**, **Bin Type Code**, **Entry Type**, **Variant Code**, **Qty. per Unit of Measure**, **Unit of Measure Code**, **Warranty Date**, **Expiration Date**, **Cubage**, and **Weight**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the **Serial No.** and **Lot No.** fields. -->
 
 Il numero dei movimenti creati da un processo batch di compressione data dipende dal numero di filtri impostati, dai campi che vengono associati e dalla durata del periodo. Il risultato del processo sarà sempre di almeno un movimento. 
 
 > [!WARNING]
 > Poiché la compressione data elimina del tutto i movimenti, è consigliabile eseguire sempre una copia di backup del database prima di eseguire questo processo batch.
 
-La tabella seguente elenca i campi della scheda dettaglio **Opzioni** disponibili in tutti i processi batch. La sezione **Mantieni contenuto campo** include i campi aggiuntivi sono descritti sopra.
-
-|Campo  |Descrizione  |
-|-------|-------------|
-|Data inizio     |Immettere in questo campo la data iniziale da includere nella compressione. La compressione comprenderà tutti i movimenti compresi fra questa data e la data finale.|
-|Data fine     |Immettere in questo campo la data finale da includere nella compressione. La compressione comprenderà tutti i movimenti compresi fra la data iniziale e questa data.|
-|Durata periodo |Scegliere la durata del periodo interessato dalla compressione. Per visualizzare le opzioni, selezionare il campo. Se la durata del periodo selezionata è *Trimestre*, *Mese* o *Settimana*, saranno compressi soltanto i movimenti che condividono uno stesso periodo contabile.|
-|Mantieni contenuto campo     |Inserire un segno di spunta nelle caselle relative ai campi di cui si desidera mantenere le informazioni anche quando i movimenti siano stati compressi. Maggiore è il numero dei campi selezionati, più dettagliati saranno i movimenti compressi. Se nessuno di questi campi viene selezionato, verrà creato un solo movimento per ognuno dei periodi selezionati nel campo **Lunghezza periodo**. |
+### <a name="to-run-a-date-compression"></a>Per eseguire una compressione data
+1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immetti **Amministrazione data**, quindi scegli il collegamento correlato.
+2. Effettuare una delle seguenti operazioni:
+    1. Per utilizzare una guida alla configurazione assistita per impostare la compressione della data per uno o più tipi di dati, scegli **Guida all'amministrazione dei dati**.
+    1. Per impostare la compressione per un singolo tipo di dati, scegli **Compressione data**, **Comprimi voci**, quindi scegli i dati da comprimere.
 
 ## <a name="see-also"></a>Vedere anche
 

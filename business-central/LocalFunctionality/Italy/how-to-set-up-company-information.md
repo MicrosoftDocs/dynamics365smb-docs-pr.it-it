@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6e4dbf0f08585be2ebe4a7754058d8e30a5d53ef
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c9eb9031e921bc5efdeca83da851741d39bfb28e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771442"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446156"
 ---
 # <a name="set-up-company-information"></a>Impostazione di informazioni sulla società
 I documenti fiscali devono contenere tutte le informazioni sulla società. È possibile immettere tutti i dati rilevanti nella pagina **Informazioni società** durante l'impostazione di una società. Questi dati verranno riportati in tutti i report e documenti fiscali.  
 
 ## <a name="to-set-up-company-information"></a>Per impostare le informazioni sulla società  
 
-1.  Scegliere l'![icona ingranaggio per aprire il menu Impostazioni](../../media/ui-experience/settings_icon_small.png), quindi scegliere l'azione **Informazioni società**.
+1.  Scegli l'icona ![Icona ingranaggio per aprire il menu Impostazioni.](../../media/ui-experience/settings_icon_small.png) e quindi scegli l'azione **Informazioni società**.
 2.  Immettere le informazioni nelle Schede dettaglio, come indicato nella tabella riportata di seguito.
 
     |Campo|Description|  

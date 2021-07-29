@@ -1,6 +1,6 @@
 ---
-title: Aggiungere un segnalibro per un collegamento di una pagina o un report in Gestione ruolo utente | Microsoft Docs
-description: Informazioni su come aggiungere un collegamento in Gestione ruolo utente.
+title: Aggiungere un collegamento a segnalibro a una pagina o un report in Gestione ruolo utente
+description: Utilizzando la nuova icona segnalibro, è possibile aggiungere un'azione che apre una pagina o un report dal menu di navigazione di Gestione ruolo utente.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ec89d35da258020ce08710d3eafc4bce32cf81a8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787479"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446024"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente
-Utilizzando la nuova icona segnalibro, è possibile aggiungere un'azione che apre una pagina o un report dal menu di navigazione di Gestione ruolo utente. Ciò consente di raggiungere rapidamente i contenuti o le attività aziendali preferiti. Si aggiunge il segnalibro dalla pagina o dal report di destinazione, ovvero la schermata che deve essere aperta con il collegamento in Gestione ruolo utente.
+Utilizzando la nuova icona segnalibro, è possibile aggiungere un'azione che apre una pagina o un report dal menu di navigazione di Gestione ruolo utente. I segnalibri consentono di raggiungere rapidamente i contenuti o le attività aziendali preferiti. Si aggiunge il segnalibro dalla pagina o dal report di destinazione, ovvero la schermata che deve essere aperta con il collegamento in Gestione ruolo utente.
 
-L'icona segnalibro è visualizzata nell'angolo in alto a destra di una pagina e anche nella finestra della **funzionalità delle informazioni** in cui è possibile contrassegnare correttamente più pagine o report. Se un segnalibro esiste per la pagina, l'icona è scura e la descrizione comandi indica "Con segnalibro".
+L'icona segnalibro è visualizzata nell'angolo in alto a destra di una pagina e anche nella finestra della **funzionalità delle informazioni** in cui puoi contrassegnare correttamente più pagine o report. Se un segnalibro esiste per la pagina, l'icona è scura e la descrizione comandi indica "Con segnalibro".
 
 ## <a name="to-bookmark-the-target-page"></a>Per aggiungere un segnalibro alla pagina di destinazione
 1. Aprire qualsiasi pagina per la quale si desidera un collegamento in Gestione ruolo utente.
-2. Scegliere l'icona ![segnalibro](media/ui_bookmark_icon.png "Segnalibro").
+2. Scegli l'icona ![Segnalibro.](media/ui_bookmark_icon.png "Segnalibro") .
 
 Un'azione denominata come la pagina viene aggiunta al menu di navigazione in Gestione ruolo utente.
 
 ## <a name="to-bookmark-the-target-report"></a>Per aggiungere un segnalibro al report di destinazione
 1. Aprire qualsiasi pagina di richiesta report per la quale si desidera un collegamento in Gestione ruolo utente.
-2. Scegliere l'icona ![segnalibro](media/ui_bookmark_icon.png "Segnalibro").
+2. Scegli l'icona ![Segnalibro.](media/ui_bookmark_icon.png "Segnalibro") .
 
 Un'azione denominata come il report viene aggiunta al menu di navigazione in Gestione ruolo utente.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Per aggiungere un segnalibro a una pagina o un report dalla finestra della funzionalità delle informazioni
 1. Aprire la finestra della **funzionalità delle informazioni** e immettere, ad esempio, **Ordini vendita**.
-2. Passare il mouse sopra il risultato della ricerca per la pagina o il report **Ordini vendita**, quindi scegliere l'icona ![segnalibro](media/ui_bookmark_icon.png "Segnalibro").
+2. Passa il mouse sopra il risultato della ricerca per la pagina o il report **Ordini vendita**, quindi scegli l'icona ![Segnalibro.](media/ui_bookmark_icon.png "Segnalibro") .
 
 Un'azione denominata come la pagina o il report viene aggiunta al menu di navigazione in Gestione ruolo utente.
 
@@ -60,7 +60,7 @@ La possibilità di aggiungere un segnalibro a una pagina o un report è una dell
 - **Perché non è possibile aggiungere segnalibri a determinate pagine o report?**  
 Non a tutte le pagine e i report possono essere aggiunti i segnalibri. Quando una pagina o un report viene eseguito in un contesto speciale regolato dall'applicazione aziendale, l'icona del segnalibro non viene visualizzata. Ad esempio, nelle pagine che non sono presenti nella finestra della **funzionalità delle informazioni** ma vengono avviate altrove non è visualizzata l'icona del segnalibro. Allo stesso modo, le pagine di richiesta report che vengono utilizzate solo per raccogliere i filtri senza eseguire il report non includono l'icona del segnalibro.
 
-Vedere i dettagli tecnici su [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) e [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+  Vedere i dettagli tecnici su [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) e [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Quando si cancella la personalizzazione, verranno cancellati anche i segnalibri?**  
 Sì. I segnalibri si trovano nel menu di navigazione. Se si cancellano le modifiche al menu di navigazione da qualsiasi pagina o si cancella tutta la personalizzazione in Gestione ruolo utente, tutte le nuove azioni verranno rimosse in modo permanente.
@@ -77,6 +77,8 @@ No. Al momento, non è possibile aggiungere azioni per aprire XMLports dall'inte
 
 - **I segnalibri verranno tradotti quando si cambia lingua in Business Central?**  
 Quando viene aggiunta una nuova azione, qualsiasi testo tradotto disponibile in quel momento viene contrassegnato con un segnalibro. Se il nuovo testo tradotto viene aggiunto in un secondo momento, la nuova azione non includerà le traduzioni più recenti.
+
+- **Perché non posso aggiungere del testo in una pagina direttamente dopo averla aperta con il segnalibro?**<br> Quando una pagina è aggiunta ai segnalibri, la pagina si aprirà sempre in modalità di visualizzazione dal segnalibro, anche se era in modalità di modifica quando è stata aggiunta ai segnalibri. Selezionando l'icona **Apportare le modifiche nella pagina** ![Mostra l'icona della matita per modificare la pagina.](media/edit-pencil.png) ti consentirà di aggiungere testo nei campi modificabili.
 
 
 ## <a name="see-also"></a>Vedere anche

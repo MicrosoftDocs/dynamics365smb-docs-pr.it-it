@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074689"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446467"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integrazione di Business Central e Microsoft Teams
 
@@ -33,11 +33,11 @@ L'app [!INCLUDE [prod_short](includes/prod_short.md)] per Teams offre le seguent
 
 Indipendentemente da dove ti trovi in Teams, puoi cercare dettagli su clienti, fornitori e altri contatti [!INCLUDE [prod_short](includes/prod_short.md)]. Questa funzione non solo consente di visualizzare le informazioni generali sui contatti, ma consente anche di accedere alla cronologia delle interazioni, ai documenti correlati e altro ancora.
 
- [![Ricerca di contatti Business Central dalla casella di comando in Teams](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Ricerca di contatti Business Central dalla casella di comando in Teams.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 Puoi anche condividere i dettagli del contatto in una conversazione. Da lì, i partecipanti hanno accesso anche a ulteriori dettagli sul contatto.
 
- [![Ricerca di contatti Business Central dalla casella di composizione in Teams](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Ricerca di contatti Business Central dalla casella di composizione in Teams.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Per ulteriori informazioni, vedi [Ricerca contatti da Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,7 +45,7 @@ Per ulteriori informazioni, vedi [Ricerca contatti da Microsoft Teams](across-se
 
 Copiare un collegamento a qualsiasi record di Business Central e incollarlo in una conversazione di Teams per condividerlo con i colleghi. L'app espanderà il collegamento in una scheda interattiva compatta che visualizza le informazioni sul record.
 
-[![Integrazione di Teams con Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Integrazione di Teams con Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Una volta nella conversazione, l'utente e i colleghi possono visualizzare ulteriori dettagli sul record, modificare i dati e intraprendere azioni, senza uscire da Teams.
 
@@ -68,6 +68,7 @@ Per ulteriori informazioni, vedere [Condividere record in Microsoft Teams](acros
 
 [Domande frequenti su Teams](teams-faq.md)  
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  
+[Modifica della società e di altre impostazioni in Teams](across-teams-settings.md)  
 [Sviluppo per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

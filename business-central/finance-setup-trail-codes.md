@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773841"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446217"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Impostazione di codici sorgente e causali per audit trail
 
@@ -33,7 +33,7 @@ Sia in fase di registrazione che di esecuzione di un processo batch, il codice o
 
 ### <a name="to-define-source-codes"></a>Per definire i codici origine
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup codice origine** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Setup codice origine**, quindi scegli il collegamento correlato.  
 
 2. Nella finestra **Setup codice origine**, per ogni tipo di registrazione e processo batch, specificare il codice sorgente pertinente.  
 
@@ -45,7 +45,7 @@ Potrebbe essere necessario modificare un codice origine. Ad esempio, può essere
 
 ### <a name="to-change-source-codes"></a>Per modificare i codici origine
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Codice origine** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona ![Cerca pagina o report.](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Codici origine**, quindi scegli il collegamento correlato.
 
 2. Nella riga che contiene il codice da modificare selezionare il codice nel campo **Codice**.
 
@@ -59,7 +59,7 @@ Le causali integrano i codici sorgente e vengono utilizzati per indicare il moti
 
 ### <a name="to-set-up-reason-codes"></a>Per impostare le causali
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Causali** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona ![Cerca pagina o report.](media/ui-search/search_small.png "Icona Cerca pagina o report")  immetti **Causali**, quindi scegli il collegamento correlato.
 
 2. Nella finestra **Causali** immettere il primo codice nel campo **Codice**. Nel campo **Descrizione** immettere un testo esplicativo.
 
@@ -69,7 +69,7 @@ La seguente procedura descrive come aggiungere una causale a una definizione di 
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Per assegnare causali alle definizioni di registrazioni
 
-1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Definizione registrazioni COGE** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona ![Cerca pagina o report.](media/ui-search/search_small.png "Icona Cerca pagina o report")  immetti **Definizioni registrazioni COGE**, quindi scegli il collegamento correlato.
 
 2. Sulla riga della definizione di registrazioni selezionata immettere il codice pertinente nel campo **Causale**.
 

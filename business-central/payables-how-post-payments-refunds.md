@@ -1,21 +1,21 @@
 ---
-title: Collegare i pagamenti ai documenti correlati e registrali| Microsoft Docs
-description: Descrive come registrare i pagamenti corrisposti ai fornitori e i rimborsi corrisposti ai clienti.
+title: Registrare pagamenti e resi nelle Registrazioni pagamenti
+description: Informazioni su come registrare i pagamenti corrisposti ai fornitori e i rimborsi corrisposti ai clienti nella pagina Registrazioni pagamenti.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 1316bb7c5f1385ffef2ebe330d02e5a352e8561a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782065"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543199"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrare pagamenti e resi nelle Registrazioni pagamenti
 
@@ -37,18 +37,33 @@ Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire 
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Per eseguire i pagamenti nelle registrazioni pagamenti
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
 2. Aprire il batch contabile che verrà dedicato ai pagamenti.
-3. Se si conoscono i clienti da pagare o rimborsare, compilare i campi manualmente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Se conosci i clienti da pagare, compila i campi manualmente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Per collegare anche il pagamento alla relativa fattura o nota di credito, selezionare il campo **Collega-a nr. doc.** nella pagina **Collega movimenti fornitori**, selezionare la relativa fattura o nota di credito, quindi selezionare il pulsante **OK**.
 
     Molti campi, ad esempio i campi **Importo documento** e **Data scadenza** vengono compilati con le informazioni tratte dal documento selezionato.
 5. In alternativa, utilizzare la funzione **Sugg. pagamenti fornitore**. Tutte le informazioni applicabili e gli importi vengono quindi inseriti anche nelle righe del giornale di registrazione. Per ulteriori informazioni, vedere [Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md).
 
     I messaggi guideranno la compilazione corretta dei campi richiesti.
-6.  Una volta completate tutte le righe di registrazione pagamento, scegliere l'azione **Registra**.
+6. Una volta completate tutte le righe di registrazione pagamento, scegliere l'azione **Registra**.
 
-## <a name="see-also"></a>Vedi anche
+
+## <a name="to-issue-a-refund-check"></a>Per emettere un assegno di rimborso
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
+2. Nel campo **Tipo di documento** seleziona **Rimborso**.  
+3. Nel campo **Nr. documento esterno**, utilizzalo come riferimento per l'assegno di rimborso (ad esempio, numero di ordine di reso).  
+4. Nel campo **Tipo conto** selezionare **Cliente**.  
+5. Nel campo **Nr. conto**, seleziona il numero di conto del cliente per cui viene emesso l'assegno di rimborso.  
+6. Immetti l'importo da rimborsare nel campo **Importo**.  
+7. Nel campo **Tipo contropartita** seleziona **Conti C/C bancari**.  
+8. Nel campo **Nr. contropartita**, seleziona il conto bancario da cui uscirà l'assegno.  
+9. Nel campo **Collega-a nr. doc.** seleziona i documenti che richiedono un rimborso.  
+10. Quando tutte le righe di registrazione pagamenti sono state completate, scegli l'azione **Registra/Stampa** quindi scegli **Registra e stampa** e seleziona **Sì**.  
+  
+
+## <a name="see-also"></a>Vedere anche
 [Effettuare pagamenti tramite assegno](payables-how-work-checks.md)  
 [Effettuare pagamenti elettronici](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

@@ -1,18 +1,18 @@
 ---
-title: Guida e supporto
+title: Risorse per Guida e supporto
 description: Trovare la Guida del prodotto, indicazioni, suggerimenti sulla risoluzione dei problemi e assistenza nonché informazioni su come ottenere supporto tecnico per Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/09/2021
-ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.date: 07/09/2021
+ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115413"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543072"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
@@ -71,11 +71,20 @@ Assicurarsi di effettuare la ricerca nell'elenco dei suggerimenti inviati. È po
 
 La sezione **Risoluzione dei problemi** include informazioni tecniche che l'amministratore o il partner [!INCLUDE[prod_short](includes/prod_short.md)] può utilizzare per assistere gli utenti. Ciò include informazioni sui messaggi di errore più recenti, la versione corrente di [!INCLUDE[prod_short](includes/prod_short.md)] e un collegamento per accedere alla pagina **Controllo pagina**. Per ulteriori informazioni, vedere [Controllo di pagine in Business Central](across-inspect-page.md).  
 
-Come amministratore interno, è possibile accedere all'interfaccia di amministrazione dove continuare la risoluzione dei problemi. È possibile visualizzare i dati di telemetria, gestire gli ambienti e gestire le sessioni utente. Per ulteriori informazioni, vedere [Ricerca di informazioni tecniche](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) e [Gestione degli ambienti](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) nel contenuto amministrativo.  
+Per aiutare te o il tuo partner di supporto a risolvere i problemi, puoi attivare l'accesso aggiuntivo nella sezione **Segnala un problema**. Quindi puoi analizzare la telemetria aggiuntiva nell'interfaccia di amministrazione o in Application Insights, per esempio.  
+
+Come amministratore interno, è possibile accedere all'interfaccia di amministrazione dove continuare la risoluzione dei problemi. È possibile visualizzare i dati di telemetria, gestire gli ambienti e gestire le sessioni utente. I seguenti articoli nel contenuto dell'amministrazione forniscono ulteriori informazioni:
+
+- [Trovare informazioni tecniche](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
+- [Gestione degli ambienti](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+- [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
+- [Abilitare l'invio della telemetria ad Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
 ## <a name="report-a-problem"></a>Segnalare un problema
 
-Il partner rivenditore [!INCLUDE[prod_short](includes/prod_short.md)] fornirà supporto tecnico agli utenti. Questa sezione semplifica la presa di contatto con il partner rivenditore se questo ha fornito le informazioni relative al contatto del supporto. Se il partner [!INCLUDE[prod_short](includes/prod_short.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft. Per ulteriori informazioni, vedere [Riassegnazione di problemi di assistenza a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) nel contenuto amministrativo.  
+Il partner rivenditore [!INCLUDE[prod_short](includes/prod_short.md)] fornirà supporto tecnico agli utenti. Questa sezione semplifica la presa di contatto con il partner rivenditore se questo ha fornito le informazioni relative al contatto del supporto. Se il partner [!INCLUDE[prod_short](includes/prod_short.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft.  
+
+Per ulteriori informazioni, vedere [Riassegnazione di problemi di assistenza a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) nel contenuto amministrativo.  
 
 > [!NOTE]
 > Questa sezione è disponibile solo se è stata acquistata una sottoscrizione a [!INCLUDE[prod_short](includes/prod_short.md)]. Se si utilizza una versione di valutazione e non si è ancora acquistato [!INCLUDE[prod_short](includes/prod_short.md)], non si dispone di un partner rivenditore e non è possibile contattare il team di supporto Microsoft. È possibile trovare un partner [!INCLUDE[prod_short](includes/prod_short.md)] nella pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145). Per ulteriori informazioni, vedere [Come trovo un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner).  

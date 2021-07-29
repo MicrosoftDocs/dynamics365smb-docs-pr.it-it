@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779809"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446392"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mapping delle tabelle e dei campi da sincronizzare
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -68,7 +68,7 @@ Le associazioni possono essere impostate automaticamente utilizzando i processi 
 Se non si desidera sincronizzare tutte le righe di una tabella di [!INCLUDE[prod_short](includes/cds_long_md.md)] o di [!INCLUDE[prod_short](includes/prod_short.md)] specifica, è possibile impostare i filtri per limitare i dati che vengono sincronizzati. I filtri vengono impostati nella pagina **Mapping tabella integrazione**.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>Filtrare record o righe per la sincronizzazione  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Mapping tabella integrazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Mapping tabella integrazione**, quindi scegli il collegamento correlato.
 
 2.  Per filtrare i record di [!INCLUDE[prod_short](includes/prod_short.md)], impostare il campo **Filtro tabella**.  
 
@@ -80,7 +80,7 @@ Per impostazione predefinita, solo i record di [!INCLUDE[prod_short](includes/pr
 Ad esempio, il processo di sincronizzazione AGENTE - Dynamics 365 Sales utilizza il mapping di tabella AGENTE. Il processo di sincronizzazione copia i dati dagli utenti in [!INCLUDE[prod_short](includes/cds_long_md.md)] negli agenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Se si imposta il mapping di tabella per creare nuovi record, per ogni utente di [!INCLUDE[prod_short](includes/cds_long_md.md)] non ancora associato a un agente di [!INCLUDE[prod_short](includes/prod_short.md)], viene creata una nuova riga agente in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Per creare nuovi record durante la sincronizzazione  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Mapping tabella integrazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Mapping tabella integrazione**, quindi scegli il collegamento correlato.
 
 2.  Nel movimento di mapping della tabella nell'elenco, deselezionare il campo **Sinc. solo record associati**.  
 
@@ -96,7 +96,7 @@ Se si installa il setup di sincronizzazione predefinito, la maggioranza delle vo
 -   **CDSACCOUNT** crea e sincronizza nuovi conti in [!INCLUDE[prod_short](includes/cds_long_md.md)] in base a un conto di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Per specificare i modelli di configurazione in un mapping di tabella  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Mapping tabella integrazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Mapping tabella integrazione**, quindi scegli il collegamento correlato.
 
 2.  Nel movimento mapping di tabella nell'elenco, nel campo **Codice modello di configurazione tabella** scegliere il modello di configurazione da utilizzare per nuovi record in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
