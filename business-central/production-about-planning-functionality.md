@@ -1,6 +1,6 @@
 ---
-title: Informazioni sulla funzionalità di pianificazione | Microsoft Docs
-description: Il sistema di pianificazione considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l'approvvigionamento in modo da soddisfare la domanda.
+title: Informazioni sulla funzionalità di pianificazione
+description: Il sistema di pianificazione in Dynamics 365 Business Central considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l'approvvigionamento in modo da soddisfare la domanda.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782040"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636018"
 ---
 # <a name="about-planning-functionality"></a>Informazioni sulla funzionalità di pianificazione
 
@@ -37,9 +37,12 @@ Un altro obiettivo del sistema di pianificazione consiste nel garantire che il m
 
 ## <a name="planning-calculation"></a>Calcolo della pianificazione
 
-Il sistema di pianificazione si basa sulla domanda anticipata ed effettiva da parte dei clienti, nonché sui parametri di riordino del magazzino. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dall'applicazione (messaggi di azione) da adottare relativamente al possibile rifornimento da fornitori, trasferimenti tra magazzini o produzione. Se sono già presenti ordini di rifornimento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
+Il sistema di pianificazione si basa sulla domanda anticipata ed effettiva da parte dei clienti, nonché sui parametri di riordino del magazzino. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dall'applicazione ([Messaggi di azione](production-how-to-run-mps-and-mrp.md#action-messages)) da adottare relativamente al possibile rifornimento da fornitori, trasferimenti tra magazzini o produzione. Se sono già presenti ordini di rifornimento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
 
 Le base della procedura di pianificazione consiste nel calcolo del fabbisogno da lordo a netto. Il fabbisogno netto determina il rilascio degli ordini pianificati, la cui programmazione si basa sulle informazioni relative al ciclo (articoli lavorati) o sul lead time della scheda articolo (articoli acquistati). Le quantità relative al rilascio degli ordini pianificati sono basate sul calcolo della pianificazione e sono influenzate dai parametri impostati nelle singole schede articolo.  
+
+> [!TIP]
+> Il sistema di pianificazione si basa sul modo in cui l'organizzazione utilizza le sedi. Per ulteriori informazioni, vedere [Pianificazione con o senza sedi](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Pianificazione con ordini di trasferimento manuali
 

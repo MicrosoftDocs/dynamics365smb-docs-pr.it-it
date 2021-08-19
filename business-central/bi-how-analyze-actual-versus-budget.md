@@ -1,8 +1,6 @@
 ---
 title: Analisi degli importi effettivi e degli importi di budget
 description: Questo argomento descrive come analizzare gli importi effettivi rispetto agli importi a budget per raccogliere, analizzare e condividere i dati dell'azienda.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9011f3d488c659b7b2b44f8801c4af055f51bc54
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2bbdce7c34160ffc1eefc7e398574db8b642b657
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437103"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688280"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analisi degli importi effettivi e degli importi di budget
 Come parte della raccolta, dell'analisi e della condivisione dei dati della società, si visualizzano gli importi effettivi rispetto agli importi di budget per tutti i conti e per diversi periodi.

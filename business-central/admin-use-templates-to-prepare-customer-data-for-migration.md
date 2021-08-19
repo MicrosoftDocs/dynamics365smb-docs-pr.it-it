@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443156"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649889"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Preparare la migrazione dei dati dei clienti con modelli
 
@@ -124,6 +124,7 @@ Risulta completo qualsiasi record che presenta questa modalità di collegamento 
 > [!NOTE]
 > Se i dati nelle tabelle del pacchetto di configurazione contengono date, ad esempio le date di registrazione nelle fatture, le date vengono considerate nel fuso orario specificato in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Per creare un record da un modello di configurazione
 
 È possibile utilizzare la struttura dei dati contenuti nei modelli di dati per convertire singolarmente le informazioni in record nel database. A tale scopo, utilizzare la funzione **Crea istanza**. Si tratta di una versione miniatura del processo di migrazione dei dati e può essere utile per creare prototipi o gestire attività di creazione di dati di dimensioni più piccole.  
@@ -137,6 +138,15 @@ Nella seguente procedura viene illustrato come creare una scheda articolo da un 
 5. Per rivedere la nuova scheda articolo, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 6. Aprire la nuova scheda articolo.  
 7. Espandere le varie Schede dettaglio e verificare che le informazioni siano state create correttamente.  
+
+## <a name="to-use-conversion-templates"></a>Usare i modelli di conversione
+
+Puoi convertire i contatti in clienti, fornitori e dipendenti. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Per convertire un contatto in un cliente, fornitore o dipendente
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi seleziona il contatto corretto. 
+2. Nella scheda contatto seleziona **Azioni**, quindi **Funzioni**, infine seleziona **Crea come cliente, fornitore, banca o dipendente**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Per utilizzare un modello di configurazione su un record
 
@@ -152,6 +162,9 @@ La seguente procedura è basata su una nuova scheda cliente.
 3. Nella pagina **Modelli clienti**, selezionare uno dei modelli, quindi scegliere il pulsante **OK**.  
 
 I valori di default dal modello cliente scelto sono inseriti nella scheda cliente.
+
+> [!NOTE]
+> Non è possibile utilizzare Applica modello per cancellare i campi su clienti, fornitori e simili. È invece necessario usare la funzionalità **Modifica in Excel**. Per ulteriori informazioni, vedere [Modificare in Excel](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>Vedere anche
 

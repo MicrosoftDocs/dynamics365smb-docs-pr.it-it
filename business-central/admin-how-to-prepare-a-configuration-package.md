@@ -1,5 +1,5 @@
 ---
-title: Come preparare un pacchetto di configurazione
+title: Preparazione di un pacchetto di configurazione
 description: Informazioni su come preparare un pacchetto di configurazione RapidStart che può aiutarti a creare nuove società in base ai dati esistenti.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440726"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660233"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
 
@@ -74,8 +74,20 @@ Specificare i campi da includere nel pacchetto. Per default, vengono inclusi tut
     - Per selezionare solo i campi da includere, scegliere l'azione **Cancella campo Incluso**. Per aggiungere tutti i campi, scegliere l'azione **Imposta campo incluso**.  
     - Per specificare che i dati di un campo non devono essere convalidati, deselezionare la casella di controllo **Convalida campo** del campo.  
 
-10. Determinare se sono stati introdotti errori potenziali scegliendo l'azione **Convalida pacchetto**. Questo può verificarsi nel caso in cui non vengono incluse le tabelle su cui si basa la configurazione.  
-11. Scegliere il pulsante **OK**.  
+10. Facoltativamente, per applicare filtri di elaborazione ai dati della tabella o per aggiungere una codeunit con qualsiasi codice che si desidera includere nel pacchetto, scegliere la riga per la tabella pertinente, quindi scegliere l'azione **Regole di elaborazione**.
+
+    1. Nella pagina **Regole da elaborare nella tabella di configurazione**, compilare i campi. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Per applicare filtri ai dati, specificare l'azione pertinente nel campo **Azione**, scegliere l'azione **Elaborazione filtri**, quindi compilare i campi.  
+
+            Ad esempio, i pacchetti di configurazione di Microsoft per le società di valutazione impostano filtri di elaborazione sulle tabelle **Testate vendite** e **Testate acquisti**.
+        - Per aggiungere una codeunit di elaborazione, specificarla nel campo **ID codeunit di elaborazione personalizzata**.
+
+          > [!NOTE]
+          > Questa codeunit deve assumere la tabella 8614 *Record pacchetto di configurazione* come parametro sul record `OnRun`.
+    2. Chiudere la pagina.
+11. Determinare se sono stati introdotti errori potenziali scegliendo l'azione **Convalida pacchetto**. Questo può verificarsi nel caso in cui non vengono incluse le tabelle su cui si basa la configurazione.  
+12. Scegliere il pulsante **OK**.  
 
 Dopo aver rifinito la lista dei campi da includere in una tabella, è possibile controllare i risultati in Excel.  
 

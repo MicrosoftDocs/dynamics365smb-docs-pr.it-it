@@ -1,6 +1,6 @@
 ---
-title: Impostare la configurazione della società | Documenti di Microsoft
-description: Il processo di implementazione inizia con la soluzione Business Central necessaria. Riunificate tutte queste informazioni nei pacchetti di configurazione.
+title: Impostare la configurazione della società
+description: In qualità di partner, configurare Business Central in modo appropriato per il cliente con configurazioni predefinite o specifiche per il cliente raggruppate nei pacchetti di configurazione.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3eefa0fcb40b4e925ca653f223f2d97ed10f370e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777243"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649714"
 ---
 # <a name="set-up-company-configuration"></a>Impostare la configurazione della società
-Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.
+Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società in [!INCLUDE [prod_short](includes/prod_short.md)] online o localmente, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.
 
 RapidStart Services fornisce inoltre gli strumenti per eseguire la migrazione dei dati legacy, ad esempio clienti e fornitori.  
 
@@ -33,11 +33,14 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |**Task**|**Vedere**|  
 |------------|-------------|  
 |Pianificare la configurazione di una società compilando il foglio di lavoro configurazione.|[Gestione della configurazione della società in un foglio di lavoro](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Creare un pacchetto di configurazione, personalizzare un pacchetto, assegnare tabelle a un pacchetto, esaminare o modificare dati esistenti del cliente, creare la nuova società e quindi spostare i dati dei test nell'ambiente di produzione.|[Preparazione di un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md)| 
+|Creare un pacchetto di configurazione, personalizzare un pacchetto, assegnare tabelle a un pacchetto, esaminare o modificare dati esistenti del cliente, creare la nuova società e quindi spostare i dati dei test nell'ambiente di produzione.|[Preparazione di un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md)|
 
-## <a name="see-also"></a>Vedere anche  
-[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Amministrazione](admin-setup-and-administration.md)
+È anche possibile creare pacchetti di configurazione con configurazioni standard che possono essere utilizzati più volte. Per ulteriori informazioni, vedere [Impostare pacchetti di configurazione aziendale standard](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) nel contenuto per sviluppatori e amministratori.  
+
+## <a name="see-also"></a>Vedere anche
+
+[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Amministrazione](admin-setup-and-administration.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

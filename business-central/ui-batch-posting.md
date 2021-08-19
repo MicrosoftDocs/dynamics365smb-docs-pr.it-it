@@ -1,6 +1,6 @@
 ---
 title: Registrare più documenti contemporaneamente
-description: Anziché registrare un singolo documento alla volta, è possibile selezionare più documenti non registrati in un elenco per la registrazione batch immediata o programmata.
+description: Informazioni su come selezionare più documenti non registrati in un elenco per la registrazione batch immediata o pianificata in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446049"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649689"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Registrare più documenti contemporaneamente
 
@@ -78,7 +78,7 @@ Se la coda processi non può registrare l'ordine di vendita, lo stato viene modi
 1. Dal documento che si è tentato di registrare con la registrazione in background, scegliere il campo **Stato coda processi**, che conterrà **Errore**.
 2. Analizzare il messaggio di errore e correggere il problema.
 
-In alternativa, è possibile verificare nella pagina **Voci log coda processi** se l'ordine di vendita è stato registrato correttamente. Per ulteriori informazioni, vedere [Per visualizzare lo stato o gli errori nella coda processi](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+In alternativa, è possibile verificare nella pagina **Voci log coda processi** se l'ordine di vendita è stato registrato correttamente. Per ulteriori informazioni, vedere la sezione [Monitorare la coda processi](#monitor-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Per creare un movimento coda processi per la registrazione batch di ordini di vendita
 
@@ -117,6 +117,11 @@ La seguente procedura illustra come impostare il report **Registra batch ordini 
 
 Gli ordini di vendita entro i filtri definiti saranno registrati ogni giorno della settimana alle ore 16.
 
+## <a name="monitor-the-job-queue"></a>Monitorare la coda processi
+
+Se si imposta la pubblicazione in background con code processi, monitorare regolarmente la coda processi per rilevare eventuali problemi. È possibile tenere traccia dello stato nella pagina **Movimenti coda processi**. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).  
+
+In qualità di amministratore, è possibile usare [Application Insights](/azure/azure-monitor/app/app-insights-overview) per raccogliere e analizzare i dati di telemetria da utilizzare per identificare i problemi. Per ulteriori informazioni, vedere [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) nel contenuto per sviluppatori e amministratori.  
 
 ## <a name="see-also"></a>Vedere anche
 

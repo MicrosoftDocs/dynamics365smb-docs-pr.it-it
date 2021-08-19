@@ -1,5 +1,5 @@
 ---
-title: Task amministrativi in Business Central | Documenti di Microsoft
+title: Attività di amministrazione in Business Central
 description: Alcuni task in Business Central richiedono un setup e un'amministrazione centrale. In questa sezione, viene fornita una descrizione di tali task e informazioni su come utilizzarli.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 13f713756fc1f771243686c549c22f3ce0974b6b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 959a56e4bb7fcaac57b05d30dca4939ed2f8576d
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777218"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660133"
 ---
 # <a name="administration"></a>Setup
 
@@ -23,17 +23,17 @@ I task di amministrazione centrale vengono generalmente eseguiti da un solo ruol
 
 Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio. [!INCLUDE[prod_short](includes/prod_short.md)] include varie guide di setup per la configurazione dei dati principali. Per ulteriori informazioni, vedere [Impostazione di Business Central](setup.md).
 
+> [!NOTE]
+> È possibile impostare una nuova società in [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
 Se si utilizza RapidStart Services per implementare i valori di setup o questi vengono immessi manualmente nella nuova società, è possibile supportare le decisioni di setup con alcuni consigli generali per i campi di setup selezionati che potrebbero provocare la mancata efficacia della soluzione se definiti in modo errato.  
 
 Un utente o amministratore avanzato può impostare il framework di scambio di dati per consentire agli utenti di esportare e importare i dati nei file bancari e di ruolo paga, ad esempio per i diversi processi di gestione bancaria. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).
 
-> [!NOTE]
-> È possibile impostare una nuova società in [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
-
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli articoli che li descrivono.  
 
 |**Per**|**Vedere**|  
-|------------|-------------|  
+|------------|-------------|
 |Definire chi può accedere a [!INCLUDE[prod_short](includes/prod_short.md)] creando utenti nell'interfaccia di amministrazione di Microsoft 365 in base alle licenze del prodotto.|[Creare utenti in base alle licenze](ui-how-users-permissions.md)|
 |Assegnare le autorizzazioni agli utenti, modificare i set di autorizzazioni e raggruppare gli utenti per una gestione semplificata delle autorizzazioni.|[Assegnare autorizzazioni a utenti e gruppi](ui-how-users-permissions.md)|
 |Aggiungere utenti, gestire i permessi e l'accesso ai dati, assegnare ruoli.|[Gestire profili](admin-users-profiles-roles.md)|
@@ -50,8 +50,17 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Crittografare i dati in [!INCLUDE[prod_short](includes/prod_short.md)] Server generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nel server.|[Gestione crittografia dati](admin-manage-data-encryption.md)|
 |Connettere Dynamics 365 Sales a [!INCLUDE[prod_short](includes/prod_short.md)] per ottenere un'integrazione ottimale tra le relazioni con il cliente e l'elaborazione degli ordini nel processo dai lead agli incassi.|[Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società e estendere la soluzione con le app.|[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
-|Monitorare l'utilizzo e risolvere i problemi delle sessioni.|[Telemetria dell'ambiente nell'interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Gestire le sessioni utente, inclusa l'annullamento di una sessione se l'utente è bloccato.|[Gestione delle sessioni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|  
+
+## <a name="administration-in-the-admin-center"></a>Amministrazione nell'interfaccia di amministrazione
+
+Gli amministratori interni e delegati hanno accesso all'interfaccia di amministrazione [!INCLUDE [prod_short](includes/prod_short.md)] da cui possono configurare, monitorare e risolvere i problemi degli ambienti [!INCLUDE [prod_short](includes/prod_short.md)]. Nella tabella seguente sono descritte alcune delle attività principali, con collegamenti agli articoli che li descrivono.  
+
+|**Per**|**Vedere**|  
+|------------|-------------|
+|Informazioni sugli strumenti disponibili per la risoluzione dei problemi.|[Supporto tecnico](/dynamics365/business-central/dev-itpro/technical-support)|
+|Monitorare l'utilizzo e risolvere i problemi delle sessioni|[Telemetria dell'ambiente nell'interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
+|Gestire le sessioni utente, inclusa l'annullamento di una sessione se l'utente è bloccato.|[Gestione delle sessioni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Configurare il tenant per inviare i dati di telemetria ad Azure Application Insights per una migliore analisi e risoluzione dei problemi.|[Abilitare l'invio della telemetria ad Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 

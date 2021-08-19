@@ -1,5 +1,5 @@
 ---
-title: Annullare una registrazione con un movimento di pareggio | Microsoft Docs
+title: Annullare una registrazione con un movimento di storno
 description: Se è stata eseguita una registrazione errata nelle registrazioni generali, è possibile utilizzare la funzione Storno per annullare la registrazione con un audit trail corretto.
 services: project-madeira
 documentationcenter: ''
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2021
+ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444464"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660158"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Stornare le registrazioni e annullare carichi/spedizioni errati
-Per stornare una registrazione errata, selezionare un movimento e creare movimenti di storno, ovvero movimenti identici a quelli originali ma con segno opposto nel campo relativo all'importo, con numero di documento e data di registrazione identici a quelli del movimento originale. Dopo lo storno di un movimento, è necessario creare il movimento corretto.
+Le registrazioni contabili di storno non vengono utilizzate solo per correggere gli errori, ma possono anche essere utilizzate per cancellare un vecchio movimento di ratei prima di inserirne uno nuovo, ad esempio. Selezionare un movimento e creare movimenti di storno, ovvero movimenti identici a quelli originali ma con segno opposto nel campo relativo all'importo, con numero di documento e data di registrazione identici a quelli del movimento originale. Dopo lo storno di un movimento, è necessario creare il movimento corretto.
 
 È possibile stornare solo movimenti immessi da una riga di registrazioni generali. Un movimento può essere stornato solo una volta.
 

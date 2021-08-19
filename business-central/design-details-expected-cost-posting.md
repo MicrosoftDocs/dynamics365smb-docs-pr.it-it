@@ -1,5 +1,5 @@
 ---
-title: 'Dettagli di progettazione: Registrazione dei costi previsti | Microsoft Docs'
+title: Dettagli di progettazione - Registrazione del costo previsto
 description: I costi previsti rappresentano, ad esempio, la stima del costo di un articolo acquistato registrato prima di ricevere la fattura per l'articolo.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 181b0168dc73aba7bb4d09b7cda7a2ce7028e142
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215280"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649839"
 ---
 # <a name="design-details-expected-cost-posting"></a>Dettagli di progettazione: Registrazione del costo previsto
 I costi previsti rappresentano, ad esempio, la stima del costo di un articolo acquistato registrato prima di ricevere la fattura per l'articolo.  
@@ -29,10 +29,22 @@ I costi previsti rappresentano, ad esempio, la stima del costo di un articolo ac
 
  Per supportare il lavoro di riconciliazione e di tracciabilità, il movimento di valorizzazione fatturato mostra l'importo del costo previsto che è stato registrato per bilanciare i conti provvisori.  
 
-## <a name="example"></a>Esempio  
- L'esempio riportato di seguito mostra il costo previsto se le caselle di controllo **Reg. automatica costi** e **Reg. costi previsti in CG** sono selezionate nella pagina **Setup magazzino**.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Prerequisiti per la registrazione dei costi previsti
 
- Si registra un ordine di acquisto come ricevuto. Il costo previsto è di VL 95,00.  
+Per rendere possibile la registrazione dei costi previsti è necessario effettuare le seguenti operazioni:
+1. Nella pagina **Setup magazzino**, selezionare le caselle di controllo **Reg. automatica costi** e **Reg. costi previsti in CG**.
+2. Impostare i conti provvisori da utilizzare durante il processo di registrazione dei costi previsti.  
+
+  Nella pagina **Setup registrazione magazzino**, verificare i campi **Conto giac. magazzino** e **Conto giac. magazzino (prov.)** per l'impostazione **Codice ubicazione e codice cat. reg. magazzino** dell'articolo che si sta acquistando. Per maggiori informazioni su questi conti, vedere [Design Details - Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md).
+3. Nella pagina **Setup registrazioni COGE**, verificare il campo **Conto ratei magaz. (provvis.)** per i valori **Cat. Reg. Business** e **Cat. reg. articolo/servizio** che verranno utilizzati.
+4. Quando si crea un ordine di acquisto, per impostazione predefinita il campo **Nr. fattura fornitore** è obbligatorio. È necessario deselezionarlo nella pagina **Setup contabilità fornitori** deselezionando il campo **Nr. doc. esterno obblig.**.
+
+## <a name="example"></a>Esempio  
+
+> [!NOTE]  
+> I numeri di conto utilizzati in questo esempio sono solo di riferimento e saranno diversi nel sistema in uso. Impostarli come indicato nei prerequisiti sopra.
+
+Si registra un ordine di acquisto come ricevuto. Il costo previsto è di VL 95,00.  
 
  **Movimenti di valorizzazione**  
 
@@ -73,7 +85,7 @@ I costi previsti rappresentano, ad esempio, la stima del costo di un articolo ac
 
  **Movimenti C/G**  
 
-|Data di registrazione:|Conti C/G|Numero di conto (demo en-US)|Importo|Nr. movimento|  
+|Data di registrazione|Conti C/G|N. conto (solo esempi!)|Importo|Nr. movimento|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Conto giac. magazzino (prov.)|5530|95,00|4|  
 |01-15-20|Conto giac. magazzino (prov.)|2131|-95,00|3|  

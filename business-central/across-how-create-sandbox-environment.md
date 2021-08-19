@@ -1,94 +1,66 @@
 ---
-title: Creare un ambiente sandbox
-description: Crea un ambiente di test sandbox per l'esplorazione protetta, l'apprendimento, le dimostrazioni, lo sviluppo, la risoluzione degli errori e i test in Business Central.
+title: Ambienti sandbox
+description: Informazioni su come un ambiente dedicato può aiutare a esplorare, apprendere, provare, sviluppare, risolvere i problemi e testare Business Central in sicurezza.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
+ms.reviewer: edupont
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/08/2021
+ms.date: 07/27/2021
 ms.author: solsen
-ms.openlocfilehash: 2f4ca6a98aac49fa5fea7d8658ef51a9510c97d7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f704afaf8e7c581aa1f8e65bd06e04fd31d0056a
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437679"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688306"
 ---
-# <a name="creating-a-sandbox-environment-in-prod_short"></a>Creazione di un ambiente sandbox in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-prod_short"></a>Ambienti sandbox in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Con [!INCLUDE[prod_short](includes/prod_short.md)], è possibile creare facilmente un ambiente sicuro in cui testare, istruire o risolvere i problemi senza disturbare i processi di lavoro o i dati aziendali della società. Tale ambiente non di produzione è denominato *sandbox*. Isolato dalla produzione, un ambiente sandbox consente di esplorare, apprendere, dimostrare, sviluppare e testare in sicurezza il servizio senza il rischio di compromettere i dati e le impostazioni dell'ambiente di produzione.  
+Con [!INCLUDE[prod_short](includes/prod_short.md)] online è possibile ottenere facilmente un ambiente sicuro in cui testare, istruire o risolvere i problemi senza disturbare i processi di lavoro o i dati aziendali della società. Tale ambiente non di produzione è denominato *sandbox*. Isolato dalla produzione, un ambiente sandbox consente di esplorare, apprendere, dimostrare, sviluppare e testare in sicurezza il servizio senza il rischio di compromettere i dati e le impostazioni dell'ambiente di produzione.  
 
-L'amministratore gestisce ambienti sandbox nell'[interfaccia di amministrazione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), ma se si desidera testare rapidamente qualcosa, è possibile creare un ambiente sandbox da [!INCLUDE[prod_short](includes/prod_short.md)]. Una volta terminato, puoi rimuovere la sandbox, utilizzando il centro di amministrazione.  
+L'amministratore gestisce gli ambienti sandbox nell'[interfaccia di amministrazione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 
-> [!NOTE]
-> Tecnicamente, gli ambienti sandbox sono molto diversi dagli ambienti di produzione, anche se l'amministratore crea un sandbox che include dati di produzione. Non è possibile utilizzare un sandbox per il benchmarking e, ad esempio, non è possibile richiedere un'esportazione del database. Se si desidera creare un sandbox per il benchmarking, l'amministratore può creare un ambiente dedicato nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Ambienti di produzione e sandbox ](/dynamics365/business-central/dev-itpro/administration/environment-types).
+Ad esempio, se si desidera creare un sandbox per il benchmarking, l'amministratore può creare un ambiente dedicato nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Ambienti di produzione e sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) nel contenuto per sviluppatori e amministratori.  
 
-## <a name="to-create-a-sandbox-environment-in-your-prod_short"></a>Per creare un ambiente sandbox in [!INCLUDE[prod_short](includes/prod_short.md)]
+Puoi anche utilizzare in sicurezza le sandbox per la formazione, ad esempio per seguire un percorso di apprendimento da [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), perché è un ambiente sicuro con cui sperimentare. Se qualcosa va storto, basta eliminare la sandbox e ricominciare da capo.  
 
-1. Accedere all'istanza di produzione di [!INCLUDE[prod_short](includes/prod_short.md)].
-
-2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ambiente sandbox**, quindi scegli il collegamento correlato.
-    <!-- ![Sandbox Environment Setup.](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Fare clic sul pulsante **Crea**.  
-
-    Viene visualizzata un'altra scheda con [!INCLUDE[prod_short](includes/prod_short.md)] dove è possibile completare la configurazione del proprio ambiente sandbox.
-
-    > [!NOTE]  
-    >  Se la funzione Blocco popup del browser è abilitata, modificarne l'impostazione per consentire la visualizzazione degli URL dall'indirizzo *.businesscentral.dynamics.com.
-
-Quando l'ambiente sandbox è pronto, si verrà reindirizzati all'introduzione guidata dell'ambiente sandbox.
-<!-- ![Sandbox Welcome Wizard.](./media/across-sandbox/sandbox-wizard.png) -->
-
-È possibile scegliere il pulsante **Ulteriori informazioni** per informazioni sugli scenari per sviluppatori che è possibile provare in un ambiente sandbox o scegliere il pulsante **Chiudi** per passare a Gestione ruolo utente dell'istanza sandbox di [!INCLUDE[prod_short](includes/prod_short.md)].
-
-Nella parte superiore di Gestione ruolo utente viene visualizzato un avviso che informa che ci si trova in un ambiente sandbox. È possibile vedere il tipo di ambiente anche nella barra del titolo del client.
-    <!-- ![Sandbox RoleCenter Notification.](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
+Una volta terminato, puoi rimuovere la sandbox, utilizzando il centro di amministrazione.  
 
 > [!NOTE]
-> Un ambiente sandbox creato in questo modo contiene solo i dati di dimostrazione predefiniti per l'azienda CRONUS. Nessun dato viene copiato o altrimenti trasferito dall'ambiente di produzione.
->
-> In alternativa, creare un ambiente sandbox basato sui dati di produzione. Questa operazione deve essere eseguita mediante l'Interfaccia di amministrazione. Per ulteriori informazioni, vedere [Gestione di ambienti](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) nel contenuto per sviluppatori e amministrazione.  
-
-<!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
-    ![Sandbox Dynamics365 Menu.](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
-
-Un amministratore può limitare o persino bloccare l'accesso di alcuni utenti all'ambiente sandbox. Questa operazione può essere effettuata utilizzando le funzionalità di sicurezza standard del prodotto, ad esempio la scheda Utente, gruppi di utenti e set di autorizzazioni. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).  
-
-<!-- ![Sandbox Permission Sets.](./media/across-sandbox/sandbox-permission-sets.png) -->
-
-## <a name="advanced-functionality-in-the-sandbox-environment"></a>Funzionalità avanzata nell'ambiente sandbox
+> Tecnicamente, gli ambienti sandbox sono molto diversi dagli ambienti di produzione. L'amministratore può creare una sandbox che include i dati di produzione, ma è sempre una sandbox e non è possibile richiedere l'esportazione del database, ad esempio. Per ulteriori informazioni, vedere [Ambienti sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types#sandbox-environments) nel contenuto per sviluppatori e amministratori.
 
 L'ambiente sandbox non è meno utile perché include un paio di funzioni utili:
 
 * [Esperienza utente avanzata](#advanced-user-experience)  
-* [Dati di esempio completi](#complete-sample-data)  
+<!--* [Complete sample data](#complete-sample-data)  -->
 * [Designer](#designer)  
 
-### <a name="advanced-user-experience"></a>Esperienza utente avanzata
+## <a name="advanced-user-experience"></a>Esperienza utente avanzata
 
 È possibile abilitare e provare la funzionalità completa della versione standard di [!INCLUDE[prod_short](includes/prod_short.md)] in un tenant sandbox impostando il campo **Esperienza** nella pagina **Informazioni società** su *Premium*. Trova la pagina **Informazioni società** nel menu :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Icona impostazioni."::: .  
 
-Dopo aver abilitato l'esperienza utente *Premium*, si ottiene l'accesso a tutti i profili standard (ruoli) e alla Gestione ruolo utente nella versione standard. È inoltre possibile creare una società di valutazione completamente configurata, inclusiva dei dati di esempio e dell'accesso alle aree avanzate del prodotto. In alternativa, contattare un partner di rivendita per una dimostrazione delle funzionalità. Per ulteriori informazioni, vedi [Come trovo un partner di rivendita?](across-faq.yml#how-do-i-find-a-reselling-partner).  
+Dopo aver abilitato l'esperienza utente *Premium*, si ottiene l'accesso a tutti i profili standard (ruoli) e alla Gestione ruolo utente nella versione standard. In alternativa, contattare un partner di rivendita per una dimostrazione delle funzionalità. Per ulteriori informazioni, vedi [Come trovo un partner di rivendita?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
 ### <a name="complete-sample-data"></a>Dati di esempio completi
 
 Per situazioni in cui hai bisogno di dati di esempio aggiuntivi, parla con il tuo partner di rivendita.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
 
-#### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Per creare una società con dati di esempio completi in una sandbox
+<!--#### To create a company with complete sample data in a sandbox
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Società**, quindi scegli il collegamento correlato.  
-2. Selezionare l'azione **Nuovo** quindi selezionare **Crea nuova società**.  
-3. Nella pagina **Setup assistito per la creazione di una società** scegliere **Avanti**.  
-4. Specificare un nome per la nuova società, quindi nel campo **Selezionare la data e il setup per iniziare** scegliere **Valutazione avanzata - Dati di esempio completi**.  
-5. Completare il resto della guida di setup assistito.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
+2. Choose the **New** action, and then choose **Create New Company**.  
+3. In the **Assisted Setup for Creating a Company** page, choose **Next**.  
+4. Specify a name for the new company, and then, in the **Select the data and setup to get started** field, choose **Advanced Evaluation - Complete Sample Data**.  
+5. Complete the rest of the assisted setup guide.  
 
-Al termine della guida di setup assistita, è possibile iniziare a esplorare la nuova società con i dati di esempio completi. Per ulteriori informazioni, vedere [Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
+When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-### <a name="designer"></a>Designer
+## <a name="designer"></a>Designer
 
 In un ambiente sandbox, la **funzionalità di progettazione** è abilitata. Puoi attivare la funzionalità di progettazione selezionando l'icona di progettazione ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) su una pagina, o scegliendo la voce di menu **Progettazione** nel menu Impostazioni ![Impostazioni](media/ui-experience/settings_icon_small.png).  
 
@@ -101,6 +73,7 @@ Per ulteriori informazioni, vedere [Utilizzo di Designer](/dynamics365/business-
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 Versioni di valutazione e sottoscrizioni di [[!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
 [Gestione di ambienti nell'interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+[Ambienti di produzione e sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

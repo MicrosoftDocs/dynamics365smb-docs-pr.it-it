@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/15/2021
+ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437889"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649814"
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
 In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -114,9 +114,29 @@ L'opzione **Politica di produzione** definisce quali ordini aggiuntivi saranno p
 
 Se viene utilizzata l'opzione **Prod. per Magazzino**, gli ordini riguarderanno solo l'articolo in questione.  
 
-Se viene utilizzata l'opzione **Prod. su ordine**, il sistema di pianificazione analizzerà la DB di produzione dell'articolo e creerà delle proposte di ordine collegate aggiuntive per questi articoli di livello inferiore che sono definite anche come produzione su ordine. Questo processo continua fintanto che sono presenti articoli di tipo produzione su ordine nelle strutture DB decrescenti.  
+Se viene utilizzata l'opzione **Prod. su ordine**, il sistema di pianificazione analizzerà la DB di produzione dell'articolo e creerà delle proposte di ordine collegate aggiuntive per questi articoli di livello inferiore che sono definite anche come produzione su ordine. Questo processo continua fintanto che sono presenti articoli di tipo produzione su ordine nelle strutture DB decrescenti.
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Usare codici di ultimo livello per gestire la domanda derivata
+
+Utilizzare i codici di ultimo livello per far avanzare la domanda derivata di componenti fino ai livelli inferiori della distinta base. Per una spiegazione più approfondita di questo concetto, vedere [Priorità articolo/Codice ultimo livello](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+È possibile assegnare un codice di ultimo livello a ogni parte della struttura di prodotto o nella distinta base interna. Il livello di assemblaggio superiore finale viene indicato come livello 0, ossia come articolo finale. Più alto è il numero del codice di ultimo livello, più basso è l'articolo nella gerarchia. Ad esempio, gli articoli finali hanno un codice di ultimo livello 0 e le parti di articolo che vanno nell'assemblaggio hanno codici di ultimo livello 1, 2, 3 e così via. Il risultato è che la pianificazione delle parti dei componenti viene coordinata in base alle necessità di tutti i numeri di parte di alto livello. Quando si calcola una pianificazione, la distinta base viene espansa nel prospetto di pianificazione e le domande lorde per il livello 0 vengono passate ai livelli di pianificazione sottostanti come domande lorde per il successivo livello di pianificazione.
+
+Selezionare il campo **Codice dinamico di ultimo livello** per specificare se assegnare e calcolare immediatamente i codici di ultimo livello per ogni componente nella struttura del prodotto. Se la quantità di dati è considerevole, è possibile che tale funzione produca effetti negativi sulle prestazioni del sistema, ad esempio durante la registrazione automatica dei costi. Non essendo una funzione retroattiva, è opportuno considerarne l'uso in anticipo.
+
+In alternativa al calcolo automatico che viene effettuato in modo dinamico quando il campo viene selezionato, è possibile eseguire il processo batch **Calcolo codice ultimo livello** dal menu **Manufacturing** facendo clic su **Progettazione prodotto**, **Calcolo codice ultimo livello**.
+
+> [!IMPORTANT]
+> Se non viene selezionato il campo **Cod. ultimo livello dinamico**, allora è necessario eseguire il processo batch **Calcolo codice ultimo livello** prima di calcolare un piano di approvvigionamento (processo batch **Calcola piano**).  
+
+> [!NOTE]
+> Anche con il campo **Cod. ultimo livello dinamico** selezionato, i codici di ultimo livello degli articoli componenti non vengono modificati dinamicamente se una distinta base di produzione padre viene eliminata o impostata come non certificata. Ciò può causare difficoltà nell'aggiunta di nuovi articoli alla fine della struttura del prodotto poiché può risultare superato il numero massimo di codici di ultimo livello. Pertanto, per le strutture di prodotti di grandi dimensioni che raggiungono il limite dei codici di ultimo livello, è consigliabile eseguire frequentemente il processo batch **Calcolo cod. ultimo livello** per mantenere la struttura.  
+
+### <a name="optimize-low-level-code-calculation"></a>Ottimizzare il calcolo del codice di ultimo livello
+
+Selezionare il campo **Ottimizza il calcolo del codice di ultimo livello** per specificare che si desidera utilizzare il nuovo metodo più veloce di calcolo del codice di ultimo livello. Si noti che il nuovo calcolo viene eseguito in modo diverso e il suo utilizzo potrebbe interrompere le estensioni che si basano sul metodo esistente. Il nuovo metodo di calcolo sostituirà il metodo attuale in una versione futura.
+
+## <a name="see-also"></a>Vedere anche  
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)
