@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543249"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440393"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Report delle vendite e analisi in Business Central
 
@@ -36,6 +36,7 @@ La tabella seguente descrive alcuni dei report delle vendite chiave.
 |**Stato spedizione warehouse**|7313|Questo rapporto può essere utilizzato per tutte le località in cui è selezionato il campo **Richiedi spedizione**. Il report **Stato spedizione warehouse** Il report mostra tutti i documenti di spedizione di magazzino non registrati, incluse le ubicazioni, i codici collocazione, lo stato del documento, le quantità e così via. Questo rapporto è perfetto per avere una panoramica.|
 |**Lista prelievi magazzino**|813|Visualizza una lista degli ordini vendita nei quali è incluso un determinato articolo. Per ogni articolo vengono visualizzate le seguenti informazioni: riga di ordine di vendita con il nome del cliente, codice variante, codice ubicazione, codice collocazione, data di spedizione, quantità da spedire e unità di misura. Per ciascun articolo viene calcolato il totale della quantità da spedire. Il report può essere utilizzato quando gli articoli vengono prelevati dal magazzino.<br>**Nota** : questo report non è disponibile per la funzionalità di warehouse avanzata.|
 |**Ordini vendite arretrati magazzino**|718|Mostra una lista delle righe di ordine la cui data di spedizione è ormai superata. Per ogni singolo ordine vengono visualizzate le seguenti informazioni relative a ciascun articolo: numero, nome del cliente, numero di telefono del cliente, data di spedizione, quantità dell'ordine e quantità nell'ordine programmato. Vengono inoltre indicati eventuali altri articoli da spedire allo stesso cliente sulla base dell'ordine in ritardo.|
+|**Dettaglio ordini magazzino**|708|Visualizza un elenco degli ordini non ancora spediti o ricevuti e degli articoli negli ordini. Le informazioni contenute nel report sono: numero dell'ordine, nome del cliente, data di spedizione, quantità dell'ordine, quantità in ritardo, quantità inevasa e prezzo unitario, oltre agli eventuali importi e percentuali di sconto. Per ciascun articolo vengono calcolati il totale della quantità negli ordini in ritardo e il totale della quantità e degli importi negli ordini inevasi. Utilizzare il report per individuare eventuali problemi di spedizione attuali o nell'immediato futuro.|
 
 
 

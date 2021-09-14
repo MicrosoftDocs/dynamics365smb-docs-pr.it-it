@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 04/01/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 18aef7bfc5324d17d2af9f4aa4ff0ba2602c70e0
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445503"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482399"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrare gli acquisti con le fatture di acquisto
 
@@ -25,25 +25,10 @@ ms.locfileid: "6445503"
 
 Oltre all'acquisto di articoli fisici (tipi di articolo **Inventario**) che influiscono sulla valutazione del magazzino, è possibile acquistare servizi rappresentati da unità di tempo. Puoi farlo con il tipo di articolo **Servizio** o con il tipo di riga **Risorsa**.
 
-> [!NOTE]  
-> Utilizzare gli ordini di acquisto se il processo di acquisto richiede la registrazione delle le ricevute parziali di una quantità di un ordine, ad esempio, perché la quantità completa non è disponibile presso il fornitore. Se si vendono articoli con consegna diretta dal fornitore al cliente, come una spedizione diretta, è necessario utilizzare anche gli ordini di acquisto. Per ulteriori informazioni, vedere [Effettuare spedizioni dirette](sales-how-drop-shipment.md). In tutti gli altri aspetti, gli ordini di acquisto funzionano come le fatture di acquisto. La seguente procedura è basata su una fattura di acquisto. I passaggi sono simili per un ordine di acquisto.
-
 Quando si ricevono gli articoli di magazzino, o quando il servizio acquistato viene completato, si registra la fattura o l'ordine di acquisto per aggiornare il magazzino e i record finanziari e per attivare il pagamento al fornitore in base alle condizioni di pagamento. Per altre informazioni, vedere [Registrazione degli acquisti](ui-post-purchases.md) ed [Effettuare i pagamenti](payables-make-payments.md).
 
 > [!CAUTION]  
 > Non registrare gli articoli fisici per una fattura di acquisto fino a quando non si ricevono gli articoli e si conosce il costo finale dell'acquisto, incluse le spese aggiuntive. In caso contrario, il valore di magazzino e le cifre di margine possono risultare distorti.
-
-a scheda articolo può essere di tipo **Inventario**, **Assistenza** e **Non in inventario** per specificare se la scheda articolo rappresenta un'unità fisica di inventario, un'unità di misura del tempo della manodopera o un'unità fisica non gestita in magazzino Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md). Il processo della fattura di acquisto è lo stesso per tutti e tre i tipi di articoli.
-
-> [!NOTE]
-> Con il tipo di riga acquisto **Risorsa**, è inoltre possibile acquistare risorse esterne, ad esempio, per fatturare a un fornitore per il lavoro eseguito. Per ulteriori informazioni, vedere [Impostare risorse](projects-how-setup-resources.md).
->
-> Per utilizzare una risorsa acquistata, potrebbe essere necessario impostare la capacità della risorsa e assegnarla manualmente a un processo. L'acquisto di una risorsa creerà un movimento contabile di risorsa, tuttavia, i movimenti contabili non vengono monitorati per quantità e valore come, ad esempio, per gli articoli. Se è richiesto il monitoraggio della quantità e del valore, considera l'utilizzo di altri tipi di voci.
-
-È possibile compilare i campi fornitore nella fattura di acquisto in due modi a seconda che il fornitore sia già registrato o meno.
-<br><br>  
-
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
 ### <a name="to-create-a-purchase-invoice"></a>Per creare una fattura di acquisto
 
@@ -56,12 +41,9 @@ Di seguito viene descritto come creare una fattura di acquisto. I passaggi sono 
 
     1. Nel campo **Fornitore** immettere il nome del nuovo fornitore.
     2. Nella finestra di dialogo relativa alla registrazione del nuovo fornitore fare clic su **Sì**.
-    3. Nella pagina **Selezionare un modello per un nuovo fornitore** scegliere un modello su cui basare la scheda del nuovo fornitore, quindi scegliere **OK**.
-    4. Una nuova scheda fornitore verrà visualizzata, precompilata con le informazioni sul modello fornitore selezionato. Il campo **Nome** è precompilato con il nome del nuovo fornitore immesso nella fattura di acquisto.
-    5. Precedere compilando i restanti campi nella scheda fornitore. Per ulteriori informazioni, vedere [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md).  
-    6. Una volta completata la scheda fornitore, fare clic su **OK** per tornare alla pagina **Fattura di acquisto**.
+    3. Per ulteriori informazioni su come compilare la scheda fornitore, vedere [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md).  
+    4. Una volta completata la scheda fornitore, fare clic su **OK** per tornare alla pagina **Fattura di acquisto**.
 
-    Numerosi campi della pagina **Fattura di acquisto** vengono compilati con le informazioni specificate nella nuova scheda fornitore.
 3. Compilare i restanti campi della pagina **Fattura di acquisto** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     A questo punto si è pronti a compilare le righe della fattura di acquisto con gli articoli o le risorse acquistati presso il fornitore.
@@ -71,19 +53,11 @@ Di seguito viene descritto come creare una fattura di acquisto. I passaggi sono 
 4. Nella Scheda dettaglio **Righe** del campo **Nr. articolo** immettere il numero di un articolo di magazzino o di un servizio.
 5. Nel campo **Quantità** immettere il numero di articoli da acquistare.
 
-    > [!NOTE]  
-    > Per gli articoli di tipo **Servizio** e per righe di tipo **Risorsa** la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga.
-
     Il campo **Importo riga** viene aggiornato al valore del campo **Costo unitario diretto** moltiplicato per il valore del campo **Quantità**.
 
     Il prezzo e l'importo riga vengono visualizzati con o senza le tasse di vendita a seconda della selezione nel campo **Prezzi IVA inclusa** della scheda fornitore.
 
     I campi dei totali sotto le righe vengono automaticamente aggiornati quando si creano o si modificano le righe per visualizzare gli importi che verranno registrati nei libri contabili.
-
-    > [!NOTE]
-    > In casi rari, gli importi registrati possono discostarsi da ciò che viene visualizzato nei campi dei totali. Ciò è in genere dovuto ai calcoli di arrotondamento in relazione all'IVA o all'imposta sulle vendite.
-    >
-    > Per verificare gli importi che verranno effettivamente registrati, è possibile utilizzare la pagina **Statistiche**, che tiene conto dei calcoli di arrotondamento. Inoltre, se si sceglie l'azione **Rilascia**, i campi dei totali verranno aggiornati per includere i calcoli di arrotondamento.
 
 6. Nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.** nella parte inferiore della fattura.
 
@@ -92,6 +66,28 @@ Di seguito viene descritto come creare una fattura di acquisto. I passaggi sono 
 7. Quando si ricevono l'assistenza o gli articoli acquistati, scegliere **Registra**.
 
 L'acquisto si riflette ora nel magazzino, nei movimenti contabili risorse e nei record finanziari e il pagamento fornitore viene attivato. La fattura di acquisto viene rimossa dall'elenco delle fatture di acquisto e sostituita con un nuovo documento nell'elenco delle fatture di acquisto registrate.  
+
+> [!NOTE]
+> In casi rari, gli importi registrati possono discostarsi da ciò che viene visualizzato nei campi dei totali. Ciò è in genere dovuto ai calcoli di arrotondamento in relazione all'IVA o all'imposta sulle vendite.
+>
+> Per verificare gli importi che verranno effettivamente registrati, è possibile utilizzare la pagina **Statistiche**, che tiene conto dei calcoli di arrotondamento. Inoltre, se si sceglie l'azione **Rilascia**, i campi dei totali verranno aggiornati per includere i calcoli di arrotondamento.
+
+## <a name="when-to-use-purchase-orders"></a>Quando utilizzare gli ordini di acquisto
+
+Utilizzare gli ordini di acquisto se il processo di acquisto richiede la registrazione delle le ricevute parziali di una quantità di un ordine, ad esempio, perché la quantità completa non è disponibile presso il fornitore. Se si vendono articoli con consegna diretta dal fornitore al cliente, come una spedizione diretta, è necessario utilizzare anche gli ordini di acquisto. Per ulteriori informazioni, vedere [Effettuare spedizioni dirette](sales-how-drop-shipment.md). In tutti gli altri aspetti, gli ordini di acquisto funzionano come le fatture di acquisto. La seguente procedura è basata su una fattura di acquisto. I passaggi sono simili per un ordine di acquisto.
+
+<br><br>
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
+
+## <a name="selling-non-inventory-items"></a>Vendita di articoli non in magazzino
+
+Gli articoli in una fattura di acquisto possono essere di tipo **Inventario**, **Assistenza**, **Risorsa** e **Non in inventario** per specificare se la scheda articolo rappresenta un'unità fisica di inventario, un'unità di misura del tempo della manodopera o un'unità fisica non gestita in magazzino. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md). Il processo della fattura di acquisto è lo stesso per tutti e tre i tipi di articoli.
+
+> [!NOTE]
+> Con il tipo di riga acquisto **Risorsa**, è inoltre possibile acquistare risorse esterne, ad esempio, per fatturare a un fornitore per il lavoro eseguito. Per ulteriori informazioni, vedere [Impostare risorse](projects-how-setup-resources.md).
+>
+> Per utilizzare una risorsa acquistata, potrebbe essere necessario impostare la capacità della risorsa e assegnarla manualmente a un processo. L'acquisto di una risorsa creerà un movimento contabile di risorsa, tuttavia, i movimenti contabili non vengono monitorati per quantità e valore come, ad esempio, per gli articoli. Se è richiesto il monitoraggio della quantità e del valore, considera l'utilizzo di altri tipi di voci.
 
 ## <a name="posted-invoices"></a>Fatture registrate
 

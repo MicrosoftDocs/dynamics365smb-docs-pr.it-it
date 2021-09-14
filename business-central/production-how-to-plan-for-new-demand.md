@@ -1,21 +1,20 @@
 ---
-title: Come pianificare ordine per ordine
-description: È possibile eseguire questa attività di pianificazione nella pagina Pianificazione ordini, in cui viene visualizzata tutta la nuova domanda, oltre alle informazioni sulla disponibilità e ai suggerimenti sulla fornitura.
+title: Pianificare una nuova domanda ordine per ordine
+description: È possibile eseguire questa attività di pianificazione nella pagina Pianificazione ordini, in cui viene visualizzata tutta la nuova domanda, oltre alle informazioni sulla disponibilità e ai suggerimenti sulla fornitura, inclusa la sostituzione di articoli.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 63277d695f373c1914e55530a12cb921c8b6cc4f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444232"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440719"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Pianificare una nuova domanda ordine per ordine
 È possibile eseguire questa attività di pianificazione nella pagina **Pianificazione Ordini**, in cui viene visualizzata tutta la nuova domanda, oltre alle informazioni sulla disponibilità e ai suggerimenti sulla fornitura. In questa finestra sono disponibili la visualizzazione e gli strumenti necessari per una pianificazione efficace della domanda dalle righe di vendita e dalle righe di componenti e per la creazione diretta di diversi tipi di ordini di approvvigionamento.  
@@ -67,6 +66,9 @@ Le righe di pianificazione appaiono nella pagina in base al filtro di visualizza
 
     Se esiste un articolo sostitutivo per l'articolo richiesto, nel campo **Esistono sostitutivi** verrà visualizzato il valore **Sì** e sarà possibile cercare nella pagina **Movimenti sostituzione articolo** e selezionare l'articolo sostitutivo desiderato.  
 
+    > [!NOTE]  
+    > Tieni presente che le sostituzioni non determinano automaticamente la sostituzione di un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
+
 7.  Selezionare la casella di controllo **Impegna** se si desidera impegnare l'ordine di approvvigionamento in fase di creazione e la riga di domanda per cui viene creato. Questo campo è vuoto per impostazione predefinita.  
 
     > [!NOTE]  
@@ -117,7 +119,7 @@ Al termine delle operazioni di pianificazione nella pagina **Pianificazione Ordi
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Registrare nuovi articoli](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

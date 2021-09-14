@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 982f61396f1d49eeaa688d580801c14ac9c33ccb
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444689"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482224"
 ---
 # <a name="working-with-dimensions"></a>Utilizzo delle dimensioni
 Le dimensioni sono valori che categorizzano i movimenti in modo da poterli seguire e analizzare nei documenti, ad esempio ordini vendita. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene.  
@@ -53,6 +53,9 @@ Quando dimensioni e valori sono impostati, è possibile definire dimensioni glob
 
 * **Dimensioni globali** utilizzate come filtro, ad esempio, per report, processi batch e report XML. È possibile utilizzare solo due dimensioni globali, scegliere pertanto le dimensioni che verranno utilizzate più spesso.
 * Le **dimensioni a collegamento rapido** sono disponibili come campi nelle registrazioni, nelle righe dei documenti e nei movimenti contabili. È possibile creare fino a otto dimensioni.  
+
+> [!NOTE]
+> Dopo aver utilizzato una nuova dimensione in qualsiasi voce, ad esempio una riga o un nuovo record, non è possibile eliminare la dimensione, anche se non si registra la voce. Questo perché [!INCLUDE[prod_short](includes/prod_short.md)] crea immediatamente un set di dimensioni per la riga o il record. Per ulteriori informazioni, vedere [Set di dimensioni](finance-dimensions.md#dimension-sets).
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Per impostare le dimensioni di default per clienti, fornitori e altri conti
 È possibile assegnare una dimensione di default per un conto specifico. La dimensione verrà copiata nelle registrazioni o nel documento quando si immette il numero di conto in una riga, ma è possibile eliminare o modificare il codice nella riga se il dato non è appropriato. È inoltre possibile impostare una dimensione richiesta per la registrazione del movimento con un tipo di conto specifico.  

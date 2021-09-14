@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 06/07/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: c3d12e316e78516d355c7d1313cd37bbeedb7a29
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 06465c028c0721c5992a334400cdc975120bdeb7
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216055"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482446"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -77,6 +77,11 @@ Ogni volta che si accede durante il periodo di valutazione, una notifica in una 
 [!INCLUDE[prod_short](includes/prod_short.md)] online utilizza Microsoft 365. Se la società utilizza un diverso tipo di setup e-mail, il partner rivenditore può fornire assistenza nel decidere come effettuare la migrazione o se si deve utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] (locale).  
 
 È inoltre possibile contattare il team di vendita di [[!INCLUDE[prod_short](includes/prod_short.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+Per ulteriori informazioni su cosa puoi fare con [!INCLUDE [prod_short](includes/prod_short.md)], vedi[Preparazione al business](ui-get-ready-business.md) e [Funzionalità aziendale](across-business-functionality.md).  
 
 ## <a name="getting-started-with-sandboxes"></a>Introduzione alle sandbox
 

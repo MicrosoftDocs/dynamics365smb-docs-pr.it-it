@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773338"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482197"
 ---
 # <a name="data-ownership-models"></a>Modelli di proprietà dei dati
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ L'immagine seguente mostra un esempio di questa configurazione dei dati in [!INC
 
 ![La Business Uni radice è in cima, i team sono al centro e le società sono in fondo.](media/cds_bu_team_company.png)
 
-In questa configurazione, i record relativi alla società Cronus US saranno di proprietà di un team collegato a Cronus US <ID> Business Unit in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Gli utenti che possono accedere a quella Business Unit tramite un ruolo di sicurezza impostato sulla visibilità a livello di Business Uni in [!INCLUDE[prod_short](includes/cds_long_md.md)] possono ora vedere tali record. L'esempio seguente mostra come utilizzare i team per fornire l'accesso a tali record.
+In questa configurazione, i record relativi alla società Cronus US saranno di proprietà di un team collegato alla Business Unit Cronus US in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Gli utenti che possono accedere a quella Business Unit tramite un ruolo di sicurezza impostato sulla visibilità a livello di Business Uni in [!INCLUDE[prod_short](includes/cds_long_md.md)] possono ora vedere tali record. L'esempio seguente mostra come utilizzare i team per fornire l'accesso a tali record.
 
 * Il ruolo di Responsabile delle vendite è assegnato ai membri del team di vendita di Cronus US.
 * Gli utenti che hanno il ruolo di Responsabile delle vendite possono accedere ai record degli account per i membri della stessa Business Unit.
-* Il team di vendita di Cronus US è collegato alla Business Unit Cronus US menzionata in precedenza. I membri del team di vendita di Cronus US possono vedere qualsiasi account di proprietà di Cronus US <ID>utente, che proviene dalla tabella aziendale Cronus US in [!INCLUDE[prod_short](includes/prod_short.md)].
+* Il team di vendita di Cronus US è collegato alla Business Unit Cronus US menzionata in precedenza. I membri del team di vendita di Cronus US possono vedere qualsiasi account di proprietà dall'utente Cronus US, che proviene dalla tabella aziendale Cronus US in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Tuttavia, la mappatura 1: 1 tra Business Unit, società e team è solo un punto di partenza, come mostrato nella seguente immagine.
 
@@ -51,7 +51,7 @@ Tuttavia, la mappatura 1: 1 tra Business Unit, società e team è solo un punto 
 
 In questo esempio, viene creata una nuova Business Unit radice EUR (Europa) in [!INCLUDE[prod_short](includes/cds_long_md.md)] come padre di Cronus DE (Gernamy) e Cronus ES (Spagna). La Business Unit EUR non è correlata alla sincronizzazione. Tuttavia, può consentire ai membri del team di vendita EUR di accedere ai dati dell'account sia in Cronus DE che in Cronus ES impostando la visibilità dei dati su **BU padre/figlio** sul ruolo di sicurezza associato in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-La sincronizzazione determina a quale team devono appartenere i record. Questo è controllato dal campo **Team proprietario predefinito** nella riga BCI - <ID>. Quando un record BCI - <ID> è abilitato per la sincronizzazione, viene automaticamente creata la Business Unit e il team proprietario associati (se non esiste già) e viene impostato il campo **Team proprietario predefinito**. Quando la sincronizzazione è abilitata per una tabella, gli amministratori possono cambiare il team proprietario, ma è sempre necessario assegnare un team.
+La sincronizzazione determina a quale team devono appartenere i record. Questo è controllato dal campo **Team proprietario predefinito** nella riga BCI. Quando un record BCI è abilitato per la sincronizzazione, viene automaticamente creata la Business Unit e il team proprietario associati (se non esiste già) e viene impostato il campo **Team proprietario predefinito**. Quando la sincronizzazione è abilitata per una tabella, gli amministratori possono cambiare il team proprietario, ma è sempre necessario assegnare un team.
 
 > [!NOTE]
 > I record diventano di sola lettura dopo che una società è stata aggiunta e salvata, quindi assicurati di scegliere la società corretta.

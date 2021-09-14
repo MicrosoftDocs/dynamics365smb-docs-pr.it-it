@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435645"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440443"
 ---
 # <a name="register-new-items"></a>Registrare nuovi articoli
 
@@ -85,6 +85,23 @@ Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le 
 6. Ripetere i passaggi da 2 a 5 per ogni fornitore da cui si desidera acquistare l'articolo.
 
 I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori** che si apre dalla scheda articolo per poter selezionare facilmente un fornitore alternativo.
+
+## <a name="set-up-item-substitutions"></a>Configurare articoli sostitutivi
+
+È possibile impostare articoli in modo che abbiano sostituti, ad esempio altri articoli che possono essere utilizzati al posto dell'articolo originale.
+
+### <a name="to-make-an-item-substitution"></a>Per sostituire un articolo
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
+2. Trova l'elemento pertinente, quindi fai clic su **Nr. Articolo** per aprire la Scheda articolo.  
+3. Scegli l'azione **Correlato**, quindi scegli **Articolo**, **Sostituzioni** per aprire la pagina Mov. articoli sostitutivi.  
+4. Scegli il campo **Nr. sostituto** quindi seleziona l'articolo sostitutivo nell'elenco.
+5. Continua a compilare o a modificare altri campi nella pagina in base alle necessità.
+
+Quando la quantità richiesta, come una riga di vendita, supera la quantità disponibile in magazzino, un messaggio viene visualizzato per informare che esistono articoli sostitutivi.
+
+> [!NOTE]  
+> Tieni presente che le sostituzioni non determinano automaticamente la sostituzione di un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
 
 ## <a name="categories-attributes-and-variants"></a>Categorie, attributi e varianti
 

@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 04/01/2021
+  ms.date: 08/24/2021
   ms.author: edupont
-  ms.openlocfilehash: 4d4864b0baa6b8455e51931701d72eea8923545f
-  ms.sourcegitcommit: 0c8428e1468d4f5c18fbe35c79d6bbe509b79620
+  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
+  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 06/01/2021
-  ms.locfileid: "6124005"
+  ms.lasthandoff: 08/27/2021
+  ms.locfileid: "7440693"
 title: Domande frequenti sull'utilizzo di Business Central
 summary: "Questa sezione contiene le risposte alle domande frequenti sulla registrazione per una versione di valutazione, l'acquisto di una sottoscrizione e l'utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]. È inoltre possibile ottenere informazioni su come ottenere supporto tecnico.  \n"
 sections:
@@ -67,6 +67,10 @@ sections:
       Quali sono i contratti di servizio per il cloud?
     answer: >
       [!INCLUDE [service-terms](includes/service-terms.md)]
+  - question: >
+      Qual è la frequenza di aggiornamento di Business Central Online?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] Online è un servizio che consiste di una piattaforma gestita da Microsoft e di funzionalità aziendali. Molti partner Microsoft forniscono funzionalità aziendali aggiuntive, ad esempio per soddisfare esigenze specifiche di settore o di localizzazione. Sia la funzionalità aziendale che i componenti del servizio vengono monitorati continuamente e aggiornati secondo necessità. È sempre possibile fare riferimento al [piano di rilascio](/dynamics365/release-plans/) per una panoramica delle funzionalità nuove e imminenti. Per ulteriori informazioni, vedere [Panoramica del servizio per Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (solo in inglese) e [Funzionalità nuove e pianificate](product-news.md).
   - question: >
       Il nostro amministratore mi ha spostato in un altro piano per darmi un ruolo diverso, ma vedo comunque la stessa schermata Home in Business Central?
     answer: "È opportuno verificare se l'amministratore ha modificato il ruolo utente e ha assegnato gruppi utente che corrispondono alla nuova licenza. Essenzialmente, l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)] dipende dal tipo di piano (licenza) di cui si dispone, il quale determina l'impostazione delle autorizzazioni, il ruolo assegnato e la schermata Home predefinita. È possibile modificare il ruolo corrente manualmente in Impostazioni personali ma se si viene spostati in un altro piano, ad esempio dal piano aziendale a quello dei membri del team, è possibile che venga visualizzata la schermata Home precedente in quanto le autorizzazioni non sono state modificate.  \n"

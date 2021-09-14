@@ -6,19 +6,19 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543047"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482172"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gestire l'archiviazione eliminando documenti o comprimendo i dati
 
 Un ruolo centrale, ad esempio l'amministratore dell'applicazione, deve occuparsi regolarmente dell'accumularsi dei documenti storici, eliminandoli o comprimendoli.  
 
 > [!TIP]
-> Per informazioni su altri modi di ridurre la quantità di dati archiviati in un database, vedi [Ridurre i dati archiviati nei database di Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) nella guida per sviluppatori e professionisti IT.
+> Per informazioni su altri modi di ridurre la quantità di dati archiviati in un database, vedi [Ridurre i dati archiviati nei database di Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) nella documentazione per sviluppatori e professionisti IT.
 
 ## <a name="delete-documents"></a>Eliminare documenti
 
@@ -34,7 +34,13 @@ Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la 
 
 ## <a name="compress-data-with-date-compression"></a>Comprimere i dati con la compressione della data
 
-È possibile comprimere i dati in [!INCLUDE [prod_short](includes/prod_short.md)] in modo da risparmiare spazio nel database, che in [!INCLUDE [prod_short](includes/prod_short.md)] online può anche far risparmiare denaro. La compressione si basa sulle date e consiste nel combinare diversi movimenti vecchi in un unico movimento nuovo. È possibile comprimere soltanto movimenti appartenenti ad anni fiscali chiusi e movimenti nel cui campo **Aperto** è impostato su **No**.  
+È possibile comprimere i dati in [!INCLUDE [prod_short](includes/prod_short.md)] per risparmiare spazio nel database, che in [!INCLUDE [prod_short](includes/prod_short.md)] online può anche far risparmiare denaro. La compressione si basa sulle date e consiste nel combinare diversi movimenti vecchi in un unico movimento nuovo. 
+
+È possibile comprimere le voci nelle seguenti condizioni:
+
+* Sono relative ad anni fiscali chiusi
+* Il campo **Apri** è impostato su **No** 
+* Hanno almeno cinque anni. Se si intende comprimere dati che hanno meno di cinque anni, contattare il partner Microsoft.
 
 Ad esempio, i movimenti di registro fornitori dell'ultimo anno fiscale trascorso possono essere compressi in modo da ottenere un solo valore di dare/avere per ogni mese. L'importo del nuovo movimento corrisponderà alla somma di tutti i movimenti compressi. La data assegnata sarà la data iniziale del periodo compresso, ad esempio il primo giorno del mese se i movimenti sono stati compressi per mese. In seguito alla compressione sarà comunque possibile visualizzare il saldo periodo per ogni conto dell'anno fiscale trascorso.
 
@@ -55,16 +61,17 @@ Quando definisci i criteri per la compressione, puoi utilizzare le opzioni sotto
 
 In seguito alla compressione verranno sempre mantenute le informazioni contenute nei seguenti campi: **Data di registrazione**, **Nr. fornitore**, **Tipo di documento**, **Codice valuta**, **Categoria registrazione**, **Importo**, **Importo residuo**, **Importo originario (VL)**, **Importo residuo (VL)**, **Importo (VL)**, **Acquisti (VL)**, **Sconto fattura (VL)**, **Sconto pagam. applicato (VL)** e **Colleg. sconto pag. possibile**.
 
-> [!NOTE]
-> Le voci compresse vengono pubblicate in modo leggermente diverso rispetto alla registrazione standard. Ciò serve a ridurre il numero di nuovi movimenti di contabilità generale creati dalla compressione della data ed è particolarmente importante quando si conservano informazioni quali dimensioni e numeri di documento. La compressione della data crea nuovi movimenti come segue:
->* Nella pagina **Movimenti C/G** vengono creati nuovi movimenti con nuovi numeri per i movimenti compressi. Il campo **Descrizione** contiene **Data compressa** in modo da rendere i movimenti compressi facili da identificare. 
->* Nelle pagine dei movimenti, ad esempio **Movimenti contabili clienti**, vengono creati uno o più movimenti con i nuovi numeri di movimento. 
-> Il processo di registrazione crea interruzioni nella numerazione per i movimenti nella pagina **Movimenti C/G**. Questi numeri vengono assegnati solo ai movimenti nelle pagine dei movimenti contabili. L'intervallo di numeri assegnato ai movimenti è disponibile nella pagina **Registro C/G**, nei campi **Dal nr. movimento** e **Al nr. movimento**. 
+## <a name="posting-compressed-entries"></a>Pubblicazione di voci compresse
+Le voci compresse vengono pubblicate in modo leggermente diverso rispetto alla registrazione standard. Ciò serve a ridurre il numero di nuovi movimenti di contabilità generale creati dalla compressione della data ed è particolarmente importante quando si conservano informazioni quali dimensioni e numeri di documento. La compressione della data crea nuovi movimenti come segue:
+* Nella pagina **Movimenti C/G** vengono creati nuovi movimenti con nuovi numeri per i movimenti compressi. Il campo **Descrizione** contiene **Data compressa** in modo da rendere i movimenti compressi facili da identificare. 
+* Nelle pagine dei movimenti, ad esempio **Movimenti contabili clienti**, vengono creati uno o più movimenti con i nuovi numeri di movimento. 
+
+Il processo di registrazione crea interruzioni nella numerazione per i movimenti nella pagina **Movimenti C/G**. Questi numeri vengono assegnati solo ai movimenti nelle pagine dei movimenti contabili. L'intervallo di numeri assegnato ai movimenti è disponibile nella pagina **Registro C/G**, nei campi **Dal nr. movimento** e **Al nr. movimento**. 
 
 > [!NOTE]
 > Dopo aver eseguito la compressione della data, tutti i conti nel libro mastro vengono bloccati. Ad esempio, non è possibile annullare l'applicazione di movimenti contabili bancari o fornitore per qualsiasi conto durante il periodo in cui le date sono compresse.
 
-Il numero dei movimenti creati da un processo batch di compressione data dipende dal numero di filtri impostati, dai campi che vengono associati e dalla durata del periodo. Il risultato del processo sarà sempre di almeno un movimento. 
+Il numero dei movimenti creati da una compressione data dipende dal numero di filtri impostati, dai campi che vengono associati e dalla durata del periodo. Il risultato del processo sarà sempre di almeno un movimento. 
 
 > [!WARNING]
 > Poiché la compressione data elimina del tutto i movimenti, è consigliabile eseguire sempre una copia di backup del database prima di eseguire questo processo batch.
@@ -72,8 +79,11 @@ Il numero dei movimenti creati da un processo batch di compressione data dipende
 ### <a name="to-run-a-date-compression"></a>Per eseguire una compressione data
 1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immetti **Amministrazione data**, quindi scegli il collegamento correlato.
 2. Effettuare una delle seguenti operazioni:
-    1. Per utilizzare una guida alla configurazione assistita per impostare la compressione della data per uno o più tipi di dati, scegli **Guida all'amministrazione dei dati**.
-    1. Per impostare la compressione per un singolo tipo di dati, scegli **Compressione data**, **Comprimi voci**, quindi scegli i dati da comprimere.
+    * Per utilizzare una guida alla configurazione assistita per impostare la compressione della data per uno o più tipi di dati, scegli **Guida all'amministrazione dei dati**.
+    * Per impostare la compressione per un singolo tipo di dati, scegli **Compressione data**, **Comprimi voci**, quindi scegli i dati da comprimere.
+
+   > [!NOTE]
+   > Puoi comprimere solo i dati che hanno più di cinque anni. Se si intende comprimere dati che hanno meno di cinque anni, contattare il partner Microsoft.
 
 ## <a name="see-also"></a>Vedere anche
 

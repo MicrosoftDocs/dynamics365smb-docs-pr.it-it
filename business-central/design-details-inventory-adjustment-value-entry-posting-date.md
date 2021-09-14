@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3d35672905094e714f85ac4758cbf39ec88cb6
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 3dcda7f44797f52e50babe4dbec90e3b2be6f19d
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688316"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440740"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica  
 
@@ -94,7 +94,7 @@ La prima data di registrazione consentita è il primo giorno del primo periodo a
 |Registra tempi:       |         |
 |Formato indirizzo locale:|   CAP      |  
 
- La prima data di registrazione consentita è la data indicata nel campo Consenti registraz. da: 1 settembre 2020.  
+ La prima data di registrazione consentita è la data indicata nel campo Consenti registraz. da: 10 settembre 2020.  
  Se i periodi di magazzino e le date di registrazione consentite nel setup di contabilità generale sono definiti, la data più lontana delle due definirà l'intervallo di date di registrazione consentite.  
 
  Passaggio 3: assegnazione di una data di registrazione consentita;  
@@ -164,7 +164,7 @@ Ordinamento: ID utente
 
 |ID utente  |Consenti registraz. da  | Consenti registrazioni fino a  |
 |---------|---------|--------|
-|<name> |  2020-09-11      |2020-09-30      |
+|USERNAME |  2020-09-10      |2020-09-30      |
 
  Assegnando all'utente un intervallo di date di registrazione consentito più ampio (o uguale) rispetto al periodo di magazzino o al setup contabilità generale, il conflitto menzionato verrà evitato. Il movimento di valorizzazione della rettifica con data di registrazione 10 settembre verrà registrato correttamente con questo setup.
 

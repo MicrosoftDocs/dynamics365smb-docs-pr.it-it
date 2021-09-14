@@ -2,74 +2,83 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 09/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2867dbccab19226c16f761bb974528bbdcf0a21f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777650"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482299"
 ---
-Prima di poter configurare il log delle e-mail, è necessario preparare Exchange Online con le [cartelle pubbliche](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). È possibile farlo nell'[interfaccia di amministrazione di Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) oppure è possibile usare la [shell di gestione di Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
+> [!NOTE]
+> Le sezioni seguenti presuppongono che si dispone dell'accesso come amministratore per Exchange Online.
+
+Prima di poter configurare il log delle e-mail, è necessario preparare Office 365 con le [cartelle pubbliche](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true). È possibile farlo nell'[interfaccia di amministrazione di Exchange](/exchange/exchange-admin-center?preserve-view=true) oppure è possibile usare [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
 
 > [!TIP]
-> Se si desidera utilizzare la [shell di gestione di Exchange](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ), è possibile trovare ispirazione su come impostare lo script in uno script di esempio pubblicato nel [repository BCTech](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
+> Se si desidera utilizzare [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true), è possibile trovare ispirazione su come impostare lo script in uno script di esempio pubblicato nel [repository BCTech](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
 
-Il seguente elenco descrive i passaggi principali con i collegamenti per ulteriori informazioni.  
+Seguire i passaggi seguenti per configurare Exchange Online, con collegamenti a ulteriori risorse per ottenere maggiori informazioni.
 
-- Creare un ruolo di amministratore per le cartelle pubbliche in base alle informazioni nella seguente tabella:
+### <a name="create-an-admin-role-group"></a>Creare un gruppo di ruoli amministratore
 
-  |Proprietà        |Valore                     |
-  |----------------|--------------------------|
-  |Name            |Gestione delle cartelle pubbliche |
-  |Ruoli selezionati  |Cartelle pubbliche            |
-  |Membri selezionati|L'e-mail dell'account utente che Business Central utilizzerà per eseguire il processo di log delle e-mail|
+Creare un gruppo di ruoli amministratore per cartelle pubbliche in base alle informazioni nella seguente tabella:
 
-  Per ulteriori informazioni, vedere [Gestire i gruppi di ruoli](/exchange/permissions/role-groups?view=exchserver-2019&preserve-view=true).
+|Proprietà        |Valore                     |
+|----------------|--------------------------|
+|Name            |Gestione delle cartelle pubbliche |
+|Ruoli selezionati  |Cartelle pubbliche            |
+|Utenti selezionati  |L'e-mail dell'account utente che Business Central utilizzerà per eseguire il processo di log delle e-mail|
 
-- Creare una nuova cassetta postale della cartella pubblica in base alle informazioni nella seguente tabella:
+Per ulteriori informazioni, vedere [Gestire i gruppi di ruoli in Exchange Online](/exchange/permissions-exo/role-groups?preserve-view=true).
 
-  |Proprietà        |Valore                     |
-  |----------------|--------------------------|
-  |Name            |Cassetta postale pubblica            |
+### <a name="create-a-new-public-folder-mailbox"></a>Creare una nuova cassetta postale della cartella pubblica della cartella pubblica
 
-  Per ulteriori informazioni, vedere la pagina sulle [Creare una cassetta postale delle cartelle pubbliche in Exchange Server](/exchange/collaboration/public-folders/create-public-folder-mailboxes).  
+Creare una nuova cassetta postale della cartella pubblica in base alle informazioni nella seguente tabella:
 
-- Creare nuove cartelle pubbliche
+|Proprietà        |Valore                     |
+|----------------|--------------------------|
+|Name            |Cassetta postale pubblica            |
 
-  - Creare una nuova cartella pubblica con il nome *Log delle e-mail* nella radice in modo che il percorso completo della cartella diventi ```\Email Logging\```
-  - Creare due sottocartelle in modo che il risultato sia il seguente percorso completo delle cartelle:
-    - ```\Email Logging\Queue\```
-    - ```\Email Logging\Storage\```
+Per ulteriori informazioni, vedere [Creare una cassetta postale della cartella pubblica](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true).
 
-  Per ulteriori informazioni, vedere [Creare una cartella pubblica](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019&preserve-view=true).
+### <a name="create-new-public-folders"></a>Creare nuove cartelle pubbliche
 
-- Abilitare alla posta la cartella pubblica *Coda*
+1. Creare una nuova cartella pubblica con il nome **Log delle e-mail** nella radice in modo che il percorso completo della cartella diventi `\Email Logging\`.
+2. Creare due sottocartelle in modo che il risultato sia il seguente percorso completo delle cartelle:
 
-  Per ulteriori informazioni, vedere [Abilitare o disabilitare alla posta una cartella pubblica](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019&preserve-view=true)
+    - `\Email Logging\Queue\`
+    - `\Email Logging\Storage\`
 
-- Abilitare alla posta per l'invio di e-mail alla cartella pubblica *Coda* utilizzando Outlook o la shell di gestione di Exchange
+Per ulteriori informazioni, vedere [Creare una cartella pubblica](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true).
 
-  Per ulteriori informazioni, vedere [Consentire agli utenti anonimi di inviare e-mail a una cartella pubblica abilitata alla posta](/exchange/collaboration/public-folders/mail-enable-or-disable#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?view=exchserver-2019&preserve-view=true)
+### <a name="set-public-folder-ownership"></a>Impostare la proprietà della cartella pubblica
 
-- Impostare l'utente del log delle e-mail come proprietario di entrambe le cartelle pubbliche, *Coda* e *Archiviazione* utilizzando Outlook o la shell di gestione di Exchange in base alle informazioni nella tabella seguente:
+Impostare l'utente del log delle e-mail come proprietario di entrambe le cartelle pubbliche,*Coda* e *Archiviazione*.
 
-  |Proprietà        |Valore                     |
-  |----------------|--------------------------|
-  |Utente            |L'e-mail dell'account utente che Business Central utilizzerà per eseguire il processo di log delle e-mail|
-  |Livello di autorizzazione|Proprietario                     |
+Per ulteriori informazioni, vedere [Assegnare le autorizzazioni per la cartella pubblica](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-  Per ulteriori informazioni, vedere [Assegnare le autorizzazioni per la cartella pubblica](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
+### <a name="mail-enable-the-queue-public-folder"></a>Abilitare alla posta la cartella pubblica *Coda*
 
-- Creare due regole di flusso di posta in base alle informazioni nella seguente tabella
+  Per ulteriori informazioni, vedere [Abilitare o disabilitare alla posta una cartella pubblica](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
 
-  |Scopo  |Name |Condizioni                        |Azione                                       |
-  |---------|-----|----------------------------------|---------------------------------------------|
-  |Regola per le e-mail in entrata |Registra messaggi e-mail inviati all'organizzazione|*Il mittente* si trova *all'esterno dell'organizzazione* e *il destinatario* si trova *all'interno dell'organizzazione*|BCC dell'account e-mail specificato per la cartella pubblica *Coda*|
-  |Regola per le e-mail in uscita | Registra messaggi e-mail inviati dall'organizzazione |*Il mittente* si trova *all'interno dell'organizzazione* e *il destinatario* si trova *all'esterno dell'organizzazione*|BCC dell'account e-mail specificato per la cartella pubblica *Coda*|
-  
-  Per ulteriori informazioni, vedere [Gestire le regole del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) e [Azioni della regola del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
+### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Abilitare alla posta per l'invio di e-mail alla cartella pubblica *Coda*
+
+Abilitare alla posta per l'invio di e-mail alla cartella pubblica *Coda* utilizzando Outlook o la shell di gestione di Exchange.
+
+Per ulteriori informazioni, vedere [Consentire agli utenti anonimi di inviare e-mail a una cartella pubblica abilitata alla posta](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
+
+### <a name="create-mail-flow-rules"></a>Creare regole di flusso di posta
+
+Creare due regole di flusso di posta in base alle informazioni nella seguente tabella:
+
+|Scopo  |Name |Applica questa regola se...             |Esegui le operazioni seguenti...                          |
+|---------|-----|----------------------------------|---------------------------------------------|
+|Regola per le e-mail in entrata |Registra messaggi e-mail inviati all'organizzazione|*Il mittente* si trova *all'esterno dell'organizzazione* e *il destinatario* si trova *all'interno dell'organizzazione*|BCC dell'account e-mail specificato per la cartella pubblica *Coda*|
+|Regola per le e-mail in uscita | Registra messaggi e-mail inviati dall'organizzazione |*Il mittente* si trova *all'interno dell'organizzazione* e *il destinatario* si trova *all'esterno dell'organizzazione*|BCC dell'account e-mail specificato per la cartella pubblica *Coda*|
+
+Per ulteriori informazioni, vedere [Gestire le regole del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) e [Azioni della regola del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
 > [!NOTE]
 > Se si apportano modifiche nella shell di gestione di Exchange, le modifiche diventano visibili nell'interfaccia di amministrazione di Exchange dopo un certo tempo. Inoltre, le modifiche apportate in Exchange saranno disponibili in [!INCLUDE[prod_short](prod_short.md)] dopo un certo tempo. Potrebbe verificarsi un ritardo di diverse ore.

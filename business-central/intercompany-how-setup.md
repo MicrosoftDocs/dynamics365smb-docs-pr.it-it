@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f43141d4280fcadedc8072194f0d4d52e50cdf2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441270"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440467"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Impostazione della registrazione delle transazioni interaziendali
 
-Per inviare una transazione, ad esempio una riga registrazioni vendita, da una società e creare automaticamente la transazione corrispondente, ad esempio una riga registrazioni acquisto, per la società partner, le società interessate devono accettare un piano dei conti comune e un set di dimensioni da utilizzare per le transazioni intercompany. Il piano dei conti intercompany può essere dato, ad esempio, da una versione semplificata del piano dei conti della casa madre. Ogni società deve mappare il suo piano dei conti completo al piano dei conti intercompany comune e le sue dimensioni alle dimensioni intercompany.  
+Per inviare una transazione, ad esempio una riga registrazioni vendita, da una società e creare automaticamente la transazione corrispondente, ad esempio una riga registrazioni acquisto, per la società partner, le società interessate devono accettare un piano dei conti comune e un set di dimensioni da utilizzare con le transazioni intercompany. Il piano dei conti intercompany può essere dato, ad esempio, da una versione semplificata del piano dei conti della casa madre. Ogni società deve mappare il suo piano dei conti completo al piano dei conti intercompany comune e le sue dimensioni alle dimensioni intercompany.  
 
 È inoltre necessario impostare un codice partner IC per ogni società partner, accettato da tutte le società, quindi assegnarlo alle schede clienti e fornitori rispettivamente compilando il campo **Codice partner IC**.  
 
@@ -34,7 +34,7 @@ Se si effettuano transazioni di vendita intercompany che includono risorse, è n
 ## <a name="to-set-intercompany-partners"></a>Per impostare i partner IC
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Partner IC**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
-3. Nella pagina **Partner IC** compilare i campi secondo necessità.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella pagina **Partner IC** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)]online, non è possibile utilizzare i percorsi dei file per trasferire le transazioni ai partner perché [!INCLUDE[prod_short](includes/prod_short.md)] non ha accesso alla rete locale. Pertanto, se si sceglie **Percorso file** nel campo **Tipo di trasferimento**, il campo **Percorso cartella** non è disponibile. Invece, il file verrà scaricato nella cartella Download sul computer. Quindi si invia il file a qualcuno nella società partner, ad esempio, tramite posta elettronica. Per un processo più diretto, consigliamo di scegliere **E-mail**.
@@ -65,7 +65,7 @@ Per consentire ai partner intercompany di importare il piano dei conti è necess
 3. Specificare il nome del file e il percorso in cui salvare il file XML, quindi fare clic sul pulsante **Salva**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Per importare il piano dei conti intercompany  
-Una volta che il file del piano dei conti intercompany è presente, i partner intercompany possono importarlo per essere certi che abbiano gli stessi conti.  
+Una volta che un file per definire il piano dei conti intercompany è presente, i partner intercompany possono importarlo per essere certi che abbiano gli stessi conti.  
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti intercompany**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Piano dei conti intercompany**, selezionare l'azione **Importa**.  
 3. Selezionare il nome e il percorso del file XML, quindi scegliere il pulsante **Apri**.  
@@ -82,7 +82,7 @@ Se i numeri dei conti del piano dei conti intercompany sono uguali a quelli dei 
 3. Per ogni conto di contabilità generale intercompany non mappato automaticamente, compilare il campo **Nr. Conto C/G Assoc.**.  
 
 ## <a name="to-set-up-default-intercompany-partner-general-ledger-accounts"></a>Per impostare i conti C/G predefiniti per i partner intercompany  
-Quando si crea una riga di acquisto o vendita intercompany da inviare come transazione in uscita, è necessario immettere un conto del piano dei conti intercompany come impostazione di default per il conto della società partner in cui deve essere registrato l'importo. Nella pagina **Piano dei conti** è possibile specificare un conto di contabilità generale partner intercompany di default per i conti maggiormente utilizzati nelle righe di acquisto o di vendita intercompany in uscita. Per i conti crediti vs clienti è ad esempio possibile specificare i conti debiti corrispondenti del piano dei conti intercompany.  
+Quando si crea una riga di acquisto o vendita intercompany da inviare come transazione in uscita, è necessario immettere un conto del piano dei conti intercompany come impostazione di default per il conto della società partner in cui deve essere registrato l'importo. Nella pagina **Piano dei conti** è possibile specificare un conto di contabilità generale partner intercompany di default per i conti utilizzati regolarmente nelle righe di acquisto o di vendita intercompany in uscita. Per i conti crediti vs clienti è ad esempio possibile specificare i conti debiti corrispondenti del piano dei conti intercompany.  
 
 Quando si specifica un conto C/G nel campo **Nr. contropartita** di una riga intercompany con **Partner IC** nel campo **Tipo conto**, il campo **Nr. conto C/G partner IC** viene compilato automaticamente.  
 

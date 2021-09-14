@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f0db9d63257d37fe6be5d31fc58541caf968907a
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320616"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482434"
 ---
 # <a name="workflow-notifications"></a>Notifiche del workflow
 
@@ -40,6 +40,10 @@ Impostare i workflow per notificare automaticamente agli utenti quando è richie
 * Personalizzazione delle notifiche di posta elettronica
 
     Se lo si desidera, è possibile personalizzare il contenuto della notifica e-mail modificando Report 1320, E-mail di notifica. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).  
+
+    > [!NOTE]
+    > Se si desidera utilizzare la posta elettronica come metodo di notifica, è necessario impostarla sia per il mittente che per il destinatario in [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Configurare la posta elettronica](admin-how-setup-email.md).
+
 * Opzioni di risposta
 
     È possibile impostare le regole e il contenuto specifici della notifica di un workflow durante la creazione del workflow in questione. Questa operazione può essere eseguita selezionando le opzioni nella pagina **Opzioni di risposta workflow** per la risposta workflow che rappresenta la notifica. Per ulteriori informazioni, vedere il passaggio 9 in [Creare workflow](across-how-to-create-workflows.md).  
