@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 499ed3db4b82a92d147f4fcdffef4df516a80bf1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435549"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588578"
 ---
 # <a name="set-up-units-of-measure"></a>Impostare unità di misura
 
@@ -28,9 +28,11 @@ Come parte del setup di [!INCLUDE [prod_short](includes/prod_short.md)], sono st
 
 Se un articolo viene inserito in stock utilizzando un'unità di misura ma viene prodotto in un'altra, viene creato un ordine di produzione che utilizza un'unità di misura batch di produzione per calcolare la quantità corretta di componenti durante il processo batch **Aggiorna ordine produzione**. Un esempio di calcolo di un'unità di misura è il caso in cui un articolo prodotto viene inserito in stock in pezzi, ma viene prodotto in tonnellate. Per ulteriori informazioni, vedere [Utilizzare le unità di misura batch di produzione](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
 
+Un altro strumento che rende più facile lavorare con più unità di misura per gli elementi è la possibilità di specificare una precisione di arrotondamento per le unità di misura di base. Specificare una precisione di arrotondamento fornisce una guida su ciò che qualcuno dovrebbe inserire per un dato processo aziendale e aiuta a ridurre i problemi di arrotondamento. Quando usi unità di misura alternative, il valore nel campo **Qtà per unità di misura** aiuta a calcolare la quantità nell'unità di misura di base, il che può portare a problemi di arrotondamento. Per esempio, immaginate di ricevere una scatola che contiene sei articoli. Quando la scatola arriva al tuo magazzino, scopri che uno dei sei articoli manca. Si decide di non pubblicare la ricevuta di una scatola, ma di cambiare la quantità ricevuta in cinque o sei pezzi. Questo porterebbe a una ricezione di 4,99998 pezzi, invece di cinque. Nella pagina **Unità di misura dell'elemento**, il campo **Precisione di arrotondamento della** quantità ti permette di specificare un valore che convertirà la quantità in un numero più facile da capire. Continuando con l'esempio, dovremmo inserire **1** nel campo per arrotondare fino a cinque pezzi.
+
 ## <a name="to-set-up-units-of-measure"></a>Per impostare le unità di misura
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Unità di misura**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Unità di misura**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Una nuova riga vuota viene inserita.  
 3. Compilare i campi. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Se l'organizzazione venderà gli articoli con questa unità di misura a clienti di altri paesi, è possibile aggiungere le traduzioni.  
@@ -57,13 +59,13 @@ Quando si registra un nuovo articolo è possibile scegliere l'unità di misura d
 
     Nella parte inferiore della finestra del campo **Unità di misura base** è possibile visualizzare o modificare l'unità di misura di base dell'articolo. È inoltre possibile modificare l'unità di misura di base nel campo **Unità di misura base** nella scheda articolo. Nella pagina **Unità di misura articolo**, l'unità di misura di base deve avere il valore **1** nel campo **Quantità per unità di misura**.
 
-Ora è possibile utilizzare le unità di misura alternative nei documenti di acquisto, produzione e vendita come descritto nella sezione [Inserire un codice unità di misura predefinito per le transazioni di vendita e acquisto](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
+È ora possibile utilizzare le unità di misura alternative nei documenti di acquisto, produzione e vendita. Per ulteriori informazioni, vedere [Inserire un codice di unità di misura predefinito per le transazioni di vendita e di acquisto](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Per impostare traduzioni di unità di misura
 
-Se si vendono articoli a clienti stranieri, potrebbe essere necessario indicare l'unità di misura nella lingua del cliente. Questa operazione può essere eseguita impostando le necessarie traduzioni delle unità di misura.
+Quando vendi articoli a clienti stranieri, potresti voler specificare l'unità di misura nella lingua del cliente. Potete farlo specificando le traduzioni per le unità di misura.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Unità di misura**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Unità di misura**, quindi scegli il collegamento correlato.
 2. Selezionare il codice per cui si intendono impostare le traduzioni e scegliere l'azione **Traduzioni**.
 3. Nel campo **Cod. lingua** selezionare la freccia a discesa per visualizzare una lista dei codici lingua disponibili. Selezionare il codice lingua per il quale si intende immettere la traduzione, quindi fare clic su OK per copiare il codice nel campo.
 4. Nel campo **Descrizione**, immettere il testo adeguato.

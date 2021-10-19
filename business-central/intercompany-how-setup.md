@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 1d822b61c9ed64d970d2d17939a359d898513e2d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440467"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587582"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Impostazione della registrazione delle transazioni interaziendali
 
@@ -23,7 +23,7 @@ Per inviare una transazione, ad esempio una riga registrazioni vendita, da una s
 
 È inoltre necessario impostare un codice partner IC per ogni società partner, accettato da tutte le società, quindi assegnarlo alle schede clienti e fornitori rispettivamente compilando il campo **Codice partner IC**.  
 
-Se si creano o si ricevono righe intercompany con articoli, è possibile utilizzare i propri numeri articolo oppure impostare i numeri articolo del partner per ogni articolo menzionato, nel campo **Nr. articolo fornitore** o nel campo **Nr. articolo comune** della scheda articolo. È inoltre possibile usare la funzione **Cross reference articolo**: per mappare i numeri di articolo alle descrizioni degli articoli dei partner IC, aprire la scheda di ciascun articolo e scegliere l'azione **Cross reference** per impostare i riferimenti incrociati tra le descrizioni degli articoli dell'utente e quelle del partner IC. Per ulteriori informazioni, vedere [Utilizzare Cross reference articoli](inventory-how-use-item-cross-refs.md). 
+Se si creano o si ricevono righe intercompany con articoli, è possibile utilizzare i propri numeri articolo oppure impostare i numeri articolo del partner per ogni articolo menzionato, nel campo **Nr. articolo fornitore** o nel campo **Nr. articolo comune** della scheda articolo. Puoi anche usare la funzione **Riferimento articolo** per mappare i numeri dei tuoi articoli alle descrizioni degli articoli dei tuoi partner intercompany, aprire la scheda di ogni articolo, e poi scegliere l'azione **Riferimenti articolo** per impostare i riferimenti tra le descrizioni dei tuoi articoli e quelle del partner intercompany. Per maggiori informazioni, vedere [Use Elemento References](inventory-how-use-item-cross-refs.md). 
 
 Se si effettuano transazioni di vendita intercompany che includono risorse, è necessario compilare il campo **Nr. conto C/G acq. partner IC** della scheda risorsa per ogni risorsa interessata. Si tratta del numero del conto di contabilità generale intercompany in cui verrà contabilizzato l'importo di questa risorsa nella società partner. Per ulteriori informazioni, vedere [Impostare risorse](projects-how-setup-resources.md).
 

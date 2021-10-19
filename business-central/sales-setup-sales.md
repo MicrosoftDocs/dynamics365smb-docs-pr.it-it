@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318586"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588652"
 ---
 # <a name="setting-up-sales"></a>Setup Vendite
 Prima di poter dare inizio alla gestione dei processi di vendita, è necessario configurare le regole e i valori che definiscono i criteri di vendita dell'azienda.
 
-È necessario definire la configurazione generale, ad esempio i documenti di vendita richiesti e le modalità di registrazione dei rispettivi valori. Queste impostazioni generali vengono in genere eseguite una volta durante l'implementazione iniziale.
+È necessario definire l'impostazione generale nella pagina **Vendite e crediti**, come ad esempio quali documenti di vendita sono richiesti, come i loro valori sono registrati e il tipo di linee da creare per default. Queste impostazioni generali vengono in genere eseguite una volta durante l'implementazione iniziale.
 
-Una serie di attività specifiche correlate alla registrazione di nuovi clienti è quella di prendere nota di tutti gli accordi riguardanti sconti o prezzi speciali in essere con ogni cliente.
+Una serie di attività specifiche correlate alla registrazione di nuovi clienti è quella di prendere nota di tutti gli accordi riguardanti sconti o prezzi speciali in essere con ogni cliente. Per maggiori informazioni, vedere [Registrare i prezzi delle vendite speciali e gli sconti](sales-how-record-sales-price-discount-payment-agreements.md).
 
 L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di pagamento e le valute, è descritta nella sezione Impostazione degli aspetti finanziari. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440368"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588984"
 ---
 # <a name="register-new-customers"></a>Registrare nuovi clienti
 
@@ -26,23 +26,16 @@ Prima di registrare nuovi clienti, è necessario impostare vari codici di vendit
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Aggiunta di nuovi clienti
+Puoi aggiungere nuovi clienti manualmente, compilando i campi nella pagina della **Scheda cliente**, oppure puoi usare dei modelli che contengono informazioni predefinite. Per esempio, è possibile creare un modello per diversi tipi di profili di clienti. L'uso di modelli fa risparmiare tempo quando si aggiungono nuovi clienti e aiuta a garantire che le informazioni siano corrette ogni volta. Se si creano modelli per più di un tipo di cliente, è possibile scegliere il modello da utilizzare quando si aggiunge un cliente. Se si crea un solo modello, questo verrà utilizzato per tutti i nuovi clienti. Dopo aver creato un modello, è possibile utilizzare l'azione **Applica modello** per applicarlo a uno o più clienti selezionati. Per creare un modello, si compilano le informazioni che si vogliono riutilizzare nella pagina della Scheda cliente, e poi si salva come modello. Per ulteriori informazioni, vedere [Per salvare la scheda cliente come modello](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-Per registrare un nuovo cliente, è necessario compilare una scheda cliente. È possibile stabilire modelli per profili di clienti diversi oppure aggiungere clienti senza modelli. Puoi anche creare un cliente da un contatto. Per ulteriori informazioni, vedi [Per creare un contatto come cliente, fornitore, dipendente o conto corrente bancario da un contatto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Può essere utile personalizzare la pagina **Modello cliente** quando si crea un modello. Per esempio, si potrebbe voler aggiungere il campo **Limite di credito** a un modello. Per ulteriori informazioni, vedi [Personalizzare lo spazio di lavoro](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Se esistono i modelli cliente per diversi tipi di cliente, quando si crea una nuova scheda cliente, verrà visualizzata una pagina automaticamente da cui sarà possibile selezionare un modello appropriato. Se esiste solo un modello cliente, allora le nuove schede cliente utilizzeranno sempre tale modello.  
+Puoi anche creare un cliente da un contatto. Per ulteriori informazioni, vedi [Per creare un contatto come cliente, fornitore, dipendente o conto corrente bancario da un contatto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Per creare una nuova scheda cliente
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.  
-2. Nella pagina **Clienti** scegliere l'azione **Nuovo**.
-
-    Se esiste solo un modello cliente, allora verrà visualizzata una nuova scheda cliente con alcuni campi compilati con le informazioni derivanti dal modello.
-
-    Se esistono più modelli cliente, verrà aperta una pagina nella quale sarà possibile selezionare un modello cliente. In questo caso, seguire i due passaggi successivi.
-3. Nella pagina **Selezionare un modello per un nuovo cliente** scegliere il modello da utilizzare per la nuova scheda cliente.
-4. Scegliere il pulsante **OK**. Una nuova scheda cliente verrà visualizzata con alcuni campi compilati con le informazioni del modello.  
-5. Continuare a compilare o a modificare i campi della scheda cliente in base alle necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 L'azione **Prezzi e sconti** fornisce opzioni per la gestione di prezzi speciali o sconti per il cliente quando un ordine soddisfa determinati criteri. Ad esempio, i criteri potrebbero essere l'acquisto di un determinato articolo, l'ordine di una quantità minima o l'acquisto prima di una data, ad esempio la fine di una campagna. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -76,7 +69,7 @@ Il campo **Limite credito** in una scheda cliente specifica l'importo massimo ch
 
 ### <a name="to-specify-credit-limit-warnings"></a>Per specificare gli avvisi sui limiti di credito
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
 
 2. Sulla Scheda dettaglio **Generale**, nel campo **Avvisi credito** selezionare l'opzione pertinente come descritto nella tabella seguente:
 

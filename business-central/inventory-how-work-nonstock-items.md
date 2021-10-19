@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445578"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588553"
 ---
 # <a name="work-with-catalog-items"></a>Utilizzare gli articoli di catalogo
 È possibile offrire per loro comodità determinati articoli ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli. Se si desidera iniziare a gestire nel sistema tali articoli, è possibile convertirli in schede articolo normali in due modi.
@@ -51,7 +51,7 @@ Per abilitare la conversione di una scheda articolo di catalogo in una scheda ar
 2. Aprire la scheda dell'articolo di catalogo da convertire in articolo normale.
 3. Nella pagina **Scheda articolo di catalogo** scegliere l'azione **Crea articolo**.
 
-Verrà visualizzata una nuova scheda articolo precompilata con le informazioni dell'articolo di catalogo e viene creato un modello articolo relativo. È possibile immettere o modificare i campi della nuova scheda articolo secondo le necessità. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
+Viene creata una nuova scheda articolo precompilata con le informazioni dell'articolo del catalogo e un modello di articolo pertinente. È possibile immettere o modificare i campi della nuova scheda articolo secondo le necessità. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Per vendere un articolo di catalogo e convertirlo in articolo normale
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
@@ -66,9 +66,9 @@ Verrà visualizzata una nuova scheda articolo precompilata con le informazioni d
 È possibile immettere o modificare i campi della nuova scheda articolo secondo le necessità. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Un record di cross reference articolo viene creato automaticamente per il fornitore dell'articolo tra il numero dell'articolo fornitore e il nuovo numero dell'articolo. Per ulteriori informazioni, vedere [Utilizzare Cross reference articoli](inventory-how-use-item-cross-refs.md).
+>   Un riferimento di articolo viene automaticamente inserito tra il numero di articolo del venditore e il tuo nuovo numero di articolo. Per maggiori informazioni, vedere [Use Elemento References](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Creare ordini speciali](sales-how-to-create-special-orders.md)|  
 [Magazzino](inventory-manage-inventory.md)  

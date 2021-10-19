@@ -1,21 +1,21 @@
 ---
 title: Come immettere dati in Business Central
 description: Sono disponibili numerose funzionalità generali che consentono di immettere dati più facilmente, più velocemente e in modo più preciso. Sono descritti i principi di base e le funzionalità avanzate.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443670"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588959"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -35,7 +35,6 @@ Alcuni campi modificabili forniscono un selettore per consentire di specificare 
 |Menu a discesa          |I menu a discesa offrono una scelta di valori fissi o record di riferimento da un'altra tabella.|
 |Interruttore o casella di controllo|Alcuni campi offrono una semplice scelta di valori *Sì* o *No*. L'interruttore viene utilizzato per specificare questo valore ed è sempre visualizzato come una casella di controllo negli elenchi.|
 |Assist-edit       |Alcuni campi offrono selettori personalizzati adatti a cercare e scegliere il valore migliore per quel campo, come la finestra popup.|
-
 
 ### <a name="modifying-a-field-value"></a>Modifica di un valore di campo
 
@@ -58,7 +57,6 @@ Quando il cursore viene visualizzato alla fine del valore di campo:
 
 > [!NOTE]
 > Dopo aver specificato un valore, Business Central verificherà che sia valido solo dopo aver fatto clic all'esterno del campo o impostato lo stato attivo su un altro elemento, ad esempio il campo successivo.  
-
 
 ## <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -267,9 +265,16 @@ Di seguito vengono forniti alcuni esempi.
 
  Il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.  
 
-## <a name="see-also"></a>Vedere anche  
- [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Impostazione del separatore decimale usato dalle tastiere numeriche
+
+Quando usi il tasto separatore decimale della tastiera numerica per inserire i dati, il separatore decimale effettivo che viene inserito nel campo è determinato dall'impostazione della regione del tuo Business Central. Hai impostato la regione in Business Central nella pagina **Le mie impostazioni** .
+
+Per esempio, supponiamo che stiate usando una tastiera numerica che usa un punto (.) come tasto separatore decimale. Ma, stai inserendo dati per una lingua regionale che usa una virgola (**,**) per il separatore decimale, come il danese (Danimarca) o il francese (Francia). Quindi, volete che i decimali come "1,23" siano inseriti come "1,23". In questo caso, puoi andare alla pagina **Le mie impostazioni** e impostare la **regione** sulla lingua regionale di destinazione, come il **danese (Danimarca)** o il **francese (Francia)**. Per maggiori informazioni, vedere [Cambiare le impostazioni di base](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Vedere anche
+
+[Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

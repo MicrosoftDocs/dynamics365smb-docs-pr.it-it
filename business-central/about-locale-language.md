@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776449"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588403"
 ---
 # <a name="changing-language-and-region"></a>Modifica di lingua e area geografica
 
@@ -33,7 +33,7 @@ La modifica dei testi memorizzati come dati dell'applicazione non è invece supp
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] supporta solo un unico set di caratteri per i dati. Alcuni caratteri, pertanto, potrebbero non essere supportati nell'ambiente ed è possibile che si verifichino problemi durante il recupero di dati immessi utilizzando un set di caratteri diverso. Ad esempio, l'ambiente potrebbe supportare solo caratteri inglesi e russi e se si immettono i dati in una lingua diversa, potrebbero non essere archiviati correttamente. Per verificare di avere individuato correttamente le lingue supportate per [!INCLUDE[prod_short](includes/prod_short.md)], rivolgersi all'amministratore di sistema.  
 
-## <a name="changing-the-region"></a>Cambiare l'area geografica
+## <a name="changing-your-region-setting"></a>Cambiare l'impostazione della regione
 L'area geografica differisce dalla lingua e dai requisiti legali nei mercati locali. L'area geografica determina la visualizzazione dei dati in termini di separatore, allineamento a sinistra o a destra ed alcune altre impostazioni. L'area geografica determina anche alcuni degli elementi di sistema nel browser, ad esempio l'azione per creare un nuovo elemento in un elenco.  
 
 È possibile modificare l'area geografica nella scheda del browser utilizzato in [!INCLUDE[prod_short](includes/prod_short.md)]. La modifica è valida solo per l'utente corrente e non per gli altri utenti nella società.  La scelta dell'area geografica verrà ripristinata sulle impostazioni del profilo di Microsoft 365 se l'amministratore sincronizza gli utenti da Microsoft 365 in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -42,6 +42,11 @@ L'area geografica differisce dalla lingua e dai requisiti legali nei mercati loc
 > Quando si modifica l'area geografica viene visualizzato un lungo elenco di lingue e aree geografiche. Tuttavia, la lingua non è influenzata dalla scelta dell'area geografica.  
 
 Per modificare l'area geografica accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
+
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Cambiare l'impostazione della regione per clienti, contatti e fornitori
+Alcune aziende usano un servizio esterno che convalida le informazioni dell'indirizzo nel loro paese o regione. Tuttavia, quando avete bisogno di aggiornare le informazioni sull'indirizzo, l'approccio strutturato che questi servizi utilizzano potrebbe non essere sempre quello giusto per alcuni scenari. Business Central offre un mezzo più flessibile per inserire i dettagli dell'indirizzo.
+
+Nella pagina **Setup contabilità generale**, se si attiva l'opzione **Richiedi il codice paese/regione nel toggle dell'indirizzo**, le modifiche al campo **Codice paese/regione** negli indirizzi di clienti, contatti o fornitori resetteranno i valori negli altri campi indirizzo.
 
 ## <a name="application-version"></a>Versione applicazione
 

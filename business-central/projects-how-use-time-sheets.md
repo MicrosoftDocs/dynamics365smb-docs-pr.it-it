@@ -1,5 +1,5 @@
 ---
-title: Utilizzare i fogli presenza per le commesse
+title: Utilizzare fogli di tempo per i progetti
 description: Descrive come creare un foglio presenze per una commessa, copiarvi le righe di pianificazione, definire i tipi di lavoro, compilare il foglio di presenze e inviarlo per l'approvazione.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440643"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588834"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Utilizzare i fogli presenze per le commesse
+# <a name="use-time-sheets-for-projects"></a>Utilizzare fogli di tempo per i progetti
 
 Utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. È necessario disporre dei permessi necessari per creare i fogli presenze.
 
@@ -25,9 +25,12 @@ Utilizzare il processo batch **Crea fogli presenze** per impostare i fogli prese
 
 Dopo avere approvato i movimenti del foglio presenze per una commessa, è possibile registrarli nelle registrazioni commesse o nelle registrazioni risorse corrispondenti.
 
-Prima di poter utilizzare i fogli presenze, è necessario impostare le informazioni generali e specificare un amministratore e uno o più responsabili approvazione dei fogli presenze. Per ulteriori informazioni, vedere [Impostare fogli presenze](projects-how-setup-time-sheets.md).
+Prima di poter utilizzare i fogli presenze, è necessario impostare le informazioni generali e specificare un amministratore e uno o più responsabili approvazione dei fogli presenze. Per ulteriori informazioni, vedere [Impostare fogli presenze](projects-how-setup-time-sheets.md).  
 
-## <a name="to-create-a-time-sheet"></a>Per creare un foglio presenze
+> [!TIP]
+> A partire dalla release 2021 wave 2, è possibile gestire i fogli di presenza assegnati su un dispositivo mobile. Tuttavia, l'amministratore potrebbe dover abilitare l’**aggiornamento delle funzionalità: Nuova funzione di esperienza del foglio di presenza** nella pagina di [gestione delle funzionalità](https://businesscentral.dynamics.com/?page=2610) per usare questa funzione. Per maggiori informazioni, vedere [Impostare i fogli di presenza](projects-how-setup-time-sheets.md).
+
+## <a name="to-create-time-sheets"></a>Per creare fogli di presenza
 
 È possibile utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task.
 

@@ -1,21 +1,21 @@
 ---
 title: Installare Business Central sul dispositivo mobile
 description: Questo argomento descrive i vari modi in cui è possibile visualizzare e modificare i dati di Business Central, inviare a Excel e altro su telefono o tablet.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: phone, tablet
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7f2d86ab1ba8f3ee0ae77aad16b64feb0fa1fe4f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.search.keywords: desktop, Windows, app
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1097689e7fc06e7d1f2f3dede95c978a3316e975
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324002"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588278"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Scaricare Business Central sul dispositivo mobile
 
@@ -23,11 +23,12 @@ Accedere ai dati di [!INCLUDE[prod_short](includes/prod_short.md)]  dal disposit
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
+> [!TIP]
+> Vuoi un'app sul desktop del tuo computer Windows o macOS? Vedere [Ottenere l'applicazione Business Central Desktop App](install-desktop-app.md).
+
 ## <a name="get-the-app-on-my-mobile-device"></a>Installare l'app sul dispositivo mobile
 
-1. Installare l'app [!INCLUDE[prod_short](includes/prod_short.md)] sul dispositivo mobile scaricandola da Windows Store, App Store o Google Play.  
-
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (solo PC)
+1. Installa l'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] sul tuo dispositivo mobile scaricandola dall'App Store o da Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Avviare l'app sul dispositivo mobile.
@@ -44,12 +45,11 @@ A questo punto si dovrebbe avere accesso a [!INCLUDE[prod_short](includes/prod_s
 
 Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è anche possibile usufruire dei vantaggi dell'app per dispositivi mobili. L'installazione è simile, ma con un paio di eccezioni.
 
-1. Installare l'app [!INCLUDE[prod_short](includes/prod_short.md)] sul dispositivo mobile scaricandola da Windows Store, App Store o Google Play.  
+1. Installa l'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] sul tuo dispositivo mobile scaricandola dall'App Store o da Google Play.  
 
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (solo PC)
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
-2. Avviare l'app sul dispositivo mobile.
+2. Lancia l'applicazione dal tuo dispositivo mobile.
 3. Anziché inserire un indirizzo e-mail nella pagina di **benvenuto**, scegliere il pulsante **Opzioni avanzate**, quindi scegliere l'opzione di accesso **Locale**.
 4. Nella pagina successiva, nella casella **Nome servizio**, immettere l'indirizzo web utilizzato per aprire [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio *https://mybusinesscentral:443/BC170*. Se non si è sicuri, contattare l'amministratore.
 5. Successivamente, immettere il nome utente e la password per accedere a Business Central.

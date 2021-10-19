@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440543"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587761"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Connettersi a Microsoft Dataverse
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>Personalizzare l'accoppiamento basato sulla corrispondenza
+
+A partire dalla release 2021 wave 2, è possibile accoppiare i record in [!INCLUDE [prod_short](includes/prod_short.md)] e [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in base a criteri di corrispondenza definiti dall'amministratore.  
+
+L'algoritmo per la corrispondenza dei record può essere avviato dai seguenti punti in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* Elenca le pagine che mostrano i record sincronizzati con [!INCLUDE [cds_long_md](includes/cds_long_md.md)], come le pagine Clienti e Articoli.  
+
+    Seleziona più record, quindi scegli l'azione **Correlato**, scegli **Dataverse**, scegli **Accoppiamento** e poi scegli **Accoppiamento basato sulla corrispondenza**.
+
+    Quando il processo di accoppiamento basato sulla corrispondenza è avviato da un elenco di dati master, un lavoro di accoppiamento sarà programmato subito dopo aver selezionato i criteri di accoppiamento.  
+* Il **Dataverse Full Synch. Pagina direvisione** .  
+
+    Quando il processo di sincronizzazione completa rileva che hai disaccoppiato i record sia in [!INCLUDE [prod_short](includes/prod_short.md)] che in [!INCLUDE [cds_long_md](includes/cds_long_md.md)], appare un link **Seleziona criteri di accoppiamento** per la relativa tabella di integrazione.  
+
+    È possibile avviare il processo **Eseguire la sincronizzazione completa** dalle pagine **Dataverse Configurazione connessione** e **Configurazione connessione Dynamics 365**, e può essere avviato come un passo nella guida **Configura una configurazione assistita Dataverse** quando si sceglie di completare la configurazione ed eseguire la sincronizzazione completa alla fine.  
+
+    Quando il processo di accoppiamento basato sulla corrispondenza viene avviato dalla pagina **Dataverse Revisione sinc completa**, un lavoro di accoppiamento sarà programmato subito dopo aver completato la configurazione.  
+* L'elenco delle **mappature delle tabelle di integrazione** .  
+
+    Seleziona una mappatura, scegli l'azione **Coupling** e poi scegli **Accoppiamento basato su corrispondenza**.
+
+    Quando il processo di accoppiamento basato sulla corrispondenza viene avviato da una mappatura della tabella di integrazione, un lavoro di accoppiamento verrà eseguito per tutti i record non accoppiati in quella mappatura. Se è stato eseguito per un insieme di record selezionati dalla lista, verrà eseguito solo per i record non accoppiati selezionati.
+
+In tutti e tre i casi, la pagina **Select Coupling Criteria** si apre in modo da poter definire i criteri di accoppiamento pertinenti. In questa pagina, personalizza l'accoppiamento con i seguenti compiti:
+
+* Scegliere quali campi per abbinare i record di [!INCLUDE [prod_short](includes/prod_short.md)] e le entità di [!INCLUDE [cds_long_md](includes/cds_long_md.md)], e anche scegliere se l'abbinamento su quel campo sarà case-sensitive o no.  
+
+* Specifica se eseguire una sincronizzazione dopo l'accoppiamento dei record e, se il record usa la mappatura bidirezionale, scegli anche cosa succede se i conflitti sono elencati nella pagina **Risolvere i conflitti di aggiornamento** .  
+
+* Dare priorità all'ordine di ricerca dei record specificando una *priorità di corrispondenza* per i campi di mappatura pertinenti. Le priorità di corrispondenza fanno sì che l'algoritmo cerchi una corrispondenza in un numero di iterazioni definito dai valori del campo **Priorità accoppiamento** in ordine crescente. Un valore vuoto nel campo **Priorità accoppiamento** viene interpretato come priorità 0, quindi i campi con questo valore vengono considerati per primi.  
+
+* Specifica se creare una nuova istanza di entità in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] nel caso in cui non sia possibile trovare una corrispondenza unica non accoppiata utilizzando i criteri di corrispondenza. Per attivare questa capacità, scegli l'azione **Crea nuovo se non si trova accoppiamento** .  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Visualizza i risultati del lavoro di accoppiamento
+
+Per visualizzare i risultati del lavoro di accoppiamento, aprire la pagina **Mappatura tabella integrazione**, selezionare la mappatura pertinente, scegliere l'azione **Accoppiamento** e poi scegliere l'azione **Registro lavoro accoppiamento integrazione** .  
+
+Se ci sono dei record che non sono stati accoppiati, puoi approfondire il valore nella colonna Failed, che aprirà una lista di errori che specifica perché i record non sono riusciti ad accoppiarsi.  
+
+L'accoppiamento fallito si verifica spesso nei seguenti casi:
+
+* Non è stato definito alcun criterio di corrispondenza
+
+    In questo caso, eseguite di nuovo l'accoppiamento basato sulla corrispondenza, ma ricordatevi di definire i criteri di accoppiamento.
+
+* Nessuna corrispondenza è stata trovata per un certo numero di record, in base ai campi di corrispondenza scelti
+
+    In questo caso, ripetete l'accoppiamento con qualche altro campo corrispondente.
+
+* Sono state trovate corrispondenze multiple per un certo numero di record, in base ai campi di corrispondenza scelti  
+
+    In questo caso, ripetete l'accoppiamento con qualche altro campo corrispondente.
+
+* È stata trovata una singola corrispondenza, ma il record corrispondente è già accoppiato a un altro record in [!INCLUDE [prod_short](includes/prod_short.md)]  
+
+    In questo caso, ripetete l'accoppiamento con qualche altro campo corrispondente, o indagate perché quell'entità [!INCLUDE [cds_long_md](includes/cds_long_md.md)] è accoppiata a quell'altro record in [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!TIP]
+> Per aiutarti ad avere una panoramica sul progresso dell'accoppiamento, il campo **Coupled to Dataverse** mostra se un record specifico è accoppiato a un'entità [!INCLUDE [cds_long_md](includes/cds_long_md.md)] oppure no. Puoi filtrare la lista dei record che vengono sincronizzati con [!INCLUDE [cds_long_md](includes/cds_long_md.md)] da questo campo.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Aggiornare le connessioni da Business Central Online per utilizzare l'autenticazione basata su certificato
 > [!NOTE]
-> Questa sezione è pertinente solo per i tenant di Business Central online ospitati da Microsoft. I tenant online ospitati dagli ISV e le installazioni locali non sono interessati.
+> Questa sezione è rilevante solo per i locatari online [!INCLUDE[prod_short](includes/prod_short.md)] che sono ospitati da Microsoft. I tenant online ospitati dagli ISV e le installazioni locali non sono interessati.
 
 Ad aprile 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] depreca il tipo di autenticazione di Office365 (nome utente/password). Per ulteriori informazioni, vedi [Deprecazione del tipo di autenticazione Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Inoltre, nel marzo 2022, [!INCLUDE[prod_short](includes/prod_short.md)] depreca l'uso dell'autenticazione da servizio a servizio basata su segreto client per i tenant online e richiede l'uso dell'autenticazione da servizio a servizio basata su certificato per le connessioni a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. I tenant [!INCLUDE[prod_short](includes/prod_short.md)] online ospitati da ISV e le installazioni locali possono continuare a utilizzare l'autenticazione del segreto client per connettersi a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 05/19/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: cd53825ced18cafab27571671a203cda82d3dcc9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341510"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587867"
 ---
 # <a name="teams-faq"></a>Domande frequenti su Teams
 
@@ -146,7 +146,11 @@ In Microsoft, i feedback della nostra variegata comunità di utenti vengono cost
 
 Se desideri partecipare al miglioramento dell'app per Teams o hai un'idea che ti permetterebbe di semplificare il tuo lavoro o le tue esperienze collaborative in Teams, aggiungila o vota per quelle esistenti in [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## <a name="searching-for-contacts"></a>[Ricerca di contatti](#tab/contacts)
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Dove posso trovare l'integrazione di Teams nel client Web di Business Central? 
+
+Per la funzionalità nel client web che si collega a Teams, vedere la sezione [Condividi record e collegamenti di pagina in Microsoft Teams](across-working-with-teams.md#share-link).
+
+## <a name="search-for-contacts"></a>[Ricerca di contatti](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>In quali tabelle l'app esegue la ricerca?
 
@@ -192,7 +196,7 @@ Nella finestra dei dettagli di un contatto, trova l'azione **Crea interazione** 
 
 ### <a name="how-do-i-search-for-contacts-using-special-characters"></a>Come cerco i contatti che usano caratteri speciali?
 
-Puoi immettere criteri di ricerca utilizzando quasi tutti i caratteri Unicode. Tuttavia, [!INCLUDE [prod_short.md](includes/prod_short.md)] riserva i seguenti simboli per altri usi: **=**, **.**, **\**_ e _*@**. L'utilizzo di questi simboli nei termini di ricerca potrebbe non restituire i risultati previsti. Se non vedi i risultati attesi, racchiudi i simboli nei termini di ricerca tra virgolette singole, ad esempio, **Contoso'='2**.
+Puoi immettere criteri di ricerca utilizzando quasi tutti i caratteri Unicode. Tuttavia, [!INCLUDE [prod_short.md](includes/prod_short.md)] riserva i seguenti simboli per altri usi: **=**, **.**, **\**_ e _*@**. L'utilizzo di questi simboli nei termini di ricerca potrebbe non restituire i risultati previsti. Se non vedi i risultati attesi, racchiudi i simboli nei tuoi termini di ricerca tra virgolette singole, per esempio, **Contoso'='2**.
 
 ### <a name="how-can-i-search-contacts-stored-in-a-different-company"></a>Come posso cercare i contatti archiviati in un'altra azienda?
 
@@ -240,7 +244,7 @@ La ricerca nelle altre tabelle non è possibile in questo momento. L'app [!INCLU
 
 Se desideri vedere le funzionalità di ricerca evolversi per includere altre tabelle, incoraggiamo la nostra comunità ad aggiungere un'idea o votare per idee esistenti su https://aka.ms/BusinessCentralIdeas.
 
-## <a name="working-with-cards"></a>[Utilizzo delle schede](#tab/cards)
+## <a name="work-with-cards"></a>[Lavorare con le carte](#tab/cards)
 
 ### <a name="which-types-of-links-does-the-app-support"></a>Quali tipi di collegamento supporta l'app?
 
@@ -273,7 +277,7 @@ Quando scrivi e invii un messaggio in chat che include una scheda, tutti gli ute
 
 Se si lavora per più aziende [!INCLUDE [prod_short.md](includes/prod_short.md)], chiedere all'amministratore di abilitare un badge per ogni società. Se abilitato, questo interessante suggerimento viene visualizzato in qualsiasi finestra dei dettagli all'interno di Teams e mostra la società e l'ambiente a cui appartiene il record. Per informazioni su come impostare il badge società, vedere [Per visualizzare un badge società per un rapido accesso alle informazioni della società](ui-change-basic-settings.md#badge).
 
-## <a name="working-with-card-details"></a>[Utilizzo dei dettagli della scheda](#tab/carddetails)
+## <a name="work-with-card-details"></a>[Lavorare con i dettagli della carta](#tab/carddetails)
 
 ### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Dov'è il pulsante Salva nella finestra dei dettagli in Teams?
 
@@ -303,7 +307,7 @@ Sì. Le funzionalità di [!INCLUDE [prod_short.md](includes/prod_short.md)] nell
 
 Se utilizzi la funzionalità in [!INCLUDE [prod_short.md](includes/prod_short.md)] che consente di accedere alle coordinate della posizione corrente, ad esempio con le mappe, devi utilizzare Teams nel browser o nell'app per dispositivi mobili Teams. La posizione non è disponibile quando si usa l'app desktop Teams. 
 
-## <a name="collaborating-with-guests"></a>[Collaborare con utenti guest](#tab/collaborating)
+## <a name="collaborate-with-guests"></a>[Collaborare con gli ospiti](#tab/collaborating)
 
 ### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Posso condividere le schede con utenti esterni all'organizzazione?
 
@@ -319,12 +323,41 @@ Per informazioni su altre similarità e differenze tra utenti guest e membri del
 
 Gli utenti guest non hanno accesso al marketplace delle app per installare personalmente le app. Tuttavia, l'app può essere installata automaticamente per tali utenti in base ai criteri della tua organizzazione. Un altro modo per un utente guest di installare l'app [!INCLUDE [prod_short.md](includes/prod_short.md)] è quando riceve un messaggio di chat che include una scheda [!INCLUDE [prod_short.md](includes/prod_short.md)]. In questo caso, l'utente sceglie il pulsante **Dettagli** o il menu nella scheda, quindi installa l'app [!INCLUDE [prod_short.md](includes/prod_short.md)] da utilizzare con l'organizzazione. Dopo aver installato l'app, un utente non riceve automaticamente alcuna autorizzazione per accedere ai dati da [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
----
+## <a name="share-to-teams"></a>[Condividi su Teams](#tab/share)
 
+### <a name="does-share-to-teams-send-a-compact-card"></a>Condividi in Teams invia una scheda compatta? 
+
+In questo momento, viene condiviso solo un link profondo alla pagina. I destinatari vedranno un collegamento ipertestuale nel tuo messaggio, che possono selezionare per aprire [!INCLUDE [prod_short.md](includes/prod_short.md)] in una finestra separata del browser. 
+
+### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>I destinatari riceveranno il messaggio da me o da un account del servizio Business Central? 
+
+Quando usi Condividi in Teams, il messaggio viene inviato a una persona, un gruppo o un canale, come se tu stesso avessi inviato il messaggio da Microsoft Teams. I destinatari vedono il tuo messaggio sul loro client Teams preferito, e possono reagire e rispondere come farebbero normalmente a un tuo messaggio. 
+
+### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Condividi in Teams è disponibile in Business Central on premises? 
+
+No. Analogamente all'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams, questa funzione è disponibile solo per il client web in [!INCLUDE [prod_short.md](includes/prod_short.md)] online. Non ci sono piani per supportare tipi di implementazione [!INCLUDE [prod_short.md](includes/prod_short.md)]&mdash;come on-premises, cloud ibrido o cloud privato&mdash;che Microsoft non ospita o gestisce direttamente.
+
+### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Condividi in Teams concede i permessi ai destinatari? 
+
+No. Quando si condivide con una persona, un gruppo o un canale, le autorizzazioni non vengono modificate. Gli utenti che hanno già il permesso di visualizzare la pagina e i dati a cui mira il link possono farlo. Gli utenti che non hanno il permesso di visualizzare quella pagina e quei dati, o che non hanno una licenza [!INCLUDE [prod_short.md](includes/prod_short.md)], ricevono un messaggio di errore. 
+ 
+### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Devo avere l'applicazione desktop Teams installata per usare Condividi in Teams? 
+
+No. Tutto ciò di cui avete bisogno è un account valido che abbia accesso a Microsoft Teams. 
+
+### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Condividi in Teams è disponibile in tutti i clienti di Business Central? 
+
+In questo momento, Condividi in Teams è disponibile esclusivamente nel client web desktop e nella finestra dei dettagli in Teams.  
+
+### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Dove trovo Condividi in Teams in Business Central? 
+
+L’**azione Condividi in Teams** si trova nel menu **Condividi** su tutte le pagine, come le pagine delle schede e dei documenti, le pagine delle liste o dei fogli di lavoro, comprese le pagine personalizzate. L'azione non è disponibile nelle finestre di dialogo o nelle pagine mostrate come finestre di dialogo, come le pagine di ricerca o le procedure guidate.
+
+---
 ## <a name="see-also"></a>Vedere anche
 
-[Panoramica dell'integrazione di [!INCLUDE [prod_short](includes/prod_short.md)] e Microsoft Teams](across-teams-overview.md)  
-[Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
+[[!INCLUDE [prod_short](includes/prod_short.md)] e Panoramica sull’integrazione di Microsoft Teams](across-teams-overview.md)  
+[Installare l'App [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
 [Ricerca di clienti, fornitori e altri contatti da Microsoft Teams](across-search-contacts-teams.md)  
 [Condividere i record in Microsoft Teams](across-working-with-teams.md)  
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  

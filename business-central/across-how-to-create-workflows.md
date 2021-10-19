@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438409"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588228"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Creare flussi di lavoro per connettere le attività del processo aziendale
 
@@ -133,7 +133,7 @@ Nell'esempio seguente viene eseguito un nuovo flusso di lavoro per approvare le 
     2. Nel campo **Condizione** scegli la parola **Sempre**, e poi, nella pagina **Condizioni evento** scegli il collegamento **Aggiungere una condizione in caso di modifica di un valore campo**, quindi seleziona il campo *Nome*.  
 
       Il risultato di questo passaggio è che la condizione viene letta come *Il nome è cambiato*.  
-    3. Nel campo **Risposta** scegli il collegamento **Seleziona risposta** e poi, nella pagina **Risposte workflow** nel campo **Seleziona risposta** scegli la risposta *Ripristinare il valore del campo <Field> sul record e salvare la modifica* e poi, nella sezione **Opzioni per la risposta selezionata** specifica il campo *Nome*.  
+    3. Nel campo **Risposta**, scegli il collegamento **Seleziona risopsta** e poi, nella pagina **Risposte workflow**, nel campo **Seleziona risposta**, scegli *Ripristinare il valore del campo \<Field\> sul record e salvare la risposta modificata* e poi, nella sezione **Opzioni per la risposta selezionata**, specifica il campo *Nome* .  
     4. Scegli il collegamento **Aggiungi più risposte**, quindi aggiungi una voce per la risposta *Creare una richiesta di approvazione per il record utilizzando il tipo di responsabile approvazione <%1> e <%2>.* .  
     5. Nella sezione **Opzioni per la risposta selezionata** per la nuova risposta, cambia il campo **Tipo di responsabile approvazione** su *Gruppo di utenti del workflow*, e poi, nel campo **Gruppo di utenti del workflow** specifica il gruppo di utenti pertinente.  
 

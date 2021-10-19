@@ -1,18 +1,18 @@
 ---
 title: IVA italiana
-description: Nella versione italiana l'IVA può essere detraibile se i beni o i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.
+description: Nella versione italiana, l'IVA può essere dedotta se i beni o i servizi acquistati dall'azienda sono utilizzati nella produzione del suo reddito.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: dd01eedef2118af3d347995e1c7f189d239edc98
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 72cc63b220d7cdddd80c4e6d7dcefce86038637a
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318858"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606432"
 ---
 # <a name="italian-vat"></a>IVA italiana
 
@@ -32,7 +32,7 @@ L'IVA per le transazioni viene elaborata in conformità con le normative in vigo
 
 ### <a name="dates"></a>Date
 
-La data d'emissione è la data del documento e la data di registrazione è la data di registrazione. I filtri dalla data reporting si basano sulle date di registrazione. Questo è diverso dal comportamento precedente in cui i filtri dalla data di reporting si basavano sulla data di esecuzione dell'operazione.  
+La data d'emissione è la data del documento e la data di registrazione è la data di registrazione. I filtri dalla data reporting si basano sulle date di registrazione. Questo è cambiato dal comportamento precedente in cui i filtri per le date di segnalazione erano basati sulla data in cui è avvenuta l'operazione.  
 
 ### <a name="non-deductible-vat"></a>IVA non detraibile
 
@@ -50,7 +50,7 @@ In Italia, i report elenco vendite UE (Intrastat) ed elenco annuale vengono aggi
 
 ## <a name="vat-transaction-reports"></a>Report transazioni IVA
 
-È necessario inviare periodicamente i report alle autorità fiscali per elencare le transazioni che includono l'IVA con importi superiori a una soglia specificata. I report transazioni IVA vengono creati in base alle transazioni con clienti o fornitori da un paese esterno all'UE e non incluso nell'elenco dei paesi bloccati delle autorità italiane. Le transazioni con clienti o fornitori dai paesi UE sono riportate nei report **Intrastat**. Le transazioni con clienti o fornitori dai paesi elencati come bloccati sono riportate nel report **Report comunicazioni blacklist**. [!INCLUDE[prod_short](../../includes/prod_short.md)] fornisce il supporto per i seguenti tipi di transazione:  
+È necessario inviare periodicamente i report alle autorità fiscali per elencare le transazioni che includono l'IVA con importi superiori a una soglia specificata. I report transazioni IVA vengono creati in base alle transazioni con clienti o fornitori da un paese esterno all'UE e non incluso nell'elenco dei paesi bloccati delle autorità italiane. Le transazioni con clienti o fornitori dai paesi UE sono riportate nei report **Intrastat**. [!INCLUDE[prod_short](../../includes/prod_short.md)] fornisce il supporto per i seguenti tipi di transazione:  
 
 |**Tipo di transazione**|**Supportata**|
 |--------------------|-------------|  

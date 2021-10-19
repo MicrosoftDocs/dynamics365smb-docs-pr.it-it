@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 09/07/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 06465c028c0721c5992a334400cdc975120bdeb7
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482446"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589309"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -27,7 +27,7 @@ Per iscriversi allo scopo di ottenere una versione di valutazione gratuita, fare
 
 A seconda del paese, la versione di valutazione include le lingue e le funzionalità necessarie per quel paese. Per ulteriori informazioni, vedere [Modifica di lingua e impostazioni locali](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Quando si accede per la prima volta alla società demo, si accede a una pagina Introduzione con collegamenti a guide al setup assistito che possono essere utili per iniziare. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Quando si accede per la prima volta alla società demo, si accede a una pagina Introduzione con collegamenti a guide al setup assistito che possono essere utili per iniziare. Per ulteriori informazioni, vedere [Prepararsi a fare affari](ui-get-ready-business.md) e gli articoli di [avvio rapido](quick-start-business-central.md) .  
 
 In caso di difficoltà, la pagina [Domande frequenti ](across-faq.yml) può fornire le risposte ad alcune domande. Se non è stato possibile iscriversi per una versione di valutazione, consultare [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md). Puoi anche contattare un [partner](/dynamics365/business-central/across-faq#findpartner) e chiedere di creare una versione di valutazione gratuita o un diverso tipo di anteprima di [!INCLUDE[prod_short](includes/prod_short.md)] per te.  
 
@@ -35,15 +35,15 @@ Se decidi di non usare [!INCLUDE [prod_short](includes/prod_short.md)], puoi far
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### <a name="try-out-your-own-company"></a>Utilizzare la versione di valutazione con i dati della propria società
+### <a name="add-your-own-data-to-an-empty-trial-company"></a>Aggiungere i propri dati a un'azienda di prova vuota
 
-Se si intende provare [!INCLUDE[prod_short](includes/prod_short.md)] con i propri dati, è possibile passare a una versione di valutazione gratuita di 30 giorni con una società vuota. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati. Tuttavia, ti consigliamo di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)].  
+Se vuoi provare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati, puoi passare a una prova gratuita di 30 giorni con una società vuota. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati. Tuttavia, ti consigliamo di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Se 30 giorni non sono sufficienti per decidere, è possibile prolungare il periodo di valutazione. Per ulteriori informazioni, vedere [Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?](admin-extend-trial.md).  
 
 ### <a name="setting-up-your-company-in-prod_short"></a>Impostazione della propria società in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Per impostare la propria società, la pagina **Setup assistito** elenca le guide al setup assistito che possono fornire informazioni utili. A seconda del proprio ruolo e paese, la pagina mostra diverse guide al setup assistito come illustrato nella tabella seguente:
+Gli articoli di [avvio rapido](quick-start-business-central.md) possono aiutarti a fare i primi passi nell'impostazione di [!INCLUDE [prod_short](includes/prod_short.md)] per la tua organizzazione. All'interno di [!INCLUDE [prod_short](includes/prod_short.md)], la pagina **Setup assistito** elenca le guide di setup assistito che possono aiutarti. A seconda del proprio ruolo e paese, la pagina mostra diverse guide al setup assistito come illustrato nella tabella seguente:
 
 | Setup assistito | Descrizione |
 | -------------- | ----------- |
@@ -61,7 +61,7 @@ Per impostare la propria società, la pagina **Setup assistito** elenca le guide
 | Imposta dati reporting|Imposta i set di dati che è possibile utilizzare per creare report efficaci utilizzando Excel o Power BI, ad esempio. |
 | Invita contabile esterno |Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a [!INCLUDE[prod_short](includes/prod_short.md)] in modo che possa utilizzare i dati fiscali dell'azienda. |
 
-La pagina **Setup assistito** può contenere altre voci. Quando si esegue un setup, questo verrà contrassegnato come **Completato**. È possibile impostare aree aggiuntive della società utilizzando il setup manuale. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+La pagina **Setup assistito** può contenere altre voci. Quando si esegue un setup, questo verrà contrassegnato come **Completato**. È possibile impostare altre aree dell'azienda utilizzando l'impostazione manuale. Per maggiori informazioni, vedere [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>Reimpostare l'esperienza di valutazione di [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -72,7 +72,7 @@ Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[p
 
 ## <a name="getting-started-with-a-subscription"></a>Introduzione a una sottoscrizione
 
-Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Come trovo un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner). Il partner rivenditore può fornire assistenza per impostare [!INCLUDE[prod_short](includes/prod_short.md)] in base alle esigenze della propria società, inclusa l'importazione di dati dal sistema precedente. Puoi anche personalizzare [!INCLUDE[prod_short](includes/prod_short.md)] aggiungendo app da [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Come trovo un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner). Il partner rivenditore può fornire assistenza per impostare [!INCLUDE[prod_short](includes/prod_short.md)] in base alle esigenze della propria società, inclusa l'importazione di dati dal sistema precedente. È anche possibile personalizzare [!INCLUDE[prod_short](includes/prod_short.md)] aggiungendo applicazioni dal [mercato commerciale di Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online utilizza Microsoft 365. Se la società utilizza un diverso tipo di setup e-mail, il partner rivenditore può fornire assistenza nel decidere come effettuare la migrazione o se si deve utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] (locale).  
 
@@ -85,22 +85,21 @@ Per ulteriori informazioni su cosa puoi fare con [!INCLUDE [prod_short](includes
 
 ## <a name="getting-started-with-sandboxes"></a>Introduzione alle sandbox
 
-Gli ambienti sandbox possono essere un modo di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Una sandbox può essere considerata come un ambiente non di produzione utilizzabile a monte dell'istanza di produzione di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, se si desidera seguire la formazione online gratuita di [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), l'amministratore può [creare un ambiente sandbox](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) a disposizione dell'utente e colleghi per esercitarsi anziché farlo nell'ambiente di produzione.  
+Gli ambienti sandbox possono essere un modo di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Una sandbox può essere considerata come un ambiente non di produzione utilizzabile a monte dell'istanza di produzione di [!INCLUDE[prod_short](includes/prod_short.md)]. Per esempio, se vuoi seguire la formazione online gratuita di [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)il tuo amministratore può [creare un ambiente sandbox](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). In questo modo, voi e i vostri colleghi potete fare pratica in un luogo sicuro piuttosto che nel vostro ambiente di produzione.  
 
 Se si è uno sviluppatore, una sandbox consente di creare e verificare in modo sicuro le estensioni e di sviluppare nuove funzionalità per personalizzare l'assistenza senza influire sui dati e sulle impostazioni dell'ambiente di produzione.  
 
-Al momento, tutti i clienti possono utilizzare un sandbox, comprese le organizzazioni che hanno effettuato la registrazione per una versione di valutazione. Per ulteriori informazioni su come utilizzare una sandbox, vedere [Creazione di un ambiente sandbox](across-how-create-sandbox-environment.md).  
+Al momento, tutti i clienti possono utilizzare un sandbox, comprese le organizzazioni che hanno effettuato la registrazione per una versione di valutazione. Per maggiori informazioni su come iniziare con una sandbox, vedi [Ambienti sandbox](admin-sandbox-environments.md).  
 
 > [!NOTE]
 > Le sandbox create in questo modo contengono dati demo per la società fittizia CRONUS. Nessun dato viene copiato o altrimenti trasferito dall'ambiente di produzione.   
 
-L'amministratore di [!INCLUDE[prod_short](includes/prod_short.md)] e il partner rivenditore possono creare ambienti aggiuntivi nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
-
-
+L'amministratore del tuo [!INCLUDE[prod_short](includes/prod_short.md)] e il tuo partner di rivendita possono creare più ambienti nel centro di amministrazione. Per ulteriori informazioni, vedere [Interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Vedere anche
 
-[Preparazione al business](ui-get-ready-business.md)  
+[Avviamento rapido di Business Central](quick-start-business-central.md)  
+[Prepararsi a fare affari](ui-get-ready-business.md)  
 [Estendere la versione di valutazione](admin-extend-trial.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.yml)  

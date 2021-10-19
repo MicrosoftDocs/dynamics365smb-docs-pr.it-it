@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441424"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588478"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze dell'organizzazione.  
+[!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze dell'organizzazione. Gli articoli di [avvio rapido di Business Central](quick-start-business-central.md) possono aiutarti a fare i primi passi per rendere [!INCLUDE [prod_short](includes/prod_short.md)] tuo. Questo articolo fornisce una panoramica su come è possibile configurare [!INCLUDE [prod_short](includes/prod_short.md)] per la propria organizzazione.  
 
 Ad esempio, il piano dei conti è precompilato con una serie di conti di registrazione pronti per l'uso. Naturalmente, è possibile modificarlo in base alle esigenze. Per ulteriori informazioni, vedere [Contabilità](finance.md).
 
@@ -77,6 +77,7 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Preparazione al business](ui-get-ready-business.md)  
+[Avviamento rapido di Business Central](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

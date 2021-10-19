@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446467"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587507"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integrazione di Business Central e Microsoft Teams
 
@@ -51,6 +51,14 @@ Una volta nella conversazione, l'utente e i colleghi possono visualizzare ulteri
 
 Per ulteriori informazioni, vedere [Condividere record in Microsoft Teams](across-working-with-teams.md).
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Condividere link da pagine in Business Central a Teams
+
+Direttamente dalla maggior parte delle pagine delle collezioni e dei dettagli in Business Central, puoi usare l'azione **Condividi in Teams** dall'![icona del menu Condividi sulle pagine.](media/share-icon.png "Il menu Condividi visualizzato su una scheda.") per digitare un messaggio, scegliere i destinatari, come i membri del team, gruppi o canali, e inviare il messaggio con un link alla pagina di Business Central.
+
+![!Il menu Condividi visualizzato su una scheda.](media/teams-share-link.png "Il menu Condividi visualizzato su una scheda.")
+
+Per ulteriori informazioni, vedere [Condividi record e link di pagina in Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Inizia
 
 1. Un account utente [!INCLUDE [prod_short](includes/prod_short.md)] Online è richiesto per l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Teams.
@@ -62,14 +70,14 @@ Per ulteriori informazioni, vedere [Condividere record in Microsoft Teams](acros
 
 2. Come amministratore, vedere [Gestione dell'integrazione di Microsoft Teams con Business Central](admin-teams-integration.md) per informazioni su come impostare gli utenti per lavorare con [!INCLUDE [prod_short](includes/prod_short.md)] e Teams.
 3. Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams. Vedere [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md).
-4. Una volta installata l'app, è possibile iniziare. Vedere [Ricerca di clienti, fornitori e altri contatti da Microsoft Teams](across-search-contacts-teams.md) e [Condividi record in Microsoft Teams](across-working-with-teams.md). 
+4. Una volta installata l'app, è possibile iniziare. Vedere [Ricerca di clienti, fornitori e altri contatti da Microsoft Teams](across-search-contacts-teams.md) e [Condividi record in Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Vedere anche
 
 [Domande frequenti su Teams](teams-faq.md)  
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  
 [Modifica della società e di altre impostazioni in Teams](across-teams-settings.md)  
-[Sviluppo per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
+[Sviluppare per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

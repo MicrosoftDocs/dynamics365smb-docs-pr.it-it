@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442262"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588303"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Ammortamento dei cespiti
 L'ammortamento consente di allocare il costo dei cespiti, come macchinari o attrezzature, in tutto il periodo di ammortamento. Occorre definire le modalità di ammortamento di ogni cespite.  
@@ -48,7 +48,10 @@ Una volta al mese, oppure ogniqualvolta sia necessario, è possibile eseguire il
 5. Scegliere l'azione **Registra**.  
 
 > [!NOTE]
-> Se selezioni il campo **Usa Forza nr. dei giorni** e il campo **Forza nr. dei giorni** è impostato su un valore che risulta nella data di registrazione meno il valore dei campi **Numero di giorni** è una data dell'anno solare precedente, non è possibile registrare l'ammortamento. La soluzione alternativa consiste nel ridurre il valore di **Forza nr. dei giorni** a non più dei giorni calcolati fino alla data di pubblicazione utilizzando 30 giorni/mese OPPURE selezionare il campo **Anno fiscale 365 giorni** nel registro beni ammortizzabili. Consigliamo la prima opzione in quanto potresti non voler modificare l'utilizzo di 30 giorni/mesi per l'ammortamento. Per ulteriori informazioni, vedi [Ammortamento e campo Anno fiscale 365 giorni](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Limitazione nota: Se impostate il campo **Usa Forza nr. di giorni** su Sì, e il campo **Forza nr. di giorni** è impostato su un valore in cui **Data registrazione** meno **Numero di giorni** risulta in una data dell'anno solare precedente, il sistema non vi permetterà di registrare l'ammortamento.
+> Si può evitare riducendo il campo **Forza nr. di giorni** a non più dei giorni calcolati fino alla data di registrazione usando 30 giorni/mese OPPURE impostando il flag **Anno fiscale 365 giorni** nel Registro beni ammortizzabili.
+> Raccomandiamo la prima opzione perché non si vuole cambiare l'uso di 30 giorni/mesi per l'ammortamento. Per ulteriori informazioni, vedi [Ammortamento e campo Anno fiscale 365 giorni](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Per registrare un ammortamento manualmente tramite Registrazioni Cespiti in C/G
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  

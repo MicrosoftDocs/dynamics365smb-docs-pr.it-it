@@ -1,8 +1,6 @@
 ---
-title: Associazione e sincronizzazione | Microsoft Docs
+title: Associazione e sincronizzazione
 description: La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record in una tabella in Business Central e in una tabella in Dynamics 365 Sales che sono associate.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 53b12b6ab7e53a20bb1b8fcc659b2f1454e85321
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779934"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588728"
 ---
-# <a name="coupling-and-synchronizing"></a>Associazione e sincronizzazione
+# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Accoppiamento e sincronizzazione dei record tra Dataverse e Business Central
+
 In questo argomento viene descritto come associare uno o più record in [!INCLUDE[prod_short](includes/prod_short.md)] a record in Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. L'associazione di record consente di visualizzare le infomazioni di Dataverse da [!INCLUDE[prod_short](includes/prod_short.md)] e viceversa. L'associazione consente inoltre di sincronizzare dati tra i record. È possibile associare i record esistenti, oppure creare e associare nuovi record.
 
 > [!Note]
@@ -48,6 +47,14 @@ In questo argomento viene descritto come associare uno o più record in [!INCLUD
 
 > [!Note]
 > È possibile sincronizzare un singolo record da [!INCLUDE[crm_md](includes/crm_md.md)] automaticamente solo quando **Sinc. solo record associati** è disabilitata e la direzione di sincronizzazione è impostata su Bidirezionale o Da tabella di integrazione nella pagina **Integration Table Mapping** per il record. Per ulteriori informazioni, vedere [Mappatura delle tabelle e dei campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+
+## <a name="to-couple-multiple-records-using-match-based-coupling"></a>Per accoppiare più record usando l'accoppiamento basato sulla corrispondenza
+
+Puoi specificare i dati da sincronizzare per un'entità, come un cliente o un contatto, accoppiando i record in base alle corrispondenze. Puoi raffinare le corrispondenze rendendo la ricerca sensibile alle maiuscole e assegnando una priorità per ogni corrispondenza. Se non viene trovata alcuna corrispondenza, si può anche specificare che si vuole creare l'entità in Dataverse. Per maggiori informazioni, vedere [Personalizzare l'accoppiamento basato sulla corrispondenza](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], aprire la pagina elenco per il record, ad esempio le pagine elenco Clienti o Contatti.
+2. scegli l'azione **Accoppiamento basato su corrispondenza** .
+3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-synchronize-multiple-records"></a>Per sincronizzare più record  
 1.  In [!INCLUDE[prod_short](includes/prod_short.md)], aprire la pagina elenco per il record, ad esempio le pagine elenco Clienti o Contatti.  

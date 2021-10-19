@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
-ms.date: 08/17/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2ecf6884e37467504bc2f4573ef60c870993b799
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440418"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588503"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Vendere prodotti con un ordine di vendita cliente  
 
@@ -67,8 +67,8 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 8. Nel campo **% sconto riga** immettere una percentuale se si intende concedere al cliente uno sconto sul prodotto. Il valore nel campo **Importo riga** viene aggiornato di conseguenza.
 
     Se sono stati impostati prezzi articolo speciali nella Scheda dettaglio **Prezzi di vendita e sconti riga di vendita** per il cliente o la scheda articolo, la percentuale di sconto riga, il prezzo e l'importo nella riga dell'offerta vengono automaticamente aggiornati se vengono soddisfatti i criteri di prezzo concordati. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Per aggiungere un commento sulla riga dell'offerta che il cliente può vedere sull'offerta di vendita stampata, scrivere un commento nel campo **Descrizione** nella riga vuota.  
-10. Ripetere i passaggi da 4 a 8 per ogni articolo che si desidera vendere al cliente.
+9. Per aggiungere un commento sulla riga dell'ordine che il cliente può vedere sull'ordine di vendita stampato, scrivi un commento nel campo **Descrizione** su una riga vuota.  
+10. Ripetere i passaggi da 5 a 9 per ogni articolo che si desidera vendere al cliente.
 
     I campi dei totali sotto le righe vengono automaticamente aggiornati quando si creano o si modificano le righe per visualizzare gli importi che verranno registrati nei libri contabili.
 

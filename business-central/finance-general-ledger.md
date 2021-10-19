@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321116"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588628"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Informazioni sulla contabilità generale e COA
 
@@ -70,6 +70,9 @@ Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai 
 3. Applicare un rientro sotto la sottocategoria **Contanti**.  
 
 Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.  
+
+## <a name="getting-a-quick-overview"></a>Ottenere una rapida visione d'insieme
+La pagina della struttura dei conti visualizza i conti in una lista gerarchica che offre un accesso veloce alle informazioni chiave per ogni conto. Tuttavia, l'elenco è statico, e se hai molti account potresti dover fare un po' di scorrimento per visualizzare le informazioni per i diversi account. Se vuoi solo una rapida panoramica delle basi, come i cambiamenti netti e i saldi, la pagina **Sintesi del piano dei conti** è un'utile alternativa. La disposizione delle colonne nella pagina è ora la stessa che troverete nella pagina del piano dei conti (ce ne sono solo di meno), quindi non dovrete riorientarvi, e potete espandere o ridurre i livelli gerarchici per condensare la vista. Per facilitare il passaggio tra le pagine, la pagina **Panoramica** del piano dei conti è disponibile dalla pagina del piano dei conti.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accesso per creare e modificare conti e categorie di conti
 

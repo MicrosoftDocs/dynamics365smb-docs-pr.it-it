@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437218"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547050"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 
@@ -132,9 +132,6 @@ Per istruzioni dettagliate su come eseguire la configurazione, vedi [Inizia: con
     Stampa universale esegue il rendering del contenuto per la stampa in formato XPS. Alcune stampanti legacy non supportano il rendering dei contenuti XPS&mdash;in molti casi, solo in formato PDF. La stampa su queste stampanti non riuscirà a meno che legacy non sia impostata per convertire i documenti nel formato supportato dalla stampante.
 
     Per ulteriori informazioni, vedere [Panoramica sulla conversione dei documenti](/universal-print/portal/document-conversion).
-
-    > [!TIP]
-    > Se nessuna delle tue stampanti richiede il formato di rendering del contenuto PDF, ti consigliamo di non abilitare la conversione del documento perché potrebbe influire sulla qualità dell'output di stampa.
 
 Ora sei pronto per aggiungere le stampanti a [!INCLUDE[prod_short](includes/prod_short.md)], configurare le stampanti predefinite per i report e stampare.  
 

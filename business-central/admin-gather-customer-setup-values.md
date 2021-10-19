@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443895"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589259"
 ---
 # <a name="gather-customer-setup-values"></a>Raggruppare i valori di setup del cliente
 Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in [!INCLUDE[prod_short](includes/prod_short.md)] e fornirlo al cliente come file di Excel o file XML.  
@@ -32,7 +32,7 @@ Quando il cliente completa il questionario, importare il file nella nuova societ
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  È possibile creare questionari solo per le tabelle di tipo setup. Ad esempio, è possibile utilizzare lo strumento per inserire informazioni nelle pagine seguenti:  
@@ -50,9 +50,9 @@ Quando il cliente completa il questionario, importare il file nella nuova societ
 -   Setup warehouse  
 
 > [!NOTE]  
->  Per visualizzare un elenco completo delle tabelle di configurazione, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup**, quindi scegli il collegamento correlato. Per determinare l'ambito di migrazione dei dati dei record, utilizzare la funzionalità di migrazione. Per ulteriori informazioni, vedere [Migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
+>  Per vedere un elenco completo delle tabelle di configurazione, scegli la ![lampadina che apre la funzione Dimmi 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup**, quindi scegli il collegamento correlato. Per determinare l'ambito di migrazione dei dati dei record, utilizzare la funzionalità di migrazione. Per ulteriori informazioni, vedere [Migrazione dei dati dei clienti](admin-migrate-customer-data.md).  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Questionari di configurazione**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Questionari di configurazione**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.   
 3. Nella pagina **Questionari di configurazione**, nel campo **Codice**, immettere... 
 <!--4. In the **Name** field, enter...
@@ -82,7 +82,7 @@ Quando il cliente completa il questionario, importare il file nella nuova societ
 5. Nel campo **ID tabella** scegliere l'ID della tabella per cui si desidera raccogliere le informazioni. Il campo **Nome tabella** viene compilato automaticamente.  
 6. Scegliere l'azione **Aggiorna domande**. Ogni campo della tabella viene aggiunto al questionario con un punto interrogativo dopo la relativa etichetta.
 
-È possibile immettere nuovamente l'etichetta per indicare chiaramente come si deve rispondere alla domanda. Ad esempio, se il campo è denominato "Nome", è possibile modificarlo per indicare "Qual è il nome di <data being collected>". È inoltre possibile fornire istruzioni nel campo **Riferimento**, incluso un URL a una pagina che fornisce informazioni aggiuntive.  
+È possibile immettere nuovamente l'etichetta per indicare chiaramente come si deve rispondere alla domanda. Per esempio, se un campo si chiama "Nome", potresti modificarlo per dire "Qual è il nome di \<data being collected\>." È inoltre possibile fornire istruzioni nel campo **Riferimento**, incluso un URL a una pagina che fornisce informazioni aggiuntive.  
 
 È anche possibile eliminare qualsiasi domanda che non si desidera includere nel questionario.  
 
@@ -98,7 +98,7 @@ Utilizzare il questionario di configurazione per organizzare e documentare una d
 >  È anche possibile creare il proprio questionario di configurazione per soddisfare le proprie esigenze.  
 
 1. Aprire la società per cui si intende completare il questionario.
-2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Questionari di configurazione**, quindi scegli il collegamento correlato.  
+2. Scegli la ![lampadina che apre la funzione Dimmi 3](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Questionari di configurazione**, quindi scegli il collegamento correlato.  
 3. Selezionare il questionario per la società, quindi scegliere l'azione **Esporta in Excel**, facoltativamente l'azione **Esporta in XML**.
 4. Far completare il questionario di configurazione al cliente immettendo le risposte nella cartella di lavoro di Excel. Esistono prospetti per ciascuna area domande creata per il questionario.   
 5. Salvare la cartella di lavoro di Excel come *Dati XML*. Scegliere l'azione **Importa da XML** e selezionare il file .xml con le risposte del cliente.
@@ -131,15 +131,16 @@ Dopo avere completato la convalida, i dati sono pronti per essere collegati al d
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Per applicare le risposte di un questionario di configurazione
 Dopo aver importato e convalidato le informazioni da un questionario di configurazione, è possibile trasferire oppure applicare i dati di setup alle tabelle corrispondenti nel database di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Questionari di configurazione**, quindi scegli il collegamento correlato. Viene visualizzata la pagina **Questionario su configurazione**.  
+1. Scegli la ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , entrare in **Questionario di configurazione**, e poi scegliere il link relativo. Viene visualizzata la pagina **Questionario su configurazione**.  
 2. Selezionare un questionario di configurazione dall'elenco e scegliere l'azione **Modifica lista**.  
 3. È possibile applicare le risposte in uno dei due modi seguenti.  
 
 - Per applicare l'intero questionario, scegliere l'azione **Applica risposte**.  
 - Per applicare le risposte solo per un'**area domande** specifica, scegliere l'azione **Aree domande**, selezionare un'**area domande** nell'elenco, quindi, scegliere l'azione **Applica risposte**.  
 
-### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Per verificare che la risposta sia stata applicata correttamente  
-1. Controllare le pagine di setup per le diverse aree funzionali di [!INCLUDE[prod_short](includes/prod_short.md)]. Per individuare la pagina, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere il nome della pagina di setup e quindi scegliere il collegamento correlato.  
+### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Per verificare che la risposta sia stata applicata correttamente
+
+1. Controllare le pagine di setup per le diverse aree funzionali di [!INCLUDE[prod_short](includes/prod_short.md)]. Per localizzare la pagina, scegli la ![lampadina che apre l'icona della funzionalità Dimmi 5](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), inserisci il nome della pagina di configurazione e poi scegli il link relativo.  
 2. Verificare che i campi siano stato compilati con i dati appropriati provenienti da diverse aree domande del questionario di configurazione.  
 
 A questo punto è stato configurato il setup con le informazioni aziendali e regole del cliente.

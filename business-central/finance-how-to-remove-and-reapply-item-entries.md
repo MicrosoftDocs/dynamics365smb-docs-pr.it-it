@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 921eb4cc054ee61ffac543b68f19097927c511e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4ec0aba869d2a171e12c42822ecf1726ed4ac81e
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442112"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587917"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
@@ -40,8 +40,9 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
     - Nel Prospetto collegamento è possibile rimuovere i collegamenti da più di un movimento per volta. Poiché, tuttavia, il collegamento di movimenti influenza l'insieme dei movimenti disponibili per il collegamento, non è possibile creare un collegamento per più di un movimento per volta.
     - Il Prospetto collegamento non consente di creare un collegamento nel seguente caso: se non è disponibile una quantità in stock sufficiente per il collegamento, il Prospetto collegamento non consente di creare un collegamento quando si tenta di collegare un movimento di riduzione di magazzino senza informazioni sulla tracciabilità articolo a un movimento di aumento di magazzino con informazioni sulla tracciabilità articolo.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Per rimuovere un collegamento articoli tramite il Prospetto collegamento  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Per rimuovere un collegamento articoli tramite il Prospetto collegamento
+
+1.  Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
 3.  Immettere filtri nella Scheda dettaglio **Generale** per semplificare la ricerca del movimento contabile articolo per il quale si desidera modificare il collegamento.  
 4.  Selezionare il movimento contabile articolo e scegliere l'azione **Movimenti collegati**. Verrà aperta la pagina **Visualizza movimenti collegati - Movimenti collegati** in cui saranno visualizzati uno o più movimenti contabili articoli attualmente collegati al movimento selezionato.  
@@ -54,10 +55,11 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 > [!IMPORTANT]  
 >  Non è consigliabile lasciare i movimenti di collegamento scollegati per periodi di tempo più lunghi poiché altri utenti non possono elaborare gli articoli interessati finché non si ricollegano i movimenti di collegamento o si chiude la pagina **Prospetto collegamento**. Il seguente messaggio di errore viene visualizzato se si tenta di eseguire operazioni che includono un movimento di collegamento manualmente scollegato:  
 >   
->  **Impossibile eseguire questa azione perché i movimenti per l'articolo <item> non sono applicati nel prospetto collegamento dall'utente <user>.**  
+>  **Non potete eseguire questa azione perché le voci per la voce \<item\> non sono applicate nel foglio di lavoro dell'applicazione dall'utente \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Per riapplicare un collegamento articoli tramite il Prospetto collegamento  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Per riapplicare un collegamento articoli tramite il Prospetto collegamento
+
+1.  Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). , inserire **Foglio di lavoro dell'applicazione** e poi scegliere il link relativo.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
 3.  Per ricollegare i movimenti rimossi dopo l'apertura del prospetto, selezionare il movimento contabile articolo che si desidera ricollegare, quindi scegliere l'azione **Ricollega**.  
 
@@ -72,7 +74,8 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
     >  Se si è scelto di creare un collegamento che provocherebbe la generazione di un ciclo infinito nel processo di rettifica del costo, il collegamento proposto non viene effettuato. Ciò può avvenire quando tramite i movimenti originali è stato creato uno stock negativo. Il collegamento non viene eseguito. Di conseguenza, è necessario selezionare un movimento diverso per il collegamento.  
 6.  Se nella finestra **Setup magazzino** il campo **Rettifica costo automatica** è impostato su **Sempre**, il processo batch di rettifica del costo viene eseguito automaticamente dopo la creazione di un nuovo collegamento. In caso contrario, eseguire il processo batch **Rettifica costo - Movimenti articoli** per assicurarsi che tutti i costi siano aggiornati.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedi anche
+
 [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   

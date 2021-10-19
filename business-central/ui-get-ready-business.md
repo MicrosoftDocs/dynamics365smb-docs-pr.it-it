@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444822"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589134"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
 
@@ -25,14 +25,14 @@ Per ulteriori informazioni su come avviare un business, è possibile visualizzar
 
 In alternativa, scegli l'icona ![Icona ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) e quindi l'azione **Setup assistito**.
 
-Puoi anche trovare l'elenco delle guide di setup assistito se scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assistito**, quindi scegli il collegamento correlato.  
+Puoi anche trovare l'elenco delle guide di setup assistito se scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup assistito**, quindi scegli il collegamento correlato.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
 ## <a name="get-started"></a>Inizia
 
-A partire dal primo ciclo di rilascio del 2021, quando accedi per la prima volta o avvii una nuova società, l'elenco di controllo **Inizia** ti guida attraverso i passaggi per prepararti per il business. I passaggi variano a seconda del paese e di qualsiasi funzionalità specifica del settore aggiunta a [!INCLUDE [prod_short](includes/prod_short.md)].  
+Quando ti iscrivi per la prima volta o lanci una nuova azienda, la lista di controllo **Per iniziare** ti accompagna attraverso i passi per renderti pronto per il business. I passaggi variano a seconda del paese e di qualsiasi funzionalità specifica del settore aggiunta a [!INCLUDE [prod_short](includes/prod_short.md)]. A partire dalla 2021 release wave 2, quando si accede per la prima volta all'azienda dimostrativa CRONUS, la home page è ottimizzata per le prime esperienze. Se preferisci vedere più link a più pagine, basta passare al ruolo di Business Manager. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
 Una volta migrati i dati quali i fornitori, i clienti e gli articoli dal sistema contabile esistente, sarà possibile iniziare. In base alle proprie esigenze, valutare se sono necessarie altre guide di setup assistito.
 
@@ -43,7 +43,7 @@ Se un'area non è coperta da un setup assistito, seleziona l'icona ![ingranaggio
 >
 > La prima volta che si accede, si utilizza l'esperienza **Essential**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 
-Dopo avere eseguito una guida al setup assistito, viene contrassegnata come **Completato**. <!--VERIFY-->  
+Dopo avere eseguito una guida al setup assistito, viene contrassegnata come **Completato**.  
 
 ## <a name="teaching-tips-and-tours"></a>Suggerimenti per l'insegnamento e tour
 
@@ -80,13 +80,18 @@ Quando gli utenti vengono creati in Microsoft 365, è possibile importarli nella
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Sulla base dei dati migrati, è possibile passare alla creazione di nuovi documenti di vendita o di acquisto. Utilizzare la sezione **Azioni** della home page per creare rapidamente una nuova offerta di vendita, una fattura di vendita, un ordine di vendita, una fattura di acquisto o registrazioni pagamenti.
+Sulla base dei dati migrati, è possibile passare alla creazione di nuovi documenti di vendita o di acquisto. Utilizzare la sezione **Azioni** della home page per creare rapidamente una nuova offerta di vendita, una fattura di vendita, un ordine di vendita, una fattura di acquisto o registrazioni pagamenti. Controlla gli articoli di [avvio rapido](quick-start-business-central.md) per aiutarti a fare i primi passi.  
 
 ## <a name="see-also"></a>Vedere anche
 
+[Avviamento rapido di Business Central](quick-start-business-central.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Modificare le impostazioni di base](ui-change-basic-settings.md)  
+[Accessibilità e tasti di scelta rapida](ui-accessibility.md)  
+[Versioni di valutazione e sottoscrizioni](across-preview.md)  
+[Funzionalità aziendale](across-business-functionality.md)  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
-Versioni di valutazione e sottoscrizioni di [[!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
+[Cerca nel pannello di aiuto](product-help-and-support.md#search-in-the-help-pane)  
 [Risorse per Guida e supporto](product-help-and-support.md)  
 [Sito Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

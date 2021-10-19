@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440951"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587532"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici
 Dai PDF o dai file di immagine che si ricevono dai partner commerciali, è possibile impostare che un servizio OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) generi documenti elettronici che si possono convertire in record di documento in [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, quando si riceve una fattura nel formato PDF dal fornitore, è possibile inviarla al servizio OCR dalla pagina **Documenti in entrata**. Questa funzionalità è descritta nella prima procedura.
@@ -69,11 +69,11 @@ A questo punto è possibile passare alla creazione dei record per i documenti el
 Di seguito viene descritto come creare un record di fattura di acquisto da una fattura fornitore ricevuta come documento elettronico dal servizio OCR. La procedura è identica a quella per creare, ad esempio, una riga di registrazione COGE da una ricevuta di spesa o un ordine di reso vendita da un cliente.
 
 > [!NOTE]  
->   I campi **Descrizione** e **Nr.** nelle righe di documento create verranno compilati solo se è stato precedentemente mappato il testo individuato nel documento OCR ai due campi in [!INCLUDE[prod_short](includes/prod_short.md)]. Puoi effettuare questa operazione di mappatura come cross-references articoli, per le righe del documento di tipo Articolo. Per ulteriori informazioni, vedere [Utilizzare Cross reference articoli](inventory-how-use-item-cross-refs.md). È anche possibile utilizzare la funzione di mappatura testo a conto. Per ulteriori informazioni, vedi [Per mappare il testo di un documento in entrata a un determinato fornitore, C/G o conto corrente bancario](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   I campi **Descrizione** e **Nr.** nelle righe di documento create verranno compilati solo se è stato precedentemente mappato il testo individuato nel documento OCR ai due campi in [!INCLUDE[prod_short](includes/prod_short.md)]. Si può fare questa mappatura come riferimenti di elementi, per linee di documento di tipo Elemento. Per maggiori informazioni, vedere [Use Elemento References](inventory-how-use-item-cross-refs.md). È anche possibile utilizzare la funzione di mappatura testo a conto. Per ulteriori informazioni, vedi [Per mappare il testo di un documento in entrata a un determinato fornitore, C/G o conto corrente bancario](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Selezionare la riga relativa al documento in entrata quindi scegliere l'azione **Crea documento**.
 
-Una fattura di acquisto verrà creata in [!INCLUDE[prod_short](includes/prod_short.md)] sulla base delle informazioni contenute nel documento elettronico del fornitore che è stato ricevuto dal servizio OCR. Le informazioni verranno inserite nella nuova fattura di acquisto in base alla mappatura definita come cross-reference o come testo di mappatura testo a conto.
+Una fattura di acquisto verrà creata in [!INCLUDE[prod_short](includes/prod_short.md)] sulla base delle informazioni contenute nel documento elettronico del fornitore che è stato ricevuto dal servizio OCR. Le informazioni saranno inserite nella nuova fattura d'acquisto in base alla mappatura che avete definito come riferimento o come mappatura testo-conto.
 
 Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[prod_short](includes/prod_short.md)], verranno visualizzati nella Scheda dettaglio **Errori e avvisi**. Per ulteriori informazioni, vedere [Per gestire gli errori durante la ricezione di documenti elettronici](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 

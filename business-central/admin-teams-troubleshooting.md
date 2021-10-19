@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 04/12/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
+ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341305"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7596674"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Risoluzione dei problemi relativi all'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -149,6 +149,13 @@ In qualità di amministratore, con autorizzazioni di amministratore di Azure Act
 > [!NOTE]
 > Ci vorrà del tempo prima che questa modifica abbia effetto.
 
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Duplicare il testo nella finestra Condividi in Teams
+
+Quando incolli del testo nella casella del messaggio nella finestra **Condividi in Teams**, il testo viene duplicato. Questo problema è noto a Microsoft e sarà affrontato in un aggiornamento successivo. 
+
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Impossibile accedere alla finestra Condividi in Teams 
+
+Questo problema può essere causato da varie ragioni. Per esempio, l'identità che stai usando per accedere deve avere accesso a Microsoft Teams, come attraverso un abbonamento a Microsoft 365.
 
 ## <a name="see-also"></a>Vedere anche
 

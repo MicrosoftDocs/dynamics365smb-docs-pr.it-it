@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 08/24/2021
+  ms.date: 09/29/2021
   ms.author: edupont
-  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
-  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+  ms.openlocfilehash: 53f4a87fea747b59bed7942885b1374377381029
+  ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 08/27/2021
-  ms.locfileid: "7440693"
+  ms.lasthandoff: 10/01/2021
+  ms.locfileid: "7588112"
 title: Domande frequenti sull'utilizzo di Business Central
 summary: "Questa sezione contiene le risposte alle domande frequenti sulla registrazione per una versione di valutazione, l'acquisto di una sottoscrizione e l'utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]. È inoltre possibile ottenere informazioni su come ottenere supporto tecnico.  \n"
 sections:
@@ -27,7 +27,7 @@ sections:
     answer: "È possibile registrarsi per ottenere una versione di valutazione gratuita ed esplorare [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Se si desidera più tempo per esplorare la versione di valutazione, [è possibile estendere il periodo di valutazione](#can-i-extend-my-30-day--new-company--trial-period-).  \n\nPer ulteriori informazioni su prepararsi al business in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile consultare le guide di setup assistito, video o argomenti della Guida per le attività di configurazione selezionate. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  \n\nQuando si è pronti per acquistare [!INCLUDE[prod_short](includes/prod_short.md)], è possibile trovare un partner [!INCLUDE[prod_short](includes/prod_short.md)] nella pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145). Per ulteriori informazioni, vedere [Come trovo un partner di rivendita?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
       Dove posso trovare risposta alle domande?
-    answer: "In caso di domande su [!INCLUDE[prod_short](includes/prod_short.md)] per cui non è possibile trovare risposta in questa documentazione, rivolgersi alla community di Business Central. Per ulteriori informazioni, vedere [Community di Dynamics 365 Business Central](https://community.dynamics.com/business).  \n\nNella home page della community, è anche possibile trovare collegamenti ai nostri blog dove è possibile trovare suggerimenti e consigli. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) e nel [blog di Dynamics 365 Business Central precedente](https://community.dynamics.com/business/b/financials).  \n\nInfine, è possibile contattare il proprio partner rivenditore di [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, consultare le sezioni [Come ottenere supporto tecnico?](/dynamics365/business-central/across-faq#hdigetsupport)e [Come trovare un partner di rivendita?](#how-do-i-find-a-reselling-partner).  \n"
+    answer: "In caso di domande su [!INCLUDE[prod_short](includes/prod_short.md)] per cui non è possibile trovare risposta in questa documentazione, rivolgersi alla community di Business Central. Per ulteriori informazioni, vedere [Community di Dynamics 365 Business Central](https://community.dynamics.com/business).  \n\nNella home page della community, è anche possibile trovare collegamenti ai nostri blog dove è possibile trovare suggerimenti e consigli. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) e nel [blog di Dynamics 365 Business Central precedente](https://community.dynamics.com/business/b/financials).  \n\nInfine, è possibile contattare il proprio partner rivenditore di [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere le sezioni [Come ottengo il supporto tecnico?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) e [Come trovo un partner per la rivendita?](#how-do-i-find-a-reselling-partner)   \n"
   - question: >
       Perché non si riesce a trovare una funzionalità in Business Central?
     answer: "Nel piano di rilascio o nel blog è stata presentata una nuova funzionalità recentemente? In tal caso, è possibile che non sia stato ancora eseguito l'aggiornamento di [!INCLUDE[prod_short](includes/prod_short.md)] alla versione più recente. È possibile determinare su quale versione è basato [!INCLUDE[prod_short](includes/prod_short.md)] nella pagina [Guida e supporto](product-help-and-support.md).  \n\nSi applica a [!INCLUDE [prod_short](includes/prod_short.md)] online e in locale.  \n\nInoltre, se la funzionalità è pubblicata come estensione in AppSource, potrebbe esserci un ritardo tra l'annuncio dell'estensione e la relativa disponibilità in AppSource. Si applica solo a [!INCLUDE [prod_short](includes/prod_short.md)] online.  \n"

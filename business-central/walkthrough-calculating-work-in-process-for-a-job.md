@@ -1,5 +1,5 @@
 ---
-title: 'Procedura dettagliata: Calcolo del valore WIP per una commessa | Documenti Microsoft'
+title: Panoramica - Calcolo del lavoro in corso per un lavoro
 description: Le commesse implicano il consumo di ore di lavoro del personale, di ore macchina, degli articoli a magazzino e altri consumi che vanno monitorati man mano che la commessa progredisce.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445228"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588103"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedura dettagliata: Calcolo del valore WIP per una commessa
 
@@ -52,7 +52,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 |Campo|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Lasciare vuota se il task commessa fa parte di un gruppo di task.|  
+|**\<blank\>**|Lasciare vuota se il task commessa fa parte di un gruppo di task.|  
 |**Totale**|Definisce l'intervallo o il gruppo di task incluso nel calcolo di WIP e corrispettivo. Qualsiasi task commessa all'interno del gruppo con **Tipo task commessa** impostato su **Registrazione** verrà incluso nel totale WIP, a meno che il relativo campo **WIP-Totale** sia impostato su **Escluso**.|  
 |**Escluso**|Si applica solo a un task con **Tipo task commessa** impostato su **Registrazione**. Il task non viene incluso in caso di calcolo di WIP e corrispettivo.|  
 

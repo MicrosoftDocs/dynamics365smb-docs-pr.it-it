@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435246"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588453"
 ---
 # <a name="send-documents-and-emails"></a>Inviare documenti ed e-mail
 
-Puoi condividere facilmente informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail direttamente da [!INCLUDE[prod_short](includes/prod_short.md)]], senza dover aprire un'app di posta elettronica.  
+È possibile condividere facilmente informazioni e documenti, come ordini di vendita e di acquisto e fatture, via e-mail direttamente da [!INCLUDE[prod_short](includes/prod_short.md)], senza dover aprire un'applicazione di posta elettronica.  
 
 È possibile inviare quasi tutti i tipi di documenti come allegati PDF. In alternativa, è possibile impostare un layout di report che include le informazioni del documento nel testo del messaggio di posta elettronica, insieme al testo che rende il messaggio di posta elettronica più semplice, ad esempio un saluto standard. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -32,8 +32,8 @@ Per abilitare i messaggi e-mail da [!INCLUDE[prod_short](includes/prod_short.md)
 
 Questa procedura descrive come associare una fattura vendita registrata a un'e-mail come file PDF e con il testo dell'e-mail specifico del documento. <!--update this-->
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.
-2. Selezionare la fattura, quindi scegliere l'azione **Stampa/Invia**.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.
+2. Seleziona la fattura, scegli l'azione **Stampa/Invia** e poi scegli **Invia**.
 3. Nel campo **E-mail** selezionare **Sì (Chiedi impostazioni)**. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
     
     Se il campo **E-mail** della pagina **Invia documento a** è impostato su **Sì (Chiedi impostazioni)**, la pagina **Invia messaggio e-mail** viene aperta con il contatto impostato nel campo **A:** e il documento allegato come file PDF. Nel campo **Corpo** è possibile immettere il testo manualmente oppure è possibile impostare il sistema in modo che il campo sia compilato con un corpo e-mail preparato specificatamente per il documento.
@@ -48,12 +48,13 @@ Questa procedura descrive come associare una fattura vendita registrata a un'e-m
 9. Scegliere **OK** per inviare il messaggio e-mail.
 
 > [!NOTE]  
-> Se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della pagina **Invia documento a**. In questo caso, non verrà visualizzata la pagina **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).  
+> Se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della pagina **Invia documento a**. In questo caso, non verrà visualizzata la pagina **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Impostare i profili di invio dei documenti](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Per comporre e inviare un'e-mail
+È possibile comporre rapidamente e-mail per contatti, clienti, venditori, venditori/acquirenti e conti bancari direttamente dalle pagine per queste entità. Basta scegliere **Processo** e poi **Invia e-mail** per aprire l'editor di e-mail. Per i conti bancari, l'azione **Invia email** è sotto **Azioni**.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Account e-mail**, quindi scegli il collegamento correlato.
-2. Scegliere l'account da cui inviare l'e-mail, quindi scegliere l'azione **Componi messaggio e-mail**.
+> [!TIP]
+> Se si inviano spesso messaggi di posta elettronica di natura simile, o si vuole inviare una comunicazione di massa, ad esempio, per pubblicizzare una campagna di vendita, l'uso di modelli di Word con le e-mail può accelerare il processo. È possibile creare un modello per entità come clienti, fornitori e contatti, che genererà il contenuto di un messaggio e-mail per voi, e anche personalizzare il contenuto per il destinatario in base ai dati in [!INCLUDE[prod_short](includes/prod_short.md)]. Per maggiori informazioni, vedi [Usare i modelli di Word per le comunicazioni di massa](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenti contrassegnati come stampati al momento dell'invio
 

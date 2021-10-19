@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325815"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588378"
 ---
 # <a name="exchanging-data-electronically"></a>Scambio di dati in modalità elettronica
 È possibile utilizzare il framework di scambio dati per gestire lo scambio di documenti aziendali, file bancari, tassi di cambio valuta e qualsiasi altro file di dati con i propri partner commerciali.
 
-Nella versione standard di [!INCLUDE[prod_short](includes/prod_short.md)], il framework di scambio dati viene utilizzato in funzionalità quali ad esempio documenti elettronici, importazione/esportazione di file bancari e aggiornamento dei tassi di cambio. Per ulteriori informazioni, vedere [Informazioni sul framework di scambio dei dati](across-about-the-data-exchange-framework.md).
+Nella versione standard di [!INCLUDE[prod_short](includes/prod_short.md)], il Data Exchange Framework viene utilizzato in processi come lo scambio di documenti elettronici, l'importazione e l'esportazione di file bancari e l'aggiornamento dei tassi di cambio delle valute. Per ulteriori informazioni, vedere [Informazioni sul framework di scambio dei dati](across-about-the-data-exchange-framework.md).
 
-In qualità di amministratore o partner Microsoft, è possibile utilizzare il framework nelle nuove funzionalità di integrazione impostando quali dati scambiare e come scambiarli. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).
+Come amministratore o partner Microsoft, è possibile utilizzare il framework in nuove funzionalità di integrazione specificando i dati da scambiare e come scambiarli. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 

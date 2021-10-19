@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445528"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588528"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utilizzare i questionari profilo per classificare i contatti business
 È possibile impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti. In ogni questionario, è possibile impostare le diverse domande da porre ai contatti.  
@@ -49,114 +49,35 @@ Dopo avere creato un questionario, è necessario creare le valutazioni dei conta
 Dopo avere impostato le domande relative al profilo, se si assegna il questionario profilo a un contatto, le risposte corrette relative a tale contatto vengono assegnate automaticamente da [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="example"></a>Esempio
+
 È possibile classificare i contatti in base al volume di acquisti da essi effettuati:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Risposta</strong></th>
-<th><strong>Si applica a</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p>contatti che hanno effettuato acquisti per 500.000 VL o più</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p>contatti che hanno effettuato acquisti per un importo compreso tra 100.000 e 499.999 VL</p></td>
-</tr>
-<tr class="odd">
-<td><p>C</p></td>
-<td><p>contatti che hanno effettuato acquisti per 99.999 VL o meno</p></td>
-</tr>
-</tbody>
-</table>
+|Risposta|Si applica a|
+|--- |--- |
+|A|contatti che hanno effettuato acquisti per 500.000 VL o più|
+|B|contatti che hanno effettuato acquisti per un importo compreso tra 100.000 e 499.999 VL|
+|C|contatti che hanno effettuato acquisti per 99.999 VL o meno|
 
 Per effettuare questa operazione, completare la pagina **Setup questionario profilo** nel modo seguente:
 
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Tipo</strong></th>
-<th><strong>Descrizione</strong></th>
-<th><strong>Classificazione Automatica</strong></th>
-<th><strong>Da Valore</strong></th>
-<th><strong>A Valore</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Domanda</p></td>
-<td><p>Classificazione di ABC</p></td>
-<td><p>Fare clic per inserire un segno di spunta</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>Risposta</p></td>
-<td><p>A</p></td>
-<td><p> </p></td>
-<td><p>500.000</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>Risposta</p></td>
-<td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100,000</p></td>
-<td><p>499,999</p></td>
-</tr>
-<tr class="even">
-<td><p>Risposta</p></td>
-<td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99,999</p></td>
-</tr>
-</tbody>
-</table>
+| Tipo     | Descrizione        | Classificazione automatica     | Da Valore | Al valore |
+|----------|--------------------|------------------------------|------------|----------|
+| Domanda | Classificazione di ABC | Fare clic per inserire un segno di spunta |            |          |
+| Risposta   | A                  |                              | 500.000    |          |
+| Risposta   | B                  |                              | 100,000    | 499,999  |
+| Risposta   | C                  |                              |            | 99,999   |
 
 Compilare la pagina **Dettagli domande profilo** nel modo seguente:
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Campo</strong></th>
-<th><strong>Valore</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Campo Classificazione clienti</strong></td>
-<td><emphasis>Vendite (VL)</emphasis></td>
-</tr>
-<tr>
-<td><strong>Metodo di classificazione</strong></td>
-<td><emphasis>Valore Definito</emphasis></td>
-</tr>
-</tbody>
-</table>
+
+| Campo                         | Valore         |
+|-------------------------------|---------------|
+| Campo di classificazione del cliente | Vendite (LCY)   |
+| Metodo di classificazione         | Valore definito |
 
 Quando si assegna il questionario profilo contenente questa domanda a un contatto, la risposta pertinente al contatto viene automaticamente inserita nelle righe profilo della scheda del contatto.
 
 ## <a name="see-also"></a>Vedere anche
+
 [Creazione di contatti](marketing-create-contact-companies.md)  
 
 

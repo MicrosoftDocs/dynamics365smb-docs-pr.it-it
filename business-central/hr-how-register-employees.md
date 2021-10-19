@@ -12,19 +12,23 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440551"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589284"
 ---
 # <a name="register-employees"></a>Registrare i dipendenti
-Per utilizzare la funzionalità Gestione personale, è prima necessario registrare ciascun impiegato creando una scheda con tutte le informazioni principali e correlate.
+Per utilizzare la funzionalità Human Resources, devi prima aggiungere ogni dipendente compilando i campi nella pagina **Scheda dipendente** .
 
-I dettagli di un impiegato possono essere modificati in qualsiasi momento. Se i record relativi agli impiegati vengono mantenuti sempre aggiornati, i task di gestione del personale saranno più semplici. Se ad esempio l'indirizzo di un impiegato cambia, si deve registrare questa informazione nella scheda dell'impiegato.
+## <a name="adding-new-customers"></a>Aggiunta di nuovi clienti
+Puoi aggiungere nuovi dipendenti manualmente, compilando i campi nella pagina **Scheda del dipendente**, oppure puoi usare dei modelli che contengono informazioni predefinite. Per esempio, è possibile creare un modello per diversi tipi di profili di dipendenti. L'uso di modelli fa risparmiare tempo quando si aggiungono nuovi dipendenti e aiuta a garantire che le informazioni siano corrette ogni volta. Se si creano modelli per più di un tipo di dipendente, è possibile scegliere il modello da utilizzare quando si aggiunge un dipendente. Se si crea un solo modello, questo sarà usato per tutti i nuovi dipendenti. Dopo aver creato un modello, si può usare l'azione **Applica modello** per applicarlo a uno o più dipendenti selezionati. Per creare un modello, si compilano le informazioni che si vogliono riutilizzare nella pagina della Scheda del dipendente, e poi si salva come modello.
 
-Di seguito viene descritto come creare una scheda iniziale relativa all'impiegato e come assegnare due tipi di dettagli di un impiegato a un impiegato. Inoltre, è possibile assegnare diverse altre informazioni correlate, ad esempio le qualifiche e le cause di inattività. Per assegnare le informazioni relative agli impiegati è possibile scegliere un campo o un'azione nella pagina **Scheda impiegato**.
+> [!TIP]
+> Può essere utile personalizzare la pagina **Modello dipendente** quando si crea un modello. Per esempio, potresti voler aggiungere un campo che non è già visualizzato nella pagina. Per ulteriori informazioni, vedi [Personalizzare lo spazio di lavoro](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+I dettagli di un impiegato possono essere modificati in qualsiasi momento. Mantenere aggiornati i registri dei dipendenti può semplificare i compiti relativi al personale. Per esempio, se l'indirizzo di un dipendente cambia, lo si registra nella pagina Scheda dipendente.
 
 > [!NOTE]  
 > È possibile rimborsare ai dipendenti le spese che hanno sostenuto durante le attività di lavoro. A questo scopo è necessario compilare i campi nella Scheda dettaglio **Pagamenti** nella pagina **Scheda impiegato**. Per altre informazioni, vedere [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md).
@@ -35,9 +39,9 @@ Di seguito viene descritto come creare una scheda iniziale relativa all'impiegat
 3. Nella pagina **Scheda impiegato** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Per inserire una foto di un impiegato
-Se si dispone di un'immagine di un dipendente in formato .bmp, è possibile inserirla nella scheda dei dipendenti.
+Se hai una foto di un dipendente, puoi inserirla nella scheda del dipendente.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Dipendenti**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Dipendenti**, quindi scegli il collegamento correlato.
 2. Aprire la scheda dell'impiegato pertinente.
 3. Nel riquadro Dettaglio informazioni **Immagine impiegato** scegliere il pulsante a discesa, quindi **Importa**.
 4. Nella pagina **Selezionare un'immagine da caricare** scegliere il pulsante **Scegli**.

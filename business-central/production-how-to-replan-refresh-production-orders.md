@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440380"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589234"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Ripianificare o aggiornare direttamente gli ordini di produzione
 La funzione **Ripianifica** viene solitamente utilizzata negli ordini di produzione dopo l'aggiunta o la modifica di componenti che costituiscono ordini di produzione sottostanti. La funzione consente di calcolare le modifiche apportate alle righe componente e ciclo e include articoli disponibili nei livelli inferiori della distinta base di produzione per i quali potrebbero essere generati nuovi ordini di produzione.  
@@ -34,22 +34,23 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 > [!NOTE]
 > Utilizzando la funzione Aggiorna per ricalcolare le righe dell'ordine di produzione, le righe vecchie vengono eliminate e vengono calcolate le nuove righe.  
 
-## <a name="to-replan-a-production-order"></a>Per ripianificare un ordine di produzione  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
-2.  Aprire l'ordine di produzione da ripianificare.  
-3.  Nella Scheda dettaglio **Righe**, scegliere l'azione **Righe** e quindi l'azione **Componenti**.  
-4.  Aggiungere un componente che corrisponda a un articolo prodotto, ovvero un sottoassemblato.  
-5.  Nell'ordine di produzione scegliere l'azione **Ripianifica**.  
+## <a name="to-replan-a-production-order"></a>Per ripianificare un ordine di produzione
+
+1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
+2. Aprire l'ordine di produzione da ripianificare.  
+3. Nella Scheda dettaglio **Righe**, scegliere l'azione **Righe** e quindi l'azione **Componenti**.  
+4. Aggiungere un componente che corrisponda a un articolo prodotto, ovvero un sottoassemblato.  
+5. Nell'ordine di produzione scegliere l'azione **Ripianifica**.  
 
     Nella pagina **Ripianifica ordine produzione** specificare la modalità desiderata per la ripianificazione e gli elementi da ripianificare.  
-6.  Nel campo **Direzione programmazione** selezionare una delle seguenti opzioni.  
+6. Nel campo **Direzione programmazione** selezionare una delle seguenti opzioni.  
 
-    |Opzione|Description|  
-    |----------------------------------|---------------------------------------|  
-    |**Indietro**|Calcola la sequenza di operazioni a ritroso dalla prima data di fine disponibile, definita dalla data di scadenza e/o da altri ordini programmati, fino all'ultima data di inizio disponibile. **Nota:** questa opzione di default è appropriata per la maggior parte delle situazioni.|  
-    |**Da inizio ordine**|Calcola la sequenza di operazioni in avanti a partire dall'ultima data di inizio disponibile, definita dalla data di scadenza e/o da altri ordini programmati, fino alla prima data di fine disponibile. **Nota:** questa opzione è appropriata solo per ordini urgenti.|  
+    | Opzione | Description |
+    |--|--|
+    | **Indietro** | Calcola la sequenza di operazioni a ritroso dalla prima data di fine disponibile, definita dalla data di scadenza e/o da altri ordini programmati, fino all'ultima data di inizio disponibile. **Nota:** questa opzione di default è appropriata per la maggior parte delle situazioni. |
+    | **Da inizio ordine** | Calcola la sequenza di operazioni in avanti a partire dall'ultima data di inizio disponibile, definita dalla data di scadenza e/o da altri ordini programmati, fino alla prima data di fine disponibile. **Nota:** questa opzione è appropriata solo per ordini urgenti. |
 
-7.  Nel campo **Pianifica** specificare se calcolare i requisiti di produzione per gli articoli prodotti nella distinta base di produzione, nel modo seguente:  
+7. Nel campo **Pianifica** specificare se calcolare i requisiti di produzione per gli articoli prodotti nella distinta base di produzione, nel modo seguente:  
 
     |Opzione|Description|  
     |----------------------------------|---------------------------------------|  
@@ -57,22 +58,23 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
     |**Un Livello**|Pianificare la domanda di produzione di primo livello. È possibile che vengano creati ordini di produzione di primo livello.|  
     |**Tutti i Livelli**|Pianificare la domanda di produzione di tutti i livelli. È possibile che vengano creati ordini di produzione di tutti i livelli.|  
 
-8.  Selezionare **Un livello** e fare clic su **OK** per ripianificare l'ordine di produzione e calcolare e creare un nuovo ordine di produzione sottostante per il sottoassemblato aggiunto, nel caso in cui non sia completamente disponibile.  
+8. Selezionare **Un livello** e fare clic su **OK** per ripianificare l'ordine di produzione e calcolare e creare un nuovo ordine di produzione sottostante per il sottoassemblato aggiunto, nel caso in cui non sia completamente disponibile.  
 
 > [!NOTE]  
->  Le modifiche apportate con la funzione **Ripianifica** comportano una variazione nella capacità necessaria per l'ordine di produzione e occorre quindi riprogrammare le operazioni dopo l'aggiornamento.  
+> Le modifiche apportate con la funzione **Ripianifica** comportano una variazione nella capacità necessaria per l'ordine di produzione e occorre quindi riprogrammare le operazioni dopo l'aggiornamento.  
 
-## <a name="to-refresh-a-production-order"></a>Per aggiornare un ordine di produzione  
+## <a name="to-refresh-a-production-order"></a>Per aggiornare un ordine di produzione
+
 Se righe ciclo, componente o dell'ordine di produzione sono state corrette, è necessario procedere anche all'aggiornamento delle informazioni nell'ordine di produzione. Nella procedura che segue i componenti vengono calcolati per un ordine produzione confermato. I passaggi sono simili per le righe ciclo.
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).  
-3.  Scegliere l'azione **Aggiorna**.
+1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).  
+3. Scegliere l'azione **Aggiorna**.
 4. Nella pagina **Aggiorna ordine produzione**, selezionare una delle seguenti opzioni:
 
-    |Opzione||Description|  
+    |Campo|Opzione|Descrizione|  
     |----------------------------------|---------------|---------------------------------------|  
-    |**Direzione Programmazione**|**Aut. inizio**|La programmazione inizia con la data di inizio e continua fino alla data di fine. È necessario compilare la data iniziale per utilizzare questa opzione.|  
+    |**Direzione Programmazione**|**Da inizio ordine**|La programmazione inizia con la data di inizio e continua fino alla data di fine. È necessario compilare la data iniziale per utilizzare questa opzione.|  
     ||**Aut. fine**|La programmazione inizia con la data di fine e continua all'indietro fino alla data di inizio.|  
     |**Calcola**|**Righe**|Selezionare questo campo per calcolare le righe dell'ordine di produzione.|  
     ||**Cicli**|Il contenuto di questo campo non influenza il calcolo delle righe di produzione.|  
@@ -82,9 +84,10 @@ Se righe ciclo, componente o dell'ordine di produzione sono state corrette, è n
 5. Fare clic sul pulsante **OK** per confermare la selezione. Le righe dell'ordine di produzione vengono calcolate.
 
 > [!NOTE]  
->  Con il calcolo dei componenti dell'ordine di produzione vengono annullate le precedenti modifiche ai componenti.
+> Con il calcolo dei componenti dell'ordine di produzione vengono annullate le precedenti modifiche ai componenti.
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedi anche
+
 [Pianif.](production-planning.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

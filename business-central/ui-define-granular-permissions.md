@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443719"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547025"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
 
@@ -158,6 +158,9 @@ In ognuno dei campi dei cinque tipi di accesso (**Autorizzazione di lettura**, *
 |**Sì**|L'utente può eseguire l'azione per l'oggetto in questione.|Il più alto|
 |**Indiretto**|L'utente può eseguire l'azione per l'oggetto in questione ma solo attraverso un altro oggetto correlato a cui l'utente ha accesso completo. Per ulteriori informazioni sulle autorizzazioni indirette, vedere [Proprietà delle autorizzazioni](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) nella Guida per sviluppatori e professionisti IT|Il secondo più alto|
 |**Vuoto**|L'utente non può eseguire l'azione per l'oggetto in questione.|Più basso|
+
+> [!IMPORTANT]
+> Usa cautela quando assegni **Permesso inserimento** o **Permesso modifica** alla tabella **9001 Membro gruppo utenti** o **9003 Set autorizzazioni gruppo utenti** . Qualsiasi utente assegnato al set di permessi potrebbe potenzialmente assegnarsi ad altri gruppi di utenti, che a loro volta potrebbero dare permessi non voluti.
 
 ### <a name="example---indirect-permission"></a>Esempio - Autorizzazione indiretta
 

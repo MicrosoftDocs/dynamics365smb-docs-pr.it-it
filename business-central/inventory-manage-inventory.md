@@ -1,7 +1,6 @@
 ---
 title: Gestione dei costi del magazzino
 description: Questo argomento descrive come gestire i prodotti fisici trattati creando una scheda articolo Inventario.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,14 +10,15 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 9290d61245eec3331be315adf00e3e71a7fb5e97
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482274"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587892"
 ---
-# <a name="how-to-manage-inventory"></a>Come gestire l'inventario
+# <a name="manage-inventory"></a>Gestire l'inventario
+
 Per ogni prodotto fisico trattato è necessario creare una scheda articolo di tipo **Magazzino**. Gli articoli che si offrono ai clienti ma che non sono presenti in magazzino possono essere registrati come articoli di catalogo che possono essere convertiti in articoli di magazzino se necessario. È possibile aumentare o diminuire la quantità di un articolo in magazzino registrando direttamente nei movimenti contabili articoli, ad esempio, dopo un conteggio fisico oppure se non si registrano gli acquisti.
 
 Gli incrementi in magazzino e le diminuzioni vengono registrati automaticamente anche quando si registrano gli acquisti e i documenti di vendita rispettivamente. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md), [Procedura: Vendere prodotti](sales-how-sell-products.md)e [Fatturare le vendite](sales-how-invoice-sales.md). I trasferimenti tra le ubicazioni cambiano le quantità in giacenza nelle warehouse della società.   
@@ -54,7 +54,7 @@ La tabella seguente descrive le attività correlate.
 |Imposta la tracciabilità degli articoli in modo da poter tenere traccia dei numeri di serie degli articoli, ad esempio per monitorare gli articoli in caso di richiami.|[Configurare la tracciabilità di articoli con numeri di serie, di lotto e di pacco](inventory-how-setup-item-tracking.md)|
 |Assegnare numeri di serie o numeri di lotto a qualsiasi documento o riga di registrazione in entrata o in uscita.|[Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)|
 |È possibile trovare dove un numero seriale o di lotto è stato utilizzato nella sua catena di approvvigionamento, ad esempio in caso di richiamate.|[Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)|
-|Impostare la descrizione articolo di un cliente o un fornitore nella scheda articolo in modo che sia possibile inserire rapidamente la descrizione dell'articolo nei documenti commerciali.|[Utilizzare Cross reference articoli](inventory-how-use-item-cross-refs.md)|
+|Impostare la descrizione articolo di un cliente o un fornitore nella scheda articolo in modo che sia possibile inserire rapidamente la descrizione dell'articolo nei documenti commerciali.|[Utilizzare i riferimenti dell'elemento](inventory-how-use-item-cross-refs.md)|
 |Bloccare gli articoli in modo che non vengano immessi in righe di acquisto o di vendita o che non vengano registrati in una qualsiasi transazione.|[Bloccare gli articoli](inventory-how-block-items.md)|
 |È possibile gestire le operazioni aziendali in uffici vendite, reparti acquisti o uffici di programmazione impianti distribuiti tra più sedi.|[Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)|
 |Utilizzare risorse con competenze specifiche per vari servizi e articoli in assistenza.|[Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)|

@@ -7,27 +7,53 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 07/09/2021
-ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 3dc07c19093ff2068a2d749fdf2b260ea82c4672
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543072"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588053"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
-In [!INCLUDE[prod_long](includes/prod_long.md)], la voce di menu ? (nell'angolo superiore destro) fornisce accesso alla pagina **Guida e supporto**, che ti consente di trovare risposte alle domande. È inoltre possibile sapere come contattare il supporto tecnico per [!INCLUDE[prod_short](includes/prod_short.md)].  
+In [!INCLUDE[prod_long](includes/prod_long.md)], la voce di menu Help (il punto interrogativo nell'angolo in alto a destra) ti dà accesso a un pannello di aiuto che può aiutarti a trovare le risposte alle tue domande.  
 
-In questa pagina vengono descritte le risorse disponibili nelle differenti sezioni della pagina **Guida e supporto**.  
+## <a name="search-in-the-help-pane"></a>Cerca nel pannello di aiuto
+
+[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+
+La release 2021 wave 2 include un nuovo pannello di aiuto che ha una scheda di ricerca. Usa il campo di ricerca per cercare una guida su come usare il prodotto, le capacità incorporate e i moduli di formazione disponibili. A seconda dei tuoi termini di ricerca, il pannello mostra 5 o più link con una breve descrizione. Scegli un link o affina i tuoi termini di ricerca. Quando scegli un link, l'articolo di destinazione si apre in una nuova scheda del browser. Si può scegliere di sganciare la scheda del browser, quindi, in modo da poter visualizzare le informazioni pertinenti fianco a fianco con [!INCLUDE [prod_short](includes/prod_short.md)]. Il riquadro rimane aperto mentre si naviga su [!INCLUDE [prod_short](includes/prod_short.md)] in modo che il contenuto cercato rimanga visibile.  
+
+> [!NOTE]
+> Nella versione attuale di [!INCLUDE [prod_short](includes/prod_short.md)], il campo di ricerca nel pannello di aiuto si applica solo al contenuto pubblicato sul sito docs.microsoft.com.
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Questi link possono anche accedere a contenuti pubblicati su altri siti web, come i siti dei fornitori di qualsiasi app installata nel tuo [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+## <a name="help--support-page"></a>Pagina di aiuto e supporto
+
+Dal pannello di aiuto, puoi accedere alla pagina **Guida e supporto** all'interno di [!INCLUDE [prod_short](includes/prod_short.md)] che include link utili. È inoltre possibile sapere come contattare il supporto tecnico per [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+Questa sezione delinea le risorse disponibili per te nelle diverse sezioni della pagina **Guida e supporto**, come indicato nella lista seguente:
+
+- [Trova le risposte](#find-answers)  
+- [Aiuto sul prodotto](#product-help)  
+- [Comunità](#community)  
+- [Blog](#blog)  
+- [Capacità in arrivo](#capabilities-coming-soon)  
+- [Fai di più con la tua prova](#do-more-with-your-trial)  
+- [Dare un feedback](#give-feedback)  
+- [Risoluzione dei problemi](#troubleshooting)  
+- [Segnala un problema](#report-a-problem)  
+- [Contatti di supporto](#support-contacts)  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="find-answers"></a>Trova le risposte
+### <a name="find-answers"></a>Trova le risposte
 
 Nella sezione **Trovarlo** sono riportati i collegamenti alle aree più comuni per trovare risposte alle domande. I collegamenti sono raggruppati in quattro categorie e sono descritti nelle sottosezioni seguenti. Alcuni dei collegamenti possono essere configurati dal proprio partner [!INCLUDE[prod_short](includes/prod_short.md)] e di conseguenza il comportamento può essere leggermente diverso.  
 
-### <a name="product-help"></a>Guida del prodotto
+#### <a name="product-help"></a>Guida del prodotto
 
 Nella sezione **Trovarla** sono presenti due collegamenti alla Guida del prodotto:
 
@@ -38,36 +64,36 @@ Nella sezione **Trovarla** sono presenti due collegamenti alla Guida del prodott
 
   La funzionalità nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)] è descritta sul sito [Docs.microsoft.com](/dynamics365/business-central). Per ulteriori informazioni, consulta la sezione [Uso del sito docs.microsoft.com per ulteriori informazioni](#use-the-docsmicrosoftcom-site-to-learn-more). Puoi anche estendere e personalizzare [!INCLUDE[prod_short](includes/prod_short.md)] con app di AppSource. Tutte le app forniscono collegamenti alla Guida del prodotto in modo da trovare sempre indicazioni per i differenti flussi di lavoro nella versione in uso di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="community"></a>Community
+#### <a name="community"></a>Community
 
 Nel [forum di Business Central](https://community.dynamics.com/business/f), è possibile inviare una domanda e ottenere informazioni da altri membri della community di [!INCLUDE[prod_short](includes/prod_short.md)]. Partner e dipendenti di Microsoft partecipano alle conversazioni.  
 
 Se non hai ancora un partner, la community può anche risultare utile in caso di domande. Ad esempio, se ti sei appena registrato per una prova, la Community può essere un ottimo punto di partenza.  
 
-### <a name="blog"></a>Blog
+#### <a name="blog"></a>Blog
 
 Si possono trovare informazioni sulle nuove funzionalità nel [blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), incluse le date di disponibilità e considerazioni speciali.  
 
-### <a name="capabilities-coming-soon"></a>Funzionalità disponibili a breve
+#### <a name="capabilities-coming-soon"></a>Funzionalità disponibili a breve
 
 [!INCLUDE[prod_short](includes/prod_short.md)] viene aggiornato con aggiornamenti importanti delle funzionalità ogni sei mesi e con aggiornamenti del servizio ogni mese. Scegliere il collegamento per visualizzare il piano di rilascio più recente. È inoltre possibile ottenere una panoramica delle funzionalità imminenti e rilasciate di recente nel [piano di rilascio di Dynamics 365](/dynamics365/release-plans/).  
 
 Per una panoramica a più lungo termine, la [pagina della roadmap](https://dynamics.microsoft.com/roadmap/business-central/) di [!INCLUDE[prod_short](includes/prod_short.md)] mostra le priorità generali per [!INCLUDE[prod_short](includes/prod_short.md)] nei prossimi anni.  
 
-## <a name="do-more-with-your-trial"></a>Altre attività con la versione di valutazione
+### <a name="do-more-with-your-trial"></a>Altre attività con la versione di valutazione
 
 In questa sezione vengono forniti collegamenti a Microsoft AppSource dove è possibile trovare soluzioni e servizi dei partner [!INCLUDE[prod_short](includes/prod_short.md)]. Utilizzare i collegamenti per esplorare le funzionalità complete di [!INCLUDE[prod_short](includes/prod_short.md)] prima di decidere se acquistare una sottoscrizione. È anche possibile trovare un collegamento per contattare il team di vendita.
 
 > [!NOTE]
 > Questa sezione è disponibile solo nelle versioni di valutazione. Se si è già acquistato [!INCLUDE[prod_short](includes/prod_short.md)], questa sezione non è più visibile.
 
-## <a name="give-feedback"></a>Inviare commenti e suggerimenti
+### <a name="give-feedback"></a>Inviare commenti e suggerimenti
 
 Sul [sito delle idee di Dynamics 365](https://aka.ms/bcideas), è possibile fornire suggerimenti per le nuove funzionalità. Il feedback viene inviato direttamente al backlog tecnico di Business Central per analisi e priorità.  
 
 Assicurarsi di effettuare la ricerca nell'elenco dei suggerimenti inviati. È possibile che qualcuno abbia già inviato un suggerimento simile e che questo sia già stato votato. Un'idea già inviata può essere votata di modo che risulti prioritaria nel backlog tecnico.  
 
-## <a name="troubleshooting"></a>Troubleshooting
+### <a name="troubleshooting"></a>Troubleshooting
 
 La sezione **Risoluzione dei problemi** include informazioni tecniche che l'amministratore o il partner [!INCLUDE[prod_short](includes/prod_short.md)] può utilizzare per assistere gli utenti. Ciò include informazioni sui messaggi di errore più recenti, la versione corrente di [!INCLUDE[prod_short](includes/prod_short.md)] e un collegamento per accedere alla pagina **Controllo pagina**. Per ulteriori informazioni, vedere [Controllo di pagine in Business Central](across-inspect-page.md).  
 
@@ -80,7 +106,7 @@ Come amministratore interno, è possibile accedere all'interfaccia di amministra
 - [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Abilitare l'invio della telemetria ad Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-## <a name="report-a-problem"></a>Segnalare un problema
+### <a name="report-a-problem"></a>Segnalare un problema
 
 Il partner rivenditore [!INCLUDE[prod_short](includes/prod_short.md)] fornirà supporto tecnico agli utenti. Questa sezione semplifica la presa di contatto con il partner rivenditore se questo ha fornito le informazioni relative al contatto del supporto. Se il partner [!INCLUDE[prod_short](includes/prod_short.md)] non può risolvere il problema, genererà una richiesta di supporto con Microsoft.  
 
@@ -123,9 +149,12 @@ Il sommario include un gruppo di contenuti che descrive le [funzionalità locali
 
 Il contenuto della funzionalità locale descrive le funzionalità in [!INCLUDE [prod_short](includes/prod_short.md)] che possono aiutare a essere conforme nei mercati supportati, come dichiarazioni fiscali e altri report. In alcuni casi, la differenza tra la versione predefinita e la versione specifica del paese è invisibile agli utenti. In altri casi, gli utenti devono impostare la creazione di report o la fatturazione elettronica in un modo specifico. Se non è possibile trovare una descrizione di un determinato pulsante o azione nella sezione generale, potrebbe essere presente nella sezione *Funzionalità locale*.  
 
+> [!TIP]
+> Sul sito docs.microsoft.com, così come nel campo di ricerca all'interno del prodotto e nel pannello di aiuto, i risultati della ricerca mostrano un certo contesto per l'articolo di destinazione. Il contesto include il link che potrebbe mostrare il nome di un paese, o una breve descrizione che richiama una certa capacità o un paese, per esempio.
+
 ### <a name="finding-other-content"></a>Trovare altri contenuti
 
-Se un articolo non risponde alla domanda, è possibile trovare altri contenuti in due modi:
+Se arrivi su un articolo che non risponde alla tua domanda, puoi trovare altri contenuti in due modi sul sito docs.microsoft.com:
 
 - Utilizzare il campo **Filtra per titolo** nel sommario sul lato sinistro del sito Web
 
@@ -148,7 +177,7 @@ Per ogni lingua, il sommario viene tradotto, ma il contenuto della sezione *Funz
 
 ### <a name="recommended-content"></a>Contenuto consigliato
 
-Nel marzo 2021, una nuova sezione è apparsa sotto la maggior parte degli articoli sul sito docs.microsoft.com. La sezione **Contenuto consigliato** viene generata automaticamente in base a come ogni articolo viene utilizzato con il resto del sito. I collegamenti non sono statici e cambieranno nel tempo.
+Nel marzo 2021, una nuova sezione è apparsa sotto la maggior parte degli articoli sul sito docs.microsoft.com. La sezione **Contenuto consigliato** viene generata automaticamente in base a come ogni articolo viene utilizzato con il resto del sito docs.microsoft.com. I collegamenti non sono statici e cambiano nel tempo.
 
 ### <a name="tell-us-what-you-think"></a>Diteci cosa ne pensate
 
@@ -171,7 +200,8 @@ Lo stesso vale se usi [!INCLUDE [prod_short](includes/prod_short.md)] in locale.
 
 ## <a name="see-also"></a>Vedere anche
 
-[Catalogo di apprendimento Business Central](readiness/readiness-learning-catalog.md)  
+[Catalogo di apprendimento della Business Central](readiness/readiness-learning-catalog.md)  
+[Avviamento rapido di Business Central](quick-start-business-central.md)  
 [Come trovare un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner)  
 [Sistema della Guida (disponibile solo in inglese)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Post del blog: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  

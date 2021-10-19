@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: cf0dd21100fe9ec1fcc92320f04393c5385d2514
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9028bf88940a8c378469078ca680858b7702872
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440668"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589159"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installare e disinstallare le estensioni in Business Central
 
@@ -76,9 +76,16 @@ Microsoft fornisce le seguenti estensioni:
 * [Estensione dei codici postali di GetAddress.io per il Regno Unito](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Invia avviso di rimessa](ui-extensions-send-remittance-advice.md)
 
+
+## <a name="uploading-a-per-tenant-extension-pte"></a>Caricare un'estensione per tenant (PTE)
+
+Si carica un PTE usando la pagina di **gestione delle estensioni** . Nella pagina di **gestione delle estensioni**, vai su **Gestisci**, poi scegli **Carica estensioni**. Nella pagina **Caricare e distribuire l'estensione**, specifica il file .app da caricare. Per procedere, scegli il pulsante **Accetta** e poi il pulsante **Distribuisci**, questo inizierà il processo di distribuzione del PTE.
+
+Se il PTE contiene modifiche allo schema di rottura, è possibile *forzarne* l'upload. Per farlo, nella **modalità Schema Sync** scegli l'opzione **Forza** . Otterrete una finestra di dialogo di conferma da accettare prima di procedere. 
+
 ## <a name="uninstalling-an-extension"></a>Disinstallazione di un'estensione
 
-Si disinstalla un'estensione utilizzando la pagina **Gestione estensioni**. Se si disinstalla un'estensione e successivamente si cambia idea, è possibile installare di nuovo l'estensione. Quando si disinstalla un'estensione che si sta utilizzando, i dati vengono mantenuti per impostazione predefinita qualora la si reinstallasse. È possibile scegliere di eliminare i dati con l'estensione. Questa operazione è controllata dalla casella di controllo **Elimina dati dell'estensione**. Per impostazione predefinita, questa casella di controllo *non è abilitata*.
+Si disinstalla un'estensione utilizzando la pagina **Gestione delle estensioni** . Se si disinstalla un'estensione e successivamente si cambia idea, è possibile installare di nuovo l'estensione. Quando si disinstalla un'estensione che si sta utilizzando, i dati vengono mantenuti per impostazione predefinita qualora la si reinstallasse. È possibile scegliere di eliminare i dati con l'estensione. Questa operazione è controllata dalla casella di controllo **Elimina dati dell'estensione**. Per impostazione predefinita, questa casella di controllo *non è abilitata*.
 
 > [!IMPORTANT]  
 > Se si abilita la casella di controllo **Elimina dati dell'estensione** viene visualizzata una finestra di dialogo di conferma in cui è necessario scegliere **OK**. Con la casella di controllo **Elimina dati dell'estensione** abilitata, è possibile disinstallare l'estensione e verrà chiesto di riconfermare che si desidera disinstallare l'estensione ed eliminare i dati. Questa azione non può essere annullata.

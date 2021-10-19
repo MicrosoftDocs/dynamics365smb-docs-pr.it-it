@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ed814213bea50ceb8d69c107edff450b76d8f7b
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445924"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606387"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passare a un'altra società o ambiente
 
@@ -23,12 +23,17 @@ ms.locfileid: "6445924"
 
 ## <a name="switch-to-another-environment"></a>Passare a un altro ambiente
 
-Quando si accedere a [!INCLUDE[prod_short](includes/prod_short.md)], gli ambienti a cui è possibile accedere sono disponibili nella Home page di Dynamics 365. Puoi aprire la pagina selezionando l'icona **Avvio delle applicazioni** ![Avvio delle applicazioni.](media/app-launcher-icon.png "L'avvio delle applicazioni fornisce l'accesso a più funzionalità") e scegliendo **Dynamics 365**. Per andare alla società predefinita in quell'ambiente, selezionare il riquadro. Ci sarà un riquadro per ogni tipo di ambiente. Se sono disponibili più ambienti di un certo tipo, quando si sceglie il riquadro è possibile scegliere l'ambiente a cui accedere.
+Quando hai effettuato l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)], gli ambienti a cui puoi accedere sono disponibili su Office.com. 
 
-L'immagine seguente mostra i riquadri per l'accesso agli ambienti di produzione e sandbox nella Home page di Dynamics 365.
+1. Seleziona l'**icona di avvio delle app**  ![icona di avvio delle app...](media/app-launcher-icon.png "L'avvio delle applicazioni fornisce l'accesso a più funzionalità")
+2. Se non vedi un'app per [!INCLUDE[prod_short](includes/prod_short.md)] nel pannello che si apre, scegli **Office 365**. Poi, inserisci **Business Central** nella casella di **ricerca** o seleziona **Tutte le app** > **App aziendali**.   
+3. Ci sarà un'app [!INCLUDE[prod_short](includes/prod_short.md)] elencata per ogni tipo di ambiente, come produzione e sandbox. Per passare ad un altro ambiente, scegli l'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] per il tipo di ambiente che è. Se c'è più di un ambiente di un certo tipo, ti verrà chiesto di scegliere l'ambiente a cui accedere.
 
-:::image type="content" source="media/app-picker-environments.png" alt-text="La Home page di Dynamics 365 che mostra gli ambienti di produzione e sandbox.":::
+<!--
+The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
+:::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
+-->
 ## <a name="switch-to-another-company"></a>Passare a un'altra società
 
 Quando si accedere a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile passare rapidamente a un'altra società. Dopo aver effettuato il passaggio, la società scelta diventa la società predefinita e verrà visualizzata al successivo accesso.

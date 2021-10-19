@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 384bbdbc3630928298367956da133b0b488559b8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783511"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588809"
 ---
 # <a name="setting-up-posting-groups"></a>Impostazione delle categorie di registrazione
-Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. Consentono di risparmiare tempo e contribuiscono a evitare errori quando si registrano transazioni. I valori di transazione verranno registrati nei conti specificati nella categoria di registrazione per tale particolare entità. L'unico requisito consiste nella presenza di un piano dei conti. Per ulteriori informazioni, vedere [Impostare il piano dei conti](finance-setup-chart-accounts.md).  
+I gruppi di registrazione mappano entità come clienti, venditori, articoli, risorse e documenti di vendita e acquisto ai conti della contabilità generale. Consentono di risparmiare tempo e contribuiscono a evitare errori quando si registrano transazioni. I valori di transazione verranno registrati nei conti specificati nella categoria di registrazione per tale particolare entità. L'unico requisito consiste nella presenza di un piano dei conti. Per ulteriori informazioni, vedere [Impostare il piano dei conti](finance-setup-chart-accounts.md).  
 
 Le categorie di registrazione possono essere di tre tipi:  
 
@@ -74,6 +74,14 @@ Il setup determina quando avviene la registrazione. Ad esempio, la sincronizzazi
 
 ## <a name="copying-posting-setup-lines"></a>Copia di righe di setup registrazione
 Maggiore è il numero di categorie di registrazione articoli/servizi e business, maggiore sarà la quantità di righe visualizzate nella pagina Setup registrazioni COGE. Questo significa che per il setup delle registrazioni COGE per la società è necessario immettere una grande quantità di dati. Sebbene possano esserci numerose combinazioni diverse di categorie di registrazione business e articoli/servizi, le diverse combinazioni possono comportare la registrazione negli stessi conti C/G. Per limitare la quantità di dati da immettere manualmente, copiare i conti C/G da una riga esistente nella pagina **Setup registrazioni COGE**.
+
+## <a name="troubleshooting-posting-group-errors"></a>Risoluzione degli errori del gruppo di posting
+I gruppi di pubblicazione sono uno dei concetti più avanzati da impostare in [!INCLUDE[prod_short](includes/prod_short.md)]. Se non sono impostati correttamente, possono verificarsi errori quando si inseriscono documenti o linee del giornale. Per esempio, questi errori sono tipicamente causati da un errore nel modo in cui i conti della contabilità generale sono assegnati, o come i gruppi di registrazione sono combinati.
+
+Quando qualcosa non va, [!INCLUDE[prod_short](includes/prod_short.md)] visualizza la pagina dei **messaggi di errore** . La pagina dei **messaggi di errore** può rendere più facile identificare e risolvere il problema. La pagina offre una descrizione dell'errore che indica la configurazione del gruppo di posting che ha bisogno di attenzione. Per esempio, il messaggio potrebbe essere "Sales Prepayment account is missing a General Posting Setup" C'è anche un link per aprire la pagina che è la fonte del problema, in modo da poterlo risolvere rapidamente.  
+
+> [!NOTE]
+> La gestione degli errori descritta sopra non è disponibile su diari di articoli, risorse, impiegati e attività fisse, o per conti G/L aggiunti in versioni locali di gruppi di registrazione.
 
 ## <a name="see-also"></a>Vedere anche
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  

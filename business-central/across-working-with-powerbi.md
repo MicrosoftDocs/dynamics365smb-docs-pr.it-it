@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444045"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588328"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Utilizzo dei report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -78,7 +78,7 @@ Per informazioni su come creare report per le pagine di elenco, vedi [Creazione 
 
 Una parte Power BI su una pagina può visualizzare qualsiasi report Power BI disponibile. Per passare alla visualizzazione di un altro report, scegliere l'azione **Seleziona report** dall'elenco a discesa dei comandi nella parte superiore della parte.  
 
-La pagina **di selezione dei report Power BI** mostra un elenco di tutti i report Power BI a cui si ha accesso. Questo elenco viene recuperato dall'area di lavoro Power BI. Selezionare la casella **Abilita** per ogni report che si intende visualizzare nella pagina quindi scegliere **OK**. Viene visualizzata di nuovo la pagina con l'ultimo report abilitato. Mediante l'elenco a discesa, utilizzare i comandi **Precedente** e **Successivo** per spostarsi tra i report.  
+La pagina **di selezione dei report Power BI** mostra un elenco di tutti i report Power BI a cui si ha accesso. Questa lista viene recuperata da qualsiasi spazio di lavoro tuo o condiviso con te nel servizio Power BI . Selezionare la casella **Abilita** per ogni report che si intende visualizzare nella pagina quindi scegliere **OK**. Viene visualizzata di nuovo la pagina con l'ultimo report abilitato. Mediante l'elenco a discesa, utilizzare i comandi **Precedente** e **Successivo** per spostarsi tra i report.  
 
 ### <a name="get-more-reports"></a>Ottieni più report
 

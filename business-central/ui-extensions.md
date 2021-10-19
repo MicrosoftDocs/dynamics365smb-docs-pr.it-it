@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440505"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587786"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Personalizzazione di Business Central Online per con le estensioni
 
@@ -53,39 +53,13 @@ Se si disinstalla un'estensione e successivamente si cambia idea, è possibile i
 
 Alcune estensioni sono fornite da Microsoft, altre sono fornite da [altre società](ui-extensions-other.md). Tutte le estensioni sono state sottoposte a testing prima di essere rese disponibili. Tuttavia si consiglia di accedere ai collegamenti forniti con ciascuna estensione per ottenere maggiori informazioni sull'estensione prima di scegliere di installarla.  
 
-Microsoft fornisce le seguenti estensioni:  
-
-* [Estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
-* [Registro paga di Ceridian](ui-extensions-ceridian-payroll.md)
-* [Hub aziendale](ui-extensions-company-hub.md)  
-* [Migrazione dei dati Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Informazioni aziendali essenziali](ui-extensions-essential-business-insights.md)
-* [Analisi di immagini](ui-extensions-image-analyzer.md)
-* [Cloud intelligente](ui-extensions-data-replication.md)
-* [Cloud intelligente base](ui-extensions-intelligent-cloud.md)  
-* [Previsioni pagamenti ritardati](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)
-* [Migrazione dei dati di QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
-* [Importazione del file retribuzioni di Quickbooks](ui-extensions-quickbooks-payroll.md)
-* [Previsione vendite e magazzino](ui-extensions-sales-forecast.md)
-* [Gruppo IVA](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [DK - Migrazione dati C5](ui-extensions-c5-data-migration.md)
-* [DK - Pagamenti e riconciliazioni](ui-extensions-payments-reconciliation-formats-dk.md)
-* [DK - Formati di file .tax](ui-extensions-tax-file-formats-dk.md)
-* [Estensione dei codici postali di GetAddress.io per il Regno Unito](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Invia avviso di rimessa](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > È possibile controllare la disponibilità di nuove estensioni di Microsoft e altri fornitori su [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 
 ## <a name="extensions-and-data-transfer"></a>Estensioni e trasferimento dati
 
-Poiché le seguenti estensioni stanno comunicando con altri servizi, potrebbero trasferire dati al di fuori dell'area geografica dell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)]:
+Poiché le seguenti estensioni comunicano con altri servizi, potrebbero trasferire dati al di fuori della geografia dell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)] :
 
 * Estensione AMC Banking 365 Fundamentals
 * Analisi di immagini
@@ -102,6 +76,12 @@ Questo vale anche per alcune funzionalità nell'applicazione di base, come le se
 * Servizio OCR
 * Online Map
 * Reg. IVA UE No. Assistenza
+
+## <a name="recommended-apps"></a>Applicazioni raccomandate
+I partner e i rivenditori Microsoft possono creare un'estensione che possono utilizzare per compilare elenchi di applicazioni che spesso raccomandano ai loro clienti. Se lo fanno, e hanno distribuito l'estensione al tuo tenant, le app saranno disponibili nella pagina **App consigliate** . Lì puoi leggere di ogni app e decidere se installarla.
+
+> [!NOTE]
+> Se sei un partner o un rivenditore Microsoft e sei interessato a fornire un elenco di applicazioni raccomandate, vedi [Raccomandare le applicazioni da AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
 ## <a name="see-also"></a>Vedere anche
 

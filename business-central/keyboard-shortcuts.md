@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438929"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588253"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -89,22 +89,22 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 
 Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio pagine di elenco e parti **Righe** sui documenti. Lo spostamento da una cella all'altra attraverso una griglia è completamente abilitato per la tastiera.
 
-|Premere questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione riquadri |
-|--------------------------------|--------------------------|--------------------------|
-|CTRL+HOME<br />(Fn+CTRL+freccia SINISTRA)|Selezionare la prima riga nell'elenco; lo stato attivo rimane nella stessa colonna.|Spostare il cursore sul primo riquadro nella prima riga. |
-|CTRL+FINE<br />(Fn+CTRL+Freccia DESTRA)|Selezionare l'ultima riga nell'elenco; lo stato attivo rimane nella stessa colonna.|Spostare il cursore sull'ultimo riquadro nell'ultima riga.|
-|Pagina iniziale<br />(Fn+freccia SINISTRA)|Spostare il cursore sul primo campo nella riga.|Spostare il cursore sul primo riquadro nella riga.|
-|FINE<br />(Fn+freccia DESTRA)|Spostare il cursore sull'ultimo campo nella riga.|Spostare il cursore sull'ultimo riquadro nella riga.|
-|Immettere|Aprire il record associato al campo.<br /><br />Applicabile solo se una pagina schede è associata al record.|Apre il record.<br /><br />Applicabile solo se una pagina schede è associata al record.|
-|Ctrl+Enter|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.|Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco.|
-|Pagina su<br />(Fn+freccia SU)|Scorrere per visualizzare il set di righe sopra le righe correnti nella visualizzazione. |Scorre per visualizzare i riquadri del set sopra i riquadri correnti nella visualizzazione. |
-|Pagina giù<br />(Fn+freccia GIÙ)|Scorrere per visualizzare il set di righe sotto le righe correnti nella visualizzazione.|Scorrere per visualizzare il set di riquadri sotto i riquadri correnti nella visualizzazione.|
-|Freccia GIÙ|Spostare il cursore nella stessa colonna sul campo nella riga sotto. |Spostare il cursore nella stessa colonna sul riquadro nella riga sotto. |
-|Freccia su|Spostare il cursore nella stessa colonna sul campo nella riga sopra.| Spostare il cursore nella stessa colonna sul riquadro nella riga sopra.  |
-|Freccia destra|In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo successivo a destra.<br /><br />In un elenco modificabile, spostarsi a destra all'interno del campo corrente.| Spostare il cursore nella stessa riga sul riquadro successivo a destra. |
-|Freccia sinistra|In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo precedente a sinistra. <br /><br />In un elenco modificabile, spostarsi a sinistra all'interno del campo corrente.| Spostare il cursore nella stessa riga sul riquadro precedente a sinistra. |
-|TAB|In un elenco modificabile, spostare il cursore nella stessa riga sul campo successivo a destra.|Non applicabile.||
-|MAIUSC+TAB|In un elenco modificabile, spostare il cursore nella stessa riga sul campo precedente a sinistra. | Non applicabile. |
+| Premere questi tasti<br />(in macOS) | Per effettuare questa operazione in una visualizzazione elenco | Per effettuare questa operazione in una visualizzazione riquadri |
+|--|--|--|
+| CTRL+HOME<br />(Fn+CTRL+freccia SINISTRA) | Selezionare la prima riga nell'elenco; lo stato attivo rimane nella stessa colonna. | Spostare il cursore sul primo riquadro nella prima riga. |
+| CTRL+FINE<br />(Fn+CTRL+Freccia DESTRA) | Selezionare l'ultima riga nell'elenco; lo stato attivo rimane nella stessa colonna. | Spostare il cursore sull'ultimo riquadro nell'ultima riga. |
+| Pagina iniziale<br />(Fn+freccia SINISTRA) | Spostare il cursore sul primo campo nella riga. | Spostare il cursore sul primo riquadro nella riga. |
+| FINE<br />(Fn+freccia DESTRA) | Spostare il cursore sull'ultimo campo nella riga. | Spostare il cursore sull'ultimo riquadro nella riga. |
+| Immettere | Aprire il record associato al campo.<br /><br />Applicabile solo se una pagina schede è associata al record. | Apre il record.<br /><br />Applicabile solo se una pagina schede è associata al record. |
+| Ctrl+Enter | Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco. | Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco. |
+| Pagina su<br />(Fn+freccia SU) | Scorrere per visualizzare il set di righe sopra le righe correnti nella visualizzazione. | Scorre per visualizzare i riquadri del set sopra i riquadri correnti nella visualizzazione. |
+| Pagina giù<br />(Fn+freccia GIÙ) | Scorrere per visualizzare il set di righe sotto le righe correnti nella visualizzazione. | Scorrere per visualizzare il set di riquadri sotto i riquadri correnti nella visualizzazione. |
+| Freccia GIÙ | Spostare il cursore nella stessa colonna sul campo nella riga sotto. | Spostare il cursore nella stessa colonna sul riquadro nella riga sotto. |
+| Freccia su | Spostare il cursore nella stessa colonna sul campo nella riga sopra. | Spostare il cursore nella stessa colonna sul riquadro nella riga sopra. |
+| Freccia destra | In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo successivo a destra.<br /><br />In un elenco modificabile, spostarsi a destra all'interno del campo corrente. | Spostare il cursore nella stessa riga sul riquadro successivo a destra. |
+| Freccia sinistra | In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo precedente a sinistra. <br /><br />In un elenco modificabile, spostarsi a sinistra all'interno del campo corrente. | Spostare il cursore nella stessa riga sul riquadro precedente a sinistra. |
+| TAB | In un elenco modificabile, spostare il cursore nella stessa riga sul campo successivo a destra. | Non applicabile. |  |
+| MAIUSC+TAB | In un elenco modificabile, spostare il cursore nella stessa riga sul campo precedente a sinistra. | Non applicabile. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selezionare, copiare e incollare
 

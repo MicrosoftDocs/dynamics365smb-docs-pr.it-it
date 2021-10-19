@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649864"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588884"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per programmare i task
 
@@ -60,6 +60,15 @@ La tabella seguente descrive i valori del campo **Stato**.
 
 > [!TIP]
 > È inoltre possibile visualizzare lo stato dei movimenti della coda processi utilizzando Application Insights in Microsoft Azure per analisi più approfondite basate sulla telemetria. Per ulteriori informazioni, vedere [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) e [Analisi della telemetria della traccia del ciclo di vita della coda processi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) nel contenuto per sviluppatori e amministratori [!INCLUDE [prod_short](includes/prod_short.md)].
+
+## <a name="view-scheduled-tasks"></a>Visualizza i compiti programmati
+
+La pagina **Attività pianificate** in [!INCLUDE [prod_short](includes/prod_short.md)] mostra quali compiti sono pronti per essere eseguiti nella coda di lavoro. La pagina mostra anche informazioni sull'azienda in cui ogni compito è impostato per essere eseguito. Tuttavia, solo i compiti che sono contrassegnati come appartenenti all'ambiente corrente possono essere eseguiti.  
+
+Per esempio, se l'azienda corrente è in un ambiente che è una copia di un altro ambiente, tutti i compiti programmati vengono automaticamente fermati. Usa la pagina **Attività pianificate** per impostare le attività come pronte per l'esecuzione nella coda di lavoro.  
+
+> [!NOTE]
+> Gli amministratori interni e gli utenti possono programmare l'esecuzione di attività. Gli amministratori delegati non possono.
 
 ## <a name="the-my-job-queue-part"></a>Parte Coda processi
 La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle code processi avviati da un utente, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, pertanto è necessario aggiungerla alla Gestione ruolo utente utilizzata. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).  

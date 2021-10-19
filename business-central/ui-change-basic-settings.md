@@ -1,21 +1,21 @@
 ---
 title: Modifica le impostazioni di base per l'utente corrente
 description: Scopri come modificare alcune impostazioni di base in Business Central, ad esempio il ruolo e la gestione ruolo utente, l'azienda, la data di lavoro e il fuso orario.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 6197adc163d781f2d7588e7109b37649e1611551
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443770"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589184"
 ---
 # <a name="change-basic-settings"></a>Modificare le impostazioni di base
 
@@ -82,7 +82,7 @@ Se la data del lavoro non è impostata sul giorno corrente (oggi), in tutte le p
 
 ## <a name="region"></a><a name="region"></a> Area geografica
 
-L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.
+L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati. Determina anche quale carattere viene usato come separatore decimale quando si usa una tastiera numerica per inserire i dati. Per ulteriori informazioni, vedere [Inserimento dei dati](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Lingua
 
