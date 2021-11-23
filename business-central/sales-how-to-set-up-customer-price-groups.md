@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
-ms.author: a-jillk
-ms.openlocfilehash: e00af84992274fd627735624b313940874966338
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: d7c658dea40441791a2dc8adda1ca2a8d745c973
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589460"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724507"
 ---
 # <a name="set-up-customer-price-groups"></a>Impostare i gruppi di prezzi dei clienti
   
@@ -29,7 +29,7 @@ Quando hai concordato i prezzi che il gruppo di clienti pagherà per certi artic
 
 ### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Per creare prezzi di vendita per un gruppo di clienti
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , inserire **Gruppi di prezzi per clienti** e poi scegliere il link relativo.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , immetti **Gruppi di prezzi per clienti** e poi scegliere il link relativo.  
 
 2. Selezionare la linea per il gruppo di prezzo del cliente. Se una linea non esiste già, puoi crearne una nuova. Selezionare **Nuovo** per creare una nuova entità e darle un nome.  
     

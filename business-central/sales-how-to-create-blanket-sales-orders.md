@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442702"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752582"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utilizzare gli ordini di vendita programmati o gli ordini di acquisto programmati
 
@@ -32,7 +32,7 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 
 ## <a name="to-create-a-blanket-sales-order"></a>Per creare un ordine di vendita programmato
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Lasciare vuoto il campo **Data ordine**. Quando vengono creati i diversi ordini di vendita dall'ordine programmato, la data dell'ordine di vendita viene impostata sulla data del lavoro effettiva.
@@ -60,37 +60,37 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Per visualizzare lo stato di un ordine di vendita programmato  
 È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche ordini vendita programmati**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di vendita programmato.  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2.  Selezionare un ordine di vendita programmato quindi scegliere l'azione **Statistiche**.  
 3.  Nella pagina **Statistiche ordini vendita programmati**, nella Scheda dettaglio **Generale**, è possibile visualizzare le informazioni di riepilogo relative all'intero ordine in base alla quantità totale riportata nei vari **campi Quantità** delle righe dell'ordine di vendita programmato.  
 
 - Nella Scheda dettaglio **Fatturazione** è possibile visualizzare le informazioni di riepilogo in base alla quantità totale riportata nei campi **Qtà da fatturare** delle righe dell'ordine di vendita programmato.  
 - Nella Scheda dettaglio **Spedizione** è possibile visualizzare le informazioni di riepilogo in base alla quantità totale riportata nei campi **Qtà da ricevere** delle righe dell'ordine di vendita programmato.  
 - Nella Scheda dettaglio **Pagamento anticipato** è possibile visualizzare informazioni di riepilogo relative agli importi prepagati.  
-- Nella Scheda dettaglio **Fornitore** è possibile visualizzare le informazioni principali relative al fornitore.    
+- Nella Scheda dettaglio **Fornitore** è possibile visualizzare le informazioni principali relative al fornitore.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pere visualizzare le righe degli ordini di vendita programmati registrate e non registrate   
 Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di origine ed eventuali altri documenti di vendita, viene mantenuto dopo la registrazione come lista delle righe della fattura di vendita registrate e non registrate.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.
 2. Aprire l'ordine di vendita programmato che si desidera visualizzare.
 3. Per visualizzare i movimenti non registrati, selezionare la riga in questione, quindi scegliere l'azione **Riga** e l'azione **Righe non registrate**. Selezionare una delle seguenti opzioni.  
 
-    |Opzione|Description|
-    |--|--|
-    |**Ordini**|Specifica ordini aperti associati alla riga selezionata.|
-    |**Fatture**|Specifica fatture aperte associate alla riga selezionata. È possibile associare manualmente le fatture aperte a un ordine programmato immettendo il numero dell'ordine programmato nella riga della fattura di vendita.|
-    |**Ordini di reso**|Specifica ordini di reso aperti associati alla riga selezionata.|
-    |**Note di credito**|Specifica note di credito aperte associate alla riga selezionata.|
+|Opzione|Description|
+|--|--|
+|**Ordini**|Specifica ordini aperti associati alla riga selezionata.|
+|**Fatture**|Specifica fatture aperte associate alla riga selezionata. È possibile associare manualmente le fatture aperte a un ordine programmato immettendo il numero dell'ordine programmato nella riga della fattura di vendita.|
+|**Ordini di reso**|Specifica ordini di reso aperti associati alla riga selezionata.|
+|**Note di credito**|Specifica note di credito aperte associate alla riga selezionata.|
 
 4. Per visualizzare i movimenti registrati, selezionare la riga in questione, quindi scegliere l'azione **Riga** e l'azione **Righe registrate**. Selezionare una delle seguenti opzioni.  
 
-    |Opzione|Description|
-    |---|----|
-    |**Spedizioni**|spedizioni registrate associate alla riga selezionata.|
-    |**Fatture**|fatture registrate associate alla riga selezionata.|
-    |**Carichi da reso**|carichi da reso registrati associati alla riga selezionata.|
-    |**Note di credito**|note di credito registrate associate alla riga selezionata.|
+|Opzione|Description|
+|---|----|
+|**Spedizioni**|spedizioni registrate associate alla riga selezionata.|
+|**Fatture**|fatture registrate associate alla riga selezionata.|
+|**Carichi da reso**|carichi da reso registrati associati alla riga selezionata.|
+|**Note di credito**|note di credito registrate associate alla riga selezionata.|
 
 5. Nella pagina **Righe acquisto** scegliere l'azione **Mostra documento** per visualizzare il movimento.
 

@@ -1,5 +1,5 @@
 ---
-title: Come impostare aree di produzione e centri di lavoro | Microsoft Docs
+title: Impostare aree di produzione e centri di lavoro
 description: Una scheda **Area di produzione** consente di organizzare i valori e i requisiti fissi della risorsa di produzione e, quindi, di gestire l'output della produzione effettuata in tale area di produzione.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b247cdc220ad522fe42085528df8a25200d6dd48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3cc89545cced46acbe5d148853ac46c4135d251e
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440305"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "7714524"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
 
@@ -36,7 +36,7 @@ La disponibilità viene memorizzata nei movimenti di calendario.
 
 Di seguito viene descritto come impostare un'area di produzione. I passaggi per impostare un calendario centro di lavoro sono gli stessi ad eccezione della Scheda dettaglio **Setup cicli**.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Aree di produzione**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Aree di produzione**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Nel campo **Gruppo aree di produzione** selezionare il raggruppamento di risorse di livello più alto in base a cui è organizzata l'area di produzione, se pertinente. Scegliere l'azione **Nuovo** nell'elenco a discesa.  
@@ -55,12 +55,12 @@ Di seguito viene descritto come impostare un'area di produzione. I passaggi per 
 
     |Opzione|Descrizione|
     |------|-----------|
-    |**Manuale**|Il consumo viene registrato manualmente nelle registrazioni di output o di produzione.|
-    |**Aut. inizio**|Il consumo viene calcolato e registrato automaticamente quando l'ordine di produzione viene rilasciato.|
-    |**Aut. fine**|Il consumo viene calcolato e registrato automaticamente quando l'ordine di produzione viene chiuso.|
+    |**Manuale**| Il tempo utilizzato, l'output e lo scarto vengono registrati manualmente nelle registrazioni di output o di produzione.|
+    |**Da inizio ordine**|L'output viene registrato automaticamente quando l'ordine di produzione viene rilasciato.|
+    |**Aut. fine**|L'output viene registrato automaticamente quando l'ordine di produzione viene terminato.|
 
     > [!NOTE]
-    > Se necessario, il metodo consuntivazione selezionato qui e nella scheda **Articolo** può essere sostituito per singole operazioni, mediante la modifica delle impostazioni delle righe ciclo.
+    > Se necessario, il metodo per il calcolo del consumo selezionato qui può essere sostituito per singole operazioni, mediante la modifica delle impostazioni delle righe ciclo
 
 12. Nel campo **Cod. Unità di Misura** immettere l'unità di tempo utilizzata per il calcolo del costo dell'area di produzione specificata e per la programmazione della capacità.
     Per tenere costantemente sotto controllo il consumo, è necessario innanzitutto impostare un metodo di misura. Le unità immesse sono unità di base. Ad esempio, il tempo di elaborazione viene misurato in ore e minuti.
@@ -77,7 +77,81 @@ Di seguito viene descritto come impostare un'area di produzione. I passaggi per 
 > [!NOTE]
 > Utilizzare i tempi in coda per fornire un buffer tra il momento in cui un componente arriva a una macchina o un'area di produzione e quando l'operazione inizia effettivamente. Ad esempio, un pezzo viene consegnato a un centro lavoro alle 10:00, ma ci vuole un'ora per montarlo sulla macchina, quindi l'operazione non inizia prima delle 11:00. Per tenere conto di quell'ora, il tempo in coda sarebbe un'ora. Il valore del campo **Tempo in coda** nella scheda Centro di Lavoro o Area di produzione sommato ai valori dei campi **Tempo di setup**, **Tempo lavorazione**, **Tempo attesa** e **Tempo spostamento** della riga del ciclo dell'articolo fornisce il lead time di produzione dell'articolo. Ciò consente di fornire tempi di produzione complessivi accurati.  
 
-## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Esempio: diversi centri di lavoro assegnati a un'area di produzione
+## <a name="considerations-about-capacity"></a>Considerazioni sulla capacità
+
+La capacità e l'efficienza specificate per un'area di produzione e un centro di lavoro non influiscono solo sulla capacità disponibile. Influiscono anche sul tempo di produzione complessivo che consiste nel tempo di configurazione e nel tempo di esecuzione, entrambi definiti sulla riga del ciclo di produzione.  
+
+Quando una specifica riga del ciclo di produzione viene assegnata a un'area di produzione e un centro di lavoro, il sistema calcola la capacità necessaria e il tempo necessario per completare l'operazione.  
+
+### <a name="run-time"></a>Tempo lavorazione
+
+Per calcolare il tempo lavorazione, il sistema alloca il tempo esatto definito nel campo **Tempo lavorazione** della riga del ciclo di produzione. Né l'efficienza né la capacità influiscono sul tempo assegnato. Ad esempio, se il tempo di lavorazione è definito come 2 ore, il tempo allocato sarà di 2 ore, indipendentemente dai valori nei campi efficienza e capacità nell'area di produzione.  
+
+> [!NOTE]
+> La capacità utilizzata nei calcoli è definita come il valore minimo tra la capacità definita nell'area produzione o nel centro di lavoro e la capacità simultanea definita per la riga del ciclo di produzione. Se un'area di produzione ha una capacità di 100, ma la capacità simultanea per la riga del ciclo di produzione è 2, *2* verrà utilizzato nei calcoli.
+
+La *durata* di un'operazione, al contrario, considera sia l'efficienza che la capacità. La durata è calcolata come *Tempo lavorazione / Efficienza / Capacità*. L'elenco seguente mostra alcuni esempi del calcolo della durata per lo stesso tempo lavorazione, definito come 2 ore per la riga del ciclo di produzione:
+
+- L'efficienza dell'80% significa che avrai bisogno di 2,5 ore invece di due ore  
+- L'efficienza del 200% significa che puoi completare il lavoro in un'ora - puoi scavare una buca due volte più velocemente se hai un escavatore che è il doppio di quello più piccolo  
+
+    Puoi ottenere lo stesso risultato se usi due escavatori più piccoli invece di uno grande: usa *2* come la capacità e *100%* come l'efficienza  
+
+La capacità frazionaria è complicata e ne parleremo più avanti. 
+
+### <a name="setup-time"></a>Tempo di setup
+
+L'allocazione del tempo per il tempo di setup dipende dalla capacità e viene calcolata come *Tempo di setup * Capacità*. Ad esempio, se la capacità è impostata su *2*, il tempo di setup assegnato sarà raddoppiato, poiché è necessario configurare due macchine per l'operazione.  
+
+La *durata* del tempo di setup dipende dall'efficienza ed è calcolata come *Tempo di setup / Efficienza*. 
+
+- L'efficienza dell'80% significa che avrai bisogno di 2,5 ore invece di due ore per il setup  
+- L'efficienza del 200% significa che puoi completare il setup in 1 ora invece di 2 ore definite nella riga del ciclo di produzione  
+
+La capacità frattale non è qualcosa di facile da eseguire e viene utilizzata in casi molto specifici.
+
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Area di produzione che elabora più ordini contemporaneamente
+
+Prendiamo come esempio una cabina per verniciatura a spruzzo. Ha lo stesso setup e tempo di lavorazione per ogni lotto elaborato. Ma ogni lotto può contenere più ordini individuali che vengono dipinti contemporaneamente.  
+
+In questo caso, il tempo e il costo allocato agli ordini è gestito dal tempo di setup e dalla capacità simultanea. Si consiglia di non utilizzare il tempo di lavorazione nelle righe del ciclo di produzione.  
+
+Il tempo di setup assegnato per ogni singolo ordine sarà in ordine inverso rispetto al numero di ordini (quantità) che vengono eseguiti contemporaneamente. Ecco altri esempi del calcolo del tempo di setup quando è definito come due ore per la riga del ciclo di produzione:
+
+- Se sono presenti due ordini, la capacità simultanea nella riga del ciclo di produzione deve essere impostata su 0,5.
+
+    Di conseguenza, la capacità assegnata per ciascuno sarà di un'ora, ma la durata per ogni ordine rimarrà di due ore.
+- Se sono presenti due ordini con una quantità rispettivamente di uno e quattro, la capacità simultanea per la riga del ciclo di produzione del primo ordine è 0,2 e 0,8 per il secondo.  
+
+    Di conseguenza, la capacità assegnata per il primo ordine sarà di 24 minuti e per il secondo 96. La durata per entrambi gli ordini rimane di due ore.  
+
+In entrambi i casi, il tempo totale allocato per tutti gli ordini è di due ore.
+
+
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Una risorsa efficiente può dedicare solo una parte della data del lavoro al lavoro produttivo
+
+> [!NOTE]
+> Non è uno scenario consigliato. Ti consigliamo di utilizzare invece l'efficienza. 
+
+Uno delle aree di produzione rappresenta un lavoratore esperto che lavora con il 100% di efficienza sulle attività. Ma possono dedicare solo il 50% del tempo di lavoro alle attività perché il resto del tempo svolgono attività amministrative. Mentre questo lavoratore è in grado di completare un'attività di due ore in esattamente due ore, in media devi aspettare altre due ore mentre la persona si occupa di altri incarichi.  
+
+Il tempo di lavorazione allocato è di due ore e la durata è di quattro ore.  
+
+Non utilizzare il tempo di setup per tali scenari, poiché il sistema allocherà solo il 50% del tempo. Se il tempo di setup è impostato su *2*, il tempo di setup allocato è di un'ora e la durata è di due ore.
+
+### <a name="consolidated-calendar"></a>Calendario consolidato
+
+Quando il campo **Calendario consolidato** è selezionato, l'area di produzione non ha capacità proprie. La sua capacità è invece pari alla somma delle capacità di tutti i centri di lavoro assegnati all'area di produzione.  
+
+> [!NOTE]
+>  L'efficienza del centro di lavoro viene convertita nella capacità dell'area di produzione.
+
+Ad esempio, se si dispone di due centri di lavoro con un'efficienza rispettivamente di 80 e 70, la voce di calendario consolidata avrà un'efficienza di 100, una capacità di 1,5 e una capacità totale di 12 ore (turno di otto ore * 1,5 capacità). 
+
+> [!NOTE]
+>  Utilizza il campo **Calendario consolidato** quando strutturi i cicli per pianificare le operazioni di produzione a livello di centro di lavoro, non a livello di area di produzione. Quando consolidi il calendario, la pagina **Carico area di produzione** e i report diventano una panoramica del carico aggregato in tutti i centri di lavoro assegnati all'area di produzione.
+
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Esempio: diversi centri di lavoro assegnati a un'area di produzione
 
 Quando si impostano i centri di lavoro e le aree di produzione, è importante pianificare quali capacità formeranno la capacità totale.
 
@@ -97,7 +171,7 @@ Nella pagina **Risorse critiche** è possibile effettuare impostazioni per evita
 
 Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce che nessuna risorsa venga caricata oltre la propria capacità definita (carico critico). Questa operazione viene effettuata assegnando ogni operazione alla fascia oraria disponibile più vicina. Se la fascia oraria non è sufficiente a completare l'intera operazione, l'operazione verrà divisa in due o più parti e collocate nelle fasce orarie adiacenti disponibili.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse critiche**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse critiche**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario.
 

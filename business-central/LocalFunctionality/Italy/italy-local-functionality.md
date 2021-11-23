@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: e1347679421f7d30d1fbb4a46bb5f3d2c5c3d12e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 022faa5ca6a45c79bd50b6a169dd343d66fdb761
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318854"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748954"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 
@@ -23,8 +23,9 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 
 ## <a name="feature-availability"></a>Disponibilità della funzionalità
 
-* IVA
+* IVA e ritenute
     * [IVA italiana](italian-vat.md)
+    * [Impostare la ritenuta](set-up-withholding-tax.md) **Disponibile ora**  
     * [Inviare dichiarazioni IVA](how-to-submit-vat-statements.md) **Disponibile ora**
     * [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md) **Disponibile ora**
     * [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md) **Disponibile ora**

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589450"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724614"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Ottieni il Business Central Add-in per Excel
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589450"
 
 ### <a name="about-the-add-in"></a>Informazioni sull'add-in
 
-L'add-in si chiama **Add-in Microsoft Dynamics per Office** ed è disponibile per l'installazione su [Office Store (AppSource)](https://appsource.microsoft.com/). Con l'add-in installato, l'azione **Modifica in Excel** è disponibile nella maggior parte delle pagine dell'elenco e delle parti dell'elenco dall'icona **Condividi**  ![Condividi una pagina in un'altra app.](media/share-icon.png). Per ulteriori informazioni sull'uso dell'add-in, vedi [Visualizzazione e modifica in Excel da Business Central](across-work-with-excel.md)
+L'add-in si chiama **Add-in Microsoft Dynamics per Office** ed è disponibile per l'installazione su [Office Store (AppSource)](https://appsource.microsoft.com/). Con l'add-in installato, l'azione **Modifica in Excel** è disponibile nella maggior parte delle pagine dell'elenco e delle parti dell'elenco dall'icona **Condividi**  ![Condividi una pagina in un'altra app.](media/share-icon.png). Per ulteriori informazioni sull'uso dell'add-in, vedi [Visualizzazione e modifica in Excel da Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > L'add-in funziona solo su Windows; non su macOS.
@@ -69,7 +69,7 @@ La distribuzione centralizzata è una funzione nel centro amministrativo di Micr
 
 Lavorerai sia in [!INCLUDE[prod_short](includes/prod_short.md)] che nell'admin center di Microsoft 365.
 
-1. In [!INCLUDE[prod_short](includes/prod_short.md)]\, scegli la ![lampadina che apre la funzione Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , inserire **Distribuzione centralizzata Add-in Excel**, quindi scegliere il link relativo.
+1. In [!INCLUDE[prod_short](includes/prod_short.md)]\, scegli la ![lampadina che apre la funzione Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , immetti **Distribuzione centralizzata Add-in Excel**, quindi scegli il collegamento correlato.
 2. Leggi le informazioni sulla pagina **d'impostazione dell'add-in di Business Central Excel** e scegli **Avanti**.
 3. Accedi al [centro amministrativo di Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967) e vai a **App integrate**<!--**Add-ins**-->.
 
@@ -118,7 +118,7 @@ L'add-in è ora collegato a [!INCLUDE [prod_short](includes/prod_short.md)]\, ed
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Preparare i dispositivi e la rete per l'Add-In di Excel
 
-I servizi di rete come i proxy o i firewall devono permettere il routing tra ogni dispositivo client su cui è installato l'add-in e molti endpoint di servizio. Per un elenco di endpoint, vedi [Preparare la tua rete per l'Add-In Excel](/dev-itpro/administration/configuring-network-for-addins).
+I servizi di rete come i proxy o i firewall devono permettere il routing tra ogni dispositivo client su cui è installato l'add-in e molti endpoint di servizio. Per un elenco di endpoint, vedi [Preparare la tua rete per l'Add-In Excel](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Troubleshooting
 

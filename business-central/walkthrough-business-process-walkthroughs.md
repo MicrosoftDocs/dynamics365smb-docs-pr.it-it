@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 0ca067f8b9ca7a8d6838b6099ae330ab8ddbf66b
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587482"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724664"
 ---
 # <a name="business-process-walkthroughs"></a>Procedure dettagliate per i processi aziendali
 
@@ -24,7 +24,7 @@ Queste procedure dettagliate descrivono passo per passo i processi aziendali com
  Le procedure dettagliate ricreano scenari completi ed è quindi consigliabile, per trarne il massimo insegnamento, seguirle dall'inizio alla fine. Molte sono basate su dimostrazioni di [!INCLUDE[prod_short](includes/prod_short.md)] e consentono di provare a svolgere le attività descritte autonomamente e secondo i propri ritmi.  
 
 > [!NOTE]
-> Alcune procedure dettagliate richiedono dati di esempio non disponibili nella società dimostrativa predefinita in [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
+> Alcune procedure dettagliate richiedono dati di esempio non disponibili nella società dimostrativa predefinita in [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments.md). -->
 
 |A|Vedere|  
 |--------|---------|  

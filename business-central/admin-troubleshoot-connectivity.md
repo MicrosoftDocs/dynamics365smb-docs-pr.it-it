@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443183"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748963"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Risoluzione dei problemi di connettività per Business Central
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443183"
 
 ## <a name="start-the-connectivity-check"></a>Avviare il controllo della connettività 
 
-1. Seleziona [questo link](https://businesscentral.dynamics.com/connectivity) oppure apri il tuo browser Internet e inserisci il seguente URL nell'indirizzo:
+1. Apri un browser Internet.
+2. Nell'indirizzo, inserisci l'URL che utilizzi per aprire Business Central e aggiungi `/connectivity` alla fine. 
+
+    Ad esempio, se usi `https://businesscentral.dynamics.com`, inserisci:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. Nella pagina **Risoluzione dei problemi di connettività** scegli **Inizia controllo**.
+    Oppure, se l'URL include l'ID tenant, come `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, inserisci:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. Nella pagina **Risoluzione dei problemi di connettività** scegli **Inizia controllo**.
 
     Viene eseguita una serie di controlli e viene mostrato il risultato di ogni controllo:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443183"
     - ![Controllo della connettività non riuscito.](media/connectivity-failed.png) Indica che il controllo non è riuscito. Rivedi il messaggio sotto il controllo per maggiori dettagli.
     - ![Il controllo della connettività non è stato eseguito.](media/connectivity-blocked.png) Indica che il controllo non è stato eseguito, in genere a causa di un errore di un controllo precedente. Rivedi il messaggio sotto il controllo per maggiori dettagli.
 
-3. Per eseguire nuovamente il controllo, scegli **Riavvia controllo**.
+4. Per eseguire nuovamente il controllo, scegli **Riavvia controllo**.
 
 Le sezioni seguenti spiegano i controlli eseguiti e forniscono alcuni suggerimenti per risolvere eventuali problemi.
 

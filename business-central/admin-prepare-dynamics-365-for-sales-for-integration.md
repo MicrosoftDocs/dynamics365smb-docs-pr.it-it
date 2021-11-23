@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482325"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651489"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrazione con Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -97,6 +97,9 @@ Nella seguente tabella elenca il mapping standard tra le tabelle in [!INCLUDE[pr
 | Unità di misura | Unità di vendita | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Articolo | Prodotto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro contatto di Sales: il campo **Tipo prodotto** è **Inventario vendite** |
 | Risorsa | Prodotto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro contatto di Sales: il campo **Tipo prodotto** è **Servizi** |
+| Unità di misura articoli | Unità di misura CRM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Unità di misura risorse | Unità di misura CRM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Unità di vendita | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Gruppo prezzi cliente | Listino prezzi | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Prezzo vendita | Listino prezzi prodotto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtro contatto di [!INCLUDE[prod_short](includes/prod_short.md)]: il campo **Codice vendita** non è vuoto; il campo **Tipo vendita** è **Gruppo prezzi cliente** |
 | Opportunità | Opportunità | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +107,50 @@ Nella seguente tabella elenca il mapping standard tra le tabelle in [!INCLUDE[pr
 | Righe Fatt. Vendita | Prodotto di fatturazione | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Testate ordine cliente | Ordini Vendita | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtro Testate vendita di [!INCLUDE[prod_short](includes/prod_short.md)]: il campo **Tipo di documento** è Ordine; il campo **Stato** è Rilasciato |
 | Note dell'ordine di vendita | Note dell'ordine di vendita | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> Le mappature per le tabelle Unità di misura articoli, Unità di misura risorse e Unità di vendita sono disponibili solo se l'amministratore ha attivato l'opzione di funzionalità **Aggiornamento funzionalità: sincronizzazione di più unità di misura con Dynamics 365 Sales** nella pagina **Gestione funzionalità**. Per ulteriori informazioni, vedi [Sincronizzazione di articoli e risorse con prodotti in diverse unità di misura](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Sincronizzazione di articoli e risorse con prodotti in diverse unità di misura
+Le aziende spesso producono o acquistano gli articoli in un'unità di misura e poi li vendono in un'altra. Per sincronizzare articoli che utilizzano più unità di misura, è necessario attivare l'opzione di funzionalità **Aggiornamento funzionalità: sincronizzazione di più unità di misura con Dynamics 365 Sales** nella pagina **Gestione funzionalità**. 
+
+Quando lo fai, viene creata una nuova tabella Unità di vendita e assegnata a ciascun articolo e risorsa in [!INCLUDE[prod_short](includes/prod_short.md)]. Ciò consente di mappare le tabelle Unità di vendita, Unità di misura articolo e Unità di misura risorsa in [!INCLUDE[prod_short](includes/prod_short.md)] all'unità di vendita di Dynamics 365 Sales <!--Need to verify this name--> in [!INCLUDE[crm_md](includes/crm_md.md)], come mostrato nell'immagine seguente.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Mappature di tabelle per unità di vendita":::
+
+Puoi creare più unità di misura per ogni unità di vendita e assegnare le unità ai prodotti in [!INCLUDE[crm_md](includes/crm_md.md)]. Successivamente, sarai in grado di sincronizzare i prodotti con articoli e risorse in [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile associare manualmente unità di misura articolo o unità di misura risorsa con un'unità di vendita. Quando lo fai, se l'unità di vendita per l'articolo o la risorsa non è associata a un'unità di vendita in [!INCLUDE[crm_md](includes/crm_md.md)], ad esempio, perché l'unità di vendita non esisteva, [!INCLUDE[prod_short](includes/prod_short.md)] creerà automaticamente l'unità di vendita in [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="mapping-items-and-resources-to-products"></a>Mappatura di articoli e risorse a prodotti
+Quando attivi l'opzione di funzionalità **Aggiornamento funzionalità: sincronizzazione di più unità di misura con Dynamics 365 Sales**, accade quanto segue:
+
+* Vengono create nuove mappature per articoli e risorse.
+* Le mappature esistenti vengono eliminate. <!--which mappings?-->
+* Un aggiornamento dei dati crea unità di vendita per articoli e risorse.
+
+Per utilizzare le nuove mappature, è necessario sincronizzare le unità di vendita, l'unità di misura dell'articolo e l'unità di misura della risorsa. È inoltre necessario risincronizzare articoli e risorse. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] non consente di modificare un'unità di vendita per un prodotto. Pertanto, è necessario ritirare i prodotti e dissociare gli articoli e le risorse, quindi sincronizzare creando nuovi prodotti in [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+I passaggi seguenti descrivono i passaggi per avviare la mappatura delle unità di vendita:
+
+1. Assicurati che i prodotti in [!INCLUDE[crm_md](includes/crm_md.md)] non siano associati a articoli o risorse in [!INCLUDE[prod_short](includes/prod_short.md)]. Se lo sono, vai nella pagina **Articoli** e/o **Risorse**, utilizza le opzioni di filtro per selezionare i record associati, quindi scegli l'Azione **Dynamics 365 Sales** e seleziona **Annulla associazione**. Questo pianifica un processo in background per annullare l'associazione dei record. Mentre il processo è in esecuzione, puoi verificarne lo stato utilizzando l'azione **Registro sincronizzazione**. Per ulteriori informazioni, vedere [Associazione e sincronizzazione](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Dal momento che i nuovi prodotti verranno creati in [!INCLUDE[crm_md](includes/crm_md.md)] con nuove unità di vendita, per evitare nomi duplicati, esegui una delle seguenti operazioni:
+    
+    * Rinomina i tuoi prodotti e poi ritirali in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Ritirare i prodotti (hub delle vendite)](/dynamics365/sales-enterprise/retire-product). Per modificare in blocco i tuoi prodotti in Microsoft Excel, accedi a Power Apps, scegli il tuo ambiente, vai alla tabella **Prodotto** e scegli la scheda **Dati**. Cancella tutti i filtri applicati. Nel gruppo **Dati** scegli l'azione **Modifica dati in Excel**. Aggiungi un prefisso o un suffisso ai prodotti associati, quindi ritirali.
+    * Ritira i tuoi prodotti ed eliminali. 
+
+3. Segui questi passaggi per sincronizzare **Unità di vendita**, **Unità di misura**, **Articoli** e **Risorse**:
+    1. In [!INCLUDE[prod_short](includes/prod_short.md)], apri la pagina **Setup connessione a Dynamics 365 Sales**.
+    2. Utilizza l'azione **Esegui sincronizzazione completa** per aprire la pagina **Revisione sincronizzazione completa Dataverse**.
+    3. Per le mappature **UDM ARTICOLO**, **UDM RISORSA** E **UNITÀ DI VENDITA** scegli l'azione **Sincronizzazione completa consigliata**.
+    4. Scegliere l'azione **Sincronizza tutto**.
+
+    > [!NOTE]
+    > Per le mappature che non sono state ancora completamente sincronizzate, questa azione le sincronizzerà completamente. Per impedire la sincronizzazione di tali mappature, elimina le mappature dalla pagina. Questo le rimuove solo dalla sincronizzazione completa corrente e non elimina le mappature.
+    
+5. Scegli la mappatura **ARTICOLO-PRODOTTO** quindi scegli l'azione **Riavvia**. Questo crea nuovi prodotti dagli articoli in [!INCLUDE[crm_md](includes/crm_md.md)] e assegna un nuova unità di vendita specifica per l'articolo.
+6. Scegli la mappatura **RISORSA-PRODOTTO** quindi scegli l'azione **Riavvia**. Questo crea nuovi prodotti dalle risorse in [!INCLUDE[crm_md](includes/crm_md.md)] e assegna un nuova unità di vendita specifica per le risorse.
 
 ### <a name="synchronization-rules"></a>Regole di sincronizzazione
 

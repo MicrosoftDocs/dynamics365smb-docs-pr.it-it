@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
+ms.search.form: 42, 48, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 543a334e087db85b15b5237a37702d410254f266
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588503"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752343"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Vendere prodotti con un ordine di vendita cliente  
 
@@ -34,7 +35,7 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 > [!NOTE]  
 > La seguente procedura presuppone che il cliente sia già impostato. Per istruzioni su come eseguire questa operazione, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Selezionare **Nuovo** per creare una nuova voce.
 3. Nel campo **Cliente** immettere il nome di un cliente esistente.
 

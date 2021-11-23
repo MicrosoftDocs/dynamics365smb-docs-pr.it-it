@@ -1,5 +1,5 @@
 ---
-title: Come creare fatture di pagamenti anticipati
+title: Creare fatture per i pagamenti anticipati
 description: Informazioni su come gestire situazioni in cui un pagamento anticipato viene richiesto da te o dal fornitore. Usa le percentuali predefinite per ogni riga di vendita o di acquisto oppure rettifica l'importo come necessario.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442187"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701567"
 ---
 # <a name="create-prepayment-invoices"></a>Creare fatture per i pagamenti anticipati
 
 Se è necessario che i clienti inviino il pagamento prima della spedizione di un ordine, è possibile utilizzare la funzionalità di pagamento anticipato. Lo stesso vale se il fornitore richiede di inviare il pagamento prima di spedire un ordine.  
 
-È possibile creare un processo di pagamento anticipato quando si crea un ordine di vendita o di acquisto. Se è impostata una percentuale di pagamento anticipato predefinita per il cliente o il fornitore, verrà automaticamente inclusa nella fattura di pagamento anticipato risultante. È inoltre possibile specificare una percentuale di pagamento anticipato per l'intero documento.
+È possibile creare un processo di pagamento anticipato quando si crea un ordine di vendita o di acquisto. Se è impostata una percentuale di pagamento anticipato predefinita per un articolo dell'ordine o per il cliente o il fornitore, verrà automaticamente inclusa nella fattura di pagamento anticipato risultante. È inoltre possibile specificare una percentuale di pagamento anticipato per l'intero documento.
 
 Dopo avere creato un ordine di vendita o di acquisto, è possibile creare una fattura pagamento anticipato. È possibile utilizzare le percentuali di default per ogni riga di vendita o di acquisto oppure rettificare l'importo come necessario. È ad esempio possibile specificare un importo totale per l'intero ordine.  
 
@@ -29,7 +29,7 @@ La procedura seguente descrive come fatturare un pagamento anticipato per un ord
 
 ## <a name="to-create-a-prepayment-invoice"></a>Per creare una fattura di pagamento anticipato
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Creare un nuovo ordine di vendita per un cliente pertinente. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
 
     Nella scheda dettaglio **Pagamento anticipato** il campo **% pagamento anticipato** specifica la percentuale da utilizzare per calcolare l'importo del pagamento anticipato. Se nella scheda cliente è impostata una percentuale pagamento anticipato di default, il campo viene compilato automaticamente. È possibile modificare la percentuale. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  

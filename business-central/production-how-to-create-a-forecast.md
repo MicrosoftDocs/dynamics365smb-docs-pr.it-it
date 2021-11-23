@@ -1,6 +1,6 @@
 ---
 title: Come creare una previsione della domanda
-description: Informazioni sulla funzionalità di previsione in Business Central e su come creare previsioni di vendita e produzione.
+description: Informazioni sulle funzionalità di previsione della domanda e su come creare previsioni di vendita e produzione.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438689"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643969"
 ---
 # <a name="create-a-demand-forecast"></a>Creare una previsione della domanda
 Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.  
@@ -44,15 +44,14 @@ La previsione di componenti può essere considerata la previsione di un'opzione 
 Poiché la previsione di componenti è progettata per definire le opzioni di un articolo principale, deve essere uguale o minore alla quantità di previsione degli articoli di vendita. Se la previsione di componenti è maggiore rispetto alla previsione di tipo articolo di vendita, la differenza tra i due tipi di previsione verrà trattata come domanda indipendente.  
 
 ## <a name="forecasting-periods"></a>Previsione di periodi  
- Il periodo di previsione è valido dalla data di inizio alla data di inizio della previsione successiva. La pagina relativa all'intervallo di tempo offre diverse opzioni tra cui scegliere per l'inserimento della domanda in una data specifica all'interno di un periodo. È pertanto consigliabile evitare di modificare l'ambito del periodo di previsione a meno che non si desideri spostare tutti i movimenti previsioni alla data di inizio di tale periodo.  
+Il periodo di previsione è valido dalla data di inizio alla data di inizio della previsione successiva. La pagina relativa all'intervallo di tempo offre diverse opzioni tra cui scegliere per l'inserimento della domanda in una data specifica all'interno di un periodo. È pertanto consigliabile evitare di modificare l'ambito del periodo di previsione a meno che non si desideri spostare tutti i movimenti previsioni alla data di inizio di tale periodo.  
 
 ## <a name="forecast-by-locations"></a>Previsione in base alle ubicazioni  
-
-Nella pagina **Setup manufacturing** è possibile stabilire come gestire le ubicazioni definite nelle previsioni quando si calcola un piano. 
+Nella pagina **Setup manufacturing** è possibile specificare se considerare le ubicazioni definite nelle previsioni quando si calcolano i piani. 
 
 ### <a name="use-forecast-by-locations"></a>Usare la previsione in base alle ubicazioni
 
-Se si sceglie il campo **Usa previsione in base a ubicazione**, [!INCLUDE[prod_short](includes/prod_short.md)] rispetterà tutti i codici ubicazione specificati per ogni voce Previsione della domanda e calcolerà la previsione rimanente per ciascuna ubicazione.  
+Se attivi **Usa previsione in base a ubicazione**, [!INCLUDE[prod_short](includes/prod_short.md)] rispetterà tutti i codici ubicazione specificati per ogni voce previsione della domanda e calcolerà la previsione rimanente per ciascuna ubicazione.  
 
 Considerare questo esempio: l'azienda acquista e vende articoli in due ubicazioni: EST e OVEST. Per entrambe le ubicazioni, sono stati configurati criteri di riordino lotto a lotto. Si crea una previsione per le due ubicazioni:
 
@@ -68,7 +67,7 @@ Quindi si crea un ordine cliente con una quantità di 12 pezzi nell'ubicazione O
 >  Se le previsioni basate sull'ubicazione vengono visualizzate singolarmente, la previsione complessiva potrebbe non essere rappresentativa.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Non utilizzare previsioni in base alle ubicazioni
-Se si disattiva **Usa previsione in base a ubicazione**, [!INCLUDE[prod_short](includes/prod_short.md)] ignorerà tutti i codici ubicazione specificati per ogni voce Previsione della domanda e aggregherà le previsioni in una previsione per ubicazioni vuote.  
+Se disattivi **Usa previsione in base a ubicazione**, [!INCLUDE[prod_short](includes/prod_short.md)] ignorerà tutti i codici ubicazione specificati per ogni voce previsione della domanda e aggregherà le previsioni in una previsione per ubicazioni vuote.  
 
 Considerare questo esempio: l'azienda acquista e vende articoli in due ubicazioni: EST e OVEST. Per entrambe le ubicazioni, sono stati configurati criteri di riordino lotto a lotto. Si crea una previsione per le due ubicazioni:
 
@@ -85,7 +84,7 @@ Quindi si crea un ordine cliente con una quantità di 12 pezzi nell'ubicazione O
 
 ## <a name="to-create-a-demand-forecast"></a>Per creare una previsione della domanda
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Previsione della domanda**, quindi seleziona il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Previsione della domanda**, quindi seleziona il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale** selezionare una previsione nel campo **Nome previsione della domanda**. Possono essere presenti più previsioni, differenziate da nome e tipo di previsione.  
 3. Nel campo **Filtro ubicazione**, selezionare l'ubicazione a cui la previsione viene applicata.
 4. Nel campo **Visualizza per** per modificare il periodo visualizzato in ciascuna colonna. È possibile selezionare i seguenti intervalli: **Giorno**, **Settimana**, **Mese**, **Trimestre**, **Anno** oppure il **Periodo contabile** come impostato nell'area finanziaria.    

@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 67767e95743d10b0f0b49ec2c034984187ffc5ff
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7e17ae2b89322f1e07adb42b922193a569b610d4
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587594"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724864"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Funzionalità nuove e pianificate per Dynamics 365 Business Central
 
@@ -28,11 +28,13 @@ Il seguente elenco fornisce informazioni sulle ultime versioni di [!INCLUDE [pro
 
 È anche possibile visitare il sito [Funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) e il sito [Roadmap di Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/).  
 
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription."](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ricevere una notifica sulle modifiche tramite un feed RSS
+
+[!INCLUDE [ua-rss](includes/ua-rss.md)]
 
 ## <a name="see-also"></a>Vedere anche
 
-[Visita la nostra videoteca](across-videos.md)  
+[Visitare la videoteca](across-videos.md)  
 [Risorse per aiuto e supporto](product-help-and-support.md)  
 [Dynamics 365 Business Central in Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  

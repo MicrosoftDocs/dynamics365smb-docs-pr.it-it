@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482172"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724711"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gestire l'archiviazione eliminando documenti o comprimendo i dati
 
@@ -57,7 +57,7 @@ Il numero dei movimenti creati da una compressione data dipende dal numero di fi
 Quando definisci i criteri per la compressione, puoi utilizzare le opzioni sotto **Mantieni contenuto campo** per mantenere il contenuto di determinati campi. I campi disponibili dipendono dai dati che stai comprimendo.
 
 > [!NOTE]
-> Prima di poter eseguire la compressione della data, le visualizzazioni dell'analisi devono essere aggiornate. Per ulteriori informazioni, vedi [Per aggiornare una vista di analisi](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+> Prima di poter eseguire la compressione della data, le visualizzazioni dell'analisi devono essere aggiornate. Per ulteriori informazioni, vedi [Per aggiornare una vista di analisi](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
 In seguito alla compressione verranno sempre mantenute le informazioni contenute nei seguenti campi: **Data di registrazione**, **Nr. fornitore**, **Tipo di documento**, **Codice valuta**, **Categoria registrazione**, **Importo**, **Importo residuo**, **Importo originario (VL)**, **Importo residuo (VL)**, **Importo (VL)**, **Acquisti (VL)**, **Sconto fattura (VL)**, **Sconto pagam. applicato (VL)** e **Colleg. sconto pag. possibile**.
 
