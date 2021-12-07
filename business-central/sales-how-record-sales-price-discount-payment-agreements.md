@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b7943caba8482e39217307be904f368f0ec31c0
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752432"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865548"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Registrare i prezzi di vendita e gli sconti
 > [!NOTE]
@@ -52,15 +52,13 @@ Nel caso degli sconti, è possibile impostare e utilizzare i seguenti tipi:
 
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. Se l'aggiornamento delle funzionalità non è attivato, segui i passaggi nella scheda Esperienza corrente. 
 
-#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)
+## <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Scegli il cliente, quindi l'azione **Prezzi**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà un prezzo di vendita speciale al cliente.
 
----
-
-#### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
+## <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)  
 Per default, lo stato dei nuovi listini prezzi è Bozza. I listini prezzi in bozza non sono inclusi nel calcolo dei prezzi. Quando hai finito di aggiungere righe e desideri iniziare a usare i prezzi puoi modificare lo stato in Attivo.
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , immetti **Clienti**, quindi scegli il collegamento correlato.
@@ -100,7 +98,7 @@ Quando abiliti l'aggiornamento della funzionalità **Nuova esperienza prezzo di 
 
 Se hai già abilitato la Nuova esperienza prezzi, puoi creare listini prezzi predefiniti manualmente o specificare un listino prezzi esistente come predefinito. Per impostare un listino prezzi esistente come predefinito, attiva l'interruttore **Consenti aggiornamento impostazioni predefinite** per il listino prezzi. Quindi nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** o **Setup commesse** imposta il listino prezzi come predefinito.
 
-### <a name="editing-active-price-lists"></a>Modifica dei listini prezzi attivi
+## <a name="editing-active-price-lists"></a>Modifica dei listini prezzi attivi
 Per consentire alle persone di modificare i prezzi sui listini prezzi attivi per articoli, risorse, clienti, fornitori o altre entità che utilizzano i prezzi, attiva l'interruttore **Consenti modifica prezzo attivo** nelle pagine **Setup contabilità clienti** e **Setup contabilità fornitori**. 
 
 Quando l'interruttore **Consenti modifica prezzo attivo** è disattivato, per aggiornare i prezzi in un listino prezzi è necessario modificare lo stato del listino prezzi in **Bozza**, apportare la modifica, quindi riattivare il listino.
@@ -121,7 +119,7 @@ Successivamente, puoi utilizzare l'azione **Implementare variazione prezzi** per
 ## <a name="to-copy-sales-prices"></a>Per copiare prezzi di vendita
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. Se l'aggiornamento delle funzionalità non è attivato, segui i passaggi nella scheda Esperienza corrente.
 
-#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)  
+## <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)  
 
 Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un singolo cliente per poterli utilizzare per un gruppo prezzi cliente, eseguire il processo batch **Suggerisci prezzo vendita in prosp.** nella pagina **Prospetto Prezzi Vendita**.  
 
@@ -135,9 +133,7 @@ Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un s
    > [!NOTE]  
    > Il processo batch fornisce soltanto suggerimenti e non consente di implementare le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella pagina **Prezzo vendita**, scegliere l'azione **Implementare variazione prezzi** nella pagina **Prospetto prezzi vendita**.
 
----
-
-#### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
+## <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)  
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Listini prezzi di vendita**, quindi seleziona il collegamento correlato. 
 2. Scegliere il listino prezzi da copiare e quindi scegliere **Copia righe**.
@@ -151,7 +147,7 @@ Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un s
 ## <a name="to-bulk-update-item-prices"></a>Per aggiornare in blocco i prezzi degli articoli
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. Se l'aggiornamento delle funzionalità non è attivato, segui i passaggi nella scheda Esperienza corrente.
 
-#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)
+### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)
 
 Puoi compilare il **Prospetto Prezzi Vendita** per aggiornare in blocco i prezzi degli articoli, come aumentare tutti i prezzi di una determinata percentuale usando il seguente processo:
 
@@ -167,14 +163,14 @@ Puoi compilare il **Prospetto Prezzi Vendita** per aggiornare in blocco i prezzi
 7. Scegli **OK** per compilare le righe nella pagina **Foglio di lavoro prezzi di vendita** con i nuovi prezzi suggeriti.
 8. Per implementare i suggerimenti, utilizza l'azione **Implementare variazione prezzi**. Il processo batch crea suggerimenti ma non li implementa.
 
----
-
-#### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)
+## <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)
 
 Per aggiornare i prezzi per più articoli, è necessario creare un nuovo listino prezzi e quindi copiare le righe da un listino prezzi esistente. Quando si copiano le righe, è anche possibile utilizzare i filtri per specificare cosa copiare, nonché specificare un numero intero o decimale nel campo **Fattore rettifica** per aumentare o ridurre i prezzi. Il listino prezzi deve essere nello stato **Bozza**. Se necessario, è possibile quindi disattivare il vecchio listino prezzi.
 
 > [!NOTE]
 > Non possono esistere due righe con le stesse impostazioni, ma prezzi differenti. In tal caso, verrà visualizzato un messaggio quando si attiva un listino prezzi. È possibile scegliere il prezzo da utilizzare aprendo il listino ed eliminando il prezzo errato.  
+
+---
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Sconti fattura di vendita e Addebito assistenza
 Quando usi gli sconti fattura, l'importo totale in fattura determina lo sconto applicato. Nella pagina **Sconti fattura clienti** è inoltre possibile aggiungere un addebito di assistenza a fatture che superano un certo importo.  
@@ -189,8 +185,6 @@ Oltre a oppure invece di una percentuale di sconto, è possibile collegare l'imp
 
 Per informazioni sugli sconti per le vendite, vedere [Impostare gli sconti per i clienti](/learn/modules/customer-discounts-dynamics-365-business-central/index) in Microsoft Learn.  
 
----
-
 ### <a name="calculating-invoice-discounts-on-sales"></a>Calcolo degli sconti fattura per le vendite
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
@@ -198,7 +192,7 @@ Per informazioni sugli sconti per le vendite, vedere [Impostare gli sconti per i
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Per impostare uno sconto riga vendita per un cliente
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. Se l'aggiornamento delle funzionalità non è attivato, segui i passaggi nella scheda Esperienza corrente.
 
-#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)  
+## <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda cliente interessata e scegliere l'azione **Sconti riga**.
@@ -209,9 +203,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 >
 > Per impostare i prezzi o gli sconti riga per tutti i clienti, un gruppo di prezzi dei clienti o una campagna, è necessario aprire le pagine da una scheda articolo. In alternativa, per i prezzi di vendita, utilizzare la pagina **Prospetto Prezzi Vendita**. Per ulteriori informazioni, vedere [Per aggiornare in blocco i prezzi degli articoli](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
----
-
-#### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
+## <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)  
 
 1. Scegli la ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Clienti** e quindi scegli il collegamento correlato.
 2. Scegli il cliente, quindi l'azione **Listini prezzi di vendita**.
@@ -220,10 +212,12 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 5. Nel campo **Definisce** scegliere **Prezzo e sconto** o solo **Sconto**. 
 6. Nel campo **% sconto riga** specificare la percentuale di sconto.
 
-    > [!TIP]
-    > Puoi filtrare le righe scegliendo l'opzione appropriata nel campo **Visualizza colonne per**.
-    > [!NOTE]  
-    > I codici sconto fattura sono rappresentati da schede clienti esistenti. Usando i nomi cliente come codice ti consente di assegnare rapidamente le condizioni dello sconto fattura ai clienti perché basterà selezionare il nome di un altro cliente che avrà le stesse condizioni. Per impostare le condizioni di sconto fattura specifiche del cliente, impostare il campo **Codice sconto fattura** sul codice cliente del cliente, quindi procedere al passaggio successivo.
+   > [!TIP]
+   > Puoi filtrare le righe scegliendo l'opzione appropriata nel campo **Visualizza colonne per**.   
+  
+   > [!NOTE]
+   > I codici sconto fattura sono rappresentati da schede clienti esistenti. Usando i nomi cliente come codice ti consente di assegnare rapidamente le condizioni dello sconto fattura ai clienti perché basterà selezionare il nome di un altro cliente che avrà le stesse condizioni. Per impostare le condizioni di sconto fattura specifiche del cliente, impostare il campo **Codice sconto fattura** sul codice cliente del cliente, quindi procedere al passaggio successivo.
+
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Per impostare uno sconto fattura per un cliente
@@ -243,8 +237,6 @@ Ora imposta le condizioni dello sconto fattura di vendita.
 3. Nel campo **Importo minimo** immettere l'importo minimo che una fattura deve avere affinché le possa essere applicato lo sconto.
 4. Nel campo **% sconto** immettere lo sconto fattura sotto forma di percentuale dell'importo fattura.
 5. Ripetere i passaggi da 5 a 7 per ogni valuta per la quale il cliente riceverà uno sconto fattura diverso.
-
----
 
 ## <a name="best-price-calculation"></a>Calcolo del prezzo migliore
 Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino.

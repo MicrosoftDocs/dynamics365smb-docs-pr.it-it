@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c21d06eaaa9200bb11839d1b2db1666c816638b3
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588728"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865392"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Accoppiamento e sincronizzazione dei record tra Dataverse e Business Central
 
@@ -25,6 +25,7 @@ In questo argomento viene descritto come associare uno o più record in [!INCLUD
 > L'associazione e la sincronizzazione dei dati è disponibile solo se l'amministratore di sistema ha creato una connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] e Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. Un modo rapido di verificare è di aprire la scheda **Cliente** e di cercare l'azione **Imposta associazione**. Se l'azione è disponibile, le app sono collegate.   
 
 ## <a name="video-example"></a>Esempio di video
+Questo video mostra l'associazione e la sincronizzazione dei dati nel contesto di un'integrazione con [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444797"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865340"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
@@ -35,7 +35,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 3.  Nella scheda **Sviluppatore**, scegliere **Riquadro mapping XML**.  
   
-4.  Nel riquadro **Mapping XML**, nell'elenco a discesa **Parte XML personalizzata**, scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
+4.  Nel riquadro **Mapping XML** nell'elenco a discesa **Parte XML personalizzata** scegliere la parte XML personalizzata per il report [!INCLUDE[prod_short](includes/prod_short.md)] che di solito è l'ultimo dell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
  Le immagini vengono allineate all'angolo in alto a sinistra del controllo contenuto e ridimensionate automaticamente per rispettare il limite del controllo contenuto.  
   
 > [!IMPORTANT]  
->  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine con un formato non supportato da Word, quando si esegue il report dal client di ADD INCLUDE sarà visualizzato<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> un errore.  
+>  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine il cui formato non è supportato da Word, verrà visualizzato un errore quando si esegue il report dal client [!INCLUDE[prod_short](includes/prod_short.md)].  
   
 #### <a name="to-add-an-image"></a>Per aggiungere un'immagine  
   
@@ -107,7 +107,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 ### <a name="custom-xml-part-in-word"></a>Personalizzare la parte XML in Word  
  In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
- Gli elementi nel riquadro **Mapping XML** vengono visualizzati in una struttura che è simile all'origine XML. I campi etichetta vengono raggruppati sotto di un elemento comune **Etichette**, mentre gli elementi di dati e le colonne sono disposti in una struttura gerarchica corrispondente all'origine XML, con le colonne elencate in ordine alfabetico. Gli elementi vengono identificati dal proprio nome come definito dalla proprietà nome in Progettazione set di dati del report in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ Gli elementi nel riquadro **Mapping XML** vengono visualizzati in una struttura che è simile all'origine XML. I campi etichetta vengono raggruppati sotto di un elemento comune **Etichette**, mentre gli elementi di dati e le colonne sono disposti in una struttura gerarchica corrispondente all'origine XML, con le colonne elencate in ordine alfabetico. Gli elementi sono identificati dal nome della colonna come definito nel set di dati del report nel codice AL. Per ulteriori informazioni vedi [Definizione di un set di dati del report](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  La figura seguente illustra la parte XML semplice personalizzata dalla sezione precedente nel riquadro **Mapping XML** di un documento Word.  
   

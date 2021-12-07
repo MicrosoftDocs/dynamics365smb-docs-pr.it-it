@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588253"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865444"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -37,7 +37,7 @@ I tasti di scelta rapida agevolano l'accessibilità e rendono più semplice ed e
 Molti dei tasti di scelta rapida sono uguali indipendentemente dal sistema operativo utilizzato (Windows o macOS). Tuttavia, alcuni sono differenti per macOS. Questi tasti di scelta rapida sono indicati tra parentesi nelle sezioni seguenti.
 
 > [!NOTE]
-> Oltre ai tasti di scelta rapida globali descritti in questo argomento, sono disponibili numerosi tasti di scelta rapida specifici dell'azienda. Ad esempio, nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], F9 registra un documento e CTRL+F7 mostra i movimenti contabili per un record quando si apre il record in una scheda. (questi possono risultare diversi nella propria soluzione). Il tasto di scelta rapida è visualizzato nella descrizione comando per l'azione in questione.
+> Oltre alle scelte rapide da tastiera globali descritte in questo articolo, sono disponibili una serie di scelte rapide specifiche per l'azienda. Ad esempio, nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], F9 registra un documento e CTRL+F7 mostra i movimenti contabili per un record quando si apre il record in una scheda. Questo articolo include alcune delle scelte rapide più comuni specifiche per l'azienda, che sono mostrate in corsivo. Tieni presente che le scelte rapide effettive potrebbero essere diverse nella tua soluzione. Nell'interfaccia utente, la scelta rapida da tastiera è mostrata nella descrizione comando per l'azione in questione.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Tasti di scelta rapida generali
 
@@ -83,7 +83,15 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Ordinare la colonna selezionata in ordine crescente o decrescente.|Non applicabile.|
 |ALT+N|Inserire una nuova riga in un elenco modificabile, ad esempio la pagina **Budget C/G**.|Stessa operazione.|
+|Shift+F9|Registra e stampa un documento.|Stessa operazione.|
 |Shift+F10 |Aprire un menu di opzioni disponibili per la riga selezionata.|Stessa operazione.|
+|Alt+D|Apri le voci del set di dimensioni.|Stessa operazione.|
+|Ctrl+F7|Apri voci contabili, voci di registro, voci di costo e così via.|
+|Ctrl+F9|Rilascia il documento.|Stessa operazione.|
+|*F7*|Apri le statistiche.|Stessa operazione.|
+|*F9*|Invia, emetti, registra o inverti il documento.|Stessa operazione.|
+|*Maiusc+Ctrl+F*|Invia le righe suggerite nella pagina dei fogli di lavoro del flusso di cassa.|Non applicabile.|
+|*Maiusc+Ctrl+I*|Visualizza i numeri di serie e di lotto assegnati alla voce nel documento o nel giornale di registrazione.|Non applicabile.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Spostarsi tra righe e colonne
 
@@ -103,7 +111,7 @@ Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE
 | Freccia su | Spostare il cursore nella stessa colonna sul campo nella riga sopra. | Spostare il cursore nella stessa colonna sul riquadro nella riga sopra. |
 | Freccia destra | In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo successivo a destra.<br /><br />In un elenco modificabile, spostarsi a destra all'interno del campo corrente. | Spostare il cursore nella stessa riga sul riquadro successivo a destra. |
 | Freccia sinistra | In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo precedente a sinistra. <br /><br />In un elenco modificabile, spostarsi a sinistra all'interno del campo corrente. | Spostare il cursore nella stessa riga sul riquadro precedente a sinistra. |
-| TAB | In un elenco modificabile, spostare il cursore nella stessa riga sul campo successivo a destra. | Non applicabile. |  |
+| TAB | In un elenco modificabile, spostare il cursore nella stessa riga sul campo successivo a destra. | Non applicabile. | 
 | MAIUSC+TAB | In un elenco modificabile, spostare il cursore nella stessa riga sul campo precedente a sinistra. | Non applicabile. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selezionare, copiare e incollare
@@ -142,7 +150,9 @@ I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cli
 
 |Premere questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
+|Alt+D|Apri le voci del set di dimensioni.|
 |Alt+F6|Attivare/disattivare la compressione/espansione per la Scheda dettaglio o parte (pagina secondaria) corrente.|
+|Alt+F9|Crea un nuovo documento e registralo.|
 |Alt + G|Aprire la pagina **Trova movimenti** per la ricerca di movimenti relativi al documento registrato. Funziona anche sugli elenchi.|
 |ALT+N |Aprire una pagina per creare un nuovo record; equivale a selezionare l'azione **Nuovo**. |
 |ALT+MAIUSC+N |Chiudere una pagina e aprirne una nuova per creare un nuovo record; equivale a selezionare l'azione **OK e nuovo**. |
@@ -152,9 +162,15 @@ I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cli
 |CTRL+Freccia SU |Aprire il record precedente per un'entità.|
 |CTRL+INS |Inserire una nuova riga in documenti.|
 |CTRL+CANC |Eliminare la riga in documenti, giornali e fogli di lavoro.|
+|Ctrl+F7|Apri voci contabili, voci di registro, voci di costo e così via.|
+|Ctrl+F9|Rilascia il documento.|
 |Ctrl+Shift+F12 |Ingrandire la parte Voci in una pagina del documento. Premere di nuovo i tasti per tornare alla visualizzazione normale. Per ulteriori informazioni, vedere [Spostare lo stato attivo su Voci](ui-enter-data.md#Focus).|
 |F6|Spostare il cursore alla Scheda dettaglio o alla parte successiva (pagina secondaria).|
+|*F7*|Apri le statistiche.|
+|*F9*|Invia, emetti, registra o inverti il documento.|
+|*Maiusc+Ctrl+F9*|Invia, stampa e conserva la ricevuta di magazzino.|
 |Shift+F6|Spostarsi sulla parte o Scheda dettaglio precedente (pagina secondaria).|
+|*Maiusc+F9*|Registra e stampa un documento.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Scelte rapide di Accesso rapido per campi
 

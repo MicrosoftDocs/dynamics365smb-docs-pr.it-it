@@ -1,6 +1,6 @@
 ---
 title: Caratteri disponibili
-description: La versione online di Business Central contiene caratteri preinstallati sui server che possono essere utilizzati durante la generazione dei report.
+description: Ulteriori informazioni sui caratteri preinstallati che è possibile utilizzare per i report rivolti all'esterno.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588026"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868303"
 ---
 # <a name="available-fonts"></a>Caratteri disponibili
 
@@ -48,15 +48,22 @@ Oltre ai caratteri MICR, sono disponibili caratteri di sicurezza speciali per ge
 Per ulteriori informazioni, vedere [Selezionare un layout degli assegni](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Caratteri per i codici a barre
-I caratteri per generare codici a barre unidimensionali sono installati e disponibili per l'uso in entrambi i layout report RDLC e Word.
+I caratteri per generare codici a barre sono installati e disponibili per l'uso in entrambi i layout di report di Word e RDLC.
 
-Sono supportate le seguenti simbologie di codici a barre:
+Sono supportate le seguenti simbologie di codici a barre unidimensionali:
 * Codice 3 di 9 (Codice 39)
 * Codice 128
 * Codice 93
 * Codabar
 * MSI
 * Interleaved 2 di 5
+
+Sono supportate le seguenti simbologie di codici a barre bidimensionali:
+* Aztec
+* Matrice di dati
+* Maxicode
+* PDF417
+* QR
 
 Per ulteriori informazioni, vedere [Font per codici a barre con Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 

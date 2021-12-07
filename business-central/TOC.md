@@ -24,27 +24,13 @@
 
 ### Dettagli di progettazione
 #### [Panoramica dei dettagli di progettazione dell'applicazione](design-details-application-design.md)
-#### Dettagli di progettazione: Pianificazione approvvigionamento
-##### [Panoramica della pianificazione degli approvvigionamenti](design-details-supply-planning.md)
-##### [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)  
-##### [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
-##### [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)  
-##### [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
-##### [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)  
-##### [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-demand-at-blank-location.md)  
-##### [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)
 #### Dettagli di progettazione: Costing di magazzino
-##### [Panoramica della determinazione dei costi](design-details-inventory-costing.md)
+##### [Dettagli di progettazione dei costi di inventario](design-details-inventory-costing.md)
 ##### [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 ##### [Dettagli di progettazione: modifica dei metodi di costing per gli articoli](design-details-changing-costing-methods.md)
 ##### [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
 ##### [Dettagli di progettazione: Problema noto di collegamento articoli](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)  
-##### Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica
-###### [Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Messaggio di errore "La data di invio non rientra nel tuo intervallo di date di invio consentite"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Data di registrazione nella registrazione del valore di aggiustamento rispetto alla registrazione di origine](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Dettagli di progettazione: Registrazione del costo previsto](design-details-expected-cost-posting.md)  
 ##### [Dettagli di progettazione: Costo medio](design-details-average-cost.md)  
 ##### [Dettagli di progettazione: Scostamento](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)
 ##### [Dettagli di progettazione: Valutazione di magazzino](design-details-inventory-valuation.md)  
 ##### [Dettagli di progettazione: Rivalutazione](design-details-revaluation.md)
+#### Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica
+##### [Panoramica della data di registrazione dell'immissione del valore di rettifica](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Messaggio di errore "La data di invio non rientra nel tuo intervallo di date di invio consentite"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Data di registrazione nella registrazione del valore di aggiustamento rispetto alla registrazione di origine](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Dettagli di progettazione: Movimenti set di dimensioni
+##### [Dettagli di progettazione: Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)
+##### [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)
+##### [Dettagli di progettazione - Struttura della tabella](design-details-table-structure.md)
+#### Dettagli di progettazione: Pianificazione approvvigionamento
+##### [Dettagli di progettazione della pianificazione approvvigionamento](design-details-supply-planning.md)
+##### [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)  
+##### [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
+##### [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)  
+##### [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
+##### [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)  
+##### [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-demand-at-blank-location.md)  
+##### [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)
 #### Dettagli di progettazione: Gestione warehouse
-##### [Panoramica gestione del magazzino](design-details-warehouse-management.md)
+##### [Dettagli di progettazione di Gestione warehouse](design-details-warehouse-management.md)
 ##### [Dettagli di progettazione: Panoramica warehouse](design-details-warehouse-overview.md)  
 ##### [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md)  
 ##### [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)  
 ##### [Dettagli di progettazione: Integrazione con il magazzino](design-details-integration-with-inventory.md)
 #### Dettagli di progettazione: Tracciabilità articolo
-##### [Panoramica della tracciabilità articolo](design-details-item-tracking.md)
+##### [Dettagli di progettazione della tracciabilità articolo](design-details-item-tracking.md)
 ##### [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)  
 ##### [Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo](design-details-item-tracking-posting-structure.md)  
 ##### [Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,18 +82,14 @@
 ##### [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 ##### [Dettagli di progettazione: Tracciabilità articolo nel magazzino](design-details-item-tracking-in-the-warehouse.md)
 #### Dettagli di progettazione: riga di registrazione di contabilità generale
-##### [Riga di registrazione di contabilità generale](design-details-general-journal-post-line.md)
+##### [Dettagli di progettazione della riga di registrazione di contabilità generale](design-details-general-journal-post-line.md)
 ##### [Sintesi della riga di registrazione di contabilità generale](design-details-general-journal-post-line-overview.md)  
 ##### [Dettagli di progettazione: Struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)  
 ##### [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)  
-#### Dettagli di progettazione: Movimenti set di dimensioni
-##### [Dettagli di progettazione: Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)  
-##### [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)  
-##### [Dettagli di progettazione - Struttura della tabella](design-details-table-structure.md)  
 
 ## Provare
 ### [Versioni di valutazione e sottoscrizioni](across-preview.md)
-### [Preparazione al business](ui-get-ready-business.md)
+### [Prepararsi a fare affari](ui-get-ready-business.md)
 ### [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md)
 ### [Estendere la versione di valutazione](admin-extend-trial.md)
 ### [Annullare la sottoscrizione o rimuovere Business Central](admin-cancel.md)
@@ -703,6 +703,7 @@
 ### [Ammortamento dei cespiti](fa-how-depreciate-amortize.md)
 ### [Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md)
 ### [Gestione dei budget per i cespiti](fa-how-manage-budgets.md)
+### [Risoluzione dei problemi relativi alle voci contabili per i cespiti](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Gestione delle relazioni
 ### [Panoramica della gestione delle relazioni](marketing-relationship-management.md)
@@ -1264,13 +1265,14 @@
 ##### [Tipi di identificazione fiscale per il Messico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Ricalcolo dell'IVA](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Fatturazione elettronica
-##### [Fatturazione elettronica](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Impostare la fatturazione elettronica](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Generare fatture elettroniche](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Fatturazione elettronica (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Impostare servizi Web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Impostare la fatturazione elettronica (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Generare fatture elettroniche (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Documenti di trasporto e ordini di trasferimento Carta de Porte (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Generale
 ##### [Regole contabili elettroniche in Messico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Effettuare pagamenti elettronici](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Generale
-##### [Impostare servizi Web PAC](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Stampare report di risoluzione dei problemi](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Creare depositi](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
