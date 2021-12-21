@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701517"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889822"
 ---
 # <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
+
 Se è necessario che i clienti inviino il pagamento prima della spedizione di un ordine, oppure se il fornitore richiede l'invio del pagamento prima di spedire l'ordine, è possibile utilizzare la funzionalità Pagamento anticipato. La funzionalità di pagamento anticipato consente di fatturare e riscuotere i depositi dai clienti o di rimettere i depositi ai fornitori e di garantire che tutti i pagamenti parziali siano registrati a fronte di una fattura. Per ulteriori informazioni, vedere [Creare fatture di pagamenti anticipati](finance-how-to-create-prepayment-invoices.md).
 
 Prima di registrare le fatture di pagamento anticipato, è necessario impostare i conti di registrazione nella contabilità generale e la numerazione per i documenti di pagamento anticipato. È necessario specificare un account per i pagamenti anticipati relativi alle vendite e un account per i pagamenti anticipati relativi agli acquisti. È possibile specificare gli stessi conti di registrazione da utilizzare per tutti i pagamenti anticipati relativi a tutte le categorie registrazione di attività generali o categorie registrazione di prodotti generici oppure è possibile specificare conti specifici per categorie registrazione specifiche rispettivamente per vendite e acquisti. Ciò dipende dai requisiti dell'azienda per il monitoraggio dei pagamenti anticipati.  
@@ -23,6 +24,7 @@ Prima di registrare le fatture di pagamento anticipato, è necessario impostare 
 
 > [!NOTE]
 > Si consiglia di non utilizzare una percentuale di pagamento anticipato del 100% nei seguenti casi:
+>
 > * Se ci si trova in Nord America. A causa del modo in cui vengono calcolate le imposte, una percentuale di pagamento anticipato del 100% può causare problemi con le fatture di pagamento anticipato.
 > * In tutte le regioni, se si deduce manualmente uno sconto di pagamento dalla fattura. Una percentuale di pagamento anticipato del 100% non lascerà automaticamente un importo da cui detrarre lo sconto. 
 
@@ -33,10 +35,10 @@ Poiché l'importo pagamento anticipato è di proprietà dell'acquirente fino a q
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Per aggiungere conti pagamento anticipato al setup registrazioni COGE  
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.
-2. Nella pagina **Setup registrazioni COGE** compilare i campi seguenti:  
+2. Nella pagina **Setup registrazioni COGE** compilare i campi seguenti per le righe pertinenti:  
 
-    - **Conto pagam. anticipati vendite**  
-    - **Conto pagam. anticipati acquisti**  
+    * **Conto pagam. anticipati vendite**  
+    * **Conto pagam. anticipati acquisti**  
 
 > [!TIP]
 > Se non è possibile vedere i campi nella pagina **Setup registrazioni COGE**, quindi utilizzare la barra di scorrimento orizzontale nella parte inferiore della pagina per scorrere verso destra.  
@@ -46,16 +48,16 @@ Se non sono già stati impostati i conti di contabilità generale per i pagament
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Per impostare la numerazione per i documenti pagamento anticipato  
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
-2. Nella pagina **Setup contabilità clienti e vendite** compilare i seguenti campi:  
+2. Nella pagina **Setup contabilità clienti**, nella Scheda dettaglio **Numerazioni** compilare i campi seguenti:  
 
-   - **Nr. fatt. pagam. ant. reg.**
-   - **Nr. note cr. pagam. ant. reg.**
+   * **Nr. fatt. pagam. ant. reg.**
+   * **Nr. note cr. pagam. ant. reg.**
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità fornitori**, quindi scegli il collegamento correlato.
-2. Nella pagina **Setup contabilità fornitori e acquisti** compilare i campi seguenti:
+3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità fornitori**, quindi scegli il collegamento correlato.
+4. Nella pagina **Setup contabilità fornitori**, nella Scheda dettaglio **Numerazioni** compilare i campi seguenti:
 
-    - **Nr. fatt. pagam. ant. reg.**
-    - **Nr. note cr. pagam. ant. reg.**
+    * **Nr. fatt. pagam. ant. reg.**
+    * **Nr. note cr. pagam. ant. reg.**
 
 > [!NOTE]  
 > È possibile utilizzare la stessa numerazione per le fatture pagamento anticipato e per quelle normali oppure utilizzare numerazioni diverse. In quest'ultimo caso, le numerazioni non devono sovrapporsi perché non ci devono essere numeri presenti in entrambe.  
@@ -74,6 +76,9 @@ Per un cliente o un fornitore, è possibile impostare una percentuale pagamento 
 2. Aprire la scheda per un cliente.
 3. Compilare il campo **% pagamento anticipato**.
 4. Ripetere i passaggi per altri clienti o fornitori.  
+
+> [!TIP]
+> Si può anche accedere alla pagina **Percentuali pagamenti anticipati vendite** dalla scheda cliente o fornitore.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Per determinare l'ordine di priorità delle percentuali pagamento anticipato  
 

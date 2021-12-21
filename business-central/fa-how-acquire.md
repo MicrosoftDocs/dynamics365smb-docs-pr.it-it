@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643932"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920957"
 ---
 # <a name="acquire-fixed-assets"></a>Acquisire i cespiti
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. Un registro beni ammortizzabili deve essere impostato e assegnato a ogni cespite prima di poterlo acquisire.
@@ -78,14 +78,14 @@ In caso di errore nella registrazione di un costo di acquisto, è possibile rimu
 Ad esempio, se si registra un acquisto con la data errata, è necessario correggerla prontamente perché la data di registrazione del cespite viene utilizzata in diversi calcoli.
 
 > [!IMPORTANT]  
->   Non è possibile utilizzare la funzione **Storno** per i movimenti di cespiti.
+> Non è possibile utilizzare la funzione **Storno** per i movimenti di cespiti.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Rimuovi mov. cespiti**, quindi scegli il collegamento correlato.
-2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Scegliere **OK** per eseguire il processo batch.
-4. Quando il movimento o i movimenti errati vengono annullati, continuare con la registrazione del costo di acquisto corretto.
-
-Per annullare i movimenti contabili per più cespiti alla volta, utilizzare il processo batch **Annulla mov. contabili cespiti**.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Movimenti contabili cespiti**, quindi scegliere il collegamento correlato.  
+2. Nella pagina **Movimenti contabili cespiti** selezionare il movimento o i movimenti da annullare.  
+3. Scegliere il menu **Azioni**, quindi scegliere l'azione **Annulla movimenti**.
+4. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Scegliere **OK** per eseguire il processo batch.
+6. Quando il movimento o i movimenti errati vengono annullati, continuare con la registrazione del costo di acquisto corretto.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Per registrare il valore di realizzo con il costo di acquisto
 È possibile registrare il valore di realizzo insieme al costo di acquisto da Registrazioni Cespiti.

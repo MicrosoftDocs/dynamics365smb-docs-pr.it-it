@@ -1,29 +1,34 @@
 ---
 title: Fatturare i pagamenti anticipati
 description: Scopri come usare la funzionalità di pagamento anticipato per fatturare e riscuotere i depositi richiesti dai clienti o di rimettere i depositi ai fornitori in Business Central.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/29/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3c919a5d63e4468b7f3182afe04890c6733d0cad
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322531"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889896"
 ---
 # <a name="invoicing-prepayments"></a>Fatturazione dei pagamenti anticipati
 
-I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale. Potrebbe essere necessario richiedere un deposito prima di iniziare la produzione di articoli su ordine oppure richiedere il pagamento prima della spedizione degli articoli a un cliente. La funzionalità di pagamento anticipato consente di fatturare e riscuotere i depositi richiesti dai clienti e di rimettere i depositi ai fornitori. In questo modo è possibile assicurarsi che tutti i pagamenti siano registrati a fronte di una fattura.  
+[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
- I requisiti del pagamento anticipato possono essere definiti per un cliente o un fornitore per tutti gli articoli o solo per alcuni. Una volta definite le impostazioni necessarie, è possibile generare fatture di pagamento anticipato da ordini di vendita o di acquisto per l'importo calcolato. È possibile modificare gli importi nella fattura in base alle esigenze. È ad esempio possibile specificare un importo totale per l'intero ordine. È inoltre possibile inviare ulteriori fatture di pagamento anticipato se, ad esempio, vengono aggiunti altri articoli all'ordine. È possibile aumentare le quantità o aggiungere nuove righe a un ordine dopo aver emesso un pagamento anticipato, quindi registrare un'altra fattura di pagamento anticipato. Se si desidera eliminare una riga per la quale è già stato fatturato un pagamento anticipato, è necessario emettere una nota di credito di pagamento anticipato prima di poter eliminare la riga.  
+[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
- Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
+Ad esempio, è possibile specificare un importo totale per l'intero ordine oppure distribuire il pagamento anticipato su ogni riga dell'ordine. È inoltre possibile inviare ulteriori fatture di pagamento anticipato se, ad esempio, vengono aggiunti altri articoli all'ordine. È possibile aumentare le quantità o aggiungere nuove righe a un ordine dopo aver emesso un pagamento anticipato, quindi registrare un'altra fattura di pagamento anticipato.  
+
+> [!NOTE]
+> Se si desidera eliminare una riga per la quale è già stato fatturato un pagamento anticipato, è necessario emettere una nota di credito di pagamento anticipato prima di poter eliminare la riga.
+
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
 |**Per**|**Vedere**|  
 |------------|-------------|  

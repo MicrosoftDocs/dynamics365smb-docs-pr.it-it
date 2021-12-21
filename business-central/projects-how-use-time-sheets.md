@@ -1,6 +1,6 @@
 ---
-title: Utilizzare fogli di tempo per i progetti
-description: Descrive come creare un foglio presenze per una commessa, copiarvi le righe di pianificazione, definire i tipi di lavoro, compilare il foglio di presenze e inviarlo per l'approvazione.
+title: Usare i fogli presenze
+description: Descrive come creare un foglio presenze, definire i tipi di lavoro, compilare il foglio presenze e inviarlo per l'approvazione.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.date: 08/24/2021
+ms.search.form: 973
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588834"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920905"
 ---
-# <a name="use-time-sheets-for-projects"></a>Utilizzare fogli di tempo per i progetti
+# <a name="use-time-sheets"></a>Usare i fogli presenze
 
-Utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. È necessario disporre dei permessi necessari per creare i fogli presenze.
+Si possono usare i fogli presenze in [!INCLUDE [prod_short](includes/prod_short.md)] per tenere traccia delle assenze e del tempo e delle risorse impiegati per un progetto. Mediante la gestione del tempo, è possibile identificare anticipatamente i problemi per evitare ritardi e sovraccarichi di costo. Tramite i fogli presenze, una risorsa può facilmente riferire l'utilizzo del tempo per una persona fisica o una macchina, mentre un manager può facilmente esaminare l'utilizzo e la relativa assegnazione. Questo articolo descrive come creare un foglio presenze, definire i tipi di lavoro, compilare il foglio presenze e inviarlo per l'approvazione.  
 
 È possibile copiare e utilizzare le righe di pianificazione commessa in un foglio presenze. In questo modo, sarà sufficiente immettere le informazioni in un punto per essere sicuri che le informazioni siano sempre corrette.
 
@@ -32,64 +33,106 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 
 ## <a name="to-create-time-sheets"></a>Per creare fogli di presenza
 
-È possibile utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task.
+È possibile utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.
-2. Nella pagina **Lista fogli presenze** scegliere l'azione **Crea fogli presenze**.
-3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!IMPORTANT]
+> È necessario disporre dei permessi necessari per creare i fogli presenze.
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.
+2. Nella pagina **Fogli presenze** scegliere l'azione **Crea fogli presenze**.
+3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > I campi **Usa foglio presenze** e **ID utente proprietario foglio presenze** devono essere compilati nella scheda della risorsa del foglio presenze.
 4. Scegliere il pulsante **OK**.  
 
-È possibile visualizzare i fogli presenze creati nella pagina **Lista fogli presenze**.
+È possibile visualizzare i fogli presenze creati nella pagina **Fogli presenze**. Ogni foglio presenze è costituito da una o più righe che definiscono l'ora che si desidera inviare per l'approvazione. La tabella seguente descrive i tipi di righe che è possibile aggiungere al foglio presenze.
+
+| **Campo** | **Descrizione** |
+|---|---|
+| | Consente di aggiungere una nota o un contrassegno nel campo **Descrizione** della riga del foglio presenze. Ad esempio, è possibile utilizzare questo campo per classificare i movimenti del foglio presenze. Se si lascia vuoto il campo **Tipo** per una riga del foglio presenze, non è possibile immettere i valori temporali nei campi relativi al giorno della settimana per la riga specificata. |
+| Assenze | Utilizzare per registrare il tempo di assenza durante la settimana lavorativa. Per completare le informazioni per la riga, specificare il tipo di assenza nel campo **Codice causa di assenza**. |
+| Ordine di assemblaggio | Utilizzato per registrare il tempo per gli ordini di assemblaggio. Una riga del foglio presenze di questo tipo viene creata durante la registrazione delle righe degli ordini di assemblaggio per i quali l'impostazione prevede che la risorsa utilizzi i fogli presenze. Non è possibile selezionare manualmente una riga di questo tipo. |
+| Commessa | Utilizzare per registrare l'utilizzo del tempo per un progetto. Per completare le informazioni per la riga, specificare il numero di commessa e il numero di task commessa per cui si desidera registrare il tempo. È possibile registrare il tempo per le righe non pianificate.|
+| Risorsa | Utilizzare per registrare l'utilizzo del tempo per una risorsa. Per completare le informazioni per la riga, immettere una descrizione del lavoro. |
+| Assistenza | Utilizzare per registrare l'utilizzo del tempo per un ordine di assistenza o una nota di credito di assistenza. |
+
+Ad esempio, per inviare un foglio presenze per una settimana lavorativa in cui è stata svolta un'attività di pulizia quasi tutti i giorni, ma è stato necessario un giorno libero a causa di appuntamenti medici, si devono aggiungere righe come illustrato nella tabella seguente.
+
+| Tipo | Descrizione | Codice tipo lavoro | Codice tipo di assenza |
+|--|--|--|--|
+| Risorsa | Orario di lavoro | Pulizia |  |
+| Assenze | Indisponibilità |  | Salute |
+|  | Martedì ho dovuto prendere un giorno libero per un appuntamento medico. |  |  |
+
+In questo esempio ipotetico, vengono registrate le ore pertinenti nei giorni specifici nei campi per ogni giorno della settimana.  
+
+> [!TIP]
+> Nella maggior parte dei casi, per l'azienda sono presenti tipi di lavoro predefiniti per i vari tipi di righe. In questi casi, scegliere semplicemente il tipo di lavoro pertinente dall'elenco, quindi aggiungere la propria descrizione.  
+>
+> Per selezionare il tipo di lavoro, scegliere il pulsante :::image type="icon" source="media/assist-edit-icon.png" border="false"::: nel campo **Descrizione**, scegliere l'azione **Dettagli attività**, quindi specificarlo nella pagina visualizzata oppure sceglierlo nel campo **Codice tipo lavoro** o **Codice tipo di assenza**, rispettivamente. In questo caso, è possibile ignorare la sezione [Per definire i tipi di lavoro e aggiungerne uno a un foglio presenze](#to-define-work-types-and-add-one-to-a-time-sheet).  
+
+## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Per riutilizzare le righe del foglio presenze in altri fogli presenze
+
+Se le informazioni del foglio presenze rimangono invariate da un periodo di tempo a un altro, è possibile risparmiare tempo copiando le righe dal periodo di tempo precedente. In questo modo, sarà sufficiente immettere l'utilizzo del tempo per il nuovo periodo.
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
+2. Aprire il foglio presenze per un periodo successivo al periodo per un foglio presenze esistente con le righe.  
+3. Scegliere l'azione **Copia righe da foglio presenze precedente**.
+
+Verranno copiate le righe e tutti i dettagli quali tipo e descrizione. Ad esempio, se la riga è correlata a una commessa, viene copiato **Nr. commessa**. Tutte le righe copiate presentano lo stato **Aperto**. È ora possibile modificare le righe in base alle esigenze.
 
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Per copiare le righe pianificazione commessa in un foglio presenze
 Nella procedura riportata di seguito viene descritto come aggiungere rapidamente righe pianificazione commessa a un foglio presenze.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
-2. Selezionare un foglio presenze per il periodo pertinente nella pagina **Lista fogli presenze**.  
-3. Scegli l'azione **Riga**, quindi scegli l'azione **Crea righe da pianificazione commessa**. Tutte le righe di pianificazione commessa nel periodo di tempo del foglio di presenze verranno copiate nel foglio di presenze della persona o della macchina indicata nel campo **Nr. risorsa** del foglio presenze.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Fogli presenze**, quindi scegliere il collegamento correlato.  
+2. Selezionare un foglio presenze per il periodo pertinente nella pagina **Fogli presenze**.  
+3. Scegliere l'azione **Crea righe da pianificazione commessa**. Tutte le righe di pianificazione commessa nel periodo di tempo del foglio di presenze verranno copiate nel foglio di presenze della persona o della macchina indicata nel campo **Nr. risorsa** del foglio presenze.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Per definire i tipi di lavoro e aggiungerne uno a un foglio presenze
-È possibile definire il tipo di lavoro per tutte le righe del foglio presenze relativo alle commesse. In questo modo, sarà possibile aggiungere le informazioni necessarie per fatturare al cliente diversi tipi di lavoro.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.   
-2. Aprire il foglio presenze appropriato.
-3. Scegliere il campo **Descrizione**.  
-4. Nella pagina **Dettaglio commessa righe foglio presenze** scegliere il campo **Codice tipo lavoro**, quindi selezionare un tipo di lavoro dall'elenco, ad esempio **Miglia**.  
-5. Se non esiste alcun tipo di lavoro, scegliere l'azione **Nuovo**.
-6. Nella pagina **Tipi di lavoro** compilare i campi in base alle esigenze.
-7. Ripetere il passaggio 4 per assegnare il nuovo tipo di lavoro al foglio presenze.
+È possibile definire il tipo di lavoro per tutte le righe del foglio presenze per gli ordini di assistenza, gli ordini commessa e le risorse. In questo modo, sarà possibile aggiungere le informazioni necessarie per fatturare al cliente diversi tipi di lavoro.  
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Per riutilizzare le righe del foglio presenze in altri fogli presenze
-Se le informazioni del foglio presenze rimangono invariate da un periodo di tempo a un altro, è possibile risparmiare tempo copiando le righe dal periodo di tempo precedente. In questo modo, sarà sufficiente immettere l'utilizzo del tempo per il nuovo periodo.
+1. Nella pagina **Fogli presenze** scegliere il foglio presenze rilevante.
+2. Sulla prima riga della sezione **Righe**, scegliere il campo **Tipo**, quindi scegliere il tipo rilevante, ad esempio *Risorsa*.  
+3. Scegliere il campo **Descrizione**, quindi nella pagina **Dettaglio risorse righe foglio presenze** compilare i campi. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+    1. Se non esiste alcun tipo di lavoro, scegliere l'azione **Nuovo**.
+    2. Nella pagina **Tipi di lavoro** compilare i campi necessari, quindi tornare al foglio presenze.
+4. Compilare il resto dei campi del foglio presenze. Per ulteriori informazioni, vedere la sezione [Per compilare le righe di un foglio presenze e inviarle per l'approvazione](#to-fill-in-time-sheet-lines-and-submit-for-approval).  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
-2. Aprire il foglio presenze per un periodo successivo al periodo per un foglio presenze esistente con le righe.  
-3. Scegli l'azione **Riga**, quindi scegli l'azione **Copia righe da foglio presenze precedente**.
-
-Verranno copiate le righe e tutti i dettagli quali tipo e descrizione. Ad esempio, se la riga è correlata a una commessa, viene copiato **Nr. commessa**. Tutte le righe copiate presentano lo stato **Aperto**. È ora possibile modificare le righe in base alle esigenze.
+> [!TIP]
+> Passaggi simili si applicano alla definizione dei codici assenza.
 
 ## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Per compilare le righe di un foglio presenze e inviarle per l'approvazione
-La registrazione del foglio presenze avviene in ore, l'unità di misura base standard per le risorse. Per impostazione predefinita, un foglio presenze mostra i giorni lavorativi normali dal lunedì al venerdì.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
+La registrazione del foglio presenze avviene in ore, l'unità di misura base standard per le risorse. Per impostazione predefinita, un foglio presenze mostra i giorni lavorativi normali dal lunedì al venerdì.  
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
 2. Seleziona un foglio presenze per il periodo in questione.
 3. Compilare i campi su una riga in base alle esigenze. Immettere il numero di ore utilizzate dalla risorsa ogni giorno della settimana.  
 
+    Nella maggior parte dei casi, per tenere traccia del lavoro, aggiungere una riga di tipo *Risorsa*, quindi registrare le ore trascorse ogni giorno. Se si desidera registrare l'assenza, aggiungere una riga di tipo *Assenza*.  
+
     > [!TIP]  
-    >   È possibile esaminare la somma delle ore del foglio presenze immessa nel Dettaglio informazioni **Riepilogo effettivo/previsto**.  
-4. Ripetere il passaggio 3 per altri tipi di lavoro eseguiti dalla risorsa.
-5. Scegli l'azione **Processo**, l'azione **Invia** e infine l'azione **Tutte le righe aperte** per inviare tutte le righe oppure l'azione **Solo le righe selezionate** per inviare solo le righe che sono selezionate nella pagina **Foglio presenze**.  
+    > È possibile esaminare la somma delle ore del foglio presenze immessa nel Dettaglio informazioni **Riepilogo effettivo/previsto**.  
+4. Ripetere il passaggio 3 per altri tipi di lavoro eseguiti dalla risorsa.  
+
+    Successivamente, è necessario decidere se si desidera inviare tutte le righe del foglio presenze o se si desidera inviare singole righe.  
+
+    * Per inviare il foglio presenze per una o più righe, scegliere la riga pertinente, quindi scegliere l'azione **Invia**.
+
+        Nella pagina di invio scegliere l'opzione **Solo le righe selezionate**. Lo stato della riga cambia da *Aperto* a *Inviato*.
+    * Per inviare il foglio presenze per tutte le righe aperte, scegliere l'azione **Invia** nella parte supeiore della pagina **Foglio presenze**.  
+
+        Verrà chiesto di confermare che si desidera inviare tutte le righe aperte nel foglio presenze corrente.  
 
     > [!NOTE]  
-    >   È possibile inviare solo le righe del foglio presenze per le quali è stato specificato il tempo.  
-6. Per modificare le informazioni in una riga impostata sullo stato **Inviato**, selezionare la riga e scegliere l'azione **Riapri**.
+    > È possibile inviare solo le righe del foglio presenze per le quali è stato specificato il tempo.  
+5. Per modificare le informazioni in una riga impostata sullo stato **Inviato**, selezionare la riga e scegliere l'azione **Riapri**.
 
     > [!NOTE]  
     >   Un manager può rifiutare una riga del foglio presenze che è stata inviata per l'approvazione. Se una riga presenta lo stato **Rifiutato**, puoi apportare modifiche alla riga e scegliere nuovamente **Invia**.  
-7. Scegliere il pulsante **OK**.
+6. Scegliere il pulsante **OK**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Per approvare o rifiutare un foglio presenze
 Un foglio presenze deve essere inviato per l'approvazione prima di poter essere utilizzato. È possibile approvare e rifiutare le singole righe di un foglio presenze o inviarle al mittente per un'ulteriore azione. Un foglio presenze può essere approvato in due modi:
@@ -97,7 +140,7 @@ Un foglio presenze deve essere inviato per l'approvazione prima di poter essere 
 * Un amministratore di fogli presenze può approvare qualsiasi foglio presenze.
 * La persona specificata nel campo **ID utente resp. approvazione foglio presenze** in una scheda risorsa può approvare i fogli presenze di quella risorsa. Per ulteriori informazioni, vedere [Impostare fogli presenze](projects-how-setup-time-sheets.md).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze manager**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze manager**, quindi scegli il collegamento correlato.
 2. Selezionare un foglio presenze dall'elenco.  
 3. Nella pagina **Foglio presenze**: 
     1. Scegli l'azione **Processo**, quindi scegli l'azione **Approva**.
@@ -111,7 +154,7 @@ Un foglio presenze deve essere inviato per l'approvazione prima di poter essere 
 Una volta approvato o rifiutato, un foglio presenze non può essere modificato a meno che non venga prima riaperto. La procedura riportata di seguito spiega come riaprire un foglio presenze approvato o rifiutato.
 
 ## <a name="to-reopen-a-time-sheet"></a>Per riaprire un foglio presenze
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze manager** o **Fogli presenze**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze manager** o **Fogli presenze**, quindi scegli il collegamento correlato.
 2. Aprire un foglio presenze dall'elenco.  
 
     > [!NOTE]  
@@ -143,7 +186,7 @@ Per una commessa, è possibile specificare una persona responsabile della commes
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Per registrare le righe del foglio presenze nelle registrazioni risorse
 Dopo avere approvato i movimenti del foglio presenze per una risorsa, è possibile registrarli nelle registrazioni risorse corrispondenti.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni risorse**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni risorse**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci righe da fogli presenze**.  
 3. Nella pagina **Suggerisci righe reg. ris.** compila i campi come necessario.  
 4. Scegli il pulsante **OK**. I movimenti per l'utilizzo verranno creati nelle registrazioni risorse, dove sarà possibile modificare le informazioni in base alle esigenze.  
@@ -172,7 +215,7 @@ Dopo avere registrato i fogli presenze, è possibile archiviarli per riferimento
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.
 2. Seleziona l'azione **Sposta fogli presenze in archivio**.  
 3. Nella pagina **Sposta fogli presenze in archivio**, compila i campi in base alle esigenze, quindi scegli **OK**.  
-4. Per rivedere i fogli presenze archiviati, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Archivi foglio presenze** o **Archivi foglio presenze manager**, quindi scegli il collegamento correlato.
+4. Per rivedere i fogli presenze archiviati, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità relativa alla informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Archivi foglio presenze** o **Archivi foglio presenze manager**, quindi scegli il collegamento correlato.
 
 ## <a name="see-also"></a>Vedi anche
 [Gestione progetti](projects-manage-projects.md)  

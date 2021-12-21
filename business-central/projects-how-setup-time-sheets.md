@@ -1,6 +1,6 @@
 ---
 title: Impostare i fogli di presenza e la loro approvazione
-description: Si possono impostare i fogli presenze per tenere traccia del tempo utilizzato per le commesse e l'utilizzo delle risorse, per semplificare la gestione dei progetti, i processi relativi al personale e la gestione della capacità.
+description: Si possono impostare i fogli presenze per tenere traccia del tempo utilizzato per attività e progetti al fine di semplificare la gestione dei progetti, i processi relativi al personale e la gestione della capacità
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 72618aaeddae0a72a0c699f19a04a388ced0b9c1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589209"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920982"
 ---
 # <a name="set-up-time-sheets"></a>Impostare fogli presenze
 
-I fogli presenze di [!INCLUDE[prod_short](includes/prod_short.md)] consentono di gestire la registrazione del tempo in incrementi settimanali di sette giorni. Questi fogli possono essere usati per tenere traccia del tempo utilizzato nelle commesse e per registrare la semplice registrazione del tempo risorsa. Prima di poter utilizzare i fogli presenze, è necessario specificare come si desidera impostarli e configurarli.
+I fogli presenze di [!INCLUDE[prod_short](includes/prod_short.md)] consentono di gestire la registrazione del tempo in incrementi settimanali di sette giorni. Questi fogli possono essere usati per tenere traccia del tempo utilizzato nei progetti e per registrare semplicemente il tempo risorsa. Prima di utilizzare i fogli presenze, è necessario specificare quali utenti invieranno i fogli presenze e come si desidera configurare tali fogli.  
 
-Dopo aver impostato la modalità con cui l'organizzazione utilizzerà i fogli presenze, è possibile specificare se e come approvarli. In base alle esigenze dell'organizzazione, è possibile indicare:
+> [!TIP]
+> In [!INCLUDE [prod_short](includes/prod_short.md)], gli utenti dei fogli presenze sono *risorse*. In questo modo, ad esempio, è possibile utilizzare i fogli presenze per tenere traccia del lavoro dei non dipendenti. Per monitorare il lavoro dei propri dipendenti o per utilizzare i fogli presenze per tenere traccia delle assenze dei dipendenti, è necessario associare i *dipendenti* alle *risorse* nella guida di configurazione.  
+
+Facoltativamente, specificare se e come vengono approvati i fogli presenze. In base alle esigenze dell'organizzazione, è possibile indicare:
 
 * Uno o più utenti come amministratore dei fogli presenze e come responsabile approvazione di tutti i fogli presenze.
 * Un responsabile approvazione del foglio presenze di ogni risorsa.
 
-Una volta impostati dei fogli presenze, è possibile creare fogli presenze per le risorse, assegnarli alle righe di pianificazione commessa e registrare le righe dei fogli presenze. Per ulteriori informazioni, vedere [Utilizzare i fogli presenze](projects-how-use-time-sheets.md).  
+Una volta configurati i fogli presenze, è possibile creare fogli presenze per le risorse, che possono registrare le righe dei fogli presenze. Facoltativamente, assegnare i fogli presenze alle righe di pianificazione commessa. Per ulteriori informazioni, vedere [Utilizzare i fogli presenze](projects-how-use-time-sheets.md).  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Impostare i fogli di presenza con la guida all'impostazione assistita
 
@@ -42,6 +45,8 @@ A partire dalla release 2021 wave 2, puoi usare una guida di configurazione assi
 La guida all'installazione assistita vi porta attraverso i seguenti passi:
 
 1. Impostare i partecipanti nei processi dei fogli di presenza
+
+    La prima pagina della guida mostra il numero di utenti nell'istanza di [!INCLUDE [prod_short](includes/prod_short.md)] in uso. Mostra anche altre informazioni obbligatorie e facoltative.  
 2. Specificare il primo giorno di una settimana lavorativa in questa organizzazione
 
     Il primo giorno di una settimana lavorativa sarà il primo giorno predefinito per tutti i fogli di presenza.
@@ -50,10 +55,7 @@ La guida all'installazione assistita vi porta attraverso i seguenti passi:
     Questa persona può modificare e cancellare tutti i fogli di presenza. Opzionalmente, aggiungi lo stesso ruolo ad altre persone nella pagina **Configurazione utente** .
 4. Impostare le risorse che useranno i fogli di presenza e le persone che approveranno i fogli di presenza
 
-    > [!NOTE]
-    > Per i progetti e i lavori, gli utenti dei fogli di presenza sono *risorse*, non dipendenti. Quindi, per essere in grado di tracciare il lavoro dei tuoi dipendenti, devi associare le risorse ai dipendenti nella guida di configurazione.
-
-Alla fine della guida alla configurazione, puoi scegliere di lasciare che [!INCLUDE [prod_short](includes/prod_short.md)] crei i fogli di presenza in base alla tua configurazione. In alternativa, esegui di nuovo la guida all'installazione assistita o completa l'installazione manualmente.  
+Alla fine della guida alla configurazione, puoi scegliere di lasciare che [!INCLUDE [prod_short](includes/prod_short.md)] crei i fogli di presenza in base alla tua configurazione. Visualizzare i nuovi fogli presenze nella pagina **Fogli presenze**, che è possibile aprire [qui](https://businesscentral.dynamics.com/?page=951). In alternativa, esegui di nuovo la guida all'installazione assistita o completa l'installazione manualmente.  
 
 ## <a name="set-up-time-sheets-manually"></a>Impostare manualmente i fogli di presenza
 
@@ -92,9 +94,9 @@ Le sezioni seguenti descrivono come impostare i fogli di presenza se non si usa 
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzare i fogli presenze per le commesse](projects-how-use-time-sheets.md)  
+[Utilizzare i fogli presenze per i progetti](projects-how-use-time-sheets.md)  
 [Per creare fogli di presenza](projects-how-use-time-sheets.md#to-create-time-sheets)  
-[Registrare il consumo o l'uso per i lavori](projects-how-record-job-usage.md)  
+[Registrare il consumo o l'uso per i progetti](projects-how-record-job-usage.md)  
 [Impostazione della Gestione progetti](projects-setup-projects.md)  
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
