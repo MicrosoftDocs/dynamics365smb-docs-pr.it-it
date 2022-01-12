@@ -1,5 +1,5 @@
 ---
-title: Impostare i conti correnti bancari
+title: Impostare i conti correnti bancari (video)
 description: Scopri come vengono utilizzati i conti bancari in Business Central e come riconciliare gli importi con la tua banca.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 00e83bbf8c98a10e5a86f0341794bc125e8609c9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442877"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940603"
 ---
 # <a name="set-up-bank-accounts"></a>Impostare i conti correnti bancari
 
@@ -84,9 +84,9 @@ Migliori sono le informazioni di mapping fornite nella registrazione riconciliaz
 > [!WARNING]
 > Alcuni campi possono contenere dati sensibili, come i campi **Nr. filiale banca**, **Nr. conto bancario**, **Codice SWIFT**, e **Codice IBAN**. Per ulteriori informazioni, vedere [Monitoraggio di campi sensibili](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts&quot;></a>Per impostare i conti correnti bancari
+## <a name="to-set-up-bank-accounts"></a>Per impostare i conti correnti bancari
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png &quot;Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Nella pagina **C/C bancari** scegliere l'azione **Nuovo**.
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

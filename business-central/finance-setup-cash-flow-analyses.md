@@ -1,5 +1,5 @@
 ---
-title: Impostazione di un'analisi di un flusso di cassa
+title: Impostazione di un'analisi di un flusso di cassa (video)
 description: Usa i grafici della Gestione ruolo utente Conti per analizzare il flusso di denaro nell'attività commerciale, incluse uscite ed entrate, liquidità, incassi meno i pagamenti in contanti.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 919c5cc5781f0f93fbfb79b9e306e42180eb6968
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 718aed64e13b28972210918c8171956f79485006
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446292"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940403"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
 Se si desidera informazioni per decidere quali operazioni effettuare con i contanti, è possibile utilizzare i grafici nella Gestione ruolo utente Contabile:  

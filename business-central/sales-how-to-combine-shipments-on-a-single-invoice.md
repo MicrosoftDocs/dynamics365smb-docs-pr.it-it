@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442727"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7929582"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combinare le spedizioni in una singola fattura
 Se si desidera fatturare più di una spedizione per volta, utilizzare la funzionalità per le spedizioni cumulate.  
@@ -34,6 +34,9 @@ Prima di creare una spedizione cumulata, è necessario che venga registrata più
 
     Se viene selezionata una riga di spedizione errata o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella fattura ed eseguire nuovamente la funzione **Prendi righe di spedizione**.  
 7. Per registrare la fattura scegliere l'azione **Registra**.  
+
+> [!TIP]  
+> Se hai spedito ordini in cui il campo **Vendere a - Nr. cliente** è diverso da **Fatturare a - Nr. cliente**, le righe non vengono visualizzate nel report **Prendi righe di spedizione**. Usa la personalizzazione per aggiungere il campo **Vendere a - Cliente** alla pagina e rimuovere il filtro. Ora puoi aggiungere righe di spedizione alla fattura indipendentemente dal valore nel campo **Vendere a - Nr. cliente** purché il campo **Fatturare a - Nr. cliente** nelle righe di spedizione corrisponda al valore della fattura di vendita.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Per combinare automaticamente le spedizioni in una singola fattura  
 [!INCLUDE[prod_short](includes/prod_short.md)] selezionerà solo gli ordini di vendita in cui **Fatture cumulative** è scelto. 

@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.date: 12/20/2021
 ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724814"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940203"
 ---
 # <a name="cash-flow-overview"></a>Panoramica del flusso di cassa
 
@@ -26,7 +26,7 @@ La familiarità con le entrate e le uscite di cassa è l'aspetto chiave di un'at
 
 Il termine *flusso di cassa* viene utilizzato per definire gli incassi meno i pagamenti in contanti in un periodo selezionato. Si tratta di una stima della somma di denaro che si prevede in entrata e in uscita per la propria azienda e in cui sono incluse tutte le entrate e le spese previste.
 
-## <a name="cash-flow-overview"></a>Panoramica del flusso di cassa
+## <a name="work-with-cash-flow"></a>Utilizzare il flusso di cassa
 
 Nell'illustrazione seguente viene mostrata una panoramica della modalità di utilizzo del flusso di cassa.
 
@@ -74,7 +74,10 @@ Il flusso di cassa netto, o contante, viene calcolato come ricavi totali meno le
 La previsione può essere utilizzata come strumento decisionale per la gestione interna che consente di pianificare in anticipo e prendere decisioni strategiche importanti circa le attività dell'azienda.
 
 ## <a name="see-also"></a>Vedere anche
+
 [Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md)  
-[Analizzare il flusso di cassa](finance-analyze-cash-flow.md)
+[Analizzare il flusso di cassa](finance-analyze-cash-flow.md)  
+[Previsione del flusso di cassa in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Configurare le previsioni del flusso di cassa usando l'intelligenza artificiale di Azure in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

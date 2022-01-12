@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54e989182a8d6612e6bb2c95eda327fd21cae0d8
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587811"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949023"
 ---
 # <a name="reconcile-bank-accounts"></a>Riconciliazione dei conti correnti bancari
 
@@ -36,7 +36,7 @@ La riconciliazione delle transazioni bancarie con i movimenti bancari interni è
 > [!NOTE]  
 > Se le righe del rendiconto bancario sono collegate ai movimenti contabili assegni, non è possibile utilizzare le funzioni di corrispondenza. È invece necessario scegliere l'azione **Collega movimenti** quindi selezionare il movimento contabile degli assegni pertinente da applicare la corrispondenza alla riga del rendiconto bancario.
 
-Se il valore nel campo **Saldo totale** del riquadro **Righe rendiconto bancario** è pari al valore nel campo **Saldo da riconciliare** del riquadro **Mov. contabili C/C bancari**, è possibile scegliere l'azione **Registra**. Eventuali movimenti contabili del conto bancario non corrispondenti rimarranno nella pagina, indicando le discrepanze che è necessario risolvere per riconciliare il conto bancario.
+Se il valore nel campo **Saldo totale** del riquadro **Righe rendiconto bancario** è pari al valore totale del campo **Saldo da riconciliare** e del campo **Saldo ultimo estratto conto** del riquadro **Mov. contabili C/C bancari** puoi scegliere l'azione **Registra**. I movimenti contabili del conto bancario non corrispondenti rimarranno nella pagina, indicando le discrepanze che è necessario risolvere per riconciliare il conto bancario.
 
 Qualsiasi riga che non può essere corrisposta, indicata da un valore nel campo **Differenza**, rimarrà nella pagina **Riconciliazioni C/C bancari** dopo la registrazione. Rappresenta una sorta di discrepanza che è necessario risolvere prima di poter completare la riconciliazione del conto bancario. Situazioni aziendali tipiche che possono causare differenze:
 

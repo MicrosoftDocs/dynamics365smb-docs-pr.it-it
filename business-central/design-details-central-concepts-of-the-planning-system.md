@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442487"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949096"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 
@@ -122,7 +122,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione - Trasferimenti ne
 
 ### <a name="order-priority"></a>Priorità ordini
 
-All'interno di una determinata USK, la data richiesta o disponibile rappresenta la priorità più alta; la domanda della data corrente deve essere gestita prima della domanda dei giorni successivi. Oltre a questo tipo di priorità, i diversi tipi di domanda e approvvigionamento vengono ordinati in base all'importanza del business per decidere quale domanda deve essere soddisfatte prima di soddisfare un'altra domanda. Dal lato fornitore, la priorità dell'ordine indicherà quale origine di approvvigionamento deve essere collegata prima di collegare altre origini di approvvigionamento.  
+All'interno di una determinata USK, la data richiesta o disponibile rappresenta la priorità più alta; la domanda della data corrente deve essere gestita prima della domanda dei giorni successivi. Oltre a questo tipo di priorità, i tipi di domanda e approvvigionamento vengono ordinati in base all'importanza del business per decidere quale domanda deve essere soddisfatte prima di soddisfare un'altra domanda. Dal lato fornitore, la priorità dell'ordine indicherà quale origine di approvvigionamento deve essere collegata prima di collegare altre origini di approvvigionamento.  
 
 Per ulteriori informazioni, vedere [Assegnazione priorità ordini](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 

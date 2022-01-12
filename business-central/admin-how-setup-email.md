@@ -1,5 +1,5 @@
 ---
-title: Configurare la posta elettronica in Business Central
+title: Configurare la posta elettronica in Business Central (video)
 description: Descrizione di come connettere gli account di posta elettronica a Business Central in modo da poter inviare messaggi in uscita senza dover aprire un'altra app.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 791033d9b4077ad6e3bf37ab04956113183b5f2b
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: ce8856f250e4098256e9ac2b9959ec6900aaaadc
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440500"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940428"
 ---
 # <a name="set-up-email"></a>Configurare la posta elettronica
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono semplificare l'operazione collegando uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Gli amministratori possono anche impostare layout di report che includono solo le informazioni chiave dei documenti. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).

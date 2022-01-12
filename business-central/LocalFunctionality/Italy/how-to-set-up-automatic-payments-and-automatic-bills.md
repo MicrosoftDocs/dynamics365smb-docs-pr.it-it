@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 12203, 12204
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3955a922a1823e2ba4481630c4fb51bd38fdc4ff
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d1d270b9068d4b4851152f033fbaabc9182cb25a
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446158"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947234"
 ---
 # <a name="set-up-automatic-payments-and-automatic-bills-in-the-italian-version"></a>Impostare i pagamenti automatici e gli effetti automatici nella versione italiana
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire i pagamenti e gli effetti automatici.  
@@ -27,20 +28,20 @@ Per utilizzare i pagamenti e gli effetti automatici, è necessario impostare le 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Pagamenti** compilare i campi chiave come indicato nella tabella seguente.  
 
-    |Campo|Description|  
-    |------------------------------------|---------------------------------------|  
-    |**Metodo di pagamento**|Selezionare il metodo di pagamento per il tipo dei pagamenti effettuati dal o al conto corrente bancario. Ad esempio, per il conto corrente bancario da utilizzare per i pagamenti automatici effettuati da clienti, selezionare un metodo di pagamento per bonifici bancari.|  
-    |**Conto effetti all'Incasso**|Specificare il conto C/G sul quale verranno accreditati gli effetti per la riscossione.|  
-    |**Conto effetti allo sconto**|Specificare i conti di contabilità generale in cui verranno addebitati gli sconti di effetti.|  
-    |**Conto effetti salvo buon fine**|Specificare il conto C/G sul quale verranno accreditati gli effetti soggetti alla riscossione.|  
-    |**Conto spesa effetti**|Specificare i conti di contabilità generale in cui verranno registrate le spese per le ricevute bancarie.|  
+|Campo|Description|  
+|------------------------------------|---------------------------------------|  
+|**Metodo di pagamento**|Selezionare il metodo di pagamento per il tipo dei pagamenti effettuati dal o al conto corrente bancario. Ad esempio, per il conto corrente bancario da utilizzare per i pagamenti automatici effettuati da clienti, selezionare un metodo di pagamento per bonifici bancari.|  
+|**Conto effetti all'Incasso**|Specificare il conto C/G sul quale verranno accreditati gli effetti per la riscossione.|  
+|**Conto effetti allo sconto**|Specificare i conti di contabilità generale in cui verranno addebitati gli sconti di effetti.|  
+|**Conto effetti salvo buon fine**|Specificare il conto C/G sul quale verranno accreditati gli effetti soggetti alla riscossione.|  
+|**Conto spesa effetti**|Specificare i conti di contabilità generale in cui verranno registrate le spese per le ricevute bancarie.|  
 
 5.  Scegliere il pulsante **OK**.  
 
-    > [!IMPORTANT]  
-    >  Prima di esportare un effetto fornitore, è necessario selezionare il formato di pagamento nel campo **Formato esportazione pagamento** nella pagina **Scheda conto corrente bancario**.  
-    >   
-    >  Prima di esportare un effetto cliente, è necessario selezionare il formato di pagamento nel campo **Formato esport. addebito dir. SEPA** nella pagina **Scheda conto corrente bancario**.  
+> [!IMPORTANT]  
+>  Prima di esportare un effetto fornitore, è necessario selezionare il formato di pagamento nel campo **Formato esportazione pagamento** nella pagina **Scheda conto corrente bancario**.  
+>   
+>  Prima di esportare un effetto cliente, è necessario selezionare il formato di pagamento nel campo **Formato esport. addebito dir. SEPA** nella pagina **Scheda conto corrente bancario**.  
 
 Di seguito viene descritto come impostare gli effetti automatici per vendite e incassi, ma gli stessi passaggi sono applicabili per l'impostazione di acquisti e debiti per l'utilizzo dei pagamenti automatici.  
 
@@ -49,11 +50,11 @@ Di seguito viene descritto come impostare gli effetti automatici per vendite e i
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Effetti**, nel campo **Nr. temp. distinta effetto** selezionare il numero temporaneo della distinta effetti. Compilare i campi come indicato nella tabella seguente.  
 
-    |Campo|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Nr. temp. distinta effetto**|Selezionare la numerazione che sarà utilizzata le distinte effetti temporanee.|  
-    |**Richiamo effetti - Descrizione**|Specificare il testo descrittivo che verrà utilizzato per gli effetti richiamati.|  
-    |**Periodo rischio RIBA**|Specificare una formula di data per il calcolo del periodo di rischio in giorni, ad esempio **20G**.<br /><br /> Questo sarà un riferimento per la chiusura ricevute bancarie. Gli effetti del cliente verranno chiusi solo alla fine del periodo di rischio specificato qui.|  
+|Campo|Description|  
+|---------------------------------|---------------------------------------|  
+|**Nr. temp. distinta effetto**|Selezionare la numerazione che sarà utilizzata le distinte effetti temporanee.|  
+|**Richiamo effetti - Descrizione**|Specificare il testo descrittivo che verrà utilizzato per gli effetti richiamati.|  
+|**Periodo rischio RIBA**|Specificare una formula di data per il calcolo del periodo di rischio in giorni, ad esempio **20G**.<br /><br /> Questo sarà un riferimento per la chiusura ricevute bancarie. Gli effetti del cliente verranno chiusi solo alla fine del periodo di rischio specificato qui.|  
 
 3.  Scegliere il pulsante **OK**.  
 
@@ -64,14 +65,13 @@ Di seguito viene descritto come impostare gli effetti automatici per vendite e i
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di pagamento**, quindi scegli il collegamento correlato.  
 2.  Selezionare il metodo di pagamento utilizzato per i trasferimenti bancari ai fornitori, quindi nel campo **Cod. effetto**, selezionare un codice effetto.  
 
-    1.  Per creare un codice effetto, nel campo **Cod. effetto**, scegliere il campo quindi scegliere l'azione **Nuovo**.  
-    2.  Compilare i campi della pagina **Effetto**.
+1.  Per creare un codice effetto, nel campo **Cod. effetto**, scegliere il campo quindi scegliere l'azione **Nuovo**.  
+2.  Compilare i campi della pagina **Effetto**.
 
 A questo punto, è possibile elaborare gli effetti cliente e fornitore in modo che vengano gestiti automaticamente.  
 
 ## <a name="see-also"></a>Vedere anche  
- [Definizione dei metodi di pagamento](../../finance-payment-methods.md)     
-  [Funzionalità locale per l'Italia](italy-local-functionality.md)
+ [Definizione dei metodi di pagamento](../../finance-payment-methods.md) [Funzionalità locale per l'Italia](italy-local-functionality.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

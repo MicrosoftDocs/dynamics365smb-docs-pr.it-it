@@ -5,14 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
+ms.search.form: 12100, 12104, 12105, 12111, 12112, 12113, 12122, 12126, 12127, 12133, 12135, 12151, 12158, 12187, 12189, 12198, 12199, 12202
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 72cc63b220d7cdddd80c4e6d7dcefce86038637a
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: ace557db03869156cd16269461625167343d13c9
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606432"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947209"
 ---
 # <a name="italian-vat"></a>IVA italiana
 

@@ -1,5 +1,5 @@
 ---
-title: 'Procedura: Emettere pagamenti fornitori ed effetti clienti'
+title: Emettere pagamenti fornitori ed effetti clienti (IT)
 description: La funzionalità di pagamento degli effetti cliente e fornitore supporta i formati SEPA oltre ai formati di file italiani.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 12102, 12175, 12176, 12178, 12180, 12181, 12182, 12184, 12185, 12186, 12190
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59c482754ed904a7d857e957c7f45cef56bdeef5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a2c5ea1a186c7c71a9f48fefbcdef6fd8e67fef3
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437541"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947201"
 ---
 # <a name="issue-vendor-payments-and-customer-bills"></a>Emettere pagamenti fornitori ed effetti clienti
 

@@ -1,5 +1,5 @@
 ---
-title: Gestire i cespiti
+title: Gestione cespiti (video)
 description: Ottenere informazioni sulla funzionalità dei cespiti e una panoramica delle modalità di utilizzo e gestione dei cespiti.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0022ae0c13009108064d758fdd0d6f4894b12bad
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323229"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940578"
 ---
 # <a name="managing-fixed-assets"></a>Gestione dei cespiti
 La funzionalità Cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.

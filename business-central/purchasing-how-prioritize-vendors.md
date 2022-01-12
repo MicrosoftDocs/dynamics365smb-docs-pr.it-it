@@ -1,5 +1,5 @@
 ---
-title: Assegnare un livello di priorità a un fornitore | Documenti Microsoft
+title: Assegnare un livello di priorità a un fornitore (video) | Documenti Microsoft
 description: È possibile assegnare dei numeri ai fornitori per assegnare loro una priorità e semplificare i suggerimenti di pagamento in Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d83fe736298e4cae3b6b86a495e0567057df2cc5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7e68c56422f4f3de33006297ec396fdd34169e8d
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443296"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940053"
 ---
 # <a name="prioritize-vendors"></a>Attribuire un ordine di priorità ai fornitori
 [!INCLUDE[prod_short](includes/prod_short.md)] può fornire suggerimenti di pagamento ai fornitori, ad esempio pagamenti con scadenza a breve termine oppure pagamenti che prevedono uno sconto. Per ulteriori informazioni, vedere [Suggerire i pagamenti ai fornitori](payables-how-suggest-vendor-payments.md).

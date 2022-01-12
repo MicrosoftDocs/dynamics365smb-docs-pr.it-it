@@ -1,5 +1,5 @@
 ---
-title: Gestire i clienti tramite Dynamics 365 Sales| Microsoft Docs
+title: Gestire i clienti tramite Dynamics 365 Sales (video) | Microsoft Docs
 description: È possibile utilizzare Dynamics 365 Sales da Business Central per mappare i dati e sfruttare l'integrazione ottimale e la sincronizzazione nel processo dai lead agli incassi.
 documentationcenter: ''
 author: bholtorf
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 67d9915e4f60b20d0e871810dfc3d66450103a5a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444872"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940453"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Utilizzo di Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.

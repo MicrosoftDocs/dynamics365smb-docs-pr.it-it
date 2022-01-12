@@ -1,5 +1,5 @@
 ---
-title: Visualizzare e modificare in Excel da Business Central
+title: Visualizzare e modificare in Excel da Business Central (video)
 description: Informazioni su come aprire le pagine in Microsoft Excel da Business Central per una migliore analisi dei dati.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 012fedb26c4d98d4014efdb53327c82b8a6877c8
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7800eb9d9852e8cc13eed26ce3e42fa318f7e185
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587558"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940253"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visualizzare e modificare in Excel da Business Central
 

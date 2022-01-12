@@ -12,27 +12,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2541f509d02a584620c83903c3b92983aba1c2a8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0fc31469d13c0c84a7357ae99929d6efb30bbb47
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322796"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949045"
 ---
 # <a name="about-item-types"></a>Informazioni sui tipi di articolo
-Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda e quindi come viene gestito nel sistema. Sono disponibili tre opzioni:
+Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda che influisce sul grado di gestione dell'articolo in magazzino. La tabella seguente elenca e descrive i tre tipi di articoli disponibili.
 
 |Opzione|Scopo tipico|
 |------|-----------|
-|Inventario|Un'unità fisica, come una bicicletta, per un pieno supporto commerciale.|
-|Non in inventario|Un'unità fisica, ad esempio un bullone, per un supporto aziendale limitato, ad esempio perché l'articolo viene utilizzato solo internamente e ha un costo ridotto.|
+|Inventario|Oggetti fisici, come biciclette, telefoni e scrivanie, per i quali vuoi essere in grado di utilizzare tutti i processi di magazzino. Questo può includere anche articoli non fisici, come licenze software e abbonamenti, se gli articoli hanno numeri di identificazione, come i numeri di serie. Puoi monitorare completamente i valori degli articoli e la disponibilità nell'inventario.|
+|Non in inventario|In genere, gli articoli non di inventario sono oggetti fisici, come bulloni o penne, che un'azienda consuma ma non desidera tenere traccia completamente dell'inventario. Ad esempio, perché sono articoli a basso costo e vengono utilizzati solo internamente.|
 |Assistenza|Un'unità di misura del tempo della manodopera, ad esempio un'ora di consulenza, per un supporto aziendale limitato.|
 
-Il tipo **Inventario** prevede il monitoraggio completo della quantità e del valore di inventario. Di conseguenza, tutti i tipi di transazione dell'articolo sono supportati e gli articoli di tipo Inventario possono essere utilizzati con tutte le funzionalità di gestione degli articoli.
+> [!NOTE]
+> I tipi **Assistenza** e **Non in inventario** non supportano il tracciamento della quantità e del valore dell'inventario. Sono supportati solo i tipi e le funzionalità delle transazioni dell'articolo selezionato.
 
-I tipi **Assistenza** e **Non in inventario** non prevedono il tracciamento della quantità e del valore dell'inventario. Di conseguenza, sono supportati solo i tipi e le funzionalità delle transazioni dell'articolo selezionato.
-
-I tre tipi dell'articolo supportano rispettivamente le seguenti funzionalità.
+La seguente tabella include le funzionalità supportate dai tre tipi dell'articolo.
 
 |Tipo di articolo|Vendite|Acquisti|Consumo per la commessa|Consumo di assistenza|Consumo assemblaggio|Consumo produzione|Output assemblaggio|Output produzione|Trasferimento ubicazione|Conteggio fisico|Rivalutazione del magazzino|Costing di magazzino|Tracciabilità articolo|Impegni|Gestione della warehouse|Pianificazione|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

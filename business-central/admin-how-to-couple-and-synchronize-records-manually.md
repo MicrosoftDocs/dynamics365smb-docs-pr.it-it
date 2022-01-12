@@ -1,5 +1,5 @@
 ---
-title: Associazione e sincronizzazione
+title: Associazione e sincronizzazione (video)
 description: La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record in una tabella in Business Central e in una tabella in Dynamics 365 Sales che sono associate.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c21d06eaaa9200bb11839d1b2db1666c816638b3
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 88f83f8e4cc1c99f5696daf0486a30652c890c97
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865392"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940353"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Accoppiamento e sincronizzazione dei record tra Dataverse e Business Central
 

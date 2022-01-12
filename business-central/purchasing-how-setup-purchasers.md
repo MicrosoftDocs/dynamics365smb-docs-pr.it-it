@@ -1,5 +1,5 @@
 ---
-title: Impostare addetti agli acquisti e assegnarli ai fornitori | Documenti Microsoft
+title: Impostare addetti agli acquisti e assegnarli ai fornitori (video) | Documenti Microsoft
 description: Se numerosi addetti agli acquisti, o rivenditori, lavorano presso la società, è possibile organizzarli per analisi statistiche.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 452a5fab73d60bea127d19a42c1730fcbd24b06c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435137"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940178"
 ---
 # <a name="set-up-purchasers"></a>Impostare gli addetti agli acquisti
 Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.<br><br>  

@@ -1,5 +1,5 @@
 ---
-title: Assegnare addebiti articoli a vendite e acquisti
+title: Assegnare addebiti articoli a vendite e acquisti (video)
 description: Per aggiungere ai movimenti di magazzino ulteriori costi, quali spedizione e gestione fisica per l'acquisto o la vendita degli articoli, puoi assegnare gli addebiti articoli.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 9ef440a79cec7c59fe6aa7c6cfe34c441817bad5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f44b2133aca930f0009f7cb6efa25b89a89764ec
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436903"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940378"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
 Per una valutazione corretta, è necessario includere nei movimenti di magazzino tutti i costi aggiuntivi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli. Per gli acquisti, il costo franco di tutte le spese allo sbarco di un articolo acquistato è dato dal prezzo di acquisto del fornitore più tutti gli addebiti articolo diretti aggiuntivi che è possibile assegnare ai singoli carichi o alle singole spedizioni di reso. Per le vendite, per un'azienda conoscere il costo della spedizione di articoli venduti è altrettanto importante che conoscere il costo franco di tutte le spese di sbarco degli articoli acquistati.

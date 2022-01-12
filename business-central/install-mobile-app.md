@@ -1,5 +1,5 @@
 ---
-title: Installare Business Central sul dispositivo mobile
+title: Installare Business Central sul dispositivo mobile (video)
 description: Questo argomento descrive i vari modi in cui è possibile visualizzare e modificare i dati di Business Central, inviare a Excel e altro su telefono o tablet.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 1097689e7fc06e7d1f2f3dede95c978a3316e975
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588278"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940078"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Scaricare Business Central sul dispositivo mobile
 

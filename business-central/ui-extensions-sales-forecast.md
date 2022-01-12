@@ -1,8 +1,6 @@
 ---
 title: Utilizzo delle previsioni di vendita e magazzino per gestire magazzino | Documenti Microsoft
 description: Questa estensione consente di effettuare previsioni relative alle vendite, offre una chiara panoramica del magazzino in esaurimento e consente di creare richieste di approvvigionamento per i fornitori.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 04/01/2021
+ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: 86ff1e678882e4bfb7e95c253f55558c5b57defd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 615212ee648993136aaa75c7cb1ab798615899ab
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434836"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940153"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Estensione Previsione vendite e magazzino
 La Gestione del magazzino è un trade-off tra l'assistenza clienti e la gestione dei costi. Da un lato, un magazzino basso richiede meno capitale di lavoro, ma dall'altro un magazzino in esaurimento potenzialmente porta a vendite mancate. L'estensione Previsione vendite e magazzino prevede le vendite potenziali utilizzando i dati storici e fornisce una chiara panoramica delle scorte esaurite previste. A seconda della previsione, l'estensione consente di creare le richieste di approvvigionamento per i fornitori e quindi di risparmiare tempo.  
@@ -56,14 +54,16 @@ Prima di utilizzare il servizio Web [!INCLUDE[prod_short](includes/prod_short.md
 3. Utilizzare l'account Microsoft per impostare un'area di lavoro, quindi copiare il modello.  
 4. Eseguire il modello e pubblicarlo come servizio Web.  
 5. Prendere nota dell'URL API e della chiave API. Usa queste le credenziali per un setup del flusso di cassa.  
-6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup previsione vendite e magazzino**, quindi scegli il collegamento correlato.  
+6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup previsione vendite e magazzino**, quindi scegli il collegamento correlato.  
 7. Espandere la Scheda dettaglio **Generale** e compilare i campi URL API e Chiave API.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
 
 
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
-
+[Usare l'intelligenza artificiale in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

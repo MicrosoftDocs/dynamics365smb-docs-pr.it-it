@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 12117, 12188, 12128, 12130, 12137
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1e12fb92aea2163b37b5229eb28b563a683c4dac
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 706a1e6c9ee388914bf9c09458566e5b0ad2cc49
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865383"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947127"
 ---
 # <a name="fiscal-inventory-valuation"></a>Valutazione magazzino fiscale
 

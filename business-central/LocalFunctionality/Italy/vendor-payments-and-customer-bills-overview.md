@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 12183, 12188, 12192, 12193, 12194, 12195, 12195
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d89929fd623a705ef8c239ba1de3ede6bed2a1c2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 35982642bea9f2c4f83673042fdb020dac87319a
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318850"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947091"
 ---
 # <a name="vendor-payments-and-customer-bills-overview-in-the-italian-version"></a>Panoramica di pagamenti di fornitori ed effetti clienti nella versione italiana
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire gli effetti automatici per i clienti e dai fornitori.  

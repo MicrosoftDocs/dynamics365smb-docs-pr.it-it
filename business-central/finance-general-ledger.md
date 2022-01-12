@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 183aa0cee83c826d51f582faead9d3a53b02ce71
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
+ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889796"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928811"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Informazioni sulla contabilità generale e sul piano dei conti
 
@@ -45,7 +45,7 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 
 * Visualizzare i report che mostrano i movimenti e i saldi di contabilità generale.  
 * Chiudere il conto economico.  
-* Aprire la scheda del conto C/G per aggiungere o modificare le impostazioni.  
+* Apri la scheda del conto di contabilità generale (C/G) per aggiungere o modificare le impostazioni.  
 * Visualizzare una lista delle categorie di registrazione che registrano nel conto.
 * Visualizzare i saldi attivi e passivi separatamente per un singolo conto  
 
@@ -55,7 +55,7 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 
 È possibile personalizzare la struttura dei rendiconti finanziari mappando i conti di contabilità generale alle categorie dei conti.  
 
-La pagina **Categorie conto C/G** visualizza le categorie e le sottocategorie principali esistenti e i conti C/G assegnati ad esse. È possibile creare nuove sottocategorie e assegnarle categorie ai conti esistenti.  
+La pagina **Categorie conto C/G** visualizza le categorie e le sottocategorie principali esistenti e i conti di contabilità generale assegnati ad esse. È possibile creare nuove sottocategorie e assegnarle categorie ai conti esistenti.  
 
 È possibile creare un gruppo di categoria definendo un'indentazione di altre categorie in una riga nella pagina **Categorie conto C/G**. Ciò consente di ottenere una panoramica, in quanto ogni raggruppamento mostra un saldo totale. Ad esempio, è possibile creare sottocategorie per i diversi tipi di cespiti e quindi creare gruppi di categorie per cespiti rispetto a cespiti correnti.  
 

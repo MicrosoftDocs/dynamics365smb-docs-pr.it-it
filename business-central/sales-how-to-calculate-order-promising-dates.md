@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: b7f23153fe59451b6fc943b0e1115ae0bc895b7c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7d7493f0bada0796ee910ca8df01465c3086cd2
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442752"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940503"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
 Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La pagina **Righe promessa ordine** consente di effettuare questa operazione dall'ordine di vendita.  
 
-Sulla base delle date di disponibilità note e previste di un articolo, [!INCLUDE[prod_short](includes/prod_short.md)] calcola immediatamente le date di spedizione e di consegna, che possono quindi essere promesse al cliente.  
+[!INCLUDE[prod_short](includes/prod_short.md)] calcola le date di disponibilità di spedizione e di consegna sulla base delle date di disponibilità note e previste di un articolo, che possono quindi essere promesse ai clienti.  
 
 Se si specifica una data di consegna richiesta sulla riga dell'ordine di vendita, questa data verrà utilizzata come data di partenza per i calcoli successivi.  
 
@@ -43,7 +43,7 @@ La funzionalità di promessa ordine consente di garantire la spedizione di un or
 - CTP (Capable-to-Promise)  
 
 ### <a name="available-to-promise"></a>ATP (Available-to-Promise)  
-Con ATP (Available-to-Promise) vengono calcolate le date sulla base del sistema di impegno. Viene eseguito un controllo di disponibilità delle quantità non impegnate in magazzino per quanto riguarda la produzione pianificata, gli acquisti, i trasferimenti e i resi di vendita. Sulla base di queste informazioni, [!INCLUDE[prod_short](includes/prod_short.md)] calcola automaticamente la data di consegna dell'ordine del cliente perché gli articoli sono disponibili, in magazzino o nei carichi pianificati.  
+Con ATP (Available-to-Promise) vengono calcolate le date sulla base del sistema di impegno. Viene eseguito un controllo di disponibilità delle quantità non impegnate in magazzino per quanto riguarda la produzione pianificata, gli acquisti, i trasferimenti e i resi di vendita. Sulla base di queste informazioni, [!INCLUDE[prod_short](includes/prod_short.md)] calcola la data di consegna dell'ordine del cliente perché gli articoli sono disponibili in magazzino o nei carichi pianificati.  
 
 ### <a name="capable-to-promise"></a>CTP (Capable-to-Promise)  
 CTP (Capable-to-Promise) presuppone uno scenario "what if", che si applica solo alle quantità di articoli che non sono in inventario o sugli ordini pianificati. In base a questo scenario, [!INCLUDE[prod_short](includes/prod_short.md)] calcola la prima data in cui l'articolo sarà disponibile se deve essere prodotto, acquistato oppure trasferito.
@@ -92,47 +92,29 @@ Oltre alle promesse d'ordine esterne che è possibile eseguire nella pagina **Ri
 4. Immettere un modello di promessa dell'ordine nel campo **Modello Promessa Ordine** selezionando una riga dall'elenco visualizzato nella pagina **Lista Mod. Rich. Approvv.**.  
 5. Immettere nel campo **Prospetto Promessa Ordine** una richiesta di approvvigionamento selezionando una riga dalla lista contenuta nella pagina **Descr. Ric. Approvvig.**.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Per immettere il tempo di gestione warehouse nella pagina Setup magazzino  
-Se si intende includere il tempo di gestione warehouse nel calcolo della promessa d'ordine nella riga di acquisto, è possibile impostarlo come valore di default per il magazzino e l'ubicazione.    
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.  
-2. Nella Scheda dettaglio **Generale**, nel campo **Tempo gest. entrata in whse** inserire il numero di giorni che si intende comprendere nel calcolo promessa d'ordine.  
+### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Tempo di gestione della warehouse in entrata e in uscita nella promessa ordine  
+Se desideri includere il tempo di gestione della warehouse nel calcolo della promessa ordine nella riga di acquisto, nella pagina **Setup magazzino** è possibile specificare un tempo di gestione predefinito da utilizzare nei documenti di vendita e acquisto. Puoi anche inserire orari specifici per ciascuna delle tue ubicazioni nella pagina **Scheda ubicazione**. 
 
-> [!NOTE]  
->  Se il campo **Tempo gest. entrata in whse** nella **Scheda Ubicazione** è stato compilato per l'ubicazione, il contenuto di questo campo verrà utilizzato come tempo gestione entrata in warehouse di default.  
+#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Per immettere il tempo di gestione della warehouse in entrata e in uscita predefinito per i documenti di vendita e acquisto
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.  
+2. Nella Scheda dettaglio **Generale** nei campi **Tempo gest. entrata in whse.** e **Tempo gest. uscita da whse.** finserire il numero di giorni che vuoi includere nei calcoli della promessa ordine.  
 
-### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Per immettere il tempo di gestione entrata in warehouse nelle schede ubicazione  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazione**, quindi scegli il collegamento correlato.  
+#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Per immettere i tempi di gestione warehouse in entrata e in uscita nelle ubicazioni  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazione**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda ubicazione pertinente.  
-3.  Nella Scheda dettaglio **Warehouse**, nel campo **Tempo gest. entrata in whse** inserire il numero di giorni che si intende includere nel calcolo promessa d'ordine.  
+3.  Nella Scheda dettaglio **Warehouse** nei campi **Tempo gest. entrata in whse.** e **Tempo gest. uscita da whse.** finserire il numero di giorni che vuoi includere nei calcoli della promessa ordine.  
 
 > [!NOTE]  
->  Se si lascia vuoto il campo **Tempo gest. entrata in whse.**, il calcolo utilizza il valore nella pagina **Setup magazzino**.
-
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Per immettere il tempo di gestione dell'uscita dalla warehouse nella pagina Setup magazzino  
-Se si intende impostare l'inclusione del tempo di uscita dalla warehouse nel calcolo della promessa d'ordine nella riga di vendita, è possibile impostarlo come valore di default per l'inventario.
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.  
-2. Nella Scheda dettaglio **Generale**, nel campo **Tempo gest. uscita da whse** inserire il numero di giorni che si intende comprendere nel calcolo promessa d'ordine.  
-
-> [!NOTE]  
->  Se il campo **Tempo gest. uscita da whse** nella scheda Ubicazione è stato compilato per l'ubicazione, il contenuto di questo campo verrà utilizzato come tempo gestione uscita da warehouse di default.  
-
-### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Per immettere il tempo gestione uscita da warehouse nelle schede ubicazione  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
-2.  Apri la scheda ubicazione pertinente.  
-3.  Nella Scheda dettaglio **Warehouse**, nel campo **Tempo gest. uscita da whse** inserire il numero di giorni che si intende includere nel calcolo promessa ordine.  
-
-> [!NOTE]  
->  Se si lascia vuoto il campo **Tempo gest. uscita da whse.**, il calcolo utilizza il valore nella pagina **Setup magazzino**.
+>  Quando crei un ordine di acquisto, se scegli **Ubicazione** nel campo **Spedire a** della scheda dettaglio **Spedizione e pagamento**, e quindi scegli un'ubicazione nel campo **Codice ubicazione** campo, i campi **Tempo gest. uscita da whse.** e **Tempo gest. entrata in whse.** utilizzeranno il tempo di gestione specificato per l'ubicazione. Per gli ordini cliente, lo stesso vale se scegli un'ubicazione nel campo **Codice ubicazione**. Se non viene specificato alcun tempo di gestione per l'ubicazione, i campi **Tempo gest. uscita da whse.** e **Tempo gest. entrata in whse.** saranno vuoti. Se lasci vuoto il campo **Codice ubicazione** nei documenti di vendita e acquisto, il calcolo utilizza il tempo di gestione specificato nella pagina **Setup magazzino**.
 
 ## <a name="to-make-an-item-critical"></a>Per identificare un articolo come critico  
 Prima che un articolo possa essere incluso nel calcolo della promessa d'ordine, deve essere contrassegnato come critico. Questa impostazione garantisce che gli articoli non critici non causino calcoli di promesse d'ordine irrilevanti.   
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda articolo desiderata.  
 3.  Nella Scheda dettaglio **Pianificazione** selezionare il campo **Critico** .  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Per calcolare una data per la promessa ordine  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine vendita**, quindi seleziona il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine vendita**, quindi seleziona il collegamento correlato.  
 2.  Aprire l'ordine di vendita appropriato e selezionare la riga o le righe da calcolare automaticamente.  
 3.  Scegliere l'azione **Promessa ordine** quindi scegliere l'azione **Righe promessa ordine**.  
 4.  Selezionare una riga e quindi selezionare una delle seguenti opzioni:  

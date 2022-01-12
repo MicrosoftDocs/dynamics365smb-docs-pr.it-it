@@ -1,5 +1,5 @@
 ---
-title: Individuazione di funzionalità e informazioni | Documenti di Microsoft
+title: Individuazione di funzionalità e informazioni (video) | Documenti di Microsoft
 description: In questo argomento viene descritto come utilizzare la funzionalità di ricerca per trovare azioni, pagine, report, documentazione e dati nonché altre app e servizi di consulenza.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1e44edeee82214c1d19489da351b3001bfa4fc3e
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440004"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940128"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Individuare pagine e informazioni con la funzionalità delle informazioni  
 In questo argomento viene descritto come la funzionalità delle informazioni può consentire di accedere rapidamente ad azioni, pagine o report, trovare informazioni su come completare una specifica attività e scoprire ulteriori app e servizi di consulenza per  [!INCLUDE[prod_short](includes/prod_short.md)].  

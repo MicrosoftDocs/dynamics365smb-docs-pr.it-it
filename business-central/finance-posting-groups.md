@@ -1,8 +1,6 @@
 ---
 title: Setup categorie di registrazione| Documenti Microsoft
 description: Panoramica delle categorie di registrazione utilizzabili per risparmiare tempo ed evitare errori quando si registrano le transazioni.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588809"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940753"
 ---
 # <a name="setting-up-posting-groups"></a>Impostazione delle categorie di registrazione
 I gruppi di registrazione mappano entità come clienti, venditori, articoli, risorse e documenti di vendita e acquisto ai conti della contabilità generale. Consentono di risparmiare tempo e contribuiscono a evitare errori quando si registrano transazioni. I valori di transazione verranno registrati nei conti specificati nella categoria di registrazione per tale particolare entità. L'unico requisito consiste nella presenza di un piano dei conti. Per ulteriori informazioni, vedere [Impostare il piano dei conti](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ Il setup determina quando avviene la registrazione. Ad esempio, la sincronizzazi
 
 ## <a name="copying-posting-setup-lines"></a>Copia di righe di setup registrazione
 Maggiore è il numero di categorie di registrazione articoli/servizi e business, maggiore sarà la quantità di righe visualizzate nella pagina Setup registrazioni COGE. Questo significa che per il setup delle registrazioni COGE per la società è necessario immettere una grande quantità di dati. Sebbene possano esserci numerose combinazioni diverse di categorie di registrazione business e articoli/servizi, le diverse combinazioni possono comportare la registrazione negli stessi conti C/G. Per limitare la quantità di dati da immettere manualmente, copiare i conti C/G da una riga esistente nella pagina **Setup registrazioni COGE**.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Impostare le categorie di registrazione ovunque ci si trovi
+
+Per consentire agli utenti di iniziare più rapidamente, [!INCLUDE[prod_short](includes/prod_short.md)] offre assistenza tramite le notifiche di conti COGE mancanti in varie impostazioni di gruppi di registrazione nei documenti. Per ricevere queste notifiche, assicurati che la notifica **Il conto C/G non è presente nel setup o nella categoria di registrazione** sia selezionata nella pagina **Notifiche personali** a cui puoi accedere dal campo **Modifica il momento in cui ricevere le notifiche** nella pagina **Impostazioni personali**.  
+
+In questo modo, quando lavori su un documento che utilizza un gruppo di registrazione o una configurazione in cui manca un conto di contabilità generale richiesto, riceverai una notifica. Scegli il collegamento nella notifica per aprire una pagina in cui è possibile apportare le modifiche pertinenti, a condizione che si disponga dell'autorizzazione per farlo.  
+
+> [!NOTE]
+> Per portarti direttamente al gruppo di registrazione o all'impostazione a cui manca un conto di contabilità generale, [!INCLUDE[prod_short](includes/prod_short.md)] creerà un gruppo di registrazione segnaposto o un'impostazione. I gruppi e le impostazioni di registrazione sono un modo per il contabile di controllare il modo in cui i movimenti vengono registrati nella contabilità generale, quindi la creazione just-in-time di gruppi e impostazioni di registrazione potrebbe non essere consentita nella tua organizzazione.  
+> 
+> In tal caso, disabilita la notifica **Il conto C/G non è presente nel setup o nella categoria di registrazione**, quindi collabora con il contabbile per apportare le modifiche pertinenti al gruppo di registrazione, all'impostazione o al documento. Questo è un passaggio importante, perché una volta che i documenti sono stati registrati, eventuali gruppi di registrazione o impostazioni utilizzati in modo errato non possono essere eliminati perché sono stati creati movimenti contabili generali. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Risoluzione degli errori del gruppo di posting
 I gruppi di pubblicazione sono uno dei concetti più avanzati da impostare in [!INCLUDE[prod_short](includes/prod_short.md)]. Se non sono impostati correttamente, possono verificarsi errori quando si inseriscono documenti o linee del giornale. Per esempio, questi errori sono tipicamente causati da un errore nel modo in cui i conti della contabilità generale sono assegnati, o come i gruppi di registrazione sono combinati.
