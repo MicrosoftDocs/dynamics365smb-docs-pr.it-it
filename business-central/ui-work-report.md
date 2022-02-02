@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439952"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972202"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilizzo di report, processi batch e XMLport
 
@@ -56,7 +56,7 @@ Usare i campi in **Opzioni** e **Filtri** per limitare le informazioni che si de
 
 ## <a name="previewing-a-report"></a>Anteprima di un report
 
-L'anteprima di un report consente di vedere come apparirà il report prima di stamparlo. L'anteprima non è basata sul campo **Stampante** selezionato nella pagina della richiesta. È controllato dal browser. Dopo l'anteprima, è possibile tornare alla pagina della richiesta e modificare le opzioni e i filtri secondo necessità.
+L'anteprima di un report consente di vedere come apparirà il report prima di stamparlo. L'anteprima non è basata sulla stampante selezionata nel campo **Stampante** nella pagina della richiesta. È controllato dal browser. Dopo l'anteprima, è possibile tornare alla pagina della richiesta e modificare le opzioni e i filtri secondo necessità.
 
 Per visualizzare in anteprima un report, scegliere il pulsante **Anteprima** o **Anteprima e chiudi** nella pagina di richiesta del report. Il pulsante visualizzato dipende dal report, quindi alcuni report hanno **Anteprima** mentre altri hanno il pulsante **Anteprima e chiudi**. Entrambi i pulsanti aprono un'anteprima del report. La differenza è che **Anteprima** mantiene la pagina della richiesta aperta, in modo da potervi tornare, apportare modifiche, visualizzare di nuovo l'anteprima o stampare. Con **Anteprima e chiudi**, la pagina di richiesta si chiude, quindi è necessario aprire nuovamente il report per apportare modifiche o stamparlo.
 
@@ -139,6 +139,12 @@ Per ulteriori informazioni sulla progettazione del report, vedi [Panoramica dei 
 
 > [!NOTE]
 > Alcuni report esportano i numeri come testo, il che impedisce di eseguire calcoli o utilizzare Power Pivot nelle celle del foglio di lavoro di Excel. Dopo l'esportazione, è una buona norma verificare i numeri nel foglio di lavoro. Se vuoi eseguire analisi e grafici sui numeri, cambia il formato delle celle rilevanti da **Testo** in **Numero**. Per ulteriori informazioni sulla formattazione dei numeri nelle celle, guarda questo video [Formattazione dei numeri nelle celle in Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Documento di Microsoft Word
+Utilizzare l'opzione **Documento di Microsoft Word** per generare un report come documento Word.  
+
+> [!NOTE]
+> È possibile specificare il layout da utilizzare per ciascun report nella pagina **Selezione report** nel campo **Layout selezionato**. L'impostazione predefinita per i report è **RDLC (integrato)**, che produce report con lo stesso layout o con un layout simile a quello di un **Documento di Microsoft Word**. Tuttavia, la differenza fondamentale è se si desidera generare uno o più documenti di report. Per i singoli documenti, puoi utilizzare l'opzione RDLC (integrata). Per più documenti, impostare il **Documento Microsoft Word** come layout predefinito per il report. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Pianificazione dell'esecuzione di un report
 

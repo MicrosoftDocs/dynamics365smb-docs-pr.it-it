@@ -1,7 +1,6 @@
 ---
-title: Importazione di numerose immagini articolo da un file ZIP| Microsoft Docs
+title: Importazione di numerose immagini articolo da un file ZIP
 description: Per importare più immagini articolo, assegna ai file immagine dei nomi che corrispondono ai numeri degli articoli, comprimi i file in un file ZIP, quindi utilizza la pagina Importa immagini articolo.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
+ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 81e628a80fe170789bb174cd393842bdf2db9af5
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440526"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7975020"
 ---
 # <a name="import-multiple-item-pictures"></a>Importare molteplici immagini articolo
  È possibile importare più immagini articolo contemporaneamente. Assegnare ai file immagine dei nomi che corrispondono ai numeri degli articoli, comprimere i file in un file zip, quindi utilizzare la pagina Importa immagini articolo per gestire le immagini articolo da importare.

@@ -4,19 +4,19 @@ description: Informazioni su come visualizzare la disponibilità di articoli o s
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5a65e56a58f0224230770dd9d2c847b754125d20
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441195"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012317"
 ---
 # <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
 Dal contesto di un task di business, è possibile ottenere informazioni avanzate relative al momento e all'ubicazione in cui un articolo è disponibile, ad esempio quando si parla con un cliente per proporre una data di consegna.
@@ -43,7 +43,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], i dati relativi alla disponib
 Si visualizza la disponibilità di un articolo secondo le transazioni pianificate dell'articolo nella pagina **Disponibilità articolo per evento**.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
-2. Aprire la scheda di un articolo per cui si desidera visualizzare la disponibilità.
+2. Apri la scheda di un articolo per cui vuoi visualizzare la disponibilità.
 3. Scegliere l'azione **Disponibilità articolo per** quindi scegliere l'azione **Evento**.
 
     La pagina **Disponibilità articolo per evento** mostra come le quantità di magazzino dell'articolo si svilupperanno nel tempo in base agli eventi programmati per carico e spedizione. La pagina fornisce una visualizzazione ridotta che mostra una riga di informazioni accumulate per intervallo di tempo in cui le quantità di magazzino cambiano. Gli intervalli di tempo in cui non si è verificato alcun evento non sono visualizzati. È possibile espandere ogni riga per mostrare i dettagli sull'evento o gli eventi che hanno generato la quantità accumulata sulla riga.

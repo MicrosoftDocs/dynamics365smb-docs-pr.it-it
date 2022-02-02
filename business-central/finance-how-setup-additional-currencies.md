@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, foreign exchange rates
+ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 601ed7ceb9817b8bf24c12a260fd346087eed86f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660208"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972046"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
 
@@ -41,15 +42,17 @@ L'utilizzo di una valuta addizionale può essere utile per il processo di creazi
 Vari report finanziari sono basati sui movimenti C/G. Per visualizzare i dati del report nella valuta contabile addizionale, selezionare semplicemente il campo **Mostra importi in valuta contabile addizionale** nella Scheda dettaglio **Opzioni** per il relativo report CG.
 
 ## <a name="adjusting-exchange-rates"></a>Rettifica di tassi di cambio
+
 Poiché i tassi di cambio oscillano costantemente, gli equivalenti in valuta addizionale nel sistema devono essere rettificati periodicamente. Se queste rettifiche non vengono apportate, gli importi che sono stati convertiti da valute estere (o addizionali) e registrati nella contabilità generale in valuta locale possono essere fuorvianti. Inoltre, i movimenti quotidiani registrati prima dell'immissione di un tasso di cambio quotidiano nell'applicazione devono essere aggiornati dopo l'immissione delle informazioni su tale tasso di cambio. Il processo batch **Rettifica tassi di cambio** viene utilizzato per rettificare i tassi di cambio dei movimenti cliente, fornitore e conti C/C bancari registrati. Consente inoltre di aggiornare gli importi nella valuta contabile addizionale nei movimenti C/G. Per ulteriori informazioni, vedere [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
+
 Seguire questa procedura per impostare una valuta contabile addizionale:
 
--   Specificare i conti C/G per la registrazione delle rettifiche al tasso di cambio.  
--   Specificare il metodo della rettifica tasso di cambio per tutti i conti C/G.  
--   Specificare il metodo di rettifica del tasso di cambio per i movimenti IVA.  
--   Attivare la valuta contabile addizionale.  
+- Specificare i conti C/G per la registrazione delle rettifiche al tasso di cambio.  
+- Specificare il metodo della rettifica tasso di cambio per tutti i conti C/G.  
+- Specificare il metodo di rettifica del tasso di cambio per i movimenti IVA.  
+- Attivare la valuta contabile addizionale.  
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Per specificare i conti C/G per la registrazione delle rettifiche tasso di cambio.  
 
@@ -68,7 +71,8 @@ Seguire questa procedura per impostare una valuta contabile addizionale:
 
 Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il conto verranno rettificati in caso di fluttuazioni del tasso di cambio tra la valuta locale e quella contabile addizionale.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Per specificare il metodo della rettifica tasso di cambio per tutti i conti C/G  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Per specificare il metodo della rettifica tasso di cambio per tutti i conti C/G
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Piano dei conti**, selezionare il conto pertinente quindi scegliere l'azione **Modifica**.  
 3. Nella pagina **Scheda conto GL** selezionare il metodo pertinente nel campo **Rettifica tasso di cambio**.  
@@ -85,7 +89,8 @@ Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il
 
 4.  Chiudere la pagina **Scheda conto C/G**.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Per specificare il metodo di rettifica del tasso di cambio per i movimenti IVA  
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Per specificare il metodo di rettifica del tasso di cambio per i movimenti IVA
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup contabilità generale** selezionare il metodo pertinente nel campo **Rettif. tasso di cambio IVA**.  
 3. Se si effettua la registrazione in una valuta addizionale, è possibile specificare nel campo **Rettif. tasso di cambio IVA** in che modo verranno rettificati i conti impostati per la registrazione IVA nella pagina **Setup registrazioni IVA** per le fluttuazioni del tasso di cambio tra la valuta locale e quella addizionale.  
@@ -124,11 +129,12 @@ Dopo avere eseguito il processo batch, gli importi nei seguenti movimenti esiste
 Per tutti i movimenti futuri dello stesso tipo gli importi verranno inoltre registrati sia nella valuta locale che in quella addizionale.  
 
 > [!NOTE]  
->  Il campo **Valuta contabile addizionale** verrà attivata solo dopo aver fatto clic sul pulsante **OK** nel processo batch **Rett. valuta cont. addizionale**.  
+> Il campo **Valuta contabile addizionale** verrà attivata solo dopo aver fatto clic sul pulsante **OK** nel processo batch **Rett. valuta cont. addizionale**.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

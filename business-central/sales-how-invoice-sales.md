@@ -11,12 +11,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: c3cc7613023c684469b0558e160d9400b5ca48db
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752470"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011389"
 ---
 # <a name="invoice-sales"></a>Fatturare le vendite
 
@@ -28,7 +28,7 @@ In un paio di scenari è necessario utilizzare un ordine di vendita invece di un
 * Se si spediscono i prodotti dopo aver registrato le fatture di vendita corrispondenti.
 * Se si vendono articoli che il fornitore consegna direttamente al cliente. Questa operazione viene denominata spedizione diretta. Per ulteriori informazioni, vedere [Effettuare spedizioni dirette](sales-how-drop-shipment.md).  
 
-In tutti gli altri scenari, gli ordini di vendita e le fatture di vendita funzionano nello stesso modo. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
+In tutti gli altri scenari, gli ordini di vendita e le fatture di vendita funzionano nello stesso modo. Per ulteriori informazioni su come utilizzare gli ordini di vendita, vedere [Vendere prodotti](sales-how-sell-products.md).
 
 È possibile negoziare con il cliente prima di tutto creando un'offerta di vendita, che è possibile convertire in una fattura di vendita quando ci si accorda sulla vendita. Per ulteriori informazioni, vedere [Creare offerte di vendita](sales-how-make-offers.md).
 

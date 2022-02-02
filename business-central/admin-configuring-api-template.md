@@ -1,8 +1,6 @@
 ---
-title: Configurazione dei modelli API | Microsoft Docs
+title: Configurazione di modelli di API
 description: Descrive i passaggi da seguire per configurare modelli di API per Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
+ms.search.form: 5469
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f5f081e4d0042333549453a3ad6af5a05a0e6ca0
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443994"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011258"
 ---
 # <a name="configuring-api-templates"></a>Configurazione di modelli di API
+
 La libreria di API per [!INCLUDE[prod_short_md](includes/prod_short.md)] fornisce una rappresentazione semplificata delle entità sottostanti. Tutte le proprietà dell'applicazione non sono esposte tramite l'API associata. La pagina **Setup API** consente di definire modelli utilizzati per popolare le proprietà vuote in un'entità quando si crea un'azione POST tramite l'API. 
 
 Ad esempio, se per l'entità articolo viene definito un modello di configurazione, quando viene creato un nuovo record di articolo tramite l'API articoli, tutte le proprietà per il nuovo articolo che non sono definite nella chiamata API verranno popolate dal modello selezionato. Se, ad esempio, non è definito alcun valore per il campo **Cat. reg. articolo/servizio** tramite l'API, ma un valore è definito nel modello selezionato, al nuovo articolo verrà applicato il valore del gruppo di registrazione definito nel modello. 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2c92e72f20c26fe1505834e70d58981093c24b8
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9d4c7884ead0b7821556c1db410f0fe06ea5aeff
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940228"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029458"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Esperienze di contabile in [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -49,9 +50,9 @@ Dopo che il contabile ha eseguire l'accesso a [!INCLUDE[prod_short](includes/pro
 > [!IMPORTANT]  
 > L'indirizzo e-mail del contabile deve essere un indirizzo di lavoro che si basa su Azure Active Directory. Se il contabile utilizza un altro tipo di posta elettronica, l'invito non può essere inviato.
 >
-> Questo task richiede l'accesso alla gestione di utenti e licenze in Azure Active Directory. All'utente che invia questo invito deve essere assegnato il ruolo **Amministratore globale** o **Amministratore utente** nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Informazioni sui ruoli di amministratore](/microsoft-365/admin/add-users/about-admin-roles) nei contenuti di amministrazione di Microsoft 365.  
+> Questo task richiede l'accesso alla gestione di utenti e licenze in Azure Active Directory. All'utente che invia questo invito deve essere assegnato il ruolo **Amministratore globale** o **Amministratore utente** nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Informazioni sui ruoli di amministratore](/microsoft-365/admin/add-users/about-admin-roles) nell'interfaccia di amministrazione di Microsoft 365.  
 
-### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Aggiunta del contabile a Microsoft 365 tramite il portale di Azure
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Aggiunta del contabile a Microsoft 365 nel portale di Azure
 
 Se l'amministratore o il partner di rivendita non desidera utilizzare la guida **Invita un contabile esterno**, possono aggiungere un utente esterno nel portale di Azure e assegnare a questo utente la licenza di *contabile esterno*. Per ulteriori informazioni, vedere [Avvio rapido: aggiunta di utenti guest alla directory nel portale di Azure](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
@@ -92,7 +93,7 @@ Il contabile riceverà un messaggio e-mail che lo informa che gli è stato conce
 
 1. Aprire la società [!INCLUDE[prod_short](includes/prod_short.md)] a cui si desidera che il contabile acceda all'indirizzo [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.  
-3. Scegli l'azione **Ottieni nuovi utenti da Microsoft 365**.
+3. Scegliere l'azione **Ottieni nuovi utenti da Microsoft 365**.
 
 In tal modo l'account utente creato nel portale di Azure viene importato nella società. Per ulteriori informazioni, vedere [Per aggiungere un utente in Business Central](ui-how-users-permissions.md#adduser).  
 

@@ -1,21 +1,23 @@
 ---
-title: Task commesse utilizzando le risorse e i fogli presenze
+title: Gestione progetti
 description: Questo argomento descrive come utilizzare le risorse, i fogli presenze e le commesse per gestire progetti e budget.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 89, 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8f08b42af793772c98c0671cdf44934638fb8db7
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321091"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972150"
 ---
 # <a name="project-management"></a>Gestione progetti
+
 In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
 
 Prima di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse. Per ulteriori informazioni, vedere [Impostazione della Gestione progetti](projects-setup-projects.md).  

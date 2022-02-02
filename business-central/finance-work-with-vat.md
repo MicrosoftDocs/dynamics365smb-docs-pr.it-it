@@ -7,15 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases,
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: effeb489bbffbc3647f30b371bc0c0a8f7f2e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439437"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970965"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
 Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
@@ -87,8 +88,8 @@ Di seguito viene descritto come abilitare le modifiche manuali dell'IVA nei docu
 2. Ripetere il passaggio 1 per la pagina **Setup contabilità clienti**.
 3. Una volta completata l'impostazione descritta sopra, è possibile rettificare il campo **Importo IVA** nella riga di registrazioni COGE o il campo **Imp. IVA controp.** nelle righe di registrazioni vendite o acquisti. [!INCLUDE[prod_short](includes/prod_short.md)] verificherà che la differenza non sia maggiore dell'importo massimo specificato.  
 
-    > [!NOTE]  
-    > Se la differenza è maggiore, verrà visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo. Scegliere **OK** e immettere un importo che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o minore di quella massima consentita, [!INCLUDE[prod_short](includes/prod_short.md)] mostrerà la differenza nel campo **Differenza IVA**.  
+> [!NOTE]  
+> Se la differenza è maggiore, verrà visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo. Scegliere **OK** e immettere un importo che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o minore di quella massima consentita, [!INCLUDE[prod_short](includes/prod_short.md)] mostrerà la differenza nel campo **Differenza IVA**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Registrare l'IVA da importazione con fatture di acquisto
 Anziché utilizzare le registrazioni per registrare una fattura con IVA da importazione, è possibile utilizzare una fattura di acquisto.  
@@ -120,34 +121,34 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
 3. Scegliere **Dettagli certificato di fornitura**.  
 4. Per impostazione predefinita, se è selezionata la casella di controllo **Certificato di fornitura obbligatorio** per l'impostazione della categoria di registrazione IVA per il cliente, il campo **Stato** è impostato su **Obbligatorio**. È possibile aggiornare il campo per specificare se il cliente ha restituito il certificato.  
 
-    > [!Note]  
-    >  Se l'impostazione della categoria di registrazione IVA non ha la casella di controllo **Certificato di fornitura richiesto** selezionata, viene creato un record e il campo **Stato** è impostato su **Non applicabile**. È possibile aggiornare il campo per riflettere le corrette informazioni relative allo stato. È possibile modificare manualmente lo stato da **Non applicabile** a **Obbligatorio** e da **Obbligatorio** a **Non applicabile** in base alle esigenze.  
+> [!Note]  
+>  Se l'impostazione della categoria di registrazione IVA non ha la casella di controllo **Certificato di fornitura richiesto** selezionata, viene creato un record e il campo **Stato** è impostato su **Non applicabile**. È possibile aggiornare il campo per riflettere le corrette informazioni relative allo stato. È possibile modificare manualmente lo stato da **Non applicabile** a **Obbligatorio** e da **Obbligatorio** a **Non applicabile** in base alle esigenze.  
 
    Quando si aggiorna il campo **Stato** su **Obbligatorio**, **Ricevuto** o **Non ricevuto**, viene creato un certificato.  
 
-    > [!TIP]  
-    >  È possibile utilizzare la pagina **Certificati di fornitura** per visualizzare lo stato di tutte le spedizioni registrate per le quali un certificato di fornitura è stato creato.  
+> [!TIP]  
+>  È possibile utilizzare la pagina **Certificati di fornitura** per visualizzare lo stato di tutte le spedizioni registrate per le quali un certificato di fornitura è stato creato.  
 
 5. Scegliere **Stampa certificato di fornitura**.  
 
-    > [!Note]  
-    >  È possibile visualizzare in anteprima o stampare il documento. Scegliendo **Stampa certificato di fornitura** e si stampa il documento, la casella di controllo **Stampato** viene selezionata. Inoltre, se non è già specificato, lo stato del certificato viene aggiornato a **Obbligatorio**. Se necessario, includere il certificato stampato con la spedizione.  
+> [!Note]  
+>  È possibile visualizzare in anteprima o stampare il documento. Scegliendo **Stampa certificato di fornitura** e si stampa il documento, la casella di controllo **Stampato** viene selezionata. Inoltre, se non è già specificato, lo stato del certificato viene aggiornato a **Obbligatorio**. Se necessario, includere il certificato stampato con la spedizione.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Per stampare un certificato di fornitura  
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Scegliere l'azione **Stampa certificato di fornitura**.  
 
-    > [!NOTE]  
-    >  In alternativa, è possibile stampare un certificato dalla pagina **Certificato di fornitura**.  
+> [!NOTE]  
+>  In alternativa, è possibile stampare un certificato dalla pagina **Certificato di fornitura**.  
 
 4. Per includere le informazioni dalle righe presenti nel documento di spedizione nel certificato, selezionare la casella di controllo **Stampa dettagli riga**.  
 5. Selezionare la casella di controllo **Crea certificati di fornitura se non ancora creati** per fare in modo che [!INCLUDE[prod_short](includes/prod_short.md)] crei certificati per le spedizioni registrate che non ne hanno uno al momento dell'esecuzione. Quando si seleziona la casella di controllo, vengono creati nuovi certificati per tutte le spedizioni registrate che non hanno certificati nell'intervallo selezionato.  
 6. Per impostazione predefinita, le impostazioni del filtro sono per il documento di spedizione selezionato. Immettere le informazioni di filtro per selezionare un certificato specifico di fornitura da stampare.  
 7. Nella pagina **Certificato di fornitura**, scegliere l'azione **Stampa** per stampare il report o scegliere l'azione **Anteprima** per visualizzarlo.  
 
-    > [!Note]  
-    > I campi **Certificato con stato di fornitura** e **Stampato** vengono aggiornati per la spedizione nella pagina **Certificati di fornitura**.  
+> [!Note]  
+> I campi **Certificato con stato di fornitura** e **Stampato** vengono aggiornati per la spedizione nella pagina **Certificati di fornitura**.  
 
 8. Inviare il certificato di fornitura stampato al cliente per la firma.  
 
@@ -174,11 +175,11 @@ Per visualizzare un gruppo di certificati, si inizia dalla pagina **Certificati 
 
    È possibile modificare la data per indicare la data in cui è stato ricevuto il certificato di fornitura firmato. È inoltre possibile aggiungere un collegamento al certificato firmato utilizzando la funzione standard di collegamento dei documenti di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-    > [!NOTE]  
-    >  Non è possibile creare un nuovo certificato di fornitura nella pagina **Certificato di fornitura** quando si arriva alla stessa utilizzando questa procedura. Per creare un certificato per una spedizione che non è stata impostata per richiederne uno, aprire la spedizione vendita registrata e utilizzare una delle due procedure descritte in precedenza:  
-    >
-    > * Per creare manualmente un certificato di fornitura  
-    > * Per stampare un certificato di fornitura.
+> [!NOTE]
+> Non è possibile creare un nuovo certificato di fornitura nella pagina **Certificato di fornitura** quando si arriva alla stessa utilizzando questa procedura. Per creare un certificato per una spedizione che non è stata impostata per richiederne uno, aprire la spedizione vendita registrata e utilizzare una delle due procedure descritte in precedenza:  
+>
+> * Per creare manualmente un certificato di fornitura  
+> * Per stampare un certificato di fornitura.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

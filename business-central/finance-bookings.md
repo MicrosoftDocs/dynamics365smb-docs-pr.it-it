@@ -8,19 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
+ms.search.form: 1638, 6702, 6704
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 236e1732f3bd7100f00f39a41cbec169b6cbd70f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9cac5b50d2a674f3ca39f085a2d4448356277b64
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324027"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971174"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Fatturazione in blocco per Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Se la società utilizza l'app Bookings in Microsoft 365, è possibile eseguire la fatturazione in blocco per gli appuntamenti. La pagina **Bookings non fatturato** di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una lista delle prenotazioni completate della società. Nella pagina è possibile selezionare rapidamente gli appuntamenti da fatturare e creare fatture in bozza per i servizi forniti.  
 
 ## <a name="connect-to-bookings"></a>Connessione a Bookings
+
 Per collegare [!INCLUDE[prod_short](includes/prod_short.md)] a Bookings, è necessario specificare la società Bookings, cosa sincronizzazione con Bookings, la frequenza di sincronizzare e i modelli da utilizzare. Impostare queste informazioni nella pagina **Setup sincronizzazione registrazione** che è possibile aprire dalla pagina **Setup sincronizzazione con Exchange** che è possibile trovare tramite la [Ricerca](ui-search.md).  
 
 Ad esempio, se si desidera sincronizzare i clienti tra Bookings e [!INCLUDE[prod_short](includes/prod_short.md)], è necessario specificare il modello di default da utilizzare per aggiungere i nuovi clienti in [!INCLUDE[prod_short](includes/prod_short.md)] sulla base dei clienti nella società Bookings.  
@@ -34,11 +37,13 @@ Analogamente, se si desidera sincronizzare gli articoli in assistenza tra Bookin
 > Solo gli articoli di tipo *Assistenza* verranno sincronizzati tra Bookings e [!INCLUDE[prod_short](includes/prod_short.md)]. Il modello impostato nella pagina **Modelli di configurazione** di modo che possa essere utilizzato per la sincronizzazione degli articoli deve definire il tipo come *Assistenza*.
 
 ## <a name="invoice-appointments"></a>Fattura appuntamenti
+
 Quando è tempo di inviare le fatture per le prenotazioni completate, aprire la pagina **Bookings non fatturato**. In base alla frequenza della sincronizzazione delle informazioni, l'elenco è lungo o breve. È possibile creare fatture per tutte le prenotazioni della lista o per una prenotazione alla volta. È possibile selezionare uno o più movimenti dell'elenco e fatturare solo quelli.  
 
 Il supporto per la fatturazione degli appuntamenti da Bookings è più semplice del flusso di lavoro completo per l'utilizzo di offerte di vendita, ordini di vendita e fatture di vendita. Per ulteriori informazioni, vedere [Fatturare le vendite](sales-how-invoice-sales.md). È possibile scegliere di vendere i servizi con [!INCLUDE[prod_short](includes/prod_short.md)] o decidere di utilizzare Bookings, in base alle esigenze aziendali.  
 
 ## <a name="see-also"></a>Vedi anche
+
 [Finanze](finance.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

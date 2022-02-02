@@ -1,5 +1,5 @@
 ---
-title: Come gestire le attività di conto lavoro
+title: Gestire le attività di conto lavoro
 description: Questo argomento fornisce una panoramica estesa della funzionalità del conto lavoro in Business Central, inclusi i campi del centro di lavoro e il ciclo.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2b3ecc4ac84c5b3958d2ada97c104e92dced9ed2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441524"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972725"
 ---
 # <a name="subcontract-manufacturing"></a>Gestire le attività di conto lavoro
+
 L'utilizzo di un conto lavoro per le operazioni eseguite da un fornitore è prassi comune in numerose aziende manifatturiere. Il conto lavoro può verificarsi raramente oppure essere parte integrante di tutti i processi di produzione.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce diversi strumenti per la gestione delle attività di conto lavoro:  

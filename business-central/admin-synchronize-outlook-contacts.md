@@ -1,5 +1,5 @@
 ---
-title: Condividere contatti tra Business Central e Outlook| Microsoft Docs
+title: Condividere contatti tra Business Central e Outlook
 description: Questo servizio è completamente integrato con Microsoft 365 pertanto è possibile condividere i contatti tra Outlook e Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
+ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1ccada415d506193e52ac37981252a47e6088971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61d5173f1f7baf9f463916b47fc38d6dde7f740f
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777168"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8010992"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Sincronizzare i contatti di Business Central con i contatti di Microsoft Outlook
+
 È possibile visualizzare gli stessi contatti in [!INCLUDE[prod_short](includes/prod_short.md)] come visualizzati in Outlook se si imposta la sincronizzazione dei contatti. Ad esempio, un addetto alle vendite potrebbe svolgere parte del lavoro in Outlook e parte del tuo lavoro in [!INCLUDE[prod_short](includes/prod_short.md)]. Se i contatti sono uguali in entrambi i programmi, il lavoro è più semplice.  
 
 Una cartella dedicata in Outlook rende i contatti facili da trovare ed è possibile impostare un filtro per sincronizzare solo i contatti di [!INCLUDE[prod_short](includes/prod_short.md)] che si desidera visualizzare in Outlook. Una volta impostata la sincronizzazione dei contatti, è possibile avviare la sincronizzazione manualmente o impostare una sincronizzazione automatica che manterrà i contatti sincronizzati su base pianificata.  
@@ -36,11 +38,11 @@ Se si è abituati a utilizzare i contatti in [!INCLUDE[prod_short](includes/prod
 
 Nell'elenco **Contatti** è possibile sincronizzare i contatti in due modi:
 
-* **Sincronizza con app Microsoft 365**
+* **Sincronizza con Microsoft 365**
 
   Questa azione sincronizza tutte le modifiche di [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft 365 a partire dalla sincronizzazione precedente, in base all'ultima data di modifica. Tutti i nuovi contatti di Microsoft 365 verranno sincronizzati di nuovo anche in [!INCLUDE[prod_short](includes/prod_short.md)]. Questo è in genere più veloce di una sincronizzazione completa.  
 
-* **Sincronizza completa con Microsoft 365**
+* **Sincronizzazione completa con Microsoft 365**
 
   Questa azione sincronizza tutti i contatti in entrambe le direzioni indipendentemente dall'ultima data di sincronizzazione e dall'ultima data di modifica.  
 

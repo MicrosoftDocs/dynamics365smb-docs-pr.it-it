@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46759304a312e0376e8b309b29d5e0491b34a69f
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588884"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012237"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per programmare i task
 
@@ -71,6 +71,7 @@ Per esempio, se l'azienda corrente è in un ambiente che è una copia di un altr
 > Gli amministratori interni e gli utenti possono programmare l'esecuzione di attività. Gli amministratori delegati non possono.
 
 ## <a name="the-my-job-queue-part"></a>Parte Coda processi
+
 La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle code processi avviati da un utente, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, pertanto è necessario aggiungerla alla Gestione ruolo utente utilizzata. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).  
 
 La parte mostra quali documenti con il proprio ID nel campo **ID utente assegnato** sono in fase di elaborazione o in coda, inclusi quelli relativi alla registrazione in background. La parte indica immediatamente se si è verificato un errore durante la registrazione di un documento oppure se sono presenti errori in un movimento coda processi. La parte consente inoltre di annullare la registrazione del documento se non è in esecuzione.

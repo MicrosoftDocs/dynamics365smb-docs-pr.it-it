@@ -1,5 +1,5 @@
 ---
-title: Revisione delle modifiche | Microsoft Docs
+title: Revisione delle modifiche
 description: È possibile attivare un registro utente in modo da disporre di uno storico di tutte le modifiche apportate ai dati delle tabelle tracciate. È anche possibile tenere traccia delle attività con determinati tipi di registri attività.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,20 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
+ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 2101a37c62b232e72cf5e773aeb0b2e6d6709927
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606441"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011072"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revisione delle modifiche in Business Central
+
 Una sfida comune in molte applicazioni di gestione aziendale è evitare modifiche indesiderate nei dati. Potrebbe trattarsi di un numero di telefono errato del cliente o di una registrazione errata nella contabilità generale. Questo argomento descrive le funzionalità per scoprire cosa è cambiato, chi l'ha cambiato e quando è stato cambiato.
 
-## <a name="about-the-change-log"></a>Informazioni sul log modifiche 
-Il log modifiche consente di tenere traccia di tutte le modifiche dirette apportate da un utente ai dati nel database. Si specifica ogni tabella e campo che si vuole che il sistema registri, e poi si attiva il registro delle modifiche.  
+## <a name="about-the-change-log"></a>Informazioni sul log modifiche
+
+Il log modifiche consente di tenere traccia di tutte le modifiche dirette apportate da un utente ai dati nel database. Si specifica ogni tabella e campo che si vuole che il sistema registri, e poi si attiva il registro delle modifiche. Il log modifiche è basato sulle modifiche apportate ai dati nelle tabelle che si traccia. Nella pagina **Movimenti log modifiche**, i movimenti vengono ordinati cronologicamente e mostrano tutte le modifiche apportate ai valori dei campi nelle tabelle specificate. 
 
 La tracciabilità delle modifiche può avere un impatto sulle prestazioni e quindi comportare costi in termini di tempo, nonché aumentare le dimensioni del database e quindi comportare costi in termini di denaro. Per ridurre questi costi, tenete a mente quanto segue:
 
@@ -29,7 +32,7 @@ La tracciabilità delle modifiche può avere un impatto sulle prestazioni e quin
 - Non aggiungere movimenti contabili e documenti registrati. Assegnare invece la priorità ai campi di sistema, ad esempio Creato da e Data di creazione.
 - Non utilizzare il tipo di tracciabilità Tutti i campi. Scegliere invece Alcuni campi e tenere traccia solo dei campi più importanti.
 
-Il log modifiche è basato sulle modifiche apportate ai dati nelle tabelle che si traccia. Nella pagina **Movimenti log modifiche**, i movimenti vengono ordinati cronologicamente e mostrano tutte le modifiche apportate ai valori dei campi nelle tabelle specificate.
+Anche per motivi di prestazioni, il registro delle modifiche viene disattivato durante il processo di aggiornamento [!INCLUDE [prod_short](includes/prod_short.md)] alla versione successiva. Oltre ad accelerare il processo di aggiornamento, questo aiuta anche a ridurre il disordine nel registro delle probabilità. Non appena l'aggiornamento è completato, il registro riprende a tenere traccia delle modifiche.
 
 > [!Important]
 > Le modifiche vengono visualizzate in **Voci log modifiche** solo dopo il riavvio della sessione dell'utente, che avviene come segue:
@@ -39,6 +42,7 @@ Il log modifiche è basato sulle modifiche apportate ai dati nelle tabelle che s
 > * L'utente è uscito e si è iscritto di nuovo.
 
 ### <a name="working-with-the-change-log"></a>Utilizzo del log modifiche
+
 Il log modifiche viene attivato e disattivato nella pagina **Setup log modifiche**. Quando un utente attiva o disattiva il log modifiche, questa attività viene registrata, in modo da poter visualizzare sempre quale utente ha disattivato o riattivato il log modifiche.
 
 Nella pagina **Setup log modifiche**, se scegli l'azione **Tabelle**, puoi specificare per quali tabelle vuoi tracciare le modifiche e quali modifiche tracciare. [!INCLUDE[prod_short](includes/prod_short.md)] traccia anche diverse tabelle di sistema.
@@ -49,22 +53,26 @@ Nella pagina **Setup log modifiche**, se scegli l'azione **Tabelle**, puoi speci
 Dopo avere impostato e attivato il log modifiche e apportato una modifica ai dati, è possibile visualizzare e filtrare le modifiche nella pagina **Movimenti log modifiche**. Se si desidera rimuovere i movimenti, è possibile farlo nella pagina **Elimina mov. log modifiche**, in cui è possibile impostare filtri in base alle date e all'ora.  
 
 ## <a name="about-activity-logs"></a>Informazioni sui log attività
+
 Da alcune pagine in [!INCLUDE [prod_short](includes/prod_short.md)], è possibile visualizzare un log attività che mostra lo stato e gli eventuali errori nei file esportati da o importati in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ### <a name="working-with-activity-logs"></a>Utilizzare log di attività
+
 Le informazioni vengono visualizzate nella finestra **Log attività** in base alla pagina di contesto dalla quale viene aperta. Ad esempio, è possibile aprire la pagina dalle pagine **Setup servizio di scambio documenti**, **Documento in entrata**, **Fattura vendita registrata** e **Note cr. vendita registrate**. È possibile svuotare l'elenco dei movimenti del log o semplicemente cancellare l'elenco dei movimenti più vecchi di sette giorni.  
 
 ## <a name="monitoring-sensitive-fields"></a>Monitoraggio dei campi riservati
+
 Mantenere i dati sensibili protetti e privati è una preoccupazione fondamentale per la maggior parte delle aziende. Per aggiungere un livello di sicurezza, è possibile monitorare i campi importanti ed essere avvisati tramite e-mail quando qualcuno modifica un valore. Ad esempio, è possibile essere avvisati se qualcuno cambia il numero IBAN della tua azienda.
 
 > [!NOTE]
 > L'invio di notifiche tramite e-mail richiede la configurazione della funzione e-mail in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Configurare la posta elettronica](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Impostazione del monitoraggio campi
+
 Usare la guida al setup assistito **Setup monitoraggio modifiche campi** per specificare i campi che si desidera monitorare in base a criteri di filtro, come la classificazione dei dati riservati per i campi. Per ulteriori informazioni, vedere [Classificazione di dati riservati](admin-classifying-data-sensitivity.md). La guida consente inoltre di specificare la persona che riceverà la notifica e-mail quando si verifica una modifica e l'account e-mail che invierà l'e-mail di notifica. Specifica sia l'utente da notificare che l'account da cui inviare la notifica. Al termine della guida, è possibile gestire le impostazioni per il monitoraggio dei campi nella pagina **Setup monitoraggio campi**. 
 
 > [!NOTE]
-> Quando specifichi l'account di posta elettronica da cui inviare le notifiche, devi aggiungere i tipi di account **Microsoft 365** o **SMTP** . Le notifiche dovrebbero essere inviate da un account che non è associato a un utente reale. Pertanto non è possibile scegliere il tipo di account **Utente attuale** . Se lo fai, le notifiche non saranno inviate. 
+> Quando specifichi l'account di posta elettronica da cui inviare le notifiche, devi aggiungere i tipi di account **Microsoft 365** o **SMTP**. Le notifiche dovrebbero essere inviate da un account che non è associato a un utente reale. Pertanto non è possibile scegliere il tipo di account **Utente attuale** . Se lo fai, le notifiche non saranno inviate. 
 
 Nel tempo, l'elenco delle voci nella pagina **Voci del log dei campi monitorati** cresce. Per ridurre il numero di voci, è possibile creare una politica di conservazione che elimina le voci dopo un determinato periodo di tempo. Per ulteriori informazioni, vedere [Definire i criteri di conservazione](admin-data-retention-policies.md).
 
@@ -97,6 +105,7 @@ Per esaminare ulteriormente una modifica, scegliere un valore per aprire la pagi
 È possibile creare criteri di conservazione per eliminare i dati non necessari nei log dopo un periodo di tempo specificato. Ad esempio, nel tempo il numero di voci in un log può aumentare. Eliminando le vecchie voci è possibile concentrarsi più facilmente sulle voci più recenti e probabilmente più rilevanti. Per ulteriori informazioni, vedere [Definire i criteri di conservazione](admin-data-retention-policies.md).
 
 ## <a name="see-also"></a>Vedere anche
+
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  

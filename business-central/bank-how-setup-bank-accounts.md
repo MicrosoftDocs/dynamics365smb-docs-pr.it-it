@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940603"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029276"
 ---
 # <a name="set-up-bank-accounts"></a>Impostare i conti correnti bancari
 
@@ -90,6 +91,8 @@ Migliori sono le informazioni di mapping fornite nella registrazione riconciliaz
 2. Nella pagina **C/C bancari** scegliere l'azione **Nuovo**.
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    Ad esempio, il campo **Categoria registrazione C/C bancario** collega il conto bancario al conto C/G sottostante nel bilancio. Per ulteriori informazioni, vedere [Impostare le categorie registrazione](finance-posting-groups.md).
+
 > [!TIP]
 > Alcuni campi sono nascosti finché non scegli l'azione **Mostra di più**, in genere perché vengono utilizzati raramente. Altri campi devono essere aggiunti tramite la personalizzazione. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
@@ -152,7 +155,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare un movimento contabile del conto corrente bancario con la quantità in questione. È possibile effettuare questa operazione eseguendo un una riconciliazione bancaria. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md). In alternativa, è possibile implementare il saldo iniziale come parte della creazione di dati generali in nuove aziende utilizzando la guida al setup assistito **Migra dati aziendali**. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md). Per sapere come creare bilanci di apertura in [!INCLUDE[prod_short](includes/prod_short.md)], vedi [Come creare bilanci di apertura delle registrazioni](admin-how-to-create-journal-opening-balances.md).
+> Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare un movimento contabile del conto corrente bancario con la quantità in questione. È possibile effettuare questa operazione eseguendo un una riconciliazione bancaria. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> In alternativa, è possibile implementare il saldo iniziale come parte della creazione di dati generali in nuove aziende utilizzando la guida al setup assistito **Migra dati aziendali**. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> È importante non registrare il saldo di apertura direttamente nella contabilità generale. Avere voci nel conto C/G che vengono registrate direttamente nel conto C/G in genere comporterà l'impossibilità di riconciliare il conto bancario o, in caso di conti bancari in valuta estera, comporterà l'accumulo di differenze durante la pubblicazione di più riconciliazioni bancarie. Spesso si registra il saldo bancario di apertura direttamente sul conto bancario e l'importo finisce quindi nel conto C/G. In alternativa, lo annulli in un secondo momento rispetto a un conto C/G che hai usato per bilanciare il saldo della contabilità generale di apertura. In entrambi i casi, è necessario bilanciare qualsiasi registrazione diretta sul conto C/G prima di iniziare la prima riconciliazione bancaria, soprattutto se il conto bancario è in una valuta estera.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Per impostare il conto corrente bancario per l'importazione o l'esportazione di file dei conti correnti bancari
 

@@ -1,5 +1,5 @@
 ---
-title: Come creare bilanci di apertura delle registrazioni
+title: Creare bilanci di apertura delle registrazioni
 description: I processi batch sono forniti al fine di agevolare il trasferimento dei saldi del conto legacy a una società appena configurata. È possibile trasferire facilmente questi dati con le registrazioni.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ad338aaccb9bc912ff2861423e4ad3b170aa566d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319540"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029090"
 ---
 # <a name="create-journal-opening-balances"></a>Creare bilanci di apertura delle registrazioni
 
@@ -45,6 +45,9 @@ Prima di iniziare, assicurarsi di essere nella pagina Gestione ruolo utente Ammi
 
 > [!TIP]
 > È possibile utilizzare gli stessi processi batch per aggiungere bilanci di apertura ogni volta che si registra un nuovo cliente o fornitore con cui già sono stati conclusi affari ma non è registrato in [!INCLUDE [prod_short](includes/prod_short.md)]. Basta cercare l'attività pertinente e quindi scegliere il collegamento pertinente.
+
+> [!IMPORTANT]
+> In particolare per l'apertura di saldi per conti bancari, non seguire i passaggi in questo articolo per eseguire la registrazione direttamente nei conti C/G associati ai conti bancari pertinenti. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Vedere anche
 

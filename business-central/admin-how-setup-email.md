@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
+ms.search.form: 1805
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ce8856f250e4098256e9ac2b9959ec6900aaaadc
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: de40994a555fbc657eacc18e8b2e8b33ce430fcb
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940428"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011128"
 ---
 # <a name="set-up-email"></a>Configurare la posta elettronica
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono semplificare l'operazione collegando uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Gli amministratori possono anche impostare layout di report che includono solo le informazioni chiave dei documenti. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
@@ -44,7 +45,7 @@ La tabella seguente descrive le estensioni di posta elettronica disponibili per 
 |**Altro (SMTP)**|Usare il protocollo SMTP per inviare messaggi e-mail.|Consentire le comunicazioni tramite il server di posta SMTP. |
 
 > [!NOTE]
-> Le estensioni **Microsoft 365** e **Utente corrente** utilizzano gli account configurati per gli utenti nell'interfaccia di amministrazione di Microsoft 365 per l'abbonamento a Microsoft 365. Per inviare e-mail utilizzando le estensioni, gli utenti devono disporre di una licenza valida per Exchange Online. 
+> Le estensioni **Microsoft 365** e **Utente corrente** utilizzano gli account configurati per gli utenti nell'interfaccia di amministrazione di Microsoft 365 per la sottoscrizione di Microsoft 365. Per inviare e-mail utilizzando le estensioni, gli utenti devono disporre di una licenza valida per Exchange Online. 
 >
 > Inoltre, gli utenti esterni, come gli amministratori delegati e i contabili esterni, non possono utilizzare queste estensioni per inviare messaggi di posta elettronica da [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -118,7 +119,7 @@ Di seguito vengono riportati esempi di utilizzo di Invia come e Invia per conto 
 > È possibile utilizzare un solo account per sostituire gli indirizzi del mittente. Cioè, non è possibile avere un indirizzo sostitutivo per i processi di acquisto e un altro per i processi di vendita.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Per impostare l'indirizzo mittente sostitutivo per i messaggi di posta elettronica in uscita
-1. Nell'**Interfaccia di amministrazione di Exchange** per l'account Microsoft 365, trovare la casella di posta da utilizzare come indirizzo sostitutivo, quindi copiare o annotare l'indirizzo. Se è necessario un nuovo indirizzo, andare all'interfaccia di amministrazione di Microsoft 365 per creare un nuovo utente e configurare la relativa casella di posta.
+1. Nell'**interfaccia di amministrazione di Exchange** per l'account Microsoft 365, trovare la casella di posta da utilizzare come indirizzo sostitutivo, quindi copiare o annotare l'indirizzo. Se è necessario un nuovo indirizzo, andare all'interfaccia di amministrazione di Microsoft 365 per creare un nuovo utente e configurare la relativa casella di posta.
 2. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup e-mail SMTP**, quindi scegli il collegamento correlato.
 3. Nel campo **Invia come**, immettere l'indirizzo sostitutivo.
 4. Copiare o prendere nota dell'indirizzo nel campo **ID utente**.

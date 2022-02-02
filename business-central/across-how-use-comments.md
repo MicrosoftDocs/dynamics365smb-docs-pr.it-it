@@ -1,5 +1,5 @@
 ---
-title: Aggiungere commenti alle schede e ai documenti | Documenti Microsoft
+title: Aggiungere commenti a schede o documenti
 description: Aggiungere informazioni supplementari a conti, schede clienti o negli ordini di vendita per comunicare gli accordi, ad esempio un metodo di consegna o dei prezzi speciali ad altri utenti.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
+ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 345faa9f872d924e91572303ce71d87ff3b77160
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440976"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011917"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Aggiungere commenti a schede o documenti
+
 È possibile aggiungere informazioni supplementari a conti COGE, schede clienti o negli ordini di vendita per comunicare eccezioni o accordi speciali ad altri utenti.
 Praticamente tutte le schede e i documenti hanno un'azione **Commenti** che apre la scheda **Scheda commenti** dove è possibile scrivere o leggere i commenti. Nei documenti, è anche possibile aggiungere commenti a singole righe.
 
@@ -31,12 +33,14 @@ Inoltre, è possibile specificare se i commenti devono essere trasferiti da un t
 Di seguito viene descritto come aggiungere un commento a una scheda articolo. I passaggi sono simili per tutte le altre schede e i documenti, eccetto nelle righe del documento, l'azione **Commenti** verrà inserita in un menu di azione delle righe.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Per aggiungere dei commenti alla scheda articolo
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Apri la scheda articolo desiderata.
 3. Scegliere l'azione **Commenti**.
 4. Nella pagina **Scheda Commenti** immettere il testo desiderato e quindi scegliere il pulsante **OK**.
 
 ## <a name="see-also"></a>Vedere anche
+
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 

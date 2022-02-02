@@ -1,5 +1,5 @@
 ---
-title: Come eseguire la pianificazione completa, MPS e MRP
+title: Eseguire la pianificazione completa, MPS o MRP
 description: Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure entrambe contemporaneamente.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c3994dfa33e75379b2dcbc19c0f40e0262e032b2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440330"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971303"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Eseguire la pianificazione completa, MPS o MRP
+
 L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP" si riferisce al calcolo della programmazione di produzione master e delle richieste di materiale in base alla domanda effettiva e prevista. Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure può calcolarle entrambe contemporaneamente.  
 
 -   Per MPS si intende il calcolo di una programmazione produzione master in base alla domanda effettiva e alla previsione della domanda. Il calcolo MPS viene utilizzato per articoli finali associati a una riga ordine di vendita o previsione. Tali articoli sono denominati articoli MPS e sono identificati dinamicamente all'inizio del calcolo.  

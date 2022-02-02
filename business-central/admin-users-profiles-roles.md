@@ -5,14 +5,15 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
+ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443131"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012490"
 ---
 # <a name="manage-user-profiles"></a>Gestire profili utente
 
@@ -29,11 +30,15 @@ Prima di poter amministrare i profili degli utenti, è necessario creare e aggiu
 È possibile personalizzare layout di pagina per un profilo di modo che tutti gli utenti assegnati al profilo possano vedere le pagine personalizzate. Come amministratore, si personalizzano le pagine utilizzando le stesse funzionalità utilizzate dagli utenti. Per ulteriori informazioni, vedere [Personalizzare pagine per profili](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>Per creare un profilo
+
 Se non è possibile copiare un profilo esistente, è possibile crearne uno manualmente.
 
 1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Profili (ruoli)**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Profili (ruoli)** scegliere l'azione **Nuovo**.  
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Se desideri che un particolare profilo sia disponibile solo per utenti molto specifici, puoi impostare il campo **Descrizione** su `Navigation menu only.`. In questo modo il profilo viene escluso dall'elenco dei ruoli disponibili in **Impostazioni personali**.
 
 ## <a name="to-copy-a-profile"></a>Per copiare un profilo
 Per risparmiare tempo, è possibile creare un nuovo profilo copiandone uno esistente. Copiarne uno con impostazioni simili a quello che si desidera creare.

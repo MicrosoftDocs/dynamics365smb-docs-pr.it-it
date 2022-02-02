@@ -1,23 +1,22 @@
 ---
-title: Gestire budget per i cespiti| Documenti Microsoft
+title: Gestire budget per i cespiti
 description: Impostare le informazioni relative agli investimenti futuri, alle cessioni e all'ammortamento dei cespiti per preparare i budget e le previsioni.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
+ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f3654610847a4110517e88f98205da780bafdf21
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: de86b4f985eb95ccf51cb9a31fd6f026f74b5f55
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441649"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029590"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gestione dei budget per i cespiti
 È possibile impostare i cespiti previsti. Ad esempio, ciò consente di includere qualsiasi vendita o acquisto previsto nei report.  

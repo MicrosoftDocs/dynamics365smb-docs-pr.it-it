@@ -8,19 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44f7b577855f1df9967fd59bee5148d9ec06d087
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436000"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973734"
 ---
 # <a name="close-accounting-periods"></a>Chiudere periodi contabili
+
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito.
 
 ## <a name="to-close-accounting-periods"></a>Per chiudere periodi contabili
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Periodi contabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Periodi contabili** scegliere l'azione **Chiudi anno**.
 
@@ -30,7 +33,7 @@ Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costit
 L'anno fiscale viene chiuso e vengono selezionati i campi **Chiuso** e **Data bloccata** per tutti i periodi dell'anno. L'anno fiscale non può essere riaperto e i segni di spunta nei campi **Chiuso** e **Data bloccata** non possono essere rimossi.
 
 > [!NOTE]  
->   Non è possibile chiudere un anno fiscale prima di crearne uno nuovo. Si noti che una volta chiuso un anno fiscale, non è possibile modificare la data iniziale di quello successivo.
+> Non è possibile chiudere un anno fiscale prima di crearne uno nuovo. Si noti che una volta chiuso un anno fiscale, non è possibile modificare la data iniziale di quello successivo.
 
 Anche se l'anno fiscale è stato chiuso, è possibile registrarvi dei movimenti C/G. In questo caso, i movimenti vengono contrassegnati come registrati in un anno fiscale chiuso e viene selezionato il campo **Mov. anno prec.**
 

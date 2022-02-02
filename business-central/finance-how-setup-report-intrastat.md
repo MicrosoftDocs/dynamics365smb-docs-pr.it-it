@@ -1,8 +1,6 @@
 ---
-title: Impostare e creare report Intrastat| Microsoft Docs
+title: Impostare e registrare report Intrastat
 description: Informazioni su come impostare le funzionalità di reporting Intrastat e come segnalare le attività commerciali con società in altri paesi UE.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
+ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 219c7a779bc29eda81243362f79e1e7d2cec6b8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444414"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971095"
 ---
 # <a name="set-up-and-report-intrastat"></a>Impostare e registrare report Intrastat
+
 Tutte le società dell'Unione Europea devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Questa operazione è detta reporting Intrastat. Per compilare i report Intrastat periodici si utilizza la pagina **Registrazioni Intrastat**.  
 
 ## <a name="required-and-optional-setups"></a>Configurazioni obbligatorie e facoltative
@@ -30,10 +30,15 @@ Prima di poter usare la registrazione Intrastat per dichiarare le informazioni I
 * **Codici voce doganale**: le autorità doganali e fiscali hanno stabilito codici numerici che classificano gli articoli e i servizi. Specificare questi codici negli articoli.
 * **Codici natura transazione**: i paesi e le aree hanno codici differenti per la natura delle transazioni Intrastat, ad esempio acquisto o vendita ordinaria, cambio di merce resa e sostituzione di merce non resa. Impostare tutti codici che si applicano al proprio paese. È possibile utilizzare questi codici nei documenti di vendita e di acquisto e quando si elaborano i resi.  
 * **Metodi di trasporto**: sono disponibili sette codici di una cifra per i metodi di trasporto Intrastat. **1** via mare, **2** via ferrovia, **3** su strada, **4** via area, **5** per posta, **7** per installazioni fisse e **9** con proprio mezzo (ad esempio il trasporto con la propria auto). [!INCLUDE[prod_short](includes/prod_short.md)] non richiede tali codici, tuttavia, si consiglia di inserire descrizioni con un significato simile a questi codici.  
+* **Cod. paese destin./proven.**: utilizzare a completamento delle descrizioni della natura delle transazioni.  
+* **Paese di origine**: utilizzare i codici alfa ISO di due lettere per il paese in cui il bene è stato ottenuto o prodotto. Se il bene è stato prodotto in più paesi, il paese di origine è l'ultimo paese in cui è stato elaborato in modo significativo. 
+* **Numero di identificazione IVA dell'operatore partner nello Stato membro di importazione**: questo è il numero di partita IVA dell'operatore partner nello Stato membro dell'importazione. La partita IVA viene utilizzata anche nello scambio di dati di esportazione intra-UE tra gli Stati Membri e consente agli Stati Membri di allocare i dati ricevuti alla società importatrice nel proprio paese. Le unità di creazione dei report devono riportare la partita IVA della società che ha dichiarato l'acquisto intra Unione di beni nello Stato membro di importazione. 
+
+> [!NOTE]
+> La partita IVA del partner aziendale da utilizzare può variare a seconda della circostanza aziendale. Ad esempio, l'ID da utilizzare è diverso per scenari come le vendite a catena, in cui un fornitore vende un prodotto in un altro paese e quindi l'azienda rivende l'articolo a un'altra attività nello stesso paese, commercio triangolare e così via. Se non sei sicuro della partita IVA corretta da utilizzare, ti consigliamo di rivolgerti a un esperto nel tuo paese o nella tua regione. 
 
 Facoltativamente è anche possibile impostare le opzioni seguenti:
 
-* **Cod. paese destin./proven.**: utilizzare a completamento delle descrizioni della natura delle transazioni.  
 * **Aree**: utilizzare a completamento delle informazioni sui paesi e le aree.  
 * **Cod. spedizione Intrastat**: utilizzare per specificare le ubicazioni da cui si spediscono o si ricevono gli articoli da o verso altri paesi. Un esempio di codice di spedizione Intrastat è l'aeroporto di Heathrow. I codici di spedizione Intrastat possono essere immessi nei documenti di vendita e di acquisto nella Scheda dettaglio **Commercio estero**. Queste informazioni vengono inoltre copiate dai movimenti articoli creati per le registrazioni Intrastat.  
 
@@ -53,35 +58,49 @@ I processi batch Intrastat includono solo i movimenti articoli, non i movimenti 
 > [!Note]
 > Nel campo **Periodo statistico** immettere il periodo statistico sotto forma di numero a quattro cifre, dove le prime due rappresentano l'anno e le altre due il mese. Immettere, ad esempio, 1706 per indicare giugno 2017.
 
-### <a name="to-set-up-commodity-codes"></a>Per impostare i codici di voci doganali
+### <a name="to-set-up-transport-methods"></a>Per impostare i metodi di trasporto
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di trasporto**, quindi scegli il collegamento correlato.  
+2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Per impostare quali campi del report Intrastat sono obbligatori
+
+In alcuni paesi, come Spagna e Regno Unito, le autorità richiedono che i report Intrastat includano, ad esempio, il metodo di spedizione per gli acquisti o altri valori quando le vendite superano una certa soglia. Nella pagina **Setup Intrastat** è possibile selezionare **Setup checklist Intrastat** per impostare i campi obbligatori nella pagina **Registrazioni Intrastat**.
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup Intrastat**, quindi scegli il collegamento correlato.
+2. Scegliere l'azione **Setup checklist Intrastat**.
+3. Nella pagina **Setup checklist Intrastat**, fare clic su **Nome campo** per selezionare il campo del report Intrastat che si desidera rendere obbligatorio.
+
+### <a name="czechia"></a>Repubblica Ceca
+
+In particolare per le aziende ceche, devi anche impostare codici merce e codici natura transazione.  
+
+#### <a name="to-set-up-commodity-codes"></a>Per impostare i codici di voci doganali
+
 Tutti gli articoli acquistati o venduti devono disporre di un codice voce doganale.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici voci doganali**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici voci doganali**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Per assegnare un codice voce doganale a un articolo, nella pagina **Scheda articolo** espandere la Scheda dettaglio **Costi e registrazione**, quindi immettere il codice nel campo **Codice voce doganale**.   
 
-### <a name="to-set-up-transaction-nature-codes"></a>Per impostare il codici della natura delle transazioni
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici natura transazione**, quindi scegli il collegamento correlato.  
+### <a name="italy"></a>Italia
+
+In particolare per le aziende italiane, devi anche impostare codici merce e codici natura transazione.  
+
+#### <a name="to-set-up-transaction-nature-codes"></a>Per impostare il codici della natura delle transazioni
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici natura transazione**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > Se si utilizza con frequenza un determinato codice natura transazione, è possibile impostarlo come predefinito. A tale scopo, andare alla pagina **Impostazione Intrastat** e selezionare il codice.
 
-### <a name="to-set-up-transport-methods"></a>Per impostare i metodi di trasporto
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di trasporto**, quindi scegli il collegamento correlato.  
-2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Per impostare quali campi del report Intrastat sono obbligatori
-In alcuni paesi, come Spagna e Regno Unito, le autorità richiedono che i report Intrastat includano, ad esempio, il metodo di spedizione per gli acquisti o altri valori quando le vendite superano una certa soglia. Nella pagina **Setup Intrastat** è possibile selezionare **Setup checklist Intrastat** per impostare i campi obbligatori nella pagina **Registrazioni Intrastat**.
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup Intrastat**, quindi scegli il collegamento correlato.
-2. Scegliere l'azione **Setup checklist Intrastat**.
-3. Nella pagina **Setup checklist Intrastat**, fare clic su **Nome campo** per selezionare il campo del report Intrastat che si desidera rendere obbligatorio.
-
 ## <a name="to-report-intrastat"></a>Per creare un report Intrastat
+
 Dopo aver compilato le registrazioni Intrastat, è possibile eseguire l'azione **Report Intrastat - Checklist** per verificare che tutte le informazioni nelle registrazioni siano corrette. I campi obbligatori impostati nella pagina **Setup checklist Intrastat** in cui mancano i valori verranno mostrati in Dettaglio informazioni di Errori e e avvisi nella pagina **Registrazioni Intrastat**. È successivamente possibile stampare un report Intrastat come form, oppure creare un file da inviare a un'autorità fiscale del proprio paese.  
 
-### <a name="to-fill-in-intrastat-journals"></a>Per compilare le registrazioni Intrastat  
+### <a name="to-fill-in-intrastat-journals"></a>Per compilare le registrazioni Intrastat
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Registrazioni Intrastat**, nel campo **Nome batch** scegliere il batch di registrazioni interessato e quindi scegliere **OK**.  
 3. Scegliere l'azione **Suggerisci righe**. I campi **Data inizio** e **Data fine** verranno compilati automaticamente con le date specificate per il periodo statistico del batch di registrazioni.  
@@ -91,9 +110,10 @@ Dopo aver compilato le registrazioni Intrastat, è possibile eseguire l'azione *
 Il processo batch recupererà tutti i movimenti articolo nel periodo statistico indicato e li inserirà come righe nelle registrazioni Intrastat. Le righe possono essere modificate secondo le esigenze.  
 
 > [!IMPORTANT]  
->  Il processo batch recupera soltanto i movimenti che contengono un codice paese per il quale è stato immesso un codice Intrastat nella pagina **Paesi**. È quindi importante immettere codici Intrastat per i codici paese che verranno inclusi nel processo batch.  
+> Il processo batch recupera soltanto i movimenti che contengono un codice paese per il quale è stato immesso un codice Intrastat nella pagina **Paesi**. È quindi importante immettere codici Intrastat per i codici paese che verranno inclusi nel processo batch.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Creare report Intrastat come form o come file
+
 Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statistica, è necessario stampare il report **Intrastat - Form**. Prima di eseguire questa operazione, è necessario preparare le registrazioni Intrastat e compilarle. Se vi sono sia transazioni di vendita che di acquisto, è necessario compilare un form separato per ciascun tipo e stampare il report due volte.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
@@ -104,6 +124,7 @@ Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statis
 6. Per stampare il report, fare clic su **Invia a**.  
 
 ### <a name="report-intrastat-in-a-file"></a>Creare un report Intrastat in un file
+
 È possibile inviare il report Intrastat come file. Prima di creare il file è possibile stampare un report di controllo che conterrà le stesse informazioni presenti nel file.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
@@ -115,6 +136,7 @@ Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statis
 7. Spostarsi sul percorso in cui si desidera salvare il file, quindi immettere il nome file desiderato e fare clic su **Salva**.
 
 ## <a name="reorganize-intrastat-journals"></a>Riorganizzare registrazioni Intrastat
+
 I report Intrastat vengono presentati con cadenza mensile e per ogni report è necessario creare un nuovo batch di registrazioni. Dopo un certo periodo, si saranno accumulati diversi batch di registrazioni. Le righe di registrazioni non vengono eliminate automaticamente. È possibile riorganizzare periodicamente i nomi batch contabili. Questa operazione viene effettuata eliminando i batch di registrazioni non più necessari. Vengono eliminate anche le righe di registrazioni di questi batch.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  

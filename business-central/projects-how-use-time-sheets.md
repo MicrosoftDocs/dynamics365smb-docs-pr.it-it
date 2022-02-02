@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: bd163b5e8c4d96a28a1dd557d53b04dafe6829fd
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920905"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973127"
 ---
 # <a name="use-time-sheets"></a>Usare i fogli presenze
 
@@ -36,7 +36,7 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 È possibile utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task.  
 
 > [!IMPORTANT]
-> È necessario disporre dei permessi necessari per creare i fogli presenze.
+> È necessario disporre dei permessi necessari per creare i fogli presenze. Per maggiori informazioni, vedere [Impostare i fogli di presenza](projects-how-setup-time-sheets.md).
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.
 2. Nella pagina **Fogli presenze** scegliere l'azione **Crea fogli presenze**.

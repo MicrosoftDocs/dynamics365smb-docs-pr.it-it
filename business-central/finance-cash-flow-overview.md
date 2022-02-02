@@ -3,20 +3,20 @@ title: Panoramica del flusso di cassa
 description: Una panoramica dei flussi di cassa in entrata e in uscita per aiutare a prevedere il denaro da ricevere e pagare.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
+ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: edupont
-ms.reviewer: edupont
-ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: e5ce39c435c236719e6ee564217a0b1f7e338cf2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940203"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011098"
 ---
 # <a name="cash-flow-overview"></a>Panoramica del flusso di cassa
 
@@ -49,9 +49,9 @@ Nell'illustrazione seguente viene mostrata una panoramica della modalità di uti
 
 In base alle righe del prospetto registrate, è possibile creare periodicamente una previsione del flusso di cassa. Di seguito viene riportato un layout utilizzato di frequente per le previsioni dei flussi di cassa. Il layout presenta tre sezioni:
 
-  - Incassi  
-  - Uscite di cassa  
-  - Flusso di cassa netto o contante  
+- Incassi  
+- Uscite di cassa  
+- Flusso di cassa netto o contante  
 
 Gli incassi forniscono dettagli sulle entrate ricevute dall'azienda.
 

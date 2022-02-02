@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc8eb04682492b3e3cd7906c12cf73d3974cf79a
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 42e4b06ab258c99225aedc59a0854d7c9cbf7eaa
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321193"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972647"
 ---
 # <a name="manufacturing"></a>Manufacturing
+
 > [!NOTE]
 > La funzionalità descritta in questo argomento e negli argomenti secondari è visibile solo se si dispone dell'esperienza **Premium**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 
@@ -29,7 +30,7 @@ Come alternativa alla registrazione in batch per registrare l'output di più ord
 
 Prima di iniziare a produrre articoli, è necessario creare diverse impostazioni, ad esempio le aree di produzione, i cicli e le distinte base di produzione. Per ulteriori informazioni, vedere [Impostazione della produzione](production-configure-production-processes.md).
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
@@ -41,13 +42,14 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Registrare tramite processo batch la quantità di componenti utilizzata per operazione in una registrazione che può elaborare molteplici ordini di produzione pianificati.|[Registrare l'output e i tempi di lavorazione tramite processo batch](production-how-to-post-output-quantity.md)|
 |Annullare l'output, ad esempio a causa di un errore di immissione dei dati e di una quantità non corretta.  |[Stornare la registrazione dell'output](production-how-to-reverse-output-posting.md)|  
 |Registrare il numero di articoli prodotti in ogni operazione completata che non vengono qualificati come output finito ma come materiale di scarto.|[Registrare lo scarto](production-how-to-post-scrap.md)|
-|Visualizzare il carico della produzione come risultato di ordini di produzione pianificati e rilasciati.|[Visualizzare il carico in aree di produzione e centri di lavoro](production-how-to-view-the-load-on-work-centers.md)|      
+|Visualizzare il carico della produzione come risultato di ordini di produzione pianificati e rilasciati.|[Visualizzare il carico in aree di produzione e centri di lavoro](production-how-to-view-the-load-on-work-centers.md)|  
 |Utilizzare la pagina **Registrazioni capacità** per registrare le capacità consumate non assegnate a un ordine di produzione, ad esempio la manutenzione.|[Registrare le capacità](production-how-to-post-capacities.md)|  
 |Calcolare e rettificare il costo degli articoli di produzione terminati e dei componenti consumati ai fini della riconciliazione finanziaria.|[Informazioni sui costi di un ordine di produzione chiuso](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedi anche
+
 [Impostazione della produzione](production-configure-production-processes.md)  
-[Pianif.](production-planning.md)      
+[Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

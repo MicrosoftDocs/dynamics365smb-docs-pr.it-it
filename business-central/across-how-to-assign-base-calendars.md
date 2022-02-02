@@ -1,5 +1,5 @@
 ---
-title: Come impostare i calendari di base
+title: Impostare i calendari di base
 description: Puoi assegnare un calendario di base alla tua società e ai partner aziendali, per calcolare le date di consegna e ricevimento in base ai giorni lavorativi specificati.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,20 +7,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446492"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011838"
 ---
 # <a name="set-up-base-calendars"></a>Impostare i calendari di base
+
 È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione. L'operazione principale da eseguire per impostare un nuovo calendario di base consiste nello specificare e definire i giorni non lavorativi.  
 
-## <a name="to-set-up-a-base-calendar"></a>Per impostare un calendario base  
+## <a name="to-set-up-a-base-calendar"></a>Per impostare un calendario base
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Calendario base**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare il campo **Codice**.  
@@ -42,6 +44,7 @@ Quando si inserisce un movimento, il campo **Non lavorativo** viene selezionato.
 Specifica una formula di data per il tempo necessario per il rifornimento dell'articolo. Viene utilizzato per il calcolo del campo **Data carico pianificato**, se calcolato in avanti, e del campo **Order Date**, se calcolato a ritroso. Vedere [Calcolo lead time](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Calcolo lead time
+
 Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi. Di conseguenza, i due campi data principali nelle righe ordine di acquisto vengono calcolati come segue secondo condizioni diverse.
 
 |Direzione di calcolo|Calendario del fornitore definito|Calendario del fornitore non definito|

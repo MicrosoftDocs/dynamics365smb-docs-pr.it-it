@@ -1,5 +1,5 @@
 ---
-title: Emettere, stampare, annullare un assegno| Documenti Microsoft
+title: Emettere, stampare e annullare un assegno
 description: Descrive come emettere o stampare assegni tramite le registrazioni dei pagamenti e annullare movimenti contabili degli assegni in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
+ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3f0a848e1a7011b163a92fbf5a58f4cd761ef95
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 24e12472ea02f91ff3a0a8d23295865ca2855ca5
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438779"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952962"
 ---
 # <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
 

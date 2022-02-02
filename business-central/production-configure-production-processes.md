@@ -1,5 +1,5 @@
 ---
-title: Configurazione dei processi di produzione | Microsoft Docs
+title: Configurazione dei processi di produzione
 description: Per convertire il materiale in articoli finali prodotti, è necessario configurare nel sistema le risorse di produzione, ad esempio distinte base, cicli, operatori macchina e macchinari.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05e9585db60478bdf872f5e3132ceff1c34220b5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779409"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972358"
 ---
 # <a name="setting-up-manufacturing"></a>Impostazione della produzione
+
 Per convertire il materiale in articoli finali prodotti, è necessario configurare nel sistema le risorse di produzione, ad esempio distinte base, cicli, operatori macchina e macchinari.
 
 Nel sistema operatori e macchine sono rappresentati come centri di lavoro che possono essere organizzati in aree di produzione e gruppi aree di produzione. Una volta definite queste risorse, è possibile caricarvi operazioni in base alla struttura dei processi e dei materiali (DB) definita per l'articolo, nonché alla capacità del centro di lavoro o dell'area di produzione. È inoltre possibile impostare la capacità di produzione delle singole risorse. La capacità viene definita dagli orari di lavoro disponibili nei centri di lavoro e nelle aree di produzione e viene gestita tramite calendari disponibili per ogni livello. In un calendario delle aree di produzione sono specificati i giorni e gli orari lavorativi, i turni, le ferie e le assenze che determinano la capacità lorda disponibile dell'area di produzione (in genere misurata in minuti). Tale capacità viene calcolata in base ai valori definiti di efficienza e capacità.  
@@ -42,8 +43,8 @@ Dopo l'impostazione della produzione, è possibile pianificare ed eseguire gli o
 |Preparare le aree di produzione e i cicli per rappresentare le operazioni di produzione in conto lavoro.|[Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Vedi anche
-[Manufacturing](production-manage-manufacturing.md)    
-[Pianif.](production-planning.md)   
+[Manufacturing](production-manage-manufacturing.md)
+[Pianificazione](production-planning.md)   
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

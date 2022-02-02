@@ -1,5 +1,5 @@
 ---
-title: Come spedire gli articoli
+title: Spedire articoli
 description: Questo argomento descrive come spedire gli articoli dalla warehouse in base alla configurazione warehouse per l'elaborazione della spedizione.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 60274947bb0f38ed6e116767ac5c74357482298c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 941cc8b8ffeb22cc5cf14f400fd25bfc9479e66a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435936"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970822"
 ---
 # <a name="ship-items"></a>Spedire articoli
 

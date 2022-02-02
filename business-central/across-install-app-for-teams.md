@@ -1,5 +1,5 @@
 ---
-title: Installazione dell'app Business Central in Microsoft Teams | Microsoft Docs
+title: Installare l'app Business Central in Microsoft Teams
 description: Come installare l'app Business Central per Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 1552a804db7dab86dccfcab99f098578bd930ad2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588178"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012211"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-In questo articolo viene descritto come installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). L'app è disponibile nel marketplace di Teams ed è possibile usarla con l'app Web, desktop o per dispositivi mobili Teams.
+In questo articolo viene descritto come installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per [Microsoft Teams](https://www.microsoft.com/microsoft-teams/). L'app è disponibile nel marketplace di Teams ed è possibile usarla con l'app Web, desktop o per dispositivi mobili Teams.
 
 > [!NOTE]
 > Il tuo amministratore potrebbe aver impostato le cose in modo che l'app venga installata automaticamente per te. Per controllare se l'app è installata, apri Teams, poi scegli **Apps**. Cerca **Business Central**, poi sceglilo quando lo trovi. Se vedi **Apri** nella pagina di **Business Central**, l'app è già installata.  

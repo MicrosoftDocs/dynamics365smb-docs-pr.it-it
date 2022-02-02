@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
+ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7988d7f1b40fed65078032d05c8b12d8e174bc90
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 59678264f406fa434cded07d2f6b41aa3cbfbae0
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440826"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012551"
 ---
 # <a name="set-up-prices-and-discounts"></a>Impostare prezzi e sconti
 > [!NOTE]
@@ -48,7 +49,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
-2. Scegliere il cliente, quindi l'azione **Prezzi**.
+2. Scegli il cliente, quindi l'azione **Prezzi**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà un prezzo di vendita speciale al cliente.
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)  
@@ -59,7 +60,7 @@ Per default, lo stato dei nuovi listini prezzi è **Bozza**. Quando si è pronti
 Per rivedere i listini prezzi e i prezzi che si applicano a clienti o fornitori specifici, nella pagina **Cliente** o **Venditore** scegliere l'azione **Listini prezzi di vendita** o **Listini prezzi di acquisto**. Per articoli e risorse, è possibile visualizzare le righe del listino prezzi scegliendo **Prezzi di vendita** o **Prezzi di acquisto** nelle pagine **Articolo** e **Risorsa**.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
-2. Scegliere il cliente, quindi l'azione **Listini prezzi di vendita**. 
+2. Scegli il cliente, quindi l'azione **Listini prezzi di vendita**. 
 3. Scegliere **Nuovo** per creare un nuovo listino prezzi di vendita.
 4. Nelle Schede dettaglio **Generale** e **Imposta** compilare i campi appropriati. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. Per aggiungere articoli all'elenco, effettuare una delle seguenti operazioni:
@@ -76,7 +77,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
-2. Aprire la scheda cliente interessata e scegliere l'azione **Sconti riga**.
+2. Apri la scheda cliente interessata e scegli l'azione **Sconti riga**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà uno sconto riga vendita al cliente.
 
 > [!Note]
@@ -119,7 +120,7 @@ Oltre a (oppure invece di) una percentuale di sconto, è possibile collegare l'i
 Dopo avere stabilito a quali clienti si devono applicare gli sconti fattura, è necessario immettere i codici di sconto fattura nelle schede clienti e impostare le condizioni relative ai singoli codici.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
-2. Aprire la pagina relativa al cliente al quale saranno applicati gli sconti fattura.
+2. Apri la pagina relativa al cliente al quale saranno applicati gli sconti fattura.
 3. Nel campo **Cod. sconto fatt.** selezionare un codice per le condizioni di sconto fattura in questione che verrà utilizzato per calcolare gli sconti fattura per il cliente. <!--Looks like I can only choose customers in this list-->
 
 > [!NOTE]  

@@ -7,35 +7,36 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 689fbf78a5337076e7f10a8825d01cd77018c670
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6a72c3ae54138d2d67f4fdd2025d385c35b92af2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321393"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972410"
 ---
 # <a name="about-production-orders"></a>Informazioni sugli ordini di produzione
+
 Gli ordini di produzione vengono utilizzati per gestire la conversione dei materiali acquistati in articoli prodotti. Gli ordini di produzione diramano il lavoro in diverse aree di produzione o centri di lavoro nella produzione.  
 
 Prima di procedere con la produzione, la maggior parte delle società esegue, in genere una volta alla settimana, la pianificazione delle forniture, per calcolare il numero di ordini di produzione e di ordini di acquisto da eseguire per soddisfare la domanda di vendita della settimana. Gli ordini di acquisto forniscono i componenti richiesti in base alla DB di produzione per produrre gli articoli finali.
 
 Gli ordini di produzione rappresentano i componenti centrali della funzionalità di produzione dell'applicazione e contengono le seguenti informazioni:  
 
--   Prodotti pianificati per la produzione  
--   Materiali necessari per gli ordini di produzione pianificati  
--   Prodotti già lavorati  
--   Materiali già selezionati  
--   Prodotti lavorati in passato  
--   Materiali utilizzati in operazioni di produzione precedenti  
+- Prodotti pianificati per la produzione  
+- Materiali necessari per gli ordini di produzione pianificati  
+- Prodotti già lavorati  
+- Materiali già selezionati  
+- Prodotti lavorati in passato  
+- Materiali utilizzati in operazioni di produzione precedenti  
 
 Gli ordini di produzione costituiscono il punto iniziale per:  
 
--   Pianificazione della produzione futura  
--   Controllo della produzione corrente  
--   Tracciabilità della produzione finita  
+- Pianificazione della produzione futura  
+- Controllo della produzione corrente  
+- Tracciabilità della produzione finita  
 
 ## <a name="production-order-creation"></a>Creazione di ordini di produzione  
 Gli ordini di produzione possono essere creati manualmente ordine per ordine nella pagina **Ordine di produzione** oppure possono essere generati nelle pagine **Ordine vendita** o **Pianificazione ordine**. È possibile creare più ordini nella pagina **Prospetto pianificazione**.  
@@ -51,10 +52,10 @@ Gli ordini di produzione vengono creati utilizzando le informazioni relative a:
 ## <a name="limitations-on-production-order-creation"></a>Limiti sulla creazione degli ordini di produzione  
 Gli ordini di produzione vengono impegnati e tracciati automaticamente nella rispettiva origine quando:  
 
--   Vengono creati da **[Prospetto pianificazione](production-how-to-run-mps-and-mrp.md)**.  
--   Vengono creati dalla pagina **[Pianifica ordine vendita](production-how-to-create-production-orders-from-sales-orders.md)**  
--   Vengono creati dalla pagina **[Pianificazione ordini](production-how-to-plan-for-new-demand.md)**  
--   Si utilizza la funzione **[Ripianifica](production-how-to-replan-refresh-production-orders.md)** negli ordini di produzione  
+- Vengono creati da **[Prospetto pianificazione](production-how-to-run-mps-and-mrp.md)**.  
+- Vengono creati dalla pagina **[Pianifica ordine vendita](production-how-to-create-production-orders-from-sales-orders.md)**  
+- Vengono creati dalla pagina **[Pianificazione ordini](production-how-to-plan-for-new-demand.md)**  
+- Si utilizza la funzione **[Ripianifica](production-how-to-replan-refresh-production-orders.md)** negli ordini di produzione  
 
 Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)
 
@@ -117,9 +118,9 @@ L'applicazione offre un'ampia gamma di opzioni per la registrazione del consumo 
 
 Il consumo dei materiali può essere elaborato tramite le [registrazioni consumi](production-how-to-post-consumption.md) oppure registrato automaticamente dall'applicazione mediante la funzione di reporting automatico (consuntivazione). Di seguito vengono indicati i metodi di reporting:  
 
--   Manuale  
--   Aut. inizio  
--   Aut. fine  
+- Manuale  
+- Aut. inizio  
+- Aut. fine  
 
 Il reporting dei consumi manuale utilizza le registrazioni consumi per specificare il prelievo dei materiali.  
 
@@ -181,9 +182,9 @@ Le registrazioni di produzione, tuttavia, differiscono dalle altre due registraz
 Nelle registrazioni di produzione le quantità dei consumi vengono registrate come movimenti contabili negativi per gli articoli, le quantità di output vengono registrate come movimenti contabili positivi e il tempo speso viene registrato come movimenti contabili capacità.  
 
 ## <a name="see-also"></a>Vedi anche
-[Manufacturing](production-manage-manufacturing.md)    
+[Manufacturing](production-manage-manufacturing.md)
 [Impostazione della produzione](production-configure-production-processes.md)  
-[Pianif.](production-planning.md)      
+[Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

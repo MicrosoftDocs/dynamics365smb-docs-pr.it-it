@@ -1,32 +1,33 @@
 ---
-title: Creazione di numerazioni | Documenti Microsoft
+title: Creazione di numerazioni
 description: Informazioni su come impostare la numerazione per assegnare codici di identificazione univoci a conti e documenti in Business Central.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
+ms.search.form: 456
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e2404a0ab9de8a761d5721da669004e393cf55c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3379405e2d8c6c3b381caa9f4aa66191bb7a6579
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445999"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029642"
 ---
 # <a name="create-number-series"></a>Creazione di numerazioni
+
 Per ogni società impostata, è necessario assegnare codici di identificazione univoci a elementi quali i conti di contabilità generale, i conti clienti e i conti fornitori, le fatture e altri documenti. La numerazione è importante non solo ai fini dell'identificazione. Un sistema di numerazione progettato correttamente semplifica la gestione e l'analisi della società e può ridurre il numero di errori correlati all'immissione dei dati.
 
 > [!Important]
 > Per impostazione predefinita, non sono consentite interruzioni nelle numerazioni poiché, per legge, l'esatta cronologia delle transazioni finanziarie deve essere disponibile per la revisione contabile e pertanto deve seguire una sequenza ininterrotta senza numeri cancellati.<br /><br />
-Se si desidera consentire delle interruzioni in determinate numerazioni, consultare prima il proprio revisore o il proprio responsabile della contabilità per assicurarsi di aderire ai requisiti legali nel proprio paese. Per ulteriori informazioni, vedere [Interruzioni nelle numerazioni](ui-create-number-series.md#gaps-in-number-series).
+> Se si desidera consentire delle interruzioni in determinate numerazioni, consultare prima il proprio revisore o il proprio responsabile della contabilità per assicurarsi di aderire ai requisiti legali nel proprio paese. Per ulteriori informazioni, vedere la sezione [Interruzioni nelle numerazioni](#gaps-in-number-series).
 
 > [!NOTE]  
->   Si consiglia di utilizzare gli stessi codici di numerazione visualizzati nella pagina **Elenco nr. serie** nella società di esempio CRONUS. I codici come *P-INV+* potrebbero non avere significato immediato, ma [!INCLUDE[prod_short](includes/prod_short.md)] dispone di un numero di impostazioni predefinite che dipendono da tali codici di numerazione.
+> Si consiglia di utilizzare gli stessi codici di numerazione visualizzati nella pagina **Elenco nr. serie** nella società di esempio CRONUS. I codici come *P-INV+* potrebbero non avere significato immediato, ma [!INCLUDE[prod_short](includes/prod_short.md)] dispone di un numero di impostazioni predefinite che dipendono da tali codici di numerazione.
 
 Per creare un sistema di numerazione, è necessario impostare uno o più codici per ogni tipo di anagrafica o documento. È possibile, ad esempio, impostare un codice per la numerazione dei clienti, un altro per la numerazione delle fatture di vendita e un altro ancora per la numerazione di documenti in registrazioni COGE. Dopo avere impostato un codice, è necessario configurare almeno una riga di numerazione. Tale riga contiene informazioni quali il primo e l'ultimo numero nella serie e la data di inizio. È possibile impostare più righe di numerazione per codice di numerazione, con una diversa data di inizio per ogni riga. Le numerazioni verranno utilizzate consecutivamente, avviando ciascuna alla rispettiva data di inizio.
 

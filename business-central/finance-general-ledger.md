@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
+ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
+ms.openlocfilehash: 98aca02ceba638b65849ff8218bafe07be2190db
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928811"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973069"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Informazioni sulla contabilità generale e sul piano dei conti
 
@@ -75,6 +76,7 @@ Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai 
 Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.  
 
 ## <a name="getting-a-quick-overview"></a>Ottenere una rapida visione d'insieme
+
 La pagina della struttura dei conti visualizza i conti in una lista gerarchica che offre un accesso veloce alle informazioni chiave per ogni conto. Tuttavia, l'elenco è statico, e se hai molti account potresti dover fare un po' di scorrimento per visualizzare le informazioni per i diversi account. Se vuoi solo una rapida panoramica delle basi, come i cambiamenti netti e i saldi, la pagina **Sintesi del piano dei conti** è un'utile alternativa. La disposizione delle colonne nella pagina è ora la stessa che troverete nella pagina del piano dei conti (ce ne sono solo di meno), quindi non dovrete riorientarvi, e potete espandere o ridurre i livelli gerarchici per condensare la vista. Per facilitare il passaggio tra le pagine, la pagina **Panoramica** del piano dei conti è disponibile dalla pagina del piano dei conti.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accesso per creare e modificare conti e categorie di conti

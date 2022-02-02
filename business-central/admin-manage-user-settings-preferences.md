@@ -9,14 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
+ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b4c857f006970fa3973a1203a7ddd8cffc2298
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438954"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011759"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Gestire le impostazioni e le preferenze dell'utente
 
@@ -43,7 +44,7 @@ Le *impostazioni utente* non sono il *setup dell'utente*, che riguarda l'utente 
 
 - **Lingua**  
 
-  Definisce la lingua dell'applicazione che [!INCLUDE[prod_short](includes/prod_short.md)] usa per presentare testo, didascalie e messaggi di errore. Se gli utenti [!INCLUDE[prod_short](includes/prod_short.md)] sono sincronizzati da Microsoft 365, le impostazioni di lingua da Microsoft 365 vengono utilizzate, presupponendo che l'utente desideri utilizzare le stesse impostazioni nei prodotti Office e [!INCLUDE[prod_short](includes/prod_short.md)]. L'amministratore può modificare l'impostazione predefinita e ogni utente può scegliere tra le lingue disponibili nella pagina Le mie impostazioni. Ma verranno reimpostati al valore di Microsoft 365 una volta eseguita la successiva sincronizzazione.
+  Definisce la lingua dell'applicazione che [!INCLUDE[prod_short](includes/prod_short.md)] usa per presentare testo, didascalie e messaggi di errore. Se gli utenti [!INCLUDE[prod_short](includes/prod_short.md)] sono sincronizzati da Microsoft 365 vengono utilizzate le impostazioni della lingua di Microsoft 365, presupponendo che l'utente desideri utilizzare le stesse impostazioni nei prodotti Office e [!INCLUDE[prod_short](includes/prod_short.md)]. L'amministratore può modificare l'impostazione predefinita e ogni utente può scegliere tra le lingue disponibili nella pagina Le mie impostazioni. Ma verranno reimpostati al valore di Microsoft 365 una volta eseguita la successiva sincronizzazione.
 
   Se l'impostazione della lingua di Microsoft 365 corrisponde a una lingua supportata in [!INCLUDE[prod_short](includes/prod_short.md)], questa lingua verrà scelta per l'utente.  
 
@@ -52,7 +53,7 @@ Le *impostazioni utente* non sono il *setup dell'utente*, che riguarda l'utente 
   
 - **Area geografica**  
 
-  Definisce come le date e i numeri sono presentati nel client [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio se utilizzare i formati di data europei o americani o come visualizzare il segno decimale e i separatori delle migliaia negli importi. Se gli utenti [!INCLUDE[prod_short](includes/prod_short.md)] sono sincronizzati da Microsoft 365, le impostazioni regionali da Microsoft 365 vengono utilizzate, presupponendo che l'utente desideri utilizzare le stesse impostazioni nei prodotti Office e [!INCLUDE[prod_short](includes/prod_short.md)]. Un amministratore o un utente può modificare queste impostazioni manualmente in [!INCLUDE[prod_short](includes/prod_short.md)], ma verranno reimpostate sul valore di Microsoft 365 una volta eseguita la sincronizzazione successiva.
+  Definisce come le date e i numeri sono presentati nel client [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio se utilizzare i formati di data europei o americani o come visualizzare il segno decimale e i separatori delle migliaia negli importi. Se gli utenti [!INCLUDE[prod_short](includes/prod_short.md)] sono sincronizzati da Microsoft 365 vengono utilizzate le impostazioni regionali da Microsoft 365, presupponendo che l'utente desideri utilizzare le stesse impostazioni nei prodotti Office e [!INCLUDE[prod_short](includes/prod_short.md)]. Un amministratore o un utente può modificare queste impostazioni manualmente in [!INCLUDE[prod_short](includes/prod_short.md)], ma verranno reimpostate sul valore di Microsoft 365 una volta eseguita la sincronizzazione successiva.
 
 - **Fuso orario**  
 

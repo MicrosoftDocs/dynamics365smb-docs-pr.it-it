@@ -1,29 +1,29 @@
 ---
 title: Impostare le procedure ottimali - Metodo di costing
 description: Il Metodo di costing sulla scheda articolo definisce come viene registrato il flusso del costo dell'articolo e se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 30, 42, 43
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87c3616a4d680f94a0997d503aa1569fd871bc9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d6b2c19ae98c50854c35a0bff412689d8e2bc38f
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778074"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974923"
 ---
 # <a name="setup-best-practices-costing-method"></a>Impostare le procedure ottimali: metodo di costing
 
 Il **Metodo di costing** sulla scheda articolo definisce come viene registrato il flusso del costo dell'articolo e se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi.  
 
- È importante impostare il metodo di costing corretto in base al tipo di articolo e all'ambiente aziendale per assicurare magazzini economici.  
+È importante impostare il metodo di costing corretto in base al tipo di articolo e all'ambiente aziendale per assicurare magazzini economici.  
 
- Nella seguente tabella vengono fornite le procedure consigliate sulla modalità di impostazione del campo **Metodo di costing**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).  
+Nella seguente tabella vengono fornite le procedure consigliate sulla modalità di impostazione del campo **Metodo di costing**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).  
 
 |Opzione di setup|Procedura consigliata|Commento|  
 |------------------|-------------------|-------------|  
@@ -33,11 +33,12 @@ Il **Metodo di costing** sulla scheda articolo definisce come viene registrato i
 |Specifico|Utilizzare nella produzione o nel commercio di articoli facilmente identificabili a costi unitari abbastanza elevati.<br /><br /> Utilizzare gli articoli che sono soggetti a regolazione.<br /><br /> Utilizzare per articoli con numeri di serie.|Il costo unitario di un articolo è il costo esatto con la particolare unità è stata ricevuta.|
 |Standard|Utilizzare quando il controllo costi è fondamentale.<br /><br /> Utilizzare nella produzione ripetitiva per stimare i costi di materiale diretto, di manodopera diretta e i costi generali di produzione.<br /><br /> Utilizzare quando esiste una disciplina e del personale per gestire gli standard.|Il costo unitario di un articolo è prestabilito in base a una stima.<br /><br /> Quando il costo effettivo viene realizzato successivamente, il costo standard deve essere rettificato con il costo effettivo tramite i valori di scostamento.|  
 
-## <a name="see-also"></a>Vedi anche  
- [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)   
- [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
- [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Vedi anche
+
+[Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
+[Dettagli di progettazione: determinazione dei costi di inventario](design-details-inventory-costing.md)  
+[Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Riclassificare i cespiti| Documenti Microsoft
+title: Riclassificare i cespiti
 description: Riclassificare un cespite da trasferire in un altro reparto, dividere o raggruppare con altri cespiti.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 74013be6664db6ea62c2da66fb38b076c08ffea2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3f95096a2c4cfaf80e3473c405e527014e6697a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440576"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029224"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Trasferimento, divisione o raggruppamento dei cespiti
 

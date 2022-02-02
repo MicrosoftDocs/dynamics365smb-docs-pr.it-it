@@ -1,8 +1,6 @@
 ---
 title: Annullare una registrazione con un movimento di storno
 description: Se è stata eseguita una registrazione errata nelle registrazioni generali, è possibile utilizzare la funzione Storno per annullare la registrazione con un audit trail corretto.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 10a1532ea7772aa8f2c35df118388e57dc4dc52d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660158"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972540"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Stornare le registrazioni e annullare carichi/spedizioni errati
+
 Le registrazioni contabili di storno non vengono utilizzate solo per correggere gli errori, ma possono anche essere utilizzate per cancellare un vecchio movimento di ratei prima di inserirne uno nuovo, ad esempio. Selezionare un movimento e creare movimenti di storno, ovvero movimenti identici a quelli originali ma con segno opposto nel campo relativo all'importo, con numero di documento e data di registrazione identici a quelli del movimento originale. Dopo lo storno di un movimento, è necessario creare il movimento corretto.
 
 È possibile stornare solo movimenti immessi da una riga di registrazioni generali. Un movimento può essere stornato solo una volta.
@@ -80,6 +80,7 @@ Di seguito viene descritto come annullare una spedizione di reso registrata di a
 8.  Correggere la voce nel campo **Quantità** e registrare nuovamente l'ordine di reso acquisto.  
 
 ## <a name="see-also"></a>Vedere anche
+
 [Annullare la registrazione di assemblaggi](assembly-how-to-undo-assembly-posting.md)  
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  

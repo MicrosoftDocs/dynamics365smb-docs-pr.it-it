@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 30, 42, 43
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3bfdbc2fb163d48edb6bf22eb79efa01b63090f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 78c69d4849dc7e7687f6bb0cdeb0229baeec1b0c
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442437"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974994"
 ---
 # <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
 
@@ -34,11 +34,11 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] sono supportati i seguenti met
 | Specifico | Il costo unitario di un articolo è il costo esatto con la particolare unità è stata ricevuta. | Nella produzione o nel commercio di articoli facilmente identificabili a costi unitari abbastanza elevati.<br /><br /> Per gli articoli che sono soggetti a regolazione.<br /><br /> Per articoli con numeri di serie. |
 | Standard | Il costo unitario di un articolo è prestabilito in base a una stima.<br /><br /> Quando il costo effettivo viene realizzato successivamente, il costo standard deve essere rettificato con il costo effettivo tramite i valori di scostamento. | Quando il controllo costi è fondamentale.<br /><br /> Nella produzione ripetitiva per stimare i costi di materiale diretto, di manodopera diretta e i costi generali di produzione.<br /><br /> Dove esiste una disciplina e del personale per gestire gli standard. |
 
- Nell'immagine seguente viene mostrato il flusso dei costi attraverso il magazzino per ciascun metodo di costing.  
+Nell'immagine seguente viene mostrato il flusso dei costi attraverso il magazzino per ciascun metodo di costing.  
 
  ![Metodi di costing.](media/design_details_inventory_costing_7_costing_methods.png "Metodi di costing")  
 
- I metodi di costing differiscono in modo da valorizzare le riduzioni di magazzino e se utilizzano il costo effettivo o il costo standard come base di valutazione. Nella seguente tabella vengono illustrate le differenti caratteristiche. (Il metodo LIFO è escluso, in quanto è molto simile al metodo FIFO).  
+I metodi di costing differiscono in modo da valorizzare le riduzioni di magazzino e se utilizzano il costo effettivo o il costo standard come base di valutazione. Nella seguente tabella vengono illustrate le differenti caratteristiche. (Il metodo LIFO è escluso, in quanto è molto simile al metodo FIFO).  
 
 |Categoria|FIFO|Media|Standard|Specifico|  
 |-|----------|-------------|--------------|--------------|  
@@ -47,10 +47,11 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] sono supportati i seguenti met
 |Rivalutazione|Rivaluta solo la quantità fatturata.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata a ritroso.|Rivaluta solo la quantità fatturata.<br /><br /> Può essere effettuata solo per movimento.<br /><br /> Può essere effettuata indietro nel tempo.|Rivaluta le quantità fatturate e non fatturate.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata a ritroso.|Rivaluta solo la quantità fatturata.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata indietro nel tempo.|  
 |Varie|Se una riduzione di magazzino viene retrodatata, i movimenti esistenti NON vengono collegati nuovamente per fornire il flusso di costi FIFO corretto.|Se un aumento o una riduzione di magazzino viene retrodata, il costo medio viene ricalcolato e tutti i movimenti interessati vengono rettificati.<br /><br /> Se si modifica il periodo o tipo di calcolo, tutti i movimenti interessati devono essere rettificati.|Utilizzare la pagina **Prospetto standard** per aggiornare e riepilogare periodicamente i costi standard.<br /><br /> NON è supportata per USK.<br /><br /> Nessun record storico esistente per i costi standard.|È possibile utilizzare la tracciabilità articolo specifico senza utilizzare il metodo di costing Specifico. Il costo quindi non seguirà il numero di lotto, ma l'ipotesi di costo del metodo di costing selezionato.|  
 
-## <a name="example"></a>Esempio  
- In questa sezione vengono forniti esempi di come i differenti metodi di costing influiscono sul valore di magazzino.  
+## <a name="example"></a>Esempio
 
- Nella seguente tabella vengono mostrati gli aumenti e le riduzioni di magazzino su cui si basano gli esempi.  
+In questa sezione vengono forniti esempi di come i differenti metodi di costing influiscono sul valore di magazzino.  
+
+Nella seguente tabella vengono mostrati gli aumenti e le riduzioni di magazzino su cui si basano gli esempi.  
 
 |Data di registrazione:|Quantità|Nr. movimento|  
 |------------------|--------------|---------------|  
@@ -62,108 +63,111 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] sono supportati i seguenti met
 |04-01-20|-1|6|  
 
 > [!NOTE]  
->  La quantità risultante in magazzino è pari a zero. Di conseguenza, il valore di magazzino deve essere zero, indipendentemente dal metodo di costing.  
+> La quantità risultante in magazzino è pari a zero. Di conseguenza, il valore di magazzino deve essere zero, indipendentemente dal metodo di costing.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effetto dei metodi di costing sulla valutazione degli aumenti di magazzino  
- **FIFO**/**LIFO**/**Media**/**Specifico**  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effetto dei metodi di costing sulla valutazione degli aumenti di magazzino
 
- Per gli articoli con i metodi di costing che utilizzano il costo effettivo come base di valutazione (**FIFO**, **LIFO**, **Medio** o **Specifico**), gli aumenti in magazzino sono stimati come costo di acquisto dell'articolo.  
+- **FIFO**/**LIFO**/**Media**/**Specifico**  
 
- Nella seguente tabella viene mostrato in che modo vengono valutati gli aumenti di magazzino per tutti i metodi di costing eccetto quello **Standard**.  
+    Per gli articoli con i metodi di costing che utilizzano il costo effettivo come base di valutazione (**FIFO**, **LIFO**, **Medio** o **Specifico**), gli aumenti in magazzino sono stimati come costo di acquisto dell'articolo.  
 
-|Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|10,00|1|  
-|01-01-20|1|20,00|2|  
-|01-01-20|1|30,00|3|  
+    Nella seguente tabella viene mostrato in che modo vengono valutati gli aumenti di magazzino per tutti i metodi di costing eccetto quello **Standard**.  
 
- **Standard**  
+    |Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|10,00|1|  
+    |01-01-20|1|20,00|2|  
+    |01-01-20|1|30,00|3|  
 
- Per gli articoli che utilizzano il metodo di costing **Standard**, gli aumenti di magazzino vengono valutati in base al costo standard corrente dell'articolo.  
+- **Standard**  
 
- Nella seguente tabella viene mostrato in che modo vengono valutati gli aumenti di magazzino per il metodo di costing **Standard**.  
+    Per gli articoli che utilizzano il metodo di costing **Standard**, gli aumenti di magazzino vengono valutati in base al costo standard corrente dell'articolo.  
 
-|Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|15.00|1|  
-|01-01-20|1|15.00|2|  
-|01-01-20|1|15.00|3|  
+    Nella seguente tabella viene mostrato in che modo vengono valutati gli aumenti di magazzino per il metodo di costing **Standard**.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effetto dei metodi di costing sulla valutazione delle riduzioni di magazzino  
- **FIFO**  
+    |Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|15.00|1|  
+    |01-01-20|1|15.00|2|  
+    |01-01-20|1|15.00|3|  
 
- Per gli articoli che utilizzano il metodo di costing **FIFO**, gli articoli acquistati prima vengono venduti sempre per primi (numeri di movimento 3, 2 e 1 in questo esempio). Di conseguenza, le diminuzioni di magazzino vengono valutate prendendo il valore del primo aumento di magazzino.  
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effetto dei metodi di costing sulla valutazione delle riduzioni di magazzino
 
- COGS viene calcolato utilizzando il valore delle prime acquisizioni di magazzino.  
+- **FIFO**  
 
- La seguente tabella mostra come le diminuzioni di inventario vengono valutate per il metodo di costing **FIFO**.  
+    Per gli articoli che utilizzano il metodo di costing **FIFO**, gli articoli acquistati prima vengono venduti sempre per primi (numeri di movimento 3, 2 e 1 in questo esempio). Di conseguenza, le diminuzioni di magazzino vengono valutate prendendo il valore del primo aumento di magazzino.  
 
-|Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-10,00|4|  
-|03-01-20|-1|-20,00|5|  
-|04-01-20|-1|-30,00|6|  
+    COGS viene calcolato utilizzando il valore delle prime acquisizioni di magazzino.  
 
- **LIFO**  
+    La seguente tabella mostra come le diminuzioni di inventario vengono valutate per il metodo di costing **FIFO**.  
 
- Per gli articoli che utilizzano il metodo di costing **LIFO**, gli articoli acquistati più recentemente vengono venduti sempre per primi (numeri di movimento 3, 2 e 1 in questo esempio). Di conseguenza, le diminuzioni di magazzino vengono valutate prendendo il valore dell'ultimo aumento di magazzino.  
+    |Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-10,00|4|  
+    |03-01-20|-1|-20,00|5|  
+    |04-01-20|-1|-30,00|6|  
 
- COGS viene calcolato utilizzando il valore delle acquisizioni di magazzino più recenti.  
+- **LIFO**  
 
- La seguente tabella mostra come le diminuzioni di inventario vengono valutate per il metodo di costing **LIFO**.  
+    Per gli articoli che utilizzano il metodo di costing **LIFO**, gli articoli acquistati più recentemente vengono venduti sempre per primi (numeri di movimento 3, 2 e 1 in questo esempio). Di conseguenza, le diminuzioni di magazzino vengono valutate prendendo il valore dell'ultimo aumento di magazzino.  
 
-|Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-30,00|4|  
-|03-01-20|-1|-20,00|5|  
-|04-01-20|-1|-10,00|6|  
+    COGS viene calcolato utilizzando il valore delle acquisizioni di magazzino più recenti.  
 
- **Media**  
+    La seguente tabella mostra come le diminuzioni di inventario vengono valutate per il metodo di costing **LIFO**.  
 
- Per gli articoli che utilizzano il metodo di costing **Medio**, le riduzioni di magazzino vengono valutate calcolando una media ponderata del magazzino rimanente all'ultimo giorno del costo medio del periodo in cui la riduzione di magazzino è stata registrata. Per ulteriori informazioni, vedere [Dettagli di progettazione: Costo medio](design-details-average-cost.md).  
+    |Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-30,00|4|  
+    |03-01-20|-1|-20,00|5|  
+    |04-01-20|-1|-10,00|6|  
 
- Nella seguente tabella viene mostrato in che modo vengono valutate le diminuzioni di magazzino per il metodo di costing **Media**.  
+- **Media**  
 
-|Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-20,00|4|  
-|03-01-20|-1|-20,00|5|  
-|04-01-20|-1|-20,00|6|  
+    Per gli articoli che utilizzano il metodo di costing **Medio**, le riduzioni di magazzino vengono valutate calcolando una media ponderata del magazzino rimanente all'ultimo giorno del costo medio del periodo in cui la riduzione di magazzino è stata registrata. Per ulteriori informazioni, vedere [Dettagli di progettazione: Costo medio](design-details-average-cost.md).  
 
- **Standard**  
+    Nella seguente tabella viene mostrato in che modo vengono valutate le diminuzioni di magazzino per il metodo di costing **Media**.  
 
- Per gli articoli che utilizzano il metodo di costing **Standard**, le riduzioni di magazzino sono simili al metodo di costing **FIFO** fatta eccezione per la valutazione basata su un costo standard, non sul costo effettivo.  
+    |Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-20,00|4|  
+    |03-01-20|-1|-20,00|5|  
+    |04-01-20|-1|-20,00|6|  
 
- Nella seguente tabella viene mostrato in che modo vengono valutate le diminuzioni di magazzino per il metodo di costing **Standard**.  
+- **Standard**  
 
-|Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-15,00|4|  
-|03-01-20|-1|-15,00|5|  
-|04-01-20|-1|-15,00|6|  
+    Per gli articoli che utilizzano il metodo di costing **Standard**, le riduzioni di magazzino sono simili al metodo di costing **FIFO** fatta eccezione per la valutazione basata su un costo standard, non sul costo effettivo.  
 
- **Specifico**  
+    Nella seguente tabella viene mostrato in che modo vengono valutate le diminuzioni di magazzino per il metodo di costing **Standard**.  
 
- I metodi di costing si basano su un presupposto di come il flusso del costo vada dall'aumento di magazzino a una riduzione di magazzino. Tuttavia, se esistono informazioni più precise relative al flusso di costo, è possibile sostituire questa supposizione creando un collegamento fisso tra i movimenti. Un collegamento fisso crea un collegamento tra una riduzione di magazzino e un aumento di magazzino specifico e dirige il flusso di costo di conseguenza.  
+    |Data di registrazione:|Quantità|Importo costo (effettivo)|Nr. movimento|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-15,00|4|  
+    |03-01-20|-1|-15,00|5|  
+    |04-01-20|-1|-15,00|6|  
 
- Per gli articoli che utilizzano il metodo di costing **Specifico**, le riduzioni di magazzino vengono stimate in base all'aumento di magazzino collegato dal collegamento fisso.  
+- **Specifico**  
 
- Nella seguente tabella viene mostrato in che modo vengono valutate le diminuzioni di magazzino per il metodo di costing **Specifico**.  
+    I metodi di costing si basano su un presupposto di come il flusso del costo vada dall'aumento di magazzino a una riduzione di magazzino. Tuttavia, se esistono informazioni più precise relative al flusso di costo, è possibile sostituire questa supposizione creando un collegamento fisso tra i movimenti. Un collegamento fisso crea un collegamento tra una riduzione di magazzino e un aumento di magazzino specifico e dirige il flusso di costo di conseguenza.  
 
-|Data di registrazione:|Quantità|Importo costo (effettivo)|Movimento Collegato|Nr. movimento|  
-|------------------|--------------|----------------------------|-----------------------|---------------|  
-|02-01-20|-1|-20,00|**2**|4|  
-|03-01-20|-1|-10,00|**1**|5|  
-|04-01-20|-1|-30,00|**3**|6|  
+    Per gli articoli che utilizzano il metodo di costing **Specifico**, le riduzioni di magazzino vengono stimate in base all'aumento di magazzino collegato dal collegamento fisso.  
 
-## <a name="see-also"></a>Vedi anche  
- [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
- [Dettagli di progettazione: Scostamento](design-details-variance.md)   
- [Dettagli di progettazione: Costo medio](design-details-average-cost.md)   
- [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
- [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
- [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+    Nella seguente tabella viene mostrato in che modo vengono valutate le diminuzioni di magazzino per il metodo di costing **Specifico**.  
+
+    |Data di registrazione:|Quantità|Importo costo (effettivo)|Movimento Collegato|Nr. movimento|
+    |------------|--------|--------------------|----------------|---------|  
+    |02-01-20|-1|-20,00|**2**|4|  
+    |03-01-20|-1|-10,00|**1**|5|  
+    |04-01-20|-1|-30,00|**3**|6|  
+
+## <a name="see-also"></a>Vedi anche
+
+[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
+[Dettagli di progettazione: Scostamento](design-details-variance.md)   
+[Dettagli di progettazione: Costo medio](design-details-average-cost.md)   
+[Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
+[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
+[Finanze](finance.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

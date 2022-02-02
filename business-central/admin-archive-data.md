@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 032c425f10bae29416cf8602d0c339f3ffaa3043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589456"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012079"
 ---
 # <a name="the-data-archive-extension"></a>L'estensione dell'archivio dati
 Nel corso del tempo, la vostra azienda accumulerà una notevole quantità di dati, e come amministratore, è probabilmente una buona idea avere una strategia per l'archiviazione dei dati. Avere molti dati può rallentare le cose, per esempio, potrebbe richiedere un po' più tempo per generare i rapporti, o anche bloccare i record. Inoltre, grandi quantità di dati possono portare a un aumento dei costi di archiviazione.
@@ -39,19 +39,19 @@ Le estensioni dell'Archivio dati sono utilizzate dai seguenti lavori batch per l
 
 |Lavori batch  |
 |---------|
-|Data Comp. Voce Voci di bilancio     |
-|Data Compress Bank Acc. Ledger     |
-|Data Comprimere il libro mastro dei clienti     |
-|Data Comprimere FA Ledger     |
-|Data Comprimere la contabilità generale     |
-|Data Comprimere il libro mastro dell'assicurazione     |
-|Data Compress Maint. Libro mastro     |
-|Data Compress Maint. Libro mastro     |
-|Data Comprimere il libro mastro delle risorse     |
-|Comprimere la data delle voci IVA     |
-|Data Comprimere il libro mastro dei fornitori     |
-|Data Compress Whse. Movimenti     |
-|Data Compr. Movimenti budget C/G     |
+|Data Comp. Voce Voci di bilancio |
+|Data Compress Bank Acc. Ledger |
+|Data Comprimere il libro mastro dei clienti |
+|Data Comprimere FA Ledger |
+|Data Comprimere la contabilità generale |
+|Data Comprimere il libro mastro dell'assicurazione |
+|Data Compress Maint. Libro mastro |
+|Data Compress Maint. Libro mastro |
+|Data Comprimere il libro mastro delle risorse |
+|Comprimere la data delle voci IVA |
+|Data Comprimere il libro mastro dei fornitori |
+|Data Compress Whse. Movimenti |
+|Data Compr. Movimenti budget C/G |
 
 Per avviare l'archiviazione dei dati quando esegui uno dei lavori batch, attiva il toggle **Archivia le voci cancellate** .
 

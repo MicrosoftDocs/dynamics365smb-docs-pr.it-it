@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439412"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971654"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 
@@ -186,7 +186,7 @@ All'emissione di un sollecito, nella pagina **Mov. soll./Note add. int.** viene 
 
 ## <a name="multiple-interest-rates"></a>Tassi d'interesse multipli
 
-Quando si impostano le condizioni di addebito degli interessi e i termini di sollecito, per la penalità per pagamento ritardato, è possibile specificare più tassi di interesse in modo che la penalità sia calcolata in base a tassi di interesse differenti in diversi periodi. Se non si impostano più tassi di interesse, verranno utilizzati il tasso di interesse e il periodo definito nelle pagine **Condiz. interessi finanziari** e **Termini di sollecito** per l'intero periodo di calcolo. Per ulteriori informazioni, vedere [Impostare più tassi di interesse](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Per ulteriori informazioni, vedere [Impostare più tassi di interesse](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

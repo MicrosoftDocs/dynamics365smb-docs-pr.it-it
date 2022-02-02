@@ -1,24 +1,24 @@
 ---
-title: Panoramica delle attività per l'allocazione di costi e ricavi | Documenti Microsoft
+title: Panoramica delle attività per l'allocazione di costi e ricavi
 description: Descrive i task necessari per assegnare un movimento in una registrazione COGE a più conti diversi, quando tale registrazione viene contabilizzata.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a2b421d7cb6819656988e86296bd8fede95f1454
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439772"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012711"
 ---
 # <a name="allocate-costs-and-income"></a>Allocazione di costi e ricavi
+
 È possibile assegnare un movimento in una registrazione generale a più conti diversi, quando tale registrazione viene contabilizzata. L'assegnazione può essere effettuata in base a tre diversi metodi:
 
 * Quantità
@@ -31,7 +31,9 @@ Le funzionalità di assegnazione possono essere utilizzate per le registrazioni 
 Di seguito viene descritto come preparare l'allocazione dei costi in una registrazione COGE periodica definendo le chiavi di allocazione. Quando le chiavi di allocazione sono definite, è possibile completare e contabilizzare le registrazioni come qualsiasi altra registrazione COGE periodica. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Per impostare le chiavi di allocazione
-È possibile assegnare un movimento in una registrazione COGE periodica a più conti diversi, quando tale registrazione viene contabilizzata. L'allocazione può essere effettuata per quantità, percentuale o importo.
+
+È possibile assegnare un movimento in una registrazione COGE periodica a più conti diversi, quando tale registrazione viene contabilizzata. L'allocazione può essere effettuata per quantità, percentuale o importo.  
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni periodiche generali**, quindi scegli il collegamento correlato.
 2. Scegliere il campo **Nome batch** per aprire la pagina **Batch registrazioni COGE**.
 3. È possibile modificare le allocazioni in un batch esistente nell'elenco o creare un nuovo batch con le allocazioni.

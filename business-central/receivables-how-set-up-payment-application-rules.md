@@ -10,20 +10,16 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435061"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971277"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Impostare le regole per il collegamento automatico dei pagamenti
 
-Nella pagina **Regole di collegamento pagamenti**, si impostano le regole per stabilire il modo in cui il testo del pagamento (in una transazione bancaria) viene automaticamente abbinato al testo dei movimenti aperti nei seguenti due processi:
-
-- Collegare automaticamente i pagamenti a fatture aperte (non pagate), note di credito o altre voci correlate quando si usa la funzione **Collega automaticamente** nella pagina **Registrazione riconciliazione pagamenti**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
-
-- Corrispondere automaticamente le transazioni bancarie con i relativi movimenti contabili interni del conto bancario quando si sceglie l'opzione **Corrispondenza automatica** nella pagina **Riconciliazioni C/C bancari**. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).
+Nella pagina **Regole di collegamento pagamenti**, si impostano le regole per stabilire in che modo il testo del pagamento (in una transazione bancaria) viene collegato automaticamente al testo sulle relative fatture aperte (non pagate), note di credito o altre voci quando viene utilizzata la funzione **Applica automaticamente** nella pagina **Registrazione riconciliazione pagamenti**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
 Impostare una nuova regola di collegamento dei pagamenti scegliendo quali tipi di dati presenti in una riga di registrazione riconciliazione pagamenti devono corrispondere ai dati di uno o più movimenti aperti prima che il pagamento correlato venga collegato automaticamente ai movimenti aperti. La qualità di ogni collegamento automatico in base alle regole di collegamento viene visualizzata come valore da **Basso** ad **Alto** nel campo **Affidabilità corrispondenza** della pagina **Registrazione riconciliazione pagamenti** in base alla regola di collegamento del pagamento utilizzata.
 

@@ -1,5 +1,5 @@
 ---
-title: Come registrare le capacità
+title: Registrare le capacità
 description: Registra le capacità consumate non assegnate all'ordine di produzione nel giornale di registrazione capacità e visualizza le capacità registrate nella pagina dei movimenti contabili capacità.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5832, 99000802, 99000820
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 024985cb4a2615f374465e5a387901976509a5db
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92e4a3cb7243a8e6e11e9744a2b308b7b1bcd4a0
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444207"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972306"
 ---
 # <a name="post-capacities"></a>Registrare le capacità
 Nelle registrazioni delle rettifiche delle capacità vengono registrate le capacità utilizzate che non sono assegnate all'ordine di produzione. La manutenzione, ad esempio, deve essere assegnata alla capacità ma non a un ordine di produzione.  

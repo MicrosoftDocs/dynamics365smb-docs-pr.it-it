@@ -7,43 +7,44 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1100, 1103, 1104, 1113
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92a7b0f4878f7cd23f4fc672e9723050ca7bde7e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435824"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970807"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Trasferimento e registrazione di movimenti di costi
+
 Prima di definire le allocazioni costi, è necessario comprendere come i movimenti di costi derivino dalle origini seguenti:  
 
--   Trasferimento automatico dei movimenti C/G.  
--   Registrazione manuale dei costi per i movimenti di costi puri, spese interne e allocazioni manuali.  
--   Registrazioni automatiche delle allocazioni per i costi effettivi.  
--   Trasferimento dei movimenti budget in costi effettivi.
+- Trasferimento automatico dei movimenti C/G.  
+- Registrazione manuale dei costi per i movimenti di costi puri, spese interne e allocazioni manuali.  
+- Registrazioni automatiche delle allocazioni per i costi effettivi.  
+- Trasferimento dei movimenti budget in costi effettivi.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criteri per trasferire movimenti C/G ai movimenti di costi
 È importante comprendere i criteri per trasferire i movimenti C/G nei movimenti di costi. Durante il trasferimento, il processo batch **Trasferisci movimenti C/G a CA** utilizza i seguenti criteri per determinare se e come i movimenti C/G vengono trasferiti.  
 
 I movimenti C/G vengono trasferiti nei seguenti casi:  
 
--   Ai movimenti sono associati valori dimensioni che corrispondono a un centro di costo o un oggetto di costo.  
--   Ai movimenti sono associati valori dimensioni che corrispondono a un centro di costo e a un oggetto di costo. Per questi movimenti, il centro di costo ha la precedenza. Questo consente di evitare una situazione in cui un tipo di costo viene visualizzato sia in un oggetto di costo sia in un centro di costo, venendo pertanto conteggiato due volte nelle statistiche.  
--   Il numero di documento nei movimenti è vuoto, pertanto verrà visualizzato con un numero di documento pari a 0000 nei movimenti di costo.  
--   I movimenti vengono trasferiti in un tipo di costo che consente movimenti combinati e tali movimenti vengono trasferiti come movimento combinato mensilmente o giornalmente.  
+- Ai movimenti sono associati valori dimensioni che corrispondono a un centro di costo o un oggetto di costo.  
+- Ai movimenti sono associati valori dimensioni che corrispondono a un centro di costo e a un oggetto di costo. Per questi movimenti, il centro di costo ha la precedenza. Questo consente di evitare una situazione in cui un tipo di costo viene visualizzato sia in un oggetto di costo sia in un centro di costo, venendo pertanto conteggiato due volte nelle statistiche.  
+- Il numero di documento nei movimenti è vuoto, pertanto verrà visualizzato con un numero di documento pari a 0000 nei movimenti di costo.  
+- I movimenti vengono trasferiti in un tipo di costo che consente movimenti combinati e tali movimenti vengono trasferiti come movimento combinato mensilmente o giornalmente.  
 
 I movimenti C/G non vengono trasferiti nei seguenti casi:  
 
--   Ai movimenti sono associati valori dimensioni che non corrispondono a un centro di costo o un oggetto di costo.  
--   Ai movimenti è associato un importo pari a zero.  
--   Ai movimenti è associato un conto di contabilità generale che è stato eliminato.  
--   Ai movimenti è associato un conto di contabilità generale che non è di tipo **Conto economico**.  
--   Ai movimenti è associato un conto di contabilità generale a cui non è assegnato un tipo di costo.  
--   I movimenti hanno una data di registrazione anteriore alla **Data inizio per trasferimento CG**.  
--   Registrazione dei movimenti con data chiusura completata. Si tratta in genere di movimenti che reimpostano il saldo del conto economico alla fine dell'anno.
+- Ai movimenti sono associati valori dimensioni che non corrispondono a un centro di costo o un oggetto di costo.  
+- Ai movimenti è associato un importo pari a zero.  
+- Ai movimenti è associato un conto di contabilità generale che è stato eliminato.  
+- Ai movimenti è associato un conto di contabilità generale che non è di tipo **Conto economico**.  
+- Ai movimenti è associato un conto di contabilità generale a cui non è assegnato un tipo di costo.  
+- I movimenti hanno una data di registrazione anteriore alla **Data inizio per trasferimento CG**.  
+- Registrazione dei movimenti con data chiusura completata. Si tratta in genere di movimenti che reimpostano il saldo del conto economico alla fine dell'anno.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Trasferire movimenti C/G ai movimenti di costi
 I movimenti C/G possono essere trasferiti ai movimenti di costi.  
@@ -64,7 +65,7 @@ Prima di eseguire il processo per il trasferimento dei movimenti C/G ai moviment
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Trasferisci movimenti C/G a CA**, quindi scegli il collegamento correlato.  
 2.  Scegliere **Sì** per avviare il trasferimento. Con il processo vengono trasferiti tutti i movimenti C/G che non sono già stati trasferiti.  
 
-    Durante il trasferimento, con il processo vengono creati collegamenti nei movimenti nella tabella **Movimento di costo** e nella tabella **Registro costi**. In questo modo è possibile analizzare l'origine dei movimenti di costi.
+Durante il trasferimento, con il processo vengono creati collegamenti nei movimenti nella tabella **Movimento di costo** e nella tabella **Registro costi**. In questo modo è possibile analizzare l'origine dei movimenti di costi.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Trasferimento automatico e movimenti combinati
 Nella contabilità industriale, è possibile trasferire i movimenti C/G in un tipo di costo utilizzando una registrazione combinata. È possibile specificare se il tipo di costo riceve i movimenti combinati nel campo **Cumula movimenti** nella definizione del tipo di costo. Nella seguente tabella vengono illustrate le diverse opzioni.  

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: bbc68f5ed274328a9ea1fe7229a79bfba5a8bdf5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587942"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012369"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Ottieni il componente aggiuntivo Business Central per Outlook
 
@@ -23,7 +24,7 @@ Con [!INCLUDE[prod_short](includes/prod_short.md)], puoi gestire le interazioni 
 
 Ci sono due modi per installare l'add-in di Business Central per Outlook, a seconda del tuo ruolo nell'organizzazione:
 
-- Come amministratore di Microsoft 365, usa la *distribuzione centralizzata* per installare automaticamente il componente aggiuntivo per l'intera organizzazione, per gruppi o per utenti specifici.
+- Come amministratore di Microsoft 365, usa la *Distribuzione centralizzata* per installare automaticamente il componente aggiuntivo per l'intera organizzazione, per gruppi o per utenti specifici.
 
 - Come qualsiasi utente, installa l'add-in per il tuo uso personale, se il tuo amministratore non l'ha già distribuito per te.
 
@@ -52,9 +53,9 @@ La distribuzione centralizzata è una funzione nel centro amministrativo di Micr
 
 ### <a name="prerequisites"></a>Prerequisiti
 
-- Un abbonamento a Microsoft 365  
+- Una sottoscrizione Microsoft 365  
 - Agli utenti viene assegnata una licenza Microsoft 365  
-- Il tuo account Microsoft 365 ha il ruolo di *amministratore globale* o *amministratore di Exchange* 
+- Il tuo account Microsoft 365 ha il ruolo di *Amministratore globale* o *Amministratore di Exchange*
 
 ### <a name="deploy-the-add-in"></a>Distribuire il componente aggiuntivo
 
@@ -68,12 +69,12 @@ La distribuzione centralizzata è una funzione nel centro amministrativo di Micr
 5. A questo punto, hai finito il lavoro che devi fare in Business Central, quindi puoi scegliere **Fatto**.
 
    >[!TIP]
-   > Prima di scegliere **Avanti**, seleziona il link **Vai a Microsoft 365 (si apre in una nuova finestra)** per aprire e accedere al centro amministrativo di Microsoft 365 in una nuova finestra del browser. Dovrete comunque andare al centro amministrativo di Microsoft 365 in un passo successivo.
+   > Prima di scegliere **Avanti**, seleziona il collegamento **Vai a Microsoft 365 (si apre in una nuova finestra)** per aprire e accedere all'interfaccia amministrativa di Microsoft 365 in una nuova finestra del browser. Dovrete comunque andare all'interfaccia di amministrazione di Microsoft 365 in un passo successivo.
 
 6. Vai nella cartella dove è stato scaricato OutlookAddins.zip ed estrai i file **Contact Insights.xml** e **Document View.xml** dallo zip in una cartella di tua scelta.
 
     Per maggiori informazioni, vedi [Zip e Unzip di file e cartelle](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Accedi al centro amministrativo di Microsoft 365, poi vai a [App integrate](https://go.microsoft.com/fwlink/?linkid=2163967).
+7. Accedi all'interfaccia amministrativa di Microsoft 365, quindi vai ad [App integrate](https://go.microsoft.com/fwlink/?linkid=2163967).
 
 8. Scegliere **Carica applicazioni personalizzate**.
 9. Nella pagina **Carica app da distribuire**, scegli **Carica manifest file (.xml) dal dispositivo** > **Scegli file**.
@@ -84,7 +85,7 @@ La distribuzione centralizzata è una funzione nel centro amministrativo di Micr
 > [!IMPORTANT]
 > Un segno di spunta verde appare quando l'add-in viene distribuito nel centro amministrativo. Tuttavia, possono essere necessarie fino a 24 ore prima che gli utenti vedano l'add-in nell'app Outlook. Gli utenti potrebbero dover riavviare anche Outlook.
 
-Quando hai finito, puoi sempre cambiare la distribuzione in Microsoft 365 admin center, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amministrazione di Microsoft 365, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installare l'add-in per uso personale
 

@@ -1,5 +1,5 @@
 ---
-title: Come registrare lo scarto manualmente | Microsoft Docs
+title: Registrare lo scarto manualmente
 description: Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto. Si noti che la quantità di scarto non va ad aumentare la quantità di output.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,33 +7,36 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d13bfaf069a10cb1ff92806dbceb46811a770fac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d8fb54126741126e2316be39ccec94ad0cac0c4d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441574"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970483"
 ---
 # <a name="post-scrap-manually"></a>Registrare lo scarto manualmente
-Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto. 
+
+Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto.  
 
 > [!NOTE]
 > La quantità di scarto non aumenta la quantità di output.  
 
-## <a name="to-post-scrap-manually"></a>Per registrare lo scarto manualmente  
+## <a name="to-post-scrap-manually"></a>Per registrare lo scarto manualmente
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Immettere la quantità di scarto nel campo **Quantità Scartata**.  
 4. Immettere il codice di scarto nel campo **Codice scarto**.  
 5. Scegliere l'azione **Registra** per registrare lo scarto specificato per operazione.  
 
-## <a name="see-also"></a>Vedi anche  
-[Manufacturing](production-manage-manufacturing.md)    
+## <a name="see-also"></a>Vedi anche
+
+[Manufacturing](production-manage-manufacturing.md)
 [Impostazione della produzione](production-configure-production-processes.md)  
-[Pianif.](production-planning.md)      
+[Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

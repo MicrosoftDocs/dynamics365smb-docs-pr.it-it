@@ -1,5 +1,5 @@
 ---
-title: Estensione della gestione del gruppo IVA | Microsoft Docs
+title: Estensione della gestione del gruppo IVA
 description: È possibile impegnarsi con altre aziende per formare un gruppo IVA e agire come membro o rappresentante del gruppo quando si dichiara l'IVA.
 author: bholtorf
 manager: annbe
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771289"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029142"
 ---
 # <a name="the-vat-group-management-extension"></a>Estensione della gestione del gruppo IVA
 
@@ -116,8 +116,12 @@ Quando la dichiarazione IVA del rappresentante del gruppo IVA è stata presentat
 > La funzionalità del gruppo IVA è supportata solo nei mercati in cui [!INCLUDE[prod_short](includes/prod_short.md)] utilizza un quadro IVA che consiste in dichiarazioni IVA e periodi di dichiarazione IVA. Non è possibile utilizzare gruppi IVA in altri mercati che hanno altre implementazioni della dichiarazione IVA locale, come Austria, Germania, Italia, Spagna e Svizzera. 
 
 ## <a name="see-also"></a>Vedere anche
+
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
-[Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)
+[Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)  
+[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
+[Digitalizzazione delle imposte nel Regno Unito](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Report IVA norvegese nella versione norvegese](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
