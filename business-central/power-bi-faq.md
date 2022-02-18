@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3727faf800bf6ecf326009588eb3e1588a1bcfc3
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588001"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049434"
 ---
 # <a name="power-bi--faq"></a>Domande frequenti su Power BI
 
@@ -23,7 +23,7 @@ Questo articolo contiene le risposte ad alcune domande sull'utilizzo di Power BI
 
 ## <a name="general"></a>[Generale](#tab/general)
 <!-- 26 -->
-### <a name="ive-selected-a-report-for-my-role-center-in-business-central-if-i-later-make-changes-to-the-reports-visuals-online-will-the-role-center-automatically-update-to-my-changes"></a>Ho selezionato un report per il Gestione ruolo in Business Central. Se in seguito apporto modifiche agli elementi visivi online del report, Gestione ruolo si aggiornerà automaticamente con le mie modifiche?
+### <a name="ive-selected-a-report-for-my-role-center-in-business-central-if-i-later-make-changes-to-the-reports-visuals-online-will-the-role-center-automatically-update-to-my-changes"></a>Ho selezionato un report per il Gestione ruolo in Business Central. Se in seguito eport modifiche agli elementi visivi online del report, Gestione ruolo si aggiornerà automaticamente con le mie modifiche?
 
 Sì, perché i report sono incorporati da Power BI.
 
@@ -140,18 +140,55 @@ No. Non a questo punto.
 
 Quando si tratta di servizi Web, le query pubblicate sono generalmente più veloci delle pagine pubblicate equivalenti. Il motivo è che le query sono ottimizzate per la lettura dei dati e non contengono trigger costosi come OnAfterGetRecord.
 
-Quando il nuovo connettore sarà disponibile a giugno 2021, ti consigliamo di utilizzare le pagine API sulle query pubblicate come servizi Web.
+I servizi Web si basano su pagine o query create per l'accesso dal Web e generalmente non ottimizzate per l'accesso da servizi esterni. Anche se il connettore Business Central supporta ancora l'acquisizione di dati dai servizi Web, ti invitiamo a utilizzare le pagine API anziché i servizi Web quando possibile.
 
 <!-- 13 --> 
 ### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Esiste un modo per un utente finale di creare un servizio Web con una colonna che si trova in una tabella di Business Central, ma non in una pagina? Oppure lo sviluppatore dovrà creare una query personalizzata? 
 
-Sì. Con il rilascio del nuovo connettore in giugno 2021, uno sviluppatore potrà creare una nuova pagina API per soddisfare questo requisito. 
+Al momento non è possibile aggiungere un nuovo campo a un servizio Web. Le pagine API offrono piena flessibilità della struttura della pagina, quindi uno sviluppatore può creare una nuova pagina API per soddisfare questo requisito. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Posso connettere Power BI a un server di database di sola lettura di Business Central Online? 
 
-No. Ma abbiamo questa funzionalità nella nostra roadmap a lungo termine. 
+Questa funzionalità sarà presto disponibile. A partire da febbraio 2022, i nuovi report creati in base ai dati di Business Central online tenteranno automaticamente di connettersi a una replica del database di sola lettura. Ciò farà sì che i tuoi report si aggiornino più velocemente, con un impatto minore sulle prestazioni se utilizzi Business Central durante l'aggiornamento di un report. Ti consigliamo comunque, quando possibile, di pianificare l'aggiornamento dei report al di fuori del normale orario di lavoro.
 
+Se disponi di vecchi report basati sui dati di Business Central, non si collegheranno alla replica del database di sola lettura.
+
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it"></a><a name="databasemods"></a>Ho provato l'anteprima del nuovo connettore per l'aggiornamento di febbraio 2022. Quando mi collego alla mia pagina API Business Central personalizzata, viene visualizzato l'errore "Impossibile inserire un record. L'intento di connessione corrente è di sola lettura." Come posso risolverlo?
+
+Con il nuovo connettore, i nuovi report che utilizzano i dati di Business Central si collegheranno a una replica di sola lettura del database di Business Central per impostazione predefinita. Questa modifica porterà un miglioramento delle prestazioni. Tuttavia, in rari casi, potrebbe causare l'errore. Questo errore si verifica in genere perché l'API personalizzata sta apportando modifiche ai record di Business Central mentre Power BI cerca di ottenere i dati. In particolare, si verifica come parte dei trigger AL: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord e OnAfterGetCurrRecord.
+
+Per risolvere questo problema forzando il connettore Business Central a consentire questo comportamento, vedi [Creazione di report di Power BI per visualizzare i dati di Business Central - Risoluzione dei problemi](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+
+<!--
+In general, we recommend avoiding any database modifications in API pages when they're opening or loading records, because they cause performance issues and might cause your report refresh to fail. In some cases, you might still need to make a database modification when your custom API page opens or loads records. You can force the Business Central connector to allow this behavior. Do the following steps when getting data from Business Central for the report in Power BI Desktop:
+
+1. Start Power BI Desktop.
+2. In the ribbon, select **Get Data** > **Online Services**.
+3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
+4. In the **Navigator** window, select the API endpoint that you want to load data from.
+5. In the preview pane on the right, you'll see the following error:
+
+   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Cannot insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
+
+6.  Select **Transform Data** instead of **Load** as you might normally do.
+7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+8.  Replace the following line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
+   ```
+
+   with the line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false]),
+   ```
+
+9.  Select **Done**.
+10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
+
+-->
 ### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Come posso modificare o cancellare l'account utente che sto utilizzando attualmente per connettermi a Business Central da Power BI Desktop?
 
 In Power BI Desktop, effettua i seguenti passaggi:
@@ -207,9 +244,9 @@ Sì. Questo scenario avanzato aiuterà Business Central a rimanere performante, 
 
 Stiamo esaminando questa funzionalità. Power BI offre API complete per controllare le distribuzioni di report. Per ulteriori informazioni, vedi [Introduzione alle pipeline di distribuzione](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="ive-tried-the-preview-of-the-new-connector-which-will-be-live-in-june-2021-i-see-some-values-like-_x0020_-when-connecting-to-api-v20-what-are-these-values"></a>Ho provato l'anteprima del nuovo connettore, che sarà disponibile a giugno 2021. Vedo alcuni valori come "_x0020_" durante la connessione ad API v2.0. Quali sono questi valori?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values"></a>Quando ottengo i dati di Business Central da utilizzare nei report Power BI, vedo alcuni valori come "_x0020_". Quali sono questi valori?
 
-La prossima versione del connettore di Power BI consente di connettersi alle pagine API di Business Central, inclusa API v2.0. Queste pagine includono alcuni campi basati su [Oggetti AL Enum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). I campi basati su oggetti AL Enum devono avere nomi coerenti e sempre uguali, in modo che i filtri nel report funzionino sempre, indipendentemente dalla lingua o dal sistema operativo in uso. Per questo motivo, i campi basati su AL Enum non vengono tradotti e sono codificati per evitare qualsiasi carattere speciale, incluso lo spazio. In particolare, ogni volta che è presente un'opzione vuota nell'oggetto AL Enum, è codificata in "_x0020_". Puoi sempre applicare una trasformazione ai tuoi dati su Power BI se desideri visualizzare un valore diverso per questi campi, ad esempio "Vuoto".
+Alcune pagine API, inclusa la maggior parte delle pagine API v2.0, hanno campi basati su [oggetti enumerazione AL](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). I campi basati su oggetti enumerazione AL devono avere nomi coerenti e sempre uguali, in modo che i filtri nel report funzionino sempre, indipendentemente dalla lingua o dal sistema operativo in uso. Per questo motivo, i campi basati sulle enumerazioni AL non vengono tradotti e sono codificati per evitare qualsiasi carattere speciale, incluso lo spazio. In particolare, ogni volta che è presente un'opzione vuota nell'oggetto AL Enum, è codificata in "_x0020_". Puoi sempre applicare una trasformazione ai tuoi dati su Power BI se desideri visualizzare un valore diverso per questi campi, ad esempio "Vuoto".
 
 
 ---

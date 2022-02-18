@@ -8,20 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2021
+ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: babf20be3c22a3d4b7dd710e2486c59bc11351fe
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
+ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
+ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596649"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8050907"
 ---
 # <a name="get-business-central-desktop-app"></a>Ottieni Business Central Desktop App
 
-Se hai un computer Windows (PC) o macOS, puoi installare un'app Business Central sul tuo desktop. 
-> [!NOTE]
-> Se stai usando Business Central 2021 release wave 1 o precedente, ottieni l'app da [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848).
+Se hai un computer Windows (PC) o macOS, puoi installare un'app Business Central sul tuo desktop. L'app funziona con Business Central online e in locale.
 
 ## <a name="why-use-the-app"></a>Perché usare l'applicazione?
 
@@ -34,7 +32,19 @@ L'applicazione Business Central assomiglia al client web, ma fornisce alcuni van
 
      Quando apri l'applicazione per un ambiente specifico, il nome dell'ambiente è incluso nel titolo della finestra. Quando si lavora in più ambienti [!INCLUDE[prod_short](includes/prod_short.md)], ogni finestra di app viene visualizzata separatamente. Il nome rende più facile per voi vedere quale finestra è associata ad ogni ambiente.
 
-## <a name="install-the-app"></a>Installare l'applicazione
+## <a name="install-the-app-for-business-central-online"></a>Installare l'app per Business Central online
+
+Esistono due modi per installare l'app per Business Central online. Puoi installarla direttamente dal browser o da Microsoft Store. Qualunque approccio utilizzi, è la stessa app. La differenza è che l'installazione dal browser consente di installare l'app per ogni ambiente quando ce n'è più di uno.
+
+### <a name="from-microsoft-store"></a>Da Microsoft Store
+
+1. Accedi a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
+2. Scegli **Ottieni** > **Installa**. 
+3. Quando l'app è stata installata, scegli **Apri**, quindi accedi a Business Central.
+
+La prossima volta che vuoi aprire l'app, cercala nel menu **Start**.
+
+### <a name="from-the-browser"></a>Dal browser
 
 1. Aprite il client web [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Edge o Google Chrome.
 
@@ -54,18 +64,16 @@ L'applicazione Business Central assomiglia al client web, ma fornisce alcuni van
 
 Una volta installata, l'applicazione appare nel menu **Start** . Se hai selezionato un ambiente specifico per l'app, il nome dell'ambiente viene aggiunto al nome dell'app nel menu **Start** .
 
-### <a name="for-business-central-on-premises"></a>Per Business Central on-premises
+## <a name="install-the-app-for-business-central-on-premises"></a>Installare l'app per Business Central in locale
 
-L'installazione dell'app quando usi Business Central on-premises è fondamentalmente la stessa descritta sopra. Se hai solo un tenant, basta aprire Business Central nel tuo browser, quindi selezionare o ![Icon per installare un'app in Edge.](media/ui-edge-install-app-icon.png) **App disponibile. Installare Business Central** o ![Icona per installare un'app in Chrome.](media/ui-chrome-install-app-icon.png) **Installa Business Central** come mostrato sopra. 
+L'installazione dell'app desktop quando usi Business Central in locale è eseguita direttamente dal browser come [descritto sopra](#from-the-browser). Se hai solo un tenant, basta aprire Business Central nel tuo browser, quindi selezionare o ![Icon per installare un'app in Edge.](media/ui-edge-install-app-icon.png) **App disponibile. Installare Business Central** o ![Icona per installare un'app in Chrome.](media/ui-chrome-install-app-icon.png) **Installa Business Central** come mostrato sopra.
 
-La differenza è quando si hanno più inquilini. A differenza di [!INCLUDE[prod_short](includes/prod_short.md)] online, dove è possibile installare l'applicazione separatamente per diversi ambienti, con on-premises è possibile installare l'applicazione solo per un tenant. Quindi, prima di installare l'app quando hai più inquilini, assicurati di passare al tenant corretto. Una volta installato, quando si apre l'applicazione, si aprirà direttamente il tenant.
+La differenza è quando si hanno più inquilini. A differenza di [!INCLUDE[prod_short](includes/prod_short.md)] online, dove è possibile installare l'applicazione per diversi ambienti, è possibile installare l'applicazione solo per un tenant. Quindi, prima di installare l'app quando hai più tenant, assicurati di passare al tenant corretto. Una volta installato, quando si apre l'applicazione, si aprirà direttamente il tenant.
 
-<!-- for FAQ or troubleshooting
-> [!NOTE]
-> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
--->
+> [!IMPORTANT]
+> Se utilizzi il primo ciclo di rilascio del 2021 di Business Central (versione 18) o precedenti, non puoi installare l'app come descritto in questo articolo. Puoi invece installare l'app da [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Per ulteriori informazioni e assistenza sull'installazione di questa app legacy, vedi [Preparazione e installazione dell'app Business Central](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere la formazione correlata su [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 

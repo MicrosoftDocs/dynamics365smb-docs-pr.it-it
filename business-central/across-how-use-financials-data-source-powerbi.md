@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: db872c8049550a497e2ee56a4a62bb69fa6a1854
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341335"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049850"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]
 
@@ -134,7 +134,7 @@ Dopo aver scaricato il tema del report [!INCLUDE [prod_short](includes/prod_shor
 
 Dopo aver creato o modificato un report è possibile pubblicarlo nel servizio Power BI e condividerlo anche con altre persone nell'organizzazione. Una volta pubblicato, il report è visibile in Power BI. Il report diventa anche disponibile per la selezione in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Per pubblicare un rapporto, selezionare **Pubblica** nella scheda **Home** della barra multifunzione o dal menu **File**. Se è stato effettuato l'accesso al servizio Power BI il report viene pubblicato in questo servizio. In caso contrario, verrà richiesto di accedere. 
+Per pubblicare un report, selezionare **Pubblica** nella scheda **Home** della barra multifunzione o dal menu **File**. Se è stato effettuato l'accesso al servizio Power BI il report viene pubblicato in questo servizio. In caso contrario, verrà richiesto di accedere. 
 
 ## <a name="distribute-or-share-a-report"></a>Distribuire o condividere un report
 
@@ -150,6 +150,39 @@ Ci sono un paio di modi per inviare report ai colleghi e ad altre persone:
 - Condividere il report dal servizio Power BI
 
     Se si dispone di una licenza Power BI Pro, è possibile condividere il report con altre persone direttamente dal servizio Power BI. Per ulteriori informazioni, vedere [Power BI - Condividere una dashboard o un report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+
+## <a name="fixing-problems"></a>Risolvere i problemi
+
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Impossibile inserire un record. L'intento di connessione corrente è di sola lettura." errore durante la connessione alla pagina API personalizzata
+
+> **APPLICABILE A:** Business Central Online
+
+A partire da febbraio 2022, i nuovi report che utilizzano i dati di Business Central si collegheranno a una replica di sola lettura del database di Business Central per impostazione predefinita. In rari casi, a seconda della progettazione della pagina, riceverai un errore quando tenti di connetterti e ottenere i dati dalla pagina.
+
+1. Avviare Power BI Desktop.
+2. Nella barra multifunzione seleziona **Ottieni dati** > **Servizi online**.
+3. Nel riquadro **Servizi online**, seleziona **Dynamics 365 Business Central**, poi **Connetti**.
+4. Nella finestra **Navigatore** seleziona l'endpoint dell'API da cui vuoi caricare i dati.
+5. Nel riquadro di anteprima a destra, vedrai il seguente errore:
+
+   *Dynamics365BusinessCentral: richiesta non riuscita: il server remoto ha restituito un errore: (400) richiesta non valida. (Impossibile inserire un record. L'intento di connessione corrente è di sola lettura. CorrelationId: [...])".*
+
+6. Seleziona **Trasforma i dati** invece di **Carica** come faresti normalmente.
+7. In **Editor di Power Query**, seleziona **Editor avanzato** dalla barra multifunzione.
+8. Nella riga che inizia con **Origine =**, sostituisci il testo seguente:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   con:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Seleziona **Fatto**.
+10. Seleziona **Chiudi e applica** dalla barra multifunzione per salvare le modifiche e chiudere l'editor di Power Query.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

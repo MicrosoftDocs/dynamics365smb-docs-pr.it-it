@@ -7,34 +7,21 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 5488ba8331494ba662960e84d4907de76a68e72b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543147"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102345"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Report finanziari e analisi in Business Central
 
 La creazione di report finanziari in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti finanziari e aziendali di creare, gestire, distribuire e visualizzare i rendiconti finanziari. Va oltre i tradizionali vincoli di creazione di report per consentire di progettare in modo efficiente vari tipi di report. [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report, funzioni di tracciamento e strumenti utili per i revisori o i controllori responsabili della creazione di report per il reparto finanziario. La creazione di report finanziari include il supporto per le dimensioni, rendendo pertanto le dimensioni o i segmenti di conto immediatamente disponibili. Non sono necessari altri strumenti o passaggi di configurazione.  
 
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
 ## <a name="reports"></a>Report
-
-La tabella seguente descrive alcuni dei report finanziari chiave.
-
-| Report | ID oggetto | Descrizione |
-|--|--|--|
-| **Bilancio di verifica** | 6 | Mostra il piano dei conti con saldi periodi e conti. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale. |
-| **Bilancio di verifica per periodo** | 38 | Mostra il bilancio di apertura per conto di contabilità generale, i movimenti nel periodo selezionato del mese, del trimestre o dell'anno e il bilancio di chiusura risultante. |
-| **Bilancio di verifica/budget** | 9 | Mostra un bilancio di verifica confrontato a un budget. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale. |
-| **Dett. bilancio di verifica** | 4 | Mostra un dettaglio del bilancio di verifica per i conti di contabilità generale selezionati. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale. È possibile definire i conti da includere nel report impostando dei filtri. |
-| **Bilancio di verifica/Anno precedente** | 7 | Mostra un bilancio di verifica confrontato alle cifre dell'anno precedente. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale. Per *anno precedente* s'intende il medesimo periodo dell'anno appena trascorso. |
-| **Situazione contabile** | 25 | Le situazioni contabili possono essere utilizzate per visualizzare i conti di contabilità generale in modo diverso rispetto al piano dei conti. È possibile ad esempio utilizzare le situazioni contabili per generare report su informazioni chiave. |
-<!-- | **Conto patrimoniale** (Situaz. contabile o Excel) o **Bilancio di verifica** |  |  |
-| **Rendiconto dei flussi di cassa** (Situazione contabile) |  |  |
-| **Bilancio di verifica riepilogativo/Dettagliato** |  |  |
-| **Conto economico** (Situaz. contabile o Excel) |  |  |
-| **Budget** |  |  | -->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Attività
 

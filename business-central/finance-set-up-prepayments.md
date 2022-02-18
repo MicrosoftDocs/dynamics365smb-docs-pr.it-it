@@ -8,12 +8,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9fd6f09e428b067b240efd150166c32577ca92
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970389"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100901"
 ---
 # <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
 
@@ -27,7 +27,9 @@ Prima di registrare le fatture di pagamento anticipato, è necessario impostare 
 > Si consiglia di non utilizzare una percentuale di pagamento anticipato del 100% nei seguenti casi:
 >
 > * Se ci si trova in Nord America. A causa del modo in cui vengono calcolate le imposte, una percentuale di pagamento anticipato del 100% può causare problemi con le fatture di pagamento anticipato.
-> * In tutte le regioni, se si deduce manualmente uno sconto di pagamento dalla fattura. Una percentuale di pagamento anticipato del 100% non lascerà automaticamente un importo da cui detrarre lo sconto. 
+> * In tutte le regioni, se si deduce manualmente uno sconto di pagamento dalla fattura. Una percentuale di pagamento anticipato del 100% non lascerà automaticamente un importo da cui detrarre lo sconto.
+>
+> Inoltre, quando utilizzi una percentuale di pagamento anticipato del 100%, [!INCLUDE[prod_short](includes/prod_short.md)] potrebbe dover creare movimenti di arrotondamento di compensazione. Quando ciò accade, dovrai scegliere un conto C/G nel campo **Conto arrotondamento fatture** della pagina **Categorie registrazione clienti**. Questo è vero anche se non hai attivato l'interruttore **Arrotondamento fattura** nella pagina **Setup contabilità clienti**. Se non specifichi un conto non potrai registrare le fatture di pagamento anticipato. 
 
 Poiché l'importo pagamento anticipato è di proprietà dell'acquirente fino a quando non riceve le merci o i servizi, è necessario impostare conti di contabilità generale per la gestione degli importi pagamento anticipato fino a quando non viene registrata la fattura finale. I pagamenti anticipati di vendita devono essere registrati in un conto passività fino a quando gli articoli non vengono spediti. I pagamenti anticipati di acquisto devono essere registrati in un conto cespiti fino a quando gli articoli non vengono ricevuti. È inoltre necessario impostare un conto di contabilità generale separato per ogni codice IVA.  
 

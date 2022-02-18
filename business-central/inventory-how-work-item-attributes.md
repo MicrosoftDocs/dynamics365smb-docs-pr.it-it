@@ -1,5 +1,5 @@
 ---
-title: Impostare attributi di articoli e assegnarli agli articoli | Documenti Microsoft
+title: Impostare attributi di articoli e assegnarli agli articoli
 description: Descrive come impostare i valori di attributo articolo, ad esempio che possono essere utilizzati come parole di ricerca, e come assegnarli agli articoli e alle categorie di articoli.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
+ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ec2ab337c56b9110162b198c1cb656e605ebc8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d2c8eec702840e6046eab362a867317091a9c3aa
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444897"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059362"
 ---
 # <a name="work-with-item-attributes"></a>Utilizzare gli attributi degli articoli
 Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in un negozio Web integrato, possono chiedere o cercare in base alle caratteristiche, ad esempio l'altezza e l'anno del modello. Per fornire all'assistenza ai clienti, è possibile assegnare valori di attributo articolo di diversi tipi agli articoli e utilizzarli durante la ricerca degli articoli.
@@ -31,7 +32,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 3. Nella pagina **Attributi articolo** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Se si seleziona **Opzione** nel campo **Tipo** è possibile scegliere l'azione **Valori attributo articolo** per creare valori per l'attributo dell'articolo. Per ulteriori informazioni, vedere [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
+>   Se selezioni **Opzione** nel campo **Tipo** puoi scegliere l'azione **Valori attributo articolo** per creare valori per l'attributo dell'articolo. Per ulteriori informazioni, vedere [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Per creare i valori per gli attributi articolo di tipo Opzione
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Attributi articolo**, quindi scegli il collegamento correlato.

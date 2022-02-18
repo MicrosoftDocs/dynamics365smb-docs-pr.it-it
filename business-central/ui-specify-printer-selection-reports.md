@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547050"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102449"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 
@@ -267,6 +267,9 @@ Tu o l'amministratore potete anche usare la pagina **Selezioni stampante** per d
 
 > [!NOTE]
 > Altre selezioni stampante specifiche hanno la precedenza su una selezione stampante generale. Ad esempio, una selezione di stampante che ha valori nei campi **ID utente**, **ID report** e **Nome stampante** ha la precedenza su una selezione di stampante che ha voci vuote nei campi **ID utente** o **ID report**.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Scelta della stampante durante l'esecuzione di un report
+Invece di utilizzare la stampante predefinita durante l'esecuzione di un report, è possibile ignorare questa impostazione dalla pagina della richiesta. Basta scegliere la stampante che vuoi utilizzare per questa chiamata del report nel menu a discesa **Stampante**.
 
 ### <a name="sizing-print-jobs"></a>Ridimensionamento dei lavori di stampa
 

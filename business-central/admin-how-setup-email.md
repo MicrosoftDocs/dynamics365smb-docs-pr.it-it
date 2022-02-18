@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.search.form: 1805
+ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: de40994a555fbc657eacc18e8b2e8b33ce430fcb
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7e71694e59dcd17072bb7616324953ca02117a89
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011128"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115068"
 ---
 # <a name="set-up-email"></a>Configurare la posta elettronica
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono semplificare l'operazione collegando uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Gli amministratori possono anche impostare layout di report che includono solo le informazioni chiave dei documenti. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).

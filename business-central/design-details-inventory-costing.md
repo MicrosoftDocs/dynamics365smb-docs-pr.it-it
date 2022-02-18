@@ -1,5 +1,5 @@
 ---
-title: 'Dettagli di progettazione: Costing di magazzino | Microsoft Docs'
+title: Dettagli di progettazione - Costing di magazzino
 description: In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8bfcf2b10d9b302c9a65b7cf27c7fb336be68617
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: b76d0ccdfce2ef69da4b49e4b4e143de5a61d23c
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215980"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115121"
 ---
 # <a name="design-details-inventory-costing"></a>Dettagli di progettazione: Costing di magazzino
+
 In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Il costing di magazzino, detto anche gestione costing riguarda la registrazione e il reporting dei costi operativi business.  
 
-## <a name="in-this-section"></a>In questa sezione  
+## <a name="in-this-section"></a>In questa sezione
+
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
 [Dettagli di progettazione: Problema noto di collegamento articoli](design-details-inventory-zero-level-open-item-ledger-entries.md)  

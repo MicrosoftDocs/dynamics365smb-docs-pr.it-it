@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 932bf57b8801c758c6bcaff4fbdad69265853487
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c8f12e98196d8dd22ff63c73ffd3967cf256244c
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724690"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049876"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Abilitazione dell'integrazione Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -45,6 +45,11 @@ Una pagina API è un tipo di pagina specifico creato nel codice AL che fornisce 
 Business Central online è disponibile con una serie di API integrate, che è possibile utilizzare per ottenere dati per le entità aziendali più comuni, come clienti, articoli, ordini di vendita e altro. Non è richiesto alcun lavoro aggiuntivo o configurazione per utilizzare queste API come origine dati per report Power BI. Per ulteriori informazioni su queste API, vedi [API Business Central V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
 Business Central online supporta anche le API personalizzate. Gli sviluppatori di applicazioni delle soluzioni Business Central possono creare le proprie pagine API e comprimerle in estensioni. Puoi installare le estensioni sul tuo tenant. Una volta installate, puoi utilizzare le pagine API per il tuo report Power BI, come faresti con le API integrate (v2.0). Per ulteriori informazioni su come creare pagine API, vedi [Sviluppo di un'API personalizzata](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+> [!IMPORTANT]
+> A partire da febbraio 2022, i report Power BI per [!INCLUDE[prod_short](includes/prod_short.md)] online provengono da una replica del database di sola lettura secondaria per motivi di prestazioni. Di conseguenza, gli sviluppatori AL dovrebbero evitare di progettare pagine API che apportano modifiche al database mentre le pagine aprono o caricano record. In particolare, considera il codice dei trigger AL: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord e OnAfterGetCurrRecord. Queste modifiche al database, in alcuni casi, possono causare problemi di prestazioni e impedire l'aggiornamento dei dati del report. Per ulteriori informazioni, vedi [Articoli sulle prestazioni per gli sviluppatori](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) nella guida allo sviluppo di Business Central.
+>
+> In rari casi, il comportamento causerà un errore quando un utente tenta di ottenere dati dalla pagina API per un report in Power BI Desktop. Tuttavia, se sono necessarie modifiche al database nella pagina dell'API personalizzata, gli utenti Power BI Desktop possono forzare il comportamento. Per ulteriori informazioni, vedi [Creare report Power BI per visualizzare i dati di Business Central](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 ### <a name="odata-web-services"></a>Servizi Web OData
 
@@ -91,6 +96,7 @@ Questa sezione spiega i requisiti per una distribuzione di [!INCLUDE[prod_short]
     Affinché gli utenti finali possano utilizzare Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], un amministratore dell'applicazione Azure dovrà concedere l'autorizzazione al servizio Power BI.
 
     Per effettuare la connessione iniziale, aprire [!INCLUDE[prod_short](includes/prod_short.md)] ed eseguire **Introduzione a Power BI** da Gestione ruolo utente. In questo modo, verrà avviato il processo di autorizzazione e verrà controllata la licenza di Power BI. Quando richiesto, accedere utilizzando un account amministratore di Azure. Per ulteriori informazioni, vedere [Connettersi a Power BI- una sola volta](across-working-with-powerbi.md#connect).
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

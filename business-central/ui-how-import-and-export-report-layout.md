@@ -1,5 +1,5 @@
 ---
-title: Importazione ed esportazione di un layout di report e documento | Microsoft Docs
+title: Importare ed esportare un layout di report e documento
 description: È possibile esportare e importare un layout di report personalizzato esistente come file da e verso un computer o una rete.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441070"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101349"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importare ed esportare layout di report personalizzati
 È possibile esportare e importare un layout di report personalizzato esistente come file da e verso un computer o una rete. Ad esempio, è possibile esportare un layout di report e inviare il file a un'altra persona per essere modificato. Dopo le modifiche, il file può essere importato nuovamente.  
@@ -51,10 +51,11 @@ ms.locfileid: "6441070"
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche  
- [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
- [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
- [Utilizzo di report, processi batch e XMLport](ui-work-report.md)    
+## <a name="see-also"></a>Vedere anche
+
+[Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
+[Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
+[Utilizzo di report, processi batch e XMLport](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

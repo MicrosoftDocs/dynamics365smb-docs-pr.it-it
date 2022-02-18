@@ -1,5 +1,5 @@
 ---
-title: Mantenere aggiornato un layout di report
+title: Aggiornare layout report personalizzati
 description: Scopri come aggiornare un layout di report personalizzato utilizzato in un report quando sono presenti modifiche di progettazione al set di dati del report, ad esempio.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445278"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101479"
 ---
 # <a name="update-custom-report-layouts"></a>Aggiornare layout report personalizzati
+
 Talvolta, potrebbe essere necessario aggiornare il layout personalizzato utilizzato per un report. Ciò è obbligatorio in seguito a una modifica di progettazione al set di dati del report, ad esempio, un campo utilizzato nel layout è stato rimosso da set di dati del report. Se un layout di report necessita di aggiornamento, verrà visualizzato un messaggio di errore quando si tenta di visualizzare l'anteprima, stampare o salvare il report.  
 
 È possibile aggiornare automaticamente il layout di report dal messaggio di errore visualizzato quando si esegue il report facendo clic sul pulsante **Sì** nel messaggio di errore. In alternativa, prima dell'esecuzione dei report, è possibile aggiornare i layout di report specifici o tutti i layout di report personalizzati che potrebbero essere interessati da modifiche del set di dati.  

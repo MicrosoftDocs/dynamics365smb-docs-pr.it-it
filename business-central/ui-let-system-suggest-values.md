@@ -1,5 +1,5 @@
 ---
-title: Impostazione di valori suggeriti per i campi | Documenti Microsoft
+title: Suggerimento automatico dei valori in Business Central
 description: Per evitare i calcoli manuali e per completare i task in modo rapido e accurato, è possibile impostare l'immissione automatica dei dati in modo che Business Central compili i campi selezionati.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 39, 251, 981
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9af79eccbfd180ce7d587a3cb2e420fde0f85a3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c7aaa366a237e2196aaa8a6e376220e5d5794d87
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445329"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100823"
 ---
 # <a name="letting-prod_short-suggest-values"></a>Suggerimento automatico dei valori in [!INCLUDE[prod_short](includes/prod_short.md)]
 [!INCLUDE[prod_short](includes/prod_short.md)] può aiutare a completare le attività in modo più rapido e più corretto precompilando campi o righe intere con dati che verrebbero altrimenti calcolati e immessi manualmente. Sebbene tale l'immissione dei dati automatica sia sempre corretta, è possibile modificarla in seguito se lo si desidera.

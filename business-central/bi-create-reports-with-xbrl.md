@@ -12,14 +12,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f204c769a7a1fc8ddf3c6fd97fe485be8940dc43
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437128"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101323"
 ---
 # <a name="create-reports-with-xbrl"></a>Creare report con XBRL
+
+> [!NOTE]
+> Stiamo rimuovendo le funzionalità per i report XBRL da [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Modifiche nel primo ciclo di rilascio del 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
+
 XBRL è l'acronimo di eXtensible Business Reporting Language, un linguaggio basato su XML per l'assegnazione di tag ai dati finanziari che consente alle aziende di elaborare e condividere i dati in maniera efficiente e accurata. L'iniziativa XBRL abilita il reporting finanziario globale da parte di numerose società che producono software ERP e organizzazioni contabili internazionali. L'obiettivo dell'iniziativa consiste nel fornire uno standard per il reporting uniforme delle informazioni finanziarie per banche, investitori e autorità governative. Tali funzionalità di reporting possono includere:  
 
  • Rendiconti finanziari  

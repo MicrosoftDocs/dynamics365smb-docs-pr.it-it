@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cd9ca9b1b3aac2f1c531090342d5c43bfa64943e
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445628"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059884"
 ---
 # <a name="trace-item-tracked-items"></a>Tracciare gli articoli tracciati
 È possibile analizzare dove è stato utilizzato un articolo tracciato, nonché ottenere informazioni su come e quando l'articolo è stato ricevuto o prodotto, trasferito, venduto, consumato o reso. È inoltre possibile trovare tutte le istanze correnti di un numero seriale o di un numero di lotto specifico nel database. A tale scopo si utilizzano le funzionalità Tracciabilità articolo e [Trova movimenti](ui-find-entries.md).  
@@ -32,25 +33,25 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tracciabilità articolo**, quindi scegli il collegamento correlato.  
 2.  Nei campi di filtro nella parte superiore della pagina immettere numeri di articolo specifici o utilizzare un filtro per i numeri di articolo che si desidera analizzare.  
-3.  Nel campo **Mostra componenti** definire se si desidera visualizzare anche la provenienza dei componenti dell'articolo. Le opzioni disponibili sono le seguenti.  
+3.  Nel campo **Mostra componenti** definisci se visualizzare anche la provenienza dei componenti dell'articolo. Nella seguente tabella vengono illustrate le opzioni.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |----------------------------------|---------------------------------------|  
-    |**No**|selezionare questa opzione se non si desidera visualizzare i componenti.|  
-    |**Solo articoli tracciati**|selezionare questa opzione se si desidera visualizzare solo i componenti con numeri di lotto o seriali.|  
-    |**Tutto**|selezionare questa opzione se si desidera visualizzare tutti i componenti.|  
+    |**No**|Non visualizzare i componenti.|  
+    |**Solo articoli tracciati**|Mostra solo i componenti che hanno numeri di lotto o di serie.|  
+    |**Tutto**|Mostra tutti i componenti.|  
 
-4.  Nel campo **Metodo analisi** selezionare il metodo che si desidera utilizzare per analizzare l'articolo. Sono disponibili le opzioni seguenti:  
+4.  Nel campo **Metodo analisi** seleziona il metodo da utilizzare per analizzare l'articolo. Nella seguente tabella vengono illustrate le opzioni.  
 
-    |Campo|Description|  
+    |Campo|Descrizione|  
     |----------------------------------|---------------------------------------|  
-    |**Utilizzo->Origine**|Questo metodo consente di analizzare l'articolo a partire dal punto di entrata fino al punto di utilizzo. Se, ad esempio, un articolo lavorato è stato venduto a un cliente, nella pagina **Analisi articolo** viene prima visualizzata la riga di spedizione di vendita, che può essere espansa per individuare l'ordine di produzione di provenienza.|  
-    |**Origine->Utilizzo**|questo metodo consente di analizzare l'articolo a partire dal punto di entrata nel magazzino fino al punto di utilizzo. Se, ad esempio, un articolo lavorato è stato venduto a un cliente, nella pagina **Analisi articolo** viene prima visualizzato l'ordine di produzione chiuso, che può essere espanso per individuare le righe di spedizione di vendita in cui l'articolo è stato utilizzato.|  
+    |**Utilizzo->Origine**|Analizza l'articolo dal punto di utilizzo al punto di entrata. Se, ad esempio, un articolo lavorato è stato venduto a un cliente, nella pagina **Analisi articolo** viene prima visualizzata la riga di spedizione di vendita, che può essere espansa per individuare l'ordine di produzione di provenienza.|  
+    |**Origine->Utilizzo**|Analizza l'articolo dal punto di entrata in magazzino al punto di utilizzo. Se, ad esempio, un articolo lavorato è stato venduto a un cliente, nella pagina **Analisi articolo** viene prima visualizzato l'ordine di produzione chiuso, che può essere espanso per individuare le righe di spedizione di vendita in cui l'articolo è stato utilizzato.|  
 
 5.  Scegliere l'azione **Analizza** per eseguire l'analisi.  
 
 > [!NOTE]  
->  Se uno stesso lotto è stato ricevuto in più transazioni, la pagina **Tracciabilità articolo** può non riportare tutte le transazioni. Solo le transazioni collegate vengono visualizzate.  
+>  Solo le transazioni collegate vengono visualizzate. Se uno stesso lotto è stato ricevuto in più transazioni, la pagina **Tracciabilità articolo** può non riportare tutte le transazioni.   
 
 > [!NOTE]  
 >  Se lo storico delle transazioni aggiuntive sotto una riga di analisi articolo è già stato analizzato da un'altra riga superiore, la casella di controllo **Elemento già analizzato** risulta selezionata. Per fornire una visualizzazione più semplice, tali righe sottostanti non sono mostrate.  

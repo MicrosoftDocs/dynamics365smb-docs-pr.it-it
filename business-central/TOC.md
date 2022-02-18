@@ -483,6 +483,7 @@
 #### [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md)
 #### [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)
 #### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Inviare promemoria per saldi inevasi](receivables-send-reminders.md)
 #### [Blocca clienti](receivables-how-block-customers.md)
 #### [Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md)
@@ -1215,7 +1216,7 @@
 ##### [Panoramica del subappalto](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
 ##### [Transazioni in subappalto](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [Crea responsabilità GST](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
-##### [Rapporto di subappalto](LocalFunctionality/India/Subcontracting-Reports.md)
+##### [Report di subappalto](LocalFunctionality/India/Subcontracting-Reports.md)
 #### [Assegno stantio](LocalFunctionality/India/Stale-Check.md)
 
 ### Italia
@@ -1605,6 +1606,120 @@
 ##### [Stampare report di risoluzione dei problemi](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Inviare avvisi normativi](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Business Intelligence e creazione di report 
+
+## [Panoramica](reports-bi-reporting.md)
+
+## Usare i report nel lavoro quotidiano
+### [Panoramica](reports-use-reports.md)
+### [Esecuzione di report](ui-work-report.md)
+### [Aggiungi un segnalibro a un report](ui-bookmarks.md)
+### [Analisi dei dati del report con Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Stampa dei report](ui-specify-printer-selection-reports.md#default)
+### [Programmazione dei report](ui-work-report.md#ScheduleReport)
+### [Gestione delle impostazioni salvate dei report](reports-saving-reusing-settings.md)
+### [Modifica del layout predefinito del report](ui-how-change-layout-currently-used-report.md)
+
+## Report predefiniti
+### [Panoramica del report](reports-available-reports.md)
+### Contabilità
+#### [Analisi finanziaria](bi.md)
+#### [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md)
+#### [Report finanziari chiave](finance-reports.md)
+#### [Report contabilità clienti](receivables-reports.md)
+#### [Report contabilità fornitori](payables-reports.md)
+#### [Analizzare il flusso di cassa](finance-setup-cash-flow-analyses.md)
+#### [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)
+
+### Vendite
+#### [Report vendite](sales-reports.md)
+#### [Stato dell'ordine vendita programmato](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Tracciabilità pacchetto](sales-how-track-packages.md)
+#### [Visualizzare le righe degli ordini di vendita programmati registrate e non registrate](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Acquisti
+#### [Report di acquisto](purchase-reports.md)
+#### [Visualizzare i movimenti contabili di acquisto](ui-post-purchases.md#viewing-ledger-entries)
+
+### Inventario e whareouse
+#### [Report di inventario e whareouse](inventory-wms-reports.md)
+#### [Disponibilità articolo](inventory-how-availability-overview.md)
+#### [Tieni traccia degli articoli con numeri di serie, di lotto e di pacco](inventory-how-work-item-tracking.md)
+#### [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)
+#### [Controllare la riconciliazione tra il movimento contabile di inventario e la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Visualizzare gli articoli sottoposti a cross-dock in una spedizione o in un prospetto prelievi](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Progetto
+#### [Rapporti di progetto](project-reports.md)
+#### [Visualizzare le stime di utilizzo della commessa](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md)
+
+### Cespiti
+#### [Report cespiti](fa-reports.md)
+#### [Monitorare i costi di manutenzione](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Monitoraggio della copertura assicurativa](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Visualizzare i valori del registro ammortamento modificati](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Visualizzazione dei movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Gestione assemblaggio
+#### [Report di gestione assemblaggio](assembly-reports.md)
+#### [Visualizzare la struttura della distinta base (DB)](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Manufacturing
+#### [Rapporti di produzione](production-reports.md)
+#### [Visualizzare il carico in aree di produzione e centri di lavoro](production-how-to-view-the-load-on-work-centers.md)
+#### [Visualizzare i movimenti contabili relativi alle aree di produzione:](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Gestione assistenza
+#### [Visualizzazione delle statistiche relative all'assistenza:](service-service-statistics.md)
+#### [Panoramica degli ordini di assistenza](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Panoramica delle quote di assistenza](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Panoramica del documento di assistenza registrato](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Analisi dei dati ad hoc
+### [Panoramica](reports-adhoc-analysis.md)
+### [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)
+### [Domande frequenti su ricerca e filtro](ui-search-filter-faq.yml)
+### [Analizzare i dati della pagina in Excel](across-work-with-excel.md)
+### [Analizzare i dati del report con Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Analisi finanziaria](bi.md)
+
+## Analisi integrate 
+### [Panoramica](reports-built-in-analytics.md)
+### [Informazioni intelligenti](about-intelligent-cloud.md)
+### [Utilizzare i report Power BI](across-working-with-powerbi.md)
+### [Analisi finanziaria](bi.md)
+### [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md)
+### [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)
+### [Report per la telemetria di utilizzo](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Analizzare i dati negli strumenti di business intelligence
+### [Panoramica](reports-external-analysis.md)
+### [Utilizzo di Power BI con Business Central](admin-powerbi.md)
+### [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md)
+### [Estrazione di dati in data warehouse o data lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Lettura dei dati utilizzando l'API di Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Sviluppo di report
+### [Panoramica](reports-develop-reports.md)
+### Sviluppo dei layout di report
+#### [Tipi di layout (Word e RDLC)](ui-manage-report-layouts.md)
+#### [Creare un nuovo layout](ui-how-create-custom-report-layout.md)
+#### [Utilizzo dei caratteri nei layout](ui-fonts.md)  
+#### [Utilizzare i layout di Word](ui-how-add-fields-word-report-layout.md)
+#### [Importare/Esportare un layout](ui-how-import-and-export-report-layout.md)
+#### [Aggiornare un layout](ui-update-report-layouts.md)
+#### [Modificare il layout predefinito](ui-how-change-layout-currently-used-report.md)
+### Sviluppo dei set di dati di report
+#### [Guida allo sviluppo del report](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Guida all'ottimizzazione delle prestazioni del report](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Sicurezza, privacy, conformità
 ## Sicurezza e protezione
 ### [Panoramica di sicurezza e protezione (solo in inglese)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

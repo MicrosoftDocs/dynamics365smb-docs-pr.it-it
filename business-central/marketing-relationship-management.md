@@ -1,7 +1,6 @@
 ---
 title: Gestione delle relazioni
 description: Le funzionalità di Relationship Management supportano le attività di vendita e consentono di accedere alle informazioni sui contatti e i potenziali clienti in modo da poter assistere in modo efficiente i clienti.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
+ms.search.forms: 9076, 9026
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: f37fa1be83c422062af1aafa7c19a36ee0455a2e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 09b9ecdc1d8f0b2a36193a6f931b2ac3fc03f4d4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325688"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059950"
 ---
 # <a name="managing-relationships"></a>Gestione delle relazioni
 Le funzionalità Relationship Management di [!INCLUDE[prod_short](includes/prod_short.md)] aiutano a gestire e a supportare le attività di vendita. Grazie a tali funzionalità è possibile accedere sempre a informazioni complete e accurate e focalizzare le interazioni sui segmenti di clienti o contatti preferiti.

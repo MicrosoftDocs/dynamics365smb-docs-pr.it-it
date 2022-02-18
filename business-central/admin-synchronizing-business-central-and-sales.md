@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 09990c620dbd6bd3e1cd00af594426851a4c1546
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: a44777bce30cf4ab4cb07b5b1a05f36d8cbb87f7
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865365"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049798"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Sincronizzazione di dati in Business Central con Microsoft Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Quando si integra [!INCLUDE[prod_short](includes/cds_long_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)], è possibile decidere se sincronizzare i dati nei campi selezionati di [!INCLUDE[prod_short](includes/prod_short.md)] (ad esempio clienti, contatti e agenti) con righe equivalenti in [!INCLUDE[prod_short](includes/cds_long_md.md)] (come conti, contatti e utenti). A seconda del tipo di riga, è possibile sincronizzare i dati da [!INCLUDE[prod_short](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)], o viceversa. Per ulteriori informazioni, vedere [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 

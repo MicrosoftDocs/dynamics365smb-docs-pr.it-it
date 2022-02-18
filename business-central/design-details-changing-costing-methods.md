@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 732bbc50f46573484682104e3beb71fbce1f5894
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215430"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115478"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Dettagli di progettazione: modifica dei metodi di costing per gli articoli
 
@@ -78,18 +79,18 @@ Per rendere completamente utili i nuovi articoli, è necessario copiare manualme
 
 |Area  |Cosa copiare  |Come copiarlo  |
 |---------|---------|---------|
-|Inventario     |Unità di stockkeeping (SKU)         |Controllare se è stato specificato una SKU per l'articolo originale. Se sono stati immessi parametri di pianificazione per ciascuna scheda SKU, è necessario creare manualmente la SKU per il nuovo articolo. Se i parametri non sono specificati, è possibile utilizzare il processo batch **Crea unità di stockkeeping** dalla pagina **Scheda articolo** per creare i dati.        |
-|     |Articoli sostitutivi         |Controllare se sono stati definiti articoli sostitutivi per l'articolo originale. Se presenti, trasferire tali dati nel nuovo articolo. Per visualizzare gli articoli sostitutivi, utilizzare l'azione **Sostituzioni** nella pagina **Scheda articolo**.         |
-|     |Report di analisi         |Esaminare i report Analisi articoli, Analisi vendite e Analisi acquisti. Se si fa riferimento agli articoli originali è possibile creare un nuovo report di analisi con un riferimento al nuovo articolo (mantenendo il report di analisi originale da utilizzare come cronologia) oppure modificare i report in modo che facciano riferimento al nuovo articolo.         |
-|     |Registrazioni standard         |Verificare se le registrazioni standard fanno riferimento all'articolo originale e trasferire tali dati al nuovo articolo quando necessario. Queste informazioni sono disponibili nelle registrazioni standard, che sono disponibili nella registrazione magazzino.          |
-|Vendite     |Percentuale pagamenti anticipati vendite         | Controllare se sono state definite percentuali di pagamento anticipato vendite per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Vendite** e poi **Percentuali di pagamento anticipato**.        |
-|Acquisti     |Percentuale pagamento anticipato acquisti         |Controllare se sono state definite percentuali di pagamento anticipato acquisti per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Acquisti** e poi **Percentuali di pagamento anticipato**.                 |
-|Warehouse     |Contenuto collocazioni         |Rivedere il contenuto collocazione definito per l'articolo originale. Se colonne come Q.tà min.,  Q.tà max.,  Predefinito e Dedicato sono state inserite individualmente, è necessario creare manualmente il contenuto della collocazione per il nuovo articolo. In caso contrario, non è richiesta alcuna azione. [!INCLUDE[prod_short](includes/prod_short.md)] manterrà i record quando si registrano documenti e registrazioni di magazzino.|
-|Commessa     |Costi commessa         |Controllare se sono stati definiti costi commessa per l'articolo originale e trasferire tali dati nel nuovo articolo. Questa informazione è disponibile nella pagina **Scheda commessa** nella parte **Dettagli commessa - Nr. prezzi** nel **riquadro Dettaglio informazioni**.         |
-|Assistenza     |Competenza risorsa in assistenza         |Controllare se sono state definite le competenze risorsa in assistenza per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le competenze delle risorse, utilizzare l'azione **Competenze risorse** nella pagina **Scheda articolo**.          |
-|     |Componenti articolo in assistenza         |Controllare se sono stati definiti i componenti per l'articolo in assistenza originale e trasferire tali dati nel nuovo articolo. Per visualizzare i componenti dell'articolo in assistenza, nella pagina **Scheda articolo** usare l'azione **Articolo in assistenza** per aprire l'elenco degli articoli in assistenza correlati, quindi selezionare l'azione **Componenti**.          |
-|Produzione     |Dist.base di produz.         |Controllare se eventuali DB produzione contengono l'articolo originale e sostituirlo con il nuovo articolo. Per sostituire l'articolo originale, nella pagina **DB produzione**, scegliere l'azione **Scambio articolo DB produzione**.         |
-|Assemblaggio     |DB assemblaggio         |Controllare se eventuali DB assemblaggio contengono l'articolo originale e sostituirlo manualmente con il nuovo articolo.         |
+|Inventario |Unità di stockkeeping (SKU) |Controllare se è stato specificato una SKU per l'articolo originale. Se sono stati immessi parametri di pianificazione per ciascuna scheda SKU, è necessario creare manualmente la SKU per il nuovo articolo. Se i parametri non sono specificati, è possibile utilizzare il processo batch **Crea unità di stockkeeping** dalla pagina **Scheda articolo** per creare i dati.|
+| |Articoli sostitutivi |Controllare se sono stati definiti articoli sostitutivi per l'articolo originale. Se presenti, trasferire tali dati nel nuovo articolo. Per visualizzare gli articoli sostitutivi, utilizzare l'azione **Sostituzioni** nella pagina **Scheda articolo**. |
+| |Report di analisi |Esaminare i report Analisi articoli, Analisi vendite e Analisi acquisti. Se si fa riferimento agli articoli originali è possibile creare un nuovo report di analisi con un riferimento al nuovo articolo (mantenendo il report di analisi originale da utilizzare come cronologia) oppure modificare i report in modo che facciano riferimento al nuovo articolo. |
+| |Registrazioni standard |Verificare se le registrazioni standard fanno riferimento all'articolo originale e trasferire tali dati al nuovo articolo quando necessario. Queste informazioni sono disponibili nelle registrazioni standard, che sono disponibili nella registrazione magazzino.  |
+|Vendite |Percentuale pagamenti anticipati vendite | Controllare se sono state definite percentuali di pagamento anticipato vendite per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Vendite** e poi **Percentuali di pagamento anticipato**.|
+|Acquisti |Percentuale pagamento anticipato acquisti |Controllare se sono state definite percentuali di pagamento anticipato acquisti per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Acquisti** e poi **Percentuali di pagamento anticipato**. |
+|Warehouse |Contenuto collocazioni |Rivedere il contenuto collocazione definito per l'articolo originale. Se colonne come Q.tà min.,  Q.tà max.,  Predefinito e Dedicato sono state inserite individualmente, è necessario creare manualmente il contenuto della collocazione per il nuovo articolo. In caso contrario, non è richiesta alcuna azione. [!INCLUDE[prod_short](includes/prod_short.md)] manterrà i record quando si registrano documenti e registrazioni di magazzino.|
+|Commessa |Costi commessa |Controllare se sono stati definiti costi commessa per l'articolo originale e trasferire tali dati nel nuovo articolo. Questa informazione è disponibile nella pagina **Scheda commessa** nella parte **Dettagli commessa - Nr. prezzi** nel **riquadro Dettaglio informazioni**. |
+|Assistenza |Competenza risorsa in assistenza |Controllare se sono state definite le competenze risorsa in assistenza per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le competenze delle risorse, utilizzare l'azione **Competenze risorse** nella pagina **Scheda articolo**.  |
+| |Componenti articolo in assistenza |Controllare se sono stati definiti i componenti per l'articolo in assistenza originale e trasferire tali dati nel nuovo articolo. Per visualizzare i componenti dell'articolo in assistenza, nella pagina **Scheda articolo** usare l'azione **Articolo in assistenza** per aprire l'elenco degli articoli in assistenza correlati, quindi selezionare l'azione **Componenti**.  |
+|Produzione |Dist.base di produz. |Controllare se eventuali DB produzione contengono l'articolo originale e sostituirlo con il nuovo articolo. Per sostituire l'articolo originale, nella pagina **DB produzione**, scegliere l'azione **Scambio articolo DB produzione**. |
+|Assemblaggio |DB assemblaggio |Controllare se eventuali DB assemblaggio contengono l'articolo originale e sostituirlo manualmente con il nuovo articolo. |
 
 > [!IMPORTANT]
 > Se il nuovo metodo di costing è standard, è necessario immettere un valore nel campo **Costo standard** della pagina **Scheda articolo**. È possibile usare la pagina **Prospetto costo standard** per impostare il dettaglio costi di conseguenza. Per ulteriori informazioni, vedere [Aggiornare i costi standard](finance-how-to-update-standard-costs.md).
@@ -116,23 +117,23 @@ Quando si creano ordini di assemblaggio, utilizzare le informazioni dalla Regist
 
 |Campo  |Valore da immettere  |
 |---------|---------|
-|Nr. Articolo     |Il numero del nuovo articolo.         |
-|Quantità     |La quantità nella registrazione di inventario fisico.<br> **NOTA:** le quantità calcolate dalle registrazioni di inventario fisico non includono le quantità che si trovano su ordini non ancora spediti.          |
-|Cod. variante     |Lo stesso della registrazione di inventario fisico.          |
-|Cod. ubicazione     |Lo stesso della registrazione di inventario fisico.         |
-|Codice unità di misura     |Lo stesso della registrazione di inventario fisico.         |
-|Codice collocazione     |Lo stesso della registrazione di inventario fisico.         |
+|Nr. Articolo |Il numero del nuovo articolo. |
+|Quantità |La quantità nella registrazione di inventario fisico.<br> **NOTA:** le quantità calcolate dalle registrazioni di inventario fisico non includono le quantità che si trovano su ordini non ancora spediti.  |
+|Cod. variante |Lo stesso della registrazione di inventario fisico.  |
+|Cod. ubicazione |Lo stesso della registrazione di inventario fisico. |
+|Codice unità di misura |Lo stesso della registrazione di inventario fisico. |
+|Codice collocazione |Lo stesso della registrazione di inventario fisico. |
 
 #### <a name="lines"></a>Righe
 
 |Campo  |Valore da immettere  |
 |---------|---------|
-|Tipo     |Articolo         |
-|No.     |Il numero dell'articolo originale.         |
-|Quantità per     |1         |
-|Cod. variante     |Lo stesso della registrazione di inventario fisico.         |
-|Cod. ubicazione     |Lo stesso della registrazione di inventario fisico.         |
-|Codice unità di misura     |Lo stesso della registrazione di inventario fisico.         |
+|Tipo |Articolo |
+|No. |Il numero dell'articolo originale. |
+|Quantità per |1 |
+|Cod. variante |Lo stesso della registrazione di inventario fisico. |
+|Cod. ubicazione |Lo stesso della registrazione di inventario fisico. |
+|Codice unità di misura |Lo stesso della registrazione di inventario fisico. |
 
 > [!NOTE]
 > Un ordine di assemblaggio può gestire una sola SKU di un articolo alla volta. È necessario creare un ordine di assemblaggio per ogni combinazione di SKU che ha una quantità in inventario.
@@ -153,15 +154,15 @@ La tabella seguente elenca le aree funzionali in cui potrebbero esserci quantit�
 
 |Area  |Dove cercare quantità in sospeso  |
 |---------|---------|
-|Vendite     |Documenti di vendita, inclusi ordini, ordini di reso, fatture, offerte, ordini programmati e note di credito         |
-|Inventario     |Registrazioni magazzino, prenotazioni, tracciabilità articoli e prospetto costi standard         |
-|Acquisti     |Documenti di acquisto, inclusi ordini, ordini di reso, fatture, offerte, ordini programmati e note di credito         |
-|Pianificazione     |Richiesta di approvvigionamento, prospetto di pianificazione e pianificazione degli ordini         |
-|Warehouse     |Ordini di trasferimento, spedizioni warehouse, registrazioni di warehouse e prelievi warehouse, stoccaggi e movimenti, prelievi e stoccaggi interni e prospetti di creazione collocazione         |
-|Assemblaggio     |Documenti di assemblaggio, inclusi ordini, ordini di reso e ordini programmati         |
-|Commesse     |Righe di pianificazione commessa e righe di registrazioni commessa         |
-|Assistenza     |Documenti di assistenza e contratti di assistenza         |
-|Produzione     |Ordini di produzione (pianificati, confermati e rilasciati)         |
+|Vendite |Documenti di vendita, inclusi ordini, ordini di reso, fatture, offerte, ordini programmati e note di credito |
+|Inventario |Registrazioni magazzino, prenotazioni, tracciabilità articoli e prospetto costi standard |
+|Acquisti |Documenti di acquisto, inclusi ordini, ordini di reso, fatture, offerte, ordini programmati e note di credito |
+|Pianificazione |Richiesta di approvvigionamento, prospetto di pianificazione e pianificazione degli ordini |
+|Warehouse |Ordini di trasferimento, spedizioni warehouse, registrazioni di warehouse e prelievi warehouse, stoccaggi e movimenti, prelievi e stoccaggi interni e prospetti di creazione collocazione |
+|Assemblaggio |Documenti di assemblaggio, inclusi ordini, ordini di reso e ordini programmati |
+|Commesse |Righe di pianificazione commessa e righe di registrazioni commessa |
+|Assistenza |Documenti di assistenza e contratti di assistenza |
+|Produzione |Ordini di produzione (pianificati, confermati e rilasciati) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Bloccare l'articolo originale da ulteriore utilizzo
 

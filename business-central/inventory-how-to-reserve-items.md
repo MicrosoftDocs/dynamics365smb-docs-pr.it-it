@@ -1,5 +1,5 @@
 ---
-title: 'Procedura: Impegnare articoli | Documenti Microsoft'
+title: Come prenotare gli articoli
 description: È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto e ordini di produzione. È possibile impegnare gli articoli in magazzino o in entrata nelle righe del documento aperto.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f2c35d1a28bae7c12e706ff2220bf8d7b48719
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d53de74aa14001598177fcbf7d83d519fad9e0fd
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445678"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060066"
 ---
 # <a name="reserve-items"></a>Prenotare articoli
 È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto, ordini di assistenza, ordini di assemblaggio e ordini di produzione. È possibile impegnare gli articoli in magazzino o in entrata nelle righe del giornale di registrazione o del documento aperto. Eseguire l'operazione nella pagina **Impegno**.
@@ -41,7 +42,7 @@ Di seguito viene descritto come impegnare gli articoli da un ordine di vendita. 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Per impegnare articoli per le righe degli ordini di produzione  
 È possibile impegnare articoli per ordini di produzione. È però necessario distinguere tra righe degli ordini di produzione, ossia l'articolo padre, e componenti.
 
-Nella seguente procedura si utilizza un ordine produzione confermato.   
+Nella seguente procedura viene utilizzato un ordine produzione confermato.   
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
 2. Aprire l'ordine di produzione confermato per il quale si vogliono impegnare gli articoli padre.  
 3. Selezionare la riga dell'ordine di produzione pertinente.  

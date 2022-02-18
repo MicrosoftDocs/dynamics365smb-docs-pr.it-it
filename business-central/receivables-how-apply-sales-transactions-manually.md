@@ -1,5 +1,5 @@
 ---
-title: Collegare i movimenti contabili clienti per riconciliare i pagamenti | Documenti Microsoft
+title: Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti
 description: Descrive come collegare gli incassi o i rimborsi del cliente a uno o più movimenti contabili aperti del cliente e riconciliare i pagamenti del cliente.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
+ms.search.form: 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef50dd0119922e7a67bdb10d0a3d3765bc54395f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 05b4d5074f77101e7158738b78126a562aabcc1e
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436075"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100953"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti
+
 Quando si riceve un incasso da un cliente o si effettua un rimborso in contanti, è necessario stabilire se collegare il pagamento o il rimborso per chiudere uno o più movimenti contabili aperti. È possibile specificare l'importo esatto che si desidera collegare. Ad esempio, è possibile collegare pagamenti parziali ai movimenti contabili clienti. Chiudere i movimenti contabili clienti garantisce che informazioni, quali statistiche dei clienti, estratti conto e addebiti interessi siano corretti.
 
 > [!TIP]  

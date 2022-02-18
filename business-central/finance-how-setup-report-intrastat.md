@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 04/01/2021
+ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d51e1657d6c28581a49af9b65b7bee8a27baa57f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971095"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049668"
 ---
 # <a name="set-up-and-report-intrastat"></a>Impostare e registrare report Intrastat
 
@@ -28,7 +28,11 @@ Prima di poter usare la registrazione Intrastat per dichiarare le informazioni I
 * **Setup Intrastat**: la pagina Setup Intrastat consente di abilitare il reporting Intrastat e impostare i relativi valori predefiniti. È possibile specificare se è necessario creare report Intrastat da spedizioni (invii), entrate (arrivi) o entrambi a seconda delle soglie impostate in base alle normative locali. È anche possibile impostare tipi di transazioni di default per documenti normali e di reso, utilizzati per la natura del reporting delle transazioni.
 * **Definizioni di registrazioni Intrastat**: è necessario impostare le definizioni di registrazioni Intrastat e i batch che verranno utilizzati. Poiché il report Intrastat viene creato mensilmente, è necessario creare 12 batch di registrazioni Intrastat basati sulla stessa definizione.  
 * **Codici voce doganale**: le autorità doganali e fiscali hanno stabilito codici numerici che classificano gli articoli e i servizi. Specificare questi codici negli articoli.
-* **Codici natura transazione**: i paesi e le aree hanno codici differenti per la natura delle transazioni Intrastat, ad esempio acquisto o vendita ordinaria, cambio di merce resa e sostituzione di merce non resa. Impostare tutti codici che si applicano al proprio paese. È possibile utilizzare questi codici nei documenti di vendita e di acquisto e quando si elaborano i resi.  
+* **Codici natura transazione**: i paesi e le aree hanno codici differenti per la natura delle transazioni Intrastat, ad esempio acquisto o vendita ordinaria, cambio di merce resa e sostituzione di merce non resa. Impostare tutti codici che si applicano al proprio paese. È possibile utilizzare questi codici nei documenti di vendita e di acquisto e quando si elaborano i resi. 
+
+    > [!NOTE]
+    > A partire da gennaio 2022, Intrastat richiede un codice di natura transazione diverso per le spedizioni a privati o imprese senza partita IVA e imprese con partita IVA. Per soddisfare questo requisito, ti consigliamo di rivedere e/o aggiungere nuovi codici di natura della transazione nella pagina **Tipi di transazione** in base ai requisiti nel tuo paese. Dovresti anche rivedere e aggiornare il campo **Tipo di partner** su *Persona* per i clienti privati o aziende senza partita IVA nella relativa pagina **Cliente**. Se non sei sicuro del tipo di partner o del tipo di transazione corretto da utilizzare, ti consigliamo di rivolgerti a un esperto nel tuo paese o nella tua regione. 
+ 
 * **Metodi di trasporto**: sono disponibili sette codici di una cifra per i metodi di trasporto Intrastat. **1** via mare, **2** via ferrovia, **3** su strada, **4** via area, **5** per posta, **7** per installazioni fisse e **9** con proprio mezzo (ad esempio il trasporto con la propria auto). [!INCLUDE[prod_short](includes/prod_short.md)] non richiede tali codici, tuttavia, si consiglia di inserire descrizioni con un significato simile a questi codici.  
 * **Cod. paese destin./proven.**: utilizzare a completamento delle descrizioni della natura delle transazioni.  
 * **Paese di origine**: utilizzare i codici alfa ISO di due lettere per il paese in cui il bene è stato ottenuto o prodotto. Se il bene è stato prodotto in più paesi, il paese di origine è l'ultimo paese in cui è stato elaborato in modo significativo. 
@@ -110,7 +114,19 @@ Dopo aver compilato le registrazioni Intrastat, è possibile eseguire l'azione *
 Il processo batch recupererà tutti i movimenti articolo nel periodo statistico indicato e li inserirà come righe nelle registrazioni Intrastat. Le righe possono essere modificate secondo le esigenze.  
 
 > [!IMPORTANT]  
-> Il processo batch recupera soltanto i movimenti che contengono un codice paese per il quale è stato immesso un codice Intrastat nella pagina **Paesi**. È quindi importante immettere codici Intrastat per i codici paese che verranno inclusi nel processo batch.  
+> Il processo batch recupera soltanto i movimenti che contengono un codice paese per il quale è stato immesso un codice Intrastat nella pagina **Paesi**. È quindi importante immettere codici Intrastat per i codici paese che verranno inclusi nel processo batch. Il lavoro batch imposta il campo **Partita IVA partner** su *QV999999999999* per i privati o le imprese senza partita IVA (clienti con il campo **Tipo di partner** impostato su *Persona*), e utilizza il valore del campo **Tipo di transazione** sul movimento contabile articolo registrato o sul movimento contabile processo. 
+
+### <a name="to-modify-intrastat-journals-lines"></a>Per modificare le righe dei giornali di registrazione Intrastat
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
+2. Nella pagina **Registrazioni Intrastat**, nel campo **Nome batch** scegliere il batch di registrazioni interessato e quindi scegliere **OK**.  
+3. Usa il riquadro dei filtri per filtrare le righe del giornale di registrazione Intrastat in base ad alcuni criteri. Ad esempio, filtra per i campi **Partita IVA partner** con il valore *QV999999999999*.
+4. Scegli l'icona **Condividi** ![Condividi una pagina in un'altra app.](media/share-icon.png) e seleziona **Modifica in Excel**
+5. In Excel, modifica le righe del giornale di registrazione Intrastat che hai filtrato. Ad esempio, modifica i valori dei campi **Tipo di transazione**.  
+6. Pubblica le modifiche apportate in Excel nuovamente in [!INCLUDE[prod_short](includes/prod_short.md)]
+
+> [!Note]
+> Nelle versioni di [!INCLUDE[prod_short](includes/prod_short.md)] che non supportano [**Modifica in Excel**](across-work-with-excel.md#edit-in-excel) per i giornali di registrazione, puoi [creare pacchetti di configurazione](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) per esportare e importare le righe del giornale di registrazione Intrastat in Excel. 
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Creare report Intrastat come form o come file
 

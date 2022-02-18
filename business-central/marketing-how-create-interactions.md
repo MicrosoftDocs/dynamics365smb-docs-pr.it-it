@@ -1,7 +1,6 @@
 ---
-title: Creare interazioni per i contatti e i segmenti| Documenti Microsoft
+title: Creare interazioni per i contatti e i segmenti
 description: Descrive come creare interazioni per comunicazioni intercorse con i contatti e i segmenti in Business Central, ad esempio messaggi di posta diretta.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 19cfc6b241e72d63a0f2c00ee43b32682cdeefae
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 73e8b515b62ac1334b6c156ff4330fc46b7a7414
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441095"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059806"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Creare interazioni per i contatti e i segmenti
 È possibile creare interazioni per registrare tutte le interazioni e le comunicazioni intercorse con i contatti e i segmenti, ad esempio messaggi di posta.

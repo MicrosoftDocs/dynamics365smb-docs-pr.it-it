@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e9cd03df1e26eca92f5a69d02d73caac902d2b6b
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435524"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049564"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Sincronizzare manualmente i mapping di tabella
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Un mapping di tabella di integrazione associa una tabella [!INCLUDE[prod_short](includes/cds_long_md.md)], come un cliente, a una tabella di [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio un conto. La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record della tabella di [!INCLUDE[prod_short](includes/prod_short.md)] e della tabella di [!INCLUDE[prod_short](includes/cds_long_md.md)] associati. Inoltre, a seconda della configurazione di un mapping di tabella, la sincronizzazione può creare e associare nuovi record nella soluzione di destinazione per i record non associati nell'origine.  
 

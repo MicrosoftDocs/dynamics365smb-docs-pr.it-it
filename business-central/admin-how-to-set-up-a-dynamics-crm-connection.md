@@ -4,22 +4,21 @@ description: Imposta una connessione tra Business Central e Dataverse. In genere
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3ee8bb3bee08c131447233de7b691d2bb2e46bd
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940478"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059546"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Connettersi a Microsoft Dataverse
 
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Questo argomento descrive come impostare una connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. In genere, le aziende creano la connessione per integrare e sincronizzare i dati con un'altra app aziendale di Dynamics 365, ad esempio [!INCLUDE[crm_md](includes/crm_md.md)].  
 
@@ -41,7 +40,7 @@ Prima di creare la connessione, è necessario disporre di alcune informazioni:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Impostare una connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-Per tutti i tipi di autenticazione diversi dall'autenticazione di Microsoft 365, si imposta la connessione su [!INCLUDE[cds_long_md](includes/cds_long_md.md)] nella pagina **Setup connessione a Dataverse**. Per l'autenticazione di Microsoft 365, è consigliabile utilizzare la guida al setup assistito **Setup connessione a Dataverse**. La guida rende più semplice configurare la connessione e specificare le funzionalità avanzate, ad esempio il modello di proprietà e la sincronizzazione iniziale.  
+Per tutti i tipi di autenticazione diversi dall'autenticazione di Microsoft 365, imposti la connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] nella pagina **Setup connessione a Dataverse**. Per l'autenticazione di Microsoft 365, è consigliabile utilizzare la guida del setup assistito **Setup connessione a Dataverse**. La guida rende più semplice configurare la connessione e specificare le funzionalità avanzate, ad esempio il modello di proprietà e la sincronizzazione iniziale.  
 
 > [!IMPORTANT]
 > Durante il setup della connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], all'amministratore verrà chiesto di concedere le autorizzazioni seguenti per un'applicazione Azure registrata denominata [!INCLUDE[prod_short](includes/prod_short.md)] Integration a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:

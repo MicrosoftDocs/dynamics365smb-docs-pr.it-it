@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.forms: 5122, 5121, 5120, 5175, 5119
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed6597816347830b6f304ea0c50976c67ed5c5d5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 16c72d0c0b2b14e73b390b585b505f00956ac4d4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446126"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059754"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Impostare cicli e fasi di vendita dalle opportunità
 Prima di iniziare a utilizzare le opportunità di vendita, è necessario impostare cicli di vendita e fasi dei cicli di vendita. Un ciclo di vendita è composto da una serie di fasi che vanno dal contatto iniziale alla chiusura della vendita. Per ogni fase possono essere previsti determinati requisiti che devono essere soddisfatti, ad esempio richiesta di un'offerta di vendita, prima che un'opportunità possa passare alla fase successiva. È inoltre possibile specificare se una fase può essere ignorata. È possibile impostare il numero desiderato di cicli di vendita e di fasi all'interno di un ciclo.

@@ -1,8 +1,6 @@
 ---
-title: Creare ed eseguire un processo batch | Documenti Microsoft
+title: Eseguire processi batch e XMLports
 description: È possibile eseguire i processi batch per elaborare i dati e aggiornare le informazioni, ad esempio, per attività contabili periodiche oppure per effettuare dei calcoli.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
+ms.search.form: 672, 676, 682
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 42cb5f19dde06211136b0b3b276fed2ba267ec62
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 84741ec7d98e405aeb5792a5d1a907221eef11f7
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435271"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100979"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Eseguire processi batch e XMLports
+
 Un processo batch è una routine che elabora i dati in batch, come, ad esempio, il processo **Rettifica tassi di cambio**. Alcuni processi batch eseguono attività contabili periodiche, ad esempio la chiusura del conto economico alla fine di un anno fiscale. Molti processi batch eseguono attività di calcolo, ad esempio il calcolo degli interessi finanziari, la rettifica dei tassi di cambio e il calcolo dei prezzi unitari.
 
 Un processo batch è simile a un report, con la differenza che il processo batch utilizza il risultato delle attività che esegue per aggiornare direttamente le informazioni, anziché stampare i risultati.

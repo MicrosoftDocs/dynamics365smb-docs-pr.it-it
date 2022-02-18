@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d058b15ad55713a22ee70862f666301d36d53e0a
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444922"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060040"
 ---
 # <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
 Utilizzare le distinte base (DB) per strutturare gli articoli padre che devono essere assemblati o prodotti dalle risorse o dai centri di lavoro a partire dai componenti. Una DB di assemblaggio può essere utilizzata anche per vendere un articolo padre come kit comprendente i relativi componenti.
@@ -71,7 +72,7 @@ Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Per sostituire l'articolo di assemblaggio con i suoi componenti nelle righe del documento
 Da un documento di vendita e di acquisto contenente un articolo di assemblaggio è possibile utilizzare una funzione speciale per sostituire la riga per l'articolo di assemblaggio con nuove righe per i componenti. Questa funzione è utile, ad esempio, se si intende vendere i componenti come kit che rappresenta l'articolo di assemblaggio.
 
-La funzione Esplodi DB è anche disponibile nella pagina **DB assemblaggio** come metodo per visualizzare gli articoli figlio su tutti i sottoassemblaggi in una DB di assemblaggio.
+L'azione **Esplodi DB** è anche disponibile nella pagina **DB assemblaggio** come metodo per visualizzare gli articoli di sottoassemblaggi in una DB di assemblaggio.
 
 > [!CAUTION]  
 >  Una volta utilizzata la funzione **Esplodi DB**, non è possibile annullare l'operazione facilmente. È necessario eliminare le righe ordine di vendita che rappresentano i componenti e registrare nuovamente una riga ordine di vendita per l'articolo di assemblaggio.

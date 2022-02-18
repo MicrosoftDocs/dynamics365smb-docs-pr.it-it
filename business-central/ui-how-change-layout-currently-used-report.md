@@ -1,8 +1,6 @@
 ---
-title: Modificare l'aspetto di un report selezionando un layout diverso | Documenti Microsoft
+title: Modificare l'aspetto di un report selezionando un layout diverso
 description: È possibile utilizzare diversi layout per un report e passate tra i layout per modificare l'aspetto di un report.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e833d29df72d10786b050222d342b2d6dce927e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5115407dd7cfbb8760a5749432ca6fc37f9f933
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444756"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101083"
 ---
 # <a name="change-the-current-report-layout"></a>Modificare il layout del report corrente
+
 Un report può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità.
 
 In base ai layout disponibili per un report, è possibile scegliere di utilizzare un layout di report RDLC o Word predefinito o un layout personalizzato. Per ulteriori informazioni sui layout di report RDLC e Word, sui layout personalizzati integrati e altro ancora, vedere [Gestire i layout dei report](ui-manage-report-layouts.md).
@@ -30,6 +30,7 @@ Quando vengono definiti layout di report personalizzati, è possibile selezionar
 > I report documento (non elenchi) che utilizzano un layout report Word sono in genere più rapidi di quelli che utilizzano un layout report RDLC. Quindi, se si ha la possibilità di scegliere tra un layout report Word o RDLC per un report documento, utilizzare il report layout Word per ottenere le migliori prestazioni.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Per modificare il layout di report da utilizzare per un report o un documento
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
    Nella pagina **Selezione layout report** sono elencati tutti i report disponibili per la società specificata nel campo **Società** nella parte superiore della pagina. Il campo **Layout selezionato** specifica il layout che attualmente è utilizzato nel report.
 2. Impostare il campo **Società** nella parte superiore della pagina alla società che include il report.

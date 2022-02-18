@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.search.form: 456
+ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3379405e2d8c6c3b381caa9f4aa66191bb7a6579
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: f886656262853acd34007118248a52af2184b36a
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029642"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115368"
 ---
 # <a name="create-number-series"></a>Creazione di numerazioni
 
@@ -61,30 +61,41 @@ Quando si apre un nuovo documento o scheda per cui esiste una numerazione, si ap
 > Se è necessario attivare la numerazione manuale, ad esempio su nuove schede articolo create con un processo di migrazione di dati che ha nascosto il campo **Nr.** per impostazione predefinita, passare alla pagina **Setup magazzino** e scegliere il campo **Nr. articoli** per aprire e impostare la relativa numerazione su **Consenti num. manuale**.
 
 ## <a name="to-create-a-new-number-series"></a>Per creare nuove numerazioni
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Nr. serie**, quindi scegli il collegamento correlato.
-2. Scegliere l'azione **Nuovo**.
-3. Nella nuova riga, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Scegliere l'azione **Righe**.
-5. Nella pagina **Righe nr. serie**, compilare i campi per definire l'uso effettivo e il contenuto delle numerazioni create nel passaggio 2.
-6. Ripetere il passaggio 5 per tutti i vari usi delle numerazioni necessari. Il campo **Data inizio** definisce quale riga di numerazione è attiva.
 
-## <a name="to-set-up-where-a-number-series-is-used"></a>Per impostare le aree in cui la numerazione viene utilizzata
-La seguente procedura illustra come impostare una numerazione per l'area delle vendite. I passaggi sono simili per altre aree.
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contabilità clienti**, quindi scegli il collegamento correlato.
-2. Nella pagina **Contabilità clienti** nella Scheda dettaglio **Numerazioni**, selezionare la numerazione desiderata per ogni scheda di vendita o documento.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Nr. serie**, quindi scegli il collegamento correlato.
+2. Scegliere l'azione **Nuovo**.  
+3. Nella nuova riga, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Scegliere l'azione **Righe**.  
+5. Nella pagina **Righe nr. serie**, compilare i campi per definire l'uso effettivo e il contenuto delle numerazioni create nel passaggio 2.  
+6. Ripetere il passaggio 5 per tutti i vari usi delle numerazioni necessari. Il campo **Data inizio** definisce quale riga di numerazione è attiva.  
 
-Il numero selezionato risulterà utilizzato per compilare il campo **Nr.** nella scheda o nel documento in questione, in base alle impostazioni effettuate nella serie di numerazione.
+> [!TIP]
+> Per consentire agli utenti di specificare i numeri manualmente quando registrano un nuovo cliente o fornitore, ad esempio, scegli il campo **Nr. manuali** sulla numerazione stessa. Per non consentire il numero manuale, deseleziona il campo.
+
+Puoi assegnare numerazioni ai modelli che hai impostato per i diversi tipi di cliente e fornitore che i tuoi venditori e acquirenti aggiungono più spesso al tuo [!INCLUDE [prod_short](includes/prod_short.md)]. In tal caso, imposta la numerazione pertinente, collegala tramite relazioni, quindi aggiungi la prima numerazione nella relazione pertinente alla pagina di configurazione pertinente.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Per creare relazioni tra numerazioni
-È possibile creare relazioni tra codici di numero di serie se ne sono stati impostati più di uno per lo stesso tipo di informazione o transazione di base. Questa funzione può essere utile per selezionare il codice corretto, al momento di utilizzare un numero.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Nr. serie**, quindi scegli il collegamento correlato.
+È possibile creare relazioni tra codici di numero di serie se ne sono stati impostati più di uno per lo stesso tipo di informazione o transazione di base. Questa funzione può essere utile per selezionare il codice corretto, al momento di utilizzare un numero. Impostando una relazione tra un gruppo di numeri di serie, tutte le numerazioni correlate vengono associate a un solo codice numero di serie. Quindi puoi inserire quel codice in un campo della scheda dettaglio **Numerazione** in una delle pagine di configurazione pertinenti, ad esempio **Setup contabilità clienti**.  
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Nr. serie**, quindi scegli il collegamento correlato.
 2. Selezionare la riga contenente la numerazione per la quale si desidera creare delle relazioni, quindi scegliere **Relazioni**.
 3. Nel campo **Codice serie** immettere il codice della numerazione che si desidera associare alla serie selezionata nel passaggio 2.
 4. Aggiungere una riga per ogni codice che si desidera associare alla numerazione selezionata.
 5. Chiudere la pagina.
 
 Ogni volta che verrà impostato un elemento che richiede un numero, è ora possibile utilizzare le relazioni che sono state create per selezionare la numerazione corretta tra quelle poste in relazione.
+
+## <a name="to-set-up-where-a-number-series-is-used"></a>Per impostare le aree in cui la numerazione viene utilizzata
+
+La seguente procedura illustra come impostare una numerazione per l'area delle vendite. I passaggi sono simili per altre aree.  
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contabilità clienti**, quindi scegli il collegamento correlato.
+2. Nella pagina **Contabilità clienti** nella Scheda dettaglio **Numerazioni**, selezionare la numerazione desiderata per ogni scheda di vendita o documento.
+
+Il numero selezionato risulterà utilizzato per compilare il campo **Nr.** nella scheda o nel documento in questione, in base alle impostazioni effettuate nella serie di numerazione.  
+
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 

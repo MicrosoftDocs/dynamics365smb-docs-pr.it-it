@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5db6ec05e8497dd3c3bac9b17ccb5dc673f11add
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: a9f4f2442e9cb3f8efc46cc7c9fd1f92c002d0dd
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940653"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115314"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visualizzare lo stato dei processi d sincronizzazione
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizzare lo stato dei lavori di sincronizzazione che sono stati eseguiti per i record associati in un'integrazione di Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. Ciò include i processi eseguiti dalla coda processi e i processi di sincronizzazione manuale eseguiti sui record di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, la visualizzazione del relativo stato è utile per risolvere problemi in quanto consente di accedere ai dettagli degli errori relativi ai record associati. In genere, questi tipi di errori sono causati da azioni dell'utente, ad esempio, quando:  
 
