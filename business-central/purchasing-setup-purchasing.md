@@ -1,22 +1,23 @@
 ---
-title: Panoramica dei task per impostare gli acquisti
+title: Panoramica dei task per impostare gli acquisti | Documenti Microsoft
 description: Descrive i task per definire i criteri di acquisto della società e impostare i processi di acquisto.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 138cbe3e8f20448c37b59ca9ab8232e0155dc6a6
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115396"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954002"
 ---
 # <a name="setting-up-purchasing"></a>Impostazioni acquisti
 Prima di poter gestire i processi di acquisto, è necessario configurare le regole e i valori che definiscono i criteri di acquisto dell'azienda.
@@ -33,21 +34,9 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 | Immettere i diversi sconti e i prezzi speciali concessi dai fornitori per articolo, quantità e/o data |[Registrazione di prezzi, sconti e contratti di pagamento per gli acquisti](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Attribuire un ordine di priorità ai fornitori |[Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
 | Impostare gli addetti agli acquisti |[Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
-|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-> [!TIP]
-> A seconda della posizione geografica, alcune pagine possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## <a name="external-document-number"></a>Numero di documento esterni
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
-
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

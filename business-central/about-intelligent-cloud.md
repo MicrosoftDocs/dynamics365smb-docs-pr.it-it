@@ -1,32 +1,34 @@
 ---
-title: Informazioni intelligenti e migrazione al cloud
-description: In Business Central Online, hai accesso ad altri servizi online e puoi ottenere informazioni intelligenti basate su Azure AI, ad esempio. Continua a leggere se stai pensando di migrare da locale al cloud.
+title: Informazioni intelligenti e migrazione al cloud | Microsoft Docs
+description: Connettersi a informazioni intelligenti con Business Central dalla soluzione locale. Informazioni su come eseguire la migrazione al cloud.
 author: bmeier94
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms. search.keywords: cloud, migrate, insights
-ms.date: 04/12/2021
-ms.author: edupont
-ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms. search.keywords: cloud, edge
+ms.date: 02/27/2020
+ms.author: bmeier
+ms.openlocfilehash: 8db6696fb7baf1b591d0129bc2b6f149ca2e4e31
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442612"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097649"
 ---
-# <a name="intelligent-insights-in-prod_short-online"></a>Informazioni intelligenti in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# <a name="intelligent-insights-with-prodshort-online"></a>Informazioni intelligenti con [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
-Come utente di [!INCLUDE[prod_short](includes/prod_short.md)] online, si dispone di accesso completo agli scenari basati sul cloud intelligente, ad esempio KPI basati su Machine Learning o quando si visualizzano dati in Power BI.  
+Come utente di [!INCLUDE[prodshort](includes/prodshort.md)] online, si dispone di accesso completo agli scenari basati sul cloud intelligente, ad esempio KPI basati su Machine Learning o quando si visualizzano dati in Power BI. Tuttavia, sebbene [!INCLUDE[prodshort](includes/prodshort.md)] sia un servizio orientato all'ambiente cloud , anche i clienti che hanno bisogno di eseguire i carichi di lavoro completamente in locale o nella rete perimetrale intelligente connessa al cloud possono soddisfare queste esigenze.  
 
-Tuttavia, se usi [!INCLUDE [prod_short](includes/prod_short.md)] in locale, non hai accesso alle stesse informazioni. Se desideri trarre vantaggio dagli scenari online, devi eseguire la migrazione a [!INCLUDE [prod_short](includes/prod_short.md)] Online. Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo per [!INCLUDE[prod_short](includes/prod_short.md)].  
+Se si è interessati a [!INCLUDE[prodshort](includes/prodshort.md)], è possibile registrarsi per una valutazione gratuita online oppure scegliere di lavorare con un partner per distribuire [!INCLUDE[prodshort](includes/prodshort.md)] localmente nell'hardware preferito. Sarà quindi possibile decidere di acquisire informazioni intelligenti eseguendo la connessione a un tenant nel cloud. Di conseguenza, i dati provenienti dalla soluzione [!INCLUDE[prodshort](includes/prodshort.md)] distribuita localmente verranno replicati nel cloud per scenari cloud intelligenti.  
 
-## <a name="viewing-insights-in-prod_short-online"></a>Visualizzazione di approfondimenti in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+La connessione al cloud intelligente da una soluzione locale richiede che l'amministratore specifichi le informazioni sul database. Gli strumenti utilizzati per connettere la distribuzione locale a [!INCLUDE [prodshort](includes/prodshort.md)] online sono gli stessi utilizzati anche per la migrazione da locale a online. Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo per [!INCLUDE[prodshort](includes/prodshort.md)].  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] Online, la pagina **Informazioni su Cloud intelligente** mostra quattro punti chiave per la maggior parte delle aziende:
+## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Visualizzare Informazioni su Cloud intelligente in [!INCLUDE[prodshort](includes/prodshort.md)] Online
+
+Nella società di [!INCLUDE[prodshort](includes/prodshort.md)] online la pagina **Informazioni su Cloud intelligente** mostra quattro punti chiave per la maggior parte delle aziende:
 
 - Disponibilità del flusso di cassa
 - Redditività delle vendite
@@ -36,14 +38,17 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] Online, la pagina **Informazio
 Accanto ai grafici KPI, si ottengono informazioni su potenziali aree problematiche, inclusi pagamenti in ritardo. Fare clic su ogni informazione per analizzare i dati.  
 
 > [!div class="mx-imgBorder"]
-> ![Informazioni su cloud intelligente.](media/across-intelligent-cloud/intelligentcloudApril19.png "Mostra la pagina Informazioni su Cloud intelligente in Business Central Online")
+> ![Informazioni su cloud intelligente](media/across-intelligent-cloud/intelligentcloudApril19.png "Mostra la pagina Informazioni su Cloud intelligente in Business Central")
 
-La pagina si connette anche a Power BI per ulteriori approfondimenti. Facoltativamente, connettiti ad Azure AI per informazioni ancora più intelligenti. Per ulteriori informazioni, vedi [L'estensione Previsione vendite e magazzino](ui-extensions-sales-forecast.md).  
+La pagina si connette anche a Power BI per ulteriori approfondimenti.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="viewing-intelligent-insights-on-premises"></a>Visualizzare informazioni intelligenti in locale
 
-[Benvenuto in Business Central](index.md)  
-[Estensioni per la migrazione al cloud](ui-extensions-data-replication.md)  
+Quando il partner rivenditore di Dynamics 365 ha acquisito la licenza corretta per la soluzione locale per connettersi al cloud tramite [!INCLUDE[prodshort](includes/prodshort.md)], l'amministratore può impostare la connessione. Fatto ciò, è possibile visualizzare le stesse informazioni dal cloud nell'applicazione locale. A seconda della soluzione locale, la pagina **Informazioni su Cloud intelligente** può essere incorporata nella pagina iniziale o essere una pagina distinta come in [!INCLUDE[prodshort](includes/prodshort.md)] online e locale.  
+
+## <a name="see-also"></a>Vedi anche
+
+[Benvenuti in Business Central](index.md)  
+[Estensione Cloud intelligente di Business Central](ui-extensions-intelligent-cloud.md)  
+[Estensione Replica dei dati](ui-extensions-data-replication.md)  
 [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

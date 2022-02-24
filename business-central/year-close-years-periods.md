@@ -1,25 +1,25 @@
 ---
-title: Chiusura dei periodi contabili per un anno fiscale
+title: Chiusura dei periodi contabili e di un anno fiscale | Documenti Microsoft
 description: Descrive i task per la chiusura di un anno fiscale o di periodi contabili, ad esempio, per garantire che documenti e registrazioni vengano contabilizzati e per verificare i saldi di conti correnti.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 3faa427363d2d30ce387bbfe911f320064d3276a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ef2f3f5e11b9593dce1ba1eb2039c0c0edd32aba
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971786"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953133"
 ---
 # <a name="closing-years-and-periods"></a>Chiusura di anni e periodi
-
 Al termine di un anno fiscale, vi sono numerose attività amministrative da eseguire, come assicurarsi che tutti i documenti e le registrazioni siano stati contabilizzati, assicurarsi che i dati della valuta siano aggiornati, chiudere i libri e altro ancora. Le attività effettive dipenderanno dalla società.
 
 Nella seguente tabella viene fornita una panoramica delle attività che si eseguono in genere per chiudere un anno o un periodo.
@@ -39,11 +39,7 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
+[Aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-[Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -3,19 +3,19 @@ title: Dettagli di progettazione - Tracciabilità e pianificazione degli articol
 description: Poiché sono memorizzati nel sistema di prenotazione, i numeri di tracciabilità degli articoli sono completamente coordinati con i record di tracciabilità degli ordini.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: a01ddb4ac423df3f4ada16740550edf46949886a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f43523794af06ed5709ec2738cda8bad68fd1b7d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215905"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185134"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Dettagli di progettazione: Tracciabilità articolo e pianificazione
 Poiché sono memorizzati nel sistema di prenotazione, i numeri di tracciabilità degli articoli sono completamente coordinati con i record di tracciabilità degli ordini. Ciò significa che agli articoli con record di tracciabilità ordini possono essere assegnati numeri di tracciabilità articoli. Al contrario, gli articoli con numeri di tracciabilità articolo possono diventare record di tracciabilità ordini. Per altre informazioni, vedere [Dettagli di progettazione - Progettazione tracciabilità articolo](design-details-item-tracking-design.md).
@@ -56,6 +56,3 @@ Per altre informazioni, vedere [Dettagli di progettazione - Bilanciamento della 
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

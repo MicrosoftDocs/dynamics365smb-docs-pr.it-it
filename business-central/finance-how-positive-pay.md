@@ -1,36 +1,37 @@
 ---
-title: Esportare file Positive Pay
+title: Esportare file Positive Pay| Documenti Microsoft
 description: Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati tramite l'esportazione di file Positive Pay che contengano informazioni sul fornitore e pagamento.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.search.form: 1231, 1232, 1233, 1234
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ce185da68d8f7bb1ab82138e83015035a19cb056
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d1a7922895e357e51ba66dd8853961300a8fcc6c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973494"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183630"
 ---
 # <a name="export-a-positive-pay-file"></a>Esportare un file Positive Pay
 Per assicurarsi che la banca compensi solo gli assegni e gli importi convalidati, è possibile esportare un file Positive Pay con informazioni su fornitore, numero di assegno e importo del pagamento da inviare alla banca per riferimento quando si elaborano i pagamenti.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] è preconfigurato per supportare i file Positive Pay per Bank of America e City Bank.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] è preconfigurato per supportare i file Positive Pay per Bank of America e City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Per impostare un conto bancario per i file Positive Pay
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda della banca per cui si desidera utilizzare il Positive Pay.
 3. Nel campo **Codice esportazione Positive Pay** immettere POSPAYBANK.
 4. Chiudere la pagina.
 
 ## <a name="to-export-a-positive-pay-file"></a>Per esportare un file Positive Pay
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Selezionare il conto bancario per cui si desidera esportare un file Positive Pay.
 3. Scegliere l'opzione **Esportazione Positive Pay**.
 
@@ -43,7 +44,7 @@ Per assicurarsi che la banca compensi solo gli assegni e gli importi convalidati
 
 Per visualizzare i record Positive Pay esportati
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Selezionare il conto bancario per cui si desidera visualizzare i record di esportazione Positive Pay.
 3. Scegliere l'azione **Movimenti Positive Pay**.
 
@@ -53,7 +54,7 @@ Per visualizzare i record Positive Pay esportati
 
 Per riesportare file Positive Pay
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.
 2. Selezionare il conto bancario per cui si desidera riesportare i file Positive Pay.
 3. Scegliere l'azione **Movimenti Positive Pay**.
 4. Selezionare la riga per il file di esportazione Positive Pay da riesportare.
@@ -63,7 +64,4 @@ Per riesportare file Positive Pay
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

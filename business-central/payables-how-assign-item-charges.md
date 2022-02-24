@@ -1,22 +1,23 @@
 ---
-title: Assegnare addebiti articoli a vendite e acquisti (video)
-description: Per aggiungere ai movimenti di magazzino ulteriori costi, quali spedizione e gestione fisica per l'acquisto o la vendita degli articoli, puoi assegnare gli addebiti articoli.
+title: Assegnare addebiti articoli a vendite e acquisti| Documenti Microsoft
+description: Se si desidera aggiungere ai movimenti di magazzino ulteriori costi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli, è possibile utilizzare la funzionalità Addebiti articoli.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.search.form: 5709, 5800, 5805, 5814
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953236"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878140"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
 Per una valutazione corretta, è necessario includere nei movimenti di magazzino tutti i costi aggiuntivi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli. Per gli acquisti, il costo franco di tutte le spese allo sbarco di un articolo acquistato è dato dal prezzo di acquisto del fornitore più tutti gli addebiti articolo diretti aggiuntivi che è possibile assegnare ai singoli carichi o alle singole spedizioni di reso. Per le vendite, per un'azienda conoscere il costo della spedizione di articoli venduti è altrettanto importante che conoscere il costo franco di tutte le spese di sbarco degli articoli acquistati.
@@ -25,7 +26,7 @@ Oltre a registrare il costo aggiuntivo nel valore di magazzino, è possibile uti
 
 - Determinare il costo franco di tutte le spese allo sbarco di un articolo allo scopo di stabilire strategie più accurate di ottimizzazione della rete di distribuzione.
 - Scomporre il costo unitario o il prezzo unitario di un articolo a scopo di analisi.
-- Includi gli abbuoni sugli acquisti nel costo unitario e gli abbuoni sulle vendite nel prezzo unitario.
+- Includere gli abbuoni sugli acquisti nel costo unitario e gli abbuoni sulle vendite nel prezzo unitario.
 
 Prima di poter assegnare gli addebiti articoli, è necessario impostare i numeri di addebito articoli per i diversi tipi di addebito, inclusi in quali conti C/G andranno registrati i costi relativi a vendite, acquisti e rettifiche di magazzino. Un numero di addebito articolo contiene una combinazione di gruppi di registrazioni di prodotti generali, codici di gruppi imposta, gruppo di registrazione di prodotti IVA e addebiti articoli. Inserendo il numero di addebito articoli in un documento d'acquisto o di vendita, il conto C/G pertinente viene recuperato in base al setup del numero di addebito articolo e alle informazioni nel documento.
 
@@ -39,19 +40,19 @@ Sia per i documenti di vendita che di acquisto, è possibile assegnare un addebi
 ## <a name="example"></a>Esempio
 Questo video mostra come gestire un costo di spedizione aggiuntivo come parte del costing di magazzino.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
 
 ## <a name="to-set-up-item-charge-numbers"></a>Per impostare i numeri di addebito articolo
 I numeri di addebito articolo vengono utilizzati per distinguere fra i vari tipi di addebito utilizzati nella propria società.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Addebiti articoli**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Addebiti articoli** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo** nella pagina **Addebiti articoli** per creare una nuova riga.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo
 Se si conosce l'addebito articolo nel momento in cui si registra una fattura di acquisto per l'articolo, attenersi alla procedura seguente.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.
 2. Creare una nuova fattura di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 3. Assicurarsi che la fattura di acquisto abbia una o più righe di tipo Articolo.
 4. In una nuova riga selezionare **Addebito (Articolo)** nel campo **Tipo**.
@@ -84,7 +85,4 @@ Gli addebiti articoli nella fattura di acquisto distinta vengono ora assegnati a
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

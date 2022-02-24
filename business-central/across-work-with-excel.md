@@ -1,77 +1,56 @@
 ---
-title: Visualizzare e modificare in Excel da Business Central (video)
+title: Visualizzare e modificare in Excel da Business Central | Microsoft Docs
 description: Informazioni su come aprire le pagine in Microsoft Excel da Business Central per una migliore analisi dei dati.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7800eb9d9852e8cc13eed26ce3e42fa318f7e185
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 2c6600ac7fe9f6e0aa44554883209039faabbd99
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940253"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187510"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visualizzare e modificare in Excel da Business Central
 
-Con le pagine che visualizzano una lista di record in righe e colonne, come una lista di clienti, ordini di vendita o fatture, è possibile esportare la lista in Microsoft Excel, e visualizzarla lì. A seconda della pagina, hai due opzioni per la visualizzazione in Excel. Entrambe le opzioni sono disponibili dall'icona **Condividi**  ![Condividi una pagina in un'altra app.](media/share-icon.png) all'inizio di una pagina. È possibile selezionare l'azione **Apri in Excel** o l'azione **Modifica in Excel** nella pagina. Questo articolo spiega le differenze tra le due azioni.
+Con le pagine che visualizzano un elenco di record in righe e colonne, come un elenco di clienti, ordini di vendita o fatture, è anche possibile visualizzare i record utilizzando Microsoft Excel. A questo proposito, sono disponibili due opzioni. È possibile selezionare l'azione **Apri in Excel** o l'azione **Modifica in Excel** nella pagina. Di seguito sono descritte le differenze tra le due azioni:  
 
 ## <a name="open-in-excel"></a>Apri in Excel
 
-Con l'azione **Apri in Excel** puoi apportare modifiche ai record in Excel, ma non puoi ripubblicare le modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile salvare solo le modifiche al file Excel, senza influenzare i dati in [!INCLUDE[prod_short](includes/prod_short.md)].
+- Con questa azione, Excel rispetta tutti i filtri nella pagina che limitano i record visualizzati. Ciò significa che la cartella di lavoro Excel conterrà le stesse righe e colonne presenti nella pagina in [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- Con questa azione, Excel rispetta tutti i filtri nella pagina che limitano i record visualizzati. La cartella di lavoro Excel conterrà le stesse righe e colonne presenti nella pagina in [!INCLUDE[prod_short](includes/prod_short.md)].
+- In Excel è possibile apportare modifiche ai record, ma non ripubblicare le modifiche in [!INCLUDE[prodshort](includes/prodshort.md)]. È possibile salvare le modifiche solo in un file Excel nel computer.
 
 - Questa azione è compatibile con Windows e macOS.
 
-- A partire dall'aggiornamento 18.3, è anche possibile visualizzare gli elenchi visualizzati nelle parti della pagina, come le righe di un ordine di vendita. 
-
 > [!NOTE]
-> Per [!INCLUDE[prod_short](includes/prod_short.md)] in locale l'azione **Apri in Excel** è disponibile per impostazione predefinita. Tuttavia, se [!INCLUDE[prod_short](includes/prod_short.md)] in locale è configurato per la modifica dei dati in Excel, l'azione **Apri in Excel** è sostituita dall'azione **Modifica in Excel**.
-
-[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
+> Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale l'azione **Apri in Excel** è disponibile per impostazione predefinita. Tuttavia, se [!INCLUDE [prodshort](includes/prodshort.md)] in locale è configurato per la modifica dei dati in Excel, l'azione **Apri in Excel** è sostituita dall'azione **Modifica in Excel**.
 
 ## <a name="edit-in-excel"></a>Modifica in Excel
 
-L'azione **Modifica in Excel** è disponibile nella maggior parte delle liste, ma non in tutte. Con l'azione **Modifica in Excel** puoi apportare modifiche ai record in Excel e poi puoi ripubblicare le modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]. Quando Excel si apre, vedrai il pannello **Add-in Excel** sulla destra.
+- Con questa azione, Excel rispetta la maggior parte dei filtri nella pagina che limitano i record visualizzati. Ciò significa che la cartella di lavoro Excel conterrà quasi gli stessi record e le stesse colonne.
 
-- Con questa azione, Excel rispetta la maggior parte dei filtri sulla pagina che limitano i record visualizzati, quindi la cartella di lavoro di Excel conterrà quasi gli stessi record e colonne.
+- Il vantaggio dell'azione **Modifica in Excel** è che consente di apportare modifiche ai record in Excel e quindi di ripubblicare le modifiche in [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- Per ottenere gli ultimi dati da [!INCLUDE[prod_short](includes/prod_short.md)], scegli **Aggiorna** nel pannello dell'add-in di Excel.
+- È compatibile con Windows ma non con macOS.
 
-- Puoi cambiare la compagnia con cui stai lavorando. Per cambiare azienda, seleziona l'icona **Opzioni** ![Opzioni del componente aggiuntivo di Excel.](media/cogwheel.png "Opzioni del componente aggiuntivo per Excel") nel riquadro del componente aggiuntivo di Excel, quindi seleziona l'azienda dal campo **Società**.  
+- Puoi cambiare la società con cui stai lavorando. Per fare ciò, selezionare l'icona **Opzioni** ![Opzioni del componente aggiuntivo di Excel](media/cogwheel.png "Opzioni del componente aggiuntivo per Excel") nel riquadro del componente aggiuntivo di Excel, quindi seleziona la società dal campo **Società**. 
 
     > [!IMPORTANT]
     > Quando si cambia la società, assicurarsi che il campo **Ambiente** non sia vuoto. In tal caso, impostarlo su una delle opzioni disponibili; in caso contrario, il componente aggiuntivo non funzionerà correttamente.  
 
-Se si apportano modifiche al componente aggiuntivo, è necessario ricaricarlo per aggiornare la connessione. Per ricaricare, utilizzare il ![menu del componente aggiuntivo per Excel](media/excel-addin-menu.png "Menu del componente aggiuntivo per Excel") nell'angolo in alto a destra del componente aggiuntivo. Se non riesci a caricare l'add-in, parla con il tuo amministratore. Se sei l'amministratore, vedi [Ottenere il Business Central Add-in per Excel](admin-deploy-excel-addin.md).
+Il componente aggiuntivo di Excel è stato migliorato nella seconda ondata di rilascio del 2019. Per ulteriori informazioni, vedere [Miglioramenti all'integrazione di Excel](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
 
 > [!NOTE]
-> L'add-in funziona con Excel per il web (online) da qualsiasi dispositivo, purché si usi un browser supportato. Funziona anche con l'applicazione Excel per Windows (PC), ma non per macOS.
->
-> Per [!INCLUDE[prod_short](includes/prod_short.md)] in locale, l'azione **Modifica in Excel** è disponibile solo se il componente aggiuntivo di Excel è stato configurato dall'amministratore ed è disponibile solo per il client Web. Gli amministratori che desiderano installare il componente aggiuntivo di Excel possono consultare [Installazione del componente aggiuntivo di Excel per la modifica dei dati di Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
+> Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale, l'azione **Modifica in Excel** è disponibile solo se il componente aggiuntivo di Excel è stato configurato dall'amministratore ed è disponibile solo per il client Web. Gli amministratori che desiderano installare il componente aggiuntivo di Excel possono consultare [Installazione del componente aggiuntivo di Excel per la modifica dei dati di Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin). Per [!INCLUDE[prodshort](includes/prodshort.md)] in locale.
 
-
-<!-- Note for later: here we're immediately jumping to pretty advanced topics like changing company or reloading the addin. Fine to keep them for now. In the future, we will first need to explain in more detail the actual functionality of the addin, primarily these sub-sections:
-
-Refreshing record data in Excel
-Editing and publishing back to Business Central
-Creating new records from Excel
-Crafting your own editable Excel.
-Point (4) is where it gets interesting for changing/specifying company, environment and other connection settings-->
-
-### <a name="first-time-sign-in"></a>Primo accesso
-
-L'azione **Modifica in Excel** richiede che l'add-in di Business Central sia installato in Excel. In alcuni casi, il tuo amministratore potrebbe aver impostato l'add-in per installarlo automaticamente per te. In questo caso, devi solo accedere a Business Central nel pannello **Add-in Excel** con il tuo nome utente e password. Altrimenti, si apre il riquadro **Nuovo componente aggiuntivo di Office** . Per installare l'add-in, scegli **Il componente aggiuntivo è attendibile**, che installerà l'add-in direttamente da Office Store.
-
-Se per qualche motivo l'add-in non si installa, contatta il tuo amministratore o prova a installarlo manualmente. Per maggiori informazioni, vedi [Installare l'add-in manualmente per uso personale](admin-deploy-excel-addin.md#install).
-
-## <a name="see-the-differences-between-the-options"></a>Vedere le differenze tra le opzioni
+### <a name="see-the-differences-between-the-options"></a>Vedere le differenze tra le opzioni
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
@@ -79,10 +58,4 @@ Se per qualche motivo l'add-in non si installa, contatta il tuo amministratore o
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
-
-[Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
-[Miglioramenti all'integrazione di Excel nella seconda ondata di rilascio del 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

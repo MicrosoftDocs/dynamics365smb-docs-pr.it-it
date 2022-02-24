@@ -1,27 +1,28 @@
 ---
-title: Configurare i processi della warehouse
-description: La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse, ad esempio le ubicazioni warehouse.
+title: Configurazione dei processi della warehouse | Documenti Microsoft
+description: La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse. Include la definizione della modalità di gestione dei diversi articoli nelle diverse ubicazioni di warehouse, ad esempio il livello di controllo della collocazione e l'estensione del flusso di lavoro necessario tra le diverse attività di warehouse.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 7864b7dcb09d0528f6f0674ae7af3740ab7e5951
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: df77998dc9e5ee06531f3be158a7d9ca2604fc05
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973234"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248697"
 ---
 # <a name="setting-up-warehouse-management"></a>Impostazione gestione warehouse
-
 La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse. Include la definizione della modalità di gestione dei diversi articoli nelle diverse ubicazioni di warehouse, ad esempio il livello di controllo della collocazione e l'estensione del flusso di lavoro necessario tra le diverse attività di warehouse.  
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
+ Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
@@ -41,15 +42,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Impostare la warehouse in modo che venga automaticamente suggerito il prelievo degli articoli che scadono prima.|[Abilitare prelievi tramite il metodo FEFO](warehouse-picking-by-fefo.md)|
 |Ottenere suggerimenti su come riorganizzare ubicazioni, collocazioni o zone per migliorare l'efficacia delle attività di warehouse.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|
 |Integrare lettori di codici a barre alla soluzione di gestione warehouse. Solo per la distribuzione locale.|[Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)|
-|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Vedere anche
-
+## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Gestione assemblaggio](assembly-assemble-items.md)
+[Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

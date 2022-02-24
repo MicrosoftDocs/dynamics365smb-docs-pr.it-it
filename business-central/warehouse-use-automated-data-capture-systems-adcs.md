@@ -1,27 +1,26 @@
 ---
-title: Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)
-description: Puoi utilizzare il tuo sistema di acquisizione automatica dei dati (ADCS) per registrare il movimento degli articoli nella warehouse e per registrare alcune attività di registrazione.
+title: Utilizzare sistemi ADCS (Automated Data Capture Systems) | Documenti Microsoft
+description: È possibile utilizzare il sistema di acquisizione automatica dei dati (ADCS, Automatic Data Capture System) per registrare il movimento degli articoli nella warehouse e alcune attività di registrazione, ad esempio le rettifiche delle quantità nella registrazioni articoli di warehouse e gli inventari fisici.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: da293a02360dced863687fc37f87a668eed91284
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 11/20/2019
+ms.author: sgroespe
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115148"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097794"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)
 
 > [!NOTE]
-> La soluzione Automated Data Capture System (ADCS) offre una modo per [!INCLUDE[prod_short](includes/prod_short.md)] per comunicare con dispositivi portatili tramite servizi Web. È necessario contattare un partner Microsoft in grado di fornire il collegamento tra il servizio Web e il dispositivo portatile specifico. 
+> La soluzione Automated Data Capture System (ADCS) offre una modo per [!INCLUDE[d365fin](includes/d365fin_md.md)] per comunicare con dispositivi portatili tramite servizi Web. È necessario contattare un partner Microsoft in grado di fornire il collegamento tra il servizio Web e il dispositivo portatile specifico. 
 
 È possibile utilizzare il sistema di acquisizione automatica dei dati (ADCS, Automatic Data Capture System) per registrare il movimento degli articoli nella warehouse e alcune attività di registrazione, ad esempio le rettifiche delle quantità nella registrazioni articoli di warehouse e gli inventari fisici. ADCS in genere comporta la scansione di un codice a barre.
 
@@ -29,7 +28,7 @@ Per utilizzare ADCS, è necessario assegnare a ciascun articolo nella warehouse 
 
 In base alle esigenze della warehouse, nel setup del miniform per il computer palmare specifico è possibile definire la quantità di informazioni visualizzate. Di seguito sono descritti alcuni esempi di informazioni che è possibile visualizzare:  
 
-- Dati dalle tabelle all'interno di [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio un elenco dei documenti di prelievo che l'utente può selezionare.  
+- Dati dalle tabelle all'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], ad esempio un elenco dei documenti di prelievo che l'utente può selezionare.  
 - Informazioni testuali.  
 - Messaggi per visualizzare le conferme o gli errori sulle attività eseguite e registrate dall'utente del palmare.
 
@@ -38,7 +37,7 @@ Per utilizzare il sistema di acquisizione automatica dei dati, è necessario abi
 
 ## <a name="to-enable-and-publish-the-adcs-web-service"></a>Per abilitare e pubblicare il servizio Web ADCS  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Servizi Web**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Servizi Web** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.  
 3. Nella pagina **Servizi Web**, inserire le seguenti informazioni su una nuova riga:  
 
@@ -57,14 +56,14 @@ Per utilizzare ADCS, è necessario specificare quali ubicazione della warehouse 
 > [!NOTE]  
 >  È consigliabile non impostare l'utilizzo di ADCS per una warehouse se per la stessa sono impostati anche criteri capacità collocazione.
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, e quindi scegli il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
 2.  Selezionare una warehouse dall'elenco per cui si desidera abilitare i sistemi ADCS, quindi scegliere l'azione **Modifica**.
 3. Nella pagina **Scheda ubicazione**, selezionare la casella di controllo **Usa ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Per specificare un articolo per utilizzare il sistema ADCS  
 A ogni articolo di warehouse che si desidera utilizzare con ADCS deve essere assegnato un codice identificativo per collegarlo al numero dell'articolo. Ad esempio, è possibile utilizzare il codice a barre dell'articolo come codice identificativo. Un articolo può anche avere più codici identificativo. Può essere utile qualora un articolo sia disponibile in diverse unità di misura, ad esempio pezzi e pallet. In questo caso, assegnare un codice identificativo a ognuno.    
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2.  Selezionare un articolo dall'elenco che fa parte della soluzione ADCS in uso, quindi scegliere l'azione **Modifica**.
 3. Nella pagina **Scheda articolo** scegliere l'azione **Identificativi**.
 4. Nella pagina **Identificativi articolo** scegliere l'azione **Nuovo**.
@@ -79,13 +78,13 @@ A ogni articolo di warehouse che si desidera utilizzare con ADCS deve essere ass
 ## <a name="to-add-an-adcs-user"></a>Per aggiungere un utente ADCS  
 È possibile aggiungere qualsiasi utente come utente di un sistema di acquisizione automatica dei dati (ADCS, Automatic Data Capture System). In questo caso, l'utente deve inoltre immettere una password. In alternativa, è anche possibile fornire una connessione che identifichi l'utente ADCS come impiegato warehouse. La password dell'utente ADCS può essere diversa dalla password dell'utente per l'accesso a Windows. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti ADCS**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Utenti ADCS** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Nome** immettere un nome per l'utente. Il nome non può includere più di 20 caratteri, inclusi gli spazi.  
 4.  Immettere una password nel campo **Password**. La password è mascherata.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Per specificare che un impiegato warehouse è un utente ADCS  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
 2.  Se necessario, aggiungere un nuovo impiegato warehouse. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Scegliere l'azione **Modifica lista**.  
 4.  Selezionare un impiegato warehouse dall'elenco. Nel campo **Utente ADCS** fare clic sulla freccia rivolta verso il basso e selezionare il nome di un utente ADCS dall'elenco.  
@@ -100,7 +99,7 @@ Utilizzare i miniform per descrivere le informazioni che si desidera visualizzar
 > Per implementare o modificare la funzionalità di una funzione miniform, è necessario creare una nuova codeunit per il campo **Codeunit per la gestione** per eseguire l'azione o la risposta richiesta. È possibile ottenere ulteriori informazioni sulla funzionalità ADCS esaminando le codeunit, come 7705, 7706, 7712 e 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Per creare un miniform per ADCS  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Miniform**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Miniform** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Codice** inserire un codice per il miniform. Facoltativamente, è possibile inserire valori in tutti gli altri campi.  
 
@@ -111,7 +110,7 @@ Utilizzare i miniform per descrivere le informazioni che si desidera visualizzar
 Dopo avere creato un miniform, i passaggi successivi consistono nel creare funzioni e associare funzionalità per i diversi input da tastiera.  
 
 ### <a name="to-customize-miniform-functions"></a>Per personalizzare le funzioni del miniform  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Miniform**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Miniform** e quindi scegliere il collegamento correlato.  
 2.  Selezionare un miniform dalla lista, quindi scegliere l'azione **Modifica**.  
 3.  Scegliere l'azione **Funzioni**.  
 4.  Nell'elenco a discesa **Codice funzione** selezionare un codice per rappresentare la funzione che si desidera associare al miniform. Ad esempio, è possibile scegliere il pulsante ESC, che associa la funzionalità alla pressione del tasto ESC.  
@@ -122,7 +121,4 @@ Dopo avere creato un miniform, i passaggi successivi consistono nel creare funzi
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

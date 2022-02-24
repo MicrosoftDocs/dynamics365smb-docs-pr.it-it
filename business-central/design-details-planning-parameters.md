@@ -1,24 +1,24 @@
 ---
-title: Dettagli di progettazione - Parametri di pianificazione
-description: Questo argomento descrive i diversi parametri di pianificazione che puoi utilizzare e il modo in cui influiscono sul sistema di pianificazione.
+title: 'Dettagli di progettazione: Parametri di pianificazione | Microsoft Docs'
+description: In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/21/2021
-ms.author: edupont
-ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 04/20/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649814"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272040"
 ---
 # <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
-In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[prod_short](includes/prod_short.md)].  
+In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 La modalità in cui l'approvvigionamento degli articoli è controllato dal sistema di pianificazione è determinato da diverse impostazioni nella scheda articolo o della USK e da impostazioni in Setup manufacturing. Nella seguente tabella viene mostrato come vengono utilizzati questi parametri nella pianificazione.  
 
@@ -82,25 +82,25 @@ Per ottenere un piano di approvvigionamento razionale, un responsabile ottimizze
 
 I tempi del periodo di riprogrammazione, del periodo di stabilizzazione e del periodo di accumulo lotti sono basati su una data di approvvigionamento. L'intervallo di tempo si basa sulla data di inizio della pianificazione, come indicato nell'illustrazione seguente.  
 
-![Elementi dell'intervallo di tempo.](media/supply_planning_5_time_bucket_elements.png "Elementi dell'intervallo di tempo")  
+![Elementi dell'intervallo di tempo](media/supply_planning_5_time_bucket_elements.png "Elementi dell'intervallo di tempo")  
 
 Negli esempi che seguono, le frecce nere rappresentano l'approvvigionamento (su) e la domanda (giù) esistenti. Le frecce rosse, verdi e arancioni sono suggerimenti di pianificazione.  
 
 **Esempio 1**: la data modificata si trova al di fuori del periodo di riprogrammazione, ciò causa l'annullamento dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda nel periodo di accumulo lotti.  
 
-![Periodo di riprogrammazione e periodo di accumulo lotti.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periodo di riprogrammazione e periodo di accumulo lotti")  
+![Periodo di riprogrammazione e periodo di accumulo lotti](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periodo di riprogrammazione e periodo di accumulo lotti")  
 
 **Esempio 2**: la data modificata si trova nel periodo di riprogrammazione, ciò causa la riprogrammazione dell'approvvigionamento esistente. Un nuovo approvvigionamento viene suggerito per soddisfare la domanda al di fuori del periodo di accumulo lotti.  
 
-![Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione")  
+![Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periodo di riprogrammazione, periodo di accumulo lotti e riprogrammazione")  
 
 **Esempio 3**: esiste una domanda nel periodo di stabilizzazione e la quantità di approvvigionamento nel periodo di accumulo lotti corrisponde alla quantità dell'approvvigionamento. La domanda successiva è scoperta e viene suggerito un nuovo approvvigionamento.  
 
-![Periodo di stabilizzazione e periodo di accumulo lotti.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Periodo di stabilizzazione e periodo di accumulo lotti")  
+![Periodo di stabilizzazione e periodo di accumulo lotti](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Periodo di stabilizzazione e periodo di accumulo lotti")  
 
 **Esempio 4**: esiste una domanda nel periodo di stabilizzazione e l'approvvigionamento resta nella stessa data. Tuttavia, la quantità di approvvigionamento corrente non è sufficiente a soddisfare la domanda nel periodo di accumulo lotti, pertanto viene suggerita un'azione di modifica della quantità dell'ordine di approvvigionamento esistente.  
 
-![Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica")  
+![Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Periodo di stabilizzazione, periodo di accumulo lotti e quantità di modifica")  
 
 **Valori predefiniti:** il valore predefinito del campo **Intervallo di tempo** e i tre campi relativi al periodo di riordino sono vuoti. Per tutti i campi, a eccezione del campo **Periodo di stabilizzazione**, ciò significa 0D (zero giorni). Se il campo **Periodo di stabilizzazione** è vuoto, verrà utilizzato il valore globale nel campo **Periodo di stabilizzazione di default** della pagina **Setup manufacturing**.  
 
@@ -114,32 +114,9 @@ L'opzione **Politica di produzione** definisce quali ordini aggiuntivi saranno p
 
 Se viene utilizzata l'opzione **Prod. per Magazzino**, gli ordini riguarderanno solo l'articolo in questione.  
 
-Se viene utilizzata l'opzione **Prod. su ordine**, il sistema di pianificazione analizzerà la DB di produzione dell'articolo e creerà delle proposte di ordine collegate aggiuntive per questi articoli di livello inferiore che sono definite anche come produzione su ordine. Questo processo continua fintanto che sono presenti articoli di tipo produzione su ordine nelle strutture DB decrescenti.
+Se viene utilizzata l'opzione **Prod. su ordine**, il sistema di pianificazione analizzerà la DB di produzione dell'articolo e creerà delle proposte di ordine collegate aggiuntive per questi articoli di livello inferiore che sono definite anche come produzione su ordine. Questo processo continua fintanto che sono presenti articoli di tipo produzione su ordine nelle strutture DB decrescenti.  
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Usare codici di ultimo livello per gestire la domanda derivata
-
-Utilizzare i codici di ultimo livello per far avanzare la domanda derivata di componenti fino ai livelli inferiori della distinta base. Per una spiegazione più approfondita di questo concetto, vedere [Priorità articolo/Codice ultimo livello](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
-
-È possibile assegnare un codice di ultimo livello a ogni parte della struttura di prodotto o nella distinta base interna. Il livello di assemblaggio superiore finale viene indicato come livello 0, ossia come articolo finale. Più alto è il numero del codice di ultimo livello, più basso è l'articolo nella gerarchia. Ad esempio, gli articoli finali hanno un codice di ultimo livello 0 e le parti di articolo che vanno nell'assemblaggio hanno codici di ultimo livello 1, 2, 3 e così via. Il risultato è che la pianificazione delle parti dei componenti viene coordinata in base alle necessità di tutti i numeri di parte di alto livello. Quando si calcola una pianificazione, la distinta base viene espansa nel prospetto di pianificazione e le domande lorde per il livello 0 vengono passate ai livelli di pianificazione sottostanti come domande lorde per il successivo livello di pianificazione.
-
-Selezionare il campo **Codice dinamico di ultimo livello** per specificare se assegnare e calcolare immediatamente i codici di ultimo livello per ogni componente nella struttura del prodotto. Se la quantità di dati è considerevole, è possibile che tale funzione produca effetti negativi sulle prestazioni del sistema, ad esempio durante la registrazione automatica dei costi. Non essendo una funzione retroattiva, è opportuno considerarne l'uso in anticipo.
-
-In alternativa al calcolo automatico che viene effettuato in modo dinamico quando il campo viene selezionato, è possibile eseguire il processo batch **Calcolo codice ultimo livello** dal menu **Manufacturing** facendo clic su **Progettazione prodotto**, **Calcolo codice ultimo livello**.
-
-> [!IMPORTANT]
-> Se non viene selezionato il campo **Cod. ultimo livello dinamico**, allora è necessario eseguire il processo batch **Calcolo codice ultimo livello** prima di calcolare un piano di approvvigionamento (processo batch **Calcola piano**).  
-
-> [!NOTE]
-> Anche con il campo **Cod. ultimo livello dinamico** selezionato, i codici di ultimo livello degli articoli componenti non vengono modificati dinamicamente se una distinta base di produzione padre viene eliminata o impostata come non certificata. Ciò può causare difficoltà nell'aggiunta di nuovi articoli alla fine della struttura del prodotto poiché può risultare superato il numero massimo di codici di ultimo livello. Pertanto, per le strutture di prodotti di grandi dimensioni che raggiungono il limite dei codici di ultimo livello, è consigliabile eseguire frequentemente il processo batch **Calcolo cod. ultimo livello** per mantenere la struttura.  
-
-### <a name="optimize-low-level-code-calculation"></a>Ottimizzare il calcolo del codice di ultimo livello
-
-Selezionare il campo **Ottimizza il calcolo del codice di ultimo livello** per specificare che si desidera utilizzare il nuovo metodo più veloce di calcolo del codice di ultimo livello. Si noti che il nuovo calcolo viene eseguito in modo diverso e il suo utilizzo potrebbe interrompere le estensioni che si basano sul metodo esistente. Il nuovo metodo di calcolo sostituirà il metodo attuale in una versione futura.
-
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

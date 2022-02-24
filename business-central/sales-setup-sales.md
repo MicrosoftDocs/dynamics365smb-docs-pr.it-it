@@ -1,29 +1,30 @@
 ---
-title: Panoramica dei task per la configurazione dei processi di vendita
-description: Panoramica dei task necessari per impostare regole e valori che definiscono i criteri e i processi di vendita, inclusa l'impostazione generale e l'impostazione delle vendite relative ai dati finanziari.
+title: Panoramica dei task per la configurazione dei processi di vendita | Documenti Microsoft
+description: Descrive i task per impostare le regole e i valori per definire i criteri e processi di vendita.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 63d9357d29fbfdc3c230c69602fd370c5d73f21b
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115452"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953397"
 ---
 # <a name="setting-up-sales"></a>Setup Vendite
 Prima di poter dare inizio alla gestione dei processi di vendita, è necessario configurare le regole e i valori che definiscono i criteri di vendita dell'azienda.
 
-È necessario definire l'impostazione generale nella pagina **Vendite e crediti**, come ad esempio quali documenti di vendita sono richiesti, come i loro valori sono registrati e il tipo di linee da creare per default. Queste impostazioni generali vengono in genere eseguite una volta durante l'implementazione iniziale.
+È necessario definire la configurazione generale, ad esempio i documenti di vendita richiesti e le modalità di registrazione dei rispettivi valori. Queste impostazioni generali vengono in genere eseguite una volta durante l'implementazione iniziale.
 
-Una serie di attività specifiche correlate alla registrazione di nuovi clienti è quella di prendere nota di tutti gli accordi riguardanti sconti o prezzi speciali in essere con ogni cliente. Per maggiori informazioni, vedere [Registrare i prezzi delle vendite speciali e gli sconti](sales-how-record-sales-price-discount-payment-agreements.md).
+Una serie di attività specifiche correlate alla registrazione di nuovi clienti è quella di prendere nota di tutti gli accordi riguardanti sconti o prezzi speciali in essere con ogni cliente.
 
 L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di pagamento e le valute, è descritta nella sezione Impostazione degli aspetti finanziari. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
 
@@ -38,13 +39,9 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 |Utilizzare un servizio Web UE per verificare il numero di partita IVA del cliente.|[Verificare i numeri di partita IVA](finance-setup-vat.md)|
 |Definire i diversi incoterm offerti ai clienti o dai fornitori.|[Impostare i metodi di pagamento:](sales-how-set-up-shipment-methods.md)|
 |Immettere le informazioni sui diversi fornitori di servizi di trasporto utilizzati, incluso un collegamento al relativo servizio che consente di rintracciare il collo.|[Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)|
-|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

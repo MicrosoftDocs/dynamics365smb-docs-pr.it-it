@@ -1,21 +1,21 @@
 ---
-title: Creare stoccaggi mediante stoccaggi interni
-description: Questo argomento illustra come prelevare e stoccare senza un documento di origine, come creare un prelievo interno e come creare uno stoccaggio interno.
+title: 'Procedura: Creare stoccaggi mediante stoccaggi interni | Documenti Microsoft'
+description: Dopo avere stoccato gli articoli e prima di prelevarli per soddisfare le richieste di un ordine di produzione o di una spedizione, gli articoli vengono inclusi tra le giacenze disponibili all'interno della warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 198c4fb8ead4179667e35957046b3446ce5d8065
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: da8e0022a7b510cd4cd143b8bfe4f9f34466c912
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444182"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193181"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Selezionare e stoccare senza un documento di origine
 Dopo avere stoccato gli articoli e prima di prelevarli per soddisfare le richieste di un ordine di produzione o di una spedizione, gli articoli vengono inclusi tra le giacenze disponibili all'interno della warehouse.  
@@ -34,30 +34,21 @@ Analogamente, gli articoli possono essere restituiti alla warehouse per lo stocc
 >  Quando per una determinata ubicazione sono previsti stoccaggi e prelievi guidati, e si utilizzano pertanto i tipi di collocazione, non è possibile spostare manualmente gli articoli all'interno o all'esterno di una collocazione di tipo Ricevi poiché gli articoli presenti in questo tipo di collocazione devono essere registrati come stoccati prima di essere inseriti nella giacenza disponibile.  
 
 ## <a name="to-create-an-internal-pick"></a>Per creare un prelievo interno  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievo int. whse.**, quindi scegli il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**.
-3. Compilare il campo **Nr.** , il campo **Codice ubicazione** e il campo **A codice collocazione** nella Scheda dettaglio **Generale**. Il campo **A codice collocazione** indica la collocazione in cui si desidera inserire gli articoli prelevati. Ai fini della produzione, questa collocazione rappresenta la collocazione di produzione in entrata o la collocazione del reparto produttivo aperto. Viceversa, per altri scopi scegliere un codice collocazione per un tipo di collocazione che non viene utilizzata per il prelievo, in genere una collocazione di stazionamento, una collocazione di spedizione o un collocazione ad uso speciale.  
-4.  Selezionare un articolo nel campo **Nr. articolo**, quindi immettere le quantità che si desidera prelevare.  
-5. Scegliere l'azione **Crea prelievo**. Verrà creata un'istruzione di prelievo indirizzata agli impiegati warehouse. In alternativa, è possibile scegliere l'azione **Rilascia** e creare prelievi warehouse utilizzando il **Prospetto prelievi**. Per ulteriori informazioni, vedere [Pianificare i prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md).
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prelievo int. whse.** e quindi scegliere il collegamento correlato.  
+2.  Compilare il campo **Nr.** e il campo **A codice collocazione** nella Scheda dettaglio **Generale**. Il campo **A codice collocazione** indica la collocazione da cui devono essere prelevati gli articoli. Ai fini della produzione, questa collocazione rappresenta la collocazione di produzione in entrata o la collocazione del reparto produttivo aperto. Viceversa, per altri scopi scegliere il campo A codice collocazione immettendo il codice per un tipo di collocazione che non viene utilizzata per il prelievo, in genere una collocazione di stazionamento, una collocazione di spedizione o un collocazione ad uso speciale.  
+3.  Selezionare un articolo nel campo **Nr. articolo**, quindi immettere le quantità che si desidera prelevare.  
+4. Scegliere l'azione **Crea prelievo**. Verrà creata un'istruzione di prelievo indirizzata agli impiegati warehouse.  
 
 ## <a name="to-create-an-internal-put-away"></a>Per creare uno stoccaggio interno  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggio int. whse.**, quindi scegli il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**.
-3. Nella testata di un nuovo stoccaggio interno compilare almeno **Nr.** e **Cod. ubicazione**.
-4. Compilare una riga per ciascun articolo che si desidera trasferire nella warehouse. È sufficiente compilare i campi **Nr. articolo** e **Quantità**.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stocc. int. whse.** e quindi scegliere il collegamento correlato.  
+2.  Compilare il campo **Nr.** e il campo **Dal codice collocazione** nella Scheda dettaglio **Generale**. Il campo **Dal codice collocazione** indica la collocazione in cui vengono posizionati gli articoli restituiti alla warehouse, ad esempio dalla produzione.  
+3.  Immettere i numeri di articolo e le quantità nelle righe appropriate.  
+4.  Selezionare l'azione **Crea stoccaggio**. Verrà creata un'istruzione di stoccaggio indirizzata agli impiegati warehouse.  
 
-  > [!NOTE]  
-  > Quando si sceglie il campo **Nr. articolo**, viene visualizzata la finestra **Lista contenuto collocazione** anziché la finestra **Elenco articoli**. Questo si verifica perché si sta eseguendo lo stoccaggio di un articolo contenuto in una particolare collocazione, ovvero un *contenuto collocazione* e non semplicemente un articolo, e si conosce già la collocazione da cui l'articolo deve essere prelevato.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
-5. Per immettere nelle righe l'intero contenuto della collocazione o il contenuto di collocazioni specifiche nell'ubicazione, scegliere l'azione **Ottieni contenuto collocazione**.  
-6. Selezionare l'azione **Crea stoccaggio**. Verrà creata un'istruzione di stoccaggio indirizzata agli impiegati warehouse. In alternativa, è possibile scegliere l'azione **Rilascia** e creare stoccaggi warehouse utilizzando il **Prospetto stoccaggi**. Per ulteriori informazioni, vedere [Pianificare stoccaggi nei prospetti](warehouse-how-to-plan-put-aways-in-worksheets.md)
-
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

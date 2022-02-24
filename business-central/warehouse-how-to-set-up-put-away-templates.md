@@ -1,51 +1,43 @@
 ---
-title: Impostare i modelli di stoccaggio
-description: Usa i modelli di stoccaggio per farti suggerire le collocazioni più appropriate per i tuoi articoli in un dato momento.
+title: 'Procedura: Impostare i modelli di stoccaggio | Documenti Microsoft'
+description: Grazie alla funzionalità per stoccaggi e prelievi guidati, viene suggerita in qualsiasi momento la collocazione più appropriata per gli articoli sulla base del modello di stoccaggio impostato per la warehouse, le valutazioni assegnate alle collocazioni e le quantità minima e massima impostate per le collocazioni fisse.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 59cb78989d4926f3155d5ca3eb195a185b0031bd
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 811e3cda680d414694f1cf060bdb66390939e6d6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971225"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876397"
 ---
 # <a name="set-up-put-away-templates"></a>Impostare i modelli di stoccaggio
-
 Grazie alla funzionalità per stoccaggi e prelievi guidati, viene suggerita in qualsiasi momento la collocazione più appropriata per gli articoli sulla base del modello di stoccaggio impostato per la warehouse, le valutazioni assegnate alle collocazioni e le quantità minima e massima impostate per le collocazioni fisse.  
 
 È possibile impostare più modelli di stoccaggio e selezionarne uno per gestire gli stoccaggi nella warehouse. È inoltre possibile selezionare un modello di stoccaggio per qualsiasi articolo o unità di stockkeeping che presenta speciali requisiti di stoccaggio.  
 
-## <a name="to-set-up-put-away-templates"></a>Per impostare i modelli di stoccaggio
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli di stoccaggio**, quindi scegli il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**.  
-3. Specificare un codice che costituisce l'identificatore unico del modello da creare.  
-4. Se lo si desidera, immettere una breve descrizione.  
-5. Compilare la prima riga specificando i requisiti prioritari relativi alle collocazioni che dovranno essere soddisfatti nei suggerimenti per uno stoccaggio.
-
-    Ad esempio, se si desidera che il metodo di stoccaggio predefinito sia basato su collocazioni fisse scegliere il campo **Trova collocazione fissa**. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
-6. Compilare la seconda riga specificando i requisiti relativi alle collocazioni che dovranno essere soddisfatti in seconda istanza durante la ricerca di una collocazione per lo stoccaggio. La seconda riga viene utilizzata solo se non è possibile trovare una collocazione che soddisfi i requisiti specificati nella prima riga.  
-7. Compilare le righe successive fino a completa definizione di tutte le collocazioni accettabili che si desidera vengano utilizzate nel processo di stoccaggio.  
-8. Nell'ultima riga del modello di stoccaggio selezionare la casella di controllo **Trova collocazione variabile**.  
+## <a name="to-set-up-put-away-templates"></a>Per impostare i modelli di stoccaggio  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli stoccaggio** e quindi scegliere il collegamento correlato.  
+2.  Scegliere l'azione **Nuovo**.  
+3.  Specificare un codice che costituisce l'identificatore unico del modello da creare.  
+4.  Se lo si desidera, immettere una breve descrizione.  
+5.  Compilare la prima riga specificando i requisiti prioritari relativi alle collocazioni che dovranno essere soddisfatti nei suggerimenti per uno stoccaggio.  
+6.  Compilare la seconda riga specificando i requisiti relativi alle collocazioni che dovranno essere soddisfatti in seconda istanza durante la ricerca di una collocazione per lo stoccaggio. La seconda riga viene utilizzata solo se non è possibile trovare una collocazione che soddisfi i requisiti specificati nella prima riga.  
+7.  Compilare le righe successive fino a completa definizione di tutte le collocazioni accettabili che si desidera vengano utilizzate nel processo di stoccaggio.  
+8.  Nell'ultima riga del modello di stoccaggio selezionare la casella di controllo **Trova collocazione variabile**.  
 
 È possibile creare diversi modelli di stoccaggio e applicarli in base alle esigenze. Viene utilizzato innanzitutto il modello di stoccaggio selezionato per l'articolo o l'unità di stockkeeping, qualora disponibile. Se questi campi non vengono compilati, verrà utilizzato il modello di stoccaggio selezionato per la warehouse nella Scheda dettaglio **Criteri per collocazione** della scheda ubicazione.  
 
-## <a name="see-also"></a>Vedi anche
-
+## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
-[Gestione assemblaggio](assembly-assemble-items.md)  
+[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
+[Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

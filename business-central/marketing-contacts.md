@@ -1,28 +1,26 @@
 ---
-title: Creare e gestire i contatti della società
+title: Creare e gestire i contatti| Documenti Microsoft
 description: Si possono impostare come contatti tutte le entità esterne con cui si ha una relazione d'affari, ad esempio prospetti, clienti, fornitori e consulenti.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 581e89630782f4cfca364838002fa4eca4ddbb6d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 99345104555d8cba2887361a1de4941b24b7499a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060172"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181630"
 ---
 # <a name="managing-contacts"></a>Gestione dei contatti
-
 I dipendenti della tua azienda incontrano regolarmente potenziali relazioni commerciali che possono svilupparsi in relazioni formali. Tutti questi contatti esterni e le loro informazioni dettagliate dovrebbero essere registrati nel sistema in modo che la comunicazione abbia più successo e che possano quindi essere facilmente convertiti in relazioni formali con clienti, fornitori o banche.
-
-Usare l'elenco **Contatti** per gestire i contatti. Dall'elenco è possibile creare opportunità e gestire altre interazioni con i singoli contatti. È inoltre possibile visualizzare le statistiche su un contatto e accedere a una serie di report. Per informazioni su come trovare il contatto corretto nell'elenco, vedere [Ordinamento, ricerca e filtro](ui-enter-criteria-filters.md).  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
@@ -34,10 +32,5 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Eliminare la confusione quando due o più record sono presenti per lo stesso contatto.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Vedere anche
-
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
-[Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

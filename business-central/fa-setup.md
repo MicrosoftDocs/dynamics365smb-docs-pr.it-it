@@ -1,22 +1,22 @@
 ---
-title: Impostazione cespiti
+title: Impostare cespiti| Documenti Microsoft
 description: Informazioni sulla sequenza di attività da eseguire per impostare i cespiti, ad esempio macchinari o edifici.
-author: edupont04
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.search.form: 5607
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 874c1c18611f0aa165a8537642324334e8e0798a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: be5e86776d440763d069cecb9f45d0e6daeaeede
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029538"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184174"
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
@@ -40,14 +40,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Abilitare l'assicurazione dei cespiti, impostare le informazioni generali dell'assicurazione, una scheda assicurazione per ogni polizza e preparare le registrazioni per registrare i costi delle assicurazioni. |[Impostare l'assicurazione cespiti](fa-how-setup-insurance.md) |
 | Abilitare la manutenzione dei cespiti, impostare le informazioni di manutenzione generali, i conti di registrazione di manutenzione e definire i tipi di lavoro di manutenzione. |[Per impostare la manutenzione cespiti](fa-how-setup-maintenance.md) |
 | Ulteriori informazioni sui diversi metodi di ammortamento del cespite. |[Metodi di ammortamento](fa-depreciation-methods.md) |
-| Informazioni su come applicare metodi di ammortamento definiti dall'utente. |[Impostare i metodi di ammortamento definiti dall'utente](fa-how-setup-user-defined-depreciation-method.md) |
 
-
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Introduzione](product-get-started.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

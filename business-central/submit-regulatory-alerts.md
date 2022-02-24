@@ -1,19 +1,19 @@
 ---
-title: Inviare avvisi normativi
-description: Se ritieni che sia necessaria assistenza sulle normative di una nuova legislazione in Business Central, puoi utilizzare questa guida per inviare un avviso normativo al team di prodotto.
+title: Inviare avvisi normativi | Microsoft Docs
+description: Se si ritiene che sia necessaria assistenza sulle normative di una nuova legislazione in Business Central, è possibile utilizzare questa guida per inviare un avviso normativo al team di prodotto.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 349c930a5103814d6d7befc3a4e8135bc92081b0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319983"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192149"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Inviare avvisi su normative specifiche di un paese/area geografica
 
@@ -52,7 +52,7 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
         |Description  | Immettere una breve sintesi della legge. La descrizione deve riguardare i problemi pertinenti alla pianificazione delle risorse aziendali (ERP), in modo che gli utenti possano comprendere i requisiti senza dover dapprima leggere la legislazione.|
         |Paese  | Specificare il paese o la l'area geografica a cui la legislazione si applica.|
         |Settore| Specificare il settore se il requisito si applica soltanto a uno specifico settore. Ad esempio, scegliere **Settore pubblico**, **Vendita al dettaglio** o **Produzione**.|
-        |Riferimento funzionalità  | Questo campo non è pertinente a Dynamics 365 Business Central, ma è possibile immettere un riferimento funzionalità, se lo si conosce. L'elenco delle funzionalità per un determinato paese è disponibile nel [portale di localizzazione](/dynamics/s-e/) sul sito CustomerSource. |
+        |Riferimento funzionalità  | Questo campo non è pertinente a Dynamics 365 Business Central, ma è possibile immettere un riferimento funzionalità, se lo si conosce. L'elenco delle funzionalità per un determinato paese è disponibile nel [portale di localizzazione](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) sul sito CustomerSource. |
         |Data imposta per legge  | Specificare la data a partire dalla quale i clienti interessati devono conformarsi alla legge.|
         |Data annuncio governativo  | Specificare la data in cui l'autorità ha annunciato la modifica.|
         |Data ultima registrazione  | Selezionare il termine ultimo per il primo invio del nuovo report o del report modificato.|
@@ -74,12 +74,9 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 
 ## <a name="see-also"></a>Vedere anche
 
-[Funzionalità locale in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
+[Funzionalità locale in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
 [Modifica di lingua e impostazioni locali](about-locale-language.md)  
-[Preparazione al business](ui-get-ready-business.md)  
+[Introduzione](product-get-started.md)  
 [Benvenuto su Business Central](index.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

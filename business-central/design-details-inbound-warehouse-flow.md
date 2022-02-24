@@ -1,21 +1,21 @@
 ---
-title: Dettagli di progettazione - Flusso warehouse in entrata
-description: Il flusso di warehouse in entrata inizia quando gli articoli arrivano nell'ubicazione della società di warehouse. Gli articoli vengono registrati ed eventualmente associati ai documenti di origine in entrata.
+title: 'Dettagli di progettazione: Flusso warehouse in entrata | Microsoft Docs'
+description: Il flusso in entrata in una warehouse inizia quando gli articoli arrivano nella warehouse dell'ubicazione della società, ricevuti dalle origini esterne o da un'altra ubicazione della società. Un impiegato registra gli articoli, in genere eseguendo la scansione di un codice a barre. Dal dock di ricezione, le attività di magazzino vengono eseguite a livelli diversi di complessità per introdurre gli articoli nell'area di immagazzinamento.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 1a20981117fd92751fd9890c8db6feda6120eab8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441774"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185422"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in entrata
 Il flusso in entrata in una warehouse inizia quando gli articoli arrivano nella warehouse dell'ubicazione della società, ricevuti dalle origini esterne o da un'altra ubicazione della società. Un impiegato registra gli articoli, in genere eseguendo la scansione di un codice a barre. Dal dock di ricezione, le attività di magazzino vengono eseguite a livelli diversi di complessità per introdurre gli articoli nell'area di immagazzinamento.  
@@ -35,7 +35,7 @@ Gli ultimi due rappresentano i flussi in entrata nella warehouse dalle aree oper
 
 I processi e i documenti dell'interfaccia utente nei flussi di warehouse in entrata sono diversi nelle configurazioni di base e avanzata della warehouse. La principale differenza consiste nel fatto che le attività sono eseguite ordine per ordine nelle configurazioni di base della warehouse e vengono consolidate per più ordini nelle configurazioni avanzate della warehouse. Per ulteriori informazioni sui diversi livelli di complessità della warehouse, vedere [Dettagli di progettazione: Panoramica warehouse](design-details-warehouse-setup.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
 
 |Metodo|Processo in entrata|Collocazioni|Carichi|Stoccaggi|Livello di complessità (vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -51,7 +51,7 @@ Nei metodi A, B e C, le azioni di carico e di stoccaggio sono combinate in un un
 ## <a name="basic-warehouse-configurations"></a>Configurazioni di base della warehouse  
 Nel diagramma seguente vengono illustrati i flussi warehouse in entrata per tipo di documento nelle configurazioni di base della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
-![Flusso in entrata nelle configurazioni di base della warehouse.](media/design_details_warehouse_management_inbound_basic_flow.png "Flusso in entrata nelle configurazioni di base della warehouse")  
+![Flusso in entrata nelle configurazioni di base della warehouse](media/design_details_warehouse_management_inbound_basic_flow.png "Flusso in entrata nelle configurazioni di base della warehouse")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Rilasciare il documento di origine / Creare stoccaggio di inventario  
 Quando gli articoli vengono caricati nella warehouse, l'utente responsabile della ricezione pubblica il documento di origine, ad esempio un ordine di acquisto o di trasferimento in entrata, per segnalare agli addetti alla warehouse che gli articoli caricati possono essere stoccati in magazzino. In alternativa, l'utente crea documenti di stoccaggio magazzino per le singole righe ordine, in modalità push, in base alle collocazioni specificate e le quantità da gestire.  
@@ -70,7 +70,7 @@ Vengono creati i movimenti contabili articoli positivi e i movimenti warehouse e
 ## <a name="advanced-warehouse-configurations"></a>Configurazioni avanzate della warehouse  
 Nel diagramma seguente viene illustrato il flusso warehouse in entrata per tipo di documento nelle configurazioni avanzate della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
-![Flusso in entrata nelle configurazioni avanzate della warehouse.](media/design_details_warehouse_management_inbound_advanced_flow.png "Flusso in entrata nelle configurazioni avanzate della warehouse")  
+![Flusso in entrata nelle configurazioni avanzate della warehouse](media/design_details_warehouse_management_inbound_advanced_flow.png "Flusso in entrata nelle configurazioni avanzate della warehouse")  
 
 ### <a name="1-release-source-document"></a>1: Rilasciare documenti di origine  
 Quando gli articoli vengono caricati nella warehouse, l'utente responsabile della ricezione pubblica il documento di origine, ad esempio un ordine di acquisto o di trasferimento in entrata, per segnalare agli addetti alla warehouse che gli articoli caricati possono essere stoccati in magazzino.  
@@ -110,6 +110,3 @@ I movimenti warehouse vengono creati e le righe di stoccaggio warehouse vengono 
 
 ## <a name="see-also"></a>Vedere anche  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

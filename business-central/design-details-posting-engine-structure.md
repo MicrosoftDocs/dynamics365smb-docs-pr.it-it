@@ -1,21 +1,21 @@
 ---
-title: Dettagli di progettazione - Struttura del motore di registrazione
-description: L'interfaccia di registrazione utilizza le funzioni del motore di registrazione per preparare e inserire record di movimenti di contabilità generale e IVA.
+title: 'Dettagli di progettazione: Struttura del motore di registrazione | Microsoft Docs'
+description: L'interfaccia di registrazione e alcune altre funzioni nella codeunit 12 utilizzare le funzioni del motore di registrazione e inseriscono record di movimenti di contabilità generale e IVA. Il motore di registrazione è inoltre responsabile della creazione del registro di contabilità generale.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 68375a306983551a51a59ac448b4f0bfa7ad6917
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3e49d9c521ebfb73caeae6987472c5123ab54eba
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318410"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185470"
 ---
 # <a name="design-details-posting-engine-structure"></a>Dettagli di progettazione: struttura del motore di registrazione
 L'interfaccia di registrazione e alcune altre funzioni nella codeunit 12 utilizzare le funzioni del motore di registrazione e inseriscono record di movimenti di contabilità generale e IVA. Il motore di registrazione è inoltre responsabile della creazione del registro di contabilità generale.  
@@ -39,5 +39,3 @@ L'interfaccia di registrazione e alcune altre funzioni nella codeunit 12 utilizz
   
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

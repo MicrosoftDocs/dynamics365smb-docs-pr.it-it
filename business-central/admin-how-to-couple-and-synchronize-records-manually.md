@@ -1,37 +1,34 @@
 ---
-title: Associazione e sincronizzazione (video)
-description: La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record in una tabella in Business Central e in una tabella in Dynamics 365 Sales che sono associate.
+title: Associare e sincronizzare i record manualmente | Microsoft Docs
+description: La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record in una tabella in Business Central e nell'entità Dynamics 365 Sales che sono associati.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.search.form: 6250
-ms.date: 10/01/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c7d62f1122aee1930dd98ed008b7820e88fe9b14
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 0c70b1ba34af32b7cf542149c8f15cb191761358
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115422"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308118"
 ---
-# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Accoppiamento e sincronizzazione dei record tra Dataverse e Business Central
-
-In questo argomento viene descritto come associare uno o più record in [!INCLUDE[prod_short](includes/prod_short.md)] a record in Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. L'associazione di record consente di visualizzare le infomazioni di Dataverse da [!INCLUDE[prod_short](includes/prod_short.md)] e viceversa. L'associazione consente inoltre di sincronizzare dati tra i record. È possibile associare i record esistenti, oppure creare e associare nuovi record.
+# <a name="couple-and-synchronize-records-manually"></a>Associare e sincronizzare i record manualmente
+In questo argomento viene descritto come associare uno o più record in [!INCLUDE[d365fin](includes/d365fin_md.md)] a record in [!INCLUDE[crm_md](includes/crm_md.md)]. L'associazione di record consente di visualizzare le infomazioni di [!INCLUDE[crm_md](includes/crm_md.md)] da [!INCLUDE[d365fin](includes/d365fin_md.md)] e viceversa. L'associazione consente inoltre di sincronizzare dati tra i record. È possibile associare i record esistenti, oppure creare e associare nuovi record.
 
 > [!Note]
-> L'associazione e la sincronizzazione dei dati è disponibile solo se l'amministratore di sistema ha creato una connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] e Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. Un modo rapido di verificare è di aprire la scheda **Cliente** e di cercare l'azione **Imposta associazione**. Se l'azione è disponibile, le app sono collegate.   
-
-## <a name="video-example"></a>Esempio di video
-Questo video mostra l'associazione e la sincronizzazione dei dati nel contesto di un'integrazione con [!INCLUDE[crm_md](includes/crm_md.md)].
+> L'associazione e la sincronizzazione con [!INCLUDE[crm_md](includes/crm_md.md)] sono disponibili solo se l'amministratore di sistema ha creato una connessione tra [!INCLUDE[d365fin](includes/d365fin_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)]. Un modo rapido di verificare è di aprire la scheda **Cliente** e di cercare l'azione **Imposta associazione**. Se l'azione è disponibile, le app sono collegate.   
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 
 ## <a name="to-couple-a-record"></a>Per associare un record  
-1.  In [!INCLUDE[prod_short](includes/prod_short.md)], aprire la scheda del record da associare. Ad esempio, la scheda Cliente o Contatto.  
+1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], aprire la scheda del record da associare. Ad esempio, la scheda Cliente o Contatto.  
 
     È inoltre possibile aprire la pagina elenco e selezionare il record che si desidera associare.  
 
@@ -39,35 +36,14 @@ Questo video mostra l'associazione e la sincronizzazione dei dati nel contesto d
 3.  Compilare i campi e scegliere **OK**.  
 
 ## <a name="to-synchronize-a-single-record"></a>Per sincronizzare un singolo record  
-1.  In [!INCLUDE[prod_short](includes/prod_short.md)], aprire la scheda del record da associare. Ad esempio, la scheda Cliente o Contatto.  
+1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], aprire la scheda del record da associare. Ad esempio, la scheda Cliente o Contatto.  
 2.  Scegliere l'azione **Sincronizza adesso**.  
-3.  Se un record può essere sincronizzato in una direzione, selezionare l'opzione che specifica la direzione di aggiornamento dei dati e scegliere **OK**.  
-
-## <a name="to-synchronize-a-single-record-from-crm_md"></a>Per sincronizzare un singolo record da [!INCLUDE[crm_md](includes/crm_md.md)]  
-1.  In [!INCLUDE[crm_md](includes/crm_md.md)], aprire il modulo del record da associare. Ad esempio, la scheda Account o il modulo scheda Contatto.  
-2.  Scegli l'azione **[!INCLUDE[prod_short](includes/prod_short.md)]** nella barra multifunzione per aprire e associare automaticamente il record.
-
-> [!Note]
-> È possibile sincronizzare un singolo record da [!INCLUDE[crm_md](includes/crm_md.md)] automaticamente solo quando **Sinc. solo record associati** è disabilitata e la direzione di sincronizzazione è impostata su Bidirezionale o Da tabella di integrazione nella pagina **Integration Table Mapping** per il record. Per ulteriori informazioni, vedere [Mappatura delle tabelle e dei campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
-
-## <a name="to-couple-multiple-records-using-match-based-coupling"></a>Per accoppiare più record usando l'accoppiamento basato sulla corrispondenza
-
-Puoi specificare i dati da sincronizzare per un'entità, come un cliente o un contatto, accoppiando i record in base alle corrispondenze. Puoi raffinare le corrispondenze rendendo la ricerca sensibile alle maiuscole e assegnando una priorità per ogni corrispondenza. Se non viene trovata alcuna corrispondenza, si può anche specificare che si vuole creare l'entità in Dataverse. Per maggiori informazioni, vedere [Personalizzare l'accoppiamento basato sulla corrispondenza](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
-
-1. In [!INCLUDE[prod_short](includes/prod_short.md)], aprire la pagina elenco per il record, ad esempio le pagine elenco Clienti o Contatti.
-2. scegli l'azione **Accoppiamento basato su corrispondenza** .
-3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3.  Se un record può essere sincronizzato da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] o da [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], selezionare l'opzione che specifica la direzione di aggiornamento dei dati e scegliere **OK**.  
 
 ## <a name="to-synchronize-multiple-records"></a>Per sincronizzare più record  
-1.  In [!INCLUDE[prod_short](includes/prod_short.md)], aprire la pagina elenco per il record, ad esempio le pagine elenco Clienti o Contatti.  
+1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], aprire la pagina elenco per il record, ad esempio le pagine elenco Clienti o Contatti.  
 2.  Selezionare i record che si intende sincronizzare, quindi scegliere **Sincronizza adesso**.  
-3.  Se i record possono essere sincronizzati in una direzione, selezionare l'opzione che specifica la direzione e scegliere **OK**.  
-
-## <a name="uncoupling-records"></a>Annullare l'associazione di record
-È possibile annullare l'associazione di uno o più record nelle pagine di elenco o nella pagina **Errori di sincronizzazione dati associati** scegliendo una o più righe e quindi **Elimina associazione**. È inoltre possibile rimuovere tutte le associazioni per una o più mapping di tabella nella pagina **Mapping tabella integrazione**.
+3.  Se i record possono essere sincronizzati da [!INCLUDE[d365fin](includes/d365fin_md.md)] a [!INCLUDE[crm_md](includes/crm_md.md)] o da [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[d365fin](includes/d365fin_md.md)], selezionare l'opzione che specifica la direzione di aggiornamento dei dati e scegliere **OK**.  
 
 ## <a name="see-also"></a>Vedere anche  
 [Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

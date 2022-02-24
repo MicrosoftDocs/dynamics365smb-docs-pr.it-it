@@ -1,25 +1,24 @@
 ---
-title: Riconciliare i costi di magazzino con la contabilità generale
-description: Al termine dei periodi contabili, è necessario eseguire una sequenza di task di revisione e controllo dei costi in modo da comunicare il valore di magazzino corretto e bilanciato.
+title: Come registrare costi di magazzino nella contabilità generale | Microsoft Docs
+description: Descrive come gestire i prodotti fisici che si vendono, ad esempio, la gestione dello stock nella warehouse.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 9297
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: e59328df68eb4d936ea472c55a160be5fe13ecd6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ce4b573500967e6981fa2cba9b306324f2f43339
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971632"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183358"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Riconciliare i costi di magazzino con la contabilità generale
-
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale.
 
 La registrazione automatica dei costi viene definita dal campo **Reg. automatica costi** nella pagina **Setup magazzino**.
@@ -27,8 +26,7 @@ La registrazione automatica dei costi viene definita dal campo **Reg. automatica
 Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Per ulteriori informazioni, vedere [Rettificare i costi articoli](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Per registrare manualmente i costi di magazzino
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registra costo magazzino in C/G**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registra costo magazzino in CG** e quindi scegliere il collegamento correlato.
 2. Per registrare manualmente i costi di magazzino nella contabilità generale, eseguire il processo batch. Quando si esegue questo processo batch, vengono creati i movimenti C/G sulla base dei movimenti di valorizzazione. È possibile registrare i movimenti in modo che vengano riepilogati per categoria di registrazione.
 
 > [!NOTE]  
@@ -71,24 +69,9 @@ Nelle colonne successive sono visualizzati i totali per gli stessi tipi di conto
 
 Scegliere l'importo in qualsiasi campo relativo ai totali per visualizzare i movimenti report magazzino utilizzati per calcolare i totali. Per i totali di magazzino, i movimenti report magazzino sono costituiti dalle somme dei movimenti di valorizzazione per gli articoli. Per i totali del conto C/G, i movimenti report magazzino sono costituiti dalle somme calcolate dai movimenti C/G.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creazione di report dei costi e riconciliazione con la contabilità generale
-Altri report, funzioni di tracciabilità e uno speciale strumento di riconciliazione sono a disposizione del revisore o del controllore responsabile della comunicazione di un valore di magazzino corretto e bilanciato al reparto finanziario.
-
-Questi sono descritti nella tabella seguente.    
-
-|**Per**|**Vedere**|  
-|------------|-------------|  
-|Visualizzare il valore di magazzino degli articoli selezionati, incluse le informazioni relative alle quantità e ai valori di aumenti e diminuzioni del magazzino per un determinato periodo.|Report **Valutazione magazzino**|  
-|Visualizzare il valore di magazzino degli ordini di produzione selezionati nel magazzino WIP, ad esempio le quantità e i valori del consumo, l'utilizzo della capacità e l'output negli ordini di produzione in corso.|Report **Valutazione magazzino - WIP**|  
-|Visualizzare il valore di magazzino degli articoli selezionati, incluso il relativo costo effettivo e previsto alla data specificata.|Report **Valutazione magazzino - Specifica costi**|  
-|Utilizzare un report per analizzare i motivi delle variazioni di costo o per ottenere informazioni relative al dettaglio costi degli articoli venduti (COGS).|Report **Breakdown dettaglio costi**|  
-
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedi anche  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)    
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

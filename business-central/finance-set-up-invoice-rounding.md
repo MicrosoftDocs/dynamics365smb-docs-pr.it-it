@@ -1,21 +1,21 @@
 ---
-title: Impostare l'arrotondamento delle fatture
-description: Se è necessario arrotondare gli importi delle fatture quando si creano le fatture, è possibile utilizzare la funzione di arrotondamento automatica spiegata qui.
+title: Impostare l'arrotondamento delle fatture | Microsoft Docs
+description: È possibile arrotondare gli importi delle fatture quando si creano fatture. È inoltre possibile che la normativa o le autorità locali impongano una modalità di arrotondamento specifica, ad esempio a un importo divisibile per 0,05.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5, 16, 118, 459, 460, 495
-ms.date: 06/16/2021
+ms.search.keywords: ''
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ca3ff9c7d9d5f1ac3dd665836e6ef97a5e6ac6cf
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 1563d1a38879379d7f517d50493b310d6d6a70ac
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971355"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182854"
 ---
 # <a name="set-up-invoice-rounding"></a>Impostare l'arrotondamento delle fatture
 Se è necessario arrotondare gli importi delle fatture quando si creano le fatture, è possibile utilizzare la funzione di arrotondamento automatica. Quando una fattura viene arrotondata, viene aggiunta un'ulteriore riga con l'importo di arrotondamento. Questa riga verrà contabilizzata insieme alle altre righe della fattura.
@@ -36,8 +36,8 @@ Per utilizzare l'arrotondamento fattura automatico, è necessario:
 Per utilizzare la funzione di arrotondamento fattura automatico, è necessario impostare il conto o i conti di contabilità generale in cui verranno registrate le differenze di arrotondamento. Prima di ciò è necessario impostare le categorie di registrazione articolo/servizio IVA. Per ulteriori informazioni, vedere [Impostare l'IVA](finance-setup-vat.md).  
 
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Per impostare i conti contabilità generale per le differenze di arrotondamento fattura  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
-2. Nella pagina **Piano dei conti** impostare il conto e assegnargli il nome **Arrotondamento fattura** o simile. In [!INCLUDE[prod_short](includes/prod_short.md)] il nome del conto verrà utilizzato come testo per le fatture arrotondate.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
+2. Nella pagina **Piano dei conti** impostare il conto e assegnargli il nome **Arrotondamento fattura** o simile. In [!INCLUDE[d365fin](includes/d365fin_md.md)] il nome del conto verrà utilizzato come testo per le fatture arrotondate.  
 3. A seconda che si utilizzi l'IVA o la tassa sulla vendita, nei campi **Cat. reg. art./serv. imposta** o **Cat. reg. art./serv. IVA**, scegliere una categoria di registrazione per gli importi arrotondati. È possibile impostare un nuovo codice di gruppo da utilizzare per l'arrotondamento delle fatture.
 4. Lasciare vuoti i campi **Tipo reg. gen.** e **Cat. reg. business imposta** o **Cat. reg. business IVA**. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 
@@ -47,22 +47,19 @@ A questo punto è possibile assegnare il conto arrotondamento fatture alle categ
 Prima di poter utilizzare la funzione di arrotondamento delle fatture, è necessario impostare le regole di arrotondamento per le valute locali ed estere.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Per impostare l'arrotondamento per le valute estere  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valute**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Valute** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Valute** scegliere la valuta estera per aprire la **Scheda valuta**, quindi compilare i campi **Precisione arrot. importo**, **Precisione arrot. importo unit.**, **Precisione arrot. fatt.** e **Tipo arrot. fatt.**.
 
 ### <a name="to-set-up-rounding-for-your-local-currency"></a>Per impostare l'arrotondamento per la valuta locale
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Setup contabilità generale**, nella Scheda dettaglio **Generale**, compilare i campi **Precisione arrot. fatt.** e **Tipo arrot. fatt.**.  
 
 ## <a name="activate-the-invoice-rounding-function"></a>Attivare la funzione di arrotondamento fatture  
 Per assicurarsi che le fatture di acquisto e vendita vengano arrotondate automaticamente è necessario attivare la funzione di arrotondamento fatture. È possibile attivare la funzione di arrotondamento in maniera indipendente per le fatture relative alle vendite e gli acquisti.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti** o **Setup contabilità fornitori**, quindi seleziona il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità clienti e vendite** o **Setup contabilità fornitori e acquisti** e quindi scegliere il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale** selezionare la casella di controllo **Arrotondamento fattura**.  
 
 ## <a name="see-also"></a>Vedere anche  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

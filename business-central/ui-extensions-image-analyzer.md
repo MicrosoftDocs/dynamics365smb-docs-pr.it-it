@@ -1,38 +1,36 @@
 ---
-title: Estensione di analisi immagini
+title: Utilizzo dell'estensione di analisi immagini | Documenti Microsoft
 description: Questa estensione consente di analizzare le immagini delle persone di contatto e degli articoli per trovare gli attributi e quindi assegnarli rapidamente in Business Central.
-author: brentholtorf
+documentationcenter: ''
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 05/19/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2726efed6050dd4a2ada5e3056d446e16fb4e5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5e7312e6e660d74089b0dce43ddf015be60ab446
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434996"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315498"
 ---
 # <a name="the-image-analyzer-extension"></a>Estensione di analisi immagini
-
-L'estensione di analisi immagini utilizza potenti funzionalità di analisi delle immagini fornite dall'API per Azure Cognitive Services per individuare gli attributi nelle immagini importate per gli articoli e le persone di contatto, in modo da potere esaminare e assegnare questi elementi con semplicità. Per gli articoli, agli attributi possono indicare, ad esempio, se si tratta di un tavolo o un'automobile o se è di colore rosso o blu. Per i contatti, gli attributi possono riguardare il sesso o l'età.
+L'estensione di analisi immagini utilizza potenti funzionalità di analisi delle immagini fornite dall'API Visione artificiale dei Servizi cognitivi Microsoft per individuare gli attributi nelle immagini importate per gli articoli e le persone di contatto, in modo da potere esaminare e assegnare questi elementi con semplicità. Per gli articoli, agli attributi possono indicare, ad esempio, se si tratta di un tavolo o un'automobile o se è di colore rosso o blu. Per i contatti, gli attributi possono riguardare il sesso o l'età.
 
 L'analisi immagini suggerisce gli attributi in base ai tag trovati dall'API Visione artificiale e ne indica il livello di affidabilità. Per impostazione predefinita, l'estensione suggerisce gli attributi solo se presentano un livello di affidabilità minimo dell'80% riguardo all'esattezza dell'attributo. È possibile impostare un livello di affidabilità diverso, se necessario. Per ulteriori informazioni su tag e livello di affidabilità, vedere [API Visione artificiale](https://go.microsoft.com/fwlink/?linkid=851476).  
 
-L'estensione di analisi immagini è gratuita in [!INCLUDE[prod_short](includes/prod_short.md)], ma esiste un limite al numero di articoli che è possibile analizzare durante un determinato periodo di tempo. Per impostazione predefinita, è possibile analizzare 100 immagini al mese.
+L'estensione di analisi immagini è gratuita in [!INCLUDE[d365fin](includes/d365fin_md.md)], ma esiste un limite al numero di articoli che è possibile analizzare durante un determinato periodo di tempo. Per impostazione predefinita, è possibile analizzare 100 immagini al mese.
 
 Dopo che l'estensione è stata abilitata, l'analisi delle immagini viene eseguita ogni volta che si importa un'immagine in un articolo o un contatto. Verranno visualizzati gli attributi, il livello di affidabilità e i dettagli immediatamente ed è possibile decidere quali azioni intraprendere con ogni attributo. Se le immagini sono state importate prima di avere abilitato l'estensione di analisi di immagini, è necessario passare all'articolo o alle schede contatti e scegliere l'azione **Analizza immagine**.  
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
-
-Questa estensione utilizza l'API Visione artificiale di Azure Cognitive Services, che può avere livelli diversi di conformità rispetto a [!INCLUDE[prod_short](includes/prod_short.md)]. Quando si abilita l'estensione di analisi immagini, i dati del cliente quali un'immagine del contatto o un'immagine degli articoli verranno registrati nell'API Visione artificiale. Se si installa questa estensione si acconsente che questo set di dati limitato venga inviato all'API Visione artificiale. Si noti che è possibile disabilitare nonché disinstallare, l'estensione di analisi immagini in qualsiasi momento e interrompere utilizzo di questa funzione. Per ulteriori informazioni, vedere [Centro protezione Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
+Questa estensione utilizza l'API Visione artificiale di Servizi cognitivi Microsoft, che può avere livelli diversi di conformità rispetto a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Quando si abilita l'estensione di analisi immagini, i dati del cliente quali un'immagine del contatto o un'immagine degli articoli verranno registrati nell'API Visione artificiale. Se si installa questa estensione si acconsente che questo set di dati limitato venga inviato all'API Visione artificiale. Si noti che è possibile disabilitare nonché disinstallare, l'estensione di analisi immagini in qualsiasi momento e interrompere utilizzo di questa funzione. Per ulteriori informazioni, vedere [Centro protezione Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Requisiti
-
 Le immagini devono soddisfare alcuni requisiti:
 
 * Formato immagine: JPEG, PNG, GIF, BMP  
@@ -40,97 +38,59 @@ Le immagini devono soddisfare alcuni requisiti:
 * Dimensioni immagine: superiori a 50 x 50 pixel  
 
 ## <a name="to-enable-image-analyzer"></a>Per abilitare l'analisi immagini
-
-L'estensione di analisi delle immagini è incorporata in [!INCLUDE[prod_short](includes/prod_short.md)]. È solo necessario attivarla.
+L'estensione di analisi delle immagini è incorporata in [!INCLUDE[d365fin](includes/d365fin_md.md)]. È solo necessario attivarla.
 
 > [!NOTE]  
-> Per abilitare l'estensione di analisi delle immagini, è necessario disporre dei diritti di amministratore. Assicurarsi di disporre del set di autorizzazioni come utente con privilegi **AVANZATI**. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
+> Per abilitare l'estensione di analisi delle immagini, è necessario disporre dei diritti di amministratore. Assicurarsi di disporre del set di autorizzazioni come utente con privilegi **AVANZATI**.
 
-Per attivare l'estensione di analisi immagini, effettuare una delle seguenti azioni:
+1. Per attivare l'estensione di analisi immagini, effettuare una delle seguenti operazioni:
 
 * Aprire un articolo o una scheda contatto. Nella barra di notifica scegliere **Analisi immagine** e seguire i passaggi nella Guida assistita di setup.  
-* Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli **Setup analisi immagine**. Scegliere la casella di controllo **Abilita analisi immagine** e completare i passaggi nella Guida assistita di setup.  
+* Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere **Setup analisi immagine**. Scegliere la casella di controllo **Abilita analisi immagine** e completare i passaggi nella Guida assistita di setup.  
 
     > [!TIP]  
     > Nella pagina **Setup analisi immagine** è possibile anche modificare il grado di affidabilità per i suggerimenti relativi all'attributo. Ad esempio, se si intende richiedere un maggior grado di affidabilità, è possibile immettere un valore percentuale più alto.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Per analizzare un'immagine di un articolo
-
 Nei seguenti passaggi viene descritto come analizzare un'immagine importata prima dell'abilitazione dell'estensione di analisi immagini.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
 2. Selezionare l'articolo, quindi scegliere l'azione **Analizza immagine**.  
-3. Nella pagina **Attributi analisi immagini** vengono visualizzati gli attributi trovati, il livello di affidabilità e altre informazioni relative all'attributo. Usa le opzioni **Azione da eseguire** per specificare cosa fare con l'attributo o scegliere **Aggiungi a descrizione articolo** per aggiungere il nome dell'attributo alla descrizione dell'oggetto. Ad esempio, questo può essere utile per aggiungere rapidamente un dettaglio. 
+3. Nella pagina **Attributi analisi immagini** vengono visualizzati gli attributi trovati, il livello di affidabilità e altre informazioni relative all'attributo. Utilizzare le opzioni **Azione da eseguire** per specificare l'azione da intraprendere per l'attributo.  
 
-L'azione **Azione da eseguire** ha le seguenti opzioni:
-
-  * *Ignora*
-
-    Nessuna azione verrà eseguita
-  * *Usa come attributo*
-
-    Il valore viene aggiunto agli attributi dell'elemento. Per ulteriori informazioni, vedere [Utilizzare gli Attributi articolo](inventory-how-work-item-attributes.md)
-  * *Usa come categoria*
-
-    Il valore selezionato viene aggiunto come categoria. Per ulteriori informazioni, vedere [Classificare gli articoli](inventory-how-categorize-items.md)
-  * *Aggiungi a elenco elementi bloccati*
-
-    Se l'analisi propone un attributo che non si desidera visualizzare, è possibile bloccare l'attributo. Tuttavia, prestare attenzione. Gli attributi bloccati non verranno suggeriti nemmeno per altri articoli. Se cambi idea sul blocco di un articolo, puoi scegliere **Visualizza attributi bloccati** e quindi eliminare l'attributo dall'elenco.
-  
-    > [!NOTE]  
-    > Per impostazione predefinita, in **Attributi oggetto** vengono visualizzati gli attributi in cui **Punteggio di fiducia** è al di sopra di **Soglia punteggio affidabilità in %** definito in **Setup Analizzatore immagine**. Per vedere tutti gli attributi rilevati, scegli l'azione **Visualizza tutti gli attributi**.
+    > [!TIP]  
+    > È possibile aggiungere il nome dell'attributo alla descrizione dell'articolo selezionando **Aggiungi a descrizione articolo**. Ad esempio, questo può essere utile per aggiungere rapidamente un dettaglio.  
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Per analizzare un'immagine di una persona di contatto
-
 Nei seguenti passaggi viene descritto come analizzare un'immagine importata prima dell'abilitazione dell'estensione di analisi immagini.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contatti** e quindi scegliere il collegamento correlato.  
 2. Selezionare la persona di contatto, quindi scegliere l'azione **Analizza immagine**.  
-3. Nella Scheda dettaglio **Questionario profilo**, esaminare i suggerimenti e apportare le correzioni, se necessario. Per ulteriori informazioni, vedere [Utilizza i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md).  
+3. Nella Scheda dettaglio **Questionario profilo**, esaminare i suggerimenti e apportare le correzioni, se necessario.  
 
-    > [!NOTE]  
-    > 
-    > L'API Visione artificiale restituisce i seguenti attributi:
-    > * *età*
-    >
-    >     Un'età visiva stimata in anni. È l'età di una persona rispetto all'età biologica effettiva.
-    > * *sesso*
-    >
-    >    Maschio o femmina.
-    > 
-    > L'API Visione artificiale non restituisce il livello di confidenza per gli attributi di età e sesso.
-  
+## <a name="blacklisting-suggested-attributes"></a>Creare una blacklist degli attributi suggeriti
+Se l'analisi propone un attributo che non si desidera visualizzare, è possibile inserire l'attributo in una blacklist. Tuttavia, prestare attenzione. Gli attributi inclusi nella blacklist non verranno suggeriti nemmeno per altri articoli o persone di contatto. Se si cambia idea sull'inserimento di un articolo nella blacklist, è possibile scegliere **Attributi blacklist** e quindi l'attributo da eliminare dall'elenco.
+
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Per utilizzare il proprio account per l'API Visione artificiale
-
 È anche possibile utilizzare il proprio account per l'API Visione artificiale, ad esempio, se si desidera analizzare più immagini rispetto al numero consentito.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup Analizzatore immagine**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup Analizzatore immagine** e quindi scegliere il collegamento correlato.  
 2. Immettere l' **URI API** e la **Chiave API** ricevuti per l'API Visione artificiale.  
 
     > [!NOTE]  
     > È necessario aggiungere **/analyze** alla fine dell'URI API, se non è già presente. Ad esempio: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```
 
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Per visualizzare il numero delle analisi rimanenti per il periodo corrente
-
 È possibile visualizzare il numero delle analisi effettuate e il numero rimanente per il periodo corrente.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup Analizzatore immagine**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup Analizzatore immagine** e quindi scegliere il collegamento correlato.  
 2. I campi **Tipo di limite**, **Valore limite** e **Analisi eseguite** forniscono informazioni sull'utilizzo.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Per interrompere l'utilizzo dell'estensione di analisi immagini
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli **Setup Analizzatore immagine**.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Connessioni servizio** e quindi scegliere **Setup Analizzatore immagine**.  
 2. Deselezionare la casella di controllo **Abilita analisi immagine**.  
 
-In alternativa, disinstalla completamente l'estensione. Puoi sempre recuperarla da AppSource. Per ulteriori informazioni, vedi [Installazione e disinstallazione delle estensioni in Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  
-
-## <a name="see-also"></a>Vedere anche
-
+## <a name="see-also"></a>Vedi anche
 [Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md)  
-[Classificare gli articoli](inventory-how-categorize-items.md)  
-[Utilizzare i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md)  
-[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
+[Introduzione](product-get-started.md)  

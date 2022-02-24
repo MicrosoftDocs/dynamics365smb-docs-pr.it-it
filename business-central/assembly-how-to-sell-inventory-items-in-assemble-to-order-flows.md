@@ -1,23 +1,23 @@
 ---
-title: Come vendere gli articoli di magazzino nei flussi assemblaggio su ordine
-description: Se un articolo è impostato per l'assemblaggio su ordine, l'articolo deve essere assemblato per gli ordini di vendita e viene creato automaticamente un ordine di assemblaggio collegato.
+title: Come vendere gli articoli di magazzino nei flussi assemblaggio su ordine | Microsoft Docs
+description: Se l'articolo è impostato per la scheda di assemblaggio su ordine, il processo di default dell'ordine di vendita presuppone che l'articolo non sia in magazzino e debba essere assemblato per tale ordine di vendita specifico. Di conseguenza, un ordine di assemblaggio collegato viene automaticamente creato quando si aggiunge l'articolo a una riga dell'ordine di vendita.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 35fa56c5a0b465f07a38bddc44f5f569283b2a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e33bc68698a20909e1eda1e6a7e19501b9c38fc5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435397"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186358"
 ---
-# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vendere gli articoli di magazzino nei flussi di assemblaggio su ordine
+# <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vendere gli articoli di magazzino nei flussi da assemblare su ordine
 Se il campo **Criteri di assemblaggio** nella scheda articolo di un articolo di assemblaggio contiene **Assemblaggio su ordine**, il processo di default dell'ordine di vendita presuppone che l'articolo non sia in magazzino e debba essere assemblato per tale ordine di vendita specifico. Di conseguenza, un ordine di assemblaggio collegato viene automaticamente creato quando si aggiunge l'articolo a una riga dell'ordine di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md). Tuttavia, se una parte della quantità dell'ordine di vendita è già disponibile in magazzino, interamente, è possibile ridurre la quantità dell'ordine di assemblaggio modificando il campo **Qtà per assemblaggio su ordine** nella riga dell'ordine di vendita.  
 
 Questo è uno scenario raro poiché si prevede che gli articoli di assemblaggio su ordine siano sempre personalizzati ed è poco probabile che si trovino in magazzino nella configurazione richiesta da un altro cliente. Tuttavia, se una società dispone di quantità di assemblaggio su ordine in magazzino a causa di resi o annullamenti di ordini, queste quantità devono essere prelevate e vendute prima di assemblarne di nuove.  
@@ -33,7 +33,7 @@ Una funzionalità analoga è disponibile quando si vendono articoli di assemblag
 Nella procedura, le quantità di assemblaggio su ordine vengono sostituite con le quantità di magazzino in una riga dell'ordine di vendita. I passaggi includono la verifica della disponibilità, la detrazione della quantità dall'ordine di assemblaggio collegato e l'impegno della quantità di magazzino per garantire che venga prelevata e spedita per l'ordine.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Per vendere gli articoli di magazzino nei flussi da assemblare su ordine  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 2.  Creare un ordine di vendita. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
 3.  In una riga dell'ordine di vendita per un articolo assemblato su ordine immettere la quantità richiesta nel campo **Quantità**.  
 4.  Nel Dettaglio informazioni **Dettagli righe vendite** determinare se tutta o parte della quantità richiesta è disponibile.  
@@ -54,7 +54,4 @@ Nella procedura, le quantità di assemblaggio su ordine vengono sostituite con l
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,32 +1,26 @@
 ---
-title: Informazioni sui costi di un ordine di produzione chiuso
-description: La conclusione dell'ordine di produzione è fondamentale per completare il ciclo di vita dei costi di un articolo di produzione. I costi finali vengono calcolati nel processo batch Rettifica costo - Movimenti articoli.
+title: Informazioni sui costi di un ordine di produzione chiuso | Microsoft Docs
+description: La chiusura di un ordine di produzione è un'attività importante nel completamento del ciclo di vita del costing dell'articolo prodotto. I costi finali, inclusi gli scostamenti in un ambiente con costi standard, i valori effettivi in un ambiente con costi FIFO, medi o LIFO, vengono calcolati tramite il processo batch Rettifica costo - Movimenti articoli.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.search.form: 99000867
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: f8e4c6b4a0db47c56650ea91410670d81bae4cef
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.topic: article
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b33c0aae12374722a3ef5c73db50bbf53a35f39c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973650"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184126"
 ---
 # <a name="about-finished-production-order-costs"></a>Informazioni sui costi di un ordine di produzione chiuso
-
 La chiusura di un ordine di produzione è un'attività importante nel completamento del ciclo di vita del costing dell'articolo prodotto. I costi finali, inclusi gli scostamenti in un ambiente con costi standard, i valori effettivi in un ambiente con costi FIFO, medi o LIFO, vengono calcolati tramite il processo batch **Rettifica costo - Movimenti articoli** che consente la riconciliazione finanziaria dei costi di produzione degli articoli. Affinché un ordine di produzione venga considerato per la rettifica del costo, lo stato deve essere impostato come **Completato**. È pertanto essenziale che, al completamento, lo stato di un ordine di produzione venga modificato in **Completato**.  
 
-## <a name="example"></a>Esempio
+## <a name="example"></a>Esempio  
+ In un ambiente di costi standard, quando si consuma materiale per produrre un articolo, detto semplicemente, il costo dell'articolo più i costi generali e di manodopera confluiscono nel WIP. Quando l'articolo viene prodotto, il WIP viene ridotto dell'importo del costo standard dell'articolo. In genere, questi costi netti non sono uguali a zero. Perché l'importo sia uguale a zero, è necessario eseguire il processo batch **Rettifica costo - Movimenti articoli**, notando che solo gli ordini di produzione con stato **Completato** verranno considerati per la rettifica.  
 
-In un ambiente di costi standard, quando si consuma materiale per produrre un articolo, detto semplicemente, il costo dell'articolo più i costi generali e di manodopera confluiscono nel WIP. Quando l'articolo viene prodotto, il WIP viene ridotto dell'importo del costo standard dell'articolo. In genere, questi costi netti non sono uguali a zero. Perché l'importo sia uguale a zero, è necessario eseguire il processo batch **Rettifica costo - Movimenti articoli**, notando che solo gli ordini di produzione con stato **Completato** verranno considerati per la rettifica.  
-
-## <a name="see-also"></a>Vedi anche
-
+## <a name="see-also"></a>Vedi anche  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

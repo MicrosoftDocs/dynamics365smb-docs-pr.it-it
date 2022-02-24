@@ -1,59 +1,49 @@
 ---
-title: Registrare l'output e i tempi di lavorazione tramite processo batch
-description: La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quantità finita e capacità utilizzata del centro lavoro o della macchina.
+title: Come registrare l'output e i tempi di lavorazione tramite processo batch| Microsoft Docs
+description: La quantità di output rappresenta la quantità finita nel WIP ( work in progress).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970429"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877786"
 ---
 # <a name="batch-post-output-and-run-times"></a>Registrare l'output e i tempi di lavorazione tramite processo batch
-La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quantità finita e capacità utilizzata del centro lavoro o della macchina.
-
-È possibile usare le registrazioni output su:
-
-* Rettifica il magazzino in relazione all'output degli articoli finiti da produzione.
-* Registrare le quantità e gli scarti per ciascuna operazione nel ciclo di produzione.
-* Registrare la configurazione e il tempo di esecuzione per il lavoro e i centri lavoro.
+La quantità di output rappresenta la quantità finita nel WIP ( work in progress).  
 
 > [!NOTE]
-> Se viene utilizzato un instradamento della produzione, il magazzino viene aggiornato solo quando registri la quantità di output nell'ultima operazione.
+> il magazzino viene aggiornato automaticamente solo quando si registra la quantità di output per l'ultima operazione.  
 
-Tramite la finestra **Registrazioni di produzione**, è possibile eseguire le stesse attività della finestra **Registrazioni output** e allo stesso tempo le relative attività di registrazione del consumo. Per ulteriori informazioni, vedi [Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md).
-
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Per registrare quantità di output e/o registrare tempi di lavorazione per una o più righe dell'ordine di produzione
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
-2. Compilare i campi inserendo i dati relativi agli ordini di produzione e/o ai tempi di lavorazione. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-  
-    Puoi usare la funzione **Esplodi ciclo** per generare righe di registrazione dagli ordini di produzione.
-  
+## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Per registrare quantità di output per una o più righe dell'ordine di produzione
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni output** e quindi scegliere il collegamento correlato.  
+2. Compilare i campi inserendo i dati relativi agli ordini di produzione e all'output. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Se l'operazione è stata completata, selezionare il campo **Completato** .  
-4. Per registrare le operazioni scegliere l'azione **Registra**. 
 
-I movimenti contabili capacità vengono aggiornati per il lavoro utilizzato o per i centri lavoro con informazioni su tempo e quantità di produzione e scarto.  
+    Se l'ubicazione della warehouse in cui devono essere stoccati gli articoli prevede l'utilizzo di collocazioni, ma non richiede l'elaborazione degli stoccaggi,  assegnare un codice collocazione alla riga delle registrazioni per specificare dove dovranno essere immagazzinati gli articoli nella warehouse. Per ulteriori informazioni, vedere [Stoccare l'output produzione o l'output assemblaggio](warehouse-how-to-put-away-production-output.md).  
 
-Se hai registrato l'ultima operazione, l'articolo verrà aggiunto al magazzino.  
+4. Per registrare le operazioni scegliere l'azione **Registra**. La quantità di output verrà registrata. A questo punto, l'articolo è disponibile per la spedizione.  
 
-## <a name="see-also"></a>Vedere anche
+## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Per registrare il tempo di lavorazione per una o più righe dell'ordine di produzione
+Il tempo di lavorazione rappresenta le ore di lavoro necessarie per il WIP (work in progress).    
 
-[Registrare lo scarto manualmente](production-how-to-post-scrap.md)
-[Stornare la registrazione dell'output](production-how-to-reverse-output-posting.md)
-[Manufacturing](production-manage-manufacturing.md)
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni output** e quindi scegliere il collegamento correlato.  
+2. Compilare i campi inserendo i dati relativi agli ordini di produzione e all'output.  
+3.  Se l'operazione è terminata, selezionare il campo **Completato** .  
+4. Scegliere l'azione **Registra** per registrare il tempo impiegato per operazione. I movimenti contabili capacità vengono aggiornati per le aree di produzione o i centri di lavoro utilizzati.
+
+## <a name="see-also"></a>Vedi anche  
+[Manufacturing](production-manage-manufacturing.md)    
 [Impostazione della produzione](production-configure-production-processes.md)  
-[Pianif.](production-planning.md)  
+[Pianif.](production-planning.md)      
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Acquisti](purchasing-manage-purchasing.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

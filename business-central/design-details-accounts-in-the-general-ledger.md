@@ -3,19 +3,19 @@ title: 'Dettagli di progettazione: Conti nella contabilità generale | Microsoft
 description: Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 41b94d44ba374ecbcad64a2b1da100fcf3e1a2ab
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6e6af3c9afe8e0d63d5ec2bcfe4905be0a7997df
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215580"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185878"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Dettagli di progettazione: Conti nella contabilità generale
 Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  
@@ -99,7 +99,4 @@ Nella seguente tabella viene mostrato in che modo vengono calcolati gli importi 
  [Dettagli di progettazione: Registrazione del costo previsto](design-details-expected-cost-posting.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

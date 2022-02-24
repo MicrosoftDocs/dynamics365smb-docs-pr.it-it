@@ -1,1 +1,1 @@
-Ottenere [formazione!](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+Ottenere [formazione!](/learn/browse/?products=dynamics-business-central)

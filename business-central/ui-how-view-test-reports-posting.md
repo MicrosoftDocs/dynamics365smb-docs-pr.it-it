@@ -5,18 +5,18 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ab2bcb78479e91c111868c21bd3019c7971d9ffb
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445426"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310878"
 ---
 # <a name="view-test-reports-before-posting"></a>Visualizzare i report dei test prima della registrazione
 È possibile verificare un documento pronto per la registrazione, ad esempio un ordine di acquisto, una fattura o una nota di credito, per assicurarsi che non vi siano problemi che possano bloccare la registrazione.
@@ -25,7 +25,7 @@ ms.locfileid: "6445426"
 >   La seguente procedura descrive come eseguire i test su un documento di acquisto prima di registrarlo. La funzionalità agisce nello stesso modo per i documenti di vendita.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Per stampare un report di test prima di registrare una fattura di acquisto
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi seleziona il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture di acquisto** e scegliere il collegamento correlato.
 2. Visualizzare la fattura di acquisto che si desidera testare.
 3. Scegliere l'azione **Report test**.  
 
@@ -33,7 +33,4 @@ Tutte le parti della fattura di acquisto vengono controllate e i risultati prese
 
 ## <a name="see-also"></a>Vedere anche
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,22 +1,21 @@
 ---
-title: Registrare le entrate o le spese direttamente nella contabilità generale
-description: Per le attività aziendali che non vengono rappresentate da un documento è possibile creare le transazioni correlate registrando le righe nella pagina Registrazioni COGE.
+title: Registrare le entrate o le spese direttamente nella contabilità generale| Documenti Microsoft
+description: Per le attività aziendali che non vengono rappresentate da un documento, ad esempio le spese più piccole o le ricevute di pagamento, è possibile creare le transazioni correlate registrando le righe nella pagina Registrazioni COGE.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.search.form: 39, 251
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: f8a11cf0efb34863c4d2ddf7519847e27f5a2001
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f0c1efcee7db0239efa739dd0ea8d8ce45e2dbd7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973468"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183958"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrare le transazioni direttamente nella contabilità generale
 
@@ -30,7 +29,7 @@ Diversamente dai movimenti che vengono registrati con i documenti che richiedono
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Per registrare una transazione direttamente in un conto di contabilità generale
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
 2. Aprire il batch registrazioni COGE appropriato. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 3. In una nuova riga di registrazione, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -48,7 +47,4 @@ Diversamente dai movimenti che vengono registrati con i documenti che richiedono
 [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)  
 [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

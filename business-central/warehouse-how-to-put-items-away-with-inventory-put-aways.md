@@ -1,21 +1,21 @@
 ---
-title: Come stoccare gli articoli con gli stoccaggi magazzino
-description: Leggi come utilizzare il documento Stoccaggio in magazzino per registrare e pubblicare informazioni sullo stoccaggio e sulla ricevuta per i documenti di origine.
+title: 'Procedura: Stoccare articoli con gli stoccaggi magazzino | Documenti Microsoft'
+description: Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare il documento **Stoccaggio Magazzino** per registrare e contabilizzare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di produzione il cui output è pronto per lo stoccaggio.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: e28e565858f4dc6fc1e01c614914b0b1620c9659
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 439072c09555c7781632c5933ab563caf432c270
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438109"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192845"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi Magazzino
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare il documento **Stoccaggio magazzino** per registrare e contabilizzare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di asseblaggio o produzione il cui output è pronto per lo stoccaggio.  
@@ -29,11 +29,11 @@ Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoc
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Per richiedere uno stoccaggio magazzino emettendo il documento di origine
 Per gli ordini di acquisto, gli ordini di reso vendita, gli ordini di trasferimento in entrata e gli ordini di assemblaggio, creare la richiesta warehouse emettendo l'ordine. Di seguito viene descritto come eseguire l'operazione da un ordine di acquisto.  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e quindi scegliere il collegamento correlato.
 2. Selezionare l'ordine di acquisto che si intende rilasciare, quindi scegliere l'azione **Rilascio**.  
 
     Per gli ordini di produzione, la richiesta warehouse viene creata redigendo una richiesta in entrata dall'ordine di produzione rilasciato.  
-3.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
+3.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione rilasciati** e quindi scegliere il collegamento correlato.  
 4. Scegliere l'azione **Crea richiesta whse. in entrata**.  
 
 > [!NOTE]  
@@ -43,7 +43,7 @@ In seguito alla creazione della richiesta warehouse, un dipendente della warehou
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Per creare uno stoccaggio in magazzino in base al documento origine
 Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un nuovo stoccaggio in magazzino basato sul documento di origine rilasciato.   
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggio in magazzino**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggio in magazzino** e quindi selezionare il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Nel campo **Documento origine**, selezionare il tipo di documento di origine per cui si esegue lo stoccaggio.  
 4. Nel campo **Nr. origine** selezionare il documento di origine.  
@@ -56,7 +56,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 3. Scegliere il pulsante **OK**. Verrà creato un nuovo stoccaggio di magazzino.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Per creare più stoccaggi in magazzino utilizzando un processo batch  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea stoccaggio/Prelievo mag.**, quindi seleziona il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea stoccaggio/Prelievo mag.** e quindi scegliere il collegamento correlato.  
 2.  Nella Scheda dettaglio **Richiesta warehouse** della pagina di richiesta, utilizzare i campi **documento origine** e **Nr. documento** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti.  
 3.  Nella Scheda dettaglio **Opzioni** selezionare la casella di controllo **Crea stoccaggio mag.**.
 4.  Scegliere il pulsante **OK**. Verranno creati gli stoccaggi magazzino specificati.
@@ -77,7 +77,4 @@ Il processo di registrazione contabilizzerà il carico, o nel caso di ordini di 
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

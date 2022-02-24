@@ -1,22 +1,23 @@
 ---
-title: Impostazione del magazzino
+title: Impostazione del magazzino | Documenti Microsoft
 description: Viene descritto come impostare i processi di magazzino e stock, inclusi i percorsi di trasferimento e le ubicazioni, come le warehouse.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 30, 461
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 870bcf2e7980ccf5717cbb93ada44087afe95c4d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: SorenGP
+ms.openlocfilehash: 14d98f971bcb075a94396ed59b560e5420100413
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059459"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181774"
 ---
 # <a name="setting-up-inventory"></a>Impostazione del magazzino
 Prima di poter gestire le attività di warehouse e i costi di magazzino, è necessario configurare le regole e i valori che definiscono i criteri di acquisto del magazzino.
@@ -37,17 +38,12 @@ Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi 
 |In aggiunta alle schede articolo, registrare le informazioni relative agli articoli in una specifica ubicazione e/o di una specifica variante.|[Impostare le unità di stockkeeping](inventory-how-to-set-up-stockkeeping-units.md)|
 | Assegnare articoli alle categorie e dare loro attributi per consentire alla propria azienda e ai clienti la ricerca degli articoli. |[Classificare gli articoli](inventory-how-categorize-items.md) |
 |Importare molteplici immagini articolo contemporaneamente da un file zip in cui i file sono denominati in base ai numeri di articolo.|[Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)|
-|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
-
 [Gestione dei costi del magazzino](inventory-manage-inventory.md)  
 [Gestione acquisti](purchasing-manage-purchasing.md)  
 [Gestione vendite](sales-manage-sales.md)    
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

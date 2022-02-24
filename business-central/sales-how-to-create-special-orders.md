@@ -1,21 +1,21 @@
 ---
-title: Come creare ordini speciali
-description: Scopri come creare un ordine speciale per uno specifico articolo non presente in catalogo che deve venire spedito a un determinato cliente.
+title: 'Procedura: Creare ordini speciali | Documenti Microsoft'
+description: È possibile creare un ordine speciale per uno specifico articolo non presente in catalogo che deve venire spedito a un determinato cliente. L'articolo viene spedito dal fornitore abituale alla warehouse dell'azienda e a questo punto può essere spedito al cliente da solo oppure insieme ad altri articoli di un ordine diverso.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 80c26420a4a8e90a2a2b076169f6af505343ad76
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a64b2fc63cd969afbf93bb380592b11e9ad16bc2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440255"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312006"
 ---
 # <a name="create-special-orders"></a>Creare ordini speciali
 È possibile creare un ordine speciale per uno specifico articolo non presente in catalogo che deve venire spedito a un determinato cliente. L'articolo viene spedito dal fornitore abituale alla warehouse dell'azienda e a questo punto può essere spedito al cliente da solo oppure insieme ad altri articoli di un ordine diverso.  
@@ -25,12 +25,12 @@ Gli ordini speciali implicano il collegamento dell'ordine di acquisto all'ordine
 Prima di poter utilizzare questa funzionalità è necessario impostare le schede per il cliente, il fornitore e l'articolo interessati dall'ordine.  
 
 ## <a name="to-create-a-special-order"></a>Per creare un ordine speciale  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine vendita**, quindi seleziona il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**. Creare e compilare un ordine di vendita per l'articolo. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine di vendita** e quindi scegliere il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**. Creare e compilare un  ordine di vendita per l'articolo. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 3.  Nella Scheda dettaglio **Righe** compilare la riga di vendita. Nel campo **Codice acquisto** selezionare un codice di acquisto per il quale il campo **Ordine speciale** sia selezionato.
 
     È quindi necessario creare un ordine di acquisto da una richiesta di approvvigionamento.  
-4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Richiesta di approvvigionamento**, quindi scegli il collegamento correlato.  
+4. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Richiesta di approvvigionamento** e quindi scegliere il collegamento correlato.  
 5. Scegliere l'azione **Ordine speciale** e scegliere l'azione **Ottieni ordini vendite**.  
 6.  Nella pagina **Prendi ordini vendite** vengono visualizzati i risultati in cui **Nr. documento** è il numero dell'ordine di vendita. Scegliere il pulsante **OK**. Viene creata una riga di richiesta di approvvigionamento per l'articolo.  
 7.  Nella riga di richiesta di approvvigionamento selezionare **Nuovo** nel campo **Messaggio azione**.  
@@ -48,7 +48,4 @@ Un ordine di acquisto creato come ordine speciale per un ordine di vendita viene
 [Vendite](sales-manage-sales.md)  
 [Effettuare spedizioni dirette](sales-how-drop-shipment.md)   
 [Dettagli di progettazione: Metodi di riordino](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

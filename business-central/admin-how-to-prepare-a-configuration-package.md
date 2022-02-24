@@ -1,21 +1,21 @@
 ---
-title: Preparazione di un pacchetto di configurazione
-description: Informazioni su come preparare un pacchetto di configurazione RapidStart che può aiutarti a creare nuove società in base ai dati esistenti.
-author: bholtorf
+title: Preparazione di un pacchetto di configurazione | Documenti di Microsoft
+description: Informazioni su come configurare un pacchetto di configurazione RapidStart che può aiutare a creare nuove società in base ai dati esistenti.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2021
-ms.author: bholtorf
-ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.date: 07/06/2020
+ms.author: sgroespe
+ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660233"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535974"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparazione di un pacchetto di configurazione
 
@@ -30,12 +30,6 @@ Ci sono alcune cose da considerare prima di creare un pacchetto di configurazion
 ### <a name="tables-that-contain-posted-entries"></a>Tabelle che contengono voci registrate
 
 Non è possibile importare dati in tabelle che contengono voci registrate, come le tabelle per movimenti cliente, fornitore e contabili articoli, pertanto non è necessario includere questi dati nel pacchetto di configurazione. È possibile aggiungere voci a queste tabelle dopo aver importato il pacchetto di configurazione utilizzando le registrazioni per pubblicare le voci. Per ulteriori informazioni, vedere [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md).
-
-### <a name="table-names-that-contain-special-characters"></a>Nomi di tabella che contengono caratteri speciali
-
-Prestare attenzione se si dispone di tabelle o campi con lo stesso nome temporale ma differenziati da caratteri speciali, ad esempio %, &, <, >, ( e ). Ad esempio, la tabella "XYZ" potrebbe contenere i campi "Campo 1" e "Campo 1%".
-
-Il processore XML accetta solo alcuni caratteri speciali e rimuove quelli che non accetta. Se la rimozione di un carattere speciale, come il segno % in "Campo 1%", genera due o più tabelle o campi con lo stesso nome, si verificherà un errore durante l'esportazione o l'importazione di un pacchetto di configurazione. 
 
 ### <a name="licensing"></a>Licenze
 
@@ -56,14 +50,14 @@ Durante l'esportazione e l'importazione di pacchetti di configurazione tra due d
 
 ## <a name="to-create-a-configuration-package"></a>Per creare un pacchetto di configurazione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come appropriato nella Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Per escludere i questionari di configurazione, i modelli di configurazione e le tabelle del foglio di lavoro di configurazione dal pacchetto, selezionare la casella di controllo **Escludi tabelle di configurazione**. In caso contrario, tali tabelle verranno aggiunte automaticamente alla lista di tabelle del pacchetto al momento dell'esportazione del pacchetto.  
 5. Scegliere l'azione **Ottieni tabelle**. Viene visualizzata la pagina con il processo batch **Ottieni tabelle pacchetto**.  
 6. Selezionare il campo **Seleziona tabelle**. Verrà visualizzata la pagina **Selezione configurazione**.  
 7. Scegliere l'azione **Seleziona tutto** per aggiungere tutte le tabelle al pacchetto oppure selezionare la casella di controllo **Selezionato** per ogni tabella della lista che si desidera aggiungere.
-8. Scegliere il pulsante **OK**. Il conteggio delle tabelle selezionate verrà visualizzato nel campo **Seleziona tabelle**. Specificare le opzioni aggiuntive, quindi scegliere il pulsante **OK**. Le tabelle di [!INCLUDE[prod_short](includes/prod_short.md)] vengono aggiunte alle righe della pagina **Pacchetto di configurazione**.  
+8. Scegliere il pulsante **OK**. Il conteggio delle tabelle selezionate verrà visualizzato nel campo **Seleziona tabelle**. Specificare le opzioni aggiuntive, quindi scegliere il pulsante **OK**. Le tabelle di [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono aggiunte alle righe della pagina **Pacchetto di configurazione**.  
 
     > [!NOTE]  
     >  È possibile eseguire questa operazione anche nel foglio di lavoro della configurazione. Selezionare le tabelle che si desidera includere nel pacchetto, quindi selezionare l'azione **Assegna pacchetto**.
@@ -74,20 +68,8 @@ Specificare i campi da includere nel pacchetto. Per default, vengono inclusi tut
     - Per selezionare solo i campi da includere, scegliere l'azione **Cancella campo Incluso**. Per aggiungere tutti i campi, scegliere l'azione **Imposta campo incluso**.  
     - Per specificare che i dati di un campo non devono essere convalidati, deselezionare la casella di controllo **Convalida campo** del campo.  
 
-10. Facoltativamente, per applicare filtri di elaborazione ai dati della tabella o per aggiungere una codeunit con qualsiasi codice che si desidera includere nel pacchetto, scegliere la riga per la tabella pertinente, quindi scegliere l'azione **Regole di elaborazione**.
-
-    1. Nella pagina **Regole da elaborare nella tabella di configurazione**, compilare i campi. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-        - Per applicare filtri ai dati, specificare l'azione pertinente nel campo **Azione**, scegliere l'azione **Elaborazione filtri**, quindi compilare i campi.  
-
-            Ad esempio, i pacchetti di configurazione di Microsoft per le società di valutazione impostano filtri di elaborazione sulle tabelle **Testate vendite** e **Testate acquisti**.
-        - Per aggiungere una codeunit di elaborazione, specificarla nel campo **ID codeunit di elaborazione personalizzata**.
-
-          > [!NOTE]
-          > Questa codeunit deve assumere la tabella 8614 *Record pacchetto di configurazione* come parametro sul record `OnRun`.
-    2. Chiudere la pagina.
-11. Determinare se sono stati introdotti errori potenziali scegliendo l'azione **Convalida pacchetto**. Questo può verificarsi nel caso in cui non vengono incluse le tabelle su cui si basa la configurazione.  
-12. Scegliere il pulsante **OK**.  
+10. Determinare se sono stati introdotti errori potenziali scegliendo l'azione **Convalida pacchetto**. Questo può verificarsi nel caso in cui non vengono incluse le tabelle su cui si basa la configurazione.  
+11. Scegliere il pulsante **OK**.  
 
 Dopo aver rifinito la lista dei campi da includere in una tabella, è possibile controllare i risultati in Excel.  
 
@@ -119,7 +101,7 @@ Il pacchetto viene creato in un file con estensione rapidstart, che offre il con
 
 Dopo avere creato un pacchetto che soddisfa le proprie esigenze, questo può essere utilizzato come base per la creazione di pacchetti simili. Tale approccio può velocizzare l'implementazione e migliorare la ripetibilità di RapidStart Services.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare un pacchetto dalla lista, quindi scegliere l'azione **Copia pacchetto**.  
 3. Nel campo **Nuovo codice pacchetto** inserire un codice per il nuovo pacchetto.  
 4. Se si desidera copiare anche i dati del database dal pacchetto esistente, selezionare la casella di controllo **Copia dati**.  
@@ -129,7 +111,7 @@ Dopo avere creato un pacchetto che soddisfa le proprie esigenze, questo può ess
 
 Utilizzare il foglio di lavoro configurazione per raccogliere e classificare le informazioni che si desidera utilizzare per configurare una nuova società e disporre le tabelle in modo logico. La formattazione del prospetto è basata su una gerarchia semplice: le aree contengono gruppi che, a loro volta, contengono tabelle. Le aree e i gruppi sono facoltativi, ma diventano necessari per attivare una panoramica del processo di configurazione nella Gestione ruolo utente di RapidStart Services.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
 2. Nel campo **Tipo riga**, scegliere **Area**. Nel campo **Nome** immettere un nome descrittivo.  
 3. Nel campo **Tipo riga**, scegliere **Gruppo**. Nel campo **Nome** immettere un nome descrittivo.  
 4. Nel campo **Tipo riga**, scegliere **Tabella**. Nel campo **ID tabella**, selezionare la tabella che si desidera includere nel prospetto.  
@@ -148,7 +130,7 @@ Dopo aver definito le tabelle che si desidera gestire come parte della configura
 > [!NOTE]  
 > È inoltre possibile creare direttamente un pacchetto e aggiungervi tabelle. Per ulteriori informazioni, vedere [Per creare un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.
 2. Nel foglio di lavoro configurazione, selezionare una riga o un gruppo di righe che si desidera assegnare a un pacchetto di configurazione, quindi scegliere l'azione **Assegna pacchetto**.  
 3. Selezionare un pacchetto dalla lista o scegliere l'azione **Nuovo** per creare un nuovo pacchetto, quindi scegliere il pulsante **OK**.  
 
@@ -159,11 +141,11 @@ Dopo aver definito le tabelle che si desidera gestire come parte della configura
 
 Quando si crea un pacchetto di configurazione per una soluzione, è possibile visualizzare e personalizzare i dati del database disponibili per adattarli alle esigenze del cliente. Alla tabella del database deve essere associata una pagina.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.
 2. Nel foglio di lavoro configurazione, individuare le tabelle di cui si desidera visualizzare o modificare i dati.  
 
     > [!NOTE]  
-    >  Assicurarsi che a ogni tabella sia stato assegnato un ID pagina. Per le tabelle [!INCLUDE[prod_short](includes/prod_short.md)], il valore viene compilato automaticamente. Per le tabelle personalizzate, occorre immettere l'ID.
+    >  Assicurarsi che a ogni tabella sia stato assegnato un ID pagina. Per le tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)], il valore viene compilato automaticamente. Per le tabelle personalizzate, occorre immettere l'ID.
 
 3. Scegliere l'azione **Dati database**. Viene visualizzata la pagina per la pagina relativa.
 4. Esaminare le informazioni disponibili. Modificare in base alle esigenze eliminando i record non pertinenti o aggiungendone di nuovi.  
@@ -173,7 +155,7 @@ Quando si crea un pacchetto di configurazione per una soluzione, è possibile vi
 Dopo aver esaminato e testato tutte le informazioni di setup, è possibile copiare i dati all'interno del proprio ambiente di produzione. Creare una nuova società nello stesso database.
 
 1. Aprire e inizializzare la nuova società.  
-2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.  
+2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
 3. Scegliere l'azione **Copia dati da società**.  
 4. Nella pagina **Copia dati società**, selezionare **Copia da**. Verrà aperta la pagina **Società**.  
 5. Selezionare la società da cui copiare i dati e selezionare il pulsante **OK**. Viene visualizzata una lista di tabelle selezionate nel foglio di lavoro configurazione. Solo le tabelle contenenti i record sono incluse nella lista.
@@ -186,7 +168,3 @@ Dopo aver esaminato e testato tutte le informazioni di setup, è possibile copia
 [Impostare la configurazione della società](admin-set-up-company-configuration.md)  
 [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)  
-[Analizzare la telemetria della traccia del pacchetto di configurazione](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

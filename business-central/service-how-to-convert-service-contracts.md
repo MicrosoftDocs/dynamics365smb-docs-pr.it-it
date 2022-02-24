@@ -1,21 +1,21 @@
 ---
-title: Come convertire i contratti di assistenza
-description: In questo argomento vengono descritti diversi metodi alternativi per convertire i contratti di assistenza che includono importi IVA.
+title: 'Procedura: Convertire i contratti di assistenza | Documenti Microsoft'
+description: Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i contratti di assistenza, tali contratti devono essere convertiti manualmente. In questo argomento vengono descritti diversi metodi alternativi che è possibile utilizzare per la conversione del contratto di assistenza.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 1b2bb49651a52f36ab8d98edc22ba2248794f598
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436403"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554790"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertire i contratti di assistenza che includono importi IVA
 Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i contratti di assistenza, tali contratti devono essere convertiti manualmente. In questo argomento vengono descritti diversi metodi alternativi che è possibile utilizzare per la conversione del contratto di assistenza.  
@@ -29,7 +29,7 @@ Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i
 >  Per questo esempio, è necessario modificare la data di lavoro in 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Per correggere una fattura per un contratto di assistenza prepagato  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gestione contratti**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gestione contratti** e quindi scegliere il collegamento correlato.  
 2. In **Liste** selezionare **Contratti assistenza**.  
 3. Creare un nuovo contratto di assistenza prepagato. Immettere una data di inizio **01.01.2017** e un anno del periodo di fatturazione per il cliente **20000**.  
 4. Per firmare il contratto, scegliere l'azione **Firma contratto**.  
@@ -68,6 +68,3 @@ Nella procedura riportata di seguito viene descritto come creare una nuova nota 
 [Finanze](finance.md)  
 [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

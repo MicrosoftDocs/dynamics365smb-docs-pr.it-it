@@ -1,20 +1,21 @@
 ---
-title: Informazioni sul calcolo del costo standard
-description: In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto.
+title: Informazioni sul calcolo del costo standard | Microsoft Docs
+description: In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5841
-ms.author: edupont
-ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 208f07fe68fac326d5cc444b498d9cca09fd231b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973702"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184270"
 ---
 # <a name="about-calculating-standard-cost"></a>Informazioni sul calcolo del costo standard
 Molte aziende di produzione scelgono una base di valutazione del costo standard. Ciò si applica anche alle società che eseguono la produzione leggera, come assemblaggio e kitting. In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard. Questi costi sono congelati fino a quando non si decide di cambiarli. Il costo effettivo per la produzione di un prodotto può essere diverso dai costi standard previsti. Per consentire il controllo della gestione, il costo effettivo viene messo a confronto con il costo standard di un articolo specifico e le differenze, o *scostamenti*, vengono identificate e analizzate.  
@@ -32,23 +33,22 @@ Poiché il costo standard di un articolo lavorato o assemblato è costituito da 
 
 L'attività contabile di un'azienda di elaborazione articoli che utilizza il calcolo del costo standard è:  
 
-- Stimare il costo standard di un articolo finito e impostarlo nella scheda articolo.  
-- Registrare e allocare il costo effettivo degli elementi del costo chiave e rendere conto in modo appropriato degli scostamenti.  
+-   Stimare il costo standard di un articolo finito e impostarlo nella scheda articolo.  
+-   Registrare e allocare il costo effettivo degli elementi del costo chiave e rendere conto in modo appropriato degli scostamenti.  
 
 Per determinare il costo diretto di un articolo finito, è necessario calcolare il totale dei costi di tutti i componenti. Un articolo assemblato o prodotto può includere sottoassemblaggi, anch'essi costituiti da più componenti.  
 
 I seguenti elementi di costo principali compongono il costo diretto totale di un articolo elaborato completato:  
 
-- Costi materiali.  
-- Costo capacità.  
-- Costo per conto lavoro solo per gli articoli prodotti.  
+-   Costi materiali.  
+-   Costo capacità.  
+-   Costo per conto lavoro solo per gli articoli prodotti.  
 
-### <a name="material-costs"></a>Costi del materiale
+### <a name="material-costs"></a>Costi del materiale  
+ I costi del materiale sono quelli associati ai subassemblaggi e alle materie prime acquistate. Il costo unitario del materiale può essere costituito da elementi di costo diretti e indiretti.  
 
-I costi del materiale sono quelli associati ai subassemblaggi e alle materie prime acquistate. Il costo unitario del materiale può essere costituito da elementi di costo diretti e indiretti.  
-
-- Il costo diretto del materiale rappresenta un importo fatturato per le materie prime acquistate o il costo di produzione di un subassemblaggio.  
-- Il costo indiretto del materiale, o *costo generale*, può rappresentare elementi, quali, i costi di gestione del magazzino per l'articolo finito, dopo la produzione.  
+-   Il costo diretto del materiale rappresenta un importo fatturato per le materie prime acquistate o il costo di produzione di un subassemblaggio.  
+-   Il costo indiretto del materiale, o *costo generale*, può rappresentare elementi, quali, i costi di gestione del magazzino per l'articolo finito, dopo la produzione.  
 
 L'impostazione del costo del materiale per gli articoli acquistati in relazione al costo diretto o indiretto dipende dal metodo di costing selezionato per l'articolo specificato. Le informazioni sui costi vengono impostate per tutti i metodi di costo nella scheda articolo. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
@@ -66,13 +66,13 @@ I costi capacità sono quelli associati alla manodopera interna e ai costi dei m
 
 L'impostazione dei costi capacità degli articoli assemblati è costituita dai seguenti elementi:  
 
-- Costo unitario diretto e indiretto della risorsa.  
-- Tipo fisso o diretto dell'utilizzo delle risorse.  
+-   Costo unitario diretto e indiretto della risorsa.  
+-   Tipo fisso o diretto dell'utilizzo delle risorse.  
 
 L'impostazione dei costi capacità degli articoli prodotti è costituita dai seguenti elementi:  
 
-- Costo unitario diretto e indiretto del centro di lavoro o area di produzione.  
-- Impostazione dei tempi e della dimensione del lotto.  
+-   Costo unitario diretto e indiretto del centro di lavoro o area di produzione.  
+-   Impostazione dei tempi e della dimensione del lotto.  
 
 Per calcolare il costo standard della capacità, è necessario stabilire le tariffe orarie standard richieste per eseguire operazioni nelle aree di produzione e nei centri di lavoro. Il tempo totale per completare un'operazione è costituito in genere dal tempo di setup e da quello di lavorazione, nonché dal tempo di attesa e da quello di spostamento.  
 
@@ -97,7 +97,7 @@ Il processo di aggiornamento o del calcolo dei costi standard in genere è costi
 
 1.  Aggiornamento dei costi ai livelli di capacità e componente. Per ulteriori informazioni, vedere i processi batch **Suggerisci costo std. articolo** e **Suggerisci costo standard capacità**.  
 2.  Consolidamento e roll up dei costi dei componenti e della capacità per calcolare il costo totale di assemblaggio o di produzione degli articoli. Per ulteriori informazioni, vedere la sezione [Per calcolare il costo standard di un articolo di assemblaggio](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Implementazione dei costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non verranno implementati. Usa il processo batch **Implementa modifiche costo std.** che consente di aggiornare il costo standard degli elementi riportati nella tabella Prospetto costo standard.  
+3.  Implementazione dei costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non verranno implementati. Per ulteriori informazioni, vedere il processo batch **Implementa modifiche costo std.**.  
 4.  Implementazione delle modifiche per aggiornare il campo **Costo unitario** nella scheda articolo ed eseguire la rivalutazione di magazzino. Per ulteriori informazioni, vedere [Rivalutare il magazzino](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Vedi anche  
@@ -105,6 +105,3 @@ Il processo di aggiornamento o del calcolo dei costi standard in genere è costi
  [Utilizzare le distinte base](inventory-how-work-BOMs.md)   
  [Aggiornare i costi standard](finance-how-to-update-standard-costs.md)   
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

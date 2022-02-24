@@ -1,21 +1,21 @@
 ---
-title: Come immettere dati in Business Central
-description: Sono disponibili numerose funzionalità generali che consentono di immettere dati più facilmente, più velocemente e in modo più preciso. Sono descritti i principi di base e le funzionalità avanzate.
-author: jswymer
+title: Come immettere dati in Business Central | Documenti Microsoft
+description: Ottenere informazioni su funzionalità generali che consentono di immettere dati nei campi.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: decimal separator, data entry, focus
-ms.date: 10/01/2021
-ms.author: jswymer
-ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.search.keywords: ''
+ms.date: 04/03/2020
+ms.author: sgroespe
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588959"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262144"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -24,7 +24,7 @@ Sono disponibili numerose funzionalità generali che consentono di immettere dat
 Gli esempi in questo articolo utilizzano dati di esempio.
 
 ## <a name="working-with-editable-fields"></a>Utilizzo dei campi modificabili
-I campi in [!INCLUDE[prod_short](includes/prod_short.md)] possono contenere diversi dati modificabili, ad esempio importi in valuta o testo. I campi modificabili in genere mostrano una casella di input in cui è possibile digitare o scegliere un valore. I campi non modificabili sono in genere visualizzati con uno sfondo grigio.   
+I campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] possono contenere diversi dati modificabili, ad esempio importi in valuta o testo. I campi modificabili in genere mostrano una casella di input in cui è possibile digitare o scegliere un valore. I campi non modificabili sono in genere visualizzati con uno sfondo grigio.   
 
 Alcuni campi modificabili forniscono un selettore per consentire di specificare un valore.  
 
@@ -36,6 +36,7 @@ Alcuni campi modificabili forniscono un selettore per consentire di specificare 
 |Interruttore o casella di controllo|Alcuni campi offrono una semplice scelta di valori *Sì* o *No*. L'interruttore viene utilizzato per specificare questo valore ed è sempre visualizzato come una casella di controllo negli elenchi.|
 |Assist-edit       |Alcuni campi offrono selettori personalizzati adatti a cercare e scegliere il valore migliore per quel campo, come la finestra popup.|
 
+
 ### <a name="modifying-a-field-value"></a>Modifica di un valore di campo
 
 Per modificare il valore di un campo, è necessario innanzitutto impostare lo stato attivo su quel campo. È possibile impostare lo stato attivo tramite le seguenti azioni:
@@ -43,7 +44,7 @@ Per modificare il valore di un campo, è necessario innanzitutto impostare lo st
 - Utilizzare il tasto **TAB**. L'azione seleziona l'intero valore.
 - Fare clic con il tasto sinistro del mouse o dispositivo di input simile. Questa azione selezionerà l'intero valore di campo solo se il campo è in un elenco.  
 
-Quando si interagisce con i campi nell'interfaccia utente, [!INCLUDE[prod_short](includes/prod_short.md)] in genere favorisce la selezione dell'intero valore di campo per semplificare la sostituzione di tale valore.
+Quando si interagisce con i campi nell'interfaccia utente, [!INCLUDE[d365fin](includes/d365fin_md.md)] in genere favorisce la selezione dell'intero valore di campo per semplificare la sostituzione di tale valore.
 
 Quando viene selezionato l'intero valore di campo:
 - Sostituire il valore semplicemente digitando per specificare un nuovo valore. Se il campo offre un selettore, è possibile attivarlo utilizzando i tasti di scelta rapida **ALT+freccia GIÙ**.
@@ -57,6 +58,7 @@ Quando il cursore viene visualizzato alla fine del valore di campo:
 
 > [!NOTE]
 > Dopo aver specificato un valore, Business Central verificherà che sia valido solo dopo aver fatto clic all'esterno del campo o impostato lo stato attivo su un altro elemento, ad esempio il campo successivo.  
+
 
 ## <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -83,7 +85,7 @@ L'elenco di seguito fornisce alcune informazioni utili sull'utilizzo di Accesso 
 - È disponibile per qualsiasi campo modificabile.
 - Funziona anche con colonne e righe.
 - Non impedisce l'accesso ad altri elementi di una pagina, ad esempio le azioni. Questi elementi sono sempre accessibili utilizzando TAB e MAIUSC+TAB.  
-- Non è necessario che le Schede dettaglio siano espanse affinché Accesso rapido funzioni. Se il campo Accesso rapido successivo si trova in una Scheda dettaglio compressa, quella scheda verrà espansa automaticamente e lo stato attivo sarà sul campo scelto. [!INCLUDE[prod_short](includes/prod_short.md)] ricorderà che la Scheda dettaglio dovrebbe essere espansa alla successiva visita della pagina.  
+- Non è necessario che le Schede dettaglio siano espanse affinché Accesso rapido funzioni. Se il campo Accesso rapido successivo si trova in una Scheda dettaglio compressa, quella scheda verrà espansa automaticamente e lo stato attivo sarà sul campo scelto. [!INCLUDE[d365fin](includes/d365fin_md.md)] ricorderà che la Scheda dettaglio dovrebbe essere espansa alla successiva visita della pagina.  
 - Il funzionamento di Accesso rapido è indipendente dal fatto che i campi siano obbligatori o meno. È quindi opportuno assicurarsi che i campi obbligatori siano inclusi in Accesso rapido.
 - Per impostazione predefinita, la maggior parte dei campi vengono automaticamente inclusi in Accesso rapido. Quindi inizialmente la task escluderà probabilmente i campi da Accesso rapido.
 
@@ -91,7 +93,7 @@ L'elenco di seguito fornisce alcune informazioni utili sull'utilizzo di Accesso 
 
 Per impostare Accesso rapido nei campi, utilizzare la personalizzazione.
 
-1. Inizia la personalizzazione selezionando l'icona ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e poi l'azione **Personalizza**.
+1. Avviare la personalizzazione selezionando l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi l'azione **Personalizza**.
 2. Selezionare un campo da modificare. Negli elenchi, selezionare l'intestazione di colonna corrispondente. Quindi, scegliere **Includi in Accesso rapido** o **Escludi da Accesso rapido**.
 
 Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
@@ -118,7 +120,7 @@ Anche se il campo è obbligatorio, non è obbligatorio compilarlo prima di conti
 
 In un elenco, per copiare il campo nella stessa colonna della riga precedente e incollarlo nella riga corrente, premere F8.
 
-Per ulteriori informazioni, vedere [Domande frequenti sulla funzionalità di copia e incolla](faq-copy-paste.yml).
+Per ulteriori informazioni, vedere [Domande frequenti sulla funzionalità di copia e incolla](ui-copy-paste.md).
 
 ## <a name="filtering-line-items"></a>Filtri delle voci
 
@@ -134,9 +136,9 @@ Si rivela particolarmente utile quando si lavora con liste articoli di grandi di
 
 ### <a name="switching-the-focus-on-and-off"></a>Attivare/disattivare lo stato attivo
 
-Per concentrarti sulle voci, seleziona un punto qualsiasi nella parte della voce, quindi scegli l'![icona Modalità messa a fuoco.](media/focus-mode.png "Icona Modalità messa a fuoco") nell'angolo in alto a destra o premi Ctrl+Maiusc+F12.
+Per spostare lo stato attivo sulle voci, selezionare un punto qualsiasi nella parte Voci, quindi scegliere l'![icona Modalità stato attivo](media/focus-mode.png "Icona Modalità messa a fuoco") nell'angolo in alto a destra oppure premere CTRL+MAIUSC+F12.
 
-Per tornare alla visualizzazione normale, scegli l'![Icona Modalità messa a fuoco.](media/focus-mode.png "Icona Modalità messa a fuoco") oppure premi di nuovo Ctrl+Maiusc+F12.
+Per passare di nuovo alla visualizzazione normale, scegliere l'![icona Modalità messa a fuoco](media/focus-mode.png "Icona Modalità messa a fuoco") o premere di nuovo CTRL+MAIUSC+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking in più pagine
 
@@ -146,21 +148,21 @@ Per tornare alla visualizzazione normale, scegli l'![Icona Modalità messa a fuo
 - Gestire le interruzioni per l'attività corrente, ad esempio rispondere a una chiamata in arrivo.
 - Tenere aperta una finestra per un'attività in corso mentre si avvia o si completa un'altra attività in una o più finestre.
 
-Per aprire la scheda o il documento corrente in una nuova finestra, scegli ![Apri in un'altra finestra.](media/open-new-window-icon.png "Icona Apri in un'altra finestra") nell'angolo in alto a destra o premi Alt+Maiusc+W.
+Per aprire la scheda o il documento corrente in una nuova finestra, selezionare ![Apri in un'altra finestra](media/open-new-window-icon.png "Icona Apri in un'altra finestra") nell'angolo in alto a destra, oppure premere ALT+MAIUSC+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Per aprire la scheda o il documento corrente in una nuova finestra, scegli ![Apri in un'altra finestra.](media/open-new-window-icon.png "Icona Apri in un'altra finestra") nell'angolo in alto a destra o premi Alt+Maiusc+W.
+Per aprire la scheda o il documento corrente in una nuova finestra, selezionare ![Apri in un'altra finestra](media/open-new-window-icon.png "Icona Apri in un'altra finestra") nell'angolo in alto a destra, oppure premere ALT+MAIUSC+W.
 
 > [!NOTE]
-> Quando apri altre pagine da una scheda o un documento aperto in una nuova finestra, quelle pagine si apriranno in una nuova finestra anche se non scegli ![Apri in un'altra finestra.](media/open-new-window-icon.png "Icona Apri in un'altra finestra").
+> Quando si aprono altre pagine da una scheda o un documento aperto in una nuova finestra, quelle pagine si apriranno in una nuova finestra anche se non si sceglie ![Apri in un'altra finestra](media/open-new-window-icon.png "Icona Apri in un'altra finestra").
 
 > [!NOTE]
 > Se si utilizza il browser Safari, la funzionalità Blocco popup potrebbe impedire l'apertura della nuova finestra. In tal caso, specificare l'URL del prodotto come sito Web consentito. Per informazioni vedere, [Modificare le preferenze in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Lo stesso può accadere in altri browser, come Firefox. Per ulteriori informazioni, vedere [Impostazioni di blocco popup in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Un altro modo per eseguire il multitasking è aprire [!INCLUDE[prod_short](includes/prod_short.md)] su due o più schede del browser. Quando si esegue questa operazione, è necessario creare una nuova scheda e quindi copiare/incollare l'URL della scheda originale nella nuova scheda. Questo crea una nuova sessione.   
+Un altro modo per eseguire il multitasking è aprire [!INCLUDE[d365fin](includes/d365fin_md.md)] su due o più schede del browser. Quando si esegue questa operazione, è necessario creare una nuova scheda e quindi copiare/incollare l'URL della scheda originale nella nuova scheda. Questo crea una nuova sessione.   
 
 > [!NOTE]
 > Non utilizzare la funzione **Duplica** del browser per creare la nuova scheda in quanto le azioni su una scheda potrebbero bloccare le azioni su altre schede perché fanno parte della stessa sessione.
@@ -240,9 +242,34 @@ Nella tabella seguente sono indicati i diversi formati in cui è possibile immet
 
  Se non si utilizza un separatore, è necessario immettere due cifre per ciascuna unità di tempo.  
 
-## <a name="entering-combined-datetimes"></a>Immissione di date e ore combinate
+## <a name="entering-datetimes"></a>Immissione di date e ore
 
-[!INCLUDE [datetimes](includes/datetimes.md)]
+Quando si immettono date e ore, è necessario inserire uno spazio tra la data e l'ora.  
+
+Nella tabella seguente sono elencati i vari formati in cui è possibile immettere la data e l'ora e le interpretazioni corrispondenti.  
+
+|Immissione|Interpretazione|  
+|---------------|------------------------|  
+|`131202` 132455|13/12/02 13.24.55|  
+|1-12-02 10|01/12/02 10.00.00|  
+|1.12.02 5|01/12/02 05.00.00|  
+|1.12.02|01/12/02 00.00.00|  
+|11 12|11/mese corrente/anno corrente 12.00.00|  
+|1112 12|11/12/anno corrente 12.00.00|  
+|o oppure oggi|Data odierna 00.00.00|  
+|o ora|Ora corrente in data odierna|  
+|o 10:30|Data odierna 10.30.00|  
+|o 3:3:3|Data odierna 03.03.03|  
+|l o data di lavoro|Data del lavoro 00.00.00|  
+|lu o lunedì|Lunedì della settimana corrente 00.00.00|  
+|ma o martedì|Martedì della settimana corrente 00.00.00|  
+|me o mercoledì|Mercoledì della settimana corrente 00.00.00|  
+|gi o giovedì|Giovedì della settimana corrente 00.00.00|  
+|ve o venerdì|Venerdì della settimana corrente 00.00.00|  
+|sa o sabato|Sabato della settimana corrente 00.00.00|  
+|do o domenica|Domenica della settimana corrente 00.00.00|  
+|ma 10:30|Martedì della settimana corrente 10.30.00|  
+|ma 3:3:3|Martedì della settimana corrente 03.03.03|  
 
 ## <a name="entering-duration"></a>Immissione della durata
 
@@ -265,16 +292,6 @@ Di seguito vengono forniti alcuni esempi.
 
  Il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.  
 
-## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Impostazione del separatore decimale usato dalle tastiere numeriche
-
-Quando usi il tasto separatore decimale della tastiera numerica per inserire i dati, il separatore decimale effettivo che viene inserito nel campo è determinato dall'impostazione della regione del tuo Business Central. Hai impostato la regione in Business Central nella pagina **Le mie impostazioni** .
-
-Per esempio, supponiamo che stiate usando una tastiera numerica che usa un punto (.) come tasto separatore decimale. Ma, stai inserendo dati per una lingua regionale che usa una virgola (**,**) per il separatore decimale, come il danese (Danimarca) o il francese (Francia). Quindi, volete che i decimali come "1,23" siano inseriti come "1,23". In questo caso, puoi andare alla pagina **Le mie impostazioni** e impostare la **regione** sulla lingua regionale di destinazione, come il **danese (Danimarca)** o il **francese (Francia)**. Per maggiori informazioni, vedere [Cambiare le impostazioni di base](ui-change-basic-settings.md#region).
-
-## <a name="see-also"></a>Vedere anche
-
-[Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Vedere anche  
+ [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
+ [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

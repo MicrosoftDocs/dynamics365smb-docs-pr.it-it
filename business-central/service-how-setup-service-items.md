@@ -1,21 +1,21 @@
 ---
-title: Articoli in assistenza e componenti degli articoli in assistenza
-description: Informazioni sulle impostazioni da eseguire prima di poter utilizzare gli articoli di assistenza, inclusi i valori di default, ad esempio il tempo di risposta e il gruppo dei prezzi di assistenza.
+title: Impostare gli articoli in assistenza e i componenti degli articoli in assistenza | Documenti Microsoft
+description: Informazioni sulle impostazioni da eseguire prima di poter utilizzare gli articoli di assistenza, inclusi i valori di default, ad esempio il tempo di risposta, la percentuale di sconto contrattuale e il gruppo dei prezzi di assistenza.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 9ebdb2ec8d76537887a7aa597eb9eabe298ec530
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 196f3d73827f03ce03e4990039779d8f814295ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436528"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877401"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Impostare gli articoli in assistenza e i componenti degli articoli in assistenza
 Per utilizzare gli articoli in assistenza, è necessario impostare quanto segue
@@ -28,7 +28,7 @@ Per utilizzare gli articoli in assistenza, è necessario impostare quanto segue
 
 I gruppi di articoli in assistenza vengono assegnati ad articoli nella scheda **Articolo** e ad articoli in assistenza nella scheda **Articolo in assistenza**.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi articoli in assistenza**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Gruppi articoli in assistenza** e quindi scegliere il collegamento correlato.  
 2. Creare un nuovo gruppo di articoli in assistenza.  
 3. Compilare i campi **Codice** e **Descrizione**.  
 4. Nel campo **% Sconto Contratto di Default** immettere la percentuale di sconto contrattuale predefinito che si intende assegnare agli articoli in assistenza appartenenti al gruppo.  
@@ -39,7 +39,7 @@ I gruppi di articoli in assistenza vengono assegnati ad articoli nella scheda **
 ## <a name="to-set-up-service-item-components"></a>Per impostare i componenti degli articoli in assistenza
 Un articolo in assistenza può essere composto da diversi componenti che possono essere sostituiti da pezzi di ricambio quando si presta assistenza al prodotto. Questi componenti vengono impostati nella pagina **Lista comp. artic. assist.** Inoltre, se si intende impostare dei componenti per gli articoli in assistenza rappresentati da distinte base, è possibile copiare gli articoli della distinta base e crearli come componenti dell'articolo in assistenza.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli in assistenza**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in assistenza** e quindi scegliere il collegamento correlato.
 2. Aprire l'articolo in assistenza per cui si desidera impostare i componenti.  
 3. Scegliere l'azione **Componenti**. Verrà visualizzata la pagina **Lista comp. artic. assist.**.  
 4. Aggiungere un nuovo componente  
@@ -47,7 +47,7 @@ Un articolo in assistenza può essere composto da diversi componenti che possono
 6. Nel campo **Nr.** scegliere l'articolo o l'articolo in assistenza che rappresenta un componente dell'articolo in assistenza.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Per impostare i componenti degli articoli in assistenza da una distinta base
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli in assistenza**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli in assistenza** e quindi scegliere il collegamento correlato.  
 2. Aprire l'articolo in assistenza per cui si desidera impostare dei componenti da una distinta base.  
 3. Scegliere l'azione **Componenti**. Verrà visualizzata la pagina **Lista comp. artic. assist.**.  
 4. Scegliere l'azione **Copia da DBV**.  
@@ -57,12 +57,9 @@ Un articolo in assistenza può essere composto da diversi componenti che possono
 ## <a name="to-set-up-a-service-shelf"></a>Per impostare uno scaffale di assistenza
 È possibile impostare scaffali di assistenza che indicano dove memorizzare gli articoli di assistenza. Gli scaffali di assistenza vengono assegnati agli articoli in assistenza nelle pagine **Ordine assistenza** e **Prospetto art. in assist.**  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Scaffali assistenza**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Scaffali assistenza** e quindi scegliere il collegamento correlato.
 2. Compilare i campi come necessario.
 
 ## <a name="see-also"></a>Vedere anche
 [Impostare codici per servizi standard](service-how-setup-service-coding.md)   
 [Impostare il troubleshooting](service-how-setup-troubleshooting.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

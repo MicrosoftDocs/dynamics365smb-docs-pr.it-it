@@ -1,22 +1,21 @@
 ---
-title: Creare una fattura di vendita per fatturare una commessa
-description: Viene descritto come fatturare ai clienti le spese commessa durante lo svolgimento di un progetto e l'accumulo dei costi.
+title: Creare una fattura di vendita per fatturare una commessa| Documenti Microsoft
+description: Viene descritto come fatturare ai clienti le spese commessa durante lo svolgimento di un progetto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.search.form: 1002, 1007,
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 444ecd4ea765983d2cd4c7c80962f8d2e66a737e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 05/25/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973786"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402481"
 ---
 # <a name="invoice-jobs"></a>Fatturazione di commesse
 Durante il progetto, è possibile che si accumulino i costi di commessa derivanti dall'utilizzo delle risorse, dai materiali e dagli acquisti correlati alla commessa. A seconda dello stato di avanzamento della commessa, tali transazioni vengono inserite nelle registrazioni commesse. È importante registrare tutti i costi prima di fatturare al cliente.
@@ -34,7 +33,7 @@ Durante il progetto, è possibile che si accumulino i costi di commessa derivant
 
 Nella procedura che segue viene mostrato come utilizzare un processo batch per fatturare più commesse.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commessa - Crea fattura vendita**, quindi seleziona il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commessa - Crea fattura vendita** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Impostare i filtri se si desidera limitare le commesse che devono essere elaborate nel processo batch.
 4. Scegliere il pulsante **OK** per creare le fatture di assistenza.  
@@ -47,7 +46,7 @@ Nella procedura che segue viene mostrato come utilizzare un processo batch per f
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Per creare e registrare una fattura di vendita commessa dalle righe di pianificazione commessa
 È possibile creare una fattura da righe di pianificazione commessa e indicare in quella occasione la quantità dell'articolo, la risorsa o il conto di contabilità generale che si desidera fatturare.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.
 2. Aprire una commessa appropriata.
 3. Selezionare un task commessa per il quale il campo **Tipo task commessa** contiene **Registrazione**, quindi scegliere l'azione **Righe pianificazione commessa**.  
 4. In una riga di pianificazione commessa, nel campo **Qtà da trasferire in fattura** , immettere la quantità dell'articolo, la risorsa, il tipo del conto di contabilità generale che si desidera fatturare.  
@@ -62,13 +61,25 @@ Nella procedura che segue viene mostrato come utilizzare un processo batch per f
 > [!NOTE]  
 >   La procedura sopra riportata è simile per la creazione, la revisione e la registrazione di una nota di credito di vendita correlata a una commessa.
 
+## <a name="to-calculate-and-post-job-completion-entries"></a>Per calcolare e registrare i movimenti di completamento della commessa
+Al termine di tutte le operazioni di registrazione e fatturazione dell'utilizzo per una commessa, è necessario aggiornare la commessa in modo che il campo **Stato** sia impostato su **Completato**. Successivamente, è necessario stornare eventuali WIP registrati nella contabilità generale.
+
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
+2. Selezionare una commessa aperta, quindi scegliere l'azione **Modifica**.
+3. Nel campo **Stato** selezionare **Completato**.
+4. Seguire i passaggi di assistenza per calcolare e registrare il WIP. In alternativa, seguire i passaggi 5 e 6 per effettuare questa operazione manualmente.  
+5. Scegliere l'azione **Calcola WIP**.
+6. Nella pagina **Commessa - Calcola WIP** compilare i campi in base alle esigenze.  
+
+     Per i movimenti WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata**, a indicare che si tratta di movimenti di completamento.  
+7. Scegliere l'azione **Commessa - Registra WIP in C/G**.
+8. Nella pagina **Commessa - Registra WIP in C/G** compilare i campi in base alle esigenze.  
+
+     Per i movimenti C/G WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata**, a indicare che si tratta di movimenti di completamento.
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione di progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

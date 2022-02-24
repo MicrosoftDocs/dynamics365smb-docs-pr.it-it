@@ -1,24 +1,24 @@
 ---
-title: Calcolo della data per le vendite
-description: L'applicazione calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data e disponibile per il prelievo.
+title: Calcolo della data per le vendite | Microsoft Docs
+description: L'applicazione calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data. Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 221580cebab85be781cd56d461e9d75bb321c15b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7cbaeda98b06b742175563646f513ca78f874b70
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320208"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191861"
 ---
 # <a name="date-calculation-for-sales"></a>Calcolo della data per le vendite
-In [!INCLUDE[prod_short](includes/prod_short.md)] viene automaticamente calcolata la prima data possibile di spedizione di un articolo nella riga ordine di vendita.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] viene automaticamente calcolata la prima data possibile di spedizione di un articolo nella riga ordine di vendita.
 
 Se il cliente ha richiesto una data di consegna specifica, viene calcolata la data in cui gli articoli devono essere disponibili per il prelievo affinché la consegna avvenga come da richiesta.
 
@@ -45,7 +45,4 @@ Se nella riga dell'ordine di vendita non si specifica una data di consegna richi
 ## <a name="see-also"></a>Vedi anche  
  [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)   
  [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

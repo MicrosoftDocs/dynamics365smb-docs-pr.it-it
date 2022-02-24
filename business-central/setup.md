@@ -1,32 +1,31 @@
 ---
-title: Panoramica dei task per impostare Business Central
-description: Leggi una panoramica dei task per impostare, inizializzare e configurare Business Central in base alle esigenze.
+title: Panoramica dei task per impostare Business Central | Documenti Microsoft
+description: Descrive i task per impostare, inizializzare e configurare Business Central in base alle esigenze.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/23/2021
+ms.date: 11/20/2019
 ms.author: edupont
-ms.openlocfilehash: 4140ff83d14be5af9a7c79101d50f99fa82f29fd
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011574"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832361"
 ---
-# <a name="overview-of-tasks-to-set-up-prod_short"></a>Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]
-
-[!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze dell'organizzazione. Gli articoli di [avvio rapido di Business Central](quick-start-business-central.md) possono aiutarti a fare i primi passi per rendere [!INCLUDE [prod_short](includes/prod_short.md)] tuo. Questo articolo fornisce una panoramica su come è possibile configurare [!INCLUDE [prod_short](includes/prod_short.md)] per la propria organizzazione.  
+# <a name="setting-up-d365fin"></a>Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]
+[!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze della società.
 
 Ad esempio, il piano dei conti è precompilato con una serie di conti di registrazione pronti per l'uso. Naturalmente, è possibile modificarlo in base alle esigenze. Per ulteriori informazioni, vedere [Contabilità](finance.md).
 
-Dal menu ![Icona ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) puoi accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Per informazioni su come accedere a tutte le pagine assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).  
+Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per informazioni su come accedere a tutte le pagine assistite e manuali di impostazione, vedere [Preparazione al business](ui-get-ready-business.md).
 
 > [!NOTE]
-> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
+> È possibile impostare una nuova società in [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Alcune funzionalità, generali o per processi aziendali specifici, possono essere impostate manualmente oltre che tramite la guida al setup assistito. Di seguito sono elencate alcune funzionalità che è possibile impostare manualmente.
 
@@ -37,7 +36,6 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 | Configurare le regole e i valori che definiscono i criteri di vendita della società, registrare clienti nuovi e impostare come comunicare con i clienti. |[Setup Vendite](sales-setup-sales.md) |
 | Configurare le regole e i valori che definiscono i criteri di acquisto della società, registrare nuovi fornitori e dare la priorità ai fornitori per l'elaborazione dei pagamenti. |[Impostazioni acquisti](purchasing-setup-purchasing.md) |
 | Configurare le regole e i valori che definiscono i criteri di magazzino della società, impostare ubicazioni se il magazzino è conservato in più warehouse e suddividere in categorie gli articoli per migliorare la ricerca e l'ordinamento. |[Impostazione del magazzino](inventory-setup-inventory.md) |
-|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 | Impostare le risorse, i fogli presenze e le commesse per gestire progetti. |[Impostazione della Gestione progetti](projects-setup-projects.md) |
 | Configurare come assicurare, mantenere e ammortizzare i cespiti e come vengono registrati i costi dei cespiti nei registri della società. |[Impostazione di cespiti](fa-setup.md) |
 |Definire valori e regole generali per i processi di warehouse e la gestione specifica in ogni ubicazione.|[Impostazione gestione warehouse](warehouse-setup-warehouse.md)|
@@ -45,7 +43,7 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 |Stabilire sintomi, codici guasto e servizi standard e impostare gli articoli in assistenza, risorse e la documentazione necessari per fornire assistenza ai clienti.|[Impostazione della gestione assistenza](service-setup-service.md)|
 |Leggere le procedure ottimali per l'impostazione di articoli per i costi di magazzino e la pianificazione degli approvvigionamenti.|[Impostazione di aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)|
 |Migliorare la qualità dell'implementazione e diminuire i tempi di distribuzione utilizzando un set di strumenti per impostare una nuova società utilizzando procedure, modelli, prospetti e questionari dei clienti.|[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
-|Trasferire informazioni su clienti, fornitori, magazzino e conti correnti bancari da un altro sistema in [!INCLUDE[prod_short](includes/prod_short.md)]|[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)|
+|Trasferire informazioni su clienti, fornitori, magazzino e conti correnti bancari da un altro sistema in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)|
 |Utilizzare il componente aggiuntivo Outlook di Business Central per visualizzare i dati finanziari relativi a clienti e fornitori o creare e inviare documenti finanziari, quali offerte e fatture.|[Utilizzo di Business Central come Posta in arrivo aziendale di Outlook](admin-outlook.md)|
 |Ottenere informazioni sui dati Business Central con Power BI e pacchetti di contenuto di Business Central.|[Abilitare i dati aziendali per Power BI](admin-powerbi.md)|
 |Utilizzare i dati di Business Central come parte di un flusso di lavoro in Power Automate.|[Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md)|
@@ -53,16 +51,13 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 |Utilizzare le guide di migrazione di Quickbooks dedicate.|[Passare da un'app di QuickBooks a Business Central](across-quickbooks-to-business-edition.md)|
 |Accedere ai dati di Business Central dal dispositivo mobile.|[Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)|
 |Eseguire la fatturazione in blocco di appuntamenti creati in Prenotazioni.|[Fatturazione in blocco per Microsoft Bookings](finance-bookings.md)|
-|Impostare un server SMTP per consentire la comunicazione e-mail in entrata e in uscita da [!INCLUDE[prod_short](includes/prod_short.md)].| [Impostare la posta elettronica manualmente o tramite il setup assistito](admin-how-setup-email.md)|
+|Impostare un server SMTP per consentire la comunicazione e-mail in entrata e in uscita da [!INCLUDE[d365fin](includes/d365fin_md.md)].| [Impostare la posta elettronica manualmente o tramite il setup assistito](admin-how-setup-email.md)|
 | Impostare codici di identificazione univoci per i record, quali schede, documenti e righe delle registrazioni, per monitorarli nel sistema. |[Creazione di numerazioni](ui-create-number-series.md) |
-|Impostare e assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione.|[Impostare i calendari di base](across-how-to-assign-base-calendars.md)|
+|Impostare e assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione.|[Impostare i calendari di base](across-how-to-assign-base-calendars.md)|  
 
-Per alcune aree, è necessario disporre di privilegi di amministratore nella sottoscrizione a [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Amministrazione](admin-setup-and-administration.md).  
+Per alcune aree, è necessario disporre di privilegi di amministratore nella sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Amministrazione](admin-setup-and-administration.md).  
 
-> [!NOTE]
-> In qualità di amministratore puoi impostare una nuova società in [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedere [Impostare una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
-
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Amministrazione](admin-setup-and-administration.md)  
 [Finanze](finance.md)  
@@ -74,12 +69,8 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Avviamento rapido di Business Central](quick-start-business-central.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Creazione di nuove società in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
+[Introduzione](product-get-started.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

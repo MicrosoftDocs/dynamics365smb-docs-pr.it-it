@@ -1,25 +1,23 @@
 ---
-title: Acquistare articoli per una vendita
+title: Acquistare articoli per una vendita creando fatture di acquisto | Documenti Microsoft
 description: Da una fattura di vendita, per acquistare prodotti, è possibile creare una fattura di acquisto per un fornitore.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.search.form: 50, 51, 56, 9308
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 46057027e89a087105ca52969c8d5f40a2c0cd26
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 1b723eaa62ef51fb6cacd42c29a4e2709a3228e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953411"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312486"
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Acquistare articoli per una vendita creando fatture di acquisto
-
+# <a name="purchase-items-for-a-sale"></a>Acquistare articoli per una vendita
 Dagli ordini di vendita e dalle fatture di vendita, è possibile utilizzare funzioni per creare rapidamente i documenti di acquisto relativi alle quantità mancanti di articoli che sono necessari per la vendita. È possibile utilizzare due funzioni diverse che variano a seconda del tipo documento.
 
 > [!Note]
@@ -33,7 +31,7 @@ Dagli ordini di vendita e dalle fatture di vendita, è possibile utilizzare funz
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Per creare uno o più ordini di acquisto da un ordine di vendita
 Per creare un ordine di acquisto per ogni quantità articolo non disponibile nell'ordine di vendita, è possibile utilizzare la funzione **Crea ordini di acquisto**.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
 2. Aprire un ordine di vendita per cui si desidera acquistare degli articoli.
 3. Scegliere l'azione **Crea ordini di acquisto**.
 
@@ -56,7 +54,7 @@ Per creare un'unica fattura di acquisto per una o più righe di un documento di 
 > [!NOTE]  
 >   Questa funzione crea una fattura di acquisto per la quantità articolo esatta nel documento di vendita selezionato. Per modificare la quantità di acquisto, è necessario modificare la fattura di acquisto dopo che è stata creata.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.
 2. Aprire una fattura di vendita per cui si desidera acquistare degli articoli.
 3. Selezionare una o più righe della fattura di vendita da utilizzare nella fattura di acquisto. Per utilizzare tutte le righe della fattura di vendita, selezionarle tutte o non selezionarne alcuna.
 4. Scegliere l'azione **Crea fattura di acquisto**.
@@ -71,7 +69,4 @@ Per creare un'unica fattura di acquisto per una o più righe di un documento di 
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,21 +1,21 @@
 ---
-title: Dettagli di progettazione - Disponibilità tracciabilità articolo
-description: Nelle pagine Righe tracciabilità articolo e Riepilogo tracciabilità articolo sono presenti informazioni dinamiche sulla disponibilità relative ai numeri seriali o di lotto che aumentano la trasparenza per gli utenti.
+title: 'Dettagli di progettazione: Disponibilità tracciabilità articolo | Microsoft Docs'
+description: Nelle pagine Righe tracciabilità articolo e Riepilogo tracciabilità articolo sono presenti informazioni dinamiche sulla disponibilità relative ai numeri seriali o di lotto. Lo scopo di questo è di aumentare la trasparenza per gli utenti nei documenti in uscita, come gli ordini di vendita, mostrando loro quali numeri seriali o quante unità di un numero di lotto sono attualmente assegnati in altri documenti aperti.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 707adc254b955ce80bbdb9efc2b22a0fb116d9d5
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 628d72c030d26b8de1f7341ea0ebbb0289b02ae5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320865"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185086"
 ---
 # <a name="design-details-item-tracking-availability"></a>Dettagli di progettazione: Disponibilità tracciabilità articolo
 Nelle pagine **Righe tracciabilità articolo** e **Riepilogo tracciabilità articolo** sono presenti informazioni dinamiche sulla disponibilità relative ai numeri seriali o di lotto. Lo scopo di questo è di aumentare la trasparenza per gli utenti nei documenti in uscita, come gli ordini di vendita, mostrando loro quali numeri seriali o quante unità di un numero di lotto sono attualmente assegnati in altri documenti aperti. Ciò riduce l'incertezza che è causata dalla doppia allocazione e infonde fiducia nei gestori ordini che i numeri di tracciabilità articolo e le date che promettono negli ordini di vendita non registrati possano essere rispettati. Per ulteriori informazioni, vedere [Dettagli di progettazione: Pagina righe tracciabilità articolo](design-details-item-tracking-lines-window.md).  
@@ -44,6 +44,3 @@ Nelle pagine **Righe tracciabilità articolo** e **Riepilogo tracciabilità arti
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

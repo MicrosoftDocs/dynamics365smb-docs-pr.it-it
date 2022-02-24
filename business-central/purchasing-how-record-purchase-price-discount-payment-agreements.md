@@ -1,30 +1,26 @@
 ---
-title: Registrare i prezzi di acquisto e gli sconti speciali
+title: Prezzi e sconti speciali e alternativi per i fornitori | Microsoft Docs
 description: È possibile definire prezzi e accordi di sconto diversi e alternativi e applicarli ai documenti di acquisto per i fornitori.
-author: bholtorf
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 46e86445f60e0326a430acd5d2b4bbb555ba5635
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: d0f65eeb44b6a9a2608c05f6b7c71f989a0b9386
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953436"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953517"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrare i prezzi di acquisto e gli sconti speciali
-> [!NOTE]
-> Nel secondo ciclo di rilascio del 2020 abbiamo rilasciato processi semplificati per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti che utilizzano questa versione, trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
-
 I differenti accordi relativi a prezzi e sconti applicati quando si effettuano acquisti da fornitori diversi devono essere definiti in modo che le regole e i valori concordati vengano applicati ai documenti di acquisto creati per il fornitore.
 
-Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino. Per ulteriori informazioni, vedere [Calcolo del prezzo migliore](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
+Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino. Per ulteriori informazioni, vedere [Calcolo del prezzo migliore](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 Per quanto riguarda i prezzi, è possibile fare in modo che venga inserito un prezzo di acquisto speciale nelle righe di acquisto quando si verifica una determinata combinazione di fornitore, articolo, quantità minima, unità di misura o data di inizio o di fine.
 
@@ -38,29 +34,15 @@ Nel caso degli sconti, è possibile impostare e utilizzare due tipi di sconti:
 Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combinazione di articolo e fornitore, è anche possibile immettere questa configurazione dalla scheda articolo, in cui sono definiti le regole e i valori. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Per impostare un prezzo di acquisto speciale per un fornitore
-
-#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)  
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda fornitore interessata e scegliere l'azione **Prezzi**.
-3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    Il campo **Tipo di acquisto** è già impostato su **Fornitore** e il campo **Codice acquisto** è impostato sul numero del fornitore.
+3. Compilare i campi della riga in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Compilare una riga per ogni combinazione per la quale il fornitore concede uno sconto riga acquisto.
 
-#### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
-2. Scegliere il fornitore, quindi l'azione **Listini prezzi di vendita**. 
-3. Scegliere **Nuovo** per creare un nuovo listino prezzi di acquisto.
-4. Nelle Schede dettaglio **Generale** e **Imposta** compilare i campi appropriati. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-5. Per aggiungere articoli all'elenco, effettuare una delle seguenti operazioni:
-   * Per aggiungere molti articoli, scegliere **Suggerisci righe** e quindi immettere i criteri di filtro per specificare i tipi di articolo da aggiungere. Facoltativamente, è anche possibile immettere alcune impostazioni aggiuntive per gli articoli specifici del listino prezzi. Se necessario, è possibile apportare le modifiche in un secondo momento.
-   * Per copiare articoli da un altro listino prezzi, scegliere **Copia righe**, quindi scegliere il listino prezzi da copiare.
-   * Per aggiungere articoli manualmente, nella griglia, nel campo **Tipo prodotto** selezionare il tipo di prodotto a cui si riferisce il listino prezzi. In base alla selezione, compilare i restanti campi in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-6. Per iniziare a utilizzare il listino prezzi, nel campo **Stato** scegliere **Attivo**.
-
----
-
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Per impostare uno sconto riga per un fornitore
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda fornitore interessata e scegliere l'azione **Sconti riga**.
 
     Il campo **Tipo di acquisto** è già impostato su **Fornitore** e il campo **Codice acquisto** è impostato sul numero del fornitore.
@@ -70,7 +52,7 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Per impostare uno sconto su fattura per un fornitore
 Una volta informati degli sconti su fattura concessi dai fornitori, immettere il codice sconto fattura nelle schede fornitore e impostare le condizioni per ciascun codice.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda fornitore relativa al fornitore al quale saranno applicati gli sconti fattura.
 3. Nel campo **Cod. sconto fatt.** selezionare un codice per le condizioni di sconto fattura in questione che verrà utilizzato per calcolare gli sconti fattura per il fornitore.
 
@@ -91,7 +73,7 @@ Quando si registra una fattura di acquisto che include uno o più sconti, si pu�
 
 Prima di effettuare questa operazione, è necessario avere precedentemente impostato i conti necessari per la registrazione degli importi degli sconti nel piano dei conti. Verificare inoltre di avere immesso i numeri di conto corretti nel setup registrazioni COGE nei campi **Conto sconto riga acquisto** e **Conto sconto fattura acquisto**.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità fornitori**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità fornitori e acquisti** e quindi scegliere il collegamento correlato.
 2. Nel campo **Registrazione sconti** scegliere uno dei criteri seguenti per la registrazione degli sconti.
 
 |**Modalità di registrazione dello sconto**|**Sconto fattura**|**Sconto riga**|  
@@ -112,30 +94,30 @@ Se esistono condizioni fisse per gli sconti sulle fatture con un fornitore quals
 
  È possibile definire le condizioni per gli sconti fattura in VL per i fornitori a livello nazionale e in valuta estera per i fornitori esteri.  
 
- È inoltre possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] affinché vengano calcolati automaticamente gli sconti fattura per le offerte, gli ordini programmati, gli ordini, le fatture o le note di credito.  
+ È inoltre possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché vengano calcolati automaticamente gli sconti fattura per le offerte, gli ordini programmati, gli ordini, le fatture o le note di credito.  
 
 > [!TIP]  
 >  Prima di immettere le informazioni, è opportuno preparare uno schema della struttura di sconto da utilizzare. In questo modo, sarà più semplice visualizzare quali fornitori si possono collegare alla stessa pagina dello sconto fattura. Minore è il numero delle pagine da impostare, più veloce risulta l'inserimento delle informazioni principali.
 
 ## <a name="best-price-calculation"></a>Calcolo del prezzo migliore
-Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino.
+Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino.
 
-Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che gode dello sconto riga più alto possibile praticabile in una specifica data. [!INCLUDE[prod_short](includes/prod_short.md)] calcola automaticamente questo prezzo quando inserisce il prezzo unitario e la percentuale di sconto riga per gli articoli in nuove righe di documenti e di registrazione.
+Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che gode dello sconto riga più alto possibile praticabile in una specifica data. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola automaticamente questo prezzo quando inserisce il prezzo unitario e la percentuale di sconto riga per gli articoli in nuove righe di documenti e di registrazione.
 
 > [!NOTE]  
 >   Di seguito viene descritto come viene calcolato il prezzo migliore per le vendite. Il calcolo è lo stesso per gli acquisti.
 
-1. [!INCLUDE[prod_short](includes/prod_short.md)] controlla la combinazione del cliente di fatturazione e dell'articolo e quindi calcola il prezzo unitario applicabile e la percentuale di sconto riga utilizzando i seguenti criteri:
+1. [!INCLUDE[d365fin](includes/d365fin_md.md)] controlla la combinazione del cliente di fatturazione e dell'articolo e quindi calcola il prezzo unitario applicabile e la percentuale di sconto riga utilizzando i seguenti criteri:
 
     - Il cliente usufruisce di uno speciale accordo relativo a prezzi o sconti o appartiene a un gruppo che ne usufruisce?
     - L'articolo o il gruppo sconto articolo specificato nella riga è incluso in uno di tali accordi prezzi o sconti?
     - La data dell'ordine, o la data di registrazione per le fatture e le note di credito, è compresa nell'intervallo di validità dell'accordo prezzi o sconti?
-    - È stato specificato un codice unità di misura? In caso affermativo, in [!INCLUDE[prod_short](includes/prod_short.md)] verranno controllati i prezzi o gli sconti aventi lo stesso codice di unità di misura, altrimenti verranno verificati prezzi o gli sconti a cui non è associato alcun codice di unità di misura.
+    - È stato specificato un codice unità di misura? In caso affermativo, in [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno controllati i prezzi o gli sconti aventi lo stesso codice di unità di misura, altrimenti verranno verificati prezzi o gli sconti a cui non è associato alcun codice di unità di misura.
 
-2. [!INCLUDE[prod_short](includes/prod_short.md)] verifica se si applicano accordi di prezzo/sconto alle informazioni sul documento o sulla riga di registrazione, quindi inserisce il prezzo unitario e percentuale di sconto della riga, utilizzando i seguenti criteri:
+2. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica se si applicano accordi di prezzo/sconto alle informazioni sul documento o sulla riga di registrazione, quindi inserisce il prezzo unitario e percentuale di sconto della riga, utilizzando i seguenti criteri:
 
     - C'è un requisito di quantità minima nell'accordo di prezzo/sconto che è soddisfatto?
-    - C'è un requisito di valuta nell'accordo di prezzo/sconto che è soddisfatto? In caso affermativo, il prezzo più basso e lo sconto riga più alto per tale valuta vengono immessi, anche se VL fornirebbe un prezzo migliore. Se non esistono accordi prezzi o sconti riga per il codice di valuta specificato, in [!INCLUDE[prod_short](includes/prod_short.md)] verranno automaticamente selezionati il prezzo più basso e lo sconto riga più alto per la valuta locale.
+    - C'è un requisito di valuta nell'accordo di prezzo/sconto che è soddisfatto? In caso affermativo, il prezzo più basso e lo sconto riga più alto per tale valuta vengono immessi, anche se VL fornirebbe un prezzo migliore. Se non esistono accordi prezzi o sconti riga per il codice di valuta specificato, in [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente selezionati il prezzo più basso e lo sconto riga più alto per la valuta locale.
 
 Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato nella riga, viene recuperato l'ultimo costo diretto o il prezzo unitario dalla scheda articolo immesso.
 
@@ -144,7 +126,4 @@ Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato n
 ## <a name="see-also"></a>Vedere anche
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,27 +1,27 @@
 ---
-title: Panoramica della contabilizzazione di documenti e registrazioni
-description: Questo argomento descrive le azioni di registrazione e le modalità di registrazione di documenti e registrazioni nei vari libri contabili aziendali.
+title: Panoramica della contabilizzazione di documenti e registrazioni | Documenti Microsoft
+description: Descrive le azioni di registrazione e i modi in cui è possibile contabilizzare documenti e registrazioni.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 52a9330273dc82f349144e2d4392824f7c2ee33e
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012737"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310699"
 ---
 # <a name="posting-documents-and-journals"></a>Contabilizzazione dei documenti e delle registrazioni
 La contabilizzazione rappresenta l'azione di contabilità di registrazione delle transazioni commerciali nei vari registri della società.
 
-Praticamente tutti i documenti e le registrazioni in [!INCLUDE[prod_short](includes/prod_short.md)] includono una categoria **Registrazione** dalla quale è possibile scegliere tra differenti azioni di registrazione, come **Registra**, **Anteprima registrazione**, **Registra e invia** e **Registra e invia tramite e-mail**.
+Praticamente tutti i documenti e le registrazioni in [!INCLUDE[d365fin](includes/d365fin_md.md)] includono una categoria **Registrazione** dalla quale è possibile scegliere tra differenti azioni di registrazione, come **Registra**, **Anteprima registrazione**, **Registra e invia** e **Registra e invia tramite e-mail**.
 
 Nella tabella seguente sono descritti i task correlati, con i collegamenti agli argomenti in cui sono descritti.
 
@@ -37,7 +37,4 @@ Nella tabella seguente sono descritti i task correlati, con i collegamenti agli 
 ## <a name="see-also"></a>Vedere anche
 [Modificare i documenti registrati](across-edit-posted-document.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

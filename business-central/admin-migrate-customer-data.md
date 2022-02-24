@@ -1,25 +1,24 @@
 ---
-title: Migrare i dati dei clienti
-description: È possibile eseguire la migrazione dei dati dei clienti esistenti da un sistema esistente a Business Central utilizzando RapidStart Services o immettendoli direttamente nella società.
+title: Eseguire la migrazione dei dati dei clienti | Documenti Microsoft
+description: È possibile eseguire la migrazione dei dati dei clienti esistenti da un sistema ERP esistente a Business Central utilizzando RapidStart Services. È possibile utilizzare i file Excel in formato xlsx come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 48ce8c293b5af411763a8730c9f7d16113062d9a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437468"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186858"
 ---
 # <a name="migrate-customer-data"></a>Migrare i dati dei clienti
-
-È possibile eseguire la migrazione dei dati cliente esistenti da un sistema ERP esistente a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
+È possibile eseguire la migrazione dei dati cliente esistenti da un sistema ERP esistente a [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
 
 > [!NOTE]
 > I campi di tipo BLOB non possono essere esportati/importati utilizzando Excel.
@@ -41,8 +40,8 @@ Prima di iniziare, è necessario assicurarsi di disporre dell'autorizzazione per
 >
 > Anche le tabelle con chiavi primarie differenti e i campi che contengono tipi di dati differenti non verranno importati con successo. Ad esempio, se il pacchetto di configurazione include la tabella **Cliente 50000** con chiave primaria **Code20** e il database di destinazione del pacchetto include la tabella **Conto bancario cliente 50000** con chiave primaria **Code20 + Code 20**, i dati non verranno importati.  
 
-1. Apri la nuova società.  
-2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.  
+1. Apre la nuova società.  
+2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 3. Scegliere l'azione **Importa pacchetto**. Passare al file del pacchetto .rapidstart che si desidera importare, quindi scegliere l'azione **Apri**. Durante l'importazione, il contenuto del pacchetto viene decompresso e viene creato il record relativo.  
 
     Al termine dell'importazione, è possibile visualizzare il numero di tabelle di configurazione che sono state importate nel campo **Nr. tabelle**.  
@@ -63,7 +62,7 @@ Se la selezione delle tabelle non è adeguata, è possibile creare una o più nu
 > [!TIP]
 > È possibile utilizzare un file solo per migrare un campo con la relativa proprietà **FieldClass** impostata su **Normale**.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetto configurazione**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetto di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare e aprire il pacchetto da utilizzare per la migrazione dei dati, quindi scegliere l'azione **Ottieni tabelle**. Viene visualizzata la pagina **Ottieni tabelle pacchetto**.  
 3. Nel campo **TableID** immettere un numero di tabella oppure selezionare una tabella dall'elenco, ad esempio, la tabella 18, **Cliente**. Il campo **Nome tabella** viene compilato automaticamente.  
 4. Selezionare la nuova tabella di migrazione, quindi nella scheda **Tabelle**, scegliere l'azione **Campi**. Verrà aperta la pagina **Migration Fields**.  
@@ -79,7 +78,7 @@ Una nuova tabella di migrazione viene creata.
 ## <a name="to-export-data-migration-files"></a>Per esportare i file di migrazione dati
 Dopo avere determinato le tabelle in cui si desidera trasferire i dati relativi ai clienti, esportare i file.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare e aprire il pacchetto che si desidera utilizzare per l'esportazione.
 3. Selezionare la tabella o le tabelle da esportare, quindi scegliere l'azione **Esporta in Excel**.
 4. Salvare il file Excel esportato.  
@@ -88,19 +87,19 @@ Dopo avere determinato le tabelle in cui si desidera trasferire i dati relativi 
 Se la tabella è vuota, il file di migrazione dati risultante contiene celle vuote per i campi selezionati quando si sono scelte o create le tabelle di migrazione per la nuova società. Se nella tabella di migrazione dati selezionata sono contenuti dei dati, questa verrà esportata.  
 
 ## <a name="to-map-values-to-be-used-during-import"></a>Per mappare i valori da utilizzare durante l'importazione
-Quando si collegano dati importati da Excel o da un pacchetto di RapidStart, [!INCLUDE[prod_short](includes/prod_short.md)] considera e gestisce la mappatura in base alle relazioni tra tabelle:  
+Quando si collegano dati importati da Excel o da un pacchetto di RapidStart, [!INCLUDE[d365fin](includes/d365fin_md.md)] considera e gestisce la mappatura in base alle relazioni tra tabelle:  
 
-- Se si definisce un mapping direttamente per un campo in una tabella, [!INCLUDE[prod_short](includes/prod_short.md)] lo utilizza.  
+- Se si definisce un mapping direttamente per un campo in una tabella, [!INCLUDE[d365fin](includes/d365fin_md.md)] lo utilizza.  
 
-- Se il campo è in relazione con un'altra tabella, [!INCLUDE[prod_short](includes/prod_short.md)] cerca il mapping definito per il campo della chiave primaria della tabella correlata. La tabella correlata, tuttavia, deve far parte del pacchetto di configurazione.  
+- Se il campo è in relazione con un'altra tabella, [!INCLUDE[d365fin](includes/d365fin_md.md)] cerca il mapping definito per il campo della chiave primaria della tabella correlata. La tabella correlata, tuttavia, deve far parte del pacchetto di configurazione.  
 
-- Se le informazioni di mapping sono definite in entrambe le aree, direttamente per il campo e per la chiave primaria nella relativa tabella, [!INCLUDE[prod_short](includes/prod_short.md)] cerca il mapping in entrambe le aree.  
+- Se le informazioni di mapping sono definite in entrambe le aree, direttamente per il campo e per la chiave primaria nella relativa tabella, [!INCLUDE[d365fin](includes/d365fin_md.md)] cerca il mapping in entrambe le aree.  
 
 - Se gli stessi mapping sono definiti direttamente per un campo e nella tabella correlata, ma hanno nuovi valori diversi, il mapping definito direttamente per il campo ha la priorità rispetto al mapping definito per la tabella a cui fa riferimento il campo.  
 
-Nelle procedure che seguono, è consigliabile verificare in primo luogo i valori che si desidera mantenere durante il processo di migrazione. Per eseguire le procedure riportate di seguito, sono necessari i file di migrazione (.xlsx) esportati da [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Per esportare i file di migrazione dati](admin-migrate-customer-data.md#to-export-data-migration-files).
+Nelle procedure che seguono, è consigliabile verificare in primo luogo i valori che si desidera mantenere durante il processo di migrazione. Per eseguire le procedure riportate di seguito, sono necessari i file di migrazione (.xlsx) esportati da [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Per esportare i file di migrazione dati](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.
 2. Aprire il pacchetto per la società in questione.  
 3. Selezionare la tabella per cui si desidera mappare i valori e nella scheda **Tabelle**, scegliere l'azione **Campi**.  
 4. Per ogni campo da mappare, scegliere l'azione **Mappatura**.  
@@ -111,16 +110,16 @@ Nelle procedure che seguono, è consigliabile verificare in primo luogo i valori
 9. Per collegare la mappatura impostata, scegliere l'azione **Collega dati**.  
 
 ### <a name="mapping-example"></a>Esempio di mappatura  
-Il seguente esempio illustra come [!INCLUDE[prod_short](includes/prod_short.md)] implementa le definizioni di mapping.  
+Il seguente esempio illustra come [!INCLUDE[d365fin](includes/d365fin_md.md)] implementa le definizioni di mapping.  
 
 1. Creare una tabella di configurazione con una tabella **Agenti/Addetti acq.**. Definire un mappatura per il campo **Codice**.  
 2. Aggiungere tabelle aggiuntive al pacchetto, ad esempio **Cliente** e **Fornitore**. Queste tabelle fanno entrambe riferimento alla tabella **Agenti/Addetti acq.** rispettivamente tramite i campi **Codice agente** e **Codice addetto acquisti**.  
 3. Quando si collegano dati, anche la mappatura fornita per il campo **Codice** nella tabella **Agenti/Addetti acq.** verrà considerata anche durante l'elaborazione dei campi **Codice agente** e **Codice addetto acquisti**.
 
-## <a name="to-add-additional-values-to-prod_short"></a>Per aggiungere altri valori in [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pacchetti di configurazione**, quindi scegli il collegamento correlato.  
+## <a name="to-add-additional-values-to-d365fin"></a>Per aggiungere altri valori in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pacchetti di configurazione** e quindi scegliere il collegamento correlato.  
 2. Selezionare la tabella per cui si desidera aggiungere ulteriori valori e nella scheda **Tabelle**, scegliere l'azione **Campi**.  
-3. Per i campi per i quali si desidera che [!INCLUDE[prod_short](includes/prod_short.md)] consenta l'aggiunta di valori durante la migrazione, selezionare la casella di controllo **Crea codici mancanti**.  
+3. Per i campi per i quali si desidera che [!INCLUDE[d365fin](includes/d365fin_md.md)] consenta l'aggiunta di valori durante la migrazione, selezionare la casella di controllo **Crea codici mancanti**.  
 4. Importare i dati dei clienti. Per ulteriori informazioni, vedere [Per importare i dati dei clienti](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Per pulire ed elaborare i dati prima di collegarli
@@ -143,7 +142,7 @@ Per assistenza con XML, attivare la scheda **Developer** della barra multifunzio
 La procedura riportata di seguito è basata su un foglio di lavoro Excel che è stato creato per la migrazione. Per ulteriori informazioni, vedere [Per esportare i file di migrazione dati](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
-> Non modificare le colonne nei fogli di lavoro Excel. Se vengono spostate, modificate o eliminate, il prospetto non può essere importato in [!INCLUDE[prod_short](includes/prod_short.md)].
+> Non modificare le colonne nei fogli di lavoro Excel. Se vengono spostate, modificate o eliminate, il prospetto non può essere importato in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. In Excel aprire il file dei dati esportati. È disponibile un foglio di lavoro con il nome della tabella.
 2. Rinominare Sheet1 per indicare che il prospetto verrà utilizzato per trasformare i dati. Copiare la riga di testata senza la relativa formattazione derivante dalla tabella esportata nel nuovo prospetto.
@@ -152,10 +151,10 @@ La procedura riportata di seguito è basata su un foglio di lavoro Excel che è 
 5. Dopo aver eseguito la mappatura di tutti i dati, copiare l'intervallo dei dati nel foglio di lavoro della tabella.
 6. Salvare il file e assicurarsi di non modificare il tipo di file.
 
-È ora possibile importare i file di migrazione dati che contengono i dati legacy del cliente in [!INCLUDE[prod_short](includes/prod_short.md)].
+È ora possibile importare i file di migrazione dati che contengono i dati legacy del cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="to-import-customer-data"></a>Per importare i dati dei clienti
-Dopo avere immesso i dati dei clienti nei file di migrazione dati in Excel, importare i file in [!INCLUDE[prod_short](includes/prod_short.md)].
+Dopo avere immesso i dati dei clienti nei file di migrazione dati in Excel, importare i file in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Aprire la pagina **Scheda pacchetto di configurazione**.
 2. Selezionare la tabella per cui si desidera importare i dati e nella scheda **Tabelle**, scegliere l'azione **Importa da Excel**.
@@ -168,7 +167,7 @@ Dopo avere immesso i dati dei clienti nei file di migrazione dati in Excel, impo
 I dati del file vengono importati nelle tabelle dei pacchetti di configurazione. È possibile visualizzare il numero di record che sono stati importati nel campo **Nr. record del pacchetto**. Inoltre, è possibile visualizzare il numero di errori di migrazione.
 
 ## <a name="to-validate-customer-data"></a>Per convalidare i dati dei clienti
-I dati del cliente deve essere convalidati prima di applicare i record al database [!INCLUDE[prod_short](includes/prod_short.md)].  
+I dati del cliente deve essere convalidati prima di applicare i record al database [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >  Nella maggior parte dei casi, i dati non validi non vengono creati nel database. Tuttavia, è possibile che l'applicazione talvolta sia bloccata se una tabella di migrazione importata contiene errori.  
@@ -185,7 +184,7 @@ Dopo avere apportato una correzione, il record viene rimosso dall'elenco dei rec
 È ora possibile applicare i dati del cliente al database.  
 
 ## <a name="to-apply-customer-data"></a>Per collegare i dati dei clienti
-Una volta importati tutti i record di migrazione dati validi e senza errori, è possibile collegare i record al database di [!INCLUDE[prod_short](includes/prod_short.md)].  
+Una volta importati tutti i record di migrazione dati validi e senza errori, è possibile collegare i record al database di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 1. Aprire la pagina **Pacchetti di configurazione**.  
 2. Selezionare la tabella per il file di migrazione dei dati da collegare, quindi scegliere l'azione **Collega dati**.
@@ -197,6 +196,3 @@ Il database della società del cliente è ora impostato e i dati di base vengono
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

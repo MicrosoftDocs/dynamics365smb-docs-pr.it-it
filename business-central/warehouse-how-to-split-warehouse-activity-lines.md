@@ -1,21 +1,21 @@
 ---
-title: Come suddividere le righe attività di warehouse
-description: Leggi come suddividere le righe di attività di warehouse se la capacità disponibile in una collocazione suggerita non è sufficiente.
+title: 'Procedura: Suddividere le righe attività di warehouse | Documenti Microsoft'
+description: Nei prelievi, nei movimenti o negli stoccaggi warehouse, nonché nei prelievi e negli stoccaggi magazzino, vengono forniti suggerimenti circa le collocazioni per il prelievo o lo stoccaggio di articoli. Nella collocazione suggerita la quantità effettiva può non essere sufficiente o non vi è abbastanza spazio per stoccare la quantità richiesta. In questi casi è necessario suddividere la riga in modo che gli articoli ad essa corrispondenti vengano prelevati da o posti in più collocazioni.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 46ac47dbf3b1df3f89b83c56215831100edb3827
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 1d1ae140b8a5b2816141696dd4c8eabf702c02da
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325245"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876442"
 ---
 # <a name="split-warehouse-activity-lines"></a>Suddividere righe attività warehouse
 Nei prelievi, nei movimenti o negli stoccaggi warehouse, nonché nei prelievi e negli stoccaggi magazzino, vengono forniti suggerimenti circa le collocazioni per il prelievo o lo stoccaggio di articoli. Nella collocazione suggerita la quantità effettiva può non essere sufficiente o non vi è abbastanza spazio per stoccare la quantità richiesta. In questi casi è necessario suddividere la riga in modo che gli articoli ad essa corrispondenti vengano prelevati da o posti in più collocazioni.  
@@ -37,7 +37,4 @@ La seguente procedura si applica ai documenti warehouse, ad esempio stoccaggio w
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

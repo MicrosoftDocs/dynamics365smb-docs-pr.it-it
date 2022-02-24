@@ -1,23 +1,23 @@
 ---
-title: Storno di scritture contabili [IT]
-description: Nella pagina Storna movimenti transazioni della funzionalità sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali.
+title: Storno di scritture contabili
+description: Nella pagina Storna movimenti transazioni sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
-ms.author: edupont
-ms.openlocfilehash: 7036dfc28bf4e76c15d74d99fa536a1b083a21e8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 9ec92fae275d3be0f9c1c58f2b7884394a68f9f0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318852"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181116"
 ---
-# <a name="reversing-journal-entries-in-the-italian-version"></a>Storno di scritture contabili nella versione italiana
+# <a name="reversing-journal-entries"></a>Storno di scritture contabili
 Nella pagina **Storna movimenti transazioni** sono stati aggiunti alcuni controlli per garantire la conformità alle normative locali. Tali controlli impediscono l'esecuzione delle seguenti operazioni:  
 
 - Storno di una fattura, di una nota di credito o di un documento che implica la gestione IVA.  
@@ -28,6 +28,3 @@ Nella pagina **Storna movimenti transazioni** sono stati aggiunti alcuni control
 ## <a name="see-also"></a>Vedere anche  
   [Funzionalità locale per l'Italia](italy-local-functionality.md)  
   [Stornare le registrazioni e annullare carichi/spedizioni errati.](../../finance-how-reverse-journal-posting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

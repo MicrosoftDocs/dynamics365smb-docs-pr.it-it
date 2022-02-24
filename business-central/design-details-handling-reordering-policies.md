@@ -1,21 +1,21 @@
 ---
-title: Dettagli di progettazione - Gestione dei metodi di riordino
-description: Questo articolo fornisce una panoramica delle attività coinvolte nella gestione dei criteri di riordino e nella definizione dei criteri di riordino nella pianificazione di approvvigionamenti.
+title: 'Dettagli di progettazione: Gestione dei metodi di riordino | Microsoft Docs'
+description: Panoramica dei task per la definizione di un metodo di riordino nella pianificazione dell'approvvigionamento.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 2bc1a4406b82e34db8ecbfa491341606a99dbee7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f7d207d0f6e4730d900ce4214d7faa8c809ae8bd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441798"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185398"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Dettagli di progettazione: Gestione dei metodi di riordino
 Affinché un articolo partecipi alla pianificazione dell'approvvigionamento, i metodi di riordino devono essere definiti. Sono disponibili i seguenti quattro metodi di riordino:  
@@ -67,7 +67,7 @@ Nella seguente sequenza viene descritto in che modo viene determinato il livello
 
 Di seguito viene illustrato questo principio:  
 
-![Determinazione del livello di magazzino previsto.](media/nav_app_supply_planning_2_projected_inventory.png "Determinazione del livello di magazzino previsto")  
+![Determinazione del livello di magazzino previsto](media/nav_app_supply_planning_2_projected_inventory.png "Determinazione del livello di magazzino previsto")  
 
 1. L'approvvigionamento **Sa** di 4 (fisso) chiude la domanda **Da** di -3.  
 2. CloseDemand: Creare un sollecito di riduzione di -3 (non visualizzato).  
@@ -94,7 +94,7 @@ Per i metodi di riordino che utilizzano un punto di riordino, è possibile defin
 
 Il concetto di attività in un intervallo di tempo riflette il processo manuale di controllo del livello di magazzino su base frequente anziché ad ogni transazione. L'utente deve definire la frequenza (intervallo di tempo). Ad esempio, l'utente raccoglie tutte le esigenze dell'articolo da un fornitore per inserire un ordine settimanale.  
 
-![Esempio di pianificazione basata su intervallo di tempo.](media/nav_app_supply_planning_2_reorder_cycle.png "Esempio di pianificazione basata su intervallo di tempo")  
+![Esempio di pianificazione basata su intervallo di tempo](media/nav_app_supply_planning_2_reorder_cycle.png "Esempio di pianificazione basata su intervallo di tempo")  
 
 L'intervallo di tempo viene in genere utilizzato per evitare un effetto di sovrapposizione. Ad esempio, una riga equilibrata di approvvigionamento e domanda dove una domanda iniziale viene annullata o ne viene creata una nuova. Il risultato sarebbe che ogni ordine di approvvigionamento (eccetto l'ultimo) viene riprogrammato.
 
@@ -103,7 +103,7 @@ Quando si utilizzano i metodi Qtà Massima e Qtà Riordino Fissa, il sistema di 
 
 *Attenzione: La giacenza disponibile [xx] è superiore al livello di overflow [xx] alla data di scadenza [xx].*  
 
-![Livello di overflow del magazzino.](media/supplyplanning_2_overflow1_new.png "Livello di overflow del magazzino")  
+![Livello di overflow del magazzino](media/supplyplanning_2_overflow1_new.png "Livello di overflow del magazzino")  
 
 ###  <a name="calculating-the-overflow-level"></a>Calcolo del livello di overflow  
 Il livello di overflow viene calcolato in modi diversi a seconda dell'impostazione della pianificazione.  
@@ -179,7 +179,7 @@ In questo scenario, un cliente modifica un ordine di vendita da 70 a 40 pezzi tr
 #### <a name="resulting-planning-lines"></a>Righe pianificazione risultanti  
  Una riga di pianificazione (avviso) viene creata per ridurre l'acquisto di 30 da 90 a 60 per mantenere la giacenza disponibile su 100 in base al livello di overflow.  
 
-![Pianificazione in base al livello di overflow.](media/nav_app_supply_planning_2_overflow2.png "Pianificazione in base al livello di overflow")  
+![Pianificazione in base al livello di overflow](media/nav_app_supply_planning_2_overflow2.png "Pianificazione in base al livello di overflow")  
 
 > [!NOTE]  
 >  Senza la funzionalità di overflow, nessun avviso viene creato se il livello di giacenza disponibile è superiore alla giacenza massima. Potrebbe verificarsi un approvvigionamento superfluo di 30.
@@ -193,7 +193,7 @@ Il punto di riordino esprime la domanda prevista durante il lead time dell'artic
 
  Nella seguente illustrazione l'approvvigionamento D rappresenta un ordine di emergenza per la rettifica della giacenza negativa.  
 
- ![Suggerimenti di pianificazione di emergenza per evitare giacenze negative.](media/nav_app_supply_planning_2_negative_inventory.png "Suggerimenti di pianificazione di emergenza per evitare giacenze negative")  
+ ![Suggerimenti di pianificazione di emergenza per evitare giacenze negative](media/nav_app_supply_planning_2_negative_inventory.png "Suggerimenti di pianificazione di emergenza per evitare giacenze negative")  
 
 1.  L'approvvigionamento **A**, la giacenza disponibile iniziale, è inferiore al punto di riordino.  
 2.  Viene creato un nuovo approvvigionamento programmato in avanti (**C**).  
@@ -296,6 +296,3 @@ Poiché la quantità dell'ordine di approvvigionamento è basato sulla domanda e
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)   
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

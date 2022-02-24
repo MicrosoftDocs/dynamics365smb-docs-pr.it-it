@@ -1,21 +1,21 @@
 ---
-title: Come annullare la registrazione di assemblaggi
-description: A volte può essere necessario annullare un ordine di assemblaggio registrato, ad esempio quando l'ordine è stato registrato con errori che devono essere corretti.
+title: Come annullare la registrazione di assemblaggi | Microsoft Docs
+description: Talvolta può essere necessario annullare un ordine di assemblaggio registrato, ad esempio se l'ordine è stato registrato con errori che devono essere corretti o perché non avrebbe dovuto essere inizialmente registrato ed è necessario eseguirne il rollback.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 48c454084e850b5dedf58c499263258c0ae8294c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 450a52ee07579d7bf8f5b7456f44a2acb5af8920
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435346"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187294"
 ---
 # <a name="undo-assembly-posting"></a>Annullare la registrazione di assemblaggi
 Talvolta può essere necessario annullare un ordine di assemblaggio registrato, ad esempio se l'ordine è stato registrato con errori che devono essere corretti o perché non avrebbe dovuto essere inizialmente registrato ed è necessario eseguirne il rollback.
@@ -40,7 +40,7 @@ Inoltre, gli ordini di assemblaggio esistenti possono essere ripristinati solo s
 La procedura seguente illustra come annullare ordini di assemblaggio registrati in cui gli articoli sono stati assemblati per magazzino. Per annullare gli ordini di assemblaggio registrati in cui gli articoli sono stati assemblati in un ordine di vendita, è necessario utilizzare la funzione **Eliminare spedizione** nella spedizione registrata che si riferisce all'ordine di assemblaggio registrato. Per ulteriori informazioni, vedere [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md). L'annullamento dell'ordine di assemblaggio registrato viene quindi eseguito automaticamente come descritto in questo argomento.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Per annullare la registrazione di un ordine di assemblaggio  
-1.  Per annullare un ordine di assemblaggio registrato completamente o parzialmente, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini assemblaggio registrati**, quindi scegli il collegamento correlato.  
+1.  Per annullare un ordine di assemblaggio registrato completamente o parzialmente, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio registrati**, quindi selezionare il collegamento correlato.  
 
     Verrà visualizzata la pagina **Ordini di assemblaggio registrati** con uno o più ordini di assemblaggio che sono stati registrati dall'ordine di assemblaggio in questione. Ogni registrazione parziale crea un ordine di assemblaggio registrato separato.  
 2.  Aprire l'ordine di assemblaggio registrato che si desidera annullare, quindi scegliere l'azione **Annulla assemblaggio**.  
@@ -60,7 +60,4 @@ Il campo **Stornato** nella testata ordine di assemblaggio viene impostato su **
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

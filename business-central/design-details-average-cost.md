@@ -1,25 +1,24 @@
 ---
-title: Dettagli di progettazione - Costo medio
+title: 'Dettagli di progettazione: Costo medio | Microsoft Docs'
 description: Il costo medio di un articolo viene calcolato con una media ponderata periodica, in base al costo medio del periodo che è impostato in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 8645
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: d670fb96b0f29c8a34f7076429d6a56f834d2e5d
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bcc33f3aabc41ca7b4bf383d5843e309350954d9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115094"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185734"
 ---
 # <a name="design-details-average-cost"></a>Dettagli di progettazione: Costo medio
-Il costo medio di un articolo viene calcolato con una media ponderata periodica, in base al costo medio del periodo che è impostato in [!INCLUDE[prod_short](includes/prod_short.md)].  
+Il costo medio di un articolo viene calcolato con una media ponderata periodica, in base al costo medio del periodo che è impostato in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
  La data di valutazione viene impostata automaticamente.  
 
@@ -29,7 +28,7 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 |Campo|Descrizione|  
 |---------------------------------|---------------------------------------|  
 |**Costo medio periodo**|Specifica il periodo di tempo in cui viene calcolato il costo medio. Sono disponibili le seguenti opzioni:<br /><br /> -   **Giorno**<br />-   **Settimana**<br />-   **Mese**<br />-   **Periodo contabile**<br /><br /> A tutte le riduzioni di magazzino registrate nel costo medio del periodo viene assegnato il costo medio calcolato per tale periodo.|  
-|**Tipo calcolo costo medio**|Specifica come viene calcolato il costo medio. Sono disponibili le seguenti opzioni:<br /><br /> -   **Articolo**<br />-   **Articolo, variante e ubicazione**<br /> Con questa opzione, il costo medio viene calcolato per ciascun articolo, per ciascuna collocazione e per ciascuna variante dell'articolo. Questo significa che il costo medio dell'articolo dipende da dove è immagazzinato e dalla variante selezionata, ad esempio il colore.|  
+|**Tipo calcolo costo medio**|Specifica come viene calcolato il costo medio. Sono disponibili le seguenti opzioni:<br /><br /> -   **Articolo**<br />-   **Articolo, variante e ubicazione**<br />     Con questa opzione, il costo medio viene calcolato per ciascun articolo, per ciascuna collocazione e per ciascuna variante dell'articolo. Questo significa che il costo medio dell'articolo dipende da dove è immagazzinato e dalla variante selezionata, ad esempio il colore.|  
 
 > [!NOTE]  
 >  È possibile utilizzare solo un costo medio del periodo e un tipo di calcolo del costo medio in un anno fiscale.  
@@ -56,37 +55,37 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 
  La tabella seguente mostra i movimenti contabili per l'articolo di esempio costo medio, ITEM1, prima che venga eseguito il processo batch **Rettifica costo - Movimenti articoli**.  
 
-| **Data di registrazione** | **Tipo mov. articolo** | **Quantità** | **Importo costo (effettivo)** | **Nr. movimento** |
-|--|--|--|--|--|
-| 01-01-20 | Acquisto | 1 | 20.00 | 1 |
-| 01-01-20 | Acquisto | 1 | 40.00 | 2 |
-| 01-01-20 | Vendite | -1 | -20,00 | 3 |
-| 02-01-20 | Vendite | -1 | -40,00 | 4 |
-| 02-02-20 | Acquisti | 1 | 100.00 | 5 |
-| 02-03-20 | Vendite | -1 | -100,00 | 6 |
+|**Data di registrazione**|**Tipo mov. articolo**|**Quantità**|**Importo costo (effettivo)**|**Nr. movimento**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Acquisto|1|20.00|1|  
+|01-01-20|Acquisto|1|40.00|2|  
+|01-01-20|Vendite|-1|-20,00|3|  
+|02-01-20|Vendite|-1|-40,00|4|  
+|02-02-20|Acquisti|1|100.00|5|  
+|02-03-20|Vendite|-1|-100,00|6|  
 
 > [!NOTE]  
 >  Poiché la rettifica dei costi non è ancora avvenuta, i valori nel campo **Importo costo (effettivo)** delle riduzioni di magazzino corrispondono agli aumenti di magazzino a cui sono applicati.  
 
  Nella seguente tabella vengono mostrati i movimenti nella tabella **Rettifica costo medio cod. spedizioni Intrastat** che si applicano ai movimenti di valorizzazione risultanti dai movimenti contabili articolo nella tabella precedente.  
 
-| **Nr. articolo** | **Cod. variante** | **Cod. ubicazione** | **Data di valutazione** | **Costo rettificato** |
-|--|--|--|--|--|
-| ART1 |  | BLU | 01-01-20 | No |
-| ART1 |  | BLU | 02-01-20 | No |
-| ART1 |  | BLU | 02-02-20 | No |
-| ART1 |  | BLU | 02-03-20 | No |
+|**Nr. articolo**|**Cod. variante**|**Cod. ubicazione**|**Data di valutazione**|**Costo rettificato**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|ART1||BLU|01-01-20|No|  
+|ART1||BLU|02-01-20|No|  
+|ART1||BLU|02-02-20|No|  
+|ART1||BLU|02-03-20|No|  
 
  Nella tabella seguente vengono mostrati gli stessi movimenti contabili dopo che è stato eseguito il processo batch **Rettifica costo - Movimenti articoli**. Il costo medio giornaliero viene calcolato e applicato alle riduzioni del magazzino.  
 
-| **Data di registrazione** | **Tipo mov. articolo** | **Quantità** | **Importo costo (effettivo)** | **Nr. movimento** |
-|--|--|--|--|--|--|
-| 01-01-20 | Acquisto | 1 | 20.00 | 1 |
-| 01-01-20 | Acquisto | 1 | 40.00 | 2 |
-| 01-01-20 | Vendite | -1 | -30,00 | 3 |
-| 02-01-20 | Vendite | -1 | -30,00 | 4 |
-| 02-02-20 | Acquisti | 1 | 100.00 | 5 |
-| 02-03-20 | Vendite | -1 | -100,00 | 6 |
+|**Data di registrazione**|**Tipo mov. articolo**|**Quantità**|**Importo costo (effettivo)**|**Nr. movimento**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Acquisto|1|20.00|1|  
+|01-01-20|Acquisto|1|40.00|2|  
+|01-01-20|Vendite|-1|-30,00|3|  
+|02-01-20|Vendite|-1|-30,00|4|  
+|02-02-20|Acquisti|1|100.00|5|  
+|02-03-20|Vendite|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Esempio: Costo medio del periodo = Mese  
  Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un mese. Il campo **Tipo calcolo costo medio** della pagina **Setup magazzino** è impostato su **Articolo**.  
@@ -95,24 +94,24 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
 
  La tabella seguente mostra i movimenti contabili per l'articolo di esempio costo medio, ITEM1, prima che venga eseguito il processo batch **Rettifica costo - Movimenti articoli**.  
 
-| **Data di registrazione** | **Tipo mov. articolo** | **Quantità** | **Importo costo (effettivo)** | **Nr. movimento** |
-|--|--|--|--|--|
-| 01-01-20 | Acquisto | 1 | 20.00 | 1 |
-| 01-01-20 | Acquisto | 1 | 40.00 | 2 |
-| 01-01-20 | Vendite | -1 | -20,00 | 3 |
-| 02-01-20 | Vendite | -1 | -40,00 | 4 |
-| 02-02-20 | Acquisti | 1 | 100.00 | 5 |
-| 02-03-20 | Vendite | -1 | -100,00 | 6 |
+|**Data di registrazione**|**Tipo mov. articolo**|**Quantità**|**Importo costo (effettivo)**|**Nr. movimento**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Acquisto|1|20.00|1|  
+|01-01-20|Acquisto|1|40.00|2|  
+|01-01-20|Vendite|-1|-20,00|3|  
+|02-01-20|Vendite|-1|-40,00|4|  
+|02-02-20|Acquisti|1|100.00|5|  
+|02-03-20|Vendite|-1|-100,00|6|  
 
 > [!NOTE]  
 >  Poiché la rettifica dei costi non è ancora avvenuta, i valori nel campo **Importo costo (effettivo)** delle riduzioni di magazzino corrispondono agli aumenti di magazzino a cui sono applicati.  
 
  Nella seguente tabella vengono mostrati i movimenti nella tabella **Rettifica costo medio cod. spedizioni Intrastat** che si applicano ai movimenti di valorizzazione risultanti dai movimenti contabili articolo nella tabella precedente.  
 
-| **Nr. articolo** | **Cod. variante** | **Cod. ubicazione** | **Data di valutazione** | **Costo rettificato** |
-|--|--|--|--|--|
-| ART1 |  | BLU | 01-31-20 | No |
-| ART1 |  | BLU | 02-28-20 | No |
+|**Nr. articolo**|**Cod. variante**|**Cod. ubicazione**|**Data di valutazione**|**Costo rettificato**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|ART1||BLU|01-31-20|No|  
+|ART1||BLU|02-28-20|No|  
 
 > [!NOTE]  
 >  La data di valutazione è impostata sull'ultimo giorno del costo medio del periodo, che in questo caso è l'ultimo giorno del mese.  
@@ -212,7 +211,4 @@ Il costo medio di un articolo viene calcolato con una media ponderata periodica,
  [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,27 +1,29 @@
 ---
-title: Registrare le capacità
-description: Registra le capacità consumate non assegnate all'ordine di produzione nel giornale di registrazione capacità e visualizza le capacità registrate nella pagina dei movimenti contabili capacità.
+title: Come registrare le capacità | Microsoft Docs
+description: Nelle registrazioni delle rettifiche delle capacità vengono registrate le capacità utilizzate che non sono assegnate all'ordine di produzione. La manutenzione, ad esempio, deve essere assegnata alla capacità ma non a un ordine di produzione.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5832, 99000802, 99000820
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 92e4a3cb7243a8e6e11e9744a2b308b7b1bcd4a0
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: d580fe2513e245b7105342c3d795ae122c151317
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972306"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313278"
 ---
 # <a name="post-capacities"></a>Registrare le capacità
 Nelle registrazioni delle rettifiche delle capacità vengono registrate le capacità utilizzate che non sono assegnate all'ordine di produzione. La manutenzione, ad esempio, deve essere assegnata alla capacità ma non a un ordine di produzione.  
 
 ## <a name="to-post-capacities"></a>Per registrare le capacità  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni capacità**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni capacità** e quindi scegliere il collegamento correlato.  
 2.  Immettere la **data di registrazione** e il **nr. di documento** .  
 3.  Immettere nel campo **Tipo** il tipo di capacità, **Centri di Lavoro** o **Aree di Produzione** che si sta registrando.  
 4.  Nel campo **Nr.** immettere il numero del centro di lavoro o dell'area di produzione.  
@@ -30,7 +32,7 @@ Nelle registrazioni delle rettifiche delle capacità vengono registrate le capac
 
 ## <a name="to-view-work-center-ledger-entries"></a>Per visualizzare i movimenti contabili relativi alle aree di produzione:  
 Nelle pagine **Scheda area di produzione** e **Scheda centri lavoro**, è possibile visualizzare le capacità registrate come risultato di ordini di produzione chiusi.    
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Aree di produzione**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Aree di produzione** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda **Area di produzione** pertinente dall'elenco e scegliere l'azione **Movimenti contabili capacità**.  
 
 Nella pagina **Movimenti Contabili Capacità** vengono visualizzati i movimenti registrati relativi all'area di produzione in ordine di registrazione.   
@@ -41,7 +43,4 @@ Nella pagina **Movimenti Contabili Capacità** vengono visualizzati i movimenti 
 [Pianif.](production-planning.md)      
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

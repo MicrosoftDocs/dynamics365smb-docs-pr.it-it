@@ -1,35 +1,33 @@
 ---
-title: Correggere o annullare le fatture di acquisto non pagate (video)
+title: Correggere o annullare le fatture di acquisto non pagate | Documenti Microsoft
 description: Descrive come correggere o annullare una fattura di acquisto registrata e creare automaticamente una nota di credito di acquisto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.search.form: 138, 140, 146
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 3f4e936b0cdc65efde28fb0833458f4286a7b7eb
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3d0d1234a6459b153a436ed2dfe9a3a2f667ab89
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953494"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192749"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Correggere o annullare le fatture di acquisto non pagate
-
 È possibile correggere o annullare una fattura di acquisto registrata. Ciò risulta utile se si desidera correggere un errore di digitazione o se si desidera modificare l'acquisto in una fase iniziale dell'elaborazione dell'ordine.
 
-Se è già stato eseguito il pagamento dei prodotti nella fattura di acquisto registrata, non è possibile correggerli o annullarli dalla fattura di acquisto registrata. È necessario creare manualmente una nota di credito acquisto per stornare l'acquisto, facoltativamente gestito con un ordine di reso acquisto. Lo stesso vale se si desidera modificare una fattura di acquisto registrata basata su ricevute di acquisto combinate. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md).
+Se è già stato eseguito il pagamento dei prodotti nella fattura di acquisto registrata, non è possibile correggerli o annullarli dalla fattura di acquisto registrata. È necessario creare manualmente una nota di credito acquisto per stornare l'acquisto, facoltativamente gestito con un ordine di reso acquisto. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md).
 
 Nella pagina **Fattura acquisto registrata** è possibile scegliere il pulsante **Rettifica** o il pulsante **Annulla**. Quando si rettifica o si annulla una fattura di acquisto registrata, la nota di credito di acquisto viene applicata a tutti i movimenti contabili generali e di inventario creati quando la fattura di acquisto iniziale è stata registrata. Ciò consente di stornare la fattura di acquisto nei record finanziari e lascia la nota di credito di acquisto registrata correttiva per l'audit trail. Di seguito viene descritto l'utilizzo di **Rettifica** e di **Annulla**.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Per correggere una fattura di acquisto registrata
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto registrate**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto registrate** e quindi scegliere il collegamento correlato.  
 2. Selezionare la fattura di acquisto che si desidera rettificare.  
 
     > [!NOTE]  
@@ -42,7 +40,7 @@ Nella pagina **Fattura acquisto registrata** è possibile scegliere il pulsante 
 4. Scegliere **Mostra nota credito di rettifica** per visualizzare la nota di credito di acquisto registrata che annulla la fattura di acquisto registrata iniziale.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Per annullare una fattura di acquisto registrata
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto registrate**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto registrate** e quindi scegliere il collegamento correlato.  
 2. Selezionare la fattura di acquisto che si desidera annullare.
 
     > [!NOTE]  
@@ -58,7 +56,4 @@ Se l'annullamento è correlato a una registrazione parziale della fattura, la ri
 ## <a name="see-also"></a>Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

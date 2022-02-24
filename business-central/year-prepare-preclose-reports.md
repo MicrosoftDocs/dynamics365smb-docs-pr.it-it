@@ -1,24 +1,24 @@
 ---
-title: Panoramica dei report preliminari alla chiusura per verificare l'accuratezza dei conti
+title: Panoramica dei report preliminari alla chiusura per verificare l'accuratezza dei conti | Documenti Microsoft
 description: Fornisce una panoramica dei report che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1393, 1394
-ms.date: 04/01/2021
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 877f2ed9ba278ccafb26266d85165b8cfc5589d3
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: d3e522f1fedf4e5ea5beaccd0e0fc015414b87c6
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012659"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249700"
 ---
 # <a name="using-pre-closing-reports"></a>Utilizzo dei report preliminari alla chiusura
-
 Sono disponibili molti report standard che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo. Ad esempio, è possibile utilizzare il report **Clienti - Bilancio di verifica** per verificare che il saldo di una categoria i registrazione clienti sia uguale al saldo del corrispondente conto di contabilità generale a una data specifica.
 
 Nella tabella che segue sono descritti alcuni report che possono risultare utili in questo processo.
@@ -35,13 +35,9 @@ Nella tabella che segue sono descritti alcuni report che possono risultare utili
 | Stampare un report di bilancio di verifica con saldi periodi e conti per i conti di contabilità generale. |Bilancio di verifica |
 | Stampare un bilancio di verifica per una società consolidata. |Bil. di verifica consolidato |
 
-Per vedere un report, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
+Per visualizzare il report, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), digitare il nome come presente nella tabella e quindi scegliere il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
-
+## <a name="see-also"></a>Vedi anche
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

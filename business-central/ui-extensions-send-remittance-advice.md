@@ -3,19 +3,19 @@ title: Estensione Invia avviso di rimessa | Microsoft Docs
 description: Descrive l'estensione Invia avviso di rimessa, che consente di inviare l'avviso di rimessa dai movimenti contabili fornitori e dalle voci di registrazione pagamenti tramite posta elettronica.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 07/06/2021
+ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 05/05/2020
 ms.author: edupont
-ms.openlocfilehash: a5b1245a47975f2db9465c5dc101ee13eea74248
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 236cb83e99c2385edc09622255037a152bf41e6e
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434861"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339924"
 ---
 # <a name="send-remittance-advice"></a>Invia avviso di rimessa
 
@@ -26,22 +26,12 @@ Quando l'avviso di rimessa viene utilizzato per notificare ai fornitori che sono
 
 È possibile inviare l'avviso di rimessa in due modi:
 
-* Nella pagina **Registrazioni pagamenti**, scegliere **Correlato**, **Pagamenti**, **Invia avviso di rimessa** per inviare l'avviso di rimessa per uno o più righe di registrazione pagamenti via posta elettronica
+* Nella pagina **Registrazioni pagamenti**, scegliere **Naviga**, **Pagamenti**, **Invia avviso di rimessa** per inviare l'avviso di rimessa per uno o più righe di registrazione pagamenti via posta elettronica
 * Nella pagina **Movimenti contabili fornitori**, scegliere **Azione**, **Funzioni**, **Invia avviso di rimessa** per inviare l'avviso di rimessa via posta elettronica dopo la registrazione dei pagamenti fornitori per uno o più movimenti contabili fornitori
 
 ## <a name="see-also"></a>Vedere anche
 
 [Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md)  
-[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni ](ui-extensions.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni ](ui-extensions.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Trasferimento elettronico di fondi (EFT) nella versione australiana](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
-[Effettuare pagamenti elettronici (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-[Trasferimento elettronico di fondi (EFT) nella versione per la Nuova Zelanda](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
-[Funzionalità locale per la Nuova Zelanda](localfunctionality/newzealand/new-zealand-local-functionality.md)  
-[Funzionalità locale del Regno Unito nella versione britannica](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
-[Stampare l'avviso di rimessa nella versione britannica](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
-[Effettuare pagamenti elettronici (US)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

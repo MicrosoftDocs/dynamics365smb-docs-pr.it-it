@@ -1,21 +1,21 @@
 ---
-title: Dettagli di progettazione - Bilanciamento domanda e approvvigionamento
-description: Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione ottenuti dal bilanciamento dell'approvvigionamento con domanda.
+title: 'Dettagli di progettazione: Bilanciamento domanda e approvvigionamento | Documenti Microsoft'
+description: Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione, i più importanti dei quali servono a garantire che qualsiasi domanda sarà soddisfatta da un approvvigionamento sufficiente e ogni domanda avrà uno scopo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442512"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185710"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Dettagli di progettazione: Bilanciamento domanda e approvvigionamento
 Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione, i più importanti dei quali servono a garantire quanto segue:  
@@ -43,7 +43,7 @@ Per comprendere il funzionamento del sistema di pianificazione, è necessario co
 
    L'obiettivo del meccanismo di pianificazione consiste nel controbilanciare la domanda e l'approvvigionamento di un articolo per garantire che l'approvvigionamento corrisponda alla domanda in modo fattibile così come definito dalle regole e dai parametri di pianificazione.  
 
-   ![Panoramica sull'equilibrio di approvvigionamento e domanda.](media/nav_app_supply_planning_2_balancing.png "Panoramica sull'equilibrio di approvvigionamento e domanda")
+   ![Panoramica sull'equilibrio di approvvigionamento e domanda](media/nav_app_supply_planning_2_balancing.png "Panoramica sull'equilibrio di approvvigionamento e domanda")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Gestione ordini prima della data di inizio pianificazione
 Per evitare che un piano di approvvigionamento mostri suggerimenti impossibili e pertanto inutili, il sistema di pianificazione considera il periodo fino alla data di inizio pianificazione come una zona bloccata nella quale nulla viene pianificato. La seguente regola si applica alla zona bloccata:  
@@ -291,6 +291,3 @@ Ciò conclude le descrizioni delle modalità di caricamento, di assegnazione di 
  [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)   
  [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
  [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

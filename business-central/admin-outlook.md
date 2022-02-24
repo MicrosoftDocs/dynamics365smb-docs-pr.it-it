@@ -1,130 +1,80 @@
 ---
-title: Ottieni il componente aggiuntivo Business Central per Outlook
-description: Scopri come installare l'add-in Business Central per Outlook per la tua organizzazione o per uso personale.
-author: jswymer
+title: Utilizzo di Business Central con Outlook | Documenti di Microsoft
+description: Questo servizio è completamene integrato con Office 365 e consente di gestire tutte le interazioni aziendali e la posta elettronica con clienti e fornitori direttamente in Outlook.
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832
-ms.date: 08/13/2021
-ms.author: jswymer
-ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.search.keywords: SMTP, mail, Office 365
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049597"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186902"
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>Ottieni il componente aggiuntivo Business Central per Outlook
+# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Utilizzo di Business Central come Posta in arrivo aziendale di Outlook
 
-Con [!INCLUDE[prod_short](includes/prod_short.md)], puoi gestire le interazioni commerciali con i tuoi clienti e fornitori, direttamente in Microsoft Outlook. Con il [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, è possibile vedere i dati finanziari relativi a clienti e fornitori. È anche possibile creare e inviare documenti finanziari, come preventivi e fatture.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] offre la possibilità di gestire le interazioni d'affari con i clienti e fornitori, direttamente in Microsoft Outlook. Con i componenti aggiuntivi Outlook di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare i dati finanziari relativi a clienti e fornitori e creare e inviare documenti finanziari, quali offerte o fatture.  
 
-Ci sono due modi per installare l'add-in di Business Central per Outlook, a seconda del tuo ruolo nell'organizzazione:
+## <a name="getting-the-add-in"></a>Come ottenere il componente aggiuntivo
+È semplice iniziare a utilizzare il componente aggiuntivo [!INCLUDE[d365fin](includes/d365fin_md.md)] per Outlook. Nella guida al setup assistito **Imposta Posta in arrivo aziendale in Outlook**, è possibile impostare la connessione per uso personale o per la propria organizzazione se l'organizzazione utilizza Office 365. Specificare semplicemente il nome utente e la password Office 365, se richiesto, e indicare se si intende ricevere un messaggio di posta elettronica di esempio. I componenti aggiuntivi di [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente aggiunti ad Outlook. Per ulteriori informazioni, vedere [Requisiti minimi per Outlook ](product-requirements.md#outlook).  
 
-- Come amministratore di Microsoft 365, usa la *Distribuzione centralizzata* per installare automaticamente il componente aggiuntivo per l'intera organizzazione, per gruppi o per utenti specifici.
+Quindi, quando si apre Outlook, si vedrà il messaggio e-mail dell'*amministratore Dynamics 365 Business Central*. I nuovi componenti aggiuntivi sono aggiunti alla barra multifunzione di Outlook e nel browser è possibile vedere i componenti aggiuntivi di [!INCLUDE[prodshort](includes/prodshort.md)] immediatamente sopra o sotto il corpo del messaggio e-mail. I componenti aggiuntivi sono aggiornati periodicamente e verrà visualizzata una notifica che una nuova versione è pronta per la società in Outlook.  
 
-- Come qualsiasi utente, installa l'add-in per il tuo uso personale, se il tuo amministratore non l'ha già distribuito per te.
+> [!TIP]
+> Se si utilizza il nuovo Outlook sul Web, i componenti aggiuntivi di [!INCLUDE [prodshort](includes/prodshort.md)] possono essere nascosti sotto **Altre azioni**. Se si utilizza spesso il componente aggiuntivo, è possibile aggiungerlo di modo che sia sempre immediatamente visibile. Per ulteriori informazioni, vedere [Utilizzo di componenti aggiuntivi in Outlook sul Web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>Informazioni sul componente aggiuntivo Business Central per Outlook
+Qualora si collabori con più società [!INCLUDE [prodshort](includes/prodshort.md)], è possibile passare con facilità tra le varie società in Outlook. Nella barra delle azioni del componente aggiuntivo, scegliere **Altre azioni** e quindi puoi vedere l'opzione per passare da una società all'altra.  
 
-L'add-in Business Central per Outlook consiste in due add-in più piccoli:
-
-- Approfondimenti di contatto
-
-    Questo add-in fornisce agli utenti [!INCLUDE[prod_short](includes/prod_short.md)] informazioni sul cliente o sul venditore nelle e-mail di Outlook e negli appuntamenti del calendario. Permette anche di creare e inviare documenti aziendali [!INCLUDE[prod_short](includes/prod_short.md)], come preventivi di vendita e fatture a un contatto. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
-
-- Vista del documento
-
-    Quando un'email fa riferimento a un numero di documento aziendale nel corpo dell'email, questo add-in fornisce un collegamento diretto e in linea dal corpo dell'email al documento aziendale effettivo in [!INCLUDE[prod_short](includes/prod_short.md)].
-
-Per ulteriori informazioni su ciò che si fa con i componenti aggiuntivi, vedere [Utilizzo di Business Central come casella di posta elettronica aziendale in Outlook](work-outlook-addin.md).
-
-Ogni add-in è fornito come un file XML, chiamato *manifest*, che deve essere installato in Outlook da chiunque voglia questa funzionalità. Questi file descrivono come attivare gli add-in e connettersi a Business Central quando sono usati in Outlook. Lavorare con questi file è tipicamente fatto da un amministratore. Come utente normale, nella maggior parte dei casi, non avrete a che fare direttamente con questi file. O il tuo amministratore imposterà l'add-in per installarlo automaticamente per te o userai il setup assistito integrato per gestire l'installazione.
-
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Distribuire il componente aggiuntivo utilizzando la distribuzione centralizzata come amministratore
-
-La distribuzione centralizzata è una funzione nel centro amministrativo di Microsoft 365 che si usa per installare automaticamente i componenti aggiuntivi nelle applicazioni Office degli utenti, come Outlook. È il modo raccomandato per gli amministratori di distribuire i componenti aggiuntivi di Office agli utenti e ai gruppi all'interno dell'organizzazione.
-
+<!--TEMP-->
 > [!NOTE]
-> Per Business Central on-premises, vedi [Impostazione dell'Add-In per l'integrazione di Outlook con Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) nel contenuto dell'amministrazione (solo in inglese).
+> Il passaggio da una società all'altra richiede l'ondata di rilascio 2 o successiva del 2019 di [!INCLUDE [prodshort](includes/prodshort.md)] come annunciato nel [piano di rilascio ](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-### <a name="prerequisites"></a>Prerequisiti
+Alcune società che utilizzano Office 365 limitano i permessi degli utenti alla distribuzione dei componenti aggiuntivi. Pertanto è necessario assicurarsi di disporre di una sottoscrizione di Office 365 che include la posta elettronica e consente di distribuire i componenti aggiuntivi. Se si desidera provare comunque il componente aggiuntivo, è possibile [provare Office 365 gratis](https://products.office.com/try).  
 
-- Una sottoscrizione Microsoft 365  
-- Agli utenti viene assegnata una licenza Microsoft 365  
-- Il tuo account Microsoft 365 ha il ruolo di *Amministratore globale* o *Amministratore di Exchange*
+## <a name="using-the-contact-insights-add-in"></a>Utilizzo del componente aggiuntivo Informazioni contatto
+Supponiamo che si riceva un'email da un cliente che vuole un preventivo per alcuni articoli. Direttamente in Outlook, è possibile aprire il componente aggiuntivo di [!INCLUDE[d365fin](includes/d365fin_md.md)] in cui il mittente viene riconosciuto come cliente e verrà aperta la scheda cliente relativa alla società. Dal dashboard, è possibile visualizzare le informazioni generali per il cliente ed eseguire il drill-down per ulteriori dettagli sui documenti specifici. È inoltre possibile approfondire le informazioni cronologiche di vendita per il cliente. Se si tratta di un nuovo contatto, è possibile crearlo come nuovo cliente in [!INCLUDE[d365fin](includes/d365fin_md.md)] senza uscire da Outlook.  
 
-### <a name="deploy-the-add-in"></a>Distribuire il componente aggiuntivo
+Nel componente aggiuntivo, è possibile creare un'offerta di vendita e inviarla di nuovo al cliente senza uscire da Outlook. Tutte le informazioni necessarie per inviare l'offerta di vendita sono disponibili nella Posta in arrivo aziendale in Outlook.  
+Una volta che si inseriscono i dati, è possibile registrare l'offerta. È possibile inviarla tramite posta elettronica. [!INCLUDE[d365fin](includes/d365fin_md.md)] genera un file PDF all'offerta di vendita e lo allega al messaggio e-mail definito nel componente aggiuntivo.  
 
-1. In Business Central, scegli la ![lampadina che apre la funzione Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , entrare in **Setup assistito** e poi scegliere il link relativo.
-2. scegli **Outlook Add-in Centralized Deployment** per avviare la guida alla configurazione assistita.
-3. Esamina la prima pagina e scegli **Avanti** per aprire la pagina per scaricare i componenti aggiuntivi.
-4. Nella colonna **Distribuisci**, seleziona la casella di controllo per i componenti aggiuntivi che vuoi distribuire, quindi scegli **Scarica e continua**.
+Analogamente, se si riceve un messaggio e-mail a un fornitore, è possibile utilizzare il componente aggiuntivo per lavorare con i fornitori e le fatture di acquisto.  
 
-    Un file con il nome *OutlookAddins.zip* viene scaricato sul tuo dispositivo.
+Talvolta si desidera visualizzare più campi rispetto a quelli che è possibile visualizzare nel componente aggiuntivo, ad esempio se si desidera compilare le righe di una fattura. Per ottenere maggiore spazio, è possibile visualizzare il componente aggiuntivo in una pagina separata. Fa parte ancora di Outlook, ma offre più spazio per il lavoro. Se si digitano i dati per il documento nella nuova finestra, le modifiche vengono salvate automaticamente. Al termine dell'immissione dei dati per il documento, è possibile scegliere il pulsante **OK**. Scegliendo il frame del componente aggiuntivo in Outlook, il documento viene aggiornato automaticamente con le modifiche apportate nella visualizzazione apposita.  
 
-5. A questo punto, hai finito il lavoro che devi fare in Business Central, quindi puoi scegliere **Fatto**.
+## <a name="creating-invoices-from-your-meeting-appointments"></a>Creazione di fatture da appuntamenti per riunioni
+Alcune aziende registrano tutti gli appuntamenti fatturabili nel calendario di Outlook. In [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile creare la fattura relativa per il cliente direttamente dall'elemento: aprire l'appuntamento quindi aprire il componente aggiuntivo di [!INCLUDE[d365fin](includes/d365fin_md.md)], qui è possibile cercare informazioni esistenti oppure creare una fattura o un'altra destra del documento di vendita direttamente.  
 
-   >[!TIP]
-   > Prima di scegliere **Avanti**, seleziona il collegamento **Vai a Microsoft 365 (si apre in una nuova finestra)** per aprire e accedere all'interfaccia amministrativa di Microsoft 365 in una nuova finestra del browser. Dovrete comunque andare all'interfaccia di amministrazione di Microsoft 365 in un passo successivo.
+## <a name="doing-quick-document-lookup"></a>Come effettuare la ricerca rapida del documento
+Il Componente aggiuntivo dei Collegamenti del documento di [!INCLUDE[d365fin](includes/d365fin_md.md)] offre accesso rapido ai documenti citati nei messaggi di posta elettronica. Il componente aggiuntivo è disponibile per un messaggio e-mail se un numero di documento viene riconosciuto nel corpo del messaggio. Aprire il componente aggiuntivo consente l'accesso rapido al documento.  
 
-6. Vai nella cartella dove è stato scaricato OutlookAddins.zip ed estrai i file **Contact Insights.xml** e **Document View.xml** dallo zip in una cartella di tua scelta.
+Ad esempio, se si riceve un messaggio e-mail che cita il testo *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] lo identifica come un'offerta di vendita e consente di aprire il documento in Outlook. In Outlook, selezionare il pulsante **Collegamenti documento** immediatamente sopra il corpo del messaggio e-mail. In the Outlook Web App, selezionare il testo *V-OFFER1001* nel corpo del messaggio e-mail.  
 
-    Per maggiori informazioni, vedi [Zip e Unzip di file e cartelle](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Accedi all'interfaccia amministrativa di Microsoft 365, quindi vai ad [App integrate](https://go.microsoft.com/fwlink/?linkid=2163967).
+Nel componente aggiuntivo Collegamenti documento, è possibile modificare ed effettuare azioni relative il documento, come in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-8. Scegliere **Carica applicazioni personalizzate**.
-9. Nella pagina **Carica app da distribuire**, scegli **Carica manifest file (.xml) dal dispositivo** > **Scegli file**.
-10. Seleziona uno dei file di aggiunta che hai estratto prima, per esempio, **Contact Insights.xml**.
-11. Segui le istruzioni per assegnare gli utenti e distribuire l'add-in.
-12. Ripeti i passi da 9 a 11 per l'altro file aggiuntivo, se vuoi.
+## <a name="adding-the-add-ins-manually"></a>Aggiunta manuale dei componenti aggiuntivi
+In alcuni casi, i componenti aggiuntivi non vengono aggiunti automaticamente a Outlook. Anche se la società oppure un collega ha eseguito la Guida di setup assistito per conto della società, [!INCLUDE[d365fin](includes/d365fin_md.md)] potrebbe non venire visualizzato in Outlook. In questi casi, è possibile aggiungere manualmente i componente aggiuntivi [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-> [!IMPORTANT]
-> Un segno di spunta verde appare quando l'add-in viene distribuito nel centro amministrativo. Tuttavia, possono essere necessarie fino a 24 ore prima che gli utenti vedano l'add-in nell'app Outlook. Gli utenti potrebbero dover riavviare anche Outlook.
+In primo luogo, è necessario verificare che non sia possibile accedere ai componenti aggiuntivi nell'account di Office 365. Basta semplicemente aprire Outlook in un browser, aprire un messaggio, selezionare **Più azioni** (...) nella parte superiore del messaggio, quindi, in fondo all'elenco, scegliere **Ottieni componenti aggiuntivi** . Viene visualizzata la pagina **Componenti aggiuntivi per Outlook** dove è possibile abilitare [!INCLUDE[prodshort](includes/prodshort.md)] per Outlook. Quindi tornare a Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] dovrebbe essere disponibile.  
 
-Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amministrazione di Microsoft 365, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Analogamente nel client desktop di Outlook, è possibile verificare se [!INCLUDE[d365fin](includes/d365fin_md.md)] è visualizzato nella pagina **Scarica componenti aggiuntivi**.  
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installare l'add-in per uso personale
+In entrambi i casi, se [!INCLUDE[d365fin](includes/d365fin_md.md)] non è ancora disponibile, è necessario ottenere i file add-in manifest. Per ulteriori informazioni, contattare l'amministratore di Office 365.
 
-Se la tua organizzazione lo permette, puoi installare l'add-in Business Central solo per te stesso. Contatta il tuo amministratore se non sei sicuro.
+## <a name="using-other-email-accounts"></a>Utilizzo di altri account e-mail
 
-1. In Business Central, vai alla ![lampadina che apre la funzione Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , inserire **Ottieni l’Add-in Outlook**, poi scegliere il link relativo.
-2. Leggi la pagina e scegli **Avanti** quando sei pronto.
-3. Se vuoi ricevere un messaggio e-mail di benvenuto da Business Central con una panoramica sull'utilizzo del componente aggiuntivo, attiva **Invia messaggio e-mail di esempio**.
-4. scegli **Fine** per completare l'installazione.
+I componenti aggiuntivi sono progettati per l'uso con Office 365. Se si utilizza [!INCLUDE [prodshort](includes/prodshort.md)] in locale, l'amministratore saprà se è possibile utilizzare i componenti aggiuntivi di [!INCLUDE [prodshort](includes/prodshort.md)] in Outlook. Per ulteriori informazioni, vedere [Quale indirizzo e-mail posso utilizzare con [!INCLUDE[prodshort](includes/prodshort.md)] ? ](across-faq.md#email) e [Funzionalità che richiedono specifiche circostanze](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
-Business Central si collegherà al tuo server di posta elettronica e installerà l'add-in nel tuo Outlook. Non ci vorrà molto tempo. Ora sei pronto per iniziare ad usare l'add-in in Outlook.
-
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Per Business Central on-premises
-
-Se stai usando Business Central on-premises, l'installazione dell'add-in potrebbe essere leggermente diversa.
-
-1. In Business Central, vai alla ![lampadina che apre la funzione Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , inserire **Ottieni l’Add-in Outlook**, poi scegliere il link relativo.
-2. Leggi la pagina e scegli **Avanti** quando sei pronto.
-3. Fai uno dei seguenti passi, a seconda della pagina che vedi:
-
-    - Se vedete il pulsante **Installa sul mio Outlook**, sceglilo e il gioco è fatto.
-    - Se vedi il pulsante **Avanti**, sceglilo. Nella pagina successiva, se vuoi ricevere un messaggio email di benvenuto da Business Central con una panoramica sull'uso dell'add-in, attiva **Invia messaggio email campione**. Poi, scegli **Fine** e avete finito.
-    - Se vedi il pulsante **Scarica add-in**, sceglilo, poi vai al passo successivo.
-4. Quando scegli **Scarica add-in**, un file con il nome *OutlookAddins.zip* viene scaricato sul vostro dispositivo. Dovresti vedere il file nella parte superiore del browser.
-
-   Vai nella cartella dove è stato scaricato OutlookAddins.zip ed estrai i file **Contact Insights.xml** e **Document View.xml** dallo zip in una cartella di tua scelta. Per maggiori informazioni su come estrarre i file, vedi [Zip e Unzip di file e cartelle](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-
-5. Aprire Outlook e scegliere **Get Add-ins** dalla barra multifunzione. Oppure, se stai usando Outlook sul web, seleziona il menu a discesa su qualsiasi messaggio di posta elettronica nuovo o esistente, quindi seleziona **Get Add-ins**.
-6. scegli **I miei add-in** > **Aggiungere un add-in personalizzato** > **Aggiungere da un file**.
-7. Scegli uno dei file .xml che hai estratto, come **Contact Insights.xml**, poi scegli **Open** > **Install**.
-8. Ripeti i passi 6 e 7 per l'altro file .xml, se ne hai scaricato uno.
-
-Ora sei pronto per iniziare ad usare l'add-in in Outlook.
-
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere la formazione correlata su [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 
-[Prepararsi a fare affari](ui-get-ready-business.md)  
+[Introduzione](product-get-started.md)  
 [Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Finanze](finance.md)  
@@ -132,6 +82,3 @@ Ora sei pronto per iniziare ad usare l'add-in in Outlook.
 [Acquisti](purchasing-manage-purchasing.md)  
 [Requisiti minimi per Outlook](product-requirements.md#outlook)  
 [Utilizzo di componenti aggiuntivi in Outlook sul Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

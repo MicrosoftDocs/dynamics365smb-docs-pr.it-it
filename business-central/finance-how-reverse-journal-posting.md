@@ -1,26 +1,26 @@
 ---
-title: Annullare una registrazione con un movimento di storno
+title: Annullare una registrazione con un movimento di pareggio | Microsoft Docs
 description: Se è stata eseguita una registrazione errata nelle registrazioni generali, è possibile utilizzare la funzione Storno per annullare la registrazione con un audit trail corretto.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.search.form: 20, 25, 29, 38, 202, 5912,
-ms.date: 07/22/2021
-ms.author: edupont
-ms.openlocfilehash: 10a1532ea7772aa8f2c35df118388e57dc4dc52d
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 38c836609a4e896b9fb71d0195f1d3c05d1cf081
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972540"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183574"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Stornare le registrazioni e annullare carichi/spedizioni errati
-
-Le registrazioni contabili di storno non vengono utilizzate solo per correggere gli errori, ma possono anche essere utilizzate per cancellare un vecchio movimento di ratei prima di inserirne uno nuovo, ad esempio. Selezionare un movimento e creare movimenti di storno, ovvero movimenti identici a quelli originali ma con segno opposto nel campo relativo all'importo, con numero di documento e data di registrazione identici a quelli del movimento originale. Dopo lo storno di un movimento, è necessario creare il movimento corretto.
+Per stornare una registrazione errata, selezionare un movimento e creare movimenti di storno, ovvero movimenti identici a quelli originali ma con segno opposto nel campo relativo all'importo, con numero di documento e data di registrazione identici a quelli del movimento originale. Dopo lo storno di un movimento, è necessario creare il movimento corretto.
 
 È possibile stornare solo movimenti immessi da una riga di registrazioni generali. Un movimento può essere stornato solo una volta.
 
@@ -32,7 +32,7 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Per stornare la registrazione di un movimento di contabilità generale
 È possibile stornare i movimenti da tutte le pagine **Movimenti contabili**. La seguente procedura è basata sulla pagina **Movimenti C/G**.
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti C/G**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti contabilità generale** e quindi scegliere il collegamento correlato.
 2. Selezionare il movimento che si desidera stornare quindi scegliere l'azione **Storno**. Si noti che è necessario che il movimento derivi da una registrazione.
 3. Nella pagina **Storna movimenti transazioni**, scegliere l'azione **Storna**.
 4. Scegliere il pulsante **Sì** nel messaggio di conferma.
@@ -43,7 +43,7 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 ## <a name="to-post-a-negative-entry"></a>Per registrare un movimento negativo  
 È possibile utilizzare il campo **Correzione** per registrare un addebito negativo anziché un credito oppure un accredito negativo anziché un addebito su un conto. Per soddisfare i requisiti legali, questo campo è visibile per impostazione predefinita in tutte le registrazioni. I campi **Dare** e **Avere** includono il movimento originale e il movimento corretto. Questi campi non influiscono sul saldo del conto.  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato  
 2.  Nel campo **Nome batch** selezionare il nome di batch necessario.  
 3.  Immettere informazioni nei campi rilevanti.  
 4.  Nella riga di registrazione che si desidera attivare per i movimenti negativi, selezionare la casella di controllo **Correzione**.  
@@ -52,7 +52,7 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Per annullare la registrazione di una quantità in una ricezione acquisti registrata  
 Di seguito viene descritto come annullare un carico registrato di articoli o risorse. I passaggi sono simili a quelli per le spedizioni registrate.
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Carichi acquisti registrati**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Carichi acquisti registrati** e quindi scegliere il collegamento correlato.  
 2.  Aprire il carico registrato che si desidera annullare.  
 3.  Selezionare la riga o le righe che si desidera annullare.  
 4.  Scegliere l'azione **Annulla carico**.
@@ -64,7 +64,7 @@ I campi **Quantità ricevuta** e **Qtà carichi non fatt.** nell'ordine di acqui
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Per annullare e successivamente ripetere la registrazione di una quantità in una spedizione di reso registrata
 Di seguito viene descritto come annullare una spedizione di reso registrata di articoli o risorse e quindi registrare di nuovo il reso di acquisto con una nuova quantità. I passaggi sono simili a quelli per i carichi da reso registrati.
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni reso registrate**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni reso registrate** e quindi scegliere il collegamento correlato.  
 2.  Aprire la spedizione reso registrata che si desidera annullare.
 3. Selezionare la riga o le righe che si desidera annullare.  
 
@@ -75,17 +75,13 @@ Di seguito viene descritto come annullare una spedizione di reso registrata di a
     Ora tornare all'ordine di reso di acquisto per ripetere la registrazione.  
 
 5.  Nella pagina **Spedizione reso registrata** prendere nota del numero nel campo **Nr. ordine di reso**. .  
-6.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di reso acquisto**, quindi seleziona il collegamento correlato.  
+6.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di reso acquisto** e quindi scegliere il collegamento correlato.  
 7.  Aprire l'ordine di reso in questione quindi scegliere l'azione **Riapri**.  
 8.  Correggere la voce nel campo **Quantità** e registrare nuovamente l'ordine di reso acquisto.  
 
 ## <a name="see-also"></a>Vedere anche
-
 [Annullare la registrazione di assemblaggi](assembly-how-to-undo-assembly-posting.md)  
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,22 +1,23 @@
 ---
-title: Acquisire i cespiti
+title: Acquisire cespiti| Documenti Microsoft
 description: È possibile impostare un cespite, assegnare un registro beni ammortizzabili e registrare il costo di acquisizione del cespite.
-author: edupont04
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.search.form: 5605, 5551, 5600, 5628, 5629
-ms.date: 12/03/2021
-ms.author: edupont
-ms.openlocfilehash: a7c74ef8e5dc7e40f6ea63962734074f35ac57a8
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e5d1d56f4035311e3c90d3dba9d4e8d49df48d25
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029250"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184558"
 ---
 # <a name="acquire-fixed-assets"></a>Acquisire i cespiti
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. Un registro beni ammortizzabili deve essere impostato e assegnato a ogni cespite prima di poterlo acquisire.
@@ -30,7 +31,7 @@ L'indicizzazione consente di correggere i valori per le modifiche generali a liv
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Per creare un cespite e acquisirlo automaticamente
 Di seguito viene descritto come creare e acquisire un cespite utilizzando la pagina **Acquisizione assistita cespiti** per creare e registrare le righe registrazioni cespiti in C/G richieste. È inoltre possibile creare e registrare manualmente le righe di registrazione. Per ulteriori informazioni, vedere [Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Nella Scheda dettaglio **Registro beni ammortizzabili** compilare i campi secondo le necessità. In questo passaggio viene assegnato un registro beni ammortizzabili al cespite.  
 4. Se è necessario assegnare più di un registro beni ammortizzabili al cespite, scegliere l'azione **Aggiungi più registri beni ammortizzabili**. Per ulteriori informazioni, vedere [Per assegnare un registro dei beni ammortizzabili a un cespite](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
@@ -47,14 +48,14 @@ Quando si sceglie **Fine**, il campo **Valore contabile** nella pagina **Scheda 
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Per impostare una lista di componenti per un bene principale
 I cespiti possono essere raggruppati in beni principali e componenti. Un esempio è costituito da un macchinario di produzione composto da molte parti che si intendono raggruppare come segue.  
 
-il bene principale e tutti i suoi componenti devono essere impostati come schede cespiti individuali. In seguito all'impostazione di una lista componenti, i campi **Bene Principale/Componente** e **Componenti di bene principale** nelle schede cespiti vengono compilati automaticamente da [!INCLUDE[prod_short](includes/prod_short.md)].
+il bene principale e tutti i suoi componenti devono essere impostati come schede cespiti individuali. In seguito all'impostazione di una lista componenti, i campi **Bene Principale/Componente** e **Componenti di bene principale** nelle schede cespiti vengono compilati automaticamente da [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.
 2. Selezionare il cespite che costituisce il bene principale, quindi scegliere l'azione **Componenti bene principale**.
 3. Nella pagina **Componenti bene principale** scegliere il campo **Nr. cespite**, quindi selezionare il cespite che si desidera aggiungere come componente del bene principale.
 4. Chiudere la pagina.
 5. Ripetere i passaggi 3 e 4 per ogni bene componente che si intende aggiungere.
-6. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup cespiti**, quindi scegli il collegamento correlato.
+6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup cespiti** e quindi scegliere il collegamento correlato.
 7. Selezionare la casella di controllo **Autorizza reg. in cespiti principali**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Per registrare manualmente un'acquisizione del cespite mediante Registrazioni cespiti in C/G
@@ -63,38 +64,35 @@ Di seguito viene descritto come acquistare manualmente un cespite creando e regi
 > [!NOTE]  
 >   È inoltre possibile registrare i costi di acquisizione in Avere. In tal caso, ricordare che il valore nel campo **Importo** deve avere il segno meno per indicare un credito.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Registrazioni cespiti in C/G**, nel campo **Tipo reg. cespite** selezionare **Costo di acquisto**.
 3. Compilare i rimanenti campi, se necessario.
 4. Scegliere l'azione **Registra**.  
 
 > [!TIP]  
->   Se durante la registrazione di un costo di acquisto viene compilato il campo **Nr. Assicurazione**, il costo di acquisizione del cespite verrà registrato automaticamente da [!INCLUDE[prod_short](includes/prod_short.md)] nel registro di copertura assicurativa. Per ulteriori informazioni, vedere [Assicurazione di cespiti](fa-how-insure.md).
+>   Se durante la registrazione di un costo di acquisto viene compilato il campo **Nr. Assicurazione**, il costo di acquisizione del cespite verrà registrato automaticamente da [!INCLUDE[d365fin](includes/d365fin_md.md)] nel registro di copertura assicurativa. Per ulteriori informazioni, vedere [Assicurazione di cespiti](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Per annullare una registrazione di costo di acquisto per un cespite
 In caso di errore nella registrazione di un costo di acquisto, è possibile rimuovere il movimento con il processo batch **Rimuovi mov. cespiti** e registrare il movimento di acquisto corretto. I movimenti errati vengono trasferiti alla pagina **Mov. cont. cespiti errati**.
 
-Ad esempio, se si registra un acquisto con la data errata, è necessario correggerla prontamente perché la data di registrazione del cespite viene utilizzata in diversi calcoli.
+Ad esempio, se si registra un acquisto con la data errata, è necessario correggerla prontamente perché la data di registrazione del cespite viene utilizzata in diversi calcoli critici.
 
 > [!IMPORTANT]  
-> Non è possibile utilizzare la funzione **Storno** per i movimenti di cespiti.
+>   Non è possibile utilizzare la funzione **Storno** per i movimenti di cespiti.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Movimenti contabili cespiti**, quindi scegliere il collegamento correlato.  
-2. Nella pagina **Movimenti contabili cespiti** selezionare il movimento o i movimenti da annullare.  
-3. Scegliere il menu **Azioni**, quindi scegliere l'azione **Annulla movimenti**.
-4. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-5. Scegliere **OK** per eseguire il processo batch.
-6. Quando il movimento o i movimenti errati vengono annullati, continuare con la registrazione del costo di acquisto corretto.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Rimuovi mov. cespiti** e quindi scegliere il collegamento correlato.
+2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Scegliere **OK** per eseguire il processo batch.
+4. Quando il movimento o i movimenti errati vengono annullati, continuare con la registrazione del costo di acquisto corretto.
+
+Per annullare i movimenti contabili per più cespiti alla volta, utilizzare il processo batch **Annulla mov. contabili cespiti**.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Per registrare il valore di realizzo con il costo di acquisto
 È possibile registrare il valore di realizzo insieme al costo di acquisto da Registrazioni Cespiti.
 
-> [!NOTE]
-> Questo processo potrebbe richiedere la personalizzazione della pagina Registrazioni cespiti aggiungendo il campo Valore di realizzo. Il campo non viene visualizzato per impostazione predefinita nella pagina. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
-
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Registrazioni cespiti**, creare la linea di acquisizione. Per ulteriori informazioni, vedere [Per registrare un'acquisizione di cespite manualmente con Registrazioni cespiti in C/G](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
-3. Nel campo **Valore di realizzo** nella riga di registrazione, immetti l'importo del valore di realizzo come avere (aggiungi il prefisso segno meno all'importo ad esempio **-** 100).
+3. Immettere l'importo del valore di realizzo come avere (con il segno meno) nel campo **Valore di realizzo** nella riga di registrazione.
 4. Scegliere l'azione **Registra**.
 
 > [!NOTE]
@@ -104,8 +102,5 @@ Ad esempio, se si registra un acquisto con la data errata, è necessario corregg
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Introduzione](product-get-started.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,23 +1,23 @@
 ---
-title: Assegnare layout documento clienti o fornitori
-description: Quando vengono definiti layout di report personalizzati, è possibile selezionarli da schede cliente e fornitore per specificare che verranno utilizzati per il cliente o il fornitore in questione.
+title: Assegnare layout di documenti speciali a clienti o fornitori | Microsoft Docs
+description: Quando vengono definiti layout di report personalizzati, è possibile selezionarli da schede cliente e fornitore per specificare che i layout selezionati verranno utilizzati per documenti creati per il cliente o il fornitore in questione.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 23c4573c3121a660b8263c3bc9bb2c6ac8b1d331
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443745"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809401"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definire layout di documenti per clienti e fornitori
 Quando vengono definiti layout di report personalizzati, è possibile selezionarli da schede cliente e fornitore per specificare quali layout verranno utilizzati per differenti tipi di documenti creati per il cliente o il fornitore in questione. Il valore nel campo **Utilizzo**, definisce per quale processo verrà utilizzato il layout di documento, ad esempio **Sollecito**, **Spedizione** e **Conferma**.
@@ -31,7 +31,7 @@ Prima di poter definire quale layout di documento utilizzare per quali processi 
 Di seguito viene descritto come definire layout di documenti di vendita da una scheda cliente. I passaggi sono gli stessi per i layout di documenti di acquisto da una scheda fornitore.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Per abilitare tutti i documenti di vendita disponibili per un cliente
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda del cliente per cui si desidera definire layout di documenti per processo aziendale.
 3. Nella pagina **Scheda cliente** scegliere la pagina **Layout documento**.
 4. Nella pagina **Layout documento**, scegliere l'azione **Copia da selezione report**.
@@ -62,6 +62,3 @@ L'indirizzo e-mail del contatto viene ora inserito nella riga del layout di docu
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

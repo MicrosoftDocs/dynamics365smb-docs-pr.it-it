@@ -1,24 +1,24 @@
 ---
-title: Gestione assemblaggio
-description: Supporta le aziende che forniscono prodotti ai propri clienti combinando componenti in processi semplici senza la necessità di funzionalità di produzione.
+title: Gestione assemblaggio | Microsoft Docs
+description: Supporta le società che forniscono prodotti ai clienti combinando i componenti in semplici processi senza richiedere funzionalità di manufacturing, ma con funzionalità per assemblare gli articoli che si integrano con le funzionalità esistenti, ad esempio vendite, pianificazione, impegni e gestione warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: d149ed0da02124a442668bb67a659c0dde36dad3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 015d11ed2ec58fff09b0c4870a7c5a1ee11e7896
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326365"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186478"
 ---
 # <a name="assembly-management"></a>Gestione assemblaggio
-Per supportare le società che forniscono prodotti ai clienti combinando i componenti in semplici processi senza richiedere funzionalità di manufacturing, [!INCLUDE[prod_short](includes/prod_short.md)] include funzionalità per assemblare gli articoli che si integrano con le funzionalità esistenti, ad esempio vendite, pianificazione, impegni e gestione warehouse.  
+Per supportare le società che forniscono prodotti ai clienti combinando i componenti in semplici processi senza richiedere funzionalità di manufacturing, [!INCLUDE[d365fin](includes/d365fin_md.md)] include funzionalità per assemblare gli articoli che si integrano con le funzionalità esistenti, ad esempio vendite, pianificazione, impegni e gestione warehouse.  
 
  Un articolo di assemblaggio è definito come articolo vendibile contenente una DB di assemblaggio. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
@@ -48,17 +48,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
-
+## <a name="see-also"></a>Vedere anche  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
-<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
-<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

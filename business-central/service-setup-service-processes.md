@@ -3,19 +3,19 @@ title: Impostazione dei processi di gestione assistenza | Documenti Microsoft
 description: Informazioni su come impostare i processi che consentono di assicurarsi che i clienti siano soddisfatti del servizio di assistenza clienti.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 80f56b9572e8ff20c29174e738aff135243530b7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438234"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192299"
 ---
 # <a name="configure-service-processes"></a>Configurazione dei processi di assistenza
 Di seguito vengono forniti alcuni esempi delle impostazioni che è possibile applicare ai processi di gestione assistenza:  
@@ -27,7 +27,7 @@ Di seguito vengono forniti alcuni esempi delle impostazioni che è possibile app
 * Sequenze numeriche da utilizzare per gli articoli e i documenti correlati all'assistenza.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Per immettere le impostazioni generali e obbligatorie
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup gestione assistenza**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup gestione assistenza** e quindi scegliere il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Vedi anche  
@@ -37,6 +37,3 @@ Di seguito vengono forniti alcuni esempi delle impostazioni che è possibile app
 [Impostare costi aggiuntivi per i servizi assistenza](service-how-setup-service-costs-pricing.md)  
 [Impostare il troubleshooting](service-how-setup-troubleshooting.md)  
 [Gestione assistenza](service-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

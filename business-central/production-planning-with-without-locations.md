@@ -1,21 +1,21 @@
 ---
-title: Pianificazione con o senza ubicazioni
-description: In questo argomento vengono fornite informazioni sulla produzione, inclusa la pianificazione degli approvvigionamenti, in Business Central.
+title: Pianificazione con o senza ubicazioni | Microsoft Docs
+description: È importante comprendere la pianificazione con o senza codici ubicazione nelle righe della domanda.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: fa1b63bb94152c130077907dbe2d4e0d08281f40
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: b5c5c12dedfe3f35737888017ed02e0f7d464443
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6635993"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877689"
 ---
 # <a name="planning-with-or-without-locations"></a>Pianificazione con o senza ubicazioni
 Nel caso della pianificazione con o senza codici ubicazione nelle righe della domanda, il sistema di pianificazione agisce in modo diretto nei casi indicati di seguito.  
@@ -25,20 +25,16 @@ Nel caso della pianificazione con o senza codici ubicazione nelle righe della do
 
 Se tuttavia i codici ubicazione sono a volte inclusi e a volte non inclusi nelle righe della domanda, il sistema di pianificazione segue regole specifiche in base al setup.  
 
-> [!TIP]
-> Se risulta spesso necessario pianificare la domanda in diverse ubicazioni, è consigliabile utilizzare la funzionalità Unità di stockkeeping.
-
 ## <a name="demand-at-location"></a>Domanda nell'ubicazione  
-
 In caso di rilevamento di una domanda in corrispondenza di un'ubicazione, ovvero una riga con un codice ubicazione, il funzionamento del sistema di pianificazione varia in base a 3 importanti valori di setup.  
 
 Durante l'esecuzione della pianificazione, viene eseguito il controllo dei 3 valori di setup in sequenza, quindi la pianificazione viene eseguita in base a tali valori, come indicato di seguito.  
 
-1. C'è un segno di spunta nel campo **Ubicazione obbligatoria** nella pagina **Setup magazzino**?  
+1.  Viene verificata la presenza di un segno di spunta nel campo **Ubicazione Obbligatoria**.  
 
     In caso affermativo  
 
-2. Viene verificata la presenza dell'unità di stockkeeping (USK) per l'articolo.  
+2.  Viene verificata la presenza dell'unità di stockkeeping (USK) per l'articolo.  
 
     In caso affermativo  
 
@@ -46,7 +42,7 @@ Durante l'esecuzione della pianificazione, viene eseguito il controllo dei 3 val
 
     In caso negativo  
 
-3. Il campo **Componenti nell'ubicazione** nella pagina **Setup manufacturing** contiene il codice ubicazione richiesto?  
+3.  Viene verificata la presenza del codice ubicazione richiesto nel campo **Componenti nell'Ubicazione**.  
 
     In caso affermativo  
 
@@ -57,18 +53,9 @@ Durante l'esecuzione della pianificazione, viene eseguito il controllo dei 3 val
     L'articolo viene pianificato in base a quanto segue: Metodi di Riordino =  *Lotto-per-Lotto*, Includi Giacenze =  *Sì*, tutti gli altri parametri di pianificazione vuoti. Nel caso degli articoli per i quali è utilizzato il metodo di riordino  *Ordine*, il sistema continuerà a utilizzare  *Ordine* e tutte le altre impostazioni.  
 
 > [!NOTE]  
-> Questa "alternativa minima" riguarda esclusivamente la domanda. Gli eventuali parametri di pianificazione definiti vengono ignorati.  
+>  Questa "alternativa minima" riguarda esclusivamente la domanda. Gli eventuali parametri di pianificazione definiti vengono ignorati.  
 
 Vedere le differenze di scenario riportate di seguito.  
-
-> [!TIP]
-> Il campo **Ubicazione obbligatoria** nella pagina **Setup magazzino** e il campo **Componenti nell'ubicazione** nella pagina Setup manufacturing sono molto importanti per definire in che modo il sistema di pianificazione gestisce le righe della domanda con/senza codici ubicazione.
->
-> Per la domanda di produzione acquistata (quando il motore di pianificazione è utilizzato solo per la pianificazione degli acquisti e non per la pianificazione della produzione), [!INCLUDE [prod_short](includes/prod_short.md)] userà la stessa ubicazione indicata per i componenti sull'ordine di produzione. Compilando questo campo, tuttavia, è possibile reindirizzare i componenti a un'altra ubicazione.
->
-> È possibile definire ciò anche per un'unità di stockkeeping specifica selezionando un codice ubicazione diverso nel campo **Componenti nell'ubicazione** della scheda relativa. Si noti, tuttavia, che questo è difficilmente consigliabile perché la logica di pianificazione può essere distorta nella pianificazione del componente USK.
-
-Un altro campo importante è il campo **Quantità massima ordine** nella scheda **Articolo**. Specifica una quantità massima consentita per una proposta d'ordine e viene utilizzata se l'articolo viene consegnato in un'unità di trasporto fissa, ad esempio un container, che si desidera utilizzare completamente, ad esempio. Una volta rilevata l'esigenza di un rifornimento e rettificata la dimensione del lotto in modo da soddisfare il metodo di riordino specificato, la quantità viene ridotta se è necessario soddisfare la quantità massima di ordine definita per l'articolo. Qualora dovessero rimanere fabbisogni aggiuntivi, verranno calcolati nuovi ordini volti a soddisfarli. Questo campo viene in genere utilizzato con una politica di produzione di tipo produzione per magazzino.  
 
 ## <a name="demand-at-blank-location"></a>Domanda nell'"ubicazione vuota"  
 Anche se la casella di controllo **Ubicazione obbligatoria** è selezionata, il sistema consente la creazione delle righe della domanda senza un codice ubicazione, definita anche come ubicazione *VUOTA*. Si tratta di una deviazione per il sistema perché dispone di diversi valori setup ottimizzati per gestire le ubicazioni (vedere sopra) e di conseguenza il motore di pianificazione non creerà una riga di pianificazione per tale riga della domanda. Se il campo **Ubicazione obbligatoria** non è selezionato ma non esiste nessuno dei valori setup dell'ubicazione, anche questa è considerata una deviazione e il sistema di pianificazione reagirà restituendo l'"alternativa minima":   
@@ -146,19 +133,14 @@ L'articolo viene pianificato in base ai parametri di pianificazione nella scheda
 
 Come risulta evidente dall'ultimo scenario, l'unico modo per ottenere un risultato corretto per una riga della domanda senza un codice ubicazione consiste nel disabilitare i valori di setup relativi alle ubicazioni. In modo analogo, l'unico modo per ottenere risultati di pianificazione stabili per la domanda nelle ubicazioni consiste nell'utilizzare le unità di stockkeeping.  
 
-Pertanto, se risulta spesso necessario pianificare la domanda in varie ubicazioni, è consigliabile utilizzare la funzionalità Unità di stockkeeping.  
+Se si esegue spesso la pianificazione per la domanda nelle ubicazioni, si consiglia pertanto di utilizzare la funzionalità Unità di Stockkeeping.  
 
-## <a name="see-also"></a>Vedere anche
-
-[Pianif.](production-planning.md)  
+## <a name="see-also"></a>Vedi anche
+[Pianif.](production-planning.md)    
 [Impostazione della produzione](production-configure-production-processes.md)  
-[Manufacturing](production-manage-manufacturing.md)  
+[Manufacturing](production-manage-manufacturing.md)    
 [Magazzino](inventory-manage-inventory.md)  
-[Impostare le unità di stockkeeping](inventory-how-to-set-up-stockkeeping-units.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
+[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

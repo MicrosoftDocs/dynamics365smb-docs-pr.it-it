@@ -1,37 +1,38 @@
 ---
-title: Informazioni sui tipi di articolo
-description: È possibile modificare la valutazione di magazzino di un articolo mediante i metodi di costing Media o FIFO, quando i costi degli articoli cambiano per i motivi diversi dalle transazioni.
+title: Informazioni sui tipi di articolo | Documenti Microsoft
+description: È possibile modificare la valutazione di magazzino di un articolo mediante i metodi di costing Media o FIFO, ad esempio, quando i costi degli articoli cambiano per i motivi diversi dalle transazioni.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9297, 5845, 30,
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 481e8bbdb13863055c4dc532cb2c214228b8a8ba
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059624"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454298"
 ---
 # <a name="about-item-types"></a>Informazioni sui tipi di articolo
-Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda che influisce sul grado di gestione dell'articolo in magazzino. La tabella seguente elenca e descrive i tre tipi di articoli disponibili.
+Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda e quindi come viene gestito nel sistema. Sono disponibili tre opzioni:
 
 |Opzione|Scopo tipico|
 |------|-----------|
-|Inventario|Oggetti fisici, come biciclette, telefoni e scrivanie, per i quali vuoi essere in grado di utilizzare tutti i processi di magazzino. Questo può includere anche articoli non fisici, come licenze software e abbonamenti, se gli articoli hanno numeri di identificazione, come i numeri di serie. Puoi monitorare completamente i valori degli articoli e la disponibilità nell'inventario.|
-|Non in inventario|In genere, gli articoli non di inventario sono oggetti fisici, come bulloni o penne, che un'azienda consuma ma non desidera tenere traccia completamente dell'inventario. Ad esempio, perché sono articoli a basso costo e vengono utilizzati solo internamente.|
+|Inventario|Un'unità fisica, come una bicicletta, per un pieno supporto commerciale.|
+|Non in inventario|Un'unità fisica, ad esempio un bullone, per un supporto aziendale limitato, ad esempio perché l'articolo viene utilizzato solo internamente e ha un costo ridotto.|
 |Assistenza|Un'unità di misura del tempo della manodopera, ad esempio un'ora di consulenza, per un supporto aziendale limitato.|
 
-> [!NOTE]
-> I tipi **Assistenza** e **Non in inventario** non supportano il tracciamento della quantità e del valore dell'inventario. Sono supportati solo i tipi e le funzionalità delle transazioni dell'articolo selezionato.
+Il tipo **Inventario** prevede il monitoraggio completo della quantità e del valore di inventario. Di conseguenza, tutti i tipi di transazione dell'articolo sono supportati e gli articoli di tipo Inventario possono essere utilizzati con tutte le funzionalità di gestione degli articoli.
 
-La seguente tabella include le funzionalità supportate dai tre tipi dell'articolo.
+I tipi **Assistenza** e **Non in inventario** non prevedono il tracciamento della quantità e del valore dell'inventario. Di conseguenza, sono supportati solo i tipi e le funzionalità delle transazioni dell'articolo selezionato.
+
+I tre tipi dell'articolo supportano rispettivamente le seguenti funzionalità.
 
 |Tipo di articolo|Vendite|Acquisti|Consumo per la commessa|Consumo di assistenza|Consumo assemblaggio|Consumo produzione|Output assemblaggio|Output produzione|Trasferimento ubicazione|Conteggio fisico|Rivalutazione del magazzino|Costing di magazzino|Tracciabilità articolo|Impegni|Gestione della warehouse|Pianificazione|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -56,7 +57,4 @@ Gli articoli dei clienti per cui si esegue il servizio di assistenza, come una s
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

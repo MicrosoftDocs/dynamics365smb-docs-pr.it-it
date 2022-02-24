@@ -1,43 +1,39 @@
 ---
-title: Come tracciare i colli
-description: Utilizza il servizio di tracciamento degli agenti di vendita su Internet per tracciare i pacchi e seguire l'andamento di una consegna.
+title: 'Procedura: Rintracciare i colli | Documenti Microsoft'
+description: È possibile utilizzare il servizio di tracciabilità degli spedizionieri per vedere lo stato di avanzamento di una consegna.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
-ms.date: 06/23/2021
+ms.date: 05/28/2020
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752368"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410694"
 ---
 # <a name="track-packages"></a>Rintracciare i colli
-La maggior parte degli spedizionieri fornisce un servizio web che ti consente di monitorare lo stato dei tuoi pacchi mentre sono in viaggio. Tali informazioni possono essere utili in molti processi aziendali, ad esempio, quando si fornisce il servizio clienti. Se si utilizzano uno o più spedizionieri, è possibile immettere alcune informazioni di base e quindi utilizzare il servizio di tracciabilità dei pacchi direttamente dalle pagine Spedizioni vendite registrate, Fatture di vendita registrate, Note di credito di vendita registrate e Ricevuta di reso registrata. Per ulteriori informazioni, vedere [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md). 
+
+Molti spedizionieri forniscono dei servizi via Internet che consentono di seguire il percorso di pacchi che sono stati loro affidati. Se ci si avvale di spedizionieri che offrono questo tipo di servizio può risultare molto utile impostare delle informazioni di base che vengono utilizzate per rintracciare automaticamente le spedizioni registrate, fatture di vendita registrate, note di credito di vendita registrate e carichi da reso registrati. Per ulteriori informazioni, vedere [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md).  
 
 La seguente procedura mostra come tenere traccia di un collo da una spedizione di vendita registrata, ma gli stessi passaggi valgono per abilitare il tracciamento del collo dalle pagine Fattura vendita registrata, Nota credito vendita registrata e Carico da reso registrato.  
 
 ## <a name="to-track-a-package"></a>Per rintracciare un collo
 
-> [!NOTE]
-> La procedura seguente utilizza la pagina Spedizione di vendite registrata come esempio. I passaggi per tenere traccia di un pacco sono gli stessi nelle pagine Fatture di vendita registrate, Note di credito di vendita registrate e Ricevuta di reso registrata.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.
+2. Aprire la spedizione desiderata.
+3. Scegliere l'azione **Aggiorna documento**.
+4. Nel campo **Nr. identificazione collo** immettere il numero di collo che è stato comunicato dallo spedizioniere. Aggiornare **Spedizioniere** se necessario e chiudere la pagina.
+5. Scegliere l'azione **Traccia collo**.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizione vendita registrata**, quindi scegli il collegamento correlato.
-2. Apri la spedizione che vuoi tracciare, quindi scegliere l'azione **Aggiorna documento**.
-3. Nel campo **Nr. identificazione collo** immetti il numero di collo che è stato comunicato dallo spedizioniere. 
-4. Assicurati che lo spedizioniere e il livello di servizio siano corretti, quindi chiudi la pagina.
-5. Scegli l'azione **Traccia collo** per aprire il servizio di tracciabilità dei pacchi dello spedizioniere.
+La pagina di tracciabilità dello spedizioniere viene aperta nel browser predefinito.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)  
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

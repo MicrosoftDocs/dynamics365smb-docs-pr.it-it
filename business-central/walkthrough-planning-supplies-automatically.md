@@ -1,25 +1,27 @@
 ---
-title: Procedura dettagliata - Pianificazione automatica degli approvvigionamenti
-description: In questa procedura dettagliata viene illustrato come utilizzare il sistema di pianificazione degli approvvigionamenti per pianificare automaticamente tutti gli ordini di produzione e acquisto in diversi ordini di vendita.
+title: 'Procedura dettagliata: Pianificazione automatica degli approvvigionamenti | Documenti Microsoft'
+description: Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno riferimento al calcolo della programmazione produzione master (MPS, Master Production Schedule) e al piano di richiesta dei materiali (MPR, Material Requirements Plan) in base alla domanda prevista ed effettiva.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: e4bfcb21263e3e0b08874fe9b9397a35fc484881
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439362"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248070"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedura dettagliata: Pianificazione automatica degli approvvigionamenti
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
 
 Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno riferimento al calcolo della programmazione produzione master (MPS, Master Production Schedule) e al piano di richiesta dei materiali (MPR, Material Requirements Plan) in base alla domanda prevista ed effettiva.  
 
@@ -31,7 +33,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
  Il risultato della pianificazione viene in parte calcolato sulla base della domanda e degli approvvigionamenti nel database e in parte sulla base delle schede Unità di stockkeeping o articolo, delle DB di produzione e dei cicli.  
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata  
- In questa procedura dettagliata viene illustrato come utilizzare il sistema di pianificazione degli approvvigionamenti per pianificare automaticamente tutti gli ordini di produzione e acquisto necessari per produrre 15 biciclette da turismo richieste tramite diversi ordini di vendita. Per fornire una procedura dettagliata chiara e realistica, il numero delle righe di pianificazione viene limitato filtrando tutti gli altri set di domanda e approvvigionamento nella società demo CRONUS, ad eccezione della domanda di vendita presso l'ubicazione EST.  
+ In questa procedura dettagliata viene illustrato come utilizzare il sistema di pianificazione degli approvvigionamenti per pianificare automaticamente tutti gli ordini di produzione e acquisto necessari per produrre 15 biciclette da turismo richieste tramite diversi ordini di vendita. Per fornire una procedura dettagliata chiara e realistica, il numero delle righe di pianificazione viene limitato filtrando tutti gli altri set di domanda e approvvigionamento nella società demo CRONUS Italia S.p.A., ad eccezione della domanda di vendita presso l'ubicazione BLU.  
 
  In questa procedura dettagliata sono illustrati i task seguenti:  
 
@@ -52,13 +54,13 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 -   Modificare vari valori di setup articolo eseguendo i passaggi nella sezione "Preparazione dei dati di esempio", più avanti in questa procedura dettagliata.  
 
 ## <a name="story"></a>Scenario  
- Il cliente, Cannon Group PLC, ordina cinque biciclette da turismo con consegna il 05-02-2021 (5 febbraio).  
+ Il cliente, Cannon Group PLC, ordina cinque biciclette da turismo con consegna il 05-02-2014 (5 febbraio).  
 
- Eduardo, il responsabile della pianificazione produzione, pianifica gli approvvigionamenti per la prima settimana di febbraio 2021. Prima di calcolare un piano di approvvigionamento iniziale, filtra in base alla propria ubicazione, EST, e immette un intervallo di pianificazione compreso tra le date di lavoro 01-23-2021 e 07-02-2021.  
+ Eduardo, il responsabile della pianificazione produzione, pianifica gli approvvigionamenti per la prima settimana di febbraio 2014. Prima di calcolare un piano di approvvigionamento iniziale, filtra in base alla propria ubicazione, BLU, e immette un intervallo di pianificazione compreso tra le date di lavoro 01-23-2014 e 07-02-2014.  
 
  L'unica domanda per quella settimana riguarda l'ordine di vendita di Cannon Group. Eduardo vede che nessuna delle righe di pianificazione contiene avvisi, quindi procede alla creazione di ordini di approvvigionamento senza modifiche per le righe di pianificazione suggerite.  
 
- Il giorno successivo, prima che qualsiasi ordine di approvvigionamento iniziale venga avviato o registrato, Eduardo viene avvisato che un altro cliente ha ordinato dieci biciclette da turismo da spedire il 12-02-2021. Procede alla rettifica del piano di approvvigionamento in base alla nuova domanda. Il ricalcolo restituisce un piano solo cambiamenti che suggerisce modifiche sia ai tempi sia alla quantità di alcuni degli ordini di approvvigionamento creati inizialmente.  
+ Il giorno successivo, prima che qualsiasi ordine di approvvigionamento iniziale venga avviato o registrato, Eduardo viene avvisato che un altro cliente ha ordinato dieci biciclette da turismo da spedire il 12-02-2014. Procede alla rettifica del piano di approvvigionamento in base alla nuova domanda. Il ricalcolo restituisce un piano solo cambiamenti che suggerisce modifiche sia ai tempi sia alla quantità di alcuni degli ordini di approvvigionamento creati inizialmente.  
 
  Durante i vari passaggi di pianificazione, Eduardo cerca gli ordini interessati e utilizza la funzionalità Tracciabilità ordine per visualizzare le diverse domande associate ai diversi approvvigionamenti.  
 
@@ -74,8 +76,8 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
 ### <a name="to-change-selected-planning-parameters"></a>Per variare i parametri di pianificazione selezionati  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Unità di stockkeeping**, quindi scegli il collegamento correlato.  
-2.  Aprire la scheda unità di stockkeeping EST per l'articolo 1100, Ruota anteriore.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Unità di stockkeeping** e quindi scegliere il collegamento correlato.  
+2.  Aprire la scheda unità di stockkeeping BLU per l'articolo 1100, Ruota anteriore.  
 3.  Nella Scheda dettaglio **Pianificazione** compilare i campi come indicato nella tabella seguente.  
 
     |Metodo di riordino|Scorta di sicurezza|Periodo di accumulo lotti|Periodo di riprogrammazione|  
@@ -87,61 +89,61 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
  I dati di esempio per la procedura dettagliata sono pronti.  
 
 ## <a name="creating-a-regenerative-supply-plan"></a>Creazione di un piano di approvvigionamento rigenerativo  
- In seguito a un nuovo ordine di vendita per cinque biciclette da turismo, Ricardo avvia il processo di pianificazione impostando le opzioni, i filtri e pianificando l'intervallo per escludere tutte le altre domande ad eccezione della prima settimana di febbraio presso l'ubicazione EST. Inizia calcolando una programmazione produzione master (MPS), quindi elaborerà un piano di approvvigionamento completo per tutte le domande di ultimo livello (MRP).  
+ In seguito a un nuovo ordine di vendita per cinque biciclette da turismo, Ricardo avvia il processo di pianificazione impostando le opzioni, i filtri e pianificando l'intervallo per escludere tutte le altre domande ad eccezione della prima settimana di febbraio presso l'ubicazione BLU. Inizia calcolando una programmazione produzione master (MPS), quindi elaborerà un piano di approvvigionamento completo per tutte le domande di ultimo livello (MRP).  
 
 ### <a name="to-create-the-sales-order"></a>Per creare l'ordine di vendita  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di vendita** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nella pagina **Ordine vendita** compilare i campi come indicato nella tabella riportata di seguito.  
 
     |Vendere a - Nome cliente|Data spedizione|Nr. Articolo|Ubicazione|Quantità|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Cannon Group|02-05-2014|1001|EST|5|  
+    |Cannon Group|02-05-2014|1001|BLU|5|  
 
 4.  Accettare l'avviso di disponibilità e scegliere **Sì** per registrare la nuova quantità di domanda.  
 
-### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Per creare un piano rigenerativo per soddisfare la domanda presso l'ubicazione EST  
+### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Per creare un piano rigenerativo per soddisfare la domanda presso l'ubicazione BLU  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto pianificazione**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
 3.  Nella pagina **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
     |Calcola piano|Data Inizio|Data fine|Mostra risultati:|Limita totali a|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Sì<br /><br /> **MRP** = No|01-23-2021<br /><br /> (data di lavoro)|02-07-2021|1001..1300|Filtro ubicazione = EST|  
+    |**MPS** = Sì<br /><br /> **MRP** = No|23/01/2014<br /><br /> (data di lavoro)|02-07-2014|1001..1300|Filtro ubicazione = BLU|  
 
 4.  Scegliere **OK** per avviare l'esecuzione della pianificazione.  
 
-     Viene creata una riga di pianificazione che suggerisce l'emissione di un ordine di produzione pianificata per produrre dieci biciclette da turismo, articolo 1001, entro il 05-02-2021, ovvero la data di spedizione dell'ordine di vendita.  
+     Viene creata una riga di pianificazione che suggerisce l'emissione di un ordine di produzione pianificata per produrre dieci biciclette da turismo, articolo 1001, entro il 05-02-2014, ovvero la data di spedizione dell'ordine di vendita.  
 
      Verificare che questa riga di pianificazione sia correlata all'ordine di vendita di Cannon Group utilizzando la funzione **Tracciabilità ordine** che collega in modo dinamico la domanda all'approvvigionamento pianificato.  
 
 5.  Selezionare la nuova riga di pianificazione, quindi scegliere l'azione **Tracciabilità ordine**.  
 6.  Nella pagina **Tracciabilità ordine** scegliere l'azione **Mostra**.  
 
-     Viene visualizzato l'ordine di vendita per la spedizione di cinque biciclette da turismo al cliente numero 10000 il 05-02-2021.  
+     Viene visualizzato l'ordine di vendita per la spedizione di cinque biciclette da turismo al cliente numero 10000 il 05-02-2014.  
 
 7.  Chiudere le pagine **Ordine vendita** e **Tracciabilità ordine**.  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Per calcolare MRP per includere i componenti necessari sottostanti  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto pianificazione**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
 3.  Nella pagina **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
     |Calcola|Data Inizio|Data fine|Mostra risultati:|Limita totali a:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
-    |**MPS** = Sì<br /><br /> **MRP** = Sì|01-23-2021|02-07-2021|1001..1300|Filtro ubicazione = EST|  
+    |**MPS** = Sì<br /><br /> **MRP** = Sì|23/01/2014|02-07-2014|1001..1300|Filtro ubicazione = BLU|  
 
 4.  Scegliere **OK** per avviare l'esecuzione della pianificazione.  
 
-     Viene creato un totale di 14 righe di pianificazione per suggerire gli ordini di approvvigionamento per l'intera domanda rappresentata dall'ordine di vendita delle biciclette da turismo presso l'ubicazione EST.  
+     Viene creato un totale di 14 righe di pianificazione per suggerire gli ordini di approvvigionamento per l'intera domanda rappresentata dall'ordine di vendita delle biciclette da turismo presso l'ubicazione BLU.  
 
 ## <a name="analyzing-the-planning-result"></a>Analisi del risultato della pianificazione  
  Per analizzare le quantità suggerite, Eduardo esegue il drill-down sulle righe di pianificazione selezionate per visualizzare i parametri di pianificazione e i movimenti di tracciabilità ordine.  
 
- Nella pagina **Prospetto pianificazione** si noti che nella colonna **Data scadenza** gli ordini di approvvigionamento suggeriti vengono programmati dalla data di scadenza dell'ordine di vendita, 05-02-2021. La sequenza temporale inizia nella riga di pianificazione superiore con l'ordine di produzione per produrre le biciclette da turismo completate. La sequenza temporale termina nella riga di pianificazione inferiore con l'ordine di acquisto per uno degli articoli di ultimo livello, 1255, cavità posteriore, con scadenza il 30-01-2021. Come nella riga di pianificazione per l'articolo 1251, Assale posteriore, questa riga rappresenta un ordine di acquisto per i componenti in scadenza alla data di inizio dell'articolo principale prodotto, articolo di subassemblaggio 1250, che a sua volta ha come data di scadenza il 03-02-2014. Nel foglio di lavoro è possibile verificare che la data di scadenza di tutti gli articoli sottostanti è la data di inizio degli articoli padre.  
+ Nella pagina **Prospetto pianificazione** si noti che nella colonna **Data scadenza** gli ordini di approvvigionamento suggeriti vengono programmati dalla data di scadenza dell'ordine di vendita, 05-02-2014. La sequenza temporale inizia nella riga di pianificazione superiore con l'ordine di produzione per produrre le biciclette da turismo completate. La sequenza temporale termina nella riga di pianificazione inferiore con l'ordine di acquisto per uno degli articoli di ultimo livello, 1255, cavità posteriore, con scadenza il 30-01-2014. Come nella riga di pianificazione per l'articolo 1251, Assale posteriore, questa riga rappresenta un ordine di acquisto per i componenti in scadenza alla data di inizio dell'articolo principale prodotto, articolo di subassemblaggio 1250, che a sua volta ha come data di scadenza il 03-02-2014. Nel foglio di lavoro è possibile verificare che la data di scadenza di tutti gli articoli sottostanti è la data di inizio degli articoli padre.  
 
  La riga di pianificazione per l'articolo 1300, asse catena, suggerisce dieci pezzi. Questo valore si discosta dai cinque pezzi suggeriti per la maggior parte degli altri articoli nel piano. Visualizzare i movimenti di tracciabilità ordine.  
 
@@ -160,7 +162,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 1.  Nella pagina **Elementi di pianificazione non tracciati** selezionare la riga di tracciabilità ordine per l'articolo 1300.  
 2.  Scegliere il campo **Nr. articolo**, quindi scegliere l'azione **Avanzate**.  
 3.  Nella pagina **Lista articoli** scegliere l'azione **Unità di stockkeeping**.  
-4.  Nella pagina **Lista unità di stockkeeping** aprire la scheda unità di stockkeeping EST.  
+4.  Nella pagina **Lista unità di stockkeeping** aprire la scheda unità di stockkeeping BLU.  
 5.  Nella Scheda dettaglio **Pianificazione** notare che nel campo **Quantità minima ordine** è visualizzato il valore 10.  
 6.  Chiudere tutte le pagine ad eccezione della pagina **Prospetto pianificazione**.  
 
@@ -202,10 +204,10 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 4.  Scegliere **OK** per creare automaticamente tutti gli ordini di approvvigionamento suggeriti.  
 5.  Chiudere la pagina **Prospetto pianificazione** vuota.  
 
- Il calcolo, l'analisi e la creazione iniziali di un piano di approvvigionamento per la domanda presso l'ubicazione EST nella prima settimana di febbraio sono stati completati. Nella sezione seguente un altro cliente ordina dieci biciclette da turismo ed Eduardo deve ripianificare.  
+ Il calcolo, l'analisi e la creazione iniziali di un piano di approvvigionamento per la domanda presso l'ubicazione BLU nella prima settimana di febbraio sono stati completati. Nella sezione seguente un altro cliente ordina dieci biciclette da turismo ed Eduardo deve ripianificare.  
 
 ## <a name="creating-a-net-change-plan"></a>Creazione di un piano solo cambiamenti  
- Il giorno successivo, prima che qualsiasi ordine di approvvigionamento venga avviato o registrato, viene ricevuto un nuovo ordine di vendita da Libros S.A. per dieci biciclette da turismo con consegna il 12-02-2021. Dopo essere stato avvisato della nuova domanda, Eduardo procede alla ripianificazione per rettificare il piano di approvvigionamento corrente. Eduardo utilizza la funzione Solo cambiamenti per calcolare solo le modifiche apportate alla domanda o all'approvvigionamento dopo l'esecuzione dell'ultima pianificazione. Inoltre, estende il periodo di pianificazione al 14-02-2021 per includere la nuova domanda di vendita il 12-02-2014.  
+ Il giorno successivo, prima che qualsiasi ordine di approvvigionamento venga avviato o registrato, viene ricevuto un nuovo ordine di vendita da Libros S.A. per dieci biciclette da turismo con consegna il 12-02-2014. Dopo essere stato avvisato della nuova domanda, Eduardo procede alla ripianificazione per rettificare il piano di approvvigionamento corrente. Eduardo utilizza la funzione Solo cambiamenti per calcolare solo le modifiche apportate alla domanda o all'approvvigionamento dopo l'esecuzione dell'ultima pianificazione. Inoltre, estende il periodo di pianificazione al 14-02-2014 per includere la nuova domanda di vendita il 12-02-2014.  
 
  Il sistema di pianificazione calcola il modo migliore per coprire la domanda per questi due prodotti identici, ad esempio per consolidare alcuni ordini di acquisto e produzione, riprogrammare altri ordini e creare nuovi ordini in base alle esigenze.  
 
@@ -216,21 +218,21 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
     |Vendere a - Nome cliente|Data spedizione|Nr. Articolo|Ubicazione|Quantità|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Libros S.A.|02-12-2021|1001|EST|10|  
+    |Libros S.A.|02-12-2014|1001|BLU|10|  
 
 3.  Accettare l'avviso di disponibilità e scegliere **Sì** per registrare la quantità di domanda.  
 4.  Continuare la pianificazione per rettificare il piano di approvvigionamento corrente.  
-5.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto pianificazione**, quindi scegli il collegamento correlato.  
+5.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione** e quindi scegliere il collegamento correlato.  
 6.  Scegliere l'azione **Calcola piano - Solo cambiamenti**.  
 7.  Nella pagina **Calcola piano - Pianif. magaz.** compilare i campi come indicato nella tabella seguente.  
 
     |Calcola piano|Data Inizio|Data fine|Mostra risultati:|Limita totali a|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Sì<br /><br /> **MRP** = Sì|01-23-2021|02-14-2021|1001..1300|Filtro ubicazione = EST|  
+    |**MPS** = Sì<br /><br /> **MRP** = Sì|23/01/2014|02-14-2014|1001..1300|Filtro ubicazione = BLU|  
 
 8.  Scegliere **OK** per avviare l'esecuzione della pianificazione.  
 
- Viene creato un totale di 14 righe di pianificazione. Nel campo **Messaggio azione** della prima riga di pianificazione è visualizzato **Nuovo**, nel campo **Quantità** è visualizzato 10 e nel campo **Data scadenza** è visualizzato 12-02-21. Questa nuova riga per l'articolo padre principale, 1001, Bicicletta da turismo, viene creata perché l'elemento utilizza il metodo di riordino **Ordine**, il che significa che deve essere fornito in una relazione uno-a-uno con la relativa domanda, l'ordine di vendita di dieci pezzi.  
+ Viene creato un totale di 14 righe di pianificazione. Nel campo **Messaggio azione** della prima riga di pianificazione è visualizzato **Nuovo**, nel campo **Quantità** è visualizzato 10 e nel campo **Data scadenza** è visualizzato 12-02-14. Questa nuova riga per l'articolo padre principale, 1001, Bicicletta da turismo, viene creata perché l'elemento utilizza il metodo di riordino **Ordine**, il che significa che deve essere fornito in una relazione uno-a-uno con la relativa domanda, l'ordine di vendita di dieci pezzi.  
 
  Le due righe di pianificazione successive sono gli ordini di produzione per le ruote delle biciclette. Ogni ordine esistente di cinque, nel campo **Quantità in origine**, viene aumentato a 15, nel campo **Quantità**. Entrambi gli ordini di produzione presentano date di scadenza invariate, come indicato nel campo **Messaggio azione** contenente **Modifica qtà**. Ciò accade anche per la riga di pianificazione per l'articolo 1300, ad eccezione del fatto che la relativa molteplicità ordine pari a 10,00 arrotonda a 20 pezzi la domanda tracciata per 15.  
 
@@ -263,10 +265,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
  Viene completata la procedura dettagliata relativa all'utilizzo del sistema di pianificazione per il rilevamento automatico della domanda, il calcolo degli ordini di approvvigionamento appropriati alla domanda, ai parametri di pianificazione e alla creazione automatica dei diversi tipi di ordini di approvvigionamento con le quantità e le date appropriate.  
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedi anche  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   
-<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
+ [Procedura dettagliata: Pianificazione manuale degli approvvigionamenti](walkthrough-planning-supplies-manually.md)   
  [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

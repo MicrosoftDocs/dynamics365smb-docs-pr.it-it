@@ -1,21 +1,21 @@
 ---
-title: Dettagli di progettazione - Periodi di magazzino
-description: La funzionalità Periodi di magazzino può essere utilizzata per evitare tali problemi con saldi e valutazioni di magazzino aprendo o chiudendo i periodi di magazzino per limitare la registrazione in un determinato periodo di tempo.
+title: 'Dettagli di progettazione: Periodi di magazzino | Microsoft Docs'
+description: Le transazioni retrodatate o le rettifiche dei costi spesso influenzano i saldi e le valutazioni di magazzino per i periodi contabili che possono essere considerati chiusi. Ciò può avere effetti negativi sulla precisione dei report, in particolare all'interno delle società globali. La funzionalità Periodi di magazzino può essere utilizzata per evitare tali problemi aprendo o chiudendo i periodi di magazzino per limitare la registrazione in un determinato periodo di tempo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 66624cd4a6992ed227055748f5e8bc972187a8dc
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3c7b00ebf328ae61bb298b4c9d64762b3bd528d1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865698"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185254"
 ---
 # <a name="design-details-inventory-periods"></a>Dettagli di progettazione: Periodi di magazzino
 Le transazioni retrodatate o le rettifiche dei costi spesso influenzano i saldi e le valutazioni di magazzino per i periodi contabili che possono essere considerati chiusi. Ciò può avere effetti negativi sulla precisione dei report, in particolare all'interno delle società globali. La funzionalità Periodi di magazzino può essere utilizzata per evitare tali problemi aprendo o chiudendo i periodi di magazzino per limitare la registrazione in un determinato periodo di tempo.  
@@ -30,12 +30,6 @@ Le transazioni retrodatate o le rettifiche dei costi spesso influenzano i saldi 
 
  Quando si chiude un periodo di magazzino, viene creato un movimento periodo di magazzino utilizzando il numero dell'ultimo registro magazzino che ricade nel periodo di magazzino. Inoltre, l'ora, la data e il codice dell'utente che chiude il periodo vengono registrati nel movimento periodo di magazzino. Utilizzando queste informazioni con l'ultimo registro magazzino per il periodo precedente, è possibile visualizzare quali transazioni di magazzino sono registrate nel periodo di magazzino. È possibile riaprire i periodi di magazzino se occorre registrare in un periodo chiuso. Quando si riapre un periodo di magazzino, viene creato un movimento periodo di magazzino.  
 
-## <a name="see-also"></a>Vedi anche
-
-[Dettagli del design: Inventario dei costi](design-details-inventory-costing.md)  
-[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
-[Finanze](finance.md)  
-[Utilizzo di Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Vedi anche  
+ [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md) [Contabilità](finance.md)  
+ [Utilizzo di Business Central](ui-work-product.md)

@@ -1,33 +1,30 @@
 ---
-title: WorldPay Payments Standard
-description: L'estensione WorldPay Payments Standard consente di offrire a clienti un'alternativa conveniente per eseguire i pagamenti tramite bonifici bancari o carte di credito.
+title: WorldPay Payments Standard| Documenti Microsoft
+description: Fornisce informazioni relative all'estensione WorldPay Payments Standard
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/23/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 7a5d492ec273bfccd016e8216510f3301234d931
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6d5fb029c43f8ebca157b5de2ab1af89a0e1c108
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322646"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311067"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Estensione WorldPay Payments Standard
 L'estensione WorldPay Payments Standard consente di offrire a clienti un'alternativa conveniente per eseguire i pagamenti tramite bonifici bancari o carte di credito. Non solo, i pagamenti effettuati tramite i servizi di pagamento finiscono in genere più rapidamente nel conto corrente bancario.
 Se si abilita l'estensione e si invia una fattura di vendita o un ordine di vendita tramite e-mail, il documento include un collegamento al servizio di pagamento nel corpo e-mail e nel documento PDF allegato. Un cliente può selezionare il collegamento, quindi utilizzare il servizio di pagamento per eseguire il pagamento.
 
-L'abilitazione delle estensioni del servizio di pagamento è gratuita in [!INCLUDE[prod_short](includes/prod_short.md)], tuttavia, sarà necessario contattare il servizio di pagamento per ottenere un conto. Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
+L'abilitazione delle estensioni del servizio di pagamento è gratuita in [!INCLUDE[d365fin](includes/d365fin_md.md)], tuttavia, sarà necessario contattare il servizio di pagamento per ottenere un conto. Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Vedi anche
-[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
+[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

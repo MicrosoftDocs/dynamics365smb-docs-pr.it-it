@@ -1,21 +1,21 @@
 ---
-title: Impostare i tipi di collocazioni
-description: Assegna tipi e attività di flusso di base alle collocazioni e, in tal modo, definisci il modo in cui le collocazioni vengono utilizzate per particolari attività di magazzino.
+title: 'Procedura: Impostare i tipi di collocazioni | Documenti Microsoft'
+description: È possibile controllare e gestire il flusso degli articoli attraverso le collocazioni definite per determinate attività di warehouse. È possibile associare attività di flusso di base alle collocazioni, e definire di conseguenza la modalità con cui una collocazione verrà utilizzata, assegnando un tipo a ciascuna collocazione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7367
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: b867079eb08790f2cfa091d0128a876499fb2045
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f5a5903e3485e4db67b1f169d8c9a0c969058fa1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971578"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191789"
 ---
 # <a name="set-up-bin-types"></a>Impostare i tipi di collocazioni
 È possibile controllare e gestire il flusso degli articoli attraverso le collocazioni definite per determinate attività di warehouse. È possibile associare attività di flusso di base alle collocazioni, e definire di conseguenza la modalità con cui una collocazione verrà utilizzata, assegnando un tipo a ciascuna collocazione.  
@@ -23,7 +23,7 @@ ms.locfileid: "7971578"
 Esistono sei tipi. È possibile gestire la warehouse con tutti e sei i tipi di collocazione o scegliere di utilizzare solo i tipi di collocazione RECEIVE, PUTPICK, SHIP e QC. Questi quattro tipi di collocazione consentono di creare suggerimenti per supportare il flusso di articoli e di registrare le discrepanze di magazzino.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Per impostare i tipi di collocazione da utilizzare  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tipi collocazione**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tipi collocazione** e quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Tipi collocazione** creare un codice di 10 caratteri per un tipo di collocazione.  
 3.  Selezionare le attività che è possibile svolgere con ogni tipo di collocazione.  
 
@@ -49,7 +49,4 @@ Di seguito sono riportati i tipi di collocazione che è possibile creare.
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

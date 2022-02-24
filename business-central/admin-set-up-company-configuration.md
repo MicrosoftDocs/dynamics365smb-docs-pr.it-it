@@ -1,24 +1,24 @@
 ---
-title: Impostare la configurazione della società
-description: In qualità di partner, configurare Business Central in modo appropriato per il cliente con configurazioni predefinite o specifiche per il cliente raggruppate nei pacchetti di configurazione.
+title: Impostare la configurazione della società | Documenti di Microsoft
+description: Il processo di implementazione inizia con la soluzione Business Central necessaria. Riunificate tutte queste informazioni nei pacchetti di configurazione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: be626aaf9184711bb101c50382f4b85ec394b1ca
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649714"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186694"
 ---
 # <a name="set-up-company-configuration"></a>Impostare la configurazione della società
-Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società in [!INCLUDE [prod_short](includes/prod_short.md)] online o localmente, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.
+Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[d365fin](includes/d365fin_md.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.
 
 RapidStart Services fornisce inoltre gli strumenti per eseguire la migrazione dei dati legacy, ad esempio clienti e fornitori.  
 
@@ -26,21 +26,15 @@ RapidStart Services fornisce inoltre gli strumenti per eseguire la migrazione de
 
 I pacchetti di configurazione sono costruiti in base a una società preconfigurata. Dopo aver configurato una società in base alle proprie esigenze, è possibile creare un pacchetto di configurazione contenente i dati pertinenti relativi a tale società. Dopo avere definito un modello di società, è quindi possibile utilizzarlo per creare una nuova società da configurare allo stesso modo.  
 
-Per semplificare l'importazione dei dati master, quali informazioni relative a clienti e fornitori, è possibile utilizzare modelli di configurazione. I modelli di configurazione contengono una serie di impostazioni di default che vengono automaticamente assegnate ai record importati in [!INCLUDE[prod_short](includes/prod_short.md)].
+Per semplificare l'importazione dei dati master, quali informazioni relative a clienti e fornitori, è possibile utilizzare modelli di configurazione. I modelli di configurazione contengono una serie di impostazioni di default che vengono automaticamente assegnate ai record importati in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
 |**Task**|**Vedere**|  
 |------------|-------------|  
 |Pianificare la configurazione di una società compilando il foglio di lavoro configurazione.|[Gestione della configurazione della società in un foglio di lavoro](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Creare un pacchetto di configurazione, personalizzare un pacchetto, assegnare tabelle a un pacchetto, esaminare o modificare dati esistenti del cliente, creare la nuova società e quindi spostare i dati dei test nell'ambiente di produzione.|[Preparazione di un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md)|
+|Creare un pacchetto di configurazione, personalizzare un pacchetto, assegnare tabelle a un pacchetto, esaminare o modificare dati esistenti del cliente, creare la nuova società e quindi spostare i dati dei test nell'ambiente di produzione.|[Preparazione di un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md)| 
 
-È anche possibile creare pacchetti di configurazione con configurazioni standard che possono essere utilizzati più volte. Per ulteriori informazioni, vedere [Impostare pacchetti di configurazione aziendale standard](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) nel contenuto per sviluppatori e amministratori.  
-
-## <a name="see-also"></a>Vedere anche
-
-[Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Amministrazione](admin-setup-and-administration.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Vedere anche  
+[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Amministrazione](admin-setup-and-administration.md)

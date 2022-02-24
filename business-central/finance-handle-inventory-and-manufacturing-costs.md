@@ -1,21 +1,21 @@
 ---
-title: Gestire i costi del magazzino e di produzione
-description: Scopri come una serie di campi, pagine e report sono destinati agli utenti che gestiscono direttamente o indirettamente il costo di articoli o operazioni.
+title: Gestire i costi del magazzino e di produzione | Microsoft Docs
+description: Sebbene la maggior parte della funzionalità di contabilizzazione dei costi venga espressa in processi sottostanti senza interazione da parte dell'utente, ad esempio il collegamento dei movimenti contabili e la rettifica automatica dei costi, numerosi campi, pagine e report sono destinati agli utenti affinché possano gestire, direttamente o indirettamente, il costo degli articoli o delle operazioni.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 82221de7c57e6130a3259ae7cf7be095e3c0571e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323342"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183742"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Gestione dei costi del magazzino e di produzione
 Sebbene la maggior parte della funzionalità di contabilizzazione dei costi venga espressa in processi sottostanti senza interazione da parte dell'utente, ad esempio il collegamento dei movimenti contabili e la rettifica automatica dei costi, numerosi campi, pagine e report sono destinati agli utenti affinché possano gestire, direttamente o indirettamente, il costo degli articoli o delle operazioni.  
@@ -38,6 +38,3 @@ Sebbene la maggior parte della funzionalità di contabilizzazione dei costi veng
 ## <a name="see-also"></a>Vedi anche  
 [Gestire i costi del magazzino](finance-manage-inventory-costs.md)
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

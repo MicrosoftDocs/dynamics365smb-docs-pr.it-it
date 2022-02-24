@@ -1,25 +1,25 @@
 ---
-title: Modificare i suggerimenti di pianificazione in una visualizzazione grafica
-description: Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione Esegui messaggi di azione.
+title: Come modificare i suggerimenti di pianificazione in una visualizzazione grafica | Microsoft Docs
+description: Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione Esegui messaggi di azione . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: ab69ea915a4d7b1029b5fc833320f89e84fb6d98
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 05/05/2020
+ms.author: sgroespe
+ms.openlocfilehash: 593fd5544f544b793b14fe14e4faf69f13d21ed6
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438579"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339948"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Modificare i suggerimenti di pianificazione in una visualizzazione grafica
 
-Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica. Tuttavia, non è attualmente supportata in [!INCLUDE[prod_short](includes/prod_short.md)].  
+Un'attività tipica di pianificazione consiste nel modificare o aggiungere le righe del prospetto di pianificazione per modificare gli ordini di approvvigionamento suggeriti prima del commit eseguendo la funzione **Esegui messaggi di azione** . Un'alternativa a questa operazione nel prospetto di pianificazione è utilizzare una visualizzazione grafica. Tuttavia, non è attualmente supportata in [!INCLUDE [prodshort](includes/prodshort.md)].  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -37,7 +37,7 @@ The following procedure shows how to modify supply suggestions by drag and drop.
 
 ## To modify suggested supply orders in the graphical view
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 
 2. Choose the line that you want to see item availability for, choose **Item Availability by**, and then choose **Timeline**.
 
@@ -102,7 +102,4 @@ To implement the supply plan changes, you must follow the resulting action messa
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

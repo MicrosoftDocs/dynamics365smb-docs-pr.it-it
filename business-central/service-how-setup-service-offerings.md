@@ -1,21 +1,21 @@
 ---
-title: Impostare le offerte di assistenza
-description: Quando si imposta la gestione dell'assistenza, è necessario decidere quali servizi di assistenza offrire ai clienti e pianificarli di conseguenza.
+title: Impostare le offerte di assistenza | Documenti Microsoft
+description: Informazioni su come impostare i servizi di assistenza offerti ai clienti.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: a3a61ba65136aa15836039ac54057eefff37f29d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 8d34ef54ebfe16b59149036d59c2ce6e264baefb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323887"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877257"
 ---
 # <a name="set-up-service-offerings"></a>Impostare le offerte di assistenza
 Quando si imposta la gestione dell'assistenza, è necessario decidere quali servizi di assistenza offrire ai clienti e pianificarli di conseguenza. Un servizio di assistenza è un tipo di lavoro svolto da una o più risorse, che viene fornito a un cliente. Ad esempio, un servizio di assistenza potrebbe essere un tipo di riparazione di computer. Un articolo in assistenza è l'attrezzatura o l'articolo che richiede assistenza, ad esempio, il computer da riparare, installato presso la sede di un dato cliente. È possibile impostare servizi di assistenza come parte di un gruppo di articoli in riparazione e in manutenzione correlati.  
@@ -29,5 +29,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
   
 ## <a name="see-also"></a>Vedi anche  
 [Impostazione della gestione assistenza](service-setup-service.md)   
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Importare ed esportare un layout di report e documento
+title: Importazione ed esportazione di un layout di report e documento | Microsoft Docs
 description: È possibile esportare e importare un layout di report personalizzato esistente come file da e verso un computer o una rete.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.search.keywords: ''
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101349"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954047"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importare ed esportare layout di report personalizzati
 È possibile esportare e importare un layout di report personalizzato esistente come file da e verso un computer o una rete. Ad esempio, è possibile esportare un layout di report e inviare il file a un'altra persona per essere modificato. Dopo le modifiche, il file può essere importato nuovamente.  
@@ -25,7 +25,7 @@ ms.locfileid: "8101349"
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Per esportare un layout di report verso un file  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
 
 2.  Selezionare la riga per il report che contiene il layout di report personalizzato che si desidera esportare, quindi scegliere l'azione **Layout personalizzati**.  
 
@@ -39,7 +39,7 @@ ms.locfileid: "8101349"
 
      Un file del layout di report Word deve avere l'estensione .docx. Un file del layout di report RDLC deve avere l'estensione .rdl o .rdlc.  
 
-2.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
+2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Selezione layout report** e quindi scegliere il collegamento correlato.  
 
 3.  Selezionare la riga per il report nel quale si desidera importare il layout di report, quindi scegliere l'azione **Layout personalizzati**.  
 
@@ -51,11 +51,7 @@ ms.locfileid: "8101349"
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
-
-[Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
-[Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
-[Utilizzo di report, processi batch e XMLport](ui-work-report.md)    
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Vedere anche  
+ [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
+ [Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
+ [Utilizzo di report, processi batch e XMLport](ui-work-report.md)    

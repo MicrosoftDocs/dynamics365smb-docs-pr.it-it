@@ -1,73 +1,60 @@
 ---
-title: Funzionalità multilingue e localizzazione
-description: Informazioni su come lingua e area geografica influenzano l'esperienza utente in Business Central. Modifica la lingua dell'interfaccia utente in Impostazioni personali.
+title: Funzionalità multilingue e localizzazione | Microsoft Docs
+description: Informazioni su come lingua e impostazioni locali influenzano l'esperienza utente in Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 04/01/2021
+ms.search.keywords: language, locale, localization, culture
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588403"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692706"
 ---
-# <a name="changing-language-and-region"></a>Modifica di lingua e area geografica
+# <a name="changing-language-and-locale"></a>Modifica di lingua e impostazioni locali
 
-[!INCLUDE[prod_short](includes/prod_short.md)] è disponibile in numerosi mercati e lingue in tutto il mondo. Nei mercati dove [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile, è offerta una serie di funzioni normative per assistere le aziende con gli oneri normativi. [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile in diverse lingue ed è possibile modificare la lingua utilizzata per visualizzare testi e la modifica viene applicata dopo la procedura di disconnessione e connessione automatica. L'impostazione è valida solo per l'utente corrente e non per gli altri utenti nella società.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] è supportato in vari mercati ed è disponibile nelle lingue che tali mercati richiedono. Ciò è il risultato del supporto per molteplici lingue al runtime in combinazione con il supporto per requisiti legali nei mercati supportati. Questo significa che è possibile utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] in più lingue. È possibile modificare la lingua utilizzata per visualizzare testi e la modifica viene applicata dopo la prodecura di disconnessione e connessione automatica. L'impostazione è valida solo per l'utente corrente e non per gli altri utenti nella società.  
 
-Ad esempio, se si utilizza la versione canadese di [!INCLUDE[prod_short](includes/prod_short.md)], è possibile visualizzare l'interfaccia utente in inglese, tedesco, francese e un'altra lingua ma rimane una versione canadese di [!INCLUDE[prod_short](includes/prod_short.md)] in tutti gli altri aspetti. È quindi diversa, ad esempio, dalla versione di [!INCLUDE[prod_short](includes/prod_short.md)] per il Regno Unito, dove la funzionalità è stata adattata alle esigenze del mercato.  
+Ad esempio, se si utilizza la versione canadese di [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile visualizzare l'interfaccia utente in inglese e in francese, ma rimane una versione canadese di [!INCLUDE[d365fin](includes/d365fin_md.md)] in tutti gli altri aspetti. È quindi diversa, ad esempio, dalla versione di [!INCLUDE[d365fin](includes/d365fin_md.md)] per il Regno Unito.  
 
-Per modificare la lingua dell'interfaccia utente, accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md#language). 
-
-> [!NOTE]  
-> La scelta delle lingue verrà ripristinata sulle impostazioni del profilo di Microsoft 365 se l'amministratore sincronizza gli utenti da Microsoft 365 a [!INCLUDE[prod_short](includes/prod_short.md)].
+Per modificare la lingua dell'interfaccia utente, accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md#language).  
 
 La modifica dei testi memorizzati come dati dell'applicazione non è invece supportata dalla funzionalità multilingue. Tale modifica rientra nell'ambito della progettazione dell'applicazione. Tra gli esempi di questo tipo di testi rientrano i nomi degli articoli in magazzino o i commenti relativi a un cliente. In altre parole, questi testi non vengono tradotti.  
 
 > [!NOTE]  
-> [!INCLUDE[prod_short](includes/prod_short.md)] supporta solo un unico set di caratteri per i dati. Alcuni caratteri, pertanto, potrebbero non essere supportati nell'ambiente ed è possibile che si verifichino problemi durante il recupero di dati immessi utilizzando un set di caratteri diverso. Ad esempio, l'ambiente potrebbe supportare solo caratteri inglesi e russi e se si immettono i dati in una lingua diversa, potrebbero non essere archiviati correttamente. Per verificare di avere individuato correttamente le lingue supportate per [!INCLUDE[prod_short](includes/prod_short.md)], rivolgersi all'amministratore di sistema.  
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta solo un unico set di caratteri per i dati. Alcuni caratteri, pertanto, potrebbero non essere supportati nel tenant ed è possibile che si verifichino problemi durante il recupero di dati immessi utilizzando un set di caratteri diverso. Ad esempio, il tenant potrebbe supportare solo caratteri inglesi e russi e se si immettono i dati in una lingua diversa, potrebbero non essere archiviati correttamente. Per verificare di avere individuato correttamente le lingue supportate per [!INCLUDE[d365fin](includes/d365fin_md.md)], rivolgersi all'amministratore di sistema.  
 
-## <a name="changing-your-region-setting"></a>Cambiare l'impostazione della regione
-L'area geografica differisce dalla lingua e dai requisiti legali nei mercati locali. L'area geografica determina la visualizzazione dei dati in termini di separatore, allineamento a sinistra o a destra ed alcune altre impostazioni. L'area geografica determina anche alcuni degli elementi di sistema nel browser, ad esempio l'azione per creare un nuovo elemento in un elenco.  
+## <a name="changing-the-locale"></a>Modifica delle impostazioni locali
+Le impostazioni locali differiscono dalla lingua e dai requisiti legali nei mercati locali. Le impostazioni locali determinano la visualizzazione dei dati in termini di separatore, allineamento a sinistra o a destra ed alcune altre impostazioni. Le impostazioni locali determinano anche alcuni degli elementi di sistema nel browser, ad esempio l'azione per creare un nuovo elemento in un elenco.  
 
-È possibile modificare l'area geografica nella scheda del browser utilizzato in [!INCLUDE[prod_short](includes/prod_short.md)]. La modifica è valida solo per l'utente corrente e non per gli altri utenti nella società.  La scelta dell'area geografica verrà ripristinata sulle impostazioni del profilo di Microsoft 365 se l'amministratore sincronizza gli utenti da Microsoft 365 in [!INCLUDE[prod_short](includes/prod_short.md)].
+È possibile modificare le impostazioni locali nella scheda del browser utilizzato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. La modifica è valida solo per l'utente corrente e non per gli altri utenti nella società.  
 
 > [!IMPORTANT]  
-> Quando si modifica l'area geografica viene visualizzato un lungo elenco di lingue e aree geografiche. Tuttavia, la lingua non è influenzata dalla scelta dell'area geografica.  
+>  Quando si modificano le impostazioni locali, viene visualizzato un lungo elenco di lingue e impostazioni locali. Tuttavia, solo le impostazioni locali selezionate sono utilizzate nella versione corrente di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Per modificare l'area geografica accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
-
-## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Cambiare l'impostazione della regione per clienti, contatti e fornitori
-Alcune aziende usano un servizio esterno che convalida le informazioni dell'indirizzo nel loro paese o regione. Tuttavia, quando avete bisogno di aggiornare le informazioni sull'indirizzo, l'approccio strutturato che questi servizi utilizzano potrebbe non essere sempre quello giusto per alcuni scenari. Business Central offre un mezzo più flessibile per inserire i dettagli dell'indirizzo.
-
-Nella pagina **Setup contabilità generale**, se si attiva l'opzione **Richiedi il codice paese/regione nel toggle dell'indirizzo**, le modifiche al campo **Codice paese/regione** negli indirizzi di clienti, contatti o fornitori resetteranno i valori negli altri campi indirizzo.
+Per modificare le impostazioni locali, accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
 ## <a name="application-version"></a>Versione applicazione
 
-Nella pagina **Guida e supporto** è possibile visualizzare la versione di [!INCLUDE[prod_short](includes/prod_short.md)] su cui si basa la società. Se si desidera basare una società su una versione diversa, l'amministratore può creare un nuovo ambiente di produzione. Per ulteriori informazioni, vedere [Creare un nuovo ambiente di produzione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) nel contenuto per sviluppatori e professionisti IT.  
+Nella pagina **Guida e supporto** è possibile visualizzare la versione di [!INCLUDE [prodshort](includes/prodshort.md)] su cui si basa la società. Se si desidera basare una società su una versione diversa, l'amministratore può creare un nuovo ambiente di produzione. Per ulteriori informazioni, vedere [Creare un nuovo ambiente di produzione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) nel contenuto per sviluppatori e professionisti IT.  
 
-## <a name="languages-of-the-prod_short-help"></a>Lingue della Guida di [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="languages-of-the-d365fin-help"></a>Lingue della Guida di [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[d365fin](includes/d365fin_md.md)] è pubblicato nel sito Microsoft Docs ed è disponibile in varie lingue. Se si accede ai documenti dall'interno di [!INCLUDE[d365fin](includes/d365fin_md.md)], il contenuto verrà visualizzato nella lingua in uso. Se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
 
-Il contenuto della Guida relativo alle funzionalità di base di [!INCLUDE[prod_short](includes/prod_short.md)] è pubblicato nel sito Microsoft Docs ed è disponibile in varie lingue. Se si accede ai documenti dall'interno di [!INCLUDE[prod_short](includes/prod_short.md)], il contenuto verrà visualizzato nella lingua in uso. Se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
-
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Come cambio la lingua del sito di Microsoft Docs?
-
+### <a name="how-do-i-change-the-language"></a>Come si cambia la lingua?
 È semplice. Basta scorrere in fondo alla pagina del browser e scegliere il simbolo del globo nell'angolo inferiore sinistro.
 
 > [!NOTE]  
-> Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile in un numero limitato di paesi/regioni e il contenuto della Guida di [!INCLUDE [prod_short](includes/prod_short.md)] non è disponibile in tutte le lingue supportate dal sito Microsoft Docs.
+> Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile in un numero limitato di paesi, ma il contenuto della Guida è disponibile in più lingue. Il contenuto della Guida non è tuttavia disponibile in tutte le lingue supportate dal sito Microsoft Docs.
 
 ## <a name="see-also"></a>Vedere anche
 
 [Risorse per Guida e supporto](product-help-and-support.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Introduzione](product-get-started.md)  

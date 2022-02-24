@@ -1,66 +1,48 @@
 ---
-title: Convalidare i numero di partita IVA
-description: Consenti a Business Central di convalidare i numeri di partita IVA per i contatti, i clienti e i fornitori, in base al servizio di convalida dei numeri di partita IVA (VIES) dell'Unione europea.
+title: Convalidare un numero di partita IVA | Microsoft Docs
+description: Convalidare un numero di partita IVA
 author: andregu
 ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.reviewer: edupont
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 249, 575, 1279
-ms.date: 06/16/2021
+ms.date: 04/01/2020
 ms.author: andregu
-ms.openlocfilehash: a91ce36eed9350cf01285519f76a400c9ebef203
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 4b282d8819851fd6529f901f44a39777a8b8e74c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972855"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183070"
 ---
-# <a name="validate-vat-registration-numbers"></a>Convalidare i numero di partita IVA
+# <a name="validate-a-vat-registration-number"></a>Convalidare un numero di partita IVA
 
-È importante che le partite IVA per clienti, fornitori e contatti siano valide, qualora si utilizzi [!INCLUDE [prod_short](includes/prod_short.md)] in un paese che utilizza l'IVA. Ad esempio, le società cambiano talvolta lo stato di passività fiscale e in alcuni paesi le autorità fiscali potrebbero chiedere di fornire report, come il report **Lista vendite UE**, che elenca i numeri di partita IVA utilizzati per l'attività.
+## <a name="to-verify-vat-registration-numbers"></a>Per verificare la partita IVA
+È importante che la partita IVA per clienti, fornitori e contatti sia valida. Ad esempio, le aziende cambiano talvolta lo stato di passività fiscale e in alcuni paesi le autorità fiscali potrebbero chiedere di fornire report, come il report IVA dell'elenco vendite UE, che elenca i numeri di partita IVA utilizzati per l'attività.
 
-La Commissione Europea offre un servizio di convalida dei numeri di partita IVA (VIES) tramite il proprio sito Web, che è pubblico e libero. [!INCLUDE [prod_short](includes/prod_short.md)] consente di risparmiare un passaggio e di utilizzare il servizio VIES per convalidare e tracciare i numeri IVA e altre informazioni sulla società per i clienti, i fornitori e i contatti. Il servizio in [!INCLUDE [prod_short](includes/prod_short.md)] è denominato **servizio di convalida partita IVA comunitaria**. Il servizio è disponibile nella pagina **Connessioni servizio** e sarà possibile iniziare a utilizzarlo da subito. La connessione del servizio è gratuita e l'ulteriore registrazione non è necessaria.
+La Commissione Europea offre un servizio di convalida dei numeri di partita IVA (VIES) tramite il proprio sito Web, che è pubblico e libero. [!INCLUDE[d365fin](includes/d365fin_md.md)] consente di risparmiare tale passaggio e di utilizzare il servizio VIES per convalidare e tracciare i numeri IVA per i clienti, i fornitori e i contatti direttamente dalle schede cliente, venditore e di contatto. Il servizio in [!INCLUDE[d365fin](includes/d365fin_md.md)] è denominato **servizio di convalida partita IVA comunitaria**. Il servizio è disponibile nella pagina **Connessioni servizio** e sarà possibile iniziare a utilizzarlo da subito. La connessione del servizio è gratuita e la registrazione non è necessaria.
 
-## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Configurare il servizio per verificare automaticamente i numeri di partita IVA
+Per abilitare il **Setup servizio di convalida partita IVA comunitaria** aprire la voce nella pagina **Connessione servizio**. Il campo **Endpoint servizio** è già popolato. In caso contrario, è possibile utilizzare l'azione **Imposta endpoint di default**. Quindi impostare il campo **Abilitato** ed è possibile proseguire.
 
-Per abilitare **Setup servizio di convalida partita IVA comunitaria**, aprire la voce nella pagina **Connessione servizio**. Se il campo **Endpoint servizio** non è ancora compilato, utilizzare l'azione **Imposta endpoint di default**. Impostare quindi il campo **Abilitato** e sarà possibile proseguire.  
-
-> [!IMPORTANT]
-> Per abilitare il servizio di convalida, è necessario disporre di autorizzazioni di amministratore.
-
-Facoltativamente, impostare i modelli per i tipi di dati relativi all'IVA che si desidera vengano controllati dal servizio. Per ulteriori informazioni, vedere la sezione [Modelli di convalida](#validation-templates).
+> [!Note]
+> Per abilitare il servizio di convalida partita IVA comunitaria, è necessario disporre di autorizzazioni di amministratore.
 
 Quando si utilizza la connessione del servizio, viene registrata una cronologia dei numeri di partita IVA e delle verifiche per ogni cliente, fornitore o contatto, nel **Log partita IVA**, in modo da poterli facilmente tracciare. Il log è specifico per ogni cliente. Ad esempio, il log è utile per dimostrare di aver verificato che il numero di partita IVA corrente è corretto. Quando si verifica un numero di partita IVA, la colonna **Identificatore di richiesta** nel log indicherà che l'azione è stata eseguita.
 
 È possibile visualizzare il log di registrazione IVA nella scheda cliente, fornitore o di contatto, nella Scheda dettaglio **Fatturazione**, scegliendo il pulsante di ricerca nel campo **Partita IVA**.  
+
+Il servizio consente anche di risparmiare tempo quando si crea un cliente o un fornitore. Se si conosce il numero di partita IVA del cliente, è possibile immetterlo nel campo **Partita IVA** nelle schede Cliente o Fornitore e la ragione sociale del cliente verrà compilato automaticamente. Alcuni paesi forniscono anche indirizzi aziendali in un formato strutturato. In questi paesi, l'indirizzo verrà compilato automaticamente.  
 
 Ci sono un paio di cose da notare sul servizio di convalida dei numeri di partita IVA VIES:
 
 * Il servizio Web utilizza il protocollo HTTP, il che significa che i dati trasferiti tramite il servizio non sono crittografati.  
 * È possibile che si verifichi un tempo di inattività per questo servizio per cui Microsoft non è responsabile. Il servizio fa parte di un'ampia rete europea di registri IVA nazionali.
 
-> [!IMPORTANT]
-> È responsabilità dell'utente verificare che i dati siano validi. A volte, i dati con errori vengono restituiti dal servizio di convalida dei numeri di partita IVA VIES. Se la convalida non riesce, convalidare i numeri di partita IVA nel [sito Web](https://ec.europa.eu/taxation_customs/vies/), stampare il risultato o salvarlo in una posizione condivisa, quindi aggiungere il collegamento al record per il cliente, il fornitore o il contatto. Per ulteriori informazioni, vedere [Gestire allegati, collegamenti e note in schede e documenti](ui-how-add-link-to-record.md).
-
-## <a name="validation-templates"></a>Modelli di convalida
-
-È possibile utilizzare il servizio VIES anche per controllare altre informazioni sulla società, come l'indirizzo e il numero di partita IVA. Nella pagina **Modelli convalida partita IVA** creare una voce per ogni paese per il quale si desidera ottenere un'ulteriore convalida, quindi specificare le informazioni che si desidera vengano convalidate automaticamente.  
-
-Aggiungere ad esempio una voce per la Spagna, per cui si desidera ottenere la convalida per nome, via, città e codice postale, quindi un'altra voce per la Germania, per cui si desidera solo la convalida del codice postale. Nella pagina **Setup servizio di convalida partita IVA comunitaria** specificare quindi il modello di default.  
-
-> [!NOTE]
-> Verificare sempre che il modello di default funzioni per le esigenze specifiche. È possibile modificare l'impostazione di default in base alle esigenze, ad esempio per ottenere la convalida per tutti i campi o di nessun campo.
-
-La volta successiva che si specifica un numero di partita IVA, il servizio convaliderà tale numero e tutti i dati aggiuntivi, come stabilito dai modelli di convalida. Se i valori specificati sono diversi da quelli restituiti dal servizio, verranno visualizzati i dettagli nella pagina **Dettagli convalida**, dove è possibile accettare o reimpostare i valori.  
-
-## <a name="see-also"></a>Vedere anche
-
+## <a name="see-also"></a>Vedere anche  
 [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)  
-[Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  
+[Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)      
 [Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
-[Funzionalità locale in Business Central](about-localization.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Funzionalità locale in Business Central](about-localization.md)

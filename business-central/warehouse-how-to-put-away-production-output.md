@@ -1,46 +1,40 @@
 ---
-title: Stoccare l'output di produzione
-description: La modalità di stoccaggio dell'output di produzione dipende dalla modalità di impostazione della warehouse come ubicazione. Lo stoccaggio in magazzino può essere effettuato nei seguenti modi.
+title: "Procedura: Stoccare l'output di produzione | Documenti Microsoft"
+description: La modalità di stoccaggio dell'output di produzione dipende dalla modalità di impostazione della warehouse come ubicazione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e0acb1a8c1710b0b096c461f14f817957e4ee3af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438134"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192869"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Stoccare l'output produzione o l'output assemblaggio
-
 La modalità di stoccaggio dell'output di produzione dipende dalla modalità di impostazione della warehouse come ubicazione. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).  
 
-Nelle configurazioni di warehouse di base in cui l'ubicazione richiede l'elaborazione degli stoccaggi, utilizzare il documento **Stoccaggio magazzino** per registrare l'output di produzione e lo stoccaggio dell'output.  
-
-> [!NOTE]  
-> Lo stoccaggio di magazzino non è supportato per i processi di assemblaggio. Si registra un ordine di assemblaggio per registrare l'output. Se si utilizzano le collocazioni, è possibile spostare gli articoli tra collocazioni in un secondo momento. Per ulteriori informazioni, vedere [Spostare articoli ad hoc nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
+Nelle configurazioni di warehouse di base in cui l'ubicazione richiede l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, è possibile utilizzare il documento **Stoccaggio magazzino** per organizzare e registrare lo stoccaggio dell'output.  
 
 Nelle configurazioni di warehouse avanzate in cui l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi, è possibile creare un documento di stoccaggio interno oppure un documento di movimento per stoccare l'output.  
 
-## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Per eseguire lo stoccaggio dell'output di produzione con uno stoccaggio di magazzino
-
 La prima fase del processo di creazione dello stoccaggio dell'output prevede la creazione della richiesta warehouse in entrata. Questa richiesta comunica alla warehouse che l'output dell'ordine di produzione o assemblaggio è pronto per lo stoccaggio.
 
-### <a name="to-create-the-inbound-warehouse-request"></a>Per creare la richiesta warehouse in entrata  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine di produzione rilasciato**, quindi scegli il collegamento correlato.  
+## <a name="to-create-the-inbound-warehouse-request"></a>Per creare la richiesta warehouse in entrata  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione rilasciato** e quindi scegliere il collegamento correlato.  
 2.  Nell'ordine di produzione pronto per lo stoccaggio, scegliere l'azione **Crea richiesta whse. in entrata**.  
 
 > [!NOTE]  
-> È inoltre possibile creare la richiesta warehouse in entrata scegliendo il campo **Crea richiesta in entrata** quando si aggiorna l'ordine di produzione. Per ulteriori informazioni, vedere [Ripianificare o aggiornare gli ordini di produzione](production-how-to-replan-refresh-production-orders.md).  
+>  È inoltre possibile creare la richiesta warehouse in entrata selezionando la casella di controllo **Crea richiesta in entrata** quando si aggiorna l'ordine di produzione. Per ulteriori informazioni, vedere [Ripianificare o aggiornare gli ordini di produzione](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Per eseguire lo stoccaggio dell'output con uno stoccaggio di magazzino  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggio in magazzino**, quindi scegli il collegamento correlato.  
+## <a name="to-put-output-away-with-an-inventory-put-away"></a>Per eseguire lo stoccaggio dell'output con uno stoccaggio di magazzino  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggio in magazzino** e quindi scegliere il collegamento correlato.  
 2.  Creare un nuovo stoccaggio di magazzino. Per ulteriori informazioni, vedere [Stoccare articoli con gli stoccaggi magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Per accedere all'output dell'ordine di produzione, scegliere l'azione **Prendi documenti origine** e selezionare l'ordine di produzione rilasciato.  
 4.  Compilare debitamente le righe di stoccaggio.
@@ -52,18 +46,30 @@ Quando si registra uno stoccaggio magazzino, si presume che tutte le operazioni 
 
 Se è necessario registrare il tempo di setup o di esecuzione sull'ultima operazione, impostare la quantità di output dell'ultima operazione su 0. In alternativa, è possibile scegliere di non registrare affatto l'ultima riga semplicemente eliminandola  
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Per stoccare l'output di produzione o assemblaggio in configurazioni di warehouse avanzate
-Quando si registra l'output dell'ordine di produzione o di assemblaggio nella warehouse impostata per utilizzare lo stoccaggio e il prelievo diretti, l'output viene posizionato nella collocazione definita nell'ordine di produzione o di assemblaggio. 
+## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Per eseguire lo stoccaggio dell'output tramite uno stoccaggio interno della warehouse
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stocc. int. whse.** e quindi scegliere il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**.
+3. Nella testata di un nuovo stoccaggio interno compilare almeno il campo **Cod. ubicazione**.  
+4. Compilare una riga per ciascun articolo che si desidera trasferire nella warehouse. È sufficiente compilare i campi **Nr. articolo** e **Quantità**.  
 
-La tabella seguente descrive i diversi modi di spostare gli articoli all'interno della warehouse con configurazioni avanzate in cui tutte le attività di warehouse devono essere eseguite in un flusso di lavoro diretto. 
+    > [!NOTE]  
+    >  Quando si seleziona il campo **Nr. articolo**, viene visualizzata la finestra **Lista contenuto collocazione** anziché la finestra **Lista Articoli**. Questo si verifica perché si sta eseguendo lo stoccaggio di un articolo contenuto in una particolare collocazione, ovvero un contenuto collocazione e non semplicemente un articolo, e si conosce già la collocazione da cui l'articolo deve essere prelevato.  
 
-|**Per**|**Vedere**|  
-|------------|-------------|  
-|Spostare gli articoli con il prospetto movimentazioni warehouse.|[Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet)|  
-|Creare uno stoccaggio interno per stoccare gli articoli prodotti o assemblati in una configurazione di warehouse avanzata.|[Creare uno stoccaggio interno](warehouse-how-to-create-put-aways-from-internal-put-aways.md#to-create-an-internal-put-away)|
+4.  Per immettere nelle righe del prospetto l'intero contenuto della collocazione o il contenuto di collocazioni specifiche nell'ubicazione, scegliere l'azione **Ottieni contenuto collocazione**.  
+5.  Scegliere l'azione **Crea stoccaggio** e gli articoli che si desidera trasferire dall'area di produzione verranno inclusi nelle istruzioni di stoccaggio, in attesa di essere immagazzinati.  
 
 > [!NOTE]  
-> Entrambe le procedure non prevedono l'immissione del numero del documento di origine, ad esempio il numero dell'ordine di produzione, nei documenti per operazioni di stoccaggio interno, stoccaggio o movimentazione.  
+>  Quando l'ubicazione della warehouse prevede l'utilizzo di stoccaggi e prelievi guidati, la warehouse è collegata alla funzione di manufacturing tramite le collocazioni di produzione di default, ovvero le collocazioni di produzione in entrata e in uscita e la collocazione del reparto produttivo aperto, che vengono definite nella Scheda dettaglio **Collocazioni** della scheda ubicazione. Quando si registra l'output di un ordine di produzione, l'output viene inserito nella **collocazione di produzione in uscita**. La procedura descritta in precedenza consente di eseguire lo stoccaggio dell'output di produzione ma, anziché utilizzare la collocazione di default dell'articolo, si procederà a spostare o stoccare gli articoli dalla **collocazione di produzione in uscita** alla collocazione di default dell'articolo.  
+
+## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Per specificare manualmente una collocazione in cui immagazzinare gli articoli dell'output di produzione  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto movimentazioni** e quindi scegliere il collegamento correlato.  
+2.  Compilare la testata e creare una riga per ciascun articolo che si desidera trasferire nella warehouse.  
+3.  Compilare entrambi i campi **Dal codice collocazione** e **A codice collocazione**, quindi immettere la quantità nel campo **Quantità**.  
+4.  Per immettere nelle righe del prospetto l'intero contenuto della collocazione o il contenuto di collocazioni specifiche nell'ubicazione, scegliere l'azione **Ottieni contenuto collocazione**.  
+5. Selezionare l'azione **Crea movimento**. Verranno create istruzioni di movimentazione della warehouse con le righe di azione Prendere e Mettere indirizzate agli impiegati della warehouse.  
+
+> [!NOTE]  
+>  Entrambe le procedure non prevedono l'immissione del numero del documento di origine, ad esempio il numero dell'ordine di produzione, nei documenti per operazioni di stoccaggio interno, stoccaggio o movimentazione.  
 
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
@@ -71,7 +77,4 @@ La tabella seguente descrive i diversi modi di spostare gli articoli all'interno
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,24 +1,24 @@
 ---
-title: Sintesi movimenti set di dimensioni
-description: Questo articolo offre una panoramica su come i movimenti set di dimensioni vengono archiviati come movimenti set di dimensioni e su come vengono registrati.
+title: Sintesi movimenti set di dimensioni | Microsoft Docs
+description: In questo argomento viene descritto il modo in cui i movimenti set di dimensioni vengono memorizzati e registrati in Dynamcis 365.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 8196cf08b5e4bf410d9682a30e714cb8c4522e17
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011681"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185518"
 ---
 # <a name="dimension-set-entries-overview"></a>Sintesi movimenti set di dimensioni
-In questo argomento viene descritto il modo in cui i movimenti set di dimensioni vengono memorizzati e registrati in [!INCLUDE[prod_short](includes/prod_short.md)].  
+In questo argomento viene descritto il modo in cui i movimenti set di dimensioni vengono memorizzati e registrati in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="dimension-sets"></a>Set di dimensioni  
 Un set di dimensioni è una combinazione univoca di valori dimensioni. Viene archiviato come movimenti set di dimensioni nel database. Ogni movimento set di dimensioni rappresenta un valore dimensioni singolo. Il set di dimensioni è identificato da un ID set di dimensioni comune assegnato a ogni movimento set di dimensioni che appartiene al set di dimensioni.  
@@ -34,7 +34,7 @@ Nel seguente esempio viene mostrato un set di dimensioni in cui sono presenti tr
 ## <a name="dimension-set-entries"></a>Movimenti set di dimensioni  
 I set di dimensioni vengono archiviati nella tabella **Movimento set di dimensioni** come movimenti di set di dimensioni con lo stesso ID set di dimensioni.  
 
-![Flusso dei movimenti set di dimensioni.](media/dimensionentrynav7.png "Flusso dei movimenti set di dimensioni")  
+![Flusso dei movimenti set di dimensioni](media/dimensionentrynav7.png "Flusso dei movimenti set di dimensioni")  
 
 Quando si crea una nuova riga di registrazione, testata del documento o riga documento, è possibile specificare una combinazione di valori dimensioni. Anziché archiviare esplicitamente ogni valore dimensioni nel database, viene assegnato un ID set di dimensioni alla riga di registrazione, alla testata del documento o alla riga del documento per specificare il set di dimensioni.  
 
@@ -46,10 +46,7 @@ Gestione dimensioni codeunit 408 è una libreria di funzioni che gestisce attivi
 ## <a name="performance-improvement"></a>Miglioramento delle prestazioni  
 Archiviando i set di dimensioni una volta nel database, lo spazio di quest'ultimo viene mantenuto e le prestazioni globali vengono migliorate.  
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche  
 [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   
 [Dettagli di progettazione: Struttura della tabella](design-details-table-structure.md)   
 [Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

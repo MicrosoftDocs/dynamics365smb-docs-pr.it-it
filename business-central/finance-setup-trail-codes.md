@@ -1,22 +1,21 @@
 ---
-title: Impostazione codici per audit trail
+title: Impostare codici per audit trail | Microsoft Docs
 description: Informazioni sulle attività per impostare i codici sorgente e le causali da utilizzare per tenere traccia degli audit trail.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 257, 259, 279
-ms.date: 04/01/2021
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: c6327be4cdcd1e51096a8e19601556305b772011
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971942"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372689"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Impostazione di codici sorgente e causali per audit trail
 
@@ -34,7 +33,7 @@ Sia in fase di registrazione che di esecuzione di un processo batch, il codice o
 
 ### <a name="to-define-source-codes"></a>Per definire i codici origine
 
-1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Setup codice origine**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup codice origine** e quindi scegliere il collegamento correlato.  
 
 2. Nella finestra **Setup codice origine**, per ogni tipo di registrazione e processo batch, specificare il codice sorgente pertinente.  
 
@@ -46,7 +45,7 @@ Potrebbe essere necessario modificare un codice origine. Ad esempio, può essere
 
 ### <a name="to-change-source-codes"></a>Per modificare i codici origine
 
-1. Scegli l'icona ![Cerca pagina o report.](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Codici origine**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Codice origine** e quindi scegliere il collegamento correlato.
 
 2. Nella riga che contiene il codice da modificare selezionare il codice nel campo **Codice**.
 
@@ -60,7 +59,7 @@ Le causali integrano i codici sorgente e vengono utilizzati per indicare il moti
 
 ### <a name="to-set-up-reason-codes"></a>Per impostare le causali
 
-1. Scegli l'icona ![Cerca pagina o report.](media/ui-search/search_small.png "Icona Cerca pagina o report")  immetti **Causali**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Causali** e quindi scegliere il collegamento correlato.
 
 2. Nella finestra **Causali** immettere il primo codice nel campo **Codice**. Nel campo **Descrizione** immettere un testo esplicativo.
 
@@ -70,7 +69,7 @@ La seguente procedura descrive come aggiungere una causale a una definizione di 
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Per assegnare causali alle definizioni di registrazioni
 
-1. Scegli l'icona ![Cerca pagina o report.](media/ui-search/search_small.png "Icona Cerca pagina o report")  immetti **Definizioni registrazioni COGE**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Definizione registrazioni COGE** e quindi scegliere il collegamento correlato.
 
 2. Sulla riga della definizione di registrazioni selezionata immettere il codice pertinente nel campo **Causale**.
 
@@ -95,9 +94,6 @@ Quando la fattura viene registrata, la causale viene copiata in ogni movimento C
 [Utilizzo delle dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

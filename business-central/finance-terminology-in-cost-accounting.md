@@ -1,28 +1,26 @@
 ---
-title: Terminologia della contabilità industriale
-description: Questo argomento definisce i termini chiave utilizzati nella contabilità industriale, ad esempio chiave di allocazione e origine di allocazione.
+title: Terminologia della contabilità industriale | Microsoft Docs
+description: In questo argomento vengono definiti i termini chiave utilizzati nella contabilità industriale.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 957612150a5a5b99f41b83222ec8b84a3c617620
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 12d6f671843fe82cb83fa3128ae1cb8908d98bf4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971916"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182686"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologia della contabilità industriale
-
 In questo argomento vengono definiti i termini chiave utilizzati nella contabilità industriale.  
 
-## <a name="key-terms"></a>Termini chiave
-
+## <a name="key-terms"></a>Termini chiave  
  Nella tabella seguente vengono mostrate le definizioni dei termini chiave della contabilità industriale.  
 
 |**Termine**|**Definizione**|  
@@ -52,7 +50,4 @@ In questo argomento vengono definiti i termini chiave utilizzati nella contabili
 ## <a name="see-also"></a>Vedi anche  
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)   
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

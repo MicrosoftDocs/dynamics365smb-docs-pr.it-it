@@ -1,27 +1,27 @@
 ---
-title: 'Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base'
-description: In Business Central, i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità differenti a seconda del livello di complessità della warehouse.
+title: 'Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base | Documenti Microsoft'
+description: In Business Central, i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c5d3ce9b7bb02c12da8d62413c6c5722c59ee1d8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439312"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554646"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
 
 |Metodo|Processo in entrata|Collocazioni|Carichi|Stoccaggi|Livello di complessità (vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -52,9 +52,6 @@ In questa procedura dettagliata sono illustrati i task seguenti.
 -   Verificare che le collocazioni di stoccaggio siano ereditate dell'ordine di acquisto.  
 -   Registrazione della movimentazione warehouse nella warehouse e registrazione contemporanea della ricezione acquisti per l'ordine di acquisto di origine.  
 
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
-
 ## <a name="roles"></a>Ruoli  
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
 
@@ -68,7 +65,7 @@ Per completare questa procedura dettagliata, sarà necessario:
 -   CRONUS International Ltd. installato.  
 -   Per diventare un impiegato warehouse presso l'ubicazione ARGENTO, effettuare i seguenti passaggi:  
 
-    1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
+    1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impiegati warehouse** e quindi scegliere il collegamento correlato.  
     2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
     3.  Nel campo **Codice ubicazione** immettere ARGENTO.  
     4.  Selezionare il campo **Default**.  
@@ -81,7 +78,7 @@ Ellen, responsabile warehouse presso CRONUS International Ltd., crea un ordine d
 
 ### <a name="to-set-up-the-location"></a>Per impostare l'ubicazione  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
 2.  Aprire la scheda ubicazione ARGENTO.  
 3.  Selezionare la casella di controllo **Richiesto stoccaggio**.  
 
@@ -101,7 +98,7 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
 
 ### <a name="to-create-the-purchase-order"></a>Per creare l'ordine di acquisto.  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini acquisto** e selezionare il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Creare un ordine di acquisto per il fornitore 10000 alla data di lavoro (23 gennaio) con le righe di ordine di acquisto seguenti.  
 
@@ -124,7 +121,7 @@ Nella pagina **Stoccaggio in magazzino** è possibile gestire tutte le attività
 
 ### <a name="to-receive-and-put-the-items-away"></a>Per ricevere e stoccare gli articoli  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi magazzino**, quindi seleziona il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Stoccaggi magazzino** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Selezionare il campo **Documento origine**, quindi selezionare **Ordine acquisto**.  
 4.  Selezionare il campo **Nr. origine**, selezionare la riga per gli acquisti dal fornitore 10000 e fare clic sul pulsante **OK**.  
@@ -147,7 +144,4 @@ Nella pagina **Stoccaggio in magazzino** è possibile gestire tutte le attività
  [Spostare articoli ad hoc nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

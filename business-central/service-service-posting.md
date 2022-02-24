@@ -1,24 +1,24 @@
 ---
-title: Registrazione di assistenza
-description: La funzionalità di registrazione dei servizi di assistenza consente di elaborare i documenti in modo efficiente e di gestire in modo efficace il servizio di assistenza offerto ai clienti.
+title: Registrazione di assistenza | Documenti Microsoft
+description: La funzionalità di registrazione dei servizi di assistenza consente di elaborare i documenti in modo efficiente e di gestire in modo efficace il servizio di assistenza offerto ai clienti. È possibile creare e aggiornare documenti registrati, nonché creare movimenti contabili sia nell'area di assistenza che in altri moduli per garantire modifiche correttamente aggiornate.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6ecf6b203b7dd3264c3499f8b60bbdb29698e647
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443031"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192461"
 ---
 # <a name="service-posting"></a>Registrazione di assistenza
-La funzionalità di registrazione dei servizi di assistenza ti consente di elaborare i documenti in modo efficiente e di gestire in modo efficace il servizio di assistenza offerto ai clienti. È possibile creare e aggiornare documenti registrati, nonché creare movimenti contabili sia nell'area di assistenza che in altri moduli per garantire modifiche correttamente aggiornate.  
+La funzionalità di registrazione dei servizi di assistenza consente di elaborare i documenti in modo efficiente e di gestire in modo efficace il servizio di assistenza offerto ai clienti. È possibile creare e aggiornare documenti registrati, nonché creare movimenti contabili sia nell'area di assistenza che in altri moduli per garantire modifiche correttamente aggiornate.  
 
 > [!NOTE]  
 >  Di seguito viene descritta la registrazione di assistenza indipendentemente dalla modalità di gestione fisica degli articoli nella warehouse.  
@@ -26,7 +26,7 @@ La funzionalità di registrazione dei servizi di assistenza ti consente di elabo
 >  In un'ubicazione non impostata per richiedere la gestione warehouse, le azioni di registrazione vengono effettuate direttamente nella pagina **Righe assistenza**. Nelle ubicazioni che prevedono la gestione in warehouse, le azioni di registrazione descritte, tranne Spedizione e consumo, vengono eseguite indirettamente tramite diverse funzioni di spedizione warehouse, a seconda del setup. Per ulteriori informazioni, vedere [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Spedizione  
-L'opzione relativa alla spedizione consente di registrare gli articoli e il tempo appropriati immessi nelle righe di un ordine di assistenza dopo il completamento dell'assistenza stessa. Viene creata una spedizione registrata e si verificano aggiornamenti nel modulo Magazzino e in altri moduli di [!INCLUDE[prod_short](includes/prod_short.md)] con l'indicazione che gli articoli sono stati prelevati dal magazzino e inviati al cliente. In particolare, vengono generati movimenti contabili relativi agli articoli e al valore, movimenti assistenza e movimenti garanzia.  
+L'opzione relativa alla spedizione consente di registrare gli articoli e il tempo appropriati immessi nelle righe di un ordine di assistenza dopo il completamento dell'assistenza stessa. Viene creata una spedizione registrata e si verificano aggiornamenti nel modulo Magazzino e in altri moduli di [!INCLUDE[d365fin](includes/d365fin_md.md)] con l'indicazione che gli articoli sono stati prelevati dal magazzino e inviati al cliente. In particolare, vengono generati movimenti contabili relativi agli articoli e al valore, movimenti assistenza e movimenti garanzia.  
 
 Se l'ubicazione è impostata in modo da richiedere la gestione warehouse, la spedizione e movimentazione degli articoli nelle righe di assistenza funzionano allo stesso modo di altri documenti di origine. La sola differenza sta nel fatto che gli articoli nelle righe di assistenza possono essere consumati esternamente o internamente e richiedono due diverse funzioni di rilascio.
 
@@ -49,7 +49,7 @@ Quando si registra una fattura, una spedizione o una nota di credito di assisten
 
 Nella procedura seguente viene utilizzata una fattura di assistenza registrata come esempio, ma la stessa procedura può essere applicata alle spedizioni di assistenza registrate e alle note di credito registrate.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fattura assistenza registrata**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fattura assistenza registrata** e quindi scegliere il collegamento correlato.  
 2. Aprire la fattura di assistenza registrata che si desidera visualizzare.  
 3. Per ottenere una panoramica della fattura registrata, scegliere l'azione **Statistiche**.  
 
@@ -58,6 +58,3 @@ Nella procedura seguente viene utilizzata una fattura di assistenza registrata c
 ## <a name="see-also"></a>Vedere anche  
 [Registrare ordini di assistenza](service-how-to-post-service-orders.md)   
 [Creare ordini di assistenza](service-how-to-create-service-orders.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

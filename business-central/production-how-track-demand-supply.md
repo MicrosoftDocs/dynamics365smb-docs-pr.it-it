@@ -1,24 +1,23 @@
 ---
-title: Tenere traccia delle relazioni tra domanda e approvvigionamento
-description: Questo argomento illustra i diversi modi per tenere traccia delle relazioni tra domanda e offerta, ad esempio la tracciabilità degli articoli collegati e la gestione degli elementi di pianificazione non tracciati.
+title: Come tenere traccia delle relazioni tra domanda e approvvigionamento | Microsoft Docs
+description: A partire da qualsiasi documento dell'approvvigionamento o della domanda, è possibile tenere traccia della richiesta dell'ordine (quantità tracciata), della previsione, dell'ordine di vendita programmato o del parametro di pianificazione (quantità non tracciata) che ha generato la riga di pianificazione in questione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5830, 9101, 99000822, 99000855
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: ed1dbf03838b478cc8ff9c5f2e357c5873e30703
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 3d387ebaf9b7c5e20d50f22b0400d3089e973f8b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972699"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877713"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Tenere traccia delle relazioni tra domanda e approvvigionamento
-
 A partire da qualsiasi documento dell'approvvigionamento o della domanda, è possibile tenere traccia della richiesta dell'ordine (quantità tracciata), della previsione, dell'ordine di vendita programmato o del parametro di pianificazione (quantità non tracciata) che ha generato la riga di pianificazione in questione.
 
 I prospetti di pianificazione offrono anche informazioni di supporto alla pianificazione relative a entità non di ordine per consentire al responsabile della pianificazione di ottenere un piano di approvvigionamento ottimale. Per ulteriori informazioni, vedere [Elementi di pianificazione non tracciati](production-how-track-demand-supply.md#untracked-planning-elements).
@@ -28,7 +27,7 @@ Tramite i sistemi di impegno e pianificazione, la funzione di tracciabilità deg
 
 Di seguito viene descritto come tenere traccia degli articoli collegati in un ordine di produzione pianificato. I passaggi sono simili per tutti gli altri tipi di ordini e per le righe del prospetto di pianificazione.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione confermato** e quindi scegliere il collegamento correlato.
 2. Aprire l'ordine di produzione confermato appropriato dall'elenco.
 3. Nella Scheda dettaglio **Righe** scegliere l'azione **Funzioni**, quindi l'azione **Tracciabilità ordine**.
 
@@ -62,7 +61,4 @@ In questa pagina sono contenuti movimenti che rappresentano una quantità di sur
 [Dettagli di progettazione: Impegno, tracciabilità e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

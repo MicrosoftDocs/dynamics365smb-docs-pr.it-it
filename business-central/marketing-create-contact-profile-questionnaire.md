@@ -1,21 +1,21 @@
 ---
 title: Utilizzare i profili per classificare i contatti
-description: Informazioni su come impostare i questionari del profilo per aiutarti a classificare i profili dei tuoi contatti commerciali.
+description: Impostare i questionari profilo per classificare i contatti business
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 04/01/2020
+ms.openlocfilehash: 9cf4817cd85951f193ffadbcd3e7ebc971bcca36
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588528"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181582"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utilizzare i questionari profilo per classificare i contatti business
 È possibile impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti. In ogni questionario, è possibile impostare le diverse domande da porre ai contatti.  
@@ -23,7 +23,7 @@ ms.locfileid: "7588528"
 È inoltre possibile eseguire il questionario per rispondere automaticamente ad alcune domande sulla base dei dati di contatto, cliente o fornitore.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Per aggiungere un questionario profilo
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup questionario**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup questionario** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -46,39 +46,115 @@ Dopo avere creato un questionario, è necessario creare le valutazioni dei conta
 > [!NOTE]
 > È possibile assegnare una classificazione basata sui dati dei clienti solo ai contatti registrati come clienti e una classificazione basata sui dati dei fornitori solo ai contatti registrati come fornitori. La classificazione automatica non viene aggiornata automaticamente. Si consiglia pertanto di aggiornare i questionari profilo una volta effettuato l'aggiornamento dei dati relativi a clienti, fornitori o contatti su cui tali questionari si basano.  
 
-Dopo avere impostato le domande relative al profilo, se si assegna il questionario profilo a un contatto, le risposte corrette relative a tale contatto vengono assegnate automaticamente da [!INCLUDE[prod_short](includes/prod_short.md)].  
+Dopo avere impostato le domande relative al profilo, se si assegna il questionario profilo a un contatto, le risposte corrette relative a tale contatto vengono assegnate automaticamente da [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="example"></a>Esempio
-
 È possibile classificare i contatti in base al volume di acquisti da essi effettuati:
 
-|Risposta|Si applica a|
-|--- |--- |
-|A|contatti che hanno effettuato acquisti per 500.000 VL o più|
-|B|contatti che hanno effettuato acquisti per un importo compreso tra 100.000 e 499.999 VL|
-|C|contatti che hanno effettuato acquisti per 99.999 VL o meno|
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Risposta</strong></th>
+<th><strong>Si applica a</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>A</p></td>
+<td><p>contatti che hanno effettuato acquisti per 500.000 VL o più</p></td>
+</tr>
+<tr class="even">
+<td><p>B</p></td>
+<td><p>contatti che hanno effettuato acquisti per un importo compreso tra 100.000 e 499.999 VL</p></td>
+</tr>
+<tr class="odd">
+<td><p>C</p></td>
+<td><p>contatti che hanno effettuato acquisti per 99.999 VL o meno</p></td>
+</tr>
+</tbody>
+</table>
 
 Per effettuare questa operazione, completare la pagina **Setup questionario profilo** nel modo seguente:
 
-| Tipo     | Descrizione        | Classificazione automatica     | Da Valore | Al valore |
-|----------|--------------------|------------------------------|------------|----------|
-| Domanda | Classificazione di ABC | Fare clic per inserire un segno di spunta |            |          |
-| Risposta   | A                  |                              | 500.000    |          |
-| Risposta   | B                  |                              | 100,000    | 499,999  |
-| Risposta   | C                  |                              |            | 99,999   |
+
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Tipo</strong></th>
+<th><strong>Descrizione</strong></th>
+<th><strong>Classificazione Automatica</strong></th>
+<th><strong>Da Valore</strong></th>
+<th><strong>A Valore</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Domanda</p></td>
+<td><p>Classificazione di ABC</p></td>
+<td><p>Fare clic per inserire un segno di spunta</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p>Risposta</p></td>
+<td><p>A</p></td>
+<td><p> </p></td>
+<td><p>500.000</p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p>Risposta</p></td>
+<td><p>B</p></td>
+<td><p> </p></td>
+<td><p>100,000</p></td>
+<td><p>499,999</p></td>
+</tr>
+<tr class="even">
+<td><p>Risposta</p></td>
+<td><p>C</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>99,999</p></td>
+</tr>
+</tbody>
+</table>
 
 Compilare la pagina **Dettagli domande profilo** nel modo seguente:
-
-| Campo                         | Valore         |
-|-------------------------------|---------------|
-| Campo di classificazione del cliente | Vendite (LCY)   |
-| Metodo di classificazione         | Valore definito |
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Campo</strong></th>
+<th><strong>Valore</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Campo Classificazione clienti</strong></td>
+<td><emphasis>Vendite (VL)</emphasis></td>
+</tr>
+<tr>
+<td><strong>Metodo di classificazione</strong></td>
+<td><emphasis>Valore Definito</emphasis></td>
+</tr>
+</tbody>
+</table>
 
 Quando si assegna il questionario profilo contenente questa domanda a un contatto, la risposta pertinente al contatto viene automaticamente inserita nelle righe profilo della scheda del contatto.
 
 ## <a name="see-also"></a>Vedere anche
-
 [Creazione di contatti](marketing-create-contact-companies.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

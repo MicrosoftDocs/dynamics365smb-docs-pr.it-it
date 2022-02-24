@@ -1,28 +1,29 @@
 ---
-title: Utilizzare le chiavi di allocazione nelle registrazioni COGE
-description: È possibile assegnare un movimento in una registrazione generale a più conti diversi, quando tale registrazione viene contabilizzata.
+title: Utilizzare le chiavi di allocazione nelle registrazioni COGE | Documenti Microsoft
+description: Informazioni sul modo in cui è possibile utilizzare le chiavi di allocazione nelle registrazioni.
+services: project-madeira
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.search.form: 283, 284
-ms.date: 06/29/2021
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 347e4999be079d31aa06cc80a1b7c9858d19ff57
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 9c540b04b7dcda7cd3b656a86679228af08261c9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101297"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310926"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Utilizzare le chiavi di allocazione nelle registrazioni COGE
 È possibile assegnare un movimento in una registrazione generale a più conti diversi, quando tale registrazione viene contabilizzata. L'allocazione può essere effettuata per quantità, percentuale o importo.
 
 ## <a name="to-set-up-allocation-keys"></a>Per impostare le chiavi di allocazione
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni periodiche generali**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Reg. periodiche generali** e quindi scegliere il collegamento correlato.
 2. Scegliere il campo **Nome batch** per aprire la pagina **Batch registrazioni COGE**.
 3. È possibile modificare le allocazioni in un batch esistente nell'elenco o creare un nuovo batch con le allocazioni.
    * Per creare un nuovo batch, scegliere l'azione **Nuovo** e andare al passaggio successivo.
@@ -37,7 +38,7 @@ ms.locfileid: "8101297"
 11. Effettuare la registrazione.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Per modificare una chiave di allocazione già impostata
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni periodiche generali**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Reg. periodiche generali** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Registrazioni periodiche generali** selezionare le registrazioni con l'allocazione.
 3. Selezionare la riga con l'allocazione e scegliere l'azione **Allocazioni**.
 4. Cambiare i campi pertinenti e quindi scegliere **OK**.
@@ -45,7 +46,4 @@ ms.locfileid: "8101297"
 ## <a name="see-also"></a>Vedi anche
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
