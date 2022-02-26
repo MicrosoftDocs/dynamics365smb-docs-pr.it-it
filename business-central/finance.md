@@ -1,26 +1,26 @@
 ---
-title: Gestione dati finanziari| Documenti Microsoft
-description: Informazioni sulle attività per impostare i dati finanziari nella propria attività per adattarli alle esigenze di contabilità, controllo e gestione dei libri contabili.
-services: project-madeira
-documentationcenter: ''
+title: Gestione finanziaria (video)
+description: Scopri come Business Central supporta le esigenze di gestione finanziaria, contabilità, controllo e contabilità.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.search.form: 1151, 1166, 9027, 9004
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 2582e96b8113abe91fe10a087833d4fbeb5b7da5
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410749"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970913"
 ---
-# <a name="finance"></a>Contabilità
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
+# <a name="financial-management"></a>Gestione contabile
+
+[!INCLUDE[prod_short](includes/prod_short.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
 
 La configurazione predefinita include un piano dei conti e le categorie di registrazione standard che consentono di rendere più efficiente il processo di assegnazione dei conti COGE predefiniti a clienti, fornitori e articoli.  
 
@@ -45,25 +45,35 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Assegnare costi aggiuntivi, quali il trasporto e la gestione fisica sopportata durante il commercio, agli articoli interessati in modo da riflettere i costi nella valutazione di magazzino. |[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md) |
 |Registrare le spese personali dei dipendenti per le attività aziendali e rimborsare i dipendenti effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
 | Riconoscere i ricavi e le spese in periodi diversi da quando sono state registrate le transazioni. |[Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)|
-| Informazioni sulle opzioni disponibili per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico. |[Ricavo periodico (abbonamento)](finance-recurring-invoicing.md)|
+| Informazioni sulle opzioni disponibili per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico. |[Utilizzo del ricavo ricorrente](finance-recurring-invoicing.md)|
 |Imparare a utilizzare valute aggiuntive e ad aggiornare i tassi di cambio automaticamente. |[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|
 | Importare le transazioni degli stipendi dal sistema di gestione delle retribuzioni nella contabilità generale. |[Importa transazioni retribuzioni](finance-how-import-payroll-transactions.md)|
 |Utilizzare le funzioni per calcolare l'imposta sul valore aggiunto (VAT) sulle transazioni di vendita e acquisto in modo da segnalare gli importi alle autorità fiscali.|[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)|
 |Preparare un report che elenca l'IVA di vendita e inviare il report alle autorità fiscali in UE. | [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
 |Convertire manualmente i contratti di servizio per modificare la loro aliquota VAT.|[Convertire i contratti di assistenza che includono importi IVA](service-how-to-convert-service-contracts.md)|
 | Monitorare il flusso dei contanti in entrata e in uscita dell'azienda. |[Analizzare i flussi di cassa dell'azienda](finance-analyze-cash-flow.md) |
-|Seguire una procedura end-to-end sull'utilizzo delle situazioni contabili per fare previsioni sul flusso di cassa.|[Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+|Segui una procedura end-to-end sull'utilizzo delle situazioni contabili per fare previsioni sul flusso di cassa.|[Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Utilizzare rendiconti finanziari e le sintesi fornite in Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
-|Imparare a utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare Accountant Hub per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
+|Informazioni su come utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare l'hub aziendale per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Guardare un video
+
+Il video seguente presenta alcune delle funzionalità chiave per la gestione delle finanze. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Vedere anche
+
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Chiusura di periodi fiscali](year-close-years-periods.md)  
-[Gestione di progetti](projects-manage-projects.md)    
+[Gestione di progetti](projects-manage-projects.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
-title: Impostare le risorse, i fogli presenze e le commesse| Documenti Microsoft
-description: Descrive come impostare le risorse, i fogli presenze e le commesse per gestire progetti.
+title: Impostare le risorse, i fogli presenze e le commesse
+description: Questo argomento descrive come impostare le risorse, i fogli presenze e le commesse per gestire progetti e budget.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f2c02cdcad7c0b33ad172df0b8a4d821f7fcd2df
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312630"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973760"
 ---
 # <a name="setting-up-project-management"></a>Impostazione della Gestione progetti
-Prima di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse.
+
+Prima di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse.
 
 È quindi possibile creare commesse e pianificare le risorse per i progetti nonché gestire i budget e tenere traccia delle ore di utilizzo di macchinari e dipendenti tramite i fogli presenze. Per ulteriori informazioni, vedere [Gestione di progetti](projects-manage-projects.md).  
 
@@ -38,4 +40,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

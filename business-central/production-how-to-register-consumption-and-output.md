@@ -1,23 +1,24 @@
 ---
-title: Registrare i consumi e l'output per un ordine di produzione | Microsoft Docs
-description: Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di produzione**. Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni.
+title: Registrare il consumo e l'output per l'ordine di produzione
+description: Questo argomento spiega come registrare il consumo e l'output per una riga ordine di produzione rilasciata visualizzata nella pagina Registrazioni di produzione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 747a38ae8390c45995091c377c5c05d3140949dc
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 5510
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 43f49adcc182f279126fbb8d2d6652153a626b4d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877905"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973815"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato
+
 Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di produzione**. Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni. I valori vengono registrati nei movimenti contabili nell'ordine di produzione rilasciato. Le quantità di produzione sono registrate come movimenti contabili articoli negativi, le quantità di output vengono registrate come movimenti contabili positivi e il tempo speso viene registrato come movimento contabile capacità. Tali valori immessi possono essere anche visualizzati nella parte inferiore della finestra come quantità effettive.  
 
 > [!NOTE]  
@@ -27,7 +28,7 @@ Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di pr
 >  i componenti privi di codici di legame tra ciclo e distinta base vengono elencati per primi in questa finestra.  
 
 ## <a name="to-register-consumption-and-output"></a>Per registrare consumi e output  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di produzione rilasciati** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
 2.  Aprire una riga dell'ordine di produzione rilasciato pronta per la registrazione e nella Scheda dettaglio **Righe** scegliere l'azione **Riga**, quindi scegliere l'azione **Registrazioni di produzione**.  
 
     La pagina **Registrazioni di produzione** si apre mostrando le righe di registrazione per la riga ordine di produzione in base alle pagine **Componenti ordini produzione** e **Cicli ordini produzione** . Le righe hanno origine dalla distinta base di produzione e il ciclo assegnati all'articolo che deve essere prodotto. Per ulteriori informazioni, vedere [Creare distinte base di produzione](production-how-to-create-routings.md).  
@@ -37,15 +38,15 @@ Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di pr
     > [!NOTE]  
     >  Le date di registrazione immesse nelle singole righe sovrascriveranno questo campo.  
 
-4.  Nel campo **Metodo consuntivazione** nella parte superiore della finestra è possibile scegliere di visualizzare anche il consumo e l'output registrati automaticamente in base ai metodi di consuntivazione definiti rispettivamente per l'articolo e per la risorsa.  
+4.  Nel campo **Metodo consuntivazione** nella parte superiore della finestra è possibile scegliere di visualizzare anche il consumo e l'output registrati automaticamente in base ai metodi di consuntivazione definiti rispettivamente per l'articolo e per la risorsa. Per ulteriori informazioni vedere [Attivare la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).   
 
+5.  Immettere le quantità desiderate nei campi modificabili, specificando consumo e output.  
+  
     In ogni tipo di riga di registrazione, vengono visualizzati solo i campi rilevanti. Gli altri sono vuoti e protetti da scrittura.  
 
     All'apertura della finestra sono già disponibili le quantità da registrare. Se non è stato ancora registrato alcun valore, per impostazione predefinita le quantità previste verranno visualizzate in tutti i campi relativi alla quantità, come specificato nell'ordine di produzione. Se sono state effettuate registrazioni parziali, nei campi relativi alla quantità delle righe verranno visualizzate le quantità residue. Le quantità e gli orari già registrati per l'ordine sono visualizzati nella parte inferiore della finestra come movimenti effettivi.  
 
     Nel caso delle quantità disponibili nel campo **Quantità di output**, è possibile configurare i valori da preimpostare alla prima apertura della finestra. A tale scopo, aprire la pagina **Setup manufacturing** e utilizzare il campo **Quantità predefinita output** della Scheda dettaglio **Generale**.
-
-5.  Immettere le quantità desiderate nei campi modificabili, specificando consumo e output.  
 
     > [!NOTE]  
     >  Si noti che solo la quantità di output nell'ultima riga di registrazione del tipo di movimento **Output** rettificherà il livello di magazzino durante la registrazione. Occorre quindi evitare di contabilizzare le registrazioni, con la quantità di output prevista preimpostata nell'ultima riga di output, fino alla produzione effettiva di tutti gli articoli finali.  
@@ -70,4 +71,7 @@ Se occorre registrare altri valori, le registrazioni li conterranno alla success
 [Pianif.](production-planning.md)      
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

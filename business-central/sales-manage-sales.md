@@ -1,21 +1,22 @@
 ---
-title: Panoramica dei task per la gestione delle vendite | Documenti Microsoft
-description: Descrive come si gestiscono le attività di vendita.
+title: Panoramica dei task per la gestione delle vendite
+description: Leggi come utilizzare i servizi di Business Central per la gestione delle attività di vendita con i tuoi clienti con fatture di vendita, ordini, offerte e altro.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: c7b1d4b82d82b4957d7bd0d295182189ede60a79
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.form: 253
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 815c9240c9c81129009f70f050c869df4eea9b3a
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324368"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101005"
 ---
 # <a name="sales"></a>Vendite
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
@@ -26,7 +27,7 @@ Si crea una fattura di vendita o un ordine di vendita per registrare il contratt
 
 È possibile correggere o annullare in modo semplice una fattura di vendita registrata prima che venga pagata. Ciò risulta utile se si desidera correggere un errore di digitazione o se il cliente richiede una modifica in anticipo nell'elaborazione dell'ordine. Se la fattura di vendita registrata è stata pagata, allora sarà necessario creare una nota di credito di vendita o un ordine di reso da vendita per stornare la vendita.
 
-Per garantire la buona riuscita delle iniziative di marketing e la chiusura delle vendite, è fondamentale prendere le decisioni ottimali nel momento appropriato. La funzionalità di marketing in [!INCLUDE[d365fin](includes/d365fin_md.md)] offre un quadro accurato e tempestivo delle informazioni sui contatti consentendo di presentarsi in modo efficace a potenziali clienti, nonché di incrementare il livello di soddisfazione dei clienti. Per ulteriori informazioni, vedere [Relationship Management](marketing-relationship-management.md).
+Per garantire la buona riuscita delle iniziative di marketing e la chiusura delle vendite, è fondamentale prendere le decisioni ottimali nel momento appropriato. La funzionalità di marketing in [!INCLUDE[prod_short](includes/prod_short.md)] offre un quadro accurato e tempestivo delle informazioni sui contatti consentendo di presentarsi in modo efficace a potenziali clienti, nonché di incrementare il livello di soddisfazione dei clienti. Per ulteriori informazioni, vedere [Relationship Management](marketing-relationship-management.md).
 
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile utilizzare un'integrazione ottimale nel processo dai lead agli incassi utilizzando Business Central per le attività backend come elaborare ordini e gestire l'inventario e le finanze. Per ulteriori informazioni, vedere [Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -55,7 +56,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Vendere articoli di assemblaggio che al momento non sono disponibili creando un ordine di assemblaggio collegato per fornire la quantità completa o parziale dell'ordine di vendita.|[Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md)|
 |Fatturare al cliente una volta per più spedizioni combinando le spedizioni in una sola fattura.|[Combinare le spedizioni in una singola fattura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Comunicare ai clienti le date di consegna dell'ordine calcolando la data CTP (Capable-To-Promise) o ATP (Available-To-Promise).|[Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)|
-|Registrare le stime per vendite future, specificate per articolo e periodo, per funzionare principalmente come input per la pianificazione della produzione.|[Creare una previsione](production-how-to-create-a-forecast.md)|
 |Eliminare la confusione quando due o più record sono presenti per lo stesso cliente.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
@@ -66,7 +66,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Gestione progetti](projects-manage-projects.md)    
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

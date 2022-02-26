@@ -1,31 +1,31 @@
 ---
-title: Impostare un agente | Documenti Microsoft
+title: Impostare un agente (video) | Documenti Microsoft
 description: È possibile impostare un identificatore per ciascuno degli agenti, per tenere traccia delle prestazioni di ogni persona o per assegnare un agente a un contatto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: ef0e1db9e4af18ad209c111c951c98a46b0aabe9
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 2771eff803209b7f4295f6ac8a2e2af0d937f5fe
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877569"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940028"
 ---
 # <a name="set-up-salespeople"></a>Impostare gli agenti
 Molte società basano sull'andamento di un singolo impiegato il calcolo della provvigione sulle vendite o del premio. Vedere, ad esempio, il report **Commissioni agente**. La società potrebbe anche decidere di assegnare un agente a ciascun contatto.
 
 Dopo che è stato impostato un agente nella pagina **Agenti**, è possibile selezionarlo nel campo **Codice agente** in tutti i record pertinenti, come le schede conto C/G, cliente, fornitore, contatti e campagna. Quindi quando si contabilizzano o si impostano le fatture, le note di credito, le righe di registrazione, gli addebiti degli interessi e così via, il codice dell'agente viene passato ai movimenti contabili risultanti.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm)]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Per impostare un codice agente
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agenti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Agenti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Agenti** scegliere l'azione **Nuovo**.
 
 È possibile utilizzare gli agenti in diverse attività di marketing e Relationship Management. Ad esempio, è possibile assegnare task agli agenti, in modo che i task vengano incorporati nelle opportunità di vendita a cui è assegnato l'agente. Per ulteriori informazioni, vedere [Impostare fasi ciclo e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
@@ -33,4 +33,7 @@ Dopo che è stato impostato un agente nella pagina **Agenti**, è possibile sele
 ## <a name="see-also"></a>Vedere anche
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

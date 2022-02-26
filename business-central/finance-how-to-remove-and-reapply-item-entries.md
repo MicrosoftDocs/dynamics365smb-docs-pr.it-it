@@ -1,21 +1,21 @@
 ---
-title: Come rimuovere e ricollegare movimenti articoli | Microsoft Docs
+title: Rimuovere e ricollegare movimenti articolo
 description: È possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 506, 521, 9125
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 9ec35c8f618a916661018719b4da05f7e2b43566
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183334"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971018"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
@@ -36,12 +36,13 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 > Quando si utilizza il Prospetto collegamento, è importante prendere in considerazione quanto indicato di seguito:
     - Non è consigliabile lasciare i movimenti di collegamento scollegati per lungi periodi di tempo poiché altri utenti non possono elaborare gli articoli finché non si ricollegano i movimenti di collegamento o si chiude la pagina **Prospetto collegamento**. Gli utenti che provano a realizzare le azioni che includono un movimento di collegamento manualmente scollegato ricevono il seguente messaggio di errore: “Impossibile eseguire questa azione perché i movimenti per l'articolo XXX non sono applicati in XXX dall'utente XXX".
     - È consigliabile collegare solo i movimenti contabili articoli durante le ore non lavorative per evitare conflitti con altri utenti che registrano transazioni con gli stessi articoli.
-    - Quando si chiude il Prospetto collegamento, in [!INCLUDE[d365fin](includes/d365fin_md.md)] viene eseguito un controllo automatico per verificare che tutti i movimenti siano collegati. Se, ad esempio, si rimuove il collegamento a una quantità ma non si crea un nuovo collegamento, quindi si chiude il Prospetto collegamento, viene creato un nuovo collegamento. In questo modo, i costi rimangono intatti. Tuttavia, se si rimuove un collegamento fisso, al momento della chiusura del prospetto non ne viene creato automaticamente uno nuovo. È necessario eseguire questa operazione manualmente creando un nuovo collegamento nel prospetto.
+    - Quando si chiude il Prospetto collegamento, in [!INCLUDE[prod_short](includes/prod_short.md)] viene eseguito un controllo automatico per verificare che tutti i movimenti siano collegati. Se, ad esempio, si rimuove il collegamento a una quantità ma non si crea un nuovo collegamento, quindi si chiude il Prospetto collegamento, viene creato un nuovo collegamento. In questo modo, i costi rimangono intatti. Tuttavia, se si rimuove un collegamento fisso, al momento della chiusura del prospetto non ne viene creato automaticamente uno nuovo. È necessario eseguire questa operazione manualmente creando un nuovo collegamento nel prospetto.
     - Nel Prospetto collegamento è possibile rimuovere i collegamenti da più di un movimento per volta. Poiché, tuttavia, il collegamento di movimenti influenza l'insieme dei movimenti disponibili per il collegamento, non è possibile creare un collegamento per più di un movimento per volta.
     - Il Prospetto collegamento non consente di creare un collegamento nel seguente caso: se non è disponibile una quantità in stock sufficiente per il collegamento, il Prospetto collegamento non consente di creare un collegamento quando si tenta di collegare un movimento di riduzione di magazzino senza informazioni sulla tracciabilità articolo a un movimento di aumento di magazzino con informazioni sulla tracciabilità articolo.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Per rimuovere un collegamento articoli tramite il Prospetto collegamento  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto collegamento** e quindi scegliere il collegamento correlato.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Per rimuovere un collegamento articoli tramite il Prospetto collegamento
+
+1.  Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
 3.  Immettere filtri nella Scheda dettaglio **Generale** per semplificare la ricerca del movimento contabile articolo per il quale si desidera modificare il collegamento.  
 4.  Selezionare il movimento contabile articolo e scegliere l'azione **Movimenti collegati**. Verrà aperta la pagina **Visualizza movimenti collegati - Movimenti collegati** in cui saranno visualizzati uno o più movimenti contabili articoli attualmente collegati al movimento selezionato.  
@@ -54,10 +55,11 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 > [!IMPORTANT]  
 >  Non è consigliabile lasciare i movimenti di collegamento scollegati per periodi di tempo più lunghi poiché altri utenti non possono elaborare gli articoli interessati finché non si ricollegano i movimenti di collegamento o si chiude la pagina **Prospetto collegamento**. Il seguente messaggio di errore viene visualizzato se si tenta di eseguire operazioni che includono un movimento di collegamento manualmente scollegato:  
 >   
->  **Impossibile eseguire questa azione perché i movimenti per l'articolo <item> non sono applicati nel prospetto collegamento dall'utente <user>.**  
+>  **Non potete eseguire questa azione perché le voci per la voce \<item\> non sono applicate nel foglio di lavoro dell'applicazione dall'utente \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Per riapplicare un collegamento articoli tramite il Prospetto collegamento  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto collegamento** e quindi scegliere il collegamento correlato.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Per riapplicare un collegamento articoli tramite il Prospetto collegamento
+
+1.  Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). , inserire **Foglio di lavoro dell'applicazione** e poi scegliere il link relativo.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
 3.  Per ricollegare i movimenti rimossi dopo l'apertura del prospetto, selezionare il movimento contabile articolo che si desidera ricollegare, quindi scegliere l'azione **Ricollega**.  
 
@@ -72,9 +74,13 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
     >  Se si è scelto di creare un collegamento che provocherebbe la generazione di un ciclo infinito nel processo di rettifica del costo, il collegamento proposto non viene effettuato. Ciò può avvenire quando tramite i movimenti originali è stato creato uno stock negativo. Il collegamento non viene eseguito. Di conseguenza, è necessario selezionare un movimento diverso per il collegamento.  
 6.  Se nella finestra **Setup magazzino** il campo **Rettifica costo automatica** è impostato su **Sempre**, il processo batch di rettifica del costo viene eseguito automaticamente dopo la creazione di un nuovo collegamento. In caso contrario, eseguire il processo batch **Rettifica costo - Movimenti articoli** per assicurarsi che tutti i costi siano aggiornati.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedi anche
+
 [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
  [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

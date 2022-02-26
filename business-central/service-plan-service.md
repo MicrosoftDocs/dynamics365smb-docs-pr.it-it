@@ -1,28 +1,28 @@
 ---
-title: Pianificazione dei processi di assistenza | Documenti Microsoft
-description: Descrive i task per impostare le regole e i valori per definire i criteri e i processi di assistenza.
+title: Pianificazione dei processi di assistenza
+description: Questo argomento descrive i task per impostare le regole e i valori per definire i criteri e i processi di assistenza.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e3e879a2f768e8260693d160c419b006159ed46
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192485"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323004"
 ---
 # <a name="planning-services"></a>Pianificazione dei servizi
-Con [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   
+Con [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce inoltre alcune statistiche che consentono di determinare la qualità dei servizi offerti e identificare le aree da migliorare.
+[!INCLUDE[prod_short](includes/prod_short.md)] fornisce inoltre alcune statistiche che consentono di determinare la qualità dei servizi offerti e identificare le aree da migliorare.
   
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
   
@@ -41,3 +41,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Impostare gli articoli in assistenza e i componenti degli articoli in assistenza](service-how-setup-service-items.md)  
 [Come impostare gli stati per gli ordini di assistenza e le riparazioni](service-order-repair-status.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

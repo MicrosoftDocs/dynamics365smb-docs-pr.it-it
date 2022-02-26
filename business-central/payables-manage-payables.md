@@ -1,21 +1,22 @@
 ---
-title: Panoramica dei task di gestione fornitori| Documenti Microsoft
+title: Panoramica delle attività di gestione fornitori
 description: Descrive i task per la gestione dei fornitori, ad esempio, pagare i creditori o collegare i pagamenti in uscita ai movimenti contabili per chiudere fatture o note di credito.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 01/13/2020
+ms.search.form: 161, 254, 256, 347, 574, 599, 9002
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea3091ecb79a345bf4bed9572e98de057cde38db
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e623c4ecb9a5a24370e4e261f3bbc7c98299eaa3
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954237"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011493"
 ---
 # <a name="managing-payables"></a>Gestione della contabilità fornitori
 
@@ -31,7 +32,7 @@ Nella tabella seguente viene descritta una sequenza di attività, all'interno de
 | --- | --- |
 | Generare i pagamenti fornitori o i rimborsi ai dipendenti in scadenza, preparare i pagamenti degli assegni ed esportare i pagamenti in un file della banca durante la registrazione. |[Effettuare i pagamenti](payables-make-payments.md) |
 | Collegare i pagamenti fornitori automaticamente alle fatture di acquisto non pagate importando un file di rendiconto bancario. |[Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Collegare manualmente i pagamenti fornitori alle fatture di acquisto non pagate. |[Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md). |
+| Collegare manualmente i pagamenti fornitori alle fatture di acquisto non pagate. |[Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md) |
 |È possibile assicurarsi della corretta valutazione di magazzino assegnando i costi degli articoli, come le spese di spedizione, gestione fisica, assicurazione e il trasporto sostenute per gli acquisti.|[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|
 |Rimborsare ai dipendenti le spese personali durante le attività aziendali effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
 
@@ -42,6 +43,9 @@ Nella tabella seguente viene descritta una sequenza di attività, all'interno de
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

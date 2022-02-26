@@ -1,23 +1,21 @@
 ---
-title: Unire record duplicati relativi a clienti o fornitori | Microsoft Docs
-description: Descrive come creare una scheda cliente per registrare informazioni su ogni nuovo cliente a cui sono rivolte le vendite.
-services: project-madeira
-documentationcenter: ''
+title: Unire record duplicati relativi a clienti o fornitori
+description: Descrive come consolidare le informazioni su clienti o fornitori quando si hanno voci duplicate su alcuni di essi.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1fb7f049e253e70e9170c257848b3738dec9d176
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312174"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436853"
 ---
 # <a name="merge-duplicate-records"></a>Unire record duplicati
 Poiché utenti diversi creano nel tempo nuove schede cliente, fornitore o contatto, oppure nuovi record vengono creati automaticamente durante la migrazione, un cliente, un fornitore o un contatto possono essere rappresentati nel sistema con più di un record. In tal caso, è possibile utilizzare la pagina **Unisci duplicato** nella scheda del record che si desidera mantenere. La pagina fornisce una panoramica dei valori di campo duplicati e funzioni per selezionare i valori da mantenere o eliminare quando si uniscono due record.
@@ -30,7 +28,7 @@ Poiché utenti diversi creano nel tempo nuove schede cliente, fornitore o contat
 
 La seguente procedura è basata su una scheda cliente. I passaggi sono simili per una scheda contatto o fornitore.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Selezionare il cliente per il quale un record duplicato esiste o se ne sospetta l'esistenza, quindi scegliere l'azione **Modifica**.
 3. Nella pagina **Scheda cliente** scegliere l'azione **Unisci con**.
 4. Nella pagina **Unisci duplicato**, nel campo **Unisci con**, selezionare il cliente che si ritiene sia un duplicato di quello aperto, indicato nel campo **Corrente**.
@@ -67,4 +65,7 @@ La seguente procedura è basata su una scheda cliente. I passaggi sono simili pe
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Setup contatti](marketing-setup-contacts.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

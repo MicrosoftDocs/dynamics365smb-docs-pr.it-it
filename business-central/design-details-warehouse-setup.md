@@ -1,57 +1,59 @@
 ---
-title: 'Dettagli di progettazione: Setup warehouse | Microsoft Docs'
-description: La funzionalità di warehouse in Business Central contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza.
+title: Dettagli di progettazione - Impostazione warehouse
+description: La funzionalità Warehouse contiene diversi livelli di complessità, che sono in gran parte definiti dall'impostazione della collocazione nelle schede ubicazione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/04/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd2a282e95e324e3adbf06cb72c53467f63c227b
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: c0559ef10dd8051b64d919b8a27d3af11cce2819
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435233"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325162"
 ---
 # <a name="design-details-warehouse-setup"></a>Dettagli di progettazione: Impostazione warehouse
 
-La funzionalità di warehouse in [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza. Inoltre, gli oggetti applicazione della licenza controllano quale documento dell'interfaccia utente utilizzare per le attività di warehouse supportate.  
+La funzionalità di warehouse in [!INCLUDE[prod_short](includes/prod_short.md)] contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza. Inoltre, gli oggetti applicazione della licenza controllano quale documento dell'interfaccia utente utilizzare per le attività di warehouse supportate.  
+<!--
+The following warehouse-related granules exist:  
 
-Sono disponibili le seguenti funzioni correlate alla warehouse:  
+- Basic Inventory (4010)  
+- Bin (4170)  
+- Put Away (4180)  
+- Warehouse Receipt (4190)  
+- Pick (4200)  
+- Warehouse Shipment (4210)  
+- Warehouse Management Systems (4620)  
+- Internal Picks and Put-aways (4630)  
+- Automated Data Capture System (4640)
+- Bin Setup (4660)  
 
-- Magazzino di base (4010)  
-- Collocazione (4170)  
-- Stoccaggio (4180)  
-- Carico warehouse (4190)  
-- Prelievo (4200)  
-- Spedizione warehouse (4210)  
-- Sistema di gestione warehouse (4620)  
-- Stoccaggi e prelievi Interni (4630)  
-- Sistema di acquisizione automatica dei dati (4640)
-- Impostazione della collocazione (4660)  
+For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
 
-Per ulteriori informazioni su ciascuna area, vedere [Elenco prezzi di [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=238341) (richiede l'account PartnerSource).  
+Nella seguente tabella viene indicato quali funzionalità sono richieste per definire i livelli di complessità della warehouse, quali documenti dell'interfaccia utente supportano ogni livello e quali codici ubicazione riflettono questi livelli nel database di esempio di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Nella seguente tabella viene indicato quali funzionalità sono richieste per definire i livelli di complessità della warehouse, quali documenti dell'interfaccia utente supportano ogni livello e quali codici ubicazione riflettono questi livelli nel database di esempio di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-|Livello di complessità|Description|Documento IU|Ubicazione CRONUS|Requisito minimo dell'area|  
+|Livello di complessità|Descrizione|Documento IU|Posizione di esempio|Requisito minimo dell'area|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|Nessuna attività di warehouse dedicata.<br /><br /> Registrazione carico/spedizione da ordini.|Ordine|BLU|Magazzino di base|  
 |2|Nessuna attività di warehouse dedicata.<br /><br /> Registrazione carico/spedizione da ordini.<br /><br /> Il codice collocazione è obbligatorio.|Ordine, con codice collocazione|ARGENTO|Magazzino di base/Collocazione|  
 |3 <br /><br /> **NOTA**: anche se le impostazioni sono definite **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile registrare carichi e spedizioni direttamente dai documenti commerciali di origine nelle ubicazioni in cui si selezionano queste caselle di controllo.|Attività warehouse di base, ordine per ordine.<br /><br /> Registrazione carico/spedizione da documenti di prelievo/stoccaggio in magazzino. <br /><br /> Il codice collocazione è obbligatorio.|Stoccaggio magazzino/Movimento di magazzino/Prelievo magazzino, con codice collocazione|(ARGENTO + Richiesto stoccaggio o Richiesto stoccaggio)|Magazzino di base/Collocazione/Stoccaggio/Prelievo|  
 |4|Attività warehouse avanzate, per ordini multipli.<br /><br /> Registrazione di ricezione e spedizione consolidata basata sullo stoccaggio warehouse e le registrazioni di prelievo.|Carico warehouse, stoccaggio warehouse, prelievo warehouse, spedizione warehouse, prospetto prelievi|VERDE|Magazzino di base/Carico warehouse/Stoccaggio/Prelievo/Spedizione warehouse|  
 |5|Attività warehouse avanzate, per ordini multipli.<br /><br /> Registrazione di ricezione e spedizione consolidata basata sullo stoccaggio warehouse e le registrazioni di prelievo.<br /><br /> Il codice collocazione è obbligatorio.|Carico warehouse, stoccaggio warehouse, prelievo warehouse, spedizione warehouse, prospetto prelievi, prospetto stoccaggi, con codice collocazione|(VERDE + Collocazione obbligatoria)|Magazzino di base/Collocazione/Carico warehouse/Stoccaggio/Prelievo/Spedizione warehouse|  
-|6 <br /><br /> **Note**: questo livello viene definito "WMS" poiché richiede la funzionalità più avanzata, Sistema di gestione warehouse (Warehouse Management Systems).|Attività warehouse avanzate, per ordini multipli<br /><br /> Registrazione di ricezione e spedizione consolidata basata sullo stoccaggio warehouse e le registrazioni di prelievo<br /><br /> Il codice collocazione è obbligatorio.<br /><br /> Il codice della zona e il codice di classe sono facoltativi.<br /><br /> Addetti warehouse diretti dal flusso di lavoro<br /><br /> Pianificazione rifornimento collocazione<br /><br /> Valutazione collocazione<br /><br /> Impostazione collocazione per capacità<br /><br /> Suddivisione in fasce orarie  <!-- Hand-held device integration -->|Carico warehouse, Stoccaggio warehouse, Prelievo warehouse, Spedizione warehouse, Movimentazione warehouse, Prospetto prelievi, Prospetto stoccaggi, Prelievo interno warehouse, Stoccaggio warehouse interno con codice collocazione/classe/area<br /><br /> Prospetti vari per la gestione delle collocazioni<br /><br /> Video ADCS|BIANCO|Magazzino di base/Collocazione/Stoccaggio/Carico warehouse/Prelievo/Spedizione warehouse/Sistemi di gestione warehouse/Prelievi e stoccaggi interni/Impostazione di collocazione/Sistema di acquisizione data automatizzata/Impostazione collocazione/<!-- Automated Data Capture System/ -->Impostazione della collocazione|  
+|6 <br /><br /> **Nota**: questo livello viene definito "WMS" poiché richiede la funzionalità più avanzata, Sistema di gestione warehouse (Warehouse Management Systems).|Attività warehouse avanzate, per ordini multipli<br /><br /> Registrazione di ricezione e spedizione consolidata basata sullo stoccaggio warehouse e le registrazioni di prelievo<br /><br /> Il codice collocazione è obbligatorio.<br /><br /> Il codice della zona e il codice di classe sono facoltativi.<br /><br /> Addetti warehouse diretti dal flusso di lavoro<br /><br /> Pianificazione rifornimento collocazione<br /><br /> Valutazione collocazione<br /><br /> Impostazione collocazione per capacità<br /><br /> Suddivisione in fasce orarie  <!-- Hand-held device integration -->|Carico warehouse, Stoccaggio warehouse, Prelievo warehouse, Spedizione warehouse, Movimentazione warehouse, Prospetto prelievi, Prospetto stoccaggi, Prelievo interno warehouse, Stoccaggio warehouse interno con codice collocazione/classe/area<br /><br /> Prospetti vari per la gestione delle collocazioni<br /><br /> Video ADCS|BIANCO|Magazzino di base/Collocazione/Stoccaggio/Carico warehouse/Prelievo/Spedizione warehouse/Sistemi di gestione warehouse/Prelievi e stoccaggi interni/Impostazione di collocazione/Sistema di acquisizione data automatizzata/Impostazione collocazione/<!-- Automated Data Capture System/ -->Impostazione della collocazione|  
 
 Per esempi dell'utilizzo dei documenti IU in base al livello di complessità della warehouse, vedere [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md).  
 
 ## <a name="bin-and-bin-content"></a>Collocazione e Contenuto collocazione
 
-Una collocazione è un dispositivo di archiviazione progettato per contenere le parti di ricambio. È l'unità contenitore più piccola presente in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le quantità di articoli nelle collocazioni vengono denominate contenuto collocazione. Una ricerca dal campo **Articolo** oppure dal campo **Cod. collocazione** nella riga documenti correlata al warehouse visualizza la disponibilità calcolata dell'articolo nella collocazione.  
+Una collocazione è un dispositivo di archiviazione progettato per contenere le parti di ricambio. È l'unità contenitore più piccola presente in [!INCLUDE[prod_short](includes/prod_short.md)]. Le quantità di articoli nelle collocazioni vengono denominate contenuto collocazione. Una ricerca dal campo **Articolo** oppure dal campo **Cod. collocazione** nella riga documenti correlata al warehouse visualizza la disponibilità calcolata dell'articolo nella collocazione.  
 
 Al contenuto della collocazione può essere associata una proprietà Fissa, Dedicata o Predefinita per definire come può essere utilizzato il contenuto collocazione. Le collocazioni con nessuna di questi proprietà vengono denominato collocazioni variabili.  
 
@@ -139,3 +141,6 @@ Il modello di stoccaggio può essere assegnato a un articolo e a un'ubicazione. 
 
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)   
 [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,21 @@
 ---
 title: Stato di assegnazione e stato di riparazione | Documenti Microsoft
 description: Informazioni sulla relazione tra lo stato di riparazione degli articoli in assistenza e lo stato di assegnazione dei relativi movimenti.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9cf3349d654a4e007079075c64e9e56654619810
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316238"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772406"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Stato di assegnazione e stato di riparazione degli articoli in assistenza
 Lo stato di riparazione degli articoli in assistenza e lo stato di assegnazione dei movimenti di assegnazione degli articoli in assistenza sono correlati in Gestione assistenza. Lo stato di assegnazione cambia quando lo stato di riparazione dell'articolo in assistenza viene modificato in **Completato** o **Parzialmente Assistito** e quando un'offerta di assistenza viene convertita in ordine di assistenza. Lo stato di riparazione dell'articolo in assistenza cambia quando l'assegnazione dell'articolo in assistenza viene eliminata o quando l'articolo in assistenza viene riassegnato ad un'altra risorsa. Lo stato di riparazione degli articoli in assistenza può essere visualizzato nella pagina **Compiti di Assistenza** e aggiornato nel campo **Codice Stato Riparazione** della pagina **Prospetto Art. in Assist.** È possibile visualizzare lo stato di assegnazione nel campo **Stato** della pagina **Assegnazioni Risorse**.  
@@ -40,7 +38,7 @@ Quando un'offerta di assistenza viene convertita in ordine di assistenza, l'ordi
 * Vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza dell'ordine di assistenza che presentano stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione passerà da **Attivo** a **Riassegnazione necessaria**.  
   
 ## <a name="canceling-allocations"></a>Eliminazione delle assegnazioni  
-Quando viene eliminata l'assegnazione di un articolo in assistenza, [!INCLUDE[d365fin](includes/d365fin_md.md)] aggiorna lo stato di assegnazione del movimento di assegnazione corrispondente da **Attivo** a **Riassegnazione necessaria**.
+Quando viene eliminata l'assegnazione di un articolo in assistenza, [!INCLUDE[prod_short](includes/prod_short.md)] aggiorna lo stato di assegnazione del movimento di assegnazione corrispondente da **Attivo** a **Riassegnazione necessaria**.
 
 Lo stato di riparazione dell'articolo in assistenza nel movimento di assegnazione verrà aggiornato come segue:  
   
@@ -72,3 +70,6 @@ Viene creato un nuovo movimento di assegnazione con stato **Attivo** contenente 
 [Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)  
 [Assegnare risorse](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

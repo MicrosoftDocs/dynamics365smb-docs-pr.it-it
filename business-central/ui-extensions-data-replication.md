@@ -1,39 +1,49 @@
 ---
-title: Estensioni cloud intelligente Business Central per la migrazione cloud | Microsoft Docs
-description: Utilizzare le estensioni di migrazione cloud per migrare i dati locali in Business Central online. Queste estensioni spostano i dati locali nel cloud in modo da poter utilizzare Business Central online con i dati esistenti.
+title: Estensioni per la migrazione al cloud
+description: Utilizzare le estensioni di migrazione cloud per migrare i dati locali in Business Central online. Queste estensioni spostano i dati locali nel cloud.
 author: jenolson
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 02/18/2020
-ms.author: jenolson
-ms.openlocfilehash: 8afa05f7e1790ab28f8450a8323b48ec1c5ebd72
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: f76241497eea8a53dfc054c895bf4a788e2226a4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076382"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322299"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Estensioni cloud intelligente per la migrazione al cloud
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Estensioni per la migrazione al cloud per la migrazione a Business Central Online
 
-Questa estensione collegherà i dati da [!INCLUDE [prodshort](includes/prodshort.md)] locale con [!INCLUDE [prodshort](includes/prodshort.md)] online allo scopo di migrare la soluzione nel cloud.  
+A seconda della soluzione locale, è necessario utilizzare estensioni diverse per connettere i dati con [!INCLUDE[prod_short](includes/prod_short.md)] online allo scopo di migrare la soluzione nel cloud.  
 
-Se si utilizza uno dei prodotti locali supportati, è possibile configurare un ambiente cloud basato sull'estensione di uno specifico prodotto. Una volta configurato l'ambiente cloud, sarà possibile migrare i dati dalla soluzione locale a [!INCLUDE[prodshort](includes/prodshort.md)]. Ciò consente di sfruttare appieno i vantaggi del cloud per l'azienda, come approfondimenti migliorati sul business, intelligenza artificiale, accesso a più dispositivi, sempre e ovunque.  
+Se si utilizza uno dei prodotti locali supportati, è possibile configurare un ambiente cloud basato sull'estensione di uno specifico prodotto. Una volta configurato l'ambiente cloud, sarà possibile migrare i dati dalla soluzione locale a [!INCLUDE[prod_short](includes/prod_short.md)]. Ciò consente di sfruttare appieno i vantaggi del cloud per l'azienda, come approfondimenti migliorati sul business, intelligenza artificiale, accesso a più dispositivi, sempre e ovunque.  
+
+Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo per [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="business-central-on-premises"></a>Business Central in locale
-Se si utilizza una distribuzione locale di [!INCLUDE[prodshort](includes/prodshort.md)], acquisire l'estensione **Cloud intelligente base** e l'estensione **Cloud intelligente Business Central** e quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
+
+Se si utilizza una distribuzione locale di [!INCLUDE[prod_short](includes/prod_short.md)], acquisire l'estensione **Cloud intelligente base** e l'estensione **Cloud intelligente Business Central** e quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
+
 Se si utilizza Dynamics GP, acquisire le estensioni **Estensione Cloud intelligente base** e **Cloud intelligente Dynamics GP**, quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
 
+> [!IMPORTANT]
+> La migrazione da Dynamics GP utilizzando la guida al setup assistito **Setup migrazione cloud** è attualmente supportata solo per i seguenti mercati: Stati Uniti, Canada, Regno Unito.
+
 ## <a name="dynamics-sl"></a>Dynamics SL
-Se si utilizza Dynamics SL, acquisire le estensioni **Estensione Cloud intelligente base**, **Cloud intelligente Microsoft Dynamics SL** e **Smartlist di cronologia Microsoft Dynamics SL**, quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
+
+Se si utilizza Dynamics SL, acquisire le estensioni **Estensione Cloud intelligente base**, **Cloud intelligente Microsoft Dynamics SL** e **SmartList di cronologia Microsoft Dynamics SL**, quindi eseguire la guida al setup assistito **Setup di migrazione cloud**.  
 
 ## <a name="see-also"></a>Vedere anche
 
-[Informazioni intelligenti](about-intelligent-cloud.md)  
-[Estensione Cloud intelligente base](ui-extensions-intelligent-cloud.md)  
+[Estensione migrazione Cloud base](ui-extensions-intelligent-cloud.md)  
+[Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

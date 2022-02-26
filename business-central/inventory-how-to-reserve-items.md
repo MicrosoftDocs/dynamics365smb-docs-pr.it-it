@@ -1,21 +1,22 @@
 ---
-title: 'Procedura: Impegnare articoli | Documenti Microsoft'
+title: Come prenotare gli articoli
 description: È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto e ordini di produzione. È possibile impegnare gli articoli in magazzino o in entrata nelle righe del documento aperto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1c215e971a436e70dbc6f09df71f42c13fa85395
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 498, 497
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d53de74aa14001598177fcbf7d83d519fad9e0fd
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182038"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060066"
 ---
 # <a name="reserve-items"></a>Prenotare articoli
 È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto, ordini di assistenza, ordini di assemblaggio e ordini di produzione. È possibile impegnare gli articoli in magazzino o in entrata nelle righe del giornale di registrazione o del documento aperto. Eseguire l'operazione nella pagina **Impegno**.
@@ -24,7 +25,7 @@ In ogni riga della pagina **Impegno** che si apre per impegnare gli articoli, ve
 
 ## <a name="to-reserve-items-for-sales"></a>Per impegnare articoli per la vendita
 Di seguito viene descritto come impegnare gli articoli da un ordine di vendita. I passaggi sono simili a quelli degli ordini di assemblaggio, assistenza e acquisto.  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Nella Scheda dettaglio **Righe** di un ordine di vendita scegliere l'azione **Impegna**. Verrà visualizzata la pagina **Impegni**.  
 3. Selezionare la riga dalla quale si desidera impegnare gli articoli.  
 4. Selezionare una delle seguenti azioni.  
@@ -41,8 +42,8 @@ Di seguito viene descritto come impegnare gli articoli da un ordine di vendita. 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Per impegnare articoli per le righe degli ordini di produzione  
 È possibile impegnare articoli per ordini di produzione. È però necessario distinguere tra righe degli ordini di produzione, ossia l'articolo padre, e componenti.
 
-Nella seguente procedura si utilizza un ordine produzione confermato.   
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione confermato** e quindi scegliere il collegamento correlato.  
+Nella seguente procedura viene utilizzato un ordine produzione confermato.   
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
 2. Aprire l'ordine di produzione confermato per il quale si vogliono impegnare gli articoli padre.  
 3. Selezionare la riga dell'ordine di produzione pertinente.  
 4. Nella Scheda dettaglio **Righe** scegliere l'azione **Impegna**.
@@ -53,8 +54,8 @@ La quantità immessa nella riga dell'ordine di produzione confermato viene ora i
 ## <a name="to-reserve-items-for-production-order-components"></a>Per impegnare gli articoli per i componenti degli ordini di produzione  
 È possibile impegnare articoli per ordini di produzione. È però necessario distinguere tra righe degli ordini di produzione, ossia l'articolo padre, e componenti.
 
-Nella seguente procedura si utilizza un ordine produzione confermato.    
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordine produzione confermato** e quindi scegliere il collegamento correlato.  
+Nella seguente procedura viene utilizzato un ordine produzione confermato.    
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
 2. Aprire l'ordine di produzione confermato per il quale si vogliono impegnare gli articoli del componente.  
 3. Selezionare la riga dell'ordine di produzione pertinente.  
 4. Nella Scheda dettaglio **Righe** selezionare **Riga**, quindi scegliere **Componenti**.  
@@ -84,7 +85,7 @@ Dai documenti in uscita per gli articoli tracciati, ad esempio ordini di vendita
 Ciò è denominato impegno specifico, in quanto viene impegnata una quantità dell'articolo X appartenente al lotto X. Se si impegnano semplicemente quantità dell'articolo X, si tratta di impegno normale, non specifico. Per ulteriori informazioni, vedere [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md).
 
 La seguente procedura è basata su un ordine di vendita.    
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi selezionare il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi scegli il collegamento correlato.  
 2. Creare una riga di ordine di vendita per un articolo tracciato.  
 3. Assegnare i numeri di serie e di lotto alla riga dell'ordine di vendita. Per ulteriori informazioni, vedere [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
 4. Nella riga ordine di vendita scegliere l'azione **Impegna**.  
@@ -98,4 +99,7 @@ La seguente procedura è basata su un ordine di vendita.
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

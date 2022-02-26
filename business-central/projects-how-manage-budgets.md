@@ -1,23 +1,22 @@
 ---
-title: Impostare e gestire un budget per una commessa| Documenti Microsoft
+title: Impostare e gestire un budget per una commessa
 description: Descrive come pianificare le risorse, prevedere e controllare i costi di un progetto impostando un budget per ciascuna commessa.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 639955ef4ac9e782207d4cfee7a89f38d5c99501
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 1002, 1007
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 901a925e1ce8019cd2f347ac5b3e4c59735b444f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312870"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972280"
 ---
 # <a name="manage-job-budgets"></a>Gestire budget per le commesse
 È possibile impostare un budget per ogni commessa. Il budget viene utilizzato per pianificare le risorse allocate a una commessa. Il budget può essere generale con pochi movimenti oppure può contenere più movimenti divisi in livelli di attività. È quindi possibile confrontare gli importi previsti con l'utilizzo effettivo come registrato nelle registrazioni commesse. Monitorando le differenze tra l'utilizzo effettivo e quello a budget, è possibile controllare un progetto in corso e migliorare la qualità di commesse future riducendo il rischio di sottovalutazione dei costi.
@@ -27,8 +26,8 @@ Di seguito viene descritto come stimare i costi a budget durante la pianificazio
 ## <a name="to-estimate-the-budgeted-costs-for-a-job"></a><a name="JobBudgetCosts"></a> Per stimare i costi a budget per una commessa
 Quando un cliente desidera conoscere il prezzo di una commessa che verrà fatturata in base all'utilizzo, è necessario determinare i costi a budget per la commessa. A tale scopo, utilizzare la pagina **Righe task commessa**.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
-2. Aprire una commessa appropriata.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
+2. Apri una commessa appropriata.
 3. Selezionare una riga di task di tipo Registrazione quindi scegliere l'azione **Righe pianificazione commessa**.
 4. In una nuova riga, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
@@ -55,4 +54,7 @@ Per informazioni su come registrare i prezzi e i costi di commesse a budget risp
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

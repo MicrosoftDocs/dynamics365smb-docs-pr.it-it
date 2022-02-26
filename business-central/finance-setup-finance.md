@@ -1,21 +1,21 @@
 ---
-title: Impostare i processi finanziari| Documenti Microsoft
-description: Informazioni sulle attività per impostare i dati finanziari nella propria attività per adattarli alle esigenze di contabilità, controllo e gestione dei libri contabili.
+title: Impostare i processi finanziari
+description: Informazioni sulle attività necessarie per impostare i dati finanziari nella propria attività per adattarli alle esigenze di contabilità, controllo e gestione dei libri contabili.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b7a272d916182fda7815e04bb314a5c29942ca98
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: d2763e42ae6c31a4f631457ea16b6a5bdcad40db
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372570"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327015"
 ---
 # <a name="setting-up-finance"></a>Impostazione di dati finanziari
 Prima di poter iniziare a gestire la propria attività, è necessario specificare le regole e i valori predefiniti per impostare come si desidera gestire i processi finanziari per quella società. Innanzitutto, impostare le basi dei record contabili della società, vale a dire il piano dei conti, dopodiché è necessario procedere all'impostazione delle categorie di registrazione che contribuiscono a rendere più efficiente il processo di assegnazione dei conti delle registrazioni della contabilità generale di default a clienti, fornitori e articoli.
@@ -28,13 +28,15 @@ Molti dei task di impostazione devono essere completati prima di avviare la regi
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-| Per | Vedere |
+| A | Vedere |
 | --- | --- |
-| Scegliere la modalità di pagamento dei fornitori. |[Definizione dei metodi di pagamento](finance-payment-methods.md) |
+| Specificare come si desidera essere pagato dai clienti e come pagare i fornitori. |[Impostare i metodi di pagamento](finance-payment-methods.md) |
+| Specificare le condizioni pagamento per gestire le date di scadenza e per calcolare eventuali sconti pagamento.|[Impostare le condizioni pagamento](finance-payment-terms.md) |
 | Specificare le categorie di registrazione che associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. |[Impostazione delle categorie di registrazione](finance-posting-groups.md)|
 |Creare le situazioni contabili e definire le categorie di conti per definire il contenuto dei grafici e dei report finanziari, ad esempio i report di conto patrimoniale e conto economico.|[Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md)|
 |Impostare una tolleranza da cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Impostare periodi fiscali. |[Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md) |
+|Impostare termini di sollecito per riscuotere pagamenti in ritardo.|[Impostare i termini e i livelli di sollecito](finance-setup-reminders.md)|
 | Definire come dichiarare alle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)|
 |Preparare la gestione dell'IVA ad esigibilità differita in connessione con metodi di contabilità basata su contanti.|[Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti](finance-setup-unrealized-vat.md)|
 | Impostare le funzionalità Vendite e acquisti per gestire i pagamenti in valute estere.|[Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -48,6 +50,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Impostare la creazione di report Intrastat e inviare il report a un'autorità | [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
 |Assicurarsi che un movimento in una registrazione generale sia allocato a più conti diversi quanto tale registrazione viene contabilizzata, in base alla quantità, alla percentuale o all'importo.|[Utilizzare le chiavi di allocazione nelle registrazioni COGE](ui-how-use-allocation-keys-general-journals.md)|
 |Impostare i codici sorgente e le causali da utilizzare per tenere traccia degli audit trail.|[Impostazione di codici sorgente e causali per audit trail](finance-setup-trail-codes.md)|
+|Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
+
+> [!TIP]
+> A seconda della posizione geografica, alcune pagine possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
@@ -58,6 +64,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Utilizzo delle dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

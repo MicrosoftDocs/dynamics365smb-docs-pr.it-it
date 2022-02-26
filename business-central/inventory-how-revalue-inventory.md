@@ -1,29 +1,29 @@
 ---
 title: Creare nuovi movimenti di valorizzazione per gli articoli in magazzino| Documenti Microsoft
 description: Descrive come rivalutare o ammortizzare i movimenti di valorizzazione di uno o più articoli in magazzino registrandone il corrente valore calcolato.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c961d15d04da5fcad18a460adc269f3099962f6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 5803,
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: b07aba72be831dd68eea3475f3ee591a7c319051
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182134"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059598"
 ---
 # <a name="revalue-inventory"></a>Rivalutare il magazzino
 Per rivalutare o ammortizzare un determinato articolo o movimento contabile articolo, è necessario utilizzare le registrazioni rivalutazioni.
 
 ## <a name="to-revalue-inventory"></a>Per rivalutare il magazzino
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni rivalutazioni** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni rivalutazioni**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Calcola valore magazzino**.
 3. Nella pagina **Calcola valore magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere il pulsante **OK**.
@@ -39,4 +39,7 @@ Vengono a questo punto creati i nuovi movimenti di valorizzazione che riflettono
 [Magazzino](inventory-manage-inventory.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

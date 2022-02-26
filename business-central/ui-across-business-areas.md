@@ -5,22 +5,22 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c078195f25d28b517a25b23cbb22c78bfb4e9ec4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: b6c64e9a86c462749eb24eb6e57118efd35fd47c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192077"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787504"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
 
 Per supportare questi task specifici del settore commerciale, è possibile utilizzare un'ampia gamma di funzionalità generali commerciali, ad esempio la definizione del testo esteso per le righe del documento e l'organizzazione del collegamento dei task aziendali nei workflow.
 
@@ -50,7 +50,10 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Impostare le definizioni di scambio dati per inviare e ricevere i documenti elettronici. |[Scambio di dati in modalità elettronica](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Vedi anche
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Amministrazione](admin-setup-and-administration.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

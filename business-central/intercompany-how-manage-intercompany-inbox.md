@@ -1,23 +1,22 @@
 ---
-title: Elaborare le transazioni IC in entrata e in uscita | Microsoft Docs
+title: Gestire la casella in entrata e in uscita intercompany
 description: Le transazioni intercompany che si ricevono dai partner IC sono elencate nella posta in arrivo IC. Qui è possibile elaborarle manualmente o automaticamente.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 652ad700a4e2d979620560f1f5ba543d07f08832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 2678d6b31a630d088a747464444fed76ee98a277
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182470"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029432"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Gestire la casella in entrata e in uscita intercompany
 Tutte le transazioni intercompany ricevute elettronicamente dai partner intercompany sono elencate nella posta in arrivo IC.  
@@ -51,14 +50,14 @@ Le operazioni che è possibile eseguire con una determinata transazione variano 
 
  > [!NOTE]  
  > Se i partner intercompany si trovano nello stesso database, le transazioni vengono trasferite senza la necessità di file o e-mail. Vedere il campo **Tipo trasferimento** nella pagina **Partner IC**. <br /><br />
-In tal caso, è possibile impostare il sistema in modo che ignori le caselle di posta in arrivo e in uscita selezionando la casella di controllo **Accetta automaticamente le transazioni** nella pagina **Partner IC** e la casella di controllo **Invia automaticamente le transazioni** nella pagina **Setup intercompany**.
+In tal caso, è possibile impostare il sistema in modo che ignori le caselle di posta in arrivo e in uscita selezionando la casella di controllo **Accetta automaticamente le transazioni** nella pagina **Partner IC** e la casella di controllo **Invia automaticamente le transazioni** nella pagina **Setup intercompany**. Le transazioni interaziendali in entrata possono essere accettate automaticamente solo se l'utilità di pianificazione è abilitata. Per ulteriori informazioni, vedere [Configurazione di Business Central Server - Impostazioni utilità di pianificazione](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Per importare transazioni intercompany da un file  
 Le transazioni intercompany inviate dai partner intercompany non inclusi nello stesso database della società possono essere ricevute in un file XML. Tali transazioni devono essere quindi importate nella posta in arrivo/casella in arrivo.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Informazioni società** e quindi scegliere il collegamento correlato.
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.
 2. Salvare il file nel percorso specificato nel campo **Dettagli casella in arrivo Intercompany** della pagina **Informazioni società**.  
-3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Casella transazioni in arrivo intercompany** e quindi scegliere il collegamento correlato.
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Casella transazioni in arrivo intercompany**, quindi scegli il collegamento correlato.
 4. Nella pagina **Casella transazioni in arrivo intercompany** scegliere l'azione **Importa file di transazioni**.  
 5. Nella pagina visualizzata selezionare il file XML contenente le transazioni, quindi scegliere **Apri**.  
 
@@ -67,7 +66,7 @@ Le transazioni vengono importata nella posta in arrivo/casella in arrivo ed è q
 ## <a name="to-process-incoming-intercompany-transactions"></a>Per elaborare le transazioni intercompany in entrata  
 Le transazioni intercompany inviate dai partner intercompany vengono inserite nella posta in arrivo/casella in arrivo IC. È necessario valutare singolarmente ogni transazione presente nella posta in arrivo/casella in arrivo per determinare l'operazione da eseguire.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Casella transazioni in arrivo intercompany** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Casella transazioni in arrivo intercompany**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Casella transazioni in arrivo intercompany** selezionare una riga e scegliere un'azione, ad esempio **Accetta**, per elaborare la riga.
 3. Nella pagina **Az. casella in arr. IC completa** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere il pulsante **OK**.  
@@ -81,7 +80,7 @@ Per le righe elaborate con l'azione **Reso da partner**, è necessario registrar
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Per elaborare le transazioni intercompany in uscita  
 Quando si annotano registrazioni o documenti intercompany oppure si invia una conferma d'ordine intercompany, le transazioni corrispondenti vengono inviate alla Posta in Uscita IC. Per inviarle ai partner IC, è necessario aprire la Posta in Uscita ed elaborarle.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Casella transazioni in uscita intercompany** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Casella transazioni in uscita intercompany**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Casella transazioni in uscita intercompany** selezionare una riga e scegliere un'azione, ad esempio **Torna a casella in arrivo**, per elaborare la riga.
 
 Le righe elaborate con l'azione **Invia a Partner IC** verranno inviate alla casella di posta in arrivo del partner di pertinenza.
@@ -95,7 +94,7 @@ Talvolta, potrebbe essere utile ricreare una transazione nella casella di posta 
 
 Nella procedura seguente viene descritto come ricreare transazioni in arrivo, tuttavia è possibile applicare gli stessi passaggi per quelle in uscita.
 
-  1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Casella transazioni in arrivo IC gestite** e quindi scegliere il collegamento correlato.  
+  1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Casella transazioni in arrivo IC gestite**, quindi scegli il collegamento correlato.  
 
   2.  Nella pagina **Casella transazioni in arrivo IC gestite** selezionare la riga con la transazione che si desidera ricreare nella casella in arrivo, quindi scegliere l'azione **Ricrea casella transazione in arrivo**.  
 
@@ -104,4 +103,7 @@ Nella procedura seguente viene descritto come ricreare transazioni in arrivo, tu
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

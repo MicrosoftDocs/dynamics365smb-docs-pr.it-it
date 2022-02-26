@@ -1,21 +1,21 @@
 ---
-title: Personalizzazione delle pagine | Documenti Microsoft
-description: Informazioni su come personalizzare l'interfaccia utente in base alle esigenze professionali in Business Central.
+title: Personalizzazione delle pagine (video)
+description: Informazioni su come personalizzare l'interfaccia utente e l'area di lavoro in base alle tue esigenze e preferenze professionali in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: cd25d18787f8f28b01974e59580f7e83425e54bf
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262192"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940278"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 È possibile personalizzare la propria area di lavoro per adattarla alle esigenze professionali e alle preferenze modificando le pagine in modo da visualizzare solo le informazioni necessarie, quando necessario. Le modifiche di personalizzazione apportate influenzeranno solo ciò che vede l'utente che le ha effettuate, non quello che altri utenti vedono.
@@ -28,6 +28,11 @@ A seconda del tipo di pagina e del relativo contenuto, è possibile eseguire var
 > Gli amministratori possono eseguire le stesse modifiche al layout degli utenti personalizzando l'area di lavoro per un profilo a cui sono assegnati più utenti. Per ulteriori informazioni, vedere [Personalizzare pagine per ruoli](ui-personalization-manage.md).<br /><br />
 Gli amministratori possono anche sostituire o disabilitare la personalizzazione degli utenti e definire quali funzionalità sono visualizzabili in tutte o alcune società. Per ulteriori informazioni, vedere [Personalizzazione di Business Central](ui-customizing-overview.md).
 
+## <a name="video-overview"></a>Video di panoramica
+Il video seguente mostra alcuni dei modi per personalizzare il Centro gestione ruoli.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
+
 ## <a name="to-change-the-width-of-a-column"></a>Per modificare la larghezza di una colonna
 È possibile ridimensionare facilmente le colonne di qualsiasi elenco trascinando il bordo tra due colonne verso sinistra o verso destra.
 1. Nell'intestazione di un elenco, selezionare e trascinare il bordo tra 2 colonne.
@@ -37,7 +42,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Per avviare la personalizzazione di una pagina tramite il banner **Personalizzazione**
 1. Aprire qualsiasi pagina da personalizzare.
-2. Nell'angolo in alto a destra, selezionare l'icona ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e quindi scegliere **Personalizza**.
+2. Nell'angolo in alto a destra seleziona l'icona ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e poi scegli l'azione **Personalizza**.
 
     Viene visualizzato il banner **Personalizzazione** in alto per indicare che è possibile iniziare ad apportare le modifiche.
 
@@ -138,6 +143,9 @@ Per agevolare la comprensione della personalizzazione, di seguito sono elencati 
 
 ## <a name="see-also"></a>Vedere anche
 [Personalizzare pagine per profili](ui-personalization-manage.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

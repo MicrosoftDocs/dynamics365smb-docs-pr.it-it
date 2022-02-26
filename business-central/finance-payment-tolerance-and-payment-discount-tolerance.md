@@ -1,21 +1,21 @@
 ---
-title: Tolleranza pagamento e tolleranza sconto pagamento | Microsoft Docs
+title: Tolleranza di pagamento e di sconto pagamento
 description: È possibile impostare la tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.search.form: 118, 314, 395
+ms.date: 10/29/2021
+ms.author: edupont
+ms.openlocfilehash: fa9e4abb37788b7aa8261ab0a5a705edef27e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262240"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972488"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. Ad esempio, le tolleranze pagamento sono in genere per importi di piccola entità per cui costerebbe di più la correzione che semplicemente accettarli. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
@@ -45,40 +45,40 @@ Per ulteriori informazioni, vedere [Abilitare o disabilitare gli avvisi di tolle
 Le tolleranze relative a giorni e importi consentono di chiudere una fattura anche se il pagamento non copre l'intero importo riportato in fattura per svariati motivi. È ad esempio possibile che la data di scadenza per lo sconto sul pagamento sia stata superata, che siano state dedotte determinate merci oppure a causa di un semplice errore. Lo stesso principio è valido anche per note di credito e rimborsi.  
 
 Per impostare le tolleranze è necessario impostare vari conti di tolleranza, specificare entrambi i metodi di registrazione della tolleranza di sconto sul pagamento e della tolleranza di pagamento, quindi eseguire il processo batch **Modifica tolleranza pagamento**.  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni COGE** e quindi scegliere il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.  
 2. Aprire la pagina **Setup registrazioni COGE**, impostare un conto di tolleranza a debito e a credito dei pagamenti relativi alle vendite e un conto di tolleranza a debito e a credito dei pagamenti relativi agli acquisti.  
-3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie registrazione clienti** e quindi scegliere il collegamento correlato.    
+3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cat. reg. clienti**, quindi scegli il collegamento correlato.    
 4. Aprire la pagina **Cat. reg. clienti**, impostare un conto di tolleranza a debito e a credito dei pagamenti. Per ulteriori informazioni, vedere [Impostazione delle categorie di registrazione](finance-posting-groups.md).  
-5. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni fornitori** e quindi scegliere il collegamento correlato.  
+5. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni fornitori**, quindi scegli il collegamento correlato.  
 6. Aprire la pagina **Cat. reg. fornitori**, impostare un conto di tolleranza a debito e a credito dei pagamenti.  
-7. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
+7. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 8. Aprire la pagina **Setup contabilità generale**.  
-9. Nella Scheda dettaglio **Collegamento** compilare i campi **Registrazione toll. sconto pag.**, **Periodo di dilazione sconto pagamento** e **Registrazione toll. pagamento**.   
+9. Nella Scheda dettaglio **Collegamento** compilare i campi **Registrazione tolleranza sconto pagamento**, **Periodo di dilazione sconto pagamento** e **Registrazione toll. pagamento**.   
 10. Scegliere l'azione **Modifica tolleranza pagamento**.
 11. Nella pagina **Modifica tolleranza pagamento** compilare i campi **% tolleranza pagamento** e **Importo massimo tolleranza pagamento** e quindi scegliere **OK**.
 
 > [!IMPORTANT]  
->  Con questa procedura la tolleranza viene impostata solo per la valuta locale. Se si desidera che [!INCLUDE[d365fin](includes/d365fin_md.md)] gestisce le tolleranze sui pagamenti, le note di credito e i rimborsi in una valuta estera, è necessario eseguire il processo batch **Modifica tolleranza pagamento** con un valore nel campo **Codice valuta**.  
+>  Con questa procedura la tolleranza viene impostata solo per la valuta locale. Se si desidera che [!INCLUDE[prod_short](includes/prod_short.md)] gestisce le tolleranze sui pagamenti, le note di credito e i rimborsi in una valuta estera, è necessario eseguire il processo batch **Modifica tolleranza pagamento** con un valore nel campo **Codice valuta**.  
 
 > [!NOTE]  
 >  Se si desidera che venga visualizzato un messaggio di avviso tolleranza pagamento ogni volta che si registra un'applicazione della tolleranza, è necessario attivare l'Avviso tolleranza pagamento. Per ulteriori informazioni, vedere la sezione [Per abilitare o disabilitare gli avvisi di tolleranza pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Per disattivare la tolleranza per un cliente o un fornitore, è necessario bloccare le tolleranze nella relativa scheda cliente o scheda fornitore. Per ulteriori informazioni, vedere la sezione [Per bloccare la tolleranza pagamento per i clienti](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Quando si imposta la tolleranza, [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica automaticamente l'esistenza di movimenti aperti e calcola la tolleranza anche per tali movimenti.
+>  Quando si imposta la tolleranza, [!INCLUDE[prod_short](includes/prod_short.md)] verifica automaticamente l'esistenza di movimenti aperti e calcola la tolleranza anche per tali movimenti.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Per abilitare o disabilitare gli avvisi di tolleranza pagamento
 L'avviso tolleranza pagamento viene visualizzato quando si registra un collegamento con un saldo che rientra nella tolleranza consentita. Sarà quindi possibile decidere come registrare e documentare il saldo.    
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella Scheda dettaglio **Collegamento** della pagina **Setup contabilità generale**, attivare l'opzione **Avviso tolleranza pag.** per attivare l'avviso. Per disattivare l'avviso, disattivare l'opzione.  
 
 > [!NOTE]  
->  L'opzione predefinita per la pagina **Avviso tolleranza pag.** è **Mantieni il saldo come importo residuo**. L'opzione predefinita per la pagina **Avviso toll. sconto pag.** è **Non accettare lo sconto di pagamento ritardato**.
+>  L'opzione predefinita per la pagina **Avviso tolleranza pag.** è **Mantieni il saldo come importo residuo**. L'opzione predefinita per la pagina **Avviso tolleranza sconto pagamento** è **Non accettare lo sconto di pagamento ritardato**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Per bloccare la tolleranza pagamento per i clienti  
 Per impostazione di default, la tolleranza di pagamento è consentita. Per disattivare la tolleranza di pagamento per un cliente o un fornitore, è necessario bloccare la tolleranza nella relativa scheda cliente o scheda fornitore. Di seguito viene descritto come eseguire l'operazione per un cliente. I passaggi sono simili per un fornitore.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cliente** o **Fornitore** e quindi scegliere il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cliente** o **Fornitore**, quindi scegli il collegamento correlato.  
 2. Nella Scheda dettaglio **Pagamenti** selezionare la casella di controllo **Blocca tolleranza pagam**.  
 
 > [!NOTE]  
@@ -96,23 +96,23 @@ Gli scenari con l'alternativa A o B rappresentano quanto segue:
 - **A**: in questo caso l'avviso relativo alla tolleranza di sconto sul pagamento è stato disattivato OPPURE l'utente ha attivato l'avviso e ha scelto di consentire lo sconto sul pagamento in ritardo (Registra il saldo come tolleranza pagamento).  
 - **B**: in questo caso l'utente ha attivato l'avviso e ha scelto di non consentire lo sconto sul pagamento in ritardo (Mantieni il saldo come importo residuo).  
 
-|-|Mag.|Pagam.|Max Toll. Pag.|Data Sconto Pag.|Data Toll. Data|Data Pagamento|Pag.|Tipo Tolleranza|Tutti i Movimenti Chiusi|Data Toll. Mov. Cli.|Toll. Pag. C/G|  
+|-|Mag.|Sconto pagamento|Tolleranza pagamento massima|Data sconto pagamento|Data tolleranza sconto pagamento|Data Pagamento|Pagamento|Tipo Tolleranza|Tutti i Movimenti Chiusi|Tolleranza sconto pagamento CG/CL|Tolleranza pagamento C/G|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
-|1|1.000|20|5|15/01/03|20/01/03|<=15/01/03|985|Toll. Pag.|Sì|0|-5|  
+|1|1.000|20|5|15/01/03|20/01/03|<=15/01/03|985|PaymentTolerance|Sì|0|-5|  
 |2|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**<=15/01/03**|**980**|**Nessuno**|**Sì**|**0**|**0**|  
-|3|1.000|20|5|15/01/03|c|<=15/01/03|975|Toll. Pag.|Sì|0|5|  
-|4A|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|1005|Toll. Sconto Pag.|No, 25 in Pag.|20/-20|0|  
-|5A|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|1000|Toll. Sconto Pag.|No, 20 in Pag.|20/-20|0|  
-|6A|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|995|Toll. Sconto Pag.|No, 15 in Pag.|20/-20|0|  
-|4B|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|1005|Toll. Pag.|Sì|0|-5|  
+|3|1.000|20|5|15/01/03|c|<=15/01/03|975|PaymentTolerance|Sì|0|5|  
+|4A|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|1005|PaymentDiscountTolerance|No, 25 in pagamento|20/-20|0|  
+|5A|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|1000|PaymentDiscountTolerance|No, 20 in pagamento|20/-20|0|  
+|6A|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|995|PaymentDiscountTolerance|No, 15 in pagamento|20/-20|0|  
+|4B|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|1005|PaymentTolerance|Sì|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**16/01/03 – 20/01/03**|**1000**|**Nessuno**|**Sì**|**0**|**0**|  
-|6B|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|995|Toll. Pag.|Sì|0|5|  
-|7|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|985|Toll. Sconto Pag. Toll. Pag.|Sì|20/-20|-5|  
-|8|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|980|Toll. Sconto Pag.|Sì|20/-20|0|  
-|9|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|975|Toll. Sconto Pag. Toll. Pag.|Sì|20/-20|5|  
-|10|1.000|20|5|15/01/03|20/01/03|>20/01/03|1005|Toll. Pag.|Sì|0|-5|  
+|6B|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|995|PaymentTolerance|Sì|0|5|  
+|7|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|985|PaymentDiscountTolerance e PaymentTolerance|Sì|20/-20|-5|  
+|8|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|980|PaymentDiscountTolerance|Sì|20/-20|0|  
+|9|1.000|20|5|15/01/03|20/01/03|16/01/03 – 20/01/03|975|PaymentDiscountTolerance e PaymentTolerance|Sì|20/-20|5|  
+|10|1.000|20|5|15/01/03|20/01/03|>20/01/03|1005|PaymentTolerance|Sì|0|-5|  
 |**11**|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**>20/01/03**|**1000**|**Nessuno**|**Sì**|**0**|**0**|  
-|12|1.000|20|5|15/01/03|20/01/03|>20/01/03|995|Toll. Pag.|Sì|0|5|  
+|12|1.000|20|5|15/01/03|20/01/03|>20/01/03|995|PaymentTolerance|Sì|0|5|  
 |13|1.000|20|5|15/01/03|20/01/03|>20/01/03|985|Nessuno|No, 15 in fattura|0|0|  
 |14|1.000|20|5|15/01/03|20/01/03|>20/01/03|980|Nessuno|No, 20 in fattura|0|0|  
 |15|1.000|20|5|15/01/03|20/01/03|>20/01/03|975|Nessuno|No, 25 in fattura|0|0|  
@@ -125,7 +125,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza pagamenti singoli 1](media/singlePmtTolRules(Pre1503).gif "Regole di tolleranza pagamenti singoli 1")  
+![Regole di tolleranza pagamenti singoli 1.](media/singlePmtTolRules_Pre1503.gif "Regole di tolleranza pagamenti singoli 1")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -136,7 +136,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza pagamenti singoli 2](media/singlePmtTolRules(GracePeriod).gif "Regole di tolleranza pagamenti singoli 2")  
+![Regole di tolleranza pagamenti singoli 2.](media/singlePmtTolRules_GracePeriod.gif "Regole di tolleranza pagamenti singoli 2")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -147,7 +147,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza pagamenti singoli 3](media/singlePmtTolRules(Post0120).gif "Regole di tolleranza pagamenti singoli 3")  
+![Regole di tolleranza pagamenti singoli 3.](media/singlePmtTolRules_Post0120.gif "Regole di tolleranza pagamenti singoli 3")  
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -167,38 +167,38 @@ Gli scenari con l'alternativa A, B, C o D rappresentano quanto segue:
 - **C**: in questo caso l'utente ha attivato l'avviso e ha scelto di consentire lo sconto sul pagamento in ritardo nella prima fattura ma non nella seconda.  
 - **D**: in questo caso l'utente ha attivato l'avviso e ha scelto di non consentire lo sconto sul pagamento in ritardo nella prima fattura ma di consentirlo nella seconda.  
 
-|-|Mag.|Sconto Pag.|Max Toll. Pag.|Data Sconto Pag.|Data Toll. Data|Data Pagamento|Pag.|Tipo Tolleranza|Tutti i Movimenti Chiusi|Data Toll. Mov. Cli.|Toll. Pag. C/G|  
+|-|Mag.|Sconto pagamento|Tolleranza pagamento massima|Data sconto pagamento|Data tolleranza sconto pagamento|Data Pagamento|Pagamento|Tipo Tolleranza|Tutti i Movimenti Chiusi|Tolleranza sconto pagamento CG/CL|Tolleranza pagamento C/G|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
-|1|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1920|Toll. Pag.|Sì|0<br /><br /> 0|-5 <br />-5|  
+|1|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1920|PaymentTolerance|Sì|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**<=15/01/03**|**1910**|**Nessuno**|**Sì**|**0**<br /><br /> **0**|0 <br />0|  
-|3|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1900|Toll. Pag.|Sì|0<br /><br /> 0|5 <br />5|  
-|4B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1980|Toll. Pag.|Sì|0<br /><br /> 0|-5<br /><br /> -5|  
+|3|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1900|PaymentTolerance|Sì|0<br /><br /> 0|5 <br />5|  
+|4B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1980|PaymentTolerance|Sì|0<br /><br /> 0|-5<br /><br /> -5|  
 |**5B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**16/01/03 – 17/01/03**|**1970**|**Nessuno**|**Sì**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|6B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1960|Toll. Pag.|Sì|0<br /><br /> 0|5<br /><br /> 5|  
-|7A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1920|Toll. Sconto Pag. Toll. Pag.|Sì|60/60<br /><br /> 0/0|-5 <br />-5|  
-|8A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1910|Toll. Sconto Pag.|Sì|60/60<br /><br /> 0/0|0 <br />0|  
-|9A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1900|Toll. Sconto Pag. Toll. Pag.|Sì|60/60|5 <br />5|  
-|10B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|2010|Toll. Pag.|Sì|0<br /><br /> 0|-5<br /><br /> -5|  
+|6B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1960|PaymentTolerance|Sì|0<br /><br /> 0|5<br /><br /> 5|  
+|7A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1920|PaymentDiscountTolerance e PaymentTolerance|Sì|60/60<br /><br /> 0/0|-5 <br />-5|  
+|8A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1910|PaymentDiscountTolerance|Sì|60/60<br /><br /> 0/0|0 <br />0|  
+|9A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|16/01/03 17/01/03|1900|PaymentDiscountTolerance e PaymentTolerance|Sì|60/60|5 <br />5|  
+|10B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|2010|PaymentTolerance|Sì|0<br /><br /> 0|-5<br /><br /> -5|  
 |**11B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**18/01/03 – 20/01/03**|**2000**|**Nessuno**|**Sì**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|12B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1990|Toll. Pag.|Sì|0<br /><br /> 0|5<br /><br /> 5|  
-|13D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1980|Toll. Sconto Pag. Toll. Pag.|Sì|0/0<br /><br /> 30/-30|-5 <br />-5|  
-|14D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1970|Toll. Sconto Pag.|Sì|0/0<br /><br /> 30/-30|0 <br />0|  
-|15D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1960|Toll. Sconto Pag. Toll. Pag.|Sì|0/0<br /><br /> 30/-30|5 <br />5|  
-|16D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1950|Toll. Sconto Pag. Toll. Pag.|Sì|60/-60<br /><br /> 0/0|-5 <br />-5|  
-|17D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1940|Toll. Sconto Pag.|Sì|60/-60<br /><br /> 0/0|0 <br />0|  
-|18D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1930|Toll. Sconto Pag. Toll. Pag.|Sì|60/-60<br /><br /> 0/0|5 <br />5|  
-|19A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1920|Toll. Sconto Pag. Toll. Pag.|Sì|60/-60<br /><br /> 30/-30|-5 <br />-5|  
-|20A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1910|Toll. Sconto Pag.|Sì|60/-60<br /><br /> 30/-30|0 <br />0|  
-|21A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1900|Toll. Sconto Pag. Toll. Pag.|Sì|60/-60<br /><br /> 30/-30|5 <br />5|  
-|22B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|2010|Toll. Pag.|Sì|0<br /><br /> 0|-5<br /><br /> -5|  
+|12B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1990|PaymentTolerance|Sì|0<br /><br /> 0|5<br /><br /> 5|  
+|13D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1980|PaymentDiscountTolerance e PaymentTolerance|Sì|0/0<br /><br /> 30/-30|-5 <br />-5|  
+|14D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1970|PaymentDiscountTolerance|Sì|0/0<br /><br /> 30/-30|0 <br />0|  
+|15D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1960|PaymentDiscountTolerance e PaymentTolerance|Sì|0/0<br /><br /> 30/-30|5 <br />5|  
+|16D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1950|PaymentDiscountTolerance e PaymentTolerance|Sì|60/-60<br /><br /> 0/0|-5 <br />-5|  
+|17D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1940|PaymentDiscountTolerance|Sì|60/-60<br /><br /> 0/0|0 <br />0|  
+|18D|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1930|PaymentDiscountTolerance e PaymentTolerance|Sì|60/-60<br /><br /> 0/0|5 <br />5|  
+|19A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1920|PaymentDiscountTolerance e PaymentTolerance|Sì|60/-60<br /><br /> 30/-30|-5 <br />-5|  
+|20A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1910|PaymentDiscountTolerance|Sì|60/-60<br /><br /> 30/-30|0 <br />0|  
+|21A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|18/01/03 20/01/03|1900|PaymentDiscountTolerance e PaymentTolerance|Sì|60/-60<br /><br /> 30/-30|5 <br />5|  
+|22B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|2010|PaymentTolerance|Sì|0<br /><br /> 0|-5<br /><br /> -5|  
 |**23B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**21/01/03 – 22/01/03**|**2000**|**Nessuno**|**Sì**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|24B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1990|Toll. Pag.|Sì|0<br /><br /> 0|5<br /><br /> 5|  
-|25A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1980|Toll. Sconto Pag. Toll. Pag.|Sì|0/0<br /><br /> 30/30|-5 <br />-5|  
-|26A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1970|Toll. Sconto Pag.|Sì|0/0<br /><br /> 30/30|0 <br />0|  
-|27A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1960|Toll. Sconto Pag. Toll. Pag.|Sì|0/0<br /><br /> 30/30|5 <br />5|  
-|28|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|2010|Toll. Pag.|Sì|0|-5|  
+|24B|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1990|PaymentTolerance|Sì|0<br /><br /> 0|5<br /><br /> 5|  
+|25A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1980|PaymentDiscountTolerance e PaymentTolerance|Sì|0/0<br /><br /> 30/30|-5 <br />-5|  
+|26A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1970|PaymentDiscountTolerance|Sì|0/0<br /><br /> 30/30|0 <br />0|  
+|27A|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|21/01/03 22/01/03|1960|PaymentDiscountTolerance e PaymentTolerance|Sì|0/0<br /><br /> 30/30|5 <br />5|  
+|28|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|2010|PaymentTolerance|Sì|0|-5|  
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**>22/01/03**|**2000**|**Nessuno**|**Sì**|**0**|**0**|  
-|30|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|Toll. Pag.|Sì|0|5|  
+|30|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|PaymentTolerance|Sì|0|5|  
 
 ### <a name="payment-range-diagrams"></a>Diagrammi dell'intervallo di pagamento  
 I diagrammi degli intervalli di pagamento per lo scenario sopra illustrato sono:  
@@ -208,7 +208,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 1](media/multiplePmtTolRules(Pre1503).gif "Regole di tolleranza per più pagamenti 1")  
+:::image type="content" source="media/multiplePmtTolRules_Pre1503.gif" alt-text="Regole di tolleranza per più pagamenti 1a":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -219,7 +219,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regole di tolleranza per più pagamenti 2")  
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1-2.gif" alt-text="Regole di tolleranza per più pagamenti 2":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -230,7 +230,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Regole di tolleranza per più pagamenti 3")  
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1.gif" alt-text="Regole di tolleranza per più pagamenti 3":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -241,7 +241,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Regole di tolleranza per più pagamenti 4")  
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv2.gif" alt-text="Regole di tolleranza per più pagamenti 4":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -252,7 +252,7 @@ Importo residuo in base a
 
 regole di collegamento normali  
 
-![Regole di tolleranza per più pagamenti 5](media/multiplePmtTolRules(Post0122).gif "Regole di tolleranza per più pagamenti 5")  
+:::image type="content" source="media/multiplePmtTolRules_Post0122.gif" alt-text="Regole di tolleranza per più pagamenti 5":::
 
 (1) Se il pagamento ricade in questi intervalli, tutti i movimenti di collegamento possono essere chiusi con o senza tolleranza.  
 
@@ -262,4 +262,7 @@ regole di collegamento normali
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

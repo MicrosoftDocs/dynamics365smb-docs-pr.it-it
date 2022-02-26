@@ -1,38 +1,39 @@
 ---
-title: Esportare i dati di Business Central in Excel | Documenti Microsoft
+title: Esportare i dati di Business Central in Excel
 description: È possibile esportare i report finanziari e i dati di Business Intelligence da Business Central in Excel o aprire i dati di Business Central in Excel.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 05/04/2020
+ms.search.form: 9901
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 078b3988feb2d6e11d0601ca5aae48cdc5e6f893
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333886"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012008"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
-Se si desidera utilizzare i dati di [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
+Se si desidera utilizzare i dati di [!INCLUDE[prod_short](includes/prod_short.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
 
 ## <a name="opening-lists-in-excel"></a>Aprire gli elenchi in Excel
 È possibile visualizzare i dati in Excel da qualsiasi registrazione, elenco o foglio di lavoro. Aprire la pagina che si desidera quindi scegliere **Apri in Excel**. Ad esempio, aprire l'elenco dei clienti (cercare **Clienti**) quindi scegliere **Apri in Excel**. Il browser chiederà conferma dell'apertura o del salvataggio della cartella di lavoro di Excel generata.  
 
 > [!NOTE]
-> Utilizzare questa opzione se non si desidera apportare modifiche e pubblicare di nuovo tali modifiche su [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> Utilizzare questa opzione se non si desidera apportare modifiche e pubblicare di nuovo tali modifiche su [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Ogni elenco include una serie di colonne e l'esportazione in Excel includerà tutte le colonne che sono incluse nella visualizzazione corrente. Se si desidera aggiungere o rimuovere colonne prima di aprire l'elenco in Excel, è sufficiente aprire il menu di scelta rapida per qualsiasi colonna e specificare le colonne che si desidera visualizzare. L'elenco delle colonne è diverso dalla maggior parte degli elenchi e riflette la struttura del database in cui i dati sono archiviati. Se non si è certi di tipo di dati contenuti in una determinata colonna, è possibile aggiungerla alla visualizzazione e quindi decidere di rimuoverlo di nuovo eventualmente.  
 
 ### <a name="edit-data-in-excel"></a>Modifica dei dati in Excel
-L'esperienza [!INCLUDE[d365fin](includes/d365fin_md.md)] include un componente aggiuntivo per Excel in modo da poter modificare i dati in Excel. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
+L'esperienza [!INCLUDE[prod_short](includes/prod_short.md)] include un componente aggiuntivo per Excel in modo da poter modificare i dati in Excel. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Esportare i dati in altri sistemi contabili
-Se si decide di annullare la sottoscrizione a [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile esportare i dati in Excel e averli a disposizione nel sistema finanziario.  
+Se si decide di annullare la sottoscrizione a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile esportare i dati in Excel e averli a disposizione nel sistema finanziario.  
 
 È possibile esportare tutte le pagine, naturalmente, ma potrebbe essere più di quanto effettivamente necessario. Prendere in considerazione di esportare le seguenti pagine essenziali e ricordarsi di aggiungere tutte le colonne come descritto in precedenza:  
 
@@ -64,7 +65,7 @@ Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una gran
 * Agenti  
 
 > [!NOTE]  
-> Se è stata impostata più di uno società in [!INCLUDE[prodshort](includes/prodshort.md)], è necessario esportare i dati relativi a ogni società.
+> Se è stata impostata più di uno società in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario esportare i dati relativi a ogni società.
 
 > [!NOTE]
 > È necessario disporre di almeno una delle seguenti autorizzazioni per aprire o modificare i dati in Excel:
@@ -76,9 +77,12 @@ Per ulteriori informazioni, vedere [Per ottenere una sintesi delle autorizzazion
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
-[Annullamento della sottoscrizione per [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
+[Annullamento della sottoscrizione per [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Finanze](finance.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

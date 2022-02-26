@@ -1,5 +1,5 @@
 ---
-title: Funzionalità aziendali supportate da Business Central | Documenti Microsoft
+title: Funzionalità aziendali supportate da Business Central
 description: Fornisce una panoramica funzionale di tutti i reparti e le funzioni aziendali che sono supportati dalle aree di applicazione, ad esempio Finanze, Magazzino e Project Management.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b54c72614eb3e55d7cc93a0f3f9587f47e0b29d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188759"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588353"
 ---
 # <a name="business-functionality"></a>Funzionalità aziendale
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle proprie esigenze. Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[d365fin](includes/d365fin_md.md)]. Diverse aree di funzionalità aziendale devono essere impostate manualmente. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle proprie esigenze. Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Diverse aree di funzionalità aziendale devono essere impostate manualmente. Gli articoli di [avvio rapido di Business Central](quick-start-business-central.md) possono aiutarti a fare i primi passi per rendere [!INCLUDE [prod_short](includes/prod_short.md)] tuo. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | A | Vedere |
 | --- | --- |
@@ -40,10 +41,15 @@ ms.locfileid: "3188759"
 |Programmare le chiamate di assistenza, impostare ordini di assistenza e tenere traccia dei pezzi di ricambio e delle forniture.|[Gestione assistenza](service-service.md)|
 |Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. La richiesta e la concessione dell'approvazione per creare o registrare i documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|
 |Abilitare gli utenti allo scambio di dati con origini esterne durante le attività quotidiane, ad esempio l'invio e la ricezione di documenti elettronici, l'importazione e l'esportazione di file della banca e l'aggiornamento dei tassi di cambio delle valute.|[Scambio di dati in modalità elettronica](across-data-exchange.md)|
-|Registrare i documenti esterni in [!INCLUDE[d365fin](includes/d365fin_md.md)], inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
+|Registrare i documenti esterni in [!INCLUDE[prod_short](includes/prod_short.md)], inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+
+[Informazioni sulle funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Amministrazione](admin-setup-and-administration.md)  
-[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Preparazione al business](ui-get-ready-business.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

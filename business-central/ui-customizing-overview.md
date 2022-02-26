@@ -1,22 +1,22 @@
 ---
-title: Personalizzazione di Business Central | Documenti di Microsoft
-description: Informazioni sulla personalizzazione di Business Central e sull'aggiunta delle funzionalità.
+title: Personalizzazione di Business Central
+description: Leggi le diverse modalità di personalizzazione di Business Central per migliorare l'accesso alle funzionalità di cui hai più bisogno in base al tuo lavoro quotidiano.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3c70df2d36316337505a0fee3b0872d3ee5d213a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 7294eeb0c03dc1c494ce88e6d4e366b491070acf
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315638"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012763"
 ---
 # <a name="customize-business-central"></a>Personalizzare Business Central
 Sono disponibili diversi metodi per personalizzare l'applicazione per consentire all'utente e ai colleghi di accedere alle funzioni, alle funzionalità e ai dati maggiormente necessari, nel modo più adatto alle proprie attività quotidiane. Gli utenti che possono vedere i cambiamenti dipendono dalle operazioni intraprese, come descritto nella seguente tabella.
@@ -31,9 +31,12 @@ Sono disponibili diversi metodi per personalizzare l'applicazione per consentire
 |Attivare i colori nelle gestioni ruolo utente per segnalare l'importanza.|Impostare le pile che vengono visualizzate nelle gestioni ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori presenti nelle pile.|Tutti gli utenti in una specifica società.|[Impostare un indicatore colorato nelle pile](admin-how-set-up-colored-indicator-on-cues.md)|
 |Installare un'estensione|Le estensioni sono come piccole applicazioni che aggiungono funzionalità, cambiano il comportamento, forniscono l'accesso a nuovi servizi online e molto altro. Ad esempio, Microsoft fornisce un'estensione che consente l'integrazione con PayPal Payments Standard.|Tutti gli utenti in tutte le società.|[Personalizzazione utilizzando le estensioni](ui-extensions.md)|
 > [!NOTE]
-> Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[d365fin](includes/d365fin_md.md)] presuppongono l'esperienza **Premium**, ovvero le descrizioni riguardano l'intero ambito degli elementi dell'interfaccia utente. Di conseguenza, gli utenti con interfaccia **Essential**, in alcuni argomenti potrebbero leggere informazioni su funzionalità ed elementi dell'interfaccia utente che non sono visibili nell'interfaccia utente. Per ulteriori informazioni, vedere
+> Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[prod_short](includes/prod_short.md)] presuppongono l'esperienza **Premium**, ovvero le descrizioni riguardano l'intero ambito degli elementi dell'interfaccia utente. Di conseguenza, gli utenti con interfaccia **Essential**, in alcuni argomenti potrebbero leggere informazioni su funzionalità ed elementi dell'interfaccia utente che non sono visibili nell'interfaccia utente. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 
 ## <a name="see-also"></a>Vedere anche
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,30 +1,30 @@
 ---
 title: 'Dettagli di progettazione: Valutazione di magazzino | Microsoft Docs'
-description: La valutazione di magazzino XE "Valutazione magazzino" è la determinazione del costo assegnato a un articolo di magazzino, espresso dalla seguente equazione.
+description: La valutazione magazzino è la determinazione del costo di un articolo di magazzino.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 674350643495df02548c91700350b6ad27b39cb6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 8d68b2c5f0a1026daeca4f872551cbddcd95b047
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185182"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215055"
 ---
 # <a name="design-details-inventory-valuation"></a>Dettagli di progettazione: Valutazione di magazzino
-La valutazione di magazzino XE "Valutazione magazzino" è la determinazione del costo assegnato a un articolo di magazzino, espresso dalla seguente equazione.  
+La valutazione magazzino è la determinazione del costo assegnato a un articolo di magazzino, espresso dalla seguente equazione.  
 
 Magazzino finale = magazzino iniziale + acquisti netti – costo dei beni venduti  
 
-Il calcolo della valutazione di magazzino utilizza il campo **Importo costo (effettivo)** dei movimenti di valorizzazione per l'articolo. I movimenti vengono classificati in base al tipo di movimento XE "Tipo movimento" che corrisponde ai componenti di costo, al costo diretto, al costo indiretto, allo scostamento, alla rivalutazione e all'arrotondamento. Per ulteriori informazioni, vedere [Dettagli di progettazione: Componenti costo](design-details-cost-components.md).  
+Il calcolo della valutazione di magazzino utilizza il campo **Importo costo (effettivo)** dei movimenti di valorizzazione per l'articolo. I movimenti vengono classificati in base al tipo di movimento che corrisponde ai componenti di costo, al costo diretto, al costo indiretto, allo scostamento, alla rivalutazione e all'arrotondamento. Per ulteriori informazioni, vedere [Dettagli di progettazione: Componenti costo](design-details-cost-components.md).  
 
-I movimenti vengono collegati tra loro, tramite il collegamento fisso XE "Collegamento; fisso" o in base all'ipotesi generale di costo-flusso definita dal metodo di costing XE "Metodo; costing" XE "Metodo di costing". Un movimento di riduzione di magazzino può essere collegato a più di un movimento di aumento con differenti date di registrazione e possibilmente con costi di acquisto diversi XE "Costo di acquisto". Per ulteriori informazioni, vedere [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md). Di conseguenza, il calcolo del valore di magazzino XE "Valore di magazzino" in una specifica data è basato sulla somma dei movimenti di valorizzazione positivi e negativi.  
+I movimenti collegati tra loro, tramite il collegamento fisso o in base all'ipotesi generale di costo-flusso definita dal metodo di costing. Un movimento di riduzione di magazzino può essere collegato a più di un movimento di aumento con differenti date di registrazione e possibilmente con costi di acquisto diversi. Per ulteriori informazioni, vedere [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md). Di conseguenza, il calcolo del valore di magazzino in una specifica data è basato sulla somma dei movimenti di valorizzazione positivi e negativi.  
 
 ## <a name="inventory-valuation-report"></a>Report Valutazione magazzino  
 Per calcolare il valore di magazzino nel report **Valutazione magazzino**, il report inizia calcolando il valore del magazzino dell'articolo alla data di inizio specificata. Aggiunge quindi gli aumenti del valore di magazzino e sottrae le diminuzioni del valore di magazzino fino a una data finale specificata. Il risultato finale è il valore di magazzino alla data di fine. Il report calcola questi valori sommando i valori nel campo **Importo costo (effettivo)** nei movimenti di valorizzazione, utilizzando le date di registrazione come filtri.  
@@ -58,4 +58,7 @@ Lo scopo della valutazione di magazzino WIP consiste nel determinare il valore d
 [Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md)
 [ Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

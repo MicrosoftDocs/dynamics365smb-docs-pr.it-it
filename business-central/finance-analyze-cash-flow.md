@@ -1,26 +1,25 @@
 ---
-title: Analisi dei flussi di cassa| Documenti Microsoft
+title: Analisi dei flussi di cassa
 description: Descrive l'utilizzo dei grafici Ciclo di cassa, Entrate e uscite, Flusso di cassa e Previsione flusso di cassa per analizzare i flussi di denaro passati e futuri in entrata e in uscita dalla società.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2020
+ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5a13d461bd4764173e7d674ef35f5fa32f11318b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f7edf7f1b878f6647b123c956531313317f3bb15
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184006"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973572"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analizzare il flusso di cassa dell'azienda
-Il contante riveste un ruolo fondamentale in azienda. I grafici di Gestione ruolo utente Contabile forniscono informazioni utili per prendere decisioni informate sulla gestione dei contanti.  
+I grafici di Gestione ruolo utente Contabile forniscono informazioni utili per prendere decisioni informate sulla gestione dei contanti.  
 
 | Per risposte a domande simili alle seguenti | Utilizzare questo grafico |
 | --- | --- |
@@ -45,6 +44,7 @@ Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibil
 * Salta gli ordini di vendita e di acquisto doppi.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Per visualizzare un prospetto flusso di cassa
+
 1. Cercare **Previsioni flusso di cassa**, quindi selezionare il collegamento correlato.  
 2. Scegliere una previsione flusso di cassa quindi scegliere l'azione **Prospetto flussi di cassa**.  
 3. Nella pagina **Prospetto flusso di cassa** scegliere l'azione **Suggerisci righe prospetto**.  
@@ -52,6 +52,11 @@ Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibil
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md)  
+[Previsione del flusso di cassa in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Configurare le previsioni del flusso di cassa usando l'intelligenza artificiale di Azure in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

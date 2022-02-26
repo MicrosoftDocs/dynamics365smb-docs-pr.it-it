@@ -3,24 +3,24 @@ title: Mapping dei campi durante l'importazione dei file SEPA CAMT | Microsoft D
 description: Nei mercati europei è possibile importare i file del rendiconto bancario negli standard SEPA (Single Euro Payments Area) locali.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0ddc987b1dd27cf2379b128aa735a78bacb868da
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 567b77764aeacec84ef7577ed94f74dd6b6acc64
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188638"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776099"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Mapping dei campi durante l'importazione dei file SEPA CAMT
-[!INCLUDE[d365fin](includes/d365fin_md.md)]La versione generica di  supporta gli standard SEPA (Single Euro Payments Area)per l'importazione dei rendiconti bancari SEPA (formato CAMT). Per ulteriori informazioni, vedere [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta gli standard SEPA (Single Euro Payments Area)per l'importazione dei rendiconti bancari SEPA (formato CAMT). Per ulteriori informazioni, vedere [Uso dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
- Lo standard SEPA CAMT include di per sé variazioni locali. Di conseguenza, è possibile che si debba modificare la definizione di scambio dati generica (rappresentata dal codice **SEPA CAMT** nella pagina **Registrazione definizioni di scambio**) per adattarla a una variazione locale dello standard. Nelle seguenti tabelle viene mostrato il mapping tra elementi e campi per le tabelle 81, 273 e 274 nell'implementazione SEPA CAMT in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Lo standard SEPA CAMT include di per sé variazioni locali. Di conseguenza, è possibile che si debba modificare la definizione di scambio dati generica (rappresentata dal codice **SEPA CAMT** nella pagina **Registrazione definizioni di scambio**) per adattarla a una variazione locale dello standard. Nelle seguenti tabelle viene mostrato il mapping tra elementi e campi per le tabelle 81, 273 e 274 nell'implementazione SEPA CAMT in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Per informazioni sulla creazione o la modifica della definizione di scambio dati, vedere [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,10 +57,17 @@ ms.locfileid: "3188638"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Non strutturato|Testo|Informazioni fornite per consentire la corrispondenza o riconciliazione di un movimento con gli articoli oggetto del pagamento, come le fatture aziendali in un sistema conto clienti, in un form non strutturato||6|Descrizione|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Testo|Informazioni aggiuntive relative al movimento||16|Informazioni sulla transazione|  
 
- Gli elementi nel nodo **Ntry** importati in [!INCLUDE[d365fin](includes/d365fin_md.md)], ma di cui non è stato eseguito il mapping ad alcun campo, vengono memorizzati nella tabella **Registrazione definizione colonna scambio dati**. Gli utenti possono vedere gli elementi nelle pagine **Registrazione riconciliazione pagamenti**, **Collegamento pagamenti** e **Riconciliazioni C/C bancari** scegliendo l'azione **Dettagli riga rendiconto bancario**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).  
+ Gli elementi nel nodo **Ntry** importati in [!INCLUDE[prod_short](includes/prod_short.md)], ma di cui non è stato eseguito il mapping ad alcun campo, vengono memorizzati nella tabella **Registrazione definizione colonna scambio dati**. Gli utenti possono vedere gli elementi nelle pagine **Registrazione riconciliazione pagamenti**, **Collegamento pagamenti** e **Riconciliazioni C/C bancari** scegliendo l'azione **Dettagli riga rendiconto bancario**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
+
+> [!IMPORTANT]
+> In un'importazione di estratti conto bancari CAMT, [!INCLUDE[prod_short](includes/prod_short.md)] si aspetta che ogni transazione sia univoca, ossia il campo **ID transazione** che proviene dal tag *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* nel file CAMT, deve essere univoco all'interno della riconciliazione del C/C bancario aperto. Se le informazioni non sono presenti, [!INCLUDE[prod_short](includes/prod_short.md)] ignora il pagamento. Se una riconciliazione bancaria precedente sullo stesso C/C bancario è stata registrata con lo stesso ID transazione dell'importazione corrente, la transazione corrente non verrà riconciliata automaticamente ma potrà comunque essere importata.
+
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
 [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

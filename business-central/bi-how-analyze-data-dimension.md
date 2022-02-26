@@ -1,23 +1,23 @@
 ---
-title: Analizzare i dati per dimensioni| Documenti Microsoft
-description: Descrive come analizzare i diversi dati aziendali per dimensioni.
+title: Analizzare i dati per dimensioni
+description: Questo argomento descrive come analizzare i diversi dati aziendali per dimensioni. Le dimensioni ti offrono una visione più approfondita della tua attività in modo da poter valutare le informazioni.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: edupont
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d97b2cc8070da10de51da1ee43acb9ede4bb5601
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 9637aabd44f0714983a5d0ce129bf5bc9f1eaee4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186070"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437078"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analizzare i dati per dimensioni
 Nelle analisi finanziarie, una dimensione corrisponde ai dati che è possibile aggiungere a un movimento come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Le dimensioni possono essere utilizzate per i movimenti nelle registrazioni, nei documenti e nei. Con il termine dimensione viene descritta la modalità di esecuzione dell'analisi. Un'analisi bidimensionale, ad esempio, corrisponde a vendite per area. Creando tuttavia più di due dimensioni quando si crea un movimento, è possibile eseguire analisi molto più complesse, ad esempio vendite per campagna di vendita per gruppo di clienti per area. Per ulteriori informazioni, vedere [Utilizzo delle dimensioni](finance-dimensions.md).
@@ -27,10 +27,13 @@ L'analisi dei dati per dimensioni consente di ottenere informazioni più dettagl
 > [!TIP]
 > Un modo rapido per analizzare i dati transazionali in base alle dimensioni consiste nel filtrare i totali nel piano dei conti e le voci in tutte le pagine **Voci** in base alle dimensioni. Cercare l'azione **Imposta filtro dimensione**.
 
+> [!NOTE]
+> Se scopri che è stata utilizzata una dimensione errata nei movimenti di contabilità generale registrati, puoi correggere i valori delle dimensioni e aggiornare le visualizzazioni di analisi. Per ulteriori informazioni, vedere [Risoluzione dei problemi e correzione delle dimensioni](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
+
 ## <a name="to-set-up-an-analysis-view"></a>Per impostare una visualizzazione analisi  
 Un'analisi basata sulle dimensioni consente di visualizzare una combinazione selezionata di dimensioni. È possibile archiviare e in seguito recuperare ogni analisi che viene impostata. Le informazioni relative all'impostazione di un'analisi sono memorizzate nella scheda di **visualizzazione analisi**, per semplificare le analisi successive.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Visualizzazioni analisi** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Visualizzazioni analisi**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Lista visualizzazione analisi** scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Per aggiungere altri codici di dimensione ai quattro disponibili nella Scheda dettaglio **Dimensioni**, scegliere l'azione **Filtro**, compilare i campi e scegliere il pulsante **OK**.  
@@ -39,7 +42,7 @@ Un'analisi basata sulle dimensioni consente di visualizzare una combinazione sel
 ## <a name="to-analyze-by-dimensions"></a>Per analizzare per dimensioni
 È possibile utilizzare la matrice **Analisi per dimensioni** per visualizzare gli importi della contabilità generale utilizzando le visualizzazioni analisi precedentemente impostate. Impostare la pagina **Analisi per dimensioni** per definire gli elementi visualizzati nella matrice, quindi scegliere l'azione **Mostra matrice** per visualizzare la matrice.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Visualizzazioni analisi** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Visualizzazioni analisi**, quindi scegli il collegamento correlato.  
 2. Selezionare la visualizzazione di analisi desiderata e scegliere l'azione **Analisi per dimensioni**.
 3. All'inizio della pagina **Analisi vendite per dimensioni**, compilare i campi per definire quali dati sono visualizzati e come.
 4. Scegliere l'azione **Mostra matrice** per aprire la pagina della matrice rispettiva per la visualizzazione analisi definita.
@@ -62,7 +65,7 @@ Gli importi visualizzati nella pagina **Analisi per dimensioni** forniscono un'i
 
 La seguente procedura indica come aggiornare una visualizzazione analisi dalla pagina **Analisi per Dimensioni**. I passaggi sono simili a quelli delle pagine **Scheda visualizzazione analisi** e **Lista visualizzazione analisi**.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Visualizzazioni analisi** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Visualizzazioni analisi**, quindi scegli il collegamento correlato.
 2. Selezionare la visualizzazione di analisi desiderata e scegliere l'azione **Analisi per dimensioni**.
 2. Nella finestra **Analisi per dimensioni**, selezionare il campo **Codice visual. analisi**.  
 3. Selezionare la riga con la visualizzazione analisi desiderata.  
@@ -82,4 +85,7 @@ La seguente procedura indica come aggiornare una visualizzazione analisi dalla p
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Utilizzo delle dimensioni](finance-dimensions.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

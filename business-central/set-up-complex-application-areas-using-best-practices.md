@@ -3,26 +3,26 @@ title: Impostare aree di applicazione complesse utilizzando le procedure ottimal
 description: Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a09a438a7683cafb8f68eb793bdde2b93fa64409
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: dc9ed598938ff0bb4782e9f01aa6d35eaa9b610e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192341"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778124"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Impostare aree di applicazione complesse utilizzando le procedure ottimali
 Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio.  
 
  Se si utilizza Avvio rapido per implementare i valori di setup o questi vengono immessi manualmente nella nuova società, è possibile supportare le decisioni di setup con alcuni consigli generali per i campi di setup selezionati che potrebbero provocare la mancata efficacia della soluzione se definiti in modo errato.  
 
- Nella guida di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono incluse informazioni con la procedura consigliata relative alla modalità di impostazione dei campi nelle seguenti area di applicazione:  
+ Nella guida di [!INCLUDE[prod_short](includes/prod_short.md)] sono incluse informazioni con la procedura consigliata relative alla modalità di impostazione dei campi nelle seguenti area di applicazione:  
 
 -   [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
 
@@ -31,7 +31,10 @@ Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

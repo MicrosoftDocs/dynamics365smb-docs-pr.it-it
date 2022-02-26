@@ -1,21 +1,21 @@
 ---
-title: Assemblaggio su ordine o assemblaggio per magazzino | Microsoft Docs
+title: Assemblaggio su ordine e assemblaggio per magazzino
 description: Gli articoli di assemblaggio possono essere approvvigionati assemblandoli quando vengono ordinati o assemblandoli per essere conservati in magazzino fino a quando non vengono richiesti in un ordine di vendita.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: bholtorf
+ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186814"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011180"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Assemblaggio su ordine e assemblaggio per magazzino
 Gli articoli di assemblaggio possono essere forniti nei seguenti due processi:  
@@ -66,26 +66,38 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 
  Tuttavia, negli scenari di combinazione, il valore completo del campo **Qtà da spedire** non viene copiato nel campo **Quantità da assemblare** nell'intestazione dell'ordine di assemblaggio. Viene invece inserito un valore di default nel campo **Quantità da assemblare** calcolato in base al campo **Qtà da spedire** secondo una regola predefinita che assicura che vengano spedite prima le quantità per l'assemblaggio su ordine.  
 
- Se si desidera deviare da questa impostazione di default, ad esempio perché si desidera assemblare solo una quantità maggiore o minore di quella specificata nel campo **Qtà da spedire**, è possibile modificare il campo **Quantità da assemblare**, ma esclusivamente in base a regole predefinite, come illustrato di seguito  
+ Se si desidera deviare da questa impostazione di default, ad esempio perché si desidera assemblare solo una quantità maggiore o minore di quella specificata nel campo **Qtà da spedire**, è possibile modificare il campo **Quantità da assemblare**, ma esclusivamente in base a regole predefinite, come illustrato di seguito.  
 
  Un esempio del motivo per cui è consigliabile modificare la quantità da assemblare è la possibilità di registrare parzialmente la spedizione di quantità di magazzino prima che possa essere spedito l'output di assemblaggio.  
 
- Di seguito sono illustrate le regole che definiscono i valori minimo e massimo che è possibile immettere manualmente in **Quantità da assemblare** per deviare dal valore di default in uno scenario di combinazione. La tabella viene visualizzata in uno scenario di combinazione in cui il campo **Qtà da spedire** nella riga ordine di vendita collegato viene modificato da 7 a 4 e nel campo **Quantità da assemblare** viene immesso di default il valore 4.  
+ Le seguenti tabelle illustrano le regole che definiscono i valori minimo e massimo che è possibile immettere nel campo **Quantità da assemblare** per deviare dal valore di default in uno scenario di combinazione. La tabella viene visualizzata in uno scenario di combinazione in cui il campo **Qtà da spedire** nella riga ordine di vendita collegato viene modificato da 7 a 4 e nel campo **Quantità da assemblare** viene immesso di default il valore 4.  
 
-||Riga ordine vendita|Testata ordine di assemblaggio|  
-|-|----------------------|---------------------------|  
-||**Quantità**|**Qtà da spedire**|**Qtà per assemblaggio su ordine**|**Quantità spedita**|**Quantità**|**Quantità da assemblare**|**Quantità assemblata**|**Quantità residua**|  
-|Iniziale|10|7|7|0|7|7|0|7|  
-|Cambia||4||||4 (immesso di default)|||  
+- Riga ordine vendita
 
- Sulla base della situazione precedente, è possibile modificare soltanto il campo **Quantità da assemblare** come segue:  
+    |                | **Quantità** | **Qtà da spedire** | **Qtà per assemblaggio su ordine** | **Quantità spedita** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Valore iniziale**| 10          | 7                | 7                             | 0                    |
+    |**Modifica**      |              | 4                |                               |                      |
 
--   La quantità minima che è possibile immettere è 1. Ciò avviene in quanto è necessario assemblare almeno un'unità per poter vendere le quattro unità, presupponendo che le tre restanti siano disponibili in magazzino.  
--   La quantità massima che è possibile immettere è 4. Questo avviene per garantire che non sia assemblata una quantità di questo articolo di assemblaggio su ordine maggiore della quantità richiesta per la vendita.  
+- Testata ordine di assemblaggio
 
-## <a name="see-also"></a>Vedi anche  
+    |                | **Quantità** | **Qtà da spedire** | **Qtà per assemblaggio su ordine** | **Quantità spedita** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Valore iniziale**| 7           | 7                | 0                             | 7                    |
+    |**Modifica**      |              | 4 (immesso di default)|                         |                      |
+
+Sulla base di questo esempio, è possibile modificare soltanto il campo **Quantità da assemblare** come segue:  
+
+- La quantità minima che è possibile immettere è 1. Ciò avviene in quanto è necessario assemblare almeno un'unità per poter vendere le quattro unità, presupponendo che le tre restanti siano disponibili in magazzino.  
+- La quantità massima che è possibile immettere è 4. Questo avviene per garantire che non sia assemblata una quantità di questo articolo di assemblaggio su ordine maggiore della quantità richiesta per la vendita.  
+
+## <a name="see-also"></a>Vedi anche
+
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

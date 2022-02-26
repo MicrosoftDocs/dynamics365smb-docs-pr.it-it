@@ -1,23 +1,22 @@
 ---
-title: Panoramica delle attività di chiusura dei registri | Documenti Microsoft
+title: Panoramica delle attività di chiusura dei registri
 description: Informazioni sul processo di chiusura dei registri contabili per un anno fiscale o un periodo e su cosa accade dopo la chiusura di un anno.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+m.search.form: 100
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: db4ec1033a830cb72b602691797d2b1ff637c2e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 224d1886987184e6ebdb3cc1434c64454d383678
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310110"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011337"
 ---
 # <a name="closing-the-books"></a>Chiusura dei registri
 Dopo avere verificato che tutti i conti sono aggiornati e assegnato costi ed entrate, è possibile chiudere i registri per un anno fiscale o un periodo.
@@ -53,6 +52,10 @@ Viene quindi generato un movimento di chiusura, che non viene però registrato a
 
 È possibile effettuare registrazioni in un anno fiscale precedente, anche dopo la chiusura dei conti economici, se, successivamente, si esegue di nuovo il processo batch Chiudi conto economico.
 
-## <a name="see-also"></a>Vedi anche
-[Aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a>Vedere anche
+
+[Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,19 +3,19 @@ title: 'Dettagli di progettazione: Domanda e approvvigionamento | Microsoft Docs
 description: Questo argomento introduce il concetto di domanda, ovvero il termine comune utilizzato per tutti i tipi di domanda lorda, ad esempio un ordine di vendita e un componente necessario da un ordine di produzione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f808865bd4fc2113dd5c04071f7ba2e8793fe3af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 62abcd0e37a9871efd6158a898538b7c18b6b47f
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185566"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215330"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Dettagli di progettazione: Domanda nell'ubicazione Vuota
 Quando un utente crea un evento di domanda, ad esempio una riga dell'ordine di vendita, il programma consente a volte all'utente di specificare un codice ubicazione e in altre non lo consente, ovvero viene utilizzata un'ubicazione vuota.
@@ -132,3 +132,6 @@ Come illustrato nell'ultimo scenario, l'unico modo per ottenere un risultato cor
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

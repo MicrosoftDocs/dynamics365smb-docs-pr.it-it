@@ -1,21 +1,21 @@
 ---
-title: 'Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo | Microsoft Docs'
-description: Informazioni su come utilizzare i movimenti contabili articoli come vettori principali dei numeri di tracciabilità articolo.
+title: Dettagli di progettazione - Struttura di registrazione di tracciabilità articolo
+description: Informazioni su come utilizzare i movimenti contabili articoli come vettori principali dei numeri di tracciabilità articolo nella Struttura di registrazione di tracciabilità articolo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5fc178585579d4f4f8b253ecdb696964993e09c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 186f4d88fe7fe2b772ec579727fd62d4985c0cf9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184990"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320341"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo
 Per conformità con la funzionalità di costing di magazzino e per ottenere una soluzione più semplice e più affidabile, i movimenti contabili articoli vengono utilizzati come principali vettori dei numeri di tracciabilità articolo.  
@@ -48,3 +48,5 @@ La Codeunit 22 esegue il ciclo tramite i numeri di tracciabilità articolo e sud
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)   
 [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

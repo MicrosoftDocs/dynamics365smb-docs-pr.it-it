@@ -1,25 +1,25 @@
 ---
-title: 'Procedura dettagliata: Pianificazione manuale degli approvvigionamenti | Documenti Microsoft'
-description: La presente procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare una nuova domanda. È possibile avviare la pianificazione dell'approvvigionamento a intervalli fissi, ad esempio ogni mattina o ogni lunedì, oppure su notifica del personale di vendita o di produzione.
+title: Procedura dettagliata - Pianificazione manuale degli approvvigionamenti
+description: Questa procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare la nuova domanda, inclusa la pianificazione di un ordine di acquisto, trasferimento e produzione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876969"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438995"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedura dettagliata: Pianificazione manuale degli approvvigionamenti
 
-**Nota**: questa procedura dettagliata deve essere eseguita in una società demo con l'opzione **Valutazione completa - Completo dati di esempio**, che è disponibile nell'ambiente sandbox. Per ulteriori informazioni, vedere [Creare un ambiente sandbox](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 La presente procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare una nuova domanda. È possibile avviare la pianificazione dell'approvvigionamento a intervalli fissi, ad esempio ogni mattina o ogni lunedì, oppure su notifica del personale di vendita o di produzione. Nella procedura dettagliata viene impiegata a tal fine la pagina **Pianificazione ordini**, un semplice strumento di pianificazione degli approvvigionamenti che prevede la decisione e l'intervento manuale dell'utente anziché utilizzare parametri predefiniti per la pianificazione automatica.  
 
@@ -38,10 +38,10 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 -   Gestore degli ordini di vendita  
 
 ## <a name="prerequisites"></a>Prerequisiti  
- Prima di iniziare questa procedura dettagliata, occorre installare [!INCLUDE[d365fin](includes/d365fin_md.md)]. Le seguenti modifiche devono essere apportate al database:  
+ Prima di iniziare questa procedura dettagliata, occorre installare [!INCLUDE[prod_short](includes/prod_short.md)]. Le seguenti modifiche devono essere apportate al database:  
 
 -   Eliminare tutti gli ordini di biciclette esistenti  
--   Creare un ordine di vendita per 10 biciclette per l'ubicazione BLU  
+-   Creare un ordine di vendita per 10 biciclette per l'ubicazione EST.  
 -   Eliminare tutti gli ordini di produzione confermati e pianificati. Non eliminare gli ordini avviati con movimenti già registrati.  
 
  Come regola generale, si raccomanda di utilizzare i dati suggeriti nella procedura perché dispongono dei record necessari.  
@@ -67,7 +67,7 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
 ### <a name="to-use-the-order-planning-page"></a>Per utilizzare la pagina Pianificazione ordini  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pianificazione ordini** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pianificazione ordini**, quindi scegli il collegamento correlato.  
 
      Alla prima apertura della pagina **Pianificazione ordini**, è necessario calcolare un piano per mostrare la nuova domanda dall'ultimo calcolo.  
 
@@ -148,7 +148,7 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 4.  Fare clic su **OK** per prenotare i dieci articoli disponibili.  
 
     > [!NOTE]  
-    >  Nella riga di domanda, l'acquisto suggerito è stato sostituito con un trasferimento dall'ubicazione VERDE. La funzione **Crea ordini** genera un ordine di trasferimento dall'ubicazione VERDE all'ubicazione richiesta. Il campo **Esistono sostitutivi** funziona nello stesso modo.  
+    >  Nella riga di domanda, l'acquisto suggerito è stato sostituito con un trasferimento dall'ubicazione PRINCIPALE. La funzione **Crea ordini** genera un ordine di trasferimento dall'ubicazione PRINCIPALE all'ubicazione richiesta. Il campo **Esistono sostitutivi** funziona nello stesso modo.  
 
 5.  Scegliere l'azione **Crea ordini**. Viene visualizzata la pagina **Crea ordini approvvigionamento**.  
 6.  Nella Scheda dettaglio **Pianificazione ordini**, nel campo **Crea ordini per**, selezionare l'opzione **Ordine attivo**.  
@@ -225,10 +225,13 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
      Il messaggio indica che tutti gli articoli necessari sono ora approvvigionati. Verificare gli ordini di produzione confermati creati.  
 
-13. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ord. produzione confermati** e quindi scegliere il collegamento correlato.  
+13. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
 
      Nella pagina **Ord. produzione confermati** esaminare la pianificazione delle ore di inizio e di fine dei singoli ordini definita in base alla struttura del prodotto. I componenti di ultimo livello sono prodotti per primi. Di conseguenza, è necessario pianificare ordini multilivello come dimostrato nel flusso di lavoro di pianificazione.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   
- [Procedura dettagliata: Pianificazione automatica degli approvvigionamenti](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

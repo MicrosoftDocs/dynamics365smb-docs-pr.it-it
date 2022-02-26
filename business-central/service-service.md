@@ -1,27 +1,27 @@
 ---
-title: Gestione assistenza | Documenti Microsoft
-description: Informazioni su come utilizzare le funzionalità concepite per supportare l'attività di officine di riparazione e le operazioni di assistenza su campo.
+title: Gestione assistenza
+description: Informazioni su come utilizzare le funzionalità di Business Central progettate per gestire e monitorare l'assistenza per supportare le operazioni di riparazione e assistenza sul campo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6490ad13833c97c79c232b6433b4b2f51e51bc4f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192365"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320083"
 ---
 # <a name="service-management"></a>Gestione assistenza
 > [!NOTE]
 > La funzionalità descritta in questo argomento e negli argomenti secondari è visibile solo se si dispone dell'esperienza **Premium**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 
-Fornire un'assistenza continua ai clienti è un aspetto fondamentale dell'attività di qualsiasi azienda, oltre che una fonte importante di ricavi, ma anche di soddisfazione e lealtà da parte dei clienti. Gestire e tenere traccia dei servizi di assistenza non è tuttavia sempre facile, per questa ragione [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una serie di strumenti in grado di agevolare tali operazioni. Si tratta di strumenti progettati per supportare l'attività di officine di riparazione e di aziende che operano nel settore dell'assistenza, che possono essere utilizzati in svariati scenari di business, tra cui complessi sistemi di distribuzione di assistenza clienti, ambienti di assistenza industriale caratterizzati da distinte di base e numerosi invvi di tecnici di assistenza con requisiti relativi alla gestione dei pezzi di ricambio.  
+Fornire un'assistenza continua ai clienti è un aspetto fondamentale dell'attività di qualsiasi azienda, oltre che una fonte importante di ricavi, ma anche di soddisfazione e lealtà da parte dei clienti. Gestire e tenere traccia dei servizi di assistenza non è tuttavia sempre facile, per questa ragione [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una serie di strumenti in grado di agevolare tali operazioni. Si tratta di strumenti progettati per supportare l'attività di officine di riparazione e di aziende che operano nel settore dell'assistenza, che possono essere utilizzati in svariati scenari di business, tra cui complessi sistemi di distribuzione di assistenza clienti, ambienti di assistenza industriale caratterizzati da distinte di base e numerosi invvi di tecnici di assistenza con requisiti relativi alla gestione dei pezzi di ricambio.  
 
  Questi strumenti consentono di effettuare le operazioni seguenti:  
 
@@ -46,6 +46,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 ## <a name="see-also"></a>Vedi anche  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)   
 [Commesse](projects-how-create-jobs.md)   
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

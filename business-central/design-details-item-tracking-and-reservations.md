@@ -1,23 +1,24 @@
 ---
-title: 'Dettagli di progettazione: Tracciabilità articolo e impegni | Microsoft Docs'
-description: Questo argomento descrive la tracciabilità articolo e gli impegni nonché i relativi concetti.
+title: Dettagli di progettazione - Tracciabilità articolo e impegni
+description: Questo argomento descrive la tracciabilità articolo e gli impegni nonché i concetti delle due opzioni.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: d2c5032983bd20fc1e8fa902bd6ed522506fc5b3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185110"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320890"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Dettagli di progettazione: Tracciabilità articolo e impegni
+
 L'utilizzo simultaneo degli impegni e della tracciabilità articolo specifica è raro, perché entrambi creano un accoppiamento tra approvvigionamento e domanda. Ad eccezione delle situazioni in cui un cliente o un responsabile della pianificazione di produzione richiede un lotto specifico, raramente ha senso impegnare gli articoli di magazzino che già hanno numeri di tracciabilità articolo per un'applicazione specifica. Sebbene sia possibile impegnare gli articoli che richiedono la tracciabilità articolo specifica, è necessaria una funzionalità speciale per evitare conflitti di disponibilità tra i processori di ordine che richiedono gli stessi articoli tracciati.  
   
 Il concetto di combinazione tardiva garantisce che un impegno non specifico di un numero seriale o di lotto rimanga a regime di controllo libero ("loosely-coupled") fino alla registrazione. Al momento della registrazione, il sistema di impegno può rimescolare gli impegni non specifici per garantire che il collegamento fisso sia possibile rispetto al numero seriale o di lotto effettivamente selezionato. Nel frattempo, il numero seriale o di lotto viene reso disponibile per l'impegno specifico in altri documenti che richiedono quel determinato numero seriale o di lotto.  
@@ -25,7 +26,7 @@ Il concetto di combinazione tardiva garantisce che un impegno non specifico di u
 Un impegno non specifico è uno in cui l'utente non si preoccupa di quale articolo specifico è selezionato e un impegno specifico è uno in cui l'utente si preoccupa.  
   
 > [!NOTE]  
->  La funzionalità di combinazione tardiva si riferisce solo agli articoli impostati con tracciabilità articolo specifica e si applica solo a impegni a fronte del magazzino, non rispetto a ordini di approvvigionamento in entrata.  
+> La funzionalità di combinazione tardiva si riferisce solo agli articoli impostati con tracciabilità articolo specifica e si applica solo a impegni a fronte del magazzino, non rispetto a ordini di approvvigionamento in entrata.  
   
 L'impegno dei numeri di tracciabilità articolo rientra in due categorie, come indicato nella tabella seguente.  
   
@@ -35,12 +36,11 @@ L'impegno dei numeri di tracciabilità articolo rientra in due categorie, come i
 |Non specifico|Non si seleziona un numero seriale o di lotto specifico quando si impegna l'articolo di magazzino da una domanda, ad esempio un ordine di vendita.<br /><br /> Questo è uno stato che viene imposto in un movimento di impegno per i numeri seriali o di lotto che non sono selezionati in modo specifico. **Nota:** la domanda non contiene numeri seriali o di lotto. <br /><br /> Ad esempio, si desidera impegnare una latta di vernice blu da un lotto per l'ordine di vendita. Una latta di vernice blu da un numero di serie o da un numero di lotto casuale viene spedita al cliente.|  
   
 La principale differenza tra impegno specifico e impegno non specifico è definita dall'esistenza di numeri seriali o di lotto dal lato della domanda, come indicato nella tabella seguente.  
-  
-||||  
-|-|-|-|  
-||**Approvvigionamento**|**Domanda**|  
-|**Specifico**|Numero seriale o di lotto.|Numero seriale o di lotto.|  
-|**Non specifico**|Numero seriale o di lotto.|Nessun numero seriale o di lotto.|  
+
+| Tipo            | Approvvigionamento                | Domanda                   |
+|-----------------|-----------------------|--------------------------|
+| **Specifico**    | Numero seriale o di lotto. | Numero seriale o di lotto.    |
+| **Non specifico** | Numero seriale o di lotto. | Nessun numero seriale o di lotto. |
   
 Quando si impegnano quantità di magazzino da una riga di documento in uscita per un articolo con numeri di tracciabilità assegnati e impostato per la tracciabilità di un articolo specifico, dalla pagina **Impegni** è possibile accedere a differenti workflow a seconda che si necessiti dei numeri seriali o dei numeri di lotto.  
   
@@ -92,3 +92,5 @@ Questo scenario aziendale è supportato con la funzionalità di combinazione tar
   
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

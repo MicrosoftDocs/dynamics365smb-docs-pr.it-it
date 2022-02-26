@@ -1,45 +1,101 @@
 ---
-title: Esplorazione e navigazione delle pagine per ruolo | Microsoft Docs
-description: ''
-author: SorenGP
+title: Esplorazione e navigazione delle pagine per ruolo
+description: È possibile ottenere una panoramica di tutte le funzionalità aziendali disponibili per il proprio ruolo e per altri ruoli con Esplora ruoli.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 11/06/2019
-ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.search.keywords: role explorer, find features, navigate
+ms.date: 08/01/2021
+ms.author: jswymer
+ms.openlocfilehash: ba09bdcb19e65b317737412fa97403bef417e2c6
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774797"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588934"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Ricerca di pagine con Esplora ruoli
+
 È possibile ottenere una panoramica di tutte le funzionalità aziendali disponibili per il proprio ruolo e per altri ruoli. Nella seguente documentazione questa panoramica delle funzionalità viene definita come *Esplora ruoli*.
 
-Ogni elemento in Esplora ruoli è un'azione che apre una pagina. Di conseguenza, è anche possibile utilizzare Esplora ruoli per navigare in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Ogni elemento in Esplora ruoli è un'azione che apre una pagina. Di conseguenza, è anche possibile utilizzare Esplora ruoli per navigare in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+## <a name="open-the-role-explorer"></a>Aprire l'esploratore di ruoli
 
 È possibile aprire Esplora ruoli da Gestione ruolo utente, da tutte le pagine elenchi e dalla finestra delle **funzionalità delle informazioni**.
 
-- In Gestione ruolo utente o in qualsiasi pagina elenco selezionare il ![pulsante Menu](media/ui_menu_button.png "Pulsante Menu") a destra della barra di navigazione oppure premere MAIUSC+F12.
+- In Gestione ruoli utente o in qualsiasi pagina dell'elenco, scegli il pulsante ![Pulsante Menu.](media/ui_menu_button.png "Pulsante Menu") a destra della barra di spostamento o premi Maiusc+F12.
 - Nella finestra della **funzionalità delle informazioni**, scegliere l'azione **esplorare** nella parte inferiore.
 
-Per ottenere una panoramica delle funzionalità aziendali disponibili per tutti gli altri ruoli, oltre al proprio, scegliere l'azione **Esplora tutto** nella pagina con Esplora ruoli.
+Quando apri per la prima volta il centro dei ruoli, mostra i collegamenti alla maggior parte delle funzioni disponibili per il tuo ruolo.
+
+## <a name="navigate-features"></a>Navigare le caratteristiche
+
+Le azioni che aprono le pagine sono organizzate in nodi che prendono il nome dalle funzioni o dalle aree di applicazione. È possibile comprimere o espandere ogni nodo singolarmente, così come comprimere/espandere tutti i nodi contemporaneamente.
+
+- Per espandere/collassare un singolo nodo, scegli il nodo. Questa azione viene applicata ai nodi di livello principale e ai nodi secondari.
+- Per espandere/collassare tutti i nodi di primo livello della pagina, ma lasciare i sotto-nodi come sono, scegli **...** in alto, poi scegli **Espandi** o **Riduci**.
+- Per espandere/collassare tutti i nodi di livello superiore e tutti i sotto nodi sotto di esso, scegli **...** in alto, poi scegli l'azione **Espandi tutto** o **Riduci tutto.** 
+
+## <a name="search-for-features"></a>Cercare le caratteristiche
+
+Per individuare rapidamente le funzioni, seleziona **Trova**, quindi inserisci una parola o una frase per la funzione che stai cercando. Il centro di ruolo evidenzierà qualsiasi testo corrispondente. Se una caratteristica è nascosta alla vista in un nodo collassato, il nodo collassato è segnato con un punto. 
+
+## <a name="explore-other-roles"></a>Esplora altri ruoli
+
+Per esplorare ruoli diversi dal tuo, seleziona **Esplora altri ruoli**. Il centro dei ruoli visualizza ogni ruolo sotto la propria voce, con collegamenti alle sue caratteristiche. Puoi quindi navigare e trovare le caratteristiche proprio come fai quando esplori il tuo ruolo.
 
 > [!NOTE]
-> Solo le azioni di Gestione ruolo utente per i profili in cui la casella di controllo **Mostra in Esplora ruoli** è selezionata verranno visualizzate nella versione estesa di Esplora ruoli (mostrate nell'azione **Esplora tutto**). Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md).
+> Vedrai solo i ruoli che sono impostati per essere mostrati nell'esploratore di ruoli. Quindi se non vedete un ruolo che vi aspettavate di vedere, probabilmente non è impostato per questo. Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md). 
 
-## <a name="to-expandcollapse-nodes-on-the-role-explorer"></a>Per espandere/comprimere i nodi in Esplora ruoli
+Quando si esplorano altri ruoli, si può anche restringere l'esplorazione utilizzando le azioni **Report e analisi** e **Amministrazione** nella parte superiore del centro dei ruoli.
+
+- **Report e analisi** mostra solo quelle caratteristiche che sono categorizzate come report e caratteristiche di analisi.
+- **Amministrazione** mostra solo le caratteristiche che sono categorizzate come caratteristiche di amministrazione.
+
+> [!TIP]
+> Per gli sviluppatori, si categorizzano le pagine e i rapporti impostando la [proprietà UsageCategory](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) nel codice AL dell'oggetto.
+<!--
+ 
+## Role explorer actions
+
+There a several actions along the top of the role explorer to help you locate features of your role and other roles.
+
+|Action|Description|
+|------|------|
+|**All**|Shows all features that are related to the role.|
+|**Find**|Lets you enter a word or phrase to quickly locate feature names that match.|
+|**Explore more roles**|All business features that are available for all roles including your own. When exploring all roles, the other actions work the same way, except for all roles shown. **NOTE:** You will only see roles that are set up to show in role explorer. For more information, see [Manage Profiles](admin-users-profiles-roles.md).  |
+|**Report & Analysis**|This action Shows only those features that are categorized as reports and analysis features.|
+|**Administration**|Shows only those features that are categorized as administration features.|
+
+
+
+<!--
+Choose the **Find** action at the top of the role explorer to quickly locate feature names that contain a certain term.
+
+Choose the **Explore more roles** action at the top of the role explorer to get an overview of all business features that are available for all roles including your own.
+
+> [!NOTE]
+> Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
+-->
+
+## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Espandere e comprimere i nodi nell'esploratore di ruoli
+
 Le azioni che aprono le pagine sono organizzate in nodi che prendono il nome dalle funzioni o dalle aree di applicazione. È possibile comprimere o espandere ogni nodo singolarmente, così come comprimere/espandere tutti i nodi contemporaneamente.
 
 - Per espandere/comprimere un nodo, selezionare il nodo. Questa azione viene applicata ai nodi di livello principale e ai nodi secondari.
 - Per espandere/comprimere tutti i nodi di livello principale nella pagina, selezionare l'azione **Espandi** o **Comprimi** nell'angolo in alto a destra.
-- Per espandere/comprimere un nodo di livello principale e tutti i relativi nodi secondari, premere i tasti CTRL+MAIUSC mentre si sceglie l'azione **Espandi** o **Comprimi** nell'angolo in alto a destra.
+- Per espandere/comprimere tutti i nodi di livello superiore e tutti i nodi secondari sottostanti, effettuare uno dei seguenti passaggi:
+  - Premere i tasti CTRL+MAIUSC mentre si sceglie l'azione **Espandi** o **Comprimi** nell'angolo superiore destro.
+  - Scegliere **...** nell'angolo superiore destro, quindi scegli l'azione **Espandi tutto** o **Comprimi tutto**.
 
 ## <a name="see-also"></a>Vedere anche
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
 [Gestire profili](admin-users-profiles-roles.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

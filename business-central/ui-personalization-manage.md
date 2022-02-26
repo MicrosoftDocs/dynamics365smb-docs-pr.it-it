@@ -1,23 +1,19 @@
 ---
-title: Personalizzare pagine per ruoli | Microsoft Docs
+title: Personalizzare le pagine per i ruoli
 description: Informazioni su come personalizzare l'interfaccia utente per un profilo (ruolo) di modo che tutti gli utenti assegnati a quel ruolo vedano un'area di lavoro personalizzata.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 9171
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 370429bfbcc1d93c7cce8d40cf844eb021109e39
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310806"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101031"
 ---
 # <a name="customize-pages-for-profiles"></a>Personalizzare pagine per profili
 Gli utenti possono personalizzare le pagine della propria area di lavoro per adattarle alle proprie preferenze. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
@@ -30,11 +26,11 @@ Gli amministratori possono personalizzare le pagine per un profilo, in base al r
 La personalizzazione delle pagine inizia dalla pagina **Profili (ruoli)**, ovvero il punto di partenza dell'amministratore per la gestione dei profili degli utenti in singole schede profilo. Oltre a personalizzare il layout delle pagine, si controllano varie altre impostazioni per i profili nella pagina **Profilo (ruolo)** di ogni profilo. Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Per personalizzare pagine per un profilo
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Profili (ruoli)** e scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Profili (ruoli)**, quindi scegli il collegamento correlato.
 2. Selezionare la riga per il profilo per cui si desidera personalizzare le pagine, quindi scegliere l'azione **Modifica**.
 3. Scegliere l'azione **Personalizza pagine**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] viene aperto in una nuova scheda del browser per il profilo selezionato con il banner **Personalizzazione** attivato. Il banner **Personalizzazione** offre le stesse funzionalità del banner **Personalizzazione** disponibile per gli utenti.
+    [!INCLUDE[prod_short](includes/prod_short.md)] viene aperto in una nuova scheda del browser per il profilo selezionato con il banner **Personalizzazione** attivato. Il banner **Personalizzazione** offre le stesse funzionalità del banner **Personalizzazione** disponibile per gli utenti.
 
 4. Personalizzare le pagine in base alle esigenze del ruolo o del reparto in questione, proprio come farebbe un utente durante la personalizzazione. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
@@ -47,9 +43,12 @@ La personalizzazione delle pagine inizia dalla pagina **Profili (ruoli)**, ovver
 La personalizzazione delle pagine è ora registrata per il profilo.
 
 ## <a name="to-view-all-customized-pages-for-a-profile"></a>Per visualizzare tutte le pagine personalizzate per un profilo
+
 È possibile ottenere una panoramica di quali pagine sono personalizzate per un profilo, ad esempio per pianificare quali personalizzare ulteriormente o eliminare.
 
-- Nella pagina **Profilo (ruolo)**, scegliere l'azione **Pagine personalizzate**.
+- Nella pagina **Profilo (ruolo)**, scegliere l'azione **Gestisci pagine personalizzate**.
+
+Nella pagina **Pagine personalizzate** è possibile eliminare le personalizzazioni e risolvere i problemi analizzando i potenziali problemi.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Per eliminare tutte le personalizzazioni per un profilo
 È possibile annullare tutte le personalizzazioni apportate per un profilo. Le personalizzazioni introdotte con un'estensione e le personalizzazioni eseguite da un utente non verranno eliminate. È possibile eliminare tutte le personalizzazioni con un'altra azione. Per ulteriori informazioni, vedere [Per eliminare tutte le personalizzazioni eseguite da un utente](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
@@ -61,14 +60,18 @@ Il layout delle pagine per il profilo viene ripristinato al layout predefinito.
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Per eliminare la personalizzazione di specifiche pagine per un profilo
 È possibile eliminare personalizzazioni di singole pagine eseguite per un profilo. Le personalizzazioni introdotte con un'estensione e le personalizzazioni eseguite da un utente non verranno eliminate. È possibile eliminare personalizzazioni di specifiche pagine con un'altra azione. Per ulteriori informazioni, vedere [Per eliminare le personalizzazioni per pagine specifiche](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-1. Nella pagina **Profilo (ruolo)**, scegliere l'azione **Pagine personalizzate**.
-2. Nella pagina **Personalizzazioni profilo**, selezionare una o più righe per le personalizzazioni che si desidera eliminare, quindi selezionare l'azione **Elimina**.
+1. Nella pagina **Profilo (ruolo)**, scegliere l'azione **Gestisci pagine personalizzate**.
+2. Nella pagina **Pagine personalizzate** selezionare una o più righe per le personalizzazioni che si desidera eliminare, quindi selezionare l'azione **Elimina**.
 
 Il layout delle pagine selezionate viene adattato alle modifiche apportate.
 
 ## <a name="see-also"></a>Vedere anche
+
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
 [Gestire profili](admin-users-profiles-roles.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

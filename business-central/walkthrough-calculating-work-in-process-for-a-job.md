@@ -1,25 +1,25 @@
 ---
-title: 'Procedura dettagliata: Calcolo del valore WIP per una commessa | Documenti Microsoft'
-description: Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di tenere traccia dei vari costi connessi all'impiego delle risorse in un progetto specifico. Le commesse implicano il consumo di ore di lavoro del personale, di ore macchina, degli articoli a magazzino e altri consumi che vanno monitorati man mano che la commessa progredisce.
+title: Panoramica - Calcolo del lavoro in corso per un lavoro
+description: Le commesse implicano il consumo di ore di lavoro del personale, di ore macchina, degli articoli a magazzino e altri consumi che vanno monitorati man mano che la commessa progredisce.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3d9a156a1196767b4ae07f63bbb4ca8e2ff5318f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527910"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588103"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedura dettagliata: Calcolo del valore WIP per una commessa
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di tenere traccia dei vari costi connessi all'impiego delle risorse in un progetto specifico. Le commesse implicano il consumo di ore di lavoro del personale, di ore macchina, degli articoli a magazzino e altri consumi che vanno monitorati man mano che la commessa progredisce. Se una commessa si protrae per lungo tempo, può essere opportuno trasferire questi costi a un conto WIP (Work in Process, ovvero semilavorati) nel conto patrimoniale fino al completamento della commessa. Sarà possibile riconoscere conti e vendite nel conto economico quando opportuno.  
 
@@ -38,7 +38,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
  Questa procedura dettagliata è svolta da un membro del team (Cinzia Di Marco).  
 
 ## <a name="prerequisites"></a>Prerequisiti  
- Prima di svolgere le attività di questa procedura dettagliata, è necessario installare [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Prima di svolgere le attività di questa procedura dettagliata, è necessario installare [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="story"></a>Scenario  
  Questa procedura dettagliata è incentrata su CRONUS International Ltd., una società che si occupa di progettazione, consulenza e installazione di nuove infrastrutture, ad esempio aule conferenze e uffici, complete di mobilia e accessori. La maggior parte di lavoro in CRONUS è svolto sulla base di un progetto e Cinzia, un membro del team di progetto, utilizza le commesse per avere una panoramica delle commesse in corso avviate da CRONUS e di quelle completate. Alcune commesse risultano estremamente lunghe e possono durare mesi. Cinzia può utilizzare un conto WIP per registrare i semilavorati e per tenere traccia dei costi in varie parti della commessa.  
@@ -52,7 +52,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 |Campo|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Lasciare vuota se il task commessa fa parte di un gruppo di task.|  
+|**\<blank\>**|Lasciare vuota se il task commessa fa parte di un gruppo di task.|  
 |**Totale**|Definisce l'intervallo o il gruppo di task incluso nel calcolo di WIP e corrispettivo. Qualsiasi task commessa all'interno del gruppo con **Tipo task commessa** impostato su **Registrazione** verrà incluso nel totale WIP, a meno che il relativo campo **WIP-Totale** sia impostato su **Escluso**.|  
 |**Escluso**|Si applica solo a un task con **Tipo task commessa** impostato su **Registrazione**. Il task non viene incluso in caso di calcolo di WIP e corrispettivo.|  
 
@@ -60,7 +60,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 ### <a name="to-calculate-wip"></a>Per calcolare il WIP  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Commesse** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2.  Nell'elenco **Commesse** selezionare la commessa **Chernelli**, quindi scegliere l'azione **Modifica**. Verrà visualizzata la scheda commessa in modalità di modifica.  
 
      Il WIP può essere calcolato sulla base di valore del costo, valore delle vendite, costo del venduto, percentuale di completamento o contratto completato. Nell'esempio, CRONUS utilizza il metodo Valore costo.  
@@ -92,7 +92,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 ### <a name="to-review-wip-warnings"></a>Per esaminare gli avvisi WIP  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Pannello di controllo WIP commessa** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pannello di controllo WIP commessa**, quindi scegli il collegamento correlato.  
 2.  Selezionare la commessa **Chernelli**, quindi scegliere l'azione **Mostra avvisi**.  
 3.  Nella pagina **Avvisi WIP commessa** analizzare l'avviso associato alla commessa.  
 
@@ -156,11 +156,14 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
     >  Si supponga che Cinzia abbia calcolato e registrato il WIP per una commessa con date errate. Seguendo il metodo che è stato discusso in precedenza, il programma consente di stornare le registrazioni errate, correggerne le date e registrarle nuovamente nella contabilità generale.  
 
 ## <a name="next-steps"></a>Passaggi successivi  
- In questa procedura dettagliata sono stati svolti i passaggi del calcolo del WIP in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In commesse più grandi, può essere utile trasferire periodicamente i costi a un conto WIP fino al completamento della commessa. In questa procedura dettagliata è stato illustrato come escludere le righe di task dal calcolo. È stato inoltre illustrato quando è necessario ricalcolare. Infine, è stato descritto come registrare il WIP nella contabilità generale. Inoltre è incluso un esempio di come stornare una registrazione WIP nella contabilità generale.  
+ In questa procedura dettagliata sono stati svolti i passaggi del calcolo del WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In commesse più grandi, può essere utile trasferire periodicamente i costi a un conto WIP fino al completamento della commessa. In questa procedura dettagliata è stato illustrato come escludere le righe di task dal calcolo. È stato inoltre illustrato quando è necessario ricalcolare. Infine, è stato descritto come registrare il WIP nella contabilità generale. Inoltre è incluso un esempio di come stornare una registrazione WIP nella contabilità generale.  
 
 ## <a name="see-also"></a>Vedi anche  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
  [Procedura dettagliata: Gestione dei progetti con le commesse](walkthrough-managing-projects-with-jobs.md)   
  [Metodi WIP](projects-understanding-wip.md)   
  [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

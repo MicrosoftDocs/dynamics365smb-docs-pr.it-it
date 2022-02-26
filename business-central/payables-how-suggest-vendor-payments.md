@@ -1,25 +1,25 @@
 ---
-title: Utilizzare il processo batch Suggerisci pagamenti fornitore| Documenti Microsoft
+title: Processo batch di suggerimento di pagamenti ai fornitori
 description: È possibile specificare le impostazioni di pagamento dei fornitori per ottenere suggerimenti o proposte per pagamenti in scadenza oppure per cui è disponibile uno sconto.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 9936a77c7afdc89d6d8c8485d01b4970e85fcb19
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.form: 256
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 962a1fde49db09b3d739ac33eba43fa7316cc25d
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254001"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953160"
 ---
 # <a name="suggest-vendor-payments"></a>Sugg. pagamenti fornitore
+
 Nella pagina **Registraz. pagamenti** è possibile utilizzare il processo batch **Sugg. pagamenti fornitore** per suggerire le righe di pagamento. Le righe per i pagamenti che scadono presto oppure i pagamenti dove è disponibile uno sconto sul pagamento vengono suggerite in base alle impostazioni.
 
 Per trarre completamente vantaggio dai pagamenti suggeriti, è prima necessario assegnare una priorità ai fornitori. Per ulteriori informazioni, vedere [Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md).  
@@ -34,7 +34,7 @@ Per trarre completamente vantaggio dai pagamenti suggeriti, è prima necessario 
     * Movimenti fornitori che vengono qualificati per gli sconti sui pagamenti, sistemati in base al numero di fornitori.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Per utilizzare la funzione di suggerimento pagamenti fornitori
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
 2. Aprire le registrazioni rilevanti e scegliere l'azione **Sugg. pagamenti fornitore**.  
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Scegliere il pulsante **OK**.  
@@ -56,4 +56,7 @@ In alternativa, è possibile creare manualmente le righe di pagamento utilizzand
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Effettuare i pagamenti](payables-make-payments.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

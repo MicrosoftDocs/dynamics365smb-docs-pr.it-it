@@ -1,27 +1,27 @@
 ---
-title: 'Procedura: Correggere i report di transazioni IVA'
-description: È possibile correggere e inviare nuovamente i report di transazioni IVA.
+title: 'Procedura: Correggere i report di transazioni IVA [IT]'
+description: Il seguente argomento è una spiegazione su come correggere e inviare nuovamente i report elettronici di transazione IVA.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4e46f1db08a397b9c64a6bd48150367ed0b7b377
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: 0bd867878b93e754a6e4c05bb4825c8d51702caf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181140"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435160"
 ---
-# <a name="correct-vat-transactions-reports"></a>Correggere i report di transazioni IVA
+# <a name="correct-vat-transactions-reports-in-the-italian-version"></a>Correggere i report di transazioni IVA nella versione italiana
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Report IVA** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  Creare un nuovo report. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).  
 3.  Nel nuovo report, impostare il campo **Tipo report IVA** su **Correttiva** o **Annullamento**. Nel campo **Nr. report originale** selezionare il report che si desidera correggere dalla lista dei report disponibili. I campi **Data di fine** e **Data di inizio** vengono copiati dal report originale.  
 
@@ -48,3 +48,6 @@ ms.locfileid: "3181140"
 
 ## <a name="see-also"></a>Vedere anche  
  [Esportare i report di transazioni IVA](how-to-export-vat-transactions-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

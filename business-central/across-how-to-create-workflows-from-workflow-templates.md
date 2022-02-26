@@ -1,35 +1,35 @@
 ---
-title: Come creare workflow da modelli di workflow | Microsoft Docs
-description: Per risparmiare tempo durante la creazione di nuovi workflow, è possibile creare i workflow da modelli di workflow.
+title: Come creare flussi di lavoro da modelli di flusso di lavoro
+description: Per risparmiare tempo durante la creazione di nuovi flussi di lavoro, è possibile creare flussi di lavoro non modificabili da modelli di flusso di lavoro con prefisso "MS".
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6b4d09ae0bd0f2def940e2516bdc54bc04f300ca
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 4c3c8011802d9deb1b7a3804758333f08fc2403b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188398"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438434"
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Creare flussi di lavoro da modelli di flusso di lavoro
+# <a name="create-workflows-from-workflow-templates"></a>Creare workflow da modelli di workflow
 Per risparmiare tempo durante la creazione di nuovi workflow, è possibile creare i workflow da modelli di workflow.  
 
- I modelli di workflow sono flussi di lavoro non modificabili presenti nella versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Il codice dei modelli di flusso di lavoro che vengono aggiunti da Microsoft hanno il prefisso "MS-".  
+ I modelli di workflow sono flussi di lavoro non modificabili presenti nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)]. Il codice dei modelli di flusso di lavoro che vengono aggiunti da Microsoft hanno il prefisso "MS-".  
 
- Un altro modo per creare rapidamente un workflow consiste nell'importare un workflow esistente disponibile in un file all'esterno di [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere [Esportare e importare workflow](across-how-to-export-and-import-workflows.md).  
+ Un altro modo per creare rapidamente un workflow consiste nell'importare un workflow esistente disponibile in un file all'esterno di [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Esportare e importare workflow](across-how-to-export-and-import-workflows.md).  
 
 Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Per creare un flusso di lavoro da un modello di flusso di lavoro  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Workflow** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Crea flusso di lavoro da modello**. Verrà aperta la pagina **Modelli del workflow**.  
 3.  Selezionare un modello di flusso di lavoro e scegliere il pulsante **OK**.  
 
@@ -45,3 +45,6 @@ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle
  [Impostazione dei workflow](across-set-up-workflows.md)   
  [Utilizzo dei workflow](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

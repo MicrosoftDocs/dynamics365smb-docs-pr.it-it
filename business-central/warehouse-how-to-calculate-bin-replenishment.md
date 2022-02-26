@@ -3,19 +3,19 @@ title: 'Procedura: Calcolare il rifornimento della collocazione | Documenti Micr
 description: Quando l'ubicazione è impostata per l'utilizzo di stoccaggi e prelievi guidati, per effettuare lo stoccaggio dei carichi vengono prese in considerazione le priorità del modello di stoccaggio per l'ubicazione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7e8c5298fe098659aeab81eb3da64456c6d2a8ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d4987502db2d278dfe7757cd9e5a71cd516c1ca5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193229"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443334"
 ---
 # <a name="calculate-bin-replenishment"></a>Calcola rifornimento collocazione
 Quando l'ubicazione è impostata per l'utilizzo di stoccaggi e prelievi guidati, per effettuare lo stoccaggio dei carichi vengono prese in considerazione le priorità del modello di stoccaggio per l'ubicazione. Le priorità includono le quantità minima e massima di contenuto collocazione fissate per una collocazione specifica e le valutazioni delle collocazioni. Pertanto, se gli articoli giungono in magazzino a intervalli regolari, le collocazioni di prelievo più utilizzate vengono riempite non appena vengono svuotate.  
@@ -27,7 +27,7 @@ Tuttavia, non sempre la frequenza di arrivo degli articoli in magazzino è costa
 Infine, se per le collocazioni di immagazzinamento a massa è stato impostato un tipo di collocazione a cui è associata la sola azione **Stoccaggio**, ovvero per il tipo di collocazione non è stata selezionata l'azione **Prelievo**, sarà necessario rifornire continuamente le collocazioni di prelievo poiché non vengono forniti suggerimenti circa le collocazioni di tipo stoccaggio per un prelievo delle quantità in giacenza.  
 
 ## <a name="to-replenish-pick-bins"></a>Per rifornire le collocazioni di prelievo  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto movimentazioni** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto movimentazioni**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Calcola rifornimento collocazione** per aprire la pagina di richiesta report.  
 3.  Compilare i campi della pagina di richiesta del processo batch in modo da circoscrivere l'ambito dei suggerimenti calcolati relativi al rifornimento. È ad esempio possibile che si sia interessati solo a specifici articoli, zone o collocazioni.  
 4.  Scegliere il pulsante **OK**. Le righe vengono create per i movimenti di rifornimento da eseguire in base alle regole impostate per le collocazioni e il relativo contenuto, ovvero articoli nelle collocazioni.  
@@ -52,4 +52,7 @@ Al successivo calcolo per il rifornimento delle collocazioni, i suggerimenti pre
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,37 +1,42 @@
 ---
-title: Come saldare immediatamente le fatture di acquisto | Microsoft Docs
+title: Saldare immediatamente le fatture di acquisto
 description: Se si deve pagare il fornitore in contanti o con assegno, è possibile effettuare la necessaria registrazione contemporaneamente a quella della fattura.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.topic: conceptual
+ms.search.form: 51, 9308
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ec5723088553141c1f6df55ba8bac3303ee4e2bd
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: af1dea2cf7ac387f2e0dfa9c2965156768facc3a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183262"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973416"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Saldare immediatamente le fatture di acquisto
+
 Se si deve pagare il fornitore in contanti o con assegno, è possibile registrare il pagamento mentre si registra la fattura.  
 
-### <a name="to-settle-purchase-invoices-promptly"></a>Per saldare immediatamente le fatture di acquisto  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.  
+> [!NOTE]  
+> Se le fatture di acquisto sono spesso pagate in contanti, in assegni o con bonifico è una buona idea impostare un metodo di pagamento specifico con una contropartita e immetterlo nel campo **Metodo Pagamento** nella scheda del fornitore. Il numero della contropartita verrà immesso automaticamente nella testata della fattura ogni volta che ne verrà creata una nuova. Per ulteriori informazioni, vedere [Definizione dei metodi di pagamento](finance-payment-methods.md).  
+
+## <a name="to-settle-purchase-invoices-promptly"></a>Per saldare immediatamente le fatture di acquisto
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
-3.  Per pagare in contanti o tramite bonifico, immettere il numero del conto cassa di contabilità generale o il conto corrente bancario nel campo **Nr. contropartita**.  
+3. Per pagare in contanti o tramite bonifico, immettere il numero del conto cassa di contabilità generale o il conto corrente bancario nel campo **Nr. contropartita**.  
 
 > [!IMPORTANT]  
->  I campi **Tipo Contropartita** e **Contropartita** non sono inclusi nel layout standard della testata della fattura. Per registrare il pagamento di una fattura, è necessario immettere tali campi utilizzando le funzioni di progettazione. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md). 
+> I campi **Tipo Contropartita** e **Contropartita** non sono inclusi nel layout standard della testata della fattura. Per registrare il pagamento di una fattura è necessario contattare un partner Microsoft che può aggiungere i campi tramite codice.  
+>
+> Questa personalizzazione è richiesta solo se non si specificano conti di contropartita per i metodi di pagamento come descritto sopra.
 
-> [!NOTE]  
->  Se le fatture di acquisto sono spesso pagate in contanti, è una buona idea impostare un metodo di pagamento specifico con una contropartita e immetterlo nel campo **Metodo Pagamento** nella scheda del fornitore. Il numero della contropartita verrà immesso automaticamente nella testata della fattura ogni volta che ne verrà creata una nuova.  
+## <a name="see-also"></a>Vedere anche
 
-## <a name="see-also"></a>Vedere anche  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

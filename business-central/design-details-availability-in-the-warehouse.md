@@ -3,19 +3,19 @@ title: 'Dettagli di progettazione: Disponibilità nella warehouse | Microsoft Do
 description: Il sistema deve mantenere un controllo costante sulla disponibilità degli articoli nella warehouse, in modo che gli ordini in uscita possano fluire senza problemi e le spedizioni possano essere ottimizzate.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 10eb4e51a90437d847d01fdbf577adba8c8275eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185758"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442537"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Dettagli di progettazione: Disponibilità nella warehouse
 Il sistema deve mantenere un controllo costante sulla disponibilità degli articoli nella warehouse, in modo che gli ordini in uscita possano fluire senza problemi e le spedizioni possano essere ottimizzate.  
@@ -47,7 +47,7 @@ Se una o più condizioni non sono soddisfatte, è possibile che vengano visualiz
 
  Nel seguente diagramma vengono mostrati i differenti elementi del calcolo.  
 
- ![Disponibile per il prelievo, con sovrapposizione di impegno](media/design_details_warehouse_management_availability_2.png "Disponibile per il prelievo, con sovrapposizione di impegno")  
+ ![Disponibile per il prelievo, con sovrapposizione di impegno.](media/design_details_warehouse_management_availability_2.png "Disponibile per il prelievo, con sovrapposizione di impegno")  
 
 ## <a name="quantity-available-to-reserve"></a>Quantità disponibile da impegnare  
  Poiché i concetti del contenuto delle condizioni e dell'impegno coesistono, la quantità di articoli disponibili per l'impegno deve essere allineata alle allocazioni ai documenti di warehouse in uscita.  
@@ -72,8 +72,11 @@ Se una o più condizioni non sono soddisfatte, è possibile che vengano visualiz
 
  Nel seguente diagramma vengono mostrati i differenti elementi del calcolo.  
 
- ![Disponibile per la prenotazione, per allocazioni warehouse](media/design_details_warehouse_management_availability_3.png "Disponibile per la prenotazione, per allocazioni warehouse")  
+ ![Disponibile per la prenotazione, per allocazioni warehouse.](media/design_details_warehouse_management_availability_3.png "Disponibile per la prenotazione, per allocazioni warehouse")  
 
 ## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
  [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

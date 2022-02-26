@@ -1,21 +1,22 @@
 ---
-title: Impostare attributi di articoli e assegnarli agli articoli | Documenti Microsoft
+title: Impostare attributi di articoli e assegnarli agli articoli
 description: Descrive come impostare i valori di attributo articolo, ad esempio che possono essere utilizzati come parole di ricerca, e come assegnarli agli articoli e alle categorie di articoli.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5c927a5d182cf2e33620496ea07cbc599d7537e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d2c8eec702840e6046eab362a867317091a9c3aa
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181894"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059362"
 ---
 # <a name="work-with-item-attributes"></a>Utilizzare gli attributi degli articoli
 Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in un negozio Web integrato, possono chiedere o cercare in base alle caratteristiche, ad esempio l'altezza e l'anno del modello. Per fornire all'assistenza ai clienti, è possibile assegnare valori di attributo articolo di diversi tipi agli articoli e utilizzarli durante la ricerca degli articoli.
@@ -26,20 +27,20 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 > Se all'articolo vengono allegate delle immagini, l'estensione per l'analisi delle immagini può individuare gli attributi nell'immagine e suggerire gli attributi in modo che sia possibile specificare se assegnarli. L'estensione è pronta. È solo necessario abilitarla. Per ulteriori informazioni, vedere [Estensione di analisi immagini](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Per creare attributi articolo
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Attributi articolo** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Attributi articolo**, quindi scegli il collegamento correlato.
 2. Nella pagina **Attributi articolo** scegliere l'azione **Nuovo**.
 3. Nella pagina **Attributi articolo** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Se si seleziona **Opzione** nel campo **Tipo** è possibile scegliere l'azione **Valori attributo articolo** per creare valori per l'attributo dell'articolo. Per ulteriori informazioni, vedere [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
+>   Se selezioni **Opzione** nel campo **Tipo** puoi scegliere l'azione **Valori attributo articolo** per creare valori per l'attributo dell'articolo. Per ulteriori informazioni, vedere [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Per creare i valori per gli attributi articolo di tipo Opzione
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Attributi articolo** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Attributi articolo**, quindi scegli il collegamento correlato.
 2. Nella pagina **Attributi articolo** selezionare l'attributo dell'articolo di tipo **Opzione** per cui si desidera creare i valori, quindi selezionare l'azione **Valori attributo articolo**.
 3. Nella pagina **Valori attributo articolo** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Per assegnare attributi articolo agli articoli
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Nella pagina **Articoli**, selezionare l'articolo a cui si desidera assegnare gli attributi articoli quindi selezionare l'azione **Attributi**.
 3. Nella pagina **Valori attributo articolo** scegliere l'azione **Nuovo**.
 4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto in [Per creare attributi articolo](inventory-how-work-item-attributes.md#to-create-item-attributes).
@@ -48,7 +49,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 7. Ripetere i passaggi da 4 a 6 per tutti gli attributi articoli che si desidera assegnare all'articolo.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Per assegnare attributi articolo alle categorie articoli
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Categorie articoli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie articoli**, quindi scegli il collegamento correlato.
 2. Nella pagina **Categorie articoli**, selezionare la categoria dell'articolo a cui si desidera assegnare gli attributi articolo quindi selezionare l'azione **Modifica**.
 3. Nella pagina **Scheda categoria articolo**, scegliere l'azione **Nuovo** nella Scheda dettaglio **Attributi**.
 4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto in [Per creare attributi articolo](inventory-how-work-item-attributes.md#to-create-item-attributes).
@@ -59,7 +60,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 >   Gli attributi degli articoli per le categorie articolo padre verranno ereditati dalle categorie articolo figlio. Ciò è indicato dal campo **Ereditato da** nella Scheda dettaglio **Attributi**. Per ulteriori informazioni, vedere [Classificare gli articoli](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>Per filtrare per attributi articolo
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Nella pagina **Articoli** scegliere l'azione **Filtra per attributi**.
 3. Nella pagina **Filtra articoli per attributo**, fare clic sul pulsante di ricerca nel campo **Attributo** e selezionare un attributo dell'articolo.
 4. Nel campo **Valore** scegliere il pulsante di ricerca e selezionare un valore attributo in base a cui filtrare gli articoli.
@@ -79,4 +80,7 @@ Gli articoli nella pagina **Articoli** vengono filtrati in base ai valori dell'a
 [Classificare gli articoli](inventory-how-categorize-items.md)    
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

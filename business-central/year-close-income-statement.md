@@ -1,30 +1,28 @@
 ---
-title: Chiudere il conto economico | Documenti Microsoft
+title: Chiudere il conto economico
 description: Alla chiusura dell'anno, è necessario eseguire il processo batch Chiudi conto economico per chiudere i periodi contabili che costituiscono l'anno fiscale.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: fd811a1a472efe53fe1c16bd5c301925d424f274
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 44e2d34ee4af32bcb901a66ae7e45b45ac274bd5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313930"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435749"
 ---
-# <a name="close-income-statement-accounts"></a>Chiudere il conto economico
+# <a name="closing-income-statement-accounts"></a>Chiusura del conto economico
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito. In questo caso, eseguire il processo batch **Chiudi conto economico**. Il processo trasferisce i risultati dell'anno in un conto nel conto patrimoniale e chiude i conti economici. A tale scopo creare righe di registrazioni che in seguito sarà possibile contabilizzare.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Per eseguire il processo batch di chiusura del conto economico
 1. Chiudere l'anno fiscale. È necessario chiudere l'anno fiscale prima di eseguire il processo batch. Per ulteriori informazioni, vedere [Chiudere i periodi contabili](year-close-account-periods.md).
-2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Chiudi conto economico** e quindi scegliere il collegamento correlato.
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Chiudi conto economico**, quindi scegli il collegamento correlato.
 3. Scegliere **OK** per eseguire il processo batch.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Processo batch di chiusura del conto economico
@@ -36,8 +34,12 @@ La data nelle righe che il processo batch inserisce nelle registrazioni è sempr
 
 Il processo batch **Chiudi conto economico** può essere utilizzato più di una volta. Se in seguito alla chiusura dei conti economici il processo batch viene nuovamente eseguito, sarà possibile effettuare registrazioni in un anno fiscale precedente.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
+
 [Chiusura registri](year-close-books.md)  
 [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)  
-[Aprire un nuovo anno fiscale](finance-how-open-new-fiscal-year.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

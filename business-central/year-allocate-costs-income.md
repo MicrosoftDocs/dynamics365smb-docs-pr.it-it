@@ -1,24 +1,24 @@
 ---
-title: Panoramica delle attività per l'allocazione di costi e ricavi | Documenti Microsoft
+title: Panoramica delle attività per l'allocazione di costi e ricavi
 description: Descrive i task necessari per assegnare un movimento in una registrazione COGE a più conti diversi, quando tale registrazione viene contabilizzata.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 60b73b5c29bca5dc85e123f5957c7f3c0917345f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.form: 283
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: a2b421d7cb6819656988e86296bd8fede95f1454
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248343"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012711"
 ---
 # <a name="allocate-costs-and-income"></a>Allocazione di costi e ricavi
+
 È possibile assegnare un movimento in una registrazione generale a più conti diversi, quando tale registrazione viene contabilizzata. L'assegnazione può essere effettuata in base a tre diversi metodi:
 
 * Quantità
@@ -31,8 +31,10 @@ Le funzionalità di assegnazione possono essere utilizzate per le registrazioni 
 Di seguito viene descritto come preparare l'allocazione dei costi in una registrazione COGE periodica definendo le chiavi di allocazione. Quando le chiavi di allocazione sono definite, è possibile completare e contabilizzare le registrazioni come qualsiasi altra registrazione COGE periodica. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Per impostare le chiavi di allocazione
-È possibile assegnare un movimento in una registrazione COGE periodica a più conti diversi, quando tale registrazione viene contabilizzata. L'allocazione può essere effettuata per quantità, percentuale o importo.
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Reg. periodiche generali** e quindi scegliere il collegamento correlato.
+
+È possibile assegnare un movimento in una registrazione COGE periodica a più conti diversi, quando tale registrazione viene contabilizzata. L'allocazione può essere effettuata per quantità, percentuale o importo.  
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni periodiche generali**, quindi scegli il collegamento correlato.
 2. Scegliere il campo **Nome batch** per aprire la pagina **Batch registrazioni COGE**.
 3. È possibile modificare le allocazioni in un batch esistente nell'elenco o creare un nuovo batch con le allocazioni.
    * Per creare un nuovo batch, scegliere l'azione **Nuovo** e andare al passaggio successivo.
@@ -47,7 +49,7 @@ Di seguito viene descritto come preparare l'allocazione dei costi in una registr
 11. Effettuare la registrazione.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Per modificare una chiave di allocazione già impostata
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Reg. periodiche generali** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni periodiche generali**, quindi scegli il collegamento correlato.
 2. Nella pagina **Registrazioni periodiche generali** selezionare le registrazioni con l'allocazione.
 3. Selezionare la riga con l'allocazione e scegliere l'azione **Allocazioni**.
 4. Cambiare i campi pertinenti e quindi scegliere **OK**.
@@ -56,4 +58,7 @@ Di seguito viene descritto come preparare l'allocazione dei costi in una registr
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)    
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)    
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,37 +1,44 @@
 ---
-title: Registrare e rimborsare le spese di lavoro dei dipendenti | Microsoft Docs
-description: Registrare le spese di un dipendente con le registrazioni COGE nel conto del dipendente e successivamente registrare un pagamento verso il conto bancario del dipendente per rimborsarlo delle spese sostenute per il lavoro.
-services: project-madeira
-documentationcenter: ''
+title: Registrare e rimborsare le spese dei dipendenti
+description: Registra le spese di un dipendente con le registrazioni COGE nel conto del dipendente e successivamente registra un pagamento verso il conto bancario per rimborsare le spese sostenute per il lavoro.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5f943006997e4735d4ec224957442f23e2af1324
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 63, 234, 625, 5224, 5237, 5238, 5239, 5240
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 02299f484f510b8d78ecdfda4447046a650af21c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184078"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972959"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registrare e rimborsare le spese dei dipendenti
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supporta le transazioni per i dipendenti in modo simile alle transazioni per i fornitori. Di conseguenza, sono disponibili alcune categorie di registrazione dipendenti che consentono di assicurarsi che i movimenti contabili per i dipendenti siano registrati nei conti di pertinenza nella contabilità COGE.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] supporta le transazioni per i dipendenti in modo simile alle transazioni per i fornitori. Di conseguenza, sono disponibili alcune categorie di registrazione dipendenti che consentono di assicurarsi che i movimenti contabili per i dipendenti siano registrati nei conti di pertinenza nella contabilità COGE.
 
 > [!NOTE]  
 > Le transazioni relative ai dipendenti possono essere registrate solo nella valuta locale. I rimborsi ai dipendenti non supportano sconti e e tolleranze sui pagamenti.
 
-Se i dipendenti spendono denaro personale durante le attività lavorative, è possibile registrare le spese nei conti dei dipendenti. È quindi possibile rimborsare il dipendente effettuando un pagamento sul conto bancario del dipendente, analogamente a quando si pagano i fornitori.
+Se i dipendenti spendono denaro personale durante le attività lavorative, è possibile registrare le spese nei conti dei dipendenti. È quindi possibile rimborsare il dipendente effettuando un pagamento sul conto bancario del dipendente, analogamente a quando si pagano i fornitori.  
+
+> [!TIP]
+> Questo articolo spiega come registrare le spese nei libri e come rimborsare il dipendente. L'organizzazione potrebbe avere un portale o un'app in cui i dipendenti possono inviare le proprie note spese.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] è sufficientemente flessibile per adattarsi a molte pratiche diverse. I numeri di account esatti da utilizzare dipendono dalla configurazione e dai processi dell'organizzazione.  
 
 ## <a name="to-record-an-employees-expense"></a>Per registrare le spese di un dipendente
+
 Le spese del dipendente vengono registrate nella pagina **Contabilità generale**.
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.  
 2. Aprire il batch registrazioni COGE appropriato. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
-3. In una nuova riga di registrazione, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+3. In una nuova riga di registrazione, compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]
     > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
@@ -42,19 +49,26 @@ Le spese del dipendente vengono registrate nella pagina **Contabilità generale*
 5. Scegliere l'azione **Registra** per registrare spese nel conto del dipendente.
 
 ## <a name="to-reimburse-an-employee"></a>Per rimborsare un dipendente
-I dipendenti vengono rimborsati registrando i pagamenti nei relativi conti bancari nella pagina **Registrazioni pagamenti**.
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
+
+I dipendenti vengono rimborsati registrando i pagamenti nei relativi conti bancari nella pagina **Registrazioni pagamenti**.  
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
 2. Aprire il batch registrazioni pagamenti appropriato. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 3. Compilare i campi, se necessario. Per ulteriori informazioni, vedere [Effettuare i pagamenti](payables-make-payments.md).
 4. In alternativa, scegliere l'azione **Suggerisci pagamenti dipendente** per inserire automaticamente righe di registrazione per rimborsi in sospeso al dipendente.
 5. Scegliere l'azione **Registra** per registrare il rimborso.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Per riconciliare i rimborsi con movimenti contabili del dipendente
+
 I pagamenti dei dipendenti si applicano ai movimenti contabili aperti correlati come si fa per i pagamenti dei fornitori, ad esempio nella pagina **Registrazione riconciliazione pagamenti**, in base ai movimenti relativi dell'estratto conto. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md). In alternativa, è possibile applicarli manualmente nella pagina **Movimenti contabili dipendente**. Per ulteriori informazioni, vedere [Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Vedi anche
+
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

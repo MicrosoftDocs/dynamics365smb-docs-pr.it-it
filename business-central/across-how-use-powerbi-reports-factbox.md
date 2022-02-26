@@ -1,72 +1,125 @@
 ---
-title: Visualizzare i report personalizzati di Power BI | Microsoft Docs
-description: È possibile usare i report Power BI per ottenere informazioni aggiuntive sui dati negli elenchi.
-author: edupont04
+title: Visualizzare report Power BI personalizzati
+description: Puoi usare Power BI FactBox per visualizzare report Power BI e ottenere informazioni dettagliate sui dati dei record negli elenchi chiave.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: 15b9f17b0b7748df977eef3837fb75122eb8d1ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/11/2021
+ms.author: jswymer
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187846"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440926"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Visualizzazione dei dati degli elenchi nei report Power BI in Business Central
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] include un elemento di controllo Dettaglio informazioni in una serie di pagine elenco chiave che offrono informazioni aggiuntive sui dati in elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata. È possibile creare i report personalizzati da visualizzare in questo controllo, ma vi sono alcune regole da seguire nella creazione di report per assicurare il comportamento desiderato.  
+[!INCLUDE[prod_long](includes/prod_long.md)] include un elemento di controllo Dettaglio informazioni Power BI su diverse pagine elenco chiave. Lo scopo di questo Dettaglio informazioni è di visualizzare i report Power BI che sono correlati ai record negli elenchi, fornendo ulteriori informazioni sui dati. L'idea è che spostandosi tra le righe dell'elenco, il report si aggiorna per la voce selezionata.
 
-> [!NOTE]  
-> È necessario disporre di un account valido con [!INCLUDE[prodshort](includes/prodshort.md)] e con Power BI. Inoltre, per creare report personalizzati, è necessario scaricare [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Per ulteriori informazioni, vedere [Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md).  
+[!INCLUDE[prod_long](includes/prod_long.md)] viene fornito con alcuni di questi report. Puoi anche creare i tuoi report personalizzati che vengono visualizzati in questo Dettaglio informazioni. La creazione di questi report è simile ad altri report. Ma ci sono alcune regole di progettazione che dovrai seguire per assicurarti che i report vengano visualizzati come previsto. Queste regole sono spiegate in questo articolo.
 
-## <a name="report-data-set"></a>Set di dati del report
-Quando si crea il report in Power BI Desktop, specificare l'origine dei dati o il servizio Web che contiene i dati relativi all'elenco che si desidera associare al report. Ad esempio, se si desidera creare un report per la lista di vendita, verificare che il set di dati contenga le informazioni relative alle vendite.  
+> [!NOTE]
+> Per informazioni generali sulla creazione e la pubblicazione di report Power BI per Business Central, vedi [Creazione di report Power BI per visualizzare i dati [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md). 
 
-Per filtrare i dati nei report basati sul record selezionato nella pagina elenco, la chiave primaria deve essere utilizzata come filtro nel report. Le chiavi primarie dovranno fa parte di un set di dati in modo che i report vengano filtrati correttamente. Nella maggior parte dei casi, la chiave primaria per un elenco è **Nr.** .  
+## <a name="prerequisites"></a>Prerequisiti
 
-## <a name="defining-the-report-filter"></a>Definizione del filtro report
-Il report richiede un filtro di base del report (non una pagina o un filtro visivo e non un filtro avanzato) per filtrare correttamente nel controllo del riquadro dettaglio informazioni di Power BI. Il filtro che viene trasmesso al report Power BI da ogni pagina elenco sarà basato sulla chiave primaria come descritto nella precedente sezione.  
+- Un account Power BI.
+- Power BI Desktop.
 
-Per definire un filtro per il report, selezionare la chiave primaria dall'elenco dei campi disponibili e quindi trascinare il campo nella sezione **Filtro Report**.  
+<!-- 
+For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-![Impostare il filtro del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+## <a name="create-a-report-for-a-list-page"></a>Crea un report per una pagina di elenco
 
-## <a name="report-size-and-color"></a>Dimensione e colori del report
-La dimensione del report deve essere impostata su 325 x 310 pixel. Ciò è necessario per il corretto ridimensionamento del report nello spazio disponibile consentito dal controllo del riquadro dettaglio informazioni di Power BI. Per definire la dimensione del report, posizionare il focus all'esterno dell'area del layout di report e quindi scegliere l'icona del rullo di verniciatura.
+1. Avviare Power BI Desktop.
+2. Seleziona **Ottieni dati** e inizia a scegliere l'origine dati per il report.
 
-![Impostare la larghezza e l'altezza del report per il report Attività Fattura vendita](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+    Specificare le pagine di elenco di Business Central che contengono i dati desiderati nel report. Ad esempio, per creare un report per l'elenco **Fatture vendita**, includere le pagine relative alle vendite.
+
+    Per ulteriori informazioni, segui le istruzioni [Aggiungi [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
+
+3. Imposta il filtro per i report.
+
+    Per aggiornare i dati al record selezionato nell'elenco, aggiungere un filtro al report. Il filtro deve includere un campo dell'origine dati utilizzato per identificare in modo univoco ogni record nell'elenco. Per gli sviluppatori, questo campo è la *chiave primaria*. Nella maggior parte dei casi, la chiave primaria per un elenco è **Nr.** .
+
+    Per impostare il filtro, procedi nel seguente modo:
+
+    1. In **Filtri**, seleziona il campo della chiave primaria dall'elenco dei campi disponibili.
+    2. Trascina il campo sul riquadro **Filtri** e rilascialo nella casella **Filtri su tutte le pagine**.
+    3. Imposta il **Tipo di filtro** su **Filtro di base**. Non può essere un filtro di pagina, visivo o avanzato.
+
+    ![Imposta il filtro del report per il report Attività Fattura vendita.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+4. Progetta l'area di disposizione del report.
+
+    Crea l'area di disposizione trascinando i campi e aggiungendo visualizzazioni. Per ulteriori informazioni, vedi [Lavora con la visualizzazione Report in Power BI Desktop](/power-bi/create-reports/desktop-report-view) nella documentazione di Power BI.
+
+5. Vedi le sezioni successive sul dimensionamento del report e sull'utilizzo di più pagine.
+
+6. Salva e assegna un nome al rapporto.
+
+    Assegnare al report un nome che contenga il nome della pagina di elenco associata al report, come nel client. Il nome però non fa distinzione tra maiuscole e minuscole. Supponiamo che il report sia per la pagina di elenco **Fatture vendita**. In questo caso, includi le parole **fatture vendita** nel nome, come **le mie fatture vendita.pbix** o **mie_Fatture vendita_list.pbix**.
+
+    Questa convenzione di denominazione non è un requisito. Tuttavia, rende la selezione dei report in [!INCLUDE[prod_short](includes/prod_short.md)] più veloce. Quando la pagina di selezione del report si apre da una pagina di elenco, viene automaticamente applicato un filtro in base al nome della pagina. Il filtro ha la sintassi: `@*<caption>*`, come `@*Sales Invoices*`. Questo filtro viene eseguito per limitare i report visualizzati. Gli utenti possono rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.
+
+7. Quando hai finito, pubblica il report come al solito.
+
+    Per ulteriori informazioni, vedi [Pubblicazione di un report](across-how-use-financials-data-source-powerbi.md#publish-reports).
+
+8. Prova il report.
+
+    Una volta che il rapporto è stato pubblicato nel tuo spazio di lavoro, dovrebbe essere disponibile dal Dettaglio informazioni di Power BI nella pagina dell'elenco in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+    Per provarlo, segui i passaggi seguenti.
+
+    1. Apri [!INCLUDE[prod_short](includes/prod_short.md)] e vai alla pagina dell'elenco.
+    2. Se non vedi Dettaglio informazioni di Power BI, vai alla barra delle azioni, quindi seleziona **Azioni** > **Visualizza** > **Mostra/Nascondi report di Power BI**.
+    3. In Dettagli informazioni di Power BI, scegli **Seleziona report**, quindi la casella **Abilita** per il report, quindi seleziona **OK**.
+
+    Se progettato correttamente, viene visualizzato il report.  
+
+## <a name="set-the-report-size-and-color"></a>Imposta le dimensioni e il colore del report
+
+La dimensione del report deve essere impostata su 325 x 310 pixel. Questa dimensione fornisce il corretto ridimensionamento del report nello spazio disponibile dal controllo del riquadro dettaglio informazioni Power BI in [!INCLUDE[prod_short](includes/prod_short.md)]. Per definire la dimensione del report, posizionare il focus all'esterno dell'area del layout di report e quindi scegliere l'icona del rullo di verniciatura.
+
+![Imposta la larghezza e l'altezza del report per il report Attività Fattura vendita.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 È possibile modificare la larghezza e l'altezza del report scegliendo **Personalizzato** nel campo **Tipo**.
 
-Allo stesso modo, se si desidera che lo sfondo del report sfumi con il colore di sfondo del controllo del riquadro dettaglio informazioni di Power BI, definire un colore di sfondo personalizzato del report *E5E5E5*. Questo campo è facoltativo.  
+Se desideri che lo sfondo del report sfumi con il colore di sfondo del controllo del riquadro Dettaglio informazioni di Power BI, imposta un colore di sfondo personalizzato del report *#FFFFFF* (bianco). 
+
+> [!TIP]
+> Usa il file del tema di [!INCLUDE [prod_short](includes/prod_short.md)] per creare report con lo stesso stile di colore delle app [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Uso del tema del report [!INCLUDE [prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-powerbi.md#theme).
 
 ## <a name="reports-with-multiple-pages"></a>Report con più pagine
-Power BI consente di creare un unico report con più pagine. Gli elementi grafici che si desidera visualizzare nelle pagine elenco di [!INCLUDE[d365fin](includes/d365fin_md.md)] devono essere nella prima pagina del report di Power BI.  
 
-> [!NOTE]  
-> Il riquadro dettaglio informazioni di Power BI può mostrare solo la prima pagina del report. Se si desidera visualizzare altre pagine, è necessario espandere il report e utilizzare le schede nella parte inferiore del report per passare ad atre pagine.  
+Power BI consente di creare un unico report con più pagine. Tuttavia, per i report che verranno visualizzati con le pagine di elenco, non è consigliabile che abbiano più di una pagina. Il riquadro Dettaglio informazioni Power BI mostrerà solo la prima pagina del report.
 
-## <a name="saving-your-report"></a>Salvare il report
+## <a name="fixing-problems"></a>Risolvere i problemi
 
-Quando si salva il report, è una buona pratica che il nome del report contenga il nome della pagina elenco in cui si desidera visualizzare il report. Ad esempio, la parola *Fornitore* deve essere contenuta da qualche parte nel nome del report per i report che si desidera rendere disponibili nell'elenco Fornitori.  
+Questa sezione descrive come risolvere i problemi che potresti incontrare durante il tentativo di visualizzare un report di Power BI per una pagina di elenco in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Questo non è un requisito; tuttavia, renderà il processo di selezione dei report più veloce. Quando la pagina di selezione dei report viene aperta da una pagina elenco, si passerà in un filtro in base al nome della pagina per limitare i report da visualizzare.  È possibile rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
+### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Non puoi vedere il Dettaglio informazioni di Power BI in una pagina di elenco
 
-## <a name="troubleshooting"></a>Risoluzione dei problemi
-In questa sezione viene fornita una soluzione alternativa per i problemi più comuni che si verificano quando si creano report Power BI.  
+Per impostazione predefinita, il Dettaglio informazioni di Power BI è nascosto alla vista. Per visualizzare il Dettaglio informazioni su una pagina, dalla barra delle azioni, seleziona **Azioni** > **Schermo** > **Mostra/Nascondi report Power BI**.
 
-**L'utente non visualizza un report che desidera selezionare nella pagina di selezione report.** Se non è possibile selezionare un report, è possibile verificare il nome del report per assicurarsi che esso contenga il nome della pagina elenco. È anche possibile rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
+### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Non è possibile visualizzare il report nel pannello Seleziona report
 
-**Il report viene caricato ma è vuoto, non filtrato o filtrato erroneamente** Verificare che il filtro del report contenga la chiave primaria corretta. Nella maggior parte dei casi, questo è il campo **Nr.** ma nella tabella **Movimenti C/G**, ad esempio, è necessario utilizzare il campo **Nr. movimento**.
+Il nome del report non contiene il nome della pagina di elenco visualizzata. Rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
 
-**Il report viene caricato ma non viene visualizzata la pagina prevista** Verificare che la pagina che si desidera visualizzare sia la prima pagina del report.  
+### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Il report è caricato ma è vuoto, non filtrato o filtrato in modo errato
 
-**Il report viene visualizzato con bordi grigi indesiderati, è troppo piccolo o troppo grande**
+Verifica che il filtro del report contenga la chiave primaria corretta. Nella maggior parte dei casi, questo è il campo **Nr.** ma nella tabella **Movimenti C/G**, ad esempio, è necessario utilizzare il campo **Nr. movimento**.
+
+### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Il report è caricato, ma mostra una pagina non prevista
+
+Verificare che la pagina da visualizzare sia la prima pagina del report.  
+
+### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Il report viene visualizzato con un bordo grigio indesiderato o è troppo piccolo o troppo grande
 
 Verificare che la dimensione del report sia impostata su 325 x 310 pixel. Salvare il report quindi aggiornare la pagina elenco.  
 
@@ -75,7 +128,10 @@ Verificare che la dimensione del report sia impostata su 325 x 310 pixel. Salvar
 ## <a name="see-also"></a>Vedere anche
 
 [Abilitare i dati aziendali per Power BI](admin-powerbi.md)  
-[Uso di [!INCLUDE[d365fin](includes/d365fin_md.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Introduzione](product-get-started.md)  
-[Impostazione di [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Preparazione al business](ui-get-ready-business.md)  
+[Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanze](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

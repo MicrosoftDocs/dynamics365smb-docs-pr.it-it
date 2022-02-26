@@ -3,19 +3,19 @@ title: "Dettagli di progettazione: Registrazione dell'ordine di produzione | Mic
 description: Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d69007dfba9fe7aa95365f7bd2c7f5b6b2c756d0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184822"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442362"
 ---
 # <a name="design-details-production-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di produzione
 Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md). Tuttavia, il flusso dei costi per gli ordini di assemblaggio è meno complesso, soprattutto perché la registrazione dei costi di assemblaggio si verifica solo una volta e pertanto non genera magazzino WIP.
@@ -45,7 +45,7 @@ A seconda del tipo di magazzino, gli aumenti e le diminuzioni sono rappresentati
 ||Aumenti|Diminuzioni|  
 |-|---------------|---------------|  
 |**Magazzino di materie prime**|-   Acquisti netti di materiale<br />-   Output di sottoassemblaggi<br />-   Consumo negativo|Consumo materiale|  
-|**Magazzino WIP**|-   Consumo materiale<br />-   Consumo capacità<br />-   Costi generali produzione|Output di articoli finali (costo delle merci lavorate)|  
+|**Magazzino WIP**|-   Consumo materiale<br />-   Consumo della capacità<br />-   Costi generali produzione|Output di articoli finali (costo delle merci lavorate)|  
 |**Magazzino di prodotti finiti**|Output di articoli finali (costo delle merci lavorate)|-   Vendite (costo degli articoli venduti)<br />-   Output negativo|  
 |**Magazzino di materie prime**|-   Acquisti netti di materiale<br />-   Output di sottoassemblaggi<br />-   Consumo negativo|Consumo materiale|  
 
@@ -58,11 +58,11 @@ La registrazione di ordini di produzione nel magazzino WIP include l'output, il 
 
 Nel seguente diagramma vengono mostrate le routine di registrazione implicate nella codeunit 22.  
 
-![Procedure di registrazione ordini di produzione](media/design_details_inventory_costing_14_production_posting_1.png "Procedure di registrazione ordini di produzione")  
+![Procedure di registrazione ordini di produzione.](media/design_details_inventory_costing_14_production_posting_1.png "Procedure di registrazione ordini di produzione")  
 
 Nel seguente diagramma vengono mostrate le associazioni tra i movimenti risultanti e gli oggetti di costo.  
 
-![Flussi di movimenti produzione](media/design_details_inventory_costing_14_production_posting_2.png "Flussi di movimenti produzione")  
+![Flussi di movimenti produzione.](media/design_details_inventory_costing_14_production_posting_2.png "Flussi di movimenti produzione")  
 
 Il movimento contabile capacità descrive il consumo di capacità in termini di unità di tempo, mentre il corrispondente movimento di valorizzazione descrive il valore del consumo specifico della capacità.  
 
@@ -110,3 +110,6 @@ Negli ambienti con costi standard, il calcolo dei costi di un ordine di produzio
  [Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md) [Contabilità](finance.md)  
  [Utilizzo di Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

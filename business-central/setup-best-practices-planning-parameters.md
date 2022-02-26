@@ -1,21 +1,21 @@
 ---
-title: 'Impostare le procedure ottimali: pianificazione parametri | Documenti Microsoft'
-description: La Scheda dettaglio Pianificazione nella scheda articolo è l'elemento centrale della supply chain di una società. L'impostazione dei parametri di pianificazione corretti è molto importante per un controllo del magazzino conveniente e un'assistenza clienti di ottima qualità.
+title: Impostare le procedure ottimali - Pianificazione dei parametri
+description: Questo argomento descrive le procedure consigliate per impostare i campi dei parametri di pianificazione selezionati con la Scheda dettaglio Pianificazione nella scheda articolo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8ff874a076aa1a0bba09e1277cb19ee6553eaa8b
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271920"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320058"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Impostare le procedure ottimali: Pianificazione dei parametri
 La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centrale della supply chain di una società. L'impostazione dei parametri di pianificazione corretti è molto importante per un controllo del magazzino conveniente e un'assistenza clienti di ottima qualità.  
@@ -45,4 +45,7 @@ La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centr
  [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
  [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
  [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-demand-at-blank-location.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

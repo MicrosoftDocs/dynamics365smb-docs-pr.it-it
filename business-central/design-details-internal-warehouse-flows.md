@@ -1,21 +1,21 @@
 ---
-title: 'Dettagli di progettazione: Flussi warehouse interni | Microsoft Docs'
-description: Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine.
+title: Dettagli di progettazione - Flussi warehouse interni
+description: Il flusso tra i contenitori è incentrato sul prelievo dei componenti e sullo stoccaggio degli articoli finali per gli ordini di assemblaggio o di produzione e movimenti ad hoc, senza documenti di origine.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7fa2f139935e279af47548b5c8e8a28b84845521
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185326"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441749"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Dettagli di progettazione: Flussi warehouse interni
 Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine. L'ambito e la natura delle attività implicate variano tra la gestione di base e avanzata della warehouse.  
@@ -90,7 +90,7 @@ Il flusso di articoli in una collocazione all'interno della società si concentr
 ## <a name="flushing-production-components-in-the-warehouse"></a>Consuntivazione componenti di produzione nel magazzino  
  Se impostati in una scheda articolo, i componenti prelevati con prelievi warehouse vengono registrati come consumati dall'ordine di produzione durante la registrazione del prelievo warehouse. Utilizzando il metodo **Prelievo+Aut.Inizio** e il metodo di flushing **Prelievo+Aut.Fine** la registrazione del prelievo attiva la registrazione del consumo correlata quando inizia la prima operazione o quando termina l'ultima operazione, rispettivamente.  
 
- Considerare il seguente scenario in base all'ubicazione BIANCA del database di esempio di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Considerare il seguente scenario in base all'ubicazione BIANCA del database di esempio di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Esiste un ordine di produzione per 15 PZ dell'articolo LS-100. Alcuni degli articoli nell'elenco dei componenti devono essere consuntivati manualmente in una registrazione di consumo, mentre altri articoli dell'elenco possono essere prelevati e consuntivati automaticamente utilizzando il metodo di consuntivazione **Prelievo+Aut.Fine**.  
 
@@ -114,7 +114,10 @@ Il flusso di articoli in una collocazione all'interno della società si concentr
 
  Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione** nell'elenco di componenti viene compilato in base all'ubicazione o all'impostazione area di produzione/centro di lavoro.  
 
- ![Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato](media/binflow.png "Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato")  
+ ![Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.](media/binflow.png "Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato")  
 
 ## <a name="see-also"></a>Vedere anche  
  [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

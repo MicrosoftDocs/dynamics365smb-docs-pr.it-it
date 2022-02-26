@@ -3,30 +3,32 @@ title: Impostare i processi di troubleshooting | Documenti Microsoft
 description: Informazioni su come impostare i processi che consentono ai rappresentanti dell'assistenza di identificare e risolvere i problemi con gli articoli in assistenza.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6a0a4b49b957d082ad66178aabd1ccc532011885
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 5dbef8bda307a38b25e3c84776da0a50e2daced5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877305"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436503"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Impostazione del troubleshooting per gli articoli in assistenza
 È possibile impostare delle indicazioni di troubleshooting per consentire ai tecnici di risolvere i problemi mentre forniscono assistenza. Tali indicazioni potrebbero essere, ad esempio, un elenco di passaggi da eseguire per una riparazione o una serie di domande da chiedere in merito agli articoli. Dopo aver impostato le indicazioni di troubleshooting, è possibile assegnarle ai gruppi di articoli di assistenza, agli articoli o agli articoli in assistenza. Esiste una gerarchia di ereditarietà per le indicazioni. Se le indicazioni vengono assegnate a un gruppo di articoli in assistenza, gli articoli inclusi in tale gruppo le erediteranno a meno che non ne vengano specificate altre. Analogamente, gli articoli in assistenza erediteranno tutte le indicazioni dagli articoli.  
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a>Per impostare le indicazioni di troubleshooting
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Risoluzione dei problemi** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risoluzione dei problemi**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a>Per assegnare le indicazioni di troubleshooting ai gruppi di articoli di assistenza, agli articoli o agli articoli di assistenza
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli**, **Articoli in assistenza** o **Gruppi articoli in assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, **Articoli in assistenza**, o **Gruppi articoli in assistenza**, quindi scegli il collegamento correlato.  
 2. Scegliere l'entità appropriata, quindi scegliere l'azione **Troubleshooting**.  
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione assistenza](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,25 +1,29 @@
 ---
-title: Come creare report con XBRL | Microsoft Docs
-description: XBRL è l'acronimo di eXtensible Business Reporting Language, un linguaggio basato su XML per l'assegnazione di tag ai dati finanziari che consente alle aziende di elaborare e condividere i dati in maniera efficiente e accurata.
+title: Come creare report con XBRL
+description: XBRL è un linguaggio basato su XML per l'assegnazione di tag ai dati finanziari che consente alle aziende di elaborare e condividere i dati in maniera efficiente e accurata.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4fd911a708a929a9c73270c05b7729d17d84ec13
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186142"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101323"
 ---
 # <a name="create-reports-with-xbrl"></a>Creare report con XBRL
+
+> [!NOTE]
+> Stiamo rimuovendo le funzionalità per i report XBRL da [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Modifiche nel primo ciclo di rilascio del 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
+
 XBRL è l'acronimo di eXtensible Business Reporting Language, un linguaggio basato su XML per l'assegnazione di tag ai dati finanziari che consente alle aziende di elaborare e condividere i dati in maniera efficiente e accurata. L'iniziativa XBRL abilita il reporting finanziario globale da parte di numerose società che producono software ERP e organizzazioni contabili internazionali. L'obiettivo dell'iniziativa consiste nel fornire uno standard per il reporting uniforme delle informazioni finanziarie per banche, investitori e autorità governative. Tali funzionalità di reporting possono includere:  
 
  • Rendiconti finanziari  
@@ -27,17 +31,22 @@ XBRL è l'acronimo di eXtensible Business Reporting Language, un linguaggio basa
  • Informazioni non finanziarie  
  • Archiviazioni normative, quali i rendiconti finanziari annuali e trimestrali  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] consente alle società di implementare i dati in XBRL e utilizzare la flessibilità e l'automazione fornite per la raccolta e la condivisione dei dati.  
+> [!NOTE]
+> È possibile importare schemi correlati alla contabilità generale e creare documenti di istanza XBRL mappando i dati C/G dal piano dei conti agli elementi di tassonomie progettati per i report finanziari, come conti patrimoniali, conti economici e così via.
+> 
+> Le funzionalità XBRL in Business Central supportano le tassonomie per la Specifica 2.1. Le tassonomie potrebbero tuttavia contenere elementi non supportati, come basi di collegamento delle formule, iXBRL, o avere altre differenze strutturali. Si consiglia di convalidare la funzionalità XBRL prima di utilizzarla per la creazione di report.
+> 
+> Il supporto completo per le tassonomie potrebbe richiedere strumenti e tag XBRL di terze parti. L'organizzazione XBRL International dispone di un elenco di strumenti e servizi che è possibile utilizzare per la creazione di report XBRL. A seconda dei requisiti di creazione di report XBRL per una determinata tassonomia, potrebbe essere necessario esplorare tali risorse. Per ulteriori informazioni, vedi la pagina di [introduzione per le aziende](https://go.microsoft.com/fwlink/?linkid=2153466) e [Strumenti e servizi](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) è un linguaggio XML utilizzato per la creazione di rendiconti finanziari. Esso fornisce uno standard uniforme per la stesura di report utilizzato da tutti gli utenti che forniscono informazioni finanziarie, ad esempio società private e pubbliche, commercialisti, autorità di regolamentazione, analisti finanziari, investitori, operatori finanziari e finanziatori, nonché terze parti che svolgono un ruolo chiave, quali sviluppatori di software e analisti di dati.  
 
 La gestione delle tassonomie è a cura di www.xbrl.org. Per ulteriori informazioni o se si desidera scaricare le tassonomie, è possibile visitare il sito Web di XBRL.  
 
-Chi richiede informazioni finanziarie fornisce una tassonomia, sotto forma di un documento XML, contenente uno o più schemi, ciascuno con una o più righe da compilare. Le righe corrispondono ai singoli dati finanziari richiesti dal mittente. È innanzitutto necessario importare la tassonomia nell'applicazione, quindi procedere alla compilazione degli schemi, specificando il conto o i conti che corrispondono a ciascuna riga e il tipo di intervallo temporale da utilizzare, ad esempio Saldo Periodo o Saldo alla Data. In alcuni casi, invece, è possibile immettere una costante, ad esempio il numero di dipendenti. A questo punto, il documento di istanza (un documento XML) è pronto per essere inviato alla persona che ha richiesto le informazioni. Poiché questo processo può essere un evento ricorrente, a meno che non vengano apportate modifiche alla tassonomia, sarà sufficiente esportare su richiesta nuovi documenti di istanza per periodi differenti.  
+Chi richiede informazioni finanziarie fornisce una tassonomia, sotto forma di un documento XML, contenente uno o più schemi, ciascuno con una o più righe da compilare. Le righe corrispondono ai singoli dati finanziari richiesti dal mittente. È innanzitutto necessario importare la tassonomia, quindi procedere alla compilazione degli schemi, specificando il conto o i conti che corrispondono a ciascuna riga e il tipo di intervallo temporale da utilizzare, ad esempio Saldo Periodo o Saldo alla Data. In alcuni casi, invece, è possibile immettere una costante, ad esempio un numero di dipendenti. A questo punto, il documento di istanza (un documento XML) è pronto per essere inviato al richiedente. Poiché questo processo può essere un evento ricorrente, a meno che non vengano apportate modifiche alla tassonomia, sarà sufficiente esportare su richiesta nuovi documenti di istanza per periodi differenti.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>Componenti di XBRL  
-La **Specifica** XBRL definisce il linguaggio XBRL, la modalità di creazione di documenti di istanza XBRL e delle tassonomie XBRL. La specifica XBRL illustra il linguaggio in termini tecnici ed è rivolta essenzialmente agli utenti esperti.  
+La **Specifica** XBRL definisce il linguaggio XBRL e la modalità di creazione di documenti di istanza XBRL e delle tassonomie XBRL. La specifica XBRL illustra il linguaggio in termini tecnici ed è rivolta essenzialmente agli utenti esperti.  
 
 Lo **Schema** XBRL è il componente di base del linguaggio XBRL. Lo schema è costituito da un file XSD che fornisce le istruzioni di creazione dei documenti di istanza e delle tassonomie.  
 
@@ -48,7 +57,7 @@ La **Tassonomia** XBRL è un "vocabolario" o "dizionario", compatibile con la sp
 Il **Documento di istanza** XBRL è un report finanziario, ad esempio un rendiconto finanziario preparato secondo la specifica XBRL. Il significato dei valori presenti nel documento di istanza è spiegato dalla tassonomia. Un documento di istanza può avere scarso significato per l'utente, a meno che non conosca la tassonomia in base alla quale è stato preparato.  
 
 ## <a name="layered-taxonomies"></a>Livelli di tassonomie  
-Una tassonomia può essere composta da una tassonomia di base, ad esempio, us-gaap o IAS, e disporre di una o più estensioni. Analogamente, una tassonomia fa riferimento a uno o più schemi, che costituiscono tassonomie separate. Quando le tassonomie aggiuntive vengono caricate nel database, i nuovi elementi vengono semplicemente aggiunti in coda agli elementi esistenti.  
+Una tassonomia può essere composta da una tassonomia di base, ad esempio, us-gaap o IAS, e disporre di una o più estensioni. Analogamente, una tassonomia fa riferimento a uno o più schemi, ognuno dei quali è una tassonomia distinta. Quando le tassonomie aggiuntive vengono caricate nel database, i nuovi elementi vengono semplicemente aggiunti in coda agli elementi esistenti.  
 
 ## <a name="linkbases"></a>Basi di collegamento  
  In base alla specifica XBRL 2, la tassonomia viene descritta utilizzando diversi file XML. Il file XML principale è il file di schema della tassonomia, con estensione xsd, che contiene solo una lista non ordinata di elementi o dati da riportare. Oltre a questo, vi sono in genere file di basi di collegamento associati, con estensione xml, che contengono dati complementari alla tassonomia primaria (file con estensione xsd). Esistono sei tipi di file di basi di collegamento, quattro dei quali sono rilevanti per lo schema XBRL di Nome prodotto. Si tratta di:  
@@ -66,7 +75,7 @@ Dopo aver importato o aggiornato la tassonomia, è necessario fornire alle righe
 
 È possibile impostare le righe XBRL associando i dati della tassonomia ai dati di contabilità generale mediante mappatura.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tassonomie XBRL** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tassonomie XBRL**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Tassonomie XBRL** selezionare una tassonomia dall'elenco.  
 3.  Scegliere l'azione **Righe**.  
 4.  Selezionare una riga e compilare i campi.   
@@ -74,16 +83,19 @@ Dopo aver importato o aggiornato la tassonomia, è necessario fornire alle righe
 6.  Per impostare il mapping dei conti C/G nel piano dei conti alle righe XBRL, scegliere l'azione **Righe mappa C/G**.  
 7.  Per aggiungere note al rendiconto finanziario, scegliere l'azione **Note**.  
 
-> [!NOTE]  
->  È possibile esportare solo dati che corrispondono al tipo di origine selezionato nel campo **Tipo Origine**, incluse descrizione e note.  
+   > [!TIP]
+   > Per escludere righe dall'esportazione, scegli **NON APPLICABILE** come tipo di origine.
 
-> [!NOTE]  
->  Le righe che non pertinenti possono essere contrassegnate come **NON APPLICABILE** e di conseguenza non verranno esportate.
+   > [!NOTE]  
+   > Puoi esportare solo i dati che corrispondono alla selezione nel campo **Tipo di origine**. Ciò include descrizioni e note.  
+
+   > [!NOTE]  
+   > Le tassonomie potrebbero contenere elementi che [!INCLUDE[prod_short](includes/prod_short.md)] non supporta. Se un elemento non è supportato, il campo **Tipo di origine** visualizzerà **Non applicabile** e il campo **Descrizione** mostrerà un messaggio di errore, come **Tipo imprevisto: "tipo specifico non riconosciuto"**. Se devi esportare l'elemento, scegli un tipo di origine corrispondente. In genere, questa è una costante o una descrizione. Ciò consentirà di immettere ed esportare dati, tuttavia, tali elementi potrebbero avere regole di convalida che non possono essere verificate prima dell'esportazione.
 
  ## <a name="to-import-an-xbrl-taxonomy"></a>Per importare una tassonomia XBRL  
 La prima operazione da eseguire per poter utilizzare la funzionalità XBRL è l'importazione della tassonomia nel database aziendale. Una tassonomia è composta da uno o più schemi e da basi di collegamento. Al termine dell'importazione degli schemi e delle basi di collegamento e dopo avere applicato le basi di collegamento agli schemi, è possibile impostare le righe e associare i conti di contabilità generale del Piano dei Conti alle righe di tassonomia appropriate.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tassonomie XBRL** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tassonomie XBRL**, quindi scegli il collegamento correlato.  
 2.  Creare una nuova riga e immettere il nome e la descrizione della tassonomia nella pagina **Tassonomie XBRL**.  
 3.  Scegliere l'azione **Schemi** e quindi inserire la descrizione dello schema.  
 4.  Per importare lo schema, nella pagina **Schemi XBRL** scegliere l'azione **Importa** e quindi selezionare una cartella e un file XSD. Scegliere il pulsante **Apri**.  
@@ -97,7 +109,7 @@ La prima operazione da eseguire per poter utilizzare la funzionalità XBRL è l'
 ## <a name="to-update-an-xbrl-taxonomy"></a>Per aggiornare una tassonomia XBRL  
 Quando una tassonomia viene modificata è necessario aggiornare di conseguenza la tassonomia corrente. Il motivo della modifica può essere uno schema modificato, una base di collegamento modificata o una nuova base collegamento. Dopo aver aggiornato la tassonomia, sarà necessario mappare le righe per le nuove righe o per quelle modificate.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Tassonomie XBRL** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tassonomie XBRL**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Tassonomie XBRL** scegliere l'azione **Schemi**.  
 3.  Per aggiornare uno schema, selezionare lo schema da aggiornare e scegliere l'azione **Importa**.  
 4.  Per aggiornare o aggiungere una nuova base di collegamento, scegliere l'azione **Basi collegamento**.  
@@ -110,4 +122,7 @@ Quando una tassonomia viene modificata è necessario aggiornare di conseguenza l
 ## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)    
 [Business Intelligence](bi.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

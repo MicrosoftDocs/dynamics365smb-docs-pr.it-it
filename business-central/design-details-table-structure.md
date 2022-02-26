@@ -3,19 +3,19 @@ title: 'Dettagli di progettazione: Struttura della tabella | Microsoft Docs'
 description: Per comprendere in che modo sono state riprogettate l'archiviazione e la registrazione dei movimenti dimensione, è importante comprendere la struttura della tabella.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 04e9fda4d784f8e1fa049455ddcab989691e821c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 6d418633eb884f0b8cfca2f46fc69103a8fabdb2
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184626"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215730"
 ---
 # <a name="design-details-table-structure"></a>Dettagli di progettazione: Struttura della tabella
 Per comprendere in che modo i movimenti dimensione sono archiviati e registrati, è importante comprendere la struttura della tabella.  
@@ -181,8 +181,7 @@ Il campo 480 esiste nelle seguenti tabelle buffer.
 |5637|**Buffer reg. C/G cespiti**|  
 |7136|**Buffer budget articoli**|  
 
-## <a name="see-also"></a>Vedi anche  
- [Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)   
- [Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)   
- [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Vedere anche
+
+[Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)  
+[Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   

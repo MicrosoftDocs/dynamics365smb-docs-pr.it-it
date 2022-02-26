@@ -1,30 +1,30 @@
 ---
-title: Metodi WIP per il calcolo e la registrazione dello stato di avanzamento della commessa| Documenti Microsoft
+title: Metodi WIP per il calcolo e la registrazione dello stato di avanzamento della commessa
 description: Vengono descritti i diversi metodi WIP che possono essere utilizzati per registrare, monitorare e calcolare le informazioni finanziarie per le commesse in corso.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 24dc65182bba549f624f8a66e7eecb1341f1aee1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 1010
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d7fbe8faa3fc4d75f068ad585faddeb1b5186e70
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192797"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970887"
 ---
-# <a name="understanding-wip-methods"></a>Metodi WIP
+# <a name="understanding-wip-methods-in-project-management"></a>Comprendere i metodi WIP nella gestione dei progetti
+
 Durante lo svolgimento di una commessa, vengono consumati materiali, risorse ed effettuate altre spese che devono essere registrate nella commessa. La funzionalità WIP (Work in Process) consente di stimare il valore finanziario delle commesse nella contabilità generale nelle varie fasi di una commessa. In molti casi è possibile registrare le spese relative a una commessa prima di fatturarla. Se sono state registrate solo le spese, il rendiconto finanziario non sarà accurato.
 
 Per tenere traccia del valore nella contabilità generale, è possibile calcolare il WIP e registrare il valore nella contabilità generale. Per ulteriori informazioni, vedere [Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supporta i seguenti metodi di calcolo e di registrazione del valore WIP.
+[!INCLUDE[prod_short](includes/prod_short.md)] supporta i seguenti metodi di calcolo e di registrazione del valore WIP.
 
 | Metodo WIP | Formula di calcolo | Descrizione calcolo |
 | --- | --- | --- |
@@ -35,8 +35,12 @@ Per tenere traccia del valore nella contabilità generale, è possibile calcolar
 | Contratto completato |Importo WIP = Importo costo WIP = Utilizzo (costo totale)<br /><br /> Importo vendita WIP = Fatturabile (prezzo fatturato) |Il ricavo e i costi vengono riconosciuti dal contratto completato solo in seguito al completamento della commessa. Ciò risulta utile qualora le previsioni dei costi e del ricavo della commessa siano particolarmente incerte.<br /><br /> Qualsiasi utilizzo viene registrato in Conto costi WIP (cespiti) e tutte le vendite fatturate vengono registrate in Conto vendite fatturate WIP (passività), fino al completamento della commessa. |
 
 ## <a name="see-also"></a>Vedi anche
+
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
-[Acquisti](purchasing-manage-purchasing.md)         
-[Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Acquisti](purchasing-manage-purchasing.md)  
+[Vendite](sales-manage-sales.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

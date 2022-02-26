@@ -1,21 +1,22 @@
 ---
-title: Cessione o ritiro dei cespiti| Documenti Microsoft
-description: È necessario registrare un valore di cessione quando si scarta, si vende o si ritira un cespite.
+title: Cessione o ritiro dei cespiti
+description: In caso di vendita o cessione di un cespite, occorre registrare il valore di cessione per calcolare e registrare il guadagno o la perdita.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 06/04/2020
+ms.search.form: 5628, 5610, 5611
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 29293e957617fea91c9a8e8b8c1f988b06104494
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.openlocfilehash: 1f3a593b96f311cf742fa4edf510d4b2e930b05d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435209"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029302"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Smaltimento o ritiro dei cespiti
 
@@ -28,7 +29,7 @@ I seguenti passaggi presuppongono che le categorie di registrazione pertinenti s
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Per registrare una cessione tramite Registrazioni Cespiti in C/G
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni cespiti in C/G** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
 2. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Nel campo **Tipo reg. cespite** scegliere **Cessione**.  
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della cessione.  
@@ -42,11 +43,11 @@ In caso di vendita o di cessione parziale di un cespite occorre suddividere il c
 ## <a name="to-view-disposal-ledger-entries"></a>Per visualizzare i movimenti contabili di cessione
 In caso di vendita o di cessione di un cespite, il valore di cessione viene registrato nella contabilità generale dove è possibile visualizzare il risultato.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Cespiti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.  
 2. Selezionare il cespite di cui visualizzare i movimenti, quindi scegliere l'azione **Registri beni ammortizzabili**.  
 3. Selezionare il registro beni ammortizzabili di cui visualizzare i movimenti, quindi scegliere l'azione **Movimenti contabili**.  
-4. Selezionare una riga con **Cessione** nel campo **Categoria reg. cespite** e scegliere l'azione **Naviga**.  
-5. Nella pagina **Naviga** scegliere la riga del movimento contabile e fare clic sull'azione **Mostra**.  
+4. Selezionare una riga con **Cessione** nel campo **Categoria reg. cespite** e scegliere l'azione **Trova movimenti**.  
+5. Nella pagina **Trova movimenti** scegliere la riga del movimento contabile e fare clic sull'azione **Mostra movimenti correlati**.  
 
 Viene visualizzata la pagina **Movimenti C/G** in cui è possibile visualizzare i movimenti che hanno comportato la registrazione di cessione.  
 
@@ -56,5 +57,9 @@ Viene visualizzata la pagina **Movimenti C/G** in cui è possibile visualizzare 
 [Impostazione di cespiti](fa-setup.md)  
 [Per impostare le categorie di registrazione dei cespiti](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finanze](finance.md)  
-[Introduzione](product-get-started.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Preparazione al business](ui-get-ready-business.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trova movimenti](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

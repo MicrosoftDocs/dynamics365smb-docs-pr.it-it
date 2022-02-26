@@ -1,24 +1,24 @@
 ---
-title: Movimenti contabili articoli aperti
-description: Ottenere informazioni sul perché il livello di magazzino è pari a zero sebbene vi siano movimenti contabili articoli aperti.
+title: Movimenti contabili articoli aperti con inventario zero
+description: In questo articolo viene discusso un problema in cui il livello di scorte è pari a zero sebbene vi siano movimenti contabili articoli aperti.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185206"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444997"
 ---
 # <a name="design-details-known-item-application-issue"></a>Dettagli di progettazione: Problema noto di collegamento articoli
-In questo articolo viene discusso un problema in cui il livello di magazzino è pari a zero sebbene vi siano movimenti contabili articoli aperti in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In questo articolo viene discusso un problema in cui il livello di magazzino è pari a zero sebbene vi siano movimenti contabili articoli aperti in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 L'articolo inizia elencando gli indizi tipici del problema, seguiti dai concetti di base del collegamento articoli per supportare i motivi descritti per tale problema. Alla fine dell'articolo viene fornita una soluzione alternativa per gestire tali movimenti contabili articoli aperti.  
 
@@ -54,7 +54,7 @@ L'articolo inizia elencando gli indizi tipici del problema, seguiti dai concetti
 
  L'illustrazione seguente mostra come vengono eseguiti i collegamenti quantità.  
 
-![Flusso di rettifica dei costi dall'acquisto alla vendita](media/helene/TechArticleInventoryZero2.png "Flusso di rettifica dei costi dall'acquisto alla vendita")
+![Flusso di rettifica dei costi dall'acquisto alla vendita.](media/helene/TechArticleInventoryZero2.png "Flusso di rettifica dei costi dall'acquisto alla vendita")
 
  Da notare che il movimento contabile articolo 1 (Acquisto) è il fornitore dell'articolo e l'origine del costo per il movimento contabile articolo collegato, movimento contabile articolo 2 (Vendita).  
 
@@ -74,11 +74,11 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
  Da notare che il movimento contabile articolo in entrata 3 (Reso vendita) è un destinatario di costo per il movimento contabile articolo in uscita 2 (Vendita).  
 
 ## <a name="illustration-of-a-basic-cost-flow"></a>Illustrazione di un flusso dei costi di base  
- Si supponga un flusso dei costi completo in cui un articolo viene ricevuto, spedito e fatturato, reso con lo storno del costo esatto e spedito nuovamente.  
+ Si supponga un flusso dei costi completo in cui un articolo viene ricevuto, spedito e fatturato, reso con lo storno del costo\-esatto e spedito nuovamente.  
 
  Il seguente diagramma illustra il flusso dei costi.  
 
-![Flusso di rettifica dei costi dalla vendita al reso di vendita](media/helene/TechArticleInventoryZero4.png "Flusso di rettifica dei costi dalla vendita al reso di vendita")
+![Flusso di rettifica dei costi dalla vendita al reso di vendita.](media/helene/TechArticleInventoryZero4.png "Flusso di rettifica dei costi dalla vendita al reso di vendita")
 
  Da notare che il costo viene trasferito al movimento contabile articolo 2 (Vendita), quindi al movimento contabile articolo 3 (Reso vendita) e infine al movimento contabile articolo 4 (Vendita 2).  
 
@@ -91,7 +91,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  L'illustrazione seguente mostra come vengono eseguiti i collegamenti articolo in entrambi gli scenari  
 
-![Il flusso di rettifica dei costi va in entrambe le direzioni](media/helene/TechArticleInventoryZero6.png "Il flusso di rettifica dei costi va in entrambe le direzioni")  
+![Il flusso di rettifica dei costi va in entrambe le direzioni.](media/helene/TechArticleInventoryZero6.png "Il flusso di rettifica dei costi va in entrambe le direzioni")  
 
  Da notare che un collegamento costo viene eseguito (frecce blu) per garantire che al movimento contabile articolo 2 (Reso vendita) siano assegnati gli stessi costi del movimento contabile articolo stornato, movimento contabile articolo 1 (Vendita). Tuttavia, un collegamento quantità (frecce rosse) non viene eseguito.  
 
@@ -133,7 +133,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
      |Nr. movimento|Nr. movimento cont. articolo|Nr. movimento articolo in entrata|Nr. movimento articolo in uscita|Quantità|Data di registrazione|Collegamento costo|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|28/01/2018|Sì|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Da notare che il movimento contabile articolo in entrata 334 è collegato al costo al movimento contabile articolo in uscita 333.  
 
@@ -151,3 +151,6 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)   
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
-title: Utilizzo dell'estensione PayPal Payments Standard | Documenti Microsoft
-description: Descrive come utilizzare l'estensione per consentire ai clienti di eseguire pagamenti con PayPal.
+title: Utilizzo dell'estensione PayPal Payments Standard
+description: Questo argomento descrive come utilizzare l'estensione standard per consentire ai clienti di eseguire pagamenti con PayPal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f295ab10d30f5a22f924ec3ad76548375f929b7c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: cc7db26df0cfd554b083ac606c14965eecc991eb
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315446"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322879"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Estensione PayPal Payments Standard
 I clienti richiedono continuamente un livello di assistenza clienti più elevato, sia in termini di qualità del prodotto sia in termini di opzioni di consegna e di pagamento. Il servizio PayPal Payments Standard contribuisce a migliorare l'assistenza clienti.
@@ -37,6 +37,9 @@ Il servizio PayPal Payments Standard offre i seguenti vantaggi:
 Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti attraverso PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Vedi anche
-[Personalizzazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizzando le estensioni](ui-extensions.md)  
+[Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

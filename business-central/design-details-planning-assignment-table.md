@@ -1,21 +1,21 @@
 ---
-title: 'Dettagli di progettazione: Tabella Assegnazione pianificazione | Microsoft Docs'
-description: Questo argomento fornisce informazioni dettagliate sulle conseguenze relative alla modifica del metodo di pianificazione per un articolo.
+title: Dettagli di progettazione - Tabella Compiti di pianificazione
+description: Questo argomento fornisce informazioni su cosa succede quando una modifica nei modelli di domanda o offerta richiede il calcolo della modalità di pianificazione di un articolo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4002bc464f012cfd279db91047ed98ec1193cb36
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: cdd16d0f3143701ca53125ef74f91ae5bd143f1c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184918"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321597"
 ---
 # <a name="design-details-planning-assignment-table"></a>Dettagli di progettazione: Tabella Assegnazione pianificazione
 Tutti gli articoli devono essere pianificati, tuttavia, non esiste motivo per calcolare un piano per un articolo a meno che non ci sia stato una modifica nella domanda o nel modello di approvvigionamento dall'ultima volta in cui è stato calcolato un piano.  
@@ -67,3 +67,6 @@ Nel calcolo di un MPS o un MRP si applicano le seguenti restrizioni:
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)   
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

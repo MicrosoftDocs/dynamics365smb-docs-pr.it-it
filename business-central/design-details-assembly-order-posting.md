@@ -1,21 +1,21 @@
 ---
-title: "Dettagli di progettazione: Registrazione dell'ordine di assemblaggio | Microsoft Docs"
-description: La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.
+title: Dettagli di progettazione - Registrazione dell'ordine di assemblaggio
+description: La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2c90a6b4a122c9a224e26ef57a03a7f6c981177f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185806"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442562"
 ---
 # <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
 La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.  
@@ -31,14 +31,14 @@ Le seguenti registrazioni si verificano durante la registrazione dell'ordine di 
 
 Nel seguente diagramma viene mostrata la struttura dei movimenti contabili risorse e articolo che derivano dalla registrazione dell'ordine di assemblaggio.  
 
-![Movimenti contabili capacità, risorse e articolo che derivano dalla registrazione dell'ordine di assemblaggio](media/design_details_assembly_posting_1.png "Movimenti contabili capacità, risorse e articolo che derivano dalla registrazione dell'ordine di assemblaggio")  
+![Movimenti contabili capacità, risorse e articolo che derivano dalla registrazione dell'ordine di assemblaggio.](media/design_details_assembly_posting_1.png "Movimenti contabili capacità, risorse e articolo che derivano dalla registrazione dell'ordine di assemblaggio")  
 
 > [!NOTE]  
 >  Le aree di lavoro e di produzione sono incluse per illustrare che i movimenti contabili capacità vengono creati sia dalla produzione che dall'assemblaggio.  
 
 Nel seguente diagramma viene mostrato il flusso dei dati di assemblaggio nei movimenti contabili durante la registrazione:  
 
-![Flusso dei movimenti correlati all'assemblaggio durante la registrazione](media/design_details_assembly_posting_2.png "Flusso dei movimenti correlati all'assemblaggio durante la registrazione")  
+![Flusso dei movimenti correlati all'assemblaggio durante la registrazione.](media/design_details_assembly_posting_2.png "Flusso dei movimenti correlati all'assemblaggio durante la registrazione")  
 
 ## <a name="posting-sequence"></a>Sequenza di registrazione  
 La registrazione di un ordine di assemblaggio viene eseguita nel seguente ordine:  
@@ -69,7 +69,7 @@ La funzione di rilevamento del livello di ordine viene utilizzata in scenari di 
 
 Nel seguente grafico viene visualizzata la struttura del movimento di rettifica e in che modo vengono rettificati i costi di assemblaggio.  
 
-![Flusso dei movimenti correlati all'assemblaggio durante la rettifica costi](media/design_details_assembly_posting_3.png "Flusso dei movimenti correlati all'assemblaggio durante la registrazione")  
+![Flusso dei movimenti correlati all'assemblaggio durante la rettifica costi.](media/design_details_assembly_posting_3.png "Flusso dei movimenti correlati all'assemblaggio durante la registrazione")  
 
 ### <a name="performing-the-adjustment"></a>Esecuzione della rettifica  
 La distribuzione delle rettifiche rilevate dai costi delle risorse e dei materiali nei movimenti di output assemblaggio viene eseguita dal processo batch **Rettifica costo - Movimenti articoli**. Contiene la funzione di rettifica multilivello, che è costituita dai seguenti due elementi:  
@@ -77,7 +77,7 @@ La distribuzione delle rettifiche rilevate dai costi delle risorse e dei materia
 -   Rettifica ordine di assemblaggio, che inoltra il costo del materiale e dell'utilizzo delle risorse al movimento di output assemblaggio. Ciò è dovuto alle righe 5 e 6 dell'algoritmo riportato di seguito.  
 -   Eseguire rettifiche a livello singolo, che inoltra i costi per i singoli articoli utilizzando il relativo metodo di costing. Ciò è dovuto alle righe 9 e 10 dell'algoritmo riportato di seguito.  
 
-![Riepilogo dell'algoritmo di rettifica costo per la registrazione di assemblaggio](media/design_details_assembly_posting_4.jpg "Riepilogo dell'algoritmo di rettifica costo per la registrazione di assemblaggio")  
+![Riepilogo dell'algoritmo di rettifica costo per la registrazione di assemblaggio.](media/design_details_assembly_posting_4.jpg "Riepilogo dell'algoritmo di rettifica costo per la registrazione di assemblaggio")  
 
 > [!NOTE]  
 >  L'elemento di creazione rettifiche WIP alle righe 7 e 8 è responsabile dell'inoltro del materiale di produzione e dell'utilizzo della capacità all'output di ordini di produzione non completati. Non viene utilizzato per la rettifica dei costi dell'ordine di assemblaggio in quanto il concetto di WIP non si applica all'assemblaggio.  
@@ -115,4 +115,7 @@ La registrazione di righe ordini di vendita in cui una parte è quantità di mag
  [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

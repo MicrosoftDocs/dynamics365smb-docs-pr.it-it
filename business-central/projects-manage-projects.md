@@ -1,24 +1,26 @@
 ---
-title: Task commesse utilizzando le risorse e i fogli presenze| Microsoft Docs
-description: Descrive come utilizzare le risorse, i fogli presenze e le commesse per gestire progetti.
+title: Gestione progetti
+description: Questo argomento descrive come utilizzare le risorse, i fogli presenze e le commesse per gestire progetti e budget.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2019
+ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: aa3158789f22cbb3a534bda2a83e2def209f9826
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c53179960fc6b9ebd7a77193b13d271f22fe1b1
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312654"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101271"
 ---
 # <a name="project-management"></a>Gestione progetti
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
 
-Prima di utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse. Per ulteriori informazioni, vedere [Impostazione della Gestione progetti](projects-setup-projects.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
+
+Prima di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse. Per ulteriori informazioni, vedere [Impostazione della Gestione progetti](projects-setup-projects.md).  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
@@ -36,7 +38,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="get-started-with-projects"></a>Introduzione ai progetti
 
-La gestione dei progetti è di per sé complicata e apprendere a come creare commesse e a gestire il WIP in un nuovo strumento può essere un'ulteriore complicazione. Per istruzioni su come iniziare con la gestione dei progetti in [!INCLUDE [prodshort](includes/prodshort.md)], è possibile guardare [un video su come creare commesse](https://www.youtube.com/watch?v=VqaPWr7BWmw) sul canale [!INCLUDE [prodshort](includes/prodshort.md)] di YouTube.  
+La gestione dei progetti è di per sé complicata e apprendere a come creare commesse e a gestire il WIP in un nuovo strumento può essere un'ulteriore complicazione. Per istruzioni su come iniziare con la gestione dei progetti in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile guardare [un video su come creare commesse](https://www.youtube.com/watch?v=VqaPWr7BWmw) sul canale [!INCLUDE[prod_short](includes/prod_short.md)] di YouTube.  
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -46,6 +48,9 @@ La gestione dei progetti è di per sé complicata e apprendere a come creare com
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

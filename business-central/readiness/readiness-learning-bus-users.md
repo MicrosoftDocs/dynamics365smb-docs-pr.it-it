@@ -2,15 +2,15 @@
 title: Catalogo di apprendimento per utenti aziendali
 description: Individuare tutto il materiale di apprendimento disponibile per Business Central.
 author: loreleishannonmsft
-ms.date: 04/20/2020
-ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 04/01/2021
+ms.topic: conceptual
+ms.author: margoc
+ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271944"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772431"
 ---
 # <a name="business-users-learning-catalog"></a>Catalogo di apprendimento per utenti aziendali
 
@@ -48,3 +48,6 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 | [Restituire articoli in Microsoft Dynamics 365 Business Central](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Si ha la necessità di restituire articoli ai fornitori e accettare resi dai clienti? Questo percorso fornisce informazioni utili per apprendere come elaborare i resi.                                                                                                                                                                         | Percorso di apprendimento online gratuito e personalizzato | 1 ora e 25 minuti  |
 | [Rifornire articoli in Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Si ha la necessità di rifornire articoli di magazzini nella propria attività? Questo percorso di apprendimento mostrerà le opzioni che è possibile utilizzare per rifornire in modo efficiente gli articoli in Business Central.                                                                                                                                     | Percorso di apprendimento online gratuito e personalizzato | 1 ora e 46 minuti  |
 | [Assemblare articoli in Microsoft Dynamics 365 Business Central](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Si effettua la vendita di articoli assemblati? Questo percorso di apprendimento fornisce le informazioni necessarie per assemblare articoli e gestire l'assemblaggio. Indica inoltre i passaggi per produrre articoli assemblati su ordine o per magazzino.                                                                                                                | Percorso di apprendimento online gratuito e personalizzato | 2 ore e 26 minuti |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

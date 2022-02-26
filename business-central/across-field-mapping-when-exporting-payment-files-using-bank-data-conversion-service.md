@@ -3,19 +3,19 @@ title: Mapping dei campi per l'esportazione dei file di pagamento bancario | Mic
 description: Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals, i dati esportati sono esposti al provider di servizi.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0d85c4e4d882f84781ff119bdf397266c4f8ca1b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: f705334d42d27e22d9108a410ab91a213c725a4d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188662"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437754"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals
 Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals, i dati esportati sono esposti al provider di servizi. Il provider di servizi è responsabile per la privacy di questi dati. Per ulteriori informazioni sull'estensione AMC Banking 365 Fundamentals, vedere [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
@@ -23,7 +23,10 @@ Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 F
 > [!CAUTION]  
 >  Quando si esportano file di pagamento tramite l'estensione AMC Banking 365 Fundamentals, alcuni dei dati aziendali verranno esposti al provider del servizio. Il provider di servizi, AMC Consult A/S, è responsabile per la privacy di questi dati. Per maggiori informazioni, vedere [Informativa sulla privacy di AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)] da cui è possibile esportare dati.  
+> [!NOTE]
+> Nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], viene installato e connesso un provider di servizi globale per convertire i dati bancari in qualsiasi formato di file richiesto dalla banca. Nelle versioni per il Nord America, lo stesso servizio può essere utilizzato per inviare file di pagamento come trasferimento elettronico di fondi (EFT), ad esempio la rete ACH (Automated Clearing House) comunemente utilizzata, tuttavia con un processo leggermente diverso.
+
+La tabella seguente elenca i campi in [!INCLUDE[prod_short](includes/prod_short.md)] da cui è possibile esportare dati.  
 
 |Campo mappato|Campo nella tabella|Tavolo|Descrizione|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -72,3 +75,6 @@ La tabella seguente elenca i campi in [!INCLUDE[d365fin](includes/d365fin_md.md)
 [Scambio di dati in modalità elettronica](across-data-exchange.md)
 [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
