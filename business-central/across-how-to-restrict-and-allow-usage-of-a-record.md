@@ -2,7 +2,6 @@
 title: Come limitare e consentire l'utilizzo di un record
 description: Se vuoi limitare l'utilizzo di un record, puoi includere due risposte in un flusso di lavoro che controlla l'utilizzo del record.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: bd7382730a70295693a9feb70ff67d9fb6344717
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5382a05668e3dfcb02534788de607473494bafd2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438309"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134280"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Limitare e consentire l'utilizzo di un record
 Se si desidera limitare l'utilizzo di un record in determinate attività, ad esempio, fino all'approvazione del record, è possibile includere due risposte in un flusso di lavoro che controlla l'utilizzo del record. Una risposta del flusso di lavoro limiterà l'utilizzo del record come definito dall'evento e dalle condizioni del flusso di lavoro. Un'altra risposta del flusso di lavoro consentirà l'utilizzo del record come definito dall'evento e dalle condizioni del flusso di lavoro. A tale scopo esistono due risposte nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)]: **Limitare l'utilizzo di un record.** e **Consentire l'utilizzo di un record.**.

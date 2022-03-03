@@ -2,7 +2,6 @@
 title: Creare e gestire gli articoli di catalogo
 description: Descrive come trattare articoli che sono nell'elenco di fornitori degli articoli ma non nel proprio elenco di articoli trattati.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e90de738a03887518ba8e4c33e0185da3134a6b
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 8f8d97f10904664dc68bec6ccb85823a765a58aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060008"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137889"
 ---
 # <a name="work-with-catalog-items"></a>Utilizzare gli articoli di catalogo
 È possibile offrire per loro comodità determinati articoli ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli. Se si desidera iniziare a gestire nel sistema tali articoli, è possibile convertirli in schede articolo normali in due modi.

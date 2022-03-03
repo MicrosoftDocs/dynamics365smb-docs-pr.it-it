@@ -2,7 +2,6 @@
 title: Chiudere il conto economico
 description: Alla chiusura dell'anno, è necessario eseguire il processo batch Chiudi conto economico per chiudere i periodi contabili che costituiscono l'anno fiscale.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 44e2d34ee4af32bcb901a66ae7e45b45ac274bd5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0f305c6284a617594202ac8e38ce786d7019f489
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435749"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139060"
 ---
 # <a name="closing-income-statement-accounts"></a>Chiusura del conto economico
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito. In questo caso, eseguire il processo batch **Chiudi conto economico**. Il processo trasferisce i risultati dell'anno in un conto nel conto patrimoniale e chiude i conti economici. A tale scopo creare righe di registrazioni che in seguito sarà possibile contabilizzare.

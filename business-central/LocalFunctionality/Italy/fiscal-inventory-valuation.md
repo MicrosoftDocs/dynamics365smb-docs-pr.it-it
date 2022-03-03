@@ -2,7 +2,6 @@
 title: Valutazione magazzino fiscale
 description: È necessario inviare un report annuale che indichi il valore monetario degli articoli di magazzino per l'anno fiscale.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 12117, 12188, 12128, 12130, 12137
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 706a1e6c9ee388914bf9c09458566e5b0ad2cc49
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 34d47954cec0bf51994a802e13522819ba7d4ca8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947127"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146029"
 ---
 # <a name="fiscal-inventory-valuation"></a>Valutazione magazzino fiscale
 

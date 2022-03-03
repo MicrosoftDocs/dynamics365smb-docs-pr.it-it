@@ -2,7 +2,6 @@
 title: Impostare stoccaggi e prelievi guidati
 description: L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati ti offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0c7a49208216b12c234c0b40576b26f4f39e9ab5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4e83df2350ef8419a6de4e0fde9bf140660b943e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438034"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145214"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati
 L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile. Per sfruttare al meglio tale funzionalità occorre fornire informazioni aggiuntive sugli articoli, le quali verranno utilizzate per effettuare i calcoli necessari e suggerire le modalità più efficaci ed efficienti per eseguire le attività di warehouse. Per ulteriori informazioni, vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md).

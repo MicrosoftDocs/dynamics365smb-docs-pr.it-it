@@ -2,7 +2,6 @@
 title: Dettagli di progettazione - Periodi di magazzino
 description: La funzionalità Periodi di magazzino può essere utilizzata per evitare tali problemi con saldi e valutazioni di magazzino aprendo o chiudendo i periodi di magazzino per limitare la registrazione in un determinato periodo di tempo.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 66624cd4a6992ed227055748f5e8bc972187a8dc
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.openlocfilehash: 77348fbf2ef37320b0bfa0ea56a0d395f9b4b142
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865698"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133890"
 ---
 # <a name="design-details-inventory-periods"></a>Dettagli di progettazione: Periodi di magazzino
 Le transazioni retrodatate o le rettifiche dei costi spesso influenzano i saldi e le valutazioni di magazzino per i periodi contabili che possono essere considerati chiusi. Ciò può avere effetti negativi sulla precisione dei report, in particolare all'interno delle società globali. La funzionalità Periodi di magazzino può essere utilizzata per evitare tali problemi aprendo o chiudendo i periodi di magazzino per limitare la registrazione in un determinato periodo di tempo.  

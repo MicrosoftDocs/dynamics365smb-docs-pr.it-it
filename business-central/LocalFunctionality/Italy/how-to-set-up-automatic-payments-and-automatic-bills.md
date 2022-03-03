@@ -2,7 +2,6 @@
 title: Pagamenti automatici ed effetti automatici [IT]
 description: Il seguente argomento spiega come impostare le informazioni rilevanti in Business Central per gestire pagamenti ed effetti automatici.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 12203, 12204
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d1d270b9068d4b4851152f033fbaabc9182cb25a
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: f33d0066a0e45b606c5d6579ce904e12117deb74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947234"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138134"
 ---
 # <a name="set-up-automatic-payments-and-automatic-bills-in-the-italian-version"></a>Impostare i pagamenti automatici e gli effetti automatici nella versione italiana
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire i pagamenti e gli effetti automatici.  

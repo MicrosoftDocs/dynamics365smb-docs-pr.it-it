@@ -2,7 +2,6 @@
 title: Impostare cicli e fasi di vendita dalle opportunità| Documenti Microsoft
 description: Descrive come definire fasi di vendita, dal contatto iniziale alla chiusura, per creare un ciclo di vendita e assegnarlo alle opportunità in Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 16c72d0c0b2b14e73b390b585b505f00956ac4d4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 5eb180d1190e56dc7a43354b5aef2637500a38be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059754"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148436"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Impostare cicli e fasi di vendita dalle opportunità
 Prima di iniziare a utilizzare le opportunità di vendita, è necessario impostare cicli di vendita e fasi dei cicli di vendita. Un ciclo di vendita è composto da una serie di fasi che vanno dal contatto iniziale alla chiusura della vendita. Per ogni fase possono essere previsti determinati requisiti che devono essere soddisfatti, ad esempio richiesta di un'offerta di vendita, prima che un'opportunità possa passare alla fase successiva. È inoltre possibile specificare se una fase può essere ignorata. È possibile impostare il numero desiderato di cicli di vendita e di fasi all'interno di un ciclo.

@@ -2,18 +2,17 @@
 title: Aggiornare i tassi di cambio delle valute (video)
 description: Tenere traccia degli importi in valute differenti utilizzando codici di valuta e utilizzare Business Central per rettificare i tassi di cambio delle valute dei movimenti registrati con un servizio esterno.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 07/23/2021
+ms.date: 02/17/2022
 ms.author: edupont
-ms.openlocfilehash: 93a5059be3810af4d0351c6508c5d6119eaa4015
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972881"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323268"
 ---
 # <a name="update-currency-exchange-rates"></a>Aggiornare i tassi di cambio valuta
 
@@ -28,6 +27,9 @@ La contabilità generale è impostata per utilizzare la valuta locale (VL) ma è
 
 > [!IMPORTANT]
 > Se desideri utilizzare una valuta aggiuntiva per i report finanziari, assicurati di aver compreso le limitazioni. Per ulteriori informazioni, vedere [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md).
+
+> [!NOTE]  
+> Quando esegui la registrazione in C/G utilizzando un codice valuta, ad esempio per registrare una spesa in un giornale di registrazione generale utilizzando un codice valuta, la transazione viene convertita in VL utilizzando il tasso di cambio della valuta per la data di registrazione. Il movimento C/G non conterrà informazioni relative alla valuta utilizzata, ma solo il valore in VL. Per tenere traccia della valuta originale, ad esempio per una fattura, è necessario utilizzare i documenti di vendita e acquisto nonché i conti correnti bancari che memorizzano le informazioni sul codice valuta per i movimenti.
 
 ## <a name="currencies"></a>Valute
 

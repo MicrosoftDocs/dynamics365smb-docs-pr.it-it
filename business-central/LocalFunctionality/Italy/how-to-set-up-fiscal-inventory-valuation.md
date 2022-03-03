@@ -4,7 +4,6 @@ description: Per utilizzare la valutazione magazzino fiscale è necessario impos
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 0ffae3a62e75354a911493292efe8ae30de3c43d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e8f3b272d9dc588917c5af6e54e7fd3b3d063179
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442913"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132235"
 ---
 # <a name="set-up-fiscal-inventory-valuation-in-the-italian-version"></a>Impostare la valutazione del magazzino fiscale nella versione italiana
 Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metodi di valutazione magazzino.  

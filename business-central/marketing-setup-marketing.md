@@ -2,7 +2,6 @@
 title: Informazioni sul setup della gestione dei contatti e del marketing
 description: È possibile impostare la gestione dei contatti e del marketing in Business Central per ottimizzare relazioni con i clienti o i clienti potenziali e migliorare le campagne e le promozioni.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.search.forms: 5172, 5173, 5170, 5094, 429
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: df435c1373b817442ca61b369810f1d407a29c27
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 8f43e37b540c9e3b3a89299f8609af7aea8398e9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059910"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130331"
 ---
 # <a name="setting-up-relationship-management"></a>Setup Relationship Management
 

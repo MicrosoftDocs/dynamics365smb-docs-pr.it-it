@@ -2,7 +2,6 @@
 title: Effettuare pagamenti con un AMC Banking (US) o un bonifico SEPA (EU)
 description: Elaborare i pagamenti ai fornitori esportando un file (EFT) con le informazioni di pagamento dalle righe registrazioni.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: f26e06487925891e01544d107ee80a6c36426ce7
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 62599711c6a714223457e7fa1545259a3082b0ea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953086"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147676"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA
 

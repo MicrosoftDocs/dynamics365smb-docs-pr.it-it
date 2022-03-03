@@ -2,17 +2,16 @@
 title: Report e analisi delle vendite
 description: Vedere quali report di vendita e analisi sono disponibili nella versione standard di Business Central in modo da poter tenere traccia della propria attività.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: bb41c0e03da4163735663fbc3c402905e702dffd
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: f25d7af82ff9542e5d3607c81127f8afaf4a6d28
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102423"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144699"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Report delle vendite e analisi in Business Central
 

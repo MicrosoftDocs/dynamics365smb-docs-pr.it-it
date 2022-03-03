@@ -2,7 +2,6 @@
 title: Breakbulk con stoccaggi e prelievi guidati
 description: Scopri come abilitare il breakbulk automatico con lo stoccaggio e il prelievo diretti, nonché il breakbulk in prelievo, stoccaggio, movimenti e altro ancora.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: a3e992b86b2c53393ee385fd4abde05bd2b915f2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 82b0625cf36b0c304a28c1196aa76289d5711c15
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324841"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144465"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Abilitare breakbulk automatico con stoccaggi e prelievi guidati
 Per le ubicazioni che utilizzano stoccaggi e prelievi guidati, [!INCLUDE[prod_short](includes/prod_short.md)] consente di eseguire in varie situazioni il breakbulk automatico, ovvero la suddivisione di unità di misura più grandi in unità di misura più piccole, durante la creazione delle istruzioni di warehouse che consentono di soddisfare le richieste di documenti di origine, ordini di produzione o prelievi e stoccaggi interni. Talvolta il breakbulk consente di raggruppare unità di misura più piccole, se necessario, in modo da soddisfare le richieste in uscita suddividendo le unità di misura più grandi nel documento di origine o nell'ordine di produzione in unità di misura più piccole disponibili nella warehouse.   

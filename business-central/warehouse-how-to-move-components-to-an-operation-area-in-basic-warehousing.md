@@ -2,7 +2,6 @@
 title: Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base
 description: Se le operazioni di elaborazione dell'articolo si verificano nell'ubicazione della warehouse, potrebbe essere necessario spostare gli articoli tra le collocazioni interne in modo che corrispondano ai documenti di origine interni.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1059e6c5bf0a308382951fd19606dbaf0ef14425
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444157"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141953"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base
 Se le operazioni di elaborazione dell'articolo si verificano nell'ubicazione della warehouse, potrebbe essere necessario spostare gli articoli tra le collocazioni interne in modo che corrispondano ai documenti di origine interni, ad esempio produzione, assemblaggio o ordini di assistenza per l'ubicazione.  

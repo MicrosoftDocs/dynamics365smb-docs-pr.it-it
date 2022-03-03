@@ -2,7 +2,6 @@
 title: Tolleranza di pagamento e di sconto pagamento
 description: È possibile impostare la tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: fa9e4abb37788b7aa8261ab0a5a705edef27e3c4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 0ec67d201d89b01b38b86edbeb6dcd3ea0148153
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972488"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147650"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. Ad esempio, le tolleranze pagamento sono in genere per importi di piccola entità per cui costerebbe di più la correzione che semplicemente accettarli. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  

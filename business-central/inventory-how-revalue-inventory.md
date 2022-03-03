@@ -3,7 +3,6 @@ title: Creare nuovi movimenti di valorizzazione per gli articoli in magazzino| D
 description: Descrive come rivalutare o ammortizzare i movimenti di valorizzazione di uno o più articoli in magazzino registrandone il corrente valore calcolato.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: costing, inventory cost, value entries
 ms.search.forms: 5803,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b07aba72be831dd68eea3475f3ee591a7c319051
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 4abfe521684fd6e0e4d8d519248919b0628dc1fb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059598"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135934"
 ---
 # <a name="revalue-inventory"></a>Rivalutare il magazzino
 Per rivalutare o ammortizzare un determinato articolo o movimento contabile articolo, è necessario utilizzare le registrazioni rivalutazioni.

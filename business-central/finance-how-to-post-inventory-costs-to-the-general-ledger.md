@@ -2,7 +2,6 @@
 title: Riconciliare i costi di magazzino con la contabilità generale
 description: Al termine dei periodi contabili, è necessario eseguire una sequenza di task di revisione e controllo dei costi in modo da comunicare il valore di magazzino corretto e bilanciato.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e59328df68eb4d936ea472c55a160be5fe13ecd6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 35b9753a1d21ebfbd2970699c720b0e97ed5bcb4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971632"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142161"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Riconciliare i costi di magazzino con la contabilità generale
 

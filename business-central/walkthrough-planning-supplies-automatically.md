@@ -2,7 +2,6 @@
 title: Procedura dettagliata - Pianificazione automatica degli approvvigionamenti
 description: In questa procedura dettagliata viene illustrato come utilizzare il sistema di pianificazione degli approvvigionamenti per pianificare automaticamente tutti gli ordini di produzione e acquisto in diversi ordini di vendita.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a9bc9b245ec8bcb7146f688da7ad3c94a16c00ec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439362"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140269"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedura dettagliata: Pianificazione automatica degli approvvigionamenti
 

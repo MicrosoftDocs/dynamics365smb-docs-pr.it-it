@@ -2,7 +2,6 @@
 title: Dettagli di progettazione - Flusso warehouse in entrata
 description: Il flusso di warehouse in entrata inizia quando gli articoli arrivano nell'ubicazione della società di warehouse. Gli articoli vengono registrati ed eventualmente associati ai documenti di origine in entrata.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441774"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132005"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in entrata
 Il flusso in entrata in una warehouse inizia quando gli articoli arrivano nella warehouse dell'ubicazione della società, ricevuti dalle origini esterne o da un'altra ubicazione della società. Un impiegato registra gli articoli, in genere eseguendo la scansione di un codice a barre. Dal dock di ricezione, le attività di magazzino vengono eseguite a livelli diversi di complessità per introdurre gli articoli nell'area di immagazzinamento.  

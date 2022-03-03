@@ -2,7 +2,6 @@
 title: Visualizzare il carico in aree di produzione e centri di lavoro
 description: Dalla scheda Area di produzione è possibile visualizzare il carico nelle aree di produzione conseguente agli ordini di produzione rilasciati.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8553a09ec962a4cb88e406a1f569f33e6047d8ce
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 456347d55a62864877a969ee7997463f37b1b8e7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972988"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140815"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Visualizzare il carico in aree di produzione e centri di lavoro
 

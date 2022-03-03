@@ -4,7 +4,6 @@ description: Descrive i task da impostare per garantire la fornitura di un servi
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a0e8225d69d04ce82d0e0243f3e98207c892175
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011973"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128480"
 ---
 # <a name="delivering-service"></a>Fornitura dell'assistenza
 [!INCLUDE[prod_short](includes/prod_short.md)] offre una serie di funzionalità pensate per agevolare la fornitura dei servizi di assistenza sulla base dei contratti creati e degli ordini di assistenza a cui l'azienda si è impegnata a far fronte. Grazie alla finestra **Quadro attività** è facile per i tecnici dell'assistenza e gli addetti allo smistamento delle operazioni di assistenza individuare gli ordini di assistenza inevasi. La finestra **Quadro attività** consente infatti a colpo d'occhio di evidenziare gli ordini in corso e gli ordini portati a termine.  

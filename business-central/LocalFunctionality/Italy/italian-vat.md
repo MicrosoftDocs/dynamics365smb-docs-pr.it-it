@@ -2,18 +2,17 @@
 title: IVA italiana
 description: Nella versione italiana, l'IVA può essere dedotta se i beni o i servizi acquistati dall'azienda sono utilizzati nella produzione del suo reddito.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.search.form: 12100, 12104, 12105, 12111, 12112, 12113, 12122, 12126, 12127, 12133, 12135, 12151, 12158, 12187, 12189, 12198, 12199, 12202
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: ace557db03869156cd16269461625167343d13c9
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: febad0458aa280710a53682b17870e0625089153
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947209"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147374"
 ---
 # <a name="italian-vat"></a>IVA italiana
 

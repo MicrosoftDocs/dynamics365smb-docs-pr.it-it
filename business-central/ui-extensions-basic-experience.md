@@ -2,7 +2,6 @@
 title: Estensione dell'esperienza di base | Microsoft Docs
 description: Questa estensione è un'alternativa moderna di Microsoft Dynamics C5.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 19e784695c3864642dd13460e1cb93f6f58d706d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b423ce61a5bc8a7f5c580d0b4f3348792c4b02ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784792"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132474"
 ---
 # <a name="the-basic-experience-extension"></a>Estensione dell'esperienza di base
 Se è stato utilizzato Microsoft Dynamics C5, i partner Microsoft possono aiutare a passare a una soluzione più moderna basata su [!INCLUDE[prod_short](includes/prod_short.md)], in modo da poter continuare a godere delle stesse funzionalità semplificate di Dynamics C5.

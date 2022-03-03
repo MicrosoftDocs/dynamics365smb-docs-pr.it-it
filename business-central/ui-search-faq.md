@@ -2,20 +2,20 @@
 title: Domande frequenti relative alla funzionalità delle informazioni
 description: Questo articolo risponde alle domande che i partner e i clienti spesso chiedono sulla funzionalità delle informazioni.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 13605b6188f9aa2c30a82cbb8216d8419a711d31
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325865"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334715"
 ---
 # <a name="tell-me-faq"></a>Domande frequenti relative alla funzionalità delle informazioni
 Questo argomento risponde alle domande poste spesso dai nostri utenti esperti sulla funzionalità delle informazioni.

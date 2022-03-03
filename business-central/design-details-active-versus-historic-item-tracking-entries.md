@@ -2,7 +2,6 @@
 title: Dettagli di progettazione - Movimenti di tracciabilità articolo storici e attivi
 description: Quando vengono registrate parti di una quantità di una riga documento, solo quella quantità viene trasferita ai movimenti contabili articoli e ai relativi numeri di tracciabilità articolo.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 167a765774d365a7890fa39a20923ab0c78e53a4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8e38d258510e35c0cb613191d005affbb3fb8713
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326140"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146776"
 ---
 # <a name="design-details-active-versus-historic-item-tracking-entries"></a>Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi
 Quando vengono registrate parti di una quantità di una riga documento, solo quella quantità in questione viene trasferita ai movimenti contabili articoli e ai relativi numeri di tracciabilità articolo. Tuttavia, è opportuno accedere a tutte le informazioni rilevanti di tracciabilità articoli direttamente dalla riga del documento attivo. Ovvero non solo si desidererà vedere i movimenti che sono correlati alla quantità residua, ma si vorranno anche informazioni sulle unità che sono state registrate. Quando si visualizza o si modifica la pagina **Righe tracciabilità articolo**, i contenuti collettivi delle tabelle **Specifica tracciabilità** (T336) e **Movimenti impegni** (T337) vengono presentati in una versione temporanea di T336. In questo modo si garantisce l'accesso unico ai dati di tracciabilità articolo attivi e storici.  

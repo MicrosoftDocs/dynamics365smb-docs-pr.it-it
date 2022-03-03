@@ -2,7 +2,6 @@
 title: Ottenere il componente aggiuntivo Business Central per Excel
 description: Scopri come ottenere per gli utenti l'add-in di Business Central per Excel.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865494"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141413"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Ottieni il Business Central Add-in per Excel
 
@@ -32,7 +31,7 @@ L'add-in si chiama **Add-in Microsoft Dynamics per Office** ed è disponibile pe
 
 ### <a name="about-deployment-as-an-admin"></a>Riguardo all'impiego come amministratore
 
-Con [!INCLUDE[prod_short](includes/prod_short.md)] online, ci sono alcune opzioni di distribuzione per portare l'add-in agli utenti. Un'opzione è l' *acquisizione individuale*, dove si lascia che gli utenti installino il componente aggiuntivo da soli. Con questa opzione, gli utenti devono avere accesso al download di file da Office Store. Un'altra opzione è quella di impostare la *distribuzione centralizzata* nel centro amministrativo di Microsoft 365 per distribuire automaticamente l'add-in all'intera organizzazione, a gruppi o a utenti specifici. La distribuzione centralizzata fornisce un modo per ottenere l'add-in agli utenti se la tua organizzazione non dà agli utenti l'accesso a Office Store.
+Con [!INCLUDE[prod_short](includes/prod_short.md)] online, ci sono alcune opzioni di distribuzione per portare l'add-in agli utenti. Un'opzione è l' *acquisizione individuale*, dove si lascia che gli utenti installino il componente aggiuntivo da soli. Con questa opzione, gli utenti devono avere accesso al download di file da Office Store. Un'altra opzione è quella di impostare la *distribuzione centralizzata* nell'interfaccia di amministrazione di Microsoft 365 per distribuire automaticamente l'add-in all'intera organizzazione, a gruppi o a utenti specifici. La distribuzione centralizzata fornisce un modo per ottenere l'add-in agli utenti se la tua organizzazione non dà agli utenti l'accesso a Office Store.
 
 Per l'utente finale, l'esperienza di installazione è diversa per i due scenari di distribuzione:
 
@@ -54,7 +53,7 @@ Questa condizione è causata dal fatto che ad ogni file Excel viene assegnato un
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Distribuire il componente aggiuntivo utilizzando la distribuzione centralizzata
 
-La distribuzione centralizzata è una funzione nel centro amministrativo di Microsoft 365 che si usa per installare automaticamente gli add-in nelle applicazioni Office degli utenti, come Excel. Per aiutarvi con la distribuzione centralizzata, [!INCLUDE[prod_short](includes/prod_short.md)] include la configurazione assistita di **Distribuzione centralizzata Add-in Excel** .
+La distribuzione centralizzata è una funzione nell'interfaccia di amministrazione di Microsoft 365 che si usa per installare automaticamente i componenti aggiuntivi nelle applicazioni Office degli utenti, come Excel. Per aiutarvi con la distribuzione centralizzata, [!INCLUDE[prod_short](includes/prod_short.md)] include la configurazione assistita di **Distribuzione centralizzata Add-in Excel** .
 
 ### <a name="before-you-begin"></a>Prima di iniziare
 
@@ -67,11 +66,11 @@ La distribuzione centralizzata è una funzione nel centro amministrativo di Micr
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Impostare la distribuzione centralizzata dell'add-in
 
-Lavorerai sia in [!INCLUDE[prod_short](includes/prod_short.md)] che nell'admin center di Microsoft 365.
+Lavorerai sia in [!INCLUDE[prod_short](includes/prod_short.md)] sia nell'interfaccia di amministrazione di Microsoft 365.
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , immetti **Distribuzione centralizzata Add-in Excel**, quindi scegli il collegamento correlato.
 2. Leggi le informazioni sulla pagina **d'impostazione dell'add-in di Business Central Excel** e scegli **Avanti**.
-3. Accedi al [centro amministrativo di Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967) e vai a **App integrate**<!--**Add-ins**-->.
+3. Accedi all'[interfaccia di amministrazione di Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967), quindi vai ad **App integrate**<!--**Add-ins**-->.
 
     Completa i seguenti passi per configurare il componente aggiuntivo da distribuire da Office Store: 
     1. Scegliere **Scarica app** per aprire Office Store (AppSource). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->
@@ -80,13 +79,13 @@ Lavorerai sia in [!INCLUDE[prod_short](includes/prod_short.md)] che nell'admin c
     4. Esaminare le **richieste di autorizzazioni accettate**, quindi scegliere **Avanti** > **Termina distribuzione**.
     5. Attendere che il segno di spunta verde accanto a **Distribuito** appaia per l'add-in, quindi scegliere **Fatto**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       L'add-in appare nella pagina **Add-in** . Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo di Microsoft 365, vedere [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       L'add-in appare nella pagina **Add-in** . Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nell'interfaccia di amministrazione di Microsoft 365, vedi [Distribuire i componenti aggiuntivi nell'interfaccia di amministrazione](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 4. Torna al setup assistito **Distribuzione centralizzata di componenti aggiuntivi per Excel** in [!INCLUDE[prod_short](includes/prod_short.md)], e scegli **Avanti**.
 5. Attivare **Usa distribuzione centralizzata** e scegliere **Fine**.
 
     Se non si attiva questo interruttore, [!INCLUDE[prod_short](includes/prod_short.md)] otterrà l'add-in direttamente da Office Store.
 
-Quando hai finito, puoi sempre cambiare la distribuzione in Microsoft 365 admin center, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amministrazione di Microsoft 365, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
 > [!IMPORTANT]
 > Se hai più di un ambiente, devi eseguire l'installazione assistita di **Distribuzione centralizzata Add-in Excel** su ogni ambiente che vuoi usare la distribuzione centralizzata. Tuttavia, non è necessario configurare nuovamente la distribuzione centralizzata in Microsoft 365. L'unica cosa che devi fare è attivare l'interruttore **Usa distribuzione centralizzata** nella configurazione assistita. 

@@ -2,7 +2,6 @@
 title: Utilizzo delle famiglie di prodotti in Manufacturing
 description: L'operazione principale da eseguire per personalizzare un calendario di base per la propria società, o per uno dei partner commerciali, è la modifica dello stato dei giorni lavorativi e non lavorativi.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000790, 99000791, 99000792, 99000793
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70b545912b717a7a6f8753e2a1bf8a6442daefc4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d786da721738c6c8907232d510954d2dcba224e4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972673"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135005"
 ---
 # <a name="work-with-production-families"></a>Utilizzare famiglie di prodotti
 

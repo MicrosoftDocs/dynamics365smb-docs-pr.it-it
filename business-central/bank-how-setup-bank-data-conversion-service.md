@@ -2,7 +2,6 @@
 title: Impostare il servizio di conversione dati bancari
 description: È possibile impostare i conti correnti bancari per tenere traccia delle transazioni e importare o esportare i feed bancari, ad esempio Yodlee.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7db2c4a8b50f530ce9b27d0cccc349fd2d354e0e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 4e601eb57aebd831e85c20449d32b0e52acb387a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972566"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148761"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Impostare l'estensione AMC Banking 365 Fundamentals
 Un provider di servizi globale per convertire le informazioni pagamento in qualsiasi formato di dati richiesto dalla banca viene connesso e preparato per essere abilitato in [!INCLUDE[prod_short](includes/prod_short.md)]. Questo è indicato in [!INCLUDE[prod_short](includes/prod_short.md)] come l'estensione AMC Banking 365 Fundamentals.

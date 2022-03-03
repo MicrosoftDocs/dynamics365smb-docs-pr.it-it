@@ -2,7 +2,6 @@
 title: Preparazione al business
 description: Descrive le guide al setup assistito, i video, gli argomenti della Guida, le pagine e le finestre da utilizzare per iniziare a utilizzare Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589134"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335033"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparazione al business
 
@@ -70,9 +69,9 @@ In **Impostazioni società** è possibile visualizzare e modificare le informazi
 
 ## <a name="adding-users-and-permissions"></a>Aggiunta di utenti e permessi
 
-Se è necessario aggiungere altri utenti, questo viene effettuato tramite l'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).
+Se devi aggiungere altri utenti, potrai effettuarlo tramite l'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).
 
-Quando gli utenti vengono creati in Microsoft 365, è possibile importarli nella pagina **Utenti** utilizzando l'azione **Ottieni aggiornamenti da Office 365**. È quindi possibile continuare ad assegnare le autorizzazioni agli utenti e a organizzarli in gruppi di utenti. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).  
+Quando gli utenti vengono creati in Microsoft 365, possono essere importarli nella pagina **Utenti** utilizzando l'azione **Ottieni aggiornamenti da Office 365**. È quindi possibile continuare ad assegnare le autorizzazioni agli utenti e a organizzarli in gruppi di utenti. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).  
 
 ## <a name="product-help"></a>Guida del prodotto
 
@@ -92,8 +91,9 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 [Funzionalità aziendale](across-business-functionality.md)  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 [Cerca nel pannello di aiuto](product-help-and-support.md#search-in-the-help-pane)  
-[Risorse per Guida e supporto](product-help-and-support.md)  
+[Risorse per aiuto e supporto](product-help-and-support.md)  
 [Sito Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Migrazione dei dati](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

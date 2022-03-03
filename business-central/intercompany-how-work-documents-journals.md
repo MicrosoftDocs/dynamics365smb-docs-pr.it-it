@@ -2,7 +2,6 @@
 title: Contabilizzare documenti e registrazioni IC
 description: Questo argomento spiega come utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 610
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 903a0b1770bb29cb744f2aa8dc9510541ca7539c
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: ec02fa8000c9c16236430712a50dc1c0c064b24e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029406"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131784"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Utilizzo di documenti e registrazioni intercompany
 Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany. Quando si registra un documento o una riga di registrazione intercompany nella società, viene creato un documento o una riga di registrazione corrispondente nella casella in uscita IC che è possibile trasferire al partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.

@@ -2,17 +2,16 @@
 title: Panoramica del report
 description: Vedi quali report sono disponibili in tutte le aree funzionali della versione standard di Business Central in modo da poter tenere traccia della tua attività.
 author: KennieNP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 02/02/2022
 ms.author: kepontop
-ms.openlocfilehash: 1f193ae0fd5ebda7fe90b9db78fc5a1de1e21d64
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 3e1c49636b0a41dfe3a4fd63d7dffae221f738da
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104177"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143194"
 ---
 # <a name="report-overview"></a>Panoramica del report
 

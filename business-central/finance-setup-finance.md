@@ -2,7 +2,6 @@
 title: Impostare i processi finanziari
 description: Informazioni sulle attività necessarie per impostare i dati finanziari nella propria attività per adattarli alle esigenze di contabilità, controllo e gestione dei libri contabili.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d2763e42ae6c31a4f631457ea16b6a5bdcad40db
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7c6f7574a227d2901c8989db50d6f4c75528429f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6327015"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147598"
 ---
 # <a name="setting-up-finance"></a>Impostazione di dati finanziari
 Prima di poter iniziare a gestire la propria attività, è necessario specificare le regole e i valori predefiniti per impostare come si desidera gestire i processi finanziari per quella società. Innanzitutto, impostare le basi dei record contabili della società, vale a dire il piano dei conti, dopodiché è necessario procedere all'impostazione delle categorie di registrazione che contribuiscono a rendere più efficiente il processo di assegnazione dei conti delle registrazioni della contabilità generale di default a clienti, fornitori e articoli.

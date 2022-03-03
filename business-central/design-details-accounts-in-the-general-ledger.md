@@ -2,7 +2,6 @@
 title: 'Dettagli di progettazione: Conti nella contabilità generale | Microsoft Docs'
 description: Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 41b94d44ba374ecbcad64a2b1da100fcf3e1a2ab
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215580"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146802"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Dettagli di progettazione: Conti nella contabilità generale
 Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  

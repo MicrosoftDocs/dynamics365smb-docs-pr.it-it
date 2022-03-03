@@ -2,7 +2,6 @@
 title: Utilizzare l'unità di misura batch di produzione
 description: Questo argomento offre una panoramica su come utilizzare le unità di misura batch di produzione in Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d0fed17c296932afd5f976d5cceb7a4b83c79dae
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6e7d188adceffbc6044162e14de5cbb141c21b54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321243"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137499"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Utilizzare le unità di misura batch di produzione
 Se un articolo viene inserito in stock utilizzando un'unità di misura ma viene prodotto in un'altra, viene creato un ordine di produzione che utilizza un'unità di misura batch di produzione per calcolare la quantità corretta di componenti durante il processo batch **Aggiorna ordine produzione**. Un esempio di calcolo di un'unità di misura è il caso in cui un articolo prodotto viene inserito in stock in pezzi, ma viene prodotto in tonnellate.  

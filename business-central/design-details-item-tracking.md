@@ -2,7 +2,6 @@
 title: Dettagli di progettazione - Tracciabilità articolo
 description: Il sistema di tracciabilità articolo fornisce una facile gestione dei numeri di serie e di lotto, che potrebbero essere necessari per soddisfare i requisiti legali o assistere nella gestione della garanzia.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 55e8463e788e222265a0ec837196c55726caf53e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320291"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146620"
 ---
 # <a name="design-details-item-tracking"></a>Dettagli di progettazione: Tracciabilità articolo
 Quando il flusso delle merci nella catena di approvvigionamento odierna diventerà sempre più complesso, la capacità di tenere traccia degli articoli è sempre più importante per le società interessate. Il monitoraggio del flusso della transazione di un articolo è un requisito giuridico nell'attività di approvvigionamento medico e chimico, ma in altri settori è possibile che si desideri monitorare i prodotti con garanzie o date di scadenza per motivi di assistenza clienti.  

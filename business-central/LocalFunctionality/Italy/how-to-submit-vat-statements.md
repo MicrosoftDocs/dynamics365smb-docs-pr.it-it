@@ -2,7 +2,6 @@
 title: 'Procedura: Inviare le dichiarazioni IVA [IT]'
 description: L'IVA può essere detraibile se i beni e i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 12121, 12123
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: bbda3982e8de5e014f7b9db68bdab1d88a808f3d
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 59d143e24ec57f5013ff2bcad6d11ecdbfdcbcff
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947238"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141802"
 ---
 # <a name="submit-vat-statements-in-the-italian-version"></a>Inviare dichiarazioni IVA nella versione italiana
 Le società sono soggette al pagamento dell'IVA per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni e i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.  

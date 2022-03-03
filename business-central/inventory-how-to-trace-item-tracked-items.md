@@ -2,7 +2,6 @@
 title: Tracciare gli articoli tracciati
 description: È possibile analizzare dove è stato utilizzato un articolo tracciato, nonché ottenere informazioni su come e quando l'articolo è stato ricevuto, prodotto o reso con le funzionalità Tracciabilità articolo e Trova movimenti.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cd9ca9b1b3aac2f1c531090342d5c43bfa64943e
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 6592172331b92c1e0b6623c36c5531b4a32b5088
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059884"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148528"
 ---
 # <a name="trace-item-tracked-items"></a>Tracciare gli articoli tracciati
 È possibile analizzare dove è stato utilizzato un articolo tracciato, nonché ottenere informazioni su come e quando l'articolo è stato ricevuto o prodotto, trasferito, venduto, consumato o reso. È inoltre possibile trovare tutte le istanze correnti di un numero seriale o di un numero di lotto specifico nel database. A tale scopo si utilizzano le funzionalità Tracciabilità articolo e [Trova movimenti](ui-find-entries.md).  

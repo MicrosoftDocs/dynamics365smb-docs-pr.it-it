@@ -4,7 +4,6 @@ description: È necessario creare una lista di transazioni che includono l'IVA c
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 446b6f12465ee98274d3aca0732d507bc213c942
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 255b2467c44cce0fdd999ecbeb209b8fdc14c906
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435156"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144182"
 ---
 # <a name="create-electronic-vat-transactions-reports-in-the-italian-version"></a>Creare i report elettronici di transazioni IVA nella versione italiana
 È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata. Inviare il report alle autorità fiscali.  

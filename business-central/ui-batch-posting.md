@@ -2,20 +2,20 @@
 title: Registrare più documenti contemporaneamente
 description: Informazioni su come selezionare più documenti non registrati in un elenco per la registrazione batch immediata o pianificata in Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: 024588a5fcb565935a47f63a73b7287879c0db8c
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649689"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334958"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Registrare più documenti contemporaneamente
 

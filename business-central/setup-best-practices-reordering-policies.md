@@ -2,7 +2,6 @@
 title: 'Impostare le procedure ottimali: metodi di riordino | Microsoft Docs'
 description: Nel campo Metodo di riordino delle schede articolo vengono offerti quattro diversi metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e6c76729d5b8ecf2a42b0b749a951ee05cef96f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441449"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142881"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Impostare le procedure ottimali: metodi di riordino
 Nel campo **Metodo di riordino** delle schede articolo vengono offerti quattro diversi metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.  

@@ -2,7 +2,6 @@
 title: Impostare lo scambio di dati per inviare e ricevere file
 description: Imposta il framework di scambio dati per scambiare i dati con i file interessati, inviare e ricevere documenti elettronici o importare ed esportare file della banca.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0b94d258a07ba65c81f329144d12a8b4e10093a9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325095"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133280"
 ---
 # <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
 Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. È inoltre necessario impostare aree correlate, ad esempio i clienti a cui si inviano fatture elettroniche o l'estensione AMC Banking 365 Fundamentals, qualora si utilizzi il provider di servizi esterno per convertire i file dei conti correnti bancari. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  

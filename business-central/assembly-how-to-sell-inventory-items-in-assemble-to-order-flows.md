@@ -2,7 +2,6 @@
 title: Come vendere gli articoli di magazzino nei flussi assemblaggio su ordine
 description: Se un articolo è impostato per l'assemblaggio su ordine, l'articolo deve essere assemblato per gli ordini di vendita e viene creato automaticamente un ordine di assemblaggio collegato.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 35fa56c5a0b465f07a38bddc44f5f569283b2a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d68bb10c6ff7d153417dbdc491dd8abd75b7adc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435397"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146962"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vendere gli articoli di magazzino nei flussi di assemblaggio su ordine
 Se il campo **Criteri di assemblaggio** nella scheda articolo di un articolo di assemblaggio contiene **Assemblaggio su ordine**, il processo di default dell'ordine di vendita presuppone che l'articolo non sia in magazzino e debba essere assemblato per tale ordine di vendita specifico. Di conseguenza, un ordine di assemblaggio collegato viene automaticamente creato quando si aggiunge l'articolo a una riga dell'ordine di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md). Tuttavia, se una parte della quantità dell'ordine di vendita è già disponibile in magazzino, interamente, è possibile ridurre la quantità dell'ordine di assemblaggio modificando il campo **Qtà per assemblaggio su ordine** nella riga dell'ordine di vendita.  

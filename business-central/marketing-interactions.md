@@ -3,7 +3,6 @@ title: Gestire le interazioni con i contatti
 description: È possibile gestire tutti i tipi di comunicazioni o interazioni che intercorrono tra la società e i contatti, ad esempio comunicazioni via lettera, fax, e-mail, telefono, riunioni e così via.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6a923884e7ea28def6335f063d04e5fab9365d81
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059444"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131381"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrare interazioni con i contatti
 L'impostazione dell'applicazione per registrare le interazioni consiste in queste attività:

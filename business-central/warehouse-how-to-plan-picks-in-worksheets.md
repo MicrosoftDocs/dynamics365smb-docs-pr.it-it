@@ -2,7 +2,6 @@
 title: Come pianificare prelievi nei prospetti
 description: Scopri come rendere disponibili le righe sui documenti di spedizione nei fogli di lavoro di prelievo per gli addetti al magazzino.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 92dd486b5b9ebb4fd67d3a28aa8f1eaab137513c
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: fbb85d69cdd7844bbc63e6367ea962897ab30478
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643920"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144309"
 ---
 # <a name="plan-picks-in-worksheets"></a>Pianificare prelievi nei prospetti
 

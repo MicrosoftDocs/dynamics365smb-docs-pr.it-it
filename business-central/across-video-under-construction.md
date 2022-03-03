@@ -2,7 +2,6 @@
 title: Contenuto in costruzione
 description: Occasionalmente apportiamo una modifica a una funzione che rende fuorviante un video, rimuoviamo il video mentre aggiorniamo il contenuto.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 60713809c2095d337737736661e49f212a05dbc8
-ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
+ms.openlocfilehash: a36fe2932d7be2fae0185ee4e9106613e58de469
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651513"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133176"
 ---
 # <a name="sorry-this-content-is-under-construction"></a>Spiacenti, questo contenuto è in costruzione
 

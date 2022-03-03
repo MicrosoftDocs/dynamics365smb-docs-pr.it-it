@@ -2,7 +2,6 @@
 title: "Dettagli di progettazione: Registrazione dell'ordine di produzione | Microsoft Docs"
 description: Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442362"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146568"
 ---
 # <a name="design-details-production-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di produzione
 Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md). Tuttavia, il flusso dei costi per gli ordini di assemblaggio è meno complesso, soprattutto perché la registrazione dei costi di assemblaggio si verifica solo una volta e pertanto non genera magazzino WIP.

@@ -2,7 +2,6 @@
 title: Conto lavoro italiano
 description: La pianificazione della produzione principale (MPS) e la pianificazione del fabbisogno di materiali (MRP) consentono agli appaltatori di gestire i componenti affidati in outsourcing e in conto lavoro.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: 12152, 12153, 12154, 12155, 12156, 35490, 35491
 ms.search.form: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: df4ea2faf74c5cd2fa73900fc3cf1bd501e1cf03
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 6221588be0b4a5a79732de7e98235be68843a36d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947092"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135537"
 ---
 # <a name="italian-subcontracting"></a>Conto lavoro italiano
 Le società con contratti di produzione spesso affidano la produzione di componenti a terzisti. Per sapere quanti componenti trasferire al terzista, esiste un collegamento tra le operazioni del terzista e la distinta base. Questo agevola la pianificazione della produzione principale (MPS) e la pianificazione del fabbisogno di materiali (MRP) e consente agli appaltatori di gestire i componenti affidati in outsourcing e in conto lavoro.  

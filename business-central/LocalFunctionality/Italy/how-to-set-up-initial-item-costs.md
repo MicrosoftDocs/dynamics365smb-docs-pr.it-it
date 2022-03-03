@@ -2,7 +2,6 @@
 title: 'Procedura: Impostare i costi iniziali per gli articoli [IT]'
 description: Il seguente argomento spiega come impostare i costi iniziali dell'articolo con la funzione Costo articolo prima dell'inizio.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: ca214fa522f4cd5de20dea586df6e5cb9c625340
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c97977c050accd96f6fc86191b46d3d878f8412c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442911"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135546"
 ---
 # <a name="set-up-initial-item-costs-in-the-italian-version"></a>Impostare i costi iniziali degli articoli nella versione italiana
 Quando si imposta [!INCLUDE[prod_short](../../includes/prod_short.md)] nell'organizzazione.  

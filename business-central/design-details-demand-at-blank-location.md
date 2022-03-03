@@ -2,7 +2,6 @@
 title: 'Dettagli di progettazione: Domanda e approvvigionamento | Microsoft Docs'
 description: Questo argomento introduce il concetto di domanda, ovvero il termine comune utilizzato per tutti i tipi di domanda lorda, ad esempio un ordine di vendita e un componente necessario da un ordine di produzione.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 62abcd0e37a9871efd6158a898538b7c18b6b47f
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3b5f390343f74bc559cce48b2037edd125f829ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215330"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143636"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Dettagli di progettazione: Domanda nell'ubicazione Vuota
 Quando un utente crea un evento di domanda, ad esempio una riga dell'ordine di vendita, il programma consente a volte all'utente di specificare un codice ubicazione e in altre non lo consente, ovvero viene utilizzata un'ubicazione vuota.

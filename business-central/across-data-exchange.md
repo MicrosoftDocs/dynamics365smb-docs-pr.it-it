@@ -2,7 +2,6 @@
 title: Documenti elettronici in Business Central
 description: In questa panoramica viene spiegato come utilizzare il framework di scambio dati per gestire lo scambio di dati in documenti aziendali come file bancari e tassi di cambio valuta.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588378"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141725"
 ---
 # <a name="exchanging-data-electronically"></a>Scambio di dati in modalità elettronica
 È possibile utilizzare il framework di scambio dati per gestire lo scambio di documenti aziendali, file bancari, tassi di cambio valuta e qualsiasi altro file di dati con i propri partner commerciali.

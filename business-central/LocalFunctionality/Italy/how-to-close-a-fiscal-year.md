@@ -4,7 +4,6 @@ description: Per valutare i profitti e le perdite, alla fine di ogni anno fiscal
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e8f076fe285b049f837c3041bb88227b8c36ed91
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1f6a310900b9948f1d794163654692ec354fbea9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435162"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144184"
 ---
 # <a name="close-a-fiscal-year"></a>Chiusura di un anno fiscale
 Per valutare i profitti e le perdite, alla fine di ogni anno fiscale viene fornito un report di chiusura dell'anno fiscale.  

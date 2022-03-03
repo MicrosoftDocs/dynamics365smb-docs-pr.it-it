@@ -2,7 +2,6 @@
 title: Dettagli di progettazione - Struttura del motore di registrazione
 description: L'interfaccia di registrazione utilizza le funzioni del motore di registrazione per preparare e inserire record di movimenti di contabilità generale e IVA.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 68375a306983551a51a59ac448b4f0bfa7ad6917
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ff1b8330bf804fa89bafa18bf5a3c30471d94afe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318410"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131953"
 ---
 # <a name="design-details-posting-engine-structure"></a>Dettagli di progettazione: struttura del motore di registrazione
 L'interfaccia di registrazione e alcune altre funzioni nella codeunit 12 utilizzare le funzioni del motore di registrazione e inseriscono record di movimenti di contabilità generale e IVA. Il motore di registrazione è inoltre responsabile della creazione del registro di contabilità generale.  

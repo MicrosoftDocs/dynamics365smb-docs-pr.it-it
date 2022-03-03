@@ -2,18 +2,17 @@
 title: Impostare le condizioni pagamento
 description: Nella versione italiana di Business Central, per ogni condizione pagamento, è possibile specificare se il pagamento può essere rateizzato.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.search.form: 12170, 12171, 12172, 12173, 12174
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0a1384f5e4b0ed237658016e5f01ae636338e1e7
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 7f7aea18d641d05ed528a7367f18a9b7d43c94c7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947236"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146026"
 ---
 # <a name="set-up-payment-terms-in-the-italian-version"></a>Impostare le condizioni pagamento nella versione italiana
 

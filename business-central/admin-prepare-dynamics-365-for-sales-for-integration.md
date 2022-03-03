@@ -2,7 +2,6 @@
 title: Integrazione con Dynamics 365 Sales
 description: Scopri come ottenere Dynamics 365 Business Central pronto per l'integrazione con Dynamics 365 Sales per vedere cosa sta succedendo nel backend.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0c044371622232177d97ea954bbd81e4671d70be
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: c0c1d4504a75a07ead734ad74e67567129e43dd5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049616"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130672"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrazione con Dynamics 365 Sales
 

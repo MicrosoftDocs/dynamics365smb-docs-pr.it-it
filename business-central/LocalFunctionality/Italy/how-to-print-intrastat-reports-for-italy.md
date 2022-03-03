@@ -2,18 +2,17 @@
 title: Stampa di report Intrastat per l'Italia
 description: È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità nella versione italiana di Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.search.form: 12116
 ms.author: edupont
-ms.openlocfilehash: 3328534afd5606bb6970f4091be9a733d5527e98
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: cac5690f091f05e7aa4d821b2448157efea95128
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947240"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141804"
 ---
 # <a name="print-intrastat-reports-for-italy"></a>Stampa di report Intrastat per l'Italia
 È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità su un disco floppy eseguendo il processo batch **Intrastat - Floppy dichiaraz.**. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente.  

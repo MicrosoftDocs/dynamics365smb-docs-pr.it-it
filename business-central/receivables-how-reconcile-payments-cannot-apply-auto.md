@@ -2,7 +2,6 @@
 title: Utilizzare la funzione Trasferisci differenza a conto per riconciliare i pagamenti
 description: Descrive modalità di elaborazione dei pagamenti che non possono essere collegati a un documento, ad esempio, quando un tasso di cambio comporta una differenza negli importi.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2964f1fb9a0944d87adf77e9c2127a2fde5b13dd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1f6fdc38e85944541c908c3c658f14496c619c0a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445453"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139445"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Riconciliare i pagamenti che non possono essere collegati automaticamente
 Talvolta può essere necessario gestire i pagamenti al conto corrente bancario che non possono essere collegati a un movimento aperto di contabilità generale, cliente o fornitore correlato. I motivi possono essere che in [!INCLUDE[prod_short](includes/prod_short.md)] non sono presenti documenti cui possa essere collegato il pagamento o che il documento correlato in [!INCLUDE[prod_short](includes/prod_short.md)] ha un importo diverso da quello della transazione, ad esempio, a causa del cambio della valuta. Nella pagina **Registrazione riconciliazione pagamenti** tutti gli importi delle transazioni per i pagamenti che non sono ancora collegati vengono visualizzati nel campo **Differenza**, inclusi gli importi che non possono essere collegati per i motivi citati prima.

@@ -1,23 +1,21 @@
 ---
 title: Business Intelligence
 description: Business Central contiene una serie di funzionalità che ti consentono di raccogliere, analizzare e condividere dati aziendali preziosi per la business intelligence e il processo decisionale.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323745"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335450"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Durante lo svolgimento dell'attività quotidiana, le aziende acquisiscono una quantità enorme di dati che riflettono, ad esempio, le cifre relative alle vendite, agli acquisti, alle spese operative, agli stipendi dei dipendenti e ai budget dell'organizzazione e possono diventare informazioni preziose, vale a dire Business Intelligence, per i responsabili decisionali. In [!INCLUDE[prod_short](includes/prod_short.md)] sono disponibili numerose funzionalità che facilitano la raccolta, l'analisi e la condivisione dei dati della società.

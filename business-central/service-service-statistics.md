@@ -2,7 +2,6 @@
 title: Statistiche assistenza
 description: Ottieni una rapida panoramica del contenuto e delle statistiche di un documento di assistenza, ovvero ordini, offerte, fatture o note di credito, righe di assistenza e altro ancora.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d6d9cfd03971a7adec509babff9ad8cd90af4cb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438259"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142934"
 ---
 # <a name="viewing-service-statistics"></a>Visualizzazione delle statistiche relative all'assistenza
 È possibile utilizzare statistiche che consentono di analizzare i documenti di assistenza e determinare la qualità di gestione dei processi di assistenza. È possibile analizzare contratti, offerte, fatture e note di credito di assistenza nonché articoli in assistenza scegliendo l'azione **Statistiche**. Per gli articoli in assistenza e i contratti di assistenza, è anche possibile utilizzare **Trendscape articolo di assist.** o **Trendscape contratto** per visualizzare un resoconto dei movimenti contabili di assistenza per un articolo in assistenza specifico.   

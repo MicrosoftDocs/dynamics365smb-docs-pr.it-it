@@ -2,7 +2,6 @@
 title: Come impostare gli spedizionieri
 description: Scopri come impostare un codice per ciascuno dei tuoi spedizionieri e inserire informazioni descrittive su ciascuno di essi e sui servizi che forniscono.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b4ec7a008c58256a8b7a351d8ee6890ad43fb00a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440230"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136979"
 ---
 # <a name="set-up-shipping-agents"></a>Impostare gli spedizionieri
 È possibile impostare un codice per ciascuno degli spedizionieri di cui si avvale l'azienda e immettere informazioni relative a ognuno di essi.  

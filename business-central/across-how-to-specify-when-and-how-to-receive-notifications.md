@@ -2,7 +2,6 @@
 title: Specificare come e quando ricevere le notifiche del flusso di lavoro
 description: Quando imposti gli utenti nei flussi di lavoro di approvazione, puoi specificare come e quando ogni utente di approvazione riceve le notifiche.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6812fa270066b03fa64a7d8c664ef4df8d28eff0
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102501"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129169"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Specificare come e quando ricevere le notifiche del flusso di lavoro
 Quando imposti gli utenti di approvazione nei flussi di lavoro in cui vuoi che qualcuno approvi le modifiche, ad esempio quando vengono creati nuovi record o quando qualcuno richiede un'approvazione, devi specificare come e quando l'utente di approvazione riceverà una notifica. Ad esempio, puoi specificare che un utente di approvazione riceverà immediatamente un messaggio e-mail quando qualcuno crea un nuovo cliente. In alternativa, puoi programmare le notifiche da consegnare, ad esempio, su base settimanale o mensile.

@@ -2,7 +2,6 @@
 title: Pulisci i dati con i criteri di conservazione
 description: È possibile specificare la frequenza con cui si desidera eliminare determinati tipi di dati.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ab16aacb7689287eac259658a8ef6bb355f04842
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 955b85020d4cb13f108bc1923de66eb13ade0061
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012395"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132187"
 ---
 # <a name="define-retention-policies"></a>Definire i criteri di conservazione
 Gli amministratori possono definire i criteri di conservazione per specificare la frequenza con cui desiderano che [!INCLUDE[prod_short](includes/prod_short.md)] elimini i dati obsoleti nelle tabelle che contengono voci di log e record archiviati. Ad esempio, la pulizia delle voci di log può semplificare il lavoro con i dati effettivamente rilevanti. I criteri possono includere tutti i dati nelle tabelle che hanno superato la data di scadenza oppure è possibile aggiungere criteri di filtro che includeranno solo determinati dati scaduti nel criterio. 

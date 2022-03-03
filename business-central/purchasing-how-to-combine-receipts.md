@@ -2,7 +2,6 @@
 title: Combinare i carichi in una singola fattura
 description: Se si desidera fatturare più di un carico di acquisto per volta, utilizzare la funzione Cumula carichi.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 136, 145, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9a9307ed6774064262f5d0e0fcf57027be3794d
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: fa038043a1a9451f3f74c0ab72f8c9a2b8033cf0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953261"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137265"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Combinare i carichi in una singola fattura
 

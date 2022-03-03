@@ -2,7 +2,6 @@
 title: Impostare i fogli di presenza e la loro approvazione
 description: Si possono impostare i fogli presenze per tenere traccia del tempo utilizzato per attività e progetti al fine di semplificare la gestione dei progetti, i processi relativi al personale e la gestione della capacità
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 21993ad4ee675384f7ffebfc77e0999d5dec05a6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 3eca8e42a6b57e4a78ffd3f2dace885ba66c3ddf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972228"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147546"
 ---
 # <a name="set-up-time-sheets"></a>Impostare fogli presenze
 

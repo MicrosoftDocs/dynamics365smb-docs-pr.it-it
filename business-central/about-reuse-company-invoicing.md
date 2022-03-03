@@ -2,7 +2,6 @@
 title: Utilizzare Invoicing e Business Central | Microsoft Docs
 description: Soluzione alternativa per l'accesso a Microsoft Invoicing dopo aver effettuato l'iscrizione a Dynamics 365 Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,22 +9,22 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439149"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134410"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Utilizzo dello stesso account di Microsoft 365 in [!INCLUDE[prod_short](includes/prod_long.md)] e Microsoft Invoicing
-Quando si effettua l'iscrizione per una versione di valutazione con [!INCLUDE[prod_short](includes/prod_short.md)], è possibile passare a una fase di valutazione di 30 giorni, effettuare una sottoscrizione oppure interrompere l'utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]. In tutti i casi, ad un certo punto potrebbe essere stato visualizzato un riquadro chiamato **Microsoft Invoicing** e potrebbe essere stato fatto clic su di esso. Era un'app che faceva parte di quello che ora è Microsoft 365 Business Standard ed era precedentemente noto come la sottoscrizione a Microsoft 365 Business Premium, quindi non tutti avranno visto quel riquadro nella propria esperienza di Microsoft 365.  
+Quando si effettua l'iscrizione per una versione di valutazione con [!INCLUDE[prod_short](includes/prod_short.md)], è possibile passare a una fase di valutazione di 30 giorni, effettuare una sottoscrizione oppure interrompere l'utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]. In tutti i casi, ad un certo punto potrebbe essere stato visualizzato un riquadro chiamato **Microsoft Invoicing** e potrebbe essere stato fatto clic su di esso. Era un'app che faceva parte di quello che ora è Microsoft 365 Business Standard ed era precedentemente noto come abbonamento Microsoft 365 Business Premium, quindi non tutti avranno visto quel riquadro nella propria esperienza di Microsoft 365.  
 
 Microsoft Invoicing non è più disponibile, ma se fosse necessario accedere a Invoicing per recuperare i dati, è possibile che venga visualizzato un messaggio in cui non è possibile accedere a Microsoft Invoicing poiché l'account è utilizzato in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Un messaggio simile viene visualizzato se si installa l'app mobile per Invoicing.  
 
 ## <a name="workaround"></a>Soluzione alternativa
-Invoicing e [!INCLUDE[prod_short](includes/prod_short.md)] dispongono di una piattaforma condivisa. Di conseguenza, quando si fa clic su Invoicing nell'interfaccia di amministrazione di Microsoft 365, si viene riconosciuti come un utente esistente di [!INCLUDE[prod_short](includes/prod_short.md)]. Ciò si verifica perché Invoicing non può utilizzare la stessa società in uso in [!INCLUDE[prod_short](includes/prod_short.md)].  
+Invoicing e [!INCLUDE[prod_short](includes/prod_short.md)] dispongono di una piattaforma condivisa. Di conseguenza, quando l'utente fa clic su Invoicing nell'interfaccia di amministrazione di Microsoft 365, viene riconosciuto come un utente esistente di [!INCLUDE[prod_short](includes/prod_short.md)]. Ciò si verifica perché Invoicing non può utilizzare la stessa società in uso in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Sarà necessario accedere a [!INCLUDE[prod_short](includes/prod_short.md)], rinominare la società esistente, quindi creare una nuova società che potrà essere utilizzata in Invoicing. Nessun dato viene spostato né sovrascritto durante questa soluzione alternativa.
 

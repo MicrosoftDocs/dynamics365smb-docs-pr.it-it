@@ -2,7 +2,6 @@
 title: Analisi integrate
 description: Fornisce una panoramica di tutte le funzionalità che supportano le attività di analisi nel prodotto Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: 2cb84ca73c95722a61109590a760489f693a975d
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: a56d6f2846abc934f611cd1c918cd5a3cc56b5fb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104119"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137096"
 ---
 # <a name="built-in-analytics"></a>Analisi integrate
 

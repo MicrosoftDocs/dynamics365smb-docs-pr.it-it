@@ -2,7 +2,6 @@
 title: Estendere la versione di valutazione di Business Central
 description: Se hai bisogno di più tempo per decidere se effettuare una sottoscrizione a Dynamics 365 Business Central, puoi estendere la versione di valutazione una volta. Informazioni sulle opzioni.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184276"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129110"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?
 
@@ -29,7 +28,7 @@ Puoi eseguire personalmente l'estensione del periodo di valutazione una sola vol
 
     Accedi con l'account e-mail che hai usato quando ti sei registrato per la versione di valutazione.  
 
-    Se ti sei registrato con un account e-mail da una [versione di valutazione di 30 giorni di Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), devi prima estendere la tua versione di valutazione di Microsoft 365 acquistare un abbonamento a Microsoft 365. Per ulteriori informazioni, vedere [Estendere la versione di valutazione per Microsoft 365 per le azione](/microsoft-365/commerce/extend-your-trial).
+    Se hai eseguito la registrazione con un account e-mail da una [versione di valutazione di 30 giorni di Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), devi prima estendere la tua versione di valutazione di Microsoft 365 o acquistare un abbonamento a Microsoft 365. Per ulteriori informazioni, vedi [Estendere la versione di valutazione per Microsoft 365 per le aziende](/microsoft-365/commerce/extend-your-trial).
 2. Nella notifica nella parte superiore dell'area lavoro, scegli **Estendi periodo di valutazione**.
 
     Se hai ignorato la notifica, devi disconnetterti e riconnetterti.

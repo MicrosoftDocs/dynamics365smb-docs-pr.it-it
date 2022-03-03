@@ -2,7 +2,6 @@
 title: Spostare articoli ad hoc nelle configurazioni della warehouse di base
 description: Questo argomento illustra i movimenti ad hoc eseguiti quando è necessario spostare gli articoli tra collocazioni interne senza una richiesta specifica da un documento di origine.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 11377c1944f47723b97fad9b5ffc699fa8255a4f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1dd408f93a7111b6d389ae1c532bd7b1ec70d7bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444104"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140055"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Spostare articoli ad hoc nelle configurazioni della warehouse di base
 Talvolta può essere necessario spostare gli articoli tra le collocazioni interne, non le collocazioni di ricezione o spedizione, senza una richiesta specifica da un documento di origine. È possibile eseguire queste movimentazioni ad hoc, ad esempio per riorganizzare la warehouse, per immettere gli articoli in un'area di ispezione o inserire o estrarre articoli aggiuntivi da un'area di produzione senza una relazione di sistema al documento di origine dell'ordine di produzione.  

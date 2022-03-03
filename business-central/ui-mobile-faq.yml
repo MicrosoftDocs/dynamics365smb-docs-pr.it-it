@@ -3,20 +3,19 @@ metadata:
   title: Domande frequenti sulle app per dispositivi mobili
   description: Risposte alle domande frequenti sull'utilizzo di Business Central con un telefono o un tablet.
   author: edupont04
-  ms.service: dynamics365-business-central
-  ms.topic: conceptual
+  ms.topic: faq
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 96e8f34b31ba1f7db375c567da4ec9cf9375bdc5
-  ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+  ms.openlocfilehash: 2511135e9e0aebb3a813c5fede167d10b46f045a
+  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 11/25/2021
-  ms.locfileid: "7865523"
+  ms.lasthandoff: 02/15/2022
+  ms.locfileid: "8140321"
 title: Domande frequenti sulle app per dispositivi mobili
 summary: "Questo articolo contiene le risposte alle domande più comuni poste dai nostri utenti esperti sulle app per dispositivi mobili per [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:

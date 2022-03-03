@@ -2,19 +2,18 @@
 title: Anteprima dei movimenti prima della contabilizzazione di una registrazione o di un documento
 description: È possibile verificare che i movimenti relativi ai documenti e alle registrazioni siano accurati, prima di registrarli in contabilità generale.
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 3392698c48cd4d1febdf1e37d396ceed1ac37bf5
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101505"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148228"
 ---
 # <a name="preview-posting-results"></a>Visualizzare in anteprima i risultati della contabilizzazione
 In ogni documento e registrazione che è possibile contabilizzare, è possibile scegliere il pulsante **Anteprima registrazione** per esaminare i differenti tipi di movimenti che saranno creati quando si registra il documento o le registrazioni.

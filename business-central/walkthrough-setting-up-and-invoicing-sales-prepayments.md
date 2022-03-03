@@ -2,7 +2,6 @@
 title: Impostazione e fatturazione di pagamenti anticipati vendite
 description: I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: dbdab93af8aafdc9b0558ed8979f04751131cb26
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
+ms.openlocfilehash: b21a0dcd4122eb37cdac8f3acf33cf27e6c66414
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889875"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140191"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
 

@@ -2,12 +2,13 @@
 metadata:
   title: Domande frequenti sulla su come copiare e incollare dati
   description: Ottieni risposte alle domande frequenti su come copiare e incollare dati da campi e righe nelle pagine di Business Central.
-  ms.openlocfilehash: e52c60da284ba8144975c88b138ca4e7218fa2ab
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.topic: faq
+  ms.openlocfilehash: a8c70088338b022802cf72d9a77da1c4e8263af1
+  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6115744"
+  ms.lasthandoff: 02/15/2022
+  ms.locfileid: "8133812"
 title: Domande frequenti sulla funzionalità di copia e incolla
 summary: "È possibile copiare una o più righe (record) da un elenco o un singolo campo in una pagina e quindi incollare ciò che è stato copiato nella stessa pagina, in un'altra pagina o in un documento esterno (ad esempio di Microsoft Excel o Outlook).  \n\nIn breve, per copiare, premere CTRL+C (cmd+C in macOS) sulla tastiera. Per incollare, premere CTRL+V (cmd+V in macOS). Sono disponibili altri tasti di scelta rapida da tastiera per copiare e incollare che consentono di risparmiare tempo quando si inseriscono i dati. Per ulteriori informazioni su questo argomento, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#CopyRows). Questo articolo risponde alle domande più frequenti relative alle operazioni di copia e incolla.  \n"
 sections:

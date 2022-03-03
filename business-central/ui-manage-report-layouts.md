@@ -2,7 +2,6 @@
 title: Layout predefiniti e personalizzati per report e documenti
 description: Utilizzare i layout di report per personalizzare i documenti, ad esempio, per personalizzare il carattere, il logo o le impostazioni della pagina di file PDF da inviare ai clienti.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11467596a489c3d3ec550caa35353c72e548e675
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: d150d656371f67d6cfe04668e504f481cf9cc213
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100849"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129840"
 ---
 # <a name="managing-report-and-document-layouts"></a>Gestione dei layout di report e documento
 Un layout di report controlla il contenuto e il formato del report, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro. Da [!INCLUDE[prod_short](includes/prod_short.md)] è possibile cambiare il layout utilizzato in un report, creare un nuovo layout o modificare i layout esistenti.

@@ -2,7 +2,6 @@
 title: Configurare una società con la procedura guidata RapidStart | Microsoft Docs
 description: È possibile configurare rapidamente una nuova società creata utilizzando la procedura di configurazione guidata RapidStart Services.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1b29412d166bd5b2225d780a0b0cee476874dcd0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439662"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130854"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurare una società con la procedura guidata RapidStart
 È possibile configurare rapidamente una nuova società creata utilizzando la procedura di configurazione guidata RapidStart Services.

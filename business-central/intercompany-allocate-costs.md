@@ -4,7 +4,6 @@ description: Scopri come le impostazioni IVA per clienti e fornitori determinano
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444257"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137915"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocare costi a partner IC
 Quando si utilizzano registrazioni intercompany per trasferire documenti tra società partner, le impostazioni relative all'IVA (principalmente la categoria registrazione business IVA) assegnate ai conti cliente o fornitore (associati al partner IC) determinano se e come l'IVA viene calcolata e registrata. È inoltre possibile eseguire distribuzioni dei costi direttamente da un ordine acquisto alle società partner. Ad esempio, se si registra una fattura acquisto di un fornitore esterno e si desidera distribuire alcuni o tutti i costi a uno o più partner IC.

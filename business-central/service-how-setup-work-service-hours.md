@@ -2,7 +2,6 @@
 title: Come impostare le ore di lavoro e le ore di assistenza
 description: Scopri come impostare le ore di lavoro e assistenza utilizzate per il calcolo della data e dell'ora di risposta per ordini e offerte di assistenza.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 2e5dac47a5d4e3ac8e707879b28660f3f62ed1ae
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 919b9c19f93e82c1dc738894e0828fc91f2af46c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436478"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139263"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Impostare le ore di lavoro e le ore di assistenza
 Solitamente, un sistema di gestione dell'assistenza tiene traccia delle ore delle risorse e dello stato dell'ordine di assistenza al fine di poter prevedere i carichi di lavoro e le esigenze di assistenza. [!INCLUDE[prod_short](includes/prod_short.md)] dispone di una serie di strumenti integrati che è possibile personalizzare per poter registrare questo tipo di informazioni.  

@@ -2,7 +2,6 @@
 title: Creare stoccaggi mediante stoccaggi interni
 description: Questo argomento illustra come prelevare e stoccare senza un documento di origine, come creare un prelievo interno e come creare uno stoccaggio interno.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 198c4fb8ead4179667e35957046b3446ce5d8065
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444182"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140087"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Selezionare e stoccare senza un documento di origine
 Dopo avere stoccato gli articoli e prima di prelevarli per soddisfare le richieste di un ordine di produzione o di una spedizione, gli articoli vengono inclusi tra le giacenze disponibili all'interno della warehouse.  

@@ -2,7 +2,6 @@
 title: Come gestire la configurazione della società in un foglio di lavoro
 description: Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione della società.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437964"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141361"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestione della configurazione della società in un foglio di lavoro
 Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un foglio di lavoro per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo.  

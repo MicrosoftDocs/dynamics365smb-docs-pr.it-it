@@ -2,7 +2,6 @@
 title: Creare e modificare layout personalizzati per report e documenti
 description: Informazioni su come creare i layout personalizzati che consentono di modificare l'aspetto del report quando viene visualizzato, stampato o salvato.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3e16ff82492c3331be901c5be5d30de6d302787
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101057"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134719"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Creare e modificare layout di report personalizzati
 
@@ -56,7 +55,7 @@ Quando vengono definiti layout di report personalizzati, puoi selezionarli da sc
 Il layout personalizzato è stato creato. È ora possibile modificare il layout personalizzato in base alle esigenze.
 
 > [!TIP]
-> Puoi esportare i risultati del report in un file Excel per visualizzare l'intero set di dati, comprese tutte le colonne, ma senza layout. Il file Excel può aiutarti a verificare che il report restituisca i dati previsti o diagnosticare i problemi. Per ulteriori informazioni vedi [Utilizzo dei report - Inviare a Excel](ui-work-report.md#send-to-excel).
+> Puoi esportare i risultati del report in un file Excel per visualizzare l'intero set di dati, comprese tutte le colonne, ma senza layout. Il file Excel può aiutarti a verificare che il report restituisca i dati previsti o diagnosticare i problemi. Per ulteriori informazioni vedi [Analisi dei dati del report con Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modifica di un layout personalizzato
 

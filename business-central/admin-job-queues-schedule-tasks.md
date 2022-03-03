@@ -2,7 +2,6 @@
 title: Programmare l'esecuzione automatica di processi
 description: I task programmati sono gestiti dalla coda processi. Questi processi eseguono report e codeunit. È possibile impostare processi da eseguire una sola volta o periodicamente.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 46759304a312e0376e8b309b29d5e0491b34a69f
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: b09973b90a2721d83c309d63f42ce72e3d498e40
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012237"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130724"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per programmare i task
 

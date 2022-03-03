@@ -2,7 +2,6 @@
 title: Come pianificare stoccaggi nei prospetti
 description: Impostare la warehouse in modo che le righe di carico siano disponibili nel prospetto di stoccaggio quando vuoi pianificare le istruzioni di stoccaggio per i carichi.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438184"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131121"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Pianificare stoccaggi nei prospetti
 Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi.  

@@ -2,7 +2,6 @@
 title: 'Dettagli di progettazione: Gestione warehouse | Microsoft Docs'
 description: Questo argomento fornisce una panoramica della progettazione, dei concetti e dei principi alla base delle funzionalità di gestione warehouse in Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7a0576ce3141c9c35933ac78e11c3bfdcb0ba7f8
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 1b1ec2e989db8c30c0e82f20c31be588dd90fbc1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214605"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149181"
 ---
 # <a name="design-details-warehouse-management"></a>Dettagli di progettazione: Gestione warehouse
 La documentazione fornisce una sintesi dei concetti e dei principi utilizzati nelle funzionalità di gestione warehouse in [!INCLUDE[prod_short](includes/prod_short.md)]. Viene descritta la progettazione dietro le funzionalità della warehouse centrale e viene spiegato in che modo la gestione della warehouse si integra con altre funzionalità della supply chain.  

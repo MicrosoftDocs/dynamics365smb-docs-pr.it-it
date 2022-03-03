@@ -2,7 +2,6 @@
 title: Impostazione di definizioni e batch di registrazioni (IT)
 description: Scopri come la versione italiana supporta l'obbligo per tutte le società dell'Unione Europea (UE) di inviare i report Intrastat all'ufficio doganale.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 12119, 12132, 12140
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fecee3fa254a395e79b062eb8237a08f28ae9a68
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 54e9bcc269ac99eff55b5c52c9b27a8764b081ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947231"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132232"
 ---
 # <a name="set-up-journal-templates-and-batches"></a>Impostazione di definizioni e batch di registrazioni
 Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazioni Intrastat all'ufficio doganale, indicando in dettaglio le cessioni e gli acquisti intracomunitari relativamente all'anno in corso. Un report riepilogativo Intrastat viene presentato agli uffici tributari con cadenza mensile, trimestrale o annuale, a seconda dell'entità delle operazioni della società.  

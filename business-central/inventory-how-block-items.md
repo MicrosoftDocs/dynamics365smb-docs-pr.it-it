@@ -2,7 +2,6 @@
 title: Come bloccare gli articoli per la vendita o l'acquisto
 description: È possibile bloccare un articolo in modo che non venga immesso nelle righe dei documenti di acquisto o di vendita e non venga registrato in una transazione.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 744d19675fe3ae95bcbaa56d6e8555ac734180e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 10f915a264508a105d449b3057c8c713d1eb25a5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441170"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130490"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Bloccare gli articoli per la vendita o l'acquisto
 È possibile bloccare un articolo in modo che non venga immesso nelle righe dei documenti di acquisto o di vendita ed è possibile bloccarlo in modo che non venga registrato in una qualsiasi transazione. Ad esempio, questo è utile quando un articolo presenta un difetto noto. Se qualcuno sceglie un articolo bloccato su un documento di vendita o di acquisto, un messaggio informerà che l'articolo è bloccato.

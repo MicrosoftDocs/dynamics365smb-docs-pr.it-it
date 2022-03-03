@@ -2,7 +2,6 @@
 title: Dettagli di progettazione - Registrazione dell'ordine di assemblaggio
 description: La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2ec7e242bd174f3a825a29923b33642d035ec4ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442562"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132115"
 ---
 # <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
 La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.  

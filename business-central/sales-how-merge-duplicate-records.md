@@ -2,7 +2,6 @@
 title: Unire record duplicati relativi a clienti o fornitori
 description: Descrive come consolidare le informazioni su clienti o fornitori quando si hanno voci duplicate su alcuni di essi.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436853"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130126"
 ---
 # <a name="merge-duplicate-records"></a>Unire record duplicati
 Poiché utenti diversi creano nel tempo nuove schede cliente, fornitore o contatto, oppure nuovi record vengono creati automaticamente durante la migrazione, un cliente, un fornitore o un contatto possono essere rappresentati nel sistema con più di un record. In tal caso, è possibile utilizzare la pagina **Unisci duplicato** nella scheda del record che si desidera mantenere. La pagina fornisce una panoramica dei valori di campo duplicati e funzioni per selezionare i valori da mantenere o eliminare quando si uniscono due record.

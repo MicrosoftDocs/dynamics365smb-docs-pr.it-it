@@ -2,7 +2,6 @@
 title: Utilizzo del ricavo ricorrente
 description: Informazioni sulle opzioni disponibili per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 696ab59530c81cd19709f4e1bde3324bcaebbf5a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970991"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128793"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Utilizzo del ricavo ricorrente in [!INCLUDE[prod_short](includes/prod_short.md)]
 

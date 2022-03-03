@@ -2,17 +2,16 @@
 title: Impostare la ritenuta d'acconto (IT)
 description: Nella versione italiana, le società devono versare la ritenuta allo Stato per i servizi di terzi e gli acquisti dai fornitori. Scopri come si fa.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: db201cf5deaa9014ee4e18d137105a72a15db0bc
-ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
+ms.openlocfilehash: 8b02f6929946de8254c1756b08b7840d02684d5c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749081"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135535"
 ---
 # <a name="set-up-withholding-tax-in-the-italian-version"></a>Impostare la ritenuta d'acconto nella versione italiana
 

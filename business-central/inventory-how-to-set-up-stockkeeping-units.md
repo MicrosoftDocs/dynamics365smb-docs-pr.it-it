@@ -2,7 +2,6 @@
 title: Come impostare le unità di stockkeeping
 description: Le unità di stockkeeping possono essere utilizzate per registrare le informazioni relative agli articoli per una specifica ubicazione o uno specifico codice variante.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1a7314d228eef2ff45c7aaf4e3784290f9b17113
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 92be2a9cf0a3ef176d4f3fe1c51ec5543c30bca5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059414"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131537"
 ---
 # <a name="set-up-stockkeeping-units"></a>Impostare le unità di stockkeeping
 Le unità di stockkeeping possono essere utilizzate per registrare le informazioni relative agli articoli per una ubicazione o un codice variante specifici.  

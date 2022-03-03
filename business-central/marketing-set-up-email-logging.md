@@ -2,7 +2,6 @@
 title: Impostare il log delle e-mail | Documenti Microsoft
 description: Informazioni su come trasformare le interazioni e-mail tra venditori e clienti in reali opportunità di vendita.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 2abc0406fa8e86646d2382a4c7bbb1e228439728
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482347"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148410"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Tenere traccia degli scambi di messaggi e-mail tra venditori e contatti
 
@@ -31,7 +30,7 @@ Quindi, connettersi a [!INCLUDE[prod_short](includes/prod_short.md)] con Exchang
 
 Iniziare la registrazione dei messaggi e-mail con due semplici passaggi:
 
-1. Collegare [!INCLUDE[prod_short](includes/prod_short.md)] con Exchange Online per l'abbonamento di Microsoft 365. Exchange Online gestisce i messaggi di posta elettronica. Questo passaggio è stato semplificato con una guida di installazione assistita. Sono solo necessarie le credenziali di amministratore per l'account amministratore in Microsoft 365. Per iniziare la guida, andare alla pagina **Setup assistito** e quindi selezionare la guida **Configurare la registrazione e-mail**.  
+1. Collegare [!INCLUDE[prod_short](includes/prod_short.md)]con Exchange Online per l'abbonamento a Microsoft 365. Exchange Online gestisce i messaggi di posta elettronica. Questo passaggio è stato semplificato con una guida di installazione assistita. Sono necessarie solo le credenziali di amministratore per l'account amministratore in Microsoft 365. Per iniziare la guida, andare alla pagina **Setup assistito** e quindi selezionare la guida **Configurare la registrazione e-mail**.  
 
 2. Assicurarsi che siano stati inseriti indirizzi email validi in [!INCLUDE[prod_short](includes/prod_short.md)] per gli addetti alle vendite e i contatti, a seconda che si tratti di clienti potenziali o esistenti. Per fare ciò, per ogni cliente o venditore, aprire la scheda **Contatto** o **Venditore/Acquirente** e osservare il campo **E-mail**.
 

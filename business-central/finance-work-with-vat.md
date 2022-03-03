@@ -2,7 +2,6 @@
 title: Come utilizzare l'IVA nelle vendite e negli acquisti
 description: Questo argomento descrive i vari modi di lavorare con l'IVA sia manualmente che con l'impostazione automatica, per aiutarti a soddisfare le normative specifiche del paese.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: effeb489bbffbc3647f30b371bc0c0a8f7f2e3c4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ed3cbe00aac1faf920df6954ee1694bdabce9835
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970965"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133786"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
 Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).

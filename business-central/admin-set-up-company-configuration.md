@@ -2,7 +2,6 @@
 title: Impostare la configurazione della società
 description: In qualità di partner, configurare Business Central in modo appropriato per il cliente con configurazioni predefinite o specifiche per il cliente raggruppate nei pacchetti di configurazione.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649714"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143936"
 ---
 # <a name="set-up-company-configuration"></a>Impostare la configurazione della società
 Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società in [!INCLUDE [prod_short](includes/prod_short.md)] online o localmente, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.

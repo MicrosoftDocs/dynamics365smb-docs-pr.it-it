@@ -2,7 +2,6 @@
 title: Impostare addetti agli acquisti e assegnarli ai fornitori (video)
 description: Se numerosi addetti agli acquisti, o rivenditori, lavorano presso la società, è possibile organizzarli per analisi statistiche.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 83956e1e134e00c33f35b260e682bd2d467bfb9f
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953311"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140711"
 ---
 # <a name="set-up-purchasers"></a>Impostare gli addetti agli acquisti
 Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.<br><br>  

@@ -2,7 +2,6 @@
 title: Stampare e ristampare libri giornale e registri IVA [IT]
 description: Le autorità fiscali richiedono l'invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report Libro giornale - Stampa e Registro IVA - Stampa.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 12141, 12143, 12149, 12150
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e897fc75e2c3c9586c21b1de9b6eb57ef780eb78
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: f9c95dcffb37aa4f91f285f73329bdc53bfe56b3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947119"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148923"
 ---
 # <a name="print-and-reprint-gl-books-and-vat-registers-in-the-italian-version"></a>Stampa e ristampa di libri giornale e registri IVA nella versione italiana
 Le autorità fiscali richiedono l'invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report **Libro giornale - Stampa** e **Registro IVA - Stampa**. Ogni pagina stampata deve avere un proprio numero progressive e pertanto è necessario aggiornare [!INCLUDE[prod_short](../../includes/prod_short.md)] con il numero dell'ultima pagina stampata prima di eseguire nuovamente il report.  

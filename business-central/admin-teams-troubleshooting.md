@@ -2,7 +2,6 @@
 title: Risoluzione dei problemi relativi all'integrazione di Microsoft Teams
 description: Scopri cosa puoi fare in veste di amministratore per controllare l'integrazione di Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
+ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596674"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147010"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Risoluzione dei problemi relativi all'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -155,12 +154,12 @@ Quando incolli del testo nella casella del messaggio nella finestra **Condividi 
 
 ## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Impossibile accedere alla finestra Condividi in Teams 
 
-Questo problema può essere causato da varie ragioni. Per esempio, l'identità che stai usando per accedere deve avere accesso a Microsoft Teams, come attraverso un abbonamento a Microsoft 365.
+Questo problema può essere causato da varie ragioni. Ad esempio, l'identità che stai usando per accedere deve avere accesso a Microsoft Teams, come attraverso un abbonamento a Microsoft 365.
 
 ## <a name="see-also"></a>Vedere anche
 
-[Panoramica dell'integrazione di [!INCLUDE [prod_short](includes/prod_short.md)] e Microsoft Teams](across-teams-overview.md)  
-[Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
+[[!INCLUDE [prod_short](includes/prod_short.md)] e Panoramica sull’integrazione di Microsoft Teams](across-teams-overview.md)  
+[Installare l'App [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
 [Ricerca di clienti, fornitori e altri contatti da Microsoft Teams](across-search-contacts-teams.md)  
 [Condividere i record in Microsoft Teams](across-working-with-teams.md)  
 [Domande frequenti su Teams](teams-faq.md)  

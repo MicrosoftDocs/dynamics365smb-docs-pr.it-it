@@ -2,7 +2,6 @@
 title: Funzionalità locale per l'Italia
 description: Negli argomenti indicati di seguito viene descritta la funzionalità locale nella versione italiana di Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 022faa5ca6a45c79bd50b6a169dd343d66fdb761
-ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
+ms.openlocfilehash: a03cacc0f29935747a9ad9d51aa469279aaab266
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7748954"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132229"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 

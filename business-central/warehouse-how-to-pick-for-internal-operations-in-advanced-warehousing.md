@@ -2,7 +2,6 @@
 title: Prelevare per le operazioni interne in configurazioni di warehouse avanzate
 description: Se le ubicazioni utilizzano sia il prelievo che la spedizione, prelevare i componenti per le attività di produzione e assemblaggio nella pagina Prelievo warehouse.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5df764b1ca184d1f70dd67c08abf0505833dc2aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445774"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139133"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Prelevare per produzione o assemblaggio in configurazioni di warehouse avanzate
 Nelle configurazioni di warehouse avanzate in cui l'ubicazione è impostata in modo da utilizzare sia il prelievo che la spedizione, è possibile prelevare componenti per le attività di assemblaggio e produzione tramite la pagina **Prelievo warehouse**.  

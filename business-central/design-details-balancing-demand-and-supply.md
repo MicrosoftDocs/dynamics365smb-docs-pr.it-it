@@ -2,7 +2,6 @@
 title: Dettagli di progettazione - Bilanciamento domanda e approvvigionamento
 description: Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione ottenuti dal bilanciamento dell'approvvigionamento con domanda.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b0ddc9e4a3fbfd4f26633f82f022aa73ba93ada8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442512"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139835"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Dettagli di progettazione: Bilanciamento domanda e approvvigionamento
 Per comprendere il funzionamento del sistema di pianificazione, è necessario comprendere gli obiettivi classificati in ordine di priorità del sistema di pianificazione, i più importanti dei quali servono a garantire quanto segue:  

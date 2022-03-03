@@ -2,7 +2,6 @@
 title: Dettagli di progettazione - Gestione dei metodi di riordino
 description: Questo articolo fornisce una panoramica delle attività coinvolte nella gestione dei criteri di riordino e nella definizione dei criteri di riordino nella pianificazione di approvvigionamenti.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2bc1a4406b82e34db8ecbfa491341606a99dbee7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 705948d59e5ecf724f0dcaa1546485914c16fe23
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441798"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142447"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Dettagli di progettazione: Gestione dei metodi di riordino
 Affinché un articolo partecipi alla pianificazione dell'approvvigionamento, i metodi di riordino devono essere definiti. Sono disponibili i seguenti quattro metodi di riordino:  

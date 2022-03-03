@@ -2,7 +2,6 @@
 title: Righe di vendite e acquisti ricorrenti standard
 description: Imposta le righe di vendita e acquisto più frequentemente usate e quindi inseriscile nei documenti di vendita e di acquisto per compilare rapidamente le righe con informazioni standard.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6039739825964ce059a4f76d1e92f32b581c60a7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440180"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144751"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Creare righe di vendite e acquisti ricorrenti
 Se è spesso necessario creare righe di vendita e acquisto con informazioni simili, è possibile impostare righe standard da inserire nei documenti di vendita e di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.  

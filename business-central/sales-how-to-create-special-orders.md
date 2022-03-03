@@ -2,7 +2,6 @@
 title: Come creare ordini speciali
 description: Scopri come creare un ordine speciale per uno specifico articolo non presente in catalogo che deve venire spedito a un determinato cliente.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 80c26420a4a8e90a2a2b076169f6af505343ad76
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d879e8cfb556ca0c7fc496f72ec653826e8d7db9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440255"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128715"
 ---
 # <a name="create-special-orders"></a>Creare ordini speciali
 È possibile creare un ordine speciale per uno specifico articolo non presente in catalogo che deve venire spedito a un determinato cliente. L'articolo viene spedito dal fornitore abituale alla warehouse dell'azienda e a questo punto può essere spedito al cliente da solo oppure insieme ad altri articoli di un ordine diverso.  

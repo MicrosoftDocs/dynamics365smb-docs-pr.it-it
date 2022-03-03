@@ -2,7 +2,6 @@
 title: Riconciliare le ricevute di pagamento o i rimborsi del fornitore nelle registrazioni pagamenti
 description: Per elaborare, associare, riconciliare manualmente i pagamenti o i rimborsi dei fornitori, è possibile collegare l'importo a uno o più movimenti contabili aperti del fornitore.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2be99ab30035a96d7c7d631caa84276d50a42b3e
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: a3ec4f46425a344276792f44fde29e23f695384f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953286"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145630"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori.
 Quando si invia un pagamento o si riceve un rimborso da un fornitore, è necessario decidere se collegare il pagamento o il rimborso a uno o più movimenti aperti. È possibile specificare l'importo esatto che si desidera collegare alla ricevuta di pagamento o al rimborso, quindi collegare solo parzialmente i movimenti contabili fornitori. È necessario collegare tutti i movimenti contabili fornitori per ottenere statistiche e report corretti degli estratti conto e degli interessi attivi.

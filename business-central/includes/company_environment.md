@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa7e5a51696c149e66da0d76cf1042c5e8f7e7e3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 045f3cc062c3ffec74177f7c7bc41c3bb96c9b8c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776398"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129710"
 ---
 Le persone a volte supportano più di un'azienda e devono passare facilmente da un'azienda a un'altra in [!INCLUDE [prod_short](prod_short.md)]. Ad esempio, un'azienda potrebbe avere uffici di vendita in diverse città e in più paesi, quindi ha creato una business unit separata per ciascun ufficio. Gli uffici che si trovano nello stesso paese sono istituiti come società separate in un ambiente condiviso. Altri uffici vengono creati come aziende in ambienti separati perché sono geograficamente in altri paesi.<br><br>  
 

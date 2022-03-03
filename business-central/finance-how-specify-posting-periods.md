@@ -3,7 +3,6 @@ title: Specificare i periodi di registrazione
 description: Specifica le date di inizio e fine registrazione dei periodi di registrazione per impostare quando gli utenti possono registrare nella contabilità generale.
 author: SorenGP
 editor: ''
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 969fdfd748ee71a86a91b192f2c5bd305292c762
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 749f5d2dc901fae9db9c96d4f1c51e9590aa8184
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972933"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142187"
 ---
 # <a name="specify-posting-periods"></a>Specificare i periodi di registrazione
 

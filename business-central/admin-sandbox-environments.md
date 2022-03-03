@@ -2,7 +2,6 @@
 title: Ambienti sandbox
 description: Scopri come un ambiente dedicato può aiutarti a esplorare, imparare, dimostrare, sviluppare, risolvere i problemi e testare Business Central in sicurezza.
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940628"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142473"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Ambienti sandbox in [!INCLUDE[prod_short](includes/prod_short.md)]
 

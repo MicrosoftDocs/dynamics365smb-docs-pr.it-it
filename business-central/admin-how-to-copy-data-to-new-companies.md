@@ -2,7 +2,6 @@
 title: Come copiare i dati nelle nuove società
 description: È possibile copiare i valori dei campi comunemente utilizzati da una società esistente in una nuova, purché si trovino nello stesso database.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8a91058dc1a82dc74e6ef29810c3b6d392819bd1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 96a4b18cd68edc972211ee31b99f3f01f91b3dda
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439612"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132128"
 ---
 # <a name="copy-data-to-new-companies"></a>Copiare i dati in nuove società
 È possibile copiare i valori dei campi comunemente utilizzati da una società esistente in una nuova, purché si trovino nello stesso database. Ad esempio, se si dispone di un elenco standard dei codici indizio che è comune a tutte le implementazioni di gestione dell'assistenza, è possibile copiare i codici in modo facile da una società a un'altra.  

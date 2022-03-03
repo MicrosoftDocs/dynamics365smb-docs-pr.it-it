@@ -4,7 +4,6 @@ description: L'estensione per formati di file .tax semplifica l'esportazione dei
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6a1b4794593534639109f002447f61d85ea14e8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b65d1ee627f4b6c440e1e0f1150fd0ecbdbedc43
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326590"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129866"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Estensione per formati di file .tax (DK)
 Se l'azienda ha rapporti commerciali con società, filiali interne o consociate in altri paesi dell'UE, è necessario dichiarare i dati sulle attività agli enti SKAT e Statistics Denmark. Se si utilizzano le funzionalità di dichiarazione IVA e Intrastat di [!INCLUDE[prod_short](includes/prod_short.md)], questa estensione assicura che il file esportato sia compatibile con i requisiti di queste organizzazioni. L'estensione aggiunge alla configurazione del report IVA le codeunit necessarie per la preparazione dei file di esportazione per le dichiarazioni INTRASTAT e MS-ECSL, in modo da poter esportare immediatamente i dati nel nuovo formato corretto.

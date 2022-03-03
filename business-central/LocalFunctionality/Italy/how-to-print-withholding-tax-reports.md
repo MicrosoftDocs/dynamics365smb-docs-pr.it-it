@@ -2,7 +2,6 @@
 title: Stampa di report delle ritenute (IT)
 description: Nel report Ritenute viene visualizzato un elenco delle ritenute dovute allo stato italiano.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 12103
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a93595da50b04438b1b78297796f41f082ec80a8
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 381fc7771919b76c6d7e79df0d677fe20b7a8485
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947187"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135548"
 ---
 # <a name="print-withholding-tax-reports-in-the-italian-version"></a>Stampare i report di ritenuta d'acconto nella versione italiana
 

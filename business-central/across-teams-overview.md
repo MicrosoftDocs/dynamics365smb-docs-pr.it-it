@@ -2,7 +2,6 @@
 title: Panoramica dell'integrazione di Business Central e Microsoft Teams | Microsoft Docs
 description: Condividere i record di Business Central direttamente in una conversazione di Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011847"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138728"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integrazione di Business Central e Microsoft Teams
 
@@ -53,7 +52,7 @@ Per ulteriori informazioni, vedere [Condividere record in Microsoft Teams](acros
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Condividere link da pagine in Business Central a Teams
 
-Direttamente dalla maggior parte delle pagine delle collezioni e dei dettagli in Business Central, puoi usare l'azione **Condividi in Teams** dall'![!icona del menu Condividi sulle pagine.](media/share-icon.png "Il menu Condividi visualizzato su una scheda.") per digitare un messaggio, scegliere i destinatari, come i membri del team, gruppi o canali, e inviare il messaggio con un link alla pagina di Business Central.
+Direttamente dalla maggior parte delle pagine delle collezioni e dei dettagli in Business Central, puoi usare l'azione **Condividi in Teams** dall'![icona del menu Condividi sulle pagine.](media/share-icon.png "Il menu Condividi visualizzato su una scheda.") per digitare un messaggio, scegliere i destinatari, come i membri del team, gruppi o canali, e inviare il messaggio con un link alla pagina di Business Central.
 
 ![!Il menu Condividi visualizzato su una scheda.](media/teams-share-link.png "Il menu Condividi visualizzato su una scheda.")
 

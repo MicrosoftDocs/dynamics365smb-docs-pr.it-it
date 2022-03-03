@@ -2,7 +2,6 @@
 title: OneDrive per il business FAQ
 description: Ottieni risposte ad alcune domande tipiche sul lavoro con OneDrive for Business e Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3d9058b3b0f751729d5538f36454bd8244a3594f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: f54e8b6290e9dd653180b3ea05246255b84dc2ae
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589459"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144052"
 ---
 # <a name="onedrive-for-business-faq"></a>OneDrive per il business FAQ
 
@@ -29,7 +28,7 @@ Sì. Puoi aprire i file in OneDrive dalle app mobili di [!INCLUDE[prod_short](in
 
 ## <a name="is-onedrive-the-same-as-sharepoint-for-storing-files"></a> OneDrive è la stessa cosa di SharePoint per memorizzare i file?
 
-Come parte del tuo abbonamento a Microsoft 365, la tua organizzazione ti fornisce OneDrive, l'archiviazione dei tuoi file nel cloud. OneDrive è privato per impostazione predefinita, dove organizzi i tuoi contenuti e scegli quali file o cartelle condividere e con chi. SharePoint d'altra parte, fornisce un archivio di file nel cloud che è condiviso con altri nella vostra organizzazione.  
+Come parte del tuo abbonamento a Microsoft 365, la tua organizzazione ti fornisce OneDrive, il tuo spazio di archiviazione dei file nel cloud. OneDrive è privato per impostazione predefinita, dove organizzi i tuoi contenuti e scegli quali file o cartelle condividere e con chi. SharePoint d'altra parte, fornisce un archivio di file nel cloud che è condiviso con altri nella vostra organizzazione.  
 
 ## <a name="does-prod_short-support-consumer-onedrive"></a> [!INCLUDE[prod_short](includes/prod_short.md)] supporta il consumatore OneDrive?
 
@@ -41,7 +40,7 @@ No. Questa integrazione è destinata esclusivamente a OneDrive for Business e su
 
 ## <a name="where-can-i-see-onedrive-service-health"></a>Dove posso vedere OneDrive Service Health?
 
-Gli amministratori possono accedere al Service health dashboard come parte dell'admin center di Microsoft 365. Il dashboard include OneDrive's disponibilità del servizio. 
+Gli amministratori possono accedere al dashboard sull'integrità del servizio come parte dell'interfaccia di amministrazione di Microsoft 365. Il dashboard include OneDrive's disponibilità del servizio. 
  
 ## <a name="is-onedrive-integration-available-to-prod_short-on-premises"></a>L'integrazione di OneDrive è disponibile per [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
 

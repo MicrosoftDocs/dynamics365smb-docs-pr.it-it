@@ -2,7 +2,6 @@
 title: Impostare le procedure ottimali - Pianificazione dei parametri
 description: Questo argomento descrive le procedure consigliate per impostare i campi dei parametri di pianificazione selezionati con la Scheda dettaglio Pianificazione nella scheda articolo.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320058"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129990"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Impostare le procedure ottimali: Pianificazione dei parametri
 La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centrale della supply chain di una società. L'impostazione dei parametri di pianificazione corretti è molto importante per un controllo del magazzino conveniente e un'assistenza clienti di ottima qualità.  

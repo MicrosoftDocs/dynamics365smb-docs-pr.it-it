@@ -2,7 +2,6 @@
 title: Definire la modalità di scambio elettronico dei dati | Microsoft Docs
 description: È possibile utilizzare un provider esterno di servizi OCR per convertire file PDF o di immagine in documenti elettronici.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba59e1164dbbe4cdd95cca31687b63db2af8018c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774688"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129235"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
 [!INCLUDE[prod_short](includes/prod_short.md)] può essere impostato in modo da scambiare i dati di tabelle specifiche con quelli di file esterni, ad esempio per inviare e ricevere documenti elettronici, importare ed esportare dati bancari o di altro tipo, come la retribuzione, i tassi di cambio delle valute e i cataloghi di articoli. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  

@@ -3,7 +3,6 @@ title: Estensione della gestione del gruppo IVA
 description: È possibile impegnarsi con altre aziende per formare un gruppo IVA e agire come membro o rappresentante del gruppo quando si dichiara l'IVA.
 author: bholtorf
 manager: annbe
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029142"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132448"
 ---
 # <a name="the-vat-group-management-extension"></a>Estensione della gestione del gruppo IVA
 

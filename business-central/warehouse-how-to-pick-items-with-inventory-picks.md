@@ -2,7 +2,6 @@
 title: Come prelevare articoli con prelievi magazzino
 description: Se un'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non la spedizione, utilizzare i documenti di prelievo da magazzino per registrare e contabilizzare le informazioni riguardanti il prelievo e la spedizione per i documenti di origine.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05bd840f0e4db2f383544b99d3edc26a443f423b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b0f0bf09670620a36ee696fdc9d1483a2c33f77b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438209"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144335"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
 

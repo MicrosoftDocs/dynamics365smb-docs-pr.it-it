@@ -2,24 +2,23 @@
 title: Migrare i dati dei clienti
 description: È possibile eseguire la migrazione dei dati dei clienti esistenti da un sistema esistente a Business Central utilizzando RapidStart Services o immettendoli direttamente nella società.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437468"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335372"
 ---
 # <a name="migrate-customer-data"></a>Migrare i dati dei clienti
 
-È possibile eseguire la migrazione dei dati cliente esistenti da un sistema ERP esistente a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società.
+È possibile eseguire la migrazione dei dati cliente esistenti da un sistema ERP esistente a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando gli strumenti di migrazione dati di RapidStart Services. È possibile utilizzare i file Excel in formato come vettore dati. È inoltre possibile spostare manualmente i dati immettendoli direttamente nella società. In alternativa, puoi utilizzare la guida di **migrazione al cloud** per informazioni su come spostare i dati. Per ulteriori informazioni, vedi [Migrare i dati](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto per gli amministratori.
 
 > [!NOTE]
 > I campi di tipo BLOB non possono essere esportati/importati utilizzando Excel.

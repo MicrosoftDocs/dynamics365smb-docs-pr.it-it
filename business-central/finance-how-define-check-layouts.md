@@ -2,7 +2,6 @@
 title: Specificare il layout di un assegno
 description: È possibile progettare e stampare gli assegni in modi diversi per conformità agli standard impostati dalle autorità locali.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4278cb474440e8746bcc423c3dd10dbc209fdb9a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971667"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149051"
 ---
 # <a name="select-a-check-layout"></a>Selezionare un layout degli assegni
 

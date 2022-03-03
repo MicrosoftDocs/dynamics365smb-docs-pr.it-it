@@ -2,7 +2,6 @@
 title: Come creare offerte di assistenza
 description: Scopri come usare un'offerta di assistenza come bozza preliminare di un ordine di assistenza e può essere in seguito convertita in un ordine.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a28ee7522faa1e08608deb00718bf955e0e4984
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: eb96cbfee145b418334f49121acfaa5f867ee042
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441912"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143038"
 ---
 # <a name="create-service-quotes"></a>Creare offerte di assistenza
 Le offerte di assistenza possono essere considerate come ordini di assistenza di base. In effetti, sono quasi identici. Entrambi includono informazioni come l'identità del cliente, il tipo di ordine, l'articolo che necessita di assistenza, nonché informazioni di fatturazione, spedizione e relative al lavoro di assistenza effettivo.

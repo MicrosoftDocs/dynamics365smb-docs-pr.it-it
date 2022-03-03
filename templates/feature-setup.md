@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: e729861acd836dd1743822a0ebb2ba3b6b0848aa
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 837dc686f3a926683a736e2f4f3108d752bb791b
+ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606488"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311179"
 ---
 # <a name="set-up-this-feature-in-max-100-characters"></a>Impostare questa funzione in Max. 100 caratteri
 
@@ -34,3 +34,5 @@ Ricordati di aggiungere i link Guarda anche e di aggiungere il nuovo articolo al
 
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Amministrazione](admin-setup-and-administration.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Gestione delle modifiche dell'aliquota IVA
 description: Scopri come utilizzare lo strumento di modifica dell'aliquota IVA per Dynamics 365 Business Central per la modifica delle aliquote IVA in base alla legislazione locale.
 author: andregu
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
@@ -10,12 +9,12 @@ ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550,
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: e021a2950d3441f481c63771250c44b874f92cda
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ce98367d08c399e8c1a93140bad6fbecd04dda95
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970546"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135395"
 ---
 # <a name="managing-vat-rate-changes"></a>Gestione delle variazioni dell'aliquota IVA
 
