@@ -1,20 +1,21 @@
 ---
-title: Come aggiungere campi a un layout di report Word
-description: Questo argomento descrive come aggiungere campi di un set di dati del report a un layout di report Word esistente per un report.
+title: Come aggiungere campi a un layout di report Word | Microsoft Docs
+description: Descrive come aggiungere campi di un set di dati del report a un layout di report Word esistente per un report.
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/25/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 036b6964b8a0e468bdfc4d2f3e44824b3daac9ee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144725"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193925"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Aggiungere campi a un layout di report Word
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
@@ -30,11 +31,11 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 2.  Mostra la scheda **Sviluppatore** nella barra multifunzione di Microsoft Word.  
   
-     Per impostazione predefinita, la scheda **Sviluppatore** non è indicata nella barra multifunzione. Per ulteriori informazioni, vedi [Visualizzare la scheda sviluppatore nella barra multifunzione](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
+     Per impostazione predefinita, la scheda **Sviluppatore** non è indicata nella barra multifunzione. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Nella scheda **Sviluppatore**, scegliere **Riquadro mapping XML**.  
   
-4.  Nel riquadro **Mapping XML** nell'elenco a discesa **Parte XML personalizzata** scegliere la parte XML personalizzata per il report [!INCLUDE[prod_short](includes/prod_short.md)] che di solito è l'ultimo dell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
+4.  Nel riquadro **Mapping XML**, nell'elenco a discesa **Parte XML personalizzata**, scegliere la parte XML personalizzata per il report di ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> che in genere è l'ultima nell'elenco. Il nome della parte XML personalizzata ha il seguente formato:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -48,7 +49,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
 1.  Posizionare il cursore nel documento dove si desidera aggiungere il controllo.  
   
-2.  Nel riquadro di **Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
+2.  Nel riquadro di ***Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
   
     > [!NOTE]  
     >  Non è possibile aggiungere un campo manualmente digitando il nome del campo set di dati nel controllo contenuto. Utilizzare il riquadro di **Mapping XML** per mappare i campi.  
@@ -67,7 +68,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
     1.  Posizionare il puntatore in una colonna.  
   
-    2.  Nel riquadro di **Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
+    2.  Nel riquadro di ***Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Testo normale**.  
   
     3.  Ripetere i passaggi a e b per ogni campo.  
   
@@ -77,13 +78,13 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
  Le immagini vengono allineate all'angolo in alto a sinistra del controllo contenuto e ridimensionate automaticamente per rispettare il limite del controllo contenuto.  
   
 > [!IMPORTANT]  
->  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine il cui formato non è supportato da Word, verrà visualizzato un errore quando si esegue il report dal client [!INCLUDE[prod_short](includes/prod_short.md)].  
+>  È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine con un formato non supportato da Word, quando si esegue il report dal client di ADD INCLUDE sarà visualizzato<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> un errore.  
   
 #### <a name="to-add-an-image"></a>Per aggiungere un'immagine  
   
 1.  Posizionare il puntatore nel documento dove si desidera aggiungere il controllo.  
   
-2.  Nel riquadro di **Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Immagine**.  
+2.  Nel riquadro di ***Mapping XML**, fare clic con il pulsante destro del mouse sul controllo che si desidera aggiungere, scegliere **Immetti controllo contenuto**, quindi **Immagine**.  
   
 3.  Per aumentare o diminuire la dimensione dell'immagine, trascinare un quadratino di ridimensionamento verso il centro o lontano dal centro del controllo contenuto.  
 
@@ -98,19 +99,19 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Testata|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|Specifica di spazio dei nomi XML. `<reportname>` è il nome assegnato al report. `<id>` corrisponde all'ID assegnato al report.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene tutte le etichette per il report.<!--OnPren The element includes labels that are related to columns that have the IncludeCaption Property.--><br />-   Gli elementi delle etichette correlati alle colonne hanno il formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Gli elementi delle etichette hanno il formato `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Le etichette sono elencate in ordine alfabetico.|  
-|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Colonne ed elemento dati di livello principale. Le colonne sono elencate in ordine alfabetico.<!--OnPrem <br /><br /> The element names and values are determined by the Name Property of the data item or column.-->|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contiene tutte le etichette per il report.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Gli elementi delle etichette correlati alle colonne hanno il formato `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Gli elementi delle etichette hanno il formato `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Le etichette sono elencate in ordine alfabetico.|  
+|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Colonne ed elemento dati di livello principale. Le colonne sono elencate in ordine alfabetico.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Gli elementi di dati e le colonne che sono annidati nell'elemento dati di livello superiore. Le colonne sono elencate in ordine alfabetico sotto il rispettivo elemento di dati.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Scegliere gli articoli.|  
   
 ### <a name="custom-xml-part-in-word"></a>Personalizzare la parte XML in Word  
- In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
+ In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
- Gli elementi nel riquadro **Mapping XML** vengono visualizzati in una struttura che è simile all'origine XML. I campi etichetta vengono raggruppati sotto di un elemento comune **Etichette**, mentre gli elementi di dati e le colonne sono disposti in una struttura gerarchica corrispondente all'origine XML, con le colonne elencate in ordine alfabetico. Gli elementi sono identificati dal nome della colonna come definito nel set di dati del report nel codice AL. Per ulteriori informazioni vedi [Definizione di un set di dati del report](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
+ Gli elementi nel riquadro **Mapping XML** vengono visualizzati in una struttura che è simile all'origine XML. I campi etichetta vengono raggruppati sotto di un elemento comune **Etichette**, mentre gli elementi di dati e le colonne sono disposti in una struttura gerarchica corrispondente all'origine XML, con le colonne elencate in ordine alfabetico. Gli elementi vengono identificati dal proprio nome come definito dalla proprietà nome in Progettazione set di dati del report in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
  La figura seguente illustra la parte XML semplice personalizzata dalla sezione precedente nel riquadro **Mapping XML** di un documento Word.  
   
- ![Clip del riquadro Mapping XML in Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Clip del riquadro Mapping XML in Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Per aggiungere un'etichetta o un campo al layout, si inserisce un controllo contenuto che mappa all'elemento presente nel riquadro di **Mapping XML**.  
   
@@ -118,10 +119,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
   
 -   Per le etichette, l'effettivo testo che viene visualizzato nel report generato corrisponde al valore della proprietà **Didascalia** del campo nella tabella elemento di dati (se l'etichetta è correlata alla colonna nel set di dati del report) o un'etichetta in progettazione etichette report (se l'etichetta non è correlata a una colonna del set di dati).  
   
--   La lingua dell'etichetta visualizzata quando si esegue il report dipende dall'impostazione della lingua dell'oggetto del report.  
+-   La lingua dell'etichetta visualizzata quando si esegue il report dipende dall'impostazione della lingua dell'oggetto del report. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## <a name="see-also"></a>Vedere anche  
  [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

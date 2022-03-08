@@ -1,21 +1,23 @@
 ---
-title: Gestire la casella in entrata e in uscita intercompany
+title: Elaborare le transazioni IC in entrata e in uscita | Microsoft Docs
 description: Le transazioni intercompany che si ricevono dai partner IC sono elencate nella posta in arrivo IC. Qui è possibile elaborarle manualmente o automaticamente.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e8959900cedbf538a289447ad57c2e64b51c55b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: acc6427342122589fca6f2cad08baa00210a261e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141075"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921014"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Gestire la casella in entrata e in uscita intercompany
 Tutte le transazioni intercompany ricevute elettronicamente dai partner intercompany sono elencate nella posta in arrivo IC.  

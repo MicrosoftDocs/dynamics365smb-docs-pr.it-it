@@ -1,29 +1,29 @@
 ---
-title: Perché non è possibile personalizzare una pagina
+title: Perché non è possibile personalizzare una pagina | Documenti Microsoft
 description: Descrizione dei motivi per cui non è possibile personalizzare una pagina e delle azioni che è possibile intraprendere per sbloccare la pagina e personalizzarla.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd94d467961cf4f01fdffa35241d84371be64527
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: d24e78d7f0286e1ef633008e22ceb3f922b48768
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335320"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781362"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Perché non è possibile personalizzare una pagina
 
-Vi sono due condizioni che impediscono la personalizzazione di una pagina. La pagina è protetta (come indicato dall'icona ![Blocco della personalizzazione.](media/personalization-lock-icon.png "Blocco della personalizzazione")) oppure è bloccata (come indicato dall'icona ![Personalizzazione bloccata.](media/personalization-blocked-icon.png "Personalizzazione bloccata")) .
+Vi sono due condizioni che impediscono la personalizzazione di una pagina. La pagina è protetta (come indicato dall'icona ![Blocco della personalizzazione](media/personalization-lock-icon.png "Blocco della personalizzazione")) oppure è bloccata (come indicato dall'icona ![Personalizzazione bloccata](media/personalization-blocked-icon.png "Personalizzazione bloccata")).
 
 ## <a name="locked-from-personalizing"></a>Protetta dalla personalizzazione
 
-Se c'è un'icona ![Personalizza blocco.](media/personalization-lock-icon.png "Blocco della personalizzazione") nel banner **Personalizzazione** quando viene aperta una pagina, indica che attualmente non sono consentite ulteriori modifiche di personalizzazione nella pagina.
+Se è presente un'icona ![Blocco della personalizzazione](media/personalization-lock-icon.png "Blocco della personalizzazione") nel banner **Personalizzazione** quando viene aperta una pagina (come mostrato), ciò indica che attualmente non sono consentite ulteriori modifiche di personalizzazione nella pagina.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -50,7 +50,7 @@ Prima di sbloccare la pagina, considerare quanto segue:
 
 Se esiste un'icona ![Personalizzazione bloccata](media/personalization-blocked-icon.png "Personalizzazione bloccata") nel banner **Personalizzazione**, ciò significa che qualsiasi personalizzazione della pagina è bloccata.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 
 Ciò è dovuto al fatto che Gestione ruolo utente o il ruolo attualmente associato al proprio account utente modifica questa pagina specificatamente per il ruolo. Contattare l'amministratore per l'assistenza. In alternativa, provare a passare a un Centro ruoli che include l'adattamento dei ruoli per questa pagina. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).
 
@@ -59,6 +59,3 @@ Ciò è dovuto al fatto che Gestione ruolo utente o il ruolo attualmente associa
 [Personalizzare pagine per profili](ui-personalization-manage.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

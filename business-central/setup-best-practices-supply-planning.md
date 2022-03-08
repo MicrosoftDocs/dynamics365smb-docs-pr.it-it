@@ -1,20 +1,21 @@
 ---
-title: Impostare le procedure ottimali - Pianificazione forniture
-description: Una volta impostata e utilizzata correttamente, la pianificazione forniture consente a una società di evitare l'esaurimento scorte e di ridurre i costi di ordinazione e di magazzino.
+title: 'Impostare le procedure ottimali: pianificazione forniture | Documenti Microsoft'
+description: La pianificazione forniture è un settore commerciale critico. Una volta impostata e utilizzata correttamente, la pianificazione forniture consente a una società di evitare l'esaurimento scorte e di ridurre i costi di ordinazione e di magazzino.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: eb2ae1ab65a777ab928d38ee62de56f9995e9554
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6e80ba7e148e8a415c8b9c71e42bdda13df7050f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132552"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192173"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Impostare le procedure ottimali: Pianificazione forniture
 La pianificazione forniture è un settore commerciale critico. Una volta impostata e utilizzata correttamente, la pianificazione forniture consente a una società di evitare l'esaurimento scorte e di ridurre i costi di ordinazione e di magazzino.  
@@ -33,7 +34,4 @@ La pianificazione forniture è un settore commerciale critico. Una volta imposta
  [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
  [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
  [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

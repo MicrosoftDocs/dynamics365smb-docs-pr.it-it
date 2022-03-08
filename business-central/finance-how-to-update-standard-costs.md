@@ -1,33 +1,34 @@
 ---
-title: Aggiornare i costi standard
+title: Come aggiornare i costi standard | Microsoft Docs
 description: Periodicamente è necessario aggiornare i costi standard dei componenti ed eseguire il rollup dei nuovi costi nell'articolo padre.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5841
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: dd79e723ea86f3e5631a571a26a061c84adab518
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c1f8f0bf70a72944d216f2b948224cd9f706bdff
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141127"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238810"
 ---
 # <a name="update-standard-costs"></a>Aggiornare i costi standard
 Periodicamente è necessario aggiornare i costi standard dei componenti ed eseguire il rollup dei nuovi costi nell'articolo padre. Il processo in genere è costituito dai quattro passaggi seguenti:  
 
 1.  Aggiornare i costi ai livelli di capacità e componente. Per ulteriori informazioni, vedere il processo batch **Suggerisci costo std. articolo**.  
 2.  Consolidamento e roll up dei costi dei componenti e della capacità per calcolare il costo totale di produzione o di assemblaggio degli articoli.  
-3.  Implementare i costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non verranno implementati. Usa il processo batch **Implementa modifiche costo std.** che consente di aggiornare il costo standard degli elementi riportati nella tabella Prospetto costo standard.  
+3.  Implementare i costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non verranno implementati. Per ulteriori informazioni, vedere Implementare modifiche costo std..  
 4.  Implementare le modifiche per aggiornare il campo **Costo unitario** nella scheda articolo ed eseguire la rivalutazione di magazzino. Per ulteriori informazioni, vedere [Rivalutare il magazzino](inventory-how-revalue-inventory.md).  
 
-Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md).
-  
-## <a name="to-update-standard-costs"></a>Per aggiornare i costi standard
-
+Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md).  
+## <a name="to-update-standard-costs"></a>Per aggiornare i costi standard  
 1.  Eseguire il processo batch **Rettifica costo - Movimenti articoli**.  
 2.  Eseguire il processo batch **Registra costo magazzino in C/G**.  
 3.  Aprire il **Prospetto costo standard** e utilizzare una o più delle funzioni seguenti:  
@@ -41,12 +42,8 @@ Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard]
     7.  Eseguire il processo batch **Implementa modifiche costo std.**  
 4.  Analizzare e contabilizzare la pagina **Registrazioni rivalutazioni**, in cui sono stati inseriti i dati ricavati tramite i passaggi precedenti del processo.  
 
-## <a name="see-also"></a>Vedi anche
-
+## <a name="see-also"></a>Vedi anche  
  [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)   
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
  [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md) [Contabilità](finance.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

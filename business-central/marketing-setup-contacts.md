@@ -4,19 +4,20 @@ description: Descrive i task per specificare le informazioni e i codici, ad esem
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137837"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242274"
 ---
 # <a name="set-up-contacts"></a>Setup contatti
 Quando si creano contatti, è possibile immettere informazioni specifiche, ad esempio il settore a cui il contatto appartiene e la relazione d'affari con i contatti.
@@ -148,10 +149,10 @@ L'eredità dei campi viene sovrascritta ai valori di default impostati. Se ad es
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari
 Per sincronizzare la scheda contatto con una scheda cliente, fornitore o conto corrente bancario, è necessario compilare il campo corrispondente nella sezione **Per codice relazione di bus.** della Scheda dettaglio **Interazioni** nella pagina **Setup marketing**.  
 
-Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Per ulteriori informazioni, vedere [Sincronizzazione di contatti con clienti, fornitori e conti correnti bancari](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Ricerca di contatti duplicati
-È possibile impostare l'applicazione affinché vengano ricercati i duplicati ogni volta che si creano contatti; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati. Questa impostazione viene eseguita nella Scheda dettaglio **Duplicati** della pagina **Setup marketing**.
+È possibile impostare il programma affinché vengano ricercati i duplicati ogni volta che si creano contatti; in alternativa, è possibile effettuare tale ricerca manualmente una volta completata la creazione dei contatti. È inoltre possibile aggiornare automaticamente le stringhe di ricerca ogni volta che le informazioni sui contatti vengono modificate o si crea un contatto. È possibile stabilire una percentuale di ricerca, ossia la percentuale di stringhe identiche che due contatti devono avere per essere considerati duplicati. Questa impostazione viene eseguita nella Scheda dettaglio **Duplicati** della pagina **Setup marketing**.
 
 Una volta individuato un contatto duplicato, è possibile utilizzare la pagina **Unisci duplicato** per unirlo in un record di contatto che si intende mantenere. Per ulteriori informazioni, vedere [Unire record duplicati](sales-how-merge-duplicate-records.md).
 
@@ -159,7 +160,4 @@ Una volta individuato un contatto duplicato, è possibile utilizzare la pagina *
 [Gestione dei contatti](marketing-contacts.md)  
 [Creare contatti](marketing-create-contact-companies.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

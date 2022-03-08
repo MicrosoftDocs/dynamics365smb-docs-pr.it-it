@@ -1,21 +1,21 @@
 ---
-title: Creare report di analisi
+title: Creare report di analisi| Documenti Microsoft
 description: Descrive come creare nuovi report di analisi per vendite, acquisti e magazzino e impostare modelli di analisi.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d874c55108a985cd4076e2bbcc8eec53287db008
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335502"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437053"
 ---
 #  <a name="create-analysis-reports"></a>Creare report di analisi
 I direttori vendite devono analizzare il turnover, il margine lordo e altri indicatori di prestazioni vendite principali periodicamente. Gli addetti agli acquisti sono più interessati alle dinamiche dei volumi di acquisto, alle prestazioni dei fornitori e ai prezzi di acquisto. Mentre i responsabili di logistica e magazzino necessitano informazioni sull'indice di rotazione delle giacenze, l'analisi dei movimenti di magazzino e le statistiche sul valore di magazzino.  

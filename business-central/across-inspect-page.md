@@ -5,22 +5,21 @@ ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: conceptual
+ms.topic: article
+ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
-ms.date: 04/01/2021
-ms.openlocfilehash: d30b93942292e2f6a5a52831725ec06aed32820c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2020
+ms.openlocfilehash: f56dbf4546f5f1b466b23c3bd2794d3c4ffe02c3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136506"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924705"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Controllo di pagine in Business Central
 
 La funzionalità Controllo pagina consente di ottenere dettagli su una pagina, fornendo informazioni sulla progettazione della pagina, i differenti elementi della pagina e l'origine dei dati visualizzati. La funzionalità Controllo pagina è specificatamente progettata per amministratori, utenti esperti, personale del supporto e sviluppatori. È ideale per apprendere il modello di dati alla base di una pagina e per la risoluzione di problemi. Ad esempio, in caso di problema con una pagina, si potrebbe utilizzare Controllo pagina per ottenere informazioni da passare all'amministratore di sistema oppure al personale del supporto.
-
-[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Utilizzo di Controllo pagina
 
@@ -28,7 +27,7 @@ L'ispezione della pagina inizia dalla pagina **Guida e supporto**. Scegli il pun
 
 Il riquadro **Controllo pagina** viene visualizzato sul lato. Nella seguente figura viene illustrato il riquadro **Controllo pagina** nella pagina **Ordini Vendita**.
 
-![Controllo pagina.](media/page-inspection-example.png)
+![Controllo pagina](media/page-inspection-example.png)
 
 Quando il riquadro **Controllo pagina** viene aperto per la prima volta, visualizza informazioni relative all'oggetto della pagina principale.
 
@@ -46,7 +45,4 @@ Gli utenti a cui non vengono concesse autorizzazioni per l'**Oggetto sistema 533
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

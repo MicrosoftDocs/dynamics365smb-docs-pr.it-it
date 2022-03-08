@@ -1,21 +1,22 @@
 ---
-title: Modifica delle funzionalità visualizzate
+title: Scegliere l'esperienza utente per visualizzare o nascondere le funzioni avanzate | Documenti Microsoft
 description: Informazioni sulle caratteristiche dei livelli dell'esperienza utente Essential e Premium che hanno effetto su interfaccia utente, aree di applicazione e società.
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d56c8d6be69e12ced2dc83b884650360e95c0ab2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130017"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443620"
 ---
 # <a name="change-which-features-are-displayed"></a>Modifica delle funzionalità visualizzate
 [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per aiutare l'utente a gestire la propria attività indipendentemente dalle dimensioni e dalla complessità. Alla base del prodotto sono disponibili funzionalità essenziali, come la gestione di report finanziari, vendite, acquisti e magazzino. Con l'aumentare della complessità aziendale,è possibile ad esempio attivare la funzionalità per la produzione e la gestione dell'assistenza.

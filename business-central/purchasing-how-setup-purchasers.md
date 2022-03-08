@@ -1,21 +1,23 @@
 ---
-title: Impostare addetti agli acquisti e assegnarli ai fornitori (video)
+title: Impostare addetti agli acquisti e assegnarli ai fornitori | Documenti Microsoft
 description: Se numerosi addetti agli acquisti, o rivenditori, lavorano presso la società, è possibile organizzarli per analisi statistiche.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 468437e1b9f2e2a49c008a4e78c59f436dc05b17
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140711"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772606"
 ---
 # <a name="set-up-purchasers"></a>Impostare gli addetti agli acquisti
 Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.<br><br>  
@@ -23,12 +25,12 @@ Se numerosi addetti agli acquisti lavorano presso la società, si possono impost
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>Per impostare gli addetti agli acquisti
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Agenti/Addetti acquisti**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Agenti/Add. acquisti** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Agente/Add. acquisti** scegliere l'azione **Nuovo**.
 3. Nella pagina **Scheda agenti/addetti acq.** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Per assegnare gli addetti agli acquisti ai fornitori
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda fornitore corrispondente al fornitore al quale sarà assegnato un addetto agli acquisti.
 3. Nel campo **Cod. addetto acq.** selezionare il codice addetto agli acquisti applicabile, quindi chiudere la pagina.
 

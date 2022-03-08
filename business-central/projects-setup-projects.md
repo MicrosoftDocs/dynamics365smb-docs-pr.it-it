@@ -1,24 +1,23 @@
 ---
-title: Impostare le risorse, i fogli presenze e le commesse
-description: Questo argomento descrive come impostare le risorse, i fogli presenze e le commesse per gestire progetti e budget.
+title: Impostare le risorse, i fogli presenze e le commesse| Documenti Microsoft
+description: Descrive come impostare le risorse, i fogli presenze e le commesse per gestire progetti.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
-ms.date: 06/22/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 099698611820f791d36c659f983316dee03d9c9a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6189968a44a4001d76f44bf1331594f73ea58e05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146230"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758568"
 ---
 # <a name="setting-up-project-management"></a>Impostazione della Gestione progetti
-
 Prima di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse.
 
 È quindi possibile creare commesse e pianificare le risorse per i progetti nonché gestire i budget e tenere traccia delle ore di utilizzo di macchinari e dipendenti tramite i fogli presenze. Per ulteriori informazioni, vedere [Gestione di progetti](projects-manage-projects.md).  
@@ -40,6 +39,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

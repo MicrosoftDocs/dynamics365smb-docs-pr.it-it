@@ -1,21 +1,23 @@
 ---
-title: Panoramica dei task per la gestione degli acquisti
+title: Panoramica dei task per la gestione degli acquisti | Documenti Microsoft
 description: Descrive i task di gestione dei processi di acquisto o approvvigionamento, incluso l'utilizzo delle fatture di acquisto e degli ordini di acquisto.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.search.form: 460
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2d561087755f6cac596b216d9e02fa31be61726
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 040bbc430d0f052bfafaac2ecdca6d4a6aa75669
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137239"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758369"
 ---
 # <a name="purchasing"></a>Acquisti
 È possibile creare una fattura o un ordine di acquisto per registrare il costo di acquisto e per tenere traccia del conto fornitori. Se è necessario verificare un magazzino, anche le fatture di acquisto vengono utilizzate per aggiornare in modo dinamico i livelli di magazzino in modo da ridurre i costi di magazzino al minimo e migliorare l'assistenza clienti. I costi di acquisto, incluse le spese di assistenza, e i valori di magazzino derivanti dalla registrazione delle fatture di acquisto contribuiscono alle cifre di profitto e altri indicatori KPI finanziari in Gestione ruolo utente.
@@ -44,10 +46,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Eliminare la confusione quando due o più record sono presenti per lo stesso fornitore.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 |Gestire l'impegno di un fornitore per acquistare grandi quantità consegnate nel tempo in diverse spedizioni.|[Utilizzare gli ordini di acquisto programmati](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers"></a>Numeri di documento esterno
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
@@ -59,6 +57,3 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

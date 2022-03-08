@@ -2,19 +2,20 @@
 title: Utilizzo dell'estensione di migrazione dati C5 | Documenti Microsoft
 description: Utilizzare questa estensione per migrare clienti, fornitori, articoli e conti di contabilità generale da Microsoft Dynamics C5 2012 a Business Central.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccebff57d4189a3273c9930fc82ca665e7f807c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0f257b81f1e36e86e40e67ca8ba07169ec22d938
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133604"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747595"
 ---
 # <a name="the-c5-data-migration-extension"></a>Estensione di migrazione dati C5
 
@@ -106,7 +107,7 @@ La dimensione di file più grande che è possibile caricare in [!INCLUDE[prod_sh
 Sono necessari solo alcuni passaggi per esportare i dati da C5 e importarli in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. In C5, utilizzare la funzione **Esporta database** per esportare i dati. Quindi, inviare la cartella di esportazione a una cartella compressa (.zip).  
-2. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Migrazione dati**, quindi scegli **Migrazione dati**.  
+2. In [!INCLUDE[prod_short](includes/prod_short.md)], scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Migrazione dati** e quindi scegliere **Migrazione dati**.  
 3. Completare i passaggi nella guida di setup assistito. Assicurarsi di scegliere **Importa da Microsoft Dynamcis C5 2012** come origine dati.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Visualizzazione dello stato della migrazione
@@ -159,7 +160,4 @@ Un modo per verificare che i dati siano stati migrati correttamente consiste nel
 ## <a name="see-also"></a>Vedere anche
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Introduzione](product-get-started.md)  

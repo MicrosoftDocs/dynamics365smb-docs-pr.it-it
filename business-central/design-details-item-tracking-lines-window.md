@@ -1,20 +1,21 @@
 ---
-title: Dettagli di progettazione - Pagina righe tracciabilità articolo
-description: Informazioni su come gestire il flusso dei numeri seriali e di lotto nel magazzino usando la pagina Righe tracciabilità articolo.
+title: 'Dettagli di progettazione: Pagina righe tracciabilità articolo | Microsoft Docs'
+description: Informazioni su come gestire il flusso dei numeri seriali e di lotto nel magazzino.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43c6c6dedbc7a1b35e5aa05d0ed42fb986c01f3f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a577d1fbb3744a7af899957af5ecb3b714bd8296
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146651"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917353"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Dettagli di progettazione: Pagina righe tracciabilità articolo
 I record di tracciabilità articolo e i record di impegno vengono creati nel sistema di impegno e la relativa disponibilità viene calcolata in modo dinamico. I dati che vengono immessi nella pagina **Righe tracciabilità articolo** vengono gestiti in una versione temporanea della tabella **Specifica tracciabilità**. Quando la pagina viene chiusa, viene eseguito il commit dei dati attivi alla tabella **Movimenti impegni** e viene eseguito il commit dei dati storici alla tabella **Specifica tracciabilità**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi](design-details-active-versus-historic-item-tracking-entries.md).  
@@ -31,5 +32,3 @@ Le regole per l'immissione dei dati nella pagina **Righe tracciabilità articolo
   
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

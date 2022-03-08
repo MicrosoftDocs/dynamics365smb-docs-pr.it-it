@@ -2,21 +2,21 @@
 title: Impostare le condizioni pagamento
 description: Nella versione italiana di Business Central, per ogni condizione pagamento, è possibile specificare se il pagamento può essere rateizzato.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.search.form: 12170, 12171, 12172, 12173, 12174
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f7aea18d641d05ed528a7367f18a9b7d43c94c7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: be8ea4499e1f4b49b6950464f11c0c106f9c04c5
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146026"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780160"
 ---
 # <a name="set-up-payment-terms-in-the-italian-version"></a>Impostare le condizioni pagamento nella versione italiana
 
-I termini di pagamento determinano la modalità di gestione delle date di scadenza e degli sconti pagamento. Per ogni condizione di pagamento, è possibile specificare se il pagamento può essere rateale. Ad esempio, è possibile definire che un pagamento può essere eseguito in tre rate dello stesso importo dopo 30, 60 e 90 giorni.  
+Le condizioni pagamento determinano la modalità di gestione delle date di scadenza e degli sconti pagamento. Per ogni condizione di pagamento, è possibile specificare se il pagamento può essere rateale. Ad esempio, è possibile definire che un pagamento può essere eseguito in tre rate dello stesso importo dopo 30, 60 e 90 giorni.  
 
 Se una condizione di pagamento deve prevedere un unico pagamento, è necessario specificare come verrà calcolata la data di scadenza.  
 
@@ -24,7 +24,7 @@ Quando ti iscrivi per la prima volta a [!INCLUDE [prod_short](../../includes/pro
 
 ## <a name="to-set-up-payment-terms"></a>Impostare le condizioni pagamento
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Condizioni pagamento**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Condizioni pagamento** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 3. Scegliere l'azione **Calcola**.  
 4. Nella pagina **Righe condizioni pagamento**, compilare i campi come indicato nella tabella riportata di seguito.  

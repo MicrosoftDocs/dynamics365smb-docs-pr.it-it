@@ -2,6 +2,7 @@
 title: Utilizzo dei report Power BI in Business Central | Microsoft Docs
 description: Ottenere informazioni dettagliate, business intelligence e KPI dai dati di Business Central utilizzando Power BI.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99b2b25409993dabd4f4cd4ef758ea242165b2a3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147166"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773388"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Utilizzo dei report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -26,7 +27,7 @@ I report Power BI offrono informazioni dettagliate da [!INCLUDE[prod_short](incl
 
 [!INCLUDE [prod_short](includes/prod_short.md)] lavora insieme al servizio Power BI. I report da visualizzare in [!INCLUDE [prod_short](includes/prod_short.md)] sono memorizzati nel servizio Power BI. In [!INCLUDE [prod_short](includes/prod_short.md)], è possibile cambiare il report visualizzato nella parte Power BI di qualsiasi report Power BI disponibile nel servizio Power BI. La prima volta che si accede a [!INCLUDE [prod_short](includes/prod_short.md)] e finché non ci si connette al servizio Power BI le parti saranno vuote, come mostrato qui:
 
-![Parte Power BI in Business Central.](./media/power-bi-part.png)
+![Parte Power BI in Business Central](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Inizia
 
@@ -77,7 +78,7 @@ Per informazioni su come creare report per le pagine di elenco, vedi [Creazione 
 
 Una parte Power BI su una pagina può visualizzare qualsiasi report Power BI disponibile. Per passare alla visualizzazione di un altro report, scegliere l'azione **Seleziona report** dall'elenco a discesa dei comandi nella parte superiore della parte.  
 
-La pagina **di selezione dei report Power BI** mostra un elenco di tutti i report Power BI a cui si ha accesso. Questa lista viene recuperata da qualsiasi spazio di lavoro tuo o condiviso con te nel servizio Power BI . Selezionare la casella **Abilita** per ogni report che si intende visualizzare nella pagina quindi scegliere **OK**. Viene visualizzata di nuovo la pagina con l'ultimo report abilitato. Mediante l'elenco a discesa, utilizzare i comandi **Precedente** e **Successivo** per spostarsi tra i report.  
+La pagina **di selezione dei report Power BI** mostra un elenco di tutti i report Power BI a cui si ha accesso. Questo elenco viene recuperato dall'area di lavoro Power BI. Selezionare la casella **Abilita** per ogni report che si intende visualizzare nella pagina quindi scegliere **OK**. Viene visualizzata di nuovo la pagina con l'ultimo report abilitato. Mediante l'elenco a discesa, utilizzare i comandi **Precedente** e **Successivo** per spostarsi tra i report.  
 
 ### <a name="get-more-reports"></a>Ottieni più report
 
@@ -147,7 +148,7 @@ Probabilmente è perché il nome del report non contiene il nome della pagina di
 [Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Uso di [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

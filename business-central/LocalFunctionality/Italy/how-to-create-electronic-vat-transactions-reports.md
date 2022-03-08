@@ -1,29 +1,30 @@
 ---
-title: Creare report elettronici di transazioni IVA [IT]
-description: È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata.
+title: 'Procedura: Creare report elettronici di transazioni IVA'
+description: È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata. Inviare il report alle autorità fiscali.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/29/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 255b2467c44cce0fdd999ecbeb209b8fdc14c906
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9c0acef239b3ffde7f1f07991b5e60b173409bff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144182"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779081"
 ---
-# <a name="create-electronic-vat-transactions-reports-in-the-italian-version"></a>Creare i report elettronici di transazioni IVA nella versione italiana
+# <a name="create-electronic-vat-transactions-reports"></a>Creare report elettronici di transazioni IVA
 È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata. Inviare il report alle autorità fiscali.  
 
 ## <a name="to-create-a-vat-transactions-report"></a>Per creare un report di transazioni IVA  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Report IVA** e quindi scegliere il collegamento correlato.  
 2.  Compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  
@@ -33,7 +34,7 @@ ms.locfileid: "8144182"
     |**Altro**|I movimenti IVA che hanno generato questa riga non sono associati a un contratto speciale, ad esempio per manutenzione in corso o altre eccezioni.|  
 
     > [!TIP]  
-    >  In [!INCLUDE[prod_short](../../includes/prod_short.md)], il contratto che le autorità fiscali cercano può essere ordini programmati oppure contratti di assistenza. Per identificare se la riga del report IVA appartiene a un ordine programmato o a un contratto di assistenza, è possibile eseguire il drill-down per visualizzare i movimenti IVA sottostanti dal campo **Importo**.  
+    >  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], il contratto che le autorità fiscali cercano può essere ordini programmati oppure contratti di assistenza. Per identificare se la riga del report IVA appartiene a un ordine programmato o a un contratto di assistenza, è possibile eseguire il drill-down per visualizzare i movimenti IVA sottostanti dal campo **Importo**.  
 
 Le note di credito vengono incluse nel report transazioni IVA se il cliente o il fornitore è di un paese esterno all'UE e non incluso nella blacklist. Per ulteriori informazioni, vedere [IVA italiana](italian-vat.md).  
 
@@ -41,6 +42,3 @@ Dopo avere creato il report IVA, è necessario inviarlo alle autorità fiscali. 
 
 ## <a name="see-also"></a>Vedere anche  
  [IVA italiana](italian-vat.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

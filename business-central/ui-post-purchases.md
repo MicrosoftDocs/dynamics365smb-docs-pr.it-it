@@ -1,21 +1,21 @@
 ---
-title: Registrare documenti di acquisto
-description: Informazioni sulle diverse funzioni di registrazione per registrare documenti di acquisto e sul modo per aggiornare documenti registrati.
+title: Informazioni sulle modalità di registrazione dei documenti di acquisto | Documenti Microsoft
+description: Informazioni sulle diverse funzioni di registrazione per registrare documenti di acquisto e sul modo in cui aggiornare documenti registrati.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 27cefa04aef99b548a40afdfabbbb1c1ceffb234
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: daec1dbc6c56eafc809492d5ab96e98e97c9e010
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334878"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189557"
 ---
 # <a name="posting-purchases"></a>Registrazione di acquisti
 In un documento di acquisto, è possibile scegliere tra le seguenti azioni di registrazione:
@@ -61,7 +61,4 @@ Nella maggior parte dei casi, è possibile aprire i movimenti contabili dalla sc
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

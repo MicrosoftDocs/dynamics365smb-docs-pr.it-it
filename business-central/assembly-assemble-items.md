@@ -1,27 +1,28 @@
 ---
-title: Gestione assemblaggio
-description: Supporta le aziende che forniscono prodotti ai propri clienti combinando componenti in processi semplici senza la necessità di funzionalità di produzione.
+title: Gestione assemblaggio | Microsoft Docs
+description: Supporta le società che forniscono prodotti ai clienti combinando i componenti in semplici processi senza richiedere funzionalità di manufacturing, ma con funzionalità per assemblare gli articoli che si integrano con le funzionalità esistenti, ad esempio vendite, pianificazione, impegni e gestione warehouse.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: d1b879eeabfb42298bb1bf8a10d3b53870da3aa7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 636b8a23d3952536a8cd8de92d44402baf4a56e5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130646"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878939"
 ---
 # <a name="assembly-management"></a>Gestione assemblaggio
-Per supportare le società che forniscono prodotti ai clienti combinando i componenti in semplici processi senza richiedere funzionalità di manufacturing, [!INCLUDE[prod_short](includes/prod_short.md)] include funzionalità per assemblare gli articoli che si integrano con le funzionalità esistenti, ad esempio vendite, pianificazione, impegni e gestione warehouse.  
+Per supportare le società che forniscono prodotti ai clienti combinando i componenti in semplici processi senza richiedere funzionalità di manufacturing, [!INCLUDE[d365fin](includes/d365fin_md.md)] include funzionalità per assemblare gli articoli che si integrano con le funzionalità esistenti, ad esempio vendite, pianificazione, impegni e gestione warehouse.  
 
  Un articolo di assemblaggio è definito come articolo vendibile contenente una DB di assemblaggio. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
- Gli ordini di assemblaggio sono ordini interni, come gli ordini di produzione, che vengono utilizzati per gestire il processo di assemblaggio e per collegare i requisiti di vendita con le attività di warehouse richieste. Gli ordini di assemblaggio differiscono da altri tipi di ordine perché prevedono sia l'output che il consumo in fase di registrazione. La testata dell'ordine di assemblaggio si comporta analogamente a una riga registrazioni output e le righe ordine di assemblaggio si comportano in modo analogo alle righe registrazioni consumi.  
+ Gli ordini di assemblaggio sono ordini interni, come gli ordini di produzione, che vengono utilizzati per gestire il processo di assemblaggio e per collegare i requisiti di vendita con le attività di warehouse richieste. Gli ordini di assemblaggio differiscono da altri tipi di ordine perché prevedono sia l'output che il consumo in fase di registrazione. La testata ordine di assemblaggio si comporta analogamente a una riga ordine di vendita e le righe ordine di assemblaggio si comportano in modo analogo alle righe registrazioni consumi.  
 
  Per supportare una strategia di magazzino JIT (just-in-time) e la capacità di personalizzare i prodotti in base alle richieste del cliente, gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita. Il collegamento tra di domanda di vendita e l'approvvigionamento di assemblaggio consente ai gestori dell'ordine di vendita di personalizzare rapidamente l'articolo di assemblaggio, promettere date di consegna in base alla disponibilità dei componenti e registrare l'output e la spedizione dell'articolo assemblato direttamente dalla propria interfaccia dell'ordine di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -45,19 +46,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Ottenere informazioni sulla differenza tra DB di assemblaggio e DB di produzione e le relative differenze di elaborazione.|[Utilizzare le distinte base](inventory-how-work-BOMs.md)|
 |Apprendere come vengono gestiti l'output e il consumo in fase di assemblaggio quando si registrano ordini di assemblaggio e come vengono elaborati e distribuiti l'articolo e i costi risorse derivati nella contabilità generale.|[Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Vedere anche
-
+## <a name="see-also"></a>Vedi anche  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
-<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
-<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,21 +1,21 @@
 ---
-title: Contabilizzare documenti e registrazioni IC
-description: Questo argomento spiega come utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany.
+title: Contabilizzare documenti e registrazioni IC | Documenti Microsoft
+description: Utilizzare documenti Intercompany per registrare le transazioni con i partner Intercompany.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 610
-ms.date: 06/16/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec02fa8000c9c16236430712a50dc1c0c064b24e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2ebf1653e4d84dffabc7f6eb64c77788c01cce23
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131784"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388943"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Utilizzo di documenti e registrazioni intercompany
 Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany. Quando si registra un documento o una riga di registrazione intercompany nella società, viene creato un documento o una riga di registrazione corrispondente nella casella in uscita IC che è possibile trasferire al partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
@@ -29,7 +29,7 @@ Gli ordini di vendita e acquisto, così come gli ordini di reso, possono essere 
 
 La procedura seguente illustra come compilare e inviare un ordine di vendita intercompany. Gli stessi passaggi si applicano agli ordini di acquisto e agli ordini di reso intercompany e alle fatture e alle note di credito intercompany registrate.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 2. Per creare un nuovo ordine di vendita, selezionare **Nuovo**. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Assicurarsi che il cliente sia partner intercompany.
@@ -41,7 +41,7 @@ La procedura seguente illustra come compilare e inviare un ordine di vendita int
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Per compilare e annotare registrazioni intercompany
 Quando si registra una riga di registrazione COGE intercompany nella società, viene creata una riga di registrazione corrispondente nella casella in uscita IC che è possibile trasferire al partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE intercompany**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazione COGE intercompany** e quindi scegliere il collegamento correlato.  
 2. Aprire il batch registrazioni appropriato. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
 3. Compilare i campi, se necessario.
 4. Nel campo **Nr. conto C/G partner IC.** immettere il conto di contabilità generale IC in cui verrà registrato l'importo della società partner.

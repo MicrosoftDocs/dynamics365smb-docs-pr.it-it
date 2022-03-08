@@ -2,6 +2,7 @@
 title: Come creare una nuova società | Microsoft Docs
 description: Usa le tabelle e le pagine di RapidStart Services per creare una nuova società per la quale vuoi effettuare l'implementazione di un cliente.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0031a05821346aa061334e0f9ced1079fef2978b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130773"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439637"
 ---
 # <a name="create-a-new-company"></a>Creare una nuova società
 Per utilizzare RapidStart Services per [!INCLUDE[prod_short](includes/prod_short.md)], è necessario dapprima creare una nuova società per la quale si desidera effettuare l'implementazione di un cliente. Quando si crea una nuova società, le tabelle e le pagine standard di [!INCLUDE[prod_short](includes/prod_short.md)] vengono create, ma non sono disponibili dati al loro interno.

@@ -1,28 +1,28 @@
 ---
-title: Effettuare pagamenti con un AMC Banking (US) o un bonifico SEPA (EU)
-description: Elaborare i pagamenti ai fornitori esportando un file (EFT) con le informazioni di pagamento dalle righe registrazioni.
+title: Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA | Microsoft Docs
+description: Elaborare i pagamenti ai fornitori esportando un file con le informazioni di pagamento dalle righe registrazioni.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
-ms.date: 07/06/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 62599711c6a714223457e7fa1545259a3082b0ea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba2f2d902dd982ed7f411dddd37b2a49d9f4983b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147676"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923071"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA
 
-Nella pagina **Registraz. pagamenti** è possibile elaborare i pagamenti ai fornitori esportando un file con le informazioni di pagamento dalle righe registrazioni. È quindi possibile caricare il file sul sito elettronico della banca dove vengono elaborati i trasferimenti di denaro correlati. [!INCLUDE[prod_short](includes/prod_short.md)] supporta il formato di bonifico SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.
+Nella pagina **Registraz. pagamenti** è possibile elaborare i pagamenti ai fornitori esportando un file con le informazioni di pagamento dalle righe registrazioni. È quindi possibile caricare il file sul sito elettronico della banca dove vengono elaborati i trasferimenti di denaro correlati. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta il formato di bonifico SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.
 
 > [!NOTE]
-> Nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], viene installato e connesso un provider di servizi globale per convertire i dati bancari in qualsiasi formato di file richiesto dalla banca. Nelle versioni per il Nord America, lo stesso servizio può essere utilizzato per inviare file di pagamento come trasferimento elettronico di fondi (EFT), ad esempio la rete ACH (Automated Clearing House) comunemente utilizzata, tuttavia con un processo leggermente diverso. Vedere la sezione 6 [Per esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
+> Nella versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)], viene installato e connesso un provider di servizi globale per convertire i dati bancari in qualsiasi formato di file richiesto dalla banca. Nelle versioni per il Nord America, lo stesso servizio può essere utilizzato per inviare file di pagamento come trasferimento dei fondi elettronici (EFT), ma con un processo leggermente diverso. Vedere la sezione 6 [Per esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
 
  Per abilitare i bonifici SEPA, è necessario innanzitutto impostare un conto corrente bancario, un fornitore e il batch registrazioni COGE su cui si basano le registrazioni pagamenti. Successivamente si preparano i pagamenti dei fornitori compilando automaticamente la pagina **Registraz. pagamenti** con i pagamenti in scadenza insieme alle date di registrazione specificate.  
 
@@ -35,9 +35,9 @@ Attivare l'estensione AMC Banking 365 Fundamentals per convertire tutti i file d
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Impostare un bonifico SEPA
 
-Nella pagina **Registrazioni pagamenti** è possibile esportare i pagamenti in un file da caricare nel sito elettronico della banca per elaborare trasferimenti di denaro correlati. [!INCLUDE[prod_short](includes/prod_short.md)] supporta il formato di bonifico SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.  
+Nella pagina **Registrazioni pagamenti** è possibile esportare i pagamenti in un file da caricare nel sito elettronico della banca per elaborare trasferimenti di denaro correlati. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta il formato di bonifico SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.  
 
-Per abilitare l'esportazione di formati di file della banca che non sono supportati come predefiniti in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile impostare una definizione di scambio dati utilizzando il framework di scambio dati. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
+Per abilitare l'esportazione di formati di file della banca che non sono supportati come predefiniti in [!INCLUDE[d365fin](includes/d365fin_md.md)], è possibile impostare una definizione di scambio dati utilizzando il framework di scambio dati. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).  
 
 Prima di elaborare elettronicamente il pagamento esportando i file di pagamento in formato di bonifico SEPA, è necessario effettuare le seguenti operazioni di setup:  
 
@@ -45,9 +45,6 @@ Prima di elaborare elettronicamente il pagamento esportando i file di pagamento 
 * Impostare le schede fornitori per elaborare i pagamenti esportando i file nel formato di bonifico SEPA.  
 * Impostare il batch di registrazioni COGE correlato per abilitare l'esportazione dei pagamenti dalla pagina **Registrazioni pagamenti**.  
 * Connettere la definizione di scambio dati per uno o più tipi di pagamento con uno o più metodi di pagamento rilevanti  
-
-> [!TIP]
-> Questo articolo si applica alla versione generica di [!INCLUDE [prod_short](includes/prod_short.md)]. Nel tuo paese o regione, potrebbero essere stati aggiunti ulteriori campi obbligatori alle varie pagine. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Per impostare un conto bancario per il bonifico SEPA
 
@@ -67,14 +64,15 @@ Prima di elaborare elettronicamente il pagamento esportando i file di pagamento 
 3. Nella Scheda dettaglio **Pagamento**, nel campo **Codice metodo di pagamento** scegliere **BANCA**.  
 4. Nel campo **Conto bancario preferito** scegliere la banca a cui sarà trasferito il denaro una volta elaborato in via elettronica dalla banca.  
 
-    Se non hai ancora creato una banca per questo fornitore, puoi farlo ora. Per ulteriori informazioni, vedi [Per impostare conti bancari fornitori per l'esportazione di file bancari](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Il valore nel campo **Conto bancario preferito** viene copiato nel campo **Conto bancario destinatario** nella pagina **Registrazioni pagamenti**.  
+     Il valore nel campo **Conto bancario preferito** viene copiato nel campo **Conto bancario destinatario** nella pagina **Registrazioni pagamenti**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Per impostare le registrazioni pagamenti fino per esportare i file di pagamento
 
 1. Nella casella **Cerca** immettere **Registrazioni pagamenti**, quindi selezionare il collegamento correlato.  
-2. Nel campo **Nome batch** scegliere il pulsante\-a discesa.  
-3. Nella pagina **Batch registrazioni COGE** scegliere l'azione **Modifica lista**.  
-4. Nella riga delle registrazioni pagamenti da utilizzare per esportare i pagamenti, selezionare la casella di controllo **Consenti esportazione pagamento**.  
+2. Aprire le registrazioni pagamenti utilizzate per elaborare i pagamenti esportando i file nel formato di bonifico SEPA.  
+3. Nel campo **Nome batch** scegliere il pulsante\-a discesa.  
+4. Nella pagina **Batch registrazioni COGE** scegliere l'azione **Modifica lista**.  
+5. Nella riga delle registrazioni pagamenti da utilizzare per esportare i pagamenti, selezionare la casella di controllo **Consenti esportazione pagamento**.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Per connettere la definizione di scambio dati per uno o più tipi di pagamento con uno o più metodi di pagamento rilevanti
 
@@ -90,7 +88,7 @@ Compilare le registrazioni di pagamento con le righe per i pagamenti dovuti ai f
 
 Quando si è pronti a effettuare i pagamenti ai fornitori o i rimborsi ai dipendenti, nella pagina **Registrazioni pagamenti** è possibile esportare un file con le informazioni di pagamento delle righe. È quindi possibile caricare il file sulla banca per elaborare i relativi trasferimenti di denaro.
 
-Nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], l'estensione AMC Banking 365 Fundamentals è disponibile. Nelle versioni per il Nord America, la stessa estensione può essere utilizzata per inviare file di pagamento come trasferimento dei fondi elettronici (EFT), ma con un processo leggermente diverso. Vedere la sezione 6 [Per esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
+Nella versione generica di [!INCLUDE[d365fin](includes/d365fin_md.md)], l'estensione AMC Banking 365 Fundamentals è disponibile. Nelle versioni per il Nord America, la stessa estensione può essere utilizzata per inviare file di pagamento come trasferimento dei fondi elettronici (EFT), ma con un processo leggermente diverso. Vedere la sezione 6 [Per esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
 > Prima di esportare i file di pagamento dalle registrazioni dei pagamenti, è necessario specificare il formato elettronico per il conto corrente bancario di interesse ed è necessario abilitare l'estensione AMC Banking 365 Fundamentals. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md) e [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md). Inoltre, è necessario selezionare la casella di controllo **Consenti esportazione pagamento** nella pagina **Batch registrazioni COGE**. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).  
@@ -101,7 +99,7 @@ Per visualizzare i file di pagamento che sono stati esportati dalle registrazion
 
 Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi sono simili al rimborso dei clienti tramite assegno.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
 2. Compilare le righe di registrazione pagamenti. Per ulteriori informazioni, vedere [Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md).
 
     > [!NOTE]
@@ -147,7 +145,7 @@ Per visualizzare le informazioni sui pagamenti esportati, scegliere l'azione **S
 > [!NOTE]  
 > I file esportati EFT non sono visualizzati nella pagina **Registri di bonifici** e non possono essere riesportati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registri di bonifici**, quindi seleziona il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registri di bonifici** e quindi scegliere il collegamento correlato.
 2. Selezionare un'esportazione pagamento che si desidera riesportare quindi scegliere l'azione **Riesporta pagamenti su file**.
 
 ## <a name="posting-the-payments"></a>Registrazione dei pagamenti
@@ -160,6 +158,3 @@ Quando il pagamento elettronico viene elaborato correttamente dalla banca, regis
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

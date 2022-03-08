@@ -1,21 +1,21 @@
 ---
-title: Elaborare i resi o gli annullamenti
+title: Elaborare i resi o gli annullamenti | Documenti Microsoft
 description: Descrizione di come creare e registrare una nota di credito acquisto quando si desidera effettuare un reso degli articoli a un fornitore o annullare servizi acquistati.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.search.form: 6640, 6643
-ms.date: 04/01/2021
+ms.date: 07/02/2020
 ms.author: edupont
-ms.openlocfilehash: b3e4111870af7d113c9552aa31854a3351c2d63f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2c6bbddbdc6dcfc75fc32ada91a5d6d6ec5bde1e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131178"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783076"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti acquisti
 
@@ -50,7 +50,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazz
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Per creare una nota di credito di acquisto da una fattura di acquisto registrata
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto registrate**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto registrate** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Fatture acquisto registrate** selezionare la fattura di acquisto registrata che si desidera stornare, quindi scegliere l'azione **Crea nota credito di rettifica**.
 
     La maggior parte dei campi nella testata della nota di credito di acquisto viene compilata con le informazioni della fattura di acquisto registrata. È possibile modificare tutti i campi, ad esempio con nuove informazioni che riflettono il contratto di reso.
@@ -71,7 +71,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 
 ## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Per creare una nota di credito di acquisto copiando una fattura di acquisto registrata
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito acquisto**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito acquisto** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di acquisto vuota.
 3. Nel campo **Fornitore** immettere il nome del fornitore esistente.
 4. Scegliere l'azione **Copia da documento**.
@@ -83,7 +83,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 
 ## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di reso acquisto**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), scegliere **Ordini di reso acquisto** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.
 4. Nella Scheda dettaglio **Righe**, compilare le righe manualmente oppure copiare le informazioni da altri documenti per compilare le righe automaticamente:
@@ -146,7 +146,7 @@ Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richi
 
 È possibile registrare tale costo di acquisto ridotto come addebito articolo in una nota di credito o in un ordine di reso e collegarlo al carico registrato. Di seguito sono descritte le procedure per un ordine di reso da acquisto, ma gli stessi passaggi si applicano a una nota di credito di acquisto.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito acquisto**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito acquisto** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di acquisto vuota.  
 3. Compilare la testata della nota di credito con le informazioni relative al fornitore che ha inviato l'abbuono.  
 4. Nel campo **Tipo** della Scheda dettaglio **Righe** selezionare **Addebito (Articolo)**.  
@@ -172,7 +172,7 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 > [!NOTE]  
 > Si supponga, ad esempio, che esistano più ordini di reso acquisto per il fornitore e che siano stati registrati come spediti.     
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito acquisto**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito acquisto** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati nella Scheda dettaglio **Generale**.  
 4. Scegliere l'azione **Prendi righe di spedizione reso**.  
@@ -183,7 +183,7 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 
 ### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Per rimuovere ordini di reso acquisto aperti dopo la registrazione della spedizione reso cumulativa  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Elimina ordini di reso acquisto fatturati**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina ordini di reso acquisto fatturati** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi in base alle esigenze, quindi scegliere **OK**.  
 3. In alternativa, eliminare i singoli ordini di reso acquisto manualmente.
 
@@ -193,8 +193,4 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

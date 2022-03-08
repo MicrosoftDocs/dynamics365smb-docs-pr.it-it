@@ -2,6 +2,7 @@
 title: Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto
 description: È possibile modificare l'importo che verrà fatturato annualmente per i contratti di assistenza o le offerte di contratto.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c131e7b93a73bbcc0a7977f11e70518961b77134
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 718131ab06bd81a2394d82b9645a9e70be3f95a0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134953"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775327"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto
 È possibile modificare l'importo annuo del contratto di assistenza o dell'offerta di contratto per correggere l'importo da fatturare annualmente.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Per modificare l'importo annuo del contratto di assistenza o dell'offerta di contratto  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contratti assistenza** o **Offerte contratto assistenza**, quindi seleziona il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Contratti assistenza** o **Offerte contratto assistenza** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'offerta di contratto o il contratto.  
 3. Scegliere l'azione **Apri contratto** per aprire il contratto o l'offerta di contratto per la modifica.  
 4. Scegliere la casella di controllo **Permetti differenza importo** se si desidera modificare l'importo annuo e ripartire manualmente la differenza dell'importo annuo nelle righe di contratto. In altrernativa, deselezionare la casella di controllo per ripartire automaticamente la differenza dell'importo annuo nelle righe di contratto dopo la modifica dell'importo annuo.  

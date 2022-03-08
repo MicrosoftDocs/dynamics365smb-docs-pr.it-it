@@ -1,23 +1,24 @@
 ---
-title: Sincronizzazione di Business Central e Dataverse
+title: Sincronizzazione di Business Central e Dataverse | Microsoft Docs
 description: Ottenere informazioni sulla sincronizzazione di dati tra Business Central e Dataverse.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 937601cffe10fe7862aad48ec7f7bded37ad8e61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 94f969f4d96f31b3b6843614e1bd99790a22307d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130620"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755194"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Pianificazione di una sincronizzazione tra Business Central e Dataverse
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 È possibile sincronizzare [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a intervalli pianificati impostando i processi nella coda processi. I processi di sincronizzazione sincronizzano i dati nei record di [!INCLUDE[prod_short](includes/prod_short.md)] e nei record di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] che sono stati associati in precedenza. Oppure per i record che non sono ancora associati, a seconda della direzione e delle regole di sincronizzazione, i processi di sincronizzazione possono creare e associare nuovi record nel sistema di destinazione. 
 
@@ -71,7 +72,7 @@ Alcuni movimenti coda processi, come quelli che pianificano la sincronizzazione 
 
 Quando il valore in questo campo non è zero e la coda processi non ha trovato alcuna modifica durante l'ultima esecuzione, [!INCLUDE[prod_short](includes/prod_short.md)] sospende il movimento coda processi. Quando ciò accade, il campo **Stato della coda processi** visualizzerà **In sospeso a causa di inattività** e [!INCLUDE[prod_short](includes/prod_short.md)] attenderà il periodo di tempo specificato nel campo **Timeout inattività** prima di eseguire nuovamente il movimento coda processi.  
 
-Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, che sincronizza le valute in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con tassi di cambio in [!INCLUDE[prod_short](includes/prod_short.md)], cercherà le modifiche ai tassi di cambio ogni 30 minuti. Se non vengono rilevate modifiche, [!INCLUDE[prod_short](includes/prod_short.md)] sospende il movimento coda processi CURRENCY per 720 minuti (dodici ore). Se un tasso di cambio viene modificato in [!INCLUDE[prod_short](includes/prod_short.md)] quando il movimento coda processi viene sospeso, [!INCLUDE[prod_short](includes/prod_short.md)] riattiverà automaticamente tale movimento e riavvierà la coda processi. 
+Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, che sincronizza le valute in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con tassi di cambio in [!INCLUDE[prod_short](includes/prod_short.md)], cercherà le modifiche ai tassi di cambio ogni 30 minuti. Se non vengono rilevate modifiche, [!INCLUDE[prod_short](includes/prod_short.md)] sospende il movimento coda processi CURRENCY per 720 minuti (sei ore). Se un tasso di cambio viene modificato in [!INCLUDE[prod_short](includes/prod_short.md)] quando il movimento coda processi viene sospeso, [!INCLUDE[prod_short](includes/prod_short.md)] riattiverà automaticamente tale movimento e riavvierà la coda processi. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] attiverà automaticamente i movimenti coda processi sospesi solo quando si verificano delle modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]. Le modifiche in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] non attiveranno i movimenti coda processi.
@@ -99,6 +100,3 @@ Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, c
 [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)  
 [Pianificazione di una sincronizzazione tra Business Central e [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Informazioni sull'integrazione di Dynamics 365 Business Central con [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

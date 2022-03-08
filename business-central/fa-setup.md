@@ -1,21 +1,22 @@
 ---
-title: Impostazione cespiti
+title: Impostare cespiti| Documenti Microsoft
 description: Informazioni sulla sequenza di attività da eseguire per impostare i cespiti, ad esempio macchinari o edifici.
-author: edupont04
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3213dfabc13b9402c794589b6bced5fe3350cf5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136194"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770418"
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
@@ -39,8 +40,6 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Abilitare l'assicurazione dei cespiti, impostare le informazioni generali dell'assicurazione, una scheda assicurazione per ogni polizza e preparare le registrazioni per registrare i costi delle assicurazioni. |[Impostare l'assicurazione cespiti](fa-how-setup-insurance.md) |
 | Abilitare la manutenzione dei cespiti, impostare le informazioni di manutenzione generali, i conti di registrazione di manutenzione e definire i tipi di lavoro di manutenzione. |[Per impostare la manutenzione cespiti](fa-how-setup-maintenance.md) |
 | Ulteriori informazioni sui diversi metodi di ammortamento del cespite. |[Metodi di ammortamento](fa-depreciation-methods.md) |
-| Informazioni su come applicare metodi di ammortamento definiti dall'utente. |[Impostare i metodi di ammortamento definiti dall'utente](fa-how-setup-user-defined-depreciation-method.md) |
-
 
 ## <a name="see-also"></a>Vedere anche
 [Cespiti](fa-manage.md)  

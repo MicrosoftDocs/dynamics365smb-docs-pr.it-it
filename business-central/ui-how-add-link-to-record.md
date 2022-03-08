@@ -1,20 +1,21 @@
 ---
-title: Aggiungere allegati, collegamenti e note nei record
-description: Aggiungi un collegamento ipertestuale a un documento o un sito Web in un record specifico, ad esempio, un cliente o un documento.
+title: Aggiungere allegati, collegamenti e note nei record | Microsoft Docs
+description: Aggiungere un collegamento ipertestuale a un documento o un sito Web in un record specifico, ad esempio, un cliente o un documento.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fb191de84dac161a6b3db95396e7f0b2b5f2ce40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 447012a66e75e1acf03f2aff1ba6b6922164312f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142856"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918565"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gestire allegati, collegamenti e note in schede e documenti
 
@@ -25,19 +26,17 @@ Per visualizzare o modificare uno di questi tipi di informazioni allegate, è ne
 Allegati, collegamenti e note rimangono allegati durante il passaggio ad altri stati della scheda o del documento, ad esempio da un ordine di vendita in corso a una fattura di vendita registrata. Tuttavia, nessuno dei tipi di allegato viene generato dal sistema, ad esempio durante la stampa o il salvataggio in un file.
 
 > [!NOTE]
-> Quando si spedisce e si fattura parzialmente una fattura di vendita o un ordine di acquisto, l'allegato verrà collegato solo alla fattura finale di quell'ordine. Allo stesso modo, quando si fattura utilizzando la funzione Differimenti, l'allegato viene collegato ai movimenti C/G per il documento, ma non per i movimenti di differimento.
->
-> Se elimini un ordine prima che venga fatturato, viene rimosso anche l'allegato. Quando si fatturano ordini di acquisto utilizzando l'azione Ottieni righe di carico da una fattura di acquisto, l'allegato degli ordini di acquisto non viene aggiunto alla fattura di acquisto.
+> Quando si spedisce e si fattura parzialmente un ordine di vendita o un ordine di acquisto, l'allegato verrà collegato solo alla fattura finale di quell'ordine. Allo stesso modo, quando si fattura utilizzando la funzione Differimenti, l'allegato viene collegato solo ai movimenti C/G per il documento, ma non per i movimenti di differimento.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Per allegare un file a una fattura acquisto
-È possibile allegare un qualsiasi tipo di file, contenente testo, immagini o video, a una scheda o a un documento. Ciò è utile, ad esempio, quando si desidera archiviare la fattura di un fornitore come file PDF nella relativa fattura acquisto in [!INCLUDE[prod_short](includes/prod_short.md)].
+È possibile allegare un qualsiasi tipo di file, contenente testo, immagini o video, a una scheda o a un documento. Ciò è utile, ad esempio, quando si desidera archiviare la fattura di un fornitore come file PDF nella relativa fattura acquisto in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
 > I file allegati con la funzione Documenti in entrata non sono inclusi nella scheda **Allegati**. Per ulteriori informazioni, vedere [Documenti in entrata](across-income-documents.md).
 
 La seguente procedura è basata su una fattura di acquisto. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.
 2. Aprire l'ordine di vendita a cui desidera allegare un file.
 3. Nel riquadro Dettaglio informazioni, aprire la scheda **Allegati**.
 4. Scegliere il valore dietro il campo **Documenti**, ad esempio "0".
@@ -57,17 +56,17 @@ Ogni volta che è necessario salvare un documento come file, è possibile utiliz
 
 La seguente procedura è basata su un ordine di vendita. I passaggi sono simili per tutti i documenti supportati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
 2. Selezionare un ordine di vendita programmato quindi scegliere l'azione **Allega come PDF**.
 
 Un file PDF con il contenuto corrente dell'ordine cliente viene aggiunto alla scheda **Allegati** nel riquadro Dettaglio informazioni.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Per aggiungere un collegamento da una scheda articolo
-È possibile aggiungere un link da una scheda o da un documento a qualsiasi URL. Ciò è utile, ad esempio, quando si desidera collegare una scheda articolo al catalogo articoli del fornitore.
+È possibile aggiungere un collegamento da una scheda o documento a qualsiasi URL o percorso. Ciò è utile, ad esempio, quando si desidera collegare una scheda articolo al catalogo articoli del fornitore.
 
 La procedura seguente è basata su una scheda articolo. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Selezionare l'articolo da cui si desidera aggiungere un collegamento, quindi scegliere la scheda **Allegati** nel riquadro Dettaglio informazioni.
 3. In **Collegamenti**, scegliere l'icona **+**.
 4. Nel campo **Indirizzo collegamento**, immettere il collegamento.
@@ -87,7 +86,7 @@ Il collegamento è ora allegato alla scheda articolo.
 
 La seguente procedura è basata su un ordine di vendita. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.
 2. Selezionare l'ordine di vendita in cui si desidera scrivere una nota, quindi scegliere la scheda **Allegati** nel riquadro Dettaglio informazioni.
 3. Nella sezione **Note**, scegliere l'icona **+**.
 4. Nel campo **Nota**, scrivere un testo qualsiasi, ad esempio "Questo è un ordine urgente".
@@ -96,9 +95,6 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 La nota è ora allegata all'ordine cliente.
 
 ## <a name="see-also"></a>Vedere anche  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

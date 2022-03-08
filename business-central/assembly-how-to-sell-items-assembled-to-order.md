@@ -1,20 +1,21 @@
 ---
-title: Come vendere articoli assemblati su ordine
-description: Se l'articolo è impostato per l'assemblaggio su ordine, si presume che l'articolo non sia in magazzino e debba essere combinato in modo specifico a un ordine di vendita.
+title: Come vendere articoli assemblati su ordine | Microsoft Docs
+description: Se l'articolo è impostato per l'assemblaggio su ordine, si presume che l'articolo non sia in magazzino e debba essere combinato in modo specifico a un ordine di vendita. Quando si immette l'articolo in una riga dell'ordine di vendita, un ordine di assemblaggio viene automaticamente creato e collegato all'ordine di vendita.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting, substitute items
-ms.date: 07/29/2021
+ms.search.keywords: kit, kitting
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e32af0659ec78ae178dd0b49b18582beb66ba100
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 92a1faa77132e4f26c1999411f6d8304c24dd8f7
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146906"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772906"
 ---
 # <a name="sell-items-assembled-to-order"></a>Vendere articoli assemblati su ordine
 Se il campo **Criteri di assemblaggio** nella scheda articolo di un articolo di assemblaggio è **Assemblaggio su ordine**, non si prevede che l'articolo sia nel magazzino e deve essere assemblato in modo specifico a un ordine di vendita. Quando si immette l'articolo in una riga dell'ordine di vendita, un ordine di assemblaggio viene automaticamente creato e collegato all'ordine di vendita.  
@@ -28,7 +29,7 @@ In questa procedura, si elabora la vendita di un articolo che verrà assemblato 
 >  La procedura seguente non include i passaggi standard dell'ordine di vendita da eseguire prima del passaggio di immissione dell'articolo di assemblaggio su ordine in una riga dell'ordine di vendita.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Per vendere un articolo assemblato su ordine  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini vendita** e quindi scegliere il collegamento correlato.  
 2.  Creare un ordine di vendita. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
 3.  Nel campo **Nr.** immettere un articolo impostato per l'assemblaggio su ordine.  
 4.  Nel campo **Cod. ubicazione** specificare da quale ubicazione verrà venduto l'articolo. Il processo di assemblaggio avverrà in tale ubicazione.  
@@ -56,15 +57,12 @@ In questa procedura, si elabora la vendita di un articolo che verrà assemblato 
 10. Nell'ordine di vendita, scegliere l'azione **Rilascio** per notificare al reparto di assemblaggio che il processo di assemblaggio può iniziare.  
 11. Nel reparto di assemblaggio eseguire i passaggi di assemblaggio degli articoli venduti in questa procedura. Per ulteriori informazioni, vedere [Assemblare articoli](assembly-how-to-assemble-items.md).  
 
-> [!NOTE]  
-> Tieni presente che le sostituzioni non determinano automaticamente la sostituzione di un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
-
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedi anche  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Registrare nuovi articoli](inventory-how-register-new-items.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

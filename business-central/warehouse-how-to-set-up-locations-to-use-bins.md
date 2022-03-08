@@ -1,20 +1,23 @@
 ---
-title: Come impostare ubicazioni per l'utilizzo di collocazioni
-description: Le collocazioni rappresentano la struttura di warehouse di base e vengono utilizzate per creare suggerimenti relativi al posizionamento e all'ubicazione degli articoli.
+title: "Procedura: Impostare le ubicazioni per l'utilizzo di collocazioni | Documenti Microsoft"
+description: Le collocazioni rappresentano la struttura di warehouse di base e vengono utilizzate per creare suggerimenti relativi al posizionamento degli articoli. Dopo avere creato le collocazioni desiderate, è possibile definire in modo specifico il contenuto che si desidera includere in ciascuna collocazione. In alternativa, è possibile utilizzare la collocazione come collocazione variabile, ovvero priva di contenuto specifico.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 06693ce5e02256e7f0b8d54788849c146ed9dcb1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 549d3928d4d6429bd640d005891428ae419b2dfb
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129494"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248941"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Impostare ubicazioni per l'utilizzo di collocazioni
 Le collocazioni rappresentano la struttura di warehouse di base e vengono utilizzate per creare suggerimenti relativi al posizionamento degli articoli. Dopo avere creato le collocazioni desiderate, è possibile definire in modo specifico il contenuto che si desidera includere in ciascuna collocazione. In alternativa, è possibile utilizzare la collocazione come collocazione variabile, ovvero priva di contenuto specifico.  
@@ -25,7 +28,7 @@ Per utilizzare la funzionalità relativa alle collocazioni in un'ubicazione, è 
 >  Prima di poter specificare i codici di collocazione nella scheda Ubicazione, è necessario creare i codici di collocazione. Per ulteriori informazioni, vedere [Creare collocazioni](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Per impostare un'ubicazione per l'utilizzo di collocazioni  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
 2.  Selezionare l'ubicazione in cui si desidera utilizzare le collocazioni.  
 3.  Scegliere l'azione **Modifica**.  
 4.  Nella Scheda Dettaglio **Warehouse** selezionare la casella di controllo **Collocazione obbligatoria**.  
@@ -40,15 +43,12 @@ Per utilizzare la funzionalità relativa alle collocazioni in un'ubicazione, è 
 ## <a name="filling-the-consumption-bin"></a>Rifornimento della collocazione di consumo
 Questo diagramma di flusso illustra in che modo il campo **Cod. collocazione** nelle righe del componente dell'ordine di produzione viene compilato in base al setup dell'ubicazione.
 
-![Diagramma di flusso collocazione.](media/binflow.png "BinFlow")  
+![Diagramma di flusso collocazione](media/binflow.png "BinFlow")  
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione di Gestione warehouse](warehouse-setup-warehouse.md)     
+[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

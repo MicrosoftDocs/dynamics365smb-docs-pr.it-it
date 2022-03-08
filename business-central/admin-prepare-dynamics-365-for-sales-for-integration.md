@@ -2,6 +2,7 @@
 title: Integrazione con Dynamics 365 Sales
 description: Scopri come ottenere Dynamics 365 Business Central pronto per l'integrazione con Dynamics 365 Sales per vedere cosa sta succedendo nel backend.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: c0c1d4504a75a07ead734ad74e67567129e43dd5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130672"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325470"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrazione con Dynamics 365 Sales
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Il ruolo di agente è spesso considerato come rivolto verso l'esterno in un'azienda. Tuttavia, può essere utile per gli agenti essere in grado di guardare dentro l'azienda e di osservare ciò che avviene nel back end. L'integrazione di [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] fornire agli agenti tale possibilità consentendo agli stessi di visualizzare informazioni in [!INCLUDE[prod_short](includes/prod_short.md)] mentre lavorano in [!INCLUDE[crm_md](includes/crm_md.md)]. Ad esempio, durante la preparazione di un'offerta di vendita può essere utile sapere se si dispone di giacenza sufficiente per soddisfare l'ordine. Per ulteriori informazioni, vedere [Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -25,7 +26,7 @@ Il ruolo di agente è spesso considerato come rivolto verso l'esterno in un'azie
 > Questo argomento descrive il processo di integrazione delle versioni online di [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)] tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per informazioni sulla configurazione locale, vedere [Preparazione di Dynamics 365 Sales per l'integrazione locale](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-dataverse"></a>Integrazione tramite Dataverse
-[!INCLUDE[prod_short](includes/prod_short.md)] si integra anche con [!INCLUDE[prod_short](includes/cds_long_md.md)], che semplifica la connessione e la sincronizzazione dei dati con altre applicazioni di Dynamics 365, come [!INCLUDE[crm_md](includes/crm_md.md)] o anche le app che crei autonomamente. Se stai integrando per la prima volta, devi farlo tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per ulteriori informazioni, vedi [Integrazione con Dataverse](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] si integra anche con [!INCLUDE[prod_short](includes/cds_long_md.md)], che semplifica la connessione e la sincronizzazione dei dati con altre applicazioni di Dynamics 365, come [!INCLUDE[crm_md](includes/crm_md.md)] o anche le app che crei autonomamente. Se stai effettuando l'integrazione per la prima volta, ti consigliamo di farlo tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per ulteriori informazioni, vedi [Integrazione con Dataverse](admin-common-data-service.md).
 
 Se hai già integrato [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)], puoi continuare a sincronizzare i dati utilizzando la tua configurazione. Tuttavia, se aggiorni o disattivi la tua integrazione [!INCLUDE[crm_md](includes/crm_md.md)], per riattivarla devi connetterti tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per ulteriori informazioni, vedi [Aggiornamento di un'integrazione con Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
@@ -56,7 +57,7 @@ Puoi utilizzare guida al setup assistito per impostare rapidamente la connession
 | **Pubblica servizio Web Disponibilità articolo** | Consentire alla persone che utilizzano [!INCLUDE[crm_md](includes/crm_md.md)] di visualizzare la disponibilità degli articoli (prodotti) in magazzino in [!INCLUDE[prod_short](includes/prod_short.md)]. A questo proposito, è necessario un account utente di [!INCLUDE[prod_short](includes/prod_short.md)] con una chiave di accesso ai servizi Web. L'assegnazione della chiave è un processo in due tappe. Nell'account utente di [!INCLUDE[prod_short](includes/prod_short.md)] è necessario scegliere l'azione **Modifica chiave del servizio Web**. Nella guida al setup assistito Setup connessione a Dynamics 365 Sales, è necessario specificare l'URL del servizio Web OData di Dynamics 365 Business Central e fornire le credenziali utente di [!INCLUDE[prod_short](includes/prod_short.md)] per l'accesso al servizio. Per ulteriori informazioni, vedere [Servizi Web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
 |**Nome utente servizi Web OData di Business Central** | Il nome dell'account utente di [!INCLUDE[prod_short](includes/prod_short.md)] che [!INCLUDE[crm_md](includes/crm_md.md)] utilizza per recuperare informazioni sulla disponibilità degli articoli in [!INCLUDE[prod_short](includes/prod_short.md)] mediante il servizio Web OData. |
 | **Chiave di accesso servizi Web OData di Business Central** | La chiave di accesso per l'account utente che [!INCLUDE[crm_md](includes/crm_md.md)] utilizza per ottenere informazioni sulla disponibilità degli articoli da [!INCLUDE[prod_short](includes/prod_short.md)] mediante il servizio Web OData. La chiave viene assegnata all'utente selezionato nel campo **Nome utente servizi Web OData di Business Central**. Per ottenere la chiave, scegliere il pulsante **Cerca valore** accanto al nome utente, scegliere l'utente, scegliere **Gestisci**, e quindi **Modifica**. Nella scheda utente, scegliere **Azioni**, **Autenticazione** e quindi **Modifica chiave del servizio Web**. |
-| **Abilita integrazione ordini di vendita** | Quando le persone creano ordini di vendita in [!INCLUDE[crm_md](includes/crm_md.md)] e completano gli ordini in [!INCLUDE[prod_short](includes/prod_short.md)], si ha l'integrazione del processo in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). A questo proposito si forniscono le credenziali per un account utente amministratore in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Gestione di dati di ordini di vendita](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
+| **Abilita integrazione ordini di vendita** | Quando le persone creano ordini di vendita in [!INCLUDE[crm_md](includes/crm_md.md)] e completano gli ordini in [!INCLUDE[prod_short](includes/prod_short.md)], questo integra il processo in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). A questo proposito si forniscono le credenziali per un account utente amministratore in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Gestione di dati di ordini di vendita](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
 |**Abilita connessione a Dynamics 365 Sales** | Abilitare la connessione a [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Versione Dynamics 365 SDK** | Ciò è pertinente solo se si esegue l'integrazione con una versione locale di [!INCLUDE[crm_md](includes/crm_md.md)]. Si tratta del Dynamics 365 software development kit (denominato anche Xrm) utilizzato per connettere [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]. La versione deve essere compatibile con la versione SDK utilizzata da [!INCLUDE[crm_md](includes/crm_md.md)] ed è uguale o più recente della versione utilizzata da [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
@@ -79,7 +80,7 @@ Oltre alle impostazioni sopra, immetti le seguenti impostazioni per [!INCLUDE[cr
 |--|--|
 | **Integrazione ordini di vendita abilitata** | Consentire agli utenti di inviare ordini di vendita e offerte attivate in [!INCLUDE[crm_md](includes/crm_md.md)] e quindi visualizzarli ed elaborarli in [!INCLUDE[prod_short](includes/prod_short.md)]. Questa operazione integra il processo in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Crea automaticamente ordini vendita** | Creare un ordine di vendita in [!INCLUDE[prod_short](includes/prod_short.md)] quando un utente ne crea e ne invia uno in [!INCLUDE[crm_md](includes/crm_md.md)]. |
-| **Elabora automaticamente offerte di vendita** | Elaborare un'offerta di vendita in [!INCLUDE[prod_short](includes/prod_short.md)] quando un utente ne crea e ne attiva una in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Gestione di dati di offerte di vendita](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+| **Elabora automaticamente offerte di vendita** | Elaborare un'offerta di vendita in [!INCLUDE[prod_short](includes/prod_short.md)] quando un utente ne crea e ne attiva una in [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 <!--
 ### User Account Settings
@@ -96,9 +97,6 @@ Nella seguente tabella elenca il mapping standard tra le tabelle in [!INCLUDE[pr
 | Unità di misura | Unità di vendita | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Articolo | Prodotto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro contatto di Sales: il campo **Tipo prodotto** è **Inventario vendite** |
 | Risorsa | Prodotto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro contatto di Sales: il campo **Tipo prodotto** è **Servizi** |
-| Unità di misura articoli | Unità di misura CRM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-| Unità di misura risorse | Unità di misura CRM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
-| Unità di vendita | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Gruppo prezzi cliente | Listino prezzi | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Prezzo vendita | Listino prezzi prodotto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtro contatto di [!INCLUDE[prod_short](includes/prod_short.md)]: il campo **Codice vendita** non è vuoto; il campo **Tipo vendita** è **Gruppo prezzi cliente** |
 | Opportunità | Opportunità | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -106,50 +104,6 @@ Nella seguente tabella elenca il mapping standard tra le tabelle in [!INCLUDE[pr
 | Righe Fatt. Vendita | Prodotto di fatturazione | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Testate ordine cliente | Ordini Vendita | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtro Testate vendita di [!INCLUDE[prod_short](includes/prod_short.md)]: il campo **Tipo di documento** è Ordine; il campo **Stato** è Rilasciato |
 | Note dell'ordine di vendita | Note dell'ordine di vendita | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
-
-> [!NOTE]
-> Le mappature per le tabelle Unità di misura articoli, Unità di misura risorse e Unità di vendita sono disponibili solo se l'amministratore ha attivato l'opzione di funzionalità **Aggiornamento funzionalità: sincronizzazione di più unità di misura con Dynamics 365 Sales** nella pagina **Gestione funzionalità**. Per ulteriori informazioni, vedi [Sincronizzazione di articoli e risorse con prodotti in diverse unità di misura](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
-
-## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Sincronizzazione di articoli e risorse con prodotti in diverse unità di misura
-Le aziende spesso producono o acquistano gli articoli in un'unità di misura e poi li vendono in un'altra. Per sincronizzare articoli che utilizzano più unità di misura, è necessario attivare l'opzione di funzionalità **Aggiornamento funzionalità: sincronizzazione di più unità di misura con Dynamics 365 Sales** nella pagina **Gestione funzionalità**. 
-
-Quando lo fai, viene creata una nuova tabella Unità di vendita e assegnata a ciascun articolo e risorsa in [!INCLUDE[prod_short](includes/prod_short.md)]. Ciò consente di mappare le tabelle Unità di vendita, Unità di misura articolo e Unità di misura risorsa in [!INCLUDE[prod_short](includes/prod_short.md)] all'unità di vendita di Dynamics 365 Sales <!--Need to verify this name--> in [!INCLUDE[crm_md](includes/crm_md.md)], come mostrato nell'immagine seguente.
-
-:::image type="content" source="media/unit group 1.png" alt-text="Mappature di tabelle per unità di vendita":::
-
-Puoi creare più unità di misura per ogni unità di vendita e assegnare le unità ai prodotti in [!INCLUDE[crm_md](includes/crm_md.md)]. Successivamente, sarai in grado di sincronizzare i prodotti con articoli e risorse in [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile associare manualmente unità di misura articolo o unità di misura risorsa con un'unità di vendita. Quando lo fai, se l'unità di vendita per l'articolo o la risorsa non è associata a un'unità di vendita in [!INCLUDE[crm_md](includes/crm_md.md)], ad esempio, perché l'unità di vendita non esisteva, [!INCLUDE[prod_short](includes/prod_short.md)] creerà automaticamente l'unità di vendita in [!INCLUDE[crm_md](includes/crm_md.md)].
-
-### <a name="mapping-items-and-resources-to-products"></a>Mappatura di articoli e risorse a prodotti
-Quando attivi l'opzione di funzionalità **Aggiornamento funzionalità: sincronizzazione di più unità di misura con Dynamics 365 Sales**, accade quanto segue:
-
-* Vengono create nuove mappature per articoli e risorse.
-* Le mappature esistenti vengono eliminate. <!--which mappings?-->
-* Un aggiornamento dei dati crea unità di vendita per articoli e risorse.
-
-Per utilizzare le nuove mappature, è necessario sincronizzare le unità di vendita, l'unità di misura dell'articolo e l'unità di misura della risorsa. È inoltre necessario risincronizzare articoli e risorse. 
-
-> [!NOTE]
-> [!INCLUDE[crm_md](includes/crm_md.md)] non consente di modificare un'unità di vendita per un prodotto. Pertanto, è necessario ritirare i prodotti e dissociare gli articoli e le risorse, quindi sincronizzare creando nuovi prodotti in [!INCLUDE[crm_md](includes/crm_md.md)]. 
-
-I passaggi seguenti descrivono i passaggi per avviare la mappatura delle unità di vendita:
-
-1. Assicurati che i prodotti in [!INCLUDE[crm_md](includes/crm_md.md)] non siano associati a articoli o risorse in [!INCLUDE[prod_short](includes/prod_short.md)]. Se lo sono, vai alle pagine **Articoli** e/o **Risorse** e utilizza le opzioni di filtro per selezionare i record associati. Quindi scegli l'azione **Dynamics 365 Sales** e seleziona **Annulla associazione**. Questo pianifica un processo in background per annullare l'associazione dei record. Mentre il processo è in esecuzione, puoi verificarne lo stato utilizzando l'azione **Registro sincronizzazione**. Per ulteriori informazioni, vedere [Associazione e sincronizzazione](admin-how-to-couple-and-synchronize-records-manually.md). 
-2. Dal momento che i nuovi prodotti verranno creati in [!INCLUDE[crm_md](includes/crm_md.md)] con nuove unità di vendita, per evitare nomi duplicati, esegui una delle seguenti operazioni:
-    
-    * Rinomina i tuoi prodotti e poi ritirali in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Ritirare i prodotti (hub delle vendite)](/dynamics365/sales-enterprise/retire-product). Per modificare in blocco i prodotti in Microsoft Excel, accedi a Power Apps, scegli l'ambiente, vai nella tabella **Prodotto** e scegli la scheda **Dati**, Cancella qualsiasi filtro applicato. Nel gruppo **Dati** scegli l'azione **Modifica dati in Excel**. Aggiungi un prefisso o un suffisso ai prodotti associati, quindi ritirali.
-    * Ritira i tuoi prodotti ed eliminali. 
-
-3. Segui questi passaggi per sincronizzare **Unità di vendita**, **Unità di misura**, **Articoli** e **Risorse**:
-    1. In [!INCLUDE[prod_short](includes/prod_short.md)], apri la pagina **Setup connessione a Dynamics 365 Sales**.
-    2. Utilizza l'azione **Esegui sincronizzazione completa** per aprire la pagina **Revisione sincronizzazione completa Dataverse**.
-    3. Per le mappature **UDM ARTICOLO**, **UDM RISORSA** E **UNITÀ DI VENDITA** scegli l'azione **Sincronizzazione completa consigliata**.
-    4. Scegliere l'azione **Sincronizza tutto**.
-
-    > [!NOTE]
-    > Per le mappature che non sono state ancora completamente sincronizzate, questa azione le sincronizzerà completamente. Per impedire la sincronizzazione di tali mappature, elimina le mappature dalla pagina. Questo le rimuove solo dalla sincronizzazione completa corrente e non elimina le mappature.
-    
-5. Scegli la mappatura **ARTICOLO-PRODOTTO** quindi scegli l'azione **Riavvia**. Questo crea nuovi prodotti dagli articoli in [!INCLUDE[crm_md](includes/crm_md.md)] e assegna un nuova unità di vendita specifica per l'articolo.
-6. Scegli la mappatura **RISORSA-PRODOTTO** quindi scegli l'azione **Riavvia**. Questo crea nuovi prodotti dalle risorse in [!INCLUDE[crm_md](includes/crm_md.md)] e assegna un nuova unità di vendita specifica per le risorse.
 
 ### <a name="synchronization-rules"></a>Regole di sincronizzazione
 

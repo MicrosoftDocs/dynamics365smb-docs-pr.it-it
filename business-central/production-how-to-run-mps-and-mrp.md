@@ -1,23 +1,23 @@
 ---
-title: Eseguire la pianificazione completa, MPS o MRP
-description: Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure entrambe contemporaneamente.
+title: Come eseguire la pianificazione completa, MPS o MRP | Microsoft Docs
+description: L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP" si riferisce al calcolo della programmazione di produzione master e delle richieste di materiale in base alla domanda effettiva e prevista. Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure può calcolarle entrambe contemporaneamente.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000852, 99000860
-ms.date: 06/22/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 561b069cb3136b50a76fe6c43276edc2fb0ab5ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e80b7f3c072556453f441d7b9980c7308ed3cb61
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131355"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787754"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Eseguire la pianificazione completa, MPS o MRP
-
 L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP" si riferisce al calcolo della programmazione di produzione master e delle richieste di materiale in base alla domanda effettiva e prevista. Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure può calcolarle entrambe contemporaneamente.  
 
 -   Per MPS si intende il calcolo di una programmazione produzione master in base alla domanda effettiva e alla previsione della domanda. Il calcolo MPS viene utilizzato per articoli finali associati a una riga ordine di vendita o previsione. Tali articoli sono denominati articoli MPS e sono identificati dinamicamente all'inizio del calcolo.  
@@ -45,7 +45,7 @@ Con ogni metodo pianificato, [!INCLUDE[prod_short](includes/prod_short.md)] gene
 >  La funzione Piano di generazione dei messaggi di azione può essere eseguito tra le esecuzioni del calcolo del piano relativo ai cambiamenti e del piano rigenerativo per ottenere una visione immediata dell'impatto dei cambiamenti apportati alla programmazione, ma non è da intendersi come sostitutivo di tali processi.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Per calcolare il prospetto pianificazione  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetti pianificazione**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetti pianificazione** e quindi scegliere il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo** per aprire la pagina **Calcola piano**.  
 3.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 

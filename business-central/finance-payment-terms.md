@@ -2,16 +2,17 @@
 title: Impostare le condizioni pagamento
 description: Nella versione base di Business Central, utilizza i termini di pagamento per gestire le date di scadenza e gli sconti pagamento.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a81713fb0b3a742beeaaceca45b69c57b9a5f0c8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135986"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971968"
 ---
 # <a name="set-up-payment-terms"></a>Impostare le condizioni pagamento
 

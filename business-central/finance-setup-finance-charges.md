@@ -2,20 +2,20 @@
 title: Impostare condizioni interessi finanziari
 description: Informazioni su come impostare Business Central in modo da poter informare i clienti degli addebiti aggiuntivi inviando note addebito interessi.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
-ms.search.form: 6, 494
-ms.date: 04/01/2021
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: de00eb7e96e2903872a3ef312d096bd91d97577d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dad02adfb6cc0a0ebb6d950b67f2e092b3313c59
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142057"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377089"
 ---
 # <a name="set-up-finance-charge-terms"></a>Impostare condizioni interessi finanziari
 
@@ -41,7 +41,7 @@ Inoltre ogni condizione nella tabella Condiz.Interessi Finanziari è collegata a
 
 ### <a name="to-set-up-finance-charge-terms"></a>Per impostare le condizioni di addebito degli interessi
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Condiz. interessi finanziari**, quindi scegli il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Condiz. interessi finanziari** e quindi scegliere il collegamento correlato.  
 2. Compilare i campi, se necessario.
 3. Per utilizzare più di una combinazione di condizioni interessi finanziari, impostare un codice per ciascuno di essi.
 

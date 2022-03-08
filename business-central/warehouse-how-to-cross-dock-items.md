@@ -2,19 +2,20 @@
 title: 'Procedura: Articoli di cross-dock | Documenti Microsoft'
 description: La funzionalità di cross-docking è disponibile se l'ubicazione è stata impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 367dd6915a168b208432116439aa89b94bded649
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128552"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759844"
 ---
 # <a name="cross-dock-items"></a>Sottoporre gli articoli a cross-dock
 La funzionalità di cross-docking è disponibile se l'ubicazione è stata impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse.  
@@ -40,14 +41,14 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
 
     Se si utilizzano le zone, creare una zona per le collocazioni cross-dock e selezionare il campo **Zona collocazione cross-dock**. Per ulteriori informazioni, vedere [Impostare ubicazioni per l'utilizzo di collocazioni](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazione**, quindi scegli il collegamento correlato.  
+2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazione** e quindi scegliere il collegamento correlato.  
 3.  Nella pagina **Ubicazione** selezionare l'ubicazione in cui si desidera impostare la warehouse per il cross-dock, quindi scegliere l'azione **Modifica**.  
 4.  Nella Scheda dettaglio **Warehouse** selezionare la casella di controllo **Usa cross-docking** e compilare il campo **Calc. scadenza cross-dock** specificando l'intervallo di tempo per la ricerca delle opportunità di cross-dock.
 
     L'opzione **Usa cross-docking** è disponibile solo se i campi **Richiesto carico**, **Richiesta spedizione** **Richiesto prelievo** e **Richiesto stoccaggio** sono selezionati.  
 
 5.  Se si utilizzano le collocazioni, nella Scheda dettaglio **Collocazioni** immettere nel campo **Codice collocazione cross-dock** il codice della collocazione da utilizzare come collocazione di default per il cross-dock.  
-6.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Unità di stockkeeping**, quindi scegli il collegamento correlato.  
+6.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Unità di stockkeeping** e quindi selezionare il collegamento correlato.  
 7.  Per ciascun articolo o unità di stockkeeping che si desidera sottoporre a cross-dock, selezionare l'articolo, quindi scegliere l'azione **Modifica**.
 8. Nella pagina **Scheda unità di stockkeeping** selezionare la casella di controllo **Usa cross-docking**.  
 
@@ -55,7 +56,7 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
 >  È possibile utilizzare il cross-dock solo se l'ubicazione prevede l'elaborazione degli stoccaggi e dei carichi warehouse.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Per sottoporre a cross-dock gli articoli senza visualizzare le opportunità  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Carichi warehouse**, quindi seleziona il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Carichi warehouse** e quindi scegliere il collegamento correlato.  
 2.  Creare un carico warehouse per un articolo arrivato e che può essere sottoposto a cross-dock. Per ulteriori informazioni, vedere [Ricevere articoli](warehouse-how-receive-items.md).  
 3.  Compilare il campo **Qtà da ricevere** e scegliere l'azione **Calcola cross-dock**.  
 
@@ -72,7 +73,7 @@ I record degli articoli sottoposti a cross-dock non vengono tenuti separati, ben
 7.  Per registrare gli articoli sottoposti a cross-dock come articoli stoccati e disponibili per il prelievo, scegliere l'azione **Registra**.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Per sottoporre a cross-dock gli articoli dopo la visualizzazione delle opportunità  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Carichi warehouse**, quindi seleziona il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Carichi warehouse** e quindi scegliere il collegamento correlato.  
 2.  Creare un carico warehouse per un articolo arrivato e che può essere sottoposto a cross-dock. Per ulteriori informazioni, vedere [Ricevere articoli](warehouse-how-receive-items.md).  
 
     Si desidera visualizzare le righe dei documenti di origine in cui viene richiesto l'articolo prima di registrare il carico.  
@@ -104,6 +105,3 @@ Se non si utilizzano le collocazioni, si consiglia di controllare periodicamente
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

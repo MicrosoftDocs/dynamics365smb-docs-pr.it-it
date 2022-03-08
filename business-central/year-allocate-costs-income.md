@@ -2,6 +2,7 @@
 title: Panoramica delle attività per l'allocazione di costi e ricavi
 description: Descrive i task necessari per assegnare un movimento in una registrazione COGE a più conti diversi, quando tale registrazione viene contabilizzata.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3380c66c5204c85b9d26f4a9f8e8943f2f7b5275
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a2b421d7cb6819656988e86296bd8fede95f1454
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129424"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012711"
 ---
 # <a name="allocate-costs-and-income"></a>Allocazione di costi e ricavi
 

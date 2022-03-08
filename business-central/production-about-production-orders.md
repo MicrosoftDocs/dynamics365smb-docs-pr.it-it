@@ -1,41 +1,41 @@
 ---
-title: Informazioni sugli ordini di produzione
-description: Informazioni sugli ordini di produzione e su come vengono utilizzati per gestire la conversione dei materiali acquistati in articoli prodotti.
+title: Informazioni sugli ordini di produzione | Microsoft Docs
+description: Gli ordini di produzione vengono utilizzati per gestire la conversione dei materiali acquistati in articoli prodotti. Gli ordini di produzione (ordini di lavoro) diramano il lavoro in diverse unità (aree di produzione o centri di lavoro) nella produzione.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
-ms.date: 06/22/2021
+ms.search.keywords: ''
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 568b8f119cf741a16b7d20560e541d7995b7834f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f11b92eb0a9941e72c8f6c87e0e052fcc0530fd1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135057"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786948"
 ---
 # <a name="about-production-orders"></a>Informazioni sugli ordini di produzione
-
 Gli ordini di produzione vengono utilizzati per gestire la conversione dei materiali acquistati in articoli prodotti. Gli ordini di produzione diramano il lavoro in diverse aree di produzione o centri di lavoro nella produzione.  
 
 Prima di procedere con la produzione, la maggior parte delle società esegue, in genere una volta alla settimana, la pianificazione delle forniture, per calcolare il numero di ordini di produzione e di ordini di acquisto da eseguire per soddisfare la domanda di vendita della settimana. Gli ordini di acquisto forniscono i componenti richiesti in base alla DB di produzione per produrre gli articoli finali.
 
 Gli ordini di produzione rappresentano i componenti centrali della funzionalità di produzione dell'applicazione e contengono le seguenti informazioni:  
 
-- Prodotti pianificati per la produzione  
-- Materiali necessari per gli ordini di produzione pianificati  
-- Prodotti già lavorati  
-- Materiali già selezionati  
-- Prodotti lavorati in passato  
-- Materiali utilizzati in operazioni di produzione precedenti  
+-   Prodotti pianificati per la produzione  
+-   Materiali necessari per gli ordini di produzione pianificati  
+-   Prodotti già lavorati  
+-   Materiali già selezionati  
+-   Prodotti lavorati in passato  
+-   Materiali utilizzati in operazioni di produzione precedenti  
 
 Gli ordini di produzione costituiscono il punto iniziale per:  
 
-- Pianificazione della produzione futura  
-- Controllo della produzione corrente  
-- Tracciabilità della produzione finita  
+-   Pianificazione della produzione futura  
+-   Controllo della produzione corrente  
+-   Tracciabilità della produzione finita  
 
 ## <a name="production-order-creation"></a>Creazione di ordini di produzione  
 Gli ordini di produzione possono essere creati manualmente ordine per ordine nella pagina **Ordine di produzione** oppure possono essere generati nelle pagine **Ordine vendita** o **Pianificazione ordine**. È possibile creare più ordini nella pagina **Prospetto pianificazione**.  
@@ -51,17 +51,17 @@ Gli ordini di produzione vengono creati utilizzando le informazioni relative a:
 ## <a name="limitations-on-production-order-creation"></a>Limiti sulla creazione degli ordini di produzione  
 Gli ordini di produzione vengono impegnati e tracciati automaticamente nella rispettiva origine quando:  
 
-- Vengono creati da **[Prospetto pianificazione](production-how-to-run-mps-and-mrp.md)**.  
-- Vengono creati dalla pagina **[Pianifica ordine vendita](production-how-to-create-production-orders-from-sales-orders.md)**  
-- Vengono creati dalla pagina **[Pianificazione ordini](production-how-to-plan-for-new-demand.md)**  
-- Si utilizza la funzione **[Ripianifica](production-how-to-replan-refresh-production-orders.md)** negli ordini di produzione  
+-   Vengono creati nella finestra **Prospetto pianificazione**  
+-   Vengono creati con la funzione relativa agli ordini nella pagina **Pianifica ordine vendita**  
+-   Vengono creati nella pagina **Pianificazione ordini**  
+-   Si utilizza la funzione **Ripianifica** negli ordini di produzione  
 
 Per ulteriori informazioni, vedere [Tenere traccia delle relazioni tra domanda e approvvigionamento](production-how-track-demand-supply.md)
 
 Gli ordini di produzione creati tramite altri mezzi non vengono impegnati e tracciati automaticamente.   
 
 ## <a name="production-order-status"></a>Stato dell'ordine di produzione  
-Lo stato dell'ordine di produzione definisce il comportamento dell'ordine di produzione nell'applicazione. La forma e il contenuto della produzione sono determinati dallo stato dell'ordine. Gli ordini di produzione vengono visualizzati in pagine differenti in funzione del proprio stato. Non è possibile modificare manualmente lo stato di un ordine di produzione; è necessario utilizzare la funzione **Cambia stato** nel singolo ordine di produzione o nella finestra **Modifica stato ordine di produzione**.  
+Lo stato dell'ordine di produzione definisce il comportamento dell'ordine di produzione nell'applicazione. La forma e il contenuto della produzione sono determinati dallo stato dell'ordine. Gli ordini di produzione vengono visualizzati in pagine differenti in funzione del proprio stato. Non è possibile modificare manualmente lo stato di un ordine di produzione, ma è necessario utilizzare la funzione **Modifica stato**.  
 
 ### <a name="simulated-production-order"></a>Ordine di produzione simulato  
 L'ordine di produzione simulato si distingue in base alle seguenti caratteristiche:  
@@ -110,16 +110,16 @@ Dopo che un ordine di produzione è stato creato e pianificato, deve essere rila
 - Quantità di tempo spesa lavorando sull'ordine  
 - Quantità dell'articolo padre prodotta  
 
-Queste informazioni possono essere registrate manualmente o tramite reporting automatico, in base al setup nel campo Metodo consuntivazione dell'articolo e l'area di produzione.  
+Queste informazioni possono essere registrate manualmente o tramite reporting automatico, in base al setup degli articoli nel campo Metodo consuntivazione.  
 
 ### <a name="material-consumption"></a>Consumo dei materiali  
 L'applicazione offre un'ampia gamma di opzioni per la registrazione del consumo dei materiali a un'azienda manifatturiera. Il consumo dei materiali, ad esempio, può essere registrato manualmente, opzione preferibile nel caso di frequenti sostituzioni di componenti o di uno scarto maggiore del previsto.  
 
-Il consumo dei materiali può essere elaborato tramite le [registrazioni consumi](production-how-to-post-consumption.md) oppure registrato automaticamente dall'applicazione mediante la funzione di reporting automatico (consuntivazione). Di seguito vengono indicati i metodi di reporting:  
+Il consumo dei materiali può essere elaborato tramite le registrazioni consumi oppure registrato automaticamente dall'applicazione mediante la funzione di reporting automatico. Di seguito vengono indicati i metodi di reporting:  
 
-- Manuale  
-- Aut. inizio  
-- Aut. fine  
+-   Manuale  
+-   Avanti  
+-   Aut. fine  
 
 Il reporting dei consumi manuale utilizza le registrazioni consumi per specificare il prelievo dei materiali.  
 
@@ -130,14 +130,62 @@ Il reporting dei consumi aut. avanti presuppone che la quantità prevista di tut
 
 Il reporting dei consumi aut. fine registra l'effettiva quantità di tutto il materiale prelevato o consumato quando lo stato di un ordine di produzione viene modificato in *Completato*, a meno che non si utilizzino codici di legame tra ciclo e distinta base. In questo secondo caso, il materiale viene consumato in seguito alla registrazione dell'articolo principale per il passaggio operativo nelle registrazioni di output.  
 
-Quando l'ordine di produzione viene aggiornato, il metodo di consuntivazione viene copiato dalla scheda articolo. Poiché il metodo di consuntivazione per ogni componente dell'ordine di produzione determina la modalità e il momento di registrazione del consumo, è importante notare che è possibile modificare tale metodo per articoli specifici direttamente nell'ordine di produzione. 
+Quando l'ordine di produzione viene aggiornato, il metodo di consuntivazione viene copiato dalla scheda articolo. Poiché il metodo di consuntivazione per ogni componente dell'ordine di produzione determina la modalità e il momento di registrazione del consumo, è importante notare che è possibile modificare tale metodo per articoli specifici direttamente nell'ordine di produzione.  
 
-Per ulteriori informazioni vedere [Componenti ordine produzione a livello in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md)
+#### <a name="automatic-consumption-posting-flushing"></a>Registrazione automatica del consumo (consuntivazione)  
+Il vantaggio della consuntivazione automatica consiste in una riduzione significativa dell'immissione di dati. Grazie alla possibilità di eseguire la consuntivazione manuale di un'operazione, è possibile automatizzare l'intero processo di registrazione dei consumi e dell'output. Lo svantaggio dell'utilizzo della consuntivazione automatica consiste nel fatto che lo scarto potrebbe non essere registrato o persino individuato correttamente. Di seguito vengono indicati i metodi di reporting automatico:  
+
+- Consuntivazione in avanti dell'intero ordine  
+- Consuntivazione in avanti in base all'operazione  
+- Consuntivazione a ritroso in base all'operazione  
+- Consuntivazione a ritroso dell'intero ordine  
+
+#### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Reporting automatico - Consuntivazione in avanti dell'intero ordine  
+Se si esegue la consuntivazione in avanti dell'ordine di produzione all'inizio della commessa, il comportamento dell'applicazione è molto simile a un consumo manuale. La differenza principale consiste nel fatto che il consumo si verifica automaticamente.  
+
+- L'intero contenuto della DB di produzione viene consumato e dedotto dal magazzino nel momento in cui viene aggiornato l'ordine di produzione rilasciato.  
+- La quantità dei consumi è la quantità per assemblaggio indicata nella DB di produzione, moltiplicata per il numero di articoli principali creati.  
+- Non è necessario registrare alcuna informazione nelle registrazioni dei consumi se tutti gli articoli devono essere sottoposti a consuntivazione.  
+- Quando si consumano articoli dal magazzino, non è importante il momento in cui vengono creati i movimenti delle registrazioni di output, in quanto le registrazioni di output non hanno effetto su questa modalità di registrazione dei consumi.  
+- Non è possibile impostare alcun codice di legame tra il ciclo e la distinta base.  
+
+La consuntivazione in avanti di un intero ordine è adatta negli ambienti di produzione caratterizzati dai seguenti aspetti:  
+
+-   Numero ridotto di difetti  
+-   Numero ridotto di operazioni  
+-   Elevato consumo di componenti nelle operazioni iniziali  
+
+#### <a name="automatic-reporting---forward-flushing-by-operation"></a>Registrazione automatica - Consuntivazione in avanti in base all'operazione  
+La consuntivazione in base all'operazione consente di dedurre materiale dal magazzino durante un'operazione specifica nel ciclo dell'articolo principale. Il materiale viene associato al ciclo tramite codici di legame tra ciclo e distinta base, un'attività che corrisponde all'applicazione di codici di legame tra ciclo e distinta base ai componenti nella DB di produzione.  
+
+Il calcolo viene eseguito quando l'operazione associata allo stesso codice di legame tra ciclo e distinta base viene avviata. Iniziato indica che alcune attività vengono inserite nelle registrazioni di output per l'operazione. E l'attività può corrispondere all'immissione di un tempo di setup.  
+
+L'importo della consuntivazione corrisponde alla quantità per assemblaggio indicata nella DB di produzione moltiplicata per il numero di articoli principali creati (quantità prevista).  
+
+Questa tecnica è particolarmente efficace in presenza di molte operazioni e nel caso in cui certi componenti non sono necessari fino alle fasi successive della sequenza di assemblaggio. In un setup JIT (Just-In-Time), infatti, gli articoli potrebbero persino non essere disponibili in magazzino quando viene avviato l'ordine di produzione rilasciato.  
+
+Il materiale può essere consumato durante le operazioni tramite codici di legame tra ciclo e distinta base. Alcuni componenti potrebbero non essere utilizzati fino alle operazioni di assemblaggio finale e non devono essere prelevati dallo stock fino a quel momento.  
+
+#### <a name="automatic-reporting---back-flushing-by-operation"></a>Registrazione automatica - Consuntivazione a ritroso in base all'operazione  
+La consuntivazione a ritroso in base all'operazione consente di registrare il consumo in seguito alla registrazione dell'operazione nelle registrazioni di output.  
+
+Il vantaggio di questo metodo consiste nel fatto che è noto il numero di parti principali completate nell'operazione.  
+
+Il materiale incluso nella DB di produzione è collegato ai record del ciclo tramite codici di legame tra ciclo e distinta base. La consuntivazione a ritroso viene eseguita quando un'operazione associata a un determinato codice di legame tra ciclo e distinta base viene registrata con una quantità finita.  
+
+L'importo della consuntivazione corrisponde alla quantità per assemblaggio indicata nella DB di produzione moltiplicata per il numero di articoli principali registrati come quantità di output nell'operazione. Tale valore può differire dalla quantità prevista.  
+
+#### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Reporting automatico - Consuntivazione a ritroso dell'intero ordine  
+In questo metodo di reporting non vengono considerati i codici di legame tra ciclo e distinta base.  
+
+Non viene prelevato alcun componente fino a quando lo stato dell'ordine di produzione rilasciato non viene modificato in *Completato*. L'importo della consuntivazione corrisponde alla quantità per assemblaggio indicata nella DB di produzione moltiplicata per il numero di articoli principali finiti e inseriti in magazzino.  
+
+La consuntivazione a ritroso dell'intero ordine di produzione richiede lo stesso setup della consuntivazione in avanti: il metodo di reporting deve essere impostato alla fine in ogni scheda articolo per tutti gli articoli all'interno della DB principale di cui eseguire il reporting. Tutti i codici di legame tra ciclo e distinta base devono essere rimossi dalla DB di produzione.  
 
 ### <a name="production-output"></a>Output di produzione  
 L'applicazione offre la possibilità di tenere traccia del tempo speso per lavorare su un ordine di produzione, nonché di registrare la quantità prodotta. Queste informazioni possono essere utili per determinare in modo più accurato i costi di produzione. I produttori che utilizzano un sistema di costing standard, inoltre, possono registrare le informazioni effettive per sviluppare standard migliori.  
 
-L'output può essere elaborato tramite le [registrazioni di output](production-how-to-post-output-quantity.md) oppure può essere registrato automaticamente dall'applicazione. Il metodo di consuntivazione viene copiato dall'applicazione dalla scheda centro di lavoro o area di produzione al ciclo dell'ordine di produzione durante l'aggiornamento. Come per il consumo dei materiali, sono disponibili tre metodi di reporting dell'output:  
+L'output può essere elaborato tramite le registrazioni di output oppure può essere registrato automaticamente dall'applicazione. Il metodo di consuntivazione viene copiato dall'applicazione dalla scheda centro di lavoro o area di produzione al ciclo dell'ordine di produzione durante l'aggiornamento. Come per il consumo dei materiali, sono disponibili tre metodi di reporting dell'output:  
 
 - Manuale  
 - Aut. inizio  
@@ -155,7 +203,7 @@ Il metodo aut.fine consente di registrare automaticamente l'output e il tempo pr
 Se infine si immettono il consumo e l'output manualmente, è necessario determinare la sequenza in cui verranno registrate tali informazioni. È possibile registrare prima il consumo e quindi utilizzare un metodo rapido per immettere le informazioni in base alla quantità di output prevista. In alternativa, è possibile immettere prima l'output utilizzando la funzione **Esplodi ciclo**. Si registrerà quindi il consumo in base all'effettiva quantità di output.  
 
 ### <a name="production-journal"></a>Registrazioni di produzione  
-La funzionalità [Registrazioni di produzione](production-how-to-register-consumption-and-output.md) combina le funzioni Registrazioni consumi e Registrazioni output in una singola registrazione, cui è possibile accedere direttamente dall'ordine di produzione rilasciato.  
+La funzionalità Registrazioni di produzione combina le funzioni Registrazioni consumi e Registrazioni output in una singola registrazione, cui è possibile accedere direttamente dall'ordine di produzione rilasciato.  
 
 Lo scopo della funzionalità Registrazioni di produzione consiste nel fornire un'unica interfaccia per registrare il consumo e l'output da un ordine di produzione.  
 
@@ -181,12 +229,9 @@ Le registrazioni di produzione, tuttavia, differiscono dalle altre due registraz
 Nelle registrazioni di produzione le quantità dei consumi vengono registrate come movimenti contabili negativi per gli articoli, le quantità di output vengono registrate come movimenti contabili positivi e il tempo speso viene registrato come movimenti contabili capacità.  
 
 ## <a name="see-also"></a>Vedi anche
-[Manufacturing](production-manage-manufacturing.md)
+[Manufacturing](production-manage-manufacturing.md)    
 [Impostazione della produzione](production-configure-production-processes.md)  
-[Pianif.](production-planning.md)  
+[Pianif.](production-planning.md)      
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

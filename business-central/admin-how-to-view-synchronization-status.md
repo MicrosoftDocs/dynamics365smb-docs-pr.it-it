@@ -1,24 +1,24 @@
 ---
-title: Visualizzare lo stato dei processi di sincronizzazione (video)
-description: Utilizza la pagina Errori di sincronizzazione dati associati per visualizzare lo stato dei lavori di sincronizzazione che sono stati eseguiti per i record associati in integrazioni.
+title: Visualizzare lo stato dei processi di sincronizzazione | Microsoft Docs
+description: Informazioni su come visualizzare lo stato dopo la sincronizzazione di record associati.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.search.form: 6250
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 357e6f92bc960b1fcd58c5be78d28985b389bb2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a54ce7805deafa5d67c3e25b89606a1a40634ad6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378150"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visualizzare lo stato dei processi d sincronizzazione
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizzare lo stato dei lavori di sincronizzazione che sono stati eseguiti per i record associati in un'integrazione di Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. Ciò include i processi eseguiti dalla coda processi e i processi di sincronizzazione manuale eseguiti sui record di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, la visualizzazione del relativo stato è utile per risolvere problemi in quanto consente di accedere ai dettagli degli errori relativi ai record associati. In genere, questi tipi di errori sono causati da azioni dell'utente, ad esempio, quando:  
 
@@ -28,14 +28,14 @@ Utilizzare la pagina **Errori di sincronizzazione dati associati** per visualizz
 > [!Note]
 > La pagina **Errori di sincronizzazione dati associati** mostra informazioni sui processi relativi ai record associati. Se si risolvono tutti gli errori ma i record continuano a non essere sincronizzati, è possibile che il problema sia dovuto all'impostazione per l'integrazione. In genere, l'amministratore dovrà risolvere questi tipi di errori.   
 
-## <a name="example"></a>Esempio
-Questo video mostra un esempio di come risolvere gli errori che si sono verificati durante la sincronizzazione con [!INCLUDE[prod_short](includes/cds_long_md.md)]. Il processo sarà lo stesso per tutte le integrazioni. 
+<!--
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
 
+-->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Per visualizzare e risolvere gli errori di sincronizzazione per record associati
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Errori di sincronizzazione dati associati** e scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Errori di sincronizzazione dati associati** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Errori di sincronizzazione dati associati** vengono visualizzati i problemi verificatisi durante la sincronizzazione di record associati. La seguente tabella include le azioni che è possibile utilizzare per risolvere i problemi singolarmente:
 
 |Azione|Descrizione|
@@ -51,11 +51,6 @@ Questo video mostra un esempio di come risolvere gli errori che si sono verifica
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Per visualizzare il registro di sincronizzazione per uno specifico record (sincronizzato manualmente)
 1. Aprire, ad esempio, un cliente, un articolo o qualunque altro record che esegue la sincronizzazione dei dati tra [!INCLUDE[prod_short](includes/prod_short.md)] e Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Scegliere l'azione **Registro sincronizzazione** per visualizzare il registro di sincronizzazione per un record selezionato. Ad esempio, un cliente specifico sincronizzato manualmente.
-
-## <a name="remove-couplings-between-records"></a>Rimuovere associazioni tra record
-Quando qualcosa va storto nell'integrazione ed è necessario annullare l'associazione dei record per interrompere la sincronizzazione, è possibile farlo per uno o più record alla volta. È possibile annullare l'associazione di uno o più record nelle pagine di elenco o nella pagina **Errori di sincronizzazione dati associati** scegliendo una o più righe e quindi **Elimina associazione**. È inoltre possibile rimuovere tutte le associazioni per una o più mapping di tabella nella pagina **Mapping tabella integrazione**. 
-
-Se un'entità con un'associazione unidirezionale viene eliminata in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario eliminare manualmente l'associazione interrotta. A tale scopo, nella pagina **Errori di sincronizzazione dati associati** scegliere l'azione **Trova per eliminate** ed eliminare le associazioni.
 
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione di account utente per l'integrazione con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  

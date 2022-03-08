@@ -1,28 +1,29 @@
 ---
-title: Creare un'offerta di acquisto per richiedere un'offerta
+title: Creare un'offerta di acquisto per richiedere un'offerta | Documenti Microsoft
 description: Descrive come creare un documento di un'offerta di vendita o una richiesta di offerta (RdO) per registrare la propria offerta a un cliente per la vendita di prodotti in base a termini determinati.
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.search.form: 49, 97, 9306, 9346
-ms.date: 06/23/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b3a44d2760760d3456c21da8ae693f4736f06e78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bc7bb92185d979871298a3312019e3116fecdab5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137291"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782928"
 ---
 # <a name="request-quotes"></a>Richiedere le offerte
-
 Un'offerta di acquisto può essere utilizzata come bozza preliminare di un ordine di acquisto e l'ordine può essere in seguito convertito in ordine o fattura di acquisto.
 
+
 ## <a name="to-create-a-purchase-quote"></a>Per creare un'offerta di acquisto
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Offerte acquisto**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerte acquisto** e quindi scegliere il collegamento correlato.
 2. Creare un nuovo documento nello stesso modo in cui si crea un ordine di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Per convertire un'offerta di acquisto in un ordine di acquisto
@@ -36,7 +37,4 @@ L'offerta di acquisto viene rimossa dal database. Viene creato un ordine o una f
 [Acquisti](purchasing-manage-purchasing.md)  
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

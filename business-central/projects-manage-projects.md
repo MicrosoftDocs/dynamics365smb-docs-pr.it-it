@@ -1,22 +1,21 @@
 ---
-title: Gestione progetti
-description: Questo argomento descrive come utilizzare le risorse, i fogli presenze e le commesse per gestire progetti e budget.
+title: Task commesse utilizzando le risorse e i fogli presenze| Microsoft Docs
+description: Descrive come utilizzare le risorse, i fogli presenze e le commesse per gestire progetti.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
-ms.date: 06/22/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: af4801956ce27bc282356400513fc22a03860784
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146256"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748845"
 ---
 # <a name="project-management"></a>Gestione progetti
-
 In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
 
 Prima di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse. Per ulteriori informazioni, vedere [Impostazione della Gestione progetti](projects-setup-projects.md).  
@@ -50,6 +49,3 @@ La gestione dei progetti è di per sé complicata e apprendere a come creare com
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

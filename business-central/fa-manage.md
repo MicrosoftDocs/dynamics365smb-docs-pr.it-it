@@ -1,29 +1,30 @@
 ---
-title: Gestione cespiti (video)
-description: Ottenere informazioni sulla funzionalità dei cespiti e una panoramica delle modalità di utilizzo e gestione dei cespiti.
-author: edupont04
-ms.topic: conceptual
+title: Gestire i cespiti| Documenti Microsoft
+description: Ottenere informazioni sulla funzionalità dei cespiti e una panoramica delle modalità di utilizzo dei cespiti.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9159e6036da04001b28c261783c92103204907f9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145755"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920624"
 ---
-# <a name="managing-fixed-assets"></a>Gestione dei cespiti
-
-La funzionalità Cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
+# <a name="fixed-assets"></a>Cespiti
+La funzionalità Cespiti di [!INCLUDE[d365fin](includes/d365fin_md.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
 
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. È quindi possibile iniziare ad acquistare, gestire e vendere i cespiti. È possibile anche impostare i cespiti previsti. Qualsiasi vendita o acquisto previsto può quindi essere incluso nei report.
 
-Per tenere traccia degli ammortamenti dei cespiti nonché di altre transazioni finanziarie relative ai cespiti, si imposta uno o più registri beni ammortizzabili per ogni cespite dell'azienda. L'ammortamento può essere eseguito mediante l'esecuzione di un report per calcolare l'ammortamento periodico e compilare la registrazione con i movimenti risultanti, pronti per essere registrati. [!INCLUDE[prod_short](includes/prod_short.md)] supporta diversi metodi di ammortamento. Per ulteriori informazioni, vedere [Metodi di ammortamento](fa-depreciation-methods.md). È possibile impostare più registri beni ammortizzabili per ogni cespite per scopi differenti, ad esempio uno per il reporting dell'IVA e un altro per il reporting interno.
+Per tenere traccia degli ammortamenti dei cespiti nonché di altre transazioni finanziarie relative ai cespiti, si imposta uno o più registri beni ammortizzabili per ogni cespite dell'azienda. L'ammortamento può essere eseguito mediante l'esecuzione di un report per calcolare l'ammortamento periodico e compilare la registrazione con i movimenti risultanti, pronti per essere registrati. [!INCLUDE[d365fin](includes/d365fin_md.md)] supporta diversi metodi di ammortamento. Per ulteriori informazioni, vedere [Metodi di ammortamento](fa-depreciation-methods.md). È possibile impostare più registri beni ammortizzabili per ogni cespite per scopi differenti, ad esempio uno per il reporting dell'IVA e un altro per il reporting interno.
 
 È possibile registrare i costi di manutenzione e la data del prossimo intervento per ogni bene. Può essere importante tenere traccia delle spese di manutenzione ai fini della predisposizione del budget e per decidere se un cespite debba essere sostituito.
 
@@ -56,11 +57,8 @@ Il video seguente illustra le nozioni di base dei cespiti.
 [Impostazione di cespiti](fa-setup.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Finanze](finance.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Introduzione](product-get-started.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,26 +2,25 @@
 title: Funzionalità aziendali supportate da Business Central
 description: Fornisce una panoramica funzionale di tutti i reparti e le funzioni aziendali che sono supportati dalle aree di applicazione, ad esempio Finanze, Magazzino e Project Management.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 3d073a17f900b3f1691c6b108af021aec6b93fd3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323112"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384951"
 ---
 # <a name="business-functionality"></a>Funzionalità aziendale
-
 [!INCLUDE[prod_short](includes/prod_short.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle proprie esigenze. Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Diverse aree di funzionalità aziendale devono essere impostate manualmente. Gli articoli di [avvio rapido di Business Central](quick-start-business-central.md) possono aiutarti a fare i primi passi per rendere [!INCLUDE [prod_short](includes/prod_short.md)] tuo. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle proprie esigenze. Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Diverse aree di funzionalità aziendale devono essere impostate manualmente. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | A | Vedere |
 | --- | --- |
@@ -48,7 +47,7 @@ ms.locfileid: "8323112"
 [Informazioni sulle funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Preparazione al business](ui-get-ready-business.md)  
+[Introduzione](product-get-started.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

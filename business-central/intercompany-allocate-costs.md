@@ -4,6 +4,7 @@ description: Scopri come le impostazioni IVA per clienti e fornitori determinano
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137915"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786325"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocare costi a partner IC
 Quando si utilizzano registrazioni intercompany per trasferire documenti tra società partner, le impostazioni relative all'IVA (principalmente la categoria registrazione business IVA) assegnate ai conti cliente o fornitore (associati al partner IC) determinano se e come l'IVA viene calcolata e registrata. È inoltre possibile eseguire distribuzioni dei costi direttamente da un ordine acquisto alle società partner. Ad esempio, se si registra una fattura acquisto di un fornitore esterno e si desidera distribuire alcuni o tutti i costi a uno o più partner IC.
@@ -29,7 +30,7 @@ Quando si utilizzano registrazioni intercompany per trasferire documenti tra soc
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Allocare i costi utilizzando registrazioni COGE intercompany
 Per immettere una riga in registrazioni COGE intercompany, attenersi alla seguente procedura. 
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione COGE intercompany**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazione COGE intercompany** e quindi scegliere il collegamento correlato.
 2. Se necessario, nel campo **Nr. documento esterno**, immettere il numero documento sulla fattura del fornitore.
 3. Nel campo **Tipo di documento**, scegliere **Fattura**.
 4. Nel campo **Tipo conto** scegliere **Fornitore**.
@@ -56,7 +57,7 @@ La procedura seguente descrive come allocare i costi utilizzando una fattura acq
 > [!NOTE]
 > Per completare questi passaggi è necessario personalizzare la pagina **Fattura acquisto** aggiungendo i campi **Codice partner IC**, **Tipo rif. partner IC** e **Partner IC**. Per ulteriori informazioni, vedere [Per avviare la personalizzazione di una pagina tramite il banner Personalizzazione](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fattura di acquisto**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.
 2. Nel campo **Tipo** scegliere **Conto C/G**.
    
    Conto C/G è l'unica opzione che puoi utilizzare per allocare i costi.  
@@ -69,7 +70,7 @@ La procedura seguente descrive come allocare i costi utilizzando una fattura acq
 1. Per registrare l'ordine acquisto, scegliere **Registra**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Inviare i costi allocati a partner IC
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Casella trans. in uscita IC**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Casella trans. in uscita IC** e quindi scegliere il collegamento correlato.
 2. Scegliere le righe da inviare, quindi scegliere l'azione **Invia a partner IC**. 
 3. Per allocare i costi, scegliere l'azione **Completa azioni riga**.
 

@@ -2,20 +2,20 @@
 title: Impostare le warehouse di base con aree di operazioni
 description: Imposta le aree operative della warehouse e utilizza i movimenti di magazzino, i prelievi e gli stoccaggi per spostare le merci.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d64cb9cdba21d3a023c86fbb39e802a78945c2b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144205"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441399"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Impostare le warehouse di base con aree di operazioni
 Se le aree delle operazioni interne, ad esempio produzione o assemblaggio, sono presenti nelle configurazioni di base della warehouse in cui le ubicazioni utilizzano il campo di setup **Collocazione obbligatoria** ed eventualmente i campi di setup **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile utilizzare i seguenti documenti warehouse di base per registrare le attività di warehouse per le aree delle operazioni interne:  
@@ -46,15 +46,14 @@ Le procedure riportate di seguito sono basate sull'impostazione di attività di 
 3.  Nella Scheda Dettaglio **Warehouse** selezionare la casella di controllo **Richiesto stoccaggio** per indicare che quando viene rilasciato un documento di origine in entrata o interno con un codice collocazione, può essere creato un documento di stoccaggio magazzino o di movimento di magazzino.  
 4.  Selezionare la casella di controllo **Richiesto prelievo** per indicare che quando viene creato un documento di origine in uscita o interno con un codice collocazione, deve essere creato un documento di prelievi magazzino o di movimento di magazzino.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Per definire una struttura di collocazione di default nell'area di produzione
-
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Per definire una struttura di collocazione di default nell'area di produzione  
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
 2. Aprire l'ubicazione che si desidera configurare.  
 3.  Nel campo **Codice coll. produzione aperta** della Scheda Dettaglio **Collocazioni** immettere il codice della collocazione nell'area di produzione con tutti i componenti che l'operatore macchina può consumare senza richiedere un'attività di warehouse per portarli alla collocazione. Gli articoli che si trovano in questa collocazione vengono in genere impostati per la registrazione automatica o la consuntivazione. Ciò significa che il campo **Metodo consuntivazione** contiene **Avanti** o **Indietro**.  
 4. Nel campo **Cod. coll. art. per produzione** immettere il codice della collocazione nell'area di produzione in cui i componenti prelevati per la produzione in questa ubicazione vengono inseriti per default prima di poter essere consumati. Gli articoli che si trovano in questa collocazione vengono in genere impostati per la registrazione del consumo manuale. Ciò significa che il campo **Metodo consuntivazione** contiene **Manuale** o **Prelievo+Aut.Inizio** o **Prelievo+Aut.Fine** per i prelievi warehouse e i movimenti di magazzino.  
 
     > [!NOTE]  
-    > Quando si utilizzano prelievi da magazzino, il campo **Cod. collocazione** nella riga di componente di un ordine di produzione definisce la collocazione *prendere* da dove vengono diminuiti i componenti quando viene registrato il consumo. Quando si utilizzano i movimenti di magazzino, il campo **Cod. collocazione** nelle righe di componenti dell'ordine di produzione definisce la collocazione *mettere* nell'area di operazione in cui l'addetto alla warehouse deve posizionare i componenti.  
+    >  Quando si utilizzano prelievi da magazzino, il campo **Cod. collocazione** nella riga di componente di un ordine di produzione definisce la collocazione *prendere* da dove vengono diminuiti i componenti quando viene registrato il consumo. Quando si utilizzano i movimenti di magazzino, il campo **Cod. collocazione** nelle righe di componenti dell'ordine di produzione definisce la collocazione *mettere* nell'area di operazione in cui l'addetto alla warehouse deve posizionare i componenti.  
 
 5. Nel campo **Cod. coll. art. da produzione** della Scheda Dettaglio **Collocazioni** immettere il codice della collocazione nell'area di produzione da cui gli articoli finali completati vengono prelevati per default quando il processo comporta un'attività di warehouse. Nelle configurazioni di warehouse di base, l'attività viene registrata come uno stoccaggio o un movimento di magazzino.  
 
@@ -62,7 +61,7 @@ A questo punto, le righe dei componenti dell'ordine di produzione con il codice 
 
 Questo diagramma di flusso illustra in che modo il campo **Cod. collocazione** nelle righe del componente dell'ordine di produzione viene compilato in base al setup.  
 
-![Diagramma di flusso collocazione.](media/binflow.png "BinFlow")
+![Diagramma di flusso collocazione.](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Per definire una struttura di collocazione di default nell'area di assemblaggio
 I componenti per gli ordini di assemblaggio non possono essere prelevati o registrati con i prelievi da magazzino. Pertanto, utilizzare la pagina **Movimento di magazzino**. Per ulteriori informazioni, vedere [Spostare componenti in un'area di operazione nella gestione warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
@@ -137,8 +136,8 @@ La creazione di una collocazione dedicata fornisce una funzionalità simile all'
 ## <a name="see-also"></a>Vedi anche  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
-[Gestione assemblaggio](assembly-assemble-items.md)  
+[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
+[Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

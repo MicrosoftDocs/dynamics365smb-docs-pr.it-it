@@ -1,21 +1,21 @@
 ---
-title: Ricerca di movimenti
+title: Ricerca di movimenti | Microsoft Docs
 description: In questo articolo viene descritto la correlazione tra documenti e movimenti
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 437e0c076b664ad35d5819783e98d9e91abee982
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322982"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393976"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Ricerca di movimenti correlati per documenti registrati 
 
@@ -41,7 +41,7 @@ La pagina **Trova movimenti** include tutti i documenti e i movimenti correlati 
 <!--
  There are two ways to open this page:
 
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
     With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
     
@@ -67,7 +67,7 @@ La pagina **Trova movimenti** include tutti i documenti e i movimenti correlati 
 Dopo aver effettuato una selezione, inserire le informazioni di ricerca pertinenti nei campi in alto. Usare i suggerimenti dei campi come aiuto. Al termine, scegliere **Trova** per avviare la ricerca. Se si modifica qualsiasi filtro, è necessario scegliere nuovamente **Trova**.
 
 > [!TIP]
-> Per un paio di esempi sull'uso di **Trova voci**, vedi [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
+> Per un paio di esempi sull'utilizzo di **Trova movimenti**, vedere [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md) e [Procedura dettagliata: Tracciabilità dei numeri seriali/lotto](walkthrough-tracing-serial-lot-numbers.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

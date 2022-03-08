@@ -2,19 +2,20 @@
 title: Dettagli di progettazione - Tracciabilità e pianificazione degli articoli | Microsoft Docs
 description: Poiché sono memorizzati nel sistema di prenotazione, i numeri di tracciabilità degli articoli sono completamente coordinati con i record di tracciabilità degli ordini.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 82979335348a3a007acb34282495949b52b1c096
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: bc6b919a2c54fc4c500f46b1ad7972350b72e1e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142395"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880258"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Dettagli di progettazione: Tracciabilità articolo e pianificazione
 Poiché sono memorizzati nel sistema di prenotazione, i numeri di tracciabilità degli articoli sono completamente coordinati con i record di tracciabilità degli ordini. Ciò significa che agli articoli con record di tracciabilità ordini possono essere assegnati numeri di tracciabilità articoli. Al contrario, gli articoli con numeri di tracciabilità articolo possono diventare record di tracciabilità ordini. Per altre informazioni, vedere [Dettagli di progettazione - Progettazione tracciabilità articolo](design-details-item-tracking-design.md).
@@ -55,6 +56,3 @@ Per altre informazioni, vedere [Dettagli di progettazione - Bilanciamento della 
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

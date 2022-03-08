@@ -1,20 +1,21 @@
 ---
 title: Correggere o annullare una fattura vendita registrata
-description: Questo argomento descrive come correggere oppure annullare una fattura di vendita registrata e collegarla a una nota di credito di vendita.
+description: Descrive come correggere oppure annullare una fattura di vendita registrata e collegarla a una nota di credito di vendita.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 06/23/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d36ca3a4f20e509a18f19f9fec6a3444040de9df
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0d6e05a52cb4028087e4c52c56fb9d2f5ab78795
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137135"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778850"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correggere o annullare le fatture di vendita non pagate
 
@@ -37,7 +38,7 @@ Quando si rettifica o si annulla una fattura di vendita registrata, la nota di c
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Per annullare una fattura di vendita registrata
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Fatture di vendita registrate** e quindi scegliere il collegamento correlato.  
 2. Selezionare la fattura di vendita che si desidera annullare.
 
     > [!NOTE]  
@@ -53,7 +54,7 @@ Se l'annullamento è correlato a una registrazione parziale della fattura, la ri
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Per correggere una fattura di vendita registrata
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), quindi immettere **Fatture di vendita registrate** e scegliere il collegamento correlato.  
 2. Selezionare la fattura di vendita che si desidera rettificare.
 
     > [!NOTE]  

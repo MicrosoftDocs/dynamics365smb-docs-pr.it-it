@@ -2,20 +2,20 @@
 title: Conteggio, adeguamento e riclassificazione dell'inventario
 description: Esegui attività di conteggio fisico, rettifiche positive o negative e modifica le informazioni, quali ubicazione o numero di lotto, nei movimenti contabili articoli o warehouse.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b25851a01a5687da3055a6b8e32becf8e6e9f018
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c975a6d851693cef2b139d2493f825299770fac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131615"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440457"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni
 Almeno una volta durante l'anno fiscale, è necessario procedere a un inventario fisico, ovvero conteggiare tutti gli articoli in magazzino, per verificare se la quantità registrata nel database corrisponde alla quantità fisica presente nelle warehouse. Se non si conosce la quantità fisica effettiva, è necessario registrarla nella contabilità generale come parte di una valutazione di magazzino di fine periodo.

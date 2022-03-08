@@ -1,22 +1,23 @@
 ---
-title: Pianificazione dei processi di assistenza
-description: Questo argomento descrive i task per impostare le regole e i valori per definire i criteri e i processi di assistenza.
+title: Pianificazione dei processi di assistenza | Documenti Microsoft
+description: Descrive i task per impostare le regole e i valori per definire i criteri e i processi di assistenza.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 06/23/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 98cd4b41a8e47f045c89ebc31813a07e9f3a46bf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eaf6f55e807ef9630d9e8f50c71676e86c296b8d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134797"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778174"
 ---
 # <a name="planning-services"></a>Pianificazione dei servizi
 Con [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   

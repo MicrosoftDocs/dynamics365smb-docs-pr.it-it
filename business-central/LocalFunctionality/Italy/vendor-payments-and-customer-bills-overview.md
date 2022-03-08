@@ -1,24 +1,24 @@
 ---
-title: Panoramica di pagamenti fornitori ed effetti clienti [IT]
-description: Nella versione italiana di Business Central, puoi gestire gli effetti automatici per i clienti e dai fornitori.
+title: Panoramica di pagamenti fornitori ed effetti clienti
+description: In Business Central, è possibile gestire gli effetti automatici per i clienti e dai fornitori.
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 12183, 12188, 12192, 12193, 12194, 12195, 12195
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a9b7fe1d8e503cb89b2aa281440e85a07d914098
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d7b5a485c3149b4d937fefc6443221fb1ffafcb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131082"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919947"
 ---
-# <a name="vendor-payments-and-customer-bills-overview-in-the-italian-version"></a>Panoramica di pagamenti di fornitori ed effetti clienti nella versione italiana
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire gli effetti automatici per i clienti e dai fornitori.  
+# <a name="vendor-payments-and-customer-bills-overview"></a>Panoramica di pagamenti fornitori ed effetti clienti
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], è possibile gestire gli effetti automatici per i clienti e dai fornitori.  
 
 Inoltre, questa funzionalità di pagamento degli effetti supporta l'emissione del pagamento in diversi formati, compreso il bonifico SEPA, l'addebito diretto SEPA e i formati di effetti italiani.  
 
@@ -32,6 +32,3 @@ Prima di poter elaborare gli effetti, è necessario aggiungere le informazioni b
 ## <a name="see-also"></a>Vedi anche  
  [Impostare i pagamenti automatici e gli effetti automatici](how-to-set-up-automatic-payments-and-automatic-bills.md)   
   [Emettere pagamenti fornitori ed effetti clienti](how-to-issue-vendor-payments-and-customer-bills.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

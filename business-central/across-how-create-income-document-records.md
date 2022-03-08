@@ -1,41 +1,42 @@
 ---
-title: Creare i record di documenti in entrata
-description: Utilizza diverse funzioni nella pagina Documenti in entrata per rivedere le ricevute delle spese, gestire i task OCR, convertire i file dei documenti in entrata e collegare file esterni.
+title: Creare i record di documenti in entrata| Documenti Microsoft
+description: È possibile creare i record dei documenti in entrata, ad esempio le fatture elettroniche, e gestire le attività OCR, il commercio elettronico e il servizio di scambio documenti.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/11/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb7a16155c8055b9c4937843568f4e147cefc61b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 163b352e55ca85644bc833093f39ea8c422e5030
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147296"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780587"
 ---
 # <a name="create-incoming-document-records"></a>Creare i record di documenti in entrata
 Nella pagina **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
 
-Per registrare un documento esterno in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario prima creare o completare un record di documento in entrata. Questa operazione può essere eseguita manualmente oppure scattando una foto del documento e quindi creando un record del documento in entrata con il file immagine allegato.
+Per registrare un documento esterno in [!INCLUDE[d365fin](includes/d365fin_md.md)], è necessario prima creare o completare un record di documento in entrata. Questa operazione può essere eseguita manualmente oppure scattando una foto del documento e quindi creando un record del documento in entrata con il file immagine allegato.
 
 Per poter utilizzare la funzionalità Documenti in entrata, è necessario eseguire l'impostazione necessaria. Per ulteriori informazioni, vedere [Impostare documenti in entrata](across-how-setup-income-documents.md).
 
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Per approvare o rifiutare un documento in entrata
 Se non si desidera consentire agli utenti di creare fatture o righe registrazioni COGE da record di documenti in entrata prima che vengano approvati, è possibile impostare dei responsabili che devono approvare i record prima che possano essere elaborati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Documenti in entrata** e quindi scegliere il collegamento correlato.
 2. Selezionare la riga con il documento che si desidera approvare o rifiutare quindi selezionare l'azione **Approva** o **Rifiuta**.
 
 Se si approva il record del documento in entrata, la casella di controllo **Rilasciato** nella riga del documento in entrata è selezionata. L'utente incaricato di creare, ad esempio, le fatture di acquisto può procedere all'elaborazione del record.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Per creare un record di documento in entrata facendo una foto
 > [!NOTE]  
->   La seguente procedura si applica solo ai client di [!INCLUDE[prod_short](includes/prod_short.md)] per tablet e telefono.
+>   La seguente procedura si applica solo ai client di [!INCLUDE[d365fin](includes/d365fin_md.md)] per tablet e telefono.
 
 1. Sulla barra delle applicazioni, scegliere il riquadro **Crea documento in entrata da fotocamera** e andare al passaggio 4.
 2. In alternativa, nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.
@@ -46,7 +47,7 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Per allegare un'immagine a un record di documento in entrata facendo una foto
 > [!NOTE]  
->   La seguente procedura si applica solo ai client di [!INCLUDE[prod_short](includes/prod_short.md)] per tablet e telefono.
+>   La seguente procedura si applica solo ai client di [!INCLUDE[d365fin](includes/d365fin_md.md)] per tablet e telefono.
 
 1. Nella barra delle applicazioni, fare clic sul pulsante di opzione, selezionare **Documenti in entrata** e scegliere **Tutto**.
 2. Aprire la scheda di un record di documento in entrata esistente.
@@ -56,7 +57,7 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
     L'immagine viene allegata al record di documento in entrata.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Per creare manualmente il record di un documento in entrata
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Documenti in entrata** e quindi scegliere il collegamento correlato.
 2. Selezionare l'azione **Crea da file**.  
 3. Nella pagina **Inserisci file** selezionare un file e scegliere **Apri**. Il file viene automaticamente allegato.
 4. In alternativa, selezionare l'azione **Nuovo**.
@@ -68,7 +69,4 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 [Elaborare i documenti in entrata](across-process-income-documents.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

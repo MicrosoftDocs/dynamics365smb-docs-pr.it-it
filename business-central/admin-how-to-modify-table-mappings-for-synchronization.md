@@ -2,6 +2,7 @@
 title: Mapping delle tabelle e dei campi da sincronizzare | Microsoft Docs
 description: Informazioni su come mappare tabelle e campi per la sincronizzazione dei dati tra Business Central e Microsoft Dataverse.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 844b053a307d88bd93d945a7927726fd28518000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147140"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446392"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mapping delle tabelle e dei campi da sincronizzare
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 La base della sincronizzazione dei dati consiste nel mapping delle tabelle e dei campi in [!INCLUDE[prod_short](includes/prod_short.md)] con tabelle e colonne in [!INCLUDE[prod_short](includes/cds_long_md.md)], di modo che possano scambiarsi i dati. Il mapping avviene tramite tabelle di integrazione. 
 
@@ -47,9 +48,7 @@ Dopo aver specificato la strategia, nella pagina **Errori di sincronizzazione da
 Il mapping delle tabelle è solo il primo passo. È necessario anche eseguire il mapping dei campi nelle tabelle. I mapping dei campi di integrazione collegano i campi nelle tabelle [!INCLUDE[prod_short](includes/prod_short.md)] con le colonne corrispondenti in [!INCLUDE[prod_short](includes/cds_long_md.md)] e determinano se vengono sincronizzati i dati in ciascuna tabella. Il mapping della tabella standard fornita da [!INCLUDE[prod_short](includes/prod_short.md)] include i mapping dei campi, ma è possibile modificarli se necessario. Per ulteriori informazioni, vedere [Visualizzazione di mapping di tabella](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-table-mappings).
 
 > [!Note]
-> Se si utilizza una versione on-premises di [!INCLUDE[prod_short](includes/prod_short.md)], le mappature dei campi di integrazione sono definite nella tabella 5336 Integration Field Mapping.
-
-Puoi mappare manualmente i campi, o puoi automatizzare il processo mappando più campi allo stesso tempo in base a criteri di corrispondenza dei loro valori. Per maggiori informazioni, vedi [Per accoppiare più record basati sulla corrispondenza dei valori dei campi](admin-how-to-couple-and-synchronize-records-manually.md).
+> Se si utilizza una versione locale di [!INCLUDE[prod_short](includes/prod_short.md)], i mapping dei campi di integrazione sono definiti nella tabella 5336 Mapping campi integrazione.
 
 ### <a name="handling-differences-in-field-values"></a>Gestione delle differenze nei valori di campo
 A volte i valori nei campi che si desidera mappare sono diversi. Ad esempio, in [!INCLUDE[crm_md](includes/crm_md.md)] il codice della lingua per gli Stati Uniti è "U.S.", ma in [!INCLUDE[prod_short](includes/prod_short.md)] è "US". Ciò significa che è necessario trasformare il valore quando si sincronizzano i dati. Ciò accade attraverso le regole di trasformazione definite per i campi. Si definiscono le regole di trasformazione sulla pagina **Mapping tabella integrazione** scegliendo **Mappatura** e poi **Campi**. Vengono fornite le regole predefinite, ma è possibile anche crearne di proprie. Per ulteriori informazioni, vedere [Regole di trasformazione](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

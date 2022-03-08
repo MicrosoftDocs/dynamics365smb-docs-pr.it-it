@@ -2,6 +2,7 @@
 title: Gestione di cespiti
 description: Crea un registro di manutenzione di eventuali riparazioni e servizi su un cespite per preservare il valore del cespite.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: bc98fa2bc07320a4989ceca36a09a4cad3cd82ce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d0c2a5a4ed0241a16c0cb0fc91ad5c9ca2592d2a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147936"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029564"
 ---
 # <a name="maintain-fixed-assets"></a>Gestione di cespiti
 Le spese di manutenzione sono costi periodici di routine sostenuti per mantenere il valore del cespite. A differenza degli incrementi di capitale, il loro valore non aumenta.

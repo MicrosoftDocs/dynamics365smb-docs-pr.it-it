@@ -2,6 +2,7 @@
 title: Gestione dell'integrazione Microsoft Teams con Business Central | Microsoft Docs
 description: Gestione dell'integrazione di Business Central con Microsoft Teams.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147036"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882207"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -34,12 +35,10 @@ Questa sezione descrive i requisiti minimi per il funzionamento dell'app [!INCLU
 
     |Quale|Licenza Teams|Licenza di [!INCLUDE [prod_short](includes/prod_short.md)]|
     |----|---|---|
-    |Ricerca di contatti di [!INCLUDE [prod_short](includes/prod_short.md)].|![segno di spunta.](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
+    |Ricerca di contatti di [!INCLUDE [prod_short](includes/prod_short.md)].|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
     |Incollare un collegamento a un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione e inviarla come scheda.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
-    |Condividi un link da una pagina in [!INCLUDE [prod_short](includes/prod_short.md)] alla conversazione di Teams.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
     |Visualizzare una scheda di un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione.|![segno di spunta](media/check.png "selezionato")||
     |Visualizzare altri dettagli di una scheda per un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
-    |Aprire un link di pagina in [!INCLUDE [prod_short](includes/prod_short.md)] da una conversazione.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
 
 - Consentire le anteprime URL
 
@@ -69,7 +68,7 @@ Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di M
 - <a name="permissions"></a>Autorizzazioni utente:
 
     Per la maggior parte, la ricerca dei contatti, le pagine e i dati che gli utenti possono visualizzare e modificare in una conversazione di Teams sono controllati dalle autorizzazioni in [!INCLUDE [prod_short](includes/prod_short.md)].
-
+    
     - Per cercare contatti, gli utenti devono avere almeno l'autorizzazione di lettura per la tabella dei **Contatti**. 
     - Per incollare un collegamento [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione di Teams e farlo espandere in una scheda, gli utenti devono disporre almeno dell'autorizzazione di lettura sulla pagina e sui relativi dati.
     - Una volta che una scheda è stata inviata a una conversazione, qualsiasi utente in quella conversazione può visualizzare quella scheda senza autorizzazione per [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -78,35 +77,11 @@ Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di M
     
     Per informazioni sulle autorizzazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installare l'applicazione Business Central utilizzando la distribuzione centralizzata
-
-Il centro di amministrazione di Microsoft Teams è dove configuri le politiche di configurazione delle app Teams per l'organizzazione. Nel centro amministrativo di Teams, puoi usare la funzione di distribuzione centralizzata per installare automaticamente l'app Business Central in Teams per tutti gli utenti della tua organizzazione, per gruppi specifici o per singoli utenti.
-
-> [!NOTE]
-> Per impostare la distribuzione centralizzata, il tuo account Teams deve avere il ruolo di **amministratore di Teams Service**  o il ruolo di **amministratore globale** .
-
-1. In Business Central, scegli la ![Lente d'ingrandimento che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , inserire **Teams App Centralized Deployment** e poi scegliere il link relativo. Oppure, seleziona [qui](https://businesscentral.dynamics.com/?page=1833) per aprire direttamente la pagina.
-2. Leggi le informazioni su **Set up the Business Central app for Teams**, poi scegli **Avanti** quando sei pronto.
-3. Aprire il [centro amministrativo di Teams](https://go.microsoft.com/fwlink/?linkid=2163970)e completare i seguenti passi.
-    1. Vai a **Teams apps** > **Setup policies**.
-    2. Crea un nuovo criterio o seleziona il criterio che vuoi utilizzare per installare l'app Business Central, quindi seleziona **Aggiungi applicazioni**.
-    3. Nella pagina **Aggiungi applicazioni installate**, cerca e seleziona **Business Central**.
-    4. Scegliere **Aggiungi**.
-
-       Business Central dovrebbe ora apparire tra le **app installate** per la policy.
-    5. Configura qualsiasi impostazione aggiuntiva, poi scegli **Salva**.
-
-    Per ulteriori informazioni sui criteri di configurazione in Teams, vedi [Gestire i criteri di configurazione delle app in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) nella documentazione di Teams.
-4. Torna a **Teams App Centralized Deployment** in Business Central e seleziona **Fatto**.
-
-> [!IMPORTANT]
-> Possono essere necessarie fino a 24 ore per applicare la politica di configurazione dell'app e distribuire l'app agli utenti.
-
 ## <a name="managing-privacy-and-compliance"></a>Gestione della privacy e della conformità 
 
 Microsoft Teams fornisce controlli estesi per la conformità e la gestione di dati sensibili o di identificazione personale, compresi i dati aggiunti a chat e canali mediante l'app [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Informazioni su dove vengono memorizzate le schede di [!INCLUDE [prod_short](includes/prod_short.md)]
+### <a name="understanding-where-prod_short-cards-are-stored"></a>Informazioni su dove vengono memorizzate le schede di [!INCLUDE [prod_short](includes/prod_short.md)] 
 
 Dopo che una scheda è stata inviata a una chat, la scheda e i campi visualizzati nella scheda vengono copiati in Teams. Queste informazioni sono soggette ai criteri di Teams per l'organizzazione, come i criteri di conservazione dei dati. Quando si visualizzano i dettagli della scheda, i dati nella finestra dei dettagli non sono memorizzati in Teams. I dati rimangono memorizzati in [!INCLUDE [prod_short](includes/prod_short.md)] e verranno recuperati da Teams solo quando l'utente sceglie di visualizzare i dettagli. 
 

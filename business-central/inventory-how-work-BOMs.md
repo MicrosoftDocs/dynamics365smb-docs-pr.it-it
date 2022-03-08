@@ -2,19 +2,19 @@
 title: Utilizzare le distinte base per gestire i componenti
 description: Si crea una distinta base di assemblaggio o di produzione per specificare i componenti o le risorse richieste per un l'articolo che la distinta rappresenta.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
-ms.date: 04/01/2021
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: acf67b3e75df35cf11f743c63fccd79310d9e0f0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2ada3cea6a7c7e5fddc122b9405a6e608f35a804
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141023"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377600"
 ---
 # <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
 Utilizzare le distinte base (DB) per strutturare gli articoli padre che devono essere assemblati o prodotti dalle risorse o dai centri di lavoro a partire dai componenti. Una DB di assemblaggio può essere utilizzata anche per vendere un articolo padre come kit comprendente i relativi componenti.
@@ -56,14 +56,14 @@ Esistono due passaggi per creare una DB di assemblaggio:
 ## <a name="to-edit-assembly-boms"></a>Per modificare le DB di assemblaggio
 È possibile modificare le righe di una distinta base di assemblaggio in qualsiasi momento. Tuttavia, tenere presente che la distinta base potrebbe essere in uso nelle vendite o negli assemblaggi dell'elemento padre, che potrebbero essere influenzati dalla modifica. Scegliere l'azione **Dove-usato** per vedere in quali articoli viene utilizzato e quindi se gli ordini di vendita o di assemblaggio possono essere interessati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Scegliere il valore **Sì** nella colonna **DB assemblaggio**.
 3. Nella pagina **DB assemblaggio**, scegliere l'azione **Modifica elenco**, quindi modificare i campi secondo necessità.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Per visualizzare i componenti e le risorse con indentazione in base alla struttura DB
 Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui vengono visualizzati i componenti e tutte le risorse indentate in base alla posizione nella distinta base dell'articolo di assemblaggio.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda per l'articolo di assemblaggio. (Il campo **DB assemblaggio** nella pagina **Articoli** contiene il valore **Sì**.)
 3. Nella pagina **Scheda articolo** scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
 4. Nella pagina **DB assemblaggio** selezionare l'azione **Mostra DB**.
@@ -71,14 +71,14 @@ Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Per sostituire l'articolo di assemblaggio con i suoi componenti nelle righe del documento
 Da un documento di vendita e di acquisto contenente un articolo di assemblaggio è possibile utilizzare una funzione speciale per sostituire la riga per l'articolo di assemblaggio con nuove righe per i componenti. Questa funzione è utile, ad esempio, se si intende vendere i componenti come kit che rappresenta l'articolo di assemblaggio.
 
-L'azione **Esplodi DB** è anche disponibile nella pagina **DB assemblaggio** come metodo per visualizzare gli articoli di sottoassemblaggi in una DB di assemblaggio.
+La funzione Esplodi DB è anche disponibile nella pagina **DB assemblaggio** come metodo per visualizzare gli articoli figlio su tutti i sottoassemblaggi in una DB di assemblaggio.
 
 > [!CAUTION]  
 >  Una volta utilizzata la funzione **Esplodi DB**, non è possibile annullare l'operazione facilmente. È necessario eliminare le righe ordine di vendita che rappresentano i componenti e registrare nuovamente una riga ordine di vendita per l'articolo di assemblaggio.
 
 La seguente procedura è basata su fattura di vendita. La stessa procedura si applica ad altri documenti di vendita e a tutti i documenti di acquisto.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture vendite** e quindi scegliere il collegamento correlato.
 2. Aprire una fattura di vendita che contiene una riga per un articolo di assemblaggio.
 3. Scegliere la riga per un articolo di assemblaggio quindi l'azione riga **Esplodi DB**.
 

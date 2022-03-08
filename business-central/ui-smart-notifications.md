@@ -1,45 +1,42 @@
 ---
-title: Utilizzare le notifiche smart e specificare quando visualizzarle
+title: Utilizzare le notifiche smart e specificare quando visualizzarle | Documenti Microsoft
 description: È possibile ricevere notifiche con informazioni sulle modifiche di stato o di eventi, ad esempio, per un saldo scaduto o un magazzino in esaurimento.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 11/29/2019
 ms.author: bholtorf
-ms.openlocfilehash: 53a1852ca3c957b4b2cf0a2c23652b616bd383cb
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 4839de7b4deff107d8a1644367e28216eb8a789e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334619"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881944"
 ---
 # <a name="manage-notifications"></a>Gestire le notifiche
 
-[!INCLUDE[prod_short](includes/prod_short.md)] consente di lavorare in modo più intelligente tramite le notifiche che informano in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Queste notifiche vengono visualizzate come suggerimenti discreti nel contesto dell'attività che si sta eseguendo e consente di scegliere di ignorare la notifica o di visualizzare i dettagli sul problema.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] consente di lavorare in modo più intelligente tramite le notifiche che informano in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Queste notifiche vengono visualizzate come suggerimenti discreti nel contesto dell'attività che si sta eseguendo e consente di scegliere di ignorare la notifica o di visualizzare i dettagli sul problema.  
 
-Se si sceglie di visualizzare i dettagli relativi a una notifica, è possibile intraprendere azioni per risolvere il problema, come contattare il cliente, comprare altre scorte e così via. La scelta sulla cosa da fare è dell'utente, mentre [!INCLUDE[prod_short](includes/prod_short.md)] offre consigli e avvisi.  
+Se si sceglie di visualizzare i dettagli relativi a una notifica, è possibile intraprendere azioni per risolvere il problema, come contattare il cliente, comprare altre scorte e così via. La scelta sulla cosa da fare è dell'utente, mentre [!INCLUDE[d365fin](includes/d365fin_md.md)] offre consigli e avvisi.  
 
 Le notifiche consentono agli utenti non addestrati di completare attività poco familiari senza ridurre la produttività dell'utente più formato.  
 
 ## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Per attivare o disattivare le notifiche e controllare quando vengono inviate
 
-Al primo avvio di [!INCLUDE[prod_short](includes/prod_short.md)] tutte le notifiche sono attivate, ma è possibile attivarle e disattivarle, ad esempio, se non si è interessati a un determinato evento o stato.  
+Al primo avvio di [!INCLUDE[d365fin](includes/d365fin_md.md)] tutte le notifiche sono attivate, ma è possibile attivarle e disattivarle, ad esempio, se non si è interessati a un determinato evento o stato.  
 
 Inoltre, in alcune notifiche è possibile specificare le condizioni per l'invio. Ad esempio, se si desidera ricevere una notifica quando le scorte in magazzino sono insufficienti, ma solo per gli articoli acquistati da un determinato fornitore.  
 
 L'attivazione e la disattivazione delle notifiche e l'indicazione delle condizioni si applicano solo al cliente.  
 
-1. Nell'angolo superiore destro scegli l'icona **Impostazioni** ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegli l'azione **Impostazioni personali**.  
+1. Nell'angolo superiore destro scegliere l'icona **Impostazioni** ![Impostazioni](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegliere l'azione **Impostazioni personali**.  
 2. Nella pagina **Impostazioni personali**, nel campo **Notifiche**, scegliere il collegamento *Modificare il momento in cui ricevere le notifiche* .  
 3. Nella pagina visualizzata, attivare o disattivare una notifica selezionando o deselezionando la casella di controllo **Abilitato**.  
 4. Per specificare le condizioni che danno origine a una notifica, selezionare il collegamento **Visualizza dettagli filtro** e compilare i campi.  
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

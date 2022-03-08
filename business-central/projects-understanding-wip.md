@@ -2,6 +2,7 @@
 title: Metodi WIP per il calcolo e la registrazione dello stato di avanzamento della commessa
 description: Vengono descritti i diversi metodi WIP che possono essere utilizzati per registrare, monitorare e calcolare le informazioni finanziarie per le commesse in corso.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bfae06855a633642ebc8032578f4f4c1bf4e35d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d7fbe8faa3fc4d75f068ad585faddeb1b5186e70
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131251"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970887"
 ---
 # <a name="understanding-wip-methods-in-project-management"></a>Comprendere i metodi WIP nella gestione dei progetti
 

@@ -1,37 +1,31 @@
 ---
-title: Dettagli di progettazione - Riga di registrazione di contabilità generale
+title: 'Dettagli di progettazione: riga di registrazione di contabilità generale | Microsoft Docs'
 description: Questo argomento fornisce informazioni dettagliate sui concetti e sui principi utilizzati per riprogettare la funzionalità della riga di registrazione di contabilità generale in Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: e4eaf147fd18ee3f215aa670fe75458603ca16dc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4186a97957e48b6d36c478d0280374cce0fbfc76
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143610"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787873"
 ---
 # <a name="design-details-general-journal-post-line"></a>Dettagli di progettazione: riga di registrazione di contabilità generale
+Questa documentazione fornisce informazioni tecniche dettagliate sui concetti e sui principi utilizzati per riprogettare la funzionalità della riga di registrazione di contabilità generale in [!INCLUDE[d365fin](includes/d365fin_md.md)]. La riprogettazione semplifica e rende più facile la manutenzione di codeunit 12. Viene innanzitutto illustrata una panoramica dei concetti alla base della riprogettazione. Viene quindi illustrata l'architettura tecnica per mostrare le modifiche conseguenti alla riprogettazione.  
 
-Questa documentazione fornisce informazioni tecniche dettagliate sui concetti e sui principi utilizzati per riprogettare la funzionalità della riga di registrazione di contabilità generale in [!INCLUDE[prod_short](includes/prod_short.md)]. La riprogettazione ha semplificato e resa più facile la manutenzione di codeunit 12. Viene innanzitutto illustrata una panoramica dei concetti alla base della riprogettazione. Viene quindi illustrata l'architettura tecnica per mostrare le modifiche conseguenti alla riprogettazione.  
-
-> [!IMPORTANT]
-> Le informazioni in questa sezione si applicano alla riprogettazione in una versione precedente del prodotto, Microsoft Dynamics NAV 2013 R2.
-
-## <a name="in-this-section"></a>In questa sezione
-
+## <a name="in-this-section"></a>In questa sezione  
 [Sintesi della riga di registrazione di contabilità generale](design-details-general-journal-post-line-overview.md)  
 [Dettagli di progettazione: Struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)  
-[Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)  
+[Dettagli di progettazione: Struttura del motore di registrazione](design-details-posting-engine-structure.md)  
+[Modifiche relative alla codeunit 12: variabili globali di mappatura per la riga di registrazione di contabilità generale](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
+[Modifiche relative alla codeunit 12: modifiche nelle procedure di registrazione di contabilità generale](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
 
-## <a name="see-also"></a>Vedere anche
-
+## <a name="see-also"></a>Vedi anche  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)
-[Dettagli di progettazione: Riga di registrazione di contabilità generale (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,27 +2,25 @@
 title: Ambienti sandbox
 description: Scopri come un ambiente dedicato può aiutarti a esplorare, imparare, dimostrare, sviluppare, risolvere i problemi e testare Business Central in sicurezza.
 author: SusanneWindfeldPedersen
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/20/2021
+ms.date: 07/27/2021
 ms.author: solsen
-ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db390d1f4ee690b9e461bfccd77155ec0b66a2b6
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142473"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589449"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Ambienti sandbox in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)] online è possibile ottenere facilmente un ambiente sicuro in cui testare, istruire o risolvere i problemi senza disturbare i processi di lavoro o i dati aziendali della società. Tale ambiente non di produzione è denominato *sandbox*. Isolato dalla produzione, un ambiente sandbox consente di esplorare, apprendere, dimostrare, sviluppare e testare in sicurezza il servizio senza il rischio di compromettere i dati e le impostazioni dell'ambiente di produzione.  
-
-> [!TIP]
-> Sei arrivato a questo articolo dopo aver scelto il nome del tuo ambiente [!INCLUDE [prod_short](includes/prod_short.md)] nella barra in alto? Attualmente, non è possibile modificare il nome o l'ambiente in questo modo. Invece, devi chiedere al tuo amministratore di cambiare il nome o di condividere il collegamento di un altro ambiente.
 
 L'amministratore gestisce gli ambienti sandbox nell'[interfaccia di amministrazione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 

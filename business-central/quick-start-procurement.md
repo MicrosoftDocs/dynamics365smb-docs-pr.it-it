@@ -1,21 +1,21 @@
 ---
-title: Inizio rapido dell'approvvigionamento (video)
+title: Inizio rapido per l'approvvigionamento
 description: Impara come riempire i primi campi critici sui venditori in Business Central in modo da poter iniziare ad acquistare prodotti e servizi.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021
-ms.author: edupont
-ms.openlocfilehash: d5ec92099a7439bfb9a059105b0f1ce377534117
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.author: a-jillk
+ms.openlocfilehash: 5738735aa26b6c66b8bc0bf9366aa1cd736d7612
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128741"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589446"
 ---
 # <a name="procurement-quick-start"></a>Inizio rapido per l'approvvigionamento
 
@@ -59,7 +59,7 @@ Il seguente video mostra come creare un ordine di acquisto in [!INCLUDE[prod_sho
 
     Siete ora pronti a riempire le righe dell'ordine di acquisto con gli articoli o le risorse che avete acquistato dal venditore.
 
-5. Sulla FastTab **Righe**, nel campo **N. elemento**, inserisci il numero di un articolo d'inventario o di un servizio.
+5. Nella Scheda dettaglio **Righe** del campo **Nr. articolo** immettere il numero di un articolo di magazzino o di un servizio.
 
 6. Nel campo **Quantità** immettere il numero di articoli da acquistare.
 

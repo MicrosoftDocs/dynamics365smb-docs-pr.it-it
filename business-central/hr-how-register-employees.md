@@ -1,47 +1,43 @@
 ---
-title: Impostare i dipendenti e modificare le informazioni
-description: Descrive come utilizzare la funzionalità Risorse umane per registrare nuovo personale o modificare le informazioni sui dipendenti per il personale esistente.
+title: Impostare gli impiegati e modificare le informazioni| Documenti Microsoft
+description: Viene descritto come registrare il nuovo personale o modificare i dati relativi al personale esistente.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201
-ms.date: 06/16/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 99add650ec16fcb62d9cdc27962bd83c9c71b794
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ca86db44d578fab16af1d9a07e3d62db8dfe581c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137941"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750232"
 ---
 # <a name="register-employees"></a>Registrare i dipendenti
-Per utilizzare la funzionalità Human Resources, devi prima aggiungere ogni dipendente compilando i campi nella pagina **Scheda dipendente** .
+Per utilizzare la funzionalità Gestione personale, è prima necessario registrare ciascun impiegato creando una scheda con tutte le informazioni principali e correlate.
 
-## <a name="adding-new-customers"></a>Aggiunta di nuovi clienti
-Puoi aggiungere nuovi dipendenti manualmente, compilando i campi nella pagina **Scheda del dipendente**, oppure puoi usare dei modelli che contengono informazioni predefinite. Per esempio, è possibile creare un modello per diversi tipi di profili di dipendenti. L'uso di modelli fa risparmiare tempo quando si aggiungono nuovi dipendenti e aiuta a garantire che le informazioni siano corrette ogni volta. Se si creano modelli per più di un tipo di dipendente, è possibile scegliere il modello da utilizzare quando si aggiunge un dipendente. Se si crea un solo modello, questo sarà usato per tutti i nuovi dipendenti. Dopo aver creato un modello, si può usare l'azione **Applica modello** per applicarlo a uno o più dipendenti selezionati. Per creare un modello, si compilano le informazioni che si vogliono riutilizzare nella pagina della Scheda del dipendente, e poi si salva come modello.
+I dettagli di un impiegato possono essere modificati in qualsiasi momento. Se i record relativi agli impiegati vengono mantenuti sempre aggiornati, i task di gestione del personale saranno più semplici. Se ad esempio l'indirizzo di un impiegato cambia, si deve registrare questa informazione nella scheda dell'impiegato.
 
-> [!TIP]
-> Può essere utile personalizzare la pagina **Modello dipendente** quando si crea un modello. Per esempio, potresti voler aggiungere un campo che non è già visualizzato nella pagina. Per ulteriori informazioni, vedi [Personalizzare lo spazio di lavoro](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
-
-I dettagli di un impiegato possono essere modificati in qualsiasi momento. Mantenere aggiornati i registri dei dipendenti può semplificare i compiti relativi al personale. Per esempio, se l'indirizzo di un dipendente cambia, lo si registra nella pagina Scheda dipendente.
+Di seguito viene descritto come creare una scheda iniziale relativa all'impiegato e come assegnare due tipi di dettagli di un impiegato a un impiegato. Inoltre, è possibile assegnare diverse altre informazioni correlate, ad esempio le qualifiche e le cause di inattività. Per assegnare le informazioni relative agli impiegati è possibile scegliere un campo o un'azione nella pagina **Scheda impiegato**.
 
 > [!NOTE]  
 > È possibile rimborsare ai dipendenti le spese che hanno sostenuto durante le attività di lavoro. A questo scopo è necessario compilare i campi nella Scheda dettaglio **Pagamenti** nella pagina **Scheda impiegato**. Per altre informazioni, vedere [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Per impostare un impiegato
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Dipendenti**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dipendenti** e quindi scegliere il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella pagina **Scheda impiegato** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Per inserire una foto di un impiegato
-Se hai una foto di un dipendente, puoi inserirla nella scheda del dipendente.
+Se si dispone di un'immagine di un dipendente in formato .bmp, è possibile inserirla nella scheda dei dipendenti.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Dipendenti**, quindi scegli il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dipendenti** e quindi scegliere il collegamento correlato.
 2. Aprire la scheda dell'impiegato pertinente.
 3. Nel riquadro Dettaglio informazioni **Immagine impiegato** scegliere il pulsante a discesa, quindi **Importa**.
 4. Nella pagina **Selezionare un'immagine da caricare** scegliere il pulsante **Scegli**.
@@ -54,8 +50,8 @@ Nella scheda del dipendente, è possibile impostare informazioni, quali la tesse
 
 È possibile utilizzare gli indirizzi alternativi per tenere traccia delle località di domicilio degli impiegati, per esempio in caso di trasferta all'estero, di lunghi viaggi di lavoro oppure in caso di soggiorno in una residenza estiva.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Dipendenti**, quindi scegli il collegamento correlato.
-2. Apri la scheda dell'impiegato pertinente.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Dipendenti** e quindi scegliere il collegamento correlato.
+2. Aprire la scheda dell'impiegato pertinente.
 3. Scegliere l'azione **Indirizzi alternativi**.
 4. Nella pagina **Lista indirizzi alternativi** compilare i campi in base alle esigenze.
 5. Ripetere il passaggio 4 per ogni indirizzo alternativo.
@@ -65,6 +61,3 @@ Nella scheda del dipendente, è possibile impostare informazioni, quali la tesse
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

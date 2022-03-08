@@ -1,20 +1,22 @@
 ---
-title: Gestire le assenze di un impiegato
-description: Descrive come registrare l'assenza dei dipendenti e analizzare le statistiche sulle assenze utilizzando le pagine Registrazione assenze e Assenze dipendenti.
+title: Gestire le assenze di un dipendente | Microsoft Docs
+description: Descrive come registrare le assenze dei dipendenti e analizzare le statistiche sulle assenze.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5212, 5211, 5200
-ms.date: 06/16/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 77ae09aebd78c870cc92d01700fc9a9188f340ee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1385545ffa32bbf321c90acf1f27b948a41c4644
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146438"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777668"
 ---
 # <a name="manage-employee-absence"></a>Gestire le assenze di un impiegato
 Per gestire le assenze di un impiegato, è necessario registrare l'assenza nella pagina **Registrazione assenza**. Le informazioni possono quindi essere visualizzate in diversi modi per esigenze di analisi e creazione report.
@@ -69,8 +71,5 @@ Per ottenere statistiche significative, per le registrazioni delle assenze degli
 ## <a name="see-also"></a>Vedere anche
 [Gestione personale](hr-manage-human-resources.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

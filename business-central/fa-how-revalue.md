@@ -1,20 +1,22 @@
 ---
-title: Rivalutazione dei cespiti
+title: Rivalutare i cespiti| Documenti Microsoft
 description: Informazioni su come rettificare il valore dei cespiti, registrando i nuovi importi come svalutazione o rivalutazione e registrare i costi di acquisto aggiuntivi.
-author: edupont04
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5628
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ee87cdaf52664af2037f6ee276d7898a67436da
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2e178778e51d63c3398fd4a870bf41fa8b1a086f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139653"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442212"
 ---
 # <a name="revalue-fixed-assets"></a>Rivalutazione dei cespiti
 La rivalutazione dei cespiti può essere costituita da rivalutazioni, svalutazioni o rettifiche dei valori generali.

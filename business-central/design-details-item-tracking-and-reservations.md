@@ -1,20 +1,21 @@
 ---
-title: Dettagli di progettazione - Tracciabilità articolo e impegni
-description: Questo argomento descrive la tracciabilità articolo e gli impegni nonché i concetti delle due opzioni.
+title: 'Dettagli di progettazione: Tracciabilità articolo e impegni | Microsoft Docs'
+description: Questo argomento descrive la tracciabilità articolo e gli impegni nonché i relativi concetti.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 07/23/2020
 ms.author: edupont
-ms.openlocfilehash: 25d911fd663e35f218f78e68f76c5f3043ba6764
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139731"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787623"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Dettagli di progettazione: Tracciabilità articolo e impegni
 
@@ -35,11 +36,10 @@ L'impegno dei numeri di tracciabilità articolo rientra in due categorie, come i
 |Non specifico|Non si seleziona un numero seriale o di lotto specifico quando si impegna l'articolo di magazzino da una domanda, ad esempio un ordine di vendita.<br /><br /> Questo è uno stato che viene imposto in un movimento di impegno per i numeri seriali o di lotto che non sono selezionati in modo specifico. **Nota:** la domanda non contiene numeri seriali o di lotto. <br /><br /> Ad esempio, si desidera impegnare una latta di vernice blu da un lotto per l'ordine di vendita. Una latta di vernice blu da un numero di serie o da un numero di lotto casuale viene spedita al cliente.|  
   
 La principale differenza tra impegno specifico e impegno non specifico è definita dall'esistenza di numeri seriali o di lotto dal lato della domanda, come indicato nella tabella seguente.  
-
-| Tipo            | Approvvigionamento                | Domanda                   |
-|-----------------|-----------------------|--------------------------|
-| **Specifico**    | Numero seriale o di lotto. | Numero seriale o di lotto.    |
-| **Non specifico** | Numero seriale o di lotto. | Nessun numero seriale o di lotto. |
+  
+|<!--blank -->|**Approvvigionamento**|**Richiesta**|  
+|**Specifico**|Numero di serie o lotto.|Numero di serie o lotto.|  
+|**Non specifico**|Numero di serie o lotto.|Numero di serie o lotto.|  
   
 Quando si impegnano quantità di magazzino da una riga di documento in uscita per un articolo con numeri di tracciabilità assegnati e impostato per la tracciabilità di un articolo specifico, dalla pagina **Impegni** è possibile accedere a differenti workflow a seconda che si necessiti dei numeri seriali o dei numeri di lotto.  
   
@@ -91,5 +91,3 @@ Questo scenario aziendale è supportato con la funzionalità di combinazione tar
   
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,20 +1,23 @@
 ---
-title: Gestione dei prezzi di assistenza
-description: La gestione dei prezzi di assistenza ti consente di impostare gruppi di prezzi di assistenza, prezzi di assistenza, rettifica dei prezzi di assistenza e altro ancora.
+title: Gestione dei prezzi di assistenza | Documenti Microsoft
+description: In questo argomento viene descritto come applicare il prezzo migliore agli ordini di assistenza, di impostare accordi di prezzi di assistenza personalizzati per i vari clienti, di migliorare l'efficienza degli addetti all'assistenza e di accelerare il processo di fatturazione.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-financials
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 08/28/2017
 ms.author: bholtorf
-ms.openlocfilehash: e6cfc801e40bfae60dd687ede073bd4367e69092
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a4b5b946d6c1402ad1a27661267c202b703cc1c1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142962"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249884"
 ---
 # <a name="service-price-management"></a>Gestione dei prezzi di assistenza
 La funzionalità di gestione dei prezzi di assistenza consente di applicare il prezzo migliore agli ordini di assistenza, di impostare accordi di prezzi di assistenza personalizzati per i vari clienti, di migliorare l'efficienza degli addetti all'assistenza e di accelerare il processo di fatturazione.  
@@ -28,13 +31,11 @@ Prima di rettificare il prezzo di un articolo in assistenza in un ordine di assi
 Infine, grazie alle statistiche sui gruppi di prezzi di assistenza e ai report standard, è possibile tenere traccia della redditività di ciascun gruppo di prezzi di assistenza.  
   
 ## <a name="service-price-adjustment-groups"></a>Gruppi di rettifica dei prezzi di assistenza  
-I gruppi di rettifica dei prezzi di assistenza consentono di impostare diversi tipi di rettifiche ai prezzi per le righe di assistenza. È ad esempio possibile impostare un gruppo di rettifica dei prezzi di assistenza per rettificare i prezzi dei pezzi di ricambio, uno per rettificare i prezzi della manodopera, un altro ancora per i prezzi di costo e così via. È anche possibile specificare se la rettifica dei prezzi di assistenza dovrà essere applicata solo a uno specifico articolo o risorsa oppure a tutti gli articoli o le risorse.  
+I gruppi di rettifica dei prezzi di assistenza consentono di impostare diversi tipi di rettifiche ai prezzi. È ad esempio possibile impostare un gruppo di rettifica dei prezzi di assistenza per rettificare i prezzi dei pezzi di ricambio, uno per rettificare i prezzi della manodopera, un altro ancora per i prezzi di costo e così via. È anche possibile specificare se la rettifica dei prezzi di assistenza dovrà essere applicata solo a uno specifico articolo o risorsa oppure a tutti gli articoli o le risorse.  
   
-La funzione di rettifica dei prezzi di assistenza non viene applicata agli articoli in assistenza ai sensi delle seguenti condizioni:
-
-* L'articolo appartiene ai contratti di assistenza. È possibile rettificare solo i prezzi di assistenza per gli articoli che fanno parte di un ordine di assistenza. 
-* Se l'articolo in assistenza ha una garanzia. 
-* Se la riga di assistenza è stata registrata come fattura, in tutto o in parte.  
+Ciascun gruppo di rettifica dei prezzi di assistenza contiene le informazioni relative alle rettifiche da apportare alle righe di assistenza.  
+  
+La funzione di rettifica dei prezzi di assistenza non viene applicata agli articoli in assistenza che appartengono a contratti di assistenza. È possibile rettificare solo i prezzi di assistenza per gli articoli che fanno parte di un ordine di assistenza. Non è possibile rettificare il prezzo di un articolo in assistenza se dispone di garanzia. Non è possibile rettificare il prezzo di un articolo in assistenza in un ordine di assistenza se la riga di assistenza collegata a esso è stata registrata come fattura, completamente o in parte.  
   
 Quando si esegue la funzione di rettifica dei prezzi di assistenza, tutti gli sconti presenti nell'ordine verranno sostituiti dai valori di rettifica dei prezzi di assistenza.  
   
@@ -49,12 +50,6 @@ Quando si assegna un gruppo di prezzi di assistenza a un articolo in assistenza,
 I tipi effettivi di definizione dei prezzi di assistenza (prezzo e tipo di rettifica prezzo) vengono impostati per una combinazione di gruppi di prezzi di assistenza e gruppi di prezzi ai clienti. Per ogni tipo di definizione del prezzo di assistenza viene selezionato un gruppo di rettifica del prezzo di assistenza. Vengono inoltre specificati il tipo di rettifica del prezzo di assistenza, ovvero fisso, massimo o minimo, e il prezzo effettivo.  
   
 Ad esempio è possibile impostare tipi di definizione del prezzo di assistenza per un gruppo di prezzi di assistenza per una radio. Per i clienti senza un gruppo di prezzi è possibile decidere di determinare il prezzo dell'assistenza con il prezzo di manodopera più alto, che corrisponde al gruppo di rettifica del prezzo della manodopera. Per i clienti con un particolare gruppo di prezzi è possibile decidere di determinare il prezzo dell'assistenza con un prezzo fisso di manodopera, ovvero lo stesso gruppo di rettifica del prezzo della manodopera.  
-
-#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli in assistenza**, quindi scegli il collegamento correlato.  
-2. Selezionare l'articolo in assistenza, espandere la Scheda dettaglio **Prezzi e vendite**, scegliere l'azione **Risorsa**, **Articolo** o **Conto C/G**.
-3. Nelle pagine **Prezzi risorse commesse**, **Prezzi articoli commesse** o **Prezzi conti C/G commesse** compilare i campi come necessario.
-
   
 ## <a name="service-price-adjustment"></a>Rettifica dei prezzi di assistenza  
 La rettifica dei prezzi di assistenza consente di rettificare il prezzo di un articolo, risorsa, conto di contabilità generale o costo in un ordine di assistenza.  
@@ -74,6 +69,3 @@ Nella seguente tabella vengono illustrati i calcoli.
 ## <a name="see-also"></a>Vedi anche  
 [Impostare prezzi e costi aggiuntivi per i servizi assistenza](service-how-setup-service-costs-pricing.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

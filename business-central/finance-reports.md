@@ -1,26 +1,40 @@
 ---
-title: Report finanziari e analisi
-description: Vedi quali report finanziari e analisi sono disponibili nella versione standard di Business Central in modo da poter tenere traccia dell'attività. Utilizzare il report 38 per la rendicontazione di profitti/perdite.
+title: Report finanziari in Business Central
+description: Vedere quali report finanziari sono disponibili nella versione standard di Business Central in modo da poter tenere traccia della propria attività.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 04/12/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311208"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935288"
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a>Report finanziari e analisi in Business Central
+# <a name="financial-reports-in-business-central"></a>Report finanziari in Business Central
 
-La creazione di report finanziari in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti finanziari e aziendali di creare, gestire, distribuire e visualizzare i rendiconti finanziari. Va oltre i tradizionali vincoli di creazione di report per consentire di progettare in modo efficiente vari tipi di report. [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report, funzioni di tracciamento e strumenti utili per i revisori o i controllori responsabili della creazione di report per il reparto finanziario. La creazione di report finanziari include il supporto per le dimensioni, rendendo pertanto le dimensioni o i segmenti di conto immediatamente disponibili. Non sono necessari altri strumenti o passaggi di configurazione.  
-
-[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+La creazione di report finanziari in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti finanziari e aziendali di creare, gestire, distribuire e visualizzare i rendiconti finanziari. Va oltre i tradizionali vincoli di creazione di report per consentire di progettare in modo efficiente vari tipi di report. [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report, funzioni di tracciamento e strumenti utili per i revisori o i controllori responsabili della creazione di report per il reparto finanziario. La creazione di report finanziari include il supporto per le dimensioni, rendendo pertanto le dimensioni o i segmenti di conto immediatamente disponibili. Non sono necessari strumenti o passaggi di configurazione aggiuntivi.  
 
 ## <a name="reports"></a>Report
-[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
+
+La tabella seguente descrive alcuni dei report finanziari chiave.
+
+|Report |Descrizione  |
+|---------|---------|
+|**Bilancio di verifica**| Mostra il piano dei conti con saldi periodi e conti. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale. |
+|**Bilancio di verifica per periodo**  | Mostra il bilancio di apertura per conto di contabilità generale, i movimenti nel periodo selezionato del mese, del trimestre o dell'anno e il bilancio di chiusura risultante.         |
+|**Bilancio di verifica/budget** | Mostra un bilancio di verifica confrontato a un budget. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale.        |
+|**Dett. bilancio di verifica** |Mostra un dettaglio del bilancio di verifica per i conti di contabilità generale selezionati. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale. È possibile definire i conti da includere nel report impostando dei filtri.         |
+|**Bilancio di verifica/Anno precedente**|Mostra un bilancio di verifica confrontato alle cifre dell'anno precedente. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. È possibile utilizzare il report alla chiusura di un periodo contabile o di un anno fiscale. Con *anno precedente* si intende il medesimo periodo dell'anno di calendario appena trascorso.|
+|**Situazione contabile**|Le situazioni contabili possono essere utilizzate per visualizzare i conti di contabilità generale in modo diverso rispetto al piano dei conti. È possibile ad esempio utilizzare le situazioni contabili per generare report su informazioni chiave.|
+<!--|**Conto patrimoniale** (Situaz. contabile o Excel) o **Bilancio di verifica** |         |
+|**Rendiconto dei flussi di cassa** (Situazione contabile) |         |
+|**Bilancio di verifica riepilogativo/Dettagliato** |         |
+|**Conto economico** (Situaz. contabile o Excel)||
+|**Budget** ||-->
 
 ## <a name="tasks"></a>Attività
 
@@ -43,9 +57,6 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 [Preparazione degli estratti conto di chiusura](year-prepare-close-statement.md)  
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Utilizzo delle dimensioni](finance-dimensions.md)  
-[Report di contabilità clienti e analisi](receivables-reports.md)  
-[Report di contabilità fornitori e analisi](payables-reports.md)  
-[Report cespiti e analisi](fa-reports.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Finanze](finance.md)  
 [Panoramica delle funzionalità locali](about-localization.md)  

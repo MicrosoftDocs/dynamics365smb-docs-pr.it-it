@@ -1,28 +1,28 @@
 ---
-title: Creazione di budget di costi
-description: Questo argomento fornisce informazioni su dove creare e analizzare budget costi. L'impostazione del budget nella contabilità industriale è simile a quella della contabilità generale.
+title: Creazione di budget di costi | Microsoft Docs
+description: Questo argomento fornisce informazioni su dove creare e analizzare budget costi.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
-ms.date: 06/16/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d64704caee7c808cd2197adf2994a7b1abb4ea7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2a8b8e88e296f36b8f4eb9bb41b05d5fc529b23b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145682"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750957"
 ---
 # <a name="creating-cost-budgets"></a>Creazione di budget di costi
-
 L'impostazione del budget nella contabilità industriale è simile a quella della contabilità generale. Un budget costi viene creato in base ai tipi di costo proprio come il budget della contabilità generale viene creato in base ai conti della contabilità generale.  
 
 Un budget costi viene creato per un certo periodo di tempo, ad esempio, un anno fiscale. È possibile creare tutti i budget costi necessari. Un nuovo budget costi può essere creato manualmente, importando un budget costi o copiando un budget costi esistente come base del budget. Per ulteriori informazioni, vedere [Creare budget C/G](finance-how-create-budgets.md).
 
-Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") per trovare una pagina, quindi leggi il suggerimento.
+Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") per trovare una pagina e leggere le descrizione per ogni comando.
 
 |A|Vedere|  
 |--------|---------|  
@@ -32,13 +32,9 @@ Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegli l'i
 |Visualizzare i registri budget costi e i movimenti di budget costi.|Pagina **Registri budget costi**|  
 |Stampare i confronti del budget costi utilizzando vari report.|Report **Saldo/Budget contabilità industriale**<br /><br /> Report **Estratto conto/Budget di contabilità industriale**<br /><br /> Report **Budget costi per centro di costo**<br /><br /> Report **Budget costi per oggetto di costo**|  
 
-## <a name="see-also"></a>Vedi anche
-
+## <a name="see-also"></a>Vedi anche  
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
 [Creare budget C/G](finance-how-create-budgets.md)  
 [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
 [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

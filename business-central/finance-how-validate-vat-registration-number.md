@@ -1,19 +1,19 @@
 ---
 title: Convalidare i numero di partita IVA
-description: Consenti a Business Central di convalidare i numeri di partita IVA per i contatti, i clienti e i fornitori, in base al servizio di convalida dei numeri di partita IVA (VIES) dell'Unione europea.
+description: Consentire a Business Central di convalidare i numeri di partita IVA e altre informazioni sulla società per i contatti, i clienti e i fornitori, in base al servizio di convalida dei numeri di partita IVA (VIES) dell'Unione europea.
 author: andregu
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 249, 575, 1279
-ms.date: 06/16/2021
+ms.date: 04/01/2021
 ms.author: andregu
-ms.openlocfilehash: fce9a7d934012f3dbd65ee323f881767aeeadd8d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142135"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770293"
 ---
 # <a name="validate-vat-registration-numbers"></a>Convalidare i numero di partita IVA
 
@@ -43,6 +43,8 @@ Ci sono un paio di cose da notare sul servizio di convalida dei numeri di partit
 > È responsabilità dell'utente verificare che i dati siano validi. A volte, i dati con errori vengono restituiti dal servizio di convalida dei numeri di partita IVA VIES. Se la convalida non riesce, convalidare i numeri di partita IVA nel [sito Web](https://ec.europa.eu/taxation_customs/vies/), stampare il risultato o salvarlo in una posizione condivisa, quindi aggiungere il collegamento al record per il cliente, il fornitore o il contatto. Per ulteriori informazioni, vedere [Gestire allegati, collegamenti e note in schede e documenti](ui-how-add-link-to-record.md).
 
 ## <a name="validation-templates"></a>Modelli di convalida
+
+[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
 È possibile utilizzare il servizio VIES anche per controllare altre informazioni sulla società, come l'indirizzo e il numero di partita IVA. Nella pagina **Modelli convalida partita IVA** creare una voce per ogni paese per il quale si desidera ottenere un'ulteriore convalida, quindi specificare le informazioni che si desidera vengano convalidate automaticamente.  
 

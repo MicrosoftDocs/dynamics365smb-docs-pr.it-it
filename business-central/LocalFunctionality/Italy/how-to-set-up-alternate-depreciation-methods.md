@@ -4,19 +4,20 @@ description: I metodi di ammortamento alternativi includono l'ammortamento antic
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 27396f75a8f96e90886443ea54977d73d7333414
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 4be433b53ba36dec7b7ed0c8fc524abb71beab25
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131080"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300161"
 ---
 # <a name="set-up-alternate-depreciation-methods"></a>Impostare metodi di ammortamento alternativi
 Di seguito sono indicati alcuni metodi di ammortamento alternativi:  
@@ -29,7 +30,7 @@ Per impostare questi metodi di ammortamento, è necessario creare tabelle di amm
 
 ## <a name="to-set-up-alternate-depreciation-methods"></a>Per impostare metodi di ammortamento alternativi  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tabelle ammortamento**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "icona Cerca pagina o report"), immettere **Tabelle ammortamento**, quindi scegliere il collegamento correlato.  
 2.  Nella pagina **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
 3.  Nella Scheda Dettaglio **Generale** compilare i campi come indicato nella tabella seguente.  
 
@@ -58,6 +59,3 @@ Per impostare questi metodi di ammortamento, è necessario creare tabelle di amm
  [Creare più schede cespite](how-to-create-multiple-fixed-asset-cards.md)   
  [Impostazione dell'ammortamento compresso dei cespiti](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
  [Stampare report dei registri dei beni ammortizzabili](how-to-print-depreciation-book-reports.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

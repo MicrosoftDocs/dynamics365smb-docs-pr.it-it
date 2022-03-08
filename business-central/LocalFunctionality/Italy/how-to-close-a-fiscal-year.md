@@ -4,19 +4,20 @@ description: Per valutare i profitti e le perdite, alla fine di ogni anno fiscal
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f6a310900b9948f1d794163654692ec354fbea9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 027a2d836fe791d2d13b7833d4e735b63f1e0689
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144184"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382909"
 ---
 # <a name="close-a-fiscal-year"></a>Chiusura di un anno fiscale
 Per valutare i profitti e le perdite, alla fine di ogni anno fiscale viene fornito un report di chiusura dell'anno fiscale.  
@@ -29,7 +30,7 @@ La chiusura dell'anno fiscale include i seguenti passaggi:
 
 ## <a name="to-close-a-fiscal-year"></a>Per chiudere un anno fiscale  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Periodi contabili**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Periodi contabili** e quindi scegliere il collegamento correlato.  
 2.  Per chiudere un periodo contabile, selezionare il periodo contabile, quindi scegliere l'azione **Chiudi anno**.  
 3.  Selezionare il pulsante **Sì** per confermare che si desidera chiudere l'anno fiscale.  
 
@@ -38,7 +39,7 @@ La chiusura dell'anno fiscale include i seguenti passaggi:
 
 ## <a name="to-generate-a-year-end-closing-entry-using-the-close-income-statement-option"></a>Per generare un movimento di chiusura di fine anno utilizzando l'opzione Chiudi conto economico  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Chiudi conto economico**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Chiudi conto economico** e quindi scegliere il collegamento correlato.  
 2.  Compilare i campi nella scheda **Opzioni** come descritto nella tabella riportata di seguito.  
 
     |Campo|Description|  
@@ -59,7 +60,7 @@ La chiusura dell'anno fiscale include i seguenti passaggi:
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Per registrare il movimento di chiusura di fine anno  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.  
+1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni COGE** e quindi scegliere il collegamento correlato.  
 2.  Nel campo **Batch** specificare il batch contenente i movimenti di chiusura.  
 3.  Aggiungere i movimenti corrispondenti alle righe di registrazione.  
 4.  Per contabilizzare le registrazioni, scegliere l'azione **Registra**.  
