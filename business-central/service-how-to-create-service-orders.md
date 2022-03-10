@@ -1,23 +1,20 @@
 ---
-title: Creare ordini di assistenza | Documenti Microsoft
-description: La pagina **Ordine assistenza** consente di creare documenti in cui vengono immesse informazioni relative a un servizio di assistenza, ad esempio riparazione e manutenzione, svolto su articoli in assistenza su richiesta del cliente.
-services: project-madeira
-documentationcenter: ''
+title: Come creare ordini di assistenza
+description: Scopri i diversi task coinvolti nella creazione di ordini di assistenza in Business Central, ad esempio la creazione di un nuovo ordine di assistenza o di ordini basati su un contratto di assistenza.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 2e27844b708982e76ce4dfcf15ec02f7190cd855
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: d74aa4a4898010f4aeb3adfee37f4628dbea1f30
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311718"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140633"
 ---
 # <a name="create-service-orders"></a>Creare ordini di assistenza
 La pagina **Ordine assistenza** consente di creare documenti in cui vengono immesse informazioni relative a un servizio di assistenza, ad esempio riparazione e manutenzione, svolto su articoli in assistenza su richiesta del cliente.  
@@ -25,43 +22,45 @@ La pagina **Ordine assistenza** consente di creare documenti in cui vengono imme
 Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. Alcuni campi sono facoltativi e molti vengono compilati automaticamente durante la compilazione dei campi correlati.  
 
 ## <a name="to-create-a-service-order"></a>Per creare un ordine di assistenza    
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini assistenza**, quindi scegli il collegamento correlato.  
 2. Creare un nuovo ordine di assistenza.  
 3. Nel campo **Nr.** immettere un numero per l'ordine di assistenza.  
 
-     In alternativa, se è stata impostata una numerazione per gli ordini di assistenza nella pagina **Setup gest. assist.**, per selezionare il successivo numero di ordine di assistenza disponibile, premere INVIO.  
+     In alternativa, se è stata impostata una numerazione per gli ordini di assistenza nella pagina **Setup gestione assistenza**, per selezionare il successivo numero di ordine di assistenza disponibile, premere INVIO.  
 
 4. Nel campo **Nr. cliente** selezionare il cliente appropriato dalla lista. I campi rilevanti per il cliente vengono compilati con le informazioni della tabella **Cliente**.  
 
-5. In base alle impostazioni nella Scheda dettaglio **Campi obbligatori** della pagina **Setup gest. assist.** potrebbe essere necessario compilare il campo **Tipo ordine assistenza** e il campo **Cod. agente**.  
+5. In base alle impostazioni nella Scheda dettaglio **Campi obbligatori** della pagina **Setup gestione assistenza** potrebbe essere necessario compilare il campo **Tipo ordine assistenza** e il campo **Cod. agente**.  
 6. Facoltativamente, compilare i campi restanti.  
 7. Registrare le righe di articolo in assistenza.  
 
 ## <a name="to-create-a-service-order-from-a-contract"></a>Per creare un ordine di assistenza da un contratto  
 È possibile creare automaticamente ordini di assistenza per la manutenzione degli articoli in assistenza in base ai contratti di assistenza.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Crea ordini assistenza a contratto** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea ordini assistenza a contratto**, quindi seleziona il collegamento correlato.  
 2. Nella Scheda dettaglio **Testata contratto assistenza** impostare i filtri da applicare.  
 3. Nella Scheda dettaglio **Opzioni** compilare i campi **Data inizio** e **Data fine** in base al periodo per cui si desidera creare gli ordini di assistenza contratto. Il processo batch procederà alla creazione di ordini di assistenza che includono articoli in contratti di assistenza con le prossime date di assistenza pianificate in tale periodo.  
 
     > [!NOTE]  
-    >  Esiste un limite al numero di giorni che si può utilizzare come intervallo di date ogni volta che si utilizza questo processo batch. Questo limite viene impostato nel campo **Max. giorni ord. assist. da contratto** nella pagina **Setup gest. assist.**  
+    >  Esiste un limite al numero di giorni che si può utilizzare come intervallo di date ogni volta che si utilizza questo processo batch. Questo limite viene impostato nel campo **Max. giorni ord. assist. da contratto** nella pagina **Setup gestione assistenza**  
 
 4. Nel campo **Azione** selezionare **Crea ordine di assistenza**.  
+    > [!NOTE]  
+    >  Non sarà possibile creare un ordine con più articoli di servizio, se il campo **Una riga art. in assistenza/ordine** è stato impostato nella pagina **Setup gestione assistenza**. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Per convertire un'offerta di assistenza in un ordine di assistenza
 Quando un'offerta di assistenza è stata accettata dal cliente, è possibile convertirla in un ordine di assistenza. L'offerta verrà eliminata e verrà impostato un nuovo ordine di assistenza con la stessa descrizione dell'offerta di assistenza. Verranno inoltre ricalcolate la data e l'ora di risposta per l'ordine di assistenza, il cui stato passerà a **Non inviato**. Anche lo stato di riparazione degli articoli in assistenza nell'ordine verrà modificato in **Iniziale**.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza nell'offerta di assistenza con lo stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione verrà aggiornato in **Riassegnazione necessaria**. Quando si riassegnano gli articoli in assistenza nell'ordine di assistenza, lo stato dei movimenti di assegnazione registrati per l'offerta verrà modificato in **Completato**.   
+In [!INCLUDE[prod_short](includes/prod_short.md)] vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza nell'offerta di assistenza con lo stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione verrà aggiornato in **Riassegnazione necessaria**. Quando si riassegnano gli articoli in assistenza nell'ordine di assistenza, lo stato dei movimenti di assegnazione registrati per l'offerta verrà modificato in **Completato**.   
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Offerte contratto assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Offerte contratto assistenza**, quindi scegli il collegamento correlato.  
 2. Scegliere l'offerta di assistenza da convertire in un ordine di assistenza.  
 3. Scegliere l'azione **Crea ordine**.  
 
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>Per verificare la disponibilità di un articolo per uno o più ordini  
 È possibile controllare se un articolo necessario per soddisfare un ordine è in stock e, in caso contrario, quando lo sarà. Inoltre, se un articolo è disponibile per l'impegno, è possibile impegnarlo per assicurarne la disponibilità all'utilizzo. È possibile verificare la disponibilità di un determinato ordine o di tutti gli ordini.  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Quadro attività** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Quadro attività**, quindi scegli il collegamento correlato.  
 2. Effettuare una delle seguenti operazioni:  
 
     * Per un determinato ordine, selezionare l'ordine quindi scegliere l'azione **Sintesi domanda**.  
@@ -81,7 +80,7 @@ Se è necessario assicurarsi che un articolo sia disponibile per un ordine di as
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Per inserire righe in base a codici di assistenza standard  
 Se sono stati impostati codici di servizio standard successivamente assegnati a gruppi di articoli in assistenza, è possibile inserire righe standard collegate ai codici sui documenti di assistenza. Per ulteriori informazioni, vedere [Impostare codici di servizio standard](service-how-setup-service-coding.md).   
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini assistenza** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini assistenza**, quindi scegli il collegamento correlato.  
 2. Creare un nuovo ordine di assistenza.  
 3. Compilare i campi in base alle esigenze.  
 4. Compilare le righe di articolo in assistenza con le informazioni necessarie.  
@@ -99,7 +98,7 @@ Gli ordini vengono in genere eliminati automaticamente dopo che sono stati compl
 
 Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la quantità totale indicata nell'ordine è stata registrata non dall'ordine stesso, ma dalla pagina **Fattura assistenza**. In questo caso può essere necessario eliminare ordini fatturati che non sono stati eliminati. Per eseguire questa operazione, utilizzare il processo batch **Elimina ordini assistenza fatturati**.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Elimina ordini assistenza fatturati** e quindi scegliere il collegamento correlato. Verrà visualizzata la pagina di richiesta del processo batch **Elimina ordini assistenza fatturati**.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Elimina ordini assistenza fatturati**, quindi scegli il collegamento correlato. Verrà visualizzata la pagina di richiesta del processo batch **Elimina ordini assistenza fatturati**.  
 2. Per selezionare gli ordini da eliminare, è possibile impostare filtri nei campi **Nr.**, **Nr. cliente** e **Fatturare a - Nr. cliente**. .  
 3. Selezionare **OK**.  
 
@@ -110,3 +109,6 @@ Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la 
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Utilizzare i compiti di assistenza](service-how-to-work-on-service-tasks.md)  
 [Assegnare risorse](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

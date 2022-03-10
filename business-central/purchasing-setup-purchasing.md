@@ -1,21 +1,21 @@
 ---
-title: Panoramica dei task per impostare gli acquisti | Documenti Microsoft
+title: Panoramica dei task per impostare gli acquisti
 description: Descrive i task per definire i criteri di acquisto della società e impostare i processi di acquisto.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2020
+ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 219c1fcf1d4929a548f9a8d5849dde77f1c0b24a
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024589"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146204"
 ---
 # <a name="setting-up-purchasing"></a>Impostazioni acquisti
 Prima di poter gestire i processi di acquisto, è necessario configurare le regole e i valori che definiscono i criteri di acquisto dell'azienda.
@@ -37,9 +37,16 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 > [!TIP]
 > A seconda della posizione geografica, alcune pagine possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
+## <a name="external-document-number"></a>Numero di documento esterni
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

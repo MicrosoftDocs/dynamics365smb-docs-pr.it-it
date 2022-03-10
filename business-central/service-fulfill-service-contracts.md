@@ -1,23 +1,22 @@
 ---
-title: Panoramica dei task per adempiere i contratti di assistenza | Documenti Microsoft
-description: Descrive i task per gestire i contratti di assistenza con i clienti.
+title: Panoramica dei task per adempiere i contratti di assistenza
+description: Descrive i task coinvolti nell'adempimento dei contratti di servizio con i tuoi clienti, come l'impostazione di accordi contrattuali standard con modelli personalizzabili e altro ancora.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 271e9ef14937ebd1b2bb7a8932f2f561d7a6f2ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0290246fa9fa648a9d0ff4ede4c71464b3208017
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778299"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140607"
 ---
 # <a name="fulfilling-service-contracts"></a>Adempimento dei contratti di assistenza 
 Un metodo per impostare un'attività di gestione dell'assistenza è quello di disporre di accordi contrattuali standard tra la propria azienda e i clienti, che descrivano il livello di assistenza e le aspettative del cliente nei confronti dall'assistenza. È possibile creare modelli di contratto che includano le informazioni necessarie, ossia dati del cliente, data di inizio del contratto e periodo di fatturazione.  

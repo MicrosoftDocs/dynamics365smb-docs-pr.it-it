@@ -1,8 +1,7 @@
 ---
-title: Inizio rapido delle vendite
+title: Inizio rapido delle vendite (video)
 description: Impara come riempire i primi campi critici su prodotti e clienti in Business Central in modo da poter iniziare i tuoi processi di vendita.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 1310596bf328d6f9bc62f1021632137f56cbe8b4
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: b607da4fbf5ab99eb8a3af1e939fe915151e00b0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724468"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135608"
 ---
 # <a name="sales-quick-start"></a>Inizio rapido delle vendite
 

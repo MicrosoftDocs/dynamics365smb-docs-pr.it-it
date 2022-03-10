@@ -2,17 +2,16 @@
 title: Saldare immediatamente le fatture di acquisto
 description: Se si deve pagare il fornitore in contanti o con assegno, è possibile effettuare la necessaria registrazione contemporaneamente a quella della fattura.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.search.form: 51, 9308
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 60d3cf3c9e141c8df36eaca2c1975b696fdb105b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387251"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141203"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Saldare immediatamente le fatture di acquisto
 
@@ -23,7 +22,7 @@ Se si deve pagare il fornitore in contanti o con assegno, è possibile registrar
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Per saldare immediatamente le fatture di acquisto
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Per pagare in contanti o tramite bonifico, immettere il numero del conto cassa di contabilità generale o il conto corrente bancario nel campo **Nr. contropartita**.  
 

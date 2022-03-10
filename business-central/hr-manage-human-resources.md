@@ -1,25 +1,24 @@
 ---
-title: Utilizzo della funzionalità Gestione personale| Documenti Microsoft
+title: Gestione personale
 description: È possibile registrare il nuovo personale, modificare le informazioni sul personale esistente e registrare e analizzare le assenze.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 10/01/2020
+ms.search.form: 5200, 5201, 5212, 5211
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6bd2e67bf1c8db5e80dfa427d2e92c1c0ceb0ce2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 97758b684b3a68508b9b6966d155f956d58c1f4a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393201"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135908"
 ---
 # <a name="manage-human-resources"></a>Gestione personale
+
 In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile conservare record dettagliati degli impiegati. È possibile registrare informazioni sugli impiegati, ad esempio contratti di impiego, informazioni riservate, qualifiche e contratti di impiegati ed eseguirne la manutenzione.
 
 È possibile inoltre registrare le assenze degli impiegati e quindi analizzarle in base alle necessità.
@@ -34,6 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Registrare le assenze degli impiegati e visualizzare statistiche di assenza in base a vari filtri. |[Gestire le assenze di un impiegato](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Vedere anche
+
 [Finanze](finance.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)        

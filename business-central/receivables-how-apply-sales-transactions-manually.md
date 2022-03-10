@@ -1,23 +1,24 @@
 ---
-title: Collegare i movimenti contabili clienti per riconciliare i pagamenti | Documenti Microsoft
+title: Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti
 description: Descrive come collegare gli incassi o i rimborsi del cliente a uno o più movimenti contabili aperti del cliente e riconciliare i pagamenti del cliente.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 04/01/2020
+ms.search.form: 255
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 84c5107df8603585e4bf304d4a8c56fec87fb282
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 913b0465cbce81a39edf472c821fe4d4b14a92fc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788414"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135648"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti
+
 Quando si riceve un incasso da un cliente o si effettua un rimborso in contanti, è necessario stabilire se collegare il pagamento o il rimborso per chiudere uno o più movimenti contabili aperti. È possibile specificare l'importo esatto che si desidera collegare. Ad esempio, è possibile collegare pagamenti parziali ai movimenti contabili clienti. Chiudere i movimenti contabili clienti garantisce che informazioni, quali statistiche dei clienti, estratti conto e addebiti interessi siano corretti.
 
 > [!TIP]  
@@ -37,7 +38,7 @@ Quando si riceve un incasso da un cliente o si effettua un rimborso in contanti,
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Per compilare e contabilizzare una registrazione incasso
 Una registrazione incassi è un tipo di registrazione generale che può essere utilizzata per registrare transazioni in conti di contabilità generale, bancari, cliente, fornitori e cespiti. È possibile collegare il pagamento a uno o più movimenti Dare quando si registra il pagamento oppure collegare dai movimenti registrati in un momento successivo.
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni incassi** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni incassi**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Modifica registrazione**.
 3. Selezionare il batch appropriato nel campo **Nome batch**.
 4. Compilare il campo **Data di Registrazione**.  
@@ -53,7 +54,7 @@ Una registrazione incassi è un tipo di registrazione generale che può essere u
 12. Effettuare la registrazione.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Per collegare un pagamento a un singolo movimento contabile cliente
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni incassi** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni incassi** e scegli il collegamento correlato.
 2. Scegliere l'azione **Modifica registrazione**.
 3. Nella prima riga delle registrazioni immettere le informazioni relative al movimento da collegare.
 4. Nel campo **Tipo di documento** immettere **Pagamento**.
@@ -68,7 +69,7 @@ Una registrazione incassi è un tipo di registrazione generale che può essere u
 11. Effettuare la registrazione dell'incasso.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Per collegare un pagamento a più movimenti contabili clienti
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni incassi** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni incassi**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Modifica registrazione**.
 3. Nella prima riga delle registrazioni immettere le informazioni relative al movimento da collegare.
 4. Nel campo **Tipo di documento** immettere **Pagamento**.
@@ -84,7 +85,7 @@ Una registrazione incassi è un tipo di registrazione generale che può essere u
 12. Effettuare la registrazione dell'incasso.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Per collegare una nota di credito a un singolo movimento contabile cliente
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito vendita** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
 2. Aprire la nota di credito di vendita desiderata.
 3. Per applicare la nota di credito a un singolo movimento contabile cliente durante la registrazione, nella Scheda dettaglio Collegamento, nel campo **Collega-a nr. doc.** selezionare il movimento che si desidera collegare il pagamento.
 4. Nella riga del campo **Importo da collegare** immettere l'importo da collegare al movimento.  
@@ -94,7 +95,7 @@ Una registrazione incassi è un tipo di registrazione generale che può essere u
 6. Registrare la nota di credito.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Per collegare una nota di credito a più movimenti contabili clienti
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Note credito vendita** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
 2. Aprire la nota di credito di vendita desiderata.
 3. Per collegare la nota di credito a più movimenti contabili clienti durante la registrazione, scegliere l'azione **Collega movimenti**.
 4. Selezionare le righe con i movimenti a cui si desidera collegare il movimento, quindi scegliere l'azione **Collega a ID**.
@@ -105,7 +106,7 @@ Una registrazione incassi è un tipo di registrazione generale che può essere u
 7. Registrare la nota di credito.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Per collegare i movimenti contabili clienti registrati
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Aprire la scheda cliente relativa al cliente per il quale sono disponibili i movimenti da collegare.
 3. Scegliere l'azione **Mov. contabili** e selezionare la riga con il movimento che sarà il movimento di collegamento.
 4. Scegliere l'azione **Collega movimenti**. Verrà visualizzata la pagina **Collega movimenti clienti** nella quale saranno indicati i movimenti aperti per il cliente.
@@ -117,7 +118,7 @@ Una registrazione incassi è un tipo di registrazione generale che può essere u
 8. Scegliere **OK** per registrare il collegamento.
 
     Se il collegamento registrato ha comportato la creazione di movimenti contabili clienti chiusi, per tali movimenti contabili verrà deselezionato il campo **Aperto**.    
-9. Per visualizzare i movimenti contabili, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato. Spostarsi sulla scheda del cliente per visualizzare i movimenti contabili.  
+9. Per vedere i movimenti contabili, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato. Spostarsi sulla scheda del cliente per visualizzare i movimenti contabili.  
 
 Nella lista dei movimenti contabili, nella riga che contiene il movimento contabile che era stato interamente collegato, è possibile vedere che la casella di controllo **Aperto** non è selezionata.  
 
@@ -131,7 +132,7 @@ Se si collega un movimento (Movimento 1) espresso in una determinata valuta a un
 
 È necessario abilitare il collegamento dei movimenti contabili clienti in differenti valute. Per ulteriori informazioni, vedere [Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni incassi** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione incassi**, quindi scegli il collegamento correlato.
 2. Aprire la registrazione desiderata e compilare la prima riga delle registrazioni vuota con un codice valuta.
 3. Scegliere l'azione **Collega movimenti**.
 4. Selezionare la riga con il movimento a cui si intende collegare il movimento nelle registrazioni incassi. Scegliere l'azione **Collega a ID**, quindi selezionare il movimento che si desidera collegare.
@@ -144,7 +145,7 @@ Se si collega un movimento (Movimento 1) espresso in una determinata valuta a un
 ## <a name="to-correct-an-application-of-customer-entries"></a>Per correggere un collegamento di movimenti clienti
 Quando si corregge un collegamento, vengono creati e registrati movimenti di rettifica identici a quelli originali ma con segno opposto nel campo relativo all'importo, per tutti i movimenti, incluse le registrazioni di contabilità generale derivanti dal collegamento, quali ad esempio sconto pagamento e profitti e perdite legati alla valuta. Vengono inoltre riaperti i movimenti chiusi dal collegamento.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Aprire la scheda cliente desiderata.
 3. Scegliere l'azione **Movimenti contabili**.
 4. Selezionare il movimento contabile rilevante e scegliere l'azione **Scollega movimenti**.
@@ -158,4 +159,7 @@ Quando si corregge un collegamento, vengono creati e registrati movimenti di ret
 ## <a name="see-also"></a>Vedere anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

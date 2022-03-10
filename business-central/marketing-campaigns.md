@@ -2,20 +2,19 @@
 title: Impostazione di campagne di marketing in Business Central | Microsoft Docs
 description: Descrive come impostare e condurre le campagne di marketing in Business Central per identificare e coinvolgere prospect e fidelizzare i clienti.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2b0cd58ebb61dba8fcdcb0f686a2afe88a5e9f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f5a81bf1377c7ba477961205ccb67fc9982ac3ae
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309366"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140919"
 ---
 # <a name="managing-marketing-campaigns"></a>Gestione di campagne di marketing
 Per identificare, attirare e fidelizzare i clienti, è fondamentale mettere a punto un solido piano di marketing. Un piano di marketing comprende diverse campagne e altre interazioni correlate alle attività di marketing e di vendita. Quando si pianifica una campagna, è necessario decidere a quali contatti rivolgersi, quale tipo di campagna creare (fiera commerciale o messaggi e-mail) e a quali agenti assegnare ogni task.
@@ -51,3 +50,6 @@ Le campagne vengono eseguite dagli agenti ed è necessario creare attività per 
 [Gestione dei segmenti](marketing-segments.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Utilizzo di Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

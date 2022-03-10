@@ -1,27 +1,28 @@
 ---
-title: Come impostare calendari di base | Microsoft Docs
-description: È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione.
+title: Impostare i calendari di base
+description: Puoi assegnare un calendario di base alla tua società e ai partner aziendali, per calcolare le date di consegna e ricevimento in base ai giorni lavorativi specificati.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 52bbf5f1092ad449be003021642c30651f38e780
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 7600, 7601, 7602, 5703
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 25d15bfab1dac9cea52d9efdb30e5ed3c7cbb4a2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188422"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141595"
 ---
 # <a name="set-up-base-calendars"></a>Impostare i calendari di base
+
 È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione. L'operazione principale da eseguire per impostare un nuovo calendario di base consiste nello specificare e definire i giorni non lavorativi.  
 
-## <a name="to-set-up-a-base-calendar"></a>Per impostare un calendario base  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Calendario base** e quindi scegliere il collegamento correlato.  
+## <a name="to-set-up-a-base-calendar"></a>Per impostare un calendario base
+
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Calendario base**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare il campo **Codice**.  
 4. Scegliere l'azione **Mantenere variazioni calendario base**.
@@ -42,6 +43,7 @@ Quando si inserisce un movimento, il campo **Non lavorativo** viene selezionato.
 Specifica una formula di data per il tempo necessario per il rifornimento dell'articolo. Viene utilizzato per il calcolo del campo **Data carico pianificato**, se calcolato in avanti, e del campo **Order Date**, se calcolato a ritroso. Vedere [Calcolo lead time](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Calcolo lead time
+
 Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi. Di conseguenza, i due campi data principali nelle righe ordine di acquisto vengono calcolati come segue secondo condizioni diverse.
 
 |Direzione di calcolo|Calendario del fornitore definito|Calendario del fornitore non definito|
@@ -64,7 +66,7 @@ Mentre un calendario di base standard mostra solitamente tutti i sabati come gio
 
 Nella seguente procedura viene utilizzato l'esempio di un'ubicazione. L’esempio presuppone che si sia già provveduto all' assegnazione di un calendario di base al magazzino.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
 2. Aprire l'ubicazione da aggiornare e selezionare il campo **Calendario personalizzato**. Si noti che un calendario deve essere selezionato nel campo **Codice calendario base** .
 3. Nella pagina **Voci calendario personalizzato** visualizzata, scegliere l'azione **Mantenere variazioni calendario personalizzato**.
 4. In **Variazioni calendario personalizzato**, aggiungere le righe per le voci di calendario personalizzato.
@@ -100,7 +102,7 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 -   Nella scheda **Ubicazione** , il calendario di base è assegnato nella Scheda dettaglio **Warehouse**.  
 -   Nella pagina **Spedizionieri** , il calendario di base è assegnato nella pagina **Servizi spedizioniere** .  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda **Cliente** per la quale assegnare un calendario di base.  
 3.  Nella Scheda dettaglio **Spedizione**, nel campo **Codice calendario base** , selezionare il calendario di base che si intende assegnare.  
 
@@ -116,4 +118,7 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 [Acquisti](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

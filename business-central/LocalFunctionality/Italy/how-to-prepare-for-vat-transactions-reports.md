@@ -1,28 +1,27 @@
 ---
-title: 'Procedura: Preparare i report di transazioni IVA'
-description: È necessario inviare i report periodici alle autorità fiscali per visualizzare l'elenco tutte le transazioni che includono l'IVA.
+title: Preparare i report di transazioni IVA [IT]
+description: Il seguente argomento spiega come preparare e inviare i report periodici delle transazioni IVA alle autorità fiscali.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5672425c5c3068ec23535c103b0b007728fde447
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a6e5597760cff901c8bb4bb822ce4b5973ecc060
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747493"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148927"
 ---
-# <a name="prepare-for-vat-transactions-reports"></a>Preparare i report di transazioni IVA
+# <a name="prepare-for-vat-transactions-reports-in-the-italian-version"></a>Preparare i report di transazioni IVA nella versione italiana
 È necessario inviare i report periodici alle autorità fiscali per visualizzare l'elenco tutte le transazioni che includono l'IVA. L'autorità fiscale stabilisce le soglie richieste per la dichiarazione. Attualmente, la soglia è impostata su zero, a indicare che tutte le transazioni vengono dichiarate. Per prepararsi per le dichiarazioni, è necessario impostare la registrazione IVA in modo da includere gli importi di dichiarazione della transazione IVA.  
 
 ## <a name="to-set-up-vat-transaction-amounts"></a>Per impostare gli importi delle transazioni IVA  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni IVA** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni IVA**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Importo report transazioni IVA**.  
 3.  Compilare i campi come indicato nella tabella seguente.  
 
@@ -42,7 +41,7 @@ ms.locfileid: "4747493"
 
 ### <a name="to-specify-a-tax-representative-for-a-non-resident-customer"></a>Per specificare un rappresentante fiscale per un cliente non residente  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.  
 2. Selezionare un cliente.
 2.  Compilare i campi nella Scheda dettaglio **Commercio estero** come descritto nella tabella riportata di seguito.  
 
@@ -57,3 +56,6 @@ ms.locfileid: "4747493"
  [Aggiornare i dati delle transazioni IVA](how-to-update-vat-transactions-data.md)   
  [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md)   
  [IVA italiana](italian-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

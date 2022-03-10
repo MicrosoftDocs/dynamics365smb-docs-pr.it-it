@@ -1,19 +1,18 @@
 ---
-title: Come tracciare i colli
+title: Rintracciare i colli
 description: Utilizza il servizio di tracciamento degli agenti di vendita su Internet per tracciare i pacchi e seguire l'andamento di una consegna.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
+ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752368"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334488"
 ---
 # <a name="track-packages"></a>Rintracciare i colli
 La maggior parte degli spedizionieri fornisce un servizio web che ti consente di monitorare lo stato dei tuoi pacchi mentre sono in viaggio. Tali informazioni possono essere utili in molti processi aziendali, ad esempio, quando si fornisce il servizio clienti. Se si utilizzano uno o più spedizionieri, è possibile immettere alcune informazioni di base e quindi utilizzare il servizio di tracciabilità dei pacchi direttamente dalle pagine Spedizioni vendite registrate, Fatture di vendita registrate, Note di credito di vendita registrate e Ricevuta di reso registrata. Per ulteriori informazioni, vedere [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md). 

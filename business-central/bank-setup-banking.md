@@ -1,25 +1,24 @@
 ---
-title: Impostare le attività bancarie| Documenti Microsoft
+title: Impostare le attività bancarie
 description: Utilizzare le schede di conto corrente bancario per tenere traccia dei conti bancari e impostare i feed della banca, ad esempio Yodlee, per scambiare dati.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.search.form: 1200
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692730"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139932"
 ---
 # <a name="setting-up-banking"></a>Impostazione delle attività bancarie
+
 Utilizzando le schede di conto corrente bancario è possibile tenere traccia di tutti i conti bancari, in qualsiasi valuta. Dopo avere impostato i conti correnti bancari, è possibile utilizzare anche l'opzione per la stampa di assegni.
 
 Per utilizzare i servizi bancari elettronici per importare gli estratti conto bancari ed esportare i pagamenti, è necessario impostare e abilitare i servizi interessati.
@@ -30,8 +29,14 @@ Per utilizzare i servizi bancari elettronici per importare gli estratti conto ba
 | Impostare un servizio esterno che consente di importare gli estratti conto bancari come feed bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
 | Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
+[!INCLUDE [local-functionality](includes/local-functionality.md)]
+
 ## <a name="see-also"></a>Vedere anche
-[Gestione di conti correnti bancari](bank-manage-bank-accounts.md)  
+
+[Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

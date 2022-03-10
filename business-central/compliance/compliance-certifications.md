@@ -1,26 +1,24 @@
 ---
-title: Certificazioni | Documenti Microsoft
-description: Questo argomento contiene informazioni sulle certificazioni in relazione a Business Central.
+title: Certificazioni del servizio
+description: Questo contenuto include informazioni sulle certificazioni in relazione a Business Central, ad esempio certificazioni e accreditamenti specifici per area geografica.
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 55ed4b00a4d4140a625f914e148a51d83170fbd7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 643d8cbfcc4a17db468263aee72a12cb1237201c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921024"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146854"
 ---
 # <a name="certifications"></a>Certificazioni
 
-Questo argomento contiene informazioni sulle certificazioni in relazione a [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+Questo argomento contiene informazioni sulle certificazioni in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
 ## <a name="countryregion-specific-certifications-and-accreditations"></a>Certificazioni e accreditamenti di paesi/aree geografiche
 
@@ -29,7 +27,7 @@ In alcuni paesi o aree geografiche il software di contabilità deve essere certi
 > [!NOTE]
 > Solo alcuni paesi hanno questo requisito.
 
-- Francia (certificazione di controllo fiscale) [(collegamento alla certificazione in francese)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf)  
+- Francia (certificazione di controllo fiscale) [(cerca per nome del prodotto all'indirizzo https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
 - Germania (copre anche l'Austria e la Svizzera) [(collegamento alla certificazione in tedesco)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
 
 > [!NOTE]  
@@ -45,4 +43,7 @@ Come servizio cloud, Business Central ha ottenuto varie certificazioni tra cui I
 [Conformità dell'applicazione](compliance-application-compliance.md)  
 [Conformità dell'assistenza](compliance-service-compliance.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

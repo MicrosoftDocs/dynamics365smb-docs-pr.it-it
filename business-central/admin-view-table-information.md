@@ -2,19 +2,19 @@
 title: Visualizzare Informazioni tabella
 description: Informazioni su come visualizzare le informazioni sulle tabelle di database direttamente dall'interfaccia client in Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.search.form: 8700
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 72e220aa310515c665ce85bd43f4ebd3aac157d0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922269"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133098"
 ---
 # <a name="viewing-table-information"></a>Visualizzazione di Informazioni tabella
 
@@ -24,7 +24,7 @@ Queste informazioni sono utili per la risoluzione dei problemi di prestazioni, p
 
 ## <a name="viewing-table-information"></a>Visualizzazione di Informazioni tabella
 
-Per aprire questa pagina, scegliere l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Informazioni tabella** e quindi scegliere il collegamento correlato.
+Per aprire questa pagina, seleziona l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Informazioni tabella**, quindi scegli il collegamento correlato.
 
 La tabella seguente descrive le informazioni fornite per ciascuna tabella:
 
@@ -40,3 +40,6 @@ La tabella seguente descrive le informazioni fornite per ciascuna tabella:
 
 [Controllo di pagine](across-inspect-page.md)  
 [Articoli sulle prestazioni per gli sviluppatori](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

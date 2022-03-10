@@ -1,21 +1,20 @@
 ---
-title: Utilizzo dell'estensione Pagamenti e riconciliazioni (DK) | Documenti Microsoft
+title: Estensione Pagamenti e riconciliazioni (DK)
 description: Questa estensione semplifica l'esportazione dei file preformattati per soddisfare i requisiti bancari per l'invio elettronico.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ba51935ba71c3caa6a74f2fc7a69b06d8731422
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912323"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129918"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Estensione Pagamenti e riconciliazioni (DK)
 
@@ -53,15 +52,15 @@ Ecco alcuni passaggi per iniziare.
 
 Inoltre, è necessario assegnare i fornitori a una **Categoria registrazione business** e una **Categoria registrazione fornitori**. L'impostazione del paese per il fornitore deve essere la Danimarca (DK). Per ulteriori informazioni, vedere [Impostazione delle categorie di registrazione](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>Consentire a [!INCLUDE[d365fin](includes/d365fin_md.md)] l'esportazione dei dati di pagamento.
+### <a name="to-allow-prod_short-to-export-payment-data"></a>Consentire a [!INCLUDE[prod_short](includes/prod_short.md)] l'esportazione dei dati di pagamento.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Modifica registrazioni pagamenti** scegliere il batch **Banca**.  
 3. Scegliere la casella controllo **Consenti esportazione pagamento**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Per specificare il metodo di pagamento per un fornitore
 
-La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO supportate da [!INCLUDE[d365fin](includes/d365fin_md.md)].
+La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO supportate da [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Combinazione|Tipo 01 | Tipo 04 | Tipo 71 | Tipo 73 |
 |----|--------|---------|---------|---------|
@@ -69,31 +68,31 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 |Consente messaggi al destinatario? | Sì |No |No | Sì |
 |Contiene il numero di riferimento di pagamento? | No | Sì, 16 cifre. | Sì, 15 cifre. | No|
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fornitori** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda, espandere la scheda **Pagamenti**, nel campo **Metodo pagamento** selezionare il metodo di pagamento.  
 3. A seconda dell'opzione selezionata, è necessario compilare altri campi. Vedere la tabella sopra per una descrizione delle combinazioni.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Per specificare il formato da utilizzare per un conto corrente bancario
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Conti correnti bancari** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda del conto corrente bancario.  
 3. Nel campo **Formato esportazione pagamento**, selezionare il formato del file di esportazione.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Scegliere le informazioni di pagamento FIK o Giro per le fatture fornitore
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
 2. Scegliere il fornitore. Ricordare che deve trattarsi di un fornitore danese con un indirizzo in Danimarca.
 3. Creare una fattura. I campi **Metodo di pagamento** e **Nr. fornitore** vengono compilati in base alle impostazioni nella scheda Fornitore. Se necessario, è possibile modificare questi valori.
 4. Nel campo **Riferimento pagamento**, immettere il numero a 15 cifre della fattura del fornitore.  
 
     > [!Tip]
-    > È necessario aggiungere solo le ultime 11 cifra del numero. [!INCLUDE[d365fin](includes/d365fin_md.md)] aggiungerà quattro zeri all'inizio del numero.  
+    > È necessario aggiungere solo le ultime 11 cifra del numero. [!INCLUDE[prod_short](includes/prod_short.md)] aggiungerà quattro zeri all'inizio del numero.  
 
 5. Contabilizzare la fattura.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Per utilizzare l'estensione per esportare i dati di pagamento
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci Registrazioni pagamenti fornitore**.  
 
     > [!Tip]
@@ -105,6 +104,9 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 
 ## <a name="see-also"></a>Vedere anche
 
-[Personalizzazione di Business Central per [!INCLUDE[d365fin](includes/d365fin_md.md)] con le estensioni](ui-extensions.md)  
+[Personalizzazione di Business Central per [!INCLUDE[prod_short](includes/prod_short.md)] con le estensioni](ui-extensions.md)  
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

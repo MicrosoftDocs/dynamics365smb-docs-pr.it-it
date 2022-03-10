@@ -2,7 +2,6 @@
 title: Ottimizzazione di Outlook per la Posta in arrivo aziendale
 description: Informazioni su come migliorare l'esperienza con la Posta in arrivo aziendale in Business Microsoft Outlook.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 24718b65fe5a5795d2a5a92a20fe4eb32aa4b2ac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437493"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143974"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Ottimizzazione di Outlook per la Posta in arrivo aziendale 
 
@@ -30,7 +29,7 @@ Esegui aggiornamento alla versione di Outlook 2012 o successiva.
 
 ### <a name="how-to-check-your-version-of-outlook"></a>Come controllare la tua versione di Outlook
 
-Se si utilizza Office 2019 o Microsoft 365, seguire questa guida del supporto Microsoft per verificare la versione di Outlook installata:  
+Se utilizzi Office 2019 o Microsoft 365, segui questa guida del supporto Microsoft per verificare la versione di Outlook installata:  
 
 [Informazioni su Office: quale versione di Office sto utilizzando?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 

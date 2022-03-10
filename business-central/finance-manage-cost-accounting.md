@@ -2,20 +2,19 @@
 title: Contabilizzazione dei costi | Microsoft Docs
 description: La contabilità industriale viene utilizzata per comprendere i costi operativi di un'attività. Per un'introduzione sulla contabilità industriale, vedere i seguenti argomenti.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9539cbf3926a782bdaaf49a7054358e653c5e1ac
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183022"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148638"
 ---
 # <a name="accounting-for-costs"></a>Contabilizzazione dei costi
 La contabilità industriale viene utilizzata per comprendere i costi operativi di un'attività. Per un'introduzione sulla contabilità industriale, vedere i seguenti argomenti.  
@@ -35,4 +34,7 @@ La contabilità industriale viene utilizzata per comprendere i costi operativi d
 ## <a name="see-also"></a>Vedere anche  
 [Finanze](finance.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

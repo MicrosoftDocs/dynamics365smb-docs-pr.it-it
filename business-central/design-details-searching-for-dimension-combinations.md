@@ -2,7 +2,6 @@
 title: 'Dettagli di progettazione: Ricerca delle combinazioni di dimensione | Microsoft Docs'
 description: Quando si chiude la pagina dopo avere modificato un set di dimensioni, in Business Central viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 67aa9c5a7b56b00e49573b5232045f032db178c3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215755"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145812"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Dettagli di progettazione: Ricerca delle combinazioni di dimensione
 Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCLUDE[prod_short](includes/prod_short.md)] viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.  
@@ -26,7 +25,7 @@ Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCL
 ### <a name="example-1"></a>Esempio 1  
  Nel seguente diagramma viene rappresentato un albero di ricerca con sei set di dimensioni. Solo il movimento set di dimensioni distintivo viene visualizzato nel grafico.  
 
- ![Esempio di struttura ad albero dimensioni](media/nav2013_dimension_tree.png "Esempio di struttura ad albero dimensioni")  
+ ![Esempio di struttura ad albero dimensioni.](media/nav2013_dimension_tree.png "Esempio di struttura ad albero dimensioni")  
 
  Nella tabella seguente viene descritto un elenco di movimenti set di dimensioni che costituiscono ogni set di dimensioni.  
 
@@ -45,7 +44,7 @@ Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCL
 
  [!INCLUDE[prod_short](includes/prod_short.md)] aggiorna prima di tutto anche la tabella **Nodo albero set di dimensioni** per assicurarsi che l'albero di ricerca somigli al diagramma seguente. Pertanto il set di dimensioni 7 diventa un figlio del set di dimensioni 5.  
 
- ![Esempio di struttura ad albero dimensioni in NAV 2013](media/nav2013_dimension_tree_example2.png "Esempio di struttura ad albero dimensioni in NAV 2013")  
+ ![Esempio di struttura ad albero dimensioni in NAV 2013.](media/nav2013_dimension_tree_example2.png "Esempio di struttura ad albero dimensioni in NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Ricerca ID set di dimensioni  
  A livello concettuale, i valori **ID padre**, **Dimensione** e **Valore dimensioni**, nell'albero di ricerca vengono combinati e utilizzati come chiave primaria perché [!INCLUDE[prod_short](includes/prod_short.md)] attraversa la struttura ad albero nello stesso ordine dei movimenti con dimensione. La funzione Get (record) viene utilizzata per cercare l'ID set di dimensioni. Nell'esempio di codice riportato di seguito viene illustrato come trovare l'ID set di dimensioni quando sono presenti tre valori di dimensione.  

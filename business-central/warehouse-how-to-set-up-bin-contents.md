@@ -2,20 +2,19 @@
 title: Creare il contenuto delle collocazioni
 description: Dopo aver impostato le collocazioni è possibile specificare gli articoli che si desidera stoccare e impostare le regole che controllano la frequenza di rifornimento dei contenitori.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 7374
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f7cfb33d1eb8966817750f89dd992244bf0b5b7f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b1332240d6c6b0e43bada158fe11e82d42e0119f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383627"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144231"
 ---
 # <a name="create-bin-contents"></a>Creare il contenuto delle collocazioni
 
@@ -23,7 +22,7 @@ Dopo avere impostato le collocazioni, è possibile impostare il contenuto colloc
 
 ## <a name="to-create-bin-content-manually"></a>Per creare manualmente il contenuto collocazione
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ubicazioni** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2. Selezionare l'ubicazione in cui si desidera impostare contenuti collocazione e scegliere l'azione **Collocazioni**.  
 3. Selezionare la collocazione in cui si desidera impostare contenuti e scegliere l'azione **Contenuti**.  
 4. Per ogni articolo che si desidera inserire nella collocazione, compilare i campi di una riga della pagina **Contenuto collocazioni** immettendo le informazioni appropriate. Alcuni campi sono già compilati con le informazioni relative alla collocazione.  
@@ -42,7 +41,7 @@ Se si seleziona il campo **Fisso**, si stabilisce che l'articolo debba essere as
 
 Dopo avere creato le collocazioni, è possibile specificare il contenuto desiderato per ciascuna collocazione nel prospetto creazione contenuto collocazione.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto creazione contenuto collocazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto creaz. cont. colloc.**, quindi seleziona il collegamento correlato.  
 2. Nella testata del prospetto, dal campo **Nome** selezionare il prospetto dell'ubicazione in cui si desidera creare il contenuto delle collocazioni.  
 3. Nel campo **Cod. collocazione** selezionare il codice della collocazione per la quale si desidera definire il contenuto.  
 

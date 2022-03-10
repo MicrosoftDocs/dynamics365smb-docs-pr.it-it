@@ -2,20 +2,19 @@
 title: Chiudere i movimenti contabili articoli derivanti dall'utilizzo del collegamento fisso
 description: Scopri come creare un collegamento fisso tra una transazione in entrata e la transazione in uscita originale nelle registrazioni articoli.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 01/14/2020
+ms.search.form: 40
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2cc663d580da4738247b9fcdbe5fc4504c37fa73
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: dfcab14c585873aca8b9f65d2ebd6d188771b4dc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013873"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138572"
 ---
 # <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino
 
@@ -46,3 +45,6 @@ La seguente procedura illustra come chiudere tali movimenti con due registrazion
 [Impostazione della valutazione magazzino e i costi](finance-set-up-inventory-valuation-and-costing.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

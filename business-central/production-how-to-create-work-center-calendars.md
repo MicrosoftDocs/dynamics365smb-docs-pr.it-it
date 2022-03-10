@@ -1,23 +1,23 @@
 ---
-title: Come impostare i calendari del reparto produzione
+title: Impostare i calendari del reparto produzione
 description: La creazione e l'abilitazione di un calendario dell'area di produzione comporta diverse attività tra cui l'impostazione dei calendari del reparto di produzione e la creazione di turni di lavoro.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a39df1fc7ccff9d3f4fcfbf76e7d6a57a7801bce
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440405"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131329"
 ---
 # <a name="set-up-shop-calendars"></a>Impostare i calendari del reparto produzione
+
 In un calendario delle aree di produzione o dei centri di lavoro sono specificati i giorni e gli orari lavorativi, i turni, le ferie e le assenze che determinano la capacità lorda disponibile dell'area o del centro, misurata in tempo, sulla base dei valori definiti per l'efficienza e la capacità di tale area o centro.
 
 Come base per il calcolo di un calendario specifico delle aree di produzione o dei centri di lavoro è prima di tutto necessario configurare uno o più calendari del reparto produzione generali. In un calendario del reparto produzione viene definita una settimana lavorativa standard in termini di ora di inizio e di fine di ogni giorno lavorativo e di relazione di turni lavorativi. In tale calendario sono inoltre disponibili le ferie fisse nel corso di un anno.  

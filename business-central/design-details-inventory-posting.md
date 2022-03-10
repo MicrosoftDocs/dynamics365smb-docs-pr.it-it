@@ -2,20 +2,19 @@
 title: 'Dettagli di progettazione: Registrazione di magazzino | Microsoft Docs'
 description: Ogni transazione di magazzino, ad esempio un carico di acquisto o una spedizione di vendita, registra due movimenti dei tipi diversi.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 29f4bf5ba4315f6d7a19ba7cf3efd4186a2c5573
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389901"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138650"
 ---
 # <a name="design-details-inventory-posting"></a>Dettagli di progettazione: Registrazione di magazzino
 
@@ -32,7 +31,7 @@ Ogni transazione di magazzino, ad esempio un carico di acquisto o una spedizione
 
  A intervalli regolari, i movimenti di valorizzazione creati nei movimenti di magazzino vengono registrati nella contabilità generale per riconciliare i due registri per i motivi di controllo finanziario. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Flusso dei movimenti durante la riconciliazione del magazzino e della contabilità generale](media/design_details_inventory_costing_1_entry_flow.png "Flusso dei movimenti durante la riconciliazione del magazzino e della contabilità generale")  
+ ![Flusso dei movimenti durante la riconciliazione del magazzino e della contabilità generale.](media/design_details_inventory_costing_1_entry_flow.png "Flusso dei movimenti durante la riconciliazione del magazzino e della contabilità generale")  
 
 ## <a name="example"></a>Esempio
 

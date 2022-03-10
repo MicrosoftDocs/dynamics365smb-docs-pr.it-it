@@ -1,21 +1,20 @@
 ---
-title: Utilizzare gli schemi XML per preparare le definizioni di scambio dati
-description: Utilizzare gli schemi XML per impostare il framework del servizio di scambio documenti.
+title: Schemi XML per preparare le definizioni di scambio dati
+description: Utilizza gli schemi XML per impostare il framework di scambio dati per definire con quali elementi di dati vuoi scambiare.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 25073b552644c9ca013a2eae90a0d013ab57e556
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: cbaa75f196f75b79e83becb80006f6b4dc2aa291
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379425"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130950"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utilizzare gli schemi XML per preparare le definizioni di scambio dati
 
@@ -35,7 +34,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 1. Assicurarsi che il file schema XML pertinente sia disponibile. L'estensione del file è .xsd.  
 
-2. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Schemi XML** e quindi scegliere il collegamento correlato.  
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Schemi XML**, quindi scegli il collegamento correlato.  
 
 3. Scegliere l'azione **Nuovo**.  
 
@@ -57,7 +56,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Per selezionare o rimuovere i nodi in uno schema XML  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Visualizzatore schemi XML** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Visualizzatore schema XML**, quindi scegli il collegamento correlato.  
 
 2. Compilare i campi nell'intestazione come descritto nella tabella riportata di seguito.  
 
@@ -95,7 +94,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Per generare una definizione di scambio di dati basata su uno schema XML  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Schemi XML** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Schemi XML**, quindi scegli il collegamento correlato.  
 
 2. Selezionare lo schema XML rilevante e quindi scegliere l'azione **Apri visualizzatore schema XML**.  
 

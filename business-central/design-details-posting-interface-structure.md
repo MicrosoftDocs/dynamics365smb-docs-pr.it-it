@@ -1,24 +1,23 @@
 ---
-title: "Dettagli di progettazione: Struttura dell'interfaccia di registrazione | Microsoft Docs"
-description: Questo argomento fornisce una sintesi delle procedure globali nella struttura dell'interfaccia di registrazione.
+title: Dettagli di progettazione - Struttura dell'interfaccia di registrazione
+description: Questo argomento fornisce una sintesi delle procedure globali e i dettagli di progettazione nella struttura dell'interfaccia di registrazione.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting, interface, design
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 1e80b905d96fc2204b61b03c0970257755b9e105
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ed590455c9edbe5b8727988d4300172223bd2056
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787348"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131927"
 ---
 # <a name="design-details-posting-interface-structure"></a>Dettagli di progettazione: struttura dell'interfaccia di registrazione
-Nella struttura dell'interfaccia di registrazione di [!INCLUDE[d365fin](includes/d365fin_md.md)] esistono diverse procedure globali che utilizzano la stessa struttura:  
+Nella struttura dell'interfaccia di registrazione di [!INCLUDE[prod_short](includes/prod_short.md)] esistono diverse procedure globali che utilizzano la stessa struttura:  
   
 * Codice della procedura di chiamata di RunWithoutCheck e di RunWithCheck – interfaccia generica di registrazione per riga registrazioni generali.  
 * CustPostApplyCustLedgEntry – registrare il collegamento del cliente, chiamato da codeunit 226 CustEntry- Collegare i movimenti registrati.  
@@ -28,3 +27,5 @@ Nella struttura dell'interfaccia di registrazione di [!INCLUDE[d365fin](includes
   
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

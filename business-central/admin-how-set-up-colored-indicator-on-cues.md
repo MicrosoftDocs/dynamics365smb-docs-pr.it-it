@@ -1,23 +1,23 @@
 ---
-title: Specificare indicatori colorati per personalizzare segnali visivi sull'attività di una pila per la società o per singoli utenti| Microsoft Docs
+title: Configurare indicatori colorati personalizzati per l'attività della pila
 description: Come amministratore, è possibile impostare le pile che vengono visualizzate in gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.form: 9701, 9702
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0411e080aa5304b47ec64a9248368fc8385d4ee5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b549e288c64aa2a15b2e2644bb4e8239074175a9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187342"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132161"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Impostare un indicatore colorato nelle pile per la società o per i singoli utenti
+
 Come amministratore, è possibile impostare le pile che vengono visualizzate in gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.  
 
 L'indicatore viene visualizzato come una barra colorata lungo il bordo superiore della pila. Fornisce un segnale visivo dello stato dell'attività della pila, che può indicare le condizioni favorevoli o sfavorevoli per spingere l'utente a intraprendere un'azione. Ad esempio, se una pila visualizza le fatture di vendita in corso, è possibile impostare l'indicatore in modo che appaia verde (favorevole) quando il totale delle fatture di vendita in corso è minore di 10 e rosso (sfavorevole) quando il totale è maggiore di 20.  
@@ -27,7 +27,7 @@ Nella pagina **Setup pila**, si impostano gli indicatori di tutte le pile dispon
 Per impostare l'indicatore, specificare fino a due valori di soglia che definiscono tre intervalli dei valori dei dati (basso, medio e alto) e a cui è possibile applicare un colore diverso (o stile).  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Per impostare indicatori colorati nelle pile  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup pila** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup pila**, quindi scegli il collegamento correlato.  
 
      Verrà visualizzata la pagina **Setup pila**. La pagina elenca gli indicatori che attualmente sono impostati nelle pile. Gli indicatori che si applicano a tutti gli utenti della società hanno un campo **Nome utente** vuoto. Gli indicatori che si applicano a un utente specifico comprendono il nome dell'utente nel campo **Nome utente**.  
 
@@ -64,3 +64,6 @@ Per impostare l'indicatore, specificare fino a due valori di soglia che definisc
     |**Subordinato**|Grigio|  
 
 ## <a name="see-also"></a>Vedere anche
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

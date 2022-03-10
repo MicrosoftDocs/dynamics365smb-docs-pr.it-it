@@ -2,7 +2,6 @@
 title: Impostazione della gestione assistenza | Documenti Microsoft
 description: Sintesi delle attività necessarie per impostare la gestione dell'assistenza adattandola al modo in cui le organizzazioni gestiscono i propri servizi.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778100"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140555"
 ---
 # <a name="setting-up-service-management"></a>Impostazione della gestione assistenza
 Prima di iniziare a utilizzare le funzionalità Gestione assistenza in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario impostare alcune opzioni. Ad esempio, è possibile definire codici per servizi standard, indizi, guasti, articoli in assistenza e tipi di articoli in assistenza che il servizio clienti dell'azienda deve richiedere.  

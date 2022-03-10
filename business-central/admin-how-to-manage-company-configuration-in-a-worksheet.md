@@ -1,34 +1,33 @@
 ---
-title: Gestione della configurazione della società in un foglio di lavoro | Documenti Microsoft
-description: Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un prospetto per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo.
+title: Come gestire la configurazione della società in un foglio di lavoro
+description: Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione della società.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fb5ede0362f54f8475807e10e1bad87beffaec02
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922594"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141361"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestione della configurazione della società in un foglio di lavoro
 Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un foglio di lavoro per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo.  
 
-La prima fase per la preparazione di un pacchetto di configurazione consiste nel selezionare una società che è già stata impostata e modificata in base alle esigenze specifiche della soluzione. Questa società costituisce un riferimento per le operazioni di configurazione di nuove società. Nel prospetto è possibile definire le tabelle che si desidera controllare e gestire tramite la configurazione. Poiché la maggior parte delle tabelle in [!INCLUDE[d365fin](includes/d365fin_md.md)] presenta relazioni e dipendenze con altre tabelle, è possibile includere tali tabelle correlate in base alle proprie esigenze. Insieme, queste tabelle costituiranno la struttura relative su cui creare una nuova società. I passaggi successivi spiegano come creare il pacchetto di configurazione e implementarlo.  
+La prima fase per la preparazione di un pacchetto di configurazione consiste nel selezionare una società che è già stata impostata e modificata in base alle esigenze specifiche della soluzione. Questa società costituisce un riferimento per le operazioni di configurazione di nuove società. Nel prospetto è possibile definire le tabelle che si desidera controllare e gestire tramite la configurazione. Poiché la maggior parte delle tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] presenta relazioni e dipendenze con altre tabelle, è possibile includere tali tabelle correlate in base alle proprie esigenze. Insieme, queste tabelle costituiranno la struttura relative su cui creare una nuova società. I passaggi successivi spiegano come creare il pacchetto di configurazione e implementarlo.  
 
 Per agevolare il monitoraggio e la revisione del proprio lavoro, utilizzare il Dettaglio informazioni **Tabella pacchetto di configurazione** per visualizzare le informazioni relative ai record. Utilizzare il Dettaglio informazioni **Tabelle correlate a configurazione** per verificare le relazioni tra tabelle.  
 
 Nelle procedure riportate di seguito viene illustrato come aggiungere e personalizzare le informazioni della tabella per la configurazione.  
 
 ## <a name="to-open-the-configuration-worksheet"></a>Per aprire il foglio di lavoro configurazione.  
-1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)] aprire la società che costituisce il modello di riferimento per la configurazione, quindi la Gestione ruolo utente Implementatore di RapidStart Services.  
-2.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.  
+1.  In [!INCLUDE[prod_short](includes/prod_short.md)] aprire la società che costituisce il modello di riferimento per la configurazione, quindi la Gestione ruolo utente Implementatore di RapidStart Services.  
+2.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Per aggiungere una tabella al foglio di lavoro  
 1.  Nella pagina **Foglio di lavoro configurazione**, scegliere l'azione **Modifica lista**.  
@@ -62,7 +61,7 @@ Nelle procedure riportate di seguito viene illustrato come aggiungere e personal
     |**Includi solo tabelle con licenza**|Selezionare la casella di controllo per includere solo le tabelle per le quali è presente una licenza per la creazione del prospetto che consente l'accesso.|
 
 3. Nella Scheda dettaglio **Oggetto** impostare i filtri appropriati per specificare i tipi di tabelle da includere o escludere.  
-4. Scegliere il pulsante **OK**. Le tabelle di [!INCLUDE[d365fin](includes/d365fin_md.md)] vengono aggiunte al prospetto. Per ogni movimento nella lista è presente un tipo di riga **Tabella**.  
+4. Scegliere il pulsante **OK**. Le tabelle di [!INCLUDE[prod_short](includes/prod_short.md)] vengono aggiunte al prospetto. Per ogni movimento nella lista è presente un tipo di riga **Tabella**.  
 5. Per rimuovere le informazioni di tabella duplicate, che possono risultare dall'utilizzo dell'azione **Ottieni tabelle**, scegliere l'azione **Elimina righe duplicate**. Ciò rimuoverà le tabelle duplicate con lo stesso codice pacchetto.  
 6. È possibile aggiungere al prospetto tabelle collegate a una tabella selezionata dall'utente. Esaminare le informazioni nel dettaglio informazioni **Tabelle correlate** per controllare se vi sono tabelle mancanti. Per aggiungere le tabelle correlate a una tabella specifica, selezionare la tabella nella lista, quindi scegliere l'azione **Ottieni tabelle correlate**.  
 
@@ -97,7 +96,7 @@ Nella procedura riportata di seguito viene descritto come aggiungere designazion
 4. Nel campo **Tipo riga**, scegliere **Gruppo**. Nel campo **Nome** immettere un nome per l'area. Il nome del gruppo viene automaticamente indentato.  
 5. Per spostare le tabelle nella categoria appropriata, selezionare una tabella da spostare quindi scegliere l'azione **Vai su** o **Vai giù**. In alternativa, è possibile eliminare una riga del prospetto e inserire nuovamente la tabella nell'ubicazione richiesta.  
 
-Alcune tabelle di [!INCLUDE[d365fin](includes/d365fin_md.md)] sono standard e i dati in esse contenuti è probabile che restino invariati nelle diverse implementazioni. Di conseguenza, per consentire al cliente di concentrarsi meglio, è possibile rimuovere queste tabelle dal prospetto dopo che sono state incluse nel pacchetto di configurazione. Una volta aggiunte, le tabelle rimangono parte del pacchetto di configurazione.  
+Alcune tabelle di [!INCLUDE[prod_short](includes/prod_short.md)] sono standard e i dati in esse contenuti è probabile che restino invariati nelle diverse implementazioni. Di conseguenza, per consentire al cliente di concentrarsi meglio, è possibile rimuovere queste tabelle dal prospetto dopo che sono state incluse nel pacchetto di configurazione. Una volta aggiunte, le tabelle rimangono parte del pacchetto di configurazione.  
 
 ## <a name="to-remove-a-standard-table-in-the-worksheet"></a>Per rimuovere una tabella standard del prospetto  
 Dopo aver aggiunto tutte le tabelle necessarie a un pacchetto di configurazione, stabilire quali tabelle non richiederanno l'attenzione del cliente.  
@@ -114,11 +113,11 @@ Quando si crea un pacchetto di configurazione per una soluzione, è possibile vi
 1.  Nella pagina **Foglio di lavoro configurazione**, individuare le tabelle di cui si desidera visualizzare o modificare i dati.  
 
     > [!NOTE]  
-    >  Assicurarsi che a ogni tabella sia stato assegnato un ID pagina. Per le tabelle [!INCLUDE[d365fin](includes/d365fin_md.md)], il valore viene compilato automaticamente. Per le tabelle personalizzate occorre immettere l'ID.  
+    >  Assicurarsi che a ogni tabella sia stato assegnato un ID pagina. Per le tabelle [!INCLUDE[prod_short](includes/prod_short.md)], il valore viene compilato automaticamente. Per le tabelle personalizzate occorre immettere l'ID.  
 
 2.  Scegliere l'azione **Dati database**.  
 
-     Viene visualizzata la pagina di [!INCLUDE[d365fin](includes/d365fin_md.md)] relativa alla pagina.  
+     Viene visualizzata la pagina di [!INCLUDE[prod_short](includes/prod_short.md)] relativa alla pagina.  
 
 3.  Esaminare le informazioni disponibili. Modificare in base alle esigenze eliminando i record non pertinenti o aggiungendone di nuovi.
 
@@ -126,3 +125,6 @@ Quando si crea un pacchetto di configurazione per una soluzione, è possibile vi
 [Impostare la configurazione della società](admin-set-up-company-configuration.md)  
 [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

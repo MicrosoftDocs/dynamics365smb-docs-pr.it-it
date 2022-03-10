@@ -2,29 +2,29 @@
 title: Funzionalità locale per l'Italia
 description: Negli argomenti indicati di seguito viene descritta la funzionalità locale nella versione italiana di Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 618e7c332ea72ef3774a670b2565f33bebfacfeb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a03cacc0f29935747a9ad9d51aa469279aaab266
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919951"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132229"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 
-Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Disponibilità della funzionalità
 
-* IVA
+* IVA e ritenute
     * [IVA italiana](italian-vat.md)
+    * [Impostare la ritenuta](set-up-withholding-tax.md) **Disponibile ora**  
     * [Inviare dichiarazioni IVA](how-to-submit-vat-statements.md) **Disponibile ora**
     * [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md) **Disponibile ora**
     * [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md) **Disponibile ora**
@@ -36,7 +36,7 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Stampa report Ritenuta](how-to-print-withholding-tax-reports.md) **Disponibile ora**
 
 * Attività bancarie e pagamenti
-    * [Impostazione delle condizioni di pagamento](how-to-set-up-payment-terms.md) **Disponibile ora**
+    * [Impostare le condizioni pagamento](how-to-set-up-payment-terms.md) **Disponibile ora**
     * [Impostare i pagamenti automatici e gli effetti automatici](how-to-set-up-automatic-payments-and-automatic-bills.md) **Disponibile ora**
     * [Panoramica di pagamenti fornitori ed effetti clienti](vendor-payments-and-customer-bills-overview.md) **Disponibile ora**
     * [Emettere pagamenti fornitori ed effetti clienti](how-to-issue-vendor-payments-and-customer-bills.md) **Disponibile ora**
@@ -65,7 +65,10 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Utilizzo di [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

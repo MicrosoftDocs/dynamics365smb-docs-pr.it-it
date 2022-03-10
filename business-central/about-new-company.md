@@ -1,21 +1,21 @@
 ---
-title: Creare una nuova società utilizzando una Guida setup assistito | Microsoft Docs
+title: Creare una nuova società utilizzando una Guida setup assistito
 description: Creare una nuova società vuota in Business Central è facile. Una Guida setup assistito fornisce le istruzioni nei vari passaggi e consente di importare i dati aziendali esistenti.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2020
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc318d3de70cb56e722bd02c868fc570fb62692b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f05fcf2fc3137fbdf97940e5b3d73922180253b4
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385051"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323167"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -76,7 +76,7 @@ Una volta creata una società, non puoi modificarne il nome. Puoi tuttavia modif
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
-[Introduzione](product-get-started.md)  
+[Preparazione al business](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

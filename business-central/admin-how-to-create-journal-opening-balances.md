@@ -1,21 +1,20 @@
 ---
-title: Creare bilanci di apertura delle registrazioni | Documenti Microsoft
-description: Business Central comprende diversi processi batch spediti al fine di agevolare il trasferimento dei saldi del conto esistenti a una società appena configurata. È possibile trasferire facilmente questi dati con le registrazioni.
+title: Creare bilanci di apertura delle registrazioni
+description: I processi batch sono forniti al fine di agevolare il trasferimento dei saldi del conto legacy a una società appena configurata. È possibile trasferire facilmente questi dati con le registrazioni.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 5e1bb8e34e70d1d906850c157107b9b9701c6c50
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de528dd08911b49f7bf09dc541615da93fd190cc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779859"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145037"
 ---
 # <a name="create-journal-opening-balances"></a>Creare bilanci di apertura delle registrazioni
 
@@ -45,6 +44,9 @@ Prima di iniziare, assicurarsi di essere nella pagina Gestione ruolo utente Ammi
 
 > [!TIP]
 > È possibile utilizzare gli stessi processi batch per aggiungere bilanci di apertura ogni volta che si registra un nuovo cliente o fornitore con cui già sono stati conclusi affari ma non è registrato in [!INCLUDE [prod_short](includes/prod_short.md)]. Basta cercare l'attività pertinente e quindi scegliere il collegamento pertinente.
+
+> [!IMPORTANT]
+> In particolare per l'apertura di saldi per conti bancari, non seguire i passaggi in questo articolo per eseguire la registrazione direttamente nei conti C/G associati ai conti bancari pertinenti. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Vedere anche
 

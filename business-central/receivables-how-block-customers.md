@@ -2,20 +2,19 @@
 title: Come bloccare le vendite per i clienti
 description: Se necessario, è possibile impedire a un cliente di essere incluso nei documenti di vendita e in altre transazioni di vendita.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc8014cf0896db1ebbc5f0c5ea22e0f160c1b06d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fb69308a913f12a1433d2b37680f0ece1e93d3b9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926549"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140685"
 ---
 # <a name="block-customers"></a>Blocca clienti
 È possibile bloccare un cliente, ad esempio a causa di insolvenza, in modo che il cliente non possa essere aggiunto ai documenti di vendita o che non sia possibile registrare transazioni per il cliente.
@@ -32,7 +31,7 @@ Nella seguente tabella vengono illustrate le opzioni per bloccare i clienti.
 |**Tutto**|Non è consentita alcuna transazione, inclusi i pagamenti, per il cliente.|  
 
 ## <a name="to-block-a-customer"></a>Per bloccare un cliente  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Selezionare un cliente, quindi scegliere l'azione **Modifica**.
 3. Nel campo **Bloccato**, scegliere cosa bloccare, come descritto nella tabella precedente.
 
@@ -40,3 +39,6 @@ Nella seguente tabella vengono illustrate le opzioni per bloccare i clienti.
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

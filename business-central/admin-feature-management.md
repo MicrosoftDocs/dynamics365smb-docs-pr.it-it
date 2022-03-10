@@ -2,19 +2,19 @@
 title: Abilitazione di funzionalità imminenti in anticipo
 description: Informazioni su come abilitare determinate funzionalità opzionali prima che diventino obbligatorie.
 author: mikebcMSFT
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
-ms.date: 10/01/2020
+ms.search.form: 2610
+ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 5e09c2a07a3259cd44d13b58765f1d522c46d409
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a3cc650067c18da1594e2381413f8dd76966ab3a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754001"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141387"
 ---
-# <a name="enabling-upcoming-features-ahead-of-time"></a>Abilitazione di funzionalità imminenti in anticipo
+# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Abilitazione di funzionalità nuove e imminenti in anticipo
 
 Alcune nuove funzionalità possono essere abilitate in anticipo in modo da poterle utilizzare il prima possibile. L'abilitazione anticipata delle funzionalità dà il tempo di testare e preparare l'organizzazione al cambiamento.
 
@@ -24,4 +24,7 @@ Ulteriori informazioni su [Gestione funzionalità](/dynamics365/business-central
 
 ## <a name="see-also"></a>Vedere anche
 
-[Funzionalità nuove e pianificate](https://aka.ms/Dynamics365ReleasePlan)  
+[Funzionalità nuove e pianificate](/dynamics365-release-plan/2021wave1/)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

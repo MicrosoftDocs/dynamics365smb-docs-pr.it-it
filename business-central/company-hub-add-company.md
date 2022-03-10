@@ -2,17 +2,17 @@
 title: Aggiungere società all'hub aziendale
 description: Informazioni su come aggiungere società da altri ambienti Business Central all'hub aziendale in modo da poter gestire il lavoro in più ambienti.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
-ms.date: 10/29/2020
+ms.search.form: 1151, 1155, 1166, 1165
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 252b2bc892a22349a9d5c84b704c922f7586fddf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c6cc06c45856f1e7c10b1ac82382dae799aef409
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389176"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139809"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Aggiungere società all'hub aziendale
 
@@ -29,7 +29,7 @@ Un collegamento ambiente è una scheda in cui è possibile specificare l'ambient
 
 Il collegamento viene utilizzato quando si sceglie la società nell'hub della società.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Azioni per una società elencata nell'hub aziendale":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Azioni per una società elencata nell'hub aziendale.":::
 
 > [!TIP]
 > Se si sta lavorando nella versione di prova gratuita di [!INCLUDE [prod_short](includes/prod_short.md)], è facile aggiungere le società nel tenant. È possibile trovare il collegamento ambiente copiando l'ID Azure Active Directory dalla sezione **Risoluzione dei problemi** della pagina Guida e supporto. Il nome dell'ambiente è probabilmente il valore predefinito, PRODUZIONE. Aggiungere queste informazioni al campo **Collegamento ambiente**, ad esempio ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1``` e quindi scegliere **Test della connessione**. La società di valutazione verrà aggiunta all'elenco.

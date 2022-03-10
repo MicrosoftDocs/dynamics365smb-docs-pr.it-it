@@ -1,30 +1,30 @@
 ---
-title: 'Procedura: Stampare e ristampare i libri giornale e i registri IVA'
+title: Stampare e ristampare libri giornale e registri IVA [IT]
 description: Le autorità fiscali richiedono l'invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report Libro giornale - Stampa e Registro IVA - Stampa.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 214a7d3a4881364088bd16416452e6421a5c3611
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 12141, 12143, 12149, 12150
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: f9c95dcffb37aa4f91f285f73329bdc53bfe56b3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878168"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148923"
 ---
-# <a name="print-and-reprint-gl-books-and-vat-registers"></a>Stampare e ristampare i libri giornale e i registri IVA
-Le autorità fiscali richiedono l'invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report **Libro giornale - Stampa** e **Registro IVA - Stampa**. Ogni pagina stampata deve avere un proprio numero progressive e pertanto è necessario aggiornare [!INCLUDE[d365fin](../../includes/d365fin_md.md)] con il numero dell'ultima pagina stampata prima di eseguire nuovamente il report.  
+# <a name="print-and-reprint-gl-books-and-vat-registers-in-the-italian-version"></a>Stampa e ristampa di libri giornale e registri IVA nella versione italiana
+Le autorità fiscali richiedono l'invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report **Libro giornale - Stampa** e **Registro IVA - Stampa**. Ogni pagina stampata deve avere un proprio numero progressive e pertanto è necessario aggiornare [!INCLUDE[prod_short](../../includes/prod_short.md)] con il numero dell'ultima pagina stampata prima di eseguire nuovamente il report.  
 
 Di seguito viene descritto come stampare o ristampare il report **Libro giornale - Stampa**, ma gli stessi passaggi si applicano per la stampa o la ristampa del report **Registro IVA - Stampa**.  
 
 ## <a name="to-print-the-general-ledger-book-report"></a>Per stampare il report libro giornale  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Libro giornale - Stampa** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Libro giornale - Stampa**, quindi scegli il collegamento correlato.  
 2.  Compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Description|  
@@ -38,9 +38,9 @@ Di seguito viene descritto come stampare o ristampare il report **Libro giornale
     Quando si stampa il report, viene visualizzato un promemoria per aggiornare la pagina **Setup contabilità generale** con il numero dell'ultima pagina.  
 
     > [!IMPORTANT]  
-    >  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] non salva automaticamente il numero di pagina quando si esegue il report. Una volta eseguito il report Libro giornale - Stampa o il report Registro IVA - Stampa, è necessario aggiornare [!INCLUDE[d365fin](../../includes/d365fin_md.md)] con il numero dell'ultima pagina stampata.  
+    >  [!INCLUDE[prod_short](../../includes/prod_short.md)] non salva automaticamente il numero di pagina quando si esegue il report. Una volta eseguito il report Libro giornale - Stampa o il report Registro IVA - Stampa, è necessario aggiornare [!INCLUDE[prod_short](../../includes/prod_short.md)] con il numero dell'ultima pagina stampata.  
 
-3.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
+3.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 
     Per impostare il numero dell'ultima pagina stampata per il report registro IVA, cercare **Registro IVA** e scegliere il collegamento per la pagina in **Categorie reg. IVA**.  
 
@@ -52,10 +52,13 @@ Di seguito viene descritto come visualizzare o modificare la numerazione della p
 
 ## <a name="to-view-or-change-page-numbering-for-reprinting-the-general-ledger-book-report"></a>Per visualizzare o modificare la numerazione della pagina per la ristampa del report libro contabile  
 
-1.  Scegliere l'icona ![Cerca pagina o report](../../media/ui-search/search_small.png "Icona Cerca pagina o report"), immettere **Setup contabilità generale** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Modifica informazioni ristampa libro giornale** . Nella pagina **Informazioni ristampa libro giornale**, il campo **Numero prima pagina** indica il numero della prima pagina dei report precedentemente stampati.  
 
 Quando si aggiorna la pagina **Setup contabilità generale** o **Registri IVA** con il numero dell'ultima pagina del report stampato, accertarsi di specificare il numero di pagina corretto. Se il report ristampato inizia con il numero di pagina non corretto, il report non verrà accettato dalle autorità fiscali. La pagina **Informazioni ristampa libro giornale** e **Informazioni ristampa registro IVA** facilitano l'identificazione del numero corretto di pagina.  
 
 ## <a name="see-also"></a>Vedere anche  
 [Funzionalità locale per l'Italia](italy-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

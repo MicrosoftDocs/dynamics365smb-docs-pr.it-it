@@ -1,31 +1,31 @@
 ---
 title: Gestire crittografia dati | Microsoft Docs
 description: È possibile crittografare dati in Business Central Server generando nuove chiavi di crittografia o importando chiavi esistenti che vengono abilitate nel server.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3199e044a85377284c97cdebf18907bdf429f649
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: e9b04903b612609fc7d7c2dff4b3feffc184ae51
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304463"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147964"
 ---
 # <a name="managing-data-encryption"></a>Gestione crittografia dati
-È possibile crittografare dati nel server [!INCLUDE[d365fin](includes/d365fin_md.md)] generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nell'istanza del server [!INCLUDE[d365fin](includes/d365fin_md.md)] che collega al database.
+È possibile crittografare dati nel server [!INCLUDE[prod_short](includes/prod_short.md)] generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nell'istanza del server [!INCLUDE[prod_short](includes/prod_short.md)] che collega al database.
 
 Per ulteriori informazioni, vedere [Crittografia di dati in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) nella Guida per sviluppatori e professionisti IT.
 
 > [!Note]
-> È possibile attivare o disattivare la crittografia solo se si utilizza una versione locale di [!INCLUDE[d365fin](includes/d365fin_md.md)]. La crittografia è sempre attivata per le versioni online e non è possibile disattivarla.
+> È possibile attivare o disattivare la crittografia solo se si utilizza una versione locale di [!INCLUDE[prod_short](includes/prod_short.md)]. La crittografia è sempre attivata per le versioni online e non è possibile disattivarla.
 
 ## <a name="see-also"></a>Vedere anche  
 [Amministrazione](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

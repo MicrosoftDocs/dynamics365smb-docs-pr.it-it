@@ -2,7 +2,6 @@
 title: Gestione dell'integrazione di OneDrive con Business Central
 description: Scopri le cose che puoi fare per gestire un'integrazione tra Business Central e OneDrive for Business.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 05/12/2021
 ms.author: bholtorf
-ms.openlocfilehash: cceb05c1ad19a95494c188cd2482b45962535c94
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 20c6eb27aa3af2557ce77993b11f759f2c329100
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606412"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144026"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Gestione dell'integrazione di OneDrive con Business Central 
 Questo articolo fornisce una panoramica di ciò che un amministratore può fare per controllare l'integrazione di OneDrive for Business con [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] i clienti online beneficiano di un'integrazione automatica, senza che sia necessaria una configurazione aggiuntiva per utilizzare queste funzioni. 
@@ -68,7 +67,7 @@ Un amministratore deve impostare la connessione tra [!INCLUDE[prod_short](includ
 
    For more information, see [Authenticating Business Central Users with Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory)-->
 
-Aggiungi un'applicazione registrata per Business Central nel tuo tenant Azure AD del tuo piano Microsoft 365. Come altri servizi Azure che lavorano con Business Central, OneDrive richiede una registrazione dell'app in Azure Active Directory (Azure AD). La registrazione dell'app fornisce servizi di autenticazione e autorizzazione tra Business Central e SharePoint, utilizzato da OneDrive.
+Aggiungi un'applicazione registrata per Business Central nel tenant Azure AD del tuo piano Microsoft 365. Come altri servizi Azure che lavorano con Business Central, OneDrive richiede una registrazione dell'app in Azure Active Directory (Azure AD). La registrazione dell'app fornisce servizi di autenticazione e autorizzazione tra Business Central e SharePoint, utilizzato da OneDrive.
 
 Configurare l'applicazione registrata con le seguenti autorizzazioni delegate all'API SharePoint :
 

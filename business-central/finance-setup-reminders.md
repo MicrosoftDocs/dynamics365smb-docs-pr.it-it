@@ -2,21 +2,20 @@
 title: Impostare i termini e i livelli di sollecito
 description: Informazioni su come impostare Business Central per inviare un sollecito a un cliente per un pagamento scaduto e aggiungere addebiti o oneri al pagamento a causa del ritardo.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 431, 432, 478
-ms.date: 04/01/2021
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: d22b970f2bd400e8bd5886266cf21ee32a6c9dee
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970367"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132838"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Impostare i termini e i livelli di sollecito
 
@@ -102,6 +101,7 @@ Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, imm
 ## <a name="see-also"></a>Vedere anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
+[Inviare promemoria per saldi inevasi](receivables-send-reminders.md)  
 [Impostare condizioni interessi finanziari](finance-setup-finance-charges.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 

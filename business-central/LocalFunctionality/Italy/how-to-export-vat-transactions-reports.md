@@ -1,32 +1,31 @@
 ---
-title: Come esportare i report di transazioni IVA
-description: Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità.
+title: Come esportare i report di transazioni IVA [IT]
+description: Il seguente argomento spiega come esportare i report di transazioni IVA. Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: fc201b0ba808af8d1d1f92b9936ec85f1b0286f0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e631525ea0746527213cc204ba82076ab678c581
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919992"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129353"
 ---
-# <a name="export-vat-transactions-reports"></a>Esportare i report di transazioni IVA
+# <a name="export-vat-transactions-reports-in-the-italian-version"></a>Esportare i report di transazioni IVA nella versione italiana
 Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità. Per modificare il report, assicurarsi che la casella di controllo Modifica report inviati sia attivata nella pagina Setup report IVA. Se non lo è, per modificare il report quando si desidera correggere un errore, sarà necessario creare un nuovo report, aggiungere il report con l'errore al numero di report originale e quindi creare un report correttivo. Per ulteriori informazioni, vedere [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md).  
 
 È possibile modificare le righe e i campi solo quando lo stato del documento è Aperto. Quando lo stato è Rilasciato, solo il numero di carico è modificabile. Quando lo stato è Inviato, tutti i campi sono bloccati.  
 
 ## <a name="to-export-and-submit-a-vat-transaction-report"></a>Per esportare e inviare un report di transazioni IVA  
 
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Report IVA** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  selezionare un report esistente o crearne uno nuovo.  
 
     - Selezionare il report IVA pertinente dall'elenco, quindi scegliere l'azione **Modifica**.  
@@ -39,7 +38,7 @@ Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per
 
 4.  Scegliere l'azione **Rilascia**. Nel campo **Stato** viene visualizzato Rilasciato.  
 
-    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] verifica che il report IVA è valido e pronto per l'invio. Se la convalida ha esito negativo, gli errori vengono visualizzati nella pagina **Log errori report IVA** per consentire di apportare le modifiche appropriate.  
+    [!INCLUDE[prod_short](../../includes/prod_short.md)] verifica che il report IVA è valido e pronto per l'invio. Se la convalida ha esito negativo, gli errori vengono visualizzati nella pagina **Log errori report IVA** per consentire di apportare le modifiche appropriate.  
 
     Un report IVA rilasciato non può essere modificato. Se si deve modificare il report dopo averlo rilasciato, è necessario innanzitutto riaprirlo. Scegliere l'azione **Riapri**.  
 
@@ -59,3 +58,6 @@ Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per
 
 ## <a name="see-also"></a>Vedere anche  
 [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

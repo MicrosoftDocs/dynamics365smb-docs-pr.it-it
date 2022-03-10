@@ -1,21 +1,20 @@
 ---
-title: Gestione delle dimensioni lotti | Microsoft Docs
+title: Gestione delle dimensioni dei lotti
 description: In questo argomento vengono descritti i diversi modi per gestire le dimensioni lotti.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: ''
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d119b5ea35ba41d658226f108f9bd14014ef644
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6d6316fbe214512f5d42622c47502a4361ce604e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376739"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135752"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Gestione delle dimensioni lotti in produzione
 In termini di quantità, il numero di articoli prodotti in un'operazione di produzione potrebbe non essere correlato alla modalità di vendita degli stessi. Ad esempio, si potrebbero produrre centinaia di articoli in un unico lotto, ma vendere ogni articolo singolarmente. Quando si configurano i cicli di produzione e le distinte base (BOM), vi sono alcune sfumature da considerare per quanto riguarda le dimensioni lotti. In questo argomento viene descritto in che modo le dimensioni lotti influiscono sui calcoli dei costi e sulla pianificazione delle risorse.

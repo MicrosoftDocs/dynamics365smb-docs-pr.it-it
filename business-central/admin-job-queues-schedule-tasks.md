@@ -2,20 +2,19 @@
 title: Programmare l'esecuzione automatica di processi
 description: I task programmati sono gestiti dalla coda processi. Questi processi eseguono report e codeunit. È possibile impostare processi da eseguire una sola volta o periodicamente.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 672, 673, 674, 671
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1d9893364d7472759a478877ebec49ace5e9647
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b09973b90a2721d83c309d63f42ce72e3d498e40
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441295"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130724"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per programmare i task
 
@@ -37,9 +36,10 @@ Dopo la configurazione e l'esecuzione delle code processi, lo stato può cambiar
 
 Dopo che un processo viene eseguito correttamente, viene rimosso dell'elenco dei movimenti coda processi a meno che non sia un processo ricorrente. Se è un processo ricorrente, il campo **Prima data/ora inizio** viene rettificato per mostrare la volta successiva in cui è prevista l'esecuzione del processo.  
 
-## <a name="to-view-status-or-errors-in-the-job-queue"></a>Per visualizzare lo stato o gli errori nella coda processi
+## <a name="monitor-status-or-errors-in-the-job-queue"></a>Monitorare lo stato o gli errori nella coda processi
 
 I dati generati quando una coda processi viene eseguita sono memorizzati nel database, in modo da poter risolvere gli errori relativi alla coda processi.  
+
 Per ogni movimento coda processi, è possibile visualizzare e modificare lo stato. Quando si crea un movimento coda processi, il relativo stato è impostato su **In sospeso**. Ad esempio, è possibile impostare lo stato su **Pronto** e di nuovo su **In sospeso**. In caso contrario, le informazioni relative allo stato verranno aggiornate automaticamente.
 
 La tabella seguente descrive i valori del campo **Stato**.
@@ -53,21 +53,32 @@ La tabella seguente descrive i valori del campo **Stato**.
 | Completato | Indica che il movimento coda processi è stato completato. |
 
 ### <a name="to-view-status-for-any-job"></a>Per visualizzare lo stato di qualsiasi processo
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.
 2. Nella pagina **Movimenti coda processi**, selezionare un movimento coda processi quindi scegliere il l'azione **Movimenti log**.  
 
 > [!TIP]
-> Con [!INCLUDE [prod_short](includes/prod_short.md)] online, è anche possibile visualizzare lo stato dei movimenti coda processi utilizzando Application Insights in Microsoft Azure. Per ulteriori informazioni, vedere [Analizzare la telemetria della traccia del ciclo di vita della coda processi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) nel contenuto per [!INCLUDE [prod_short](includes/prod_short.md)] per sviluppatori e amministrazione.
+> È inoltre possibile visualizzare lo stato dei movimenti della coda processi utilizzando Application Insights in Microsoft Azure per analisi più approfondite basate sulla telemetria. Per ulteriori informazioni, vedere [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) e [Analisi della telemetria della traccia del ciclo di vita della coda processi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) nel contenuto per sviluppatori e amministratori [!INCLUDE [prod_short](includes/prod_short.md)].
+
+## <a name="view-scheduled-tasks"></a>Visualizza i compiti programmati
+
+La pagina **Attività pianificate** in [!INCLUDE [prod_short](includes/prod_short.md)] mostra quali compiti sono pronti per essere eseguiti nella coda di lavoro. La pagina mostra anche informazioni sull'azienda in cui ogni compito è impostato per essere eseguito. Tuttavia, solo i compiti che sono contrassegnati come appartenenti all'ambiente corrente possono essere eseguiti.  
+
+Per esempio, se l'azienda corrente è in un ambiente che è una copia di un altro ambiente, tutti i compiti programmati vengono automaticamente fermati. Usa la pagina **Attività pianificate** per impostare le attività come pronte per l'esecuzione nella coda di lavoro.  
+
+> [!NOTE]
+> Gli amministratori interni e gli utenti possono programmare l'esecuzione di attività. Gli amministratori delegati non possono.
 
 ## <a name="the-my-job-queue-part"></a>Parte Coda processi
+
 La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle code processi avviati da un utente, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, pertanto è necessario aggiungerla alla Gestione ruolo utente utilizzata. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).  
 
 La parte mostra quali documenti con il proprio ID nel campo **ID utente assegnato** sono in fase di elaborazione o in coda, inclusi quelli relativi alla registrazione in background. La parte indica immediatamente se si è verificato un errore durante la registrazione di un documento oppure se sono presenti errori in un movimento coda processi. La parte consente inoltre di annullare la registrazione del documento se non è in esecuzione.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Per visualizzare un errore dalla parte Coda processi
+
 1. In un movimento con lo stato, **Errore** scegliere l'azione **Mostra errore**.
 2. Analizzare il messaggio di errore e correggere il problema.
-
 
 ## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Esempi di cosa può essere programmato utilizzando la coda processi
 
@@ -86,6 +97,10 @@ Se si è integrato [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[
 Le code processi sono un efficace strumento per programmare l'esecuzione dei processi aziendali in background, ad esempio quando più utenti tentano di registrare gli ordini di vendita, ma un solo ordine può essere elaborato alla volta.  
 
 Per ulteriori informazioni, vedere [Per configurare la registrazione background con le code processi](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+
+## <a name="monitor-the-job-queue-with-telemetry"></a>Monitorare la coda processi con la telemetria
+
+In qualità di amministratore, è possibile usare [Application Insights](/azure/azure-monitor/app/app-insights-overview) per raccogliere e analizzare i dati di telemetria da utilizzare per identificare i problemi. Per ulteriori informazioni, vedere [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) nel contenuto per sviluppatori e amministratori.  
 
 ## <a name="see-also"></a>Vedere anche
 

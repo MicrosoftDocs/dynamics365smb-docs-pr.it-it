@@ -1,58 +1,62 @@
 ---
-title: Collegare e modificare le impostazioni salvate nei report | Documenti Microsoft
-description: Descrive l'utilizzo delle opzioni predefinite e dei filtri per personalizzare un report e generare dati corretti.
+title: Gestire impostazioni salvate per report e processi batch
+description: Descrive come l'amministratore può impostare opzioni e filtri predefiniti per un report e condividere tali impostazioni con uno o tutti gli utenti.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 04/01/2020
+ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: d61e599b9e86f28de6edcf4ccff5b245503880fe
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784611"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137187"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gestire impostazioni salvate per report e processi batch
-Quando si eseguono report, gli utenti di norma vedono una pagina che consente loro di selezionare opzioni e impostare filtri per modificare i dati inclusi nel report generato. Questa pagina è denominata la pagina di richiesta. Un report può includere uno o più *impostazioni salvate* che gli utenti possono applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Per ulteriori informazioni, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).
+
+Quando si eseguono report, gli utenti di norma vedono una pagina che consente loro di selezionare opzioni e impostare filtri per modificare i dati inclusi nel report generato. Questa pagina è denominata la *pagina di richiesta*. Un report può includere uno o più *impostazioni salvate* che gli utenti possono applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Per ulteriori informazioni, vedi [Utilizzo dei valori predefiniti - impostazioni predefinite](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
-> Questo argomento fa essenzialmente riferimento a “report" ma informazioni simili si applicano ai processi batch.
+> Questo argomento fa riferimento a *report* ma informazioni simili si applicano ai *processi batch*.
 
 Se si dispone delle autorizzazioni appropriate, è possibile visualizzare, creare e modificare le impostazioni salvate per tutti i report di tutti gli utenti in una società. È possibile assegnare le impostazioni salvate per un report ai singoli utenti o a tutti gli utenti della società.
 
-<!--
-## Apply saved settings to a report
-1. Open the report.
+## <a name="manage-saved-settings"></a>Gestire le impostazioni salvate
 
-   The request page appears.    
-2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
-
-   The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
-
--->
-
-## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Per creare e modificare impostazioni salvate per tutti gli utenti
 È possibile gestire le impostazioni salvate nella pagina **Impostazioni report**. Sono disponibili due modi per aprire questa pagina:
--   Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impostazioni report** e quindi scegliere il collegamento correlato.
--   Aprire un report, scegliere la funzionalità di ricerca nel campo **Utilizza valori predefiniti da:**, quindi scegliere l'azione **Seleziona da elenco completo**.
 
-Nella pagina vengono visualizzate tutte le voci delle impostazioni salvate esistenti per tutti gli utenti. Se esiste un nome utente nel campo **Assegnato a**, solo tale utente può utilizzare le impostazioni salvate per il report associato. Se è presente un segno di spunta nel campo **Condiviso con tutti gli utenti**, tutti gli utenti possono utilizzare le impostazioni salvate per il report.
+- Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impostazioni report**, quindi scegli il collegamento correlato.
+- Nella pagina del richiesta del report, scegli la funzionalità di ricerca nel campo **Utilizza valori predefiniti da:**, quindi scegli l'azione **Seleziona da elenco completo**.
+
+    Questo campo è visibile solo se hai eseguito il report almeno una volta in precedenza. L'elenco mostrerà solo le impostazioni a tua disposizione, perché sono le tue impostazioni o perché sono condivise con te.
+
+Nella pagina **Impostazioni report** vengono visualizzate tutte le voci delle impostazioni salvate esistenti per tutti gli utenti. Se esiste un nome utente nel campo **Assegnato a**, solo tale utente può utilizzare le impostazioni salvate per il report associato. Se è presente un segno di spunta nel campo **Condiviso con tutti gli utenti**, tutti gli utenti possono utilizzare le impostazioni salvate per il report.  
+
+> [!TIP]
+> Quando un utente ha eseguito un report che supporta le impostazioni condivise, le sue impostazioni vengono salvate e aggiunte a questo elenco. Nella maggior parte dei casi, l'amministratore può quindi modificare tali impostazioni e scegliere di condividere le impostazioni con tutti gli utenti.
+>
+> Tuttavia, in alcuni casi, le impostazioni non possono essere condivise e l'amministratore non può nemmeno modificarle. La maggior parte dei processi batch non supporta le impostazioni condivise.  
+
+## <a name="create-or-modify-saved-settings-for-all-users"></a>Creare o modificare le impostazioni salvate per tutti gli utenti
 
 Nella pagina **Impostazioni report**, è possibile:
--   Scegliere l'azione **Nuovo** per creare da zero una nuova voce di impostazioni salvate.
--   Selezionare una voce di impostazioni salvate dall'elenco e scegliere l'azione **Copia** per creare una copia.
--   Selezionare una voce di impostazioni salvate dall'elenco e scegliere l'azione **Modifica** per modificare una voce di impostazioni salvate.
+
+- Scegliere l'azione **Nuovo** per creare da zero una nuova voce di impostazioni salvate.
+- Selezionare una voce di impostazioni salvate dall'elenco e scegliere l'azione **Copia** per creare una copia.
+- Selezionare una voce di impostazioni salvate dall'elenco e scegliere l'azione **Modifica** per modificare una voce di impostazioni salvate.
 
 > [!Important]
 > Tenere in considerazione il nome che viene assegnato a una voce di impostazioni salvate. Se si crea una voce di impostazioni salvate per tutti gli utenti e le si assegna lo stesso nome di una voce di impostazioni salvate esistente solo per un utente specifico, tale utente non potrà utilizzare la voce di impostazioni salvate assegnata a tutti gli utenti.  Nella sezione **Impostazioni salvate** nella pagina di richiesta, l'utente vedrà due voci di impostazioni salvate con lo stesso nome. Tuttavia, indipendentemente dall'opzione scelta, verrà usata la voce di impostazioni salvate specifica dell'utente.
 
 > [!NOTE]
-> La funzionalità Impostazioni salvate è disponibile solo nei report in cui la [proprietà SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) della pagina di richiesta del report è impostata su **Sì**. La proprietà **SaveValues** viene impostata nell'ambiente di sviluppo.  
+> La funzionalità per salvare le impostazioni è disponibile solo nei report in cui la [proprietà SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) della pagina di richiesta del report è impostata su **Sì**. La proprietà **SaveValues** viene impostata dallo sviluppatore.  
 
 ## <a name="see-also"></a>Vedere anche
+
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

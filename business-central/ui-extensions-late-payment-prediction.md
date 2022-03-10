@@ -1,23 +1,23 @@
 ---
-title: Prevedere pagamenti ritardati per documenti di vendita | Documenti Microsoft
-description: Utilizzare il modello di previsione per verificare se una fattura verrà pagata con puntualità.
+title: Prevedere pagamenti in ritardo per documenti di vendita
+description: Questo argomento spiega come utilizzare il modello di previsione per verificare se una fattura verrà pagata con puntualità.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c1c9f6a0aec94161b2043b5bf5cb5737bce3f8d2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915062"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136771"
 ---
-# <a name="the-late-payment-prediction-extension"></a>Estensione Previsione pagamento ritardato  
+# <a name="the-late-payment-prediction-extension"></a>Estensione Previsione pagamento ritardato
+
 La gestione efficace dei crediti è importante per lo stato finanziario complessivo di un'azienda. L'estensione Previsione pagamento ritardato consente di ridurre i crediti in sospeso e perfezionare la strategia di riscossione prevedendo se le fatture di vendita verranno pagate con puntualità. Ad esempio, se si prevede che un pagamento sia in ritardo, è possibile decidere di adeguare i termini di pagamento o il metodo di pagamento per il cliente.
 
 ## <a name="getting-started"></a>Introduzione
@@ -26,11 +26,11 @@ Quando si apre un documento di vendita registrato, viene visualizzato un avviso 
 
 Per abilitare l'estensione manualmente, attenersi alla seguente procedura:
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impostazione previsione pagamento ritardato** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impostazione previsione pagamento ritardato**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
 
 > [!Note]
-> Se si decide di abilitare l'estensione manualmente, tenere presente che [!INCLUDE[d365fin](includes/d365fin_md.md)]non consentirà di farlo se la qualità del modello è bassa. La qualità del modello indica l'accuratezza delle previsioni del modello. Numerosi fattori possono influire sulla qualità di un modello. Ad esempio, la quantità di dati potrebbe essere insufficiente oppure i dati non contengono variazioni sufficienti. È possibile visualizzare la qualità del modello attualmente in uso nella pagina **Impostazione previsione pagamento ritardato**. È inoltre possibile specificare una soglia minima per la qualità del modello.   
+> Se si decide di abilitare l'estensione manualmente, tenere presente che [!INCLUDE[prod_short](includes/prod_short.md)]non consentirà di farlo se la qualità del modello è bassa. La qualità del modello indica l'accuratezza delle previsioni del modello. Numerosi fattori possono influire sulla qualità di un modello. Ad esempio, la quantità di dati potrebbe essere insufficiente oppure i dati non contengono variazioni sufficienti. È possibile visualizzare la qualità del modello attualmente in uso nella pagina **Impostazione previsione pagamento ritardato**. È inoltre possibile specificare una soglia minima per la qualità del modello.   
 
 ## <a name="viewing-all-payment-predictions"></a>Visualizzare tutte le previsioni di pagamento
 Se si abilita l'estensione, nella Gestione ruolo utente **Manager aziendale** sarà disponibile un riquadro **Pagamenti con previsione di ritardo**. Il riquadro visualizza il numero di pagamenti che si prevede siano in ritardo e consente di aprire la pagina **Movimenti contabili clienti** in cui è possibile esaminare in dettaglio le fatture registrate. Sono presenti tre colonne a cui prestare attenzione:  
@@ -49,7 +49,7 @@ Se si abilita l'estensione, nella Gestione ruolo utente **Manager aziendale** sa
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
 ## <a name="design-details"></a>Dettagli di progettazione
-Microsoft distribuisce e gestisce un certo numero di servizi Web predittivi in tutte le aree geografiche in cui [!INCLUDE[d365fin](includes/d365fin_md.md)] è disponibile. L'accesso a questi servizi Web è incluso nel tuo abbonamento [!INCLUDE[d365fin](includes/d365fin_md.md)]. Per ulteriori informazioni, vedere Guida alle licenze di Microsoft Dynamics 365 Business Central. La guida è disponibile per il download sul sito Web di [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
+Microsoft distribuisce e gestisce un certo numero di servizi Web predittivi in tutte le aree geografiche in cui [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile. L'accesso a questi servizi Web è incluso nel tuo abbonamento [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere Guida alle licenze di Microsoft Dynamics 365 Business Central. La guida è disponibile per il download sul sito Web di [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
 I servizi Web funzionano in tre modalità:
 - Training del modello. Il servizio Web effettua il training del modello in base al set di dati fornito.
@@ -63,7 +63,7 @@ Questi servizi Web sono apolidi, nel senso che utilizzano i dati solo per calcol
 
 ### <a name="data-required-to-train-and-evaluate-the-model"></a>Dati obbligatori per il training e la valutazione del modello 
 Per ciascun **Movimento contabile clienti** che ha una relativa **Spedizione vendita registrate**:
-- Importo (LCY) imposta inclusa
+- Importo (VL) imposta inclusa
 - Le condizioni di pagamento in giorni sono calcolate come **Scadenza** meno **Data di registrazione**.
 - Specifica se esiste una nota di credito applicata. 
 
@@ -82,16 +82,16 @@ Inoltre, il record è arricchito con dati aggregati provenienti da altre fatture
 > Le informazioni sul cliente non sono incluse nel set di dati.
 
 ### <a name="standard-model-and-my-model"></a>Modello standard e modello personale
-L'estensione Previsione pagamento ritardato contiene un modello predittivo il cui training viene effettuato utilizzando dati significativi di una serie di piccole e medie imprese. Quando inizi a registrare fatture e a ricevere pagamenti, [!INCLUDE[d365fin](includes/d365fin_md.md)] valuterà se il modello standard si adatta al tuo flusso aziendale. 
+L'estensione Previsione pagamento ritardato contiene un modello predittivo il cui training viene effettuato utilizzando dati significativi di una serie di piccole e medie imprese. Quando inizi a registrare fatture e a ricevere pagamenti, [!INCLUDE[prod_short](includes/prod_short.md)] valuterà se il modello standard si adatta al tuo flusso aziendale. 
 
-Se sembra che i tuoi processi non corrispondano al modello standard, puoi comunque utilizzare l'estensione, ma dovrai ottenere più dati. Continua semplicemente a utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Se sembra che i tuoi processi non corrispondano al modello standard, puoi comunque utilizzare l'estensione, ma dovrai ottenere più dati. Continua semplicemente a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)].
 > [!Note]
 > Una piccola parte del tempo di calcolo settimanale aziendale viene utilizzata per valutare ed eseguire nuovamente il training del modello. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] esegue il traning e la valutazione automaticamente quando vi sono abbastanza fatture pagate e in ritardo, tuttavia è possibile eseguirlo manualmente ogni volta che lo si desidera.
+[!INCLUDE[prod_short](includes/prod_short.md)] esegue il traning e la valutazione automaticamente quando vi sono abbastanza fatture pagate e in ritardo, tuttavia è possibile eseguirlo manualmente ogni volta che lo si desidera.
 
 #### <a name="to-train-and-use-your-model"></a>Per eseguire il training del modello ed utilizzarlo
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impostazione previsione pagamento ritardato** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impostazione previsione pagamento ritardato**, quindi scegli il collegamento correlato.  
 2. Nel campo **Modello selezionato** selezionare **Modello personale**.
 3. Scegli l'azione **Crea modello personale** per eseguire il training del modello sui tuoi dati.  
 
@@ -102,12 +102,18 @@ Se sembra che i tuoi processi non corrispondano al modello standard, puoi comunq
 2. Cerca **Sistema sperimentale predittivo per Dynamics 365 Business Central**, quindi apri il modello in Azure Machine Learning Studio.  
 3. Utilizzare l'account Microsoft per impostare un'area di lavoro, quindi copiare il modello.  
 4. Eseguire il modello e pubblicarlo come servizio Web.  
-5. Prendere nota dell'URL API e della chiave API. Usare queste le credenziali per un setup del flusso di cassa.  
-6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Impostazione previsione pagamento ritardato** e quindi scegliere il collegamento correlato.  
+5. Prendere nota dell'URL API e della chiave API. Usa queste le credenziali per un setup del flusso di cassa.  
+6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impostazione previsione pagamento ritardato**, quindi scegli il collegamento correlato.  
 7. Scegliere la casella di controllo **Utilizza sottoscrizione di Azure personale**.
 8. Nella Scheda dettaglio **Credenziali modello personale**, immettere l'URL dell'API e la chiave API per il modello.  .  
 
-## <a name="see-also"></a>Vedere anche  
-[Documentazione di Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+
+## <a name="see-also"></a>Vedere anche
+
+[Documentazione di Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)  
-[Benvenuto in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[Usare l'intelligenza artificiale in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

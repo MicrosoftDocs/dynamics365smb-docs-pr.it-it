@@ -1,23 +1,21 @@
 ---
-title: 'Procedura: Impostazione di definizioni e batch di registrazioni'
-description: Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazioni Intrastat all'ufficio doganale, indicando in dettaglio le cessioni e gli acquisti intracomunitari relativamente all'anno in corso.
-services: project-madeira
-documentationcenter: ''
+title: Impostazione di definizioni e batch di registrazioni (IT)
+description: Scopri come la versione italiana supporta l'obbligo per tutte le società dell'Unione Europea (UE) di inviare i report Intrastat all'ufficio doganale.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 12119, 12132, 12140
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5263f146774b48aa8829a489f1dc13c6d247f795
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 54e9bcc269ac99eff55b5c52c9b27a8764b081ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442909"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132232"
 ---
 # <a name="set-up-journal-templates-and-batches"></a>Impostazione di definizioni e batch di registrazioni
 Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazioni Intrastat all'ufficio doganale, indicando in dettaglio le cessioni e gli acquisti intracomunitari relativamente all'anno in corso. Un report riepilogativo Intrastat viene presentato agli uffici tributari con cadenza mensile, trimestrale o annuale, a seconda dell'entità delle operazioni della società.  
@@ -30,10 +28,10 @@ Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazion
 2.  Per creare una nuova definizione di registrazione Intrastat, scegliere l'azione **Nuovo**.  
 3.  Nella pagina **Def. registrazioni Intrastat** compilare i campi come indicato nella tabella riportata di seguito.  
 
-    |Campo|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Nome**|Nome della definizione di registrazione Intrastat. È possibile immettere un massimo di 10 caratteri alfanumerici.|  
-    |**Description**|Descrizione della definizione di registrazione Intrastat. È possibile immettere un massimo di 80 caratteri alfanumerici.|  
+|Campo|Description|  
+|---------------------------------|---------------------------------------|  
+|**Nome**|Nome della definizione di registrazione Intrastat. È possibile immettere un massimo di 10 caratteri alfanumerici.|  
+|**Description**|Descrizione della definizione di registrazione Intrastat. È possibile immettere un massimo di 80 caratteri alfanumerici.|  
 
 4.  Scegliere il pulsante **OK**.  
 
@@ -43,17 +41,17 @@ Tutte le società dell'Unione Europea (UE) sono tenute e presentare dichiarazion
 2.  Per aprire la pagina **Batch reg. Intrastat**, selezionare il modello desiderato, quindi scegliere **Batch**.  
 3.  Compilare i campi come indicato nella tabella seguente.  
 
-    |Campo|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Nome**|Nome della registrazione Intrastat. È possibile immettere un massimo di 10 caratteri alfanumerici.|  
-    |**Description**|Descrizione della registrazione Intrastat. È possibile immettere un massimo di 50 caratteri alfanumerici.|  
-    |**Periodicità**|Selezionare una delle seguenti opzioni:<br /><br /> -   **Mese**<br />-   **Trimestre**<br />-   **Anno**|  
-    |**Tipo**|Selezionare una delle seguenti opzioni:<br /><br /> -   **Acquisti**<br />-   **Vendite**|  
-    |**Periodo statistico**|Periodo statistico che sarà coperto dal report. Immettere il valore nel formato AAMM.|  
-    |**Mov. di rettifica**|Selezionare la casella di controllo **Mov. di rettifica** per rettificare un movimento.|  
-    |**Nr. dischetto**|Numero del dischetto.<br /><br /> Questo campo viene utilizzato quando si esegue il processo batch Intrastat - Floppy dichiaraz.|  
-    |**Identificatore valuta**|Codice identificativo della valuta per il report Intrastat.|  
-    |**Riportato**|Se il movimento è già stato dichiarato agli uffici tributari, selezionare la casella di controllo **Riportato**. Questa casella di controllo viene selezionata automaticamente quando si esegue il processo batch **Intrastat - Floppy dichiaraz.** per il movimento in questione.|  
+|Campo|Description|  
+|---------------------------------|---------------------------------------|  
+|**Nome**|Nome della registrazione Intrastat. È possibile immettere un massimo di 10 caratteri alfanumerici.|  
+|**Description**|Descrizione della registrazione Intrastat. È possibile immettere un massimo di 50 caratteri alfanumerici.|  
+|**Periodicità**|Selezionare una delle seguenti opzioni:<br /><br /> -   **Mese**<br />-   **Trimestre**<br />-   **Anno**|  
+|**Tipo**|Selezionare una delle seguenti opzioni:<br /><br /> -   **Acquisti**<br />-   **Vendite**|  
+|**Periodo statistico**|Periodo statistico che sarà coperto dal report. Immettere il valore nel formato AAMM.|  
+|**Mov. di rettifica**|Selezionare la casella di controllo **Mov. di rettifica** per rettificare un movimento.|  
+|**Nr. dischetto**|Numero del dischetto.<br /><br /> Questo campo viene utilizzato quando si esegue il processo batch Intrastat - Floppy dichiaraz.|  
+|**Identificatore valuta**|Codice identificativo della valuta per il report Intrastat.|  
+|**Riportato**|Se il movimento è già stato dichiarato agli uffici tributari, selezionare la casella di controllo **Riportato**. Questa casella di controllo viene selezionata automaticamente quando si esegue il processo batch **Intrastat - Floppy dichiaraz.** per il movimento in questione.|  
 
 4.  Per chiudere la pagina, scegliere il pulsante **OK**.  
 

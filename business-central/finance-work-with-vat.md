@@ -1,32 +1,35 @@
 ---
-title: "Procedura: Utilizzare l'IVA nelle vendite e negli acquisti | Documenti Microsoft"
-description: In questo argomento viene descritto come eseguire task quali la correzione di movimenti IVA già registrati. Nei paesi dell'Unione Europea ogni transazione di vendita e di acquisto è soggetta ai calcoli IVA. In questo argomento viene descritta la procedura.
+title: Come utilizzare l'IVA nelle vendite e negli acquisti
+description: Questo argomento descrive i vari modi di lavorare con l'IVA sia manualmente che con l'impostazione automatica, per aiutarti a soddisfare le normative specifiche del paese.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases,
-ms.date: 01/13/2020
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: cea6e77533d159884abf38a1e1e70aaebe21ea9c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: ed3cbe00aac1faf920df6954ee1694bdabce9835
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953637"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133786"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
-Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
+Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
 
-Ci sono, tuttavia, alcuni task relativi all'IVA che è possibile eseguire manualmente. Ad esempio, potrebbe essere necessario correggere un importo già registrato se si scopre che un fornitore utilizza un metodo di arrotondamento diverso.
+Ci sono, tuttavia, alcuni task relativi all'IVA che è possibile eseguire manualmente. Ad esempio, potrebbe essere necessario correggere un importo già registrato se si scopre che un fornitore utilizza un metodo di arrotondamento diverso.  
+
+> [!TIP]
+> È possibile consentire a [!INCLUDE[prod_short](includes/prod_short.md)] di convalidare i numeri di partita IVA e altre informazioni sulla società durante la creazione o l'aggiornamento dei documenti. Per ulteriori informazioni, vedere [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calcolo e visualizzazione degli importi IVA nei documenti di vendita e di acquisto  
 È possibile calcolare e visualizzare gli importi IVA nei documenti di vendita e di acquisto in modo diverso, in base al tipo di cliente o di fornitore con cui si hanno relazioni commerciali. È inoltre possibile sovrascrivere l'importo IVA calcolato in modo che corrisponda all'importo IVA calcolato dal fornitore per una determinata transazione.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Prezzo unitario e importo riga con IVA inclusa ed esclusa nei documenti di vendita  
-Quando si sceglie un numero di articolo nel campo **Nr.** in un documento di vendita, [!INCLUDE[d365fin](includes/d365fin_md.md)] compila automaticamente il campo **Prezzo unitario**. Il prezzo unitario deriva dalla scheda **Articolo** o dai prezzi degli articoli definiti per l'articolo e il cliente. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il valore del campo **Importo riga** quando si immette una quantità per la riga.  
+Quando si sceglie un numero di articolo nel campo **Nr.** in un documento di vendita, [!INCLUDE[prod_short](includes/prod_short.md)] compila automaticamente il campo **Prezzo unitario**. Il prezzo unitario deriva dalla scheda **Articolo** o dai prezzi degli articoli definiti per l'articolo e il cliente. [!INCLUDE[prod_short](includes/prod_short.md)] calcola il valore del campo **Importo riga** quando si immette una quantità per la riga.  
 
 Nei casi in cui si vende a clienti che si occupano di vendita al dettaglio, potrebbe essere necessario che i prezzi sui documenti di vendita siano comprensivi dell'IVA. A tale scopo, selezionare la casella di controllo **Prezzi IVA inclusa** nel documento.  
 
@@ -69,7 +72,7 @@ Di seguito viene descritto come abilitare le modifiche manuali dell'IVA nei docu
 > L'importo totale per la fattura, raggruppato in base al codice IVA, viene visualizzato nelle righe. È possibile rettificare manualmente l'importo nel campo **Importo IVA** nelle righe per ogni codice IVA. Quando si modifica il campo **Importo IVA** viene effettuato un controllo per verificare che l'IVA non sia stata modificata di un importo superiore a quello specificato come massima differenza consentita. Se l'importo è superiore a quello specificato nel campo **Max. differenza IVA permessa**, viene visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo in modo che rientri nei parametri accettabili. Fare clic su **OK** e immettere un diverso **Importo IVA** che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o inferiore a quella massima consentita, l'IVA verrà divisa proporzionalmente tra le righe del documento con lo stesso codice IVA.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Calcolo manuale dell'IVA utilizzando le registrazioni  
-È anche possibile rettificare gli importi IVA nelle registrazioni COGE, vendite e acquisti. Ad esempio, questa operazione potrebbe essere necessaria quando si immette una fattura del fornitore nelle registrazioni e vi è una differenza tra l'importo IVA calcolato da [!INCLUDE[d365fin](includes/d365fin_md.md)] e quello specificato nella fattura del fornitore.  
+È anche possibile rettificare gli importi IVA nelle registrazioni COGE, vendite e acquisti. Ad esempio, questa operazione potrebbe essere necessaria quando si immette una fattura del fornitore nelle registrazioni e vi è una differenza tra l'importo IVA calcolato da [!INCLUDE[prod_short](includes/prod_short.md)] e quello specificato nella fattura del fornitore.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Per impostare il sistema per il movimento IVA manuale in una registrazione COGE
 È necessario eseguire i passaggi seguenti prima di inserire manualmente l'IVA in una registrazione COGE.  
@@ -82,10 +85,10 @@ Di seguito viene descritto come abilitare le modifiche manuali dell'IVA nei docu
 
 1. Nella pagina **Setup contabilità fornitori e acquisti** selezionare la casella di controllo **Permetti differenze IVA**.  
 2. Ripetere il passaggio 1 per la pagina **Setup contabilità clienti**.
-3. Una volta completata l'impostazione descritta sopra, è possibile rettificare il campo **Importo IVA** nella riga di registrazioni COGE o il campo **Imp. IVA controp.** nelle righe di registrazioni vendite o acquisti. [!INCLUDE[d365fin](includes/d365fin_md.md)] verificherà che la differenza non sia maggiore dell'importo massimo specificato.  
+3. Una volta completata l'impostazione descritta sopra, è possibile rettificare il campo **Importo IVA** nella riga di registrazioni COGE o il campo **Imp. IVA controp.** nelle righe di registrazioni vendite o acquisti. [!INCLUDE[prod_short](includes/prod_short.md)] verificherà che la differenza non sia maggiore dell'importo massimo specificato.  
 
-    > [!NOTE]  
-    > Se la differenza è maggiore, verrà visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo. Scegliere **OK** e immettere un importo che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o minore di quella massima consentita, [!INCLUDE[d365fin](includes/d365fin_md.md)] mostrerà la differenza nel campo **Differenza IVA**.  
+> [!NOTE]  
+> Se la differenza è maggiore, verrà visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo. Scegliere **OK** e immettere un importo che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o minore di quella massima consentita, [!INCLUDE[prod_short](includes/prod_short.md)] mostrerà la differenza nel campo **Differenza IVA**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Registrare l'IVA da importazione con fatture di acquisto
 Anziché utilizzare le registrazioni per registrare una fattura con IVA da importazione, è possibile utilizzare una fattura di acquisto.  
@@ -93,14 +96,14 @@ Anziché utilizzare le registrazioni per registrare una fattura con IVA da impor
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Per impostare l'acquisto per registrare le fatture con IVA da importazione  
 1. Impostare una scheda fornitore per l'autorità di importazione che invia la fattura con IVA da importazione. I campi **Cat. reg. business** e **Cat. reg. business IVA** devono essere impostati in modo analogo al conto C/G per l'IVA da importazione.  
 2. Creare una categoria **Cat. reg. articoli/servizi** per l'IVA da importazione e impostare una categoria **Cat. reg. art. serv. IVA default** relativa all'IVA da importazione per la categoria correlata creata in **Cat. reg. articoli/servizi**.  
-3. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Piano dei conti** e quindi scegliere il collegamento correlato.  
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 4. Selezionare il conto di contabilità generale per l'IVA da importazione e scegliere l'azione **Modifica**.  
-5. Nella Scheda dettaglio **Registrazione** selezionare il setup **Cat. reg. articolo/servizio** per l'IVA da importazione. In [!INCLUDE[d365fin](includes/d365fin_md.md)] il campo **Cat. reg. art./serv. IVA** viene compilato automaticamente.  
-6. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup registrazioni COGE** e quindi scegliere il collegamento correlato.  
+5. Nella Scheda dettaglio **Registrazione** selezionare il setup **Cat. reg. articolo/servizio** per l'IVA da importazione. In [!INCLUDE[prod_short](includes/prod_short.md)] il campo **Cat. reg. art./serv. IVA** viene compilato automaticamente.  
+6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.  
 7. Creare una combinazione tra la **Cat. reg. business** per l'autorità competente sull'IVA e la **Cat. reg. articolo/servizio** per l'IVA da importazione. Per questa nuova combinazione, nel campo **Conto acquisti** scegliere il conto di contabilità generale per l'IVA da importazione.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Per creare una nuova fattura per il fornitore dell'importazione competente dopo avere completato il setup  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Fatture acquisto** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Creare una nuova fattura di acquisto.  
 3. Nel campo **Acquistare da - Nr. for.** scegliere il fornitore dell'importazione competente, quindi scegliere il pulsante **OK**.  
 4. Nel campo **Tipo** della riga di acquisto scegliere **Conto CG** e nel campo **Nr.** scegliere il conto di contabilità generale per l'IVA da importazione.  
@@ -112,73 +115,77 @@ Anziché utilizzare le registrazioni per registrare una fattura con IVA da impor
 Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare il cliente un certificato di fornitura che il cliente deve firmare e restituire all'utente. Le procedure riportate di seguito sono utili a elaborare i certificati di fornitura per le spedizioni vendita, ma gli stessi passaggi sono applicabili anche per le spedizioni di assistenza per gli articoli e per le spedizioni di reso ai fornitori.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Per visualizzare i dettagli del certificato di fornitura  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Scegliere **Dettagli certificato di fornitura**.  
 4. Per impostazione predefinita, se è selezionata la casella di controllo **Certificato di fornitura obbligatorio** per l'impostazione della categoria di registrazione IVA per il cliente, il campo **Stato** è impostato su **Obbligatorio**. È possibile aggiornare il campo per specificare se il cliente ha restituito il certificato.  
 
-    > [!Note]  
-    >  Se l'impostazione della categoria di registrazione IVA non ha la casella di controllo **Certificato di fornitura richiesto** selezionata, viene creato un record e il campo **Stato** è impostato su **Non applicabile**. È possibile aggiornare il campo per riflettere le corrette informazioni relative allo stato. È possibile modificare manualmente lo stato da **Non applicabile** a **Obbligatorio** e da **Obbligatorio** a **Non applicabile** in base alle esigenze.  
+> [!Note]  
+>  Se l'impostazione della categoria di registrazione IVA non ha la casella di controllo **Certificato di fornitura richiesto** selezionata, viene creato un record e il campo **Stato** è impostato su **Non applicabile**. È possibile aggiornare il campo per riflettere le corrette informazioni relative allo stato. È possibile modificare manualmente lo stato da **Non applicabile** a **Obbligatorio** e da **Obbligatorio** a **Non applicabile** in base alle esigenze.  
 
    Quando si aggiorna il campo **Stato** su **Obbligatorio**, **Ricevuto** o **Non ricevuto**, viene creato un certificato.  
 
-    > [!TIP]  
-    >  È possibile utilizzare la pagina **Certificati di fornitura** per visualizzare lo stato di tutte le spedizioni registrate per le quali un certificato di fornitura è stato creato.  
+> [!TIP]  
+>  È possibile utilizzare la pagina **Certificati di fornitura** per visualizzare lo stato di tutte le spedizioni registrate per le quali un certificato di fornitura è stato creato.  
 
 5. Scegliere **Stampa certificato di fornitura**.  
 
-    > [!Note]  
-    >  È possibile visualizzare in anteprima o stampare il documento. Scegliendo **Stampa certificato di fornitura** e si stampa il documento, la casella di controllo **Stampato** viene selezionata. Inoltre, se non è già specificato, lo stato del certificato viene aggiornato a **Obbligatorio**. Se necessario, includere il certificato stampato con la spedizione.  
+> [!Note]  
+>  È possibile visualizzare in anteprima o stampare il documento. Scegliendo **Stampa certificato di fornitura** e si stampa il documento, la casella di controllo **Stampato** viene selezionata. Inoltre, se non è già specificato, lo stato del certificato viene aggiornato a **Obbligatorio**. Se necessario, includere il certificato stampato con la spedizione.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Per stampare un certificato di fornitura  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Scegliere l'azione **Stampa certificato di fornitura**.  
 
-    > [!NOTE]  
-    >  In alternativa, è possibile stampare un certificato dalla pagina **Certificato di fornitura**.  
+> [!NOTE]  
+>  In alternativa, è possibile stampare un certificato dalla pagina **Certificato di fornitura**.  
 
 4. Per includere le informazioni dalle righe presenti nel documento di spedizione nel certificato, selezionare la casella di controllo **Stampa dettagli riga**.  
-5. Selezionare la casella di controllo **Crea certificati di fornitura se non ancora creati** per fare in modo che [!INCLUDE[d365fin](includes/d365fin_md.md)] crei certificati per le spedizioni registrate che non ne hanno uno al momento dell'esecuzione. Quando si seleziona la casella di controllo, vengono creati nuovi certificati per tutte le spedizioni registrate che non hanno certificati nell'intervallo selezionato.  
+5. Selezionare la casella di controllo **Crea certificati di fornitura se non ancora creati** per fare in modo che [!INCLUDE[prod_short](includes/prod_short.md)] crei certificati per le spedizioni registrate che non ne hanno uno al momento dell'esecuzione. Quando si seleziona la casella di controllo, vengono creati nuovi certificati per tutte le spedizioni registrate che non hanno certificati nell'intervallo selezionato.  
 6. Per impostazione predefinita, le impostazioni del filtro sono per il documento di spedizione selezionato. Immettere le informazioni di filtro per selezionare un certificato specifico di fornitura da stampare.  
 7. Nella pagina **Certificato di fornitura**, scegliere l'azione **Stampa** per stampare il report o scegliere l'azione **Anteprima** per visualizzarlo.  
 
-    > [!Note]  
-    > I campi **Certificato con stato di fornitura** e **Stampato** vengono aggiornati per la spedizione nella pagina **Certificati di fornitura**.  
+> [!Note]  
+> I campi **Certificato con stato di fornitura** e **Stampato** vengono aggiornati per la spedizione nella pagina **Certificati di fornitura**.  
 
 8. Inviare il certificato di fornitura stampato al cliente per la firma.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Per aggiornare lo stato di un certificato di fornitura per una spedizione  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Spedizioni vendita registrate** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Nel campo **Stato** scegliere l'opzione pertinente.  
 
    Se il cliente restituisce il certificato di fornitura firmato, scegliere **Ricevuto**. Il campo **Data carico** viene aggiornato. Per impostazione predefinita, la data di carico è impostata come la data programma corrente.  
 
-   È possibile modificare la data per indicare la data in cui è stato ricevuto il certificato di fornitura firmato dal cliente. È inoltre possibile aggiungere un collegamento al certificato firmato utilizzando la funzione standard di collegamento di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+   È possibile modificare la data per indicare la data in cui è stato ricevuto il certificato di fornitura firmato dal cliente. È inoltre possibile aggiungere un collegamento al certificato firmato utilizzando la funzione standard di collegamento di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
    Se il cliente non restituisce il certificato di fornitura firmato, scegliere **Non ricevuto**. È quindi necessario inviare al cliente una nuova fattura inclusiva di IVA, in quanto la fattura originale non verrà accettata dall'autorità fiscale.  
 
 Per visualizzare un gruppo di certificati, si inizia dalla pagina **Certificati di fornitura** e quindi si aggiornano le informazioni relative allo stato dei certificati in sospeso appena vengono ricevuti dai clienti. Questo può risultare utile quando si desidera individuare tutti i certificati con un determinato stato, ad esempio, **Obbligatorio**, per i quali si desidera aggiornare lo stato a **Non ricevuto**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Per aggiornare lo stato di un gruppo di certificati di fornitura.  
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Certificati di fornitura** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Certificati di fornitura**, quindi scegli il collegamento correlato.  
 2. Filtrare il campo **Stato** secondo il valore che si desidera per creare l'elenco dei certificati che si desidera gestire.  
 3. Per aggiornare le informazioni sullo stato, scegliere **Modifica lista**.  
 4. Nel campo **Stato** scegliere l'opzione pertinente.  
 
    Se il cliente restituisce il certificato di fornitura firmato, scegliere **Ricevuto**. Il campo **Data carico** viene aggiornato. Per impostazione predefinita, la data di carico è impostata come la data programma corrente.  
 
-   È possibile modificare la data per indicare la data in cui è stato ricevuto il certificato di fornitura firmato. È inoltre possibile aggiungere un collegamento al certificato firmato utilizzando la funzione standard di collegamento dei documenti di [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+   È possibile modificare la data per indicare la data in cui è stato ricevuto il certificato di fornitura firmato. È inoltre possibile aggiungere un collegamento al certificato firmato utilizzando la funzione standard di collegamento dei documenti di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-    > [!NOTE]  
-    >  Non è possibile creare un nuovo certificato di fornitura nella pagina **Certificato di fornitura** quando si arriva alla stessa utilizzando questa procedura. Per creare un certificato per una spedizione che non è stata impostata per richiederne uno, aprire la spedizione vendita registrata e utilizzare una delle due procedure descritte in precedenza:  
-    >   
-    > * Per creare manualmente un certificato di fornitura  
-    > * Per stampare un certificato di fornitura.
+> [!NOTE]
+> Non è possibile creare un nuovo certificato di fornitura nella pagina **Certificato di fornitura** quando si arriva alla stessa utilizzando questa procedura. Per creare un certificato per una spedizione che non è stata impostata per richiederne uno, aprire la spedizione vendita registrata e utilizzare una delle due procedure descritte in precedenza:  
+>
+> * Per creare manualmente un certificato di fornitura  
+> * Per stampare un certificato di fornitura.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche  
-[Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)   
-[Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)   
+## <a name="see-also"></a>Vedere anche
+
+[Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)  
+[Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
+[Convalidare un numero di partita IVA](finance-how-validate-vat-registration-number.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: Come copiare articoli esistenti in nuovi articoli
 description: Quando si aggiunge un nuovo articolo, per risparmiare tempo è possibile usare la funzione Articolo copia per copiare un articolo esistente da usare come modello per un nuovo articolo.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3e31f64136f09c1623236f976f70fea088a4106c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441120"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130298"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Copiare articoli esistenti per creare nuovi articoli
 

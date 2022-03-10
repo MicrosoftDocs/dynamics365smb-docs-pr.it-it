@@ -1,32 +1,35 @@
 ---
-title: Setup dell'IVA ad esigibilità differita | Documenti Microsoft
+title: Impostazione dell'IVA ad esigibilità differita
 description: Se si utilizza contabilità basata su contanti, è possibile specificare come gestire l'IVA ad esigibilità differita per le vendite e acquisti.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 10/01/2019
+ms.search.form: 118, 472, 473
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a2d0fa994638fed9c0b46508e80c3b0443a9c58
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2f57799d0c0bf8f238745107cccd6c9694c7ea16
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301662"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137967"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti
-Se si utilizzano metodi di contabilità basata su contanti, è possibile impostare [!INCLUDE[d365fin](includes/d365fin_md.md)] affinché gestisca l'IVA ad esigibilità differita.
+
+Se si utilizzano metodi di contabilità basata su contanti, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] affinché gestisca l'IVA ad esigibilità differita.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Per utilizzare conti C/G per l'IVA ad esigibilità differita
+
 Gli importi IVA possono essere calcolati e registrati in un conto di contabilità generale temporaneo al momento della registrazione di una fattura, quindi registrati nel conto corretto e inclusi nelle dichiarazioni IVA al momento della registrazione del pagamento effettivo della fattura. Prima di effettuare questa operazione, è necessario completare l'impostazione della registrazione dell'IVA.
 
 Per utilizzare conti per l'IVA ad esigibilità differita, procedere nel modo seguente:
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immettere **Setup contabilità generale**.
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**.
 2. Nella pagina **Setup contabilità generale** selezionare la casella di controllo **IVA ad esigibilità differita**.
-3. Scegliere l'icona **Cerca pagina o report** ![Lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immettere **Setup registrazioni IVA**.
+3. Scegli l'icona **Cerca pagina o report** ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Setup registrazione IVA**.
 4. Nella pagina **Setup registrazioni IVA** selezionare la categoria di registrazione IVA, quindi scegliere l'azione **Modifica**.
 5. Nel campo **Ripart. IVA ad esig. diff.** scegliere un'opzione per specificare come assegnare i pagamenti all'importo di una fattura (IVA esclusa) e all'importo stesso dell'IVA e come trasferire gli importi dell'IVA dal conto IVA ad esigibilità differita al conto realizzato. Nella seguente tabella vengono illustrate le opzioni.
 
@@ -48,5 +51,7 @@ Per utilizzare conti per l'IVA ad esigibilità differita, procedere nel modo seg
 > [!NOTE]  
 > L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sugli acquisti.
 
-## <a name="see-also"></a>Vedi anche
-[impostazione dell'IVA](finance-setup-vat.md)
+## <a name="see-also"></a>Vedere anche
+[Setup dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

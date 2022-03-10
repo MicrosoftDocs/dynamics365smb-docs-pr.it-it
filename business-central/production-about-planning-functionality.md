@@ -1,21 +1,20 @@
 ---
-title: Informazioni sulla funzionalità di pianificazione | Microsoft Docs
-description: Il sistema di pianificazione considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l'approvvigionamento in modo da soddisfare la domanda.
+title: Informazioni sulla funzionalità di pianificazione
+description: Il sistema di pianificazione in Dynamics 365 Business Central considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l'approvvigionamento in modo da soddisfare la domanda.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 07/14/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2b803e52038d39375aa13dce36f81d429261f985
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.search.form: 5430
+ms.date: 07/16/2021
+ms.author: edupont
+ms.openlocfilehash: 14048cfe4d18df0002f51dacac658a6c07bc0155
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577333"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135109"
 ---
 # <a name="about-planning-functionality"></a>Informazioni sulla funzionalità di pianificazione
 
@@ -37,9 +36,12 @@ Un altro obiettivo del sistema di pianificazione consiste nel garantire che il m
 
 ## <a name="planning-calculation"></a>Calcolo della pianificazione
 
-Il sistema di pianificazione si basa sulla domanda anticipata ed effettiva da parte dei clienti, nonché sui parametri di riordino del magazzino. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dall'applicazione (messaggi di azione) da adottare relativamente al possibile rifornimento da fornitori, trasferimenti tra magazzini o produzione. Se sono già presenti ordini di rifornimento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
+Il sistema di pianificazione si basa sulla domanda anticipata ed effettiva da parte dei clienti, nonché sui parametri di riordino del magazzino. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dall'applicazione ([Messaggi di azione](production-how-to-run-mps-and-mrp.md#action-messages)) da adottare relativamente al possibile rifornimento da fornitori, trasferimenti tra magazzini o produzione. Se sono già presenti ordini di rifornimento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
 
 Le base della procedura di pianificazione consiste nel calcolo del fabbisogno da lordo a netto. Il fabbisogno netto determina il rilascio degli ordini pianificati, la cui programmazione si basa sulle informazioni relative al ciclo (articoli lavorati) o sul lead time della scheda articolo (articoli acquistati). Le quantità relative al rilascio degli ordini pianificati sono basate sul calcolo della pianificazione e sono influenzate dai parametri impostati nelle singole schede articolo.  
+
+> [!TIP]
+> Il sistema di pianificazione si basa sul modo in cui l'organizzazione utilizza le sedi. Per ulteriori informazioni, vedere [Pianificazione con o senza sedi](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Pianificazione con ordini di trasferimento manuali
 
@@ -169,4 +171,7 @@ Per dettagli sulla pianificazione con posizioni e trasferimenti, vedere [Pianifi
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

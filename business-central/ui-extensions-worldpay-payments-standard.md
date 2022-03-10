@@ -1,22 +1,21 @@
 ---
-title: WorldPay Payments Standard| Documenti Microsoft
-description: Fornisce informazioni relative all'estensione WorldPay Payments Standard
+title: WorldPay Payments Standard
+description: L'estensione WorldPay Payments Standard consente di offrire a clienti un'alternativa conveniente per eseguire i pagamenti tramite bonifici bancari o carte di credito.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9aa5b0218ffcedd6b3d6039cabdbcf60a1eab4b9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: dfb523d70938cd4110cca9f963de05bdf8033623
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5394051"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132396"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Estensione WorldPay Payments Standard
 L'estensione WorldPay Payments Standard consente di offrire a clienti un'alternativa conveniente per eseguire i pagamenti tramite bonifici bancari o carte di credito. Non solo, i pagamenti effettuati tramite i servizi di pagamento finiscono in genere più rapidamente nel conto corrente bancario.

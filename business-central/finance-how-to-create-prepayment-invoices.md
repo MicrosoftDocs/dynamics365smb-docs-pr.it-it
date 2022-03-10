@@ -2,20 +2,19 @@
 title: Creare fatture per i pagamenti anticipati
 description: Informazioni su come gestire situazioni in cui un pagamento anticipato viene richiesto da te o dal fornitore. Usa le percentuali predefinite per ogni riga di vendita o di acquisto oppure rettifica l'importo come necessario.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
+ms.openlocfilehash: c1374929790c27bd84733e506866a1e54cea9ffd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889838"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136064"
 ---
 # <a name="create-prepayment-invoices"></a>Creare fatture per i pagamenti anticipati
 

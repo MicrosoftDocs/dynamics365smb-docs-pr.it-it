@@ -1,21 +1,20 @@
 ---
-title: Come assemblare articoli | Microsoft Docs
-description: Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.
+title: Come assemblare gli articoli
+description: Se nel campo Sistema di rifornimento nella scheda articolo è indicato Assemblaggio, il metodo predefinito per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: abf02afda9528d3dac3e59b2def34bd89090d9ae
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 04c8296089847b7ef1ab051158db578413212be9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386726"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146967"
 ---
 # <a name="assemble-items"></a>Assemblare articoli
 Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.  
@@ -41,7 +40,7 @@ Queste opzioni di setup sono impostazioni di default che gestiscono il modo in c
 In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli articoli che vengono assemblati per magazzino, ovvero senza un ordine di vendita collegato. I passaggi includono la creazione dell'ordine di assemblaggio, la gestione dei potenziali problemi di disponibilità dei componenti e la registrazione parziale dell'output dell'articolo di assemblaggio.
 
 ## <a name="to-assemble-an-item"></a>Per assemblare un articolo  
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Ordini di assemblaggio** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di assemblaggio**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**. Verrà visualizzata la pagina **Nuovo ordine di assemblaggio**.  
 3.  Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Nel campo **Nr. articolo** selezionare dell'articolo di assemblaggio che si desidera elaborare. Il campo viene filtrato in modo da visualizzare solo gli articoli impostati per l'assemblaggio, ovvero quelli a cui sono assegnate DB di assemblaggio.  

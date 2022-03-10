@@ -1,21 +1,20 @@
 ---
-title: Preparare la migrazione dei dati dei clienti con modelli | Documenti Microsoft
-description: Informazioni su come utilizzare i modelli di configurazione per strutturare i dati dei clienti esistenti prima di migrare i dati nella nuova società in Business Central.
+title: Preparare la migrazione dei dati dei clienti con modelli
+description: Informazioni su come utilizzare i modelli di configurazione per strutturare i dati dei clienti esistenti prima di migrare i dati master nella nuova società in Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ed2d7c8dd8a8a2fe4744c670197a3ac0a7ec38fa
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f0d8430be917981f84eb2841c0840a5b36a8d678
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782295"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143792"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Preparare la migrazione dei dati dei clienti con modelli
 
@@ -28,7 +27,7 @@ In genere, si creano modelli dati per le seguenti tabelle di dati master:
 - **Articolo**  
 - **Fornitore**  
 
-Tuttavia, è possibile creare una struttura del modello a tale scopo e applicarla a qualsiasi tabella in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Tuttavia, è possibile creare una struttura del modello a tale scopo e applicarla a qualsiasi tabella in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > È anche possibile utilizzare modelli dati per le operazioni quotidiane per creare nuovi record basati su modelli. Questi modelli dati funzionano solo per le tabelle di dati master supportate. Per ulteriori informazioni, vedere, ad esempio, [Registrare nuovi articoli](inventory-how-register-new-items.md).  
@@ -47,7 +46,7 @@ Quando si seleziona un modello dati esistente, è necessario stabilire se i mode
 > [!TIP]  
 > È anche possibile utilizzare i modelli dati per creare rapidamente nuovi record. Utilizzarli per una creazione dei dati più rapida e precisa. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli configurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli di configurazione**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Modelli di configurazione**, selezionare un modello di dati dalla lista e quindi scegliere l'azione **Modifica**.  
 
 Se i modelli di default non corrispondono alle proprie esigenze, è possibile creare nuovi modelli o aggiungere i campi a un modello esistente. Se i modelli di default sono sufficienti, è possibile utilizzarli per creare record in base ai modelli dati master.
@@ -87,7 +86,7 @@ L'ID tabella, il nome della tabella e le righe del modello di dati sono immessi 
 3. Nel campo **Valore predefinito**, immettere un valore appropriato. In alcuni casi, potrebbe essere necessario utilizzare un valore che non è disponibile nel database. In questo caso, è possibile selezionare la casella di controllo **Ignora verifica relazione** per consentire di collegare i dati senza errori.
 
     > [!TIP]  
-    > Poiché il campo **Valore predefinito** non dispone di una funzione di ricerca per le opzioni campo [!INCLUDE[d365fin](includes/d365fin_md.md)] corrispondenti, copiare e incollare il valore desiderato dalla pagina correlata nel modello.
+    > Poiché il campo **Valore predefinito** non dispone di una funzione di ricerca per le opzioni campo [!INCLUDE[prod_short](includes/prod_short.md)] corrispondenti, copiare e incollare il valore desiderato dalla pagina correlata nel modello.
 
 4. Selezionare la casella di controllo **Obbligatorio** se gli utenti devono compilare il campo in questione.
 
@@ -98,9 +97,9 @@ L'ID tabella, il nome della tabella e le righe del modello di dati sono immessi 
 
 ## <a name="to-export-to-a-template-in-excel"></a>Per esportare in un modello in Excel
 
-È possibile creare un foglio di lavoro di Excel da utilizzare come modello basato sulla struttura di una tabella di database esistente. È quindi possibile utilizzare il modello per riunificare i dati dei clienti in formato uniforme per la successiva importazione in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+È possibile creare un foglio di lavoro di Excel da utilizzare come modello basato sulla struttura di una tabella di database esistente. È quindi possibile utilizzare il modello per riunificare i dati dei clienti in formato uniforme per la successiva importazione in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Foglio di lavoro configurazione** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.
 2. Aggiungere una tabella alla lista oppure selezionare una tabella esistente. Per ulteriori informazioni, vedere [Gestione della configurazione della società in un foglio di lavoro](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Scegliere l'azione **Mostra campi** per definire i campi dalla tabella che si desidera includere nel modello.
 4. Scegliere l'azione **Esporta in modello**.
@@ -122,7 +121,8 @@ Quando si collegano i dati di un modello in Excel a una tabella, anch'essa colle
 Risulta completo qualsiasi record che presenta questa modalità di collegamento dei dati, poiché è composto dai dati immessi da un utente in Excel e dai valori di default specificati nel modello di configurazione.
 
 > [!NOTE]
-> Se i dati nelle tabelle del pacchetto di configurazione contengono date, ad esempio le date di registrazione nelle fatture, le date vengono considerate nel fuso orario specificato in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> Se i dati nelle tabelle del pacchetto di configurazione contengono date, ad esempio le date di registrazione nelle fatture, le date vengono considerate nel fuso orario specificato in [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Per creare un record da un modello di configurazione
 
@@ -130,17 +130,26 @@ Risulta completo qualsiasi record che presenta questa modalità di collegamento 
 
 Nella seguente procedura viene illustrato come creare una scheda articolo da un modello dati dell'articolo. È possibile creare un record da qualsiasi modello dati utilizzando la stessa procedura.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Modelli configurazione** e quindi scegliere il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli di configurazione**, quindi scegli il collegamento correlato.  
 2. Selezionare il modello **Articolo**, quindi scegliere l'azione **Modifica**. Per ulteriori informazioni, vedere [Per creare un modello di dati](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Selezionare l'azione **Crea istanza**. Una scheda articolo viene creata.  
 4. Scegliere il pulsante **OK**.  
-5. Per esaminare la nuova scheda articolo, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+5. Per rivedere la nuova scheda articolo, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 6. Aprire la nuova scheda articolo.  
 7. Espandere le varie Schede dettaglio e verificare che le informazioni siano state create correttamente.  
 
+## <a name="to-use-conversion-templates"></a>Usare i modelli di conversione
+
+Puoi convertire i contatti in clienti, fornitori e dipendenti. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Per convertire un contatto in un cliente, fornitore o dipendente
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi seleziona il contatto corretto. 
+2. Nella scheda contatto seleziona **Azioni**, quindi **Funzioni**, infine seleziona **Crea come cliente, fornitore, banca o dipendente**.
+
+
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Per utilizzare un modello di configurazione su un record
 
-È possibile applicare un modello dati a qualsiasi record in [!INCLUDE[d365fin](includes/d365fin_md.md)] e utilizzare questa tecnica per modificare un record. Tuttavia, se si esegue questa operazione, sovrascrivere i valori presenti nel record con quelli del modello. Di conseguenza, è necessario prestare attenzione quando si applica un modello ai record esistenti.
+È possibile applicare un modello dati a qualsiasi record in [!INCLUDE[prod_short](includes/prod_short.md)] e utilizzare questa tecnica per modificare un record. Tuttavia, se si esegue questa operazione, sovrascrivere i valori presenti nel record con quelli del modello. Di conseguenza, è necessario prestare attenzione quando si applica un modello ai record esistenti.
 
 > [!WARNING]  
 > La funzione **Collega modello** sovrascrive i dati esistenti in un record. Se questa funzione viene utilizzata nella migrazione dei dati master, i dati importati verranno sovrascritti alla creazione dei record.
@@ -153,8 +162,14 @@ La seguente procedura è basata su una nuova scheda cliente.
 
 I valori di default dal modello cliente scelto sono inseriti nella scheda cliente.
 
+> [!NOTE]
+> Non è possibile utilizzare Applica modello per cancellare i campi su clienti, fornitori e simili. È invece necessario usare la funzionalità **Modifica in Excel**. Per ulteriori informazioni, vedere [Modificare in Excel](across-work-with-excel.md#edit-in-excel).
+
 ## <a name="see-also"></a>Vedere anche
 
 [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

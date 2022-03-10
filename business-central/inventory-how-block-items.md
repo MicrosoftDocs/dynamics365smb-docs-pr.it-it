@@ -1,28 +1,27 @@
 ---
 title: Come bloccare gli articoli per la vendita o l'acquisto
-description: In Business Central, un articolo può essere contrassegnato come bloccato per la vendita, per l'acquisto o per tutti gli scopi.
+description: È possibile bloccare un articolo in modo che non venga immesso nelle righe dei documenti di acquisto o di vendita e non venga registrato in una transazione.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0218cf1b4982b9e8c5b5c2817590bc5ebd8f1941
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 10f915a264508a105d449b3057c8c713d1eb25a5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896063"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130490"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Bloccare gli articoli per la vendita o l'acquisto
-È possibile bloccare un articolo in modo che non venga immesso in righe di acquisto o di vendita ed è possibile bloccarlo in modo che non venga registrato in una qualsiasi transazione.  
+È possibile bloccare un articolo in modo che non venga immesso nelle righe dei documenti di acquisto o di vendita ed è possibile bloccarlo in modo che non venga registrato in una qualsiasi transazione. Ad esempio, questo è utile quando un articolo presenta un difetto noto. Se qualcuno sceglie un articolo bloccato su un documento di vendita o di acquisto, un messaggio informerà che l'articolo è bloccato.
 
-Nella tabella seguente vengono descritti diversi scenari che si verificano quando gli articoli sono bloccati.  
+Nella tabella seguente vengono illustrati diversi scenari che si verificano quando gli articoli sono bloccati.  
 
-|Opzione|Description|  
+|Opzione|Descrizione|  
 |--------------------|------------|  
 |**Vendita bloccata**|Non è possibile immettere l'articolo in un documento di vendita né nel giornale di registrazione articoli di vendita.|  
 |**Acquisto bloccato**|Non è possibile immettere l'articolo in un documento di acquisto, in un giornale di registrazione articoli di acquisto o nei processi di pianificazione degli acquisti.|  
@@ -31,28 +30,23 @@ Nella tabella seguente vengono descritti diversi scenari che si verificano quand
 > [!NOTE]
 > Gli articoli bloccati possono essere restituiti. Ciò significa che nessuna delle impostazioni descritte precedentemente è applicabile quando l'articolo viene utilizzato negli ordini di reso e nelle note di credito.
 
-Quando si utilizza la funzione **Copia documento** per creare nuovi documenti basati su documenti esistenti, si viene avvisati se eventuali elementi nelle righe del documento di origine sono bloccati. Le righe del documento bloccate sono escluse dal nuovo documento e una notifica mostra una panoramica di tutte le righe del documento che sono bloccate nel documento di origine.
+Quando si utilizza la funzione **Copia da documento** per creare nuovi documenti basati su documenti esistenti, si viene avvisati se eventuali elementi nelle righe del documento di origine sono bloccati. Le righe del documento bloccate sono escluse dal nuovo documento e una notifica mostra una panoramica di tutte le righe del documento che sono bloccate nel documento di origine.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Per bloccare un articolo in modo che non venga immesso in righe di vendita  
-
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Selezionare l'articolo che si desidera bloccare e quindi selezionare la casella di controllo **Vendita bloccata**.  
 
-Se si tenta di immettere l'articolo in un documento di vendita o in una riga di giornale di registrazione, viene visualizzato un errore indicante che l'articolo è bloccato.
-
 ## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>Per bloccare un articolo in modo che non venga immesso in righe di acquisto  
-
-1.  Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Selezionare l'articolo che si desidera bloccare e quindi selezionare la casella di controllo **Acquisto bloccato**.  
 
-Se si tenta di immettere l'articolo in un documento di acquisto o in una riga di giornale di registrazione, viene visualizzato un errore indicante che l'articolo è bloccato.
-
 ## <a name="to-block-an-item-from-being-posted"></a>Per bloccare un articolo in modo che non venga contabilizzato
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Articoli** e quindi scegliere il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Selezionare l'articolo che si desidera bloccare e quindi selezionare la casella di controllo **Bloccato**.
-
-Se si tenta di registrare un qualsiasi tipo di transazione per l'articolo, viene visualizzato un messaggio di errore indicante che l'articolo è bloccato.
 
 ## <a name="see-also"></a>Vedere anche  
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Magazzino](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
