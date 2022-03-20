@@ -2,7 +2,7 @@
 title: Visualizzare informazioni dettagliate interattive nelle Gestioni ruolo utente
 description: Scopri come l'estensione Informazioni aziendali essenziali ruota una serie di informazioni dettagliate aziendali nelle Gestioni ruolo utente.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 75081547af3c98233870d0cbe68860ab52d8c38d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3980b900a1fe261ae45c2eb1dc6e5395a01cb02d
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134771"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384022"
 ---
 # <a name="the-essential-business-insights-extension"></a>Estensione Informazioni aziendali essenziali
 L'estensione Informazioni aziendali essenziali consente di trovare informazioni aziendali utili nei dati dell'azienda e le visualizza come titoli di giornale nelle Gestioni ruolo utente. A seconda di ciò che l'estensione trova nei dati, le informazioni dettagliate sono relative alla settimana, al mese o ai tre mesi precedenti la data corrente. Le informazioni dettagliate vengono aggiornate ogni 10 minuti.  

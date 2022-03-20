@@ -1,7 +1,7 @@
 ---
 title: Estendere la versione di valutazione di Business Central
 description: Se hai bisogno di più tempo per decidere se effettuare una sottoscrizione a Dynamics 365 Business Central, puoi estendere la versione di valutazione una volta. Informazioni sulle opzioni.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129110"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381222"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?
 

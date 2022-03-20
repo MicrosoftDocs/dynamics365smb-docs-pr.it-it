@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1b3e724a3dd0f6f8dadd0e6c233fd41795bcbfd9
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138520"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366290"
 ---
 # <a name="managing-inventory-costs"></a>Gestione dei costi di magazzino
 La gestione dei costi, detta anche "costing", riguarda la registrazione e il reporting dei costi operativi business. Comprende inoltre il reporting dei costi di produzione e di magazzino, ovvero il valore degli articoli.   
@@ -36,7 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Utilizzare le funzioni di costing speciali per le transazioni di articoli quotidiane nelle operazioni articoli.|[Gestione dei costi del magazzino e di produzione](finance-handle-inventory-and-manufacturing-costs.md)|  
 |È necessario aggiornare periodicamente i costi standard dei componenti, nelle distinte base di assemblaggio e di produzione, ed eseguire il rollup dei nuovi costi nell'articolo padre.|[Aggiornare i costi standard](finance-how-to-update-standard-costs.md)|
 |Visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.|[Rimuovere e ricollegare movimenti contabili articolo](finance-how-to-remove-and-reapply-item-entries.md)|
-|Eseguire attività di controllo e reporting di chiusura del periodo, ad esempio calcolare il valore di magazzino e registrare i costi nella contabilità generale.|[Creazione di report dei costi e riconciliazione con la contabilità generale](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Eseguire attività di controllo e reporting di chiusura del periodo, ad esempio calcolare il valore di magazzino e registrare i costi nella contabilità generale.|[Creazione di report dei costi e riconciliazione con la contabilità generale](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Informazioni su come utilizzare la coda processi per spostare in background le attività per la rettifica del costo di magazzino o per riconciliarlo con la contabilità generale.|[Rettificare e riconciliare il costo di magazzino con la contabilità generale con la coda processi](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Vedere anche  

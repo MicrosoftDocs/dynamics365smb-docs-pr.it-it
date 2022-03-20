@@ -1,7 +1,7 @@
 ---
 title: Creare fatture o note di credito per servizi
 description: Scopri come utilizzare Business Central per creare facilmente fatture di credito e note di credito per i tuoi servizi.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 47ff02006af6182752ed110464b4c8aa493060c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6802f145d0312339080cff0d58e9e784dca51088
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143090"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381806"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Creare fatture o note di credito di assistenza
 La facilità di fatturazione degli ordini di assistenza è una caratteristica chiave di [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] in modo che un tecnico dell'assistenza possa creare una fattura di assistenza non collegata ad alcun contratto o ordine esistente. In alternativa, impostare [!INCLUDE[prod_short](includes/prod_short.md)] in modo da fatturare periodicamente i contratti di assistenza. Il periodo di fatturazione di ogni contratto definisce con quale frequenza avviene la fatturazione.

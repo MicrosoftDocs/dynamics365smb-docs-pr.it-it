@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/18/2022
+ms.date: 02/22/2022
 ms.author: edupont
-ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 48d8ee794c9259a19b22dfcb7c6203f489bf3534
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335528"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366238"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -21,9 +21,9 @@ ms.locfileid: "8335528"
 
 Se non stai già lavorando con un partner, vedi [Come trovare un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner).  
 
-## <a name="getting-started-with-a-trial"></a>Introduzione a una versione di valutazione
+## <a name="get-started-with-a-trial"></a>Introduzione a una versione di valutazione
 
-Per iscriversi allo scopo di ottenere una versione di valutazione gratuita, fare clic [qui](https://go.microsoft.com/fwlink/?linkid=847861). Ti consigliamo di lavorare con [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per aiutare la tua organizzazione a iniziare con [!INCLUDE[prod_short](includes/prod_short.md)].  
+Per iscriversi allo scopo di ottenere una versione di valutazione gratuita, fare clic [qui](https://go.microsoft.com/fwlink/?linkid=847861). Ti consigliamo di lavorare con [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per aiutare la tua organizzazione a iniziare con [!INCLUDE[prod_short](includes/prod_short.md)]. Vedi anche l'articolo [Iscrizione a una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md) per iniziare.  
 
 A seconda del paese, la versione di valutazione include le lingue e le funzionalità necessarie per quel paese. Per ulteriori informazioni, vedere [Modifica di lingua e impostazioni locali](about-locale-language.md).  
 
@@ -37,11 +37,11 @@ Se decidi di non usare [!INCLUDE [prod_short](includes/prod_short.md)], puoi far
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Aggiungere i propri dati a un'azienda di prova vuota
 
-Se vuoi provare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati, puoi passare a una prova gratuita di 30 giorni con una società vuota. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati. Tuttavia, ti consigliamo di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Il partner può anche aiutarti a migrare i tuoi dati in [!INCLUDE [prod_short](includes/prod_short.md)] online.  
+Se vuoi provare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati, puoi passare a una prova gratuita di 30 giorni senza dati di esempio. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati. Tuttavia, ti consigliamo di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Il partner può anche aiutarti a migrare i tuoi dati in [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 Se 30 giorni non sono sufficienti per decidere, è possibile prolungare il periodo di valutazione. Per ulteriori informazioni, vedere [Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?](admin-extend-trial.md).  
 
-### <a name="setting-up-your-company-in-prod_short"></a>Impostazione della propria società in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-prod_short"></a>Configurare la società in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Gli articoli di [avvio rapido](quick-start-business-central.md) possono aiutarti a fare i primi passi nell'impostazione di [!INCLUDE [prod_short](includes/prod_short.md)] per la tua organizzazione. All'interno di [!INCLUDE [prod_short](includes/prod_short.md)], la pagina **Setup assistito** elenca le guide di setup assistito che possono aiutarti. A seconda del proprio ruolo e paese, la pagina mostra diverse guide al setup assistito come illustrato nella tabella seguente:
 
@@ -70,7 +70,7 @@ Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[p
 > [!IMPORTANT]
 > Quando si condivide [!INCLUDE[prod_short](includes/prod_short.md)] con altre persone della propria organizzazione, è necessario assicurarsi che altre persone non siano collegate quando si elimina una società.  
 
-## <a name="getting-started-with-a-subscription"></a>Introduzione a una sottoscrizione
+## <a name="get-started-with-a-subscription"></a>Introduzione a una sottoscrizione
 
 Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Come trovo un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner). Il partner rivenditore può fornire assistenza per impostare [!INCLUDE[prod_short](includes/prod_short.md)] in base alle esigenze della propria società, inclusa l'importazione di dati dal sistema precedente. È anche possibile personalizzare [!INCLUDE[prod_short](includes/prod_short.md)] aggiungendo applicazioni dal [mercato commerciale di Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
@@ -83,7 +83,7 @@ Ogni volta che si accede durante il periodo di valutazione, una notifica in una 
 
 Per ulteriori informazioni su cosa puoi fare con [!INCLUDE [prod_short](includes/prod_short.md)], vedi[Preparazione al business](ui-get-ready-business.md) e [Funzionalità aziendale](across-business-functionality.md).  
 
-## <a name="getting-started-with-sandboxes"></a>Introduzione alle sandbox
+## <a name="get-started-with-sandboxes"></a>Introduzione alle sandbox
 
 Gli ambienti sandbox possono essere un modo di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Una sandbox può essere considerata come un ambiente non di produzione utilizzabile a monte dell'istanza di produzione di [!INCLUDE[prod_short](includes/prod_short.md)]. Per esempio, se vuoi seguire la formazione online gratuita di [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)il tuo amministratore può [creare un ambiente sandbox](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). In questo modo, voi e i vostri colleghi potete fare pratica in un luogo sicuro piuttosto che nel vostro ambiente di produzione.  
 
@@ -98,6 +98,8 @@ L'amministratore del tuo [!INCLUDE[prod_short](includes/prod_short.md)] e il tuo
 
 ## <a name="see-also"></a>Vedere anche
 
+[Iscrizione per una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md)  
+[Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central](trial-faq.md)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Estendere la versione di valutazione](admin-extend-trial.md)  

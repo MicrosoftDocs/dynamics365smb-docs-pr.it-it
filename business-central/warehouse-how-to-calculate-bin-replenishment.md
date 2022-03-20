@@ -1,5 +1,5 @@
 ---
-title: 'Procedura: Calcolare il rifornimento della collocazione | Documenti Microsoft'
+title: Calcola rifornimento collocazione
 description: Quando l'ubicazione è impostata per l'utilizzo di stoccaggi e prelievi guidati, per effettuare lo stoccaggio dei carichi vengono prese in considerazione le priorità del modello di stoccaggio per l'ubicazione.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e76b8906eb0ad494794b2bf474e0c635e9d95c80
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8954eaacd2a78d8c1ef0c8a65f63c571e045d950
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134594"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381012"
 ---
 # <a name="calculate-bin-replenishment"></a>Calcola rifornimento collocazione
 Quando l'ubicazione è impostata per l'utilizzo di stoccaggi e prelievi guidati, per effettuare lo stoccaggio dei carichi vengono prese in considerazione le priorità del modello di stoccaggio per l'ubicazione. Le priorità includono le quantità minima e massima di contenuto collocazione fissate per una collocazione specifica e le valutazioni delle collocazioni. Pertanto, se gli articoli giungono in magazzino a intervalli regolari, le collocazioni di prelievo più utilizzate vengono riempite non appena vengono svuotate.  
@@ -45,12 +46,12 @@ Al successivo calcolo per il rifornimento delle collocazioni, i suggerimenti pre
 >  I campi **Dal codice zona** e **Dal codice collocazione** non saranno specificati, in quanto l'algoritmo per calcolare la posizione in cui spostare gli articoli viene attivato solo quando si utilizza la funzione **Crea movimento**.  
 
 ## <a name="see-also"></a>Vedi anche  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Prelievo in base al metodo FEFO](warehouse-picking-by-fefo.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
-[Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
+[Impostazione di Warehouse Management](warehouse-setup-warehouse.md) 
+[Gestione assemblaggio](assembly-assemble-items.md)
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -1,7 +1,7 @@
 ---
 title: Gestione dei prezzi di assistenza
 description: La gestione dei prezzi di assistenza ti consente di impostare gruppi di prezzi di assistenza, prezzi di assistenza, rettifica dei prezzi di assistenza e altro ancora.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6cfc801e40bfae60dd687ede073bd4367e69092
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b4a4e528b2104c6b72f6be2ca149443802205e89
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142962"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381194"
 ---
 # <a name="service-price-management"></a>Gestione dei prezzi di assistenza
 La funzionalità di gestione dei prezzi di assistenza consente di applicare il prezzo migliore agli ordini di assistenza, di impostare accordi di prezzi di assistenza personalizzati per i vari clienti, di migliorare l'efficienza degli addetti all'assistenza e di accelerare il processo di fatturazione.  

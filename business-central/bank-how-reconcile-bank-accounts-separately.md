@@ -1,21 +1,21 @@
 ---
 title: Riconciliazione dei conti correnti bancari
 description: Questo argomento descrive come riconciliare le transazioni nei vostri conti bancari interni con le transazioni negli estratti conto della vostra banca.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.search.form: 379, 388, 1290, 10124
+ms.search.form: 379, 388, 389, 1290, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ebc2680aea583410a0f1bab8f4ff1d35989eb36
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129001"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381090"
 ---
 # <a name="reconcile-bank-accounts"></a>Riconciliazione dei conti correnti bancari
 
@@ -88,7 +88,7 @@ Il riquadro **Righe rendiconto bancario** verrà compilato in base alle fatture 
 
 La pagina **Riconciliazioni C/C bancari** offre funzionalità di corrispondenza automatica in base a una corrispondenza di testo su una riga del rendiconto (riquadro a sinistra) con testo su uno o più movimenti contabili del conto corrente bancario (riquadro a destra). Si noti che è possibile sovrascrivere la corrispondenza automatica suggerita ed è possibile scegliere di non utilizzare affatto la corrispondenza automatica. Per ulteriori informazioni, vedere [Per associare manualmente le righe del rendiconto bancario con i movimenti contabili di conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
-La corrispondenza automatica corrisponde a voci basate su una serie di regole di applicazione del pagamento. Per ulteriori informazioni, vedere [Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md). Puoi indagare la base delle corrispondenze usando l'azione **Dettagli partita** . Per esempio, i dettagli includeranno i nomi dei campi che contengono valori corrispondenti.  
+Puoi indagare la base delle corrispondenze usando l'azione **Dettagli partita** . Per esempio, i dettagli includeranno i nomi dei campi che contengono valori corrispondenti.  
 
 1. Nella pagina **Riconciliazioni C/C bancari** scegliere l'azione **Corrispondenza automatica**. Verrà visualizzata la pagina **Movimenti bancari corrispondenti**.
 2. Nel campo **Tolleranza data transazione (giorni)** specificare l'intervallo di giorni prima e dopo la data di registrazione del movimento contabile del conto corrente bancario entro cui la funzione eseguirà la ricerca delle date di transazione corrispondenti nel rendiconto bancario.

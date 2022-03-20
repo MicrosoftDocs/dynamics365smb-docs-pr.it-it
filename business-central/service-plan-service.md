@@ -3,7 +3,7 @@ title: Pianificazione dei processi di assistenza
 description: Questo argomento descrive i task per impostare le regole e i valori per definire i criteri e i processi di assistenza.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 98cd4b41a8e47f045c89ebc31813a07e9f3a46bf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a255601103526cf633101e9f59155af21082a5f9
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134797"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8380882"
 ---
 # <a name="planning-services"></a>Pianificazione dei servizi
 Con [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   

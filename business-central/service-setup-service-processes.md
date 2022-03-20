@@ -1,7 +1,7 @@
 ---
 title: Impostazione dei processi di gestione assistenza | Documenti Microsoft
 description: Informazioni su come impostare i processi che consentono di assicurarsi che i clienti siano soddisfatti del servizio di assistenza clienti.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 20afe251a1853ee31cd5de34c14ddb025a23c32e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2a65c34f8fa59cd72c2df9e78343da03c67d8721
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140581"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8380934"
 ---
 # <a name="configure-service-processes"></a>Configurazione dei processi di assistenza
 Di seguito vengono forniti alcuni esempi delle impostazioni che è possibile applicare ai processi di gestione assistenza:  

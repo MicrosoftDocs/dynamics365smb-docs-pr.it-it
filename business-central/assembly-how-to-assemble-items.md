@@ -1,5 +1,5 @@
 ---
-title: Come assemblare gli articoli
+title: Assemblare articoli
 description: Se nel campo Sistema di rifornimento nella scheda articolo è indicato Assemblaggio, il metodo predefinito per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 04c8296089847b7ef1ab051158db578413212be9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d41ae558bf8570ab3439f25b82ed9892cb419ecd
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146967"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381434"
 ---
 # <a name="assemble-items"></a>Assemblare articoli
 Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.  
@@ -70,7 +71,7 @@ Una volta effettuata la registrazione, l'articolo di assemblaggio viene registra
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

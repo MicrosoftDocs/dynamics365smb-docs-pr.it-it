@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7354, 7356, 7357, 7358, 7359, 7361
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e0eae31f29e726c15add24ef9d4b48b81b3d299
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140087"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383645"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Selezionare e stoccare senza un documento di origine
 Dopo avere stoccato gli articoli e prima di prelevarli per soddisfare le richieste di un ordine di produzione o di una spedizione, gli articoli vengono inclusi tra le giacenze disponibili all'interno della warehouse.  
@@ -51,11 +52,11 @@ Analogamente, gli articoli possono essere restituiti alla warehouse per lo stocc
 6. Selezionare l'azione **Crea stoccaggio**. Verrà creata un'istruzione di stoccaggio indirizzata agli impiegati warehouse. In alternativa, è possibile scegliere l'azione **Rilascia** e creare stoccaggi warehouse utilizzando il **Prospetto stoccaggi**. Per ulteriori informazioni, vedere [Pianificare stoccaggi nei prospetti](warehouse-how-to-plan-put-aways-in-worksheets.md)
 
 ## <a name="see-also"></a>Vedere anche  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
-[Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
+[Gestione assemblaggio](assembly-assemble-items.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

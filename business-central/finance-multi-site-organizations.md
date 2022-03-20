@@ -1,7 +1,7 @@
 ---
 title: Business Central per organizzazioni multisito e internazionali | Microsoft Docs
 description: Business Central fornisce funzionalità che supportano un modello di business hub and spoke.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141101"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382047"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central per organizzazioni multisito e internazionali
 Le organizzazioni con più siti utilizzano spesso un modello di business hub e spoke in cui una società madre, o sede centrale, gestisce tutte le operazioni dell'azienda mentre ogni sito funziona come una singola entità autonoma. I siti sono spesso distribuiti geograficamente e hanno esigenze diverse di condivisione delle informazioni con la sede centrale. Inoltre, i siti in genere non richiedono lo stesso livello di complessità e spesso mancano delle risorse per mantenere un sistema di grandi dimensioni.

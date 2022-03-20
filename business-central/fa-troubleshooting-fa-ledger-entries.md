@@ -2,7 +2,7 @@
 title: Estensione Risoluzione dei problemi relativi a movimenti contabili dei cespiti
 description: È più facile lavorare con numeri interi. Utilizza questa estensione per arrotondare gli importi dei cespiti nella contabilità dei cespiti.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142317"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382473"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Estensione Risoluzione dei problemi relativi a movimenti contabili dei cespiti
 Utilizza l'estensione Risoluzione dei problemi relativi a movimenti contabili dei cespiti per arrotondare a numeri interi gli importi di ammortamento e acquisizione nei movimenti contabili cespiti. Ad esempio, per arrotondare un importo da 30.000,44 a 30.000. Le cause tipiche dei problemi di arrotondamento sono la migrazione dei dati, che inizia improvvisamente a registrare importi nella contabilità generale oppure le personalizzazioni apportate a [!INCLUDE[prod_short](includes/prod_short.md)].

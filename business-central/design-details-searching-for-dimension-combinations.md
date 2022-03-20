@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 67aa9c5a7b56b00e49573b5232045f032db178c3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ad41e67eb84149f2c17ea5d00fce0b6cd306f74
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145812"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366163"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Dettagli di progettazione: Ricerca delle combinazioni di dimensione
 Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCLUDE[prod_short](includes/prod_short.md)] viene valutato se il set di dimensioni modificato esiste. Se il set non esiste, viene creato un nuovo set e viene restituito l'ID combinazione delle dimensioni.  
@@ -73,7 +73,7 @@ EXIT(DimSet.ID);
 
 ## <a name="see-also"></a>Vedere anche
     
- [Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)   
+ [Dettagli di progettazione: Movimenti set di dimensioni](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)   
  [Dettagli di progettazione - Struttura della tabella](design-details-table-structure.md)   
  

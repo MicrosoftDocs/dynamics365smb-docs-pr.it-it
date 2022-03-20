@@ -62,8 +62,8 @@
 ##### [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)  
 ##### [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-demand-at-blank-location.md)  
 ##### [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)
-#### Dettagli di progettazione: Gestione warehouse
-##### [Dettagli di progettazione di Gestione warehouse](design-details-warehouse-management.md)
+#### Dettagli di progettazione: Warehouse Management
+##### [Dettagli di progettazione di Warehouse Management](design-details-warehouse-management.md)
 ##### [Dettagli di progettazione: Panoramica warehouse](design-details-warehouse-overview.md)  
 ##### [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md)  
 ##### [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)  
@@ -88,14 +88,16 @@
 ##### [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)  
 
 ## Provare
+### [Iscrizione per una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md)
+### [Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central](trial-faq.md)
 ### [Versioni di valutazione e sottoscrizioni](across-preview.md)
-### [Prepararsi a fare affari](ui-get-ready-business.md)
+### [Preparazione al business](ui-get-ready-business.md)
 ### [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md)
 ### [Estendere la versione di valutazione](admin-extend-trial.md)
 ### [Annullare la sottoscrizione o rimuovere Business Central](admin-cancel.md)
 ## Acquistare
-### [Introduzione a una sottoscrizione](across-preview.md#getting-started-with-a-subscription)
-### [Prepararsi a fare affari](ui-get-ready-business.md)
+### [Introduzione a una sottoscrizione](across-preview.md#get-started-with-a-subscription)
+### [Preparazione al business](ui-get-ready-business.md)
 
 ## Avviamenti rapidi
 ### [Avviamento rapido di Business Central](quick-start-business-central.md)
@@ -179,7 +181,7 @@
 #### [Impostare i metodi di ammortamento definiti dall'utente](fa-how-setup-user-defined-depreciation-method.md)
 #### [Impostare l'assicurazione cespiti](fa-how-setup-insurance.md)
 #### [Per impostare la manutenzione cespiti](fa-how-setup-maintenance.md)
-### Impostazione gestione warehouse
+### Impostazione Warehouse Management
 #### [Impostazione dei warehouse](warehouse-setup-warehouse.md)
 #### [Dettagli di progettazione: Panoramica warehouse](design-details-warehouse-overview.md)
 #### [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md)
@@ -557,7 +559,7 @@
 #### [Rimuovere e ricollegare movimenti contabili articolo](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Creazione di report dei costi e riconciliazione con la contabilità generale
-##### [Creazione di report dei costi](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Creazione di report dei costi](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md)
 #### [Rettificare e riconciliare il costo di magazzino con la contabilità generale con la coda processi](finance-adjust-reconcile-inventory-cost-job-queue.md)
@@ -786,8 +788,8 @@
 ### [Registrare le capacità](production-how-to-post-capacities.md)
 ### [Informazioni sui costi di un ordine di produzione chiuso](finance-about-finished-production-order-costs.md)
 
-## Gestione warehouse
-### [Gestione warehouse](warehouse-manage-warehouse.md)
+## Warehouse Management
+### [Warehouse Management](warehouse-manage-warehouse.md)
 ### [Rapporti di inventario e whareouse](inventory-WMS-reports.md)
 ### [Ricevere articoli](warehouse-how-receive-items.md)
 ### [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md)

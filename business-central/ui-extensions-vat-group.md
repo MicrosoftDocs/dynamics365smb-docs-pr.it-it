@@ -1,8 +1,7 @@
 ---
 title: Estensione della gestione del gruppo IVA
 description: È possibile impegnarsi con altre aziende per formare un gruppo IVA e agire come membro o rappresentante del gruppo quando si dichiara l'IVA.
-author: bholtorf
-manager: annbe
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132448"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382559"
 ---
 # <a name="the-vat-group-management-extension"></a>Estensione della gestione del gruppo IVA
 
@@ -84,9 +83,9 @@ Impostare il membro del gruppo IVA avviando la guida al setup assistito **Impost
 5. Scegliere **Tipo di autenticazione**, scegliere **OAuth2** e quindi scegliere **Avanti**.
 6. Nel campo **ID cliente** immettere l'ID fornito dal rappresentante del gruppo IVA.
 7. Nel campo **Segreto cliente fornito dal rappresentante del gruppo IVA** inserire il segreto fornito dal rappresentante del gruppo IVA.
-8. Nel campo **Endpoint dell'autorità OAuth 2.0** immettere *https://login.microsoftonline.com/common/oauth2*.
-9. Nel campo **URL risorsa OAuth 2.0** immettere *https://api.businesscentral.dynamics.com/*.
-10. Nel campo **URL di reindirizzamento OAuth 2.0** immettere *https://businesscentral.dynamics.com/OAuthLanding.htm*. 
+8. Nel campo **Endpoint dell'autorità OAuth 2.0** immetti `https://login.microsoftonline.com/common/oauth2`.
+9. Nel campo **URL risorsa OAuth 2.0** immetti `https://api.businesscentral.dynamics.com/`.
+10. Nel campo **URL di reindirizzamento OAuth 2.0** immetti `https://businesscentral.dynamics.com/OAuthLanding.htm`. 
 11. Dopo aver specificato i vari campi, scegliere **Avanti**, quindi immettere le credenziali utente fornite dal rappresentante del gruppo IVA.
 12. Scegliere la configurazione del report IVA da utilizzare per dichiarare l'IVA alle autorità del paese.
 
@@ -94,7 +93,7 @@ Impostare il membro del gruppo IVA avviando la guida al setup assistito **Impost
 
 ## <a name="using-the-vat-group-management-features"></a>Utilizzo delle funzionalità di gestione del gruppo IVA
 
-I membri del gruppo IVA utilizzano le procedure standard per preparare le dichiarazioni IVA. L'unica differenza sta nello scegliere la versione del report **VATGROUP** che presenta la dichiarazione IVA al rappresentante del gruppo IVA anziché alle autorità. Per ulteriori informazioni, vedere [Informazioni sul report Dichiarazione IVA](finance-how-report-vat.md#about-the-vat-return-report).
+I membri del gruppo IVA utilizzano le procedure standard per preparare le dichiarazioni IVA. L'unica differenza sta nello scegliere la versione del report **VATGROUP** che presenta la dichiarazione IVA al rappresentante del gruppo IVA anziché alle autorità. Per ulteriori informazioni, vedi [Informazioni sul report Dichiarazione IVA](finance-how-report-vat.md#vatreturn).
 
 Le sezioni seguenti descrivono i task che i rappresentanti di un gruppo IVA devono svolgere.
 

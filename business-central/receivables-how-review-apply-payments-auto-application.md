@@ -1,5 +1,5 @@
 ---
-title: Verificare i pagamenti applicati automaticamente e riapplicare i pagamenti manualmente | Documenti Microsoft
+title: Rivedere o collegare i pagamenti manualmente in seguito al collegamento automatico
 description: Dopo che i pagamenti sono stati collegati automaticamente, è possibile verificare tutti i movimenti relativi a un pagamento e ricollegare manualmente i movimenti che sono stati collegati erroneamente.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
+ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2844c7fc1969e2159c67f8783481fbbc143a39a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9a4a25de9d1aab74c0c721fbdbda6704a2ae8666
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144907"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383059"
 ---
 # <a name="review-and-apply-payments-manually-after-automatic-application"></a>Rivedere o collegare i pagamenti manualmente in seguito al collegamento automatico
 Per ogni riga di registrazione che rappresenta un pagamento nella pagina **Registrazione riconciliazione pagamenti** è possibile aprire la pagina **Collegamento pagamenti** per vedere tutti i movimenti aperti candidati per il pagamento e visualizzare, per ciascun movimento, informazioni dettagliate sulla corrispondenza dei dati su cui si basa un collegamento di pagamento. Qui è possibile collegare manualmente i pagamenti o applicare nuovamente i pagamenti che sono stati collegati automaticamente a un movimento aperto scorretto. Per ulteriori informazioni sul collegamento automatico, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).

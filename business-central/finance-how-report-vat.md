@@ -1,7 +1,7 @@
 ---
 title: Inviare la dichiarazione IVA alle autorità fiscali
 description: Informazioni su come preparare un report che elenca l'IVA di vendita durante un periodo, o di vendite e acquisti, e inviarlo a un'autorità fiscale.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,25 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141179"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383807"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Dichiarare l'IVA all'autorità fiscale
 
-Questo argomento descrive i report [!INCLUDE[prod_short](includes/prod_short.md)] che si possono utilizzare per inviare informazioni sugli importi IVA di vendite e di acquisti all'autorità fiscale del proprio paese. 
+Questo argomento descrive i report [!INCLUDE[prod_short](includes/prod_short.md)] che si possono utilizzare per inviare informazioni sugli importi IVA di vendite e di acquisti all'autorità fiscale del proprio paese. A seconda del paese specifico, i report possono includere informazioni specifiche o possono essere presenti report aggiuntivi da inviare. Controlla gli articoli per il tuo paese nella sezione [Funzionalità locale](about-localization.md).  
 
-È possibile utilizzare i seguenti report:
+È possibile utilizzare i seguenti report predefiniti:
 
-* Il report **Lista vendite UE** elenca gli importi IVA che l'azienda ha raccolto con la vendita a clienti con partita IVA nei paesi dell'Unione Europea.  
-* Il report **Dichiarazione IVA** include gli importi IVA per vendite e acquisti a clienti e da fornitori in tutti i paesi che utilizzano l'IVA.  
+* Il report **Lista vendite UE**  
+
+    Il report Lista vendite UE elenca gli importi IVA che l'azienda ha raccolto con la vendita a clienti con partita IVA nei paesi dell'Unione Europea.  
+* Il report **Dichiarazione IVA**  
+
+    Il report Dichiarazione IVA include gli importi IVA per vendite e acquisti a clienti e da fornitori in tutti i paesi che utilizzano l'IVA.  
 
 In entrambi i casi, l'IVA viene calcolata in base al setup registrazioni IVA e alle categorie di registrazione IVA impostate.
 
@@ -33,7 +37,7 @@ Se si desidera visualizzare uno storico completo delle voci di IVA, ogni registr
 > [!NOTE]
 > Ogni ambiente [!INCLUDE[prod_short](includes/prod_short.md)] è destinato a gestire le dichiarazioni in base alle normative in un singolo paese. Ad esempio, la versione olandese di [!INCLUDE[prod_short](includes/prod_short.md)] gestisce le dichiarazioni IVA nei Paesi Bassi ma non in altri paesi. Allo stesso modo, la versione americana di [!INCLUDE[prod_short](includes/prod_short.md)] gestisce la dichiarazione 1099 negli Stati Uniti e non supporta la richiesta di dichiarazione IVA in altri paesi, a meno che non sia portata da un'estensione fornita dall'ecosistema partner o da una modifica del codice specifica del cliente.
 
-## <a name="about-the-ec-sales-list-report"></a>Informazioni sul report Lista vendite UE
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Informazioni sul report Lista vendite UE
 
 Nell'Unione Europea (UE) e nel Regno Unito, tutte le società che vendono beni e servizi a clienti con partita IVA, inclusi i clienti in altri paesi dell'Unione Europea (UE), è necessario inviare una versione elettronica del report Lista vendite UE ai clienti e alle autorità fiscali. Il report **Lista vendite UE** è valido solo per i paesi dell'Unione Europea.
 
@@ -47,7 +51,11 @@ I prodotti e i servizi *B2B* specificano se sono stati venduti prodotti o serviz
 
 Dopo che l'autorità fiscale ha esaminato il report, invia un messaggio e-mail alla persona per la società. In [!INCLUDE[prod_short](includes/prod_short.md)], il nome del contatto è specificato nella pagina **Informazioni società**. Prima di inviare il report, assicurarsi che il contatto sia stato selezionato.  
 
-## <a name="about-the-vat-return-report"></a>Informazioni sul report Dichiarazione IVA
+### <a name="submit-an-ec-sales-list-report"></a>Inviare un report Lista vendite UE
+
+[!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
+
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Informazioni sul report Dichiarazione IVA
 
 Utilizzare questo report per inviare l'IVA per i documenti di vendita e di acquisto, ad esempio gli ordini vendita e gli ordini acquisto, le fatture e le note di credito. Le informazioni nel report vengono mostrate nello stesso formato di quello utilizzato nel modulo di dichiarazione delle autorità fiscali e doganali.  
 

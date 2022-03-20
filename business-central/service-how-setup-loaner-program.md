@@ -1,7 +1,7 @@
 ---
 title: 'Procedura: Impostare gli articoli in prestito | Documenti Microsoft'
 description: È possibile impostare degli articoli da prestare ai clienti in sostituzione degli articoli che sono in assistenza.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 252696484a8c7d90bac90628cf74896240889ba9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c4fda37826295491db4445ec78103013149d2aa0
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132630"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383033"
 ---
 # <a name="set-up-a-loaner-program"></a>Impostazione di un programma di prestito articoli
 Talvolta è necessario fornire a un cliente un articolo in prestito da poter utilizzare quando il personale addetto all'assistenza clienti esegue una riparazione. In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare un programma di prestito articoli, prestare articoli ai clienti e tenere traccia della restituzione degli stessi. Inoltre, è possibile aggiungere commenti relativi agli articoli in prestito in uno dei seguenti due modi:  

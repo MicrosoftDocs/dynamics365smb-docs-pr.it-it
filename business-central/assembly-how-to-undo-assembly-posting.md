@@ -1,5 +1,5 @@
 ---
-title: Come annullare la registrazione di assemblaggi
+title: Annullare la registrazione di assemblaggi
 description: A volte può essere necessario annullare un ordine di assemblaggio registrato, ad esempio quando l'ordine è stato registrato con errori che devono essere corretti.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 245eaede4bce79fa3626d5a8a8d102b9c190ccaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b73cad316dacb5170b8f63ce84dd134f505e5c1c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143766"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383269"
 ---
 # <a name="undo-assembly-posting"></a>Annullare la registrazione di assemblaggi
 Talvolta può essere necessario annullare un ordine di assemblaggio registrato, ad esempio se l'ordine è stato registrato con errori che devono essere corretti o perché non avrebbe dovuto essere inizialmente registrato ed è necessario eseguirne il rollback.
@@ -58,7 +59,7 @@ Il campo **Stornato** nella testata ordine di assemblaggio viene impostato su **
 [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md)    
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

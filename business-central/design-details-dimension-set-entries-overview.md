@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0585c4d266bed92ffb113701650bef5069109fc8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 06baf4789fb4630ee9ee7db74d5dab7aafa07e9b
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132031"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366700"
 ---
 # <a name="dimension-set-entries-overview"></a>Sintesi movimenti set di dimensioni
 In questo argomento viene descritto il modo in cui i movimenti set di dimensioni vengono memorizzati e registrati in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -48,7 +48,7 @@ Archiviando i set di dimensioni una volta nel database, lo spazio di quest'ultim
 ## <a name="see-also"></a>Vedere anche
 [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   
 [Dettagli di progettazione: Struttura della tabella](design-details-table-structure.md)   
-[Dettagli di progettazione: Movimenti set di dimensioni](design-details-dimension-set-entries.md)   
+[Dettagli di progettazione: Movimenti set di dimensioni](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

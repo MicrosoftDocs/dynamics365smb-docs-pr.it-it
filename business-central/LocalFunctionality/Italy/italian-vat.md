@@ -7,12 +7,12 @@ ms.search.keywords: ''
 ms.search.form: 12100, 12104, 12105, 12111, 12112, 12113, 12122, 12126, 12127, 12133, 12135, 12151, 12158, 12187, 12189, 12198, 12199, 12202
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: febad0458aa280710a53682b17870e0625089153
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6a4c6d82e1c67023bb86952fa4431ed14fd2abb6
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147374"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372009"
 ---
 # <a name="italian-vat"></a>IVA italiana
 
@@ -95,10 +95,10 @@ Per prepararsi i dati per le dichiarazioni, è necessario impostare la registraz
 
 È necessario inviare il report transazioni IVA elettronicamente alle autorità fiscali. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare l'IVA](../../finance-setup-vat.md)  
-[VAT record](../../finance-how-report-vat.md)  
+[Dichiarare l'IVA](../../finance-how-report-vat.md)  
  [Preparare i report di transazioni IVA](how-to-prepare-for-vat-transactions-reports.md)  
  [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md)  
  [Inviare dichiarazioni IVA](how-to-submit-vat-statements.md)  

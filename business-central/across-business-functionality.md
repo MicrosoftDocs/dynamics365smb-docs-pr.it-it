@@ -10,16 +10,16 @@ ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: b88082cb1cf211f8ce6ab4e377c166a62372d530
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323112"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367042"
 ---
 # <a name="business-functionality"></a>Funzionalità aziendale
 
-[!INCLUDE[prod_short](includes/prod_short.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata.
+[!INCLUDE[prod_short](includes/prod_short.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata. [Scopri come ottenere una versione di valutazione gratuita qui](trial-signup.md).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle proprie esigenze. Da Gestione ruolo utente è possibile accedere a guide al setup assistito che aiutano a configurare determinati scenari e ad aggiungere funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. Diverse aree di funzionalità aziendale devono essere impostate manualmente. Gli articoli di [avvio rapido di Business Central](quick-start-business-central.md) possono aiutarti a fare i primi passi per rendere [!INCLUDE [prod_short](includes/prod_short.md)] tuo. Per ulteriori informazioni, vedere [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
@@ -37,7 +37,7 @@ ms.locfileid: "8323112"
 |Pianificare le operazioni produttive che sono necessarie per trasformare gli input in prodotti finiti.|[Pianif.](production-planning.md)|
 |Riunire gli articoli vendibili in semplici passaggi per preparare un nuovo articolo, ad esempio un kit.|[Gestione assemblaggio](assembly-assemble-items.md)|
 |Definire le risorse del reparto e la relativa capacità, programmare le operazioni, inserire i componenti di produzione ed eseguire la produzione.|[Manufacturing](production-manage-manufacturing.md)|
-|Assicurare un flusso efficace dei prodotti ricevuti e spediti.|[Gestione warehouse](warehouse-manage-warehouse.md)|
+|Assicurare un flusso efficace dei prodotti ricevuti e spediti.|[Warehouse Management](warehouse-manage-warehouse.md)|
 |Programmare le chiamate di assistenza, impostare ordini di assistenza e tenere traccia dei pezzi di ricambio e delle forniture.|[Gestione assistenza](service-service.md)|
 |Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. La richiesta e la concessione dell'approvazione per creare o registrare i documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|
 |Abilitare gli utenti allo scambio di dati con origini esterne durante le attività quotidiane, ad esempio l'invio e la ricezione di documenti elettronici, l'importazione e l'esportazione di file della banca e l'aggiornamento dei tassi di cambio delle valute.|[Scambio di dati in modalità elettronica](across-data-exchange.md)|

@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aaf3a30be1c04d1f5f30c157b20a1f10c51170a3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb917d1d54d66e02315e82ef6596a8fef65fb077
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145266"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366192"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Risoluzione dei problemi relativi all'iscrizione self-service
 L'iscrizione a [!INCLUDE[prod_short](includes/prod_short.md)] è facile e può essere effettuata molto rapidamente. È possibile creare un account gratuito anche se si è un'organizzazione esistente. Questo articolo illustra i problemi che è possibile incontrare durante l'iscrizione.
@@ -43,6 +43,8 @@ Per una panoramica dei mercati attualmente supportati in Dynamics 365, vedere la
 
 ## <a name="see-also"></a>Vedere anche
 
+[Iscrizione per una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md)  
+[Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central](trial-faq.md)  
 [Benvenuto in [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità locale](about-localization.md)  

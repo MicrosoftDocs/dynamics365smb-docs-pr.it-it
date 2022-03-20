@@ -1,7 +1,7 @@
 ---
 title: Come impostare un servizio di scambio documenti | Microsoft Docs
 description: Utilizzare un provider di servizi esterno per scambiare documenti elettronici con i partner commerciali.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133384"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382979"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Impostare un servizio di scambio documenti
 Come parte del Data Exchange Framework, potete scambiare documenti di vendita e di acquisto con i vostri partner commerciali senza ulteriori passaggi, come ad esempio allegare i documenti ai messaggi e-mail come file PDF. Per esempio, quando sei pronto a fatturare un cliente, puoi pubblicare la fattura e inviarla per il pagamento come un file che il tuo cliente può ricevere nella sua applicazione di gestione aziendale. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).

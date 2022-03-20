@@ -3,7 +3,7 @@ title: Allocare costi a partner IC | Microsoft Docs
 description: Scopri come le impostazioni IVA per clienti e fornitori determinano se e come viene calcolata l'IVA.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137915"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382061"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocare costi a partner IC
 Quando si utilizzano registrazioni intercompany per trasferire documenti tra società partner, le impostazioni relative all'IVA (principalmente la categoria registrazione business IVA) assegnate ai conti cliente o fornitore (associati al partner IC) determinano se e come l'IVA viene calcolata e registrata. È inoltre possibile eseguire distribuzioni dei costi direttamente da un ordine acquisto alle società partner. Ad esempio, se si registra una fattura acquisto di un fornitore esterno e si desidera distribuire alcuni o tutti i costi a uno o più partner IC.

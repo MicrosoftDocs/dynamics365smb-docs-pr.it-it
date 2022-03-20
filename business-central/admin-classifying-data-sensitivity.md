@@ -1,19 +1,19 @@
 ---
 title: Classificazione di dati riservati
 description: È necessario specificare quale tipo di dati sulle persone memorizzare in modo da rispondere alle richieste dell'oggetto dati.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
-ms.openlocfilehash: 4ec4e6cd24c620829b35b7e3e25a27d4f127e045
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba629a40bee4f73c3d2a68395b138893265d7b0f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136428"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382365"
 ---
 # <a name="classifying-data-sensitivity-fields"></a>Campi Classificazione di dati riservati
 Per classificare i campi che contengono dati riservati o personali, un partner Microsoft può impostare la proprietà ```DataClassification``` nei campi. Per eseguire questa operazione è necessario l'accesso alle tabelle del database, tramite l'ambiente di sviluppo oppure eseguendo uno script Windows PowerShell. Per ulteriori informazioni, vedere [Classificazione di dati](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  

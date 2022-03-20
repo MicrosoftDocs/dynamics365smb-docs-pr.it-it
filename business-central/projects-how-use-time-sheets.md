@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134979"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372134"
 ---
 # <a name="use-time-sheets"></a>Usare i fogli presenze
 
@@ -32,7 +32,7 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 
 ## <a name="to-create-time-sheets"></a>Per creare fogli di presenza
 
-È possibile utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task.  
+È possibile utilizzare il processo batch **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task. Puoi anche [pianificare l'esecuzione automatica del processo batch](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > È necessario disporre dei permessi necessari per creare i fogli presenze. Per maggiori informazioni, vedere [Impostare i fogli di presenza](projects-how-setup-time-sheets.md).
@@ -43,7 +43,9 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 
     > [!NOTE]  
     > I campi **Usa foglio presenze** e **ID utente proprietario foglio presenze** devono essere compilati nella scheda della risorsa del foglio presenze.
-4. Scegliere il pulsante **OK**.  
+
+    Opzionalmente, scegli l'azione **Programma** per specificare la frequenza con cui si desidera che l'attività venga eseguita automaticamente. Ad esempio, per configurare l'attività in modo che venga eseguita settimanalmente per quattro settimane, nella pagina **Programma un report - Crea fogli presenze** imposta il campo **Prossima esecuzione formula della data** su *4S*. Per ulteriori informazioni, vedi [Programmazione dell'esecuzione di un report](ui-work-report.md#ScheduleReport).  
+4. Scegli il pulsante **OK**.  
 
 È possibile visualizzare i fogli presenze creati nella pagina **Fogli presenze**. Ogni foglio presenze è costituito da una o più righe che definiscono l'ora che si desidera inviare per l'approvazione. La tabella seguente descrive i tipi di righe che è possibile aggiungere al foglio presenze.
 

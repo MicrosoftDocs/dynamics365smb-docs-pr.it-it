@@ -1,5 +1,5 @@
 ---
-title: Collegare un ordine di vendita a un ordine di acquisto per una spedizione diretta (video) | Documenti Microsoft
+title: Effettuare spedizioni dirette (contiene video)
 description: Viene descritto come creare un ordine di vendita collegato a un ordine di acquisto per consentire la spedizione diretta dal fornitore al cliente.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144829"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372045"
 ---
 # <a name="make-drop-shipments"></a>Effettuare spedizioni dirette
 
@@ -40,12 +40,12 @@ Per preparare una spedizione diretta, indicare nell'ordine di acquisto che l'art
 2. Nel campo **Spedire a**, selezionare **Indirizzo cliente**.
 3. Nel campo **Cliente**, selezionare il cliente a cui si sta vendendo.
 4. Scegliere l'azione **Spedizioni dirette** e scegliere l'azione **Ottieni ordini vendite**.
-5. Nella pagina **Lista vendite**, selezionare l'ordine di vendita che è stato preparato nella sezione [Per creare un ordine di vendita per una spedizione diretta](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. Nella pagina **Lista vendite**, seleziona l'ordine di vendita che è stato preparato nella sezione [Per creare un ordine di vendita per una spedizione diretta](#to-create-a-sales-order-for-drop-shipment).
 6. Scegliere il pulsante **OK**.
 
 Le informazioni di riga dall'ordine di vendita vengono inserite nelle righe dell'ordine di acquisto.
 
-È possibile istruire il fornitore di spedire gli articoli al cliente, ad esempio spedendo l'ordine di acquisto come PDF.     
+È possibile istruire il fornitore di spedire gli articoli al cliente, ad esempio spedendo l'ordine di acquisto come PDF. Se il fornitore fornisce un numero di tracciabilità o informazioni simili, è possibile scegliere di registrare tali informazioni in una riga ordine d'acquisto di tipo *Commento*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Per creare più ordini di acquisto per spedizioni dirette
 

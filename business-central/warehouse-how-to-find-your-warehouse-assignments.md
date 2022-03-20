@@ -1,26 +1,28 @@
 ---
-title: Come individuare le assegnazioni della warehouse
+title: Individuare le assegnazioni della warehouse
 description: Questo argomento spiega come individuare le assegnazioni della warehouse assegnate all'utente nella pagina Scheda articolo quando sono state create le istruzioni.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5b27848474f26f92b54169e1d60e8e786a6ab95f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141979"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382155"
 ---
 # <a name="find-your-warehouse-assignments"></a>Individuare le assegnazioni della warehouse
+
 Per individuare le assegnazioni di warehouse, aprire la pagina della scheda per un articolo selezionato. Se sono state create istruzioni di warehouse, vengono visualizzate le righe Prendere e Mettere e sarà possibile iniziare a svolgere le operazioni necessarie relative a un'assegnazione. In alcune warehouse è possibile che il responsabile abbia assegnato istruzioni specifiche a ciascun addetto. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a>Per individuare un'istruzione assegnata a se stessi  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi warehouse**, **Prelievi warehouse**, o **Movimentazione warehouse**, quindi seleziona il collegamento correlato.
+## <a name="to-find-an-instruction-assigned-to-you"></a>Per individuare un'istruzione assegnata a se stessi
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi warehouse**, **Prelievi warehouse**, o **Movimentazione warehouse**, quindi seleziona il collegamento correlato.
 
     Tutte e tre le pagina mostrano le assegnazioni per tutte le ubicazioni di warehouse.  
 
@@ -29,12 +31,13 @@ Per individuare le assegnazioni di warehouse, aprire la pagina della scheda per 
 
 Se il responsabile di warehouse non assegna istruzioni specifiche ai singoli addetti, è possibile utilizzare il campo **ID Utente Assegnato** della testata per richiedere l'assegnazione di un incarico. È sufficiente immettere il proprio ID utente nella testata di warehouse prima di procedere all'esecuzione di un'istruzione. Gli altri addetti al warehouse potranno quindi scegliere di eseguire altre istruzioni, eliminando in tal modo il rischio di sovrapposizione degli incarichi.  
 
-## <a name="see-also"></a>Vedi anche  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+## <a name="see-also"></a>Vedi anche
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
-[Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
+[Impostazione di Warehouse Management](warehouse-setup-warehouse.md) 
+[Gestione assemblaggio](assembly-assemble-items.md)
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 

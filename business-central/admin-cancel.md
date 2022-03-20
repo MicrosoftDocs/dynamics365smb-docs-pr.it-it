@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2021
+ms.date: 02/23/2022
 ms.author: edupont
-ms.openlocfilehash: 7c02bc46895c211748b8200c1490b08e54f0eb94
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f6586423ed8fa0254c84d2cd8737d1104f1ecea4
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138097"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366964"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Annullare la sottoscrizione o rimuovere [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -26,7 +26,7 @@ Se ci si è registrati per una della versione di valutazione gratuita e non si d
 
 È necessario chiedere all'amministratore di Microsoft 365 di rimuovere la sottoscrizione di prova dall'account della società nell'[interfaccia di amministrazione di Microsoft 365](https://admin.microsoft.com/).  
 
-Se hai effettuato l'iscrizione a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando un account aziendale non Microsoft 365, non hai un amministratore di Microsoft 365. Al contrario, è necessario annullare la sottoscrizione contattando il team dedicato [!INCLUDE[prod_short](includes/prod_short.md)] inviando un messaggio e-mail a [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). È necessario includere il nome del tenant di [!INCLUDE[prod_short](includes/prod_short.md)] nel messaggio in modo da consentire l'identificazione. È possibile trovare queste informazioni nella pagina **Guida e supporto**. Per ulteriori informazioni, vedere [Risorse per Guida e supporto](product-help-and-support.md).  
+Se hai effettuato l'iscrizione a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando un account aziendale non Microsoft 365, non hai un amministratore di Microsoft 365. È necessario annullare la sottoscrizione contattando il team dedicato [!INCLUDE[prod_short](includes/prod_short.md)] inviando un messaggio e-mail a [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). È necessario includere il nome del tenant di [!INCLUDE[prod_short](includes/prod_short.md)] nel messaggio in modo da consentire l'identificazione. È possibile trovare queste informazioni nella pagina **Guida e supporto**. Per ulteriori informazioni, vedere [Risorse per Guida e supporto](product-help-and-support.md).  
 
 ## <a name="unsubscribing-by-removing-prod_short-from-your-microsoft-365-experience"></a>Annullare la sottoscrizione rimuovendo [!INCLUDE[prod_short](includes/prod_short.md)] dalla propria esperienza di Microsoft 365
 

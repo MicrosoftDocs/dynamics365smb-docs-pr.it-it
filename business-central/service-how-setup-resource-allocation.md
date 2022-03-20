@@ -1,7 +1,7 @@
 ---
 title: Impostare l'assegnazione delle risorse | Documenti Microsoft
 description: Informazioni su come il sistema può aiutare a garantire che l'assegnazione venga fatta a chi ha le competenze necessarie per fornire a un servizio di assistenza.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a1455e315cf575d7ac7549113770d5cafa5012c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9f98a4079140020382edb505e0dcf0f9470808ea
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139315"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383455"
 ---
 # <a name="set-up-resource-allocation"></a>Impostare l'assegnazione delle risorse
 Per assicurarsi che un compito di assistenza sia eseguito correttamente, è importante trovare una risorsa qualificata per il lavoro. È possibile configurare [!INCLUDE[prod_short](includes/prod_short.md)] di modo che sia semplice assegnare una risorsa che disponga delle competenze necessarie per il compito. In [!INCLUDE[prod_short](includes/prod_short.md)] questa funzionalità è detta _assegnazione delle risorse_. È possibile assegnare le risorse in base alla loro competenza, disponibilità o se si trovano nella stessa zona di assistenza del cliente. 

@@ -8,16 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138494"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367204"
 ---
 # <a name="welcome-to-prod_long"></a>Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Estremamente adattabile, [!INCLUDE[prod_short](includes/prod_short.md)] include numerose funzionalità e consente alle aziende di gestire le attività, tra cui i reparti finanziario, produzione, vendite, spedizione, gestione progetti, assistenza e molto altro ancora. Ma non solo: le aziende possono infatti aggiungere facilmente le funzionalità più appropriate per il paese in cui operano e personalizzate in modo da supportare anche i settori più specializzati.  
+
+[Scopri come ottenere una versione di valutazione gratuita qui](trial-signup.md).  
 
 Se si dispone già di [!INCLUDE[prod_short](includes/prod_short.md)], accedere a [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Altrimenti, [ottenere la panoramica](https://dynamics.microsoft.com/business-central/overview/), [effettuare la visita guidata](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) e quindi [avviare una versione di valutazione gratuita](https://go.microsoft.com/fwlink/?linkid=847861). Date un'occhiata agli [articoli di avvio rapido](quick-start-business-central.md) per aiutarvi a conoscere [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni sull'onboarding in [!INCLUDE[prod_short](includes/prod_short.md)], vedi [Preparazione al business](ui-get-ready-business.md).  
 
@@ -61,7 +63,7 @@ Le sezioni seguenti rimandano a articoli chiave contenenti informazioni che cons
   - [Pianificazione della produzione](production-planning.md)
   - [Gestione assemblaggio](assembly-assemble-items.md)
   - [Manufacturing](production-manage-manufacturing.md)
-  - [Gestione warehouse](warehouse-manage-warehouse.md)
+  - [Warehouse Management](warehouse-manage-warehouse.md)
   - [Gestione assistenza](service-service.md)
   - [Funzionalità aziendali generali](ui-across-business-areas.md)
   - [Funzionalità locale](about-localization.md)

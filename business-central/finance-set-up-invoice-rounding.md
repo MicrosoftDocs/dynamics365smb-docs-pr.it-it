@@ -1,7 +1,7 @@
 ---
 title: Impostare l'arrotondamento delle fatture
 description: Se è necessario arrotondare gli importi delle fatture quando si creano le fatture, è possibile utilizzare la funzione di arrotondamento automatica spiegata qui.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5, 16, 118, 459, 460, 495
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 781027b74912e8971d27d6b6c7613243c135cc1f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 073c399d952b005efe5319b5363f9f34636a4b09
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143480"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381283"
 ---
 # <a name="set-up-invoice-rounding"></a>Impostare l'arrotondamento delle fatture
 Se è necessario arrotondare gli importi delle fatture quando si creano le fatture, è possibile utilizzare la funzione di arrotondamento automatica. Quando una fattura viene arrotondata, viene aggiunta un'ulteriore riga con l'importo di arrotondamento. Questa riga verrà contabilizzata insieme alle altre righe della fattura.
