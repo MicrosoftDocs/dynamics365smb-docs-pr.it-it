@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08d73d46283908a811fd9690b6e4ea43e35d5118
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137421"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520892"
 ---
 # <a name="set-up-resources-for-projects"></a>Impostazione delle risorse per i progetti
 
@@ -27,26 +27,28 @@ L'importo orario di default viene specificato durante la creazione della risorsa
 
 > [!NOTE]
 > Puoi acquistare risorse esterne, ad esempio, per fatturare a un fornitore per il lavoro eseguito. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).<br /><br />
-> In tal caso, si consiglia di nominare o raggruppare tali risorse esterne per indicarne lo scopo in modo che non vengano confuse con le risorse interne.
+> Per le risorse esterne, ti consigliamo di nominare o raggruppare tali risorse in modo che non vengano confuse con le risorse interne.
+>  
+> Se registri transazioni intercompany, sebbene sia possibile una risorsa in una riga di un ordine cliente, se si converte l'ordine cliente in un ordine fornitore sul lato ricevente, la risorsa non verrà inclusa. Per utilizzare le risorse nelle transazioni intercompany, utilizza il campo **Nr. conto C/G acq. partner IC** della scheda risorsa per specificare il conto su cui registrare le spese.
 
 ## <a name="to-set-up-a-resource"></a>Per impostare una risorsa
 Creare una scheda per ogni risorsa che si desidera utilizzare nei progetti.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Per impostare un gruppo di risorse
 È possibile unire diverse risorse in uno stesso gruppo di risorse. Le capacità e i budget di un gruppo di risorse sono il risultato della somma delle capacità e dei budget delle singole risorse. È possibile immettere le capacità dei gruppi di risorse indipendentemente dai valori accumulati oppure in aggiunta a questi.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi di risorse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Gruppi di risorse**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi, se necessario.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Per impostare la capacità per una risorsa
 Per calcolare quanto tempo una risorsa può dedicare alle commesse, la relativa capacità deve essere prima impostata come tempo disponibile per periodo nel calendario di produzione. Questa impostazione è utilizzata quando si compilano le righe di pianificazione commessa che contengono la risorsa. Per ulteriori informazioni, vedere [Creare le commesse](projects-how-create-jobs.md).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse**, quindi scegli il collegamento correlato.
 2. Aprire la scheda risorsa interessata e scegliere l'azione **Capacità risorsa**.
 3. Nella pagina **Capacità risorsa** nel campo **Visualizza per** specificare la durata del periodo, ad esempio **giorno**, che viene visualizzato nelle colonne della Scheda dettaglio **Matrice capacità risorse**.
 4. Per ogni risorsa di una riga, specificare per ogni periodo nelle colonne il numero di ore per cui la risorsa è disponibile.
@@ -79,7 +81,7 @@ Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei pre
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

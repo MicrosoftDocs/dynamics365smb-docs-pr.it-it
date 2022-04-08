@@ -1,5 +1,5 @@
 ---
-title: Impostazione dell'IVA ad esigibilità differita
+title: Impostare l'IVA ad esigibilità differita
 description: Se si utilizza contabilità basata su contanti, è possibile specificare come gestire l'IVA ad esigibilità differita per le vendite e acquisti.
 author: brentholtorf
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.search.form: 118, 472, 473
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 168d73da4c2cb9d457071aa9f1116fc397aad648
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1ae48b042cf3df00a1d62a6871136e2526b3db0c
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381241"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417697"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti
 
@@ -23,7 +23,7 @@ Se si utilizzano metodi di contabilità basata su contanti, è possibile imposta
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Per utilizzare conti C/G per l'IVA ad esigibilità differita
 
-Gli importi IVA possono essere calcolati e registrati in un conto di contabilità generale temporaneo al momento della registrazione di una fattura, quindi registrati nel conto corretto e inclusi nelle dichiarazioni IVA al momento della registrazione del pagamento effettivo della fattura. Prima di effettuare questa operazione, è necessario completare l'impostazione della registrazione dell'IVA.
+Gli importi IVA possono essere calcolati e registrati in un conto di contabilità generale temporaneo al momento della registrazione di una fattura, quindi registrati nel conto corretto e inclusi nelle dichiarazioni IVA al momento della registrazione del pagamento effettivo della fattura. Prima di effettuare questa operazione, è necessario completare l'[impostazione della registrazione dell'IVA](finance-setup-vat.md).
 
 Per utilizzare conti per l'IVA ad esigibilità differita, procedere nel modo seguente:
 

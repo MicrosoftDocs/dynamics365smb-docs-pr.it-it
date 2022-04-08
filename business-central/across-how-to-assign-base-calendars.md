@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 25d15bfab1dac9cea52d9efdb30e5ed3c7cbb4a2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0c6be4bc0c602363e4ae54cc27663d1eaa4091e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141595"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511838"
 ---
 # <a name="set-up-base-calendars"></a>Impostare i calendari di base
 
@@ -22,7 +22,7 @@ ms.locfileid: "8141595"
 
 ## <a name="to-set-up-a-base-calendar"></a>Per impostare un calendario base
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Calendario base**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Calendario base**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare il campo **Codice**.  
 4. Scegliere l'azione **Mantenere variazioni calendario base**.
@@ -66,7 +66,7 @@ Mentre un calendario di base standard mostra solitamente tutti i sabati come gio
 
 Nella seguente procedura viene utilizzato l'esempio di un'ubicazione. L’esempio presuppone che si sia già provveduto all' assegnazione di un calendario di base al magazzino.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
 2. Aprire l'ubicazione da aggiornare e selezionare il campo **Calendario personalizzato**. Si noti che un calendario deve essere selezionato nel campo **Codice calendario base** .
 3. Nella pagina **Voci calendario personalizzato** visualizzata, scegliere l'azione **Mantenere variazioni calendario personalizzato**.
 4. In **Variazioni calendario personalizzato**, aggiungere le righe per le voci di calendario personalizzato.
@@ -102,7 +102,7 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 -   Nella scheda **Ubicazione** , il calendario di base è assegnato nella Scheda dettaglio **Warehouse**.  
 -   Nella pagina **Spedizionieri** , il calendario di base è assegnato nella pagina **Servizi spedizioniere** .  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Clienti**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda **Cliente** per la quale assegnare un calendario di base.  
 3.  Nella Scheda dettaglio **Spedizione**, nel campo **Codice calendario base** , selezionare il calendario di base che si intende assegnare.  
 
@@ -118,7 +118,7 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 [Acquisti](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

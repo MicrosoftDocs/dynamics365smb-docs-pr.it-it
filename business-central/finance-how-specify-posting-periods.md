@@ -11,12 +11,12 @@ ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 749f5d2dc901fae9db9c96d4f1c51e9590aa8184
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 558dcdf68f8ecc6a7c8def0b6a61a33d78f8f68b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142187"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516319"
 ---
 # <a name="specify-posting-periods"></a>Specificare i periodi di registrazione
 
@@ -24,7 +24,7 @@ Utilizzare i periodi di registrazione per specificarne quando gli utenti possono
 
 ## <a name="to-specify-posting-periods"></a>Per specificare i periodi di registrazione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Impostazione della contabilità generale** specificare il periodo inserendo le date nei campi **Consenti registraz. da** e **Consenti registrazioni fino a**.  
 
 > [!NOTE]  
@@ -34,7 +34,7 @@ Utilizzare i periodi di registrazione per specificarne quando gli utenti possono
 
 [Finanze](finance.md)  
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

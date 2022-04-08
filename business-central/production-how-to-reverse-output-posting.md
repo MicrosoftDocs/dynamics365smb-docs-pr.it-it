@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ed45facfc64dda670d0e1e4d7dd9b396b4c11fae
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132787"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516033"
 ---
 # <a name="reverse-output-posting"></a>Stornare la registrazione dell'output
 
@@ -22,7 +22,7 @@ La registrazione dell'output deve essere stornata in tre casi diversi. È possib
 
 ## <a name="to-reverse-an-output-posting"></a>Per stornare una registrazione di output
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni output**, quindi scegli il collegamento correlato. Selezionare il batch.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni output**, quindi scegli il collegamento correlato. Selezionare il batch.  
 2. Compilare i campi come necessario. Per ulteriori informazioni, vedere [Registrare l'output e i tempi di lavorazione tramite processo batch](production-how-to-post-output-quantity.md).
 3. Nel campo **Collega-a movimento** selezionare il movimento contabile articolo associato. In questo modo, verranno stornati i movimenti contabili articolo e capacità.  
 4. Registrare lo storno mediante la contabilizzazione delle registrazioni.  
@@ -35,7 +35,7 @@ I movimenti delle registrazioni di output verranno registrati nei movimenti cont
  [Pianif.](production-planning.md)  
  [Magazzino](inventory-manage-inventory.md)  
  [Acquisti](purchasing-manage-purchasing.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

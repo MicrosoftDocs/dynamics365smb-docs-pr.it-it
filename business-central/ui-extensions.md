@@ -1,29 +1,30 @@
 ---
-title: Installare le estensioni per personalizzare Business Central
+title: Personalizzazione di Business Central Online per con le estensioni
 description: Scopri tutte le informazioni sull'aggiunta di funzionalità e la personalizzazione di Business Central tramite l'installazione delle estensioni.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/25/2021
+ms.search.form: 2500, 2502
+ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132422"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510689"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Personalizzazione di Business Central Online per con le estensioni
 
 È possibile modificare [!INCLUDE[prod_short](includes/prod_short.md)] online installando estensioni in grado ad esempio di aggiungere funzionalità, modificare il comportamento o consentire l'accesso a nuovi servizi online.
 
 > [!NOTE]
-> Per installare o disinstallare le estensioni da AppSource o aggiungere estensioni per tenant, è necessario avere le autorizzazioni appropriate. Devi essere un membro di EXTEND. MGT. - Gruppo utenti ADMIN o è necessario disporre dell'estensione EXTEND. MGT. - set di autorizzazione ADMIN. Se si è un amministratore, è possibile assegnare gruppi di utenti e autorizzazioni ad altri utenti della tua azienda.
+> Per installare o disinstallare le estensioni da AppSource o aggiungere estensioni per tenant, è necessario avere le autorizzazioni appropriate. È necessario essere membri del gruppo utenti **Gestione estesa D365** oppure disporre del set di autorizzazioni **GESTIONE ESTESA - AMMINISTRATORE**. Se si è un amministratore, è possibile assegnare gruppi di utenti e autorizzazioni ad altri utenti della tua azienda. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).  
 >
 > Per utilizzare la funzionalità fornita da un'estensione, come l'apertura di pagine, l'esecuzione di report, la selezione di azioni e così via, è necessario assegnare i set di autorizzazioni installati come parte dell'estensione.
 
-> [!NOTE]  
-> Il set di autorizzazioni **EXTEND. MGT. - ADMIN** è stato introdotto nella versione Business Central 2021 primo ciclo di rilascio come sostituzione per il set di autorizzazioni **D365 EXTENSION MGT** nelle versioni precedenti.
+<!-- [!NOTE]  
+> The **EXTEN. MGT. - ADMIN** permission set was introduced in 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.-->
 
 > [!IMPORTANT]  
 > Il caricamento di estensioni per tenant e l'installazione di estensioni AppSource non sono supportati tramite la pagina **Gestione delle estensioni** per installazioni locali. Non è possibile installare le estensioni AppSource locali, neanche nelle distribuzioni basate su Docker.
@@ -84,6 +85,7 @@ I partner e i rivenditori Microsoft possono creare un'estensione che possono uti
 
 ## <a name="see-also"></a>Vedere anche
 
+[Installare e disinstallare estensioni](ui-extensions-install-uninstall.md)  
 [Personalizzare Business Central](ui-customizing-overview.md)  
 [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)  
 [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  

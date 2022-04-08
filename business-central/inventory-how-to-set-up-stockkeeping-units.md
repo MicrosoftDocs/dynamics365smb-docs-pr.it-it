@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92be2a9cf0a3ef176d4f3fe1c51ec5543c30bca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 320a5315f569deeec8c86ce8246497f171fbb853
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131537"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517396"
 ---
 # <a name="set-up-stockkeeping-units"></a>Impostare le unità di stockkeeping
 Le unità di stockkeeping possono essere utilizzate per registrare le informazioni relative agli articoli per una ubicazione o un codice variante specifici.  
@@ -24,7 +24,7 @@ Le unità di stockkeeping rappresentano un'integrazione alle schede articolo. No
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Per impostare le unità di stockkeeping  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Unità di stockkeeping**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Unità di stockkeeping**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Compilare i campi della scheda. I campi seguenti sono obbligatori: **Nr. articolo**, **Cod. ubicazione** e/o **Cod. variante**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -45,8 +45,8 @@ Per creare diverse unità di stockkeeping per un articolo, utilizzare il process
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

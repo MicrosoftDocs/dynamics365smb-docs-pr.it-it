@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3d504897d7a0ac8f24f49d09a4f8ee92035fa13e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 52f84c4c4b30aa09094806e238fe4f72232f5e62
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132760"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517897"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
 
@@ -35,7 +35,7 @@ La disponibilità viene memorizzata nei movimenti di calendario.
 
 Di seguito viene descritto come impostare un'area di produzione. I passaggi per impostare un calendario centro di lavoro sono gli stessi ad eccezione della Scheda dettaglio **Setup cicli**.  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Aree di produzione**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Aree di produzione**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Nel campo **Gruppo aree di produzione** selezionare il raggruppamento di risorse di livello più alto in base a cui è organizzata l'area di produzione, se pertinente. Scegliere l'azione **Nuovo** nell'elenco a discesa.  
@@ -170,7 +170,7 @@ Nella pagina **Risorse critiche** è possibile effettuare impostazioni per evita
 
 Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce che nessuna risorsa venga caricata oltre la propria capacità definita (carico critico). Questa operazione viene effettuata assegnando ogni operazione alla fascia oraria disponibile più vicina. Se la fascia oraria non è sufficiente a completare l'intera operazione, l'operazione verrà divisa in due o più parti e collocate nelle fasce orarie adiacenti disponibili.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse critiche**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse critiche**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario.
 
@@ -187,7 +187,7 @@ Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: fbb85d69cdd7844bbc63e6367ea962897ab30478
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144309"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515201"
 ---
 # <a name="plan-picks-in-worksheets"></a>Pianificare prelievi nei prospetti
 
@@ -42,11 +42,11 @@ Puoi ordinare le righe per articolo, numero di scaffale, documento di origine, d
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Per pianificare prelievi nel prospetto
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Prendi documenti warehouse**.  
 3. Selezionare le spedizioni per cui preparare un prelievo. Puoi ordinare le righe, ma l'ordinamento non verrà applicato all'istruzione di prelievo. È inoltre possibile eliminare alcune righe per creare un prelievo più efficace. Se ad esempio vi sono più righe con articoli nelle collocazioni di cross-dock, puoi creare un prelievo per tutte le righe. Gli articoli sottoposti a cross-dock verranno spediti insieme agli altri articoli e nelle collocazioni di cross-dock sarà disponibile una maggiore quantità di spazio per ulteriori articoli in entrata.  
 4. Scegli l'azione **Crea prelievo** e compila la pagina **Crea prelievo**. Le righe di prelievo create verranno ordinate in base ai criteri di ordinamento specificati in questa finestra. È ad esempio possibile creare un prelievo per ciascuna zona e ordinare le righe in base alla valutazione della collocazione all'interno di ciascun prelievo.  
-5. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi warehouse**, quindi scegli il collegamento correlato. Viene visualizzata la pagina **Prelievi warehouse**.  
+5. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi warehouse**, quindi scegli il collegamento correlato. Viene visualizzata la pagina **Prelievi warehouse**.  
 6. È possibile individuare l'assegnazione di prelievo selezionando il prelievo con il numero più elevato.  
 7. Se necessario, puoi assegnare un utente diverso o ordinare le righe in modo diverso.  
 8. Scegliere l'azione **Stampa** per stampare le istruzioni per il prelievo.  
@@ -58,8 +58,8 @@ Puoi ordinare le righe per articolo, numero di scaffale, documento di origine, d
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

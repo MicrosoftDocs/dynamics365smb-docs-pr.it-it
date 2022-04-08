@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ffd6bd12a1655cc330370df2c9d2c64a2d89e0af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e41f61156dbc7248cc9cb1a99ca2b5c790ee036
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144387"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518603"
 ---
 # <a name="create-bins"></a>Creare collocazioni
 
@@ -22,7 +22,7 @@ Il metodo più efficace per creare le collocazioni della warehouse consiste nel 
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Per creare una collocazione nella scheda ubicazione
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, e quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, e quindi scegli il collegamento correlato.  
 2.  Selezionare l'ubicazione da cui si desidera creare una collocazione e scegliere l'azione **Collocazioni**.  
 3. Scegliere l'azione **Nuovo**.
 4. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -42,7 +42,7 @@ Un'area di produzione impostata con un codice collocazione nel campo **Cod. coll
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Per creare singole collocazioni nel prospetto di creazione delle collocazioni
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto creaz. collocazione**, e seleziona il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto creaz. collocazione**, e seleziona il collegamento correlato.  
 2.  In ciascuna riga, compilare i campi necessari per assegnare un nome e caratteristiche specifiche alle collocazioni che si sta creando.  
 3.  Scegliere l'azione **Crea collocazioni**.  
 
@@ -55,7 +55,7 @@ Prima di avviare la creazione automatica delle collocazioni, è necessario indiv
 
 Per utilizzare la pagina **Prospetto creaz. collocazione**, è necessario essere impostato come impiegato warehouse nell'ubicazione in cui si trovano le collocazioni. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto creaz. collocazione**, e quindi seleziona il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto creaz. collocazione**, e quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Calcola collocazioni**.
 3. Nella pagina **Calcola collocazioni**, nel campo **Codice modello collocazione**, quindi selezionare il modello da utilizzare per le collocazioni che si stanno creando.
 4.  Immettere una descrizione per le collocazioni in fase di creazione.  
@@ -82,8 +82,8 @@ Ripetere la procedura per un altro gruppo di collocazioni finché non sono state
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

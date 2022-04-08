@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 2694b4489878d7d953d4075eaa5cc740b817d727
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fd114fab64ac6d3f33db2b281d39c9d7a9fc9a1f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335217"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513500"
 ---
 # <a name="detecting-mandatory-fields"></a>Rilevare campi obbligatori
 Immettendo i dati nelle pagine in [!INCLUDE[prod_short](includes/prod_short.md)], alcuni campi sono contrassegnati con un asterisco rosso. L'asterisco rosso significa che il campo deve essere compilato per completare un determinato processo che utilizza il campo, ad esempio registrare una transazione che utilizza il valore nel campo.
@@ -26,8 +26,8 @@ Nella pagina **Scheda cliente** l'asterisco rosso viene visualizzato nei campi *
 
 Nella pagina **Scheda articolo**, l'asterisco rosso viene visualizzato nel campo **Descrizione** per indicare che non è possibile immettere l'articolo in una riga di un documento, ad esempio un ordine di vendita, senza compilare questo campo.
 
-## <a name="see-also"></a>Vedi anche
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Vedere anche
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

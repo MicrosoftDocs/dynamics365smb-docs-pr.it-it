@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5522, 5524, 5526
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8d26c606782193ee9017b4f57577d3e6cdf79cab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e95bc34c56364ebb12c63c250339f1de868b8a32
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148384"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516772"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Pianificare una nuova domanda ordine per ordine
 
@@ -25,7 +25,7 @@ ms.locfileid: "8148384"
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Per pianificare la domanda di un nuovo ordine di produzione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione confermati**, quindi seleziona il collegamento correlato. È possibile effettuare tali passaggi per ordini di produzione pianificati, confermati o rilasciati.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini di produzione confermati**, quindi seleziona il collegamento correlato. È possibile effettuare tali passaggi per ordini di produzione pianificati, confermati o rilasciati.
 2. Aprire l'ordine di produzione che si desidera pianificare, quindi scegliere l'azione **Pianificazione**.  
 3. Nella pagina **Pianificazione ordini** scegliere l'azione **Calcola piano**.  
 
@@ -33,7 +33,7 @@ Le righe di pianificazione appaiono nella pagina in base al filtro di visualizza
 
 ## <a name="to-plan-for-any-new-demand"></a>Per pianificare qualunque nuova domanda
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pianificazione ordini**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Pianificazione ordini**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Pianificazione ordini** scegliere l'azione **Calcola piano**.
 3. Fare clic sul pulsante **Espandi** davanti alla data del campo **Data uscita** per visualizzare le righe di pianificazione sottostanti, che rappresentano le righe di domanda con disponibilità insufficiente.  
 4. Per ogni riga di pianificazione estesa, ovvero riga di domanda, i valori dei campi relativi alle informazioni sono visualizzati nella parte inferiore della pagina.  
@@ -124,7 +124,7 @@ Al termine delle operazioni di pianificazione nella pagina **Pianificazione Ordi
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Registrare nuovi articoli](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

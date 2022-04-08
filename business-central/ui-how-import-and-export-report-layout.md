@@ -9,14 +9,17 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148306"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512760"
 ---
-# <a name="import-and-export-custom-report-layouts"></a>Importare ed esportare layout di report personalizzati
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Legacy) Importare ed esportare layout di report personalizzati
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
+
 È possibile esportare e importare un layout di report personalizzato esistente come file da e verso un computer o una rete. Ad esempio, è possibile esportare un layout di report e inviare il file a un'altra persona per essere modificato. Dopo le modifiche, il file può essere importato nuovamente.  
 
 > [!IMPORTANT]  
@@ -24,7 +27,7 @@ ms.locfileid: "8148306"
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Per esportare un layout di report verso un file  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
 
 2.  Selezionare la riga per il report che contiene il layout di report personalizzato che si desidera esportare, quindi scegliere l'azione **Layout personalizzati**.  
 
@@ -53,8 +56,8 @@ ms.locfileid: "8148306"
 ## <a name="see-also"></a>Vedere anche
 
 [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
-[Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
-[Utilizzo di report, processi batch e XMLport](ui-work-report.md)    
+[Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
+[Utilizzare report, processi batch e XMLport](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

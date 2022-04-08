@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 00b2cd6f4e0b7a141bd6c31dc61ceac909407376
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4afda1c307f0f327196ad3dc0d53d74842bf3d9f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140295"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523076"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedura dettagliata: Conduzione di una campagna di vendita
 
@@ -68,7 +68,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
 ### <a name="to-set-up-a-campaign"></a>Per impostare una campagna  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Campagne**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Campagne**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** per creare una nuova campagna. Nella scheda campagna, premere **Invio** per inserire automaticamente un numero campagna.  
 3. Nel campo **Descrizione** immettere una descrizione per la campagna, ad esempio **Fiera Ufficio Futurus**.  
 4. Scegliere il campo **Codice di stato** e selezionare il codice di stato "1-PLAN". 
@@ -160,11 +160,11 @@ Il manager marketing decide che l'elenco ridotto è quello finale dei contatti d
 
 Gli allegati vengono inviati. Al termine del processo, fare clic sul pulsante **OK** all'interno del messaggio che indica che il segmento è stato registrato.  
 
- Le lettere vengono stampate automaticamente e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato spostato nella lista dei segmenti registrati. Per vedere l'elenco, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Segmenti registrati**, quindi scegli il collegamento correlato.  
+ Le lettere vengono stampate automaticamente e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato spostato nella lista dei segmenti registrati. Per vedere l'elenco, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Segmenti registrati**, quindi scegli il collegamento correlato.  
 
 Dopo che il segmento è stato registrato, ogni lettera inviata viene registrata come un'interazione, che è possibile visualizzare nel log.  
 
-Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti log interazione**, quindi scegli il collegamento correlato. È presente un movimento per ciascuna lettera inviata.  
+Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti log interazione**, quindi scegli il collegamento correlato. È presente un movimento per ciascuna lettera inviata.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Per inviare un messaggio di posta elettronica a un contatto  
 
@@ -202,7 +202,7 @@ Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità de
 ## <a name="see-also"></a>Vedere anche  
 [Gestione delle relazioni](marketing-relationship-management.md)  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

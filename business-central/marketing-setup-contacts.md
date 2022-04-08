@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137837"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516111"
 ---
 # <a name="set-up-contacts"></a>Setup contatti
 Quando si creano contatti, è possibile immettere informazioni specifiche, ad esempio il settore a cui il contatto appartiene e la relazione d'affari con i contatti.
@@ -140,7 +140,7 @@ Se si modifica uno di questi campi nella scheda società contatto, gli stessi ca
 
 Per ulteriori informazioni, vedere [Creare contatti](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Utilizzare le impostazioni di default nei nuovi contatti
+## <a name="use-predefined-defaults-on-new-contacts"></a>Utilizzare le impostazioni predefinite nei nuovi contatti
 È possibile impostare l'applicazione in modo da assegnare automaticamente un codice lingua, un codice territorio, un codice agente e un codice paese specifici come default per ogni nuovo contatto creato. È inoltre possibile inserire un codice ciclo di vendita di default che verrà assegnato automaticamente a ogni nuova opportunità creata. Questa impostazione viene eseguita nella Scheda dettaglio **Default** della pagina **Setup marketing**
 
 L'eredità dei campi viene sovrascritta ai valori di default impostati. Se ad esempio la lingua di default è stata impostata su Inglese ma la lingua della società contatto è Tedesco, quest'ultimo viene automaticamente assegnato come codice lingua per i contatti registrati relativi a tale società.
@@ -159,7 +159,7 @@ Una volta individuato un contatto duplicato, è possibile utilizzare la pagina *
 [Gestione dei contatti](marketing-contacts.md)  
 [Creare contatti](marketing-create-contact-companies.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

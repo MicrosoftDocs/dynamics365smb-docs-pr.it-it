@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5464f2770ca603a67b825ff8b5908cb7ac255d9b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ea522a54f45e95c154b779c3603229d1efdef1a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141543"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522302"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici
 Dai PDF o dai file di immagine che si ricevono dai partner commerciali, è possibile impostare che un servizio OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) generi documenti elettronici che si possono convertire in record di documento in [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, quando si riceve una fattura nel formato PDF dal fornitore, è possibile inviarla al servizio OCR dalla pagina **Documenti in entrata**. Questa funzionalità è descritta nella prima procedura.
@@ -29,7 +29,7 @@ Poiché OCR si basa sul riconoscimento ottico, è probabile che il servizio OCR 
 Il traffico dei file al e dal servizio OCR viene elaborato da un movimento coda processi dedicato, creato automaticamente quando si abilita la relativa connessione del servizio. Per ulteriori informazioni, vedere [Impostare documenti in entrata](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Per inviare un file di immagine o PDF al servizio OCR dalla pagina **Documenti in entrata**
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.
 2. Creare un nuovo record di documento in entrata e allegare il file. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).  
 3. Nella pagina **Documenti in entrata** selezionare una o più righe e quindi scegliere **Invia a coda processi**.
 
@@ -106,7 +106,7 @@ Poiché OCR si basa sul riconoscimento ottico, è probabile che il servizio OCR 
 
 La pagina **Correzione dati OCR** che si apre dalla pagina **Documento in entrata** mostra i campi della Scheda dettaglio **Informazioni finanziarie** in due colonne, una con i dati OCR modificabili e una con i dati OCR di sola lettura. Scegliendo il pulsante **Invia commenti e suggerimenti OCR** il contenuto della pagina **Correzione dati OCR** viene inviato al servizio OCR. La volta successiva che il servizio elabora file PDF o di immagine contenenti i dati in questione, le correzioni verranno incluse per evitare gli stessi errori.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.
 2. Aprire un record del documento in entrata contenente i dati ricevuti dal servizio OCR da correggere.
 3. In alternativa, nella pagina **Documento in entrata** scegliere l'azione **Correggi dati OCR**.
 4. Nella pagina **Correggi dati OCR** sovrascrivere i dati nella colonna modificabile per ogni campo contenente un valore non corretto.
@@ -120,7 +120,7 @@ I campi della Scheda dettaglio **Informazioni finanziarie** nella pagina **Docum
 [Elaborare i documenti in entrata](across-process-income-documents.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

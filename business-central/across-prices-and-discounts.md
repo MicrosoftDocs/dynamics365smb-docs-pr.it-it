@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383297"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523607"
 ---
 # <a name="set-up-prices-and-discounts"></a>Impostare prezzi e sconti
 > [!NOTE]
@@ -47,7 +47,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Scegli il cliente, quindi l'azione **Prezzi**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà un prezzo di vendita speciale al cliente.
 
@@ -58,7 +58,7 @@ Per default, lo stato dei nuovi listini prezzi è **Bozza**. Quando si è pronti
 
 Per rivedere i listini prezzi e i prezzi che si applicano a clienti o fornitori specifici, nella pagina **Cliente** o **Venditore** scegliere l'azione **Listini prezzi di vendita** o **Listini prezzi di acquisto**. Per articoli e risorse, è possibile visualizzare le righe del listino prezzi scegliendo **Prezzi di vendita** o **Prezzi di acquisto** nelle pagine **Articolo** e **Risorsa**.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Scegli il cliente, quindi l'azione **Listini prezzi di vendita**. 
 3. Scegliere **Nuovo** per creare un nuovo listino prezzi di vendita.
 4. Nelle Schede dettaglio **Generale** e **Imposta** compilare i campi appropriati. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +75,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Apri la scheda cliente interessata e scegli l'azione **Sconti riga**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà uno sconto riga vendita al cliente.
 
@@ -99,7 +99,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 ---
 
-## <a name="working-with-invoice-discounts-and-service-charges"></a>Utilizzo di Sconti fattura e Addebito assistenza
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Utilizzare Sconti fattura e Addebito assistenza
 Quando si utilizzano gli sconti fattura, lo sconto applicato dipende dall'importo della fattura. Nella pagina **Sconti fattura** è inoltre possibile aggiungere un addebito di assistenza a fatture che superano un certo importo.  <!--The Invoice Discounts page is hard to find.-->
 
 Prima di utilizzare gli sconti fattura con le vendite è necessario immettere una serie di informazioni. È necessario decidere a quali clienti verrà concesso questo tipo di sconto e quali percentuali di sconto verranno applicate.  
@@ -198,4 +198,4 @@ Dopo aver registrato prezzi speciali e sconti riga di vendita e di acquisto, [!I
 ## <a name="see-also"></a>Vedere anche
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

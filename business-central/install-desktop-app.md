@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: fe612bb6366647ca031b38122de30fc96cc66853
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130464"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519754"
 ---
 # <a name="get-business-central-desktop-app"></a>Ottieni Business Central Desktop App
 
@@ -78,7 +78,7 @@ La differenza è quando si hanno più inquilini. A differenza di [!INCLUDE[prod_
 
 [Domande frequenti sull'app per dispositivi mobili](ui-mobile-faq.yml)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

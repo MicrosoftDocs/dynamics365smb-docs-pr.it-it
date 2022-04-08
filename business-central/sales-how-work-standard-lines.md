@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6039739825964ce059a4f76d1e92f32b581c60a7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe6f144b8513f651293f56e10ecf3020c1d0760
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144751"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517741"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Creare righe di vendite e acquisti ricorrenti
 Se è spesso necessario creare righe di vendita e acquisto con informazioni simili, è possibile impostare righe standard da inserire nei documenti di vendita e di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.  
@@ -23,7 +23,7 @@ La seguente procedura illustra come utilizzare le righe di vendita standard in u
 
 ## <a name="to-set-up-recurring-sales-lines"></a>Per impostare righe di vendita ricorrenti
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Righe vendita ricorrenti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Righe vendita ricorrenti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Righe vendita ricorrenti** scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Nella Scheda dettaglio **Righe**, immettere le informazioni nei campi per preparare le righe di vendita che riflettono le righe standard che si prevede di utilizzare come righe ricorrenti nei documenti di vendita.  
@@ -37,7 +37,7 @@ La seguente procedura illustra come utilizzare le righe di vendita standard in u
 
 Assegnare una o più righe di vendita ricorrenti a un cliente di modo che sia possibile inserirle nei documenti di vendita per quel cliente.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Aprire la scheda di un cliente pertinente.
 3. Scegliere l'azione **Righe vendita ricorrenti**.
 4. Nella pagina **Righe vendita ricorrenti**, selezionare i codici per le righe di vendita ricorrenti che si intende inserire in documenti di vendita per il cliente.
@@ -59,7 +59,7 @@ Assegnare una o più righe di vendita ricorrenti a un cliente di modo che sia po
 
 Se esistono righe di vendita ricorrenti per il cliente, è possibile inserirle o farle inserire in tutti i tipi di documenti di vendita come una fattura di vendita. Se hai attivato le opzioni **Chiedi sempre**, si verrà informati dell'esistenza di righe di vendita ricorrenti.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture**, quindi seleziona il collegamento correlato.
 2. Aprire la fattura di vendita in cui si desidera inserire una più righe di vendita standard.
 3. Scegliere l'azione **Ottieni righe vendita ricorrenti**.
 4. Nella pagina **Righe vendita ricorrenti**, scegliere il pulsante di ricerca nel campo **Codice** e selezionare una serie di righe di vendita standard.
@@ -78,7 +78,7 @@ Le fatture di vendita vengono create per i clienti con il codice di vendita clie
 ## <a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

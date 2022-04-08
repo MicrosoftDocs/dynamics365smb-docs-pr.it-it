@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383429"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519520"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Utilizzo di modelli Word per comunicazioni in blocco
+# <a name="use-word-templates-for-bulk-communication"></a>Utilizzare modelli Word per comunicazioni in blocco
 Microsoft Word i modelli possono rendere più facile la comunicazione di massa in stampa o via e-mail con entità come contatti, clienti e venditori. Ad esempio, è possibile creare brochure per avvisare i clienti di una campagna di vendita, lettere per informare i fornitori su una nuova politica di acquisto o inviti per attirare contatti a un evento imminente.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Quando il tuo modello di Word è pronto, nella pagina **Modelli di Word** puoi s
 
 Puoi applicare dei modelli a uno o più dello stesso tipo di entità, come un contatto, direttamente nel contesto di quella pagina, o dalla pagina Modelli di Word per applicare il modello a tutte le entità di quel tipo.
 
-## <a name="using-word-templates-with-email"></a>Usare i modelli di Word con la posta elettronica
+## <a name="use-word-templates-with-email"></a>Usare i modelli di Word con la posta elettronica
 È possibile utilizzare i modelli di Word per aggiungere contenuti ai messaggi di posta elettronica. Quando componi un'email, puoi scegliere l'azione **Usa modello Word** per applicare il contenuto di un modello al messaggio. Questo richiede che tu abbia creato uno o più modelli per l'entità. Puoi usare un modello alla volta, e quando passi da un modello all'altro il messaggio cambia per riflettere il contenuto del modello scelto.
 
 Inoltre, puoi usare l'azione **Aggiungi file da modello Word** per allegare il contenuto del modello all'email come file. Il file userà il formato che hai specificato per l'output del modello.

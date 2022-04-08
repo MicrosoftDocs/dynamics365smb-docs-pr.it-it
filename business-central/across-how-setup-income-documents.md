@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b35eeb057566b9dde9141e9295b45a4dd7c5b7e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: efad73622be6b4495974a7df02dac47c71814622
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134306"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515169"
 ---
 # <a name="set-up-incoming-documents"></a>Impostare documenti in entrata
 
@@ -28,7 +28,7 @@ Se la funzionalità Documenti in entrata è impostata, è possibile utilizzare d
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>Per impostare la funzione Documenti in entrata
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup documenti in entrata**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup documenti in entrata**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Come parte del setup, è necessario decidere se si desidera richiedere l'approvazione dei documenti in arrivo. Per richiedere l'approvazione, è necessario impostare responsabili approvazione e workflow di approvazione. Se l'organizzazione non intende richiedere l'approvazione, è possibile ignorare la sezione successiva.  
@@ -43,7 +43,7 @@ Prima di creare workflow che coinvolgono passaggi di approvazione, è necessario
 
 ## <a name="to-set-up-an-ocr-service"></a>Per impostare un servizio OCR
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup servizio OCR**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup servizio OCR**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -56,7 +56,7 @@ Per ulteriori informazioni, vedere [Utilizzare OCR per convertire PDF e file di 
 [Elaborare i documenti in entrata](across-process-income-documents.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

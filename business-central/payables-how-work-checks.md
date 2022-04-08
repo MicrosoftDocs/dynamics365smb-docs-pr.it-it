@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b2c57c4a96021beb6e02564e7b24577f52b60922
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1b4d3f152f74e1bba9f30e7da45e1b910301b4df
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137811"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520232"
 ---
 # <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
 
@@ -39,7 +39,7 @@ La seguente procedura mostra come pagare un fornitore con un assegno automatico 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Per pagare una fattura fornitore con un assegno automatico
 Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi sono simili al rimborso dei clienti tramite assegno.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
 2. Compilare le righe di registrazione pagamenti. Per ulteriori informazioni, vedere [Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md).
 3. Nel campo **Codice metodo di pagamento** selezionare **Assegno**.
 4. Nel campo **Tipo pagamento banca** selezionare **Assegno automatico**.
@@ -67,7 +67,7 @@ Una volta che i pagamenti tramite assegno sono stati registrati, è possibile an
 > [!IMPORTANT]
 > Se l'assegno viene applicato a una fattura, annullare prima l'assegno in modo che la fattura possa essere rimborsata, quindi annullare l'assegno. Se l'assegno è stato stampato e non ha pagato la fattura, scegliere **Annullo solo assegno** come descritto in questa sezione.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Selezionare il conto corrente bancario appropriato, scegliere l'azione **Modifica**, quindi scegliere l'azione **Mov. contabili assegni**.
 3. Nella pagina **Mov. contabili assegni** scegliere l'azione **Annullo assegno**.
 4. Selezionare la casella di controllo **Annullo solo assegno**.
@@ -75,7 +75,7 @@ Una volta che i pagamenti tramite assegno sono stati registrati, è possibile an
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Per visualizzare un riepilogo degli assegni registrati
 Se si desidera verificare gli assegni registrati, ad esempio per verificare più assegni pagati a un fornitore, è possibile utilizzare il report **C/C bancario - Dettaglio assegni**.
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancario - Dettaglio assegni**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancario - Dettaglio assegni**, quindi scegli il collegamento correlato.
 2. Impostare i filtri desiderati quindi scegliere il pulsante **Anteprima**.
 
 ## <a name="see-also"></a>Vedi anche
@@ -83,7 +83,7 @@ Se si desidera verificare gli assegni registrati, ad esempio per verificare più
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Esportare un file Positive Pay](finance-how-positive-pay.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5783647c4e70debce32bbb0ca3976efea78ec065
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5dcadd2cb9712fb2cfa69dfed921c205698d524b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143714"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511157"
 ---
 # <a name="design-details-cost-adjustment"></a>Dettagli di progettazione: Rettifica costo
 
@@ -187,7 +187,7 @@ Se è stata impostata la rettifica dei costi automatica da applicare alle regist
 [Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

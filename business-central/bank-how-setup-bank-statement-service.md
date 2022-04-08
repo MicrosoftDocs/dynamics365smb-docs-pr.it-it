@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.search.form: 1280, 1290
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce0ccc00b1d2cf823e0a676f66fef1c124a4932e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af8695ca048b7fc7534f2376e8b186ac08737469
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146880"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511781"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Impostare il servizio Envestnet Yodlee Bank Feeds
 
@@ -48,7 +48,7 @@ Quando il servizio di feed bancari è abilitato, è possibile impostare un conto
 > Se si utilizza la guida al setup assistito Imposta società, alcuni passaggi delle procedure riportate di seguito vengono eseguiti automaticamente quando si raggiunge il setup del conto corrente bancario della società. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Per abilitare il servizio di feed bancari
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Aprire il conto corrente bancario da utilizzare per il servizio di feed bancari.
 3. Nella pagina **Conto bancario** nel campo **Formato importazione rendiconto bancario** selezionare YODLEEBANKFEED.  
 
@@ -58,7 +58,7 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 > Se si utilizza la guida di setup assistito **Setup società**, si attiva l'assistenza selezionando la casella di controllo **Utilizza servizio feed bancari**. Per ulteriori informazioni, vedere [Creazione di nuove società in Business Central](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Per creare un nuovo conto bancario collegato
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Selezionare il conto corrente bancario appropriato e fare clic su **Crea nuovo conto bancario collegato**. Dopo alcuni istanti, si apre la pagina **Collegamento conto bancario**.
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Il servizio di feed bancari verrà abilitato quando si collega un conto corrente
 10. Nella pagina **Lista C/C bancari** selezionare il conto bancario per il quale si desidera effettuare il collegamento e quindi fare clic su **OK**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Per collegare un conto bancario a un conto bancario online
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Selezionare la riga per un conto bancario non collegato a un conto bancario online quindi selezionare l'azione **Collega a conto bancario online**. Si apre la pagina **Collegamento conto bancario online** con il nome della banca precompilato nel riquadro **Collegamento conto**.
 3. Scegliere il nome della banca. Viene visualizzato il riquadro di **accesso**.
 4. Immettere il nome utente e la password utilizzati per accedere alla banca online, quindi selezionare il pulsante **Avanti**.  
@@ -135,7 +135,7 @@ Ogni ora la pagina **Registrazione riconciliazione pagamenti** visualizzerà i n
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni ](ui-extensions.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

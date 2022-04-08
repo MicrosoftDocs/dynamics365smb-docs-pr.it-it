@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8bed1cc63d95d3b49bf439da0ccf949d536b9792
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 48f2735c39c3630611abcb785efc67cfd9473671
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136246"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511131"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Trasferimento, divisione o raggruppamento dei cespiti
 
@@ -26,12 +26,12 @@ Il trasferimento dei cespiti in ubicazioni diverse può essere utilizzato, ad es
 
 1. Impostare un nuovo cespite. Inserire il nuovo dipartimento come dimensione.  
 2. Assegnare un registro beni ammortizzabili al nuovo cespite. Per ulteriori informazioni, vedere [Acquisire i cespiti](fa-how-acquire.md).
-3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni riclassificazione cespiti**, quindi scegli il collegamento correlato.
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni riclassificazione cespiti**, quindi scegli il collegamento correlato.
 4. Creare una riga di registrazione in cui il campo **Nr. cespite** contiene il cespite originale e il campo **Nuovo nr. cespite** contiene il nuovo cespite da spostare. Compilare debitamente gli altri campi.  
 5. Scegliere l'azione **Riclassifica**.
 
     Vengono create due righe in Registrazioni C/G cespiti utilizzando la definizione ed il batch specificati nella pagina **Setup Reg. Cespiti** per il registro beni ammortizzabili indicato. Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
-6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.    
+6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.    
 7. Nella pagina **Registrazioni cespiti in C/G**, scegliere l'azione **Registra** per registrare la riclassificazione eseguita ai passaggi 4 e 5.
 
 Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizzare le registrazioni di riclassificazione cespiti per suddividere i costi di acquisto in diversi cespiti.  
@@ -41,7 +41,7 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 
 1. Impostare due nuovi cespiti. Inserire i dipartimenti rilevanti come dimensione.  
 2. Assegnare i registri beni ammortizzabili ai nuovi cespiti. Per ulteriori informazioni, vedere [Acquisire i cespiti](fa-how-acquire.md).
-3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni riclassificazione cespiti**, quindi scegli il collegamento correlato.
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni riclassificazione cespiti**, quindi scegli il collegamento correlato.
 4. Creare due righe di registrazione riclassificazione, una per ogni nuovo cespite.
 5. Nella prima riga immettere il secondo cespite nel campo **Nuovo nr. cespite** e 25 nel campo **Riclassifica costi di acq. %**.
 6. Nella seconda riga immettere il terzo cespite nel campo **Nuovo nr. cespite** e 40 nel campo **Riclassifica costi di acq. %**.
@@ -77,8 +77,8 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Prepararsi a fare affari](ui-get-ready-business.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

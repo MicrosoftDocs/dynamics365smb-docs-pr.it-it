@@ -1,113 +1,35 @@
 ---
 title: Aggiornare i tassi di cambio delle valute (video)
-description: Tenere traccia degli importi in valute differenti utilizzando codici di valuta e utilizzare Business Central per rettificare i tassi di cambio delle valute dei movimenti registrati con un servizio esterno.
-author: SorenGP
+description: Se tieni traccia degli importi in valute differenti puoi utilizzare Business Central per rettificare i tassi di cambio delle valute dei movimenti registrati con un servizio esterno.
+author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 02/17/2022
+ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323268"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523477"
 ---
 # <a name="update-currency-exchange-rates"></a>Aggiornare i tassi di cambio valuta
 
-Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi/aree geografiche, diventa essenziale poter vendere e riportare dati finanziari in più di una valuta. La valuta locale (LCY) è definita nella pagina **Setup contabilità generale** come descritto nell'articolo [Impostazione delle finanze](finance-setup-finance.md). Una volta che la valuta locale (LCY) è stata definita, sarà rappresentata come una valuta vuota, quindi quando il campo **Valuta** è vuoto, significa che è LCY.  
-
-Successivamente, è necessario impostare i codici valuta per ogni valuta che utilizzi se acquisti o vendi in valute diverse da quella locale (LCY). Anche i conti bancari possono essere creati utilizzando le valute. È possibile registrare transazioni Co.Ge. in valute diverse, tuttavia, la transazione Co.Ge. verrà sempre registrata nella valuta locale (LCY).
-
-> [!Important]
-> Non creare il codice valuta locale sia nella pagina **Setup contabilità generale** che nella pagina **Valute**. Ciò creerà confusione tra la valuta vuota e il codice LCY nella tabella delle valute e potrebbero essere creati accidentalmente conti bancari, clienti o fornitori, alcuni con la valuta vuota e altri con il codice LCY.
-
-La contabilità generale è impostata per utilizzare la valuta locale (VL) ma è anche possibile impostarla per l'uso di un'altra valuta con un tasso di cambio della valuta assegnato. Se si imposta una seconda valuta come valuta contabile addizionale, in [!INCLUDE[prod_short](includes/prod_short.md)] gli importi in ogni movimento C/G e in tutti gli altri movimenti, ad esempio i movimenti IVA, vengono registrati automaticamente sia nella valuta locale che nella valuta addizionale. Per ulteriori informazioni, vedere [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md). La valuta di rendicontazione aggiuntiva viene spesso utilizzata per facilitare la rendicontazione finanziaria ai proprietari che risiedono in paesi/aree geografiche che utilizzano valute diverse dalla valuta locale (LCY).  
-
-> [!IMPORTANT]
-> Se desideri utilizzare una valuta aggiuntiva per i report finanziari, assicurati di aver compreso le limitazioni. Per ulteriori informazioni, vedere [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md).
-
-> [!NOTE]  
-> Quando esegui la registrazione in C/G utilizzando un codice valuta, ad esempio per registrare una spesa in un giornale di registrazione generale utilizzando un codice valuta, la transazione viene convertita in VL utilizzando il tasso di cambio della valuta per la data di registrazione. Il movimento C/G non conterrà informazioni relative alla valuta utilizzata, ma solo il valore in VL. Per tenere traccia della valuta originale, ad esempio per una fattura, è necessario utilizzare i documenti di vendita e acquisto nonché i conti correnti bancari che memorizzano le informazioni sul codice valuta per i movimenti.
+Puoi definire diverse valute in [!INCLUDE [prod_short](includes/prod_short.md)], ad esempio se commerci in valute diverse dalla tua valuta locale. Quindi, per aiutarti a tenere traccia delle variazioni dei tassi di cambio valuta, puoi gestire le valute manualmente oppure puoi impostare un servizio di cambio valuta.
 
 ## <a name="currencies"></a>Valute
 
-> [!NOTE]  
+> [!TIP]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] se si stanno cercando informazioni in tempo reale sui tassi di cambio delle valute estere (FX) o sui tassi di cambio storici, queste informazioni vanno sotto il nome di valuta. Oltre a questo articolo, vedere anche [Impostare una valuta di rendicontazione aggiuntiva](finance-how-setup-additional-currencies.md).
 
-Specificare i codici valuta in **Valute**, comprese le informazioni e le impostazioni aggiuntive necessarie per ciascun codice valuta.
+[!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-> [!TIP]
-> Crea le valute con il codice ISO internazionale come codice per semplificare il lavoro con la valuta in futuro.
-
-|Campo|Descrizione|  
-|---------------------------------|---------------------------------------|  
-|**Codice**|L'identificatore per la valuta.|
-|**descrizione**|Una descrizione a testo libero della valuta.|
-|**Codice ISO**|Il codice internazionale di tre lettere della valuta definita in ISO 4217.|
-|**Codice numerico ISO**|Il riferimento internazionale numerico della valuta definita in ISO 4217.|
-|**Data tasso di cambio**|L'ultima data del tasso di cambio effettivo.|
-|**Valuta UE**|Specifica se la valuta è una valuta UE, ad esempio EUR.|
-|**Conto utili realizzati**|Il conto in cui verrà registrato il guadagno effettivo quando si ricevono i pagamenti per i crediti o si registra il tasso di cambio effettivo sui pagamenti ai debiti. Per un esempio di transazione in valuta clienti, vedere l'esempio sotto questa tabella. |
-|**Conto perdite realizzate**|Il conto in cui verrà registrata la perdita effettiva quando si ricevono i pagamenti per i crediti o si registra il tasso di cambio effettivo sui pagamenti ai debiti. Per un esempio di transazione in valuta clienti, vedere l'esempio sotto questa tabella. |
-|**Conto utili non realizzati**|Il conto in cui verrà registrato il guadagno teorico quando si esegue un aggiustamento valutario.|
-|**Conto perdite non realizzate**|Il conto in cui verrà registrata la perdita teorica quando si esegue un aggiustamento valutario.|
-|**Precisione arroto. importo**|Alcune valute hanno altri formati per gli importi delle fatture rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modifica la precisione arrot. importo per una valuta, tutti gli importi fattura in quella valuta verranno arrotondati con la precisione aggiornata.|
-|**Posizioni decimali importo**|Alcune valute hanno altri formati per gli importi delle fatture rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modificano le posizioni decimali importo per una valuta, tutti gli importi fattura nella valuta verranno arrotondati con i decimali aggiornati|
-|**Tipo di arrotondamento fattura**|Specifica il metodo da utilizzare se gli importi devono essere arrotondati. Le opzioni sono **Più vicino**, **Su**, e **Giù**.|
-|**Precisione arrot. importo unitario**|Alcune valute hanno altri formati per gli importi delle unità rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modifica la precisione arrot. importo per un'unità, tutti gli importi unitari nella valuta verranno arrotondati con la precisione aggiornata.|
-|**Posizione decimale importo unitario**|Alcune valute hanno altri formati per gli importi delle unità rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modificano le posizioni decimali importo per un'unità, tutti gli importi unitari nella valuta verranno arrotondati con i decimali aggiornati.|
-|**Precisione arrot. importo**|Specifica le dimensioni dell'intervallo consentito come differenza di arrotondamento quando si collegano tra loro movimenti in valute diverse.|
-|**Conversione Arrotondamento Conv. LCY. Conto di debito**|Specifica le informazioni sulla conversione che devono contenere anche un conto a debito se si desidera inserire delle righe di correzione per le differenze di arrotondamento nelle registrazioni COGE utilizzando la funzione **Inserisci righe arrot. conv.VL**.|
-|**Conversione Arrotondamento Conv. LCY. Conto di credito**|Specifica le informazioni sulla conversione che devono contenere anche un conto a credito se si desidera inserire delle righe di correzione per le differenze di arrotondamento nelle registrazioni COGE utilizzando la funzione **Inserisci righe arrot. conv.VL**.|
-|**Data ultima rettifica**|La data dell'ultimo aggiustamento valutario.|
-|**Data ultima modifica**|La data di modifica dell'impostazione della valuta.|
-|**% tolleranza pagamento**|La percentuale massima di tolleranza di pagamento impostata per questa valuta. Per ulteriori informazioni, vedere [Tolleranza pagamento e Tolleranza sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Importo massimo tolleranza pagamento**|L'importo massimo di tolleranza di pagamento impostata per questa valuta. Per ulteriori informazioni, vedere [Tolleranza pagamento e Tolleranza sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Fattore valuta**|Specifica la relazione tra la valuta contabile addizionale e la valuta locale utilizzando il tasso di valuta effettivo.|
-|**Conto utili C/G realizzati**|Specifica il conto C/G utilizzato per registrate gli utili di conversione per le rettifiche valutarie tra la valuta locale e la valuta contabile addizionale. Gli utili di conversione vengono calcolati quando viene eseguito il processo batch Rettifica tassi di cambio per rettificare i conti di contabilità generale. Questo campo potrebbe non essere visibile per impostazione predefinita. Può essere recuperato personalizzando la pagina.|
-|**Conto perdite C/G realizzate**|Specifica il conto C/G utilizzato per registrate le perdite di conversione per le rettifiche valutarie tra la valuta locale e la valuta contabile addizionale. Gli utili di conversione vengono calcolati quando viene eseguito il processo batch Rettifica tassi di cambio per rettificare i conti di contabilità generale. Questo campo potrebbe non essere visibile per impostazione predefinita. Può essere recuperato personalizzando la pagina.|
-|**Conto guadagni residui**|Specifica il conto C/G utilizzato per registrare gli importi dei guadagni residui (differenze di arrotondamento) quando viene utilizzata una valuta contabile addizionale nell'area di applicazione della contabilità generale. Questo campo potrebbe non essere visibile per impostazione predefinita. Può essere recuperato personalizzando la pagina.|
-|**Conto perdite residue**|Specifica il conto C/G utilizzato per registrare gli importi delle perdite residue (differenze di arrotondamento) quando viene utilizzata una valuta contabile addizionale nell'area di applicazione della contabilità generale. Questo campo potrebbe non essere visibile per impostazione predefinita. Può essere recuperato personalizzando la pagina.|
-|**Max. differenza IVA permessa**|L'importo massimo consentito per le differenze IVA in questa valuta. Per ulteriori informazioni, vedere [Correzione manuale degli importi IVA nei documenti di vendita e di acquisto](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Questo campo potrebbe non essere visibile per impostazione predefinita. Può essere recuperato personalizzando la pagina.|
-|**Tipo arrotondamento IVA**|Specifica il metodo di arrotondamento per la correzione manuale degli importi IVA nei documenti di vendita e di acquisto. Questo campo potrebbe non essere visibile per impostazione predefinita. Può essere recuperato personalizzando la pagina.|
+Specifica i codici valuta nell'elenco **Valute**, comprese le informazioni e le impostazioni aggiuntive necessarie per ciascun codice valuta. Per ulteriori informazioni, vedi [Valute](finance-set-up-currencies.md#curr)
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Esempio di una transazione in valuta esigibile
 
-Quando ricevi una fattura da un'azienda in valuta estera, è abbastanza facile calcolare il valore in valuta locale (VL) della fattura in base al tasso di cambio corrente. Tuttavia, la fattura spesso viene fornita con termini di pagamento in modo da poter ritardare il pagamento a una data successiva, il che implica un tasso di cambio potenzialmente diverso. Questo problema, in combinazione con il fatto che i tassi di valuta bancaria differiscono sempre dai tassi di valuta ufficiali, rende impossibile anticipare l'importo esatto in valuta locale (VL) richiesto per coprire la fattura. Se la data di scadenza della fattura si estende al mese successivo, potrebbe essere necessario rivalutare l'importo in valuta locale (VL) alla fine del mese. La rettifica della valuta è necessaria perché il nuovo valore VL richiesto per coprire l'importo della fattura potrebbe essere diverso e il debito della società nei confronti del fornitore è potenzialmente cambiato. Il nuovo importo VL potrebbe essere superiore o inferiore all'importo precedente e rappresenta quindi un guadagno o una perdita. Tuttavia, poiché la fattura non è stata ancora pagata, si considera l'utile o la perdita come *non realizzati*. Successivamente, la fattura viene pagata e la banca restituisce il tasso di cambio effettivo per il pagamento. Fino ad allora l'utile o la perdita *realizzati* non vengono calcolati. L'utile o la perdita non realizzati vengono quindi stornati e al loro posto vengono registrati l'utile o la perdita realizzati.
-
-Nell'esempio seguente, il 1° gennaio viene ricevuta una fattura con l'importo in valuta di 1000. Al momento il tasso di cambio è 1,123.
-
-|Date|Azione|Importo valuta|Aliquota documento|Importo LCY nel documento|Tasso di cambio|Importo utili non realizzati|Aliquota Pagamento|Importo perdite realizzate|  
-|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
-|1/1|**Fattura**|1000|1,123|1123|||||
-|1/31|**Rettifica**|1000||1125|1,125|2|||
-|2/15|**Rettifica Storno al pagamento**|1000||||-2|||
-|2/15|**Pagamento**|1000||1120|||1,120|-3|
-
-Alla fine del mese viene eseguito un aggiustamento valutario in cui il tasso di valuta aggiustamento è stato impostato a 1,125, che attiva un guadagno non realizzato di 2.
-
-Al momento del pagamento, il tasso di cambio effettivo registrato sulla transazione bancaria mostra un tasso di valuta di 1,120.
-
-Qui c'è una transazione non realizzata, e quindi verrà stornata insieme al pagamento.
-
-Infine, il pagamento viene registrato e la perdita effettiva viene registrata nel conto delle perdite realizzate.
-
-## <a name="available-currency-functions"></a>Funzioni valuta disponibili
-
-La tabella seguente illustra le azioni chiave sulla pagina **Valute**. Alcune delle azioni sono spiegate nelle sezioni successive.  
-
-|Menu|Azione|Descrizione|
-|-------------|--------------|------------------------------|
-|**Processo**|**Suggerisci conti**|Usa conti di altre valute. Verranno inseriti gli account utilizzati più di frequente.|
-||Modifica tolleranza pagamento|Modificare la tolleranza di pagamento massima e/o la percentuale di tolleranza di pagamento e applicare un filtro in base alla valuta. Per ulteriori informazioni, vedere [Tolleranza pagamento e Tolleranza sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-||**Tassi di cambio**|Visualizzare i tassi di cambio aggiornati per le valute utilizzate.|
-||**Rettifica tassi di cambio**|Rettificare i movimenti nei conti C/G, cliente, fornitore e bancari, al fine di presentare un saldo aggiornato nel caso in cui il tasso di cambio sia stato modificato dopo la data di registrazione.|
-||**Registro rettifica tassi di cambio**|Visualizza i risultati dell'esecuzione del processo batch **Regola i tassi di cambio**. Per ogni combinazione di categoria di registrazione e valuta inclusa nella rettifica viene creata una riga.|
-|**Servizio tasso di cambio**|**Servizi tasso di cambio**|Visualizza o modifica il setup dei servizi impostati per recuperare i tassi di cambio valuta aggiornati quando si sceglie l'azione **Aggiorna tassi di cambio**.|
-||**Aggiorna tassi di cambio**|Ottenere i tassi di cambio valuta più recenti da un provider di servizi.|
-|**Report**|**Saldo valuta estera**|Visualizza i saldi di tutti i clienti e i fornitori, sia in valuta estera che in valuta locale (VL). Il report fornisce due tipi di saldo in valuta locale. Uno è il saldo in valuta estera convertito in valuta locale utilizzando il tasso di cambio al momento della transazione. L'altro è il saldo in valuta estera convertito in valuta locale utilizzando il tasso di cambio della data di lavoro.|
+[!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
 ## <a name="exchange-rates"></a>Tassi di cambio
 
@@ -182,7 +104,7 @@ Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti i
 > [!NOTE]
 > La maggior parte dei servizi di tasso cambio fornisce dati compatibili con il processo di importazione in [!INCLUDE[prod_short](includes/prod_short.md)]. Tuttavia, a volte i dati vengono formattati in modo diverso e sarà necessario personalizzare il processo di importazione. A tale scopo, è possibile utilizzare il framework di scambio dati la propria codeunit. Per eseguire l'operazione, sarà probabilmente necessario l'aiuto di uno sviluppatore. Per ulteriori informazioni, vedere [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Servizi di tassi di cambio valute**, quindi seleziona il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Servizi di tassi di cambio valute**, quindi seleziona il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella pagina **Servizi tasso di cambio valuta** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Attivare il pulsante **Abilitato** per attivare per abilitare il servizio.
@@ -195,7 +117,7 @@ Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti i
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Per aggiornare i tassi di cambio delle valute mediante un servizio
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valute**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Valute**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Aggiorna tassi di cambio**.
 
 Il valore nel campo **Tasso di cambio** della pagina **Valute** viene aggiornato con il tasso di cambio delle valute più recente.
@@ -203,9 +125,12 @@ Il valore nel campo **Tasso di cambio** della pagina **Valute** viene aggiornato
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
+
+[Valute in Business Central](finance-currencies.md)  
+[Impostare le valute](finance-set-up-currencies.md)  
 [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

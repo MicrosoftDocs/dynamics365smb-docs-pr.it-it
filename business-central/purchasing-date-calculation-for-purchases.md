@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5c9a0c61b2f02e3f3750c3d8c23153df2634299d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132708"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514883"
 ---
 # <a name="date-calculation-for-purchases"></a>Calcolo della data per gli acquisti
 
@@ -34,7 +34,7 @@ Se è presente una data di carico richiesta sulla riga dell'ordine di acquisto, 
 Se è stata immessa una data di carico richiesta sulla testata dell'ordine di acquisto, questa data viene copiata nel campo corrispondente in tutte le righe. È possibile modificare questa data in qualsiasi riga oppure rimuoverla.  
 
 > [!NOTE]
-> Se il processo si basa sul calcolo indietro, ad esempio, se si utilizza la data carico richiesta per ottenere la data dell'ordine, si consiglia di utilizzare formule di data con durate fisse, ad esempio "5D" per cinque giorni o "1W" per una settimana. Le formule di data senza durate fisse, come "CW" per settimana corrente o CM per mese corrente, possono comportare calcoli della data errati. Per ulteriori informazioni sulle formule di data, vedere [Lavorare con le date e gli orari del calendario ](ui-enter-date-ranges.md).
+> Se il processo si basa sul calcolo indietro, ad esempio, se si utilizza la data carico richiesta per ottenere la data dell'ordine, si consiglia di utilizzare formule di data con durate fisse, ad esempio "5D" per cinque giorni o "1W" per una settimana. Le formule di data senza durate fisse, come "CW" per settimana corrente o CM per mese corrente, possono comportare calcoli della data errati. Per ulteriori informazioni sulle formule di data, vedere [Utilizzare date e orari del calendario](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Calcolo senza una data di consegna richiesta
 
@@ -58,7 +58,7 @@ Tuttavia, il valore del lead time sulla scheda fornitore viene utilizzato solo s
 
 [Calcolo della data per le vendite](sales-date-calculation-for-sales.md)   
 [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

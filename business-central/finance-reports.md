@@ -4,14 +4,15 @@ description: Vedi quali report finanziari e analisi sono disponibili nella versi
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 2220bfacb8f94265363c30acbcde1cc6de745339
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311208"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514389"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Report finanziari e analisi in Business Central
 
@@ -39,10 +40,10 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 [Creazione di budget di costi](finance-create-cost-budgets.md)  
 [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzo dei report preliminari alla chiusura](year-prepare-preclose-reports.md)  
+[Utilizzare i report preliminari alla chiusura](year-prepare-preclose-reports.md)  
 [Preparazione degli estratti conto di chiusura](year-prepare-close-statement.md)  
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
-[Utilizzo delle dimensioni](finance-dimensions.md)  
+[Utilizzare le dimensioni](finance-dimensions.md)  
 [Report di contabilità clienti e analisi](receivables-reports.md)  
 [Report di contabilità fornitori e analisi](payables-reports.md)  
 [Report cespiti e analisi](fa-reports.md)  

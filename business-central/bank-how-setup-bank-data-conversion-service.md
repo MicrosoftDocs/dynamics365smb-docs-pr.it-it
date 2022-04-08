@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e601eb57aebd831e85c20449d32b0e52acb387a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea671a550dcada2573ae9b8e174a6e2e23051f9e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148761"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523174"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Impostare l'estensione AMC Banking 365 Fundamentals
 Un provider di servizi globale per convertire le informazioni pagamento in qualsiasi formato di dati richiesto dalla banca viene connesso e preparato per essere abilitato in [!INCLUDE[prod_short](includes/prod_short.md)]. Questo è indicato in [!INCLUDE[prod_short](includes/prod_short.md)] come l'estensione AMC Banking 365 Fundamentals.
@@ -32,7 +32,7 @@ Per importare o esportare i file dei conti correnti bancari, è necessario impos
 > L'estensione AMC Banking 365 Fundamentals può imporre un limite al numero di righe che possono essere esportate in un file. Se il limite viene superato, viene visualizzato un messaggio di errore. È consigliabile che i file del estratto conto bancario non superino 1000 righe, dato che, in caso contrario, il tempo di elaborazione nell'estensione AMC Banking 365 Fundamentals può aumentare significativamente.
 
 ## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Per iscrivere la società all'estensione AMC Banking 365 Fundamentals
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup servizio conv. dati banca**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup servizio conv. dati banca**, quindi scegli il collegamento correlato.  
 2. Viene aperta la pagina **Setup servizio conv. dati banca** con tre campi precompilati con gli URL del provider dell'estensione AMC Banking 365 Fundamentals.
 
     > [!NOTE]  
@@ -49,7 +49,7 @@ Per importare o esportare i file dei conti correnti bancari, è necessario impos
 > I dati di accesso vengono automaticamente crittografati.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Per visualizzare o aggiornare la lista dei formati di dati bancari attualmente supportato
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup servizio conv. dati banca**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup servizio conv. dati banca**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup servizio conv. dati banca**, scegliere l'azione **Nome banca - Lista conversione dati** per aprire l'elenco dei nomi di banca che rappresentano i formati di dati bancari che sono supportati dal servizio di conversione.
 3. Nella pagina **Nome banca - Lista conversione dati** scegliere l'azione **Aggiorna lista nomi banche**.
 
@@ -63,7 +63,7 @@ La società è stata iscritta all'estensione AMC Banking 365 Fundamentals. Conti
 ## <a name="see-also"></a>Vedere anche
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

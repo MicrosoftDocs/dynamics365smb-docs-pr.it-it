@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d36ca3a4f20e509a18f19f9fec6a3444040de9df
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137135"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517266"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correggere o annullare le fatture di vendita non pagate
 
@@ -37,7 +37,7 @@ Quando si rettifica o si annulla una fattura di vendita registrata, la nota di c
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Per annullare una fattura di vendita registrata
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.  
 2. Selezionare la fattura di vendita che si desidera annullare.
 
     > [!NOTE]  
@@ -53,7 +53,7 @@ Se l'annullamento è correlato a una registrazione parziale della fattura, la ri
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Per correggere una fattura di vendita registrata
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.  
 2. Selezionare la fattura di vendita che si desidera rettificare.
 
     > [!NOTE]  
@@ -67,12 +67,12 @@ Se l'annullamento è correlato a una registrazione parziale della fattura, la ri
     Una nota di credito di vendita viene automaticamente creata e registrata per annullare la fattura di vendita registrata iniziale.
 5. Scegliere l'azione **Mostra nota credito di rettifica** per visualizzare la nota di credito di vendita registrata che annulla la fattura di vendita registrata iniziale.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

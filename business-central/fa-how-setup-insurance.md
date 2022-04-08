@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a97b9a8d0ba436ff43db764ad10b64a4ce151180
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1378a3090db4bfaa958a371c31416c98f887e73e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147884"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511029"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Impostare l'assicurazione cespiti
 Per gestire la copertura assicurativa del cespite, è prima necessario impostare alcune informazioni generali sull'assicurazione e una scheda assicurazione per ogni polizza.
@@ -23,26 +23,26 @@ Per gestire la copertura assicurativa del cespite, è prima necessario impostare
 ## <a name="to-set-up-general-insurance-information"></a>Per impostare le informazioni generali delle assicurazioni
 Per utilizzare le funzionalità dell'assicurazione in [!INCLUDE[prod_short](includes/prod_short.md)], occorre impostare alcune informazioni generali sull'assicurazione.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup cespiti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup cespiti**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>Per impostare i tipi di assicurazione
 È possibile raggruppare le polizze assicurative in categorie, ad esempio assicurazione da furti o incendi. I tipi di assicurazione vengono utilizzati nella Scheda Assicurazione.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tipi di assicurazione**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Tipi di assicurazione**, quindi scegli il collegamento correlato.  
 2. Compilare i campi, se necessario.
 
 ## <a name="to-set-up-insurance-cards"></a>Per impostare le schede assicurazione
 È possibile raggruppare informazioni relative ad ogni polizza assicurativa nella scheda di assicurazione.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Assicurazione**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Assicurazione**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** nella pagina **Assicurazione** per creare una nuova scheda per l'assicurazione.  
 3. Compilare i campi come necessario.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Per impostare le definizioni registrazioni assicurazioni
-Una definizione delle registrazioni assicurazioni viene creata automaticamente in [!INCLUDE[prod_short](includes/prod_short.md)] la prima volta che si apre la pagina **Registr. assicuraz.**. È tuttavia possibile impostare definizioni delle registrazioni aggiuntive. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).  
+Una definizione delle registrazioni assicurazioni viene creata automaticamente in [!INCLUDE[prod_short](includes/prod_short.md)] la prima volta che si apre la pagina **Registr. assicuraz.**. È tuttavia possibile impostare definizioni delle registrazioni aggiuntive. Per ulteriori informazioni, vedi [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Definizioni registrazioni assicurazioni**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Definizioni registrazioni assicurazioni**, quindi scegli il collegamento correlato.  
 2. Compilare i campi, se necessario.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>Per impostare i batch registrazioni assicurazioni
@@ -59,8 +59,8 @@ I batch possono essere impostati in una definizione registrazioni assicurazioni.
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Prepararsi a fare affari](ui-get-ready-business.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

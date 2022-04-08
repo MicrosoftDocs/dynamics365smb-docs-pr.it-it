@@ -6,31 +6,31 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0a901fca9da818459e8c94735c041dfbafff9471
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367204"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518131"
 ---
 # <a name="welcome-to-prod_long"></a>Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Estremamente adattabile, [!INCLUDE[prod_short](includes/prod_short.md)] include numerose funzionalità e consente alle aziende di gestire le attività, tra cui i reparti finanziario, produzione, vendite, spedizione, gestione progetti, assistenza e molto altro ancora. Ma non solo: le aziende possono infatti aggiungere facilmente le funzionalità più appropriate per il paese in cui operano e personalizzate in modo da supportare anche i settori più specializzati.  
+[!INCLUDE[prod_short](includes/prod_short.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Estremamente adattabile, [!INCLUDE[prod_short](includes/prod_short.md)] include numerose funzionalità e consente alle aziende di gestire le attività, tra cui i reparti finanziario, produzione, vendite, spedizione, gestione progetti, assistenza e molto altro ancora. Ma non solo: le aziende possono infatti aggiungere facilmente le funzionalità più appropriate per il paese in cui operano e personalizzate in modo da supportare anche i settori più specializzati. [!INCLUDE[prod_short](includes/prod_short.md)] è rapido da implementare, veloce da configurare e la semplicità guida le innovazioni nella progettazione, nello sviluppo, nell'implementazione e nell'usabilità del prodotto.  
 
-[Scopri come ottenere una versione di valutazione gratuita qui](trial-signup.md).  
-
-Se si dispone già di [!INCLUDE[prod_short](includes/prod_short.md)], accedere a [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Altrimenti, [ottenere la panoramica](https://dynamics.microsoft.com/business-central/overview/), [effettuare la visita guidata](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) e quindi [avviare una versione di valutazione gratuita](https://go.microsoft.com/fwlink/?linkid=847861). Date un'occhiata agli [articoli di avvio rapido](quick-start-business-central.md) per aiutarvi a conoscere [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni sull'onboarding in [!INCLUDE[prod_short](includes/prod_short.md)], vedi [Preparazione al business](ui-get-ready-business.md).  
+Se si dispone già di [!INCLUDE[prod_short](includes/prod_short.md)], accedere a [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Altrimenti, [ottieni la panoramica](https://dynamics.microsoft.com/business-central/overview/), [effettua la visita guidata](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) e quindi [avvia una versione di valutazione gratuita](trial-signup.md). Date un'occhiata agli [articoli di avvio rapido](quick-start-business-central.md) per aiutarvi a conoscere [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni sull'onboarding in [!INCLUDE[prod_short](includes/prod_short.md)], vedi [Preparazione al business](ui-get-ready-business.md).  
 
 > [!TIP]
 > Si è arrivati qui da [!INCLUDE [prod_short](includes/prod_short.md)]? Se non sei sicuro di dove sia quello che stai cercando, puoi **filtrare per titoli** nel riquadro di spostamento a sinistra oppure utilizzare il campo **Ricerca** nella parte superiore della finestra del browser.  
 >
 > Puoi anche utilizzare le funzionalità di ricerca in [!INCLUDE [prod_short](includes/prod_short.md)] per trovare la documentazione pertinente. Per ulteriori informazioni, vedere [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md).
 
-## <a name="overview"></a>Sintesi
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] è rapido da implementare, veloce da configurare e la semplicità guida le innovazioni nella progettazione, nello sviluppo, nell'implementazione e nell'usabilità del prodotto. Nel riquadro di spostamento a sinistra, è possibile trovare informazioni relative all'uso di [!INCLUDE[prod_short](includes/prod_short.md)] nella propria società. Trova collegamenti alle descrizioni delle funzionalità più comunemente utilizzate nella sezione [Processi aziendali](#business-processes).  
+## <a name="microsoft-docs"></a>Microsoft Docs
+
+Nel riquadro di spostamento a sinistra, è possibile trovare informazioni relative all'uso di [!INCLUDE[prod_short](includes/prod_short.md)] nella propria società. Trova collegamenti alle descrizioni delle funzionalità più comunemente utilizzate nella sezione [Processi aziendali](#business-processes). Vedi anche la sezione [Usare il sito docs.microsoft.com per ulteriori informazioni](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more).  
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
@@ -43,9 +43,9 @@ Le sezioni seguenti rimandano a articoli chiave contenenti informazioni che cons
 
 ## <a name="business-processes"></a>Processi aziendali
 
-- [Preparazione al business](ui-get-ready-business.md)
+- [Prepararsi a fare affari](ui-get-ready-business.md)
 - [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
-- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 - [Amministrazione](admin-setup-and-administration.md)
 - [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)
 - [Dettagli di progettazione dell'applicazione](design-details-application-design.md)
@@ -100,12 +100,13 @@ Puoi anche visualizzare video di funzionalità nuove e di uso comune nella nostr
 [Dynamics 365 Business Central in Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
 [Introduzione a Business Central](ui-get-ready-business.md)  
-[Visitare la videoteca](across-videos.md)  
+[Visita la nostra videoteca](across-videos.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Download di [!INCLUDE[prod_short](includes/prod_short.md)] sul dispositivo mobile](install-mobile-app.md)  
-[Utilizzo delle dimensioni](finance-dimensions.md)  
-[Risorse per Guida e supporto](product-help-and-support.md)  
+[Utilizzare le dimensioni](finance-dimensions.md)  
+[Risorse per aiuto e supporto](product-help-and-support.md)  
+[Usare il sito docs.microsoft.com per ulteriori informazioni](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
 [Conformità [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-overview.md)  
 [Condizioni dei servizi online [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-service-compliance.md#service-terms)  
 [Aggiornamenti principali e aggiornamenti secondari di Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

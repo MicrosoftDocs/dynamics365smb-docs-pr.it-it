@@ -10,18 +10,18 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 66bd2ae0b30c8c13a6fb8285afd36f4a3495b609
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138598"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514045"
 ---
 # <a name="create-gl-budgets"></a>Creare budget C/G
 
 È possibile mantenere più budget per periodi di tempo identici creando budget con nomi separati. Innanzitutto è necessario impostare il nome del budget e immettere le relative cifre. Il nome del budget viene quindi inserito in tutti i movimenti di budget che vengono creati.  
 
-Quando si crea un budget, è possibile definire quattro dimensioni per ogni budget. Queste quattro dimensioni specifiche per un singolo budget sono definite dimensioni budget. Le dimensioni budget possono essere scelte tra le dimensioni impostate Le dimensioni budget possono essere utilizzate per applicare filtri ai budget oppure per aggiungere informazioni sulle dimensioni ai movimenti budget. Per ulteriori informazioni, vedere [Utilizzo delle dimensioni](finance-dimensions.md).
+Quando si crea un budget, è possibile definire quattro dimensioni per ogni budget. Queste quattro dimensioni specifiche per un singolo budget sono definite dimensioni budget. Le dimensioni budget possono essere scelte tra le dimensioni impostate Le dimensioni budget possono essere utilizzate per applicare filtri ai budget oppure per aggiungere informazioni sulle dimensioni ai movimenti budget. Per ulteriori informazioni, vedere [Utilizzare le dimensioni](finance-dimensions.md).
 
 I budget giocano un ruolo importante in business intelligence, ad esempio nel rendiconto finanziario definito in base alle situazioni contabili che includono movimenti budget oppure quando si analizzano gli importi a budget rispetto agli importi effettivi nel piano dei conti. Per ulteriori informazioni, vedere [Business Intelligence](bi.md).
 
@@ -29,7 +29,7 @@ Nella contabilità industriale si utilizzano i budget costi in modo simile. Per 
 
 ## <a name="to-create-a-new-gl-budget"></a>Per creare un nuovo budget C/G
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Budget C/G**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Budget C/G**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Modifica lista** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Scegliere l'azione **Modifica budget**.
 4. All'inizio della pagina **Budget**, compilare i campi secondo le necessità per definire cosa viene visualizzato.  
@@ -58,7 +58,7 @@ Per praticamente tutte le altre pagine, è possibile esportare dati nelle pagine
 [Business Intelligence](bi.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: reimbursement
 ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2a9689db234280c2bcca5e32ade2a82488c15de5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8757ba52142990449d5d60273a73bdc146ffb240
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147728"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517500"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Stornare le registrazioni e annullare carichi/spedizioni errati
 
@@ -31,7 +31,7 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Per stornare la registrazione di un movimento di contabilità generale
 È possibile stornare i movimenti da tutte le pagine **Movimenti contabili**. La seguente procedura è basata sulla pagina **Movimenti C/G**.
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti C/G**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti C/G**, quindi scegli il collegamento correlato.
 2. Selezionare il movimento che si desidera stornare quindi scegliere l'azione **Storno**. Si noti che è necessario che il movimento derivi da una registrazione.
 3. Nella pagina **Storna movimenti transazioni**, scegliere l'azione **Storna**.
 4. Scegliere il pulsante **Sì** nel messaggio di conferma.
@@ -42,7 +42,7 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 ## <a name="to-post-a-negative-entry"></a>Per registrare un movimento negativo  
 È possibile utilizzare il campo **Correzione** per registrare un addebito negativo anziché un credito oppure un accredito negativo anziché un addebito su un conto. Per soddisfare i requisiti legali, questo campo è visibile per impostazione predefinita in tutte le registrazioni. I campi **Dare** e **Avere** includono il movimento originale e il movimento corretto. Questi campi non influiscono sul saldo del conto.  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato  
 2.  Nel campo **Nome batch** selezionare il nome di batch necessario.  
 3.  Immettere informazioni nei campi rilevanti.  
 4.  Nella riga di registrazione che si desidera attivare per i movimenti negativi, selezionare la casella di controllo **Correzione**.  
@@ -51,7 +51,7 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Per annullare la registrazione di una quantità in una ricezione acquisti registrata  
 Di seguito viene descritto come annullare un carico registrato di articoli o risorse. I passaggi sono simili a quelli per le spedizioni registrate.
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Carichi acquisti registrati**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Carichi acquisti registrati**, quindi scegli il collegamento correlato.  
 2.  Aprire il carico registrato che si desidera annullare.  
 3.  Selezionare la riga o le righe che si desidera annullare.  
 4.  Scegliere l'azione **Annulla carico**.
@@ -82,9 +82,9 @@ Di seguito viene descritto come annullare una spedizione di reso registrata di a
 
 [Annullare la registrazione di assemblaggi](assembly-how-to-undo-assembly-posting.md)  
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
-[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
+[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 965a87d731a2e1d9cb2ae390add4536c77c6824c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381038"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520606"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Spostare articoli ad hoc nelle configurazioni della warehouse di base
 Talvolta può essere necessario spostare gli articoli tra le collocazioni interne, non le collocazioni di ricezione o spedizione, senza una richiesta specifica da un documento di origine. È possibile eseguire queste movimentazioni ad hoc, ad esempio per riorganizzare la warehouse, per immettere gli articoli in un'area di ispezione o inserire o estrarre articoli aggiuntivi da un'area di produzione senza una relazione di sistema al documento di origine dell'ordine di produzione.  
@@ -29,7 +29,7 @@ Nelle configurazioni di base della warehouse, ovvero ubicazioni che utilizzano i
 >  Nelle configurazione warehouse avanzate, ovvero ubicazioni che utilizzano il campo del setup **Stoccaggi e prelievi guidati**, si utilizza la pagina **Prospetto movimentazioni** oppure la pagina **Prelievo interno whse.** o **Stoccaggio interno whse.** per spostare articoli ad hoc tra le collocazioni.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Per spostare gli articoli come movimentazione interna  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimentazione interna**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimentazione interna**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Generale** compilare il campo **Nr.** uscendo dal campo o scegliendo il pulsante **AssistEdit** per selezionare tra la numerazione.  
 3.  Nel campo **Cod. ubicazione** immettere l'ubicazione in cui si verifica la movimentazione.  
 
@@ -58,7 +58,7 @@ Nelle configurazioni di base della warehouse, ovvero ubicazioni che utilizzano i
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Per spostare articoli con le registrazioni di riclassificazione articolo
 Anziché utilizzare documenti di movimento di warehouse, è possibile registrare lo spostamento di articoli riclassificando i relativi codici di collocazione. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni ](inventory-how-count-adjust-reclassify.md).   
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Reg. riclass. articoli**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Reg. riclass. articoli**, quindi scegli il collegamento correlato.  
 2.  In ogni riga di registrazione, definire le collocazioni da cui e in cui si desidera spostare articoli compilando i campi **Cod. collocazione** e **Nuovo cod. collocazione**.  
 
     1.  Per spostare l'intero contenuto di una collocazione in un'altra collocazione, scegliere l'azione **Prendi contenuto collocazione**.  
@@ -75,7 +75,7 @@ Anziché utilizzare documenti di movimento di warehouse, è possibile registrare
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

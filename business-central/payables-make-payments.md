@@ -10,12 +10,12 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6cda8910fdd2f0bdaa3e79a193cae5274d6f9ba8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba8b80508fbab49fddb4d9927d47af3ae1d9708a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137759"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520918"
 ---
 # <a name="making-payments"></a>Effettuare i pagamenti
 
@@ -33,7 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 | A | Vedere |
 | --- | --- |
-|Comprendere la funzioni di base della pagina **Registrazioni pagamenti**, su cui si basano le registrazioni COGE, per preparare la registrazione dei pagamenti ai fornitori o ai dipendenti.|[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)|
+|Comprendere la funzioni di base della pagina **Registrazioni pagamenti**, su cui si basano le registrazioni COGE, per preparare la registrazione dei pagamenti ai fornitori o ai dipendenti.|[Utilizzare le registrazioni COGE](ui-work-general-journals.md)|
 |Registrare i pagamenti ai fornitori o ai dipendenti e i rimborsi ai clienti ed eventualmente collegare i pagamenti alle fatture o note di credito non pagate correlati per consentirne la chiusura come pagate.|[Registrare pagamenti e rimborsi](payables-how-post-payments-refunds.md)|
 | Utilizzare una funzione nella pagina **Registrazioni pagamenti** per suggerire i pagamenti fornitore in base ai criteri selezionati, ad esempio la data di scadenza, l'idoneità allo sconto e la liquidità. |[Sugg. pagamenti fornitore](payables-how-suggest-vendor-payments.md) |
 | Emettere assegni per i pagamenti fornitore o i rimborsi ai clienti, come stampati o come assegni automatici. Annullare gli assegni prima o dopo la registrazione. |[Effettuare pagamenti tramite assegno](payables-how-work-checks.md) |
@@ -41,11 +41,11 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Pagare un fornitore in contanti o con assegno e registrare il pagamento mentre si registra la fattura. |[Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati inviandole un file che contenga informazioni sul fornitore, l'assegno e il pagamento. |[Esportare un file Positive Pay](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

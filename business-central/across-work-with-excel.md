@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d27ad94c21325808d92b8f71e97a5bb8a484ded5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f03e67b0205af92fcdbb731a74ffe7f4507c39d3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142603"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511261"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visualizzare e modificare in Excel da Business Central
 
@@ -80,7 +80,7 @@ Se per qualche motivo l'add-in non si installa, contatta il tuo amministratore o
 ## <a name="see-also"></a>Vedere anche
 
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
-[Utilizzo di Business Central](ui-work-product.md)  
+[Utilizzare Business Central](ui-work-product.md)  
 [Miglioramenti all'integrazione di Excel nella seconda ondata di rilascio del 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 

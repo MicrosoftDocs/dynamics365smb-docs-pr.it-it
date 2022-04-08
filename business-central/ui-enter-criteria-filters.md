@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335012"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519598"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ricerca, filtro e ordinamento
 
@@ -132,7 +132,7 @@ Il riquadro filtri visualizza i filtri correnti per un elenco e consente di impo
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Impostazione di filtri in report, processi batch e XMLport
 
-Per report e XMLport, i filtri sono visibili direttamente nella pagina di richiesta. La pagina di richiesta visualizza gli ultimi filtri utilizzati in base alla selezione effettuata nel campo **Utilizza valori predefiniti da**. Per ulteriori informazioni, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).
+Per report e XMLport, i filtri sono visibili direttamente nella pagina di richiesta. La pagina di richiesta visualizza gli ultimi filtri utilizzati in base alla selezione effettuata nel campo **Utilizza valori predefiniti da**. Per ulteriori informazioni, vedi [Usare le impostazioni salvate](ui-work-report.md#SavedSettings).
 
 La sezione **Filtro** principale mostra i campi di filtro predefiniti utilizzati per delimitare i record da includere in report o XMLport. Per aggiungere un filtro, scegliere l'azione **+ Filtro**. Quindi, digitare il nome del campo in base al quale filtrare o selezionare un campo dall'elenco a discesa.
 
@@ -154,7 +154,7 @@ Le colonne che hanno già dei filtri sono indicate dall'icona ![icona Filtro.](m
 Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri e le lettere in genere utilizzati nel campo. È inoltre possibile utilizzare un set di simboli speciali come operatori per filtrare ulteriormente i risultati. Le sezioni seguenti descrivono questi simboli e come utilizzarli come operatori nei filtri.
 
 > [!TIP]
-> Per ulteriori informazioni su come filtrare date e orari, vedere [Lavorare con le date e gli orari del calendario ](ui-enter-date-ranges.md).
+> Per ulteriori informazioni su come filtrare date e orari, vedi [Lavorare con le date e gli orari del calendario ](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]
 > - Potrebbero verificarsi situazioni in cui il valore in base al quale si desidera filtrare contiene un simbolo che è un operatore. Per ulteriori informazioni sulla gestione di queste situazioni, vedere [Filtrare in base a valori che contengono simboli](#symbols).
@@ -171,7 +171,10 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 |`P8..`|Informazioni sul periodo contabile 8 e successivi|  
 |`..23`|Dalla data di inizio fino al 23-mese corrente-anno corrente ore 23:59:59|  
 |`23..`|Dal 23-mese corrente-anno corrente ore 0:00:00 alla fine|  
-|`22..23`|Dal 22-mese corrente-anno corrente ore 0:00:00 fino al 23-mese corrente-anno corrente ore 23:59:59|  
+|`22..23`|Dal 22-mese corrente-anno corrente ore 0:00:00 fino al 23-mese corrente-anno corrente ore 23:59:59| 
+
+> [!TIP]
+> Se stai utilizzando un tastierino numerico, il tasto separatore decimale potrebbe restituire un carattere diverso dal punto (.). Per impostare il punto, premi i tasti "Alt+Separatore decimale" sulla tastiera numerica. Quando vuoi tornare indietro, premi di nuovo "Alt+Separatore decimale". Per ulteriori informazioni, vedi [Impostazione del separatore decimale usato dalle tastiere numeriche](ui-enter-data.md#decimal).
 
 #### <a name="124-eitheror"></a>(&#124;) Oppure
 
@@ -307,7 +310,7 @@ Utilizzare `%myvendors` nel campo **Nessuno** fornitori per visualizzare tutti i
 
 [Domande frequenti su ricerca e filtro](ui-search-filter-faq.yml)  
 [Salvare e personalizzare visualizzazioni elenco](ui-views.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

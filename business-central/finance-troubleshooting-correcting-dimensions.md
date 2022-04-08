@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381725"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519123"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Risoluzione dei problemi e correzione delle dimensioni
 
@@ -103,7 +103,7 @@ Se l'azione Annulla non è disponibile, ad esempio perché sono state apportate 
 
 Prestare attenzione quando si correggono set di voci di grandi dimensioni, ad esempio set che includono più di 10.000 voci. Se puoi, ti consigliamo di utilizzare i filtri per eseguire le correzioni su set di dati di dimensioni più piccole. È anche una buona idea eseguire le correzioni al di fuori del normale orario lavorativo. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Utilizzo delle visualizzazioni delle analisi con correzioni delle dimensioni
+### <a name="use-analysis-views-with-dimension-corrections"></a>Utilizzare le visualizzazioni delle analisi con correzioni delle dimensioni
 
 Se **Aggiorna in registrazione** è abilitata per una visualizzazione analisi, [!INCLUDE[prod_short](includes/prod_short.md)] può visualizzare quando vengono registrati documenti e giornali. Puoi inoltre aggiornare le viste con questa impostazione abilitata con i risultati delle correzioni delle dimensioni. A tale scopo, attivare il toggle **Aggiorna visualizzazione analisi**. L'aggiornamento delle visualizzazioni delle analisi può influire sulle prestazioni, soprattutto per set di dati di grandi dimensioni, quindi si consiglia di aggiornare le visualizzazioni di analisi solo per set di dati di piccole dimensioni.  
 
@@ -118,11 +118,11 @@ Se una correzione non viene completata, verrà visualizzato un avviso sulla sche
 > [!NOTE]
 > La reimpostazione di una correzione incompleta non influirà sugli aggiornamenti alle visualizzazioni dell'analisi perché questi si verificano alla fine del processo di correzione.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Utilizzo della contabilità industriale con movimenti C/G corretti
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Utilizzare la contabilità industriale con movimenti C/G corretti
 
 Dopo aver corretto le dimensioni, i dati per la contabilità dei costi non saranno sincronizzati. La contabilità industriale utilizza le dimensioni per aggregare gli importi per i centri di costo e gli oggetti di costo e per eseguire le allocazioni dei costi. La modifica delle dimensioni per i movimenti C/G comporterà probabilmente la riesecuzione dei modelli di contabilità industriale. Se è necessario eliminare solo alcuni registri dei costi e rieseguire le allocazioni o è necessario eliminare tutto e rieseguire tutti i modelli dipende dai dati che sono stati aggiornati e da come sono impostate le capacità di contabilità dei costi. È necessario identificare manualmente dove le correzioni delle dimensioni avranno un impatto sulla contabilità dei costi e dove sono necessari aggiornamenti. [!INCLUDE[prod_short](includes/prod_short.md)] attualmente non fornisce un modo automatizzato per farlo.
 
 ## <a name="see-also"></a>Vedere anche
 
-[Lavorare con le dimensioni](finance-dimensions.md)
+[Utilizzare le dimensioni](finance-dimensions.md)
 [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)  

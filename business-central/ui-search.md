@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 841e964408750ec60e406262cacd53c2320d3d8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381687"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512051"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Individuare pagine e informazioni con la funzionalità delle informazioni  
 In questo argomento viene descritto come la funzionalità delle informazioni può consentire di accedere rapidamente ad azioni, pagine o report, trovare informazioni su come completare una specifica attività e scoprire ulteriori app e servizi di consulenza per  [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -63,10 +63,10 @@ La funzione **Informazioni sull'operazione che si desidera eseguire** non effett
 ## <a name="questions"></a>Domande?
 La funzionalità delle informazioni è stata mostrata a una serie di parti interessate, si è preso atto delle domande comuni e trasformato gli appunti in un elenco di domande frequenti. Nel caso, vedere le [domande frequenti sulla funzionalità delle informazioni](ui-search-faq.md)
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
-[Utilizzo di Business Central](ui-work-product.md)  
+[Utilizzare Business Central](ui-work-product.md)  
 [Aggiungere un'azione di pagina a Gestione ruolo utente](ui-bookmarks.md)
 
 

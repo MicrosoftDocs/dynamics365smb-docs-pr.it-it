@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: 39700bcb00aadf4a567da0487db58c17aefe58af
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381751"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517975"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -240,12 +240,20 @@ Esplora ruoli offre una panoramica e l'accesso rapido a tutte le funzionalità a
 |MAIUSC F3 o CTRL + Freccia SU|Spostare lo stato attivo sulla precedente funzionalità trovata in Esplora ruoli.|
 |CTRL+MAIUSC|Espandere o comprimere tutti i nodi secondari, oltre ai nodi di livello principale, quando si sceglie l'azione **Espandi** o **Comprimi**.|
 
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Tasti di scelta rapida della tastierna numerica
+
+Nella tabella seguente sono descritti i tasti di scelta rapida della tastierina numerica.
+
+|Premere questi tasti<br />(in macOS)|Operazione da eseguire|
+|--------------------------------|----------|
+|Alt+Separatore decimale|Cambia l'output del tasto separatore decimale sul punto (.) o sul carattere determinato dall'impostazione **Area geografica** della pagina **Impostazioni personali**. Per ulteriori informazioni, vedi [Impostazione del separatore decimale usato dalle tastiere numeriche](ui-enter-data.md#decimal).|
+
 ## <a name="see-also"></a>Vedere anche
 
 [Riferimento rapido per tasti di scelta rapida - Solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Funzionalità di accessibilità](ui-accessibility.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Prepararsi a fare affari](ui-get-ready-business.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.yml)  
 [Trova movimenti](ui-find-entries.md)  
 

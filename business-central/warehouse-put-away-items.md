@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5770, 5783, 5784, 5786, 5795, 7334, 7352, 7354, 7356, 7375, 7379, 7390, 7394, 7396, 9312, 9315, 9343
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4643368181fa2f36c010f50ab6ce444d0a5fdce4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1a18d62f5b2c9f98bd3ece41eeb871221003cccd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134511"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519972"
 ---
 # <a name="putting-items-away"></a>Stoccaggio di articoli
 
@@ -43,10 +43,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione di Gestione warehouse](warehouse-setup-warehouse.md) 
+[Impostazione di Warehouse Management](warehouse-setup-warehouse.md) 
 [Gestione assemblaggio](assembly-assemble-items.md)
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

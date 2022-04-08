@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7335c388efc48f3c9a04238e7727817f28a7757f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5d46916a96a55cf71c6b018fc66b4165c742b632
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128488"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518577"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi e delle spedizioni warehouse, è possibile utilizzare i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima della registrazione della spedizione warehouse.  
@@ -37,7 +37,7 @@ In alternativa, è possibile utilizzare la pagina **Prospetto prelievi** per est
 >  Per informazioni sul prelievo generale di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio non fa parte di una spedizione vendita, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md)..  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Per prelevare articoli per la spedizione warehouse  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 
     Se è necessario utilizzare un determinato prelievo, selezionare il prelievo dalla lista oppure filtrare la lista per individuare i prelievi specificatamente assegnati a se stessi. Aprire la scheda prelievo.  
 2.  Se il campo **ID utente assegnato** è vuoto, immettere il proprio ID per identificarsi, se necessario.  
@@ -77,8 +77,8 @@ Dopo che la spedizione warehouse è stata registrata, i vari campi sulla riga or
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

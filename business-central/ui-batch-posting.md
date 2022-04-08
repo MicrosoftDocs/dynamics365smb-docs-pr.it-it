@@ -10,12 +10,12 @@ ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 024588a5fcb565935a47f63a73b7287879c0db8c
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 357a4a8d1eba62c3619439558cf81a5fc19f0963
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334958"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515981"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Registrare più documenti contemporaneamente
 
@@ -25,7 +25,7 @@ Anziché registrare un singolo documento alla volta, è possibile selezionare pi
 
 La seguente procedura descrive come registrare immediatamente più ordini di acquisto. I passaggi sono simili per tutti i documenti di acquisto e vendita.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
 2. Nella pagina **Ordini acquisto**, selezionare tutti gli ordini da registrare:
 3. Nel campo **Nr.** selezionare i tre punti verticali per aprire il menu di scelta rapida, quindi scegliere il l'azione **Seleziona più elementi**.
 4. Selezionare la casella di controllo per tutte le righe che rappresentano gli ordini che si desidera registrare contemporaneamente.
@@ -36,7 +36,7 @@ La seguente procedura descrive come registrare immediatamente più ordini di acq
 
 La seguente procedura descrive come eseguire registrazioni batch di ordini di acquisto. I passaggi sono simili per tutti i documenti di acquisto e vendita in cui l'azione **Registra batch** è disponibile.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Ordini acquisto**, selezionare tutti gli ordini da registrare:
 3. Nel campo **Nr.** selezionare i tre punti verticali per aprire il menu di scelta rapida, quindi scegliere il l'azione **Seleziona più elementi**.
 4. Selezionare la casella di controllo per tutte le righe che rappresentano gli ordini che si desidera registrare contemporaneamente.
@@ -53,7 +53,7 @@ Le code processi sono un efficace strumento per programmare l'esecuzione dei pro
 
 La procedura seguente illustra come configurare la registrazione in background di ordini di vendita. I passaggi sono simili per un acquisto.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup contabilità clienti e vendite**, selezionare la casella di controllo **Registra mediante coda processi**.
 3. Scegliere il campo **Codice categoria coda processi** e specificare il codice **SALESPOST**.
 
@@ -130,7 +130,7 @@ In qualità di amministratore, è possibile usare [Application Insights](/azure/
 [Modificare i documenti registrati](across-edit-posted-document.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
 title: Creare le distinte base di produzione
 description: Scopri come creare una distinta base di produzione (DB), nuove versioni di una DB di produzione e come utilizzare la formula di calcolo della quantità.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130256"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516902"
 ---
 # <a name="create-production-boms"></a>Creare le distinte base di produzione
 
@@ -26,7 +26,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 
 ## <a name="to-create-a-production-bom"></a>Per creare una DB di produzione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Per modificare la distinta base di produzione, impostare il campo **Stato** su **Nuova** o **In sviluppo**. Per attivarla, impostare lo **Stato** su **Certificato**.  
@@ -54,7 +54,7 @@ Vengono utilizzate nuove versioni della distinta base, ad esempio nel caso in cu
 
 La data di inizio indica l'inizio del periodo di validità della versione. Costituisce inoltre un elemento che funge da filtro per calcoli e valutazioni. La versione della distinta base è valida fino alla data di entrata in vigore di quella nuova.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
 2. Selezionare la DB di produzione da copiare quindi scegliere l'azione **Versioni**.  
 3. Scegliere l'azione **Nuovo**.  
 4. Compilare i campi in base alle esigenze.
@@ -85,6 +85,10 @@ La relazione dei singoli componenti viene definita dalla formula di calcolo. Son
 - **Lunghezza x Larghezza** - Quantità = Quantità per * Lunghezza x Larghezza  
 - **Lunghezza x Larghezza x Profondità** - Quantità = Quantità per x Lunghezza x Larghezza x Profondità  
 - **Peso** - Quantità = Quantità per x Peso  
+- **Quantità fissa** - Quantità = Quantità per
+
+> [!NOTE]
+> La formula di calcolo **Quantità fissa** garantisce che il consumo di un componente sia sempre lo stesso, indipendentemente dalle quantità in uscita o di scarto. Per i componenti dell'ordine di produzione, quando il campo **Formula di calcolo** è impostato su **Quantità fissa**, il valore del campo **Quantità prevista** è sempre uguale al campo **Quantità per**. La percentuale di scarto definita sulla stessa riga viene ignorata. La quantità fissa è rispettata dal report **Disponibilità per distinta base**. Il report mostrerà l'articolo come collo di bottiglia se la quantità disponibile è inferiore alla quantità nel campo **Quantità per elemento padre**. I campi **In grado di fare l'elemento padre** e **In grado di fare l'articolo principale** sono sempre vuoti, indipendentemente dalla quantità disponibile. Anche la quantità fissa è inclusa nei calcoli per i costi standard. La dimensione del lotto per l'articolo prodotto incide sul costo allocato per un articolo.
 
 ### <a name="example"></a>Esempio
 
@@ -98,7 +102,7 @@ In una distinta base sono necessarie settanta parti metalliche con le dimensioni
 [Pianif.](production-planning.md)   
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

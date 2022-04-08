@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382061"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522146"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allocare costi a partner IC
 Quando si utilizzano registrazioni intercompany per trasferire documenti tra società partner, le impostazioni relative all'IVA (principalmente la categoria registrazione business IVA) assegnate ai conti cliente o fornitore (associati al partner IC) determinano se e come l'IVA viene calcolata e registrata. È inoltre possibile eseguire distribuzioni dei costi direttamente da un ordine acquisto alle società partner. Ad esempio, se si registra una fattura acquisto di un fornitore esterno e si desidera distribuire alcuni o tutti i costi a uno o più partner IC.
@@ -29,7 +29,7 @@ Quando si utilizzano registrazioni intercompany per trasferire documenti tra soc
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Allocare i costi utilizzando registrazioni COGE intercompany
 Per immettere una riga in registrazioni COGE intercompany, attenersi alla seguente procedura. 
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione COGE intercompany**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazione COGE intercompany**, quindi scegli il collegamento correlato.
 2. Se necessario, nel campo **Nr. documento esterno**, immettere il numero documento sulla fattura del fornitore.
 3. Nel campo **Tipo di documento**, scegliere **Fattura**.
 4. Nel campo **Tipo conto** scegliere **Fornitore**.
@@ -56,7 +56,7 @@ La procedura seguente descrive come allocare i costi utilizzando una fattura acq
 > [!NOTE]
 > Per completare questi passaggi è necessario personalizzare la pagina **Fattura acquisto** aggiungendo i campi **Codice partner IC**, **Tipo rif. partner IC** e **Partner IC**. Per ulteriori informazioni, vedere [Per avviare la personalizzazione di una pagina tramite il banner Personalizzazione](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fattura di acquisto**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fattura di acquisto**, quindi scegli il collegamento correlato.
 2. Nel campo **Tipo** scegliere **Conto C/G**.
    
    Conto C/G è l'unica opzione che puoi utilizzare per allocare i costi.  
@@ -69,7 +69,7 @@ La procedura seguente descrive come allocare i costi utilizzando una fattura acq
 1. Per registrare l'ordine acquisto, scegliere **Registra**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Inviare i costi allocati a partner IC
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Casella trans. in uscita IC**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Casella trans. in uscita IC**, quindi scegli il collegamento correlato.
 2. Scegliere le righe da inviare, quindi scegliere l'azione **Invia a partner IC**. 
 3. Per allocare i costi, scegliere l'azione **Completa azioni riga**.
 
@@ -90,7 +90,7 @@ Quando si utilizza un documento per distribuire i costi a partner IC, è necessa
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

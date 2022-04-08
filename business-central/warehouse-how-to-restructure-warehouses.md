@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 97a8ff2971ca8cc6e34fb89cd5edbb092ac264a8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ccac5101c5b28d81021a7229fe576f4eb7129746
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144283"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513239"
 ---
 # <a name="restructure-warehouses"></a>Ristrutturare warehouse
 È possibile che si desideri ristrutturare la warehouse e definire nuovi codici collocazione e nuove caratteristiche per le collocazioni. Questo tipo di attività, in genere, non viene eseguita di frequente. È tuttavia possibile che si verifichino situazioni in cui si renda necessario eseguire una riclassificazione per raggiungere o mantenere una maggiore efficienza. Ad esempio:  
@@ -27,11 +27,11 @@ ms.locfileid: "8144283"
 Se la warehouse prevede l'utilizzo delle collocazioni ma non di stoccaggi e prelievi guidati, ristrutturarla creando le nuove collocazioni che si desidera utilizzare in futuro.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Per ristrutturare una warehouse di base in cui vengono utilizzate solo collocazioni  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Warehouse** impostare il campo **Selezione collocazioni di default** su **Ultima coll. usata**.  
 3.  Spostare tutto il contenuto delle collocazioni correnti nelle collocazioni appena create.  
 
-    1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni riclassificazione articolo**, quindi scegli il collegamento correlato.  
+    1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni riclassificazione articolo**, quindi scegli il collegamento correlato.  
     2.  Selezionare una riga delle registrazioni, quindi scegliere l'azione **Ottieni contenuto collocazione**.  
     3.  Nella Scheda Dettaglio **Contenuto collocazione** impostare, i filtri nei campi **Cod. ubicazione**, **Cod. collocazione** e **Nr. articolo** per specificare il contenuto che si desidera spostare.  
     4.  Scegliere il pulsante **OK** per completare una riga di registrazione.  
@@ -46,7 +46,7 @@ In questo modo sono state svuotate le collocazioni in cui gli articoli erano con
 1.  Creare le nuove collocazioni che si desidera utilizzare in futuro. Per ulteriori informazioni, vedere [Creare collocazioni](warehouse-how-to-create-individual-bins.md).  
 2.  Spostare tutto il contenuto delle collocazioni correnti nelle collocazioni appena create.  
 
-    1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni della riclassificazione warehouse**, quindi scegli il collegamento correlato.  
+    1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni della riclassificazione warehouse**, quindi scegli il collegamento correlato.  
     2.  Per le collocazioni che non comportano veri e propri spostamenti di articoli, creare una riga per ciascuna delle collocazioni correnti in **Registrazioni riclass.whse.**, specificando il codice di collocazione precedente nel campo **Dal codice collocazione** e il nuovo codice di collocazione nel campo **A codice collocazione**.  
     3.  Se alcuni movimenti implicano spostamenti fisici che verranno effettuati dagli addetti al magazzino, utilizzare la funzione **Prospetti movimenti** per preparare le istruzioni di movimento anziché utilizzare le registrazioni di riclassificazione warehouse. Per ulteriori informazioni, vedere [Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
@@ -86,8 +86,8 @@ Se si desidera rinominare una collocazione in modo che vengano rinominati anche 
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

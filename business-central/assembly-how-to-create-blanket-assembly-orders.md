@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 45550b0aa5c3d55b8988b597ebef038df108a7a2
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c388cdb7780e8af5a3da1c35bd31f9263df879d3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383995"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520492"
 ---
 # <a name="create-blanket-assembly-orders"></a>Creare ordini di assemblaggio programmati
 È possibile utilizzare gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ ms.locfileid: "8383995"
 >  Come in tutti gli ordini programmati, le quantità negli ordini di assemblaggio programmati sono solo previsioni e non diventano operative finché non viene effettuata la conversione in ordini di assemblaggio effettivi. Di conseguenza, le funzionalità dell'ordine, ad esempio calcolo della disponibilità, impegno e tracciabilità dell'articolo, non sono attive negli ordini di assemblaggio programmati.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Per creare un ordine di assemblaggio programmato per un articolo assemblato su ordine  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2. Creare un nuovo ordine di vendita programmato con una riga per un articolo di assemblaggio. Per ulteriori informazioni, vedere [Creare ordini vendita programmati](sales-how-to-create-blanket-sales-orders.md).  
 3. Nel campo **Qtà per assemblaggio su ordine** nella riga dell'ordine di assemblaggio programmato, immettere la quantità completa.
 
@@ -46,7 +46,7 @@ L'ordine di assemblaggio programmato collegato ed eventuali personalizzazioni so
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

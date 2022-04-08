@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 174840f390145724181c37c60f040dce75232e91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 719bd9ca6e536b11ec7c8584e1956d91c7fe8017
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135856"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520970"
 ---
 # <a name="create-sales-opportunities"></a>Creare opportunità di vendita
 È possibile creare opportunità per le opportunità di vendita relative ai contatti. Tutte le opportunità devono essere assegnate a un agente o un addetto acquisti e devono avere un contatto.
@@ -26,7 +26,7 @@ ms.locfileid: "8135856"
 Prima di creare opportunità, è necessario impostare opportunità relative ai cicli di vendita. Per ulteriori informazioni, vedere [Impostare cicli e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Per creare un'opportunità da un agente
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Agenti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Agenti**, quindi scegli il collegamento correlato.
 2. Selezionare l'agente dall'elenco per il quale si desidera creare un'opportunità.
 3. Selezionare l'azione **Opportunità** quindi selezionare **Lista**.
 4. Scegliere **Nuovo** e compilare i campi appropriati. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -34,17 +34,17 @@ Prima di creare opportunità, è necessario impostare opportunità relative ai c
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Per creare un'opportunità da un contatto
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Contatti**, quindi scegli il collegamento correlato.
 2. Selezionare il contatto dall'elenco per il quale si desidera creare un'opportunità.
 3. Effettuare una delle seguenti operazioni:
    * Selezionare l'azione **Crea opportunità**.
    * Selezionare l'azione **Opportunità** quindi selezionare **Nuovo**.
 4. Compilare i relativi campi.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
-[Utilizzo di Business Central](ui-work-product.md)
+[Utilizzare Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

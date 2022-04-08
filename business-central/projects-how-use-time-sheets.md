@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: 1ed54a63f3747d9ea5a1010206f4faac74fa90b0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372134"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510857"
 ---
 # <a name="use-time-sheets"></a>Usare i fogli presenze
 
@@ -37,7 +37,7 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 > [!IMPORTANT]
 > È necessario disporre dei permessi necessari per creare i fogli presenze. Per maggiori informazioni, vedere [Impostare i fogli di presenza](projects-how-setup-time-sheets.md).
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fogli presenze**, quindi scegli il collegamento correlato.
 2. Nella pagina **Fogli presenze** scegliere l'azione **Crea fogli presenze**.
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -77,7 +77,7 @@ In questo esempio ipotetico, vengono registrate le ore pertinenti nei giorni spe
 
 Se le informazioni del foglio presenze rimangono invariate da un periodo di tempo a un altro, è possibile risparmiare tempo copiando le righe dal periodo di tempo precedente. In questo modo, sarà sufficiente immettere l'utilizzo del tempo per il nuovo periodo.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fogli presenze**, quindi scegli il collegamento correlato.  
 2. Aprire il foglio presenze per un periodo successivo al periodo per un foglio presenze esistente con le righe.  
 3. Scegliere l'azione **Copia righe da foglio presenze precedente**.
 
@@ -86,7 +86,7 @@ Verranno copiate le righe e tutti i dettagli quali tipo e descrizione. Ad esempi
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Per copiare le righe pianificazione commessa in un foglio presenze
 Nella procedura riportata di seguito viene descritto come aggiungere rapidamente righe pianificazione commessa a un foglio presenze.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immettere **Fogli presenze**, quindi scegliere il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immettere **Fogli presenze**, quindi scegliere il collegamento correlato.  
 2. Selezionare un foglio presenze per il periodo pertinente nella pagina **Fogli presenze**.  
 3. Scegliere l'azione **Crea righe da pianificazione commessa**. Tutte le righe di pianificazione commessa nel periodo di tempo del foglio di presenze verranno copiate nel foglio di presenze della persona o della macchina indicata nel campo **Nr. risorsa** del foglio presenze.
 
@@ -224,7 +224,7 @@ Dopo avere registrato i fogli presenze, è possibile archiviarli per riferimento
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

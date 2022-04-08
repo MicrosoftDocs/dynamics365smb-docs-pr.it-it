@@ -10,19 +10,19 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3a44d2760760d3456c21da8ae693f4736f06e78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb2913c506362a7f4cbbed21f47093e3f5d8819a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137291"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517240"
 ---
 # <a name="request-quotes"></a>Richiedere le offerte
 
 Un'offerta di acquisto può essere utilizzata come bozza preliminare di un ordine di acquisto e l'ordine può essere in seguito convertito in ordine o fattura di acquisto.
 
 ## <a name="to-create-a-purchase-quote"></a>Per creare un'offerta di acquisto
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Offerte acquisto**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Offerte acquisto**, quindi scegli il collegamento correlato.
 2. Creare un nuovo documento nello stesso modo in cui si crea un ordine di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Per convertire un'offerta di acquisto in un ordine di acquisto
@@ -36,7 +36,7 @@ L'offerta di acquisto viene rimossa dal database. Viene creato un ordine o una f
 [Acquisti](purchasing-manage-purchasing.md)  
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

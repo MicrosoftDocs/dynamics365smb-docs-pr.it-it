@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1b3e724a3dd0f6f8dadd0e6c233fd41795bcbfd9
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 49cc2e9c461974dcdb6fa0612aa9abc11629bd9b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366290"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523425"
 ---
 # <a name="managing-inventory-costs"></a>Gestione dei costi di magazzino
 La gestione dei costi, detta anche "costing", riguarda la registrazione e il reporting dei costi operativi business. Comprende inoltre il reporting dei costi di produzione e di magazzino, ovvero il valore degli articoli.   
@@ -44,7 +44,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
  [Magazzino](inventory-manage-inventory.md)   
  [Vendite](sales-manage-sales.md)   
  [Acquisti](purchasing-manage-purchasing.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: bc60d2e8f7e79e717b8b79a9c18e7babf88d8fbb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134202"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517656"
 ---
 # <a name="use-approval-workflows"></a>Utilizzare i workflow di approvazione
 
@@ -20,7 +20,7 @@ Quando un record, ad esempio un documento di acquisto o una scheda cliente, deve
 
 I workflow di approvazione vengono impostati nella pagina **Workflow**. Devi anche impostare gli utenti di approvazione, compresi eventuali limiti di importo, nella pagina di **impostazione dell'utente di approvazione** . Per ulteriori informazioni, vedere [Impostazione dei workflow](across-set-up-workflows.md).  
 
-Oltre ai workflow di approvazione descritti in questo argomento, è possibile eseguire varie altre attività del workflow. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).
+Oltre ai workflow di approvazione descritti in questo argomento, è possibile eseguire varie altre attività del workflow. Per ulteriori informazioni, vedi [Utilizzare i flussi di lavoro](across-use-workflows.md).
 
 I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per la guida al setup assistito. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).
 
@@ -51,7 +51,7 @@ La seguente attività viene eseguita da un utente approvazione con diritti di ap
 
 È possibile elaborare le richieste di approvazione nella pagina **Richieste da approvare**, ad esempio per approvare più richieste per volta. In alternativa, è possibile elaborare ogni richiesta nel record correlati, ad esempio nella pagina **Fattura acquisto** scegliendo il collegamento nella notifica ricevuta.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Richieste da approvare**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Richieste da approvare**, quindi scegli il collegamento correlato.
 2. Selezionare una o più righe per il record o i record che si desidera approvare o rifiutare.
 3. Selezionare l'azione **Approva**, **Rifiuta** o **Delega**.
 
@@ -67,7 +67,7 @@ La seguente attività viene eseguita da un utente approvazione con diritti di ap
 
 Per impedire l'accumularsi dei documenti nel sistema o un eventuale altro blocco del flusso di lavoro, il responsabile dell'approvazione e l'amministratore dell'approvazione possono delegare la richiesta di approvazione a un sostituto. Il sostituto può essere un sostituto designato, il responsabile approvazione diretto o l'amministratore approvazioni, in tale ordine di priorità. Questa funzionalità viene in genere utilizzata se il responsabile dell'approvazione si trova fuori sede e non è in grado di approvare le richieste prima della data di scadenza.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Richieste da approvare**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Richieste da approvare**, quindi scegli il collegamento correlato.
 2. Selezionare una o più righe per le richieste di approvazione che si desidera delegare a un responsabile sostitutivo e quindi scegliere l'azione **Delega**.
 
 Viene inviata una notifica nella quale viene chiesto al responsabile sostitutivo di approvare la richiesta.
@@ -89,7 +89,7 @@ La funzione **Invia notifiche di approvazione scadute** cerca tutte le richieste
 [Vendite](sales-manage-sales.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

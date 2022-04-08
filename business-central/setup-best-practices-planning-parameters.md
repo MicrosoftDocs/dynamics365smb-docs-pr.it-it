@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6cb63f5fcc6f3fcf4262214c8fb162a6835b0c50
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129990"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513655"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Impostare le procedure ottimali: Pianificazione dei parametri
 La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centrale della supply chain di una società. L'impostazione dei parametri di pianificazione corretti è molto importante per un controllo del magazzino conveniente e un'assistenza clienti di ottima qualità.  
@@ -44,7 +44,7 @@ La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centr
  [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
  [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
  [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-demand-at-blank-location.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

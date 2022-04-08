@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137629"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419314"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Avvisi e messaggi di errore in Dynamics 365 Business Central
 
@@ -20,7 +20,7 @@ Durante la giornata lavorativa, è possibile che vengano visualizzate notifiche 
 
 La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] include descrizioni per la maggior parte dei campi, delle colonne e delle azioni a cui è possibile accedere scegliendone il nome. In combinazione con suggerimenti didatti per le pagine importanti, didascalie descrittive e testo didattico, questi suggerimenti, o callout, sono l'attuale implementazione di *assistenza utente incorporata*, che è un principio importante nel mondo attuale della progettazione del software.  
 
-Per informazioni su un campo o un altro elemento dell'interfaccia utente, scegliere il nome e apparirà una breve descrizione. Scegliere il collegamento *Ulteriori informazioni* se la descrizione non è sufficiente.  
+Per informazioni su un campo o un altro elemento dell'interfaccia utente, scegliere il nome e apparirà una breve descrizione. Scegliere il collegamento *Ulteriori informazioni* se la descrizione non è sufficiente. Puoi anche utilizzare il riquadro della Guida del prodotto per trovare le risposte alle tue domande.  
 
 Per ulteriori informazioni, vedere [Modello di assistenza per gli utenti Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/user-assistance) nel contenuto di amministrazione per [!INCLUDE [prod_short](includes/prod_short.md)].  
 

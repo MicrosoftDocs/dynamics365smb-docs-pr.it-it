@@ -10,12 +10,12 @@ ms.search.keywords: procurement
 ms.search.form: 50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310
 ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 55cc80b6f03d93dd2a4b92a32260831b52a1176c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7af3f2923c3e39d8855c80a954a4c092d4393477
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383165"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517292"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrare gli acquisti con le fatture di acquisto
 
@@ -34,7 +34,7 @@ Quando si ricevono gli articoli di magazzino, o quando il servizio acquistato vi
 
 Di seguito viene descritto come creare una fattura di acquisto. I passaggi sono simili per un ordine di acquisto. La differenza principale è che gli ordini acquisto hanno campi e azioni aggiuntivi per la gestione fisica degli articoli.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Nel campo **Fornitore** immettere il nome del fornitore esistente.
 
     Altri campi nella pagina **Fattura di vendita** ora vengono compilati con le informazioni standard del fornitore selezionato. Se il fornitore non è registrato, è necessario attenersi alla seguente procedura:
@@ -113,7 +113,7 @@ Gli articoli in una fattura di acquisto possono essere di tipo **Inventario**, *
 [Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md)  
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
 [Preparare le spedizioni dirette](sales-how-drop-shipment.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

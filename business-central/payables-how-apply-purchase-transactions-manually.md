@@ -10,12 +10,12 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3ec4f46425a344276792f44fde29e23f695384f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 001d747391998df212bacf9dbde23ebbe240bc2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145630"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521938"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori.
 Quando si invia un pagamento o si riceve un rimborso da un fornitore, è necessario decidere se collegare il pagamento o il rimborso a uno o più movimenti aperti. È possibile specificare l'importo esatto che si desidera collegare alla ricevuta di pagamento o al rimborso, quindi collegare solo parzialmente i movimenti contabili fornitori. È necessario collegare tutti i movimenti contabili fornitori per ottenere statistiche e report corretti degli estratti conto e degli interessi attivi.
@@ -37,7 +37,7 @@ Quando si invia un pagamento o si riceve un rimborso da un fornitore, è necessa
 È inoltre possibile collegare i pagamenti fornitori e i pagamenti clienti dopo che i pagamenti risultano come transazioni bancarie negative in banca. Nella pagina **Registrazione riconciliazione pagamenti** è possibile utilizzare le funzioni per l'importazione del rendiconto bancario, il collegamento automatico e la riconciliazione bancaria. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Per collegare un pagamento a uno o più movimenti contabili fornitori
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Registrazioni pagamenti**, immettere nella prima riga di registrazione le informazioni rilevanti sul movimento di pagamento.
 3. Per collegare un singolo movimento contabile fornitore:
    1. Nel campo **Collega-a nr. doc.** scegliere il campo da aprire nella pagina **Collega movimenti fornitori**.
@@ -55,7 +55,7 @@ Quando si invia un pagamento o si riceve un rimborso da un fornitore, è necessa
 6. Scegliere l'azione **Registra** per contabilizzare le registrazioni di pagamento.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Per collegare una nota di credito a uno o più movimenti contabili fornitori
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Nota credito acquisto**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Nota credito acquisto**, quindi scegli il collegamento correlato.
 2. Aprire la nota di credito da collegare.
 3. Immettere le informazioni appropriate nella testata.
 4. Per collegare un singolo movimento contabile fornitore, nella Scheda dettaglio **Collegamento**, nel campo **Collega-a nr. doc.**, selezionare il movimento a cui collegare il credito, quindi nel campo **Importo da collegare**, immettere l'importo da collegare al movimento.
@@ -72,7 +72,7 @@ Quando si invia un pagamento o si riceve un rimborso da un fornitore, è necessa
 7. Scegliere il pulsante **Registra** per contabilizzare la nota di credito di acquisto.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Per collegare i movimenti contabili fornitori registrati
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda fornitore con movimenti già registrati.
 3. Scegliere l'azione **Movimenti contabili**, quindi l'azione **Collega movimenti**.
 4. Nella pagina **Collega movimenti fornitori** è possibile vedere i movimenti aperti per il fornitore.
@@ -120,7 +120,7 @@ Quando si scollega un collegamento errato, vengono creati e registrati movimenti
 ## <a name="see-also"></a>Vedere anche
 [Contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

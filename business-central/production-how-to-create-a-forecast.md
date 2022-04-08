@@ -7,22 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140945"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512916"
 ---
 # <a name="create-a-demand-forecast"></a>Creare una previsione della domanda
 
-Nella pagina **Previsione della domanda** è possibile creare previsioni di produzione e di vendita.  
+Nella pagina elenco **Previsioni della domanda** è possibile creare previsioni di produzione e di vendita. Quindi, per ogni previsione, specifichi varie impostazioni nella pagina **Panoramica delle previsioni della domanda**.  
 
-La funzionalità di previsione viene utilizzata per creare la domanda prevista; la domanda effettiva viene creata da ordini di vendita e produzione. Durante la creazione della programmazione di produzione master (MPS), la previsione viene confrontata con gli ordini di vendita e produzione. L'opzione *Componente* nella previsione determina il tipo dei fabbisogni da considerare nel processo di confronto. Se la previsione riguarda un articolo di vendita, viene confrontata solo con gli ordini di vendita. Se si riferisce ai componenti, viene confrontata solo con la domanda dipendente dei componenti dell'ordine di produzione.  
+La funzionalità di previsione viene utilizzata per creare la domanda prevista; la domanda effettiva viene creata da ordini di vendita e produzione. Durante la creazione della programmazione di produzione master (MPS), la previsione viene confrontata con gli ordini di vendita e produzione. Il campo **Tipo di previsione** nella previsione determina il tipo dei fabbisogni da considerare nel processo di confronto. Se la previsione riguarda un *articolo di vendita*, viene confrontata solo con gli ordini di vendita. Se si riferisce ai *componenti*, viene confrontata solo con la domanda dipendente dei componenti dell'ordine di produzione.  
 
 La previsione consente alla società di creare scenari "what if" e di pianificare e soddisfare in modo efficiente e conveniente una domanda. Una previsione accurata può costituire una differenza essenziale nel determinare i livelli di soddisfazione del cliente rispetto alle date di promessa ordine e alla consegna tempestiva.  
+
+Con il primo ciclo di rilascio del 2022, puoi anche definire il giusto livello di dettagli nei campi **Previsione per posizione** e **Previsione per variante** nella pagina **Panoramica delle previsioni della domanda**. I filtri e le altre impostazioni sono memorizzati nella tabella **Nome previsione della domanda**. Così puoi facilmente interrompere e continuare il tuo lavoro in un secondo momento. Se la tua organizzazione ha eseguito l'aggiornamento al primo ciclo di rilascio del 2022, devi attivare la nuova esperienza nella pagina [Gestione funzionalità](admin-feature-management.md).  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Previsioni di vendita e previsioni di produzione
 
@@ -33,7 +35,10 @@ La funzionalità di previsione disponibile nell'applicazione può essere utilizz
 
 Nella maggior parte dei casi, pertanto, il responsabile della pianificazione di produzione modifica la previsione di vendita per adattarla alle condizioni di produzione, rispettando comunque la previsione di vendita stessa.  
 
-Le previsioni vengono create manualmente nella pagina **Previsione della domanda**. Nel sistema possono essere presenti più previsioni, differenziate in base al nome e al tipo. Le previsioni possono essere copiate e modificate in base alle esigenze. Ai fini della pianificazione, è valida una sola previsione per volta.  
+Le previsioni vengono create manualmente nella pagina **Previsione della domanda**. Nel sistema possono essere presenti più previsioni, differenziate in base al nome e al tipo. Le previsioni possono essere copiate e modificate in base alle esigenze. 
+
+> [!NOTE]
+> Ai fini della pianificazione, è valida una sola previsione per volta.
 
 La previsione consiste in un certo numero di record, ciascuno indicante il numero di articolo, la data della previsione e la quantità prevista. La previsione di un articolo è relativa a un periodo, definito dalla data della previsione e dalla data del successivo record di previsione. Dal punto di vista della pianificazione, la quantità prevista deve essere disponibile all'inizio del periodo della domanda.  
 
@@ -89,7 +94,7 @@ Quindi si crea un ordine cliente con una quantità di 12 pezzi nell'ubicazione O
 
 ## <a name="to-create-a-demand-forecast"></a>Per creare una previsione della domanda
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Previsione della domanda**, quindi seleziona il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Previsione della domanda**, quindi seleziona il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale** selezionare una previsione nel campo **Nome previsione della domanda**. Possono essere presenti più previsioni, differenziate da nome e tipo di previsione.  
 3. Nel campo **Filtro ubicazione**, selezionare l'ubicazione a cui la previsione viene applicata.
 4. Nel campo **Visualizza per** per modificare il periodo visualizzato in ciascuna colonna. È possibile selezionare i seguenti intervalli: **Giorno**, **Settimana**, **Mese**, **Trimestre**, **Anno** oppure il **Periodo contabile** come impostato nell'area finanziaria.
@@ -113,7 +118,7 @@ Quindi si crea un ordine cliente con una quantità di 12 pezzi nell'ubicazione O
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

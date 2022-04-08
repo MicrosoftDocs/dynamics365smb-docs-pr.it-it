@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bd357f10509040afb8b64ec19fecda4e8769dfe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 927e90a5e25205873a3d0784c7065b9735dc7b24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142005"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515461"
 ---
 # <a name="process-sales-opportunities"></a>Elaborare le opportunità di vendita
 Ogni volta che si crea un'opportunità, si possono utilizzare numerose funzionalità per gestire l'opportunità e procedere verso il completamento.
@@ -26,9 +26,9 @@ Le opportunità di vendita esistenti sono disponibili nella pagina **Lista oppor
 
 | Per visualizzare le opportunità per | Quindi |
 | --- | --- |
-| Tutti gli agenti e contatti |Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Lista opportunità**, quindi scegli il collegamento correlato. |
-| Un agente specifico |Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Agenti**, quindi scegli il collegamento correlato. Selezionare l'agente, scegliere l'azione **Opportunitià** e quindi l'azione **Lista**. |
-| Un contatto specifico |Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi scegli il collegamento correlato. Selezionare il contatto dalla lista, quindi scegliere l'azione **Opportunitià**. |
+| Tutti gli agenti e contatti |Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Lista opportunità**, quindi scegli il collegamento correlato. |
+| Un agente specifico |Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Agenti**, quindi scegli il collegamento correlato. Selezionare l'agente, scegliere l'azione **Opportunitià** e quindi l'azione **Lista**. |
+| Un contatto specifico |Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Contatti**, quindi scegli il collegamento correlato. Selezionare il contatto dalla lista, quindi scegliere l'azione **Opportunitià**. |
 
 Ciascuna di queste attività apre la pagina **Lista opportunità**.
 
@@ -86,7 +86,7 @@ Se un'opportunità segue un ciclo di vendita, è possibile spostarla in avanti o
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

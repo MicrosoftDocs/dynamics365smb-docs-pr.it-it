@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5a81bf1377c7ba477961205ccb67fc9982ac3ae
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ab9ad6e770e1a8c1c6ebc9e20d00e9f72ebec7c6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140919"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518967"
 ---
 # <a name="managing-marketing-campaigns"></a>Gestione di campagne di marketing
 Per identificare, attirare e fidelizzare i clienti, è fondamentale mettere a punto un solido piano di marketing. Un piano di marketing comprende diverse campagne e altre interazioni correlate alle attività di marketing e di vendita. Quando si pianifica una campagna, è necessario decidere a quali contatti rivolgersi, quale tipo di campagna creare (fiera commerciale o messaggi e-mail) e a quali agenti assegnare ogni task.
@@ -49,7 +49,7 @@ Le campagne vengono eseguite dagli agenti ed è necessario creare attività per 
 [Gestione dei contatti](marketing-contacts.md)  
 [Gestione dei segmenti](marketing-segments.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
-[Utilizzo di Business Central](ui-work-product.md)  
+[Utilizzare Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

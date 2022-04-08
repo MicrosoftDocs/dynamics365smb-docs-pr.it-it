@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91a97ab506f7536b9c468862709d1d39ed767d53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335476"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512362"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti
 
@@ -54,10 +54,10 @@ Le situazioni contabili nella versione standard di [!INCLUDE[prod_short](include
 
 Nella pagina **Sintesi situaz. contabile** è possibile visualizzare un'anteprima del report finanziario definito dalla situazione contabile. Nella procedura seguente, è importante comprendere che le righe e le colonne della situazione contabile configurate possono essere visualizzate e convalidate solo nella pagina **Sintesi situaz. contabile**, a cui si accede da una situazione contabile scegliendo l'azione **Sintesi**. La pagina **Situazione contabile** è soltanto un'area di configurazione.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Situazioni contabili**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Situazioni contabili** scegliere l'azione **Nuovo** per creare una nuova situazione contabile.
 3. In alternativa, scegliere l'azione **Copia situazione contabile**, compilare i due campi, quindi scegliere **OK**.
-4. Compilare i campi come necessario. Nel campo **Default layout colonna**, selezionare un layout esistente. Se necessario, è possibile modificarlo in seguito.
+4. Compilare i campi in base alle esigenze. Nel campo **Layout di colonna predefinito**, seleziona un layout esistente. Se necessario, è possibile modificarlo in seguito.
 
     I layout di colonna sono utilizzati per definire colonne per differenti parametri utilizzati per visualizzare i dati finanziari nelle righe. Ad esempio, è possibile creare un layout di colonna che compara saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente, con quattro colonne. Per ulteriori informazioni, vedere [Per modificare un layout di colonna](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
@@ -71,7 +71,7 @@ A questo punto, si è definita la base della situazione contabile, le righe dei 
 
 ### <a name="to-edit-a-column-layout"></a>Per modificare un layout di colonna
 
-I layout di colonna sono utilizzati per definire le colonne da includere nel report risultante. Ad esempio, è possibile creare un layout che metta a confronto saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente.
+I layout di colonna sono utilizzati per definire le colonne da includere nel report risultante. Ad esempio, è possibile creare un layout che metta a confronto saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente. Puoi avere fino a 15 colonne. Ciò è utile, ad esempio, se desideri visualizzare i budget per 12 mesi e includere una colonna che mostri il totale.
 
 > [!NOTE]
 > In una versione stampata/visualizzata in anteprima/salvata di una situazione contabile è possibile visualizzare al massimo cinque colonne. Se la situazione contabile è utilizzata solo per l'analisi nella pagina **Sintesi situaz. contabile**, è possibile creare tutte le colonne necessarie.
@@ -88,7 +88,7 @@ I layout di colonna sono utilizzati per definire le colonne da includere nel rep
 
 A volte, potrebbe essere necessario includere in una situazione contabile una colonna per il calcolo delle percentuali di un totale. Se, ad esempio, vi sono alcune righe in cui è prevista la suddivisione delle vendite per dimensioni, è possibile inserire una colonna per indicare la percentuale delle vendite totale rappresentata da ogni riga.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Situazioni contabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Descr. situazioni contabili** selezionare una situazione contabile.  
 3. Selezionare l'azione **Modifica situazione contabile** per impostare una riga della situazione contabile per calcolare il totale su cui saranno basate le percentuali.  
 4. Inserire una riga immediatamente sopra la prima riga per la quale si desidera visualizzare una percentuale.  
@@ -101,11 +101,11 @@ A volte, potrebbe essere necessario includere in una situazione contabile una co
 
 È possibile utilizzare una situazione contabile per creare un rendiconto in cui vengono confrontate le cifre C/G con le cifre del budget C/G.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi 3.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Descr. situazioni contabili** selezionare una situazione contabile.  
 3. Scegliere l'azione **Modifica situazione contabile**  
 4. Nella pagina **Situazione contabile** selezionare il nome della situazione contabile di default nel campo **Nome**.
-5. Scegliere l'azione **Inserisci conti**.  
+5. Scegli l'azione **Inserisci conti C/G**.  
 6. Selezionare i conti che si intendono includere nella dichiarazione e selezionare il pulsante **OK**.
 
     I conti sono stati inseriti nella situazione contabile. È inoltre possibile modificare il layout colonna.  
@@ -147,9 +147,19 @@ Se si desidera eseguire i calcoli in base a periodi di tempo regolari, è necess
 > [!NOTE]
 > Non è sempre trasparente quali periodi si stanno confrontando perché è possibile impostare un filtro per data su un report che si estende su date diverse rispetto ai periodi contabili che si riflettono nei dati nel piano dei conti. Ad esempio, si crea una situazione contabile in cui si desidera confrontare il periodo corrente con lo stesso periodo dell'anno precedente, quindi si imposta il campo **Formula confronto data** su *-1AF*. Quindi, si esegue il report il 28 febbraio e si imposta il filtro della data su gennaio e febbraio. Di conseguenza, la situazione contabile confronta gennaio e febbraio di quest'anno con gennaio dell'anno scorso, che è l'unico periodo contabile completato dei due per l'anno prima.  
 
-Per ulteriori informazioni sulle formule di data, vedere [Lavorare con le date e gli orari del calendario ](ui-enter-date-ranges.md).  
+Per ulteriori informazioni sulle formule di data, vedere [Utilizzare date e orari del calendario](ui-enter-date-ranges.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="import-or-export-account-schedules"></a>Importare o esportare situazioni contabili
+Puoi importare ed esportare situazioni contabili come pacchetti di configurazione RapidStart. Ad esempio, questo è utile per condividerli con altre aziende. Il pacchetto viene creato in un file con estensione rapidstart, che offre il contenuto del pacchetto in un formato compresso.
+
+### <a name="to-import-and-export-account-schedules"></a>Per importare ed esportare situazioni contabili
+1. Scegli la ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.
+2. Scegli la situazione contabile quindi scegli l'azione **Importa situazione contabile** o **Esporta situazione contabile** a seconda di cosa vuoi fare. 
+
+> [!NOTE]
+> Quando importi le situazioni contabili, i record esistenti con lo stesso nome di quelli che stai importando verranno eliminati.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -157,7 +167,7 @@ Per ulteriori informazioni sulle formule di data, vedere [Lavorare con le date e
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

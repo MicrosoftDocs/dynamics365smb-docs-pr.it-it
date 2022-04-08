@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ee0720c6fe8f7b64e99344fc277a5c42a0243b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148150"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523295"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedura dettagliata: Calcolo del valore WIP per una commessa
 
@@ -59,7 +59,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 ### <a name="to-calculate-wip"></a>Per calcolare il WIP  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2.  Nell'elenco **Commesse** selezionare la commessa **Chernelli**, quindi scegliere l'azione **Modifica**. Verrà visualizzata la scheda commessa in modalità di modifica.  
 
      Il WIP può essere calcolato sulla base di valore del costo, valore delle vendite, costo del venduto, percentuale di completamento o contratto completato. Nell'esempio, CRONUS utilizza il metodo Valore costo.  
@@ -91,7 +91,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 ### <a name="to-review-wip-warnings"></a>Per esaminare gli avvisi WIP  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pannello di controllo WIP commessa**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Pannello di controllo WIP commessa**, quindi scegli il collegamento correlato.  
 2.  Selezionare la commessa **Chernelli**, quindi scegliere l'azione **Mostra avvisi**.  
 3.  Nella pagina **Avvisi WIP commessa** analizzare l'avviso associato alla commessa.  
 
@@ -162,7 +162,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
  [Procedura dettagliata: Gestione dei progetti con le commesse](walkthrough-managing-projects-with-jobs.md)   
  [Metodi WIP](projects-understanding-wip.md)   
  [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

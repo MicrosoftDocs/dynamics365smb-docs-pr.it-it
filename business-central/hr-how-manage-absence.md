@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: eeb886becb78fdccd4a075db88fc393c30adb221
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: deb54eae1b6b6494043ae1ed0d3fc5cbdf2bab22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366264"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516241"
 ---
 # <a name="manage-employee-absence"></a>Gestire le assenze di un impiegato
 Per gestire le assenze di un impiegato, è necessario registrare l'assenza nella pagina **Registrazione assenza**. Le informazioni possono quindi essere visualizzate in diversi modi per esigenze di analisi e creazione report.
@@ -69,7 +69,7 @@ Per ottenere statistiche significative, per le registrazioni delle assenze degli
 ## <a name="see-also"></a>Vedere anche
 [Gestione personale](hr-manage-human-resources.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)
 
 

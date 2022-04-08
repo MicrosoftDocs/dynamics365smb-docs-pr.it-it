@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6c76729d5b8ecf2a42b0b749a951ee05cef96f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142881"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516564"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Impostare le procedure ottimali: metodi di riordino
 Nel campo **Metodo di riordino** delle schede articolo vengono offerti quattro diversi metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.  
@@ -44,7 +44,7 @@ Nella seguente tabella vengono fornite le procedure consigliate per la selezione
  [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)   
  [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
  [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

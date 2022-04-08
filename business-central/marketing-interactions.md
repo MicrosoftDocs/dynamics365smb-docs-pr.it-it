@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea1460810e24d2e78a7d4791aaaaf8a09a4c056c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131381"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517949"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrare interazioni con i contatti
 L'impostazione dell'applicazione per registrare le interazioni consiste in queste attività:
@@ -49,12 +49,12 @@ In questa pagina è possibile:
 * Visualizzare lo stato delle interazioni.
 * Contrassegnare le interazioni come annullate.
 
-È possibile eliminare i movimenti log interazione che sono stati annullati. Per eliminare i movimenti log interazione, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Elimina movimenti log interazione annullati**, quindi scegli il collegamento correlato e compila le informazioni.
+È possibile eliminare i movimenti log interazione che sono stati annullati. Per eliminare i movimenti log interazione, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Elimina movimenti log interazione annullati**, quindi scegli il collegamento correlato e compila le informazioni.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione dei contatti](marketing-contacts.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
-[Utilizzo di Business Central](ui-work-product.md)  
+[Utilizzare Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

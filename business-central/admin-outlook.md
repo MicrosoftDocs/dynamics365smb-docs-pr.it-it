@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323204"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518339"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Ottieni il componente aggiuntivo Business Central per Outlook
 
@@ -39,7 +39,7 @@ L'add-in Business Central per Outlook consiste in due add-in più piccoli:
 
     Quando un'email fa riferimento a un numero di documento aziendale nel corpo dell'email, questo add-in fornisce un collegamento diretto e in linea dal corpo dell'email al documento aziendale effettivo in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Per ulteriori informazioni su ciò che si fa con i componenti aggiuntivi, vedere [Utilizzo di Business Central come casella di posta elettronica aziendale in Outlook](work-outlook-addin.md).
+Per ulteriori informazioni su ciò che si fa con i componenti aggiuntivi, vedi [Utilizzare Business Central come casella di posta elettronica aziendale in Outlook](work-outlook-addin.md).
 
 Ogni add-in è fornito come un file XML, chiamato *manifest*, che deve essere installato in Outlook da chiunque voglia questa funzionalità. Questi file descrivono come attivare gli add-in e connettersi a Business Central quando sono usati in Outlook. Lavorare con questi file è tipicamente fatto da un amministratore. Come utente normale, nella maggior parte dei casi, non avrete a che fare direttamente con questi file. O il tuo amministratore imposterà l'add-in per installarlo automaticamente per te o userai il setup assistito integrato per gestire l'installazione.
 
@@ -84,7 +84,7 @@ La distribuzione centralizzata è una funzione nel centro amministrativo di Micr
 > [!IMPORTANT]
 > Un segno di spunta verde appare quando l'add-in viene distribuito nel centro amministrativo. Tuttavia, possono essere necessarie fino a 24 ore prima che gli utenti vedano l'add-in nell'app Outlook. Gli utenti potrebbero dover riavviare anche Outlook.
 
-Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amministrazione di Microsoft 365, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amministrazione di Microsoft 365, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installare l'add-in per uso personale
 
@@ -130,7 +130,7 @@ Ora sei pronto per iniziare ad usare l'add-in in Outlook.
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Requisiti minimi per Outlook](product-requirements.md#outlook)  
-[Utilizzo di componenti aggiuntivi in Outlook sul Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Utilizzare i componenti aggiuntivi in Outlook sul Web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

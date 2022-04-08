@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130343"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515513"
 ---
 # <a name="set-up-locations"></a>Impostare le ubicazioni
 
@@ -75,14 +75,17 @@ Se vuoi strutturare le tue collocazioni in zone, puoi farlo nella pagina **Zone*
 
 Tuttavia, è possibile scegliere di impostare una singola zona e organizzare la warehouse solo in base alle collocazioni. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).  
 
+## <a name="default-dimensions-for-locations"></a>Dimensioni predefinite per le ubicazioni
+Si impostano le dimensioni predefinite per un'ubicazione nella pagina **Scheda ubicazione** scegliendo **ubicazione**, e poi **Dimensioni**. Le dimensioni predefinite dell'ubicazione vengono copiate nei giornali di registrazione e nei documenti quando si specifica l'ubicazione su una riga, ma è possibile eliminare o modificare la dimensione sulla riga, se necessario. Puoi richiedere che le persone specifichino le dimensioni per ubicazioni specifiche prima di poter registrare una voce. Puoi anche includere i valori delle dimensioni ubicazione in **Priorità dimensione predefinita** e **Combinazioni dimensioni** per combinazioni di priorità e regole di dimensioni.
+
 ## <a name="see-also"></a>Vedere anche
 
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 [Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)  
 [Creare collocazioni](warehouse-how-to-create-individual-bins.md)  
 [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 

@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, foreign exchange rates
 ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3df39a6054a73fb44c18c4893a253bfcd358f318
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 43933346f68fef474dc1f68c7eadbe295732bad8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132916"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515039"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
 
@@ -55,7 +55,7 @@ Seguire questa procedura per impostare una valuta contabile addizionale:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Per specificare i conti C/G per la registrazione delle rettifiche tasso di cambio.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valute**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Valute**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Valute** riempire i seguenti campi per la valuta contabile addizionale.  
 
 |Campo|Description|  
@@ -72,7 +72,7 @@ Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Per specificare il metodo della rettifica tasso di cambio per tutti i conti C/G
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Piano dei conti**, selezionare il conto pertinente quindi scegliere l'azione **Modifica**.  
 3. Nella pagina **Scheda conto GL** selezionare il metodo pertinente nel campo **Rettifica tasso di cambio**.  
 
@@ -90,7 +90,7 @@ Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Per specificare il metodo di rettifica del tasso di cambio per i movimenti IVA
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup contabilità generale** selezionare il metodo pertinente nel campo **Rettif. tasso di cambio IVA**.  
 3. Se si effettua la registrazione in una valuta addizionale, è possibile specificare nel campo **Rettif. tasso di cambio IVA** in che modo verranno rettificati i conti impostati per la registrazione IVA nella pagina **Setup registrazioni IVA** per le fluttuazioni del tasso di cambio tra la valuta locale e quella addizionale.  
 
@@ -136,7 +136,7 @@ Per tutti i movimenti futuri dello stesso tipo gli importi verranno inoltre regi
 
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

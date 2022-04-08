@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000846, 99000850
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4cc64e863c2bde02c61237e7baad7a58dfaba31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09129dc65ad61e632d7b5f5e3d22b47ae32d95bd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145500"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516720"
 ---
 # <a name="batch-post-production-consumption"></a>Registrare il consumo produzione tramite processo batch
 
@@ -27,7 +27,7 @@ Se il metodo di consuntivazione è **Manuale**, i componenti devono essere regis
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Per registrare il consumo per una o più righe dell'ordine di produzione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni consumi**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni consumi**, quindi scegli il collegamento correlato.  
 2. Compilare i campi inserendo i dati relativi agli ordini di produzione e al consumo. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Uso dell'azione **Calcolo basato su** per generare le righe di registrazione dagli ordini di produzione in base all'output attuale (la quantità di merci finite prodotte effettivamente) o sull'output previsto (la quantità di merci finite che ti aspetti di produrre).
@@ -44,6 +44,6 @@ Se il metodo di consuntivazione è **Manuale**, i componenti devono essere regis
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

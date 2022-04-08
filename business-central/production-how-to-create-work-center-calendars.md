@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a39df1fc7ccff9d3f4fcfbf76e7d6a57a7801bce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e8c950a402c8bbf650deec10eb7be2679c5eeab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131329"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516798"
 ---
 # <a name="set-up-shop-calendars"></a>Impostare i calendari del reparto produzione
 
@@ -25,7 +25,7 @@ Come base per il calcolo di un calendario specifico delle aree di produzione o d
 Di seguito viene descritto come impostare i calendari delle aree di produzione. I passaggi sono gli stessi della procedura per l'impostazione dei calendari dei centri di lavoro.  
 
 ## <a name="to-create-work-shifts"></a>Per creare turni lavorativi  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Turni lavorativi**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Turni lavorativi**, quindi scegli il collegamento correlato.  
 2.  In una riga vuota immettere un numero nel campo **Codice** per identificare il turno lavorativo, ad esempio **1**.  
 3.  Descrivere il turno lavorativo nel campo **Descrizione**, ad esempio **1mo Turno**.  
 4.  Facoltativamente, compilare le righe relative a un secondo o terzo turno lavorativo.  
@@ -33,7 +33,7 @@ Di seguito viene descritto come impostare i calendari delle aree di produzione. 
 Anche se nelle aree di produzione specificate non vengono effettuati turni diversi, immettere almeno un codice di turno lavorativo.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Per impostare un calendario reparto prod.  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Calendari reparto prod.**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Calendari reparto prod.**, quindi scegli il collegamento correlato.  
 2.  In una riga vuota immettere un numero nel campo **Codice** per identificare il calendario reparto prod.  
 3.  Nel campo **Descrizione** immettere una descrizione del calendario.  
 4.  Scegliere l'azione **Giorni lavorativi**.
@@ -68,7 +68,7 @@ La capacità disponibile per le ferie definite sarà pari a zero in un calendari
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Per calcolare un calendario aree di produzione  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Aree di produzione**, quindi scegli il collegamento correlato.
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Aree di produzione**, quindi scegli il collegamento correlato.
 2. Aprire l'area di produzione che si desidera aggiornare.  
 3. Nel campo **Cod. calendario reparto prod.**, selezionare il calendario del reparto produzione da utilizzare come base per un calendario delle aree di produzione.  
 4. Scegliere l'azione **Calendario**.  
@@ -110,7 +110,7 @@ La capacità del giorno selezionato risulta ora diminuita in base al tempo di as
 [Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

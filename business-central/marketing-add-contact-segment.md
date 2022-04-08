@@ -1,28 +1,27 @@
 ---
-title: Definire i contatti in un segmento | Documenti Microsoft
+title: Aggiungere contatti ai segmenti
 description: Dopo aver creato un segmento, è possibile aggiungere i contatti al segmento, ad esempio, come parte di una campagna di marketing mirata ai clienti o contatti specifici.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
+ms.search.form: 5091, 5093
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 975a6e769bbba3a32451fc1e9fda54da9cad401b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d285e384ceef9e78fca764fdffaabb3ff439ea02
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135213"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519071"
 ---
 # <a name="add-contacts-to-segments"></a>Aggiungere contatti ai segmenti
 Dopo avere creato un segmento e immesso le informazioni di base relative, è possibile aggiungere contatti al segmento. È possibile effettuare questa operazione compilando manualmente le righe della pagina **Segmentol**, il metodo più semplice e rapido per utilizzare l'azione **Agg. contatti**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Per aggiungere un contatto a un segmento
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Segmenti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Segmenti**, quindi scegli il collegamento correlato.  
 2. Selezionare il segmento e fare clic sull'azione **Agg. contatti**. Verrà visualizzata la pagina del processo batch **Agg. contatti**.
 3. Nella sezione **Contatto** impostare i filtri per specificare le informazioni in base alle quali si desidera selezionare i contatti.
 
@@ -56,7 +55,7 @@ Una volta selezionati i contatti all'interno di un segmento, è possibile elimin
 [Creare un segmento](marketing-how-create-segment.md)   
 [Gestione dei segmenti](marketing-segments.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

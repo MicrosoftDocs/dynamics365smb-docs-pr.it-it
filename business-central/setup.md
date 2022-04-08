@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128638"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510767"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -45,9 +45,9 @@ Alcune funzionalità, generali o per processi aziendali specifici, possono esser
 |Leggere le procedure ottimali per l'impostazione di articoli per i costi di magazzino e la pianificazione degli approvvigionamenti.|[Impostazione di aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)|
 |Migliorare la qualità dell'implementazione e diminuire i tempi di distribuzione utilizzando un set di strumenti per impostare una nuova società utilizzando procedure, modelli, prospetti e questionari dei clienti.|[Impostazione una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
 |Trasferire informazioni su clienti, fornitori, magazzino e conti correnti bancari da un altro sistema in [!INCLUDE[prod_short](includes/prod_short.md)]|[Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)|
-|Utilizzare il componente aggiuntivo Outlook di Business Central per visualizzare i dati finanziari relativi a clienti e fornitori o creare e inviare documenti finanziari, quali offerte e fatture.|[Utilizzo di Business Central come Posta in arrivo aziendale di Outlook](admin-outlook.md)|
+|Utilizzare il componente aggiuntivo Outlook di Business Central per visualizzare i dati finanziari relativi a clienti e fornitori o creare e inviare documenti finanziari, quali offerte e fatture.|[Utilizzare Business Central come Posta in arrivo aziendale di Outlook](admin-outlook.md)|
 |Ottenere informazioni sui dati Business Central con Power BI e pacchetti di contenuto di Business Central.|[Abilitare i dati aziendali per Power BI](admin-powerbi.md)|
-|Utilizzare i dati di Business Central come parte di un flusso di lavoro in Power Automate.|[Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md)|
+|Utilizzare i dati di Business Central come parte di un flusso di lavoro in Power Automate.|[Usare Business Central in un flusso di lavoro automatizzato](across-how-use-financials-data-source-flow.md)|
 |Rendere i dati di Business Central disponibili come origine dati in Power Apps.|[Collegamento ai dati Business Central per creare un'app aziendale utilizzando Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Utilizzare le guide di migrazione di Quickbooks dedicate.|[Passare da un'app di QuickBooks a Business Central](across-quickbooks-to-business-edition.md)|
 |Accedere ai dati di Business Central dal dispositivo mobile.|[Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)|
@@ -63,6 +63,7 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 
 ## <a name="see-also"></a>Vedere anche
 
+[Panoramica delle informazioni sulla società](admin-company-information.md)  
 [Amministrazione](admin-setup-and-administration.md)  
 [Finanze](finance.md)  
 [Vendite](sales-manage-sales.md)  
@@ -72,10 +73,10 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 [Cespiti](fa-manage.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Preparazione al business](ui-get-ready-business.md)  
+[Prepararsi a fare affari](ui-get-ready-business.md)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

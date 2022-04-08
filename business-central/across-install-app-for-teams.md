@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141517"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516449"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams
 
@@ -59,8 +59,8 @@ Questa opzione è il modo più rapido per installare l'app.
 4. Scegli l'app quando la trovi.
 5. Scegliere **Aggiungi**.
 
-> [!NOTE]
-> Con entrambe le opzioni, ti potrebbe essere chiesto di accedere a [!INCLUDE [prod_short](includes/prod_short.md)]. Seleziona il collegamento di **accesso** e segui le istruzioni per inserire il nome e la password per l'accesso a [!INCLUDE [prod_short](includes/prod_short.md)].
+> [!TIP]
+> Se incolli un collegamento a una pagina di Business Central in una conversazione del team e l'app non è installata, riceverai un messaggio del tipo: **Business Central vuole mostrare l'anteprima di questo collegamento.** Per installare l'app, seleziona **Mostra anteprima** e segui le istruzioni.
 
 **Opzione 3: Da Business Central**
 
@@ -68,6 +68,9 @@ Questa opzione è il modo più rapido per installare l'app.
 2. Scegli la ![Lente d'ingrandimento che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , inserire **Ottieni app Business Central per Teams**, e poi scegliere il link relativo.  
 3. Scegliere **Ottieni l’app dallo store**.
 4. Aspetta che Teams si apra e che appaia l'app Business Central, poi scegli **Aggiungi**.
+
+> [!NOTE]
+> Con entrambe le opzioni, ti potrebbe essere chiesto di accedere a [!INCLUDE [prod_short](includes/prod_short.md)]. Seleziona il collegamento di **accesso** e segui le istruzioni per inserire il nome e la password per l'accesso a [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Passaggio successivo
 

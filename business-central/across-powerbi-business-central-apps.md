@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134150"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519187"
 ---
-# <a name="using-the-prod_short-apps-in-power-bi"></a>Utilizzo delle app [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
+# <a name="use-the-prod_short-apps-in-power-bi"></a>Utilizzare le app [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
 
 > **SI APPLICA A:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -156,7 +156,7 @@ L'app Power BI visualizzerà solo i dati della società [!INCLUDE[prod_short](in
 
 [Business Central e Power BI](admin-powerbi.md)  
 [Componente di integrazione Power BI e panoramica dell'architettura per [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Utilizzo di dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Utilizzare i dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI](across-working-with-business-central-in-powerbi.md)  
 [Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  
 [Power BI per i consumatori](/power-bi/consumer/end-user-consumer)  
 [Il "nuovo look" del servizio Power BI](/power-bi/service-new-look)  
@@ -166,9 +166,9 @@ L'app Power BI visualizzerà solo i dati della società [!INCLUDE[prod_short](in
 [Preparazione al business](ui-get-ready-business.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
-[Uso di [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

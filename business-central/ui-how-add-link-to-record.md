@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fb191de84dac161a6b3db95396e7f0b2b5f2ce40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e3f1e3f63c8e27d081a89f6d8626b8b392a6e02b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142856"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519546"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gestire allegati, collegamenti e note in schede e documenti
 
@@ -91,12 +91,12 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 2. Selezionare l'ordine di vendita in cui si desidera scrivere una nota, quindi scegliere la scheda **Allegati** nel riquadro Dettaglio informazioni.
 3. Nella sezione **Note**, scegliere l'icona **+**.
 4. Nel campo **Nota**, scrivere un testo qualsiasi, ad esempio "Questo è un ordine urgente".
-5. Scegliere il pulsante **OK**.
+5. Scegli il pulsante **OK**.
 
 La nota è ora allegata all'ordine cliente.
 
 ## <a name="see-also"></a>Vedere anche  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  
 

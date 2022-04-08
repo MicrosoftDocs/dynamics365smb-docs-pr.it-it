@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dcd912dfae36e31bd2642b5f1427483f3095c19
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148566"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519702"
 ---
 # <a name="reserve-items"></a>Prenotare articoli
 È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto, ordini di assistenza, ordini di assemblaggio e ordini di produzione. È possibile impegnare gli articoli in magazzino o in entrata nelle righe del giornale di registrazione o del documento aperto. Eseguire l'operazione nella pagina **Impegno**.
@@ -24,7 +24,7 @@ In ogni riga della pagina **Impegno** che si apre per impegnare gli articoli, ve
 
 ## <a name="to-reserve-items-for-sales"></a>Per impegnare articoli per la vendita
 Di seguito viene descritto come impegnare gli articoli da un ordine di vendita. I passaggi sono simili a quelli degli ordini di assemblaggio, assistenza e acquisto.  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Nella Scheda dettaglio **Righe** di un ordine di vendita scegliere l'azione **Impegna**. Verrà visualizzata la pagina **Impegni**.  
 3. Selezionare la riga dalla quale si desidera impegnare gli articoli.  
 4. Selezionare una delle seguenti azioni.  
@@ -42,7 +42,7 @@ Di seguito viene descritto come impegnare gli articoli da un ordine di vendita. 
 È possibile impegnare articoli per ordini di produzione. È però necessario distinguere tra righe degli ordini di produzione, ossia l'articolo padre, e componenti.
 
 Nella seguente procedura viene utilizzato un ordine produzione confermato.   
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
 2. Aprire l'ordine di produzione confermato per il quale si vogliono impegnare gli articoli padre.  
 3. Selezionare la riga dell'ordine di produzione pertinente.  
 4. Nella Scheda dettaglio **Righe** scegliere l'azione **Impegna**.
@@ -54,7 +54,7 @@ La quantità immessa nella riga dell'ordine di produzione confermato viene ora i
 È possibile impegnare articoli per ordini di produzione. È però necessario distinguere tra righe degli ordini di produzione, ossia l'articolo padre, e componenti.
 
 Nella seguente procedura viene utilizzato un ordine produzione confermato.    
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
 2. Aprire l'ordine di produzione confermato per il quale si vogliono impegnare gli articoli del componente.  
 3. Selezionare la riga dell'ordine di produzione pertinente.  
 4. Nella Scheda dettaglio **Righe** selezionare **Riga**, quindi scegliere **Componenti**.  
@@ -97,8 +97,8 @@ La seguente procedura è basata su un ordine di vendita.
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
-[Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare i numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

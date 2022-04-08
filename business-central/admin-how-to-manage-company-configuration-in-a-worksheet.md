@@ -1,22 +1,24 @@
 ---
-title: Come gestire la configurazione della società in un foglio di lavoro
-description: Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione della società.
+title: Gestione della configurazione della società in un foglio di lavoro
+description: Se usi RapidStart Services il foglio di lavoro configurazione è la posizione centrale in cui puoi pianificare, tenere traccia ed eseguire le operazioni di configurazione della società.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141361"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514202"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>Gestione della configurazione della società in un foglio di lavoro
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>Gestione della configurazione della società in un foglio di lavoro con RapidStart Services
+
 Il foglio di lavoro configurazione è la posizione centrale in cui è possibile pianificare, tenere traccia ed eseguire le operazioni di configurazione. È possibile creare un foglio di lavoro per ogni società in uso o creare un foglio di lavoro configurazione standard che può essere utilizzato per la configurazione di più società dello stesso tipo.  
 
 La prima fase per la preparazione di un pacchetto di configurazione consiste nel selezionare una società che è già stata impostata e modificata in base alle esigenze specifiche della soluzione. Questa società costituisce un riferimento per le operazioni di configurazione di nuove società. Nel prospetto è possibile definire le tabelle che si desidera controllare e gestire tramite la configurazione. Poiché la maggior parte delle tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] presenta relazioni e dipendenze con altre tabelle, è possibile includere tali tabelle correlate in base alle proprie esigenze. Insieme, queste tabelle costituiranno la struttura relative su cui creare una nuova società. I passaggi successivi spiegano come creare il pacchetto di configurazione e implementarlo.  
@@ -25,9 +27,10 @@ Per agevolare il monitoraggio e la revisione del proprio lavoro, utilizzare il D
 
 Nelle procedure riportate di seguito viene illustrato come aggiungere e personalizzare le informazioni della tabella per la configurazione.  
 
-## <a name="to-open-the-configuration-worksheet"></a>Per aprire il foglio di lavoro configurazione.  
-1.  In [!INCLUDE[prod_short](includes/prod_short.md)] aprire la società che costituisce il modello di riferimento per la configurazione, quindi la Gestione ruolo utente Implementatore di RapidStart Services.  
-2.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.  
+## <a name="to-open-the-configuration-worksheet"></a>Per aprire il foglio di lavoro configurazione.
+
+1.  In [!INCLUDE[prod_short](includes/prod_short.md)], apri la società di base della configurazione.  
+2.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Foglio di lavoro configurazione**, quindi scegli il collegamento correlato.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Per aggiungere una tabella al foglio di lavoro  
 1.  Nella pagina **Foglio di lavoro configurazione**, scegliere l'azione **Modifica lista**.  
@@ -40,9 +43,9 @@ Nelle procedure riportate di seguito viene illustrato come aggiungere e personal
     > [!NOTE]  
     > Le tabelle correlate non verranno aggiunte con l'azione **Ottieni tabelle correlate** se una delle seguenti condizioni è vera:
     > - La relazione è condizionale.  
-    > Esempio: se si ottengono le tabelle correlate per la tabella **Cliente**, la tabella **Ubicazione** non verrà aggiunta poiché è correlata solo in modo condizionale alla tabella **Cliente**, ovvero se il campo **Codice ubicazione** nella tabella **Cliente** è compilato.  
+    >     Esempio: se si ottengono le tabelle correlate per la tabella **Cliente**, la tabella **Ubicazione** non verrà aggiunta poiché è correlata solo in modo condizionale alla tabella **Cliente**, ovvero se il campo **Codice ubicazione** nella tabella **Cliente** è compilato.  
     > - La tabella correlata è filtrata.  
-    > Esempio: un campo nella tabella relativa dispone di una clausola WHERE. Il motivo è che le informazioni sulle relazioni implicate vengono archiviate nella tabella di sistema **Campo**, che non è completamente accessibile all'applicazione.  
+    >     Esempio: un campo nella tabella relativa dispone di una clausola WHERE. Il motivo è che le informazioni sulle relazioni implicate vengono archiviate nella tabella di sistema **Campo**, che non è completamente accessibile all'applicazione.  
     > È necessario aggiungere tali tipi di tabelle manualmente seguendo il passaggio 4 della procedura.  
 
 8.  Per modificare la lista delle tabelle risultante, selezionare una tabella che si desidera rimuovere, quindi scegliere l'azione **Elimina**.  

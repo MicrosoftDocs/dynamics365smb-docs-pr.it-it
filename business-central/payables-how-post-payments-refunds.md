@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.search.form: 256, 233, 624, 1228
 ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: fa43027481ba7b9eb970182eb62b5e2aa728fb06
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 8b64ed6fc1342ec5f274b28f5a670bc329555e44
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367257"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520944"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrare pagamenti e resi nelle Registrazioni pagamenti
 
@@ -37,7 +37,7 @@ Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire 
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Per eseguire i pagamenti nelle registrazioni pagamenti
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
 2. Aprire il batch contabile che verrà dedicato ai pagamenti.
 3. Se conosci i clienti da pagare, compila i campi manualmente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Per collegare anche il pagamento alla relativa fattura o nota di credito, selezionare il campo **Collega-a nr. doc.** nella pagina **Collega movimenti fornitori**, selezionare la relativa fattura o nota di credito, quindi selezionare il pulsante **OK**.
@@ -51,7 +51,7 @@ Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire 
 
 ## <a name="to-issue-a-refund-check"></a>Per emettere un assegno di rimborso
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
 2. Nel campo **Tipo di documento** seleziona **Rimborso**.  
 3. Nel campo **Nr. documento esterno**, utilizzalo come riferimento per l'assegno di rimborso (ad esempio, numero di ordine di reso).  
 4. Nel campo **Tipo conto** selezionare **Cliente**.  
@@ -69,9 +69,9 @@ Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Esportare un file Positive Pay](finance-how-positive-pay.md)  
-[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
+[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

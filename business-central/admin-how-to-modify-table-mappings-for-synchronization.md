@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383139"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515747"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mapping delle tabelle e dei campi da sincronizzare
 
@@ -85,7 +85,7 @@ Ad esempio, il processo di sincronizzazione AGENTE - Dynamics 365 Sales utilizza
 
 2.  Nel movimento di mapping della tabella nell'elenco, deselezionare il campo **Sinc. solo record associati**.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Utilizzo dei modelli di configurazione sui mapping di tabella
+## <a name="use-configuration-templates-on-table-mappings"></a>Utilizzare i modelli di configurazione sui mapping di tabella
 È possibile assegnare i modelli di configurazione ai mapping di tabella da utilizzare per nuovi record o righe creati in [!INCLUDE[prod_short](includes/prod_short.md)] o [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per ogni mapping di tabella, è possibile specificare un modello di configurazione da utilizzare per i nuovi record di [!INCLUDE[prod_short](includes/prod_short.md)] e un altro modello per utilizzare le nuove righe di [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
 Se si installa il setup di sincronizzazione predefinito, la maggioranza delle volte i due modelli di configurazione verranno automaticamente creati e utilizzati nel mapping di tabella per i clienti di [!INCLUDE[prod_short](includes/prod_short.md)] e i conti di [!INCLUDE[crm_md](includes/crm_md.md)]: **CDSCUST** e **CDSACCOUNT**.  

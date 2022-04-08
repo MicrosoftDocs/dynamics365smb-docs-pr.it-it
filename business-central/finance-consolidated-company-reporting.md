@@ -10,12 +10,12 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136116"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518157"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidare dati finanziari di molteplici società
 
@@ -55,7 +55,7 @@ Il processo di trasferimento dei dati dalle business unit alla società consolid
 È possibile verificare i dati prima di trasferirli alla società consolidata. [!INCLUDE[prod_short](includes/prod_short.md)] cerca le differenze tra le informazioni delle business unit e quelle della società consolidata. Ad esempio, se i numeri di conto o i codici di dimensione sono diversi. È necessario correggere gli eventuali errori prima di eseguire il report. È possibile verificare il database oppure, se si importano dati da un file XML, il file in questione.  
 
 1. Aprire la società consolidata.  
-2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Business unit**, quindi scegli il collegamento correlato.  
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Business unit**, quindi scegli il collegamento correlato.  
 3. Effettuare una delle seguenti operazioni:  
 
     * Per verificare un file, scegliere l'azione **Test file**, immettere il nome del file da verificare, quindi scegliere **Stampa**.  
@@ -118,7 +118,7 @@ I movimenti esportati contengono i seguenti campi: **Nr. conto**, **Data di regi
 
 [Impostare il consolidamento di una società](finance-consolidated-company-reporting-setup.md)  
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Esportazione dei dati aziendali in Excel](about-export-data.md)
 
 

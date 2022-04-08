@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 901f3899ef164d3d24dbc5c4e2226b840c97c945
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137187"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522644"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gestire impostazioni salvate per report e processi batch
 
-Quando si eseguono report, gli utenti di norma vedono una pagina che consente loro di selezionare opzioni e impostare filtri per modificare i dati inclusi nel report generato. Questa pagina è denominata la *pagina di richiesta*. Un report può includere uno o più *impostazioni salvate* che gli utenti possono applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Per ulteriori informazioni, vedi [Utilizzo dei valori predefiniti - impostazioni predefinite](ui-work-report.md#SavedSettings).
+Quando si eseguono report, gli utenti di norma vedono una pagina che consente loro di selezionare opzioni e impostare filtri per modificare i dati inclusi nel report generato. Questa pagina è denominata la *pagina di richiesta*. Un report può includere uno o più *impostazioni salvate* che gli utenti possono applicare al report dalla pagina di richiesta. Le *impostazioni salvate* sono fondamentalmente opzioni e filtri predefiniti. L'utilizzo delle impostazioni salvate è un metodo rapido e affidabile di generare coerentemente report contenenti dati corretti. Per ulteriori informazioni, vedi [Usare le impostazioni salvate](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
 > Questo argomento fa riferimento a *report* ma informazioni simili si applicano ai *processi batch*.
@@ -57,6 +57,7 @@ Nella pagina **Impostazioni report**, è possibile:
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
+[Utilizzare report, processi batch e XMLport](ui-work-report.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

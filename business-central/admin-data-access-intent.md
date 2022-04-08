@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 66473480ac2db86bc35adc7e60d7fcd2cafc7212
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ca69d95ae40965c83df56e1454ca9984a448cbb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142525"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510981"
 ---
 # <a name="managing-database-access-intent"></a>Gestione dell'intento di accesso al database
 
@@ -32,7 +32,7 @@ In termini di database, questa funzione è comunemente nota come *scale-out di l
 
 ## <a name="to-change-the-database-access-intent"></a>Per modificare l'intento di accesso al database
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Lista intenti di accesso al database**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Lista intenti di accesso al database**, quindi scegli il collegamento correlato.
 
     La pagina elenca tutti i report, le pagine e le query. La colonna **Intento di accesso** include uno dei seguenti valori:
 
@@ -54,8 +54,8 @@ In termini di database, questa funzione è comunemente nota come *scale-out di l
 ## <a name="see-also"></a>Vedere anche
 [Funzionalità aziendale](across-business-functionality.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Preparazione al business](ui-get-ready-business.md)    
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Prepararsi a fare affari](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

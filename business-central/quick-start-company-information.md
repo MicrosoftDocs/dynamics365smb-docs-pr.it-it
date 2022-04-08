@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133656"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417615"
 ---
 # <a name="company-information-quick-start"></a>Informazioni sull'azienda Inizio rapido
 
@@ -25,19 +26,14 @@ Per aiutarti a far funzionare la tua azienda in [!INCLUDE[prod_short](includes/p
 ## <a name="to-set-up-company-information"></a>Per impostare le informazioni sulla società  
 
 1. Scegli l'icona ![Icona ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) e poi scegliere l'azione **Informazioni aziendali** .
-2. Immettere le informazioni nelle Schede dettaglio, come indicato nella tabella riportata di seguito.
+2. Immettere le informazioni nelle Schede dettaglio, come indicato nella tabella riportata di seguito. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Campo|Descrizione|  
-    |-------------|---------------------------------------|  
-    |**Generale**|Inserisci le informazioni generali sulla tua azienda, incluso un logo, dato che apparirà sui documenti rivolti ai clienti, per esempio le fatture che invii. |  
-    |**Comunicazione**|Inserisci le informazioni di contatto di base dell'azienda, come il numero di telefono e l'indirizzo e-mail.|  
-    |**Pagamenti**| Compilate le informazioni bancarie pertinenti per assicurare che i vostri clienti siano in grado di pagarvi.|  
-    |**Spedizione**|Compila le informazioni di spedizione pertinenti in modo da poter inviare e ricevere merci da e per la tua azienda.|  
-    |**Tassa**|A seconda del paese in cui vivi, la scheda Tax fast potrebbe essere disponibile per te. Se è disponibile compilatelo.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Una volta completata la compilazione delle informazioni puoi chiudere la pagina.  
 
 ## <a name="see-also"></a>Vedere anche  
 
+[Panoramica delle informazioni sulla società](admin-company-information.md)  
+[Impostazione di informazioni sulla società in Italia](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
-[Impostazione di informazioni sulla società](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

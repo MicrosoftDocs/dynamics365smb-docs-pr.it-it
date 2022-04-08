@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1332240d6c6b0e43bada158fe11e82d42e0119f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ef6b031cfb87c74a62da85d0c7073a91e5e176e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144231"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520527"
 ---
 # <a name="create-bin-contents"></a>Creare il contenuto delle collocazioni
 
@@ -22,7 +22,7 @@ Dopo avere impostato le collocazioni, è possibile impostare il contenuto colloc
 
 ## <a name="to-create-bin-content-manually"></a>Per creare manualmente il contenuto collocazione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2. Selezionare l'ubicazione in cui si desidera impostare contenuti collocazione e scegliere l'azione **Collocazioni**.  
 3. Selezionare la collocazione in cui si desidera impostare contenuti e scegliere l'azione **Contenuti**.  
 4. Per ogni articolo che si desidera inserire nella collocazione, compilare i campi di una riga della pagina **Contenuto collocazioni** immettendo le informazioni appropriate. Alcuni campi sono già compilati con le informazioni relative alla collocazione.  
@@ -41,7 +41,7 @@ Se si seleziona il campo **Fisso**, si stabilisce che l'articolo debba essere as
 
 Dopo avere creato le collocazioni, è possibile specificare il contenuto desiderato per ciascuna collocazione nel prospetto creazione contenuto collocazione.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto creaz. cont. colloc.**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto creaz. cont. colloc.**, quindi seleziona il collegamento correlato.  
 2. Nella testata del prospetto, dal campo **Nome** selezionare il prospetto dell'ubicazione in cui si desidera creare il contenuto delle collocazioni.  
 3. Nel campo **Cod. collocazione** selezionare il codice della collocazione per la quale si desidera definire il contenuto.  
 
@@ -62,9 +62,9 @@ Poiché questo prospetto consente di utilizzare più righe di contenuto collocaz
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

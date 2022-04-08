@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129169"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522354"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Specificare come e quando ricevere le notifiche del flusso di lavoro
 Quando imposti gli utenti di approvazione nei flussi di lavoro in cui vuoi che qualcuno approvi le modifiche, ad esempio quando vengono creati nuovi record o quando qualcuno richiede un'approvazione, devi specificare come e quando l'utente di approvazione riceverà una notifica. Ad esempio, puoi specificare che un utente di approvazione riceverà immediatamente un messaggio e-mail quando qualcuno crea un nuovo cliente. In alternativa, puoi programmare le notifiche da consegnare, ad esempio, su base settimanale o mensile.
@@ -36,7 +36,7 @@ Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Specificare come e quando gli utenti ricevono le notifiche  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
 2.  Selezionare la riga per l'utente per il quale si desidera impostare le preferenze di notifica, quindi scegliere l'azione **Setup notifiche**.  
 3.  Compilare i campi nella pagina **Setup di notifica** come descritto nella tabella riportata di seguito.  
 
@@ -73,7 +73,7 @@ Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti
  [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)   
  [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)   
  [Impostazione dei workflow](across-set-up-workflows.md)   
- [Utilizzo dei workflow](across-use-workflows.md)
+ [Utilizzare i workflow](across-use-workflows.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

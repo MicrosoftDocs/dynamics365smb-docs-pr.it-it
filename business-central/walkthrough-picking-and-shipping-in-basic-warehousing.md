@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99271ea5f97bed9faca795f19a863977f8b0e6e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148098"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513395"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base
 
@@ -80,7 +80,7 @@ Per utilizzare questa funzionalità, devi aggiungerti all'ubicazione come lavora
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Per diventare un impiegato warehouse
 
-  1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
+  1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 1.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
   2. Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Impiegati warehouse**.
   3. Nel campo **Codice ubicazione** selezionare SUD.  
   4. Selezionare il campo **Impostazione predefinita**, quindi selezionare il pulsante **Sì**.  
@@ -89,7 +89,7 @@ Per utilizzare questa funzionalità, devi aggiungerti all'ubicazione come lavora
 
 Per rendere l'articolo 1928-S disponibile nell'ubicazione SUD seguire i passaggi di seguito riportati:  
 
-  1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 2.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni articoli**, quindi scegli il collegamento correlato.  
+  1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 2.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni articoli**, quindi scegli il collegamento correlato.  
   2. Aprire il giornale di default e quindi creare due righe registrazioni magazzino con le informazioni seguenti sulla data di lavoro (23 gennaio).  
 
         |Tipo movimento|Numero di articolo|Cod. ubicazione|Codice collocazione|Quantità|  
@@ -108,7 +108,7 @@ Gli ordini di vendita sono il tipo più comune di documenti origine in uscita.
 
 ### <a name="to-create-the-sales-order"></a>Per creare l'ordine di vendita
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni 3.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Creare un ordine di vendita per il fornitore 10000 alla data di lavoro (23 gennaio) con la riga di ordine di vendita seguente.  
 
@@ -153,7 +153,7 @@ Nella pagina **Prelievo magazzino** è possibile gestire tutte le attività di w
 [Spostare articoli ad hoc nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Dettagli di progettazione: Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4fca74c179e6da283a2486efd2dad1c22019d013
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3554fc674732c68e47bfd28c033534d1686e1421
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132864"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515383"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Ripianificare o aggiornare direttamente gli ordini di produzione
 
@@ -36,7 +36,7 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 
 ## <a name="to-replan-a-production-order"></a>Per ripianificare un ordine di produzione
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
 2. Aprire l'ordine di produzione da ripianificare.  
 3. Nella Scheda dettaglio **Righe**, scegliere l'azione **Righe** e quindi l'azione **Componenti**.  
 4. Aggiungere un componente che corrisponda a un articolo prodotto, ovvero un sottoassemblato.  
@@ -67,7 +67,7 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 
 Se righe ciclo, componente o dell'ordine di produzione sono state corrette, è necessario procedere anche all'aggiornamento delle informazioni nell'ordine di produzione. Nella procedura che segue i componenti vengono calcolati per un ordine produzione confermato. I passaggi sono simili per le righe ciclo.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Ord. produzione confermato**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).  
 3. Scegliere l'azione **Aggiorna**.
 4. Nella pagina **Aggiorna ordine produzione**, selezionare una delle seguenti opzioni:
@@ -95,7 +95,7 @@ Se righe ciclo, componente o dell'ordine di produzione sono state corrette, è n
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

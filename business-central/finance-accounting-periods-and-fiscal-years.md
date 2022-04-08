@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d1a7121f74cf58289e0bf4ce6a80080c071f64fe
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 44c9cdadc47a40f8915f3134018c062d90fe06c5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383481"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511677"
 ---
-# <a name="working-with-accounting-periods-and-fiscal-years"></a>Utilizzo di periodi contabili e anni fiscali
+# <a name="work-with-accounting-periods-and-fiscal-years"></a>Utilizzare periodi contabili e anni fiscali
 
 I periodi contabili sono periodi di tempo per i quali una società o un'organizzazione crea report sulle prestazioni finanziarie, ad esempio, generando il relativo conto economico o conto patrimoniale. In genere, i periodi contabili fanno riferimento all'anno fiscale della società, che può contenere diversi periodi contabili, ad esempio mesi o trimestri.
 

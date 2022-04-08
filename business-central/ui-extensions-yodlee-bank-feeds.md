@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c19278d2d01ae6018e93b7856800ba6b06118278
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 54871f5a9aac3fe84e769d278fc21138a118ebb0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144673"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511469"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Estensione Envestnet Yodlee Bank Feeds
 
@@ -47,7 +47,7 @@ Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank 
 ## <a name="see-also"></a>Vedere anche
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni ](ui-extensions.md)    
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

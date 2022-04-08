@@ -6,16 +6,17 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383375"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512492"
 ---
 # <a name="handling-missing-option-values"></a>Gestione dei valori delle opzioni mancanti
-
+> [!NOTE]
+> Nel primo ciclo di rilascio del 2022 puoi creare i mapping delle opzioni. Per ulteriori informazioni, vedi [Personalizzazione dei mapping di opzione con Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Le nuove funzionalità richiedono che l'amministratore abiliti **Aggiornamento della funzionalità: mapping all'opzione impostata in Dataverse senza codice** nella pagina **Gestione funzionalità**. Per ulteriori informazioni, vedi [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Questo argomento è destinato a utenti esperti. I processi descritti richiedono l'aiuto di uno sviluppatore.
 

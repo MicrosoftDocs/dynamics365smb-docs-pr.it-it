@@ -10,12 +10,12 @@ ms.search.keywords: project management, material, purchase
 ms.search.form: 98, 1020
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 07bdabc693434dec9139bba4a6eae1c31ca06a8b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5683baf005fe8dc89cf5f133f790e5682fb5c173
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146282"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516590"
 ---
 # <a name="manage-job-supplies"></a>Gestire gli approvvigionamenti delle commesse
 La gestione degli approvvigionamenti di progetto di articoli, servizi e spese è un aspetto integrale e critico dell'esecuzione di tutte le commesse. È possibile utilizzare le giacenze o effettuare acquisti specifici per delle commesse utilizzando gli ordini di acquisto e/o le fatture di acquisto. Ad esempio, per completare una commessa relativa a un intervento di assistenza su un computer è richiesto un nuovo disco. Si crea quindi una fattura di acquisto per acquistare il nuovo disco e si registra la commessa in cui verrà utilizzato.
@@ -25,7 +25,7 @@ Se il processo di acquisto non richiede la registrazione separata della transazi
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Per acquistare articoli o servizi per una commessa
 Nella procedura riportata di seguito viene illustrato come utilizzare una fattura di acquisto per acquistare i prodotti per una commessa. La stessa procedura vale anche quando si utilizza un ordine di acquisto.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 3. Nei campi **Nr. commessa** e **Nr. task commessa** selezionare le informazioni della commessa per la quale si desidera acquistare articoli o servizi. Utilizzare gli strumenti di personalizzazione se un campo non è visibile. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
@@ -33,7 +33,7 @@ Nella procedura riportata di seguito viene illustrato come utilizzare una fattur
 4. Scegliere l'azione **Registra**.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>Per visualizzare il valore degli acquisti per una commessa
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.
 2. Aprire una scheda commessa di interesse.
 
     Nella Scheda dettaglio **Task**, il campo **Ordini inevasi** mostra l'importo inevaso totale, in valuta locale, degli articoli a magazzino e dei servizi sui documenti di acquisto per la riga del task commessa.  
@@ -44,16 +44,16 @@ Nella procedura riportata di seguito viene illustrato come utilizzare una fattur
 ## <a name="to-post-a-job-related-expense"></a>Per registrare una spesa correlata a una commessa
 Se si incorre in spese di commessa straordinarie o eccezionali, è possibile utilizzare la pagina **Registrazioni commesse in G/L** per registrarle direttamente nel conto commessa correlato.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse in C/G**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse in C/G**, quindi scegli il collegamento correlato.  
 2. Creare una nuova riga e immettere le informazioni sulla spesa, tra cui le informazioni nei campi **Nr. commessa** e **Nr. task commessa**.  
 3. Una volta completate le registrazioni, scegliere l'azione **Registra**.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

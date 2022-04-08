@@ -10,12 +10,12 @@ ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.search.form: 6250
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4caf32bb0c7b4471809d8af3b899329c571d144f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bc46e165018d29684b116f7aac3745c9d533c42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381592"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517604"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Accoppiamento e sincronizzazione dei record tra Dataverse e Business Central
 
@@ -66,7 +66,7 @@ Puoi specificare i dati da sincronizzare per un'entità, come un cliente o un co
 È possibile annullare l'associazione di uno o più record nelle pagine di elenco o nella pagina **Errori di sincronizzazione dati associati** scegliendo una o più righe e quindi **Elimina associazione**. È inoltre possibile rimuovere tutte le associazioni per una o più mapping di tabella nella pagina **Mapping tabella integrazione**.
 
 ## <a name="see-also"></a>Vedere anche  
-[Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md)
+[Utilizzare Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

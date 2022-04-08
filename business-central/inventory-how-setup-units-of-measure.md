@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 28351ac57c6c1941446d5383b384b78fbdf1f77a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6457750589393b2f8cc9d76e732ab0c3e6064a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131511"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518027"
 ---
 # <a name="set-up-units-of-measure"></a>Impostare unità di misura
 
@@ -31,7 +31,7 @@ Un altro strumento che rende più facile lavorare con più unità di misura per 
 
 ## <a name="to-set-up-units-of-measure"></a>Per impostare le unità di misura
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Unità di misura**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Unità di misura**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Una nuova riga vuota viene inserita.  
 3. Compilare i campi. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Se l'organizzazione venderà gli articoli con questa unità di misura a clienti di altri paesi, è possibile aggiungere le traduzioni.  
@@ -44,7 +44,7 @@ Quando si registra un nuovo articolo è possibile scegliere l'unità di misura d
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>Per impostare più unità di misura per l'articolo
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Aprire la scheda dell'articolo per la quale si intende impostare unità di misura alternative.
 3. Scegliere l'azione **Unità di misura**. Verrà visualizzata la pagina **Unità di misura articoli**.
 4. Se il campo **Unità di misura base** nella scheda articolo è compilato, allora tale unità di misura è già impostata.
@@ -64,7 +64,7 @@ Quando si registra un nuovo articolo è possibile scegliere l'unità di misura d
 
 Quando vendi articoli a clienti stranieri, potresti voler specificare l'unità di misura nella lingua del cliente. Potete farlo specificando le traduzioni per le unità di misura.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Unità di misura**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Unità di misura**, quindi scegli il collegamento correlato.
 2. Selezionare il codice per cui si intendono impostare le traduzioni e scegliere l'azione **Traduzioni**.
 3. Nel campo **Cod. lingua** selezionare la freccia a discesa per visualizzare una lista dei codici lingua disponibili. Selezionare il codice lingua per il quale si intende immettere la traduzione, quindi fare clic su OK per copiare il codice nel campo.
 4. Nel campo **Descrizione**, immettere il testo adeguato.
@@ -87,7 +87,7 @@ Se si è soliti effettuare acquisti o vendite utilizzando unità di misura diver
 [Gestione dei costi del magazzino](inventory-manage-inventory.md)  
 [Gestione acquisti](purchasing-manage-purchasing.md)  
 [Gestione vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

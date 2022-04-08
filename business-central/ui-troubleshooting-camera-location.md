@@ -9,12 +9,12 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: c484be64a252ae8f565bf04215b9a2191e572875
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5c5693b05d8590e569e0fb1b80993e35550c5ed5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138208"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518811"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Risoluzione dei problemi: accesso alla fotocamera e alla posizione
 
@@ -46,7 +46,7 @@ La fotocamera e le funzionalità di posizione sono disponibili solo quando si ac
 L'unica eccezione è la connessione a `http://localhost`, utilizzato per scopi di sviluppo e test.
 
 
-## <a name="working-with-virtualization-technologies"></a>Lavorare con le tecnologie di virtualizzazione
+## <a name="work-with-virtualization-technologies"></a>Utilizzare le tecnologie di virtualizzazione
 
 Quando ci si collega a [!INCLUDE[prod_short](includes/prod_short.md)] tramite Desktop remoto o un'altra virtualizzazione, l'accesso alla fotocamera o alla posizione potrebbe non essere disponibile. In tal caso, utilizzare invece il sistema fisico.
 

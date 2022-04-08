@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382101"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417521"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
-Se il proprio paese o la propria area geografica richiede il calcolo dell'imposta sul valore aggiunto (IVA) nelle transazioni di vendita e di acquisto in modo da poter segnalare gli importi a un'autorità fiscale, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] affinché calcoli automaticamente l'IVA nei documenti di vendita e di acquisto. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
+Se il tuo paese o area geografica richiede di calcolare e dichiarare l'imposta sul valore aggiunto (IVA) sulle transazioni di vendita e acquisto, puoi impostare [!INCLUDE[prod_short](includes/prod_short.md)] per calcolare l'IVA. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
 
 Ci sono, tuttavia, alcuni task relativi all'IVA che è possibile eseguire manualmente. Ad esempio, potrebbe essere necessario correggere un importo già registrato se si scopre che un fornitore utilizza un metodo di arrotondamento diverso.  
 
@@ -26,31 +26,44 @@ Ci sono, tuttavia, alcuni task relativi all'IVA che è possibile eseguire manual
 > È possibile consentire a [!INCLUDE[prod_short](includes/prod_short.md)] di convalidare i numeri di partita IVA e altre informazioni sulla società durante la creazione o l'aggiornamento dei documenti. Per ulteriori informazioni, vedere [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calcolo e visualizzazione degli importi IVA nei documenti di vendita e di acquisto  
-È possibile calcolare e visualizzare gli importi IVA nei documenti di vendita e di acquisto in modo diverso, in base al tipo di cliente o di fornitore con cui si hanno relazioni commerciali. È inoltre possibile sovrascrivere l'importo IVA calcolato in modo che corrisponda all'importo IVA calcolato dal fornitore per una determinata transazione.  
+Quando si sceglie un numero di articolo nel campo **Nr.** su un documento di vendita o di acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] compila i campi **Prezzo unitario** e **Importo riga**. Il prezzo unitario deriva dalla scheda **Articolo** o dai prezzi degli articoli definiti per l'articolo e il cliente. [!INCLUDE[prod_short](includes/prod_short.md)] calcola il valore l'importo riga quando immetti una quantità per la riga.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Prezzo unitario e importo riga con IVA inclusa ed esclusa nei documenti di vendita  
-Quando si sceglie un numero di articolo nel campo **Nr.** in un documento di vendita, [!INCLUDE[prod_short](includes/prod_short.md)] compila automaticamente il campo **Prezzo unitario**. Il prezzo unitario deriva dalla scheda **Articolo** o dai prezzi degli articoli definiti per l'articolo e il cliente. [!INCLUDE[prod_short](includes/prod_short.md)] calcola il valore del campo **Importo riga** quando si immette una quantità per la riga.  
+Se desideri che i prezzi unitari e gli importi delle righe comprendano l'IVA, ad esempio, se vendi a consumatori al dettaglio, scegli la casella di controllo **Prezzi IVA inclusa** sul documento. Per ulteriori informazioni, vedi [IVA inclusa o esclusa nei prezzi e negli importi di riga](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-Nei casi in cui si vende a clienti che si occupano di vendita al dettaglio, potrebbe essere necessario che i prezzi sui documenti di vendita siano comprensivi dell'IVA. A tale scopo, selezionare la casella di controllo **Prezzi IVA inclusa** nel documento.  
+Puoi calcolare e visualizzare gli importi IVA nei documenti di vendita e di acquisto in modo diverso, in base al tipo di cliente o di fornitore con cui hai relazioni commerciali. È inoltre possibile modificare l'importo IVA manualmente, ad esempio in modo che corrisponda all'importo IVA calcolato dal fornitore per una determinata transazione.
 
-### <a name="including-or-excluding-vat-on-prices"></a>IVA inclusa o esclusa nei prezzi
-Se la casella di controllo **Prezzi IVA inclusa** è selezionata in un documento di vendita, i campi **Prezzo unitario** e **Importo riga** includeranno l'IVA e questa impostazione sarà indicata anche nei nomi dei campi. Per impostazione predefinita, l'IVA non è inclusa in questi campi.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>IVA inclusa e IVA esclusa in prezzi e importi riga
+Se la casella di controllo **Prezzi IVA inclusa** è selezionata in un documento di vendita, i campi **Prezzo unitario** e **Importo riga** includono l'IVA e questa impostazione è indicata anche nei nomi dei campi. Per impostazione predefinita, l'IVA non è inclusa nei valori di questi campi. I nomi dei campi indicano se i prezzi sono comprensivi di IVA.  
 
-Se questo campo non è selezionato, nei campi **Prezzo unitario** e **Importo riga** verranno inseriti importi IVA esclusa e questa impostazione sarà indicata nei nomi dei campi.  
-
-È possibile impostare l'opzione **Prezzi IVA inclusa** come impostazione di default per tutti i documenti di vendita per un cliente nel campo **Prezzi IVA inclusa** della scheda **Cliente**. È inoltre possibile impostare i prezzi degli articoli affinché l'IVA sia inclusa o esclusa. In genere, i prezzi degli articoli nella scheda articolo sono IVA esclusa. Le informazioni del campo **Prezzo IVA inclusa** nella scheda **Articolo** vengono utilizzate per determinare il prezzo unitario per i documenti di vendita.  
+È possibile impostare l'opzione **Prezzi IVA inclusa** come impostazione di default per tutti i documenti di vendita per un cliente nel campo **Prezzi IVA inclusa** della scheda **Cliente**. È inoltre possibile impostare i prezzi degli articoli affinché l'IVA sia inclusa o esclusa. In genere, i prezzi sulla scheda articolo si intendono IVA esclusa. 
 
 Nella tabella seguente viene fornita una panoramica del metodo utilizzato dall'applicazione per calcolare i prezzi unitari per i documenti di vendita quando non sono stati impostati prezzi nella pagina **Prezzi vendita**:  
 
-|**Campo Prezzo IVA inclusa nella scheda articolo**|**Campo Prezzi IVA inclusa nella testata di vendita**|**Azione eseguita**|  
+|**Campo Prezzo IVA inclusa nella scheda articolo**|**Campo Prezzi IVA inclusa**|**Azione eseguita**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Deselezionato|Deselezionato|Il **Prezzo unitario** indicato nella scheda articolo viene copiato nel campo **Prezzo unitario IVA esclusa** nelle righe di vendita.|  
-|Deselezionato|Selezionato|Viene calcolato l'importo IVA unitario, che viene aggiunto al valore del campo **Prezzo unitario** nella scheda articolo. Il prezzo unitario totale viene quindi immesso nel campo **Prezzo unitario IVA inclusa** nelle righe di vendita.|  
-|Selezionato|Deselezionato|Viene calcolato l'importo IVA incluso in **Prezzo unitario** nella scheda articolo utilizzando la percentuale IVA relativa alla combinazione di Cat. reg. business IVA(prezzo) e di Cat. reg. art./serv. IVA. Il valore del campo **Prezzo unitario** nella scheda articolo, sottratto di IVA, viene immesso nel campo **Prezzo unitario IVA esclusa** delle righe di vendita.|  
-|Selezionato|Selezionato|Il **Prezzo unitario** indicato nella scheda articolo viene copiato nel campo **Prezzo unitario IVA inclusa** nelle righe di vendita.|
+|Non abilitato|Non abilitato|Il **Prezzo unitario** indicato nella scheda articolo viene copiato nel campo **Prezzo unitario IVA esclusa** nelle righe di vendita.|  
+|Non abilitato|Abilitato|Viene calcolato l'importo IVA unitario, che viene aggiunto al valore del campo **Prezzo unitario** nella scheda articolo. Il prezzo unitario totale viene quindi immesso nel campo **Prezzo unitario IVA inclusa** nelle righe di vendita.|  
+|Abilitato|Non abilitato|Viene calcolato l'importo IVA incluso nel campo **Prezzo unitario** nella **scheda articolo** utilizzando la percentuale IVA relativa alla combinazione di Cat. reg. business IVA (prezzo) e di Cat. reg. art./serv. IVA. Il valore del campo **Prezzo unitario** nella scheda articolo, sottratto di IVA, viene immesso nel campo **Prezzo unitario IVA esclusa** delle righe di vendita. Per ulteriori informazioni, vedi [Utilizzo delle categorie registrazione business IVA e dei gruppi prezzi cliente](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
+|Abilitato|Abilitato|Il **Prezzo unitario** indicato nella scheda articolo viene copiato nel campo **Prezzo unitario IVA inclusa** nelle righe di vendita.|
+
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Utilizzo delle categorie registrazione business IVA e dei gruppi prezzi cliente 
+Se vuoi che i prezzi includano l'IVA, puoi utilizzare le categorie registrazione business IVA per calcolare l'importo in base all'impostazione di registrazione IVA per la categoria. Per ulteriori informazioni, vedi [Impostare le categorie registrazione business IVA](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+A seconda di ciò che vuoi fare, puoi assegnare una categoria registrazione business IVA a clienti o documenti di vendita nei seguenti modi:
+
+* Per utilizzare la stessa aliquota IVA per tutti i clienti, puoi scegliere un gruppo nel campo **Cat. reg. business IVA (prezzo)** della pagina **Setup contabilità clienti**.
+* Per utilizzare un'aliquota IVA per un cliente specifico, puoi scegliere un gruppo nel campo **Cat. reg. business IVA (prezzo)** della pagina **Scheda cliente**. 
+* Per utilizzare un'aliquota IVA per clienti specifici, puoi scegliere un gruppo nel campo **Cat. reg. business IVA (prezzo)** della pagina **Gruppo prezzi cliente**. Ad esempio, ciò è utile quando vuoi applicare un prezzo a tutti i clienti in una determinata area geografica o in un settore specifico.
+* Su tutti i documenti di vendita nel campo **Cat. reg. business IVA**. L'importo IVA specificato per il gruppo viene utilizzato solo per il documento su cui stai attualmente lavorando.
+
+> [!NOTE]
+> Se non specifichi un gruppo nel campo **Cat. reg. business IVA (prezzo)** l'IVA non sarà inclusa nei prezzi.
+
+#### <a name="examples"></a>Esempi
+Fattori come il paese o l'area geografica in cui vendi o il tipo di settore a cui vendi possono influire sull'importo dell'IVA che devi contabilizzare. Ad esempio, un ristorante potrebbe addebitare il 6% di IVA per i pasti consumati in casa e il 17% per l'asporto. A tal fine, crei un gruppo di registrazione business IVA (prezzo) per il consumo in sede e uno per l'asporto.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correzione manuale degli importi IVA nei documenti di vendita e di acquisto  
-È possibile apportare delle correzioni a movimenti IVA registrati. In questo modo, è possibile modificare gli importi IVA vendite o acquisti totali senza modificare l'imponibile IVA. Questo tipo di rettifica può rendersi necessario, ad esempio, se in una fattura ricevuta da un fornitore l'IVA è stata calcolata erroneamente.  
+È possibile apportare correzioni a movimenti IVA registrati e modificare gli importi dell'IVA di acquisto e vendita senza modificare l'imponibile. Ad esempio, se ricevi una fattura da un fornitore con un importo IVA errato.  
 
 Anche se è possibile impostare una o più combinazioni per gestire l'IVA da importazione, è necessario impostare almeno una categoria di registrazione articoli/servizi IVA. Ad esempio, è possibile denominarlo **RETTIFICA** ai fini della rettifica, a meno che non sia possibile utilizzare lo stesso conto di contabilità generale nel campo **Conto IVA acquisti** nella riga di impostazione delle registrazioni IVA. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
 

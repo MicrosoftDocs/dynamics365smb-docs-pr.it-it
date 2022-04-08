@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acf67b3e75df35cf11f743c63fccd79310d9e0f0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6f2ac75c4a00804c0fef47dfb7885fa2d50fbf19
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141023"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515487"
 ---
 # <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
 Utilizzare le distinte base (DB) per strutturare gli articoli padre che devono essere assemblati o prodotti dalle risorse o dai centri di lavoro a partire dai componenti. Una DB di assemblaggio può essere utilizzata anche per vendere un articolo padre come kit comprendente i relativi componenti.
@@ -56,14 +56,14 @@ Esistono due passaggi per creare una DB di assemblaggio:
 ## <a name="to-edit-assembly-boms"></a>Per modificare le DB di assemblaggio
 È possibile modificare le righe di una distinta base di assemblaggio in qualsiasi momento. Tuttavia, tenere presente che la distinta base potrebbe essere in uso nelle vendite o negli assemblaggi dell'elemento padre, che potrebbero essere influenzati dalla modifica. Scegliere l'azione **Dove-usato** per vedere in quali articoli viene utilizzato e quindi se gli ordini di vendita o di assemblaggio possono essere interessati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Scegliere il valore **Sì** nella colonna **DB assemblaggio**.
 3. Nella pagina **DB assemblaggio**, scegliere l'azione **Modifica elenco**, quindi modificare i campi secondo necessità.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Per visualizzare i componenti e le risorse con indentazione in base alla struttura DB
 Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui vengono visualizzati i componenti e tutte le risorse indentate in base alla posizione nella distinta base dell'articolo di assemblaggio.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Aprire la scheda per l'articolo di assemblaggio. (Il campo **DB assemblaggio** nella pagina **Articoli** contiene il valore **Sì**.)
 3. Nella pagina **Scheda articolo** scegliere l'azione **Assembla** quindi l'azione **DB assemblaggio**.
 4. Nella pagina **DB assemblaggio** selezionare l'azione **Mostra DB**.
@@ -78,7 +78,7 @@ L'azione **Esplodi DB** è anche disponibile nella pagina **DB assemblaggio** co
 
 La seguente procedura è basata su fattura di vendita. La stessa procedura si applica ad altri documenti di vendita e a tutti i documenti di acquisto.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.
 2. Aprire una fattura di vendita che contiene una riga per un articolo di assemblaggio.
 3. Scegliere la riga per un articolo di assemblaggio quindi l'azione riga **Esplodi DB**.
 
@@ -117,7 +117,7 @@ I costi degli articoli che compongono la DB di assemblaggio vengono copiate dall
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)     
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

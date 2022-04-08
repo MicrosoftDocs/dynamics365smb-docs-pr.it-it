@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147010"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528477"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Risoluzione dei problemi relativi all'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -155,6 +155,10 @@ Quando incolli del testo nella casella del messaggio nella finestra **Condividi 
 ## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Impossibile accedere alla finestra Condividi in Teams 
 
 Questo problema può essere causato da varie ragioni. Ad esempio, l'identità che stai usando per accedere deve avere accesso a Microsoft Teams, come attraverso un abbonamento a Microsoft 365.
+
+## <a name="my-cards-no-longer-have-a-popout-button"></a>Le mie schede non hanno più un pulsante popout
+
+A partire da aprile 2022, i collegamenti visualizzati come scheda compatta in Teams non conterranno più il pulsante **Popout**. Per aprire quella scheda nella finestra, scegli il pulsante **Dettagli** quindi scegli **Apri nel browser** dal menu con i puntini di sospensione (**...**) nell'angolo in alto a destra della finestra.
 
 ## <a name="see-also"></a>Vedere anche
 

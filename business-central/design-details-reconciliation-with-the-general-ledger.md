@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f3781169dcf91eacaa8c0988a49d908f7f947f02
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e76e76fe97f3d4ca5dbe17c5d699cb64bbe5833
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145838"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513020"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Dettagli di progettazione: Riconciliazione con la contabilità generale
 Quando si registrano transazioni di magazzino, ad esempio spedizioni vendite, output di produzione o rettifiche negative, le modifiche alla quantità e al valore del magazzino vengono registrate rispettivamente nei movimenti contabili articoli e nei movimenti di valorizzazione. È quindi necessario registrare i valori di magazzino nei conti giacenza magazzino nella contabilità generale.  
@@ -122,7 +122,7 @@ Per ulteriori informazioni sulla relazione tra i tipi di conto e i diversi tipi 
 [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

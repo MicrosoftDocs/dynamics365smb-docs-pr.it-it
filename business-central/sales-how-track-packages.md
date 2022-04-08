@@ -7,12 +7,12 @@ ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334488"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518941"
 ---
 # <a name="track-packages"></a>Rintracciare i colli
 La maggior parte degli spedizionieri fornisce un servizio web che ti consente di monitorare lo stato dei tuoi pacchi mentre sono in viaggio. Tali informazioni possono essere utili in molti processi aziendali, ad esempio, quando si fornisce il servizio clienti. Se si utilizzano uno o più spedizionieri, è possibile immettere alcune informazioni di base e quindi utilizzare il servizio di tracciabilità dei pacchi direttamente dalle pagine Spedizioni vendite registrate, Fatture di vendita registrate, Note di credito di vendita registrate e Ricevuta di reso registrata. Per ulteriori informazioni, vedere [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md). 
@@ -24,7 +24,7 @@ La seguente procedura mostra come tenere traccia di un collo da una spedizione d
 > [!NOTE]
 > La procedura seguente utilizza la pagina Spedizione di vendite registrata come esempio. I passaggi per tenere traccia di un pacco sono gli stessi nelle pagine Fatture di vendita registrate, Note di credito di vendita registrate e Ricevuta di reso registrata.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizione vendita registrata**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Spedizione vendita registrata**, quindi scegli il collegamento correlato.
 2. Apri la spedizione che vuoi tracciare, quindi scegliere l'azione **Aggiorna documento**.
 3. Nel campo **Nr. identificazione collo** immetti il numero di collo che è stato comunicato dallo spedizioniere. 
 4. Assicurati che lo spedizioniere e il livello di servizio siano corretti, quindi chiudi la pagina.
@@ -36,7 +36,7 @@ La seguente procedura mostra come tenere traccia di un collo da una spedizione d
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

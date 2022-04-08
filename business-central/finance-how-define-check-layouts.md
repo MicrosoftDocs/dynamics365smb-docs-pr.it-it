@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149051"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518105"
 ---
 # <a name="select-a-check-layout"></a>Selezionare un layout degli assegni
 
@@ -25,7 +25,7 @@ Gli assegni sono stati progettati per la stampa dei formati di immagine sia degl
 
 ## <a name="to-select-a-check-layout"></a>Per selezionare un layout degli assegni
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezioni report C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezioni report C/C bancari**, quindi scegli il collegamento correlato.
 2. Nella pagina **Selez. report - C/C bancario**, nel campo **Utilizzo** selezionare **Assegno**.
 3. Selezionare uno dei seguenti ID report:
 
@@ -40,8 +40,7 @@ Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella pa
 
 Per modificare uno di questi layout degli assegni predefinito, utilizzare l'integrazione Word o RDLC. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>Utilizzo dei caratteri MICR e di sicurezza
-
+## <a name="use-micr-and-security-fonts"></a>Utilizzare i caratteri MICR e di sicurezza
 La versione online di [!INCLUDE[prod_short](includes/prod_short.md)] contiene caratteri preinstallati sui server che possono essere utilizzati durante la definizione di layout di controllo. Di seguito vengono indicati i tipi di carattere disponibili con i collegamenti alle informazioni dettagliate di fornitori di terze parti dei caratteri.
 
 > [!Important]
@@ -100,7 +99,7 @@ I caratteri per altri scopi sono disponibili anche in [!INCLUDE[prod_short](incl
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)   
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 

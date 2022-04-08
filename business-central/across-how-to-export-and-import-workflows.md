@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70a39d8d80ff5ca36953bea3923e4adbcbbca0d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ece05f68c15384ab11ae492bd6f138da14bafc1c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136532"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513202"
 ---
 # <a name="export-and-import-workflows"></a>Importa ed esporta workflow
 Per trasferire i workflow ad altri database di [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio per risparmiare tempo durante la creazione di nuovi workflow, è possibile esportare e importare i workflow.  
@@ -24,13 +24,13 @@ Per trasferire i workflow ad altri database di [!INCLUDE[prod_short](includes/pr
  Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
 ## <a name="to-export-a-workflow"></a>Per esportare un flusso di lavoro  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2.  Selezionare un workflow e scegliere l'azione **Esporta in file**.  
 3.  Nella pagina **Esporta file** fare clic sul pulsante **Salva**.  
 4.  Nella pagina **Esporta** selezionare un percorso per il file e scegliere il pulsante **Salva**.  
 
 ## <a name="to-import-a-workflow"></a>Per importare un flusso di lavoro  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2.  Selezionare l'azione **Importa da file**.  
 3.  Nella pagina **Importa** selezionare il file XML contenente il flusso di lavoro e quindi scegliere il pulsante **Apri**.  
 
@@ -44,7 +44,7 @@ Per trasferire i workflow ad altri database di [!INCLUDE[prod_short](includes/pr
  [Eliminare i workflow](across-how-to-delete-workflows.md)   
  [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Impostazione dei workflow](across-set-up-workflows.md)   
- [Utilizzo dei workflow](across-use-workflows.md)   
+ [Utilizzare i flussi di lavoro](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
 
 

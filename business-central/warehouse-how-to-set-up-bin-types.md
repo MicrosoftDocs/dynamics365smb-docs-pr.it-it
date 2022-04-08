@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: f45908cf5a1d4352039cf83ab1db2719caca8a53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8fb409e9ca0a8540fa2ea997faae790f78086d6e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334592"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520050"
 ---
 # <a name="set-up-bin-types"></a>Impostare i tipi di collocazioni
 È possibile controllare e gestire il flusso degli articoli attraverso le collocazioni definite per determinate attività di warehouse. È possibile associare attività di flusso di base alle collocazioni e definire di conseguenza la modalità con cui una collocazione verrà utilizzata, assegnando un tipo a ciascuna collocazione.  
@@ -22,7 +22,7 @@ ms.locfileid: "8334592"
 Esistono sei tipi. È possibile gestire la warehouse con tutti e sei i tipi di collocazione o scegliere di utilizzare solo i tipi di collocazione RECEIVE, PUTPICK, SHIP e QC. Questi quattro tipi di collocazione consentono di creare suggerimenti per supportare il flusso di articoli e di registrare le discrepanze di magazzino.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Per impostare i tipi di collocazione da utilizzare  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tipi collocazione**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Tipi collocazione**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Tipi collocazione** creare un codice di 10 caratteri per un tipo di collocazione.  
 3.  Selezionare le attività che è possibile svolgere con ogni tipo di collocazione.  
 
@@ -47,8 +47,8 @@ Di seguito sono riportati i tipi di collocazione che è possibile creare.
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

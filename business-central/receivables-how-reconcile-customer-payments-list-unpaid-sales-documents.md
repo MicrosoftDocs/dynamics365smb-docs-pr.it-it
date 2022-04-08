@@ -10,12 +10,12 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d611a245797fd20382f79deb35d8d598a8fe3565
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6fa22b84284d05d77bd04919403435d99050cded
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382953"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517793"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Riconciliare i pagamenti dei clienti dall'elenco dei documenti di vendita non pagati
 Quando i clienti hanno effettuato i pagamenti sul conto corrente elettronico, è necessario collegare ogni importo pagato al documento di vendita corrispondente e registrare il pagamento per aggiornare i movimenti cliente, bancari e di contabilità generale. In base alle esigenze aziendali, è possibile ottenere pagato e registrare il pagamento in diversi modi: manualmente, in modo automatico e tramite i servizi di pagamento.  
@@ -30,14 +30,14 @@ I pagamenti per clienti diversi, con date di pagamento diverse, devono essere re
 ## <a name="to-set-up-the-payment-registration-journal"></a>Per impostare le registrazioni pagamenti
 Poiché è possibile registrare tipi diversi di pagamento in conti di contropartita diversi, è necessario selezionare un conto di contropartita nella pagina **Setup registrazione pagamenti** prima di iniziare l'elaborazione dei pagamenti clienti. Se si esegue la registrazione sempre alla stessa contropartita, è possibile impostare tale conto come predefinito ed evitare ogni volta di aprire la pagina **Registra pagamenti clienti**.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazione pagamenti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup registrazione pagamenti**, quindi scegli il collegamento correlato.
 
     In alternativa, nella pagina **Registra pagamenti clienti** scegliere l'azione **Setup**.    
 2. Compilare i campi della pagina **Setup registrazione pagamenti**. Selezionare il campo per visualizzare una breve descrizione del campo o il collegamento alle informazioni correlate.  
 
 ## <a name="to-register-customer-payments-individually"></a>Per registrare i pagamenti del cliente singolarmente
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registra pagamenti clienti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registra pagamenti clienti**, quindi scegli il collegamento correlato.  
 
     Nella pagina **Registra pagamenti clienti** vengono visualizzati tutti i documenti registrati per cui un pagamento può essere registrato. La pagina può anche essere aperta dalle pagine **Clienti** e **Scheda cliente** dove viene automaticamente filtrata per il cliente specificato.  
 2. Selezionare la casella di controllo **Pagamento effettuato** nella riga che rappresenta il documento registrato per cui è stato eseguito un pagamento.
@@ -55,7 +55,7 @@ Le informazioni sui pagamenti vengono registrate per i documenti rappresentati d
 I movimenti dei pagamenti vengono registrati nei conti di contabilità generale, nei conti bancari e nei conti clienti. Ogni pagamento viene collegato al documento di vendita registrato correlato.  
 
 ## <a name="to-reconcile-lump-sum-payments"></a>Per riconciliare i pagamenti forfettari
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione pagamenti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazione pagamenti**, quindi scegli il collegamento correlato.
 2. Selezionare la casella di controllo **Pagamento effettuato** nelle righe che rappresentano i documenti registrati per lo stesso cliente o fornitore per cui è stato eseguito un pagamento forfettario.  
 
     > [!NOTE]  
@@ -186,7 +186,7 @@ Se la riga di registrazione non viene registrata, verrà aggiunta al valore del 
 ## <a name="see-also"></a>Vedere anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

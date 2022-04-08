@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e142f8aef14ea82d67de0c51a996e4f6a6b43dbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143936"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513176"
 ---
-# <a name="set-up-company-configuration"></a>Impostare la configurazione della società
+# <a name="set-up-company-configuration-with-rapidstart-services"></a>Impostare la configurazione della società con RapidStart Services
+
 Il processo di implementazione inizia con il partner Microsoft. Il partner è responsabile della valutazione dei dettagli relativi alla configurazione e della creazione di un pacchetto che il cliente è in grado di applicare in modo semplice. Prima di creare una nuova società in [!INCLUDE [prod_short](includes/prod_short.md)] online o localmente, è necessario pianificare la modalità di configurazione. È necessario valutare i dati di setup di base e i tipi di dati che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] richiede. Riunificate tutte queste informazioni in pacchetti di configurazione.
 
 RapidStart Services fornisce inoltre gli strumenti per eseguire la migrazione dei dati legacy, ad esempio clienti e fornitori.  

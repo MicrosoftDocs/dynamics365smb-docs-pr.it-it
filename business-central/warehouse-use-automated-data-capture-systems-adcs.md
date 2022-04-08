@@ -10,12 +10,12 @@ ms.search.keywords: barcode
 ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 88f0fdefa640cb96316e0958279513211f6abf4d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cf0ac9f90efe234b73d4509e50502ca37dcf458e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144257"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514701"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)
 
@@ -37,7 +37,7 @@ Per utilizzare il sistema di acquisizione automatica dei dati, è necessario abi
 
 ## <a name="to-enable-and-publish-the-adcs-web-service"></a>Per abilitare e pubblicare il servizio Web ADCS  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Servizi Web**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Servizi Web**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.  
 3. Nella pagina **Servizi Web**, inserire le seguenti informazioni su una nuova riga:  
 
@@ -56,14 +56,14 @@ Per utilizzare ADCS, è necessario specificare quali ubicazione della warehouse 
 > [!NOTE]  
 >  È consigliabile non impostare l'utilizzo di ADCS per una warehouse se per la stessa sono impostati anche criteri capacità collocazione.
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, e quindi scegli il collegamento correlato.
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, e quindi scegli il collegamento correlato.
 2.  Selezionare una warehouse dall'elenco per cui si desidera abilitare i sistemi ADCS, quindi scegliere l'azione **Modifica**.
 3. Nella pagina **Scheda ubicazione**, selezionare la casella di controllo **Usa ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Per specificare un articolo per utilizzare il sistema ADCS  
 A ogni articolo di warehouse che si desidera utilizzare con ADCS deve essere assegnato un codice identificativo per collegarlo al numero dell'articolo. Ad esempio, è possibile utilizzare il codice a barre dell'articolo come codice identificativo. Un articolo può anche avere più codici identificativo. Può essere utile qualora un articolo sia disponibile in diverse unità di misura, ad esempio pezzi e pallet. In questo caso, assegnare un codice identificativo a ognuno.    
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Selezionare un articolo dall'elenco che fa parte della soluzione ADCS in uso, quindi scegliere l'azione **Modifica**.
 3. Nella pagina **Scheda articolo** scegliere l'azione **Identificativi**.
 4. Nella pagina **Identificativi articolo** scegliere l'azione **Nuovo**.
@@ -120,8 +120,8 @@ Dopo avere creato un miniform, i passaggi successivi consistono nel creare funzi
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

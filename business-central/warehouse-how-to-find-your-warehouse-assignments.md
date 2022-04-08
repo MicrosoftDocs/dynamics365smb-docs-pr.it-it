@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5b27848474f26f92b54169e1d60e8e786a6ab95f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382155"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513291"
 ---
 # <a name="find-your-warehouse-assignments"></a>Individuare le assegnazioni della warehouse
 
@@ -22,7 +22,7 @@ Per individuare le assegnazioni di warehouse, aprire la pagina della scheda per 
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Per individuare un'istruzione assegnata a se stessi
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi warehouse**, **Prelievi warehouse**, o **Movimentazione warehouse**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Stoccaggi warehouse**, **Prelievi warehouse**, o **Movimentazione warehouse**, quindi seleziona il collegamento correlato.
 
     Tutte e tre le pagina mostrano le assegnazioni per tutte le ubicazioni di warehouse.  
 
@@ -38,7 +38,7 @@ Se il responsabile di warehouse non assegna istruzioni specifiche ai singoli add
 [Impostazione di Warehouse Management](warehouse-setup-warehouse.md) 
 [Gestione assemblaggio](assembly-assemble-items.md)
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

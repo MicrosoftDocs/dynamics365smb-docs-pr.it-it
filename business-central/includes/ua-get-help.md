@@ -1,13 +1,13 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 09/27/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 59b9cd9f5db84d499f1bc1355d25634fec6ad712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d3f8091f1c90ef1260ccfb8bb9851ad4a24d3345
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132288"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513551"
 ---
-[!INCLUDE[prod_short](prod_short.md)] include suggerimenti per campi e azioni e suggerimenti didattici per alcune delle pagine più importanti che possono aiutarti a guidarti attraverso i vari processi aziendali. Su ciascun suggerimento o suggerimento didattico, scegliere il collegamento **Ulteriori informazioni** per aprire la Guida per la pagina in questione. In tutte le pagine, usa *CTRL + F1* sulla tastiera per aprire la Guida per la pagina in questione. Su qualsiasi dispositivo, usa il punto interrogativo nell'angolo in alto a destra per arrivare alla pagina di **aiuto e supporto** e alla guida del prodotto.  
+[!INCLUDE[prod_short](prod_short.md)] include descrizioni comandi per campi e azioni che ti aiutano a svolgere i vari processi aziendali. Alcune delle pagine più importanti hanno anche suggerimenti e tour didattici per aiutarti. Su ciascun suggerimento o suggerimento didattico, scegli il collegamento **Ulteriori informazioni** per aprire il riquadro della Guida con le informazioni per la pagina in questione. In tutte le pagine, usa *CTRL + F1* sulla tastiera per aprire il riquadro della Guida. Su qualsiasi dispositivo, usa il punto interrogativo nell'angolo in alto a destra per aprire la Guida.  

@@ -9,17 +9,17 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: addc48ca52ea27ee7c63b8f8c1b44af8a2f1eb63
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b4fb329c076cab03b6ea5ccc78813ad57ae29db3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383107"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517032"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrazione con Dynamics 365 Sales
 
 
-Il ruolo di agente è spesso considerato come rivolto verso l'esterno in un'azienda. Tuttavia, può essere utile per gli agenti essere in grado di guardare dentro l'azienda e di osservare ciò che avviene nel back end. L'integrazione di [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] fornire agli agenti tale possibilità consentendo agli stessi di visualizzare informazioni in [!INCLUDE[prod_short](includes/prod_short.md)] mentre lavorano in [!INCLUDE[crm_md](includes/crm_md.md)]. Ad esempio, durante la preparazione di un'offerta di vendita può essere utile sapere se si dispone di giacenza sufficiente per soddisfare l'ordine. Per ulteriori informazioni, vedere [Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md).
+Il ruolo di agente è spesso considerato come rivolto verso l'esterno in un'azienda. Tuttavia, può essere utile per gli agenti essere in grado di guardare dentro l'azienda e di osservare ciò che avviene nel back end. L'integrazione di [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] fornire agli agenti tale possibilità consentendo agli stessi di visualizzare informazioni in [!INCLUDE[prod_short](includes/prod_short.md)] mentre lavorano in [!INCLUDE[crm_md](includes/crm_md.md)]. Ad esempio, durante la preparazione di un'offerta di vendita può essere utile sapere se si dispone di giacenza sufficiente per soddisfare l'ordine. Per ulteriori informazioni, vedi [Utilizzare Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > Questo argomento descrive il processo di integrazione delle versioni online di [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)] tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per informazioni sulla configurazione locale, vedere [Preparazione di Dynamics 365 Sales per l'integrazione locale](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -80,6 +80,7 @@ Oltre alle impostazioni sopra, immetti le seguenti impostazioni per [!INCLUDE[cr
 | **Integrazione ordini di vendita abilitata** | Consentire agli utenti di inviare ordini di vendita e offerte attivate in [!INCLUDE[crm_md](includes/crm_md.md)] e quindi visualizzarli ed elaborarli in [!INCLUDE[prod_short](includes/prod_short.md)]. Questa operazione integra il processo in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Crea automaticamente ordini vendita** | Creare un ordine di vendita in [!INCLUDE[prod_short](includes/prod_short.md)] quando un utente ne crea e ne invia uno in [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Elabora automaticamente offerte di vendita** | Elaborare un'offerta di vendita in [!INCLUDE[prod_short](includes/prod_short.md)] quando un utente ne crea e ne attiva una in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Gestione di dati di offerte di vendita](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Sincronizzazione bidirezionale degli ordini di vendita**|Sincronizza gli ordini di vendita in entrambe le direzioni. Ad esempio, se un cliente cambia idea sul prodotto o sulla quantità in cui ha ordinato in [!INCLUDE[crm_md](includes/crm_md.md)], puoi elaborare la modifica in [!INCLUDE[prod_short](includes/prod_short.md)] archiviando il documento di vendita e creandone uno nuovo. Lo stesso vale per le modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, quando cambiano i prezzi, gli importi delle imposte o le date di spedizione previste, le modifiche vengono sincronizzate automaticamente in [!INCLUDE[crm_md](includes/crm_md.md)]. Questo aiuta a mantenere i venditori aggiornati con le ultime modifiche e lo stato di offerte e ordini.|
 
 <!--
 ### User Account Settings
@@ -104,7 +105,7 @@ Nella seguente tabella elenca il mapping standard tra le tabelle in [!INCLUDE[pr
 | Opportunità | Opportunità | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 | Testate Fatt. Vendita | Fattura | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Righe Fatt. Vendita | Prodotto di fatturazione | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Testate ordine cliente | Ordini Vendita | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtro Testate vendita di [!INCLUDE[prod_short](includes/prod_short.md)]: il campo **Tipo di documento** è Ordine; il campo **Stato** è Rilasciato |
+| Testate ordine cliente | Ordini Vendita | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] <br><br> Per sincronizzare in entrambe le direzioni è necessario attivare l'interruttore **Sincronizzazione bidirezionale degli ordini di vendita** nella pagina **Setup connessione Dynamics 365**.| Filtro Testate vendita di [!INCLUDE[prod_short](includes/prod_short.md)]: il campo **Tipo di documento** è Ordine; il campo **Stato** è Rilasciato |
 | Note dell'ordine di vendita | Note dell'ordine di vendita | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]

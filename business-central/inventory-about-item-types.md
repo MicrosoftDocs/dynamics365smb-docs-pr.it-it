@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131693"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518079"
 ---
 # <a name="about-item-types"></a>Informazioni sui tipi di articolo
 Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda che influisce sul grado di gestione dell'articolo in magazzino. La tabella seguente elenca e descrive i tre tipi di articoli disponibili.
@@ -55,7 +55,7 @@ Gli articoli dei clienti per cui si esegue il servizio di assistenza, come una s
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

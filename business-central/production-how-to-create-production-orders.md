@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6aa9e0ac69f9d780a05db004dafcf4e400a7c458
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 814770db81744306120445a509325cff8502041d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148999"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516850"
 ---
 # <a name="create-production-order-headers"></a>Creare le testate degli ordini di produzione
 
@@ -26,7 +26,7 @@ Nella seguente procedura viene creato un ordine produzione confermato. È anche 
 
 ## <a name="to-create-a-production-order-header"></a>Per creare una testata degli ordini di produzione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Nel campo **Nr.** inserire il numero di serie successivo.  
 4. Selezionare nel campo **Tipo Origine** l'origine dell'ordine di produzione.
@@ -44,7 +44,7 @@ Quando i requisiti di produzione cambiano, ad esempio componenti o operazioni, �
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

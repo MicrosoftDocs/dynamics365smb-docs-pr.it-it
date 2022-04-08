@@ -10,12 +10,12 @@ ms.search.keywords: product, image
 ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c70bddd0e901a529035f7cd9056243d24c5710ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 44a3689c59a25b6c0aca25f69896e86beb71ea6c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131563"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522068"
 ---
 # <a name="import-multiple-item-pictures"></a>Importare molteplici immagini articolo
 È possibile importare più immagini articolo contemporaneamente. Assegnare ai file immagine dei nomi che corrispondono ai numeri degli articoli, comprimere i file in un file zip, quindi utilizzare la pagina Importa immagini articolo per gestire le immagini articolo da importare.
@@ -34,7 +34,7 @@ Tutti i formati di file comuni sono supportati.
 2. Comprimere tutti i file in un file ZIP. Ad esempio, in Windows Explorer, selezionare i file, quindi scegliere **Invia a**, **Cartella compressa**.     
 
 ## <a name="to-import-item-pictures"></a>Per importare immagini articolo
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup magazzino**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Importa immagini articolo**.
 3. Nel campo **Selezionare un file zip**, selezionare la cartella ZIP pertinente quindi scegliere il pulsante **Apri**.
 
@@ -53,7 +53,7 @@ Il campo **Stato importazione** viene aggiornato per indicare se l'importazione 
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Utilizzo di report, processi batch e XMLport
+title: Eseguire e stampare i report
 description: Informazioni su come inserire un report in una coda di processi e programmare per l'elaborazione per una data e un'ora specifiche.
 author: jswymer
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/09/2022
+ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: 9a5866db05b4ef78e751996f59ea56d9f4b75d27
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: fade19b2ecb4d2c17b5d5775074f2f715496a908
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322957"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512682"
 ---
-# <a name="working-with-reports-batch-jobs-and-xmlports"></a>Utilizzo di report, processi batch e XMLport
+# <a name="run-and-print-reports"></a>Eseguire e stampare i report
 
 Un report raccoglie informazioni in base a una serie di criteri specificati. Organizza e presenta le informazioni in un formato di facile lettura che puoi stampare o salvare come file. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la pagina **Cliente** include i report per i principali 10 clienti, statistiche di vendita e altro ancora.
 
@@ -26,9 +26,9 @@ I processi batch e XMLport eseguono più o meno gli stessi report ma sono usati 
 > [!NOTE]
 > Questo argomento fa essenzialmente riferimento a “report" ma informazioni simili si applicano ai processi batch e a XMLport.
 
-## <a name="getting-started"></a>Introduzione
+## <a name="get-started"></a>Inizia
 
-I report sono disponibili nella scheda **Report** delle pagine selezionate oppure è possibile utilizzare una ricerca tramite l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") per individuare i report per nome.
+I report sono disponibili nella scheda **Report** delle pagine selezionate oppure è possibile utilizzare una ricerca tramite l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Dimmi cosa vuoi fare") per individuare i report per nome.
 
 Quando si apre un report, processo batch o XMLport, viene di norma visualizzata una pagina di richiesta dove è possibile impostare varie opzioni e filtri che determinano cosa includere nel report. Le sezioni seguenti spiegano come utilizzare la pagina di richiesta per creare, visualizzare in anteprima e stampare un report.
 
@@ -43,7 +43,7 @@ Il campo **Utilizza valori predefiniti di** fornisce un modo rapido e affidabile
 >[!NOTE]
 > Le impostazioni predefinite vengono generalmente configurate e gestite da un amministratore. Per ulteriori informazioni, vedere [Gestire impostazioni salvate per report e processi batch](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-reports"></a>Specificare la data da includere nei report
+## <a name="specifying-the-data-to-include-in-a-report"></a>Specificare la data da includere in un report
 
 Usare i campi in **Opzioni** e **Filtri** per limitare le informazioni che si desiderano nel report. È possibile impostare i filtri in un report più o meno nello stesso modo in cui si impostano i filtri negli elenchi. Per ulteriori informazioni, vedere [Filtri](ui-enter-criteria-filters.md#filtering).
 
@@ -63,7 +63,7 @@ Per visualizzare in anteprima un report, scegliere il pulsante **Anteprima** o *
 > [!NOTE]
 > Se si utilizza il primo ciclo di rilascio di Business Central 2020 o una versione precedente, è disponibile solo un pulsante **Anteprima** che chiude la pagina di richiesta in anteprima, come descritto per **Anteprima e chiudi**.
 
-### <a name="working-with-the-preview"></a>Utilizzo dell'anteprima
+### <a name="work-with-the-preview"></a>Utilizzare l'anteprima
 
 Nell'anteprima, utilizzare la barra dei menu nell'anteprima del report per:
 
@@ -82,11 +82,13 @@ Nell'anteprima, utilizzare la barra dei menu nell'anteprima del report per:
 
 ## <a name="saving-a-report-to-a-file"></a>Salvataggio di un report in un file
 
-Puoi salvare un report in un documento PDF, documento di Microsoft Word o foglio di lavoro di Microsoft Excel scegliendo il pulsante **Invia a** ed effettuando la scelta desiderata.
+Puoi salvare un report in un documento PDF, documento di Microsoft Word, foglio di lavoro di Microsoft Excel o documento XML scegliendo il pulsante **Invia a** ed effettuando la scelta desiderata.
 
-### <a name="about-sending-to-excel"></a>Informazioni sull'invio a Excel
-
-Puoi lavorare con i dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Excel per ulteriori analisi. Per ulteriori informazioni vedi [Analisi dei dati del report con Excel](report-analyze-excel.md).  
+> [!TIP]
+> Le opzioni **Documento Microsoft Excel (solo dati)** e **Documento XML** sono principalmente per scopi avanzati. In genere utilizzi queste opzioni per eseguire analisi dettagliate dei dati. Per ulteriori informazioni vedi [Analisi dei dati del report con Excel e XML](report-analyze-excel.md).
+>
+> Puoi anche usare l'opzione **Documento Microsoft Excel (solo dati)** per creare nuovi layout di Excel per un determinato report. Per ulteriori informazioni, vedi [Utilizzare i layout di Excel](ui-excel-report-layouts.md).  
+  
 <!--
 ### About sending to Word
 
@@ -97,17 +99,19 @@ Use the **Microsoft Word Document** option to generate a report as a Word docume
 
 -->
 
-## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Pianificazione dell'esecuzione di un report
+## <a name="scheduling-a-report-to-run-later"></a><a name="ScheduleReport"></a> Pianificazione dell'esecuzione posticipata di un report
 
 È possibile pianificare l'esecuzione di un processo batch o di un report a una data e un'ora specifiche. I report e i processi batch pianificati vengono inseriti nella coda commesse e vengono elaborati all'orario pianificato, in maniera analoga alle altre commesse. Scegliere l'opzione **Programmazione** dopo aver scelto il pulsante **Invia a**, quindi immettere informazioni quali stampante, ora e data. Il report viene aggiunto alla coda processi e sarà eseguito alla data specificata. Quando il report viene elaborato, l'elemento verrà rimosso dalla coda commesse. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).  
 
-Quando si pianifica l'esecuzione di un report, è possibile specificare che deve essere eseguito ogni giovedì impostando il campo **Prossima esecuzione formula della data** su *D4*, per esempio. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](ui-enter-date-ranges.md#using-date-formulas).  
+Quando si pianifica l'esecuzione di un report, è possibile specificare che deve essere eseguito ogni giovedì impostando il campo **Prossima esecuzione formula della data** su *D4*, per esempio. Per ulteriori informazioni, vedi [Utilizzare le formule per le date](ui-enter-date-ranges.md#use-date-formulas).  
 
 È possibile salvare il report in un file, come un file Excel, Word, PDF, o stamparlo, o solo generare il report. Se si sceglie di salvare il report in un file, il report elaborato viene inviato nell'area **Report elaborati** della Gestione ruolo utente, dove è possibile visualizzarlo.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Stampa di un report
 
 Per stampare un report scegliere il pulsante **Stampa** nella pagina di richiesta o nella barra dei menu della pagina **Anteprima**.
+
+Quando un report utilizza un layout di Excel, non vedrai il campo **Stampante**, il pulsante **Stampa** o il pulsante **Anteprima**. C'è invece un pulsante **Scarica**. Per stampare, seleziona **Scarica**, quindi apri il file scaricato in Excel e stampa da lì.
 
 ### <a name="printer"></a><a name="Printer"></a>Stampante
 
@@ -125,9 +129,9 @@ Nella versione tailandese di [!INCLUDE[prod_short](includes/prod_short.md)], non
 
 Oppure è possibile richiedere all'amministratore di creare un layout report Word per i report più utilizzati. Per ulteriori informazioni, vedere [Gestione dei layout di report e documento](ui-manage-report-layouts.md).  
 
-## <a name="changing-report-layouts"></a>Modifica dei layout di report
+## <a name="switching-the-report-layout"></a>Cambiare il layout di report
 
-Un layout di report determina le informazioni che verranno visualizzate nel report, nonché la disposizione e l'aspetto delle stesse. Se si desidera passare a un layout diverso, vedere [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md) Per personalizzare un layout di report, vedere [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md).
+Un layout di report determina le informazioni che verranno visualizzate nel report, nonché la disposizione e l'aspetto delle stesse. Se si desidera passare a un layout diverso, vedi [Impostare il layout usato da un report](ui-set-report-layout.md) Oppure per personalizzare un layout di report, vedi [Iniziare a creare layout](ui-get-started-layouts.md).
 
 ## <a name="advanced-options"></a>Opzioni avanzate
 
@@ -145,9 +149,9 @@ I campi in **Avanzate** impostano le limitazioni sul report generato per control
 ## <a name="see-also"></a>Vedere anche
 
 [Configurare le stampanti](ui-specify-printer-selection-reports.md)  
-[Utilizzo di date e orari del calendario](ui-enter-date-ranges.md)  
-[Gestione dei layout di report e documento](ui-manage-report-layouts.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare date e orari del calendario](ui-enter-date-ranges.md)  
+[Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

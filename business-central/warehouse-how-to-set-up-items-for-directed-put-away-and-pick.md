@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4e83df2350ef8419a6de4e0fde9bf140660b943e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a33e68984a20a815b0ac774695937d5aae36a093
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145214"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519468"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati
 L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile. Per sfruttare al meglio tale funzionalità occorre fornire informazioni aggiuntive sugli articoli, le quali verranno utilizzate per effettuare i calcoli necessari e suggerire le modalità più efficaci ed efficienti per eseguire le attività di warehouse. Per ulteriori informazioni, vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Per impostare un articolo per gli stoccaggi e i prelievi guidati  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda per l'articolo da impostare per stoccaggio e prelievo guidati.
 3. Nella Scheda dettaglio **Warehouse** della scheda articolo, compilare i campi appropriati per definire le modalità di gestione dell'articolo nella warehouse.  
 4.  Scegliere l'azione **Unità di misura**.
@@ -32,7 +32,7 @@ L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati
 Gli stoccaggi e i prelievi guidati fanno parte delle funzioni di configurazione di warehouse avanzate che consentono di migliorare notevolmente l'efficienza e aumentare l'affidabilità dei dati. Per utilizzare queste funzionalità occorre innanzitutto impostare alcuni parametri nell'ubicazione della warehouse.  
 
 Per utilizzare la funzionalità di stoccaggi e prelievi guidati, è necessario attivarla nella scheda ubicazione.    
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2.  Selezionare l'ubicazione in cui si desidera utilizzare stoccaggi e prelievi guidati, quindi scegliere l'azione **Modifica**.  
 3.  Selezionare la casella di controllo **Stoccaggi e prelievi guidati** nella Scheda dettaglio **Warehouse**.  
 
@@ -48,7 +48,7 @@ Il passo successivo consiste nel definire il tipo di collocazioni che si desider
 A questo punto, se si desidera utilizzare le zone nella warehouse, è possibile procedere all'impostazione. L'utilizzo delle zone riduce il numero dei campi che è necessario compilare durante l'impostazione delle collocazioni, in quanto le collocazioni create all'interno delle zone ne ereditano varie proprietà. Le zone consentono inoltre agli impiegati nuovi o temporanei di orientarsi più facilmente all'interno della warehouse. Si noti che il flusso è controllato dalle collocazioni, pertanto è possibile utilizzare più collocazioni e una sola zona.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Per impostare una zona nella warehouse  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2.  Selezionare l'ubicazione in cui si desidera impostare la zona e aprire la scheda ubicazione, quindi scegliere l'azione **Zone**.  
 3.  Compilare i campi nella pagina **Zone** come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -66,8 +66,8 @@ Inoltre, è necessario creare modelli di stoccaggio e periodi di conteggio. Per 
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

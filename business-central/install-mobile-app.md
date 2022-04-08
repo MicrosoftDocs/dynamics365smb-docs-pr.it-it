@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138468"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515591"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Scaricare Business Central sul dispositivo mobile
 
@@ -40,7 +40,7 @@ A questo punto si dovrebbe avere accesso a [!INCLUDE[prod_short](includes/prod_s
 > [!TIP]
 > Se si desidera connettere l'app a un ambiente sandbox, scegliere il pulsante **Opzioni avanzate**, quindi scegliere l'opzione di accesso **Sandbox cloud**. Quindi, se sono presenti più ambienti sandbox, scegliere l'ambiente pertinente.
 
-## <a name="using-business-central-on-premises"></a>Utilizzo di Business Central in locale
+## <a name="use-business-central-on-premises"></a>Usare Business Central in locale?
 
 Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è anche possibile usufruire dei vantaggi dell'app per dispositivi mobili. L'installazione è simile, ma con un paio di eccezioni.
 
@@ -63,8 +63,8 @@ Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è anch
 ## <a name="see-also"></a>Vedere anche
 
 [Domande frequenti sull'app per dispositivi mobili](ui-mobile-faq.yml)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Prepararsi a fare affari](ui-get-ready-business.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

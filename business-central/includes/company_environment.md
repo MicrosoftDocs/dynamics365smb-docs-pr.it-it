@@ -1,17 +1,20 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 045f3cc062c3ffec74177f7c7bc41c3bb96c9b8c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 646bc51e0b7b6aa6dbce22dcbcdcd9d8688f433d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129710"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514337"
 ---
-Le persone a volte supportano più di un'azienda e devono passare facilmente da un'azienda a un'altra in [!INCLUDE [prod_short](prod_short.md)]. Ad esempio, un'azienda potrebbe avere uffici di vendita in diverse città e in più paesi, quindi ha creato una business unit separata per ciascun ufficio. Gli uffici che si trovano nello stesso paese sono istituiti come società separate in un ambiente condiviso. Altri uffici vengono creati come aziende in ambienti separati perché sono geograficamente in altri paesi.<br><br>  
+Gli utenti [!INCLUDE[prod_short](prod_short.md)] a volte supportano più di un reparto o una sottoorganizzazione all'interno di una business unit. Ad esempio, un'azienda potrebbe avere uffici di vendita in diverse città e in più paesi, quindi ha creato una business unit separata per ciascun ufficio. Gli uffici che si trovano nello stesso paese sono istituiti come *società* separate in un *ambiente* condiviso. Altri uffici vengono creati come aziende in ambienti separati perché sono geograficamente in altri paesi.  
 
-Che cos'è un ambiente? Le aziende in [!INCLUDE[prod_short](prod_short.md)] esistono in ciò che viene indicato come *ambiente*. Esistono due tipi di ambienti, **produzione** e **sandbox**. In breve, gli ambienti di produzione contengono dati aziendali in tempo reale e gli ambienti sandbox vengono utilizzati come luogo sicuro per testare operazioni come nuovi processi o funzionalità aziendali. Per ulteriori informazioni, vedere [Tipi di ambienti](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments). Se è disponibile l'accesso a un'azienda, è disponibile l'accesso all'ambiente in cui si trova. Se si ha accesso a più di una società e tali società si trovano in ambienti diversi, quando si accede a [!INCLUDE[prod_short](prod_short.md)] è necessario specificare l'ambiente in cui si desidera lavorare. Gli ambienti sono specifici di un determinato paese, quindi se l'organizzazione lavora in più paesi, sono necessari ambienti separati per ciascun paese.<br><br>  
+* Cos'è un'azienda?  
 
-Cos'è un'azienda? Una *società* è come contenitore che contiene informazioni su una persona giuridica. Usando l'esempio sopra, l'azienda ha un ufficio vendite a Seattle e un altro a New York, quindi crea una società in [!INCLUDE[prod_short](prod_short.md)] per ogni ufficio in modo che possa gestire le operazioni separatamente per ogni ufficio.  
+  Una *società* è come contenitore che contiene informazioni su una persona giuridica. Usando l'esempio sopra, l'azienda ha un ufficio vendite a Seattle e un altro a New York, quindi crea una società in [!INCLUDE[prod_short](prod_short.md)] per ogni ufficio in modo che possa gestire le operazioni separatamente per ogni ufficio.  
+* Che cos'è un ambiente?  
+
+  Le aziende in [!INCLUDE[prod_short](prod_short.md)] online esistono in ciò che viene indicato come *ambiente*. Esistono due tipi di ambienti, **produzione** e **sandbox**. In breve, gli ambienti di produzione contengono dati aziendali in tempo reale e gli ambienti sandbox vengono utilizzati come luogo sicuro per testare operazioni come nuovi processi o funzionalità aziendali. Per ulteriori informazioni, vedi [Tipi di ambiente](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments) (solo in inglese). Se è disponibile l'accesso a un'azienda, è disponibile l'accesso all'ambiente in cui si trova. Se si ha accesso a più di una società e tali società si trovano in ambienti diversi, quando si accede a [!INCLUDE[prod_short](prod_short.md)] è necessario specificare l'ambiente in cui si desidera lavorare. Gli ambienti sono specifici di un determinato paese, quindi se l'organizzazione lavora in più paesi, sono necessari ambienti separati per ciascun paese. Per ulteriori informazioni, vedi [Ambienti e società](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology#environments-and-companies) (solo in inglese).  

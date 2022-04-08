@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ce44487a4c40e3997e95f883ac3cdf3a396e0d4b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382927"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514805"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Impostare le regole per il collegamento automatico dei pagamenti
 
@@ -36,7 +36,7 @@ Oltre ai criteri di corrispondenza, il segno dell'importo del pagamento dipende 
 - Per gli importi positivi, viene creata una corrispondenza innanzitutto con i movimenti aperti che rappresentano le fatture fornitore e poi con le note di credito cliente.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Per impostare una regola di collegamento del pagamento
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Regole di collegamento pagamenti**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Regole di collegamento pagamenti**, quindi seleziona il collegamento correlato.
 2. Definire una regola dell'applicazione di pagamento nuova o modificata compilando i campi di una riga come descritto nella tabella.
 
 |Campo|Descrizione|
@@ -86,7 +86,7 @@ La tabella seguente descrive le regole di collegamento dei pagamenti standard in
 [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

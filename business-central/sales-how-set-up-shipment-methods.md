@@ -10,12 +10,12 @@ ms.search.keywords: incoterms
 ms.search.form: 11, 130
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f83c8e3e001fe1b92e975d165d40a353ece032a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4f55e4ac7aaad445a2db606fcbc46856f4800f18
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134927"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517767"
 ---
 # <a name="set-up-shipment-methods"></a>Impostare i metodi di spedizione
 
@@ -25,7 +25,7 @@ Impostare nella pagina **Metodi di spedizione** la descrizione e il codice di ci
 
 ## <a name="to-set-up-a-shipment-method"></a>Per impostare un metodo di spedizione
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di spedizione**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Metodi di spedizione**, quindi scegli il collegamento correlato.
 2. Nella pagina **Metodi di spedizione** scegliere l'azione **Nuovo**.
 3. Nella nuova riga specificare un codice e una descrizione per il metodo di spedizione.
 
@@ -40,8 +40,8 @@ Impostare nella pagina **Metodi di spedizione** la descrizione e il codice di ci
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoterm su iccwbo.org](https://iccwbo.org/resources-for-business/incoterms-rules)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

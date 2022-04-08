@@ -10,12 +10,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0667c06af3fdd90da5b1b68dba2ae0e5ab21d1ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4fd937237c97934b44e9d7beecc8ec1beae596f3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133616"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521756"
 ---
 # <a name="invoice-sales"></a>Fatturare le vendite
 
@@ -41,7 +41,7 @@ Le schede articolo possono essere di tipo **Inventario**, **Assistenza** e **Non
 
 ### <a name="to-create-a-sales-invoice"></a>Per creare una fattura di vendita
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Nel campo **Cliente** immettere il nome di un cliente esistente.
 
    Altri campi nella pagina **Fattura di vendita** contengono informazioni standard sul cliente selezionato. Se il cliente non è registrato, è necessario attenersi alla seguente procedura:
@@ -137,7 +137,7 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Eseguire la fatturazione in blocco da Microsoft Bookings in Business Central](finance-bookings.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

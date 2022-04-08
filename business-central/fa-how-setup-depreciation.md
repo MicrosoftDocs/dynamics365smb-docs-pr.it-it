@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 228ca9aa8b1f476e5063bd0f8d6728f18cfafaf3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e70b14b5344acd9b59034b5847455417b8225182
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136272"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518209"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Impostare l'ammortamento dei cespiti
 
@@ -25,7 +25,7 @@ Una volta creati i registri beni ammortizzabili necessari, assegnare almeno un r
 
 In un registro beni ammortizzabili cespiti, viene specificato come i cespiti vengono ammortizzati. Per facilitare i diversi metodi di ammortamento è possibile impostare diversi registri beni ammortizzabili.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registri beni ammortizzabili**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registri beni ammortizzabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Lista registri beni ammortizzabili** scegliere l'azione **Nuovo**.
 3. Nella pagina **Scheda registro beni ammortizz.** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -40,7 +40,7 @@ In un registro beni ammortizzabili cespiti, viene specificato come i cespiti ven
 Se ad esempio viene eseguita la cessione di cespiti laddove il registro beni ammortizzabili non specifica l'arrotondamento, ma il setup contabilità generale della propria società richiede l'arrotondamento, al momento della cessione dei cespiti verrà visualizzato un messaggio di errore che indica che un importo deve essere arrotondato su un movimento contabile.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Per assegnare un registro dei beni ammortizzabili a un cespite
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cespiti**, quindi scegli il collegamento correlato.
 2. Selezionare il cespite per il quale si desidera impostare un registro beni ammortizzabili.
 3. Nella Scheda dettaglio **Registro beni ammortizzabili** compilare i campi secondo le necessità.
 4. Se è necessario assegnare più di un registro beni ammortizzabili al cespite, scegliere l'azione **Aggiungi più registri beni ammortizzabili**.
@@ -55,7 +55,7 @@ Se ad esempio viene eseguita la cessione di cespiti laddove il registro beni amm
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Per assegnare un registro beni ammortizzabili a più cespiti tramite un processo batch
 Se si desidera assegnare un registro beni ammortizzabili a diversi cespiti è possibile utilizzare il processo batch **Crea registro beni amm. cespiti** per creare registri beni ammortizzabili relativi ai cespiti.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cespiti**, quindi scegli il collegamento correlato.
 2. Selezionare il cespite per cui si desidera impostare l'assegnazione di un registro beni ammortizzabili, quindi scegliere l'azione **Modifica**.
 3. Nella pagina **Scheda registro beni ammortizz.**, scegliere l'azione **Crea registro beni amm. cespiti**.
 4. Nella pagina **Crea registro beni amm. cespiti**, compilare il campo **Registro beni ammortizzabili**.
@@ -96,8 +96,8 @@ Se selezioni questo campo, il processo batch applica invece il calendario da 365
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Prepararsi a fare affari](ui-get-ready-business.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

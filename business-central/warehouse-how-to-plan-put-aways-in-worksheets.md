@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 109ebfef1650c365cb383aac56cf51ab9ee8231b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131121"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518549"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Pianificare stoccaggi nei prospetti
 Se l'ubicazione richiede sia l'elaborazione degli stoccaggi che dei carichi e si desidera pianificare le istruzioni di stoccaggio per una serie di carichi, evitando in tal modo che gli addetti seguano le istruzioni create automaticamente per carichi registrati distinti, è possibile utilizzare il prospetto stoccaggi.  
@@ -30,7 +30,7 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 > 2.  Ripetere il processo per tutti gli stoccaggi di interesse fino a completa eliminazione di tutte le righe che si desidera gestire nel prospetto. A questo punto, scegliere **Prospetti stoccaggio** e procedere alla pianificazione.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Per pianificare le istruzioni nel prospetto di stoccaggio  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto stoccaggi**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto stoccaggi**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Prendi documenti warehouse**. Verrà visualizzata la pagina **Selezione stoccaggio**.  
 
     In questa finestra vengono visualizzati tutti i carichi registrati e gli stoccaggi interni registrati inoltrati alla funzione di stoccaggio, inclusi quelli per cui sono già state create istruzioni di stoccaggio. I documenti contenenti righe di stoccaggio per le quali lo stoccaggio è stato eseguito per intero e registrato non vengono visualizzati in questa lista.  
@@ -66,8 +66,8 @@ Se non si seleziona questo campo, le istruzioni di stoccaggio per i carichi veng
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135960"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515643"
 ---
 # <a name="financial-management"></a>Gestione contabile
 
@@ -36,7 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Gestire i costi di magazzino e di produzione, creare report dei costi e riconciliare i costi con la contabilità generale.|[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)|
 | Comprendere la contabilità generale e il piano dei conti. |[Informazioni sulla contabilità generale e COA](finance-general-ledger.md) |
 |Combinare i movimenti di contabilità generale di più società in una "società consolidata“ virtuale per analisi finanziarie.|[Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)|
-| Aggiungere le dimensioni per Business Intelligence più dettagliata. |[Utilizzo delle dimensioni](finance-dimensions.md) |
+| Aggiungere le dimensioni per Business Intelligence più dettagliata. |[Utilizzare le dimensioni](finance-dimensions.md) |
 | Creare i budget C/G per prevedere diverse attività finanziarie e assegnare le dimensioni per scopi di business intelligence. |[Creare budget C/G](finance-how-create-budgets.md) |
 |Registrare le entrate o le spese direttamente nella contabilità generale senza registrare documenti aziendali dedicati.|[Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)|
 |Registrare i movimenti di pareggio per annullare le registrazioni dei valori nelle registrazioni o le registrazioni delle quantità sui documenti di vendita e di acquisto. |[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)|
@@ -69,8 +69,8 @@ Il video seguente presenta alcune delle funzionalità chiave per la gestione del
 [Chiusura di periodi fiscali](year-close-years-periods.md)  
 [Gestione di progetti](projects-manage-projects.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

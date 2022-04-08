@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: f1266ada40085e1999b9ea49281e8c5ec73f8394
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99f6507eccebc91c9f530e05ad95ae4b23d5e1e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134176"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523101"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Visualizzare le istanze di fase workflow archiviate
 Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate**.  
@@ -22,12 +22,12 @@ Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi
  Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Per visualizzare le istanze del passaggio del flusso di lavoro archiviate  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2.  Aprire il flusso di lavoro per cui si desidera visualizzare tutte le istanze del passaggio del flusso di lavoro archiviate.  
 3.  Nella pagina **Workflow** scegliere l'azione **Istanze di fasi workflow archiviate**.  
 
     Viene aperta la pagina **Istanze di fasi workflow archiviate** contenente le istanze di fasi workflow archiviate del workflow selezionato.  
-4.  In alternativa, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Istanze di fasi workflow archiviate**, quindi scegli il collegamento correlato.  
+4.  In alternativa, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Istanze di fasi workflow archiviate**, quindi scegli il collegamento correlato.  
 
 La pagina **Istanze di fasi workflow archiviate** si apre mostrando tutte le istanze di fasi workflow varchiviate. Nel campo **Codice workflow** è possibile visualizzare il workflow a cui appartiene l'istanza di fase workflow archiviata.  
 
@@ -35,9 +35,9 @@ La pagina **Istanze di fasi workflow archiviate** si apre mostrando tutte le ist
  [Eliminare i workflow](across-how-to-delete-workflows.md)   
  [Creare i workflow](across-how-to-create-workflows.md)   
  [Abilitare i workflow](across-how-to-enable-workflows.md)   
- [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Impostazione dei workflow](across-set-up-workflows.md)   
- [Utilizzo dei workflow](across-use-workflows.md)   
+ [Utilizzare i flussi di lavoro](across-use-workflows.md)   
  [Workflow](across-workflow.md)
 
 

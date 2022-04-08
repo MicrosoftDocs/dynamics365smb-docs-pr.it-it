@@ -10,12 +10,12 @@ ms.search.keywords: tasks, work
 ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 63b65f697e12090f5e4bfbc2ca11e30a6e167bab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 64c66324d97ee3dad268f6ff9dd8c18566d1e247
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129129"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512518"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Aggiungere commenti a schede o documenti
 
@@ -33,14 +33,14 @@ Di seguito viene descritto come aggiungere un commento a una scheda articolo. I 
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Per aggiungere dei commenti alla scheda articolo
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Apri la scheda articolo desiderata.
 3. Scegliere l'azione **Commenti**.
 4. Nella pagina **Scheda Commenti** immettere il testo desiderato e quindi scegliere il pulsante **OK**.
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 

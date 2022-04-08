@@ -10,12 +10,12 @@ ms.search.keywords: task, process
 ms.search.form: 672, 676, 682, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 7d06ebd368f42c142d7cb222ee378da79706132e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: cd61ebd816fe5b701d493f03816f78d90b59e4f6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335398"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512786"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Eseguire processi batch e XMLports
 
@@ -26,7 +26,7 @@ Un processo batch è simile a un report, con la differenza che il processo batch
 È possibile pianificare l'esecuzione di un processo batch. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>Per eseguire un processo batch
-1. Per aprire la pagina di richiesta per il lavoro batch in questione, scegli l'icona ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti il nome del lavoro batch e quindi scegli il collegamento correlato.
+1. Per aprire la pagina di richiesta per il lavoro batch in questione, scegli l'icona ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti il nome del lavoro batch e quindi scegli il collegamento correlato.
 2. Se per il processo batch è disponibile una Scheda dettaglio **Opzioni**, completarne i campi per determinare l'operazione che sarà eseguita dal processo batch.
 3. È possibile che la pagina contenga una o più Schede dettaglio con filtri, che è possibile utilizzare per limitare i dati inclusi nel processo batch. È possibile immettere criteri nei filtri consigliati o aggiungere altri filtri.
 4. Scegliere **OK** per avviare il processo batch.
@@ -34,7 +34,7 @@ Un processo batch è simile a un report, con la differenza che il processo batch
 ## <a name="see-also"></a>Vedere anche
 [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
 [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

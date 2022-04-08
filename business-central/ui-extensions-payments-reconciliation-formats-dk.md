@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9e0d924270134e940fb4102dbf1fd0a9a58655dd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2b2ca286540ceca0d881b9e9928dd275583472c3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381064"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510559"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Estensione Pagamenti e riconciliazioni (DK)
 
@@ -54,7 +54,7 @@ Inoltre, è necessario assegnare i fornitori a una **Categoria registrazione bus
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>Consentire a [!INCLUDE[prod_short](includes/prod_short.md)] l'esportazione dei dati di pagamento.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Modifica registrazioni pagamenti** scegliere il batch **Banca**.  
 3. Scegliere la casella controllo **Consenti esportazione pagamento**.  
 
@@ -68,7 +68,7 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 |Consente messaggi al destinatario? | Sì |No |No | Sì |
 |Contiene il numero di riferimento di pagamento? | No | Sì, 16 cifre. | Sì, 15 cifre. | No|
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda, espandere la scheda **Pagamenti**, nel campo **Metodo pagamento** selezionare il metodo di pagamento.  
 3. A seconda dell'opzione selezionata, è necessario compilare altri campi. Vedere la tabella sopra per una descrizione delle combinazioni.  
 
@@ -106,7 +106,7 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 
 [Personalizzazione di Business Central per [!INCLUDE[prod_short](includes/prod_short.md)] con le estensioni](ui-extensions.md)  
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
+[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

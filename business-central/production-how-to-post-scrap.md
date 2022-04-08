@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7b79c94ab93af9565bc9291c8bae846ca79a5e6d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d28439357d179e41dfacbaa8504dc0a7fa98230e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135674"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516694"
 ---
 # <a name="post-scrap-manually"></a>Registrare lo scarto manualmente
 
@@ -25,7 +25,7 @@ Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto
 
 ## <a name="to-post-scrap-manually"></a>Per registrare lo scarto manualmente
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Immettere la quantità di scarto nel campo **Quantità Scartata**.  
 4. Immettere il codice di scarto nel campo **Codice scarto**.  
@@ -38,7 +38,7 @@ Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

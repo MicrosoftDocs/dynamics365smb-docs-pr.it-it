@@ -10,12 +10,12 @@ ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
 ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 8aafbe502c59924703d04711458ec9fa77a604f1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 52060d74d7ef855a89dd3cffabd4ada435d6b117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148332"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523269"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Vendere prodotti con un ordine di vendita cliente  
 
@@ -34,7 +34,7 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 > [!NOTE]  
 > La seguente procedura presuppone che il cliente sia già impostato. Per istruzioni su come eseguire questa operazione, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Selezionare **Nuovo** per creare una nuova voce.
 3. Nel campo **Cliente** immettere il nome di un cliente esistente.
 
@@ -101,7 +101,7 @@ I movimenti contabili cliente e articolo sono ora creati nel sistema e l'ordine 
 [Stampare la lista prelievo](sales-how-print-picking-list.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

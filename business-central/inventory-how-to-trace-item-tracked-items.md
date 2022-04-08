@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6592172331b92c1e0b6623c36c5531b4a32b5088
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 991df58fde5f525772d5b9eeadbf802429965575
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148528"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517422"
 ---
 # <a name="trace-item-tracked-items"></a>Tracciare gli articoli tracciati
 È possibile analizzare dove è stato utilizzato un articolo tracciato, nonché ottenere informazioni su come e quando l'articolo è stato ricevuto o prodotto, trasferito, venduto, consumato o reso. È inoltre possibile trovare tutte le istanze correnti di un numero seriale o di un numero di lotto specifico nel database. A tale scopo si utilizzano le funzionalità Tracciabilità articolo e [Trova movimenti](ui-find-entries.md).  
@@ -30,7 +30,7 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 
 ## <a name="to-trace-item-tracked-items"></a>Analizzare articoli tracciati  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tracciabilità articolo**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Tracciabilità articolo**, quindi scegli il collegamento correlato.  
 2.  Nei campi di filtro nella parte superiore della pagina immettere numeri di articolo specifici o utilizzare un filtro per i numeri di articolo che si desidera analizzare.  
 3.  Nel campo **Mostra componenti** definisci se visualizzare anche la provenienza dei componenti dell'articolo. Nella seguente tabella vengono illustrate le opzioni.  
 
@@ -59,7 +59,7 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>Per trovare gli articoli tracciati con la funzionalità Trova movimenti  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Trova movimenti**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Trova movimenti**, quindi seleziona il collegamento correlato.  
 2. Scegliere **Azioni** > **Trova per** > **Trova per riferimento articolo**.
 3. Nei campi **Nr. lotto** e **Nr. seriale**, immettere i numeri di tracciabilità articolo che si desidera analizzare.  
 4. Scegliere l'azione **Trova** per trovare tutte le istanze del numero seriale o di lotto nel database.  
@@ -71,7 +71,7 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Prenotare articoli](inventory-how-to-reserve-items.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 <!-- [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)   -->
 [Trova movimenti](ui-find-entries.md)  
 

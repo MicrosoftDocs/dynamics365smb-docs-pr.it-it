@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139029"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517715"
 ---
-# <a name="using-pre-closing-reports"></a>Utilizzo dei report preliminari alla chiusura
+# <a name="use-pre-closing-reports"></a>Utilizzare i report preliminari alla chiusura
 
 Sono disponibili molti report standard che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo. Ad esempio, è possibile utilizzare il report **Clienti - Bilancio di verifica** per verificare che il saldo di una categoria i registrazione clienti sia uguale al saldo del corrispondente conto di contabilità generale a una data specifica.
 
@@ -34,12 +34,12 @@ Nella tabella che segue sono descritti alcuni report che possono risultare utili
 | Stampare un report di bilancio di verifica con saldi periodi e conti per i conti di contabilità generale. |Bilancio di verifica |
 | Stampare un bilancio di verifica per una società consolidata. |Bil. di verifica consolidato |
 
-Per vedere un report, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
+Per vedere un report, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
 
 ## <a name="see-also"></a>Vedere anche
 
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 

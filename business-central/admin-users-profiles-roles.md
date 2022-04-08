@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b17a4f5a375e4fa1ad067d2679b37bb3d0f5da95
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133124"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514149"
 ---
 # <a name="manage-user-profiles"></a>Gestire profili utente
 
@@ -85,7 +85,7 @@ Quando si crea un profilo, è possibile selezionare diverse caselle di controllo
     - **Mostra in Esplora ruoli** per specificare se le azioni per le funzionalità aziendali incluse nel profilo vengono visualizzate nella vista estesa di Esplora ruoli, una panoramica delle funzionalità. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Per esportare profili
-Puoi esportare i profili da [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio per riutilizzarli in un altro tenant. I profili vengono esportati in un file zip contenente file .al che possono essere riutilizzati per sviluppare estensioni. Per ulteriori informazioni, vedere [Utilizzo del client per creare profili e personalizzazioni di pagine](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Puoi esportare i profili da [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio per riutilizzarli in un altro tenant. I profili vengono esportati in un file zip contenente file .al che possono essere riutilizzati per sviluppare estensioni. Per ulteriori informazioni, vedi [Utilizzare il client per creare profili e personalizzazioni di pagine](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Nella pagina **Profili (ruoli)**, scegliere l'azione **Esporta profili**.
 

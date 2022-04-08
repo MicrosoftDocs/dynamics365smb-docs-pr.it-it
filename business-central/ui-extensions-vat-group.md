@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7d040289fbcf85b67c32147e56f13797e3bd5447
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382559"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519572"
 ---
 # <a name="the-vat-group-management-extension"></a>Estensione della gestione del gruppo IVA
 
@@ -91,7 +91,7 @@ Impostare il membro del gruppo IVA avviando la guida al setup assistito **Impost
 
   Ad esempio, nel Regno Unito, la configurazione del report IVA sarebbe impostata per dichiarare l'IVA a HMRC. L'estensione Gestione gruppo IVA copia questa impostazione, ma sostituisce la codeunit di invio con una che supporta la presentazione al rappresentante del gruppo IVA anziché alle autorità fiscali. La codeunit è fornita da Microsoft. Al termine, selezionare **Avanti**.
 
-## <a name="using-the-vat-group-management-features"></a>Utilizzo delle funzionalità di gestione del gruppo IVA
+## <a name="use-the-vat-group-management-features"></a>Utilizzare le funzionalità di gestione del gruppo IVA
 
 I membri del gruppo IVA utilizzano le procedure standard per preparare le dichiarazioni IVA. L'unica differenza sta nello scegliere la versione del report **VATGROUP** che presenta la dichiarazione IVA al rappresentante del gruppo IVA anziché alle autorità. Per ulteriori informazioni, vedi [Informazioni sul report Dichiarazione IVA](finance-how-report-vat.md#vatreturn).
 

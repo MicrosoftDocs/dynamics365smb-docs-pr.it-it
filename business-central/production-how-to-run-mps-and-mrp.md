@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 561b069cb3136b50a76fe6c43276edc2fb0ab5ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b8a9f648030e0a307ccd1a086c681ba8492cf357
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131355"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516668"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Eseguire la pianificazione completa, MPS o MRP
 
@@ -45,7 +45,7 @@ Con ogni metodo pianificato, [!INCLUDE[prod_short](includes/prod_short.md)] gene
 >  La funzione Piano di generazione dei messaggi di azione può essere eseguito tra le esecuzioni del calcolo del piano relativo ai cambiamenti e del piano rigenerativo per ottenere una visione immediata dell'impatto dei cambiamenti apportati alla programmazione, ma non è da intendersi come sostitutivo di tali processi.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Per calcolare il prospetto pianificazione  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetti pianificazione**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetti pianificazione**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo** per aprire la pagina **Calcola piano**.  
 3.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
 
@@ -111,7 +111,7 @@ In risposta a qualsiasi mancato saldo tra approvvigionamento e domanda, vengono 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

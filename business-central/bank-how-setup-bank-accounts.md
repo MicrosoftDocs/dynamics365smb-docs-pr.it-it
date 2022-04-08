@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 4c305d4ba1f4208eb7a3c5845d4b32bb40f930e6
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382313"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514123"
 ---
 # <a name="set-up-bank-accounts"></a>Impostare i conti correnti bancari
 
@@ -29,6 +29,8 @@ I conti bancari funzionano in modo diverso a seconda che venga specificato un co
 - Il codice valuta è specificato
 
   Tutte le transazioni effettuate su questo conto devono essere nella stessa valuta specificata sul conto. Anche tutti gli assegni emessi da questo conto devono avere questa valuta.  
+
+È possibile risparmiare tempo sull'immissione dei dati impostando un conto bancario come conto predefinito da utilizzare per la valuta specificata per il conto. In tal modo, il conto verrà assegnato ai documenti di vendita e di servizio che utilizzano la valuta. Per rendere il conto predefinito per i documenti di vendita e di servizio, nella pagina **Scheda conto bancario**, attiva l'interruttore **Usa come predefinito per la valuta**. Se necessario, puoi scegliere un conto diverso quando lavori su un documento.
 
 Un conto bancario è parte integrante di [!INCLUDE[prod_short](includes/prod_short.md)] e svolge un ruolo in molte altre capacità. L'illustrazione seguente mostra le relazioni più importanti:
 
@@ -86,7 +88,7 @@ Migliori sono le informazioni di mapping fornite nella registrazione riconciliaz
 
 ## <a name="to-set-up-bank-accounts"></a>Per impostare i conti correnti bancari
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Nella pagina **C/C bancari** scegliere l'azione **Nuovo**.
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -153,24 +155,24 @@ The following table explains key fields.
 |Bank Statement Import Format|Specifies the format of the bank statement file that can be imported into this bank account. The format is being used in both the payment reconciliation journals and the bank account reconciliations.|
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
-> [!NOTE]
-> Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare un movimento contabile del conto corrente bancario con la quantità in questione. È possibile effettuare questa operazione eseguendo un una riconciliazione bancaria. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).  
+
+## <a name="entering-an-opening-balance"></a>Inserimento di un saldo di apertura
+Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare un movimento contabile del conto corrente bancario con la quantità in questione. È possibile effettuare questa operazione eseguendo un una riconciliazione bancaria. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > In alternativa, è possibile implementare il saldo iniziale come parte della creazione di dati generali in nuove aziende utilizzando la guida al setup assistito **Migra dati aziendali**. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> È importante non registrare il saldo di apertura direttamente nella contabilità generale. Avere voci nel conto C/G che vengono registrate direttamente nel conto C/G in genere comporterà l'impossibilità di riconciliare il conto bancario o, in caso di conti bancari in valuta estera, comporterà l'accumulo di differenze durante la pubblicazione di più riconciliazioni bancarie. Spesso si registra il saldo bancario di apertura direttamente sul conto bancario e l'importo finisce quindi nel conto C/G. In alternativa, lo annulli in un secondo momento rispetto a un conto C/G che hai usato per bilanciare il saldo della contabilità generale di apertura. In entrambi i casi, è necessario bilanciare qualsiasi registrazione diretta sul conto C/G prima di iniziare la prima riconciliazione bancaria, soprattutto se il conto bancario è in una valuta estera.  
+> È importante non registrare il saldo di apertura direttamente nella contabilità generale. Avere voci nel conto C/G che vengono registrate direttamente nel conto C/G in genere comporterà l'impossibilità di riconciliare il conto bancario o, in caso di conti bancari in valuta estera, comporterà l'accumulo di differenze durante la pubblicazione di più riconciliazioni bancarie. Spesso si registra il saldo bancario di apertura direttamente sul conto bancario e l'importo finisce quindi nel conto C/G. In alternativa, lo annulli in un secondo momento rispetto a un conto C/G che usi per bilanciare il saldo della contabilità generale di apertura. In entrambi i casi, è necessario bilanciare qualsiasi registrazione diretta sul conto C/G prima di iniziare la prima riconciliazione bancaria, soprattutto se il conto bancario è in una valuta estera.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Per impostare il conto corrente bancario per l'importazione o l'esportazione di file dei conti correnti bancari
+I campi relativi all'importazione e all'esportazione di feed e file bancari sono nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda conto corrente bancario**. Per ulteriori informazioni, vedi [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) e [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-I campi nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda conto corrente bancario** sono correlati all'importazione e all'esportazione dei feed e dei file della banca. Per ulteriori informazioni, vedere [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) e [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Aprire la scheda di un conto corrente bancario per il quale verranno esportati o importati i file dei conti correnti bancari.
 3. Compilare i campi appropriati nella Scheda dettaglio **Trasferimento**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> I diversi servizi di esportazione file e i rispettivi formati richiedono valori di configurazione differenti nella pagina **Scheda conto corrente bancario**. Si verrà informati sui valori di setup mancanti o non corretti mentre si tenta di esportare il file. Leggere quindi con attenzione le brevi descrizioni dei campi o fare riferimento agli argomenti di procedura correlati. Ad esempio, esportare un file di pagamento per il trasferimento elettronico dei fondi (EFT) in Nord America richiede che sia il campo **Nr. ultimo avviso di rimessa** che il campo **Nr. transito** siano compilati. Per ulteriori informazioni, vedere [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+> I diversi servizi di esportazione file e i rispettivi formati richiedono valori di configurazione differenti nella pagina **Scheda conto corrente bancario**. Ti vengono notificati i valori di setup mancanti o non corretti quando esporti il file. Leggi con attenzione le brevi descrizioni dei campi o fai riferimento agli argomenti di procedura correlati. Ad esempio, esportare un file di pagamento per il trasferimento elettronico dei fondi (EFT) in Nord America richiede che sia il campo **Nr. ultimo avviso di rimessa** che il campo **Nr. transito** siano compilati. Per ulteriori informazioni, vedere [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 I campi della Scheda dettaglio **Transito** sul conto bancario ha scopi diversi, a seconda che il pagamento sia in entrata o in uscita.
 
@@ -216,9 +218,9 @@ L'illustrazione mostra il percorso dei pagamenti in uscita:
 
 ## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Per impostare i conti correnti fornitore per l'esportazione di file dei conti correnti bancari
 
-I campi nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda C/C bancari fornitori** sono correlati all'esportazione dei feed e dei file dei conti correnti bancari. Per ulteriori informazioni, vedere [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) ed [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+I campi nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda C/C bancari fornitori** sono correlati all'esportazione dei feed e dei file dei conti correnti bancari. Per ulteriori informazioni, vedi [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) ed [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda di un conto corrente bancario fornitore nel quale verranno esportati i file di pagamento della banca.
 3. Scegliere l'azione **C/C bancari**.
 4. Dall'**elenco dei conti bancari del fornitore**, scegliere il conto bancario pertinente o aggiungere un nuovo conto bancario.  
@@ -250,7 +252,7 @@ Per ottenere una visione più concisa dei tuoi conti di cassa nei report finanzi
 [Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Riconciliazione pagamenti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Informazioni sulla contabilità generale e COA](finance-general-ledger.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

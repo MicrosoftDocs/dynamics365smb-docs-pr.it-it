@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 15
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ab867778edc60bf64591866a628bdb638d99c45
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 56a9cc0181b73c5490c6cbc499071e1bfbb63da2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383403"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512604"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convertire le ubicazioni esistenti in ubicazione warehouse
 È possibile consentire l'utilizzo di zone e collocazioni in un'ubicazione magazzino esistente, in modo da utilizzare tale ubicazione come ubicazione warehouse.  
@@ -28,7 +28,7 @@ Il processo batch per l'abilitazione di un'ubicazione per le attività warehouse
 >  Per eliminare tutte le giacenze negative ed eventuali documenti warehouse aperti prima di convertire l'ubicazione per la gestione warehouse, eseguire un report per identificare gli articoli con giacenza negativa e documenti warehouse aperti per l'ubicazione specificata. Per ulteriori informazioni, vedere Verifica giacenze negative.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Per abilitare un'ubicazione esistente come ubicazione di warehouse  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea ubicazione warehouse**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Crea ubicazione warehouse**, quindi scegli il collegamento correlato.  
 2.  Nel campo **Cod. ubicazione** specificare l'ubicazione che si desidera abilitare per l'elaborazione warehouse.  
 3.  Nel campo **Codice collocazione rettifica** specificare la collocazione nell'ubicazione in cui sono archiviati i movimenti warehouse non sincronizzati. Per ulteriori informazioni, vedere [Per sincronizzare i movimenti warehouse rettificati con i movimenti contabili articoli correlati](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)  
 
@@ -48,7 +48,7 @@ Il processo batch per l'abilitazione di un'ubicazione per le attività warehouse
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

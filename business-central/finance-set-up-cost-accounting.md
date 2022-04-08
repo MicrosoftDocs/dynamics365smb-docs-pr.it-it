@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8192a884b697274484be2fba4b9f0cb75ebec5b0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142109"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520336"
 ---
 # <a name="setting-up-cost-accounting"></a>Impostazione della contabilità industriale
 
@@ -39,7 +39,7 @@ Il piano dei tipi di costo è simile al piano dei conti nella contabilità gener
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Per trasferire il piano dei conti della contabilità generale al piano dei tipi di costo
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Piano dei tipi di costo**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Piano dei tipi di costo**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Ottieni tipi costo da piano dei conti**. Nella finestra di dialogo fare clic sul pulsante **Sì** per confermare il trasferimento. La funzione utilizza il piano dei conti per creare un piano dei tipi di costo.  
 
     Il piano dei tipi di costo contiene ora tutti i conti economici nella contabilità generale e include le testate e i subtotali. È possibile modificare il piano dei tipi di costo, in base alle esigenze. Ad esempio, è possibile eliminare i tipi di costo esistenti duplicati.  
@@ -108,7 +108,7 @@ I centri di costo sono i reparti responsabili dei costi e delle entrate. Il graf
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Per trasferire i valori dimensioni nella contabilità generale al grafico dei centri di costo
 
 1. Impostare una dimensione come dimensione centro di costo nella pagina **Aggiorna dimensioni cont. industriale** . Solo i valori di questa dimensione vengono trasferiti.  
-2. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Piano dei centri di costo**, quindi scegli il collegamento correlato.  
+2. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Piano dei centri di costo**, quindi scegli il collegamento correlato.  
 3. Nel gruppo **Funzioni** della scheda **Azioni** selezionare **Ottieni centri di costo da dimensione** per trasferire i valori dimensioni al grafico dei centri di costo. Con la funzione è possibile trasferire i valori dimensioni definiti nel passaggio 1.  
 
     > [!NOTE]  
@@ -143,7 +143,7 @@ Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Per trasferire i valori dimensioni dalla contabilità generale al grafico degli oggetti di costo  
 1.  Impostare una dimensione come dimensione dell'oggetto di costo nella pagina **Aggiorna dimensioni contabilità industriale**. Solo i valori di questa dimensione vengono trasferiti.  
-2.  Scegli la ![lampadina che apre la funzione Dimmi 3](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Piano degli oggetti di costo**, quindi scegli il collegamento correlato.  
+2.  Scegli la ![lampadina che apre la funzione Dimmi 3](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Piano degli oggetti di costo**, quindi scegli il collegamento correlato.  
 3.  Scegliere l'azione **Ottieni oggetti di costo da dimensione** per trasferire i valori dimensioni al piano degli oggetti di costo. Con la funzione è possibile trasferire i valori dimensioni definiti nel passaggio 1.  
 
     > [!NOTE]  
@@ -194,7 +194,7 @@ Per ogni conto di contabilità generale, è possibile definire i valori dimensio
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
 [Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)   
 [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

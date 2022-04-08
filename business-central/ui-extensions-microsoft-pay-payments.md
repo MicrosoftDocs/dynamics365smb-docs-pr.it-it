@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d5668db9d0a7fa9b461a19949643ca7a2cc01a31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91f23a3b0a04a4e0d35d3574d4af84e187df14e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132526"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521652"
 ---
 # <a name="the-microsoft-pay-extension"></a>Estensione Microsoft Pay
 
@@ -43,10 +43,10 @@ L'estensione Microsoft Pay offre i seguenti vantaggi:
 
 L'abilitazione delle estensioni del servizio di pagamento è gratuita in [!INCLUDE[prod_short](includes/prod_short.md)], tuttavia, sarà necessario contattare il servizio di pagamento per ottenere un conto. Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

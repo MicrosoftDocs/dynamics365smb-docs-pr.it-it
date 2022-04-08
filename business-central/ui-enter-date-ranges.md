@@ -10,14 +10,14 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 934fcefa552f01a05f95221d57d9a708b9acc26f
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323008"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518863"
 ---
-# <a name="working-with-calendar-dates-and-times"></a>Utilizzo di date e orari del calendario
+# <a name="work-with-calendar-dates-and-times"></a>Utilizzare date e orari del calendario
 
 [!INCLUDE[prod_short](includes/prod_long.md)] offre diversi modi per immettere date e orari, incluse potenti funzionalità per accelerare l'immissione dei dati o scrivere espressioni di calendario complesse. È possibile immettere date e orari nei campi in diversi punti dell'applicazione. Ad esempio, in un ordine di vendita, è possibile impostare la data di spedizione. Quando si filtrano gli elenchi o i dati dei report, è possibile immettere date e orari per contrassegnare solo i dati a cui si è interessati.
 
@@ -63,12 +63,15 @@ Lo schema del numero della settimana è sempre ISO 8601, dove la settimana 1 è 
 
 In un campo di data è possibile immettere due, quattro, sei o otto cifre:
 
--   Se si immettono solo due cifre, queste vengono considerate come indicanti il giorno e il programma aggiunge il mese e l'anno della data di lavoro.
+- Se si immettono solo due cifre, queste vengono considerate come indicanti il giorno e il programma aggiunge il mese e l'anno della data di lavoro.
 
--   Se si immettono quattro cifre, queste vengono considerate come indicanti il giorno e il mese e il programma aggiunge l'anno della data di lavoro. L'ordine giorno e il mese è determinato dalle impostazioni di un paese. Anche se le impostazioni del paese hanno l'anno prima del giorno e del mese, le quattro cifre vengono interpretate come giorno e mese.
+- Se si immettono quattro cifre, queste vengono considerate come indicanti il giorno e il mese e il programma aggiunge l'anno della data di lavoro. L'ordine giorno e il mese è determinato dalle impostazioni di un paese. Anche se le impostazioni del paese hanno l'anno prima del giorno e del mese, le quattro cifre vengono interpretate come giorno e mese.
 
--   Se la data che si desidera immettere è inclusa nell'intervallo compreso tra 01/01/1930 e 31/12/2029, è possibile immettere l'anno utilizzando due cifre. In caso contrario, immettere l'anno in quattro cifre.
+- Se la data che si desidera immettere è inclusa nell'intervallo compreso tra 01/01/1950 e 31/12/2049, è possibile immettere l'anno utilizzando due cifre. In caso contrario, immettere l'anno in quattro cifre.
 
+  > [!NOTE]
+  > Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] in locale, l'intervallo di anni a due cifre potrebbe essere diverso. Gli amministratori possono modificare l'intervallo modificando l'impostazione **CalendarTwoDigitYearMax** del server [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Configurazione di Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+ 
 ### <a name="today"></a>Oggi
 
 Inserisci la parola per _oggi_, nella lingua specificata nella pagina **Impostazioni personali** per impostare la data di un record sulla data odierna. Anziché immettere l'intera parola, è possibile immettere una parte della parola. Ad esempio, in inglese, puoi inserire _t_ o _tod_, purché non sia anche l'inizio di un'altra parola.
@@ -130,7 +133,7 @@ In elenchi, totali e report, è possibile impostare filtri su date, orari e peri
 
 È possibile utilizzare uno qualsiasi dei formati validi nei filtri dell'intervallo di date. Ad esempio, lun14 3..o 4p applicato a un campo data/ora risulta un filtro dalle 3 AM di lunedì nella settimana 14 dell'anno della data di lavoro corrente, incluso, fino alle 4 PM, comprese.
 
-## <a name="using-date-formulas"></a>Utilizzo di formule per le date
+## <a name="use-date-formulas"></a>Usare le formule data
 Una formula di data è una breve combinazione di lettere e numeri che specifica il modo in cui calcolare le date. È possibile immettere formule per le date in diversi campi o filtri per il calcolo della data.
 
 > [!NOTE]
@@ -216,7 +219,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -336,7 +339,7 @@ Per visualizzare l'unità di misura utilizzata in un campo di durata, immettere 
 Ad esempio, il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.
 
 ## <a name="see-also"></a>Vedere anche
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
 [Immissione di criteri di filtro](ui-enter-criteria-filters.md)  
 

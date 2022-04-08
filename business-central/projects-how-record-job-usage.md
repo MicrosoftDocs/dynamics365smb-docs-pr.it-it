@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 01af14b826f2974cf9e4d3b5b351a46dd973665d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b5030646d04e31983025e054992fa0fb71cf5b4e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131283"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513863"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrare il consumo o l'utilizzo per le commesse
 
@@ -27,7 +27,7 @@ Di seguito viene descritto come registrare le quantità e i costi (previsti) eff
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Per registrare l'utilizzo per una riga di pianificazione commessa di tipo Budget
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Righe pianificazione commessa**.
 3. Selezionare una riga di pianificazione commessa di tipo **Budget** o **Budget e fatturabile** per la quale si desidera registra l'utilizzo.  
 
@@ -49,7 +49,7 @@ Di seguito viene descritto come registrare le quantità e i costi (previsti) eff
 
 ## <a name="to-create-job-journal-lines-manually"></a>Per creare le righe delle registrazioni delle commesse manualmente
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
 2. Nel campo **Nome batch** scegliere un nome batch di registrazioni commesse pertinente.  
 3. In una nuova riga, immettere il numero di documento, il numero di commessa, il numero di task commessa, il tipo e la quantità del tipo consumata.  
 4. Una volta completate le righe di registrazione commessa, scegliere l'azione **Registra**.  
@@ -63,7 +63,7 @@ In questo modo è possibile tenere traccia e confrontare le stime iniziali rispe
 > [!NOTE]  
 >   I movimenti articoli creano movimenti contabili articoli e riducono la quantità di inventario. Il processo batch **Registra costo magazzino in C/GL** trasferisce il costo dal magazzino alla contabilità generale. I movimenti risorse creano movimenti contabili risorse.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
 2. Selezionare una registrazione commessa corrispondente, quindi scegliere l'azione **Calc. utilizzo residuo**.  
 3. Nella pagina **Commessa - Calc. utilizzo residuo**, immettere il numero di documento e la data di registrazione che deve essere inserita nelle registrazioni, quindi scegliere **OK**.  
 4. Aggiornare le registrazioni con tutte le necessarie modifiche.  
@@ -82,12 +82,12 @@ Dopo avere registrato le righe di registrazione commessa registrate, è possibil
 2. Selezionare una registrazione commessa corrispondente, quindi scegliere l'azione **Mov. contabili**.  
 3. Nella pagina **Movimenti contabili commesse** scegliere l'azione **Mostra righe pianificazione commessa collegate**.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)      
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

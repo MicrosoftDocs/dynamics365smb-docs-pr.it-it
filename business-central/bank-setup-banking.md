@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139932"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516397"
 ---
 # <a name="setting-up-banking"></a>Impostazione delle attività bancarie
 
@@ -27,7 +27,7 @@ Per utilizzare i servizi bancari elettronici per importare gli estratti conto ba
 | --- | --- |
 | Impostare le schede di conto corrente bancario per ogni conto bancario, in modo da tenere traccia delle transazioni bancarie. |[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md) |
 | Impostare un servizio esterno che consente di importare gli estratti conto bancari come feed bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
-| Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
+| Impostare un servizio esterno che consente di esportare i pagamenti alla banca per l'elaborazione e importare gli estratti conto bancari per il collegamento di pagamento e la riconciliazione bancaria. |[Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
@@ -36,7 +36,7 @@ Per utilizzare i servizi bancari elettronici per importare gli estratti conto ba
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

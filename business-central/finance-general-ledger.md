@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.search.form: 17, 18, 20, 21, 37, 65, 99, 118, 312, 313, 314, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 12/03/2021
+ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 5f168132dc747e76c514ae1bd78e8d2f86a7b609
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366747"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510874"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Informazioni sulla contabilità generale e sul piano dei conti
 
@@ -23,23 +23,30 @@ La contabilità generale memorizza i dati finanziari e il piano dei conti indica
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Setup contabilità generale e setup registrazioni COGE
 
-Il setup della contabilità generale svolge un ruolo fondamentale nei processi finanziari perché definisce il modo in cui vengono registrati i dati.  
+Il setup della contabilità generale svolge un ruolo fondamentale nei processi finanziari perché definisce il modo in cui vengono registrati i dati. Due pagine svolgono un ruolo importante nella configurazione dei processi finanziari:  
 
-Nella pagina **Setup contabilità generale** è possibile specificare le modalità di gestione di determinate questioni contabili relative alla società, quali:  
+* La pagina **Setup contabilità generale**
 
-* Dettagli relativi all'arrotondamento delle fatture  
-* Formati indirizzi  
-* Report finanziari  
+    Nella pagina **Setup contabilità generale** è possibile specificare le modalità di gestione di determinate questioni contabili relative alla società, quali:  
 
-> [!TIP]
-> La pagina **Setup contabilità generale** include campi generici e campi specifici per il paese o la regione. Se non si è certi del significato di un campo, suggeriamo di collaborare con il contabile per determinare se è rilevante per l'organizzazione.  
+    * Dettagli relativi all'arrotondamento delle fatture  
+    * Formati indirizzi  
+    * Report finanziari  
 
-Analogamente, nella pagina **Setup registrazioni COGE** è possibile specificare come si desidera impostare le combinazioni di categorie di registrazione business generale e le categorie di registrazione di articoli e servizi. Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. Compilare una riga per ogni combinazione di categorie di registrazione business e di categorie di registrazione articoli/servizi. Ma è anche possibile aprire ogni riga nella relativa scheda di setup della registrazione. Per ulteriori informazioni, vedere [Setup categorie di registrazione](finance-posting-groups.md).  
+    > [!TIP]
+    > La pagina **Setup contabilità generale** include campi generici e campi specifici per il paese o la regione. Se non si è certi del significato di un campo, suggeriamo di collaborare con il contabile per determinare se è rilevante per l'organizzazione. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-> [!TIP]
-> Se non è possibile vedere i campi cercati nella pagina **Setup registrazioni COGE**, utilizzare la barra di scorrimento orizzontale nella parte inferiore della pagina per scorrere verso destra.  
+    Apri la pagina [qui](https://businesscentral.dynamics.com/?page=118)
+* La pagina **Setup registrazioni COGE**
 
-## <a name="the-chart-of-accounts"></a>Piano dei Conti
+    Analogamente, nella pagina **Setup registrazioni COGE** è possibile specificare come si desidera impostare le combinazioni di categorie di registrazione business generale e le categorie di registrazione di articoli e servizi. Le categorie di registrazione associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. Compilare una riga per ogni combinazione di categorie di registrazione business e di categorie di registrazione articoli/servizi. Ma è anche possibile aprire ogni riga nella relativa scheda di setup della registrazione. Per ulteriori informazioni, vedere [Setup categorie di registrazione](finance-posting-groups.md).  
+
+    > [!TIP]
+    > Se non è possibile vedere i campi cercati nella pagina **Setup registrazioni COGE**, utilizzare la barra di scorrimento orizzontale nella parte inferiore della pagina per scorrere verso destra.  
+
+    Apri la pagina [qui](https://businesscentral.dynamics.com/?page=314)
+
+## <a name="the-chart-of-accounts"></a>Il piano dei conti
 
 Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei conti è possibile eseguire operazioni, quali:  
 
@@ -49,7 +56,7 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 * Visualizzare una lista delle categorie di registrazione che registrano nel conto.
 * Visualizzare i saldi attivi e passivi separatamente per un singolo conto  
 
-È possibile aggiungere, modificare o eliminare i conti di contabilità generale. Tuttavia, per evitare le differenze, non è possibile eliminare un conto di contabilità generale se i relativi dati vengono utilizzato nel piano dei conti.  
+È possibile aggiungere, modificare o eliminare i conti di contabilità generale. Tuttavia, per evitare le differenze, non è possibile eliminare un conto di contabilità generale se i relativi dati vengono utilizzato nel piano dei conti. Inoltre, a partire dal secondo ciclo di rilascio del 2022, puoi anche bloccare l'eliminazione accidentale di conti in periodi sensibili. Per ulteriori informazioni, vedi [Eliminazione dei conti](finance-setup-chart-accounts.md#delete-accounts).  
 
 ## <a name="account-categories"></a>Categorie di conti
 
@@ -69,14 +76,14 @@ Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai 
 
     * Una per la piccola cassa  
     * Una per il conto assegni  
-2. Specificare la definizione report addizionale **Conti cassa** per queste sottocategorie.  
+2. Specifica la definizione report aggiuntiva **Conti cassa** per queste sottocategorie.  
 3. Applicare un rientro sotto la sottocategoria **Contanti**.  
 
 Alla successiva creazione di situazioni contabili, l'estratto conto mostrerà un saldo totale per la cassa contanti e due righe con saldi per la piccola cassa e il conto assegni.  
 
-## <a name="getting-a-quick-overview"></a>Ottenere una rapida visione d'insieme
+## <a name="get-a-quick-overview"></a>Ottenere una rapida visione d'insieme
 
-La pagina della struttura dei conti visualizza i conti in una lista gerarchica che offre un accesso veloce alle informazioni chiave per ogni conto. Tuttavia, l'elenco è statico, e se hai molti account potresti dover fare un po' di scorrimento per visualizzare le informazioni per i diversi account. Se vuoi solo una rapida panoramica delle basi, come i cambiamenti netti e i saldi, la pagina **Sintesi del piano dei conti** è un'utile alternativa. La disposizione delle colonne nella pagina è ora la stessa che troverete nella pagina del piano dei conti (ce ne sono solo di meno), quindi non dovrete riorientarvi, e potete espandere o ridurre i livelli gerarchici per condensare la vista. Per facilitare il passaggio tra le pagine, la pagina **Panoramica** del piano dei conti è disponibile dalla pagina del piano dei conti.
+La pagina **Piano dei conti** visualizza i conti in una lista gerarchica che offre un accesso veloce alle informazioni chiave per ogni conto. Tuttavia, l'elenco è statico, e se hai molti account potresti dover fare un po' di scorrimento per visualizzare le informazioni per i diversi account. Se vuoi solo una rapida panoramica delle basi, come i cambiamenti netti e i saldi, la pagina **Sintesi del piano dei conti** è un'utile alternativa. La disposizione delle colonne nella pagina è ora la stessa che trovi nella pagina **Piano dei conti** (ce ne sono solo di meno), quindi non devi riorientarti, e puoi espandere o ridurre i livelli gerarchici per condensare la vista. Per facilitare il passaggio tra le pagine, la pagina **Panoramica del piano dei conti** è disponibile dalla pagina **Piano dei conti**.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accesso per creare e modificare conti e categorie di conti
 
@@ -85,7 +92,7 @@ In una piccola organizzazione, come la società dimostrativa CRONUS, la maggior 
 ## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)  
-[Impostazione o modifica del piano dei conti](finance-setup-chart-accounts.md)  
+[Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 

@@ -10,12 +10,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a9f83f30a28011ea4722b529609bb9daa5e1a479
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 85445267dac39103ed9851604182f09cc9819ea0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383781"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522670"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrare i prezzi di acquisto e gli sconti speciali
 > [!NOTE]
@@ -40,13 +40,13 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda fornitore interessata e scegliere l'azione **Prezzi**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Compilare una riga per ogni combinazione per la quale il fornitore concede uno sconto riga acquisto.
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Scegliere il fornitore, quindi l'azione **Listini prezzi di vendita**. 
 3. Scegliere **Nuovo** per creare un nuovo listino prezzi di acquisto.
 4. Nelle Schede dettaglio **Generale** e **Imposta** compilare i campi appropriati. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,7 +59,7 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 ---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Per impostare uno sconto riga per un fornitore
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda fornitore interessata e scegliere l'azione **Sconti riga**.
 
     Il campo **Tipo di acquisto** è già impostato su **Fornitore** e il campo **Codice acquisto** è impostato sul numero del fornitore.
@@ -143,7 +143,7 @@ Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato n
 ## <a name="see-also"></a>Vedere anche
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 116c19964bde7cc58a2c90be1f6b9143ceca3af6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec85406518757c9ba2b8560e88153dc5c6d899b6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132734"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515357"
 ---
 # <a name="subcontract-manufacturing"></a>Gestire le attività di conto lavoro
 
@@ -52,7 +52,7 @@ La pagina **Prospetto conto lavoro** funziona come il **Prospetto pianific.** ne
 >  È possibile accedere e utilizzare da un prospetto conto lavoro solo gli ordini di produzione con stato **Rilasciato**.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Per calcolare il prospetto conto lavoro  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto conto lavoro**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto conto lavoro**, quindi scegli il collegamento correlato.  
 2.  Per calcolare il prospetto, scegliere l'azione **Calcolo conto lavoro**.  
 3.  Nella pagina **Calcolo conto lavoro** impostare i filtri per le operazioni in conto lavoro o le aree di produzione in cui vengono effettuate, per calcolare soltanto gli ordini di produzione desiderati.  
 4.  Scegliere il pulsante **OK**.  
@@ -60,7 +60,7 @@ La pagina **Prospetto conto lavoro** funziona come il **Prospetto pianific.** ne
     Esaminare le righe nella pagina **Prospetto conto lavoro**. Le informazioni presenti in questo prospetto provengono dall'ordine di produzione e dalle righe del ciclo dell'ordine di produzione e vengono trasmesse all'ordine di acquisto quando questo viene creato. Analogamente agli altri prospetti, è possibile eliminare una riga dal prospetto senza influire sulle informazioni generali. Le informazioni verranno visualizzate di nuovo alla successiva esecuzione della funzione **Calcolo conto lavoro**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Per creare l'ordine di acquisto conto lavoro  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto conto lavoro**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto conto lavoro**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Esegui messaggi di azione**.  
 3.  Selezionare il campo **Stampa ordini** per stampare l'ordine di acquisto mentre viene creato.  
 4.  Scegliere il pulsante **OK**.  
@@ -73,7 +73,7 @@ Le righe del prospetto trasformate in ordine di acquisto vengono eliminate dal p
 Dopo avere creato gli ordini di acquisto conto lavoro, è possibile registrarli. La ricezione dell'ordine comporta la pubblicazione di un movimento contabile capacità nell'ordine di produzione, mentre la fatturazione dell'ordine comporta la registrazione del costo diretto dell'ordine di acquisto nell'ordine di produzione.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Per registrare un ordine di acquisto conto lavoro  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 2.  Aprire un ordine di acquisto creato dal prospetto conto lavoro.  
 
     Nelle righe ordine di acquisto è possibile visualizzare le stesse informazioni presenti nel prospetto. I campi **Nr. ordine produzione**, **Nr. riga ordine prod.**, **Nr. operazione** e **Nr. area produzione** vengono compilati con le informazioni dall'ordine di produzione di origine.  
@@ -95,7 +95,7 @@ Quando l'ordine di acquisto viene registrato come fatturato, il costo diretto de
 [Pianif.](production-planning.md)      
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

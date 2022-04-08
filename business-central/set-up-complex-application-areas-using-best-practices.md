@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 317e8af407722be22babde39e1ac24ce5f8a6867
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b0ab0afa97af7c0fda88c963a585a2e1ba481dd6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128619"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516007"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Impostare aree di applicazione complesse utilizzando le procedure ottimali
 Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio.  
@@ -30,7 +30,7 @@ Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i
 ## <a name="see-also"></a>Vedi anche  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

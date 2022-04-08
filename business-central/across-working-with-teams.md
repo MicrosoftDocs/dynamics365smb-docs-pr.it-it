@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147114"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528451"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Condivisione di record e link di pagine di Business Central in Microsoft Teams
 
@@ -45,7 +45,7 @@ Le sezioni seguenti descrivono i diversi modi in dettaglio.
 
 Con l'applicazione Business Central per Teams, puoi copiare un link da qualsiasi record di Business Central, come un cliente o un ordine di vendita, e incollare il link in una conversazione di Teams. L'app collega Microsoft Teams ai dati aziendali in [!INCLUDE [prod_short](includes/prod_short.md)]\. Poi espande il link in una scheda compatta e interattiva che visualizza le informazioni sul record. Una volta nella conversazione, l'utente e i colleghi possono visualizzare ulteriori dettagli sul record, modificare i dati e intraprendere azioni, senza uscire da Teams.
 
-[![Integrazione di Teams con Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Integrazione di Teams con Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Prerequisiti
 
@@ -60,38 +60,36 @@ Con l'applicazione Business Central per Teams, puoi copiare un link da qualsiasi
 1. Accedere a [!INCLUDE [prod_short](includes/prod_short.md)] utilizzando il browser.
 2. Aprire il record che si desidera condividere.
 
-    L'applicazione è progettata per visualizzare pagine di tipo carta da [!INCLUDE [prod_short](includes/prod_short.md)]\. Quindi aprire una pagina che visualizza un singolo record, come un articolo, un cliente o un ordine di vendita. Non è possibile utilizzarla per la Gestione ruolo utente o le pagine che visualizzano più record in un elenco.
+    L'app è progettata per visualizzare una scheda per pressoché ogni tipo di pagina [!INCLUDE [prod_short](includes/prod_short.md)]. Ma offre la migliore esperienza quando viene utilizzato per le pagine che visualizzano un singolo record, come un articolo, un cliente o un ordine cliente.
+3. Copia il collegamento alla pagina.
 
-3. Copiare l'intero URL dalla barra degli indirizzi del browser.
+    Il collegamento può essere copiato in due modi: Il modo più semplice e preferito è selezionare **Condividi** ![Icona Condividi in Business Central](media/share-icon.png) > **Copia collegamento**. L'altro modo è copiare l'URL completo dalla barra degli indirizzi del browser.
 
-   ![Copia l'URL di Business Central dal browser.](media/teams-url-v2.png)
+    [![Copia l'URL di Business Central dal browser.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Accedere a Teams e avviare una conversazione, che può essere una chat con una persona, un gruppo di persone o un canale del team.
+5. Incolla il collegamento (URL) nella casella del messaggio in cui componi un messaggio.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Incollare l'URL nella casella del messaggio in cui si compone un messaggio.
+    ![Incolla l'URL di Business Central in Teams.](media/teams-paste-url-v2.png)
 
-   ![Incolla l'URL di Business Central in Teams.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Se ricevi un messaggio del tipo: *Business Central vuole mostrare un'anteprima di questo collegamento*, significa che non hai installato l'app Business Central per Teams. Per installare l'app, seleziona **Mostra anteprima** e segui le istruzioni.
 6. La prima volta che si incolla un collegamento in una conversazione, verrà richiesto di accedere a [!INCLUDE [prod_short](includes/prod_short.md)] e fornire il consenso all'app per il recupero dei dati. Seguire le istruzioni sullo schermo.
 
     > [!NOTE]
     > È necessario eseguire questo passaggio solo una volta.
-
 7. Attendere mentre viene generata una scheda nella casella del messaggio.
-
 8. Quando viene visualizzata la scheda, esaminare attentamente il contenuto della scheda per eventuali informazioni sensibili prima di inviare il messaggio. Questo passaggio è importante perché una volta inviato il messaggio, tutti i partecipanti alla conversazione possono vedere la scheda.
-
 9. Se la scheda ha l'aspetto desiderato, selezionare **Invia** per inviarla alla conversazione.
 
     > [!TIP]
     > Dopo che viene visualizzata la scheda e prima di selezionare **Invia** è possibile eliminare l'URL incollato, se desiderato.
-
 10. Per visualizzare ulteriori dettagli o apportare modifiche al record visualizzato nella scheda, selezionare **Dettagli**. Per ulteriori informazioni, vedere la sezione seguente.
 
 ### <a name="view-card-details"></a>Visualizzare i dettagli della scheda
 
-Una volta che una scheda è stata inviata a una conversazione, tutti i partecipanti con le [autorizzazioni adeguate](admin-teams-integration.md#permissions) possono selezionare **Dettagli** per aprire una finestra che visualizza ulteriori informazioni sul record ed eventualmente apportare modifiche al record. Non importa se sei tu a inviare la scheda o a riceverla. La funzionalità **Dettagli** è particolarmente utile per i destinatari, perché fornisce loro rapidamente informazioni concise e mirate sul record, anziché dover eseguire la scansione dell'intero record.
+Una volta che una scheda è stata inviata a una conversazione, tutti i partecipanti con le [autorizzazioni adeguate](admin-teams-integration.md#permissions) possono selezionare **Dettagli** per aprire una finestra che visualizza ulteriori informazioni sul record ed eventualmente apportare modifiche al record. Non importa se sei tu a inviare la scheda o a riceverla. La funzionalità **Dettagli** è particolarmente utile per i destinatari, perché fornisce loro rapidamente informazioni concise e mirate sul record.
 
-La finestra dei dettagli è simile a quella che viene visualizzata nel record di [!INCLUDE [prod_short](includes/prod_short.md)]. Tuttavia è leggermente adattata per Teams. Al termine della visualizzazione e delle modifiche, chiudere la finestra per tornare alla conversazione di Teams.
+La finestra dei dettagli è simile a quella di [!INCLUDE [prod_short](includes/prod_short.md)], ma è focalizzata sulla pagina o sul record a cui si riferisce la scheda. Al termine della visualizzazione e delle modifiche, chiudere la finestra per tornare alla conversazione di Teams.
 
 Ecco un paio di cose da tenere a mente quando si utilizzano i dettagli della scheda:
 

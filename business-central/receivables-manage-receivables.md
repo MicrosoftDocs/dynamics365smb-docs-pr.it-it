@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 50745f63879bf3aa0610a0109950bdd9d88a676c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f5f701f4c26b81140fd87a81aa47591d268c8203
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137161"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510793"
 ---
 # <a name="managing-receivables"></a>Gestione della contabilità clienti
 
@@ -52,7 +52,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 ## <a name="see-also"></a>Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 99000867
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: dd9010e055e5e24cafb87846b8eed98f54d83474
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 375b6a4a57ae75a2f471db96cee5611736b39f34
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147832"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520440"
 ---
 # <a name="about-finished-production-order-costs"></a>Informazioni sui costi di un ordine di produzione chiuso
 
@@ -21,11 +21,11 @@ La chiusura di un ordine di produzione è un'attività importante nel completame
 
 In un ambiente di costi standard, quando si consuma materiale per produrre un articolo, detto semplicemente, il costo dell'articolo più i costi generali e di manodopera confluiscono nel WIP. Quando l'articolo viene prodotto, il WIP viene ridotto dell'importo del costo standard dell'articolo. In genere, questi costi netti non sono uguali a zero. Perché l'importo sia uguale a zero, è necessario eseguire il processo batch **Rettifica costo - Movimenti articoli**, notando che solo gli ordini di produzione con stato **Completato** verranno considerati per la rettifica.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

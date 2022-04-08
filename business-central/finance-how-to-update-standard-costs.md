@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd79e723ea86f3e5631a571a26a061c84adab518
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4bada4ee28df77cc9700d5957ef8fb8b1a64535b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141127"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517448"
 ---
 # <a name="update-standard-costs"></a>Aggiornare i costi standard
 Periodicamente è necessario aggiornare i costi standard dei componenti ed eseguire il rollup dei nuovi costi nell'articolo padre. Il processo in genere è costituito dai quattro passaggi seguenti:  
@@ -46,7 +46,7 @@ Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard]
  [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)   
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
  [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md) [Contabilità](finance.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

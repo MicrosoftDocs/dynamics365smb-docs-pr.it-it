@@ -8,12 +8,12 @@ ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
 ms.date: 02/22/2022
 ms.author: edupont
-ms.openlocfilehash: 48d8ee794c9259a19b22dfcb7c6203f489bf3534
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366238"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511298"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -103,7 +103,7 @@ L'amministratore del tuo [!INCLUDE[prod_short](includes/prod_short.md)] e il tuo
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Estendere la versione di valutazione](admin-extend-trial.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Domande frequenti](across-faq.yml)  
 [Come trovare un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner)  
 [Migrazione dei dati](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec67d201d89b01b38b86edbeb6dcd3ea0148153
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f9cd8d837d94e9f90e48f84d4209bc3427d0b922
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147650"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523399"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. Ad esempio, le tolleranze pagamento sono in genere per importi di piccola entità per cui costerebbe di più la correzione che semplicemente accettarli. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
@@ -44,11 +44,11 @@ Per ulteriori informazioni, vedere [Abilitare o disabilitare gli avvisi di tolle
 Le tolleranze relative a giorni e importi consentono di chiudere una fattura anche se il pagamento non copre l'intero importo riportato in fattura per svariati motivi. È ad esempio possibile che la data di scadenza per lo sconto sul pagamento sia stata superata, che siano state dedotte determinate merci oppure a causa di un semplice errore. Lo stesso principio è valido anche per note di credito e rimborsi.  
 
 Per impostare le tolleranze è necessario impostare vari conti di tolleranza, specificare entrambi i metodi di registrazione della tolleranza di sconto sul pagamento e della tolleranza di pagamento, quindi eseguire il processo batch **Modifica tolleranza pagamento**.  
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.  
 2. Aprire la pagina **Setup registrazioni COGE**, impostare un conto di tolleranza a debito e a credito dei pagamenti relativi alle vendite e un conto di tolleranza a debito e a credito dei pagamenti relativi agli acquisti.  
-3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cat. reg. clienti**, quindi scegli il collegamento correlato.    
+3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cat. reg. clienti**, quindi scegli il collegamento correlato.    
 4. Aprire la pagina **Cat. reg. clienti**, impostare un conto di tolleranza a debito e a credito dei pagamenti. Per ulteriori informazioni, vedere [Impostazione delle categorie di registrazione](finance-posting-groups.md).  
-5. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni fornitori**, quindi scegli il collegamento correlato.  
+5. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup registrazioni fornitori**, quindi scegli il collegamento correlato.  
 6. Aprire la pagina **Cat. reg. fornitori**, impostare un conto di tolleranza a debito e a credito dei pagamenti.  
 7. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 8. Aprire la pagina **Setup contabilità generale**.  
@@ -257,11 +257,11 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

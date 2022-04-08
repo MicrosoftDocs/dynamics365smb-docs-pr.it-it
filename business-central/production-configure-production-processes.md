@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2edca2f2a5b89575810ed2aa0ad3898cd6d01d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 45fec99ad6082f8d0bb7258415477df833712b41
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135031"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523321"
 ---
 # <a name="setting-up-manufacturing"></a>Impostazione della produzione
 
@@ -41,12 +41,12 @@ Dopo l'impostazione della produzione, è possibile pianificare ed eseguire gli o
 |Utilizzare task standard per semplificare la creazione di cicli allegando rapidamente informazioni supplementari a operazioni periodiche.|[Impostare righe di ciclo standard](production-how-set-up-standard-routing-lines.md)|  
 |Preparare le aree di produzione e i cicli per rappresentare le operazioni di produzione in conto lavoro.|[Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 [Manufacturing](production-manage-manufacturing.md)
 [Pianificazione](production-planning.md)   
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

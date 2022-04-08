@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0498ac73900c151bab10ad10ac7bbf85ebdd8526
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c663da3b9f16860dd3e490d01c8f3f78928e9e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129476"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519442"
 ---
 # <a name="set-up-put-away-templates"></a>Impostare i modelli di stoccaggio
 
@@ -24,7 +24,7 @@ Grazie alla funzionalità per stoccaggi e prelievi guidati, viene suggerita in q
 
 ## <a name="to-set-up-put-away-templates"></a>Per impostare i modelli di stoccaggio
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli di stoccaggio**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Modelli di stoccaggio**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Specificare un codice che costituisce l'identificatore unico del modello da creare.  
 4. Se lo si desidera, immettere una breve descrizione.  
@@ -43,8 +43,8 @@ Grazie alla funzionalità per stoccaggi e prelievi guidati, viene suggerita in q
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

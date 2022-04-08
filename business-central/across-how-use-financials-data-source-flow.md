@@ -9,14 +9,14 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 07/27/2021
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: 7335092e74c0f681ba14a81a7045f2688fbb1df4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 62718df1c80cb419501b72bcbdb6d7a6f9f18402
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133358"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518469"
 ---
-# <a name="using-prod_short-in-an-automated-workflow"></a>Uso di [!INCLUDE[prod_short](includes/prod_short.md)] in un workflow automatizzato
+# <a name="use-prod_short-in-an-automated-workflow"></a>Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] in un flusso di lavoro automatizzato
 
 È possibile utilizzare i dati di [!INCLUDE[prod_short](includes/prod_short.md)] come parte di un flusso di lavoro in Microsoft Power Automate.
 

@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147166"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510924"
 ---
-# <a name="working-with-power-bi-reports-in-prod_short"></a>Utilizzo dei report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-prod_short"></a>Utilizzare i report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)]
 
 In questo articolo vengono spiegate alcune delle nozioni di base sulla visualizzazione dei report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -65,7 +65,7 @@ La connessione a Power BI da [!INCLUDE [prod_short](includes/prod_short.md)] è 
 
 Una volta connessi è possibile selezionare un report dalla parte Power BI nelle pagine.
 
-## <a name="working-with-power-bi-reports"></a>Utilizzo dei report Power BI
+## <a name="work-with-power-bi-reports"></a>Utilizzare i report Power BI
 
 ### <a name="show-reports-on-list-pages"></a>Visualizza i report sulle pagine di elenco
 
@@ -109,7 +109,7 @@ Per caricare un report, selezionare l'azione **Carica report** dall'elenco a dis
 Dopo che il report è stato caricato nell'area di lavoro Power BI viene automaticamente caricato nelle aree di lavoro Power BI degli altri utenti.
 
 > [!NOTE]
-> Il caricamento di un report richiede privilegi avanzati in [!INCLUDE[prod_short](includes/prod_short.md)]. Inoltre, non è possibile caricare report con [!INCLUDE [prod_short](includes/prod_short.md)] locale. Con la soluzione locale i report vengono caricati direttamente nell'area di lavoro Power BI. Per ulteriori informazioni, vedere [Utilizzo dei dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI](across-working-with-business-central-in-powerbi.md).
+> Il caricamento di un report richiede privilegi avanzati in [!INCLUDE[prod_short](includes/prod_short.md)]. Inoltre, non è possibile caricare report con [!INCLUDE [prod_short](includes/prod_short.md)] locale. Con la soluzione locale i report vengono caricati direttamente nell'area di lavoro Power BI. Per ulteriori informazioni, vedi [Utilizzare dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI](across-working-with-business-central-in-powerbi.md).
 
 ## <a name="fixing-problems"></a>Risolvere i problemi
 
@@ -134,7 +134,7 @@ Probabilmente è perché il nome del report non contiene il nome della pagina di
 [Business Central e Power BI](admin-powerbi.md)  
 [Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  
 [Componente di integrazione Power BI e panoramica dell'architettura per [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Utilizzo di dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Utilizzare i dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI](across-working-with-business-central-in-powerbi.md)  
 [Power BI per i consumatori](/power-bi/consumer/end-user-consumer)  
 [Il "nuovo look" del servizio Power BI](/power-bi/service-new-look)  
 [Avvio rapido: connettersi ai dati in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -143,9 +143,9 @@ Probabilmente è perché il nome del report non contiene il nome della pagina di
 [Preparazione al business](ui-get-ready-business.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Uso di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
-[Uso di [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

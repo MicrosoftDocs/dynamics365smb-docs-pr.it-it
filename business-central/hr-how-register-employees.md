@@ -10,12 +10,12 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b76ce1b15dde904ad3257b6f849e3629f293206c
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: fbf1647b23733beffc005b617beff185b183a6fe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372054"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519097"
 ---
 # <a name="register-employees"></a>Registrare i dipendenti
 
@@ -35,7 +35,7 @@ I dettagli di un impiegato possono essere modificati in qualsiasi momento. Mante
 
 ## <a name="to-set-up-an-employee"></a>Per impostare un impiegato
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Dipendenti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Dipendenti**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella pagina **Scheda impiegato** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -63,11 +63,11 @@ Nella scheda del dipendente, è possibile impostare informazioni, quali la tesse
 4. Nella pagina **Lista indirizzi alternativi** compilare i campi in base alle esigenze.
 5. Ripetere il passaggio 4 per ogni indirizzo alternativo.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)
 
 

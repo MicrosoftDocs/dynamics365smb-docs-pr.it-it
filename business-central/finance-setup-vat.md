@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80264ff085ab9d88a2d6a32d8f0f1189b3622832
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383673"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519227"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Setup dei calcoli e registrazione dei metodi per l'IVA
 
@@ -31,7 +31,7 @@ I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acq
 > [!NOTE]  
 > Si può utilizzare questa procedura guidata solo se è stata creata una società La mia azienda e se non sono state registrate transazioni con IVA. In caso contrario, sarebbe molto facile utilizzare erroneamente diverse aliquote IVA e rendere inaccurati i report sull'IVA.  
 
-Se si desidera impostare i calcoli IVA manualmente, o se si desidera conoscere ciascun passaggio, in questo argomento vengono fornite descrizioni per ogni fase.  
+Se vuoi impostare i calcoli IVA manualmente, o se vuoi conoscere ciascun passaggio, in questo articolo vengono fornite descrizioni per ogni fase.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -44,6 +44,14 @@ Per avviare la Guida assistita al setup, attenersi a questa procedura:
 1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Setup assistito**.  
 2. Scegliere **Imposta l'IVA** e completare i passaggi.
 3. Dopo aver completato il setup assistito, visita la pagina **Setup registrazioni IVA** e verifica se è necessario compilare campi aggiuntivi in base ai requisiti della versione di [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Funzionalità locale in Business Central](about-localization.md)  
+
+### <a name="check-the-vat-posting-setup"></a>Controllare il setup registrazioni IVA
+
+Per aiutarti a iniziare velocemente, [!INCLUDE [prod_short](includes/prod_short.md)] ti mostrerà le notifiche se mancano conti di contabilità generale (C/G) nelle categorie di registrazione o nei setup di registrazione, come la pagina **Setup registrazioni IVA**. Puoi attivare o disattivare questo tipo di notifica utilizzando la notifica *Il conto C/G non è presente nel setup o nella categoria di registrazione* nella pagina **Notifiche personali**. Vai alla pagina **Impostazioni personali** e scegli *Modifica il momento in cui ricevere le notifiche*. .  
+
+Se scegli una tale notifica, [!INCLUDE [prod_short](includes/prod_short.md)] crea automaticamente i setup registrazioni in base alle categorie di registrazione nel documento o nella registrazione su cui stai attualmente lavorando.  
+
+A questo punto, puoi semplicemente compilare i conti C/G mancanti. Quindi, in seguito, quando perfezioni ulteriormente la configurazione, potresti renderti conto che questa configurazione era sbagliata. [!INCLUDE [prod_short](includes/prod_short.md)] non consente l'eliminazione del setup registrazioni IVA e del setup registrazioni COGE quando sono presenti movimenti creati in base a tali configurazioni. A partire dal primo ciclo di rilascio del 2022, puoi utilizzare il campo **Bloccato** della pagina **Setup registrazioni IVA** per impedire agli utenti di utilizzare erroneamente un'impostazione che non è più rilevante per le nuove registrazioni.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Impostare i numeri di partita IVA per il paese o l'area geografica
 
@@ -94,7 +102,7 @@ Per impostare una categoria di registrazione business IVA, attenersi a questa pr
 Per combinare setup di registrazioni IVA, attenersi a questa procedura:
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 5.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni IVA**, quindi scegli il collegamento correlato.
-2. Compilare i campi in base alle esigenze.
+2. Compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Assegnare le categorie di registrazione IVA per impostazione predefinita a più entità
 

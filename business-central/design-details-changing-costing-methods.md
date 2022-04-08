@@ -10,12 +10,12 @@ ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6803d47ec9e7be0abe7962fd881f5cdacf8865c4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1f726a40e23fcfcc5d00616965111254ebcd14d8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383587"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512336"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Dettagli di progettazione: modifica dei metodi di costing per gli articoli
 
@@ -45,7 +45,7 @@ Quando si impostano gli articoli di inventario, è necessario assegnare un metod
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).
 
-## <a name="using-assembly-orders-to-change-costing-method-assignments"></a>Utilizzo degli ordini di assemblaggio per modificare le assegnazioni del metodo di costing
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Utilizzare gli ordini di assemblaggio per modificare le assegnazioni del metodo di costing
 
 Questa sezione descrive i seguenti passaggi per modificare il metodo di costing assegnato a un articolo:
 

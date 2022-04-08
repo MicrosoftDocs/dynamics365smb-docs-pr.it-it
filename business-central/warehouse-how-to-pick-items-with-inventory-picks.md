@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0f0bf09670620a36ee696fdc9d1483a2c33f77b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: edb133005292c0309de09273b6a2c5c43669eeed
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144335"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514727"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
 
@@ -35,7 +35,7 @@ Quando un'ubicazione è impostata in modo da richiedere l'elaborazione dei preli
 
 Per gli ordini di vendita, gli ordini di reso acquisto e gli ordini di trasferimento in uscita, creare la richiesta warehouse emettendo l'ordine. Di seguito viene descritto come eseguire l'operazione da un ordine di vendita.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Selezionare l'ordine di vendita che si intende rilasciare, quindi scegliere l'azione **Rilascio**.
 
 Per gli ordini di produzione, creare automaticamente la richiesta warehouse per il prelievo di componenti, chiamata *consuntivazione*, quando lo stato dell'ordine di produzione viene modificato in **Rilasciato** oppure quando viene creato l'ordine di produzione rilasciato. Per ulteriori informazioni, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md).
@@ -46,7 +46,7 @@ Dopo aver creato la richiesta warehouse, un dipendente della warehouse addetto a
 
 Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un nuovo prelievo da magazzino basato sul documento di origine rilasciato.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi magazzino**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi magazzino**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
     Assicurarsi che il campo **Nr.** della Scheda dettaglio **Generale** sia compilato.
 3. Nel campo **Documento origine** selezionare il tipo di documento di origine per cui si esegue il prelievo.  
@@ -62,7 +62,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Per creare più prelievi magazzino utilizzando un processo batch
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea stoccaggio/Prelievo mag.**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Crea stoccaggio/Prelievo mag.**, quindi seleziona il collegamento correlato.  
 2. Nella Scheda dettaglio **Richiesta warehouse**, utilizzare i campi **Nr. origine** e **Documento origine** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti. Ad esempio, è possibile creare prelievi solo per gli ordini di vendita.  
 3. Nella Scheda dettaglio **Opzioni**, selezionare la casella di controllo **Crea prelievo mag.**.
 4. Scegliere il pulsante **OK**. Verranno creati i prelievi magazzino specificati.
@@ -119,8 +119,8 @@ Negli scenari di combinazione, in cui una parte della quantità deve essere asse
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Procedura dettagliata: prelievo e spedizione nelle configurazioni di warehouse di base](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

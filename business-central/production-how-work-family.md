@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000790, 99000791, 99000792, 99000793
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d786da721738c6c8907232d510954d2dcba224e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9732817de350d4fe709802b9726a3ad8d364ec5e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135005"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521912"
 ---
 # <a name="work-with-production-families"></a>Utilizzare famiglie di prodotti
 
@@ -30,12 +30,12 @@ La creazione di famiglie di produzione riduce le quantità di scarto perché ci�
 
 ## <a name="to-set-up-a-production-family"></a>Per impostare una famiglia di prodotti
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Famiglie**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Famiglie**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-family"></a>Per produrre in base a una famiglia di prodotti
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.
 2. Creare un nuovo ordine di produzione. Per ulteriori informazioni, vedere [Creare ordini di produzione](production-how-to-create-production-orders.md).
 3. Nel campo **Tipo origine**, selezionare **Famiglie di prodotti**.  
 4. Nel campo **Nr. risorsa**, selezionare la famiglia di prodotti pertinente.
@@ -48,7 +48,7 @@ La creazione di famiglie di produzione riduce le quantità di scarto perché ci�
 [Pianificazione](production-planning.md)   
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

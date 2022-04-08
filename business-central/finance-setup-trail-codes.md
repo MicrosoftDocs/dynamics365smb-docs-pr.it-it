@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d89c5795b9f4d0115469a505305bf3264eab613
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 08545d1bb23b8a70d10c6114f4840ce186aa94cc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133760"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515565"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Impostazione di codici sorgente e causali per audit trail
 
@@ -85,16 +85,16 @@ La causale selezionata verrà copiata nei nuovi batch di registrazioni creati in
 
 Quando la fattura viene registrata, la causale viene copiata in ogni movimento C/G, cliente e fornitore. Non è possibile assegnare causali diverse a singole righe di acquisto e vendita, perché tutte le righe vengono registrate come un unico movimento.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
-[Utilizzo delle dimensioni](finance-dimensions.md)  
+[Utilizzare le dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

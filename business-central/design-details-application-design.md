@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/26/2021
 ms.author: edupont
-ms.openlocfilehash: 5cec98907fd3ab3b95763abd45e03038e8ccec35
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 886099234469a475e831d8f767d0aa1cf0023ece
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146750"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518261"
 ---
 # <a name="application-design-details"></a>Dettagli di progettazione dell'applicazione
 
@@ -38,6 +38,6 @@ Il contenuto di Dettagli di progettazione è destinato a implementatori, svilupp
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Impostazione di aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

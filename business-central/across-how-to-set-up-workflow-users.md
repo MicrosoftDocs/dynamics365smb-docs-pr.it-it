@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a650f2e756f8b2be6008c7f7abc7c62290023bb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134254"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522380"
 ---
 # <a name="set-up-workflow-users"></a>Impostare gli utenti del workflow
 
@@ -44,12 +44,12 @@ Anche gli utenti del workflow che agiscono da utenti dell'approvazione, sia i ri
 6. Ripetere il passaggio 5 per aggiungere altri utenti del flusso di lavoro nel gruppo di utenti.  
 7. Ripetere i passaggi da 2 a 6 per aggiungere altri gruppi di utenti del flusso di lavoro.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Impostazione dei workflow](across-set-up-workflows.md)  
-[Utilizzo dei workflow](across-use-workflows.md)  
-[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Utilizzare i workflow](across-use-workflows.md)  
+[Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
 
 

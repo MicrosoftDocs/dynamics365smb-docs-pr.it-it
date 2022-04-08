@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: a55d0d32873783adf049b44d90cc12b6e66080a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0301e17b0082c2ac7be37670757065e4ff6fcaf7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144777"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513733"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Combinare le spedizioni in una singola fattura
 Se si desidera fatturare più di una spedizione per volta, utilizzare la funzionalità per le spedizioni cumulate.  
@@ -22,7 +22,7 @@ Se si desidera fatturare più di una spedizione per volta, utilizzare la funzion
 Prima di creare una spedizione cumulata, è necessario che venga registrata più di una spedizione di vendita per lo stesso cliente nella stessa valuta. In altri termini, è necessario creare due o più ordini di vendita e registrarli come spediti, ma non fatturati. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Per combinare manualmente le spedizioni in una singola fattura  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Fatturare le vendite](sales-how-invoice-sales.md).
 3. Nel campo **Vendere a - Nr. cliente** immettere il cliente che riceverà la fattura per gli articoli spediti.  
 4. Nella Scheda dettaglio **Righe** scegliere l'azione **Prendi righe di spedizione**.  
@@ -40,7 +40,7 @@ Prima di creare una spedizione cumulata, è necessario che venga registrata più
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Per combinare automaticamente le spedizioni in una singola fattura  
 [!INCLUDE[prod_short](includes/prod_short.md)] selezionerà solo gli ordini di vendita in cui **Fatture cumulative** è scelto. 
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture cumulative**, quindi scegli il collegamento correlato. Viene visualizzata la pagina di richiesta del processo batch.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture cumulative**, quindi scegli il collegamento correlato. Viene visualizzata la pagina di richiesta del processo batch.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Scegliere la casella di controllo **Registra fatture**.  
 4. Scegliere il pulsante **OK**.  
@@ -53,7 +53,7 @@ Quando le spedizioni vengono cumulate in una fattura e registrate, per le righe 
 
 Quando si fatturano spedizioni in questo modo, gli ordini da cui sono state registrate le spedizioni vengono mantenuti, anche se sono già stati completamente spediti e fatturati.   
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Elimina ordini vendita fatturati**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Elimina ordini vendita fatturati**, quindi seleziona il collegamento correlato.  
 2. Specificare nel campo del filtro **Nr.** quali ordini di vendite eliminare.  
 3. Scegliere il pulsante **OK**.  
 
@@ -63,7 +63,7 @@ Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esemp
 
 ## <a name="see-also"></a>Vedere anche  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Configurazione di nuove società | Documenti Microsoft
-description: È possibile configurare e personalizzare una nuova società creata. Per definire i dettagli dell'implementazione, occorre eseguire tre fasi per completare la configurazione.
+title: Configurare nuove società
+description: È possibile configurare e personalizzare una nuova società creata con RapidStart Services. Per definire i dettagli dell'implementazione, occorre eseguire tre fasi per completare la configurazione.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0964028b7d6e711e48e1361950d1ec6b4e14425
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8b3bdea227d5314d4b4f218fed59906db1995180
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130802"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515773"
 ---
-# <a name="configure-new-companies"></a>Configurare nuove società
+# <a name="configure-new-companies-with-rapidstart-services"></a>Configurare nuove società con RapidStart Services
 Per configurare una nuova società nell'implementazione della soluzione, in genere occorre seguire tre fasi. La prima fase prevede di importare il pacchetto di configurazione, ovvero un file .rapidstart con informazioni sulla configurazione. Nella seconda fase vengono modificate le informazioni sulla configurazione e collegate alla nuova società. La fase finale consiste nell'analisi e nella correzione degli eventuali errori.  
 
 Le procedure riportate di seguito presuppongono che sia stato creato e salvato un pacchetto di configurazione. Per ulteriori informazioni, vedere [Preparazione di un pacchetto di configurazione](admin-how-to-prepare-a-configuration-package.md).  

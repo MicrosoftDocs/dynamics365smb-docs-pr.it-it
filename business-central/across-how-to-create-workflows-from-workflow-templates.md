@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 038494ebd8442c20239bc2426754389117ed95c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147270"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521334"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Creare workflow da modelli di workflow
 Per risparmiare tempo durante la creazione di nuovi workflow, è possibile creare i workflow da modelli di workflow.  
@@ -28,7 +28,7 @@ Per risparmiare tempo durante la creazione di nuovi workflow, è possibile crear
 Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Per creare un flusso di lavoro da un modello di flusso di lavoro  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Crea flusso di lavoro da modello**. Verrà aperta la pagina **Modelli del workflow**.  
 3.  Selezionare un modello di flusso di lavoro e scegliere il pulsante **OK**.  
 
@@ -40,9 +40,9 @@ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle
  [Importare ed esportare workflow](across-how-to-export-and-import-workflows.md)   
  [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)   
  [Eliminare i workflow](across-how-to-delete-workflows.md)   
- [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Impostazione dei workflow](across-set-up-workflows.md)   
- [Utilizzo dei workflow](across-use-workflows.md)   
+ [Utilizzare i flussi di lavoro](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
 
 

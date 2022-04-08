@@ -11,12 +11,12 @@ ms.search.keywords: Posted document, editable, posted sales shipment, posted pur
 ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 09b6180606ba92c6f5fbaeeb5aca6a0ce7c70a7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c8e4dde3ddf684f9402b98634cbc74c34058933
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136558"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519946"
 ---
 # <a name="edit-posted-documents"></a>Modifica dei documenti registrati
 
@@ -42,7 +42,7 @@ I seguenti documenti aggiuntivi possono essere modificati nei paesi/aree geograf
 
 Di seguito viene spiegato come modificare una spedizione vendita registrata. I passaggi sono simili per gli altri documenti supportati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.
 2. Selezionare il documento che si desidera modificare, quindi scegliere l'azione **Aggiorna documento**. In alternativa, aprire il documento e scegliere l'azione.
 3. Nella pagina **Spedizioni vendita registrate - Aggiornamento** modificare il campo **Nr. identificazione collo**, ad esempio.
 4. Scegliere il pulsante **OK**.
@@ -54,7 +54,7 @@ La spedizione vendita registrata viene aggiornata.
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

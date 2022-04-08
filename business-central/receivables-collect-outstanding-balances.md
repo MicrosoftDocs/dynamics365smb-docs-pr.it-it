@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 6, 25, 440, 448, 452
+ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0974cce66734c5a25d87e87052fa82ad1e2a1c53
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 271b9f032df685b5eac1c3bddca037326ea4c1d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366938"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520736"
 ---
 # <a name="collect-outstanding-balances"></a>Riscuotere i saldi inevasi
 
@@ -29,7 +29,7 @@ Dalla scheda cliente, è possibile creare un estratto conto con le transazioni d
 
 ### <a name="to-send-the-customer-statement-report"></a>Per inviare il report estratto conto cliente
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 10](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Rendiconto cliente**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi 10](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Rendiconto cliente**, quindi scegli il collegamento correlato.
 2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In **Opzioni output** selezionare una modalità di invio del report al cliente.
 
@@ -59,7 +59,7 @@ Dopo avere creato le note di addebito interessi e apportato le modifiche necessa
 
 Una nota di addebito di interessi è simile a una fattura. È possibile compilare una testata manualmente e le righe automaticamente, oppure le note di addebito di interessi possono venire create automaticamente per tutti i clienti.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Note addebito interessi**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Note addebito interessi**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** e compilare i campi necessari.  
 3. Scegliere l'azione **Sugg. righe note add. int.**
 4. Se si desidera creare note di addebito interessi solo per movimenti specifici, impostare un filtro nella Scheda dettaglio **Mov. contabili clienti** della pagina **Sugg. righe note add. int.**.
@@ -71,7 +71,7 @@ Una nota di addebito di interessi è simile a una fattura. È possibile compilar
 ### <a name="to-update-finance-charge-memo-texts"></a>Per aggiornare i testi delle note di addebito di interessi  
 Talvolta può essere necessario modificare il testo iniziale e finale impostato per le condizioni degli interessi finanziari. Se la modifica viene effettuata dopo la creazione ma prima dell'emissione di note di addebito di interessi, è possibile aggiornare le note con il testo modificato.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 3](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Nota addebito interessi**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi 3](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Nota addebito interessi**, quindi scegli il collegamento correlato.  
 2. Aprire la nota di addebito degli interessi per cui si desidera modificare il testo di quindi scegliere l'azione **Aggiorna testi add. int.**.
 3. Nella pagina **Aggiorna testi add. int.** è possibile impostare un filtro per aggiornare più note.
 4. Scegliere **OK** per aggiornare il testo iniziale e finale.  
@@ -121,7 +121,7 @@ All'emissione di un sollecito, nella pagina **Mov. soll./Note add. int.** viene 
 [Impostare condizioni interessi finanziari](finance-setup-finance-charges.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

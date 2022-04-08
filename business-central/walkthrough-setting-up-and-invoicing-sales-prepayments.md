@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: b21a0dcd4122eb37cdac8f3acf33cf27e6c66414
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140191"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518733"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
 
@@ -71,7 +71,7 @@ Le seguenti procedure illustrano come svolgere i task di Barbara:
 
 ### <a name="to-set-up-number-series-for-prepayments"></a>Per impostare la numerazione per i pagamenti anticipati
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup contabilità clienti** espandere la Scheda dettaglio **Numerazioni**.  
 3. Verificare che la numerazione per le fatture di pagamento anticipato registrate nel campo **Nr. fatt. pagam. ant. reg.** sia la stessa delle fatture di vendita registrate (**Nr. fatture registrate**) e che la numerazione per le note di credito registrate per i pagamenti anticipati (**Nr. note cr. pagam. ant. reg.**) sia la stessa delle note di credito registrate (**Nr. note credito registrate**).  
 
@@ -232,11 +232,11 @@ Inoltre, è stata registrata una fattura di pagamento anticipato, creata una fat
 
 La funzionalità dei pagamenti anticipati in [!INCLUDE[prod_short](includes/prod_short.md)] agevola l'impostazione e l'applicazione di regole di pagamento anticipato per clienti e articoli e consente di registrare ogni pagamento a fronte di una fattura.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)
 
 

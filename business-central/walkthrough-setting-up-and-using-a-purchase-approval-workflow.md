@@ -9,21 +9,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138182"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520076"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto
 
 È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando workflow con le fasi indicate per le approvazioni in questione. Prima di creare workflow di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.
 
 > [!NOTE]
-> Oltre alla funzionalità Workflow in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile utilizzare Power Automate per definire workflow per gli eventi in [!INCLUDE[prod_short](includes/prod_short.md)]. Si noti che sebbene siano presenti due sistemi del workflow, qualsiasi modello di flusso creato con Power Automate viene aggiunta all'elenco dei modelli di flusso in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md).  
+> Oltre alla funzionalità Workflow in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile utilizzare Power Automate per definire workflow per gli eventi in [!INCLUDE[prod_short](includes/prod_short.md)]. Si noti che sebbene siano presenti due sistemi del workflow, qualsiasi modello di flusso creato con Power Automate viene aggiunta all'elenco dei modelli di flusso in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Usare Business Central in un flusso di lavoro automatizzato](across-how-use-financials-data-source-flow.md).  
 
- È possibile impostare e utilizzare i workflow che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del workflow. Per ulteriori informazioni, vedere [Workflow](across-workflow.md).  
+ È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del workflow. Per ulteriori informazioni, vedere [Workflow](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
 
@@ -51,7 +51,7 @@ Quando si esegue l'accesso come utente corrente, impostare Alicia come utente di
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Per impostare l'utente corrente e Alicia come utenti approvazione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup utente approvazione** scegliere l'azione **Nuovo**.  
 
     > [!NOTE]  
@@ -92,7 +92,7 @@ Creare il workflow di approvazione dell'ordine di acquisto copiando i passaggi d
     Verrà visualizzata la pagina **Workflow** per un nuovo workflow contenente tutte le informazioni del modello selezionato. Il valore nel campo **Codice** è esteso con *-01* per indicare che si tratta del primo workflow che viene creato dal modello di workflow **Workflow di approvazione ordine acquisto**.  
 4. Nell'intestazione della pagina **Workflow**, selezionare la casella di controllo **Abilitato**.  
 
-## <a name="using-the-approval-workflow"></a>Utilizzo del workflow di approvazione
+## <a name="use-the-approval-workflow"></a>Utilizzare il flusso di lavoro di approvazione
 
 Utilizzare il nuovo workflow di approvazione dell'ordine di acquisto eseguendo per prima cosa l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)] come Alicia per richiedere l'approvazione di un ordine di acquisto. Eseguire quindi l'accesso come l'utente corrente, visualizzare la nota in Gestione ruolo utente, selezionare il collegamento della richiesta di approvazione e approvare la richiesta.  
 
@@ -119,7 +119,7 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] comprende
 
 È possibile definire le variazioni dei workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
-Se uno scenario aziendale richiede un evento o una risposta del workflow non supportati, un partner Microsoft deve implementarli tramite il codice o e possibile impostare un workflow utilizzando Power Automate. Per ulteriori informazioni, vedi rispettivamente [Uso di [!INCLUDE[prod_short](includes/prod_short.md)] in un workflow automatizzato](across-how-use-financials-data-source-flow.md) o [Eventi in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) nella guida per sviluppatori.
+Se uno scenario aziendale richiede un evento o una risposta del workflow non supportati, un partner Microsoft deve implementarli tramite il codice o e possibile impostare un workflow utilizzando Power Automate. Per ulteriori informazioni, vedi rispettivamente [Usare [!INCLUDE[prod_short](includes/prod_short.md)] in un flusso di lavoro automatizzato](across-how-use-financials-data-source-flow.md) o [Eventi in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) nella guida per sviluppatori.
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -128,7 +128,7 @@ Se uno scenario aziendale richiede un evento o una risposta del workflow non sup
 [Creare i workflow](across-how-to-create-workflows.md)  
 [Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)  
 [Workflow](across-workflow.md)  
-[Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md)  
+[Usare Business Central in un flusso di lavoro automatizzato](across-how-use-financials-data-source-flow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

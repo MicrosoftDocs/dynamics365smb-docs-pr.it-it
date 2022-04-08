@@ -6,14 +6,15 @@ metadata:
   ms.topic: faq
   ms.reviewer: edupont04
   ms.search.keywords: keyboarding, productivity, how do i, filter pane
+  ms.search.form: TellMe
   ms.date: 04/01/2021
   ms.author: mikebc
-  ms.openlocfilehash: 58c0e15d418bdf8743acdbbe14eb01243bd30a14
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: efce99fd19b1416396f529e6435ec11775959034
+  ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8138234"
+  ms.lasthandoff: 03/31/2022
+  ms.locfileid: "8515877"
 title: Domande frequenti su ricerca e filtro
 summary: Questo articolo risponde alle domande più frequenti relative alle operazioni di ricerca e filtro in Business Central.
 sections:
@@ -45,7 +46,7 @@ sections:
       I filtri e le modifiche apportate ai filtri predefiniti vengono ricordati durante la sessione (mentre si rimane connessi), anche se si esce dalla pagina. È possibile salvare in modo permanente i filtri come vista con nome dell'elenco selezionando l'icona ![Salva visualizzazione](media/save_view_icon.png "Salva visualizzazione") nel riquadro filtri. Per ulteriori informazioni, vedere [Domande frequenti sulle visualizzazioni elenco](ui-views-faq.yml). Si noti che, a differenza dei filtri, il testo di ricerca non viene memorizzato quando si esce da una pagina e non viene salvato quando si salva una visualizzazione.
 
 
-      Nelle pagine di richiesta del report, è anche possibile salvare i filtri o utilizzare filtri predefiniti. Per ulteriori informazioni, vedere [Uso delle impostazioni salvate](ui-work-report.md#SavedSettings).
+      Nelle pagine di richiesta del report, è anche possibile salvare i filtri o utilizzare filtri predefiniti. Per ulteriori informazioni, vedi [Usare le impostazioni salvate](ui-work-report.md#SavedSettings).
   - question: >
       Questa funzionalità è uguale a Filtri avanzati e Limita totali di Microsoft Dynamics NAV?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] si basa su queste note funzionalità e offre un'esperienza moderna e altamente utilizzabile per la ricerca e l'analisi dei dati. Con più tasti di scelta rapida e l'introduzione della ricerca, [!INCLUDE[prod_short](includes/prod_short.md)] supera la funzionalità fornite da Dynamics NAV.  \n"
@@ -68,4 +69,8 @@ sections:
       Microsoft estenderà l'esperienza del riquadro dei filtri?
     answer: >
       In Microsoft, i feedback della nostra variegata comunità di utenti vengono costantemente monitorati e si agisce in base ai migliori suggerimenti della community. Se si è interessati a estendere il riquadro dei filtri a più fattori di forma e più tipi di elenchi o si hanno suggerimenti utili per migliorarlo, è possibile aggiungere un'idea o votare le idee esistenti su [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
+  - question: >
+      Come posso modificare l'output del tasto separatore decimale sulla tastierina numerica?
+    answer: >
+      Per impostazione predefinita, il carattere di output del separatore decimale è determinato dall'impostazione dell'area geografica di Business Central, impostata nella pagina **Impostazioni personali**. È possibile passare temporaneamente al punto (.) premendo i tasti "Alt+Separatore decimale" sulla tastiera. Quando vuoi tornare indietro, premi di nuovo "Alt+Separatore decimale". Per ulteriori informazioni, vedi [Impostazione del separatore decimale usato dalle tastiere numeriche](ui-enter-data.md#decimal).
 additionalContent: "\n## <a name=\"see-also\"></a>Vedere anche\n   [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  \n   [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  \n   [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md)  \n   [Preparazione al business](ui-get-ready-business.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"

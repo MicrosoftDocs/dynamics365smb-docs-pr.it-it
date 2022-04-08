@@ -10,12 +10,12 @@ ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12ce99a79f465543ecc314b5042e70b6802f86ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6c4ed5dfa89fdafe6e685d6566a57cb604adacdb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142421"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513124"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Sincronizzare i contatti di Business Central con i contatti di Microsoft Outlook
 
@@ -50,11 +50,11 @@ In entrambi i casi, i contatti vengono sincronizzati solo da Outlook se i campi 
 In Outlook, i contatti di [!INCLUDE[prod_short](includes/prod_short.md)] vengono visualizzati in una cartella in **Altri contatti** nella visualizzazione **Persone**. Se non si ha familiarità con la vista Persone in Outlook, è possibile accedervi dalle opzioni di spostamento nell'angolo in basso a sinistra di Outlook.  
 
 ## <a name="see-also"></a>Vedere anche
-[Preparazione al business](ui-get-ready-business.md)  
+[Prepararsi a fare affari](ui-get-ready-business.md)  
 [Finanze](finance.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo dei contatti (Persone) in Outlook sul Web](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+[Utilizzare i contatti (Persone) in Outlook sul Web](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

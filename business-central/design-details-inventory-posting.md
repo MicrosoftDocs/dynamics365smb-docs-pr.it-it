@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2265c8b447fa20d177b89cabf773a04aad31926
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138650"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513072"
 ---
 # <a name="design-details-inventory-posting"></a>Dettagli di progettazione: Registrazione di magazzino
 
@@ -133,7 +133,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing
  [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md)  
  [Dettagli di progettazione: Componenti costo](design-details-cost-components.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

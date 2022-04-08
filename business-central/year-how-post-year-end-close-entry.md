@@ -7,12 +7,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d426dc74506a244746d8696dc12f80a0ada3a58e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3b1f2bc55ce54153e6ca8f5fb4a3f8ccd0a459c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142700"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519416"
 ---
 # <a name="posting-the-year-end-closing-entry"></a>Registrazione del movimento di chiusura di fine anno
 
@@ -23,7 +23,7 @@ Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare 
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Per registrare il movimento di chiusura di fine anno
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
 2. Nella pagina **Registrazione COGE**, nel campo **Nome batch**, selezionare il batch contenente i movimenti di chiusura.
 3. Analizzare i movimenti.
 4. Per contabilizzare le registrazioni, scegliere l'azione **Registra**.
@@ -36,7 +36,7 @@ Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare 
 [Chiudere periodi contabili](year-close-account-periods.md)  
 [Chiusura registri](year-close-books.md)  
 [Chiudi conto economico](year-close-income-statement.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

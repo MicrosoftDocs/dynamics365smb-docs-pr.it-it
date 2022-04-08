@@ -1,23 +1,23 @@
 ---
-title: Installare e disinstallare le estensioni in Business Central | Microsoft Docs
+title: Installare e disinstallare estensioni
 description: Informazioni su come installare e disinstallare le estensioni in Business Central.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140399"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514753"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installare e disinstallare le estensioni in Business Central
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Installare e disinstallare le estensioni in Business Central
 
 È possibile modificare [!INCLUDE[prod_short](includes/prod_short.md)] installando estensioni che, ad esempio aggiungano funzionalità, modifichino il comportamento o permettano di accedere a nuovi servizi online. Per ulteriori informazioni, vedere [Personalizzazione di Business Central usando le estensioni](ui-extensions.md).
 
@@ -29,7 +29,7 @@ ms.locfileid: "8140399"
 > [!NOTE]  
 > Il set di autorizzazioni **EXTEND. MGT. - ADMIN** è stato introdotto nella versione Business Central 2021 primo ciclo di rilascio come sostituzione per il set di autorizzazioni **D365 EXTENSION MGT** nelle versioni precedenti.
 
-## <a name="installing-an-extension"></a>Installazione di un'estensione
+## <a name="install-an-extension"></a><a name="install"></a>Installare un'estensione
 
 Le estensioni vengono gestite nella pagina **Gestione estensioni**. È possibile accedere a questa pagina dalla home page. In alternativa scegli l'icona **Cerca pagina o report** ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") nell'angolo in alto a destra, inserisci **Estensione**, quindi scegli il collegamento correlato.  
 
@@ -75,14 +75,13 @@ Microsoft fornisce le seguenti estensioni:
 * [Estensione dei codici postali di GetAddress.io per il Regno Unito](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Invia avviso di rimessa](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Caricare un'estensione per tenant (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a>Caricare un'estensione per tenant (PTE)
 
 Si carica un PTE usando la pagina di **gestione delle estensioni** . Nella pagina di **gestione delle estensioni**, vai su **Gestisci**, poi scegli **Carica estensioni**. Nella pagina **Caricare e distribuire l'estensione**, specifica il file .app da caricare. Per procedere, scegli il pulsante **Accetta** e poi il pulsante **Distribuisci**, questo inizierà il processo di distribuzione del PTE.
 
-Se il PTE contiene modifiche allo schema di rottura, è possibile *forzarne* l'upload. Per farlo, nella **modalità Schema Sync** scegli l'opzione **Forza** . Otterrete una finestra di dialogo di conferma da accettare prima di procedere. 
+Se il PTE contiene modifiche allo schema di rottura, è possibile *forzarne* l'upload. Per farlo, nella **modalità Schema Sync** scegli l'opzione **Forza** . Otterrete una finestra di dialogo di conferma da accettare prima di procedere.  
 
-## <a name="uninstalling-an-extension"></a>Disinstallazione di un'estensione
+## <a name="uninstall-an-extension"></a>Disinstallare un'estensione
 
 Si disinstalla un'estensione utilizzando la pagina **Gestione delle estensioni** . Se si disinstalla un'estensione e successivamente si cambia idea, è possibile installare di nuovo l'estensione. Quando si disinstalla un'estensione che si sta utilizzando, i dati vengono mantenuti per impostazione predefinita qualora la si reinstallasse. È possibile scegliere di eliminare i dati con l'estensione. Questa operazione è controllata dalla casella di controllo **Elimina dati dell'estensione**. Per impostazione predefinita, questa casella di controllo *non è abilitata*.
 

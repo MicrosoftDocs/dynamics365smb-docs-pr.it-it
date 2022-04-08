@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5cc5f6039a25161267127f40f4f3077725c5d0bc
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5da6070b00d635cba1aa2cbd7bb282d226d96023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334930"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521704"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente
 Utilizzando la nuova icona segnalibro, è possibile aggiungere un'azione che apre una pagina o un report dal menu di navigazione di Gestione ruolo utente. I segnalibri consentono di raggiungere rapidamente i contenuti o le attività aziendali preferiti. Si aggiunge il segnalibro dalla pagina o dal report di destinazione, ovvero la schermata che deve essere aperta con il collegamento in Gestione ruolo utente.
@@ -83,7 +83,7 @@ Quando viene aggiunta una nuova azione, qualsiasi testo tradotto disponibile in 
 
 ## <a name="see-also"></a>Vedere anche
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 

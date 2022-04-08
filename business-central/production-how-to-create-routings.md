@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 29d879552f4879c856f3481fde7cfabbffabec95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9aca8b6308fc5a45e008bc5aba529f51e764c79d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135726"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516876"
 ---
 # <a name="create-routings"></a>Creare cicli
 
@@ -31,7 +31,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 
 ## <a name="to-create-a-routing"></a>Per creare un ciclo
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cicli**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cicli**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Nel campo **Tipo** selezionare **Seriale** per calcolare il ciclo di produzione in base al valore del campo **Nr. operazione** .  
@@ -63,7 +63,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 
 Un altro vantaggio importante consiste nel fatto che le operazioni e i componenti collegati vengono visualizzati in una struttura di processo logica quando si utilizza la pagina **Registrazioni di produzione** per la registrazione di output e consumo.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cicli**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cicli**, quindi scegli il collegamento correlato.  
 2. Aprire il ciclo che contiene le operazioni da collegare.  
 
     Assicurarsi che lo stato del ciclo sia impostato su **In sviluppo**.  
@@ -95,7 +95,7 @@ I componenti selezionati risultano collegati alle operazioni specificate quando 
 
 Se occorre personale con speciali qualifiche, particolari conoscenze o una speciale autorizzazione per un'operazione, è possibile assegnarlo all'operazione. Inoltre, è possibile assegnare strumenti e requisiti di qualità all'operazione. Questa procedura descrive come assegnare personale. I passaggi sono simili per altri tipi di informazioni sull'operazione.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cicli**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cicli**, quindi scegli il collegamento correlato.  
 2. Apri il ciclo pertinente.  
 3. Nella Scheda dettaglio **Righe**, selezionare la riga da elaborare, quindi scegliere l'azione **Operazioni** e **Personale**.  
 4. Compilare i campi della pagina **Personale ciclo**.  
@@ -128,7 +128,7 @@ La validità temporale della versione viene specificata nel campo **Data di Iniz
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

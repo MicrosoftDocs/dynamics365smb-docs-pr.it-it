@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: ae490b4694aaa852962968cb80fef9f770767a57
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141049"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511560"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configurare la tracciabilità di articoli con numeri di serie, di lotto e di pacco
 
@@ -35,7 +35,7 @@ A seconda della configurazione, utilizzi questi numeri diversi per tenere tracci
 
 Un codice di tracciabilità articolo riflette i diversi criteri che una società può seguire nell'uso dei numeri seriali e di lotto degli articoli spostati all'interno di un magazzino.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici tracciabilità articolo**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Codici tracciabilità articolo**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Sul **Numero di serie**, **Numero di lotto** e **Numero pacchetto** Definire i criteri di tracciabilità degli articoli rispettivamente in base al numero seriale, di lotto e di pacchetto.  
@@ -52,7 +52,7 @@ Poiché questo specifico campo di setup copre tutte le possibili transazioni ese
 
 Per alcuni articoli potrebbe essere necessario impostare date e regole di scadenza specifiche nel codice di tracciabilità articolo. Questa funzionalità consente di tenere traccia della scadenza di determinati numeri seriali e di lotto.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici tracciabilità articolo**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Codici tracciabilità articolo**, quindi scegli il collegamento correlato.
 2. Selezionare un codice di tracciabilità articolo esistente quindi scegliere l'azione **Modifica**.  
 3. Nella Scheda dettaglio **Varie** selezionare i seguenti campi:  
 
@@ -66,7 +66,7 @@ Per alcuni articoli potrebbe essere necessario impostare date e regole di scaden
 
 Per alcuni articoli potrebbe essere necessario impostare garanzie specifiche nel codice di tracciabilità articolo. Questa funzionalità consente di tenere traccia della scadenza delle garanzie per determinati numeri seriali o di lotto presenti in magazzino.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Codici tracciabilità articolo**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Codici tracciabilità articolo**, quindi scegli il collegamento correlato.  
 2. Selezionare un codice di tracciabilità articolo esistente quindi scegliere l'azione **Modifica**.  
 3. Nella Scheda dettaglio **Varie** compilare il campo **Formula data garanzia** e selezionare i campi come indicato di seguito:  
 
@@ -93,6 +93,6 @@ Per abilitare la tracciabilità degli articoli devi prima assegnare i codici di 
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Prenotare articoli](inventory-how-to-reserve-items.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

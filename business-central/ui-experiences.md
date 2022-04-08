@@ -10,12 +10,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130017"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521678"
 ---
 # <a name="change-which-features-are-displayed"></a>Modifica delle funzionalità visualizzate
 [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per aiutare l'utente a gestire la propria attività indipendentemente dalle dimensioni e dalla complessità. Alla base del prodotto sono disponibili funzionalità essenziali, come la gestione di report finanziari, vendite, acquisti e magazzino. Con l'aumentare della complessità aziendale,è possibile ad esempio attivare la funzionalità per la produzione e la gestione dell'assistenza.
@@ -45,14 +45,14 @@ Agli utenti vengono assegnati i piani tramite l'interfaccia di amministrazione d
 Dopo aver apportato una modifica ai piani utenti dell'interfaccia di amministrazione di Microsoft 365, ad esempio dopo avere assegnato più utenti al piano Premium, è necessario riflettere la modifica in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Accedere come amministratore.
-2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Utenti**, quindi scegli il collegamento correlato.
 3. In alternativa, nella pagina **Utenti** scegliere l'azione **Aggiorna tutti i gruppi di utenti**.
 
 Tutte le nuove informazioni sui piani degli utenti e sui gruppi di utenti assegnati vengono ora aggiornate in base alle modifiche del piano.
 
 ### <a name="to-select-the-premium-experience"></a>Per selezionare l'esperienza Premium
 È ora possibile selezionare la nuova esperienza.
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Informazioni società**, quindi scegli il collegamento correlato.
 2. Nella Scheda dettaglio **Esperienza utente** della pagina **Informazioni società** selezionare Premium nel campo **Esperienza**.
 
 ## <a name="help-assumes-premium-experience"></a>La Guida presuppone un'esperienza Premium
@@ -64,7 +64,7 @@ Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[pr
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 [Creazione di nuove società](about-new-company.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Guida alle licenze](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

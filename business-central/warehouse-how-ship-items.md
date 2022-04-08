@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4cf357c8fac13c4f6ed714ee108020adc53686cc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4a5aec398d502b7041c64a405c11ecb8de29179e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144413"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520632"
 ---
 # <a name="ship-items"></a>Spedire articoli
 
@@ -29,7 +29,7 @@ Quando gli articoli vengono spediti da una warehouse impostata in modo da richie
 
 Di seguito viene descritto come spedire gli articoli da un ordine di vendita. I passaggi riguardanti gli ordini di reso acquisto, gli ordini di assistenza e gli ordini di trasferimento in uscita sono simili.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Aprire un ordine di vendita esistente o crearne uno. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 3. Nel campo **Qtà da Spedire** immettere la quantità spedita.
 
@@ -47,7 +47,7 @@ Innanzitutto, creare un documento di spedizione da un documento di origine azien
 
 In genere, l'impiegato responsabile della spedizione crea una spedizione warehouse. La seguente procedura descrive come creare manualmente la spedizione nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)], ma l'organizzazione potrebbe avere una parte automatizzata del processo, ad esempio con l'uso di scanner portatili o montati supportati da provider esterni.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 
     Compilare i campi della Scheda dettaglio **Generale**. Quando si recuperano le righe dei documenti di origine, alcune informazioni vengono copiate in ciascuna riga.  
@@ -82,7 +82,7 @@ Dopo avere recuperato le righe per la spedizione, è possibile avviare il proces
 
 In genere, un lavoratore warehouse responsabile del prelievo crea un documento di prelievo o apre un documento di prelievo già creato.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.
 2. Selezionare la spedizione warehouse da cui si desidera prelevare, quindi scegliere l'azione **Crea prelievo**.
 3. Compilare i campi della pagina di richiesta, quindi fare clic sul pulsante **OK**. Verrà creato il documento di prelievo della warehouse specificato.
 
@@ -112,8 +112,8 @@ Per ulteriori informazioni sul prelievo per spedizioni warehouse, vedere [Prelev
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

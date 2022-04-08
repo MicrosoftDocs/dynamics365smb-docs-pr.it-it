@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7354, 7356, 7357, 7358, 7359, 7361
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9e0eae31f29e726c15add24ef9d4b48b81b3d299
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f812b988c0cb48cd49890c20ab59a8095327c52f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383645"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512578"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Selezionare e stoccare senza un documento di origine
 Dopo avere stoccato gli articoli e prima di prelevarli per soddisfare le richieste di un ordine di produzione o di una spedizione, gli articoli vengono inclusi tra le giacenze disponibili all'interno della warehouse.  
@@ -34,14 +34,14 @@ Analogamente, gli articoli possono essere restituiti alla warehouse per lo stocc
 >  Quando per una determinata ubicazione sono previsti stoccaggi e prelievi guidati, e si utilizzano pertanto i tipi di collocazione, non è possibile spostare manualmente gli articoli all'interno o all'esterno di una collocazione di tipo Ricevi poiché gli articoli presenti in questo tipo di collocazione devono essere registrati come stoccati prima di essere inseriti nella giacenza disponibile.  
 
 ## <a name="to-create-an-internal-pick"></a>Per creare un prelievo interno  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievo int. whse.**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievo int. whse.**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.
 3. Compilare il campo **Nr.** , il campo **Codice ubicazione** e il campo **A codice collocazione** nella Scheda dettaglio **Generale**. Il campo **A codice collocazione** indica la collocazione in cui si desidera inserire gli articoli prelevati. Ai fini della produzione, questa collocazione rappresenta la collocazione di produzione in entrata o la collocazione del reparto produttivo aperto. Viceversa, per altri scopi scegliere un codice collocazione per un tipo di collocazione che non viene utilizzata per il prelievo, in genere una collocazione di stazionamento, una collocazione di spedizione o un collocazione ad uso speciale.  
 4.  Selezionare un articolo nel campo **Nr. articolo**, quindi immettere le quantità che si desidera prelevare.  
 5. Scegliere l'azione **Crea prelievo**. Verrà creata un'istruzione di prelievo indirizzata agli impiegati warehouse. In alternativa, è possibile scegliere l'azione **Rilascia** e creare prelievi warehouse utilizzando il **Prospetto prelievi**. Per ulteriori informazioni, vedere [Pianificare i prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md).
 
 ## <a name="to-create-an-internal-put-away"></a>Per creare uno stoccaggio interno  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggio int. whse.**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Stoccaggio int. whse.**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.
 3. Nella testata di un nuovo stoccaggio interno compilare almeno **Nr.** e **Cod. ubicazione**.
 4. Compilare una riga per ciascun articolo che si desidera trasferire nella warehouse. È sufficiente compilare i campi **Nr. articolo** e **Quantità**.
@@ -57,7 +57,7 @@ Analogamente, gli articoli possono essere restituiti alla warehouse per lo stocc
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7135eb7b7b9ccb845bac1fe3ec5503201dc7b035
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 453cebcddb1fdfd2f3127fd08548deccc8fe1876
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383217"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512206"
 ---
 # <a name="set-up-company-consolidation"></a>Impostare il consolidamento di una società
 
@@ -74,7 +74,7 @@ Il seguente elenco illustra gli aspetti chiave della società consolidata.
 [!INCLUDE[prod_short](includes/prod_short.md)] consente di impostare un elenco di business unit da consolidare, verificare i dati contabili prima di eseguire il consolidamento, importare file e generare report relativi al consolidamento.  
 
 1. Accedere alla società consolidata.
-2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Business unit**, quindi scegli il collegamento correlato.  
+2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Business unit**, quindi scegli il collegamento correlato.  
 3. Scegliere **Nuovo** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -137,7 +137,7 @@ Se si possiede solo una parte di una società, è possibile includere una percen
 
 [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)  
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Esportazione dei dati aziendali in Excel](about-export-data.md)
 
 

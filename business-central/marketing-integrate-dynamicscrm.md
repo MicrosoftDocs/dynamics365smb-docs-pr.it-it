@@ -11,14 +11,14 @@ ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6868ec9cc77efa19090bc2325414b4c9976a8db7
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383889"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520996"
 ---
-# <a name="using-dynamics-365-sales-from-business-central"></a>Utilizzo di Dynamics 365 Sales da Business Central
+# <a name="use-dynamics-365-sales-from-business-central"></a>Utilizzare Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.
 
 Prima di poter utilizzare le funzionalità di integrazione, l'amministratore di sistema deve impostare la connessione e definire gli utenti in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -139,7 +139,7 @@ Per sincronizzare i listini prezzi, nella pagina **Listino prezzi di vendita** s
 ## <a name="see-also"></a>Vedere anche
 [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Gestione delle relazioni](marketing-relationship-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)    
 [Panoramica di Sales e dell'Hub delle vendite](/dynamics365/customer-engagement/sales-enterprise/overview)  

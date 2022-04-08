@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d053e800a8a873f84d30a078e1b9776ca17129f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142778"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513421"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedura dettagliata: Gestione dei progetti con le commesse
 
@@ -76,7 +76,7 @@ Questa procedura dettagliata è incentrata su CRONUS, una società che si occupa
 
 ### <a name="to-prepare-the-sample-data"></a>Per preparare i dati di esempio  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo** per creare una nuova scheda risorsa.  
 3.  Nella Scheda dettaglio **Generale** immettere le seguenti informazioni:  
 
@@ -99,7 +99,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 ### <a name="to-create-a-job-journal-batch"></a>Per creare un batch registrazioni commesse  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Registrazioni commesse** scegliere il campo **Nome batch**. Viene visualizzata la pagina **Batch registrazioni commesse**.  
 3.  Scegliere l'azione **Nuovo** per creare una nuova riga con le informazioni seguenti:  
 
@@ -114,7 +114,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 ### <a name="to-set-up-a-job"></a>Per impostare una commessa  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo** per creare una nuova scheda.  
 3.  Nella Scheda dettaglio **Generale** immettere le seguenti informazioni:  
 
@@ -453,7 +453,7 @@ Le procedure riportate di seguito mostrano come creare una nuova commessa, impos
  [Utilizzare le risorse](projects-how-use-resources.md)   
  [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)   
  [Fatturazione di commesse](projects-how-invoice-jobs.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

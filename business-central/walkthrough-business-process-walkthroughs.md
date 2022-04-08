@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3d3c7aad6205ad92515dd81542eae209d0f45540
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cef5b7165378267d9d6e88fb9371b340fa22b4ca
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129529"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512630"
 ---
 # <a name="business-process-walkthroughs"></a>Procedure dettagliate per i processi aziendali
 
@@ -44,7 +44,7 @@ Queste procedure dettagliate descrivono passo per passo i processi aziendali com
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

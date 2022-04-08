@@ -1,22 +1,21 @@
 ---
 title: Tenere traccia dei segmenti e delle interazioni correlate
 description: Informazioni su come creare segmenti per definire gruppi di contatti e specificare delle interazioni per i segmenti.
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5139,
+ms.search.forms: 5091, 5139,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51af368a1ec6e01e8df377cb8c8423edd57154d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131407"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522861"
 ---
 # <a name="manage-interactions-for-segments"></a>Gestire interazioni per i segmenti
 La pagina **Segmento** è una sorta di prospetto in cui è possibile:
@@ -50,7 +49,7 @@ Nella pagina **Segmenti registrati**, è possibile decidere di creare un segment
 [Registrazione di interazioni con i contatti](marketing-interactions.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
-[Utilizzo di Business Central](ui-work-product.md)
+[Utilizzare Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

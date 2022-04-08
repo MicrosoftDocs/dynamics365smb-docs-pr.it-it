@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 39870723c78bc341ecd32b031503980740151c48
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128471"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516215"
 ---
 # <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
 
@@ -36,7 +36,7 @@ Poiché l'importo pagamento anticipato è di proprietà dell'acquirente fino a q
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Per aggiungere conti pagamento anticipato al setup registrazioni COGE  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup registrazioni COGE** compilare i campi seguenti per le righe pertinenti:  
 
     * **Conto pagam. anticipati vendite**  
@@ -49,13 +49,13 @@ Se non sono già stati impostati i conti di contabilità generale per i pagament
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Per impostare la numerazione per i documenti pagamento anticipato  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup contabilità clienti**, nella Scheda dettaglio **Numerazioni** compilare i campi seguenti:  
 
    * **Nr. fatt. pagam. ant. reg.**
    * **Nr. note cr. pagam. ant. reg.**
 
-3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità fornitori**, quindi scegli il collegamento correlato.
+3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità fornitori**, quindi scegli il collegamento correlato.
 4. Nella pagina **Setup contabilità fornitori**, nella Scheda dettaglio **Numerazioni** compilare i campi seguenti:
 
     * **Nr. fatt. pagam. ant. reg.**
@@ -101,7 +101,7 @@ In altri termini, la percentuale pagamento anticipato indicata nella scheda clie
 [Calcolare imposte Goods and Services Tax su pagamenti anticipati in Nuova Zelanda](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Informazioni sulla contabilità generale e COA](finance-general-ledger.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

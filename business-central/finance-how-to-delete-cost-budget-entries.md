@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1d6d920e4259752a25dd73c4b10a84e09334f78e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138019"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517474"
 ---
 # <a name="delete-cost-budget-entries"></a>Elimina mov. budget costi
 
@@ -24,7 +24,7 @@ Per evitare qualsiasi gap nei movimenti di budget costi e nei movimenti del regi
 
 ## <a name="to-delete-a-cost-budget-entry"></a>Per eliminare un mov. budget costi  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Elimina mov. budget costi**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Elimina mov. budget costi**, quindi seleziona il collegamento correlato.  
 
     Nel campo **A nr. registro** è incluso l'ultimo numero del movimento del registro e non può essere modificato.  
 
@@ -38,7 +38,7 @@ Per evitare qualsiasi gap nei movimenti di budget costi e nei movimenti del regi
 
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)
 [Creazione di budget di costi](finance-create-cost-budgets.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

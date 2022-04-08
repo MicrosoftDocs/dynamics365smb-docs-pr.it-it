@@ -1,22 +1,25 @@
 ---
-title: Configurare una società con la procedura guidata RapidStart | Microsoft Docs
-description: È possibile configurare rapidamente una nuova società creata utilizzando la procedura di configurazione guidata RapidStart Services.
+title: Configurare una società con la procedura guidata RapidStart
+description: Per Business Central in locale puoi configurare rapidamente una nuova società creata utilizzando la procedura di configurazione guidata RapidStart Services.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 03/28/2022
 ms.author: edupont
-ms.openlocfilehash: 1b29412d166bd5b2225d780a0b0cee476874dcd0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 189701aef31c5bbdc3323b753667937775d59a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130854"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515799"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurare una società con la procedura guidata RapidStart
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 È possibile configurare rapidamente una nuova società creata utilizzando la procedura di configurazione guidata RapidStart Services.
 
 Nella procedura riportata di seguito, al cliente è stato fornito un pacchetto di configurazione che verrà successivamente installato su un computer. Il cliente apre la nuova società, che non contiene dati relativi ai clienti. L'utente o il cliente esegue i passaggi descritti nella procedura guidata RapidStart Services per inserire informazioni di base sulla società. La procedura guidata consente di importare il pacchetto di configurazione e di collegarlo alla società.  

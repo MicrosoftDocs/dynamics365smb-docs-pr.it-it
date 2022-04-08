@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: e0ba7bc6b2979dec4b006f43ff8188010fa1885b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 944c2e9a9955a38b079234cc3ef9fb365407a97a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141849"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514285"
 ---
 # <a name="close-accounting-periods"></a>Chiudere periodi contabili
 
@@ -23,7 +23,7 @@ Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costit
 
 ## <a name="to-close-accounting-periods"></a>Per chiudere periodi contabili
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Periodi contabili**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Periodi contabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Periodi contabili** scegliere l'azione **Chiudi anno**.
 
     Se più anni fiscali sono aperti, viene automaticamente selezionato quello meno recente per la chiusura. Viene visualizzato un messaggio che identifica l'anno che verrà chiuso e le conseguenze di tale operazione.
@@ -43,7 +43,7 @@ Una volta chiuso un anno fiscale, è necessario chiudere i conti economici e tra
 [Chiusura registri](year-close-books.md)  
 [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)  
 [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: bc98fa2bc07320a4989ceca36a09a4cad3cd82ce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8427a75127775e1f10576067e4ea122e7f9ad8b3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147936"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523555"
 ---
 # <a name="maintain-fixed-assets"></a>Gestione di cespiti
 Le spese di manutenzione sono costi periodici di routine sostenuti per mantenere il valore del cespite. A differenza degli incrementi di capitale, il loro valore non aumenta.
@@ -27,15 +27,15 @@ L'indicizzazione consente di correggere i valori per le modifiche generali a liv
 ## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Per registrare un intervento di manutenzione su un cespite
 Ogniqualvolta vengono effettuate operazioni di manutenzione, ad esempio una visita di assistenza, è possibile registrarle in relazione al cespite corrispondente. Quest'operazione viene eseguita nella pagina **Registrazioni Manutenzione**.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cespiti**, quindi scegli il collegamento correlato.  
 2. Selezionare il cespite di cui registrare la manutenzione, quindi scegliere l'azione **Registrazioni manutenzione**.
 3. Nella pagina **Registrazioni manutenzione** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Per registrare i costi di manutenzione da Registrazioni Cespiti in C/G
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Lista reg. beni ammortizz.**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Lista reg. beni ammortizz.**, quindi scegli il collegamento correlato.  
 2. Selezionare il registro beni ammortizzabili assegnato al cespite, quindi scegliere l'azione **Modifica**.
 3. Nella pagina **Scheda registro beni ammortizz.**, verificare che la casella di controllo **Manutenzione** non sia selezionata. In questo modo i costi di manutenzione non vengono registrati nella contabilità generale.
-4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
+4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
 5. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze.
 6. Nel campo **Tipo reg. cespite** scegliere **Manutenzione**.
 7. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione della manutenzione.
@@ -86,8 +86,8 @@ Nel report **Manutenzione - Dettagli**, è possibile visualizzare o stampare i m
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Prepararsi a fare affari](ui-get-ready-business.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

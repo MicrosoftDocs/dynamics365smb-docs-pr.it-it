@@ -10,12 +10,12 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6112b025c08468a3e0f5bdfbb9147b2fbdaf6744
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c98cadba0a9bdf21a89a6c50dd61d805f0547685
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383507"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521256"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visualizzare lo stato dei processi d sincronizzazione
 
@@ -35,7 +35,7 @@ Questo video mostra un esempio di come risolvere gli errori che si sono verifica
 
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Per visualizzare e risolvere gli errori di sincronizzazione per record associati
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Errori di sincronizzazione dati associati** e scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Errori di sincronizzazione dati associati** e scegli il collegamento correlato.
 2. Nella pagina **Errori di sincronizzazione dati associati** vengono visualizzati i problemi verificatisi durante la sincronizzazione di record associati. La seguente tabella include le azioni che è possibile utilizzare per risolvere i problemi singolarmente:
 
 |Azione|Descrizione|
@@ -59,7 +59,7 @@ Se un'entità con un'associazione unidirezionale viene eliminata in [!INCLUDE[pr
 
 ## <a name="see-also"></a>Vedere anche  
 [Impostazione di account utente per l'integrazione con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Utilizzo di Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md)
+[Utilizzare Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

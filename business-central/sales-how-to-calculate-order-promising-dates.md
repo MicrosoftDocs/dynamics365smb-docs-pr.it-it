@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: fc2d8e8df7e827d3e73a90b89ff6b14cee5c88ff
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e739536a3752671d74e9ea0d8b3a2b1b548d1d21
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144803"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511521"
 ---
 # <a name="calculate-order-promising-dates"></a>Calcolare le date per la promessa ordine
 Una società deve essere in grado di comunicare ai rispettivi clienti le date di consegna dell'ordine. La pagina **Righe promessa ordine** consente di effettuare questa operazione dall'ordine di vendita.  
@@ -75,7 +75,7 @@ Il gestore ordini completa il processo CTP accettando le date. Ciò significa ch
 Oltre alle promesse d'ordine esterne che è possibile eseguire nella pagina **Righe promessa ordine**, è possibile promettere date di consegna interne o esterne per gli articoli della distinta base. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Per impostare le promesse ordine  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup promessa ordine**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup promessa ordine**, quindi scegli il collegamento correlato.  
 2. Immettere nel campo **Offset (Tempo)** un numero e un codice dell'unità di tempo. Selezionare uno dei seguenti codici:  
 
     |Codice|Descrizione|  
@@ -95,11 +95,11 @@ Oltre alle promesse d'ordine esterne che è possibile eseguire nella pagina **Ri
 Se desideri includere il tempo di gestione della warehouse nel calcolo della promessa ordine nella riga di acquisto, nella pagina **Setup magazzino** è possibile specificare un tempo di gestione predefinito da utilizzare nei documenti di vendita e acquisto. Puoi anche inserire orari specifici per ciascuna delle tue ubicazioni nella pagina **Scheda ubicazione**. 
 
 #### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Per immettere il tempo di gestione della warehouse in entrata e in uscita predefinito per i documenti di vendita e acquisto
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup magazzino**, quindi scegli il collegamento correlato.  
 2. Nella Scheda dettaglio **Generale** nei campi **Tempo gest. entrata in whse.** e **Tempo gest. uscita da whse.** finserire il numero di giorni che vuoi includere nei calcoli della promessa ordine.  
 
 #### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Per immettere i tempi di gestione warehouse in entrata e in uscita nelle ubicazioni  
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazione**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazione**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda ubicazione pertinente.  
 3.  Nella Scheda dettaglio **Warehouse** nei campi **Tempo gest. entrata in whse.** e **Tempo gest. uscita da whse.** finserire il numero di giorni che vuoi includere nei calcoli della promessa ordine.  
 
@@ -125,7 +125,7 @@ Prima che un articolo possa essere incluso nel calcolo della promessa d'ordine, 
 ## <a name="see-also"></a>Vedere anche  
 [Vendite](sales-manage-sales.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d879e8cfb556ca0c7fc496f72ec653826e8d7db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d263be575b6f4102c25ff1b7fe2aa288058cbd22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128715"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518915"
 ---
 # <a name="create-special-orders"></a>Creare ordini speciali
 È possibile creare un ordine speciale per uno specifico articolo non presente in catalogo che deve venire spedito a un determinato cliente. L'articolo viene spedito dal fornitore abituale alla warehouse dell'azienda e a questo punto può essere spedito al cliente da solo oppure insieme ad altri articoli di un ordine diverso.  
@@ -24,12 +24,12 @@ Gli ordini speciali implicano il collegamento dell'ordine di acquisto all'ordine
 Prima di poter utilizzare questa funzionalità è necessario impostare le schede per il cliente, il fornitore e l'articolo interessati dall'ordine.  
 
 ## <a name="to-create-a-special-order"></a>Per creare un ordine speciale  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordine vendita**, quindi seleziona il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordine vendita**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Creare e compilare un ordine di vendita per l'articolo. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 3.  Nella Scheda dettaglio **Righe** compilare la riga di vendita. Nel campo **Codice acquisto** selezionare un codice di acquisto per il quale il campo **Ordine speciale** sia selezionato.
 
     È quindi necessario creare un ordine di acquisto da una richiesta di approvvigionamento.  
-4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Richiesta di approvvigionamento**, quindi scegli il collegamento correlato.  
+4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Richiesta di approvvigionamento**, quindi scegli il collegamento correlato.  
 5. Scegliere l'azione **Ordine speciale** e scegliere l'azione **Ottieni ordini vendite**.  
 6.  Nella pagina **Prendi ordini vendite** vengono visualizzati i risultati in cui **Nr. documento** è il numero dell'ordine di vendita. Scegliere il pulsante **OK**. Viene creata una riga di richiesta di approvvigionamento per l'articolo.  
 7.  Nella riga di richiesta di approvvigionamento selezionare **Nuovo** nel campo **Messaggio azione**.  
@@ -47,7 +47,7 @@ Un ordine di acquisto creato come ordine speciale per un ordine di vendita viene
 [Vendite](sales-manage-sales.md)  
 [Effettuare spedizioni dirette](sales-how-drop-shipment.md)   
 [Dettagli di progettazione: Metodi di riordino](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

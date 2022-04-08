@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 35b9753a1d21ebfbd2970699c720b0e97ed5bcb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: de9216c02f44d159f077beeba00a44952a6a92aa
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142161"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519780"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Riconciliare i costi di magazzino con la contabilità generale
 
@@ -27,7 +27,7 @@ Anche se i costi vengono registrati automaticamente in contabilità generale, è
 
 ## <a name="to-post-inventory-costs-manually"></a>Per registrare manualmente i costi di magazzino
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registra costo magazzino in C/G**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registra costo magazzino in C/G**, quindi scegli il collegamento correlato.
 2. Per registrare manualmente i costi di magazzino nella contabilità generale, eseguire il processo batch. Quando si esegue questo processo batch, vengono creati i movimenti C/G sulla base dei movimenti di valorizzazione. È possibile registrare i movimenti in modo che vengano riepilogati per categoria di registrazione.
 
 > [!NOTE]  
@@ -86,7 +86,7 @@ Questi sono descritti nella tabella seguente.
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)    
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 

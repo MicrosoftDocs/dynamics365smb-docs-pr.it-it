@@ -7,26 +7,30 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: fa2e18e135e9e81634a02e1b193b237c599fd5fc
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382209"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514363"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Passare a un'altra società o ambiente
+
+[!INCLUDE [prod_short](includes/prod_short.md)] è disponibile in molti paesi diversi e supporta molti tipi diversi di organizzazioni. La tua organizzazione potrebbe configurare [!INCLUDE [prod_short](includes/prod_short.md)] in modo che tu debba capire i termini *società* e *ambiente*.  
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Per ulteriori informazioni, vedere [Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Se si passa spesso da una società all'altra o si lavora con [!INCLUDE[prod_short](includes/prod_short.md)] dall'interno di un'altra app, ad esempio Microsoft Teams, può essere facile perdere la cognizione di dove ci si trova. Per sapere dove ci si trova, è possibile aggiungere un badge che visualizzerà il nome della società, in modo da poter verificare rapidamente di essere nel posto giusto. Per ulteriori informazioni vedere [Per visualizzare un badge società per un rapido accesso alle informazioni della società](ui-change-basic-settings.md#badge).
 
+A seconda del tuo browser, puoi anche aggiungere le diverse società alla barra dei preferiti.  
+
 ## <a name="switch-to-another-environment"></a>Passare a un altro ambiente
 
-Quando hai effettuato l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)], gli ambienti a cui puoi accedere sono disponibili su Office.com. 
+Quando hai effettuato l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)], gli ambienti a cui puoi accedere sono disponibili su Office.com.  
 
 1. Seleziona l'**icona di avvio delle app**  ![icona di avvio delle app...](media/app-launcher-icon.png "L'avvio delle applicazioni fornisce l'accesso a più funzionalità")
-2. Se non vedi un'app per [!INCLUDE[prod_short](includes/prod_short.md)] nel pannello che si apre, scegli **Office 365**. Poi, inserisci **Business Central** nella casella di **ricerca** o seleziona **Tutte le app** > **App aziendali**.   
+2. Se non vedi un'app per [!INCLUDE[prod_short](includes/prod_short.md)] nel pannello che si apre, scegli **Office 365**. Poi, inserisci **Business Central** nella casella di **ricerca** o seleziona **Tutte le app** > **App aziendali**.  
 3. Ci sarà un'app [!INCLUDE[prod_short](includes/prod_short.md)] elencata per ogni tipo di ambiente, come produzione e sandbox. Per passare ad un altro ambiente, scegli l'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] per il tipo di ambiente che è. Se c'è più di un ambiente di un certo tipo, ti verrà chiesto di scegliere l'ambiente a cui accedere.
 
 <!--
@@ -51,8 +55,9 @@ Quando si accedere a [!INCLUDE[prod_short](includes/prod_short.md)], è possibil
 
 ## <a name="see-also"></a>Vedere anche
 
-[Interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
+[Ambienti e società (solo in inglese)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+[Interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

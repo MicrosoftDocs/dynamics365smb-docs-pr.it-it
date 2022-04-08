@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: c1374929790c27bd84733e506866a1e54cea9ffd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db06612ed644f8db52d8c9e8247b6cc7fe9df339
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136064"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519175"
 ---
 # <a name="create-prepayment-invoices"></a>Creare fatture per i pagamenti anticipati
 
@@ -74,7 +74,7 @@ La procedura seguente descrive come fatturare un pagamento anticipato per un ord
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
 [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
 
 

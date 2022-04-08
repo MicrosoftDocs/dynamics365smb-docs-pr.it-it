@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: 644b21b887d622c4ece3b3354de227cb4a1d89c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 883a2d75b2d12f87a49eb84a6b545da30310274c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140997"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518001"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Tieni traccia degli articoli con numeri di serie, di lotto e di pacco
 
@@ -52,7 +52,7 @@ Per le società potrebbe essere necessario tenere traccia degli articoli dal mom
 
 In questo modo i numeri vengono trasferiti automaticamente attraverso tutte le attività di magazzino in uscita senza interazione da parte degli addetti al magazzino.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 2. Apri un ordine di acquisto esistente o creane uno.
 3. Seleziona la riga di documento pertinente e, nella Scheda dettaglio **Righe**, scegli l'azione **Riga** e quindi scegli l'azione **Righe tracciabilità articolo** per aprire la pagina **Righe tracciabilità articolo**.  
 
@@ -91,7 +91,7 @@ La funzionalità supporta i seguenti processi in uscita:
 
 In queste situazioni le righe di tracciabilità articolo esistenti vengono copiate automaticamente nella fattura o nella nota di credito. La pagina **Righe Tracciabilità Articolo** non consente tuttavia di apportare modifiche ai numeri seriali o di lotto. Solo quantità possono essere modificate.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi seleziona il collegamento correlato.  
 2. Aprire una fattura di acquisto di articoli acquistati con numero seriale o numero di lotto.  
 3. Da una riga della fattura di acquisto, nella Scheda dettaglio **Righe** scegliere l'azione **Prendi righe di carico**.  
 4. Nella pagina **Prendi righe di carico** , selezionare una riga di carico che contiene righe di tracciabilità articolo e fare clic sul pulsante **OK** .  
@@ -160,7 +160,7 @@ Le procedure per la gestione dei numeri seriali e di lotto che vengono trasferit
 
 Tuttavia, l'ordine di trasferimento è unico in quanto la spedizione e la ricezione vengono entrambe eseguite dalla stessa riga di trasferimento e pertanto utilizzano la stessa istanza della pagina **Righe tracciabilità articolo**. Ciò significa che i numeri di tracciabilità articolo inviati da una determinata ubicazione dovranno essere ricevuti invariati nell'altra ubicazione.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di trasferimento**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini di trasferimento**, quindi scegli il collegamento correlato.  
 2. Aprire l'ordine di trasferimento che si desidera elaborare. Nella Scheda dettaglio **Righe** scegliere l'azione **Riga**, l'azione **Righe tracciabilità articolo** e l'azione **Spedizione**.  
 3. Nella pagina **Righe tracciabilità articolo** assegnare o selezionare dei numeri seriali o di lotto come per qualsiasi transazione di articoli in uscita.  
 
@@ -234,6 +234,6 @@ Riclassificare la tracciabilità di un articolo significa modificare un numero d
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Prenotare articoli](inventory-how-to-reserve-items.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

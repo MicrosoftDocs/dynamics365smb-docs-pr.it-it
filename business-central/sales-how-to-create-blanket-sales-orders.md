@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 29f4c7286547dcde0332fa587245da47aa2f503c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d421392a4428bc227cdbf6c5532d87e7360fe189
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128648"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518993"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utilizzare gli ordini di vendita programmati o gli ordini di acquisto programmati
 
@@ -31,7 +31,7 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 
 ## <a name="to-create-a-blanket-sales-order"></a>Per creare un ordine di vendita programmato
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Lasciare vuoto il campo **Data ordine**. Quando vengono creati i diversi ordini di vendita dall'ordine programmato, la data dell'ordine di vendita viene impostata sulla data del lavoro effettiva.
@@ -59,7 +59,7 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Per visualizzare lo stato di un ordine di vendita programmato  
 È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche ordini vendita programmati**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di vendita programmato.  
 
-1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2.  Selezionare un ordine di vendita programmato quindi scegliere l'azione **Statistiche**.  
 3.  Nella pagina **Statistiche ordini vendita programmati**, nella Scheda dettaglio **Generale**, è possibile visualizzare le informazioni di riepilogo relative all'intero ordine in base alla quantità totale riportata nei vari **campi Quantità** delle righe dell'ordine di vendita programmato.  
 
@@ -71,7 +71,7 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pere visualizzare le righe degli ordini di vendita programmati registrate e non registrate   
 Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di origine ed eventuali altri documenti di vendita, viene mantenuto dopo la registrazione come lista delle righe della fattura di vendita registrate e non registrate.  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.
 2. Aprire l'ordine di vendita programmato che si desidera visualizzare.
 3. Per visualizzare i movimenti non registrati, selezionare la riga in questione, quindi scegliere l'azione **Riga** e l'azione **Righe non registrate**. Selezionare una delle seguenti opzioni.  
 
@@ -98,7 +98,7 @@ Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di ori
 [Vendite](sales-manage-sales.md)  
 [Creare ordini di assemblaggio programmati](assembly-how-to-create-blanket-assembly-orders.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

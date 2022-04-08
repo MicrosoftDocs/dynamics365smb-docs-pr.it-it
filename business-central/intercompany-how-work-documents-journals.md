@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 600, 610
-ms.date: 06/16/2021
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: a258ea2039c69449d4743b62943395abb7c1d430
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367178"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519728"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Utilizzo di documenti e registrazioni intercompany
 Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany. Quando si registra un documento o una riga di registrazione intercompany nella società, viene creato un documento o una riga di registrazione corrispondente nella casella in uscita IC che è possibile trasferire al partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
@@ -29,7 +29,7 @@ Gli ordini di vendita e acquisto, così come gli ordini di reso, possono essere 
 
 La procedura seguente illustra come compilare e inviare un ordine di vendita intercompany. Gli stessi passaggi si applicano agli ordini di acquisto e agli ordini di reso intercompany e alle fatture e alle note di credito intercompany registrate.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Per creare un nuovo ordine di vendita, selezionare **Nuovo**. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Assicurarsi che il cliente sia partner intercompany.
@@ -39,11 +39,12 @@ La procedura seguente illustra come compilare e inviare un ordine di vendita int
 > Se si esegue il passaggio 4, l'ordine di vendita verrà trasferito nella casella in uscita intercompany da cui è possibile inviarlo in un secondo tempo. Per ulteriori informazioni, vedere [Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Per compilare e annotare registrazioni intercompany
-Quando si registra una riga di registrazione COGE intercompany nella società, viene creata una riga di registrazione corrispondente nella casella in uscita IC che è possibile trasferire al partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE intercompany**, quindi scegli il collegamento correlato.  
-2. Aprire il batch registrazioni appropriato. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
-3. Compilare i campi, se necessario.
+Quando si registra una riga di registrazione COGE intercompany nella società, viene creata una riga di registrazione corrispondente nella casella in uscita IC che è possibile trasferire al partner. Con il primo ciclo di rilascio del 2022, è anche possibile impostare la società per la creazione automatica delle transazioni intercompany ricevute dai partner intercompany, registrate tramite il giornale di registrazione generale intercompany. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni COGE intercompany**, quindi scegli il collegamento correlato.  
+2. Aprire il batch registrazioni appropriato. Per ulteriori informazioni, vedi [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).
+3. Compilare i campi in base alle esigenze.
 4. Nel campo **Nr. conto C/G partner IC.** immettere il conto di contabilità generale IC in cui verrà registrato l'importo della società partner.
 
     > [!NOTE]
@@ -53,11 +54,12 @@ Quando si registra una riga di registrazione COGE intercompany nella società, v
 I movimenti interessati vengono registrati nella società e una registrazione con i movimenti corrispondenti viene creata nella casella in uscita IC che è possibile inviare alla società partner. Per ulteriori informazioni, vedere [Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="see-also"></a>Vedi anche
+
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900, 9018, 9022
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b52d90dfadfac794ff1a62088def7c26a903a57d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335146"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512656"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 
@@ -143,7 +143,7 @@ L'aggiunta di stampanti singole consente di configurare la stessa stampante Stam
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gestione stampante**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Gestione stampante**, quindi scegli il collegamento correlato.
 2. Seleziona **Stampa universale**, quindi una delle seguenti opzioni:
 
     - **Aggiungi tutte le stampanti di Stampa universale** per aggiungere tutte le stampanti che non sono già state aggiunte. Puoi utilizzare questa opzione anche se sono già state aggiunte stampanti. 
@@ -278,7 +278,7 @@ La stampa cloud è progettata per documenti di dimensioni ragionevoli. La maggio
 ## <a name="see-also"></a>Vedere anche
 
 [Stampa di un report](ui-work-report.md#PrintReport)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eseguire i processi batch](ui-how-run-batch-jobs.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 

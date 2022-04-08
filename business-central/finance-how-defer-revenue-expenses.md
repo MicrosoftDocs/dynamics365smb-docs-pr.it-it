@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 329a8db8dbae65f08ab4f0d12db43cde143077af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2feba527e33c2ded3275392420b3075cdab4228f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138045"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512994"
 ---
 # <a name="defer-revenues-and-expenses"></a>Rateizzare le entrate e le uscite
 
@@ -25,7 +25,7 @@ Per ripartire le entrate o le spese sui periodi contabili implicati, impostare u
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Per impostare un conto C/G per il differimento
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Piano dei conti**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare tutti i campi in modo da creare un conto C/G per le entrate differite. Per ulteriori informazioni, vedere [Contabilità generale e piano dei conti](finance-general-ledger.md).
 4. Ripetere i passaggi 2 e 3 per creare un nuovo conto C/G per le spese differite.
@@ -34,7 +34,7 @@ Per entrambi i tipi di differimenti, selezionare **Conto patrimoniale** nel camp
 
 ## <a name="to-set-up-a-deferral-template"></a>Per impostare un modello di differimento
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modelli di differimento**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Modelli di differimento**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi, se necessario.
 4. Nel campo **Metodo calcolo** specificare come viene calcolato il campo **Importo** per ciascun periodo della pagina **Programmazione differimento**. È possibile scegliere tra le seguenti opzioni:
@@ -59,7 +59,7 @@ Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differit
 > [!NOTE]  
 > I passaggi di questa procedura sono gli stessi di quando si assegna un modello di rateo a un conto C/G o una risorsa.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articolo**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articolo**, quindi scegli il collegamento correlato.
 2. Aprire la scheda dell'articolo per il quale devono essere differite le entrate o le spese ai periodi contabili in cui l'articolo è stato venduto o acquistato.
 3. Nel campo **Modello di differimento di default** selezionare il modello di differimento pertinente.
 
@@ -96,12 +96,12 @@ I movimenti C/G da registrare nel conto specificato di differimento, ad esempio,
 2. Nel campo **Saldo a partire dal** della pagina **Riepilogo differimento vendite** immettere la data fino alla quale si intende visualizzare le entrate differite.
 3. Fare clic sul pulsante **Anteprima**.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382047"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520362"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central per organizzazioni multisito e internazionali
 Le organizzazioni con più siti utilizzano spesso un modello di business hub e spoke in cui una società madre, o sede centrale, gestisce tutte le operazioni dell'azienda mentre ogni sito funziona come una singola entità autonoma. I siti sono spesso distribuiti geograficamente e hanno esigenze diverse di condivisione delle informazioni con la sede centrale. Inoltre, i siti in genere non richiedono lo stesso livello di complessità e spesso mancano delle risorse per mantenere un sistema di grandi dimensioni.
@@ -66,7 +66,7 @@ Allineare l'organizzazione ai propri obiettivi di business fornendo una comprens
 
 | **Requisito di business** | **Come viene supportato da Business Central** | **Ulteriori informazioni** |
 |-------------------------|-------------------------|-------------------------|
-| Condividere le informazioni con i siti senza un supporto IT completo. | Creare KPI e dashboard di business intelligence in Power BI basati sui dati. | [Utilizzo dei dati Business Central in Power BI](across-working-with-business-central-in-powerbi.md) |
+| Condividere le informazioni con i siti senza un supporto IT completo. | Creare KPI e dashboard di business intelligence in Power BI basati sui dati. | [Utilizzare i dati Business Central in Power BI](across-working-with-business-central-in-powerbi.md) |
 | Sviluppare rapporti finanziari personalizzati. | Generare report finanziari basati su parametri. | [Business Intelligence](bi.md) |
 | Allinearsi ai fatti. | Generare, visualizzare e condividere report con le parti interessate interne ed esterne. | [Report finanziari](finance-reports.md) |
 | Analizzare dati in Excel. | Cercare i fatti, risolvere i problemi ed eseguire analisi ad hoc in Microsoft Excel. | [Analizzare i rendiconti finanziari in Excel](finance-analyze-excel.md) |
@@ -83,7 +83,7 @@ API e XMLport semplificano il processo di connessione delle istanze di [!INCLUDE
 | Registrare e importare documenti XML. | Le codeunit possono essere esposte come azioni non associate per supportare la registrazione e l'importazione di documenti XML. Per l'elaborazione di documenti XML, è possibile applicare XMLports. Le azioni non associate sono anche in grado di generare un documento XML o JSON. | [Oggetti XMLport](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Semplificare la manutenzione attraverso lo scambio elettronico dei dati. | È possibile aggiungere una soluzione di scambio elettronico dei dati per utilizzarla come livello di integrazione tra la sede centrale e i siti. | [Framework di scambio dei dati](across-about-the-data-exchange-framework.md) |
 | Scambiare dati tra diversi sistemi. | Utilizzare XMLports per creare documenti XML, che possono quindi essere scambiati tra una sede centrale che utilizza un sistema e siti che utilizzano Business Central. | [Panoramica di XMLport](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
-| Orchestrare scambi di dati complessi. | Utilizzare una combinazione di XMLports con Business Central e server Microsoft BizTalk per soddisfare le esigenze specifiche dei tuoi siti.</br>Per esigenze complesse, utilizzare una soluzione di scambio dati elettronici basata su server BizTalk e Commerce Gateway in Business Central in combinazione con XMLports. | [Utilizzo di report, processi batch e XMLport](ui-work-report.md) |
+| Orchestrare scambi di dati complessi. | Utilizzare una combinazione di XMLports con Business Central e server Microsoft BizTalk per soddisfare le esigenze specifiche dei tuoi siti.</br>Per esigenze complesse, utilizzare una soluzione di scambio dati elettronici basata su server BizTalk e Commerce Gateway in Business Central in combinazione con XMLports. | [Utilizzare report, processi batch e XMLport](ui-work-report.md) |
 | Connettersi a soluzioni e servizi di <sup></sup>terze parti. | Le API stabiliscono una connessione punto a punto tra Business Central e soluzioni e servizi di<sup></sup> terze parti. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
@@ -105,11 +105,11 @@ La sede centrale deve essere in grado di reagire rapidamente ai cambiamenti azie
 | **Requisito di business** | **Come viene supportato da Business Central** | **Ulteriori informazioni** |
 |-------------------------|-------------------------|-------------------------|
 | Generare automaticamente avvisi e-mail. | Impostare avvisi in Power Automate che genereranno messaggi di posta elettronica per ricevere informazioni in merito al condizioni aziendali critiche nelle sedi o presso i partner della catena di fornitura. | [Business Central e Power BI](admin-powerbi.md) |
-| Usare avvisi standard o personalizzati. | Utilizzare 12 diversi modelli inclusi per Business Central o impostare gli avvisi per adattarli alla propria attività. | [Uso di Business Central in un workflow automatizzato](across-how-use-financials-data-source-flow.md) |
+| Usare avvisi standard o personalizzati. | Utilizzare 12 diversi modelli inclusi per Business Central o impostare gli avvisi per adattarli alla propria attività. | [Usare Business Central in un flusso di lavoro automatizzato](across-how-use-financials-data-source-flow.md) |
 
 ## <a name="see-also"></a>Vedere anche
 [Amministrazione di Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

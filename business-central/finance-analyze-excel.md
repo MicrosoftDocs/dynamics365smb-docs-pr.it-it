@@ -7,12 +7,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ac018d5477d42189d648936bfc7511f6214d52b5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db9701317d43464378ccf557dd6a77c41a681bd8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136142"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516954"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analisi dei rendiconti finanziari in Microsoft Excel
 
@@ -55,7 +55,7 @@ Tramite il componente aggiuntivo è possibile ottenere dati aggiornati da [!INCL
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
-[Utilizzo di Business Central](ui-work-product.md)  
+[Utilizzare Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

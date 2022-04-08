@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: db3ee1e8aaa01102bb46e3bc581f46fa86c8cb8b
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 6e5f1e99daea56fda5a1a36e0e2b1fb69c332dc5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367230"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519149"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologia della contabilità industriale
 
@@ -49,10 +49,10 @@ In questo argomento vengono definiti i termini chiave utilizzati nella contabili
 |Costo variabile|I costi variabili sono spese che cambiano proporzionalmente all'attività di un'azienda. Rappresentano la somma dei costi marginali in tutte le unità prodotte. I costi fissi e quelli variabili costituiscono i due componenti dei costi totali.|  
 |Variante|Viene utilizzata una variante come etichetta personalizzata opzionale relativa alle allocazioni. Lo scopo dell'etichetta è quello di filtrare i gruppi di allocazione.|  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)   
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

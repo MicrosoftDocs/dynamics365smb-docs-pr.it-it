@@ -10,17 +10,17 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: be92e23a1dece6225a0700dc4fb3b718481367cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335450"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523139"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Durante lo svolgimento dell'attività quotidiana, le aziende acquisiscono una quantità enorme di dati che riflettono, ad esempio, le cifre relative alle vendite, agli acquisti, alle spese operative, agli stipendi dei dipendenti e ai budget dell'organizzazione e possono diventare informazioni preziose, vale a dire Business Intelligence, per i responsabili decisionali. In [!INCLUDE[prod_short](includes/prod_short.md)] sono disponibili numerose funzionalità che facilitano la raccolta, l'analisi e la condivisione dei dati della società.
 
-La funzionalità Dimensioni svolge un ruolo importante in business intelligence. Una dimensione corrisponde ai dati che è possibile aggiungere a un movimento come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Tra altri utilizzi, le dimensioni si usano quando si definiscono le visualizzazioni analisi e si creano le situazioni contabili analisi per il reporting. Per ulteriori informazioni, vedere [Utilizzo delle dimensioni](finance-dimensions.md).
+La funzionalità Dimensioni svolge un ruolo importante in business intelligence. Una dimensione corrisponde ai dati che è possibile aggiungere a un movimento come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Tra altri utilizzi, le dimensioni si usano quando si definiscono le visualizzazioni analisi e si creano le situazioni contabili analisi per il reporting. Per ulteriori informazioni, vedere [Utilizzare le dimensioni](finance-dimensions.md).
 
 > [!TIP]
 > Un modo rapido per analizzare i dati transazionali in base alle dimensioni consiste nel filtrare i totali nel piano dei conti e le voci in tutte le pagine **Voci** in base alle dimensioni. Cercare l'azione **Imposta filtro dimensione**.  
@@ -39,10 +39,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 ## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)    
-[Uso di Business Central come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Usare Business Central come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Chiusura di periodi fiscali](year-close-years-periods.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

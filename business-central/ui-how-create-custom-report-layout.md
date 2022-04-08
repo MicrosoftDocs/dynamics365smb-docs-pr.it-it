@@ -10,14 +10,16 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d629b2639325b95ab90db8aaf8ac9a3e5d51fc33
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134719"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511443"
 ---
-# <a name="create-and-modify-custom-report-layouts"></a>Creare e modificare layout di report personalizzati
+# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Creare e modificare layout di report personalizzati
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Per impostazione predefinita, un report avrà un layout di report RDLC o Word predefinito o entrambi. Non è possibile modificare i layout predefiniti. Tuttavia puoi creare i propri layout personalizzati che consentono di modificare l'aspetto del report quando è visualizzato, stampato o salvato. È possibile creare più layout di report personalizzati per lo stesso report e alternare il layout utilizzato in un report in base alle esigenze.
 
@@ -33,7 +35,7 @@ Quando vengono definiti layout di report personalizzati, puoi selezionarli da sc
 
 ## <a name="to-create-a-custom-layout"></a>Per creare un layout personalizzato
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
 
     Nella pagina **Selezione layout report** sono elencati tutti i report disponibili nella società che è specificata nel campo **Nome società** nella parte superiore della pagina.
 2. Impostare il campo **Società** alla società per la quale si desidera creare il layout di report.
@@ -63,56 +65,56 @@ Per modificare un layout di report, è necessario prima esportare il layout di r
 
 ### <a name="to-modify-a-custom-layout"></a>Per modificare un layout personalizzato
 
-1.  Esportare un layout personalizzato dalla pagina **Layout report personalizzati**. Se questa pagina non è già aperta, cerca e apri la pagina **Selezione layout report**, seleziona il report che ha il layout da modificare, quindi scegli l'azione **Layout personalizzati**.  
-2.  Nella pagina **Layout report personalizzati**, selezionare il layout che si desidera modificare, scegliere l'azione **Esporta layout** e quindi scegliere **Salva** o **Salva con nome** per salvare il documento di layout nel computer o in una rete.  
+1. Esportare un layout personalizzato dalla pagina **Layout report personalizzati**. Se questa pagina non è già aperta, cerca e apri la pagina **Selezione layout report**, seleziona il report che ha il layout da modificare, quindi scegli l'azione **Layout personalizzati**.  
+2. Nella pagina **Layout report personalizzati**, selezionare il layout che si desidera modificare, scegliere l'azione **Esporta layout** e quindi scegliere **Salva** o **Salva con nome** per salvare il documento di layout nel computer o in una rete.  
+3. Apri il documento di layout del report che hai salvato, quindi apporta le modifiche.
 
-3.  Apri il documento di layout del report che hai salvato, quindi apporta le modifiche.
+   Se modifichi un layout Word, apri il documento di layout in Word. Per i dettagli sulla modifica, vedi [Utilizzare i layout di Word](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
 
-      Se modifichi un layout Word, apri il documento di layout in Word. Per informazioni dettagliate sulle operazioni di modifica, vedere la sezione successiva [Modifica di un layout di report](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
+   I layout di report RDLC sono più avanzati dei layout di report Word. Per ulteriori informazioni su come modificare un layout di report RDLC, vedere [Progettazione di layout di report RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-      I layout di report RDLC sono più avanzati dei layout di report Word. Per ulteriori informazioni su come modificare un layout di report RDLC, vedere [Progettazione di layout di report RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
+   Ricordarsi di salvare le modifiche effettuate.
 
-      Ricordarsi di salvare le modifiche effettuate.
-
-4.  Tornare alla pagina **Layout report personalizzati**, selezionare il layout di report esportato e modificato, quindi scegliere l'azione **Importa layout**.  
+4. Tornare alla pagina **Layout report personalizzati**, selezionare il layout di report esportato e modificato, quindi scegliere l'azione **Importa layout**.  
 
 5. Nella finestra di dialogo **Importa**, seleziona **Scegli** per trovare e selezionare il documento di layout di report modificato, quindi scegli **Apri**.
 
 > [!IMPORTANT]
 > Ricordati di importare il documento di layout del report che hai modificato. In caso contrario, il nuovo layout del report non sarà disponibile.
 
-##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Creare e modificare layout di report personalizzati
+<!--
+##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
 
-Per apportare modifiche al layout e di formattazione generali, ad esempio modificare il carattere del testo, aggiungere o modificare una tabella o rimuovere un campo dati, utilizzare le funzionalità di modifica di base di Word, come si fa con qualsiasi documento di Word.
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
 
-Se stai progettando un layout di report Word da zero o aggiungendo nuovi campi dati, inizia aggiungendo una tabella che include le righe e le colonne che utilizzeranno i campi dati.
+If you're designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 
 > [!TIP]  
-> Mostra le linee delle griglie della tabella in modo da visualizzare i limiti delle celle della tabella. Ricordati di nascondere le linee delle griglie quando finisci di apportare modifiche. Per visualizzare o nascondere le linee delle griglie della tabella, selezionare la tabella e quindi in **Layout** nella scheda **Tabella** scegliere **Visualizza linee griglia**.
+> Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Incorporazione di caratteri in layout di Word per mantenere la coerenza
+### Embedding Fonts in Word Layouts for Consistency
 
-Per assicurarti che i report siano visualizzati e stampati con i caratteri voluti, indipendentemente da dove gli utenti aprono o stampano i report, puoi incorporare i caratteri nel documento di Word. Tuttavia considera che l'incorporazione di caratteri può aumentare significativamente la dimensione dei file di Word. Per ulteriori informazioni sull'incorporazione di caratteri in Word, vedere [Incorporare caratteri in Word, PowerPoint o Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Rimuovere i campi etichetta e dati dai layout Word
+###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts
 
- I campi etichetta e dati di un report sono contenuti nei controlli contenuto di Word. La figura seguente illustra un controllo contenuto quando è selezionato nel documento Word.  
+ Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
- ![Controllo contenuto per il campo nel layout report Word.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Content control for field in Word report layout.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
- Il nome del campo etichetta o dati viene visualizzato nel controllo contenuto. Nell'esempio, il nome del campo è CompanyAddr1.  
+ The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a>Per rimuovere un campo dati o etichetta  
+### To remove a label or data field  
 
-1. Fare clic con il tasto destro del mouse sul campo che si desidera eliminare, quindi fare clic su **Rimuovi controllo contenuto**.  
+1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
 
-     Il controllo campo viene rimosso, ma rimane il nome del campo come testo.  
+     The content control is removed, but the field name remains as text.  
 
-2. Eliminare il testo residuo in base alle esigenze.  
+2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a>Aggiunta di campi dati
+### Adding data fields
 
-L'aggiunta di campi dati dal set di dati di un report è una funzione più avanzata e richiede la conoscenza del set di dati del report. Per informazioni sull'aggiunta di campi per dati, etichette, dati e immagini, vedere [Aggiungere campi a un layout di report Word](ui-how-add-fields-word-report-layout.md).  
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
@@ -121,10 +123,10 @@ L'aggiunta di campi dati dal set di dati di un report è una funzione più avanz
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md)  
 [Importare ed esportare un layout di report o documento personalizzato](ui-how-import-and-export-report-layout.md)  
-[Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
+[Utilizzare report, processi batch e XMLport](ui-work-report.md)  
 [Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

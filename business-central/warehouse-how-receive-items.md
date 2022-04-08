@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2c5a0ebaad14e33ec15df9f6483a397715a167a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ebb230a7bd0e2008d16b33c0fb00bdbeac3177d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144439"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519494"
 ---
 # <a name="receive-items"></a>Ricevere articoli
 
@@ -26,7 +26,7 @@ Quando gli articoli arrivano in una warehouse impostata per l'elaborazione dei c
 
 Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto. I passaggi riguardanti gli ordini di reso vendita e gli ordini di trasferimento sono simili.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
 2. Aprire un ordine di acquisto esistente o crearne uno. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 3. Nel campo **Qtà da Ricevere** immettere la quantità ricevuta.
 
@@ -42,7 +42,7 @@ Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto.
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Per ricevere gli articoli con un carico warehouse
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Carichi warehouse**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Carichi warehouse**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 
     Compilare i campi della Scheda dettaglio **Generale**. Quando si recuperano le righe dei documenti di origine, alcune informazioni vengono copiate in ciascuna riga.  
@@ -95,7 +95,7 @@ Quando si ricevono più merci di quelle ordinate, è possibile che si intenda ma
 
 Di seguito viene descritto come confgurare e assegnare un codice di ricevuta eccessiva a un articolo. I passaggi sono simili per un fornitore.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Apri la scheda per un articolo che sospetti possa essere talvolta consegnato con una quantità superiore a quella ordinata.
 3. Scegli il pulsante di ricerca nel campo **Codice di ricezione eccessiva**.
 4. Scegliere l'azione **Nuovo**.
@@ -132,8 +132,8 @@ Quando si gestisce una ricezione in eccesso, è possibile aumentare il valore ne
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

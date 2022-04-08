@@ -5,14 +5,14 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 04/01/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134058"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512454"
 ---
 # <a name="report-selection-in-business-central"></a>Selezione report in Business Central
 
@@ -32,7 +32,7 @@ Le pagine **Selezioni report** specificano quale report verrà stampato nelle di
 |Definire report per report IVA (Germania)|[Impostare report per l'IVA e l'Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> [!INCLUDE [prod_short](includes/prod_short.md)] può includere ulteriori pagine **Selezione report**, a seconda della posizione e del settore, ad esempio. Puoi sempre controllare la tua configurazione scegliendo l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immettendo **Selezioni report**, quindi scegli il collegamento pertinente.
+> [!INCLUDE [prod_short](includes/prod_short.md)] può includere ulteriori pagine **Selezione report**, a seconda della posizione e del settore, ad esempio. Puoi sempre controllare la tua configurazione scegliendo l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immettendo **Selezioni report**, quindi scegli il collegamento pertinente.
 
 La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] include le pagine **Sezione report** seguenti:
 
@@ -43,6 +43,7 @@ La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] inclu
 * **Selezione report - Warehouse**  
 * **Selezione report - Conto bancario**  
 * **Selezioni report - Sollecito/Addebito interessi**  
+* **Selezione report - Commessa**  
 
 ## <a name="example-report-selection-for-sales-documents"></a>Esempio: Selezione report per documenti vendita
 
@@ -68,6 +69,15 @@ Ad esempio, nelle pagine **Selezione report - Vendite** e **Selezione report - A
 [Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
 [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md)  
 [Configurare le stampanti](ui-specify-printer-selection-reports.md)  
-
+[Report finanziari e analisi in Business Central](finance-reports.md)  
+[Report di contabilità clienti e analisi in Business Central](receivables-reports.md) 
+[Report di contabilità fornitori e analisi in Business Central](payables-reports.md)  
+[Report cespiti e analisi in Business Central](fa-reports.md)  
+[Report di progetto e analisi in Business Central](project-reports.md)  
+[Report delle vendite e analisi in Business Central](sales-reports.md)  
+[Report di acquisto e analisi in Business Central](purchase-reports.md)  
+[Report di inventario e warehouse e analisi in Business Central](inventory-WMS-reports.md)  
+[Report di assemblaggio e analisi in Business Central](assembly-reports.md)  
+[Report di produzione e analisi in Business Central](production-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

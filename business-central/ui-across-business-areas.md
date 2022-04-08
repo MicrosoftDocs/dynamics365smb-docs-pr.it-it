@@ -10,12 +10,12 @@ ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322852"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513603"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
@@ -23,7 +23,7 @@ ms.locfileid: "8322852"
 Per supportare questi task specifici del settore commerciale, è possibile utilizzare un'ampia gamma di funzionalità generali commerciali, ad esempio la definizione del testo esteso per le righe del documento e l'organizzazione del collegamento dei task aziendali nei workflow.
 
 > [!NOTE]
-> Oltre alle funzioni correlate all'azienda descritte in questa sezione, si usano le funzioni generali dell'interfaccia utente ogni giorno per interagire con il sistema. Per ulteriori informazioni, vedere [Utilizzo di Business Central](ui-work-product.md).
+> Oltre alle funzioni correlate all'azienda descritte in questa sezione, si usano le funzioni generali dell'interfaccia utente ogni giorno per interagire con il sistema. Per ulteriori informazioni, vedi [Utilizzare Business Central](ui-work-product.md).
 
 Nella tabella seguente sono elencate queste aree generali e sono riportati i collegamenti agli argomenti che le descrivono.
 
@@ -40,15 +40,15 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 |Pubblicare molteplici documenti di vendita o di acquisto insieme, immediatamente o come previsto.|[Registrare più documenti contemporaneamente](ui-batch-posting.md)|  
 |Esaminare i risultati di una registrazione prima di eseguirla.|[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md)|
 |Modificare i campi selezionati nei documenti di vendita o di acquisto registrati.|[Modificare i documenti registrati](across-edit-posted-document.md)|
-|Imparare a utilizzare le registrazioni generali che vengono utilizzate per la contabilizzazione nei conti di contabilità generale e in altri conti, ad esempio conti correnti bancari, conti clienti e fornitori e conti cespiti. |[Utilizzo delle registrazioni COGE](ui-work-general-journals.md) |
+|Imparare a utilizzare le registrazioni generali che vengono utilizzate per la contabilizzazione nei conti di contabilità generale e in altri conti, ad esempio conti correnti bancari, conti clienti e fornitori e conti cespiti. |[Utilizzare le registrazioni COGE](ui-work-general-journals.md) |
 | Programmare l'esecuzione di un report a una data e un orario specifici. |[Pianificazione dell'esecuzione di un report](ui-work-report.md#ScheduleReport) |
 |Il sistema consente di completare le attività in modo più rapido e più corretto precompilando i campi o righe intere con i dati che verrebbero altrimenti calcolati e immessi manualmente.|[Suggerimento automatico dei valori in Business Central](ui-let-system-suggest-values.md)|
 |Registrare i documenti esterni, inclusi gli allegati di file, quindi creare manualmente i documenti correlati o convertire automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
 |Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. La richiesta e la concessione dell'approvazione per creare o registrare i documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|
 | Impostare le definizioni di scambio dati per inviare e ricevere i documenti elettronici. |[Scambio di dati in modalità elettronica](across-data-exchange.md) |
 
-## <a name="see-also"></a>Vedi anche
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+## <a name="see-also"></a>Vedere anche
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Amministrazione](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

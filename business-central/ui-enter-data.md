@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323034"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528550"
 ---
 # <a name="entering-data"></a>Immissione di dati
 
@@ -23,7 +23,8 @@ Sono disponibili numerose funzionalità generali che consentono di immettere dat
 
 Gli esempi in questo articolo utilizzano dati di esempio.
 
-## <a name="working-with-editable-fields"></a>Utilizzo dei campi modificabili
+## <a name="work-with-editable-fields"></a>Utilizzare i campi modificabili
+
 I campi in [!INCLUDE[prod_short](includes/prod_short.md)] possono contenere diversi dati modificabili, ad esempio importi in valuta o testo. I campi modificabili in genere mostrano una casella di input in cui è possibile digitare o scegliere un valore. I campi non modificabili sono in genere visualizzati con uno sfondo grigio.   
 
 Alcuni campi modificabili forniscono un selettore per consentire di specificare un valore.  
@@ -57,6 +58,8 @@ Quando il cursore viene visualizzato alla fine del valore di campo:
 
 > [!NOTE]
 > Dopo aver specificato un valore, Business Central verificherà che sia valido solo dopo aver fatto clic all'esterno del campo o impostato lo stato attivo su un altro elemento, ad esempio il campo successivo.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -108,9 +111,9 @@ Anche se il campo è obbligatorio, non è obbligatorio compilarlo prima di conti
 
  In molti campi è disponibile un pulsante Freccia GIÙ che è possibile selezionare. Facendo clic sulla freccia, è possibile ottenere un elenco di tutti i dati disponibili in un quel campo. Il pulsante ha due funzioni, a seconda del tipo di campo:  
 
--   Lookup - Vengono visualizzate informazioni di un'altra tabella che possono essere immesse nel campo. È possibile selezionare soltanto un dato alla volta.  
+- Lookup - Vengono visualizzate informazioni di un'altra tabella che possono essere immesse nel campo. È possibile selezionare soltanto un dato alla volta.  
 
--   DropDown - Vengono visualizzate le scelte possibili per il campo. È possibile selezionare soltanto una delle opzioni.  
+- DropDown - Vengono visualizzate le scelte possibili per il campo. È possibile selezionare soltanto una delle opzioni.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Copiare e incollare campi e righe
 
@@ -171,26 +174,26 @@ Quando si immettono numeri nei campi numerici come il campo **Quantità** in una
 
 ### <a name="examples"></a>Esempi  
 
--   Se si immette 19+19, il valore del campo viene calcolato in 38.  
+- Se si immette 19+19, il valore del campo viene calcolato in 38.  
 
--   Se si immette 41-9, il valore del campo viene calcolato in 32.  
+- Se si immette 41-9, il valore del campo viene calcolato in 32.  
 
--   Se si immette 12*4, il valore del campo viene calcolato in 48.  
+- Se si immette 12*4, il valore del campo viene calcolato in 48.  
 
--   Se si immette 12/4, il valore del campo viene calcolato in 3.  
+- Se si immette 12/4, il valore del campo viene calcolato in 3.  
 
 ## <a name="entering-negative-numbers"></a>Immettere numeri negativi
 
 È possibile immettere numeri negativi in due modi. Il numero -20,5 può essere immesso come:  
 
--   -20,5  
+- -20,5  
 
-    oppure
--   20,5-  
+  oppure
+- 20,5-  
 
- In entrambi i casi, l'importo verrà registrato come -20,5.  
+In entrambi i casi, l'importo verrà registrato come -20,5.  
 
- Se l'ultimo carattere dell'espressione è un **+** o un **-**, l'intera espressione verrà registrata con tale segno. Ad esempio **10-20+** restituirà 10 e non -10.  
+Se l'ultimo carattere dell'espressione è un **+** o un **-**, l'intera espressione verrà registrata con tale segno. Ad esempio **10-20+** restituirà 10 e non -10.  
 
 ## <a name="entering-dates-and-times"></a>Immissione di date e ore
 
@@ -201,15 +204,18 @@ Quando si immettono numeri nei campi numerici come il campo **Quantità** in una
 
 ### <a name="entering-dates"></a>Immissione di date
 
-È possibile utilizzare il selettore di data per selezionare una data da un calendario oppure immettere manualmente le date. Questa sezione fornisce una breve panoramica della modalità di immissione di date. Per ulteriori informazioni, vedere [Utilizzo di date e orari del calendario](ui-enter-date-ranges.md).
+È possibile utilizzare il selettore di data per selezionare una data da un calendario oppure immettere manualmente le date. Questa sezione fornisce una breve panoramica della modalità di immissione di date. Per ulteriori informazioni, vedi [Utilizzare date e orari del calendario](ui-enter-date-ranges.md).
 
 Per l'immissione manuale di date, è possibile due, quattro, sei o otto cifre:  
 
--   Due cifre sono interpretate come il giorno. Aggiungerà il mese e l'anno della data del lavoro.  
+- Due cifre sono interpretate come il giorno. Aggiungerà il mese e l'anno della data del lavoro.  
 
--   Quattro cifre sono interpretate come il giorno e il mese. Aggiungerà l'anno della data del lavoro.  
+- Quattro cifre sono interpretate come il giorno e il mese. Aggiungerà l'anno della data del lavoro.  
 
--   Se la data desiderata è compresa tra il 01/01/1930 e il 31/12/2029, inserire l'anno con due cifre. Altrimenti, inserire l'anno con quattro cifre.  
+- Se la data desiderata è compresa tra il 01/01/1950 e il 31/12/2049, inserire l'anno con due cifre. Altrimenti, inserire l'anno con quattro cifre.
+
+  > [!NOTE]
+  > Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] in locale, l'intervallo di anni a due cifre potrebbe essere diverso. Gli amministratori possono modificare l'intervallo modificando l'impostazione **CalendarTwoDigitYearMax** del server [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Configurazione di Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 È possibile immettere anche una data come giorno della settimana seguito da un numero di settimana. In alternativa, è possibile immettere un anno. Ad esempio, Lun25 o lun25 indica il lunedì della settimana 25.  
 
@@ -267,14 +273,17 @@ Di seguito vengono forniti alcuni esempi.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Impostazione del separatore decimale usato dalle tastiere numeriche
 
-Quando usi il tasto separatore decimale della tastiera numerica per inserire i dati, il separatore decimale effettivo che viene inserito nel campo è determinato dall'impostazione della regione del tuo Business Central. Hai impostato la regione in Business Central nella pagina **Le mie impostazioni** .
+Quando usi il tasto separatore decimale della tastiera numerica per inserire i dati, il separatore decimale effettivo che viene inserito nel campo è determinato dall'impostazione dell'area geografica in Business Central. La maggior parte delle aree geografiche utilizza il simbolo del punto (.) o della virgola (,) come separatore per i valori decimali, come in genere vedi negli importi in valuta. Il tasto decimale sulla tastierina si adatta alla tua area geografica. Spesso è diverso dai tasti punto o virgola sul resto della tastiera. Imposti l'area geografica in Business Central nella pagina **Impostazioni personali** .
 
-Per esempio, supponiamo che stiate usando una tastiera numerica che usa un punto (.) come tasto separatore decimale. Ma, stai inserendo dati per una lingua regionale che usa una virgola (**,**) per il separatore decimale, come il danese (Danimarca) o il francese (Francia). Quindi, volete che i decimali come "1,23" siano inseriti come "1,23". In questo caso, puoi andare alla pagina **Le mie impostazioni** e impostare la **regione** sulla lingua regionale di destinazione, come il **danese (Danimarca)** o il **francese (Francia)**. Per maggiori informazioni, vedere [Cambiare le impostazioni di base](ui-change-basic-settings.md#region).
+Per esempio, supponiamo che stai usando una tastiera numerica che usa un punto (.) come tasto separatore decimale. Ma, stai inserendo dati per una lingua regionale che usa una virgola (**,**) per il separatore decimale, come il francese (Francia). Quindi, volete che i decimali come "1,23" siano inseriti come "1,23". In questo caso, puoi andare alla pagina **Impostazioni personali** e impostare **Area geografica** sulla lingua regionale di destinazione, come il **francese (Francia)**. Per maggiori informazioni, vedere [Cambiare le impostazioni di base](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Potrebbero esserci occasioni in cui vuoi utilizzare il separatore decimale per inserire un punto (.). Ad esempio, supponi di inserire un intervallo di date in un filtro, ad esempio `01/01/2022..04/01/2022`, o qualsiasi cosa che richieda un punto. Per risolvere questo caso, premi i tasti "Alt+Separatore decimale" sulla tastiera numerica. Questa combinazione di tasti cambia il separatore decimale tra l'emissione di un punto e del separatore decimale determinato dall'impostazione **Area geografica**.
 
 ## <a name="see-also"></a>Vedere anche
 
 [Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

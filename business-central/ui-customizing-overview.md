@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 2500, 2502, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 6eea88cf254b4d1b299a54c47d0e87774f0b21ae
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fa658877b3ed1c04532083788320403edbebce69
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335297"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512864"
 ---
 # <a name="customize-business-central"></a>Personalizzare Business Central
 Sono disponibili diversi metodi per personalizzare l'applicazione per consentire all'utente e ai colleghi di accedere alle funzioni, alle funzionalità e ai dati maggiormente necessari, nel modo più adatto alle proprie attività quotidiane. Gli utenti che possono vedere i cambiamenti dipendono dalle operazioni intraprese, come descritto nella seguente tabella.
@@ -33,7 +33,7 @@ Sono disponibili diversi metodi per personalizzare l'applicazione per consentire
 > Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[prod_short](includes/prod_short.md)] presuppongono l'esperienza **Premium**, ovvero le descrizioni riguardano l'intero ambito degli elementi dell'interfaccia utente. Di conseguenza, gli utenti con interfaccia **Essential**, in alcuni argomenti potrebbero leggere informazioni su funzionalità ed elementi dell'interfaccia utente che non sono visibili nell'interfaccia utente. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 
 ## <a name="see-also"></a>Vedere anche
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, status, negative, positive, increase, decrease, 
 ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af091b33126d4098980c19329d7160ef1789c1b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 600ddd9d927712b4b27f9b4c12e233379808ebe4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131589"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522094"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Conteggio e regolazione del magazzino utilizzando documenti
 
@@ -40,7 +40,7 @@ Un ordine di inventario fisico è un documento è completo che consiste di un'in
 
 Per creare le righe dell'ordine di inventario fisico, in genere si utilizza la funzione **Calcola righe** per riflettere la giacenza corrente come righe nell'ordine. In alternativa, è possibile utilizzare la funzione **Copia da documento** per compilare le righe con il contenuto di un altro ordine di inventario fisico aperto o registrato. La procedura seguente descrive solo come utilizzare la funzione **Calcola righe**.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi necessari della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere l'azione **Calcola righe**.
@@ -100,7 +100,7 @@ Per visualizzare le quantità previste e le eventuali differenze registrate per 
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Per trovare righe di ordine di inventario fisico duplicate
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
 2. Aprire l'ordine di inventario fisico per il quale si desidera visualizzare le righe duplicate.
 3. Scegliere l'azione **Visualizza righe duplicate**.
 
@@ -113,7 +113,7 @@ Dopo il completamento di un ordine di inventario fisico e la modifica del relati
 - Ogni riga di ordine di inventario fisico è stata conteggiata da almeno una riga di registrazione inventario.
 - Le caselle di controllo **In righe registrazione** e **Quantità prevista calcolata** sono state selezionate per tutte le righe di ordine di inventario fisico.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
 2. Selezionare l'ordine di inventario fisico che si intende completare, quindi scegliere l'azione **Modifica**.
 
     Nella pagina **Ordine inventario fisico**, si visualizza la quantità registrata nel campo **Quantità registrata (base)**.
@@ -237,7 +237,7 @@ Puoi specificare i report che devono essere stampati in fasi diverse scegliendo 
 [Gestione warehouse](warehouse-manage-warehouse.md)    
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

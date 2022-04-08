@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: a03cacc0f29935747a9ad9d51aa469279aaab266
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 814c796dae212b2b5b055a0f96b6bb35b6510628
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132229"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518567"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 
@@ -65,7 +65,7 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

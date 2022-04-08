@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b67dd40723f28cb4d59818deb302a1d35c7420e4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146802"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521074"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Dettagli di progettazione: Conti nella contabilità generale
 Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  
@@ -98,7 +98,7 @@ Nella seguente tabella viene mostrato in che modo vengono calcolati gli importi 
  [Dettagli di progettazione: Registrazione del costo previsto](design-details-expected-cost-posting.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

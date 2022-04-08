@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b25851a01a5687da3055a6b8e32becf8e6e9f018
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c683e2ff5960ce03f9c2083954c8250e2e6b39e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131615"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518053"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni
 Almeno una volta durante l'anno fiscale, è necessario procedere a un inventario fisico, ovvero conteggiare tutti gli articoli in magazzino, per verificare se la quantità registrata nel database corrisponde alla quantità fisica presente nelle warehouse. Se non si conosce la quantità fisica effettiva, è necessario registrarla nella contabilità generale come parte di una valutazione di magazzino di fine periodo.
@@ -48,7 +48,7 @@ Oltre al task di conteggio fisico, il processo completo include i tre task segue
 -   Se l'ubicazione prevede l'utilizzo di stoccaggi e prelievi guidati (configurazione di warehouse avanzata), utilizzare innanzitutto la pagina **Registrazioni inventario whse.** quindi la pagina **Registrazioni magazzino** per eseguire la funzione **Calcola rettifica whse.**.
 
 ### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>Per calcolare le giacenze previste nelle configurazioni di warehouse di base
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni inventario fisico**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni inventario fisico**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Calcola giacenze**.
 3. Nella pagina **Calcola giacenze** specificare le condizioni da utilizzare per creare le righe registrazioni, ad esempio se includere gli articoli che non hanno inventario registrato.
 4. Impostare i filtri se si desidera soltanto calcolare le giacenze per determinati articoli, collocazioni, ubicazioni o dimensioni.
@@ -80,13 +80,13 @@ Gli addetti al magazzino potranno quindi eseguire l'inventario e registrare tutt
 
     Vengono creati sia i movimenti contabili articoli che i movimenti contabili di inventario fisico. Aprire la scheda articolo per visualizzare i movimenti contabili di inventario fisico risultanti.
 
-3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 4. Per verificare il conteggio dell'inventario, aprire la scheda articolo in questione e quindi scegliere l'azione **Mov. contabili inventario fis.**.
 
 ### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Per calcolare le giacenze previste nelle configurazioni di warehouse avanzate
 Sincronizzare i movimenti contabili magazzino e la warehouse prima di eseguire l'inventario fisico della warehouse, altrimenti i risultati registrati nelle registrazioni di inventario fisico e nei movimenti contabili magazzino nella parte finale del processo corrisponderanno ai risultati dell'inventario fisico combinati con altre rettifiche di warehouse relative agli articoli conteggiati. Per ulteriori informazioni, vedere [Sincronizzare le quantità nei movimenti contabili e nella warehouse](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registr. invent. whse.**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registr. invent. whse.**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Calcola giacenze**. Verrà visualizzata la pagina di richiesta del processo batch **Calcola inventario whse.**.  
 3. Impostare i filtri per limitare gli articoli che verranno conteggiati nelle registrazioni e fare clic sul pulsante **OK**.
 
@@ -174,7 +174,7 @@ Il magazzino dell'articolo è ora rettificato. La nuova quantità viene visualiz
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Per rettificare la quantità in giacenza di più articoli nelle configurazioni di warehouse di base
 Nella pagina **Registrazioni magazzino**, è possibile registrare direttamente la transazione dell'articolo per rettificare il magazzino in relazione a rettifiche positive o negative di agli acquisti o vendite senza utilizzare i documenti.
 
-Se le registrazioni magazzino sono spesso utilizzate per la stessa riga di registrazione o per righe di registrazione simili, ad esempio in relazione al consumo di materiale, è possibile utilizzare la pagina **Registrazioni magazzino standard** per rendere più semplice questo tipo di lavoro ricorrente. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni standard](ui-work-general-journals.md#working-with-standard-journals).
+Se le registrazioni magazzino sono spesso utilizzate per la stessa riga di registrazione o per righe di registrazione simili, ad esempio in relazione al consumo di materiale, è possibile utilizzare la pagina **Registrazioni magazzino standard** per rendere più semplice questo tipo di lavoro ricorrente. Per ulteriori informazioni, vedi [Utilizzare le registrazioni standard](ui-work-general-journals.md#work-with-standard-journals).
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni articoli**, quindi scegli il collegamento correlato.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -223,7 +223,7 @@ Per informazioni sul trasferimento di articoli con controllo totale delle quanti
 [Gestione warehouse](warehouse-manage-warehouse.md)    
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

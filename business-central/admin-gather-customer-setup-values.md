@@ -1,28 +1,29 @@
 ---
 title: Raggruppare i valori di setup del cliente
-description: Il questionario di configurazione aiuta a ridurre l'implementazione semplificando la creazione di nuove società e offrendo ai clienti un file Excel o XML.
+description: Se vuoi usare RapidStart Services, il questionario di configurazione aiuta a ridurre l'implementazione semplificando la creazione di nuove società e offrendo ai clienti un file Excel o XML.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8610, 8613
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91c13c5b0fb67befd0c03e2662c545ff8231e6da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145972"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518391"
 ---
-# <a name="gather-customer-setup-values"></a>Raggruppare i valori di setup del cliente
+# <a name="gather-customer-setup-values-with-rapidstart-services"></a>Raggruppare i valori di setup del cliente con RapidStart Services
 Utilizzare il questionario di configurazione per consentire la riduzione del carico di lavoro di implementazione semplificando i task di impostazione della nuova società. È possibile generare il questionario di configurazione in [!INCLUDE[prod_short](includes/prod_short.md)] e fornirlo al cliente come file di Excel o file XML.  
 
 È possibile modificare tutti i valori di default in un questionario in modo che corrispondano il più possibile alle esigenze del cliente.  
 
 > [!TIP]  
->  Per ulteriori informazioni sulla definizione dei valori di setup nei campi relativi alla pianificazione dell'approvvigionamento, vedere [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md).  
+> Per ulteriori informazioni sulla definizione dei valori di setup nei campi relativi alla pianificazione dell'approvvigionamento, vedere [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md).  
 
 Quando il cliente completa il questionario, importare il file nella nuova società [!INCLUDE[prod_short](includes/prod_short.md)] del cliente. L'azienda e il cliente convalidano le risposte del questionario prima di applicarle alla società.
 

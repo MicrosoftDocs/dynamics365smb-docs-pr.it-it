@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a9da38bf023ff378a20daa373bdd1963380e9928
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 219c99e10e274bf2eeb99607b4499a4f94102237
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131824"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517630"
 ---
 # <a name="design-details-revaluation"></a>Dettagli di progettazione: Rivalutazione
 È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione, in modo che il costo delle merci vendute (COGS) venga aggiornato correttamente per gli articoli che sono già stati venduti. Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati.  
@@ -180,7 +180,7 @@ Il magazzino WIP può essere rivalutato finché la data di rivalutazione non è 
  [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)   
  [Dettagli di progettazione: Valutazione di magazzino](design-details-inventory-valuation.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eb6b766ffb4974943c37f0b3e1499a59695f349c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: be9ddda098391cad347948993c2038de7efc8fc9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140243"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521444"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili
 
@@ -53,7 +53,7 @@ Una situazione contabile è costituita da un nome della situazione contabile del
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Per impostare un nuovo nome situazione contabile  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Situazioni contabili**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Descr. situazioni contabili** scegliere l'azione **Nuovo** per creare un nuovo nome della situazione contabile del conto di cassa.  
 3. Nel campo **Nome** immettere **Previsione**.  
 4. Nel campo **Descrizione** immettere **Previsione flusso di cassa**.  
@@ -147,6 +147,6 @@ Ken è ora pronto per assegnare il layout colonna al nome della situazione conta
 [Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

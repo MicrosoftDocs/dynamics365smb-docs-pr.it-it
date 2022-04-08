@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.search.form: 44, 134, 143, 9302, 9304, 6662
+ms.search.form: 44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: cf613ce6898165bca4a881a045ed4b86ef327f35
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: ad8dbaae34876678c199501648cf9d5e10a90ed0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366990"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522592"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
 
@@ -38,7 +38,7 @@ La registrazione della nota di credito annullerà anche tutti gli addebiti artic
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Per creare una nuova nota di credito di vendita da una fattura di vendita registrata  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , immetti **Fatture di vendita registrate**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , immetti **Fatture di vendita registrate**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Fatture di vendita registrate**, seleziona la fattura di vendita registrata che vuoi annullare, scegli l'azione **Annulla** e poi scegli l'azione **Crea nota di credito correttiva** .
 
     Nell'intestazione della nota di credito di vendita sono incluse alcune informazioni contenute nella fattura di vendita registrata. Tali informazioni possono, ad esempio, essere sostituite da nuove informazioni che riflettono il contratto di reso.  
@@ -61,7 +61,7 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Per creare una nota di credito di vendita copiando una fattura di vendita registrata
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di vendita vuota.
 3. Nel campo **Nome del cliente**, inserite il nome di un cliente esistente.
 4. Scegli l'azione **Prepara**, poi scegli l'azione **Copia documento** .
@@ -75,7 +75,7 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 È possibile inviare a un cliente una nota di credito con una riduzione di prezzo nel caso in cui il cliente abbia ricevuto articoli leggermente danneggiati oppure in ritardo.  
 È possibile registrare questo prezzo ridotto come addebito articolo in una nota di credito o in un ordine di reso e assegnarlo alla spedizione registrata. Di seguito sono descritte le procedure per una nota di credito di vendita, ma gli stessi passaggi si applicano a un ordine di reso da vendita.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di vendita vuota.
 3. Compilare la testata della nota di credito con le informazioni relative al cliente cui si intende riconoscere l'abbuono.  
 4. Nel campo **Tipo** della Scheda dettaglio **Righe** selezionare **Addebito (Articolo)**.  
@@ -155,7 +155,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazz
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

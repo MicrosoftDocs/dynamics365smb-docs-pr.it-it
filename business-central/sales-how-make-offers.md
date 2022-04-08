@@ -10,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 41, 9300
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a493c2de0747e7674bd9e9771b63f8d3ddd1f534
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0264e689947745122d3de8879dc7e050aef3103f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130178"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521730"
 ---
 # <a name="make-sales-quotes"></a>Creare offerte di vendita
 
@@ -27,7 +27,7 @@ Nella maggior parte dei casi, si inviano offerte di vendita a potenziali clienti
 
 ## <a name="to-create-a-sales-quote"></a>Per creare un'offerta di vendita
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Offerte di vendita**, quindi seleziona il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Offerte di vendita**, quindi seleziona il collegamento correlato.
 2. Specifica il contatto o il cliente a cui vuoi inviare l'offerta di vendita.
 
     - Se l'offerta di vendita riguarda un contatto esistente, specifica il nome nel campo **Nr. contatto** .  
@@ -104,6 +104,6 @@ La conversione rimuove l'offerta di vendita dal database. Viene creata una fattu
 [Setup Vendite](sales-setup-sales.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Archiviare documenti](across-how-to-archive-documents.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

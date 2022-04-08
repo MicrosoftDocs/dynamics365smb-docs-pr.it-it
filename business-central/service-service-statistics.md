@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 37bd1ae61aae45a988ab38f1e25be3f870814f77
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382665"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512890"
 ---
 # <a name="viewing-service-statistics"></a>Visualizzazione delle statistiche relative all'assistenza
 È possibile utilizzare statistiche che consentono di analizzare i documenti di assistenza e determinare la qualità di gestione dei processi di assistenza. È possibile analizzare contratti, offerte, fatture e note di credito di assistenza nonché articoli in assistenza scegliendo l'azione **Statistiche**. Per gli articoli in assistenza e i contratti di assistenza, è anche possibile utilizzare **Trendscape articolo di assist.** o **Trendscape contratto** per visualizzare un resoconto dei movimenti contabili di assistenza per un articolo in assistenza specifico.   
@@ -62,7 +62,7 @@ Per ogni tipo di movimento è possibile visualizzare l'importo fatturato, l'impo
 
 * (Importo fatturato - Utilizzo (Costo)) x 100 / Importo fatturato  
 
-## <a name="using-trendscapes"></a>Utilizzo di Trendscape
+## <a name="use-trendscapes"></a>Utilizzare Trendscape
 Per gli articoli in assistenza e i contratti di assistenza, le pagine **Trendscape articolo di assist.** e **Trendscape contratto** forniscono un riepilogo a scorrimento dei movimenti contabili di assistenza per uno specifico articolo in assistenza o contratto di assistenza in un determinato periodo di tempo. Per visualizzare il trendscape, aprire l'articolo in assistenza o il contratto di assistenza, scegliere l'azione **Statistiche** e quindi scegliere **Trendscape**.
 
 Scorrendo l'elenco, gli importi vengono calcolati nella valuta locale a seconda dell'intervallo di tempo specificato. Tutti gli importi vengono calcolati dai movimenti contabili di assistenza, ovvero i movimenti creati durante la registrazione di ordini o di fatture di assistenza.

@@ -7,12 +7,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 47bc68e6d4354d2dd30b01571b2448f80dab3bec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129788"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521522"
 ---
 # <a name="customize-pages-for-profiles"></a>Personalizzare pagine per profili
 Gli utenti possono personalizzare le pagine della propria area di lavoro per adattarle alle proprie preferenze. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
@@ -25,7 +25,7 @@ Gli amministratori possono personalizzare le pagine per un profilo, in base al r
 La personalizzazione delle pagine inizia dalla pagina **Profili (ruoli)**, ovvero il punto di partenza dell'amministratore per la gestione dei profili degli utenti in singole schede profilo. Oltre a personalizzare il layout delle pagine, si controllano varie altre impostazioni per i profili nella pagina **Profilo (ruolo)** di ogni profilo. Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Per personalizzare pagine per un profilo
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Profili (ruoli)**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Profili (ruoli)**, quindi scegli il collegamento correlato.
 2. Selezionare la riga per il profilo per cui si desidera personalizzare le pagine, quindi scegliere l'azione **Modifica**.
 3. Scegliere l'azione **Personalizza pagine**.
 
@@ -70,7 +70,7 @@ Il layout delle pagine selezionate viene adattato alle modifiche apportate.
 [Gestire profili](admin-users-profiles-roles.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

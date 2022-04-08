@@ -8,12 +8,12 @@ ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f83764061bb341b0b9d6619a0c5d14cac6b664a9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 57f8091d81870f9e58af80462259006d4cb822ae
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383833"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485034"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Connettersi a Microsoft Dataverse
 
@@ -25,17 +25,17 @@ Questo argomento descrive come impostare una connessione tra [!INCLUDE[prod_shor
 
 Prima di creare la connessione, è necessario disporre di alcune informazioni:  
 
-* L'URL per l'ambiente [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a cui vuoi connetterti. Se si utilizza la guida al setup assistito **Setup connessione a Dataverse** per creare la connessione individueremo i tuoi ambienti, ma puoi anche inserire l'URL di un altro ambiente nel tuo tenant.  
+* L'URL per l'ambiente [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a cui vuoi connetterti. Se usi la guida setup assistito **Setup connessione a Dataverse** per creare la connessione troveremo i tuoi ambienti. Puoi anche inserire l'URL di un altro ambiente nel tenant.  
 * Il nome utente e la password di un account che dispone di autorizzazioni di amministratore in [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Se disponi del primo ciclo di rilascio del 2020 di [!INCLUDE[prod_short](includes/prod_short.md)] locale, versione 16.5, leggi l'articolo [Alcuni problemi noti](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Dovrai completare la soluzione alternativa descritta prima di poter creare la connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* La valuta locale della società in [!INCLUDE[prod_short](includes/prod_short.md)] deve essere la stessa della valuta della transazione di base in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Dopo aver impostato una transazione di base in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] non è possibile cambiarla. Per ulteriori informazioni, vedere [Entità della valuta (valuta) di transazione](/powerapps/developer/data-platform/transaction-currency-currency-entity). Ciò significa che tutte le società [!INCLUDE[prod_short](includes/prod_short.md)] che colleghi a un'organizzazione [!INCLUDE[cds_long_md](includes/cds_long_md.md)] devono utilizzare la stessa valuta.
+* La valuta locale della società in [!INCLUDE[prod_short](includes/prod_short.md)] deve essere la stessa della valuta della transazione di base in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Dopo aver effettuato una transazione nella valuta di base in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], non puoi cambiarla. Per ulteriori informazioni, vedere [Entità della valuta (valuta) di transazione](/powerapps/developer/data-platform/transaction-currency-currency-entity). Tutte le società [!INCLUDE[prod_short](includes/prod_short.md)] che colleghi a un'organizzazione [!INCLUDE[cds_long_md](includes/cds_long_md.md)] devono utilizzare la stessa valuta.
 
 > [!IMPORTANT]
 > L'ambiente [!INCLUDE[cds_long_md](includes/cds_long_md.md)] non deve essere in modalità di amministrazione. La modalità di amministrazione causerà la mancata connessione perché l'account utente di integrazione per la connessione non dispone delle autorizzazioni di amministratore. Per ulteriori informazioni, vedere [Modalità di amministrazione](/power-platform/admin/admin-mode).
 
 > [!Note]
 > Tali passaggi descrivono la procedura per [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> Se stai utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] locale e non si sta utilizzando l'account Azure Active Directory per connettersi a [!INCLUDE [cds_long_md](includes/cds_long_md.md)], devi inoltre specificare un nome utente e una password di un account utente per l'integrazione. Questo account viene definito account "utente integrazione". Se si sta usando un account Azure Active Directory l'account utente di integrazione non è richiesto o visualizzato. L'utente dell'integrazione verrà impostato automaticamente e non richiede una licenza.
+> Se stai utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] locale e non si sta utilizzando l'account Azure Active Directory per connettersi a [!INCLUDE [cds_long_md](includes/cds_long_md.md)], devi inoltre specificare un nome utente e una password di un account utente per l'integrazione. Questo account viene definito account "utente integrazione". Se stai usando un account Azure Active Directory l'account utente di integrazione non è richiesto o visualizzato. L'utente dell'integrazione verrà impostato automaticamente e non richiede una licenza.
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Impostare una connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
@@ -71,15 +71,15 @@ La guida Setup connessione a Dataverse può semplificare la connessione delle ap
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Per creare o gestire la connessione manualmente
 
-La procedura seguente illustra come configurare la connessione manualmente nella pagina **Setup connessione a Dataverse**. Questa è anche la pagina in cui si gestiscono le impostazioni per l'integrazione.
+La procedura seguente illustra come configurare la connessione manualmente nella pagina **Setup connessione a Dataverse**. La pagina **Setup connessione a Dataverse** è dove gestisci le impostazioni di integrazione.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup connessione a Dataverse**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup connessione a Dataverse**, quindi scegli il collegamento correlato.
 2. Immettere le seguenti informazioni per la connessione da [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Campo|Descrizione|
     |-----|-----|
     |**URL ambiente**|Se sei proprietario di ambienti in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], li troveremo per te quando esegui la guida al setup. Se desideri connetterti a un altro ambiente in un altro tenant, puoi immettere le credenziali di amministratore per l'ambiente e verranno individuate. |
-    |**Abilitato**|Iniziare a utilizzare l'integrazione. Se non si abilita la connessione subito, le impostazioni di connessione verranno salvate, ma gli utenti non potranno accedere ai dati di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] da [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile tornare a questa pagina e abilitare la connessione in un secondo momento.  |
+    |**Abilitato**|Iniziare a utilizzare l'integrazione. Se non abiliti la connessione subito, le impostazioni di connessione verranno salvate, ma gli utenti non potranno accedere ai dati di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] da [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile tornare a questa pagina e abilitare la connessione in un secondo momento.  |
 
 3. Nel campo **Modello proprietà**, scegli se vuoi che una tabella team in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sia proprietaria di nuovi record o uno o più utenti specifici. Se scegli **Persona**, devi specificare ciascun utente. Se scegli **Team**, la Business Unit predefinita verrà visualizzata nel campo **Business Unit associata**.
 
@@ -88,7 +88,7 @@ La procedura seguente illustra come configurare la connessione manualmente nella
 
     <!-- |Field|Description|
     |-----|-----|
-    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
+    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you're using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who don't have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account won't have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
 4. Per verificare le impostazioni di connessione, scegli **Connessione**, quindi **Test connessione**.  
 
@@ -107,9 +107,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## <a name="customize-the-match-based-coupling"></a>Personalizzare l'accoppiamento basato sulla corrispondenza
 
-A partire dalla release 2021 wave 2, è possibile accoppiare i record in [!INCLUDE [prod_short](includes/prod_short.md)] e [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in base a criteri di corrispondenza definiti dall'amministratore.  
-
-L'algoritmo per la corrispondenza dei record può essere avviato dai seguenti punti in [!INCLUDE [prod_short](includes/prod_short.md)]:
+A partire dal secondo ciclo di rilascio del 2021, un amministratore può immettere i criteri per abbinare i record in base alle corrispondenze. Puoi avviare l'algoritmo per la corrispondenza dei record dai seguenti punti in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
 * Elenca le pagine che mostrano i record sincronizzati con [!INCLUDE [cds_long_md](includes/cds_long_md.md)], come le pagine Clienti e Articoli.  
 
@@ -120,22 +118,22 @@ L'algoritmo per la corrispondenza dei record può essere avviato dai seguenti pu
 
     Quando il processo di sincronizzazione completa rileva che hai disaccoppiato i record sia in [!INCLUDE [prod_short](includes/prod_short.md)] che in [!INCLUDE [cds_long_md](includes/cds_long_md.md)], appare un link **Seleziona criteri di accoppiamento** per la relativa tabella di integrazione.  
 
-    È possibile avviare il processo **Eseguire la sincronizzazione completa** dalle pagine **Dataverse Configurazione connessione** e **Configurazione connessione Dynamics 365**, e può essere avviato come un passo nella guida **Configura una configurazione assistita Dataverse** quando si sceglie di completare la configurazione ed eseguire la sincronizzazione completa alla fine.  
+    Puoi iniziare il processo **Esegui sincronizzazione completa** dalle pagine **Setup connessione a Dataverse** e **Setup connessione a Dynamics 365**. Puoi anche avviarlo nella guida setup assistito **Impostare una connessione a Dataverse** al termine del setup.  
 
-    Quando il processo di accoppiamento basato sulla corrispondenza viene avviato dalla pagina **Dataverse Revisione sinc completa**, un lavoro di accoppiamento sarà programmato subito dopo aver completato la configurazione.  
+    Quando il processo di accoppiamento basato sulla corrispondenza viene avviato dalla pagina **Revisione sincronizzazione completa Dataverse**, un processo di accoppiamento sarà programmato subito dopo aver completato il setup.  
 * L'elenco delle **mappature delle tabelle di integrazione** .  
 
     Seleziona una mappatura, scegli l'azione **Coupling** e poi scegli **Accoppiamento basato su corrispondenza**.
 
-    Quando il processo di accoppiamento basato sulla corrispondenza viene avviato da una mappatura della tabella di integrazione, un lavoro di accoppiamento verrà eseguito per tutti i record non accoppiati in quella mappatura. Se è stato eseguito per un insieme di record selezionati dalla lista, verrà eseguito solo per i record non accoppiati selezionati.
+    Quando il processo di accoppiamento basato sulla corrispondenza viene avviato da una mappatura della tabella di integrazione, un processo di accoppiamento verrà eseguito per tutti i record non accoppiati in quella mappatura. È inoltre possibile selezionare i record non accoppiati nell'elenco per eseguire il processo solo per tali record.
 
 In tutti e tre i casi, la pagina **Select Coupling Criteria** si apre in modo da poter definire i criteri di accoppiamento pertinenti. In questa pagina, personalizza l'accoppiamento con i seguenti compiti:
 
-* Scegliere quali campi per abbinare i record di [!INCLUDE [prod_short](includes/prod_short.md)] e le entità di [!INCLUDE [cds_long_md](includes/cds_long_md.md)], e anche scegliere se l'abbinamento su quel campo sarà case-sensitive o no.  
+* Scegli i campi da utilizzare per la corrispondenza dei record [!INCLUDE [prod_short](includes/prod_short.md)] con le entità [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Puoi specificare se la corrispondenza fa distinzione tra maiuscole e minuscole.  
 
-* Specifica se eseguire una sincronizzazione dopo l'accoppiamento dei record e, se il record usa la mappatura bidirezionale, scegli anche cosa succede se i conflitti sono elencati nella pagina **Risolvere i conflitti di aggiornamento** .  
+* Specifica se eseguire la sincronizzazione dopo aver accoppiato i record. Se i record utilizzano la mappatura bidirezionale, puoi anche specificare cosa succede se i conflitti sono elencati nella pagina **Risolvi conflitti di aggiornamento**.  
 
-* Dare priorità all'ordine di ricerca dei record specificando una *priorità di corrispondenza* per i campi di mappatura pertinenti. Le priorità di corrispondenza fanno sì che l'algoritmo cerchi una corrispondenza in un numero di iterazioni definito dai valori del campo **Priorità accoppiamento** in ordine crescente. Un valore vuoto nel campo **Priorità accoppiamento** viene interpretato come priorità 0, quindi i campi con questo valore vengono considerati per primi.  
+* Dare priorità all'ordine di ricerca dei record specificando una *priorità di corrispondenza* per i campi di mappatura pertinenti. [!INCLUDE [prod_short](includes/prod_short.md)] cercherà una corrispondenza in ordine crescente in base al valore nel campo **Priorità corrispondenza**. Un valore vuoto nel campo **Priorità corrispondenza** equivale alla priorità 0, che è la priorità più alta. I campi con priorità 0 vengono considerati per primi.  
 
 * Specifica se creare una nuova istanza di entità in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] nel caso in cui non sia possibile trovare una corrispondenza unica non accoppiata utilizzando i criteri di corrispondenza. Per attivare questa capacità, scegli l'azione **Crea nuovo se non si trova accoppiamento** .  
 
@@ -143,48 +141,44 @@ In tutti e tre i casi, la pagina **Select Coupling Criteria** si apre in modo da
 
 Per visualizzare i risultati del lavoro di accoppiamento, aprire la pagina **Mappatura tabella integrazione**, selezionare la mappatura pertinente, scegliere l'azione **Accoppiamento** e poi scegliere l'azione **Registro lavoro accoppiamento integrazione** .  
 
-Se ci sono dei record che non sono stati accoppiati, puoi approfondire il valore nella colonna Failed, che aprirà una lista di errori che specifica perché i record non sono riusciti ad accoppiarsi.  
+Se i record non si sono accoppiati, puoi scegliere il valore nella colonna **Non completato** per aprire un elenco di errori che descrivono il motivo per cui ciò è accaduto.  
 
-L'accoppiamento fallito si verifica spesso nei seguenti casi:
+In genere, l'accoppiamento non riesce per i seguenti motivi:
 
 * Non è stato definito alcun criterio di corrispondenza
 
-    In questo caso, eseguite di nuovo l'accoppiamento basato sulla corrispondenza, ma ricordatevi di definire i criteri di accoppiamento.
+    Esegui di nuovo l'accoppiamento basato sulla corrispondenza, ma ricordati di definire i criteri di accoppiamento.
 
-* Nessuna corrispondenza è stata trovata per un certo numero di record, in base ai campi di corrispondenza scelti
+* Non è stata trovata alcuna corrispondenza per i campi specificati nei criteri di corrispondenza
 
-    In questo caso, ripetete l'accoppiamento con qualche altro campo corrispondente.
+    Ripeti l'accoppiamento utilizzando diversi campi.
 
-* Sono state trovate corrispondenze multiple per un certo numero di record, in base ai campi di corrispondenza scelti  
+* Sono state trovate più corrispondenze per diversi record, in base ai campi specificati nei criteri di corrispondenza  
 
-    In questo caso, ripetete l'accoppiamento con qualche altro campo corrispondente.
+    Ripeti l'accoppiamento utilizzando diversi campi.
 
-* È stata trovata una singola corrispondenza, ma il record corrispondente è già accoppiato a un altro record in [!INCLUDE [prod_short](includes/prod_short.md)]  
+* È stata trovata una corrispondenza, ma il record è già accoppiato a un record in [!INCLUDE [prod_short](includes/prod_short.md)]  
 
-    In questo caso, ripetete l'accoppiamento con qualche altro campo corrispondente, o indagate perché quell'entità [!INCLUDE [cds_long_md](includes/cds_long_md.md)] è accoppiata a quell'altro record in [!INCLUDE [prod_short](includes/prod_short.md)].
+    Ripeti l'accoppiamento usando campi differenti o indaga perché quell'entità [!INCLUDE [cds_long_md](includes/cds_long_md.md)] è accoppiata a quel record in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!TIP]
-> Per aiutarti ad avere una panoramica sul progresso dell'accoppiamento, il campo **Coupled to Dataverse** mostra se un record specifico è accoppiato a un'entità [!INCLUDE [cds_long_md](includes/cds_long_md.md)] oppure no. Puoi filtrare la lista dei record che vengono sincronizzati con [!INCLUDE [cds_long_md](includes/cds_long_md.md)] da questo campo.
+> Per aiutarti ad avere una panoramica sul progresso dell'accoppiamento, il campo **Associato a Dataverse** mostra se un record è accoppiato a un'entità [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Puoi usare il campo **Associato a Dataverse** per filtrare l'elenco dei record che stai sincronizzando.
 
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Aggiornare le connessioni da Business Central Online per utilizzare l'autenticazione basata su certificato
 > [!NOTE]
 > Questa sezione è rilevante solo per i locatari online [!INCLUDE[prod_short](includes/prod_short.md)] che sono ospitati da Microsoft. I tenant online ospitati dagli ISV e le installazioni locali non sono interessati.
 
-Ad aprile 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] depreca il tipo di autenticazione di Office365 (nome utente/password). Per ulteriori informazioni, vedi [Deprecazione del tipo di autenticazione Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Inoltre, nel marzo 2022, [!INCLUDE[prod_short](includes/prod_short.md)] depreca l'uso dell'autenticazione da servizio a servizio basata su segreto client per i tenant online e richiede l'uso dell'autenticazione da servizio a servizio basata su certificato per le connessioni a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. I tenant [!INCLUDE[prod_short](includes/prod_short.md)] online ospitati da ISV e le installazioni locali possono continuare a utilizzare l'autenticazione del segreto client per connettersi a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+Ad aprile 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] depreca il tipo di autenticazione di Office365 (nome utente/password). Per ulteriori informazioni, vedi [Deprecazione del tipo di autenticazione Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Inoltre, a marzo 2022, [!INCLUDE[prod_short](includes/prod_short.md)] depreca l'uso dell'autenticazione da servizio a servizio basata sul segreto client per i tenant online. È necessario utilizzare l'autenticazione da servizio a servizio basata su certificato per le connessioni a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. I tenant [!INCLUDE[prod_short](includes/prod_short.md)] online ospitati da ISV e le installazioni locali possono continuare a utilizzare i segreti client per l'autenticazione.
 
 Per evitare di interrompere le integrazioni, _devi aggiornare_ la connessione per utilizzare l'autenticazione basata su certificato. Sebbene la modifica sia prevista per marzo 2022, ti consigliamo vivamente di eseguire l'upgrade il prima possibile. I passaggi seguenti descrivono come eseguire l'aggiornamento all'autenticazione basata su certificato. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Per aggiornare la connessione di Business Central online per utilizzare l'autenticazione basata su certificato
 
-> [!NOTE]
-> L'autenticazione basata su certificato è disponibile nel primo ciclo di rilascio di Business Central 2021 e versioni successive. Se usi una versione precedente, devi pianificare un aggiornamento al primo ciclo di rilascio di Business Central 2021 prima di marzo 2022. Per ulteriori informazioni, vedi [Programmazione degli aggiornamenti](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Se riscontri problemi, contatta il tuo partner o l'assistenza.
-
-1. Nell'[interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verifica di utilizzare il primo ciclo di rilascio di Business Central 2021 o un ciclo successivo (versione 18 o successiva).
-2. A seconda dell'integrazione o meno con Dynamics 365 Sales, esegui una delle seguenti operazioni:
+1. A seconda dell'integrazione o meno con Dynamics 365 Sales, esegui una delle seguenti operazioni:
    * Se integri, apri la pagina **Setup connessione a Microsoft Dynamics 365**.
    * In caso contrario, apri la pagina **Setup connessione a Dataverse**.
-3. Scegli **Connessione**, poi **Usa autenticazione certificato** per aggiornare la connessione e utilizzare l'autenticazione basata su certificato.
-4. Accedi con le credenziali di amministratore per Dataverse. L'accesso dovrebbe richiedere meno di un minuto.
+2. Scegli **Connessione**, poi **Usa autenticazione certificato** per aggiornare la connessione e utilizzare l'autenticazione basata su certificato.
+3. Accedi con le credenziali di amministratore per Dataverse. L'accesso dovrebbe richiedere meno di un minuto.
 
 > [!NOTE]
 > Devi ripetere questi passaggi in ciascun ambiente [!INCLUDE[prod_short](includes/prod_short.md)], compresi gli ambienti di produzione e sandbox, e in ogni azienda per cui hai una connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
@@ -193,7 +187,7 @@ Per evitare di interrompere le integrazioni, _devi aggiornare_ la connessione pe
 
 Per connettere [!INCLUDE[prod_short](includes/prod_short.md)] on-premises a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], è necessario specificare alcune informazioni nella pagina **Setup connessione a Dataverse**.
 
-Se si desidera connettersi utilizzando un account Azure Active Directory (Azure AD), è necessario registrare un'applicazione in Azure AD e fornire l'ID applicazione, il segreto del key vault e l'URL di reindirizzamento da utilizzare. L'URL di reindirizzamento è precompilato e dovrebbe funzionare per la maggior parte delle installazioni. È necessario configurare l'installazione per utilizzare HTTPS. Per ulteriori informazioni, vedere [Configurazione di SSL per proteggere la connessione client Web di Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Se si sta configurando il server in modo da avere una home page diversa, è sempre possibile cambiare l'URL. Il segreto del client verrà salvato come stringa crittografata nel database. 
+Per connettersi a un account Azure Active Directory (Azure AD) è necessario registrare un'applicazione in Azure AD. Dovrai fornire l'ID applicazione, il segreto del key vault e l'URL di reindirizzamento da usare. L'URL di reindirizzamento è precompilato e dovrebbe funzionare per la maggior parte delle installazioni. È necessario configurare l'installazione per utilizzare HTTPS. Per ulteriori informazioni, vedere [Configurazione di SSL per proteggere la connessione client Web di Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Se stai configurando il server in modo da avere una home page diversa, puoi cambiare l'URL. Il segreto del client verrà salvato come stringa crittografata nel database. 
 
 ### <a name="prerequisites"></a>Prerequisiti
 
@@ -221,13 +215,13 @@ I seguenti passaggi presuppongono che si stia utilizzando Azure AD per gestire i
     > Il nome dell'API Dynamics CRM potrebbe cambiare.
 
 5. In **Gestisci**, scegliere **Certificati e segreti**, quindi creare un nuovo segreto per l'app. Il segreto viene utilizzato in [!INCLUDE[prod_short](includes/prod_short.md)], nel campo **Segreto client** della pagina **Setup connessione a Dataverse** o archiviato in un archivio sicuro e fornito in una sottoscrizione di eventi come descritto in precedenza in questo argomento.
-6. Scegliere **Panoramica**, quindi trovare il valore **ID applicazione (client)**. Questo è l'ID client dell'applicazione. È necessario inserirlo nella pagina **Setup connessione a Dataverse** nel campo **ID client** o archiviarlo in un archivio sicuro e fornirlo in una sottoscrizione di eventi.
+6. Scegliere **Panoramica**, quindi trovare il valore **ID applicazione (client)**. Questo ID è l'ID client dell'applicazione. È necessario inserirlo nella pagina **Setup connessione a Dataverse** nel campo **ID client** o archiviarlo in un archivio sicuro e fornirlo in una sottoscrizione di eventi.
 7. In [!INCLUDE[prod_short](includes/prod_short.md)], nella pagina **Setup connessione a Dataverse** nel campo **URL ambiente** inserire l'URL per l'ambiente [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 8. Per abilitare la connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], attivare l'interruttore **Abilitato**.
 9. Accedere con l'account amministratore per Azure Active Directory (questo account deve avere una licenza valida per [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ed essere un amministratore nell'ambiente [!INCLUDE[cds_long_md](includes/cds_long_md.md)]). Dopo aver effettuato l'accesso, verrà richiesto di consentire all'applicazione registrata l'accesso a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] per conto dell'organizzazione. È necessario fornire il consenso per completare il setup.
 
    > [!NOTE]
-   > Se non viene richiesto di accedere con il proprio account amministratore, è probabile che i popup siano bloccati. Per accedere, consentire i popup da `https://login.microsoftonline.com`.
+   > Se non viene richiesto di accedere con l'account amministratore, è probabile che i popup siano bloccati. Per accedere, consentire i popup da `https://login.microsoftonline.com`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Per disconnettersi da [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 

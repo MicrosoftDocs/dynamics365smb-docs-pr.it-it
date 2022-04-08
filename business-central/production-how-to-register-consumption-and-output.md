@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7fbb0d2c064df2b99fcbb58dde278ed8848f949f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137525"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516085"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato
 
@@ -27,7 +27,7 @@ Questa attività di esecuzione viene eseguita nella pagina **Registrazioni di pr
 >  i componenti privi di codici di legame tra ciclo e distinta base vengono elencati per primi in questa finestra.  
 
 ## <a name="to-register-consumption-and-output"></a>Per registrare consumi e output  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
 2.  Aprire una riga dell'ordine di produzione rilasciato pronta per la registrazione e nella Scheda dettaglio **Righe** scegliere l'azione **Riga**, quindi scegliere l'azione **Registrazioni di produzione**.  
 
     La pagina **Registrazioni di produzione** si apre mostrando le righe di registrazione per la riga ordine di produzione in base alle pagine **Componenti ordini produzione** e **Cicli ordini produzione** . Le righe hanno origine dalla distinta base di produzione e il ciclo assegnati all'articolo che deve essere prodotto. Per ulteriori informazioni, vedere [Creare distinte base di produzione](production-how-to-create-routings.md).  
@@ -70,7 +70,7 @@ Se occorre registrare altri valori, le registrazioni li conterranno alla success
 [Pianif.](production-planning.md)      
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

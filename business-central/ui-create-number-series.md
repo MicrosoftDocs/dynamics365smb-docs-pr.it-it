@@ -8,21 +8,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: e95b60af569511a8a95154a53f80bcc235f883f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140477"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510599"
 ---
 # <a name="create-number-series"></a>Creazione di numerazioni
 
 Per ogni società impostata, è necessario assegnare codici di identificazione univoci a elementi quali i conti di contabilità generale, i conti clienti e i conti fornitori, le fatture e altri documenti. La numerazione è importante non solo ai fini dell'identificazione. Un sistema di numerazione progettato correttamente semplifica la gestione e l'analisi della società e può ridurre il numero di errori correlati all'immissione dei dati.
 
 > [!Important]
-> Per impostazione predefinita, non sono consentite interruzioni nelle numerazioni poiché, per legge, l'esatta cronologia delle transazioni finanziarie deve essere disponibile per la revisione contabile e pertanto deve seguire una sequenza ininterrotta senza numeri cancellati.<br /><br />
+> Per impostazione predefinita, non sono consentite interruzioni nelle numerazioni poiché, per legge, l'esatta cronologia delle transazioni finanziarie deve essere disponibile per la revisione contabile e pertanto deve seguire una sequenza ininterrotta senza numeri cancellati.
+> 
 > Se si desidera consentire delle interruzioni in determinate numerazioni, consultare prima il proprio revisore o il proprio responsabile della contabilità per assicurarsi di aderire ai requisiti legali nel proprio paese. Per ulteriori informazioni, vedere la sezione [Interruzioni nelle numerazioni](#gaps-in-number-series).
 
 > [!NOTE]  
@@ -41,11 +42,14 @@ Se si desidera utilizzare più codici di numerazione per un tipo di anagrafica, 
 Non tutti i record creati in [!INCLUDE[prod_short](includes/prod_short.md)] sono transazioni finanziarie che devono utilizzare numerazioni sequenziali. Le schede cliente, le offerte di vendita e le attività di warehouse sono esempi di record a cui è assegnato un numero di una numerazione, ma che non sono soggetti a controlli finanziari e/o che possono essere eliminati. Per tali numerazioni, è possibile selezionare la casella di controllo **Consenti interruzioni in num.** nella pagina **Righe nr. serie**. Questa impostazione può essere modificata anche dopo aver creato le numerazioni. Per ulteriori informazioni, vedere [Per creare nuove numerazioni](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamento del campo Nr. in documenti e schede
-Nella vendita, acquisto e trasferimento di documenti e su tutte le schede, il campo **Nr.** può essere compilato automaticamente da una serie di numeri o manualmente e può essere impostato per essere invisibile.
+
+Nella vendita, acquisto e trasferimento di documenti e su tutte le schede, il campo **Nr.** può essere compilato automaticamente da una serie di numeri predefinita o puoi aggiungerlo manualmente. Tuttavia, in determinate circostanze, il campo **Nr.** è invisibile per impedirti di modificarlo.  
 
 Il campo **Nr.** può essere compilato in tre modi:
 
-1. Se esiste solo una numerazione per il tipo di documento o scheda dove la casella di controllo **Proponi automaticamente** è selezionata e la casella di controllo **Consenti num. manuale** non è selezionata, il campo viene compilato automaticamente con il numero successivo della numerazione e il campo **Nr.** non sarà visibile.
+1. Se esiste solo una numerazione per il tipo di documento o scheda e il campo **Proponi automaticamente** è selezionato e il campo **Consenti num. manuale.** non è selezionato per la numerazione, il campo viene compilato automaticamente con il numero successivo della numerazione. Il campo **Nr.** non sarà visibile sulla scheda o sul documento.  
+
+    Anche se definisci i modelli con varie numerazioni per i clienti, se la numerazione definita nella pagina **Setup contabilità clienti** è impostata in questo modo, il campo **Nr.** sarà invisibile sulla scheda cliente, indipendentemente dal modello utilizzato. Lo stesso vale per altri tipi di schede e documenti.  
 
     > [!NOTE]  
     > Se la serie di numeri non funziona, ad esempio perché ha esaurito i numeri, il campo **Nr.** risulterà visibile e sarà possibile immettere manualmente un numero o risolvere il problema nella pagina **Nr. serie**.
@@ -71,13 +75,13 @@ Quando si apre un nuovo documento o scheda per cui esiste una numerazione, si ap
 > [!TIP]
 > Per consentire agli utenti di specificare i numeri manualmente quando registrano un nuovo cliente o fornitore, ad esempio, scegli il campo **Nr. manuali** sulla numerazione stessa. Per non consentire il numero manuale, deseleziona il campo.
 
-Puoi assegnare numerazioni ai modelli che hai impostato per i diversi tipi di cliente e fornitore che i tuoi venditori e acquirenti aggiungono più spesso al tuo [!INCLUDE [prod_short](includes/prod_short.md)]. In tal caso, imposta la numerazione pertinente, collegala tramite relazioni, quindi aggiungi la prima numerazione nella relazione pertinente alla pagina di configurazione pertinente.  
+Puoi assegnare numerazioni ai modelli che hai impostato per i diversi tipi di cliente e fornitore che i tuoi venditori e acquirenti aggiungono più spesso al tuo [!INCLUDE [prod_short](includes/prod_short.md)]. In tal caso, imposta la numerazione pertinente, collegala tramite relazioni, quindi aggiungi la prima numerazione nella relazione pertinente alla pagina di configurazione pertinente. Quindi, quando un utente crea un cliente, sceglie il modello pertinente e il nuovo cliente riceve un numero assegnato dalla numerazione definita per quel modello.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Per creare relazioni tra numerazioni
 
 È possibile creare relazioni tra codici di numero di serie se ne sono stati impostati più di uno per lo stesso tipo di informazione o transazione di base. Questa funzione può essere utile per selezionare il codice corretto, al momento di utilizzare un numero. Impostando una relazione tra un gruppo di numeri di serie, tutte le numerazioni correlate vengono associate a un solo codice numero di serie. Quindi puoi inserire quel codice in un campo della scheda dettaglio **Numerazione** in una delle pagine di configurazione pertinenti, ad esempio **Setup contabilità clienti**.  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Nr. serie**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Nr. serie**, quindi scegli il collegamento correlato.
 2. Selezionare la riga contenente la numerazione per la quale si desidera creare delle relazioni, quindi scegliere **Relazioni**.
 3. Nel campo **Codice serie** immettere il codice della numerazione che si desidera associare alla serie selezionata nel passaggio 2.
 4. Aggiungere una riga per ogni codice che si desidera associare alla numerazione selezionata.
@@ -89,7 +93,7 @@ Ogni volta che verrà impostato un elemento che richiede un numero, è ora possi
 
 La seguente procedura illustra come impostare una numerazione per l'area delle vendite. I passaggi sono simili per altre aree.  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contabilità clienti**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Contabilità clienti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Contabilità clienti** nella Scheda dettaglio **Numerazioni**, selezionare la numerazione desiderata per ogni scheda di vendita o documento.
 
 Il numero selezionato risulterà utilizzato per compilare il campo **Nr.** nella scheda o nel documento in questione, in base alle impostazioni effettuate nella serie di numerazione.  
@@ -100,7 +104,7 @@ Il numero selezionato risulterà utilizzato per compilare il campo **Nr.** nella
 
 ## <a name="see-also"></a>Vedere anche
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

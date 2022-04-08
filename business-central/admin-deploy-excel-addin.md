@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141413"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518417"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Ottieni il Business Central Add-in per Excel
 
@@ -79,13 +79,13 @@ Lavorerai sia in [!INCLUDE[prod_short](includes/prod_short.md)] sia nell'interfa
     4. Esaminare le **richieste di autorizzazioni accettate**, quindi scegliere **Avanti** > **Termina distribuzione**.
     5. Attendere che il segno di spunta verde accanto a **Distribuito** appaia per l'add-in, quindi scegliere **Fatto**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       L'add-in appare nella pagina **Add-in** . Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nell'interfaccia di amministrazione di Microsoft 365, vedi [Distribuire i componenti aggiuntivi nell'interfaccia di amministrazione](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       L'add-in appare nella pagina **Add-in** . Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nell'interfaccia di amministrazione di Microsoft 365, vedi [Distribuire i componenti aggiuntivi nell'interfaccia di amministrazione](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 4. Torna al setup assistito **Distribuzione centralizzata di componenti aggiuntivi per Excel** in [!INCLUDE[prod_short](includes/prod_short.md)], e scegli **Avanti**.
 5. Attivare **Usa distribuzione centralizzata** e scegliere **Fine**.
 
     Se non si attiva questo interruttore, [!INCLUDE[prod_short](includes/prod_short.md)] otterrà l'add-in direttamente da Office Store.
 
-Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amministrazione di Microsoft 365, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amministrazione di Microsoft 365, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > Se hai più di un ambiente, devi eseguire l'installazione assistita di **Distribuzione centralizzata Add-in Excel** su ogni ambiente che vuoi usare la distribuzione centralizzata. Tuttavia, non è necessario configurare nuovamente la distribuzione centralizzata in Microsoft 365. L'unica cosa che devi fare è attivare l'interruttore **Usa distribuzione centralizzata** nella configurazione assistita. 
@@ -166,12 +166,12 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
-[Utilizzo di Business Central](ui-work-product.md)  
+[Utilizzare Business Central](ui-work-product.md)  
 [Miglioramenti all'integrazione di Excel nella seconda ondata di rilascio del 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 

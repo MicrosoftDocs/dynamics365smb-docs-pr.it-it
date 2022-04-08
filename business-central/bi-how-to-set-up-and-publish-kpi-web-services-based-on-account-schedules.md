@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: b02b8fe9aeee685f65cf82ad66c9492d241c6711
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: d8d3e9b37abe5e8d24e1d01eacfdff96df94da45
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381275"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514097"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Impostare e pubblicare servizi Web KPI basati sulle situazioni contabili
 Nella pagina **Impostazione servizio Web KPI situazione contabile**, si imposta come visualizzare i dati KPI della situazione contabile e su quali situazioni contabili specifiche basare i KPI. Quando si sceglie il pulsante **Pubblica servizio Web**, i dati KPI della situazione contabile specificati vengono aggiunti all'elenco di servizi Web pubblicati nella pagina **Servizi Web**.  
@@ -24,7 +24,7 @@ Nella pagina **Impostazione servizio Web KPI situazione contabile**, si imposta 
 > Quando utilizzi questo servizio web, le date di chiusura non sono incluse nel tuo set di dati. Ciò ti consente di utilizzare i filtri in Power BI per analizzare vari periodi di tempo.
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Per impostare e pubblicare un servizio Web KPI basato sulle situazioni contabili  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impostazione servizio Web KPI situazione contabile**, quindi seleziona il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impostazione servizio Web KPI situazione contabile**, quindi seleziona il collegamento correlato.  
 2.  Nella Scheda Dettaglio **Generale** compilare i campi come indicato nella tabella seguente.  
 
     |Campo|Descrizione|  
@@ -57,7 +57,7 @@ Nella pagina **Impostazione servizio Web KPI situazione contabile**, si imposta 
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

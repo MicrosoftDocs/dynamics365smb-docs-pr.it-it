@@ -9,19 +9,19 @@ ms.workload: na
 ms.search.form: 99000883, 99000884
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3080556ad69882c533bec3768787784bfdac5c4f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f24ee7b1e5fab2b54e9653e6bc98cfd87200770
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145526"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516824"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Creare gli ordini di produzione dagli ordini di vendita
 È possibile creare ordini di produzione per gli articoli prodotti direttamente dagli ordini di vendita.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Per creare gli ordini di produzione dagli ordini di vendita  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Selezionare l'ordine di vendita per il quale creare un ordine di produzione.  
 3.  Scegliere l'azione **Pianifica**. Nella pagina **Pianifica ordine vendita** è possibile visualizzare la disponibilità dell'articolo presente nell'ordine di vendita.  
 4.  Selezionare l'azione **Crea ordine produzione**.  
@@ -50,7 +50,7 @@ Quando si utilizzano gli ordini di produzione, il campo **Tipo Origine** dell'or
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143870"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521178"
 ---
 # <a name="administration"></a>Setup
 
@@ -42,7 +42,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Rispondere a richieste da oggetti dati riguardanti i relativi dati personali.|[Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md)|
 |Impostare una nuova business unit utilizzando modelli|[Creazione di nuove società](about-new-company.md)|
 |Tenere traccia di tutte le modifiche dirette apportate dagli utenti ai dati nel database per identificare l'origine di eventuali errori e delle modifiche ai dati.|[Registrazione di modifiche](across-log-changes.md)|  
-|Immettere richieste singole o ricorrenti per eseguire report o codeunit.|[Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md)|  
+|Immettere richieste singole o ricorrenti per eseguire report o codeunit.|[Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)|  
 |Gestire, eliminare o comprimere documenti|[Eliminazione di documenti](admin-manage-documents.md)|  
 |Esporre le pagine, le codeunit e le query come servizi Web.|[Pubblicazione di un servizio Web](across-how-publish-web-service.md)|
 |Come parte della creazione di app Connect tra [!INCLUDE[prod_short](includes/prod_short.md)] e soluzioni di terze parti tramite API REST, definire modelli che vengono utilizzati per popolare proprietà vuote in un'entità quando si crea un'azione POST attraverso un'API.|[Configurazione di modelli di API](admin-configuring-api-template.md)|
@@ -67,8 +67,8 @@ Gli amministratori interni e delegati hanno accesso all'interfaccia di amministr
 
 [Funzionalità aziendale](across-business-functionality.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Preparazione al business](ui-get-ready-business.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Prepararsi a fare affari](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

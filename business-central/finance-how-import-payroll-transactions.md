@@ -10,12 +10,12 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.search.form: 1660, 1661, 36601
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2bd2ab34093bc3aac8ff7d470936a39da893cf82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2f4d5d7ab215a46e89551642739470d68cec761b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147754"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515065"
 ---
 # <a name="importing-payroll-transactions"></a>Importazione delle transazioni retribuzioni
 
@@ -26,7 +26,7 @@ Per indicare i pagamenti di stipendio e le transazioni correlate, è necessario 
 
 ## <a name="to-import-a-payroll-file"></a>Per importare un file delle retribuzioni
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
 2. Nel batch registrazioni COGE appropriato scegliere l'azione **Importa transazioni retribuzioni**. Si apre una guida al setup assistito.
 3. Seguire i passaggi indicati nella pagina **Importa transazioni retribuzioni**.
 
@@ -36,11 +36,11 @@ Per indicare i pagamenti di stipendio e le transazioni correlate, è necessario 
     Se si sceglie il pulsante **OK** nella guida al setup assistito, la pagina **Contabilità generale** viene popolata con le righe che rappresentano le transazioni che contiene il file retribuzioni e con i conti appropriati già precompilati nei campi **Conto C/G** in base ai mapping effettuati nella guida.
 4. Modificare o registrare le righe delle registrazioni relative a tutte le altre le transazioni della contabilità generale. Per ulteriori informazioni, vedere [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md).   
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
-[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
+[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

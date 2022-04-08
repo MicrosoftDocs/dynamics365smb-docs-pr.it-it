@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6f4966a1132c4e389cb3b37f31d9dcc883d27b5
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384204"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511599"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Riferimento rapido per tasti di scelta rapida - Solo PC
 
@@ -79,11 +79,18 @@ ms.locfileid: "8384204"
 |-|-|
 |CTRL+MAIUSC+INVIO|Passare al campo Accesso rapido seguente al di fuori di un elenco|
 |INVIO/MAIUSC+INVIO|Passare al campo Accesso rapido successivo/precedente|
+
 ##### <a name="report-preview"></a>Visualizzare in anteprima un report
 
 |Premere questi tasti|Operazione da eseguire|
 |-|-|
 |CTRL+HOME/FINE|Passare alla prima/ultima pagina|
+
+#### <a name="numeric-keypad"></a>Tastiera numerica
+
+|Premere questi tasti|Operazione da eseguire|  
+|-|-|
+|Alt+Separatore decimale|Attivare/disattivare l'output del separatore decimale sulla tastierina numerica|
 
 > [!TIP]
 > Per una versione grafica facile da stampare, scegliere l'immagine seguente e scaricare il file PDF.

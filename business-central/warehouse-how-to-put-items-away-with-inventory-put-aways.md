@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 02d3f8dca5381ecebac7cb2d980841a2e5897846
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 190a3925cfc692331e21e3cd2a2b41c68cc02d6f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138156"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511417"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi Magazzino
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi ma non l'elaborazione dei carichi, utilizzare il documento **Stoccaggio magazzino** per registrare e contabilizzare le informazioni riguardanti lo stoccaggio e il carico per i documenti di origine. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata o un ordine di asseblaggio o produzione il cui output è pronto per lo stoccaggio.  
@@ -28,11 +28,11 @@ Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoc
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Per richiedere uno stoccaggio magazzino emettendo il documento di origine
 Per gli ordini di acquisto, gli ordini di reso vendita, gli ordini di trasferimento in entrata e gli ordini di assemblaggio, creare la richiesta warehouse emettendo l'ordine. Di seguito viene descritto come eseguire l'operazione da un ordine di acquisto.  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
 2. Selezionare l'ordine di acquisto che si intende rilasciare, quindi scegliere l'azione **Rilascio**.  
 
     Per gli ordini di produzione, la richiesta warehouse viene creata redigendo una richiesta in entrata dall'ordine di produzione rilasciato.  
-3.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
+3.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
 4. Scegliere l'azione **Crea richiesta whse. in entrata**.  
 
 > [!NOTE]  
@@ -42,7 +42,7 @@ In seguito alla creazione della richiesta warehouse, un dipendente della warehou
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Per creare uno stoccaggio in magazzino in base al documento origine
 Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un nuovo stoccaggio in magazzino basato sul documento di origine rilasciato.   
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggio in magazzino**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Stoccaggio in magazzino**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Nel campo **Documento origine**, selezionare il tipo di documento di origine per cui si esegue lo stoccaggio.  
 4. Nel campo **Nr. origine** selezionare il documento di origine.  
@@ -75,8 +75,8 @@ Il processo di registrazione contabilizzerà il carico, o nel caso di ordini di 
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

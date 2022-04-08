@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 375c333bf6fc56d4dac5a59be0dbf905c8339ec5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3e86bf736bb25a9270bec93fcabfa683a6f4ae5f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137577"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516060"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Eseguire la consuntivazione dei componenti in base all'output dell'operazione
 È possibile definire diverse strategie di consuntivazione, per automatizzare la registrazione del consumo di componenti. 
@@ -90,18 +90,18 @@ Ad esempio, se un ordine di produzione per produrre 800 metri richiede 8 chilogr
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Per eseguire la consuntivazione dei componenti in base all'output dell'operazione
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Modifica**.  
 3.  Nella Scheda dettaglio **Rifornimento**, nel campo **Metodo consuntivazione**, selezionare **Indietro**.  
 
     > [!NOTE]  
     >  Selezionare **Prelievo+ Indietro** se il componente è utilizzato in un'ubicazione impostata per l'utilizzo di stoccaggi e prelievi guidati.  
 
-4.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cicli**, quindi scegli il collegamento correlato.  
+4.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cicli**, quindi scegli il collegamento correlato.  
 5.  Definire codici di legame tra ciclo e distinta base per ogni operazione che consuma il componente. Per ulteriori informazioni, vedere [Creare cicli](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Non utilizzare lo stesso collegamento di instradamento per operazioni diverse nell'instradamento, poiché porterà alla registrazione del consumo del componente per ciascuna operazione collegata.  
-6.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
+6.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
 7.  Definire codici di legame tra ciclo e distinta base da ogni istanza del componente all'operazione in cui viene consumato.
 
 Il consumo verrà registrato automaticamente al momento della registrazione dell'output. Per ulteriori informazioni, vedere [Registrare l'output e i tempi di lavorazione tramite processo batch](production-how-to-post-output-quantity.md)
@@ -126,6 +126,6 @@ La tabella seguente descrive le opzioni del metodo di consuntivazione disponibil
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

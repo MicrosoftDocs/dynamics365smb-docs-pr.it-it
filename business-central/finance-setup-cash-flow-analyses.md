@@ -10,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 21a9fb4f38b6960389ec216e638cf06694eca07a
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a79299d835b7a5af06edf16119f037cdaf610311
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381408"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515617"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
 Se si desidera informazioni per decidere quali operazioni effettuare con i contanti, è possibile utilizzare i grafici nella Gestione ruolo utente Contabile:  
@@ -68,14 +68,14 @@ Per utilizzare guida al setup assistito:
 
 1. Nella Gestione ruolo utente Contabile, nel grafico **Previsione flusso di cassa**, scegliere l'azione **Apri setup assistito**.  
 2. Compilare i campi in ogni step della guida.  
-3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Previsione flusso di cassa**, quindi seleziona il collegamento correlato.
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Previsione flusso di cassa**, quindi seleziona il collegamento correlato.
 4. Nella pagina **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
 
 Per utilizzare una procedura manuale:  
 
 1. Nella Gestione ruolo utente Contabile cercare **Setup flusso di cassa** quindi selezionare il collegamento correlato.  
 2. Espandere la Scheda dettaglio **Azure AI**, quindi scegliere la casella di controllo **Abilitato da Azure AI**.  
-3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Previsione flusso di cassa**, quindi seleziona il collegamento correlato.
+3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Previsione flusso di cassa**, quindi seleziona il collegamento correlato.
 4. Nella pagina **Previsione flusso di cassa**, scegliere l'azione **Ricalcola previsione**.  
 
 > [!TIP]  
@@ -121,7 +121,7 @@ Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/pr
 3. Utilizzare l'account Microsoft per impostare un'area di lavoro, quindi copiare il modello.  
 4. Eseguire il modello e pubblicarlo come servizio Web.  
 5. Prendere nota dell'URL API e della chiave API. Usa queste le credenziali per un setup del flusso di cassa.  
-6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup flusso di cassa**, quindi seleziona il collegamento correlato.  
+6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup flusso di cassa**, quindi seleziona il collegamento correlato.  
 7. Espandere la Scheda dettaglio **Azure AI** e compilare i campi.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
@@ -130,7 +130,7 @@ Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/pr
 
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

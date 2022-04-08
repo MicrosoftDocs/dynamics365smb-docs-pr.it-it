@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 40642b524e44234cda8ef0bd468ff8eb47decb69
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4dda49e125445ab754ce63dc6b2fc530ca59fcc4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142265"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516980"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Programmare i lavori per aggiustare e riconciliare il costo dell'inventario con la contabilità generale
 
@@ -25,7 +25,7 @@ Per ottimizzare l'esperienza, la rettifica automatica dei costi e la registrazio
 
 La creazione di movimenti della coda processi può essere complicata, anche per un consulente esperto, quindi abbiamo una guida di installazione assistita per semplificare il processo di rettifica dei costi degli articoli.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immettere **Setup magazzino** e quindi scegliere il collegamento correlato.  
 2. Nella pagina **Setup magazzino**, disattivare il campo **Reg. automatica costi** oppure specificare **Mai** nel campo **Rettifica costo automatica**.  
 3. Nella notifica che ora viene visualizzata nella parte superiore della pagina, scegliere il collegamento **Pianifica movimento coda processi**. Questo apre la guida all'impostazione assistita di **Adeguamento e registrazione dei costi del programma** .  
 4. Specificare l'attività da pianificare.  
@@ -39,7 +39,7 @@ La creazione di movimenti della coda processi può essere complicata, anche per 
 
 In alternativa, è possibile creare manualmente i movimenti di coda processi. La procedura seguente mostra come impostare il processo batch **Rettifica costo - Mov. art.** da eseguire automaticamente ogni giorno, ma gli stessi passaggi si applicano al processo batch **Registra costo magazzino in C/G**.  
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Movimenti coda processi** e quindi scegliere il collegamento correlato.  
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immettere **Movimenti coda processi** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Nel campo **Tipo oggetto da eseguire**, scegliere *Report*.  
 4. Nel campo **ID oggetto da eseguire**, scegliere *795*, **Rettifica costo - Mov. art.**.  
@@ -60,4 +60,4 @@ Per pianificare un'attività per la riconciliazione dell'inventario con la conta
 [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)  
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
-[Utilizzo di [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -7,12 +7,12 @@ ms.search.keywords: ''
 ms.search.form: 12170, 12171, 12172, 12173, 12174
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f7aea18d641d05ed528a7367f18a9b7d43c94c7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dd2576787815bd5ad829bdb9b656e409808f1a58
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146026"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512568"
 ---
 # <a name="set-up-payment-terms-in-the-italian-version"></a>Impostare le condizioni pagamento nella versione italiana
 
@@ -32,7 +32,7 @@ Quando ti iscrivi per la prima volta a [!INCLUDE [prod_short](../../includes/pro
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
     |**% pagamento**|Specificare la percentuale del pagamento totale a cui si riferisce il pagamento rateale.<br /><br /> Ad esempio, se il pagamento deve essere effettuato in una rata, immettere **100**.|  
-    |**Calcolo Data di Scadenza**|Specificare la formula che viene utilizzata per calcolare la data in cui il pagamento deve essere effettuato.<br /><br /> Ad esempio, se il pagamento deve essere effettuato in una rata dopo due settimane, immettere **14D**. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](../../ui-enter-date-ranges.md#using-date-formulas).|  
+    |**Calcolo Data di Scadenza**|Specificare la formula che viene utilizzata per calcolare la data in cui il pagamento deve essere effettuato.<br /><br /> Ad esempio, se il pagamento deve essere effettuato in una rata dopo due settimane, immettere **14D**. Per ulteriori informazioni, vedi [Utilizzare le formule per le date](../../ui-enter-date-ranges.md#use-date-formulas)|  
     |**Calcolo Sconto per Data**|Specificare la formula che viene utilizzata per calcolare la data in cui il pagamento deve essere effettuato per ottenere uno sconto.|  
     |**Sconto %**|Specificare la percentuale di sconto che viene applicata per il pagamento anticipato di un importo fattura.|  
 

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0fda7235af0868a87ac4d76afa3f1030cdf83600
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138780"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523243"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revisione delle modifiche in Business Central
 
@@ -40,8 +40,7 @@ Anche per motivi di prestazioni, il registro delle modifiche viene disattivato d
 > * L'utente ha selezionato un'altra società o gestione ruolo utente.
 > * L'utente è uscito e si è iscritto di nuovo.
 
-### <a name="working-with-the-change-log"></a>Utilizzo del log modifiche
-
+### <a name="work-with-the-change-log"></a>Utilizzare il log delle modifiche
 Il log modifiche viene attivato e disattivato nella pagina **Setup log modifiche**. Quando un utente attiva o disattiva il log modifiche, questa attività viene registrata, in modo da poter visualizzare sempre quale utente ha disattivato o riattivato il log modifiche.
 
 Nella pagina **Setup log modifiche**, se scegli l'azione **Tabelle**, puoi specificare per quali tabelle vuoi tracciare le modifiche e quali modifiche tracciare. [!INCLUDE[prod_short](includes/prod_short.md)] traccia anche diverse tabelle di sistema.
@@ -55,8 +54,7 @@ Dopo avere impostato e attivato il log modifiche e apportato una modifica ai dat
 
 Da alcune pagine in [!INCLUDE [prod_short](includes/prod_short.md)], è possibile visualizzare un log attività che mostra lo stato e gli eventuali errori nei file esportati da o importati in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="working-with-activity-logs"></a>Utilizzare log di attività
-
+### <a name="work-with-activity-logs"></a>Utilizzare il log di attività
 Le informazioni vengono visualizzate nella finestra **Log attività** in base alla pagina di contesto dalla quale viene aperta. Ad esempio, è possibile aprire la pagina dalle pagine **Setup servizio di scambio documenti**, **Documento in entrata**, **Fattura vendita registrata** e **Note cr. vendita registrate**. È possibile svuotare l'elenco dei movimenti del log o semplicemente cancellare l'elenco dei movimenti più vecchi di sette giorni.  
 
 ## <a name="monitoring-sensitive-fields"></a>Monitoraggio dei campi riservati
@@ -82,7 +80,7 @@ Quando si imposta il monitoraggio dei campi o si cambia qualcosa nella configura
 > [!NOTE]
 > Dopo aver aggiunto uno o più campi e avviato il monitoraggio, è necessario disconnettersi da [!INCLUDE[prod_short](includes/prod_short.md)] e accedere di nuovo per applicare le tue impostazioni.
 
-### <a name="working-with-field-monitoring"></a>Utilizzo del monitoraggio campi
+### <a name="work-with-field-monitoring"></a>Utilizzare il monitoraggio campi
 
 Le voci per tutti i valori modificati per i campi monitorati sono disponibili nella pagina **Voci del log dei campi monitorati**. Per esempio, le voci contengono le seguenti informazioni:
 
@@ -109,7 +107,7 @@ Per esaminare ulteriormente una modifica, scegliere un valore per aprire la pagi
 [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)    
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definire i criteri di conservazione](admin-data-retention-policies.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

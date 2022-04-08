@@ -10,14 +10,14 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e697127998351040cb21c44c8383f1f64581bf4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381328"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518759"
 ---
-# <a name="working-with-general-journals"></a>Utilizzo delle registrazioni COGE
+# <a name="work-with-general-journals"></a>Utilizzare le registrazioni COGE
 
 La maggior parte delle transazioni finanziarie vengono registrate nella contabilità generale attraverso i documenti aziendali dedicati quali fatture di acquisto e ordini di vendita. Ma è anche possibile elaborare attività commerciali come l'acquisto, il pagamento, l'uso delle registrazioni ricorrenti per registrare i ratei o il rimborso delle spese dei dipendenti registrando le righe di registrazione nelle varie registrazioni in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -34,7 +34,7 @@ Le informazioni immesse in una registrazione sono temporanee e possono essere mo
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="using-journal-templates-and-batches"></a>Utilizzo di batch e definizioni di registrazioni
+## <a name="use-journal-templates-and-batches"></a>Usare batch e definizioni di registrazioni
 
 Esistono numerose definizioni registrazioni COGE. Ogni definizione registrazioni è rappresentata da una pagina dedicata con funzioni specifiche e campi necessari per supportare tali funzioni, ad esempio la pagina **Registrazione riconciliazione pagamenti** per elaborare i pagamenti bancari e la pagina **Registrazioni pagamenti** per pagare i fornitori o rimborsare i dipendenti. Per ulteriori informazioni, vedere [Effettuare i pagamenti](receivables-how-apply-sales-transactions-manually.md) e [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](payables-make-payments.md).
 
@@ -51,7 +51,9 @@ Per aiutare a prevenire ritardi durante la registrazione, è possibile attivare 
 
 Quando si abilita la convalida, la scheda dettaglio **Verifica registrazione** viene visualizzata accanto alle righe di registrazione e mostrerà i problemi nella riga corrente e nell'intero batch. La convalida si verifica quando si carica un batch registrazioni COGE e quando si sceglie un'altra riga di registrazione. Il riquadro **Problemi totali** nella scheda dettaglio mostra il numero totale di problemi rilevati da [!INCLUDE[prod_short](includes/prod_short.md)] ed è possibile selezionarlo per aprire una panoramica dei problemi. 
 
-È possibile utilizzare le azioni **Mostra righe con problemi** e **Mostra tutte le righe** per alternare tra le righe di registrazione che presentano o non presentano problemi. La nuova scheda dettaglio **Dettagli riga di registrazione** fornisce una rapida panoramica e l'accesso ai dati dalle righe di registrazione, come il conto CoGe, il cliente o il fornitore, nonché all'impostazione di registrazione per conti specifici.     
+È possibile utilizzare le azioni **Mostra righe con problemi** e **Mostra tutte le righe** per alternare tra le righe di registrazione che presentano o non presentano problemi. La nuova scheda dettaglio **Dettagli riga di registrazione** fornisce una rapida panoramica e l'accesso ai dati dalle righe di registrazione, come il conto CoGe, il cliente o il fornitore, nonché all'impostazione di registrazione per conti specifici.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Storno delle registrazioni per correggere gli errori
 Quando si lavora con registrazioni che hanno molte righe e si verifica un errore, è importante avere un modo semplice per correggere gli errori. La pagina **Registrazioni COGE registrate** offre un paio di azioni che possono aiutare.
@@ -73,7 +75,7 @@ Se sono stati impostati conti di contropartita di default per i batch di registr
 > [!NOTE]  
 > L'IVA viene calcolata separatamente per il conto principale e il conto di contropartita, quindi possono essere utilizzate percentuali IVA diverse.
 
-## <a name="working-with-recurring-journals"></a>Utilizzo delle registrazioni periodiche
+## <a name="work-with-recurring-journals"></a>Utilizzare le registrazioni periodiche
 Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica, come affitto, sottoscrizioni, elettricità, riscaldamento. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. È inoltre possibile specificare movimenti di storno automatico per il giorno successivo alla data di registrazione. È anche possibile utilizzare chiavi di assegnazione per suddividere i movimenti ricorrenti tra vari conti. Per ulteriori informazioni, vedere [Allocare importi di registrazioni periodiche a vari conti](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Utilizzando registrazioni periodiche, è sufficiente immettere una sola volta i movimenti registrati regolarmente. Ciò significa che i conti, le dimensioni, i valori dimensioni e così via, immessi nei campi rimarranno nelle registrazioni dopo la contabilizzazione. Se sono necessarie rettifiche, è possibile eseguirle a ogni registrazione.
@@ -97,7 +99,7 @@ Questo campo consente di determinare in che modo verrà considerato l'importo sp
 > È possibile immettere informazioni nei campi relativi all'IVA nella riga delle registrazioni periodiche o di allocazione ma non in entrambe. È possibile completarli nella pagina **Allocazioni** soltanto se le righe corrispondenti delle registrazioni periodiche non sono completate.
 
 ### <a name="recurring-frequency-field"></a>Campo Frequenza ricorrenza
-Questo campo determina la frequenza con cui il movimento contenuto nella riga delle registrazioni verrà contabilizzato. Si tratta di un campo di formula per le date e deve essere riempito per le righe delle registrazioni periodiche. Per ulteriori informazioni, vedere [Utilizzo di formule per le date](ui-enter-date-ranges.md#using-date-formulas).
+Questo campo determina la frequenza con cui il movimento contenuto nella riga delle registrazioni verrà contabilizzato. Si tratta di un campo di formula per le date e deve essere riempito per le righe delle registrazioni periodiche. Per ulteriori informazioni, vedi [Utilizzare le formule per le date](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Esempi
 Se è necessario contabilizzare ogni mese la riga delle registrazioni, immettere "1M". Dopo ogni registrazione, la data indicata nel campo **Data di registrazione** verrà aggiornata alla stessa data del mese successivo.
@@ -145,7 +147,7 @@ I ratei vengono generalmente registrati con i metodi ricorrenti Fisso, Variabile
 > [!NOTE]
 > Per impostazione predefinita, il campo **Calcolo data storno** non è disponibile nella pagina **Registrazioni COGE ricorrenti**. Per utilizzare il campo, è necessario aggiungerlo personalizzando la pagina. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
-## <a name="working-with-standard-journals"></a>Utilizzo delle registrazioni standard
+## <a name="work-with-standard-journals"></a>Utilizzare le registrazioni standard
 Quando si creano righe di registrazione che verranno probabilmente create di nuovo successivamente, è possibile scegliere di salvarle come registrazioni standard prima di contabilizzare la registrazione. Questa funzionalità si applica alle registrazioni di magazzino e alle registrazioni COGE.
 
 > [!NOTE]  
@@ -218,7 +220,7 @@ I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo 
 [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Allocazione di costi e ricavi](year-allocate-costs-income.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Rivalutare il magazzino nelle registrazioni rivalutazioni](inventory-how-revalue-inventory.md)  
 [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-adjust-reclassify.md)  

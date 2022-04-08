@@ -1,30 +1,32 @@
 ---
-title: Analisi dei dati del report con Excel
-description: Scopri come utilizzare Excel per analizzare un set di dati di report.
+title: Analisi dei dati del report con Excel e XML
+description: Scopri come utilizzare Excel e XML per analizzare un set di dati di report.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145474"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521808"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Analisi dei dati del report con Excel
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Analisi dei dati del report con Excel e XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-In qualità di sviluppatore o utente avanzato, è utile esaminare i dati generati per un determinato set di dati di report mentre crei nuovi report o modifichi quelli esistenti. Per supportare questa funzionalità, è possibile esportare un set di dati di report come dati non elaborati in un foglio di lavoro di Excel, direttamente dalla pagina della richiesta report nel client. In Excel, puoi quindi eseguire analisi ad hoc dei dati e diagnosticare i problemi.
+In qualità di sviluppatore o utente avanzato, è utile esaminare i dati generati per un determinato set di dati di report mentre crei nuovi report o modifichi quelli esistenti. Per supportare questa funzionalità, puoi esportare un set di dati di report come dati non elaborati in una cartella di lavoro di Excel o in un file XML, direttamente. In Excel, ad esempio puoi quindi eseguire analisi ad hoc dei dati e diagnosticare i problemi.
 
 ## <a name="get-started"></a>Inizia
 
-Per esportare un set di dati di report in Excel, apri il report nel client e nella pagina della richiesta seleziona **Invia a** > **Documento di Microsoft Excel (solo dati)**. 
+Per esportare un set di dati del report in una cartella di lavoro di Excel o in un file XML, apri il report nel client, quindi nella pagina di richiesta seleziona **Invia a** > **Documento Microsoft Excel (solo dati)** o **Documento XML**. Il file viene scaricato sul dispositivo.
+
+## <a name="more-about-excel-data-only"></a>Maggiori informazioni su Excel (solo dati)
 
 L'opzione **Documento di Microsoft Excel (solo dati)** esporta i risultati del report e i criteri utilizzati per generarli, ma non include il layout del report. Il file Excel includerà l'intero set di dati, come dati non elaborati, organizzato in righe e colonne. Sono incluse tutte le colonne di dati del set di dati del report, indipendentemente dal fatto che siano utilizzate nel layout del report.
 

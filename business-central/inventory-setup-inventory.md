@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 30, 461
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e5c1ef77c9053bb47ab3f800b3524bf24b6a7be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 90d0a563fa9be14bcc2aaa5a3dceb4d05bcff840
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148462"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512942"
 ---
 # <a name="setting-up-inventory"></a>Impostazione del magazzino
 Prima di poter gestire le attività di warehouse e i costi di magazzino, è necessario configurare le regole e i valori che definiscono i criteri di acquisto del magazzino.
@@ -45,7 +45,7 @@ Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi 
 [Gestione dei costi del magazzino](inventory-manage-inventory.md)  
 [Gestione acquisti](purchasing-manage-purchasing.md)  
 [Gestione vendite](sales-manage-sales.md)    
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 

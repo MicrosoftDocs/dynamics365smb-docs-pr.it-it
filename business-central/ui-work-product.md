@@ -6,17 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323060"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516512"
 ---
-# <a name="working-with-prod_short"></a>Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-prod_short"></a>Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi modi, ad esempio attraverso la creazione di record e l'immissione di dati, l'ordinamento e il filtraggio dei dati, la scrittura di note e l'output di dati ad altre applicazioni.
 
@@ -43,7 +43,7 @@ Nella tabella seguente sono elencate alcune delle funzionalità generali con i c
 | Filtrare i dati in viste, report o funzioni utilizzando simboli e caratteri speciali. |[Ricerca, filtro e ordinamento di elenchi](ui-enter-criteria-filters.md) |
 |Apprendere le molte funzioni generali che consentono di immettere dati in modo semplice e rapido.|[Immissione di dati](ui-enter-data.md)|
 |Apprendere a come copiare e incollare dati rapidamente utilizzando i tasti di scelta rapida.|[Domande frequenti sulla funzionalità di copia e incolla](faq-copy-paste.yml)|
-| Visualizzare o elaborare dati in specifici intervalli di date. |[Utilizzo di date e orari del calendario](ui-enter-date-ranges.md) |
+| Visualizzare o elaborare dati in specifici intervalli di date. |[Utilizzare date e orari del calendario](ui-enter-date-ranges.md) |
 | Vedere quali campi devono essere compilati. |[Rilevare campi obbligatori](ui-mandatory-fields.md) |
 |Comprendere il modo in cui le impostazioni locali del computer influiscono sull'interfaccia utente e sul sito della Guida e come modificare la lingua.|[Modifica di lingua e impostazioni locali](about-locale-language.md)|
 |Apprendere a come interagire con Excel da qualsiasi elemento di [!INCLUDE[prod_short](includes/prod_short.md)]|[Visualizzazione e modifica in Excel](across-work-with-excel.md)|
@@ -51,7 +51,7 @@ Nella tabella seguente sono elencate alcune delle funzionalità generali con i c
 | Modificare le impostazioni di base come la società, la data di lavoro e la Gestione ruolo utente. |[Modificare le impostazioni di base](ui-change-basic-settings.md) |
 |Ricevere notifiche su determinati eventi o modifiche dello stato, ad esempio quando si sta per fatturare un cliente con un saldo scaduto.|[Gestire le notifiche](ui-smart-notifications.md)|
 | Modificare quali elementi dell'interfaccia utente vengono modificati e dove in base alle proprie preferenze.|[Personalizzare l'area di lavoro](ui-personalization-user.md) |
-|Definire, visualizzare in anteprima, stampare ed eseguire processi batch.|[Utilizzo di report, processi batch e XMLport](ui-work-report.md)|
+|Definire, visualizzare in anteprima, stampare ed eseguire processi batch.|[Utilizzare report, processi batch e XMLport](ui-work-report.md)|
 | Gestire il contenuto e il formato di report e documenti, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro.|[Gestione dei layout di report e documento](ui-manage-report-layouts.md) |
 |Ottenere informazioni sulle funzionalità che facilitano l'utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)] da parte di persone disabili.|[Accessibilità e tasti di scelta rapida](ui-accessibility.md)|
 

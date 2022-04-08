@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bbd2a3bf8eae3ced2ad063b0baa3b138cac46401
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135700"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522748"
 ---
 # <a name="batch-post-output-and-run-times"></a>Registrare l'output e i tempi di lavorazione tramite processo batch
 La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quantità finita e capacità utilizzata del centro lavoro o della macchina.
@@ -32,7 +32,7 @@ Tramite la finestra **Registrazioni di produzione**, è possibile eseguire le st
 
 ## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Per registrare quantità di output e/o registrare tempi di lavorazione per una o più righe dell'ordine di produzione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
 2. Compilare i campi inserendo i dati relativi agli ordini di produzione e/o ai tempi di lavorazione. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     Puoi usare la funzione **Esplodi ciclo** per generare righe di registrazione dagli ordini di produzione.
@@ -52,7 +52,7 @@ Se hai registrato l'ultima operazione, l'articolo verrà aggiunto al magazzino.
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

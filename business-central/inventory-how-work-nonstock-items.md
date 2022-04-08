@@ -10,12 +10,12 @@ ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f8d97f10904664dc68bec6ccb85823a765a58aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1051b36f70eeb5d86aef04e7faf200660117232d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137889"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516163"
 ---
 # <a name="work-with-catalog-items"></a>Utilizzare gli articoli di catalogo
 È possibile offrire per loro comodità determinati articoli ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli. Se si desidera iniziare a gestire nel sistema tali articoli, è possibile convertirli in schede articolo normali in due modi.
@@ -35,18 +35,18 @@ Un articolo di catalogo ha in genere il numero di articolo del fornitore che lo 
 ## <a name="to-create-a-catalog-item"></a>Per creare un articolo di catalogo
 Nelle schede articolo di catalogo sono presenti molte informazioni in meno rispetto alle schede articolo normale perché vengono utilizzate solo per offrirle in offerte e in altri modi. Per tale motivo, devono essere convertite in schede articolo normale prima di registrare le transazioni di vendita relative.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli di catalogo**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli di catalogo**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Per impostare come i numeri articolo di catalogo vengono convertiti nella numerazione dell'utente
 Per abilitare la conversione di una scheda articolo di catalogo in una scheda articolo normale, è necessario impostare la modalità con cui la numerazione articolo fornitore viene convertita nel formato di numerazione articolo dell'utente.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup articolo di catalogo**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup articolo di catalogo**, quindi scegli il collegamento correlato.
 2. Compilare i campi come necessario.
 
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Per convertire un articolo di catalogo in articolo normale
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli di catalogo**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli di catalogo**, quindi scegli il collegamento correlato.
 2. Aprire la scheda dell'articolo di catalogo da convertire in articolo normale.
 3. Nella pagina **Scheda articolo di catalogo** scegliere l'azione **Crea articolo**.
 
@@ -71,7 +71,7 @@ Viene creata una nuova scheda articolo precompilata con le informazioni dell'art
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Creare ordini speciali](sales-how-to-create-special-orders.md)|  
 [Magazzino](inventory-manage-inventory.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

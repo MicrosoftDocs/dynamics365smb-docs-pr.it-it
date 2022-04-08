@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8954eaacd2a78d8c1ef0c8a65f63c571e045d950
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7495ddfae4a6a59caba08c0d40d97f5b9c5f0c85
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381012"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518655"
 ---
 # <a name="calculate-bin-replenishment"></a>Calcola rifornimento collocazione
 Quando l'ubicazione è impostata per l'utilizzo di stoccaggi e prelievi guidati, per effettuare lo stoccaggio dei carichi vengono prese in considerazione le priorità del modello di stoccaggio per l'ubicazione. Le priorità includono le quantità minima e massima di contenuto collocazione fissate per una collocazione specifica e le valutazioni delle collocazioni. Pertanto, se gli articoli giungono in magazzino a intervalli regolari, le collocazioni di prelievo più utilizzate vengono riempite non appena vengono svuotate.  
@@ -27,7 +27,7 @@ Tuttavia, non sempre la frequenza di arrivo degli articoli in magazzino è costa
 Infine, se per le collocazioni di immagazzinamento a massa è stato impostato un tipo di collocazione a cui è associata la sola azione **Stoccaggio**, ovvero per il tipo di collocazione non è stata selezionata l'azione **Prelievo**, sarà necessario rifornire continuamente le collocazioni di prelievo poiché non vengono forniti suggerimenti circa le collocazioni di tipo stoccaggio per un prelievo delle quantità in giacenza.  
 
 ## <a name="to-replenish-pick-bins"></a>Per rifornire le collocazioni di prelievo  
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto movimentazioni**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto movimentazioni**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Calcola rifornimento collocazione** per aprire la pagina di richiesta report.  
 3.  Compilare i campi della pagina di richiesta del processo batch in modo da circoscrivere l'ambito dei suggerimenti calcolati relativi al rifornimento. È ad esempio possibile che si sia interessati solo a specifici articoli, zone o collocazioni.  
 4.  Scegliere il pulsante **OK**. Le righe vengono create per i movimenti di rifornimento da eseguire in base alle regole impostate per le collocazioni e il relativo contenuto, ovvero articoli nelle collocazioni.  
@@ -52,7 +52,7 @@ Al successivo calcolo per il rifornimento delle collocazioni, i suggerimenti pre
 [Impostazione di Warehouse Management](warehouse-setup-warehouse.md) 
 [Gestione assemblaggio](assembly-assemble-items.md)
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

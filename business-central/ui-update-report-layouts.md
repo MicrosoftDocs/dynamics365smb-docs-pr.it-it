@@ -1,7 +1,7 @@
 ---
 title: Aggiornare layout report personalizzati
 description: Scopri come aggiornare un layout di report personalizzato utilizzato in un report quando sono presenti modifiche di progettazione al set di dati del report, ad esempio.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144621"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517214"
 ---
-# <a name="update-custom-report-layouts"></a>Aggiornare layout report personalizzati
+# <a name="legacy-update-custom-report-layouts"></a>(Legacy) Aggiornare layout report personalizzati
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Talvolta, potrebbe essere necessario aggiornare il layout personalizzato utilizzato per un report. Ciò è obbligatorio in seguito a una modifica di progettazione al set di dati del report, ad esempio, un campo utilizzato nel layout è stato rimosso da set di dati del report. Se un layout di report necessita di aggiornamento, verrà visualizzato un messaggio di errore quando si tenta di visualizzare l'anteprima, stampare o salvare il report.  
 
@@ -28,9 +30,9 @@ Non tutte le modifiche del set di dati del report possono essere aggiornate auto
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Per aggiornare uno o più layout di report personalizzati  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Layout report**, quindi scegli il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
 
-2.  Nella pagina **Layout report**, se si desidera aggiornare un report specifico, selezionare il layout dall'elenco, quindi scegliere l'azione **Aggiorna layout**. In alternativa, se si desidera aggiornare tutti i layout di report personalizzati per la società, scegliere l'azione **Aggiorna tutti i layout**.  
+2.  Nella pagina **Selezione layout report**, se vuoi aggiornare un report specifico, seleziona il layout dall'elenco, quindi scegli l'azione **Aggiorna layout**. In alternativa, se si desidera aggiornare tutti i layout di report personalizzati per la società, scegliere l'azione **Aggiorna tutti i layout**.  
 
 Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di report. Se si verificano errori, viene visualizzato un messaggio contenente gli errori. Sarà quindi necessario modificare manualmente il layout di report personalizzato per correggere l'errore. Per ulteriori informazioni, vedere [Risolvere gli errori](ui-update-report-layouts.md#FixErrors).  
 
@@ -66,7 +68,7 @@ Dopo avere modificato il layout, provare ad aggiornare nuovamente il layout.
 
 ## <a name="see-also"></a>Vedere anche  
  [Gestione dei layout di report](ui-manage-report-layouts.md)  
- [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
+ [Utilizzare report, processi batch e XMLport](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

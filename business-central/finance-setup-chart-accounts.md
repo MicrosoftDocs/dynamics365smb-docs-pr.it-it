@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
-ms.date: 06/22/2021
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 3ddb1a5612eb4a2c060357b32e8209accdda7349
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2ef4432d91d9f647a4bea58febbdfd5513a4350
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147624"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520284"
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a>Impostazione o modifica del piano dei conti
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Impostare o modificare il piano dei conti
 
 Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[prod_short](includes/prod_short.md)] include un piano dei conti standard pronto per supportare l'azienda.
 Tuttavia, è possibile modificare i conti predefiniti ed è possibile aggiungere nuovi conti.
@@ -25,7 +25,7 @@ Tuttavia, è possibile modificare i conti predefiniti ed è possibile aggiungere
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="adding-or-changing-accounts"></a>Aggiungere o modificare i conti
+## <a name="add-or-change-accounts"></a>Aggiungere o cambiare conti
 
 Nel piano dei conti, è possibile aprire ogni conto C/G e aggiungere o modificare le impostazioni. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -36,7 +36,7 @@ Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo 
 > [!IMPORTANT]
 > Se le definizioni per i conti **Totale Finale** sono state immesse nei campi **Totale** prima di eseguire la funzione di indentazione, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Totale finale**.
 
-## <a name="deleting-accounts"></a>Eliminazione di conti
+## <a name="delete-accounts"></a>Eliminare conti
 
 È possibile eliminare un conto di contabilità generale. Tuttavia, prima che venga eliminato, è necessario soddisfare le seguenti condizioni:  
 
@@ -46,16 +46,28 @@ Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] impedirà di eliminare un conto di contabilità generale che memorizza i dati necessari per il piano dei conti.  
 
+## <a name="block-deletion-of-gl-accounts"></a>Blocca eliminazione conti C/G
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+Il secondo ciclo di rilascio del 2022 introduce un'ulteriore tutela contro la cancellazione accidentale dei conti C/G anche negli scenari in cui i criteri sono soddisfatti.  
+
+Un nuovo campo, **Blocca eliminazione conti C/G**, viene aggiunto alla pagina **Setup contabilità generale**. Il campo funge da ulteriore convalida quando un utente tenta di eliminare un conto in cui sono presenti movimenti contabili dopo la data specificata nel campo **Verifica eliminazione conti C/G posteriori a**.
+
+Quando il campo **Blocca eliminazione conti C/G** è impostato su *Sì*, non è possibile eliminare i conti C/G con movimenti contabili successivi alla data presente nel campo **Verifica eliminazione conti C/G posteriori a**. Per eliminare tale conto, un utente con accesso alla pagina **Setup contabilità generale** deve prima impostare questo campo su *No*. Quindi il conto può essere eliminato.  
+
+Si consiglia di impostare il campo **Blocca eliminazione conti C/G** su *Sì*. Ti consigliamo inoltre di avere sempre una data impostata nel campo **Verifica eliminazione conti C/G posteriori a**, come il tempo necessario per archiviare i dati finanziari.  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
-[Utilizzo delle dimensioni](finance-dimensions.md)  
+[Utilizzare le dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Chiudere i conti del conto economico nella versione francese](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
 [Stampare il conto economico nella versione australiana](LocalFunctionality/Australia/how-to-print-income-statements.md)  
 [Stampare il conto economico nella versione della Nuova Zelanda](LocalFunctionality/NewZealand/how-to-print-income-statements.md)  

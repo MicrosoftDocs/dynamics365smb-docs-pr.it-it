@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 749ef6e4da9ffe8997647eae67d25362b7dbab6d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e2d8b51381e3fd89f9fab423485fc52cee46071
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143436"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517370"
 ---
 # <a name="use-resources-for-jobs"></a>Utilizzare le risorse per le commesse
 
@@ -32,7 +32,7 @@ Si può anche registrare l'utilizzo di una risorsa nelle registrazioni risorse. 
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Per registrare l'utilizzo delle risorse per una commessa
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.
 2. Aprire il batch di registrazioni delle commesse interessato e compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Una volta completate le registrazioni, scegliere l'azione **Registra**.
 
@@ -40,7 +40,7 @@ Si può anche registrare l'utilizzo di una risorsa nelle registrazioni risorse. 
 
 Se si desidera modificare i costi o i prezzi di un gran numero di risorse, si può usare un processo batch.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Rettifica costi/prezzi risorse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Rettifica costi/prezzi risorse**, quindi scegli il collegamento correlato.
 2. Compilare i campi su una riga in base alle esigenze, quindi scegliere **OK**.
 
 > [!NOTE]  
@@ -50,7 +50,7 @@ Se si desidera modificare i costi o i prezzi di un gran numero di risorse, si pu
 
 Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, è possibile utilizzare un processo batch per impostare più prezzi di risorse alternativi.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Modifiche prezzi risorse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Modifiche prezzi risorse**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Sugg. modif. prezzo ris. (prezzo)** e compilare i campi in base alle esigenze.
 3. Scegliere il pulsante **OK**.  
 4. Al termine del processo batch, i relativi risultati saranno visualizzati nella pagina **Modifiche prezzi risorsa**.
@@ -73,13 +73,13 @@ Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, 
 3. Scegliere il pulsante **OK**.  
 4. Al termine del processo batch, aprire la pagina **Modifiche prezzi risorsa** per visualizzarne i risultati.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
-[Acquisti](purchasing-manage-purchasing.md)  
-[Vendite](sales-manage-sales.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Acquisti](purchasing-manage-purchasing.md)         
+[Vendite](sales-manage-sales.md)     
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

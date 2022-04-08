@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 506, 521, 9125
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 61998453cb7bd31608dd18e156ca52b5f3f11b71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: efe39fd4a4c800050deffc9c137274392f4b7dd0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137993"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515695"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
@@ -41,7 +41,7 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Per rimuovere un collegamento articoli tramite il Prospetto collegamento
 
-1.  Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
 3.  Immettere filtri nella Scheda dettaglio **Generale** per semplificare la ricerca del movimento contabile articolo per il quale si desidera modificare il collegamento.  
 4.  Selezionare il movimento contabile articolo e scegliere l'azione **Movimenti collegati**. Verrà aperta la pagina **Visualizza movimenti collegati - Movimenti collegati** in cui saranno visualizzati uno o più movimenti contabili articoli attualmente collegati al movimento selezionato.  
@@ -58,7 +58,7 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Per riapplicare un collegamento articoli tramite il Prospetto collegamento
 
-1.  Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). , inserire **Foglio di lavoro dell'applicazione** e poi scegliere il link relativo.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , inserire **Foglio di lavoro dell'applicazione** e poi scegliere il link relativo.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
 3.  Per ricollegare i movimenti rimossi dopo l'apertura del prospetto, selezionare il movimento contabile articolo che si desidera ricollegare, quindi scegliere l'azione **Ricollega**.  
 
@@ -78,8 +78,8 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 [Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
- [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Dettagli del design: Applicazione dell'articolo](design-details-item-application.md)  
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

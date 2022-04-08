@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131010"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521282"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Creare flussi di lavoro per connettere le attività del processo aziendale
 
@@ -47,7 +47,7 @@ Per entrambi i tipi di eventi, gli eventi sono definiti dal sistema. Nuovi event
 
 ## <a name="to-create-a-workflow"></a>Per creare un flusso di lavoro
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Verrà aperta la pagina **Workflow**.  
 3. Nel campo **Codice** immettere un massimo di 20 caratteri che identifichino il workflow.  
 4. Per creare il workflow da un modello di workflow, nella pagina **Workflow** scegliere l'azione **Crea flusso di lavoro da modello**. Per ulteriori informazioni, vedere [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -104,13 +104,13 @@ Per entrambi i tipi di eventi, gli eventi sono definiti dal sistema. Nuovi event
     >  È possibile modificare solo il rientro di un passaggio a cui non è associato un passaggio successivo.  
 
 12. Ripetere i passaggi da 7 a 11 per aggiungere altre fasi del flusso di lavoro, prima o dopo la fase appena creata.  
-13. Selezionare la casella di controllo **Abilitato** per specificare che il workflow comincerà non appena si verifica l'evento nel primo passaggio di tipo **Punto di ingresso**. Per ulteriori informazioni, vedere [Utilizzo dei workflow](across-use-workflows.md).  
+13. Selezionare la casella di controllo **Abilitato** per specificare che il workflow comincerà non appena si verifica l'evento nel primo passaggio di tipo **Punto di ingresso**. Per ulteriori informazioni, vedi [Utilizzare i flussi di lavoro](across-use-workflows.md).  
 
 > [!NOTE]  
 > Non abilitare un flusso di lavoro finché non si è sicuri che quest'ultimo sia completo e che i relativi passaggi interessati possano iniziare.  
 
 > [!TIP]  
-> Per vedere le relazioni tra le tabelle utilizzate nei flussi di lavoro, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Workflow - Relazioni tabella**.  
+> Per vedere le relazioni tra le tabelle utilizzate nei flussi di lavoro, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Workflow - Relazioni tabella**.  
 
 ## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Esempio di creazione di un nuovo flusso di lavoro utilizzando eventi esistenti
 
@@ -186,9 +186,9 @@ Successivamente, dovrai testare il flusso di lavoro aprendo un fornitore esisten
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  
 [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)  
 [Eliminare i workflow](across-how-to-delete-workflows.md)  
-[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Procedura dettagliata: Impostazione e utilizzo di un flusso di lavoro di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Impostazione dei workflow](across-set-up-workflows.md)  
-[Utilizzo dei workflow](across-use-workflows.md)  
+[Utilizzare i workflow](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 
 

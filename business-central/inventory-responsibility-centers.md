@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ff1a7e75131a5a444acff796da339ec526c48c9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e551b7810bba9e75320ca11a2126b15f3b91d812
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142031"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521990"
 ---
 # <a name="work-with-responsibility-centers"></a>Utilizzare i centri di responsabilità
 
@@ -27,12 +27,12 @@ Il supporto di più ubicazioni consente alle società di gestire il magazzino in
 
 ## <a name="to-set-up-a-responsibility-center"></a>Per impostare i centri di responsabilità
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Centri di responsabilità**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Centri di responsabilità**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     In caso di utilizzo di centri di responsabilità per gestire una società, può risultare utile impostare un centro di responsabilità di default per tale società.
-4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.
+4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Informazioni società**, quindi scegli il collegamento correlato.
 5. Nel campo **Centro di responsabilità** immettere un codice del centro di responsabilità.
 
 Questo codice verrà utilizzato in tutti i documenti di acquisto, vendita o assistenza, se per l'utente, il cliente o il fornitore non è stato impostato un centro di responsabilità di default. In tutti i documenti di acquisto, vendita o assistenza è possibile immettere un altro centro di responsabilità diverso da quello di default.
@@ -46,7 +46,7 @@ Questo codice verrà utilizzato in tutti i documenti di acquisto, vendita o assi
 
 Per poter procedere a queste impostazioni è necessario assegnare i centri di responsabilità agli utenti in tre aree funzionali: Acquisti, Vendite e Gestione assistenza.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup utente**, quindi scegli il collegamento correlato.  
 2. Selezionare l'utente a cui si intende assegnare un centro di responsabilità nella pagina **Setup utente**. Se l'utente non è nella lista è necessario immettere un ID utente nel campo **User ID**.  
 3. Nel campo **Filtro Centro Resp. Vendite** immettere il centro di responsabilità per cui l'utente dovrà svolgere task correlati alle vendite.  
 4. Nel campo  **Filtro Centro Resp. Acquisti** immettere il centro di responsabilità per cui l'utente dovrà svolgere dei compiti correlati agli acquisti.  
@@ -60,9 +60,9 @@ Per poter procedere a queste impostazioni è necessario assegnare i centri di re
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
+[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

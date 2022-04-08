@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7f25c192c43823c1f3594f21097fe7bd7081f889
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6b82557463633959e62b4d2fed9484c8e2412b22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383561"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520258"
 ---
 # <a name="create-contacts"></a>Crea contatti
 
@@ -35,7 +35,7 @@ Quando un contatto viene convertito in cliente, ad esempio, la persona di contat
 > Tuttavia, se stai già utilizzando la funzionalità integrata per la creazione automatica di clienti o articoli, questo aggiornamento della funzionalità non supporta i campi personalizzati e i clienti o gli articoli appena creati non includeranno tali dati.
 
 ## <a name="to-create-a-contact-manually"></a>Per creare un contatto manualmente
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Contatti**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nel campo **Nr.** inserire un numero per il contatto.
 
@@ -48,7 +48,7 @@ Se vi sono clienti, fornitori e conti bancari per i quali si intendono creare sc
 > [!NOTE]  
 > Prima di creare contatti basati su dati esistenti, è necessario specificare un codice relazione d'affari per clienti, fornitori o conti bancari nella Scheda dettaglio **Interazioni** nella pagina **Setup marketing**. Per ulteriori informazioni, vedere [Impostare i contatti](marketing-setup-contacts.md).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti una delle seguenti opzioni, in base a dove vuoi creare contatti, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti una delle seguenti opzioni, in base a dove vuoi creare contatti, quindi seleziona il collegamento correlato.
    * **Crea contatti dai clienti**
    * **Crea contatti dai fornitori**
    * **Crea contatti da conti correnti**
@@ -120,7 +120,7 @@ Sono disponibili tre modi per abilitare la sincronizzazione di dati tra contatti
 ## <a name="see-also"></a>Vedere anche
 [Gestione dei contatti](marketing-contacts.md)  
 [Configurazione dei contatti](marketing-setup-contacts.md)  
-[Utilizzo di Business Central](ui-work-product.md)
+[Utilizzare Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

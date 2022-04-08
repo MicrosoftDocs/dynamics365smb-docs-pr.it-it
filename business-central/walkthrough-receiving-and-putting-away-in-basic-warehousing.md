@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cca66a1e693e63b1d83b6d37d3f8c2957b3edf46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 17de3630859cec7a8ce14eb079cae3d60e5e66e6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144517"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520102"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedura dettagliata: ricezione e stoccaggio nelle configurazioni di warehouse di base
 
@@ -67,7 +67,7 @@ Per completare questa procedura dettagliata, sarà necessario:
 -   CRONUS International Ltd. installato.  
 -   Per diventare un impiegato warehouse presso l'ubicazione ARGENTO, effettuare i seguenti passaggi:  
 
-    1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
+    1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
     2.  Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
     3.  Nel campo **Codice ubicazione** immettere ARGENTO.  
     4.  Selezionare il campo **Default**.  
@@ -80,7 +80,7 @@ Ellen, responsabile warehouse presso CRONUS International Ltd., crea un ordine d
 
 ### <a name="to-set-up-the-location"></a>Per impostare l'ubicazione  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda ubicazione ARGENTO.  
 3.  Selezionare la casella di controllo **Richiesto stoccaggio**.  
 
@@ -100,7 +100,7 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
 
 ### <a name="to-create-the-purchase-order"></a>Per creare l'ordine di acquisto.  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Creare un ordine di acquisto per il fornitore 10000 alla data di lavoro (23 gennaio) con le righe di ordine di acquisto seguenti.  
 
@@ -146,7 +146,7 @@ Nella pagina **Stoccaggio in magazzino** è possibile gestire tutte le attività
  [Spostare articoli ad hoc nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)   
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
- [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

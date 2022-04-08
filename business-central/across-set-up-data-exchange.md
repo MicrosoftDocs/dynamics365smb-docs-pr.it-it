@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7847387049dd799044ed3dca4b62a657b726b069
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133280"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517136"
 ---
 # <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
 Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. È inoltre necessario impostare aree correlate, ad esempio i clienti a cui si inviano fatture elettroniche o l'estensione AMC Banking 365 Fundamentals, qualora si utilizzi il provider di servizi esterno per convertire i file dei conti correnti bancari. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
@@ -31,7 +31,7 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |È necessario impostare diversi dati master, ad esempio le informazioni sulla società, i clienti, i fornitori, gli articoli e le unità di misura correlati ai dati di mapping in [!INCLUDE[prod_short](includes/prod_short.md)]|[Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Impostare un conto corrente bancario, un fornitore e le registrazioni pagamenti per bonifici SEPA.|[Impostare un bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Preparare i formati dei conti bancari, i metodi di pagamento e gli accordi con i clienti per l'addebito diretto SEPA.|[Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)|  
-|Impostare l'autenticazione utente e l'URL del provider dell'estensione AMC Banking 365 Fundamentals che deve convertire i file della banca nel formato della banca in uso.|[Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
+|Impostare l'autenticazione utente e l'URL del provider dell'estensione AMC Banking 365 Fundamentals che deve convertire i file della banca nel formato della banca in uso.|[Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Impostare e abilitare un servizio esterno che consente di importare gli estratti conto bancari direttamente come feed bancari.|[Impostazione del Servizio rendiconti bancari](bank-how-setup-bank-statement-service.md)|  
 |Dopo che il servizio Rendiconto bancario è abilitato, collegare i conti bancari in [!INCLUDE[prod_short](includes/prod_short.md)]|[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)|  
 |Preparare l'impostazione di una nuova definizione di scambio di dati per un file o un flusso di dati utilizzando lo schema XML del file per precompilare la Scheda dettaglio **Definizioni colonne** nella pagina **Registrazione definizioni di scambio**.|[Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

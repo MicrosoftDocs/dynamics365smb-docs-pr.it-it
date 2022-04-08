@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: dcb99e2c1231e95fca2eb9f8c36fc363a193cd82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fc414dcd9a8d9c978ee08eb5d19b960fa21a2d9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141627"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511843"
 ---
 # <a name="archive-documents"></a>Archiviare documenti
 È possibile archiviare ordini di vendita e acquisto, offerte, ordini di reso e ordini programmati, ad esempio perché si desidera salvare una copia di un documento per il riutilizzo in seguito. È possibile archiviare documento di acquisto o vendita più di uno volta, salvando ogni volta una versione archiviata diversa.
@@ -29,7 +29,7 @@ Per i documenti archiviati di cui l'originale è stato eliminato, è possibile r
 
 La procedura seguente illustra come configurare l'archiviazione automatica di documenti di vendita. I passaggi sono simili per i documenti di acquisto.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup contabilità clienti e vendite** compila i campi. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 In particolare per il campo **Archivia offerte**, la tabella seguente illustra la differenza tra le opzioni.
@@ -44,7 +44,7 @@ In particolare per il campo **Archivia offerte**, la tabella seguente illustra l
 
 Di seguito viene descritto come archiviare un ordine di vendita. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Aprire un ordine di vendita da archiviare.  
 3. Scegliere l'azione **Archivia documento**.
 
@@ -54,7 +54,7 @@ L'ordine di vendita è archiviato. È possibile visualizzarlo nella pagina **Ord
 
 Di seguito viene descritto come ripristinare il contenuto di un ordine di vendita archiviato nell'ordine di vendita originale. Questa operazione è possibile soltanto quando il documento originale non è stato registrato. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Archivi ordini vendita**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Archivi ordini vendita**, quindi seleziona il collegamento correlato.
 2. Selezionare l'ordine di vendita archiviato, o una versione dello stesso, che si intende ripristinare, quindi scegliere **Ripristina**.  
 
 Il contenuto dell'ordine di vendita originale viene sostituito con quello della versione archiviata selezionata.
@@ -72,7 +72,7 @@ Di seguito viene descritto come eliminare ordini di vendita archiviati. I passag
 [Tenere traccia delle righe dei documenti](across-how-to-track-document-lines.md)  
 [Vendite](sales-manage-sales.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

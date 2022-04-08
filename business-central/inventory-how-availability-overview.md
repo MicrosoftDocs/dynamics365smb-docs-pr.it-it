@@ -11,12 +11,12 @@ ms.search.keywords: stock
 ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7884eaa5e929eed27607fe77b3bea31fe6a12dc8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d87f18b6af045e371cefe88ed35f62bc028fab2f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130516"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514987"
 ---
 # <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
 Dal contesto di un task di business, è possibile ottenere informazioni avanzate relative al momento e all'ubicazione in cui un articolo è disponibile, ad esempio quando si parla con un cliente per proporre una data di consegna.
@@ -42,7 +42,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], i dati relativi alla disponib
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Per visualizzare la disponibilità di un articolo secondo quando verrà ricevuto o spedito
 Si visualizza la disponibilità di un articolo secondo le transazioni pianificate dell'articolo nella pagina **Disponibilità articolo per evento**.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Apri la scheda di un articolo per cui vuoi visualizzare la disponibilità.
 3. Scegliere l'azione **Disponibilità articolo per** quindi scegliere l'azione **Evento**.
 
@@ -127,7 +127,7 @@ Se uno o più componenti di assemblaggio non sono disponibili, queste informazio
 [Impostare le ubicazioni](inventory-how-setup-locations.md)  
 [Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)  
 [Vendere prodotti](sales-how-sell-products.md)      
-[Utilizzo di Business Central](ui-work-product.md)  
+[Utilizzare Business Central](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
 

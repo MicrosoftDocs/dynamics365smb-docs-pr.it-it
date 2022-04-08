@@ -11,18 +11,18 @@ ms.search.keywords: costing, inventory cost, value entries
 ms.search.forms: 5803,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4abfe521684fd6e0e4d8d519248919b0628dc1fb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: edad8dcc23a204f4dcfabfa43a9c83918f63f416
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135934"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511548"
 ---
 # <a name="revalue-inventory"></a>Rivalutare il magazzino
 Per rivalutare o ammortizzare un determinato articolo o movimento contabile articolo, è necessario utilizzare le registrazioni rivalutazioni.
 
 ## <a name="to-revalue-inventory"></a>Per rivalutare il magazzino
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni rivalutazioni**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni rivalutazioni**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Calcola valore magazzino**.
 3. Nella pagina **Calcola valore magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere il pulsante **OK**.
@@ -38,7 +38,7 @@ Vengono a questo punto creati i nuovi movimenti di valorizzazione che riflettono
 [Magazzino](inventory-manage-inventory.md)  
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

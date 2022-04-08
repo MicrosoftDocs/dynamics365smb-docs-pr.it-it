@@ -4,43 +4,68 @@ description: Trovare la Guida del prodotto, indicazioni, suggerimenti sulla riso
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
+ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 10/26/2021
-ms.openlocfilehash: aa472df02891c6de1a786a9a4c3321c461a45395
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/21/2022
+ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145552"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516928"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
-In [!INCLUDE[prod_long](includes/prod_long.md)], la voce di menu Help (il punto interrogativo nell'angolo in alto a destra) ti dà accesso a un pannello di aiuto che può aiutarti a trovare le risposte alle tue domande.  
+Suggerimenti e indicazioni per l'uso di [!INCLUDE[prod_long](includes/prod_long.md)], come sbloccare, dove saperne di più e come trovare informazioni tecniche è tutto disponibile da [!INCLUDE [prod_short](includes/prod_short.md)]. Questo articolo descrive come trovare informazioni.  
 
-## <a name="search-in-the-help-pane"></a>Cerca nel pannello di aiuto
-
-[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
-
-La release 2021 wave 2 include un nuovo pannello di aiuto che ha una scheda di ricerca. Usa il campo di ricerca per cercare una guida su come usare il prodotto, le capacità incorporate e i moduli di formazione disponibili. In base ai termini di ricerca, il pannello mostra cinque o più link con una breve descrizione. Scegli un link o affina i tuoi termini di ricerca. Quando scegli un link, l'articolo di destinazione si apre in una nuova scheda del browser. Si può scegliere di sganciare la scheda del browser, quindi, in modo da poter visualizzare le informazioni pertinenti fianco a fianco con [!INCLUDE [prod_short](includes/prod_short.md)]. Il riquadro rimane aperto mentre si naviga su [!INCLUDE [prod_short](includes/prod_short.md)] in modo che il contenuto cercato rimanga visibile.  
-
-> [!NOTE]
-> Nella versione attuale di [!INCLUDE [prod_short](includes/prod_short.md)], il campo di ricerca nel pannello di aiuto si applica solo al contenuto pubblicato sul sito docs.microsoft.com.
+## <a name="in-product-tips"></a>Suggerimenti nel prodotto
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Questi link possono anche accedere a contenuti pubblicati su altri siti web, come i siti dei fornitori di qualsiasi app installata nel tuo [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+## <a name="help-pane"></a>Riquadro della guida
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+In [!INCLUDE [prod_short](includes/prod_short.md)], la voce di menu Help (il punto interrogativo nell'angolo in alto a destra) ti dà accesso a un pannello di aiuto che può aiutarti a trovare le risposte alle tue domande. Il riquadro della Guida ha contenuto diverso, a seconda di come si accede. L'elenco seguente descrive le schede che sono sempre o quasi sempre presenti:  
+
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+
+L'elenco seguente descrive come è possibile accedere al riquadro della Guida e se le schede sono state aggiunte:
+
+- Scegli il collegamento *Per saperne di più* su un suggerimento per un campo
+
+  La seguente scheda viene aggiunta al riquadro della Guida:
+
+  - Descrizione comando del campo
+- Scegli il collegamento *Per saperne di più* su un suggerimento per un'azione
+- Scegli la voce di menu Guida (il punto interrogativo nell'angolo in alto a destra)
+- Usa la scelta rapida da tastiera Ctrl+F1 da qualsiasi luogo
+
+> [!TIP]
+> Quando scegli un link, l'articolo di destinazione si apre in una nuova scheda del browser. Si può scegliere di sganciare la scheda del browser, quindi, in modo da poter visualizzare le informazioni pertinenti fianco a fianco con [!INCLUDE [prod_short](includes/prod_short.md)]. Il riquadro rimane aperto mentre si naviga su [!INCLUDE [prod_short](includes/prod_short.md)] in modo che il contenuto cercato rimanga visibile.  
+
+## <a name="search-in-the-help-pane"></a>Cercare nel riquadro della Guida
+
+[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+
+Utilizza il campo di ricerca nella parte superiore del riquadro della Guida per cercare indicazioni su come usare il prodotto, le funzionalità integrate e i moduli di formazione disponibili. In base ai termini di ricerca, il pannello mostra cinque o più link con una breve descrizione. Scegli un link o affina i tuoi termini di ricerca. Quando scegli un link, l'articolo di destinazione si apre in una nuova scheda del browser. Si può scegliere di sganciare la scheda del browser, quindi, in modo da poter visualizzare le informazioni pertinenti fianco a fianco con [!INCLUDE [prod_short](includes/prod_short.md)]. Il riquadro rimane aperto mentre si naviga su [!INCLUDE [prod_short](includes/prod_short.md)] in modo che il contenuto cercato rimanga visibile.  
+
+> [!NOTE]
+> Nella versione attuale di [!INCLUDE [prod_short](includes/prod_short.md)], il campo di ricerca nel riquadro della Guida si applica solo al contenuto pubblicato sul sito [Docs.microsoft.com](/dynamics365/business-central).
+
 ## <a name="help--support-page"></a>Pagina di aiuto e supporto
 
-Dal pannello di aiuto, puoi accedere alla pagina **Guida e supporto** all'interno di [!INCLUDE [prod_short](includes/prod_short.md)] che include link utili. È inoltre possibile sapere come contattare il supporto tecnico per [!INCLUDE[prod_short](includes/prod_short.md)].  
+Dal riquadro della Guida puoi accedere alla pagina **Guida e supporto** all'interno di [!INCLUDE [prod_short](includes/prod_short.md)] che include collegamenti utili. È inoltre possibile sapere come contattare il supporto tecnico per [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Questa sezione delinea le risorse disponibili per te nelle diverse sezioni della pagina **Guida e supporto**, come indicato nella lista seguente:
 
 - [Trova le risposte](#find-answers)  
-- [Aiuto sul prodotto](#product-help)  
+- [Guida](#product-help)  
 - [Comunità](#community)  
 - [Blog](#blog)  
 - [Capacità in arrivo](#capabilities-coming-soon)  
 - [Fai di più con la tua prova](#do-more-with-your-trial)  
-- [Dare un feedback](#give-feedback)  
+- [Dai un feedback](#give-feedback)  
 - [Risoluzione dei problemi](#troubleshooting)  
 - [Segnala un problema](#report-a-problem)  
 - [Contatti di supporto](#support-contacts)  
@@ -59,9 +84,10 @@ Nella sezione **Trovarla** sono presenti due collegamenti alla Guida del prodott
 - La guida relative alla pagina appena visualizzata in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   Questo collegamento viene generato automaticamente. Se [!INCLUDE[prod_short](includes/prod_short.md)] non trova il collegamento, viene visualizzata la pagina di destinazione in [Docs.microsoft.com](index.md) per la versione di default di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, se la pagina faceva parte di un'app a cui non è stata aggiunta la mappatura della Guida sensibile al contesto in [!INCLUDE[prod_short](includes/prod_short.md)], il valore predefinito del *collegamento di apprendimento* è la pagina di destinazione.  
+  
 - Pagina di destinazione della Guida per [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  La funzionalità nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)] è descritta sul sito [Docs.microsoft.com](/dynamics365/business-central). Per ulteriori informazioni, consulta la sezione [Uso del sito docs.microsoft.com per ulteriori informazioni](#use-the-docsmicrosoftcom-site-to-learn-more). Puoi anche estendere e personalizzare [!INCLUDE[prod_short](includes/prod_short.md)] con app di AppSource. Tutte le app forniscono collegamenti alla Guida del prodotto in modo da trovare sempre indicazioni per i differenti flussi di lavoro nella versione in uso di [!INCLUDE[prod_short](includes/prod_short.md)].  
+  La funzionalità nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)] è descritta sul sito [Docs.microsoft.com](/dynamics365/business-central). Per ulteriori informazioni, consulta la sezione [Usare il sito docs.microsoft.com per ulteriori informazioni](#use-the-docsmicrosoftcom-site-to-learn-more). Puoi anche estendere e personalizzare [!INCLUDE[prod_short](includes/prod_short.md)] con app di AppSource. Tutte le app forniscono collegamenti alla Guida del prodotto in modo da trovare sempre indicazioni per i differenti flussi di lavoro nella versione in uso di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="community"></a>Community
 
@@ -154,7 +180,7 @@ Il sommario include un gruppo di contenuti che descrive le [funzionalità locali
 Il contenuto della funzionalità locale descrive le funzionalità in [!INCLUDE [prod_short](includes/prod_short.md)] che possono aiutare a essere conforme nei mercati supportati, come dichiarazioni fiscali e altri report. In alcuni casi, la differenza tra la versione predefinita e la versione specifica del paese è invisibile agli utenti. In altri casi, gli utenti devono impostare la creazione di report o la fatturazione elettronica in un modo specifico. Se non è possibile trovare una descrizione di un determinato pulsante o azione nella sezione generale, tale descrizione potrebbe essere presente nella sezione *Funzionalità locale*.  
 
 > [!TIP]
-> Sul sito docs.microsoft.com, così come nel campo di ricerca all'interno del prodotto e nel pannello di aiuto, i risultati della ricerca mostrano un certo contesto per l'articolo di destinazione. Il contesto include il link che potrebbe mostrare il nome di un paese, o una breve descrizione che richiama una certa capacità o un paese, per esempio.
+> Sul sito docs.microsoft.com, così come nel campo di ricerca all'interno del prodotto e nel riquadro della Guida, i risultati della ricerca mostrano un certo contesto per l'articolo di destinazione. Il contesto include il link che potrebbe mostrare il nome di un paese, o una breve descrizione che richiama una certa capacità o un paese, per esempio.
 
 ### <a name="finding-other-content"></a>Trovare altri contenuti
 

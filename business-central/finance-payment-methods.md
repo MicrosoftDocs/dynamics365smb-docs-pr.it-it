@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d3748e39dc75a8fb3fcda690d02f5bc1cb4484ce
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: abe1d874658c393b0d9795c1710e642b4e33add0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383191"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512960"
 ---
 # <a name="set-up-payment-methods"></a>Impostare i metodi di pagamento
 
@@ -33,14 +33,14 @@ Le note di credito per i resi, tuttavia, sono eccezioni in quanto il flusso di d
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce alcuni metodi di pagamento utilizzati spesso dalle aziende. Puoi tuttavia aggiungere tutti quelli desiderati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di pagamento**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Metodi di pagamento**, quindi scegli il collegamento correlato.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Facoltativamente, aggiungi condizioni pagamento al metodo di pagamento. Per ulteriori informazioni, vedi [Impostare le condizioni pagamento](finance-payment-terms.md).  
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Per assegnare un metodo di pagamento a un cliente o un fornitore
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cliente** o **Fornitore**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cliente** o **Fornitore**, quindi scegli il collegamento correlato.
 2. Nel campo **Codice metodo di pagamento**, scegliere il metodo da utilizzare per impostazione predefinita per il cliente o il fornitore.
 
 ## <a name="see-also"></a>Vedere anche
@@ -48,7 +48,7 @@ Facoltativamente, aggiungi condizioni pagamento al metodo di pagamento. Per ulte
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  
 [Impostare le condizioni pagamento](finance-payment-terms.md)  
 [Finanze](finance.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

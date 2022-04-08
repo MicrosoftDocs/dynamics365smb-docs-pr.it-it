@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 6e6e6f6f622d1938fb2195bc2dde2c2ba689a59f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322982"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517689"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Ricerca di movimenti correlati per documenti registrati 
 
@@ -29,7 +29,7 @@ Questa funzione risulta utile per cercare i movimenti contabili ottenuti da dete
 
 ## <a name="get-started"></a>Inizia
 
-La funzione Trova movimenti è immediatamente disponibile sulla maggior parte delle pagine che visualizzano documenti registrati o movimenti di documenti registrati, sia per elenchi che per schede. Quindi il primo passo è aprire una di queste pagine. Quindi, scegliere l'azione **Trova movimenti** o premere i tasti Alt + G.
+La funzione Trova movimenti è immediatamente disponibile sulla maggior parte delle pagine che visualizzano documenti registrati o movimenti di documenti registrati, sia per elenchi che per schede. Quindi il primo passo è aprire una di queste pagine. Quindi, scegli l'azione **Trova movimenti** o premi i tasti Ctrl+Alt+G.
 
 La pagina **Trova movimenti** include tutti i documenti e i movimenti correlati basati sul numero di documento e sulla data di registrazione. La pagina è divisa in tre sezioni:
 
@@ -73,7 +73,7 @@ Dopo aver effettuato una selezione, inserire le informazioni di ricerca pertinen
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo di Business Central](ui-work-product.md)  
+[Utilizzare Business Central](ui-work-product.md)  
 [Aggiungere un'azione di pagina a Gestione ruolo utente](ui-bookmarks.md)  
 [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  
 

@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return, order
-ms.search.form: 44, 134, 144, 6662, 9302, 9304
+ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 4f75fd94c1b29b0b30266fc34f99bfea5d08545e
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 8ff5b5fdb9cc7d0111f985bc6bb80afc30650e6e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366884"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522566"
 ---
 # <a name="process-sales-return-orders"></a>Elaborare gli ordini di restituzione delle vendite  
 
@@ -110,7 +110,7 @@ Durante la registrazione dell'ordine di reso da vendita, la spesa di ristoccaggi
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

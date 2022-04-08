@@ -1,23 +1,25 @@
 ---
 title: Modificare l'aspetto di un report selezionando un layout diverso
 description: È possibile utilizzare diversi layout per un report e passate tra i layout per modificare l'aspetto di un report.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c02f1e2083ef47d5aeee5831b042128c065c411f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144647"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515305"
 ---
-# <a name="change-the-current-report-layout"></a>Modificare il layout del report corrente
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Legacy) Impostare il layout utilizzato da un report
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Un report può essere impostato con diversi layout di report, che è possibile alternare a seconda delle necessità.
 
@@ -30,9 +32,13 @@ Quando vengono definiti layout di report personalizzati, è possibile selezionar
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Per modificare il layout di report da utilizzare per un report o un documento
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
-   Nella pagina **Selezione layout report** sono elencati tutti i report disponibili per la società specificata nel campo **Società** nella parte superiore della pagina. Il campo **Layout selezionato** specifica il layout che attualmente è utilizzato nel report.
-2. Impostare il campo **Società** nella parte superiore della pagina alla società che include il report.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
+  
+   Nella pagina **Selezione layout report** sono elencati tutti i report disponibili per la società specificata nel campo **Società** nella parte superiore della pagina. Il campo **Descrizione layout** <!-- **Selected Layout** -->specifica il layout che attualmente è utilizzato nel report.
+2. Imposta il campo **Società** nella parte superiore della pagina sulla società che include il report.
+
+   Questo campo consente di impostare layout diversi per lo stesso report in società diverse.
+
 3. Per modificare il layout utilizzato da un report, nella riga del report, impostare il campo **Layout selezionato** su una delle seguenti opzioni:
    * **RDLC (predefinito)** utilizza il layout di report RDLC integrato nel report.
    * **Word (predefinito)** utilizza il layout di report Word integrato nel report.
@@ -44,6 +50,7 @@ Quando vengono definiti layout di report personalizzati, è possibile selezionar
 Se è stato selezionato un layout di report RDLC o Word predefinito, non sono necessarie ulteriori azioni e il layout verrà utilizzato alla successiva esecuzione del report.
 
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Per modificare il layout personalizzato da utilizzare per un layout di report
+
 È anche possibile che si intenda modificare il layout personalizzato attualmente utilizzato. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 
 Tutti i layout di report personalizzati esistenti per layout di report in una società sono elencati nella pagina **Layout di report personalizzati**. Nella pagina **Selezione layout report** è possibile visualizzare i layout personalizzati disponibili per ogni report nel Dettaglio informazioni **Report personalizzati**.
@@ -59,7 +66,7 @@ Ora è possibile andare alle schede cliente e fornitore per specificare quali la
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

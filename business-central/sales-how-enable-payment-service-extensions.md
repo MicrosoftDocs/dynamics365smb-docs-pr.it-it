@@ -10,12 +10,12 @@ ms.search.keywords: online payment
 ms.search.forms: 1060, 1061, 1062
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33f15301e65bdb187bfb4a4b0e6389e827aee2e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 872b261e482a1d54839443f02a25fac8f191855c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139419"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520710"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Abilitare i pagamenti clienti tramite i servizi di pagamento
 Come alternativa alla riscossione dei pagamenti tramite bonifico o carte di credito, i clienti possono pagare utilizzando il conto personale e servizi di pagamento, quali PayPal o WorldPay.  
@@ -25,7 +25,7 @@ Dopo che viene abilitato un servizio di pagamento in [!INCLUDE[prod_short](inclu
 Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono installate in [!INCLUDE[prod_short](includes/prod_short.md)] e pronte per essere abilitate.  
 
 ## <a name="to-enable-a-payment-service-in-prod_short"></a>Per abilitare un servizio di pagamento in [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Servizi di pagamento**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Servizi di pagamento**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Servizi di pagamento** scegliere l'azione **Nuovo**.  
 3. Selezionare il servizio di pagamento e chiudere la pagina.  
 4. Nella pagina **Servizi di pagamento** scegliere l'azione **Setup**.  
@@ -33,18 +33,18 @@ Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono install
 6. Chiudere la pagina.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Per selezionare un servizio di pagamento di una fattura di vendita
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Aprire una fattura di vendita che si desidera pagare utilizzando il servizio di pagamento.  
 3. Nel campo **Servizio di pagamento** scegliere il servizio di pagamento.  
 
     > [!NOTE]  
     > Il campo **Servizio di pagamento** è disponibile solo se è stato abilitato il servizio di pagamento.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche  
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

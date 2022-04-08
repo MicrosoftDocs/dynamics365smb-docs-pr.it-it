@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7ca67e062f2ea6720d0aa7cbf196fd2c6e612159
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: be2f6e3efdfd34d59c55a3addeefb5646454b3bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382630"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516267"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA
 
@@ -31,7 +31,7 @@ Nella pagina **Registraz. pagamenti** è possibile elaborare i pagamenti ai forn
 
 ## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Impostazione dell'estensione AMC Banking 365 Fundamentals
 
-Attivare l'estensione AMC Banking 365 Fundamentals per convertire tutti i file di rendiconto bancario in un formato che è possibile importare o per convertire i file dei pagamenti esportati nel formato richiesto dalla banca. Per ulteriori informazioni, vedere [Uso dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
+Attivare l'estensione AMC Banking 365 Fundamentals per convertire tutti i file di rendiconto bancario in un formato che è possibile importare o per convertire i file dei pagamenti esportati nel formato richiesto dalla banca. Per ulteriori informazioni, vedi [Usare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Impostare un bonifico SEPA
 
@@ -93,7 +93,7 @@ Quando si è pronti a effettuare i pagamenti ai fornitori o i rimborsi ai dipend
 Nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], l'estensione AMC Banking 365 Fundamentals è disponibile. Nelle versioni per il Nord America, la stessa estensione può essere utilizzata per inviare file di pagamento come trasferimento dei fondi elettronici (EFT), ma con un processo leggermente diverso. Vedere la sezione 6 [Per esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
-> Prima di esportare i file di pagamento dalle registrazioni dei pagamenti, è necessario specificare il formato elettronico per il conto corrente bancario di interesse ed è necessario abilitare l'estensione AMC Banking 365 Fundamentals. Per ulteriori informazioni, vedere [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md) e [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md). Inoltre, è necessario selezionare la casella di controllo **Consenti esportazione pagamento** nella pagina **Batch registrazioni COGE**. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).  
+> Prima di esportare i file di pagamento dalle registrazioni dei pagamenti, è necessario specificare il formato elettronico per il conto corrente bancario di interesse ed è necessario abilitare l'estensione AMC Banking 365 Fundamentals. Per ulteriori informazioni, vedi [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md) e [Usare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md). Inoltre, è necessario selezionare la casella di controllo **Consenti esportazione pagamento** nella pagina **Batch registrazioni COGE**. Per ulteriori informazioni, vedi [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).  
 
 Per visualizzare i file di pagamento che sono stati esportati dalle registrazioni pagamenti, si utilizza la pagina **Registri di bonifici**. Da questa pagina è inoltre possibile riesportare i file di pagamento in caso di errori tecnici o di modifiche al file. Si noti, tuttavia, che i file esportati EFT non sono visualizzati in questa pagina e non possono essere riesportati.  
 
@@ -156,9 +156,9 @@ Quando il pagamento elettronico viene elaborato correttamente dalla banca, regis
 
 ## <a name="see-also"></a>Vedere anche
 
-[Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
+[Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
-[Utilizzo delle registrazioni COGE](ui-work-general-journals.md)  
+[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 
 

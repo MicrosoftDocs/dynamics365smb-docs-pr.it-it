@@ -11,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 96a4330b880ecfe760c146d4b7ae5778716725ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128793"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513915"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Utilizzo del ricavo ricorrente in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -29,11 +29,11 @@ Una registrazione periodica è una registrazione generale con campi specifici pe
 
 ### <a name="why-use-this-option"></a>Perché usare questa opzione
 
-Con questa opzione, è possibile definire periodi di fatturazione flessibili con le [formule della data](ui-enter-date-ranges.md#using-date-formulas).
+Con questa opzione, è possibile definire periodi di fatturazione flessibili con le [formule della data](ui-enter-date-ranges.md#use-date-formulas).
 
 Tuttavia, con questa opzione, non è possibile stampare e inviare fatture nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Per ulteriori informazioni, vedere [Utilizzo delle registrazioni periodiche](ui-work-general-journals.md#working-with-recurring-journals).  
+Per ulteriori informazioni, vedi [Utilizzare le registrazioni periodiche](ui-work-general-journals.md#work-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Creare più fatture basate su un giornale di registrazione commesse periodico
 
@@ -111,8 +111,8 @@ In [AppSource.microsoft.com](https://appsource.microsoft.com/), è possibile ott
 
 ## <a name="see-also"></a>Vedere anche
 
-[Formule per la data](ui-enter-date-ranges.md#using-date-formulas)  
-[Utilizzo delle registrazioni periodiche](ui-work-general-journals.md#working-with-recurring-journals)  
+[Formule per la data](ui-enter-date-ranges.md#use-date-formulas)  
+[Utilizzare le registrazioni periodiche](ui-work-general-journals.md#work-with-recurring-journals)  
 [Creare righe di registrazione commesse](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Creare più fatture di vendita commesse](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)  

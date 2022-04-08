@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dbf3cbffebaf6c9ce06151a941d6517c6203863
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 9532dad89e3d88acf60e5c56af6c75ff9fc24fd1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366459"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523503"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Impostare i valori generali per i cespiti
 Prima di gestire i cespiti, è necessario impostare i conti C/G di default, le chiavi di allocazione, le definizioni di registrazioni e i batch per la registrazione e la riclassificazione dei cespiti ed è possibile classificare i cespiti in classi, ad esempio materiali e immateriali.
@@ -22,13 +22,13 @@ Prima di gestire i cespiti, è necessario impostare i conti C/G di default, le c
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Per impostare i valori predefiniti generali per i cespiti
 Si definisce il comportamento generale o la funzionalità dei cespiti e si imposta la numerazione dei documenti nella pagina **Setup cespiti**.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup cespiti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup cespiti**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Per impostare le categorie di registrazione dei cespiti
 Le categorie di registrazione vengono utilizzate per definire categorie di cespiti. I movimenti per queste categorie registrazione vengono registrati negli stessi conti di contabilità generale.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie registrazione cespiti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Categorie registrazione cespiti**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.
 3. Nella pagina **Scheda Cat. Reg. Cespite** compilare i campi in base alle esigenze.
 
@@ -43,13 +43,13 @@ Le transazioni possono essere assegnate a diversi reparti o progetti, in base al
 
 Le chiavi di allocazione sono valide per le classi di cespiti e non per singoli cespiti.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie registrazione cespiti**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Categorie registrazione cespiti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Categorie registrazione cespiti** scegliere l'azione **Allocazioni** e selezionare un tipo di registrazione.
 3. Nella pagina **Allocazioni cespiti** compilare i campi in base alle esigenze.
 4. Ripetere i passaggi 2 e 3 per ogni tipo di registrazione per cui si intendono definire le chiavi di allocazione.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Per impostare le definizioni registrazioni dei cespiti
-Una definizione è un layout predefinito di registrazioni. La definizione contiene informazioni relative ai codici di traccia, ai report e alla numerazione. Per ulteriori informazioni, vedere [Utilizzo delle registrazioni COGE](ui-work-general-journals.md).
+Una definizione è un layout predefinito di registrazioni. La definizione contiene informazioni relative ai codici di traccia, ai report e alla numerazione. Per ulteriori informazioni, vedi [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).
 
 Una definizione delle registrazioni cespiti viene creata automaticamente la prima volta che in [!INCLUDE[prod_short](includes/prod_short.md)] si apre la pagina **Registrazioni Cespiti**. È possibile impostare definizioni aggiuntive per le registrazioni.  
 
@@ -121,8 +121,8 @@ Se i cespiti non sono integrati in contabilità generale, saltare i passaggi 6 e
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Prepararsi a fare affari](ui-get-ready-business.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

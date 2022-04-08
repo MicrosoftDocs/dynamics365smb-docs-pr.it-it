@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.search.forms: 5172, 5173, 5170, 5094, 429
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f43e37b540c9e3b3a89299f8609af7aea8398e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a91592818e5e486f58857da07d5d9dc0390d5fba
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130331"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517923"
 ---
 # <a name="setting-up-relationship-management"></a>Setup Relationship Management
 
@@ -23,16 +23,16 @@ Prima di iniziare a lavorare sui contatti e sugli interessi di marketing, è nec
 
 La gestione corretta dei contatti e la messa a punto di una strategia per identificare, attirare e fidelizzare i clienti sono fondamentali per ottimizzare il business e aumentare la soddisfazione dei clienti. Anche l'utilizzo di un efficiente sistema di gestione dei contatti si rivelerà importante per stabilire e mantenere le relazioni con i clienti. La comunicazione è l'aspetto chiave di queste relazioni. Riuscire a comunicare con clienti esistenti e potenziali, fornitori e partner aziendali nel rispetto delle loro esigenze è fondamentale per garantire il successo delle società. Il passaggio principale consiste nel definire una strategia e la modalità di utilizzo delle informazioni di contatto della società. Queste informazioni verranno visualizzate da molti gruppi diversi all'interno della società, pertanto l'utilizzo di un ottimo sistema di gestione renderà tutti molto più produttivi.
 
-Impostare la gestione dei contatti e del marketing dalla pagina **Setup marketing**. Per aprire la pagina **Setup marketing**, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup marketing**, quindi scegli il collegamento correlato.
+Impostare la gestione dei contatti e del marketing dalla pagina **Setup marketing**. Per aprire la pagina **Setup marketing**, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup marketing**, quindi scegli il collegamento correlato.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Copiare automaticamente informazioni specifiche da Società contatto a Persone contatto
 Alcune informazioni relative alle società contatto sono identiche alle informazioni sulle persone contatto che lavorano all'interno di tali società, ad esempio i dettagli dell'indirizzo. Nella sezione **Eredità** della pagina **Setup marketing** è possibile impostare l'applicazione in modo che, ogni volta che si crea una persona contatto per una società contatto, alcuni campi specifici vengano copiati automaticamente dalla scheda della società contatto alla scheda della persona contatto. Ad esempio, è possibile scegliere di copiare il codice agente, i dettagli dell'indirizzo (indirizzo, indirizzo 2, città, CAP e provincia), i dettagli di comunicazione (numero di fax, telex di risposta e numero di telefono) e altro ancora.
 
 Se si modifica uno di questi campi nella scheda della società contatto, viene modificato automaticamente anche il campo nella scheda della persona contatto, a meno che non sia stato modificato manualmente.
 
-Per ulteriori informazioni, vedere [Creare contatti](marketing-create-contact-companies.md).
+Per ulteriori informazioni, vedi [Creare contatti](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Utilizzare le impostazioni di default nei nuovi contatti
+## <a name="use-predefined-defaults-on-new-contacts"></a>Utilizzare le impostazioni predefinite nei nuovi contatti
 È possibile impostare l'applicazione in modo da assegnare automaticamente un codice lingua, un codice territorio, un codice agente e un codice paese specifici come default per ogni nuovo contatto creato. È inoltre possibile inserire un codice ciclo di vendita di default che verrà assegnato automaticamente a ogni nuova opportunità creata.
 
 L'eredità dei campi viene sovrascritta ai valori di default impostati. Se ad esempio la lingua di default è stata impostata su Inglese ma la lingua della società contatto è Tedesco, quest'ultimo viene automaticamente assegnato come codice lingua per i contatti registrati relativi a tale società.
@@ -59,7 +59,7 @@ Per ulteriori informazioni sulla numerazione, vedere [Creazione di numeri](ui-cr
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione dei contatti](marketing-contacts.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
