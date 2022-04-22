@@ -1,19 +1,19 @@
 ---
 title: Versioni di valutazione e sottoscrizioni
-description: Informazioni su come ottenere una versione di valutazione di Business Central, utilizzare ambienti sandbox e iscriversi per una sottoscrizione.
+description: Scopri come iniziare, lavorare in ambienti sandbox e come ottenere una sottoscrizione per Business Central Online.
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/22/2022
+ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fc77c63351a97e130c00910a2e66c9497a24d104
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511298"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557329"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versioni di valutazione e sottoscrizioni di [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -23,21 +23,15 @@ Se non stai già lavorando con un partner, vedi [Come trovare un partner di rive
 
 ## <a name="get-started-with-a-trial"></a>Introduzione a una versione di valutazione
 
-Per iscriversi allo scopo di ottenere una versione di valutazione gratuita, fare clic [qui](https://go.microsoft.com/fwlink/?linkid=847861). Ti consigliamo di lavorare con [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per aiutare la tua organizzazione a iniziare con [!INCLUDE[prod_short](includes/prod_short.md)]. Vedi anche l'articolo [Iscrizione a una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md) per iniziare.  
+[!INCLUDE [trial-get](includes/trial-get.md)]
+
+Ti consigliamo di lavorare con [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per aiutare la tua organizzazione a iniziare con [!INCLUDE[prod_short](includes/prod_short.md)]. Vedi anche l'articolo [Iscrizione a una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md) per iniziare.  
 
 A seconda del paese, la versione di valutazione include le lingue e le funzionalità necessarie per quel paese. Per ulteriori informazioni, vedere [Modifica di lingua e impostazioni locali](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Quando si accede per la prima volta alla società demo, si accede a una pagina Introduzione con collegamenti a guide al setup assistito che possono essere utili per iniziare. Per ulteriori informazioni, vedere [Prepararsi a fare affari](ui-get-ready-business.md) e gli articoli di [avvio rapido](quick-start-business-central.md) .  
-
-In caso di difficoltà, la pagina [Domande frequenti ](across-faq.yml) può fornire le risposte ad alcune domande. Se non è stato possibile iscriversi per una versione di valutazione, consultare [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md). Puoi anche contattare un [partner](/dynamics365/business-central/across-faq#findpartner) e chiedere di creare una versione di valutazione gratuita o un diverso tipo di anteprima di [!INCLUDE[prod_short](includes/prod_short.md)] per te.  
-
-Se decidi di non usare [!INCLUDE [prod_short](includes/prod_short.md)], puoi far scadere il periodo di prova.  
-
-[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
-
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Aggiungere i propri dati a un'azienda di prova vuota
 
-Se vuoi provare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati, puoi passare a una prova gratuita di 30 giorni senza dati di esempio. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati. Tuttavia, ti consigliamo di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Il partner può anche aiutarti a migrare i tuoi dati in [!INCLUDE [prod_short](includes/prod_short.md)] online.  
+Se vuoi provare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati, puoi passare a una prova gratuita di 30 giorni senza dati di esempio. Il setup assistito **Imposta società** può aiutare a specificare le informazioni di base sull'attività. Facoltativamente, è possibile importare i dati dalla soluzione di gestione aziendale esistente in modo da poter valutare [!INCLUDE[prod_short](includes/prod_short.md)] con i tuoi dati. Tuttavia, ti consigliamo vivamente di non utilizzare una versione di valutazione gratuita per aiutarti a gestire la tua attività. Contatta [un partner di rivendita](/dynamics365/business-central/across-faq#findpartner) per saperne di più su come iniziare a utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Il partner può anche aiutarti a migrare i tuoi dati in [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 Se 30 giorni non sono sufficienti per decidere, è possibile prolungare il periodo di valutazione. Per ulteriori informazioni, vedere [Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?](admin-extend-trial.md).  
 
@@ -65,7 +59,7 @@ La pagina **Setup assistito** può contenere altre voci. Quando si esegue un set
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>Reimpostare l'esperienza di valutazione di [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Se sono stati aggiunti dati alla versione di valutazione gratuita di [!INCLUDE[prod_short](includes/prod_short.md)] e si desidera iniziare con una esperienza nuova, è possibile creare una nuova società di valutazione e quindi eliminare la prima società. Apri la pagina **Società** e scegli **Nuovo** per iniziare la guida al setup assistito **Crea una nuova società**. La guida può aiutarti a creare una nuova società di valutazione con dati di esempio. È anche possibile creare una copia della società corrente, disconnettersi e quindi accedere alla nuova società.  
+Se hai aggiunto dati alla tua prova gratuita di [!INCLUDE[prod_short](includes/prod_short.md)], puoi ancora ricominciare da capo con una nuova esperienza. Basta creare una nuova società di valutazione, quindi eliminare la società originale. Apri la pagina **Società** e scegli l'azione **Nuovo** per iniziare la guida al setup assistito **Crea una nuova società**. La guida può aiutarti a creare una nuova società di valutazione con dati di esempio. È anche possibile creare una copia della società corrente, disconnettersi e quindi accedere alla nuova società.  
 
 > [!IMPORTANT]
 > Quando si condivide [!INCLUDE[prod_short](includes/prod_short.md)] con altre persone della propria organizzazione, è necessario assicurarsi che altre persone non siano collegate quando si elimina una società.  
@@ -85,14 +79,14 @@ Per ulteriori informazioni su cosa puoi fare con [!INCLUDE [prod_short](includes
 
 ## <a name="get-started-with-sandboxes"></a>Introduzione alle sandbox
 
-Gli ambienti sandbox possono essere un modo di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Una sandbox può essere considerata come un ambiente non di produzione utilizzabile a monte dell'istanza di produzione di [!INCLUDE[prod_short](includes/prod_short.md)]. Per esempio, se vuoi seguire la formazione online gratuita di [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)il tuo amministratore può [creare un ambiente sandbox](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). In questo modo, voi e i vostri colleghi potete fare pratica in un luogo sicuro piuttosto che nel vostro ambiente di produzione.  
+Gli ambienti sandbox sono un modo di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]. Una sandbox può essere considerata come un ambiente non di produzione utilizzabile a monte dell'istanza di produzione di [!INCLUDE[prod_short](includes/prod_short.md)]. Per esempio, se vuoi seguire la formazione online gratuita di [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)il tuo amministratore può [creare un ambiente sandbox](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). In questo modo, voi e i vostri colleghi potete fare pratica in un luogo sicuro piuttosto che nel vostro ambiente di produzione.  
 
 Se si è uno sviluppatore, una sandbox consente di creare e verificare in modo sicuro le estensioni e di sviluppare nuove funzionalità per personalizzare l'assistenza senza influire sui dati e sulle impostazioni dell'ambiente di produzione.  
 
 Al momento, tutti i clienti possono utilizzare un sandbox, comprese le organizzazioni che hanno effettuato la registrazione per una versione di valutazione. Per maggiori informazioni su come iniziare con una sandbox, vedi [Ambienti sandbox](admin-sandbox-environments.md).  
 
 > [!NOTE]
-> Le sandbox create in questo modo contengono dati demo per la società fittizia CRONUS. Nessun dato viene copiato o altrimenti trasferito dall'ambiente di produzione.   
+> Le sandbox create in questo modo contengono dati demo per la società fittizia CRONUS. Nessun dato viene copiato o altrimenti trasferito dall'ambiente di produzione.  
 
 L'amministratore del tuo [!INCLUDE[prod_short](includes/prod_short.md)] e il tuo partner di rivendita possono creare più ambienti nel centro di amministrazione. Per ulteriori informazioni, vedere [Interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

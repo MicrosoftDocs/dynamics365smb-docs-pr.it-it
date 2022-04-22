@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523477"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557355"
 ---
 # <a name="update-currency-exchange-rates"></a>Aggiornare i tassi di cambio valuta
 
@@ -68,6 +68,12 @@ Il processo batch **Rettifica tassi di cambio** viene utilizzato manualmente per
 
 > [!TIP]
 > È possibile utilizzare un servizio per aggiornare automaticamente i tassi di cambio nel sistema. Per ulteriori informazioni, vedere [Per impostare un servizio dei tassi di cambio delle valute](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Tuttavia, ciò non modifica i tassi di cambio sulle transazioni già registrate. Per aggiornare i tassi di cambio sui movimenti registrati, utilizzare il processo batch **Modifica i tassi di cambio**.
+
+Puoi visualizzare in anteprima l'effetto che una modifica avrà sulla pubblicazione prima di pubblicarla effettivamente selezionando **Anteprima** nella pagina **Rettifica tassi di cambio**. Inoltre, puoi selezionare se la registrazione della contabilità generale sarà dettagliata (per voce) o riepilogativa (per valuta) scegliendo **Raggruppa articoli**. Puoi inoltre specificare come gestire le dimensioni per registrazioni di utili e perdite non realizzati scegliendo una delle seguenti opzioni nel campo **Trasferire i valori dimensioni**:  
+
+- **Movimento origine**: voci C/G per utili e perdite non realizzati avranno i valori delle dimensioni trasferiti dalla voce rettificata.
+- **Per conto C/G**: le voci C/G per utili e perdite non realizzati avranno i valori delle dimensioni trasferiti dalla voce di origine delle impostazioni delle dimensioni del conto C/G non realizzati.
+- **Nessun trasferimento**: i movimenti C/G per utili e perdite non realizzati non avranno valori dimensionali.
 
 ### <a name="effect-on-customers-and-vendors"></a>Effetto su clienti e fornitori
 

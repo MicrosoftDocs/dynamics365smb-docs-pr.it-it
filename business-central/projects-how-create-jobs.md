@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519624"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557195"
 ---
 # <a name="create-jobs"></a>Creare commesse
 Quando si inizia un nuovo progetto, è necessario creare una scheda commessa con i task commessa e le righe di pianificazione commessa integrati. La scheda è strutturata su due livelli.  
@@ -27,7 +27,11 @@ La struttura a livelli consente di dividere la commessa in task meno complessi e
 > [!TIP]
 > Scegliere l'azione **Nuova commessa** in Gestione ruolo utente **Manager progetto** per avviare una guida al setup assistito che consente di creare una commessa con task e righe di pianificazione integrati. Di seguito viene descritto come eseguire i passaggi manualmente. Per un esempio di come creare una commessa manualmente, vedere [Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
-A volte la parte a cui è rivolto un servizio è diversa dalla parte che paga il conto. Nella pagina **Processi** è possibile specificare il cliente che beneficerà del progetto nei campi **Vendere a** e la parte che fattura nei campi **Fatturare a**. Puoi anche specificare dove avverrà il lavoro selezionando da un elenco di indirizzi di spedizione per il cliente, aggiungere informazioni su riferimenti esterni per semplificare la comunicazione sul progetto e sovrascrivere i termini finanziari standard del progetto.
+A volte la parte a cui è rivolto un servizio è diversa dalla parte che paga il conto. Nella pagina **Processi** è possibile specificare il cliente che beneficerà del progetto nei campi **Vendere a** e la parte che fattura nei campi **Fatturare a**. È inoltre possibile fornire le seguenti informazioni: 
+
+* Dove avverrà il processo selezionando da un elenco di indirizzi di spedizione per il cliente.
+* Aggiungi informazioni su riferimenti esterni per semplificare la comunicazione sul progetto.
+* Sovrascrivi i termini finanziari standard del progetto.
 
 ## <a name="to-create-a-job-card"></a>Per creare una scheda commessa
 Creare una scheda commessa, quindi creare le righe del task commessa e le relative righe di pianificazione commessa.
@@ -40,9 +44,9 @@ Creare una scheda commessa, quindi creare le righe del task commessa e le relati
 >   Se con la commessa si stanno utilizzando i fogli presenze, è necessario designare un responsabile. La persona può approvare i fogli presenze per i task degli impiegati associati alla commessa. Per ulteriori informazioni, vedere [Impostare fogli presenze](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Per creare i task di una commessa
-Una parte fondamentale nella creazione di una nuova commessa consiste nello specificare i vari task implicati nella commessa. A tale scopo, è necessario aggiungere nuove righe nella Scheda dettaglio **Task** della pagina **Scheda commessa**, un task per ogni riga. Ogni commessa deve avere almeno un task.
+Una parte fondamentale nella creazione di una nuova commessa consiste nello specificare i vari task implicati nella commessa. Specificare le attività creando una riga per attività nella Scheda dettaglio **Attività** della pagina **Scheda commessa**. Ogni commessa deve avere almeno un task.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.
 2. Aprire la scheda commessa di una commessa interessata.
 3. Nella Scheda dettaglio **Task** compilare i campi secondo le necessità su una nuova riga.
 4. Per far rientrare i task e creare così una gerarchia, scegliere l'azione **Task**, quindi l'azione **Indentazione task commesse**.
@@ -50,7 +54,7 @@ Una parte fondamentale nella creazione di una nuova commessa consiste nello spec
 6. Per specificare i task commesse utilizzando le informazioni di altri task commesse, scegliere l'azione **Copia task commessa da**, compilare i campi necessari, quindi scegliere **OK**.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Per creare le righe di pianificazione per una commessa
-È possibile perfezionare i nuovi task commessa nelle righe di pianificazione commessa. Una riga di pianificazione può essere utilizzata per acquisire le informazioni di cui si desidera tenere traccia per una commessa. È possibile utilizzare le righe di pianificazione per aggiungere informazioni relative, ad esempio, alle risorse o agli articoli necessari per l'esecuzione della commessa. Se ad esempio si crea un task per ottenere l'approvazione di una commessa da parte del cliente, è possibile associarlo a righe di pianificazione per articoli quali la riunione con il cliente e l'assegnazione di una risorsa.  
+È possibile perfezionare i nuovi task commessa nelle righe di pianificazione commessa. Una riga di pianificazione può acquisire le informazioni di cui si desidera tenere traccia per una commessa. Ad esempio, puoi tenere traccia delle risorse richieste dal processo o degli elementi necessari. Ad esempio, hai un'attività per convincere un cliente ad approvare un processo. È possibile associare l'attività alle righe di pianificazione per articoli quali la riunione con il cliente e l'assegnazione di una risorsa.  
 
 Una riga di pianificazione commessa può contenere uno dei seguenti tipi.  
 
@@ -60,15 +64,33 @@ Una riga di pianificazione commessa può contenere uno dei seguenti tipi.
 | **Fatturabile** |Fornisce le stime di fatturazione per il cliente, in genere in un progetto a prezzo fisso. |
 | **Sia Budget sia fatturabile** |Fornisce un utilizzo a budget pari a ciò che si desidera fatturare. |
 
-**Nota**. Quando si immettono le informazioni nelle righe di pianificazione commessa, i dati sui costi vengono inseriti automaticamente. Ad esempio, il costo, il prezzo e lo sconto per le risorse e gli articoli si basano inizialmente sulle informazioni definite nelle schede risorsa e articolo.
+> [!NOTE]
+> Mentre si immettono le informazioni nelle righe di pianificazione commessa, i dati sui costi vengono inseriti automaticamente. Ad esempio, il costo, il prezzo e lo sconto per le risorse e gli articoli si basano inizialmente sulle informazioni dalla risorsa e dell'articolo. 
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.
 2. Apri una scheda commessa di interesse.
 3. Selezionare un task commessa per il quale il campo **Tipo task commessa** contiene **Registrazione**, quindi scegliere l'azione **Righe pianificazione commessa**.  
 4. Nella pagina **Righe pianificazione commessa**, in una nuova riga compilare i campi secondo le esigenze.
 5. Ripetere i passaggi 3 e 4 per tutte le righe di pianificazione richieste per il task commessa.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Creare inventario e warehouse per le righe di pianificazione per una commessa
+Per creare documenti di selezione magazzino e warehouse per il processo, l'amministratore deve abilitare **Aggiornamento funzionalità: abilitazione del prelievo magazzino e warehouse da commesse** nella pagina **Gestione funzionalità**.
+
+La funzione aggiunge le azioni **Crea prelievo magazzino** e **Crea prelievo warehouse** alla **Scheda commessa**. Per creare o registrare un documento di prelievo, utilizzare le azioni **Righe stoccaggio/prelievo/movimento** o **Righe prelievo registrate**.
+
+È possibile usare le azioni nelle seguenti condizioni:
+* Lo **Stato** del lavoro è **Apri**.
+* Il **Tipo di riga** della riga di pianificazione del lavoro è **Bilancio** o **Sia budget sia fatturabile**.
+* Il **Tipo** della riga di pianificazione del lavoro è **Articolo**.
+* **Richiesto prelievo** è abilitata per la relativa posizione.
+* **Stoccaggi e prelievi guidati** è disabilitata.
+
+> [!NOTE] 
+> Sebbene l'impostazione sia chiamata **Richiesto prelievo**, è comunque possibile registrare il consumo direttamente dalla riga del giornale di registrazione commessa per l'ubicazione. Se l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare la pagina **Prelievi magazzino** per organizzare e stampare le informazioni di prelievo. Puoi anche utilizzare la pagina per inserire e pubblicare il risultato del prelievo, che a sua volta registra il consumo degli articoli. 
+> 
+> Se l'ubicazione è impostata in modo da richiedere l'elaborazione di prelievi e di spedizioni, indicando che hai scelto i campi **Richiesta prelievo** e **Richiesta spedizione** nella pagina **Scheda ubicazione**, usa la pagina **Prelievo warehouse** per gestire il prelievo. I prelievi warehouse sono simili ai prelievi in magazzino. La differenza è che, anziché pubblicare le informazioni sul prelievo, registri il prelievo. Questa registrazione non registra il consumo, ma rende gli articoli disponibili per la pubblicazione. Il responsabile di warehouse può utilizzare i prospetti prelievi per organizzare le informazioni di prelievo prima di creare le istruzioni di prelievo dalla singola warehouse
+
+## <a name="see-also"></a>Vedi anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

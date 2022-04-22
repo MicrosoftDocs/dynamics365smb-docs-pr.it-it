@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515747"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557407"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mapping delle tabelle e dei campi da sincronizzare
 
@@ -28,6 +28,9 @@ Quando si crea la connessione tra le app, [!INCLUDE[prod_short](includes/prod_sh
 
 > [!Note]
 > Se si utilizza una versione locale di [!INCLUDE[prod_short](includes/prod_short.md)], i mapping della tabella di integrazione sono memorizzati nella tabella 5335 Mapping tabella integrazione dove è possibile visualizzarli e modificarli. La mappatura e regole complessi di sincronizzazione vengono definiti nella codeunit 5341. 
+
+### <a name="additional-mappings"></a>Mapping aggiuntivi 
+I termini di pagamento, i metodi di spedizione e gli agenti di spedizione possono cambiare e può essere importante poterli adeguare. Se abiliti la funzionalità **Aggiornamento della funzionalità: mapping all'opzione impostata in Dataverse senza codice** nella pagina [Gestione delle funzionalità](https://businesscentral.dynamics.com/?page=2610), è possibile aggiungere manualmente le mappature della tabella di integrazione per i termini di pagamento (TERMINI DI PAGAMENTO), i metodi di spedizione (METODO DI SPEDIZIONE) e gli agenti di spedizione (AGENTE DI SPEDIZIONE). Questa mappatura può aiutare a garantire che le tue politiche siano le stesse per queste configurazioni in [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ### <a name="synchronization-rules"></a>Regole di sincronizzazione
 Un mapping della tabella di integrazione include anche le regole che controllano il modo in cui i processi di sincronizzazione dell'integrazione sincronizzano i record in una tabella [!INCLUDE[prod_short](includes/prod_short.md)] e una tabella in [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
@@ -76,7 +79,7 @@ Se non si desidera sincronizzare tutte le righe di una tabella di [!INCLUDE[prod
 3.  Per filtrare le righe di [!INCLUDE[prod_short](includes/cds_long_md.md)], impostare il campo **Filtro tabella integrazione**.  
 
 ## <a name="creating-new-records"></a>Creazione di nuovi record  
-Per impostazione predefinita, solo i record di [!INCLUDE[prod_short](includes/prod_short.md)]e le righe di [!INCLUDE[prod_short](includes/cds_long_md.md)] associati verranno sincronizzati dai processi di sincronizzazione di integrazione. È possibile impostare i mapping di tabella o riga in modo che i nuovi record vengano creati nella destinazione (ad esempio [!INCLUDE[prod_short](includes/prod_short.md)]), per ogni riga nell'origine (ad esempio [!INCLUDE[prod_short](includes/cds_long_md.md)]) non ancora associata.  
+Per impostazione predefinita, solo i record di [!INCLUDE[prod_short](includes/prod_short.md)] e le righe di [!INCLUDE[prod_short](includes/cds_long_md.md)] associati verranno sincronizzati dai processi di sincronizzazione di integrazione. È possibile impostare i mapping di tabella o riga in modo che i nuovi record vengano creati nella destinazione (ad esempio [!INCLUDE[prod_short](includes/prod_short.md)]), per ogni riga nell'origine (ad esempio [!INCLUDE[prod_short](includes/cds_long_md.md)]) non ancora associata.  
 
 Ad esempio, il processo di sincronizzazione AGENTE - Dynamics 365 Sales utilizza il mapping di tabella AGENTE. Il processo di sincronizzazione copia i dati dagli utenti in [!INCLUDE[prod_short](includes/cds_long_md.md)] negli agenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Se si imposta il mapping di tabella per creare nuovi record, per ogni utente di [!INCLUDE[prod_short](includes/cds_long_md.md)] non ancora associato a un agente di [!INCLUDE[prod_short](includes/prod_short.md)], viene creata una nuova riga agente in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
