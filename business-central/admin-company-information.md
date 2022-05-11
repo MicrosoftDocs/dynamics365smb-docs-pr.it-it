@@ -3,15 +3,15 @@ title: Panoramica delle informazioni sulla società
 description: La pagina Informazioni sulla società specifica le informazioni di base per un'entità aziendale, come nome, indirizzi e informazioni sulla spedizione.
 author: edupont04
 ms.topic: conceptual
-ms.search.form: 1,
-ms.date: 03/14/2022
+ms.search.form: 1
+ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: d9f8c6e831cae4efd53df435ffda0c6a96b0bc49
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: 1adf94a191b2e0514f7a7435ac1807ca19498b14
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417818"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626241"
 ---
 # <a name="company-information-overview"></a>Panoramica delle informazioni sulla società
 
@@ -21,14 +21,24 @@ Se la warehouse e la sede dell'azienda hanno indirizzi differenti è possibile c
 
 Per ogni società impostata è necessario completare la pagina **Informazioni società** e la pagina **Setup contabilità generale**. Devi anche impostare ogni area in [!INCLUDE [prod_short](includes/prod_short.md)], come la pagina **Setup contabilità clienti**, per ogni società. Per ulteriori informazioni, vedi [Panoramica delle attività di impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-La pagina **Informazioni società** contiene diversi campi e Schede dettaglio, a seconda del tuo paese. La tabella seguente descrive le Schede dettaglio più comunemente utilizzate.
+La pagina **Informazioni società** contiene diversi campi e Schede dettaglio, a seconda del tuo paese. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] La tabella seguente descrive le Schede dettaglio più comunemente utilizzate.
 
 [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Una volta completata la compilazione delle informazioni puoi chiudere la pagina.  
 
-## <a name="see-also"></a>Vedere anche
+## <a name="work-with-multiple-companies"></a>Lavorare con più società
+
+Se [!INCLUDE [prod_short](includes/prod_short.md)] include più società, i tuoi utenti potrebbero voler utilizzare i *badge aziendali* per sapere con quale azienda stanno attualmente lavorando. Per ulteriori informazioni vedi [Visualizzare un badge società per un rapido accesso alle informazioni della società](ui-change-basic-settings.md#badge).  
+
+## <a name="experience"></a>Esperienza
+
+L'esperienza utente predefinita in una versione di prova di [!INCLUDE [prod_short](includes/prod_short.md)] non rivela tutte le capacità. Puoi attivare l'esperienza completa nella pagina **Informazioni sulla società**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).  
+
+## <a name="see-also"></a>Vedi anche
 
 [Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Informazioni società - Inizio rapido](quick-start-company-information.md)  
 [Impostazione di informazioni sulla società in Italia](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
+[Modificare le impostazioni di base](ui-change-basic-settings.md)  
+[Modifica delle funzionalità visualizzate](ui-experiences.md)  

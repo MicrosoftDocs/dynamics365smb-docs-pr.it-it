@@ -7,26 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518863"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655100"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Utilizzare date e orari del calendario
 
-[!INCLUDE[prod_short](includes/prod_long.md)] offre diversi modi per immettere date e orari, incluse potenti funzionalità per accelerare l'immissione dei dati o scrivere espressioni di calendario complesse. È possibile immettere date e orari nei campi in diversi punti dell'applicazione. Ad esempio, in un ordine di vendita, è possibile impostare la data di spedizione. Quando si filtrano gli elenchi o i dati dei report, è possibile immettere date e orari per contrassegnare solo i dati a cui si è interessati.
+Puoi inserire date e orari in diversi modi. [!INCLUDE[prod_short](includes/prod_long.md)] include potenti funzionalità per accelerare l'immissione dei dati o scrivere espressioni di calendario complesse. È possibile immettere date e orari nei campi in diversi punti dell'applicazione. Ad esempio, in un ordine di vendita, è possibile impostare la data di spedizione. Quando si filtrano gli elenchi o i dati dei report, è possibile immettere date e orari per contrassegnare solo i dati a cui si è interessati.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="check-your-region-and-language-settings"></a>Verificare le impostazioni di lingua e paese
-La pagina **Impostazioni personali** specifica la **Regione** e il **Linguaggio** che si sta utilizzando nell'applicazione. Queste impostazioni influenzano le modalità di immissione delle date e ore.
 
--   L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.
+La pagina **Impostazioni personali** specifica l'**Area geografica** e la **Lingua** che si sta utilizzando nell'applicazione. Queste impostazioni influenzano le modalità di immissione delle date e ore.
 
--   Per gli schemi di date che coinvolgono le parole, la lingua delle parole utilizzate deve corrispondere all'impostazione della **Lingua**.
+- L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati.
+
+- Per gli schemi di date che coinvolgono le parole, la lingua delle parole utilizzate deve corrispondere all'impostazione della **Lingua**.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_long.md)] utilizza il sistema di calendario gregoriano.
@@ -37,9 +40,13 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 ## <a name="entering-dates"></a>Immissione di date
 
-In un campo Data, è possibile immettere una data utilizzando il formato standard per le impostazioni di un paese. Diverse regioni possono utilizzare separatori diversi tra i giorni, i mesi e gli anni. Ad esempio, alcune regioni utilizzano i trattini (gg-mm-aaaa) e altri usano le barre (gg/mm/aaaa). Tuttavia, è possibile utilizzare qualsiasi separatore, anche uno spazio, e la data verrà automaticamente modificata per utilizzare separatori che corrispondono alla regione.
+In un campo Data, è possibile immettere una data utilizzando il formato standard per le impostazioni di un paese. Diverse regioni possono utilizzare separatori diversi tra i giorni, i mesi e gli anni. Ad esempio, alcune regioni utilizzano i trattini (gg-mm-aaaa) e altri usano le barre (gg/mm/aaaa).  
 
-Si noti che il formato in cui le date vengono visualizzate sui report stampati o sui documenti inviati via e-mail non è influenzato dalla scelta personale di impostazione della regione.
+> [!TIP]
+> Puoi utilizzare qualsiasi separatore, anche uno spazio, e la data verrà automaticamente modificata per utilizzare separatori che corrispondono all'area geografica.
+
+> [!NOTE]
+> Il formato in cui le date vengono visualizzate sui report stampati o sui documenti inviati via e-mail non è influenzato dalla scelta personale di impostazione dell'area geografica.
 
 Per lavorare in modo più produttivo con date e orari, è possibile utilizzare uno dei metodi o formati descritti nelle sezioni seguenti.
 
@@ -53,9 +60,9 @@ Vedere anche [Tasti di scelta rapida nel calendario (selezione data)](keyboard-s
 
 ### <a name="day-week-year-pattern"></a>Schema giorno\-settimana\-anno
 
-È possibile immettere una data come giorno della settimana seguito da un numero di settimana e, facoltativamente, dall'anno. Ad esempio, Lun25 o lun25 indica il lunedì della settimana 25. Se non si immette un anno, viene utilizzato l'anno della data di lavoro.
+È possibile immettere una data come giorno della settimana seguito da un numero di settimana e, facoltativamente, dall'anno. Ad esempio, Lun25 o lun25 indica il lunedì della settimana 25. Se non immetti un anno, viene utilizzato l'anno della data di lavoro.
 
-Anziché immettere l'intera parola per il giorno della settimana, è possibile immettere una parte della parola, a partire dall'inizio. Nel caso dei conflitti (come in italiano m che potrebbe essere Martedì o Mercoledì), i giorni vengono valutati in base all'impostazione dell'area geografica. L'input viene prima valutato rispetto alla data di lavoro e alla data odierna, quindi è necessario ricordare questa informazione quando si utilizzano abbreviazioni. Ad esempio, in italiano, s indica settimana pertanto non può significare Sabato.
+Anziché immettere l'intera parola per il giorno della settimana, è possibile immettere una parte della parola, a partire dall'inizio. In caso di conflitti (come in italiano m che potrebbe essere Martedì o Mercoledì), i giorni vengono valutati in base all'impostazione dell'area geografica. L'input viene prima valutato rispetto alla data di lavoro e alla data odierna, ricorda questa informazione quando usi le abbreviazioni. Ad esempio, in italiano, _s_ indica settimana pertanto non può significare Sabato.
 
 Lo schema del numero della settimana è sempre ISO 8601, dove la settimana 1 è la settimana che include il 4 gennaio o la settimana con il primo giovedì dell'anno.
 
@@ -63,9 +70,9 @@ Lo schema del numero della settimana è sempre ISO 8601, dove la settimana 1 è 
 
 In un campo di data è possibile immettere due, quattro, sei o otto cifre:
 
-- Se si immettono solo due cifre, queste vengono considerate come indicanti il giorno e il programma aggiunge il mese e l'anno della data di lavoro.
+- Se immetti solo due cifre, queste vengono considerate come indicanti il giorno e il programma aggiunge il mese e l'anno della data di lavoro.
 
-- Se si immettono quattro cifre, queste vengono considerate come indicanti il giorno e il mese e il programma aggiunge l'anno della data di lavoro. L'ordine giorno e il mese è determinato dalle impostazioni di un paese. Anche se le impostazioni del paese hanno l'anno prima del giorno e del mese, le quattro cifre vengono interpretate come giorno e mese.
+- Se immetti quattro cifre, queste vengono considerate come indicanti il giorno e il mese e il programma aggiunge l'anno della data di lavoro. L'ordine giorno e il mese è determinato dalle impostazioni di un paese. Anche se le impostazioni del paese hanno l'anno prima del giorno e del mese, le quattro cifre vengono interpretate come giorno e mese.
 
 - Se la data che si desidera immettere è inclusa nell'intervallo compreso tra 01/01/1950 e 31/12/2049, è possibile immettere l'anno utilizzando due cifre. In caso contrario, immettere l'anno in quattro cifre.
 
@@ -78,11 +85,11 @@ Inserisci la parola per _oggi_, nella lingua specificata nella pagina **Impostaz
 
 ### <a name="period"></a>Periodo
 
-Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/22**, p1 oppure soltanto p filtra il primo periodo contabile dell'anno fiscale 2022 (come 01/01/22..31/01/22). p15 filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2022 (come 01/03/23..31/03/23).
+Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/22**, _p1_ oppure soltanto _p_, filtra il primo periodo contabile dell'anno fiscale 2022 (come 01/01/22..31/01/22). _p15_ filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2022 (come 01/03/23..31/03/23).
 
 I periodi contabili sono definiti nella pagina **Periodi contabili**. Per visualizzare o modificare i periodi contabili, aprire la pagina [qui](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a>Data di lavoro
+### <a name="work-date"></a>Data del lavoro
 
 Utilizza una data di lavoro per specificare una data che non è la data odierna sui record. Ad esempio, una data di lavoro è utile quando è necessario impostare una data particolare per più record. Specifica la data di lavoro nella pagina **Impostazioni personali**. 
 
@@ -94,7 +101,7 @@ Se non hai specificato una data di lavoro, verrà utilizzata la data odierna. Pe
 
 Per chiudere un anno fiscale, è possibile utilizzare date di chiusura per indicare un movimento di chiusura. Una data di chiusura è tecnicamente compresa tra due date, ad esempio 31 dicembre e 1 gennaio.
 
-Per specificare che si tratta di una data di chiusura, immettere C prima della data, ad esempio C123101. Questo metodo può essere utilizzato insieme a tutti i modelli per data.
+Per specificare che si tratta di una data di chiusura, immettere C prima della data, ad esempio C123101. Questo formato può essere utilizzato insieme a tutti i modelli per data.
 
 ### <a name="examples"></a>Esempi
 
@@ -134,18 +141,19 @@ In elenchi, totali e report, è possibile impostare filtri su date, orari e peri
 È possibile utilizzare uno qualsiasi dei formati validi nei filtri dell'intervallo di date. Ad esempio, lun14 3..o 4p applicato a un campo data/ora risulta un filtro dalle 3 AM di lunedì nella settimana 14 dell'anno della data di lavoro corrente, incluso, fino alle 4 PM, comprese.
 
 ## <a name="use-date-formulas"></a>Usare le formule data
+
 Una formula di data è una breve combinazione di lettere e numeri che specifica il modo in cui calcolare le date. È possibile immettere formule per le date in diversi campi o filtri per il calcolo della data.
 
 > [!NOTE]
->  In tutti i campi di formula di dati, viene automaticamente incluso un giorno per coprire la data odierna come giorno di inizio del periodo. Di conseguenza, se si immette, ad esempio, 1S, il periodo è effettivamente di otto giorni perché la data odierna è inclusa. Per specificare un periodo di sette giorni \(una settimana\) includendo la data di inizio del periodo, è necessario immettere 6G o 1S-1G.
+> In tutti i campi di formula di dati, viene automaticamente incluso un giorno per coprire la data odierna come giorno di inizio del periodo. Di conseguenza, se si immette, ad esempio, 1S, il periodo è effettivamente di otto giorni perché la data odierna è inclusa. Per specificare un periodo di sette giorni \(una settimana\) includendo la data di inizio del periodo, è necessario immettere 6G o 1S-1G.
 
 Di seguito vengono forniti alcuni esempi dell'utilizzo di formule per le date:
 
--   La formula della data nel campo per la ricorrenza della frequenza nelle registrazioni periodiche indica la frequenza con cui il movimento nella riga delle registrazioni verrà registrato.
+- La formula della data nel campo per la ricorrenza della frequenza nelle registrazioni periodiche indica la frequenza con cui il movimento nella riga delle registrazioni verrà registrato.
 
--   La formula nel campo **Periodo di dilazione** per un livello di sollecito specifico determina il periodo di tempo che deve trascorrere dalla data di scadenza \(o dalla data del sollecito precedente\) alla creazione del sollecito.
+- La formula nel campo **Periodo di dilazione** per un livello di sollecito specifico determina il periodo di tempo che deve trascorrere dalla data di scadenza \(o dalla data del sollecito precedente\) alla creazione del sollecito.
 
--   La formula nel campo **Calcolo data di scadenza** determina la modalità di calcolo della data di scadenza nel sollecito.
+- La formula nel campo **Calcolo data di scadenza** determina la modalità di calcolo della data di scadenza nel sollecito.
 
 La formula per la data può contenere un massimo di 20 caratteri, sia numeri che lettere. È possibile utilizzare le lettere seguenti, corrispondenti ad abbreviazioni di unità di calendario.
 
@@ -171,7 +179,7 @@ L'esempio seguente mostra come usare un numero e un'unità di tempo. Il numero n
 
 |  Espressione  |  Significato  |
 |--------------|-----------|
-|10G|10 giorni a partire da oggi|
+|10D|10 giorni a partire da oggi|
 |2S|2 settimane a partire da oggi|
 
 L'esempio seguente mostra come usare un'unità di tempo e un numero.
@@ -223,15 +231,15 @@ Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
+> In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
 
 Here are some examples of how date formulas can be used:
 
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
+- The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
 
--   The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
+- The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
 
--   The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
+- The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
 
 The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
 
@@ -280,12 +288,13 @@ The following example shows how you can use a minus sign to indicate a date in t
 |-1Y|1 year ago from today|
 
 > [!IMPORTANT]
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
+> If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
 
 -->
 
 ## <a name="entering-times"></a>Immissione di ore
-Quando si immettono le ore, è possibile inserire qualsiasi separatore non spaziale desiderato tra le unità, ma se si utilizzano cifre doppie per ciascuna unità fino a millisecondi, non è necessario.
+
+Quando immetti l'ora, puoi inserire qualsiasi separatore diverso da spazio tra le unità. Se usi due cifre per ogni unità fino a millisecondi, non è necessario.
 
 È necessario immettere solo le unità di grandi dimensioni di richiedere; il resto sarà uguale a zero. È inoltre possibile omettere qualsiasi di contrassegno con l'indicazione AM/PM.
 
@@ -308,9 +317,11 @@ Nella tabella seguente sono indicati i diversi formati in cui è possibile immet
 |5:30:5.50|05:30:05,5|
 |053005050|05.30.05,05|
 
-È necessario tenere presente che i millisecondi vengono interpretati come notazione decimale. Così, ad esempio, 3, 30 e 300 significano tutti 300 millisecondi, mentre 03 significa 30 e 003 significa 3 millisecondi.
+> [!NOTE]
+> I millisecondi vengono interpretati come notazione decimale. Così, ad esempio, 3, 30 e 300 significano tutti 300 millisecondi, mentre 03 significa 30 e 003 significa 3 millisecondi.
 
-Non è possibile utilizzare 24:00 per indicare la mezzanotte oppure utilizzare qualsiasi valore superiore a 24:00.
+> [!IMPORTANT]
+> Non è possibile utilizzare 24:00 per indicare la mezzanotte oppure utilizzare qualsiasi valore superiore a 24:00.
 
 La parola per "ora" nella lingua usata da [!INCLUDE[prod_short](includes/prod_long.md)] verrà valutata per l'ora corrente del computer o dispositivo mobile in uso. È possibile immettere qualsiasi parte della parola, a partire dall'inizio, come o oppure ORA.
 
@@ -334,11 +345,12 @@ Di seguito vengono forniti alcuni esempi.
 
 È inoltre possibile immettere un numero che verrà automaticamente convertito in una durata. Il numero immesso viene convertito in base all'unità di misura predefinita specificata nel campo relativo alla durata.
 
-Per visualizzare l'unità di misura utilizzata in un campo di durata, immettere un numero e controllare l'unità di misura in cui viene convertito.
+Per vedere quale unità di misura viene utilizzata in un campo di durata, immetti un numero. Quindi, puoi vedere in quale unità di misura è stato convertito.
 
 Ad esempio, il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.
 
 ## <a name="see-also"></a>Vedere anche
+
 [Utilizzare [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
 [Immissione di criteri di filtro](ui-enter-criteria-filters.md)  

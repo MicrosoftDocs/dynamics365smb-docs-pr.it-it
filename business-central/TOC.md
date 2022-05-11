@@ -1569,6 +1569,7 @@
 ##### [Eseguire la sincronizzazione con i contatti di Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Ottimizza Outlook](admin-outlook-optimize.md)
 ##### [Utilizzare Business Central senza Outlook](admin-no-outlook.md)
+##### [Domande frequenti](ui-outlook-addin-faq.yml)
 ### Impostare i report
 #### [Selezione report](across-report-selections.md)
 ### Impostare le connessioni
@@ -1611,6 +1612,7 @@
 #### [Passare da un'app di QuickBooks a Business Central](across-quickbooks-to-business-edition.md)
 #### [Fatturazione in blocco per Microsoft Bookings](finance-bookings.md)
 #### [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)
+### [Informazioni società](admin-company-information.md)
 ### [Creazione di numerazioni](ui-create-number-series.md)
 ### [Impostare i calendari di base](across-how-to-assign-base-calendars.md)
 ### [Configurare le stampanti](ui-specify-printer-selection-reports.md)

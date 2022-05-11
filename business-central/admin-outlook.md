@@ -7,19 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518339"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654918"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Ottieni il componente aggiuntivo Business Central per Outlook
 
-Con [!INCLUDE[prod_short](includes/prod_short.md)], puoi gestire le interazioni commerciali con i tuoi clienti e fornitori, direttamente in Microsoft Outlook. Con il [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, è possibile vedere i dati finanziari relativi a clienti e fornitori. È anche possibile creare e inviare documenti finanziari, come preventivi e fatture.  
+Con [!INCLUDE[prod_short](includes/prod_short.md)], puoi gestire le interazioni commerciali con i tuoi clienti e fornitori, direttamente in Microsoft Outlook. Con il componente aggiuntivo [!INCLUDE[prod_short](includes/prod_short.md)] Outlook, è possibile vedere i dati finanziari relativi a clienti e fornitori. È anche possibile creare e inviare documenti finanziari, come preventivi e fatture.  
 
 Ci sono due modi per installare l'add-in di Business Central per Outlook, a seconda del tuo ruolo nell'organizzazione:
 
@@ -42,6 +42,9 @@ L'add-in Business Central per Outlook consiste in due add-in più piccoli:
 Per ulteriori informazioni su ciò che si fa con i componenti aggiuntivi, vedi [Utilizzare Business Central come casella di posta elettronica aziendale in Outlook](work-outlook-addin.md).
 
 Ogni add-in è fornito come un file XML, chiamato *manifest*, che deve essere installato in Outlook da chiunque voglia questa funzionalità. Questi file descrivono come attivare gli add-in e connettersi a Business Central quando sono usati in Outlook. Lavorare con questi file è tipicamente fatto da un amministratore. Come utente normale, nella maggior parte dei casi, non avrete a che fare direttamente con questi file. O il tuo amministratore imposterà l'add-in per installarlo automaticamente per te o userai il setup assistito integrato per gestire l'installazione.
+
+> [!IMPORTANT]
+> Lavorare con più ambienti Il componente aggiuntivo Business Central per Outlook è progettato per funzionare con un unico ambiente Business Central. Quando il componente aggiuntivo viene installato, il nome dell'ambiente viene incluso nel manifesto del componente aggiuntivo. Questa configurazione significa che il componente aggiuntivo si connette solo all'ambiente da cui è stato installato. Per utilizzare il componente aggiuntivo con un ambiente diverso, devi aprire l'ambiente e installare nuovamente il componente aggiuntivo.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Distribuire il componente aggiuntivo utilizzando la distribuzione centralizzata come amministratore
 

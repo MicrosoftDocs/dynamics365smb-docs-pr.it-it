@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5da6070b00d635cba1aa2cbd7bb282d226d96023
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 833cc4aff2aefbd4ddd69fb340896ce5b3b90457
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521704"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655204"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente
 Utilizzando la nuova icona segnalibro, è possibile aggiungere un'azione che apre una pagina o un report dal menu di navigazione di Gestione ruolo utente. I segnalibri consentono di raggiungere rapidamente i contenuti o le attività aziendali preferiti. Si aggiunge il segnalibro dalla pagina o dal report di destinazione, ovvero la schermata che deve essere aperta con il collegamento in Gestione ruolo utente.

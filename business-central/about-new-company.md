@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519357"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654970"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Creare nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] il contenitore per i dati aziendali che appartiene alla Business Unit o alla persona giuridica viene indicato con il termine *società*. Quando ci si iscrive a [!INCLUDE[prod_short](includes/prod_short.md)], vengono fornite una società dimostrativa e una società vuota denominata *La mia azienda*. Il passaggio tra le società è facile: basta accedere a **Impostazioni personali** e passare all'altra società. È tuttavia possibile anche creare nuove società in [!INCLUDE[prod_short](includes/prod_short.md)] in base alle esigenze aziendali.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] il contenitore per i dati aziendali che appartiene alla Business Unit o alla persona giuridica viene indicato con il termine *società*. Quando ti iscrivi a [!INCLUDE[prod_short](includes/prod_short.md)], vengono fornite una società dimostrativa e una società vuota denominata *La mia azienda*. Il passaggio tra le società è facile: basta accedere a **Impostazioni personali** e passare all'altra società. È tuttavia possibile anche creare nuove società in [!INCLUDE[prod_short](includes/prod_short.md)] in base alle esigenze aziendali.  
 
 Quando si crea una nuova azienda una guida setup assistito aiuta ad applicare le nozioni di base. Successivamente è possibile importare i dati rilevanti dal sistema legacy o un'altra azienda in [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="choose-the-right-template"></a>Scegliere il modello giusto
 
@@ -32,11 +34,11 @@ La procedura guidata di installazione offre due modelli e un'opzione vuota:
 - **Valutazione - Dati di esempio**  
     Crea una società che è simile alla società di dimostrazione con i dati di esempio e i dati di setup. Questo tipo di società è a tua disposizione senza passare a [un periodo di valutazione di 30 giorni](across-preview.md#add-your-own-data-to-an-empty-trial-company), come fanno gli altri tipi.  
 - **Produzione - Solo dati setup**  
-    Crea una società che è simile a **La mia società** con i dati di setup ma senza i dati di esempio. Potrai utilizzare questa società per [un periodo di valutazione di 30 giorni](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Crea una società che è simile a **La mia società** con i dati di setup ma senza i dati di esempio. Puoi utilizzare questa società per [un periodo di valutazione di 30 giorni](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 - **Crea nuovo - Senza dati**  
-    Crea una società vuota senza dati di setup. Potrai utilizzare questa società per [un periodo di valutazione di 30 giorni](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Crea una società vuota senza dati di setup. Puoi utilizzare questa società per [un periodo di valutazione di 30 giorni](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 
-Se si desidera iniziare in modo semplice con una società nuova, scegliere **Produzione - Solo dati setup** e quindi importare i dati della propria azienda, ad esempio i clienti, gli articoli e i fornitori. Scegliere il modello **Nuovo** se si desidera impostare tutto da zero. È possibile in tal caso utilizzare la guida al setup assistito **Setup società** per istruzioni su come iniziare con i dati di setup di base.  
+Se si desidera iniziare in modo semplice con una società nuova, scegliere **Produzione - Solo dati setup** e quindi importare i dati della propria azienda, ad esempio i clienti, gli articoli e i fornitori. Scegli il modello **Nuovo** se vuoi impostare tutto da zero. È possibile in tal caso utilizzare la guida al setup assistito **Setup società** per istruzioni su come iniziare con i dati di setup di base.  
 
 > [!NOTE]  
 > La creazione di una nuova società richiede alcuni minuti prima che sia possibile accedervi in [!INCLUDE[prod_short](includes/prod_short.md)]. Lo stato del setup nella pagina **Società** mostra quando la nuova società è pronta. È quindi possibile passare alla nuova società utilizzando **Impostazioni personali**.  
@@ -54,9 +56,9 @@ Nella pagina **Società** è possibile utilizzare l'azione **Copia** per creare 
 
 Quando si accede a una nuova società, la procedura guidata **Setup società** si avvia automaticamente e fornisce le istruzioni per iniziare. Verranno richieste le informazioni sulla società, ad esempio l'indirizzo, i dati bancari e il metodo di calcolo dei costi di magazzino. Queste informazioni servono da base per molte aree di [!INCLUDE[prod_short](includes/prod_short.md)] che non dovranno quindi più essere impostate manualmente un momento successivo.  
 
-L'indirizzo della società, ad esempio, è incluso nelle fatture e in altri documenti e i dati bancari vengono utilizzati per i pagamenti. Il metodo di calcolo dei costi viene utilizzato per calcolare i prezzi, nonché valutare il magazzino.  
+Ad esempio, [!INCLUDE [prod_short](includes/prod_short.md)] include l'indirizzo della tua società nelle fatture e in altri documenti e le tue informazioni bancarie nei pagamenti. Il metodo di valutazione dei costi vieneutilizzato per il calcolo peri prezzi e della valutazione del magazzino.  
 
-Dopo che sono state impostate le informazioni di base, è possibile impostare le restanti aree fondamentali. È a questo punto possibile aggiungere i dati aziendali, ad esempio i clienti e i fornitori. Per maggiori informazioni, vedere [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+Dopo che sono state impostate le informazioni di base, è possibile impostare le restanti aree fondamentali. A questo punto puoi aggiungere i dati aziendali, ad esempio i clienti e i fornitori. Per ulteriori informazioni, vedi [Impostare [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ## <a name="companies-and-environments"></a>Società e ambienti
 
@@ -73,7 +75,7 @@ Una volta creata una società, non puoi modificarne il nome. Puoi tuttavia modif
 
 ## <a name="add-contoso-coffee"></a>Aggiungere Contoso Coffee
 
-L'app Contoso Coffee fornisce dati dimostrativi che possono aiutarti a esplorare le funzionalità avanzate di [!INCLUDE [prod_short](includes/prod_short.md)]. Trova l'app in AppSource e installala in una società vuota, ad esempio un'azienda in un ambiente sandbox. Per ulteriori informazioni, vedi [Introduzione ai dati dimostrativi di Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
+L'app Contoso Coffee fornisce dati dimostrativi per aiutarti a esplorare le funzionalità avanzate di [!INCLUDE [prod_short](includes/prod_short.md)]. Trova l'app in AppSource e installala in una società vuota, ad esempio un'azienda in un ambiente sandbox. Per ulteriori informazioni, vedi [Introduzione ai dati dimostrativi di Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557195"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626397"
 ---
 # <a name="create-jobs"></a>Creare commesse
 Quando si inizia un nuovo progetto, è necessario creare una scheda commessa con i task commessa e le righe di pianificazione commessa integrati. La scheda è strutturata su due livelli.  
@@ -73,24 +73,7 @@ Una riga di pianificazione commessa può contenere uno dei seguenti tipi.
 4. Nella pagina **Righe pianificazione commessa**, in una nuova riga compilare i campi secondo le esigenze.
 5. Ripetere i passaggi 3 e 4 per tutte le righe di pianificazione richieste per il task commessa.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Creare inventario e warehouse per le righe di pianificazione per una commessa
-Per creare documenti di selezione magazzino e warehouse per il processo, l'amministratore deve abilitare **Aggiornamento funzionalità: abilitazione del prelievo magazzino e warehouse da commesse** nella pagina **Gestione funzionalità**.
-
-La funzione aggiunge le azioni **Crea prelievo magazzino** e **Crea prelievo warehouse** alla **Scheda commessa**. Per creare o registrare un documento di prelievo, utilizzare le azioni **Righe stoccaggio/prelievo/movimento** o **Righe prelievo registrate**.
-
-È possibile usare le azioni nelle seguenti condizioni:
-* Lo **Stato** del lavoro è **Apri**.
-* Il **Tipo di riga** della riga di pianificazione del lavoro è **Bilancio** o **Sia budget sia fatturabile**.
-* Il **Tipo** della riga di pianificazione del lavoro è **Articolo**.
-* **Richiesto prelievo** è abilitata per la relativa posizione.
-* **Stoccaggi e prelievi guidati** è disabilitata.
-
-> [!NOTE] 
-> Sebbene l'impostazione sia chiamata **Richiesto prelievo**, è comunque possibile registrare il consumo direttamente dalla riga del giornale di registrazione commessa per l'ubicazione. Se l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi ma non l'elaborazione delle spedizioni, utilizzare la pagina **Prelievi magazzino** per organizzare e stampare le informazioni di prelievo. Puoi anche utilizzare la pagina per inserire e pubblicare il risultato del prelievo, che a sua volta registra il consumo degli articoli. 
-> 
-> Se l'ubicazione è impostata in modo da richiedere l'elaborazione di prelievi e di spedizioni, indicando che hai scelto i campi **Richiesta prelievo** e **Richiesta spedizione** nella pagina **Scheda ubicazione**, usa la pagina **Prelievo warehouse** per gestire il prelievo. I prelievi warehouse sono simili ai prelievi in magazzino. La differenza è che, anziché pubblicare le informazioni sul prelievo, registri il prelievo. Questa registrazione non registra il consumo, ma rende gli articoli disponibili per la pubblicazione. Il responsabile di warehouse può utilizzare i prospetti prelievi per organizzare le informazioni di prelievo prima di creare le istruzioni di prelievo dalla singola warehouse
-
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

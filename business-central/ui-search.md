@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512051"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655750"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Individuare pagine e informazioni con la funzionalità delle informazioni  
 In questo argomento viene descritto come la funzionalità delle informazioni può consentire di accedere rapidamente ad azioni, pagine o report, trovare informazioni su come completare una specifica attività e scoprire ulteriori app e servizi di consulenza per  [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -33,6 +33,8 @@ Nella parte inferiore della finestra della **funzionalità delle informazioni** 
 
 > [!NOTE]  
 >   Se si preferisce utilizzare la tastiera, utilizzare il tasto TAB e i tasti freccia per scegliere un elemento nei risultati. Se si preme il tasto INVIO sulla tastiera senza scegliere un risultato, [!INCLUDE[prod_short](includes/prod_short.md)] apre il risultato elencato per primo.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ### <a name="finding-an-action-on-the-current-page"></a>Individuare un'azione nella pagina corrente
 La sezione **In pagina corrente** consente di trovare ed eseguire azioni nella pagina aperta. Ad esempio, se la pagina **Offerta vendita** è aperta e si digita "cliente", la sezione include un'azione che apre la scheda cliente per il cliente scelto nell'offerta di vendita.

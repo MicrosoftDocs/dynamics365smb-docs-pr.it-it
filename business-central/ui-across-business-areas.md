@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
+ms.search.form: 9020, 9022, 9027, 9024
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513603"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655049"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
@@ -24,6 +24,8 @@ Per supportare questi task specifici del settore commerciale, è possibile utili
 
 > [!NOTE]
 > Oltre alle funzioni correlate all'azienda descritte in questa sezione, si usano le funzioni generali dell'interfaccia utente ogni giorno per interagire con il sistema. Per ulteriori informazioni, vedi [Utilizzare Business Central](ui-work-product.md).
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Nella tabella seguente sono elencate queste aree generali e sono riportati i collegamenti agli argomenti che le descrivono.
 

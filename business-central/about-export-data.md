@@ -7,34 +7,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.search.form: 9901, 9018, 9020, 9022, 9027
+ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 02493bee3940bf1416c2485b0b45016edbca9baa
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521386"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655178"
 ---
-# <a name="exporting-your-business-data-to-excel"></a>Esportazione dei dati aziendali in Excel
-Se si desidera utilizzare i dati di [!INCLUDE[prod_short](includes/prod_short.md)] in Excel, è possibile aprire tutti gli elenchi in Excel quindi utilizzarli con questo programma. Analogamente, se si desidera annullare la sottoscrizione a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile esportare i dati in Excel per averli sempre a disposizione.
+# <a name="export-your-business-data-to-excel"></a>Esportare i dati di Business Central in Excel
+
+Excel è un potente strumento per lavorare con i dati. È possibile aprire qualsiasi lista in Excel da [!INCLUDE[prod_short](includes/prod_short.md)]. Puoi persino modificare i dati in Excel e quindi inviarli di nuovo a [!INCLUDE [prod_short](includes/prod_short.md)]. La stessa funzionalità ti consente di portare facilmente i tuoi dati con te se decidi di annullare l'abbonamento.
 
 ## <a name="opening-lists-in-excel"></a>Aprire gli elenchi in Excel
+
 È possibile visualizzare i dati in Excel da qualsiasi registrazione, elenco o foglio di lavoro. Aprire la pagina che si desidera quindi scegliere **Apri in Excel**. Ad esempio, aprire l'elenco dei clienti (cercare **Clienti**) quindi scegliere **Apri in Excel**. Il browser chiederà conferma dell'apertura o del salvataggio della cartella di lavoro di Excel generata.  
 
 > [!NOTE]
 > Utilizzare questa opzione se non si desidera apportare modifiche e pubblicare di nuovo tali modifiche su [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Ogni elenco include una serie di colonne e l'esportazione in Excel includerà tutte le colonne che sono incluse nella visualizzazione corrente. Se si desidera aggiungere o rimuovere colonne prima di aprire l'elenco in Excel, è sufficiente aprire il menu di scelta rapida per qualsiasi colonna e specificare le colonne che si desidera visualizzare. L'elenco delle colonne è diverso dalla maggior parte degli elenchi e riflette la struttura del database in cui i dati sono archiviati. Se non si è certi di tipo di dati contenuti in una determinata colonna, è possibile aggiungerla alla visualizzazione e quindi decidere di rimuoverlo di nuovo eventualmente.  
+Ogni elenco include alcune colonne. L'esportazione in Excel include tutte le colonne presenti nella visualizzazione corrente. Modifica le colonne aprendo il menu di scelta rapida per una colonna e quindi specificando quali colonne desideri visualizzare. L'elenco delle colonne è diverso per la maggior parte degli elenchi. Le colonne riflettono la struttura nel database che memorizza i tuoi dati. Se non sei sicuro del tipo di dati che contiene una determinata colonna, aggiungilo alla tua visualizzazione. Puoi sempre rimuoverlo.  
 
 ### <a name="edit-data-in-excel"></a>Modifica dei dati in Excel
+
 L'esperienza [!INCLUDE[prod_short](includes/prod_short.md)] include un componente aggiuntivo per Excel in modo da poter modificare i dati in Excel. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Esportare i dati in altri sistemi contabili
+
 Se si decide di annullare la sottoscrizione a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile esportare i dati in Excel e averli a disposizione nel sistema finanziario.  
 
-È possibile esportare tutte le pagine, naturalmente, ma potrebbe essere più di quanto effettivamente necessario. Prendere in considerazione di esportare le seguenti pagine essenziali e ricordarsi di aggiungere tutte le colonne come descritto in precedenza:  
+È possibile esportare tutte le pagine, ma potrebbe essere più di quanto effettivamente necessario. Prendere in considerazione di esportare le seguenti pagine essenziali e ricordarsi di aggiungere tutte le colonne come descritto in precedenza:  
 
 * Piano dei conti  
 * Clienti  
@@ -42,7 +46,7 @@ Se si decide di annullare la sottoscrizione a [!INCLUDE[prod_short](includes/pro
 * Banche  
 * Articoli  
 
-Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una grande quantità di dati, l'esportazione richiederà un tempo superiore. Le transazioni finanziarie sono visualizzate nella pagina **Movimenti C/G**.  
+Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una grande quantità di dati, l'esportazione richiede un tempo superiore. Le transazioni finanziarie sono visualizzate nella pagina **Movimenti C/G**.  
 
 È consigliabile anche esportare i dati dalle pagine seguenti:  
 
@@ -68,8 +72,9 @@ Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una gran
 
 > [!NOTE]
 > È necessario disporre di almeno una delle seguenti autorizzazioni per aprire o modificare i dati in Excel:
->    - Set di autorizzazioni *D365 Azione esportazione Excel*  
->    - Autorizzazione di sistema 6110 *Consenti l'azione Esporta in Excel*.  
+>
+> * Set di autorizzazioni *D365 Azione esportazione Excel*  
+> * Autorizzazione di sistema 6110 *Consenti l'azione Esporta in Excel*.  
 
 Per ulteriori informazioni, vedere [Per ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
