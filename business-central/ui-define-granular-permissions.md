@@ -1,36 +1,40 @@
 ---
 title: Definire autorizzazioni granulari
-description: Questo argomento descrive come definire autorizzazioni granulari concedendo a determinati utenti l'accesso agli oggetti e assegnando loro set di autorizzazioni.
+description: Questo articolo descrive come definire autorizzazioni granulari e assegnare a ogni utente i set di autorizzazioni necessari per svolgere il proprio lavoro.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
-ms.date: 03/24/2022
+ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522514"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729831"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
 
-Gli amministratori utilizzano il sistema di sicurezza [!INCLUDE[prod_short](includes/prod_short.md)] per controllare a quali oggetti un utente può accedere all'interno di ogni database o ambiente, in combinazione con le licenze che vengono assegnate. Per ciascun utente è possibile specificare se si desidera consentire di leggere, modificare o inserire dati negli oggetti di database selezionati. Per informazioni dettagliate, vedi [Sicurezza dei dati](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) nel contenuto per sviluppatori e amministratori per [!INCLUDE[prod_short](includes/prod_short.md)].
+Il sistema di sicurezza [!INCLUDE[prod_short](includes/prod_short.md)] controlla a quali oggetti un utente può accedere all'interno di ogni database o ambiente, in combinazione con le licenze dell'utente. Per ciascun utente è possibile specificare se si desidera consentire di leggere, modificare o inserire dati negli oggetti di database selezionati. Per informazioni dettagliate, vedi [Sicurezza dei dati](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) nel contenuto per sviluppatori e amministratori per [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Prima di assegnare autorizzazioni a utenti e gruppi di utenti, è necessario definire chi può accedere a funzionalità specifiche creando utenti in base alla licenza come definito nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).
+Prima di assegnare autorizzazioni a utenti e gruppi di utenti, è necessario definire chi può accedere a funzionalità specifiche creando utenti in base alla licenza come definito nella loro licenza. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] esistono due livelli di autorizzazioni per gli oggetti di database:
 
 - Autorizzazioni complete in base alla licenza, denominate anche diritti.
 
   Le licenze includono set di autorizzazioni predefiniti. A partire dal primo ciclo di rilascio del 2022, gli amministratori possono personalizzare queste autorizzazioni predefinite per i tipi di licenza pertinenti. Per ulteriori informazioni, vedi [Configurare le autorizzazioni in base alle licenze](ui-how-users-permissions.md#licensespermissions).  
+
 - Autorizzazioni più dettagliate assegnate da [!INCLUDE[prod_short](includes/prod_short.md)].
 
   Questo articolo descrive come definire, utilizzare e applicare le autorizzazioni in [!INCLUDE [prod_short](includes/prod_short.md)] per modificare la configurazione predefinita.  
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
+Per ulteriori informazioni, vedi [Accesso dell'amministratore con delega a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] online include gruppi di utenti predefiniti che vengono assegnati automaticamente agli utenti in base alla loro licenza. Puoi modificare la configurazione predefinita modificando o aggiungendo gruppi di utenti, set di autorizzazioni e autorizzazioni. La tabella seguente illustra gli scenari chiave per la modifica delle autorizzazioni predefinite.  
 
@@ -54,7 +58,7 @@ I gruppi di utenti ti aiutano a gestire i set di autorizzazioni all'interno dell
 
 Si inizia creando un gruppo di utenti. Quindi assegnare i set di autorizzazioni al gruppo per definire a quale oggetto possono accedere gli utenti del gruppo. Quando si aggiunge l'utente al gruppo, i set di autorizzazioni definiti per il gruppo verranno applicati all'utente.
 
-I set di autorizzazioni assegnati a un utente tramite un gruppo di utenti rimangono sincronizzati in modo tale che una modifica alle autorizzazioni del gruppo di utenti venga automaticamente propagata all'utente. Se si rimuove un utente da un gruppo di utenti, le autorizzazioni interessate vengono automaticamente revocate.
+I set di autorizzazioni assegnati a un utente tramite un gruppo di utenti rimangono sincronizzati. Una modifica alle autorizzazioni del gruppo di utenti viene propagata automaticamente agli utenti. Se si rimuove un utente da un gruppo di utenti, le autorizzazioni interessate vengono automaticamente revocate.
 
 ### <a name="to-add-users-to-a-user-group"></a>Per aggiungere utenti a un gruppo di utenti
 
@@ -94,16 +98,16 @@ La seguente procedura illustra come assegnare i set di autorizzazioni a un grupp
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Utenti** selezionare l'utente pertinente quindi scegliere l'azione **Set di autorizzazioni per gruppo di utenti**.
-3. Nella pagina **Set di autorizzazioni per gruppo di utenti** selezionare la casella di controllo **[nome gruppo di utenti]** in una riga per il set di autorizzazioni pertinente per assegnare il set al gruppo di utenti.
+3. Nella pagina **Set di autorizzazioni per gruppo di utenti** selezionare il campo **[nome gruppo di utenti]** in una riga per il set di autorizzazioni pertinente per assegnare il set al gruppo di utenti.
 4. Selezionare la casella di controllo **Tutti i gruppi di utenti** per assegnare il set di autorizzazioni a tutti i gruppi di utenti.
 
 È anche possibile assegnare i set di autorizzazioni direttamente a un utente.
 
 ## <a name="to-assign-permission-sets-to-users"></a>Per assegnare set di autorizzazioni agli utenti
 
-Un set di autorizzazioni è una raccolta di autorizzazioni per oggetti di database specifici. A tutti gli utenti devono essere assegnati uno o più set di autorizzazioni prima di poter accedere a [!INCLUDE[prod_short](includes/prod_short.md)]. 
+Un set di autorizzazioni è una raccolta di autorizzazioni per oggetti di database specifici. A tutti gli utenti devono essere assegnati uno o più set di autorizzazioni prima di poter accedere a [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Una soluzione [!INCLUDE[prod_short](includes/prod_short.md)] contiene solitamente una serie di set di autorizzazioni predefiniti che vengono aggiunti da Microsoft o dal proprio provider di soluzioni. È inoltre possibile aggiungere nuovi set di autorizzazioni personalizzati in base alle esigenze della propria organizzazione. Per ulteriori informazioni, vedi la sezione [Per creare o modificare un set di autorizzazioni](#to-create-or-modify-a-permission-set).
+Una soluzione [!INCLUDE[prod_short](includes/prod_short.md)] contiene solitamente un set di autorizzazioni predefiniti che vengono aggiunti da Microsoft o dal proprio provider di soluzioni. È inoltre possibile aggiungere nuovi set di autorizzazioni personalizzati in base alle esigenze della propria organizzazione. Per ulteriori informazioni, vedi la sezione [Per creare o modificare un set di autorizzazioni](#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Se non si desidera limitare l'accesso di un utente più di quanto già definito dalla licenza, è possibile assegnare all'utente un set di autorizzazioni speciale chiamato SUPER. Questo set di autorizzazioni garantisce che l'utente possa accedere a tutti gli oggetti specificati nella licenza.
@@ -186,26 +190,29 @@ I set di autorizzazioni funzionano come contenitori di autorizzazioni, in modo d
 
 1. Nella pagina **Set di autorizzazioni**, selezionare la riga per un set di autorizzazioni che si desidera copiare, quindi selezionare l'azione **Copia set di autorizzazioni**.
 2. Nella pagina **Copia set di autorizzazioni**, specificare il nome del nuovo set di autorizzazioni e quindi scegliere il pulsante **OK**.
-3. Selezionare la casella di controllo **Notifica in caso di set di autorizzazioni modificato** se si desidera mantenere un collegamento tra il set di autorizzazioni originale e quello copiato. Il collegamento viene quindi utilizzato per notificare all'utente se il nome o il contenuto del set di autorizzazioni originale cambia in una versione futura a cui la soluzione viene aggiornata successivamente..
+3. Selezionare la casella di controllo **Notifica in caso di set di autorizzazioni modificato** se si desidera mantenere un collegamento tra il set di autorizzazioni originale e quello copiato. In questo modo, riceverai una notifica se il nome o il contenuto del set di autorizzazioni originale cambia in una versione futura.
 
-Il nuovo set di autorizzazioni, contenente tutte le autorizzazioni del set di autorizzazioni copiate, viene aggiunto come nuova riga nella pagina **Set di autorizzazioni**. È ora possibile modificare le autorizzazioni nel nuovo set di autorizzazioni. Si noti che le linee sono ordinate alfabeticamente all'interno di ciascun tipo.
+Il nuovo set di autorizzazioni, contenente tutte le autorizzazioni del set di autorizzazioni copiate, viene aggiunto come nuova riga nella pagina **Set di autorizzazioni**. È ora possibile modificare le autorizzazioni nel nuovo set di autorizzazioni. 
+
+> [!TIP]
+> Le linee sono ordinate alfabeticamente all'interno di ciascun tipo.
 
 ### <a name="to-export-and-import-a-permission-set"></a>Per esportare e importare un set di autorizzazioni
 
 Per impostare rapidamente le autorizzazioni, è possibile importare set di autorizzazioni che sono state esportate da un altro tenant [!INCLUDE[prod_short](includes/prod_short.md)].
 
-In ambienti multitenant, un set di autorizzazioni verrà importato in un tenant specifico, ossia l'ambito dell'importazione è "Tenant".
+In ambienti multitenant, un set di autorizzazioni verrà importato in un tenant specifico. In altre parole, l'ambito dell'importazione è *Tenant*.
 
 1. Nella pagina **Set di autorizzazioni** nel tenant 1, selezionare la riga o le tighe per i set di autorizzazioni, quindi selezionare l'azione **Esporta set di autorizzazioni**.
 
-    Un file XML viene creato nella cartella di download sul computer. Per impostazione predefinita, si chiama "Export Permission Sets.xml"
+    Un file XML viene creato nella cartella di download sul computer. Per impostazione predefinita, il nome è *"Export Permission Sets.xml*
 
 2. Nella pagina **Set di autorizzazioni** nel tenant 2, selezionare l'azione **Importa set di autorizzazioni**.
 3. Nella finestra di dialogo **Importa set di autorizzazioni**, valutare se si desidera unire i set di autorizzazioni esistenti con eventuali nuovi set di autorizzazioni nel file XML.
 
-    Se si seleziona la casella di controllo **Aggiorna autorizzazioni esistenti**, i set di autorizzazioni esistenti con lo stesso nome di quelli esistenti nel file XML verranno uniti ai set di autorizzazioni importati.
+    Se si seleziona la casella di controllo **Aggiorna autorizzazioni esistenti**, i set di autorizzazioni esistenti con lo stesso nome nel file XML verranno uniti ai set di autorizzazioni importati.
 
-    Se non si seleziona la casella di controllo **Aggiorna autorizzazioni esistenti**, i set di autorizzazioni esistenti con lo stesso nome di quelli esistenti nel file XML verranno ignorati durante l'importazione. In tal caso, si riceve una notifica relativa ai set di autorizzazioni ignorati.
+    Se non si seleziona la casella di controllo **Aggiorna autorizzazioni esistenti**, i set di autorizzazioni con lo stesso nome di quelli esistenti nel file XML verranno ignorati durante l'importazione. In tal caso, si riceve una notifica relativa ai set di autorizzazioni ignorati.
 
 4. Dalla finestra di dialogo **Importa**, trovare e selezionare il file XML da importare, quindi scegliere l'azione **Apri**.
 
@@ -227,7 +234,7 @@ In ognuno dei campi dei cinque tipi di accesso (**Autorizzazione di lettura**, *
 |------|-----------|-------|
 |**Sì**|L'utente può eseguire l'azione per l'oggetto in questione.|Il più alto|
 |**Indiretto**|L'utente può eseguire l'azione per l'oggetto in questione ma solo attraverso un altro oggetto correlato a cui l'utente ha accesso completo. Per ulteriori informazioni sulle autorizzazioni indirette, vedere [Proprietà delle autorizzazioni](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) nella Guida per sviluppatori e professionisti IT|Il secondo più alto|
-|**Vuoto**|L'utente non può eseguire l'azione per l'oggetto in questione.|Più basso|
+|**Vuoto**|L'utente può eseguire l'azione per l'oggetto in questione.|Più basso|
 
 > [!IMPORTANT]
 > Usa cautela quando assegni **Permesso inserimento** o **Permesso modifica** alla tabella **9001 Membro gruppo utenti** o **9003 Set autorizzazioni gruppo utenti** . Qualsiasi utente assegnato al set di permessi potrebbe potenzialmente assegnarsi ad altri gruppi di utenti, che a loro volta potrebbero dare permessi non voluti.
@@ -261,21 +268,25 @@ Tuttavia, per l'utente non è necessario avere accesso completo alla tabella Rig
 
 ## <a name="to-set-up-user-time-constraints"></a>Per impostare i vincoli connessioni utenti
 
-Gli amministratori possono definire i periodi di tempo in cui utenti specificati possono effettuare registrazioni e anche specificare se il sistema registra il periodo di tempo per cui gli utenti si sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Utilizzare i centri di responsabilità](inventory-responsibility-centers.md).
+Gli amministratori possono definire periodi di tempo durante i quali gli utenti specificati possono pubblicare. Gli amministratori possono anche specificare se il sistema registra per quanto tempo gli utenti sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Utilizzare i centri di responsabilità](inventory-responsibility-centers.md).
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup utenti** scegliere l'azione **Nuovo**.
 3. Nel campo **ID utente**, immettere l'ID di un utente o scegliere il campo per visualizzare tutti gli utenti correnti di Windows nel sistema.
 4. Compilare i campi come necessario.
 
-## <a name="viewing-permission-changes-telemetry"></a>Visualizzazione della telemetria sulle modifiche delle autorizzazioni 
+## <a name="viewing-permission-changes-telemetry"></a>Visualizzazione della telemetria sulle modifiche delle autorizzazioni
 
-È possibile configurare [!INCLUDE[prod_short](includes/prod_short.md)] per inviare le modifiche applicate a un'autorizzazione a una risorsa Application Insights in Microsoft Azure. Quindi, utilizzando Monitoraggio di Azure, si creano report e si configurano avvisi sui dati raccolti. Per ulteriori informazioni, vedere i seguenti articoli nella Guida per sviluppatori e professionisti IT di [!INCLUDE[prod_short](includes/prod_short.md)].
+È possibile configurare [!INCLUDE[prod_short](includes/prod_short.md)] per inviare le modifiche applicate a un'autorizzazione a una risorsa Application Insights in Microsoft Azure. Quindi, utilizzando Monitoraggio di Azure, si creano report e si configurano avvisi sui dati raccolti. Per ulteriori informazioni, vedere i seguenti articoli nella Guida per sviluppatori e amministratori di [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [Monitoraggio e analisi della telemetria - Abilitazione di Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analizzare la telemetria di monitoraggio dei campi](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="delegated-admin-users"></a>Utenti amministratori con delega
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+
+## <a name="see-also"></a>Vedi anche
 
 [Creare utenti in base alle licenze](ui-how-users-permissions.md)  
 [Gestire profili](admin-users-profiles-roles.md)  

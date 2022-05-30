@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67536b129986343d67c2bc52cc3db8450e177d67
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520155"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729843"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrare i prezzi di vendita e gli sconti speciali
 > [!NOTE]
@@ -95,7 +95,14 @@ Quando abiliti l'aggiornamento della funzionalità **Nuova esperienza prezzo di 
 > [!NOTE]
 > Se i prezzi sono impostati solo su schede articolo o risorsa, i listini prezzi predefiniti non verranno compilati con tali prezzi durante l'aggiornamento dei dati della funzionalità. Tuttavia, puoi aprire uno qualsiasi dei listini prezzi predefiniti o la pagina Foglio di lavoro prezzi e utilizzare l'azione **Suggerisci righe** per aggiungere i prezzi impostati sulle schede articolo o risorsa. 
 
-* Per utilizzare i listini prezzi di vendita, disattivala. I prezzi esistenti verranno convertiti in un nuovo listino prezzi per ogni combinazione di cliente, gruppo di clienti o campagna e le date di inizio e fine e le valute. Se hai molte combinazioni, avrai molti listini prezzi.
+* Per utilizzare i listini prezzi di vendita, disattivala. I prezzi esistenti vengono convertiti in un nuovo listino prezzi predefinito per ciascuna combinazione dei seguenti elementi: 
+
+* Cliente
+* Gruppo di clienti o campagna
+* Date di inizio e fine
+* Valute 
+
+Se hai molte combinazioni, avrai molti listini prezzi.
 
 Se hai già abilitato la Nuova esperienza prezzi, puoi creare listini prezzi predefiniti manualmente o specificare un listino prezzi esistente come predefinito. Per impostare un listino prezzi esistente come predefinito, attiva l'interruttore **Consenti aggiornamento impostazioni predefinite** per il listino prezzi. Quindi nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** o **Setup commesse** imposta il listino prezzi come predefinito.
 
@@ -129,13 +136,14 @@ Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un s
    > Il processo batch fornisce soltanto suggerimenti e non consente di implementare le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella pagina **Prezzo vendita**, scegliere l'azione **Implementare variazione prezzi** nella pagina **Prospetto prezzi vendita**.
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
+Puoi specificare se il nuovo listino prezzi utilizzerà le impostazioni dell'intestazione del listino che stai copiando o le impostazioni del nuovo listino in cui stai copiando. Per utilizzare le impostazioni del listino in cui stai copiando i prezzi, attiva l'opzione **Utilizzai valori predefiniti dalla destinazione**.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Listini prezzi di vendita** e quindi scegli il collegamento correlato. 
 2. Scegliere il listino prezzi da copiare e quindi scegliere **Copia righe**.
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > Non possono esistere due righe con le stesse impostazioni, ma prezzi differenti. In tal caso, verrà visualizzato un messaggio quando si attiva un listino prezzi. È possibile scegliere il prezzo da utilizzare aprendo il listino ed eliminando il prezzo errato.  
+   > Non possono esistere due articoli con le stesse impostazioni, ma prezzi differenti. In tal caso, verrà visualizzato un messaggio quando si attiva il listino prezzi. È possibile scegliere il prezzo da utilizzare aprendo il listino ed eliminando il prezzo errato.  
   
 ---
 
@@ -146,8 +154,8 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 Puoi compilare la pagina Prospetto prezzi vendita per aggiornare in blocco i prezzi degli articoli, come aumentare tutti i prezzi di una determinata percentuale usando il seguente processo:
 
-* **Suggerisci prezzo vendita in prosp.** suggerisce modifiche applicando un fattore di rettifica ai prezzi di vendita esistenti o copiando gli accordi sui prezzi di vendita esistenti in altri clienti, gruppi di prezzi di clienti o campagne di vendita.
-* **Suggerisci prezzo articolo in prosp.** suggerisce modifiche applicando un fattore di rettifica ai prezzi unitari esistenti nelle schede articolo o suggerendo prezzi per nuove combinazioni di valuta, unità di misura e così via. I prezzi unitari degli articoli non vengono modificati da questo processo batch.  
+* **Suggerisci prezzo vendita in prosp.** suggerisce le modifiche in uno dei due modi. Applicando un fattore di rettifica ai prezzi di vendita esistenti o copiando gli accordi sui prezzi di vendita esistenti in altri clienti, gruppi di prezzi di clienti o campagne di vendita.
+* **Suggerisci prezzo articolo in prosp.** suggerisce le modifiche in uno dei due modi. Applicando un fattore di rettifica ai prezzi unitari esistenti nelle schede articolo o suggerendo prezzi per nuove combinazioni di valuta, unità di misura e così via. I prezzi unitari degli articoli non vengono modificati da questo processo batch.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prezzi vendita** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci prezzo articolo in prosp.** .  
@@ -168,7 +176,7 @@ Per aggiornare i prezzi per più articoli, è necessario creare un nuovo listino
 ---
 
 ## <a name="best-price-calculation"></a>Calcolo del prezzo migliore
-Dopo aver registrato i prezzi speciali e gli sconti di riga per le vendite e gli acquisti, [!INCLUDE[d365fin](includes/d365fin_md.md)] assicura che i tuoi profitti siano sempre ottimali. Calcola il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione commessa e articolo.
+Dopo aver registrato i prezzi speciai e gli sconti di riga per vendite e acquisti, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola automaticamente il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione commessa e articolo.
 
 Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che gode dello sconto riga più alto possibile praticabile in una specifica data. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il miglior prezzo quando inserisce il prezzo unitario e la percentuale di sconto riga per gli articoli in nuove righe di documenti e di registrazione.
 

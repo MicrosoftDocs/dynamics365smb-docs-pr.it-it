@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 03/22/2022
 ms.search.form: 1680, 1811, 5076
 ms.author: bholtorf
-ms.openlocfilehash: fc755362a5b29cca9eb8e8e403374e173cff3630
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516137"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729939"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Tenere traccia degli scambi di messaggi e-mail tra venditori e contatti
 Ottieni di più dalle comunicazioni tra i venditori e i clienti facendo diventare gli scambi di e-mail in opportunità fruibili. [!INCLUDE[prod_short](includes/prod_short.md)] può utilizzare Exchange Online per tenere un log dei messaggi in entrata e in uscita. È possibile visualizzare e analizzare i contenuti di ciascun messaggio nella pagina **Movimenti log interazione**.
@@ -67,7 +67,7 @@ Le regole del flusso di posta cercano condizioni specifiche per i messaggi e agi
 
 ---
 
-## <a name="setting-up-prod_short-to-log-email-messages"></a>Impostare [!INCLUDE[prod_short](includes/prod_short.md)] per registrare i messaggi e-mail
+## <a name="set-up-prod_short-to-log-email-messages"></a>Impostare [!INCLUDE[prod_short](includes/prod_short.md)] per registrare i messaggi e-mail
 Questi passaggi sono gli stessi sia per le esperienze attuali che per quelle nuove.
 
 Iniziare la registrazione dei messaggi e-mail con due semplici passaggi:
@@ -89,14 +89,27 @@ Iniziare la registrazione dei messaggi e-mail con due semplici passaggi:
 - Visualizzare il contenuto del messaggio di posta elettronica che è stato scambiato selezionando **Processo** e quindi **Mostra allegati**.
 - Trasforma uno scambio di e-mail in un'opportunità di vendita. Se una voce sembra promettente, è possibile trasformarla in un'opportunità e gestirne i progressi verso una vendita. Per trasformare uno scambio di e-mail in un'opportunità, scegli la voce, quindi **Processo** e poi **Crea opportunità**. Per ulteriori informazioni, vedere [Gestire opportunità di vendita](marketing-manage-sales-opportunities.md).
 
-## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Connessione delle versioni locali a Microsoft Exchange
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Limiti di cassette postali e cartelle in Exchange Online
+Ci sono limiti di cassette postali e cartelle Exchange Online, come i limiti per le dimensioni delle cartelle e il numero di messaggi. Per altre informazioni, vedi [Limiti di Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) e [Limiti per le cartelle pubbliche in Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] archivia i messaggi e-mail registrati in una cartella in Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] archivia anche un collegamento a ciascun messaggio registrato. I collegamenti aprono i messaggi registrati in Exchange Online dalle pagine Movimenti log interazione, Scheda contatto e Scheda venditore in [!INCLUDE[prod_short](includes/prod_short.md)]. Se un messaggio registrato viene spostato in un'altra cartella, il collegamento verrà interrotto. Ad esempio, un messaggio potrebbe essere spostato manualmente o Exchange Online potrebbe avviare automaticamente la suddivisione automatica quando viene raggiunto un limite di archiviazione.
+
+I passaggi seguenti possono aiutarti a evitare di interrompere i collegamenti ai messaggi in Exchange Online.
+
+1. Non spostare i messaggi esistenti in un'altra cartella dopo aver modificato le impostazioni per la configurazione del log delle e-mail. La conservazione dei messaggi esistenti dove si trovano conserverà i collegamenti. I collegamenti ai messaggi nella nuova cartella saranno validi.
+2. Evita di raggiungere i limiti di cassette postali e cartelle. Se stai per raggiungere un limite, procedi nel seguente modo:
+    1. Configura una nuova casella di posta condivisa (nuova esperienza) o una nuova cartella condivisa (esperienza corrente) in Exchange Online.
+    2. Aggiorna le regole del flusso di posta elettronica in Exchange Online.
+    3. Aggiorna di conseguenza la configurazione dei log delle e-mail in Business Central
+
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Connettere le versioni locali a Microsoft Exchange
 
 È possibile connettere [!INCLUDE[prod_short](includes/prod_short.md)] in locale a Exchange in locale o a Exchange Online per il log delle e-mail. Per entrambe le versioni di Exchange, le impostazioni per la connessione sono disponibili nella pagina **Setup marketing**. Per Exchange Online, è anche possibile utilizzare una guida alla al setup assistito.
 
 > [!IMPORTANT]
 > La nuova esperienza non supporta una connessione a Exchange locale. Se devi usare Exchange in locale, non abilitare l'aggiornamento della funzionalità per la nuova esperienza.
 
-## <a name="connecting-to-exchange-on-premises"></a>Connessione a Exchange in locale
+## <a name="connect-to-exchange-on-premises"></a>Connettersi a Exchange in locale
 ## <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)
 Per connettere [!INCLUDE[prod_short](includes/prod_short.md)] in locale a Exchange in locale, nella pagina **Setup marketing**, è possibile utilizzare **Di base** come **Tipo di autenticazione** e quindi immettere le credenziali per l'account utente per Exchange in locale. Quindi attivare l'interruttore **Abilitato** per avviare il log delle e-mail.
 
@@ -105,7 +118,7 @@ La nuova esperienza non supporta le connessioni a Exchange locale.
 
 ---
 
-## <a name="connecting-to-exchange-online"></a>Connessione a Exchange Online
+## <a name="connect-to-exchange-online"></a>Connettersi a Exchange Online
 Per connettersi a Exchange Online è necessario registrare un'applicazione in Azure Active Directory. Fornisci l'ID applicazione, il segreto del key vault e l'URL di reindirizzamento per la registrazione. L'URL di reindirizzamento è preimpostato e dovrebbe funzionare per la maggior parte delle installazioni. Per ulteriori informazioni, vedere [Per registrare un'applicazione in Azure AD per la connessione da Business Central a Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Devi anche usare **OAuth2** come **Tipo di autenticazione**. Devi anche registrare un'applicazione in Azure Active Directory. Fornisci l'ID applicazione, il segreto del key vault e l'URL di reindirizzamento per la registrazione. L'URL di reindirizzamento è precompilato e dovrebbe funzionare per la maggior parte delle installazioni. Per ulteriori informazioni, vedere Per registrare un'applicazione in Azure AD per la connessione da Business Central a Exchange Online di seguito.
@@ -214,6 +227,8 @@ Disabilita la configurazione corrente, cambia l'utente nella pagina **Log delle 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Log delle e-mail**, quindi scegli il collegamento correlato. 
 2. Scegli **Azioni**, quindi **Rinnova token**.
 3. Accedi con l'account Exchange Online utilizzato dal processo programmato per connettersi alla cassetta postale ed elaborare le e-mail.
+
+
 
 ## <a name="see-also"></a>Vedere anche
 [Gestione delle relazioni](marketing-relationship-management.md)

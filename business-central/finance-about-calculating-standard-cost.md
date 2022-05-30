@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149155"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729913"
 ---
 # <a name="about-calculating-standard-cost"></a>Informazioni sul calcolo del costo standard
 Molte aziende di produzione scelgono una base di valutazione del costo standard. Ciò si applica anche alle società che eseguono la produzione leggera, come assemblaggio e kitting. In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard. Questi costi sono congelati fino a quando non si decide di cambiarli. Il costo effettivo per la produzione di un prodotto può essere diverso dai costi standard previsti. Per consentire il controllo della gestione, il costo effettivo viene messo a confronto con il costo standard di un articolo specifico e le differenze, o *scostamenti*, vengono identificate e analizzate.  
@@ -78,7 +78,7 @@ Per calcolare il costo standard della capacità, è necessario stabilire le tari
 Impostare le tariffe per ognuno di questi tipi di tempo per ogni centro di lavoro o per ogni area di produzione in un singolo ciclo.  
 
 > [!NOTE]  
->  Mentre le tariffe per i tempi di lavorazione si applicano a ogni singolo articolo prodotto, quelle per il tempo di setup si applicano a ogni lotto. Il tempo di setup del ciclo per ogni operazione deve pertanto essere diviso in modo proporzionale alla dimensione del lotto. Specificare la dimensione del loro nel campo corrispondente della Scheda dettaglio **Ordinamento** nella scheda articolo.  
+>  Mentre le tariffe per i tempi di lavorazione si applicano a ogni singolo articolo prodotto, quelle per il tempo di setup si applicano a ogni lotto. Il tempo di setup del ciclo per ogni operazione deve pertanto essere diviso in modo proporzionale alla dimensione del lotto. Specificare la dimensione del loro nel campo corrispondente della Scheda dettaglio **Rifornimento** nella pagina **Scheda articolo**.  
 
 Per specificare il tempo di setup nel ciclo per la pianificazione senza includere questa spesa nel calcolo del costo standard, deselezionare il campo **Costi setup incluso** nella pagina **Setup manufacturing**.  
 

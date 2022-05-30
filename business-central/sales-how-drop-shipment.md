@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521782"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729777"
 ---
 # <a name="make-drop-shipments"></a>Effettuare spedizioni dirette
 
@@ -30,7 +30,10 @@ Quando un ordine cliente è contrassegnato per la spedizione di consegna e si cr
 Per preparare una spedizione diretta, si crea un ordine di vendita per un articolo e indicare sulla riga di vendita che la vendita richiede la spedizione diretta.
 
 1. Creare un ordine cliente per un articolo. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
-2. Nella riga ordine di vendita per la spedizione diretta selezionare la casella di controllo **Spedizione diretta**. Utilizzare la funzione **Scegli colonne** se il campo non è visualizzato. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
+2. Nella riga ordine di vendita per la spedizione diretta selezionare la casella di controllo **Spedizione diretta**. 
+
+> [!TIP]
+> Per impostazione predefinita, la casella di controllo Spedizione diretta non è disponibile sulle righe. In caso contrario, puoi aggiungerla personalizzando la sezione di pagina che contiene le righe. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Per creare l'ordine di acquisto per la spedizione diretta
 
@@ -45,13 +48,17 @@ Per preparare una spedizione diretta, indicare nell'ordine di acquisto che l'art
 
 Le informazioni di riga dall'ordine di vendita vengono inserite nelle righe dell'ordine di acquisto.
 
-È possibile istruire il fornitore di spedire gli articoli al cliente, ad esempio spedendo l'ordine di acquisto come PDF. Se il fornitore fornisce un numero di tracciabilità o informazioni simili, è possibile scegliere di registrare tali informazioni in una riga ordine d'acquisto di tipo *Commento*.  
+Ora puoi dire al tuo venditore di spedire gli articoli direttamente al cliente. Ad esempio, potresti inviare loro l'ordine tramite e-mail. 
+
+Se il fornitore fornisce un numero di tracciabilità o informazioni simili, è possibile aggiungere tali informazioni in una riga ordine d'acquisto di tipo *Commento*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Per creare più ordini di acquisto per spedizioni dirette
 
-È inoltre possibile utilizzare la richiesta di approvvigionamento per creare l'ordine di acquisto per il fornitore. Il vantaggio di utilizzare la richiesta di approvvigionamento è che è possibile creare ordini di acquisto per tutte le spedizioni dirette in sospeso, quindi non è necessario crearle singolarmente.
+È inoltre possibile utilizzare la richiesta di approvvigionamento per creare l'ordine di acquisto per il fornitore. 
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Richieste di approvvigionamento**, quindi scegli il collegamento correlato.
+Il vantaggio di utilizzare la richiesta di approvvigionamento è che è possibile creare ordini di acquisto per tutte le spedizioni dirette in sospeso, quindi non è necessario crearle singolarmente. Ciò significa che non dovrai crearne una individualmente.
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") icona, immetti **Richiesta di approvvigionamento**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Spedizioni dirette** e scegliere l'azione **Ottieni ordini vendite**.
 3. Scegliere il pulsante **OK**.
 4. Rivedere le righe dell'ordine di acquisto e nel campo **Nr. fornitore**, selezionare il fornitore che fornisce le merci richieste. 

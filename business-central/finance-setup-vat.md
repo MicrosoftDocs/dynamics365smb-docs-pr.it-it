@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519227"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740313"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Setup dei calcoli e registrazione dei metodi per l'IVA
 
@@ -41,7 +41,7 @@ Si consiglia di utilizzare il setup IVA assistito per impostare l'IVA in [!INCLU
 
 Per avviare la Guida assistita al setup, attenersi a questa procedura:
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Setup assistito**.  
+1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Setup assistito**.  
 2. Scegliere **Imposta l'IVA** e completare i passaggi.
 3. Dopo aver completato il setup assistito, visita la pagina **Setup registrazioni IVA** e verifica se è necessario compilare campi aggiuntivi in base ai requisiti della versione di [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Funzionalità locale in Business Central](about-localization.md)  
 
@@ -59,7 +59,7 @@ Per garantire che le persone inseriscano numeri di partita IVA validi, è possib
 
 Per impostare i numeri di partita VAT, attenersi a questa procedura:
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Paesi/Aree geografiche**.
+1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Paesi/Aree geografiche**.
 2. Specificare il paese e quindi scegliere l'azione **Formati Nr. P. IVA**.
 3. Nel campo **Formati**, specificare il formato immettendo uno o più dei seguenti caratteri:  
 
@@ -216,15 +216,24 @@ Gli importi nei documenti che non sono ancora stati registrati vengono arrotonda
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Impostazione di definizioni di dichiarazione IVA e di nomi delle dichiarazioni IVA](finance-how-setup-vat-statement.md)  
-[Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  
+[Impostare l'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  
 [Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 [Utilizzare lo strumento di modifica dell'aliquota IVA](finance-how-use-vat-rate-change-tool.md)  
 [Verificare i numeri di partita IVA](finance-how-validate-vat-registration-number.md)  
 [Funzionalità locale in Business Central](about-localization.md)  
+[Report IVA norvegese nella versione tedesca](LocalFunctionality/Germany/vat-reporting.md)  
+[IVA belga](LocalFunctionality/Belgium/belgian-vat.md)  
+[IVA italiana](LocalFunctionality/Italy/italian-vat.md)  
+[Impostare le dichiarazioni elettroniche IVA e ICP nella versione olandese](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[Report IVA nella versione spagnola](LocalFunctionality/Spain/vat-reports.md)  
+[Impostare la registrazione fiscale di beni e servizi nella versione australiana](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[IVA nella versione ceca](LocalFunctionality/Czech/finance-vat.md)  
+[Report IVA norvegese nella versione norvegese](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Report imposta su beni e servizi e vendite armonizzate in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

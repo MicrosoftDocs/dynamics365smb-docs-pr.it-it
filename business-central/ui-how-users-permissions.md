@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 03/23/2022
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: 52d8c0fb735bb0667f2219f5ed73e914e236014a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512154"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729803"
 ---
 # <a name="create-users-according-to-licenses"></a>Creare utenti in base alle licenze
 
@@ -28,9 +28,9 @@ Per ulteriori informazioni sui diversi tipi di licenze e sul funzionamento delle
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Gestire utenti e licenze nei tenant online
 
-Nella versione online di [!INCLUDE[prod_short](includes/prod_short.md)], il tuo abbonamento definisce il numero di utenti che sono consentiti. Gli utenti vengono aggiunti al tenant nel Centro per i partner Microsoft, in genere dal partner Microsoft. Per ulteriori informazioni, vedere [Aggiungere un nuovo cliente](/partner-center/add-a-new-customer) e [Creare, sospendere o annullare le sottoscrizioni dei clienti](/partner-center/create-a-new-subscription) nella guida del Centro per i partner Microsoft.
+Il tuo abbonamento a [!INCLUDE[prod_short](includes/prod_short.md)] online definisce il numero di utenti che sono consentiti. Gli utenti vengono aggiunti al tenant nel Centro per i partner Microsoft, in genere dal partner Microsoft. Per ulteriori informazioni, vedere [Amministraziojne di Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-Per definire chi può accedere a [!INCLUDE[prod_short](includes/prod_short.md)], devi assegnare le licenze del prodotto agli utenti in base al lavoro che svolgono in [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile assegnare le licenze in diversi modi:
+Assegna le licenze del prodotto agli utenti in base al lavoro che ciascun utente eseguirà [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile assegnare le licenze in diversi modi:
 
 - L'amministratore di Microsoft 365 della società può eseguire questa operazione nell'[interfaccia di amministrazione di Microsoft 365](https://admin.microsoft.com). Per ulteriori informazioni, vedere [Aggiungere gli utenti singolarmente o in blocco a Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - Un partner Microsoft può assegnare licenze nell'interfaccia di amministrazione di Microsoft 365 o nel Centro per i partner di Microsoft. Per ulteriori informazioni, vedere [Attività di gestione degli utenti per gli account dei clienti](/partner-center/assign-licenses-to-users) nella Guida del Centro per i partner Microsoft.
@@ -39,10 +39,14 @@ Per ulteriori informazioni, vedere [Amministrazione di Business Central Online](
 
 > [!NOTE]
 > Dopo aver aggiunto gli utenti nell'interfaccia di amministrazione di Microsoft 365, ti consigliamo di aggiornare le informazioni sull'utente in [!INCLUDE[prod_short](includes/prod_short.md)] il prima possibile. Mantenere aggiornate le informazioni sugli utenti è facile e aiuta a garantire che le persone possano sempre accedere. Per altre informazioni vedi [Per aggiungere utenti o aggiornare le informazioni utente e le assegnazioni della licenza in Business Central](#adduser).<br>
-> 
-> L'aggiornamento delle informazioni sull'utente è particolarmente importante se hai personalizzato i set di autorizzazioni per la licenza. Se un nuovo utente tenta di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] prima che tu lo abbia aggiunto, potrebbe non essere in grado di farlo. Per ulteriori informazioni, vedi [Configurare le autorizzazioni in base alle licenze](#licensespermissions). 
-> 
+>
+> L'aggiornamento delle informazioni sull'utente è particolarmente importante se hai personalizzato i set di autorizzazioni per la licenza. Se un nuovo utente tenta di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] prima che tu lo abbia aggiunto, potrebbe non essere in grado di farlo. Per ulteriori informazioni, vedi [Configurare le autorizzazioni in base alle licenze](#licensespermissions).
+>
 > Tuttavia, gli utenti che riscontrano questo problema non vengono effettivamente bloccati. Possono utilizzare l'azione **Torna alla home** o semplicemente accedere di nuovo per risolvere il problema.
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+
+Per ulteriori informazioni, vedi [Accesso dell'amministratore con delega a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 ### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Configurare le autorizzazioni in base alle licenze
 
@@ -73,13 +77,14 @@ Se questa non è la configurazione corretta per un determinato tenant, l'amminis
 > Questa personalizzazione delle autorizzazioni ha effetto solo per i nuovi utenti a cui si assegna la licenza pertinente. Gli utenti esistenti non vengono aggiornati. Ti consigliamo di personalizzare le autorizzazioni prima di iniziare ad assegnare le licenze agli utenti nell'interfaccia di amministrazione di Microsoft 365.
 
 ### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Per aggiungere utenti o aggiornare le informazioni utente e le assegnazioni della licenza in Business Central
-Dopo aver aggiunto utenti o modificato le informazioni utente nell'interfaccia di amministrazione di Microsoft 365, è possibile importare rapidamente le informazioni utente in [!INCLUDE[prod_short](includes/prod_short.md)]. L'importazione include le assegnazioni della licenza. 
+
+Dopo aver aggiunto utenti o modificato le informazioni utente nell'interfaccia di amministrazione di Microsoft 365, è possibile importare rapidamente le informazioni utente in [!INCLUDE[prod_short](includes/prod_short.md)]. L'importazione include le assegnazioni della licenza.  
 
 1. Accedere a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando come account amministratore.
 2. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Utenti**, quindi scegli il collegamento correlato.  
 3. Scegliere **Aggiorna utenti da Microsoft 365**.
 
-Quando si aggiungono nuovi utenti, il passaggio successivo consiste nell'assegnare gruppi di utenti e autorizzazioni. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md). Se stai aggiornando le informazioni utente e l'aggiornamento include una modifica della licenza, gli utenti verranno assegnati al gruppo di utenti appropriato e i relativi set di autorizzazioni verranno aggiornati. Per ulteriori informazioni, vedere [Per gestire le autorizzazioni tramite gruppo di utenti](ui-define-granular-permissions.md).  
+Per i nuovi utenti, il passaggio successivo consiste nell'assegnare gruppi di utenti e autorizzazioni. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md). Se stai aggiornando le informazioni utente e l'aggiornamento include una modifica della licenza, gli utenti verranno assegnati al gruppo di utenti appropriato e i relativi set di autorizzazioni verranno aggiornati. Per ulteriori informazioni, vedere [Per gestire le autorizzazioni tramite gruppo di utenti](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > A tutti gli utenti di un ambiente deve essere assegnata la stessa licenza: Essential o Premium. Per ulteriori informazioni, vedere Guida alle licenze di Microsoft Dynamics 365 Business Central. La guida è disponibile per il download sul sito Web di [Business Central](https://dynamics.microsoft.com/business-central/overview/).
@@ -91,7 +96,7 @@ Per altre informazioni sulla sincronizzazione delle informazioni utente con Micr
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Per rimuovere l'accesso di un utente al sistema
 
-Nelle distribuzioni online, è possibile rimuovere l'accesso di un utente a [!INCLUDE[prod_short](includes/prod_short.md)]. Tutti i riferimenti all'utente vengono mantenuti. Tuttavia, l'utente non può accedere e le sessioni attive per l'utente vengono interrotte.
+Puoi rimuovere l'accesso di un utente a [!INCLUDE[prod_short](includes/prod_short.md)] online. Tutti i riferimenti all'utente vengono mantenuti. Tuttavia, l'utente non può accedere e le sessioni attive per l'utente vengono interrotte.
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Utenti**, quindi scegli il collegamento correlato.
 2. Apri la pagina **Scheda utente** per l'utente pertinente, quindi nel campo **Stato** seleziona **Disabilitato**.
