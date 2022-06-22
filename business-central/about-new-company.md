@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654970"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805230"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Creare nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,11 +32,11 @@ Se si decide di aggiungere un'azienda a [!INCLUDE[prod_short](includes/prod_shor
 La procedura guidata di installazione offre due modelli e un'opzione vuota:
 
 - **Valutazione - Dati di esempio**  
-    Crea una società che è simile alla società di dimostrazione con i dati di esempio e i dati di setup. Questo tipo di società è a tua disposizione senza passare a [un periodo di valutazione di 30 giorni](across-preview.md#add-your-own-data-to-an-empty-trial-company), come fanno gli altri tipi.  
+    Crea una società che è simile alla società di dimostrazione con i dati di esempio e i dati di setup. Questo tipo di società è a tua disposizione senza passare a un periodo di valutazione di 30 giorni, come fanno gli altri tipi.  
 - **Produzione - Solo dati setup**  
-    Crea una società che è simile a **La mia società** con i dati di setup ma senza i dati di esempio. Puoi utilizzare questa società per [un periodo di valutazione di 30 giorni](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Crea una società che è simile a **La mia società** con i dati di setup ma senza i dati di esempio. Puoi utilizzare questa società per un periodo di valutazione di 30 giorni.  
 - **Crea nuovo - Senza dati**  
-    Crea una società vuota senza dati di setup. Puoi utilizzare questa società per [un periodo di valutazione di 30 giorni](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Crea una società vuota senza dati di setup. Puoi utilizzare questa società per un periodo di valutazione di 30 giorni.  
 
 Se si desidera iniziare in modo semplice con una società nuova, scegliere **Produzione - Solo dati setup** e quindi importare i dati della propria azienda, ad esempio i clienti, gli articoli e i fornitori. Scegli il modello **Nuovo** se vuoi impostare tutto da zero. È possibile in tal caso utilizzare la guida al setup assistito **Setup società** per istruzioni su come iniziare con i dati di setup di base.  
 
@@ -44,6 +44,8 @@ Se si desidera iniziare in modo semplice con una società nuova, scegliere **Pro
 > La creazione di una nuova società richiede alcuni minuti prima che sia possibile accedervi in [!INCLUDE[prod_short](includes/prod_short.md)]. Lo stato del setup nella pagina **Società** mostra quando la nuova società è pronta. È quindi possibile passare alla nuova società utilizzando **Impostazioni personali**.  
 
 Nella versione di valutazione di 30 giorni è possibile creare un numero qualsiasi di nuove società, ma saranno disponibili solo nel periodo di valutazione. Per altre informazioni, contattare il partner [!INCLUDE[prod_short](includes/prod_short.md)]. Vedi anche l'articolo [Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central](trial-faq.md).  
+
+L'amministratore può ottenere ulteriori informazioni su versioni di valutazione e sottoscrizioni [qui](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ## <a name="copy-a-company"></a>Copiare una società
 
@@ -84,7 +86,6 @@ L'app Contoso Coffee fornisce dati dimostrativi per aiutarti a esplorare le funz
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
-[Versioni di valutazione e sottoscrizioni](across-preview.md)  
 [Informazioni sull'infrastruttura di Business Central Online (solo in inglese)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

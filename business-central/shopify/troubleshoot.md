@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768162"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808867"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Risoluzione dei problemi di sincronizzazione tra Shopify Business Central
 
@@ -56,9 +56,8 @@ Se [!INCLUDE[prod_short](../includes/prod_short.md)] non è in grado di connette
 
 1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") della ricerca. icona, immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri recuperare il token di accesso per l'apertura della pagina **Scheda del punto vendita Shopify**.
-3. Nel campo **Codice** immetti il primo codice.  
-4. Scegli l'azione **Richiedi accesso**.
-5. Se richiesto, accedi al tuo account Shopify.
+3. Scegli l'azione **Richiedi accesso**.
+4. Se richiesto, accedi al tuo account Shopify.
 
 ## <a name="see-also"></a>Vedi anche
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 814c796dae212b2b5b055a0f96b6bb35b6510628
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8dd2f7f0d8fe4fb2c770498d4d015dbe7cd4a6c1
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518567"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950111"
 ---
 # <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 
@@ -33,6 +33,7 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Preparare i report di transazioni IVA](how-to-prepare-for-vat-transactions-reports.md) **Disponibile ora**
     * [Stampare e ristampare i libri giornale e i registri IVA](how-to-print-and-reprint-g-l-books-and-vat-registers.md) **Disponibile ora**
     * [Stampa di report Intrastat per l'Italia](how-to-print-intrastat-reports-for-italy.md) **Disponibile ora**
+    * Intrastat per i servizi: **secondo ciclo di rilascio del 2022**
     * [Stampa report Ritenuta](how-to-print-withholding-tax-reports.md) **Disponibile ora**
 
 * Attività bancarie e pagamenti

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147036"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799773"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -30,16 +30,18 @@ Questa sezione descrive i requisiti minimi per il funzionamento dell'app [!INCLU
 
 - Licenze richieste
 
-    Questa tabella offre una panoramica delle licenze necessarie per il funzionamento dell'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams.
+    L'app [!INCLUDE[prod_short](includes/prod_short.md)] richiede una licenza Teams tramite un abbonamento Microsoft 365 Business o Enterprise. Gli abbonamenti a Teams indipendenti come Microsoft Teams (gratuito) o Microsoft Teams Essentials non sono supportati.
 
-    |Quale|Licenza Teams|Licenza di [!INCLUDE [prod_short](includes/prod_short.md)]|
-    |----|---|---|
-    |Ricerca di contatti di [!INCLUDE [prod_short](includes/prod_short.md)].|![segno di spunta.](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
-    |Incollare un collegamento a un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione e inviarla come scheda.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
-    |Condividi un link da una pagina in [!INCLUDE [prod_short](includes/prod_short.md)] alla conversazione di Teams.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
-    |Visualizzare una scheda di un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione.|![segno di spunta](media/check.png "selezionato")||
-    |Visualizzare altri dettagli di una scheda per un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
-    |Aprire un link di pagina in [!INCLUDE [prod_short](includes/prod_short.md)] da una conversazione.|![segno di spunta](media/check.png "selezionato")|![segno di spunta](media/check.png "selezionato")|
+    La maggior parte delle funzionalità dell'app [!INCLUDE[prod_short](includes/prod_short.md)] per Teams richiede anche una licenza [!INCLUDE [prod_short](includes/prod_short.md)], come mostrato nella tabella seguente.
+
+    |Quale|Licenza di [!INCLUDE [prod_short](includes/prod_short.md)]|
+    |----|---|
+    |Ricerca di contatti di [!INCLUDE [prod_short](includes/prod_short.md)].|![segno di spunta](media/check.png "selezionato")|
+    |Incollare un collegamento a un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione e inviarla come scheda.|![segno di spunta](media/check.png "selezionato")|
+    |Condividi un link da una pagina in [!INCLUDE [prod_short](includes/prod_short.md)] alla conversazione di Teams.|![segno di spunta](media/check.png "selezionato")|
+    |Visualizzare una scheda di un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione.||
+    |Visualizzare altri dettagli di una scheda per un record [!INCLUDE [prod_short](includes/prod_short.md)] in una conversazione.|![segno di spunta](media/check.png "selezionato")|
+    |Aprire un link di pagina in [!INCLUDE [prod_short](includes/prod_short.md)] da una conversazione.|![segno di spunta](media/check.png "selezionato")|
 
 - Consentire le anteprime URL
 
@@ -134,7 +136,7 @@ Poiché i dati delle schede in Teams sono una copia dei dati in [!INCLUDE [prod_
 [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
 [Domande frequenti su Teams](teams-faq.md)  
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  
-[Sviluppo per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Sviluppare per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

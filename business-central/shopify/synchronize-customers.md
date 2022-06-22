@@ -1,18 +1,18 @@
 ---
 title: Sincronizzare clienti
 description: Importare cliente da o esportarli in Shopify
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768161"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808864"
 ---
 # <a name="synchronize-customers"></a>Sincronizzare clienti
 
@@ -25,8 +25,8 @@ Quando un ordine viene importato da Shopify, le informazioni sul cliente sono es
 
 La funzione *Importa ordine da Shopify* cerca di selezionare il cliente nel seguente ordine:
 
-1. Se **Nr. cliente predefinito** è definito nel **Modello cliente Shopify** per il paese corrispondente, **Nr. cliente predefinito** viene utilizzato indipendentemente dalle impostazioni in **Importazione cliente da Shopify** e **Tipo di mapping cliente**.
-2. Se **Importazione cliente da Shopify** e **Nr. cliente predefinito** è definito, **Nr. cliente predefinito** viene utilizzato.
+1. Se **Nr. cliente predefinito** è definito nel **Modello cliente Shopify** per il paese corrispondente, **Nr. cliente predefinito** viene utilizzato indipendentemente dalle impostazioni in **Importazione cliente da Shopify** e **Tipo di mapping cliente**. Per ulteriori informazioni, vedi [Modello cliente per paese](synchronize-customers.md#customer-template-per-country).
+2. Se **Importazione cliente da Shopify** è impostato su *Nessuno* e **Nr. cliente predefinito** è definito nella **Scheda punto vendita Shopify**, il **Nr. cliente predefinito** viene utilizzato.
 
 I prossimi passaggi dipendono da **Tipo di mapping cliente**.
 
@@ -76,7 +76,7 @@ I clienti esistenti possono essere esportati in Shopify in blocco. Di conseguenz
 
 ### <a name="populate-customer-information-in-shopify"></a>Inserisci le informazioni sui clienti in Shopify
 
-Un cliente in Shopify ha nome, cognome, email e/o numero di telefono. Puoi compilare il nome e il cognome in base ai dati della scheda cliente [!INCLUDE[prod_short](../includes/prod_short.md)].
+Un cliente in Shopify ha nome, cognome, email e/o numero di telefono. Puoi compilare il nome e il cognome dalla scheda cliente in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Priorità|Campo in scheda cliente|Descrizione|
 |------|------|-----------|
@@ -95,11 +95,13 @@ Per gli indirizzi in cui viene utilizzato il paese/provincia, seleziona *Codice*
 
 ## <a name="sync-customers"></a>Sincronizzare clienti
 
-1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. icona, immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
+1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") della ricerca. icona, immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri sincronizzare i clienti per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Scegliere l'azione **Sincronizza clienti**.
 
 In alternativa, puoi utilizzare l'azione **Avvia sincronizzazione clienti** sulla finestra **Clienti Shopify** o cerca il processo batch **Sincronizzare clienti**.
+
+È possibile pianificare l'attività da eseguire in modo automatizzato. Per ulteriori informazioni, vedi [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Vedi anche
 

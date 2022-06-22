@@ -7,27 +7,27 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512454"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950201"
 ---
 # <a name="report-selection-in-business-central"></a>Selezione report in Business Central
 
-È possibile impostare report predefiniti che saranno utilizzati diversi documenti acquisto e vendite (ordini, offerte, fatture, note di credito e così via). Ad esempio, se si dispone di un layout specifico per le fatture vendita, è possibile specificare tale report nella pagina **Selezioni report - Vendite** di modo che venga utilizzato per inviare o stampare fatture vendita.  
+Puoi impostare report predefiniti da utilizzare per stampare documenti per vendite e acquisti, come ordini, offerte e fatture. Ad esempio, se si dispone di un layout specifico per le fatture vendita, è possibile specificare tale report nella pagina **Selezioni report - Vendite** di modo che venga utilizzato per inviare o stampare fatture vendita.  
 
-Le pagine **Selezioni report** specificano quale report verrà stampato nelle diverse situazioni. [!INCLUDE [prod_short](includes/prod_short.md)] include configurazioni predefinite, ma ovviamente puoi modificare queste impostazioni predefinite. È inoltre possibile aggiungere report alle pagine **Selezione report**, ad esempio per stampare più di un report per tipo di documento.  
+Le pagine **Selezioni report** specificano quale report verrà stampato nelle diverse situazioni. [!INCLUDE [prod_short](includes/prod_short.md)] fornisce le configurazioni predefinite, ma è possibile modificarle se necessario. È inoltre possibile aggiungere report alle pagine **Selezione report**, ad esempio per stampare più di un report per tipo di documento.  
 
 ## <a name="available-report-selections"></a>Selezioni report disponibili
 
-[!INCLUDE [prod_short](includes/prod_short.md)] include pagine **Selezione report** differenti per aree diverse. Le tabelle seguenti descrivono dove è possibile trovare informazioni sulle diverse pagine.  
+[!INCLUDE [prod_short](includes/prod_short.md)] include pagine **Selezione report** differenti per aree diverse. La tabella seguente descrive dove è possibile trovare informazioni sulle diverse pagine.  
 
 |Area o attività  |Ulteriori informazioni|
 |--------------|----------|
 |Esempio di funzionamento della selezione report (vendite)|[Selezione report per documenti di vendita](#example-report-selection-for-sales-documents)|
-|Layout predefinito per e-mail con documenti vendita e acquisto  |[Impostare testi e layout e-mail riutilizzabili per documenti vendita e acquisto](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
+|Layout predefinito per e-mail con documenti vendita e acquisto  |[Impostare testi e layout e-mail riutilizzabili per documenti vendita e acquisto](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Definire layout di assegni     |[Selezionare un layout degli assegni](finance-how-define-check-layouts.md) |
 |Definire report per report IVA (Germania)|[Impostare report per l'IVA e l'Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
@@ -51,19 +51,19 @@ La pagina **Selezione report - Vendite** definisce i report predefiniti da utili
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Alcuni tipi di documento possono essere inviati come allegati di posta elettronica e altri no. Ogni pagina **Selezione report** mostra altri campi se il tipo supporta la posta elettronica per impostazione predefinita.  
+Alcuni tipi di documento possono essere inviati come allegati di posta elettronica e altri no. Se un tipo di documento può essere inviato tramite e-mail, la pagina **Selezione report** conterrà campi aggiuntivi.  
 
 Ad esempio, nelle pagine **Selezione report - Vendite** e **Selezione report - Acquisto**, i seguenti campi consentono di configurare la posta elettronica:
 
 |Nome campo |Descrizione  |
 |-----------|-------------|
-|**Utilizza per corpo e-mail**| Specifica le informazioni riepilogative, come il numero di fattura, la data di scadenza e il collegamento del servizio di pagamento, che verranno aggiunte al testo del messaggio e-mail inviato.        |
-|**Utilizza per allegato e-mail**| Specifica che il documento correlato verrà allegato al messaggio di posta elettronica.|
-|**Descrizione layout corpo e-mail**|Specifica il layout del corpo del messaggio di posta elettronica utilizzato, in genere un layout di report personalizzato. |
+|**Utilizza per corpo e-mail**| Inserisci le informazioni di riepilogo, come il numero della fattura, la data di scadenza e il collegamento al servizio di pagamento, in un'e-mail.        |
+|**Utilizza per allegato e-mail**| Allega il relativo documento all'e-mail.|
+|**Descrizione layout corpo e-mail**|Specifica il layout del corpo dell'e-mail da utilizzare. In genere, il layout è un layout di report personalizzato. |
 
 ## <a name="see-also"></a>Vedere anche
 
-[Impostare testi e layout e-mail riutilizzabili per documenti vendita e acquisto](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
+[Impostare testi e-mail riutilizzabili e layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Selezionare un layout degli assegni](finance-how-define-check-layouts.md)  
 [Impostare report per l'IVA e l'Intrastat (Germania)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  

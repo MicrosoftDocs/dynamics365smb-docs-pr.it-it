@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655750"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799440"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Individuare pagine e informazioni con la funzionalità delle informazioni  
 In questo argomento viene descritto come la funzionalità delle informazioni può consentire di accedere rapidamente ad azioni, pagine o report, trovare informazioni su come completare una specifica attività e scoprire ulteriori app e servizi di consulenza per  [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -50,11 +50,13 @@ Le pagine e i task elencati dipendono dall'interfaccia utente selezionata per la
 ### <a name="finding-a-report-or-archived-information"></a>Individuare un report o informazioni archiviate
 La sezione **Vai a Report e analisi** offre accesso agli strumenti di reporting. Ad esempio, è possibile aprire il report **Conto patrimoniale** dall'elenco o accedere ai documenti archiviati e altre informazioni.  
 
-### <a name="finding-information-in-the-help"></a>Individuare informazioni nella Guida
-In **Documentazione** sono disponibili articoli dalla documentazione di [!INCLUDE[prod_short](includes/prod_short.md)] che descrivono concetti e forniscono una guida dettagliata per completare le attività nell'applicazione.    
+<!-- removed in v20 because of Help pane
+### Finding Information in the Help
+Under **Documentation** you will see articles from the [!INCLUDE[prod_short](includes/prod_short.md)] documentation that describe concepts and provide step-by-step guidance for completing tasks in the application.    
 
 > [!NOTE]  
-> La documentazione per le estensioni di terze parti non è inclusa nei risultati.
+> Documentation for third-party extensions is not included in the results.
+-->
 
 ### <a name="getting-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Ottenere ulteriori funzionalità trovando un'app in Microsoft AppSource
 La nostra community di partner sviluppa app che aggiungono funzionalità a [!INCLUDE[prod_short](includes/prod_short.md)]. La sezione **Ottieni da Microsoft AppSource** elenca app per [!INCLUDE[prod_short](includes/prod_short.md)] che sono disponibili in Microsoft AppSource e relative alla parola chiave cercata.

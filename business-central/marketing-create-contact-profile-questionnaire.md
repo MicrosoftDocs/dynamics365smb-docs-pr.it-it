@@ -7,39 +7,71 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
+ms.search.form: 5109, 5110
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 05/20/2022
+ms.openlocfilehash: 135ca390dbf00e46deefbe6e195acfbcf11b959c
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140867"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799666"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utilizzare i questionari profilo per classificare i contatti business
-È possibile impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti. In ogni questionario, è possibile impostare le diverse domande da porre ai contatti.  
+
+Puoi assegnare valutazioni ai potenziali clienti in modo da identificare quelli ideali e rivolgere loro la campagna di vendita. È possibile impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti. In ogni questionario, è possibile impostare le diverse domande da porre ai contatti. In questo modo, puoi raggruppare i contatti in modo che le tue campagne abbiano maggiori probabilità di rivolgersi alle persone giuste in base ai criteri che definisci con i questionari.  
+
+Con i questionari corretti, puoi valutare i potenziali clienti e raggrupparli in categorie. È possibile utilizzare le domande e risposte esistenti, nonché combinarle con nuove domande e risposte per creare una base di valutazione. A ciascuna risposta nella valutazione è assegnato un valore del punto e, a seconda dell'intervallo impostato per le categorie, indicato dai campi *Da valore* e *A valore*, il sistema di valutazione raggrupperà i contatti nelle categorie definite. Ad esempio clienti *ABC*, fornitori ad *alta e bassa fedeltà* o potenziali clienti *Platino/Oro/Argento*.  
 
 È inoltre possibile eseguire il questionario per rispondere automaticamente ad alcune domande sulla base dei dati di contatto, cliente o fornitore.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Per aggiungere un questionario profilo
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup questionario**, quindi scegli il collegamento correlato.  
-2.  Scegliere l'azione **Nuovo**.  
-3.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup questionario**, quindi scegli il collegamento correlato.  
+2. Scegliere l'azione **Nuovo**.  
+3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Per aggiungere domande a un questionario profilo
-1.  Scegliere il questionario profilo pertinente e quindi scegliere l'azione **Modifica setup questionario**.  
-2.  Sulla prima riga vuota, nel campo **Tipo**, scegliere **Domanda** e digitare la domanda desiderata nel campo **Descrizione**. Compilare gli altri campi della riga.  
-3.  Sulla prima riga vuota successiva nel campo **Tipo**, scegliere **Risposta** e digitare la risposta desiderata nel campo **Descrizione**.  
-4.  Nel campo **Priorità** selezionare la priorità. Nei campi **Da valore** e **A valore** definire un intervallo di punti. I contatti che ricevono punti entro l'intervallo stabilito otterranno la risposta.  
+
+1. Scegliere il questionario profilo pertinente e quindi scegliere l'azione **Modifica setup questionario**.  
+2. Sulla prima riga vuota, nel campo **Tipo**, scegliere **Domanda** e digitare la domanda desiderata nel campo **Descrizione**. Compilare gli altri campi della riga.  
+
+    Facoltativamente, aggiungi i dettagli alla domanda.
+
+    1. Scegli la riga con la domanda, quindi scegli il menu **Riga** quindi scegli **Dettagli della domanda**.  
+
+    2. Nella Scheda dettaglio **Classificazione** della pagina **Dettagli domande profilo** seleziona il campo **Classificazione auto contatto**.  
+
+    3. Nel campo **Campo class. contatto** seleziona l'opzione **Valutazione**.  
+
+    4. Compila il campo **% min. domande con risposta**. Il valore predefinito è **0**.  
+
+        Questo specifica il numero di domande, espresso in percentuale, a cui occorre rispondere per il calcolo della valutazione.
+
+    5. Nel gruppo **Pagina** della scheda **Azioni** scegli **Punti di risposta**. Immetti i punti che vuoi assegnare a ciascuna risposta elencata nella pagina **Punti di risposta**.
+
+        Se vuoi avere una panoramica dei punti che hai assegnato a ciascuna risposta, scegli l'azione **Punti di risposta**.
+
+    6. Per eseguire un aggiornamento, torna alla pagina **Setup questionario profilo**. Nel menu **Funzioni** della scheda **Azioni** scegli **Aggiornare classificazione**.
+
+    Nella pagina **Setup questionario profilo** il numero di contatti che soddisfa questi criteri viene visualizzato nel campo **Nr. di contatti**, nonché nella **Scheda contatto** di ogni contatto.
+
+3. Sulla prima riga vuota successiva nel campo **Tipo**, scegliere **Risposta** e digitare la risposta desiderata nel campo **Descrizione**.  
+4. Nel campo **Priorità** selezionare la priorità. Nei campi **Da valore** e **A valore** definire un intervallo di punti. I contatti che ricevono punti entro l'intervallo stabilito otterranno la risposta.  
 
 Ripetere tali passaggi per immettere tutte le domande e le risposte nel questionario profilo.
 
-Dopo avere creato un questionario, è necessario creare le valutazioni dei contatti per classificare i contatti. È inoltre possibile impostare le domande classificate automaticamente in base alle informazioni presenti nella scheda contatto.  
+Dopo avere creato un questionario, puoi usarlo per valutare e classificare i contatti. È inoltre possibile impostare le domande classificate automaticamente in base alle informazioni presenti nella scheda contatto.  
 
 > [!NOTE]
-> Se si immette una domanda con risposta automatica, selezionare <STRONG>Riga</STRONG> e quindi <STRONG>Dettagli domanda</STRONG> per immettere i criteri da utilizzare per fornire la risposta automatica.
+> Se immetti una domanda con risposta automatica, seleziona **Riga** e quindi **Dettagli domanda** per immettere i criteri da utilizzare per fornire la risposta automatica.
+
+## <a name="apply-questionnaires-to-contacts"></a>Applicare i questionari ai contatti
+
+Puoi applicare i tuoi questionari ai contatti manualmente. Apri la scheda conatto appropriata, quindi scegli l'azione **Profilo**. Quindi, una volta applicati i questionari che desideri applicare, puoi iniziare a utilizzare le categorie nelle tue campagne.  
 
 ## <a name="the-automatic-classification-of-contacts"></a>Classificazione automatica dei contatti
+
 È possibile classificare automaticamente i contatti in base alle informazioni relative a cliente, fornitore e contatto, mediante una serie di domande sul profilo con risposta automatica nella pagina **Setup questionario profilo**.  
 
 > [!NOTE]

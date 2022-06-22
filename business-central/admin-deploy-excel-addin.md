@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518417"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950093"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Ottieni il Business Central Add-in per Excel
 
@@ -130,8 +130,7 @@ A volte, gli utenti incontrano problemi con l'add-in di Excel. Questa sezione fo
 |I dati non possono essere ripubblicati su [!INCLUDE [prod_short](includes/prod_short.md)].|Testate la connessione aprendo la cartella di lavoro di Excel in un browser. |A volte un'estensione può bloccare il lavoro di pubblicazione. Se la pagina è estesa o personalizzata, rimuovi le estensioni e poi riprova.|
 |Le date sono sbagliate  |Excel potrebbe mostrare orari e date in un formato diverso da [!INCLUDE [prod_short](includes/prod_short.md)]. Questa condizione non li rende sbagliati e i dati in [!INCLUDE [prod_short](includes/prod_short.md)] non saranno in confusione.|         |
 |Per alcune pagine di elenco, la modifica di più righe in Excel causa costantemente degli errori. Questa condizione può verificarsi se le chiamate OData includono FlowFields e campi al di fuori del controllo del ripetitore.|Nella pagina **Servizi Web**, seleziona le caselle di controllo **Escludi i campi di flusso non modificabili** ed **Escludi campi fuori dal ripetitore** per la pagina pubblicata. Selezionando queste caselle di controllo si escludono i FlowFields e i campi non editabili dal calcolo dell'eTag. |Queste caselle di controllo sono nascoste per impostazione predefinita. Per mostrarli nella pagina dei **servizi web**, usa la [personalizzazione](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Gli utenti non possono più accedere al componente aggiuntivo. Quando tentano di accedere, il processo si interrompe senza essere completato.| Questo problema potrebbe essere causato da un aggiornamento che abbiamo apportato al componente aggiuntivo, nel luglio 2022. Per ulteriori informazioni e una correzione, vedi [Modificare la configurazione del componente aggiuntivo di Excel per supportare l'aggiornamento di luglio 2022](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Si applica solo a [!INCLUDE [prod_short](includes/prod_short.md)] locale|
 
 <!--
 ## Deploy the Excel add-in for Business Central online
@@ -168,7 +167,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Utilizzare Business Central](ui-work-product.md)  

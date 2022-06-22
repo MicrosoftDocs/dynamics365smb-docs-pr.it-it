@@ -1,20 +1,20 @@
 ---
 title: Riferimento rapido per tasti di scelta rapida su PC
 description: Un foglio di riferimento facile da stampare contenente i tasti di scelta rapida più utilizzati per utenti di PC.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511599"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799535"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Riferimento rapido per tasti di scelta rapida - Solo PC
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511599"
 |ALT+MAIUSC+N|Chiudere un record appena creato e creane uno nuovo|
 |ALT+O|Aggiungere una nuova nota per il record selezionato|
 |ALT+Q|Aprire la funzionalità delle **informazioni**|
+|CTRL+ALT+Q|Apri **Trova movimenti**|
 |ALT+SU|Aprire la descrizione comando o l'errore di convalida|
 |ALT + freccia GIÙ|Aprire un menu a discesa o lookup|
 |ALT+T|Aprire la pagina **Impostazioni personali**|
@@ -34,9 +35,9 @@ ms.locfileid: "8511599"
 |CTRL+INS|Inserire una nuova riga in un documento|
 |CTRL-CANC|Eliminare la riga in un documento, giornale o foglio di lavoro|
 |Ctrl+Shift+F12|Ingrandire la parte Voci in una pagina del documento|
-|Ctrl+F1|Aprire la Guida per la pagina<br />Spostarsi durante la personalizzazione|
+|Ctrl+F1|Apri il riquadro della guida o un articolo della guida|
 |CTRL+clic|Spostarsi durante la personalizzazione|
-|Shift+F12|Aprire Esplora ruoli, una panoramica delle funzionalità|
+|MAIUSC+F12|Aprire Esplora ruoli, una panoramica delle funzionalità|
 |F5/CTRL+F5|Aggiornare/ricaricare la pagina|
 |TAB/MAIUSC + TAB|Spostare lo stato attivo sull'elemento successivo/precedente|
 |F6/MAIUSC+F6|Spostare il cursore alla Scheda dettaglio/parte successiva.|

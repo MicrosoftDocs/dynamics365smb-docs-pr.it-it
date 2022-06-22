@@ -6,12 +6,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ef648fcd29b15494e78c4b6482edf0996c22b670
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7077e434ba564b62cfb03155a60b16460cea9ee3
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135830"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841951"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Funzionalità nuove e pianificate per Dynamics 365 Business Central
 
@@ -21,9 +21,9 @@ ms.locfileid: "8135830"
 
 Il seguente elenco fornisce informazioni sulle ultime versioni di [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-* [2021 rilascia l'ondata 2](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
-* [Secondo ciclo di rilascio 2021](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
-* [Secondo ciclo di rilascio 2020](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
+* [Primo ciclo di rilascio del 2022](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features)  
+* [Secondo ciclo di rilascio 2021](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
+* [Primo ciclo di rilascio 2021](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
 
 È anche possibile visitare il sito [Funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) e il sito [Roadmap di Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/).  
 

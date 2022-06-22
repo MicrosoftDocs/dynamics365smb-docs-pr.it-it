@@ -1,18 +1,18 @@
 ---
 title: Sincronizzare ed evadere gli ordini di vendita
 description: Configura ed esegui l'importazione e l'elaborazione dell'ordine cliente da Shopify.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768141"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809015"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Sincronizzare ed evadere gli ordini cliente
 
@@ -27,7 +27,7 @@ Un ordine Shopify regolare può avere importi extra in aggiunta, come spese di s
 - **Conto mance**  
 
 Abilita **Creazione automatica degli ordini** per creare automaticamente documenti di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] una volta importato l'ordine Shopify.
-Il documento di vendita in[!INCLUDE[prod_short](../includes/prod_short.md)] contiene un collegamento all'ordine Shopify. Se abiliti **Nr. ordine Shopify nella riga documento**, queste informazioni verranno ripetute nella riga di vendita di tipo *Commento*.
+Il documento di vendita in[!INCLUDE[prod_short](../includes/prod_short.md)] contiene un collegamento all'ordine Shopify. Se selezioni il campo **Nr. ordine Shopify nella riga documento**, queste informazioni verranno ripetute nelle righe di vendita di tipo *Commento*.
 
 Nel campo **Origine area fiscale**, è possibile definire la priorità su come selezionare il codice area fiscale o il gruppo di registrazione attività IVA in base all'indirizzo. Questo passaggio è rilevante per i paesi con imposta sulle vendite, ma può essere utilizzato per i paesi con IVA. Per ulteriori informazioni, vedere [Note sulle imposte](synchronize-orders.md#tax-remarks).
 
@@ -71,16 +71,20 @@ Di seguito viene descritto come importare e aggiornare gli ordini di vendita.
 
 In alternativa, puoi cercare il processo batch **Sincronizza ordini da Shopify**.
 
-Una volta completata l'importazione, puoi esplorare l'ordine Shopify e trovare tutte le informazioni correlate, come transazioni di pagamento, costi di spedizione, adempimenti, livello di rischio. Puoi anche vedere la conferma dell'ordine inviata al cliente scegliendo l'azione **Pagina di stato Shopify**.
+È possibile pianificare l'attività da eseguire in modo automatizzato. Per ulteriori informazioni, vedi [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Esaminare gli ordini importati
+
+Una volta completata l'importazione, puoi esplorare l'ordine Shopify e trovare tutte le informazioni relative. Ad esempio, trova le transazioni di pagamento, i costi di spedizione, il livello di rischio o le evasioni se l'ordine è già stato evaso in Shopify. Puoi anche vedere la conferma di ogni ordine inviata al cliente scegliendo l'azione **Pagina di stato Shopify**.
 
 > [!NOTE]  
 > Puoi accedere alla finestra **Ordini Shopify** direttamente e vedrai gli ordini con lo stato *aperto* di tutti i punti vendita Per rivedere gli ordini completati, è necessario aprire la pagina **Ordini Shopify** dalla specifica finestra **Scheda del punto vendita Shopify**.
 
-## <a name="create-sales-document-in-business-central"></a>Creare documenti di vendita in Business Central
+## <a name="create-sales-documents-in-business-central"></a>Creare documenti di vendita in Business Central
 
-Se l'opzione **Creazione automatica ordini** è abilitata in **Scheda del punto vendita Shopify**, il[!INCLUDE[prod_short](../includes/prod_short.md)] tenta di creare un documento di vendita una volta importato l'ordine. Nel caso in cui il processo riscontri problemi, ad esempio se manca un cliente o un prodotto, dovrai risolvere il problema e provare a creare nuovamente l'ordine cliente.
+Se l'opzione **Creazione automatica ordini** è abilitata in **Scheda del punto vendita Shopify**, il[!INCLUDE[prod_short](../includes/prod_short.md)] tenta di creare un documento di vendita una volta importato l'ordine. Se durante il processo si verificano problemi, ad esempio se manca un cliente o un prodotto, dovrai risolvere il problema. Quindi puoi provare a creare di nuovo l'ordine cliente.
 
-### <a name="to-create-sales-document"></a>Per creare un documento di vendita
+### <a name="to-create-sales-documents"></a>Per creare i documenti di vendita
 
 1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. icona, immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri sincronizzare gli ordini per l'apertura della pagina **Scheda del punto vendita Shopify**.
@@ -88,7 +92,7 @@ Se l'opzione **Creazione automatica ordini** è abilitata in **Scheda del punto 
 4. Seleziona l'ordine per il quale desideri creare un documento di vendita e scegli l'azione **Crea documenti di vendita**.
 5. Selezionare **Sì**.
 
-Se l'ordine Shopify richiede l'evasione, l'**Ordine di vendita** sarà creato per gli ordini Shopify evasi. Ad esempio, per quelli che contengono solo buoni regalo, viene creata la **Fattura di vendita**.
+Se l'ordine Shopify richiede l'evasione, l'**Ordine di vendita** sarà creato. Per gli ordini Shopify completamente evasi, come gli ordini che contengono solo un buono regalo o che sono già gestiti in Shopify, la **Fattura di vendita** viene creata.
 
 Viene ora creato un documento di vendita che può essere gestito utilizzando le funzionalità di [!INCLUDE[prod_short](../includes/prod_short.md)] standard.
 
@@ -102,7 +106,7 @@ Se le tue impostazioni impediscono la creazione automatica di un cliente e non �
 
 ### <a name="tax-remarks"></a>Note sulle imposte
 
-Mentre l'ordine Shopify importato contiene informazioni sulle imposte, queste vengono ricalcolate quando si crea un documento di vendita. Ecco perché è importante che le impostazioni IVA/imposta siano corrette in [!INCLUDE[prod_short](../includes/prod_short.md)].
+Mentre l'ordine Shopify importato contiene informazioni sulle imposte, queste vengono ricalcolate quando si crea un documento di vendita. Il ricalcolo rende importante che le impostazioni IVA/imposta siano corrette in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Tasse/aliquote IVA multiple sui prodotti. Ad esempio, alcune categorie di prodotti sono soggette a aliquote fiscali ridotte. Tali elementi devono esistere in [!INCLUDE[prod_short](../includes/prod_short.md)] ed essere mappati ai prodotto Shopify. In caso contrario, con la creazione automatica degli articoli mancanti, verrà utilizzato il gruppo di registrazione dei prodotti IVA.
 

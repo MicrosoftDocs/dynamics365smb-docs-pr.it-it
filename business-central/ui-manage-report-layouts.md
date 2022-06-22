@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fed722bb5929da100c1c92e63aebb1f10cf53d0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fa615d3e0753b7f1aa9cd602168a393849765079
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520684"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950227"
 ---
 # <a name="report-and-document-layouts-overview"></a>Panoramica dei layout di report e documento
 
@@ -23,6 +23,8 @@ Un layout di report controlla il contenuto e il formato del report, compresi qua
 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], il termine "report" riguarda anche i documenti esterni, quali fatture di vendita e conferme di ordini inviate a clienti come file PDF.
+
+Puoi utilizzare i layout anche per aggiungere contenuti ai messaggi di posta elettronica. Ad esempio, i layout dei report possono far risparmiare tempo e contribuire a garantire la coerenza riutilizzando lo stesso contenuto quando comunichi con i clienti. Per utilizzare i layout di report personalizzati con e-mail, il tipo di file per il layout deve essere Word. Non è possibile utilizzare il tipo di file RDLC. Per ulteriori informazioni, vedi [Impostare testi e layout e-mail riutilizzabili](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="introduction"></a>Introduzione
 

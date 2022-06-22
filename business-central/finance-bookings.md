@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.search.form: 1638, 6702, 6704
-ms.date: 06/16/2021
+ms.date: 05/20/2022
 ms.author: edupont
-ms.openlocfilehash: c0abb4d4389dd3896f1aceedb42d51aca0e61000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4423b51e7cac952bb2abcf41f9e9364d7bc098c0
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139575"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799718"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Fatturazione in blocco per Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Se la società utilizza l'app Bookings in Microsoft 365, è possibile eseguire la fatturazione in blocco per gli appuntamenti. La pagina **Bookings non fatturato** di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una lista delle prenotazioni completate della società. Nella pagina è possibile selezionare rapidamente gli appuntamenti da fatturare e creare fatture in bozza per i servizi forniti.  
+Se la società utilizza l'app Bookings in Microsoft 365, è possibile eseguire la fatturazione in blocco per gli appuntamenti. La pagina **Registrazioni non fatturate** di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una lista delle prenotazioni completate della società. Nella pagina è possibile selezionare rapidamente gli appuntamenti da fatturare e creare fatture in bozza per i servizi forniti.  
 
 ## <a name="connect-to-bookings"></a>Connessione a Bookings
 
@@ -28,7 +28,7 @@ Per collegare [!INCLUDE[prod_short](includes/prod_short.md)] a Bookings, è nece
 Ad esempio, se si desidera sincronizzare i clienti tra Bookings e [!INCLUDE[prod_short](includes/prod_short.md)], è necessario specificare il modello di default da utilizzare per aggiungere i nuovi clienti in [!INCLUDE[prod_short](includes/prod_short.md)] sulla base dei clienti nella società Bookings.  
 
 > [!NOTE]
-> L'app Bookings è progettata per prenotare appuntamenti per singoli clienti anziché società. La sincronizzazione con [!INCLUDE[prod_short](includes/prod_short.md)], pertanto, sincronizzerà solo i contatti del cliente con un tipo di "Persona". È inoltre necessario un l'indirizzo e-mail per il contatto da sincronizzare.  
+> L'app Bookings è progettata per prenotare appuntamenti per singoli clienti anziché società. La sincronizzazione con [!INCLUDE[prod_short](includes/prod_short.md)] pertanto sincronizzerà solo i contatti del cliente con un tipo di *Persona*. È inoltre necessario un l'indirizzo e-mail per il contatto da sincronizzare.  
 
 Analogamente, se si desidera sincronizzare gli articoli in assistenza tra Bookings e [!INCLUDE[prod_short](includes/prod_short.md)], è necessario specificare il modello di default da utilizzare per aggiungere nuovi articoli in assistenza in [!INCLUDE[prod_short](includes/prod_short.md)] sulla base dei servizi nella società Bookings.  
 
@@ -37,9 +37,12 @@ Analogamente, se si desidera sincronizzare gli articoli in assistenza tra Bookin
 
 ## <a name="invoice-appointments"></a>Fattura appuntamenti
 
-Quando è tempo di inviare le fatture per le prenotazioni completate, aprire la pagina **Bookings non fatturato**. In base alla frequenza della sincronizzazione delle informazioni, l'elenco è lungo o breve. È possibile creare fatture per tutte le prenotazioni della lista o per una prenotazione alla volta. È possibile selezionare uno o più movimenti dell'elenco e fatturare solo quelli.  
+Quando è tempo di inviare le fatture per le prenotazioni completate, aprire la pagina **Registrazioni non fatturate**. In base alla frequenza della sincronizzazione delle informazioni, l'elenco è lungo o breve. È possibile creare fatture per tutte le prenotazioni della lista o per una prenotazione alla volta. È possibile selezionare uno o più movimenti dell'elenco e fatturare solo quelli.  
 
 Il supporto per la fatturazione degli appuntamenti da Bookings è più semplice del flusso di lavoro completo per l'utilizzo di offerte di vendita, ordini di vendita e fatture di vendita. Per ulteriori informazioni, vedere [Fatturare le vendite](sales-how-invoice-sales.md). È possibile scegliere di vendere i servizi con [!INCLUDE[prod_short](includes/prod_short.md)] o decidere di utilizzare Bookings, in base alle esigenze aziendali.  
+
+> [!NOTE]
+> A maggio 2022 abbiamo scoperto un problema nell'integrazione con Bookings. Attualmente, la sincronizzazione da Bookings a [!INCLUDE [prod_short](includes/prod_short.md)] richiede di associare manualmente le fatture ai clienti in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>Vedi anche
 

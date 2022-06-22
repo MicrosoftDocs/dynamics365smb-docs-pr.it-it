@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9b2ff8cca6abf8c1f849039deff5a441427bf112
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9abd79500966a946228834166ef554e6a3e70911
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143142"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950067"
 ---
 # <a name="set-up-customer-price-groups"></a>Impostare i gruppi di prezzi dei clienti
   
@@ -61,8 +61,11 @@ Dopo aver impostato i gruppi di prezzi per i clienti, potete inserire i codici d
 3. Nella FastTab **Fatturazione**, nel campo **Gruppo prezzo cliente**, seleziona il codice **Gruppo prezzo cliente** .  
 
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
+[Vendite](sales-manage-sales.md)  
+[Setup Vendite](sales-setup-sales.md)  
 [Record di prezzi speciali e sconti](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Impostazione delle categorie sconto clienti](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

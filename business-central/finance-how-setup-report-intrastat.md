@@ -8,20 +8,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740339"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799747"
 ---
 # <a name="set-up-and-report-intrastat"></a>Impostare e registrare report Intrastat
 
 Tutte le società dell'Unione Europea devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Questa operazione è detta reporting Intrastat. Per compilare i report Intrastat periodici si utilizza la pagina **Registrazioni Intrastat**.  
 
 ## <a name="required-and-optional-setups"></a>Configurazioni obbligatorie e facoltative
+
+> [!IMPORTANT]  
+> Le carte cliente e le carte fornitore includono un campo, **Tipo di partner Intrastat**, che ha gli stessi valori di opzione del campo **Tipo di partner**: *"" (vuoto)*, *Azienda*, e *Persona*. Il campo **Tipo di partner Intrastat** ha sostituito il campo **Tipo di partner** nel report Intrastat. **Tipo di partner** viene utilizzato in SEPA per definire lo schema di addebito diretto SEPA (Core o B2B). **Tipo di partner Intrastat** viene utilizzato solo per i report Intrastat. In questo modo, puoi specificare valori diversi per i due campi, se necessario.
+> 
+> Tuttavia, se il campo **Tipo di partner Intrastat** viene lasciato vuoto, il valore del campo **Tipo di partner** viene utilizzato per i report Intrastat.
+
 Prima di poter usare la registrazione Intrastat per dichiarare le informazioni Intrastat, è necessario impostare varie opzioni:  
 
 * **Setup Intrastat**: la pagina Setup Intrastat consente di abilitare il reporting Intrastat e impostare i relativi valori predefiniti. È possibile specificare se è necessario creare report Intrastat da spedizioni (invii), entrate (arrivi) o entrambi a seconda delle soglie impostate in base alle normative locali. È anche possibile impostare tipi di transazioni di default per documenti normali e di reso, utilizzati per la natura del reporting delle transazioni.
@@ -30,7 +36,7 @@ Prima di poter usare la registrazione Intrastat per dichiarare le informazioni I
 * **Codici natura transazione**: i paesi e le aree hanno codici differenti per la natura delle transazioni Intrastat, ad esempio acquisto o vendita ordinaria, cambio di merce resa e sostituzione di merce non resa. Impostare tutti codici che si applicano al proprio paese. È possibile utilizzare questi codici nella Scheda dettaglio **Commercio estero** nei documenti di vendita e di acquisto e quando si elaborano i resi. 
 
     > [!NOTE]
-    > A partire da gennaio 2022, Intrastat richiede un codice di natura transazione diverso per le spedizioni a privati o imprese senza partita IVA e imprese con partita IVA. Per soddisfare questo requisito, ti consigliamo di rivedere e/o aggiungere nuovi codici di natura della transazione nella pagina **Tipi di transazione** in base ai requisiti nel tuo paese. Dovresti anche rivedere e aggiornare il campo **Tipo di partner** su *Persona* per i clienti privati o aziende senza partita IVA nella relativa pagina **Cliente**. Se non sei sicuro del tipo di partner o del tipo di transazione corretto da utilizzare, ti consigliamo di rivolgerti a un esperto nel tuo paese o nella tua regione. 
+    > A partire da gennaio 2022, Intrastat richiede un codice di natura transazione diverso per le spedizioni a privati o imprese senza partita IVA e imprese con partita IVA. Per soddisfare questo requisito, ti consigliamo di rivedere e/o aggiungere nuovi codici di natura della transazione nella pagina **Tipi di transazione** in base ai requisiti nel tuo paese. Dovresti anche rivedere e aggiornare il campo **Tipo di partner Intrastat** su *Persona* per i clienti privati o aziende senza partita IVA nella relativa pagina **Cliente**. Se non sei sicuro del tipo di partner Intrastat o del tipo di transazione corretto da utilizzare, ti consigliamo di rivolgerti a un esperto nel tuo paese o nella tua regione. 
  
 * **Metodi di trasporto**: sono disponibili sette codici di una cifra per i metodi di trasporto Intrastat. **1** via mare, **2** via ferrovia, **3** su strada, **4** via area, **5** per posta, **7** per installazioni fisse e **9** con proprio mezzo (ad esempio il trasporto con la propria auto). [!INCLUDE[prod_short](includes/prod_short.md)] non richiede tali codici, tuttavia, si consiglia di inserire descrizioni con un significato simile a questi codici.  
 * **Cod. paese destin./proven.**: utilizzare a completamento delle descrizioni della natura delle transazioni.  
@@ -113,7 +119,7 @@ Dopo aver compilato le registrazioni Intrastat, è possibile eseguire l'azione *
 Il processo batch recupererà tutti i movimenti articolo nel periodo statistico indicato e li inserirà come righe nelle registrazioni Intrastat. Le righe possono essere modificate secondo le esigenze.  
 
 > [!IMPORTANT]  
-> Il processo batch recupera soltanto i movimenti che contengono un codice paese per il quale è stato immesso un codice Intrastat nella pagina **Paesi**. È quindi importante immettere codici Intrastat per i codici paese che verranno inclusi nel processo batch. Il lavoro batch imposta il campo **Partita IVA partner** su *QV999999999999* per i privati o le imprese senza partita IVA (clienti con il campo **Tipo di partner** impostato su *Persona*), e utilizza il valore del campo **Tipo di transazione** sul movimento contabile articolo registrato o sul movimento contabile processo. 
+> Il processo batch recupera soltanto i movimenti che contengono un codice paese per il quale è stato immesso un codice Intrastat nella pagina **Paesi**. È quindi importante immettere codici Intrastat per i codici paese che verranno inclusi nel processo batch. Il lavoro batch imposta il campo **Partita IVA partner** su *QV999999999999* per i privati o le imprese senza partita IVA (clienti con il campo **Tipo di partner Intrastat** impostato su *Persona*), e utilizza il valore del campo **Tipo di transazione** sul movimento contabile articolo registrato o sul movimento contabile processo. 
 
 ### <a name="to-modify-intrastat-journals-lines"></a>Per modificare le righe dei giornali di registrazione Intrastat
 
@@ -149,6 +155,9 @@ Per ottenere le informazioni richieste nel modulo Intrastat dagli enti di statis
 5. Nella pagina del processo batch scegliere il pulsante **OK**.  
 6. Selezionare **Salva**.  
 7. Spostarsi sul percorso in cui si desidera salvare il file, quindi immettere il nome file desiderato e fare clic su **Salva**.
+
+> [!NOTE]
+> Quando una riga del report Intrastat ha un'unità di misura supplementare, il peso dell'articolo non viene visualizzato perché il valore non è obbligatorio.
 
 ## <a name="reorganize-intrastat-journals"></a>Riorganizzare registrazioni Intrastat
 

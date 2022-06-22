@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 6cb42322383506a7b6633952cb171cb7c6602339
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367299"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805154"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central
 
@@ -19,11 +19,11 @@ ms.locfileid: "8367299"
 
 ### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Posso convertire la versione di valutazione in una licenza a pagamento?
 
-Sì, è possibile. Per ulteriori informazioni, vedi [Introduzione a una sottoscrizione](across-preview.md#get-started-with-a-subscription).  
+Sì, è possibile. Per ulteriori informazioni, vedi [Introduzione a una sottoscrizione](trial-signup.md#get-started-with-a-subscription).  
 
 ### <a name="what-are-the-trial-limits-and-quotas"></a>Quali sono i limiti e le quote della versione di valutazione?
 
-La versione di valutazione gratuita include i dati di esempio. Se vuoi provare Business Central con i tuoi dati, puoi passare a una prova gratuita di 30 giorni con una società vuota. Per ulteriori informazioni, vedi [Versioni di valutazione e sottoscrizioni di [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md).  
+La versione di valutazione gratuita include i dati di esempio. Se vuoi provare Business Central con i tuoi dati, puoi passare a una prova gratuita di 30 giorni con una società vuota. L'amministratore può ottenere ulteriori informazioni su versioni di valutazione e sottoscrizioni [qui](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ### <a name="how-do-i-start-using-the-trial"></a>In che modo posso iniziare a utilizzare la versione di valutazione?
 
@@ -54,4 +54,4 @@ Non puoi. Se elimini accidentalmente dati di esempio, chiedi all'amministratore 
 [Iscrizione per una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md)  
 [Domande frequenti sull'utilizzo di Business Central](across-faq.yml)  
 [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md)  
-Versioni di valutazione e sottoscrizioni di [[!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
+Versioni di valutazione e sottoscrizioni di [[!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

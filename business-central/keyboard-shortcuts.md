@@ -1,20 +1,20 @@
 ---
 title: Tasti di scelta rapida
 description: Elenco completo dei tasti di scelta rapida per utilizzare in modo efficiente i dati.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
-ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517975"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799692"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -51,14 +51,15 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 |ALT+MAIUSC+F2|Spostarsi tra **Dettagli** e **Allegati** nel riquadro Dettaglio informazioni.|
 |ALT+O|Aggiungere una nuova nota per il record selezionato, anche se il riquadro Dettaglio informazioni non è aperto.|
 |ALT+Q<br />(CTRL+Opzione+Q)|Aprire la finestra della **funzionalità delle informazioni**. Per ulteriori informazioni, vedere [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md).|
+|CTRL+ALT+Q<br />(CTRL+Opzione+Cmd+Q)|Apri la pagina **Trova voci** per trovare documenti e voci correlati tra loro in base a informazioni comuni, come il numero del documento o la data di registrazione. Per ulteriori informazioni, vedi [Trovare voci correlate per i documenti pubblicati ](ui-find-entries.md)|
 |ALT+N |Aprire una pagina per creare un nuovo record (equivale a scegliere le azioni **Nuovo** e **+**).|
 |ALT+MAIUSC+N |Chiudere una pagina appena creata e aprirne una nuova per creare un nuovo record. In modo analogo, ALT+F9 registra un documento e ne crea uno nuovo.|
 |ALT+T|Aprire la pagina **Impostazioni personali**.|
-|ALT + freccia DESTRA|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit.](media/assist-edit-icon.png "Pulsante AssistEdit") . Viene utilizzato quando il pulsante a discesa usuale (ALT+Freccia GIÙ) nello stesso campo viene utilizzato per un altro scopo.|
+|ALT + freccia DESTRA|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit.](media/assist-edit-icon.png "Pulsante AssistEdit") . Utilizzato quando il pulsante a discesa usuale (ALT+Freccia GIÙ) nello stesso campo viene utilizzato per un altro scopo.|
 |CTRL+ALT+MAIUSC+C|Visualizzare informazioni nel badge società.|
 |CTRL+ALT+F1|Aprire e chiudere il riquadro Controllo pagina. Il riquadro Controllo pagina mostra informazioni sulla pagina, come la relativa tabella di origine, campi, filtri, estensioni e altro.<br /><br />Per ulteriori informazioni, vedere [Controllo di pagine](across-inspect-page.md).|
 |CTRL+C |Copiare il valore del campo. Se lo stato attivo è sul campo e non si è selezionato alcun testo nel campo, verrà copiato l'intero valore. Se è stato selezionato del testo nel campo, verrà copiato solo il testo selezionato.|
-|Ctrl+F1|Aprire la guida di Business Central per la pagina.|
+|Ctrl+F1|Apri il [riquadro della guida](product-help-and-support.md#help-pane) o un articolo della guida di Business Central su [Microsoft Docs](/dynamics365/business-central/), a seconda della versione di Business Central.|
 |Ctrl+F12|Passare dalla visualizzazione a layout ampio a quella a layout stretto e viceversa.|
 |CTRL+clic|Navigare durante la personalizzazione quando l'azione è evidenziata con una freccia. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).|  
 |Ctrl+F5|Ricaricare l'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] (equivale ad aggiornare/ricaricare nel browser).|

@@ -1,5 +1,5 @@
 ---
-title: Impostare prezzi di vendita e sconti per i clienti | Microsoft Docs
+title: Registrare i prezzi di vendita e gli sconti speciali
 description: Descrive come definire gli accordi sui prezzi e sugli sconti per i documenti di vendita.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 5f3d851356954ddf71411190f5f486633936c05a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729843"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950149"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrare i prezzi di vendita e gli sconti speciali
+
 > [!NOTE]
-> Nel secondo ciclo di rilascio del 2020 abbiamo rilasciato processi semplificati per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti che utilizzano questa versione, trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Nel secondo ciclo di rilascio del 2020 sono stati introdotti nuovi processi facilitati per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti che utilizzano l'ultima versione, trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta varie strategie di prezzo, come ad esempio:
+
 * Modelli a prezzo unico in cui un articolo viene venduto sempre allo stesso prezzo.
 * Accordi di prezzi speciali con clienti specifici o gruppi di clienti.
 * Campagne quando una vendita soddisfa i criteri per un'offerta speciale. Ad esempio, i criteri potrebbero essere quando un ordine soddisfa una quantità minima, è precedente a una determinata data o include un determinato tipo di articolo.  
 
-Per utilizzare un modello di prezzo di base, è sufficiente specificare un prezzo unitario quando imposti un articolo o una risorsa. Tale prezzo sarà sempre utilizzato sui documenti di vendita. Per i modelli più avanzati, ad esempio, quando desideri offrire prezzi speciali per una campagna di vendita, puoi specificare i criteri nella pagina **Prezzi di vendita**. Puoi offrire prezzi speciali basati su una combinazione delle seguenti informazioni: 
+Per utilizzare un modello di prezzo di base, è sufficiente specificare un prezzo unitario quando imposti un articolo o una risorsa. Tale prezzo sarà sempre utilizzato sui documenti di vendita. Per i modelli più avanzati, ad esempio, quando desideri offrire prezzi speciali per una campagna di vendita, puoi specificare i criteri nella pagina **Prezzi di vendita**. Puoi offrire prezzi speciali basati su una combinazione delle seguenti informazioni:  
 
 * Cliente
 * Articolo
@@ -52,7 +54,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immettere **Clienti** e quindi scegliere il collegamento correlato.
 2. Scegliere il cliente, quindi l'azione **Prezzi**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà un prezzo di vendita speciale al cliente.
 
@@ -60,7 +62,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 Per default, lo stato dei nuovi listini prezzi è Bozza. I listini prezzi in bozza non sono inclusi nel calcolo dei prezzi. Quando hai finito di aggiungere righe e desideri iniziare a usare i prezzi puoi modificare lo stato in Attivo.
 
-1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Clienti** e quindi scegliere il collegamento correlato.
+1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immettere **Clienti** e quindi scegliere il collegamento correlato.
 2. Scegliere il cliente, quindi l'azione **Listini prezzi di vendita**. 
 3. Scegliere **Nuovo** per creare un nuovo listino prezzi di vendita.
 4. Nelle Schede dettaglio **Generale** e **Imposta** compilare i campi appropriati. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -176,34 +178,36 @@ Per aggiornare i prezzi per più articoli, è necessario creare un nuovo listino
 ---
 
 ## <a name="best-price-calculation"></a>Calcolo del prezzo migliore
-Dopo aver registrato i prezzi speciai e gli sconti di riga per vendite e acquisti, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola automaticamente il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione commessa e articolo.
 
-Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che gode dello sconto riga più alto possibile praticabile in una specifica data. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcola il miglior prezzo quando inserisce il prezzo unitario e la percentuale di sconto riga per gli articoli in nuove righe di documenti e di registrazione.
+Dopo aver registrato i prezzi speciai e gli sconti di riga per vendite e acquisti, [!INCLUDE[prod_short](includes/prod_short.md)] calcola automaticamente il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione commessa e articolo.
+
+Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che gode dello sconto riga più alto possibile praticabile in una specifica data. [!INCLUDE[prod_short](includes/prod_short.md)] calcola il miglior prezzo quando inserisce il prezzo unitario e la percentuale di sconto riga per gli articoli in nuove righe di documenti e di registrazione.
 
 > [!NOTE]  
-> Di seguito viene descritto come viene calcolato il prezzo migliore per le vendite. Il calcolo è lo stesso per gli acquisti.
+> Di seguito viene descritto come viene calcolato il prezzo migliore per le vendite. Per gli acquisti il calcolo è simile ma si basa sui parametri disponibili. Ad esempio, i gruppi di sconti articolo non sono supportati per l'acquisto.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] controlla la combinazione del cliente di fatturazione e dell'articolo e quindi calcola il prezzo unitario applicabile e la percentuale di sconto riga utilizzando i seguenti criteri:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] controlla la combinazione del cliente di fatturazione e dell'articolo e quindi calcola il prezzo unitario applicabile e la percentuale di sconto riga utilizzando i seguenti criteri:
 
-    - Il cliente usufruisce di uno speciale accordo relativo a prezzi o sconti o appartiene a un gruppo che ne usufruisce?
-    - L'articolo o il gruppo sconto articolo specificato nella riga è incluso in uno di tali accordi prezzi o sconti?
-    - La data dell'ordine, o la data di registrazione per le fatture e le note di credito, è compresa nell'intervallo di validità dell'accordo prezzi o sconti?
-    - È stato specificato un codice unità di misura? In caso affermativo, in [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno controllati i prezzi o gli sconti aventi lo stesso codice di unità di misura, altrimenti verranno verificati prezzi o gli sconti a cui non è associato alcun codice di unità di misura.
+    * Il cliente usufruisce di uno speciale accordo relativo a prezzi o sconti o appartiene a un gruppo che ne usufruisce?
+    * L'articolo o il gruppo sconto articolo specificato nella riga è incluso in uno di tali accordi prezzi o sconti?
+    * La data dell'ordine, o la data di registrazione per le fatture e le note di credito, è compresa nell'intervallo di validità dell'accordo prezzi o sconti?
+    * È stato specificato un codice unità di misura? In caso affermativo, in [!INCLUDE[prod_short](includes/prod_short.md)] verranno controllati i prezzi o gli sconti aventi lo stesso codice di unità di misura, altrimenti verranno verificati prezzi o gli sconti a cui non è associato alcun codice di unità di misura.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] controlla se eventuali accordi di prezzo/sconto si applicano alle informazioni sul documento o sulla riga del giornale di registrazione. Quindi inserisce il prezzo unitario applicabile e la percentuale di sconto riga utilizzando i seguenti criteri:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] controlla se eventuali accordi di prezzo/sconto si applicano alle informazioni sul documento o sulla riga del giornale di registrazione. Quindi inserisce il prezzo unitario applicabile e la percentuale di sconto riga utilizzando i seguenti criteri:
 
-    - C'è un requisito di quantità minima nell'accordo di prezzo/sconto che è soddisfatto?
-    - C'è un requisito di valuta nell'accordo di prezzo/sconto che è soddisfatto? In caso affermativo, il prezzo più basso e lo sconto riga più alto per tale valuta vengono immessi, anche se la valuta locale fornirebbe un prezzo migliore. Se non esistono accordi prezzi o sconti riga per il codice di valuta specificato, in [!INCLUDE[d365fin](includes/d365fin_md.md)] verranno automaticamente selezionati il prezzo più basso e lo sconto riga più alto per la valuta locale.
+    * C'è un requisito di quantità minima nell'accordo di prezzo/sconto che è soddisfatto?
+    * C'è un requisito di valuta nell'accordo di prezzo/sconto che è soddisfatto? In caso affermativo, il prezzo più basso e lo sconto riga più alto per tale valuta vengono immessi, anche se la valuta locale fornirebbe un prezzo migliore. Se non esistono accordi prezzi o sconti riga per il codice di valuta specificato, in [!INCLUDE[prod_short](includes/prod_short.md)] verranno automaticamente selezionati il prezzo più basso e lo sconto riga più alto per la valuta locale.
 
 Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato nella riga, viene recuperato l'ultimo costo diretto o il prezzo unitario dalla scheda articolo immesso.
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Sconti fattura di vendita e Addebito assistenza
+
 Quando usi gli sconti fattura, l'importo totale in fattura determina lo sconto applicato. Nella pagina **Sconti fattura clienti** è inoltre possibile aggiungere un addebito di assistenza a fatture che superano un certo importo.  
 
 Prima di utilizzare gli sconti fattura con le vendite si devono specificare varie informazioni. È necessario decidere quanto segue:  
 
-- A quali clienti verrà concesso questo tipo di sconto?  
-- Quali percentuali di sconto verranno applicate?  
+* A quali clienti verrà concesso questo tipo di sconto?  
+* Quali percentuali di sconto verranno applicate?  
 
 Se vuoi calcolare automaticamente gli sconti fattura, nella pagina **Setup contabilità clienti** attiva l'interruttore **Calcola sconto fatt.**.  
 
@@ -231,7 +235,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 2. Aprire la scheda cliente interessata e scegliere l'azione **Sconti riga**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Compilare una riga per ogni combinazione che concederà uno sconto riga vendita al cliente.
 
-> [!Note]
+> [!NOTE]
 > Quando si aprono le pagine **Prezzi vendita** e **Sconti riga vendita** di un cliente specifico, i campi **Filtro tipo vendita** e **Filtro codice vendita** sono impostati per il cliente e non possono essere modificati né rimossi.
 >
 > Per impostare i prezzi o gli sconti riga per tutti i clienti, un gruppo di prezzi dei clienti o una campagna, è necessario aprire le pagine da una scheda articolo. In alternativa, per i prezzi di vendita, utilizzare la pagina **Prospetto Prezzi Vendita**. Per ulteriori informazioni, vedere [Per aggiornare in blocco i prezzi degli articoli](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
@@ -273,10 +277,12 @@ Continuare a impostare le nuove condizioni dello sconto fattura di vendita.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
+[Impostazione di gruppi di prezzi dei clienti](sales-how-to-set-up-customer-price-groups.md)  
+[Impostazione delle categorie sconto clienti](sales-how-to-set-up-customer-discount-groups.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

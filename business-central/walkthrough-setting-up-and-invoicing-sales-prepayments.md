@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518733"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799561"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
 
@@ -95,9 +95,9 @@ Stabilisce altresì che a tutti i clienti sia richiesto un deposito del 20% per 
 
     |**Tipo vendita**|**Codice vendita**|**Nr. Articolo**|**% pagamento anticipato**|  
     |--------------------|--------------------|------------------|----------------------|  
-    |**Cliente**|**20000**|**1896-S**|**40**|  
-    |**Tutti i clienti**| |**1896-S**|**20**|  
-
+    |**Cliente**|**20000**|**1896-S**|**40**|
+    |**Cliente**|**20000**|**1900-S**|**30**|  
+    
     > [!TIP]
     > In base al proprio paese/area geografica, è inoltre necessario specificare un codice gruppo imposta nella Scheda dettaglio **Costi e registrazione** per l'articolo 1896-S. Quando si utilizza la società demo, questo campo è già impostato.
 

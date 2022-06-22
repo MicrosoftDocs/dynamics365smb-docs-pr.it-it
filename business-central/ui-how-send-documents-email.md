@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e791eb8f066085b8230aeac4c85a82c67093f06
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655577"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950492"
 ---
 # <a name="send-documents-and-emails"></a>Inviare documenti ed e-mail
 
@@ -44,7 +44,7 @@ Questa procedura descrive come associare una fattura vendita registrata a un'e-m
 7. Nel campo **Allegato** la fattura generata viene allegata per impostazione di default come file PDF.
 8. Nel campo **Corpo**, immettere un breve messaggio per il destinatario.
 
-    Se il testo e-mail specifico del documento è impostato nella pagina **Selezione report - Vendite**, il campo **Corpo** viene compilato automaticamente. Per ulteriori informazioni, [Impostare testi e layout e-mail riutilizzabili per documenti vendita e acquisto](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
+    Se il testo e-mail specifico del documento è impostato nella pagina **Selezione report - Vendite**, il campo **Corpo** viene compilato automaticamente. Per ulteriori informazioni, vedi [Impostare testi e layout e-mail riutilizzabili](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Scegliere **OK** per inviare il messaggio e-mail.
 
 > [!NOTE]  

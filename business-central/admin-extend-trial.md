@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381222"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805102"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?
 
@@ -50,10 +50,10 @@ Se l'estensione del periodo di valutazione è scaduta, [effettua una sottoscrizi
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
+[Versioni di valutazione e sottoscrizioni (solo inglese)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Creazione di nuove società](about-new-company.md)  
-[Versioni di valutazione e sottoscrizioni](across-preview.md)  
 [Come trovare un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner)  
 [Estensione delle prove (come amministratore)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Iniziare come rivenditore di Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  

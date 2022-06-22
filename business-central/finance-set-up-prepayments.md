@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516215"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799614"
 ---
 # <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
 
@@ -92,6 +92,19 @@ Per un ordine potrebbero venire indicate una percentuale pagamento anticipato ne
 4. Percentuale pagamento anticipato nella testata di vendita o di acquisto.  
 
 In altri termini, la percentuale pagamento anticipato indicata nella scheda cliente viene utilizzata solo se per l'articolo non sono state impostate altre percentuali pagamento anticipato. Tuttavia, se si modifica il valore del campo **% pagamento anticipato** nella testata di vendita o di acquisto dopo aver creato le righe, viene aggiornata la percentuale di tutte le righe. In questo modo, è possibile creare in modo semplice un ordine con una percentuale pagamento anticipato fissa, indipendentemente dalla percentuale impostata per gli articoli.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Per rilasciare automaticamente gli ordini di vendita quando vengono applicati i pagamenti anticipati
+
+È possibile risparmiare tempo impostando un movimento coda processi che rilascerà automaticamente gli ordini di vendita che richiedono il pagamento anticipato dopo l'applicazione dei pagamenti. L'automazione del processo consente di risparmiare la fase di rilascio dell'ordine di vendita.
+
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
+2. Nel campo **Frequenza aggiornamento automatico pagamento anticipato**, specifica la frequenza con cui vuoi eseguire il movimento coda processi.
+
+> [!TIP]
+> Mentre sei qui, considera l'aggiunta di una protezione contro la spedizione o la fatturazione di ordini cliente con importi anticipati non pagati. Se attivi l'interruttore **Verifica pagamento anticipato durante la registrazione**, [!INCLUDE[prod_short](includes/prod_short.md)] impedirà alle persone di registrare ordini con importi di pagamento anticipato in sospeso.
+
+3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.
+4. Imposta il movimento coda processi **Aggiornamento pagamento anticipato vendita in sospeso**, ad esempio utilizzando le impostazioni nella scheda dettaglio **Ricorrenza** per pianificare la frequenza con cui vuoi che venga eseguito. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>Vedi anche  
 

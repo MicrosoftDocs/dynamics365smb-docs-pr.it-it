@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
-ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
+ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514753"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8804658"
 ---
 # <a name="install-and-uninstall-extensions-in-business-central"></a>Installare e disinstallare le estensioni in Business Central
 
@@ -38,14 +38,14 @@ Le estensioni vengono gestite nella pagina **Gestione estensioni**. È possibile
 > [!NOTE]  
 > Accedere a [AppSource.microsoft.com](https://appsource.microsoft.com/) utilizzando l'account e-mail che si usa per [!INCLUDE[prod_short](includes/prod_short.md)]. Utilizzare lo stesso account e-mail per altri prodotti e servizi per un'esperienza fluida.  
 
-È inoltre possibile accedere al marketplace da [!INCLUDE[prod_short](includes/prod_short.md)]. Nella pagina **Gestione estensioni** è possibile vedere le estensioni attualmente installate e aprire la pagina **Marketplace delle estensioni** che mostra le estensioni per [!INCLUDE[prod_short](includes/prod_short.md)] al momento disponibili in AppSource. Se si sceglie il collegamento *Altre app*, si passa a [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+È inoltre possibile accedere al marketplace da [!INCLUDE[prod_short](includes/prod_short.md)]. Nella pagina **Gestione estensioni** è possibile vedere le estensioni attualmente installate e aprire la pagina **Marketplace delle estensioni** che mostra le estensioni per [!INCLUDE[prod_short](includes/prod_short.md)] al momento disponibili in AppSource. Se scegli il collegamento *Altre app*, passi ad [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-Se si sceglie un'estensione, è possibile leggerne una descrizione e accedere alla Guida dell'estensione per ottenere ulteriori informazioni. Quando si sceglie di ottenere una interno, è necessario accettare le condizioni per l'utilizzo. Se si ottiene l'estensione dal sito Web AppSource, verrà eseguito l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)] per completare l'installazione.  
+Se si sceglie un'estensione, è possibile leggerne una descrizione e accedere alla Guida dell'estensione per ottenere ulteriori informazioni. Quando si sceglie di ottenere una interno, è necessario accettare le condizioni per l'utilizzo. Se ottieni l'estensione dal sito Web AppSource, verrà eseguito l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)] per completare l'installazione.  
 
 Quando si installa un'estensione, potrebbe essere necessario configurarla. Se ad esempio si intende utilizzare l'estensione **PayPal Payments Standard per [!INCLUDE[prod_short](includes/prod_short.md)]** sarà necessario specificare un conto.
 Altre estensioni aggiungono semplicemente dei campi a una pagina esistente oppure aggiungono una nuova pagina.
 
-Se si disinstalla un'estensione e successivamente si cambia idea, è possibile installarla di nuovo. Quando si disinstalla un'estensione che si sta utilizzando, i dati vengono mantenuti in modo da essere disponibili qualora la si reinstallasse. Alcune estensioni sono obbligatorie. Non è possibile disinstallarle dalla pagina **Gestione estensioni**. Se si tenta di disinstallarle, viene visualizzato un messaggio di errore.
+Se si disinstalla un'estensione e successivamente si cambia idea, è possibile installarla di nuovo. Quando si disinstalla un'estensione che si sta utilizzando, i dati vengono mantenuti in modo da essere disponibili qualora la si reinstallasse. Alcune estensioni sono obbligatorie. Non è possibile disinstallare le estensioni dalla pagina **Gestione estensioni**. Se si tenta di disinstallarle, viene visualizzato un messaggio di errore.
 
 Alcune estensioni sono fornite da Microsoft, altre sono fornite da [altre società](ui-extensions-other.md). Tutte le estensioni sono state sottoposte a testing prima di essere rese disponibili. Tuttavia si consiglia di accedere ai collegamenti forniti con ciascuna estensione per ottenere maggiori informazioni sull'estensione prima di scegliere di installarla.
 
@@ -79,15 +79,19 @@ Microsoft fornisce le seguenti estensioni:
 
 Si carica un PTE usando la pagina di **gestione delle estensioni** . Nella pagina di **gestione delle estensioni**, vai su **Gestisci**, poi scegli **Carica estensioni**. Nella pagina **Caricare e distribuire l'estensione**, specifica il file .app da caricare. Per procedere, scegli il pulsante **Accetta** e poi il pulsante **Distribuisci**, questo inizierà il processo di distribuzione del PTE.
 
-Se il PTE contiene modifiche allo schema di rottura, è possibile *forzarne* l'upload. Per farlo, nella **modalità Schema Sync** scegli l'opzione **Forza** . Otterrete una finestra di dialogo di conferma da accettare prima di procedere.  
+Se il PTE contiene modifiche allo schema di suddivisione, è possibile *forzarne* il caricamento. Per farlo, nella **modalità Schema Sync** scegli l'opzione **Forza** . Viene visualizzata una finestra di dialogo di conferma da accettare prima di procedere.  
 
 ## <a name="uninstall-an-extension"></a>Disinstallare un'estensione
 
-Si disinstalla un'estensione utilizzando la pagina **Gestione delle estensioni** . Se si disinstalla un'estensione e successivamente si cambia idea, è possibile installare di nuovo l'estensione. Quando si disinstalla un'estensione che si sta utilizzando, i dati vengono mantenuti per impostazione predefinita qualora la si reinstallasse. È possibile scegliere di eliminare i dati con l'estensione. Questa operazione è controllata dalla casella di controllo **Elimina dati dell'estensione**. Per impostazione predefinita, questa casella di controllo *non è abilitata*.
+Si disinstalla un'estensione utilizzando la pagina **Gestione delle estensioni** . Per disinstallare un'estensione, selezionala nella pagina, quindi seleziona l'azione **Disinstalla**. Se si disinstalla un'estensione e successivamente si cambia idea, è possibile installare di nuovo l'estensione.
+
+Quando disinstalli un'estensione che stai utilizzando, i dati vengono mantenuti per impostazione predefinita qualora la volessi reinstallare. È possibile scegliere di eliminare i dati con l'estensione. Questa operazione è controllata dall'interruttore **Elimina dati dell'estensione**. Per impostazione predefinita, questo interruttore è **disattivato**. Quando provi ad attivare l'interruttore **Elimina dati dell'estensione** per l'estensione, otterrai una finestra di dialogo di conferma e devi scegliere **sì** per attivarlo. Dopo aver attivato l'interruttore **Elimina dati dell'estensione** puoi disinstallare l'estensione e ti verrà chiesto di riconfermare che desideri disinstallare l'estensione ed eliminare i dati.
 
 > [!IMPORTANT]  
-> Se si abilita la casella di controllo **Elimina dati dell'estensione** viene visualizzata una finestra di dialogo di conferma in cui è necessario scegliere **OK**. Con la casella di controllo **Elimina dati dell'estensione** abilitata, è possibile disinstallare l'estensione e verrà chiesto di riconfermare che si desidera disinstallare l'estensione ed eliminare i dati. Questa azione non può essere annullata.
-Alcune estensioni sono obbligatorie. Non è possibile disinstallarle dalla pagina **Gestione estensioni**. Se si tenta di disinstallarle, viene visualizzato un messaggio di errore.  
+> - Potrebbero esserci altre estensioni che richiedono o dipendono dall'estensione che vuoi disinstallare per eseguire l'operazione. Queste altre estensioni sono denominate *dipendenti*. Non è possibile disinstallare un'estensione a meno che non vengano disinstallate anche le estensioni dipendenti.
+> - Quando scegli di disinstallare un'estensione che ha una o più dipendenti, verrà visualizzata una finestra di dialogo di conferma che elenca le estensioni dipendenti e chiede se desideri disinstallare l'estensione e tutte le estensioni dipendenti. Dovrai selezionare **sì** per continuare.
+> - Se attivi l'interruttore **Elimina dati dell'estensione**, la disinstallazione dell'estensione cancellerà tutti i dati per l'estensione **e** i dati di tutte le estensioni dipendenti. Questa azione non può essere annullata.
+> - Alcune estensioni sono obbligatorie. Non è possibile disinstallarle dalla pagina **Gestione estensioni**. Se si tenta di disinstallarle, viene visualizzato un messaggio di errore.  
 
 ## <a name="see-also"></a>Vedere anche
 

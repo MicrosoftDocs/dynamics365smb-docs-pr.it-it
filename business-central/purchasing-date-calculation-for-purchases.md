@@ -1,60 +1,70 @@
 ---
-title: Calcolo della data per gli acquisti
-description: L'applicazione calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data.
-author: SorenGP
+title: Calcolare le date per gli acquisti
+description: Questo articolo descrive come calcolare le date per gli acquisti.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
+ms.search.forms: ''
+ms.date: 02/06/2022
+ms.author: bholtorf
+ms.openlocfilehash: 6a3d7244beef57a1b5a82b881ec193316fe968fe
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514883"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841868"
 ---
-# <a name="date-calculation-for-purchases"></a>Calcolo della data per gli acquisti
+# <a name="calculate-dates-for-purchases"></a>Calcolare le date per gli acquisti
 
-[!INCLUDE[prod_short](includes/prod_short.md)] calcola automaticamente la data in cui sarà necessario ordinare un articolo da avere in magazzino in una determinata data. Questa è la data in cui si può prevedere che gli articoli ordinati in una data particolare possano essere disponibili per il prelievo.  
+Se vuoi avere gli articoli in inventario in una certa data, [!INCLUDE[prod_short](includes/prod_short.md)] può calcolare automaticamente la data in cui è necessario ordinarli. 
 
-Se si specifica una data di carico richiesta nella testata di un ordine di acquisto, la data dell'ordine calcolata è la data in cui si deve effettuare l'ordine per ricevere gli articoli alla data richiesta. Quindi, la data in cui gli articoli saranno disponibili per il prelievo viene calcolata e immessa nel campo **Data carico prevista**.  
+Il risultato è la data in cui puoi ritirare gli articoli che hai ordinato.  
 
-Se non si specifica una data di carico richiesta, la data d'ordine presente sulla riga verrà usata come data di partenza per il calcolo della data prevedibile per la ricezione degli articoli e della data in cui gli articoli saranno disponibili per il prelievo.  
+Se specifichi una data di carico richiesta in una riga ordine di acquisto, la data dell'ordine calcolata è la data in cui è necessario effettuare l'ordine. La data in cui gli articoli saranno disponibili per il prelievo viene visualizzata nel campo **Data carico prevista**.  
+
+Se non specifichi una data di carico richiesta, la data in cui prevedi di ricevere gli articoli si basa sulla data dell'ordine nella riga. 
+
+La data di carico è anche la data in cui gli articoli saranno disponibili per il prelievo.  
+
+> [!TIP]
+> Per impostazione predefinita, molti dei campi della data citati in questo articolo sono nascosti nelle righe dell'ordine fornitore. Se un campo non è disponibile, puoi aggiungerlo personalizzando la pagina. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 ## <a name="calculating-with-a-requested-receipt-date"></a>Calcolo con una data di carico richiesta
 
-Se è presente una data di carico richiesta sulla riga dell'ordine di acquisto, questa data verrà utilizzata come data di partenza per i calcoli successivi.  
+Se è presente una data di carico richiesta sulla riga dell'ordine di acquisto, questa data verrà utilizzata per i calcoli seguenti:  
 
 - data di carico richiesta - calcolo lead time = data ordine  
 - data di carico richiesta + tempo gest. entrata in whse. + lead time di sicurezza = data carico prevista  
 
-Se è stata immessa una data di carico richiesta sulla testata dell'ordine di acquisto, questa data viene copiata nel campo corrispondente in tutte le righe. È possibile modificare questa data in qualsiasi riga oppure rimuoverla.  
+Se specifichi una data di carico richiesta in una riga dell'ordine d'acquisto, tale data viene assegnata alle nuove righe man mano che vengono create. Puoi modificare o rimuovere la data nelle righe.  
 
 > [!NOTE]
 > Se il processo si basa sul calcolo indietro, ad esempio, se si utilizza la data carico richiesta per ottenere la data dell'ordine, si consiglia di utilizzare formule di data con durate fisse, ad esempio "5D" per cinque giorni o "1W" per una settimana. Le formule di data senza durate fisse, come "CW" per settimana corrente o CM per mese corrente, possono comportare calcoli della data errati. Per ulteriori informazioni sulle formule di data, vedere [Utilizzare date e orari del calendario](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Calcolo senza una data di consegna richiesta
 
-Se si immette una riga di ordine di acquisto senza una data di consegna richiesta, il campo **Data ordine** nella riga viene compilato con la data nel campo **Data ordine** dell'intestazione dell'ordine di acquisto. Si tratta della data immessa o della work date. Le date seguenti vengono quindi calcolate per la riga dell'ordine di acquisto, con la data dell'ordine come punto di partenza.  
+Se si immette una riga di ordine di acquisto senza una data di consegna richiesta, il campo **Data ordine** nella riga mostra la data nel campo **Data ordine** dell'intestazione dell'ordine di acquisto. È la data immessa o la data di lavoro. Le date vengono quindi calcolate per la riga dell'ordine di acquisto, con la data dell'ordine come punto di partenza come segue:  
 
 - data ordine + calcolo lead time = data carico pianificato  
 - data carico pianificato + tempo gest. entrata in whse. + lead time di sicurezza = data carico prevista  
 
-Se si modifica la data dell'ordine sulla riga, ad esempio quando gli articoli non sono disponibili presso il fornitore fino a una data successiva, le date corrispondenti nella riga saranno ricalcolate automaticamente.  
-
-Se si modifica la data dell'ordine nell'intestazione, questa viene copiata nel campo **Data ordine** in tutte le righe e tutti i campi data correlati vengono ricalcolati.  
+Se modifichi la data dell'ordine sulla riga, [!INCLUDE[prod_short](includes/prod_short.md)] ricalcola le altre date.  
 
 ## <a name="default-values-for-lead-time-calculation"></a>Valori predefiniti per il calcolo del lead time
 
-[!INCLUDE[prod_short](includes/prod_short.md)] utilizza il valore del campo **Calcolo lead time** nella riga dell'ordine acquisto per calcolare l'ordine e le date carico previste.  
+[!INCLUDE[prod_short](includes/prod_short.md)] utilizza la formula della data nel campo **Calcolo lead time** nella riga dell'ordine acquisto per calcolare l'ordine e le date carico previste.  
 
-È possibile specificare manualmente il valore sulla riga o lasciare che il programma utilizzi i valori definiti nella scheda fornitore, nella scheda articolo, nella scheda unità di stockkeeping o nel catalogo del fornitore articolo.
-Tuttavia, il valore del lead time sulla scheda fornitore viene utilizzato solo se non è specificato un lead time nella scheda articolo, nella scheda unità di stockkeeping o nel catalogo fornitore per l'articolo. Questo è anche l'ordine di priorità di riassegnazione per questi valori. Se sono tutti forniti, il lead time dalla scheda fornitore ha la priorità più bassa e il lead time dal catalogo fornitore dell'articolo ha la priorità più alta.  
+È possibile specificare manualmente la formula della data sulle righe. Altrimenti, [!INCLUDE[prod_short](includes/prod_short.md)] utilizzerà le formule definite nelle pagine seguenti in questo ordine di priorità:
 
-## <a name="see-also"></a>Vedere anche
+1. Catalogo articolo/fornitore
+2. Scheda articolo
+3. Scheda unità di stockkeeping
+4. Scheda fornitore
+
+## <a name="see-also"></a>Vedi anche
 
 [Calcolo della data per le vendite](sales-date-calculation-for-sales.md)   
 [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  

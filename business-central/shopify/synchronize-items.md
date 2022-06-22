@@ -1,18 +1,18 @@
 ---
 title: Sincronizzare articoli e inventario
 description: Configurare ed eseguire sincronizzazioni di articoli tra Shopify e Business Central
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: fac1a3df12070a2030d6d2d8dfd5e740d8cca4f9
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768142"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808961"
 ---
 # <a name="synchronize-items-and-inventory"></a>Sincronizzare articoli e inventario
 
@@ -23,7 +23,7 @@ Gli **Articoli** in [!INCLUDE[prod_short](../includes/prod_short.md)] sono equiv
 
 Questi due scenari sono sempre abilitati.
 
-Un altro scenario è quando i dati vengono gestiti in Shopify e vuoi importare quegli articoli in blocco [!INCLUDE[prod_short](../includes/prod_short.md)]. Questo scenario può essere utile per gli eventi di migrazione dei dati, quando un punto vendita online esistente deve essere collegato a uno nuovo [!INCLUDE[prod_short](../includes/prod_short.md)].
+Un terzo scenario è gestire i dati in Shopify e importare gli articoli in blocco in [!INCLUDE[prod_short](../includes/prod_short.md)]. Questo scenario può essere utile per gli eventi di migrazione dei dati, quando un punto vendita online esistente deve essere collegato a uno nuovo ambiente [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="to-define-item-synchronizations"></a>Per definire le sincronizzazioni degli articoli
 
@@ -32,9 +32,9 @@ Un altro scenario è quando i dati vengono gestiti in Shopify e vuoi importare q
 
 |Opzione|Descrizione|
 |------|-----------|
-|**Vuoto**| I prodotti vengono importati insieme all'importazione degli ordini. I prodotti vengono esportati in Shopify se l'utente esegue l'azione **Aggiungi articolo** dalla finestra **Prodotti Shopify**. Si tratta del comportamento predefinito. |
-|**A Shopify**| Seleziona questa opzione se, dopo la sincronizzazione iniziale attivata dall'azione **Aggiungi articolo**, prevedi di aggiornare i prodotti manualmente utilizzando l'azione **Sincronizza prodotto** o tramite la coda processi per gli aggiornamenti ricorrenti. Ricordati di abilitare il campo **Può aggiornare il prodotto Shopify**. Se non abilitato, è uguale all'opzione **Vuoto**. |
-|**Da Shopify**| Scegli questa opzione se prevedi di importare prodotti da Shopify in blocco, manualmente con l'azione **Sincronizza prodotto** o tramite la coda processi per gli aggiornamenti ricorrenti. Se nessuna opzione è selezionata, è uguale all'opzione **Vuoto**.|
+|**Vuoto**| I prodotti vengono importati insieme all'importazione degli ordini. I prodotti vengono esportati in Shopify se un utente esegue l'azione **Aggiungi articolo** dalla pagina **Prodotti Shopify**. Questo processo è il comportamento predefinito. |
+|**A Shopify**| Seleziona questa opzione se, dopo la sincronizzazione iniziale attivata dall'azione **Aggiungi articolo**, prevedi di aggiornare i prodotti manualmente utilizzando l'azione **Sincronizza prodotto** o tramite la coda processi per gli aggiornamenti ricorrenti. Ricordati di abilitare il campo **Può aggiornare il prodotto Shopify**. Se non abilitato, è uguale all'opzione **Vuoto**. Per ulteriori informazioni, vedi [Esportare articoli su Shopify](synchronize-items.md#export-items-to-shopify)|
+|**Da Shopify**| Scegli questa opzione se prevedi di importare prodotti da Shopify in blocco, manualmente con l'azione **Sincronizza prodotto** o tramite la coda processi per gli aggiornamenti ricorrenti. Se nessuna opzione è selezionata, è uguale all'opzione **Vuoto**. Per maggiori dettagli sull'importazione di articoli, vedi [Importare articoli da Shopify](synchronize-items.md#import-items-from-shopify)|
 
 ## <a name="import-items-from-shopify"></a>Importare articoli da Shopify
 
@@ -42,9 +42,9 @@ Sia se importano articoli da Shopify in blocco o insieme all'importazione di ord
 
 |Campo|Descrizione|
 |------|-----------|
-|**Crea automaticamente articoli sconosciuti**|Quando prodotti e varianti shopify vengono importati in [!INCLUDE[prod_short](../includes/prod_short.md)], la funzione [!INCLUDE[prod_short](../includes/prod_short.md)] cerca sempre di trovare prima il record corrispondente nell'elenco degli elementi. **Mapping SKU** influisce sul modo in cui viene eseguita la corrispondenza e crea un nuovo articolo e/o una variante di articolo. Per ulteriori informazioni, vedere [Mapping prodotto](synchronize-items.md#). Abilita questa opzione se desideri creare un nuovo articolo o quando non esiste un record corrispondente. Il nuovo articolo verrà creato utilizzando i dati importati e **Codice modello articolo**. Se questa opzione non è abilitata, dovrai creare un articolo manualmente e utilizzare l'azione **Esegui mapping prodotto** dalla pagina **Prodotti Shopify**.|
+|**Crea automaticamente articoli sconosciuti**|Quando prodotti e varianti shopify vengono importati in [!INCLUDE[prod_short](../includes/prod_short.md)], la funzione [!INCLUDE[prod_short](../includes/prod_short.md)] cerca sempre di trovare prima il record corrispondente nell'elenco degli elementi. **Mapping SKU** influisce sul modo in cui viene eseguita la corrispondenza e crea un nuovo articolo e/o una variante di articolo. Abilita questa opzione se desideri creare un nuovo articolo o quando non esiste un record corrispondente. Il nuovo articolo verrà creato utilizzando i dati importati e **Codice modello articolo**. Se questa opzione non è abilitata, dovrai creare un articolo manualmente e utilizzare l'azione **Esegui mapping prodotto** dalla pagina **Prodotti Shopify**.|
 |**Codice modello articolo**|Utilizzato insieme a **Crea automaticamente articoli sconosciuti**. <br> Scegli il modello da utilizzare per gli articoli creati automaticamente.|
-|**Mapping SKU**|Scegli come vuoi usare il valore **SKU** importato da Shopify durante il mapping la creazione dell'articolo/variante. Per ulteriori informazioni, vedere [Come lo SKU e il codice a barre definiti nel prodotto Shopify hanno impatto sul mapping e la creazione di articoli e varianti](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
+|**Mapping SKU**|Scegli come vuoi usare il valore **SKU** importato da Shopify durante il mapping la creazione dell'articolo/variante. Per ulteriori informazioni, vedi [Come lo SKU e il codice a barre definiti nel prodotto Shopify hanno impatto sul mapping e la creazione di articoli e varianti](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |**Separatore campo SKU**|Usato insieme a **Mapping SKU** impostato sull'opzione **Nr. articolo + Codice Variante**.<br> Definisci un separatore da utilizzare per dividere lo SKU. <br>Ad esempio, se in Shopify crei la variante con SKU "1000/001", digita "/" nel campo **Separatore di campo SKU** per ottenere il numero dell'articolo [!INCLUDE[prod_short](../includes/prod_short.md)] come "1000" e il codice della variante articolo come "001".
 |**Prefisso variante**|Usato insieme a **Mapping SKU** impostato sulle opzioni **Codice variante** o **Nr. articolo + Codice variante** come strategia di fallback quando lo SKU proveniente da Shopify è vuoto.<br>Se vuoi creare la variante articolo in [!INCLUDE[prod_short](../includes/prod_short.md)] automaticamente, dovrai inserire un valore in **Codice**. Per impostazione predefinita, viene utilizzato il valore definito nel campo SKU importato da Shopify. Tuttavia, se lo SKU è vuoto, genererà codice che inizia con il prefisso della variante definito e "001".|
 |**Shopify può aggiornare l'articolo**| Scegli questa opzione se desideri aggiornare automaticamente gli articoli e/o le varianti.|
@@ -100,10 +100,10 @@ Le seguenti impostazioni consentono di gestire il processo di esportazione degli
 |Titolo pagina SEO|Valore fisso: vuoto, vedi [Aggiornamenti ad hoc di prodotti Shopify ](synchronize-items.md#ad-hock-updates-of-shopify-products). |Non utilizzato.|
 |Meta descrizione SEO|Valore fisso: vuoto, vedi [Aggiornamenti ad hoc di prodotti Shopify ](synchronize-items.md#ad-hock-updates-of-shopify-products). |Non utilizzato.|
 |Elemento multimediale|**Immagine**, per ulteriori informazioni, vedere [Sincronizzare le immagini degli articoli](synchronize-items.md#sync-item-images)|**Immagine**|
-|Prezzo|Il prezzo per il cliente finale viene calcolato in base al gruppo prezzi articolo, al gruppo sconto articolo, al codice valuta e al codice modello cliente. |Non utilizzato.|
-|Confronta prezzo|Il prezzo senza sconto viene calcolato in base al gruppo prezzi articolo, al gruppo sconto articolo, al codice valuta e al codice modello cliente. |Non utilizzato.|
+|Prezzo|Il calcolo del prezzo per il cliente finale include il gruppo prezzi articolo, il gruppo sconto articolo, il codice valuta e il codice modello cliente. |Non utilizzato.|
+|Confronta prezzo|Il calcolo del prezzo senza sconto include il gruppo prezzi articolo, il gruppo sconto articolo, il codice valuta e il codice modello cliente. |Non utilizzato.|
 |Costo per articolo|**Costo unitario**|**Costo unitario**|
-|SKU|Vedere **Mapping SKU** in [Esportare articoli in Shopify](synchronize-items.md#export-items-to-shopify)| Vedi [Come lo SKU e il codice a barre definiti nel prodotto Shopify hanno impatto sul mapping e la creazione di articoli e varianti](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
+|SKU|Vedere **Mapping SKU** in [Esportare articoli in Shopify](synchronize-items.md#export-items-to-shopify)| Vedi [Come lo SKU e il codice a barre definiti nel prodotto Shopify hanno impatto sul mapping e la creazione di articoli e varianti](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |Codice a barre|**Riferimenti di articoli** di tipo codice a barre|**Riferimenti di articoli** di tipo codice a barre|
 |Traccia quantità|In base a **Inventario tracciato** nella **Scheda punto vendita di Shopify**. Per ulteriori informazioni, vedere [Magazzino](synchronize-items.md#sync-inventory-to-shopify).|Non utilizzato.|
 |Continuare a vendere quando le scorte sono esaurite|In base al **Criterio di inventario predefinito** nella **Scheda del punto vendita Shopify**. Non importato.|Non utilizzato.|
@@ -115,7 +115,7 @@ Le seguenti impostazioni consentono di gestire il processo di esportazione degli
 
 ### <a name="tags"></a>Tag
 
-I tag importati possono essere esaminati nel riquadro Dettagli **Tag** nel **Prodotto Shopify**. Per modificare i tag, scegli l'azione **Tag** nella pagina **Prodotto Shopify**.
+Esamina i tag importati nella scheda Dettagli **Tag** della pagina **Prodotto Shopify**. Per modificare i tag, scegli l'azione **Tag** nella pagina **Prodotto Shopify**.
 Se l'opzione **A Shopify** è selezionata nel campo **Sincronizza articolo**, i tag assegnati vengono esportati in Shopify alla successiva sincronizzazione.
 
 ## <a name="run-item-synchronization"></a>Esegui sincronizzazione articoli
@@ -139,6 +139,8 @@ Gli articoli ottenuti vengono creati automaticamente in Shopify con prezzi ma im
 3. Scegli l'azione **Sincronizza prodotti**.
 
 In alternativa, utilizza l'azione **Sincronizza prodotti** sulla finestra **Prodotti Shopify** o cerca il processo batch **Sincronizzare prodotti**.
+
+È possibile pianificare l'attività da eseguire in modo automatizzato. Per ulteriori informazioni, vedi [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
 
 ### <a name="ad-hock-updates-of-shopify-products"></a>Aggiornamenti ad hoc di prodotti Shopify
 
@@ -195,8 +197,8 @@ I prezzi possono essere esportati per gli articoli sincronizzati nei modi descri
 
 ### <a name="price-calculation-remarks"></a>Nore sul calcolo del prezzo
 
-* Per il calcolo del prezzo, è importante avere un valore nel campo **Modello cliente predefinito**.
-* Ricordarsi di inserire un **Codice valuta** se il tuo negozio online utilizza una valuta diversa da LCY.
+* Per il calcolo del prezzo, è importante avere un valore nel campo **Modello cliente predefinito**. [!INCLUDE[prod_short](../includes/prod_short.md)] utilizza il valore del campo **categoria business IVA** per calcolare il prezzo IVA inclusa. Potresti voler creare un gruppo di prezzi cliente in cui selezioni il campo **Prezzo IVA inclusa** e specificare il valore rilevante nel campo **Cat. reg. business IVA (Prezzo)**.
+* Immetti un **Codice valuta** se il tuo negozio online utilizza una valuta diversa da LCY. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDE[prod_short](../includes/prod_short.md)], lascia il campo vuoto.
 * Quando si determina un prezzo, [!INCLUDE[prod_short](../includes/prod_short.md)] utilizza la logica del "prezzo più basso". Significa che se il prezzo unitario definito nella scheda articolo è inferiore a quello definito nel gruppo di prezzi, viene utilizzato il prezzo unitario della scheda articolo.
 
 ## <a name="sync-inventory-to-shopify"></a>Sincronizzare l'inventario con Shopify
@@ -231,7 +233,7 @@ Puoi inizializzare le sincronizzazione dell'inventario in due modi.
 ### <a name="inventory-remarks"></a>Note sull'inventario
 
 * Il connettore calcola il **Saldo disponibile previsto** e lo esporta in Shopify.
-* Puoi esaminare le informazioni sulle scorte ricevute daShopify nella pagina **Scheda dettaglio Inventario Shopify**. In questa Scheda dettaglio, ottieni una panoramica delle scorte Shopify e l'ultimo inventario calcolato in [!INCLUDE[prod_short](../includes/prod_short.md)]. C'è un record per posizione.
+* Puoi esaminare le informazioni sulle scorte ricevute da Shopify nella pagina **Scheda dettaglio Inventario Shopify**. In questa Scheda dettaglio, ottieni una panoramica delle scorte Shopify e l'ultimo inventario calcolato in [!INCLUDE[prod_short](../includes/prod_short.md)]. C'è un record per posizione.
 * Se le informazioni sulle scorte in Shopify sono diverse dal **Saldo disponibile previsto** in[!INCLUDE[prod_short](../includes/prod_short.md)], le scorte verranno aggiornate in Shopify.
 
 ## <a name="see-also"></a>Vedi anche

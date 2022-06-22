@@ -8,37 +8,39 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
+ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557174"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950384"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Creare e modificare layout di report personalizzati
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Per impostazione predefinita, un report avrà un layout di report RDLC o Word predefinito o entrambi. Non puoi modificare i layout integrati, ma puoi creare layout personalizzati. Un report può avere più layout di report personalizzati che consentono di alternare il layout utilizzato in base alle esigenze.
+Per impostazione predefinita, i report hanno un layout di report integrato. Il layout può essere un layout di report RDLC, un layout di report Word o entrambi. Non puoi modificare i layout integrati, ma puoi creare layout personalizzati. Un report può avere più layout di report personalizzati.
 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], il termine "report" riguarda anche i documenti esterni, quali fatture di vendita e conferme di ordini inviate a clienti come file PDF.
 
-Per creare un layout personalizzato, puoi effettuare una copia di un layout personalizzato esistente o aggiungere un nuovo layout personalizzato, che nella maggior parte dei casi è basato su un layout predefinito. Quando si aggiunge un nuovo layout personalizzato, puoi scegliere di aggiungere un tipo di layout di report RDLC o Word oppure entrambi. Il nuovo layout personalizzato si baserà sul layout predefinito per il report, se ce n'è uno disponibile. Se non esiste un layout integrato per il tipo, viene creato un nuovo layout vuoto. Dovrai modificare e progettare da zero questo layout vuoto. Per ulteriori informazioni sui layout di report RDLC e Word, sui layout personalizzati integrati e altro ancora, vedere [Gestire i layout dei report](ui-manage-report-layouts.md).  
+Per creare un layout personalizzato, copia un layout personalizzato esistente o aggiungi un nuovo layout personalizzato. I layout personalizzati sono spesso basati su un layout integrato. Quando si aggiunge un nuovo layout personalizzato, puoi scegliere di aggiungere un tipo di layout di report RDLC o Word oppure entrambi. Il nuovo layout personalizzato si baserà sul layout predefinito per il report, se ce n'è uno disponibile. Se non esiste un layout integrato per il tipo, viene creato un nuovo layout vuoto. Dovrai modificare e progettare da zero questo layout vuoto. Per ulteriori informazioni sui layout di report RDLC e Word, sui layout personalizzati integrati e altro ancora, vedere [Gestire i layout dei report](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dati finanziari memorizzati nel piano dei conti. Per ulteriori informazioni, vedere [Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md).
 
-Quando vengono definiti layout di report personalizzati, puoi selezionarli da schede cliente e fornitore per specificare che i layout selezionati verranno utilizzati per documenti creati per il cliente o il fornitore in questione. Per ulteriori informazioni, vedere [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md).
+Dopo aver definito i layout di report personalizzati, è possibile selezionarli nelle pagine Scheda cliente e Scheda fornitore. I layout verranno utilizzati durante la creazione di documenti per il cliente o il fornitore. Per ulteriori informazioni, vedere [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md).
+
+Puoi utilizzare i layout personalizzati anche per aggiungere contenuti ai messaggi di posta elettronica. I layout dei report possono far risparmiare tempo e contribuire a garantire la coerenza riutilizzando lo stesso contenuto quando comunichi con i clienti. Per utilizzare i layout di report personalizzati con e-mail, il tipo di file per il layout deve essere Word. Non è possibile utilizzare il tipo di file RDLC. Per ulteriori informazioni, vedi [Impostare testi e layout e-mail riutilizzabili](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="to-create-a-custom-layout"></a>Per creare un layout personalizzato
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
 
     Nella pagina **Selezione layout report** sono elencati tutti i report disponibili nella società che è specificata nel campo **Nome società** nella parte superiore della pagina.
-2. Impostare il campo **Società** alla società per la quale si desidera creare il layout di report.
+2. Nel campo **Società** scegli la società per cui vuoi creare il layout di report.
 3. Selezionare la riga per il report per il quale si desidera creare il layout, quindi scegliere l'azione **Layout personalizzati**.  
 
    Viene visualizzata la pagina **Layout report personalizzati** nella quale sono elencati tutti i layout personalizzati che sono disponibili per il report selezionato.
@@ -47,8 +49,8 @@ Quando vengono definiti layout di report personalizzati, puoi selezionarli da sc
    La copia del layout personalizzato viene visualizzata nella pagina **Layout report personalizzati** e nel campo *Descrizione* è presente la dicitura **Copia di**.
 5. Se vuoi aggiungere un nuovo layout personalizzato basato su un layout predefinito, segui la seguente procedura:  
    1. Scegliere l'azione **Nuovo**. Viene visualizzata la pagina **Inserisci layout predefinito per un report**. I campi **ID** e **Nome** vengono automaticamente compilati.
-   2. Per aggiungere un tipo di layout di report Word personalizzato, selezionare la casella di controllo **Inserisci layout Word**.
-   3. Per aggiungere un tipo di layout di report RDLC personalizzato, selezionare la casella di controllo **Inserisci layout RDLC**.
+   2. Per aggiungere un tipo di layout di report Word personalizzato, attiva l'interruttore **Inserisci layout Word**.
+   3. Per aggiungere un tipo di layout di report RDLC personalizzato, attiva l'interruttore **Inserisci layout RDLC**.
    4. Scegli il pulsante **OK**.  
 
     Il nuovo layout personalizzato viene visualizzato nella pagina **Layout report personalizzati**. Se un nuovo layout è basato su un layout predefinito, contiene le parole **Copia di un layout predefinito** nel campo **Descrizione**. Se non è disponibile alcun layout predefinito per il report, il nuovo layout presenta la dicitura **Nuovo layout** nel campo **Descrizione**. Questa dicitura indica che il layout personalizzato è vuoto.

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: 344
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: a577e4723f7880b9e94babd645b7f35324e7d1ea
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654789"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799851"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Ricerca di movimenti correlati per documenti registrati 
 
@@ -27,9 +27,9 @@ In questo articolo viene illustrato come trovare documenti e movimenti correlati
 
 Questa funzione risulta utile per cercare i movimenti contabili ottenuti da determinate transazioni. Durante la ricerca per numero di documento, è possibile stampare il riepilogo dal report Movimenti documento.
 
-## <a name="get-started"></a>Inizia
+## <a name="get-started"></a>Introduzione
 
-La funzione Trova movimenti è immediatamente disponibile sulla maggior parte delle pagine che visualizzano documenti registrati o movimenti di documenti registrati, sia per elenchi che per schede. Quindi il primo passo è aprire una di queste pagine. Quindi, scegli l'azione **Trova movimenti** o premi i tasti Ctrl+Alt+G.
+La funzione Trova voci è prontamente disponibile da quasi tutte le pagine premendo i tasti Ctrl+Alt+Q. Dalle pagine che visualizzano in modo specifico documenti pubblicati o movimenti di documenti registrati, sia per le liste che per le schede, puoi anche aprire la funzione scegliendo l'azione **Trova movimenti**.
 
 La pagina **Trova movimenti** include tutti i documenti e i movimenti correlati basati sul numero di documento e sulla data di registrazione. La pagina è divisa in tre sezioni:
 

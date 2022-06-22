@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b3eb777c7a495c5b4b73ace26151e53403f81f00
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c893513098d5078995e6cab09abcf0d2e0bb2769
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521204"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950358"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Abilitazione dell'integrazione Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -84,7 +84,7 @@ Questa sezione spiega i requisiti per una distribuzione di [!INCLUDE[prod_short]
 
 4. Creare una registrazione dell'applicazione per [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
 
-    Per visualizzare i report di Power BI incorporati nelle pagine di [!INCLUDE[prod_short](includes/prod_short.md)], un'applicazione deve essere registrata per [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure L'applicazione registrata richiede l'autorizzazione per i servizi Power BI. Per ulteriori informazioni, vedere [Registrazione di [!INCLUDE[prod_short](includes/prod_short.md)] locale in Azure AD per l'integrazione con altri servizi](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    Per visualizzare i report Power BI incorporati nelle pagine [!INCLUDE[prod_short](includes/prod_short.md)] è necessario registrare un'applicazione per [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure. L'applicazione registrata richiede l'autorizzazione per i servizi Power BI. Come minimo, l'app richiede l'autorizzazione **User.ReadWrite.All**. Per consentire agli utenti di visualizzare i report da aree di lavoro Power BI condivise, l'app richiede l'autorizzazione **Workspace.Read.All**. Per ulteriori informazioni, vedere [Registrazione di [!INCLUDE[prod_short](includes/prod_short.md)] locale in Azure AD per l'integrazione con altri servizi](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
     > Se la distribuzione utilizza l'autenticazione NavUserPassword, [!INCLUDE[prod_short](includes/prod_short.md)] si connette allo stesso servizio Power BI per tutti gli utenti. Specificare questo account di servizio come parte della registrazione dell'applicazione. Con l'autenticazione Azure AD, [!INCLUDE[prod_short](includes/prod_short.md)] si connette al servizio Power BI associato ai singoli account utente.
