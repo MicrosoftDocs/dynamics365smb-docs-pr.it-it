@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9dafc8e193ccf3c47947be6508a0917a45393c91
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 600b7e3117b4c75e1e6599c7b1e568c34e6bbbf1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950041"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078468"
 ---
 # <a name="get-started-creating-report-layouts"></a>Iniziare a creare layout di report
 
@@ -188,10 +188,11 @@ Attieniti alla seguente procedura per modificare il nome e la descrizione di un 
 
 ## <a name="see-also"></a>Vedere anche
 
-[Gestione dei layout di report](ui-manage-report-layouts.md)
-[Utilizzo dei layout di Word](ui-how-add-fields-word-report-layout.md)  
+[Gestione dei layout di report](ui-manage-report-layouts.md)  
+[Utilizzare i layout di Word](ui-how-add-fields-word-report-layout.md)  
 [Utilizzo dei layout di Excel](ui-excel-report-layouts.md)  
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

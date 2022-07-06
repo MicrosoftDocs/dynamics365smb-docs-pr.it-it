@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 389, 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2418ca1164d0a3d67ca9ae3403733dfbd9a56660
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8c4d11dd4e031388ea5ec28bb8a181122b50b470
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520814"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074590"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Riconciliare i pagamenti utilizzando il collegamento automatico
 
@@ -44,6 +44,7 @@ Per ogni riga di registrazione nella pagina **Registrazione riconciliazione paga
 > È possibile avviare l'importazione delle transazioni bancarie contemporaneamente all'apertura della pagina **Registrazione riconciliazione pagamenti** per la registrazione esistente. Nella procedura riportata di seguito viene descritto come importare le transazioni bancarie nella pagina **Registrazione riconciliazione pagamenti** dopo avere creato nuove registrazioni.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Per riconciliare i pagamenti utilizzando il collegamento automatico
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni riconciliazione pagamenti**, quindi scegli il collegamento correlato.
 2. Per utilizzare nuove registrazioni riconciliazione pagamenti, scegliere l'azione **Nuove registrazioni**.
 3. Nella pagina **Lista C/C bancari pagamenti** selezionare il conto bancario per il quale si desidera riconciliare i pagamenti, quindi scegliere **OK**.
@@ -88,7 +89,10 @@ Quando si registrano le registrazioni della riconciliazione di pagamento, i movi
 > [!NOTE]  
 >   Se non si desidera riconciliare il conto bancario dalla pagina **Registrazione riconciliazione pagamenti**, è necessario utilizzare la pagina **Riconciliazioni C/C bancari**. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
+
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

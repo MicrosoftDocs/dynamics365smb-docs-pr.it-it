@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: cf7f84b8ba0c7622f08856b677e3559cc669e7ed
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799614"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078676"
 ---
 # <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
 
@@ -106,7 +106,9 @@ In altri termini, la percentuale pagamento anticipato indicata nella scheda clie
 3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.
 4. Imposta il movimento coda processi **Aggiornamento pagamento anticipato vendita in sospeso**, ad esempio utilizzando le impostazioni nella scheda dettaglio **Ricorrenza** per pianificare la frequenza con cui vuoi che venga eseguito. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche  
 
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
 [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

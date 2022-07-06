@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80544cf5d3e2f9e55fcf22037c7d44df98f22635
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520128"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076879"
 ---
 # <a name="register-new-customers"></a>Registrare nuovi clienti
 
@@ -26,6 +26,7 @@ Prima di registrare nuovi clienti, è necessario impostare vari codici di vendit
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Aggiunta di nuovi clienti
+
 Puoi aggiungere nuovi clienti manualmente, compilando i campi nella pagina della **Scheda cliente**, oppure puoi usare dei modelli che contengono informazioni predefinite. Per esempio, è possibile creare un modello per diversi tipi di profili di clienti. L'uso di modelli fa risparmiare tempo quando si aggiungono nuovi clienti e aiuta a garantire che le informazioni siano corrette ogni volta. Se si creano modelli per più di un tipo di cliente, è possibile scegliere il modello da utilizzare quando si aggiunge un cliente. Se si crea un solo modello, questo verrà utilizzato per tutti i nuovi clienti. Dopo aver creato un modello, è possibile utilizzare l'azione **Applica modello** per applicarlo a uno o più clienti selezionati. Per creare un modello, si compilano le informazioni che si vogliono riutilizzare nella pagina della Scheda cliente, e poi si salva come modello. Per ulteriori informazioni, vedere [Per salvare la scheda cliente come modello](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
@@ -79,6 +80,8 @@ Il campo **Limite credito** in una scheda cliente specifica l'importo massimo ch
     |**Limite credito**|Il valore contenuto nel campo **Limite credito** della scheda del cliente viene confrontato con il saldo del cliente e viene visualizzato un avviso che informa se il saldo del cliente supera questo importo.|
     |**Oltre Fido**|Il campo **Oltre fido** viene controllato e viene visualizzato un avviso che informa se il cliente ha un oltre fido.|
     |**Nessun Avviso**|Nessun avviso viene visualizzato sullo stato del cliente.|
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

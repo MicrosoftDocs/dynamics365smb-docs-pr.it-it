@@ -10,12 +10,12 @@ ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09568ab62f9bbc52014583cfc322bfefaf5102e4
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 2ab39e3cf0e533a39c76bbdb9b673d55ff84d78d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799514"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075813"
 ---
 # <a name="understanding-wip-methods-in-project-management"></a>Comprendere i metodi WIP nella gestione dei progetti
 
@@ -32,6 +32,8 @@ Per tenere traccia del valore nella contabilità generale, è possibile calcolar
 | Valore vendite |Costi riconosciuti = Costi totali utilizzo<br /><br /> Ricavo riconosciuto = Prezzo totale utilizzo x Rapporto fatturazione previsto<br /><br /> % recupero costi = Prezzo totale fatturabile / Prezzo totale budget<br /><br /> Vendite WIP = Vendite riconosciute - Prezzo fatturato fatturabile |I calcoli del valore vendite riconoscono il ricavo in modo proporzionale in base ai costi totali utilizzo e al rapporto di recupero costi previsto.<br /><br /> Questo calcolo richiede che il prezzo totale fatturabile e il prezzo totale budget siano inseriti correttamente per l'intera commessa. |
 | Percentuale di completamento |Costi riconosciuti = Costi totali utilizzo<br /><br /> Ricavo riconosciuto = Prezzo totale fatturabile x Percentuale di completamento<br /><br /> Percentuale di completamento = Costi totali utilizzo/Costi totali budget<br /> Aquisita nel campo **% completamento costi** nelle righe del task commessa<br /><br /> Vendite WIP = Vendite riconosciute - Prezzo fatturato fatturabile |I calcoli della percentuale di completamento riconoscono il ricavo in modo proporzionale in base alla percentuale di completamento, ovvero il rapporto tra i costi totali utilizzo e i costi di budget.<br /><br /> Questo calcolo richiede che il prezzo totale fatturabile e i costi totali budget siano inseriti correttamente per l'intera commessa. |
 | Contratto completato |Importo WIP = Importo costo WIP = Utilizzo (costo totale)<br /><br /> Importo vendita WIP = Fatturabile (prezzo fatturato) |Il ricavo e i costi vengono riconosciuti dal contratto completato solo in seguito al completamento della commessa. Ciò risulta utile qualora le previsioni dei costi e del ricavo della commessa siano particolarmente incerte.<br /><br /> Qualsiasi utilizzo viene registrato in Conto costi WIP (cespiti) e tutte le vendite fatturate vengono registrate in Conto vendite fatturate WIP (passività), fino al completamento della commessa. |
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
 
 ## <a name="see-also"></a>Vedere anche
 

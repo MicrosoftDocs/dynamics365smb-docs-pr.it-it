@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 995d7277d67b3db4360210e80b417b8a62d6b1a8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805154"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077087"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central
 
@@ -49,9 +49,14 @@ Passa alla versione di prova di 30 giorni, quindi aggiungi i tuoi dati. Per ulte
 
 Non puoi. Se elimini accidentalmente dati di esempio, chiedi all'amministratore di creare un nuovo ambiente sandbox. Per ulteriori informazioni, vedi [Ambienti di produzione sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) nel contenuto per amministratori (solo in inglese).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
 
 [Iscrizione per una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md)  
 [Domande frequenti sull'utilizzo di Business Central](across-faq.yml)  
 [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md)  
 Versioni di valutazione e sottoscrizioni di [[!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

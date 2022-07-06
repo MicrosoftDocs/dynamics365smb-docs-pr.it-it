@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d46916a96a55cf71c6b018fc66b4165c742b632
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 730308e265f7a3fef3ad4a8069ea3f5c6bf0a7d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518577"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078390"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
+
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi e delle spedizioni warehouse, è possibile utilizzare i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima della registrazione della spedizione warehouse.  
 
 Non è possibile creare un documento di prelievo warehouse da zero perché un'attività di prelievo fa sempre parte di un flusso di lavoro, in uno scenario di tipo push o pull.  
@@ -36,7 +37,8 @@ In alternativa, è possibile utilizzare la pagina **Prospetto prelievi** per est
 >   
 >  Per informazioni sul prelievo generale di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio non fa parte di una spedizione vendita, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md)..  
 
-## <a name="to-pick-items-for-warehouse-shipment"></a>Per prelevare articoli per la spedizione warehouse  
+## <a name="to-pick-items-for-warehouse-shipment"></a>Per prelevare articoli per la spedizione warehouse
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 
     Se è necessario utilizzare un determinato prelievo, selezionare il prelievo dalla lista oppure filtrare la lista per individuare i prelievi specificatamente assegnati a se stessi. Aprire la scheda prelievo.  
@@ -54,6 +56,7 @@ A questo punto, la persona responsabile della spedizione può immettere gli arti
 Oltre al prelievo per i documenti di origine, come descritto in questo argomento, è possibile estrarre e inserire articoli tra le collocazioni senza fare riferimento ai documenti di origine. Per ulteriori informazioni, vedere [Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Gestione di articoli da assemblare su ordine in spedizioni warehouse
+
 Negli scenari di assemblaggio su ordine il campo **Qtà da spedire** sulle righe spedizione warehouse viene utilizzato per registrare il numero di unità assemblate. La quantità specificata viene quindi registrata come output assemblaggio quando viene registrata la spedizione warehouse.
 
 Per altre righe spedizione warehouse, il valore del campo **Qtà da spedire** è uguale a zero dall'inizio.
@@ -72,10 +75,13 @@ Dopo che la spedizione warehouse è stata registrata, i vari campi sulla riga or
 
 > In questo caso, la quantità da assemblare su ordine viene gestita come descritto in questo argomento, mentre la quantità di magazzino viene gestita come qualsiasi altra normale riga spedizione warehouse. Per altre informazioni sugli scenari di combinazione, vedere [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Vedi anche  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>Vedere anche
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

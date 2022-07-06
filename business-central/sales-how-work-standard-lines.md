@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe6f144b8513f651293f56e10ecf3020c1d0760
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 91a7b43265dbf4027c88f6fac7b79d4340f22ce1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517741"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078494"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Creare righe di vendite e acquisti ricorrenti
+
 Se è spesso necessario creare righe di vendita e acquisto con informazioni simili, è possibile impostare righe standard da inserire nei documenti di vendita e di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.  
 
 La seguente procedura illustra come utilizzare le righe di vendita standard in una fattura di vendita. I passaggi sono simili per tutti gli altri documenti di acquisto e di vendita.  
@@ -66,6 +67,7 @@ Se esistono righe di vendita ricorrenti per il cliente, è possibile inserirle o
 5. Scegliere il pulsante **OK** per inserire le righe di vendita standard della fattura, in cui è possibile riutilizzare la riga come è o modificarne le informazioni.
 
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Per creare più fatture di vendita in base alle righe di vendita ricorrenti
+
 È possibile utilizzare il processo batch **Crea fatture di vendita periodica** per creare fatture di vendita in base alle righe di vendita standard assegnate ai clienti e con date di registrazione comprese nell'intervallo di date valide specificato nelle righe di vendita standard.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea fatture di vendita periodica**, quindi seleziona il collegamento correlato.
@@ -74,6 +76,8 @@ Se esistono righe di vendita ricorrenti per il cliente, è possibile inserirle o
 4. Scegliere il pulsante **OK**.
 
 Le fatture di vendita vengono create per i clienti con il codice di vendita cliente standard specificato e con eventuali informazioni sull'addebito diretto specificate, per la registrazione alla data specificata.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

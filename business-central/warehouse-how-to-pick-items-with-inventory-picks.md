@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: edb133005292c0309de09273b6a2c5c43669eeed
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8764fa82ef8bf408e85655b5a97719d9f649e7be
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514727"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078364"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
 
@@ -112,11 +112,13 @@ Se nessun codice collocazione è specificato sulla riga di ordine di vendita e n
 
 Negli scenari di combinazione, in cui una parte della quantità deve essere assemblata e un'altra deve essere prelevata dal magazzino, viene creato un minimo di due righe di prelievo magazzino. Una riga di prelievo è relativa alla quantità per l'assemblaggio su ordine. L'altra riga di prelievo dipende da quali collocazioni possono soddisfare la quantità restante dal magazzino. I codici di collocazione nelle due righe vengono compilati in modi diversi come descritto rispettivamente per i due tipi diversi di vendita. Per altre informazioni, vedere la sezione "Scenari di combinazione" in [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
 
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+## <a name="see-also"></a>Vedere anche
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Procedura dettagliata: prelievo e spedizione nelle configurazioni di warehouse di base](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  

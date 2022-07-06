@@ -10,20 +10,22 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 317c8d5da772dbead39330f068df59e1603d525b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517006"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075969"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Assemblaggio su ordine e assemblaggio per magazzino
+
 Gli articoli di assemblaggio possono essere forniti nei seguenti due processi:  
 
 -   Assemblaggio su ordine.  
 -   Assemblaggio per magazzino.  
 
-## <a name="assemble-to-order"></a>Assemblaggio su ordine  
+## <a name="assemble-to-order"></a>Assemblaggio su ordine
+
 In genere si utilizza l'*assemblaggio su ordine* per gli articoli che non si desidera immagazzinare perché si prevede di personalizzarli in base alle richieste del cliente o perché si desidera ridurre i costi di trasporto a magazzino. La funzionalità di supporto include:  
 
 -   Capacità di personalizzare gli articoli di assemblaggio quando si accetta un ordine di vendita.  
@@ -43,7 +45,8 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 
  Per abilitare il processo, il campo **Criteri di assemblaggio** nella scheda articolo deve essere impostato su **Assemblaggio su ordine**.  
 
-## <a name="assemble-to-stock"></a>Assemblaggio per magazzino  
+## <a name="assemble-to-stock"></a>Assemblaggio per magazzino
+
  In genere si utilizza l'*assemblaggio per magazzino* per gli articoli che si desidera assemblare prima delle vendite, ad esempio preparare una campagna di kit e tenerli in stock fino a quando vengono ordinati. Tali articoli sono in genere articoli standard, ad esempio in kit in pacchetti di cui non viene offerta la personalizzazione in base richieste del cliente.  
 
  Nel processo di assemblaggio per magazzino, l'articolo è assemblato senza una richiesta di vendita immediata ed è immagazzinato nella warehouse come articolo di magazzino per la vendita o il consumo successivo come subassemblaggio. Per ulteriori informazioni, vedere [Assemblare articoli](assembly-how-to-assemble-items.md). Da questo punto, l'articolo è prelevato ed elaborato come singolo articolo e viene gestito come un articolo di produzione completato.  
@@ -55,7 +58,8 @@ Quando si immette un articolo da assemblare su ordine in una riga di vendita, vi
 
  Per abilitare il processo, il campo **Criteri di assemblaggio** nella scheda articolo deve essere impostato su **Assemblaggio per magazzino**.  
 
-## <a name="combination-scenarios"></a>Scenari di combinazione  
+## <a name="combination-scenarios"></a>Scenari di combinazione
+
  Il principio generale della gestione assemblaggio consiste nel fatto che una volta combinate in una riga ordine di vendita, le quantità per l'assemblaggio su ordine devono essere spedite prima delle quantità di magazzino.  
 
  Se un ordine di assemblaggio è collegato a una riga ordine di vendita, il valore del campo **Qtà per assemblaggio su ordine** nella riga ordine di vendita viene copiato nel campo **Quantità da assemblare** tramite il campo **Quantità** nell'intestazione dell'ordine di assemblaggio. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -91,7 +95,9 @@ Sulla base di questo esempio, è possibile modificare soltanto il campo **Quanti
 - La quantità minima che è possibile immettere è 1. Ciò avviene in quanto è necessario assemblare almeno un'unità per poter vendere le quattro unità, presupponendo che le tre restanti siano disponibili in magazzino.  
 - La quantità massima che è possibile immettere è 4. Questo avviene per garantire che non sia assemblata una quantità di questo articolo di assemblaggio su ordine maggiore della quantità richiesta per la vendita.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  

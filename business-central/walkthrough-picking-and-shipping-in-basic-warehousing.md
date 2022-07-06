@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0594134585fe85540c7ed87e1588fd218b7a561a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513395"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074460"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedura dettagliata: prelievo e spedizione nelle configurazioni della warehouse di base
 
@@ -67,6 +67,7 @@ Ellen, responsabile warehouse presso CRONUS, imposta la warehouse SUD per la ges
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
 ### <a name="setting-up-the-bin-codes"></a>Impostazione dei codici collocazione
+
 Una volta impostata la posizione, è necessario aggiungere due contenitori.
 
 #### <a name="to-setup-the-bin-codes"></a>Per impostare i codici collocazione
@@ -143,7 +144,9 @@ Nella pagina **Prelievo magazzino** è possibile gestire tutte le attività di w
 
     Le 30 Lampade Amsterdam ora sono registrate come prelevati dalle collocazioni S-01-0001 e S-01-0002 e viene creato un movimento contabile articolo negativo che riflette la spedizione di vendita registrata.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 
 [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Prelevare articoli per la spedizione warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

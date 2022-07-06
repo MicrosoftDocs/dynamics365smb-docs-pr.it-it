@@ -1,8 +1,6 @@
 ---
 title: Impostare informazioni per i contatti| Documenti Microsoft
 description: Descrive i task per specificare le informazioni e i codici, ad esempio, sui settori industriali e le relazioni d'affari, prima di impostare i contatti.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2f325a332093765e35a807bc4a9d4fede88f7150
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516111"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074791"
 ---
 # <a name="set-up-contacts"></a>Setup contatti
 Quando si creano contatti, è possibile immettere informazioni specifiche, ad esempio il settore a cui il contatto appartiene e la relazione d'affari con i contatti.

@@ -9,19 +9,21 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8fb409e9ca0a8540fa2ea997faae790f78086d6e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ec68eac92b29ac0f2877bdbdb957da33311e2e2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520050"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077400"
 ---
 # <a name="set-up-bin-types"></a>Impostare i tipi di collocazioni
+
 È possibile controllare e gestire il flusso degli articoli attraverso le collocazioni definite per determinate attività di warehouse. È possibile associare attività di flusso di base alle collocazioni e definire di conseguenza la modalità con cui una collocazione verrà utilizzata, assegnando un tipo a ciascuna collocazione.  
 
 Esistono sei tipi. È possibile gestire la warehouse con tutti e sei i tipi di collocazione o scegliere di utilizzare solo i tipi di collocazione RECEIVE, PUTPICK, SHIP e QC. Questi quattro tipi di collocazione consentono di creare suggerimenti per supportare il flusso di articoli e di registrare le discrepanze di magazzino.  
 
-## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Per impostare i tipi di collocazione da utilizzare  
+## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Per impostare i tipi di collocazione da utilizzare
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Tipi collocazione**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Tipi collocazione** creare un codice di 10 caratteri per un tipo di collocazione.  
 3.  Selezionare le attività che è possibile svolgere con ogni tipo di collocazione.  
@@ -42,11 +44,14 @@ Di seguito sono riportati i tipi di collocazione che è possibile creare.
 |PUTPICK|Articoli nelle collocazioni suggerite per le funzioni di stoccaggio e di prelievo. Collocazioni di questo tipo hanno presumibilmente valutazioni differenti. È possibile impostare le collocazioni di immagazzinamento a massa come collocazioni di questo tipo con valutazioni basse rispetto alle collocazioni di prelievo ordinarie o alle collocazioni di prelievo in sequenza da inizio ordine.|  
 |QC|Questa collocazione viene utilizzata per le rettifiche di magazzino, se la si specifica nel campo **Codice collocazione rettifica** della scheda Ubicazione. È inoltre possibile impostare collocazioni di questo tipo per gli articoli difettosi e gli articoli che vengono controllati. È possibile spostare articoli in collocazioni di questo tipo se si desidera renderli inaccessibili al normale flusso degli articoli.<br /><br /> **NOTA:** A differenza di tutti gli altri tipi di collocazione, il tipo di collocazione **QC** non dispone di alcuna delle caselle di controllo per la gestione degli articoli selezionate per default. Ciò indica che tutti i contenuti inseriti in una collocazione QC sono esclusi dai flussi degli articoli.|  
 
-## <a name="see-also"></a>Vedi anche
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/set-up-zones-bins/)
+
+## <a name="see-also"></a>Vedere anche
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
-[Gestione assemblaggio](assembly-assemble-items.md)    
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
+[Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

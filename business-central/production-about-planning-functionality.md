@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 693e7a3a5970e681840332f7b6899f1867e36bd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 51f1e2ff31e819c8aa571335b25dc51ec61d6d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512258"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077210"
 ---
 # <a name="about-planning-functionality"></a>Informazioni sulla funzionalità di pianificazione
 
@@ -161,6 +161,8 @@ La pagina **Richiesta di approvvigionamento** viene elenca gli articoli da ordin
 Le righe della richiesta di approvvigionamento contengono informazioni dettagliate relative agli articoli da riordinare. È possibile modificare ed eliminare le righe per rettificare il piano di rifornimento, nonché elaborare ulteriormente le righe utilizzando il processo batch **Esegui messaggi di azione**.
 
 Per dettagli sulla pianificazione con posizioni e trasferimenti, vedere [Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

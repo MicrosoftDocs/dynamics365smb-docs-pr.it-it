@@ -9,18 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: b7be198a27a5c0a95aacb9c6eca988681d097316
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80a34d18c94038ded7bcf405cabd1c67ddf82539
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515227"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078416"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Prelevare per produzione o assemblaggio in configurazioni di warehouse di base
+
 La modalità di stoccaggio dei componenti di prelievo per gli ordini di produzione o assemblaggio dipende dall'impostazione della warehouse come ubicazione. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).
 
-
 ## <a name="pick-for-production-in-basic-warehouse-configurations"></a>Prelevare per la produzione in configurazioni della warehouse di base
+
 Il metodo di consuntivazione influisce anche sul flusso dei componenti in produzione. Per ulteriori informazioni vedere [Componenti ordine produzione a livello in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).
 
 Nelle configurazioni di magazzino avanzate in cui le ubicazioni richiedono sia prelievi che spedizioni, è necessario utilizzare la pagina **Prelievo warehouse** per portare i componenti con il metodo di consuntivazione impostato su *Manuale*, *Prelievo + Avanti*, *Prelievo + Indietro* agli ordini di produzione. Per ulteriori informazioni, vedere [Prelevare per produzione o assemblaggio in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
@@ -40,6 +41,7 @@ Quando le operazioni di produzione sono integrate con i processi della warehouse
 Una condizione preliminare di sistema per il prelievo o la movimentazione di componenti per i documenti di origine è l'esistenza di una richiesta warehouse in uscita per comunicare i componenti necessari all'area di warehouse. La richiesta warehouse in uscita viene creata ogni volta che lo stato dell'ordine di produzione viene modificato e impostato su Rilasciato o quando viene creato un ordine di produzione rilasciato.  
 
 ## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Per prelevare componenti di produzione nelle configurazioni warehouse di base utilizzando Prelievo magazzino
+
 Nelle configurazioni di warehouse di base in cui l'ubicazione è impostata in modo da utilizzare solo il prelievo, è possibile prelevare componenti per le attività di produzione tramite la pagina **Prelievo magazzino**. Per ulteriori informazioni, vedere [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi magazzino**, quindi scegli il collegamento correlato.  
@@ -52,6 +54,7 @@ Nelle configurazioni di warehouse di base in cui l'ubicazione è impostata in mo
 In alternativa, puoi usare **Movimento di magazzino** con riferimento al documento di origine per spostare gli articoli tra i contenitori. Sarà necessario registrare il consumo separatamente. Per ulteriori informazioni, vedi [Registrare il consumo produzione tramite processo batch](production-how-to-post-consumption.md)
 
 ## <a name="pick-for-assembly-in-basic-warehouse-configurations"></a>Prelievo per l'assemblaggio in configurazioni della warehouse di base
+
 Nelle configurazioni di warehouse avanzate in cui le ubicazioni richiedono sia prelievi che spedizioni, è necessario utilizzare la pagina **Prelievo warehouse** per immettere componenti negli ordini di assemblaggio. Per ulteriori informazioni, vedere [Prelevare per produzione o assemblaggio in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
 Nelle configurazioni di warehouse di base è possibile effettuare prelievi per ordini di assemblaggio tramite la pagina **Movimento di magazzino**. 
@@ -59,6 +62,7 @@ Nelle configurazioni di warehouse di base è possibile effettuare prelievi per o
 Nelle configurazioni di magazzino di base in cui l'ubicazione richiede l'elaborazione del prelievo ma non l'elaborazione della spedizione, la pagina **Prelievo di magazzino** viene utilizzata anche per prelevare, assemblare e spedire per l'ordine di vendita in cui gli articoli devono essere assemblati prima di poter essere spediti. Per ulteriori informazioni, vedere la sezione [Gestione di un articolo da assemblare su ordine con prelievi magazzino](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Gestione di articoli da assemblare su ordine con prelievi magazzino
+
 La pagina **Prelievi magazzino** è inoltre utilizzata per prelevare e spedire vendite in cui gli articoli devono essere assemblati prima che possano essere spediti. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).
 
 Gli articoli da spedire non sono presenti fisicamente in una collocazione finché non vengono assemblati e registrati come output in una collocazione nell'area di assemblaggio. Ciò significa che il prelievo di articoli da assemblare su ordine per la spedizione seguono un flusso speciale. Da una collocazione gli addetti alla warehouse trasferiscono gli articoli di assemblaggio al dock di spedizione, quindi registrano il prelievo magazzino. Tramite il prelievo magazzino registrato vengono quindi registrati l'output di assemblaggio, il consumo di componenti e la spedizione di vendita.
@@ -78,15 +82,19 @@ Se nessun codice collocazione è specificato sulla riga di ordine di vendita e n
 Negli scenari di combinazione, in cui una parte della quantità deve essere assemblata e un'altra deve essere prelevata dal magazzino, viene creato un minimo di due righe di prelievo magazzino. Una riga di prelievo è relativa alla quantità per l'assemblaggio su ordine. L'altra riga di prelievo dipende da quali collocazioni possono soddisfare la quantità restante dal magazzino. I codici di collocazione nelle due righe vengono compilati in modi diversi come descritto rispettivamente per i due tipi diversi di vendita. Per altre informazioni, vedere la sezione "Scenari di combinazione" in [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="filling-the-consumption-bin"></a>Rifornimento della collocazione di consumo
+
 Questo diagramma di flusso illustra in che modo il campo **Cod. collocazione** nelle righe del componente dell'ordine di produzione viene compilato in base al setup dell'ubicazione.
 
 ![Diagramma di flusso collocazione.](media/binflow.png "BinFlow")
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione di Gestione warehouse](warehouse-setup-warehouse.md)     
-[Gestione assemblaggio](assembly-assemble-items.md)    
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
+[Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

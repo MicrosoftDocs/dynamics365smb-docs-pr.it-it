@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e551b7810bba9e75320ca11a2126b15f3b91d812
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c5b4f6835618e57212ac7b3b4a9ecf1c672052f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521990"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077972"
 ---
 # <a name="work-with-responsibility-centers"></a>Utilizzare i centri di responsabilità
 
@@ -55,10 +55,12 @@ Per poter procedere a queste impostazioni è necessario assegnare i centri di re
 > [!NOTE]  
 > Gli utenti possono visualizzare solo i documenti registrati relativi al proprio centro di responsabilità. Tuttavia, possono visualizzare tutti i movimenti contabili e passare ad altri documenti registrati dai movimenti contabili.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/set-up-responsibility-centers/)
+
 ## <a name="see-also"></a>Vedere anche
 
 [Impostazione del magazzino](inventory-setup-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  

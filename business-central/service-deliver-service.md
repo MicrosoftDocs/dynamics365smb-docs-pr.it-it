@@ -1,8 +1,6 @@
 ---
 title: Panoramica dei task per fornire assistenza | Documenti Microsoft
 description: Descrive i task da impostare per garantire la fornitura di un servizio di qualità e il rispetto degli accordi con i clienti.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128480"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077816"
 ---
 # <a name="delivering-service"></a>Fornitura dell'assistenza
 [!INCLUDE[prod_short](includes/prod_short.md)] offre una serie di funzionalità pensate per agevolare la fornitura dei servizi di assistenza sulla base dei contratti creati e degli ordini di assistenza a cui l'azienda si è impegnata a far fronte. Grazie alla finestra **Quadro attività** è facile per i tecnici dell'assistenza e gli addetti allo smistamento delle operazioni di assistenza individuare gli ordini di assistenza inevasi. La finestra **Quadro attività** consente infatti a colpo d'occhio di evidenziare gli ordini in corso e gli ordini portati a termine.  

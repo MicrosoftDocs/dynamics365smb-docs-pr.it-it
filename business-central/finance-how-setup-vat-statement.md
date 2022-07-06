@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383699"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075527"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Impostazione di definizioni di dichiarazione IVA e di nomi delle dichiarazioni IVA
 
@@ -45,10 +45,12 @@ Una volta definita una dichiarazione IVA, è possibile visualizzarla in anteprim
 4. Per le righe il cui campo **Tipo** contiene il valore **Totale movimenti IVA** è possibile visualizzare un elenco dei movimenti IVA selezionando l'importo nel campo **Importo colonna**.
 5. È possibile utilizzare la personalizzazione per mostrare più campi nelle righe. Ad esempio, l'importo imponibile ad esigibilità differita e l'importo IVA ad esigibilità differita, se si utilizza l'IVA ad esigibilità differita.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
 
 [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)  
-[Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)      
+[Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  
 [Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  
 [Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)  
 [Funzionalità locale in Business Central](about-localization.md)

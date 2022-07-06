@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382821"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075226"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/lotto
 
@@ -189,7 +189,8 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     A questo punto, vendere le biciclette. In primo luogo vendere la bicicletta da corsa con NS1 a Selangorian Ltd.  
 
-### <a name="to-sell-the-end-items"></a>Per vendere gli articoli finali  
+### <a name="to-sell-the-end-items"></a>Per vendere gli articoli finali
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**, quindi creare un ordine di vendita compilando i campi seguenti.  
 
@@ -228,10 +229,12 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     I dati necessari per illustrare le funzionalità Tracciabilità articolo e Trova movimenti sono pronti.  
 
-## <a name="tracing-from-usage-to-origin"></a>Tracciabilità dall'utilizzo all'origine  
+## <a name="tracing-from-usage-to-origin"></a>Tracciabilità dall'utilizzo all'origine
+
  Il reparto vendite comunica al manager qualità che il numero seriale della bicicletta restituita, l'articolo 1002, è NS1. Con questa informazione di base può determinare dove la bicicletta da corsa finita è stata utilizzata l'ultima volta, in questo caso nella spedizione a Selangorian Ltd. Il manager qualità deve quindi tracciare all'indietro l'origine per stabilire il lotto di provenienza del telaio difettoso e il relativo fornitore.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Per risalire al lotto che includeva il telaio difettoso e al relativo fornitore  
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Per risalire al lotto che includeva il telaio difettoso e al relativo fornitore
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tracciabilità articolo**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Tracciabilità articolo** immettere **NS1** nel campo **Filtro nr. seriale**, quindi immettere **1002** nel campo **Filtro articolo**.  
 3.  Mantenere l'impostazione di default **Solo articoli tracciati** nel campo **Mostra componenti** e il metodo di analisi **Utilizzo - Origine** nel campo **Metodo analisi**.  
@@ -257,7 +260,8 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
      Il primo task di gestione dei difetti tramite la pagina **Tracciabilità articolo** è stato completato. Il manager qualità deve ora determinare se altri documenti registrati hanno gestito telai da corsa del LOTTO1.  
 
-## <a name="tracing-from-origin-to-usage"></a>Tracciabilità dall'origine all'utilizzo  
+## <a name="tracing-from-origin-to-usage"></a>Tracciabilità dall'origine all'utilizzo
+
  Il manager qualità ha stabilito che i telai da corsa difettosi appartenevano al LOTTO1. Deve ora trovare eventuali altre biciclette prodotte con i telai difettosi in modo da fare un richiamo sull'ordine o bloccarlo.  
 
  Un modo per preparare questo task di analisi nella pagina **Tracciabilità articolo** consiste nell'immettere manualmente LOTTO1 nel campo **Filtro nr. lotto** e 2000 nel campo **Filtro articolo**. Tuttavia, questa procedura dettagliata utilizza la funzione **Analizza opposto - da Riga** .  
@@ -280,7 +284,8 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     Il secondo task di gestione dei difetti tramite la pagina **Tracciabilità articolo** è stato completato. Poiché la pagina **Tracciabilità articolo** è basata unicamente sui movimenti registrati, il manager qualità deve passare alla pagina **Trova movimenti** per assicurarsi che il LOTTO1 non venga utilizzato nei documenti non registrati.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Ricerca di tutti i record di un numero seriale/di lotto  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Ricerca di tutti i record di un numero seriale/di lotto
+
  Tramite la pagina **Tracciabilità articolo** il manager qualità ha stabilito che i telai da corsa difettosi appartenevano al LOTTO1, ha individuato il loro fornitore e le transazioni registrate in cui sono state utilizzate. Deve ora determinare se il LOTTO1 esiste in documenti aperti passando alla pagina **Trova movimenti** in cui può eseguire una ricerca in tutti i record di database.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Per trovare tutte le occorrenze del LOTTO1 nei record non registrati, ad esempio ordini aperti  
@@ -298,12 +303,14 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
  La procedura dettagliata relativa all'utilizzo della pagina **Trova movimenti** per la gestione dei difetti in combinazione con la pagina **Tracciabilità articolo** è stata completata.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Vedere anche
-[Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
+
+[Utilizzare i numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
 [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  
 [Trova movimenti](ui-find-entries.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513421"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076749"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedura dettagliata: Gestione dei progetti con le commesse
 
@@ -24,54 +24,63 @@ In questa procedura dettagliata vengono presentate le funzionalità di gestione 
 
  Nella procedura è illustrata l'impostazione di una nuova commessa oltre ad alcune attività comuni, come la gestione dei prezzi fissi, i pagamenti rateali, la registrazione di fatture relative alle commesse e la copia di commesse.  
 
-## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata  
+## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
+
  In questa procedura dettagliata sono illustrati i task seguenti:  
 
-### <a name="setting-up-a-job"></a>Impostazione di una commessa  
+### <a name="setting-up-a-job"></a>Impostazione di una commessa
+
  Con l'impostazione della struttura del budget per le commesse, creare una commessa è semplice. Questa procedura dettagliata copre le procedure riportate di seguito:  
 
 - Impostazione di righe di task della commessa e di pianificazione.  
 - Creazione di prezzi specifici della commessa per articoli, risorse e conti di contabilità generale.  
 - Fatturazione da una commessa  
 
-### <a name="handling-fixed-prices"></a>Gestione dei prezzi fissi  
+### <a name="handling-fixed-prices"></a>Gestione dei prezzi fissi
+
  Nelle commesse è possibile gestire i prezzi fissi e i prezzi per i servizi o i beni concordati in anticipo con i clienti. In questa procedura dettagliata è possibile effettuare quanto segue:  
 
 - Come si determinano i valori di contratto e della fattura  
 - Come ammettere nella pianificazione lavoro extra non fatturato  
 
-### <a name="copying-a-job"></a>Copia di una commessa  
+### <a name="copying-a-job"></a>Copia di una commessa
+
  Questa parte della procedura dettagliata si incentra sulla copia, parziale o totale, di una commessa al fine di ridurre l'immissione manuale di dati e garantire maggior accuratezza. È incluso quanto segue:  
 
 - Copia di parte di una commessa a una nuova commessa  
 - Copia di prezzi specifici di una commessa  
 - Copia di righe di pianificazione  
 
-### <a name="making-payment-by-installment"></a>Pagamenti rateali  
+### <a name="making-payment-by-installment"></a>Pagamenti rateali
+
  Nel caso di progetti di grande respiro, costosi e che si protraggono per lunghi periodi, il cliente spesso concorda con il fornitore un pagamento rateale. Questo scenario tratta dell'impostazione di questi pagamenti:  
 
 - Creazione di un pagamento rateale per una commessa  
 - Fatturazione dei pagamenti ai clienti  
 - Contabilizzazione dell'utilizzo in una commessa con pagamento rateale  
 
-## <a name="roles"></a>Ruoli  
+## <a name="roles"></a>Ruoli
+
  Questa procedura dettagliata include task per i seguenti ruoli:  
 
 - Manager progetto  
 - Membro del team di progetto  
 
-## <a name="prerequisites"></a>Prerequisiti  
+## <a name="prerequisites"></a>Prerequisiti
+
  Prima di svolgere le attività di questa procedura dettagliata, è necessario:  
 
 - Installare il database dimostrativo CRONUS.
 - Creare dati di esempio seguendo la procedura descritta nella sezione seguente.  
 
-## <a name="story"></a>Scenario  
+## <a name="story"></a>Scenario
+
 Questa procedura dettagliata è incentrata su CRONUS, una società che si occupa di progettazione, consulenza e installazione di nuove infrastrutture, ad esempio aule conferenze e uffici, complete di mobilia e accessori. La maggior parte del lavoro è svolta in base a progetti. Ezio Alboni è un manager di progetto in CRONUS. Utilizza le commesse per avere una panoramica di ciascuna commessa in corso avviata da CRONUS, nonché delle commesse completate. Solitamente è la persona che definisce gli affari con i clienti e inserisce i dettagli di base della commessa, cioè righe di task e di pianificazione e prezzi, in [!INCLUDE[prod_short](includes/prod_short.md)]. Trova che creare, gestire e analizzare i dati sia semplice. Alboni inoltre apprezza il modo in cui [!INCLUDE[prod_short](includes/prod_short.md)] consente la copia delle commesse e i pagamenti rateali.
 
  Cinzia Di Marco fa parte del team alle dirette dipendenze di Alboni ed è responsabile del monitoraggio quotidiano della commessa. Immettere il proprio lavoro oltre al lavoro eseguito dai tecnici in ogni task. Registra gli articoli che sono stati utilizzati e altri costi sostenuti.  
 
-## <a name="preparing-sample-data"></a>Preparazione dei dati di esempio  
+## <a name="preparing-sample-data"></a>Preparazione dei dati di esempio
+
  Per preparare questa procedura dettagliata, è necessario aggiungere Cinzia come nuova risorsa.  
 
 ### <a name="to-prepare-the-sample-data"></a>Per preparare i dati di esempio  
@@ -109,7 +118,8 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 4.  Scegliere il pulsante **OK** per salvare le modifiche.
 
-## <a name="setting-up-a-job"></a>Impostazione di una commessa  
+## <a name="setting-up-a-job"></a>Impostazione di una commessa
+
  In questo scenario, CRONUS si è aggiudicata un appalto dal cliente Progressive Home Furnishings per la progettazione di un'aula conferenze e di rappresentanza. Il cliente ha sede negli Stati Uniti e il progetto richiede software particolare. Il manager di progetto raggiunge un accordo con il cliente e crea una commessa per il contratto.  
 
 ### <a name="to-set-up-a-job"></a>Per impostare una commessa  
@@ -202,7 +212,8 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 4. Chiudere la pagina. I totali vengono aggiornati nella pagina **Righe task commessa** .  
 
-## <a name="calculating-remaining-usage"></a>Calcolo dell'utilizzo residuo  
+## <a name="calculating-remaining-usage"></a>Calcolo dell'utilizzo residuo
+
  Cinzia, il membro del team, lavora alla commessa da qualche tempo e desidera registrare le sue ore e l'utilizzo nella commessa. Non ha lavorato più ore di quanto concordato in origine con il cliente. Utilizza il processo batch **Calc. utilizzo residuo** per calcolare l'utilizzo residuo della commessa in una registrazione di commessa. Per ciascun task viene calcolata la differenza tra l'utilizzo programmato di articoli, risorse e spese di contabilità generale e l'utilizzo effettivo registrato nei movimenti contabili delle commesse. L'utilizzo residuo viene quindi visualizzato nelle registrazioni delle commesse, da cui è possibile eseguirne la registrazione.  
 
 ### <a name="to-calculate-remaining-usage"></a>Per calcolare l'utilizzo residuo  
@@ -219,7 +230,8 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 Le righe sono così registrate.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Creazione e registrazione di una fattura di vendita per una commessa  
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Creazione e registrazione di una fattura di vendita per una commessa
+
  Quindi, Cinzia può creare una nuova fattura per l'intera commessa o per parte di una commessa. È anche possibile allegare la fattura a un'altra fattura per lo stesso cliente e per la stessa commessa. In questo caso, può procedere a fatturare l'intera commessa, poiché il progetto è completato.  
 
 ### <a name="to-create-a-job-sales-invoice"></a>Per creare una fattura di vendita per una commessa  
@@ -252,7 +264,8 @@ Le righe sono così registrate.
 2.  Scegliere l'azione **Statistiche**. È possibile esaminare informazioni dettagliate su prezzi, costi e margini delle commesse sia in valuta locale che estera.  
 3.  Scegliere il pulsante **Chiudi** per chiudere la pagina **Statistiche commessa**.  
 
-## <a name="handling-fixed-prices"></a>Gestione dei prezzi fissi  
+## <a name="handling-fixed-prices"></a>Gestione dei prezzi fissi
+
  CRONUS ha ottenuto un contratto per l'allestimento di alcune aule per conferenze. Come manager del progetto, Alboni vuole una panoramica precisa dei task necessari per la commessa con i costi previsti e sostenuti associati per ciascun task. Inoltre, desidera conoscere il prezzo totale a contratto della commessa e l'importo fatturato finora. Ha concluso un contratto con il cliente in cui sono stati concordati prezzi fissi per la commessa.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Per gestire i prezzi fissi nelle commesse  
@@ -443,15 +456,18 @@ Le procedure riportate di seguito mostrano come creare una nuova commessa, impos
 2.  Nella pagina **Crea fattura di vendita**, impostare la data odierna come data di registrazione, specificare **Per task** e fare clic sul pulsante **OK** per creare una fattura con i dati di default. Fare clic sul pulsante **OK** per chiudere la pagina di conferma.  
 3.  Scegliere l'azione **Ottieni nota credito/fattura vendita**. Nella fattura di vendita è possibile visualizzare che nella fattura è incluso solo il primo acconto. È ora possibile inviarla al cliente come concordato.  
 
-## <a name="next-steps"></a>Passaggi successivi  
+## <a name="next-steps"></a>Passaggi successivi
+
  In questa procedura dettagliata sono state riprodotte alcune delle operazioni di base relative alla gestione delle commesse in [!INCLUDE[prod_short](includes/prod_short.md)]. Si è appreso come creare una nuova commessa, come copiare una commessa e come gestire i pagamenti. Inoltre, è stato illustrato come tenere traccia delle ore e creare le fatture.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/create-jobs/)
 
- [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   
- [Impostazione della Gestione progetti](projects-setup-projects.md)   
- [Utilizzare le risorse](projects-how-use-resources.md)   
- [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)   
+## <a name="see-also"></a>Vedere anche
+
+ [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
+ [Impostazione della Gestione progetti](projects-setup-projects.md)  
+ [Utilizzare le risorse](projects-how-use-resources.md)  
+ [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)  
  [Fatturazione di commesse](projects-how-invoice-jobs.md)  
  [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

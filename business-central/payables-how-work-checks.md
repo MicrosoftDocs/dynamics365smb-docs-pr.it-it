@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1b4d3f152f74e1bba9f30e7da45e1b910301b4df
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f9b819205fe3292e7a3de5e8de232616a511ca24
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520232"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077192"
 ---
 # <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
 
@@ -37,6 +37,7 @@ La seguente procedura mostra come pagare un fornitore con un assegno automatico 
 È possibile stampare fino a 10 fatture in una pagina per una matrice. Se un assegno si applica a più di 10 fatture, quando si stampa la matrice l'assegno viene annullato alla prima pagina e viene stampata la parola ANNULLATO sull'assegno. Quindi si stampa il resto delle fatture e l'importo totale degli assegni nella seconda pagina.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Per pagare una fattura fornitore con un assegno automatico
+
 Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi sono simili al rimborso dei clienti tramite assegno.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
@@ -56,6 +57,7 @@ Vengono creati movimenti contabili fornitori collegati completamente e movimenti
 > Se si desidera stampare e pagare gli assegni provenienti da vari conti correnti bancari utilizzando più di una valuta, eseguire un singolo processo batch **Stampa assegno** per ogni valuta, specificando il conto corrente bancario appropriato.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Per annullare assegni stampati che non sono registrati
+
 È possibile annullare gli assegni non registrati dopo che sono stati stampati utilizzando l'azione **Annullo assegno** della pagina **Registrazioni pagamenti**.
 
 1. Nella pagina **Registrazioni pagamenti** scegliere **Annullo assegno**, quindi scegliere gli assegni da annullare.
@@ -74,11 +76,15 @@ Una volta che i pagamenti tramite assegno sono stati registrati, è possibile an
 5. Scegliere il pulsante **OK**.
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Per visualizzare un riepilogo degli assegni registrati
+
 Se si desidera verificare gli assegni registrati, ad esempio per verificare più assegni pagati a un fornitore, è possibile utilizzare il report **C/C bancario - Dettaglio assegni**.
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancario - Dettaglio assegni**, quindi scegli il collegamento correlato.
 2. Impostare i filtri desiderati quindi scegliere il pulsante **Anteprima**.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/use-checks-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
+
 [Effettuare i pagamenti](payables-make-payments.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  

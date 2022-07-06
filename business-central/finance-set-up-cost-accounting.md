@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520336"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074876"
 ---
 # <a name="setting-up-cost-accounting"></a>Impostazione della contabilità industriale
 
@@ -141,7 +141,8 @@ Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il
 * Trasferendo i valori dimensioni nella contabilità generale al grafico degli oggetti di costo. È possibile apportare tutte le rettifiche necessarie dopo il trasferimento.  
 * Creando un nuovo grafico dell'oggetto di costo che sia indipendente dalla contabilità generale o aggiungendo un nuovo oggetto di costo a un grafico degli oggetti di costo esistente. È necessario creare ogni oggetto di costo singolarmente.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Per trasferire i valori dimensioni dalla contabilità generale al grafico degli oggetti di costo  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Per trasferire i valori dimensioni dalla contabilità generale al grafico degli oggetti di costo
+
 1.  Impostare una dimensione come dimensione dell'oggetto di costo nella pagina **Aggiorna dimensioni contabilità industriale**. Solo i valori di questa dimensione vengono trasferiti.  
 2.  Scegli la ![lampadina che apre la funzione Dimmi 3](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Piano degli oggetti di costo**, quindi scegli il collegamento correlato.  
 3.  Scegliere l'azione **Ottieni oggetti di costo da dimensione** per trasferire i valori dimensioni al piano degli oggetti di costo. Con la funzione è possibile trasferire i valori dimensioni definiti nel passaggio 1.  
@@ -151,7 +152,8 @@ Gli oggetti di costo sono i progetti, i prodotti o i servizi di una società. Il
 
 Il grafico degli oggetti di costo contiene ora tutti i valori dimensioni specificati della contabilità generale e include i titoli e i subtotali.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Per creare nuovi oggetti di costo nella pagina Piano degli oggetti di costo  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Per creare nuovi oggetti di costo nella pagina Piano degli oggetti di costo
+
 È possibile impostare e gestire oggetti di costo nella scheda **Scheda oggetto di costo** o nella pagina **Piano degli oggetti di costo**. In questa procedura è possibile impostare gli oggetti di costo nella pagina **Piano degli oggetti di costo**.  
 
 1.  Aprire la pagina **Piano dei tipi di costo** in modalità di modifica.  
@@ -169,9 +171,11 @@ Il grafico degli oggetti di costo contiene ora tutti i valori dimensioni specifi
 >  Se sono state immesse definizioni nei campi **Totale da/a** per gli oggetti di costo **Fine-Totale** prima di eseguire la funzione di indentazione, è necessario inserirle di nuovo. Questa funzione consente di sovrascrivere i valori in tutti i campi **Fine-Totale**.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definizione dei centri di costo e degli oggetti di costo per il piano dei conti
+
 È possibile trasferire automaticamente i movimenti delle entrate e delle spese della contabilità generale alla contabilità industriale per ogni registrazione di contabilità generale o tramite un processo batch. Durante il trasferimento, con [!INCLUDE[prod_short](includes/prod_short.md)] è possibile trasferire solo i movimenti che sono già stati collegati a un centro di costo o a un oggetto di costo. Per stabilire un trasferimento significativo, è necessario assicurarsi che i centri di costo e gli oggetti di costi siano correttamente definiti.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definizione dei valori dimensioni di default per i conti di contabilità generale  
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definizione dei valori dimensioni di default per i conti di contabilità generale
+
 Per ogni conto di contabilità generale, è possibile definire i valori dimensioni di default nella tabella **Dimensione di default**. Nell'esempio seguente viene illustrato come sia sempre necessaria la presenza di un centro di costo REPARTO e mai quella di un oggetto di costo PROGETTO quando si effettua una registrazione in un conto di contabilità generale.  
 
 |**Codice dimensione**|**Registrazione valore**|  
@@ -179,7 +183,8 @@ Per ogni conto di contabilità generale, è possibile definire i valori dimensio
 |Reparto|Codice obbligatorio|  
 |Progetto|Nessun Cod.|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definizione dei valori dimensioni per i costi generali e diretti  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definizione dei valori dimensioni per i costi generali e diretti
+
  È possibile trasferire i costi generali a un centro di costo e i costi diretti a un oggetto di costo. Nella tabella seguente viene mostrata la combinazione ottimale dei valori di impostazione delle dimensioni.  
 
 |Trasferisci a|Registrazione del centro di costo|Registrazione dell'oggetto di costo|  
@@ -190,9 +195,12 @@ Per ogni conto di contabilità generale, è possibile definire i valori dimensio
 > [!NOTE]  
 >  Per garantire che il centro di costo e l'oggetto di costo predefiniti impostati nella contabilità generale vengano riportati automaticamente nella contabilità industriale, selezionare la casella di controllo **Verifica registrazioni CG** nella pagina Setup contabilità industriale.
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
+
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
-[Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)   
+[Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)  
 [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d421392a4428bc227cdbf6c5532d87e7360fe189
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7bc0d1455960b1550c6a8d9fc54c20112b3e9f63
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518993"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074561"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utilizzare gli ordini di vendita programmati o gli ordini di acquisto programmati
 
@@ -56,7 +56,8 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 - L'ordine di vendita programmato fatturato rimane nel sistema fino a quando non viene eliminato, eliminando i singoli ordini programmati o eseguendo il processo batch **Elimina ord. ven. progr. fatt.**.  
 - Se un cliente è anche registrato come contatto nell'area di applicazione Marketing ed è stato specificato un codice modello di interazione per l'ordine di vendita programmato nella pagina **Setup marketing**, viene registrata un'interazione nella tabella Mov. log interazione quando si seleziona **Stampa** per stampare l'ordine di vendita programmato.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Per visualizzare lo stato di un ordine di vendita programmato  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Per visualizzare lo stato di un ordine di vendita programmato
+
 È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche ordini vendita programmati**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di vendita programmato.  
 
 1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
@@ -68,7 +69,8 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 - Nella Scheda dettaglio **Pagamento anticipato** è possibile visualizzare informazioni di riepilogo relative agli importi prepagati.  
 - Nella Scheda dettaglio **Fornitore** è possibile visualizzare le informazioni principali relative al fornitore.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pere visualizzare le righe degli ordini di vendita programmati registrate e non registrate   
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Pere visualizzare le righe degli ordini di vendita programmati registrate e non registrate
+
 Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di origine ed eventuali altri documenti di vendita, viene mantenuto dopo la registrazione come lista delle righe della fattura di vendita registrate e non registrate.  
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.
@@ -93,7 +95,9 @@ Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di ori
 
 5. Nella pagina **Righe acquisto** scegliere l'azione **Mostra documento** per visualizzare il movimento.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Creare ordini di assemblaggio programmati](assembly-how-to-create-blanket-assembly-orders.md)  

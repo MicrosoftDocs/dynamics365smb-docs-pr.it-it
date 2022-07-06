@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 991df58fde5f525772d5b9eeadbf802429965575
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dcc7b1586f50d3d9436d237592279007f38c05fa
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517422"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077243"
 ---
 # <a name="trace-item-tracked-items"></a>Tracciare gli articoli tracciati
+
 È possibile analizzare dove è stato utilizzato un articolo tracciato, nonché ottenere informazioni su come e quando l'articolo è stato ricevuto o prodotto, trasferito, venduto, consumato o reso. È inoltre possibile trovare tutte le istanze correnti di un numero seriale o di un numero di lotto specifico nel database. A tale scopo si utilizzano le funzionalità Tracciabilità articolo e [Trova movimenti](ui-find-entries.md).  
 
 Queste funzionalità possono essere particolarmente utili in ambito di controllo qualità quando è necessario determinare quali clienti hanno ricevuto prodotti con un numero di lotto specifico o quando si desidera stabilire da quale lotto proviene un componente difettoso.  
@@ -63,6 +64,8 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 2. Scegliere **Azioni** > **Trova per** > **Trova per riferimento articolo**.
 3. Nei campi **Nr. lotto** e **Nr. seriale**, immettere i numeri di tracciabilità articolo che si desidera analizzare.  
 4. Scegliere l'azione **Trova** per trovare tutte le istanze del numero seriale o di lotto nel database.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Vedere anche
 

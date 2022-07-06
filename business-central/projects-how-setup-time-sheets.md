@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: b9453285ce1bf18f3eeef3c3148f6dd00921c03f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1c5314d8aba0b31d02491da1e588f7a23c83a38
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510819"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078962"
 ---
 # <a name="set-up-time-sheets"></a>Impostare fogli presenze
 
@@ -94,10 +94,12 @@ Le sezioni seguenti descrivono come impostare i fogli di presenza se non si usa 
 > [!NOTE]  
 > Non è possibile modificare l'ID del responsabile approvazione del foglio presenze in caso di fogli presenze non ancora elaborati e con lo stato **Inviato** o **Aperto**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
 ## <a name="see-also"></a>Vedere anche
 
 [Utilizzare i fogli presenze per i progetti](projects-how-use-time-sheets.md)  
-[Per creare fogli di presenza](projects-how-use-time-sheets.md#to-create-time-sheets)  
+[Come creare fogli di presenza](projects-how-use-time-sheets.md#to-create-time-sheets)  
 [Registrare il consumo o l'uso per i progetti](projects-how-record-job-usage.md)  
 [Impostazione della Gestione progetti](projects-setup-projects.md)  
 [Gestione progetti](projects-manage-projects.md)  

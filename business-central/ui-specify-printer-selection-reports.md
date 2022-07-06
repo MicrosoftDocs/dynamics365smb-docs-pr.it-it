@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655286"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075657"
 ---
 # <a name="set-up-printers"></a>Configurare le stampanti
 
@@ -269,11 +269,14 @@ Tu o l'amministratore potete anche usare la pagina **Selezioni stampante** per d
 > Altre selezioni stampante specifiche hanno la precedenza su una selezione stampante generale. Ad esempio, una selezione di stampante che ha valori nei campi **ID utente**, **ID report** e **Nome stampante** ha la precedenza su una selezione di stampante che ha voci vuote nei campi **ID utente** o **ID report**.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Scelta della stampante durante l'esecuzione di un report
+
 Invece di utilizzare la stampante predefinita durante l'esecuzione di un report, è possibile ignorare questa impostazione dalla pagina della richiesta. Basta scegliere la stampante che vuoi utilizzare per questa chiamata del report nel menu a discesa **Stampante**.
 
 ### <a name="sizing-print-jobs"></a>Ridimensionamento dei lavori di stampa
 
 La stampa cloud è progettata per documenti di dimensioni ragionevoli. La maggior parte dei servizi cloud, inclusi PrintNode e HP ePrint, ha un limite di 10 MB per processo. Se è necessario stampare report più grandi, potrebbe essere necessario dividerli in più stampe.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d4d2134945f0beb15853bc9cca227cde74285c9d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520076"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074513"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto
 
@@ -120,6 +120,8 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] comprende
 È possibile definire le variazioni dei workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
 
 Se uno scenario aziendale richiede un evento o una risposta del workflow non supportati, un partner Microsoft deve implementarli tramite il codice o e possibile impostare un workflow utilizzando Power Automate. Per ulteriori informazioni, vedi rispettivamente [Usare [!INCLUDE[prod_short](includes/prod_short.md)] in un flusso di lavoro automatizzato](across-how-use-financials-data-source-flow.md) o [Eventi in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) nella guida per sviluppatori.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Vedere anche
 

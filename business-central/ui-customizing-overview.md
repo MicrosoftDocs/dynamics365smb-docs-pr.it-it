@@ -10,14 +10,15 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01fd408e08dab78667eaa58bac55f39087b27f74
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 7a08a9f53329693a44a7da1e293561d27fff4b78
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655464"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075787"
 ---
 # <a name="customize-business-central"></a>Personalizzare Business Central
+
 Sono disponibili diversi metodi per personalizzare l'applicazione per consentire all'utente e ai colleghi di accedere alle funzioni, alle funzionalità e ai dati maggiormente necessari, nel modo più adatto alle proprie attività quotidiane. Gli utenti che possono vedere i cambiamenti dipendono dalle operazioni intraprese, come descritto nella seguente tabella.
 
 > [!NOTE]
@@ -30,9 +31,12 @@ Sono disponibili diversi metodi per personalizzare l'applicazione per consentire
 |Attivare i colori nelle gestioni ruolo utente per segnalare l'importanza.|Impostare le pile che vengono visualizzate nelle gestioni ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori presenti nelle pile.|Tutti gli utenti in una specifica società.|[Impostare un indicatore colorato nelle pile](admin-how-set-up-colored-indicator-on-cues.md)|
 |Installare un'estensione|Le estensioni sono come piccole applicazioni che aggiungono funzionalità, cambiano il comportamento, forniscono l'accesso a nuovi servizi online e molto altro. Ad esempio, Microsoft fornisce un'estensione che consente l'integrazione con PayPal Payments Standard.|Tutti gli utenti in tutte le società.|[Personalizzazione utilizzando le estensioni](ui-extensions.md)|
 > [!NOTE]
-> Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[prod_short](includes/prod_short.md)] presuppongono l'esperienza **Premium**, ovvero le descrizioni riguardano l'intero ambito degli elementi dell'interfaccia utente. Di conseguenza, gli utenti con interfaccia **Essential**, in alcuni argomenti potrebbero leggere informazioni su funzionalità ed elementi dell'interfaccia utente che non sono visibili nell'interfaccia utente. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
+> Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[prod_short](includes/prod_short.md)] presuppongono l'esperienza **Premium**, ovvero le descrizioni riguardano l'intero ambito degli elementi dell'interfaccia utente. Di conseguenza, gli utenti con interfaccia **Essential**, in alcuni argomenti potrebbero leggere informazioni su funzionalità ed elementi dell'interfaccia utente che non sono visibili nell'interfaccia utente. Per ulteriori informazioni, vedi [Modifica delle funzionalità visualizzate](ui-experiences.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

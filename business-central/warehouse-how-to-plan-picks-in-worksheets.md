@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515201"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078338"
 ---
 # <a name="plan-picks-in-worksheets"></a>Pianificare prelievi nei prospetti
 
@@ -33,6 +33,7 @@ Nella pagina **Prospetti prelievi** puoi impostare le liste di prelievo che aiut
 > Per informazioni sul prelievo generale di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio non fa parte di una spedizione vendita, vedere [Prelevare per assemblaggio o produzione in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Ordinamento delle righe su un prospetto prelievi
+
 Puoi ordinare le righe per articolo, numero di scaffale, documento di origine, data di scadenza o destinazione. Di seguito vengono forniti alcuni esempi di ordinamento utili.
 
 * Se effettui l'ordinamento in base alla data di scadenza, puoi scegliere di eliminare tutte le righe, eccetto quelle che richiedono attenzione immediata. Le righe meno urgenti non vengono di fatto eliminate, ma vengono semplicemente inviate di nuovo al prospetto **Selezione prelievo**. Le righe vengono ordinate in base alla data di scadenza alla creazione del prelievo e, pertanto, puoi assegnare direttamente il prelievo a un addetto.
@@ -52,11 +53,13 @@ Puoi ordinare le righe per articolo, numero di scaffale, documento di origine, d
 8. Scegliere l'azione **Stampa** per stampare le istruzioni per il prelievo.  
 9. Dopo avere completato il prelievo, scegli l'azione **Registra**.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
 ## <a name="see-also"></a>Vedere anche
 
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

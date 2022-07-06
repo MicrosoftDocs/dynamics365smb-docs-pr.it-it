@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46c81fa887af70e7a2f516df38ec003392b1dabd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517656"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079352"
 ---
 # <a name="use-approval-workflows"></a>Utilizzare i workflow di approvazione
 
@@ -82,6 +82,8 @@ La funzione **Invia notifiche di approvazione scadute** cerca tutte le richieste
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Richieste di approvazione scadute**, quindi scegli il collegamento correlato.
 2. Nella pagina **Richieste di approvazione scadute**, scegliere l'azione **Invia notifiche di approvazioni scadute**.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Vedere anche
 

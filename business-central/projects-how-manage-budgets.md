@@ -10,14 +10,15 @@ ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c34a4dd34ab34c7d1a5b02686618ab5f95957cbd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc3d630e232e560987daefaabbe7ea8b5ddc681c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513889"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075371"
 ---
 # <a name="manage-job-budgets"></a>Gestire budget per le commesse
+
 È possibile impostare un budget per ogni commessa. Il budget viene utilizzato per pianificare le risorse allocate a una commessa. Il budget può essere generale con pochi movimenti oppure può contenere più movimenti divisi in livelli di attività. È quindi possibile confrontare gli importi previsti con l'utilizzo effettivo come registrato nelle registrazioni commesse. Monitorando le differenze tra l'utilizzo effettivo e quello a budget, è possibile controllare un progetto in corso e migliorare la qualità di commesse future riducendo il rischio di sottovalutazione dei costi.
 
 Di seguito viene descritto come stimare i costi a budget durante la pianificazione. Per informazioni su come registrare i prezzi e i costi di commesse a budget rispetto a quelli effettivi, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).  
@@ -48,11 +49,14 @@ Nella pagina **Scheda commessa**, è possibile ora vedere un riepilogo dei costi
 
 Per informazioni su come registrare i prezzi e i costi di commesse a budget rispetto a quelli effettivi, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/set-up-job-planning-lines/)
+
 ## <a name="see-also"></a>Vedere anche
+
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
-[Acquisti](purchasing-manage-purchasing.md)         
-[Vendite](sales-manage-sales.md)      
+[Acquisti](purchasing-manage-purchasing.md)  
+[Vendite](sales-manage-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

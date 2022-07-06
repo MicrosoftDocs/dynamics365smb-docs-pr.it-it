@@ -7,14 +7,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bbb912f0e9e6718ba625fba4dc05fae19f4f2ebb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521522"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076203"
 ---
 # <a name="customize-pages-for-profiles"></a>Personalizzare pagine per profili
+
 Gli utenti possono personalizzare le pagine della propria area di lavoro per adattarle alle proprie preferenze. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
 Gli amministratori possono personalizzare le pagine per un profilo, in base al ruolo aziendale o al reparto correlato, ad esempio, in modo che tutti gli utenti a cui è assegnato il profilo visualizzino il layout di pagina personalizzato. L'amministratore personalizza le pagine utilizzando le stesse funzionalità utilizzate dagli utenti quando personalizzano le pagine.
@@ -25,6 +26,7 @@ Gli amministratori possono personalizzare le pagine per un profilo, in base al r
 La personalizzazione delle pagine inizia dalla pagina **Profili (ruoli)**, ovvero il punto di partenza dell'amministratore per la gestione dei profili degli utenti in singole schede profilo. Oltre a personalizzare il layout delle pagine, si controllano varie altre impostazioni per i profili nella pagina **Profilo (ruolo)** di ogni profilo. Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Per personalizzare pagine per un profilo
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Profili (ruoli)**, quindi scegli il collegamento correlato.
 2. Selezionare la riga per il profilo per cui si desidera personalizzare le pagine, quindi scegliere l'azione **Modifica**.
 3. Scegliere l'azione **Personalizza pagine**.
@@ -50,6 +52,7 @@ La personalizzazione delle pagine è ora registrata per il profilo.
 Nella pagina **Pagine personalizzate** è possibile eliminare le personalizzazioni e risolvere i problemi analizzando i potenziali problemi.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Per eliminare tutte le personalizzazioni per un profilo
+
 È possibile annullare tutte le personalizzazioni apportate per un profilo. Le personalizzazioni introdotte con un'estensione e le personalizzazioni eseguite da un utente non verranno eliminate. È possibile eliminare tutte le personalizzazioni con un'altra azione. Per ulteriori informazioni, vedere [Per eliminare tutte le personalizzazioni eseguite da un utente](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
 - Nella pagina **Profilo (ruolo)** per un profilo personalizzato, selezionare l'azione **Cancella pagine personalizzate**.
@@ -57,12 +60,15 @@ Nella pagina **Pagine personalizzate** è possibile eliminare le personalizzazio
 Il layout delle pagine per il profilo viene ripristinato al layout predefinito.  
 
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Per eliminare la personalizzazione di specifiche pagine per un profilo
+
 È possibile eliminare personalizzazioni di singole pagine eseguite per un profilo. Le personalizzazioni introdotte con un'estensione e le personalizzazioni eseguite da un utente non verranno eliminate. È possibile eliminare personalizzazioni di specifiche pagine con un'altra azione. Per ulteriori informazioni, vedere [Per eliminare le personalizzazioni per pagine specifiche](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
 1. Nella pagina **Profilo (ruolo)**, scegliere l'azione **Gestisci pagine personalizzate**.
 2. Nella pagina **Pagine personalizzate** selezionare una o più righe per le personalizzazioni che si desidera eliminare, quindi selezionare l'azione **Elimina**.
 
 Il layout delle pagine selezionate viene adattato alle modifiche apportate.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also"></a>Vedere anche
 

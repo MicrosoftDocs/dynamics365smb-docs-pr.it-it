@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 16adda82dbc45bcff61934d57de7a4e46f8477cf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523295"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075293"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedura dettagliata: Calcolo del valore WIP per una commessa
 
@@ -22,7 +22,8 @@ ms.locfileid: "8523295"
 
 Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di tenere traccia dei vari costi connessi all'impiego delle risorse in un progetto specifico. Le commesse implicano il consumo di ore di lavoro del personale, di ore macchina, degli articoli a magazzino e altri consumi che vanno monitorati man mano che la commessa progredisce. Se una commessa si protrae per lungo tempo, può essere opportuno trasferire questi costi a un conto WIP (Work in Process, ovvero semilavorati) nel conto patrimoniale fino al completamento della commessa. Sarà possibile riconoscere conti e vendite nel conto economico quando opportuno.  
 
-## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata  
+## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
+
  In questa procedura dettagliata sono illustrati i task seguenti:  
 
 -   Calcolo del WIP  
@@ -33,16 +34,20 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
  In ogni fase della procedura viene calcolato il valore del WIP e le transazioni della commessa sono trasferite alla contabilità generale. Le fasi di calcolo e registrazione sono state separate per consentire all'utente di rivedere i dati e apportarvi modifiche prima di procedere alla registrazione nella contabilità generale. Pertanto, dopo aver eseguito i processi batch di calcolo e prima di effettuare i processi batch di registrazione, è necessario controllare che tutti i dati siano corretti.  
 
-## <a name="roles"></a>Ruoli  
+## <a name="roles"></a>Ruoli
+
  Questa procedura dettagliata è svolta da un membro del team (Cinzia Di Marco).  
 
-## <a name="prerequisites"></a>Prerequisiti  
+## <a name="prerequisites"></a>Prerequisiti
+
  Prima di svolgere le attività di questa procedura dettagliata, è necessario installare [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="story"></a>Scenario  
+## <a name="story"></a>Scenario
+
  Questa procedura dettagliata è incentrata su CRONUS International Ltd., una società che si occupa di progettazione, consulenza e installazione di nuove infrastrutture, ad esempio aule conferenze e uffici, complete di mobilia e accessori. La maggior parte di lavoro in CRONUS è svolto sulla base di un progetto e Cinzia, un membro del team di progetto, utilizza le commesse per avere una panoramica delle commesse in corso avviate da CRONUS e di quelle completate. Alcune commesse risultano estremamente lunghe e possono durare mesi. Cinzia può utilizzare un conto WIP per registrare i semilavorati e per tenere traccia dei costi in varie parti della commessa.  
 
-## <a name="calculating-wip"></a>Calcolo del WIP  
+## <a name="calculating-wip"></a>Calcolo del WIP
+
  CRONUS ha preso in carico un lungo progetto che si sta estendendo su più periodi contabili. Cinzia, un membro del team di progetto, calcola il WIP per garantire l'accuratezza del rendiconto finanziario della società.  
 
  Durante la procedura, Cinzia selezionerà uno specifico gruppo di task da includere nel calcolo del WIP. Nella pagina **Righe task commessa** può specificare queste righe nella colonna **WIP-Totale**.  
@@ -109,7 +114,8 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 > [!NOTE]  
 >  Il WIP e il corrispettivo vengono solo calcolati. ma non registrato nella contabilità generale. A tale scopo, è necessario eseguire il processo batch **Registra WIP in C/G** dopo aver calcolato il WIP e il corrispettivo.
 
-## <a name="posting-wip-to-general-ledger"></a>Registrazione del WIP nella contabilità generale  
+## <a name="posting-wip-to-general-ledger"></a>Registrazione del WIP nella contabilità generale
+
  Ora che il WIP per la commessa è stato calcolato, è possibile registrarlo nella contabilità generale.  
 
 ### <a name="to-post-wip-to-general-ledger"></a>Per registrare il WIP nella contabilità generale  
@@ -132,7 +138,8 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 10. Nella Scheda dettaglio **WIP e corrispettivo**, si noti che nella colonna **Registrato** il campo **Importo C/G costi ricon.** ora è compilato, il che indica che il WIP è stato correttamente registrato nella contabilità generale.  
 11. Scegliere il pulsante **OK** per chiudere la scheda.  
 
-## <a name="reversing-a-wip-posting"></a>Storno di una registrazione WIP  
+## <a name="reversing-a-wip-posting"></a>Storno di una registrazione WIP
+
  Cinzia si accorge che i task commessa esclusi dal calcolo del WIP avrebbero dovuto essere calcolati nel WIP. Il programma consente di stornare le registrazioni errate senza dover contabilizzare nuove registrazioni WIP.  
 
 ### <a name="to-reverse-a-wip-posting"></a>Per stornare una registrazione WIP  
@@ -154,13 +161,17 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
     > [!NOTE]  
     >  Si supponga che Cinzia abbia calcolato e registrato il WIP per una commessa con date errate. Seguendo il metodo che è stato discusso in precedenza, il programma consente di stornare le registrazioni errate, correggerne le date e registrarle nuovamente nella contabilità generale.  
 
-## <a name="next-steps"></a>Passaggi successivi  
+## <a name="next-steps"></a>Passaggi successivi
+
  In questa procedura dettagliata sono stati svolti i passaggi del calcolo del WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In commesse più grandi, può essere utile trasferire periodicamente i costi a un conto WIP fino al completamento della commessa. In questa procedura dettagliata è stato illustrato come escludere le righe di task dal calcolo. È stato inoltre illustrato quando è necessario ricalcolare. Infine, è stato descritto come registrare il WIP nella contabilità generale. Inoltre è incluso un esempio di come stornare una registrazione WIP nella contabilità generale.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
+## <a name="see-also"></a>Vedi anche
+
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
- [Procedura dettagliata: Gestione dei progetti con le commesse](walkthrough-managing-projects-with-jobs.md)   
- [Metodi WIP](projects-understanding-wip.md)   
+ [Procedura dettagliata: Gestione dei progetti con le commesse](walkthrough-managing-projects-with-jobs.md)  
+ [Metodi WIP](projects-understanding-wip.md)  
  [Monitoraggio di progressi e performance](projects-how-monitor-progress-performance.md)  
  [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

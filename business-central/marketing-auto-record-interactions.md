@@ -1,8 +1,6 @@
 ---
 title: Impostare la registrazione automatica delle interazioni| Documenti Microsoft
 description: È possibile registrare automaticamente le interazioni del client o clienti, ad esempio, per le vendite, acquisti e documenti di assistenza o telefonate.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 768cb420274450d38000fd6ffe8073c0c842f75a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6ccf3a51b8a9cbddcddd68ba192cfdbe36149bc3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519019"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075877"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrazione automatica delle interazioni con i contatti
 È possibile impostare l'applicazione per la registrazione automatica delle interazioni relative ai documenti di vendite, acquisti e assistenza, copertine, messaggi e-mail, telefonate, ad esempio:

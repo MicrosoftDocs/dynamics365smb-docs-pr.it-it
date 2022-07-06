@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c6b1b37398d0121c5c79bb0c9d9786abe14120f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521860"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074616"
 ---
 # <a name="register-new-vendors"></a>Registrare nuovi fornitori
 
@@ -32,6 +32,7 @@ Le schede fornitore conservano le informazioni richieste per acquistare i prodot
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Aggiunta di nuovi fornitori
+
 Puoi aggiungere nuovi venditori manualmente, compilando i campi nella pagina **Scheda fornitore**, oppure puoi usare dei modelli che contengono informazioni predefinite. Per esempio, si può creare un modello per diversi tipi di profili di venditori. L'uso di modelli fa risparmiare tempo quando si aggiungono nuovi fornitori e aiuta a garantire che le informazioni siano corrette ogni volta. Se crei dei modelli per più di un tipo di venditore, puoi scegliere il modello da usare quando aggiungi un venditore. Se si crea un solo modello, questo verrà utilizzato per tutti i nuovi fornitori. Dopo aver creato un modello, è possibile utilizzare l'azione **Applica modello** per applicarlo a uno o più fornitori selezionati. Per creare un modello, si compilano le informazioni che si vogliono riutilizzare nella pagina della Vendor Card, e poi si salva come modello. Per maggiori informazioni, vedi [Salvare la pagina della scheda fornitore come modello](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -57,7 +58,6 @@ Puoi modificare le informazioni sulle carte dei venditori in qualsiasi momento. 
 > [!TIP]
 > È possibile cambiare l'IBAN di un conto bancario di un venditore senza che il cambiamento influisca sulle voci storiche del registro dei bonifici. Le voci del registro dei bonifici memorizzano l'IBAN del destinatario, il numero del conto bancario del destinatario che sono stati specificati nei campi Conto bancario del venditore e Nome del destinatario dalla pagina della Carta del venditore quando le voci sono state create.
 
-
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Per salvare la scheda fornitore come modello
 
 1. Nella pagina **Scheda fornitore** scegliere l'azione **Salva come modello**. Nella pagina **Modello fornitore** verrà visualizzata la scheda fornitore come modello.
@@ -67,6 +67,8 @@ Puoi modificare le informazioni sulle carte dei venditori in qualsiasi momento. 
 5. Una volta completato il nuovo modello fornitore, scegliere **OK**.  
    Il modello fornitore viene aggiunto all'elenco dei modelli fornitore, in modo che sia possibile utilizzarlo per creare nuove schede fornitore.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
 
 [Unire record duplicati](sales-how-merge-duplicate-records.md)  
@@ -74,5 +76,6 @@ Puoi modificare le informazioni sulle carte dei venditori in qualsiasi momento. 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

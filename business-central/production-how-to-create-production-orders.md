@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 814770db81744306120445a509325cff8502041d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b47525b8f552cb4446497a0edafa7661aa25f17b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516850"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074710"
 ---
 # <a name="create-production-order-headers"></a>Creare le testate degli ordini di produzione
 
@@ -31,7 +31,7 @@ Nella seguente procedura viene creato un ordine produzione confermato. È anche 
 3. Nel campo **Nr.** inserire il numero di serie successivo.  
 4. Selezionare nel campo **Tipo Origine** l'origine dell'ordine di produzione.
 
-Qui è possibile selezionare la famiglia di articoli. Per ulteriori informazioni, vedere [Utilizzare famiglie di prodotti](production-how-work-family.md).
+    Qui è possibile selezionare la famiglia di articoli. Per ulteriori informazioni, vedere [Utilizzare famiglie di prodotti](production-how-work-family.md).
 5. Nel campo **Nr. origine** selezionare il numero dell'articolo, della famiglia o della testata di vendita per il quale deve essere generato l'ordine di produzione.  
 6. Compilare i campi **Quantità** e **Data Scadenza** con i dati desiderati.  
 

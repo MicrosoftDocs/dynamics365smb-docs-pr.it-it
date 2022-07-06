@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: e195e6658bc495b5d06764114d971c9fc4b7b484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 401deb016122100f86142cb2314c18e3b481bccd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522618"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077868"
 ---
 # <a name="date-calculation-for-sales"></a>Calcolo della data per le vendite
+
 In [!INCLUDE[prod_short](includes/prod_short.md)] viene automaticamente calcolata la prima data possibile di spedizione di un articolo nella riga ordine di vendita.
 
 Se il cliente ha richiesto una data di consegna specifica, viene calcolata la data in cui gli articoli devono essere disponibili per il prelievo affinché la consegna avvenga come da richiesta.
@@ -24,6 +25,7 @@ Se il cliente ha richiesto una data di consegna specifica, viene calcolata la da
 Se il cliente non richiede una data di consegna specifica, la data in cui gli articoli possono essere consegnati viene calcolata, a partire dalla data in cui gli articoli sono disponibili per il prelievo.
 
 ## <a name="calculating-a-requested-delivery-date"></a>Calcolo con una data di consegna richiesta
+
 Se si specifica una data di consegna richiesta sulla riga dell'ordine di vendita, questa data diventa la data di partenza per i calcoli successivi.
 
 - data di consegna richiesta - durata spedizione = data di spedizione pianificata
@@ -35,14 +37,17 @@ Se gli articoli sono disponibili per il prelievo alla data di spedizione, il pro
 > Se il processo si basa sul calcolo indietro, ad esempio, se si utilizza la data di consegna richiesta per ottenere la data di spedizione pianificata, si consiglia di utilizzare formule di data con durate fisse, ad esempio "5D" per cinque giorni o "1W" per una settimana. Le formule di data senza durate fisse, come "CW" per settimana corrente o CM per mese corrente, possono comportare calcoli della data errati. Per ulteriori informazioni sulle formule di data, vedere [Utilizzare date e orari del calendario](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Calcolo della prima data utile per la consegna
+
 Se nella riga dell'ordine di vendita non si specifica una data di consegna richiesta, o se la data richiesta non può essere rispettata, viene calcolata la prima data in cui gli articoli saranno disponibili. Questa data viene quindi immessa nel campo Data spedizione della riga e le date in cui si prevede di spedire gli articoli e in cui essi saranno consegnati al cliente vengono calcolate secondo le seguenti formule.
 
 - data spedizione + tempo gest. uscita da whse. = data di spedizione pianificata
 - data di spedizione pianificata + durata spedizione = data di consegna pianificata
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche  
- [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)   
+## <a name="see-also"></a>Vedere anche
+
+ [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
  [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  
  [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

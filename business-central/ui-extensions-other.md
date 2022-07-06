@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfdcf37464a032b6d999d525e67eecadb961ca4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba87c96e23a3905e555a3c5fbf361758f2f76664
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129944"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075709"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Estensioni per Business Central fornite da altri provider
 
@@ -22,10 +22,12 @@ In [AppSource.microsoft.com](https://appsource.microsoft.com/), è possibile ott
 
 La lista delle estensioni di altre società aumenta ogni mese. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) e scaricare app per semplificare il proprio lavoro in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
-[Preparazione al business](ui-get-ready-business.md)  
+[Prepararsi a fare affari](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

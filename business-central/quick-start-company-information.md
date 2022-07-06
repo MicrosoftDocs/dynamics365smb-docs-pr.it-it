@@ -10,12 +10,12 @@ ms.search.keywords: quickstart
 ms.search.form: 1,
 ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: eb466433beecbd9cb41b13fab4cb011dd172cec3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417615"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077113"
 ---
 # <a name="company-information-quick-start"></a>Informazioni sull'azienda Inizio rapido
 
@@ -32,8 +32,13 @@ Per aiutarti a far funzionare la tua azienda in [!INCLUDE[prod_short](includes/p
 
 Una volta completata la compilazione delle informazioni puoi chiudere la pagina.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche  
 
 [Panoramica delle informazioni sulla società](admin-company-information.md)  
 [Impostazione di informazioni sulla società in Italia](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

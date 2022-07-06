@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 48f2735c39c3630611abcb785efc67cfd9473671
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2a6841bf7ad0adb7f63f1bdfc7cde97023e69bc5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511131"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078180"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Trasferimento, divisione o raggruppamento dei cespiti
 
@@ -71,6 +71,8 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valore contabile cespiti 02**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze.
 3. Selezionare il pulsante **Stampa** o **Anteprima**.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/reclassify-fixed-assets/)
 
 ## <a name="see-also"></a>Vedere anche
 

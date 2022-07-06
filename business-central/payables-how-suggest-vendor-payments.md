@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1360d4189bfeb8ca446e4a372613bed9f14284a4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522800"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075397"
 ---
 # <a name="suggest-vendor-payments"></a>Sugg. pagamenti fornitore
 
@@ -33,12 +33,14 @@ Per trarre completamente vantaggio dai pagamenti suggeriti, è prima necessario 
     * Movimenti fornitori che vengono qualificati per gli sconti sui pagamenti, sistemati in base al numero di fornitori.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Per utilizzare la funzione di suggerimento pagamenti fornitori
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
 2. Aprire le registrazioni rilevanti e scegliere l'azione **Sugg. pagamenti fornitore**.  
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Scegliere il pulsante **OK**.  
 
 ## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Per inserire la data di scadenza come data di registrazione nelle righe di registrazione pagamenti
+
 Quando si esegue il processo batch **Sugg. pagamenti fornitore** per creare righe di pagamento per i fornitori, è possibile compilare due campi speciali per assicurarsi che le righe generate utilizzino la data di scadenza per calcolare la data di registrazione. Questi campi sono **Calcola data di registrazione da Collega a - Scadenza doc.** e **Offset Collega a - Scadenza doc.**  
 
 > [!IMPORTANT]  
@@ -51,7 +53,10 @@ In alternativa, è possibile creare manualmente le righe di pagamento utilizzand
 > [!NOTE]  
 >   Se la fattura di acquisto è scaduta, la data di registrazione viene impostata sulla data di lavoro e il carattere nella riga diventa di colore rosso.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/suggest-vendor-payments-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
+
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Effettuare i pagamenti](payables-make-payments.md)  
 [Utilizzare le registrazioni COGE](ui-work-general-journals.md)  

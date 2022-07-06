@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 567b1cd469816f175508dddac068b8b8b3e1bc2e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4653d961edd26f220160abca97bd5c7f236f05c2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521964"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079092"
 ---
 # <a name="manage-inventory"></a>Gestire l'inventario
 
@@ -31,6 +31,7 @@ Per incrementare la panoramica degli articoli e agevolare le operazioni di ricer
 La pianificazione degli articoli per soddisfare la domanda è coperta nella funzionalità di pianificazione dell'offerta. Per ulteriori informazioni, vedere [Pianificazione](production-planning.md).  
 
 ## <a name="inventory-reconciliation"></a>Magazzino - Riconciliazione
+
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale. Per ulteriori informazioni, vedere [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Per ulteriori informazioni, vedere [Rettificare i costi articoli](inventory-how-adjust-item-costs.md).  
@@ -58,6 +59,8 @@ La tabella seguente descrive le attività correlate.
 |Bloccare gli articoli in modo che non vengano immessi in righe di acquisto o di vendita o che non vengano registrati in una qualsiasi transazione.|[Bloccare gli articoli](inventory-how-block-items.md)|
 |È possibile gestire le operazioni aziendali in uffici vendite, reparti acquisti o uffici di programmazione impianti distribuiti tra più sedi.|[Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)|
 |Utilizzare risorse con competenze specifiche per vari servizi e articoli in assistenza.|[Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)|
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/get-started-inventory-management/)
 
 ## <a name="see-also"></a>Vedere anche
 

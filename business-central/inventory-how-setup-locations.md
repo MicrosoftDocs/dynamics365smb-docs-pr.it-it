@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515513"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077269"
 ---
 # <a name="set-up-locations"></a>Impostare le ubicazioni
 
@@ -27,6 +27,7 @@ Le ubicazioni sono luoghi come i magazzini in cui acquisti, stocchi o vendi arti
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Schede Ubicazione
+
 Specifica le informazioni su un'ubicazione, ad esempio un warehouse o un centro di distribuzione nella pagina **Scheda ubicazione**. A ogni ubicazione vengono assegnati un nome e un codice che la rappresenta. Quando si desidera registrare le transazioni per una determinata ubicazione, è possibile immettere il codice ubicazione in altre aree del programma.  
 
 È possibile immettere informazioni sui criteri di logistica warehouse per ogni ubicazione. In base ai criteri di logistica warehouse selezionati, sarà possibile utilizzare le opzioni della Scheda dettaglio **Collocazioni** per definire le collocazioni di default che verranno utilizzate durante l'esecuzione delle transazioni. Se è previsto l'utilizzo di stoccaggi e prelievi guidati, utilizzare la maggior parte delle opzioni della Scheda dettaglio **Criteri per collocazione** per definire le modalità di utilizzo delle varie funzioni di logistica avanzate.  
@@ -76,7 +77,10 @@ Se vuoi strutturare le tue collocazioni in zone, puoi farlo nella pagina **Zone*
 Tuttavia, è possibile scegliere di impostare una singola zona e organizzare la warehouse solo in base alle collocazioni. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Dimensioni predefinite per le ubicazioni
+
 Si impostano le dimensioni predefinite per un'ubicazione nella pagina **Scheda ubicazione** scegliendo **ubicazione**, e poi **Dimensioni**. Le dimensioni predefinite dell'ubicazione vengono copiate nei giornali di registrazione e nei documenti quando si specifica l'ubicazione su una riga, ma è possibile eliminare o modificare la dimensione sulla riga, se necessario. Puoi richiedere che le persone specifichino le dimensioni per ubicazioni specifiche prima di poter registrare una voce. Puoi anche includere i valori delle dimensioni ubicazione in **Priorità dimensione predefinita** e **Combinazioni dimensioni** per combinazioni di priorità e regole di dimensioni.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

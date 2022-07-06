@@ -10,29 +10,35 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 366feb242578d79ece0553bc8fba570403d8cde1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c9389ca6a888e81c67aa9e6421e20e5b43d35d38
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520840"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078598"
 ---
 # <a name="set-up-purchasers"></a>Impostare gli addetti agli acquisti
+
 Se numerosi addetti agli acquisti lavorano presso la società, si possono impostare in una pagina e assegnare ad ognuno di essi un codice. Si possono usare i codici per preparare le statistiche e per filtrare le informazioni nei report stampati.<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>Per impostare gli addetti agli acquisti
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Agenti/Addetti acquisti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Agente/Add. acquisti** scegliere l'azione **Nuovo**.
 3. Nella pagina **Scheda agenti/addetti acq.** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Per assegnare gli addetti agli acquisti ai fornitori
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda fornitore corrispondente al fornitore al quale sarà assegnato un addetto agli acquisti.
 3. Nel campo **Cod. addetto acq.** selezionare il codice addetto agli acquisti applicabile, quindi chiudere la pagina.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
+
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

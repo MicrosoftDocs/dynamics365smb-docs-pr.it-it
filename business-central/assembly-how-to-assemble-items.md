@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 24ea5d30b184018b69735768a6a721393086a95a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 13f1a68ebb3c9a16c06cdc0cf9382867403ba5ca
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521152"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079248"
 ---
 # <a name="assemble-items"></a>Assemblare articoli
+
 Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.  
 
 I componenti e le risorse che rientrano in questo tipo di articolo di assemblaggio devono essere definiti in una DB di assemblaggio. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).  
@@ -40,7 +41,8 @@ Queste opzioni di setup sono impostazioni di default che gestiscono il modo in c
 
 In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli articoli che vengono assemblati per magazzino, ovvero senza un ordine di vendita collegato. I passaggi includono la creazione dell'ordine di assemblaggio, la gestione dei potenziali problemi di disponibilità dei componenti e la registrazione parziale dell'output dell'articolo di assemblaggio.
 
-## <a name="to-assemble-an-item"></a>Per assemblare un articolo  
+## <a name="to-assemble-an-item"></a>Per assemblare un articolo
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini di assemblaggio**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**. Verrà visualizzata la pagina **Nuovo ordine di assemblaggio**.  
 3.  Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -67,7 +69,10 @@ In questa procedura, viene creato ed elaborato un ordine di assemblaggio per gli
 
 Una volta effettuata la registrazione, l'articolo di assemblaggio viene registrato come output nel codice ubicazione e nel codice collocazione potenziale definiti nell'ordine di assemblaggio. Per gli ordini di assemblaggio creati manualmente, l'ubicazione può essere copiata dal campo di setup **Ubicazione di default per gli ordini**. Per i flussi di assemblaggio su ordine, il codice ubicazione può essere copiato dalla riga ordine di vendita.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
+
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  

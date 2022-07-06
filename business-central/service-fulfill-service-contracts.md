@@ -1,8 +1,6 @@
 ---
 title: Panoramica dei task per adempiere i contratti di assistenza
 description: Descrive i task coinvolti nell'adempimento dei contratti di servizio con i tuoi clienti, come l'impostazione di accordi contrattuali standard con modelli personalizzabili e altro ancora.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: overview
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9ef8d123e8ad16916b12b62328e737e0a36e95ff
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bb80db794dfab85628ce5e9a8c99e397cc20064c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382847"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076333"
 ---
 # <a name="fulfilling-service-contracts"></a>Adempimento dei contratti di assistenza 
 Un metodo per impostare un'attività di gestione dell'assistenza è quello di disporre di accordi contrattuali standard tra la propria azienda e i clienti, che descrivano il livello di assistenza e le aspettative del cliente nei confronti dall'assistenza. È possibile creare modelli di contratto che includano le informazioni necessarie, ossia dati del cliente, data di inizio del contratto e periodo di fatturazione.  

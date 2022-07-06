@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c04e2e81876628a8b6fe9534bb7ecdbb960bcc8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f0018b5ad58644783b24d2c3b3fd82ae83d132fb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511319"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075163"
 ---
 # <a name="set-up-warehouse-employees"></a>Impostare impiegati warehouse
 
@@ -29,12 +29,14 @@ Ogni utente che può eseguire attività di warehouse deve essere impostato come 
 5. Selezionare la casella di controllo **Default** per definire l'unica ubicazione in cui l'impiegato può eseguire attività di warehouse.  
 6. Ripetere i passaggi indicati per assegnare altri impiegati a ubicazioni o per assegnare ubicazioni non di default agli impiegati warehouse esistenti.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
 
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+## <a name="see-also"></a>Vedere anche
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione di Warehouse Management](warehouse-setup-warehouse.md) 
-[Gestione assemblaggio](assembly-assemble-items.md)
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
+[Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

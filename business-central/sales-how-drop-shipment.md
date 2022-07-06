@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 9a5ec7fb14adc453eb29c49474109b17d35d177b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729777"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076905"
 ---
 # <a name="make-drop-shipments"></a>Effettuare spedizioni dirette
 
@@ -78,7 +78,9 @@ Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine 
 4. Scegliere l'azione **Registra** o **Registra e invia**.
 5. Selezionare l'opzione **Spedizione** per fatturare in seguito oppure l'opzione **Spedisci e fattura** per fatturare immediatamente.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 
 [Creare ordini speciali](sales-how-to-create-special-orders.md)  
 [Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md)  

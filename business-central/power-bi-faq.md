@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: b19471cc3833c642ee65dc262fd5ca6cc1a57492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e5f98a7851702f95b627e69544eb181d3d0d5206
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520180"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077920"
 ---
 # <a name="power-bi--faq"></a>Domande frequenti su Power BI
 
@@ -250,15 +250,17 @@ Alcune pagine API, inclusa la maggior parte delle pagine API v2.0, hanno campi b
 
 ---
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
 
-[Licenze Power BI](admin-powerbi-setup.md#license)
-[Introduzione a Business Central e a Power BI](admin-powerbi.md)  
+[Licenze Power BI](admin-powerbi-setup.md#license)  
+[Introduzione a Business Central e Power BI](admin-powerbi.md)  
 [Panoramica dell'integrazione di Power BI](admin-powerbi-overview.md)  
 [Abilitazione di Power BI in Business Central](admin-powerbi-setup.md)  
 [Utilizzare i report Power BI in Business Central](across-working-with-powerbi.md)  
 [Utilizzare i dati Business Central in Power BI](across-working-with-business-central-in-powerbi.md)  
-[Creazione di report di Power BI per la visualizzazione di dati di Business Central](across-how-use-financials-data-source-powerbi.md)    
+[Creazione di report di Power BI per la visualizzazione di dati di Business Central](across-how-use-financials-data-source-powerbi.md)  
 [Documentazione di Power BI](/power-bi/)  
 
 

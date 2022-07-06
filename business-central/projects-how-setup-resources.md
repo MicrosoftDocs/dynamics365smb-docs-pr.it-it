@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1447627f14d08e1e432d613298f4b29592864d4d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520892"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078936"
 ---
 # <a name="set-up-resources-for-projects"></a>Impostazione delle risorse per i progetti
 
@@ -32,6 +32,7 @@ L'importo orario di default viene specificato durante la creazione della risorsa
 > Se registri transazioni intercompany, sebbene sia possibile una risorsa in una riga di un ordine cliente, se si converte l'ordine cliente in un ordine fornitore sul lato ricevente, la risorsa non verrà inclusa. Per utilizzare le risorse nelle transazioni intercompany, utilizza il campo **Nr. conto C/G acq. partner IC** della scheda risorsa per specificare il conto su cui registrare le spese.
 
 ## <a name="to-set-up-a-resource"></a>Per impostare una risorsa
+
 Creare una scheda per ogni risorsa che si desidera utilizzare nei progetti.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse**, quindi scegli il collegamento correlato.
@@ -39,6 +40,7 @@ Creare una scheda per ogni risorsa che si desidera utilizzare nei progetti.
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Per impostare un gruppo di risorse
+
 È possibile unire diverse risorse in uno stesso gruppo di risorse. Le capacità e i budget di un gruppo di risorse sono il risultato della somma delle capacità e dei budget delle singole risorse. È possibile immettere le capacità dei gruppi di risorse indipendentemente dai valori accumulati oppure in aggiunta a questi.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Gruppi di risorse**, quindi scegli il collegamento correlato.
@@ -46,6 +48,7 @@ Creare una scheda per ogni risorsa che si desidera utilizzare nei progetti.
 3. Compilare i campi, se necessario.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Per impostare la capacità per una risorsa
+
 Per calcolare quanto tempo una risorsa può dedicare alle commesse, la relativa capacità deve essere prima impostata come tempo disponibile per periodo nel calendario di produzione. Questa impostazione è utilizzata quando si compilano le righe di pianificazione commessa che contengono la risorsa. Per ulteriori informazioni, vedere [Creare le commesse](projects-how-create-jobs.md).
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse**, quindi scegli il collegamento correlato.
@@ -58,6 +61,7 @@ Per calcolare quanto tempo una risorsa può dedicare alle commesse, la relativa 
 8. Chiudere la pagina.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Per impostare costi di risorsa alternativi
+
 Oltre al costo specificato nella scheda risorsa, è possibile impostare dei costi alternativi per ogni risorsa. Se ad esempio un lavoratore percepisce una paga oraria maggiore per il lavoro straordinario, si può impostare un costo risorsa per lo straordinario. Il costo alternativo impostato per la risorsa sovrascriverà il costo nella scheda della risorsa, quando si utilizzerà la risorsa nelle registrazioni risorse.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse**, quindi scegli il collegamento correlato.  
@@ -68,6 +72,7 @@ Oltre al costo specificato nella scheda risorsa, è possibile impostare dei cost
 **Nota**. Per impostare i costi risorse da applicare a tutte le risorse e ai gruppi di risorse, aprire la pagina **Costi risorse** e compilare i campi.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Per impostare prezzi di risorsa alternativi
+
 Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei prezzi alternativi per ogni risorsa. Questi prezzi alternativi possono essere condizionali. Possono dipendere dal fatto che la risorsa sia utilizzata con un tipo di lavoro o una commessa specifica.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse**, quindi scegli il collegamento correlato.
@@ -75,12 +80,15 @@ Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei pre
 3. Nella pagina **Prezzi risorse** compilare i campi in una riga in base alle esigenze.
 4. Ripetere il passaggio 3 per ogni prezzo di risorsa alternativo che si desidera impostare.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
+## <a name="see-also"></a>Vedere anche
+
 [Impostazione della Gestione progetti](projects-setup-projects.md)  
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
-[Acquisti](purchasing-manage-purchasing.md)         
-[Vendite](sales-manage-sales.md)      
+[Acquisti](purchasing-manage-purchasing.md)  
+[Vendite](sales-manage-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7cdd6e49f4d7cb4d63f70312a89266d020025b4f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3e638e00fc648a720d09520fb62aa3ad25324673
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518523"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078274"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi warehouse:
+
 Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoccaggi e dei carichi warehouse, è possibile utilizzare la funzionalità relativa ai documenti di stoccaggio warehouse per controllare lo stoccaggio degli articoli.  
 
 Quando si registra un carico warehouse, i documenti di origine, ad esempio ordini di acquisto, ordini di trasferimento in entrata oppure ordini di reso vendita, vengono aggiornati, la quantità ricevuta viene registrata nei movimenti contabili articoli e le righe relative agli articoli ricevuti vengono inviate alla funzione di stoccaggio nella warehouse. Se si utilizzano stoccaggi e prelievi guidati, le righe per lo stoccaggio possono essere create anche tramite stoccaggio guidato.  
@@ -25,7 +26,8 @@ A seconda del setup della warehouse, le righe vengono rese disponibili nel prosp
 
 Oltre ai metodi standard per creare stoccaggi warehouse descritti in questo argomento, è possibile creare uno stoccaggio a partire dal carico warehouse registrato correlato. Questo è utile se sono state eliminate le righe di stoccaggio oppure si utilizzano stoccaggi e prelievi guidati e si è stabilito di non utilizzare il prospetto stoccaggi, poiché è possibile creare o ricreare istruzioni di stoccaggio dalle righe di carico registrate.  
 
-## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Per eseguire lo stoccaggio di articoli senza utilizzare stoccaggi e prelievi guidati  
+## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Per eseguire lo stoccaggio di articoli senza utilizzare stoccaggi e prelievi guidati
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Stoccaggi**, quindi scegli il collegamento correlato.  
 2.  Aprire lo stoccaggio warehouse pronto per la gestione.  
 
@@ -33,7 +35,8 @@ Oltre ai metodi standard per creare stoccaggi warehouse descritti in questo argo
 3.  In ciascuna riga nel campo **Qtà da gestire** immettere la quantità che si desidera stoccare.  
 4.  Dopo aver completato lo stoccaggio degli articoli, scegliere l'azione **Registra stoccaggio** per registrare il completamento dell'attività e rendere gli articoli disponibili per il prelievo.  
 
-## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Per eseguire lo stoccaggio di articoli utilizzando stoccaggi e prelievi guidati  
+## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Per eseguire lo stoccaggio di articoli utilizzando stoccaggi e prelievi guidati
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Stoccaggi**, quindi scegli il collegamento correlato.
     Se sono state create istruzioni di stoccaggio, verrà visualizzato uno stoccaggio nella warehouse.  
 2.  Aprire lo stoccaggio warehouse che si desidera utilizzare.  
@@ -59,7 +62,8 @@ Nelle ubicazioni impostate per l'utilizzo di stoccaggi e prelievi guidati, le im
 
 La valutazione della collocazione viene presa in considerazione quando più collocazioni soddisfano i criteri del modello di stoccaggio. Se i criteri del modello di stoccaggio e la valutazione della collocazione sono gli stessi per più di una collocazione, viene scelta la collocazione con il numero più alto.
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Per creare uno stoccaggio a partire dal carico registrato  
+## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Per creare uno stoccaggio a partire dal carico registrato
+
  Se l'ubicazione è impostata per l'elaborazione degli stoccaggi e dei carichi e sono state eliminate le righe di stoccaggio oppure si utilizzano stoccaggi e prelievi guidati e si è stabilito di non utilizzare il prospetto stoccaggi, è possibile creare o ricreare istruzioni di stoccaggio per le righe di carico registrate.
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Carichi whse. registrati**, quindi seleziona il collegamento correlato.  
@@ -69,13 +73,16 @@ La valutazione della collocazione viene presa in considerazione quando più coll
     Se il campo **Stato del documento** è vuoto, ciò indica che il carico non è stato assolutamente stoccato. In caso contrario, il campo indica che il carico è parzialmente o completamente stoccato.  
 
 4.  Se il carico non è stato stoccato o è stato stoccato solo parzialmente, scegliere l'azione **Crea stoccaggio**.  
-5.  Immettere le informazioni appropriate nella pagina di richiesta del processo batch per creare lo stoccaggio, quindi scegliere **OK**.   
+5.  Immettere le informazioni appropriate nella pagina di richiesta del processo batch per creare lo stoccaggio, quindi scegliere **OK**.  
 
-## <a name="see-also"></a>Vedi anche  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
+## <a name="see-also"></a>Vedere anche
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
-[Gestione assemblaggio](assembly-assemble-items.md)    
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
+[Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950464"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041428"
 ---
 # <a name="set-up-email"></a>Configurare la posta elettronica
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono collegare uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Inoltre, i layout di report consentono agli amministratori di includere solo le informazioni chiave dei documenti. Per ulteriori informazioni, vedi [Inviare documenti via e-mail](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ La tabella seguente descrive le estensioni di posta elettronica disponibili per 
 |**Connettore SMTP**|Usare il protocollo SMTP per inviare messaggi e-mail.|Consentire le comunicazioni tramite il server di posta SMTP. |
 
 > [!NOTE]
-> Le estensioni **Connettore Microsoft 365** e **Connettore utente corrente** utilizzano gli account configurati per gli utenti nell'interfaccia di amministrazione di Microsoft 365 per la sottoscrizione di Microsoft 365. Per inviare e-mail utilizzando le estensioni, gli utenti devono disporre di una licenza valida per Exchange Online. Inoltre, queste estensioni richiedono che l'impostazione **Consenti richieste HttpClient** sia abilitata. Per verificare se è abilitata per queste estensioni, vai nella pagina **Gestione estensioni** scegli l'estensione, quindi scegli l'opzione **Configura**.
+> Le estensioni **Connettore Microsoft 365** e **Connettore utente corrente** utilizzano gli account configurati per gli utenti nell'interfaccia di amministrazione di Microsoft 365 per la sottoscrizione di Microsoft 365. Per inviare e-mail utilizzando le estensioni, gli utenti devono disporre di una licenza valida per Exchange Online. Inoltre, negli ambienti sandbox queste estensioni richiedono che l'impostazione **Consenti richieste HttpClient** sia abilitata. Per verificare se è abilitata per queste estensioni, vai nella pagina **Gestione estensioni** scegli l'estensione, quindi scegli l'opzione **Configura**.
 
 > Gli utenti esterni, come gli amministratori delegati e i contabili esterni, non possono utilizzare queste estensioni per inviare messaggi di posta elettronica da [!INCLUDE[prod_short](includes/prod_short.md)].
 

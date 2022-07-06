@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 04ef2fdd1020444711257230688fea927332ed83
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 1cfb8fcb086b258ece6de68850b627c19f3bfbcd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626267"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075839"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrare il consumo o l'utilizzo per le commesse
 
@@ -99,7 +99,10 @@ Dopo avere registrato le righe di registrazione commessa registrate, è possibil
 2. Selezionare una registrazione commessa corrispondente, quindi scegliere l'azione **Mov. contabili**.  
 3. Nella pagina **Movimenti contabili commesse** scegliere l'azione **Mostra righe pianificazione commessa collegate**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+
 ## <a name="see-also"></a>Vedere anche
+
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)         

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cccfd5f5ca2b0e3d892e834465d628262f97151d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d45fc8f3b3636e79c17fec799f8f3682f0772e1b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520388"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075501"
 ---
 # <a name="correct-prepayments"></a>Rettificare i pagamenti anticipati
 
@@ -38,7 +38,9 @@ La procedura seguente illustra come emettere una nota di credito di pagamento an
 5. Per creare una fattura pagamento anticipato per le nuove righe nota di credito di vendita,, scegliere l'azione **Pagamento anticipato** e quindi scegliere l'azione **Registra fattura pagamento anticipato** o l'azione **Registra e stampa fattura pagam. ant.**.  
 6. Per emettere una fattura pagamento anticipato aggiuntiva, aumentare l'importo pagamento anticipato in una o più righe e registrare la fattura pagamento anticipato. Verrà creata una nuova fattura per la differenza tra gli importi di pagamenti anticipati fatturati e i nuovi importi di pagamenti anticipati.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
 [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

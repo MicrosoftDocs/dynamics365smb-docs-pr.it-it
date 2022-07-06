@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 052ef7a0e6579398ba651783675674d059eb6785
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 1557507aa108a64ad36fea5237e030ff31028779
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654866"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075761"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ricerca, filtro e ordinamento
 
@@ -307,6 +307,8 @@ Utilizzare `%myvendors` nel campo **Nessuno** fornitori per visualizzare tutti i
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`%myvendors`|Fornitori in **Fornitori personali** in Gestione ruolo utente. |  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -9,17 +9,19 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6f2ac75c4a00804c0fef47dfb7885fa2d50fbf19
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d538ea3e1bb00772a3a3183c09c2220893380058
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515487"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079560"
 ---
 # <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
+
 Utilizzare le distinte base (DB) per strutturare gli articoli padre che devono essere assemblati o prodotti dalle risorse o dai centri di lavoro a partire dai componenti. Una DB di assemblaggio può essere utilizzata anche per vendere un articolo padre come kit comprendente i relativi componenti.
 
 ## <a name="assembly-boms-or-production-boms"></a>DB di assemblaggio o DB di produzione
+
 Utilizzare gli ordini di assemblaggio per la creazione di articoli finali dai componenti in un semplice processo che può essere svolto da una o più risorse di base, che non sono centri di lavoro o aree di produzione, né privi di risorse. Ad esempio, un processo di assemblaggio potrebbe consistere nel prelevare due bottiglie di vino e un pacchetto di caffè, quindi di imballarli come articolo da regalo.  
 
 Una DB di assemblaggio contiene i dati master che definiscono gli articoli componenti che costituiscono un articolo finale assemblato e le risorse che vengono utilizzate per assemblare l'articolo di assemblaggio. Immettendo un articolo di assemblaggio e una quantità nella testata di un nuovo ordine di assemblaggio, le righe ordine di assemblaggio vengono automaticamente immesse in base alla DB di assemblaggio con una riga ordine di assemblaggio per ogni componente o risorsa. Per ulteriori informazioni, vedere [Gestione assemblaggio](assembly-assemble-items.md).
@@ -35,6 +37,7 @@ Il concetto di risorse in produzione è molto più avanzato rispetto alla gestio
 Gli ordini di assemblaggio e gli ordini di produzione possono essere collegati direttamente agli ordini di vendita. Tuttavia, è possibile utilizzare soltanto gli ordini di assemblaggio per personalizzare direttamente l'articolo finale per una richiesta cliente con l'ordine di vendita.
 
 ## <a name="to-create-an-assembly-bom"></a>Per creare una DB di assemblaggio
+
 Per definire un articolo padre composto da altri articoli e potenzialmente da risorse richieste per l'assemblaggio, è necessario creare una DB di assemblaggio.  
 
 Le DB di assemblaggio in genere contengono articoli ma possono anche contenere una o più risorse richieste per l'assemblaggio dell'articolo.
@@ -54,6 +57,7 @@ Esistono due passaggi per creare una DB di assemblaggio:
 3. Nella pagina **DB assemblaggio** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-edit-assembly-boms"></a>Per modificare le DB di assemblaggio
+
 È possibile modificare le righe di una distinta base di assemblaggio in qualsiasi momento. Tuttavia, tenere presente che la distinta base potrebbe essere in uso nelle vendite o negli assemblaggi dell'elemento padre, che potrebbero essere influenzati dalla modifica. Scegliere l'azione **Dove-usato** per vedere in quali articoli viene utilizzato e quindi se gli ordini di vendita o di assemblaggio possono essere interessati.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
@@ -61,6 +65,7 @@ Esistono due passaggi per creare una DB di assemblaggio:
 3. Nella pagina **DB assemblaggio**, scegliere l'azione **Modifica elenco**, quindi modificare i campi secondo necessità.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Per visualizzare i componenti e le risorse con indentazione in base alla struttura DB
+
 Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui vengono visualizzati i componenti e tutte le risorse indentate in base alla posizione nella distinta base dell'articolo di assemblaggio.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
@@ -69,6 +74,7 @@ Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui
 4. Nella pagina **DB assemblaggio** selezionare l'azione **Mostra DB**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Per sostituire l'articolo di assemblaggio con i suoi componenti nelle righe del documento
+
 Da un documento di vendita e di acquisto contenente un articolo di assemblaggio è possibile utilizzare una funzione speciale per sostituire la riga per l'articolo di assemblaggio con nuove righe per i componenti. Questa funzione è utile, ad esempio, se si intende vendere i componenti come kit che rappresenta l'articolo di assemblaggio.
 
 L'azione **Esplodi DB** è anche disponibile nella pagina **DB assemblaggio** come metodo per visualizzare gli articoli di sottoassemblaggi in una DB di assemblaggio.
@@ -113,9 +119,12 @@ Il costo unitario di una DB di assemblaggio è sempre uguale al totale dei costi
 
 I costi degli articoli che compongono la DB di assemblaggio vengono copiate dalle schede articoli componenti. Il costo di ogni articolo viene moltiplicato per la quantità e il costo totale viene mostrato nel campo **Costo unitario** nella scheda articolo.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/set-up-assembly-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
+
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
-[Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)     
+[Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

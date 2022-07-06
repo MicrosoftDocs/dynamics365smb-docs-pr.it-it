@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: a51175dc5dd124b58ef92e87ab6874f04e4bea41
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144881"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076957"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Panoramica di Business Intelligence e creazione di report
 
@@ -30,14 +30,16 @@ Le piccole e medie imprese rispondono grazie all'analisi e ai report integrati c
 | Scopri come integrare strumenti di business intelligence esterni con [!INCLUDE[prod_short](includes/prod_short.md)].| [Strumenti di Business Intelligence esterni](reports-external-analysis.md) |
 |Scopri come modificare i layout dei report o persino sviluppare i tuoi report da zero. |[Sviluppo di report](reports-develop-reports.md)|
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
 
-[Usare i report nel lavoro quotidiano](reports-use-reports.md)
-[Panoramica del report](reports-available-reports.md)
-[Analisi dei dati ad hoc](reports-adhoc-analysis.md)
-[Analisi integrate](reports-built-in-analytics.md)
-[Strumenti di Business Intelligence esterni](reports-external-analysis.md)
-[Sviluppo di report](reports-develop-reports.md)
+[Usare i report nel lavoro quotidiano](reports-use-reports.md)  
+[Panoramica del report](reports-available-reports.md)  
+[Analisi dei dati ad hoc](reports-adhoc-analysis.md)  
+[Analisi integrate](reports-built-in-analytics.md)  
+[Strumenti di Business Intelligence esterni](reports-external-analysis.md)  
+[Sviluppo di report](reports-develop-reports.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

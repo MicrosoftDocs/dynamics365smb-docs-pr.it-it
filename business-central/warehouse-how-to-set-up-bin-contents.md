@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6b031cfb87c74a62da85d0c7073a91e5e176e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9135514b6f788aab99b3433a04ad28ec36064e30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520527"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074356"
 ---
 # <a name="create-bin-contents"></a>Creare il contenuto delle collocazioni
 
@@ -55,10 +55,12 @@ Dopo avere creato le collocazioni, è possibile specificare il contenuto desider
 
 Poiché questo prospetto consente di utilizzare più righe di contenuto collocazione per più collocazioni, è possibile ottenere una panoramica precisa di tutti gli articoli che si stanno inserendo nelle varie collocazioni presenti in una determinata zona, corsia o scaffalatura.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/set-up-zones-bins/)
+
+## <a name="see-also"></a>Vedere anche
 
 [Calcola rifornimento collocazione](warehouse-how-to-calculate-bin-replenishment.md)  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  

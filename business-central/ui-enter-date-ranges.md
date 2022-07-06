@@ -10,12 +10,12 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ba8dc155f3f25aa69907a729b1e235606a5268f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655100"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076801"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Utilizzare date e orari del calendario
 
@@ -330,6 +330,7 @@ La parola per "ora" nella lingua usata da [!INCLUDE[prod_short](includes/prod_lo
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Immissione della durata
+
 Alcuni campi dell'applicazione rappresentano una durata, o una quantità di tempo trascorso, anziché una data o un'ora specifica. È possibile immettere una durata in caratteri numerici seguiti dalla relativa unità di misura.
 
 Di seguito vengono forniti alcuni esempi.
@@ -348,6 +349,8 @@ Di seguito vengono forniti alcuni esempi.
 Per vedere quale unità di misura viene utilizzata in un campo di durata, immetti un numero. Quindi, puoi vedere in quale unità di misura è stato convertito.
 
 Ad esempio, il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

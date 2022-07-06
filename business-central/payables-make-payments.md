@@ -10,12 +10,12 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba8b80508fbab49fddb4d9927d47af3ae1d9708a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c6f9a6e526abad8e2ad53325ddf4d0079d28def2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520918"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077946"
 ---
 # <a name="making-payments"></a>Effettuare i pagamenti
 
@@ -41,7 +41,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Pagare un fornitore in contanti o con assegno e registrare il pagamento mentre si registra la fattura. |[Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati inviandole un file che contenga informazioni sul fornitore, l'assegno e il pagamento. |[Esportare un file Positive Pay](finance-how-positive-pay.md) |
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
+
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  

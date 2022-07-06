@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149129"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075553"
 ---
 # <a name="defining-and-allocating-costs"></a>Definizione e allocazione dei costi
 
@@ -143,12 +143,14 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
 > [!IMPORTANT]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] vengono utilizzate le cifre di vendita degli anni precedenti per calcolare una quota di 1.596,50 VL con il 100% dei colli di ATTREZZATURA IT. Pertanto, tutti gli articoli venduti nell'ultimo anno verranno assegnati all'oggetto di costo ATTREZZATURA IT.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
 
- [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)   
- [Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)   
- [Contabilizzazione dei costi](finance-manage-cost-accounting.md)   
- [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
+## <a name="see-also"></a>Vedere anche
+
+ [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)  
+ [Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)  
+ [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
+ [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)  
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)
 
 

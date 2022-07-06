@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516564"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077530"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Impostare le procedure ottimali: metodi di riordino
+
 Nel campo **Metodo di riordino** delle schede articolo vengono offerti quattro diversi metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.  
 
 Una delle migliori basi per la selezione di un metodo di riordino è la classificazione ABC dell'articolo. Quando si utilizza la classificazione ABC per il controllo del magazzino e la pianificazione degli approvvigionamenti, gli articoli vengono gestiti secondo tre classi diverse a seconda del valore e del volume rispetto allo stock totale. La distribuzione di valore-volume delle tre classi viene visualizzata nella seguente tabella.
@@ -40,9 +41,12 @@ Nella seguente tabella vengono fornite le procedure consigliate per la selezione
 |**Qtà Riordino Fissa**|Utilizzare per gli articoli C.<br /><br /> Combinare con i parametri del punto di riordino.<br /><br /> Nella produzione utilizzare per i componenti di ultimo livello.<br /><br /> Non utilizzare se l'articolo è spesso impegnato.|Gli articoli C, ad esempio, tazze di tè, sono articoli di basso valore con velocità di ordine elevata e costante. Il migliore metodo di riordino per gli articoli C pertanto è un metodo che garantisce la disponibilità costante, rimanendo sempre al di sopra di un punto di riordino.<br /><br /> Se l'utente impegna una quantità per una domanda remota, la struttura di pianificazione verrà disturbata. Anche se il livello della quantità scorte previste è ammesso relativamente al punto di riordino, le quantità potrebbero non essere disponibili a causa dell'impegno.|  
 |**Qtà Massima**|Utilizzare per gli articoli C con costi di mantenimento o limitazioni di archiviazione elevati.<br /><br /> Combinare con uno più modificatori ordine (Quantità minima ordine/Quantità massima ordine o Molteplicità ordine).|Gli articoli C, ad esempio, tazze di tè, sono articoli di basso valore con velocità di ordine elevata e costante. Il migliore metodo di riordino per gli articoli C pertanto è un metodo che garantisce la disponibilità costante, rimanendo sempre al di sopra di un punto di riordino, ma al di sotto di una quantità di giacenza massima.<br /><br /> Per modificare l'ordine suggerito, è possibile diminuire la quantità dell'ordine alla quantità massima ordine specificata, aumentarla a una quantità minima ordine specificata o arrotondarla per eccesso per soddisfare una molteplicità ordine. **Nota:** Se utilizzato con un punto di riordino, il magazzino è tra il punto di riordino e la quantità massima.|  
 
-## <a name="see-also"></a>Vedere anche  
- [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)   
- [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
+
+ [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
+ [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)  
  [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
  [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

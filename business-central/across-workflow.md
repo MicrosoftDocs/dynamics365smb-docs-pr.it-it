@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
-ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
+ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743673"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075084"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflow in Dynamics 365 Business Central
 
@@ -47,7 +47,9 @@ Per impostare e utilizzare flussi di lavoro non definiti in Power Automate, cont
 |Impostare gli utenti del flusso di lavoro, specificare la modalità di notifica per gli utenti e creare nuovi flussi di lavoro. Per i nuovi flussi di lavoro per gli scenari non sostenuti, implementare gli elementi necessari del flusso di lavoro personalizzando il codice dell'applicazione.|[Impostare i flussi di lavoro](across-set-up-workflows.md)|  
 |Abilitare i flussi di lavoro, intervenire sulle relative notifiche, incluse le approvazioni di richieste, e approvare le richieste per eseguire un passaggio del flusso di lavoro. Archiviare ed eliminare i flussi di lavoro.|[Utilizzare i workflow](across-use-workflows.md)|  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
@@ -55,5 +57,6 @@ Per impostare e utilizzare flussi di lavoro non definiti in Power Automate, cont
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] nei flussi Power Automate](across-how-use-financials-data-source-flow.md)  
 [Risolvere i problemi dei flussi di lavoro automatizzati di [!INCLUDE[prod_short](includes/prod_short.md)]](across-flow-troubleshoot.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

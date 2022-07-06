@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c36461ccebcad870cead8fa0958125b778f4a8ae
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0fa9923c9bdec0c5f70ef07977cb7bf87550ab3a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514175"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078806"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Offerta per una vendita assemblaggio su ordine
+
 È possibile utilizzare gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Come per la vendita di qualsiasi altro tipo di articolo, è inoltre possibile creare un'offerta di vendita di un articolo di assemblaggio personalizzato prima della conversione in ordine di vendita. Questo processo prevede diversi passaggi aggiuntivi se viene confrontato alla creazione di un'offerta di vendita normale e utilizza una variazione di un ordine di assemblaggio collegato, ossia un'offerta di assemblaggio.
@@ -25,7 +26,8 @@ Come per la vendita di qualsiasi altro tipo di articolo, è inoltre possibile cr
 > [!NOTE]  
 >  Come in tutti i tipi di offerte, le quantità nelle offerte di assemblaggio non vengono utilizzate per la disponibilità, la pianificazione o gli impegni.  
 
-## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Per creare un'offerta di vendita per un articolo assemblato su ordine  
+## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Per creare un'offerta di vendita per un articolo assemblato su ordine
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Offerta di vendita**, quindi seleziona il collegamento correlato.  
 2.  Creare una riga dell'offerta di vendita con una riga per un articolo di assemblaggio. Per ulteriori informazioni, vedere [Creare offerte di vendita](sales-how-make-offers.md).  
 3.  Nel campo **Qtà per assemblaggio su ordine** immettere la quantità completa.
@@ -38,7 +40,10 @@ Come per la vendita di qualsiasi altro tipo di articolo, è inoltre possibile cr
 6.  Dopo avere rettificato le righe dell'ordine di assemblaggio in base all'offerta, chiudere la pagina **Righe di assemblaggio su ordine** per tornare alla pagina **Offerta vendita**.  
 7.  Se il cliente accetta l'offerta, creare un ordine di vendita per l'articolo di assemblaggio offerto. Per ulteriori informazioni, vedere [Creare offerte di vendita](sales-how-make-offers.md). L'offerta di assemblaggio collegata ed eventuali personalizzazioni sono collegate al nuovo ordine di vendita per preparare l'assemblaggio dell'articolo o degli articoli da vendere.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
+
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  

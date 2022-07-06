@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521048"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075605"
 ---
 # <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
 La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.  
@@ -107,6 +107,13 @@ Il movimento contabile articolo che risulta dalla registrazione di una vendita d
 I movimenti contabili articoli di tipo Vendita che derivano dalla registrazione delle quantità di assemblaggio su ordine sono contrassegnati con **Sì** nel campo **Assemblaggio su ordine**.  
 
 La registrazione di righe ordini di vendita in cui una parte è quantità di magazzino e un'ulteriore parte è quantità per l'assemblaggio su ordine dà come risultato movimenti contabili articoli separati, uno per la quantità di magazzino e uno per la quantità per l'assemblaggio su ordine.  
+
+### <a name="posting-dates"></a>Date di registrazione
+
+In generale, le date di registrazione vengono copiate da un ordine cliente nell'ordine di assemblaggio collegato. La data di registrazione nell'ordine di assemblaggio viene aggiornata automaticamente quando si modifica la data di registrazione nell'ordine cliente direttamente o indirettamente, ad esempio se modifichi la data di registrazione nella spedizione di magazzino, nel prelievo di magazzino o come parte di una registrazione in blocco.
+
+Puoi modificare manualmente la data di registrazione nell'ordine di assemblaggio. Tuttavia, non può essere successiva alla data di registrazione nell'ordine cliente collegato. Il sistema manterrà questa data a meno che non aggiorni la data di registrazione nell'ordine cliente.
+
 
 ## <a name="see-also"></a>Vedi anche  
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   

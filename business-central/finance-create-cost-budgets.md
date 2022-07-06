@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 56757c07ae0bbc41ae2ac9fad6bc3318a1d0ab93
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 171e046e68cd3eaabbb10b0e1aeacb508cbc76b4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520414"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078128"
 ---
 # <a name="creating-cost-budgets"></a>Creazione di budget di costi
 
@@ -32,11 +32,13 @@ Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegli l'i
 |Visualizzare i registri budget costi e i movimenti di budget costi.|Pagina **Registri budget costi**|  
 |Stampare i confronti del budget costi utilizzando vari report.|Report **Saldo/Budget contabilità industriale**<br /><br /> Report **Estratto conto/Budget di contabilità industriale**<br /><br /> Report **Budget costi per centro di costo**<br /><br /> Report **Budget costi per oggetto di costo**|  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/cost-accounting-reports-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
 [Creare budget C/G](finance-how-create-budgets.md)  
-[Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)   
+[Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)  
 [Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

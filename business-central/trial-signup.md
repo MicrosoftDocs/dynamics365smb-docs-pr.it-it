@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805180"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077504"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Iscrizione per una valutazione gratuita di Dynamics 365 Business Central
 
@@ -43,9 +43,10 @@ Ogni volta che si accede durante il periodo di valutazione, una notifica in una 
 
 Per ulteriori informazioni su cosa puoi fare con [!INCLUDE [prod_short](includes/prod_short.md)], vedi[Preparazione al business](ui-get-ready-business.md) e [Funzionalità aziendale](across-business-functionality.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Esplorare la formazione su Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Visitare la videoteca](across-videos.md)  
 - [Domande frequenti sulla versione di valutazione](trial-faq.md)  
 - [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md)  

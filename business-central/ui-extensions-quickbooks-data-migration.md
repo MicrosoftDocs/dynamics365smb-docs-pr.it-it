@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5c910aa7ab769af315c34db27c065fb8b496c878
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0b608fb83b643e548b5400c6339ce35e09e5617f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136745"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078520"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Estensione di migrazione dei dati QuickBooks
 
@@ -65,7 +65,9 @@ Esistono alcune operazioni consigliate: se le transazioni in QuickBooks presenta
 Se si utilizza l'IVA, può essere necessario aggiungere una categoria di registrazione business e articoli/servizi nel Setup registrazione in modo che sia possibile registrare gli importi IVA.
 Verificare i saldi iniziali per i conti della contabilità generale. QuickBooks non memorizza il saldo attuale per tutti i conti, potrebbe quindi essere necessario correggere i saldi iniziali.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
 
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni ](ui-extensions.md)  

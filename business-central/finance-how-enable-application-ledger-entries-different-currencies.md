@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.search.form: 148, 460, 25
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7b83a2f53a41cc646b6480048fa4152035077c9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ec081740ff45dc018d975f6d84deae4aae907cb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510866"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078702"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Abilitare il collegamento dei movimenti contabili fornitore in valute diverse
 
@@ -47,6 +47,8 @@ Se movimenti in diverse valute vengono collegati, è necessario impostare il con
 2. Nei campi **Conto dare arrot. coll. val.** e **Conto avere arrot. coll. val.** immettere i conti di contabilità generale pertinenti per registrare le differenze di arrotondamento.  
 3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cat. reg. fornitori**, quindi scegli il collegamento correlato.  
 4. Nei campi **Conto dare arrot. coll. val.** e **Conto avere arrot. coll. val.** immettere i conti di contabilità generale pertinenti per registrare le differenze di arrotondamento.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

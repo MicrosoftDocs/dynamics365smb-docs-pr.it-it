@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515669"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076567"
 ---
 # <a name="set-up-posting-groups"></a>Configurazione delle categorie di registrazione
 
@@ -58,6 +58,7 @@ La tabella seguente descrive le categorie di registrazione che sono specifiche p
 | Categorie di registrazione cespiti |È possibile definire diversi tipi di spese e costi, come conti per costi di acquisto, importi di fondo ammortamento, costi di acquisto di cessione, fondo ammortamento di cessione, guadagni su cessione, perdite su cessione, spese di manutenzione e spese di ammortamento. Imposta queste categorie registrazioni nella pagina **Cat. reg. cespiti**. |
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Consentire categorie registrazione di clienti o fornitori sostitutivi nei documenti
+
 Puoi consentire alle persone di scegliere categorie di registrazione business cliente e fornitore diverse rispetto a quelle predefinite quando usi documenti e giornali di registrazione di vendita o acquisto.
 
 Per consentire le modifiche alle categorie di registrazione clienti, scegli **Consenti modifica categoria registrazione** nelle pagine **Setup contabilità clienti** e **Setup gest. assist.** e nella pagina **Setup contabilità fornitori** per le modifiche alla categoria di registrazione fornitori.
@@ -129,10 +130,13 @@ Quando qualcosa non va, [!INCLUDE[prod_short](includes/prod_short.md)] visualizz
 > [!NOTE]
 > La gestione degli errori descritta sopra non è disponibile su diari di articoli, risorse, impiegati e attività fisse, o per conti G/L aggiunti in versioni locali di gruppi di registrazione.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Vedere anche
+
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e2fe316c9f310abe3eb3bc031146445a8ffa7cef
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 88fa36a84b88ccb44df3c1412ac217461febc883
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512024"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078260"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Impostare ubicazioni per l'utilizzo di collocazioni
+
 Le collocazioni rappresentano la struttura di warehouse di base e vengono utilizzate per creare suggerimenti relativi al posizionamento degli articoli. Dopo avere creato le collocazioni desiderate, è possibile definire in modo specifico il contenuto che si desidera includere in ciascuna collocazione. In alternativa, è possibile utilizzare la collocazione come collocazione variabile, ovvero priva di contenuto specifico.  
 
 Per utilizzare la funzionalità relativa alle collocazioni in un'ubicazione, è necessario prima attivarla nella scheda **Ubicazione**. Si progetterà quindi il flusso degli articoli nell'ubicazione specificando i codici di collocazione nei campi di setup che rappresentano i diversi flussi.  
@@ -24,7 +25,8 @@ Per utilizzare la funzionalità relativa alle collocazioni in un'ubicazione, è 
 > [!NOTE]  
 >  Prima di poter specificare i codici di collocazione nella scheda Ubicazione, è necessario creare i codici di collocazione. Per ulteriori informazioni, vedere [Creare collocazioni](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Per impostare un'ubicazione per l'utilizzo di collocazioni  
+## <a name="to-set-up-a-location-to-use-bins"></a>Per impostare un'ubicazione per l'utilizzo di collocazioni
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2.  Selezionare l'ubicazione in cui si desidera utilizzare le collocazioni.  
 3.  Scegliere l'azione **Modifica**.  
@@ -38,14 +40,18 @@ Per utilizzare la funzionalità relativa alle collocazioni in un'ubicazione, è 
 11. Nella Scheda dettaglio **Warehouse** compilare i campi **Tempo gest. uscita da whse.**, **Tempo gest. entrata in whse.** e **Codice calendario base**. Per ulteriori informazioni, vedere [Impostare i calendari di base](across-how-to-assign-base-calendars.md).
 
 ## <a name="filling-the-consumption-bin"></a>Rifornimento della collocazione di consumo
+
 Questo diagramma di flusso illustra in che modo il campo **Cod. collocazione** nelle righe del componente dell'ordine di produzione viene compilato in base al setup dell'ubicazione.
 
 ![Diagramma di flusso collocazione.](media/binflow.png "BinFlow")  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-bins-location/)
+
 ## <a name="see-also"></a>Vedere anche
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione di Gestione warehouse](warehouse-setup-warehouse.md)     
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

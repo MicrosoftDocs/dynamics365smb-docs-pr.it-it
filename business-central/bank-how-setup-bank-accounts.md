@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514123"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078780"
 ---
 # <a name="set-up-bank-accounts"></a>Impostare i conti correnti bancari
 
@@ -157,6 +157,7 @@ The following table explains key fields.
 -->
 
 ## <a name="entering-an-opening-balance"></a>Inserimento di un saldo di apertura
+
 Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare un movimento contabile del conto corrente bancario con la quantità in questione. È possibile effettuare questa operazione eseguendo un una riconciliazione bancaria. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > In alternativa, è possibile implementare il saldo iniziale come parte della creazione di dati generali in nuove aziende utilizzando la guida al setup assistito **Migra dati aziendali**. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
@@ -165,6 +166,7 @@ Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare
 > È importante non registrare il saldo di apertura direttamente nella contabilità generale. Avere voci nel conto C/G che vengono registrate direttamente nel conto C/G in genere comporterà l'impossibilità di riconciliare il conto bancario o, in caso di conti bancari in valuta estera, comporterà l'accumulo di differenze durante la pubblicazione di più riconciliazioni bancarie. Spesso si registra il saldo bancario di apertura direttamente sul conto bancario e l'importo finisce quindi nel conto C/G. In alternativa, lo annulli in un secondo momento rispetto a un conto C/G che usi per bilanciare il saldo della contabilità generale di apertura. In entrambi i casi, è necessario bilanciare qualsiasi registrazione diretta sul conto C/G prima di iniziare la prima riconciliazione bancaria, soprattutto se il conto bancario è in una valuta estera.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Per impostare il conto corrente bancario per l'importazione o l'esportazione di file dei conti correnti bancari
+
 I campi relativi all'importazione e all'esportazione di feed e file bancari sono nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda conto corrente bancario**. Per ulteriori informazioni, vedi [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) e [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
@@ -239,6 +241,8 @@ Dopo aver creato il nuovo conto bancario, è necessario creare anche una nuova c
 > Ricorda che le informazioni sul conto bancario sulle fatture di vendita aperte mostrano ancora il conto bancario originale. Di conseguenza, è probabile che i pagamenti vengano ancora registrati su tale conto. Ti consigliamo di mantenere attivi entrambi i conti per un periodo di tempo dopo la modifica.
 
 Per ottenere una visione più concisa dei tuoi conti di cassa nei report finanziari, usa i conti **Inizio-Totale** e **Totale finale** nel piano dei conti, le righe **Totale** nelle situazioni contabili o nelle categorie di conti C/G. Per ulteriori informazioni, vedi la sezione [Business Intelligence e Financial Reporting](bi.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

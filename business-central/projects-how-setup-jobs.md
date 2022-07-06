@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 369e47e5bb8d30f2042b7051ed5bc0a1124a0797
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514910"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079040"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Impostare commesse, prezzi e categorie di registrazione commesse
 
@@ -22,6 +22,7 @@ In veste di manager del progetto, è possibile configurare le commesse che defin
 Per ogni commessa, si specificano quindi singole schede commessa con informazioni sui prezzi per gli articoli di commessa, le risorse di commessa e i conti C/G commesse ed è necessario impostare le categorie di registrazione commesse.
 
 ## <a name="to-set-general-information-for-jobs"></a>Per impostare le informazioni generali relative alle commesse
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup commesse**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -49,12 +50,14 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Per impostare i prezzi per risorse, articoli e conti di contabilità generale per le commesse
+
 > [!NOTE]
 > Nel secondo ciclo di rilascio del 2020 sono stati rilasciati nuovi processi per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 È possibile impostare i prezzi per articoli, risorse e conti di contabilità generale correlati a una commessa. 
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Selezionare la commessa, quindi scegliere l'azione **Risorsa**, **Articolo** o **Conto C/G**.
 3. Nelle pagine **Prezzi risorse commesse**, **Prezzi articoli commesse** o **Prezzi conti C/G commesse** compilare i campi come necessario.
@@ -68,12 +71,14 @@ La tabella seguente mostra come le informazioni nei campi facoltativi verranno u
 |**Conti di contabilità generale**|Le informazioni nei campi **Nr. task commessa**, **Codice valuta**, **% sconto riga**, **Fattore costo unitario** e **Costo unitario** verranno utilizzate nelle righe di pianificazione commessa e nelle registrazioni commessa quando questo conto di contabilità generale verrà immesso o aggiunto a una commessa. Il valore nel campo **Prezzo unitario** per la spesa di commessa contabile verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo conto C/G.|
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Listini prezzi di vendita**.
 
 ---
 
 ## <a name="to-set-up-job-posting-groups"></a>Per impostare le categorie di registrazione commesse
+
 Un aspetto della pianificazione delle commesse è decidere quali conti di registrazione utilizzare per il calcolo dei costi. Perché sia possibile registrare commesse, è necessario impostare conti per la registrazione di ciascuna categoria di registrazione commessa. La categoria di registrazione rappresenta un collegamento tra la commessa e come deve essere considerata nella contabilità generale. Quando si crea una commessa, si specifica una categoria di registrazione e, per default, ogni task creato per la commessa viene associato a tale categoria di registrazione. Tuttavia, quando si creano i task, è possibile sostituire l'impostazione di default e selezionare una categoria di registrazione più appropriata.  
 
 > [!NOTE]  
@@ -99,6 +104,8 @@ Un aspetto della pianificazione delle commesse è decidere quali conti di regist
 | **Conto rettifica vendite commesse** |Contropartita per il conto vendite WIP per la commessa, che rappresenta un conto avere. |
 | **Conto costi riconosciuti** |Conto spesa contenente i costi riconosciuti per la commessa. In genere si tratta di un conto di addebito. |
 | **Conto vendite riconosciute** |Conto avere contenente le entrate riconosciute per la commessa. In genere si tratta di un conto di accredito. |
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Vedere anche
 

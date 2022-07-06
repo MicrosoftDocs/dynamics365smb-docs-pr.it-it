@@ -229,13 +229,11 @@
 ### Documenti in entrata
 #### [Panoramica dei documenti in entrata](across-income-documents.md)
 #### [Impostare documenti in entrata](across-how-setup-income-documents.md)
-#### Elaborare i documenti in entrata
-##### [Elaborare i documenti in entrata](across-process-income-documents.md)
-##### [Creare i record di documenti in entrata](across-how-create-income-document-records.md)
-##### [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)
-##### [Creare i record di documenti in entrata direttamente da documenti e movimenti](across-how-connect-disconnect-income-document-records.md)
-##### [Trovare documenti registrati senza record di documenti in entrata](across-how-find-posted-documents-without-income-document-records.md)
-##### [Gestire più record di documenti in entrata](across-how-manage-many-income-document-records.md)
+#### [Creare i record di documenti in entrata](across-how-create-income-document-records.md)
+#### [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)
+#### [Creare i record di documenti in entrata direttamente da documenti e movimenti](across-how-connect-disconnect-income-document-records.md)
+#### [Trovare documenti registrati senza record di documenti in entrata](across-how-find-posted-documents-without-income-document-records.md)
+#### [Gestire più record di documenti in entrata](across-how-manage-many-income-document-records.md)
 
 ### Workflow
 #### [Panoramica dei workflow](across-workflow.md)
@@ -1424,8 +1422,8 @@
 #### Imposta
 ##### [Imposta sulle vendite USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Dichiarazione IVA negli Stati Uniti](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Registrazione delle transazioni soggette a 1099 negli Stati Uniti](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Configurare e utilizzare il modulo IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Normativa 1099 modifiche al formato e dettagli](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Impostare l'IVA intracomunitaria e l'imposta sugli acquisti](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Impostare l'IVA ad esigibilità differita e sconti pagamenti](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Attività bancarie e pagamenti

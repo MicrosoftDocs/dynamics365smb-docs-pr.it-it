@@ -10,14 +10,16 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f25dab624644b028cffce5e21080910fc87dfaf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9ce2494e929613d69c22d125adffb6465d1717cd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514519"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075032"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vendere gli articoli di magazzino nei flussi di assemblaggio su ordine
+
+
 Se il campo **Criteri di assemblaggio** nella scheda articolo di un articolo di assemblaggio contiene **Assemblaggio su ordine**, il processo di default dell'ordine di vendita presuppone che l'articolo non sia in magazzino e debba essere assemblato per tale ordine di vendita specifico. Di conseguenza, un ordine di assemblaggio collegato viene automaticamente creato quando si aggiunge l'articolo a una riga dell'ordine di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md). Tuttavia, se una parte della quantità dell'ordine di vendita è già disponibile in magazzino, interamente, è possibile ridurre la quantità dell'ordine di assemblaggio modificando il campo **Qtà per assemblaggio su ordine** nella riga dell'ordine di vendita.  
 
 Questo è uno scenario raro poiché si prevede che gli articoli di assemblaggio su ordine siano sempre personalizzati ed è poco probabile che si trovino in magazzino nella configurazione richiesta da un altro cliente. Tuttavia, se una società dispone di quantità di assemblaggio su ordine in magazzino a causa di resi o annullamenti di ordini, queste quantità devono essere prelevate e vendute prima di assemblarne di nuove.  
@@ -32,7 +34,8 @@ Una funzionalità analoga è disponibile quando si vendono articoli di assemblag
 
 Nella procedura, le quantità di assemblaggio su ordine vengono sostituite con le quantità di magazzino in una riga dell'ordine di vendita. I passaggi includono la verifica della disponibilità, la detrazione della quantità dall'ordine di assemblaggio collegato e l'impegno della quantità di magazzino per garantire che venga prelevata e spedita per l'ordine.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Per vendere gli articoli di magazzino nei flussi da assemblare su ordine  
+## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Per vendere gli articoli di magazzino nei flussi da assemblare su ordine
+
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Creare un ordine di vendita. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
 3.  In una riga dell'ordine di vendita per un articolo assemblato su ordine immettere la quantità richiesta nel campo **Quantità**.  
@@ -48,7 +51,10 @@ Nella procedura, le quantità di assemblaggio su ordine vengono sostituite con l
 > [!CAUTION]  
 >  Il campo **Codice collocazione** nell'ordine di vendita può essere precompilato in base al campo **Cod. coll. sp. ass. su ordine** o il campo **Cod. coll. art. da assembl.** nella scheda ubicazione. In tal caso, il campo **Codice collocazione** nella riga dell'ordine di vendita può essere errato in questa combinazione di quantità di assemblaggio su ordine e assemblaggio per magazzino. Si consiglia di esaminare il campo **Cod. collocazione** e verificare che il posizionamento funzioni per tutte le quantità. In alternativa, immettere due quantità diverse in righe separate dell'ordine di vendita.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Vedere anche
+
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Prenotare articoli](inventory-how-to-reserve-items.md)  
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 6a3d7244beef57a1b5a82b881ec193316fe968fe
-ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
+ms.openlocfilehash: 779c2ac1b043cee6f2578f3a642a26a8bb3156c8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "8841868"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079534"
 ---
 # <a name="calculate-dates-for-purchases"></a>Calcolare le date per gli acquisti
 
@@ -64,9 +64,11 @@ Se modifichi la data dell'ordine sulla riga, [!INCLUDE[prod_short](includes/prod
 3. Scheda unità di stockkeeping
 4. Scheda fornitore
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
-[Calcolo della data per le vendite](sales-date-calculation-for-sales.md)   
+## <a name="see-also"></a>Vedere anche
+
+[Calcolo della data per le vendite](sales-date-calculation-for-sales.md)  
 [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

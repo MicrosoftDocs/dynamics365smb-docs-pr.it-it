@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7a44f0b716b219d7c65481c69abb3795129e8147
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 19e6d291cf2547ac0a9ad45dce264e1e326dfad6
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511920"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078234"
 ---
 # <a name="moving-items"></a>Spostamento di articoli
 
@@ -39,12 +39,14 @@ Le attività di conteggio, rettifica e riclassificazione degli articoli correlat
 |Aggiornare la frequenza con cui le collocazioni, ad esempio le collocazioni di prelievo, devono essere rifornite in seguito alle fluttuazioni della domanda.|[Calcola rifornimento collocazione](warehouse-how-to-calculate-bin-replenishment.md)|
 |Ristrutturare la warehouse con nuovi codici collocazione e nuove caratteristiche per le collocazioni e spostarli.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
 
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+## <a name="see-also"></a>Vedere anche
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione di Warehouse Management](warehouse-setup-warehouse.md) 
-[Gestione assemblaggio](assembly-assemble-items.md)
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
+[Gestione assemblaggio](assembly-assemble-items.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

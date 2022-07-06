@@ -9,17 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a57165a63139f0c8bf590b811160a45e26152ce
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4454fd40daffbaa5d551635c406f10c70009d3bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522434"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076073"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Pianificare movimentazioni warehouse nei prospetti
+
 Pianificare i movimenti nel prospetto utilizzando la funzione di rifornimento collocazione o manualmente pianificando le righe che si desidera creare come istruzioni di movimento.  
 
-## <a name="to-calculate-a-replenishment-movement"></a>Per calcolare un movimento di rifornimento  
+## <a name="to-calculate-a-replenishment-movement"></a>Per calcolare un movimento di rifornimento
+
 Man mano che gli articoli nella warehouse vengono spediti ai clienti, le collocazioni con le valutazioni più elevate contengono un numero di articoli sempre minore. Per reintegrare le collocazioni di prelievo a valutazione elevata mediante gli articoli disponibili in altre collocazioni, è possibile eseguire la funzione **Calcola rifornimento collocazione** nella pagina **Prospetto movimentazioni**.
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto movimentazioni**, quindi scegli il collegamento correlato.  
@@ -40,7 +42,8 @@ Man mano che gli articoli nella warehouse vengono spediti ai clienti, le colloca
 3.  Esaminare le righe e, se necessario, modificarle oppure eliminarne alcune nel caso in cui non sia possibile eseguire tutte le indicazioni riportate poiché richiedono troppo tempo.  
 4.  Scegliere l'azione **Crea movimento** per creare un'istruzione warehouse destinata agli impiegati warehouse.  
 
-## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Per spostare l'intero contenuto di una o più collocazioni tramite la funzione Prendi contenuto collocazione  
+## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Per spostare l'intero contenuto di una o più collocazioni tramite la funzione Prendi contenuto collocazione
+
 Il prospetto movimentazioni consente anche di pianificare altri movimenti delle giacenze all'interno della warehouse. Ad esempio, quando si desidera posizionare gli articoli in una collocazione per il controllo qualità, è possibile pianificare questa azione utilizzando il prospetto movimenti, quindi creare un movimento per ottenere le istruzioni da fornire a un impiegato della warehouse.  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto movimentazioni**, quindi scegli il collegamento correlato.  
@@ -64,10 +67,13 @@ Il prospetto movimentazioni consente anche di pianificare altri movimenti delle 
 6.  Eliminare le righe incomplete utilizzate a scopo informativo.  
 7.  Quando le righe del prospetto movimenti rifletteranno accuratamente il modo in cui si desidera venga eseguita l'azione, scegliere l'azione **Crea movimento** per creare le istruzioni destinate all'impiegato della warehouse.  
 
-## <a name="see-also"></a>Vedi anche  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/move-items/)
+
+## <a name="see-also"></a>Vedere anche
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)     
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

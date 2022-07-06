@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 136, 145, 146, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2fe6a0b680472ff695f9203c11868d79f51e9a0a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 83e45bca2f9c85debeb2dfe79112538119690480
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521834"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077165"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Combinare i carichi in una singola fattura
 
@@ -47,6 +47,8 @@ Quando i carichi di acquisto vengono cumulati in una fattura e registrati, viene
 In alternativa, eliminare i singoli ordini manualmente.
 
 Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esempio gli ordini di acquisto programmati.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

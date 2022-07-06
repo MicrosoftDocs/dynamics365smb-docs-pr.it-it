@@ -8,14 +8,15 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626397"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074694"
 ---
 # <a name="create-jobs"></a>Creare commesse
+
 Quando si inizia un nuovo progetto, è necessario creare una scheda commessa con i task commessa e le righe di pianificazione commessa integrati. La scheda è strutturata su due livelli.  
 
 Il primo livello è costituito dai task commessa. Occorre creare almeno un task per commessa perché tutte le operazioni di registrazione fanno riferimento a un task commessa. L'impostazione di almeno un task nella commessa consente di impostare le righe di pianificazione commessa e di registrare il consumo nella commessa.
@@ -34,6 +35,7 @@ A volte la parte a cui è rivolto un servizio è diversa dalla parte che paga il
 * Sovrascrivi i termini finanziari standard del progetto.
 
 ## <a name="to-create-a-job-card"></a>Per creare una scheda commessa
+
 Creare una scheda commessa, quindi creare le righe del task commessa e le relative righe di pianificazione commessa.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.  
@@ -44,6 +46,7 @@ Creare una scheda commessa, quindi creare le righe del task commessa e le relati
 >   Se con la commessa si stanno utilizzando i fogli presenze, è necessario designare un responsabile. La persona può approvare i fogli presenze per i task degli impiegati associati alla commessa. Per ulteriori informazioni, vedere [Impostare fogli presenze](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Per creare i task di una commessa
+
 Una parte fondamentale nella creazione di una nuova commessa consiste nello specificare i vari task implicati nella commessa. Specificare le attività creando una riga per attività nella Scheda dettaglio **Attività** della pagina **Scheda commessa**. Ogni commessa deve avere almeno un task.
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.
@@ -54,6 +57,7 @@ Una parte fondamentale nella creazione di una nuova commessa consiste nello spec
 6. Per specificare i task commesse utilizzando le informazioni di altri task commesse, scegliere l'azione **Copia task commessa da**, compilare i campi necessari, quindi scegliere **OK**.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Per creare le righe di pianificazione per una commessa
+
 È possibile perfezionare i nuovi task commessa nelle righe di pianificazione commessa. Una riga di pianificazione può acquisire le informazioni di cui si desidera tenere traccia per una commessa. Ad esempio, puoi tenere traccia delle risorse richieste dal processo o degli elementi necessari. Ad esempio, hai un'attività per convincere un cliente ad approvare un processo. È possibile associare l'attività alle righe di pianificazione per articoli quali la riunione con il cliente e l'assegnazione di una risorsa.  
 
 Una riga di pianificazione commessa può contenere uno dei seguenti tipi.  
@@ -72,6 +76,8 @@ Una riga di pianificazione commessa può contenere uno dei seguenti tipi.
 3. Selezionare un task commessa per il quale il campo **Tipo task commessa** contiene **Registrazione**, quindi scegliere l'azione **Righe pianificazione commessa**.  
 4. Nella pagina **Righe pianificazione commessa**, in una nuova riga compilare i campi secondo le esigenze.
 5. Ripetere i passaggi 3 e 4 per tutte le righe di pianificazione richieste per il task commessa.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-new-job/)
 
 ## <a name="see-also"></a>Vedere anche
 

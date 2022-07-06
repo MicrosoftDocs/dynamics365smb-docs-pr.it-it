@@ -10,14 +10,15 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17e478464d49424d2eb929a297033605c91c25ba
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9ec826560a44908b0635bf7698040b1c0e088b04
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516345"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076645"
 ---
 # <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
+
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
 
 * Come assicurare, gestire e ammortizzare i cespiti.  
@@ -41,8 +42,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Ulteriori informazioni sui diversi metodi di ammortamento del cespite. |[Metodi di ammortamento](fa-depreciation-methods.md) |
 | Informazioni su come applicare metodi di ammortamento definiti dall'utente. |[Impostare i metodi di ammortamento definiti dall'utente](fa-how-setup-user-defined-depreciation-method.md) |
 
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>Vedere anche
+
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
