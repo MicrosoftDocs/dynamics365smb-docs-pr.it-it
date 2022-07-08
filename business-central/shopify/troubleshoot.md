@@ -77,7 +77,7 @@ Le procedure seguenti descrivono come ruotare il token di accesso utilizzato dal
 ### <a name="in-shopify"></a>In Shopify
 
 1. Da **Amministratore Shopify**, vai ad [App](https://www.shopify.com/admin/apps).
-2. In fila con l'app *Dynamics 365 Business Central* seleziona **Elimina**.
+2. In fila con l'app **Dynamics 365 Business Central* seleziona **Elimina**.
 3. Nel messaggio che verrà visualizzato, seleziona **Elimina**.
 
 ### <a name="in-prod_short"></a>In [!INCLUDE[prod_short](../includes/prod_short.md)]
