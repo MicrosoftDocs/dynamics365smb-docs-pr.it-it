@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075084"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129904"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflow in Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] suppo
 
 * Flussi di lavoro di approvazione automatizzati basati su modelli di flusso di lavoro integrati  
 
-  Nella pagina **Modelli di flusso di lavoro**, puoi vedere tutti i flussi di lavoro disponibili. La versione di valutazione di [!INCLUDE[prod_short](includes/prod_short.md)] include una serie di workflow precon, rappresentati da modelli di workflow che si possono copiare per creare workflow. Quando apri un modello di flusso di lavoro dalla pagina **Modelli di flusso di lavoro** e il nome del flusso di lavoro inizia con *MS-*, il modello di flusso di lavoro viene aggiunto da Microsoft.  
+  Nella pagina **Modelli di flusso di lavoro**, puoi vedere tutti i flussi di lavoro disponibili. La versione di valutazione di [!INCLUDE[prod_short](includes/prod_short.md)] include molti workflow preconfigurati, rappresentati da modelli di workflow che si possono copiare per creare workflow. Quando apri un modello di flusso di lavoro dalla pagina **Modelli di flusso di lavoro** e il nome del flusso di lavoro inizia con *MS-*, il modello di flusso di lavoro viene aggiunto da Microsoft.  
 * Flussi automatizzati che hai impostato tu stesso  
 
   Qualsiasi modello di workflow creato con Power Automate viene aggiunto all'elenco dei modelli di workflow in [!INCLUDE[prod_short](includes/prod_short.md)]. Per altre informazioni, vedi [Utilizzare Business Central nei flussi Power Automate](across-how-use-financials-data-source-flow.md).  
@@ -32,13 +32,13 @@ La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] suppo
 
 ## <a name="power-automate-flows"></a>Flussi di Power Automate
 
-Per [!INCLUDE [prod_short](includes/prod_short.md)] online, puoi iscriverti a Power Automate e quindi creare flussi automatizzati avanzati che puoi eseguire dall'interno di [!INCLUDE [prod_short](includes/prod_short.md)]. For altre informazioni, vedi [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] nei flussi di Power Automate](across-how-use-financials-data-source-flow.md).  
+Con [!INCLUDE [prod_short](includes/prod_short.md)] online, puoi iscriverti a Power Automate e quindi creare flussi automatizzati avanzati che puoi eseguire dall'interno di [!INCLUDE [prod_short](includes/prod_short.md)]. For altre informazioni, vedi [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] nei flussi di Power Automate](across-how-use-financials-data-source-flow.md).  
 
 ## <a name="automated-approval-workflows"></a>Flussi di lavoro di approvazione automatici
 
-Puoi creare un flusso di lavoro di approvazione elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.  
+Puoi creare un flusso di lavoro di approvazione elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi del flusso di lavoro compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.  
 
-Se uno scenario aziendale richiede un evento o una risposta del flusso di lavoro che non è supportato nella versione predefinita, iscriviti a Power Automate. For altre informazioni, vedi [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] nei flussi di Power Automate](across-how-use-financials-data-source-flow.md). In alternativa, recupera un'app o collabora con un partner Microsoft per personalizzare il codice dell'applicazione.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
 Per impostare e utilizzare flussi di lavoro non definiti in Power Automate, controlla i seguenti articoli:  
 

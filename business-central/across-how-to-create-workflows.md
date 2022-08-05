@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 301856bcf246f7546992de588472459e1bbec378
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077738"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130093"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Creare flussi di lavoro per connettere le attività del processo aziendale
 
@@ -22,9 +22,9 @@ ms.locfileid: "9077738"
 
 Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle righe. Ogni passaggio consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro con le opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.  
 
-Quando si creano i flussi di lavoro, è possibile copiare i passaggi dai flussi di lavoro esistenti o dai modelli di flusso di lavoro. I modelli di flusso di lavoro rappresentano flussi di lavoro non modificabili presenti nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)]. Il codice dei modelli di flusso di lavoro che vengono aggiunti da Microsoft hanno il prefisso "MS-", ad esempio "MS-PIW". Per ulteriori informazioni, vedere [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
+[!INCLUDE[workflow](includes/workflow.md)]
 
-Se uno scenario aziendale richiede eventi o risposte del flusso di lavoro non supportati, il partner Microsoft deve implementarli tramite la creazione di un'estensione che implementa l'evento flusso di lavoro pertinente.  
+Quando si creano i flussi di lavoro, è possibile copiare i passaggi dai flussi di lavoro esistenti o dai modelli di flusso di lavoro. I modelli di flusso di lavoro rappresentano flussi di lavoro non modificabili presenti nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)]. Il codice dei modelli di flusso di lavoro che vengono aggiunti da Microsoft hanno il prefisso "MS-", ad esempio "MS-PIW". Per ulteriori informazioni, vedere [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
 
 > [!NOTE]  
 > Tutte le notifiche sui passaggi del flusso di lavoro vengono inviate tramite una coda processi. Assicurati che la coda dei lavori rifletta le tue esigenze aziendali. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).  
@@ -33,15 +33,18 @@ Se uno scenario aziendale richiede eventi o risposte del flusso di lavoro non su
 
 Il flusso di lavoro è diviso in tre sezioni:
 
-1) **Evento** Qui è dove si seleziona il trigger.
-    Esempi di trigger potrebbero essere:
-    - Modifica di un record di dati anagrafici
-    - Creazione di una riga di registrazione
-    - Creazione o rilascio di un documento in entrata
-    - Richiesta di approvazione di un documento
+1. **Evento**  
+   Qui è dove si seleziona il trigger.  
+   Esempi di trigger potrebbero essere:
+   * Modifica di un record di dati anagrafici
+   * Creazione di una riga di registrazione
+   * Creazione o rilascio di un documento in entrata
+   * Richiesta di approvazione di un documento
 
-2) **Condizione** Le **condizioni** sono correlati all'evento e si aprono per la creazione di filtri per quando l'evento viene attivato
-3) **Risposta** Le **risposte** rispondono a quale sarà il prossimo passaggio di lavoro.
+2. **Condizione**  
+   Le **condizioni** sono correlate all'evento e si aprono per la creazione di filtri per quando l'evento viene attivato.
+3. **Risposta**  
+   Le **risposte** rispondono a quale saranno i prossimi passaggi di lavoro.
 
 Per entrambi i tipi di eventi, gli eventi sono definiti dal sistema. Nuovi eventi devono essere aggiunti attraverso lo sviluppo di un'estensione.
 
@@ -50,13 +53,13 @@ Per entrambi i tipi di eventi, gli eventi sono definiti dal sistema. Nuovi event
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Verrà aperta la pagina **Workflow**.  
 3. Nel campo **Codice** immettere un massimo di 20 caratteri che identifichino il workflow.  
-4. Per creare il workflow da un modello di workflow, nella pagina **Workflow** scegliere l'azione **Crea flusso di lavoro da modello**. Per ulteriori informazioni, vedere [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Per creare il workflow da un modello di workflow, nella pagina **Workflow** scegli l'azione **Nuovo workflow da modello**. Per ulteriori informazioni, vedi [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Nel campo  **Descrizione** descrivere il workflow.  
 6. Nel campo **Categoria** specificare a quale categoria appartiene il flusso di lavoro.  
 7. Nel campo **Evento** specificare l'evento che deve verificarsi per avviare la fase workflow.  
 
-    Quando si sceglie il campo, viene visualizzata la pagina **Eventi workflow** nella quale è possibile scegliere un evento da tutti gli eventi workflow esistenti.  
-8. Nel campo **Condizione** specificare una o più condizioni che devono essere soddisfatte prima che si verifichi l'evento nel campo **Evento**.  
+    Quando scegli il campo, viene visualizzata la pagina **Eventi workflow** nella quale puoi scegliere un evento da tutti gli eventi workflow disponibili.  
+8. Nel campo **Condizione** specifica una o più condizioni che devono essere soddisfatte prima che si verifichi l'evento nel campo **Evento**.  
 
     Quando si sceglie il campo, viene visualizzata la pagina **Condizioni evento** in cui è possibile scegliere da un elenco di campi di filtro pertinenti come condizioni dell'evento in questione. È possibile aggiungere nuovi campi filtro da utilizzare come condizioni di evento. I filtri di condizione di evento si impostano come i filtri delle pagine di richiesta report.  
 
@@ -66,17 +69,17 @@ Per entrambi i tipi di eventi, gli eventi sono definiti dal sistema. Nuovi event
     2. Nel campo **Operatore**, selezionare **Diminuito**, **Aumentato** o **Modificato**.  
 9. Nel campo **Risposta** specificare la risposta che seguirà quando si verificherà l'evento workflow.  
 
-     Quando si sceglie il campo, viene aperta la pagina **Risposte workflow** in cui è possibile effettuare una scelta tra tutte le risposte workflow esistenti e impostare le opzioni per la risposta selezionata.  
-10. Nella scheda dettaglio **Opzioni per risposta selezionata**, specificare le opzioni per la risposta del flusso di lavoro selezionando i valori nei diversi campi che vengono visualizzati, come segue:  
+     Quando scegli il campo, viene aperta la pagina **Risposte workflow** in cui puoi effettuare una scelta tra tutte le risposte workflow disponibili e impostare le opzioni per la risposta selezionata.  
+10. Nella scheda dettaglio **Opzioni per risposta selezionata**, specifica le opzioni per la risposta del flusso di lavoro selezionando i valori nei diversi campi che vengono visualizzati, come segue:  
 
     1. Per specificare le opzioni per una risposta del flusso di lavoro che includa l'invio di una notifica, compilare i campi come descritto nella tabella seguente.  
 
         |Campo|Descrizione|  
         |-----|-----------|  
         |**Notifica mittente**|Specificare se la notifica è inviata al richiedente dell'approvazione anziché al destinatario della richiesta di approvazione. Se si seleziona la casella di controllo, il campo **ID utente destinatario** viene disabilitato poiché la notifica sarà invece inviata al richiedente dell'approvazione, ovvero il mittente. Il nome della risposta workflow cambia di conseguenza in **Crea notifica per &lt;Mittente &gt;**. Se la casella di controllo non è selezionata, il nome della risposta workflow è **Crea notifica per &lt;Utente &gt;**.
-        |**ID utente destinatario**|Specificare l'utente a cui deve essere inviata la notifica. **Nota**: questa opzione è disponibile solo per le risposte del flusso di lavoro con un segnaposto per un utente specifico. Per le risposte del flusso di lavoro senza segnaposto per gli utenti, il destinatario della notifica in genere è definito dall'impostazione dell'utente approvazione.|  
+        |**ID utente destinatario**|Specificare l'utente a cui deve essere inviata la notifica. **Nota**: questa opzione è disponibile solo per le risposte del flusso di lavoro con un segnaposto per un utente specifico. Per le risposte del flusso di lavoro senza segnaposto per gli utenti, il destinatario della notifica in genere è definito dal **Setup utente approvazione**.|  
         |**Tipo movimento notifica**|Specifica se la notifica del workflow viene attivata da una modifica del record, una richiesta di approvazione o una data di scadenza superata.|
-        |**Pagina destinazione collegamento**|Specifica un'altra pagina che viene aperta dal collegamento nella notifica al posto della pagina predefinita. Si noti che la pagina deve avere la stessa tabella di origine del record interessato.|
+        |**Pagina destinazione collegamento**|Specifica un'altra pagina che viene aperta dal collegamento nella notifica al posto della pagina predefinita. La pagina deve avere la stessa tabella di origine del record interessato.|
         |**Collegamento personalizzato**|Specifica l'URL di un collegamento che viene aggiunto alla notifica insieme al collegamento di una pagina.|  
 
     2. Per specificare le opzioni per una risposta del flusso di lavoro che includa la creazione di una richiesta di approvazione, compilare i campi come descritto nella tabella seguente.  
@@ -103,8 +106,8 @@ Per entrambi i tipi di eventi, gli eventi sono definiti dal sistema. Nuovi event
     > [!NOTE]  
     >  È possibile modificare solo il rientro di un passaggio a cui non è associato un passaggio successivo.  
 
-12. Ripetere i passaggi da 7 a 11 per aggiungere altre fasi del flusso di lavoro, prima o dopo la fase appena creata.  
-13. Selezionare la casella di controllo **Abilitato** per specificare che il workflow comincerà non appena si verifica l'evento nel primo passaggio di tipo **Punto di ingresso**. Per ulteriori informazioni, vedi [Utilizzare i flussi di lavoro](across-use-workflows.md).  
+12. Ripeti i passaggi da 7 a 11 per aggiungere altre fasi del flusso di lavoro, prima o dopo la fase appena creata.  
+13. Attiva la casella di controllo **Abilitato** per specificare che il workflow comincerà non appena si verifica l'evento nel primo passaggio di tipo **Punto di ingresso**. Per ulteriori informazioni, vedi [Utilizzare i flussi di lavoro](across-use-workflows.md).  
 
 > [!NOTE]  
 > Non abilitare un flusso di lavoro finché non si è sicuri che quest'ultimo sia completo e che i relativi passaggi interessati possano iniziare.  
@@ -139,7 +142,7 @@ Nell'esempio seguente viene eseguito un nuovo flusso di lavoro per approvare le 
     Per ulteriori informazioni, vedere [Impostare utenti per l'approvazione](across-how-to-set-up-approval-users.md).  
     6. Aggiungi una terza risposta e scegli *Inviare la richiesta di approvazione per il record e creare una notifica.*  
     7. Aggiungi una quarta risposta, *Mostra messaggio "%1"*, e poi, nella sezione **Opzioni per la risposta selezionata**, nel campo Messaggio, specifica **È stata inviata una richiesta di approvazione**.  
-    8. Scegli il pulsante OK per tornare al passaggio del flusso di lavoro.  
+    8. Scegli il pulsante **OK** per tornare al passaggio del flusso di lavoro.  
 
 5. Nella riga successiva, aggiungi un nuovo passaggio del flusso di lavoro per l'evento *Richiesta approvazione approvata.* .  
 
@@ -149,7 +152,7 @@ Nell'esempio seguente viene eseguito un nuovo flusso di lavoro per approvare le 
 
       Il risultato di questo passaggio è che la condizione si legge come *Approvazioni in sospeso: 0* per indicare che questo è l'ultimo responsabile approvazione.  
     4. Nel campo **Risposta** scegli il collegamento **Seleziona risposta** e poi, nella pagina **Risposte workflow** nel campo **Seleziona risposta** scegli la risposta *Inviare la richiesta di approvazione per il record e creare una notifica*.  
-    5. Scegliere il pulsante OK.  
+    5. Scegli il pulsante **OK**.  
 6. Nella riga successiva, aggiungi un secondo passaggio del flusso di lavoro per l'evento *Richiesta approvazione approvata*.  
 
     1. Nel campo **Evento** specifica *Richiesta approvazione approvata*.
@@ -157,27 +160,27 @@ Nell'esempio seguente viene eseguito un nuovo flusso di lavoro per approvare le 
 
       Il risultato di questo passaggio è che la condizione si legge come *Approvazioni in sospeso: >0* per indicare che questo *non* è l'ultimo responsabile approvazione.  
     3. Nel campo **Risposta** scegli il collegamento **Seleziona risposta** e poi, nella pagina **Risposte workflow** nel campo **Seleziona risposta** scegli la risposta *Inviare la richiesta di approvazione per il record e creare una notifica*.  
-    4. Scegli il pulsante OK.  
-7. Nella riga successiva, aggiungi un passaggio del flusso di lavoro per l'evento *Richiesta approvazione rifiutata*.  
+    4. Scegli il pulsante **OK**.  
+7. Nella riga successiva, aggiungi un passaggio del flusso di lavoro per l'evento *Richiesta approvazione delegata*.  
+
+    1. Nel campo **Evento** specifica *Richiesta approvazione delegata*.  
+    2. Nel campo **Condizione** lascia il valore come *Sempre*.  
+    3. Nel campo **Risposta** scegli il collegamento **Seleziona risposta** e poi, nella pagina **Risposte workflow** nel campo **Seleziona risposta** scegli la risposta *Inviare la richiesta di approvazione per il record e creare una notifica*.  
+    4. Scegli il pulsante **OK**.  
+8. Nella riga successiva, aggiungi un secondo passaggio del flusso di lavoro per l'evento *Richiesta approvazione rifiutata*.  
 
     1. Nel campo **Evento** specifica *Richiesta approvazione rifiutata*.  
     2. Nel campo **Condizione** lascia il valore come *Sempre*.  
     3. Nel campo **Risposta** scegli il collegamento **Seleziona risposta** e poi, nella pagina **Risposte workflow** nel campo **Seleziona risposta** scegli la risposta *Ignorare i nuovi valori*.  
     4. Scegli il collegamento **Aggiungi più risposte**, quindi aggiungi una voce per la risposta *Rifiutare la richiesta di approvazione per il record e creare una notifica*.
-    5. Scegli il pulsante OK.  
-8. Nella riga successiva, aggiungi un secondo passaggio del flusso di lavoro per l'evento *Richiesta approvazione rifiutata*.  
-
-    1. Nel campo **Evento** specifica *Richiesta approvazione rifiutata*.  
-    2. Nel campo **Condizione** lascia il valore come *Sempre*.  
-    3. Nel campo **Risposta** scegli il collegamento **Seleziona risposta** e poi, nella pagina **Risposte workflow** nel campo **Seleziona risposta** scegli la risposta *Inviare la richiesta di approvazione per il record e creare una notifica*.  
-    4. Scegli il pulsante OK.  
-9. Per abilitare il flusso di lavoro, scegli il campo **Abilitato**.  
+    5. Scegli il pulsante **OK**.  
+9. Per abilitare il flusso di lavoro attiva l'interruttore **Abilitato**.  
 
 La seguente illustrazione fornisce una panoramica del risultato di questa procedura.  
 
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Illustrazione del flusso di lavoro di approvazione del nome del fornitore.":::
 
-Successivamente, dovrai testare il flusso di lavoro aprendo un fornitore esistente e modificando il nome. Verifica che venga effettuata una richiesta di approvazione alla modifica del nome del fornitore.
+Successivamente, dovrai testare il flusso di lavoro aprendo una scheda fornitore esistente e modificando il nome. Verifica che venga inviata una richiesta di approvazione dopo la modifica del nome del fornitore.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-workflows/)
 

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740313"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130120"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Setup dei calcoli e registrazione dei metodi per l'IVA
 
@@ -171,6 +171,21 @@ Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti
 2. Scegliere l'azione **Traduzioni**.  
 3. Nel campo **Codice lingua** selezionare la lingua verso cui tradurre.  
 4. Nei campi **Descrizione** e **Descrizione 2** immettere il testo tradotto delle descrizioni. Questo testo viene visualizzato nei documenti di report IVA tradotti.  
+
+### <a name="to-specify-extended-text-for-vat-clauses"></a>Per specificare il testo esteso per le clausole IVA
+
+> [!NOTE]  
+> Se il tuo paese o area richiede un testo più lungo per le clausole IVA rispetto a quanto supportato dalla versione predefinita, puoi specificare il testo più lungo per le clausole IVA come *testo esteso* in modo che venga stampato sui report di vendita e acquisto.  
+
+1. Scegli la ![lampadina che apre la funzione Dimmi 11.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie IVA**, quindi scegli il collegamento correlato.  
+2. Scegli l'azione **Testi estesi**.  
+3. Compilare i campi **Codice** e **Descrizione**.  
+3. Scegliere l'azione **Nuovo**.  
+4. Facoltativamente, seleziona il campo **Tutti cod. lingua** o specifica la lingua pertinente nel campo **Codice lingua** se utilizzi i codici lingua.  
+5. Compilare i campi **Data inizio** e **Data fine** se si desidera limitare il periodo in cui il testo esteso verrà utilizzato.  
+6. Nelle righe **Testo** scrivi il testo esteso per le tue clausole IVA.  
+7. Seleziona i campi rilevanti per i tipi di documento su cui desideri stampare il testo esteso.  
+8. Chiudere la pagina.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Creare un setup registrazioni IVA per gestire l'IVA sulle importazioni
 

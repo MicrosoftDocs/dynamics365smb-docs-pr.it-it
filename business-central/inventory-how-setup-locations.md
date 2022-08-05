@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077269"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129678"
 ---
 # <a name="set-up-locations"></a>Impostare le ubicazioni
 
@@ -77,8 +77,7 @@ Se vuoi strutturare le tue collocazioni in zone, puoi farlo nella pagina **Zone*
 Tuttavia, è possibile scegliere di impostare una singola zona e organizzare la warehouse solo in base alle collocazioni. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Dimensioni predefinite per le ubicazioni
-
-Si impostano le dimensioni predefinite per un'ubicazione nella pagina **Scheda ubicazione** scegliendo **ubicazione**, e poi **Dimensioni**. Le dimensioni predefinite dell'ubicazione vengono copiate nei giornali di registrazione e nei documenti quando si specifica l'ubicazione su una riga, ma è possibile eliminare o modificare la dimensione sulla riga, se necessario. Puoi richiedere che le persone specifichino le dimensioni per ubicazioni specifiche prima di poter registrare una voce. Puoi anche includere i valori delle dimensioni ubicazione in **Priorità dimensione predefinita** e **Combinazioni dimensioni** per combinazioni di priorità e regole di dimensioni.
+Imposti le dimensioni predefinite per un'ubicazione nella pagina **Scheda ubicazione** scegliendo **Dimensioni**. Successivamente, le dimensioni predefinite dell'ubicazione vengono assegnate ai documenti quando scegli l'ubicazione su una riga. Se necessario, puoi eliminare o modificare le dimensioni nella riga. Nel campo **Registrazione valore** puoi richiedere che le persone specifichino le dimensioni per ubicazioni specifiche prima di poter registrare una voce. Se desideri consentire alle persone di scegliere solo determinati valori di dimensione, puoi specificarli nel campo **Filtro valori consentiti**. Puoi anche includere i valori delle dimensioni ubicazione nella pagina **Priorità dimensione predefinita** e per combinazioni di priorità e regole di dimensioni nella pagina **Combinazioni dimensioni**.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

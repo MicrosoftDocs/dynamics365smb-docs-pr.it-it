@@ -1,6 +1,6 @@
 ---
 title: Impostare gli utenti per l'approvazione
-description: Prima di creare flussi di lavoro che coinvolgono passaggi di approvazione, è necessario impostare gli utenti del flusso di lavoro coinvolti nei processi di approvazione con Setup utente approvazione.
+description: Prima di creare flussi di lavoro che coinvolgono passaggi di approvazione, è necessario impostare gli utenti del flusso di lavoro coinvolti nei processi di approvazione nella pagina Setup utente approvazione.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7602481a357a9b9e362a7b6fc0d605de04f44537
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129209"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129796"
 ---
 # <a name="set-up-approval-users"></a>Impostare gli utenti per l'approvazione
 
@@ -39,14 +39,14 @@ Prima di creare workflow che coinvolgono passaggi di approvazione, è necessario
     |**Codice agente/addetto acquisti**|Specificare il codice dell'agente o dell'addetto acquisti valido per l'utente nel campo **Codice agente/addetto acquisti**.<br /><br /> In genere si compila il campo **Codice agente/addetto acquisti** se l'agente o l'addetto acquisti che è responsabile del cliente o de fornitore è anche la persone che deve approvare la richiesta di vendite o di acquisto in questione.|  
     |**ID resp. approvazione**|Selezionare l'ID dell'utente che deve approvare le richieste effettuate dall'utente nel campo **ID utente** .|  
     |**Limite importo approvazione ordine**|Specificare l'importo di vendita massimo in valuta locale che l'utente nel campo  **ID utente** può approvare.|  
-    |**Approvazione vendite illimitate**|Specificare che l'utente nel campo **ID utente** può approvare tutte le richieste di vendita indipendentemente dall'importo.<br /><br /> Se si seleziona questa casella di controllo, non è possibile compilare il campo **Limite importo approvazione ordine**.|  
+    |**Approvazione vendite illimitate**|Specificare che l'utente nel campo **ID utente** può approvare tutte le richieste di vendita indipendentemente dall'importo.<br /><br /> Se selezioni questa casella di controllo, non è possibile compilare il campo **Limite importo approvazione ordine**.|  
     |**Limite approvazione importo acquisto**|Specificare l'importo di acquisto massimo in valuta locale che l'utente nel campo  **ID utente** può approvare.|  
-    |**Approvazione acquisti illimitati**|Specificare che l'utente nel campo **ID utente** può approvare tutte le richieste di acquisto indipendentemente dall'importo.<br /><br /> Se si seleziona questa casella di controllo, non è possibile compilare il campo **Limite importo approvazione ordine**.|  
+    |**Approvazione acquisti illimitati**|Specificare che l'utente nel campo **ID utente** può approvare tutte le richieste di acquisto indipendentemente dall'importo.<br /><br /> Se selezioni questa casella di controllo, non è possibile compilare il campo **Limite importo approvazione ordine**.|  
     |**Limite importo approvazione richiesta**|Specificare l'importo massimo in valuta locale che l'utente nel campo **ID utente**  può approvare per le offerte di acquisto.<br /><br /> Per utilizzare questo campo, è necessario selezionare l'opzione **Catena responsabili approvazione** nel campo **Tipo di limite responsabile approvazione** della pagina **Risposta workflow**.|  
-    |**Approvazione richieste illimitate**|Specificare che l'utente nel campo **ID utente** può approvare tutte le offerte di acquisto indipendentemente dall'importo.<br /><br /> Se si seleziona questa casella di controllo, non è possibile compilare il campo **Limite importo approvazione richiesta**.|  
-    |**Sostituto**|Selezionare l'ID dell'utente che deve approvare le richieste effettuate dall'utente nel campo **ID utente** se l'utente nel campo **ID resp. approvazione** non è disponibile. <br /><br />**Nota:** Il sostituto può essere l'utente nel campo **Sostituto**, il responsabile approvazione diretto o l'amministratore approvazioni, in tale ordine di priorità. Per ulteriori informazioni, vedere [Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md).|  
+    |**Approvazione richieste illimitate**|Specificare che l'utente nel campo **ID utente** può approvare tutte le offerte di acquisto indipendentemente dall'importo.<br /><br /> Se selezioni questa casella di controllo, non è possibile compilare il campo **Limite importo approvazione richiesta**.|  
+    |**Sostituto**|Seleziona l'ID dell'utente che deve approvare le richieste effettuate dall'utente nel campo **ID utente** se l'utente nel campo **ID resp. approvazione** non è disponibile. <br /><br />**Nota:** Il sostituto può essere l'utente nel campo **Sostituto**, il responsabile approvazione diretto o l'amministratore approvazioni, in tale ordine di priorità. Per ulteriori informazioni, vedere [Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md).|  
     |**Indirizzo e-mail**|Specificare l'indirizzo e-mail dell'utente nel campo **ID utente**.|  
-    |**Amministratore approvazioni**|Specificare l'utente che dispone dei diritti per sbloccare i flussi di lavoro di approvazione, ad esempio, delegando le richieste di approvazione a nuovi responsabili sostitutivi ed eliminando le richieste di approvazione scadute.|
+    |**Amministratore approvazioni**|Specifica l'utente che dispone dei diritti per sbloccare il workflow di approvazione. Ad esempio, delegando le richieste di approvazione a nuovi responsabili sostitutivi ed eliminando le richieste di approvazione scadute.|
 
     > [!Note]
     > Solo una persona può svolgere il ruolo di amministratore di approvazioni.
@@ -54,14 +54,16 @@ Prima di creare workflow che coinvolgono passaggi di approvazione, è necessario
 3. Per testare l'impostazione degli utenti per l'approvazione, scegliere l'azione **Test Setup utente approvazione**.  
 4. Ripetere i passaggi 2 e 3 per ogni utente che si desidera impostare come utente di approvazione.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-workflows/)
 
-[Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)   
-[Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)   
-[Creare i workflow](across-how-to-create-workflows.md)   
-[Impostazione dei workflow](across-set-up-workflows.md)   
-[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Workflow](across-workflow.md)   
+## <a name="see-also"></a>Vedere anche
+
+[Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)  
+[Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  
+[Creare i workflow](across-how-to-create-workflows.md)  
+[Impostazione dei workflow](across-set-up-workflows.md)  
+[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Workflow](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,30 +1,29 @@
 ---
-title: Righe di vendite e acquisti ricorrenti standard
-description: Imposta le righe di vendita e acquisto più frequentemente usate e quindi inseriscile nei documenti di vendita e di acquisto per compilare rapidamente le righe con informazioni standard.
+title: Righe di vendita ricorrenti standard
+description: Imposta le righe di vendita più frequentemente usate e quindi inseriscile nei documenti di vendita per compilare rapidamente le righe con informazioni standard.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 06/24/2021
+ms.search.form: 172
+ms.date: 07/06/2022
 ms.author: edupont
-ms.openlocfilehash: 91a7b43265dbf4027c88f6fac7b79d4340f22ce1
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7b5e0b32306fad7a4379aca6e3dbc23eb609c99e
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078494"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144114"
 ---
-# <a name="create-recurring-sales-and-purchase-lines"></a>Creare righe di vendite e acquisti ricorrenti
+# <a name="create-recurring-sales"></a>Creare vendite ricorrenti
 
-Se è spesso necessario creare righe di vendita e acquisto con informazioni simili, è possibile impostare righe standard da inserire nei documenti di vendita e di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.  
+Se è spesso necessario creare righe di vendita con informazioni simili, è possibile impostare righe standard da inserire nei documenti di vendita ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.  
 
-La seguente procedura illustra come utilizzare le righe di vendita standard in una fattura di vendita. I passaggi sono simili per tutti gli altri documenti di acquisto e di vendita.  
+## <a name="set-up-recurring-sales-lines"></a>Impostare righe di vendita ricorrenti
 
-## <a name="to-set-up-recurring-sales-lines"></a>Per impostare righe di vendita ricorrenti
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Righe vendita ricorrenti**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Righe vendita ricorrenti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Righe vendita ricorrenti** scegliere l'azione **Nuovo**.  
 3. Compilare i campi appropriati della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Nella Scheda dettaglio **Righe**, immettere le informazioni nei campi per preparare le righe di vendita che riflettono le righe standard che si prevede di utilizzare come righe ricorrenti nei documenti di vendita.  
@@ -34,7 +33,7 @@ La seguente procedura illustra come utilizzare le righe di vendita standard in u
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Per assegnare righe di vendita ricorrenti a un cliente
+## <a name="assign-recurring-sales-lines-to-a-customer"></a>Assegnare righe di vendita ricorrenti a un cliente
 
 Assegnare una o più righe di vendita ricorrenti a un cliente di modo che sia possibile inserirle nei documenti di vendita per quel cliente.
 
@@ -42,9 +41,9 @@ Assegnare una o più righe di vendita ricorrenti a un cliente di modo che sia po
 2. Aprire la scheda di un cliente pertinente.
 3. Scegliere l'azione **Righe vendita ricorrenti**.
 4. Nella pagina **Righe vendita ricorrenti**, selezionare i codici per le righe di vendita ricorrenti che si intende inserire in documenti di vendita per il cliente.
-5. Compilare i campi aggiuntivi per definire quando, come e dove le righe di vendita ricorrenti devono essere utilizzate.  
+5. Compila gli altri campi per definire quando, come e dove le righe di vendita ricorrenti devono essere utilizzate.  
 
-    Se si pensa di utilizzare le righe di vendita ricorrenti impostate insieme al processo batch **Crea fatture di vendita periodiche**, usare i campi **Data di inizio validità** e **Data di fine validità** per limitare quando usare le righe di vendita ricorrenti per la creazione di fatture. Per ulteriori informazioni, vedere [Per creare più fatture di vendita in base alle righe di vendita standard](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-recurring-sales-lines).
+    Se si pensa di utilizzare le righe di vendita ricorrenti impostate insieme al processo batch **Crea fatture di vendita periodiche**, usare i campi **Data di inizio validità** e **Data di fine validità** per limitare quando usare le righe di vendita ricorrenti per la creazione di fatture. Per ulteriori informazioni, vedi [Creare più fatture di vendita in base alle righe di vendita standard](sales-how-work-standard-lines.md#create-multiple-sales-invoices-based-on-recurring-sales-lines).
 
     È anche possibile specificare un metodo di pagamento in addebito diretto e un mandato di addebito diretto. Le fatture di vendita create con il processo batch **Crea fattura di vendita periodica** includeranno le informazioni necessarie per riscuotere il pagamento con addebito diretto SEPA. Per ulteriori informazioni, vedere [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md).
 
@@ -53,20 +52,20 @@ Assegnare una o più righe di vendita ricorrenti a un cliente di modo che sia po
 |Opzione|Descrizione|
 |------|-----------|
 |**Manuale**|È possibile cercare e inserire manualmente la riga di vendite ricorrenti esistente per il cliente.|
-|**Automatico**|Se esistono più righe di vendite ricorrenti per il cliente, viene visualizzata una notifica da cui è possibile selezionare quale inserire. Se esiste una sola riga di vendite ricorrenti, verrà inserita automaticamente.<br /><br />Si noti che ciò funziona solo se il nuovo documento è stato creato da un elenco di documenti, ad esempio selezionando l'azione **Nuovo** nella pagina **Ordini vendita**. Non funziona se il documento è stato creato, ad esempio, da una scheda cliente.|
+|**Automatico**|Se esistono più righe di vendite ricorrenti per il cliente, viene visualizzata una notifica da cui è possibile selezionare quale inserire. Se esiste una sola riga di vendite ricorrenti, verrà inserita automaticamente.<br /><br />Ciò funziona solo se il nuovo documento è stato creato da un elenco di documenti, ad esempio selezionando l'azione **Nuovo** nella pagina **Ordini vendita**. Non funziona se il documento è stato creato, ad esempio, da una scheda cliente.|
 |**Chiedi sempre**|Una notifica verrà visualizzata e tutte le righe di vendite ricorrenti esistenti vengono visualizzate in modo che sia possibile selezionarne una.
 
-## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Per inserire righe di vendita ricorrenti in una fattura di vendita
+## <a name="insert-recurring-sales-lines-on-a-sales-invoice"></a>Inserire righe di vendita ricorrenti in una fattura di vendita
 
-Se esistono righe di vendita ricorrenti per il cliente, è possibile inserirle o farle inserire in tutti i tipi di documenti di vendita come una fattura di vendita. Se hai attivato le opzioni **Chiedi sempre**, si verrà informati dell'esistenza di righe di vendita ricorrenti.
+Se esistono righe di vendita ricorrenti per il cliente, è possibile inserirle o farle inserire in tutti i tipi di documenti di vendita come una fattura di vendita. Se hai attivato le opzioni **Chiedi sempre** per l'assegnazione delle righe di vendita ricorrenti ai clienti, verrai informato dell'esistenza di righe di vendita ricorrenti.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.
 2. Aprire la fattura di vendita in cui si desidera inserire una più righe di vendita standard.
 3. Scegliere l'azione **Ottieni righe vendita ricorrenti**.
 4. Nella pagina **Righe vendita ricorrenti**, scegliere il pulsante di ricerca nel campo **Codice** e selezionare una serie di righe di vendita standard.
 5. Scegliere il pulsante **OK** per inserire le righe di vendita standard della fattura, in cui è possibile riutilizzare la riga come è o modificarne le informazioni.
 
-## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Per creare più fatture di vendita in base alle righe di vendita ricorrenti
+## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Creare più fatture di vendita in base alle righe di vendita ricorrenti
 
 È possibile utilizzare il processo batch **Crea fatture di vendita periodica** per creare fatture di vendita in base alle righe di vendita standard assegnate ai clienti e con date di registrazione comprese nell'intervallo di date valide specificato nelle righe di vendita standard.
 
@@ -82,7 +81,8 @@ Le fatture di vendita vengono create per i clienti con il codice di vendita clie
 ## <a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
+[Impostare le vendite](sales-setup-sales.md)  
+[Creare righe di acquisto ricorrenti](purchasing-how-work-recurring-purchase-lines.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

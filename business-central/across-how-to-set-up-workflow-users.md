@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 187ff9bad2fb8bf320872759115e98b326b689c8
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075136"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130201"
 ---
 # <a name="set-up-workflow-users"></a>Impostare gli utenti del workflow
 
@@ -40,7 +40,7 @@ Anche gli utenti del workflow che agiscono da utenti dell'approvazione, sia i ri
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
     |**Nome utente**|Specificare l'utente che parteciperà ai flussi di lavoro.<br /><br /> L'utente deve essere presente nella pagina **Setup utente**. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).|  
-    |**Nr. sequenza**|Specificare l'ordine in cui l'utente del flusso di lavoro viene impiegato in un flusso di lavoro rispetto ad altri utenti. Questo campo può essere utilizzato, ad esempio, per specificare quando l'utente approva in relazione ad altri responsabili approvazione quando si utilizza l'opzione **Gruppo di utenti del workflow** nel campo **Tipo di responsabile approvazione** nella relativa risposta workflow. **SUGGERIMENTO:** per definire che una richiesta di approvazione non venga approvata fino a che non venga approvata da più responsabili uguali, indipendentemente da una gerarchia, impostare un normale gruppo di utenti del workflow assegnando lo stesso numero di sequenza ai relativi responsabili dell'approvazione.|  
+    |**Nr. sequenza**|Specificare l'ordine in cui l'utente del flusso di lavoro viene impiegato in un flusso di lavoro rispetto ad altri utenti. Questo campo può essere utilizzato, ad esempio, per specificare quando l'utente approva in relazione ad altri responsabili approvazione quando si utilizza l'opzione **Gruppo di utenti del workflow** nel campo **Tipo di responsabile approvazione** nella relativa risposta workflow.<br /><br /> **SUGGERIMENTO:** per definire che una richiesta di approvazione richieda che più utenti uguali l'abbiano approvata, indipendentemente da una gerarchia, imposta un normale gruppo di utenti del workflow assegnando lo stesso numero di sequenza ai relativi responsabili dell'approvazione.|  
 6. Ripetere il passaggio 5 per aggiungere altri utenti del flusso di lavoro nel gruppo di utenti.  
 7. Ripetere i passaggi da 2 a 6 per aggiungere altri gruppi di utenti del flusso di lavoro.  
 

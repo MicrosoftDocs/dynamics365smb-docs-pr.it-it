@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 46c81fa887af70e7a2f516df38ec003392b1dabd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a4dcb5c9f12190a662c4f45bbadcfdddee70fa7f
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079352"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129823"
 ---
 # <a name="use-approval-workflows"></a>Utilizzare i workflow di approvazione
 
@@ -20,7 +20,7 @@ Quando un record, ad esempio un documento di acquisto o una scheda cliente, deve
 
 I workflow di approvazione vengono impostati nella pagina **Workflow**. Devi anche impostare gli utenti di approvazione, compresi eventuali limiti di importo, nella pagina di **impostazione dell'utente di approvazione** . Per ulteriori informazioni, vedere [Impostazione dei workflow](across-set-up-workflows.md).  
 
-Oltre ai workflow di approvazione descritti in questo argomento, è possibile eseguire varie altre attività del workflow. Per ulteriori informazioni, vedi [Utilizzare i flussi di lavoro](across-use-workflows.md).
+Oltre ai workflow di approvazione descritti in questo articolo, è possibile eseguire varie altre attività del workflow. Per ulteriori informazioni, vedi [Utilizzare i flussi di lavoro](across-use-workflows.md).
 
 I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per la guida al setup assistito. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).
 
@@ -33,7 +33,7 @@ La seguente attività viene eseguita da un utente approvazione.
 
 Lo stato del movimento di approvazione viene aggiornato da **Creato** ad **Aperto**. Lo stato del record, ad esempio per una una fattura di acquisto, viene aggiornato da **Aperto** a **Approvazione in sospeso** e rimane bloccato per l'elaborazione finché tutti i responsabili dell'approvazione non hanno approvato il record.
 
-Quando il responsabile dell'approvazione ha approvato il record, lo stato viene impostato su **Rilasciato**. È quindi possibile continuare con i task del record.
+Quando tutti i responsabili dell'approvazione hanno approvato il record, lo stato viene impostato su **Rilasciato**. È quindi possibile continuare con i task del record.
 
 ## <a name="to-cancel-requests-for-approval"></a>Per annullare le richieste di approvazione
 
@@ -65,9 +65,9 @@ Contemporaneamente, lo stato di approvazione cambierà da **Creato** ad **Aperto
 
 La seguente attività viene eseguita da un utente approvazione con diritti di approvazione.
 
-Per impedire l'accumularsi dei documenti nel sistema o un eventuale altro blocco del flusso di lavoro, il responsabile dell'approvazione e l'amministratore dell'approvazione possono delegare la richiesta di approvazione a un sostituto. Il sostituto può essere un sostituto designato, il responsabile approvazione diretto o l'amministratore approvazioni, in tale ordine di priorità. Questa funzionalità viene in genere utilizzata se il responsabile dell'approvazione si trova fuori sede e non è in grado di approvare le richieste prima della data di scadenza.
+Per impedire l'accumularsi dei documenti nel sistema o un eventuale altro blocco del flusso di lavoro, il responsabile dell'approvazione e l'amministratore dell'approvazione possono delegare la richiesta di approvazione a un sostituto. Il sostituto può essere un sostituto designato, il responsabile approvazione diretto o l'amministratore approvazioni, in tale ordine di priorità. Questa funzionalità viene in genere utilizzata se il responsabile dell'approvazione non è disponibile e non è in grado di approvare le richieste prima della data di scadenza.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Richieste da approvare**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Richieste da approvare**, quindi scegli il collegamento correlato.
 2. Selezionare una o più righe per le richieste di approvazione che si desidera delegare a un responsabile sostitutivo e quindi scegliere l'azione **Delega**.
 
 Viene inviata una notifica nella quale viene chiesto al responsabile sostitutivo di approvare la richiesta.
@@ -76,9 +76,9 @@ Viene inviata una notifica nella quale viene chiesto al responsabile sostitutivo
 
 La seguente attività viene eseguita da un utente approvazione con diritti di approvazione.
 
-A intervalli regolari, è necessario ricordare, agli utenti del flusso di lavoro di approvazione, le richieste di approvazione scadute su cui devono intervenire. A tal fine è possibile utilizzare la funzione **Invia notifiche di approvazione scadute**.
+A intervalli regolari, è necessario ricordare, agli utenti del flusso di lavoro di approvazione, le richieste di approvazione scadute su cui devono intervenire. A tal fine puoi utilizzare la funzione **Invia notifiche di approvazione scadute**.
 
-La funzione **Invia notifiche di approvazione scadute** cerca tutte le richieste di approvazione aperte attualmente scadute. Ogni responsabile a cui è associato almeno un movimento di approvazione scaduto riceve una notifica con l'elenco di tutte le relative richieste di approvazione scadute. La notifica viene anche inviata in copia per conoscenza al responsabile dell'approvazione e a tutti i richiedenti delle approvazioni scadute. Questa operazione è utile se il movimento di approvazione scaduto deve essere delegato a un sostituto.
+La funzione **Invia notifiche di approvazione scadute** cerca tutte le richieste di approvazione aperte attualmente scadute. Ogni responsabile a cui è associato almeno un movimento di approvazione scaduto riceve una notifica con l'elenco di tutte le relative richieste di approvazione scadute. La notifica viene anche inviata in copia per conoscenza al responsabile dell'approvazione e a tutti i richiedenti delle approvazioni scadute. Questo ultimo passaggio è utile se il movimento di approvazione scaduto deve essere delegato a un sostituto.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Richieste di approvazione scadute**, quindi scegli il collegamento correlato.
 2. Nella pagina **Richieste di approvazione scadute**, scegliere l'azione **Invia notifiche di approvazioni scadute**.

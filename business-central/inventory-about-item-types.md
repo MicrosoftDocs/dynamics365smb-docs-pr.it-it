@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c397de29bf2d2c23d5fedb9f3566ebd0e62dd183
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518079"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144087"
 ---
 # <a name="about-item-types"></a>Informazioni sui tipi di articolo
 Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda che influisce sul grado di gestione dell'articolo in magazzino. La tabella seguente elenca e descrive i tre tipi di articoli disponibili.
@@ -32,11 +32,11 @@ Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'a
 
 La seguente tabella include le funzionalità supportate dai tre tipi dell'articolo.
 
-|Tipo di articolo|Vendite|Acquisti|Consumo per la commessa|Consumo di assistenza|Consumo assemblaggio|Consumo produzione|Output assemblaggio|Output produzione|Trasferimento ubicazione|Conteggio fisico|Rivalutazione del magazzino|Costing di magazzino|Tracciabilità articolo|Impegni|Gestione della warehouse|Pianificazione|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|Magazzino|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|
-|Non in inventario|Sì|Sì|Sì|Sì|Sì|Sì|No|No|No|No|No|No|No|No|No|No|
-|Assistenza|Sì|Sì|Sì|No|No|No|No|No|No|No|No|No|No|No|No|No|
+|Tipo di articolo|Vendite|Acquisti|Consumo per la commessa|Consumo di assistenza|Consumo assemblaggio|Consumo produzione|Output assemblaggio|Output produzione|Trasferimento ubicazione|Conteggio fisico|Rivalutazione del magazzino|Costing di magazzino|Tracciabilità articolo|Impegno|Gestione della warehouse|Piano|Pianificazione ordini|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Inventario|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|
+|Non magazzino|Sì|Sì|Sì|Sì|Sì|Sì|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Sì|
+|Assistenza|Sì|Sì|Sì|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Sì|
 
 ## <a name="costing-methods-for-types-of-items"></a>Metodi di costing per tipi di articoli
 Quando si registrano le transazioni di magazzino, le modifiche alle quantità e al valore del magazzino vengono registrate rispettivamente nei movimenti contabili articoli e nei movimenti di valorizzazione. 

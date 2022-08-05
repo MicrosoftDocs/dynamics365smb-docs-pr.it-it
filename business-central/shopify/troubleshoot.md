@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 83678c6c81b29a524405699425be877459b6568d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075319"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129642"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Risoluzione dei problemi di sincronizzazione tra Shopify Business Central
 
@@ -77,7 +77,7 @@ Le procedure seguenti descrivono come ruotare il token di accesso utilizzato dal
 ### <a name="in-shopify"></a>In Shopify
 
 1. Da **Amministratore Shopify**, vai ad [App](https://www.shopify.com/admin/apps).
-2. In fila con l'app **Dynamics 365 Business Central* seleziona **Elimina**.
+2. In fila con l'app **Dynamics 365 Business Central** seleziona **Elimina**.
 3. Nel messaggio che verrà visualizzato, seleziona **Elimina**.
 
 ### <a name="in-prod_short"></a>In [!INCLUDE[prod_short](../includes/prod_short.md)]

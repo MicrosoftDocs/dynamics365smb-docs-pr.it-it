@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077373"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130228"
 ---
 # <a name="use-workflows"></a>Utilizzare i flussi di lavoro
 
@@ -52,21 +52,21 @@ Tuttavia, il flusso di lavoro non viene approvato finché tutte le richieste non
 > [!NOTE]  
 > Non è possibile creare un flusso di lavoro con più responsabili approvazione e aspettarsi che l'intero flusso di lavoro venga approvato dopo l'approvazione della prima richiesta. Tutte le richieste devono essere approvate affinché il flusso di lavoro venga approvato.
 
-È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. È anche possibile creare lo stesso flusso di lavoro più di una volta. Ogni flusso di lavoro è attivato da un evento tramite filtri diversi. Ciò è utile se una richiesta di approvazione in un reparto deve essere approvata da un responsabile approvazione, mentre le richieste di approvazione in altri reparti devono essere approvate da un altro responsabile approvazione. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro.  
+È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. È anche possibile creare lo stesso flusso di lavoro più di una volta. Ogni flusso di lavoro può essere attivato da un evento tramite filtri diversi. Ciò è utile se una richiesta di approvazione in un reparto deve essere approvata da un responsabile approvazione, mentre le richieste di approvazione in altri reparti devono essere approvate da un altro responsabile approvazione. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro.  
 
- Prima di poter iniziare a utilizzare i flussi di lavoro, è necessario impostare gli utenti del flusso di lavoro, creare i flussi di lavoro, potenzialmente preceduti dalla personalizzazione del codice, e specificare la modalità di ricezione delle notifiche da parte degli utenti. Per ulteriori informazioni, vedere [Impostazione dei workflow](across-set-up-workflows.md).  
+Prima di poter iniziare a utilizzare i flussi di lavoro, è necessario impostare gli utenti del flusso di lavoro, creare i flussi di lavoro, potenzialmente preceduti dalla personalizzazione del codice, e specificare la modalità di ricezione delle notifiche da parte degli utenti. Per ulteriori informazioni, vedere [Impostazione dei workflow](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > I passaggi di un flusso di lavoro tipici riguardano gli utenti che richiedono l'approvazione di attività e i responsabili dell'approvazione che accettano o rifiutano le richieste. Di conseguenza, molti argomenti che trattano l'utilizzo dei workflow fanno riferimento alle approvazioni.  
 
- Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
+ Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli articoli che li descrivono.  
 
-|**Task**|**Vedere**|  
+|**Per**|**Vedere**|  
 |------------|-------------|  
 |Impostare un flusso di lavoro per iniziare quando si verifica la prima spedizione Intrastat.|[Abilitare i workflow](across-how-to-enable-workflows.md)|  
 |Richiedere l'approvazione di un task, come responsabile approvazione, accettare, declinare o delegare le approvazioni e inviare o visualizzare le notifiche di approvazione.|[Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)|  
 |Creare le fasi del flusso di lavoro che limitano l'utilizzo di un certo tipo di record prima del verificarsi di un determinato evento, ad esempio l'approvazione del record.|[Limitare e consentire l'utilizzo di un record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Visualizzare istanze dei passaggi del flusso di lavoro con lo stato Completato.|[Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)|  
+|Visualizzare istanze dei passaggi del flusso di lavoro con lo stato **Completato**.|[Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)|  
 |Eliminare un flusso di lavoro che sicuramente non verrà più utilizzato.|[Eliminare i workflow](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-workflows/)

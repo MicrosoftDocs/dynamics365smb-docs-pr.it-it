@@ -440,7 +440,7 @@
 ### [Vendere prodotti](sales-how-sell-products.md)
 ### [Stampare la lista prelievo](sales-how-print-picking-list.md)
 ### [Registrare le vendite](ui-post-sales.md)
-### [Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)
+### [Creare righe vendita ricorrenti](sales-how-work-standard-lines.md)
 ### [Effettuare spedizioni dirette](sales-how-drop-shipment.md)
 ### [Creare ordini speciali](sales-how-to-create-special-orders.md)
 ### [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md)
@@ -472,7 +472,7 @@
 ### [Utilizzare gli ordini di acquisto programmati](sales-how-to-create-blanket-sales-orders.md)
 ### [Numeri di documento esterno sui documenti di acquisto](purchasing-ext-doc-no.md)
 ### [Immettere numeri di documento esterni](across-enter-external-document-numbers.md)
-
+### [Creare righe di acquisto ricorrenti](purchasing-how-work-recurring-purchase-lines.md)
 
 ## Inventario
 ### [Panoramica dell'inventario](inventory-manage-inventory.md)
@@ -1472,6 +1472,7 @@
 #### [Impostare le vendite](sales-setup-sales.md)
 #### [Registrare nuovi clienti](sales-how-register-new-customers.md)
 #### [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md)
+#### [Impostare prezzi e sconti](across-prices-and-discounts.md)
 #### [Record di prezzi speciali e sconti](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Impostare i gruppi di prezzi dei clienti](sales-how-to-set-up-customer-price-groups.md)
 #### [Impostare le categorie sconto clienti](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Impostare gli acquisti
 #### [Impostare gli acquisti](purchasing-setup-purchasing.md)
 #### [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)
-#### [Registrare i prezzi di acquisto e gli sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Impostare i conti correnti fornitori](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md)
 #### [Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md)
+#### [Impostare prezzi e sconti](across-prices-and-discounts.md)
+#### [Registrare i prezzi di acquisto e gli sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Impostare il magazzino
 #### [Setup magazzino](inventory-setup-inventory.md)
 #### [Impostare le informazioni generali di magazzino](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Gestire le impostazioni e le preferenze dell'utente](admin-manage-user-settings-preferences.md)
 ### [Configurare le stampanti](ui-specify-printer-selection-reports.md)
 ### [Classificare i dati riservati](admin-classifying-data-sensitivity.md)
+### [Stato informative sulla privacy](privacy-notices-status.md)
 ### [Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md)
 ### [Creare nuove società](about-new-company.md)
 ### [Registrare le modifiche](across-log-changes.md)

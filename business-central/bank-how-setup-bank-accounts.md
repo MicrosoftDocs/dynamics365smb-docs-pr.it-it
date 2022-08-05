@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0feba901ac569c0cbd714f8ea3d3c271c82425bd
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078780"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144141"
 ---
 # <a name="set-up-bank-accounts"></a>Impostare i conti correnti bancari
 
@@ -88,7 +88,7 @@ Migliori sono le informazioni di mapping fornite nella registrazione riconciliaz
 
 ## <a name="to-set-up-bank-accounts"></a>Per impostare i conti correnti bancari
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Nella pagina **C/C bancari** scegliere l'azione **Nuovo**.
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -169,7 +169,7 @@ Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare
 
 I campi relativi all'importazione e all'esportazione di feed e file bancari sono nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda conto corrente bancario**. Per ulteriori informazioni, vedi [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) e [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Aprire la scheda di un conto corrente bancario per il quale verranno esportati o importati i file dei conti correnti bancari.
 3. Compilare i campi appropriati nella Scheda dettaglio **Trasferimento**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -222,14 +222,7 @@ L'illustrazione mostra il percorso dei pagamenti in uscita:
 
 I campi nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda C/C bancari fornitori** sono correlati all'esportazione dei feed e dei file dei conti correnti bancari. Per ulteriori informazioni, vedi [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) ed [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
-2. Aprire la scheda di un conto corrente bancario fornitore nel quale verranno esportati i file di pagamento della banca.
-3. Scegliere l'azione **C/C bancari**.
-4. Dall'**elenco dei conti bancari del fornitore**, scegliere il conto bancario pertinente o aggiungere un nuovo conto bancario.  
-5. Nella Scheda dettaglio **Trasferimenti** della pagina **Scheda C/C bancari fornitori** compilare i campi come richiesto. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!WARNING]
-> Alcuni campi del conto bancario del fornitore contengono dati sensibili, come i campi **Nr. filiale banca**, **Nr. conto bancario**, **Codice SWIFT**, e **Codice IBAN**. Per ulteriori informazioni, vedere [Monitoraggio di campi sensibili](across-log-changes.md#monitoring-sensitive-fields).
+[!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## <a name="changing-your-bank-account"></a>Cambiare il conto bancario
 
@@ -257,6 +250,5 @@ Per ottenere una visione più concisa dei tuoi conti di cassa nei report finanzi
 [Riconciliazione pagamenti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Informazioni sulla contabilità generale e COA](finance-general-ledger.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
