@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729831"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227501"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
 
@@ -83,9 +83,13 @@ Per definire rapidamente un nuovo gruppo di utenti, è possibile copiare tutti i
 
 Il nuovo gruppo di utenti viene aggiunto nella pagina **Gruppi di utenti**. Procedere con l'aggiunta di utenti. Per ulteriori informazioni, vedi la sezione [Per aggiungere utenti a un gruppo di utenti](#to-add-users-to-a-user-group).  
 
+> [!IMPORTANT]
+> Riceverai un errore di convalida se stai tentando di assegnare un gruppo di utenti all'utente che fa riferimento a un set di autorizzazioni che è stato definito in un'estensione disinstallata. È perché l'ID app dell'estensione viene convalidato ogni volta che viene indicato come riferimento. Per assegnare quel gruppo di utenti a un utente, puoi reinstallare l'estensione, rimuovere il riferimento dell'estensione disinstallata dal set delle autorizzazioni o rimuovere quel set di autorizzazioni dal gruppo di utenti.
+
+
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Per assegnare i set di autorizzazioni a gruppi utente
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Gruppi di utenti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Gruppi di utenti**, quindi scegli il collegamento correlato.
 2. Selezionare il gruppo di utenti a cui si intende assegnare l'autorizzazione.  
 
     Tutti i set di autorizzazioni già assegnati all'utente vengono visualizzati nel Dettaglio informazioni **Set di autorizzazioni**.

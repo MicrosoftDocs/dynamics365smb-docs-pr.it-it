@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074694"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227474"
 ---
 # <a name="create-jobs"></a>Creare commesse
 
@@ -43,7 +43,15 @@ Creare una scheda commessa, quindi creare le righe del task commessa e le relati
 3. Per specificare la commessa utilizzando le informazioni di altre commesse, scegliere l'azione **Copia commessa**, compilare i necessari campi, quindi scegliere **OK**.
 
 > [!NOTE]  
->   Se con la commessa si stanno utilizzando i fogli presenze, è necessario designare un responsabile. La persona può approvare i fogli presenze per i task degli impiegati associati alla commessa. Per ulteriori informazioni, vedere [Impostare fogli presenze](projects-how-setup-time-sheets.md).
+> Se con la commessa si stanno utilizzando i fogli presenze, è necessario designare un responsabile. La persona può approvare i fogli presenze per i task degli impiegati associati alla commessa. Per maggiori informazioni, vedere [Impostare i fogli di presenza](projects-how-setup-time-sheets.md).
+
+Facoltativamente, contrassegna le azioni sul progetto come bloccate utilizzando il campo **Bloccato**. la seguente tabella descrive gli effetti delle opzioni per questo campo.
+
+|Opzione  |Descrizione  |
+|---------|---------|
+|Vuoto |Sono consentite tutte le azioni.|
+|Registrazione    |È possibile utilizzare le righe di pianificazione, ma la commessa è bloccata ai fini della registrazione. Se si sceglie questa opzione, non è possibile registrare alcun utilizzo o vendita nella commessa.|
+|Tutto  |Sono bloccate tutte le azioni.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Per creare i task di una commessa
 

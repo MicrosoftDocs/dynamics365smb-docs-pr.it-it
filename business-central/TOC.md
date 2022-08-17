@@ -1308,6 +1308,7 @@
 ##### [Report 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Creare un report 349](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Impostare report 340 per le PMI](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
+##### [Configurare SII per la dichiarazione IVA](LocalFunctionality/Spain/sii-setup.md)
 ##### [Creare modelli per dichiarazioni IVA telematiche in formato file di testo](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Creare modelli per dichiarazioni IVA telematiche in formato file XML](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [Esportare dichiarazioni IVA in formato XML](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1328,7 +1329,6 @@
 ##### [Modulo Cartera contabilità clienti](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Modulo Cartera pagamenti](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Tipi di fatture e note di credito in documenti di vendita e acquisto](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-##### [Configurare SII per la dichiarazione IVA](LocalFunctionality/Spain/sii-setup.md)
 #### Finanze principali
 ##### [Impostare e chiudere saldi del conto economico](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Impostare il rientro e convalidare il piano dei conti](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
