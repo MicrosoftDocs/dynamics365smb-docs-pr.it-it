@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0c1402c4f41f108b504ad31829ede5a1095b6ce4
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077790"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317328"
 ---
 # <a name="synchronize-customers"></a>Sincronizzare clienti
 
@@ -47,7 +47,7 @@ Importa i clienti da Shopify in blocco o insieme all'importazione degli ordini, 
 |**Tipo di mapping cliente**|Definisci come desideri che il connettore esegua il mapping.<br>- **Per e-mail/telefono** se desideri che il connettore mappi il cliente Shopify importato al cliente esistente in [!INCLUDE[prod_short](../includes/prod_short.md)] utilizzando e-mail e telefono.</br>- **Per informazioni Fatturare a** se desideri che il connettore mappi il cliente Shopify importato al cliente esistente in [!INCLUDE[prod_short](../includes/prod_short.md)] utilizzando le informazioni sull'indirizzo della parte che riceve la fattura.</br>Seleziona **Acquisisci sempre il cliente predefinito** se desidera che il sistema utilizzi un cliente da **Nr. cliente predefinito** . |
 |**Shopify può aggiornare i clienti**| Seleziona se desideri che il connettore aggiorni i clienti trovati, quando le opzioni  **Per e-mail/telefono** o **Per informazioni Fatturare a** sono selezionate nl campo **Tipo di mapping cliente**.|
 |**Crea automaticamente clienti sconosciuti**| Seleziona se desideri che il connettore crei clienti mancanti, quando le opzioni **Per e-mail/telefono** o **Per informazioni Fatturare a** sono selezionate nel campo **Tipo di mapping cliente**. Verrà creato un nuovo cliente utilizzando i dati importati e il **Codice modello cliente** definito nelle pagine **Scheda punto vedita Shopify** o **Modello cliente Shopify**. Si noti che il cliente Shopify deve avere almeno un indirizzo. Se questa opzione non è abilitata, dovrai creare il Cliente canualmente e collegarlo al cliente Shopify. Puoi sempre avviare la creazione di un cliente manualmente dalla pagina **Ordine Shopify**.|
-|**Codice modello cliente**|Usato insieme a **Crea automaticamente clienti sconosciuti**.<br> Scegli il modello predefinito da utilizzare per i clienti creati automaticamente. Assicurati che il modello selezionato contenga i campi obbligatori, come i campi **Cat. reg. business**, **Cat. reg. cliente**, IVA o campi relativi alle imposte.<br> È possibile definire modelli per paese/regione nella pagina **Modelli cliente Shopify**, utile per un corretto calcolo delle tasse. Per ulteriori informazioni, vedere [Note sulle imposte](synchronize-orders.md#tax-remarks).|
+|**Codice modello cliente**|Usato insieme a **Crea automaticamente clienti sconosciuti**.<br> Scegli il modello predefinito da utilizzare per i clienti creati automaticamente. Assicurati che il modello selezionato contenga i campi obbligatori, come i campi **Cat. reg. business**, **Cat. reg. cliente**, IVA o campi relativi alle imposte.<br> È possibile definire modelli per paese/regione nella pagina **Modelli cliente Shopify**, utile per un corretto calcolo delle tasse. <br>Per ulteriori informazioni, vedi [Setup imposta](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Modello cliente per paese
 
@@ -57,7 +57,8 @@ Alcune impostazioni possono essere definite a livello nazionale/regionale o stat
 
 1. Specificare **Nr. cliente predefinito**, che ha la priorità sulla selezione nei campi **Importazione cliente da Shopify** e **Tipo di mapping cliente**. Viene utilizzato nell'ordine cliente importato.
 2. Definisci il **Codice modello cliente**, che viene utilizzato per creare clienti mancanti, se **Crea automaticamente clienti sconosciuti** è abilitato. Se **Codice modello cliente** è vuoto, la funzione utilizza **Codice modello cliente** definito nella **Scheda punto vendita Shopify**.
-3. In alcuni casi, il **Codice modello cliente** definito per paese non è sufficiente per garantire il corretto calcolo delle tasse. Ad esempio, per i paesi con imposta sulle vendite. In questo caso, le **Aree fiscali** potrebbe essere un'utile aggiunta.
+3. Definisci se i prezzi includono imposte/IVA per gli ordini importati.
+4. In alcuni casi, il **Codice modello cliente** definito per paese non è sufficiente per garantire il corretto calcolo delle tasse. Ad esempio, per i paesi con imposta sulle vendite. In questo caso, le **Aree fiscali** potrebbe essere un'utile aggiunta.
 
 > [!NOTE]  
 > I codici paese sono codici paese ISO 3166-1 alpha-2. Per altre informazioni, vedi [Codice paese](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -68,7 +69,7 @@ I clienti esistenti possono essere esportati in Shopify in blocco. Di conseguenz
 
 |Campo|Descrizione|
 |------|-----------|
-|**Esportare clienti su Shopify**|Seleziona se prevedi di esportare tutti i clienti con un indirizzo e-mail valido da [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify in blocco; manualmente, usando l'azione **Sincronizza clienti** o tramite una coda processi per gli aggiornamenti ricorrenti.|
+|**Esportare clienti su Shopify**|Seleziona se prevedi di esportare tutti i clienti con un indirizzo e-mail valido da [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify in blocco; manualmente, usando l'azione **Sincronizza clienti** o tramite una coda processi per gli aggiornamenti ricorrenti.<br> Quando esporti clienti con province/stati, assicurati che **Codice ISO** sia compilato per paesi/regioni.|
 |**Shopify può aggiornare i clienti**|Usato insieme all'impostazione **Esporta cliente in Shopify**. Abilitalo, se desideri generare aggiornamenti in un secondo momento da [!INCLUDE[prod_short](../includes/prod_short.md)] per i clienti che già esistono in Shopify.|
 
 > [!NOTE]  

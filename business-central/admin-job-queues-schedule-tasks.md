@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed56b0724b19d971b8dc98ea79807423403fd83
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129767"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317436"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per programmare i task
 
-Le code processi consentono agli utenti di programmare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Ad esempio, è possibile eseguire il report **Venditore * Statistiche di vendita** settimanale per monitorare le vendite per venditore ogni settimana, oppure è possibile eseguire la codeunit **Delegare le richieste di approvazione** quotidianamente per evitare che i documenti si accumulino.
+Le code processi consentono agli utenti di programmare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Ad esempio, è possibile eseguire il report **Venditore - Statistiche di vendita** settimanale per monitorare le vendite per venditore ogni settimana, oppure è possibile eseguire la codeunit **Delegare le richieste di approvazione** quotidianamente per evitare che i documenti si accumulino.
 
 Nella pagina **Movimenti coda processi** sono elencati tutti i processi esistenti. Se aggiungi un nuovo movimento coda processi che vuoi pianificare, devi fornire alcune informazioni. Ad esempio:
 * Il tipo di oggetto da eseguire, ad esempio un report o una codeunit. È necessario disporre dell'autorizzazione per eseguire il report o la codeunit particolare.

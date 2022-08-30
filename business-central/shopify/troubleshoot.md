@@ -1,18 +1,18 @@
 ---
 title: Risoluzione dei problemi di sincronizzazione tra Shopify e Business Central
 description: Scopri cosa fare in caso di errore durante la sincronizzazione dei dati tra Shopify e Business Central
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129642"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317247"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Risoluzione dei problemi di sincronizzazione tra Shopify Business Central
 
@@ -22,7 +22,7 @@ ms.locfileid: "9129642"
 
 Se un'attività di sincronizzazione non riesce, è possibile attivare la registrazione attivando **Abilita registro** nella **Scheda punto vendita Shopify**. Attiva manualmente l'attività di sincronizzazione e rivedi i log.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Movimenti di registri Shopify**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Movimenti di registri Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona la voce di registro correlata e apri la finestra **Voce di registro Shopify**.
 3. Esamina la richiesta, il codice di stato e la descrizione e la risposta.
 
@@ -86,6 +86,16 @@ Le procedure seguenti descrivono come ruotare il token di accesso utilizzato dal
 2. Seleziona il punto vendita per il quale desideri ruotare il token di accesso per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Scegli l'azione **Richiedi accesso**.
 4. Se richiesto, accedi al tuo account Shopify, rivedi privacy e autorizzazioni, quindi scegli il pulsante **Installa app**.
+
+## <a name="known-issues"></a>Problemi noti
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Righe Categoria registrazione business deve avere un valore in Cliente. Non può essere zero o vuoto.
+
+Compila il campo **Codice modello cliente** nella finestra **Scheda punto vendita Shopify** con il modello che ha il campo **Categoria registrazione business** popolato. Il modello cliente viene utilizzato non solo per la creazione di clienti, ma anche per il calcolo del prezzo di vendita e durante la creazione di documenti di vendita.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>L'importazione dei dati nel negozio Shopify non è abilitata. Vai alla scheda del punto vendita per abilitarla.
+
+Nella finestra **Scheda punto vendita Shopify**, abilitare l'interruttore **Consenti sincronizzazione dati in Shopify**.  Questo interruttore ha lo scopo di proteggere il punto vendita online dall'ottenere dati dimostrativi da [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="see-also"></a>Vedere anche
 
