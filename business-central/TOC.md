@@ -296,6 +296,7 @@
 #### [Blocca clienti](receivables-how-block-customers.md)
 #### [Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md)
+#### [Imposta sulle vendite nella versione predefinita di Business Central](sales-tax-concept.md)
 
 ### Gestire la contabilità fornitori
 #### [Panoramica della contabilità fornitori](payables-manage-payables.md)
@@ -1480,7 +1481,7 @@
 #### [Impostare gli agenti](sales-how-setup-salespeople.md)
 #### [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md)
 #### [Inviare documenti via e-mail](ui-how-send-documents-email.md)
-#### [Impostare i metodi di pagamento:](sales-how-set-up-shipment-methods.md)
+#### [Impostare i metodi di spedizione](sales-how-set-up-shipment-methods.md)
 #### [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)
 ### Impostare gli acquisti
 #### [Impostare gli acquisti](purchasing-setup-purchasing.md)

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6619789b38cc8dc33e7985f35d77075df4914ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074928"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362023"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 
@@ -22,7 +22,7 @@ ms.locfileid: "9074928"
 
 È possibile utilizzare le tolleranze di pagamento in modo che ogni importo inevaso abbia una tolleranza di pagamento massima consentita. Se la tolleranza di pagamento viene soddisfatta, l'importo pagamento viene quindi analizzato. Se l'importo del pagamento rappresenta un sottopagamento, l'importo inevaso viene chiuso completamente dal sottopagamento. Viene registrato un movimento contabile dettagliato nel movimento del pagamento in modo che non esista un importo residuo nel movimento di fattura collegato. Se l'importo del pagamento rappresenta un sovrapagamento, viene registrato un nuovo movimento contabile dettagliato nel movimento del pagamento in modo che non esista un importo residuo nel movimento di pagamento.
 
-È possibile utilizzare le tolleranze sconto pagamento in modo che, se si accetta uno sconto sul pagamento dopo la relativa data di scadenza, tale evento verrà registrato nel conto degli sconti sul pagamento oppure nel conto delle tolleranze di pagamento.
+Puoi utilizzare le tolleranze sconto pagamento in modo che, se accetti uno sconto sul pagamento dopo la relativa data di scadenza, tale evento verrà registrato nel conto degli sconti sul pagamento oppure nel conto delle tolleranze di pagamento.
 
 ## <a name="applying-payment-tolerance-to-multiple-documents"></a>Collegamento della tolleranza di pagamento a più documenti
 
@@ -30,12 +30,12 @@ Un documento singolo ha la stessa tolleranza di pagamento indipendentemente dal 
 
 *data sconto sul pagamento < data di pagamento (nel movimento in questione) <= data tolleranza di pagamento*  
 
-Questa regola si applica anche per stabilire se visualizzare avvisi quando si collega la tolleranza di pagamento a più documenti. L'avviso di tolleranza sconto pagamento viene visualizzato per ogni movimento che soddisfa i criteri di data. Per ulteriori informazioni, vedere [Esempio 2: calcoli di tolleranza per più documenti](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
+Questa regola determina anche se visualizzare avvisi quando si collega la tolleranza di pagamento a più documenti. L'avviso di tolleranza sconto pagamento viene visualizzato per ogni movimento che soddisfa i criteri di data. Per ulteriori informazioni, vedere [Esempio 2: calcoli di tolleranza per più documenti](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 È possibile scegliere di visualizzare un avviso che è basato su situazioni di tolleranza differenti.  
 
-- Il primo avviso riguarda la tolleranza di sconto sul pagamento. L'utente viene informato che è possibile accettare uno sconto di pagamento ritardato. Egli può quindi scegliere se accettare la tolleranza alla data dello sconto.  
-- Il secondo avviso riguarda la tolleranza di pagamento. L'utente viene informato che tutti i movimenti possono venir chiusi a causa della differenza nella somma della tolleranza di pagamento massima per i movimenti collegati. Egli può quindi scegliere se accettare la tolleranza nell'importo di pagamento.
+- Il primo avviso riguarda la tolleranza di sconto sul pagamento. Vieni informato che è possibile accettare uno sconto di pagamento ritardato. Egli può quindi scegliere se accettare la tolleranza alla data dello sconto.  
+- Il secondo avviso riguarda la tolleranza di pagamento. Vieni informato che tutti i movimenti possono venir chiusi a causa della differenza nella somma della tolleranza di pagamento massima per i movimenti collegati. Egli può quindi scegliere se accettare la tolleranza nell'importo di pagamento.
 
 > [!NOTE]
 > L'abilitazione del messaggio di avviso consentirà di scegliere come elaborare i pagamenti che rientrano nella tolleranza. Se non si abilita il messaggio e si specifica un livello di tolleranza, le fatture con importi entro la tolleranza verranno chiuse automaticamente e non sarà possibile scegliere di lasciare l'importo residuo. 
@@ -44,7 +44,7 @@ Per ulteriori informazioni, vedere [Abilitare o disabilitare gli avvisi di tolle
 
 ## <a name="to-set-up-tolerances"></a>Per impostare le tolleranze
 
-Le tolleranze relative a giorni e importi consentono di chiudere una fattura anche se il pagamento non copre l'intero importo riportato in fattura per svariati motivi. È ad esempio possibile che la data di scadenza per lo sconto sul pagamento sia stata superata, che siano state dedotte determinate merci oppure a causa di un semplice errore. Lo stesso principio è valido anche per note di credito e rimborsi.  
+La tolleranza su giorni e importi consente di chiudere una fattura anche se il pagamento non copre interamente l'importo in fattura. Ad esempio, perché è stata superata la data di scadenza per lo sconto sul pagamento, le merci sono state detratte o a causa di un errore minore. Lo stesso principio è valido anche per note di credito e rimborsi.  
 
 Per impostare le tolleranze è necessario impostare vari conti di tolleranza, specificare entrambi i metodi di registrazione della tolleranza di sconto sul pagamento e della tolleranza di pagamento, quindi eseguire il processo batch **Modifica tolleranza pagamento**.  
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.  
@@ -57,17 +57,21 @@ Per impostare le tolleranze è necessario impostare vari conti di tolleranza, sp
 8. Aprire la pagina **Setup contabilità generale**.  
 9. Nella Scheda dettaglio **Collegamento** compilare i campi **Registrazione tolleranza sconto pagamento**, **Periodo di dilazione sconto pagamento** e **Registrazione toll. pagamento**.   
 10. Scegliere l'azione **Modifica tolleranza pagamento**.
+
+    > [!NOTE]
+    > Quando scegli **Applica al più vecchio** nel campo **Metodo di applicazione** su una pagina **Scheda cliente**, [!INCLUDE[prod_short](includes/prod_short.md)] non pubblicherà automaticamente le tolleranze di pagamento, anche quando rientrano nelle soglie impostate nella pagina **Impostazione contabilità generale**. [!INCLUDE[prod_short](includes/prod_short.md)] presuppone che l'impostazione Applica al più vecchio indichi che il cliente (o tu come cliente del fornitore) ha un conto con cui paga regolarmente il saldo. Pertanto, gli importi rimanenti non devono essere rimossi registrando un movimento di tolleranza di pagamento.
+
 11. Nella pagina **Modifica tolleranza pagamento** compilare i campi **% tolleranza pagamento** e **Importo massimo tolleranza pagamento** e quindi scegliere **OK**.
 
 > [!IMPORTANT]  
->  Con questa procedura la tolleranza viene impostata solo per la valuta locale. Se si desidera che [!INCLUDE[prod_short](includes/prod_short.md)] gestisce le tolleranze sui pagamenti, le note di credito e i rimborsi in una valuta estera, è necessario eseguire il processo batch **Modifica tolleranza pagamento** con un valore nel campo **Codice valuta**.  
+> Con questa procedura la tolleranza viene impostata solo per la valuta locale. Se si desidera che [!INCLUDE[prod_short](includes/prod_short.md)] gestisce le tolleranze sui pagamenti, le note di credito e i rimborsi in una valuta estera, è necessario eseguire il processo batch **Modifica tolleranza pagamento** con un valore nel campo **Codice valuta**.  
 
 > [!NOTE]  
->  Se si desidera che venga visualizzato un messaggio di avviso tolleranza pagamento ogni volta che si registra un'applicazione della tolleranza, è necessario attivare l'Avviso tolleranza pagamento. Per ulteriori informazioni, vedere la sezione [Per abilitare o disabilitare gli avvisi di tolleranza pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
+> Per ricevere un messaggio di avviso tolleranza pagamento ogni volta che si registra un'applicazione della tolleranza, è necessario attivare l'Avviso tolleranza pagamento. Per ulteriori informazioni, vedere la sezione [Per abilitare o disabilitare gli avvisi di tolleranza pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Per disattivare la tolleranza per un cliente o un fornitore, è necessario bloccare le tolleranze nella relativa scheda cliente o scheda fornitore. Per ulteriori informazioni, vedere la sezione [Per bloccare la tolleranza pagamento per i clienti](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
+> Per disattivare la tolleranza per un cliente o un fornitore, blocca le tolleranze nella relativa scheda cliente o scheda fornitore. Per ulteriori informazioni, vedere la sezione [Per bloccare la tolleranza pagamento per i clienti](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Quando si imposta la tolleranza, [!INCLUDE[prod_short](includes/prod_short.md)] verifica automaticamente l'esistenza di movimenti aperti e calcola la tolleranza anche per tali movimenti.
+> Quando si imposta la tolleranza, [!INCLUDE[prod_short](includes/prod_short.md)] verifica automaticamente l'esistenza di movimenti aperti e calcola la tolleranza anche per tali movimenti.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Per abilitare o disabilitare gli avvisi di tolleranza pagamento
 
@@ -76,7 +80,7 @@ L'avviso tolleranza pagamento viene visualizzato quando si registra un collegame
 2. Nella Scheda dettaglio **Collegamento** della pagina **Setup contabilità generale**, attivare l'opzione **Avviso tolleranza pag.** per attivare l'avviso. Per disattivare l'avviso, disattivare l'opzione.  
 
 > [!NOTE]  
->  L'opzione predefinita per la pagina **Avviso tolleranza pag.** è **Mantieni il saldo come importo residuo**. L'opzione predefinita per la pagina **Avviso tolleranza sconto pagamento** è **Non accettare lo sconto di pagamento ritardato**.
+> L'opzione predefinita per la pagina **Avviso tolleranza pag.** è **Mantieni il saldo come importo residuo**. L'opzione predefinita per la pagina **Avviso tolleranza sconto pagamento** è **Non accettare lo sconto di pagamento ritardato**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Per bloccare la tolleranza pagamento per i clienti
 
@@ -86,7 +90,7 @@ Per impostazione di default, la tolleranza di pagamento è consentita. Per disat
 2. Nella Scheda dettaglio **Pagamenti** selezionare la casella di controllo **Blocca tolleranza pagam**.  
 
 > [!NOTE]  
->  Se il cliente o il fornitore dispone di movimenti aperti, è necessario prima rimuovere la tolleranza di pagamento dai movimenti correntemente aperti.
+> Se il cliente o il fornitore dispone di movimenti aperti, è necessario prima rimuovere la tolleranza di pagamento dai movimenti correntemente aperti.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Esempio 1: calcoli di tolleranza per un singolo documento
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 0aa467b636be3be75c38c87b2592a69b70440c11
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1c26882670321a3a2957302413f6f7ebd11a1f6d
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075216"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362308"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
 
@@ -22,7 +22,7 @@ Questa procedura dettagliata illustra il processo di configurazione e di utilizz
 
 [!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
-Ad esempio, è possibile inviare ulteriori fatture di pagamento anticipato se vengono aggiunti altri articoli all'ordine.  
+Ad esempio, è possibile inviare altre fatture di pagamento anticipato se vengono aggiunti più articoli all'ordine.  
 
 ## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata  
 
@@ -47,11 +47,11 @@ Questa procedura dettagliata include task per i seguenti ruoli:
 
  Barbara Zighetti è un manager contabilità. Spetta a lei decidere quali clienti devono versare un deposito prima che gli articoli siano lavorati o spediti. Barbara imposta [!INCLUDE[prod_short](includes/prod_short.md)] per calcolare i pagamenti anticipati automaticamente.  
 
- Elisabetta Scotti è un gestore ordini di vendita. Quando un cliente chiama per effettuare un ordine, inserisce l'ordine nel sistema mentre il cliente è al telefono. In questo modo, può verificare subito i prezzi e le condizioni di pagamento con il cliente e può procedere alle rettifiche all'ordine mentre negozia con il cliente.  
+ Elisabetta Scotti è un gestore ordini di vendita. Quando un cliente chiama per effettuare un ordine, inserisce l'ordine nel sistema mentre il cliente è al telefono. In questo modo, può verificare subito i prezzi e le condizioni di pagamento con il cliente e può procedere alle modifiche all'ordine mentre negozia con il cliente.  
 
  Armando Pinto lavora nel reparto Contabilità clienti e registra fattura e pagamenti.  
 
- In questo scenario, Barbara definisce i requisiti di pagamento anticipato per il cliente Grafiche Magiche 2000 in base al suo storico di credito e dà istruzioni a Elisabetta su come gestire i loro ordini.  
+ In questo scenario, Barbara definisce i requisiti di pagamento anticipato per il cliente Selangorian in base al suo storico di credito. Barbara dà istruzioni a Elisabetta su come gestire gli ordini.  
 
  Quando il cliente chiama, Elisabetta negozia con il cliente fino a quando non raggiungono un accordo. Può scegliere di calcolare il pagamento anticipato in modi diversi.  
 
@@ -59,7 +59,7 @@ Questa procedura dettagliata include task per i seguenti ruoli:
 
  Armando registra il pagamento del cliente, lo collega alle fatture e invia la fattura finale.  
 
-## <a name="setting-up-prepayments"></a>Impostazione dei pagamenti anticipati
+## <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
 
 Barbara imposta il sistema per la gestione dei pagamenti anticipati da parte dei clienti.  
 
@@ -83,7 +83,7 @@ Non è possibile spedire o fatturare un ordine con un importo pagamento anticipa
 
 Barbara stabilisce che, come regola di default, al cliente 20000 venga fatturato il 30% di anticipo su tutti gli ordini. Pertanto, inserisce una percentuale predefinita di pagamento anticipato nella scheda cliente.  
 
-Stabilisce altresì che a tutti i clienti sia richiesto un deposito del 20% per l'articolo 1896-S. Il cliente 20000 ha uno storico dei pagamenti insoddisfacente e quindi Barbara richiede un pagamento anticipato del 40% dal cliente 20000 per l'articolo 1896-S. La procedura seguente spiega come impostare le percentuali di pagamento anticipate di default.  
+Stabilisce altresì che a tutti i clienti sia richiesto un deposito del 20% per l'articolo 1896-S. Il cliente 20000 ha uno storico dei pagamenti insoddisfacente e quindi il suo pagamento anticipato per l'articolo 1896-S sarà del 40%. La procedura seguente spiega come impostare le percentuali di pagamento anticipate di default.  
 
 ### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Per assegnare percentuali predefinite di pagamento anticipato a clienti e articoli
 
@@ -112,11 +112,11 @@ Stabilisce altresì che a tutti i clienti sia richiesto un deposito del 20% per 
 > [!TIP]
 > Se non è possibile vedere il campo nella pagina **Setup registrazioni COGE**, utilizzare la barra di scorrimento orizzontale nella parte inferiore della pagina per scorrere verso destra.  
 
-## <a name="creating-an-order-that-requires-a-prepayment"></a>Creazione di un ordine che richiede un pagamento anticipato
+## <a name="create-an-order-that-requires-a-prepayment"></a>Creare un ordine che richiede un pagamento anticipato
 
- Nello scenario seguente, Elisabetta, il gestore ordini, crea un ordine mentre parla con un cliente. Gli articoli ordinati dal cliente richiedono un pagamento anticipato e il cliente in passato non ha saldato puntualmente. Di conseguenza, Elisabetta ha ricevuto istruzione di richiedergli l'importo fisso di **800** euro come pagamento anticipato per l'ordine.  
+ Nello scenario seguente, Elisabetta, il gestore ordini, crea un ordine mentre parla con un cliente. Gli articoli che il cliente sta ordinando richiedono un pagamento anticipato. Inoltre, il cliente ha effettuato alcuni pagamenti in ritardo in passato. Elisabetta ha ricevuto istruzione di richiedergli l'importo fisso di **800** euro come pagamento anticipato per l'ordine.  
 
-Il cliente chiede di poter versare il 35% ed Elisabetta può accettare. Di conseguenza, modifica l'ordine.  
+Il cliente chiede di pagare il 35%, ed Elisabetta, essendo autorizzata ad accogliere la richiesta, modifica l'ordine.  
 
 Crea quindi la fattura di pagamento anticipato e la invia al cliente  
 
@@ -133,31 +133,31 @@ Crea quindi la fattura di pagamento anticipato e la invia al cliente
     |**Articolo**|**1896-S**|**1**|  
     |**Articolo**|**1900-S**|**1**|
 
-    I campi del pagamento anticipato nella riga di vendita sono nascosti per default, quindi occorre visualizzarli. Per fare ciò è necessario personalizzare la pagina. Per ulteriori informazioni, vedere [Per avviare la personalizzazione di una pagina tramite il banner Personalizzazione](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+    I campi del pagamento anticipato nella riga di vendita sono nascosti per default. Per visualizzare i campi è necessario personalizzare la pagina. Per ulteriori informazioni, vedere [Per avviare la personalizzazione di una pagina tramite il banner Personalizzazione](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 6. Verificare che il campo **% pagamento anticipato** sulla riga dell'articolo **1900-S** contenga **30**. Il valore di default è stato copiato dalla testata di vendita, popolata dalla scheda cliente.  
 
-    Il campo **% pagamento anticipato** sulla riga dell'articolo **1896-S** contiene **40**. Si tratta della percentuale immessa nella pagina **Percentuali pagamenti anticipati vendite** per l'articolo **1896-S** e il cliente **20000**.  
+    Il campo **% pagamento anticipato** sulla riga dell'articolo **1896-S** contiene **40**. 40 è la percentuale immessa nella pagina **Percentuali pagamenti anticipati vendite** per l'articolo **1896-S** e il cliente **20000**.  
 
     Per ulteriori informazioni, vedere [Impostare i pagamenti anticipati](finance-set-up-prepayments.md).  
 7. Nell'azione **Ordine**, scegli **Statistiche**.  
-8. Nella Scheda dettaglio **Pagamento anticipato**, il campo **Importo pagam. ant. IVA escl.** contiene il valore **458.16**. Se si crea ora una fattura pagamento anticipato per l'ordine, questo è l'importo che verrà visualizzato nella fattura.  
+8. Nella Scheda dettaglio **Pagamento anticipato**, il campo **Importo pagam. ant. IVA escl.** contiene il valore **458.16**. Se crei ora una fattura di pagamento anticipato per l'ordine, 458,16 è l'importo sulla fattura.  
 
     In questo scenario, Elisabetta deve chiedere al cliente un pagamento anticipato totale di **800**.  
 
     > [!IMPORTANT]  
     >  In base al proprio paese/area geografica, il seguente passaggio potrebbe non essere applicabile.  
 9. Modificare in **800** l'importo nel campo **Importo pagam. ant. IVA escl.** e chiudere la pagina.  
-10. Controllare il campo **% pagamento anticipato** nelle righe di vendita: si constaterà che è stato ricalcolato in **67.02438** e **67.02282**.  
+10. Controlla il campo **% pagamento anticipato** nelle righe di vendita: puoi constatare che è stato ricalcolato in **67,02438** e **67,02282**.  
 
      Il calcolo include tutte le righe che hanno una percentuale di pagamento anticipato superiore a zero.  
 
      Ora il cliente chiede se la percentuale di pagamento anticipato può essere impostata su 35%. Il supervisore di Elisabetta accetta la modifica.
 11. Nella pagina **Ordine vendita**, nella Scheda dettaglio **Pagamento anticipato** del campo **% pagamento anticipato**, immettere **35**.  
 12. Nel messaggio di avviso visualizzato, selezionare il pulsante **Sì** . Un tasso del 35% verrà applicato come percentuale di pagamento per l'intero ordine.  
-13. Verificare che le righe siano state aggiornate di conseguenza.  
+13. Verifica che le righe siano state aggiornate correttamente.  
 
-## <a name="creating-a-prepayment-invoice"></a>Creazione di una fattura di pagamento anticipato
+## <a name="create-a-prepayment-invoice"></a>Creare una fattura di pagamento anticipato
 
 Dopo aver inserito nell'ordine i valori di pagamento anticipato corretti, Elisabetta crea la fattura di pagamento anticipato e la invia al cliente.  
 
@@ -169,22 +169,22 @@ Dopo aver inserito nell'ordine i valori di pagamento anticipato corretti, Elisab
 > [!NOTE]  
 > Susan invierebbe ora la fattura al cliente.  
 
-## <a name="creating-an-additional-prepayment-invoice"></a>Creazione di una fattura di pagamento anticipato aggiuntiva
+## <a name="create-an-additional-prepayment-invoice"></a>Creare una fattura di pagamento anticipato aggiuntiva
 
-Il giorno seguente, il cliente chiama Elisabetta e apporta modifiche all'ordine. Il cliente desidera due articoli 1896-S. Elisabetta riapre e aggiorna l'ordine e crea una seconda fattura per il pagamento anticipato dell'ordine e la invia al cliente.  
+Il giorno seguente, il cliente chiama Elisabetta e apporta modifiche all'ordine. Il cliente desidera due articoli 1896-S. Elisabetta riapre l'ordine e lo aggiorna. Crea quindi una seconda fattura di pagamento anticipato per l'ordine e la invia al cliente.  
 
 ### <a name="to-create-an-additional-prepayment-invoice"></a>Per creare una fattura di pagamento anticipato aggiuntiva
 
 1. Nella pagina **Ordine vendita**, scegliere l'azione **Rilascia**, quindi **Riapri**.  
 2. Immettere **2** nel campo **Quantità** della riga dell'articolo **1896-S**.  
 
-    Nell'azione **Ordine**, scegli **Statistiche**. Il campo **Importo pagam. ant. IVA esclusa** ora contiene **768.04** e il campo **Fattura importo pagam. ant. IVA esclusa** contiene **417.76**. Ciò indica l'esistenza di un importo di pagamento anticipato aggiuntivo che non è stato ancora fatturato.  
-3. Per registrare una fattura per l'importo aggiuntivo, selezionare **Azioni**, quindi **Registrazione**, **Pagamento anticipato** e infine selezionare **Registra e stampa fattura pagamento anticipato**.
-4. Scegliere **Sì** per registrare la fattura.  
+    Nell'azione **Ordine**, scegli **Statistiche**. Il campo **Importo pagam. ant. IVA esclusa** ora contiene **768.04** e il campo **Fattura importo pagam. ant. IVA esclusa** contiene **417.76**. Questi valori indicano l'esistenza di un importo di pagamento anticipato aggiuntivo che non è stato ancora fatturato.  
+3. Per registrare una fattura per l'importo aggiuntivo, seleziona **Azioni**, quindi **Registrazione**, **Pagamento anticipato** e infine seleziona **Registra e stampa fattura pagamento anticipato**
+4. Scegli **Sì** per registrare la fattura.  
 
-## <a name="applying-the-prepayments"></a>Collegamento dei pagamenti anticipati
+## <a name="apply-the-prepayments"></a>Collegare i pagamenti anticipati
 
-Il cliente versa il pagamento anticipato e Armando, che lavora nel reparto contabilità, registra il pagamento e lo collega alle fatture di pagamento anticipato.  
+Il cliente paga l'importo del pagamento anticipato. Armando, dell'ufficio contabilità, registra il pagamento e lo applica alle fatture di pagamento anticipato.  
 
 ### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Per collegare un pagamento a una fattura di pagamento anticipato
 
@@ -206,7 +206,7 @@ Il cliente versa il pagamento anticipato e Armando, che lavora nel reparto conta
 7. Per pubblicare il diario, scegliere l'azione **Registra/Stampa**, quindi selezionare **Invia**.
 8. Scegliere il pulsante **Sì**.
 
-## <a name="invoicing-the-remaining-amount"></a>Fatturazione dell'importo residuo
+## <a name="invoice-the-remaining-amount"></a>Fatturare l'importo residuo
 
 Ora l'amministratore della contabilità clienti, Armando, è stato informato che gli articoli dell'ordine sono stati spediti e che l'ordine è pronto per essere fatturato. Armando crea quindi la fattura per l'ordine.  
 
@@ -222,15 +222,24 @@ Ora l'amministratore della contabilità clienti, Armando, è stato informato che
 
     Armando può visualizzare lo storico per verificare che la fattura di vendita sia stata creata come concepita.
 
-5. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite registrate**, quindi seleziona il collegamento correlato.  
+5. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , immetti **Fatture di vendita registrate**, quindi scegli il collegamento correlato.  
+
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Aggiornare automaticamente lo stato degli ordini con pagamento anticipato e delle fatture
+
+È possibile velocizzare l'elaborazione di ordini e fatture impostando movimenti nella coda processi che aggiornano automaticamente lo stato di tali documenti. Quando viene pagata una fattura con pagamento anticipato, le voci della coda processi possono modificare automaticamente lo stato del documento da **In attesa di pagamento anticipato** a **Rilasciato**. Quando imposti le voci della coda processi, le codeunit che dovrai utilizzare sono **383 Aggiornamento pagamento anticipato vendita in sospeso** e **383 Aggiornamento pagamento anticipato acquisto in sospeso**. Ti consigliamo di pianificare l'esecuzione frequente delle voci, ad esempio ogni minuto. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-In questa procedura dettagliata sono stati esaminati i passaggi necessari per impostare la funzione di gestione dei pagamenti anticipati in [!INCLUDE[prod_short](includes/prod_short.md)]. Sono state impostate le percentuali di pagamento anticipato di default per clienti e articoli e sono stati inoltre utilizzati diversi metodi per calcolare il pagamento anticipato per un ordine. Si è cercato anche di assegnare un intero importo di pagamento anticipato all'ordine e calcolare la percentuale dell'anticipo rispetto all'ordine totale.  
+In questa procedura dettagliata sono stati esaminati i passaggi per impostare la funzione di gestione dei pagamenti anticipati in [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+- Imposta le percentuali predefinite di pagamento anticipato per clienti e articoli.
+- Utilizza metodi diversi per calcolare i pagamenti anticipati su un ordine.  
+- Calcola l'importo del pagamento anticipato come percentuale del totale dell'ordine.
+- Assegna un importo totale di pagamento anticipato all'ordine.  
 
 Inoltre, è stata registrata una fattura di pagamento anticipato, creata una fattura per un secondo pagamento anticipato in seguito alla modifica dell'ordine e registrata la fattura finale per l'importo residuo.  
 
-La funzionalità dei pagamenti anticipati in [!INCLUDE[prod_short](includes/prod_short.md)] agevola l'impostazione e l'applicazione di regole di pagamento anticipato per clienti e articoli e consente di registrare ogni pagamento a fronte di una fattura.  
+Le funzionalità di pagamento anticipato semplificano l'impostazione e l'applicazione delle regole di pagamento anticipato per clienti e articoli. Ti consentono anche di registrare ogni pagamento per una fattura.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 

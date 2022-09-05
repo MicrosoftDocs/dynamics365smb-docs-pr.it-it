@@ -6,24 +6,26 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: extension, migrate, data, C5, import
+ms.search.keywords: extension, migrate, data, C5, import
+ms.search.form: 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1874, 1882, 1883, 1884, 1885, 1886, 1888, 1890, 1891, 1892, 1893, 1894, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1906
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6f8c90eeb5b99f5591db7847e9d48124c910e328
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0def51f435cf836d681a56a75f3ac5fece4d87ea
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381116"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361692"
 ---
 # <a name="the-c5-data-migration-extension"></a>Estensione di migrazione dati C5
 
 Questa estensione consente di migrare facilmente clienti, fornitori, articoli e conti di contabilità generale da Microsoft Dynamics C5 2012 a [!INCLUDE[prod_short](includes/prod_short.md)]. È inoltre possibile migrare lo storico dei movimenti per i conti di contabilità generale.
 
-> [!Note]
+> [!NOTE]
 > La società in [!INCLUDE[prod_short](includes/prod_short.md)] non deve contenere alcun dato. Inoltre, una volta avviata una migrazione, non creare clienti, fornitori, articoli o conti fino al termine della migrazione.
 
 ## <a name="what-data-is-migrated"></a>Quali dati vengono migrati?
+
 I seguenti dati vengono migrati per ogni entità:
 
 ### <a name="customers"></a>Clienti
@@ -86,7 +88,7 @@ Se si migrano i conti, anche i seguenti dati vengono migrati:
 * Batch registrazioni magazzino
 * Transazioni aperte(movimenti contabili articoli)
 
-> [!Note]
+> [!NOTE]
 > Se esistono transazioni aperte che usano valute estere, vengono migrati anche i tassi di cambio per queste valute. Altri tassi di cambio non sono migrati.
 
 ### <a name="chart-of-accounts"></a>Piano dei conti
@@ -94,7 +96,7 @@ Se si migrano i conti, anche i seguenti dati vengono migrati:
 * Dimensioni standard: reparto, scopo e centro di costo  
 * Transazioni storiche C/G  
 
-> [!Note]
+> [!NOTE]
 > Le transazioni storiche C/G vengono trattate in modo diverso. Quando si migrano i dati si imposta un parametro **Periodo corrente**. Questo parametro consente di elaborare le transazioni C/G. Le transazioni dopo questa data vengono migrate singolarmente. Le operazioni precedenti alla data vengono aggregate per conto e migrate come importo singolo. Ad esempio, sono presenti transazioni nel 2015, 2016, 2017, 2018 e si specifica il 1° gennaio 2017 nel campo Periodo corrente. Per ogni conto, gli importi per le transazioni il 31 dicembre 2106 o in data precedente verranno aggregate in un'unica riga del giornale di registrazione generale per ciascun conto C/G. Tutte le transazioni dopo questa data verranno migrate singolarmente.
 
 ## <a name="file-size-requirements"></a>Requisiti per le dimensioni di file
@@ -107,13 +109,13 @@ Sono necessari solo alcuni passaggi per esportare i dati da C5 e importarli in [
 
 1. In C5, utilizzare la funzione **Esporta database** per esportare i dati. Quindi, inviare la cartella di esportazione a una cartella compressa (.zip).  
 2. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Migrazione dati**, quindi scegli **Migrazione dati**.  
-3. Completare i passaggi nella guida di setup assistito. Assicurarsi di scegliere **Importa da Microsoft Dynamcis C5 2012** come origine dati.  
+3. Completare i passaggi nella guida di setup assistito. Assicurati di scegliere **Importa da Microsoft Dynamics C5 2012** come origine dati.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Visualizzazione dello stato della migrazione
 
 Utilizzare la pagina **Sintesi migrazione dati** per monitorare il successo della migrazione. La pagina mostra informazioni quali il numero di entità che la migrazione includerà, lo stato della migrazione e il numero di articoli che sono stati migrati e se la migrazione ha avuto esito positivo. Mostra inoltre il numero di errori, consente di analizzare gli errori riscontrati e, se possibile, consente di passare facilmente all'entità per risolvere i problemi. Per ulteriori informazioni, vedere la sezione successiva in questo argomento.  
 
-> [!Note]
+> [!NOTE]
 > Mentre si attendono i risultati della migrazione, è necessario aggiornare la pagina per visualizzare i risultati.
 
 ## <a name="how-to-avoid-double-posting"></a>Come evitare la doppia registrazione
@@ -135,10 +137,10 @@ Nella pagina **Errori di migrazione dati**, per correggere un errore è possibil
 
 Dopo aver corretto uno o più errori, è possibile scegliere **Esegui migrazione** per migrare solo le entità corrette, senza dover riavviare completamente la migrazione.  
 
-> [!Tip]
+> [!TIP]
 > Se è stato corretto più di un errore, è possibile utilizzare la funzionalità **Seleziona più elementi** per selezionare più righe da migrare. In alternativa, se esistono errori che non è importante correggere, è possibile selezionarli, quindi scegliere **Ignora selezione**.
 
-> [!Note]
+> [!NOTE]
 > Se si dispone di articoli che sono inclusi in una distinta base, potrebbe essere necessario effettuare la migrazione più di una volta se l'articolo originale non viene creato prima delle varianti a cui è associato. Se una variante articolo viene creata per prima, il riferimento all'articolo originale può causare un messaggio di errore.  
 
 ## <a name="verifying-data-after-migrating"></a>Verifica dei dati dopo la migrazione
@@ -149,7 +151,7 @@ Un modo per verificare che i dati siano stati migrati correttamente consiste nel
 |---------------------------|------------------------------|------------------|
 |Movimenti clienti| Registrazioni COGE| CUSTMIGR |
 |Movimenti fornitori| Registrazioni COGE| VENDMIGR|
-|Mov. Articoli| Registrazioni magazzino| ITEMMIGR |
+|Mov. Articoli| Registrazioni articoli| ITEMMIGR |
 |Movimenti C/G| Registrazioni COGE| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Interruzione della migrazione dei dati
@@ -159,7 +161,6 @@ Un modo per verificare che i dati siano stati migrati correttamente consiste nel
 ## <a name="see-also"></a>Vedere anche
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
-[Preparazione al business](ui-get-ready-business.md)  
-
+[Prepararsi a fare affari](ui-get-ready-business.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

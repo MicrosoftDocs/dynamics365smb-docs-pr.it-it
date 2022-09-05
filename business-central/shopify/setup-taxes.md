@@ -1,17 +1,17 @@
 ---
 title: Impostare le imposte per la connessione Shopify
 description: Modalità di impostazione delle imposte in Shopify e Business Central.
-ms.date: 05/27/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 0070d583752002cc34ebff74dee2906c289b7136
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: 4146a84aae98b97b9486d4b5fa53ad663d6d5f91
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317491"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362192"
 ---
 # <a name="set-up-taxes-for-the-shopify-connection"></a>Impostare le imposte per la connessione Shopify
 
@@ -19,16 +19,16 @@ In questo articolo, esamineremo il modo in cui le varie impostazioni in Shopify 
 
 L'articolo presuppone che tu sia tenuto a pagare le tasse quando vendi beni a livello locale o internazionale.
 
-## <a name="if-you-sell-domestically"></a>Se vendi sul mercato interno 
+## <a name="if-you-sell-domestically"></a>Se vendi sul mercato interno
 
-Una volta configurato il tuo Shopify per riscuotere le tasse nel tuo paese o nella tua regione nazionale, puoi decidere come visualizzare i prezzi sul tuo negozio. Puoi controllare questa opzione abilitando o disabilitando l'interruttore **Tutti i prezzi includono le imposte** nelle impostazioni [**Imposte e acquisti**](https://www.shopify.com/admin/settings/taxes) in **Amministrazione Shopify**.
+Una volta configurato il tuo Shopify per riscuotere le tasse nel tuo paese o nella tua regione nazionale, puoi decidere come visualizzare i prezzi sul tuo negozio.
+Puoi controllare questa opzione abilitando o disabilitando l'interruttore **Tutti i prezzi includono le imposte** nelle impostazioni [**Imposte e acquisti**](https://www.shopify.com/admin/settings/taxes) in **Amministrazione Shopify**.
 
 È comune che questo interruttore sia abilitato per paesi come Australia, Austria, Belgio, Repubblica Ceca, Danimarca, Finlandia, Francia, Germania, Islanda, Italia, Paesi Bassi, Nuova Zelanda, Norvegia, Spagna, Svezia, Svizzera e Regno Unito. In mercati come questi, il prezzo di *100 euro* definito nella scheda prodotto contiene già l'imposta sul valore aggiunto (IVA) e lo stesso prezzo viene visualizzato al cliente in negozio e al momento del pagamento.  
 
 Negli Stati Uniti e in Canada, i clienti si aspettano di vedere i prezzi dei prodotti senza tasse, aggiunte al momento del pagamento. Quindi il campo **Tutti i prezzi includono le imposte** di solito non è selezionato. In questo caso, il prezzo di *$ 100* definito nella scheda prodotto rappresenta il prezzo senza tasse. In fase di pagamento, le tasse verranno aggiunte al prezzo per calcolare il totale.
 
-Per supportare lo scenario in cui l'opzione **Tutti i prezzi includono le imposte** è selezionato sul lato [!INCLUDE[prod_short](../includes/prod_short.md)], compilare il campo **Codice modello cliente** nella pagina **Scheda punto vendita Shopify** per accedere al modello con i seguenti campi definiti:  
-<!--I changed that last part of the sentence above because it didn't track logically. Just wanted to let you know in case I introduced an inaccuracy.-->
+Per supportare lo scenario in cui l'opzione **Tutti i prezzi includono le imposte** è selezionato sul lato [!INCLUDE[prod_short](../includes/prod_short.md)], compila il campo **Codice modello cliente** nella pagina **Scheda punto vendita Shopify** per accedere al modello con i seguenti campi definiti:  
 
 1. **Categoria registrazione business generale**, utilizzata per clienti nazionali.  
 2. **Categoria di registrazione business IVA**, utilizzata per clienti nazionali.  
@@ -41,13 +41,13 @@ Ora definisci i prezzi degli articoli nel campo **Scheda articolo** o **Listino 
 
 ## <a name="if-you-sell-internationally"></a>Se vendi sul mercato internazionale
 
-In questa sezione, esamineremo le impostazioni per gli scenari in cui è necessario riscuotere le tasse quando vendi in un altro paese, ad esempio altri paesi dell'UE. 
+In questa sezione, esamineremo le impostazioni per gli scenari in cui è necessario riscuotere le tasse quando vendi in un altro paese, ad esempio altri paesi dell'UE.
 
 Attualmente, l'estensione **connettore Shopify** supporta l'esportazione di un solo prezzo. Shopify applica automaticamente imposte, valute e arrotondamenti locali. L'interruttore **Tutti i prezzi includono le imposte** si traduce nelle azioni descritte nelle seguenti sottosezioni.
 
 ### <a name="all-prices-include-tax-is-selected"></a>*Tutti i prezzi includono le imposte* è selezionata
 
-||Vendite sul mercato interno|Paese estero in cui riscuoti le imposte|Paese estero in cui non riscuoti le imposte|
+|-|Vendite sul mercato interno|Paese estero in cui riscuoti le imposte|Paese estero in cui non riscuoti le imposte|
 |------------------------|--------|--------|--------|
 |Prezzo visualizzato in negozio|1200|1200|1200|
 |Percentuale aliquota fiscale|20|25|0|
@@ -57,7 +57,7 @@ Il prezzo per il cliente rimane uguale, indipendentemente dalla relativa posizio
 
 ### <a name="all-prices-include-tax-is-not-selected"></a>*Tutti i prezzi includono le imposte* non è selezionata
 
-||Vendite sul mercato interno|Paese estero in cui riscuoti le imposte|Paese estero in cui non riscuoti le imposte|
+|-|Vendite sul mercato interno|Paese estero in cui riscuoti le imposte|Paese estero in cui non riscuoti le imposte|
 |------------------------|--------|--------|--------|
 |Prezzo visualizzato in negozio|1000|1000|1000|
 |Percentuale aliquota fiscale|20|25|0|
@@ -67,8 +67,7 @@ Shopify aggiunge le imposte locali oltre al prezzo definito sulla scheda del pro
 
 ## <a name="dynamic-tax-inclusive-pricing"></a>Prezzi dinamici tasse incluse
 
-Poiché paesi diversi hanno requisiti diversi a seconda che tu includa o meno le tasse nel prezzo mostrato, puoi attivare [Prezzi dinamici tasse incluse](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) in Shopify. Questa operazione automatizza la funzione di inclusione delle imposte. 
-<!--I added the last sentence to complete the thought. I hope that's okay.-->
+Poiché paesi diversi hanno requisiti diversi a seconda che tu includa o meno le tasse nel prezzo mostrato, puoi attivare [Prezzi dinamici tasse incluse](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) in Shopify. Questa operazione automatizza la funzione di inclusione delle imposte.
 
 Seleziona **Includi o escludi imposte in base al paese del cliente** nella sezione **Altri mercati - Preferenze** delle impostazioni [**Mercati**](https://www.shopify.com/admin/settings/markets) in **Amministrazione di Shopify**.  
 
@@ -77,7 +76,7 @@ Seleziona **Includi o escludi imposte in base al paese del cliente** nella sezio
 
 ### <a name="all-prices-include-tax-is-selected"></a>*Tutti i prezzi includono le imposte* è selezionata
 
-||Vendite sul mercato interno|Paese estero dove l'imposta è inclusa nel prezzo|Paese estero dove l'imposta è esclusa|
+|-|Vendite sul mercato interno|Paese estero dove l'imposta è inclusa nel prezzo|Paese estero dove l'imposta è esclusa|
 |------------------------|--------|--------|--------|
 |Prezzo visualizzato in negozio|1200|1250|1000|
 |Percentuale aliquota fiscale|20|25|10|
@@ -87,7 +86,7 @@ Il prezzo per ciascun cliente cambia a seconda della sua posizione.
 
 ### <a name="all-prices-include-tax-is-not-selected"></a>*Tutti i prezzi includono le imposte* non è selezionata
 
-||Vendite sul mercato interno|Paese estero dove l'imposta è inclusa nel prezzo|Paese estero dove l'imposta è esclusa|
+|-|Vendite sul mercato interno|Paese estero dove l'imposta è inclusa nel prezzo|Paese estero dove l'imposta è esclusa|
 |------------------------|--------|--------|--------|
 |Prezzo visualizzato in negozio|1000|1250|1000|
 |Percentuale aliquota fiscale|20|25|10|
@@ -110,7 +109,7 @@ Seleziona la casella **Riscuoti l'IVA** nella sezione **Unione europea** delle i
 
 ### <a name="collect-vat-set-to-one-stop-shop-registration"></a>Riscuoti l'IVA impostata durante la registrazione allo sportello unico
 
-Nell'esempio seguente, l'interruttore **Tutti i prezzi includono le imposte** è abilitato. Il prezzo sulla scheda prodotto è impostato su *1.200*. 
+Nell'esempio seguente, l'interruttore **Tutti i prezzi includono le imposte** è abilitato. Il prezzo sulla scheda prodotto è impostato su *1.200*.
         
 |-|Vendite sul mercato interno|Paese estero|
 |------------------------|--------|--------|
@@ -120,7 +119,7 @@ Nell'esempio seguente, l'interruttore **Tutti i prezzi includono le imposte** è
         
 ### <a name="collect-vat-set-to-micro-business-exemption"></a>Riscuoti l'IVA impostata sull'esenzione per le microimprese
 
-Nell'esempio seguente, l'interruttore **Tutti i prezzi includono le imposte** è abilitato. Il prezzo sulla scheda prodotto è impostato su *1.200*. 
+Nell'esempio seguente, l'interruttore **Tutti i prezzi includono le imposte** è abilitato. Il prezzo sulla scheda prodotto è impostato su *1.200*.
         
 |-|Vendite sul mercato interno|Paese estero con aliquota fiscale locale del 25%.|
 |------------------------|--------|--------|
@@ -134,8 +133,7 @@ Shopify ignora l'aliquota fiscale nel paese estero durante il calcolo dei prezzi
 
 Se riscuoti le tasse da più paesi, molto probabilmente dovrai definire un'impostazione specifica per il paese in [!INCLUDE[prod_short](../includes/prod_short.md)]. Questa operazione è necessaria perché quando viene creato un documento di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)], il sistema calcola le tasse invece di riutilizzare quelle importate da Shopify.
 
-Le impostazioni specifiche per paese/regione vengono scelte nella finestra **Modello cliente Shopify**.
-<!--Should this be "window" or "page"? I haven't been seeing "window" is use elsewhere, but I don't know what the interface looks like for this action.--> Puoi definire **Nr. cliente predefinito** o **N. codice modello cliente**. In entrambi i casi assicurati che il cliente o il modello selezionato abbia i seguenti campi definiti:
+Le impostazioni specifiche per paese/regione vengono scelte nella finestra **Modello cliente Shopify**. Puoi definire **Nr. cliente predefinito** o **N. codice modello cliente**. In entrambi i casi assicurati che il cliente o il modello selezionato abbia i seguenti campi definiti:
 
 1. **Categoria registrazione business generale** (utilizzata per clienti esteri).
 2. **Categoria di registrazione business IVA** (utilizzata per clienti esteri).
@@ -144,8 +142,7 @@ Le impostazioni specifiche per paese/regione vengono scelte nella finestra **Mod
 * Scegli *No* se **Tutti i prezzi includono le imposte** è disabilitata e **Includi o escludi imposte in base al paese del cliente** è disabilitata.
 * Scegli *Sì* se **Includi o escludi imposte in base al paese del cliente** è abilitata e il paese o la regione sono elencati in [Paesi tasse incluse](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions).
 * Scegli *No* se **Includi o escludi imposte in base al paese del cliente** è abilitata e il paese o la regione non sono elencati in [Paesi tasse incluse](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions).
-<!--I changed "Set" to "Choose" since "Set" really isn't an instruction we use. if they're toggling, we then would say "Toggle" as in "Toggle *No* if...."-->
-> 
+
 [!Note]
 > L'impostazione del campo **Prezzi IVA inclusa** proviene dal modello, non dal cliente specifico. Ecco perché è importante che il modello del cliente sia definito.
 

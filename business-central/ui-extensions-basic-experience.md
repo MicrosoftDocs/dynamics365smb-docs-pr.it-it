@@ -7,16 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
+ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ddb4468bda648b0368551ecb8cdbc6167cf4778
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381674"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362223"
 ---
 # <a name="the-basic-experience-extension"></a>Estensione dell'esperienza di base
+
 Se è stato utilizzato Microsoft Dynamics C5, i partner Microsoft possono aiutare a passare a una soluzione più moderna basata su [!INCLUDE[prod_short](includes/prod_short.md)], in modo da poter continuare a godere delle stesse funzionalità semplificate di Dynamics C5.
 
 Questa estensione è destinata alle piccole imprese e può supportare fino a tre utenti. Se sono necessari più utenti, eseguire l'aggiornamento a una licenza [!INCLUDE[prod_short](includes/prod_short.md)] e disinstallare questa estensione.
@@ -25,6 +27,7 @@ Questa estensione è destinata alle piccole imprese e può supportare fino a tre
 > Al momento, questa estensione è disponibile solo per i clienti in Danimarca e Islanda. 
 
 ## <a name="whats-available"></a>Funzionalità disponibili
+
 La tabella seguente descrive le funzionalità disponibili se si installa l'estensione dell'esperienza di base.
 
 |Area  |Funzionalità  |
@@ -36,6 +39,7 @@ La tabella seguente descrive le funzionalità disponibili se si installa l'esten
 |**Magazzino** |Inventario di base, sostituzioni di articolo, cross reference dell'articolo |
 
 ## <a name="getting-started"></a>Introduzione
+
 Questa estensione è leggermente diversa dalla maggior parte e sarà necessario l'aiuto di un partner Microsoft per installarla e configurarla. Solo per sapere cosa aspettarsi, ecco una visualizzazione ad alto livello di ciò che farà il partner Microsoft.
 
 1. Creare un nuovo tenant [!INCLUDE[prod_short](includes/prod_short.md)]. Può essere una versione di prova o CSP.
@@ -46,9 +50,11 @@ Questa estensione è leggermente diversa dalla maggior parte e sarà necessario 
 6. Scaricare e installare l'estensione dell'esperienza di base da AppSource.
 
 ## <a name="migrating-data"></a>Migrazione dei dati
+
 Portare con sé i propri dati Dynamics C5. Dopo che il partner Microsoft avrà installato l'estensione dell'esperienza di base, sarà disponibile un'azienda vuota. Un modo semplice per spostare i dati da Dynamics C5 all'esperienza di base consiste nell'utilizzare l'estensione Migrazione dei dati C5, inclusa in [!INCLUDE[prod_short](includes/prod_short.md)]. L'estensione esegue la migrazione di clienti, fornitori, articoli, conti di contabilità generale e relativi movimenti.
 
 ## <a name="see-also"></a>Vedere anche
-[Estensione di migrazione dati C5](ui-extensions-c5-data-migration.md)
+
+[Estensione di migrazione dati C5](ui-extensions-c5-data-migration.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808935"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361557"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Iniziare a utilizzare il connettore Shopify
 
@@ -26,26 +27,26 @@ Il connettore Shopify include le seguenti funzionalità:
 - Sincronizzazione bidirezionale di articoli o prodotti  
 
   - Il connettore sincronizzerà immagini, varianti articolo, codici a barre, numeri articolo fornitore, testi estesi e tag.  
-  - Esoirta gli attributi articolo in Shopify.  
-  - Utilizza gruppi di prezzi cliente e sconti selezionati per definire i prezzi esportati in Shopify.  
-  - Decidi se gli articoli possono essere creati automaticamente o consenti solo gli aggiornamenti ai prodotti esistenti.  
+  -    Esoirta gli attributi articolo in Shopify.  
+  -    Utilizza gruppi di prezzi cliente e sconti selezionati per definire i prezzi esportati in Shopify.  
+  -    Decidi se gli articoli possono essere creati automaticamente o consenti solo gli aggiornamenti ai prodotti esistenti.  
 - Sincronizzazione dei livelli di inventario  
 
-  - Scegli alcune o tutte le posizioni disponibili in [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Aggiorna i livelli di inventario in più posizioni in Shopify.  
+  -    Scegli alcune o tutte le posizioni disponibili in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Aggiorna i livelli di inventario in più posizioni in Shopify.  
 - Sincronizzazione bidirezionale dei clienti  
 
-  - Mapping intelligente dei clienti per telefono ed e-mail.  
-  - Utilizza modelli specifici per paese durante la creazione dei clienti, il che aiuta a garantire che le impostazioni fiscali siano corrette.  
+  -    Mapping intelligente dei clienti per telefono ed e-mail.  
+  -    Utilizza modelli specifici per paese durante la creazione dei clienti, il che aiuta a garantire che le impostazioni fiscali siano corrette.  
 - Importare gli ordini da Shopify  
 
-  - Durante l'importazione, puoi creare automaticamente clienti in [!INCLUDE [prod_short](../includes/prod_short.md)] o decidere di gestire i clienti in Shopify.  
-  - Includi gli ordini creati in altri canali, ad esempio Shopify POS o Amazon.  
-  - Costi di spedizione, buoni regalo, mance, metodi di spedizione e pagamento, transazioni e rischio di frode.  
+  -    Durante l'importazione, puoi creare automaticamente clienti in [!INCLUDE [prod_short](../includes/prod_short.md)] o decidere di gestire i clienti in Shopify.  
+  -    Includi gli ordini creati in altri canali, ad esempio Shopify POS o Amazon.  
+  -    Costi di spedizione, buoni regalo, mance, metodi di spedizione e pagamento, transazioni e rischio di frode.  
   - Ricevi informazioni sul pagamento da Shopify Payments.  
 - Facile tracciabilità delle informazioni di evasione  
 
-  - Facoltativamente, scegli di scrivere le informazioni di tracciabilità dell'articolo da [!INCLUDE [prod_short](../includes/prod_short.md)] in Shopify.  
+  -    Facoltativamente, scegli di scrivere le informazioni di tracciabilità dell'articolo da [!INCLUDE [prod_short](../includes/prod_short.md)] in Shopify.  
 
 Per usare Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)], devi prima fare un paio di cose. Questo articolo funge da guida per completare l'integrazione del tuo negozio Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)].
 

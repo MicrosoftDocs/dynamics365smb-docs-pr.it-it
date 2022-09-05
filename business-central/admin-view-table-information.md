@@ -1,24 +1,24 @@
 ---
 title: Visualizzare Informazioni tabella
-description: Informazioni su come visualizzare le informazioni sulle tabelle di database direttamente dall'interfaccia client in Business Central.
+description: Informazioni su come visualizzare le informazioni sulle tabelle di database in Business Central.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 8700
-ms.date: 06/14/2021
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 990a8f56108bacfe82e6fe591858d238396f16be
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133098"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362164"
 ---
 # <a name="viewing-table-information"></a>Visualizzazione di Informazioni tabella
 
-La pagina **Informazioni sulla tabella 8700** fornisce informazioni su tutte le tabelle di sistema e aziendali in una soluzione Business Central. In particolare, la pagina visualizza informazioni sulla quantità di dati contenuta nelle tabelle.
+La pagina **8700 Informazioni sulla tabella** fornisce informazioni sul numero di record in tutte le tabelle di sistema e aziendali in [!INCLUDE[prod_short](includes/prod_short.md)] e quanti dati contiene ciascuna tabella.
 
 Queste informazioni sono utili per la risoluzione dei problemi di prestazioni, perché consente di vedere la distribuzione delle dimensioni dei dati tra le tabelle.
 
@@ -31,12 +31,19 @@ La tabella seguente descrive le informazioni fornite per ciascuna tabella:
 |Colonna|Descrizione|
 |------|-----------|
 |Nome società|Nome della società, se presente, a cui appartiene la tabella.|
-|Nome tabella|Il nome della tabella.|
+|Nome tabella|Nome della tabella.|
 |Nr. tabella|L'ID della tabella.|
-|No. di record|Il numero totale di record archiviati nella tabella.|
+|Nr. di record|Il numero totale di record archiviati nella tabella.|
 |Dim. record|La dimensione media del record in KB/record. Il valore viene calcolato utilizzando la seguente formula: 1024 (Dimensione)/(N. di record). |
+|Dimensioni (KB)|Quantità totale di spazio occupato dalla tabella nel database. Il valore è la somma dei valori nei campi Dimensione dati e Dimensione indice.|
+|Dimensioni dati (KB)|Quantità di spazio occupato dai dati della tabella nel database.|
+|Dimensioni indice (KB)|Quantità di spazio occupato dagli indici (chiavi) della tabella nel database.|
+|Compressione|Il tipo di compressione, **Riga**, **Pagina**, o **Nessuno** che viene applicato alla tabella nel database. Per ulteriori informazioni, vedi [Compressione dei dati](/sql/relational-databases/data-compression/data-compression?).|
 
-## <a name="see-also"></a>Vedere anche
+> [!NOTE]
+> Se elimini i dati in una tabella, [!INCLUDE[prod_short](includes/prod_short.md)] avvia diversi processi dietro le quinte per assicurarsi che tutto venga eliminato nel database. I valori nella pagina Informazioni tabella non verranno aggiornati fino al completamento di tali processi, operazione che può richiedere del tempo. La quantità di tempo che dovrai aspettare può variare a seconda delle dimensioni del tuo database.
+
+## <a name="see-also"></a>Vedi anche
 
 [Controllo di pagine](across-inspect-page.md)  
 [Articoli sulle prestazioni per gli sviluppatori](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
