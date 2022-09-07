@@ -36,7 +36,7 @@ Quando a una riga di ordine di vendita viene assegnato un servizio spedizioniere
 >  Se uno spedizioniere viene eliminato dalla riga di ordine, verrà eliminato anche il codice di servizio spedizioniere. Il contenuto di campi parzialmente basato sul servizio spedizioniere verrà ricalcolato.  
 
 ## <a name="see-also"></a>Vedere anche
-[Impostare i metodi di pagamento:](sales-how-set-up-shipment-methods.md)  
+[Impostare i metodi di spedizione](sales-how-set-up-shipment-methods.md)  
 [Rintracciare i colli](sales-how-track-packages.md)    
 [Gestione warehouse](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  

@@ -35,7 +35,7 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 | Specificare per i singoli clienti o per tutti il modo in cui i documenti di vendita vengono inviati per impostazione predefinita quando si sceglie l'azione **Registra e invia**. |[Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md) |
 | Impostare l'e-mail in modo che includa un riepilogo delle informazioni nel documento di vendita che viene inviato. |[Inviare documenti via e-mail](ui-how-send-documents-email.md). |
 |Utilizzare un servizio Web UE per verificare il numero di partita IVA del cliente.|[Verificare i numeri di partita IVA](finance-setup-vat.md)|
-|Definire i diversi incoterm offerti ai clienti o dai fornitori.|[Impostare i metodi di pagamento:](sales-how-set-up-shipment-methods.md)|
+|Definire i diversi incoterm offerti ai clienti o dai fornitori.|[Impostare i metodi di spedizione](sales-how-set-up-shipment-methods.md)|
 |Immettere le informazioni sui diversi fornitori di servizi di trasporto utilizzati, incluso un collegamento al relativo servizio che consente di rintracciare il collo.|[Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
