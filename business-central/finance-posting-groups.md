@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076567"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460780"
 ---
 # <a name="set-up-posting-groups"></a>Configurazione delle categorie di registrazione
 
@@ -59,9 +59,11 @@ La tabella seguente descrive le categorie di registrazione che sono specifiche p
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Consentire categorie registrazione di clienti o fornitori sostitutivi nei documenti
 
+[!INCLUDE [preview](includes/preview.md)]
+
 Puoi consentire alle persone di scegliere categorie di registrazione business cliente e fornitore diverse rispetto a quelle predefinite quando usi documenti e giornali di registrazione di vendita o acquisto.
 
-Per consentire le modifiche alle categorie di registrazione clienti, scegli **Consenti modifica categoria registrazione** nelle pagine **Setup contabilità clienti** e **Setup gest. assist.** e nella pagina **Setup contabilità fornitori** per le modifiche alla categoria di registrazione fornitori.
+Per consentire le modifiche alle categorie di registrazione clienti, scegli **Consenti più categorie di registrazione** nelle pagine **Setup contabilità clienti** e **Setup gest. assist.** e nella pagina **Setup contabilità fornitori** per le modifiche alla categoria di registrazione fornitori.
 
 Nelle pagine **Cat. reg. clienti** o **Cat. reg. fornitori** puoi specificare le categorie di registrazione da consentire come sostituti scegliendo **Sostituzioni**. Le categorie di registrazione sostitutive possono sostituire le categorie di registrazione clienti o fornitori predefinite specificate per un cliente o un fornitore.
 

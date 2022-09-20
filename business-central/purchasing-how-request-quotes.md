@@ -8,40 +8,42 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
-ms.date: 06/23/2021
+ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 7bad66452613dba8175404e67d1d8b421902bb8d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 6444b795bf95b4da45d5d09bd6d6b7d5177c277a
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076983"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461131"
 ---
 # <a name="request-quotes"></a>Richiedere le offerte
 
-Un'offerta di acquisto può essere utilizzata come bozza preliminare di un ordine di acquisto e l'ordine può essere in seguito convertito in ordine o fattura di acquisto.
+Un'offerta di acquisto può essere utilizzata come bozza preliminare di un ordine di acquisto che può essere in seguito convertito in una fattura di acquisto.
 
-## <a name="to-create-a-purchase-quote"></a>Per creare un'offerta di acquisto
+## <a name="create-a-purchase-quote"></a>Creare un'offerta di acquisto
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Offerte acquisto**, quindi scegli il collegamento correlato.
-2. Creare un nuovo documento nello stesso modo in cui si crea un ordine di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Offerte acquisto**, quindi scegli il collegamento correlato.
+2. Creare un nuovo documento nello stesso modo in cui si crea un ordine di acquisto. Ulteriori informazioni in [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
-## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Per convertire un'offerta di acquisto in un ordine di acquisto
+## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Convertire un'offerta di acquisto in un ordine di acquisto
 
-Una volta che l'offerta del fornitore viene accettata, può essere convertita in ordine o fattura di acquisto per elaborare l'acquisto.
+Una volta che l'offerta del fornitore viene accettata, può essere convertita in ordine d'acquisto per elaborare l'acquisto.
 
-1. Aprire un'offerta di acquisto pronta per essere convertita e scegliere l'azione **Crea ordine**.
+1. Apri l'offerta di acquisto che si desidera convertire e scegli l'azione **Crea ordine**.
 
-L'offerta di acquisto viene rimossa dal database. Viene creato un ordine o una fattura di acquisto sulla base delle informazioni contenute nell'offerta di acquisto nella quale è possibile elaborare l'acquisto. Nel campo **Nr. offerta** dell'ordine o della fattura di acquisto è presente il numero dell'offerta di acquisto da cui è stato convertito.
+L'offerta di acquisto viene rimossa dal database. Viene creato un ordine di acquisto sulla base delle informazioni contenute nell'offerta di acquisto che puoi utilizzare per elaborare l'acquisto e, successivamente, immettere una fattura di acquisto. Nel campo **Nr. offerta** dell'ordine o della fattura di acquisto è presente il numero dell'offerta di acquisto da cui è stato convertito.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-purchase-documents-dynamics-365-business-central/)
+> [!NOTE]
+> Non è possibile convertire direttamente un'offerta di acquisto direttamente in una fattura di acquisto, come è possibile con le offerte di vendita. Per i dettagli su come creare una fattura di acquisto, leggi [Registrare gli acquisti con le fatture di acquisto](purchasing-how-record-purchases.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

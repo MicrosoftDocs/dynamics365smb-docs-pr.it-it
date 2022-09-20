@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 08/30/2022
 ms.author: jswymer
-ms.openlocfilehash: c1935c51fbcabfc0371530532f18b2aaf6005dbb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0742320b4cb334b3c01c86ec0e10ec82114bd215
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511807"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460732"
 ---
-# <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] e Power BI
+# <a name="introduction-to-prod_short-and-power-bi"></a>Introduzione a [!INCLUDE[prod_short](includes/prod_short.md)] e Power BI
 
-Ottenere informazioni dettagliate sui dati [!INCLUDE[prod_short](includes/prod_short.md)] è facile con [Power BI](https://powerbi.microsoft.com) - un sistema di visualizzazione dei dati di Microsoft. Power BI recupera i dati [!INCLUDE[prod_short](includes/prod_short.md)] che consentono di creare dashboard e report basati sui dati. Power BI fornisce un'alternativa flessibile ai report integrati in [!INCLUDE[prod_short](includes/prod_short.md)], consentendo di eseguire il drill-down e personalizzare la visualizzazione e persino unire i dati di diverse società in [!INCLUDE[prod_short](includes/prod_short.md)] Alcuni report Power BI possono anche essere incorporati in Business Central e visualizzati senza lasciare il sistema. I dashboard più complessi sono meglio utilizzati nel sito web Power BI.
+Ottenere informazioni dettagliate sui dati [!INCLUDE[prod_short](includes/prod_short.md)] è facile con [Power BI](https://powerbi.microsoft.com), un sistema di visualizzazione dei dati di Microsoft. Power BI recupera i dati [!INCLUDE[prod_short](includes/prod_short.md)] che consentono di creare dashboard e report basati sui dati. Power BI fornisce un'alternativa flessibile ai report integrati in [!INCLUDE[prod_short](includes/prod_short.md)], consentendo di eseguire il drill-down e personalizzare la visualizzazione e persino unire i dati di diverse società in [!INCLUDE[prod_short](includes/prod_short.md)] Alcuni report Power BI possono anche essere incorporati in Business Central e visualizzati senza lasciare il sistema. I dashboard più complessi sono meglio utilizzati nel sito web Power BI.
 
 ![Power BI e Business Central.](media/power-bi-intro.png)
 
@@ -30,14 +30,15 @@ Ci sono varie funzionalità da utilizzare con [!INCLUDE[prod_short](includes/pro
 
 |Funzionalità|Descrizione|Online|Locale|Ulteriori informazioni|
 |-------|-----------|--------------|-----------|----------------|
-|Visualizzare dati [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI|È possibile visualizzare i dati da [!INCLUDE[prod_short](includes/prod_short.md)] nei report in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online include alcuni report Power BI predefiniti. Oppure l'organizzazione potrebbe aver reso disponibili alcuni report personalizzati.|![Funziona online.](media/check.png)|![Funziona in locale](media/check.png)|[Vedere...](across-working-with-business-central-in-powerbi.md)|
-|Visualizzare report Power BI nel client [!INCLUDE[prod_short](includes/prod_short.md)].| I report Power BI che visualizzano dati [!INCLUDE[prod_short](includes/prod_short.md)] possono essere incorporati direttamente nelle pagine [!INCLUDE[prod_short](includes/prod_short.md)] delle parti. È possibile cambiare la parte per visualizzare qualsiasi report reso disponibile. |![disponibile online.](media/check.png)|![Funziona in locale](media/check.png)<sup>[*](#onprem)</sup>|[Vedere...](across-working-with-powerbi.md).|
-|Creare report e dashboard in Power BI che visualizzano dati [!INCLUDE[prod_short](includes/prod_short.md)].|Usare Power BI Desktop per creare report e dashboard personalizzati. È possibile pubblicare i report nel servizio Power BI o condividerli con altri utenti dell'organizzazione.|![Funziona online.](media/check.png)|![funziona in locale](media/check.png)|[Vedere...](across-how-use-financials-data-source-powerbi.md)
-|App [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] pubblica tre app per Power BI in Microsoft AppSource. Queste app creano report e dashboard dettagliati nel servizio Power BI per la visualizzazione dei dati [!INCLUDE[prod_short](includes/prod_short.md)]. Le app disponibili includono: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Funziona online.](media/check.png)||[Vedere...](across-powerbi-business-central-apps.md)
+|Visualizzare dati [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI|È possibile visualizzare i dati da [!INCLUDE[prod_short](includes/prod_short.md)] nei report in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online include alcuni report Power BI predefiniti. Oppure l'organizzazione potrebbe aver reso disponibili alcuni report personalizzati.|![Funziona online.](media/check.png)|![Funziona in locale](media/check.png)|[Qui...](across-working-with-business-central-in-powerbi.md)|
+|Visualizzare report Power BI nel client [!INCLUDE[prod_short](includes/prod_short.md)].| I report Power BI che visualizzano dati [!INCLUDE[prod_short](includes/prod_short.md)] possono essere incorporati direttamente nelle pagine [!INCLUDE[prod_short](includes/prod_short.md)] delle parti. È possibile cambiare la parte per visualizzare qualsiasi report reso disponibile. |![disponibile online.](media/check.png)|![Funziona in locale](media/check.png)<sup>[*](#onprem)</sup>|[Qui...](across-working-with-powerbi.md).|
+|Creare report e dashboard in Power BI che visualizzano dati [!INCLUDE[prod_short](includes/prod_short.md)].|Usare Power BI Desktop per creare report e dashboard personalizzati. È possibile pubblicare i report nel servizio Power BI o condividerli con altri utenti dell'organizzazione.|![Funziona online.](media/check.png)|![funziona in locale](media/check.png)|[Qui...](across-how-use-financials-data-source-powerbi.md)|
+|App [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] pubblica tre app per Power BI in Microsoft AppSource. Queste app creano report e dashboard dettagliati nel servizio Power BI per la visualizzazione dei dati [!INCLUDE[prod_short](includes/prod_short.md)]. Le app disponibili includono: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Funziona online.](media/check.png)||[Qui...](across-powerbi-business-central-apps.md)|
+|Lavorare con i dati [!INCLUDE [prod_short](includes/prod_short.md)] in datamart e nei flussi di dati|A partire da luglio 2022 è possibile utilizzare il connettore [!INCLUDE [prod_short](includes/prod_short.md)] in Power Query Online nei flussi di dati che condividi tra diversi report e dashboard.|[Qui...](across-powerbi-business-central-apps.md)|
 
 <a name="onprem"><sup>*</sup></a>Questa funzione richiede un'applicazione registrata per Business Central in Microsoft Azure. Per ulteriori informazioni, vedere [Registrazione di Business Central locale in Azure AD per l'integrazione con altri servizi](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="getting-ready-to-use-power-bi"></a>Prepararsi all'uso di Power BI
+## <a name="get-ready-to-use-power-bi"></a>Preparati all'uso di Power BI
 
 Ci sono alcune attività che devono essere eseguite prima di poter iniziare a utilizzare Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Le attività dipenderanno dal tuo ruolo nella tua organizzazione e da cosa vuoi fare con Power BI:
 
@@ -75,22 +76,22 @@ Ci sono alcune attività che devono essere eseguite prima di poter iniziare a ut
 
 -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
-[Power BI per i consumatori](/power-bi/consumer/end-user-consumer)  
-[Il "nuovo look" del servizio Power BI](/power-bi/service-new-look)  
-[Avvio rapido: connettersi ai dati in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
-[Documentazione di Power BI](/power-bi/)  
 [Business Intelligence](bi.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Configurare [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
-
+[Documentazione di Power BI](/power-bi/)  
+[Che cos'è Power BI?](/power-bi/fundamentals/power-bi-overview)  
+[Avvio rapido: connettersi ai dati in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Introduzione ai datamart](/power-bi/transform-model/datamarts/datamarts-overview)  
+[Introduzione ai flussi di dati e alla preparazione dei dati self-service](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 

@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f1c1ba7640c03314c53bceee13711c66f03a3c09
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 17491ce9bdc611bbdc7d06755edebe12a5f5df31
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079300"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460672"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hai bisogno di più tempo per decidere se effettuare una sottoscrizione?
 
 È importante prendere la decisione appropriata quando si sceglie un'applicazione aziendale e sappiamo che ci vuole tempo per esplorare tutte le funzionalità di [!INCLUDE[prod_short](includes/prod_short.md)]. Se hai bisogno di più tempo per completare la valutazione del prodotto, puoi estendere personalmente il periodo di valutazione di altri 30 giorni. Quando la scadenza del periodo di valutazione è imminente, viene visualizzata una notifica che avverte di tale evento. La notifica contiene un collegamento alla guida **Estendi periodo di valutazione** che può essere utilizzata per estendere il periodo di valutazione. L'estensione supplementare di 30 giorni inizia dal momento in cui scegli **Estendi periodo di valutazione** nella guida.
 
-Puoi eseguire personalmente l'estensione del periodo di valutazione una sola volta. Non puoi farlo due volte, almeno non personalmente. Se hai già esteso tale periodo, il partner Microsoft può farlo per te un'altra volta. Anche questa operazione può essere effettuata una sola volta. Se non stai già lavorando con un partner, vedi [Come trovare un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner).  
+Puoi eseguire personalmente l'estensione del periodo di valutazione una sola volta. Non puoi farlo due volte, almeno non personalmente. Se hai già esteso tale periodo, il partner Microsoft può farlo per te un'altra volta. Anche questa operazione può essere effettuata una sola volta. Se non stai già lavorando con un partner, vedi [Come trovare un partner di rivendita?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 
 ## <a name="to-extend-your-trial-period"></a>Per estendere il periodo di valutazione
 
@@ -56,7 +56,7 @@ Se l'estensione del periodo di valutazione è scaduta, [effettua una sottoscrizi
 
 [Versioni di valutazione e sottoscrizioni (solo inglese)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Creazione di nuove società](about-new-company.md)  
-[Come trovare un partner di rivendita?](/dynamics365/business-central/across-faq#findpartner)  
+[Come trovo un partner di rivendita?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Estensione delle prove (come amministratore)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Iniziare come rivenditore di Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

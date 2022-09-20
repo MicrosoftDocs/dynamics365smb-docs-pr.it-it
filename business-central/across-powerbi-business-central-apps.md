@@ -1,5 +1,5 @@
 ---
-title: Uso delle app Business Central in Power BI | Microsoft Docs
+title: Utilizzare le app Business Central in Power BI
 description: Ottenere informazioni dettagliate, business intelligence e KPI a partire dai dati di Business Central è semplice con le app Business Central per Power BI.
 author: jswymer
 ms.topic: get-started-article
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a6b6de60f6262906429127b0588ca62c9dcca1b
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519187"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461077"
 ---
 # <a name="use-the-prod_short-apps-in-power-bi"></a>Utilizzare le app [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
 
@@ -158,19 +158,18 @@ L'app Power BI visualizzerà solo i dati della società [!INCLUDE[prod_short](in
 [Componente di integrazione Power BI e panoramica dell'architettura per [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
 [Utilizzare i dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI](across-working-with-business-central-in-powerbi.md)  
 [Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  
-[Power BI per i consumatori](/power-bi/consumer/end-user-consumer)  
-[Il "nuovo look" del servizio Power BI](/power-bi/service-new-look)  
-[Avvio rapido: connettersi ai dati in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
-[Documentazione di Power BI](/power-bi/)  
 [Business Intelligence](bi.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Configurare [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
-
-
+[Documentazione di Power BI](/power-bi/)  
+[Che cos'è Power BI?](/power-bi/fundamentals/power-bi-overview)  
+[Avvio rapido: connettersi ai dati in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Introduzione ai datamart](/power-bi/transform-model/datamarts/datamarts-overview)  
+[Introduzione ai flussi di dati e alla preparazione dei dati self-service](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

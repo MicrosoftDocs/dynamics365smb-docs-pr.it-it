@@ -6,30 +6,30 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order
+ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments,
 ms.search.form: 42, 48, 9305
-ms.date: 01/19/2022
+ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 102fa04db203d8b1fe05d63629fbe24f49193112
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d40adc9e0d21b89f7b648862b08be8456287bd50
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077842"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460969"
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Vendere prodotti con un ordine di vendita cliente  
+# <a name="sell-products-with-a-customer-sales-order"></a>Vendere prodotti con un ordine di vendita cliente
 
-Questo articolo fornisce istruzioni su quando utilizzare un ordine di vendita cliente anziché solo una fattura. Se il processo di vendita richiede che si possano spedire solo parti di una quantità di un ordine, ad esempio, perché la quantità completa non è disponibile in una sola volta, quei prodotti devono essere venduti utilizzare un ordine di vendita cliente.  
+Questo articolo fornisce istruzioni su quando utilizzare un ordine di vendita cliente oltre a una fattura. Se il processo di vendita richiede di spedire solo parte di un ordine, forse perché la quantità completa non è disponibile, è necessario elaborare la vendita effettuando un ordine di vendita.
 
-Se si vendono articoli con consegna diretta dal fornitore al cliente, come una spedizione diretta, è necessario utilizzare anche gli ordini di vendita. Per ulteriori informazioni, vedere [Effettuare spedizioni dirette](sales-how-drop-shipment.md). In tutti gli altri aspetti, gli ordini di vendita funzionano come le fatture di vendita. Per ulteriori informazioni, vedere [Fatturare le vendite](sales-how-invoice-sales.md).
+Devi anche utilizzare gli ordini di vendita se vendi articoli con consegna diretta dal fornitore al cliente, detto anche spedizione diretta. Ulteriori informazioni su [Effettuare spedizioni dirette](sales-how-drop-shipment.md). In tutti gli altri aspetti, gli ordini di vendita funzionano come le fatture di vendita. Ulteriori informazioni in [Fatturare le vendite](sales-how-invoice-sales.md).
 
-Quando si consegnano i prodotti, nella quantità totale o parziale, si registra l'ordine di vendita come spedito o come spedito e fatturato per creare i relativi movimenti contabili articolo e cliente nel sistema. Quando si registra l'ordine di vendita, è possibile inviare via email il documento come allegato PDF. È possibile impostare il messaggio con un testo precompilato che riepiloga le informazioni dell'ordine e per il pagamento, ad esempio con un collegamento a PayPal. Per ulteriori informazioni, vedi [Inviare documenti via e-mail](ui-how-send-documents-email.md).
+Quando si consegnano i prodotti, nella quantità totale o parziale, si registra l'ordine di vendita come spedito o come spedito e fatturato per creare i relativi movimenti contabili articolo e cliente nel sistema. Quando si registra l'ordine di vendita, è possibile inviarla via email come allegato PDF. Puoi precompilare il corpo dell'e-mail con un riepilogo delle informazioni dell'ordine e per il pagamento, ad esempio con un collegamento a PayPal. Ulteriori informazioni in [Spedire articoli](warehouse-how-ship-items.md) e [Inviare documenti via e-mail](ui-how-send-documents-email.md).
 
-Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio tramite PayPal o contanti, il pagamento viene registrato immediatamente quando si registra l'ordine di vendita come fatturato, vale a dire la fattura di vendita pubblicata viene chiusa come interamente applicata. Selezionare il metodo rilevante nel campo **Codice metodo di pagamento** nell'ordine cliente. Vedere il passaggio 8. Per i pagamenti elettronici, come PayPal, compilare anche il campo **Servizio di pagamento**. Per ulteriori informazioni, vedere [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
+Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio tramite PayPal o contanti, il pagamento viene registrato immediatamente quando si registra l'ordine di vendita come fatturato, vale a dire la fattura di vendita pubblicata viene chiusa come interamente applicata. Selezionare il metodo rilevante nel campo **Codice metodo di pagamento** nell'ordine cliente. Vedere il passaggio 5 di seguito. Per i pagamenti elettronici, come PayPal, compilare anche il campo **Servizio di pagamento**. Ulteriori informazioni in [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
 
-È persino possibile creare ordini pagati direttamente per clienti non registrati impostando dapprima una scheda "cliente per vendite in contanti", selezionabile nell'ordine di vendita. Per ulteriori informazioni, vedere [Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md).
+È persino possibile creare ordini pagati direttamente per clienti non registrati impostando dapprima una scheda "cliente per vendite in contanti", selezionabile nell'ordine di vendita. Ulteriori informazioni in [Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md).
 
-## <a name="to-create-a-sales-order"></a>Per creare un ordine di vendita
+## <a name="create-a-sales-order"></a>Creare un ordine di vendita
 
 > [!NOTE]  
 > La seguente procedura presuppone che il cliente sia già impostato. Per istruzioni su come eseguire questa operazione, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
@@ -43,32 +43,32 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 4. Compilare i restanti campi della pagina **Ordine di vendita** in base alle proprie esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    > Se si consente al cliente di pagare immediatamente, ad esempio, tramite carta di credito o PayPal, compilare il campo **Codice metodo di pagamento**. Il pagamento viene quindi registrato non appena si registra l'ordine di vendita come fatturato. Se si seleziona CASSA, il pagamento viene registrato in un conto di contropartita specificato.
+    > Se si consente al cliente di pagare immediatamente, ad esempio, tramite carta di credito o PayPal, compilare il campo **Codice metodo di pagamento**. Il pagamento viene quindi registrato non appena si registra l'ordine di vendita come fatturato. Se si seleziona *Cassa*, il pagamento viene registrato in un conto di contropartita specificato.
 
     A questo punto compilare le righe dell'ordine di vendita con gli articoli di magazzino o i servizi che si desidera vendere al cliente.
 
     Se sono state impostate le righe di vendita periodiche per il cliente, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nell'ordine scegliendo l'azione **Ottieni righe di vendita ricorrenti**.
-5. Nella Scheda dettaglio **Righe** nel campo **Tipo** selezionare il tipo di prodotto, addebito o transazione per cui si effettuerà la registrazione per il cliente con la riga di vendita.
+5. Nella Scheda dettaglio **Righe**, nel campo **Tipo**, selezionare il tipo di prodotto, addebito o transazione che si vuole registrare per il cliente con la linea di vendita.
 
 6. Nel campo **Nr.** immettere il numero di un'assistenza o di un articolo di magazzino.
 
-    Lasciare il campo **Nr.** vuoto nei seguenti casi:
+    Lasciare il campo **Nr.** vuoto se la riga è per:
 
-    * Se la riga è destinata a un commento. Compilare il commento nel campo **Descrizione**.
-    * Se la riga è destinata a un articolo di catalogo. Scegliere l'azione **Seleziona articoli di catalogo**. Per ulteriori informazioni, vedere [Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md).
+    * Commento. Compilare il commento nel campo **Descrizione**.
+    * Articolo di catalogo. Scegliere l'azione **Seleziona articoli di catalogo**. Ulteriori informazioni su [Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md).
 7. Nel campo **Quantità** immettere il numero di articoli da vendere.
 
     > [!NOTE]  
-    > Per gli articoli di tipo *Risorsa* o *Assistenza*, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga. Per ulteriori informazioni, vedere [Impostare unità di misura articolo](inventory-how-setup-units-of-measure.md).
+    > Per gli articoli di tipo *Risorsa* o *Assistenza*, la quantità è un'unità temporale, ad esempio le ore, come indicato nel campo **Cod. unità di misura** nella riga. Ulteriori informazioni in [Impostare unità di misura articolo](inventory-how-setup-units-of-measure.md).
 
-    Il campo **Importo riga** viene aggiornato al valore del campo **Prezzo unitario** moltiplicato per il valore del campo **Quantità**.
+    Il campo **Importo riga** viene aggiornato al valore del campo **Prezzo unitario** moltiplicato per il numero del campo **Quantità**.
 
     Il prezzo e gli importi riga vengono visualizzati con o senza le tasse di vendita a seconda della selezione nel campo **Prezzi IVA inclusa** della scheda cliente.
 8. Nel campo **% sconto riga** immettere una percentuale se si intende concedere al cliente uno sconto sul prodotto. Il valore nel campo **Importo riga** viene aggiornato di conseguenza.
 
-    Se sono stati impostati prezzi articolo speciali nella Scheda dettaglio **Prezzi di vendita e sconti riga di vendita** per il cliente o la scheda articolo, la percentuale di sconto riga, il prezzo e l'importo nella riga dell'offerta vengono automaticamente aggiornati se vengono soddisfatti i criteri di prezzo concordati. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Per aggiungere un commento sulla riga dell'ordine che il cliente può vedere sull'ordine di vendita stampato, scrivi un commento nel campo **Descrizione** su una riga vuota.  
-10. Ripetere i passaggi da 5 a 9 per ogni articolo che si desidera vendere al cliente.
+    Se sono stati impostati prezzi articolo speciali nella Scheda dettaglio **Prezzi di vendita e sconti riga di vendita** per il cliente o la scheda articolo, la percentuale di sconto riga, il prezzo e l'importo nella riga dell'offerta vengono automaticamente aggiornati se vengono soddisfatti i criteri di prezzo concordati. Ulteriori informazioni in [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md)
+9. Per aggiungere un commento sulla riga dell'ordine che il cliente può vedere sull'ordine di vendita stampato, scrivi un commento in una riga vuota nel campo **Descrizione**.  
+10. Ripeti i passi da 5 a 9 per ogni articolo che vuoi vendere al cliente.
 
     I campi dei totali sotto le righe vengono automaticamente aggiornati quando si creano o si modificano le righe per visualizzare gli importi che verranno registrati nei libri contabili.
 
@@ -79,14 +79,17 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 
 11. Facoltativamente, nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.**.
 
-    Se sono stati impostati degli sconti su fattura per il cliente, il valore percentuale specificato viene automaticamente inserito nel campo **% sconto fattura** se vengono soddisfatti i criteri e l'importo correlato viene inserito nel campo **Importo sconto fatt. IVA esclusa**. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
-12. Per spedire solo una parte della quantità ordinata, immettere la quantità desiderata nel campo **Qtà da spedire**. Il valore viene copiato nel campo **Qtà da fatturare**.
+    Se sono stati impostati degli sconti su fattura per il cliente, il valore percentuale specificato viene automaticamente inserito nel campo **% sconto fattura** se vengono soddisfatti i criteri e l'importo correlato viene inserito nel campo **Importo sconto fatt. IVA esclusa**. Ulteriori informazioni in [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md)
+12. Per spedire solo una parte della quantità ordinata, immettere la quantità desiderata nel campo **Qtà da spedire**. Il valore viene copiato automaticamente nel campo **Qtà da fatturare**.
+
+    > [!NOTE]
+    > Se il campo **Avviso spedizione** è impostato su **Completato** nella Scheda dettaglio **Spedizione e fatturazione**, non puoi registrare spedizioni parziali. Ulteriori informazioni in [Elaborare spedizioni parziali](sales-how-send-partial-shipments.md).
 13. Per fatturare solo una parte della quantità spedita, immettere la quantità desiderata nel campo **Qtà da fatturare**. La quantità deve essere inferiore al valore presente nel campo **Qtà da spedire**.  
 14. Una volta completate le righe dell'ordine di vendita, scegliere l'azione **Registra e invia**.
 
 [!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
-Viene visualizzata la finestra dialogo **Registra e invia conferma** con il metodo preferito del cliente per la ricezione dei documenti. È possibile modificare il metodo di invio scegliendo il pulsante di ricerca per il campo **Invia documento a**. Per ulteriori informazioni, vedere [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
+Viene visualizzata la finestra dialogo **Registra e invia conferma** con il metodo preferito del cliente per la ricezione dei documenti. È possibile modificare il metodo di invio scegliendo il pulsante di ricerca per il campo **Invia documento a**. Ulteriori informazioni in [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md).
 
 I movimenti contabili cliente e articolo sono ora creati nel sistema e l'ordine di vendita è emesso come documento PDF. Una volta che l'ordine di vendita è completamente registrato, viene rimosso dalla lista degli ordini di vendita e viene sostituito con nuovi documenti nella lista delle fatture di vendita registrate e nella lista delle spedizioni vendite registrate.  
 
@@ -94,16 +97,20 @@ I movimenti contabili cliente e articolo sono ora creati nel sistema e l'ordine 
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Vedere anche
 
+[Fatturare le vendite](sales-how-invoice-sales.md)  
+[Registrazione di vendite](ui-post-sales.md)  
+[Spedire articoli](warehouse-how-ship-items.md)  
+[Effettuare spedizioni dirette](sales-how-drop-shipment.md)  
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Stampare la lista prelievo](sales-how-print-picking-list.md)  
+[Elaborare spedizioni parziali](sales-how-send-partial-shipments.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

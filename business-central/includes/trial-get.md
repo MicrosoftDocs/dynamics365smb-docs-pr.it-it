@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: 0f6ce66b4bb534d1cc2c66414fe08254f68253b2
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557485"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461050"
 ---
 1. Vai al [sito della versione di valutazione](https://go.microsoft.com/fwlink/?linkid=847861), scegli *Finanza e operazioni*, e poi, nella scheda **Dynamics 365 Business Central**, scegli il pulsante **Prova gratuitamente**.  
 2. Immetti il tuo indirizzo e-mail aziendale o dell'istituto di istruzione e altri dettagli. Verrà eseguito il reindirizzamento alla versione di valutazione all'indirizzo [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
@@ -24,4 +24,4 @@ Se decidi di non usare [!INCLUDE [prod_short](prod_short.md)], puoi far scadere 
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]
 
-In caso di problemi, consultare gli articoli [Domande frequenti sulla versione di valutazione](../trial-faq.md) o [Domande frequenti](../across-faq.yml) per trovare le risposte ad alcune delle tue domande. Se non è stato possibile iscriversi per una versione di valutazione, consultare l'articolo [Risoluzione dei problemi relativi all'iscrizione self-service](../ui-troubleshoot-self-signup.md) per i suggerimenti. Puoi anche contattare un [partner](/dynamics365/business-central/across-faq#findpartner) e chiedere di creare una versione di valutazione gratuita o un diverso tipo di anteprima di [!INCLUDE[prod_short](prod_short.md)] per te.  
+In caso di problemi, consultare gli articoli [Domande frequenti sulla versione di valutazione](../trial-faq.md) o [Domande frequenti](../across-faq.yml) per trovare le risposte ad alcune delle tue domande. Se non è stato possibile iscriversi per una versione di valutazione, consultare l'articolo [Risoluzione dei problemi relativi all'iscrizione self-service](../ui-troubleshoot-self-signup.md) per i suggerimenti. Puoi anche contattare un [partner](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) e chiedere di creare una versione di valutazione gratuita o un diverso tipo di anteprima di [!INCLUDE[prod_short](prod_short.md)] per te.  

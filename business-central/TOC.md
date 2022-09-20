@@ -1,4 +1,4 @@
-# [Benvenuto in Business Central](index.md)
+# [Benvenuto in Business Central](index.md)  
 # [Funzionalità nuove e pianificate](product-news.md)
 # Inizia
 ## [Panoramica sulle funzionalità aziendali](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Utilizzare le registrazioni COGE](ui-work-general-journals.md)
 ### [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md)
 ### [Suggerimento automatico dei valori in Business Central](ui-let-system-suggest-values.md)
+### [Utilizzare le mappe online per trovare posizioni e indicazioni stradali](across-online-maps.md)
 
 ### Documenti in entrata
 #### [Panoramica dei documenti in entrata](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [Stampare la lista prelievo](sales-how-print-picking-list.md)
 ### [Registrare le vendite](ui-post-sales.md)
 ### [Creare righe vendita ricorrenti](sales-how-work-standard-lines.md)
+### [Elaborare spedizioni parziali con avviso di spedizione](sales-how-send-partial-shipments.md)
 ### [Effettuare spedizioni dirette](sales-how-drop-shipment.md)
 ### [Creare ordini speciali](sales-how-to-create-special-orders.md)
 ### [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Creazione di numerazioni](ui-create-number-series.md)
 ### [Impostare i calendari di base](across-how-to-assign-base-calendars.md)
 ### [Configurare le stampanti](ui-specify-printer-selection-reports.md)
+### [Impostare le mappe online](across-online-maps-setup.md)
 ### [Installare Business Central sul dispositivo mobile](install-mobile-app.md)
 ### [Ottieni Business Central sul tuo desktop](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)
 ### [Pianificare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Risoluzione dei problemi relativi agli errori di sincronizzazione](admin-troubleshoot-sales-synchronization.md)
+### [Usare un flusso Power Automate per gli avvisi in caso di modifiche alle entità Dataverse](admin-power-automate-flow-dataverse.md)
 ## Dettagli di progettazione
 ### [Panoramica dei dettagli di progettazione dell'applicazione](design-details-application-design.md)
 ### Dettagli di progettazione: Pianificazione approvvigionamento
