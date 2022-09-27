@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/21/2022
 ms.author: jswymer
-ms.openlocfilehash: ac75505d2f9987037cf04bbe96a0a1eb398c737c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 94ff94bab70582f4f9b4dcd73a5923931317d6f1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655847"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530326"
 ---
 # <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Utilizzare Business Central come Posta in arrivo aziendale di Outlook
 
@@ -128,9 +128,9 @@ Se stai usando l'applicazione Outlook, basta scegliere **Collegamento a document
 > A partire dal primo ciclo di rilascio del 2022, i documenti si aprono in una nuova finestra del browser con tutte le funzionalità che conosci di [!INCLUDE [prod_short](includes/prod_short.md)]. Puoi passare da un documento a un elenco e tornare indietro, aprire elenchi in Excel, inviare documenti da stampare ed eseguire o visualizzare in anteprima i report correlati. Hai anche tutte le scelte rapide da tastiera familiari proprio lì quando apri i documenti da Outlook.  
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere la formazione correlata su [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)  

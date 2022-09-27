@@ -7,12 +7,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 43b5a4181b50da65f25be3f3fc73a0e01fd885af
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 874234154c7a2ae2e8cf0444794a2b4fbdcbcf5e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361763"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534212"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analisi dei rendiconti finanziari in Microsoft Excel
 
@@ -56,7 +56,7 @@ L'esperienza [!INCLUDE [prod_short](includes/prod_short.md)] include un componen
 
 Il componente aggiuntivo ti consente di ottenere dati aggiornati da [!INCLUDE [prod_short](includes/prod_short.md)], e importare nuovamente le modifiche in [!INCLUDE [prod_short](includes/prod_short.md)]. Tuttavia, la funzionalità che consente di importare nuovamente i dati nel database non è disponibile per i report finanziari di Excel.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedi anche
 

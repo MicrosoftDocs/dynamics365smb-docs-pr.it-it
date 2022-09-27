@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: be30d89ca6ad6c80b27b0cc8f5e619b6ad5c7782
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c298903d62da4cfd346a46ff1978ab91644fb13f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078024"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533269"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configurare la tracciabilità di articoli con numeri di serie, di lotto e di pacco
 
@@ -85,7 +85,7 @@ Per abilitare la tracciabilità degli articoli devi prima assegnare i codici di 
 3. Nella Scheda dettaglio **Tracciabilità articolo**, assegna i codici di tracciabilità articolo appropriati e specifica dei valori nei campi **Codice tracciabilità articolo**, **Nr. seriali** e **Nr. lotti**.
     1. In alternativa puoi anche creare un nuovo codice di tracciabilità articolo selezionando l'azione **Nuovo**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 0888a0a47f3a5ae58dcf7712218f801cde1711c5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129678"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528305"
 ---
 # <a name="set-up-locations"></a>Impostare le ubicazioni
 
@@ -48,7 +48,7 @@ Seleziona l'azione **Zone** o **Collocazioni** per visualizzare le informazioni 
 
 È possibile modificare la configurazione di un'ubicazione in un secondo momento, ma non è possibile modificare l'impostazione delle ubicazioni con movimenti contabili articoli.  
 
-Se disponi di più ubicazioni, puoi definire percorsi di trasferimento tra le ubicazioni. Per ulteriori informazioni, vedi [Per creare i percorsi di trasferimento ](inventory-how-setup-locations.md#to-create-a-transfer-route). 
+Se disponi di più ubicazioni, puoi definire percorsi di trasferimento tra le ubicazioni. Per ulteriori informazioni, vedi [Per creare i percorsi di trasferimento ](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### <a name="to-create-a-transfer-route"></a>Per creare i percorsi di trasferimento
 
@@ -79,7 +79,7 @@ Tuttavia, è possibile scegliere di impostare una singola zona e organizzare la 
 ## <a name="default-dimensions-for-locations"></a>Dimensioni predefinite per le ubicazioni
 Imposti le dimensioni predefinite per un'ubicazione nella pagina **Scheda ubicazione** scegliendo **Dimensioni**. Successivamente, le dimensioni predefinite dell'ubicazione vengono assegnate ai documenti quando scegli l'ubicazione su una riga. Se necessario, puoi eliminare o modificare le dimensioni nella riga. Nel campo **Registrazione valore** puoi richiedere che le persone specifichino le dimensioni per ubicazioni specifiche prima di poter registrare una voce. Se desideri consentire alle persone di scegliere solo determinati valori di dimensione, puoi specificarli nel campo **Filtro valori consentiti**. Puoi anche includere i valori delle dimensioni ubicazione nella pagina **Priorità dimensione predefinita** e per combinazioni di priorità e regole di dimensioni nella pagina **Combinazioni dimensioni**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -91,6 +91,5 @@ Imposti le dimensioni predefinite per un'ubicazione nella pagina **Scheda ubicaz
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

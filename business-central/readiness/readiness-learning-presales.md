@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 83796dec798e550593a3eb735c183c9db63bcec0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7bede8c805e960848f349a3492784e7d0f568bd7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781865"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534482"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Catalogo di apprendimento per la pre-vendita per i partner
 
@@ -22,9 +22,9 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 
 | Contenuto                                                                                                                              | Descrizione                                                                                                                                                                                                                                                                                      | Formato                                | Lunghezza             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
-| [Introduzione a Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)                          | Si desiderano informazioni su Business Central? In tal caso, questo percorso di apprendimento offre una buona introduzione. Descrive come configurare una versione di prova, fornisce alcune informazioni di base sugli elementi disponibili e mostra alcune opzioni utili per personalizzare Business Central in base alle proprie esigenze. | Percorso di apprendimento online gratuito e personalizzato | 3 ore e 4 minuti  |
-| [Utilizzare l'interfaccia utente di Microsoft Dynamics 365 Business Central](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Si desiderano informazioni sull'interfaccia utente di Business Central? Questo percorso di apprendimento mostra l'interfaccia utente e offre indicazioni su come personalizzarla. Vengono inoltre descritte interfacce alternative, ad esempio per uno smartphone. | Percorso di apprendimento online gratuito e personalizzato | 2 ore e 27 minuti |
-| [Utilizzare i dati di Business Central a livello professionale](/learn/paths/work-pro-data-dynamics-365-business-central) | Si è appena iniziato a utilizzare Business Central? Questo percorso di apprendimento è utile per prepararsi a utilizzare i tipi di dati in Business Central e scoprire come trovare le informazioni necessarie nell'applicazione. | Percorso di apprendimento online gratuito e personalizzato | 2 ore e 27 minuti |
+| [Introduzione a Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/)                          | Si desiderano informazioni su Business Central? In tal caso, questo percorso di apprendimento offre una buona introduzione. Descrive come configurare una versione di prova, fornisce alcune informazioni di base sugli elementi disponibili e mostra alcune opzioni utili per personalizzare Business Central in base alle proprie esigenze. | Percorso di apprendimento online gratuito e personalizzato | 3 ore e 4 minuti  |
+| [Utilizzare l'interfaccia utente di Microsoft Dynamics 365 Business Central](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Si desiderano informazioni sull'interfaccia utente di Business Central? Questo percorso di apprendimento mostra l'interfaccia utente e offre indicazioni su come personalizzarla. Vengono inoltre descritte interfacce alternative, ad esempio per uno smartphone. | Percorso di apprendimento online gratuito e personalizzato | 2 ore e 27 minuti |
+| [Utilizzare i dati di Business Central a livello professionale](/training/paths/work-pro-data-dynamics-365-business-central) | Si è appena iniziato a utilizzare Business Central? Questo percorso di apprendimento è utile per prepararsi a utilizzare i tipi di dati in Business Central e scoprire come trovare le informazioni necessarie nell'applicazione. | Percorso di apprendimento online gratuito e personalizzato | 2 ore e 27 minuti |
 | [Playlist YouTube per Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | Pagina di destinazione YouTube per video su Dynamics 365 Business Central | Video YouTube |                    |
 | [Scopri le funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Scopri le funzionalità di Dynamics 365 Business Central                                                                                                                                                                                                                                               | Sito Web                               |                    |
 
@@ -40,7 +40,7 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 | Contenuto                                                                                                                                | Descrizione                                                                                                                                                                                                                                                                                      | Formato                                | Lunghezza                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Scopri le funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Scopri le funzionalità di Dynamics 365 Business Central | Sito Web |                     |
-| [Dynamics 365 Business Central](/learn/modules/dynamics-365-business-central/) | Questo modulo mostra le funzionalità dell'applicazione, vantaggi ed esempi di Dynamics 365 Business Central in azione. | Percorso di apprendimento online gratuito e personalizzato | 24 minuti          |
+| [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Questo modulo mostra le funzionalità dell'applicazione, vantaggi ed esempi di Dynamics 365 Business Central in azione. | Percorso di apprendimento online gratuito e personalizzato | 24 minuti          |
 
 ## <a name="whats-new"></a>Novità<a name="whatsnew"></a>
 

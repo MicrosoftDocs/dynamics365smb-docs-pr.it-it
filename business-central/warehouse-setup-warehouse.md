@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: db5db1518e4064a158e83ccfef1409d919a4e35d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d2d7e2f3f71cd0791df27eb378bfa4bf66338afa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075631"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532324"
 ---
 # <a name="setting-up-warehouse-management"></a>Impostazione gestione warehouse
 
@@ -42,7 +42,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Integrare lettori di codici a barre alla soluzione di gestione warehouse. Solo per la distribuzione locale.|[Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-warehouse-management/)
 
 ## <a name="see-also"></a>Vedere anche
 

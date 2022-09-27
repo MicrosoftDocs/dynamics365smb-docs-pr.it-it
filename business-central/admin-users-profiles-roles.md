@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a44338ca10dee37bba6d78ec1c73cb7b156bd2b3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 98f20082b6519412c5f860e9cfd0b52a9fdb57fa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079274"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529354"
 ---
 # <a name="manage-user-profiles"></a>Gestire profili utente
 
@@ -145,7 +145,7 @@ Come amministratore di [!INCLUDE[prod_short](includes/prod_short.md)] online, è
 
 Per [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, è possibile gestire le sessioni utilizzando, ad esempio, SQL Server Management Studio. Per ulteriori informazioni, vedere [Documentazione tecnica su SQL Server](/sql/sql-server).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/users-security-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/users-security-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: c0800642804b8e8c9e1dc629224bfac77b174500
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 45f321afeb411eee4cb9f9dd215cefc393f58458
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075735"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529570"
 ---
 # <a name="working-with-excel-layouts"></a>Utilizzo dei layout di Excel
 
@@ -135,9 +135,9 @@ Per riassumere cosa puoi e non puoi fare sul foglio **Dati**:
 - Non aggiungere colonne a meno che non siano incluse nel set di dati del report.
 - Puoi posizionare i fogli in qualsiasi ordine. Ad esempio, il foglio **Dati** può essere il primo o l'ultimo.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md)  

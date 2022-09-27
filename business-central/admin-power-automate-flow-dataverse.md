@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fb5b2fa88289ff3d9d491f9b8ee7d73706740020
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461268"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524507"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Usare un flusso Power Automate per gli avvisi in caso di modifiche alle entità Dataverse
 
@@ -28,13 +28,24 @@ Gli amministratori possono creare un flusso automatizzato in Power Automate che 
 > [!NOTE]
 > Questo articolo presuppone che tu abbia collegato la tua versione online di [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE [cds_long_md](includes/cds_long_md.md)] e pianificato la sincronizzazione tra le due applicazioni.
 
+## <a name="import-the-flow-template"></a>Importare il modello del flusso
+
+> [!TIP]
+> Per semplificare l'impostazione del flusso, abbiamo creato un modello che definirà il trigger del flusso e la condizione del flusso per te. Per utilizzare il modello, segui i passaggi in questa sezione. Per creare tu stesso il flusso, salta questa sezione e inizia con i passaggi in [Definire l'attivazione del flusso](#define-the-flow-trigger).
+
+1. Accedi a [Power Automate](https://powerautomate.microsoft.com).
+2. Scegli **Modelli**, quindi cerca **Informa Business Central**.
+
+:::image type="content" source="media/power-automate-import-template.png" alt-text="Parole chiave per trovare il modello di flusso.":::
+3. Scegli il modello **Informa Business Central quando viene modificato un account**.
+4. Continua con i passaggi nella sezione [Informa Business Central di una modifica](#notify-business-central-about-a-change).
+
 ## <a name="define-the-flow-trigger"></a>Definire l'attivazione del flusso
 
 1. Accedi a [Power Automate](https://flow.microsoft.com).
 2. Crea un flusso cloud automatizzato che inizia quando una riga per un'entità [!INCLUDE [cds_long_md](includes/cds_long_md.md)] viene aggiunta, modificata o eliminata. Per ulteriori informazioni, vedi [Attivare flussi quando una riga viene aggiunta, modificata o eliminata](/power-automate/dataverse/create-update-delete-trigger). Questo esempio usa l'entità **Conti**. L'immagine seguente mostra le impostazioni per il primo passaggio nella definizione di un trigger di flusso.
 
 :::image type="content" source="media/power-automate-flow-dataverse-trigger.png" alt-text="Impostazioni per il trigger del flusso":::
-
 3. Utilizzare il pulsante **AssistEdit (...)** nell'angolo in alto a destra per aggiungere la connessione al tuo ambiente [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 4. Scegliere **Mostra opzioni avanzate** e nel campo **Filtra righe**, immetti **customertypecode eq 3** o **customertypecode eq 11** e **statecode eq 0**. Questi valori indicano che il trigger reagirà solo quando vengono apportate modifiche agli account attivi del tipo **cliente** o **fornitore**.
 
@@ -46,11 +57,11 @@ I dati sono sincronizzati tra [!INCLUDE[prod_short](includes/prod_short.md)] e [
     1. Nel campo **Nome tabella**, scegli **Utenti**
     2. Nel campo **ID riga**, scegli **Modificato da (valore)** dal trigger del flusso.  
 2. Aggiungi un passaggio di condizione le seguenti impostazioni **or** per identificare l'account dell'utente di integrazione.
-    1. L'utente **Indirizzo email principale** contiene **contoso.com** 
-    2. Il **Nome completo** contiene **[!INCLUDE[prod_short](includes/prod_short.md)]**. 
-3. Aggiungi un controllo Termina per interrompere il flusso se la condizione è soddisfatta. Se la condizione è soddisfatta e un'entità è stata modificata dall'account utente di integrazione.
+    1. L'utente **Indirizzo email principale** contiene **contoso.com**
+    2. Il **Nome completo** contiene **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+3. Aggiungi un controllo Termina per interrompere il flusso se l'entità è stata modificata dall'account utente di integrazione.
 
-L'immagine seguente mostra le informazioni da aggiungere per definire il trigger di flusso e la condizione di flusso.
+L'immagine seguente mostra come definire il trigger di flusso e la condizione di flusso.
 
 :::image type="content" source="media/power-automate-flow-dataverse.png" alt-text="Panoramica del trigger del flusso e delle impostazioni delle condizioni":::
 
@@ -58,11 +69,10 @@ L'immagine seguente mostra le informazioni da aggiungere per definire il trigger
 
 Se il flusso non viene interrotto dalla condizione, è necessario avvisare [!INCLUDE[prod_short](includes/prod_short.md)] che è stata apportata una modifica. Utilizzare il connettore [!INCLUDE[prod_short](includes/prod_short.md)] per farlo.
 
-1. Nel fork **No** del passaggio della condizione, aggiungi un'azione e cerca **Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]**. Scegli l'icona del connettore nell'elenco. 
+1. Nel fork **No** del passaggio della condizione, aggiungi un'azione e cerca **Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]**. Scegli l'icona del connettore nell'elenco.
 2. Seleziona l'azione **Crea record (V3)**.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Impostazioni del connettore [!INCLUDE[prod_short](includes/prod_short.md)]":::
-
 3. Utilizzare il pulsante **Assist-edit (...)** nell'angolo in alto a destra per aggiungere la connessione al tuo ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Una volta connesso, compila i campi **Nome dell'ambiente** e **Nome società**.
 5. Nel campo **Categoria API**, immetti **microsoft/dataverse/v1.0**.
@@ -76,7 +86,7 @@ La seguente immagine mostra come dovrebbe essere il flusso.
 
 Quando aggiungi, elimini o modifichi un account nel tuo ambiente [!INCLUDE [cds_long_md](includes/cds_long_md.md)], questo flusso eseguirà le seguenti azioni:
 
-1. Chiama l'ambiente [!INCLUDE[prod_short](includes/prod_short.md)] specificato nel connettore [!INCLUDE[prod_short](includes/prod_short.md)]. 
+1. Chiama l'ambiente [!INCLUDE[prod_short](includes/prod_short.md)] specificato nel connettore [!INCLUDE[prod_short](includes/prod_short.md)].
 2. Utilizza l'API [!INCLUDE[prod_short](includes/prod_short.md)] per inserire un record con **Nome dell'entità** impostato su **account** nella tabella **Modifica immissione Dataverse**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] avvierà il movimento della coda dei lavori che sincronizza i clienti con gli account.
 
 ## <a name="see-also"></a>Vedi anche

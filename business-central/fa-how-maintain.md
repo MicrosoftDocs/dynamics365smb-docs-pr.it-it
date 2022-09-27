@@ -10,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18be12c81ddfebd07c1311e6a0f338712f842f21
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: db722d702dbfa6499c5ae259313af8915b95d51c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078206"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534239"
 ---
 # <a name="maintain-fixed-assets"></a>Gestione di cespiti
 
@@ -90,7 +90,7 @@ Nel report **Manutenzione - Dettagli**, è possibile visualizzare o stampare i m
 2. Compilare i campi in base alle esigenze.
 3. Seleziona il pulsante **Stampa** o **Anteprima**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## <a name="see-also"></a>Vedere anche
 

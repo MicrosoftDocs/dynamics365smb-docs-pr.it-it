@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell
 ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 501f719c185177f8c9554d8f10c3f026df36169a
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: d6db11d2cb8f7d2cb0906146d03f423b815c29d1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460915"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535747"
 ---
 # <a name="sales"></a>Vendite
 
@@ -59,9 +59,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Comunicare ai clienti le date di consegna dell'ordine calcolando la data CTP (Capable-To-Promise) o ATP (Available-To-Promise).|[Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)|
 |Eliminare la confusione quando due o più record sono presenti per lo stesso cliente.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/).
-
-## <a name="see-also"></a>Vedere anche
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Setup Vendite](sales-setup-sales.md)  
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  

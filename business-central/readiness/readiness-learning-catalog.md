@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772456"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530191"
 ---
 # <a name="business-central-learning-catalog"></a>Catalogo di apprendimento Business Central
 
@@ -24,9 +24,9 @@ Trovare la formazione online appropriata, eventi e workshop di persona per il pr
 
     Si è responsabili delle decisioni relative agli investimenti in nuove tecnologie? 
 
-    [Informazioni sul valore aziendale di Business Central (percorso di apprendimento online gratuito e personalizzato)](/learn/modules/dynamics-365-business-central/)
+    [Informazioni sul valore aziendale di Business Central (percorso di apprendimento online gratuito e personalizzato)](/training/modules/dynamics-365-business-central/)
 
-    [Introduzione (percorso di apprendimento online gratuito e personalizzato)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Introduzione (percorso di apprendimento online gratuito e personalizzato)](/training/paths/get-started-dynamics-365-business-central/)
 
     [Scopri le funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)
 
@@ -40,9 +40,9 @@ Trovare la formazione online appropriata, eventi e workshop di persona per il pr
 
     Si è appena ricevuta una nuova applicazione da utilizzare? 
 
-    [Introduzione (percorso di apprendimento online gratuito e personalizzato)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Introduzione (percorso di apprendimento online gratuito e personalizzato)](/training/paths/get-started-dynamics-365-business-central/)
 
-    [Percorsi di apprendimento di Business Central (percorsi di apprendimento online gratuiti e personalizzati)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+    [Percorsi di apprendimento di Business Central (percorsi di apprendimento online gratuiti e personalizzati)](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 
     [Video di Business Central in YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
@@ -58,7 +58,7 @@ Trovare la formazione online appropriata, eventi e workshop di persona per il pr
 
     È necessario scrivere codice per eseguire l'integrazione con altre origini dati, estendere le funzionalità di sistema di base o creare un'applicazione complessa?
 
-    [Percorsi di apprendimento di Business Central (percorsi di apprendimento online gratuiti e personalizzati)](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
+    [Percorsi di apprendimento di Business Central (percorsi di apprendimento online gratuiti e personalizzati)](/training/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
 
     [Documentazione per sviluppatori](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 
@@ -70,7 +70,7 @@ Trovare la formazione online appropriata, eventi e workshop di persona per il pr
     
     Si è esperti di implementazione per un dominio aziendale? 
 
-    [Percorsi di apprendimento di Business Central (percorsi di apprendimento online gratuiti e personalizzati)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
+    [Percorsi di apprendimento di Business Central (percorsi di apprendimento online gratuiti e personalizzati)](/training/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
 
     [Video di Business Central in YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 

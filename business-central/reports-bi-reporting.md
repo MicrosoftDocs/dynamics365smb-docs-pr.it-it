@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7da9d24f805c273c67cf856e6a1a835e18686b83
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076957"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528681"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Panoramica di Business Intelligence e creazione di report
 
@@ -30,7 +30,7 @@ Le piccole e medie imprese rispondono grazie all'analisi e ai report integrati c
 | Scopri come integrare strumenti di business intelligence esterni con [!INCLUDE[prod_short](includes/prod_short.md)].| [Strumenti di Business Intelligence esterni](reports-external-analysis.md) |
 |Scopri come modificare i layout dei report o persino sviluppare i tuoi report da zero. |[Sviluppo di report](reports-develop-reports.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

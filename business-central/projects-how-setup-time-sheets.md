@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a1c5314d8aba0b31d02491da1e588f7a23c83a38
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7d019f9003ccd3ca0b2da7157d2d30f98d118e63
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078962"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532027"
 ---
 # <a name="set-up-time-sheets"></a>Impostare fogli presenze
 
@@ -94,7 +94,7 @@ Le sezioni seguenti descrivono come impostare i fogli di presenza se non si usa 
 > [!NOTE]  
 > Non è possibile modificare l'ID del responsabile approvazione del foglio presenze in caso di fogli presenze non ancora elaborati e con lo stato **Inviato** o **Aperto**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Vedere anche
 

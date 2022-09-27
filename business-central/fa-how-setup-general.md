@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8053112fb80c2d90725103bccc6cd335ad825dc0
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f56c74eb3fd9bf80381171e304700c90caaee8b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074954"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533672"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Impostare i valori generali per i cespiti
 
@@ -129,7 +129,7 @@ Nel caso in cui si utilizzino i cespiti in [!INCLUDE[prod_short](includes/prod_s
 
 Se i cespiti non sono integrati in contabilità generale, saltare i passaggi 6 e 8.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>Vedere anche
 

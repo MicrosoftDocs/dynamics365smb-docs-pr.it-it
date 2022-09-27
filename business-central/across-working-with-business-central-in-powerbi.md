@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0512e0f77f563b92c0ffcf4c2430a3a3ee329bbb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510945"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532783"
 ---
 # <a name="work-with-prod_short-data-in-power-bi"></a>Utilizzare i dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
 
@@ -31,6 +31,8 @@ Una volta che l'account Power BI è disponibile è possibile accedere a [https:/
 Il servizio Power BI ospita tutti i report disponibili. Per vedere il report, selezionare **Area di lavoro personale** > **Report**. Quindi selezionare semplicemente il report che si desidera visualizzare.
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)] online, viene automaticamente visualizzata una serie di report predefiniti nell'area di lavoro personale. Se si desidera creare propri report, è possibile utilizzare Power BI Desktop per creare report e quindi pubblicarli nell'area di lavoro. Per ulteriori informazioni, vedere [Introduzione alla creazione di report in Power BI Desktop per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md).
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 Se si sta usando [!INCLUDE[prod_short](includes/prod_short.md)] locale è necessario iniziare da zero utilizzando Power BI Desktop. Facoltativamente, i report Power BI possono essere distribuiti come file, che è possibile caricare.
 
@@ -75,9 +77,9 @@ Per condividere un report, in un rapport di elenco o in un rapporto aperto, sele
 > [!NOTE]
 > È necessario avere una [licenza Power BI Pro](/power-bi/service-features-license-type) per se e per le persone con cui si condivide. Il contenuto deve trovarsi in un'area di lavoro con una [capacità premium](/power-bi/service-premium-what-is). Per ulteriori informazioni, vedere [In che modo condividere il tuo lavoro in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Business Central e Power BI](admin-powerbi.md)  
 [Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  

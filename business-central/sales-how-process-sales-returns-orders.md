@@ -10,12 +10,12 @@ ms.search.keywords: undo, credit memo, return, order
 ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff5b5fdb9cc7d0111f985bc6bb80afc30650e6e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 78b4c6412b24721b52a5c271c0e1c5a4c7ba8775
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522566"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529084"
 ---
 # <a name="process-sales-return-orders"></a>Elaborare gli ordini di restituzione delle vendite  
 
@@ -101,9 +101,9 @@ Si potrebbe decidere di addebitare al cliente una commissione di ristoccaggio pe
 
 Durante la registrazione dell'ordine di reso da vendita, la spesa di ristoccaggio viene aggiunta all'importo del movimento di vendita corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

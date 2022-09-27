@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1360d4189bfeb8ca446e4a372613bed9f14284a4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: acfbde293bb05aa7b09c7911045c161ece504cc8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075397"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533591"
 ---
 # <a name="suggest-vendor-payments"></a>Sugg. pagamenti fornitore
 
@@ -53,7 +53,7 @@ In alternativa, è possibile creare manualmente le righe di pagamento utilizzand
 > [!NOTE]  
 >   Se la fattura di acquisto è scaduta, la data di registrazione viene impostata sulla data di lavoro e il carattere nella riga diventa di colore rosso.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

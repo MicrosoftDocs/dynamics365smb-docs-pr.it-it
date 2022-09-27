@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4a502dc56f45673c0a052b0081518ae0ec888a14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 611f3ac405c66996ed5ec1e1f275ccb5eaccd3d5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076021"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530731"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Impostare un servizio di scambio documenti
 
@@ -67,7 +67,7 @@ Per collegare Business Central on-premises, è necessario creare un'app su Trade
 
 Se si preferisce archiviare l'ID app e il segreto in una posizione diversa, è possibile lasciare vuoti i campi ID client e Segreto client e scrivere un'estensione per recuperare l'ID e il segreto dalla posizione. Puoi fornire il segreto a runtime sottoscrivendo gli eventi OnGetClientId e OnGetClientSecret nella codeunit 1410 "Doc. Exch. Gestione dei servizi"
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedi anche
 

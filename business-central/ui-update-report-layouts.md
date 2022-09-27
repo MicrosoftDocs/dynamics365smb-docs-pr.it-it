@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ce20cf835cee31c752224bd96b6bd6f202998aae
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517214"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530758"
 ---
 # <a name="legacy-update-custom-report-layouts"></a>(Legacy) Aggiornare layout report personalizzati
 
@@ -64,9 +64,9 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
 Dopo avere modificato il layout, provare ad aggiornare nuovamente il layout.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedi anche  
  [Gestione dei layout di report](ui-manage-report-layouts.md)  
  [Utilizzare report, processi batch e XMLport](ui-work-report.md)  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 8bd79a13bb7ecc806fea0dcdea33ec604bd98c41
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 6cca8d8f9b0ec28b149532581f9bc458022c3cd5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460888"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529516"
 ---
 # <a name="receive-items"></a>Ricevere articoli
 
@@ -50,7 +50,7 @@ Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto.
 
     > [!NOTE]  
     > Se si desidera ricevere gli articoli con codici classe warehouse diversi dal codice classe della collocazione specificato nel campo **Cod. collocazione** della testata del documento, è necessario eliminare il contenuto del campo **Cod. collocazione** della testata prima di recuperare le righe del documento di origine per gli articoli.  
-3. Scegliere l'azione **Prendi documenti origine**. Verrà visualizzata la pagina **Documenti origine**.
+3. Scegli l'azione **Prendi documenti origine**. Verrà visualizzata la pagina **Documenti origine**.
 
     Da un carico warehouse o una spedizione warehouse nuova o aperta, è possibile utilizzare la pagina **Filtri per ottenere documenti origine** per recuperare le righe del documento di origine rilasciato che definiscono quali articoli ricevere o spedire.
 
@@ -122,7 +122,7 @@ Quando si gestisce una ricezione in eccesso, puoi aumentare il valore nel campo 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] non include funzionalità per avviare automaticamente l'amministrazione finanziaria delle ricezioni eccessive. È necessario gestirle manualmente in accordo con il fornitore, ad esempio, chiedendo al fornitore di inoltrare una fattura nuova o aggiornata.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also"></a>Vedere anche
 

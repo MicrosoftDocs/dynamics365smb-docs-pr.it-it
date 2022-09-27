@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b188268feeb483a62ee82990ba3cf92b5afa1606
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519754"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528976"
 ---
 # <a name="get-business-central-desktop-app"></a>Ottieni Business Central Desktop App
 
@@ -72,9 +72,9 @@ La differenza è quando si hanno più inquilini. A differenza di [!INCLUDE[prod_
 > [!IMPORTANT]
 > Se utilizzi il primo ciclo di rilascio del 2021 di Business Central (versione 18) o precedenti, non puoi installare l'app come descritto in questo articolo. Puoi invece installare l'app da [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Per ulteriori informazioni e assistenza sull'installazione di questa app legacy, vedi [Preparazione e installazione dell'app Business Central](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere la formazione correlata su [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Domande frequenti sull'app per dispositivi mobili](ui-mobile-faq.yml)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  

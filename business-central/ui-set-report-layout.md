@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 9cc827630c5acfeba2efc860d8baf67cd31bb404
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525091"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535855"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Impostare il layout utilizzato da un report
 
@@ -47,7 +47,7 @@ Esistono due modi per impostare il layout utilizzato da un report. Un modo è da
 
 ## <a name="set-the-layout-from-report-layout-selection-page"></a>Impostare il layout dalla pagina Selezione layout report
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Selezione layout report**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Selezione layout report**, quindi scegli il collegamento correlato.
   
    Nella pagina sono elencati tutti i report disponibili per la società che è specificata nel campo **Società** nella parte superiore della pagina. Il campo **Descrizione layout** specifica il layout che attualmente è utilizzato dal report.
 2. Imposta il campo **Società** nella parte superiore della pagina sulla società che include il report.
@@ -62,9 +62,9 @@ Esistono due modi per impostare il layout utilizzato da un report. Un modo è da
 
 I report sono progettati per utilizzare un layout per impostazione predefinita. È possibile tornare al layout predefinito originale dalla pagina **Selezione layout report**. Basta selezionare il report, quindi selezionare l'azione **Ripristina selezione predefinita** nella parte superiore della pagina.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

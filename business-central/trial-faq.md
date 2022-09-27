@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 995d7277d67b3db4360210e80b417b8a62d6b1a8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 43dba5e57a3262d9803255c146285ca1aa3f4159
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077087"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535720"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central
 
@@ -49,7 +49,7 @@ Passa alla versione di prova di 30 giorni, quindi aggiungi i tuoi dati. Per ulte
 
 Non puoi. Se elimini accidentalmente dati di esempio, chiedi all'amministratore di creare un nuovo ambiente sandbox. Per ulteriori informazioni, vedi [Ambienti di produzione sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) nel contenuto per amministratori (solo in inglese).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

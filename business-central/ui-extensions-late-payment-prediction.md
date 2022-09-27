@@ -10,12 +10,12 @@ ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951,
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c62b50867383ffb4aa9b3bff375d9c36a1e194c
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: a2b6cc372846ec525c9f035aa98c5daafbf31913
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361503"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533766"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Estensione Previsione pagamento ritardato
 
@@ -118,13 +118,13 @@ Se sembra che i tuoi processi non corrispondano al modello standard, puoi comunq
 7. Scegliere la casella di controllo **Utilizza sottoscrizione di Azure personale**.
 8. Nella Scheda dettaglio **Credenziali modello personale**, immettere l'URL dell'API e la chiave API per il modello.  .  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/predict-late-payments-sales-documents/)
 
 ## <a name="see-also"></a>Vedere anche
 
 [Documentazione di Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)  
 [Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-[Usare l'intelligenza artificiale in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+[Usare l'intelligenza artificiale in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

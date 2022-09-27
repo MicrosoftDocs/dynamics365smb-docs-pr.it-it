@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 167ad75bceeec8e0e5bb998f8075f547a51b2157
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805128"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535801"
 ---
 # <a name="get-ready-for-doing-business"></a>Preparazione al business
 
@@ -24,7 +24,7 @@ Per ulteriori informazioni su come avviare un business, è possibile visualizzar
 
 In alternativa, scegli l'icona ![Icona ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) e quindi l'azione **Setup assistito**.
 
-Puoi anche trovare l'elenco delle guide di setup assistito se scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assistito**, quindi scegli il collegamento correlato.  
+Puoi anche trovare l'elenco delle guide di setup assistito se scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup assistito**, quindi scegli il collegamento correlato.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -114,9 +114,9 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 [Cerca nel pannello di aiuto](product-help-and-support.md#search-in-the-help-pane)  
 [Risorse per aiuto e supporto](product-help-and-support.md)  
-[Sito Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Training Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Migrazione dei dati](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-[Versioni di valutazione e sottoscrizioni](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
+[Versioni di valutazione e sottoscrizioni](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

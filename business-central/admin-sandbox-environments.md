@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130175"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529732"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Ambienti sandbox in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ L'amministratore gestisce gli ambienti sandbox nell'[interfaccia di amministrazi
 
 Ad esempio, se si desidera creare un sandbox per il benchmarking, l'amministratore può creare un ambiente dedicato nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Ambienti di produzione e sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) nel contenuto per sviluppatori e amministratori.  
 
-Puoi anche utilizzare in sicurezza le sandbox per la formazione, ad esempio per seguire un percorso di apprendimento da [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), perché è un ambiente sicuro con cui sperimentare. Se qualcosa va storto, basta eliminare la sandbox e ricominciare da capo.  
+Puoi anche utilizzare in sicurezza le sandbox per la formazione, ad esempio per seguire un percorso di apprendimento da [training Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), perché è un ambiente sicuro con cui sperimentare. Se qualcosa va storto, basta eliminare la sandbox e ricominciare da capo.  
 
 Una volta terminato, puoi rimuovere la sandbox, utilizzando il centro di amministrazione.  
 
@@ -70,7 +70,7 @@ Per ulteriori informazioni, vedi [Utilizzare la finestra di progettazione](/dyna
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Vedere anche
 

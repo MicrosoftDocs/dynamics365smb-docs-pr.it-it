@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514597"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524495"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Gestione dell'integrazione di OneDrive con Business Central
 
@@ -53,7 +53,7 @@ Come parte di un esercizio di disaster recovery, gli amministratori potrebbero a
 
 ## <a name="configuring-business-central-on-premises"></a>Configurazione di Business Central On-Premises
 
-Un amministratore deve impostare la connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] on premises e OneDrive. A differenza di [!INCLUDE[prod_short](includes/prod_short.md)] online, la connessione non è automatica. Se la connessione non è configurata, gli utenti non possono usare le funzioni di OneDrive. 
+Un amministratore deve impostare la connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] on premises e OneDrive. A differenza di [!INCLUDE[prod_short](includes/prod_short.md)] online, la connessione non è automatica. Se la connessione non è configurata, gli utenti non possono usare le funzioni di OneDrive.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises può essere collegato solo a OneDrive ospitato da Microsoft nel cloud. La connessione di [!INCLUDE[prod_short](includes/prod_short.md)] on premises al repository My Sites di SharePoint Server non è supportata.
 
@@ -64,7 +64,7 @@ Un amministratore deve impostare la connessione tra [!INCLUDE[prod_short](includ
 >* Esportando qualsiasi rapporto in un file, il file verrà automaticamente copiato in OneDrive, quindi aperto in Excel Online, Word Online o OneDrive. 
 >* Altre funzioni possono anche aprirsi automaticamente in OneDrive.
 
-### <a name="to-prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Per preparare [!INCLUDE[prod_short](includes/prod_short.md)] on-premises per la connessione a OneDrive
+### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Preparare [!INCLUDE[prod_short](includes/prod_short.md)] on-premises per la connessione a OneDrive
 
 <!-- 
 1. For the best experience Configure Azure Active Directory (AD) authentication.
@@ -86,12 +86,12 @@ Per il secondo ciclo di rilascio di Business Central 2021 (versione 19), imposta
 
 Si fa questo lavoro nel portale Azure. Assicuratevi di copiare l'Application (client) ID e il Segreto client utilizzati dall'applicazione registrata. Avrai bisogno di queste informazioni nel prossimo compito.
 
-Per maggiori informazioni sulla registrazione di un'applicazione e la configurazione dei permessi, vedi [Registrare un'applicazione in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) nell'aiuto per sviluppatori e IT pro.
+Per maggiori informazioni sui prerequisiti di un account, sulla registrazione di un'applicazione e la configurazione dei permessi, vedi [Registrare un'applicazione in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) nell'aiuto per sviluppatori e IT pro.
 
 > [!TIP]
 > Se hai già registrato un'applicazione come parte di un'integrazione con un altro prodotto Microsoft, come Power BI, allora puoi riutilizzare la registrazione dell'applicazione. In questo caso, dovrete solo impostare i permessi di SharePoint .
 
-### <a name="to-set-up-the-connection-in-prod_short-on-premises"></a>Per impostare la connessione in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises
+### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Impostare la connessione in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises
 
 <!--
 > [!NOTE]
@@ -118,7 +118,9 @@ Per maggiori informazioni sulla registrazione di un'applicazione e la configuraz
 > La pagina SharePoint Connection Setup è usata per configurare diverse funzioni legacy. La sezione **Generale** configura la connessione a OneDrive, e la sezione **Documenti condivisi** reindirizza invece i file a SharePoint . La funzione legacy SharePoint sarà deprecata nel prossimo futuro. Si consiglia di non configurare la sezione **Documenti condivisi** .
 
 ## <a name="see-also"></a>Vedere anche
+
 [Business Central e OneDrive per l'integrazione del business](across-onedrive-overview.md)  
 [Apertura dei file di Business Central in OneDrive](across-share-onedrive.md)  
-[OneDrive FAQ](admin-onedrive-faq.md)
+[OneDrive FAQ](admin-onedrive-faq.md)  
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

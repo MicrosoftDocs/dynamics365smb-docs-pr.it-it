@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5770, 5783, 5784, 5786, 5795, 7334, 7352, 7354, 7356, 7375, 7379, 7390, 7394, 7396, 9312, 9315, 9343
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4ae110e18307105893e9ee3efccf136ff3efe02f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 668655e5452d36ef460c9bfcbc409986d20215b0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079482"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533053"
 ---
 # <a name="putting-items-away"></a>Stoccaggio di articoli
 
@@ -39,7 +39,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Dividere una riga di stoccaggio per inserire parte della quantità di stoccaggio nelle collocazioni disponibili in quanto la collocazione designata è piena.|[Suddividere righe attività warehouse](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Ottenere accesso immediato agli stoccaggi avuti in assegnazione in veste di lavoratore warehouse.|[Individuare le assegnazioni della warehouse](warehouse-how-to-find-your-warehouse-assignments.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also"></a>Vedere anche
 

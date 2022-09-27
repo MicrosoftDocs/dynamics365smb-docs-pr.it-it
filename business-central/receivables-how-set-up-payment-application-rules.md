@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e942adc661b31dbb181624ff66ebd33a2d50b255
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514805"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531082"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Impostare le regole per il collegamento automatico dei pagamenti
 
@@ -77,12 +77,12 @@ La tabella seguente descrive le regole di collegamento dei pagamenti standard in
 | Basso              | 1        | Completamente                 | No                             | Nessuna corrispondenza                     |
 | Basso              | 2        | Parzialmente             | No                             | Più corrispondenze               |
 | Basso              | 3        | Parzialmente             | No                             | Nessuna corrispondenza                     |
-| Basso              | 4        | No                    | No                             | Una corrispondenza                      |
-| Basso              | 5        | No                    | No                             | Più corrispondenze               |
+| Bassa              | 4        | Nr.                    | Nr.                             | Una corrispondenza                      |
+| Bassa              | 5        | Nr.                    | Nr.                             | Più corrispondenze               |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedere le informazioni relative al training in [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  

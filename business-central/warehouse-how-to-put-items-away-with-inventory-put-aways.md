@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d90980030453dd2b152d2b85901a9db12cadf2f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ce664efeb299072e73c2b25ea87ed28596164015
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078312"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528492"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Eseguire lo stoccaggio con Stoccaggi Magazzino
 
@@ -77,7 +77,7 @@ Ora che la richiesta è stata creata, l'impiegato della warehouse può creare un
 
 Il processo di registrazione contabilizzerà il carico, o nel caso di ordini di produzione, l'output delle righe del documento origine per le quali è stato eseguito lo stoccaggio e, se l'ubicazione prevede l'utilizzo di collocazioni, verranno anche creati i movimenti warehouse per la registrazione delle modifiche delle quantità nelle collocazioni.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also"></a>Vedere anche
 
