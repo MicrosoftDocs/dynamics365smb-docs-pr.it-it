@@ -1,5 +1,5 @@
 ---
-title: Come abilitare i workflow | Microsoft Docs
+title: Come abilitare i workflow di approvazione
 description: Dopo avere creato un workflow ed esserti assicurato che sia pronto, è necessario abilitare il workflow.
 author: SorenGP
 ms.topic: conceptual
@@ -7,24 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: f9efb91e608bffc0d5da789191b5732ae90e8305
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: f391b8629fb5c18e09bcf84e0d14442cccc29903
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531784"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585569"
 ---
-# <a name="enable-workflows"></a>Abilitare i workflow
+# <a name="enable-approval-workflows"></a>Abilitare i workflow di approvazione
 
-Dopo avere creato un workflow ed esserti assicurati che sia pronto, è necessario abilitare il workflow.  
+Dopo avere creato un workflow di approvazione ed essersi assicurati che sia pronto, è necessario abilitarlo.  
 
-Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi workflow compilando i campi delle righe del workflow in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Per ulteriori informazioni, vedere [Creare workflow](across-how-to-create-workflows.md).  
+Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi del flusso di lavoro compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).  
 
-## <a name="to-enable-a-workflow"></a>Per abilitare un flusso di lavoro
+## <a name="enable-a-workflow"></a>Abilitare un flusso di lavoro
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Aprire il flusso di lavoro che si desidera abilitare.  
 3. Nella pagina **Workflow**, seleziona la casella di controllo **Abilitato**.  
 
@@ -32,13 +32,12 @@ Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle r
 
 ## <a name="see-also"></a>Vedere anche
 
-[Creare i workflow](across-how-to-create-workflows.md)  
+[Creare workflow di approvazione](across-how-to-create-workflows.md)  
+[Utilizzare i workflow di approvazione](across-use-workflows.md)  
 [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)  
-[Eliminare i workflow](across-how-to-delete-workflows.md)  
-[Impostazione dei workflow](across-set-up-workflows.md)  
-[Utilizzare i workflow](across-use-workflows.md)  
+[Eliminare i workflow di approvazione](across-how-to-delete-workflows.md)  
+[Configurare i flussi di lavoro di approvazione](across-set-up-workflows.md)  
 [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

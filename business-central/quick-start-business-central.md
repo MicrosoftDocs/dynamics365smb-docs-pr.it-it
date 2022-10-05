@@ -1,30 +1,34 @@
 ---
 title: Avviamento rapido di Business Central
-description: Inizia a lavorare con Business Central con i consigli degli articoli Quick Starts che ti aiutano a riempire i primi campi critici.
+description: Inizia a lavorare con Business Central con i consigli degli articoli di avvio rapido che ti aiutano a riempire i primi campi critici.
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.date: 08/25/2022
 ms.author: edupont
-ms.openlocfilehash: ee2f9f6989e2f2c5142397a171b0709fb2e9b087
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 244062b9e8c9768da040f6635f61092a7e1e9770
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147520"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585731"
 ---
 # <a name="business-central-quick-starts"></a>Avviamento rapido di Business Central
 
 Questi articoli di avvio rapido vi aiutano a iniziare il prima possibile in modo da poter eseguire le funzioni di base di cui avete bisogno in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Le seguenti sezioni vi portano a guide per principianti che vi aiutano a familiarizzare con le caratteristiche di cui avete bisogno in [!INCLUDE[prod_short](includes/prod_short.md)]. In ogni avvio rapido, trovate i link a contenuti più avanzati sulla funzionalità, se ne avete bisogno.
+Le seguenti sezioni offrono guide per principianti che vi aiutano a familiarizzare con le funzionalità di cui avete bisogno in [!INCLUDE[prod_short](includes/prod_short.md)]. In ogni avvio rapido, trovi i collegamenti a contenuti più avanzati sulla funzionalità, se ne hai bisogno.
 
 ## <a name="provide-basic-information-about-your-company"></a>Fornire informazioni di base sulla sua azienda
 
-Il primo passo è quello di fornire le informazioni di base sulla vostra azienda. Questo include informazioni come l'indirizzo, i conti bancari, la partita IVA e così via. Questo è spiegato nell'articolo [Informazioni sulla società - Avvio rapido](quick-start-company-information.md) .
+Il primo passo è quello di fornire le informazioni di base sulla vostra azienda. Questo include informazioni come l'indirizzo, i conti bancari, la partita IVA e così via. Questo è spiegato nell'articolo [Informazioni sulla società - Avvio rapido](quick-start-company-information.md).
+
+## <a name="prepare-basic-financial-information"></a>Prepara le informazioni finanziarie di base
+
+Successivamente, è il momento di inserire le informazioni finanziarie della tua azienda in modo da essere pronto per fare affari. Uso dei piani dei conti di [!INCLUDE[prod_short](includes/prod_short.md)] inclusi per risparmiare tempo. E se necessario, puoi personalizzarlo in pochi passaggi seguendo [Inizio rapido su Informazioni finanziarie](quick-start-financial-information.md).
 
 <!--
 ## Financial Basics
@@ -33,16 +37,17 @@ Financial Information
 (chart of accounts, but explained for non-accountants)
 -->
 
-<!--
-## Basic Reports and Output Documents
+## <a name="print-reports-and-customize-documents"></a>Stampa report e personalizza documenti
 
-Reports and Documents  
+Scopri come personalizzare e stampare report e documenti come fatture di vendita per soddisfare al meglio le tue esigenze aziendali in [Inizio rapido dell'output di report e documenti di base](quick-start-reports-and-documents.md).
+
+<!-- Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
 ## <a name="sell-products-and-services"></a>Vendere prodotti e servizi
 
-Per iniziare rapidamente a vendere prodotti e servizi, vedi l'articolo [Avvio rapido per le vendite](quick-start-sell-products-and-services.md) .
+Per iniziare rapidamente a vendere prodotti e servizi, vedi l'articolo [Avvio rapido per Sales](quick-start-sell-products-and-services.md).
 
 <!--
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
@@ -50,21 +55,23 @@ Per iniziare rapidamente a vendere prodotti e servizi, vedi l'articolo [Avvio ra
 
 ## <a name="buy-products-and-services"></a>Comprare prodotti e servizi
 
-Per imparare a comprare prodotti e servizi, vedi l'articolo [Avvio rapido per gli acquisti](quick-start-procurement.md) .  
+Scopri come comprare prodotti e servizi nell'articolo [Avvio rapido per gli acquisti](quick-start-procurement.md).  
 
 <!--
 (buy stuff, register in inventory, pay vendor)
 -->
 
-<!--
-## Understand Your Business with Business Intelligence
+## <a name="understand-your-company-with-business-intelligence"></a>Informazioni sulla tua azienda con Business Intelligence
 
+Trasforma i tuoi dati aziendali in informazioni preziose utilizzando gli strumenti illustrati in [Inizio rapido di Business Intelligence](quick-start-business-intelligence.md).
+
+<!--
 Business Intelligence  
 (reports)
 -->
 
 ## <a name="see-also"></a>Vedere anche
 
+[Catalogo di apprendimento della Business Central](readiness/readiness-learning-catalog.md)  
 [Panoramica sulle funzionalità aziendali](across-business-functionality.md)  
-[Catalogo di apprendimento Business Central](readiness/readiness-learning-catalog.md)  
 [Panoramica dei task per impostare Business Central](setup.md)  

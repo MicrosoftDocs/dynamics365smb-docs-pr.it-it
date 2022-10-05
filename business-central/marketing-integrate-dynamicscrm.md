@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520996"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585866"
 ---
 # <a name="use-dynamics-365-sales-from-business-central"></a>Utilizzare Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.
@@ -76,7 +76,7 @@ Ciò può anche avvenire se l'ordine di vendita originale contiene prodotti aggi
 
 Se la descrizione dell'articolo nell'ordine di vendita originale è molto lunga, una riga aggiuntiva di tipo **Commento** viene creata per contenere tutto il testo nell'ordine di vendita in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Gli aggiornamenti dei campi nelle testate dell'ordine di vendita, ad esempio Data ultima spedizione o Data di consegna richiesta, che sono mappati nel Mapping tabella integrazione **SALESORDER-ORDER** sono sincronizzati periodicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. I processi come il rilascio e la spedizione o la fatturazione di un ordine di vendita vengono registrati nella relativa sequenza temporale in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Introduzione a feed di attività](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Gli aggiornamenti dei campi nelle testate dell'ordine di vendita, ad esempio Data ultima spedizione o Data di consegna richiesta, che sono mappati nel Mapping tabella integrazione **SALESORDER-ORDER** sono sincronizzati periodicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. I processi come il rilascio, la spedizione e la fatturazione di un ordine di vendita vengono registrati nella relativa sequenza temporale in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Introduzione a feed di attività](/dynamics365/sales-enterprise/manage-activities). Per abilitare la registrazione e le attività per gli ordini in [!INCLUDE[crm_md](includes/crm_md.md)], vedi [Configurare il controllo delle note per accedere alle informazioni sui post per un'entità personalizzata](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) nella documentazione di Customer Engagement. L'articolo fa riferimento a Customer Engagement on-premises, ma i passaggi sono gli stessi per la versione online. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > La sincronizzazione periodica basata sul Mapping tabella integrazione **SALESORDER-ORDER** funzionerà solo quando l'integrazione dell'ordine cliente è abilitata. Per ulteriori informazioni, vedere [Impostazioni di connessione nella pagina di impostazione della connessione di vendita](admin-prepare-dynamics-365-for-sales-for-integration.md). Solo gli ordini cliente creati da ordini cliente inviati in [!INCLUDE[crm_md](includes/crm_md.md)] vengono sincronizzati. Per ulteriori informazioni, vedere [Abilitare l'integrazione dell'elaborazione degli ordini di vendita](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

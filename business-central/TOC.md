@@ -113,8 +113,11 @@
 ## Avviamenti rapidi
 ### [Avviamento rapido di Business Central](quick-start-business-central.md)
 ### [Impostare le informazioni sull'azienda](quick-start-company-information.md)
+### [Immettere le informazioni finanziarie](quick-start-financial-information.md)
 ### [Vendere prodotti e servizi](quick-start-sell-products-and-services.md)
 ### [Comprare prodotti e servizi](quick-start-procurement.md)
+### [Personalizza e stampa report e documenti](quick-start-reports-and-documents.md)
+### [Ottieni informazioni dettagliate con Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Ottenere produttività in Business Central
@@ -239,13 +242,13 @@
 ### Workflow
 #### [Panoramica dei workflow](across-workflow.md)
 #### [Utilizzare Business Central nei flussi Power Automate](across-how-use-financials-data-source-flow.md)
-#### Utilizzare i flussi di lavoro
-##### [Utilizzare i workflow](across-use-workflows.md)
-##### [Abilitare i workflow](across-how-to-enable-workflows.md)
-##### [Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)
+#### Utilizzare i workflow di approvazione
+##### [Utilizzare i workflow di approvazione](across-use-workflows.md)
+##### [Abilitare i workflow di approvazione](across-how-to-enable-workflows.md)
+##### [Procedura: Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md)
 ##### [Limitare e consentire l'utilizzo di un record](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)
-##### [Eliminare i workflow](across-how-to-delete-workflows.md)
+##### [Eliminare i workflow di approvazione](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Scambiare dati in modalità elettronica
 #### [Panoramica di OData Exchange](across-data-exchange.md)
@@ -1582,14 +1585,14 @@
 ### Impostare i report
 #### [Selezione report](across-report-selections.md)
 ### Configurare i flussi di lavoro di approvazione in base ai modelli
-#### [Configurare i flussi di laovor di approvazione](across-set-up-workflows.md)
+#### [Configurare i flussi di lavoro di approvazione](across-set-up-workflows.md)
 #### [Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)
 #### [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)
-#### [Notifiche del workflow](across-setting-up-workflow-notifications.md)
+#### [Notifiche del workflow di approvazione](across-setting-up-workflow-notifications.md)
 #### [Specificare come e quando ricevere le notifiche del flusso di lavoro](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Creare i workflow](across-how-to-create-workflows.md)
+#### [Creare workflow di approvazione](across-how-to-create-workflows.md)
 #### [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Importare ed esportare workflow](across-how-to-export-and-import-workflows.md)
+#### [Importa ed esporta workflow di approvazione](across-how-to-export-and-import-workflows.md)
 #### [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Impostare le connessioni
@@ -1626,7 +1629,7 @@
 ###### [Utilizzare le app Business Central in Power BI](across-powerbi-business-central-apps.md)
 ##### [Domande frequenti](power-bi-faq.md)
 #### Utilizzare Power Automate con Business Central
-##### [Utilizzare Business Central nei flussi Power Automate](across-how-use-financials-data-source-flow.md)
+##### [Utilizzare i flussi di Power Automate in Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Risolvere i problemi dei flussi di lavoro automatizzati](across-flow-troubleshoot.md)  
 #### Utilizzare Power Apps con Business Central
 ##### [Collegamento ai dati Business Central per creare un'app aziendale utilizzando Power Apps](across-how-use-financials-data-source-powerapps.md)

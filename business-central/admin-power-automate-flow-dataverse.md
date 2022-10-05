@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524507"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585893"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Usare un flusso Power Automate per gli avvisi in caso di modifiche alle entità Dataverse
 
@@ -54,11 +54,14 @@ Gli amministratori possono creare un flusso automatizzato in Power Automate che 
 I dati sono sincronizzati tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE [cds_long_md](includes/cds_long_md.md)] tramite un account dell'utente di integrazione. Per ignorare le modifiche apportate dalla sincronizzazione, crea un passaggio di condizione nel flusso che escluda le modifiche apportate dall'account dell'utente di integrazione.  
 
 1. Aggiungere un passaggio **Recupera una riga tramite ID da Dataverse** dopo l'attivazione del flusso con le seguenti impostazioni. Per ulteriori informazioni, vedi [Recupera una riga tramite ID da Dataverse](/power-automate/dataverse/get-row-id).
+
     1. Nel campo **Nome tabella**, scegli **Utenti**
     2. Nel campo **ID riga**, scegli **Modificato da (valore)** dal trigger del flusso.  
+
 2. Aggiungi un passaggio di condizione le seguenti impostazioni **or** per identificare l'account dell'utente di integrazione.
     1. L'utente **Indirizzo email principale** contiene **contoso.com**
     2. Il **Nome completo** contiene **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Aggiungi un controllo Termina per interrompere il flusso se l'entità è stata modificata dall'account utente di integrazione.
 
 L'immagine seguente mostra come definire il trigger di flusso e la condizione di flusso.
@@ -73,6 +76,7 @@ Se il flusso non viene interrotto dalla condizione, è necessario avvisare [!INC
 2. Seleziona l'azione **Crea record (V3)**.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Impostazioni del connettore [!INCLUDE[prod_short](includes/prod_short.md)]":::
+
 3. Utilizzare il pulsante **Assist-edit (...)** nell'angolo in alto a destra per aggiungere la connessione al tuo ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Una volta connesso, compila i campi **Nome dell'ambiente** e **Nome società**.
 5. Nel campo **Categoria API**, immetti **microsoft/dataverse/v1.0**.
@@ -87,7 +91,8 @@ La seguente immagine mostra come dovrebbe essere il flusso.
 Quando aggiungi, elimini o modifichi un account nel tuo ambiente [!INCLUDE [cds_long_md](includes/cds_long_md.md)], questo flusso eseguirà le seguenti azioni:
 
 1. Chiama l'ambiente [!INCLUDE[prod_short](includes/prod_short.md)] specificato nel connettore [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Utilizza l'API [!INCLUDE[prod_short](includes/prod_short.md)] per inserire un record con **Nome dell'entità** impostato su **account** nella tabella **Modifica immissione Dataverse**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] avvierà il movimento della coda dei lavori che sincronizza i clienti con gli account.
+2. Utilizza l'API [!INCLUDE[prod_short](includes/prod_short.md)] per inserire un record con **entityName** impostato su **account** nella tabella **Modifica immissione Dataverse**. Questo parametro è il nome esatto dell'entità Dataverse per cui stai creando il flusso.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] avvierà il movimento della coda dei lavori che sincronizza i clienti con gli account.
 
 ## <a name="see-also"></a>Vedi anche
 
