@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 0f1e728b67555fcbde041f556265824b1a64a169
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 139ecb336cbfa637ad723322dad2b205050864b4
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529030"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604977"
 ---
 # <a name="welcome-to-prod_long"></a>Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] è una soluzione di gestione aziendale per automatizzare e semplificare i processi aziendali nelle piccole e medie imprese che agevola la gestione dell'azienda. Estremamente adattabile, [!INCLUDE[prod_short](includes/prod_short.md)] include numerose funzionalità e consente alle aziende di gestire le attività, tra cui i reparti finanziario, produzione, vendite, spedizione, gestione progetti, assistenza e molto altro ancora. Ma non solo: le aziende possono infatti aggiungere facilmente le funzionalità più appropriate per il paese in cui operano e personalizzate in modo da supportare anche i settori più specializzati. [!INCLUDE[prod_short](includes/prod_short.md)] è rapido da implementare, veloce da configurare e la semplicità guida le innovazioni nella progettazione, nello sviluppo, nell'implementazione e nell'usabilità del prodotto.  
 
-Se si dispone già di [!INCLUDE[prod_short](includes/prod_short.md)], accedere a [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Altrimenti, [ottieni la panoramica](https://dynamics.microsoft.com/business-central/overview/), [effettua la visita guidata](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) e quindi [avvia una versione di valutazione gratuita](trial-signup.md). Date un'occhiata agli [articoli di avvio rapido](quick-start-business-central.md) per aiutarvi a conoscere [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni sull'onboarding in [!INCLUDE[prod_short](includes/prod_short.md)], vedi [Preparazione al business](ui-get-ready-business.md).  
+Se si dispone già di [!INCLUDE[prod_short](includes/prod_short.md)], accedere a [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Altrimenti, [ottieni la panoramica](https://dynamics.microsoft.com/business-central/overview/), [effettua la visita guidata](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) e quindi [avvia una versione di valutazione gratuita](trial-signup.md). Dai un'occhiata agli [articoli di avvio rapido](quick-start-business-central.md) per conoscere con facilità [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni sull'onboarding in [!INCLUDE[prod_short](includes/prod_short.md)], vedi [Preparazione al business](ui-get-ready-business.md).  
 
 > [!TIP]
 > Si è arrivati qui da [!INCLUDE [prod_short](includes/prod_short.md)]? Se non sei sicuro di dove sia quello che stai cercando, puoi **filtrare per titoli** nel riquadro di spostamento a sinistra oppure utilizzare il campo **Ricerca** nella parte superiore della finestra del browser.  
@@ -28,16 +28,16 @@ Se si dispone già di [!INCLUDE[prod_short](includes/prod_short.md)], accedere a
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="microsoft-docs"></a>Microsoft Docs
+## <a name="microsoft-learn"></a>Microsoft Learn
 
 Nel riquadro di spostamento a sinistra, è possibile trovare informazioni relative all'uso di [!INCLUDE[prod_short](includes/prod_short.md)] nella propria società. Trova collegamenti alle descrizioni delle funzionalità più comunemente utilizzate nella sezione [Processi aziendali](#business-processes). Vedi anche la sezione [Ulteriori informazioni sull'uso della documentazione del prodotto](product-help-and-support.md#learn-more-using-the-product-documentation).
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-Puoi inoltre [visitare la nostra videoteca](across-videos.md) iniziare con il percorso di apprendimento [Introduzione a Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) in [training Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+È anche possibile [visitare la nostra videoteca](across-videos.md) o iniziare il percorso di apprendimento [Introduzione a Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) in [Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Se non diversamente specificato, il contenuto del sito Docs.microsoft.com riflette l'ultima versione di [!INCLUDE[prod_short](includes/prod_short.md)] online. Se l'organizzazione utilizza una versione diversa di [!INCLUDE[prod_short](includes/prod_short.md)] online, alcune funzionalità potrebbero non essere ancora disponibili. Inoltre, se l'organizzazione utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è possibile che sia in uso una versione precedente. Per ulteriori informazioni, vedere [Domande frequenti](across-faq.yml).
+> Se non diversamente specificato, gli articoli di Microsoft Learn riflettono l'ultima versione di [!INCLUDE[prod_short](includes/prod_short.md)] online. Se l'organizzazione utilizza una versione diversa di [!INCLUDE[prod_short](includes/prod_short.md)] online, alcune funzionalità potrebbero non essere ancora disponibili. Inoltre, se l'organizzazione utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è possibile che sia in uso una versione precedente. Per ulteriori informazioni, vedere [Domande frequenti](across-faq.yml).
 
 Le sezioni seguenti rimandano a articoli chiave contenenti informazioni che consentono di apprendere a utilizzare [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -76,9 +76,9 @@ Le sezioni seguenti rimandano a articoli chiave contenenti informazioni che cons
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regole e indicazioni per il codice AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="learn"></a>Scopri
+## <a name="microsoft-learn-training"></a>Training di Microsoft Learn
 
-I contenuti di e-learning gratuiti per [!INCLUDE[prod_short](includes/prod_short.md)] sono disponibili in [training Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+I contenuti di e-learning gratuiti per [!INCLUDE[prod_short](includes/prod_short.md)] sono disponibili in [Training di Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 Puoi anche visualizzare video di funzionalità nuove e di uso comune nella nostra libreria video. Per ulteriori informazioni, vedere [Visitare la videoteca](across-videos.md).  
 
@@ -94,12 +94,12 @@ Puoi anche visualizzare video di funzionalità nuove e di uso comune nella nostr
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## <a name="see-related-microsoft-learn-training"></a>Vedi il relativo [Training di Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Vedi anche
 
 [Training di Dynamics 365 Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Avviamento rapido di Business Central](quick-start-business-central.md)  
+[Avvio rapido di Business Central](quick-start-business-central.md)  
 [Introduzione a Business Central](ui-get-ready-business.md)  
 [Visita la nostra videoteca](across-videos.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
@@ -114,7 +114,6 @@ Puoi anche visualizzare video di funzionalità nuove e di uso comune nella nostr
 [Documentazione di Dynamics 365](/dynamics365/)  
 [Dynamics 365 Business Central in microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Informazioni sulle funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Presentazione di docs.microsoft.com (post originale del blog)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

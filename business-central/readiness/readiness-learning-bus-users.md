@@ -2,15 +2,15 @@
 title: Catalogo di apprendimento per utenti aziendali
 description: Individuare tutto il materiale di apprendimento disponibile per Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 21c87640e09966a705b59905da9d126b5c8b604e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5b977ba37c4bd827fd44e6cd897010eaadd64ec1
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528762"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607798"
 ---
 # <a name="business-users-learning-catalog"></a>Catalogo di apprendimento per utenti aziendali
 
@@ -18,7 +18,7 @@ Si è appena ricevuta una nuova applicazione da utilizzare?
 
 Il seguente catalogo è organizzato a partire dalle informazioni di base fino a domini specifici, dai contenuti di base, fino a quelli più avanzati. Se il contenuto è disponibile in più formati, verrà notificato, così da poter scegliere il formato di formazione più adatto alle proprie esigenze.  
 
-## <a name="getting-started"></a>Introduzione<a name="get-started"></a>
+## <a name="getting-started"></a>Introduzione
 
 | Contenuto                                                                                                                               | Descrizione                                                                                                                                                                                                                                                                                      | Formato                                | Lunghezza             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -26,7 +26,7 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 | [Utilizzare l'interfaccia utente di Microsoft Dynamics 365 Business Central](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Si desiderano informazioni sull'interfaccia utente di Business Central? Questo percorso di apprendimento mostra l'interfaccia utente e offre indicazioni su come personalizzarla. Vengono inoltre descritte interfacce alternative, ad esempio per uno smartphone.                                                                               | Percorso di apprendimento online gratuito e personalizzato | 2 ore e 27 minuti |
 | [Utilizzare i dati di Business Central a livello professionale](/training/paths/work-pro-data-dynamics-365-business-central)                                    | Si è appena iniziato a utilizzare Business Central? Questo percorso di apprendimento è utile per prepararsi a utilizzare i tipi di dati in Business Central e scoprire come trovare le informazioni necessarie nell'applicazione.                                                                                                  | Percorso di apprendimento online gratuito e personalizzato | 2 ore e 27 minuti |
 
-## <a name="financials"></a>Finanza<a name="financials"></a>
+## <a name="financials"></a>Dati finanziari
 | Contenuto                                                                                                                                                         | Descrizione                                                                                                                                                                                                                                                                                            | Formato                                | Lunghezza             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Configurare la gestione finanziaria in Microsoft Dynamics 365 Business Central](/training/paths/set-up-financial-management-dynamics-365-business-central/)                     | Si vuole utilizzare Business Central per la gestione finanziaria? Questo percorso di apprendimento fornisce le informazioni necessarie. Viene indicato come configurare numerazioni, codici di audit trail, gruppi di registrazione, dimensioni e piano dei conti.                                                                                   | Percorso di apprendimento online gratuito e personalizzato | 3 ore e 13 minuti |

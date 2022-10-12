@@ -11,17 +11,17 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7705acac2b2c53bea96fee0431cb83702e46b0c6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529597"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606145"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrare i prezzi di vendita e gli sconti speciali
 
 > [!NOTE]
-> Nel secondo ciclo di rilascio del 2020 sono stati introdotti nuovi processi facilitati per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti che utilizzano l'ultima versione, trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Nel secondo ciclo di rilascio del 2020 sono stati introdotti nuovi processi facilitati per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti che utilizzano l'ultima versione, trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni vedi [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management) nel contenuto per amministratori.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta varie strategie di prezzo, come ad esempio:
 
@@ -37,7 +37,7 @@ Per utilizzare un modello di prezzo di base, è sufficiente specificare un prezz
 * Quantità minima
 * Date che definiscono il periodo di validità dei prezzi.
 
-Dopo aver impostato i prezzi speciali, [!INCLUDE[prod_short](includes/prod_short.md)] può calcolare il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione commessa e articolo. Per ulteriori informazioni, vedi [Calcolo del prezzo migliore](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Dopo aver impostato i prezzi speciali, [!INCLUDE[prod_short](includes/prod_short.md)] può calcolare il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione commessa e articolo. Per ulteriori informazioni vedi [Calcolo del miglior prezzo](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Per gli sconti puoi impostare due tipi:
 
@@ -61,7 +61,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
 
-Per default, lo stato dei nuovi listini prezzi è Bozza. I listini prezzi in bozza non sono inclusi nel calcolo dei prezzi. Quando hai finito di aggiungere righe e desideri iniziare a usare i prezzi puoi modificare lo stato in Attivo.
+Per default, lo stato dei nuovi listini prezzi è **Bozza**. I listini prezzi in bozza non sono inclusi nel calcolo dei prezzi. Quando hai finito di aggiungere righe e desideri iniziare a usare i prezzi puoi modificare lo stato in **Attivo**.
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immettere **Clienti** e quindi scegliere il collegamento correlato.
 2. Scegliere il cliente, quindi l'azione **Listini prezzi di vendita**. 
@@ -76,14 +76,16 @@ Per default, lo stato dei nuovi listini prezzi è Bozza. I listini prezzi in boz
 ---
 
 ## <a name="using-sales-and-purchase-price-lists"></a>Utilizzo dei listini prezzi di vendita e di acquisto
+
 > [!NOTE]
-> L'utilizzo dei listini prezzi richiede che l'amministratore abbia abilitato la funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedi [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> L'utilizzo dei listini prezzi richiede che l'amministratore abbia abilitato la funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni vedi [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management) nel contenuto per amministratori.
 
 La maggior parte della nuova esperienza sui prezzi di vendita è simile all'esperienza corrente, ma ci sono alcune differenze. Tali differenze sono descritte nelle sezioni riportate di seguito.
 
 I campi **Collega a - Tipo** e **Collega a - Nr.** consentono di scegliere a cosa collegare il listino prezzi, ad esempio al cliente o al gruppo prezzi cliente. Utilizzando **Visualizza colonne per**, puoi mostrare o nascondere le colonne rilevanti per impostare prezzi e sconti oppure prezzi o sconti.
 
 ### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Conversione dei prezzi esistenti quando si attiva l'aggiornamento della funzionalità dei prezzi
+
 Quando abiliti l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** nella pagina **Gestione funzionalità** si apre la guida **Aggiornamento dati funzionalità**. Utilizza l'interruttore **Usa prezzi predefiniti** come segue:
 
 * Se vuoi lavorare con tutti i prezzi su un'unica pagina, attivalo. I prezzi esistenti vengono convertiti in un listino prezzi predefinito per ciascuno dei seguenti documenti:
@@ -96,7 +98,7 @@ Quando abiliti l'aggiornamento della funzionalità **Nuova esperienza prezzo di 
     Puoi modificare tutti i prezzi per queste aree nella pagina **Foglio di lavoro prezzi**. I listini prezzi predefiniti sono impostati nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** e **Setup commesse**. 
 
 > [!NOTE]
-> Se i prezzi sono impostati solo su schede articolo o risorsa, i listini prezzi predefiniti non verranno compilati con tali prezzi durante l'aggiornamento dei dati della funzionalità. Tuttavia, puoi aprire uno qualsiasi dei listini prezzi predefiniti o la pagina Foglio di lavoro prezzi e utilizzare l'azione **Suggerisci righe** per aggiungere i prezzi impostati sulle schede articolo o risorsa. 
+> Se i prezzi sono impostati solo su schede articolo o risorsa, i listini prezzi predefiniti non verranno compilati con tali prezzi durante l'aggiornamento dei dati. Tuttavia, puoi aprire uno qualsiasi dei listini prezzi predefiniti o la pagina **Foglio di lavoro prezzi** e utilizzare l'azione **Suggerisci righe** per aggiungere i prezzi impostati sulle schede articolo o risorsa.
 
 * Per utilizzare i listini prezzi di vendita, disattivala. I prezzi esistenti vengono convertiti in un nuovo listino prezzi predefinito per ciascuna combinazione dei seguenti elementi: 
 
@@ -110,18 +112,47 @@ Se hai molte combinazioni, avrai molti listini prezzi.
 Se hai già abilitato la Nuova esperienza prezzi, puoi creare listini prezzi predefiniti manualmente o specificare un listino prezzi esistente come predefinito. Per impostare un listino prezzi esistente come predefinito, attiva l'interruttore **Consenti aggiornamento impostazioni predefinite** per il listino prezzi. Quindi nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** o **Setup commesse** imposta il listino prezzi come predefinito.
 
 ### <a name="editing-active-price-lists"></a>Modifica dei listini prezzi attivi
-Per consentire alle persone di modificare i prezzi sui listini prezzi attivi per articoli, risorse, clienti, fornitori o altre entità che utilizzano i prezzi, attiva l'interruttore **Consenti modifica prezzo attivo** nelle pagine **Setup contabilità clienti** e **Setup contabilità fornitori**.   
+
+Per consentire alle persone di modificare i prezzi sui listini prezzi attivi per articoli, risorse, clienti, fornitori o altre entità che utilizzano i prezzi, attiva l'interruttore **Consenti modifica prezzo attivo** nelle pagine **Setup contabilità clienti** e **Setup contabilità fornitori**.
 
 Quando l'interruttore **Consenti modifica prezzo attivo** è disattivato, per aggiornare i prezzi in un listino prezzi è necessario modificare lo stato del listino prezzi in **Bozza**, apportare la modifica, quindi riattivare il listino.
 
-La pagina **Panoramica dei prezzi** fornisce una panoramica di tutti i prezzi nei listini prezzi. Puoi impostare i filtri per limitare l'elenco dei prezzi che potresti voler modificare o aggiungere. Dopo aver modificato i prezzi, è necessario utilizzare l'azione **Verifica righe** per verificare i prezzi rispetto ad altre righe del listino prezzi. La verifica dei prezzi consente di evitare duplicati e ambiguità durante il calcolo dei prezzi. 
+La pagina **Panoramica dei prezzi** fornisce una panoramica di tutti i prezzi nei listini prezzi. Puoi impostare i filtri per limitare l'elenco dei prezzi che potresti voler modificare o aggiungere. Dopo aver modificato i prezzi, è necessario utilizzare l'azione **Verifica righe** per verificare i prezzi rispetto ad altre righe del listino prezzi. La verifica dei prezzi consente di evitare duplicati e ambiguità durante il calcolo dei prezzi.
 
 > [!NOTE]
-> Quando modifichi una riga in un listino prezzi attivo, lo stato della riga diventa Bozza e la riga non verrà considerata nel calcolo dei prezzi finché non utilizzi l'azione **Verifica righe**. Dopo aver verificato il prezzo, lo stato della riga diventa Attivo e verrà considerato nei calcoli del prezzo.
+> Quando modifichi una riga in un listino prezzi attivo, lo stato della riga diventa **Bozza** e la riga non verrà considerata nel calcolo dei prezzi finché non utilizzi l'azione **Verifica righe**. Dopo aver verificato il prezzo, lo stato della riga diventa **Attivo** e verrà considerato nei calcoli del prezzo.
 
 Per aggiungere nuovi prezzi, nella pagina **Panoramica dei prezzi** usa l'azione **Aggiungi nuove righe**. Si apre la pagina **Foglio di lavoro prezzi** e puoi aggiungere le righe di prezzo suggerendole in base a criteri, copiandole da altri listini o inserendole manualmente. Successivamente, puoi utilizzare l'azione **Implementare variazione prezzi** per confrontare i nuovi prezzi con altri listini per evitare duplicati e ambiguità per il calcolo dei prezzi.
 
+#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Creare righe prezzo di vendita in base al prezzo unitario
+
+1. Nella pagina **Prospetto prezzi** scegli l'azione **Suggerisci righe**.
+2. Nella pagina **Righe prezzo - Crea nuovo** compila i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nel campo **Filtro prodotto** definisci i filtri per il **Tipo di prodotto** selezionato.
+4. Scegli il campo **Impostazioni predefinite** per specificare le impostazioni come:
+   * A quali entità sarà assegnato il listino prezzi.
+   * Le date in cui il prezzo è valido.
+   * Il codice valuta.
+   * Il filtro tipo importo che definisce le colonne mostrate nelle righe del listino prezzi.
+5. Selezionare **OK**. Nuove righe verranno aggiunte alla pagina **Foglio di lavoro prezzi** con le impostazioni selezionate e i prezzi unitari dalle schede articolo.
+6. Modifica le righe create con i nuovi prezzi unitari o gli sconti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Creare righe prezzo di vendita in base ai listini prezzi esistenti
+
+1. Nella pagina **Prospetto prezzi** scegli l'azione **Copia righe**.
+2. Sulla pagina **Righe prezzo - Copia esistente** seleziona un listino esistente nel campo **Da listino prezzi**.
+3. Nel campo **Filtro riga prezzo**, definisci i filtri per i prodotti del listino prezzi selezionato.
+4. Scegli il campo **Impostazioni predefinite** per specificare le impostazioni come:
+   * A quali entità sarà assegnato il listino prezzi.
+   * Le date in cui il prezzo è valido.
+   * Il codice valuta.
+   * Il filtro tipo importo che definisce le colonne mostrate nelle righe del listino prezzi.
+5. Compila gli altri campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Selezionare **OK**. Nuove righe verranno aggiunte alla pagina **Foglio di lavoro prezzi** con le impostazioni selezionate.
+7. Modifica le righe create con i nuovi prezzi unitari o gli sconti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
 ## <a name="to-copy-sales-prices"></a>Per copiare prezzi di vendita
+
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. Se l'aggiornamento delle funzionalità non è attivato, segui i passaggi nella scheda Esperienza corrente.
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)  
@@ -139,6 +170,7 @@ Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un s
    > Il processo batch fornisce soltanto suggerimenti e non consente di implementare le variazioni consigliate. Se i suggerimenti vengono ritenuti soddisfacenti e si desidera implementarli, vale a dire inserirli nella pagina **Prezzo vendita**, scegliere l'azione **Implementare variazione prezzi** nella pagina **Prospetto prezzi vendita**.
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
+
 Puoi specificare se il nuovo listino prezzi utilizzerà le impostazioni dell'intestazione del listino che stai copiando o le impostazioni del nuovo listino in cui stai copiando. Per utilizzare le impostazioni del listino in cui stai copiando i prezzi, attiva l'opzione **Utilizzai valori predefiniti dalla destinazione**.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Listini prezzi di vendita** e quindi scegli il collegamento correlato. 
@@ -151,6 +183,7 @@ Puoi specificare se il nuovo listino prezzi utilizzerà le impostazioni dell'int
 ---
 
 ## <a name="to-bulk-update-item-prices"></a>Per aggiornare in blocco i prezzi degli articoli
+
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. Se l'aggiornamento delle funzionalità non è attivato, segui i passaggi nella scheda Esperienza corrente.
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)
@@ -164,7 +197,7 @@ Puoi compilare la pagina Prospetto prezzi vendita per aggiornare in blocco i pre
 2. Scegliere l'azione **Suggerisci prezzo articolo in prosp.** .  
 3. Nella Scheda dettaglio **Articolo**, riempire il campo **Nr.** o **Categoria registrazione magazzino** o altri campi con i prezzi degli articoli originali che si desidera aggiornare.  
 4. Nella sezione superiore della pagina di richiesta compilare i campi **Tipo vendita** e **Codice vendita** con il tipo e il nome con cui si desidera copiare i prezzi di vendita.
-5. Se vuoi che il processo batch rettifichi automaticamente i prezzi degli articoli suggeriti, immetti la rettifica nel campo **Fattore Rettifica**. Ad esempio, immettere 1.15 in **Fattore Rettifica** per aumentare del 15% il prezzo dell'articolo.  
+5. Se vuoi che il processo batch rettifichi automaticamente i prezzi degli articoli suggeriti, immetti la rettifica nel campo **Fattore rettifica**. Ad esempio, immetti 1,15 in **Fattore Rettifica** per aumentare del 15% il prezzo dell'articolo.  
 6. Per creare nuovi prezzi mediante il processo batch, attiva l'interruttore **Crea nuovi prezzi**.  
 7. Scegli il pulsante **OK** per compilare le righe nella pagina **Foglio di lavoro prezzi di vendita** con i nuovi prezzi suggeriti.
 8. Per implementare i suggerimenti, utilizza l'azione **Implementare variazione prezzi**. Il processo batch crea suggerimenti ma non li implementa. 
@@ -201,7 +234,7 @@ Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che 
 
 Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato nella riga, viene recuperato l'ultimo costo diretto o il prezzo unitario dalla scheda articolo immesso.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Sconti fattura di vendita e Addebito assistenza
+## <a name="sales-invoice-discounts-and-service-charges"></a>Sconti fattura di vendita e addebiti assistenza
 
 Quando usi gli sconti fattura, l'importo totale in fattura determina lo sconto applicato. Nella pagina **Sconti fattura clienti** è inoltre possibile aggiungere un addebito di assistenza a fatture che superano un certo importo.  
 
@@ -228,6 +261,7 @@ Per informazioni sugli sconti per le vendite, vedi [Impostare gli sconti per i c
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Per impostare uno sconto riga vendita per un cliente
+
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. Se l'aggiornamento delle funzionalità non è attivato, segui i passaggi nella scheda Esperienza corrente.
 
 #### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)  
@@ -239,11 +273,11 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 > [!NOTE]
 > Quando si aprono le pagine **Prezzi vendita** e **Sconti riga vendita** di un cliente specifico, i campi **Filtro tipo vendita** e **Filtro codice vendita** sono impostati per il cliente e non possono essere modificati né rimossi.
 >
-> Per impostare i prezzi o gli sconti riga per tutti i clienti, un gruppo di prezzi dei clienti o una campagna, è necessario aprire le pagine da una scheda articolo. In alternativa, per i prezzi di vendita, utilizzare la pagina **Prospetto Prezzi Vendita**. Per ulteriori informazioni, vedere [Per aggiornare in blocco i prezzi degli articoli](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+> Per impostare i prezzi o gli sconti riga per tutti i clienti, un gruppo di prezzi dei clienti o una campagna, è necessario aprire le pagine da una scheda articolo. In alternativa, per i prezzi di vendita, utilizzare la pagina **Prospetto Prezzi Vendita**. Per ulteriori informazioni, vedi [Per aggiornare in blocco i prezzi degli articoli](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 #### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
 
-1. Scegli la ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Clienti** e quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Clienti** e quindi scegli il collegamento correlato.
 2. Scegli il cliente, quindi l'azione **Listini prezzi di vendita**.
 3. Aprire il listino prezzi per il quale specificare lo sconto riga.
 4. Creare una nuova riga o scegliere una riga esistente, quindi compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -259,32 +293,32 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Per impostare uno sconto fattura per un cliente
+
 Dopo avere stabilito a quali clienti si devono applicare gli sconti fattura, è necessario immettere i codici di sconto fattura nelle pagine scheda cliente. Quindi imposta le condizioni per ogni codice.
 
-1. Scegli la ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Clienti** e quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Clienti** e quindi scegli il collegamento correlato.
 2. Aprire la pagina relativa al cliente al quale saranno applicati gli sconti fattura.
-3. Nel campo **Cod. sconto fatt.** selezionare un codice per le condizioni di sconto fattura in questione che verrà utilizzato per calcolare gli sconti fattura per il cliente. <!--Looks like I can only choose customers in this list-->
+3. Nel campo **Cod. sconto fatt.** selezionare un codice per le condizioni di sconto fattura in questione che verrà utilizzato per calcolare gli sconti fattura per il cliente.
 
 > [!NOTE]  
 > I codici sconto fattura sono rappresentati da schede clienti esistenti. Questo consente di assegnare rapidamente le condizioni dello sconto fattura ai clienti perché basterà selezionare il nome di un altro cliente che avrà le stesse condizioni.
 
-Continuare a impostare le nuove condizioni dello sconto fattura di vendita.
+Continua a impostare le nuove condizioni dello sconto fattura di vendita.
 
 1. Nella pagina **Clienti** scegliere l'azione **Sconti fattura**. Verrà visualizzata la pagina **Sconti fattura clienti**.
-2. Nel campo **Codice valuta** immettere il codice per una valuta alla quale sono collegate le condizioni dello sconto fattura nella riga. Lasciare il campo vuoto se si desidera impostare le condizioni di sconto fattura in valuta locale.
+2. Nel campo **Codice valuta** immetti il codice per una valuta alla quale sono collegate le condizioni dello sconto fattura nella riga. Lasciare il campo vuoto se si desidera impostare le condizioni di sconto fattura in valuta locale.
 3. Nel campo **Importo minimo** immettere l'importo minimo che una fattura deve avere affinché le possa essere applicato lo sconto.
 4. Nel campo **% sconto** immettere lo sconto fattura sotto forma di percentuale dell'importo fattura.
 5. Ripetere i passaggi da 5 a 7 per ogni valuta per la quale il cliente riceverà uno sconto fattura diverso.
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
 [Impostazione di gruppi di prezzi dei clienti](sales-how-to-set-up-customer-price-groups.md)  
 [Impostazione delle categorie sconto clienti](sales-how-to-set-up-customer-discount-groups.md)  
-[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

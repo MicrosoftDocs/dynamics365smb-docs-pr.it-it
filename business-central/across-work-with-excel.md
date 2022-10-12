@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 82d08e1c072f74434ad50943a97baf77712cb171
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1348066d757abc9768fe97fd6b5f7a337f96c5f6
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529408"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607128"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visualizzare e modificare in Excel da Business Central
 
-Con le pagine che visualizzano una lista di record in righe e colonne, come una lista di clienti, ordini di vendita o fatture, è possibile esportare la lista in Microsoft Excel, e visualizzarla lì. A seconda della pagina, hai due opzioni per la visualizzazione in Excel. Entrambe le opzioni sono disponibili dall'icona **Condividi**  ![Condividi una pagina in un'altra app.](media/share-icon.png) all'inizio di una pagina. È possibile selezionare l'azione **Apri in Excel** o l'azione **Modifica in Excel** nella pagina. Questo articolo spiega le differenze tra le due azioni.
+Con le pagine che visualizzano una lista di record in righe e colonne, come una lista di clienti, ordini di vendita o fatture, è possibile esportare la lista in Microsoft Excel, e visualizzarla lì. A seconda della pagina, hai due opzioni per la visualizzazione in Excel. Entrambe le opzioni sono disponibili dall'icona **Condividi**  ![Condividi una pagina in un'altra app.](media/share-icon.png) all'inizio di una pagina. È possibile selezionare l'azione **Apri in Excel** o l'azione **Modifica in Excel** nella pagina. Questo articolo spiega le due azioni.
 
 ## <a name="open-in-excel"></a>Apri in Excel
 
@@ -27,8 +27,7 @@ Con l'azione **Apri in Excel** puoi apportare modifiche ai record in Excel, ma n
 - Con questa azione, Excel rispetta tutti i filtri nella pagina che limitano i record visualizzati. La cartella di lavoro Excel conterrà le stesse righe e colonne presenti nella pagina in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Questa azione è compatibile con Windows e macOS.
-
-- A partire dall'aggiornamento 18.3, è anche possibile visualizzare gli elenchi visualizzati nelle parti della pagina, come le righe di un ordine di vendita. 
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
 > [!NOTE]
 > Per [!INCLUDE[prod_short](includes/prod_short.md)] in locale l'azione **Apri in Excel** è disponibile per impostazione predefinita. Tuttavia, se [!INCLUDE[prod_short](includes/prod_short.md)] in locale è configurato per la modifica dei dati in Excel, l'azione **Apri in Excel** è sostituita dall'azione **Modifica in Excel**.
@@ -41,12 +40,21 @@ L'azione **Modifica in Excel** è disponibile nella maggior parte delle liste, m
 
 - Con questa azione, Excel rispetta la maggior parte dei filtri sulla pagina che limitano i record visualizzati, quindi la cartella di lavoro di Excel conterrà quasi gli stessi record e colonne.
 
-- Per ottenere gli ultimi dati da [!INCLUDE[prod_short](includes/prod_short.md)], scegli **Aggiorna** nel pannello dell'add-in di Excel.
+- Per ottenere gli ultimi dati da [!INCLUDE[prod_short](includes/prod_short.md)], scegli **Aggiorna** nel pannello del componente aggiuntivo di Excel.
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-- Puoi cambiare la compagnia con cui stai lavorando. Per cambiare azienda, seleziona l'icona **Opzioni** ![Opzioni del componente aggiuntivo di Excel.](media/cogwheel.png "Opzioni del componente aggiuntivo per Excel") nel riquadro del componente aggiuntivo di Excel, quindi seleziona l'azienda dal campo **Società**.  
+### <a name="first-time-sign-in"></a>Primo accesso
 
-    > [!IMPORTANT]
-    > Quando si cambia la società, assicurarsi che il campo **Ambiente** non sia vuoto. In tal caso, impostarlo su una delle opzioni disponibili; in caso contrario, il componente aggiuntivo non funzionerà correttamente.  
+L'azione **Modifica in Excel** richiede che l'add-in di Business Central sia installato in Excel. In alcuni casi, il tuo amministratore potrebbe aver impostato l'add-in per installarlo automaticamente per te. In questo caso, devi solo accedere a Business Central nel pannello **Add-in Excel** con il tuo nome utente e password. Altrimenti, si apre il riquadro **Nuovo componente aggiuntivo di Office** . Per installare l'add-in, scegli **Il componente aggiuntivo è attendibile**, che installerà l'add-in direttamente da Office Store.
+
+Se il componente aggiuntivo non si installa, contatta il tuo amministratore o prova a installarlo manualmente. Per maggiori informazioni, vedi [Installare l'add-in manualmente per uso personale](admin-deploy-excel-addin.md#install).
+
+### <a name="work-across-environments-and-companies"></a>Utilizzo di ambienti e società
+
+Puoi cambiare la compagnia con cui stai lavorando. Per cambiare azienda, seleziona l'icona **Opzioni** ![Opzioni del componente aggiuntivo di Excel.](media/cogwheel.png "Opzioni del componente aggiuntivo per Excel") nel riquadro del componente aggiuntivo di Excel, quindi seleziona l'azienda dal campo **Società**.  
+
+> [!IMPORTANT]
+> Quando si cambia la società, assicurarsi che il campo **Ambiente** non sia vuoto. In tal caso, impostarlo su una delle opzioni disponibili; in caso contrario, il componente aggiuntivo non funzionerà correttamente.  
 
 Se si apportano modifiche al componente aggiuntivo, è necessario ricaricarlo per aggiornare la connessione. Per ricaricare, utilizzare il ![menu del componente aggiuntivo per Excel](media/excel-addin-menu.png "Menu del componente aggiuntivo per Excel") nell'angolo in alto a destra del componente aggiuntivo. Se non riesci a caricare l'add-in, parla con il tuo amministratore. Se sei l'amministratore, vedi [Ottenere il Business Central Add-in per Excel](admin-deploy-excel-addin.md).
 
@@ -55,20 +63,9 @@ Se si apportano modifiche al componente aggiuntivo, è necessario ricaricarlo pe
 >
 > Per [!INCLUDE[prod_short](includes/prod_short.md)] in locale, l'azione **Modifica in Excel** è disponibile solo se il componente aggiuntivo di Excel è stato configurato dall'amministratore ed è disponibile solo per il client Web. Gli amministratori che desiderano installare il componente aggiuntivo di Excel possono consultare [Installazione del componente aggiuntivo di Excel per la modifica dei dati di Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
+### <a name="limits-when-using-excel-for-the-web"></a>Limiti quando si utilizza Excel per il Web 
 
-<!-- Note for later: here we're immediately jumping to pretty advanced topics like changing company or reloading the addin. Fine to keep them for now. In the future, we will first need to explain in more detail the actual functionality of the addin, primarily these sub-sections:
-
-Refreshing record data in Excel
-Editing and publishing back to Business Central
-Creating new records from Excel
-Crafting your own editable Excel.
-Point (4) is where it gets interesting for changing/specifying company, environment and other connection settings-->
-
-### <a name="first-time-sign-in"></a>Primo accesso
-
-L'azione **Modifica in Excel** richiede che l'add-in di Business Central sia installato in Excel. In alcuni casi, il tuo amministratore potrebbe aver impostato l'add-in per installarlo automaticamente per te. In questo caso, devi solo accedere a Business Central nel pannello **Add-in Excel** con il tuo nome utente e password. Altrimenti, si apre il riquadro **Nuovo componente aggiuntivo di Office** . Per installare l'add-in, scegli **Il componente aggiuntivo è attendibile**, che installerà l'add-in direttamente da Office Store.
-
-Se per qualche motivo l'add-in non si installa, contatta il tuo amministratore o prova a installarlo manualmente. Per maggiori informazioni, vedi [Installare l'add-in manualmente per uso personale](admin-deploy-excel-addin.md#install).
+Quando **Modifica in Excel** viene utilizzato nelle pagine elenco per tabelle con molte colonne, la cartella di lavoro risultante potrebbe avere troppe colonne per consentire la visualizzazione del file in Excel per il Web. [!INCLUDE[prod_short](includes/prod_short.md)] limita automaticamente la cartella di lavoro esportata a 100 colonne quando OneDrive è configurato per le funzioni del sistema. 
 
 ## <a name="see-the-differences-between-the-options"></a>Vedere le differenze tra le opzioni
 <br><br>  

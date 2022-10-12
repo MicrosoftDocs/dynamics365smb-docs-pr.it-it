@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/23/2022
+ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799535"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605798"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Riferimento rapido per tasti di scelta rapida - Solo PC
 
@@ -37,6 +37,7 @@ ms.locfileid: "8799535"
 |Ctrl+Shift+F12|Ingrandire la parte Voci in una pagina del documento|
 |Ctrl+F1|Apri il riquadro della guida o un articolo della guida|
 |CTRL+clic|Spostarsi durante la personalizzazione|
+|Ctrl+O|Passare a un'altra società o ambiente|
 |MAIUSC+F12|Aprire Esplora ruoli, una panoramica delle funzionalità|
 |F5/CTRL+F5|Aggiornare/ricaricare la pagina|
 |TAB/MAIUSC + TAB|Spostare lo stato attivo sull'elemento successivo/precedente|

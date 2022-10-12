@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 85c83a08907f9f5b441b3f09c1a09131684707a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517176"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606496"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Controllo di pagine in Business Central
 
@@ -22,15 +22,11 @@ La funzionalità Controllo pagina consente di ottenere dettagli su una pagina, f
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## <a name="work-with-page-inspection"></a>Utilizzare Controllo pagina
+## <a name="work-with-page-inspection"></a>Utilizzare il controllo pagina
 
 L'ispezione della pagina inizia dalla pagina **Guida e supporto**. Scegli il punto interrogativo nell'angolo superiore destro, scegli **Guida e supporto**, quindi scegli **Controllare pagine e dati**. In alternativa, è possibile semplicemente utilizzare i tasti di scelta rapida **CTRL+ALT+F1**.
 
-Il riquadro **Controllo pagina** viene visualizzato sul lato. Nella seguente figura viene illustrato il riquadro **Controllo pagina** nella pagina **Ordini Vendita**.
-
-![Controllo pagina.](media/page-inspection-example.png)
-
-Quando il riquadro **Controllo pagina** viene aperto per la prima volta, visualizza informazioni relative all'oggetto della pagina principale.
+Il riquadro **Controllo pagina** viene visualizzato sul lato. Quando il riquadro viene aperto per la prima volta, visualizza informazioni relative all'oggetto della pagina principale.
 
 Utilizzare la tastiera o il dispositivo di puntamento per spostare lo stato attivo su elementi differenti nella pagina. Quando si seleziona un riquadro Dettaglio informazioni o una parte nella pagina principale, l'area di delimitazione è evidenziata da un bordo e il riquadro **Controllo pagina** mostra informazioni sull'elemento selezionato. Ad esempio, la figura precedente mostra informazioni su come utilizzare la parte lista nella pagina **Ordine vendita**. Quando ci si sposta ad altre pagine nell'applicazione, il riquadro **Controllo pagina** verrà automaticamente aggiornato con informazioni sulla pagina.
 
@@ -38,7 +34,7 @@ Per ulteriori informazioni relative a quanto visualizzato in Controllo pagina, v
 
 Se le informazioni previste non sono visualizzate nel riquadro **Controllo pagina**, probabilmente non si dispone delle autorizzazioni necessarie, come descritto nella sezione successiva.
 
-## <a name="controlling-access-to-page-inspection-details"></a>Controllo dell'accesso alle informazioni di Controllo pagina
+## <a name="controlling-access-to-page-inspection-details"></a>Controllo dell'accesso alle informazioni di controllo pagina
 
 In veste di amministratore, è possibile controllare l'accesso a tutte le informazioni visualizzate nel riquadro **Controllo pagina** configurando le autorizzazioni degli utenti. Per concedere un'autorizzazione per tutte le informazioni a un utente, fornirgli l'autorizzazione **Esegui** per l'oggetto **Sistema** **5330** . È possibile concedere questa autorizzazione utilizzando un set di autorizzazioni (ad esempio **Risoluzione dei problemi di D365**) o un gruppo di utenti (ad esempio **Risoluzione dei problemi di D365**). Per ulteriori informazioni sulle autorizzazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
 
@@ -47,6 +43,5 @@ Gli utenti a cui non vengono concesse autorizzazioni per l'**Oggetto sistema 533
 ## <a name="see-also"></a>Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

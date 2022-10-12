@@ -10,15 +10,14 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 3b9955ece6a5f76269915b18ecfe22c722d2e59d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e43a8bbfb663a7207afd01360ba3600cd60d5076
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532972"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607020"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vendere gli articoli di magazzino nei flussi di assemblaggio su ordine
-
 
 Se il campo **Criteri di assemblaggio** nella scheda articolo di un articolo di assemblaggio contiene **Assemblaggio su ordine**, il processo di default dell'ordine di vendita presuppone che l'articolo non sia in magazzino e debba essere assemblato per tale ordine di vendita specifico. Di conseguenza, un ordine di assemblaggio collegato viene automaticamente creato quando si aggiunge l'articolo a una riga dell'ordine di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md). Tuttavia, se una parte della quantità dell'ordine di vendita è già disponibile in magazzino, interamente, è possibile ridurre la quantità dell'ordine di assemblaggio modificando il campo **Qtà per assemblaggio su ordine** nella riga dell'ordine di vendita.  
 
@@ -57,7 +56,7 @@ Nella procedura, le quantità di assemblaggio su ordine vengono sostituite con l
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Prenotare articoli](inventory-how-to-reserve-items.md)  
-[Utilizzare le distinte base](inventory-how-work-BOMs.md)  
+[Utilizzare le distinte base di assemblaggio](assembly-how-work-assembly-boms.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

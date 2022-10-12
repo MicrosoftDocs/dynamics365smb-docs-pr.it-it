@@ -4,18 +4,18 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: f574fbb444752b1c8b0761df80dbfdc98e8123e6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 83453858afb9cbaa893252e712fa408b27483b45
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531676"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607609"
 ---
 - Un collegamento alla pagina corrente
 
   Nella parte superiore del riquadro, una scheda mostra una breve descrizione della pagina corrente, se presente. Se non è presente una descrizione della pagina, la scheda fornisce un unico collegamento a un articolo sulla pagina.  
 
-  Se [!INCLUDE[prod_short](prod_short.md)] non riesce a trovare il collegamento pertinente, mostriamo la pagina di destinazione in [Microsoft Docs](/dynamics365/business-central). Ad esempio, se la pagina faceva parte di un'app a cui non è stata aggiunta la mappatura della Guida sensibile al contesto di [!INCLUDE[prod_short](prod_short.md)], l'impostazione predefinita *Collegamento di apprendimento* sulla pagina di destinazione.  
+  Se [!INCLUDE[prod_short](prod_short.md)] non trova il collegamento, viene visualizzata la pagina di destinazione in [Microsoft Learn](/dynamics365/business-central). Ad esempio, se la pagina faceva parte di un'app a cui non è stata aggiunta la mappatura della Guida sensibile al contesto in [!INCLUDE[prod_short](prod_short.md)], il valore predefinito del *collegamento di apprendimento* è la pagina di destinazione.  
 
 - Collegamenti ad articoli correlati
 

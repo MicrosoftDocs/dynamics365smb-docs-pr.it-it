@@ -10,12 +10,12 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72a88c90de9407bfe71486022085623b8e426087
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 93c504b139003c4d2385e4c906390302784ed1c5
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530218"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607231"
 ---
 # <a name="categorize-items"></a>Classificare gli articoli
 
@@ -55,6 +55,7 @@ Se si cambia idea su una categoria di articoli, è possibile eliminarla. Tuttavi
 ## <a name="see-also"></a>Vedere anche
 
 [Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md)  
+[Gestire le varianti di prodotto](inventory-item-variants.md)  
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

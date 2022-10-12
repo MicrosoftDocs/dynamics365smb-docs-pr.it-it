@@ -9,21 +9,72 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: cb9f91caa06ed1b5bf579bf4be477c906a588faf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524495"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606307"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Gestione dell'integrazione di OneDrive con Business Central
 
-Questo articolo fornisce una panoramica di ciò che un amministratore può fare per controllare l'integrazione di OneDrive for Business con [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] i clienti online beneficiano di un'integrazione automatica, senza che sia necessaria una configurazione aggiuntiva per utilizzare queste funzioni. 
+Questo articolo fornisce una panoramica di ciò che un amministratore può fare per controllare l'integrazione di OneDrive for Business con [!INCLUDE[prod_short](includes/prod_short.md)]. I clienti online [!INCLUDE[prod_short](includes/prod_short.md)] beneficiano di un'integrazione automatica, senza che sia necessaria una configurazione aggiuntiva per aprire e utilizzare queste funzioni OneDrive. Con la guida al setup assistito **Setup OneDrive** puoi dare agli utenti l'accesso ad altre funzionalità OneDrive, come l'apertura dei file Excel in OneDrive, o anche disattivare tutte le funzionalità.  
 
-## <a name="minimum-requirements"></a>Requisiti minimi
+## <a name="configure-onedrive-for-integration-with-business-central"></a>Configurare OneDrive per l'integrazione con Business Central
+
+Questa sezione discute i requisiti che devono essere soddisfatti in OneDrive for Business per configurare l'integrazione con Business Central e l'attività che è possibile eseguire per gestire l'integrazione.
+
+### <a name="minimum-requirements"></a>Requisiti minimi
 
 * Ogni utente deve avere una licenza per [!INCLUDE[prod_short](includes/prod_short.md)] e OneDrive come parte di un piano Microsoft 365.
 * OneDrive deve essere impostato per ogni utente.
+
+### <a name="managing-privacy"></a>Gestione della privacy
+
+> [!IMPORTANT]
+> Se hai scelto di distribuire Business Central e OneDrive in diversi paesi o aree geografiche, i file generati da Business Central e inseriti in OneDrive possono attraversare i confini della residenza dei dati. Assicurati di confermare le politiche della tua organizzazione e i requisiti di conformità governativa per la residenza dei dati prima di abilitare la connessione a OneDrive.
+
+Gli amministratori e gli utenti finali controllano il contenuto memorizzato in OneDrive, e questi dati sono di proprietà esclusiva della tua organizzazione. Per ulteriori informazioni, vedi [Come SharePoint e OneDrive proteggono i tuoi dati nel cloud](/sharepoint/safeguarding-your-data). Puoi anche visitare la nostra [dichiarazione sulla privacy di Microsoft](https://privacy.microsoft.com/en-us/privacystatement), che spiega i dati che Microsoft tratta, come Microsoft li tratta e per quali scopi.
+
+Abilitando la connessione al servizio, accetti:
+
+(a) condividere i dati da Dynamics 365 Business Central con il provider di servizi, che li utilizzerà secondo le condizioni e l'informativa sulla privacy; (b) i livelli di conformità del provider di servizi possono essere diversi da Dynamics 365 Business Central e (c) Microsoft può condividere le informazioni di contatto con il provider di servizi, se necessario, per consentirgli di gestire e risolvere i problemi relativi al servizio.
+
+## <a name="configure-business-central"></a>Configura Business Central
+
+Con Business Central online, la connessione tra Business Central e OneDrive è configurata automaticamente, e le funzionalità OneDrive sono prontamente disponibili per gli utenti per impostazione predefinita. Se desideri disattivare alcune o tutte le funzionalità, puoi utilizzare la guida al setup assistito **Setup OneDrive** nel client Business Central.
+
+La configurazione di Business Central in locale è diversa perché la connessione tra Business Central e OneDrive non è configurata automaticamente. È necessario eseguirla manualmente. Per ulteriori informazioni, vedi [Configurazione dell'integrazione OneDrive con Business Central in locale](admin-onedrive-integration-onpremises.md).
+
+### <a name="about-multiple-environments"></a>Informazioni sugli ambienti multipli
+
+L'integrazione OneDrive è configurata in base all'ambiente, ovvero le impostazioni verranno applicate a tutte le società in quell'ambiente. Se la tua organizzazione ha più di un ambiente, dovrai configurare l'integrazione OneDrive per ciascuno di essi.
+
+### <a name="prerequisites"></a>Prerequisiti
+
+- Autorizzazione indiretta, modifica ed eliminazione (imd) sulla tabella **Scenario di servizio documenti** come minimo
+
+### <a name="configure-onedrive-using-onedrive-setup"></a>Configurare OneDrive usando Setup OneDrive
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup OneDrive**, quindi scegli il collegamento correlato. 
+2. La prima volta che esegui il setup assistito, vedrai il collegamento **Privacy**. Leggi le informazioni della pagina e, se sei d'accordo con le condizioni, seleziona **Accetto** e continua.
+3. Sulla pagina **Configura gestione file** hai le seguenti opzioni tra cui scegliere:
+
+   [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
+4. Seleziona **Avanti**>**Fatto**.
+
+### <a name="switching-to-new-onedrive-integration-after-upgrade"></a>Passaggio alla nuova integrazione OneDrive dopo l'aggiornamento
+
+Il setup assistito **Setup OneDrive** è stata introdotto nel secondo ciclo di rilascio del 2022, versione 21.0. In precedenza, l'integrazione OneDrive utilizzava **Setup connessione SharePoint**, che è stato deprecato e verrà rimosso nel secondo ciclo di rilascio del 2023, versione 23.0. Dopo aver eseguito l'aggiornamento alla versione 21, OneDrive funzionerà ancora come prima. Ma ti consigliamo di passare alla nuova integrazione OneDrive. Fare questo passaggio ora renderà le cose più facili quando il **Setup connessione SharePoint** viene infine rimosso. Inoltre, ti consentirà di utilizzare la guida al setup assistito **Setup OneDrive** per gestire le funzionalità OneDrive accessibili agli utenti. Il setup assistito **Setup OneDrive** effettua il passaggio dal setup SharePoint legacy facilmente e semplicemente.
+
+Per passare, basta aprire ed eseguire il setup assistito **Setup OneDrive** direttamente o aprire la pagina **Setup connessione SharePoint** e scegliere **Vai al nuovo setup OneDrive** nella notifica nella parte superiore della pagina. Seguire la guida al setup come descritto nella sezione precedente.
+
+## <a name="restoring-onedrive-and-prod_short"></a>Ripristinare OneDrive e [!INCLUDE[prod_short](includes/prod_short.md)]
+
+Come parte di un esercizio di disaster recovery, gli amministratori potrebbero aver bisogno di ripristinare un ambiente [!INCLUDE[prod_short](includes/prod_short.md)] online su un backup da un momento nel passato, e sincronizzare lo storage OneDrive a quello stesso punto nel tempo. OneDrive fornisce vari strumenti di ripristino, come il ripristino di OneDrive di un utente ad un tempo precedente, il ripristino di una versione precedente di un singolo file, o il ripristino di file cancellati. Per ulteriori informazioni, vedere i seguenti articoli:
+
+* Per [!INCLUDE[prod_short](includes/prod_short.md)], vedere [Ripristino di un ambiente nell'Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+* Per OneDrive, vedere [Ripristino OneDrive](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
 
 ## <a name="governance"></a>Governance
 
@@ -39,83 +90,6 @@ Il centro amministrativo di SharePoint fornisce un ampio controllo sulle politic
 
 > [!NOTE]
 > Alcune caratteristiche possono essere disponibili solo per piani specifici.
-
-## <a name="managing-privacy"></a>Gestione della privacy
-
-Gli amministratori e gli utenti finali controllano il contenuto memorizzato in OneDrive, e questi dati sono di proprietà esclusiva della tua organizzazione. Per ulteriori informazioni, vedi [Come SharePoint e OneDrive proteggono i tuoi dati nel cloud](/sharepoint/safeguarding-your-data). Puoi anche visitare la nostra [dichiarazione sulla privacy di Microsoft](https://privacy.microsoft.com/en-us/privacystatement), che spiega i dati che Microsoft tratta, come Microsoft li tratta e per quali scopi.
-
-## <a name="restoring-onedrive-and-prod_short"></a>Ripristinare OneDrive e [!INCLUDE[prod_short](includes/prod_short.md)]
-
-Come parte di un esercizio di disaster recovery, gli amministratori potrebbero aver bisogno di ripristinare un ambiente [!INCLUDE[prod_short](includes/prod_short.md)] su un backup da un momento nel passato, e sincronizzare lo storage OneDrive a quello stesso punto nel tempo. OneDrive fornisce vari strumenti per questo, come il ripristino di OneDrive di un utente ad un tempo precedente, il ripristino di una versione precedente di un singolo file, o il ripristino di file cancellati. Per ulteriori informazioni, vedere i seguenti articoli:
-
-* Per [!INCLUDE[prod_short](includes/prod_short.md)], vedere [Ripristino di un ambiente nell'Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
-* Per OneDrive, vedere [Ripristino OneDrive](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
-
-## <a name="configuring-business-central-on-premises"></a>Configurazione di Business Central On-Premises
-
-Un amministratore deve impostare la connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] on premises e OneDrive. A differenza di [!INCLUDE[prod_short](includes/prod_short.md)] online, la connessione non è automatica. Se la connessione non è configurata, gli utenti non possono usare le funzioni di OneDrive.
-
-[!INCLUDE[prod_short](includes/prod_short.md)] on-premises può essere collegato solo a OneDrive ospitato da Microsoft nel cloud. La connessione di [!INCLUDE[prod_short](includes/prod_short.md)] on premises al repository My Sites di SharePoint Server non è supportata.
-
-> [!IMPORTANT]
-> Configurando questa funzione, si abilitano anche le funzioni legacy che inviano file a OneDrive.  
->
->* La funzione Apri in Excel copierà automaticamente il file Excel su OneDrive, quindi lo aprirà in Excel Online. 
->* Esportando qualsiasi rapporto in un file, il file verrà automaticamente copiato in OneDrive, quindi aperto in Excel Online, Word Online o OneDrive. 
->* Altre funzioni possono anche aprirsi automaticamente in OneDrive.
-
-### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Preparare [!INCLUDE[prod_short](includes/prod_short.md)] on-premises per la connessione a OneDrive
-
-<!-- 
-1. For the best experience Configure Azure Active Directory (AD) authentication.
-
-   For more information, see [Authenticating Business Central Users with Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory)-->
-
-Aggiungi un'applicazione registrata per Business Central nel tenant Azure AD del tuo piano Microsoft 365. Come altri servizi Azure che lavorano con Business Central, OneDrive richiede una registrazione dell'app in Azure Active Directory (Azure AD). La registrazione dell'app fornisce servizi di autenticazione e autorizzazione tra Business Central e SharePoint, utilizzato da OneDrive.
-
-Configurare l'applicazione registrata con le seguenti autorizzazioni delegate all'API SharePoint :
-
-- AllSites.FullControl
-- User.ReadWrite.All 
-
-Per il secondo ciclo di rilascio di Business Central 2021 (versione 19), imposta queste autorizzazioni:
-
-- TuttiSiti.Write
-- Scrivere i miei file
-- Utente.Read.All 
-
-Si fa questo lavoro nel portale Azure. Assicuratevi di copiare l'Application (client) ID e il Segreto client utilizzati dall'applicazione registrata. Avrai bisogno di queste informazioni nel prossimo compito.
-
-Per maggiori informazioni sui prerequisiti di un account, sulla registrazione di un'applicazione e la configurazione dei permessi, vedi [Registrare un'applicazione in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) nell'aiuto per sviluppatori e IT pro.
-
-> [!TIP]
-> Se hai già registrato un'applicazione come parte di un'integrazione con un altro prodotto Microsoft, come Power BI, allora puoi riutilizzare la registrazione dell'applicazione. In questo caso, dovrete solo impostare i permessi di SharePoint .
-
-### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Impostare la connessione in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises
-
-<!--
-> [!NOTE]
-> This requires the following types of authentication credentials:
->
-> * Windows
-> * NavUserPassword
-> * Azure Active Directory
--->
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , entrare in **Microsoft SharePoint - Configurazione connessione**, e poi scegliere il link relativo.
-2. Nel campo **Descrizione**, inserisci una descrizione per la connessione, come **OneDrive**.
-3. Nel campo **Cartella**, inserisci **Business Central**.
-4. Nel campo **Posizione**, inserisci l'URL del tuo OneDrive.
-
-    L'URL di un OneDrive è di solito nel seguente formato: `https://<tenant name>-my.sharepoint.com`. Per maggiori informazioni, vedi [OneDrive URL per gli utenti della tua organizzazione](/onedrive/list-onedrive-urls) nella documentazione di OneDrive .
-5. Nel campo **ID** cliente, inserisci l'ID cliente dalla registrazione dell'applicazione.
-6. Nel campo **Segreto client**, inserisci il segreto della tua registrazione dell'applicazione. 
-   <!-- 
-   For information about how to find the URLs, see the following:
-   * [How to find your SharePoint server URL]
-   * [How to find your OneDrive URL]-->
-
-> [!IMPORTANT]
-> La pagina SharePoint Connection Setup è usata per configurare diverse funzioni legacy. La sezione **Generale** configura la connessione a OneDrive, e la sezione **Documenti condivisi** reindirizza invece i file a SharePoint . La funzione legacy SharePoint sarà deprecata nel prossimo futuro. Si consiglia di non configurare la sezione **Documenti condivisi** .
 
 ## <a name="see-also"></a>Vedere anche
 

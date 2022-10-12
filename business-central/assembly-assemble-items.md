@@ -10,17 +10,18 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dfe8f1aa36f19372363c5e23994328d15f8a5b77
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: c026f7b8374dd78b4c3f06d76d43e3ffac0198b2
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534266"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607074"
 ---
 # <a name="assembly-management"></a>Gestione assemblaggio
+
 Per supportare le società che forniscono prodotti ai clienti combinando i componenti in semplici processi senza richiedere funzionalità di manufacturing, [!INCLUDE[prod_short](includes/prod_short.md)] include funzionalità per assemblare gli articoli che si integrano con le funzionalità esistenti, ad esempio vendite, pianificazione, impegni e gestione warehouse.  
 
- Un articolo di assemblaggio è definito come articolo vendibile contenente una DB di assemblaggio. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).
+ Un articolo di assemblaggio è definito come articolo vendibile contenente una DB di assemblaggio. Per ulteriori informazioni, vedi [Utilizzare le distinte base di assemblaggio](assembly-how-work-assembly-boms.md).
 
  Gli ordini di assemblaggio sono ordini interni, come gli ordini di produzione, che vengono utilizzati per gestire il processo di assemblaggio e per collegare i requisiti di vendita con le attività di warehouse richieste. Gli ordini di assemblaggio differiscono da altri tipi di ordine perché prevedono sia l'output che il consumo in fase di registrazione. La testata dell'ordine di assemblaggio si comporta analogamente a una riga registrazioni output e le righe ordine di assemblaggio si comportano in modo analogo alle righe registrazioni consumi.  
 
@@ -43,12 +44,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Quando si vendono articoli di assemblaggio dal magazzino e non tutti gli articoli sono disponibili, è possibile avviare un ordine di assemblaggio per fornire automaticamente, interamente o in parte, la quantità dell'ordine di vendita.|[Vendere articoli di assemblaggio su ordine e articoli di magazzino insieme](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
 |Creare articoli di assemblaggio personalizzati per ordini di vendita programmati prima di creare periodicamente gli ordini di vendita effettivi in base al contratto degli ordini programmati.|[Creare ordini di assemblaggio programmati](assembly-how-to-create-blanket-assembly-orders.md)|
 |Annullare un ordine di assemblaggio registrato, ad esempio perché l'ordine è stato registrato con errori che devono essere corretti.|[Annullare la registrazione di assemblaggi](assembly-how-to-undo-assembly-posting.md)|
-|Ottenere informazioni sulla differenza tra DB di assemblaggio e DB di produzione e le relative differenze di elaborazione.|[Utilizzare le distinte base](inventory-how-work-BOMs.md)|
+|Scopri come lavorare con le distinte base di assemblaggio e le principali differenze rispetto alle distinte base di produzione.|[Utilizzare le distinte base di assemblaggio](assembly-how-work-assembly-boms.md)|
 |Apprendere come vengono gestiti l'output e il consumo in fase di assemblaggio quando si registrano ordini di assemblaggio e come vengono elaborati e distribuiti l'articolo e i costi risorse derivati nella contabilità generale.|[Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)|  
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare le distinte base](inventory-how-work-BOMs.md)  
 [Magazzino](inventory-manage-inventory.md)  
@@ -56,9 +57,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

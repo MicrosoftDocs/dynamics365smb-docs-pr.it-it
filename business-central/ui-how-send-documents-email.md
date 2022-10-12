@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532351"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607204"
 ---
 # <a name="send-documents-and-emails"></a>Inviare documenti ed e-mail
 
@@ -51,10 +51,13 @@ Questa procedura descrive come associare una fattura vendita registrata a un'e-m
 > Se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della pagina **Invia documento a**. In questo caso, non verrà visualizzata la pagina **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Impostare i profili di invio dei documenti](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Per comporre e inviare un'e-mail
+
 È possibile comporre rapidamente e-mail per contatti, clienti, venditori, venditori/acquirenti e conti bancari direttamente dalle pagine per queste entità. Basta scegliere **Processo** e poi **Invia e-mail** per aprire l'editor di e-mail. Per i conti bancari, l'azione **Invia email** è sotto **Azioni**.
 
 > [!TIP]
 > Se si inviano spesso messaggi di posta elettronica di natura simile, o si vuole inviare una comunicazione di massa, ad esempio, per pubblicizzare una campagna di vendita, l'uso di modelli di Word con le e-mail può accelerare il processo. È possibile creare un modello per entità come clienti, fornitori e contatti, che genererà il contenuto di un messaggio e-mail per voi, e anche personalizzare il contenuto per il destinatario in base ai dati in [!INCLUDE[prod_short](includes/prod_short.md)]. Per maggiori informazioni, vedi [Usare i modelli di Word per le comunicazioni di massa](ui-mail-merge.md).  
+
+Se sei assegnato a uno scenario e-mail correlato all'entità a cui stai inviando il messaggio e-mail o al documento che stai inviando, un allegato può essere aggiunto automaticamente al tuo messaggio. Questo perché un allegato predefinito è stato assegnato allo scenario e-mail. Puoi eliminare l'allegato se non vuoi inviarlo con il tuo messaggio. Per ulteriori informazioni, vedere [Assegnare scenari di posta elettronica agli account di posta elettronica](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenti contrassegnati come stampati al momento dell'invio
 

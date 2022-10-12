@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135986"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605112"
 ---
 # <a name="set-up-payment-terms"></a>Impostare le condizioni pagamento
 
@@ -35,9 +35,9 @@ Dopo avere impostato le condizioni pagamento, è possibile assegnarle ai clienti
 > [!TIP]
 > Nella versione base di [!INCLUDE [prod_short](includes/prod_short.md)], le condizioni pagamento con pagamenti parziali non sono supportate. È invece necessario utilizzare la funzionalità di pagamento anticipato. Per ulteriori informazioni, vedere [Impostare i pagamenti anticipati](finance-set-up-prepayments.md).
 >
-> In alcuni paesi, *puòi* impostare le condizioni pagamento con pagamenti parziali. Per sapere se questa funzionalità è supportata nel tuo paese, consulta la sezione **Funzionalità locale** nel riquadro di navigazione sul lato sinistro del sito [Docs.microsoft.com](about-localization.md).
+> In alcuni paesi, *puòi* impostare le condizioni pagamento con pagamenti parziali. Per sapere se questa funzionalità è supportata nel tuo paese, consulta la sezione **Funzionalità locale** nel riquadro di navigazione sul lato sinistro di un articolo [Microsoft Learn](about-localization.md).
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
 [Impostare i metodi di pagamento](finance-payment-methods.md)  
 [Impostare i pagamenti anticipati](finance-set-up-prepayments.md)  

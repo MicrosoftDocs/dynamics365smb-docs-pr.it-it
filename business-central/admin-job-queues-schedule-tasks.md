@@ -9,25 +9,26 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317436"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607101"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Utilizzare le code processi per programmare i task
 
-Le code processi consentono agli utenti di programmare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Ad esempio, è possibile eseguire il report **Venditore - Statistiche di vendita** settimanale per monitorare le vendite per venditore ogni settimana, oppure è possibile eseguire la codeunit **Delegare le richieste di approvazione** quotidianamente per evitare che i documenti si accumulino.
+La pagina Movimenti coda processi consente agli utenti di programmare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Ad esempio, è possibile eseguire il report **Venditore * Statistiche di vendita** settimanale per monitorare le vendite per venditore ogni settimana, oppure è possibile eseguire la codeunit **Delegare le richieste di approvazione** quotidianamente per evitare che i documenti si accumulino.
 
 Nella pagina **Movimenti coda processi** sono elencati tutti i processi esistenti. Se aggiungi un nuovo movimento coda processi che vuoi pianificare, devi fornire alcune informazioni. Ad esempio:
+
 * Il tipo di oggetto da eseguire, ad esempio un report o una codeunit. È necessario disporre dell'autorizzazione per eseguire il report o la codeunit particolare.
 * Il nome e l'ID dell'oggetto. 
 * I parametri per specificare il comportamento del movimento coda processi. Ad esempio, è possibile aggiungere un parametro per inviare solo ordini di vendita registrati. 
 * Quando e con quale frequenza verrà eseguito il movimento coda processi.
 
 > [!IMPORTANT]  
-> Se si utilizza il set di autorizzazioni SUPER fornito con [!INCLUDE[prod_short](includes/prod_short.md)], la società e gli utenti dispongono delle autorizzazioni per eseguire tutti gli oggetti nella licenza. Ciò non è ancora sufficiente per gli amministratori delegati o gli utenti con licenza per dispositivo, che non possono creare movimenti coda processi.
+> Se hai il set di autorizzazioni SUPER assegnato con [!INCLUDE[prod_short](includes/prod_short.md)], disponi delle autorizzazioni per eseguire tutti gli oggetti inclusi nella licenza. Se hai il ruolo di amministratore con delega, puoi creare e pianificare i movimenti coda processi, ma solo gli amministratori e gli utenti con licenza possono eseguirli. Gli utenti con la licenza del dispositivo non possono creare o eseguire i movimenti coda processi.
 
 Dopo la configurazione e l'esecuzione delle code processi, lo stato può cambiare come segue durante ogni periodo ricorrente:
 
@@ -73,7 +74,7 @@ La pagina **Attività pianificate** in [!INCLUDE [prod_short](includes/prod_shor
 Ad esempio, tutte le attività pianificate vengono interrotte se l'azienda si trova in un ambiente che è una copia di un altro ambiente. Usa la pagina **Attività pianificate** per impostare le attività come pronte per l'esecuzione nella coda di lavoro.  
 
 > [!NOTE]
-> Gli amministratori interni e gli utenti possono programmare l'esecuzione di attività. Gli amministratori delegati non possono.
+> Gli amministratori interni e gli utenti con licenza possono programmare l'esecuzione di attività. Gli amministratori con delega possono impostare e pianificare le attività da eseguire, ma solo gli utenti con licenza possono eseguirle.
 
 ## <a name="the-my-job-queue-part"></a>Parte Coda processi
 

@@ -8,50 +8,60 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
-ms.date: 04/01/2021
+ms.date: 08/24/2022
 ms.author: edupont
-ms.openlocfilehash: 22f0ecdf185d3b2e31d23dd2492223179328d103
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 229d7b06bc1ec366906531c34a6dfc0deee40c26
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533134"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605544"
 ---
 # <a name="create-gl-budgets"></a>Creare budget C/G
 
 È possibile mantenere più budget per periodi di tempo identici creando budget con nomi separati. Innanzitutto è necessario impostare il nome del budget e immettere le relative cifre. Il nome del budget viene quindi inserito in tutti i movimenti di budget che vengono creati.  
 
-Quando si crea un budget, è possibile definire quattro dimensioni per ogni budget. Queste quattro dimensioni specifiche per un singolo budget sono definite dimensioni budget. Le dimensioni budget possono essere scelte tra le dimensioni impostate Le dimensioni budget possono essere utilizzate per applicare filtri ai budget oppure per aggiungere informazioni sulle dimensioni ai movimenti budget. Per ulteriori informazioni, vedere [Utilizzare le dimensioni](finance-dimensions.md).
+Quando crei un budget, puoi definire quattro dimensioni specifiche del budget, denominate dimensioni budget, per ogni budget. Seleziona le dimensioni del budget per ogni budget tra quelle che hai già impostato. Le dimensioni budget possono essere utilizzate per applicare filtri ai budget oppure per aggiungere informazioni sulle dimensioni ai movimenti budget. Per ulteriori informazioni, vedi [Utilizzare le dimensioni](finance-dimensions.md).
 
-I budget giocano un ruolo importante in business intelligence, ad esempio nel rendiconto finanziario definito in base alle situazioni contabili che includono movimenti budget oppure quando si analizzano gli importi a budget rispetto agli importi effettivi nel piano dei conti. Per ulteriori informazioni, vedere [Business Intelligence](bi.md).
+I budget svolgono un ruolo importante nella business intelligence. Gli esempi includono un rendiconto finanziario basato su report finanziari che includono movimenti di budget o quando si analizzano gli importi a budget rispetto a quelli effettivi nel piano dei conti. Per ulteriori informazioni vedi [Business Intelligence](bi.md).
 
-Nella contabilità industriale si utilizzano i budget costi in modo simile. Per altre informazioni, vedere [Creazione di budget di costi](finance-create-cost-budgets.md).  
+Nella contabilità industriale si utilizzano i budget costi in modo simile. Per ulteriori informazioni, vedi [Creazione di budget di costi](finance-create-cost-budgets.md).  
 
 ## <a name="to-create-a-new-gl-budget"></a>Per creare un nuovo budget C/G
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Budget C/G**, quindi scegli il collegamento correlato.  
-2. Scegliere l'azione **Modifica lista** e compilare i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Budget C/G**, quindi scegli il collegamento correlato.  
+2. Scegli l'azione **Modifica lista** e compila i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Scegliere l'azione **Modifica budget**.
 4. All'inizio della pagina **Budget**, compilare i campi secondo le necessità per definire cosa viene visualizzato.  
 
-    Verranno visualizzati solo i movimenti che contengono il nome del budget indicato nel campo **Nome budget**. Poiché il nome budget è appena stato creato non ci saranno movimenti corrispondenti al filtro. Di conseguenza, la pagina sarà vuota.  
+    Verranno visualizzati solo i movimenti che contengono il nome del budget indicato nel campo **Nome budget**. Poiché il nome budget è appena stato creato, non ci saranno movimenti corrispondenti al filtro. Di conseguenza, la pagina sarà vuota.  
 5. Per immettere un importo, selezionare la appropriata nella matrice. Verrà visualizzata la pagina **Movimenti budget C/G**.  
 6. Creare una nuova riga e compilare il campo **Importo**. Chiudere la pagina **Movimenti budget C/G**.  
-7. Ripetere i passaggi da 5 a 6 per immettere tutti gli importi del budget.  
+7. Ripeti i passaggi da 5 a 6 per immettere tutti gli importi del budget.  
 
 > [!NOTE]  
 > Nella Scheda dettaglio **Filtri** è possibile filtrare le informazioni in base alle dimensioni di budget impostate per il nome del budget.
 
 ## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Esportazione e importazione di budget C/G con Excel
 
-Per praticamente tutte le altre pagine, è possibile esportare dati nelle pagine del budget in Excel per una successiva elaborazione o analisi. Per ulteriori informazioni, vedere [Esportazione dei dati aziendali in Excel](about-export-data.md).
+Per praticamente tutte le altre pagine, è possibile esportare dati nelle pagine del budget in Microsoft Excel per una successiva elaborazione o analisi. Per ulteriori informazioni vedi [Esportazione dei dati aziendali in Excel](about-export-data.md).
 
 > [!NOTE]
-> Il piano dei conti su cui i budget C/G sono basati include righe di tipo di conto Testata contenenti il totale delle righe sottostanti. Quando si esporta un budget C/G, i dati in tutte le righe vengono esportati indipendentemente dal tipo di conto. Tuttavia, solo i dati nelle righe del tipo di conto Analitico possono essere reimportate. Di conseguenza: <br /><br /> **Quando si importa un budget C/G, tutti i valori presenti nelle righe Testata verranno eliminati.** <br /><br /> Questo per evitare totali non corretti dopo l'importazione di dati creati o modificati in Excel.<br /><br /> **Scenario**: il nuovo costo degli stipendi a budget sarà di 1.200.000 VL. Si desidera lasciare il budget del reparto Stipendi per le tre righe specifiche (di tipo di conto Analitico) per gli impiegati a tempo pieno, gli impiegati part-time e gli aiutanti temporanei. Le tre righe sono raggruppate sotto una riga di intestazione Stipendi.<br /><br />Si immette 1.200.000 nella riga di intestazione, si esporta il budget in Excel e quindi lo si invia al reparto Stipendi, indicando di distribuire 1.200.000 VL.<br /><br /> Il reparto Stipendi distribuisce la somma su tre conti di registrazione. Quando si reimporta nel budget C/G, i tre conti vengono compilati con i nuovi dati Excel, con totale 1.200.000 VL, e la riga di intestazione è vuota.
+> Il piano dei conti, su cui si basano i budget di contabilità generale (C/G), ha righe di tipo di conto Testata che contengono il totale delle righe sottostanti. Quando si esporta un budget C/G, i dati in tutte le righe vengono esportati indipendentemente dal tipo di conto. Tuttavia, solo i dati nelle righe del tipo di conto Analitico possono essere reimportate. 
+
+Di conseguenza, quando importi un budget C/G, tutti i valori presenti nelle righe Testata vengono eliminati. Questo per evitare totali non corretti dopo l'importazione di dati creati o modificati in Excel.
+
+### <a name="scenario"></a>Scenario
+
+Il nuovo costo degli stipendi a budget sarà di 1.200.000 in valuta locale. Vuoi consentire al reparto Stipendi di definire il budget per le tre righe specifiche (di tipo di conto Analitico) per i dipendenti a tempo pieno, i dipendenti part-time e gli aiutanti temporanei. Le tre righe sono raggruppate sotto una riga di intestazione Stipendi.
+
+Immetti 1.200.000 nella riga di intestazione, esporti il budget in Excel e quindi lo invii al reparto Stipendi, indicando di distribuire 1.200.000 VL.
+
+Il reparto Stipendi distribuisce la somma su tre conti di registrazione. Quando si reimporta nel budget C/G, i tre conti vengono compilati con i nuovi dati Excel, con totale 1.200.000 VL, e la riga di intestazione è vuota.
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Esportazione dei dati aziendali in Excel](about-export-data.md)  
 [Finanze](finance.md)  
@@ -59,6 +69,5 @@ Per praticamente tutte le altre pagine, è possibile esportare dati nelle pagine
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

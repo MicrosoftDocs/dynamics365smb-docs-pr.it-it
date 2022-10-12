@@ -1,26 +1,26 @@
 ---
 title: Informazioni sulla funzionalità di pianificazione
-description: Il sistema di pianificazione in Dynamics 365 Business Central considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l'approvvigionamento in modo da soddisfare la domanda.
-author: SorenGP
+description: La pianificazione considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l'approvvigionamento in modo da soddisfare la domanda.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535425"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606966"
 ---
 # <a name="about-planning-functionality"></a>Informazioni sulla funzionalità di pianificazione
 
 Il sistema di pianificazione considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l'approvvigionamento in modo da soddisfare la domanda.  
 
-Per informazioni dettagliate, vedere [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md).  
+Per ulteriori informazioni, vedere [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md).  
 
 > [!NOTE]  
 > Per tutti i campi citati in questo argomento, leggere la descrizione comando per comprenderne la funzione. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Per informazioni dettagliate, vedere [Dettagli di progettazione: Pianificazione 
 La pianificazione è costituita da due elementi, la domanda e l'approvvigionamento. Tali elementi devono essere proporzionati uno all'altro per assicurare che la domanda sia soddisfatta in modo tempestivo ed economicamente vantaggioso.  
 
 - Domanda è il termine comune utilizzato per qualsiasi fabbisogno lordo quale un ordine di vendita, un ordine di assistenza, un componente necessario da un assemblaggio o ordine di produzione, un trasferimento in uscita, un ordine programmato o una previsione. Oltre a questi, l'applicazione supporta altri tipi tecnici di domanda, ad esempio una produzione negativa o un ordine di acquisto, una giacenza negativa e un reso di acquisto.  
-- Approvvigionamento è la parola comune utilizzata per qualsiasi tipo di rifornimento, quale magazzino, ordine di acquisto, ordine di assemblaggio, ordine di produzione o trasferimento in entrata. In modo analogo, può essere presente un ordine di vendita o di assistenza negativo oppure un componente necessario o un reso vendite negativo, che rappresentano tutti un tipo di approvvigionamento.  
+- L'approvvigionamento si riferisce a qualsiasi tipo di rifornimento, quale magazzino, ordine di acquisto, ordine di assemblaggio, ordine di produzione o trasferimento in entrata. In modo analogo, può essere presente un ordine di vendita o di assistenza negativo oppure un componente necessario o un reso vendite negativo, che rappresentano un tipo di approvvigionamento.  
 
 Un altro obiettivo del sistema di pianificazione consiste nel garantire che il magazzino non aumenti in modo superfluo. Nel caso di un calo della domanda, verrà suggerito dal sistema di pianificazione di rimandare, ridurre in quantità o annullare gli ordini di rifornimento esistenti.  
 
@@ -158,9 +158,12 @@ La pagina **Richiesta di approvvigionamento** viene elenca gli articoli da ordin
 
 - È possibile utilizzare l'azione **Ordine speciale** per compilare le righe della richiesta di approvvigionamento. Questa azione utilizza il processo batch **Prendi ordini vendite** per determinare le righe dell'ordine di vendita da indicare per un ordine speciale.
 
-Le righe della richiesta di approvvigionamento contengono informazioni dettagliate relative agli articoli da riordinare. È possibile modificare ed eliminare le righe per rettificare il piano di rifornimento, nonché elaborare ulteriormente le righe utilizzando il processo batch **Esegui messaggi di azione**.
+Le righe della richiesta di approvvigionamento contengono informazioni dettagliate relative agli articoli da riordinare. È possibile modificare ed eliminare le righe per rettificare il piano di rifornimento, nonché elaborare ulteriormente le righe utilizzando il processo batch **Esegui messaggi di azione**. 
 
 Per dettagli sulla pianificazione con posizioni e trasferimenti, vedere [Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md).
+
+> [!TIP]
+> Quando lavori nelle pagina **Richiesta di approvvigionamento** o **Prospetto pianificazione**, puoi organizzare le righe ordinandole in base al nome di una colonna. Ciò è particolarmente utile nella pagina Prospetto pianificazione perché può essere utilizzato per ordini di produzione multilivello. Per impostazione predefinita, le righe sono ordinate in base al campo **Nr. articolo**. Per raggruppare le righe per un ordine multilivello, ordina in base al campo **Nr. ordine rif.** . Anche i campi **Ordine MPS** e **Livello pianificazione** possono aiutare a mostrare la gerarchia delle righe.
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/plan-items-dynamics-365-business-central/)
 

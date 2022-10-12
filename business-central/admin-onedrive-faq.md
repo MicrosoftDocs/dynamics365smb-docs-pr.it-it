@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
-ms.date: 05/19/2021
+ms.date: 09/09/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ab3005c7958e6ce7cd112c495ba6bb1d0ae2366
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0d7f1dac73181845fe0329fc2c45bb0e8e53ccfb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381969"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606361"
 ---
 # <a name="onedrive-for-business-faq"></a>OneDrive per il business FAQ
 
@@ -40,19 +40,19 @@ No. Questa integrazione è destinata esclusivamente a OneDrive for Business e su
 
 ## <a name="where-can-i-see-onedrive-service-health"></a>Dove posso vedere OneDrive Service Health?
 
-Gli amministratori possono accedere al dashboard sull'integrità del servizio come parte dell'interfaccia di amministrazione di Microsoft 365. Il dashboard include OneDrive's disponibilità del servizio. 
+Gli amministratori possono accedere al dashboard sull'integrità del servizio come parte dell'interfaccia di amministrazione di Microsoft 365. Il dashboard include OneDrive's disponibilità del servizio. Vai a [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
 ## <a name="is-onedrive-integration-available-to-prod_short-on-premises"></a>L'integrazione di OneDrive è disponibile per [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
 
-Sì, ma a differenza di [!INCLUDE[prod_short](includes/prod_short.md)] online, richiede una configurazione aggiuntiva. Per ulteriori informazioni, vedere [Configurazione di Business Central On-Premises](admin-onedrive-integration.md#configuring-business-central-on-premises).  
+Sì, ma a differenza di [!INCLUDE[prod_short](includes/prod_short.md)] online, richiede una configurazione aggiuntiva. Per ulteriori informazioni, vedi [Configurazione di Business Central On-Premises](admin-onedrive-integration-onpremises.md).  
 
 ## <a name="does-prod_short-on-premises-connect-with-sharepoint-server"></a> [!INCLUDE[prod_short](includes/prod_short.md)] on premises si collega con SharePoint Server?
 
-No. Questa combinazione di distribuzione non è supportata, anche se SharePoint Server ha abilitato My Sites.  
+Nr. Questa combinazione di distribuzione non è supportata, anche se SharePoint Server ha abilitato My Sites.  
 
 ## <a name="does-prod_short-online-connect-with-sharepoint-server"></a> [!INCLUDE[prod_short](includes/prod_short.md)] online si collega con SharePoint Server?
 
-No. Questa combinazione di distribuzione non è supportata, anche se SharePoint Server ha abilitato My Sites.  
+Nr. Questa combinazione di distribuzione non è supportata, anche se SharePoint Server ha abilitato My Sites.  
 
 ## <a name="how-does-this-work-in-an-organization-with-multiple-environments"></a>Come funziona in un'organizzazione con più ambienti?
 
@@ -62,24 +62,34 @@ L'integrazione presuppone che i nomi delle aziende siano unici tra gli ambienti 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] non migra automaticamente i file aperti in precedenza in OneDrive nella nuova cartella. Dopo aver rinominato l'azienda, l'azione Open in OneDrive copierà i file in una cartella che ha il nuovo nome dell'azienda.   
 
-## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Quando si allegano dei file a [!INCLUDE[prod_short](includes/prod_short.md)], come faccio a prendere un file da OneDrive? 
+## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Quando si allegano dei file a [!INCLUDE[prod_short](includes/prod_short.md)], come faccio a prendere un file da OneDrive?
+
 [!INCLUDE[prod_short](includes/prod_short.md)] non fornisce un selezionatore di file cloud. Devi scaricare il file da OneDrive sul tuo dispositivo, e poi caricarlo su [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="i-want-to-open-files-in-sharepoint-instead-how-do-i-do-this"></a>Voglio invece aprire i file in SharePoint . Come si fa?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] non fornisce funzioni per copiare i file su SharePoint e aprirli da una libreria SharePoint . Contatta il tuo partner Microsoft per capire le tue opzioni, o cerca le applicazioni su AppSource.  
+[!INCLUDE[prod_short](includes/prod_short.md)] non fornisce funzioni per copiare i file su SharePoint e aprirli da una libreria SharePoint. Contatta il tuo partner Microsoft per capire le tue opzioni, o cerca le applicazioni su AppSource.  
 
 ## <a name="how-do-i-turn-off-integration-to-onedrive"></a>Come faccio a disattivare l'integrazione in OneDrive?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online non fornisce un modo per abilitare o disabilitare l'integrazione con OneDrive.  
+Esegui la guida al setup assistito **Setup OneDrive** e disattiva gli interruttori **Usa OneDrive per le funzionalità dell'app** e **Usa OneDrive per le funzionalità di sistema**. 
 
 ## <a name="should-i-use-the-sharepoint-connection-setup-page-to-connect-to-sharepoint"></a>Devo usare la pagina SharePoint Connection Setup per connettermi a SharePoint?
 
-Questa è una funzione legacy in cui tutti i file [!INCLUDE[prod_short](includes/prod_short.md)] da tutti gli utenti sono inviati a una singola cartella SharePoint . Raccomandiamo di non configurare la FastTab dei documenti condivisi nella pagina SharePoint Connection Setup perché stiamo lavorando per deprecare questa caratteristica.  
+Questa è una funzione legacy in cui tutti i file [!INCLUDE[prod_short](includes/prod_short.md)] da tutti gli utenti sono inviati a una singola cartella SharePoint . Si consiglia di non configurare la Scheda dettaglio Documenti condivisi nella pagina **Setup connessione SharePoint** perché questa pagina è stata [deprecata](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) e verrà rimossa nel secondo ciclo di rilascio del 2023, versione 23.0.  Ti consigliamo di utilizzare invece il **Setup OneDrive**.  
 
 ## <a name="which-version-of-prod_short-supports-onedrive"></a>Quale versione di [!INCLUDE[prod_short](includes/prod_short.md)] supporta OneDrive?
 
 L'integrazione con OneDrive è diventata disponibile nella versione 2021 wave 2.  
+
+## <a name="which-features-are-affected-by-onedrive-integration"></a><a name="features"></a>Quali funzionalità sono interessate dall'integrazione OneDrive?
+
+Nella guida al setup assistito **Setup OneDrive** per la configurazione dell'integrazione OneDrive, puoi attivare o disattivare le funzionalità per la gestione dei file di Business Central in OneDrive. Le funzionalità sono divise in due opzioni:
+
+|Opzione|Descrizione|
+|------|----------|
+|**Usa OneDrive per le funzionalità dell'app**|Se attivi questa opzione, le azioni **Apri in OneDrive** e **Condividi** sono rese disponibili sui file in Business Central, come i file allegati ai documenti o in Report elaborati. Queste azioni consentono agli utenti di copiare, aprire e condividere file in OneDrive. Per ulteriori informazioni, vedi [Apertura e condivisione dei file di Business Central in OneDrive](across-share-onedrive.md).
+|**Usa OneDrive per le funzionalità di sistema**|L'attivazione di questa opzione attiva le seguenti funzionalità:<ul><li> Le azioni **Apri in Excel** e **Modifica in Excel** nelle pagine elenco copieranno automaticamente il file Excel in OneDrive, quindi aprilo in Excel Online. Per ulteriori informazioni, vedi [Visualizzazione e modifica in Excel](across-work-with-excel.md).</li><li> L'invio di un report a un file Excel o Word copierà automaticamente il file in OneDrive, quindi aprilo in Excel o Word online. Per ulteriori informazioni, vedi [Salvataggio di un report in un file](ui-work-report.md#saving-a-report-to-a-file).|
 
 ## <a name="will-microsoft-continue-to-improve-the-integration-to-onedrive"></a>Microsoft continuerà a migliorare l'integrazione con OneDrive?
 
@@ -91,16 +101,23 @@ Se vuoi partecipare al miglioramento dell'integrazione di OneDrive, o hai un'ide
 
 Questa sezione fornisce informazioni su come identificare e risolvere i problemi che si possono verificare quando si usa OneDrive con [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="i-have-to-sign-in-each-time-i-open-a-file"></a>Devo accedere ogni volta che apro un file
-
-Mi dispiace, è un problema noto e ci stiamo lavorando. Ci aspettiamo di fornire un'esperienza più fluida in un prossimo aggiornamento.  
-
 ### <a name="business-central-cant-find-my-onedrive"></a>Business Central non riesce a trovare il mio OneDrive
 
 Quando appare questo messaggio, "Impossibile determinare la posizione del tuo OneDrive for Business, contatta il tuo partner per configurarlo", controlla se l'utente ha avuto accesso al suo OneDrive almeno una volta. Se non l'hanno fatto, chiedi alla persona di andare su portal.office.com/onedrive per impostarlo. Questo può richiedere un po' di tempo. Se il messaggio viene ancora visualizzato dopo 24 ore, contatta il supporto.  
  
+### <a name="im-having-problems-sharing-from-outlook"></a>Ho problemi con la condivisione da Outlook
 
-## <a name="see-also"></a>Vedere anche
-[Business Central e OneDrive Integrazione](across-onedrive-overview.md)  
+Vedi [Impossibile condividere file OneDrive da Outlook.com](https://support.microsoft.com/en-us/office/can-t-share-onedrive-files-from-outlook-com-05d4cb21-40a2-40e3-b111-82cddb82d22f) nel supporto tecnico Microsoft.
+
+### <a name="actions-open-in-onedrive-and-share-are-missing"></a>Le azioni Apri in OneDrive e Condividi mancano
+
+Ci sono un paio di cose che puoi controllare:
+
+- Verifica che le funzioni dell'applicazione per OneDrive siano attivate nella guida al setup assistito **Setup OneDrive**. Vedi [Configurare OneDrive usando Setup OneDrive](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup).
+- Controlla che Microsoft OneDrive sia impostato su **Accetto** nella pagina **Stato informative sulla privacy**. Vedi [Stato informative sulla privacy](privacy-notices-status.md).
+
+## <a name="see-also"></a>Vedi anche
+
+[Business Central e integrazione OneDrive](across-onedrive-overview.md)  
 [Gestione dell'integrazione di OneDrive con Business Central](admin-onedrive-integration.md)  
 [Apertura dei file di Business Central in OneDrive](across-share-onedrive.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: bd729acaab521cb32b152f297950c7616c78aad7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524629"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606010"
 ---
 # <a name="the-image-analyzer-extension"></a>Estensione di analisi immagini
 
@@ -49,7 +49,7 @@ L'estensione di analisi delle immagini è incorporata in [!INCLUDE[prod_short](i
 Per attivare l'estensione di analisi immagini, effettuare una delle seguenti azioni:
 
 * Aprire un articolo o una scheda contatto. Nella barra di notifica scegliere **Analisi immagine**, seguire i passaggi nella Guida assistita di setup.  
-* Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli **Setup analisi immagine**. Scegliere la casella di controllo **Abilita analisi immagine** e completare i passaggi nella Guida assistita di setup.  
+* Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli **Setup analisi immagine**. Scegliere la casella di controllo **Abilita analisi immagine** e completare i passaggi nella Guida assistita di setup.  
 
     > [!TIP]  
     > Nella pagina **Setup analisi immagine** è possibile anche modificare il grado di affidabilità per i suggerimenti relativi all'attributo. Ad esempio, se si intende richiedere un maggior grado di affidabilità, è possibile immettere un valore percentuale più alto.
@@ -99,7 +99,7 @@ Nei seguenti passaggi viene descritto come analizzare un'immagine importata prim
 
 È anche possibile utilizzare il proprio account per l'API Visione artificiale, ad esempio, se si desidera analizzare più immagini rispetto a quanto offre l'integrazione predefinita.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup analisi immagine**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup analisi immagine**, quindi scegli il collegamento correlato.
 2. Immettere l' **URI API** e la **Chiave API** ricevuti per l'API Visione artificiale.  
 
     > [!NOTE]  
@@ -109,15 +109,15 @@ Nei seguenti passaggi viene descritto come analizzare un'immagine importata prim
 
 È possibile visualizzare il numero delle analisi effettuate e il numero rimanente per il periodo corrente.  
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup analisi immagine**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup analisi immagine**, quindi scegli il collegamento correlato.
 2. I campi **Tipo di limite**, **Valore limite** e **Analisi eseguite** forniscono informazioni sull'utilizzo.  
 
 ## <a name="stop-using-the-image-analyzer-extension"></a>Interrompere l'utilizzo dell'estensione di analisi immagini
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli **Setup analisi immagine**.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli **Setup analisi immagine**.  
 2. Deselezionare il campo **Abilita analisi immagine**.  
 
-In alternativa, disinstalla completamente l'estensione. Puoi sempre recuperarla da AppSource. Per ulteriori informazioni, vedi [Installazione e disinstallazione delle estensioni in Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
+In alternativa, disinstalla completamente l'estensione. Puoi sempre recuperarla da AppSource. Per ulteriori informazioni, vedi [Installazione e disinstallazione delle estensioni in Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
 ## <a name="see-also"></a>Vedere anche
 

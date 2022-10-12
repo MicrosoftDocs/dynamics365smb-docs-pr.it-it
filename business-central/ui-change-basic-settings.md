@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528654"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606064"
 ---
 # <a name="change-basic-settings"></a>Modificare le impostazioni di base
 
@@ -29,41 +29,48 @@ Il ruolo determina la home page, una schermata iniziale che è progettata per le
 
 * Nella parte superiore, lo spostamento consente di esplorare clienti, fornitori, articoli e altri importanti elenchi di informazioni. In modo simile, le azioni consentono di avviare task, come creare una nuova fattura di vendita, direttamente dalla home page.
 
-* In Gestione ruolo utente, è presente l'area **Attività** che mostra i dati correnti e che può essere selezionata o toccata per visualizzare informazioni più dettagliate. È possibile impostare Indicatori delle prestazioni chiave (KPI) in modo da visualizzare un grafico selezionato per una rappresentazione visiva di, ad esempio, flussi di cassa o spese e ricavi. È inoltre possibile creare una lista di Clienti preferiti nella home page per gli account aziendali con cui si intrattengono affari spesso o a cui è importante prestare un'attenzione speciale.
+* In Gestione ruolo utente, è presente l'area **Attività** che mostra i dati correnti e che può essere selezionata per visualizzare informazioni più dettagliate. È possibile impostare Indicatori delle prestazioni chiave (KPI) in modo da visualizzare un grafico selezionato per una rappresentazione visiva di, ad esempio, flussi di cassa o spese e ricavi. È inoltre possibile creare una lista di Clienti preferiti nella home page per gli account aziendali con cui si intrattengono affari spesso o a cui è importante prestare un'attenzione speciale.
 
-### <a name="to-change-the-role"></a>Per modificare il ruolo
+### <a name="change-the-role"></a>Modificare il ruolo
 
 Il ruolo predefinito è **Manager aziendale**, ma è possibile selezionare un altro ruolo per utilizzare una gestione ruolo utente più adatta alle proprie esigenze.  
 
 1. Nell'angolo superiore destro scegli l'icona **Impostazioni** ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente"), quindi scegli l'azione **Impostazioni personali**.
 2. Nella pagina **Impostazioni personali** nel campo **Ruolo** selezionare il ruolo che si desidera utilizzare per impostazione predefinita. Ad esempio, selezionare **Contabile**.
-3. Scegliere il pulsante **OK**.
+3. Selezionare **OK**.
 
 ## <a name="company"></a><a name="company"></a>Società
 
-Una società funziona da contenitore dei dati in [!INCLUDE[prod_short](includes/prod_short.md)]. Possono essere presenti più società in un database, ma è possibile selezionarne solo una alla volta.
+Una società funziona da contenitore dei dati in [!INCLUDE[prod_short](includes/prod_short.md)]. Possono essere presenti più società in un database, ma è possibile selezionarne solo una alla volta. La società di default è detta CRONUS e contiene solo i dati di esempio.
+
+Il campo **Società** mostra la società in cui lavori attualmente e puoi usarlo per passare a un'altra società. Il nome della società viene sempre visualizzato nell'angolo in alto a sinistra e funziona come un'azione che è possibile scegliere per tornare a Gestione ruolo utente.
+
+> [!TIP]
+> È inoltre possibile modificare la società utilizzando il selettore di società (CTRL+O). Per ulteriori informazioni su questa funzionalità e altri modi per cambiare società o ambiente, vedi [Passaggio a un'altra società o ambiente](ui-organization-switch.md).
 
 La società di default è detta CRONUS e contiene solo i dati di esempio. È possibile creare una nuova società con dati personalizzati. Per ulteriori informazioni, vedere [Creazione di nuove società](about-new-company.md).
 
-### <a name="to-change-the-company-name"></a>Per cambiare il nome della società
+<!--
+### To change the company name
 
-Il nome della società viene sempre visualizzato nell'angolo in alto a sinistra e funziona come un'azione che è possibile scegliere per tornare a Gestione ruolo utente. Questo nome può essere modificato nella pagina **Informazioni società**.
+The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
-1. Scegli l'icona ![Icona ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) e quindi scegli l'azione **Informazioni società**.
-2. Nel campo **Nome** immettere il nuovo nome della società.
-3. Chiudere la pagina. Il sistema si riavvia e visualizza la nuova società nell'angolo superiore sinistro.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+2. In the **Name** field, enter the new company name.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Per visualizzare un badge società per un rapido accesso alle informazioni della società
+### <a name="badge"></a>To display a company badge for quick access to company information
 
-È possibile aggiungere un badge personalizzato nell'angolo superiore destro. Questo badge consente di visualizzare rapidamente il nome della società e le informazioni sul tenant in una finestra a comparsa. Il badge della società è utile anche quando [!INCLUDE[prod_short](includes/prod_short.md)] è incorporato in un'altra applicazione, come Microsoft Teams, o in qualche altra applicazione Web. In questi casi, poiché [!INCLUDE[web_client](includes/web_client.md)] mostra meno informazioni contestuali circostanti, il badge della società rappresenta l'unico modo per determinare a quale società o ambiente appartiene un record.
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.
-2. Nella Scheda dettaglio **Badge società** compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
-> Se viene definito un badge società, non è possibile modificare il nome della società come descritto in [Per cambiare il nome della società](ui-change-basic-settings.md#to-change-the-company-name)
+> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a>Data lavoro <a name="work-date"></a>
+
 La data di lavoro più comunemente utilizzata è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data odierna, può essere necessario modificare temporaneamente la data di lavoro.
 
 > [!TIP]  
@@ -84,7 +91,7 @@ Se la data del lavoro non è impostata sul giorno corrente (oggi), in tutte le p
 
 ## <a name="region"></a><a name="region"></a> Area geografica
 
-L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati. Determina anche quale carattere viene usato come separatore decimale quando si usa una tastiera numerica per inserire i dati. Per ulteriori informazioni, vedere [Inserimento dei dati](ui-enter-data.md#decimal).
+L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati. Determina anche quale carattere viene usato come separatore decimale quando si usa una tastiera numerica per inserire i dati. Per ulteriori informazioni, vedi [Immissione dati](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Lingua
 
@@ -100,7 +107,7 @@ Definisce il fuso orario in cui ti trovi. Quando accedi per la prima volta a [!I
 
 ## <a name="notifications"></a>Notifiche
 
-Scegli il collegamento *Modifica il momento in cui ricevere le notifiche* per visualizzare o modificare le notifiche ricevute in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Per ulteriori informazioni, vedere [Gestione delle notifiche](ui-smart-notifications.md).
+Scegli il collegamento *Modifica il momento in cui ricevere le notifiche* per visualizzare o modificare le notifiche ricevute in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Per ulteriori informazioni, vedi [Gestione delle notifiche](ui-smart-notifications.md).
 
 ## <a name="teaching-tips"></a>Suggerimenti didattici
 
@@ -108,10 +115,10 @@ Scegli il collegamento *Modifica il momento in cui ricevere le notifiche* per vi
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
-[Creazione di nuove società](about-new-company.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
+[Creazione di nuove società](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

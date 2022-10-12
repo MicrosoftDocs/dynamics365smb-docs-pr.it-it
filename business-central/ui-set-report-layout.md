@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535855"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606885"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Impostare il layout utilizzato da un report
 
@@ -25,17 +25,19 @@ Un layout di report determina l'aspetto di un report. Controlla quali campi di d
 
 Quando nell'applicazione sono presenti più società, i layout vengono impostati per società. Quindi lo stesso report in una società può avere un layout diverso in un'altra società.
 
-## <a name="get-started"></a>Inizia
+## <a name="get-started"></a>Introduzione
 
-Esistono due modi per impostare il layout utilizzato da un report. Un modo è dalla pagina **Selezione layout report**. L'altro modo è dalla pagina **Layout report**. Ogni pagina ha dei vantaggi, ad esempio: 
+Esistono diversi modi per impostare il layout utilizzato da un report. Ogni modo ha dei vantaggi, a seconda di cosa stai cercando di fare: 
 
-- La pagina **Selezione layout report** visualizza un elenco di tutti i report.
+- Dalla pagina di richiesta report
 
-  Questa pagina indica qual è il layout corrente di un report. Inoltre, puoi impostare layout in diverse società, senza dover cambiare la società con cui lavori.
+  Quando si imposta un report da eseguire, la pagina di richiesta report include il campo **Layout report** che mostra il layout predefinito corrente utilizzato dal report. Puoi utilizzare questo campo per passare temporaneamente a un altro layout disponibile del report che stai eseguendo. Dopo aver eseguito il report, il layout tornerà al layout predefinito. Per ulteriori informazioni, vedi [Eseguire e stampare i report](ui-work-report.md#switching-the-report-layout).
 
-- La pagina **Layout report** visualizza tutti i layout disponibili per ogni report nella società corrente.
+- Dalla pagina **Selezione layout report**
 
-  È facile trovare un layout specifico ordinando o filtrando l'elenco. Una volta trovato il layout, puoi impostarlo per un report con un'unica selezione.
+  La pagina **Selezione layout report** visualizza un elenco di tutti i report. Questa pagina indica qual è il layout predefinito corrente di un report. Ti consente di impostare layout in diverse società, senza dover cambiare la società con cui lavori.
+
+- Dalla pagina **Layout report** La pagina **Layout report** visualizza tutti i layout disponibili per ogni report nella società corrente. Viene anche utilizzata per specificare il layout predefinito per i report. È facile trovare un layout specifico ordinando o filtrando l'elenco. Una volta trovato il layout, puoi impostarlo per un report con un'unica selezione.
 
   > [!NOTE]
   > Non puoi usare la pagina **Layout report** per i layout di Word e RDLC creati utilizzando la funzionalità legacy **Layout personalizzati**. In effetti, non vedrai questi layout personalizzati elencati nella pagina **Layout report**. Per questi layout, puoi impostarli solo utilizzando la pagina **Selezione layout report**.
@@ -47,7 +49,7 @@ Esistono due modi per impostare il layout utilizzato da un report. Un modo è da
 
 ## <a name="set-the-layout-from-report-layout-selection-page"></a>Impostare il layout dalla pagina Selezione layout report
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Selezione layout report**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
   
    Nella pagina sono elencati tutti i report disponibili per la società che è specificata nel campo **Società** nella parte superiore della pagina. Il campo **Descrizione layout** specifica il layout che attualmente è utilizzato dal report.
 2. Imposta il campo **Società** nella parte superiore della pagina sulla società che include il report.

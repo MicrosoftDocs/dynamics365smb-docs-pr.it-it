@@ -1,6 +1,6 @@
 ---
 title: Creare schede articolo per beni o servizi (video)
-description: Crea le schede articolo per i servizi che vendi a ora e per i prodotti fisici, ad esempio articoli di assemblaggio, prodotti finiti che vendi dal magazzino.
+description: Crei schede articolo per i servizi che vendi a ore e per prodotti fisici. Gli esempi includono articoli di assemblaggio e prodotti finiti che vendi dal tuo inventario.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.date: 09/26/2022
 ms.author: edupont
-ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 945197681e32f6d77ede2f1b0e727892a64d8277
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532918"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604950"
 ---
 # <a name="register-new-items"></a>Registrare nuovi articoli
 
@@ -25,17 +25,18 @@ Le schede articolo contengono le informazioni richieste per l'acquisto, l'archiv
 
 La scheda articolo può essere di tipo **Inventario**, **Assistenza** o **Non in inventario** per specificare se la scheda articolo rappresenta un'unità fisica di inventario, un'unità di misura del tempo della manodopera o un'unità fisica non registrata in magazzino Per ulteriori informazioni, vedere [Informazioni sui tipi di articolo](inventory-about-item-types.md).
 
-È possibile che un articolo sia strutturato come articolo padre con elementi figlio sottostanti in una distinta base (BOM). In [!INCLUDE[prod_short](includes/prod_short.md)], una distinta base può essere una DB di assemblaggio o una DB di produzione, a seconda dell'utilizzo. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).
+È possibile che un articolo sia strutturato come articolo padre con elementi figlio sottostanti in una distinta base (BOM). Ulteriori informazioni sulle distinte base di assemblaggio e di produzione in [Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
 Se si acquista lo stesso articolo da più di un fornitore, è possibile collegare i fornitori alla scheda articolo. I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori** per poter selezionare facilmente un fornitore alternativo.
 
-Gli articoli offerti ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli possono essere impostati come articoli di catalogo. Gli articoli di catalogo non devono essere confusi con articoli normali di tipo **Non in inventario**. Per ulteriori informazioni, vedere [Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md).  
+Gli *Articoli di catalogo* sono articoli offerti ai clienti che non devono essere gestiti nel sistema fino a quando non si inizia a venderli. Gli articoli di catalogo non sono articoli normali di tipo **Non in inventario**. Per ulteriori informazioni, vedi [Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > Se esistono i modelli articolo per diversi tipi di articolo, allora verrà visualizzata una pagina quando si crea una nuova scheda articolo da cui è possibile selezionare un modello appropriato. Se esiste solo un modello articolo, allora le nuove schede articolo utilizzeranno sempre tale modello.
 
 La seguente procedura illustra come creare manualmente una scheda articolo da zero. È anche possibile creare nuove schede articolo copiando quelle esistenti. Per ulteriori informazioni, vedere [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).  
 
+<br />
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Per creare una nuova scheda articolo
@@ -59,13 +60,13 @@ Se si desidera utilizzare questa scheda articolo come modello quando si creano n
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**. Nella pagina **Modelli dimensioni** verranno visualizzati tutti i codici di dimensione impostati per l'articolo.
 4. Modificare o immettere i codici di dimensione da collegare alle nuove schede articolo create utilizzando la definizione.
-5. Una volta completato il nuovo modello articolo, scegliere **OK**.
+5. Una volta completato il nuovo modello articolo, scegli **OK**.
 
 Il modello articolo viene aggiunto all'elenco dei modelli articolo, in modo che sia possibile utilizzarlo per creare nuove schede articolo.
 
 ### <a name="items-used-in-production-orders"></a>Articoli utilizzati negli ordini di produzione
 
-Se si desidera registrare gli articoli che vengono quindi utilizzati negli ordini di produzione, specificare il sistema di rifornimento come *Ordine produzione* nella scheda dettaglio **Rifornimento**. Per ulteriori informazioni, vedere [Informazioni sugli ordini di produzione](production-about-production-orders.md).  
+Se vuoi registrare gli articoli che vengono quindi utilizzati negli ordini di produzione, specifica il sistema di rifornimento come *Ordine produzione* nella scheda dettaglio **Rifornimento**. Per ulteriori informazioni, vedere [Informazioni sugli ordini di produzione](production-about-production-orders.md).  
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Per impostare più fornitori per un articolo
 
@@ -82,17 +83,17 @@ I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori**
 
 ## <a name="set-up-item-substitutions"></a>Configurare articoli sostitutivi
 
-È possibile impostare articoli in modo che abbiano sostituti, ad esempio altri articoli che possono essere utilizzati al posto dell'articolo originale.
+È possibile impostare articoli in modo che abbiano articoli sostitutivi, ad esempio altri articoli che possono essere utilizzati al posto dell'articolo originale.
 
 ### <a name="to-make-an-item-substitution"></a>Per sostituire un articolo
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.  
-2. Trova l'elemento pertinente, quindi fai clic su **Nr. Articolo** per aprire la Scheda articolo.  
-3. Scegli l'azione **Correlato**, quindi scegli **Articolo**, **Sostituzioni** per aprire la pagina Mov. articoli sostitutivi.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , inserisci **Elemento** e scegli il link relativo.  
+2. Trova l'elemento pertinente, quindi scegli **Nr. Articolo** per aprire la Scheda articolo.  
+3. Scegli l'azione **Correlato**, quindi scegli **Articolo**, **Sostituzioni** per aprire la pagina **Mov. articoli sostitutivi**.  
 4. Scegli il campo **Nr. sostituto** quindi seleziona l'articolo sostitutivo nell'elenco.
-5. Continua a compilare o a modificare altri campi nella pagina in base alle necessità.
+5. Compila o modifica altri campi nella pagina in base alle necessità.
 
-Quando la quantità richiesta, come una riga di vendita, supera la quantità disponibile in magazzino, un messaggio viene visualizzato per informare che esistono articoli sostitutivi.
+Quando la quantità richiesta supera la quantità disponibile in magazzino, un messaggio viene visualizzato per informare che esistono articoli sostitutivi.
 
 > [!NOTE]  
 > Tieni presente che le sostituzioni non determinano automaticamente la sostituzione di un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
@@ -101,15 +102,17 @@ Quando la quantità richiesta, come una riga di vendita, supera la quantità dis
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
+Ulteriori informazioni sulle varianti in [Gestire le varianti di prodotto](inventory-item-variants.md).  
+
 ## <a name="deleting-item-cards"></a>Eliminazione delle schede articolo
 
 Se è stata registrata una transazione per un articolo, non è possibile eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo o la valutazione del magazzino. Per eliminare le schede articoli con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.  
 
 ## <a name="manage-inventory-in-warehouses"></a>Gestione del magazzino in warehouse
 
-Quando si registra un nuovo articolo, vengono visualizzati i campi relativi alla gestione del magazzino, in particolare nella scheda dettaglio **Warehouse**. Se l'organizzazione non utilizza le funzionalità di gestione del magazzino in [!INCLUDE [prod_short](includes/prod_short.md)] è possibile ignorare quei campi.  
+Quando registri un nuovo articolo, vengono visualizzati i campi relativi alla gestione del magazzino, in particolare nella scheda dettaglio **Warehouse**. Se l'organizzazione non utilizza le funzionalità di gestione del magazzino in [!INCLUDE [prod_short](includes/prod_short.md)] è possibile ignorare quei campi.  
 
-Se l'organizzazione successivamente imposta la gestione del magazzino, nella maggior parte dei casi, è necessario tornare a ciascun articolo esistente per assicurarsi che abbia le informazioni corrette nei vari campi, in modo che i processi di magazzino possano essere eseguiti come previsto. Queste informazioni possono includere campi come **Codice classe warehouse** o **Codice modello stoccaggio**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md).  
+Se la tua organizzazione in seguito imposta la gestione del magazzino, ti consigliamo di assicurarti che ogni articolo esistente abbia le informazioni corrette nei vari campi. In questo modo, i processi di magazzino possono essere eseguiti come previsto. Le informazioni possono includere campi come **Codice classe warehouse** o **Codice modello stoccaggio**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md).  
 
 ## <a name="planning"></a>Pianificazione
 
@@ -123,7 +126,8 @@ Per esempi di come è possibile utilizzare i campi nella Scheda dettaglio **Pian
 
 [Magazzino](inventory-manage-inventory.md)  
 [Impostare unità di misura](inventory-how-setup-units-of-measure.md)  
-[Nomenclatura combinata](finance-how-setup-report-intrastat.md#tariff-numbers)  
+[Gestire le varianti di prodotto](inventory-item-variants.md)  
+[Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Creazione di numerazioni](ui-create-number-series.md)  
 [Impostazione delle categorie di registrazione](finance-posting-groups.md)  

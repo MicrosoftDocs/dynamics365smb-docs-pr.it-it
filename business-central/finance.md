@@ -8,20 +8,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bd8bd7089be89c9d5a2f57b53b104a2b5ac2a565
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515643"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605004"
 ---
 # <a name="financial-management"></a>Gestione contabile
 
-[!INCLUDE[prod_short](includes/prod_short.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedi [Impostazione degli aspetti finanziari](finance-setup-finance.md).
 
-La configurazione predefinita include un piano dei conti e le categorie di registrazione standard che consentono di rendere più efficiente il processo di assegnazione dei conti COGE predefiniti a clienti, fornitori e articoli.  
+La configurazione predefinita include un piano dei conti e le categorie di registrazione standard che consentono di rendere più efficiente il processo di assegnazione dei conti C/G predefiniti a clienti, fornitori e articoli.  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
 
@@ -30,34 +30,34 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Collegare i pagamenti in entrata, riconciliare i conti bancari durante il collegamento di pagamento e riscuotere i saldi inevasi. |[Gestione della contabilità clienti](receivables-manage-receivables.md) |
 | Effettuare i pagamenti, collegare i pagamenti in uscita e utilizzare gli assegni. |[Gestione della contabilità fornitori](payables-manage-payables.md) |
 |I clienti devono eseguire il pagamento prima che venga spedita loro la merce o devono pagare i fornitori prima che questi spediscano la merce.|[Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)|
-| Riconciliare i conti bancari e trasferire i fondi tra conti bancari. |[Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md) |
+| Riconcilia e trasferisci i fondi tra conti bancari. |[Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md) |
 |Impostare i partner intercompany ed elaborare le transazioni, manualmente o automaticamente, tra le persone giuridiche all'interno della stessa società.|[Gestione delle transazioni Intercompany](intercompany-manage.md)|
 |Analizzare i costi di gestione dell'azienda allocando i costi effettivi e a budget di operazioni, dipartimenti, prodotti e progetti a centri di costo.|[Contabilizzazione dei costi](finance-manage-cost-accounting.md)|
-|Gestire i costi di magazzino e di produzione, creare report dei costi e riconciliare i costi con la contabilità generale.|[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)|
-| Comprendere la contabilità generale e il piano dei conti. |[Informazioni sulla contabilità generale e COA](finance-general-ledger.md) |
+|Gestisci i costi di magazzino e di produzione, crea report dei costi e riconcilia i costi con la contabilità generale.|[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)|
+| Informazioni sulla contabilità generale e sul piano dei conti. |[Informazioni sulla contabilità generale e COA](finance-general-ledger.md) |
 |Combinare i movimenti di contabilità generale di più società in una "società consolidata“ virtuale per analisi finanziarie.|[Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)|
 | Aggiungere le dimensioni per Business Intelligence più dettagliata. |[Utilizzare le dimensioni](finance-dimensions.md) |
-| Creare i budget C/G per prevedere diverse attività finanziarie e assegnare le dimensioni per scopi di business intelligence. |[Creare budget C/G](finance-how-create-budgets.md) |
-|Registrare le entrate o le spese direttamente nella contabilità generale senza registrare documenti aziendali dedicati.|[Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)|
-|Registrare i movimenti di pareggio per annullare le registrazioni dei valori nelle registrazioni o le registrazioni delle quantità sui documenti di vendita e di acquisto. |[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)|
+| Crea i budget di contabilità generale (C/G) per prevedere diverse attività finanziarie e assegna le dimensioni per scopi di business intelligence. |[Creare budget C/G](finance-how-create-budgets.md) |
+|Registra le entrate o le spese direttamente nella contabilità generale senza registrare documenti aziendali dedicati.|[Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)|
+|Registra i movimenti di pareggio per annullare le registrazioni dei valori nelle registrazioni o le registrazioni delle quantità sui documenti di vendita e di acquisto. |[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)|
 |Assegnare un movimento in una registrazione generale a più conti, quando tale registrazione viene contabilizzata. |[Allocazione di costi e ricavi](year-allocate-costs-income.md) |
-| Assegnare costi aggiuntivi, quali il trasporto e la gestione fisica sopportata durante il commercio, agli articoli interessati in modo da riflettere i costi nella valutazione di magazzino. |[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md) |
-|Registrare le spese personali dei dipendenti per le attività aziendali e rimborsare i dipendenti effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
-| Riconoscere i ricavi e le spese in periodi diversi da quando sono state registrate le transazioni. |[Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)|
+| Assegna costi aggiuntivi, quali il trasporto e la gestione fisica sopportata durante il commercio, agli articoli interessati. In questo modo il costo si riflette nella valutazione dell'inventario. |[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md) |
+|Registra le spese dei dipendenti per attività legate al lavoro ed effettua rimborsi direttamente sui conti bancari dei dipendenti.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
+| Alloca i ricavi e le spese a periodi diversi da quando sono state effettivamente registrate le transazioni. |[Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)|
 | Informazioni sulle opzioni disponibili per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico. |[Utilizzo del ricavo ricorrente](finance-recurring-invoicing.md)|
 |Imparare a utilizzare valute aggiuntive e ad aggiornare i tassi di cambio automaticamente. |[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|
 | Importare le transazioni degli stipendi dal sistema di gestione delle retribuzioni nella contabilità generale. |[Importa transazioni retribuzioni](finance-how-import-payroll-transactions.md)|
-|Utilizzare le funzioni per calcolare l'imposta sul valore aggiunto (VAT) sulle transazioni di vendita e acquisto in modo da segnalare gli importi alle autorità fiscali.|[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)|
-|Preparare un report che elenca l'IVA di vendita e inviare il report alle autorità fiscali in UE. | [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
+|Calcola l'imposta sul valore aggiunto (VAT) sulle transazioni di vendita e acquisto in modo da segnalare gli importi alle autorità fiscali.|[Utilizzare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)|
+|Prepara un report che elenca l'IVA di vendita e inviare il report alle autorità fiscali in Unione Europea (UE). | [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
 |Convertire manualmente i contratti di servizio per modificare la loro aliquota VAT.|[Convertire i contratti di assistenza che includono importi IVA](service-how-to-convert-service-contracts.md)|
 | Monitorare il flusso dei contanti in entrata e in uscita dell'azienda. |[Analizzare i flussi di cassa dell'azienda](finance-analyze-cash-flow.md) |
-|Segui una procedura end-to-end sull'utilizzo delle situazioni contabili per fare previsioni sul flusso di cassa.|[Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando le situazioni contabili](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
-| Utilizzare rendiconti finanziari e le sintesi fornite in Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
+|Segui una procedura end-to-end sull'utilizzo dei report finanziari per fare previsioni sul flusso di cassa.|[Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando i report finanziari](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Utilizza i rendiconti finanziari e le sintesi fornite in Microsoft Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
 |Informazioni su come utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare l'hub aziendale per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Guardare un video
 
-Il video seguente presenta alcune delle funzionalità chiave per la gestione delle finanze. <br><br>  
+Questo video presenta alcune delle funzionalità chiave per la gestione delle finanze. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
@@ -73,6 +73,5 @@ Il video seguente presenta alcune delle funzionalità chiave per la gestione del
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

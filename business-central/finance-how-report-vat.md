@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532729"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617850"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Dichiarare l'IVA all'autorità fiscale
 
@@ -30,7 +30,7 @@ Questo argomento descrive i report [!INCLUDE[prod_short](includes/prod_short.md)
 
     Il report Dichiarazione IVA include gli importi IVA per vendite e acquisti a clienti e da fornitori in tutti i paesi che utilizzano l'IVA.  
 
-In entrambi i casi, l'IVA viene calcolata in base al setup registrazioni IVA e alle categorie di registrazione IVA impostate.
+In entrambi i casi, l'IVA viene calcolata in base al setup registrazioni IVA e alle categorie di registrazione IVA impostate. [!INCLUDE[prod_short](includes/prod_short.md)] mostra i movimenti IVA in base alla **Data IVA**.
 
 Se si desidera visualizzare uno storico completo delle voci di IVA, ogni registrazione che implica l'iVA crea una voce nella pagina **Movimenti IVA**. Questi movimenti vengono utilizzati per calcolare l'importo della liquidazione dell'IVA, ovvero un versamento o un rimborso, per un periodo specifico. Per vedere i movimenti IVA, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti IVA**, quindi scegli il collegamento correlato.
 

@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2022
+ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 8fd3d76ed8affd506ad4cd1838a182e595ecb0bf
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528507"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607474"
 ---
 # <a name="sharing-business-data-from-business-central"></a>Condivisione dei dati aziendali da Business Central
 
@@ -42,7 +42,7 @@ Per ulteriori informazioni, vedere [Ricerca, filtro e ordinamento](ui-enter-crit
 
 ![Supportata](media/check.png) Business Central Online ![Non supportato](media/x-icon.png) Business Central in locale
 
-Direttamente dalla maggior parte delle pagine di raccolta e delle pagine dei dettagli, puoi inviare un collegamento della pagina a persone, chat di gruppo o canali. Per esempio, puoi condividere un collegamento a una visualizzazione filtrata dei tuoi record. I destinatari possono quindi selezionare il collegamento per aprire la pagina in Business Central.
+Direttamente dalla maggior parte delle pagine di raccolta e delle pagine dei dettagli, puoi inviare un collegamento della pagina a persone, chat di gruppo o canali. Per esempio, puoi condividere un collegamento a una visualizzazione filtrata dei tuoi record. Se hai installato l'app [!INCLUDE[prod_short](includes/prod_short.md)] per Teams, il collegamento si espanderà automaticamente in una scheda compatta da includere nel messaggio. I destinatari possono quindi selezionare il collegamento o la scheda per aprire la pagina in Business Central.
 
 Per ulteriori informazioni, vedi [Condivisione di record e collegamenti di pagina in Teams](across-working-with-teams.md).
 

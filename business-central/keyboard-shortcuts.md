@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 05/23/2022
+ms.date: 08/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531136"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606669"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -56,15 +56,16 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 |ALT+MAIUSC+N |Chiudere una pagina appena creata e aprirne una nuova per creare un nuovo record. In modo analogo, ALT+F9 registra un documento e ne crea uno nuovo.|
 |ALT+T|Aprire la pagina **Impostazioni personali**.|
 |ALT + freccia DESTRA|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit.](media/assist-edit-icon.png "Pulsante AssistEdit") . Utilizzato quando il pulsante a discesa usuale (ALT+Freccia GIÙ) nello stesso campo viene utilizzato per un altro scopo.|
-|CTRL+ALT+MAIUSC+C|Visualizzare informazioni nel badge società.|
-|CTRL+ALT+F1|Aprire e chiudere il riquadro Controllo pagina. Il riquadro Controllo pagina mostra informazioni sulla pagina, come la relativa tabella di origine, campi, filtri, estensioni e altro.<br /><br />Per ulteriori informazioni, vedere [Controllo di pagine](across-inspect-page.md).|
+|CTRL+ALT+MAIUSC+C|Visualizzare informazioni nel badge società. Questo collegamento è stata interrotto nel secondo ciclo di rilascio di Business Central 2022 (versione 21) e sostituito da CTRL+O. |
+|Ctrl+Alt+F1|Aprire e chiudere il riquadro Controllo pagina. Il riquadro Controllo pagina mostra informazioni sulla pagina, come la relativa tabella di origine, campi, filtri, estensioni e altro.<br /><br />Per ulteriori informazioni, vedere [Controllo di pagine](across-inspect-page.md).|
 |CTRL+C |Copiare il valore del campo. Se lo stato attivo è sul campo e non si è selezionato alcun testo nel campo, verrà copiato l'intero valore. Se è stato selezionato del testo nel campo, verrà copiato solo il testo selezionato.|
-|Ctrl+F1|Apri il [riquadro della guida](product-help-and-support.md#help-pane) o un articolo della guida di Business Central su [Microsoft Docs](/dynamics365/business-central/), a seconda della versione di Business Central.|
+|Ctrl+F1|Apri il [riquadro della guida](product-help-and-support.md#help-pane) o un articolo della guida di Business Central su [Microsoft Learn](/dynamics365/business-central/), a seconda della versione di Business Central.|
 |Ctrl+F12|Passare dalla visualizzazione a layout ampio a quella a layout stretto e viceversa.|
 |CTRL+clic|Navigare durante la personalizzazione quando l'azione è evidenziata con una freccia. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).|  
 |Ctrl+F5|Ricaricare l'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] (equivale ad aggiornare/ricaricare nel browser).|
 |F5|Aggiornare i dati nella pagina corrente.<br /><br />Utilizzare questo tasto per garantire che i dati nella pagina siano aggiornati con le modifiche apportate da altri utenti mentre si sta lavorando.|
-|Immettere|Abilitare l'elemento o il comando con lo stato attivo o accedervi.|
+|Ctrl+O|Apri il riquadro **Società disponibili** per passare a un'altra società o ambiente. Per ulteriori informazioni, vedere [Passare a un'altra società o ambiente](ui-organization-switch.md).|
+|Invio|Abilitare l'elemento o il comando con lo stato attivo o accedervi.|
 |ESC|Chiudere la pagina corrente o l'elenco a discesa.|
 |TAB|Spostare lo stato attivo sul controllo o sull'elemento successivo in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|
 |MAIUSC+TAB|Spostare lo stato attivo sul controllo o sull'elemento precedente in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|

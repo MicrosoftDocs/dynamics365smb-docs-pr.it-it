@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a485162cb194f7f16ff7c33c3e4a095865d35daf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8a3588e83ad0a75c4ac9167329659b25ed52320e
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520466"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606334"
 ---
 # <a name="undo-assembly-posting"></a>Annullare la registrazione di assemblaggi
+
 Talvolta può essere necessario annullare un ordine di assemblaggio registrato, ad esempio se l'ordine è stato registrato con errori che devono essere corretti o perché non avrebbe dovuto essere inizialmente registrato ed è necessario eseguirne il rollback.
 
 Se si annulla un ordine di assemblaggio registrato, viene creato un set di movimenti contabili articoli correttivi per stornare i movimenti originali. Ogni movimento di output positivo per l'articolo di assemblaggio viene stornato da un movimento di output negativo. Ogni movimento di consumo negativo per un componente di assemblaggio viene stornato da un movimento di consumo positivo. Il collegamento a costo fisso viene creato automaticamente tra i movimenti correttivi e originali per assicurare lo storno del costo esatto.  
@@ -39,7 +40,8 @@ Inoltre, gli ordini di assemblaggio esistenti possono essere ripristinati solo s
 
 La procedura seguente illustra come annullare ordini di assemblaggio registrati in cui gli articoli sono stati assemblati per magazzino. Per annullare gli ordini di assemblaggio registrati in cui gli articoli sono stati assemblati in un ordine di vendita, è necessario utilizzare la funzione **Eliminare spedizione** nella spedizione registrata che si riferisce all'ordine di assemblaggio registrato. Per ulteriori informazioni, vedere [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md). L'annullamento dell'ordine di assemblaggio registrato viene quindi eseguito automaticamente come descritto in questo argomento.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Per annullare la registrazione di un ordine di assemblaggio  
+## <a name="to-undo-posting-of-an-assembly-order"></a>Per annullare la registrazione di un ordine di assemblaggio
+
 1.  Per annullare un ordine di assemblaggio registrato completamente o parzialmente, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini assemblaggio registrati**, quindi scegli il collegamento correlato.  
 
     Verrà visualizzata la pagina **Ordini di assemblaggio registrati** con uno o più ordini di assemblaggio che sono stati registrati dall'ordine di assemblaggio in questione. Ogni registrazione parziale crea un ordine di assemblaggio registrato separato.  
@@ -53,11 +55,12 @@ Il campo **Stornato** nella testata ordine di assemblaggio viene impostato su **
 > [!NOTE]  
 >  Per ripristinare quantità da registrazioni parziali multiple in un ordine di assemblaggio, è necessario annullare tutti gli ordini di assemblaggio registrati in questione seguendo i passaggi da 1 a 3 precedenti per ogni ordine di assemblaggio registrato.  
 
-## <a name="see-also"></a>Vedere anche  
+## <a name="see-also"></a>Vedere anche
+
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
-[Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md)    
-[Utilizzare le distinte base](inventory-how-work-BOMs.md)  
+[Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md)  
+[Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md)  
+[Utilizzare le distinte base di assemblaggio](assembly-how-work-assembly-boms.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

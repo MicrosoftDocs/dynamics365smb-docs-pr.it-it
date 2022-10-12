@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528451"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617795"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Condivisione di record e link di pagine di Business Central in Microsoft Teams
 
@@ -102,18 +102,24 @@ Per ulteriori informazioni sull'utilizzo delle schede e sui dettagli delle sched
 
 Direttamente dalla maggior parte delle pagine di raccolta, come la pagina degli **articoli**, e dalle pagine dei dettagli, come la scheda degli **articoli**, puoi inviare un link alla pagina a destinatari specifici in una conversazione di Team. Per esempio, puoi condividere un link a una vista filtrata dei tuoi record. I destinatari possono quindi selezionare il link per aprire la pagina in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ![Il menu Condividi visualizzato su una scheda.](media/teams-share-link.png "Il menu Condividi visualizzato su una scheda.")
+[![Il menu Condividi visualizzato su una scheda.](media/teams-share-link-v2.png "Il menu Condividi visualizzato su una scheda.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Prerequisiti
-Avere accesso a Microsoft Teams.
+
+- Avere accesso a Microsoft Teams.
+- (Facoltativo) Avere installato l'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams. 
+
+  Con l'app installata, i messaggi che invii con il collegamento includeranno anche una scheda compatta per la pagina. Per ulteriori informazioni su come installare l'app, vedi [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Condividi un link
 
 1. In [!INCLUDE [prod_short](includes/prod_short.md)]\, apri la pagina che vuoi condividere.
 2. Nella parte superiore della pagina, scegli l'azione ![!Condividi con altre app sulle pagine.](media/share-icon.png) e poi **Condividi in Teams**.
 3. Se ti viene chiesto, accedi a Teams con il tuo nome utente e la tua password.
-4. Nella pagina **Condividi in Teams**, digita il nome di una persona, gruppo o canale a cui vuoi inviare il messaggio. 
-5. La casella del messaggio includerà un link alla pagina. Aggiungi altre informazioni se vuoi, poi scegli **Condividi**.
+4. Nella pagina **Condividi in Teams**, digita il nome di una persona, gruppo o canale a cui vuoi inviare il messaggio.
+5. La casella del messaggio includerà un link alla pagina. Se l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Teams è installata, nella finestra del messaggio apparirà anche una scheda per il record o la pagina collegati.
+
+   Aggiungi altre informazioni se vuoi, poi scegli **Condividi**.
 6. Il link è stato condiviso. Se vuoi andare alla conversazione, scegli **Vai a Teams**.
 
 ## <a name="see-also"></a>Vedere anche
@@ -127,6 +133,5 @@ Avere accesso a Microsoft Teams.
 [Sviluppare per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

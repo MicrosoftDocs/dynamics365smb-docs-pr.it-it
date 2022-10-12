@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535319"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606442"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Utilizzare i report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -52,7 +52,7 @@ Quando si accede per la prima volta a [!INCLUDE [prod_short](includes/prod_short
     - Se non ti sei ancora registrato a Power BI, seleziona [Vai alla Home Page di Power BI](https://powerbi.microsoft.com). Crea un account, quindi torna a [!INCLUDE[prod_short](includes/prod_short.md)] e completa la configurazione.
 
     - Se hai già una licenza, seleziona **Avanti**.
-4. Nella pagina successiva, [!INCLUDE[prod_short](includes/prod_short.md)] caricherà ora un report demo su Power BI. Questa operazione richiederà alcuni minuti, pertanto viene eseguita in background. Per completare la configurazione, seleziona **Avanti**, quindi **Fine**.
+4. Nella pagina successiva, [!INCLUDE[prod_short](includes/prod_short.md)] caricherà ora un report demo su Power BI. Questo passaggio richiederà alcuni minuti, pertanto viene eseguito in background. Per completare la configurazione, seleziona **Avanti**, quindi **Fine**.
 
 Viene avviato il processo di connessione. Durante il processo, [!INCLUDE [prod_short](includes/prod_short.md)] comunica con il servizio Power BI per determinare se si dispone di un account Power BI valido e di una licenza. Dopo la verifica della licenza, il report Power BI predefinito viene visualizzato nella pagina. Se non viene visualizzato un report, è possibile selezionare un report dalla parte.
 
@@ -69,9 +69,14 @@ Una volta connessi è possibile selezionare un report dalla parte Power BI nelle
 
 ### <a name="show-reports-on-list-pages"></a>Visualizza i report sulle pagine di elenco
 
-[!INCLUDE[prod_long](includes/prod_long.md)] include un riquadro Dettaglio informazioni Power BI su diverse pagine elenco chiave. Questo riquadro Dettaglio informazioni fornisce ulteriori informazioni sui dati nell'elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata. Se non è visibile questa parte, dalla barra delle azioni selezionare **Azioni** > **Schermo** > **Mostra/Nascondi report Power BI**.
+[!INCLUDE[prod_long](includes/prod_long.md)] include un riquadro Dettaglio informazioni Power BI su diverse pagine elenco chiave. Questo riquadro Dettaglio informazioni fornisce ulteriori informazioni sui dati nell'elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata.
 
 Per informazioni su come creare report per le pagine di elenco, vedi [Creazione di report Power BI per la visualizzazione dei dati dell'elenco in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Se non vedi il riquadro Dettaglio Power BI, potrebbe essere nascosto nella tua area di lavoro dalla personalizzazione. Seleziona l'icona ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e poi l'azione **Personalizza**. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md).
+>
+> Oppure, se disponi di una versione precedente di Business Central, vai alla barra delle azioni, seleziona **Azioni** > **Visualizza** > **Mostra/nascondi report Power BI**.
 
 ### <a name="switch-reports"></a>Cambia rapporti
 
@@ -121,7 +126,7 @@ Un account Power BI non è stato impostato. Per ottenere un account Power BI val
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Messaggio: Non sono presenti report abilitati. Scegliere Seleziona report per visualizzare un elenco di report che è possibile visualizzare.
 
-Questo messaggio viene visualizzato se la distribuzione del report predefinito non è riuscita nell'area di lavoro Power BI. In alternativa il report è stato distribuito ma non è stato aggiornato correttamente. Accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, tornare a [!INCLUDE[prod_short](includes/prod_short.md)] e selezionare manualmente il report dalla pagina **Selezionare i report**.
+Questo messaggio viene visualizzato se la distribuzione del report predefinito non è riuscita nell'area di lavoro Power BI. In alternativa il report è stato distribuito ma non è stato aggiornato correttamente. Accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, torna a [!INCLUDE[prod_short](includes/prod_short.md)] e seleziona manualmente il report dalla pagina **Selezionare i report**.
 
 #### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Non è possibile visualizzare un report nella pagina Seleziona report in una pagina di elenco
 
@@ -143,8 +148,7 @@ Probabilmente è perché il nome del report non contiene il nome della pagina di
 [Preparazione al business](ui-get-ready-business.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 

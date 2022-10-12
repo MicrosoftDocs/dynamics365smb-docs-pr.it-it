@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 45fec99ad6082f8d0bb7258415477df833712b41
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523321"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605767"
 ---
 # <a name="setting-up-manufacturing"></a>Impostazione della produzione
 
@@ -24,9 +24,7 @@ Nel sistema operatori e macchine sono rappresentati come centri di lavoro che po
 
 Dopo l'impostazione della produzione, è possibile pianificare ed eseguire gli ordini di produzione. Per ulteriori informazioni, vedere [Pianificazione](production-planning.md) e [Manufacturing](production-manage-manufacturing.md).  
 
-
-
- Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
@@ -42,11 +40,11 @@ Dopo l'impostazione della produzione, è possibile pianificare ed eseguire gli o
 |Preparare le aree di produzione e i cicli per rappresentare le operazioni di produzione in conto lavoro.|[Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Vedere anche
-[Manufacturing](production-manage-manufacturing.md)
-[Pianificazione](production-planning.md)   
+
+[Manufacturing](production-manage-manufacturing.md)  
+[Pianif.](production-planning.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

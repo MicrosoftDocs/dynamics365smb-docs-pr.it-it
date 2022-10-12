@@ -1,34 +1,35 @@
 ---
 title: Prelevare per le operazioni interne in configurazioni di warehouse avanzate
-description: Se le ubicazioni utilizzano sia il prelievo che la spedizione, prelevare i componenti per le attività di produzione e assemblaggio nella pagina Prelievo warehouse.
-author: SorenGP
+description: Se le ubicazioni utilizzano il prelievo e la spedizione, preleva i componenti per le attività di produzione, assemblaggio e commessa nella pagina Prelievo warehouse.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a0704d35debbe8cdd7c2be240c6a02759a919795
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/02/2022
+ms.author: bholtorf
+ms.openlocfilehash: 2ef879e5dbabb9281114d62a956ad4b10113c199
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531244"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607555"
 ---
-# <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Prelevare per produzione o assemblaggio in configurazioni di warehouse avanzate
+# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate
 
 Nelle configurazioni di warehouse avanzate in cui l'ubicazione è impostata in modo da utilizzare sia il prelievo che la spedizione, è possibile prelevare componenti per le attività di assemblaggio e produzione tramite la pagina **Prelievo warehouse**.  
 
-In alternativa, è possibile utilizzare la pagina **Prospetto movimentazioni** per spostare gli articoli tra le collocazioni ad hoc, ovvero senza riferimento a un documento di origine. Per ulteriori informazioni, vedere [Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Puoi anche utilizzare la pagina **Prospetto movimentazioni** per spostare gli articoli tra le collocazioni, ovvero senza riferimento a un documento di origine. Per ulteriori informazioni, vedere [Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
-Per informazioni sugli articoli di prelievo per le operazioni interne nelle ubicazioni di warehouse impostate per prelevare solo, vedere [Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)..  
+Per informazioni sugli articoli di prelievo nelle ubicazioni di warehouse impostate per prelevare solo, vedi [Spostare componenti in un'area di operazione nelle configurazioni di warehouse di base](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)..  
 
-Non è possibile creare un documento di prelievo warehouse da zero perché un'attività di prelievo fa sempre parte di un flusso di lavoro, in uno scenario di tipo push o pull.  
+> [!NOTE]
+> Non è possibile creare un documento di prelievo warehouse da zero perché un'attività di prelievo fa sempre parte di un flusso di lavoro, in uno scenario di tipo push o pull.  
 
 È possibile creare il documento di prelievo warehouse in modalità push selezionando **Crea prelievo whse.** nel documento di origine, ad esempio un ordine di assemblaggio rilasciato o una spedizione warehouse. Per ulteriori informazioni, vedere [Prelevare articoli con prelievi warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-In alternativa, è possibile creare il documento di prelievo warehouse in modalità pull mediante la pagina **Prospetto prelievi** per verificare le richieste di prelievo, sia per la spedizione che per le operazioni interne, quindi creare i documenti di prelievo warehouse necessari.  
+È inoltre possibile creare un documento di prelievo warehouse in modalità pull utilizzando la pagina **Prospetto prelievi** per rilevare le richieste di prelievo. Questo metodo è utile per la spedizione e le operazioni interne. Puoi quindi creare i documenti di prelievo warehouse richiesti.  
 
 La procedura seguente illustra uno scenario di tipo pull in cui si prelevano componenti per un ordine di produzione rilasciato tramite la pagina **Prospetto prelievi**. La procedura si applica anche a un ordine di assemblaggio.  
 
@@ -37,18 +38,19 @@ Per creare richieste di prelievo, sia per scenari pull e push, i documenti di or
 |Documento origine|Metodo di rilascio|  
 |---------------------|--------------------|  
 |Ordine di produzione|Modificare il tipo di ordine in Ordine produzione rilasciato.|  
-|Ordine di assemblaggio|Modificare lo stato in Rilasciato.|  
+|Ordine di assemblaggio|Modificare lo stato in Rilasciato.|
+|Commesse | Modifica lo stato in Aperto.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Per prelevare componenti mediante i prospetti prelievi
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
-2.  Scegliere l'azione **Prendi documenti warehouse**, quindi selezionare le righe componenti dall'ordine di produzione rilasciato.  
-3.  Controllare le righe, ordinarle in modo da ottenere un percorso di prelievo efficiente e combinarle con altre righe del prospetto, se necessario, in modo da ottimizzare i tempi di esecuzione delle attività da parte degli addetti al magazzino.  
-4.  Scegliere l'azione **Crea prelievo**.  
-5.  Definire come creare documenti di prelievo warehouse e come ordinare le righe prelievo compilando i campi nella pagina **Crea prelievo**.  
-6.  Scegliere il pulsante **OK**. I documenti di prelievo warehouse vengono creati con le righe prelievo per ogni componente richiesto nell'operazione interno.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
+2. Scegliere l'azione **Prendi documenti warehouse**, quindi selezionare le righe componenti dall'ordine di produzione rilasciato.  
+3. Ordina le righe per garantire un prelievo efficiente. Potresti voler combinare le righe per risparmiare tempo ai dipendenti.  
+4. Scegliere l'azione **Crea prelievo**.  
+5. Definire come creare documenti di prelievo warehouse e come ordinare le righe prelievo compilando i campi nella pagina **Crea prelievo**.  
+6. Scegliere il pulsante **OK**. I documenti di prelievo warehouse vengono creati con le righe prelievo per ogni componente richiesto nell'operazione interno.  
 
-Se l'area dell'operazione interna, ad esempio il reparto di produzione, è impostata con una collocazione di default per il posizionamento dei componenti da utilizzare nell'operazione, il codice collocazione viene inserito nelle righe dell'area nel documento di prelievo warehouse per indicare agli addetti warehouse dove posizionare gli articoli. Per ulteriori informazioni, vedere il campo **Cod. coll. art. per produzione** o **Cod. coll. art. per assembl**.
+Le aree operative come le officine di produzione potrebbero avere una collocazione predefinita per i componenti di cui hanno bisogno. In tal caso, il codice collocazione predefinito viene aggiunto al documento di prelievo warehouse per indicare dove inserire gli articoli. Per ulteriori informazioni, vedi i suggerimenti per i campi **Cod. coll. art. per produzione** o **Cod. coll. art. per assembl**.
 
 ## <a name="filling-the-consumption-bin"></a>Rifornimento della collocazione di consumo
 

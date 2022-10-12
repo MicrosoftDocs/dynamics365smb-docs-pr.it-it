@@ -8,29 +8,63 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 07/04/2022
+ms.date: 08/30/2022
 ms.author: edupont
-ms.openlocfilehash: 008c0d35c8bfefdf002e08b967ddc1a9336b04a5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 82083beeb1779455fbd4b8a6083663b5559129eb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530380"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606615"
 ---
 # <a name="setting-up-purchasing"></a>Impostazioni acquisti
 
 Prima di poter gestire i processi di acquisto, è necessario configurare le regole e i valori che definiscono i criteri di acquisto dell'azienda.
 
-È necessario definire le impostazioni generali, ad esempio i documenti di acquisto richiesti e la modalità di registrazione del relativo valore. Queste impostazioni generali vengono in genere eseguite una volta durante l'implementazione iniziale.
+È necessario definire l'impostazione generale nella pagina **Setup contabilità fornitori**, che in genere viene eseguita una volta durante l'implementazione iniziale. Scopri di più nella sezione seguente, [Setup contabilità fornitori](#purchases-and-payables-setup).
 
 Una serie di attività specifiche correlate alla registrazione di nuovi fornitori è quella di prendere nota di tutti gli accordi riguardanti sconti o prezzi speciali in essere con ogni fornitore.
 
-L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di pagamento e le valute, è descritta nella sezione Impostazione degli aspetti finanziari. Per ulteriori informazioni, vedere [Impostazione di dati finanziari](finance-setup-finance.md). Allo stesso modo, l'impostazione dell'acquisto relativo all'inventario, come le unità di misura e i codici di tracciabilità degli articoli, può essere trovata nella [sezione Setup magazzino](inventory-setup-inventory.md).
+L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di pagamento e le valute, è descritta nella sezione Impostazione degli aspetti finanziari. Per ulteriori informazioni, vedi [Impostazione degli aspetti finanziari](finance-setup-finance.md). Allo stesso modo, l'impostazione dell'acquisto relativo all'inventario, come le unità di misura e i codici di tracciabilità degli articoli, può essere trovata nella [sezione Setup magazzino](inventory-setup-inventory.md).
+
+## <a name="purchases-and-payables-setup"></a>Setup contabilità fornitori
+
+Prima di lavorare con la contabilità fornitori, specifica nella pagina **Setup contabilità fornitori** come vengono registrati i valori di acquisto e le numerazioni utilizzate per i fornitori e i documenti di acquisto.
+
+### <a name="general-settings"></a>Impostazioni generali
+
+Nella Scheda dettaglio **Generale** specifichi le opzioni, quali le modalità di calcolo e di registrazione degli sconti e gli eventuali arrotondamenti delle fatture. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+
+Alcuni campi richiedono un'attenzione speciale, come il campo **Calc. sc. fatt. per ID IVA/ID imposta**, che specifica se lo sconto fattura viene calcolato in base all'ID imposta o al totale fattura. Per ulteriori informazioni, vedi [Combinare le categorie di registrazione IVA nei setup registrazione IVA](finance-setup-vat.md#combine-vat-posting-groups-in-vat-posting-setups).
+
+Allo stesso modo, il campo **Collegamenti tra valute** può comportare piccole differenze di arrotondamento quando si applicano movimenti in valute diverse. Per ulteriori informazioni, vedi [Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md).
+
+Inoltre, alcuni campi cambiano il loro comportamento o dipendono da come sono impostati altri campi. Ad esempio, la funzione **Verifica pagamento anticipato durante la registrazione** è influenzata da come il campo **Aggiornamento automatico pagamento anticipato** è impostato per controllare i pagamenti anticipati in sospeso.
+
+Leggi i dettagli sui campi [**Nr. doc. esterno obblig.**](#external-document-number) e [**Storno esatto costo obblig.**](#exact-cost-reversing) di seguito.
+
+### <a name="number-series-settings"></a>Impostazioni delle numerazioni
+
+Nella Scheda dettaglio **Numerazioni** è necessario specificare codici di identificazione univoci che verranno utilizzati per fornitori, fatture e altri documenti di acquisto. La numerazione è importante non solo per i processi interni, ma potrebbe anche essere necessaria per seguire le normative locali. Quindi potrebbe valere la pena considerare di impostare tutte le numerazioni nella pagina **Numerazioni** in anticipo invece di crearne di nuove in **Setup contabilità fornitori**. Per ulteriori informazioni, vedi [Creare numerazioni](ui-create-number-series.md).
+
+## <a name="external-document-number"></a>Numero di documento esterni
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
+## <a name="exact-cost-reversing"></a>Storno esatto costo
+
+La funzione **Storno esatto costo obblig.** aiuta a garantire che le merci restituite siano valutate allo stesso costo di quando erano state originariamente estratte dall'inventario, utilizzando un collegamento fisso invece di seguire un metodo di determinazione dei costi FIFO (first in, first-out). Scopri di più nella sezione [Dettagli di progettazione: Collegamento fisso](design-details-item-application.md#fixed-application). Se successivamente viene aggiunto un costo addizionale all'acquisto originale, il valore del reso da acquisto verrà automaticamente aggiornato.
+
+Con la funzione abilitata, una transazione di reso può essere registrata solo specificando il numero di movimento contabile dell'articolo nel campo **Collega-a mov. art.** nella riga dell'ordine di reso acquisto. Il campo non viene visualizzato per impostazione predefinita nella scheda dettaglio **Righe**. Scopri come aggiungere campi alle pagine nella sezione [Personalizzare l'area di lavoro](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+[!INCLUDE[local-functionality](includes/local-functionality.md)]
+
+## <a name="more-purchasing-setups"></a>Altre impostazioni di acquisto
 
 | A | Vedere |
 | --- | --- |
 | Crea una scheda fornitore per ogni fornitore da cui acquisti. |[Registrare nuovi fornitori](purchasing-how-register-new-vendors.md) |
-| Attribuire un ordine di priorità ai fornitori |[Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
+| Attribuisci un ordine di priorità ai fornitori. |[Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md) |
 | Inserisci le informazioni sul conto bancario, inclusi i codici IBAN e SWIFT, sulla scheda del tuo fornitore. | [Impostare i conti correnti fornitori](purchasing-how-set-up-vendors-bank-accounts.md) |
 | Imposta gli acquirenti, assegna loro fornitori e codici per tenere traccia delle statistiche. |[Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md) |
 | Immetti i diversi sconti e i prezzi speciali concessi dai fornitori per articolo, quantità e/o data. |[Registrazione di prezzi, sconti e contratti di pagamento per gli acquisti](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
@@ -41,14 +75,7 @@ L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di 
 | Esamina le ricevute di spesa, converti documenti cartacei ed elettronici in righe di giornale di registrazione e digitalizza le fatture cartacee dei fornitori. | [Impostare documenti in entrata](across-how-setup-income-documents.md) |
 | Specificare report predefiniti da utilizzare per diversi tipi di documenti. |[Selezione report in Business Central](across-report-selections.md)|
 
-> [!TIP]
-> A seconda della posizione geografica, alcune pagine possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## <a name="external-document-number"></a>Numero di documento esterni
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534293"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606388"
 ---
 # <a name="set-up-email"></a>Configurare la posta elettronica
 Le persone nelle aziende inviano ogni giorno informazioni e documenti, come ordini vendita e acquisto e fatture, tramite e-mail. Gli amministratori possono collegare uno o più account di posta elettronica a [!INCLUDE[prod_short](includes/prod_short.md)], quindi puoi inviare documenti senza dover aprire un'app di posta elettronica. Puoi comporre ogni messaggio individualmente con strumenti di formattazione di base, come caratteri, stili, colori e così via, e aggiungere allegati fino a 100 MB. Inoltre, i layout di report consentono agli amministratori di includere solo le informazioni chiave dei documenti. Per ulteriori informazioni, vedi [Inviare documenti via e-mail](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ La guida al setup assistito **Configurare la posta elettronica** può consentirt
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Assegnare scenari di posta elettronica ad account di posta elettronica
 Gli scenari di posta elettronica sono processi che implicano l'invio di un documento. Ad esempio, un ordine di vendita o di acquisto o una notifica, come un invito a un contabile esterno. È possibile utilizzare account di posta elettronica specifici per scenari specifici. Ad esempio, è possibile specificare che tutti gli utenti inviino sempre documenti di vendita da un account, documenti di acquisto da un altro e documenti di magazzino o di produzione da un terzo account. Puoi assegnare, riassegnare e rimuovere scenari quando vuoi. Uno scenario può essere assegnato solo a un account e-mail alla volta. L'account e-mail predefinito verrà utilizzato per tutti gli scenari non assegnati a un account.
- 
+
+Sulla pagina **Assegnazione scenario e-mail** puoi scegliere l'azione **Imposta allegati predefiniti** per aggiungere allegati a scenari di posta elettronica. Gli allegati saranno sempre disponibili quando si compone un messaggio e-mail per un documento relativo allo scenario. Ogni scenario di posta elettronica può avere uno o più allegati predefiniti. Gli allegati predefiniti vengono aggiunti automaticamente ai messaggi e-mail per lo scenario e-mail. Ad esempio, quando invii un ordine cliente tramite e-mail, verrà aggiunto l'allegato predefinito specificato per lo scenario Ordine di vendita. Gli allegati predefiniti vengono visualizzati nella sezione **Allegati** in fondo alla pagina **Componi un messaggio e-mail**. Puoi aggiungere manualmente allegati non predefiniti al messaggio e-mail.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,12 +103,12 @@ In **Criteri di visualizzazione dei messaggi e-mail utente**, scegli un utente, 
 >  Se lasci il campo **ID utente** vuoto e quindi scegli l'azione Criterio di visualizzazione e-mail, il criterio che definisci si applica a tutti gli utenti.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Impostare testi e-mail riutilizzabili e layout
-È possibile utilizzare i report per includere informazioni chiave di documenti vendita e acquisto nei testi per le e-mail. Questa procedura descrive come configurare il report **Vendite - Fattura** per fatture vendita registrate, ma il processo è simile per altri report.
+È possibile utilizzare i report per includere informazioni chiave di documenti vendita, acquisto e assistenza nei testi per le e-mail. Questa procedura descrive come configurare il report **Vendite - Fattura** per fatture vendita registrate, ma il processo è simile per altri report.
 
 > [!NOTE]
 > Per utilizzare il layout per creare contenuto per i messaggi di posta elettronica, è necessario utilizzare il tipo di file Word per il layout.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezioni report Vendite**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezioni report - Vendite**, quindi scegli il collegamento correlato.
 2. Nella pagina **Selezione report - Vendite**, nel campo **Utilizzo**, selezionare **Fattura**.
 3. In una nuova riga nel campo **ID report** selezionare ad esempio il report standard 1306.
 4. Selezionare la casella di controllo **Utilizza per corpo e-mail**.

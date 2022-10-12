@@ -10,12 +10,12 @@ ms.search.keywords: language, locale, localization, culture, region, regional se
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655516"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606831"
 ---
 # <a name="changing-language-and-region"></a>Modifica di lingua e area geografica
 
@@ -58,18 +58,18 @@ Nella pagina **Guida e supporto** è possibile visualizzare la versione di [!INC
 
 ## <a name="languages-of-the-prod_short-help"></a>Lingue della Guida di [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Il contenuto della Guida per la versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)] è pubblicato sul sito di Microsoft Docs. Il contenuto è disponibile in diverse lingue. Se si accede ai documenti dall'interno di [!INCLUDE[prod_short](includes/prod_short.md)], il contenuto verrà visualizzato nella lingua in uso. Per impostazione predefinita, se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
+Il contenuto della Guida per la versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)] è pubblicato in Microsoft Learn. Il contenuto è disponibile in diverse lingue. Se accedi alla documentazione dall'interno di [!INCLUDE[prod_short](includes/prod_short.md)], il contenuto verrà visualizzato nella lingua in uso. Per impostazione predefinita, se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Come cambio la lingua del sito di Microsoft Docs?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Come cambio la lingua del sito di Microsoft Learn?
 
 È semplice. Basta scorrere in fondo alla pagina del browser e scegliere il simbolo del globo nell'angolo inferiore sinistro.
 
 > [!NOTE]  
-> Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile in un numero limitato di paesi/regioni e il contenuto della Guida di [!INCLUDE [prod_short](includes/prod_short.md)] non è disponibile in tutte le lingue supportate dal sito Microsoft Docs.
+> Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Learn. [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile in un numero limitato di paesi/regioni e il contenuto della Guida di [!INCLUDE [prod_short](includes/prod_short.md)] non è disponibile in tutte le lingue supportate dal sito Microsoft Learn.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedi anche
 
-[Risorse per Guida e supporto](product-help-and-support.md)  
+[Risorse per aiuto e supporto](product-help-and-support.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 

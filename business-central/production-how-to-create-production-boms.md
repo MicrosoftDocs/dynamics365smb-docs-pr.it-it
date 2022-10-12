@@ -3,21 +3,25 @@ title: Creare le distinte base di produzione
 description: Scopri come creare una distinta base di produzione (DB), nuove versioni di una DB di produzione e come utilizzare la formula di calcolo della quantità.
 author: bholtorf
 ms.topic: conceptual
-ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
+ms.search.keywords: production bom, bills of material,
+ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516902"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607825"
 ---
 # <a name="create-production-boms"></a>Creare le distinte base di produzione
 
 Una distinta base (DB) di produzione contiene i dati master che descrivono i componenti e i sottoassemblaggi utilizzati nella produzione di un articolo padre. Dopo la creazione di un ordine di produzione per l'articolo padre, la relativa DB di produzione determinerà il calcolo delle richieste di materiale come rappresentato nella pagina **Componenti ordine produzione** .
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta anche le DB di assemblaggio. Utilizzare gli ordini di assemblaggio per la creazione di articoli finali dai componenti in un semplice processo che può essere svolto da una o più risorse di base, che non sono centri di lavoro o aree di produzione, né privi di risorse. Ad esempio, un processo di assemblaggio potrebbe consistere nel prelevare due bottiglie di vino e un pacchetto di caffè, quindi di imballarli come articolo da regalo. Per ulteriori informazioni, vedere [DB di assemblaggio o DB di produzione](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+
+> [!TIP]
+> L'app **Dati demo Contoso Coffee** include prodotti dimostrativi per una varietà di scenari di distinta base di produzione che possono essere utilizzati in un ambiente di test, anche durante una versione di valutazione. Scopri come configurare i dati di Contoso Coffee e trovare procedure dettagliate per diversi scenari in [Introduzione ai dati demo di Contoso Coffee](/contoso-coffee/contoso-coffee-intro.md).
 
 Prima di poter configurare un ciclo, è necessario verificare quanto segue:  
 
@@ -26,15 +30,15 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 
 ## <a name="to-create-a-production-bom"></a>Per creare una DB di produzione
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
-2. Scegliere l'azione **Nuovo**.  
-3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
+2. Scegli l'azione **Nuovo**.  
+3. Compila i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Per modificare la distinta base di produzione, impostare il campo **Stato** su **Nuova** o **In sviluppo**. Per attivarla, impostare lo **Stato** su **Certificato**.  
 
     Compilare le righe della DB di produzione.
 5. Nel campo **Tipo** specificare se l'articolo visualizzato in questa riga della distinta base è un articolo normale o una distinta base di produzione. In tal caso, è necessario che esista già come distinta base di produzione certificata.  
 6. Nel campo **Nr.** cercare e selezionare l'articolo o la distinta base di produzione desiderata oppure immetterla nel campo.  
-7. Specificare nel campo **Quantità per** il numero di unità di articolo da utilizzare per l'articolo padre, ad esempio quattro ruote per un'automobile.  
+7. Specifica nel campo **Quantità per** il numero di unità di articolo da utilizzare per l'articolo padre, ad esempio quattro ruote per un'automobile.  
 8. Nel campo **% scarto** è possibile specificare una percentuale fissa di componenti che verrà scartata nel processo di produzione. Quando i componenti sono pronti per l'utilizzo in un ordine di produzione rilasciato, questa percentuale verrà aggiunta alla quantità prevista, specificata nel campo **Quantità consumi**, nelle registrazioni di produzione. Per ulteriori informazioni, vedere [Registrare consumi e output](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
@@ -46,18 +50,18 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 12. È ora possibile associare la nuova distinta base di produzione alla scheda dell'articolo padre desiderato. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Per ricalcolare il costo standard dell'articolo dalla scheda articolo, scegliere l'azione **Manufacturing**, quindi l'azione **Calc. costo standard**.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Per ricalcolare il costo standard dell'articolo dalla scheda articolo, scegliere l'azione **Produzione**, quindi l'azione **Calc. costo standard**.  
 
-## <a name="to-create-a-new-versions-of-a-production-bom"></a>Per creare una nuova versione delle DB di produzione
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Per creare una nuova versione delle DB di produzione
 
 Vengono utilizzate nuove versioni della distinta base, ad esempio nel caso in cui un articolo viene sostituito oppure quando un cliente fa richiesta di una versione particolare del prodotto. Il principio di versione consente di gestire varie versioni di una distinta base di produzione. La struttura della versione della distinta base di produzione corrisponde alla struttura delle distinte base di produzione. La differenza basilare sta nel tempo di validità delle versioni. La validità viene definita dalla data di inizio.  
 
 La data di inizio indica l'inizio del periodo di validità della versione. Costituisce inoltre un elemento che funge da filtro per calcoli e valutazioni. La versione della distinta base è valida fino alla data di entrata in vigore di quella nuova.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
-2. Selezionare la DB di produzione da copiare quindi scegliere l'azione **Versioni**.  
-3. Scegliere l'azione **Nuovo**.  
-4. Compilare i campi in base alle esigenze.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **DB produzione**, quindi seleziona il collegamento correlato.  
+2. Seleziona la DB di produzione da copiare quindi scegli l'azione **Versioni**.  
+3. Scegli l'azione **Nuovo**.  
+4. Compila i campi in base alle esigenze.
 5. Nel campo **Cod. versione** immettere il codice identificativo univoco della versione. Nel campo è possibile inserire qualsiasi combinazione di numeri o di lettere.  
 
     Alla versione appena creata viene assegnato automaticamente lo stato **Nuovo**.
@@ -92,17 +96,20 @@ La relazione dei singoli componenti viene definita dalla formula di calcolo. Son
 
 ### <a name="example"></a>Esempio
 
-In una distinta base sono necessarie settanta parti metalliche con le dimensioni Lunghezza = 0,20 m e Larghezza = 0,15 m. I valori vengono immessi come segue: Formula di Calcolo = Lunghezza x Larghezza, Lunghezza = 20, Larghezza = 15, Quantità per = 70. La quantità è data da Quantità per x Lunghezza * Larghezza, ovvero Quantità = 70 x 0,20 m x 0,15 m = 2,1 m2.  
+In una distinta base sono necessarie 70 parti metalliche con le dimensioni Lunghezza = 0,20 m e Larghezza = 0,15 m. I valori vengono immessi come segue: Formula di Calcolo = Lunghezza x Larghezza, Lunghezza = 20, Larghezza = 15, Quantità per = 70. La quantità è data da Quantità per x Lunghezza * Larghezza, ovvero Quantità = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
-[Creare cicli](production-how-to-create-routings.md)   
+[Creare cicli](production-how-to-create-routings.md)  
+[Gestire le varianti di prodotto](inventory-item-variants.md)  
+[Procedura dettagliata: varianti](/contoso-coffee/variants.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
-[Manufacturing](production-manage-manufacturing.md)    
-[Pianif.](production-planning.md)   
+[Manufacturing](production-manage-manufacturing.md)  
+[Pianif.](production-planning.md)  
+[Utilizzare le distinte base](inventory-how-work-BOMs.md)  
+[Utilizzare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

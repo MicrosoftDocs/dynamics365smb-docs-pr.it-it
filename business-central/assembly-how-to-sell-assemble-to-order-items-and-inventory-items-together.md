@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 34bbdae60f2e9e17cdd6f006f4af432658ee9dbe
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dafd52a1a2925c0347a455810ad727b8b89706dc
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519868"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607258"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vendere articoli di assemblaggio su ordine e articoli di magazzino insieme
+
 Se il campo **Criteri di assemblaggio** nella scheda articolo di un articolo di assemblaggio contiene **assemblaggio per magazzino**, il processo di default dell'ordine di vendita presuppone che l'articolo sia già assemblato e possa essere prelevato dal magazzino, se disponibile. Di conseguenza, un ordine di assemblaggio non viene automaticamente creato e collegato alla riga dell'ordine di vendita. Tuttavia, se la quantità, interamente o in parte, non è disponibile, è possibile creare un ordine di assemblaggio per la quantità rimanente compilando il campo **Qtà per assemblaggio su ordine** nella riga dell'ordine di vendita. In questo modo, è possibile assemblare l'articolo su ordine anche se di default è impostato per l'assemblaggio per magazzino.  
 
 Tale flessibilità è disponibile quando si vendono articoli da assemblare su ordine e in magazzino è presente una parte della quantità, che si desidera dedurre dall'ordine di assemblaggio. Per altre informazioni, vedere [Vendere gli articoli di magazzino nei flussi assemblaggio su ordine](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
@@ -28,7 +29,8 @@ Tale flessibilità è disponibile quando si vendono articoli da assemblare su or
 > [!NOTE]  
 >  La procedura seguente non include i passaggi dell'ordine di vendita standard che occorre eseguire prima di creare un ordine di assemblaggio per le quantità non disponibili.
 
-## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Per vendere articoli di assemblaggio su ordine e articoli di magazzino insieme  
+## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Per vendere articoli di assemblaggio su ordine e articoli di magazzino insieme
+
 1.  In una riga dell'ordine di vendita per un articolo impostato per l'assemblaggio per magazzino, immettere una quantità che supera quella di magazzino nel campo **Quantità**. Viene visualizzata la pagina **Controllo disponibilità**. Per altre informazioni, vedere [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md).
 2.  Si noti il campo **Quantità totale** (valore negativo), in cui si immetterà un valore nel passaggio successivo.  
 3.  Nel campo **Qtà. per assemblaggio su ordine** immettere il valore del passaggio precedente.  
@@ -38,9 +40,10 @@ Tale flessibilità è disponibile quando si vendono articoli da assemblare su or
 > [!CAUTION]  
 >  Il campo **Codice collocazione** nell'ordine di vendita può essere precompilato in base al campo **Cod. coll. sp. ass. su ordine** o il campo **Cod. coll. art. da assembl.** nella scheda ubicazione. In tal caso, il campo **Codice collocazione** nella riga dell'ordine di vendita può essere errato in questa combinazione di quantità di assemblaggio su ordine e assemblaggio per magazzino. Si consiglia di esaminare il campo **Codice collocazione** e verificare che il posizionamento funzioni per tutte le quantità. In alternativa, immettere due quantità diverse in righe separate dell'ordine di vendita.  
 
-## <a name="see-also"></a>Vedi anche  
+## <a name="see-also"></a>Vedere anche
+
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Utilizzare le distinte base](inventory-how-work-BOMs.md)  
+[Utilizzare le distinte base di assemblaggio](assembly-how-work-assembly-boms.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

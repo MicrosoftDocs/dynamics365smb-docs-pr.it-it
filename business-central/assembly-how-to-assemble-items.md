@@ -10,23 +10,23 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 07cccf188ed476a3dba4fa71ec7de20620cbd6f1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e9d53a6369e2955e0e097471e70cb83438540539
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534698"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607047"
 ---
 # <a name="assemble-items"></a>Assemblare articoli
 
 Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo di default per l'approvvigionamento dell'articolo consiste nell'assemblarlo da componenti definiti e potenzialmente tramite una risorsa definita.  
 
-I componenti e le risorse che rientrano in questo tipo di articolo di assemblaggio devono essere definiti in una DB di assemblaggio. Per altre informazioni, vedere [Utilizzare le distinte base](inventory-how-work-BOMs.md).  
+I componenti e le risorse che rientrano in questo tipo di articolo di assemblaggio devono essere definiti in una DB di assemblaggio. Per ulteriori informazioni, vedi [Utilizzare le distinte base di assemblaggio](assembly-how-work-assembly-boms.md).
 
 Gli articoli di assemblaggio possono essere impostati per due diversi processi di assemblaggio:  
 
--   Assemblaggio per magazzino.  
--   Assemblaggio su ordine.  
+- Assemblaggio per magazzino.  
+- Assemblaggio su ordine.  
 
 In genere si utilizza l'**assemblaggio per magazzino** per gli articoli che si desidera assemblare prima delle vendite, ad esempio preparare una campagna di kit e tenerli in stock fino a quando vengono ordinati. Tali articoli sono in genere articoli standard, ad esempio in kit in pacchetti di cui non viene offerta la personalizzazione in base richieste del cliente.  
 
@@ -74,10 +74,9 @@ Una volta effettuata la registrazione, l'articolo di assemblaggio viene registra
 ## <a name="see-also"></a>Vedere anche
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Utilizzare le distinte base](inventory-how-work-BOMs.md)  
+[Utilizzare le distinte base di assemblaggio](assembly-how-work-assembly-boms.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

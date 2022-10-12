@@ -10,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7add9cf10ff90ff978c67cf691b2f7e5c6b87bdd
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 32a0005f2ebbc6bfc87c21fed8469c86535e15de
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460861"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607285"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Impostazione della registrazione delle transazioni interaziendali
 
@@ -44,7 +44,7 @@ Il primo ciclo di rilascio del 2022 ha introdotto una nuova pagina **Setup IC** 
 
 I campi da riempire differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup IC**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup IC**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup IC** compila i campi. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-intercompany-partners"></a>Per impostare i partner IC
@@ -56,6 +56,10 @@ I campi da riempire differiscono a seconda se l'amministratore ha attivato o men
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online, non è possibile utilizzare i percorsi dei file per trasferire le transazioni ai partner perché [!INCLUDE[prod_short](includes/prod_short.md)] non ha accesso alla rete locale. Pertanto, se si sceglie **Percorso file** nel campo **Tipo di trasferimento**, il campo **Percorso cartella** non è disponibile. Invece, il file verrà scaricato nella cartella Download sul computer. Quindi si invia il file a qualcuno nella società partner, ad esempio, tramite posta elettronica. Per un processo più diretto, consigliamo di scegliere **E-mail**.
+
+> [!NOTE]
+> Per la registrazione intercompany, quando hai attivato l'interruttore **Accetta automaticamente transazione** nella pagina **Scheda partner intercompany** [!INCLUDE[prod_short](includes/prod_short.md)] sopprime i messaggi di avviso sulle fatture di acquisto che duplicano l'ordine di acquisto originale. Pertanto, è importante disporre di un processo aziendale per la gestione dei duplicati. Ad esempio, eliminando tali ordini di acquisto quando la fattura di acquisto viene ricevuta dal partner IC.
+
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Per impostare fornitori intercompany e clienti intercompany
 
@@ -75,7 +79,7 @@ Se la società è una filiale e si riceve un file XML contenente il piano dei co
 
 ### <a name="to-set-up-the-intercompany-chart-of-accounts"></a>Per impostare il piano dei conti intercompany
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti intercompany**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti intercompany**, quindi scegli il collegamento correlato.
 2. Nella pagina **Piano dei conti intercompany** immettere ogni conto su una riga nella pagina.  
 3. Se il piano dei conti intercompany è identico o simile a quello utilizzato normalmente, è possibile compilare automaticamente la pagina scegliendo l'azione **Copia da piano dei conti**. Le nuove righe possono essere modificate secondo le esigenze.
 

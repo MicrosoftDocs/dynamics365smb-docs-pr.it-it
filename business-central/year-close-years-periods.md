@@ -1,6 +1,6 @@
 ---
-title: Chiusura dei periodi contabili per un anno fiscale
-description: Descrive i task per la chiusura di un anno fiscale o di periodi contabili, ad esempio, per garantire che documenti e registrazioni vengano contabilizzati e per verificare i saldi di conti correnti.
+title: Chiusura dell'anno fiscale e del periodo contabile
+description: Descrive i task per la chiusura di un anno fiscale o di un periodo contabile, ad esempio, per garantire che documenti e registrazioni vengano contabilizzati e per verificare i saldi di conti correnti.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 08/18/2022
 ms.author: jswymer
-ms.openlocfilehash: 832e0d2d606549f51c9f16884dd8d760c0f81a79
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: a6b21fd03cbfebdefb102074e97121bf2187bf49
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535452"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605929"
 ---
 # <a name="closing-years-and-periods"></a>Chiusura di anni e periodi
 
-Al termine di un anno fiscale, vi sono numerose attività amministrative da eseguire, come assicurarsi che tutti i documenti e le registrazioni siano stati contabilizzati, assicurarsi che i dati della valuta siano aggiornati, chiudere i libri e altro ancora. Le attività effettive dipenderanno dalla società.
+Al termine di un anno fiscale, vi sono numerose attività amministrative da eseguire, ad esempio assicurarsi che tutti i documenti e le registrazioni siano stati contabilizzati, assicurarsi che i dati della valuta siano aggiornati, chiudere i libri e altro ancora. Le attività effettive dipenderanno dalla società.
 
 Nella seguente tabella viene fornita una panoramica delle attività che si eseguono in genere per chiudere un anno o un periodo.
 
@@ -27,7 +27,7 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 | --- | --- |
 | Definire l'anno fiscale e dividerlo in periodi di tempo per i quali generare un report delle prestazioni finanziare. | [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)|
 | Specificare intervalli di date di registrazione a livello di sistema e specifici dell'utente. In base alle esigenze aziendali, è possibile limitare gli intervalli di date di registrazione all'inizio del processo di chiusura del periodo o successivamente. |[Specificare i periodi di registrazione](finance-how-specify-posting-periods.md) |
-| Fornisce una panoramica delle attività che vengono comunemente eseguite alla fine di un periodo, come la contabilizzazione di tutti i documenti e le registrazioni o l'esecuzione delle situazioni contabili. |[Periodi di chiusura](year-how-complete-period-end-processes.md) |
+| Fornisce una panoramica delle attività che vengono comunemente eseguite alla fine di un periodo, come la contabilizzazione di tutti i documenti e le registrazioni o l'esecuzione dei report finanziari. |[Periodi di chiusura](year-how-complete-period-end-processes.md) |
 | Aggiornare i tassi di cambio delle valute e rettificare i tassi di cambio dei movimenti clienti, fornitori e di conto corrente registrati. |[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md) |
 | Assegnare costi ed entrate tra conti e dimensioni. |[Allocazione di costi e ricavi](year-allocate-costs-income.md) |
 | Prepararsi per dichiarare al servizio Web delle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)|
@@ -37,12 +37,11 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

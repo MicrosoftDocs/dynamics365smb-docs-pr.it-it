@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 02/03/2022
+ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 99ef7f561610c2891e2a936bfb18b046cd8469c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 016acda42ce891b50d766d089c33fb5b68cf8028
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531622"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605713"
 ---
 # <a name="use-reports-in-daily-work"></a>Usare i report nel lavoro quotidiano
 
@@ -22,20 +22,20 @@ Un report in [!INCLUDE[prod_short](includes/prod_short.md)] raccoglie informazio
 
 | A | Vedere |
 | --- | --- |
-| Scopri come eseguire un report standard utilizzando la pagina della richiesta. | [Esecuzione di report](ui-work-report.md) |
-| Visualizza e analizza i dati da un set di dati di report in Excel. | [Salva il set di dati del report in Excel dalla pagina della richiesta](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
-| Raggiungi rapidamente il tuo report preferito, aggiungi il segnalibro a Gestione ruolo utente | [Aggiungi un segnalibro a un report](ui-bookmarks.md) |
-| Scopri come stampare report e come impostare stampanti predefinite per report diversi. | [Stampa dei report](ui-specify-printer-selection-reports.md#default) |
-| Vuoi eseguire un report stasera o ogni venerdì? Scopri come pianificare i report. | [Programmazione dei report](ui-work-report.md#ScheduleReport) |
-| Eseguire un report con le stesse opzioni e filtri? Scopri come utilizzare le impostazioni salvate nella pagina della richiesta | [Gestione delle impostazioni salvate dei report](reports-saving-reusing-settings.md)|
-| Vuoi modificare il layout predefinito per un report? | [Modifica del layout predefinito del report](ui-how-change-layout-currently-used-report.md) |
+| Scopri come eseguire un report standard utilizzando la pagina della richiesta. | [Eseguire e stampare i report](ui-work-report.md) |
+| Trova rapidamente i tuoi report preferiti usando i segnalibri in Gestione ruolo utente. | [Aggiungi un segnalibro a un report](ui-bookmarks.md) |
+| Scopri come specificare le stampanti predefinite per i diversi report. | [Configurazione delle stampanti predefinite](ui-specify-printer-selection-reports.md#default) |
+| Scopri come pianificare i report subito o regolarmente in un giorno feriale specifico. | [Programmazione dei report](ui-work-report.md#ScheduleReport) |
+| Scarica e condividi i report pianificati utilizzando OneDrive. | [Condividere ed esportare report con Report elaborati](ui-work-report-inbox.md) |
+| Esegui un report con le stesse opzioni e filtri utilizzando le impostazioni salvate nella pagina della richiesta. | [Gestione delle impostazioni salvate dei report](reports-saving-reusing-settings.md)|
+| Scopri come modificare il layout predefinito di un report. | [Modifica del layout predefinito del report](ui-how-change-layout-currently-used-report.md) |
+| Visualizza e analizza i dati da un set di dati di report in Microsoft Excel. | [Salva il set di dati del report in Excel dalla pagina della richiesta](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Vedere anche
 
 [Panoramica del report](reports-available-reports.md)  
-[Panoramica di Business Intelligence e creazione di report](ui-work-report.md)
-
+[Panoramica di Business Intelligence e creazione di report](ui-work-report.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

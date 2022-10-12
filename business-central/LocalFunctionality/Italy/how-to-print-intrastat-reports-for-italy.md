@@ -7,14 +7,17 @@ ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.search.form: 12116
 ms.author: edupont
-ms.openlocfilehash: cac5690f091f05e7aa4d821b2448157efea95128
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5fc43bad0322a641a21d891a835ab841e207b002
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141804"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607151"
 ---
 # <a name="print-intrastat-reports-for-italy"></a>Stampa di report Intrastat per l'Italia
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
+
 È possibile stampare report Intrastat mensili e trimestrali e inviarli alle autorità su un disco floppy eseguendo il processo batch **Intrastat - Floppy dichiaraz.**. Le informazioni relative al carico e alla consegna di merci vengono incluse automaticamente.  
 
 Sono disponibili i seguenti report Intrastat:  
@@ -24,31 +27,33 @@ Sono disponibili i seguenti report Intrastat:
 
 ## <a name="to-print-quarterly-or-monthly-reports"></a>Per stampare report trimestrali o mensili  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
-2.  Selezionare il batch contabile desiderato.  
-3.  Per aprire il report **Intrastat - Report mensile** o **Intrastat - Report trimestrale**, scegliere l'azione **Report mensile** o **Report trimestrale**.  
-4.  Nella Scheda dettaglio **Righe reg. Intrastat** selezionare i filtri appropriati.  
-5.  Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
-6.  Nella pagina **Registrazioni Intrastat**, per salvare i dettagli del report in un file, scegliere **Crea file**.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
+2. Selezionare il batch contabile desiderato.  
+3. Per aprire il report **Intrastat - Report mensile** o **Intrastat - Report trimestrale**, scegliere l'azione **Report mensile** o **Report trimestrale**.  
+4. Nella Scheda dettaglio **Righe reg. Intrastat** selezionare i filtri appropriati.  
+5. Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
+6. Nella pagina **Registrazioni Intrastat**, per salvare i dettagli del report in un file, scegliere **Crea file**.  
 
     > [!NOTE]  
     >  Prima della stampa, è possibile selezionare il percorso e il nome file. Se non vengono specificate queste informazioni, il file verrà denominato **scambi.cee** e verrà stampato nella radice dell'unità C.  
 
 ## <a name="to-print-intrastat---checklist-reports"></a>Per stampare report Intrastat - Checklist  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Intrastat - Elenco di controllo**, quindi scegli il collegamento correlato.  
-2.  Per includere informazioni dettagliate sulle righe registrazioni nel report, selezionare la casella di controllo **Mostra righe registr. Intrastat** nella Scheda dettaglio **Opzioni**.  
-3.  Nelle Schede dettaglio **Batch reg. Intrastat** e **Righe reg. Intrastat** selezionare i filtri appropriati.  
-4.  Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Intrastat - Elenco di controllo**, quindi scegli il collegamento correlato.  
+2. Per includere informazioni dettagliate sulle righe registrazioni nel report, selezionare la casella di controllo **Mostra righe registr. Intrastat** nella Scheda dettaglio **Opzioni**.  
+3. Nelle Schede dettaglio **Batch reg. Intrastat** e **Righe reg. Intrastat** selezionare i filtri appropriati.  
+4. Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 
 ## <a name="to-print-intrastat---form-reports"></a>Per stampare report Intrastat - Form  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Intrastat - Modulo**, quindi scegli il collegamento correlato.  
-2.  Nelle Schede dettaglio **Batch reg. Intrastat** e **Righe reg. Intrastat** selezionare i filtri appropriati.  
-3.  Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Intrastat - Modulo**, quindi scegli il collegamento correlato.  
+2. Nelle Schede dettaglio **Batch reg. Intrastat** e **Righe reg. Intrastat** selezionare i filtri appropriati.  
+3. Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 
-## <a name="see-also"></a>Vedere anche  
- [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md)
+## <a name="see-also"></a>Vedere anche
 
+[Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md)  
+[Funzionalità locale per l'Italia](italy-local-functionality.md)  
+[Impostare il reporting Intrastat](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

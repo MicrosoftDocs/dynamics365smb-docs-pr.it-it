@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/08/2022
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 34fc581e0140826e957b50b649d3b72573403552
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950438"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607690"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
 
@@ -41,9 +41,6 @@ Prima di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] online, si co
 
 **Applicazioni Outlook:** per usare [!INCLUDE[prod_short](includes/prod_short.md)] Online come posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2019 o versione successiva, Outlook sul Web, Outlook per iOS o Outlook per Android. L'organizzazione deve inoltre utilizzare Microsoft 365. Non è possibile utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale. 
 
-> [!IMPORTANT]
-> A partire dalla seconda ondata di rilascio di Business Central 2021, non sarà più possibile accedere al componente aggiuntivo Business Central dalle versioni di Outlook precedenti al 2012.
-  
 **Browser:** quando si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] come casella di posta in arrivo aziendale in Outlook in un browser, il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo.
 
 **Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook  [!INCLUDE[prod_short](includes/prod_short.md)] in Outlook per iPhone, Outlook per iOS e Outlook per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -61,9 +58,6 @@ Prima di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] online, si co
 ## <a name="excel"></a>Excel
 
 **Modifica in Excel**: per utilizzare il componente aggiuntivo Excel per apportare modifiche e quindi inoltrare le modifiche di nuovo a [!INCLUDE[prod_short](includes/prod_short.md)], è necessario Excel 2019 o versione successiva. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
-
-> [!IMPORTANT]
-> A partire dalla seconda ondata di rilascio di Business Central 2021, la funzionalità del componente aggiuntivo di Excel supporterà solo Excel versione 2012 o successiva.
 
 ## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Utilizzo dell'interfaccia di amministrazione di Business Central
 

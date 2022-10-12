@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132057"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606172"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Gestire il lavoro tra più aziende nell'hub aziendale
 
-Alcune persone lavorano in più società in [!INCLUDE [prod_short](includes/prod_short.md)] e alcuni lavorano anche in più di un'organizzazione, come contabili esterni o dipendenti e manager di società con più filiali. Per questi utenti e molti altri, l'hub aziendale funge da pagina di destinazione per la gestione del lavoro nei vari ambienti in cui lavorano, tra aziende, ambienti e regioni.  
+Alcune persone lavorano in più società in [!INCLUDE [prod_short](includes/prod_short.md)] e alcuni lavorano anche in più di un'organizzazione, come contabili esterni o dipendenti e manager di società con più filiali. Per questi utenti e molti altri, l'hub aziendale funge da pagina di destinazione che offre una panoramica finanziaria di società e ambienti. Fornisce agli utenti uno strumento per la gestione del lavoro nei vari ambienti in cui lavorano, tra società, ambienti e aree.  
 
 È possibile accedere all'hub aziendale passando al ruolo **Hub aziendale** in Impostazioni personali o aprendo la pagina **Hub aziendale** direttamente. È possibile eseguire lo stesso lavoro in entrambi i posti, ma le azioni sono posizionate in modo leggermente diverso nei menu.  
+
+[![Mostra la pagina dell'hub aziendale che elenca tutte le società.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > Puoi collegare l'hub aziendale a tutte le società di cui hai bisogno. Tuttavia, puoi connettere l'hub aziendale solo alle società ospitate in [!INCLUDE [prod_short](includes/prod_short.md)] Online.
@@ -63,9 +65,9 @@ L'elenco **Task personali dell'utente** consente di assegnare la priorità al gi
 
 È possibile ordinare per data di scadenza, ad esempio, o per qualsiasi altro tipo di dati che consente di assegnare priorità per la giornata. Per impostazione predefinita, nell'elenco sono visualizzati tutti i task allocati a te, ma puoi impostare i filtri per visualizzare solo i task prioritari, ad esempio.  
 
-Per selezionare un task, sceglierlo dall'elenco dei task in sospeso dell'utente. Nella barra multifunzione, il collegamento **Vai a elemento task** apre la pagina in cui è possibile svolgere l'attività.  
+Per selezionare un task, sceglilo dall'elenco dei task in sospeso dell'utente. Nella barra multifunzione, il collegamento **Vai a elemento task** apre la pagina in cui è possibile svolgere l'attività.  
 
-Una volta completato il task, contrassegnarlo come completato.  
+Una volta completato il task, contrassegnalo come completato.  
 
 Per ulteriori informazioni su società e ambienti, vedere [Collegamenti ambiente](company-hub-add-company.md#environment-links).  
 

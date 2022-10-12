@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531703"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607717"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
@@ -51,7 +51,7 @@ L'elenco seguente descrive come è possibile accedere al riquadro della Guida e 
 Utilizza il campo di ricerca nella parte superiore del riquadro della Guida per cercare indicazioni su come usare il prodotto, le funzionalità integrate e i moduli di formazione disponibili. In base ai termini di ricerca, il pannello mostra cinque o più link con una breve descrizione. Scegli un link o affina i tuoi termini di ricerca. Quando scegli un link, l'articolo di destinazione si apre in una nuova scheda del browser. Si può scegliere di sganciare la scheda del browser, quindi, in modo da poter visualizzare le informazioni pertinenti fianco a fianco con [!INCLUDE [prod_short](includes/prod_short.md)]. Il riquadro rimane aperto mentre si naviga su [!INCLUDE [prod_short](includes/prod_short.md)] in modo che il contenuto cercato rimanga visibile.  
 
 > [!NOTE]
-> Nella versione attuale di [!INCLUDE [prod_short](includes/prod_short.md)], il campo di ricerca nel riquadro della Guida si applica solo al contenuto pubblicato sul sito [Docs.microsoft.com](/dynamics365/business-central).
+> Nella versione attuale di [!INCLUDE [prod_short](includes/prod_short.md)], il campo di ricerca nel pannello di aiuto si applica solo al contenuto pubblicato nella [documentazione di Dynamics 365 Business Central](/dynamics365/business-central) in Microsoft Learn.
 
 ## <a name="help--support-page"></a>Pagina di aiuto e supporto
 
@@ -83,7 +83,7 @@ Nella sezione **Trovarla** sono presenti due collegamenti alla Guida del prodott
 
 - La guida relative alla pagina appena visualizzata in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Questo collegamento viene generato automaticamente. Se [!INCLUDE[prod_short](includes/prod_short.md)] non trova il collegamento, viene visualizzata la pagina di destinazione in [Docs.microsoft.com](index.md) per la versione di default di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, se la pagina faceva parte di un'app a cui non è stata aggiunta la mappatura della Guida sensibile al contesto in [!INCLUDE[prod_short](includes/prod_short.md)], il valore predefinito del *collegamento di apprendimento* è la pagina di destinazione.  
+  Questo collegamento viene generato automaticamente. Se [!INCLUDE[prod_short](includes/prod_short.md)] non trova il collegamento, viene visualizzata la [pagina di destinazione Microsoft Learn](index.md) per la versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, se la pagina faceva parte di un'app a cui non è stata aggiunta la mappatura della Guida sensibile al contesto in [!INCLUDE[prod_short](includes/prod_short.md)], il valore predefinito del *collegamento di apprendimento* è la pagina di destinazione.  
   
 - Pagina di destinazione della Guida per [!INCLUDE[prod_short](includes/prod_short.md)]  
 

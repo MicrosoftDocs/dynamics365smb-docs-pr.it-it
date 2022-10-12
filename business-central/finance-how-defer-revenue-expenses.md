@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d7eac169dc75f81f1d696a4a1e7344b5235a83a3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9d6acc41574870d691a14913ed0222df36dbeb74
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529095"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605517"
 ---
 # <a name="defer-revenues-and-expenses"></a>Rateizzare le entrate e le uscite
 
@@ -95,6 +95,18 @@ I movimenti C/G da registrare nel conto specificato di differimento, ad esempio,
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Riepilogo differimento vendite**, quindi scegli il collegamento correlato.
 2. Nel campo **Saldo a partire dal** della pagina **Riepilogo differimento vendite** immettere la data fino alla quale si intende visualizzare le entrate differite.
 3. Fare clic sul pulsante **Anteprima**.
+
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Per specificare un periodo in cui consentire la registrazione differita
+
+È possibile specificare un periodo in cui le persone possono registrare le transazioni inserendo le date nei campi **Consenti registrazione da** e **Consenti registrazione a** come segue:
+
+* Per tutti gli utenti, nella pagina **Setup contabilità generale**
+* Per utenti specifici, nella pagina **Setup utente**
+
+Se lo hai fatto, devi creare un'eccezione per i differimenti per consentirne la registrazione al di fuori del periodo. Per definire il periodo, attieniti a questa procedura.
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale** o **Setup utente**, quindi scegli il collegamento correlato.
+2. Nei campi **Consenti registrazione differita da** e **Consenti registrazione differita a**, inserisci una data di inizio e di fine per il periodo.
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148670"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605166"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 
@@ -40,7 +40,7 @@ I parametri di pianificazione possono essere definiti anche per qualsiasi combin
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md) e [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md).  
 
-## <a name="planning-starting-date"></a>Pianificazione data inizio
+## <a name="planning-starting-date"></a>Pianificazione della data di inizio
 
 Per evitare un piano di approvvigionamento che incorpori ordini aperti in passato e suggerisca azioni potenzialmente impossibili, il sistema di pianificazione tratta tutte le date anteriori alla data di inizio della pianificazione come zona bloccata nella quale vale la seguente regola speciale:  
 
@@ -50,7 +50,7 @@ In altre parole, si presuppone che il piano per il passato sia eseguito secondo 
 
 Per ulteriori informazioni, vedere [Gestione ordini prima della data di inizio pianificazione](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
-## <a name="dynamic-order-tracking-pegging"></a>Tracciabilità dinamica dell'ordine (Pegging)
+## <a name="dynamic-order-tracking-pegging"></a>Tracciabilità dinamica dell'ordine (pegging)
 
 La tracciabilità dinamica dell'ordine, con la sua creazione simultanea dei messaggi di azione nel prospetto di pianificazione, non fa parte del sistema di pianificazione degli approvvigionamenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Questa funzionalità collega, in tempo reale, la domanda e le quantità che potrebbero coprirla, ogni volta che viene creata o modificata una nuova domanda o un nuovo approvvigionamento.  
 
@@ -133,7 +133,7 @@ Le previsioni e gli ordini programmati rappresentano la domanda prevista. L'ordi
 
 Per ulteriori informazioni, vedere [La domanda di previsione viene ridotta dagli ordini di vendita](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-## <a name="planning-assignment"></a>Compiti di pianificazione
+## <a name="planning-assignment"></a>Pianificazione assegnazione
 
 Tutti gli articoli devono essere pianificati, tuttavia, non esiste motivo per calcolare un piano per un articolo a meno che non ci sia stato una modifica nella domanda o nel modello di approvvigionamento dall'ultima volta in cui è stato calcolato un piano.  
 
@@ -299,7 +299,7 @@ Lo strumento di base di pianificazione dell'approvvigionamento rappresentato dal
 > [!NOTE]  
 >  Non è consigliabile utilizzare Pianificazione ordini se la società già utilizza i prospetti di pianificazione o di richiesta di approvvigionamento. Gli ordini di approvvigionamento creati mediante la pagina **Pianificazione ordini** possono essere modificati o eliminati durante le esecuzioni automatizzate di pianificazione. Ciò si verifica perché in fase di pianificazione automatica vengono utilizzati parametri di pianificazione che potrebbero non venire presi in considerazione dall'utente che ha creato la pianificazione manuale nella pagina Pianificazione ordini.  
 
-##  <a name="finite-loading"></a>Programmazione limitata
+## <a name="finite-loading"></a>Carico finito
 
 [!INCLUDE[prod_short](includes/prod_short.md)] è un sistema ERP standard, non un sistema di controllo della produzione o del reparto. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.  
 
@@ -308,19 +308,18 @@ L'utilizzo previsto della funzionalità Risorse critiche è 1) evitare il sovrac
 Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce che nessuna risorsa venga caricata oltre la propria capacità definita (carico critico). Questa operazione viene effettuata assegnando ogni operazione alla fascia oraria disponibile più vicina. Se la fascia oraria non è sufficiente a completare l'intera operazione, l'operazione verrà divisa in due o più parti e collocate nelle fasce orarie adiacenti disponibili.  
 
 > [!NOTE]  
->  Nel caso che l'operazione venga suddivisa, il tempo di setup viene assegnato una sola volta perché si presuppone che vengano apportate alcune rettifiche manuali per ottimizzare la pianificazione.  
+> Nel caso che l'operazione venga suddivisa, il tempo di setup viene assegnato una sola volta perché si presuppone che vengano apportate alcune rettifiche manuali per ottimizzare la pianificazione.  
 
 Il tempo di smorzamento può essere aggiunto alle risorse per ridurre al minimo la suddivisione dell'operazione. Ciò consente al sistema di programmare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico se ciò può ridurre il numero di operazioni che vengono suddivise.  
 
 Ciò completa la sintesi dei concetti centrali relativi alla pianificazione di approvvigionamenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Nelle sezioni che seguono questi concetti vengono analizzati in modo più approfondito e inseriti nel contesto delle procedure di pianificazione di base, del bilanciamento tra approvvigionamento e domanda, nonché dell'uso di metodi di riordino.  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
-[Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)   
-[Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
-[Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)   
-[Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
-[Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)
-
+[Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)  
+[Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
+[Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)  
+[Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)  
+[Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

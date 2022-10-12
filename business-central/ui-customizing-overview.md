@@ -10,12 +10,12 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 877e4bf26b0af7675fe71f791e0bfe53159b9d70
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533080"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606091"
 ---
 # <a name="customize-business-central"></a>Personalizzare Business Central
 
@@ -29,7 +29,8 @@ Sono disponibili diversi metodi per personalizzare l'applicazione per consentire
 |Modificare l'area di lavoro degli utenti personalizzandone il ruolo assegnato.|Modificare l'interfaccia utente per un profilo (ruolo) di modo che tutti gli utenti di quel ruolo vedano un'area di lavoro personalizzata. Controllare e gestire le personalizzazioni degli utenti disabilitando la possibilità per gli utenti di personalizzare le pagine e cancellando le personalizzazioni di qualsiasi pagina.|Tutti gli utenti in una specifica società.|[Personalizzare pagine per profili](ui-personalization-manage.md)|
 |Modificare gli elementi dell'interfaccia utente visibili.|L'impostazione **Esperienza** determina il livello di funzionalità visualizzata nell'interfaccia utente. Scegliere tra Essential and Premium.|Tutti gli utenti in una specifica società.|[Modifica delle funzionalità visualizzate](ui-experiences.md)|
 |Attivare i colori nelle gestioni ruolo utente per segnalare l'importanza.|Impostare le pile che vengono visualizzate nelle gestioni ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori presenti nelle pile.|Tutti gli utenti in una specifica società.|[Impostare un indicatore colorato nelle pile](admin-how-set-up-colored-indicator-on-cues.md)|
-|Installare un'estensione|Le estensioni sono come piccole applicazioni che aggiungono funzionalità, cambiano il comportamento, forniscono l'accesso a nuovi servizi online e molto altro. Ad esempio, Microsoft fornisce un'estensione che consente l'integrazione con PayPal Payments Standard.|Tutti gli utenti in tutte le società.|[Personalizzazione utilizzando le estensioni](ui-extensions.md)|
+|Installare un'app|Installa le app che aggiungono funzionalità, cambiano il comportamento, forniscono l'accesso a nuovi servizi online e molto altro. Ad esempio, Microsoft fornisce un'app che consente l'integrazione con PayPal Payments Standard.|Tutti gli utenti in tutte le società.|[Personalizzazione con le app](ui-extensions.md)|
+
 > [!NOTE]
 > Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[prod_short](includes/prod_short.md)] presuppongono l'esperienza **Premium**, ovvero le descrizioni riguardano l'intero ambito degli elementi dell'interfaccia utente. Di conseguenza, gli utenti con interfaccia **Essential**, in alcuni argomenti potrebbero leggere informazioni su funzionalità ed elementi dell'interfaccia utente che non sono visibili nell'interfaccia utente. Per ulteriori informazioni, vedi [Modifica delle funzionalità visualizzate](ui-experiences.md).
 

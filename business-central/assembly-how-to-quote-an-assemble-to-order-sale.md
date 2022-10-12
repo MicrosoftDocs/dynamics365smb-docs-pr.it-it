@@ -1,6 +1,6 @@
 ---
 title: Offerta per una vendita assemblaggio su ordine
-description: È possibile utilizzare gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita.
+description: Puoi utilizzare la gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,16 +10,16 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79d7e9ac5e3a71002af168ee02feef1a76671fce
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 7ba67db5f2ba0e01dc2b3b13dca162de714b3127
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528413"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607312"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Offerta per una vendita assemblaggio su ordine
 
-È possibile utilizzare gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
+Puoi utilizzare la gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita. Per ulteriori informazioni, vedere [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Come per la vendita di qualsiasi altro tipo di articolo, è inoltre possibile creare un'offerta di vendita di un articolo di assemblaggio personalizzato prima della conversione in ordine di vendita. Questo processo prevede diversi passaggi aggiuntivi se viene confrontato alla creazione di un'offerta di vendita normale e utilizza una variazione di un ordine di assemblaggio collegato, ossia un'offerta di assemblaggio.
 
@@ -45,7 +45,7 @@ Come per la vendita di qualsiasi altro tipo di articolo, è inoltre possibile cr
 ## <a name="see-also"></a>Vedere anche
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Utilizzare le distinte base](inventory-how-work-BOMs.md)  
+[Utilizzare le distinte base di assemblaggio](assembly-how-work-assembly-boms.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,5 +1,5 @@
 ---
-title: Impostare il piano dei conti (video)
+title: Impostare o modificare il piano dei conti (video)
 description: Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. Puoi modificare i conti predefiniti nel piano dei conti e aggiungere nuovi conti.
 author: edupont04
 ms.topic: conceptual
@@ -10,26 +10,25 @@ ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 57dadabe2e96654a919127f17fcc6391786eb90f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 15eca1f6bc4a75ca6758e5be351d4a459226ac5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533618"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606696"
 ---
 # <a name="set-up-or-change-the-chart-of-accounts"></a>Impostare o modificare il piano dei conti
 
-Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[prod_short](includes/prod_short.md)] include un piano dei conti standard pronto per supportare l'azienda.
-Tuttavia, è possibile modificare i conti predefiniti ed è possibile aggiungere nuovi conti.
+Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[prod_short](includes/prod_short.md)] include un piano dei conti standard pronto per supportare l'azienda. Tuttavia, puoi modificare i conti predefiniti e aggiungere nuovi conti.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
 ## <a name="add-or-change-accounts"></a>Aggiungere o cambiare conti
 
-Nel piano dei conti, è possibile aprire ogni conto C/G e aggiungere o modificare le impostazioni. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+Nel piano dei conti, puoi aprire ogni conto di contabilità generale (C/G) e aggiungere o modificare le impostazioni. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
-In caso di necessità è possibile utilizzare più di una riga per il nome di un conto C/G. Nella pagina **Scheda conto C/G** nel gruppo **Conto** scegli **Testi estesi**, quindi compila una o più righe con il testo da copiare e il nome dell'account.  
+In caso di necessità è possibile utilizzare più di una riga per il nome di un conto C/G. Nella pagina **Scheda conto C/G** nel gruppo **Conto** scegli **Testi estesi**, quindi compila una o più righe con il nome del conto e il testo copiato.  
 
 Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo **Totale finale** questo campo viene compilato automaticamente tramite la funzione di indentazione. Dopo aver impostato tutti gli account, scegli l'azione **Elabora**, quindi scegli **Indenta piano dei conti**.  
 
@@ -44,7 +43,7 @@ Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo 
 * Nel campo **Consenti Eliminaz. Conti C/G Anteriori a** della pagina **Setup Contabilità Generale** deve essere impostata una data ed è necessario che il conto non includa movimenti contabili in tale data o dopo tale data.  
 * Se il campo **Verifica Uso Conti C/G** della pagina **Setup Contabilità Generale** è selezionato, il conto non deve essere utilizzato in tutte le categorie di registrazione o impostazioni delle registrazioni.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] impedirà di eliminare un conto di contabilità generale che memorizza i dati necessari per il piano dei conti.  
+[!INCLUDE[prod_short](includes/prod_short.md)] impedisce di eliminare un conto di contabilità generale che memorizza i dati necessari per il piano dei conti.  
 
 ## <a name="block-deletion-of-gl-accounts"></a>Blocca eliminazione conti C/G
 
@@ -52,11 +51,9 @@ Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo 
 
 Il secondo ciclo di rilascio del 2022 introduce un'ulteriore tutela contro la cancellazione accidentale dei conti C/G anche negli scenari in cui i criteri sono soddisfatti.  
 
-Un nuovo campo, **Blocca eliminazione conti C/G**, viene aggiunto alla pagina **Setup contabilità generale**. Il campo funge da ulteriore convalida quando un utente tenta di eliminare un conto in cui sono presenti movimenti contabili dopo la data specificata nel campo **Verifica eliminazione conti C/G posteriori a**.
+Un nuovo campo, **Blocca eliminazione conti C/G**, è stato aggiunto alla pagina **Setup contabilità generale**. Quando è impostato su *Sì*, il campo funge da ulteriore convalida e quindi non è possibile eliminare i conti C/G con movimenti contabili successivi alla data presente nel campo **Verifica eliminazione conti C/G posteriori a**. Per eliminare tale conto, un utente con accesso alla pagina **Setup contabilità generale** deve prima impostare questo campo su *No*.  
 
-Quando il campo **Blocca eliminazione conti C/G** è impostato su *Sì*, non è possibile eliminare i conti C/G con movimenti contabili successivi alla data presente nel campo **Verifica eliminazione conti C/G posteriori a**. Per eliminare tale conto, un utente con accesso alla pagina **Setup contabilità generale** deve prima impostare questo campo su *No*. Quindi il conto può essere eliminato.  
-
-Si consiglia di impostare il campo **Blocca eliminazione conti C/G** su *Sì*. Ti consigliamo inoltre di avere sempre una data impostata nel campo **Verifica eliminazione conti C/G posteriori a**, come il tempo necessario per archiviare i dati finanziari.  
+L'impostazione del campo **Blocca eliminazione conti C/G** su *sì* può essere considerata una procedura consigliata, così come l'impostazione della data nel campo **Verifica eliminazione conti C/G posteriori a**, ad esempio la data entro la quale ti viene richiesto di archiviare i dati finanziari.  
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -66,7 +63,7 @@ Si consiglia di impostare il campo **Blocca eliminazione conti C/G** su *Sì*. T
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Utilizzare le dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
-[Utilizzare le situazioni contabili](bi-how-work-account-schedule.md)  
+[Utilizzare i report finanziari](bi-how-work-account-schedule.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Chiudere i conti del conto economico nella versione francese](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
 [Stampare il conto economico nella versione australiana](LocalFunctionality/Australia/how-to-print-income-statements.md)  
@@ -75,6 +72,5 @@ Si consiglia di impostare il campo **Blocca eliminazione conti C/G** su *Sì*. T
 [Indentare e convalidare il piano dei conti nella versione spagnola](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

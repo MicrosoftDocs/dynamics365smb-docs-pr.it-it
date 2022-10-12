@@ -10,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 113e562a6d8f5b29df6ff2800cc93a151a1d57e8
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 870fa31361770f5bd773f22ff24a54d65a4b80a3
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532594"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607582"
 ---
 # <a name="request-quotes"></a>Richiedere le offerte
 
@@ -23,7 +23,7 @@ Un'offerta di acquisto può essere utilizzata come bozza preliminare di un ordin
 
 ## <a name="create-a-purchase-quote"></a>Creare un'offerta di acquisto
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Offerte acquisto**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Offerte acquisto**, quindi scegli il collegamento correlato.
 2. Creare un nuovo documento nello stesso modo in cui si crea un ordine di acquisto. Ulteriori informazioni in [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
 ## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Convertire un'offerta di acquisto in un ordine di acquisto
@@ -37,7 +37,7 @@ L'offerta di acquisto viene rimossa dal database. Viene creato un ordine di acqu
 > [!NOTE]
 > Non è possibile convertire direttamente un'offerta di acquisto direttamente in una fattura di acquisto, come è possibile con le offerte di vendita. Per i dettagli su come creare una fattura di acquisto, leggi [Registrare gli acquisti con le fatture di acquisto](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/learn/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Vedere anche
 

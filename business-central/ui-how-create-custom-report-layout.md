@@ -10,74 +10,73 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 1d9d61ad7a4e9b0b64fd11d8a2c1a29676a8ddb4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531973"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604779"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Creare e modificare layout di report personalizzati
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Per impostazione predefinita, i report hanno un layout di report integrato. Il layout può essere un layout di report RDLC, un layout di report Word o entrambi. Non puoi modificare i layout integrati, ma puoi creare layout personalizzati. Un report può avere più layout di report personalizzati.
+Per impostazione predefinita, i report hanno un layout integrato. Il layout del report può essere un layout del report RDLC (Report Definition Language lato client), un layout del report Microsoft Word o entrambi. E mentre non puoi modificare i layout integrati, puoi creare layout personalizzati. Un report può avere più layout di report personalizzati.
 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], il termine "report" riguarda anche i documenti esterni, quali fatture di vendita e conferme di ordini inviate a clienti come file PDF.
 
-Per creare un layout personalizzato, copia un layout personalizzato esistente o aggiungi un nuovo layout personalizzato. I layout personalizzati sono spesso basati su un layout integrato. Quando si aggiunge un nuovo layout personalizzato, puoi scegliere di aggiungere un tipo di layout di report RDLC o Word oppure entrambi. Il nuovo layout personalizzato si baserà sul layout predefinito per il report, se ce n'è uno disponibile. Se non esiste un layout integrato per il tipo, viene creato un nuovo layout vuoto. Dovrai modificare e progettare da zero questo layout vuoto. Per ulteriori informazioni sui layout di report RDLC e Word, sui layout personalizzati integrati e altro ancora, vedere [Gestire i layout dei report](ui-manage-report-layouts.md).  
+Per creare un layout personalizzato, copia un layout personalizzato esistente o aggiungi un nuovo layout personalizzato. I layout personalizzati sono spesso basati su un layout integrato. Quando aggiungi un nuovo layout personalizzato, puoi scegliere di aggiungere un tipo di layout di report RDLC o Word oppure entrambi. Il nuovo layout personalizzato si baserà sul layout predefinito per il report, se ce n'è uno disponibile. Se non esiste un layout integrato per il tipo di report, viene creato un nuovo layout vuoto. Dovrai modificare e progettare da zero questo layout vuoto. Per ulteriori informazioni sui layout di report RDLC e Word, sui layout personalizzati integrati e altro ancora, vedi [Gestire i layout dei report](ui-manage-report-layouts.md).  
 
 > [!TIP]
-> Utilizzare le situazioni contabili per ottenere informazioni dettagliate sui dati finanziari memorizzati nel piano dei conti. Per ulteriori informazioni, vedere [Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md).
+> Utilizza i report finanziari per ottenere informazioni dettagliate sui dati finanziari memorizzati nel piano dei conti. Per ulteriori informazioni, vedi [Preparare Financial Reporting con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md).
 
-Dopo aver definito i layout di report personalizzati, è possibile selezionarli nelle pagine Scheda cliente e Scheda fornitore. I layout verranno utilizzati durante la creazione di documenti per il cliente o il fornitore. Per ulteriori informazioni, vedere [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md).
+Dopo aver definito i layout di report personalizzati, è possibile selezionarli nelle pagine Scheda cliente e Scheda fornitore. I layout vengono utilizzati durante la creazione di documenti per il cliente o il fornitore. Per ulteriori informazioni, vedi [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md).
 
-Puoi utilizzare i layout personalizzati anche per aggiungere contenuti ai messaggi di posta elettronica. I layout dei report possono far risparmiare tempo e contribuire a garantire la coerenza riutilizzando lo stesso contenuto quando comunichi con i clienti. Per utilizzare i layout di report personalizzati con e-mail, il tipo di file per il layout deve essere Word. Non è possibile utilizzare il tipo di file RDLC. Per ulteriori informazioni, vedi [Impostare testi e layout e-mail riutilizzabili](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
+Puoi utilizzare i layout personalizzati anche per aggiungere contenuti ai messaggi di posta elettronica. I layout dei report possono far risparmiare tempo e contribuire a garantire la coerenza riutilizzando lo stesso contenuto quando comunichi con i clienti. Per utilizzare i layout di report personalizzati con e-mail, il tipo di file per il layout deve essere Word, non puoi usare il tipo di file RDLC. Per ulteriori informazioni, vedi [Impostare testi e-mail riutilizzabili e layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="to-create-a-custom-layout"></a>Per creare un layout personalizzato
+## <a name="create-a-custom-layout"></a>Creare un layout personalizzato
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
 
     Nella pagina **Selezione layout report** sono elencati tutti i report disponibili nella società che è specificata nel campo **Nome società** nella parte superiore della pagina.
 2. Nel campo **Società** scegli la società per cui vuoi creare il layout di report.
-3. Selezionare la riga per il report per il quale si desidera creare il layout, quindi scegliere l'azione **Layout personalizzati**.  
+3. Seleziona la riga per il report per il quale vuoi creare il layout, quindi scegli l'azione **Layout personalizzati**.  
 
    Viene visualizzata la pagina **Layout report personalizzati** nella quale sono elencati tutti i layout personalizzati che sono disponibili per il report selezionato.
-4. Per creare una copia di un layout personalizzato esistente, selezionare il layout personalizzato esistente nell'elenco, quindi scegliere l'azione **Copia**.  
+4. Per creare una copia di un layout personalizzato esistente, seleziona il layout personalizzato esistente nell'elenco, quindi scegli l'azione **Copia**.  
 
    La copia del layout personalizzato viene visualizzata nella pagina **Layout report personalizzati** e nel campo *Descrizione* è presente la dicitura **Copia di**.
-5. Se vuoi aggiungere un nuovo layout personalizzato basato su un layout predefinito, segui la seguente procedura:  
-   1. Scegliere l'azione **Nuovo**. Viene visualizzata la pagina **Inserisci layout predefinito per un report**. I campi **ID** e **Nome** vengono automaticamente compilati.
-   2. Per aggiungere un tipo di layout di report Word personalizzato, attiva l'interruttore **Inserisci layout Word**.
-   3. Per aggiungere un tipo di layout di report RDLC personalizzato, attiva l'interruttore **Inserisci layout RDLC**.
+5. Se vuoi aggiungere un nuovo layout personalizzato basato su un layout predefinito, attieniti alla seguente procedura:  
+   1. Scegli l'azione **Nuovo**. La pagina **Inserisci layout integrato per un report** viene visualizzata con i campi **ID** e **Nome** compilati automaticamente.
+   2. Attiva l'interruttore **Inserisci layout Word** per aggiungere un tipo di layout di report Word personalizzato OPPURE attiva l'interruttore **Inserisci layout RDLC** per aggiungere un tipo di layout di report RDLC personalizzato.
    4. Scegli il pulsante **OK**.  
 
     Il nuovo layout personalizzato viene visualizzato nella pagina **Layout report personalizzati**. Se un nuovo layout è basato su un layout predefinito, contiene le parole **Copia di un layout predefinito** nel campo **Descrizione**. Se non è disponibile alcun layout predefinito per il report, il nuovo layout presenta la dicitura **Nuovo layout** nel campo **Descrizione**. Questa dicitura indica che il layout personalizzato è vuoto.
-6. Per impostazione predefinita, il campo **Nome società** è vuoto, il che significa che il layout personalizzato sarà disponibile per il report in tutte le società. Per rendere il layout personalizzato disponibile solo a una società specifica, scegliere **Modifica**, quindi impostare il campo **Nome società** sulla società desiderata.
+6. Per impostazione predefinita, il campo **Nome società** è vuoto e il layout personalizzato è disponibile per i report in tutte le società. Per rendere il layout personalizzato disponibile solo a una società specifica, scegli **Modifica**, quindi imposta il campo **Nome società** sulla società desiderata.
 
-Il layout personalizzato è stato creato. È ora possibile modificare il layout personalizzato in base alle esigenze.
+Il layout personalizzato è stato creato e puoi modificarlo a tuo piacimento.
 
 > [!TIP]
-> Puoi esportare i risultati del report in un file Excel per visualizzare l'intero set di dati, comprese tutte le colonne, ma senza layout. Il file Excel può aiutarti a verificare che il report restituisca i dati previsti o diagnosticare i problemi. Per ulteriori informazioni vedi [Analisi dei dati del report con Excel](report-analyze-excel.md).
+> Puoi esportare i risultati del report in un file Microsoft Excel per visualizzare l'intero set di dati, comprese tutte le colonne, ma senza layout. Il file Excel può aiutarti a verificare che il report restituisca i dati previsti o diagnosticare i problemi. Per informazioni, vedi [Analisi dei dati del report con Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modifica di un layout personalizzato
 
-Per modificare un layout di report, è necessario prima esportare il layout di report come file in un percorso sul computer o sulla rete. Quindi, apri il documento esportato e apporta le modifiche. Quando sono state apportate tutte le modifiche, importa il layout di report.
+Per modificare un layout di report personalizzato, è necessario prima esportare il layout di report come file in un percorso sul computer o sulla rete. Quindi, apri il documento esportato e apporta le modifiche. Quando sono state apportate tutte le modifiche, importa il layout di report.
 
-### <a name="to-modify-a-custom-layout"></a>Per modificare un layout personalizzato
+### <a name="modify-a-custom-layout"></a>Modificare un layout personalizzato
 
-1. Esportare un layout personalizzato dalla pagina **Layout report personalizzati**. Se questa pagina non è già aperta, cerca e apri la pagina **Selezione layout report**, seleziona il report che ha il layout da modificare, quindi scegli l'azione **Layout personalizzati**.  
-2. Nella pagina **Layout report personalizzati**, selezionare il layout che si desidera modificare, scegliere l'azione **Esporta layout** e quindi scegliere **Salva** o **Salva con nome** per salvare il documento di layout nel computer o in una rete.  
-3. Apri il documento di layout del report che hai salvato, quindi apporta le modifiche.
+1. Esporta un layout personalizzato dalla pagina **Layout report personalizzati**. Se la pagina non è già aperta, cerca e apri la pagina **Selezione layout report**, seleziona il report che ha il layout da modificare, quindi scegli l'azione **Layout personalizzati**.  
+2. Nella pagina **Layout report personalizzati**, seleziona il layout che si desidera modificare, scegli l'azione **Esporta layout** e quindi scegli **Salva** o **Salva con nome** per salvare il documento di layout nel computer o in una rete.  
+3. Apri il documento di layout del report che hai salvato e apporta le modifiche.
 
-   Se modifichi un layout Word, apri il documento di layout in Word. Per i dettagli sulla modifica, vedi [Utilizzare i layout di Word](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
+   Se modifichi un layout Word, apri il documento di layout in Word. Per ulteriori informazioni sulla modifica dei report di Word, vedi [Lavorare con i layout di Word](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
 
-   I layout di report RDLC sono più avanzati dei layout di report Word. Per ulteriori informazioni su come modificare un layout di report RDLC, vedere [Progettazione di layout di report RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
+   I layout di report RDLC sono più avanzati dei layout di report Word. Per ulteriori informazioni su come modificare un layout di report RDLC, vedi [Progettazione di layout di report RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
    Ricordarsi di salvare le modifiche effettuate.
 
-4. Tornare alla pagina **Layout report personalizzati**, selezionare il layout di report esportato e modificato, quindi scegliere l'azione **Importa layout**.  
+4. Torna alla pagina **Layout report personalizzati**, seleziona il layout di report esportato e modificato, quindi scegli l'azione **Importa layout**.  
 
 5. Nella finestra di dialogo **Importa**, seleziona **Scegli** per trovare e selezionare il documento di layout di report modificato, quindi scegli **Apri**.
 
@@ -85,20 +84,20 @@ Per modificare un layout di report, è necessario prima esportare il layout di r
 > Ricordati di importare il documento di layout del report che hai modificato. In caso contrario, il nuovo layout del report non sarà disponibile.
 
 <!--
-##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
+##  <a name="MakeChangesToLayout"></a> Create and modify custom report layouts
 
-To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
 If you're designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### Embedding Fonts in Word Layouts for Consistency
+### Embedding fonts in Word layouts for consistency
 
-To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts
+###  <a name="RemoveField"></a> Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -108,7 +107,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 ### To remove a label or data field  
 
-1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
+1. Right-click the field you want to delete, then choose **Remove Content Control**.  
 
      The content control is removed, but the field name remains as text.  
 
@@ -116,19 +115,18 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 ### Adding data fields
 
-Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
+Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md)  
 [Importare ed esportare un layout di report o documento personalizzato](ui-how-import-and-export-report-layout.md)  
 [Utilizzare report, processi batch e XMLport](ui-work-report.md)  
-[Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md)  
+[Preparare Financial Reporting con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)  
 [Business Intelligence](bi.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

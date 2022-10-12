@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530920"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617822"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Utilizzare l'IVA nelle vendite e negli acquisti
 Se il tuo paese o area geografica richiede di calcolare e dichiarare l'imposta sul valore aggiunto (IVA) sulle transazioni di vendita e acquisto, puoi impostare [!INCLUDE[prod_short](includes/prod_short.md)] per calcolare l'IVA. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
@@ -61,6 +61,18 @@ A seconda di ciò che vuoi fare, puoi assegnare una categoria registrazione busi
 
 #### <a name="examples"></a>Esempi
 Fattori come il paese o l'area geografica in cui vendi o il tipo di settore a cui vendi possono influire sull'importo dell'IVA che devi contabilizzare. Ad esempio, un ristorante potrebbe addebitare il 6% di IVA per i pasti consumati in casa e il 17% per l'asporto. A tal fine, crei un gruppo di registrazione business IVA (prezzo) per il consumo in sede e uno per l'asporto.
+
+## <a name="working-with-vat-date"></a>Utilizzo della Data IVA
+### <a name="vat-date-in-documents"></a>Data IVA nei documenti
+Quando crei nuovi documenti di vendita o acquisto, la **Data IVA** sarà basata sull'impostazione nel campo **Data IVA predefinita** sulla pagina **Setup contabilità generale**. Questo valore predefinito può essere uguale alla **Data di registrazione** o alla **Data del documento**. Se hai bisogno di una data IVA diversa, puoi modificare manualmente il valore nel campo **Data IVA**. Quando registri il documento, la **Data IVA** sarà riportata sul documento di registrazione e sulle voci IVA e C/G.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>Correzione della Data IVA nei movimenti registrati
+In alcune situazioni è necessario modificare la data IVA anche se il documento è stato registrato e questo è possibile farlo in [!INCLUDE[prod_short](includes/prod_short.md)]. Per cambiare la **Data IVA** per i documenti registrati è necessario seguire questi passaggi:
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti IVA**, quindi scegli il collegamento correlato.
+2. Trova il movimento con la data IVA errata.
+3. Fai clic sull'azione **Modifica elenco** e immetti la data corretta nel campo **Data IVA**.
+4. Chiudere la pagina.
+5. La nuova data IVA verrà modificata nei **Movimenti C/G** correlati e nel documento registrato se esiste.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Correzione manuale degli importi IVA nei documenti di vendita e di acquisto  
 È possibile apportare correzioni a movimenti IVA registrati e modificare gli importi dell'IVA di acquisto e vendita senza modificare l'imponibile. Ad esempio, se ricevi una fattura da un fornitore con un importo IVA errato.  
@@ -109,14 +121,14 @@ Anziché utilizzare le registrazioni per registrare una fattura con IVA da impor
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Per impostare l'acquisto per registrare le fatture con IVA da importazione  
 1. Impostare una scheda fornitore per l'autorità di importazione che invia la fattura con IVA da importazione. I campi **Cat. reg. business** e **Cat. reg. business IVA** devono essere impostati in modo analogo al conto C/G per l'IVA da importazione.  
 2. Creare una categoria **Cat. reg. articoli/servizi** per l'IVA da importazione e impostare una categoria **Cat. reg. art. serv. IVA default** relativa all'IVA da importazione per la categoria correlata creata in **Cat. reg. articoli/servizi**.  
-3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
+3. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 4. Selezionare il conto di contabilità generale per l'IVA da importazione e scegliere l'azione **Modifica**.  
 5. Nella Scheda dettaglio **Registrazione** selezionare il setup **Cat. reg. articolo/servizio** per l'IVA da importazione. In [!INCLUDE[prod_short](includes/prod_short.md)] il campo **Cat. reg. art./serv. IVA** viene compilato automaticamente.  
-6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.  
+6. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.  
 7. Creare una combinazione tra la **Cat. reg. business** per l'autorità competente sull'IVA e la **Cat. reg. articolo/servizio** per l'IVA da importazione. Per questa nuova combinazione, nel campo **Conto acquisti** scegliere il conto di contabilità generale per l'IVA da importazione.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Per creare una nuova fattura per il fornitore dell'importazione competente dopo avere completato il setup  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Creare una nuova fattura di acquisto.  
 3. Nel campo **Acquistare da - Nr. for.** scegliere il fornitore dell'importazione competente, quindi scegliere il pulsante **OK**.  
 4. Nel campo **Tipo** della riga di acquisto scegliere **Conto CG** e nel campo **Nr.** scegliere il conto di contabilità generale per l'IVA da importazione.  
@@ -128,7 +140,7 @@ Anziché utilizzare le registrazioni per registrare una fattura con IVA da impor
 Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare il cliente un certificato di fornitura che il cliente deve firmare e restituire all'utente. Le procedure riportate di seguito sono utili a elaborare i certificati di fornitura per le spedizioni vendita, ma gli stessi passaggi sono applicabili anche per le spedizioni di assistenza per gli articoli e per le spedizioni di reso ai fornitori.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Per visualizzare i dettagli del certificato di fornitura  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Scegliere **Dettagli certificato di fornitura**.  
 4. Per impostazione predefinita, se è selezionata la casella di controllo **Certificato di fornitura obbligatorio** per l'impostazione della categoria di registrazione IVA per il cliente, il campo **Stato** è impostato su **Obbligatorio**. È possibile aggiornare il campo per specificare se il cliente ha restituito il certificato.  
@@ -147,7 +159,7 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
 >  È possibile visualizzare in anteprima o stampare il documento. Scegliendo **Stampa certificato di fornitura** e si stampa il documento, la casella di controllo **Stampato** viene selezionata. Inoltre, se non è già specificato, lo stato del certificato viene aggiornato a **Obbligatorio**. Se necessario, includere il certificato stampato con la spedizione.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Per stampare un certificato di fornitura  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Scegliere l'azione **Stampa certificato di fornitura**.  
 
@@ -165,7 +177,7 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
 8. Inviare il certificato di fornitura stampato al cliente per la firma.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Per aggiornare lo stato di un certificato di fornitura per una spedizione  
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Nel campo **Stato** scegliere l'opzione pertinente.  
 

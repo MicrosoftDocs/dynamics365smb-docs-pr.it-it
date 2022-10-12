@@ -7,23 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 01/21/2022
+ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 87d5ede3d1cbd94178a614cd7929da9c8e43600a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 64b6b3e3aa74d51b78a62bf2c89e630452c662bb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532189"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605440"
 ---
 # <a name="setting-up-finance"></a>Impostazione di dati finanziari
-Prima di poter iniziare a gestire la propria attività, è necessario specificare le regole e i valori predefiniti per impostare come si desidera gestire i processi finanziari per quella società. Innanzitutto, impostare le basi dei record contabili della società, vale a dire il piano dei conti, dopodiché è necessario procedere all'impostazione delle categorie di registrazione che contribuiscono a rendere più efficiente il processo di assegnazione dei conti delle registrazioni della contabilità generale di default a clienti, fornitori e articoli.
 
-Alcune impostazioni finanziarie possono essere eseguite automaticamente con le guide del setup assistita, mentre altre devono essere eseguite manualmente. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md). La pagina **Setup contabilità generale** specifica le modalità di gestione di diverse questioni contabili relative alla società. Utilizza per esempio questa pagina per specificare i dettagli relativi all'arrotondamento delle fatture, il codice valuta per la valuta locale, il formato degli indirizzi e se vuoi o meno utilizzare una valuta contabile addizionale. Per ulteriori informazioni, vedere [Contabilità generale e piano dei conti](finance-general-ledger.md).  
+Prima di poter iniziare a gestire la propria attività, è necessario specificare come si desidera gestire i processi finanziari. Innanzitutto, imposta le basi dei record contabili della società, vale a dire il piano dei conti. Dopodiché è necessario procedere all'impostazione delle categorie di registrazione che contribuiscono a rendere più efficiente il processo di assegnazione dei conti delle registrazioni della contabilità generale di default a clienti, fornitori e articoli.
 
-È possibile utilizzare dimensioni per aggiungere tipi diversi di informazioni a ogni transazione. È possibile impostare le dimensioni di base della società, ad esempio *Progetti* e *Reparti*. In seguito, sarà possibile aggiungere ulteriori dimensioni e impostare dimensioni temporanee da utilizzare in un periodo di tempo limitato, ad esempio in occasione di una campagna di vendita. Per ulteriori informazioni, vedere [Utilizzo delle dimensioni](finance-dimensions.md).
+Alcune impostazioni finanziarie possono essere eseguite automaticamente con le guide del setup assistita, mentre altre devono essere eseguite manualmente. Ulteriori informazioni in [Prepararsi a fare affari](ui-get-ready-business.md). La pagina **Setup contabilità generale** specifica la modalità di gestione dei diversi processi contabili della società. Utilizza ad esempio questa pagina per specificare i dettagli relativi all'arrotondamento delle fatture, il codice valuta per la valuta locale, il formato degli indirizzi e se vuoi o meno utilizzare una valuta contabile addizionale. Per ulteriori informazioni, vedi [Informazioni sulla contabilità generale e sul piano dei conti](finance-general-ledger.md).  
 
-Molti dei task di impostazione devono essere completati prima di avviare la registrazione delle transazioni finanziarie, anche se molte impostazioni potranno essere modificate in un momento successivo. Alcuni dei task di impostazione sono facoltativi, ad esempio si imposteranno consolidamenti e registrazioni intercompany solo se si lavora con più società. Alcuni task di impostazione, ad esempio la definizione del periodo in cui è consentita la registrazione, è possibile che debbano essere ripetuti periodicamente.  
+È possibile utilizzare dimensioni per aggiungere tipi diversi di informazioni a ogni transazione. È possibile impostare le dimensioni di base della società, ad esempio *Progetti* e *Reparti*. In seguito, aggiungi più dimensioni quando ne hai bisogno. Ad esempio, puoi impostare dimensioni temporanee da utilizzare per un periodo di tempo limitato, ad esempio durante una campagna di vendita. Per ulteriori informazioni, vedi [Utilizzare le dimensioni](finance-dimensions.md).
+
+Molti dei task di impostazione devono essere completati prima di avviare la registrazione delle transazioni finanziarie, ma molte impostazioni possono essere modificate come necessario. Detto questo, ci sono anche task di configurazione facoltativi. Ad esempio, è necessario impostare registrazioni e consolidamenti interaziendali solo se si lavora con più società. E altri task di impostazione, ad esempio la definizione del periodo in cui è consentita la registrazione, è possibile che debbano essere ripetuti periodicamente.  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
@@ -31,34 +32,34 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | --- | --- |
 |Visualizzare o modificare i conti di contabilità generale in cui tutti i movimenti di contabilità generale sono registrati|[Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md)|
 | Specificare come si desidera essere pagato dai clienti e come pagare i fornitori. |[Impostare i metodi di pagamento](finance-payment-methods.md) |
-| Specificare le condizioni pagamento per gestire le date di scadenza e per calcolare eventuali sconti pagamento.|[Impostare le condizioni pagamento](finance-payment-terms.md) |
+| Specifica le condizioni pagamento per gestire le date di scadenza e per calcolare eventuali sconti pagamento.|[Impostare le condizioni pagamento](finance-payment-terms.md) |
 | Specificare le categorie di registrazione che associano entità come clienti, fornitori, articoli, risorse e documenti di vendita o di acquisto a conti di contabilità generale. |[Configurazione delle categorie di registrazione](finance-posting-groups.md)|
-|Creare le situazioni contabili e definire le categorie di conti per definire il contenuto dei grafici e dei report finanziari, ad esempio i report di conto patrimoniale e conto economico.|[Preparare i rendiconti finanziari con le situazioni contabili e le categorie di conti](bi-how-work-account-schedule.md)|
-|Impostare una tolleranza da cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+|Crea report finanziari e definisci le categorie di conti per determinare il contenuto dei grafici e dei report finanziari, ad esempio i report di conto patrimoniale e conto economico.|[Preparare Financial Reporting con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)|
+|Imposta una tolleranza con cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Impostare periodi fiscali. |[Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md) |
-|Impostare termini di sollecito per riscuotere pagamenti in ritardo.|[Impostare i termini e i livelli di sollecito](finance-setup-reminders.md)|
-| Definire come dichiarare alle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)|
+|Imposta i termini di fatturazione che ricordano ai tuoi clienti di effettuare il pagamento.|[Impostare i termini e i livelli di sollecito](finance-setup-reminders.md)|
+| Definisci come dichiarare alle autorità fiscali gli importi dell'imposta sul valore aggiunto (IVA) raccolti per le vendite. |[Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)|
 |Preparare la gestione dell'IVA ad esigibilità differita in connessione con metodi di contabilità basata su contanti.|[Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti](finance-setup-unrealized-vat.md)|
 |Definisci le valute estere in cui fai trading o crei i report per le transazioni.|[Impostare le valute](finance-set-up-currencies.md)|
-| Impostare le funzionalità Vendite e acquisti per gestire i pagamenti in valute estere.|[Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md)
-|Definire una o più valute aggiuntive in modo da indicare automaticamente gli importi sia nella valuta corrente sia nella seconda valuta in ogni movimento C/G e in altri movimenti.|[Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md)|
+| Imposta le funzionalità Vendite e acquisti per gestire i pagamenti in valute estere.|[Abilitare il collegamento dei movimenti contabili fornitore in valute diverse](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Definisci una o più valute aggiuntive in modo da indicare automaticamente gli importi sia nella valuta locale (VL) sia nella seconda valuta in ogni movimento di contabilità generale (C/G) e in altri movimenti.|[Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md)|
 |Rettificare periodicamente gli equivalenti della valuta addizionale per compensare tassi di cambio fluttuanti.|[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|
-|Definire molteplici tassi di interesse da utilizzare in periodi differenti per pagamenti in ritardo nelle transazioni commerciali.|[Impostare più tassi d'interesse](finance-how-to-set-up-multiple-interest-rates.md)|
-|Preparare l'arrotondamento automatico degli importi delle fatture quando si creano fatture.|[Impostare l'arrotondamento delle fatture](finance-set-up-invoice-rounding.md)|
+|Definisci molteplici tassi di interesse da utilizzare in periodi differenti per pagamenti in ritardo nelle transazioni commerciali.|[Impostare più tassi d'interesse](finance-how-to-set-up-multiple-interest-rates.md)|
+|Fai in modo che gli importi vengano arrotondati automaticamente durante la creazione delle fatture.|[Impostare l'arrotondamento delle fatture](finance-set-up-invoice-rounding.md)|
 | Aggiungere nuovi conti a un piano dei conti esistente. |[Impostazione del piano dei conti](finance-setup-chart-accounts.md) |
 | Impostare i grafici di business intelligence (BI) per analizzare il flusso di cassa. |[Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md) |
-|Abilitazione della fatturazione di un cliente che non è impostato nel sistema.|[Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md)|
-| Impostare la creazione di report Intrastat e inviare il report a un'autorità | [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
-|Assicurarsi che un movimento in una registrazione generale sia allocato a più conti diversi quanto tale registrazione viene contabilizzata, in base alla quantità, alla percentuale o all'importo.|[Utilizzare le chiavi di allocazione nelle registrazioni COGE](ui-how-use-allocation-keys-general-journals.md)|
-|Impostare i codici sorgente e le causali da utilizzare per tenere traccia degli audit trail.|[Impostazione di codici sorgente e causali per audit trail](finance-setup-trail-codes.md)|
+|Abilita la fatturazione di un cliente che non è impostato nel sistema.|[Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md)|
+| Imposta la creazione di report Intrastat e invia il report a un'autorità. | [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat.md)|
+|Assicurati che un movimento contabile sia allocato tra conti diversi, ad esempio quantità, percentuale o importo, quando lo registri nel giornale di registrazione.|[Utilizzare le chiavi di allocazione nelle registrazioni COGE](ui-how-use-allocation-keys-general-journals.md)|
+|Imposta i codici origine e le causali per tenere traccia degli audit trail.|[Impostazione di codici sorgente e causali per audit trail](finance-setup-trail-codes.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
 > [!TIP]
-> A seconda della posizione geografica, alcune pagine possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+> A seconda della posizione geografica, alcune pagine di Business Central possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
@@ -68,6 +69,5 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

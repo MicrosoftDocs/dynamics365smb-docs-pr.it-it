@@ -1,21 +1,21 @@
 ---
 title: Creare una scheda fornitore per registrare un nuovo fornitore (video)
 description: Scopri come creare una scheda fornitore per registrare un nuovo fornitore e salvare la scheda fornitore come modello.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532041"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606642"
 ---
 # <a name="register-new-vendors"></a>Registrare nuovi fornitori
 
@@ -41,6 +41,10 @@ Dopo aver creato un modello, è possibile utilizzare l'azione **Applica modello*
 > Può essere utile personalizzare la pagina **Modello fornitore** quando si crea un modello. Per esempio, potresti voler aggiungere un campo che non è già visualizzato nella pagina. Ulteriori informazioni nella sezione [Personalizza l'area di lavoro](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 Puoi anche creare un fornitore da un contatto. Ulteriori informazioni nella sezione [Creare un cliente, un fornitore, un dipendente o un conto bancario da un contatto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+
+Gli indirizzi di rimessa vengono utilizzati quando si stampano assegni per pagare i fornitori e i fornitori possono avere più indirizzi di rimessa per i pagamenti. Ad esempio, un fornitore potrebbe fornire un articolo da una società sussidiaria, ma desidera ricevere il pagamento presso la propria sede. [!INCLUDE [prod_short](includes/prod_short.md)] ti consente di impostare più indirizzi postali per ciascun fornitore e puoi scegliere la posizione corretta a cui inviare i pagamenti fattura per fattura.
+
+Specifica gli indirizzi di rimessa nelle pagine della scheda fornitore e nella scheda dettaglio Spedizioni e pagamenti su ordini di acquisto e fatture. Quando crei le righe di registrazione pagamenti utilizzando le azioni Pagamento fornitore o Crea pagamento nella pagina Elenco fornitori o Scheda fornitore o l'azione Applica movimenti su un giornale di registrazione pagamenti, viene assegnato il codice di rimessa sul movimento contabile fornitore. È possibile sostituire questo valore.
 
 ### <a name="to-create-a-new-vendor"></a>Per creare un nuovo fornitore
 
