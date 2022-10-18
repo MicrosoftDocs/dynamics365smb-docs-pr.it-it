@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606145"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652193"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrare i prezzi di vendita e gli sconti speciali
 
@@ -93,7 +93,7 @@ Quando abiliti l'aggiornamento della funzionalità **Nuova esperienza prezzo di 
     * Vendite
     * Acquisti
     * Ricavi commesse
-    * Acquisti commesse 
+    * Acquisti commesse
 
     Puoi modificare tutti i prezzi per queste aree nella pagina **Foglio di lavoro prezzi**. I listini prezzi predefiniti sono impostati nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** e **Setup commesse**. 
 
@@ -252,7 +252,7 @@ Per collegare le percentuali di sconto a importi di fatturazione specifici, util
 Oltre a oppure invece di una percentuale di sconto, è possibile collegare l'importo di un addebito di assistenza a un importo della fattura specifico.  
 
 > [!TIP]  
-> Prima di immettere le informazioni, è opportuno preparare uno schema della struttura di sconto da utilizzare. Questo consente di visualizzare più facilmente i clienti che possono essere collegati alla stessa pagina di sconto fattura. Minore è il numero delle pagine da impostare, più veloce risulta l'inserimento delle informazioni principali.
+> Prima di immettere le informazioni, è opportuno preparare uno schema della struttura di sconto da utilizzare. La struttura consente di determinare più facilmente i clienti che possono essere collegati alla stessa pagina di sconto fattura. Minore è il numero delle pagine da impostare, più veloce risulta l'inserimento delle informazioni principali.
 
 Per informazioni sugli sconti per le vendite, vedi [Impostare gli sconti per i clienti](/training/modules/customer-discounts-dynamics-365-business-central/index).
 

@@ -1,21 +1,21 @@
 ---
 title: Personalizzazione delle pagine (video)
 description: Informazioni su come personalizzare l'interfaccia utente e l'area di lavoro in base alle tue esigenze e preferenze professionali in Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528814"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652166"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 
@@ -79,9 +79,15 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 |Aggiungere una nuova azione a una pagina o un report in Gestione ruolo utente.|Dalla pagina di destinazione, dalla pagina della richiesta di report o dalla finestra della funzionalità delle informazioni, selezionare l'icona del segnalibro.|Vedere [Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente](ui-bookmarks.md)|
 |Avvia sempre un elenco come espanso o compresso|Scegli il pulsante **Espandi tutto** o **Comprimi tutto** nell'angolo in alto a sinistra dell'elenco. In alternativa, scegli l'azione **Espandi tutto** o **Comprimi tutto** nel menu della prima colonna. |Si applica agli elenchi di gerarchie comprimibili.|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Personalizzazione delle azioni
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Personalizzazione della barra delle azioni e dei menu
 
-La personalizzazione consente di specificare quali azioni visualizzare nelle barre di spostamento e azione e in Gestione ruolo utente e dove. È possibile visualizzare, nascondere o spostare singole azioni o gruppi di azioni. La personalizzazione delle barre di spostamento e azione è praticamente uguale a quella degli altri elementi dell'interfaccia di lavoro. Tuttavia, ciò che è possibile eseguire con un'azione o un gruppo dipende dalla posizione dell'azione o del gruppo. Il modo migliore per saperlo è di attivare la modalità di personalizzazione e di seguire le istruzioni visualizzate.
+La personalizzazione consente di specificare quali azioni visualizzare nelle barre di spostamento e azione e in Gestione ruolo utente e dove. È possibile visualizzare, nascondere o spostare singole azioni o gruppi di azioni.
+
+Nel secondo ciclo di rilascio del 2022 ti abbiamo fornito più modi per personalizzare Business Central. Il video seguente mostra come personalizzare le azioni sulle pagine e su Gestione ruolo utente.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+La personalizzazione delle barre di spostamento e azione è praticamente uguale a quella degli altri elementi dell'interfaccia di lavoro. Tuttavia, ciò che è possibile eseguire con un'azione o un gruppo dipende dalla posizione dell'azione o del gruppo. Il modo migliore per saperlo è di attivare la modalità di personalizzazione e di seguire le istruzioni visualizzate.
 
 Per comprendere meglio la personalizzazione delle azioni, è necessario avere una certa familiarità con alcuni termini, ovvero *gruppo di azioni* e *categoria promossa*.  
 

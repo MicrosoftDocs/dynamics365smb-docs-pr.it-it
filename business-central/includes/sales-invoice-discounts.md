@@ -1,27 +1,32 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ed62e60d3b5b1af2158d8adc6c411884ea4c12aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: 8849f1c5d33cd1f826e7f53be317cb01e513fcd1
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133578"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652139"
 ---
-Una volta immessi tutti gli articoli nelle righe, sarà possibile calcolare lo sconto fattura per l'intero documento di vendita scegliendo l'azione **Calcola sconto fattura**.
+Una volta aggiunti tutti gli articoli nelle righe, sarà possibile calcolare lo sconto fattura per l'intero documento di vendita scegliendo l'azione **Calcola sconto fattura**.
 
-Lo sconto viene calcolato in base a tutte le righe nel documento di vendita per gli articoli per cui il campo **Consenti sconto fattura** della riga dell'ordine di vendita contenga il valore **Sì**. Questa è l'impostazione di default per gli articoli. Le righe con addebiti articolo non vengono ad esempio incluse nel calcolo dello sconto fattura. Se si desidera applicare uno sconto a tali righe, è necessario impostare il campo **% sconto riga** nelle righe pertinenti.  
+Lo sconto viene calcolato in base a tutte le righe del documento di vendita in cui viene selezionata la casella di controllo **Sconto fattura**. Per impostazione predefinita, sono consentiti sconti fattura. Tuttavia, le righe con addebiti articolo non vengono ad esempio incluse nel calcolo dello sconto fattura. Per applicare uno sconto a tali righe, immetti un valore nel campo **Importo Sconto Riga** nelle righe.  
+
+> [!NOTE]
+> Per impostazione predefinita, i campi **Sconto Fattura** e **Importo Sconto Riga** sono nascosti sulle righe. Se i campi non sono disponibili, puoi aggiungerli personalizzando la pagina. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 > [!TIP]
-> Se il campo **Calcola sconto fatt.** è selezionato nella pagina **Setup contabilità clienti**, lo sconto fattura viene calcolato automaticamente quando su un documento di vendita si effettua una delle seguenti operazioni:
+> Se il campo **Calcola sconto fatt.** nella pagina **Setup contabilità clienti** è selezionato, lo sconto sulla fattura viene calcolato automaticamente. Il momento in cui avviene il calcolo varia a seconda del tipo di documento di vendita che stai utilizzando.
+>
+> Se stai utilizzando un ordine cliente, lo sconto viene calcolato quando aggiungi una riga. Per tutti gli altri documenti di vendita, come le fatture di vendita, lo sconto viene calcolato quando si esegue una delle seguenti azioni:
 >
 > * Visualizzare statistiche
 > * Visualizzare un report di test
 > * Stampa
 > * Spedizioni postali
 
-Le condizioni di sconto fattura per un cliente vengono definite nella pagina **Sconti fattura clienti** per il cliente. Il codice valuta nel documento di vendita viene utilizzato per identificate le condizioni dello sconto in fattura nella valuta corrispondente.
+Definisci le condizioni di sconto fattura per un cliente nella pagina **Sconti fattura clienti**. Il codice valuta nel documento di vendita viene utilizzato per identificate le condizioni dello sconto in fattura nella valuta corrispondente.
 
-Se gli sconti fattura non sono stati definiti in valuta estera, per calcolarli vengono usate automaticamente le condizioni di sconto fattura in valuta locale definite nella pagina **Sconti fattura clienti** e il tasso di cambio alla data di registrazione del documento di vendita.
+Se non sono stati definiti sconti fattura per valute estere, le condizioni di sconto nella pagina **Sconti fattura clienti** vengono utilizzate per calcolare lo sconto. Il calcolo utilizza la tua valuta locale e il tasso di cambio valido alla data di registrazione del documento.
