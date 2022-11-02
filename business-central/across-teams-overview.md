@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607426"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716560"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integrazione di Business Central e Microsoft Teams
 
@@ -54,7 +54,9 @@ Per ulteriori informazioni, vedere [Condividere record in Microsoft Teams](acros
 
 Direttamente dalla maggior parte delle pagine delle collezioni e dei dettagli in Business Central, puoi usare l'azione **Condividi in Teams** dall'![icona del menu Condividi sulle pagine.](media/share-icon.png "Il menu Condividi visualizzato su una scheda.") per digitare un messaggio, scegli i destinatari, come i membri del team, gruppi o canali, e invia il messaggio con un collegamento alla pagina di Business Central.
 
-![!Il menu Condividi visualizzato su una scheda.](media/teams-share-link.png "Il menu Condividi visualizzato su una scheda.")
+[![!Il menu Condividi visualizzato su una scheda.](media/teams-share-link-v2.png "Il menu Condividi visualizzato su una scheda.")](media/teams-share-link-v2.png#lightbox)
+
+<!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 Per ulteriori informazioni, vedere [Condividi record e link di pagina in Microsoft Teams](across-working-with-teams.md#share-link).
 

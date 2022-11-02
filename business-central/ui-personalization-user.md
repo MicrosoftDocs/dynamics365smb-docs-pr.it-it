@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652166"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716572"
 ---
 # <a name="personalize-your-workspace"></a>Personalizzare l'area di lavoro
 
@@ -155,6 +155,12 @@ Per agevolare la comprensione della personalizzazione, di seguito sono elencati 
 - Le modifiche effettuate diventeranno effettive in tutte le Gestioni ruolo utente. Ad esempio, se si effettua una modifica all'elenco Cliente quando la Gestione ruolo utente è impostata su Manager aziendale, le modifiche verranno visualizzate anche nella pagina **Clienti** quando Gestione ruolo utente è impostato su Gestore ordini vendite.
 - Le modifiche a una pagina in un riquadro diventeranno effettive nella pagina ovunque viene visualizzata.  
 - È possibile aggiungere solo i campi e le colonne da una lista predefinita, che è basata sulla pagina. Non è possibile creare nuovi campi.
+- La voce **Power Automate** nella barra delle azioni
+  - Non puoi nascondere o spostare la voce **Automatizza** o la voce secondaria **Power Automate** e le relative azioni **Crea un flusso** e **Gestisci flussi**.
+  - Puoi spostare i flussi inclusi sotto l'elemento **Automatizza**, ma non puoi nasconderli usando la personalizzazione. Lo spostamento del flusso crea una copia del flusso nella destinazione, non lo rimuoverà dall'elemento **Automatizza**.
+
+   > [!TIP]
+   > In qualità di amministratore, puoi nascondere l'elemento **Automatizza** per gli utenti. Ulteriori informazioni in [Configurare l'integrazione di Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
