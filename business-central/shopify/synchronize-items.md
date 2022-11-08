@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2c54b24a38be055fb8f6e641761130e6eab8b829
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361611"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728385"
 ---
 # <a name="synchronize-items-and-inventory"></a>Sincronizzare articoli e inventario
 
@@ -29,7 +29,9 @@ Un terzo scenario è gestire i dati in Shopify e importare gli articoli in blocc
 ## <a name="define-item-synchronizations"></a>Definire le sincronizzazioni degli articoli
 
 1. Scegli l'icona di ricerca a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Punto vendita Shopify**. Apri il punto vendita per il quale desideri configurare la sincronizzazione degli articoli.
-2. Dal campo **Sincronizza articolo**, seleziona l'opzione richiesta.<br>Nella seguente tabella vengono descritte le opzioni.
+2. Dal campo **Sincronizza articolo**, seleziona l'opzione richiesta.
+
+   Nella seguente tabella vengono descritte le opzioni.
 
 |Opzione|Descrizione|
 |------|-----------|
@@ -46,7 +48,7 @@ Importa gli articoli da Shopify in blocco o insieme agli ordini per aggiungerli 
 |**Crea automaticamente articoli sconosciuti**|Quando prodotti e varianti Shopify vengono importati in [!INCLUDE[prod_short](../includes/prod_short.md)], la funzione [!INCLUDE[prod_short](../includes/prod_short.md)] cerca sempre di trovare prima il record corrispondente nell'elenco degli elementi. **Mapping SKU** influisce sul modo in cui viene eseguita la corrispondenza e crea un nuovo articolo e/o una variante di articolo. Abilita questa opzione se desideri creare un nuovo articolo o quando non esiste un record corrispondente. Il nuovo articolo viene creato utilizzando i dati importati e il **Codice modello articolo**. Se questa opzione non è abilitata, dovrai creare un articolo manualmente e utilizzare l'azione **Esegui mapping prodotto** nella pagina **Prodotti Shopify**.|
 |**Codice modello articolo**|Utilizzalo insieme all'interruttore **Crea automaticamente articoli sconosciuti**.<br>Scegli il modello che vuoi utilizzare per gli articoli creati automaticamente.|
 |**Mapping SKU**|Scegli come vuoi usare il valore **SKU** importato da Shopify durante il mapping la creazione dell'articolo/variante. Per ulteriori informazioni vedi la sezione [Effetto delle SKU e dei codici a barre dei prodotti Shopify sulla mappatura e sulla creazione di articoli e varianti in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**Separatore campo SKU**|Usalo con **Mappatura SKU** impostato sull'opzione **Nr. articolo + Codice variante (synchronize-items.md#effect-of- shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br> Definisci un separatore da utilizzare per dividere la SKU.<br>Se in Shopify crei la variante con SKU "1000/001", digita "/" nel campo **Separatore di campo SKU** per ottenere il numero dell'articolo [!INCLUDE[prod_short](../includes/prod_short.md)] come "1000" e il codice della variante articolo come "001".|
+|**Separatore campo SKU**|Usalo insieme a **Mapping SKU** impostato sull'opzione **[Nr. articolo e codice variante](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definisci un separatore da utilizzare per dividere la SKU.<br>Se in Shopify crei la variante con SKU "1000/001", digita "/" nel campo **Separatore di campo SKU** per ottenere il numero dell'articolo [!INCLUDE[prod_short](../includes/prod_short.md)] come "1000" e il codice della variante articolo come "001".|
 |**Prefisso variante**|Usato insieme a **Mapping SKU** impostato sull'opzione **Codice variante** o **Nr. articolo + Codice variante** come strategia di fallback quando lo SKU proveniente da Shopify è vuoto.<br>Se vuoi creare la variante articolo in [!INCLUDE[prod_short](../includes/prod_short.md)] automaticamente, dovrai inserire un valore in **Codice**. Per impostazione predefinita, viene utilizzato il valore definito nel campo SKU importato da Shopify. Tuttavia, se lo SKU è vuoto, genererà codice che inizia con il prefisso della variante definito e "001".|
 |**Shopify può aggiornare l'articolo**|Scegli questa opzione se desideri aggiornare automaticamente gli articoli e/o le varianti.|
 
@@ -100,7 +102,7 @@ Puoi gestire il processo di esportazione degli articoli utilizzando queste impos
 |------|-----------------|-----------------|
 |Stato|In base al campo **Stato per i prodotti creati** nella **Scheda punto vendita Shopify**. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
 |Titolo | **Descrizione**. Se il codice della lingua è definito ed esiste la traduzione dell'articolo corrispondente, verrà utilizzata la traduzione dell'articolo al posto della descrizione.|**descrizione**|
-|Descrizione|Combina testi e attributi estesi se le opzioni corrispondenti nella scheda punto vendita Shopify sono abilitate. Rispetta codice lingua.|Non utilizzato.|
+|Descrizione|Combina testi e attributi estesi se le opzioni corrispondenti nella scheda punto vendita Shopify sono abilitate. Rispetta il codice lingua.|Non utilizzato.|
 |Titolo pagina SEO|Valore fisso: vuoto. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
 |Meta descrizione SEO|Valore fisso: vuoto. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
 |Elemento multimediale|**Immagine**. Scopri di più nella sezione [Sincronizzare le immagini degli articoli](synchronize-items.md#sync-item-images)|**Immagine**|
@@ -128,7 +130,7 @@ La sincronizzazione completa o parziale degli articoli può essere eseguita in m
 
 ### <a name="initial-sync-of-items-from-business-central-to-shopify"></a>Sincronizzazione iniziale degli articoli da Business Central a Shopify
 
-1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") della ricerca. icona, immetti **Prodotti Shopify**, quindi scegli il collegamento correlato.
+1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") della ricerca. e immetti **Prodotti Shopify**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Aggiungi articoli**.
 3. Nel campo **Codice punto vendita** immetti il primo codice. Se apri la finestra **Prodotto Shopify** dalla pagina **Scheda punto vendita**, il codice punto vendita verrà compilato automaticamente.
 4. Definisci i filtri sugli articoli come richiesto. Ad esempio, puoi filtrare per il numero articolo o il codice categoria articolo.
@@ -138,7 +140,7 @@ Gli articoli ottenuti vengono creati automaticamente in Shopify con prezzi ma im
 
 ### <a name="sync-products-from-shopify-to-business-central"></a>Sincronizza i prodotti da Shopify a Business Central
 
-1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") della ricerca. icona, immetti **Negozio Shopify**, quindi scegli il collegamento correlato.
+1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") della ricerca. icona, immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri sincronizzare gli articoli per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Scegli l'azione **Sincronizza prodotti**.
 
@@ -168,7 +170,7 @@ In base al valore in **Azione per prodotti rimossi** nella pagina **Scheda punto
 
 La sincronizzazione delle immagini può essere configurata per gli articoli sincronizzati. Scegliere una delle seguenti opzioni:
 
-* **Vuoto** - la sincronizzazione delle immagini è disattivata.
+* **Disattivata**: la sincronizzazione delle immagini è disattivata.
 * **A Shopify** - le immagini degli articoli vengono esportate in Shopify.
 * **Da Shopify** - le immagini da Shopify vengono importate in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -176,13 +178,13 @@ La sincronizzazione delle immagini può essere inizializzata nei due modi descri
 
 ### <a name="sync-product-images-from-the-shopify-shop-page"></a>Sincronizzare le immagini dei prodotti dalla pagina del punto vendita Shopify
 
-1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. icona, immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
+1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. e immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri sincronizzare le immagini per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Scegli l'azione **Sincronizza immagini prodotto**.
 
 ### <a name="sync-product-images-from-the-shopify-products-page"></a>Sincronizzare le immagini dei prodotti dalla pagina dei prodotti Shopify
 
-1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. icona, immetti **Prodotti Shopify**, quindi scegli il collegamento correlato.
+1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. e immetti **Prodotti Shopify**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Sincronizza immagini prodotto**.
 
 ### <a name="image-synchronization-remarks"></a>Osservazioni sulla sincronizzazione delle immagini
@@ -202,7 +204,7 @@ I prezzi per gli articoli sincronizzati possono essere esportati nei due modi de
 ### <a name="price-calculation-remarks"></a>Nore sul calcolo del prezzo
 
 * Per il calcolo del prezzo, è importante avere un valore nel campo **Modello cliente predefinito**. Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).
-* Immetti un **Codice valuta** se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDE[prod_short](../includes/prod_short.md)], lascia il campo vuoto.
+* Immetti un **Codice valuta** solo se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDE[prod_short](../includes/prod_short.md)], lascia il campo vuoto.
 * Quando si determina un prezzo, [!INCLUDE[prod_short](../includes/prod_short.md)] utilizza la logica del "prezzo più basso". Significa che se il prezzo unitario definito nella scheda articolo è inferiore a quello definito nel gruppo di prezzi, viene utilizzato il prezzo unitario della scheda articolo.
 
 ## <a name="sync-inventory-to-shopify"></a>Sincronizzare l'inventario con Shopify
@@ -214,7 +216,7 @@ La sincronizzazione dell'inventario può essere configurata per gli articoli gi�
 
 ### <a name="to-enable-inventory-sync"></a>Per abilitare la sincronizzazione dell'inventario
 
-1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. icona, immetti **Negozio Shopify**, quindi scegli il collegamento correlato.
+1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri sincronizzare l'inventario per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Scegli l'azione **Posizioni** per aprire **Posizioni punto vendita Shopify**.
 4. Scegli l'azione **Recupera posizioni Shopify** per importare tutte le posizioni definite in Shopify. Puoi trovarli nelle impostazioni [**Posizioni**](https://www.shopify.com/admin/settings/locations) in **Amministratore Shopify**.
@@ -225,7 +227,7 @@ Puoi inizializzare le sincronizzazione dell'inventario in due modi descritti di 
 
 ### <a name="sync-inventory-from-the-shopify-shop-page"></a>Sincronizzare l'inventario dalla pagina del punto vendita Shopify
 
-1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. icona, immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
+1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") della ricerca. e immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri sincronizzare l'inventario per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Scegli l'azione **Sincronizza inventario**.
 

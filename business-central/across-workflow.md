@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716534"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728469"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflow in Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] suppo
 * Flussi di Power Automate
 
   * I flussi automatizzati che sono attivati da eventi quali la creazione, la modifica o l'eliminazione di record o documenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Sono inclusi anche i flussi di approvazione creati in Power Automate che si attivano quando viene richiesta un'approvazione in [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Flussi istantanei che vengono attivati manualmente dall'azione **Automatizza** da pagine di elenchi, schede e documenti. 
+  * Flussi istantanei che vengono attivati manualmente dall'azione **Automatizza** da pagine di elenchi, schede e documenti.
 
     Creare e attivare manualmente un flusso di Power Automate su un record [!INCLUDE[prod_short](includes/prod_short.md)], come un cliente, un articolo o un ordine di vendita, con opzioni per manipolare le informazioni sia internamente che esternamente (utilizzando strumenti integrati).
 
@@ -44,11 +44,12 @@ Con [!INCLUDE [prod_short](includes/prod_short.md)] online, puoi iscriverti a Po
 
 ## <a name="approval-workflows"></a>Workflow di approvazione
 
-Puoi creare un flusso di lavoro di approvazione elencando le fasi interessate nelle righe. Ciascun passaggio è costituito da:
-- Un evento del flusso di lavoro, moderato dalle condizioni dell'evento
-- Una risposta del flusso di lavoro, moderata dalle opzioni di risposta.
+Crea un workflow di approvazione definendo cosa avvia il workflow e cosa accade dopo, come segue:
 
-Per definire i passaggi del flusso di lavoro compila i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.<!--What are the "values"? Can we give an example?-->
+* Un evento del workflow, moderato dalle condizioni dell'evento.
+* Una risposta del flusso di lavoro, moderata dalle opzioni di risposta.
+
+Per definire i passaggi del workflow compila i campi delle righe del workflow in base a valori di evento e di risposta che rappresentano gli scenari supportati.
 
 Esempi di eventi dei workflow di approvazione includono la creazione di ordini/preventivi/fatture di vendita o acquisto, modifiche dei prezzi e modifiche del fornitore o del cliente.
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607717"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728574"
 ---
 # <a name="resources-for-help-and-support"></a>Risorse per Guida e supporto
 
@@ -114,7 +114,11 @@ In questa sezione vengono forniti collegamenti a Microsoft AppSource dove è pos
 
 ### <a name="give-feedback"></a>Inviare commenti e suggerimenti
 
-Sul [sito delle idee di Dynamics 365](https://aka.ms/bcideas), è possibile fornire suggerimenti per le nuove funzionalità. Il feedback viene inviato direttamente al backlog tecnico di Business Central per analisi e priorità.  
+Circa una volta per trimestre, il team di [!INCLUDE [prod_short](includes/prod_short.md)] raccoglie feedback dai nostri utenti in relazione alla loro soddisfazione circa il prodotto. Oltre alle valutazioni, puoi anche fornire un commento scritto. Fornendoci commenti specifici e fruibili, aiuti i nostri team di ingegneri a dare la priorità ai miglioramenti del prodotto in cui investiamo. Puoi anche acconsentire a essere contattato in merito al tuo commento. In tal caso, verrai invitato a una riunione di Teams all'orario che preferisci. Puoi fornire suggerimenti sui prodotti in qualsiasi momento sul nostro sito Web [Idee di Dynamics 365](https://aka.ms/bcideas).  
+
+### <a name="product-suggestions"></a>Suggerimenti sui prodotti
+
+Sul sito Web [Idee di Dynamics 365](https://aka.ms/bcideas), è possibile fornire suggerimenti per le nuove funzionalità. Il feedback viene inviato direttamente al backlog tecnico di Business Central per analisi e priorità.  
 
 Assicurarsi di effettuare la ricerca nell'elenco dei suggerimenti inviati. È possibile che qualcuno abbia già inviato un suggerimento simile e che questo sia già stato votato. Un'idea già inviata può essere votata di modo che risulti prioritaria nel backlog tecnico.  
 

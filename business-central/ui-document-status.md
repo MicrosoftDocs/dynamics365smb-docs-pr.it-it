@@ -1,19 +1,19 @@
 ---
 title: Campo stato nei documenti
 description: Ulteriori informazioni sullo stato "Aperto" e "Rilasciato" su offerte, ordini o documenti di nota di credito.
-author: rubenseishima
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
 ms.search.form: ''
 ms.date: 09/19/2022
-ms.author: a-reishima
-ms.openlocfilehash: c96909b4ee37673ee7b0c752224478a144ad853e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: f48f499277155aaf60ae0992199d7895225f1ef5
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608195"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728628"
 ---
 # <a name="status-field-on-documents"></a>Campo stato nei documenti
 
@@ -28,13 +28,13 @@ Dopo aver compilato il documento, puoi rilasciarlo e [!INCLUDE[prod_short](inclu
 | Approvazione in sospeso   | Il documento è in attesa di approvazione. |
 | Pagamento anticipato in sospeso | Una fattura pagamento anticipato è stata registrata per il documento. |
 
-## <a name="releasing"></a>Rilascio
+## <a name="release-process"></a>Rilascia processo
 
-Il processo di rilascio può essere utilizzato in diversi modi per semplificare il flusso di lavoro standard, ad esempio, per seguire le procedure utilizzate dall'azienda in relazione alle approvazioni per avviare le attività della warehouse.
+Il processo di rilascio può essere utilizzato in diversi modi per semplificare il workflow standard, ad esempio, per seguire le procedure utilizzate dall'azienda in relazione alle approvazioni per avviare le attività della warehouse.
 
 ### <a name="approval-procedures"></a>Procedure di approvazione
 
-L'azienda può utilizzare la procedura di rilascio per indicare che un altro utente ha approvato il documento oppure che un contatto esterno può soddisfare le specifiche indicate sul documento, come indicato negli esempi illustrati di seguito.
+L'azienda può utilizzare la procedura di rilascio per indicare che un altro utente ha approvato il documento oppure che un contatto esterno può soddisfare le specifiche indicate del documento, come indicato negli esempi illustrati di seguito.
 
 * È possibile rilasciare un ordine di acquisto quando il fornitore ha indicato di essere pronto a fornire l'ordine.
 * L'utente crea un ordine e un secondo utente deve approvarlo, per ragioni di sicurezza, prima che l'utente stesso possa rilasciarlo.
@@ -46,16 +46,16 @@ Ulteriori informazioni sui flussi di lavoro di approvazione in [Usare i flussi d
 
 Se lo stato dell'ordine è **Aperto**, nel deposito non si comincerà a preparare la spedizione, perché non si prevede di ricevere gli articoli di un ordine di acquisto. Quando l'ordine viene rilasciato, si indica che è completo e la warehouse può inserirlo nelle sue attività.
 
-## <a name="reopening-a-released-order"></a>Riapertura di un ordine rilasciato
+## <a name="reopen-a-released-order"></a>Riaprire un ordine rilasciato
 
 Se un ordine è stato rilasciato è possibile apportarvi delle modifiche riaprendolo. L'unica modifica possibile tuttavia alle righe già elaborate nella warehouse è l'incremento della quantità.
 
-Dopo aver apportato le modifiche e aver rilasciato l'ordine di nuovo, l'IVA e lo sconto fattura vengono ricalcolati.
+Dopo aver apportato le modifiche e aver rilasciato l'ordine di nuovo, [!INCLUDE [prod_short](includes/prod_short.md)] ricalcola l'IVA e lo sconto fattura.
 
 Se si apportano modifiche ad un ordine rilasciato, è necessario comunicare alla warehouse le modifiche apportate.
 
 > [!NOTE]
-> Se si intende registrare un singolo ordine aperto o una nota di credito senza aver rilasciato in precedenza i rispettivi documenti, il programma rilascerà automaticamente il documento quando questo viene registrato. Se gli ordini o le note di credito vengono registrati utilizzando la funzione **Registra batch**, puoi registrare soltanto gli ordini o le note di credito che sono stati rilasciati.
+> Se si intende registrare un singolo ordine aperto o una nota di credito senza aver rilasciato in precedenza i rispettivi documenti, [!INCLUDE [prod_short](includes/prod_short.md)] rilascerà automaticamente il documento quando questo viene registrato. Se gli ordini o le note di credito vengono registrati utilizzando la funzione **Registra batch**, puoi registrare soltanto gli ordini o le note di credito che sono stati rilasciati.
 
 ## <a name="see-also"></a>Vedere anche
 

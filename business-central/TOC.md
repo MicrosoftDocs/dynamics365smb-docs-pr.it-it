@@ -674,6 +674,8 @@
 ### [Sincronizzare gli articoli con Shopify](shopify/synchronize-items.md)
 ### [Sincronizzare i clienti con Shopify](shopify/synchronize-customers.md)
 ### [Sincronizzare ed evadere gli ordini di vendita con Shopify](shopify/synchronize-orders.md)
+### [Sincronizzare transazioni e pagamenti](shopify/transactions-and-payouts.md)
+### [Configurare le imposte per la connessione Shopify](shopify/setup-taxes.md)
 ### [Eseguire attività in background](shopify/background.md)
 ### [Risolvere i problemi del connettore Shopify](shopify/troubleshoot.md)
 ### [Domande drequenti sul connettore Shopify](shopify/shopify-faq.md)
@@ -1775,7 +1777,7 @@
 ### [Conformità dell'assistenza](compliance/compliance-service-compliance.md)
 ### [Certificazioni](compliance/compliance-certifications.md)
 ## [Panoramica del servizio (solo in inglese)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-
+## [Funzionalità di prova che si connettono ad altri servizi Microsoft](privacy-connected-services.md)
 # Sviluppo e amministrazione
 ## [Introduzione alla documentazione di sviluppo e amministrazione](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Task di amministrazione in Business Central

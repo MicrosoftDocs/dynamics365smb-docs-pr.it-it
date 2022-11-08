@@ -1,5 +1,5 @@
 ---
-title: Risoluzione dei problemi di sincronizzazione tra Shopify e Business Central
+title: Risoluzione dei problemi di sincronizzazione tra Shopify Business Central
 description: Scopri cosa fare in caso di errore durante la sincronizzazione dei dati tra Shopify e Business Central
 ms.date: 08/19/2022
 ms.topic: article
@@ -8,14 +8,14 @@ ms.search.form: 30118, 30119, 30120,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 47b0d72283b4d017bb522c3e71f6c61501b59d5b
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 37fb8069f6149cc89c1c53f671eafe3788f54ccf
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361943"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728358"
 ---
-# <a name="troubleshooting-shopify-and-business-central-synchronization"></a>Risoluzione dei problemi di sincronizzazione tra Shopify e Business Central
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Risoluzione dei problemi di sincronizzazione tra Shopify Business Central
 
 È possibile imbattersi in situazioni in cui è necessario risolvere i problemi quando si sincronizzano i dati tra Shopify e [!INCLUDE[prod_short](../includes/prod_short.md)]. Questa pagina definisce i passaggi per la risoluzione dei problemi di alcuni scenari comuni che potrebbero verificarsi.
 
@@ -23,7 +23,7 @@ ms.locfileid: "9361943"
 
 Se un'attività di sincronizzazione non riesce, è possibile attivare la registrazione attivando **Abilita registro** nella pagina **Scheda punto vendita Shopify**. Quindi attiva manualmente l'attività di sincronizzazione e rivedi i log.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") icona, immetti **Movimenti di registri Shopify**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") icona, immetti **Movimenti di registri Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona la voce di registro correlata e apri la pagina **Voce di registro Shopify**.
 3. Esamina la richiesta, il codice di stato e la descrizione e i valori di risposta.
 
@@ -67,7 +67,7 @@ L'interruttore **Con chiave di accesso** verrà attivato.
 Per funzionare correttamente, l'estensione connettore Shopify richiede l'autorizzazione per effettuare richieste http. Durante il test nel sandbox, le richieste http sono vietate per tutte le estensioni.
 
 1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Gestione estensioni**, quindi scegli il collegamento correlato.
-2. Seleziona l'estensione *Connettore Shopify*.
+2. Seleziona l'estensione **Connettore Shopify**.
 3. Scegli l'azione **Configura** per aprire la pagina **Impostazione estensione**.
 4. Assicurati che l'interruttore **Consenti richieste HTTPClient** sia abilitato.
 
@@ -90,13 +90,17 @@ Le procedure seguenti descrivono come ruotare il token di accesso utilizzato dal
 
 ## <a name="known-issues"></a>Problemi noti
 
-Il campo *Cat. Reg. Business* non può essere zero o vuoto; deve esserci un valore nel campo del cliente. Per correggere:
+### <a name="the-gen-bus-posting-group-cannot-be-zero-or-empty-there-must-be-a-value-in-the-customer-field"></a>Il campo *Cat. Reg. Business* non può essere zero o vuoto; deve esserci un valore nel campo del cliente
 
 Nella pagina **Scheda punto vendita Shopify** compila il campo **Codice modello cliente** con il modello che include il campo **Categoria registrazione business** popolato. Il modello cliente viene utilizzato non solo per la creazione di clienti, ma anche per il calcolo del prezzo di vendita e durante la creazione di documenti di vendita.
 
 ### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>L'importazione dei dati nel negozio Shopify non è abilitata. Vai alla scheda del punto vendita per abilitarla
 
-Nella finestra **Scheda punto vendita Shopify**, abilitare l'interruttore **Consenti sincronizzazione dati in Shopify**.  Questo interruttore ha lo scopo di proteggere il punto vendita online dall'ottenere dati dimostrativi da [!INCLUDE[prod_short](../includes/prod_short.md)].
+Nella finestra **Scheda punto vendita Shopify**, abilitare l'interruttore **Consenti sincronizzazione dati in Shopify**. Questo interruttore ha lo scopo di proteggere il punto vendita online dall'ottenere dati dimostrativi da [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+### <a name="oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Errore Oauth invalid_request: Impossibile trovare l'API per l'applicazione Shopify con api_key
+
+Sembra che usi l'[app Embed](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), dove l'URL del client ha il formato: `https://[application name].bc.dynamics.com`. Il connettore Shopify non funziona per le app Embed. Per ulteriori informazioni, vedi [Per quali prodotti Microsoft è disponibile il connettore Shopify?](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
 
 ## <a name="see-also"></a>Vedere anche
 

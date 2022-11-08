@@ -1,5 +1,5 @@
 ---
-title: Eseguire attività in background
+title: Esegui attività in background e in modo ricorrente
 description: Configura la sincronizzazione dei dati tra Business Central e Shopify in background.
 ms.date: 05/11/2022
 ms.topic: article
@@ -7,23 +7,23 @@ ms.service: dynamics365-business-central
 ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: f353edb4c505fd7b3eb498392abca3ce481b6009
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4a67f6fc58fb8b158563ce58baab55e7fda2ccb1
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768134"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728601"
 ---
 # <a name="run-tasks-in-the-background"></a>Eseguire attività in background
 
 È efficiente eseguire alcune attività contemporaneamente e in modo automatizzato. È possibile eseguire tali attività in background e anche impostare una pianificazione quando si desidera che tali attività vengano eseguite automaticamente. Per eseguire attività in background, sono supportate due modalità:
 
-- Le attività attivate manualmente vengono pianificate immediatamente tramite **Movimenti coda processi**
-- Le attività ricorrenti sono pianificate **Movimenti coda processi**
+- Le attività attivate manualmente vengono pianificate immediatamente tramite **Movimenti coda processi**.
+- Le attività ricorrenti sono pianificate **Movimenti coda processi**.
 
 ## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Eseguire attività in background per un negozio specifico
 
-1. Vai alla ![lampadina che apre la funzione Dimmi](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") della ricerca. icona, inserisci il nome del **negozio Shopify** e scegli il nome del negozio dall'elenco.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") icona, inserisci il nome del **negozio Shopify** e scegli il nome del negozio dall'elenco.
 2. Seleziona il punto vendita per il quale desideri sincronizzare gli articoli per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Abilita l'opzione **Consenti sincronizzazioni in background**.
 
@@ -31,7 +31,7 @@ Ora, quando viene attivata l'azione di sincronizzazione, invece di un'attività 
 
 ## <a name="to-schedule-recurring-tasks"></a>Per pianificare attività ricorrenti
 
-È possibile pianificare le seguenti attività ricorrenti da eseguire in modo automatizzato. Per ulteriori informazioni sulla pianificazione delle attività, vedi [Coda processi](../admin-job-queues-schedule-tasks.md).
+È possibile pianificare le seguenti attività ricorrenti da eseguire in modo automatizzato. Per ulteriori informazioni sulla pianificazione di attività, vedi [Coda processi](../admin-job-queues-schedule-tasks.md).
 
 |Attività|Oggetto|
 |------|------------|
@@ -44,6 +44,9 @@ Ora, quando viene attivata l'azione di sincronizzazione, invece di un'attività 
 |**Sincronizzare i clienti**|Rapporto 30100 Sincronizzare i clienti Shopify|
 |**Sincronizzare i pagamenti**|Report 30105 Sincronizzare i pagamenti Shopify|
 
-## <a name="see-also"></a>Vedi anche
+> [!NOTE]
+> Alcuni elementi potrebbero essere aggiornati da diverse attività, ad esempio durante l'importazione degli ordini, a seconda dell'impostazione in **Scheda punto vendita Shopify**, il sistema può anche importare e aggiornare i dati dei clienti e/o dei prodotti. Ricordati di utilizzare la stessa categoria della coda processi per evitare conflitti.
+
+## <a name="see-also"></a>Vedere anche
 
 [Iniziare a utilizzare il connettore per Shopify](get-started.md)  
