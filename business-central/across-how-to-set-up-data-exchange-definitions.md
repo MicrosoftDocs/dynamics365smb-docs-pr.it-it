@@ -1,19 +1,19 @@
 ---
 title: Definire la modalità di scambio elettronico dei dati
 description: Definisci come Business Central scambia i dati con file esterni come documenti elettronici, dati bancari, cataloghi di articoli e altro ancora.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
-ms.openlocfilehash: 53cb2bc92b4d56f767944593a5f5300510c2a944
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 11/03/2022
+ms.author: bholtorf
+ms.openlocfilehash: 324fa2e1576deb3f9cb4b082f065218d1576fd78
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607528"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744871"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
 
@@ -129,6 +129,7 @@ A partire dal secondo ciclo di rilascio del 2022, puoi anche raggruppare in base
     |**ID tabella**|Specificare la tabella che utilizza i campi verso i quali o dai quali vengono scambiati i dati in base al mapping.|  
     |**Utilizza come tabella intermedia**|Specifica se la tabella che si seleziona nel campo **ID tabella** è una tabella intermedia nella quale vengono memorizzati i dati importati prima che ne venga eseguita la mappatura alla tabella di destinazione.<br /><br /> Generalmente, si utilizza una tabella intermedia quando la definizione di scambio di dati viene utilizzata per importare e convertire documenti elettronici, ad esempio fatture del fornitore in fatture di acquisto in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Scambio di dati in modalità elettronica](across-data-exchange.md).|  
     |**Nome**|Immettere un nome per l'impostazione del mapping.|  
+    |**Indice chiave**|Specificare l'indice della chiave per ordinare i record di origine prima dell'esportazione.|
     |**Codeunit pre-mappatura**|Specificare la codeunit che prepara il mapping tra i campi in [!INCLUDE[prod_short](includes/prod_short.md)] e i dati esterni.|  
     |**Codeunit mapping**|Specificare la codeunit che viene utilizzata per eseguire il mapping tra le colonne o gli elementi dati XML specificati e i campi in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Codeunit post-mappatura**|Specificare la codeunit che completa il mapping tra i campi in [!INCLUDE[prod_short](includes/prod_short.md)] e i dati esterni. **Nota:** se si utilizza la funzionalità dell'estensione AMC Banking 365 Fundamentals, la codeunit converte i dati esportati da [!INCLUDE[prod_short](includes/prod_short.md)] in formato generico pronto per l'esportazione. Per l'importazione, la codeunit converte i dati esterni in un formato pronto per l'importazione in [!INCLUDE[prod_short](includes/prod_short.md)].|
@@ -161,6 +162,13 @@ A partire dal secondo ciclo di rilascio del 2022, puoi anche raggruppare in base
      |**Regola di trasformazione**|Specifica la regola che trasforma il testo importato in un valore supportato prima di poterne eseguire il mapping a un campo specificato. Quando scegli un valore in questo campo, lo stesso valore viene inserito nel campo **Regola di trasformazione** nella tabella **Buf. mapping campo scambio dati** e viceversa. Vedi la sezione successiva per ulteriori informazioni sulle regole di trasformazione disponibili che possono essere applicate.|
      |**Priorità**|Specifica l'ordine in cui devono essere elaborate le mappature dei campi. La mappatura del campo con il numero di priorità più alto verrà elaborata per prima.|
 
+4. Nella Scheda dettaglio **Raggruppamento campi**, specifica le regole che desideri utilizzare per raggruppare i tuoi campi quando crei il file compilando i campi come descritto nella tabella seguente.  
+
+     |Campo|Descrizione|  
+     |--------------------------------- |---------------------------------------|  
+     |**ID campo**|Specifica il numero del campo nel file esterno che viene utilizzato per il raggruppamento e questo campo deve essere specificato dall'utente.|
+     |**Didascalia campo**|Specifica la didascalia del campo nel file esterno che viene utilizzato per il raggruppamento.|
+
 ## <a name="transformation-rules"></a>Regole di trasformazione
 
 Se i valori nei campi che si stanno mappando differiscono tra loro, è necessario utilizzare le regole di trasformazione per le definizioni di scambio dei dati per renderle uguali. Si definiscono le regole di trasformazione per le definizioni di scambio dei dati aprendo una definizione esistente o creando una nuova definizione e quindi nella scheda dettaglio **Definizioni righe** scegliendo **Gestisci** e poi **Mapping dei campi**. Vengono fornite le regole predefinite, ma è possibile anche crearne di proprie. La tabella seguente descrive i tipi di trasformazione che è possibile eseguire.
@@ -180,6 +188,8 @@ Se i valori nei campi che si stanno mappando differiscono tra loro, è necessari
 |**Espressione regolare - Corrispondenza**|Utilizzare un'espressione regolare per trovare uno o più valori. Questa regola è simile alle opzioni **Sottostringa** e **Espressione regolare - Sostituisci**.|
 |**Personalizzato**|Questa regola di trasformazione è un'opzione avanzata che richiede l'assistenza di uno sviluppatore. Abilita un evento di integrazione a cui è possibile iscriversi se vuoi utilizzare il tuo codice di trasformazione. Se sei uno sviluppatore e desideri utilizzare questa opzione, consulta la sezione seguente.|
 |**Formattazione di data e ora**|Definisci come visualizzare la data corrente e l'ora del giorno.|
+|**Ricerca campo**|Usa campi di tabelle diverse. Per utilizzarlo, è necessario seguire alcune regole. Per prima cosa, usa **ID tabella** per specificare l'ID della tabella che contiene il record per la ricerca del campo. Nel campo **ID campo di origine**, specifica l'ID del campo che contiene il record per la ricerca del campo. Infine, nel campo **ID campo di destinazione**, specifica l'ID del campo per trovare il record per la ricerca del campo. Facoltativamente, utilizza il campo **Regola ricerca campo** per specificare il tipo di ricerca del campo. Per il campo **Destinazione**, viene utilizzato il valore **ID campo di destinazione**, anche se è vuoto. Per il campo **Originale se la destinazione è vuota**, il valore originale viene utilizzato se la destinazione è vuota.|
+|**Arrotonda**|Arrotonda il valore in questo campo utilizzando alcune regole aggiuntive. Innanzitutto, nel campo **Precisione**, specifica una precisione di arrotondamento. Successivamente, nel campo **Direzione**, specifica la direzione di arrotondamento.|
 
 > [!NOTE]  
 > Per ulteriori informazioni sulla formattazione di data e ora, vedi [Stringhe di formato di data e ora standard](/dotnet/standard/base-types/standard-date-and-time-format-strings).

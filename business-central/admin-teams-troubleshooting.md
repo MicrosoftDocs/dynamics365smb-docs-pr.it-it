@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528477"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744763"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Risoluzione dei problemi relativi all'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -160,7 +160,24 @@ Questo problema può essere causato da varie ragioni. Ad esempio, l'identità ch
 
 A partire da aprile 2022, i collegamenti visualizzati come scheda compatta in Teams non conterranno più il pulsante **Popout**. Per aprire quella scheda nella finestra, scegli il pulsante **Dettagli** quindi scegli **Apri nel browser** dal menu con i puntini di sospensione (**...**) nell'angolo in alto a destra della finestra.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="cant-pin-a-card-to-tab"></a>Impossibile aggiungere una scheda alla scheda
+
+Questo avviene per due motivi.
+
+- Se la scheda è stata condivisa da CercaMI, non può essere aggiunta a una scheda. 
+
+- Impossibile aggiungere fino a quando non aggiungi la tua prima scheda Business Central. Questo problema è noto in Teams. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Qualcuno ha aggiunto una scheda, ma la scheda non viene visualizzata per me
+
+Questo problema deriva dal fatto che non hai installato l'app BC per Teams. Solo gli utenti che hanno l'app installata vedranno le schede Business Central.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Gli altri utenti vedono un ordinamento o un layout delle colonne diverso da quello che vede l'autore della scheda
+
+Questo problema è dovuto al fatto che hai condiviso una visualizzazione elenco che è una visualizzazione personale. In questo caso, collabora con l'amministratore per creare visualizzazioni elenco specifiche del ruolo che coprano i diversi ruoli nel canale o nella chat oppure crea questa visualizzazione per l'intera organizzazione in modo che tutti possano ottenere una visualizzazione coerente.
+
+
+## <a name="see-also"></a>Vedi anche
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] e Panoramica sull’integrazione di Microsoft Teams](across-teams-overview.md)  
 [Installare l'App [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
