@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529435"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744925"
 ---
 # <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
 
@@ -35,6 +35,7 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Impostare l'autenticazione utente e l'URL del provider dell'estensione AMC Banking 365 Fundamentals che deve convertire i file della banca nel formato della banca in uso.|[Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Impostare e abilitare un servizio esterno che consente di importare gli estratti conto bancari direttamente come feed bancari.|[Impostazione del Servizio rendiconti bancari](bank-how-setup-bank-statement-service.md)|  
 |Dopo che il servizio Rendiconto bancario è abilitato, collegare i conti bancari in [!INCLUDE[prod_short](includes/prod_short.md)]|[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)|  
+|Configurare l'esportazione dei dati per il reporting Intrastat in [!INCLUDE[prod_short](includes/prod_short.md)].|[Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md)|
 |Preparare l'impostazione di una nuova definizione di scambio di dati per un file o un flusso di dati utilizzando lo schema XML del file per precompilare la Scheda dettaglio **Definizioni colonne** nella pagina **Registrazione definizioni di scambio**.|[Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Impostare il framework di scambio dei dati per consentire agli utenti di ricevere un nuovo formato di documenti di acquisto, inviare un nuovo formato di documenti di vendita, importare un nuovo file bancario o altri tipi di scambio di dati.|[Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)|  
 

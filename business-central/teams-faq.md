@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606118"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744706"
 ---
 # <a name="teams-faq"></a>Domande frequenti su Teams
 
@@ -145,6 +145,92 @@ Se desideri partecipare al miglioramento dell'app per Teams o hai un'idea che ti
 
 Per informazioni sulla funzionalità nel client web che si collega a Teams, vedi [Condividere record e collegamenti di pagina in Microsoft Teams](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Schede Business Central](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Chi può vedere il contenuto di una scheda?
+
+Qualsiasi persona nella tua chat o canale che ha:
+
+1. L'app Business Central per Teams installata.
+2. Una licenza Business Central o accesso concesso a Business Central utilizzando la propria licenza Microsoft 365.
+3. Autorizzazioni per visualizzare i dati sulla pagina.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>Da dove provengono i contenuti consigliati?
+
+Il contenuto consigliato tra cui puoi scegliere nell'opzione **Contenuto della scheda** in una scheda si basa sul tuo Centro di ruoli. Il contenuto consigliato include solo pagine di elenco, come Clienti, Ordini di vendita e Fornitori, non una pagina della singola scheda come un cliente o un fornitore specifico.
+
+Nello specifico, i contenuti consigliati includono:
+
+- Azioni nel menu di navigazione in alto nel centro ruoli
+- Tutte le pagine dell'elenco che hai aggiunto ai preferiti.
+- Se una pagina di elenco offre visualizzazioni diverse, comprese le visualizzazioni che hai creato, puoi anche scegliere tra quelle visualizzazioni
+
+Puoi aggiungere pagine elenco al contenuto consigliato aggiungendo segnalibri. Puoi anche rimuovere i contenuti consigliati eliminando i segnalibri. Per informazioni su come aggiungere o eliminare segnalibri, vedi [Aggiungi una pagina o un report ai preferiti nel tuo centro ruoli](ui-bookmarks.md).
+
+Se si cambia ambiente o azienda nell'opzione della scheda, il contenuto consigliato verrà modificato in base al Centro ruoli e ai segnalibri per l'ambiente e l'azienda a cui si passa.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Quando creo una scheda, concede autorizzazioni alle persone nel canale o nella chat?
+
+Nr. La creazione di schede non influisce sulle autorizzazioni e gli utenti devono già disporre dell'autorizzazione per tali dati quando accedono alla scheda.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Posso chattare accanto a una scheda?
+
+Sì. Usa l'icona della chat per iniziare la conversazione. Questo thread di chat viene quindi associato alla scheda. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Se rimuovo una scheda da una chat o da un canale, i dati di Business Central vengono eliminati?
+
+Nr.
+
+### <a name="can-i-safely-rename-a-tab"></a>Posso rinominare una scheda in sicurezza?
+
+Sì. Il contenuto della scheda non è correlato al nome effettivo della scheda. Rinomina a piacimento! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>Ho bisogno di operare su attività in diverse finestre. Posso farlo?
+
+Sì. Puoi far uscire la scheda nella relativa finestra del browser per mostrare il client Web di Business Central. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Posso aggiungere una scheda nelle riunioni di Teams?
+
+Nr. L'app Business Central per Teams non supporta le schede nelle riunioni.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Non è possibile aggiungere una scheda se si utilizzano URL ISV come *.bc.dynamics.com (ma è possibile aggiungerle)
+
+Non supportato.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Quando eseguo operazioni nella scheda, come navigare, riordinare, applicare un filtro o eseguire ricerche, gli altri vedono le mie modifiche?
+
+Nr. Solo le modifiche ai campi o le azioni in esecuzione influiscono sul modo in cui gli altri visualizzano il contenuto della scheda.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Il contenuto della scheda si aggiorna automaticamente? In caso negativo, come posso aggiornarlo?
+
+Il contenuto non si aggiorna automaticamente e al momento non esiste alcun pulsante di aggiornamento. Il modo migliore per aggiornare il contenuto per assicurarsi che rifletta i dati più recenti, lasciare la scheda e quindi tornare indietro. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Questo consente di visualizzaare elenchi e record dalle mie personalizzazioni e dei miei componenti aggiuntivi?
+
+Sì. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Quando aggiungo una scheda, le persone la vedranno nella mia lingua?
+
+Nr. Ciascun utente visualizza il contenuto della scheda nelle impostazioni di lingua, area geografica e fuso orario da Business Central. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Posso avere più schede che puntano a contenuti diversi?
+
+Sì.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Posso anche aggiungere schede per chattare con una sola persona?
+
+Sì, a condizione che la chat non sia una bozza (ovvero, non sia stato inviato un messaggio per avviare quella chat) e che anche l'altra persona abbia installato l'app Business Central.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Posso cambiare azienda all'interno di una scheda?
+
+Nr. 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>È diverso dall'utilizzo della capacità generica di Teams di creare una scheda che ospita un sito Web?
+
+Sì. Non consigliamo di utilizzare l'approccio. In molti casi, non funziona per Business Central.
+
 ## <a name="search-for-contacts"></a>[Ricerca di contatti](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>In quali tabelle l'app esegue la ricerca?
@@ -156,6 +242,7 @@ Durante la ricerca dei contatti dall'app [!INCLUDE [prod_short.md](includes/prod
 Mentre digiti i termini di ricerca nella casella di ricerca, i termini vengono confrontati con la maggior parte dei campi nella tabella **Contatti**. I campi includono, ad esempio, i campi **N.**, **Nome**, **Indirizzo**, **Nr. di telefono** oppure **Numero di telefono cellulare** e **E-mail**. 
 
 I termini di ricerca non vengono abbinati a nessun campo personalizzato aggiunto alla tabella **Contatti** per app ed estensioni.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>I risultati della ricerca includono aziende e persone?
 
 Sì. In [!INCLUDE [prod_short.md](includes/prod_short.md)], i contatti possono essere di tipo **Azienda** o digita **Persona**, dove una o più persone possono essere associate a un'azienda. Nei risultati della ricerca, le aziende e le persone hanno icone diverse.

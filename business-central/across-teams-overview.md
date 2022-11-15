@@ -2,19 +2,19 @@
 title: Panoramica dell'integrazione di Business Central e Microsoft Teams | Microsoft Docs
 description: Condividere i record di Business Central direttamente in una conversazione di Teams.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
-ms.author: jswymer
-ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.custom: bap-template
+ms.openlocfilehash: 13c5e71ff35bf0bb45cabebe2124864c7875f526
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716560"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744898"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integrazione di Business Central e Microsoft Teams
 
@@ -60,9 +60,17 @@ Direttamente dalla maggior parte delle pagine delle collezioni e dei dettagli in
 
 Per ulteriori informazioni, vedere [Condividi record e link di pagina in Microsoft Teams](across-working-with-teams.md#share-link).
 
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Aggiungi una scheda Business Central al canale o alla chat di Teams
+
+Con l'app Business Central per Teams installata, puoi aggiungere una scheda in un canale o chattare che mostrano i dati di Business Central da elenchi e pagine scheda.
+
+![Schede in Teams](media/teams-tabs-border.png)
+
+Per ulteriori informazioni, vedi [Aggiungi una scheda Business Central in Teams](across-teams-tab.md).
+
 ## <a name="get-started"></a>Inizia
 
-1. Un account utente [!INCLUDE [prod_short](includes/prod_short.md)] Online è richiesto per l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Teams.
+1. Un account utente online [!INCLUDE [prod_short](includes/prod_short.md)] è necessario per [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
 
     Se non si è certi di avere un account o se non si conoscono le credenziali per l'accesso, contatta l'amministratore della società per assistenza.
 

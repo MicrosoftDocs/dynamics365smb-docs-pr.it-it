@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 00bac7c92cf6b29cbd79f5b3f04eaa9dfab1ee2d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bb5886d46e780a32f0d0e58d0f62c58cacdc91a7
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133436"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744736"
 ---
 # <a name="exchanging-data"></a>Scambio di dati
 È possibile scambiare i dati tra [!INCLUDE[prod_short](includes/prod_short.md)] e flussi o file esterni in relazione alle attività aziendali, come l'invio e la ricezione di documenti elettronici e l'importazione e l'esportazione di file dalla banca.  
@@ -34,6 +34,7 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Indicare alla propria banca di trasferire gli importi dei pagamenti dai conti bancari dei clienti a quello della propria società in base al setup dell'addebito diretto SEPA.|[Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Utilizzare un provider di servizi per i tassi di cambio valuta per aggiornare la pagina **Valute**.|[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|  
 |Visualizzare di quali elementi del file viene eseguito il mapping ai campi in [!INCLUDE[prod_short](includes/prod_short.md)] durante l'importazione di file di estratto conto SEPA CAMT.|[Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md)|  
+|Esportare i dati per il reporting Intrastat in [!INCLUDE[prod_short](includes/prod_short.md)].|[Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md)|
 |Visualizzare i campi in [!INCLUDE[prod_short](includes/prod_short.md)] di cui viene eseguito il mapping agli elementi del file durante l'esportazione dei file di pagamento tramite l'estensione AMC Banking 365 Fundamentals.|[Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Vedere anche  

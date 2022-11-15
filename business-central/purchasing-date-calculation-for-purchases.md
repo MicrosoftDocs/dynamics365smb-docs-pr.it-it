@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530542"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744952"
 ---
 # <a name="calculate-dates-for-purchases"></a>Calcolare le date per gli acquisti
 
@@ -44,7 +44,7 @@ Se specifichi una data di carico richiesta in una riga dell'ordine d'acquisto, t
 > [!NOTE]
 > Se il processo si basa sul calcolo indietro, ad esempio, se si utilizza la data carico richiesta per ottenere la data dell'ordine, si consiglia di utilizzare formule di data con durate fisse, ad esempio "5D" per cinque giorni o "1W" per una settimana. Le formule di data senza durate fisse, come "CW" per settimana corrente o CM per mese corrente, possono comportare calcoli della data errati. Per ulteriori informazioni sulle formule di data, vedere [Utilizzare date e orari del calendario](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Calcolo senza una data di consegna richiesta
+## <a name="calculating-without-a-requested-receipt-date"></a>Calcolo senza una data di carico richiesta
 
 Se si immette una riga di ordine di acquisto senza una data di consegna richiesta, il campo **Data ordine** nella riga mostra la data nel campo **Data ordine** dell'intestazione dell'ordine di acquisto. È la data immessa o la data di lavoro. Le date vengono quindi calcolate per la riga dell'ordine di acquisto, con la data dell'ordine come punto di partenza come segue:  
 
