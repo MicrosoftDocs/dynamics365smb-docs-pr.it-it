@@ -10,16 +10,16 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134384"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744652"
 ---
 # <a name="about-the-data-exchange-framework"></a>Informazioni sul framework di scambio dei dati
 
-È possibile utilizzare il framework di scambio dati per gestire lo scambio di documenti aziendali, file bancari, tassi di cambio valuta e qualsiasi altro file di dati con i propri partner commerciali.
+È possibile utilizzare il framework di scambio dati per gestire lo scambio di documenti aziendali, file bancari, tassi di cambio valuta e qualsiasi altro file di dati con i propri partner commerciali o le autorità.
 
 In qualità di amministratore o partner Microsoft, è possibile utilizzare il framework nelle nuove funzionalità di integrazione impostando quali dati scambiare e come scambiarli. Ad esempio, il formato di file per lo scambio di dati in file bancari, documenti elettronici, tassi di cambio e altro mediante i sistemi ERP varia in base al provider del file o del flusso di dati e al paese. [!INCLUDE[prod_short](includes/prod_short.md)] supporta vari formati di file bancari e standard di servizi per i dati. Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.
 
@@ -59,7 +59,11 @@ Per esportare i bonifici SEPA, scegliere il pulsante **Esporta pagamenti su file
 
 Per tutti gli scambi di dati in file XML, è possibile preparare le impostazioni di scambio dati caricando il file di schema XML correlato nella pagina **Visualizzatore schema XML**. Qui è possibile selezionare gli elementi dati che si desidera scambiare con [!INCLUDE[prod_short](includes/prod_short.md)], quindi inizializzare la definizione di scambio di dati o generare un oggetto XMLport.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="intrastat"></a>Intrastat
+
+[!INCLUDE[prod_short](includes/prod_short.md)] utilizza Framework di scambio dei dati per i report Intrastat in cui è possibile creare facilmente file con timestamp in diversi formati per l'esportazione. [!INCLUDE[prod_short](includes/prod_short.md)] contiene formati preparati per i paesi localizzati e per la versione predefinita. Ma puoi modificare il report predefinito o crearne uno tuo.
+
+## <a name="see-also"></a>Vedi anche
 
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
 [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
