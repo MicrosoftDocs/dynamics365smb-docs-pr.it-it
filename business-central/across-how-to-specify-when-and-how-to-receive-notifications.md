@@ -1,20 +1,21 @@
 ---
 title: Specificare come e quando ricevere le notifiche del flusso di lavoro
 description: Quando imposti gli utenti nei flussi di lavoro di approvazione, puoi specificare come e quando ogni utente di approvazione riceve le notifiche.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
-ms.author: edupont
-ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.author: bholtorf
+ms.openlocfilehash: 74387ee5cb8581d8b8e1cce5c1d1c8850cd6c842
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585511"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763264"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Specificare come e quando ricevere le notifiche del flusso di lavoro
 
@@ -38,10 +39,10 @@ Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
 2. Selezionare la riga per l'utente per il quale si desidera impostare le preferenze di notifica, quindi scegliere l'azione **Setup notifiche**.  
-3. Compilare i campi nella pagina **Setup di notifica** come descritto nella tabella riportata di seguito.  
+3. Compilare i campi nella pagina **Setup notifiche workflow** come descritto nella tabella riportata di seguito.  
 
    > [!NOTE]
-   > Se apri la pagina **Setup di notifica** dalla pagina **Setup utente approvazione** l'impostazione della notifica è collegata all'utente di approvazione. L'utente di approvazione riceverà sempre le notifiche del flusso di lavoro in base a tale impostazione di notifica. Se usi la *Funzionalità delle informazioni* per aprire la pagina **Setup di notifica** l'impostazione di notifica si applicherà a tutti gli utenti.
+   > Se apri la pagina **Setup notifiche workflow** dalla pagina **Setup utente approvazione** l'impostazione della notifica è collegata all'utente di approvazione. L'utente di approvazione riceverà sempre le notifiche del flusso di lavoro in base a tale impostazione di notifica. Se usi la *Funzionalità delle informazioni* per aprire la pagina **Setup notifiche workflow** l'impostazione di notifica si applicherà a tutti gli utenti.
 
    |Campo|Descrizione|
    |-----|-----------|
@@ -66,7 +67,7 @@ Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti
 ## <a name="change-when-and-how-you-receive-notifications"></a>Modificare come e quando si ricevono le notifiche
 
 1. In una delle notifiche ricevute, come e-mail o nota, fai clic sul pulsante **Modifica impostazioni di notifica**.  
-2. Nella pagina **Setup di notifica** modifica le preferenze relative alla notifica come descritto nei passaggi da 3 a 5 sopra descritti.
+2. Nella pagina **Setup notifiche workflow** modifica le preferenze relative alla notifica come descritto nei passaggi da 3 a 5 sopra descritti.
    1. Conferma che la notifica corretta è stata scelta nel campo **Tipo di notifica**.
    2. Scegli se ricevere un'e-mail o una notifica di nota nel campo **Metodo di notifica**.
    3. Seleziona **Programmazione notifica** per modificare la frequenza e la ricorrenza di invio delle notifiche.
