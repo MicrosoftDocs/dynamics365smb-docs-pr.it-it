@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 03/14/2022
+ms.date: 11/10/2022
 ms.author: jswymer
-ms.openlocfilehash: 2a46c6eab31e89da0956a7d847a64792b18a2fcd
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 790b354577dbb14d7fd0aa75db6e5158f09a5c89
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606939"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788239"
 ---
-# <a name="working-with-microsoft-excel-layouts"></a>Utilizzare i layout di Microsoft Excel
+# <a name="working-with-microsoft-excel-layouts"></a>Usare i layout di Microsoft Excel
 
 I layout di report di Microsoft Excel si basano sulle cartelle di lavoro Excel (file .xlsx). Con i layout, puoi creare report che includono funzionalità di Excel familiari per il riepilogo, l'analisi e la presentazione di dati come formule, tabelle pivot e grafici pivot.
 
@@ -25,7 +25,7 @@ I layout di report di Microsoft Excel si basano sulle cartelle di lavoro Excel (
 
 Questo articolo spiega alcune cose importanti che devi sapere per iniziare a usare i layout di Excel.
 
-## <a name="why-use-excel-layouts"></a>Perché utilizzare i layout di Excel?
+## <a name="why-use-excel-layouts"></a>Perché usare i layout di Excel?
 
 Vantaggi dell'utilizzo dei layout di Excel:
 
@@ -133,8 +133,6 @@ In sintesi, questo è ciò che dovresti e non dovresti fare sul foglio **Dati**:
 - Puoi eliminare o nascondere le colonne.
 - Non aggiungere colonne a meno che non siano incluse nel set di dati del report.
 - Puoi posizionare i fogli in qualsiasi ordine, con il foglio **Dati** come primo o ultimo.
-
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Vedere anche
 

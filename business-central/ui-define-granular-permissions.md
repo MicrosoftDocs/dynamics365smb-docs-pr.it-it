@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 09/19/2022
+ms.date: 11/29/2022
 ms.author: bholtorf
-ms.openlocfilehash: d265566e21388978f9ee7cba9372d3d337cbf97e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 058019ec9ce336b701c66c0de277ad57e73344da
+ms.sourcegitcommit: bcd3e5dcbb3d839f38f2321b7ef35d4a2ce492c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604889"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806001"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
 
@@ -31,7 +31,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] esistono due livelli di autori
 
 - Autorizzazioni dettagliate che assegni in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-  Questo articolo descrive come definire, utilizzare e applicare le autorizzazioni in [!INCLUDE [prod_short](includes/prod_short.md)] per modificare la configurazione predefinita.  
+  Questo articolo descrive come definire, usare e applicare le autorizzazioni in [!INCLUDE [prod_short](includes/prod_short.md)] per modificare la configurazione predefinita.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 Per ulteriori informazioni, vedi [Accesso dell'amministratore con delega a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
@@ -54,7 +54,7 @@ Per ulteriori informazioni, vedi [Accesso dell'amministratore con delega a Busin
 ## <a name="to-create-a-permission-set"></a>Per creare un set di autorizzazioni
 
 > [!NOTE]
-> Nel secondo ciclo di rilascio del 2022 abbiamo semplificato l'aggiunta di autorizzazioni ai set di autorizzazioni. Anziché aggiungere le autorizzazioni singolarmente, puoi aggiungere interi set di autorizzazioni. Se necessario, puoi quindi escludere singole autorizzazioni al loro interno. Per ulteriori informazioni, vedi [Per aggiungere altri set di autorizzazioni](#to-add-other-permission-sets). Per renderlo possibile, abbiamo sostituito la pagina Set di autorizzazioni con una nuova. Le differenze principali sono i nuovi riquadri **Set di autorizzazioni** e **Risultati** e la scheda dettaglio **Autorizzazioni incluse**. Per continuare a utilizzare la pagina Autorizzazioni sostituite, nella pagina **Set di autorizzazioni**, scegli l'azione **Autorizzazioni (legacy)**.
+> Nel secondo ciclo di rilascio del 2022 abbiamo semplificato l'aggiunta di autorizzazioni ai set di autorizzazioni. Anziché aggiungere le autorizzazioni singolarmente, puoi aggiungere interi set di autorizzazioni. Se necessario, puoi quindi escludere singole autorizzazioni al loro interno. Per ulteriori informazioni, vedi [Per aggiungere altri set di autorizzazioni](#to-add-other-permission-sets). Per renderlo possibile, abbiamo sostituito la pagina Set di autorizzazioni con una nuova. Le differenze principali sono i nuovi riquadri **Set di autorizzazioni** e **Risultati** e la scheda dettaglio **Autorizzazioni incluse**. Per continuare a usare la pagina Autorizzazioni sostituite, nella pagina **Set di autorizzazioni**, scegli l'azione **Autorizzazioni (legacy)**.
 
 Anche la manutenzione è più facile. Quando aggiungi l'autorizzazione di sistema, il tuo set di autorizzazioni definito dall'utente verrà aggiornato automaticamente con tutte le modifiche apportate da Microsoft a tali autorizzazioni.
 
@@ -96,7 +96,7 @@ Anche la manutenzione è più facile. Quando aggiungi l'autorizzazione di sistem
 
 ### <a name="example---indirect-permission"></a>Esempio - Autorizzazione indiretta
 
-Puoi assegnare un'autorizzazione indiretta per consentire a un utente di utilizzare un oggetto, ma solo attraverso un altro oggetto. Ad esempio, un utente ha l'autorizzazione per eseguire la codeunit 80, Vendite-Registra. La codeunit Vendite-Registra esegue molti task, tra cui la modifica della tabella 37, Riga vendite. Quando l'utente registra un documento di vendita usando la codeunit Vendite-Registra, [!INCLUDE[prod_short](includes/prod_short.md)] verifica se l'utente dispone delle autorizzazioni per modificare la tabella Righe vendite. In caso di risposta negativa, la codeunit non può completare i relativi task e l'utente riceve un messaggio di errore. In caso di risposta affermativa, la codeunit viene eseguita correttamente.
+Puoi assegnare un'autorizzazione indiretta per consentire a un utente di usare un oggetto, ma solo attraverso un altro oggetto. Ad esempio, un utente ha l'autorizzazione per eseguire la codeunit 80, Vendite-Registra. La codeunit Vendite-Registra esegue molti task, tra cui la modifica della tabella 37, Riga vendite. Quando l'utente registra un documento di vendita usando la codeunit Vendite-Registra, [!INCLUDE[prod_short](includes/prod_short.md)] verifica se l'utente dispone delle autorizzazioni per modificare la tabella Righe vendite. In caso di risposta negativa, la codeunit non può completare i relativi task e l'utente riceve un messaggio di errore. In caso di risposta affermativa, la codeunit viene eseguita correttamente.
 
 Tuttavia, per l'utente non è necessario avere accesso completo alla tabella Righe vendite per eseguire la codeunit. Se l'utente possiede un'autorizzazione indiretta per la tabella Righe vendite, la codeunit Vendite-Registra viene eseguita correttamente. Quando un utente possiede un'autorizzazione indiretta, può solo modificare la tabella Riga vendite eseguendo la codeunit di Vendite-Registra o un altro oggetto per cui possiede l'autorizzazione per modificare la tabella Righe vendite. L'utente può solo modificare la tabella Righe vendite quando esegue questa operazione da aree di applicazione supportate. L'utente non può eseguire inavvertitamente o intenzionalmente la funzionalità con altri metodi.
 
@@ -140,9 +140,9 @@ Crea un nuovo set di autorizzazioni copiandone un altro. Il nuovo set includerà
 2. Nella pagina **Set di autorizzazioni** scegliere l'azione **Nuovo**.
 3. In una nuova riga, compilare i campi in base alle esigenze.
 4. Scegliere l'azione **Autorizzazioni**.
-5. Nella pagina **Autorizzazioni**, scegliere l'azione **Registra autorizzazioni**, quindi selezionare l'azione **Avvia**.
-
-    Viene avviato un processo di registrazione che acquisisce tutte le azioni nell'interfaccia utente.
+1. Nella pagina **Autorizzazioni**, scegliere l'azione **Registra autorizzazioni**, quindi selezionare l'azione **Avvia**.  
+    La registrazione deve essere eseguita utilizzando la funzione **Apri questa pagina in una nuova finestra** (pop-out) per avere la finestra di registrazione **Autorizzazioni** affiancata o lavorando all'interno della stessa scheda.  
+    Viene ora avviato un processo di registrazione che acquisisce tutte le azioni nell'interfaccia utente.
 6. Passare alle diverse pagine e attività di [!INCLUDE[prod_short](includes/prod_short.md)] a cui si desidera che gli utenti con questo set di autorizzazioni possano accedere. È necessario eseguire i task per cui si desidera registrare le autorizzazioni.
 7. Quando si desidera terminare la registrazione, tornare alla pagina **Autorizzazioni** e scegliere l'azione **Arresta**.
 8. Scegliere il pulsante **Sì** per aggiungere le autorizzazioni registrate nel nuovo set di autorizzazioni.
@@ -175,7 +175,7 @@ I set di autorizzazioni vengono importati.
 
 ## <a name="to-set-up-user-time-constraints"></a>Per impostare i vincoli connessioni utenti
 
-Gli amministratori possono definire periodi di tempo durante i quali gli utenti specificati possono pubblicare. Gli amministratori possono anche specificare se il sistema registra per quanto tempo gli utenti sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Utilizzare i centri di responsabilità](inventory-responsibility-centers.md).
+Gli amministratori possono definire periodi di tempo durante i quali gli utenti specificati possono pubblicare. Gli amministratori possono anche specificare se il sistema registra per quanto tempo gli utenti sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Usare i centri di responsabilità](inventory-responsibility-centers.md).
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup utente**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup utenti** scegliere l'azione **Nuovo**.

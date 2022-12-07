@@ -7,32 +7,32 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362095"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788238"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Introduzione ai dati demo Contoso Coffee
 
-Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono i dati demo che puoi utilizzare per imparare a utilizzare le funzionalità di produzione in Business Central.  
+Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono i dati demo che puoi usare per imparare a usare le funzionalità di produzione in Business Central.  
 
 L'app fornisce quattro prodotti ottimizzati per diversi scenari:
 
 - **SP-SCM1009 Airpot**  
 
-  Questo prodotto è una distinta base (DB) con un subassemblaggio, **Ciclo**. Usalo per dimostrare il flusso di produzione standard. È impostato con cicli alternativi che puoi utilizzare per dimostrare vari scenari che coinvolgono i subappaltatori. Il metodo di costing è *Standard*.  
+  Questo prodotto è una distinta base (DB) con un subassemblaggio, **Ciclo**. Usalo per dimostrare il flusso di produzione standard. È impostato con cicli alternativi che puoi usare per dimostrare vari scenari che coinvolgono i subappaltatori. Il metodo di costing è *Standard*.  
 
 - **SP-SCM1011 Airpot Duo**  
 
-  Questo prodotto richiede la tracciabilità degli articoli e ha un componente che richiede anche la tracciabilità degli articoli. Il metodo di costing è *Speciale*.  
+  Questo prodotto richiede la tracciabilità degli articoli e ha un componente che richiede anche la tracciabilità degli articoli. Il metodo di costing è *Specifico*.  
 
 - **SP-SCM1004 Autodrip**  
 
   Questo prodotto è una distinta base con un subassemblaggio, **Ciclo**. Lo consigliamo per dimostrare i vari metodi di consuntivazione sia per i componenti che per le operazioni. Il metodo di costing è *Standard*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   Questo prodotto ha tre varianti e tre distinte base (DB) che possono essere assegnate alle unità di stockkeeping. Il prodotto utilizza il concetto di distinta base fantasma. Il metodo di costing è *Standard*.
 
@@ -43,7 +43,7 @@ Le attività di produzione per tutti gli scenari utilizzano la località *NORD*.
 
 ## <a name="set-up-contoso-coffee-data"></a>Impostare i dati di Contoso Coffee
 
-Per utilizzare i dati demo di Contoso Coffee, devi installare due app nell'azienda pertinente in [!INCLUDE [prod_short](../includes/prod_short.md)]:  
+Per usare i dati demo di Contoso Coffee, devi installare due app nell'azienda pertinente in [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
 - **Set di dati demo Contoso Coffee**  
 
@@ -58,8 +58,8 @@ Una volta installate le app pertinenti, vai alla pagina [Dati demo di Contoso Co
 
 |Campo  |Descrizione  |
 |---------|---------|
-|**Anno di inizio** |Specifica il primo anno da utilizzare per i dati dimostrativi di Contoso Coffee. A seconda della configurazione dell'azienda, l'anno può essere un anno solare o un anno fiscale.|
-|**Ubicazione produzione** |Specifica il magazzino da utilizzare per le operazioni di produzione. L'impostazione predefinita è *NORD*, ma puoi modificarla in base alle tue esigenze.|
+|**Anno di inizio** |Specifica il primo anno da usare per i dati dimostrativi di Contoso Coffee. A seconda della configurazione dell'azienda, l'anno può essere un anno solare o un anno fiscale.|
+|**Ubicazione produzione** |Specifica il magazzino da usare per le operazioni di produzione. L'impostazione predefinita è *NORD*, ma puoi modificarla in base alle tue esigenze.|
 |**Tipo di società**    |Specifica se la società corrente deve dichiarare l'IVA. |
 |**Nazionale - Categoria registrazione business generale**|Specifica un codice aziendale per clienti e fornitori nazionali. I codici aziendali vengono utilizzati durante la registrazione delle transazioni. |
 |**Capacità - Categoria registrazione articoli/servizi**    |Specifica un codice per gli articoli o le risorse che devono essere utilizzati per la registrazione della capacità.|
@@ -80,7 +80,7 @@ I dati demo di Contoso Coffee attualmente supportano i seguenti scenari per il t
 2. [Creare un nuovo ciclo](create-new-routing.md)  
 3. [Creare un ordine di produzione confermato e modificarlo](create-firm-planned-production-order-change.md)  
 4. [Combinare la consuntivazione automatica e manuale](combine-automatic-manual-flushing.md)  
-5. [Utilizzare la pianificazione degli ordini per creare e prenotare la fornitura](order-planning-create-reserve-supply.md)  
+5. [Usare la pianificazione degli ordini per creare e prenotare la fornitura](order-planning-create-reserve-supply.md)  
 6. [Impostare ed elaborare un'operazione di subappalto](set-up-process-subcontracting-operation.md)  
 7. [Impostare una nuova capacità](set-up-new-capacity.md)  
 8. [Prevedere la domanda per varianti articolo con distinte base diverse assegnate](variants.md)  

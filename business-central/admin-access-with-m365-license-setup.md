@@ -9,20 +9,21 @@ ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: f509c0a8bf5e9320eb0f2712863984221b7138b9
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
+ms.search.forms: 9061
+ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744994"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804420"
 ---
-# <a name="set-up-access-with-microsoft-365-licenses"></a>Configura l'accesso con licenze Microsoft 365 
+# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Configurazione degli accessi a Business Central in Teams con licenze Microsoft 365
 
-Gli amministratori devono completare più attività prima che gli utenti possano accedere a Business Central con la propria licenza Microsoft 365. I passaggi seguenti rappresentano la configurazione minima richiesta per iniziare.  
+Gli amministratori devono completare più attività prima che gli utenti possano accedere a Business Central con la propria licenza Microsoft 365. I passaggi seguenti rappresentano la configurazione minima richiesta per iniziare. Per ulteriori informazioni sull'accesso con licenze Microsoft 365, vai ad [Accesso a Business Central con licenze Microsoft 365](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Sviluppare l'app Business Central per Teams 
+## <a name="deploy-the-business-central-app-for-teams"></a>Sviluppare l'app Business Central per Teams
 
-Affinché i titolari di licenza Business Central possano condividere i dati in Teams e affinché i titolari di licenza Microsoft 365 possano accedere a tali dati, ciascuno deve avere l'app Business Central per Teams installata. Sebbene gli utenti possano installare l'app da soli, si consiglia agli amministratori di utilizzare la distribuzione centralizzata. La distribuzione centralizzata ti consente di distribuire l'app a un pubblico più ampio in tutta l'organizzazione e ridurre al minimo lo sforzo dei singoli utenti. 
+Affinché i titolari di licenza Business Central possano condividere i dati in Teams e affinché i titolari di licenza Microsoft 365 possano accedere a tali dati, ciascuno deve avere l'app Business Central per Teams installata. Sebbene gli utenti possano installare l'app da soli, si consiglia agli amministratori di usare la distribuzione centralizzata. La distribuzione centralizzata ti consente di distribuire l'app a un pubblico più ampio in tutta l'organizzazione e ridurre al minimo lo sforzo dei singoli utenti. 
 
 Per informazioni su come distribuire centralmente l'app Business Central per Teams, vedi [Installazione dell'app Business Central tramite la distribuzione centralizzata](admin-teams-integration.md#installing-the-business-central-app-by-using-centralized-deployment).
 
@@ -43,8 +44,10 @@ Per configurare le autorizzazioni di avvio:
 3. Nella parte superiore della pagina della licenza **Microsoft 365**, seleziona l'icona di modifica ![Icona Modifica](media/edit-pencil.png), quindi abilita **Personalizza autorizzazioni**. 
 4. Nella sezione **Set di autorizzazioni personalizzate**, aggiungi i set di autorizzazioni appropriati e scegli se sono applicabili a una singola azienda o a tutte le aziende all'interno dell'ambiente.
 
+Con questa configurazione, gli utenti con solo la licenza Microsoft 365 vengono aggiunti all'elenco **Utenti** quando accedono a Business Central per la prima volta. Per ulteriori informazioni sugli utenti, vai a [Creazione di utenti in base alle licenze](ui-how-users-permissions.md).
+
 > [!NOTE]
-> Durante la sincronizzazione dell'elenco utenti in Business Central con gli utenti in Microsoft 365, solo gli utenti che dispongono di una licenza Business Central vengono aggiunti all'elenco utenti di Business Central. Gli utenti con solo la licenza Microsoft 365 vengono aggiunti all'elenco degli utenti quando accedono a Business Central per la prima volta. Ulteriori informazioni in [Creazione di utenti in base alle licenze](ui-how-users-permissions.md).
+> Durante la sincronizzazione dell'elenco utenti in Business Central con gli utenti in Microsoft 365, solo gli utenti che dispongono di una licenza Business Central vengono aggiunti all'elenco utenti di Business Central. Per un maggiore controllo amministrativo su autorizzazioni, gruppi di utenti e profili, puoi assegnare un gruppo di sicurezza all'ambiente. Quando gli ambienti sono protetti utilizzando un gruppo di sicurezza e si abilita l'accesso con licenze Microsoft 365, l'azione **Aggiorna utenti da Microsoft 365** nella pagina **Utenti** includerà anche gli utenti che hanno solo una licenza Microsoft 365. Per informazioni sulla protezione degli ambienti, vedi [Gestire l'accesso utilizzando gruppi Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) nella guida per sviluppatori e professionisti IT.
 
 > [!TIP]
 > Cerchi un modo più rapido per iniziare quando provi questa funzione sandbox o società di valutazione? Assegna il set di autorizzazioni di **D365 lettura**, che concede l'autorizzazione alla maggior parte degli oggetti.  
@@ -89,6 +92,6 @@ Per verificare che la tua configurazione sia pronta per la produzione, i passagg
 
 ## <a name="see-also"></a>Vedere anche
 
-[Accesso a Business Central con licenze Microsoft 365](admin-access-with-m365-license.md#minimum-requirements)  
+[Panoramica dell'accesso a Business Central con licenze Microsoft 365](admin-access-with-m365-license.md#minimum-requirements)  
 [Risoluzione dei problemi di accesso con licenze Microsoft 365](admin-access-with-m365-license-troubleshooting.md)  
 [Business Central e integrazione Microsoft Teams](across-teams-overview.md)  

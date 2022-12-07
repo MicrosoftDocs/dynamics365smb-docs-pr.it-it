@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: a14e81932ab2cc02c691d6dfe8a9a1c4fe326410
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728385"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802958"
 ---
 # <a name="synchronize-items-and-inventory"></a>Sincronizzare articoli e inventario
 
@@ -45,10 +45,10 @@ Importa gli articoli da Shopify in blocco o insieme agli ordini per aggiungerli 
 
 |Campo|Descrizione|
 |------|-----------|
-|**Crea automaticamente articoli sconosciuti**|Quando prodotti e varianti Shopify vengono importati in [!INCLUDE[prod_short](../includes/prod_short.md)], la funzione [!INCLUDE[prod_short](../includes/prod_short.md)] cerca sempre di trovare prima il record corrispondente nell'elenco degli elementi. **Mapping SKU** influisce sul modo in cui viene eseguita la corrispondenza e crea un nuovo articolo e/o una variante di articolo. Abilita questa opzione se desideri creare un nuovo articolo o quando non esiste un record corrispondente. Il nuovo articolo viene creato utilizzando i dati importati e il **Codice modello articolo**. Se questa opzione non è abilitata, dovrai creare un articolo manualmente e utilizzare l'azione **Esegui mapping prodotto** nella pagina **Prodotti Shopify**.|
-|**Codice modello articolo**|Utilizzalo insieme all'interruttore **Crea automaticamente articoli sconosciuti**.<br>Scegli il modello che vuoi utilizzare per gli articoli creati automaticamente.|
+|**Crea automaticamente articoli sconosciuti**|Quando prodotti e varianti Shopify vengono importati in [!INCLUDE[prod_short](../includes/prod_short.md)], la funzione [!INCLUDE[prod_short](../includes/prod_short.md)] cerca sempre di trovare prima il record corrispondente nell'elenco degli elementi. **Mapping SKU** influisce sul modo in cui viene eseguita la corrispondenza e crea un nuovo articolo e/o una variante di articolo. Abilita questa opzione se desideri creare un nuovo articolo o quando non esiste un record corrispondente. Il nuovo articolo viene creato utilizzando i dati importati e il **Codice modello articolo**. Se questa opzione non è abilitata, dovrai creare un articolo manualmente e usare l'azione **Esegui mapping prodotto** nella pagina **Prodotti Shopify**.|
+|**Codice modello articolo**|Utilizzalo insieme all'interruttore **Crea automaticamente articoli sconosciuti**.<br>Scegli il modello che vuoi usare per gli articoli creati automaticamente.|
 |**Mapping SKU**|Scegli come vuoi usare il valore **SKU** importato da Shopify durante il mapping la creazione dell'articolo/variante. Per ulteriori informazioni vedi la sezione [Effetto delle SKU e dei codici a barre dei prodotti Shopify sulla mappatura e sulla creazione di articoli e varianti in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**Separatore campo SKU**|Usalo insieme a **Mapping SKU** impostato sull'opzione **[Nr. articolo e codice variante](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definisci un separatore da utilizzare per dividere la SKU.<br>Se in Shopify crei la variante con SKU "1000/001", digita "/" nel campo **Separatore di campo SKU** per ottenere il numero dell'articolo [!INCLUDE[prod_short](../includes/prod_short.md)] come "1000" e il codice della variante articolo come "001".|
+|**Separatore campo SKU**|Usalo insieme a **Mapping SKU** impostato sull'opzione **[Nr. articolo e codice variante](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definisci un separatore da usare per dividere la SKU.<br>Se in Shopify crei la variante con SKU "1000/001", digita "/" nel campo **Separatore di campo SKU** per ottenere il numero dell'articolo [!INCLUDE[prod_short](../includes/prod_short.md)] come "1000" e il codice della variante articolo come "001".|
 |**Prefisso variante**|Usato insieme a **Mapping SKU** impostato sull'opzione **Codice variante** o **Nr. articolo + Codice variante** come strategia di fallback quando lo SKU proveniente da Shopify è vuoto.<br>Se vuoi creare la variante articolo in [!INCLUDE[prod_short](../includes/prod_short.md)] automaticamente, dovrai inserire un valore in **Codice**. Per impostazione predefinita, viene utilizzato il valore definito nel campo SKU importato da Shopify. Tuttavia, se lo SKU è vuoto, genererà codice che inizia con il prefisso della variante definito e "001".|
 |**Shopify può aggiornare l'articolo**|Scegli questa opzione se desideri aggiornare automaticamente gli articoli e/o le varianti.|
 
@@ -64,8 +64,8 @@ Nella seguente tabella vengono illustrate le differenze tra le opzioni del campo
 |**Nr. Articolo**|Scegli se il campo SKU contiene il numero dell'articolo|Nessun effetto sulla creazione dell'articolo senza varianti. Per un articolo con varianti, ogni variante viene creata come articolo separato.<br>Se Shopify ha un prodotto con due varianti e i loro SKU sono "1000" e "2000", in [!INCLUDE[prod_short](../includes/prod_short.md)] il sistema creerà due elementi con i numeri "1000" e "2000".|
 |**Cod. variante**|Il campo SKU non viene utilizzato nella routine di mapping degli articoli.|Nessun effetto sulla creazione dell'articolo. Quando viene creata una variante di articolo, il valore del campo SKU viene utilizzato come codice. Se lo SKU è vuoto, viene generato un codice utilizzando il campo **Prefisso variante**.|
 |**Nr. articolo e codice variante**|Seleziona se il campo SKU contiene un numero articolo e il codice della variante dell'articolo separato dal valore definito nel campo **Separatore di campo SKU**.|Quando viene creato un articolo, la prima parte del valore del campo SKU viene utilizzata come **Nr.**. Se il campo SKU è vuoto, un numero di articolo viene generato utilizzando le serie di numeri definite nel campo **Codice modello articolo** o **Nr. articolo** della pagina **Setup magazzino**.<br>Quando viene creato un articolo, la funzione della variante utilizza la seconda parte del valore del campo SKU come **Codice**. Se il campo SKU è vuoto, viene generato un codice utilizzando il campo **Prefisso variante**.|
-|**Nr. fornitore articolo**|Scegli se il campo SKU contiene il numero dell'articolo fornitore. In questo caso, il campo **Nr. articolo fornitore** non viene utilizzato nella pagina **Scheda articolo** e viene usato il **Nr. articolo fornitore** del **Catalogo fornitore articoli**. Se il record *Catalogo fornitori articolo* trovato contiene un codice variante, questo codice viene utilizzato per mappare la variante Shopify.|Se esiste un fornitore corrispondente in [!INCLUDE[prod_short](../includes/prod_short.md)], il valore SKU verrà utilizzato come **Nr. articolo fornitore** nella pagina **Scheda articolo** e come **Riferimento articolo** di tipo di fornitore. <br>Impedisce la creazione di varianti. È utile quando si desidera utilizzare solo l'articolo principale nell'ordine cliente. Sarai ancora in grado di mappare una variante manualmente dalla pagina **Prodotto Shopify**.|
-|**Codice a barre**|Scegli se il campo SKU contiene un codice a barre. Viene eseguita una ricerca tra **Riferimenti di articoli** di tipo di fornitore. Se il record Riferimento articolo trovato contiene un codice variante, questo verrà utilizzato per mappare la variante Shopify.|Nessun effetto sulla creazione dell'articolo. <br>Impedisce la creazione di varianti. È utile quando si desidera utilizzare solo l'articolo principale nell'ordine cliente. Sarai ancora in grado di mappare una variante manualmente dalla pagina **Prodotto Shopify**.|
+|**Nr. fornitore articolo**|Scegli se il campo SKU contiene il numero dell'articolo fornitore. In questo caso, il campo **Nr. articolo fornitore** non viene utilizzato nella pagina **Scheda articolo** e viene usato il **Nr. articolo fornitore** del **Catalogo fornitore articoli**. Se il record *Catalogo fornitori articolo* trovato contiene un codice variante, questo codice viene utilizzato per mappare la variante Shopify.|Se esiste un fornitore corrispondente in [!INCLUDE[prod_short](../includes/prod_short.md)], il valore SKU verrà utilizzato come **Nr. articolo fornitore** nella pagina **Scheda articolo** e come **Riferimento articolo** di tipo di *fornitore*. <br>Impedisce la creazione di varianti. È utile quando si desidera usare solo l'articolo principale nell'ordine cliente. Sarai ancora in grado di mappare una variante manualmente dalla pagina **Prodotto Shopify**.|
+|**Codice a barre**|Scegli se il campo SKU contiene un codice a barre. Viene eseguita una ricerca tra **Riferimenti di articoli** di tipo *codice a barre*. Se il record Riferimento articolo trovato contiene un codice variante, questo verrà utilizzato per mappare la variante Shopify.|Nessun effetto sulla creazione dell'articolo. <br>Impedisce la creazione di varianti. È utile quando si desidera usare solo l'articolo principale nell'ordine cliente. Sarai ancora in grado di mappare una variante manualmente dalla pagina **Prodotto Shopify**.|
 
 Nella seguente tabella viene illustrato l'effetto del campo **Codice a barre**.
 
@@ -85,16 +85,16 @@ Puoi gestire il processo di esportazione degli articoli utilizzando queste impos
 |Campo|Descrizione|
 |------|-----------|
 |**Gruppo prezzi cliente**|Determina il prezzo di un articolo in Shopify. Viene preso il prezzo di vendita di questo gruppo di prezzi cliente. Se non viene inserito alcun gruppo, viene utilizzato il prezzo della scheda articolo.|
-|**Categoria sconto clienti**|Determina lo sconto da utilizzare per calcolare il prezzo di un articolo in Shopify. I prezzi scontati sono archiviati nel campo **Prezzo** e il prezzo intero è archiviato nel campo **Confronta prezzo**.|
+|**Categoria sconto clienti**|Determina lo sconto da usare per calcolare il prezzo di un articolo in Shopify. I prezzi scontati sono archiviati nel campo **Prezzo** e il prezzo intero è archiviato nel campo **Confronta prezzo**.|
 |**Sincronizza testo esteso articolo**|Seleziona per sincronizzare il testo esteso dell'articolo. Dal momento che verrà aggiunto al campo *Descrizione*, può contenere codice HTML. |
 |**Sincronizza attributi articolo**|Seleziona per sincronizzare gli attributi dell'articolo. Gli attributi sono formattati come una tabella e inclusi nel campo *Descrizione* di Shopify.|
-|**Codice lingua**|Seleziona se desideri utilizzare le versioni tradotte per titolo, attributi e testo esteso.|
-|**Mapping SKU**|Scegli come vuoi compilare il campo SKU in Shopify. Le opzioni supportate sono:<br> - **Nr. articolo** per utilizzare il numero di articolo per prodotti e varianti.<br> - **Nr. articolo + Codice variante** per creare uno SKU concatenando i valori di due campi. Per gli articoli senza varianti, viene utilizzato solo il numero di articolo.<br>- **Nr. articolo fornitore** per utilizzare il numero del fornitore dell'articolo definito nella *Scheda articolo* sia per i prodotti che per le varianti.<br> - **Codice a barre** per usare il tipo di codice a barre **Riferimento articolo**. Questa opzione rispetta le varianti.|
+|**Codice lingua**|Seleziona se desideri usare le versioni tradotte per titolo, attributi e testo esteso.|
+|**Mapping SKU**|Scegli come vuoi compilare il campo SKU in Shopify. Le opzioni supportate sono:<br> - **Nr. articolo** per usare il numero di articolo per prodotti e varianti.<br> - **Nr. articolo + Codice variante** per creare uno SKU concatenando i valori di due campi. Per gli articoli senza varianti, viene utilizzato solo il numero di articolo.<br>- **Nr. articolo fornitore** per usare il numero del fornitore dell'articolo definito nella *Scheda articolo* sia per i prodotti che per le varianti.<br> - **Codice a barre** per usare il tipo di codice a barre **Riferimento articolo**. Questa opzione rispetta le varianti.|
 |**Separatore campo SKU**|Definisci un separatore per l'opzione **Nr. articolo + Codice variante**.|
 |**Inventario tracciato**| Scegli come il sistema dovrebbe popolare il campo **Tieni traccia dell'inventario** per i prodotti esportati su Shopify. È possibile aggiornare le informazioni sulla disponibilità da [!INCLUDE[prod_short](../includes/prod_short.md)] per i prodotti in Shopify il cui inventario di traccia è abilitato. Ulteriori informazioni nella sezione [Inventario](synchronize-items.md#sync-inventory-to-shopify).|
 |**Criterio di inventario predefinito**|Scegli *Nega* per evitare stock negativo del lato Shopify.|
 |**Può aggiornare prodotti Shopify**|Definisci se [!INCLUDE[prod_short](../includes/prod_short.md)] può solo creare articoli o anche aggiornarli. Seleziona questa opzione se, dopo la sincronizzazione iniziale attivata dall'azione **Aggiungi articolo**, prevedi di aggiornare i prodotti manualmente utilizzando l'azione **Sincronizza prodotto** o la coda processi per gli aggiornamenti ricorrenti. Ricordati di selezionare **A Shopify** nel campo **Sincronizzazione articoli**.|
-|**Codice modello cliente**|Scegli il modello predefinito da utilizzare durante il calcolo del prezzo. Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).|
+|**Codice modello cliente**|Scegli il modello predefinito da usare durante il calcolo del prezzo. Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).|
 
 ### <a name="fields-mapping-overview"></a>Panoramica mapping dei campi
 
@@ -238,10 +238,19 @@ Puoi inizializzare le sincronizzazione dell'inventario in due modi descritti di 
 
 ### <a name="inventory-remarks"></a>Note sull'inventario
 
-* Il connettore calcola il **Saldo disponibile previsto** e lo esporta in Shopify.
+* Il connettore calcola il **Saldo disponibile previsto** alla data corrente e lo esporta in Shopify.
 * Puoi esaminare le informazioni sulle scorte ricevute da Shopify nella pagina **Scheda dettaglio Inventario Shopify**. In questa Scheda dettaglio, ottieni una panoramica delle scorte Shopify e l'ultimo inventario calcolato in [!INCLUDE[prod_short](../includes/prod_short.md)]. C'è un record per posizione.
 * Se le informazioni sulle scorte in Shopify sono diverse dal **Saldo disponibile previsto** in[!INCLUDE[prod_short](../includes/prod_short.md)], le scorte verranno aggiornate in Shopify.
 
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Esempio di calcolo del saldo disponibile previsto
+
+Sono disponibili 10 pezzi dell'articolo A e due ordini di vendita in sospeso. Uno per lunedì con quantità *Uno* e uno per giovedì con quantità *Due*. A seconda di quando sincronizzi l'inventario, il sistema aggiornerà il livello delle scorte in Shopify con quantità diverse:
+
+|Quando viene eseguita la sincronizzazione dell'inventario|Valore utilizzato per aggiornare il livello delle scorte|Commento|
+|------|-----------------|-----------------|
+|Martedì|9|Inventario 10 meno l'ordine di vendita impostato per la spedizione lunedì|
+|Venerdì|7|Inventario 10 meno entrambi gli ordini di vendita|
+
 ## <a name="see-also"></a>Vedere anche
 
-[Iniziare a utilizzare il connettore per Shopify](get-started.md)  
+[Iniziare a usare il connettore per Shopify](get-started.md)  

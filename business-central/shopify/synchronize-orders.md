@@ -8,12 +8,12 @@ ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 3
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728331"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802932"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Sincronizzare ed evadere gli ordini cliente
 
@@ -21,7 +21,11 @@ Questo articolo descrive le impostazioni e i passaggi necessari da eseguire per 
 
 ## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Impostare l'importazione di ordini nella scheda del punto vendita Shopify
 
-Un ordine Shopify regolare può includere importi extra al subtotale, come spese di spedizione o, se abilitate, mance. Questi importi vengono registrati direttamente nel conto C/G che si desidera utilizzare per tipi di transazione specifici:
+Immetti un **Codice valuta** se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDE[prod_short](../includes/prod_short.md)], lascia il campo vuoto. 
+
+Puoi vedere la valuta del punto vendita nelle impostazioni [Dettagli punto vendita](https://www.shopify.com/admin/settings/general) nel tuo Amministratore Shopify. Shopify può essere configurato per accettare diverse valute, tuttavia gli ordini importati in [!INCLUDE[prod_short](../includes/prod_short.md)] usano la valuta del punto vendita.
+
+Un ordine Shopify regolare può includere importi extra al subtotale, come spese di spedizione o, se abilitate, mance. Questi importi vengono registrati direttamente nel conto C/G che si desidera usare per tipi di transazione specifici:
 
 * **Conto costo spedizione**
 * **Conto buono regalo venduto**, per ulteriori informazioni, vedi [Buono regalo](synchronize-orders.md#gift-cards)
@@ -80,7 +84,7 @@ In alternativa, puoi cercare il processo batch **Sincronizza ordini da Shopify**
 
 ## <a name="review-imported-orders"></a>Esaminare gli ordini importati
 
-Una volta completata l'importazione, puoi esplorare l'ordine Shopify e trovare tutte le informazioni correlate, come transazioni di pagamento, costi di spedizione, adempimenti, livello di rischio, se l'ordine è stato già adempiuto in Shopify. Puoi anche vedere la conferma di ogni ordine inviata al cliente scegliendo l'azione **Pagina di stato Shopify**.
+Una volta completata l'importazione, puoi esplorare l'ordine Shopify e trovare tutte le informazioni correlate, come transazioni di pagamento, costi di spedizione, livello di rischio, attributi e tag o adempimenti se l'ordine è stato già adempiuto in Shopify. Puoi anche vedere la conferma di ogni ordine inviata al cliente scegliendo l'azione **Pagina di stato Shopify**.
 
 > [!NOTE]  
 > Puoi accedere alla finestra **Ordini Shopify** direttamente e vedrai gli ordini con lo stato *aperto* di tutti i punti vendita Per rivedere gli ordini completati, è necessario aprire la pagina **Ordini Shopify** dalla specifica finestra **Scheda del punto vendita Shopify**.
@@ -109,7 +113,7 @@ Se le tue impostazioni impediscono la creazione automatica di un cliente e non �
 * È possibile selezionare un codice modello cliente, creare e assegnare il cliente tramite l'azione **Crea nuovo cliente** nella pagina **Ordini Shopify**.
 * È possibile mappare il cliente esistente al relativo **cliente Shopify** nella finestra **Clienti Shopify** e quindi scegliere l'azione **Trova mapping** nella pagina **Ordini Shopify**.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>In che modo il connettore sceglie quale cliente utilizzare
+### <a name="how-the-connector-chooses-which-customer-to-use"></a>In che modo il connettore sceglie quale cliente usare
 
 La funzione *Importa ordine da Shopify* cerca di selezionare i clienti nel seguente ordine:
 
@@ -132,6 +136,7 @@ In Shopify:
 |Modifica|Impatto|
 |------|-----------|
 |Cambia la posizione di evasione | La posizione originale verrà sincronizzata con [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Modifica l'ubicazione di evasione e registra l'evasione in Shopify| Se l'ordine è già stato importato, le righe non verranno aggiornate. In caso contrario, l'ordine importato utilizzerà l'ubicazione di evasione. |
 |Modifica un ordine e modifica la quantità| L'intestazione dell'ordine e le tabelle supplementari verranno aggiornate in [!INCLUDE[prod_short](../includes/prod_short.md)], non le righe. |
 |Modifica un ordine e aggiungi nuovo articolo | L'intestazione dell'ordine verrà aggiornata, le righe no. |
 
@@ -184,4 +189,4 @@ Per rivedere i buoni regalo emessi e applicati, scegli l'icona a forma di ![lamp
 
 ## <a name="see-also"></a>Vedere anche
 
-[Iniziare a utilizzare il connettore per Shopify](get-started.md)  
+[Iniziare a usare il connettore per Shopify](get-started.md)  
