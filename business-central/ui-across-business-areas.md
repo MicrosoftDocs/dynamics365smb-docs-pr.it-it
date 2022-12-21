@@ -1,21 +1,19 @@
 ---
 title: Utilizzo di funzionalità generali tra le aree aziendali
 description: Informazioni sulle funzionalità comuni alle aree aziendali in Business Central.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 09/19/2022
-ms.author: edupont
-ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605902"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822480"
 ---
 # <a name="general-business-functionality"></a>Funzionalità aziendali generali
 
@@ -43,7 +41,8 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 |Pubblicare molteplici documenti di vendita o di acquisto insieme, immediatamente o come previsto.|[Registrare più documenti contemporaneamente](ui-batch-posting.md)|  
 |Esaminare i risultati di una registrazione prima di eseguirla.|[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md)|
 |Modificare i campi selezionati nei documenti di vendita o di acquisto registrati.|[Modificare i documenti registrati](across-edit-posted-document.md)|
-| Comprendere lo stato disponibile per offerte, ordini e documenti di note di credito, ad esempio **Aperto** e **Rilasciato** | [Campo stato nei documenti](ui-document-status.md) |
+|In questo articolo viene illustrato come trovare documenti e movimenti correlati tra loro in base a un documento, un contatto o alle informazioni articolo. | [Ricerca di movimenti correlati per documenti](ui-find-entries.md) |
+|Comprendere lo stato disponibile per offerte, ordini e documenti di note di credito, ad esempio **Aperto** e **Rilasciato** | [Campo stato nei documenti](ui-document-status.md) |
 |Imparare a utilizzare le registrazioni generali che vengono utilizzate per la contabilizzazione nei conti di contabilità generale e in altri conti, ad esempio conti correnti bancari, conti clienti e fornitori e conti cespiti. |[Utilizzare le registrazioni COGE](ui-work-general-journals.md) |
 | Programmare l'esecuzione di un report a una data e un orario specifici. |[Pianificazione dell'esecuzione di un report](ui-work-report.md#ScheduleReport) |
 |Il sistema consente di completare le attività in modo più rapido e più corretto precompilando i campi o righe intere con i dati che verrebbero altrimenti calcolati e immessi manualmente.|[Suggerimento automatico dei valori in Business Central](ui-let-system-suggest-values.md)|
