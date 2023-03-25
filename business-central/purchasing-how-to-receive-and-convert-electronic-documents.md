@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 189, 190, 191
+ms.search.keywords: null
+ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ff1b79447091df53f45eff49779e1c73b2fe0fd5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534185"
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Ricevere e convertire documenti elettronici
+# Ricevere e convertire documenti elettronici
 
 La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta la ricezione delle fatture e delle note di credito elettroniche e la ricezione delle fatture elettroniche nel formato PEPPOL, che è supportato dai principali provider di servizi di scambio documenti. Per ricevere una fattura da un fornitore come documento PEPPOL elettronico, occorre elaborare il documento nella pagina Documenti in entrata per convertirlo in una fattura di acquisto o una riga registrazioni COGE in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -40,7 +34,7 @@ Il traffico dei documenti elettronici in entrata e in uscita da [!INCLUDE[prod_s
 
 Nella procedura riportata di seguito viene descritto come ricevere una fattura del fornitore e convertirla in una fattura di acquisto in [!INCLUDE[prod_short](includes/prod_short.md)]. La procedura è la stessa quando si converte una fattura del fornitore in una riga registrazioni COGE.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Per ricevere e convertire una fattura elettronica in fattura di acquisto
+### Per ricevere e convertire una fattura elettronica in fattura di acquisto
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.  
 
@@ -58,9 +52,9 @@ Nella procedura riportata di seguito viene descritto come ricevere una fattura d
 
     Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[prod_short](includes/prod_short.md)], verranno visualizzati nella Scheda dettaglio **Messaggi di errore**.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Documenti in entrata](across-income-documents.md)  

@@ -3,14 +3,9 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: a686428deb5dae023c80a3c668605c98772db021
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728725"
 ---
-### <a name="reversing-journals-to-correct-mistakes"></a>Storno delle registrazioni per correggere gli errori
+
+### Storno delle registrazioni per correggere gli errori
 
 Quando si lavora con registrazioni che hanno molte righe e si verifica un errore, è importante avere un modo semplice per correggere gli errori. La pagina **Registrazioni COGE registrate** offre un paio di azioni che possono aiutare.
 

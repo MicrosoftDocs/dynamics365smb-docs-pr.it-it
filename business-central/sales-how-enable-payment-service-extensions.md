@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.search.forms: 1060, 1061, 1062
+ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5b2ae63fea8f6ad477478eff6d876a0779d165ee
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530515"
 ---
-# <a name="enable-customer-payments-through-payment-services"></a>Abilitare i pagamenti clienti tramite i servizi di pagamento
+# Abilitare i pagamenti clienti tramite i servizi di pagamento
 
 Come alternativa alla riscossione dei pagamenti tramite bonifico o carte di credito, i clienti possono pagare utilizzando il conto personale e servizi di pagamento, quali PayPal o WorldPay.  
 
@@ -25,7 +19,7 @@ Dopo che viene abilitato un servizio di pagamento in [!INCLUDE[prod_short](inclu
 
 Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono installate in [!INCLUDE[prod_short](includes/prod_short.md)] e pronte per essere abilitate.  
 
-## <a name="to-enable-a-payment-service-in-prod_short"></a>Per abilitare un servizio di pagamento in [!INCLUDE[prod_short](includes/prod_short.md)]
+## Per abilitare un servizio di pagamento in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Servizi di pagamento**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Servizi di pagamento** scegliere l'azione **Nuovo**.  
@@ -34,7 +28,7 @@ Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono install
 5. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Chiudere la pagina.  
 
-## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Per selezionare un servizio di pagamento di una fattura di vendita
+## Per selezionare un servizio di pagamento di una fattura di vendita
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Aprire una fattura di vendita che si desidera pagare utilizzando il servizio di pagamento.  
@@ -43,9 +37,9 @@ Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono install
     > [!NOTE]  
     > Il campo **Servizio di pagamento** è disponibile solo se è stato abilitato il servizio di pagamento.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  

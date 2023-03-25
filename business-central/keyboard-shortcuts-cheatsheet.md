@@ -6,93 +6,88 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605798"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Riferimento rapido per tasti di scelta rapida - Solo PC
 
-#### <a name="general"></a>Generale
+# Riferimento rapido per tasti di scelta rapida - Solo PC
 
-|Premere questi tasti|Operazione da eseguire|  
+#### Generale
+
+|Premi questi tasti|Operazione da eseguire|  
 |-|-|
-|Alt+F2|Visualizzare e nascondere il riquadro Dettaglio informazioni|
-|ALT+N|Creare un nuovo record|
-|ALT+MAIUSC+N|Chiudere un record appena creato e creane uno nuovo|
-|ALT+O|Aggiungere una nuova nota per il record selezionato|
-|ALT+Q|Aprire la funzionalità delle **informazioni**|
-|CTRL+ALT+Q|Apri **Trova movimenti**|
-|ALT+SU|Aprire la descrizione comando o l'errore di convalida|
-|ALT + freccia GIÙ|Aprire un menu a discesa o lookup|
-|ALT+T|Aprire la pagina **Impostazioni personali**|
-|ALT+MAIUSC+W|Aprire la scheda o il documento corrente in una nuova finestra|
-|CTRL+INS|Inserire una nuova riga in un documento|
-|CTRL-CANC|Eliminare la riga in un documento, giornale o foglio di lavoro|
-|Ctrl+Shift+F12|Ingrandire la parte Voci in una pagina del documento|
-|Ctrl+F1|Apri il riquadro della guida o un articolo della guida|
-|CTRL+clic|Spostarsi durante la personalizzazione|
-|Ctrl+O|Passare a un'altra società o ambiente|
-|MAIUSC+F12|Aprire Esplora ruoli, una panoramica delle funzionalità|
-|F5/CTRL+F5|Aggiornare/ricaricare la pagina|
-|TAB/MAIUSC + TAB|Spostare lo stato attivo sull'elemento successivo/precedente|
-|F6/MAIUSC+F6|Spostare il cursore alla Scheda dettaglio/parte successiva.|
+|<kbd>Alt</kbd>+<kbd>F2</kbd>|Visualizzare e nascondere il riquadro Dettaglio informazioni|
+|<kbd>Alt</kbd>+<kbd>N</kbd>|Creare un nuovo record|
+|<kbd>Alt</kbd>+<kbd>MAIUSC</kbd>+<kbd>N</kbd>|Chiudere un record appena creato e creane uno nuovo|
+|<kbd>Alt</kbd>+<kbd>O</kbd>|Aggiungere una nuova nota per il record selezionato|
+|<kbd>Alt</kbd>+<kbd>D</kbd>|Aprire la funzionalità delle **informazioni**|
+|<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Apri **Trova movimenti**|
+|<kbd>Alt</kbd>+<kbd>Freccia SU</kbd>|Aprire la descrizione comando o l'errore di convalida|
+|<kbd>Alt</kbd>+<kbd>Freccia GIÙ</kbd>|Aprire un menu a discesa o lookup|
+|<kbd>Alt</kbd>+<kbd>T</kbd>|Aprire la pagina **Impostazioni personali**|
+|<kbd>Alt</kbd>+<kbd>MAIUSC</kbd>+<kbd>W</kbd>|Aprire la scheda o il documento corrente in una nuova finestra|
+|<kbd>CTRL</kbd>+<kbd>Ins</kbd>|Inserire una nuova riga in un documento|
+|<kbd>CTRL</kbd>-<kbd>CANC</kbd>|Eliminare la riga in un documento, giornale o foglio di lavoro|
+|<kbd>CTRL</kbd>+<kbd>MAIUSC</kbd>+<kbd>F12</kbd>|Ingrandire la parte Voci in una pagina del documento|
+|<kbd>CTRL</kbd>+<kbd>F1</kbd>|Apri il riquadro della guida o un articolo della guida|
+|<kbd>CTRL</kbd>+clic|Spostarsi durante la personalizzazione|
+|<kbd>CTRL</kbd>+<kbd>O</kbd>|Passare a un'altra società o ambiente|
+|<kbd>MAIUSC</kbd>+<kbd>F12</kbd>|Aprire Esplora ruoli, una panoramica delle funzionalità|
+|<kbd>F5</kbd>/<kbd>CTRL</kbd>+<kbd>F5</kbd>|Aggiornare/ricaricare la pagina|
+|<kbd>Tab</kbd>/<kbd>MAIUSC</kbd>+<kbd>Tab</kbd>|Spostare lo stato attivo sull'elemento successivo/precedente|
+|<kbd>F6</kbd>/<kbd>MAIUSC</kbd>+<kbd>F6</kbd>|Spostare il cursore alla Scheda dettaglio/parte successiva.|
 
-#### <a name="navigate--select-rows"></a>Spostarsi e selezionare righe
+#### Spostarsi e selezionare righe
 
-|Premere questi tasti|Operazione da eseguire|
+|Premi questi tasti|Operazione da eseguire|
 |-|-|
-|Home/Fine|Passare al primo/ultimo campo|
-|CTRL+HOME/FINE |Passare alla prima/ultima riga|
-|CTRL+MAIUSC+FRECCIA SU/GIÙ|Spostarsi senza perdere la selezione|
-|CTRL+A |Selezionare tutto|
-|CTRL+SPAZIO|Attivare/disattivare la selezione delle righe|
-|Ctrl/Maiusc+Clic|Aggiungere le righe alla selezione|
-|MAIUSC+FRECCIA SU/GIÙ|Aggiungere la riga precedente/successiva alla selezione|
-|MAIUSC+PGGIÙ/SU|Selezionare righe visibili sopra/sotto|
-|Ctrl+Enter|Spostare lo stato attivo fuori dall'elenco|
+|<kbd>Home/Fine|Passare al primo/ultimo campo|
+|<kbd>CTRL</kbd>+<kbd>Home</kbd>/<kbd>Fine</kbd>|Passare alla prima/ultima riga|
+|<kbd>CTRL</kbd>+<kbd>Freccia SU</kbd>/<kbd>Freccia GIÙ</kbd>|Spostarsi senza perdere la selezione|
+|<kbd>CTRL</kbd>+<kbd>A</kbd>|Selezionare tutto|
+|<kbd>CTRL</kbd>+<kbd>BARRA SPAZIATRICE</kbd>|Attivare/disattivare la selezione delle righe|
+|<kbd>CTRL</kbd>/<kbd>MAIUSC</kbd>+clic|Aggiungere le righe alla selezione|
+|<kbd>MAIUSC</kbd>+<kbd>Freccia SU</kbd>/<kbd>Freccia GIÙ</kbd>|Aggiungere la riga precedente/successiva alla selezione|
+|<kbd>MAIUSC</kbd>+<kbd>PGSU</kbd>/<kbd>PGGIÙ</kbd>|Selezionare righe visibili sopra/sotto|
+|<kbd>CTRL</kbd>+<kbd>INVIO</kbd>|Spostare lo stato attivo fuori dall'elenco|
 
-#### <a name="copy--paste"></a>Copiare e incollare
+#### Copiare e incollare
 
-|Premere questi tasti|Operazione da eseguire|
+|Premi questi tasti|Operazione da eseguire|
 |-|-|
-|CTRL+C/V|Copiare/incollare righe|
-|F8|Copiare il campo soprastante nella riga corrente|
+|<kbd>CTRL</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Copiare/incollare righe|
+|<kbd>F8</kbd>|Copiare il campo soprastante nella riga corrente|
 
-#### <a name="search-filter--sort"></a>Cercare, filtrare e ordinare
+#### Cercare, filtrare e ordinare
 
-|Premere questi tasti|Operazione da eseguire|
+|Premi questi tasti|Operazione da eseguire|
 |-|-|
-|Alt+F7|Ordinare la colonna in ordine crescente/decrescente|
-|F3|Attivare/disattivare la ricerca|
-|Shift+F3|Attivare/disattivare il riquadro Filtro	; spostare lo stato attivo sui filtri del campo|
-|Alt+F3|Filtrare il valore della cella selezionata|
-|MAIUSC+ALT+F3|Aggiungere un filtro sul campo selezionato|
-|Ctrl+Alt+Maiusc+F3|Reimposta filtri|
+|<kbd>Alt</kbd>+<kbd>F7</kbd>|Ordinare la colonna in ordine crescente/decrescente|
+|<kbd>F3</kbd>|Attivare/disattivare la ricerca|
+|<kbd>MAIUSC</kbd>+<kbd>F3</kbd>|Attivare/disattivare il riquadro Filtro	; spostare lo stato attivo sui filtri del campo|
+|<kbd>Alt</kbd>+<kbd>F3</kbd>|Filtrare il valore della cella selezionata|
+|<kbd>MAIUSC</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Aggiungere un filtro sul campo selezionato|
+|<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>MAIUSC</kbd>+<kbd>F3</kbd>|Reimposta filtri|
 
-#### <a name="quick-entry"></a>Accesso rapido
+#### Accesso rapido
 
-|Premere questi tasti|Operazione da eseguire|
+|Premi questi tasti|Operazione da eseguire|
 |-|-|
-|CTRL+MAIUSC+INVIO|Passare al campo Accesso rapido seguente al di fuori di un elenco|
-|INVIO/MAIUSC+INVIO|Passare al campo Accesso rapido successivo/precedente|
+|<kbd>CTRL</kbd>+<kbd>MAIUSC</kbd>+<kbd>Invio</kbd>|Passare al campo Accesso rapido seguente al di fuori di un elenco|
+|<kbd>INVIO</kbd>/<kbd>MAIUSC</kbd>+<kbd>INVIO</kbd>|Passare al campo Accesso rapido successivo/precedente|
 
-##### <a name="report-preview"></a>Visualizzare in anteprima un report
+##### Visualizzare in anteprima un report
 
-|Premere questi tasti|Operazione da eseguire|
+|Premi questi tasti|Operazione da eseguire|
 |-|-|
-|CTRL+HOME/FINE|Passare alla prima/ultima pagina|
+|<kbd>CTRL</kbd>+<kbd>Home</kbd>/<kbd>Fine</kbd>|Passare alla prima/ultima pagina|
 
-#### <a name="numeric-keypad"></a>Tastiera numerica
+#### Tastiera numerica
 
-|Premere questi tasti|Operazione da eseguire|  
+|Premi questi tasti|Operazione da eseguire|  
 |-|-|
-|Alt+Separatore decimale|Attivare/disattivare l'output del separatore decimale sulla tastierina numerica|
+|<kbd>Alt</kbd>+<kbd>Separatore decimale</kbd>|Attivare/disattivare l'output del separatore decimale sulla tastierina numerica|
 
 > [!TIP]
 > Per una versione grafica facile da stampare, scegliere l'immagine seguente e scaricare il file PDF.

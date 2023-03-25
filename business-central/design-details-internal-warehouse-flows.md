@@ -1,122 +1,130 @@
 ---
-title: Dettagli di progettazione - Flussi warehouse interni
-description: Il flusso tra i contenitori è incentrato sul prelievo dei componenti e sullo stoccaggio degli articoli finali per gli ordini di assemblaggio o di produzione e movimenti ad hoc, senza documenti di origine.
-author: SorenGP
+title: 'Dettagli di progettazione - Flussi per produzione, assemblaggio e commesse'
+description: 'Scopri il flusso tra le collocazioni per il prelievo dei componenti e lo stoccaggio degli articoli finali per gli ordini di assemblaggio, produzione o commessa.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: b8e38dcf94c4303cdd69f5417a152484f5100e09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136376"
+ms.date: 12/16/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-internal-warehouse-flows"></a>Dettagli di progettazione: Flussi warehouse interni
-Il flusso di articoli in una collocazione all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza una relazione con i documenti di origine. L'ambito e la natura delle attività implicate variano tra la gestione di base e avanzata della warehouse.  
+# Flussi per produzione, assemblaggio e commesse
 
- Alcuni flussi interni si sovrappongono con flussi in entrata o in uscita. Alcuni flussi sovrapposti sono mostrati rispettivamente come passaggi 4 e 5 nei diagrammi grafici per i flussi in entrata e in uscita avanzati. Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse in entrata](design-details-outbound-warehouse-flow.md).  
+I flussi interni, come il prelievo dei componenti e lo stoccaggio degli articoli finali per ordini di assemblaggio, commesse e di produzione, sono simili ai flussi in entrata o in uscita. Quindi, molti dei processi potrebbero sembrare familiari. Questo articolo fornisce informazioni su come utilizzare i flussi di warehouse interni con vari livelli di complessità.
 
-## <a name="internal-flows-in-basic-warehousing"></a>Flussi interni nella gestione di base della warehouse  
- In una configurazione di base della warehouse, il flusso di articoli tra collocazioni all'interno della società si concentra sul prelievo di componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione o di assemblaggio e i movimenti ad hoc, ad esempio i rifornimenti delle collocazioni, senza relazione con i documenti di origine.  
+## Panoramica delle diverse opzioni di configurazione
 
-### <a name="flows-to-and-from-production"></a>Flussi verso e dalla produzione  
- La principale integrazione tra gli ordini di produzione e le attività di base della warehouse è rappresentata dalla possibilità di prelevare i componenti di produzione con la pagina **Prelievo magazzino** o la pagina **Movimento magazzino**.  
+È possibile configurare le funzionalità warehouse in vari modi. È importante che le opzioni che scegli migliorino i tuoi processi senza causare sovraccarico. Le seguenti tabelle descrivono le configurazioni tipiche per la gestione dei beni fisici per ordini di produzione, commesse e assemblaggio.
 
-> [!NOTE]  
->  Nella pagina **Prelievi magazzino** il consumo di componenti viene registrato insieme alla registrazione del prelievo. Tramite la pagina **Movimento di magazzino** solo le rettifiche della collocazione vengono registrate, non si verificano altre registrazioni dei movimenti contabili magazzino.  
+### Flusso in entrata (stoccaggio)
 
- Oltre alla gestione dei componenti, l'integrazione è rappresentata dalla capacità di stoccare gli articoli prodotti con la pagina **Stoccaggio magazzino**.  
+|Livello di complessità|Descrizione|Impostazioni|Codice collocazione|Flusso in entrata dell'ordine di produzione|Flusso in entrata dell'ordine di assemblaggio|Flusso in entrata delle commesse|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Nessuna attività di warehouse dedicata.|Contabilizzazione di ordini e registrazioni.||Facoltativo. Controllato dall'interruttore **Il codice collocazione è obbligatorio**.|Registrazioni di produzione -> Registrazioni di output</br><br/> **NOTA**: puoi registrare l'output utilizzando **Registrazioni di produzione**.|Ordine di assemblaggio|Lo stoccaggio non è applicabile per le commesse|  
+|Di base|Ordine per ordine.|Richiesto stoccaggio. </br><br/> **NOTA**: Anche se l'impostazione è chiamata **Richiesto stoccaggio**, puoi ancora registrare l'output dai documenti di origine nelle ubicazioni in cui selezioni questa casella di controllo. |Facoltativo. Controllato dall'interruttore **Il codice collocazione è obbligatorio**.|Ordine di produzione -> Stoccaggio in magazzino|Ordine di assemblaggio|Lo stoccaggio non è applicabile per le commesse|
+|Avanzate|Attività di stoccaggio consolidate per più documenti di origine.|Richiesto carico + Richiesto stoccaggio|Facoltativo. Controllato dall'interruttore **Il codice collocazione è obbligatorio**.|Ordini di produzione -> Registrazioni output|Ordini di assemblaggio -> Movimenti interni | Lo stoccaggio non è applicabile per le commesse|
+|Avanzate|Come sopra + Attività di prelievo/stoccaggio diretti|Prelievo e stoccaggio diretti (gli interruttori dipendenti verranno abilitati automaticamente)|Obbligatorio|Come sopra.|Come sopra.| Lo stoccaggio non è applicabile per le commesse|
 
- I campi **Cod. coll. art. per produzione**, **Cod. coll. art. da produzione** e **Codice coll. produzione aperta** nella scheda ubicazione o nelle schede centro di lavoro/area di produzione definiscono i flussi predefiniti da e verso le aree di produzione.  
+Alcune configurazioni non consentono di utilizzare documenti di warehouse dedicati per registrare gli stoccaggi. Tuttavia, se l'ubicazione utilizza le collocazioni, è possibile utilizzare i documenti di movimento generici per spostare gli articoli prodotti o assemblati nella warehouse. Per ulteriori informazioni vedi [Spostare gli articoli internamente nelle configurazioni warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
- Per ulteriori informazioni su come il consumo del componente è consuntivato dalla collocazione articoli per produzione o produzione aperta, vedere la sezione "Componenti di produzione di flushing nel magazzino" in questo argomento.  
+### Flusso in uscita (prelievo)
 
-### <a name="flows-to-and-from-assembly"></a>Flussi verso e dall'assemblaggio  
- La principale integrazione tra gli ordini di assemblaggio e le attività di base della warehouse è rappresentata dalla possibilità di spostare i componenti di assemblaggio nell'area di assemblaggio.  
+|Livello di complessità|Descrizione|Impostazioni|Codice collocazione|Flusso in uscita dell'ordine di produzione|Flusso in uscita dell'ordine di assemblaggio|Flusso in uscita delle commesse|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Nessuna attività di warehouse dedicata.|Contabilizzazione di ordini e registrazioni.||Facoltativo. Controllato dall'interruttore **Il codice collocazione è obbligatorio**.|Registrazioni di produzione -> Registrazioni consumi </br><br/> **NOTA**: puoi registrare il consumo utilizzando **Registrazioni di produzione**.|Ordine di assemblaggio|Commessa -> Registrazioni commesse|  
+|Di base|Ordine per ordine.|Richiesto prelievo. </br><br/> **NOTA**: Anche se l'impostazione è chiamata **Richiesto prelievo**, puoi ancora registrare l'output dai documenti di origine nelle ubicazioni in cui selezioni questa casella di controllo. <!-- ToDo Test prod output-->|Facoltativo. Controllato dall'interruttore **Il codice collocazione è obbligatorio**.|Ordine di produzione -> Prelievo in magazzino|Ordine di assemblaggio -> Movimento di magazzino</br><br/>L'opzione **Movimento di magazzino** può essere utilizzata solo con le collocazioni.|Commessa -> Prelievi magazzino|
+|Avanzate|Attività di prelievo consolidate per più documenti di origine.|Richiesta spedizione + Richiesto prelievo|Facoltativo. Controllato dall'interruttore Il codice collocazione è obbligatorio|Ordini di produzione -> Prelievi warehouse -> Registrazioni consumi |Ordini di assemblaggio -> Prelievo warehouse| Commesse -> Prelievo warehouse -> Registrazioni commesse |
+|Avanzate|Come sopra + Attività di prelievo/stoccaggio diretti|Prelievo e stoccaggio diretti (gli interruttori dipendenti verranno abilitati automaticamente)|Obbligatorio|Come sopra.|Come sopra.| Lo stoccaggio e il prelievo diretti non sono supportati per le commesse|
 
- Quando non sono disponibili funzionalità di warehouse specifiche per lo stoccaggio di articoli di assemblaggio, il codice collocazione nell'intestazione dell'ordine di assemblaggio può essere impostato su una collocazione di stoccaggio predefinita. La registrazione dell'ordine di assemblaggio funziona quindi come la registrazione di uno stoccaggio. L'attività di warehouse di spostare gli articoli di assemblaggio nella warehouse può essere gestita tramite la pagina **Movimentazione interna**, senza alcuna relazione all'ordine di assemblaggio.  
+Analogamente al flusso in entrata, alcune configurazioni non consentono di utilizzare documenti di warehouse dedicati per registrare gli stoccaggi. Se l'ubicazione utilizza le collocazioni, è possibile utilizzare i documenti di movimento generici per spostare gli articoli prodotti o assemblati. Per ulteriori informazioni vedi [Spostamento degli articoli](warehouse-move-items.md).
 
- Sono disponibili i seguenti flussi di assemblaggio.  
+## Warehouse senza attività di warehouse dedicata
 
-|Workflow|Descrizione|  
-|----------|---------------------------------------|  
-|Assemblaggio per magazzino|I componenti sono necessari in un ordine di assemblaggio in cui l'output è archiviato nella warehouse.<br /><br /> Questo flusso di warehouse viene gestito nella pagina **Movimento di magazzino**. Una riga Prendere specifica dove prendere i componenti. Una riga Mettere specifica dove posizionare i componenti.|  
-|Assemblaggio su ordine|I componenti sono necessari in un ordine di assemblaggio che è collegato a un ordine di vendita che viene spedito quando l'articolo venduto è assemblato.|  
+Anche se non hai attività di warehouse dedicate, probabilmente vorrai comunque tenere traccia di cose come il consumo e la produzione. I seguenti articoli forniscono informazioni su come elaborare le ricevute per i documenti di origine.
 
-> [!NOTE]  
->  Se gli articoli vengono assemblati su ordine, il prelievo magazzino dell'ordine di vendita collegato avvia un movimento di magazzino per tutti i componenti di assemblaggio implicati, non solo per l'articolo venduto come quando si spediscono gli articoli di magazzino.  
+* [Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md)
+* [Assemblare articoli](assembly-how-to-assemble-items.md)
+* [Registrare il consumo o l'uso per i lavori](projects-how-record-job-usage.md)
 
- I campi **Cod. coll. art. per assembl.**, **Cod. coll. art. da assembl.** e **Cod. coll. sp. ass. su ordine** nella scheda ubicazione definiscono i flussi di default da e verso le aree di assemblaggio.  
+## Configurazione warehouse di base
 
-> [!NOTE]  
->  Il campo **Cod. coll. sp. ass. su ordine** funge da collocazione da assemblaggio negli scenari di assemblaggio su ordine.  
+I flussi in entrata e in uscita in una configurazione warehouse di base comportano le seguenti impostazioni nella pagina **Scheda ubicazione** per l'ubicazione:
 
-### <a name="ad-hoc-movements"></a>Movimenti ad hoc  
- Nella gestione di base della warehouse, lo spostamento degli articoli tra collocazioni senza relazione con i documenti di origine viene eseguito nella pagina **Movimentazione interna**, che viene utilizzata insieme alla pagina **Movimento di magazzino**.  
+* Per il flusso in entrata (stoccaggio), attiva l'interruttore **Richiesto stoccaggio** ma disattiva l'interruttore **Richiesto carico**.
+* Per il flusso in uscita (prelievo), attiva l'interruttore **Richiesto prelievo** ma disattiva l'interruttore **Richiesta spedizione**.
 
- Un altro modo per spostare gli articoli ad hoc tra le collocazioni è di registrare i movimenti positivi nel campo **Nuovo cod. collocazione** della pagina **Reg. riclass. articoli**.  
+### I flussi da e verso la produzione in una configurazione warehouse di base  
 
-## <a name="internal-flows-in-advanced-warehousing"></a>Flussi interni nella gestione avanzata della warehouse  
- Nelle configurazioni della warehouse avanzate, il flusso di articoli tra le collocazioni all'interno della società si concentra sul prelievo dei componenti e sullo stoccaggio degli articoli finali per gli ordini di produzione e sul prelievo di componenti per gli ordini di assemblaggio. Inoltre, i flussi interni si verificano come movimenti ad hoc, ad esempio rifornimenti collocazione, senza alcuna relazione con i documenti di origine.  
+Utilizza i documenti **prelievo magazzino** per prelevare i componenti di produzione nel flusso verso la produzione. Per stoccare i prodotti che produci, usa i documenti **Stoccaggio in magazzino**.
 
-### <a name="flows-to-and-from-production"></a>Flussi Verso e Dalla produzione  
- La principale integrazione tra gli ordini di produzione e le attività avanzate della warehouse è rappresentata dalla possibilità di prelevare i componenti di produzione, nelle pagine **Prelievo warehouse** e **Prospetto prelievi**, e dalla possibilità di stoccare gli articoli prodotti tramite la pagina **Stoccaggio interno whse.**.  
+Per le ubicazioni che utilizzano le collocazioni, i documenti di movimento magazzino sono particolarmente utili per la consuntivazione dei componenti. Per ulteriori informazioni su come il consumo del componente è consuntivato dalla collocazione articoli per produzione o produzione aperta, vedi [Consuntivazione componenti di produzione nel magazzino](warehouse-how-to-pick-for-production.md#flushing-production-components-in-a-basic-warehouse-configuration).
 
- Un altro punto di integrazione nella produzione viene fornito con la pagina **Movimentazione warehouse**, insieme alla pagina Movimento worksheet, che consente di inserire i componenti e prelevare gli articoli prodotti per gli ordini di produzione rilasciati.  
+   > [!NOTE]
+   > I movimenti di inventario sono documenti importanti se utilizzi i metodi di consuntivazione **Prelievo + Avanti** o **Prelievo + indietro**. Per ulteriori informazioni vedi [Metodi di consuntivazione](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
- I campi **Cod. coll. art. per produzione**, **Cod. coll. art. da produzione** e **Codice coll. produzione aperta** nella scheda ubicazione o nelle schede centro di lavoro/area di produzione definiscono i flussi predefiniti da e verso le aree di produzione.  
+* I campi **Cod. coll. art. per produzione**, **Cod. coll. art. da produzione** e **Codice coll. produzione aperta** nell'ubicazione o nel centro di lavoro/area di produzione definiscono i flussi predefiniti da e verso le aree di produzione.
+* Gestisci il movimento degli articoli prodotti nella pagina **Movimento interno** senza una relazione con un ordine di produzione.
 
- Per ulteriori informazioni su come il consumo del componente è consuntivato dalla collocazione articoli per produzione o produzione aperta, vedere la sezione "Componenti di produzione di flushing nel magazzino" in questo argomento.  
+### I flussi da e verso l'assemblaggio in una configurazione warehouse di base  
 
-### <a name="flows-to-and-from-assembly"></a>Flussi verso e dall'assemblaggio  
- La principale integrazione tra gli ordini di assemblaggio e le attività avanzate della warehouse è rappresentata dalla possibilità di prelevare componenti di assemblaggio, sia con la pagina **Prelievo warehouse** sia con la pagina **Prospetto prelievi**. Questa funzionalità funziona come quando si prelevano componenti per gli ordini di produzione.  
+Registra l'output e il consumo dell'assemblaggio direttamente da un ordine di assemblaggio.
 
- Quando non sono disponibili funzionalità di warehouse specifiche per lo stoccaggio di articoli di assemblaggio, il codice collocazione nell'intestazione dell'ordine di assemblaggio può essere impostato su una collocazione di stoccaggio predefinita. La registrazione dell'ordine di assemblaggio funziona quindi come la registrazione di uno stoccaggio. L'attività di warehouse di spostare gli articoli di assemblaggio nella warehouse può essere gestita tramite la pagina **Movimento worksheet** o la pagina **Stoccaggio interno whse.**, senza alcuna relazione all'ordine di assemblaggio.  
+> [!NOTE]
+> I documenti **Prelievo di magazzino** e **Stoccaggio di magazzino** non sono supportati per gli ordini di assemblaggio.
 
-> [!NOTE]  
->  Se gli articoli vengono assemblati su ordine, la spedizione warehouse dell'ordine di vendita collegato avvia un prelievo warehouse per tutti i componenti di assemblaggio implicati, non solo per l'articolo venduto come quando si spediscono gli articoli di magazzino.  
+Per le ubicazioni che usano le collocazioni:
 
- I campi **Cod. coll. art. per assembl.** e **Cod. coll. art. da assembl.** nella scheda ubicazione definiscono i flussi predefiniti da e verso le aree di assemblaggio.  
+* Utilizza i documenti **Movimento magazzino** per spostare i componenti dell'assemblaggio nell'area di assemblaggio.
+* I campi **Cod. coll. art. per assembl.** e **Cod. coll. art. da assembl.** nella scheda ubicazione definiscono i flussi predefiniti da e verso le aree di assemblaggio.
+* Gestisci il movimento degli articoli assemblati nella pagina **Movimento interno** senza una relazione con un ordine di assemblaggio.
 
-### <a name="ad-hoc-movements"></a>Movimenti ad hoc  
- Nella gestione avanzata della warehouse, lo spostamento di articoli tra collocazioni senza relazione con i documenti di origine viene gestito nella pagina **Movimento worksheet** e viene registrato nella pagina Movimentazione warehouse.  
+[!INCLUDE [prod_short](includes/prod_short.md)] supporta i flussi assemblaggio su ordine e assemblaggio per magazzino. Per ulteriori informazioni vedi [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). In relazione alla gestione della warehouse, l'assemblaggio per magazzino fa parte del flusso warehouse interno e l'assemblaggio su ordine è nel flusso warehouse in uscita. Ulteriori informazioni in [Gestione di articoli da assemblare su ordine con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="flushing-production-components-in-the-warehouse"></a>Consuntivazione componenti di produzione nel magazzino  
- Se impostati in una scheda articolo, i componenti prelevati con prelievi warehouse vengono registrati come consumati dall'ordine di produzione durante la registrazione del prelievo warehouse. Utilizzando il metodo **Prelievo+Aut.Inizio** e il metodo di flushing **Prelievo+Aut.Fine** la registrazione del prelievo attiva la registrazione del consumo correlata quando inizia la prima operazione o quando termina l'ultima operazione, rispettivamente.  
+### Flussi per la gestione dei progetti in una configurazione warehouse di base
 
- Considerare il seguente scenario in base all'ubicazione BIANCA del database di esempio di [!INCLUDE[prod_short](includes/prod_short.md)].  
+Utilizza i documenti **prelievo magazzino** per il prelievo dei componenti di commessa nel flusso verso la gestione progetti.
 
- Esiste un ordine di produzione per 15 PZ dell'articolo LS-100. Alcuni degli articoli nell'elenco dei componenti devono essere consuntivati manualmente in una registrazione di consumo, mentre altri articoli dell'elenco possono essere prelevati e consuntivati automaticamente utilizzando il metodo di consuntivazione **Prelievo+Aut.Fine**.  
+Per un'ubicazione che utilizza le collocazioni, il campo **A commessa - Codice collocazione** nell'ubicazione definisce i flussi predefiniti per la gestione dei progetti.
 
-> [!NOTE]  
->  **Prelievo + Aut.Inizio** funziona solo se la seconda operazione della riga del ciclo di produzione utilizza un codice di legame ciclo-distinta base. Il rilascio di un ordine di produzione pianificato avvia la consuntivazione in avanti di componenti impostati su **Prelievo+Aut.Inizio**. Tuttavia, consuntivazione non può essere eseguita fino a quando il prelievo dei componenti non viene registrato, operazione che a sua volta può essere eseguita solo quando l'ordine viene rilasciato.  
+## Configurazioni avanzate della warehouse  
 
- I seguenti passaggi descrivono le azioni implicate da utenti differenti e la risposta correlata:  
+I flussi in entrata e in uscita in una configurazione warehouse avanzata comportano le seguenti impostazioni nella pagina **Scheda ubicazione** per l'ubicazione:
 
-1.  Il supervisore di produzione rilascia l'ordine di produzione. Gli articoli con il metodo di consuntivazione in **Avanti** e privi di un codice di legame ciclo-distinta base vengono dedotti dalla collocazione produzione aperta.  
-2.  Il supervisore di produzione fa clic sul pulsante **Creare il prelievo warehouse** nell'ordine di produzione. Un documento di prelievo warehouse viene creato per il prelievo degli articoli con i metodi di flushing **Manuale**, **Prelievo + Indietro** e **Prelievo + Avanti**. Questi articoli si trovano nella collocazione articoli per produzione.  
-3.  Il responsabile di warehouse assegna i prelievi a un lavoratore warehouse.  
-4.  L'addetto warehouse seleziona gli articoli dalle collocazioni appropriate e li inserisce nella collocazione articoli per produzione o nella collocazione specificata nel prelievo warehouse, che può essere una collocazione centro di lavoro o area di produzione.  
-5.  L'addetto warehouse registra il prelievo. La quantità viene sottratta dalle collocazioni di prelievo e aggiunta alla collocazione di consumo. Il campo **Qtà prelevata** nell'elenco dei componenti per tutti gli articoli selezionati viene aggiornato.  
+* Per il flusso in entrata (stoccaggio), attiva gli interruttori **Richiesto carico** e **Richiesto stoccaggio**.
+* Per il flusso in uscita (prelievo), attiva gli interruttori **Richiesta spedizione** e **Richiesto carico**.
 
-    > [!NOTE]  
-    >  Solo la quantità che è prelevata può essere utilizzata.  
+### I flussi da e verso la produzione in una configurazione warehouse avanzata
 
-6.  L'operatore di macchina informa il responsabile di produzione che gli articoli finali sono terminati.  
-7.  Il supervisore di produzione utilizza le registrazioni di produzione o di consumo per registrare il consumo di articoli componenti che utilizzano il metodo di consuntivazione **Manuale** o i metodi di consuntivazione **Avanti** o **Prelievo+Aut.Inizio** insieme ai codici di legame del ciclo.  
-8.  Il responsabile di produzione registra l'output dell'ordine di produzione e modifica lo stato in **Completato**. La quantità di articoli componenti che utilizzano il metodo di consuntivazione **Da fine ordine** viene dedotta dalla collocazione produzione aperta e la quantità di articoli componente che utilizzano il metodo di consuntivazione **Prelievo+Aut.Fine** viene dedotta dalla collocazione articoli per produzione.  
+Utilizza i documenti **Prelievo warehouse** e la pagina **Prospetto prelievi** per prelevare i componenti per la produzione.
 
- Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione** nell'elenco di componenti viene compilato in base all'ubicazione o all'impostazione area di produzione/centro di lavoro.  
+Per le ubicazioni che usano le collocazioni:
 
- ![Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.](media/binflow.png "Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato")  
+* I documenti **Movimento warehouse** e la pagina **Prospetti movimenti** sono particolarmente utili per la consuntivazione dei componenti. Per ulteriori informazioni vedi [Consuntivazione componenti di produzione nel magazzino](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md#flushing-production-components-in-a-advanced-warehouse-configuration).
+* I campi **Cod. coll. art. per produzione**, **Cod. coll. art. da produzione** e **Codice coll. produzione aperta** nell'ubicazione o nel centro di lavoro/area di produzione definiscono i flussi predefiniti da e verso le aree di produzione. 
+* Gestisci il movimento degli articoli prodotti nelle pagine **Prospetto movimenti** o **Stoccaggio interno whse.** senza una relazione con un ordine di produzione.
 
-## <a name="see-also"></a>Vedere anche  
- [Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
+### I flussi da e verso l'assemblaggio in una configurazione warehouse avanzata
 
+Utilizza i documenti **Prelievo warehouse** e la pagina **Prospetto prelievi** per prelevare i componenti per l'assemblaggio.
+
+Per le ubicazioni che usano le collocazioni:
+
+* I campi **Cod. coll. art. per assembl.** e **Cod. coll. art. da assembl.** nell'ubicazione definiscono i flussi predefiniti da e verso le aree di assemblaggio.
+* Gestisci il movimento degli articoli assemblaggio nelle pagine **Prospetto movimenti** o **Stoccaggio interno whse.** senza una relazione con un ordine di assemblaggio.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] supporta i flussi assemblaggio su ordine e assemblaggio per magazzino. Per ulteriori informazioni vedi [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). 
+
+L'assemblaggio per magazzino fa parte del flusso warehouse interno e l'assemblaggio su ordine è nel flusso warehouse in uscita. Per ulteriori informazioni vedi [Gestione di articoli di assemblaggio su ordine in spedizioni warehouse](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
+
+### Flussi per la gestione dei progetti in una configurazione warehouse avanzata
+
+Utilizza i documenti **Prelievo warehouse** e la pagina **Prospetto prelievi** per prelevare i componenti nel flusso per la gestione dei progetti.
+
+Per le ubicazioni che utilizzano le collocazioni, il campo **A commessa - Codice collocazione** nell'ubicazione definisce i flussi predefiniti per l'area dei progetti.
+
+## Vedere anche  
+
+[Panoramica gestione del magazzino](design-details-warehouse-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

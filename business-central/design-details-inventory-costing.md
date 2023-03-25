@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, inventory, costing
+ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146659"
 ---
-# <a name="design-details-inventory-costing"></a>Dettagli di progettazione: Costing di magazzino
+# Dettagli di progettazione: Costing di magazzino
 
 In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Il costing di magazzino, detto anche gestione costing riguarda la registrazione e il reporting dei costi operativi business.  
 
-## <a name="in-this-section"></a>In questa sezione
+## In questa sezione
 
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  

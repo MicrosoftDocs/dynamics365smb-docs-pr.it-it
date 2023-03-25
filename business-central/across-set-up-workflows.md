@@ -1,28 +1,22 @@
 ---
 title: Impostare i workflow di approvazione (contiene video)
-description: Imposta flussi di lavoro, utenti del flusso di lavoro e utenti di approvazione per connettere le attività di sistema dei processi aziendali eseguite da questi diversi utenti.
+description: 'Imposta flussi di lavoro, utenti del flusso di lavoro e utenti di approvazione per connettere le attività di sistema dei processi aziendali eseguite da questi diversi utenti.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 04067d8cb0ee786b3738fb0cc7055d0b84c001d0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585758"
 ---
-# <a name="set-up-approval-workflows"></a>Imposta workflow di approvazione
+# Imposta workflow di approvazione
 
 È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro. Ulteriori informazioni in [Utilizzare i workflow di approvazione](across-use-workflows.md).
 
 Prima di poter iniziare a utilizzare i workflow di approvazione, è necessario impostare gli utenti del workflow e gli utenti dell'approvazione, specificare la modalità di ricezione delle notifiche sui passaggi del workflow e successivamente creare i flussi di lavoro.
 
-Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi del workflow compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.
+Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del workflow, moderato dalle condizioni di evento, e in una risposta del workflow, moderata dalle opzioni di risposta. È possibile definire le fasi del workflow compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
@@ -41,16 +35,16 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Condividere workflow con altri database [!INCLUDE[prod_short](includes/prod_short.md)].|[Importa ed esporta workflow di approvazione](across-how-to-export-and-import-workflows.md)|  
 |Come impostare un workflow per approvare documenti di vendita seguendo una procedura end-to-end.|[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Esempio di workflow di approvazione
+## Esempio di workflow di approvazione
 
 Questo video mostra come impostare un workflow che chiede a un utente di richiedere l'approvazione di qualcun altro prima di poter modificare le informazioni su un cliente esistente o creare un nuovo cliente.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare i workflow di approvazione](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

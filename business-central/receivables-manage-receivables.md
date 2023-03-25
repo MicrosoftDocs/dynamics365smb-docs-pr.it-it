@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customer payment, debtor, balance due, AR
+ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 37aa7f341bd0a8f097e0ca9737bffd3d2cd4e507
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534077"
 ---
-# <a name="managing-receivables"></a>Gestione della contabilità clienti
+# Gestione della contabilità clienti
 
 Un passaggio normale nell'iter finanziario consiste nel riconciliare i conti correnti bancari. Per questa operazione è necessario che i pagamenti in entrata vengano collegati ai movimenti del registro fornitori o clienti in modo da chiudere le fatture di vendita e le note di credito di acquisto come pagate.
 
@@ -47,9 +41,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Impostare una tolleranza da cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Prevede quando verranno effettuati i pagamenti ritardati per i documenti di vendita. | [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 [Vendite](sales-manage-sales.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

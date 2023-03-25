@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317376"
 ---
 Gli utenti [!INCLUDE[prod_short](prod_short.md)] a volte supportano più di un reparto o una sottoorganizzazione all'interno di una business unit. Ad esempio, un'azienda potrebbe avere uffici di vendita in diverse città e in più paesi, quindi ha creato una business unit separata per ciascun ufficio. Gli uffici che si trovano nello stesso paese sono istituiti come *società* separate in un *ambiente* condiviso. Altri uffici vengono creati come aziende in ambienti separati perché sono geograficamente in altri paesi.
 

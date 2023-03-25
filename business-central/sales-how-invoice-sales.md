@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale, invoice, order
-ms.search.form: 43, 48, 9301
+ms.search.keywords: 'bill, sale, invoice, order'
+ms.search.form: '43, 48, 9301'
 ms.date: 09/01/2022
 ms.author: edupont
-ms.openlocfilehash: 1a59356653c01ab9c1493bba0e6be80367f21217
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529651"
 ---
-# <a name="invoice-sales"></a>Fatturare le vendite
+# Fatturare le vendite
 
 Puoi creare una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.  
 
@@ -31,7 +25,7 @@ In tutte le altre situazioni, gli ordini di vendita e le fatture di vendita funz
 
 È possibile negoziare con il cliente prima di tutto creando un'offerta di vendita, che è possibile convertire in una fattura di vendita quando ci si accorda sulla vendita. Ulteriori informazioni in [Creare offerte di vendita](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Crea fatture di vendita
+## Crea fatture di vendita
 
 Se il cliente decide di acquistare, registrare la fattura di vendita per creare i relativi movimenti di quantità e valore. Quando si registra la fattura di vendita, è possibile inviarla via email come allegato PDF. È possibile impostare il messaggio con un testo precompilato che riepiloga le informazioni della fattura e per il pagamento, ad esempio con un collegamento a PayPal. Ulteriori informazioni in [Inviare documenti via e-mail](ui-how-send-documents-email.md). Quando un cliente paga quindi la fattura, è possibile registrare il pagamento in diversi modi, a seconda della dimensione e dei flussi di lavoro preferiti dell'organizzazione. Ulteriori informazioni nella sezione [Registrazione dei pagamenti](#registering-payments).  
 
@@ -39,7 +33,7 @@ Le schede articolo possono essere di tipo **Inventario**, **Assistenza** o **Non
 
 È possibile compilare i campi cliente nella fattura di vendita in uno dei due modi a seconda che il cliente sia già registrato o meno. Vedere il passaggio 2 della procedura riportata di seguito.
 
-### <a name="to-create-a-sales-invoice"></a>Per creare una fattura di vendita
+### Per creare una fattura di vendita
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Nel campo **Cliente** immettere il nome di un cliente esistente. Se, tuttavia, il cliente è nuovo e quindi non registrato, attieniti alla seguente procedura per popolare le informazioni standard del cliente nella pagina **Fattura di vendita**:
@@ -94,11 +88,11 @@ Viene visualizzata la finestra dialogo **Registra e invia conferma** con il meto
 
 I movimenti articolo e di contabilità cliente sono ora creati nel sistema e la fattura di vendita è emessa come documento PDF. La fattura di vendita viene rimossa dall'elenco delle fatture di vendita e sostituita con un nuovo documento nell'elenco delle fatture di vendita registrate.  
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Calcolo degli sconti fattura per le vendite
+### Calcolo degli sconti fattura per le vendite
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Fatture registrate
+## Fatture registrate
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -106,13 +100,13 @@ I movimenti articolo e di contabilità cliente sono ora creati nel sistema e la 
 
 [Apri l'elenco **Fatture vendite registrate**](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="registering-payments"></a>Registrazione dei pagamenti
+## Registrazione dei pagamenti
 
 In base alle esigenze aziendali, è possibile ottenere pagato e registrare un pagamento in diversi modi: manualmente, in modo automatico e tramite i servizi di pagamento.  
 
 È possibile elaborare i pagamenti direttamente dalla scheda cliente. Utilizzare l'azione **Registra pagamenti clienti** per ottenere una sintesi delle fatture pagate non per tale cliente. Quindi, contrassegnare la fattura come pagata parzialmente o interamente. Questi processi di riconciliazione pagamenti elaborano i pagamenti dei clienti facendo corrispondere gli importi ricevuti sul conto bancario alle relative fatture di vendita non pagate, quindi registrare i pagamenti. Ulteriori informazioni nella sezione [Per riconciliare i pagamenti individualmente](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-Negli ambienti aziendali in cui il cliente paga qualche tempo dopo la consegna, in base alle condizioni di pagamento, una fattura di vendita registrata rimane aperta (non pagata) fino a quando il reparto Contabilità clienti verifica che il pagamento sia stato ricevuto e applica il pagamento alla fattura di vendita pubblicata. Questo può essere fatto manualmente o automaticamente. Ulteriori informazioni, in [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-reconcile-payments-auto-application.md) e [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-apply-sales-transactions-manually.md).  
+Negli ambienti aziendali in cui il cliente paga qualche tempo dopo la consegna, in base alle condizioni di pagamento, una fattura di vendita registrata rimane aperta (non pagata) fino a quando il reparto Contabilità clienti verifica che il pagamento sia stato ricevuto e applica il pagamento alla fattura di vendita pubblicata. Questo può essere fatto manualmente o automaticamente. Ulteriori informazioni, in [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md) e [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).  
 
 Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio tramite PayPal o contanti, il pagamento viene registrato immediatamente quando si registra la fattura di vendita, vale a dire la fattura di vendita pubblicata viene chiusa come interamente applicata. Selezionare il metodo rilevante nel campo **Codice metodo di pagamento** nell'ordine cliente. Per i pagamenti elettronici, come PayPal, compilare anche il campo **Servizio di pagamento**. Ulteriori informazioni in [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
 
@@ -121,13 +115,13 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 > [!TIP]
 > Se si desidera inviare ai clienti solleciti per pagamenti in ritardo, è necessario impostare i livelli e i termini di sollecito. Ulteriori informazioni in [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers"></a>Numeri di documento esterno
+## Numeri di documento esterno
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index).
+## Vedi il relativo [training Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

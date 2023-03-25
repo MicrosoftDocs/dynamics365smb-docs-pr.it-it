@@ -1,19 +1,13 @@
 ---
 title: Impostare la valutazione magazzino e i costi
-description: Per assicurarsi che i costi di magazzino vengano registrati correttamente, è necessario impostare vari campi e pagine prima di iniziare a effettuare transazioni di articoli.
+description: 'Per assicurarsi che i costi di magazzino vengano registrati correttamente, è necessario impostare vari campi e pagine prima di iniziare a effettuare transazioni di articoli.'
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520310"
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Impostazione della valutazione magazzino e i costi
+# Impostazione della valutazione magazzino e i costi
 
 Per assicurarsi che i costi di magazzino vengano registrati correttamente, è necessario impostare vari campi e pagine prima di iniziare a effettuare transazioni di articoli. In genere, le aziende scelgono un metodo di determinazione dei costi specifico e lo applicano agli articoli di magazzino, ad esempio, per aiutarle a tenere traccia del valore degli articoli in magazzino.  
 
@@ -36,7 +30,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Assicurarsi che i resi di acquisto vengano applicati alla transazione in entrata originale per mantenere il valore di magazzino.|Campo **Storno esatto costo obblig.** nella pagina **Contabilità fornitori**|
 |Impostare le regole di arrotondamento da applicare quando i prezzi degli articoli e i costi standard vengono rettificati o suggeriti.|Pagina **Metodo di arrotondamento**|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Impostare le informazioni generali di magazzino](inventory-how-setup-general.md)  

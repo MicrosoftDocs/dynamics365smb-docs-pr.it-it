@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519806"
 ---
-# <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
+# Dettagli di progettazione: Metodi di costing
 
 Il metodo di costing determina se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi. Insieme alla data e alla sequenza di registrazione, il metodo di costing influisce anche sul modo in cui viene registrato il flusso dei costi.
 
@@ -46,7 +40,7 @@ I metodi di costing differiscono in modo da valorizzare le riduzioni di magazzin
 |Rivalutazione|Rivaluta solo la quantità fatturata.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata a ritroso.|Rivaluta solo la quantità fatturata.<br /><br /> Può essere effettuata solo per movimento.<br /><br /> Può essere effettuata indietro nel tempo.|Rivaluta le quantità fatturate e non fatturate.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata a ritroso.|Rivaluta solo la quantità fatturata.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata indietro nel tempo.|  
 |Varie|Se una riduzione di magazzino viene retrodatata, i movimenti esistenti NON vengono collegati nuovamente per fornire il flusso di costi FIFO corretto.|Se un aumento o una riduzione di magazzino viene retrodata, il costo medio viene ricalcolato e tutti i movimenti interessati vengono rettificati.<br /><br /> Se si modifica il periodo o tipo di calcolo, tutti i movimenti interessati devono essere rettificati.|Utilizzare la pagina **Prospetto standard** per aggiornare e riepilogare periodicamente i costi standard.<br /><br /> NON è supportata per USK.<br /><br /> Nessun record storico esistente per i costi standard.|È possibile utilizzare la tracciabilità articolo specifico senza utilizzare il metodo di costing Specifico. Il costo quindi non seguirà il numero di lotto, ma l'ipotesi di costo del metodo di costing selezionato.|  
 
-## <a name="example"></a>Esempio
+## Esempio
 
 In questa sezione vengono forniti esempi di come i differenti metodi di costing influiscono sul valore di magazzino.  
 
@@ -64,7 +58,7 @@ Nella seguente tabella vengono mostrati gli aumenti e le riduzioni di magazzino 
 > [!NOTE]  
 > La quantità risultante in magazzino è pari a zero. Di conseguenza, il valore di magazzino deve essere zero, indipendentemente dal metodo di costing.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effetto dei metodi di costing sulla valutazione degli aumenti di magazzino  
+### Effetto dei metodi di costing sulla valutazione degli aumenti di magazzino  
 
 Per gli articoli con i metodi di costing che utilizzano il costo effettivo come base di valutazione (**FIFO**, **LIFO**, **Medio** o **Specifico**), gli aumenti in magazzino sono stimati come costo di acquisto dell'articolo.  
 
@@ -72,11 +66,11 @@ Per gli articoli con i metodi di costing che utilizzano il costo effettivo come 
 
     Per gli articoli che utilizzano il metodo di costing **Standard**, gli aumenti di magazzino vengono valutati in base al costo standard corrente dell'articolo.  
 
-#### <a name="standard"></a>Standard  
+#### Standard  
 
 Per gli articoli che utilizzano il metodo di costing **Standard**, gli aumenti di magazzino vengono valutati in base al costo standard corrente dell'articolo.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effetto dei metodi di costing sulla valutazione delle riduzioni di magazzino
+### Effetto dei metodi di costing sulla valutazione delle riduzioni di magazzino
 
 - **FIFO**  
 
@@ -144,7 +138,7 @@ Per gli articoli che utilizzano il metodo di costing **Standard**, gli aumenti d
     |03-01-20|-1|-10,00|**1**|5|  
     |04-01-20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
  [Dettagli di progettazione: Scostamento](design-details-variance.md)   

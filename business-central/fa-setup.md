@@ -1,23 +1,17 @@
 ---
 title: Impostazione cespiti
-description: Informazioni sulla sequenza di attività da eseguire per impostare i cespiti, ad esempio macchinari o edifici.
+description: 'Informazioni sulla sequenza di attività da eseguire per impostare i cespiti, ad esempio macchinari o edifici.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
+ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d537d22d3273c2185016904779eab0ff030d201
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530245"
 ---
-# <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
+# Impostazione di cespiti
 
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
 
@@ -42,9 +36,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Ulteriori informazioni sui diversi metodi di ammortamento del cespite. |[Metodi di ammortamento](fa-depreciation-methods.md) |
 | Informazioni su come applicare metodi di ammortamento definiti dall'utente. |[Impostare i metodi di ammortamento definiti dall'utente](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
+## Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  

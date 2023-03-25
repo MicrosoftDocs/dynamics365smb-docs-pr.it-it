@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ccce829d284379ab307c141d4076ad30bfbaa018
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535238"
 ---
-# <a name="accounting-for-costs"></a>Contabilizzazione dei costi
+# Contabilizzazione dei costi
 La contabilità industriale viene utilizzata per comprendere i costi operativi di un'attività. Per un'introduzione sulla contabilità industriale, vedere i seguenti argomenti.  
 
 |Per|Vedere|  
@@ -30,9 +24,9 @@ La contabilità industriale viene utilizzata per comprendere i costi operativi d
 |Informazioni sui processi per creare budget costi.|[Creazione di budget di costi](finance-create-cost-budgets.md)|
 |Annullare movimenti budget costi dal registro budget costi.|[Eliminare movimenti budget costi](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche  
+## Vedi anche  
 [Finanze](finance.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

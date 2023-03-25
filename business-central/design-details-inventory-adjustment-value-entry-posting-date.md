@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: d48c27f06463f37ad5ca657bada33a4d165799ea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133916"
 ---
-# <a name="design-details-posting-date-on-adjustment-value-entry"></a>Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica
+# Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica
 
 Questo articolo fornisce una guida per gli utenti della funzionalità Inventory Costing in [!INCLUDE[prod_short](includes/prod_short.md)], e in particolare per come il lavoro batch **Rettifica costo movimenti articoli** identifica e assegna una data di registrazione alle voci di valore che il lavoro batch sta per creare.
 
-## <a name="how-posting-dates-are-assigned"></a>Come vengono assegnate le date di distacco
+## Come vengono assegnate le date di distacco
 
 Il processo batch **Rettifica costo - Movimenti articoli** assegna una data di registrazione al movimento valorizzazione da creare mediante la seguente procedura:  
 
@@ -32,7 +26,7 @@ Il processo batch **Rettifica costo - Movimenti articoli** assegna una data di r
 
 Esaminiamo questo processo con un esempio pratico. Supponiamo di avere un movimento contabile articolo di vendita. L'articolo è stato spedito il 5 settembre 2020 ed è stato fatturato il giorno dopo.  
 
-#### <a name="item-ledger-entry"></a>Mov. Contabile Articoli
+#### Mov. Contabile Articoli
 
 |Nr. movimento  |Nr. Articolo  |Data di registrazione  |Tipo movimento  | Nr. documento |Cod. ubicazione  |Quantità  |Importo costo (effettivo)  |Quantità fatturata  |Quantità residua  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -40,9 +34,9 @@ Esaminiamo questo processo con un esempio pratico. Supponiamo di avere un movime
 
 Di seguito sono riportate le voci di valore correlate:
 
-- La **registrazione n. 379** rappresenta la spedizione e ha la stessa data di registrazione della registrazione del libro mastro della voce madre.  
-- La **voce n. 381** rappresenta la fattura.  
-- La **registrazione n. 391** è un aggiustamento della registrazione del valore di fatturazione (registrazione n. 381 di cui sopra).  
+- La**registrazione n. 379** rappresenta la spedizione e ha la stessa data di registrazione della registrazione del libro mastro della voce madre.  
+- La**voce n. 381** rappresenta la fattura.  
+- La**registrazione n. 391** è un aggiustamento della registrazione del valore di fatturazione (registrazione n. 381 di cui sopra).  
 
 |Nr. movimento  |Nr. Articolo  |Data di registrazione  |Tipo mov. articolo  |Tipo movimento  |Nr. documento  |Nr. movimento cont. articolo  |Cod. ubicazione  |Quantità mov. contabili art.  |Quantità fatturata  |Importo costo (effettivo)  |Importo costo (previsto)  |Rettifica  |Movimento Collegato  |Codice origine  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|--------|---------|---------|---------|---------|
@@ -58,7 +52,7 @@ Per assegnare la data di registrazione per la **voce n. 391** sono stati applica
 
 Esaminiamo la vendita menzionata in precedenza aggiungendo il setup dell'intervallo di date di registrazione consentite.  
   
-#### <a name="inventory-periods"></a>Periodi di inventario
+#### Periodi di inventario
 
 |Data fine  |Name  |Chiuso  |
 |---------|---------|---------|
@@ -77,7 +71,7 @@ Esaminiamo la vendita menzionata in precedenza aggiungendo il setup dell'interva
 
 La prima data di pubblicazione consentita è il primo giorno del primo periodo aperto, che è il 1° settembre 2020.  
 
-#### <a name="general-ledger-setup"></a>Setup contabilità generale
+#### Setup contabilità generale
 
 |Campo|Valore  |
 |---------|---------|
@@ -99,19 +93,19 @@ La data di registrazione assegnata iniziale era il 6 settembre come illustrato n
 |381     |  A       |    2020-09-06     |    Vendite     | Costo diretto   | 103022        |319     | Blu        |  0       |-1        |-10       |    10     | No  |0      |       Vendite   |
 |391     |  A       |    **09-2020-10**     |    Vendite     | Costo diretto   | 103022        |319     | Blu        |  0       |0         |-1        |    0     |Sì   |    181   | INVTADJMT   |
 
-## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Problemi comuni con il lavoro batch "Regolare i costi - voci di articolo"
+## Problemi comuni con il lavoro batch "Regolare i costi - voci di articolo"
 
 Ci sono due scenari che il team di supporto incontra abbastanza frequentemente da giustificare i propri articoli sulla risoluzione dei problemi.
 
-### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Messaggio di errore: "La data di invio non rientra nel tuo range di date di invio consentite..."
+### Messaggio di errore: "La data di invio non rientra nel tuo range di date di invio consentite..."
 
 Se incontri questo errore, devi modificare le date per le quali l'utente è autorizzato a pubblicare voci. Per saperne di più, vedi [Messaggio di errore "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md).
 
-### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Data di registrazione sulla registrazione del valore di aggiustamento rispetto alla data di registrazione sulla registrazione che causa l'aggiustamento, come la rivalutazione o l'addebito di una voce
+### Data di registrazione sulla registrazione del valore di aggiustamento rispetto alla data di registrazione sulla registrazione che causa l'aggiustamento, come la rivalutazione o l'addebito di una voce
 
 Per saperne di più, vedere [Data di registrazione sulla registrazione del valore di aggiustamento rispetto alla registrazione di origine](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
 
 [Dettagli del design: Inventario dei costi](design-details-inventory-costing.md)  
 [Dettagli del design: Applicazione dell'articolo](design-details-item-application.md)  

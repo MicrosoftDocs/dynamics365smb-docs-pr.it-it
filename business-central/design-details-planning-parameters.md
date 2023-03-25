@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: planning, design
+ms.search.keywords: 'planning, design'
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131979"
 ---
-# <a name="design-details-planning-parameters"></a>Dettagli di progettazione: Parametri di pianificazione
+# Dettagli di progettazione: Parametri di pianificazione
 In questo argomento vengono descritti i diversi parametri di pianificazione che è possibile utilizzare in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La modalità in cui l'approvvigionamento degli articoli è controllato dal sistema di pianificazione è determinato da diverse impostazioni nella scheda articolo o della USK e da impostazioni in Setup manufacturing. Nella seguente tabella viene mostrato come vengono utilizzati questi parametri nella pianificazione.  
@@ -30,10 +24,10 @@ La modalità in cui l'approvvigionamento degli articoli è controllato dal siste
 |Modificare gli ordini di approvvigionamento|Quantità minima ordine<br /><br /> Quantità massima ordine<br /><br /> Molteplicità ordine|  
 |Delimitare l'articolo pianificato|Politica di produzione:<br /><br /> -   Prod. per Magazzino<br />-   Prod. su Ordine|  
 
-## <a name="define-if-the-item-will-be-planned"></a>Definire se l'articolo verrà pianificato  
+## Definire se l'articolo verrà pianificato  
 Per essere incluso nel processo di pianificazione, un articolo/USK deve disporre di un metodo di riordino, altrimenti deve essere pianificato manualmente, ad esempio utilizzando la funzionalità Pianificazione ordini.  
 
-## <a name="define-when-to-reorder"></a>Definire quando riordinare  
+## Definire quando riordinare  
 Le proposte di riordino vengono in genere rilasciate solo quando la quantità disponibile prevista è scesa o è inferiore a una quantità specificata. Questa quantità viene definita dal punto di riordino. In caso contrario, sarà uguale a zero. Zero può essere rettificato immettendo una scorta di sicurezza. Se l'utente ha definito un lead time di sicurezza, la proposta verrà consegnata nel periodo precedente alla data di scadenza richiesta.  
 
 Il campo **Intervallo di tempo** viene utilizzato dai criteri dei punti di riordino (**Qtà Riordino Fissa** e **Qtà Massima**), dove il livello del magazzino viene controllato dopo ogni intervallo di tempo. Il primo intervallo di tempo inizia con la data di inizio pianificazione.  
@@ -45,7 +39,7 @@ Il lead time di sicurezza predefinito, nella pagina **Setup manufacturing**, dev
 
 I seguenti tre campi aggiuntivi relativi al periodo di riordino giocano un ruolo nella definizione del momento in cui eseguire il riordino: **Periodo di riprogrammazione**, **Periodo di accumulo lotti** e **Periodo di stabilizzazione**. Per ulteriori informazioni, vedere [Ottimizzare il momento e la quantità di riordino](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Definire la quantità da riordinare  
+## Definire la quantità da riordinare  
 Se il sistema di pianificazione rileva la necessità di un riordino, il metodo di riordino selezionato viene utilizzato per determinare quando e quanto ordinare.  
 
 Indipendentemente dal metodo di riordino, il sistema di pianificazione in genere segue questa logica:  
@@ -58,7 +52,7 @@ Indipendentemente dal metodo di riordino, il sistema di pianificazione in genere
 
      I seguenti campi relativi al periodo di riordino giocano un ruolo nella definizione della quantità da riordinare: **Periodo di riprogrammazione**, **Periodo di accumulo lotti** e **Periodo di stabilizzazione**. Per ulteriori informazioni, vedere [Ottimizzare il momento e la quantità di riordino](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-### <a name="reordering-policies"></a>Metodi di riordino  
+### Metodi di riordino  
 I seguenti metodi di riordino influiscono sulla quantità da riordinare.  
 
 |Metodo di riordino|Descrizione|  
@@ -68,7 +62,7 @@ I seguenti metodi di riordino influiscono sulla quantità da riordinare.
 |**Ordine**|La quantità dell'ordine verrà calcolata per soddisfare ogni singolo evento di domanda e l'insieme di domanda e approvvigionamento rimarrà collegato fino all'esecuzione. Nessun parametro di pianificazione viene considerato.|  
 |**Lotto-per-Lotto**|La quantità viene calcolata per soddisfare la somma della domanda che arriva in scadenza nell'intervallo di tempo.|  
 
-##  <a name="optimize-when-and-how-much-to-reorder"></a>Ottimizzare il momento e la quantità di riordino  
+##  Ottimizzare il momento e la quantità di riordino  
 Per ottenere un piano di approvvigionamento razionale, un responsabile ottimizzerà i parametri di pianificazione per limitare i suggerimenti di ripianificazione, l'accumulo della domanda (quantità di riordino dinamica) o per evitare azioni di pianificazione non significative. I seguenti campi relativi al periodo di riordino aiutano a ottimizzare il riordino in termini di tempo e quantità.  
 
 |Campo|Descrizione|  
@@ -103,19 +97,19 @@ Negli esempi che seguono, le frecce nere rappresentano l'approvvigionamento (su)
 
 **Valori predefiniti:** il valore predefinito del campo **Intervallo di tempo** e i tre campi relativi al periodo di riordino sono vuoti. Per tutti i campi, a eccezione del campo **Periodo di stabilizzazione**, ciò significa 0D (zero giorni). Se il campo **Periodo di stabilizzazione** è vuoto, verrà utilizzato il valore globale nel campo **Periodo di stabilizzazione di default** della pagina **Setup manufacturing**.  
 
-## <a name="modify-the-supply-orders"></a>Modificare gli ordini di approvvigionamento  
+## Modificare gli ordini di approvvigionamento  
 Una volta che la quantità della proposta di ordine è stata calcolata, uno o più i modificatori di ordini possono rettificarla. Ad esempio, la quantità ordine massima è più grande o uguale alle quantità ordine minima , che è più grande o uguale al molteplicità ordine.  
 
 La quantità viene diminuita se supera la quantità massima ordine. Quindi, viene aumentata se è inferiore alla quantità minima ordine. Infine, viene arrotondato in modo che corrisponda a una molteplicità ordini specificata. Qualsiasi quantità residua utilizza le stesse rettifiche fino a che la domanda totale non è stata convertita nelle proposte di ordine.  
 
-## <a name="delimit-the-item"></a>Delimitare l'articolo  
+## Delimitare l'articolo  
 L'opzione **Politica di produzione** definisce quali ordini aggiuntivi saranno proposti dal calcolo MRP.  
 
 Se viene utilizzata l'opzione **Prod. per Magazzino**, gli ordini riguarderanno solo l'articolo in questione.  
 
 Se viene utilizzata l'opzione **Prod. su ordine**, il sistema di pianificazione analizzerà la DB di produzione dell'articolo e creerà delle proposte di ordine collegate aggiuntive per questi articoli di livello inferiore che sono definite anche come produzione su ordine. Questo processo continua fintanto che sono presenti articoli di tipo produzione su ordine nelle strutture DB decrescenti.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Usare codici di ultimo livello per gestire la domanda derivata
+## Usare codici di ultimo livello per gestire la domanda derivata
 
 Utilizzare i codici di ultimo livello per far avanzare la domanda derivata di componenti fino ai livelli inferiori della distinta base. Per una spiegazione più approfondita di questo concetto, vedere [Priorità articolo/Codice ultimo livello](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,11 +125,11 @@ In alternativa al calcolo automatico che viene effettuato in modo dinamico quand
 > [!NOTE]
 > Anche con il campo **Cod. ultimo livello dinamico** selezionato, i codici di ultimo livello degli articoli componenti non vengono modificati dinamicamente se una distinta base di produzione padre viene eliminata o impostata come non certificata. Ciò può causare difficoltà nell'aggiunta di nuovi articoli alla fine della struttura del prodotto poiché può risultare superato il numero massimo di codici di ultimo livello. Pertanto, per le strutture di prodotti di grandi dimensioni che raggiungono il limite dei codici di ultimo livello, è consigliabile eseguire frequentemente il processo batch **Calcolo cod. ultimo livello** per mantenere la struttura.  
 
-### <a name="optimize-low-level-code-calculation"></a>Ottimizzare il calcolo del codice di ultimo livello
+### Ottimizzare il calcolo del codice di ultimo livello
 
 Selezionare il campo **Ottimizza il calcolo del codice di ultimo livello** per specificare che si desidera utilizzare il nuovo metodo più veloce di calcolo del codice di ultimo livello. Si noti che il nuovo calcolo viene eseguito in modo diverso e il suo utilizzo potrebbe interrompere le estensioni che si basano sul metodo esistente. Il nuovo metodo di calcolo sostituirà il metodo attuale in una versione futura.
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)

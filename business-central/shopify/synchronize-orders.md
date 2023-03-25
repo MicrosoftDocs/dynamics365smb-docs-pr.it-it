@@ -4,22 +4,17 @@ description: Configura ed esegui l'importazione e l'elaborazione dell'ordine cli
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,
+ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802932"
 ---
-# <a name="synchronize-and-fulfill-sales-orders"></a>Sincronizzare ed evadere gli ordini cliente
+
+# Sincronizzare ed evadere gli ordini cliente
 
 Questo articolo descrive le impostazioni e i passaggi necessari da eseguire per sincronizzare ed evadere gli ordini cliente con Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Impostare l'importazione di ordini nella scheda del punto vendita Shopify
+## Impostare l'importazione di ordini nella scheda del punto vendita Shopify
 
 Immetti un **Codice valuta** se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDE[prod_short](../includes/prod_short.md)], lascia il campo vuoto. 
 
@@ -27,7 +22,7 @@ Puoi vedere la valuta del punto vendita nelle impostazioni [Dettagli punto vendi
 
 Un ordine Shopify regolare può includere importi extra al subtotale, come spese di spedizione o, se abilitate, mance. Questi importi vengono registrati direttamente nel conto C/G che si desidera usare per tipi di transazione specifici:
 
-* **Conto costo spedizione**
+* **Conto spese spedizione**
 * **Conto buono regalo venduto**, per ulteriori informazioni, vedi [Buono regalo](synchronize-orders.md#gift-cards)
 * **Conto mance**  
 
@@ -37,7 +32,7 @@ Il documento di vendita in[!INCLUDE[prod_short](../includes/prod_short.md)] cont
 
 Nel campo **Origine area fiscale**, definisci la priorità su come selezionare il codice area fiscale o il gruppo di registrazione attività IVA in base all'indirizzo. L'ordine Shopify importato contiene informazioni sulle tasse, ma le tasse vengono ricalcolate quando crei il documento di vendita, quindi è importante che le impostazioni tasse/aliquote siano corrette in [!INCLUDE[prod_short](../includes/prod_short.md)]. Per ulteriori informazioni sulle imposte, vedi [Impostare le imposte per la connessione Shopify](setup-taxes.md).
 
-### <a name="shipment-method-mapping"></a>Mapping metodo spedizione
+### Mapping metodo spedizione
 
 Il **Codice metodo di spedizione** per documenti di vendita importati da Shopify può essere compilato automaticamente. Devi configurare il **Mapping metodo di spedizione**.
 
@@ -50,7 +45,7 @@ Il **Codice metodo di spedizione** per documenti di vendita importati da Shopify
 > [!NOTE]  
 > Se più spese di spedizione sono associate a un ordine cliente; solo uno verrà selezionato come metodo di spedizione e assegnato al documento di vendita.
 
-### <a name="location-mapping"></a>Mapping della posizione
+### Mapping della posizione
 
 La mappatura dell'ubicazione è richiesta per tre scopi:
 
@@ -64,7 +59,7 @@ La mappatura dell'ubicazione è richiesta per tre scopi:
 4. Scegli l'azione **Recupera posizioni Shopify** per importare tutte le posizioni definite in Shopify. Puoi trovarli nelle impostazioni [**Posizioni**](https://www.shopify.com/admin/settings/locations) nel pannello **Amministratore Shopify**. Nota che la posizione contrassegnata come *Predefinito* verrà utilizzato durante l'importazione degli ordini Shopify inevasi.
 5. Inserisci il **Codice posizione predefinito** con la posizione corrispondente in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="run-the-order-synchronization"></a>Eseguire la sincronizzazione degli ordini
+## Eseguire la sincronizzazione degli ordini
 
 Di seguito viene descritto come importare e aggiornare gli ordini di vendita.
 
@@ -76,24 +71,28 @@ Di seguito viene descritto come importare e aggiornare gli ordini di vendita.
 3. Scegliere l'azione **Ordini**.
 4. Scegli l'azione **Sincronizza ordini da Shopify**.
 5. Definisci i filtri sugli ordini secondo necessità. Ad esempio, puoi importare ordini interamente pagati o quelli con un livello di rischio basso.
-6. Scegli il pulsante **OK**.
+
+> [!NOTE]  
+> Quando si filtra per tag, è necessario utilizzare token di filtro `@` e `*`. Ad esempio, se desideri importare ordini contenenti *tag1*, usa `@*tag1*`. `@` assicurerà che il risultato non sia sensibile alla differenza tra maiuscole e minuscole, mentre `*` troverà ordini con più tag.
+
+7. Scegli il pulsante **OK**.
 
 In alternativa, puoi cercare il processo batch **Sincronizza ordini da Shopify**.
 
 È possibile pianificare l'attività da eseguire in modo automatizzato. Ulteriori informazioni su [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
 
-## <a name="review-imported-orders"></a>Esaminare gli ordini importati
+## Esaminare gli ordini importati
 
 Una volta completata l'importazione, puoi esplorare l'ordine Shopify e trovare tutte le informazioni correlate, come transazioni di pagamento, costi di spedizione, livello di rischio, attributi e tag o adempimenti se l'ordine è stato già adempiuto in Shopify. Puoi anche vedere la conferma di ogni ordine inviata al cliente scegliendo l'azione **Pagina di stato Shopify**.
 
 > [!NOTE]  
 > Puoi accedere alla finestra **Ordini Shopify** direttamente e vedrai gli ordini con lo stato *aperto* di tutti i punti vendita Per rivedere gli ordini completati, è necessario aprire la pagina **Ordini Shopify** dalla specifica finestra **Scheda del punto vendita Shopify**.
 
-## <a name="create-sales-documents-in-business-central"></a>Creare documenti di vendita in Business Central
+## Creare documenti di vendita in Business Central
 
 Se l'opzione **Creazione automatica ordini** è abilitata nella **Scheda del punto vendita Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tenta di creare un documento di vendita una volta importato l'ordine. Se manca un cliente o un prodotto, dovrai risolvere il problema e quindi creare nuovamente l'ordine di vendita.
 
-### <a name="to-create-sales-documents"></a>Per creare i documenti di vendita
+### Per creare i documenti di vendita
 
 1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri sincronizzare gli ordini per l'apertura della pagina **Scheda del punto vendita Shopify**.
@@ -105,15 +104,15 @@ Se l'ordine Shopify richiede l'evasione, l'**Ordine di vendita** viene creato. P
 
 Viene ora creato un documento di vendita che può essere gestito utilizzando le funzionalità di [!INCLUDE[prod_short](../includes/prod_short.md)] standard.
 
-### <a name="manage-missing-customers"></a>Gestire i clienti mancanti
+### Gestire i clienti mancanti
 
 Se le tue impostazioni impediscono la creazione automatica di un cliente e non è possibile trovare un cliente esistente corretto, dovrai assegnare un cliente a un ordine Shopify manualmente. Questa operazione può essere effettuata in vari modi:
 
 * Puoi assegnare **Nr. cliente di vendita** e **Fatturare a - Nr. cli.** direttamente nella pagina **Ordini Shopify** scegliendo un cliente dall'elenco dei clienti esistenti.
-* È possibile selezionare un codice modello cliente, creare e assegnare il cliente tramite l'azione **Crea nuovo cliente** nella pagina **Ordini Shopify**.
+* È possibile selezionare un codice modello cliente, creare e assegnare il cliente tramite l'azione **Crea nuovo cliente** nella pagina **Ordini Shopify**. Si noti che il cliente Shopify deve avere almeno un indirizzo. Gli ordini creati tramite il canale di vendita POS Shopify spesso non contengono i dettagli dell'indirizzo.
 * È possibile mappare il cliente esistente al relativo **cliente Shopify** nella finestra **Clienti Shopify** e quindi scegliere l'azione **Trova mapping** nella pagina **Ordini Shopify**.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>In che modo il connettore sceglie quale cliente usare
+### In che modo il connettore sceglie quale cliente usare
 
 La funzione *Importa ordine da Shopify* cerca di selezionare i clienti nel seguente ordine:
 
@@ -129,7 +128,7 @@ I prossimi passaggi dipendono dal **Tipo di mapping cliente**.
 > [!NOTE]  
 > Il connettore utilizza le informazioni dall'indirizzo di fatturazione e crea il cliente di fatturazione in [!INCLUDE[prod_short](../includes/prod_short.md)]. Il cliente a cui vendere è lo stesso del cliente a cui fatturare.
 
-### <a name="impact-of-order-editing"></a>Impatto delle modifiche degli ordini
+### Impatto delle modifiche degli ordini
 
 In Shopify:
 
@@ -149,7 +148,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 |Cambia la riduzione quantità. Registra spedizione. | L'ordine in Shopify sarà contrassegnato come parzialmente evaso. |
 |Aggiungi un nuovo articolo. Registra spedizione. | L'ordine in Shopify sarà contrassegnato come evaso. Le righe non verranno aggiornate. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Sincronizzare le spedizioni con Shopify
+## Sincronizzare le spedizioni con Shopify
 
 Quando un ordine cliente creato da un ordine Shopify viene spedito, è possibile sincronizzare le spedizioni con Shopify.
 
@@ -167,7 +166,7 @@ In alternativa, utilizza l'azione **Sincronizza spedizioni** in Ordini di vendit
 
 Ricordati di eseguire **Sincronizza ordini da Shopify** per aggiornare lo stato di evasione di un ordine in [!INCLUDE[prod_short](../includes/prod_short.md)]. La funzionalità del connettore archivia anche gli ordini completamente pagati ed evasi in Shopify e [!INCLUDE[prod_short](../includes/prod_short.md)] purché le condizioni siano soddisfatte.
 
-### <a name="shipping-agents-and-tracking-url"></a>Agenti di spedizione e URL di tracciamento
+### Agenti di spedizione e URL di tracciamento
 
 Se il documento **Spedizione vendita registrate** contiene il **codice Spedizioniere** e/o il **Numero di tracciabilità del pacco**, queste informazioni saranno inviate a Shopify e al cliente nell'e-mail di conferma della spedizione.
 
@@ -179,7 +178,7 @@ La società di tracciamento viene popolata in base allo spedizioniere con le seg
 
 Se il campo **URL tracciabilità pacchetto** è compilato per il record dello spedizioniere, la conferma della spedizione conterrà anche un URL di tracciamento.
 
-## <a name="gift-cards"></a>Buoni regalo
+## Buoni regalo
 
 Nel punto vendita Shopify puoi vendere buoni regalo, che possono essere utilizzati per pagare prodotti reali.
 
@@ -187,6 +186,6 @@ Quando si tratta di buoni regalo, è importante inserire un valore nel campo **C
 
 Per rivedere i buoni regalo emessi e applicati, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Buoni regalo**, quindi scegli il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Iniziare a usare il connettore per Shopify](get-started.md)  

@@ -3,13 +3,8 @@ author: jill-kotel-andersson
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6e3a37322f10dd58581322bf057590edc853830f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135583"
 ---
+
 1. Scegli la ![lampadina che apre la funzione Dimmi 11](../media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , immetti **Clienti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Clienti** scegliere l'azione **Nuovo**.
 

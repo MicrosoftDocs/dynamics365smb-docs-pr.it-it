@@ -1,23 +1,17 @@
 ---
 title: Come impostare gli utenti del flusso di lavoro
-description: Prima di poter creare i flussi di lavoro, è necessario impostare gli utenti che parteciperanno nella pagina Gruppo di utenti del flusso di lavoro.
+description: 'Prima di poter creare i flussi di lavoro, è necessario impostare gli utenti che parteciperanno nella pagina Gruppo di utenti del flusso di lavoro.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: reject, delegate, request
+ms.search.keywords: 'reject, delegate, request'
 ms.search.form: 1533
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 4dbe4217720ddd0bfe976560331329537577cfeb
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585947"
 ---
-# <a name="set-up-workflow-users"></a>Impostare gli utenti del workflow
+# Impostare gli utenti del workflow
 
 Prima di poter creare i workflow di approvazione, è necessario impostare gli utenti che parteciperanno ai workflow. Questa operazione è essenziale per specificare, ad esempio, chi riceverà una notifica per agire in una fase del flusso di lavoro.  
 
@@ -28,7 +22,7 @@ Anche gli utenti del workflow che agiscono da utenti dell'approvazione, sia i ri
 > [!NOTE]  
 > Per definire che una richiesta di approvazione non venga approvata finché più utenti non la approvano, impostare i responsabili di approvazione in una gerarchia. Per il tipo **Responsabile approvazione**, impostare i responsabili approvazione nella pagina **Setup utente approvazione**. Per il tipo **Gruppo di utenti del workflow**, impostare i responsabili di approvazione nella pagina **Gruppi di utenti del workflow** e definire la gerarchia assegnando numeri incrementali a ogni responsabile nel campo **Nr. sequenza** . Ulteriori informazioni di seguito e in [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md). 
 
-## <a name="to-set-up-a-workflow-user"></a>Per impostare un utente del flusso di lavoro
+## Per impostare un utente del flusso di lavoro
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi di utenti del flusso di lavoro**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo**. Viene visualizzata la pagina **Gruppo di utenti del workflow**.  
@@ -47,9 +41,9 @@ Anche gli utenti del workflow che agiscono da utenti dell'approvazione, sia i ri
 6. Ripetere il passaggio 5 per aggiungere altri utenti del workflow nel gruppo di utenti.  
 7. Ripetere i passaggi da 2 a 6 per aggiungere altri gruppi di utenti del flusso di lavoro.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Configurare i flussi di lavoro di approvazione](across-set-up-workflows.md)  

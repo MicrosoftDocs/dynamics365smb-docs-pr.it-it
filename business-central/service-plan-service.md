@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, work hours, configure, price, pricing
+ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077556"
 ---
-# <a name="planning-services"></a>Pianificazione dei servizi
+# Pianificazione dei servizi
 Con [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce inoltre alcune statistiche che consentono di determinare la qualità dei servizi offerti e identificare le aree da migliorare.
@@ -31,7 +25,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |È possibile comprendere la relazione tra gli stati di una riparazione e l'effetto che hanno sulle risorse assegnate e viceversa.|[Informazioni su stato assegnazione e stato riparazione](service-allocation-status-and-repair-status.md)|  
 |Utilizzare le statistiche per analizzare i processi di assistenza. | [Visualizzazione delle statistiche relative all'assistenza:](service-service-statistics.md) |
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 [Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)  
 [Fornitura dell'assistenza](service-deliver-service.md)  
 [Impostare prezzi e costi aggiuntivi per i servizi assistenza](service-how-setup-service-costs-pricing.md)  

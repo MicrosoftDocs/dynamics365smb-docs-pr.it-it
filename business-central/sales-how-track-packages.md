@@ -4,22 +4,16 @@ description: Utilizza il servizio di tracciamento degli agenti di vendita su Int
 author: SorenGP
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 142, 800, 806
+ms.search.form: '142, 800, 806'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518941"
 ---
-# <a name="track-packages"></a>Rintracciare i colli
+# Rintracciare i colli
 La maggior parte degli spedizionieri fornisce un servizio web che ti consente di monitorare lo stato dei tuoi pacchi mentre sono in viaggio. Tali informazioni possono essere utili in molti processi aziendali, ad esempio, quando si fornisce il servizio clienti. Se si utilizzano uno o più spedizionieri, è possibile immettere alcune informazioni di base e quindi utilizzare il servizio di tracciabilità dei pacchi direttamente dalle pagine Spedizioni vendite registrate, Fatture di vendita registrate, Note di credito di vendita registrate e Ricevuta di reso registrata. Per ulteriori informazioni, vedere [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md). 
 
 La seguente procedura mostra come tenere traccia di un collo da una spedizione di vendita registrata, ma gli stessi passaggi valgono per abilitare il tracciamento del collo dalle pagine Fattura vendita registrata, Nota credito vendita registrata e Carico da reso registrato.  
 
-## <a name="to-track-a-package"></a>Per rintracciare un collo
+## Per rintracciare un collo
 
 > [!NOTE]
 > La procedura seguente utilizza la pagina Spedizione di vendite registrata come esempio. I passaggi per tenere traccia di un pacco sono gli stessi nelle pagine Fatture di vendita registrate, Note di credito di vendita registrate e Ricevuta di reso registrata.
@@ -30,7 +24,7 @@ La seguente procedura mostra come tenere traccia di un collo da una spedizione d
 4. Assicurati che lo spedizioniere e il livello di servizio siano corretti, quindi chiudi la pagina.
 5. Scegli l'azione **Traccia collo** per aprire il servizio di tracciabilità dei pacchi dello spedizioniere.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)  
 [Vendite](sales-manage-sales.md)  

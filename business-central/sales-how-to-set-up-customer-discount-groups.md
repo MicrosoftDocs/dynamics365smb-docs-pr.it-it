@@ -6,20 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 06/08/2022
 ms.author: a-reishima
-ms.openlocfilehash: fc2e5af5792a4c212c56b2e8a8a28b3b48ecff33
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950524"
 ---
-# <a name="set-up-customer-discount-groups"></a>Impostare le categorie sconto clienti
+# Impostare le categorie sconto clienti
 
 È possibile definire gli sconti riga di vendita per un gruppo di clienti invece di applicarli singolarmente.
 
 Le **categorie sconto clienti** lavorano in modo simile ai [gruppi di prezzi clienti](sales-how-to-set-up-customer-price-groups.md) ma possono essere combinate con le categorie sconto articoli per impostare rapidamente sconti riga su molti articoli per clienti selezionati.
 
-## <a name="create-sales-line-discounts-for-a-customer-group"></a>Creare righe sconto di vendita per un gruppo di clienti
+## Creare righe sconto di vendita per un gruppo di clienti
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , immetti **Gruppi sconto cliente** e poi scegliere il link relativo.
 2. Sulla pagina **Gruppi sconto cliente** seleziona **Nuovo** per creare un nuovo gruppo di sconti e assegnagli un nome sotto la colonna **Codice** e aggiungi una descrizione.
@@ -32,7 +26,7 @@ Le **categorie sconto clienti** lavorano in modo simile ai [gruppi di prezzi cli
 
 Ripetere i passaggi da 4 a 8 per ciascun articolo o gruppo di sconti articolo per cui vuoi creare uno sconto riga vendita.
 
-## <a name="assign-a-customer-to-a-discount-group"></a>Assegnare un cliente a un gruppo di sconti
+## Assegnare un cliente a un gruppo di sconti
 
 Dopo aver impostato i gruppi di sconti cliente, puoi inserire i codici dei gruppi di sconti cliente sulle schede clienti.
 
@@ -40,7 +34,7 @@ Dopo aver impostato i gruppi di sconti cliente, puoi inserire i codici dei grupp
 2. Aprite la **scheda cliente** per un cliente che deve far parte di un gruppo di sconti cliente.
 3. Nella scheda dettaglio **Fatturazione**, nel campo **Gruppo sconti cliente**, seleziona il codice gruppo.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

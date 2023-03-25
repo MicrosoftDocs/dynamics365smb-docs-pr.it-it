@@ -1,29 +1,23 @@
 ---
 title: Mapping dei campi durante l'importazione dei file SEPA CAMT | Microsoft Docs
 description: Nei mercati europei è possibile importare i file del rendiconto bancario negli standard SEPA (Single Euro Payments Area) locali.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: db90358fcca87bc7217d48efa7577e8d4a835c58
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521360"
+ms.date: 01/06/2023
+ms.custom: bap-template
 ---
-# <a name="field-mapping-when-importing-sepa-camt-files"></a>Mapping dei campi durante l'importazione dei file SEPA CAMT
+# Mapping dei campi durante l'importazione dei file SEPA CAMT
+
 La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta gli standard SEPA (Single Euro Payments Area)per l'importazione dei rendiconti bancari SEPA (formato CAMT). Per ulteriori informazioni, vedi [Usare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
  Lo standard SEPA CAMT include di per sé variazioni locali. Di conseguenza, è possibile che si debba modificare la definizione di scambio dati generica (rappresentata dal codice **SEPA CAMT** nella pagina **Registrazione definizioni di scambio**) per adattarla a una variazione locale dello standard. Nelle seguenti tabelle viene mostrato il mapping tra elementi e campi per le tabelle 81, 273 e 274 nell'implementazione SEPA CAMT in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Per informazioni sulla creazione o la modifica della definizione di scambio dati, vedere [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>Mapping dei dati CAMT ai campi nella tabella Contabilità generale (81)  
+## Mapping dei dati CAMT ai campi nella tabella Contabilità generale (81)  
 
 |Percorso dell'articolo|Elemento messaggio|Tipo di dati|Descrizione|Identificatore segno negativo|Nr. campo|Nome campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -35,14 +29,14 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Non strutturato|Testo|Informazioni fornite per consentire la corrispondenza o riconciliazione di un movimento con gli articoli oggetto del pagamento, come le fatture aziendali in un sistema conto clienti, in un form non strutturato||8|Descrizione|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Testo|Informazioni aggiuntive relative al movimento||1222|Informazioni sulla transazione|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>Mapping dei dati CAMT ai campi nella tabella Riconc. C/C bancari (273)  
+## Mapping dei dati CAMT ai campi nella tabella Riconc. C/C bancari (273)  
 
 |Percorso dell'articolo|Elemento messaggio|Tipo di dati|Descrizione|Identificatore segno negativo|Nr. campo|Nome campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Data|Data e ora di creazione del messaggio||3|Data estratto conto|  
 |Stmt/Bal/Amt|Importo|Decimale|Importo risultante dagli importi al netto per tutti i movimenti dare e avere||4|Saldo finale estratto conto|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>Mapping dei dati CAMT ai campi nella tabella Righe riconc. C/C bancari (274)  
+## Mapping dei dati CAMT ai campi nella tabella Righe riconc. C/C bancari (274)  
 
 |Percorso dell'articolo|Elemento messaggio|Tipo di dati|Descrizione|Identificatore segno negativo|Nr. campo|Nome campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -61,10 +55,11 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
 > [!IMPORTANT]
 > In un'importazione di estratti conto bancari CAMT, [!INCLUDE[prod_short](includes/prod_short.md)] si aspetta che ogni transazione sia univoca, ossia il campo **ID transazione** che proviene dal tag *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* nel file CAMT, deve essere univoco all'interno della riconciliazione del C/C bancario aperto. Se le informazioni non sono presenti, [!INCLUDE[prod_short](includes/prod_short.md)] ignora il pagamento. Se una riconciliazione bancaria precedente sullo stesso C/C bancario è stata registrata con lo stesso ID transazione dell'importazione corrente, la transazione corrente non verrà riconciliata automaticamente ma potrà comunque essere importata.
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
+
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
-[Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
+[Usare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)  
 

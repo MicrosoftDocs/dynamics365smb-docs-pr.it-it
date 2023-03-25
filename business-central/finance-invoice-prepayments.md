@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
+ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: c39d5e0462c9fb4563e9f481256c916f0b9c397e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535211"
 ---
-# <a name="invoicing-prepayments"></a>Fatturazione dei pagamenti anticipati
+# Fatturazione dei pagamenti anticipati
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -35,9 +29,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Creare un ordine, rettificare gli importi di pagamento anticipato ed emettere una fattura per gli importi di pagamento anticipato.|[Creare fatture per i pagamenti anticipati](finance-how-to-create-prepayment-invoices.md)|  
 |Emettere una fattura di pagamento anticipato supplementare, per articoli aggiuntivi o per un deposito aggiuntivo rispetto all'ordine originale, oppure emettere una nota di credito di pagamento anticipato.|[Rettificare i pagamenti anticipati](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanze](finance.md)  

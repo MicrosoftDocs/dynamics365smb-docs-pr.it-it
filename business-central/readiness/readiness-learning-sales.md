@@ -5,20 +5,15 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 60fc44ff10b762c3cba9bbae2447982214b34e24
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535130"
 ---
-# <a name="partner-sales-and-marketing-learning-catalog"></a>Catalogo per l'apprendimento per vendite e marketing partner
+
+# Catalogo per l'apprendimento per vendite e marketing partner
 
 Si ha la responsabilità di fornire ai clienti aiuto nell'acquisto della soluzione giusta?
 
 Il seguente catalogo è organizzato a partire dalle informazioni di base fino a domini specifici, dai contenuti di base, fino a quelli più avanzati. Se il contenuto è disponibile in più formati, verrà notificato, così da poter scegliere il formato di formazione più adatto alle proprie esigenze.  
 
-## <a name="business-value"></a>Valore aziendale<a name="busvalue"></a>
+## Valore aziendale<a name="busvalue"></a>
 
 | Contenuto     | Descrizione    | Formato                                | Lunghezza              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -26,7 +21,7 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 | [Scopri le funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Scopri le funzionalità di Dynamics 365 Business Central    | Sito Web    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Questo modulo mostra le funzionalità dell'applicazione, vantaggi ed esempi di Dynamics 365 Business Central in azione.    | Percorso di apprendimento online gratuito e personalizzato | 24 minuti          |
 
-## <a name="getting-started"></a>Introduzione<a name="get-started"></a>
+## Introduzione<a name="get-started"></a>
 
 | Contenuto   | Descrizione   | Formato                                | Lunghezza              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -35,7 +30,7 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 | [Utilizzare i dati di Business Central a livello professionale](/training/paths/work-pro-data-dynamics-365-business-central) | Si è appena iniziato a utilizzare Business Central? Questo percorso di apprendimento è utile per prepararsi a utilizzare i tipi di dati in Business Central e scoprire come trovare le informazioni necessarie nell'applicazione.      | Percorso di apprendimento online gratuito e personalizzato | 2 ore e 27 minuti  |
 | [Playlist YouTube per Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | Pagina di destinazione YouTube per video su Dynamics 365 Business Central  | Video YouTube  |                     |
 
-## <a name="grow-your-business"></a>Fare crescere la propria attività<a name="grow"></a>
+## Fare crescere la propria attività<a name="grow"></a>
 
 | Contenuto   | Descrizione        | Formato                                | Lunghezza                |
 |-----------|--------------------|---------------------------------------|-----------------------|
@@ -45,6 +40,6 @@ Il seguente catalogo è organizzato a partire dalle informazioni di base fino a 
 | [Programma Cloud Solution Provider - Vendita di soluzioni cloud nella domanda](/partner-center/csp-overview)  | Il programma Cloud Solution Provider (CSP) consente di andare oltre la rivendita delle licenze ed avere un maggiore coinvolgimento nell'attività dei clienti.   | Sito Web      |                       |
 | [Programma Cloud Solution Provider - Confrontare i programmi di supporto per i partner](https://partner.microsoft.com/support/partnersupport) | Guardare questo video per scoprire come scegliere il piano di supporto per i partner adatto alla propria attività. È quindi disponibile un confronto tra i vari piani.    | Sito Web                               |                       |
 | [Vendita accelerata Cloud SureStep](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Solo per i partner) Il processo di vendita accelerata Cloud SureStep si basa sulle esigenze dell'acquirente moderno e mira a generare un punto di informazioni strategico emotivo e orientato all'esperienza nelle prime fasi del processo di vendita. Questa serie di video e risorse illustra un processo di vendita prescrittivo specificamente progettato per contrastare il tradizionale approccio di vendita di soluzioni "basato su demo" ad alto utilizzo delle risorse, che in genere porta a dimostrazioni sul prodotto personalizzate, cicli di vendita complessi e lunghi progetti di implementazione. La libreria di risorse include una serie di modelli personalizzabili che consentono di creare il proprio set di risorse di vendita a supporto della vendita accelerata. | Sito Web     |                       |
-| [Supplemento al Transition Partner Playbook (luglio 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Questo supplemento al playbook Transition Partner fornisce alcune linee guida aggiornate e nuove ai partner per proteggere la loro base di clienti esistente dalla concorrenza e dai nuovi partecipanti SaaS.  | Presentazione di PowerPoint | 15 diapositive |
+| [Supplemento al Transition Partner Playbook (luglio 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Questo supplemento al playbook Transition Partner fornisce alcune linee guida aggiornate e nuove ai partner per proteggere la loro base di clienti esistente dalla concorrenza e dai nuovi partecipanti SaaS.  | Presentazione di PowerPoint | 15 diapositive |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

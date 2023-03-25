@@ -1,22 +1,16 @@
 ---
-title: Configurare la tracciabilità di articoli con numeri di serie, di lotto e di pacco
-description: Configura la tracciabilità di articoli con numeri di serie, di lotto e di pacco
+title: 'Configurare la tracciabilità di articoli con numeri di serie, di lotto e di pacco'
+description: 'Configura la tracciabilità di articoli con numeri di serie, di lotto e di pacco'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: c298903d62da4cfd346a46ff1978ab91644fb13f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533269"
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configurare la tracciabilità di articoli con numeri di serie, di lotto e di pacco
+# Configurare la tracciabilità di articoli con numeri di serie, di lotto e di pacco
 
 Tieni traccia degli articoli di magazzino anche in configurazioni di magazzino complesse con numeri specifici per ogni articolo, sia come singolo oggetto, come lotto o come pacchetto. Con la tracciabilità degli articoli, è possibile tracciare gli articoli nei movimenti del magazzino interno e nei documenti in uscita e in entrata.
 
@@ -25,13 +19,13 @@ Gli articoli con numeri seriali e di lotto che possono essere analizzati sia in 
 > [!TIP]
 > Nel primo ciclo di rilascio del 2021 e in quelli successivi, attiva l'aggiornamento della funzionalità *Utilizzare la tracciabilità per numero di collo nel sistema di prenotazione e tracciabilità* se desideri lavorare con i numeri di pacchetto, nonché con i numeri di serie e di lotto. Per ulteriori informazioni, vedi [Abilitazione di funzionalità imminenti in anticipo](admin-feature-management.md). Una volta attivata la funzione, puoi assegnare i numeri di pacchetto ai documenti in uscita e in entrata in modo simile a come puoi lavorare con i numeri di lotto.  
 
-## <a name="numbers-and-item-tracking"></a>Numeri e tracciabilità degli articoli
+## Numeri e tracciabilità degli articoli
 
 Come parte dei processi di magazzino, puoi raggruppare le scorte in pacchi, scatole, contenitori e così via. Ma per tenere traccia degli articoli, assegni numeri univoci come identificazione. Ad esempio, produci e vendi una sedia con il numero articolo *1.900-S*. Ogni singola sedia ha un numero di serie, *1.001*, ma raccogli anche quattro sedie in un lotto, *LOT0001* e spedisci le sedie in un contenitore con il numero del pacco *CONTENITORE010* che include anche altri elementi, come *LOT0100* con tavolini e *LOTTO200* con lampade.  
 
 A seconda della configurazione, utilizzi questi numeri diversi per tenere traccia del magazzino in [!INCLUDE [prod_short](includes/prod_short.md)] nelle varie fasi di acquisto, vendita, operazioni di magazzino e così via.
 
-## <a name="to-set-up-item-tracking-codes"></a>Per impostare i codici di tracciabilità articolo
+## Per impostare i codici di tracciabilità articolo
 
 Un codice di tracciabilità articolo riflette i diversi criteri che una società può seguire nell'uso dei numeri seriali e di lotto degli articoli spostati all'interno di un magazzino.  
 
@@ -48,7 +42,7 @@ Poiché questo specifico campo di setup copre tutte le possibili transazioni ese
 > [!NOTE]  
 >  Per assegnare i numeri di tracciabilità articolo nelle attività di warehouse, i campi **Tracciab. NS in warehouse** e **Tracciab. lotto in warehouse** devono essere selezionate nella scheda del codice di tracciabilità articolo.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Per impostare le regole di scadenza per i numeri seriali e di lotto
+## Per impostare le regole di scadenza per i numeri seriali e di lotto
 
 Per alcuni articoli potrebbe essere necessario impostare date e regole di scadenza specifiche nel codice di tracciabilità articolo. Questa funzionalità consente di tenere traccia della scadenza di determinati numeri seriali e di lotto.
 
@@ -62,7 +56,7 @@ Per alcuni articoli potrebbe essere necessario impostare date e regole di scaden
     |**Richiedi inserimento data di scadenza**|Specifica che è necessario immettere una data di scadenza nella riga di tracciabilità articolo.|  
     |**Usa date di scadenza**|Specifica che si intendono calcolare date di scadenza. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Per impostare le garanzie per i numeri seriali o di lotto
+## Per impostare le garanzie per i numeri seriali o di lotto
 
 Per alcuni articoli potrebbe essere necessario impostare garanzie specifiche nel codice di tracciabilità articolo. Questa funzionalità consente di tenere traccia della scadenza delle garanzie per determinati numeri seriali o di lotto presenti in magazzino.  
 
@@ -76,7 +70,7 @@ Per alcuni articoli potrebbe essere necessario impostare garanzie specifiche nel
     |**Richiedi inserimento data garanzia**|Specifica che è necessario immettere manualmente una data di garanzia nella riga di tracciabilità articolo.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>Per impostare gli articoli per la tracciabilità con i codici di tracciabilità articolo corretti
+## Per impostare gli articoli per la tracciabilità con i codici di tracciabilità articolo corretti
 
 Per abilitare la tracciabilità degli articoli devi prima assegnare i codici di tracciabilità articolo a un articolo. Esistono due modi per aggiungere codici di tracciabilità articolo: selezionando il codice in un elenco predefinito o assegnando un nuovo codice univoco. Passa con il mouse sui campi per visualizzare una breve descrizione.
 
@@ -85,9 +79,9 @@ Per abilitare la tracciabilità degli articoli devi prima assegnare i codici di 
 3. Nella Scheda dettaglio **Tracciabilità articolo**, assegna i codici di tracciabilità articolo appropriati e specifica dei valori nei campi **Codice tracciabilità articolo**, **Nr. seriali** e **Nr. lotti**.
     1. In alternativa puoi anche creare un nuovo codice di tracciabilità articolo selezionando l'azione **Nuovo**.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
+## Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare i numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
 [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  

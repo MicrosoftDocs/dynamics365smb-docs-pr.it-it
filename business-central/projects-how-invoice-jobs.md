@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.search.form: 1002, 1007,
+ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 027a79180dbc8a1a9ea53da9548d2b39a1852cdc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533537"
 ---
-# <a name="invoice-jobs"></a>Fatturazione di commesse
+# Fatturazione di commesse
 
 Durante il progetto, è possibile che si accumulino i costi di commessa derivanti dall'utilizzo delle risorse, dai materiali e dagli acquisti correlati alla commessa. A seconda dello stato di avanzamento della commessa, tali transazioni vengono inserite nelle registrazioni commesse. È importante registrare tutti i costi prima di fatturare al cliente.
 
@@ -31,7 +25,7 @@ Durante il progetto, è possibile che si accumulino i costi di commessa derivant
 
 Puoi anche fatturare una società che non è il cliente finale. A volte la parte a cui è rivolto un progetto è diversa dalla parte che paga il conto. Nella pagina **Processi** è possibile specificare il cliente che beneficerà del progetto nei campi **Vendere a** e la parte che fattura nei campi **Fatturare a**. 
 
-## <a name="to-create-multiple-job-sales-invoices"></a>Per creare più fatture di vendita commesse
+## Per creare più fatture di vendita commesse
 
 È possibile creare una fattura per una commessa o per uno o più task commessa per un cliente al completamento del lavoro da fatturare o al raggiungimento della data per la fatturazione in base a una programmazione di fatturazione.
 
@@ -47,7 +41,7 @@ Nella procedura che segue viene mostrato come utilizzare un processo batch per f
 > [!NOTE]
 > In alternativa, fatturare a un cliente selezionando la commessa, quindi scegliendo l'azione **Crea fattura vendita per commessa**. 
 
-## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Per creare e registrare una fattura di vendita commessa dalle righe di pianificazione commessa
+## Per creare e registrare una fattura di vendita commessa dalle righe di pianificazione commessa
 
 È possibile creare una fattura da righe di pianificazione commessa e indicare in quella occasione la quantità dell'articolo, la risorsa o il conto di contabilità generale che si desidera fatturare.
 
@@ -66,9 +60,9 @@ Nella procedura che segue viene mostrato come utilizzare un processo batch per f
 > [!NOTE]  
 >   La procedura sopra riportata è simile per la creazione, la revisione e la registrazione di una nota di credito di vendita correlata a una commessa.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/post-job-usage-sales/)
+## Vedi il relativo [training Microsoft](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione di progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  

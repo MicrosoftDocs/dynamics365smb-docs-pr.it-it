@@ -6,23 +6,17 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511894"
 ---
-# <a name="closing-the-books"></a>Chiusura dei registri
+# Chiusura dei registri
 Dopo avere verificato che tutti i conti sono aggiornati e assegnato costi ed entrate, è possibile chiudere i registri per un anno fiscale o un periodo.
 
 Non è obbligatorio chiudere un anno, ma se si esegue questa operazione è più semplice lavorare con il programma in quanto è possibile utilizzare le comode opzioni di filtro fornite. Non è inoltre necessario preoccuparsi di perdere i dettagli relativi alle transazioni, in quanto tali dettagli vengono conservati anche dopo la chiusura dell'anno.
 
-## <a name="closing-book-process"></a>Processo di chiusura dei libri
+## Processo di chiusura dei libri
 Il processo di chiusura dei libri include le seguenti attività principali:
 
 1. Chiusura del periodo contabile.
@@ -44,14 +38,14 @@ Il processo di chiusura dei libri include le seguenti attività principali:
 
     Per ulteriori informazioni, vedere [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Cosa accade alla chiusura
+## Cosa accade alla chiusura
 Quando si effettua la chiusura alla fine dell'anno, gli utili calcolati vengono spostati in un conto profitti/perdite. L'anno fiscale viene inoltre contrassegnato come "chiuso," e tutti i movimenti successivi per l'anno chiuso vengono contrassegnati come "movimenti dell'anno precedente".
 
 Viene quindi generato un movimento di chiusura, che non viene però registrato automaticamente. È possibile creare il movimento o i movimenti conti patrimonio netto di compensazione, per stabilire come assegnare il movimento di chiusura. Se, ad esempio, nella società sono presenti più divisioni, è possibile fare in modo che venga generato un singolo movimento di chiusura per tutte le divisioni, quindi creare un movimento di compensazione per il conto patrimonio netto di ogni divisione.
 
 È possibile effettuare registrazioni in un anno fiscale precedente, anche dopo la chiusura dei conti economici, se, successivamente, si esegue di nuovo il processo batch Chiudi conto economico.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

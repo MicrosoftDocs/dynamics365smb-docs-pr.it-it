@@ -1,29 +1,23 @@
 ---
 title: Archiviare documenti di vendita e acquisto
-description: Puoi archiviare ordini di vendita e di acquisto, offerte, ordini di reso e ordini programmati e ripristinare gli originali se necessario.
+description: 'Puoi archiviare ordini di vendita e di acquisto, offerte, ordini di reso e ordini programmati e ripristinare gli originali se necessario.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.date: 03/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: c81248844f603f80304822c0ce089c666f9be9bc
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950331"
 ---
-# <a name="archive-documents"></a>Archiviare documenti
+# Archiviare documenti
 È possibile archiviare ordini di vendita e di acquisto, offerte, ordini di reso e ordini programmati. L'archiviazione dei documenti consente di ripristinare l'originale, se necessario. È possibile archiviare documento di acquisto o vendita più di uno volta, salvando ogni volta una versione archiviata diversa.
 
 Per i documenti di vendita archiviati di cui l'originale esiste ancora e non è registrato, puoi utilizzare l'azione **Ripristina** per sovrascrivere il documento corrente con la versione archiviata. 
 
 Per i documenti archiviati di cui l'originale è stato eliminato, è possibile riutilizzare il contenuto solo copiando i dati, ad esempio con l'azione **Copia da documento**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Per impostare l'archiviazione automatica dei documenti
+## Per impostare l'archiviazione automatica dei documenti
 
 È possibile impostare l'archiviazione automatica di documenti di vendita e di acquisto, offerte, ordini programmati e ordini di reso. Quando l'archiviazione automatica è attiva, viene creata una nuova versione del documento archiviato quando qualcuno esegue le seguenti operazioni:
 
@@ -45,7 +39,7 @@ Nella seguente tabella vengono illustrate le opzioni per il campo **Archivia off
 |**Domanda**|Chiedi all'utente di scegliere se archiviare le offerte di vendita quando vengono eliminate.|
 |**Sempre**|Archivia automaticamente le offerte di vendita quando vengono eliminate.|
 
-## <a name="to-archive-a-sales-order"></a>Per archiviare un ordine di vendita
+## Per archiviare un ordine di vendita
 
 Di seguito viene descritto come archiviare un ordine di vendita. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
 
@@ -55,7 +49,7 @@ Di seguito viene descritto come archiviare un ordine di vendita. I passaggi sono
 
 L'ordine di vendita è archiviato. È possibile visualizzarlo nella pagina **Ordine vendite archiviato**.
 
-## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Per ripristinare un ordine di vendita non registrato dall'archivio
+## Per ripristinare un ordine di vendita non registrato dall'archivio
 
 Di seguito viene descritto come ripristinare un ordine di vendita archiviato nell'ordine di vendita originale. Il ripristino di un documento è possibile soltanto quando il documento originale non è stato registrato. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
 
@@ -64,7 +58,7 @@ Di seguito viene descritto come ripristinare un ordine di vendita archiviato nel
 
 Il contenuto dell'ordine di vendita originale viene sostituito con quello della versione archiviata.
 
-## <a name="to-delete-archived-sales-orders"></a>Per eliminare ordini di vendita archiviati
+## Per eliminare ordini di vendita archiviati
 
 Di seguito viene descritto come eliminare ordini di vendita archiviati. I passaggi sono simili per altri altri documenti di acquisto e vendita archiviati.
 
@@ -72,7 +66,7 @@ Di seguito viene descritto come eliminare ordini di vendita archiviati. I passag
 2. Scegli l'azione **Elimina versioni precedenti**, e poi, nella pagina **Elimina versioni ordine vendita archiviate**, seleziona i filtri appropriati.  
 3. Scegliere il pulsante **OK**.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Tenere traccia delle righe dei documenti](across-how-to-track-document-lines.md)  
 [Vendite](sales-manage-sales.md)  

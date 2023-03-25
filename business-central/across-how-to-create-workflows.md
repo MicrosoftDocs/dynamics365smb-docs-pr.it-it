@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9763258"
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Creare flussi di lavoro per connettere nei processi aziendali
+# Creare flussi di lavoro per connettere nei processi aziendali
 
 Puoi creare flussi di lavoro che collegano attività nei processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro.  
 
@@ -47,7 +41,7 @@ Il flusso di lavoro è diviso in tre sezioni:
 
 Sia per gli eventi che per le risposte, le opzioni sono definite dal sistema. Le nuove devono essere aggiunte attraverso lo sviluppo di un'estensione.
 
-## <a name="to-create-a-workflow"></a>Per creare un flusso di lavoro
+## Per creare un flusso di lavoro
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo**. Verrà aperta la pagina **Workflow**.  
@@ -117,7 +111,7 @@ Sia per gli eventi che per le risposte, le opzioni sono definite dal sistema. Le
 > [!TIP]  
 > Per vedere le relazioni tra le tabelle utilizzate nei flussi di lavoro, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Workflow - Relazioni tabella**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Esempio di creazione di un nuovo flusso di lavoro utilizzando eventi esistenti
+## Esempio di creazione di un nuovo flusso di lavoro utilizzando eventi esistenti
 
 Nell'esempio seguente viene eseguito un nuovo flusso di lavoro per approvare le modifiche al nome di un fornitore esistente:
 
@@ -176,9 +170,9 @@ La seguente illustrazione fornisce una panoramica del risultato di questa proced
 
 Successivamente, dovrai testare il flusso di lavoro aprendo una scheda fornitore esistente e modificando il nome. Verifica che venga inviata una richiesta di approvazione dopo la modifica del nome del fornitore.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md)  
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  

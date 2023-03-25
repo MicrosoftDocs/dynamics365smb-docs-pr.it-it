@@ -1,23 +1,17 @@
 ---
 title: Creare e modificare layout personalizzati per report e documenti
-description: Informazioni su come creare i layout personalizzati che consentono di modificare l'aspetto del report quando viene visualizzato, stampato o salvato.
+description: 'Informazioni su come creare i layout personalizzati che consentono di modificare l''aspetto del report quando viene visualizzato, stampato o salvato.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604779"
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Creare e modificare layout di report personalizzati
+# (Legacy) Creare e modificare layout di report personalizzati
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -35,7 +29,7 @@ Dopo aver definito i layout di report personalizzati, è possibile selezionarli 
 
 Puoi utilizzare i layout personalizzati anche per aggiungere contenuti ai messaggi di posta elettronica. I layout dei report possono far risparmiare tempo e contribuire a garantire la coerenza riutilizzando lo stesso contenuto quando comunichi con i clienti. Per utilizzare i layout di report personalizzati con e-mail, il tipo di file per il layout deve essere Word, non puoi usare il tipo di file RDLC. Per ulteriori informazioni, vedi [Impostare testi e-mail riutilizzabili e layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Creare un layout personalizzato
+## Creare un layout personalizzato
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
 
@@ -60,11 +54,11 @@ Il layout personalizzato è stato creato e puoi modificarlo a tuo piacimento.
 > [!TIP]
 > Puoi esportare i risultati del report in un file Microsoft Excel per visualizzare l'intero set di dati, comprese tutte le colonne, ma senza layout. Il file Excel può aiutarti a verificare che il report restituisca i dati previsti o diagnosticare i problemi. Per informazioni, vedi [Analisi dei dati del report con Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modifica di un layout personalizzato
+## <a name="ModifyCustomLayout"></a>Modifica di un layout personalizzato
 
 Per modificare un layout di report personalizzato, è necessario prima esportare il layout di report come file in un percorso sul computer o sulla rete. Quindi, apri il documento esportato e apporta le modifiche. Quando sono state apportate tutte le modifiche, importa il layout di report.
 
-### <a name="modify-a-custom-layout"></a>Modificare un layout personalizzato
+### Modificare un layout personalizzato
 
 1. Esporta un layout personalizzato dalla pagina **Layout report personalizzati**. Se la pagina non è già aperta, cerca e apri la pagina **Selezione layout report**, seleziona il report che ha il layout da modificare, quindi scegli l'azione **Layout personalizzati**.  
 2. Nella pagina **Layout report personalizzati**, seleziona il layout che si desidera modificare, scegli l'azione **Esporta layout** e quindi scegli **Salva** o **Salva con nome** per salvare il documento di layout nel computer o in una rete.  
@@ -117,9 +111,9 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md)  

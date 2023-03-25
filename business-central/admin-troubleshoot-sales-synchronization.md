@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: a7490c896daabd05ef0b0bb7d125e15963d83320
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381488"
 ---
-# <a name="troubleshooting-synchronization-errors"></a>Risoluzione dei problemi relativi agli errori di sincronizzazione
+# Risoluzione dei problemi relativi agli errori di sincronizzazione
 
 
 Ci sono molte parti mobili coinvolte nell'integrazione di [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[prod_short](includes/cds_long_md.md)] e a volte le cose vanno male. Questo argomento evidenzia alcuni degli errori tipici che si verificano e fornisce alcuni suggerimenti su come risolverli.
@@ -35,10 +29,10 @@ La tabella seguente fornisce esempi di problemi tipici:
 Di seguito sono riportati alcuni strumenti nella pagina Errori di sincronizzazione di integrazione che possono aiutarti a risolvere manualmente questi problemi.  
 
 * I campi **Origine** e **Destinazione** possono contenere collegamenti alla riga in cui è stato trovato l'errore. Fare clic sul collegamento per indagare sull'errore.  
-* Le azioni **Elimina movimenti risalenti a più di 7 giorni prima** e **Elimina tutti i movimenti** puliranno l'elenco. In genere, si utilizzano queste azioni dopo aver risolto la causa di un errore che interessa molti record. Tuttavia, prestare attenzione. Queste azioni potrebbero eliminare errori che sono ancora rilevanti.
+* Le azioni **Elimina movimenti risalenti a più di 7 giorni prima**e **Elimina tutti i movimenti** puliranno l'elenco. In genere, si utilizzano queste azioni dopo aver risolto la causa di un errore che interessa molti record. Tuttavia, prestare attenzione. Queste azioni potrebbero eliminare errori che sono ancora rilevanti.
 * L'azione **Mostra stack di chiamate errore** mostra informazioni che possono aiutare a identificare la causa dell'errore. Se non riesci a risolvere l'errore da solo e decidi di inviare una richiesta di supporto, includi le informazioni nella richiesta di supporto.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Integrazione con Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Impostazione di account utente per l'integrazione con Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
 [Impostare una connessione a Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  

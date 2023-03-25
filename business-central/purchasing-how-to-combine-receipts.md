@@ -1,23 +1,17 @@
 ---
 title: Combinare i carichi in una singola fattura
-description: Se si desidera fatturare più di un carico di acquisto per volta, utilizzare la funzione Cumula carichi.
+description: 'Se si desidera fatturare più di un carico di acquisto per volta, utilizzare la funzione Cumula carichi.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 136, 145, 146, 9308
+ms.search.keywords: null
+ms.search.form: '136, 145, 146, 9308'
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: dc1fa2e308ce0920815a5766d4e077a2eb0ce62a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534536"
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Combinare i carichi in una singola fattura
+# Combinare i carichi in una singola fattura
 
 Se desideri fatturare più di un carico di acquisto per volta, puoi selezionare più righe di carico sulla fattura di acquisto.  
 
@@ -28,7 +22,7 @@ Quando i carichi di acquisto vengono cumulati in una fattura e registrati, viene
 > [!NOTE]
 > La fattura di acquisto risultante non può essere successivamente corretta o annullata. Se si desidera modificare una fattura di acquisto creata in questo modo, è necessario utilizzare le note di credito di acquisto. Per ulteriori informazioni, vedere [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
-## <a name="to-combine-receipts"></a>Per cumulare i carichi
+## Per cumulare i carichi
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).  
@@ -38,7 +32,7 @@ Quando i carichi di acquisto vengono cumulati in una fattura e registrati, viene
     Se è stata selezionata una riga di carico non corretta o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella fattura di acquisto ed eseguire nuovamente la funzione **Prendi righe di carico**.  
 5. Per registrare la fattura scegliere l'azione **Registra**.  
 
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Per rimuovere ordini di acquisto aperti dopo la registrazione del carico cumulativa
+## Per rimuovere ordini di acquisto aperti dopo la registrazione del carico cumulativa
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Elimina ordini acquisto fatturati**, quindi seleziona il collegamento correlato.  
 2. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -48,9 +42,9 @@ In alternativa, eliminare i singoli ordini manualmente.
 
 Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esempio gli ordini di acquisto programmati.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

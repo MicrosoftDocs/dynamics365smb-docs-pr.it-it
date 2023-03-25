@@ -8,14 +8,8 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
-ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822480"
 ---
-# <a name="general-business-functionality"></a>Funzionalità aziendali generali
+# Funzionalità aziendali generali
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
 
@@ -51,7 +45,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Impostare le definizioni di scambio dati per inviare e ricevere i documenti elettronici. |[Scambio di dati in modalità elettronica](across-data-exchange.md) |
 | Usa le mappe online per trovare posizioni e indicazioni per clienti, fornitori e indirizzi in generale. | [Utilizzare le mappe online per trovare posizioni e indicazioni stradali](across-online-maps.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Amministrazione](admin-setup-and-administration.md)  

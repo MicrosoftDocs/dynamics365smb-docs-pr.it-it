@@ -1,22 +1,16 @@
 ---
 title: Immettere numeri di documento esterni
-description: È possibile immettere numeri di documento esterno per clienti e fornitori in tutti gli ordini di vendita e acquisto, fatture e note di credito. È possibile utilizzare questi numeri per cercare le vendite registrate e le righe di acquisto in un secondo momento.
+description: 'È possibile immettere numeri di documento esterno per clienti e fornitori in tutti gli ordini di vendita e acquisto, fatture e note di credito. È possibile utilizzare questi numeri per cercare le vendite registrate e le righe di acquisto in un secondo momento.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: f667ab258d134ab904b75c7a357b6739db3118d9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141673"
 ---
-# <a name="enter-external-document-numbers"></a>Immettere numeri di documento esterni
+# Immettere numeri di documento esterni
 
 È possibile immettere numeri di documento esterno per clienti e fornitori in tutti gli ordini di vendita e acquisto, fatture e note di credito. È possibile utilizzare questi numeri per cercare le vendite registrate e le righe di acquisto in un secondo momento.  
 
@@ -25,7 +19,7 @@ ms.locfileid: "8141673"
 
 La seguente procedura spiega come specificare un numero di documento esterno in un ordine di vendita, ma passaggi simili si applicano ad altri documenti di vendita e di acquisto.
 
-## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>Per immettere numeri di documento esterno in un ordine di vendita  
+## Per immettere numeri di documento esterno in un ordine di vendita  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Selezionare l'ordine di vendita pertinente, quindi scegliere l'azione **Modifica**.  
@@ -34,7 +28,7 @@ La seguente procedura spiega come specificare un numero di documento esterno in 
     Nei documenti di acquisto il campo rilevante è **Nr. fattura fornitore**.
 4. Compilare gli altri campi obbligatori.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Numeri di documento esterno sui documenti di acquisto](purchasing-ext-doc-no.md)  
 [Numeri di documento esterno sui documenti di vendita](sales-how-invoice-sales.md#external-document-numbers)  

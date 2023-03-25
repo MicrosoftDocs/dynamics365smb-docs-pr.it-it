@@ -4,17 +4,11 @@ description: Le spedizioni degli ordini di vendita possono essere elaborate in B
 author: rubenseishima
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: shipping advice, partial shipments, partial deliveries, trade, customer sales order
+ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, trade, customer sales order'
 ms.date: 08/12/2022
 ms.author: a-reishima
-ms.openlocfilehash: f279ce6c22c3e2167006bec315b53297d126929c
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461263"
 ---
-# <a name="process-partial-shipments"></a>Elaborare spedizioni parziali
+# Elaborare spedizioni parziali
 
 In una spedizione parziale, un ordine non viene spedito tutto in una volta. Ad esempio, da un ordine di 100 unità, si ricevono 40 unità immediatamente e 60 in seguito. Per ogni ordine è possibile effettuare un numero illimitato di spedizioni.
 
@@ -24,7 +18,7 @@ Per impostazione predefinita, [!INCLUDE [prod_short](includes/prod_short.md)] im
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendere prodotti con un ordine di vendita al cliente](sales-how-sell-products.md)  
 [Spedire articoli](warehouse-how-ship-items.md)  

@@ -1,27 +1,22 @@
 ---
 title: Combinare la consuntivazione automatica e manuale
-description: Procedura dettagliata per un pianificatore di produzione di Contoso Coffee, che desidera combinare la consuntivazione automatica e manuale.
+description: 'Procedura dettagliata per un pianificatore di produzione di Contoso Coffee, che desidera combinare la consuntivazione automatica e manuale.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078754"
 ---
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Procedura dettagliata: Combinare la consuntivazione automatica e manuale
+
+# Procedura dettagliata: Combinare la consuntivazione automatica e manuale
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee nella consuntivazione.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessario creare un nuovo ordine di produzione per dieci unità dell'articolo SP-SCM1004, AutoDrip. Alcuni componenti e operazioni verranno consuntivati in avanti, altri all'indietro in base a condizioni diverse.
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 > [Nota!] Ricordati di rettificare l'inventario registrando il giornale di registrazione articolo con i saldi di apertura.
 
@@ -108,7 +103,7 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
 Questo è tutto per la consuntivazione manuale e automatica dei componenti.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Eseguire la consuntivazione dei componenti in base all'output dell'operazione](../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduzione ai dati demo Contoso Coffee](contoso-coffee-intro.md)  

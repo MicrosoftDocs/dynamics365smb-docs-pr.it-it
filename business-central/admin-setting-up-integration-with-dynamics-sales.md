@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607339"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Impostazione di account utente per l'integrazione con Microsoft Dataverse
+# Impostazione di account utente per l'integrazione con Microsoft Dataverse
 
 In questo articolo viene fornita una panoramica su come impostare account utente necessari per integrare [!INCLUDE[prod_short](includes/cds_long_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account"></a>Impostare l'account utente amministratore
+## Impostare l'account utente amministratore
 
 Devi aggiungere il tuo account utente amministratore per [!INCLUDE[prod_short](includes/prod_short.md)] come utente in [!INCLUDE[cds_long](includes/cds_long_md.md)]. Quando si imposta la connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)] usiamo questo account una volta per installare e configurare alcuni componenti richiesti.
 
@@ -29,7 +23,7 @@ Devi aggiungere il tuo account utente amministratore per [!INCLUDE[prod_short](i
 >
 > Al termine della configurazione della connessione, questo utente [!INCLUDE[prod_short](includes/cds_long_md.md)] può essere rimosso. L'integrazione continuerà a utilizzare l'account utente automaticamente creato specificatamente per l'integrazione.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Autorizzazioni e ruoli di sicurezza per gli account utente in [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Autorizzazioni e ruoli di sicurezza per gli account utente in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 La soluzione di integrazione di base crea i seguenti ruoli in [!INCLUDE[cds_long](includes/cds_long_md.md)] per l'integrazione:
 
@@ -135,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Integrazione con Microsoft Dataverse](admin-common-data-service.md)  
 [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -9,20 +9,15 @@ ms.workload: na
 ms.search.form: 8700
 ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 990a8f56108bacfe82e6fe591858d238396f16be
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362164"
 ---
-# <a name="viewing-table-information"></a>Visualizzazione di Informazioni tabella
+
+# Visualizzazione di Informazioni tabella
 
 La pagina **8700 Informazioni sulla tabella** fornisce informazioni sul numero di record in tutte le tabelle di sistema e aziendali in [!INCLUDE[prod_short](includes/prod_short.md)] e quanti dati contiene ciascuna tabella.
 
 Queste informazioni sono utili per la risoluzione dei problemi di prestazioni, perché consente di vedere la distribuzione delle dimensioni dei dati tra le tabelle.
 
-## <a name="viewing-table-information"></a>Visualizzazione di Informazioni tabella
+## Visualizzazione di Informazioni tabella
 
 Per aprire questa pagina, seleziona l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Informazioni tabella**, quindi scegli il collegamento correlato.
 
@@ -43,7 +38,7 @@ La tabella seguente descrive le informazioni fornite per ciascuna tabella:
 > [!NOTE]
 > Se elimini i dati in una tabella, [!INCLUDE[prod_short](includes/prod_short.md)] avvia diversi processi dietro le quinte per assicurarsi che tutto venga eliminato nel database. I valori nella pagina Informazioni tabella non verranno aggiornati fino al completamento di tali processi, operazione che può richiedere del tempo. La quantità di tempo che dovrai aspettare può variare a seconda delle dimensioni del tuo database.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Controllo di pagine](across-inspect-page.md)  
 [Articoli sulle prestazioni per gli sviluppatori](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

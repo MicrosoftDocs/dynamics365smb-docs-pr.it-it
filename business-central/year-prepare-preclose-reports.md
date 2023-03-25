@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1393, 1394
+ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517715"
 ---
-# <a name="use-pre-closing-reports"></a>Utilizzare i report preliminari alla chiusura
+# Utilizzare i report preliminari alla chiusura
 
 Sono disponibili molti report standard che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo. Ad esempio, è possibile utilizzare il report **Clienti - Bilancio di verifica** per verificare che il saldo di una categoria i registrazione clienti sia uguale al saldo del corrispondente conto di contabilità generale a una data specifica.
 
@@ -36,7 +30,7 @@ Nella tabella che segue sono descritti alcuni report che possono risultare utili
 
 Per vedere un report, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

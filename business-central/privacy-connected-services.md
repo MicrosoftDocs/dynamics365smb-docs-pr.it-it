@@ -4,18 +4,12 @@ description: Panoramica dei servizi Microsoft a cui Business Central si connette
 author: jswymer
 ms.topic: overview
 ms.service: dynamics365-business-central
-ms.search.keywords: privacy, trial, Microsoft services
+ms.search.keywords: 'privacy, trial, Microsoft services'
 ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.openlocfilehash: baad6c682a744d87cd6e2d2c0536a06a7b349384
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728734"
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Funzionalità di prova che si connettono ad altri servizi Microsoft 
+# Funzionalità di prova che si connettono ad altri servizi Microsoft 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] è una soluzione di gestione aziendale completa che è profondamente integrata con le app per la produttività Microsoft 365 e Power Platform. La tua versione di valutazione gratuita di Business Central può connettersi a molti servizi Microsoft diversi che devi prima configurare e abilitare. Per ottenere il massimo dalla tua versione di valutazione gratuita, alcune di queste funzionalità sono state abilitate automaticamente per te. Anche se la connessione da [!INCLUDE[prod_short](includes/prod_short.md)] è abilitata, questi servizi non sono inclusi nella prova e devono essere acquistati separatamente a meno che tu non li possieda già.
 

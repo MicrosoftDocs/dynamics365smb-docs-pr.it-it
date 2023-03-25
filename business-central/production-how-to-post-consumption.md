@@ -1,31 +1,25 @@
 ---
 title: Registrare il consumo tramite processo batch
-description: Se il metodo di consuntivazione è Manuale, i componenti devono essere registrati manualmente nelle registrazioni consumi.
+description: 'Se il metodo di consuntivazione è Manuale, i componenti devono essere registrati manualmente nelle registrazioni consumi.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000846, 99000850
+ms.search.form: '99000846, 99000850'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09129dc65ad61e632d7b5f5e3d22b47ae32d95bd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516720"
 ---
-# <a name="batch-post-production-consumption"></a>Registrare il consumo produzione tramite processo batch
+# Registrare il consumo produzione tramite processo batch
 
 Se il metodo di consuntivazione è **Manuale**, i componenti devono essere registrati manualmente nelle registrazioni consumi.  
 
 >[!NOTE]
-> Se è stato immesso un segno di spunta nel campo **Richiesto prelievo** della scheda Ubicazione per indicare che l'ubicazione richiede l'elaborazione dei prelievi di magazzino, non sarà necessario utilizzare questo processo batch. [!INCLUDE[prod_short](includes/prod_short.md)] gestirà il consumo quando si registra il prelievo di magazzino. Per ulteriori informazioni, vedere [Prelevare per la produzione in configurazioni della warehouse di base](warehouse-how-to-pick-for-production.md#pick-for-production-in-basic-warehouse-configurations).  
+> Se è stato immesso un segno di spunta nel campo **Richiesto prelievo** della scheda Ubicazione per indicare che l'ubicazione richiede l'elaborazione dei prelievi di magazzino, non sarà necessario utilizzare questo processo batch. [!INCLUDE[prod_short](includes/prod_short.md)] gestirà il consumo quando si registra il prelievo di magazzino. Per ulteriori informazioni, vedere [Prelevare per la produzione in configurazioni della warehouse di base](warehouse-how-to-pick-for-production.md).  
 
 È inoltre possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] sulla registrazione (*consuntivazione*) automatica dei componenti quando si avviano o si chiudono ordini di produzione. Per ulteriori informazioni vedere [Attivare la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Per registrare il consumo per una o più righe dell'ordine di produzione
+## Per registrare il consumo per una o più righe dell'ordine di produzione
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni consumi**, quindi scegli il collegamento correlato.  
 2. Compilare i campi inserendo i dati relativi agli ordini di produzione e al consumo. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ Se il metodo di consuntivazione è **Manuale**, i componenti devono essere regis
 
 3. Per registrare il consumo scegliere l'azione **Registra**. Si riducono le relative scorte.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

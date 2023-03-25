@@ -4,41 +4,35 @@ description: Scopri i diversi modi per condividere i dati aziendali da Business 
 author: jswymer
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607474"
 ---
-# <a name="sharing-business-data-from-business-central"></a>Condivisione dei dati aziendali da Business Central
+# Condivisione dei dati aziendali da Business Central
 
 La collaborazione tra le persone all'interno e all'esterno di un'organizzazione è parte integrante della maggior parte delle aziende. [!INCLUDE[prod_short](includes/prod_short.md)] offre diverse funzionalità per la condivisione dei dati aziendali, come un elenco di record, record specifici o documenti. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Con tutte queste funzionalità, l'accesso ai dati è protetto dalla licenza e dalle autorizzazioni di Business Central.
 
-## <a name="copying-a-link"></a>Copia di un collegamento
+## Copia di un collegamento
 
 ![Supportata](media/check.png) Business Central Online ![Supportata](media/check.png) Business Central in locale
 
 Da qualsiasi pagina puoi copiare l'URL della pagina, quindi incollarlo e distribuirlo in altre forme di file multimediali come e-mail, chat di Teams o SMS. Il modo più semplice per copiare un collegamento è selezionare **Condividi** > **Copia collegamento** dalla parte superiore della pagina. Un altro modo è copiare l'URL direttamente dalla casella dell'indirizzo del browser.
 
-### <a name="modify-the-page-link"></a>Modificare il collegamento alla pagina
+### Modificare il collegamento alla pagina
 
 Dopo aver copiato un collegamento, prima di inviarlo, puoi modificare l'URL per manipolare ciò che viene visualizzato all'apertura della pagina. È possibile, ad esempio, aggiungere filtri o specificare un'azienda diversa.
 
 Per ulteriori informazioni, vedi [URL del client Web](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### <a name="about-filtered-lists"></a>Informazioni sugli elenchi filtrati
+### Informazioni sugli elenchi filtrati
 
 Utilizzando il riquadro dei filtri nelle pagine elenco, è possibile applicare i filtri per limitare i record visualizzati nell'elenco. Se usi l'azione **Copia collegamento** o copi l'URL dal browser, il collegamento della pagina non includerà le modifiche al filtro. Gli utenti che aprono il collegamento vedranno la raccolta completa. Il modo per mantenere il filtro su un collegamento della pagina di raccolta consiste nel salvare la pagina filtrata come una **Visualizzazione**. Quindi, apri la visualizzazione e copia il collegamento da lì.
 
 Per ulteriori informazioni, vedere [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a>Condivisione in Teams
+## Condivisione in Teams
 
 ![Supportata](media/check.png) Business Central Online ![Non supportato](media/x-icon.png) Business Central in locale
 
@@ -46,7 +40,7 @@ Direttamente dalla maggior parte delle pagine di raccolta e delle pagine dei det
 
 Per ulteriori informazioni, vedi [Condivisione di record e collegamenti di pagina in Teams](across-working-with-teams.md).
 
-## <a name="sharing-through-onedrive"></a>Condivisione tramite OneDrive
+## Condivisione tramite OneDrive
 
 ![Supportata](media/check.png) Business Central Online ![Supportata](media/check.png) Business Central in locale
 
@@ -54,7 +48,7 @@ Business Central rende facile archiviare, gestire e condividere i file con altre
 
 Per ulteriori informazioni, vedi [Condivisione di file in OneDrive](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a>Apertura in Excel
+## Apertura in Excel
 
 ![Supportata](media/check.png) Business Central Online ![Supportata](media/check.png) Business Central in locale
 
@@ -62,15 +56,15 @@ Per le pagine elenco e gli elenchi incorporati in una pagina, è possibile utili
 
 Per ulteriori informazioni, vedi [Visualizzazione e modifica in Excel](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a>Condivisione di righe o tabelle
+## Condivisione di righe o tabelle
 
 ![Supportata](media/check.png) Business Central Online ![Supportata](media/check.png) Business Central in locale
 
-Puoi condividere uno o più record in un elenco. Basta premere i tasti di scelta rapida Ctrl+C per copiare negli appunti. Quindi incolla ciò che hai copiato in un'altra applicazione premendo Ctrl+V. Ad esempio, copiando tre ordini di vendita e incollandoli in un'e-mail verranno visualizzati gli ordini in una tabella ben formattata.
+Puoi condividere uno o più record in un elenco. Basta premere i tasti di scelta rapida <kbd>CTRL</kbd>+<kbd>C</kbd> per copiare negli appunti. Quindi incolla ciò che hai copiato in un'altra applicazione premendo <kbd>CTRL</kbd>+<kbd>V</kbd>. Ad esempio, copiando tre ordini di vendita e incollandoli in un'e-mail verranno visualizzati gli ordini in una tabella ben formattata.
 
 Per ulteriori informazioni, vedi [Domande frequenti sulla funzionalità di copia e incolla](faq-copy-paste.yml).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Business Central e integrazione OneDrive](across-onedrive-overview.md)  
 [Gestione dell'integrazione di OneDrive con Business Central](admin-onedrive-integration.md)  

@@ -10,14 +10,8 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 09/22/2022
 ms.author: kepontop
-ms.openlocfilehash: 4ae58b37d42d501142ebfa617da79266d5d8a9b1
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607862"
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Panoramica di Business Intelligence e creazione di report
+# Panoramica di Business Intelligence e creazione di report
 
 Le piccole e medie imprese usano le funzionalità di analisi e report integrate che possono utilizzare immediatamente per tenere traccia della propria attività. [!INCLUDE[prod_short](includes/prod_short.md)] supporta processi aziendali comuni e processi più complessi per tali organizzazioni. Ciascuno di questi processi include report e strumenti di analisi. Puoi anche fare analisi ad hoc direttamente dalla tua home page.  
 
@@ -32,9 +26,9 @@ La tabella seguente copre le principali funzionalità di business intelligence e
 | Integra gli strumenti di business intelligence esterni con [!INCLUDE[prod_short](includes/prod_short.md)].| [Strumenti di Business Intelligence esterni](reports-external-analysis.md) |
 |Modifica i layout dei report o persino sviluppare i tuoi report da zero. |[Sviluppo di report](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
+## Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Business Intelligence finanziario](bi.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

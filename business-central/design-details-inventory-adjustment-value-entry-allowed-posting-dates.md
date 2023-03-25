@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 1694bc0267e32d2af4af1202b2dfd1ad4b46ba55
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139757"
 ---
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Messaggio di errore: "La data di invio non rientra nel tuo range di date di invio consentite..."
+
+# Messaggio di errore: "La data di invio non rientra nel tuo range di date di invio consentite..."
 
 Quando si usa il lavoro batch **Rettifica costo movimenti articoli** si può incorrere nel seguente messaggio di errore:
 
@@ -24,7 +19,7 @@ Quando si usa il lavoro batch **Rettifica costo movimenti articoli** si può inc
 
 Questo messaggio di errore indica che l'utente non è autorizzato a pubblicare voci per la data in questione, e questo può essere rimediato cambiando la configurazione dell'utente.
 
-## <a name="change-the-user-setup"></a>Cambiare l'impostazione dell'utente  
+## Cambiare l'impostazione dell'utente  
 
 |ID utente  |Consenti registraz. da  | Consenti registrazioni fino a  |
 |---------|---------|--------|
@@ -32,9 +27,9 @@ Questo messaggio di errore indica che l'utente non è autorizzato a pubblicare v
 
 L'utente in questo caso ha un intervallo di date di registrazione consentito dall'11 settembre al 30 settembre e quindi non è autorizzato a registrare la registrazione del valore di aggiustamento con data di registrazione 10 settembre.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Panoramica della configurazione della data di registrazione coinvolta
+### Panoramica della configurazione della data di registrazione coinvolta
 
-#### <a name="inventory-periods"></a>Periodi di inventario
+#### Periodi di inventario
 
 |Data fine  |Name  |Chiuso  |
 |---------|---------|---------|
@@ -51,7 +46,7 @@ L'utente in questo caso ha un intervallo di date di registrazione consentito dal
 |2020-11-30     |Novembre 2020   |         |
 |2020-12-31     |Dicembre 2020   |         |  
 
-#### <a name="general-ledger-setup"></a>Setup contabilità generale
+#### Setup contabilità generale
 
 |Campo|Valore|
 |---------|---------|
@@ -60,7 +55,7 @@ L'utente in questo caso ha un intervallo di date di registrazione consentito dal
 |Registra tempi:       |         |
 |Formato indirizzo locale:|   CAP      |  
 
-#### <a name="user-setup"></a>Impostazione dell'utente
+#### Impostazione dell'utente
 
 |ID utente  |Consenti registraz. da  | Consenti registrazioni fino a  |
 |---------|---------|--------|
@@ -68,7 +63,7 @@ L'utente in questo caso ha un intervallo di date di registrazione consentito dal
 
 Assegnando un intervallo di date di registrazione più ampio, come in Inventory Period o Setup contabilità generale, è possibile evitare il conflitto che causa il messaggio di errore. Il movimento di valorizzazione della rettifica con data di registrazione 10 settembre verrà registrato correttamente con questo setup.
   
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
 
 [Dettagli del design: Data di registrazione del valore di aggiustamento](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  

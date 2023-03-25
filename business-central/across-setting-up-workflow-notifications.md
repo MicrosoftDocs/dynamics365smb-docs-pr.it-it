@@ -4,17 +4,11 @@ description: Questo articolo spiega come impostare le notifiche del flusso di la
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 65dad3ffcb91415b13683f20a5e91274c3841c87
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585470"
 ---
-# <a name="approval-workflow-notifications"></a>Notifiche del workflow di approvazione
+# Notifiche del workflow di approvazione
 
 Impostare i workflow per notificare automaticamente agli utenti quando è richiesta la loro attenzione per un passaggio del workflow. Molte risposte del workflow riguardano la comunicazione, a un utente, di un evento che si è verificato e la relativa necessità di intervento.
 
@@ -26,7 +20,7 @@ Ad esempio, è possibile impostare che l'utente 2, l'utente responsabile dell'ap
 > [!IMPORTANT]  
 > Tutte le notifiche del workflow vengono inviate tramite una coda processi. Assicurarsi che la coda processi nella propria installazione sia impostata in modo da gestire le notifiche del workflow e che la casella di controllo **Avvia automaticamente da server** sia selezionata. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Impostazione delle notifiche
+## Impostazione delle notifiche
 
 È possibile impostare diversi aspetti delle notifiche del workflow nelle aree seguenti:  
 
@@ -55,9 +49,9 @@ Ad esempio, è possibile impostare che l'utente 2, l'utente responsabile dell'ap
 
   Per i workflow di approvazione, aggiungere un passaggio di risposta del workflow per notificare al mittente quando la richiesta è stata approvata o rifiutata. Scopri di più dal passaggio 9 nella sezione [Creare workflow](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)  

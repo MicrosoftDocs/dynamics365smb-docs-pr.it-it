@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9652, 9650
+ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0384ea780065c72e6fd4ca3ff95d2ec771a20ea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528143"
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>(Legacy) Importare ed esportare layout di report personalizzati
+# (Legacy) Importare ed esportare layout di report personalizzati
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -25,7 +19,7 @@ ms.locfileid: "9528143"
 > [!IMPORTANT]  
 >  Non è possibile importare o esportare i layout di report predefiniti.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a>Per esportare un layout di report verso un file  
+### Per esportare un layout di report verso un file  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
 
@@ -35,7 +29,7 @@ ms.locfileid: "9528143"
 
 4.  Nella finestra di dialogo **Esporta file** selezionare il pulsante **Salva** quindi salvare il file in un percorso del computer o in rete.  
 
-### <a name="to-import-a-report-layout-file"></a>Per importare un file di layout di report  
+### Per importare un file di layout di report  
 
 1.  Assicurarsi che il file pertinente che definisce il layout di report sia disponibile nel computer o in rete.  
 
@@ -51,9 +45,9 @@ ms.locfileid: "9528143"
 
  Il layout del report personalizzato originale viene sostituito con il layout di report importato.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
 [Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  

@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment due, debt, overdue, fee, charge
-ms.search.form: 6, 494
+ms.search.keywords: 'payment due, debt, overdue, fee, charge'
+ms.search.form: '6, 494'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 27378e1c2c12077bdb04aa9f1e2b93f27fe048dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528278"
 ---
-# <a name="set-up-finance-charge-terms"></a>Impostare condizioni interessi finanziari
+# Impostare condizioni interessi finanziari
 
 Quando un cliente non effettua il pagamento entro la data di scadenza, è possibile fare in modo che gli addebiti per interessi vengano calcolati automaticamente e aggiunti agli importi insoluti nel conto del cliente. È possibile informare i clienti degli interessi aggiunti mediante l'invio di note di addebito interessi. Tuttavia, impostare dapprima un codice che rappresenta ogni calcolo di addebito interessi. Immettere quindi questo codice nel campo Codice condizioni di addebito interessi nelle schede cliente.  
 
-## <a name="finance-charge-terms"></a>Condizioni interessi finanziari
+## Condizioni interessi finanziari
 
 È necessario impostare le condizioni interessi finanziari per ogni calcolo di addebito interessi e quindi assegnare le condizioni nel campo **Codice condizioni di addebito interessi** nella pagina **Cliente**.
 
@@ -39,7 +33,7 @@ Quando un cliente non effettua il pagamento entro la data di scadenza, è possib
 
 Inoltre ogni condizione nella tabella Condiz.Interessi Finanziari è collegata a una sottotabella, detta tabella Testi addebiti interessi. Per ciascun gruppo di condizioni interessi finanziari, è possibile creare un testo iniziale e/o uno finale da includere nella nota di addebito degli interessi.
 
-### <a name="to-set-up-finance-charge-terms"></a>Per impostare le condizioni di addebito degli interessi
+### Per impostare le condizioni di addebito degli interessi
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Condiz. interessi finanziari**, quindi scegli il collegamento correlato.  
 2. Compilare i campi, se necessario.
@@ -68,9 +62,9 @@ Inoltre ogni condizione nella tabella Condiz.Interessi Finanziari è collegata a
 |%8|Contenuto del campo **Codice valuta** della testata della nota di addebito interessi|  
 |%9|Contenuto del campo **Data reg.** della testata della nota di addebito interessi|  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/send-memos-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/send-memos-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md)  

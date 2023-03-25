@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: f002086780e694ad80f2b5c80e942ab411de1948
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732965"
 ---
 Potresti vedere altri utenti nell'elenco **Utenti** a parte quelli della propria azienda. Quando un amministratore con delega di una società partner di rivendita accede a un ambiente [!INCLUDE [prod_short](prod_short.md)] per conto del proprio cliente, vengono automaticamente creati come utenti all'interno di [!INCLUDE [prod_short](prod_short.md)]. In questo modo, le azioni eseguite da un amministratore con delega vengono registrate in [!INCLUDE [prod_short](prod_short.md)], come la pubblicazione di documenti e associati al loro ID utente.  
 

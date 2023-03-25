@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 456, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: 0cf56049c5c7d5b31cb75185bb26f9619317d9e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522016"
 ---
-# <a name="set-up-general-inventory-information"></a>Impostare le informazioni generali di magazzino
+# Impostare le informazioni generali di magazzino
 
 Le impostazioni generali di magazzino vengono impostate nella pagina **Setup magazzino**.
 
-## <a name="to-set-up-general-inventory-information"></a>Per impostare le informazioni generali di magazzino
+## Per impostare le informazioni generali di magazzino
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup magazzino**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +31,7 @@ Se si desidera includere il tempo di gestione della warehouse nel calcolo della 
 >
 > In alternativa, è possibile rettificare manualmente i costi a intervalli regolari con il processo batch Rettifica costo - Movimenti articoli. È anche possibile disattivare la registrazione automatica dei costi oppure impostare il campo **Rettifica costo automatica** su *Mai*. In entrambi i casi, viene visualizzata una notifica dalla quale è possibile avviare una guida al setup assistito per pianificare le attività per la coda processi. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Setup magazzino](inventory-setup-inventory.md)  
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  

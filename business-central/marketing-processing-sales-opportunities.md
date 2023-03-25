@@ -6,20 +6,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 60ce53dc750812dc7519e6d3894a51f4e16d71eb
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076437"
 ---
-# <a name="process-sales-opportunities"></a>Elaborare le opportunità di vendita
+# Elaborare le opportunità di vendita
 Ogni volta che si crea un'opportunità, si possono utilizzare numerose funzionalità per gestire l'opportunità e procedere verso il completamento.
 
-## <a name="to-view-opportunities"></a>Per visualizzare le opportunità
+## Per visualizzare le opportunità
 Le opportunità di vendita esistenti sono disponibili nella pagina **Lista opportunità**. Sono disponibili diversi metodi per accedere alla pagina per elaborare le opportunità di vendita:
 
 | Per visualizzare le opportunità per | Quindi |
@@ -30,7 +24,7 @@ Le opportunità di vendita esistenti sono disponibili nella pagina **Lista oppor
 
 Ciascuna di queste attività apre la pagina **Lista opportunità**.
 
-## <a name="to-close-opportunities"></a>Per chiudere le opportunità
+## Per chiudere le opportunità
 È possibile chiudere le opportunità una volta concluse le negoziazioni. Quando si chiude un'opportunità, è possibile specificare se è stata vinta o persa e i motivi per chiuderla. Per specificare un motivo, è necessario impostare codici di chiusura opportunità.
 
 1. Nella pagina **Lista opportunità** selezionare l'opportunità e scegliere l'azione **Chiudi**. Verrà visualizzata la pagina **Chiudi opportunità**.
@@ -40,14 +34,14 @@ Ciascuna di queste attività apre la pagina **Lista opportunità**.
 
    Nel campo **Codice opportunità chiuse**, è possibile scegliere tra i codici chiusura opportunità esistenti o aggiungere un nuovo codice. Per aggiungere un nuovo codice, dall'elenco a discesa, selezionare **Seleziona da elenco completo** quindi **Nuovo**. Nella nuova riga vuota, compilare i campi **Codice**, **Tipo** e **Descrizione** e quindi il pulsante **OK**.
 
-## <a name="to-create-quotes-for-opportunities"></a>Per creare offerte per opportunità
+## Per creare offerte per opportunità
 > [!NOTE]
 > È possibile creare offerte di vendita solo da opportunità in cui il tipo di contatto è Società.
 
 1. Nella pagina **Lista opportunità** selezionare l'opportunità e scegliere l'azione **Assegna offerta di vendita**. Verrà visualizzata la pagina **Offerta di vendita**.
 2. Compilare i relativi campi.
 
-## <a name="to-create-sales-orders-for-opportunities"></a>Per creare ordini di vendita per opportunità
+## Per creare ordini di vendita per opportunità
 È possibile creare ordini di vendita a partire dalle offerte di vendita create per le opportunità. Prima di creare ordini di vendita per i contatti, è necessario creare il contatto come cliente. Per ulteriori informazioni, vedere [Creare contatti](marketing-create-contact-companies.md).
 
 1. Nella pagina **Lista opportunità** individuare l'opportunità per la quale è stata creata un'offerta di vendita.
@@ -56,7 +50,7 @@ Ciascuna di queste attività apre la pagina **Lista opportunità**.
 
 Quando si gestiscono opportunità di vendita, potrebbe essere necessario creare un'offerta per il contatto al quale è collegata l'opportunità.
 
-## <a name="to-delete-opportunities"></a>Per rimuovere opportunità
+## Per rimuovere opportunità
 È possibile rimuovere opportunità, ad esempio dopo aver concluso un'operazione commerciale. Tuttavia, è possibile eliminare solo le opportunità chiuse. Esistono due modi per eliminare le opportunità chiuse. È possibile eliminare le opportunità chiuse dalla pagina **Lista opportunità** oppure è possibile eseguire il processo batch **Elimina opportunità chiuse** per eliminare più opportunità in base a criteri specifici.
 
 Per eliminare le opportunità chiuse nella pagina **Lista opportunità**, selezionare l'opportunità quindi selezionare l'azione **Elimina**.
@@ -69,7 +63,7 @@ Per eliminare le opportunità chiuse utilizzando il processo batch **Elimina opp
 
 Una volta eliminata un'opportunità, verrà rimossa dalla pagina **Lista opportunità**.
 
-## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Per spostare un'opportunità nelle fasi ciclo di vendita
+## Per spostare un'opportunità nelle fasi ciclo di vendita
 Se un'opportunità segue un ciclo di vendita, è possibile spostarla in avanti o indietro nelle varie fasi, ad esempio verso la fase successiva o precedente e perfino saltare una fase.
 
 1. Nella pagina **Lista opportunità**, selezionare l'azione **Aggiorna**. Verrà visualizzata la finestra **Aggiorna opportunità**.
@@ -81,7 +75,7 @@ Se un'opportunità segue un ciclo di vendita, è possibile spostarla in avanti o
    * **Aggiorna** consente di modificare le informazioni, ad esempio modificare la valutazione delle possibilità di successo e i valori previsti, senza spostarsi in un'altra fase.
 3. Compilare gli altri campi come appropriato e fare clic sul pulsante **OK**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

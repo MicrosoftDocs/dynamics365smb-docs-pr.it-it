@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a50d15ad62459b78b2d18d8167df319669a56ec7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529165"
 ---
-# <a name="merge-duplicate-records"></a>Unire record duplicati
+# Unire record duplicati
 
 Poiché utenti diversi creano nel tempo nuove schede cliente, fornitore o contatto, oppure nuovi record vengono creati automaticamente durante la migrazione, un cliente, un fornitore o un contatto possono essere rappresentati nel sistema con più di un record. In tal caso, è possibile utilizzare la pagina **Unisci duplicato** nella scheda del record che si desidera mantenere. La pagina fornisce una panoramica dei valori di campo duplicati e funzioni per selezionare i valori da mantenere o eliminare quando si uniscono due record.
 
@@ -53,7 +47,7 @@ La seguente procedura è basata su una scheda cliente. I passaggi sono simili pe
 
     I valori di campo identici, differenti dal valore nel campo **Nr.** vengono rimossi dal record duplicato e inseriti nel record corrente.
 11. Se si desidera mantenere il record cliente duplicato dopo l'unione, scegliere **Rinomina duplicato**.
-12. Sulle righe, non per il campo **Nr.**, dove il campo ha lo stesso valore in entrambi i record, modificare il valore nel campo **Valore alternativo**, quindi scegliere il pulsante **Chiudi**.
+12. Sulle righe, non per il campo**Nr.**, dove il campo ha lo stesso valore in entrambi i record, modificare il valore nel campo **Valore alternativo**, quindi scegliere il pulsante **Chiudi**.
 
     Il valore di campo in conflitto viene aggiornato nel record duplicato di modo che possa essere unito al record corrente. Il record duplicato continua a esistere dopo l'unione.
 13. Ripetere i passaggi da 8 a 12 fino a risolvere tutti i conflitti. La Scheda dettaglio **Conflitti** non è più visualizzata.
@@ -62,9 +56,9 @@ La seguente procedura è basata su una scheda cliente. I passaggi sono simili pe
 > [!NOTE]
 > Per i contatti, è possibile utilizzare la funzionalità per trovare contatti duplicati prima di utilizzare la pagina **Unisci duplicato**. Per ulteriori informazioni, vedere [Ricerca di contatti duplicati](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup contatti](marketing-setup-contacts.md)  

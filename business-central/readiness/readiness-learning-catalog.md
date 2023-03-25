@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530191"
 ---
-# <a name="business-central-learning-catalog"></a>Catalogo di apprendimento Business Central
+
+# Catalogo di apprendimento Business Central
 
 Trovare la formazione online appropriata, eventi e workshop di persona per il proprio ruolo di utente o partner di Business Central.
 
@@ -20,7 +15,7 @@ Trovare la formazione online appropriata, eventi e workshop di persona per il pr
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Decisore aziendale
+    ### Decisore aziendale
 
     Si è responsabili delle decisioni relative agli investimenti in nuove tecnologie? 
 
@@ -36,7 +31,7 @@ Trovare la formazione online appropriata, eventi e workshop di persona per il pr
 
     :::column:::
 
-    ### <a name="business-user"></a>Utente aziendale
+    ### Utente aziendale
 
     Si è appena ricevuta una nuova applicazione da utilizzare? 
 
@@ -54,7 +49,7 @@ Trovare la formazione online appropriata, eventi e workshop di persona per il pr
 
     :::column:::
 
-    ### <a name="developer"></a>Sviluppatore
+    ### Sviluppatore
 
     È necessario scrivere codice per eseguire l'integrazione con altre origini dati, estendere le funzionalità di sistema di base o creare un'applicazione complessa?
 
@@ -66,7 +61,7 @@ Trovare la formazione online appropriata, eventi e workshop di persona per il pr
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Consulente funzionale
+    ### Consulente funzionale
     
     Si è esperti di implementazione per un dominio aziendale? 
 

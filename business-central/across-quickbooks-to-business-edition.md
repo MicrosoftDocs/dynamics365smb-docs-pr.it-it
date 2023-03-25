@@ -1,23 +1,19 @@
 ---
 title: Trasferire dati da un'app QuickBooks
-description: È possibile migrare i dati quali clienti, fornitori, articoli in magazzino e conti C/G dalle app di QuickBooks a Business Central.
+description: 'È possibile migrare i dati quali clienti, fornitori, articoli in magazzino e conti C/G dalle app di QuickBooks a Business Central.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
+ms.search.keywords: 'app, import, migrate, data, transfer, QuickBooks, customize'
 ms.search.form: 1808
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 01a02459e75d20c217b747502db8548567db597d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535292"
 ---
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Passare da un'app di QuickBooks a Dynamics 365 Business Central
+
+
+# Passare da un'app di QuickBooks a Dynamics 365 Business Central
 
 Sempre più aziende in crescita stanno passando da app finanziarie come QuickBooks Desktop e QuickBooks Online, progettate per startup e altre piccole imprese, a [!INCLUDE[prod_short](includes/prod_short.md)], che supporta anche organizzazioni più grandi e più complesse. 
 
@@ -31,13 +27,13 @@ Per ulteriori informazioni, leggi informazioni sull'estensione adatta alla tua a
 * [Estensione di migrazione dei dati QuickBooks Desktop](ui-extensions-quickbooks-data-migration.md)
 * [Estensione di migrazione dei dati QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a>Pronto?
+## Pronto?
 
 Se sei pronto per iniziare ora, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assistito**, quindi scegli il collegamento correlato. Scegliere **Migra dati aziendali**, quindi seguire i passaggi nella guida.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/migrate-data-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)   

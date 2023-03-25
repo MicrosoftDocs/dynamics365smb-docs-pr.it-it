@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: fa49d48d4af1efe40cda6579ff15f703ef5ad426
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523051"
 ---
-# <a name="design-details-cost-components"></a>Dettagli di progettazione: Componenti costo
+# Dettagli di progettazione: Componenti costo
 I componenti di costo sono diversi tipi di costi che compongono il valore di un aumento o di una riduzione di magazzino.  
 
  Nella seguente tabella vengono mostrati i diversi componenti di costo e i relativi componenti secondari.  
@@ -39,7 +33,7 @@ I componenti di costo sono diversi tipi di costi che compongono il valore di un 
 > [!NOTE]  
 >  I costi di assicurazione e di spedizione sono addebiti articoli che possono aggiunti al costo di un articolo in qualsiasi momento. Quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, il valore delle riduzioni di magazzino correlate viene aggiornato di conseguenza.  
 
-## <a name="see-also"></a>Vedi anche  
+## Vedi anche  
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
  [Dettagli di progettazione: Scostamento](design-details-variance.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  

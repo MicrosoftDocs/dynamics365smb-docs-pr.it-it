@@ -1,22 +1,16 @@
 ---
 title: Configurazione dei processi di produzione
-description: Per convertire il materiale in articoli finali prodotti, è necessario configurare nel sistema le risorse di produzione, ad esempio distinte base, cicli, operatori macchina e macchinari.
+description: 'Per convertire il materiale in articoli finali prodotti, è necessario configurare nel sistema le risorse di produzione, ad esempio distinte base, cicli, operatori macchina e macchinari.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000768, 99000779, 99000780, 99000866
+ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605767"
 ---
-# <a name="setting-up-manufacturing"></a>Impostazione della produzione
+# Impostazione della produzione
 
 Per convertire il materiale in articoli finali prodotti, è necessario configurare nel sistema le risorse di produzione, ad esempio distinte base, cicli, operatori macchina e macchinari.
 
@@ -39,7 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Utilizzare task standard per semplificare la creazione di cicli allegando rapidamente informazioni supplementari a operazioni periodiche.|[Impostare righe di ciclo standard](production-how-set-up-standard-routing-lines.md)|  
 |Preparare le aree di produzione e i cicli per rappresentare le operazioni di produzione in conto lavoro.|[Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Pianif.](production-planning.md)  

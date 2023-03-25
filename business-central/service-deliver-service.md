@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, service items, respond, response
+ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077816"
 ---
-# <a name="delivering-service"></a>Fornitura dell'assistenza
+# Fornitura dell'assistenza
 [!INCLUDE[prod_short](includes/prod_short.md)] offre una serie di funzionalità pensate per agevolare la fornitura dei servizi di assistenza sulla base dei contratti creati e degli ordini di assistenza a cui l'azienda si è impegnata a far fronte. Grazie alla finestra **Quadro attività** è facile per i tecnici dell'assistenza e gli addetti allo smistamento delle operazioni di assistenza individuare gli ordini di assistenza inevasi. La finestra **Quadro attività** consente infatti a colpo d'occhio di evidenziare gli ordini in corso e gli ordini portati a termine.  
   
 Un altro modo per verificare gli ordini di assistenza in sospeso consiste nell'utilizzare la pagina **Compiti di assistenza** . In questa visualizzazione degli obblighi di assistenza, è possibile vedere a che punto del flusso di lavoro di assistenza si trova un ordine e modificare tale stato secondo le interazioni con il cliente.  
@@ -39,7 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Creare e registrare le fatture per i servizi di assistenza forniti.|[Creare fatture o note di credito di assistenza](service-how-create-invoices.md)|  
 |Mantenere i clienti felici prestando loro un articolo mentre si lavora sui propri.| [Dare e ricevere articoli in prestito](service-how-to-lend-receive-loaners.md)|
   
-## <a name="see-also"></a>Vedi anche  
+## Vedi anche  
 [Pianificazione dell'assistenza](service-plan-service.md)  
 [Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)  
 [Gestione di progetti](projects-manage-projects.md)  

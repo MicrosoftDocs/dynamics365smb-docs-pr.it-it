@@ -1,320 +1,300 @@
 ---
-title: Dettagli di progettazione - Concetti centrali del sistema di pianificazione
-description: Le funzioni di pianificazione suggeriscono all'utente le possibili azioni da intraprendere in base alla situazione della domanda/offerta e ai parametri di pianificazione degli articoli.
-author: SorenGP
+title: 'Dettagli di progettazione: Concetti centrali del sistema di pianificazione'
+description: La pianificazione suggerisce all'utente le azioni da intraprendere in base alla situazione della domanda/offerta e ai parametri di pianificazione degli articoli.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605166"
+ms.date: 01/25/2023
+ms.custom: bap-template
 ---
-# <a name="design-details-central-concepts-of-the-planning-system"></a>Dettagli di progettazione: Concetti centrali del sistema di pianificazione
+# Dettagli di progettazione: Concetti centrali del sistema di pianificazione
 
-Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di ultimo livello di ciascun articolo (ubicazione della distinta base), il processo batch chiama un'unità di codice, che calcola un piano di approvvigionamento bilanciando approvvigionamento e domanda e suggerendo possibili azioni per l'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
+Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di basso livello di ciascun articolo (posizione DBA), il processo batch chiama un'unità di codice che calcola un piano di approvvigionamento. L'unità di codice bilancia gli insiemi di domanda e offerta e suggerisce le azioni da intraprendere all'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
 
 ![Contenuto della pagina Prospetti pianificazione.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contenuto della pagina Prospetti pianificazione")  
 
-Si presume che il responsabile della pianificazione della società, ad esempio un addetto acquisti o un responsabile della pianificazione di produzione, sia l'utente del sistema di pianificazione. Il sistema di pianificazione aiuta l'utente eseguendo calcoli complessi ma chiari di un piano. L'utente può quindi concentrarsi sulla soluzione i problemi di più difficili, ad esempio quando si verificano delle situazioni insolite.  
+Supponi che il responsabile della pianificazione della società, ad esempio un addetto acquisti o un responsabile della pianificazione di produzione, sia l'utente del sistema di pianificazione. Il sistema di pianificazione aiuta l'utente eseguendo calcoli complessi ma chiari di un piano. L'utente può quindi concentrarsi sulla soluzione i problemi di più difficili, ad esempio quando si verificano delle situazioni insolite.  
 
-Il sistema di pianificazione si basa sulla domanda prevista ed effettiva da parte dei clienti, ad esempio la previsione e gli ordini di vendita. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dall'applicazione per l'utente da adottare relativamente al possibile approvvigionamento da fornitori, o reparti di assemblaggio o produzione o trasferimenti da altri magazzini. Queste azioni suggerite possono servire a creare nuovi ordini di approvvigionamento, ad esempio gli ordini di acquisto o di produzione. Se sono già presenti ordini di approvvigionamento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
+Il sistema di pianificazione si basa sulla domanda prevista ed effettiva da parte dei clienti, ad esempio la previsione e gli ordini di vendita. I calcoli di pianificazione suggeriscono le azioni che puoi intraprendere in merito all'approvvigionamento da fornitori, assemblaggio o produzione o ai trasferimenti da altri magazzini. Un esempio di azione suggerita può servire a creare nuovi ordini di approvvigionamento, ad esempio gli ordini di acquisto o di produzione. Se sono già presenti ordini di approvvigionamento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione degli ordini per rispondere alle modifiche nella domanda.  
 
 Un altro obiettivo del sistema di pianificazione consiste nel garantire che il magazzino non aumenti in modo superfluo. Nel caso di un calo della domanda, il sistema di pianificazione suggerirà all'utente di rimandare, ridurre in quantità o annullare gli ordini di approvvigionamento esistenti.  
 
-Per MRP e MPS, le funzioni Calcola piano - Solo cambiamenti e Calcola piano - Rigenerativo sono tutte funzioni all'interno di un unico codice contenente la logica di pianificazione. Tuttavia, il calcolo del piano di approvvigionamento implica sottosistemi diversi.  
+Un'unità di codice contiene la logica di pianificazione e le seguenti funzioni:
 
-Notare che il sistema di pianificazione non include alcuna logica dedicata per il livellamento delle capacità o la pianificazione accurata. Di conseguenza, tale lavoro di programmazione viene eseguito come disciplina separata. La mancanza di integrazione diretta tra le due aree significa inoltre che la capacità sostanziale o le modifiche di programmazione richiederanno una nuova esecuzione della pianificazione.  
+* MRP e MPS
+* Calcola piano - Solo cambiamenti
+* Calcola piano - Rigenerativo
 
-## <a name="planning-parameters"></a>Parametri di pianificazione
+Tuttavia, il calcolo del piano di approvvigionamento implica sottosistemi diversi.  
 
-I parametri di pianificazione che l'utente imposta per un articolo o un gruppo di articoli controllano quali azioni il sistema di pianificazione suggerirà nelle diverse situazioni. I parametri di pianificazione sono definiti in ogni scheda articolo per controllare quando, quanto e come rifornire.  
+Il sistema di pianificazione non include la logica dedicata per il livellamento delle capacità o la programmazione accurata. Questi lavori di programmazione vengono eseguiti separatamente. La mancanza di integrazione diretta tra le due aree significa inoltre che la capacità sostanziale o le modifiche di programmazione richiederanno una nuova esecuzione della pianificazione.  
 
-I parametri di pianificazione possono essere definiti anche per qualsiasi combinazione di articoli, varianti e ubicazioni impostando un'unità di stockkeeping (USK) per ogni combinazione necessaria e quindi specificando i singoli parametri.  
+## Parametri di pianificazione
 
-Per ulteriori informazioni, vedere [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md) e [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md).  
+I parametri di pianificazione che imposti per un articolo o un gruppo di articoli controllano quali azioni il sistema di pianificazione suggerirà nelle diverse situazioni. I parametri di pianificazione definiti per ogni articolo controllano quando, quanto e come rifornire.  
 
-## <a name="planning-starting-date"></a>Pianificazione della data di inizio
+Puoi definire i parametri di pianificazione anche per qualsiasi combinazione di articoli, varianti e ubicazioni impostando un'unità di stockkeeping (SKU) per ogni combinazione necessaria e quindi specificando i singoli parametri. Per ulteriori informazioni, vedi [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md) e [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md).  
 
-Per evitare un piano di approvvigionamento che incorpori ordini aperti in passato e suggerisca azioni potenzialmente impossibili, il sistema di pianificazione tratta tutte le date anteriori alla data di inizio della pianificazione come zona bloccata nella quale vale la seguente regola speciale:  
+## Pianificazione della data di inizio
 
-Tutta le domande e l'approvvigionamento prima della data di inizio del periodo di pianificazione verranno considerati come parte del magazzino o saranno spediti.  
+Il sistema di pianificazione ti aiuta a evitare di avere ordini aperti in passato e azioni suggerite che non sono fattibili. La pianificazione considera tutte le date precedenti alla data di inizio come una zona bloccata. La seguente regola si applica alla zona bloccata:  
 
-In altre parole, si presuppone che il piano per il passato sia eseguito secondo il piano specificato.  
+* La domanda e l'offerta prima della data di inizio del periodo di pianificazione sono considerate come parte del magazzino o spedite. In altre parole, si presuppone che il piano per il passato venga eseguito secondo il piano specificato. Per ulteriori informazioni vedi [Elaborare gli ordini prima della data di inizio pianificazione](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).  
 
-Per ulteriori informazioni, vedere [Gestione ordini prima della data di inizio pianificazione](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
+## Tracciabilità dinamica dell'ordine (pegging)
 
-## <a name="dynamic-order-tracking-pegging"></a>Tracciabilità dinamica dell'ordine (pegging)
+La tracciabilità dinamica dell'ordine e la sua creazione simultanea dei messaggi di azione nel prospetto di pianificazione non fa parte del sistema di pianificazione degli approvvigionamenti. Quando viene creata o modificata una domanda o un'offerta, il tracciamento dinamico dell'ordine collega la domanda e le quantità per coprirla in tempo reale.  
 
-La tracciabilità dinamica dell'ordine, con la sua creazione simultanea dei messaggi di azione nel prospetto di pianificazione, non fa parte del sistema di pianificazione degli approvvigionamenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Questa funzionalità collega, in tempo reale, la domanda e le quantità che potrebbero coprirla, ogni volta che viene creata o modificata una nuova domanda o un nuovo approvvigionamento.  
+Ad esempio, se immetti o modifichi un ordine di vendita, il sistema di tracciamento dinamico dell'ordine avvierà immediatamente la ricerca di un'offerta appropriata per coprire la domanda. L'approvvigionamento può provenire dal magazzino o da un ordine di approvvigionamento previsto (ad esempio un ordine di acquisto o di produzione). Quando trova un'origine di approvvigionamento, [!INCLUDE [prod_short](includes/prod_short.md)] collega la domanda e l'offerta. Accedi al collegamento nelle pagine di sola visualizzazione dalle righe del documento. Quando non è possibile individuare l'approvvigionamento, il sistema di tracciabilità ordine dinamica crea dei messaggi di azione nel prospetto di pianificazione con suggerimenti per il piano di approvvigionamento.  
 
-Ad esempio, se l'utente immette o modifica un ordine di vendita, il sistema di tracciamento dinamico dell'ordine avvierà immediatamente la ricerca di un approvvigionamento appropriato per coprire la domanda. Tale approvvigionamento può provenire dal magazzino o da un ordine di approvvigionamento previsto (ad esempio un ordine di acquisto o di produzione). Quando viene individuata un'origine di approvvigionamento, viene creato un collegamento tra domanda e approvvigionamento e tale collegamento viene visualizzato in pagine di sola lettura a cui è possibile accedere dalle righe del documento implicate. Quando non è possibile individuare l'approvvigionamento appropriato, il sistema di tracciabilità ordine dinamica crea dei messaggi di azione nel prospetto di pianificazione con suggerimenti per il piano di approvvigionamento che riflettono il bilanciamento dinamico. Di conseguenza, il sistema di tracciamento dell'ordine dinamico offre un sistema di pianificazione di base che può essere d'aiuto sia per il responsabile che per altri ruoli nella catena di approvvigionamento interna.  
+La tracciabilità dinamica degli ordini ti aiuta a valutare se accettare i suggerimenti degli ordini di approvvigionamento. Dal lato dell'offerta, mostra la domanda che ha creato l'offerta. Dal lato della domanda, identifica l'offerta che deve coprire la domanda.  
 
-Di conseguenza, la tracciabilità dinamica dell'ordine può essere considerata uno strumento che consente all'utente di valutare se accettare i suggerimenti di approvvigionamento. Dal lato dell'offerta, un utente può vedere quale domanda ha creato l'approvvigionamento e dal lato della domanda, quale approvvigionamento deve coprire la domanda.  
+:::image type="content" source="media/nav_app_supply_planning_1_dynamic_order_tracking.png" alt-text="Esempio di tracciabilità ordini dinamica.":::
 
-![Esempio di tracciabilità ordini dinamica.](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Esempio di tracciabilità ordini dinamica")  
+Per ulteriori informazioni vedi [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md).  
 
-Per ulteriori informazioni, vedere [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md).  
+Nelle società con un flusso di articoli basso e strutture dei prodotti meno avanzate, può essere adatto utilizzare la tracciabilità dinamica dell'ordine per la pianificazione dell'approvvigionamento. Tuttavia, negli ambienti più occupati, il sistema di pianificazione deve essere utilizzato per garantire un piano di approvvigionamento correttamente equilibrato.  
 
-Nelle società con un flusso di articoli basso e strutture dei prodotti meno avanzate, potrebbe essere adatto utilizzare la tracciabilità dinamica dell'ordine come strumento principale di pianificazione dell'approvvigionamento. Tuttavia, negli ambienti più occupati, il sistema di pianificazione deve essere utilizzato per garantire sempre un piano di approvvigionamento correttamente equilibrato.  
+### Tracciabilità dinamica dell'ordine rispetto al sistema di pianificazione
 
-### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Tracciabilità dinamica dell'ordine rispetto al sistema di pianificazione
+Potrebbe essere difficile fare una differenza tra il sistema di pianificazione e la tracciabilità dinamica dell'ordine. Entrambe le funzionalità visualizzano l'output nel prospetto di pianificazione suggerendo azioni che il responsabile deve eseguire. Tuttavia, il modo in cui viene prodotto questo output è diverso.  
 
-Ad una rapida occhiata, potrebbe essere difficile fare una differenza tra il sistema di pianificazione e la tracciabilità dinamica dell'ordine. Entrambe le funzionalità visualizzano l'output nel prospetto di pianificazione suggerendo azioni che il responsabile deve eseguire. Tuttavia, il modo in cui viene prodotto questo output è diverso.  
+Il sistema di pianificazione si occupa dell'intero modello di domanda e offerta di un articolo. Considera tutti i livelli della gerarchia DBA lungo la sequenza temporale. La tracciabilità dinamica dell'ordine riguarda solo la situazione dell'ordine che l'ha attivata. Quando si bilancia domanda e offerta, il sistema di pianificazione crea i collegamenti in una modalità batch attivata dall'utente. La tracciabilità dinamica degli ordini crea automaticamente i collegamenti quando inserisci una domanda o un'offerta. Ad esempio, quando crei un ordine di vendita o di acquisto.  
 
-Il sistema di pianificazione si occupa dell'intero modello di approvvigionamento e domanda di un articolo tramite tutti i livelli della gerarchia della DB lungo la linea temporale, mentre la tracciabilità dinamica dell'ordine si occupa solo della situazione dell'ordine che l'ha attivata. Per il bilanciamento tra approvvigionamento e domanda, il sistema di pianificazione crea dei collegamenti in una modalità batch attivata dall'utente, mentre la tracciabilità ordine dinamica crea collegamenti automaticamente e immediatamente, ogni volta che l'utente immette una domanda o un approvvigionamento nell'applicazione, ad esempio un ordine di vendita o di acquisto.  
+La tracciabilità dinamica dell'ordine collega l'offerta e la domanda quando vengono immessi i dati, in base all'ordine. Ciò può condurre a un disordine nelle priorità. Ad esempio, un ordine di vendita immesso per primo con data di scadenza il mese successivo potrebbe essere collegato all'approvvigionamento in magazzino. Il prossimo ordine di vendita in scadenza domani può causare un messaggio di azione per creare un nuovo ordine di acquisto per coprirlo. L'immagine seguente illustra questo scenario.  
 
-La tracciabilità dinamica dell'ordine stabilisce i collegamenti tra l'approvvigionamento e la domanda quando vengono immessi i dati, in base all'ordine. Ciò può condurre a un certo disordine nelle priorità. Ad esempio, un ordine di vendita immesso prima, con una data di scadenza il mese successivo, può essere collegato all'approvvigionamento in magazzino, mentre l'ordine di vendita successivo con scadenza domani può indurre un messaggio di azione a creare un nuovo ordine di acquisto per coprirlo, come illustrato di seguito.  
+:::image type="content" source="media/nav_app_supply_planning_1_dynamic_order_tracking_graph.png" alt-text="Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 1.":::
 
-![Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 1.](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 1")  
+Il sistema di pianificazione gestisce la domanda e l'offerta per gli articoli in un ordine prioritario. L'ordine ha la priorità in base alle date di scadenza e ai tipi di ordine. Cioè, in base al principio "prima richiesto, prima servito". Elimina tutti i collegamenti di tracciabilità ordine che sono stati creati in modo dinamico e li ristabilisce in base alla priorità della data di scadenza. Quando viene completato, il sistema di pianificazione ha riconciliato tutti gli sbilanciamenti tra approvvigionamento e domanda, come illustrato di seguito per gli stessi dati.
 
-Invece, il sistema di pianificazione si occupa di tutta la domanda e l'approvvigionamento di un determinato articolo, secondo una priorità basata sulle date di scadenza e sui tipi di ordine, ovvero in base al concetto secondo cui il primo che necessita è il primo che viene servito. Elimina tutti i collegamenti di tracciabilità ordine che sono stati creati in modo dinamico e li ristabilisce in base alla priorità della data di scadenza. Quando viene completato, il sistema di pianificazione ha riconciliato tutti gli sbilanciamenti tra approvvigionamento e domanda, come illustrato di seguito per gli stessi dati.  
+:::image type="content" source="media/nav_app_supply_planning_1_planning_graph.png" alt-text="Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 2.":::  
 
-![Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 2.](media/NAV_APP_supply_planning_1_planning_graph.png "Esempio di tracciabilità ordini nella pianificazione approvvigionamenti 2")  
+Dopo aver eseguito la pianificazione, la tabella Movimenti messaggi azione non contiene alcun messaggio di azione. Questi messaggi vengono sostituiti dalle azioni suggerite nel foglio di lavoro di pianificazione. Per ulteriori informazioni vedi [Collegamenti della tracciabilità ordini durante la pianificazione](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-are-loaded-by-specification-level).  
 
-Dopo la pianificazione dell'esecuzione, non resta alcun messaggio nella tabella Movimenti messaggi azione, in quanto sono stati sostituiti dalle azioni suggerite nel prospetto di pianificazione  
+## Sequenza e priorità nella pianificazione
 
-Per ulteriori informazioni, vedere [Collegamenti della tracciabilità ordini durante la pianificazione](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
+La sequenza dei calcoli dei piano è importante per ottenere il completamento del processo entro un intervallo temporale ragionevole. La priorità dei requisiti e delle risorse svolge un ruolo importante nell'ottenimento dei risultati migliori.  
 
-## <a name="sequence-and-priority-in-planning"></a>Sequenza e priorità nella pianificazione
+Il sistema di pianificazione è guidato dalla domanda. Gli articoli di alto livello devono essere pianificati prima degli articoli di basso livello, in quanto possono generare la domanda degli articoli di livello più basso. Ad esempio, pianifica le ubicazioni al dettaglio prima dei centri di distribuzione, in quanto il piano per un'ubicazione al dettaglio può includere una domanda aggiuntiva dal centro di distribuzione. A livello di contropartita dettagliata, se un ordine di approvvigionamento già rilasciato può soddisfare l'ordine di vendita, il sistema non deve creare un nuovo ordine di approvvigionamento. Un approvvigionamento con un numero di lotto specifico non deve essere allocato per soddisfare una domanda generica se un'altra domanda richiede questo specifico lotto.  
 
-Quando si imposta un piano, la sequenza dei calcoli è importante per ottenere il completamento del processo entro un intervallo temporale ragionevole. Inoltre, la priorità dei requisiti e delle risorse svolge un ruolo importante nell'ottenimento dei risultati migliori.  
+### Priorità articolo / Codice ultimo livello
 
-Il sistema di pianificazione in [!INCLUDE[prod_short](includes/prod_short.md)] è guidato dalla domanda. Gli articoli di alto livello devono essere pianificati prima degli articoli di basso livello, in quanto il piano per gli articoli di alto livello potrebbe generare la domanda aggiuntiva degli articoli di livello più basso. Questo significa, ad esempio, che le ubicazioni al dettaglio devono essere pianificate prima dei centri di distribuzione, in quanto il piano per un'ubicazione al dettaglio può includere una domanda aggiuntiva dal centro di distribuzione. A livello di contropartita dettagliata, questo significa anche che un ordine di vendita non deve avviare un nuovo ordine di approvvigionamento se un ordine di approvvigionamento già rilasciato può soddisfare l'ordine di vendita. Analogamente, un approvvigionamento che presenta un numero di lotto specifico non deve essere allocato per soddisfare una domanda generica se un'altra domanda richiede questo specifico lotto.  
+In un ambiente di produzione, la domanda di un articolo finito e vendibile produrrà una domanda derivata di componenti riguardanti l'articolo finito. La struttura della distinta base controlla la struttura dei componenti e può coprire diversi livelli di articoli semilavorati (WIP). La pianificazione di un articolo a un livello causerà una domanda derivata di componenti al livello successivo. Ciò risulterà in una domanda derivata per gli articoli acquistati. Il sistema di pianificazione pianifica gli articoli in ordine di classificazione nella gerarchia DBA totale. Il sistema inizia con gli articoli vendibili finiti al livello superiore e prosegue lungo la struttura del prodotto fino agli articoli di livello inferiore (secondo il codice ultimo livello).  
 
-### <a name="item-priority--low-level-code"></a>Priorità articolo / Codice ultimo livello
+L'immagine seguente mostra la sequenza in cui [!INCLUDE [prod_short](includes/prod_short.md)] suggerisce gli ordini di approvvigionamento al livello superiore. Presuppone che i suggerimenti siano stati accettati e mostra anche gli articoli di livello inferiore.
 
-In un ambiente di produzione, la domanda di un articolo finito e vendibile produrrà una domanda derivata di componenti riguardanti l'articolo finito. La struttura della distinta base controlla la struttura dei componenti e può coprire diversi livelli di articoli semilavorati (WIP). La pianificazione di un articolo a un livello causerà una domanda derivata di componenti al livello successivo, e così via. Infine, ciò risulterà in una domanda derivata per gli articoli acquistati. Di conseguenza, il sistema di pianificazione pianifica gli articoli in base alla loro valutazione nella gerarchia DB totale, a partire dagli articoli vendibili finiti nel livello superiore e continuando nella struttura di prodotti fino agli articoli di livello più basso (in base al codice di ultimo livello).  
+:::image type="content" source="media/nav_app_supply_planning_1_bom_planning.png" alt-text="Pianificazione per le distinte base.":::
 
-![Pianificazione per le distinte base.](media/NAV_APP_supply_planning_1_BOM_planning.png "Pianificazione per le distinte base")  
+Per ulteriori informazioni sulle considerazioni di produzione, vedi [Caricare i profili di magazzino](design-details-balancing-demand-and-supply.md#load-inventory-profiles).  
 
-Le cifre mostrano in quale sequenza il sistema offre suggerimenti per gli ordini di approvvigionamento di articoli del livello massimo e, presupponendo che l'utente accetterà i suggerimenti, anche per gli articoli dei livelli inferiori.  
+#### Ottimizzazione delle prestazioni per calcoli del codice di ultimo livello
 
-Per ulteriori informazioni sulle considerazioni di produzione, vedere [Carico dei profili di magazzino](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+I calcoli del codice di ultimo livello possono influire sulle prestazioni del sistema. Per ridurre l'impatto, è possibile disattivare l'interruttore **Calcolo dinamico del codice di ultimo livello** nella pagina **Setup manufacturing**. In tal caso, [!INCLUDE[prod_short](includes/prod_short.md)] suggerisce di creare una movimento ricorrente nella coda processi che aggiorna quotidianamente i codici di ultimo livello. È possibile garantire che il processo venga eseguito al di fuori dell'orario di lavoro specificando un'ora di inizio nel campo **Prima data/ora inizio**.
 
-#### <a name="optimizing-performance-for-low-level-calculations"></a>Ottimizzazione delle prestazioni per calcoli del codice di ultimo livello
-
-I calcoli del codice di ultimo livello possono influire sulle prestazioni del sistema. Per mitigare l'impatto, è possibile disabilitare **Calcolo dinamico del codice di ultimo livello** nella pagina **Setup manufacturing**. In tal caso, [!INCLUDE[prod_short](includes/prod_short.md)] suggerirà di creare una voce ricorrente nella coda processi che aggiornerà quotidianamente i codici di ultimo livello. È possibile garantire che il processo venga eseguito al di fuori dell'orario di lavoro specificando un'ora di inizio nel campo **Prima data/ora inizio**.
-
-È inoltre possibile abilitare la logica che accelera i calcoli del codice di ultimo livello selezionando **Ottimizza il calcolo del codice di ultimo livello** nella pagina **Setup manufacturing**. 
+Puoi anche accelerare i calcoli del codice di ultimo livello attivando l'interruttore **Ottimizza il calcolo del codice di ultimo livello** nella pagina **Setup manufacturing**.
 
 > [!IMPORTANT]
-> Se si sceglie di ottimizzare le prestazioni, [!INCLUDE[prod_short](includes/prod_short.md)] utilizzerà nuovi metodi di calcolo per determinare i codici di ultimo livello. Se si dispone di un'estensione che si basa sugli eventi utilizzati dai calcoli precedenti, l'estensione potrebbe smettere di funzionare.   
+> Se si sceglie di ottimizzare le prestazioni, [!INCLUDE[prod_short](includes/prod_short.md)] utilizzerà nuovi metodi di calcolo per determinare i codici di ultimo livello. Se hai un'estensione che si basa sugli eventi utilizzati dai calcoli precedenti, l'estensione può smettere di funzionare.
 
-### <a name="locations--transfer-level-priority"></a>Ubicazioni/priorità a livello di trasferimento
+### Ubicazioni/priorità a livello di trasferimento
 
-Per le società che lavorano in più ubicazioni potrebbe essere necessario pianificare singolarmente ogni ubicazione. Ad esempio, il livello di scorta di sicurezza di un articolo e il metodo di riordino potrebbero essere diversi da una posizione a un'altra. In questo caso, i parametri di pianificazione devono essere specificati per articolo e anche per ubicazione.  
+Per le società con più ubicazioni potrebbe essere necessario pianificare singolarmente ogni ubicazione. Ad esempio, il livello di scorta di sicurezza di un articolo e il metodo di riordino possono essere diversi da una posizione a un'altra. È necessario specificare i parametri di pianificazione per articolo e ubicazione.  
 
-Ciò è supportato con l'utilizzo delle unità di stockkeeping, in cui i singoli parametri di pianificazione possono essere specificati a livello di stockkeeping. Una USK può essere valutata come un articolo in una specifica ubicazione. Se l'utente non ha definito una USK per tale ubicazione, l'applicazione imposterà i valori predefiniti ai parametri che sono stati impostati nella scheda articolo. L'applicazione calcola un piano solo per le ubicazioni attive, ovvero dove esiste una domanda o un approvvigionamento per l'articolo specificato.  
+Puoi utilizzare le SKU per specificare i singoli parametri di pianificazione. Una USK può essere valutata come un articolo in una specifica ubicazione. Se non hai definito una SKU per quella ubicazione, [!INCLUDE [prod_short](includes/prod_short.md)] utilizzerà i parametri impostati nella scheda articolo. [!INCLUDE [prod_short](includes/prod_short.md)] calcola un piano solo per le ubicazioni attive, ovvero dove esiste una domanda o un'offerta per l'articolo specificato.  
 
-In linea di principio, qualsiasi articolo può essere gestito in qualsiasi ubicazione, ma l'approccio dell'applicazione al concetto di ubicazione è piuttosto rigoroso. Ad esempio, un ordine di vendita in un'ubicazione non può essere soddisfatto da una specifica quantità in stock in un'altra ubicazione. La quantità in stock deve essere prima trasferita nell'ubicazione specificata nell'ordine di vendita.  
+Qualsiasi articolo può essere gestito in qualsiasi ubicazione, ma [!INCLUDE [prod_short](includes/prod_short.md)] ha un approccio al concetto di ubicazione piuttosto rigoroso. Ad esempio, un ordine di vendita per un articolo in un'ubicazione non può essere soddisfatto da una specifica quantità in stock di un'altra ubicazione. La quantità in stock deve essere prima trasferita nell'ubicazione specificata nell'ordine di vendita.
 
-![Pianificazione per le unità di stockkeeping.](media/NAV_APP_supply_planning_1_SKU_planning.png "Pianificazione per le unità di stockkeeping")  
+:::image type="content" source="media/nav_app_supply_planning_1_sku_planning.png" alt-text="Pianificazione per le unità di stockkeeping.":::
 
-Per ulteriori informazioni, vedere [Dettagli di progettazione - Trasferimenti nella pianificazione](design-details-transfers-in-planning.md).  
+Per ulteriori informazioni vedi [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md).  
 
-### <a name="order-priority"></a>Priorità ordini
+### Priorità ordini
 
-All'interno di una determinata USK, la data richiesta o disponibile rappresenta la priorità più alta; la domanda della data corrente deve essere gestita prima della domanda dei giorni successivi. Oltre a questo tipo di priorità, i tipi di domanda e approvvigionamento vengono ordinati in base all'importanza del business per decidere quale domanda deve essere soddisfatte prima di soddisfare un'altra domanda. Dal lato fornitore, la priorità dell'ordine indicherà quale origine di approvvigionamento deve essere collegata prima di collegare altre origini di approvvigionamento.  
+All'interno di una determinata USK, la data richiesta o disponibile rappresenta la priorità più alta; la domanda della data corrente deve essere gestita prima della domanda dei giorni successivi. Oltre a questo tipo di priorità, i tipi di domanda e approvvigionamento vengono ordinati in base all'importanza del business per decidere quale domanda deve essere soddisfatta prima. Dal lato dell'offerta, la priorità dell'ordine determina l'origine dell'approvvigionamento da applicare per prima. Per ulteriori informazioni vedi [Assegnare la priorità agli ordini](design-details-balancing-demand-and-supply.md#prioritize-orders).  
 
-Per ulteriori informazioni, vedere [Assegnazione priorità ordini](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
+## Previsioni della domanda e ordini programmati
 
-## <a name="demand-forecasts-and-blanket-orders"></a>Previsioni della domanda e ordini programmati
+Le previsioni e gli ordini programmati rappresentano la domanda prevista. L'ordine programmato, che copre gli acquisti destinati a un cliente in un determinato periodo di tempo, serve a ridurre le incertezze della previsione globale. L'ordine programmato è una previsione specifica del cliente sopra la previsione non specificata come nella seguente immagine.  
 
-Le previsioni e gli ordini programmati rappresentano la domanda prevista. L'ordine programmato, che copre gli acquisti destinati a un cliente in un determinato periodo di tempo, serve a ridurre le incertezze della previsione globale. L'ordine programmato è una previsione specifica del cliente sopra la previsione non specificata come illustrato di seguito.  
+:::image type="content" source="media/nav_app_supply_planning_1_forecast_and_blanket.png" alt-text="Pianificazione con le previsioni.":::
 
-![Pianificazione con le previsioni.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Pianificazione con le previsioni")  
+Per ulteriori informazioni vedi [La domanda di previsione viene ridotta dagli ordini di vendita](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-Per ulteriori informazioni, vedere [La domanda di previsione viene ridotta dagli ordini di vendita](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
+## Pianificazione assegnazione
 
-## <a name="planning-assignment"></a>Pianificazione assegnazione
-
-Tutti gli articoli devono essere pianificati, tuttavia, non esiste motivo per calcolare un piano per un articolo a meno che non ci sia stato una modifica nella domanda o nel modello di approvvigionamento dall'ultima volta in cui è stato calcolato un piano.  
-
-Se l'utente ha immesso un nuovo ordine di vendita o ne ha cambiato uno esistente, esiste motivo per ricalcolare il piano. Altri motivi includono una modifica nella previsione o la scorta di sicurezza desiderata. Modificare una distinta base aggiungendo o rimuovendo un componente che molto probabilmente indicherebbe una modifica, ma solo per l'articolo del componente.  
+Tutti gli articoli devono essere ripianificati perché il modello della domanda o dell'offerta è cambiato dall'ultima volta che è stato calcolato un piano. Se ad esempio hai immesso un nuovo ordine di vendita o ne hai modificato uno esistente, ricalcola il piano. Altri motivi per la ripianificazione includono una modifica nella previsione o nella scorta di sicurezza. La modifica di una distinta base aggiungendo o rimuovendo un componente molto probabilmente indica una modifica, ma solo per l'articolo del componente.  
 
 Il sistema di pianificazione monitorizza tali eventi e assegna gli articoli appropriati per la pianificazione.  
 
-Per più ubicazioni, l'assegnazione avviene a livello di articolo per ogni combinazione di ubicazione. Se, ad esempio, un ordine di vendita è stato creato solo in un'ubicazione, l'applicazione assegnerà l'articolo a tale specifica ubicazione per la pianificazione.  
+Per più ubicazioni, l'assegnazione avviene a livello di articolo per ogni combinazione di ubicazione. Se un ordine di vendita è stato creato solo in un'ubicazione, [!INCLUDE [prod_short](includes/prod_short.md)] assegna l'articolo all'ubicazione per la pianificazione.  
 
-Il motivo per selezionare gli articoli per la pianificazione è una questione di prestazioni del sistema. Se non viene apportata alcuna modifica nel modello domanda-approvvigionamento di un articolo, il sistema di pianificazione non suggerirà alcuna azione da intraprendere. Senza l'assegnazione di pianificazione, il sistema deve eseguire i calcoli per tutti gli articoli per determinare cosa pianificare e cosa sfrutta maggiormente le risorse di sistema.  
+Il motivo per selezionare gli articoli per la pianificazione è una questione di prestazioni del sistema. Se non viene apportata alcuna modifica nel modello domanda-offerta di un articolo, il sistema di pianificazione non suggerisce alcuna azione da intraprendere. Senza l'assegnazione di pianificazione, il sistema deve eseguire i calcoli per tutti gli articoli per determinare cosa pianificare. Per saperne di più sui motivi per assegnare gli articoli per la pianificazione, vedi [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md).  
 
-L'elenco completo dei motivi per l'assegnazione di un articolo per la pianificazione viene fornito in [Dettagli di progettazione - Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md).  
+Di seguito vengono illustrate le opzioni di pianificazione disponibili:  
 
-Le opzioni di pianificazione in [!INCLUDE[prod_short](includes/prod_short.md)] sono:  
+* **Calcola piano – rigenerativo** calcola tutti gli articoli selezionati, se sono necessari o meno.  
+* **Calcola piano - Solo cambiamenti** calcola solo gli articoli selezionati con modifiche nel relativo modello domanda-offerta e, pertanto, sono stati assegnati per la pianificazione.  
 
--   Calcola piano – rigenerativo: calcola tutti gli articoli selezionati, se sono necessari o meno.  
--   Calcola piano - Solo cambiamenti: calcola solo gli articoli selezionati con alcune modifiche nel relativo modello domanda-approvvigionamento e, pertanto, sono stati assegnati per la pianificazione.  
+Alcune persone ritengono che la pianificazione del saldo periodo debba essere eseguita immediatamente, ad esempio, quando vengono immessi gli ordini di vendita. Tuttavia, la pianificazione immediata potrebbe confondere perché la tracciabilità ordini dinamica e la messaggistica di azioni vengono calcolate immediatamente. [!INCLUDE[prod_short](includes/prod_short.md)] offre il controllo ATP (available-to-promise) in tempo reale. Fornisce avvisi pop-up quando immetti ordini di vendita e il piano di approvvigionamento corrente non è in grado di soddisfare la domanda.  
 
-Alcuni utenti ritengono che la pianificazione del saldo periodo debba essere eseguita immediatamente, ad esempio, quando vengono immessi gli ordini di vendita. Tuttavia, ciò potrebbe confondere perché la tracciabilità ordini dinamica e la messaggistica di azioni vengono calcolate immediatamente. Inoltre, [!INCLUDE[prod_short](includes/prod_short.md)] offre il controllo in tempo reale ATP (available-to-promise) che fornisce gli avvisi a comparsa quando si immettono gli ordini di vendita se la domanda non può essere soddisfatta nel piano di approvvigionamento corrente.  
+Il sistema di pianificazione pianifica solo per quegli articoli che hai preparato con i parametri di pianificazione appropriati. In caso contrario, presuppone che pianificherai gli articoli manualmente o in parte automaticamente utilizzando la funzionalità di pianificazione ordini. Per ulteriori informazioni sulle procedure di pianificazione automatiche, vedi [Dettagli di progettazione - Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md).  
 
-Oltre a queste considerazioni, il sistema di pianificazione pianifica solo per quegli articoli che l'utente ha preparato con i parametri di pianificazione appropriati. In caso contrario, si presuppone che l'utente pianificherà gli articoli manualmente o in parte automaticamente utilizzando la funzionalità di pianificazione ordini.  
-
-Per ulteriori informazioni sulle procedure di pianificazione automatiche, vedere [Dettagli di progettazione - Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md).  
-
-## <a name="item-dimensions"></a>Dimensioni articolo
+## Dimensioni articolo
 
 La domanda e l'approvvigionamento possono portare codici di variante e codici di ubicazione che devono essere rispettati quando il sistema di pianificazione bilancia la domanda e l'approvvigionamento.  
 
-Il sistema tratta i codici ubicazione e variante come dimensioni di articolo in una riga ordine di vendita, un movimento di inventario e così via. Di conseguenza, calcola un piano per ogni combinazione di variante e ubicazione come se la combinazione fosse un numero di articolo separato.  
+[!INCLUDE [prod_short](includes/prod_short.md)] tratta i codici ubicazione e variante come dimensioni di articolo in una riga ordine di vendita, un movimento di inventario e così via. Di conseguenza, calcola un piano per ogni combinazione di variante e ubicazione come se la combinazione fosse un numero di articolo separato.  
 
-Invece di calcolare una qualunque combinazione teorica di variante e ubicazione, vengono calcolate solo le combinazioni effettivamente presenti nel database.  
+Invece di calcolare combinazioni teoriche di variante e ubicazione, [!INCLUDE [prod_short](includes/prod_short.md)] calcola solo le combinazioni effettivamente presenti nel database. Per ulteriori informazioni su come il sistema di pianificazione si occupa dei codici ubicazione su richiesta, vedi [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-balancing-demand-and-supply.md).  
 
-Per ulteriori informazioni su come il sistema di pianificazione si occupa dei codici ubicazione su richiesta, vedere [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-balancing-demand-and-supply.md).  
+## Attributi articolo
 
-## <a name="item-attributes"></a>Attributi articolo
+Gli articoli hanno spesso attributi generali, come numero articolo, codice variante, codice ubicazione e tipo di ordine. Tuttavia, ogni evento di domanda e offerta può avere altre specifiche, ad esempio numeri di serie o di lotto. Il sistema di pianificazione pianifica questi attributi in determinati modi in base al relativo livello di specifica.  
 
-Oltre alle dimensioni dell'articolo corrente, ad esempio il numero articolo, il codice variante, il codice ubicazione e il tipo di ordine, ogni evento di domanda e approvvigionamento può portare specifiche aggiuntive nei numeri di serie o di lotto. Il sistema di pianificazione pianifica questi attributi in determinati modi in base al relativo livello di specifica.  
+Un collegamento ordine-a-ordine tra approvvigionamento e domanda è un altro tipo di attributo che riguarda il sistema di pianificazione. Per ulteriori informazioni, vedi [Collegamenti ordine su ordine](#order-to-order-links).
 
-Un collegamento ordine-a-ordine tra approvvigionamento e domanda è un altro tipo di attributo che riguarda il sistema di pianificazione.  
+### Attributi specifici
 
-### <a name="specific-attributes"></a>Attributi specifici
+Alcuni attributi della domanda sono specifici e un'offerta deve corrisponderli esattamente.
 
-Alcuni attributi a richiesta sono specifici e devono essere corrisposti esattamente da un approvvigionamento corrispondente. Sono disponibili i seguenti due attributi specifici:  
+* Numeri di serie o di lotto che necessitano di applicazione specifica (questi attributi sono necessari se l'interruttore **Tracciabilità NS specifico** o **Tracciab. lotto specifico** è attivato nella pagina **Scheda cod. tracciab. articolo** per il codice di tracciabilità articolo utilizzato dall'articolo).  
+* Collegamenti agli ordini di approvvigionamento creati manualmente o automaticamente per una domanda specifica (collegamenti ordine su ordine).  
 
--   Numeri di serie o di lotto richiesti che necessitano di applicazione specifica (la casella di controllo **Tracciabilità NS specifico** o **Tracciab. lotto specifico** è selezionata nella pagina **Scheda cod. tracciab. articolo** per il codice di tracciabilità articolo utilizzato dall'articolo).  
--   Collegamenti agli ordini di approvvigionamento creati manualmente o automaticamente per una domanda specifica (collegamenti ordine su ordine).  
+Per questi attributi il sistema di pianificazione applica le seguenti regole:  
 
-Per questi attributi, il sistema di pianificazione applica le seguenti regole:  
+* La domanda con gli attributi specifici può essere soddisfatta solo dall'approvvigionamento con gli attributi corrispondenti.  
+* L'approvvigionamento con attributi specifici può soddisfare una domanda che non richiede specificamente quegli attributi.  
 
--   La domanda con gli attributi specifici può essere soddisfatta solo dall'approvvigionamento con gli attributi corrispondenti.  
--   L'approvvigionamento con attributi specifici può soddisfare una domanda che non richiede specificamente quegli attributi.  
+Se gli approvvigionamenti previsti o di magazzino non possono soddisfare una domanda per attributi specifici, il sistema di pianificazione suggerisce un nuovo ordine di approvvigionamento senza tener conto dei parametri di pianificazione.  
 
-Di conseguenza, se una domanda di attributi specifici non può essere soddisfatta dal magazzino o dagli approvvigionamenti previsti, il sistema di pianificazione suggerirà un nuovo ordine di approvvigionamento per coprire la domanda specifica senza considerare i parametri di pianificazione.  
+### Attributi non specifici
 
-### <a name="non-specific-attributes"></a>Attributi non specifici
+Gli articoli con numeri di serie o di lotto senza un'impostazione di tracciabilità articolo specifica potrebbero avere numeri di serie o di lotto non specifici. Questi tipi di numeri possono essere applicati a qualsiasi numero di serie o di lotto. Il sistema di pianificazione ha più libertà per associare, ad esempio, una domanda serializzata con un approvvigionamento con un numero seriale, in genere in magazzino.  
 
-Gli articoli con numeri seriali/di lotto senza un'impostazione di tracciabilità articolo specifica possono includere numeri seriali/di lotto che non devono necessariamente essere applicati allo stesso esatto numero seriale o di lotto, ma possono essere applicati a un numero seriale o di lotto qualsiasi. Ciò consente al sistema di pianificazione più libertà per associare, ad esempio, una domanda serializzata con un approvvigionamento con un numero seriale, in genere in magazzino.  
+La domanda e l'offerta con numeri di serie o di lotto, specifici o non specifici, hanno priorità elevata e sono esenti dalla zona bloccata. Faranno parte della pianificazione anche se scadono prima della data di inizio della pianificazione. Per ulteriori informazioni, vedi [I numeri seriali o di lotto vengono caricati dal livello di specifica](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-are-loaded-by-specification-level).
 
-La domanda e l'approvvigionamento con i numeri seriali o di lotto, specifici o non specifici, sono considerati di alta priorità e sono quindi esenti dalla zona bloccata, ciò significa che faranno parte della pianificazione anche se la scadenza è precedente alla data di inizio della pianificazione.  
+Per ulteriori informazioni su come il sistema di pianificazione bilancia gli attributi, vedi [Numeri di serie o di lotto e collegamenti ordine-a-ordine sono esenti dal periodo precedente](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period).  
 
-Per ulteriori informazioni, vedere [I numeri seriali o di lotto vengono caricati dal livello di specifica](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
+## Collegamenti ordine su ordine
 
-Per ulteriori informazioni su come il sistema di pianificazione bilancia gli attributi, vedere [Numeri di serie o di lotto e collegamenti ordine-a-ordine sono esenti dalla zona bloccata](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
+Ordine su ordine significa che acquisti, assembli o produci un articolo per una domanda specifica. Ci sono diversi motivi per scegliere questo criterio:
 
-## <a name="order-to-order-links"></a>Collegamenti ordine su ordine
+* La domanda è poco frequente.
+* Il lead time è insignificante.
+* Gli attributi richiesti variano.  
 
-L'approvvigionamento ordine su ordine significa che un articolo viene acquistato, assemblato o prodotto esclusivamente per coprire una domanda specifica. In genere si riferisce ad articoli A e le motivazioni per scegliere questo metodo può essere quello di una domanda poco frequente, un lead time insignificante o la variazione degli attributi necessari.  
-
-Un altro caso particolare che utilizza i collegamenti ordine-a-ordine è quando un ordine di assemblaggio è collegato a un ordine di vendita in uno scenario assemblaggio su ordine.  
+Un altro caso che utilizza i collegamenti ordine su ordine è quando un ordine di assemblaggio è collegato a un ordine di vendita in uno scenario assemblaggio su ordine.  
 
 I collegamenti ordine su ordine vengono applicati tra la domanda e l'approvvigionamento in quattro modi:  
 
--   Quando l'articolo pianificato utilizza il metodo di riordino Ordine.  
--   Se si utilizza la politica di produzione Produzione su ordine per creare ordini di produzione di tipo progetto o multilivello (producendo i componenti necessari nello stesso ordine di produzione).  
--   Se si creano ordini di produzione per ordini di vendita con la funzionalità Pianifica ordine vendita.  
--   Durante l'assemblaggio di un articolo a un ordine di vendita. (I criteri di assemblaggio vengono impostati all'assemblaggio su ordine.  
+* Quando l'articolo pianificato utilizza il metodo di riordino **Ordine**  
+* Se usi il criterio produzione su ordine per creare ordini di produzione di tipo progetto o multilivello (producendo i componenti nello stesso ordine di produzione)  
+* Se crei ordini di produzione per ordini di vendita con la funzionalità Pianifica ordine vendita  
+* Quando assembli un articolo in un ordine di vendita (**Criterio di assemblaggio** è impostato su **Assemblaggio su ordine**)  
 
-In queste istanze, il sistema di pianificazione suggerirà solo di ordinare la quantità richiesta. Una volta creato, l'ordine di acquisto, di produzione o di assemblaggio continuerà a essere associato alla corrispondente domanda. Ad esempio, se un ordine di vendita viene modificato in tempo o quantità, il sistema di pianificazione suggerirà che l'ordine di approvvigionamento è stato modificato di conseguenza.  
+Il sistema di pianificazione ti suggerisce solo di ordinare la quantità richiesta. L'ordine di acquisto, di produzione o di assemblaggio continua a essere associato alla domanda. Ad esempio, se un ordine di vendita viene modificato in tempo o quantità, il sistema di pianificazione suggerisce di modificare l'ordine di approvvigionamento di conseguenza.  
 
-Quando sono presenti collegamenti ordine su ordine, il sistema di pianificazione non include l'approvvigionamento o il magazzino collegato nella procedura di bilanciamento. Spetta all'utente valutare se l'approvvigionamento collegato deve essere utilizzato per coprire un'altra domanda o una nuova e, in questo caso, eliminare l'ordine di approvvigionamento o impegnare manualmente l'approvvigionamento collegato.  
+Quando sono presenti collegamenti ordine su ordine, il sistema di pianificazione non include l'approvvigionamento o il magazzino collegato nella procedura di bilanciamento. I pianificatori possono decidere se utilizzare l'offerta collegata o una nuova domanda. In quest'ultimo caso, possono eliminare l'ordine di approvvigionamento o riservare manualmente l'approvvigionamento collegato.  
 
-Gli impegni e i collegamenti di tracciabilità ordine verranno interrotti se la situazione diventa impossibile, come lo spostamento della domanda a una data precedente all'approvvigionamento. Tuttavia, il collegamento ordine su ordine si adatta a tutte le modifiche nella rispettiva domanda o nel rispettivo approvvigionamento e non viene mai interrotto.  
+Le prenotazioni e i collegamenti di tracciabilità degli ordini si interrompono se una situazione diventa impossibile. Ad esempio, quando si sposta la domanda a una data precedente all'offerta. I collegamenti ordine su ordine si adattano ai cambiamenti della domanda o dell'offerta e non si interrompono mai.  
 
-## <a name="reservations"></a>Prenotazioni
+## Prenotazioni
 
-Il sistema di pianificazione non include quantità impegnate nel calcolo. Ad esempio, se un ordine di vendita è stato completamente o parzialmente impegnato rispetto alla quantità in magazzino, la quantità impegnata in magazzino non può essere utilizzata per coprire altre domande. Il sistema di pianificazione non include questo set di domanda e approvvigionamento nel calcolo.  
+Il sistema di pianificazione non include quantità impegnate nei calcoli. Ad esempio, se una quantità per un ordine di vendita è completamente o parzialmente prenotata, non è possibile utilizzarla per coprire un'altra domanda.
 
-Tuttavia, il sistema di pianificazione includerà ancora le quantità impegnate nel profilo della giacenza disponibile perché tutte le quantità devono essere considerate nella determinazione del superamento del punto di riordino e la quantità di riordino per raggiungere e non superare il livello massimo di magazzino. Di conseguenza, gli impegni inutili condurranno a maggiori rischi che i livelli di magazzino diventino bassi poiché la logica di pianificazione non rileva le quantità impegnate.  
+Il sistema di pianificazione non include quantità impegnate nel profilo di magazzino previsto. Deve considerare tutte le quantità per determinare quando è passato il punto di riordino e quante riordinarne per raggiungere il livello massimo di magazzino. Gli impegni non necessari possono aumentare il rischio che i livelli di magazzino diventino bassi poiché la logica di pianificazione non rileva le quantità impegnate.  
 
-L'esempio seguente mostra come gli impegni possono ostacolare il piano più fattibile.  
+L'immagine seguente mostra come le prenotazioni possono ostacolare la pianificazione.  
 
-![Pianificazione con gli impegni.](media/NAV_APP_supply_planning_1_reservations.png "Pianificazione con gli impegni")  
+:::image type="content" source="media/nav_app_supply_planning_1_reservations.png" alt-text="Pianificazione con gli impegni.":::
 
-Per ulteriori informazioni, vedere [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md).  
+Per ulteriori informazioni vedi [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md).  
 
-## <a name="warnings"></a>Avvisi
+## Avvisi
 
-La prima colonna nel prospetto di pianificazione è dedicata ai campi di avviso. Per ogni riga di pianificazione creata per una situazione insolita viene visualizzata in questo campo un'icona di avviso; fare clic su di essa per ottenere ulteriori informazioni.  
+La prima colonna nel prospetto di pianificazione è dedicata ai campi di avviso. Quando crei una riga di pianificazione per una situazione insolita, viene visualizzata un'icona di avviso.  
 
-L'approvvigionamento nelle righe di pianificazione con avvisi in genere non viene modificato in base ai parametri di pianificazione. Al contrario, il sistema di pianificazione suggerisce solo un approvvigionamento per coprire la quantità di domanda esatta. Tuttavia, il sistema può essere impostato in modo da rispettare parametri specifici per le righe di pianificazione con determinati avvisi. Per ulteriori informazioni, vedere la descrizione di queste opzioni per il processo batch **Calcola piano - Pianif. magaz.** e per il processo batch **Calcola piano - Approvv. magaz.** rispettivamente.  
+L'approvvigionamento nelle righe di pianificazione con avvisi in genere non viene modificato in base ai parametri di pianificazione. Al contrario, il sistema di pianificazione suggerisce un approvvigionamento per coprire la quantità di domanda esatta. Tuttavia, il sistema può essere impostato in modo da rispettare parametri di pianificazione per le righe di pianificazione con determinati avvisi. Le informazioni di avviso vengono visualizzate nella pagina **Elementi di pianificazione non tracciati**, che visualizza anche i collegamenti di tracciabilità alle entità di rete diverse dagli ordini. Sono disponibili tre tipi di avvisi:  
 
-Le informazioni di avviso vengono visualizzate nella pagina **Elementi di pianificazione non tracciati**, che viene utilizzata anche per visualizzare i collegamenti di tracciabilità alle entità di rete diversa dagli ordini. Sono disponibili i seguenti tipi di avviso:  
+* Emergenza  
+* Eccezione  
+* Attenzione  
 
--   Emergenza  
--   Eccezione  
--   Attenzione  
+:::image type="content" source="media/nav_app_supply_planning_1_warnings.png" alt-text="Avvisi del prospetto di pianificazione.":::
 
-![Avvisi del prospetto di pianificazione.](media/NAV_APP_supply_planning_1_warnings.png "Avvisi del prospetto di pianificazione")  
-
-### <a name="emergency"></a>Emergenza
+### Emergenza
 
 L'avviso di emergenza è visualizzato in due situazioni:  
 
--   Quando alla data di inizio pianificazione le giacenze sono negative.  
--   Quando sono presenti eventi di approvvigionamento o domanda arretrati.  
+* Quando alla data di inizio pianificazione le giacenze sono negative  
+* Quando sono presenti eventi di approvvigionamento o domanda arretrati  
 
-Se le giacenze di un articolo sono negative alla data di inizio pianificazione, il sistema di pianificazione suggerisce un approvvigionamento di emergenza per la quantità negativa che pervenga alla data di inizio pianificazione. Il testo di avviso riporta la data di inizio e la quantità dell'ordine di emergenza. Per ulteriori informazioni, vedere [Gestione giacenze negative previste](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
+Se le giacenze di un articolo sono negative alla data di inizio pianificazione, il sistema di pianificazione suggerisce un approvvigionamento di emergenza per la quantità negativa che pervenga alla data di inizio pianificazione. Il testo di avviso riporta la data di inizio e la quantità dell'ordine di emergenza. Per ulteriori informazioni vedi [Gestione giacenze negative previste](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
-Tutte le righe di documento con data di scadenza precedente la data di inizio pianificazione sono consolidate in un unico ordine di approvvigionamento di emergenza che pervenga nella data di inizio pianificazione.  
+Le righe di documento con data di scadenza precedente la data di inizio pianificazione sono consolidate in un ordine di approvvigionamento di emergenza. L'arrivo dell'ordine è pianificato per la data di inizio pianificazione.  
 
-### <a name="exception"></a>Eccezione
+### Eccezione
 
 L'avviso di eccezione viene visualizzato se la proiezione delle giacenze disponibili scende al di sotto della scorta di sicurezza. Il sistema di pianificazione suggerisce un ordine di approvvigionamento per soddisfare la domanda alla data di scadenza. Il testo dell'avviso riporta la quantità di scorte di sicurezza dell'articolo e la data in cui è stata intaccata.  
 
-Intaccare il livello di scorta di sicurezza è considerata un'eccezione perché non dovrebbe verificarsi se il punto di riordino è stato impostato correttamente. Per ulteriori informazioni, vedere [Il ruolo del punto di riordino](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
+La violazione del livello delle scorte di sicurezza è un'eccezione. Non deve accadere se il punto di riordino è impostato correttamente. Per ulteriori informazioni, vedi [Il ruolo del punto di riordino](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
-Le proposte d'ordine eccezionali assicurano che normalmente le scorte disponibili previste non siano mai più basse del livello di scorta di sicurezza. Ciò significa che la quantità proposta sia sufficiente per coprire la scorta di sicurezza, senza considerare i parametri di pianificazione. Tuttavia, in alcuni scenari, verranno presi in considerazione i modificatori di ordine.  
+Le proposte di ordine di eccezione assicurano che normalmente le scorte disponibili previste non siano mai più basse del livello di scorta di sicurezza. La quantità proposta copre la scorta di sicurezza, senza considerare i parametri di pianificazione. Tuttavia, in alcuni scenari, verranno presi in considerazione i modificatori di ordine.  
 
 > [!NOTE]  
->  Il sistema di pianificazione potrebbe aver consumato la scorta di sicurezza intenzionalmente, pertanto la rifornirà immediatamente. Per ulteriori informazioni, vedere [La scorta di sicurezza può essere consumata](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
+> Il sistema di pianificazione potrebbe aver consumato la scorta di sicurezza intenzionalmente, pertanto la rifornirà immediatamente. Per ulteriori informazioni vedi [Consumare le scorte di sicurezza](design-details-balancing-demand-and-supply.md#consume-safety-stock).
 
-### <a name="attention"></a>Attenzione
+### Attenzione
 
 L'avviso di attenzione è visualizzato in tre situazioni:  
 
--   La data di inizio pianificazione precede la data di lavoro.  
--   La riga di pianificazione suggerisce di cambiare un ordine di acquisto o di produzione rilasciato.  
--   La giacenza disponibile supera il livello di overflow alla data di scadenza. Per ulteriori informazioni, vedere [Al di sotto del livello di overflow](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
+* La data di inizio pianificazione precede la data di lavoro.  
+* La riga di pianificazione suggerisce di cambiare un ordine di acquisto o di produzione rilasciato.  
+* La giacenza disponibile supera il livello di overflow alla data di scadenza. Per ulteriori informazioni vedi [Restare al di sotto del livello di overflow](design-details-handling-reordering-policies.md#stay-below-the-overflow-level).  
 
 > [!NOTE]  
->  Nella pianificazione delle righe con avvisi, il campo **Accetta messaggio errore** non è selezionato perché si prevede che l'addetto alla pianificazione effettui ulteriori indagini su tali righe prima di eseguire il piano.  
+> Nella pianificazione delle righe con avvisi, il campo **Accetta messaggio errore** non è selezionato perché si prevede che l'addetto alla pianificazione effettui indagini sulle righe prima di eseguire il piano.  
 
-## <a name="error-logs"></a>Registri errore
+## Registri errore
 
-Nella pagina di richiesta Calcola piano, l'utente può selezionare il campo **Interrompi e mostra primo errore** per interrompere l'esecuzione della pianificazione quando incontra il primo errore. Contemporaneamente verrà visualizzato un messaggio contenente informazioni sull'errore. Se è presente un errore, nel prospetto pianificazione verranno presentate solo le righe di pianificazione create prima dell'individuazione dell'errore.  
+Nella pagina di richiesta **Calcola piano**, l'utente può selezionare il campo **Interrompi e mostra primo errore** per interrompere l'esecuzione della pianificazione quando incontra il primo errore. Viene visualizzato un messaggio contenente le informazioni sull'errore. Se è presente un errore, nel prospetto di pianificazione verranno presentate solo le righe di pianificazione create correttamente prima dell'individuazione dell'errore.  
 
-Se il campo non è selezionato, il processo batch Calcola piano continuerà fino a completamento. Gli errori non verranno interrotti dal processo batch. Se si verificano uno o più errori, nell'applicazione verrà visualizzato un messaggio al termine, indicante la quantità di articoli interessati da errori. Verrà quindi aperta la pagina **Log errori pianificazione**, in cui saranno disponibili ulteriori dettagli sull'errore e per fornire collegamenti ai documenti interessati o alle schede di impostazione.  
+Se il campo non è selezionato, il processo batch **Calcola piano** continuerà fino a completamento. Gli errori non interrompono il processo batch. In caso di errori, un messaggio indica quanti articoli sono stati interessati. La pagina **Log errori pianificazione** fornisce ulteriori dettagli sull'errore e i collegamenti ai documenti interessati o alle impostazioni.  
 
-![Messaggi di errore del prospetto di pianificazione.](media/NAV_APP_supply_planning_1_error_log.png "Messaggi di errore del prospetto di pianificazione")  
+:::image type="content" source="media/nav_app_supply_planning_1_error_log.png" alt-text="Messaggi di errore del prospetto di pianificazione.":::
 
-## <a name="planning-flexibility"></a>Flessibilità pianificazione
+## Flessibilità pianificazione
 
-Non è sempre pratico pianificare un ordine di approvvigionamento esistente, ad esempio quando viene avviata la produzione o quando viene impiegato del personale aggiuntivo un giorno specifico per svolgere una commessa. Per indicare se un ordine esistente può essere modificato dal sistema di pianificazione, tutte le righe dell'ordine di approvvigionamento dispongono di un campo Flessibilità pianificazione con due opzioni: Illimitata o Nessuna. Se il campo è impostato su Nessuno, il sistema di pianificazione non proverà a modificare la riga dell'ordine di approvvigionamento.  
+Non è sempre fattibile pianificare un ordine di approvvigionamento esistente. Ad esempio, quando la produzione è iniziata o assumi altre persone in un giorno specifico per svolgere il lavoro. Per indicare se un ordine esistente può essere modificato dal sistema di pianificazione, tutte le righe dell'ordine di approvvigionamento dispongono di un campo **Flessibilità pianificazione** con due opzioni: **Illimitata** o **Nessuna**. Se il campo è impostato su **Nessuna**, il sistema di pianificazione non proverà a modificare la riga dell'ordine di approvvigionamento.  
 
-Il campo può essere impostato manualmente dall'utente, tuttavia, in alcuni casi verrà impostato automaticamente dal sistema. Il fatto che la flessibilità di pianificazione possa essere impostata manualmente dall'utente è importante perché consente di adattare l'utilizzo della funzionalità a flussi di lavoro e casi differenti.  
+Puoi scegliere manualmente un'opzione nel campo tuttavia, in alcuni casi verrà impostato automaticamente da [!INCLUDE [prod_short](includes/prod_short.md)]. Il fatto che la flessibilità di pianificazione possa essere impostata manualmente è importante perché ti consente di adattare l'utilizzo della funzionalità a flussi di lavoro e casi differenti. Per ulteriori informazioni su come viene utilizzato questo campo, vedi [Dettagli di progettazione - Trasferimenti nella pianificazione](design-details-transfers-in-planning.md).  
 
-Per ulteriori informazioni su come viene utilizzato questo campo, vedere [Dettagli di progettazione - Trasferimenti nella pianificazione](design-details-transfers-in-planning.md).  
+## Pianificazione ordini
 
-## <a name="order-planning"></a>Pianificazione ordini
-
-Lo strumento di base di pianificazione dell'approvvigionamento rappresentato dalla pagina **Pianificazione ordini** è progettato per un processo decisionale manuale. Non considera i parametri di pianificazione e pertanto non viene ulteriormente discusso in questo documento. Per ulteriori informazioni, vedere [Pianificare una nuova domanda ordine per ordine](production-how-to-plan-for-new-demand.md).  
+Lo strumento di base di pianificazione dell'approvvigionamento rappresentato dalla pagina **Pianificazione ordini** è progettato per un processo decisionale manuale. Non considera i parametri di pianificazione e pertanto non viene ulteriormente discusso in questo articolo. Per ulteriori informazioni, vedi [Pianificare una nuova domanda ordine per ordine](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
->  Non è consigliabile utilizzare Pianificazione ordini se la società già utilizza i prospetti di pianificazione o di richiesta di approvvigionamento. Gli ordini di approvvigionamento creati mediante la pagina **Pianificazione ordini** possono essere modificati o eliminati durante le esecuzioni automatizzate di pianificazione. Ciò si verifica perché in fase di pianificazione automatica vengono utilizzati parametri di pianificazione che potrebbero non venire presi in considerazione dall'utente che ha creato la pianificazione manuale nella pagina Pianificazione ordini.  
+> Non è consigliabile utilizzare la pianificazione ordini se la società già utilizza i prospetti di pianificazione o di richiesta di approvvigionamento. Gli ordini di approvvigionamento creati mediante la pagina **Pianificazione ordini** possono essere modificati o eliminati durante le esecuzioni automatizzate di pianificazione. Queste modifiche si verificano perché l'esecuzione della pianificazione automatica utilizza i parametri di pianificazione che potrebbero non venire presi in considerazione quando manualmente hai creato la pianificazione nella pagina Pianificazione ordini.  
 
-## <a name="finite-loading"></a>Carico finito
+## Carico finito
 
-[!INCLUDE[prod_short](includes/prod_short.md)] è un sistema ERP standard, non un sistema di controllo della produzione o del reparto. Consente di pianificare un utilizzo fattibile di risorse fornendo una pianificazione approssimativa, ma non consente di creare e gestire automaticamente pianificazioni dettagliate in base alle priorità o alle regole di ottimizzazione.  
+[!INCLUDE[prod_short](includes/prod_short.md)] fornisce un programma approssimativo per pianificare un uso ragionevole delle risorse. Non crea e mantiene automaticamente le pianificazioni dettagliate basate su priorità o regole di ottimizzazione.  
 
-L'utilizzo previsto della funzionalità Risorse critiche è 1) evitare il sovraccarico di risorse specifiche e 2) garantire che nessuna capacità resti senza allocazione se ciò può aumentare il tempo di completamento di un ordine di produzione. La funzionalità non include funzioni o opzioni per assegnare priorità o ottimizzare le operazioni come ci si potrebbe aspettare in un sistema di invio. Tuttavia, può fornire informazioni di capacità approssimative utili per identificare i colli di bottiglia e per evitare il sovraccarico delle risorse.  
+L'uso previsto della funzionalità delle risorse con limiti di capacità è il seguente:
 
-Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce che nessuna risorsa venga caricata oltre la propria capacità definita (carico critico). Questa operazione viene effettuata assegnando ogni operazione alla fascia oraria disponibile più vicina. Se la fascia oraria non è sufficiente a completare l'intera operazione, l'operazione verrà divisa in due o più parti e collocate nelle fasce orarie adiacenti disponibili.  
+* Per evitare di sovraccaricare le risorse
+* Per garantire che la capacità non venga allocata se potrebbe ridurre il tempo di completamento di un ordine di produzione
+
+Nella pianificazione con risorse vincolate alla capacità, [!INCLUDE [prod_short](includes/prod_short.md)] garantisce che nessuna risorsa venga caricata oltre la propria capacità definita (carico critico). Assegna ogni operazione alla fascia oraria disponibile più vicina. Se la fascia oraria non è sufficiente a completare l'intera operazione, divide l'operazione in due o più parti e le colloca nelle fasce orarie adiacenti disponibili.  
 
 > [!NOTE]  
 > Nel caso che l'operazione venga suddivisa, il tempo di setup viene assegnato una sola volta perché si presuppone che vengano apportate alcune rettifiche manuali per ottimizzare la pianificazione.  
 
-Il tempo di smorzamento può essere aggiunto alle risorse per ridurre al minimo la suddivisione dell'operazione. Ciò consente al sistema di programmare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico se ciò può ridurre il numero di operazioni che vengono suddivise.  
+Puoi aggiungere il tempo di stabilizzazione alle risorse per ridurre al minimo la suddivisione dell'operazione. Questa tempo permette a [!INCLUDE [prod_short](includes/prod_short.md)] di pianificare il carico nell'ultimo giorno possibile superando leggermente la percentuale di carico critico.  
 
-Ciò completa la sintesi dei concetti centrali relativi alla pianificazione di approvvigionamenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Nelle sezioni che seguono questi concetti vengono analizzati in modo più approfondito e inseriti nel contesto delle procedure di pianificazione di base, del bilanciamento tra approvvigionamento e domanda, nonché dell'uso di metodi di riordino.  
-
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)  
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  

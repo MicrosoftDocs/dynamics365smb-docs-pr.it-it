@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 016acda42ce891b50d766d089c33fb5b68cf8028
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605713"
 ---
-# <a name="use-reports-in-daily-work"></a>Usare i report nel lavoro quotidiano
+# Usare i report nel lavoro quotidiano
 
 Un report in [!INCLUDE[prod_short](includes/prod_short.md)] raccoglie informazioni in base a una serie di criteri specificati. Organizza e presenta le informazioni in un formato di facile lettura che puoi stampare o salvare come file.  
 
@@ -31,9 +25,9 @@ Un report in [!INCLUDE[prod_short](includes/prod_short.md)] raccoglie informazio
 | Scopri come modificare il layout predefinito di un report. | [Modifica del layout predefinito del report](ui-how-change-layout-currently-used-report.md) |
 | Visualizza e analizza i dati da un set di dati di report in Microsoft Excel. | [Salva il set di dati del report in Excel dalla pagina della richiesta](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
+## Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica del report](reports-available-reports.md)  
 [Panoramica di Business Intelligence e creazione di report](ui-work-report.md)  

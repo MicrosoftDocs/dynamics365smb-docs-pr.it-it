@@ -1,120 +1,126 @@
 ---
 title: Spedire articoli
-description: Questo articolo descrive come spedire gli articoli dalla warehouse in base alla configurazione warehouse per l'elaborazione della spedizione.
-author: SorenGP
+description: Questo articolo descrive come spedire gli articoli dalla warehouse.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
-ms.date: 09/02/2022
-ms.author: edupont
-ms.openlocfilehash: b66a0a0a4cad12c4f41c53569b0007c51e846de7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531217"
+ms.date: 02/22/2023
+ms.custom: bap-template
+ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# <a name="ship-items"></a>Spedire articoli
 
-Quando gli articoli partono da una warehouse che non è impostata per l'elaborazione delle spedizioni warehouse, occorre registrare semplicemente la spedizione nel documento aziendale correlato, ad esempio un ordine di vendita, un ordine di assistenza, un ordine di reso acquisto o un ordine di trasferimento in uscita.
+# Spedire gli articoli con una spedizione warehouse
 
-Quando gli articoli vengono spediti da una warehouse impostata in modo da richiedere l'elaborazione delle spedizioni warehouse, è possibile spedire articoli solo in base ai documenti di origine rilasciati alla warehouse da altri reparti della società affinché vengano elaborati.
+In [!INCLUDE[prod_short](includes/prod_short.md)], il prelievo e la spedizione degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
-> [!NOTE]
-> Se la warehouse prevede cross-docking e collocazioni, per ogni riga, è possibile visualizzare la quantità di articoli inseriti nelle collocazioni di cross-dock. L'applicazione calcola le quantità automaticamente ogni volta che i campi della spedizione vengono aggiornati. Se si tratta di articoli facenti parte della spedizione che si sta preparando, è possibile creare un prelievo per tutte le righe e completare la spedizione. Ulteriori informazioni in [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
+|Metodo|Processo in uscita|Richiesto prelievo|Richiesta spedizione|Livello di complessità (ulteriori informazioni in [Panoramica di Warehouse Management](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Registra il prelievo e la spedizione dalla riga ordine|||Nessuna attività di warehouse dedicata.|  
+|B|Registra il prelievo e la spedizione da un documento di prelievo magazzino|Attivato||Di base: ordine per ordine.|  
+|C|Registra il prelievo e la spedizione da un documento di spedizione warehouse||Attivato|Di base: registrazione di ricezione e spedizione consolidata per più ordini.|  
+|G|Registra il prelievo da un documento di prelievo warehouse e la spedizione da un documento di spedizione warehouse|Attivato|Attivato|Avanzate|  
 
-## <a name="ship-items-with-a-sales-order"></a>Spedire gli articoli con un ordine di vendita
+Per ulteriori informazioni sulla spedizione degli articoli, vai a [Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md).
 
-Le seguenti istruzioni descrivono come spedire gli articoli da un ordine di vendita. I passaggi riguardanti gli ordini di reso acquisto, gli ordini di assistenza e gli ordini di trasferimento in uscita sono simili.  
+Questo articolo fa riferimento ai metodi C e D nella tabella. In entrambi i metodi inizi creando un documento di spedizione da un documento di origine aziendale. Selezionare gli articoli specificati per la spedizione.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
-2. Aprire un ordine di vendita esistente o crearne uno. Ulteriori informazioni in [Vendere prodotti](sales-how-sell-products.md).
-3. Nel campo **Qtà da Spedire** immettere la quantità spedita.
+Quando un'ubicazione richiede spedizioni warehouse, è possibile spedire gli articoli in base ai documenti di origine che sono stati rilasciati alla warehouse. Il rilascio dei documenti di origine rende gli articoli pronti per essere movimentati nella warehouse. I seguenti sono esempi di documenti di origine:
 
-    Il valore nel campo **Qtà spedita** viene aggiornato. Se si tratta di una spedizione parziale, il valore è inferiore al valore nel campo **Quantità**. Ulteriori informazioni in [Elaborare spedizioni parziali](sales-how-send-partial-shipments.md).
-4. Scegli l'azione **Registra**.
+* Ordini vendita
+* Ordini di reso acquisto
+* Ordini di trasferimento
+* Ordini assistenza
 
-> [!NOTE]
-> Se l'organizzazione non utilizza gli ordini di vendita quando si registra la fattura di vendita, [!INCLUDE [prod_short](includes/prod_short.md)] presume che l'intero quantitativo sia stato spedito. Se ciò è in contraddizione con il funzionamento dell'organizzazione, si consiglia di utilizzare gli ordini di vendita e registrare le spedizioni come spiegato in questo articolo.
+Puoi creare una spedizione warehouse in uno di due modi:
 
-## <a name="ship-items-with-a-warehouse-shipment"></a>Spedire gli articoli con una spedizione warehouse
+* In modalità push, quando il lavoro viene svolto ordine per ordine. Scegli l'azione **Crea spedizione warehouse** nel documento di origine per creare una spedizione warehouse per il documento.
+* In modalità pull, in cui si utilizza l'azione **Rilascia** nel documento di origine per rilasciarlo alla warehouse. Un dipendente della warehouse crea una **Spedizione warehouse** per uno o più documenti di origine rilasciati. La procedura seguente descrive come creare la spedizione warehouse nella modalità pull.
 
-Innanzitutto, creare un documento di spedizione da un documento di origine aziendale. Selezionare gli articoli specificati per la spedizione.
+## Per spedire gli articoli usando un documento spedizione warehouse
 
-### <a name="create-a-warehouse-shipment"></a>Creare una spedizione warehouse
-
-In genere, l'impiegato responsabile della spedizione crea una spedizione warehouse. La procedura seguente descrive come creare manualmente la spedizione nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)]. Tuttavia, la tua organizzazione potrebbe aver automatizzato parte del processo, ad esempio con l'uso di scanner portatili o montati supportati da fornitori esterni.  
-
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.  
 2. Selezionare **Nuovo**.  
+3. Nel campo **Nr.** Scegli la numerazione da utilizzare per creare un ID per la spedizione.  
+4. Nel campo **Codice ubicazione**, scegli l'ubicazione da cui effettui la spedizione. 
 
-    Compilare i campi della Scheda dettaglio **Generale**. Quando si recuperano le righe dei documenti di origine, alcune informazioni vengono copiate in ciascuna riga.  
+    Quando si recuperano le righe dei documenti di origine, alcune informazioni dell'ubicazione vengono copiate in ciascuna riga.  
+5. Se l'ubicazione richiede collocazioni, compila il campo **Codice collocazione**. A seconda della tua configurazione, [!INCLUDE[prod_short](includes/prod_short.md)]] può aggiungere il codice collocazione automaticamente. Per ulteriori informazioni vedi [Codici zona e collocazione](warehouse-how-ship-items.md#zone-and-bin-codes).  
+6. Puoi ottenere il documento di origine in due modi:
 
-    Per la warehouse configurata con stoccaggi e prelievi guidati, se l'ubicazione dispone di una zona e di una collocazione di default per le spedizioni, i campi **Cod. zona** e **Cod. Collocazione** vengono compilati automaticamente ma è possibile modificarli in base alle esigenze.  
+    * Scegli l'azione **Prendi documenti origine**. Viene visualizzata la pagina **Documenti origine - In uscita**. Qui è possibile selezionare uno o più documenti di origine rilasciati alla warehouse che richiedono la spedizione.
+    * Scegliere l'azione **Usa filtri per richiamare doc. orig.**. Si apre la pagina **Filtri per ottenere documenti di origine**. Puoi selezionare il filtro del documento di origine e applicarlo. Tutte le righe del documento origine rilasciato che soddisfano i criteri di filtro vengono aggiunte alla pagina **Spedizione warehouse**. Per ulteriori informazioni vedi [Procedura: Utilizzare i filtri per ottenere i documenti di origine](warehouse-how-ship-items.md#how-to-use-filters-to-get-source-documents).
 
-    > [!NOTE]  
-    > Se si desidera spedire gli articoli con codici classe warehouse diversi dal codice classe della collocazione specificato nel campo **Cod. collocazione** della testata del documento, è necessario eliminare il contenuto del campo **Cod. collocazione** della testata prima di recuperare le righe del documento di origine per gli articoli.  
-3. Scegli l'azione **Prendi documenti origine**. Verrà visualizzata la pagina **Documenti origine**.
+    > [!NOTE]
+    > Se l'ubicazione prevede cross-docking e collocazioni per ogni riga, è possibile esaminare la quantità di articoli inseriti nelle collocazioni di cross-dock. [!INCLUDE [prod_short](includes/prod_short.md)] calcola le quantità ogni volta che i campi della spedizione vengono aggiornati. Se sono articoli della spedizione che stai preparando, puoi creare un prelievo per tutti gli articoli e completare la spedizione. Ulteriori informazioni in [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
 
-    Da una spedizione warehouse nuova o aperta, è possibile utilizzare la pagina **Filtri per ottenere documenti origine** per recuperare le righe del documento di origine rilasciato che definiscono quali articoli spedire.
+7. Crea un prelievo warehouse. Se l'ubicazione richiede il prelievo, è possibile creare attività di prelievo per le spedizioni warehouse in uno dei due seguenti modi:
 
-    1. Scegliere l'azione **Usa filtri per richiamare doc. orig.**.  
-    2. Per impostare un nuovo filtro, immetti un codice descrittivo nel campo **Codice**, quindi scegli l'azione **Modifica**.  
-    3. Definisci il tipo di righe del documento origine che desideri recuperare compilando i campi Filtro appropriati.  
-    4. Scegliere l'azione **Esegui**.  
+    * In modalità push, dove utilizzi l'azione **Crea prelievo**. Seleziona le righe da prelevare e specifica le informazioni sui prelievi. Ad esempio, da quali collocazioni prelevare e inserire e quante unità gestire. Le collocazioni possono essere predefinite per l'ubicazione o la risorsa warehouse.
+    * In modalità pull, dove utilizzi l'azione **Rilascia**. Nella pagina **Prospetto prelievi**, usa l'azione **Prendi documenti warehouse** per ottenere i prelievi assegnati. Una volta registrati i prelievi della warehouse, le righe nel **Prospetto prelievi** vengono eliminate. Per ulteriori informazioni vedi [Prelevare articoli per la spedizione warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-    Tutte le righe del documento origine rilasciato che soddisfano i criteri di filtro vengono inserite nella pagina **Spedizione warehouse** da cui è stata attivata la funzione di filtro.  
+> [!TIP]
+> Per un'ubicazione che non richiede il prelievo, è possibile stampare la spedizione warehouse e utilizzarla come lista prelievo.
 
-    Le combinazioni di filtri definite vengono salvate nella pagina **Filtri per ottenere documenti origine** finché non saranno necessarie in momento successivo. È possibile creare un numero indefinito di combinazioni di filtri. È possibile modificare i criteri in qualsiasi momento scegliendo l'azione **Modifica**.
+8. Specifica la quantità da spedire.  
 
-4. Seleziona i documenti di origine per i quali si desidera spedire gli articoli, quindi scegli **OK**.  
+    Per un'ubicazione che richiede il prelievo, il campo **Qtà. da spedire** viene aggiornato automaticamente quando il prelievo viene registrato. In caso contrario, il campo **Qtà da spedire** viene compilato con la quantità inevasa per ciascuna riga quando viene creata la riga spedizione warehouse.
 
-Le righe dei documenti di origine verranno visualizzate nella pagina **Spedizione warehouse**. Il campo **Qtà da spedire** viene compilato con la quantità inevasa per ciascuna riga, ma è possibile modificare tale quantità in base alle esigenze. Se è stato eliminato il contenuto del campo **Cod. collocazione** della Scheda dettaglio **Generale** prima di recuperare le righe, è necessario immettere un codice collocazione appropriato in ogni riga di spedizione.  
+    Puoi modificare la quantità, ma non puoi spedire più articoli rispetto al numero nel campo **Qtà. in sospeso** nella riga del documento di origine o nel campo **Qtà. prelevata** se è richiesto il prelievo.
 
-> [!NOTE]  
-> Non è possibile spedire un numero di articoli maggiore di quello indicato nel campo **Qtà inevasa** della riga del documento di origine. Per spedire più articoli, usa la funzione filtro per recuperare un altro documento di origine contenente una riga per lo stesso articolo.  
+    Per impostare il valore nel campo **Qtà da spedire** in tutte le righe su zero, scegli l'azione **Elimina qtà da spedire**. Ad esempio, l'impostazione delle quantità su zero è utile se utilizzi uno scanner di codici a barre per aggiornare le quantità di spedizione. Per aggiungere la quantità disponibile per la spedizione, scegli l'azione **Autocompilazione qtà da spedire**.
 
-Dopo avere recuperato le righe per la spedizione, è possibile avviare il processo che consente di inviare le righe agli impiegati warehouse affinché procedano al prelievo.
+9. Registrare la spedizione.
 
-### <a name="pick-and-ship"></a>Preleva e spedisci
+## Come utilizzare i filtri per ottenere i documenti di origine
 
-In genere, un lavoratore warehouse responsabile del prelievo crea un documento di prelievo o apre un documento di prelievo già creato.  
+Da una spedizione warehouse, è possibile utilizzare la pagina **Filtri per ottenere documenti origine** per recuperare le righe del documento di origine rilasciato che definiscono quali articoli spedire.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.
-2. Selezionare la spedizione warehouse da cui si desidera prelevare, quindi scegliere l'azione **Crea prelievo**.
-3. Compilare i campi della pagina di richiesta, quindi seleziona **OK**. Verrà creato il documento di prelievo della warehouse specificato.
+1. Nella spedizione warehouse, scegli l'azione **Usa filtri per richiamare doc. orig.**. 
+2. Per impostare un nuovo filtro, immetti un codice descrittivo nel campo **Codice**, quindi scegli l'azione **Modifica**.
 
-    In alternativa, apri un documento di prelievo warehouse esistente.
-4. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato. Selezionare il prelievo warehouse che si desidera utilizzare.
+    Viene visualizzata la pagina **Scheda filtro documento origine - In uscita**.
 
-    Se la warehouse è impostata per l'utilizzo delle collocazioni, le righe di prelievo vengono convertite in righe di azione Prendere e Mettere.
+3. Utilizza i filtri per definire il tipo di righe del documento di origine da recuperare. Ad esempio, è possibile selezionare i tipi di documenti di origine, come gli ordini di vendita o di trasferimento.
+4. Scegli **Esegui**.  
 
-    Se usi gli gli stoccaggi e i prelievi guidati, puoi ordinare le righe, assegnare un addetto al prelievo, impostare un filtro breakbulk e stampare le istruzioni di prelievo.
+Tutte le righe del documento origine rilasciato che soddisfano i criteri di filtro vengono aggiunte nella pagina **Spedizione warehouse** in cui hai impostato i filtri.
 
-5. Eseguire il prelievo effettivo degli articoli e posizionarli nella collocazione di spedizione specificata, o nell'area di spedizione, se non si utilizzano le collocazioni.
-6. Scegliere l'azione **Registra prelievo**.
+È possibile creare un numero indefinito di combinazioni di filtri. I filtri vengono salvati nella pagina **Filtri per ottenere documenti origine** e sono disponibili in momento successivo. È possibile modificare i criteri in qualsiasi momento scegliendo l'azione **Modifica**.
 
-    I campi **Qtà da spedire** e **Stato del documento** nella testata del documento di spedizione verranno aggiornati. Gli articoli prelevati non saranno più disponibili per il prelievo di altri ordini o per operazioni interne.
-7. Stampare i documenti di spedizione, preparare i colli per la spedizione e registrare la spedizione.
+## Codici zona e collocazione
 
-Per ulteriori informazioni sul prelievo per spedizioni warehouse, vedere [Prelevare articoli per la spedizione warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Se le collocazioni sono obbligatorie nell'ubicazione, [!INCLUDE [prod_short](includes/prod_short.md)] suggerisce una zona e un codice collocazione sul documento di spedizione warehouse.
 
-È anche possibile utilizzare il prospetto prelievi per combinare diverse istruzioni di prelievo in un'unica istruzione (per più spedizioni) e ottimizzare in tal modo le operazioni di prelievo nella warehouse. Ulteriori informazioni in [Pianificare i prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md).
+* Per le configurazioni avanzate in cui un'ubicazione utilizza stoccaggio e prelievo diretti, [!INCLUDE [prod_short](includes/prod_short.md)] usa la collocazione specificata nel campo **Codice collocazione spedizione** nella **Scheda ubicazione**. Se il **Codice collocazione spedizione** non è specificato, il campo è vuoto. Se l'articolo e la collocazione spedizione non corrispondono, [!INCLUDE [prod_short](includes/prod_short.md)] lascia vuota la collocazione spedizione.
+* Negli altri casi, [!INCLUDE [prod_short](includes/prod_short.md)] utilizza sempre la collocazione specificata nel campo **Codice collocazione spedizione** nella **Scheda ubicazione**. Se non è specificato un codice collocazione spedizione, [!INCLUDE [prod_short](includes/prod_short.md)] utilizza il codice collocazione del documento di origine.
+
+## Gestione di articoli da assemblare su ordine in spedizioni warehouse
+
+Negli scenari di assemblaggio su ordine, usa il campo **Qtà da spedire** sulle righe spedizione warehouse per registrare il numero di unità assemblate. La quantità viene registrata come output assemblaggio quando registri la spedizione warehouse. Per altre righe spedizione warehouse, il valore del campo **Qtà da spedire** è uguale a zero.
+
+Quando completano l'assemblaggio delle parti o di tutta la quantità assemblaggio su ordine, i lavoratori registrano la quantità nel campo **Qtà da spedire** sulla riga spedizione warehouse. Quindi scelgono l'azione **Registra spedizione**. L'output dell'assemblaggio viene registrato, incluso il consumo dei componenti. Una spedizione di vendita per la quantità viene registrata per l'ordine di vendita.
+
+Nell'ordine di assemblaggio è possibile scegliere **Riga spediz. whse. assem. su ordine** per accedere alla riga spedizione warehouse.
+
+Dopo che la spedizione warehouse è stata registrata, i vari campi della riga ordine di vendita vengono aggiornati per mostrare lo stato di avanzamento nella warehouse. I seguenti campi vengono inoltre aggiornati per mostrare le quantità rimanente da assemblare su ordine e spedire:
+
+* **Qtà inevasa whse. per assemblaggio su ordine**
+* **Qtà inevasa whse. per assemblaggio su ordine (base)**
 
 > [!NOTE]
-> Se si sta attendendo l'arrivo di determinati articoli nella warehouse e si utilizza la funzionalità di cross-dock, per ciascuna riga di spedizione o del prospetto prelievi in [!INCLUDE[prod_short](includes/prod_short.md)] verrà calcolata la quantità dell'articolo disponibile nella collocazione di cross-dock. Tale valore viene aggiornato ogni volta che si apre e si chiude il prospetto o il documento di spedizione. Ulteriori informazioni in [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
+> Negli scenari di combinazione, in cui una parte della quantità deve essere assemblata e un'altra deve essere spedita dal magazzino, vengono create due righe spedizione warehouse. Una riga corrisponde alla quantità da assemblare su ordine, mentre l'altra corrisponde alla quantità di magazzino.
+>
+> La quantità assemblaggio su ordine viene gestita come descritto in questo articolo. La quantità di magazzino viene gestita come una normale riga di spedizione warehouse. Per informazioni sugli scenari di combinazione, vedi [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## Vedi il relativo [training Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

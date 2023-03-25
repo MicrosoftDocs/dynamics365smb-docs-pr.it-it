@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: posting, interface, design
+ms.search.keywords: 'posting, interface, design'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: ed590455c9edbe5b8727988d4300172223bd2056
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131927"
 ---
-# <a name="design-details-posting-interface-structure"></a>Dettagli di progettazione: struttura dell'interfaccia di registrazione
+# Dettagli di progettazione: struttura dell'interfaccia di registrazione
 Nella struttura dell'interfaccia di registrazione di [!INCLUDE[prod_short](includes/prod_short.md)] esistono diverse procedure globali che utilizzano la stessa struttura:  
   
 * Codice della procedura di chiamata di RunWithoutCheck e di RunWithCheck – interfaccia generica di registrazione per riga registrazioni generali.  
@@ -25,7 +19,7 @@ Nella struttura dell'interfaccia di registrazione di [!INCLUDE[prod_short](inclu
 * UnapplyCustLedgEntry – registrare l'annullamento del collegamento del cliente, chiamato da codeunit 226 CustEntry- Collegare i movimenti registrati  
 * UnapplyVendLedgEntry – registrare l'annullamento del collegamento del fornitore, chiamato da codeunit 227 VendEntry- Collegare i movimenti registrati  
   
-## <a name="see-also"></a>Vedi anche  
+## Vedi anche  
 [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

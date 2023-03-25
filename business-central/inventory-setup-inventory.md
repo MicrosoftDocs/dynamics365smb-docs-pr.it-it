@@ -1,28 +1,22 @@
 ---
 title: Impostazione del magazzino
-description: Viene descritto come impostare i processi di magazzino e stock, inclusi i percorsi di trasferimento e le ubicazioni, come le warehouse.
+description: 'Viene descritto come impostare i processi di magazzino e stock, inclusi i percorsi di trasferimento e le ubicazioni, come le warehouse.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 461'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d637ae9b0413bb069927166fc8a5ac74e9dd7e2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531487"
 ---
-# <a name="setting-up-inventory"></a>Impostazione del magazzino
+# Impostazione del magazzino
 Prima di poter gestire le attività di warehouse e i costi di magazzino, è necessario configurare le regole e i valori che definiscono i criteri di acquisto del magazzino.
 
 È possibile offrire assistenza clienti e ottimizzare la catena di approvvigionamento organizzando il magazzino presso indirizzi diversi. È quindi possibile acquistare, archiviare o vendere articoli in ubicazioni diverse e trasferire il magazzino tra loro.
 
-Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi alle transazioni di articoli. Per ulteriori informazioni, vedere e [Gestire i costi del magazzino](inventory-manage-inventory.md) e [Gestione warehouse](warehouse-manage-warehouse.md).
+Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi alle transazioni di articoli. Per ulteriori informazioni, vedi [Gestire l'inventario](inventory-manage-inventory.md) e [Panoramica di Warehouse Management](design-details-warehouse-management.md).
 
 | A | Vedere |
 | --- | --- |
@@ -38,13 +32,14 @@ Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi 
 |Importare molteplici immagini articolo contemporaneamente da un file zip in cui i file sono denominati in base ai numeri di articolo.|[Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche
+## Vedere anche
 
 [Gestione dei costi del magazzino](inventory-manage-inventory.md)  
 [Gestione acquisti](purchasing-manage-purchasing.md)  
 [Gestione vendite](sales-manage-sales.md)    
+[Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 

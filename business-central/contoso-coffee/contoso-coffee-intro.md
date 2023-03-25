@@ -7,14 +7,9 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788238"
 ---
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduzione ai dati demo Contoso Coffee
+
+# Introduzione ai dati demo Contoso Coffee
 
 Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono i dati demo che puoi usare per imparare a usare le funzionalità di produzione in Business Central.  
 
@@ -41,7 +36,7 @@ Le attività di produzione per tutti gli scenari utilizzano la località *NORD*.
 > [!IMPORTANT]
 > Prima di eseguire uno qualsiasi degli scenari per Contoso Coffee, registra le righe di registrazione articolo con i saldi di apertura. Per ulteriori requisiti, vedi la sezione [Impostare i dati di Contoso Coffee](#set-up-contoso-coffee-data).
 
-## <a name="set-up-contoso-coffee-data"></a>Impostare i dati di Contoso Coffee
+## Impostare i dati di Contoso Coffee
 
 Per usare i dati demo di Contoso Coffee, devi installare due app nell'azienda pertinente in [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -72,7 +67,7 @@ Una volta installate le app pertinenti, vai alla pagina [Dati demo di Contoso Co
 
 Quando sei pronto, scegli l'azione **Crea dati demo**. Occorrono alcuni minuti per aggiungere i dati al database sottostante, ma poi sei pronto per eseguire i vari scenari.  
 
-## <a name="scenarios"></a>Scenari
+## Scenari
 
 I dati demo di Contoso Coffee attualmente supportano i seguenti scenari per il test e la formazione:
 
@@ -90,7 +85,7 @@ Leggi i passaggi per ogni scenario nell'articolo pertinente.
 > [!IMPORTANT]
 > Queste procedure dettagliate richiedono che l'esperienza utente sia impostata su *Premium* nella pagina **Informazioni società**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Manufacturing](../production-manage-manufacturing.md)  
 [Report di produzione e analisi in Business Central](../production-reports.md)  

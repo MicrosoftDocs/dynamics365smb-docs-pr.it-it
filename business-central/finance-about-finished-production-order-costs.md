@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.search.form: 99000867
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 375b6a4a57ae75a2f471db96cee5611736b39f34
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520440"
 ---
-# <a name="about-finished-production-order-costs"></a>Informazioni sui costi di un ordine di produzione chiuso
+# Informazioni sui costi di un ordine di produzione chiuso
 
 La chiusura di un ordine di produzione è un'attività importante nel completamento del ciclo di vita del costing dell'articolo prodotto. I costi finali, inclusi gli scostamenti in un ambiente con costi standard, i valori effettivi in un ambiente con costi FIFO, medi o LIFO, vengono calcolati tramite il processo batch **Rettifica costo - Movimenti articoli** che consente la riconciliazione finanziaria dei costi di produzione degli articoli. Affinché un ordine di produzione venga considerato per la rettifica del costo, lo stato deve essere impostato come **Completato**. È pertanto essenziale che, al completamento, lo stato di un ordine di produzione venga modificato in **Completato**.  
 
-## <a name="example"></a>Esempio
+## Esempio
 
 In un ambiente di costi standard, quando si consuma materiale per produrre un articolo, detto semplicemente, il costo dell'articolo più i costi generali e di manodopera confluiscono nel WIP. Quando l'articolo viene prodotto, il WIP viene ridotto dell'importo del costo standard dell'articolo. In genere, questi costi netti non sono uguali a zero. Perché l'importo sia uguale a zero, è necessario eseguire il processo batch **Rettifica costo - Movimenti articoli**, notando che solo gli ordini di produzione con stato **Completato** verranno considerati per la rettifica.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Manufacturing](production-manage-manufacturing.md)  

@@ -2,29 +2,25 @@
 title: L'estensione dell'archivio dati
 description: L'archiviazione dei dati crea un backup a basso costo dei vostri dati.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 630
-ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c547b9fe73a889145aeb228e987895aeae6aa12
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382531"
+ms.reviewer: bknudsen
+ms.topic: conceptual
+ms.date: 01/30/2023
+ms.custom: bap-template
+ms.search.form: 630
 ---
-# <a name="the-data-archive-extension"></a>L'estensione dell'archivio dati
+
+# L'estensione dell'archivio dati
+
 Nel corso del tempo, la vostra azienda accumulerà una notevole quantità di dati, e come amministratore, è probabilmente una buona idea avere una strategia per l'archiviazione dei dati. Avere molti dati può rallentare le cose, per esempio, potrebbe richiedere un po' più tempo per generare i rapporti, o anche bloccare i record. Inoltre, grandi quantità di dati possono portare a un aumento dei costi di archiviazione.
 
-L'estensione Data Archive fornisce un quadro di base per l'archiviazione e il backup dei dati come parte della compressione della data. Quando si usa la compressione delle date, le voci correlate vengono consolidate in una sola voce e gli originali vengono cancellati. Per ulteriori informazioni, vedere [Comprimere i dati con la compressione della data](admin-manage-documents.md#compress-data-with-date-compression). Tuttavia, potrebbe esserci un valore nel mantenere quei dati, quindi piuttosto che cancellarli, potete archiviarli per un uso successivo.
+L'estensione Data Archive fornisce un quadro di base per l'archiviazione e il backup dei dati come parte della compressione della data. La compressione della data consolida i movimenti correlati in un unico movimento ed elimina gli originali. Per ulteriori informazioni vedi [Comprimere i dati con la compressione della data](admin-manage-documents.md#compress-data-with-date-compression). Tuttavia, potrebbe esserci un valore nel mantenere quei dati, quindi piuttosto che cancellarli, potete archiviarli per un uso successivo.
 
-## <a name="start-archiving-data"></a>Iniziare l'archiviazione dei dati
-L'estensione è preinstallata e disponibile nella **Gestione delle estensioni**, quindi non è necessario fare nulla per iniziare. L'estensione è disponibile anche su Microsoft AppSource. 
+## Iniziare l'archiviazione dei dati
 
-I tuoi archivi di dati sono elencati nella pagina **Elenco degli archivi di dati** . Ogni archivio può contenere dati da più tabelle e può contenere fino a 10.000 record. Se ci sono più di 10.000 record in una tabella, un secondo archivio sarà creato per i successivi 10.000 record, e così via. Per esempio, se archivi 10.100 voci G/L, Business Central crea un archivio "G/L Entry" per le prime 10.000 voci e poi un secondo archivio per le restanti 100 voci. 
+L'estensione è preinstallata e disponibile nella **Gestione delle estensioni**, quindi non è necessario fare nulla per iniziare. L'estensione è disponibile anche su AppSource.
+
+I tuoi archivi di dati sono elencati nella pagina **Elenco degli archivi di dati** . Ogni archivio può contenere dati da più tabelle e può contenere fino a 10.000 record. Se ci sono più di 10.000 record in una tabella, un secondo archivio sarà creato per i successivi 10.000 record, e così via. Per esempio, se archivi 10.100 voci G/L, Business Central crea un archivio "G/L Entry" per le prime 10.000 voci e poi un secondo archivio per le restanti 100 voci.
 
 Dopo aver archiviato i dati, puoi esplorarli usando Microsoft Excel o come file CSV.
 
@@ -34,7 +30,7 @@ Dopo aver archiviato i dati, puoi esplorarli usando Microsoft Excel o come file 
 > [!TIP]
 > Le opzioni Excel e CSV facilitano l'uso di un'altra app o servizio per spostare i dati in un'altra posizione, come Azure Blob storage, o strumento di analisi, come Microsoft Power BI.
 
-Le estensioni dell'Archivio dati sono utilizzate dai seguenti lavori batch per la compressione della data.
+L'estensione dell'Archivio dati è utilizzata dai seguenti processi batch per la compressione della data.
 
 |Lavori batch  |
 |---------|
@@ -54,8 +50,10 @@ Le estensioni dell'Archivio dati sono utilizzate dai seguenti lavori batch per l
 
 Per avviare l'archiviazione dei dati quando esegui uno dei lavori batch, attiva il toggle **Archivia le voci cancellate** .
 
-## <a name="storage-considerations"></a>Considerazioni sullo stoccaggio
-I dati archiviati sono memorizzati nella tabella **Elemento multimediale tenant** . Questa tabella non è inclusa nel calcolo delle dimensioni del database, secondo i termini della vostra licenza. Invece, conta come archiviazione di file. Tuttavia, si consiglia di esportare i vecchi archivi, per esempio, in un file CSV e poi cancellare i vecchi record dell'archivio.
+## Considerazioni sullo stoccaggio
 
-## <a name="see-also"></a>Vedere anche
+I dati archiviati sono memorizzati nella tabella **Elemento multimediale tenant** . Consigliamo di esportare i vecchi archivi, per esempio, in un file CSV e poi cancellare i vecchi record dell'archivio.
+
+## Vedere anche
+
 [Gestire l'archiviazione eliminando i documenti o comprimendo i dati](admin-manage-documents.md)

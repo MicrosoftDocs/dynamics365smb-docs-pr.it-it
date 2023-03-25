@@ -1,6 +1,6 @@
 ---
 title: Impostare gli utenti per l'approvazione
-description: Prima di creare flussi di lavoro che coinvolgono passaggi di approvazione, è necessario impostare gli utenti del flusso di lavoro coinvolti nei processi di approvazione nella pagina Setup utente approvazione.
+description: 'Prima di creare flussi di lavoro che coinvolgono passaggi di approvazione, è necessario impostare gli utenti del flusso di lavoro coinvolti nei processi di approvazione nella pagina Setup utente approvazione.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2654dcb68b579d90fe3218bcd0bba3bde4cb5036
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585839"
 ---
-# <a name="set-up-approval-users"></a>Impostare gli utenti per l'approvazione
+# Impostare gli utenti per l'approvazione
 
 Prima di creare workflow che coinvolgono passaggi di approvazione, è necessario impostare gli utenti del workflow coinvolti nei processi di approvazione. Nella pagina **Setup utente approvazione** è possibile anche impostare i limiti quantitativi per specifici tipi di richiesta e definire i responsabili di approvazione sostitutivi ai quali vengono delegate le richieste di approvazione in assenza del responsabile originale.  
 
@@ -28,7 +22,7 @@ Una volta impostati questi utenti, è possibile creare le risposte del flusso di
 > [!NOTE]  
 > Per definire che una richiesta di approvazione non venga approvata finché più utenti non la approvano, impostare i responsabili di approvazione in una gerarchia. Per il tipo **Responsabile approvazione**, impostare i responsabili approvazione nella pagina **Setup utente approvazione**. Per il tipo **Gruppo di utenti del workflow**, impostare i responsabili di approvazione nella pagina **Gruppi di utenti del workflow** e definire la gerarchia assegnando numeri incrementali a ogni responsabile nel campo **Nr. sequenza** . Ulteriori informazioni di seguito e in [Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Per impostare un utente per l'approvazione
+## Per impostare un utente per l'approvazione
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup utente approvazione** creare una nuova riga e compilare i campi come descritto nella tabella seguente.  
@@ -54,9 +48,9 @@ Una volta impostati questi utenti, è possibile creare le risposte del flusso di
 3. Per testare l'impostazione degli utenti per l'approvazione, scegliere l'azione **Test Setup utente approvazione**.  
 4. Ripetere i passaggi 2 e 3 per ogni persona che si desidera impostare come utente di approvazione.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)  
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  

@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950175"
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Impostare le procedure ottimali: Pianificazione dei parametri
+# Impostare le procedure ottimali: Pianificazione dei parametri
+
 La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centrale della supply chain di una società. L'impostazione dei parametri di pianificazione corretti è molto importante per un controllo del magazzino conveniente e un'assistenza clienti di ottima qualità.  
 
  Nella seguente tabella vengono fornite le procedure consigliate sulla modalità di impostazione dei campi dei parametri di pianificazione selezionati. Per ulteriori informazioni su un campo, scegliere il collegamento nella colonna **Campo Setup**.  
@@ -35,16 +30,16 @@ La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centr
 |Precisione arrotondamento|In una produzione costosa, impostare su 0.00001.|Grandi quantità di arrotondamento di scarto o di consumo dei materiali possono totalizzare costi di magazzino molto elevati. Può quindi essere importante impostare una precisione di arrotondamento inferiore per ridurre questo costo potenziale.|  
 
 > [!NOTE]  
->  Le procedure consigliate per i parametri di pianificazione nelle schede articolo si applicano anche agli stessi campi nelle schede USK.  
->   
->  Se le società pianificano la domanda in ubicazioni diverse, è consigliabile definire le unità di stockkeeping per ogni ubicazione e che tutta la domanda venga creata utilizzando un valore nel campo **Cod. ubicazione**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Domanda nell'ubicazione vuota](design-details-demand-at-blank-location.md).  
+> Le procedure consigliate per i parametri di pianificazione nelle schede articolo si applicano anche agli stessi campi nelle schede USK.  
+>
+> Se le società pianificano la domanda in ubicazioni diverse, è consigliabile definire le unità di stockkeeping per ogni ubicazione e che tutta la domanda venga creata utilizzando un valore nel campo **Cod. ubicazione**. Per ulteriori informazioni, vedi [Dettagli di progettazione: Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Vedi anche  
- [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)   
- [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
- [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
- [Dettagli di progettazione: Domanda nell'ubicazione Vuota](design-details-demand-at-blank-location.md)  
- [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Vedere anche  
+[Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
+[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
+[Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  
+[Dettagli di progettazione: Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

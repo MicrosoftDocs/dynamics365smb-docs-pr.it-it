@@ -1,22 +1,16 @@
 ---
 title: Panoramica dei task per impostare Business Central
-description: Leggi una panoramica dei task necessari per impostare, inizializzare e configurare Business Central in base alle esigenze.
+description: 'Leggi una panoramica dei task necessari per impostare, inizializzare e configurare Business Central in base alle esigenze.'
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: configure, initialize
+ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 65fd173213af21631b27019a79fc8030d6839daf
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604835"
 ---
-# <a name="overview-of-tasks-to-set-up-prod_short"></a>Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]
+# Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze dell'organizzazione. Gli articoli di [avvio rapido di Business Central](quick-start-business-central.md) possono aiutarti a fare i primi passi per rendere [!INCLUDE [prod_short](includes/prod_short.md)] tuo. Questo articolo fornisce una panoramica su come è possibile configurare [!INCLUDE [prod_short](includes/prod_short.md)] per la propria organizzazione.
 
@@ -61,13 +55,13 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 > [!NOTE]
 > In qualità di amministratore puoi impostare una nuova società in [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedi [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Impostare le app
+## Impostare le app
 
 Oltre alle capacità principali di [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft aggiunge alcune app elencate [nella pagina **Gestione estensioni**](https://businesscentral.dynamics.com/?page=2500). A partire da ottobre 2022, ogni app fornisce un collegamento per avviare la pagina di configurazione: basta scegliere l'azione **Imposta**.  
 
 Puoi anche aggiungere funzionalità a [!INCLUDE [prod_short](includes/prod_short.md)] aggiungendo app di AppSource. Per ulteriori informazioni, vedi [Personalizzazione di Business Central Online utilizzando le estensioni](ui-extensions.md).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica delle informazioni sulla società](admin-company-information.md)  
 [Amministrazione](admin-setup-and-administration.md)  
@@ -79,7 +73,7 @@ Puoi anche aggiungere funzionalità a [!INCLUDE [prod_short](includes/prod_short
 [Cespiti](fa-manage.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Creazione di nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Preparazione al business](ui-get-ready-business.md)  

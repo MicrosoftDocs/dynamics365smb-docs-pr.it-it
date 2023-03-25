@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 5714, 5715
+ms.search.keywords: null
+ms.search.forms: '5714, 5715'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 3aabc4f60d30d6a5eaef838fa1b8b03e58c2341d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530002"
 ---
-# <a name="work-with-responsibility-centers"></a>Utilizzare i centri di responsabilità
+# Utilizzare i centri di responsabilità
 
 I centri di responsabilità consentono di gestire i centri di amministrazione. Possono essere centri di costo, centri di profitto, centri di investimento o altri centri amministrativi definiti dalla società. Esempi di centri di responsabilità possono essere un ufficio vendite, un reparto acquisti per più ubicazioni e un ufficio di pianificazione di sede. Utilizzando questa funzionalità, ad esempio, le società possono impostare viste specifiche per determinati utenti di documenti di vendita e acquisto relativi esclusivamente a un particolare centro di responsabilità.  
 
@@ -25,7 +19,7 @@ L'utilizzo di più ubicazioni insieme ai centri di responsabilità offre la poss
 
 Il supporto di più ubicazioni consente alle società di gestire il magazzino in più luoghi utilizzando un singolo database. I due concetti di ubicazione e unità di stockkeeping costituiscono il punto centrale di questa area. Per ubicazione si intende un luogo in cui vengono gestiti il posizionamento fisico e le quantità degli articoli. Il concetto è sufficientemente vasto per includere ubicazioni quali impianti o unità di produzione, nonché centri di distribuzione, warehouse, showroom e automezzi di servizio. Per unità di stockkeeping si intende un articolo in un'ubicazione specifica e/o come variante. Utilizzando le unità di stockkeeping, le società con più ubicazioni possono aggiungere informazioni sul rifornimento, indirizzi e alcune informazioni relative alla registrazione finanziaria a livello di ubicazione. Di conseguenza, le società possono rifornire varianti dello stesso articolo per ciascuna ubicazione, nonché ordinare articoli sulla base di informazioni sul rifornimento specifiche dell'ubicazione.  
 
-## <a name="to-set-up-a-responsibility-center"></a>Per impostare i centri di responsabilità
+## Per impostare i centri di responsabilità
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Centri di responsabilità**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -40,7 +34,7 @@ Questo codice verrà utilizzato in tutti i documenti di acquisto, vendita o assi
 > [!NOTE]  
 > L'immissione di un codice di centro di responsabilità in un documento influisce sull'indirizzo, le dimensioni e i prezzi del documento.  
 
-## <a name="to-assign-responsibility-centers-to-users"></a>Per assegnare i centri di responsabilità agli utenti
+## Per assegnare i centri di responsabilità agli utenti
 
 È possibile impostare gli utenti in modo che durante il lavoro quotidiano vengano automaticamente recuperati soltanto i documenti relativi alla loro area di lavoro specifica. Gli utenti sono normalmente associati con un centro di responsabilità e hanno accesso soltanto a documenti collegati a specifiche aree di applicazione presso quel centro in particolare.  
 
@@ -55,15 +49,14 @@ Per poter procedere a queste impostazioni è necessario assegnare i centri di re
 > [!NOTE]  
 > Gli utenti possono visualizzare solo i documenti registrati relativi al proprio centro di responsabilità. Tuttavia, possono visualizzare tutti i movimenti contabili e passare ad altri documenti registrati dai movimenti contabili.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/set-up-responsibility-centers/)
+## Vedi il relativo [training Microsoft](/training/modules/set-up-responsibility-centers/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
-[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
+[Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

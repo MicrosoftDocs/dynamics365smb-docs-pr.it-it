@@ -3,22 +3,16 @@ title: Selezione report in Business Central
 description: Informazioni su come impostare i report utilizzati per stampare vari tipi di documenti in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.search.keywords: setup, reporting
-ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
+ms.search.keywords: 'setup, reporting'
+ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
 ms.date: 06/09/2022
 ms.author: bholtorf
-ms.openlocfilehash: fc5bfe8b22d06455379dabd20723fb0ccfe4032b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607501"
 ---
-# <a name="report-selection-for-documents-in-business-central"></a>Selezione dei report per i documenti in Business Central
+# Selezione dei report per i documenti in Business Central
 
 Puoi impostare report predefiniti da utilizzare per stampare documenti relativi alle vendite, agli acquisti e all'assistenza, come ordini, offerte e fatture. Ad esempio, se si dispone di un layout specifico per le fatture vendita, è possibile specificare tale report nella pagina **Selezioni report - Vendite** di modo che venga utilizzato per inviare o stampare fatture vendita.  
 
-## <a name="available-report-selections"></a>Selezioni report disponibili
+## Selezioni report disponibili
 
 Le pagine **Selezioni report** specificano quale report verrà stampato nelle diverse situazioni. [!INCLUDE [prod_short](includes/prod_short.md)] fornisce le configurazioni predefinite, ma è possibile modificarle se necessario. È inoltre possibile aggiungere report alle pagine **Selezione report**, ad esempio per stampare più di un report per tipo di documento. 
 
@@ -45,7 +39,7 @@ La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] inclu
 * **Selezione report - Commessa**  
 * **Selezione report - Assistenza**
 
-## <a name="example-report-selection-for-sales-documents"></a>Esempio: Selezione report per documenti vendita
+## Esempio: Selezione report per documenti vendita
 
 La pagina **Selezione report - Vendite** offre i report predefiniti da utilizzare in diversi scenari per ogni tipo di documento correlato. Scegli un tipo di documento nel campo **Utilizzo**, quindi aggiungi o esamina la selezione report. Puoi impostare più di un report e specificare la sequenza in cui i report devono essere inviati o stampati.  
 
@@ -61,7 +55,7 @@ Ad esempio, nelle pagine **Selezione report - Vendite** e **Selezione report - A
 |**Utilizza per allegato e-mail**| Allega il relativo documento all'e-mail.|
 |**Descrizione layout corpo e-mail**|Specifica il layout del corpo dell'e-mail da utilizzare. In genere, è un layout di report personalizzato. |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare testi e-mail riutilizzabili e layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Selezionare un layout degli assegni](finance-how-define-check-layouts.md)  

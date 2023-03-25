@@ -1,21 +1,15 @@
 ---
 title: Inviare documenti ed e-mail
-description: È possibile definire il contenuto da inserire nel corpo di un messaggio e-mail, ad esempio, un collegamento a PayPal. È anche possibile collegare documenti ai messaggi e-mail.
+description: 'È possibile definire il contenuto da inserire nel corpo di un messaggio e-mail, ad esempio, un collegamento a PayPal. È anche possibile collegare documenti ai messaggi e-mail.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
-ms.search.form: ''
+ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
+ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607204"
 ---
-# <a name="send-documents-and-emails"></a>Inviare documenti ed e-mail
+# Inviare documenti ed e-mail
 
 È possibile condividere facilmente informazioni e documenti, come ordini di vendita e di acquisto e fatture, via e-mail direttamente da [!INCLUDE[prod_short](includes/prod_short.md)], senza dover aprire un'applicazione di posta elettronica.  
 
@@ -28,7 +22,7 @@ Per abilitare i messaggi e-mail da [!INCLUDE[prod_short](includes/prod_short.md)
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] supporta solo comunicazioni via e-mail in uscita. Non è inoltre possibile ricevere risposte dall'app.
 
-## <a name="to-send-documents-by-email"></a>Per inviare i documenti tramite e-mail
+## Per inviare i documenti tramite e-mail
 
 Questa procedura descrive come associare una fattura vendita registrata a un'e-mail come file PDF e con il testo dell'e-mail specifico del documento. <!--update this-->
 
@@ -50,7 +44,7 @@ Questa procedura descrive come associare una fattura vendita registrata a un'e-m
 > [!NOTE]  
 > Se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della pagina **Invia documento a**. In questo caso, non verrà visualizzata la pagina **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Impostare i profili di invio dei documenti](sales-how-setup-document-send-profiles.md).  
 
-## <a name="to-compose-and-send-an-email"></a>Per comporre e inviare un'e-mail
+## Per comporre e inviare un'e-mail
 
 È possibile comporre rapidamente e-mail per contatti, clienti, venditori, venditori/acquirenti e conti bancari direttamente dalle pagine per queste entità. Basta scegliere **Processo** e poi **Invia e-mail** per aprire l'editor di e-mail. Per i conti bancari, l'azione **Invia email** è sotto **Azioni**.
 
@@ -59,11 +53,11 @@ Questa procedura descrive come associare una fattura vendita registrata a un'e-m
 
 Se sei assegnato a uno scenario e-mail correlato all'entità a cui stai inviando il messaggio e-mail o al documento che stai inviando, un allegato può essere aggiunto automaticamente al tuo messaggio. Questo perché un allegato predefinito è stato assegnato allo scenario e-mail. Puoi eliminare l'allegato se non vuoi inviarlo con il tuo messaggio. Per ulteriori informazioni, vedere [Assegnare scenari di posta elettronica agli account di posta elettronica](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenti contrassegnati come stampati al momento dell'invio
+## Documenti contrassegnati come stampati al momento dell'invio
 
 Alcuni documenti in [!INCLUDE[prod_short](includes/prod_short.md)] hanno un campo che specifica quante volte quel documento è stato stampato. Il numero in quel campo <!--"that field?" need a name...--> viene aggiornato anche se si invia il documento tramite posta elettronica poiché viene generato un file PDF per lo stesso. Il numero viene aggiornato anche se non invii l'e-mail. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>E-mail inviate e posta in uscita
+## E-mail inviate e posta in uscita
 
 [!INCLUDE[prod_short](includes/prod_short.md)] memorizza le e-mail inviate nella pagina **Elementi inviati**. Questo per consentire di inviare nuovamente le e-mail o inoltrarle a qualcun altro. Se non si riesce a trovare un'e-mail negli elementi inviati, cercarla nella pagina **Posta in uscita**. 
 
@@ -72,9 +66,9 @@ Alcuni documenti in [!INCLUDE[prod_short](includes/prod_short.md)] hanno un camp
 
 La **Posta in uscita** è dove si trovano le e-mail salvate come bozze e le e-mail che non è stato possibile inviare, ad esempio, se l'indirizzo email non era valido. Per i messaggi che non sono stati inviati, è possibile scegliere **Mostra errore** o **Analizza errore** per risolvere il problema.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/set-up-email/)
+## Vedi il relativo [training Microsoft](/training/modules/set-up-email/)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
 [Configurare la posta elettronica](admin-how-setup-email.md)  

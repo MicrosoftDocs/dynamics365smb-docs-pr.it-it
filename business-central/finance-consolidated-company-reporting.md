@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518157"
 ---
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidare dati finanziari di molteplici società
+
+# Consolidare dati finanziari di molteplici società
 
 Alcune organizzazioni usano [!INCLUDE [prod_short](includes/prod_short.md)] in più business unit o persone giuridiche. Altre usano [!INCLUDE [prod_short](includes/prod_short.md)] nelle filiali che devono riferire nelle organizzazioni madri. In entrambi i casi, i contabili utilizzano strumenti integrati per consolidare i dati finanziari.  
 
@@ -40,17 +35,17 @@ Una società consolidata viene impostata come qualsiasi altra società. Il piano
 > [!TIP]
 > Il consolidamento dei dati finanziari può risultare utile in particolare con i processi Intercompany. Per ulteriori informazioni, vedere [Gestione delle transazioni Intercompany](intercompany-manage.md).
 
-## <a name="trial-balance"></a>Bilancio di verifica
+## Bilancio di verifica
 
 Se si hanno più società in [!INCLUDE[prod_short](includes/prod_short.md)], il report **Bilancio di verifica consolidato** può fornire una panoramica dello stato finanziario dell'attività commerciale globale.  
 
 Il report combina i movimenti di contabilità generale di ognuna delle società in una nuova società creata per contenere i dati consolidati. Questa società è in genere detta "società consolidata". La società consolidata è solo un contenitore per i dati unificati e non presenta dati aziendali dinamici. Le società incluse nella società consolidata diventano **business unit** nel report. Per ulteriori informazioni, vedere [Impostare il consolidamento di una società](finance-consolidated-company-reporting-setup.md).  
 
-## <a name="consolidate-data"></a>Consolidare i dati
+## Consolidare i dati
 
 Il processo di trasferimento dei dati dalle business unit alla società consolidata è l'effettivo *consolidamento*. Prima di ciò è consigliabile controllare se vi sono differenze tra le informazioni di base nelle business unit e nella società consolidata. Sono disponibili due report utilizzabili per verificare il database e il file.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>Per verificare i dati prima del consolidamento
+### Per verificare i dati prima del consolidamento
 
 È possibile verificare i dati prima di trasferirli alla società consolidata. [!INCLUDE[prod_short](includes/prod_short.md)] cerca le differenze tra le informazioni delle business unit e quelle della società consolidata. Ad esempio, se i numeri di conto o i codici di dimensione sono diversi. È necessario correggere gli eventuali errori prima di eseguire il report. È possibile verificare il database oppure, se si importano dati da un file XML, il file in questione.  
 
@@ -61,7 +56,7 @@ Il processo di trasferimento dei dati dalle business unit alla società consolid
     * Per verificare un file, scegliere l'azione **Test file**, immettere il nome del file da verificare, quindi scegliere **Stampa**.  
     * Per verificare il database, scegliere **Test database**.  
 
-### <a name="run-the-consolidation"></a>Eseguire il consolidamento
+### Eseguire il consolidamento
 
 Dopo aver verificato i dati, è possibile trasferirli alla società consolidata.  
 
@@ -71,7 +66,7 @@ Dopo aver verificato i dati, è possibile trasferirli alla società consolidata.
 4. Nella sezione Filtro, impostare un filtro per il nome della business unit o della società pertinente.  
 5. Facoltativamente, programmare l'esecuzione di un report in un orario comodo.  
 
-## <a name="eliminate-repeated-transactions"></a>Eliminare transazioni ripetute
+## Eliminare transazioni ripetute
 
 Dopo avere eseguito il consolidamento di tutte le società, è necessario trovare le transazioni registrate più di una volta nelle società e quindi registrare i movimenti di eliminazione per rimuoverle.
 
@@ -98,7 +93,7 @@ Ogni conto viene visualizzato in una singola riga, secondo la struttura del pian
 * Il testo di registrazione copiato dalle registrazioni generali.
 * Il totale della società consolidata in seguito alle eliminazioni (nel caso vengano registrate).
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Esportare e importare dati consolidati tra database
+## Esportare e importare dati consolidati tra database
 
 Se i dati di una business unit si trovano in un database diverso, è necessario esportarli in un file prima di includerli nel consolidamento. Ogni società deve essere esportata separatamente. A questo scopo, viene utilizzato il processo batch **Esporta consolidamento**.  
 
@@ -114,7 +109,7 @@ I movimenti esportati contengono i seguenti campi: **Nr. conto**, **Data di regi
 3. Il valore delle dimensioni esportato per il movimento sarà il valore delle dimensioni della società consolidata impostato nel campo **Cod. consolidamento** per tale valore. Se nel campo **Cod. consolidamento** non è stato immesso un valore delle dimensioni della società consolidata per tale valore, nella riga verrà esportato il valore delle dimensioni stesso.  
 4. I file XML, inoltre, contengono i tassi di cambio valuta inclusi nel periodo di consolidamento. I tassi sono inclusi in una sezione separata all'inizio del file.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare il consolidamento di una società](finance-consolidated-company-reporting-setup.md)  
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  

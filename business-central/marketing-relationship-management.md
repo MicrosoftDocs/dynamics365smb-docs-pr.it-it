@@ -7,18 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contact, prospect, client
-ms.search.forms: 9076, 9026
+ms.search.keywords: 'contact, prospect, client'
+ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137863"
 ---
-# <a name="managing-relationships"></a>Gestione delle relazioni
+# Gestione delle relazioni
 Le funzionalità Relationship Management di [!INCLUDE[prod_short](includes/prod_short.md)] aiutano a gestire e a supportare le attività di vendita. Grazie a tali funzionalità è possibile accedere sempre a informazioni complete e accurate e focalizzare le interazioni sui segmenti di clienti o contatti preferiti.
 
 Per garantire la buona riuscita delle iniziative di marketing e la chiusura delle vendite, è fondamentale prendere le decisioni ottimali nel momento appropriato. [!INCLUDE[prod_short](includes/prod_short.md)] offre un quadro accurato e tempestivo delle informazioni sui contatti consentendo di presentarsi in modo efficace a potenziali clienti, nonché di incrementare il livello di soddisfazione dei clienti.

@@ -1,23 +1,17 @@
 ---
 title: Gestione delle transazioni Intercompany
-description: Utilizzando la funzionalità intercompany, è possibile semplificare i processi aziendali e le transazioni tra società all'interno della stessa organizzazione.
+description: 'Utilizzando la funzionalità intercompany, è possibile semplificare i processi aziendali e le transazioni tra società all''interno della stessa organizzazione.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511651"
 ---
-# <a name="managing-intercompany-transactions"></a>Gestione delle transazioni Intercompany
+# Gestione delle transazioni Intercompany
 
 Le funzionalità relative alle transazioni intercompany sono progettate per gli utenti che devono controllare più di un'entità business legale e hanno impostato più società per separare le funzioni contabili di ognuna di queste entità. Questa descrizione generale si applica a numerosi utenti, in particolare a quelli che operano in paesi o mercati internazionali con usanze e normative aziendali molto varie.
 
@@ -32,7 +26,7 @@ La funzionalità intercompany offre quattro vantaggi principali:
 - Audit trail e visibilità completi per quanto riguarda le attività aziendali e lo storico delle transazioni.  
 - Transazioni efficaci e convenienti con le consociate e le filiali.  
 
-## <a name="streamlining-the-flow-of-business-activities"></a>Semplificazione del flusso delle attività aziendali  
+## Semplificazione del flusso delle attività aziendali  
 
 Le transazioni intercompany consentono di distribuire documenti di vendita e di acquisto e movimenti registrazioni COGE a tutti gli uffici satellite, gli uffici vendite o le filiali. Sarà quindi possibile risparmiare tempo e aumentare la produttività, eliminando la necessità di immissione di dati ridondanti e di invio, ricezione, stampa e archiviazione di documenti di vendita e di acquisto cartacei.  
 
@@ -71,7 +65,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Organizzare ed elaborare le transazioni in entrata e in uscita che si scambiano con i partner IC.|[Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)|
 |Utilizzare le transazioni IC per distribuire i costi tra società partner.|[Allocare costi a partner IC](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  

@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ac6bae8d001728da43fc7357cf156d6ac6fc6633
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383915"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Pianificazione di una sincronizzazione tra Business Central e Dataverse
+
+# Pianificazione di una sincronizzazione tra Business Central e Dataverse
 
 
 È possibile sincronizzare [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a intervalli pianificati impostando i processi nella coda processi. I processi di sincronizzazione sincronizzano i dati nei record di [!INCLUDE[prod_short](includes/prod_short.md)] e nei record di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] che sono stati associati in precedenza. Oppure per i record che non sono ancora associati, a seconda della direzione e delle regole di sincronizzazione, i processi di sincronizzazione possono creare e associare nuovi record nel sistema di destinazione. 
@@ -31,7 +26,7 @@ Esistono vari processi di sincronizzazione predefiniti disponibili. I processi s
 
 È possibile visualizzare i processi nella pagina **Movimenti coda processi**. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
-## <a name="default-synchronization-job-queue-entries"></a>Movimenti coda processi di sincronizzazione predefiniti
+## Movimenti coda processi di sincronizzazione predefiniti
 
 Nella tabella seguente sono descritti i processi di sincronizzazione predefiniti per [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -43,7 +38,7 @@ Nella tabella seguente sono descritti i processi di sincronizzazione predefiniti
 | Processo di sincronizzazione FORNITORE - Common Data Service. | Sincronizza i conti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e i clienti di [!INCLUDE[prod_short](includes/prod_short.md)]. | Bidirezionale | FORNITORE | 30 | 720<br> (12 ore) |
 | Processo di sincronizzazione AGENTI - Common Data Service | Sincronizza gli agenti di [!INCLUDE[prod_short](includes/prod_short.md)] con gli utenti di [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. | Da [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)] | AGENTI | 30 | 1440<br> (24 ore) |
 
-## <a name="synchronization-process"></a>Processo di sincronizzazione
+## Processo di sincronizzazione
 
 Ogni movimento coda processi di sincronizzazione utilizza un mapping di tabella di integrazione che specifica quale tabella di [!INCLUDE[prod_short](includes/prod_short.md)] e quale tabella di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sincronizzare. I mapping di tabella includono anche alcune impostazioni che controllano quali record della tabella di [!INCLUDE[prod_short](includes/prod_short.md)] e della tabella di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] sincronizzare.  
 
@@ -64,7 +59,7 @@ Per sincronizzare i dati, i record di tabella di [!INCLUDE[cds_long_md](includes
 
 - Con la sincronizzazione bidirezionale, il processo sincronizza da [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e quindi da [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="about-inactivity-timeouts"></a>Informazioni sui timeout di inattività
+## Informazioni sui timeout di inattività
 Alcuni movimenti coda processi, come quelli che pianificano la sincronizzazione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)], utilizzano il campo **Timeout inattività** nella pagina Movimento coda processi per impedire l'esecuzione inutile del movimento coda processi.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Diagramma di flusso per quando i movimenti coda processi vengono sospesi a causa di inattività.":::
@@ -76,7 +71,7 @@ Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, c
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] attiverà automaticamente i movimenti coda processi sospesi solo quando si verificano delle modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]. Le modifiche in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] non attiveranno i movimenti coda processi.
 
-## <a name="to-view-the-synchronization-job-log"></a>Per visualizzare il log processi di sincronizzazione
+## Per visualizzare il log processi di sincronizzazione
 
 1. Scegliere l'icona :::image type="icon" source="media/ui-search/search_small.png" border="false":::, immettere **Log processi di sincronizzazione** e quindi scegliere il collegamento correlato.
 2. Se si sono verificati uno o più errori per un processo di sincronizzazione, il numero di errori viene visualizzato nella colonna **Operazione non riuscita**. Per visualizzare gli errori per il processo, selezionare il numero.  
@@ -84,16 +79,16 @@ Ad esempio, per impostazione predefinita, il movimento coda processi CURRENCY, c
     > [!TIP]  
     > È possibile visualizzare tutti gli errori dei processi di sincronizzazione aprendo direttamente il log errori processi di sincronizzazione.
 
-## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Per visualizzare il log processi di sincronizzazione dai mapping di tabella
+## Per visualizzare il log processi di sincronizzazione dai mapping di tabella
 
 1. Scegliere l'icona :::image type="icon" source="media/ui-search/search_small.png" border="false":::, immettere **Mapping tabella integrazione** e quindi scegliere il collegamento correlato.
 2. Nella pagina **Mapping tabella integrazione**, selezionare un movimento quindi scegliere **Log processi di sincronizzazione integrazione**.  
 
-## <a name="to-view-the-synchronization-error-log"></a>Per visualizzare il log processi di sincronizzazione
+## Per visualizzare il log processi di sincronizzazione
 
 - Scegliere l'icona :::image type="icon" source="media/ui-search/search_small.png" border="false":::, immettere **Errori di sincronizzazione integrazione** e quindi scegliere il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Sincronizzazione di dati in Business Central e [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)  

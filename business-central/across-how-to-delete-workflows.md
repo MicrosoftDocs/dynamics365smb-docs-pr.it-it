@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1500,
+ms.search.keywords: null
+ms.search.form: '1500,'
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: e93adde3ffdc520433df26f5735d021d5b64bf19
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585596"
 ---
-# <a name="delete-approval-workflows"></a>Eliminare i workflow di approvazione
+# Eliminare i workflow di approvazione
 
 È possibile eliminare un workflow che non si desidera utilizzare più. Lo stato di tutte le istanze delle fasi del workflow nel workflow devono avere stato **Completato**.
 
@@ -26,7 +20,7 @@ ms.locfileid: "9585596"
 
 Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi del flusso di lavoro compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Ulteriori informazioni in [Creare workflow di approvazione](across-how-to-create-workflows.md).
 
-## <a name="delete-a-workflow"></a>Eliminare un flusso di lavoro
+## Eliminare un flusso di lavoro
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.
 2. Selezionare il flusso di lavoro che si desidera eliminare.
@@ -37,7 +31,7 @@ Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle r
 > [!NOTE]
 > L'eliminazione di un flusso di lavoro richiede che sia disabilitato. Per disabilitare un flusso di lavoro, aprilo nella pagina **Workflow**, quindi disattiva l'interruttore **Abilitato**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
 [Abilitare i workflow di approvazione](across-how-to-enable-workflows.md)  

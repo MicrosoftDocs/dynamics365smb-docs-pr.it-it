@@ -7,23 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: 1,
+ms.search.form: '1,'
 ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: e2ee4c75deebcca1a774a6472e08db12984114d2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528170"
 ---
-# <a name="company-information-quick-start"></a>Informazioni sull'azienda Inizio rapido
+
+# Informazioni sull'azienda Inizio rapido
 
 Per aiutarti a far funzionare la tua azienda in [!INCLUDE[prod_short](includes/prod_short.md)], devi prima riempire alcuni dei dettagli di base dell'azienda e le informazioni rilevanti in base alle tue esigenze di business.  
 
 È possibile inserire tutti i dati rilevanti nella pagina **Informazioni sull'azienda** quando si crea una nuova azienda.
 
-## <a name="to-set-up-company-information"></a>Per impostare le informazioni sulla società  
+## Per impostare le informazioni sulla società  
 
 1. Scegli l'icona ![Icona ingranaggio per aprire il menu Impostazioni.](media/ui-experience/settings_icon_small.png) e poi scegliere l'azione **Informazioni aziendali** .
 2. Immettere le informazioni nelle Schede dettaglio, come indicato nella tabella riportata di seguito. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -32,9 +27,9 @@ Per aiutarti a far funzionare la tua azienda in [!INCLUDE[prod_short](includes/p
 
 Una volta completata la compilazione delle informazioni puoi chiudere la pagina.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
 
 [Panoramica delle informazioni sulla società](admin-company-information.md)  
 [Impostazione di informazioni sulla società in Italia](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

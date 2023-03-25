@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 41c661d161d88ac1b74b7f723e0913cf1575a4ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130152"
 ---
+
 Nei documenti di vendita e nelle registrazioni è possibile specificare un numero documento che fa riferimento al sistema di numerazione del cliente. <!--You can enter a maximum of ten characters, both numbers and letters.--> Utilizzare questo campo per registrare il numero assegnato dal cliente all'ordine, alla fattura o alla nota di credito. Il numero potrà essere utilizzato per cercare la riga dopo che questa sia stata contabilizzata.  
 
 Il campo **Nr. doc. esterno obblig.** della pagina **Setup contabilità clienti** specifica se è obbligatorio inserire un numero documento estenro nel campo **Nr. documento esterno** su un'intestazione vendite e il campo **Nr. documento esterno** in una riga registrazioni COGE.

@@ -1,23 +1,17 @@
 ---
 title: Assegnare addebiti articoli a vendite e acquisti (video)
-description: Per aggiungere ai movimenti di magazzino ulteriori costi, quali spedizione e gestione fisica per l'acquisto o la vendita degli articoli, puoi assegnare gli addebiti articoli.
+description: 'Per aggiungere ai movimenti di magazzino ulteriori costi, quali spedizione e gestione fisica per l''acquisto o la vendita degli articoli, puoi assegnare gli addebiti articoli.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: transportation, added cost, landed cost
-ms.search.form: 5709, 5800, 5805, 5814
+ms.search.keywords: 'transportation, added cost, landed cost'
+ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 626af5eb217548b3813a137c16b7a84c1e860da2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528735"
 ---
-# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
+# Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
 Per una valutazione corretta, è necessario includere nei movimenti di magazzino tutti i costi aggiuntivi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli. Per gli acquisti, il costo franco di tutte le spese allo sbarco di un articolo acquistato è dato dal prezzo di acquisto del fornitore più tutti gli addebiti articolo diretti aggiuntivi che è possibile assegnare ai singoli carichi o alle singole spedizioni di reso. Per le vendite, per un'azienda conoscere il costo della spedizione di articoli venduti è altrettanto importante che conoscere il costo franco di tutte le spese di sbarco degli articoli acquistati.
 
 Oltre a registrare il costo aggiuntivo nel valore di magazzino, è possibile utilizzare la funzionalità Addebiti per le seguenti operazioni:
@@ -35,19 +29,19 @@ Sia per i documenti di vendita che di acquisto, è possibile assegnare un addebi
 > [!NOTE]  
 >   È possibile assegnare addebiti articoli a ordini, fatture e note di credito, per i documenti di vendita e per quelli di acquisto. Di seguito viene descritto come utilizzare gli addebiti articolo per una fattura di acquisto. I passaggi sono simili per tutti gli altri documenti di acquisto o vendita.
 
-## <a name="example"></a>Esempio
+## Esempio
 Questo video mostra come gestire un costo di spedizione aggiuntivo come parte del costing di magazzino.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## <a name="to-set-up-item-charge-numbers"></a>Per impostare i numeri di addebito articolo
+## Per impostare i numeri di addebito articolo
 I numeri di addebito articolo vengono utilizzati per distinguere fra i vari tipi di addebito utilizzati nella propria società.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Addebiti articoli**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** nella pagina **Addebiti articoli** per creare una nuova riga.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo
+## Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo
 Se si conosce l'addebito articolo nel momento in cui si registra una fattura di acquisto per l'articolo, attenersi alla procedura seguente.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
@@ -70,7 +64,7 @@ Finché l'addebito articolo è assegnato completamente, il valore nel campo **Qt
 
 L'addebito è ora assegnato alla fattura di acquisto. Quando si registra il carico della fattura di acquisto, i valori di magazzino degli articoli vengono aggiornati con il costo dell'addebito articolo.  
 
-## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo da una fattura distinta alla fattura di acquisto per l'articolo
+## Per assegnare un addebito articolo da una fattura distinta alla fattura di acquisto per l'articolo
 Se si riceve una fattura per l'addebito articolo dopo aver effettuato la registrazione del carico dell'acquisto originale, attenersi alla procedura seguente.
 1. Ripetere i passaggi da 1 a 8 della sezione [Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. Nella pagina **Assegnaz. addebito art.** scegliere l'azione **Prendi righe di carico**.
@@ -79,9 +73,9 @@ Se si riceve una fattura per l'addebito articolo dopo aver effettuato la registr
 
 Gli addebiti articoli nella fattura di acquisto distinta vengono ora assegnati all'articolo nel carico di acquisto registrato, viene quindi aggiornato il valore di magazzino dell'articolo con il costo dell'addebito articolo.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  

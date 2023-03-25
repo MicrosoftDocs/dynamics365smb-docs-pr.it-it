@@ -1,4 +1,8 @@
-> [!NOTE]
->Puoi indicarci le tue preferenze di lingua per la documentazione? [Partecipa a un breve sondaggio.](https://aka.ms/BAG_Docs_Language_Survey) (il sondaggio è in inglese)
->
->Il sondaggio richiederà circa sette minuti. Non viene raccolto alcun dato personale ([Informativa sulla privacy](https://go.microsoft.com/fwlink/?LinkId=521839)).
+---
+author: edupont04
+ms.topic: include
+ms.date: 11/01/2022
+ms.author: edupont
+---
+[I moduli di e-learning gratuiti per Business Central sono disponibili qui](/training/dynamics365/business-central)
+

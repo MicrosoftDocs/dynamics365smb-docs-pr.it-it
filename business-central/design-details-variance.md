@@ -1,22 +1,16 @@
 ---
 title: 'Dettagli di progettazione: Scostamento | Microsoft Docs'
-description: Lo scostamento è definito come la differenza tra il costo effettivo e il costo standard, come descritto nella formula seguente.
+description: 'Lo scostamento è definito come la differenza tra il costo effettivo e il costo standard, come descritto nella formula seguente.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: db015f330a89a164b7636b4f44a265f528e9cc3f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513046"
 ---
-# <a name="design-details-variance"></a>Dettagli di progettazione: Scostamento
+# Dettagli di progettazione: Scostamento
 Lo scostamento è definito come la differenza tra il costo effettivo e il costo standard, come descritto nella formula seguente.  
 
  costo effettivo – costo standard = scostamento  
@@ -26,7 +20,7 @@ Lo scostamento è definito come la differenza tra il costo effettivo e il costo 
 > [!NOTE]  
 >  La rivalutazione non influisce sul calcolo dello scostamento, in quanto la rivalutazione modifica soltanto il valore di magazzino.  
 
-## <a name="example"></a>Esempio  
+## Esempio  
  Nel seguente esempio viene illustrato in che modo viene calcolato lo scostamento per gli articoli acquistati. Si basa sullo scenario seguente:  
 
 1.  L'utente acquista un articolo a VL 90,00, ma il costo standard è di VL 100,00. Di conseguenza, lo scostamento di acquisto è VL 10,00.  
@@ -39,7 +33,7 @@ Lo scostamento è definito come la differenza tra il costo effettivo e il costo 
 
  ![Calcolo scostamento acquisto.](media/design_details_inventory_costing_11_purchase_variance.png "Calcolo scostamento acquisto")  
 
-## <a name="determining-the-standard-cost"></a>Determinazione del costo standard  
+## Determinazione del costo standard  
  Il costo standard viene utilizzato durante il calcolo dello scostamento e dell'importo da capitalizzare. Poiché il costo standard può essere modificato nel tempo a causa di calcoli di aggiornamento manuali, è necessario individuare un momento nel tempo in cui il costo standard è fisso per il calcolo dello scostamento. Questo punto si presenta quando l'aumento di magazzino viene fatturato. Per articoli prodotti o assemblati, il punto in cui il costo standard è determinato è quando il costo viene rettificato.  
 
  Nella seguente tabella viene mostrato in che modo vengono calcolati i differenti dettagli dei costi per gli articoli prodotti e assemblati quando si utilizza la funzione Calcola costo standard.  
@@ -58,7 +52,7 @@ Lo scostamento è definito come la differenza tra il costo effettivo e il costo 
 |**Costo gen. capacità - Ricalcolo**|Non applicabile|![Equazione 8.](media/design_details_inventory_costing_11_equation_8.png "Equazione 8")|  
 |**Costo gen. prod.- Ricalcolo**|Non applicabile|![Equazione 9.](media/design_details_inventory_costing_11_equation_9.png "Equazione 9")|  
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
  [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  

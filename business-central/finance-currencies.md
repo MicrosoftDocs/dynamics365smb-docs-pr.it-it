@@ -4,21 +4,15 @@ description: Ottieni una panoramica di come Business Central definisce la tua va
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
-ms.search.form: 5, 118
+ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 7eabe6a9c17431b3e2965edcbf832d37133f4f9f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532756"
 ---
-# <a name="currencies-in-business-central"></a>Valute in Business Central
+# Valute in Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="currencies"></a>Valute
+## Valute
 
 > [!TIP]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] se si stanno cercando informazioni in tempo reale sui tassi di cambio delle valute estere (FX) o sui tassi di cambio storici, queste informazioni vanno sotto il nome di valuta. Oltre a questo articolo, vedere anche [Impostare una valuta di rendicontazione aggiuntiva](finance-how-setup-additional-currencies.md).
@@ -27,17 +21,17 @@ ms.locfileid: "9532756"
 
 Specifica i codici valuta nell'elenco **Valute**, comprese le informazioni e le impostazioni aggiuntive necessarie per ciascun codice valuta. Per ulteriori informazioni, vedi [Valute](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Esempio di una transazione in valuta esigibile
+### Esempio di una transazione in valuta esigibile
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Tassi di cambio
+## Tassi di cambio
 
 I tassi di cambio sono lo strumento per calcolare il valore in valuta locale (LCY) di ogni transazione in valuta. Per ulteriori informazioni, vedere [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md).  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Impostare le valute](finance-set-up-currencies.md)  
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  

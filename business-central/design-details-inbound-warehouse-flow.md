@@ -1,114 +1,152 @@
 ---
 title: Dettagli di progettazione - Flusso warehouse in entrata
-description: Il flusso di warehouse in entrata inizia quando gli articoli arrivano nell'ubicazione della società di warehouse. Gli articoli vengono registrati ed eventualmente associati ai documenti di origine in entrata.
-author: SorenGP
+description: Il flusso di warehouse in entrata inizia quando gli articoli arrivano alla warehouse della società e vengono registrati e abbinati ai documenti di origine in entrata.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132005"
+ms.search.keywords: null
+ms.date: 11/14/2022
+ms.author: bholtorf
 ---
-# <a name="design-details-inbound-warehouse-flow"></a>Dettagli di progettazione: Flusso warehouse in entrata
-Il flusso in entrata in una warehouse inizia quando gli articoli arrivano nella warehouse dell'ubicazione della società, ricevuti dalle origini esterne o da un'altra ubicazione della società. Un impiegato registra gli articoli, in genere eseguendo la scansione di un codice a barre. Dal dock di ricezione, le attività di magazzino vengono eseguite a livelli diversi di complessità per introdurre gli articoli nell'area di immagazzinamento.  
+# Dettagli di progettazione: Flusso warehouse in entrata
 
- Ogni articolo viene identificato e corrisposto a un documento di origine in entrata corrispondente. Sono disponibili i seguenti documenti di origine in entrata:  
+Il flusso in entrata in una warehouse inizia quando gli articoli arrivano nella warehouse dell'ubicazione della società, ricevuti dalle origini esterne o da un'altra ubicazione della società. In linea di principio, il processo di ricezione degli ordini in entrata consiste in due attività:
 
-- Ordine di acquisto  
-- Ordine di trasferimento in ingresso  
-- Ord. reso di vendita  
+* Ricevi gli articoli nella zona di ricezione della warehouse, dove identifichi gli articoli, li associ a un documento di origine e registri la quantità ricevuta. 
+* Stocca gli articoli in magazzino e registra l'ubicazione in cui li stocchi.
 
-Inoltre, sono presenti i seguenti documenti di origine interni che funzionano come origini in entrata:  
+I documenti di origine per il flusso di warehouse in entrata sono:
 
-- Ordine di produzione con registrazione dell'output  
-- Ordine di assemblaggio con registrazione dell'output  
+* Ordini acquisto  
+* Ordine di trasferimento in entrata  
+* Ordini di reso vendita  
 
-Gli ultimi due rappresentano i flussi in entrata nella warehouse dalle aree operative interne. Per ulteriori informazioni sulla gestione del magazzino per i processi in entrata e in uscita interni, vedere [Dettagli di progettazione: Flussi warehouse interni](design-details-internal-warehouse-flows.md).  
+> [!NOTE]
+> Anche l'output di produzione e assemblaggio rappresenta documenti di origine in entrata. Per ulteriori informazioni sulla gestione dell'output di produzione e assemblaggio per i processi interni, vedi [Dettagli di progettazione: Flussi warehouse interni](design-details-internal-warehouse-flows.md).  
 
-I processi e i documenti dell'interfaccia utente nei flussi di warehouse in entrata sono diversi nelle configurazioni di base e avanzata della warehouse. La principale differenza consiste nel fatto che le attività sono eseguite ordine per ordine nelle configurazioni di base della warehouse e vengono consolidate per più ordini nelle configurazioni avanzate della warehouse. Per ulteriori informazioni sui diversi livelli di complessità della warehouse, vedere [Dettagli di progettazione: Panoramica warehouse](design-details-warehouse-setup.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)], la ricezione e lo stoccaggio degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
+|Metodo|Processo in entrata|Richiesto carico|Richiesto stoccaggio|Livello di complessità (ulteriori informazioni in [Panoramica di Warehouse Management](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Registrare il carico e lo stoccaggio dalla riga ordine|||Nessuna attività di warehouse dedicata.|  
+|B|Registrare il carico e lo stoccaggio da un documento di stoccaggio magazzino||Attivato|Di base: ordine per ordine.|  
+|C|Registrare il carico e lo stoccaggio da un documento di carico warehouse|Attivato||Di base: registrazione di ricezione e spedizione consolidata per più ordini.|  
+|G|Registrare il carico da un documento di carico warehouse e registrare lo stoccaggio da un documento di stoccaggio warehouse|Attivato|Attivato|Avanzate|  
 
-|Metodo|Processo in entrata|Collocazioni|Carichi|Stoccaggi|Livello di complessità (vedere [Dettagli di progettazione: Setup warehouse](design-details-warehouse-setup.md))|  
-|------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
-|A|Registrare il carico e lo stoccaggio dalla riga ordine|X|||2|  
-|B|Registrare il carico e lo stoccaggio da un documento di stoccaggio magazzino|||X|3|  
-|C|Registrare il carico e lo stoccaggio da un documento di carico warehouse||X||5/4/6|  
-|D|Registrare il carico da un documento di carico warehouse e registrare lo stoccaggio da un documento di stoccaggio warehouse||X|X|5/4/6|  
+La selezione di un approccio dipende dalle procedure della società e dal livello di complessità organizzativa. Di seguito sono riportati alcuni esempi che potrebbero aiutarti a decidere.
 
-La selezione di un approccio dipende dalle pratiche accettate della società e dal relativo livello di complessità organizzativa. In un ambiente warehouse ordine per ordine, dove la maggior parte degli addetti della warehouse lavora direttamente con i documenti di ordine, una società potrebbe decidere di utilizzare il metodo A. Una warehouse ordine per ordine con un processo di stoccaggio più complesso o dove del personale dedicato svolge le funzioni di gestione della warehouse, potrebbe decidere di separare le funzioni di stoccaggio dal documento di ordine, metodo B. Inoltre, le società che devono pianificare la gestione di molteplici ordini potrebbero trovare utile utilizzare documenti di carico della warehouse, metodi C e D.  
+* In un ambiente di warehouse ordine per ordine, in cui la maggior parte del personale della warehouse lavora direttamente con i documenti dell'ordine, potresti decidere di utilizzare il metodo A. 
+* Per una warehouse ordine per ordine con un processo di stoccaggio più complesso o in cui il personale della warehouse separa le proprie attività di stoccaggio dal documento dell'ordine, potresti utilizzare il metodo B.
+* Le società che hanno la necessità di pianificare la gestione di più ordini possono trovare utile l'utilizzo dei documenti di carico warehouse, metodi C e D.  
 
-Nei metodi A, B e C, le azioni di carico e di stoccaggio sono combinate in un unico passaggio quando si registrano i documenti corrispondenti come ricevuti. Nel metodo D, il carico viene registrato per primo per riconoscere l'aumento di magazzino e che gli articoli sono disponibili per la vendita. L'addetto warehouse registra quindi lo stoccaggio per rendere gli articoli disponibili al prelievo.  
+Nei metodi A, B e C, il carico e lo stoccaggio sono combinati in un unico passaggio quando si registrano i documenti come ricevuti. Nel metodo D, il carico viene registrato per primo per definire l'aumento di magazzino e gli articoli che sono disponibili per la vendita. L'addetto warehouse registra quindi lo stoccaggio per rendere gli articoli disponibili al prelievo per gli ordini in uscita. 
 
-## <a name="basic-warehouse-configurations"></a>Configurazioni di base della warehouse  
+> [!NOTE]
+> Sebbene gli stoccaggi di warehouse e gli stoccaggi di magazzino sembrino simili, i documenti sono diversi e vengono utilizzati in processi diversi.
+> * Lo stoccaggio di magazzino utilizzato nel metodo B, insieme alla registrazione delle informazioni di stoccaggio, registra anche la ricezione del documento di origine.
+> * Lo stoccaggio di warehouse utilizzato nel metodo D non può essere registrato e registra solo lo stoccaggio. La registrazione rende gli articoli disponibili per l'ulteriore elaborazione ma non registra il carico. Nel flusso in entrata, lo stoccaggio warehouse richiede un carico warehouse.
+
+> [!NOTE]
+> Sebbene gli stoccaggi di warehouse e gli stoccaggi di magazzino sembrino simili, i documenti sono diversi e vengono utilizzati in processi diversi.
+> * Lo stoccaggio di magazzino utilizzato nel metodo B, insieme alla registrazione delle informazioni di stoccaggio, registra anche la ricezione del documento di origine.
+> * Lo stoccaggio di warehouse utilizzato nel metodo D non può essere registrato e registra solo lo stoccaggio. La registrazione rende gli articoli disponibili per l'ulteriore elaborazione ma non registra il carico. Nel flusso in entrata, lo stoccaggio warehouse richiede un carico warehouse.
+
+## Nessuna attività di warehouse dedicata
+
+I seguenti articoli forniscono informazioni su come elaborare le ricevute per i documenti di origine se non sono disponibili attività di magazzino dedicate.
+
+* [Registrare gli acquisti](purchasing-how-record-purchases.md)
+* [Ordini di trasferimento](inventory-how-transfer-between-locations.md)
+* [Elaborare gli ordini di restituzione delle vendite](sales-how-process-sales-returns-orders.md)
+
+## Configurazioni warehouse di base  
+
+In una configurazione warehouse di base, l'interruttore **Richiesto stoccaggio** è attivato, ma l'interruttore **Richiesto carico** è disattivato nella pagina Scheda ubicazione per l'ubicazione.
+
 Nel diagramma seguente vengono illustrati i flussi warehouse in entrata per tipo di documento nelle configurazioni di base della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
-![Flusso in entrata nelle configurazioni di base della warehouse.](media/design_details_warehouse_management_inbound_basic_flow.png "Flusso in entrata nelle configurazioni di base della warehouse")  
+:::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Flusso in entrata di base in una warehouse.":::
 
-### <a name="1-release-source-document--create-inventory-put-away"></a>1: Rilasciare il documento di origine / Creare stoccaggio di inventario  
-Quando gli articoli vengono caricati nella warehouse, l'utente responsabile della ricezione pubblica il documento di origine, ad esempio un ordine di acquisto o di trasferimento in entrata, per segnalare agli addetti alla warehouse che gli articoli caricati possono essere stoccati in magazzino. In alternativa, l'utente crea documenti di stoccaggio magazzino per le singole righe ordine, in modalità push, in base alle collocazioni specificate e le quantità da gestire.  
+### 1: Rilasciare un documento di origine per creare una richiesta per uno stoccaggio in magazzino  
 
-### <a name="2-create-inbound-request"></a>2: Crea Richiesta in entrata  
-Quando il documento di origine in entrata viene rilasciato, viene creata automaticamente una richiesta warehouse in entrata. Contiene riferimenti al numero e al tipo di documento di origine e non è visibile all'utente.  
+Quando ricevi gli articoli, rilascia il documento di origine, ad esempio un ordine d'acquisto o un ordine di trasferimento in entrata. Il rilascio del documento rende gli articoli disponibili per lo stoccaggio. Puoi anche creare documenti di stoccaggio magazzino per le singole righe ordine, in modalità push, in base alle collocazioni specificate e le quantità da gestire.  
 
-### <a name="3-create-inventory-put-away"></a>3: Crea un nuovo stoccaggio magazzino  
-Nella pagina **Stoccaggio magazzino**, l'addetto alla warehouse recupera, in modalità pull, le righe del documento di origine in attesa in base alle richieste warehouse in entrata. In alternativa, le righe di stoccaggio di magazzino sono già create, in modalità push, dall'utente responsabile del documento di origine.  
+### 2: Creare uno stoccaggio magazzino  
 
-### <a name="4-post-inventory-put-away"></a>4: Registra stoccaggio magazzino  
-In ogni riga per gli articoli che sono stati stoccati, in parte o completamente, l'addetto alla warehouse compila il campo **Quantità**, quindi registra lo stoccaggio di magazzino. I documenti di origine che sono correlati allo stoccaggio di magazzino vengono registrati come ricevuti.  
+Nella pagina **Stoccaggio magazzino**, puoi recuperare, in modalità pull, le righe del documento di origine in attesa in base alle richieste warehouse in entrata. In modalità push, puoi anche creare righe stoccaggio di magazzino quando crei il documento di origine.  
 
-Vengono creati i movimenti contabili articoli positivi e i movimenti warehouse e viene eliminata la richiesta di stoccaggio, se completamente gestita. Ad esempio, il campo **Quantità ricevuta** nella riga del documento di origine in entrata viene aggiornato. Viene creato un documento di carico registrato che corrisponde all'ordine di acquisto, ad esempio, e agli articoli ricevuti.  
+### 3: Registrare uno stoccaggio di magazzino  
 
-## <a name="advanced-warehouse-configurations"></a>Configurazioni avanzate della warehouse  
-Nel diagramma seguente viene illustrato il flusso warehouse in entrata per tipo di documento nelle configurazioni avanzate della warehouse. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
+In ogni riga per gli articoli che sono stati stoccati, in parte o completamente, compila il campo **Quantità**, quindi registra lo stoccaggio di magazzino. I documenti di origine che sono correlati allo stoccaggio di magazzino vengono registrati come ricevuti.  
 
-![Flusso in entrata nelle configurazioni avanzate della warehouse.](media/design_details_warehouse_management_inbound_advanced_flow.png "Flusso in entrata nelle configurazioni avanzate della warehouse")  
+* Vengono creati movimenti contabili articoli positivi
+* I movimenti di warehouse vengono creati per le ubicazioni che richiedono un codice collocazione per tutte le transazioni articolo.
+* La richiesta di stoccaggio viene eliminata, se è stata gestita completamente. Ad esempio, il campo **Quantità ricevuta** nella riga del documento di origine in entrata viene aggiornato.
+* Viene creato un documento di carico registrato che corrisponde all'ordine di acquisto, ad esempio, e agli articoli ricevuti.  
 
-### <a name="1-release-source-document"></a>1: Rilasciare documenti di origine  
-Quando gli articoli vengono caricati nella warehouse, l'utente responsabile della ricezione pubblica il documento di origine, ad esempio un ordine di acquisto o di trasferimento in entrata, per segnalare agli addetti alla warehouse che gli articoli caricati possono essere stoccati in magazzino.  
+## Configurazioni avanzate della warehouse  
 
-### <a name="2-create-inbound-request"></a>2: Crea Richiesta in entrata  
-Quando il documento di origine in entrata viene rilasciato, viene creata automaticamente una richiesta warehouse in entrata. Contiene riferimenti al numero e al tipo di documento di origine e non è visibile all'utente.  
+In una configurazione warehouse avanzata, l'interruttore **Richiesto carico** è attivato nella pagina Scheda ubicazione per l'ubicazione. L'interruttore **Richiesto stoccaggio** è facoltativo.
 
-### <a name="3-create-warehouse-receipt"></a>3: Creare il carico warehouse  
-Nella pagina **Carico warehouse**, l'utente responsabile della ricezione degli articoli recupera le righe del documento di origine in attesa in base alla richiesta warehouse in entrata. Più righe del documento di origine possono essere combinate in un unico documento di carico warehouse.  
+Nel diagramma seguente viene illustrato il flusso warehouse in entrata per tipo di documento. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
-L'utente compila il campo **Qtà da gestire** e, se necessario, seleziona la collocazione e l'area ricevimento.  
+:::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Flusso in entrata in una configurazione warehouse avanzata":::
 
-### <a name="4-post-warehouse-receipt"></a>4: Registra Carico warehouse  
-L'utente registra il carico warehouse. Vengono creati movimenti contabili articoli positivi. Ad esempio, il campo **Quantità ricevuta** nella riga del documento di origine in entrata viene aggiornato.  
+### 1: Rilasciare il documento di origine  
 
-### <a name="5-create-warehouse-internal-put-away"></a>5: Crea Stoccaggio interno warehouse  
-L'utente responsabile dello stoccaggio a partire da operazioni interne crea uno stoccaggio warehouse interno per gli articoli che devono essere stoccati nella warehouse, ad esempio l'output di produzione o di assemblaggio. L'utente specifica la quantità, la zona e la collocazione da cui gli articoli devono essere stoccati, potenzialmente tramite la funzione **Prendi contenuto collocazione**. L'utente rilascia lo stoccaggio interno della warehouse, che crea una richiesta warehouse in entrata in modo che l'attività possa essere recuperata nei documenti di stoccaggio warehouse o nel prospetto di stoccaggio.  
+Quando ricevi gli articoli, rilascia il documento di origine, ad esempio l'ordine d'acquisto o un ordine di trasferimento in entrata. Il rilascio del documento rende gli articoli disponibili per lo stoccaggio. Lo stoccaggio conterrà i riferimenti al tipo e al numero del documento di origine.
 
-### <a name="6-create-put-away-request"></a>6: Crea Richiesta stoccaggio  
-Quando il documento di origine in entrata viene registrato, viene creata automaticamente una richiesta di stoccaggio warehouse. Contiene riferimenti al numero e al tipo di documento di origine e non è visibile all'utente. In base al setup, l'output da un ordine di produzione crea inoltre una richiesta di stoccaggio per stoccare gli articoli finiti in magazzino.  
+### 2: Creare un carico warehouse  
 
-### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generare le righe del prospetto di stoccaggio (facoltativo)  
-L'utente responsabile del coordinamento degli stoccaggi recupera le righe di stoccaggio warehouse nel **Prospetto stoccaggi** basato su carichi warehouse registrati o operazioni interne con output. L'utente seleziona le righe da stoccare e prepara gli stoccaggi specificando le collocazioni da cui prelevare, quelle in cui inserire e il numero di unità da gestire. Le collocazioni possono essere definite anticipatamente dall'impostazione dell'ubicazione warehouse o della risorsa operativa.  
+Nella pagina **Carico warehouse** recupera le righe dei documenti di origine in entrata. Puoi combinare più righe del documento di origine in un unico documento di carico warehouse. Compila il campo **Qtà da gestire** e, se necessario, seleziona la collocazione e l'area ricevimento.  
 
-Una volta che tutti gli stoccaggi sono pianificati e assegnati agli addetti warehouse, l'utente genera i documenti di stoccaggio warehouse. Le righe degli stoccaggi completamente assegnati vengono eliminate dal **Prospetto stoccaggi**.  
+### 3: Registrare il carico warehouse  
+
+Registra il carico warehouse per creare movimenti contabili articoli positivi. Il campo **Quantità ricevuta** nella riga del documento di origine in entrata viene aggiornato.  
+
+Se l'interruttore **Richiesto stoccaggio** non è attivato sulla scheda ubicazione, il processo si interrompe. In caso contrario, la registrazione del documento di origine in entrata rende gli articoli disponibili per lo stoccaggio. Lo stoccaggio contiene i riferimenti al tipo e al numero del documento di origine.  
+
+### 4: (Facoltativo) Generare le righe del prospetto di stoccaggio
+
+Recupera le righe di stoccaggio warehouse nel **Prospetto stoccaggio** in base ai carichi warehouse registrati o alle operazioni che producono output. Scegli le righe da stoccare e specifica le seguenti informazioni:
+
+* Le collocazioni da cui prelevare gli articoli.
+* Le collocazioni in cui stoccare gli articoli.
+* Quante unità gestire.
+
+Le collocazioni possono essere predefinite dall'impostazione dell'ubicazione warehouse o della risorsa che ha eseguito l'operazione.  
+
+Una volta che tutti gli stoccaggi sono pianificati e assegnati agli addetti warehouse, genera i documenti di stoccaggio warehouse. Le righe degli stoccaggi completamente assegnati vengono eliminate dal **Prospetto stoccaggi**.  
 
 > [!NOTE]  
->  Se il campo **Usa prospetto stoccaggi** non è selezionato nella scheda ubicazione, i documenti di stoccaggio warehouse vengono creati direttamente in base a carichi warehouse registrati. In questo caso, il passaggio 7 è omesso.  
+> Se l'interruttore **Usa prospetto stoccaggi** non è attivato nella scheda ubicazione, i documenti di stoccaggio warehouse vengono creati direttamente in base a carichi warehouse registrati. In tal caso, questo passaggio non è necessario.  
 
-### <a name="8-create-warehouse-put-away-document"></a>8: Creare documento di stoccaggio warehouse  
-L'addetto warehouse che esegue gli stoccaggi crea un documento di stoccaggio warehouse in modalità pull, in base al carico warehouse registrato. In alternativa, il documento di stoccaggio magazzino viene creato e assegnato a un lavoratore del magazzino in modalità push.  
+### 5: Creare un documento di stoccaggio warehouse
 
-### <a name="9-register-warehouse-put-away"></a>9: Registra Stoccaggio warehouse  
-In ogni riga per gli articoli che sono stati stoccati, in parte o completamente, l'addetto alla warehouse compila il campo **Quantità** della pagina **Stoccaggio warehouse**, quindi registra lo stoccaggio nella warehouse.  
+Crea un documento di stoccaggio warehouse in modalità pull, in base al carico warehouse registrato. In alternativa, crea il documento di stoccaggio magazzino e assegnalo a un addetto warehouse in modalità push.  
 
-I movimenti warehouse vengono creati e le righe di stoccaggio warehouse vengono eliminate, se completamente gestite. Il documento di stoccaggio warehouse rimane aperto fino a quando la quantità completa del carico warehouse registrato correlato non viene registrata. Il campo **Qtà stoccata** nelle righe dell'ordine di carico warehouse viene aggiornato.  
+### 6: Registrare uno stoccaggio warehouse
 
-## <a name="see-also"></a>Vedere anche  
-[Dettagli di progettazione: Gestione warehouse](design-details-warehouse-management.md)
+In ogni riga per gli articoli che sono stati stoccati, in parte o completamente, compila il campo **Quantità** della pagina **Stoccaggio warehouse**, quindi registra lo stoccaggio nella warehouse.  
 
+* I movimenti di warehouse vengono creati per le ubicazioni che richiedono un codice collocazione per tutte le transazioni articolo.
+* Le righe stoccaggio warehouse vengono eliminate, se gestite completamente.
+* Il documento di stoccaggio warehouse rimane aperto fino a quando la quantità completa del carico warehouse registrato correlato non viene registrata.
+* Il campo **Qtà stoccata** nelle righe dell'ordine di carico warehouse registrato viene aggiornato.
+
+## Attività correlate
+
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
+
+|**Per**|**Vedere**|  
+|------------|-------------|  
+|Registra il carico degli articoli nelle ubicazioni di warehouse con un carico warehouse, in caso di processi warehouse parzialmente o completamente automatici nell'ubicazione.|[Ricevere articoli](warehouse-how-receive-items.md)|
+|Stocca gli articoli ordine per ordine e registra il carico nella stessa attività, in una configurazione warehouse di base.|[Eseguire lo stoccaggio con Stoccaggi Magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Stocca gli articoli ricevuti da più ordini di acquisto, reso di vendita e trasferimento in una configurazione warehouse avanzata.|[Eseguire lo stoccaggio con Stoccaggi warehouse:](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+
+
+## Vedere anche
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

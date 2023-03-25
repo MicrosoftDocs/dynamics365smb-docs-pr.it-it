@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1ed4346dbdcbd6fc4eb5b3cde677498c9f3b5ea6
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608224"
 ---
 Quando si apre la pagina **Disp. art. per varianti** da una riga di documento, è possibile inserire una variante nella riga del documento selezionando la riga con la variante che vuoi inserire, quindi facendo clic su OK. Se hai usato la pagina solo per visualizzare la disponibilità e non vuoi inserire una variante, è necessario chiudere la pagina senza fare clic su OK.
 

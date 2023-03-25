@@ -1,23 +1,17 @@
 ---
-title: Impostare le risorse, i fogli presenze e le commesse
-description: Questo argomento descrive come impostare le risorse, i fogli presenze e le commesse per gestire progetti e budget.
+title: 'Impostare le risorse, i fogli presenze e le commesse'
+description: 'Questo argomento descrive come impostare le risorse, i fogli presenze e le commesse per gestire progetti e budget.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2f238da69365edcdd797f00e62e6d766b00feec7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522722"
 ---
-# <a name="setting-up-project-management"></a>Impostazione della Gestione progetti
+# Impostazione della Gestione progetti
 
 Prima di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] per gestire i progetti, è necessario impostare le risorse, i fogli presenze e le commesse.
 
@@ -32,7 +26,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Consentire alle risorse di indicare l'utilizzo del tempo per un individuo o una macchina e consentire al responsabile di esaminare l'utilizzo e la relativa allocazione. |[Impostare fogli presenze](projects-how-setup-time-sheets.md) |
 | Creare schede commessa e preparare task commesse. Impostare i prezzi per gli articoli commessa e le risorse commessa e definire le categorie di registrazione delle commesse. |[Impostazione di commesse](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione di progetti](projects-manage-projects.md)  
 [Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

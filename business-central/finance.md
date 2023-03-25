@@ -1,23 +1,17 @@
 ---
 title: Gestione finanziaria (video)
-description: Scopri come Business Central supporta le esigenze di gestione finanziaria, contabilità, controllo e contabilità.
+description: 'Scopri come Business Central supporta le esigenze di gestione finanziaria, contabilità, controllo e contabilità.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
+ms.search.keywords: 'accounting, auditing, bookkeeping'
+ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: bd8bd7089be89c9d5a2f57b53b104a2b5ac2a565
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605004"
 ---
-# <a name="financial-management"></a>Gestione contabile
+# Gestione contabile
 
 [!INCLUDE[prod_short](includes/prod_short.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedi [Impostazione degli aspetti finanziari](finance-setup-finance.md).
 
@@ -55,13 +49,13 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Utilizza i rendiconti finanziari e le sintesi fornite in Microsoft Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
 |Informazioni su come utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare l'hub aziendale per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Guardare un video
+## Guardare un video
 
 Questo video presenta alcune delle funzionalità chiave per la gestione delle finanze. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Vendite](sales-manage-sales.md)  

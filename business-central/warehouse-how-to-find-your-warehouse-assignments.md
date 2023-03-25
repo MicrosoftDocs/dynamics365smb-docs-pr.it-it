@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513291"
 ---
-# <a name="find-your-warehouse-assignments"></a>Individuare le assegnazioni della warehouse
+# Individuare le assegnazioni della warehouse
 
 Per individuare le assegnazioni di warehouse, aprire la pagina della scheda per un articolo selezionato. Se sono state create istruzioni di warehouse, vengono visualizzate le righe Prendere e Mettere e sarà possibile iniziare a svolgere le operazioni necessarie relative a un'assegnazione. In alcune warehouse è possibile che il responsabile abbia assegnato istruzioni specifiche a ciascun addetto. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a>Per individuare un'istruzione assegnata a se stessi
+## Per individuare un'istruzione assegnata a se stessi
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Stoccaggi warehouse**, **Prelievi warehouse**, o **Movimentazione warehouse**, quindi seleziona il collegamento correlato.
 
@@ -31,13 +25,12 @@ Per individuare le assegnazioni di warehouse, aprire la pagina della scheda per 
 
 Se il responsabile di warehouse non assegna istruzioni specifiche ai singoli addetti, è possibile utilizzare il campo **ID Utente Assegnato** della testata per richiedere l'assegnazione di un incarico. È sufficiente immettere il proprio ID utente nella testata di warehouse prima di procedere all'esecuzione di un'istruzione. Gli altri addetti al warehouse potranno quindi scegliere di eseguire altre istruzioni, eliminando in tal modo il rischio di sovrapposizione degli incarichi.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedere anche
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
-[Magazzino](inventory-manage-inventory.md)  
-[Impostazione di Warehouse Management](warehouse-setup-warehouse.md) 
+[Panoramica di Warehouse Management](design-details-warehouse-management.md)
+[Inventario](inventory-manage-inventory.md)  
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md) 
 [Gestione assemblaggio](assembly-assemble-items.md)
-[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 

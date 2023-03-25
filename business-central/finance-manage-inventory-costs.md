@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 49cc2e9c461974dcdb6fa0612aa9abc11629bd9b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523425"
 ---
-# <a name="managing-inventory-costs"></a>Gestione dei costi di magazzino
+# Gestione dei costi di magazzino
 La gestione dei costi, detta anche "costing", riguarda la registrazione e il reporting dei costi operativi business. Comprende inoltre il reporting dei costi di produzione e di magazzino, ovvero il valore degli articoli.   
 
 Di seguito sono elencati i principi fondamentali di questa materia: i metodi di costing definiscono il modo in cui gli articoli vengono valutati quando escono dal magazzino, la rettifica dei costi aggiorna il costo della merce venduta con costi di acquisto correlati registrati dopo la vendita e infine il valore di magazzino deve essere registrato in appositi conti C/G con periodicità regolare.
@@ -39,7 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Eseguire attività di controllo e reporting di chiusura del periodo, ad esempio calcolare il valore di magazzino e registrare i costi nella contabilità generale.|[Creazione di report dei costi e riconciliazione con la contabilità generale](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Informazioni su come utilizzare la coda processi per spostare in background le attività per la rettifica del costo di magazzino o per riconciliarlo con la contabilità generale.|[Rettificare e riconciliare il costo di magazzino con la contabilità generale con la coda processi](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
  [Finanze](finance.md)  
  [Magazzino](inventory-manage-inventory.md)   
  [Vendite](sales-manage-sales.md)   
