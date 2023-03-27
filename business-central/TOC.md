@@ -106,7 +106,14 @@
 ### [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md)
 ### [Estendere la versione di valutazione](admin-extend-trial.md)
 ### [Annullare la sottoscrizione o rimuovere Business Central](admin-cancel.md)
-## Acquisti
+### Testo del marketing articolo basato su intelligenza artificiale con Copilot
+#### [Panoramica](ai-overview.md)
+#### [Ottieni versione in anteprima - edizione Copilot](ai-preview-getstarted.md)
+#### [Configurare il testo del marketing articolo basato su intelligenza artificiale](enable-ai.md)
+#### [Creare il testo del marketing articolo basato su intelligenza artificiale](item-marketing-text.md)
+#### [Domande frequenti](ai-faq.md)
+
+## Acquistare
 ### [Introduzione a una sottoscrizione](trial-signup.md#get-started-with-a-subscription)
 ### [Preparazione al business](ui-get-ready-business.md)
 
@@ -491,7 +498,8 @@
 ### [Classificare gli articoli](inventory-how-categorize-items.md)
 ### [Gestire le varianti di prodotto](inventory-item-variants.md)  
 ### [Usare gli attributi degli articoli](inventory-how-work-item-attributes.md)
-### [Usare gli articoli di catalogo](inventory-how-work-nonstock-items.md)
+### [Usare gli articoli del catalogo](inventory-how-work-nonstock-items.md)
+### [Aggiungere del testo marketing per l'articolo](item-marketing-text.md)
 ### [Conteggio e rettifica dell'inventario utilizzando documenti](inventory-how-count-inventory-with-documents.md)
 ### [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-adjust-reclassify.md)
 ### [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
@@ -1520,10 +1528,11 @@
 #### [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md)
 #### [Informazioni sui tipi di articolo](inventory-about-item-types.md)
 #### [Impostare unità di misura](inventory-how-setup-units-of-measure.md)
-#### [Impostare le unità di stockkeeping](inventory-how-to-set-up-stockkeeping-units.md)
+#### [Configurare le unità di stockkeeping](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Classificare gli articoli](inventory-how-categorize-items.md)
-#### [Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)
-### Impostare la gestione progetti
+#### [Importare più immagini articolo](inventory-how-import-item-pictures.md)
+#### [Configurare testo del marketing articolo basato su intelligenza artificiale con Copilot](enable-ai.md)
+### Impostare la gestione dei progetti
 #### [Impostare i progetti](projects-setup-projects.md)
 #### [Impostare le risorse](projects-how-setup-resources.md)
 #### [Impostare i fogli presenze](projects-how-setup-time-sheets.md)
@@ -1594,6 +1603,7 @@
 ##### [Ottenere il componente aggiuntivo Business Central per Outlook](admin-outlook.md)
 ##### [Usare Business Central come Posta in arrivo aziendale di Outlook](work-outlook-addin.md)
 ##### [Eseguire la sincronizzazione con i contatti di Outlook](admin-synchronize-outlook-contacts.md)
+###### [Configurare la sincronizzazione dei contatti per uso locale](admin-contact-sync-setup-onprem.md)
 ##### [Ottimizzare Outlook](admin-outlook-optimize.md)
 ##### [Usare Business Central senza Outlook](admin-no-outlook.md)
 ##### [Domande frequenti](ui-outlook-addin-faq.yml)
@@ -1615,6 +1625,7 @@
 #### Usare Business Central come Posta in arrivo aziendale di Outlook 
 ##### [Panoramica](admin-outlook.md)
 ##### [Eseguire la sincronizzazione con i contatti di Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Configurare la sincronizzazione dei contatti per uso locale](admin-contact-sync-setup-onprem.md)
 ##### [Usare Business Central senza Outlook](admin-no-outlook.md)
 #### Usare Microsoft Teams con Business Central
 ##### [Sintesi](across-teams-overview.md)
