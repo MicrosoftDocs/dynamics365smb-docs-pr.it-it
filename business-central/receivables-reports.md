@@ -4,25 +4,19 @@ description: Vedi quali report e analisi sono disponibili nella versione standar
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
+ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316'
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: f674102844cf6dd6c5c93aa0036f8b73f10b8b61
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514779"
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Report di contabilità clienti e analisi in Business Central
+# Report di contabilità clienti e analisi in Business Central
 
 Per aiutarti a gestire la contabilità clienti in [!INCLUDE [prod_short](includes/prod_short.md)], report standard e analisi sono integrati. Va oltre i tradizionali vincoli di creazione di report per consentire di progettare in modo efficiente vari tipi di report.  
 
-## <a name="reports"></a>Report
+## Report
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Utilizzare le dimensioni](finance-dimensions.md)  

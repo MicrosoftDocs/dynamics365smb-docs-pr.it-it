@@ -6,25 +6,20 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 11/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 0290a9224691bbcab8e3a7dbef185e1507a3b75a
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744790"
 ---
-# <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
+
+# Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Questo articolo fornisce una panoramica di ciò che è possibile fare come amministratore per controllare l'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="in-microsoft-teams"></a>In Microsoft Teams
+## In Microsoft Teams
 
-### <a name="minimum-requirements"></a>Requisiti minimi
+### Requisiti minimi
 
 Questa sezione descrive i requisiti minimi per il funzionamento dell'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams.
 
@@ -47,7 +42,7 @@ Questa sezione descrive i requisiti minimi per il funzionamento dell'app [!INCLU
 
     L'impostazione dei criteri **Consenti anteprime URL** deve essere attivata. In caso contrario, non è possibile generare una scheda per i collegamenti di [!INCLUDE [prod_short](includes/prod_short.md)] incollati in una conversazione di Teams. Per ulteriori informazioni su questa impostazione, vedere [Gestire i criteri di messaggistica in Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-prod_short-app-optional"></a>Gestione dell'app [!INCLUDE [prod_short](includes/prod_short.md)] (facoltativo)
+### Gestione dell'app [!INCLUDE [prod_short](includes/prod_short.md)] (facoltativo)
 
 In qualità di amministratore di Teams, è possibile gestire tutte le app per l'organizzazione, inclusa l'app [!INCLUDE [prod_short](includes/prod_short.md)]. È possibile approvare o installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per l'organizzazione, impedire all'utente di installare l'app e altro ancora.
 
@@ -56,9 +51,9 @@ Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di M
 - [Gestire le app nell'interfaccia di amministrazione di Microsoft Teams](/MicrosoftTeams/manage-apps)
 - [Gestire i criteri di configurazione dell'app in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-prod_short"></a>In [!INCLUDE [prod_short](includes/prod_short.md)]
+## In [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements"></a>Requisiti minimi
+### Requisiti minimi
 
 - Versione di [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -80,14 +75,14 @@ Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di M
     
     Per informazioni sulle autorizzazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installare l'applicazione Business Central utilizzando la distribuzione centralizzata
+## Installare l'applicazione Business Central utilizzando la distribuzione centralizzata
 
 Il centro di amministrazione di Microsoft Teams è dove configuri le politiche di configurazione delle app Teams per l'organizzazione. Nel centro amministrativo di Teams, puoi usare la funzione di distribuzione centralizzata per installare automaticamente l'app Business Central in Teams per tutti gli utenti della tua organizzazione, per gruppi specifici o per singoli utenti.
 
 > [!NOTE]
 > Per impostare la distribuzione centralizzata, il tuo account Teams deve avere il ruolo di **amministratore di Teams Service**  o il ruolo di **amministratore globale** .
 
-1. In Business Central, scegli la ![Lente d'ingrandimento che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , inserire **Teams App Centralized Deployment** e poi scegliere il link relativo. Oppure, seleziona [qui](https://businesscentral.dynamics.com/?page=1833) per aprire direttamente la pagina.
+1. In Business Central, scegli la ![Lente d'ingrandimento che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , inserire **Teams App Centralized Deployment**e poi scegliere il link relativo. Oppure, seleziona [qui](https://businesscentral.dynamics.com/?page=1833) per aprire direttamente la pagina.
 2. Leggi le informazioni su **Set up the Business Central app for Teams**, poi scegli **Avanti** quando sei pronto.
 3. Aprire il [centro amministrativo di Teams](https://go.microsoft.com/fwlink/?linkid=2163970)e completare i seguenti passi.
     1. Vai a **Teams apps** > **Setup policies**.
@@ -104,18 +99,18 @@ Il centro di amministrazione di Microsoft Teams è dove configuri le politiche d
 > [!IMPORTANT]
 > Possono essere necessarie fino a 24 ore per applicare la politica di configurazione dell'app e distribuire l'app agli utenti.
 
-## <a name="managing-privacy-and-compliance"></a>Gestione della privacy e della conformità 
+## Gestione della privacy e della conformità 
 
 Microsoft Teams fornisce controlli estesi per la conformità e la gestione di dati sensibili o di identificazione personale, compresi i dati aggiunti a chat e canali mediante l'app [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Informazioni su dove vengono memorizzate le schede di [!INCLUDE [prod_short](includes/prod_short.md)]
+### Informazioni su dove vengono memorizzate le schede di [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Dopo che una scheda è stata inviata a una chat, la scheda e i campi visualizzati nella scheda vengono copiati in Teams. Queste informazioni sono soggette ai criteri di Teams per l'organizzazione, come i criteri di conservazione dei dati. Quando si visualizzano i dettagli della scheda, i dati nella finestra dei dettagli non sono memorizzati in Teams. I dati rimangono memorizzati in [!INCLUDE [prod_short](includes/prod_short.md)] e verranno recuperati da Teams solo quando l'utente sceglie di visualizzare i dettagli. 
 
 - Per ulteriori informazioni sulla posizione in cui Teams memorizza tali dati, vedi [Posizione dei dati in Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Per altre informazioni sui criteri di conservazione in Teams, vedi [Criteri di conservazione in Microsoft Teams](/microsoftteams/retention-policies).
 
-### <a name="restricting-sharing-of-cards"></a>Limitazione della condivisione delle schede 
+### Limitazione della condivisione delle schede 
 
 Per impedire a utenti o gruppi specifici di inviare schede a chat o canali, devi impostare criteri di messaggistica che disattivano l'impostazione **Anteprime URL**. Per ulteriori informazioni su questa impostazione, vedi [Gestire i criteri di messaggistica in Teams](/microsoftteams/messaging-policies-in-teams). 
 
@@ -123,7 +118,7 @@ Per impedire a utenti o gruppi specifici di inviare schede a chat o canali, devi
 
 Le funzionalità di prevenzione della perdita di dati nel Centro sicurezza e conformità di Microsoft 365 non possono essere applicate in modo specifico alle schede. Possono tuttavia essere applicate ai messaggi di chat che contengono le schede. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### <a name="responding-to-data-requests"></a>Rispondere alle richieste di dati
+### Rispondere alle richieste di dati
 
 Per consentire ai membri del team e ai proprietari del team di eliminare i messaggi che contengono schede sensibili devi impostare criteri di messaggistica, come: **I proprietari possono eliminare i messaggi inviati** e **Gli utenti possono eliminare i messaggi inviati**. Per ulteriori informazioni, vedi [Gestire criteri di messaggistica in Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -131,7 +126,7 @@ Le funzionalità di conformità eDiscovery e di ricerca di contenuto nel Centro 
 
 Poiché i dati delle schede in Teams sono una copia dei dati in [!INCLUDE [prod_short](includes/prod_short.md)], puoi anche usare le funzionalità di [!INCLUDE [prod_short](includes/prod_short.md)] per esportare i dati di un cliente se richiesto. Per ulteriori informazioni sulla privacy in [!INCLUDE [prod_short](includes/prod_short.md)], vedi [Domande frequenti sulla privacy per i clienti di Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Panoramica dell'integrazione di [!INCLUDE [prod_short](includes/prod_short.md)] e Microsoft Teams](across-teams-overview.md)  
 [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
 [Domande frequenti su Teams](teams-faq.md)  

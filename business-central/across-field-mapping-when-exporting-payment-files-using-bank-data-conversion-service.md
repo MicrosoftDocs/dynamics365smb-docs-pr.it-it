@@ -1,22 +1,16 @@
 ---
 title: Mapping dei campi per l'esportazione dei file di pagamento bancario | Microsoft Docs
-description: Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals, i dati esportati sono esposti al provider di servizi.
+description: 'Quando si esportano file di pagamento utilizzando l''estensione AMC Banking 365 Fundamentals, i dati esportati sono esposti al provider di servizi.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 31f6c59f13bed6fdb62624b56ad732824af77230
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519331"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals
+# Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals
 Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals, i dati esportati sono esposti al provider di servizi. Il provider di servizi è responsabile per la privacy di questi dati. Per ulteriori informazioni sull'estensione AMC Banking 365 Fundamentals, vedere [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -69,7 +63,7 @@ La tabella seguente elenca i campi in [!INCLUDE[prod_short](includes/prod_short.
 |Nome batch registrazioni COGE|Nome batch contabile|Riga registrazioni COGE|Il nome del batch registrazioni COGE utilizzato per la riga di pagamento|  
 |Nome banca mittente- Conv. dati|Nome banca – Conversione dati|Conto bancario|Il nome del conto corrente bancario del mittente che viene richiesto dall'estensione AMC Banking 365 Fundamentals e che viene specificato nella scheda conto corrente bancario|  
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)
 [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   

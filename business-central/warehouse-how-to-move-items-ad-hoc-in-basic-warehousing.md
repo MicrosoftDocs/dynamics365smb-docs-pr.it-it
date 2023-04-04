@@ -87,6 +87,8 @@ Anziché utilizzare documenti di movimento, puoi registrare i movimenti riclassi
 3. Compilare i restanti campi di ogni riga di registrazione.
 4. Registrare le registrazioni di riclassificazione.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## Vedi il relativo [training Microsoft](/training/modules/manage-internal-warehouse-processes/)
 
 ## Vedere anche

@@ -127,6 +127,8 @@ Durante il processo di registrazione si verifica quanto segue:
 * Registra il consumo delle righe del documento di origine prelevate.
 * Se l'ubicazione prevede l'utilizzo di collocazioni, verranno creati movimenti warehouse per la registrazione delle modifiche delle quantità nelle collocazioni.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## Per registrare il movimento di magazzino
 
 1. Nella pagina **Movimento di magazzino** apri il documento per cui registrare un movimento.  

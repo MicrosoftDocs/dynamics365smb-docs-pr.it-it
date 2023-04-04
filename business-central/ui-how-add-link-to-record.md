@@ -1,58 +1,58 @@
 ---
-title: Aggiungere allegati, collegamenti e note nei record
-description: Aggiungi un collegamento ipertestuale a un documento o un sito Web in un record specifico, ad esempio, un cliente o un documento.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: e3f1e3f63c8e27d081a89f6d8626b8b392a6e02b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519546"
+title: 'Aggiungere allegati, collegamenti e note nei record'
+description: 'Aggiungi un collegamento ipertestuale a un documento o un sito Web in un record specifico, ad esempio, un cliente o un documento.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 02/24/2023
+ms.custom: bap-template
 ---
-# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Gestire allegati, collegamenti e note in schede e documenti
+# Gestire allegati, collegamenti e note in schede e documenti
 
-Nel riquadro Dettaglio informazioni della maggior parte di schede e documenti, è possibile allegare file, aggiungere collegamenti e scrivere note. Per collegamenti e note, è anche possibile eseguire queste operazioni nella pagina elenco selezionando dapprima la riga correlata.
+Nella maggior parte delle pagine elenco, delle schede e dei documenti, puoi allegare file, aggiungere collegamenti e scrivere note nella scheda **Allegati** del riquadro **Dettaglio informazioni**. Il numero nel titolo della scheda indica quanti file, collegamenti o note allegati esistono per la scheda o il documento.
 
-Per visualizzare o modificare uno di questi tipi di informazioni allegate, è necessario dapprima aprire la scheda **Allegati** nel riquadro Dettaglio informazioni. Il numero dietro il titolo della scheda indica quanti file, collegamenti o note allegati esistono per la scheda o il documento.
+Nella scheda dettaglio **Righe** puoi anche utilizzare l'azione **Allegati** per allegare documenti a una riga specifica. Ad esempio, potresti voler allegare specifiche di progettazione a un articolo su una fattura di acquisto.
 
-Allegati, collegamenti e note rimangono allegati durante il passaggio ad altri stati della scheda o del documento, ad esempio da un ordine di vendita in corso a una fattura di vendita registrata. Tuttavia, nessuno dei tipi di allegato viene generato dal sistema, ad esempio durante la stampa o il salvataggio in un file.
+Allegati, collegamenti e note rimangono allegati alla scheda o al documento mentre viene elaborato in altri stati. Ad esempio, da un ordine di vendita in corso a una fattura di vendita registrata. Tuttavia, nessuno dei tipi di allegato viene generato dal sistema, ad esempio durante la stampa o il salvataggio in un file.
+
+Puoi anche aggiungere allegati alle email che invii da [!INCLUDE [prod_short](includes/prod_short.md)]. Quando invii un'e-mail direttamente da un documento, ad esempio un'offerta di vendita, l'azione **Aggiungi file dal documento di origine** ti consente di scegliere i file da allegare. Puoi scegliere solo i file allegati al documento. Non puoi scegliere i file allegati alle righe.
 
 > [!NOTE]
 > Quando si spedisce e si fattura parzialmente una fattura di vendita o un ordine di acquisto, l'allegato verrà collegato solo alla fattura finale di quell'ordine. Allo stesso modo, quando si fattura utilizzando la funzione Differimenti, l'allegato viene collegato ai movimenti C/G per il documento, ma non per i movimenti di differimento.
 >
 > Se elimini un ordine prima che venga fatturato, viene rimosso anche l'allegato. Quando si fatturano ordini di acquisto utilizzando l'azione Ottieni righe di carico da una fattura di acquisto, l'allegato degli ordini di acquisto non viene aggiunto alla fattura di acquisto.
 
-## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Per allegare un file a una fattura acquisto
-È possibile allegare un qualsiasi tipo di file, contenente testo, immagini o video, a una scheda o a un documento. Ciò è utile, ad esempio, quando si desidera archiviare la fattura di un fornitore come file PDF nella relativa fattura acquisto in [!INCLUDE[prod_short](includes/prod_short.md)].
+## Per allegare un file a una fattura acquisto
+
+È possibile allegare un qualsiasi tipo di file, ad esempio testo, immagini o video, a una scheda, a un documento o a una riga di un documento. Ciò è utile, ad esempio, quando si desidera archiviare la fattura di un fornitore come file PDF nella relativa fattura acquisto in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
-> I file allegati con la funzione Documenti in entrata non sono inclusi nella scheda **Allegati**. Per ulteriori informazioni, vedere [Documenti in entrata](across-income-documents.md).
+> I file allegati con la funzione Documenti in entrata non sono inclusi nella scheda **Allegati**. Per ulteriori informazioni, vedi [Documenti in entrata](across-income-documents.md). Lo stesso vale per i file allegati alle righe dei documenti.
 
 La seguente procedura è basata su una fattura di acquisto. I passaggi sono simili per tutti gli altri documenti e schede supportati.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
-2. Aprire l'ordine di vendita a cui desidera allegare un file.
-3. Nel riquadro Dettaglio informazioni, aprire la scheda **Allegati**.
+> [!TIP]
+> Se il tuo allegato è specifico per una riga di un documento, puoi allegarlo alla riga. Seleziona la riga e scegli l'azione **Allegati**.
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
+2. Apri la fattura di acquisto a cui vuoi allegare un file.
+3. Nel riquadro **Dettaglio informazioni**, apri la scheda **Allegati**.
 4. Scegliere il valore dietro il campo **Documenti**, ad esempio "0".
 5. Nella pagina **Documenti allegati**, nel campo **Allegato**, scegliere l'azione **Seleziona file**.
-5. Selezionare un file in qualsiasi posizione, quindi scegliere il pulsante **Apri**.
+6. Selezionare un file in qualsiasi posizione, quindi scegliere il pulsante **Apri**.
 
 Il file è ora allegato alla fattura acquisto.
 
-## <a name="to-view-an-attached-file"></a>Per visualizzare il file allegato
-1. Nel riquadro Dettaglio informazioni, aprire la scheda **Allegati**.
+## Per visualizzare il file allegato
+
+1. Nel riquadro **Dettaglio informazioni**, apri la scheda **Allegati**.
 2. Scegliere il valore dietro il campo **Documenti**, ad esempio "1".
 3. Nella pagina **Documenti allegati** scegliere l'azione **Anteprima**.
 4. Aprire il file scaricato.
 
-## <a name="to-save-a-document-as-a-pdf-attachment"></a>Per salvare un documento come allegato PDF
+## Per salvare un documento come allegato PDF
+
 Ogni volta che è necessario salvare un documento come file, è possibile utilizzare l'azione **Allega come PDF** per acquisire il contenuto del documento corrente come file PDF allegato al riquadro Dettaglio informazioni del documento. Ciò è utile, ad esempio, quando i documenti seguono più passaggi in un processo, come un processo di vendita o un flusso di lavoro di approvazione, e si desidera fare riferimento a una stampa del passaggio precedente.
 
 La seguente procedura è basata su un ordine di vendita. I passaggi sono simili per tutti i documenti supportati.
@@ -62,7 +62,8 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 Un file PDF con il contenuto corrente dell'ordine cliente viene aggiunto alla scheda **Allegati** nel riquadro Dettaglio informazioni.
 
-## <a name="to-add-a-link-from-an-item-card"></a>Per aggiungere un collegamento da una scheda articolo
+## Per aggiungere un collegamento da una scheda articolo
+
 È possibile aggiungere un link da una scheda o da un documento a qualsiasi URL. Ciò è utile, ad esempio, quando si desidera collegare una scheda articolo al catalogo articoli del fornitore.
 
 La procedura seguente è basata su una scheda articolo. I passaggi sono simili per tutti gli altri documenti e schede supportati.
@@ -79,7 +80,8 @@ La procedura seguente è basata su una scheda articolo. I passaggi sono simili p
 
 Il collegamento è ora allegato alla scheda articolo.  
 
-## <a name="to-write-a-note-on-a-sales-order"></a>Per scrivere una nota in un ordine cliente
+## Per scrivere una nota in un ordine cliente
+
 È possibile scrivere una nota in un documento o una scheda, ad esempio, per comunicare istruzioni speciali ad altri utenti del documento o della scheda. È possibile includere URL e collegamenti a file nelle note.
 
 > [!NOTE]
@@ -95,7 +97,7 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 La nota è ora allegata all'ordine cliente.
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  

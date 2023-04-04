@@ -3,19 +3,13 @@ title: Creare utenti in base alle licenze
 description: Descrive come aggiungere utenti a Business Central Online o in locale in base alle licenze.
 author: jswymer
 ms.topic: conceptual
-ms.search.keywords: access, right, security
-ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
+ms.search.keywords: 'access, right, security'
+ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
 ms.date: 05/09/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.openlocfilehash: f0a9231b68df913c122c4118a5585f8464fdbd00
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804528"
 ---
-# <a name="create-users-according-to-licenses"></a>Creare utenti in base alle licenze
+# Creare utenti in base alle licenze
 
 Questo articolo descrive come gli amministratori creano utenti e definiscono chi può accedere a [!INCLUDE[prod_short](includes/prod_short.md)]. Scoprirai come assegnare autorizzazioni a diversi utenti in base alle licenze del prodotto.
 
@@ -26,7 +20,7 @@ Per ulteriori informazioni sui diversi tipi di licenze e sul funzionamento delle
 > [!NOTE]
 > Il processo di gestione degli utenti e delle licenze varia a seconda che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] sia distribuita online o in locale. Per [!INCLUDE [prod_short](includes/prod_short.md)] online, è necessario aggiungere utenti da Microsoft 365. Nelle distribuzioni locali è possibile creare, modificare ed eliminare utenti direttamente.  
 
-## <a name="manage-users-and-licenses-in-online-tenants"></a>Gestire utenti e licenze nei tenant online
+## Gestire utenti e licenze nei tenant online
 
 Gli account utente in [!INCLUDE[prod_short](includes/prod_short.md)] devono essere prima creati nell'interfaccia di amministrazione Microsoft 365. Questi account utente non sono esclusivi di Business Central. Se ti abboni ad altri piani, possono essere utilizzati per accedere ad altre applicazioni, come Power BI. Per informazioni sulla creazione di utenti nell'interfaccia di amministrazione Microsoft 365, vai a [Aggiungi utenti nell'interfaccia di amministrazione Microsoft](/microsoft-365/admin/add-users/add-users).
 
@@ -41,11 +35,11 @@ Per ulteriori informazioni, vedere [Amministrazione di Business Central Online](
 
 Dopo aver creato gli account utente nell'interfaccia di amministrazione Microsoft 365, esistono due modi per importarli in Business Central:
 
-- Un account utente viene importato automaticamente quando l'utente accede a Business Central per la prima volta.
+- Un account utente viene importato automaticamente quando l'utente accede a [!INCLUDE [prod_short](includes/prod_short.md)] per la prima volta.
 
 - L'amministratore può importare gli utenti selezionando l'azione  **Aggiorna utenti da Microsoft 365** nella pagina **Utenti* .
 
-Entrambi gli approcci hanno i loro vantaggi e puoi usarli contemporaneamente. Ogni approccio consente agli amministratori di configurare in modo proattivo Business Central per assegnare le autorizzazioni iniziali, i gruppi di utenti e i profili utente. L'utilizzo dell'azione **Aggiorna utenti da Microsoft 365** offre agli amministratori un maggiore controllo per modificare autorizzazioni, gruppi di utenti e profili. È un approccio ideale quando si configura Business Central per la prima volta, prima che qualsiasi utente acceda o quando si aggiunge un nuovo team di utenti.
+Entrambi gli approcci hanno i loro vantaggi e puoi usarli contemporaneamente. Ogni approccio consente agli amministratori di configurare in modo proattivo [!INCLUDE [prod_short](includes/prod_short.md)] per assegnare le autorizzazioni iniziali, i gruppi di utenti e i profili utente. L'utilizzo dell'azione **Aggiorna utenti da Microsoft 365** offre agli amministratori un maggiore controllo per modificare autorizzazioni, gruppi di utenti e profili. È un approccio ideale quando si configura [!INCLUDE [prod_short](includes/prod_short.md)] per la prima volta, prima che qualsiasi utente acceda o quando si aggiunge un nuovo team di utenti.
 
 > [!NOTE]
 > Dopo aver aggiunto gli utenti nell'interfaccia di amministrazione di Microsoft 365, ti consigliamo di aggiornare le informazioni sull'utente in [!INCLUDE[prod_short](includes/prod_short.md)] il prima possibile. Mantenere aggiornate le informazioni sugli utenti è facile e aiuta a garantire che le persone possano sempre accedere. Per altre informazioni vedi [Per aggiungere utenti o aggiornare le informazioni utente e le assegnazioni della licenza in Business Central](#adduser).<br>
@@ -58,7 +52,7 @@ Entrambi gli approcci hanno i loro vantaggi e puoi usarli contemporaneamente. Og
 
 Per ulteriori informazioni, vedi [Accesso dell'amministratore con delega a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Configurare le autorizzazioni in base alle licenze
+### <a name="licensespermissions"></a>Configurare le autorizzazioni in base alle licenze
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -88,13 +82,16 @@ Se questa non è la configurazione corretta per un determinato ambiente, l'ammin
 > [!IMPORTANT]
 > Questa personalizzazione delle autorizzazioni ha effetto solo per i nuovi utenti a cui si assegna la licenza pertinente. Gli utenti esistenti non vengono aggiornati. Ti consigliamo di personalizzare le autorizzazioni prima di iniziare ad assegnare le licenze agli utenti nell'interfaccia di amministrazione di Microsoft 365.
 
-### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Per aggiungere utenti o aggiornare le informazioni utente e le assegnazioni della licenza in Business Central
+### <a name="adduser"></a>Per aggiungere utenti o aggiornare le informazioni utente e le assegnazioni della licenza in Business Central
 
 Dopo aver aggiunto utenti o modificato le informazioni utente nell'interfaccia di amministrazione di Microsoft 365, è possibile importare rapidamente le informazioni utente in [!INCLUDE[prod_short](includes/prod_short.md)]. L'importazione include le assegnazioni della licenza.  
 
 1. Accedere a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando come account amministratore.
 2. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Utenti**, quindi scegli il collegamento correlato.  
 3. Scegliere **Aggiorna utenti da Microsoft 365**.
+
+> [!NOTE]
+> L'azione **Aggiorna utenti da Microsoft 365** non aggiorna gli utenti a cui non è assegnata una licenza, ad esempio qualcuno che è amministratore globale e amministratore di Dynamics 365. Tali utenti verranno aggiornati la prossima volta che accedono all'ambiente.
 
 Per i nuovi utenti, il passaggio successivo consiste nell'assegnare gruppi di utenti e autorizzazioni. Vai ad [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md) per ulteriori informazioni. Se stai aggiornando un utente e l'aggiornamento include una modifica della licenza, gli utenti verranno assegnati al gruppo di utenti appropriato e i relativi set di autorizzazioni verranno aggiornati. Per ulteriori informazioni, vedere [Per gestire le autorizzazioni tramite gruppo di utenti](ui-define-granular-permissions.md).  
 
@@ -106,7 +103,7 @@ Per altre informazioni sulla sincronizzazione delle informazioni utente con Micr
 > [!NOTE]
 > Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a Business Central in modo che possa usare i dati fiscali dell'azienda. Per ulteriori informazioni, vedere [Invitare il contabile esterno in Business Central](finance-accounting.md#inviteaccountant).
 
-### <a name="to-remove-a-users-access-to-the-system"></a>Per rimuovere l'accesso di un utente al sistema
+### Per rimuovere l'accesso di un utente al sistema
 
 Puoi rimuovere l'accesso di un utente a [!INCLUDE[prod_short](includes/prod_short.md)] online. Tutti i riferimenti all'utente vengono mantenuti. Tuttavia, l'utente non può accedere e le sessioni attive per l'utente vengono interrotte.
 
@@ -116,7 +113,7 @@ Puoi rimuovere l'accesso di un utente a [!INCLUDE[prod_short](includes/prod_shor
 
 Puoi anche rimuovere la licenza da un utente nell'interfaccia di amministrazione di Microsoft 365. L'utente non può quindi eseguire l'accesso. Per ulteriori informazioni, vedi [Rimuovere le licenze agli utenti](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Sincronizzazione con Microsoft 365
+### <a name="m365"></a>Sincronizzazione con Microsoft 365
 
 Quando assegni una licenza per [!INCLUDE[prod_short](includes/prod_short.md)] a un utente in Microsoft 365, vi sono due modi per creare l'utente in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -141,13 +138,13 @@ Scopri come proteggere l'accesso agli ambienti utilizzando i gruppi di sicurezza
 
 Ottieni una panoramica degli accessi a Business Central in Teams con licenze Microsoft 365 in [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Gestire utenti e licenze nelle distribuzioni locali
+## Gestire utenti e licenze nelle distribuzioni locali
 
 Per le distribuzioni locali, nel file di licenza (.bclicense o .flf). è specificato il numero di licenze utente. Quando un amministratore o il partner Microsoft carica il file di licenza, può specificare quali utenti possono accedere a [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Per le distribuzioni locali, l'amministratore crea, modifica ed elimina gli utenti direttamente dalla pagina **Utenti**.
 
-### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Per modificare o eliminare un utente in una distribuzione locale
+### Per modificare o eliminare un utente in una distribuzione locale
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
 2. Scegliere l'utente che si intende modificare, quindi scegliere l'azione **Modifica**.
@@ -159,7 +156,7 @@ Per le distribuzioni locali, l'amministratore crea, modifica ed elimina gli uten
 >
 > Per ulteriori informazioni, vedere [Tipi di autenticazione e credenziali](/dynamics365/business-central/dev-itpro/administration/users-credential-types) nella Guida per amministratori di [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 [Gestire profili](admin-users-profiles-roles.md)  

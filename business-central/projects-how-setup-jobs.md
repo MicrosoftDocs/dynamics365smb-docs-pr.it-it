@@ -1,27 +1,21 @@
 ---
-title: Impostare commesse, prezzi e categorie di registrazione commesse
-description: Descrive come impostare informazioni generali sulle commesse e i prezzi per articoli, risorse e gruppi di registrazione conti G/L e commesse per le commesse.
+title: 'Impostare commesse, prezzi e categorie di registrazione commesse'
+description: 'Descrive come impostare informazioni generali sulle commesse e i prezzi per articoli, risorse e gruppi di registrazione conti G/L e commesse per le commesse.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
-ms.search.form: 211, 463, 1012
+ms.search.form: '211, 463, 1012'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e768b9cdcf4b6a7e32ee26a74a876604bad614f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535622"
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Impostare commesse, prezzi e categorie di registrazione commesse
+# Impostare commesse, prezzi e categorie di registrazione commesse
 
 In veste di manager del progetto, è possibile configurare le commesse che definiscono ogni progetto gestito in [!INCLUDE[prod_short](includes/prod_short.md)]. Nella pagina **Setup commesse** è necessario specificare come si desidera utilizzare determinate funzionalità di commessa.
 
 Per ogni commessa, si specificano quindi singole schede commessa con informazioni sui prezzi per gli articoli di commessa, le risorse di commessa e i conti C/G commesse ed è necessario impostare le categorie di registrazione commesse.
 
-## <a name="to-set-general-information-for-jobs"></a>Per impostare le informazioni generali relative alle commesse
+## Per impostare le informazioni generali relative alle commesse
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup commesse**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +23,7 @@ Per ogni commessa, si specificano quindi singole schede commessa con informazion
 > [!NOTE]
 > Il campo **Applica collegamento utilizzo per default** indica se i movimenti contabili della commessa sono collegati alle righe di pianificazione commessa per impostazione predefinita. Scegliere il campo se si desidera applicare questa impostazione a tutte le nuove commesse create. È possibile abilitare o disabilitare il monitoraggio dell'utilizzo delle commesse per una commessa specifica modificando il valore del campo **Applica collegamento di utilizzo** nella singola scheda commessa. Le conseguenze sono descritte nella sezione seguente.
 
-### <a name="to-set-up-job-usage-tracking"></a>Per impostare la tracciabilità dell'utilizzo in una commessa
+### Per impostare la tracciabilità dell'utilizzo in una commessa
 
 Quando si lavora su una commessa, potrebbe essere necessario tenere traccia dell'utilizzo rispetto al piano. Per eseguire questa operazione, è possibile creare un collegamento tra le righe di pianificazione commessa e l'utilizzo effettivo. Ciò consente di tenere traccia dei costi e di visualizzare facilmente il lavoro residuo da svolgere. In base all'impostazione predefinita, il tipo di riga di pianificazione commessa è *Budget*, ma con il tipo di riga **Budget e fatturabile** si ottengono effetti simili.
 
@@ -49,14 +43,14 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 -->
 
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Per impostare i prezzi per risorse, articoli e conti di contabilità generale per le commesse
+## Per impostare i prezzi per risorse, articoli e conti di contabilità generale per le commesse
 
 > [!NOTE]
 > Nel secondo ciclo di rilascio del 2020 sono stati rilasciati nuovi processi per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 È possibile impostare i prezzi per articoli, risorse e conti di contabilità generale correlati a una commessa. 
 
-#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience)
+#### [Esperienza corrente](#tab/current-experience)
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Selezionare la commessa, quindi scegliere l'azione **Risorsa**, **Articolo** o **Conto C/G**.
@@ -70,14 +64,14 @@ La tabella seguente mostra come le informazioni nei campi facoltativi verranno u
 |**Articoli commessa**|Campi **Nr. task commessa**, **Cod. valuta** e **% sconto riga**. Il valore nel campo **Prezzo unitario** per l'articolo verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo articolo. Questo prezzo sostituirà sempre il normale prezzo cliente (meccanismo "prezzo migliore") per gli articoli. Se si desidera utilizzare i normali meccanismi per il prezzo cliente, evitare di creare prezzi articoli commesse per la commessa.|
 |**Conti di contabilità generale**|Le informazioni nei campi **Nr. task commessa**, **Codice valuta**, **% sconto riga**, **Fattore costo unitario** e **Costo unitario** verranno utilizzate nelle righe di pianificazione commessa e nelle registrazioni commessa quando questo conto di contabilità generale verrà immesso o aggiunto a una commessa. Il valore nel campo **Prezzo unitario** per la spesa di commessa contabile verrà utilizzato nelle righe di pianificazione commessa e nelle registrazioni commesse quando verrà immesso questo conto C/G.|
 
-#### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience)
+#### [Nuova esperienza](#tab/new-experience)
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Selezionare la relativa commessa, quindi scegliere l'azione **Listini prezzi di vendita**.
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a>Per impostare le categorie di registrazione commesse
+## Per impostare le categorie di registrazione commesse
 
 Un aspetto della pianificazione delle commesse è decidere quali conti di registrazione utilizzare per il calcolo dei costi. Perché sia possibile registrare commesse, è necessario impostare conti per la registrazione di ciascuna categoria di registrazione commessa. La categoria di registrazione rappresenta un collegamento tra la commessa e come deve essere considerata nella contabilità generale. Quando si crea una commessa, si specifica una categoria di registrazione e, per default, ogni task creato per la commessa viene associato a tale categoria di registrazione. Tuttavia, quando si creano i task, è possibile sostituire l'impostazione di default e selezionare una categoria di registrazione più appropriata.  
 
@@ -105,9 +99,9 @@ Un aspetto della pianificazione delle commesse è decidere quali conti di regist
 | **Conto costi riconosciuti** |Conto spesa contenente i costi riconosciuti per la commessa. In genere si tratta di un conto di addebito. |
 | **Conto vendite riconosciute** |Conto avere contenente le entrate riconosciute per la commessa. In genere si tratta di un conto di accredito. |
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
+## Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare Gestione progetti](projects-setup-projects.md)  
 [Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

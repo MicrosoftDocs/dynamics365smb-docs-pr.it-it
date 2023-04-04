@@ -7,18 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: integration, synchronize, map, Sales
-ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
+ms.search.keywords: 'integration, synchronize, map, Sales'
+ms.search.forms: '9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250'
 ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585866"
 ---
-# <a name="use-dynamics-365-sales-from-business-central"></a>Utilizzare Dynamics 365 Sales da Business Central
+# Utilizzare Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.
 
 Prima di poter utilizzare le funzionalità di integrazione, l'amministratore di sistema deve impostare la connessione e definire gli utenti in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -35,14 +29,14 @@ Viceversa, i gestori ordini in [!INCLUDE[prod_short](includes/prod_short.md)] po
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] è integrabile solo con [!INCLUDE[crm_md](includes/crm_md.md)]. Altre applicazioni di Dynamics 365 che modificano il workflow standard o il modello dati in [!INCLUDE[crm_md](includes/crm_md.md)], ad esempio Project Service Automation, possono interrompere l'integrazione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[crm_md](includes/crm_md.md)].
 
-## <a name="coupling-records"></a>Associazione di record
+## Associazione di record
 La guida al setup assistito consente di scegliere i dati da sincronizzare. In seguito, è anche possibile impostare la sincronizzazione per specifici record. Questa operazione è definita *associazione*. Ad esempio, è possibile associare un conto specifico in [!INCLUDE[crm_md](includes/crm_md.md)] a un cliente specifico in [!INCLUDE[prod_short](includes/prod_short.md)]. In questa sezione viene descritto cosa prendere in considerazione quando si associano record.
 
 Ad esempio, se si desidera visualizzare i conti di [!INCLUDE[crm_md](includes/crm_md.md)] come clienti in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario associare i due tipi di record. A questo proposito, nella pagina elenco **Clienti** in [!INCLUDE[prod_short](includes/prod_short.md)], utilizzare l'azione **Imposta associazione**. Specificare quindi quali clienti di [!INCLUDE[prod_short](includes/prod_short.md)] corrispondono ai conti in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 È inoltre possibile creare (e associare) un conto in [!INCLUDE[crm_md](includes/crm_md.md)] basato, ad esempio, sul record cliente in [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando **Crea conto in Dynamics 365 Sales** o viceversa utilizzando **Crea cliente in [!INCLUDE[prod_short](includes/prod_short.md)]**.
 
-Quando si imposta l'associazione tra due record, è anche possibile richiedere manualmente il record corrente, ad esempio un cliente, da sovrascrivere immediatamente con i dati del conto in Sales (o da [!INCLUDE[prod_short](includes/prod_short.md)]) utilizzando l'azione **Sincronizza adesso**. L'azione **Sincronizza ora** che chiederà se sovrascrivere i dati dei record di Sales o di  [!INCLUDE[prod_short](includes/prod_short.md)].
+Quando si imposta l'associazione tra due record, è anche possibile richiedere manualmente il record corrente, ad esempio un cliente, da sovrascrivere immediatamente con i dati del conto in Sales (o da [!INCLUDE[prod_short](includes/prod_short.md)]) utilizzando l'azione **Sincronizza adesso**. L'azione**Sincronizza ora** che chiederà se sovrascrivere i dati dei record di Sales o di  [!INCLUDE[prod_short](includes/prod_short.md)].
 
 In alcuni casi, è necessario associare determinati set di dati prima di altri, come indicato nella tabella seguente.
 
@@ -57,14 +51,14 @@ In alcuni casi, è necessario associare determinati set di dati prima di altri, 
 
 Gli ordini di vendita di [!INCLUDE[crm_md](includes/crm_md.md)] dipendono da informazioni come clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse. Affinché l'integrazione con gli ordini di vendita funzioni, è necessario associare clienti, unità di misura, valute, gruppi di prezzi cliente, articoli e/o risorse.
 
-## <a name="fully-synchronizing-records"></a>Sincronizzazione completa dei record
+## Sincronizzazione completa dei record
 Alla fine della guida al setup assistito è possibile scegliere l'azione **Esegui sincronizzazione completa** per iniziare a sincronizzare tutti i record di [!INCLUDE[prod_short](includes/prod_short.md)] con tutti i record correlati in [!INCLUDE[crm_md](includes/crm_md.md)]. Nella pagina **Revisione sincronizzazione completa di Dynamics 365 Sales** scegliere l'azione **Avvia**. Il completamento della sincronizzazione completa può richiedere tempo, ma è possibile continuare a lavorare in [!INCLUDE[prod_short](includes/prod_short.md)] mentre viene eseguita in background.
 
 Per controllare l'avanzamento dei singoli processi in una sincronizzazione completa, nella pagina **Revisione sincronizzazione completa di Dynamics 365 Sales** scegliere un record per visualizzare i dettagli. Per aggiornare lo stato durante la sincronizzazione, aggiornare la pagina.
 
 Nella finestra **Setup connessione a Microsoft Dynamics 365** è possibile ottenere in qualsiasi momento le informazioni sulla sincronizzazione completa. Da qui, è anche possibile aprire la pagina **Mapping tabella integrazione** per visualizzare ulteriori dettagli sulle tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] e in Sales da sincronizzare.
 
-## <a name="handling-sales-order-data"></a>Gestione di dati di ordini di vendita
+## Gestione di dati di ordini di vendita
 Gli ordini di vendita che le persone inviano in [!INCLUDE[crm_md](includes/crm_md.md)] vengono automaticamente trasferiti a [!INCLUDE[prod_short](includes/prod_short.md)] se selezioni la casella di controllo **Crea automaticamente ordini vendita** nella pagina **Setup connessione a Microsoft Dynamics 365**.
 In alternativa, è possibile convertire manualmente gli ordini di vendita inviati da [!INCLUDE[crm_md](includes/crm_md.md)] utilizzando l'azione **Crea in [!INCLUDE[prod_short](includes/prod_short.md)]** disponibile nella pagina **Ordini di vendita - Dynamics 365 for Sales**.
 In tali ordini di vendita, il campo **Nome** dell'ordine originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -83,7 +77,7 @@ Gli aggiornamenti dei campi nelle testate dell'ordine di vendita, ad esempio Dat
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
-## <a name="handling-sales-quotes-data"></a>Gestione di dati di offerte di vendita
+## Gestione di dati di offerte di vendita
 Le offerte di vendita attivate in [!INCLUDE[crm_md](includes/crm_md.md)] verranno trasferiti a [!INCLUDE[prod_short](includes/prod_short.md)] se si seleziona la casella di controllo **Elabora automaticamente offerte di vendita** nella pagina **Setup connessione a Microsoft Dynamics 365**.
 In alternativa, è possibile convertire manualmente offerte di vendita attivate da [!INCLUDE[crm_md](includes/crm_md.md)] utilizzando l'azione **Elabora in [!INCLUDE[prod_short](includes/prod_short.md)]** nella pagina **Offerte di vendita - Dynamics 365 Sales**.
 In tali offerte di vendita, il campo **Nome** nell'offerta originale viene trasferito e mappato al campo **Nr. documento esterno** dell'ordine di vendita in [!INCLUDE[prod_short](includes/prod_short.md)]. Anche il campo **Data di validità finale** nell'offerta viene trasferito e mappato al campo **Offerta valida fino alla data** in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -92,12 +86,12 @@ Le offerte di vendita sono sottoposte a numerose revisioni durante la finalizzaz
 
 Quando si sceglie **Processi** in [!INCLUDE[prod_short](includes/prod_short.md)] per un'offerta nello stato **Vinta**, viene creato un ordine cliente in [!INCLUDE[prod_short](includes/prod_short.md)] solo se viene inviato un ordine di vendita corrispondente in [!INCLUDE[crm_md](includes/crm_md.md)]. In caso contrario, l'offerta viene rilasciata solo in [!INCLUDE[prod_short](includes/prod_short.md)]. Se un ordine di vendita corrispondente viene inviato in [!INCLUDE[crm_md](includes/crm_md.md)] in seguito e da esso viene creato un ordine di vendita, il **numero di offerta** viene aggiornato sull'ordine di vendita e l'offerta viene archiviata.
 
-## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestione di spedizioni vendita registrate, pagamenti clienti e statistiche
+## Gestione di spedizioni vendita registrate, pagamenti clienti e statistiche
 Dopo l'evasione di un ordine di vendita, verranno create le fatture per lo stesso. Quando si fattura un ordine di vendita, è possibile trasferire le spedizioni vendita registrate a [!INCLUDE[crm_md](includes/crm_md.md)] se si seleziona la casella di controllo **Crea fattura in [!INCLUDE[crm_md](includes/crm_md.md)]** nella pagina **Fattura vendita registrata**. Le fatture registrate vengono trasferite a [!INCLUDE[crm_md](includes/crm_md.md)] con lo stato **Fatturato**.
 
 Quando si riceve il pagamento cliente per la fattura di vendita in [!INCLUDE[prod_short](includes/prod_short.md)], lo stato della fattura diventerà **Pagato** con **Motivo stato** impostato su **Parziale**, se pagata parzialmente, o su **Completo**, se pagata completamente, quando si sceglie l'azione **Aggiorna statistiche account** nella pagina del cliente in [!INCLUDE[prod_short](includes/prod_short.md)]. La funzione **Aggiorna statistiche account** aggiornerà anche i valori come i campi **Saldo** e **Totale vendite** nel Dettaglio informazioni **Statistiche conto di [!INCLUDE[prod_short](includes/prod_short.md)]** in [!INCLUDE[crm_md](includes/crm_md.md)]. In alternativa, è possibile avere i processi programmati, Statistiche cliente e POSTEDSALESINV-INV che eseguono automaticamente questi processi in background. 
 
-## <a name="handling-sales-prices"></a>Gestione dei prezzi di vendita
+## Gestione dei prezzi di vendita
 > [!NOTE]
 > Nel secondo ciclo di rilascio del 2020 abbiamo rilasciato processi semplificati per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti che utilizzano questa versione, trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -106,7 +100,7 @@ I passaggi per completare questo processo differiscono a seconda se l'amministra
 > [!NOTE]
 > Se la sincronizzazione dei prezzi standard non funziona, ti consigliamo di utilizzare le funzionalità di personalizzazione dell'integrazione. Per ulteriori informazioni, vedi [Personalizzazione di un'integrazione con Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
 
-#### <a name="current-experience"></a>[Esperienza corrente](#tab/current-experience/)
+#### [Esperienza corrente](#tab/current-experience/)
 Nell'attuale esperienza di determinazione dei prezzi [!INCLUDE[prod_short](includes/prod_short.md)] sincronizza i prezzi di vendita che: 
 
 * Si applicano a tutti i clienti. I listini prezzi di vendita predefiniti vengono creati in base al prezzo nel campo **Prezzo unitario** nella pagine **Scheda articolo** degli articoli.
@@ -117,7 +111,7 @@ Nell'attuale esperienza di determinazione dei prezzi [!INCLUDE[prod_short](inclu
 
 :::image type="content" source="media/customer-price-group.png" alt-text="Pagina Gruppo prezzi cliente.":::
 
-#### <a name="new-experience"></a>[Nuova esperienza](#tab/new-experience/)  
+#### [Nuova esperienza](#tab/new-experience/)  
 
 La nuova esperienza di determinazione del prezzo sincronizza i listini prezzi che soddisfano i seguenti criteri:
 
@@ -136,7 +130,7 @@ Per sincronizzare i listini prezzi, nella pagina **Listino prezzi di vendita** s
 ---
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Gestione delle relazioni](marketing-relationship-management.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

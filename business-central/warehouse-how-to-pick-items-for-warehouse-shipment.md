@@ -1,90 +1,125 @@
 ---
 title: Prelevare articoli per la spedizione warehouse
-description: Informazioni su come utilizzare i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima di registrare la spedizione warehouse.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 23a730f79e3b5969243a1b176152496b6e20bdd2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534725"
+description: Informazioni sull'utilizzo dei documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima di registrare una spedizione warehouse.
+author: bholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/25/2023
+ms.custom: bap-template
+ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
+# Prelevare articoli per la spedizione warehouse
 
-Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi e delle spedizioni warehouse, è possibile utilizzare i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima della registrazione della spedizione warehouse.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], il prelievo e la spedizione degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
-Non è possibile creare un documento di prelievo warehouse da zero perché un'attività di prelievo fa sempre parte di un flusso di lavoro, in uno scenario di tipo push o pull.  
+|Metodo|Processo in uscita|Richiesto prelievo|Richiesta spedizione|Livello di complessità (ulteriori informazioni in [Panoramica di Warehouse Management](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Registra il prelievo e la spedizione dalla riga ordine|||Nessuna attività di warehouse dedicata.|  
+|B|Registra il prelievo e la spedizione da un documento di prelievo magazzino|Attivato||Di base: ordine per ordine.|  
+|C|Registra il prelievo e la spedizione da un documento di spedizione warehouse||Attivato|Di base: registrazione di ricezione e spedizione consolidata per più ordini.|  
+|G|Registra il prelievo da un documento di prelievo warehouse e la spedizione da un documento di spedizione warehouse|Attivato|Attivato|Avanzate|  
 
-È possibile creare documenti di prelievo warehouse in modalità pull aprendo un documento di spedizione warehouse vuoto, rilevare i documenti di origine rilasciati per la spedizione, quindi creare righe di prelievo warehouse per tali spedizioni. È possibile utilizzare le funzioni **Prendi documenti origine** o **Usa filtri per richiamare doc. orig.** per rilevare i documenti di origine pronti per la spedizione.
+Per ulteriori informazioni vedi [Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md).
 
-In alternativa, è possibile utilizzare la pagina **Prospetto prelievi** per estrarre e creare righe prelievo in modalità batch. Per ulteriori informazioni, vedere [Pianificare i prelievi nei prospetti](warehouse-how-to-plan-picks-in-worksheets.md).  
+Questo articolo fa riferimento al metodo D nella tabella. Per ulteriori informazioni sugli articoli di spedizione, vai a [Articoli di spedizione](warehouse-how-ship-items.md).
 
-È inoltre possibile creare documenti di prelievo warehouse in modalità push dalla pagina **Spedizione warehouse** selezionando **Crea prelievo**.  
+Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi e delle spedizioni warehouse, è possibile utilizzare i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima di registrare la spedizione warehouse.  
+
+Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di un flusso di lavoro in cui la persona che sta elaborando un ordine li crea in modalità push o l'addetto alla warehouse li crea in modalità pull:
+
+- In modalità push, dove utilizzi l'azione **Crea prelievo** nella pagina **Spedizione warehouse** . Seleziona le righe da prelevare e prepara i prelievi specificando, ad esempio, le collocazioni da cui prelevare, quelle in cui inserire e il numero di unità da gestire. Le collocazioni possono essere predefinite per l'ubicazione o la risorsa warehouse.
+- In modalità pull, dove utilizzi l'azione **Rilascia** nella pagina **Spedizione warehouse** per rendere gli articoli disponibili per il prelievo. Quindi, nella pagina **Prospetto prelievi**, i dipendenti della warehouse possono utilizzare l'azione **Prendi documenti warehouse** per prendere i prelievi assegnati.
 
 > [!NOTE]  
->  Il prelievo per la spedizione warehouse di articoli assemblati nell'ordine di vendita spedito segue gli stessi passaggi dei normali prelievi warehouse per la spedizione, come descritto in questo argomento. Tuttavia, il numero delle righe prelievo per quantità da spedire può essere molti a uno perché vengono selezionati i componenti, non l'articolo assemblato.  
->   
->  Le righe prelievi warehouse vengono create per il valore nel campo **Quantità residua** sulle righe dell'ordine di assemblaggio collegato alla riga dell'ordine di vendita spedito. In questo modo si garantisce che tutti i componenti vengano prelevati con una sola azione.  
->   
->  Per ulteriori informazioni, vedere la sezione "Gestione di articoli da assemblare su ordine in spedizioni warehouse".  
->   
->  Per informazioni sul prelievo generale di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio non fa parte di una spedizione vendita, vedere [Prelevare per la produzione o l'assemblaggio](warehouse-how-to-pick-for-production.md)..  
+> Il prelievo per una spedizione warehouse di articoli assemblati per un ordine di vendita segue gli stessi passaggi dei normali prelievi warehouse per la spedizione, come descritto in questo articolo. Tuttavia, il numero delle righe prelievo per la quantità da spedire può essere molti a uno perché vengono selezionati i componenti, non l'articolo assemblato.  
+>
+> Le righe prelievo warehouse vengono create per il valore nel campo **Quantità residua** sulle righe dell'ordine di assemblaggio collegato alla riga dell'ordine di vendita spedito. Tutti i componenti vengono prelevati con una sola azione. Per ulteriori informazioni vedi [Gestione di articoli di assemblaggio su ordine in spedizioni warehouse](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).  
+>  
+> Per informazioni sul prelievo di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio è correlato a una spedizione vendita, vedi [Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="to-pick-items-for-warehouse-shipment"></a>Per prelevare articoli per la spedizione warehouse
+## Per creare documenti di prelievo in blocco con i prospetti prelievi
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
+
+2. Scegliere l'azione **Prendi documenti warehouse**.  
+
+    L'elenco includerà tutte le spedizioni che sono state rilasciate per il prelievo, comprese quelle per le quali sono già state create istruzioni di prelievo. I documenti contenenti righe di prelievo per le quali il prelievo è stato eseguito per intero e registrato non vengono visualizzati in questa lista.  
+3. Selezionare le spedizioni per cui preparare un prelievo.
+
+    > [!NOTE]  
+    >  Se tenti di selezionare un documento di spedizione o stoccaggio interno per cui sono già state create istruzioni relative a tutte le righe, viene visualizzato un messaggio per informare che non esiste alcun elemento da gestire. Per combinare le istruzioni di prelievo warehouse già create in un'unica istruzione di prelievo, è necessario eliminare prima i singoli prelievi warehouse.
+
+4. Compila il campo **Metodo di ordinamento** per ordinare le righe.  
+
+    > [!NOTE]  
+    >  Il modo in cui le righe vengono ordinate nel prospetto non si applica automaticamente all'istruzione di prelievo. Tuttavia, esistono le stesse opportunità per l'ordinamento e la valutazione collocazione. È possibile ricreare facilmente l'ordine delle righe pianificate nel prospetto quando crei le istruzioni di prelievo o le ordini nelle istruzioni di prelievo.
+
+5. Compila il campo **Qtà. gestire** manualmente o utilizzando l'azione **Autocompil. qtà da gestire**.  
+
+    La pagina mostra le quantità disponibili nelle collocazioni cross-dock. Queste informazioni sono utili per pianificare le assegnazioni del lavoro in situazioni di cross-dock. [!INCLUDE[prod_short](includes/prod_short.md)] proporrà sempre prima un prelievo da una collocazione cross-dock.
+6. Le righe possono essere modificate, se necessario. È inoltre possibile eliminare le righe per creare un prelievo più efficiente. Se ad esempio vi sono più righe con articoli nelle collocazioni di cross-dock, puoi creare un prelievo per tutte le righe. Gli articoli sottoposti a cross-dock verranno spediti con agli altri articoli e nelle collocazioni di cross-dock sarà disponibile una maggiore quantità di spazio per ulteriori articoli in entrata.  
+
+    > [!NOTE]  
+    >  Quando elimini le righe, vengono eliminate solo dal prospetto. Non vengono eliminate dalla lista di selezione di prelievo.  
+
+7. Scegliere l'azione **Crea prelievo**. Si apre la pagina **Crea prelievo**, dove puoi aggiungere ulteriori informazioni sul prelievo che stai creando. Specifica in che modo combinare le righe di prelievo nei documenti di prelievo selezionando una delle opzioni seguenti.  
+
+    |Opzione|Descrizione|
+    |-|-|
+    |Per documento whse. Documento|Crea documenti di prelievo distinti per le righe del prospetto con lo stesso documento warehouse di origine.|
+    |Per cliente/forn./ubicazione|Crea documenti di prelievo separati per ogni cliente (ordini di vendita), fornitore (ordini di reso acquisto) e ubicazione (ordini di trasferimento).|
+    |Per articolo|Crea documenti di prelievo separati per ogni articolo nel prospetto prelievi.|
+    |Per Da zona|Crea documenti di prelievo separati per ogni zona da cui verranno prelevati articoli.|
+    |Per collocazione|Crea documenti di prelievo separati per ogni collocazione da cui verranno prelevati articoli.|
+    |Per scadenza|Crea documenti di prelievo separati per i documenti di origine che hanno la stessa data di scadenza.|
+
+    Specifica in che modo vengono creati i documenti di prelievo selezionando una delle opzioni seguenti.
+
+    |Opzione|Descrizione|
+    |-|-|
+    |Importo massimo No. di righe prelievo|Crea documenti di prelievo con un numero di righe in ogni documento non superiore a quello specificato.|
+    |Importo massimo No. di doc. origine prelievo|Crea documenti di prelievo che si riferiscono a un numero di documenti origine non superiore a quello specificato.|
+    |ID utente assegnato|Crea documenti di prelievo solo per le righe del prospetto assegnate all'impiegato warehouse selezionato.|
+    |Metodo di ordinamento per righe di prelievo|Scegli una delle opzioni disponibili per ordinare le righe nel documento di prelievo creato.|
+    |Impostare filtro breakbulk|Nasconde le righe prelievo di breakbulk intermedie quando un'unità di misura più grande viene convertita in un'unità di misura più piccola e completamente prelevata.|
+    |Qtà da gestire non compilata|Lascia il campo Qtà. da gestire vuoto nelle righe di prelievo create.|
+    |Stampa prelievo|Stampa i documenti di prelievo al momento della creazione. È inoltre possibile stampare dai documenti di prelievo creati.|
+
+8. Selezionare **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] creerà il prelievo in base alle tue selezioni.  
+
+## Per prelevare articoli per una spedizione warehouse
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi warehouse**, quindi scegli il collegamento correlato.  
 
     Se è necessario utilizzare un determinato prelievo, selezionare il prelievo dalla lista oppure filtrare la lista per individuare i prelievi specificatamente assegnati a se stessi. Aprire la scheda prelievo.  
-2.  Se il campo **ID utente assegnato** è vuoto, immettere il proprio ID per identificarsi, se necessario.  
-3.  Eseguire il prelievo effettivo di articoli.  
+2. Se il campo **ID utente assegnato** è vuoto, immetti il tuo ID per identificarti, se necessario.  
+3. Preleva gli articoli.  
 
-    Se la warehouse prevede l'utilizzo di collocazioni, vengono utilizzate le collocazioni di default degli articoli per suggerire la posizione da cui prelevare gli articoli. Le istruzioni verranno visualizzate su due righe distinte, una per ciascun tipo di azione, ovvero Prendere e Mettere.  
+    Se la warehouse prevede l'utilizzo di collocazioni, vengono utilizzate le collocazioni predefinite degli articoli per suggerire la posizione da cui prelevare gli articoli. Le istruzioni contengono almeno due righe distinte, una per ogni azione Prendere e Mettere.  
 
-    Se la warehouse prevede l'utilizzo di stoccaggi e prelievi guidati, viene utilizzata la valutazione collocazione per calcolare le migliori collocazioni da cui effettuare il prelievo e tali collocazioni vengono quindi suggerite nelle righe prelievo. Le istruzioni verranno visualizzate su due righe distinte, una per ciascun tipo di azione, ovvero Prendere e Mettere.  
+    Se la warehouse prevede l'utilizzo di stoccaggi e prelievi guidati, viene utilizzata la valutazione collocazione per calcolare le migliori collocazioni da cui effettuare il prelievo. Tali collocazioni vengono quindi suggerite nelle righe prelievo. Le istruzioni contengono almeno due righe distinte, una per ogni azione Prendere e Mettere.  
 
-4.  Dopo avere prelevato e posizionato gli articoli nell'area di spedizione o nella collocazione di spedizione, scegliere l'azione **Registra prelievo**.  
+    * La prima riga, in cui il campo **Tipo azione** è impostato su **Prendere**, indica l'ubicazione degli articoli nell'area di prelievo. Se si spedisce un numero elevato di articoli in una riga di spedizione, potrebbe essere necessario prelevare gli articoli in diverse collocazioni, pertanto è presente una riga Prendere per ogni collocazione.
+    * Nelle righe successive, in cui il campo **Tipo azione** è impostato su **Mettere**, viene indicata la posizione in cui inserire gli articoli nella warehouse. Non è possibile modificare la zona e la collocazione in questa riga.
 
-A questo punto, la persona responsabile della spedizione può immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella pagina **Spedizione warehouse**. Per ulteriori informazioni, vedere [Spedire articoli](warehouse-how-ship-items.md).   
+    > [!NOTE]
+    > Se è necessario prelevare o inserire gli articoli relativi a una riga in più collocazioni, ad esempio perché la collocazione designata è piena, utilizza l'azione **Dividi riga** della Scheda dettaglio **Righe**. L'azione crea una riga per la quantità rimanente da gestire.
 
-Oltre al prelievo per i documenti di origine, come descritto in questo argomento, è possibile estrarre e inserire articoli tra le collocazioni senza fare riferimento ai documenti di origine. Per ulteriori informazioni, vedere [Selezionare e stoccare senza un documento di origine](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
+4. Dopo avere prelevato e posizionato gli articoli nell'area di spedizione o nella collocazione di spedizione, scegli l'azione **Registra prelievo**.  
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Gestione di articoli da assemblare su ordine in spedizioni warehouse
+Ora puoi immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella pagina **Spedizione warehouse**. Per ulteriori informazioni vedi [Spedire articoli](warehouse-how-ship-items.md).
 
-Negli scenari di assemblaggio su ordine il campo **Qtà da spedire** sulle righe spedizione warehouse viene utilizzato per registrare il numero di unità assemblate. La quantità specificata viene quindi registrata come output assemblaggio quando viene registrata la spedizione warehouse.
+## Vedi il relativo [training Microsoft](/training/modules/pick-ship-items-warehouse/)
 
-Per altre righe spedizione warehouse, il valore del campo **Qtà da spedire** è uguale a zero dall'inizio.
+## Vedere anche
 
-Quando completano l'assemblaggio delle parti o di tutta la quantità da assemblare su ordine, i lavoratori lo registrano nel campo **Qtà da spedire** sulla riga spedizione warehouse e scelgono l'azione **Registrare spedizione**. In questo modo viene registrato l'output assemblaggio corrispondente, incluso il consumo di componenti. Una spedizione di vendita per la quantità viene registrata per l'ordine di vendita.
-
-Nell'ordine di assemblaggio è possibile scegliere **Riga spediz. whse. assem. su ordine** per accedere alla riga spedizione warehouse. Questa operazione è conveniente per i lavoratori che in genere non utilizzano la pagina **Spedizione warehouse**.
-
-Dopo che la spedizione warehouse è stata registrata, i vari campi sulla riga ordine di vendita vengono aggiornati per mostrare lo stato di avanzamento nel warehouse. I seguenti campi vengono inoltre aggiornati per mostrare le quantità rimanente da assemblare su ordine e spedire:
-
-- **Qtà inevasa whse. per assemblaggio su ordine**
-- **Qtà inevasa whse. per assemblaggio su ordine (base)**
-
-> [!NOTE]
-> Negli scenari di combinazione, in cui una parte della quantità deve essere assemblata e un'altra deve essere spedita dal magazzino, vengono create due righe spedizione warehouse. Una riga corrisponde alla quantità da assemblare su ordine, mentre l'altra corrisponde alla quantità di magazzino.
-
-> In questo caso, la quantità da assemblare su ordine viene gestita come descritto in questo argomento, mentre la quantità di magazzino viene gestita come qualsiasi altra normale riga spedizione warehouse. Per altre informazioni sugli scenari di combinazione, vedere [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
-
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/pick-ship-items-warehouse/)
-
-## <a name="see-also"></a>Vedere anche
-
-[Warehouse Management](warehouse-manage-warehouse.md)  
-[Magazzino](inventory-manage-inventory.md)  
+[Panoramica di Warehouse Management](design-details-warehouse-management.md)
+[Inventario](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestione assemblaggio](assembly-assemble-items.md)    
-[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

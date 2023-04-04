@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
-ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
+ms.search.keywords: 'machinery, buildings'
+ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5bd6ff8d27b17e413c418de64bea7ded8428e892
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529300"
 ---
-# <a name="managing-fixed-assets"></a>Gestione dei cespiti
+# Gestione dei cespiti
 
 La funzionalità Cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
 
@@ -47,15 +41,15 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Registrazione di transazioni di cessione, visualizzazione dei movimenti contabili di cessione e registrazione di cessioni parziali. |[Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md) |
 | Gestione dei budget per i cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. |[Gestione dei budget per i cespiti](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Video di panoramica
+## Video di panoramica
 
 Il video seguente illustra le nozioni di base dei cespiti.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-transactions/)
+## Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-transactions/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di cespiti](fa-setup.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  

@@ -1,32 +1,25 @@
 ---
 title: Creare fatture per i pagamenti anticipati
 description: Informazioni su come gestire situazioni in cui un pagamento anticipato viene richiesto da te o dal fornitore. Usa le percentuali predefinite per ogni riga di vendita o di acquisto oppure rettifica l'importo come necessario.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 42, 50, 9305, 9307
-ms.date: 12/02/2021
-ms.author: edupont
-ms.openlocfilehash: ffb2adb5a0ec43da14ee7fd9126c3293ea73ab22
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534914"
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
+ms.topic: how-to
+ms.date: 02/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a>Creare fatture per i pagamenti anticipati
+# Creare fatture per i pagamenti anticipati
 
 Se è necessario che i clienti paghino prima della spedizione di un ordine, è possibile utilizzare le funzionalità di pagamento anticipato. Lo stesso vale se il fornitore richiede di pagare prima di spedire un ordine.  
 
-È possibile creare un processo di pagamento anticipato quando si crea un ordine di vendita o di acquisto. Se è impostata una percentuale di pagamento anticipato predefinita per un articolo dell'ordine o per il cliente o il fornitore, verrà automaticamente inclusa nella fattura di pagamento anticipato. È inoltre possibile specificare una percentuale di pagamento anticipato per l'intero documento.
+È possibile creare un processo di pagamento anticipato quando si crea un ordine di vendita o di acquisto. La percentuale di pagamento anticipato predefinita per un articolo dell'ordine o per il cliente o il fornitore, verrà automaticamente inclusa nella fattura di pagamento anticipato. È inoltre possibile specificare una percentuale di pagamento anticipato per l'intero documento.
 
 Dopo avere creato un ordine di vendita o di acquisto, è possibile creare una fattura pagamento anticipato. Usa le percentuali predefinite per ogni riga di vendita o di acquisto oppure rettifica l'importo. È ad esempio possibile specificare un importo totale per l'intero ordine.  
 
 La procedura seguente descrive come fatturare un pagamento anticipato per un ordine di vendita. I passaggi sono simili per un ordine di acquisto.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Per creare una fattura di pagamento anticipato
+## Per creare una fattura di pagamento anticipato
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Creare un nuovo ordine di vendita per un cliente pertinente. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).  
@@ -41,6 +34,14 @@ La procedura seguente descrive come fatturare un pagamento anticipato per un ord
     Se vuoi specificare una fattura pagamento anticipato con una riga per ogni riga dell'ordine di vendita associata a una percentuale pagamento anticipato, non scegliere il campo **Comprimi pagamento anticipato**.  
 
     La data di scadenza per il pagamento anticipato viene calcolata automaticamente in base al valore di **Cod. condizioni pagam. ant.**.
+
+    > [!NOTE]
+    > Quando alcune righe di una fattura richiedono il pagamento anticipato del 100% e altre righe no e sul conto di pagamento anticipato è presente l'IVA, l'importo arrotondato potrebbe causare un errore durante la creazione di una fattura di pagamento anticipato. L'errore si verifica perché l'importo della fattura di pagamento anticipato è superiore agli importi nelle righe del documento. Per risolvere il problema, modifica gli importi su una o tutte le righe che richiedono il pagamento anticipato del 100%. La modifica ricalcolerà l'arrotondamento dell'importo IVA e utilizzerà la differenza di arrotondamento accumulata nell'ultima riga modificata.
+    >
+    > Altri due modi per risolvere il problema sono:
+    >
+    > * Crea un gruppo di registrazione prodotto IVA separato e un'impostazione di registrazione IVA con un identificatore IVA separato e utilizzalo per gli articoli o le righe che richiedono il pagamento anticipato del 100%. L'arrotondamento viene eseguito per ciascun identificatore IVA, pertanto verrà eseguito un arrotondamento separato per gli articoli assegnati al gruppo di registrazione articoli/servizi IVA.
+    > * Utilizza una fattura separata per gli articoli o le righe che richiedono e non richiedono pagamenti anticipati del 100%.
 
 3. Compilare le righe di vendita.  
 
@@ -69,13 +70,13 @@ Puoi emettere altre fatture pagamento anticipato per l'ordine. A tale fine, aume
 
  Quando sei pronto per registrare il resto della fattura, effettua la registrazione come con qualsiasi fattura. L'importo pagamento anticipato verrà automaticamente dedotto dall'importo dovuto.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Aggiornare automaticamente lo stato degli ordini con pagamento anticipato e delle fatture
+## Aggiornare automaticamente lo stato degli ordini con pagamento anticipato e delle fatture
 
 È possibile velocizzare l'elaborazione di ordini e fatture impostando movimenti nella coda processi che aggiornano automaticamente lo stato di tali documenti. Quando viene pagata una fattura con pagamento anticipato, le voci della coda processi possono modificare automaticamente lo stato del documento da **In attesa di pagamento anticipato** a **Rilasciato**. Quando imposti le voci della coda processi, le codeunit che dovrai utilizzare sono **383 Aggiornamento pagamento anticipato vendita in sospeso** e **383 Aggiornamento pagamento anticipato acquisto in sospeso**. Ti consigliamo di pianificare l'esecuzione frequente delle voci, ad esempio ogni minuto. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
 [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

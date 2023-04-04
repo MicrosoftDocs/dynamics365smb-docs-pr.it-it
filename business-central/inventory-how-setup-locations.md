@@ -1,23 +1,17 @@
 ---
 title: Impostare una scheda ubicazione e definire i percorsi di trasferimento (video)
-description: Se acquisti, immagazzini o vendi articoli in più di un luogo, puoi impostare ogni luogo come ubicazione.
+description: 'Se acquisti, immagazzini o vendi articoli in più di un luogo, puoi impostare ogni luogo come ubicazione.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, distribution center
-ms.search.forms: 5703, 15
+ms.search.keywords: 'warehouse, distribution center'
+ms.search.forms: '5703, 15'
 ms.date: 07/05/2022
 ms.author: bholtorf
-ms.openlocfilehash: 882c7c0506439aba55d5b1c2d0cc23bd79db9d6e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605808"
 ---
-# <a name="set-up-locations"></a>Impostare le ubicazioni
+# Impostare le ubicazioni
 
 Le ubicazioni sono luoghi come i magazzini in cui acquisti, stocchi o vendi articoli. [!INCLUDE [prod_short](includes/prod_short.md)] utilizza le ubicazioni per tenere traccia dell'inventario sia nei casi semplici che nei processi di magazzino complessi.
 
@@ -26,7 +20,7 @@ Le ubicazioni sono luoghi come i magazzini in cui acquisti, stocchi o vendi arti
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Schede Ubicazione
+## Schede Ubicazione
 
 Specifica le informazioni su un'ubicazione, ad esempio un warehouse o un centro di distribuzione nella pagina **Scheda ubicazione**. A ogni ubicazione vengono assegnati un nome e un codice che la rappresenta. Quando si desidera registrare le transazioni per una determinata ubicazione, è possibile immettere il codice ubicazione in altre aree del programma.  
 
@@ -36,7 +30,7 @@ Alcuni campi opzione dipendono da altre impostazioni nella pagina **Scheda Ubica
 
 Seleziona l'azione **Zone** o **Collocazioni** per visualizzare le informazioni relative a zone e collocazioni che sono definite per l'ubicazione.
 
-### <a name="to-set-up-a-location"></a>Per impostare un'ubicazione
+### Per impostare un'ubicazione
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
@@ -50,7 +44,7 @@ Puoi modificare la configurazione di un'ubicazione purché non includa movimenti
 
 Se disponi di più ubicazioni, puoi definire percorsi di trasferimento tra le ubicazioni. Per ulteriori informazioni, vedi [Per creare i percorsi di trasferimento ](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Per creare i percorsi di trasferimento
+### Per creare i percorsi di trasferimento
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Percorsi di trasferimento**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Nuovo**.
@@ -58,7 +52,7 @@ Se disponi di più ubicazioni, puoi definire percorsi di trasferimento tra le ub
 
 A questo punto è possibile trasferire agli articoli di magazzino tra due ubicazioni. Per ulteriori informazioni, vedere [Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md).    
 
-## <a name="bins"></a>Collocazioni
+## Collocazioni
 
 Le collocazioni rappresentano la struttura di base del magazzino e possono suggerire dove riporre gli articoli. Le tue collocazioni possono avere contenuto o essere collocazioni mobili senza contenuto specifico. 
 
@@ -67,17 +61,17 @@ Per utilizzare la funzionalità di collocazione in una ubicazione, devi prima at
 > [!NOTE]
 > Prima di poter specificare i codici di collocazione in una ubicazione, è necessario creare i codici di collocazione. Per ulteriori informazioni, vedere [Creare collocazioni](warehouse-how-to-create-individual-bins.md) e [Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Zone
+## Zone
 
 Se vuoi strutturare le tue collocazioni in zone, puoi farlo nella pagina **Zone**. Quando si assegna una zona alle collocazioni, [!INCLUDE [prod_short](includes/prod_short.md)] copia le informazioni dalla zona nelle collocazioni. Puoi anche scegliere di impostare una zona e utilizzare le collocazioni da sole per organizzare il tuo magazzino. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Dimensioni predefinite per le ubicazioni
+## Dimensioni predefinite per le ubicazioni
 
 Imposti le dimensioni predefinite per un'ubicazione nella pagina **Scheda ubicazione** scegliendo **Dimensioni**. Successivamente, le dimensioni predefinite dell'ubicazione vengono assegnate ai documenti quando scegli l'ubicazione su una riga. Se necessario, puoi eliminare o modificare le dimensioni nella riga. Nel campo **Registrazione valore** puoi richiedere che le persone specifichino le dimensioni per ubicazioni specifiche prima di poter registrare una voce. Se desideri consentire alle persone di scegliere solo determinati valori di dimensione, puoi specificarli nel campo **Filtro valori consentiti**. Puoi anche includere i valori delle dimensioni ubicazione nella pagina **Priorità dimensione predefinita** e per combinazioni di priorità e regole di dimensioni nella pagina **Combinazioni dimensioni**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 [Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)  

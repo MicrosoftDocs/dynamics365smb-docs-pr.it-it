@@ -14,6 +14,8 @@ ms.author: edupont
 
 ## Gestire le app
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 La prima volta che si avvia [!INCLUDE[prod_short](includes/prod_short.md)], alcune app risultano già installate. Con il tempo verranno rese disponibili altre app e sarà possibile scegliere se installarle o meno.
 
 Ad esempio, Microsoft fornisce un'app che consente l'integrazione con PayPal Payments Standard. Questa estensione è installata per impostazione di default. Se tuttavia diventa disponibile un'altra estensione che offre l'integrazione con un altro servizio di pagamento, è possibile installare la nuova estensione e scegliere quale dei due servizi utilizzare.  

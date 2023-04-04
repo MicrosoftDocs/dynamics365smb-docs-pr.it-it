@@ -68,6 +68,8 @@ Per ulteriori informazioni su società e ambienti, vedere [Collegamenti ambiente
 
 ## Accesso all'hub aziendale
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Per accedere all'hub aziendale, è necessario accedere tramite il gruppo di utenti *Hub aziendale Dynamics 365* o tramite il set di autorizzazioni *Hub aziendale Dynamics 365*. È necessario inoltre disporre dell'accesso alle società elencate nell'hub aziendale, il che significa che è necessario essere un utente in quelle società. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]

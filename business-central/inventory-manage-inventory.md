@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
+ms.search.keywords: 'warehouse, stock'
+ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 568ccee7e01aacb429e6ed2e2b69daf91f67b488
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530029"
 ---
-# <a name="manage-inventory"></a>Gestire l'inventario
+
+# Gestire l'inventario
 
 Per ogni prodotto fisico trattato è necessario creare una scheda articolo di tipo **Inventario**. Gli articoli che si offrono ai clienti ma che non sono presenti in magazzino possono essere registrati come articoli di catalogo che possono essere convertiti in articoli di magazzino se necessario. È possibile aumentare o diminuire la quantità di un articolo in magazzino registrando direttamente nei movimenti contabili articoli, ad esempio, dopo un conteggio fisico oppure se non si registrano gli acquisti.
 
@@ -26,17 +21,17 @@ Gli incrementi in magazzino e le diminuzioni vengono registrati automaticamente 
 Per ampliare la panoramica degli articoli e agevolare le operazioni di ricerca, è possibile classificare gli articoli e assegnare gli attributi per cercarli e ordinarli.
 
 > [!NOTE]
-> La gestione fisica degli articoli è detta attività di warehouse. Scopri di più in [Warehouse Management](warehouse-manage-warehouse.md).
+> La gestione fisica degli articoli è detta attività di warehouse. Per ulteriori informazioni vedi [Panoramica di Warehouse Management](design-details-warehouse-management.md).
 
 La pianificazione degli articoli per soddisfare la domanda è coperta nella funzionalità di pianificazione dell'offerta. Ulteriori informazioni in [Pianificazione](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a>Riconciliazione dell'inventario
+## Riconciliazione dell'inventario
 
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale. Ulteriori informazioni in [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Ulteriori informazioni in [Rettificare i costi degli articoli](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Attività correlate
+## Attività correlate
 
 La tabella seguente descrive le attività correlate.
 
@@ -60,14 +55,14 @@ La tabella seguente descrive le attività correlate.
 |Gestisci le operazioni aziendali in uffici vendite, reparti acquisti o uffici di programmazione impianti distribuiti tra più sedi.|[Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)|
 |Utilizza risorse con funzioni specifiche per vari servizi e articoli in assistenza.|[Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/get-started-inventory-management/)
+## Vedi il relativo [training Microsoft](/training/paths/get-started-inventory-management/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

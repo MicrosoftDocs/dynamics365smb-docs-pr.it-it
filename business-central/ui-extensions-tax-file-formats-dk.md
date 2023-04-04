@@ -6,22 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: extension, bank, formats
+ms. search.keywords: 'extension, bank, formats'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 108fef1f0121c65deccc287aba4105648cffd876
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078988"
 ---
-# <a name="the-tax-file-formats-dk-extension"></a>Estensione per formati di file .tax (DK)
+
+# Estensione per formati di file .tax (DK)
 Se l'azienda ha rapporti commerciali con società, filiali interne o consociate in altri paesi dell'UE, è necessario dichiarare i dati sulle attività agli enti SKAT e Statistics Denmark. Se si utilizzano le funzionalità di dichiarazione IVA e Intrastat di [!INCLUDE[prod_short](includes/prod_short.md)], questa estensione assicura che il file esportato sia compatibile con i requisiti di queste organizzazioni. L'estensione aggiunge alla configurazione del report IVA le codeunit necessarie per la preparazione dei file di esportazione per le dichiarazioni INTRASTAT e MS-ECSL, in modo da poter esportare immediatamente i dati nel nuovo formato corretto.
 
 L'estensione è gratuita, è solo necessario installarla.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)
 
 

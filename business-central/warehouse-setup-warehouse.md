@@ -1,22 +1,16 @@
 ---
 title: Configurare i processi della warehouse
-description: La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse, ad esempio le ubicazioni warehouse.
+description: 'La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse, ad esempio le ubicazioni warehouse.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
+ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d2d7e2f3f71cd0791df27eb378bfa4bf66338afa
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532324"
 ---
-# <a name="setting-up-warehouse-management"></a>Impostazione gestione warehouse
+# Impostazione gestione warehouse
 
 La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse. Include la definizione della modalità di gestione dei diversi articoli nelle diverse ubicazioni di warehouse, ad esempio il livello di controllo della collocazione e l'estensione del flusso di lavoro necessario tra le diverse attività di warehouse.  
 
@@ -24,7 +18,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
-|Ottenere una panoramica delle funzionalità di base rispetto alle funzionalità avanzate della warehouse.|[Dettagli di progettazione: Panoramica warehouse](design-details-warehouse-overview.md)|  
+|Ottenere una panoramica delle funzionalità di base rispetto alle funzionalità avanzate della warehouse.|[Panoramica gestione del magazzino](design-details-warehouse-management.md)|  
 |Impostare otto tipi diversi di collocazione, ad esempio la collocazione di prelievo, per definire le attività di flusso correlate a ognuno dei tipi.|[Impostare i tipi di collocazioni](warehouse-how-to-set-up-bin-types.md)|  
 |Creare collocazioni, manualmente o automaticamente, con informazioni come nome, numerazione e categoria, in base a un modello di collocazione.|[Creare collocazioni](warehouse-how-to-create-individual-bins.md)|  
 |Definire gli articoli che si desidera inserire in ogni collocazione e impostare le regole che definiscono quando riempire la collocazione con un determinato articolo.|[Creare il contenuto delle collocazioni](warehouse-how-to-set-up-bin-contents.md)|  
@@ -39,18 +33,15 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Consentire ai lavoratori della warehouse di suddividere un'unità di misura più grande in unità di misura più piccole per soddisfare le richieste di documenti di origine.|[Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Impostare la warehouse in modo che venga automaticamente suggerito il prelievo degli articoli che scadono prima.|[Abilitare prelievi tramite il metodo FEFO](warehouse-picking-by-fefo.md)|
 |Ottenere suggerimenti su come riorganizzare ubicazioni, collocazioni o zone per migliorare l'efficacia delle attività di warehouse.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|
-|Integrare lettori di codici a barre alla soluzione di gestione warehouse. Solo per la distribuzione locale.|[Utilizzare i sistemi di acquisizione automatica dei dati (ADCS, Automatic Data Capture System)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-warehouse-management/)
+## Vedi il relativo [training Microsoft](/training/paths/set-up-warehouse-management/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

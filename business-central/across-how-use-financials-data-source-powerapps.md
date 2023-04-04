@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: OData, Power App, SOAP
+ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7dbc334edcd22bb41ea5ad3a37ff53a52bfe970
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531892"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Collegamento ai dati Business Central per creare un'app aziendale utilizzando Power Apps
+# Collegamento ai dati Business Central per creare un'app aziendale utilizzando Power Apps
 
 È possibile rendere disponibili i dati di [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power Apps.  
 
 > [!NOTE]  
 > È necessario disporre di un account valido con [!INCLUDE[prod_short](includes/prod_short.md)] e con Power Apps.  
 
-## <a name="to-add-prod_short-as-a-data-source-in-power-apps"></a>Per aggiungere [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power Apps
+## Per aggiungere [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power Apps
 
 1. Nel browser passare a [powerapps.microsoft.com](https://powerapps.microsoft.com/), quindi accedere.
 2. Nella home page, nella sezione **Inizia dai dati** scegliere il riquadro **Altre origini dati**.  
@@ -49,9 +43,9 @@ Dopo avere pianificato e creato l'app, è possibile condividerla con i colleghi.
 > [!NOTE]
 > Se si desidera eseguire la connessione a [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è necessario scegliere il connettore **Business Central (locale)** nel passaggio 3.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/power-apps-power-automate-business-central/)
+## Vedi il relativo [training Microsoft](/training/paths/power-apps-power-automate-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Creare un'app canvas da un modello in Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  

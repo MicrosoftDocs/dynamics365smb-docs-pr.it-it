@@ -6,16 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 # Registrare il consumo o l'utilizzo per le commesse
 
 Dalla pagina **Scheda commessa**, è possibile aprire la pagina **Righe pianificazione commessa** per rivedere e registrare l'utilizzo delle varie parti della commessa. Queste informazioni vengono aggiornate automaticamente quando modifichi e trasferisci informazioni tra commesse e registrazioni commesse o fatture di commessa. Questo richiede che sia stata attivato l'interruttore **Applica collegamento utilizzo per impostazione predefinita** nella pagina **Setup commesse**. Per ulteriori informazioni vedi [Impostazione di commesse](projects-how-setup-jobs.md).  
-
-<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
-
-On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
 Ad esempio, per le righe di pianificazione di tipo **Budget**, puoi immettere la quantità di una risorsa e specificare la quantità da trasferire nelle registrazioni commesse. Se il tipo di righe di pianificazione è **Fatturabile**, puoi immettere la quantità della risorsa e specificare la quantità da trasferire in una fattura. Per ulteriori informazioni sulla fatturazione al cliente, vedi [Fatturazione di commesse](projects-how-invoice-jobs.md). Confrontando la quantità originale, la quantità residua o la quantità registrata è possibile rivedere rapidamente le informazioni sull'utilizzo. Per ulteriori informazioni sulla stima dei valori a budget durante la pianificazione, vedi [Gestire i budget delle commesse](projects-how-manage-budgets.md).  
 
@@ -28,11 +24,11 @@ Di seguito viene descritto come registrare le quantità e i costi (previsti) eff
 3. Selezionare una riga di pianificazione commessa di tipo **Budget** o **Budget e fatturabile** per la quale si desidera registra l'utilizzo.   
 
     > [!NOTE]
-    > È inoltre possibile registrare l'utilizzo per una riga pianificazione commessa di tipo **Fatturabile**. In genere, queste righe vengono utilizzate per creare fatture, ma è anche possibile trasferire le informazioni a una registrazione. Per ulteriori informazioni vedi [Fatturazione di commesse](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > È inoltre possibile registrare l'utilizzo per una riga pianificazione commessa di tipo **Fatturabile**. In genere, queste righe vengono utilizzate per creare fatture, ma è anche possibile trasferire le informazioni a una registrazione. Per ulteriori informazioni vedi [Fatturazione di commesse](projects-how-invoice-jobs.md) 
 
 4. Nel campo **Qtà da trasferire per registrazione**, immetti la quantità da trasferire. La quantità di default è il valore che si immette nel campo **Quantità**.
 
-    Il campo **Quantità residua** mostra la quantità che rimane per completare la commessa e da trasferire nelle registrazioni. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
+    Il campo **Quantità residua** mostra la quantità che rimane per completare la commessa e da trasferire nelle registrazioni.
 5. Scegliere l'azione **Crea righe registrazioni commesse**.
 
     > [!TIP]
@@ -40,6 +36,9 @@ Di seguito viene descritto come registrare le quantità e i costi (previsti) eff
 6. Nella pagina **Trasferimento commessa a riga pianificazione** compilare i campi in base alle esigenze, quindi scegliere **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Scegliere l'azione **Apri registrazioni commesse**.  
 8. Nella pagina **Registrazioni commesse**, selezionare la riga pertinente e scegliere l'azione **Registra**.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 9. Nella pagina **Righe pianificazione commessa**, esaminare l'utilizzo registrato osservando i campi **Quantità**, **Quantità residua** e **Qtà da trasferire per registrazione**.  
 10. Ripetere i passaggi da 3 a 8 per registrare altri utilizzi.  
 
@@ -49,6 +48,8 @@ Di seguito viene descritto come registrare le quantità e i costi (previsti) eff
 2. Nel campo **Nome batch** scegliere un nome batch di registrazioni commesse pertinente.  
 3. In una nuova riga, immettere il numero di documento, il numero di commessa, il numero di task commessa, il tipo e la quantità del tipo consumata.  
 4. Una volta completate le righe di registrazione commessa, scegliere l'azione **Registra**.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Per visualizzare le stime di utilizzo della commessa e gli aggiornamenti della registrazione
 

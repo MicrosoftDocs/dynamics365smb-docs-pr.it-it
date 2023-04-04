@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: c391e7d6492a722de10801212ccd04a532f8a971
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419615"
 ---
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi/aree geografiche, diventa essenziale poter vendere e riportare dati finanziari in più di una valuta. La valuta locale (VL) è definita nella pagina **Setup contabilità generale** come descritto nell'articolo [Informazioni sulla contabilità generale e sul piano dei conti](../finance-general-ledger.md). Una volta che la valuta locale (LCY) è stata definita, sarà rappresentata come una valuta vuota, quindi quando il campo **Valuta** è vuoto, significa che è LCY.  
 

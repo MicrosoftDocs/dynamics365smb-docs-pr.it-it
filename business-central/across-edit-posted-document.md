@@ -7,18 +7,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
-ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
+ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
+ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ae59d920f4c560caff2bb545b1922bcd4bff65db
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822547"
 ---
-# <a name="edit-posted-documents"></a>Modifica dei documenti registrati
+# Modifica dei documenti registrati
 
 A volte è necessario aggiornare un documento registrato perché le informazioni rilevanti per il documento sono cambiate. In un documento di vendita registrato, ad esempio, questo può essere il numero di registrazione del pacchetto dell'agente di spedizione. Su un documento di acquisto registrato, questo può essere un testo di riferimento di pagamento.
 
@@ -38,7 +32,7 @@ I seguenti documenti aggiuntivi possono essere modificati nei paesi/aree geograf
 - RU: Nota credito di vendita registrate
 - IT: Spedizione trasferimento registrata, Spedizione assistenza registrata
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Per modificare una spedizione vendita registrata
+## Per modificare una spedizione vendita registrata
 
 Di seguito viene spiegato come modificare una spedizione vendita registrata. I passaggi sono simili per gli altri documenti supportati.
 
@@ -49,7 +43,7 @@ Di seguito viene spiegato come modificare una spedizione vendita registrata. I p
 
 La spedizione vendita registrata viene aggiornata.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
 [Ricerca di movimenti correlati per documenti](ui-find-entries.md)  

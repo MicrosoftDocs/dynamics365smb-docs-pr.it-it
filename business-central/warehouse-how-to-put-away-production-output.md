@@ -41,6 +41,8 @@ La prima fase del processo di stoccaggio dell'output prevede la creazione della 
 4. Compila debitamente le righe di stoccaggio.
 5. Quando le righe sono pronte per la registrazione, scegliere l'azione **Registra**. Verranno creati i movimenti di warehouse e verrà registrato l'output degli articoli.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 È inoltre possibile creare uno **Stoccaggio magazzino** direttamente dall'ordine produzione rilasciato. Per ulteriori informazioni vedi [Eseguire lo stoccaggio con stoccaggi magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Quando registri uno stoccaggio magazzino, si presume che tutte le operazioni siano registrate in base al ciclo standard. Ovvero, la quantità di output viene registrata in base all'ultima operazione. È possibile utilizzare le registrazioni output per registrare variazioni nella quantità di output e tempi di lavorazione e setup. Se è necessario eseguire una registrazione parziale dopo lo stoccaggio magazzino, puoi farlo impostando tempi e quantità per tutte le operazioni, eccetto l'ultima. L'ultima operazione è controllata dallo stoccaggio magazzino.  

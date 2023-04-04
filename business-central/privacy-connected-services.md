@@ -19,14 +19,16 @@ La tabella seguente indica le connessioni ai servizi Microsoft abilitate automat
 |------------|-------------|--------|------------|-------------|
 |Microsoft Teams|Sì|Nr.|Azione **Condividi su Teams** nella scheda **Articolo** |[Gestione dell'integrazione di Teams con Business Central](admin-teams-integration.md)|  
 |Microsoft OneDrive for Business|Sì|Nr.|L'azione **Apri in OneDrive** su allegati **Articolo** |[Gestione dell'integrazione OneDrive con Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Sì|Nr.|Azioni **Automatizza** azioni nella scheda **Articolo** |[Configurare l'integrazione di Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|  
+| Microsoft Power Automate |Sì|Nr.|Azioni **Automatizza** azioni nella scheda **Articolo** |[Configurare l'integrazione di Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+| Automazione di Microsoft Azure OpenAI |Sì |Nr.|**Copilot (anteprima)** |[Configurare testo del marketing articolo basato su intelligenza artificiale con Copilot](enable-ai.md)|
 
 > [!NOTE]
 > Utilizzando le funzionalità che si connettono a questi servizi: 
 >
 > - Acconsenti alla condivisione dei tuoi dati con quel servizio Microsoft. Se la tua organizzazione ha distribuito questi servizi in un paese o una regione diversi, la connessione al servizio potrebbe far sì che i tuoi dati superino i limiti di residenza dei dati. Assicurati di confermare i criteri della tua organizzazione e i requisiti di conformità governativa per la residenza dei dati prima di procedere all'uso di queste funzionalità. 
 > - Potresti influire sui servizi che non sono di prova. Se questi servizi vengono utilizzati in produzione dalla tua organizzazione e non vengono valutati insieme a Business Central, altri utenti di questi servizi che non partecipano a questa versione di valutazione di [!INCLUDE[prod_short](includes/prod_short.md)] potrebbero essere interessati.
-> - [!INCLUDE[prod_short](includes/prod_short.md)] può anche connettersi a servizi Microsoft o servizi di terze parti a seconda delle personalizzazioni e delle estensioni che l'utente o l'amministratore hanno installato nella versione di valutazione [!INCLUDE[prod_short](includes/prod_short.md)]. Per informazioni sull'elaborazione dei tuoi dati da parte delle estensioni, contatta lo sviluppatore dell'estensione o segui il collegamento relativo alla privacy per l'estensione su AppSource. 
+> - [!INCLUDE[prod_short](includes/prod_short.md)] può anche connettersi a servizi Microsoft o servizi di terze parti a seconda delle personalizzazioni e delle estensioni che l'utente o l'amministratore hanno installato nella versione di valutazione [!INCLUDE[prod_short](includes/prod_short.md)]. Per informazioni sull'elaborazione dei tuoi dati da parte delle estensioni, contatta lo sviluppatore dell'estensione o segui il collegamento relativo alla privacy per l'estensione su AppSource.
+> - Per le funzionalità in anteprima, acconsenti ai [termini di anteprima](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/?wt.mc_id=power-virtual-agents_inproduct).
 
 La privacy è molto importante per noi. Per ulteriori informazioni su come Microsoft gestisce i tuoi dati, vedi [Informativa sulla privacy di Microsoft](https://go.microsoft.com/fwlink/?linkid=521839).
 

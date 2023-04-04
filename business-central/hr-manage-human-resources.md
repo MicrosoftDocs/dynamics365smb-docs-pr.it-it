@@ -1,23 +1,17 @@
 ---
 title: Gestione personale
-description: È possibile registrare il nuovo personale, modificare le informazioni sul personale esistente e registrare e analizzare le assenze.
+description: 'È possibile registrare il nuovo personale, modificare le informazioni sul personale esistente e registrare e analizzare le assenze.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228
+ms.search.keywords: 'personnel, people, employee, staff, HR'
+ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 18e0a6cad715da0f06d289112311f3c00bf4e46d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521100"
 ---
-# <a name="manage-human-resources"></a>Gestione personale
+# Gestione personale
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile conservare record dettagliati degli impiegati. È possibile registrare informazioni sugli impiegati, ad esempio contratti di impiego, informazioni riservate, qualifiche e contratti di impiegati ed eseguirne la manutenzione.
 
@@ -32,7 +26,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Registrare i nuovi impiegati o modificare i record per gli impiegati esistenti e allegare informazioni correlate, ad esempio contratti e articoli. |[Registrare i dipendenti](hr-how-register-employees.md) |
 | Registrare le assenze degli impiegati e visualizzare statistiche di assenza in base a vari filtri. |[Gestire le assenze di un impiegato](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Finanze](finance.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

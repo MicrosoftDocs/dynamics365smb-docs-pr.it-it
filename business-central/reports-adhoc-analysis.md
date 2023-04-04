@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 690aa39a73705b25a804111fbe939298a528c96a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607906"
 ---
-# <a name="ad-hoc-data-analysis"></a>Analisi dei dati ad hoc
+# Analisi dei dati ad hoc
 
 A volte è necessario analizzare i dati in [!INCLUDE[prod_short](includes/prod_short.md)] in un modo che non è disponibile in un report standard. Questa attività è spesso chiamata "analisi ad hoc". Di seguito sono riportati i collegamenti per aiutarti a imparare come eseguirla.
 
@@ -27,7 +21,7 @@ A volte è necessario analizzare i dati in [!INCLUDE[prod_short](includes/prod_s
 | Visualizza e analizza i dati da un set di dati di report in Excel. | [Salva il set di dati del report in Excel dalla pagina della richiesta](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 | Visualizza e analizza i dati finanziari utilizzando i report finanziari. | [Analisi finanziaria](bi.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica di Business Intelligence e creazione di report](ui-work-report.md)
 

@@ -7,16 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: edupont
-ms.openlocfilehash: e306cc27753e86e8e1a0a315406643bcf6f44d8a
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822520"
 ---
-# <a name="posting-documents-and-journals"></a>Contabilizzazione dei documenti e delle registrazioni
+# Contabilizzazione dei documenti e delle registrazioni
 
 La contabilizzazione rappresenta l'azione di contabilità di registrazione delle transazioni commerciali nei vari registri della società.
 
@@ -33,7 +27,7 @@ Nella tabella seguente sono descritti i task correlati, con i collegamenti agli 
 | Visualizzare in anteprima, in una pagina, i movimenti che verranno creati quando si registra. |[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md) |
 | Visualizzare in anteprima, in un report, i movimenti che verranno creati quando si registra. |[Visualizzare i report dei test prima della registrazione](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Modificare i documenti registrati](across-edit-posted-document.md)  
 [Ricerca di movimenti correlati per documenti](ui-find-entries.md)  

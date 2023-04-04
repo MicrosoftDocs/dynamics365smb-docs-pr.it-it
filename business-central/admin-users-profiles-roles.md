@@ -12,6 +12,8 @@ ms.search.form: 9171
 ---
 # Gestire profili utente
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Assegna tutti gli utenti a profili che riflettono:
 
 * Il loro ruolo aziendale

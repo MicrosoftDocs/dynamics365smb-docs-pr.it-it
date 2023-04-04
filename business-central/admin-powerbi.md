@@ -1,30 +1,24 @@
 ---
 title: Introduzione a Business Central e Power BI
-description: Ottenere una panoramica dell'utilizzo di Power BI per avere informazioni dettagliate, business intelligence e KPI dai dati di Business Central.
+description: 'Ottenere una panoramica dell''utilizzo di Power BI per avere informazioni dettagliate, business intelligence e KPI dai dati di Business Central.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.search.form: 6316, 6317
+ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
+ms.search.form: '6316, 6317'
 ms.reviewer: edupont
 ms.date: 08/30/2022
 ms.author: jswymer
-ms.openlocfilehash: 43c0b32a25d8ebb55aae14937a6d8c2269395963
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533915"
 ---
-# <a name="introduction-to-prod_short-and-power-bi"></a>Introduzione a [!INCLUDE[prod_short](includes/prod_short.md)] e Power BI
+# Introduzione a [!INCLUDE[prod_short](includes/prod_short.md)] e Power BI
 
 Ottenere informazioni dettagliate sui dati [!INCLUDE[prod_short](includes/prod_short.md)] è facile con [Power BI](https://powerbi.microsoft.com), un sistema di visualizzazione dei dati di Microsoft. Power BI recupera i dati [!INCLUDE[prod_short](includes/prod_short.md)] che consentono di creare dashboard e report basati sui dati. Power BI fornisce un'alternativa flessibile ai report integrati in [!INCLUDE[prod_short](includes/prod_short.md)], consentendo di eseguire il drill-down e personalizzare la visualizzazione e persino unire i dati di diverse società in [!INCLUDE[prod_short](includes/prod_short.md)] Alcuni report Power BI possono anche essere incorporati in Business Central e visualizzati senza lasciare il sistema. I dashboard più complessi sono meglio utilizzati nel sito web Power BI.
 
 ![Power BI e Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Operazioni che è possibile eseguire con Power BI e [!INCLUDE[prod_short](includes/prod_short.md)]
+## Operazioni che è possibile eseguire con Power BI e [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Ci sono varie funzionalità da utilizzare con [!INCLUDE[prod_short](includes/prod_short.md)] e Power BI. Alcune cose possono essere eseguite in Power BI, mentre altre vengono fatte da [!INCLUDE[prod_short](includes/prod_short.md)]. Inoltre, alcune funzionalità sono disponibili solo con [!INCLUDE[prod_short](includes/prod_short.md)] online e non in locale. La tabella seguente offre una panoramica.
 
@@ -38,7 +32,7 @@ Ci sono varie funzionalità da utilizzare con [!INCLUDE[prod_short](includes/pro
 
 <a name="onprem"><sup>*</sup></a>Questa funzione richiede un'applicazione registrata per Business Central in Microsoft Azure. Per ulteriori informazioni, vedere [Registrazione di Business Central locale in Azure AD per l'integrazione con altri servizi](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Preparati all'uso di Power BI
+## Preparati all'uso di Power BI
 
 Ci sono alcune attività che devono essere eseguite prima di poter iniziare a utilizzare Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Le attività dipenderanno dal tuo ruolo nella tua organizzazione e da cosa vuoi fare con Power BI:
 
@@ -76,9 +70,9 @@ Ci sono alcune attività che devono essere eseguite prima di poter iniziare a ut
 
 -->
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Business Intelligence](bi.md)  
 [Preparazione al business](ui-get-ready-business.md)  

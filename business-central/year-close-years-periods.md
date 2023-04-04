@@ -1,23 +1,17 @@
 ---
 title: Chiusura dell'anno fiscale e del periodo contabile
-description: Descrive i task per la chiusura di un anno fiscale o di un periodo contabile, ad esempio, per garantire che documenti e registrazioni vengano contabilizzati e per verificare i saldi di conti correnti.
+description: 'Descrive i task per la chiusura di un anno fiscale o di un periodo contabile, ad esempio, per garantire che documenti e registrazioni vengano contabilizzati e per verificare i saldi di conti correnti.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
-ms.openlocfilehash: a6b21fd03cbfebdefb102074e97121bf2187bf49
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605929"
 ---
-# <a name="closing-years-and-periods"></a>Chiusura di anni e periodi
+# Chiusura di anni e periodi
 
 Al termine di un anno fiscale, vi sono numerose attività amministrative da eseguire, ad esempio assicurarsi che tutti i documenti e le registrazioni siano stati contabilizzati, assicurarsi che i dati della valuta siano aggiornati, chiudere i libri e altro ancora. Le attività effettive dipenderanno dalla società.
 
@@ -35,9 +29,9 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 | Chiudere i periodi contabili e l'anno fiscale, trasferire i saldi dal conto economico al conto patrimoniale e registrare il movimento di chiusura di fine anno. |[Chiusura registri](year-close-books.md) |
 | Stampare report per facilitare la creazione di rendiconti finanziari. |[Preparazione degli estratti conto di chiusura](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

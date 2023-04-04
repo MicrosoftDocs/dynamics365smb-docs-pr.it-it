@@ -7,23 +7,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
-ms.search.form: 11, 130
+ms.search.form: '11, 130'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4f55e4ac7aaad445a2db606fcbc46856f4800f18
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517767"
 ---
-# <a name="set-up-shipment-methods"></a>Impostare i metodi di spedizione
+# Impostare i metodi di spedizione
 
 I metodi di spedizione dipendono spesso dagli articoli, dai clienti e dai fornitori. Se ad esempio il cliente ha sede su un'isola, può scegliere che gli articoli gli vengano spediti sempre per via aerea oppure sempre via mare. Alcuni clienti potrebbero richiedere la consegna il giorno successivo. Alcuni potrebbero voler ritirare l'ordine. Nelle schede cliente e fornitore è possibile specificare il tipo di consegna desiderato.
 
 Impostare nella pagina **Metodi di spedizione** la descrizione e il codice di ciascun metodo di spedizione. È possibile ad esempio impostare il codice FOB e immettere Franco a bordo nel campo **Descrizione**. Sarà quindi possibile immettere il codice nei campi **Codice metodo di spedizione** altrove nel sistema ad esempio in una scheda cliente. In seguito, quando si creano nuovi ordini, fatture, note di credito e così via, il sistema immetterà la descrizione rappresentata dal codice. È possibile modificarla sul documento in base alle esigenze.
 
-## <a name="to-set-up-a-shipment-method"></a>Per impostare un metodo di spedizione
+## Per impostare un metodo di spedizione
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Metodi di spedizione**, quindi scegli il collegamento correlato.
 2. Nella pagina **Metodi di spedizione** scegliere l'azione **Nuovo**.
@@ -32,16 +26,15 @@ Impostare nella pagina **Metodi di spedizione** la descrizione e il codice di ci
 > [!TIP]
 > Se si utilizzano Incoterm, impostare i metodi di spedizione per rappresentare le regole Incoterm pertinenti.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)  
 [Rintracciare i colli](sales-how-track-packages.md)  
-[Gestione warehouse](warehouse-manage-warehouse.md)  
-[Magazzino](inventory-manage-inventory.md)  
-[Impostazione gestione warehouse](warehouse-setup-warehouse.md)  
+[Panoramica di Warehouse Management](design-details-warehouse-management.md)
+[Inventario](inventory-manage-inventory.md)  
+[Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
-[Dettagli di progettazione: Warehouse Management](design-details-warehouse-management.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoterm su iccwbo.org](https://iccwbo.org/resources-for-business/incoterms-rules)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

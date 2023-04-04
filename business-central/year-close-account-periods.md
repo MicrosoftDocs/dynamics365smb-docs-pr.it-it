@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 944c2e9a9955a38b079234cc3ef9fb365407a97a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514285"
 ---
-# <a name="close-accounting-periods"></a>Chiudere periodi contabili
+# Chiudere periodi contabili
 
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito.
 
-## <a name="to-close-accounting-periods"></a>Per chiudere periodi contabili
+## Per chiudere periodi contabili
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Periodi contabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Periodi contabili** scegliere l'azione **Chiudi anno**.
@@ -38,7 +32,7 @@ Anche se l'anno fiscale è stato chiuso, è possibile registrarvi dei movimenti 
 
 Una volta chiuso un anno fiscale, è necessario chiudere i conti economici e trasferire i risultati dell'anno su un conto nello stato patrimoniale. È possibile ripetere queste operazioni ogni volta che si effettua una registrazione sull'anno fiscale chiuso.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Chiusura registri](year-close-books.md)  
 [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)  
