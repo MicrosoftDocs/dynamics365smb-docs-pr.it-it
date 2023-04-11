@@ -48,18 +48,18 @@ Questa sezione spiega le attuali limitazioni della funzionalità di testo genera
 
 - I suggerimenti di testo generati dall'intelligenza artificiale sono solo in inglese.
 - Suggerimenti scadenti possono risultare quando vengono utilizzati nomi di prodotti vaghi o generici e mancano specifiche su un articolo, come attributi chiave o una categoria.
-- Copilot è supportato solo negli ambienti di versione di valutazione e sandbox di Business Central Online; non in ambienti di produzione, ambienti cloud privati o ambienti locali di Business Central.
+- Copilot è supportato solo su Business Central online e non in ambienti cloud privati o ambienti locali di Business Central.
 - Copilot non è supportato tramite connessioni alla propria risorsa del servizio Azure OpenAI nella sottoscrizione di Azure.
 - L'estensibilità dei partner della funzionalità di intelligenza artificiale tramite il codice AL non è supportata.
 
 ## Passaggi successivi
 
-Per iniziare, avrai bisogno di una versione di anteprima di Business Central dedicata e abilitata con Copilot.
+Per iniziare, avrai bisogno di un ambiente con Business Central versione 22 abilitata con Copilot.
 
-- Se sei già un cliente di Business Central, l'amministratore di Business Central dovrà configurare la versione di anteprima in un ambiente sandbox per te.
+- Se sei già un cliente di Business Central, l'amministratore di Business Central dovrà configurare la versione 22 in un ambiente per te.
 - Se non sei un cliente di Business Central, ma vuoi provare, puoi registrati per una versione di valutazione gratuita.
 
-Per ulteriori informazioni, vai a [Ottenere la versione di anteprima di Business Central - Edizione Copilot](ai-preview-getstarted.md).  
+Per ulteriori informazioni, vai a [Ottenere la versione di anteprima di Business Central](ai-preview-getstarted.md).  
 
 ## Vedere anche
 

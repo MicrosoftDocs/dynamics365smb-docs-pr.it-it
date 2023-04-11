@@ -2,13 +2,13 @@
 title: Gestione dell'integrazione Microsoft Teams con Business Central | Microsoft Docs
 description: Gestione dell'integrazione di Business Central con Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
-ms.date: 11/03/2022
+ms.date: 02/03/2023
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics365-business-central
 ---
 
 # Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -91,7 +91,7 @@ Il centro di amministrazione di Microsoft Teams è dove configuri le politiche d
     4. Scegliere **Aggiungi**.
 
        Business Central dovrebbe ora apparire tra le **app installate** per la policy.
-    5. Configura qualsiasi impostazione aggiuntiva, poi scegli **Salva**.
+    5. Configura altre impostazioni secondo le necessità, poi scegli **Salva**.
 
     Per ulteriori informazioni sui criteri di configurazione in Teams, vedi [Gestire i criteri di configurazione delle app in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) nella documentazione di Teams.
 4. Torna a **Teams App Centralized Deployment** in Business Central e seleziona **Fatto**.
@@ -126,9 +126,29 @@ Le funzionalità di conformità eDiscovery e di ricerca di contenuto nel Centro 
 
 Poiché i dati delle schede in Teams sono una copia dei dati in [!INCLUDE [prod_short](includes/prod_short.md)], puoi anche usare le funzionalità di [!INCLUDE [prod_short](includes/prod_short.md)] per esportare i dati di un cliente se richiesto. Per ulteriori informazioni sulla privacy in [!INCLUDE [prod_short](includes/prod_short.md)], vedi [Domande frequenti sulla privacy per i clienti di Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
+## Mostrare o nascondere i dati dei record sulle schede
+
+Quando un record viene condiviso con altri in una chat o un canale di Teams, viene visualizzata una scheda con i campi che contengono dati sul record. Tutti i destinatari possono visualizzare questi dati (o il riepilogo dei record) per impostazione predefinita, indipendentemente dalla loro licenza o autorizzazione in Business Central. Se sei un amministratore, puoi utilizzare la Guida alla configurazione assistita **Impostazioni scheda** per nascondere il riepilogo del record in modo che non venga visualizzato nelle schede in Teams. Nascondendo il riepilogo del record vengono rimossi tutti i campi e le immagini, ma continua a mostrare il pulsante **Dettagli** e altre informazioni non relative al record sulla scheda.
+
+|Riepilogo record attivato|Riepilogo record disattivato|
+|-|-|
+|![Immagine che mostra una scheda in Teams quando il riepilogo record è attivato.](media/card-settings-example-on.png)|![Immagine che mostra una scheda in Teams quando il riepilogo record è disattivato.](media/card-settings-example-off.png)|
+
+Configura l'impostazione per ambiente. Quindi, quando attivi o disattivi il riepilogo del record, avrà effetto su tutte le società nell'ambiente.
+
+1. In Business Central, apri l'ambiente che vuoi modificare.
+
+   > [!TIP]
+   > Per cambiare ambiente, seleziona <kbd>Ctrl</kbd>+<kbd>O</kbd>.
+2. Scegli la ![Lente d'ingrandimento che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impostazioni scheda**, quindi scegli il collegamento correlato. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Leggi le informazioni sulle **Impostazioni carta**, quindi scegli **Avanti** quando sei pronto.
+4. Nella pagina **Visibilità dati** attiva l'opzione **Mostra riepilogo record** per visualizzare i dati sulle schede o disattivala per nascondere i dati.
+5. Seleziona **Avanti** e segui le istruzioni per completare la guida all'installazione.
+
 ## Vedere anche
-[Panoramica dell'integrazione di [!INCLUDE [prod_short](includes/prod_short.md)] e Microsoft Teams](across-teams-overview.md)  
-[Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
+
+[[!INCLUDE [prod_short](includes/prod_short.md)] e Panoramica sull’integrazione di Microsoft Teams](across-teams-overview.md)  
+[Installare l'App [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
 [Domande frequenti su Teams](teams-faq.md)  
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  
 [Sviluppare per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

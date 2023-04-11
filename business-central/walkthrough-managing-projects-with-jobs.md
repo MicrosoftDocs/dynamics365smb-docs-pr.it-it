@@ -69,9 +69,9 @@ In questa procedura dettagliata vengono presentate le funzionalità di gestione 
 
 ## Scenario
 
-Questa procedura dettagliata è incentrata su CRONUS, una società che si occupa di progettazione, consulenza e installazione di nuove infrastrutture, ad esempio aule conferenze e uffici, complete di mobilia e accessori. La maggior parte del lavoro è svolta in base a progetti. Ezio Alboni è un manager di progetto in CRONUS. Utilizza le commesse per avere una panoramica di ciascuna commessa in corso avviata da CRONUS, nonché delle commesse completate. Solitamente è la persona che definisce gli affari con i clienti e inserisce i dettagli di base della commessa, cioè righe di task e di pianificazione e prezzi, in [!INCLUDE[prod_short](includes/prod_short.md)]. Trova che creare, gestire e analizzare i dati sia semplice. Alboni inoltre apprezza il modo in cui [!INCLUDE[prod_short](includes/prod_short.md)] consente la copia delle commesse e i pagamenti rateali.
+Questa procedura dettagliata è incentrata su CRONUS, una società che si occupa di progettazione, consulenza e installazione di nuove infrastrutture, ad esempio aule conferenze e uffici, complete di mobilia e accessori. La maggior parte del lavoro è svolta in base a progetti. Ezio Alboni è un manager di progetto in CRONUS e utilizza le commesse per avere una panoramica di ciascuna commessa in corso avviata da CRONUS, nonché delle commesse completate. Solitamente è la persona che definisce gli affari con i clienti e inserisce i dettagli di base della commessa, cioè righe di task e di pianificazione e prezzi, in [!INCLUDE[prod_short](includes/prod_short.md)]. Alboni trova che creare, gestire e analizzare i dati sia semplice. Alboni inoltre apprezza il modo in cui [!INCLUDE[prod_short](includes/prod_short.md)] consente la copia delle commesse e i pagamenti rateali.
 
- Cinzia Di Marco fa parte del team alle dirette dipendenze di Alboni ed è responsabile del monitoraggio quotidiano della commessa. Immettere il proprio lavoro oltre al lavoro eseguito dai tecnici in ogni task. Registra gli articoli che sono stati utilizzati e altri costi sostenuti.  
+ Cinzia Di Marco fa parte del team alle dirette dipendenze di Alboni ed è responsabile del monitoraggio quotidiano della commessa. Cinzia si occupa di registrare il proprio lavoro e quello svolto da altri membri dello staff in ogni task, e anche i materiali che sono stati utilizzati e tutti gli altri costi della commessa.  
 
 ## Preparazione dei dati di esempio
 
@@ -102,7 +102,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 ### Per creare un batch registrazioni commesse  
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
+1.  Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Registrazioni commesse** scegliere il campo **Nome batch**. Viene visualizzata la pagina **Batch registrazioni commesse**.  
 3.  Scegliere l'azione **Nuovo** per creare una nuova riga con le informazioni seguenti:  
 
@@ -208,7 +208,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 ## Calcolo dell'utilizzo residuo
 
- Cinzia, il membro del team, lavora alla commessa da qualche tempo e desidera registrare le sue ore e l'utilizzo nella commessa. Non ha lavorato più ore di quanto concordato in origine con il cliente. Utilizza il processo batch **Calc. utilizzo residuo** per calcolare l'utilizzo residuo della commessa in una registrazione di commessa. Per ciascun task viene calcolata la differenza tra l'utilizzo programmato di articoli, risorse e spese di contabilità generale e l'utilizzo effettivo registrato nei movimenti contabili delle commesse. L'utilizzo residuo viene quindi visualizzato nelle registrazioni delle commesse, da cui è possibile eseguirne la registrazione.  
+ Cinzia, il membro del team, lavora alla commessa da qualche tempo e desidera registrare le sue ore e l'utilizzo nella commessa. Non ha lavorato più ore di quanto concordato in origine con il cliente. Cinzia utilizza il processo batch **Calc. utilizzo residuo** per calcolare l'utilizzo residuo della commessa in una registrazione di commessa. Per ciascun task viene calcolata la differenza tra l'utilizzo programmato di articoli, risorse e spese di contabilità generale e l'utilizzo effettivo registrato nei movimenti contabili delle commesse. L'utilizzo residuo viene quindi visualizzato nelle registrazioni delle commesse, da cui è possibile eseguirne la registrazione.  
 
 ### Per calcolare l'utilizzo residuo  
 
@@ -226,7 +226,7 @@ Le righe sono così registrate.
 
 ## Creazione e registrazione di una fattura di vendita per una commessa
 
- Quindi, Cinzia può creare una nuova fattura per l'intera commessa o per parte di una commessa. È anche possibile allegare la fattura a un'altra fattura per lo stesso cliente e per la stessa commessa. In questo caso, può procedere a fatturare l'intera commessa, poiché il progetto è completato.  
+ Quindi, Cinzia può creare una nuova fattura per l'intera commessa o per parte di una commessa. Può anche allegare la fattura a un'altra fattura per lo stesso cliente e per la stessa commessa. In questo caso, Cinzia può procedere a fatturare l'intera commessa, poiché il progetto è completato.  
 
 ### Per creare una fattura di vendita per una commessa  
 
@@ -236,7 +236,7 @@ Le righe sono così registrate.
 4.  Nella Scheda dettaglio **Opzioni** immettere la data di registrazione e specificare se creare una fattura per task oppure una singola fattura per tutti i task.  
 5.  Selezionare il pulsante **OK** per creare la fattura e fare clic sul pulsante **OK** nella pagina di conferma.  
 
- Dopo che Tricia ha creato la fattura, può ad esempio accedervi da Gestione ruolo utente **Gestione ordini vendite**. 
+ Dopo che Cinzia ha creato la fattura, può ad esempio accedervi da Gestione ruolo utente **Gestione ordini vendite**. 
 
 ### Per registrare una nuova fattura di vendita  
 
@@ -260,7 +260,7 @@ Le righe sono così registrate.
 
 ## Gestione dei prezzi fissi
 
- CRONUS ha ottenuto un contratto per l'allestimento di alcune aule per conferenze. Come manager del progetto, Alboni vuole una panoramica precisa dei task necessari per la commessa con i costi previsti e sostenuti associati per ciascun task. Inoltre, desidera conoscere il prezzo totale a contratto della commessa e l'importo fatturato finora. Ha concluso un contratto con il cliente in cui sono stati concordati prezzi fissi per la commessa.  
+ CRONUS ha ottenuto un contratto per l'allestimento di alcune aule per conferenze. Come manager del progetto, Alboni vuole una panoramica precisa dei task necessari per la commessa con i costi previsti e sostenuti associati per ciascun task. Inoltre, Alboni desidera conoscere il prezzo totale a contratto della commessa e l'importo fatturato finora. Ha concluso un contratto con il cliente in cui sono stati concordati prezzi fissi per la commessa.  
 
 ### Per gestire i prezzi fissi nelle commesse  
 
@@ -268,7 +268,7 @@ Le righe sono così registrate.
 2. Selezionare il numero di commessa **Società mercantile internaz.**, quindi scegliere l'azione **Righe task commessa**.  
 3. Seleziona la riga 1,120 e nel campo **Budget (costo totale)** fai clic con il pulsante destro del mouse sull'importo e scegli **DrillDown**.  
 
-     Verificando le righe di pianificazione commessa, Alboni stabilisce che avrà anche bisogno di Cinzia per 30 ore per questa fase del progetto. Concorda un prezzo fisso con il cliente.  
+     Verificando le righe di pianificazione commessa, Alboni stabilisce che avrà anche bisogno di Cinzia per 30 ore per questa fase del progetto. E concorda un prezzo fisso con il cliente.  
 
 4. Nella pagina **Righe task commessa**, selezionare la riga 1120, quindi scegliere l'azione **Righe pianificazione commessa**. Creare una riga di pianificazione con i seguenti dati:  
 
@@ -280,7 +280,7 @@ Le righe sono così registrate.
 5. Nel campo **Budget (costo totale)**, fai clic con il pulsante destro del mouse sul campo e seleziona **DrillDown** nella pagina **Righe task commessa** . Visualizzare le modifiche alla pianificazione. Le 30 ore sono state aggiunte alla pianificazione.  
 6. Chiudere le pagine.  
 
-Dopo che Cinzia è stata aggiunta alla pianificazione per questa riga di task, lavora per 25 ore alla commessa. Immette le ore nelle registrazioni commesse.  
+Dopo che Cinzia è stata aggiunta alla pianificazione per questa riga di task, lavora per 25 ore alla commessa e immette queste ore nelle Registrazioni commesse.  
 
 ### Per inserire ore nelle Registrazioni commesse  
 
@@ -298,7 +298,7 @@ Dopo che Cinzia è stata aggiunta alla pianificazione per questa riga di task, l
 
 3. Scegliere l'azione **Registra**.  
 
-     Alcuni giorni più tardi, Cinzia lavora per altre 10 ore alla commessa. Ha lavorato 35 ore in tutto. Poiché il contratto è per 30 ore, solo cinque delle ore verranno addebitate al cliente. Cinzia aggiungerà manualmente le cinque ore aggiuntive lavorate alla pianificazione.  
+     Pochi giorni dopo, Cinzia lavora per altre 10 ore sulla commessa, e ora ha lavorato 35 ore in tutto. Poiché il contratto è per 30 ore, solo cinque delle ore verranno addebitate al cliente. Cinzia aggiungerà manualmente le cinque ore aggiuntive lavorate alla pianificazione.  
 
 4. Nella pagina **Registrazioni commesse**, scegliere l'azione **Calc. utilizzo residuo**.  
 5. Nella Scheda dettaglio **Opzioni** della pagina **Calc. utilizzo residuo** inserire le seguenti informazioni:  
@@ -442,7 +442,7 @@ Le procedure riportate di seguito mostrano come creare una nuova commessa, impos
 
 11. Creare una simile movimento della riga di pianificazione per il task commessa 4000.  
 
- Ora che le righe di task e di pianificazione sono state registrate, Alboni crea una fattura per il primo pagamento. Procede dalle righe dei task commesse per assicurarsi che la fattura contenga solo le righe del primo pagamento. Aprire l'ordine di vendita dalle righe di pianificazione o dalle righe di task.  
+ Ora che le righe di task e di pianificazione sono state registrate, Alboni crea una fattura per il primo pagamento. Alboni procede dalle righe dei task commesse per assicurarsi che la fattura contenga solo le righe del primo pagamento. Aprire l'ordine di vendita dalle righe di pianificazione o dalle righe di task.  
 
 ### Per creare una fattura  
 

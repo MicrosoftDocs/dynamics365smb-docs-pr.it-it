@@ -18,11 +18,11 @@ ms.author: andreipa
 
 ## Eseguire attività in background per un negozio specifico
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") icona, inserisci il nome del **negozio Shopify** e scegli il nome del negozio dall'elenco.
-2. Seleziona il punto vendita per il quale desideri sincronizzare gli articoli per l'apertura della pagina **Scheda del punto vendita Shopify**.
-3. Abilita l'opzione **Consenti sincronizzazioni in background**.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
+2. Seleziona il punto vendita che desideri sincronizzare in background per l'apertura della pagina **Scheda del punto vendita Shopify**.
+3. Attiva l'opzione **Consenti sincronizzazioni in background**.
 
-Ora, quando viene attivata l'azione di sincronizzazione, invece di un'attività in esecuzione in primo piano, ti verrà chiesto di attendere. Al termine, puoi procedere con l'azione successiva. L'attività viene creata come **Movimento coda processi** e si avvia istantaneamente in modo non bloccante.
+Ora, quando viene attivata l'azione di sincronizzazione, invece di un'attività in esecuzione in primo piano, ti verrà chiesto di attendere. Al termine, puoi procedere con l'azione successiva. L'attività viene creata come **Movimento coda processi** e si avvia istantaneamente.
 
 ## Per pianificare attività ricorrenti
 
@@ -42,6 +42,15 @@ Ora, quando viene attivata l'azione di sincronizzazione, invece di un'attività 
 > [!NOTE]
 > Alcuni elementi potrebbero essere aggiornati da diverse attività, ad esempio durante l'importazione degli ordini, a seconda dell'impostazione in **Scheda punto vendita Shopify**, il sistema può anche importare e aggiornare i dati dei clienti e/o dei prodotti. Ricordati di utilizzare la stessa categoria della coda processi per evitare conflitti.
 
+Altre attività che possono essere utili per automatizzare ulteriormente l'elaborazione dei documenti di vendita:
+
+- report 497 Agg. batch fatture acquisti
+- report 496 Aggior. batch ordini acquisto
+
+È possibile utilizzare il campo **Nr. ordine Shopify** per identificare i documenti di vendita che sono stati importati da Shopify.
+
+Per ulteriori informazioni sulla registrazione di ordini di vendita in un batch, vai a [Per creare un movimento coda processi per la registrazione batch degli ordini di vendita](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
+
 ## Vedere anche
 
-[Iniziare a utilizzare il connettore per Shopify](get-started.md)  
+[Iniziare a usare il connettore per Shopify](get-started.md)  

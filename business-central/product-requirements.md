@@ -2,13 +2,13 @@
 title: Requisiti minimi per l'utilizzo di Business Central
 description: Informazioni sui requisiti minimi di sistema e di versione per l'utilizzo di Business Central online.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
+ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 08/23/2022
+ms.date: 02/28/2023
+ms.review: jswymer
 ms.author: jswymer
+ms.service: dynamics365-business-central
 ---
 # Requisiti minimi per l'utilizzo di Business Central
 
@@ -64,7 +64,7 @@ L'Interfaccia di amministrazione è progettata per funzionare con la versione co
 
 ## Usare Business Central in locale
 
-Se si desidera distribuire Business Central in locale, è necessario verificare i requisiti di sistema. Per ulteriori informazioni, vedere [Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) e [Panoramica sulla distribuzione](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Se si desidera distribuire Business Central in locale, è necessario verificare i requisiti di sistema. Per ulteriori informazioni, vedere [Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v22) e [Panoramica sulla distribuzione](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## Vedi anche
 

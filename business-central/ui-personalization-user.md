@@ -13,19 +13,20 @@ ms.author: bholtorf
 ---
 # Personalizzare l'area di lavoro
 
-Puoi personalizzare l'area di lavoro per adattarla alle tue preferenze di lavoro. Modifica le pagine in modo che mostrino solo le informazioni di cui hai bisogno e dove ne hai bisogno. Le modifiche di personalizzazione influenzeranno solo ciò che *tu* vedi, non quello che altri utenti vedono.
+Puoi personalizzare l'area di lavoro per adattarla alle tue preferenze di lavoro. Modifica le pagine in modo che mostrino solo le informazioni di cui hai bisogno e dove ne hai bisogno. La personalizzazione riguarda solo la tua area di lavoro. Non cambia il modo in cui lavorano gli altri.
 
-È possibile personalizzare tutti i tipi di pagine, inclusa la pagina Gestione ruolo utente. Per ulteriori informazioni su Gestione ruolo utente, vedere [Gestione ruolo utente](ui-change-basic-settings.md#role-center).  
+È possibile personalizzare tutti i tipi di pagine, inclusa la pagina Gestione ruolo utente. Per ulteriori informazioni su Gestione ruolo utente, vai a [Gestione ruolo utente](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Puoi eseguire varie modifiche, come spostare o nascondere campi, colonne, azioni e intere parti e aggiungere nuovi campi. La maggior parte della personalizzazione deve essere eseguita attivando prima il banner **Personalizzazione**. Puoi apportare semplici rettifiche, come la larghezza della colonna, immediatamente su qualsiasi elenco.
 
 > [!NOTE]
-> Gli amministratori possono eseguire le stesse modifiche al layout degli utenti personalizzando l'area di lavoro per un profilo a cui sono assegnati più utenti. Per ulteriori informazioni, vedere [Personalizzare pagine per ruoli](ui-personalization-manage.md).<br /><br />
+> Gli amministratori possono eseguire le stesse modifiche al layout degli utenti personalizzando l'area di lavoro per un profilo a cui sono assegnati più utenti. Per saperne di più sulle pagine per i ruoli, vai a [Personalizzare le pagine per i ruoli](ui-personalization-manage.md)<br /><br />
 Gli amministratori possono anche sostituire o disabilitare la personalizzazione degli utenti e definire quali funzionalità sono visualizzabili in tutte o alcune società. Per ulteriori informazioni, vedere [Personalizzazione di Business Central](ui-customizing-overview.md).
 
-## Video di panoramica
+## Video
+
 Il video seguente mostra alcuni dei modi per personalizzare il Centro gestione ruoli.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 
 La personalizzazione consente di specificare quali azioni visualizzare nelle barre di spostamento e azione e in Gestione ruolo utente e dove. È possibile visualizzare, nascondere o spostare singole azioni o gruppi di azioni.
 
-Nel secondo ciclo di rilascio del 2022 ti abbiamo fornito più modi per personalizzare Business Central. Il video seguente mostra come personalizzare le azioni sulle pagine e su Gestione ruolo utente.
+Il video seguente mostra come personalizzare le azioni sulle pagine e su Gestione ruolo utente.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -126,6 +127,7 @@ Le parti sono aree di una pagina che in genere sono composte da più campi, graf
 Puoi cancellare tutte le modifiche di personalizzazione che hai apportato all'interno di una singola parte scegliendo l'opzione **Cancella personalizzazione** sotto la freccia della parte. L'annullamento della personalizzazione di una parte influisce solo sulle modifiche ai contenuti della parte, non sul posizionamento o sulla visibilità della parte nella pagina.  
 
 ## Per cancellare la personalizzazione
+
 In alcuni casi, potrebbe essere necessario annullare alcune o tutte le modifiche di personalizzazione effettuate nel tempo in una pagina.
 
 1. Nel banner **Personalizzazione**, scegliere l'azione **Cancella personalizzazione**.
@@ -138,7 +140,7 @@ In alcuni casi, potrebbe essere necessario annullare alcune o tutte le modifiche
 |------|------------
 |**Solo menu di navigazione**|Cancella tutte le modifiche di personalizzazione che apportate al menu di navigazione condiviso in Gestione ruolo utente e in altre pagine. Tali modifiche includono tutte le nuove azioni che sono state aggiunte come segnalibri e qualsiasi modifica ai collegamenti e ai gruppi nel menu.|  
 |**Solo azioni**|Cancella qualsiasi modifica di personalizzazione alla barra di spostamento o delle azioni nella pagina.|
-|**Solo campi, colonne e parti**|Cancella qualsiasi modifica di personalizzazione alla pagina salvo quelle nella barra di spostamento o delle azioni. Sono incluse le modifiche a campi, colonne, parti e riquadri. |
+|**Solo campi e colonne**|Cancella qualsiasi modifica di personalizzazione alla pagina salvo quelle nella barra di spostamento o delle azioni. Sono incluse le modifiche a campi, colonne, parti e riquadri. |
 |**Tutto**|Cancella tutte le modifiche di personalizzazione alla pagina per ripristinarne l'aspetto originale. Sono incluse le modifiche alla barra di spostamento o delle azioni, a campi, colonne, parti e riquadri.|
 
 ## Altri punti di interesse

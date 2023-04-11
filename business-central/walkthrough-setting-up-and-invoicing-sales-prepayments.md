@@ -39,15 +39,15 @@ Questa procedura dettagliata include task per i seguenti ruoli:
 
 ## Scenario
 
- Barbara Zighetti è un manager contabilità. Spetta a lei decidere quali clienti devono versare un deposito prima che gli articoli siano lavorati o spediti. Barbara imposta [!INCLUDE[prod_short](includes/prod_short.md)] per calcolare i pagamenti anticipati automaticamente.  
+ Barbara un manager di contabilità e spetta a lei decidere quali clienti devono versare un deposito prima che gli articoli siano lavorati o spediti. Barbara imposta [!INCLUDE[prod_short](includes/prod_short.md)] per calcolare i pagamenti anticipati automaticamente.  
 
- Elisabetta Scotti è un gestore ordini di vendita. Quando un cliente chiama per effettuare un ordine, inserisce l'ordine nel sistema mentre il cliente è al telefono. In questo modo, può verificare subito i prezzi e le condizioni di pagamento con il cliente e può procedere alle modifiche all'ordine mentre negozia con il cliente.  
+ Elisabetta Scotti è un gestore ordini di vendita. Quando un cliente chiama per effettuare un ordine, Elisabetta inserisce l'ordine nel sistema mentre il cliente è al telefono. In questo modo, Elisabetta può verificare subito i prezzi e le condizioni di pagamento con il cliente e può procedere alle modifiche all'ordine mentre negozia con il cliente.  
 
- Armando Pinto lavora nel reparto Contabilità clienti e registra fattura e pagamenti.  
+ Armando lavora nel reparto Contabilità clienti e registra fattura e pagamenti.  
 
  In questo scenario, Barbara definisce i requisiti di pagamento anticipato per il cliente Selangorian in base al suo storico di credito. Barbara dà istruzioni a Elisabetta su come gestire gli ordini.  
 
- Quando il cliente chiama, Elisabetta negozia con il cliente fino a quando non raggiungono un accordo. Può scegliere di calcolare il pagamento anticipato in modi diversi.  
+ Quando il cliente chiama, Elisabetta negozia con il cliente fino a raggiungere un accordo, quindi sceglie di calcolare il pagamento anticipato in diversi modi.  
 
  Dopo che Elisabetta ha emesso la fattura per il pagamento anticipato, il cliente ordina un articolo aggiuntivo. Elisabetta aggiorna l'ordine e crea una seconda fattura per il pagamento anticipato.  
 
@@ -75,7 +75,7 @@ Le seguenti procedure illustrano come svolgere i task di Barbara:
 
 Non è possibile spedire o fatturare un ordine con un importo pagamento anticipato non pagato.  
 
-Barbara stabilisce che, come regola di default, al cliente 20000 venga fatturato il 30% di anticipo su tutti gli ordini. Pertanto, inserisce una percentuale predefinita di pagamento anticipato nella scheda cliente.  
+Barbara stabilisce che, come regola di default, al cliente 20000 venga fatturato il 30% di anticipo su tutti gli ordini. Pertanto, Barbara inserisce una percentuale predefinita di pagamento anticipato nella scheda cliente.  
 
 Stabilisce altresì che a tutti i clienti sia richiesto un deposito del 20% per l'articolo 1896-S. Il cliente 20000 ha uno storico dei pagamenti insoddisfacente e quindi il suo pagamento anticipato per l'articolo 1896-S sarà del 40%. La procedura seguente spiega come impostare le percentuali di pagamento anticipate di default.  
 
@@ -165,7 +165,7 @@ Dopo aver inserito nell'ordine i valori di pagamento anticipato corretti, Elisab
 
 ## Creare una fattura di pagamento anticipato aggiuntiva
 
-Il giorno seguente, il cliente chiama Elisabetta e apporta modifiche all'ordine. Il cliente desidera due articoli 1896-S. Elisabetta riapre l'ordine e lo aggiorna. Crea quindi una seconda fattura di pagamento anticipato per l'ordine e la invia al cliente.  
+Il giorno seguente, il cliente chiama Elisabetta e apporta modifiche all'ordine. Il cliente desidera due articoli 1896-S. Elisabetta riapre e aggiorna l'ordine, crea una seconda fattura per il pagamento anticipato dell'ordine e la invia al cliente.  
 
 ### Per creare una fattura di pagamento anticipato aggiuntiva
 

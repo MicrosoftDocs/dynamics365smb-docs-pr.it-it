@@ -39,6 +39,7 @@ Puoi eseguire le seguenti operazioni per ogni cliente con il **Modello cliente S
 2. Definisci il **Codice modello cliente**, che viene utilizzato per creare clienti mancanti, se **Crea automaticamente clienti sconosciuti** è abilitato. Se **Codice modello cliente** è vuoto, la funzione utilizza **Codice modello cliente** definito nella **Scheda punto vendita Shopify**.
 3. Definisci se i prezzi includono imposte/IVA per gli ordini importati.
 4. In alcuni casi, il **Codice modello cliente** definito per un paese non è sufficiente per garantire il corretto calcolo delle imposte (ad esempio, per i paesi con imposta sulle vendite). In questo caso, l'inclusione delle **Aree fiscali** potrebbe essere un'utile aggiunta.
+5. Il campo **Area imposte** contiene anche un abbinamento **Codice paese** e **Nome regione**. Questa coppia è utile quando il connettore deve convertire un codice in un nome o viceversa.
 
 > [!NOTE]  
 > I codici paese sono codici paese ISO 3166-1 alpha-2. Ulteriori informazioni sul [Codice paese](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +59,7 @@ I seguenti sono i requisiti per esportare un cliente:
 * Un paese o un'area geografica è selezionato sulla scheda cliente, per i clienti locali, con paese o area geografica vuoto il paese o l'area geografica specificati nella pagina **Informazioni società** deve avere un codice ISO definito.
 * Se il cliente ha un numero di telefono, il numero deve essere univoco perché Shopify non accetterà un secondo cliente con lo stesso numero di telefono.
 * Se il cliente ha un numero di telefono, deve essere nel formato E.164. Sono supportati diversi formati se rappresentano un numero che può essere composto da qualsiasi luogo del mondo. I seguenti formati sono validi:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +84,8 @@ Anche un cliente in Shopify ha un indirizzo predefinito. L'indirizzo può conten
 |1|**Nome**|Priorità massima, se il campo **Origine nome** nella**Scheda punto vednita Shopify** contiene *Nome azienda*.|
 |2|**Nome 2**|Priorità più bassa, se il campo **Origine nome 2** nella **Scheda cliente Shopify** contiene *Nome azienda*.|
 
-Per gli indirizzi in cui viene utilizzato il paese/provincia, seleziona *Codice* o *Nome* nel campo **Origine Paese** nella **Scheda punto vendita Shopify**. Specifica il tipo di dati archiviati in [!INCLUDE[prod_short](../includes/prod_short.md)] nel campo **Paese**.
+Per gli indirizzi in cui viene utilizzato il paese/regione, seleziona **Codice** o **Nome** nel campo **Origine regione** nella pagina **Scheda punto vendita Shopify**. Specifica il tipo di dati archiviati in [!INCLUDE[prod_short](../includes/prod_short.md)] nel campo **Regione**. Ricordati di inizializzare i modelli dei clienti per paese in modo che la mappatura del codice/nome della regione sia pronta. 
+
 
 ## Sincronizzare clienti
 

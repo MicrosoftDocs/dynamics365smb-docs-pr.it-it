@@ -3,12 +3,12 @@ title: Tasti di scelta rapida
 description: Elenco completo dei tasti di scelta rapida per utilizzare in modo efficiente i dati.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Tasti di scelta rapida
@@ -39,6 +39,7 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 
 |Premi questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
+|<kbd>Alt</kbd>|Mostra i tasti di accesso per la selezione delle azioni nella barra delle azioni e nel menu di navigazione della pagina. Per ulteriori informazioni, vedi [Tasti di accesso](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>FRECCIA SU</kbd>|Aprire un elenco a discesa o cercare un valore per un campo.|
 |<kbd>Alt</kbd>+<kbd>FRECCIA SU</kbd>|Mostra la descrizione comando per un campo o un'intestazione di colonna di una tabella. Se il campo include errori di convalida, premi <kbd>Alt</kbd>+<kbd>Freccia SU</kbd> per visualizzare l'errore di convalida. Premi <kbd>Esc</kbd> o <kbd>Alt</kbd>+<kbd>Freccia SU</kbd> per chiudere la descrizione comando.|
 |<kbd>F2</kbd>|Passare dalla selezione dell'intero valore di campo al posizionamento del cursore alla fine del valore di campo.|
@@ -51,7 +52,7 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 |<kbd>Alt</kbd>+<kbd>MAIUSC</kbd>+<kbd>N</kbd> |Chiudere una pagina appena creata e aprirne una nuova per creare un nuovo record. In modo analogo, <kbd>Alt</kbd>+<kbd>F9</kbd> registra un documento e ne crea uno nuovo.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Aprire la pagina **Impostazioni personali**.|
 |<kbd>Alt</kbd>+<kbd>freccia DESTRA</kbd>|Cercare informazioni aggiuntive o valori sottostanti per un campo che contiene il pulsante ![AssistEdit.](media/assist-edit-icon.png "Pulsante AssistEdit") . Utilizzato quando il pulsante a discesa usuale (<kbd>Alt</kbd>+<kbd>Freccia SU</kbd>) nello stesso campo viene utilizzato per un altro scopo.|
-|<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>MAIUSC</kbd>+<kbd>C</kbd>|Visualizzare informazioni nel badge società. Questo collegamento è stata interrotto nel secondo ciclo di rilascio di Business Central 2022 (versione 21) e sostituito da <kbd>CTRL</kbd>+<kbd>O</kbd>. |
+|<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>MAIUSC</kbd>+<kbd>C</kbd>|Visualizzare informazioni nel badge società. Questo collegamento non è più supportato a partire dal secondo ciclo di rilascio di Business Central 2022 (versione 21) e sostituito da <kbd>CTRL</kbd>+<kbd>O</kbd>. |
 |<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Aprire e chiudere il riquadro Controllo pagina. Il riquadro Controllo pagina mostra informazioni sulla pagina, come la relativa tabella di origine, campi, filtri, estensioni e altro.<br /><br />Per ulteriori informazioni, vedere [Controllo di pagine](across-inspect-page.md).|
 |<kbd>CTRL</kbd>+<kbd>C</kbd> |Copiare il valore del campo. Se lo stato attivo è sul campo e non si è selezionato alcun testo nel campo, verrà copiato l'intero valore. Se è stato selezionato del testo nel campo, verrà copiato solo il testo selezionato.|
 |<kbd>CTRL</kbd>+<kbd>F1</kbd>|Apri il [riquadro della guida](product-help-and-support.md#help-pane) o un articolo della guida di Business Central su [Microsoft Learn](/dynamics365/business-central/), a seconda della versione di Business Central.|
@@ -245,6 +246,19 @@ Nella tabella seguente sono descritti i tasti di scelta rapida della tastierina 
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Separatore decimale</kbd>|Cambia l'output del tasto separatore decimale sul punto (.) o sul carattere determinato dall'impostazione **Area geografica** della pagina **Impostazioni personali**. Per ulteriori informazioni, vedi [Impostazione del separatore decimale usato dalle tastiere numeriche](ui-enter-data.md#decimal).|
 
+
+## Tasti di accesso per la barra delle azioni e il menu di navigazione
+
+I tasti di accesso sono tasti di scelta rapida che selezionano azioni specifiche sulla barra delle azioni e sul menu di navigazione, consentendoti di navigare tra le azioni per arrivare alla pagina desiderata. I tasti di accesso sono disponibili nel client Web di Business Central e sono simili ai tasti di accesso in Excel e Word Online.  
+
+Per utilizzare i tasti di accesso su una pagina, seleziona prima il tasto <kbd>Alt</kbd> per visualizzare *suggerimenti per i tasti*, che sono lettere in piccole caselle accanto alle azioni nella barra delle azioni e nel menu di navigazione. 
+
+![Immagine che mostra i tasti di accesso nella pagina dell'elenco clienti.](media/access-keys.png) 
+
+Per selezionare un'azione, seleziona la combinazione di tasti visualizzata nella descrizione dei tasti, ad esempio <kbd>H</kbd> o <kbd>J</kbd>+<kbd>F</kbd>.
+- Se l'azione si apre in un sottomenu di altre azioni, vengono mostrati i suggerimenti dei tasti per il sottomenu, consentendoti di continuare a utilizzare i tasti di accesso se lo desideri.
+- Se l'azione apre una pagina diversa, i suggerimenti dei tasti sono disattivati. Per mostrarli di nuovo, seleziona il tasto <kbd>Alt</kbd>. 
+ 
 ## Vedere anche
 
 [Riferimento rapido per tasti di scelta rapida - Solo PC](keyboard-shortcuts-cheatsheet.md)  

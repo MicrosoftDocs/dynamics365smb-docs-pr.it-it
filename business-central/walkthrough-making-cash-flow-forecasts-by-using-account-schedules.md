@@ -39,7 +39,7 @@ Questa procedura dettagliata comprende task svolti dal ruolo utente seguente:
 
 ## Scenario
 
-Ken è un manager presso CRONUS che effettua previsioni del flusso di cassa mensili. Egli include interessi, vendite, acquisti e cespiti nelle previsioni che presenta alla DF Sara per un'opinione in merito.  
+Ken è un manager presso CRONUS che effettua previsioni del flusso di cassa mensili. Ken include interessi, vendite, acquisti e cespiti nelle previsioni e presenta alla DF Sara per un'opinione in merito.  
 
 ## Impostazione di un nuovo nome del report finanziario
 
@@ -95,7 +95,7 @@ Dopo aver impostato il nome di un report finanziario, Ken definisce ogni riga ne
 
 ## Impostazione di una nuova definizione di colonna
 
-Prima di poter stampare la previsione del flusso di cassa, Ken deve creare la definizione di colonna per le informazioni numeriche. Nelle colonne definisce le informazioni che desidera utilizzare dalle righe.
+Prima di stampare la previsione del flusso di cassa, Ken deve creare la definizione di colonna per le informazioni numeriche. Nelle colonne definisce le informazioni che vuole utilizzare dalle righe.
 
 - La prima colonna è contrassegnata dal numero *C10* con il titolo **Importo** e contiene il saldo periodo.  
 - La seconda colonna è contrassegnata dal numero *C20* con il titolo **Saldo alla data** e contiene le transazioni per il periodo.  

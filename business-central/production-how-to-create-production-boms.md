@@ -96,7 +96,7 @@ Una distinta base richiede 70 parti metalliche con le dimensioni Lunghezza = 0,2
 
 [Creare cicli](production-how-to-create-routings.md)  
 [Gestire le varianti di prodotto](inventory-item-variants.md)  
-[Procedura dettagliata: varianti](contoso-coffee/variants.md)  
+[Procedura dettagliata: varianti](contoso-coffee/manufacturing/variants.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Pianif.](production-planning.md)  

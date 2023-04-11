@@ -1,20 +1,20 @@
 ---
 title: Tolleranza di pagamento e di sconto pagamento
-description: È possibile impostare la tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura.
+description: Questo articolo spiega come impostare la tolleranza di pagamento per chiudere una fattura quando il pagamento non copre completamente l'importo della fattura.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '118, 314, 395'
-ms.date: 10/29/2021
+ms.date: 04/03/2023
 ms.author: edupont
 ---
 # Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 
 È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. Ad esempio, le tolleranze pagamento sono in genere per importi di piccola entità per cui costerebbe di più la correzione che semplicemente accettarli. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
 
-È possibile utilizzare le tolleranze di pagamento in modo che ogni importo inevaso abbia una tolleranza di pagamento massima consentita. Se la tolleranza di pagamento viene soddisfatta, l'importo pagamento viene quindi analizzato. Se l'importo del pagamento rappresenta un sottopagamento, l'importo inevaso viene chiuso completamente dal sottopagamento. Viene registrato un movimento contabile dettagliato nel movimento del pagamento in modo che non esista un importo residuo nel movimento di fattura collegato. Se l'importo del pagamento rappresenta un sovrapagamento, viene registrato un nuovo movimento contabile dettagliato nel movimento del pagamento in modo che non esista un importo residuo nel movimento di pagamento.
+Utilizza le tolleranze di pagamento in modo che ogni importo inevaso abbia una tolleranza di pagamento massima consentita. Se la tolleranza di pagamento viene soddisfatta, l'importo pagamento viene quindi analizzato. Se l'importo del pagamento rappresenta un sottopagamento, l'importo inevaso viene chiuso completamente dal sottopagamento. Viene registrato un movimento contabile dettagliato nel movimento del pagamento in modo che non esista un importo residuo nel movimento di fattura collegato. Se l'importo del pagamento rappresenta un sovrapagamento, viene registrato un nuovo movimento contabile dettagliato nel movimento del pagamento in modo che non esista un importo residuo nel movimento di pagamento.
 
 Puoi utilizzare le tolleranze sconto pagamento in modo che, se accetti uno sconto sul pagamento dopo la relativa data di scadenza, tale evento verrà registrato nel conto degli sconti sul pagamento oppure nel conto delle tolleranze di pagamento.
 
@@ -66,6 +66,9 @@ Per impostare le tolleranze è necessario impostare vari conti di tolleranza, sp
 > Per disattivare la tolleranza per un cliente o un fornitore, blocca le tolleranze nella relativa scheda cliente o scheda fornitore. Per ulteriori informazioni, vedere la sezione [Per bloccare la tolleranza pagamento per i clienti](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 > Quando si imposta la tolleranza, [!INCLUDE[prod_short](includes/prod_short.md)] verifica automaticamente l'esistenza di movimenti aperti e calcola la tolleranza anche per tali movimenti.
+
+> [!IMPORTANT]  
+> Quando abiliti il campo **Rettifica per sconto pagamento** nella pagina **Setup registrazioni IVA**, l'importo dell'IVA è considerato in quanto relativo agli importi **Tolleranze di pagamento** e **Sconti sui pagamenti** e l'IVA sarà ridotta per entrambi gli importi delle transazioni, se esistenti. Il sistema non può essere configurato per utilizzare la riduzione dell'IVA solo per un tipo di transazione.  
 
 ## Per abilitare o disabilitare gli avvisi di tolleranza pagamento
 

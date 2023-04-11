@@ -44,7 +44,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
  CRONUS ha preso in carico un lungo progetto che si sta estendendo su più periodi contabili. Cinzia, un membro del team di progetto, calcola il WIP per garantire l'accuratezza del rendiconto finanziario della società.  
 
- Durante la procedura, Cinzia selezionerà uno specifico gruppo di task da includere nel calcolo del WIP. Nella pagina **Righe task commessa** può specificare queste righe nella colonna **WIP-Totale**.  
+ Durante la procedura, Cinzia selezionerà uno specifico gruppo di task da includere nel calcolo del WIP. Nella pagina **Righe task commessa** Cinzia può specificare queste righe nella colonna **WIP-Totale**.  
 
  Nella seguente tabella vengono illustrate tre opzioni.  
 
@@ -54,7 +54,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 |**Totale**|Definisce l'intervallo o il gruppo di task incluso nel calcolo di WIP e corrispettivo. Qualsiasi task commessa all'interno del gruppo con **Tipo task commessa** impostato su **Registrazione** verrà incluso nel totale WIP, a meno che il relativo campo **WIP-Totale** sia impostato su **Escluso**.|  
 |**Escluso**|Si applica solo a un task con **Tipo task commessa** impostato su **Registrazione**. Il task non viene incluso in caso di calcolo di WIP e corrispettivo.|  
 
- Nella seguente procedura dettagliata, Cinzia applica il metodo Valore costo, lo standard della società, per calcolare il WIP. Specifica quale parte della commessa sarà inclusa nel calcolo WIP assegnando dei valori WIP-Totale a varie righe task commessa.  
+ Nella seguente procedura dettagliata, Cinzia applica il metodo Valore costo, lo standard della società, per calcolare il WIP. Cinzia specifica quale parte della commessa sarà inclusa nel calcolo WIP assegnando dei valori WIP-Totale a varie righe task commessa.  
 
 ### Per calcolare il WIP  
 
@@ -134,7 +134,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
 ## Storno di una registrazione WIP
 
- Cinzia si accorge che i task commessa esclusi dal calcolo del WIP avrebbero dovuto essere calcolati nel WIP. Il programma consente di stornare le registrazioni errate senza dover contabilizzare nuove registrazioni WIP.  
+ Cinzia si accorge che i task commessa esclusi dal calcolo del WIP avrebbero dovuto essere calcolati nel WIP. Cinzia può stornare le registrazioni errate senza dover contabilizzare nuove registrazioni WIP.  
 
 ### Per stornare una registrazione WIP  
 
@@ -153,7 +153,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 13. Aprire **Righe task commessa** per la commessa, includere nel calcolo del WIP le parti della commessa necessarie, ricalcolare il WIP e registrare il nuovo valore nella contabilità generale.  
 
     > [!NOTE]  
-    >  Si supponga che Cinzia abbia calcolato e registrato il WIP per una commessa con date errate. Seguendo il metodo che è stato discusso in precedenza, il programma consente di stornare le registrazioni errate, correggerne le date e registrarle nuovamente nella contabilità generale.  
+    >  Si supponga che Cinzia abbia calcolato e registrato il WIP per una commessa con date errate. Seguendo il metodo che è stato discusso in precedenza, Cinzia può stornare le registrazioni errate, correggerne le date e registrarle nuovamente nella contabilità generale.  
 
 ## Passaggi successivi
 

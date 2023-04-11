@@ -1,7 +1,7 @@
 ---
 title: Risoluzione dei problemi di sincronizzazione tra Shopify Business Central
 description: Scopri cosa fare in caso di errore durante la sincronizzazione dei dati tra Shopify e Business Central
-ms.date: 08/19/2022
+ms.date: 03/27/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
@@ -12,15 +12,31 @@ ms.reviewer: solsen
 
 # Risoluzione dei problemi di sincronizzazione tra Shopify Business Central
 
-È possibile imbattersi in situazioni in cui è necessario risolvere i problemi quando si sincronizzano i dati tra Shopify e [!INCLUDE[prod_short](../includes/prod_short.md)]. Questa pagina definisce i passaggi per la risoluzione dei problemi di alcuni scenari comuni che potrebbero verificarsi.
+È possibile imbattersi in situazioni in cui è necessario risolvere i problemi quando si sincronizzano i dati tra Shopify e [!INCLUDE[prod_short](../includes/prod_short.md)]. Questa pagina definisce i passaggi per la risoluzione dei problemi di alcuni scenari tipici che potrebbero verificarsi.
+
+## Eseguire attività in primo piano
+
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
+2. Seleziona il punto vendita per il quale desideri risolvere i problemi per l'apertura della pagina **Scheda del punto vendita Shopify**.
+3. Disattiva l'opzione **Consenti sincronizzazioni in background**.
+
+Ora, quando viene attivata l'azione di sincronizzazione, l'attività verrà eseguita in primo piano e, se si verifica un errore, verrà visualizzata una finestra di dialogo di errore con il collegamento **Copia dettagli**. Utilizza questo collegamento per copiare informazioni aggiuntive in un editor di testo per ulteriori analisi.
 
 ## Log
 
-Se un'attività di sincronizzazione non riesce, è possibile attivare la registrazione attivando **Abilita registro** nella pagina **Scheda punto vendita Shopify**. Quindi attiva manualmente l'attività di sincronizzazione e rivedi i log.
+Se un'attività di sincronizzazione non riesce, puoi attivare l'interruttore **Registro abilitato** nella pagina **Scheda punto vendita Shopify** per attivare la registrazione. Quindi attiva manualmente l'attività di sincronizzazione e rivedi i log.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") icona, immetti **Movimenti di registri Shopify**, quindi scegli il collegamento correlato.
+### Per abilitare la registrazione
+
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
+2. Seleziona il punto vendita per il quale desideri risolvere i problemi per l'apertura della pagina **Scheda del punto vendita Shopify**.
+3. Abilita l'interruttore **Log abilitato**.
+
+### Per esaminare i registri
+
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") icona, immetti **Movimenti di registri Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona la voce di registro correlata e apri la pagina **Voce di registro Shopify**.
-3. Esamina la richiesta, il codice di stato e la descrizione e i valori di risposta.
+3. Esamina la richiesta, il codice di stato e la descrizione e i valori di risposta. È possibile scaricare i valori di richiesta e risposta come file in un formato di testo.
 
 Quindi ricordati di disattivare la registrazione per evitare un impatto negativo sulle prestazioni e aumentare le dimensioni del database.
 
@@ -50,7 +66,7 @@ Questa funzione si applica solo alle sincronizzazioni da Shopify a [!INCLUDE[pro
 
 Se [!INCLUDE[prod_short](../includes/prod_short.md)] non si connette al tuo account Shopify, prova a richiedere il token di accesso da Shopify. Questa richiesta potrebbe essere necessaria in caso di rotazione delle chiavi di sicurezza o modifiche alle autorizzazioni (ambito) richieste.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri recuperare il token di accesso per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Scegli l'azione **Richiedi accesso**.
 4. Se richiesto, accedi al tuo account Shopify.
@@ -61,7 +77,7 @@ L'interruttore **Con chiave di accesso** verrà attivato.
 
 Per funzionare correttamente, l'estensione connettore Shopify richiede l'autorizzazione per effettuare richieste http. Durante il test nel sandbox, le richieste http sono vietate per tutte le estensioni.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Gestione estensioni**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Gestione estensioni**, quindi scegli il collegamento correlato.
 2. Seleziona l'estensione **Connettore Shopify**.
 3. Scegli l'azione **Configura** per aprire la pagina **Impostazione estensione**.
 4. Assicurati che l'interruttore **Consenti richieste HTTPClient** sia abilitato.
@@ -85,18 +101,39 @@ Le procedure seguenti descrivono come ruotare il token di accesso utilizzato dal
 
 ## Problemi noti
 
-### Il campo *Cat. Reg. Business* non può essere zero o vuoto; deve esserci un valore nel campo del cliente
+### Errore: l'intestazione vendite non esiste. Campi e valori di identificazione: Tipo documento='Offerta',Nr.='PUNTO VENDITA SHOPIFY'
+
+Per calcolare i prezzi il connettore Shopify crea un documento di vendita temporaneo (offerta) per il cliente temporaneo (codice negozio) e lascia che la logica di calcolo del prezzo standard faccia il suo lavoro. È uno scenario tipico quando un'estensione di terze parti si iscrive agli eventi nella riga di vendita ma non controlla che il record sia temporaneo, quindi l'intestazione potrebbe non essere accessibile. La nostra raccomandazione è di contattare il fornitore dell'estensione e chiedere di modificare il codice per verificare se i record sono temporanei. In alcuni casi basta aggiungere il metodo `IsTemporary` al posto giusto. Per ulteriori informazioni su IsTemporary, vai a [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
+
+Per verificare che il problema sia causato da un'estensione di terze parti, utilizza il collegamento **Copia informazioni negli appunti** nel messaggio di errore e copia il contenuto nell'editor di testo. Le informazioni contengono uno **stack di chiamate AL**, dove la prima riga è la riga in cui si è verificato l'errore. Di seguito è riportato un esempio di stack di chiamate AL.
+
+AL stack di chiamate: 
+```AL
+[Object Name]([Object type] [Object Id]).[Function Name] line [XX] - [Extension Name] by [Publisher] 
+...
+"Sales Line"(Table 37)."No. - OnValidate"(Trigger) line 98 - Base Application by Microsoft
+"Shpfy Product Price Calc."(CodeUnit 30182).CalcPrice line 20 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).CreateTempProduct line 137 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).CreateProduct line 5 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).OnRun(Trigger) line 12 - Shopify Connector by Microsoft
+"Shpfy Add Item to Shopify"(Report 30106)."Item - OnAfterGetRecord"(Trigger) line 2 - Shopify Connector by Microsoft
+"Shpfy Products"(Page 30126)."AddItems - OnAction"(Trigger) line 5 - Shopify Connector by Microsoft
+```
+
+Ricordarti di condividere le informazioni sullo stack di chiamate AL con il fornitore dell'estensione.
+
+### Errore: Categoria registrazione business deve avere un valore in Cliente: 'PUNTO VENDITA SHOPIFY'. Non può essere zero o vuoto
 
 Nella pagina **Scheda punto vendita Shopify** compila il campo **Codice modello cliente** con il modello che include il campo **Categoria registrazione business** popolato. Il modello cliente viene utilizzato non solo per la creazione di clienti, ma anche per il calcolo del prezzo di vendita e durante la creazione di documenti di vendita.
 
-### L'importazione dei dati nel negozio Shopify non è abilitata. Vai alla scheda del punto vendita per abilitarla
+### Errore: L'importazione dei dati nel negozio Shopify non è abilitata. Vai alla scheda del punto vendita per abilitarla
 
 Nella finestra **Scheda punto vendita Shopify**, abilitare l'interruttore **Consenti sincronizzazione dati in Shopify**. Questo interruttore ha lo scopo di proteggere il punto vendita online dall'ottenere dati dimostrativi da [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### Errore Oauth invalid_request: Impossibile trovare l'API per l'applicazione Shopify con api_key
+### Errore Oauth invalid_request: impossibile trovare l'API per l'applicazione Shopify con api_key
 
-Sembra che usi l'[app Embed](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), dove l'URL del client ha il formato: `https://[application name].bc.dynamics.com`. Il connettore Shopify non funziona per le app Embed. Per ulteriori informazioni, vedi [Per quali prodotti Microsoft è disponibile il connettore Shopify?](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
+Sembra che usi l'[app Embed](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), dove l'URL del client ha il formato: `https://[application name].bc.dynamics.com`. Il connettore Shopify non funziona per le app Embed. Per ulteriori informazioni, vedi [Per quali prodotti Microsoft è disponibile il connettore Shopify?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
 ## Vedere anche
 
-[Iniziare a utilizzare il connettore per Shopify](get-started.md)
+[Iniziare a usare il connettore per Shopify](get-started.md)

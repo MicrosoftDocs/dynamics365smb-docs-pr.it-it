@@ -1,61 +1,110 @@
 ---
-title: Utilizzo di modelli Word per comunicazioni in blocco | Microsoft Docs
+title: Utilizzo di modelli Word per comunicazioni in blocco
 description: I modelli di Word possono semplificare la creazione di massa di documenti personalizzati per entità specifiche.
 author: brentholtorf
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'document, mail, merge, Word, template, email'
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 02/01/2023
+ms.custom: bap-template
+ms.search.forms: '9989, 13,'
 ---
 
 # Utilizzare modelli Word per comunicazioni in blocco
-Microsoft Word i modelli possono rendere più facile la comunicazione di massa in stampa o via e-mail con entità come contatti, clienti e venditori. Ad esempio, è possibile creare brochure per avvisare i clienti di una campagna di vendita, lettere per informare i fornitori su una nuova politica di acquisto o inviti per attirare contatti a un evento imminente.
+
+Microsoft Word i modelli possono rendere più facile la comunicazione di massa in stampa o via e-mail con entità come contatti, clienti e venditori. Ad esempio puoi creare:
+
+* Brochure per avvisare i clienti di una campagna di vendita
+* Lettere per informare i venditori su un nuovo criterio di acquisto
+* Inviti per attirare i contatti a un evento imminente
 
 > [!NOTE]
-> Puoi utilizzare i modelli di Word solo su dispositivi con Microsoft Word 2019 e il sistema operativo Windows installati.
+> Quando configuri i modelli di Word, è necessario utilizzare un dispositivo con Microsoft Word 2019 o versione successiva e il sistema operativo Windows installato.
 
-Puoi usare entità in [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati per il modello e aggiungi campi unione per personalizzare i documenti per ciascuna entità. I campi di unione provengono dall'entità in [!INCLUDE[prod_short](includes/prod_short.md)]. Quando si applica un modello di Word a un'entità, i dati dei campi unione vengono inseriti nel documento.
+## Configurare l'origine dei dati
 
-Nella pagina **Modelli di Word**, quando si crea un nuovo modello si usa una guida di configurazione assistita per scaricare un file ZIP che contiene un DataSource.xlsx e un file modello di Word per l'entità. Il file di origine dati fornisce i campi che si possono usare nel modello. Non modificare il file di origine dati. Puoi utilizzare solo il modello di Word e i file di origine dati che scarichi da [!INCLUDE[prod_short](includes/prod_short.md)] ed è necessario archiviare i file nella stessa posizione.
+Usa le entità in [!INCLUDE[prod_short](includes/prod_short.md)] come origine dei dati per il modello e aggiungi campi unione per personalizzare i documenti per ciascuna entità. I campi di unione provengono dall'entità in [!INCLUDE[prod_short](includes/prod_short.md)]. Quando si applica un modello di Word a un'entità, i dati dei campi di unione vengono inseriti nel documento.
 
-Dopo aver impostato il modello e aggiunto i campi unione, utilizza la stessa guida per caricare il modello.
+Nella pagina **Modelli di Word** , quando crei un nuovo modello, una guida al setup assistito ti aiuterà nei seguenti passaggi:
 
-## Impostare il modello in Word
-Quando stai impostando un modello in Word, nella scheda **Posta** puoi aggiungere campi di unione scegliendo **Inserisci campo unione**. I campi unione disponibili provengono dal file di origine dati che hai scaricato per l'entità. Agiscono come segnaposto che dicono a Word dove mettere le informazioni sull'entità nel documento. 
+1. Scegli una o più entità da utilizzare come origine dei dati. Ad esempio, se desideri creare una brochure per una campagna di vendita, probabilmente sceglieresti l'entità Cliente come origine.
+2. Scegli altre entità come origini dei dati aggiuntive. Scopri di più in [Aggiungere voci correlate o non correlate all'entità di origine](#add-entries-that-are-related-or-unrelated-to-the-source-entity).
+3. Scaricare un modello vuoto. Puoi impostare subito il modello in Word oppure puoi caricare il modello vuoto e completare la guida. Quando il tuo modello è pronto, usa l'azione **Carica** nella pagina **Modelli di Word** per sostituire il modello vuoto con il modello finito. Per ulteriori informazioni, vedi [Impostare il modello di Word](#set-up-the-template-in-word).
+4. Carica il modello che hai preparato.
+5. Inserisci un codice e un nome che identifichi il modello.
 
-:::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Aggiungere campi unione in Microsoft Word":::
+Quando scarichi un modello, ottieni un file .zip che include due file.
 
-## Aggiungere entità correlate
-Oltre ad aggiungere dati per l'entità sorgente, cioè l'entità per la quale stai creando il modello, puoi anche unire i dati delle entità che sono collegate ad essa. Per esempio, se l'origine è l'entità Cliente, potete anche unire i dati dei campi dell'entità Cliente/Committente perché entrambe le entità hanno un campo in comune.
+|File  |Descrizione  |
+|---------|---------|
+|DataSource.xlsx     | Il file di origine dati fornisce i campi che si possono usare nel modello. Non modificare il file di origine dati. Puoi utilizzare solo il modello di Word e i file di origine dati che scarichi ed è necessario archiviare i file nella stessa posizione.     |
+|Modello di Word     | Un file .docx da utilizzare come modello.        |
 
-Le entità correlate condividono un campo, che spesso è un identificatore come un nome, un codice o un ID, con l'entità sorgente. Quando si imposta un modello ci sono opzioni semplici e avanzate per scegliere le entità correlate:
+Per informazioni sull'impostazione di un modello in Word, vai a [Impostare il modello in Word](#set-up-the-template-in-word).
 
-* Semplice - Aggiungi le relazioni conosciute che [!INCLUDE[prod_short](includes/prod_short.md)] rende disponibili di default.
-* Avanzato - Aggiungi relazioni non standard, come quelle che sono state aggiunte da estensioni o personalizzazioni. Questo richiede che conosciate i campi che le entità condividono.
+## Aggiungere voci correlate o non correlate all'entità di origine
 
-Quando aggiungi un'entità correlata, devi specificare un prefisso per il nome del campo. Quando si aggiungono campi al modello, il prefisso può rendere più facile distinguere tra campi dell'entità sorgente e campi di entità correlate.
+Puoi anche unire i dati di altre entità. Per aggiungere altre entità come origini dati, utilizza una delle seguenti azioni nella pagina **Modelli di Word** o quando utilizzi la guida al setup assistito:
+
+|Azione  |Descrizione  |
+|---------|---------|
+|**Aggiungi entità correlata**  | Utilizza i dati di entità correlate all'entità di origine. Ad esempio, per l'entità Cliente puoi anche unire i dati dell'entità Contatto. Le entità sono correlate quando un campo su un'entità fa riferimento a un'altra. Un campo nell'entità Cliente fa riferimento a un campo nell'entità Contatto, quindi sono correlate. Il campo condiviso è spesso un identificatore come un nome, un codice o un ID.        |
+|**Aggiungi entità non correlata**| Utilizza i dati di entità non correlate all'entità di origine. Ad esempio, stai creando un modello per l'entità Cliente. Puoi aggiungere l'entità Informazioni sulla società in modo da poter includere i tuoi dettagli di contatto. Un vantaggio fondamentale è che se modifichi le informazioni di contatto, queste vengono automaticamente aggiornate nel tuo modello. Dopo aver aggiunto un'entità non correlata, puoi aggiungere altre entità ad essa correlate.         |
+
+Per le entità non correlate, scegli un record specifico. Poiché puoi aggiungere un'entità solo una volta, per utilizzare un record diverso devi eliminare l'entità e aggiungerla di nuovo con il nuovo record.
+
+È possibile creare una gerarchia di entità, correlate e non correlate. La relazione è mostrata come una struttura ad albero. Il campo **Relazione entità** mostra anche informazioni sulla relazione. Per le entità non correlate, il campo mostra il record che crea la relazione.
+
+Quando aggiungi le entità, utilizza il campo **Prefisso campo** per specificare un prefisso per i nomi dei campi. Successivamente, quando aggiunti i campi al modello, il prefisso può rendere più facile distinguere tra campi dell'entità di origine e di altre entità.
+
+### Selezionare i campi da includere
+
+Per ogni entità, puoi specificare i campi che desideri siano disponibili per il modello. Scegli il numero nella colonna **Numero di campi selezionati** per accedere a un elenco di campi disponibili. Nella pagina **Selezione campo** utilizza la casella di controllo **Includi** per specificare i campi. Per alcune entità, i campi utilizzati in genere dalle aziende sono inclusi per impostazione predefinita. È possibile modificare l'elenco, ad esempio, per rimuovere i campi predefiniti. Le tue modifiche si applicano solo al modello su cui stai lavorando.
+
+> [!NOTE]
+> Il numero totale di campi che puoi aggiungere da tutte le entità è 250.
+
+> [!NOTE]
+> Tu o il tuo partner Microsoft potete aggiungere campi personalizzati alle entità. Quando lo fai, anteponiamo al nome dei campi il prefisso **CALC** e assegniamo il tipo di campo **Calcolato**. Il tipo di campo è chiamato calcolato per indicare che il campo può mostrare diversi tipi di valori, come testo, numeri, date e così via.
 
 ## Per creare un modello Word in Business Central
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Modelli di Word**, quindi scegli il collegamento correlato.
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Modelli di Word**, quindi scegli il collegamento correlato.
 2. Scegli **Nuovo**, poi **Crea un modello**, quindi segui i passi della guida all'impostazione assistita. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
 > Si può anche creare un modello direttamente dalla pagina per un'entità scegliendo l'azione **Applica modello Word** per aprire la guida di configurazione assistita, e poi **Nuovo modello**. Quando lo fai, l'origine dei dati viene scelta per te in base al tipo di entità.
 
-## Applicare un modello
+## Impostare il modello in Word
+
+Quando stai impostando un modello in Word, nella scheda **Posta** puoi aggiungere campi di unione scegliendo **Inserisci campo unione**. I campi unione provengono dal file di origine dati che hai scaricato per l'entità. Agiscono come segnaposto che dicono a Word dove mettere le informazioni sull'entità nel documento.
+
+:::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Aggiungere campi unione in Microsoft Word":::
+
+## Collegare un modello
+
 Quando il tuo modello di Word è pronto, nella pagina **Modelli di Word** puoi scegliere **Applica** per generare i documenti. Quando si applica un modello di Word a un'entità, i dati dei campi di unione vengono inseriti nel documento. Puoi creare un unico documento che contiene sezioni per ogni entità, oppure scegliere **Dividi** per creare un nuovo documento per ogni entità.
 
-Puoi applicare dei modelli a uno o più dello stesso tipo di entità, come un contatto, direttamente nel contesto di quella pagina, o dalla pagina Modelli di Word per applicare il modello a tutte le entità di quel tipo.
+Puoi usare l'azione **Applica modelli di Word** per applicare i modelli a uno o più dello stesso tipo di entità, come un cliente, direttamente nel contesto della pagina per l'entità. Ad esempio, le pagine **Cliente** o **Fornitore**.
 
 ## Usare i modelli di Word con la posta elettronica
-È possibile utilizzare i modelli di Word per aggiungere contenuti ai messaggi di posta elettronica. Quando componi un'email, puoi scegliere l'azione **Usa modello Word** per applicare il contenuto di un modello al messaggio. Questo richiede che tu abbia creato uno o più modelli per l'entità. Puoi usare un modello alla volta, e quando passi da un modello all'altro il messaggio cambia per riflettere il contenuto del modello scelto.
+
+È possibile utilizzare i modelli di Word per aggiungere contenuti ai messaggi di posta elettronica. Quando componi un'email, puoi scegliere l'azione **Usa modello Word** per applicare il contenuto di un modello al messaggio. È necessario aver creato i modelli per l'entità. Puoi usare un modello alla volta, e quando passi da un modello all'altro il messaggio cambia per riflettere il contenuto del modello scelto.
 
 Inoltre, puoi usare l'azione **Aggiungi file da modello Word** per allegare il contenuto del modello all'email come file. Il file userà il formato che hai specificato per l'output del modello.
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Opzioni per usare il contenuto di un modello Word in un'e-mail":::
 
+## Modificare un modello di Word
+
+Puoi apportare le seguenti modifiche ai tuoi modelli di Word:
+
+* Per modificare il corpo del testo o unire i campi inclusi nel modello, utilizza l'azione **Scarica**, apporta le modifiche, quindi utilizza l'azione **Carica**
+* Per modificare le origini dei dati, utilizza l'azione **Modifica entità correlate**
+* Per sostituire il modello Word con un nuovo modello, utilizza l'azione **Carica**
+* Eliminare il modello
+
 ## Vedere anche
+
 [Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
+[Configurare la posta elettronica](admin-how-setup-email.md)  

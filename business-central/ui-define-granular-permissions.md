@@ -2,17 +2,17 @@
 title: Definire autorizzazioni granulari
 description: Questo articolo descrive come definire autorizzazioni granulari e assegnare a ogni utente i set di autorizzazioni necessari per svolgere il proprio lavoro.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'access, right, security'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 11/29/2022
-ms.author: bholtorf
+ms.date: 02/08/2023
 ---
 
 # Assegnare autorizzazioni a utenti e gruppi
+
+[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
 Il sistema di sicurezza [!INCLUDE[prod_short](includes/prod_short.md)] controlla a quali oggetti un utente può accedere all'interno di ogni database o ambiente, in combinazione con le licenze dell'utente. Per ciascun utente puoi specificare se possono leggere, modificare o inserire dati negli oggetti di database. Per altre informazioni, vedi [Sicurezza dei dati](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) nel contenuto per sviluppatori e amministratori per [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -26,16 +26,16 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] esistono due livelli di autori
 
 - Autorizzazioni dettagliate che assegni in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-  Questo articolo descrive come definire, usare e applicare le autorizzazioni in [!INCLUDE [prod_short](includes/prod_short.md)] per modificare la configurazione predefinita.  
+Questo articolo descrive come definire, usare e applicare le autorizzazioni in [!INCLUDE [prod_short](includes/prod_short.md)] per modificare la configurazione predefinita.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 Per ulteriori informazioni, vedi [Accesso dell'amministratore con delega a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] online include gruppi di utenti predefiniti che vengono assegnati automaticamente agli utenti in base alla loro licenza. Puoi modificare la configurazione predefinita modificando o aggiungendo gruppi di utenti, set di autorizzazioni e autorizzazioni. La tabella seguente illustra gli scenari chiave per la modifica delle autorizzazioni predefinite.  
+[!INCLUDE [prod_short](includes/prod_short.md)] online include gruppi di utenti predefiniti che vengono assegnati automaticamente agli utenti in base alla loro licenza. Puoi modificare la configurazione predefinita modificando o aggiungendo gruppi di sicurezza, set di autorizzazioni e autorizzazioni. La tabella seguente illustra gli scenari chiave per la modifica delle autorizzazioni predefinite.  
 
 |A  |Vedere  |
 |---------|---------|
-|Per semplificare la gestione delle autorizzazioni per più utenti, è possibile organizzarle in gruppi di utenti e quindi assegnare o modificare un set di autorizzazioni per molti utenti in una sola azione.| [Per gestire le autorizzazioni tramite gruppi di utenti](#to-manage-permissions-through-user-groups) |
+|Per semplificare la gestione delle autorizzazioni per più utenti, è possibile organizzarle in gruppi di sicurezza e quindi assegnare o modificare un set di autorizzazioni per molti utenti in una sola azione.| [Per gestire le autorizzazioni tramite gruppi di utenti](#to-manage-permissions-through-user-groups) |
 |Per gestire i set di autorizzazioni per utenti specifici | [Per assegnare set di autorizzazioni agli utenti](#to-assign-permission-sets-to-users) |
 |Per informazioni su come definire un set di autorizzazioni|[Per creare un set di autorizzazioni](#to-create-a-permission-set)|
 |Per visualizzare o risolvere i problemi delle autorizzazioni di un utente|[Per ottenere una sintesi delle autorizzazioni di un utente](#to-get-an-overview-of-a-users-permissions)|
@@ -51,7 +51,7 @@ Per ulteriori informazioni, vedi [Accesso dell'amministratore con delega a Busin
 > [!NOTE]
 > Nel secondo ciclo di rilascio del 2022 abbiamo semplificato l'aggiunta di autorizzazioni ai set di autorizzazioni. Anziché aggiungere le autorizzazioni singolarmente, puoi aggiungere interi set di autorizzazioni. Se necessario, puoi quindi escludere singole autorizzazioni al loro interno. Per ulteriori informazioni, vedi [Per aggiungere altri set di autorizzazioni](#to-add-other-permission-sets). Per renderlo possibile, abbiamo sostituito la pagina Set di autorizzazioni con una nuova. Le differenze principali sono i nuovi riquadri **Set di autorizzazioni** e **Risultati** e la scheda dettaglio **Autorizzazioni incluse**. Per continuare a usare la pagina Autorizzazioni sostituite, nella pagina **Set di autorizzazioni**, scegli l'azione **Autorizzazioni (legacy)**.
 
-Anche la manutenzione è più facile. Quando aggiungi l'autorizzazione di sistema, il tuo set di autorizzazioni definito dall'utente verrà aggiornato automaticamente con tutte le modifiche apportate da Microsoft a tali autorizzazioni.
+Anche la manutenzione è più facile. Quando aggiungi un'autorizzazione di sistema, il tuo set di autorizzazioni definito dall'utente verrà aggiornato automaticamente con tutte le modifiche apportate da Microsoft a tali autorizzazioni.
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Set di autorizzazioni**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Nuovo**.
@@ -76,11 +76,11 @@ Anche la manutenzione è più facile. Quando aggiungi l'autorizzazione di sistem
   |**Riduci su indiretto**|Modifica il livello di accesso su Indiretto se qualsiasi set di autorizzazioni concede l'accesso diretto all'oggetto. Ad esempio, scegli questa opzione se il set di autorizzazioni fornisce l'accesso diretto alle voci CoGe, ma non vuoi che gli utenti abbiano accesso completo alle voci.|
   
   > [!NOTE]
-  > L'autorizzazione più alta impostata nella gerarchia determina se l'autorizzazione è inclusa o esclusa. Se due set sono allo stesso livello nella gerarchia e un'autorizzazione è inclusa in un set ma esclusa nell'altro, l'autorizzazione sarà esclusa.
+  > Se un'autorizzazione è inclusa ed esclusa, l'autorizzazione verrà esclusa.
 
 6. Utilizza i campi **Tipo di oggetto** e **ID oggetto** per specificare l'oggetto a cui stai concedendo l'accesso.
 
-> [!TIP]
+  > [!TIP]
   > Le nuove righe mostrano i valori predefiniti. Ad esempio, il campo **Tipo di oggetto** contiene **Dati tabella**, e il campo **ID oggetto** contiene **0**. I valori predefiniti sono solo segnaposto e non vengono utilizzati. Devi scegliere un tipo di oggetto e un oggetto nel campo **ID oggetto** prima di poter creare un'altra nuova riga.
 
 7. Facoltativo: se stai definendo le autorizzazioni per un tipo di oggetto Dati tabella, nel campo **Filtro sicurezza** è possibile filtrare i dati a cui un utente può accedere nei campi della tabella selezionata. Ad esempio, potresti voler consentire a un utente di accedere solo ai record che contengono informazioni su un particolare cliente. Per ulteriori informazioni, vedi [I filtri di sicurezza limitano l'accesso di un utente a record specifici in una tabella](#security-filters-limit-a-users-access-to-specific-records-in-a-table) e [Utilizzo dei filtri di sicurezza](/dynamics365/business-central/dev-itpro/security/security-filters).
@@ -105,9 +105,16 @@ Sul riquadro **Risultato** utilizza il campo **Stato inclusione** per identifica
 
 Per una visualizzazione generale delle autorizzazioni nel set di autorizzazioni, scegli l'azione **Visualizza tutte le autorizzazioni**. La pagina **Autorizzazioni estese** mostra tutte le autorizzazioni che erano già state assegnate al set di autorizzazioni e le autorizzazioni nei set di autorizzazioni aggiunti.
 
-Per escludere completamente un set di autorizzazioni che hai aggiunto, nel riquadro **Risultato** seleziona la riga, scegli **Mostra altre opzioni**, quindi scegli **Escludi**. Quando si esclude un set di autorizzazioni, viene creata una riga nel riquadro **Set di autorizzazioni** di tipo Escluso. Se hai escluso un set di autorizzazioni, ma desideri includerlo di nuovo, elimina la riga nel riquadro **Set di autorizzazioni**.
+Per escludere completamente tutte le autorizzazioni di un set di autorizzazioni, nel riquadro **Risultato** seleziona la riga, scegli **Mostra altre opzioni**, quindi scegli **Escludi**. Quando si esclude un set di autorizzazioni, viene creata una riga nel riquadro **Set di autorizzazioni** di tipo Escluso. Se hai escluso un set di autorizzazioni, ma desideri includerlo di nuovo, elimina la riga nel riquadro **Set di autorizzazioni**.
 
-Per escludere completamente o parzialmente un'autorizzazione specifica in un set che hai aggiunto, in **Autorizzazioni**, crea una riga per l'oggetto. I campi del livello di accesso, Inserisci autorizzazione, Modifica autorizzazione e così via, conterranno tutti Escludi. Per consentire un certo livello di accesso, scegli l'opzione appropriata.
+Per escludere completamente o parzialmente un'autorizzazione specifica in un set che hai aggiunto, in **Autorizzazioni**, crea una riga per l'oggetto. I campi del livello di accesso, Inserisci autorizzazione, Modifica autorizzazione e così via, conterranno tutti **Escludi**. Per consentire un certo livello di accesso, scegli l'opzione appropriata.
+
+> [!NOTE]
+> L'esclusione di un set di autorizzazioni esclude tutte le autorizzazioni nel set. [!INCLUDE [prod_short](includes/prod_short.md)] calcola le autorizzazioni come segue:
+
+> 1. Calcola l'elenco completo delle autorizzazioni incluse
+> 2. Calcola l'elenco completo delle autorizzazioni escluse
+> 3. Rimuovi le autorizzazioni escluse dall'elenco delle autorizzazioni incluse (la rimozione di un'autorizzazione indiretta equivale a Riduci su indiretto)
 
 ## Per copiare un set di autorizzazioni
 
@@ -135,7 +142,7 @@ Crea un nuovo set di autorizzazioni copiandone un altro. Il nuovo set includerà
 2. Nella pagina **Set di autorizzazioni** scegliere l'azione **Nuovo**.
 3. In una nuova riga, compilare i campi in base alle esigenze.
 4. Scegliere l'azione **Autorizzazioni**.
-1. Nella pagina **Autorizzazioni**, scegliere l'azione **Registra autorizzazioni**, quindi selezionare l'azione **Avvia**.  
+5. Nella pagina **Autorizzazioni**, scegliere l'azione **Registra autorizzazioni**, quindi selezionare l'azione **Avvia**.  
     La registrazione deve essere eseguita utilizzando la funzione **Apri questa pagina in una nuova finestra** (pop-out) per avere la finestra di registrazione **Autorizzazioni** affiancata o lavorando all'interno della stessa scheda.  
     Viene ora avviato un processo di registrazione che acquisisce tutte le azioni nell'interfaccia utente.
 6. Passare alle diverse pagine e attività di [!INCLUDE[prod_short](includes/prod_short.md)] a cui si desidera che gli utenti con questo set di autorizzazioni possano accedere. È necessario eseguire i task per cui si desidera registrare le autorizzazioni.
@@ -166,9 +173,9 @@ I set di autorizzazioni vengono importati.
 
 ## Per rimuovere le autorizzazioni obsolete da tutti i set di autorizzazioni
 
-1. Nella pagina **Set di autorizzazioni**, scegliere l'azione **Rimuovi autorizzazioni obsolete**.
+Nella pagina **Set di autorizzazioni**, scegliere l'azione **Rimuovi autorizzazioni obsolete**.
 
-## Per impostare i vincoli connessioni utenti
+## Per impostare i vincoli di tempo per gli utenti
 
 Gli amministratori possono definire periodi di tempo durante i quali gli utenti specificati possono pubblicare. Gli amministratori possono anche specificare se il sistema registra per quanto tempo gli utenti sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Usare i centri di responsabilità](inventory-responsibility-centers.md).
 

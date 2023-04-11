@@ -86,8 +86,9 @@ Una volta ottenuto il file di layout di Excel, l'attività successiva consiste n
 3. Imposta **ID report** su *Report*.
 4. Immetti un nome in **Nome layout**.
 5. Imposta **Opzioni di formattazione** su **Excel**.
-6. Seleziona **OK** > **Scegli** di aprire Esplora file sul tuo dispositivo.
-7. Trova e seleziona il file di Excel quindi scegli **Apri**.
+6. Seleziona **OK**, quindi esegui una delle seguenti operazioni per caricare il file di layout per il report:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Il file selezionato viene caricato nel layout e viene visualizzata la pagina **Layout report**.
 8. Per vedere come appare il report con il nuovo layout, seleziona il layout nell'elenco, quindi seleziona **Esegui report**.

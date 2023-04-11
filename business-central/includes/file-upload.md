@@ -1,0 +1,2 @@
+- Trascina il file da Esplora file sul tuo dispositivo nella finestra di dialogo.
+- Seleziona il collegamento **Fai clic qui per navigare**, trova il file, quindi seleziona il pulsante **Apri**.

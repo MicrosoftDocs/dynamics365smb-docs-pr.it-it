@@ -33,7 +33,7 @@ Questa procedura dettagliata è uno scenario che illustra le attività seguenti:
 
 ## Scenario
 
-Sean è un utente con privilegi avanzati di CRONUS. Crea due utenti approvazione. Un utente è Alicia che rappresenta un rivenditore. L'altro è se stesso che rappresenta il responsabile approvazione di Alicia. Sean quindi concede a se stesso i diritti di approvazione acquisti illimitati e specifica che riceverà le notifiche tramite nota interna non appena si verifica un evento correlato. Infine, Sean crea il workflow di approvazione richiesto come copia del modello esistente del *workflow di approvazione dell'ordine di acquisto*, lascia inalterate tutte le condizioni di evento e le opzioni di risposta, quindi abilita il workflow.  
+Sean è un utente con privilegi avanzati di CRONUS e crea due utenti di approvazione. Un utente è Alicia che rappresenta un rivenditore. L'altro è Sean stesso che rappresenta il responsabile approvazione di Alicia. Sean quindi concede a se stesso i diritti di approvazione acquisti illimitati e specifica che riceverà le notifiche tramite nota interna non appena si verifica un evento correlato. Infine, Sean crea il workflow di approvazione richiesto come copia del modello esistente del *workflow di approvazione dell'ordine di acquisto*, lascia inalterate tutte le condizioni di evento e le opzioni di risposta, quindi abilita il workflow.  
 
 Per verificare il workflow di approvazione, Sean innanzitutto accede a [!INCLUDE[prod_short](includes/prod_short.md)] come Alicia, quindi richiede l'approvazione di un ordine di acquisto. Sean quindi accede come se stesso, vede la nota in Gestione ruolo utente, seleziona il collegamento della richiesta di approvazione per l'ordine di acquisto e approva la richiesta.  
 

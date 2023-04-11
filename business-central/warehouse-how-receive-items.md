@@ -32,12 +32,12 @@ Quando gli articoli arrivano in una warehouse impostata per elaborare i carichi 
 Puoi creare un carico warehouse in uno di due modi:
 
 * In modalità push, quando il lavoro viene svolto ordine per ordine. Scegli l'azione **Crea carico warehouse** nel documento di origine, ad esempio Ordine di acquisto, Ordine di reso da vendita o Ordine di trasferimento per creare il carico warehouse per un documento di origine.
-*-* In modalità pull, in cui usi l'azione **Rilascia** nel documento di origine, ad esempio un ordine di acquisto, un ordine di reso da vendita o un ordine di trasferimento per rilasciare il documento al magazzino. Un dipendente della warehouse crea un **Carico warehouse** per uno o più documenti di origine rilasciati. La procedura seguente descrive come creare un carico warehouse nella modalità pull. La procedura seguente descrive come creare un carico warehouse nella modalità pull. 
+* In modalità pull, in cui usi l'azione **Rilascia** nel documento di origine, ad esempio un ordine di acquisto, un ordine di reso da vendita o un ordine di trasferimento per rilasciare il documento al magazzino. Un dipendente della warehouse crea un **Carico warehouse** per uno o più documenti di origine rilasciati. La procedura seguente descrive come creare un carico warehouse nella modalità pull. La procedura seguente descrive come creare un carico warehouse nella modalità pull.
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Carichi warehouse**, quindi seleziona il collegamento correlato.  
 2. Scegli l'azione **Nuovo**.  
 
-    Nella Scheda dettaglio **Generale** compila il campo **Codice ubicazione**. Quando si recuperano le righe dei documenti di origine, alcune informazioni vengono copiate in ciascuna riga. 
+    Nella Scheda dettaglio **Generale** compila il campo **Codice ubicazione**. Quando si recuperano le righe dei documenti di origine, alcune informazioni vengono copiate in ciascuna riga.
 
     Per un'ubicazione che richiede collocazioni, compila il campo **Codice collocazione**. A seconda della tua configurazione, [!INCLUDE[prod_short](includes/prod_short.md)] può aggiungere il codice collocazione automaticamente. Per ulteriori informazioni vedi [Codici zona e collocazione](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -56,13 +56,15 @@ Puoi creare un carico warehouse in uno di due modi:
 
 5. Registrare il carico warehouse. I campi relativi alle quantità nei documenti di origine vengono aggiornati e gli articoli vengono aggiunti all'inventario.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > Se usi lo stoccaggio warehouse, che fa riferimento al metodo D nella tabella all'inizio di questo articolo, gli articoli vengono ricevuti ma non possono essere prelevati finché non sono stati stoccati. Per ulteriori informazioni sullo stoccaggio degli articoli, vai a [Stoccare gli articoli con gli stoccaggi warehouse](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > Se usi lo stoccaggio warehouse, che fa riferimento al metodo D nella tabella all'inizio di questo articolo, gli articoli vengono ricevuti ma non possono essere prelevati finché non sono stati stoccati. Per ulteriori informazioni sullo stoccaggio degli articoli, vai a [Stoccare gli articoli con gli stoccaggi warehouse](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > Altrimenti, prendi in considerazione l'utilizzo dell'azione **Invia e stampa**. L'azione registrerà la ricevuta e la stamperà come istruzione di stoccaggio che mostra dove stoccare l'articolo.
 
-> [!NOTE]  
-> Se la warehouse utilizza il cross-docking, è possibile verificare se è possibile eseguire il cross-docking degli articoli senza stoccarli. Per ulteriori informazioni sul cross-dock, vai a [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > Se la warehouse utilizza il cross-docking, è possibile verificare se è possibile eseguire il cross-docking degli articoli senza stoccarli. Per ulteriori informazioni sul cross-dock, vai a [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
 
 ## Come utilizzare i filtri per ottenere i documenti di origine
 

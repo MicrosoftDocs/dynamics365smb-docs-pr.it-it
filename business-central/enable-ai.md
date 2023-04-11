@@ -39,7 +39,7 @@ Stai utilizzando una [versione di anteprima](ai-preview-getstarted.md) di Busine
 
 ## Passaggi successivi
 
-Una volta che si dispone di un ambiente sandbox o di prova, si è pronti per provare Copilot sugli articoli in Business Central. Vai ad [Aggiungere del testo di marketing agli articoli](item-marketing-text.md).  
+Dopo aver abilitato e acconsentito alla funzione, si è pronti per provare Copilot sugli articoli in Business Central. Vai ad [Aggiungere del testo di marketing agli articoli](item-marketing-text.md).  
 
 ## Vedere anche
 

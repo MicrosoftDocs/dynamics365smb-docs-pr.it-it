@@ -5,11 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
 # Creare utenti in base alle licenze
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Questo articolo descrive come gli amministratori creano utenti e definiscono chi può accedere a [!INCLUDE[prod_short](includes/prod_short.md)]. Scoprirai come assegnare autorizzazioni a diversi utenti in base alle licenze del prodotto.
 
@@ -90,8 +92,11 @@ Dopo aver aggiunto utenti o modificato le informazioni utente nell'interfaccia d
 2. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Utenti**, quindi scegli il collegamento correlato.  
 3. Scegliere **Aggiorna utenti da Microsoft 365**.
 
+> [!IMPORTANT]  
+> L'esecuzione della sincronizzazione degli utenti da Microsoft 365 utilizzando la guida **Aggiornare gli utenti da Microsoft 365** richiede il set di autorizzazioni SUPER.
+
 > [!NOTE]
-> L'azione **Aggiorna utenti da Microsoft 365** non aggiorna gli utenti a cui non è assegnata una licenza, ad esempio qualcuno che è amministratore globale e amministratore di Dynamics 365. Tali utenti verranno aggiornati la prossima volta che accedono all'ambiente.
+> La guida **Aggiornare gli utenti da Microsoft 365** non aggiorna gli utenti a cui non è assegnata una licenza, ad esempio qualcuno che è amministratore globale e amministratore di Dynamics 365. Tali utenti verranno aggiornati la prossima volta che accedono all'ambiente.
 
 Per i nuovi utenti, il passaggio successivo consiste nell'assegnare gruppi di utenti e autorizzazioni. Vai ad [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md) per ulteriori informazioni. Se stai aggiornando un utente e l'aggiornamento include una modifica della licenza, gli utenti verranno assegnati al gruppo di utenti appropriato e i relativi set di autorizzazioni verranno aggiornati. Per ulteriori informazioni, vedere [Per gestire le autorizzazioni tramite gruppo di utenti](ui-define-granular-permissions.md).  
 
@@ -101,7 +106,7 @@ Per i nuovi utenti, il passaggio successivo consiste nell'assegnare gruppi di ut
 Per altre informazioni sulla sincronizzazione delle informazioni utente con Microsoft 365, vedi la sezione [Sincronizzazione con Microsoft 365](#m365).
 
 > [!NOTE]
-> Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a Business Central in modo che possa usare i dati fiscali dell'azienda. Per ulteriori informazioni, vedere [Invitare il contabile esterno in Business Central](finance-accounting.md#inviteaccountant).
+> Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a [!INCLUDE[prod_short](includes/prod_short.md)] in modo che possa utilizzare i dati fiscali dell'azienda. Per ulteriori informazioni, vedere [Invitare il contabile esterno in Business Central](finance-accounting.md#inviteaccountant).
 
 ### Per rimuovere l'accesso di un utente al sistema
 
@@ -134,9 +139,9 @@ Se si modificano le informazioni dell'utente in Microsoft 365, puoi aggiornare [
 
 Gli utenti possono accedere ai record di [!INCLUDE[prod_short](includes/prod_short.md)] in Teams utilizzando solo la licenza Microsoft 365. Quando l'accesso è abilitato per un ambiente, la sincronizzazione tramite l'azione **Aggiorna utenti da Microsoft 365** non includerà gli utenti che dispongono solo di una licenza Microsoft 365. Per includere questi utenti nella sincronizzazione, devi prima aggiornare le impostazioni dell'ambiente assegnando un gruppo di sicurezza che contenga utenti con una licenza [!INCLUDE[prod_short](includes/prod_short.md)] e utenti con solo una licenza Microsoft 365.
 
-Scopri come proteggere l'accesso agli ambienti utilizzando i gruppi di sicurezza in [Gestire gli accessi utilizzando gruppi di Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Scopri come proteggere l'accesso agli ambienti utilizzando i gruppi di sicurezza in [Gestire gli accessi utilizzando gruppi di Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Ottieni una panoramica degli accessi a Business Central in Teams con licenze Microsoft 365 in [admin-access-with-m365-license](admin-access-with-m365-license.md).
+Ottieni una panoramica degli accessi a [!INCLUDE[prod_short](includes/prod_short.md)] in Teams con licenze Microsoft 365 in [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
 ## Gestire utenti e licenze nelle distribuzioni locali
 

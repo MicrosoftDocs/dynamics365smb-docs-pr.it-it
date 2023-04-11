@@ -3,9 +3,6 @@ title: Eseguire e stampare i report
 description: Informazioni su come inserire un report in una coda processi e programmarlo per l'elaborazione in una data e un'ora specifiche.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -102,7 +99,7 @@ Dalla pagina **Movimenti coda processi** puoi anche modificare alcuni parametri 
 3. Scegli l'azione **Imposta in sospeso**.
 4. Apri e modifica il report pianificato selezionando il suo stato (*In attesa*).
 
-Dopo aver modificato le opzioni del report, ripeti i primi due passaggi e quindi seleziona l'azione **Imposta stato su Pronto** per riprendere la generazione del report.
+Dopo aver modificato le opzioni del report, ripeti i primi due passaggi e seleziona l'azione **Imposta stato su Pronto** per riprendere la generazione del report.
 
 Ulteriori informazioni sulla gestione della coda processi in [Usare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).  
 
@@ -136,6 +133,12 @@ Un layout di report determina le informazioni che verranno visualizzate nel repo
 - Per modificare il layout predefinito utilizzato da un report, vai nelle pagine **Layout report** o **Selezione layout report**.
 
 Per ulteriori informazioni, vedi [Impostare il layout utilizzato da un report](ui-set-report-layout.md). Oppure per personalizzare un layout di report, vai a [Iniziare a creare layout](ui-get-started-layouts.md).
+
+## Cambiare la lingua e il formato di numeri, date e orari
+
+Per impostazione predefinita, la lingua del testo e il formato di numeri, date e orari in un report si basano sulla lingua di lavoro e sulle impostazioni della regione, definite nella pagina **Impostazioni personali**. È tuttavia possibile modificare caso per caso la lingua e la regione del formato durante l'anteprima, la stampa o l'invio di un report. Nella pagina della richiesta, seleziona **Avanzate**, quindi imposta le opzioni **Lingua** e **Formato area geografica** come desideri.
+
+Per ulteriori informazioni sulla pagina **Impostazioni personali** vai a [Modificare le impostazioni di base](ui-change-basic-settings.md#region).
 
 ## Opzioni avanzate
 

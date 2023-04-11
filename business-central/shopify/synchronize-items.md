@@ -82,17 +82,15 @@ Puoi gestire il processo di esportazione degli articoli utilizzando queste impos
 
 |Campo|Descrizione|
 |------|-----------|
-|**Gruppo prezzi cliente**|Determina il prezzo di un articolo in Shopify. Viene preso il prezzo di vendita di questo gruppo di prezzi cliente. Se non viene inserito alcun gruppo, viene utilizzato il prezzo della scheda articolo.|
-|**Categoria sconto clienti**|Determina lo sconto da usare per calcolare il prezzo di un articolo in Shopify. I prezzi scontati sono archiviati nel campo **Prezzo** e il prezzo intero è archiviato nel campo **Confronta prezzo**.|
 |**Sincronizza testo esteso articolo**|Seleziona questo campo per sincronizzare il testo esteso dell'articolo. Dal momento che verrà aggiunto al campo *Descrizione*, può contenere codice HTML. |
 |**Sincronizza attributi articolo**|Seleziona questo campo per sincronizzare gli attributi dell'articolo. Gli attributi sono formattati come una tabella e inclusi nel campo *Descrizione* di Shopify.|
+|**Sincronizza testo marketing articolo**|Seleziona questo campo per sincronizzare il testo di marketing dell'articolo. Sebbene il testo di marketing sia una sorta di descrizione, è diverso da quello del campo **Descrizione** dell'articolo. Il campo **Descrizione** viene in genere utilizzato come nome visualizzato conciso per identificare rapidamente il prodotto. Il testo di marketing, invece, è un testo più ricco e descrittivo. Il suo scopo è aggiungere contenuti di marketing e promozionali. Questo testo può quindi essere pubblicato con l'articolo in Shopify. Il testo di marketing può essere creato in due modi: Utilizza Copilot, che suggerisce il testo generato dall'intelligenza artificiale o inizia da zero.|
 |**Codice lingua**|Seleziona questo campo se desideri usare le versioni tradotte per titolo, attributi e testo esteso.|
 |**Mapping SKU**|Scegli come vuoi compilare il campo SKU in Shopify. Le opzioni supportate sono:<br> - **Nr. articolo** per usare il numero di articolo per prodotti e varianti.<br> - **Nr. articolo + Codice variante** per creare uno SKU concatenando i valori di due campi. Per gli articoli senza varianti, viene utilizzato solo il numero di articolo.<br>- **Nr. articolo fornitore** per usare il numero del fornitore dell'articolo definito nella *Scheda articolo* sia per i prodotti che per le varianti.<br> - **Codice a barre** per usare il tipo di codice a barre **Riferimento articolo**. Questa opzione rispetta le varianti.|
 |**Separatore campo SKU**|Definisci un separatore per l'opzione **Nr. articolo + Codice variante**.|
 |**Inventario tracciato**| Scegli come il sistema dovrebbe popolare il campo **Tieni traccia dell'inventario** per i prodotti esportati su Shopify. È possibile aggiornare le informazioni sulla disponibilità da [!INCLUDE[prod_short](../includes/prod_short.md)] per i prodotti in Shopify il cui inventario di traccia è abilitato. Ulteriori informazioni nella sezione [Inventario](synchronize-items.md#sync-inventory-to-shopify).|
 |**Criterio di inventario predefinito**|Scegli *Nega* per evitare stock negativo del lato Shopify.|
 |**Può aggiornare prodotti Shopify**|Definisci in questo campo se [!INCLUDE[prod_short](../includes/prod_short.md)] può solo creare articoli o anche aggiornarli. Seleziona questa opzione se, dopo la sincronizzazione iniziale attivata dall'azione **Aggiungi articolo**, prevedi di aggiornare i prodotti manualmente utilizzando l'azione **Sincronizza prodotto** o la coda processi per gli aggiornamenti ricorrenti. Ricordati di selezionare **A Shopify** nel campo **Sincronizzazione articoli**.|
-|**Codice modello cliente**|Scegli il modello predefinito da usare durante il calcolo del prezzo. Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).|
 
 ### Panoramica mapping dei campi
 
@@ -104,8 +102,8 @@ Puoi gestire il processo di esportazione degli articoli utilizzando queste impos
 |Titolo pagina SEO|Valore fisso: vuoto. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
 |Meta descrizione SEO|Valore fisso: vuoto. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
 |Elemento multimediale|**Immagine**. Scopri di più nella sezione [Sincronizzare le immagini degli articoli](synchronize-items.md#sync-item-images)|**Immagine**|
-|Prezzo|Il calcolo del prezzo per il cliente finale include il gruppo prezzi articolo, il gruppo sconto articolo, il codice valuta e il codice modello cliente.|**Prezzo Unitario**|
-|Confronta prezzo|Il calcolo del prezzo senza sconto include il gruppo prezzi articolo, il gruppo sconto articolo, il codice valuta e il codice modello cliente.|Non utilizzato.|
+|Prezzo|Il calcolo del prezzo per il cliente finale include il prezzo unitario dell'articolo, il gruppo prezzi cliente, il gruppo sconto cliente e il codice valuta. Scopri di più nella sezione [Sincronizzare i prezzi](synchronize-items.md#sync-prices-with-shopify)|**Prezzo Unitario**|
+|Confronta prezzo|Il calcolo del prezzo senza sconto.|Non utilizzato.|
 |Costo per articolo|**Costo unitario**|**Costo unitario**|
 |SKU|Ulteriori informazioni in **Mapping SKU** nella sezione [Esportare articoli in Shopify](synchronize-items.md#export-items-to-shopify).|Per ulteriori informazioni vedi la sezione [Effetto delle SKU e dei codici a barre dei prodotti Shopify sulla mappatura e sulla creazione di articoli e varianti in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Codice a barre|**Riferimenti di articoli** del tipo codice a barre.|**Riferimenti di articoli** del tipo codice a barre.|
@@ -193,7 +191,18 @@ La sincronizzazione delle immagini può essere inizializzata nei due modi descri
 
 ## Sincronizzare i prezzi con Shopify
 
-I prezzi per gli articoli sincronizzati possono essere esportati nei due modi descritti di seguito.
+Puoi gestire il processo di esportazione dei prezzi utilizzando queste impostazioni:
+
+|Campo|Descrizione|
+|------|-----------|
+|**Gruppo prezzi cliente**|Determina il prezzo di un articolo in Shopify. Viene preso il prezzo di vendita di questo gruppo di prezzi cliente. Se non viene specificato alcun gruppo, viene utilizzato il prezzo della scheda articolo.|
+|**Categoria sconto clienti**|Determina lo sconto da usare per calcolare il prezzo di un articolo in Shopify. I prezzi scontati sono archiviati nel campo **Prezzo** e il prezzo intero è archiviato nel campo **Confronta prezzo**.|
+|**Consenti sconto riga**|Specifica se consentire lo sconto riga nel calcolo dei prezzi per Shopify. Questa impostazione si applica solo ai prezzi dell'articolo. I prezzi per il gruppo di prezzi cliente hanno propri interruttori sulle righe.|
+|**Prezzi IVA inclusa**|Specifica se i calcoli del prezzo per Shopify includono l'IVA. Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).|
+|**Cat. reg. business IVA**|Specifica la categoria registrazione business IVA che viene utilizzata per calcolare i prezzi in Shopify. Questo deve essere il gruppo che utilizzi per i clienti nazionali. Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).|
+|**Codice valuta**|Immetti un Codice valuta solo se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDEprod_short], lascia il campo vuoto.|
+
+Puoi esportare i prezzi per gli articoli sincronizzati nei due modi descritti di seguito.
 
 ### Sincronizzare i prezzi dalla pagina dei prodotti Shopify
 
@@ -202,9 +211,8 @@ I prezzi per gli articoli sincronizzati possono essere esportati nei due modi de
 
 ### Nore sul calcolo del prezzo
 
-* Per il calcolo del prezzo, è importante avere un valore nel campo **Modello cliente predefinito**. Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).
-* Immetti un **Codice valuta** solo se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDE[prod_short](../includes/prod_short.md)], lascia il campo vuoto.
-* Quando si determina un prezzo, [!INCLUDE[prod_short](../includes/prod_short.md)] utilizza la logica del "prezzo più basso". La logica del prezzo minore indica che se il prezzo unitario definito nella scheda articolo è inferiore a quello definito nel gruppo di prezzi, viene utilizzato il prezzo unitario della scheda articolo.
+* Quando si determina un prezzo, [!INCLUDE[prod_short](../includes/prod_short.md)] utilizza la logica del "prezzo più basso". Tuttavia, la logica del prezzo più basso ignora il prezzo unitario definito nella scheda articolo se un prezzo è definito nel gruppo di prezzi. Questo è vero anche se il prezzo unitario del prezzo della scheda articolo è inferiore.
+* Per calcolare i prezzi, il connettore crea un'offerta di vendita temporanea per l'articolo con una quantità pari a 1 e utilizza la logica di calcolo dei prezzi standard. Vengono utilizzati solo i prezzi e gli sconti applicabili per la quantità 1. Non puoi esportare prezzi o sconti diversi in base alla quantità.
 
 ## Sincronizzare l'inventario con Shopify
 
@@ -220,7 +228,7 @@ La sincronizzazione dell'inventario può essere configurata per gli articoli gi�
 3. Scegli l'azione **Posizioni** per aprire **Posizioni punto vendita Shopify**.
 4. Scegli l'azione **Recupera posizioni Shopify** per importare tutte le posizioni definite in Shopify. Puoi trovarli nelle impostazioni [**Posizioni**](https://www.shopify.com/admin/settings/locations) in **Amministratore Shopify**.
 5. Nel campo **Filtro posizione**, aggiungi posizioni, se desideri includere l'inventario solo da posizioni specifiche. Puoi quindi immettere *EST|OVEST*, in modo che l'inventario solo da queste due posizioni sia disponibile per la vendita tramite il negozio online.
-6. Deseleziona l'opzione **Disabilitato** per abilitare la sincronizzazione dell'inventario per le posizioni Shopify selezionate.
+6. Seleziona il metodo di calcolo delle scorte da utilizzare per le ubicazioni Shopify selezionate.
 
 Puoi inizializzare le sincronizzazione dell'inventario in due modi descritti di seguito.
 
@@ -237,9 +245,10 @@ Puoi inizializzare le sincronizzazione dell'inventario in due modi descritti di 
 
 ### Note sull'inventario
 
-* Il connettore calcola il **Saldo disponibile previsto** alla data corrente e lo esporta in Shopify.
+* Il metodo standard di calcolo delle scorte è **Saldo disponibile previsto alla data**. Con l'estensibilità, puoi aggiungere più opzioni. Per saperne di più sull'estensibilità, vai a [Esempi](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * Puoi esaminare le informazioni sulle scorte ricevute da Shopify nella pagina **Scheda dettaglio Inventario Shopify**. In questa Scheda dettaglio, ottieni una panoramica delle scorte Shopify e l'ultimo inventario calcolato in [!INCLUDE[prod_short](../includes/prod_short.md)]. C'è un record per posizione.
 * Se le informazioni sulle scorte in Shopify sono diverse dal **Saldo disponibile previsto** in[!INCLUDE[prod_short](../includes/prod_short.md)], le scorte verranno aggiornate in Shopify.
+* Quando aggiungi una nuova ubicazione in Shopify, devi anche aggiungere i relativi record di inventario. Shopify non lo fa automaticamente per i prodotti e le varianti esistenti e il connettore non sincronizza i livelli di inventario per tali articoli nella nuova ubicazione. Per ulteriori informazioni, vai a [Assegnazione delle scorte alle ubicazioni](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 
 #### Esempio di calcolo del saldo disponibile previsto
 

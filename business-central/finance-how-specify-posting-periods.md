@@ -22,13 +22,13 @@ Utilizzare i periodi di registrazione per specificarne quando gli utenti possono
 2. Nella pagina **Impostazione della contabilità generale** specificare il periodo inserendo le date nei campi **Consenti registraz. da** e **Consenti registrazioni fino a**.  
 
 > [!NOTE]  
-> Tali periodi di registrazione si applicano alla società e a tutti gli utenti. Per consentire eccezioni, è possibile definire periodi di registrazione differenziati per utenti specifici nella pagina **Setup utente**. Tali periodi di registrazione sostituiscono quelli specificati nella pagina **Setup contabilità generale**. Per ulteriori informazioni, vedere [Per impostare i vincoli connessioni utenti](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
+> Tali periodi di registrazione si applicano alla società e a tutti gli utenti. Per consentire eccezioni, è possibile definire periodi di registrazione differenziati per utenti specifici nella pagina **Setup utente**. Tali periodi di registrazione sostituiscono quelli specificati nella pagina **Setup contabilità generale**. Per ulteriori informazioni, vedi [Per impostare i vincoli per gli utenti](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
 
 ## Vedere anche
 
 [Finanze](finance.md)  
 [Completare i processi di fine periodo](year-how-complete-period-end-processes.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

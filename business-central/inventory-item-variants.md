@@ -14,7 +14,7 @@ ms.author: edupont
 Le varianti degli articoli sono un ottimo modo per tenere sotto controllo il tuo elenco di prodotti. Ad esempio, hai un gran numero di articoli che sono quasi identici e variano solo nel colore. Puoi definire ogni variante come un articolo separato. Ma scegli di impostare un articolo e specificare i vari colori come varianti dell'articolo.  
 
 > [!TIP]
-> Per un'introduzione pratica all'utilizzo delle varianti nella produzione, vedi [Procedura dettagliata: varianti](contoso-coffee/variants.md) per i dati demo di Contoso Coffee.  
+> Per un'introduzione pratica all'utilizzo delle varianti nella produzione, vedi [Procedura dettagliata: varianti](contoso-coffee/manufacturing/variants.md) per i dati demo di Contoso Coffee.  
 
 ## Aggiungere varianti a un articolo
 
@@ -57,4 +57,4 @@ Se la funzionalità è attivata, gli utenti non possono registrare un movimento 
 
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Impostare le informazioni generali di magazzino](inventory-how-setup-general.md)  
-[Procedura dettagliata: varianti](contoso-coffee/variants.md)  
+[Procedura dettagliata: varianti](contoso-coffee/manufacturing/variants.md)  

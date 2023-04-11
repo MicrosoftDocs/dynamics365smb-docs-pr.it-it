@@ -28,7 +28,9 @@ Un ordine Shopify regolare può includere importi extra al subtotale, come spese
 
 Abilita **Creazione automatica degli ordini** per creare automaticamente documenti di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] una volta importato l'ordine Shopify.
 
-Il documento di vendita in[!INCLUDE[prod_short](../includes/prod_short.md)] contiene un collegamento all'ordine Shopify. Se selezioni il campo **Nr. ordine Shopify nella riga documento**, queste informazioni verranno ripetute nelle righe di vendita di tipo *Commento*.
+Se desideri rilasciare automaticamente un documento di vendita, attiva l'interruttore **Rilascio automatico ordine cliente**.
+
+Il documento di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] si collega all'ordine Shopify e puoi aggiungere un campo che non è già visualizzato nella pagina. Per ulteriori informazioni sull'aggiunta di un campo, vai a [Per iniziare a personalizzare una pagina tramite il banner **Personalizzazione**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Se selezioni il campo **Nr. ordine Shopify nella riga documento**, queste informazioni verranno ripetute nelle righe di vendita di tipo **Commento**.
 
 Nel campo **Origine area fiscale**, definisci la priorità su come selezionare il codice area fiscale o il gruppo di registrazione attività IVA in base all'indirizzo. L'ordine Shopify importato contiene informazioni sulle tasse, ma le tasse vengono ricalcolate quando crei il documento di vendita, quindi è importante che le impostazioni tasse/aliquote siano corrette in [!INCLUDE[prod_short](../includes/prod_short.md)]. Per ulteriori informazioni sulle imposte, vedi [Impostare le imposte per la connessione Shopify](setup-taxes.md).
 
@@ -75,11 +77,11 @@ Di seguito viene descritto come importare e aggiornare gli ordini di vendita.
 > [!NOTE]  
 > Quando si filtra per tag, è necessario utilizzare token di filtro `@` e `*`. Ad esempio, se desideri importare ordini contenenti *tag1*, usa `@*tag1*`. `@` assicurerà che il risultato non sia sensibile alla differenza tra maiuscole e minuscole, mentre `*` troverà ordini con più tag.
 
-7. Scegli il pulsante **OK**.
+6. Scegli il pulsante **OK**.
 
 In alternativa, puoi cercare il processo batch **Sincronizza ordini da Shopify**.
 
-È possibile pianificare l'attività da eseguire in modo automatizzato. Ulteriori informazioni su [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
+È possibile pianificare l'attività da eseguire automaticamente. Ulteriori informazioni su [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
 
 ## Esaminare gli ordini importati
 
@@ -90,7 +92,7 @@ Una volta completata l'importazione, puoi esplorare l'ordine Shopify e trovare t
 
 ## Creare documenti di vendita in Business Central
 
-Se l'opzione **Creazione automatica ordini** è abilitata nella **Scheda del punto vendita Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tenta di creare un documento di vendita una volta importato l'ordine. Se manca un cliente o un prodotto, dovrai risolvere il problema e quindi creare nuovamente l'ordine di vendita.
+Se l'opzione **Creazione automatica ordini** è abilitata nella **Scheda del punto vendita Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tenta di creare un documento di vendita dopo aver importato l'ordine. Se manca un cliente o un prodotto, dovrai risolvere il problema e quindi creare nuovamente l'ordine di vendita.
 
 ### Per creare i documenti di vendita
 
@@ -132,20 +134,24 @@ I prossimi passaggi dipendono dal **Tipo di mapping cliente**.
 
 In Shopify:
 
-|Modifica|Impatto|
-|------|-----------|
-|Cambia la posizione di evasione | La posizione originale verrà sincronizzata con [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Modifica l'ubicazione di evasione e registra l'evasione in Shopify| Se l'ordine è già stato importato, le righe non verranno aggiornate. In caso contrario, l'ordine importato utilizzerà l'ubicazione di evasione. |
-|Modifica un ordine e modifica la quantità| L'intestazione dell'ordine e le tabelle supplementari verranno aggiornate in [!INCLUDE[prod_short](../includes/prod_short.md)], non le righe. |
-|Modifica un ordine e aggiungi nuovo articolo | L'intestazione dell'ordine verrà aggiornata, le righe no. |
+|Modifica|Impatto per l'ordine già importato|Impatto per l'ordine che viene importato per la prima volta|
+|------|-----------|-----------|
+|Cambia la posizione di evasione | L'ubicazione originale è nelle righe | L'ubicazione di evasione viene sincronizzata con [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Modificare un ordine e aumentare la quantità| L'intestazione dell'ordine e le tabelle supplementari verranno aggiornate in [!INCLUDE[prod_short](../includes/prod_short.md)], non le righe.| L'ordine importato utilizzerà la nuova quantità|
+|Modificare un ordine e diminuire la quantità| L'intestazione dell'ordine e le tabelle supplementari verranno aggiornate in [!INCLUDE[prod_short](../includes/prod_short.md)], non le righe.| L'ordine importato utilizzerà la quantità originale, il campo Quantità disponibile per l'evasione conterrà un nuovo valore.|
+|Modificare un ordine e rimuovere un articolo esistente | L'intestazione dell'ordine e le tabelle supplementari verranno aggiornate in [!INCLUDE[prod_short](../includes/prod_short.md)], non le righe.| L'articolo rimosso verrà comunque importato, il campo Quantità disponibile per l'evasione conterrà zero. |
+|Modifica un ordine e aggiungi nuovo articolo | L'intestazione dell'ordine verrà aggiornata, le righe no. | Gli articoli originali e aggiunti verranno importati. |
+|Elaborare l'ordine: evadere, aggiornare le informazioni di pagamento | L'intestazione dell'ordine verrà aggiornata, ma non le righe. |La modifica non ha alcun impatto sulla modalità di importazione dell'ordine.|
+|Annullare l'ordine | L'intestazione dell'ordine verrà aggiornata, ma non le righe. |L'ordine annullato non viene importato |
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Modifica|Impatto|
 |------|-----------|
-|Cambia la posizione in un'altra posizione, mappata alle posizioni Shopify. Registra spedizione. | Dopo aver sincronizzato l'evasione, la posizione verrà aggiornata in Shopify. |
+|Cambia la posizione in un'altra posizione, mappata alle posizioni Shopify. Registra spedizione. | L'ordine sarà contrassegnato come evaso. L'ubicazione originale verrà utilizzata. |
 |Cambia la posizione in un'altra posizione, non mappata alle posizioni Shopify. Registra spedizione. | L'evasione non verrà sincronizzata con Shopify. |
-|Cambia la riduzione quantità. Registra spedizione. | L'ordine in Shopify sarà contrassegnato come parzialmente evaso. |
+|Riduci la quantità. Registra spedizione. | L'ordine in Shopify sarà contrassegnato come parzialmente evaso. |
+|Aumenta la quantità. Registra spedizione. | L'evasione non verrà sincronizzata con Shopify. |
 |Aggiungi un nuovo articolo. Registra spedizione. | L'ordine in Shopify sarà contrassegnato come evaso. Le righe non verranno aggiornate. |
 
 ## Sincronizzare le spedizioni con Shopify
@@ -162,7 +168,8 @@ In alternativa, utilizza l'azione **Sincronizza spedizioni** in Ordini di vendit
 
 È possibile pianificare l'attività da eseguire in modo automatizzato. Ulteriori informazioni su [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
 
->[Importante] L'ubicazione, inclusa l'ubicazione vuota, definita nella riga di spedizione registrata deve avere un record corrispondente nell'ubicazione Shopify. In caso contrario, questa linea non verrà reinviata a Shopify. Ulteriori informazioni in [Mapping della posizione](synchronize-orders.md#location-mapping).
+>[!Important]
+>L'ubicazione, inclusa l'ubicazione vuota, definita nella riga di spedizione registrata deve avere un record corrispondente nell'ubicazione Shopify. In caso contrario, questa linea non verrà reinviata a Shopify. Ulteriori informazioni in [Mapping della posizione](synchronize-orders.md#location-mapping).
 
 Ricordati di eseguire **Sincronizza ordini da Shopify** per aggiornare lo stato di evasione di un ordine in [!INCLUDE[prod_short](../includes/prod_short.md)]. La funzionalità del connettore archivia anche gli ordini completamente pagati ed evasi in Shopify e [!INCLUDE[prod_short](../includes/prod_short.md)] purché le condizioni siano soddisfatte.
 

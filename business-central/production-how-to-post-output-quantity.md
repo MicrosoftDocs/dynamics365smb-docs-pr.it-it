@@ -7,10 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000773, 99000778, 99000823, 99000827'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Registrare l'output e i tempi di lavorazione tramite processo batch
+
 La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quantità finita e capacità utilizzata del centro lavoro o della macchina.
 
 È possibile usare le registrazioni output su:
@@ -22,7 +23,7 @@ La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quant
 > [!NOTE]
 > Se viene utilizzato un instradamento della produzione, il magazzino viene aggiornato solo quando registri la quantità di output nell'ultima operazione.
 
-Tramite la finestra **Registrazioni di produzione**, è possibile eseguire le stesse attività della finestra **Registrazioni output** e allo stesso tempo le relative attività di registrazione del consumo. Per ulteriori informazioni, vedi [Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md).
+La pagina **Registrazioni di produzione** consente di svolgere le stesse attività della pagina **Registrazioni di output** e anche attività di registrazione dei consumi. Per ulteriori informazioni, vedi [Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md).
 
 ## Per registrare quantità di output e/o registrare tempi di lavorazione per una o più righe dell'ordine di produzione
 
@@ -32,11 +33,11 @@ Tramite la finestra **Registrazioni di produzione**, è possibile eseguire le st
     Puoi usare la funzione **Esplodi ciclo** per generare righe di registrazione dagli ordini di produzione.
   
 3. Se l'operazione è stata completata, selezionare il campo **Completato** .  
-4. Per registrare le operazioni scegliere l'azione **Registra**. 
+4. Per registrare le operazioni scegliere l'azione **Registra**.
 
-I movimenti contabili capacità vengono aggiornati per il lavoro utilizzato o per i centri lavoro con informazioni su tempo e quantità di produzione e scarto.  
+    I movimenti contabili capacità vengono aggiornati per il lavoro utilizzato o per i centri lavoro con informazioni su tempo e quantità di produzione e scarto. Se hai registrato l'ultima operazione, l'articolo verrà aggiunto al magazzino.
 
-Se hai registrato l'ultima operazione, l'articolo verrà aggiunto al magazzino.  
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Vedere anche
 

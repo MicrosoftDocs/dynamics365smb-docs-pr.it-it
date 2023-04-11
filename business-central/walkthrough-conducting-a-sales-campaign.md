@@ -44,7 +44,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
 ## Scenario
 
- Il manager marketing del reparto vendite di CRONUS ha il compito di pianificare le campagne e di attuarle. Decide anche a quali fiere di settore partecipare e valuta il progresso della campagna.  
+ Il manager marketing del reparto vendite di CRONUS ha il compito di pianificare le campagne e di attuarle. Il manager marketing decide anche a quali fiere di settore partecipare e valuta il progresso della campagna.  
 
  L'impiegato di marketing si occupa della produzione, della distribuzione e della collocazione del materiale di marketing.  
 
@@ -96,7 +96,7 @@ La pagina **Segmento** ora contiene una lista dei contatti in base al filtro imm
 
 ## Data mining
 
- Il manager marketing esamina più attentamente l'elenco dei contatti nel segmento e si rende conto che è troppo corposa. Decide quindi di ridurre il numero dei contatti a quelli dei clienti potenziali effettivi, in modo da concentrarsi sul target giusto. Questo processo di affinamento e riduzione dei dati è anche detto data mining.  
+ Il manager marketing esamina più attentamente l'elenco dei contatti nel segmento e si rende conto che è troppo corposa. Il manager decide quindi di ridurre il numero dei contatti a quelli dei clienti potenziali effettivi, in modo da concentrarsi sul target giusto. Questo processo di affinamento e riduzione dei dati è anche detto data mining.  
 
 ### Per rimuovere contatti dal segmento  
 

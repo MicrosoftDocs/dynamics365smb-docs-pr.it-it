@@ -117,8 +117,9 @@ La copia è un modo rapido per creare un nuovo layout uguale a un layout esisten
    |Descrizione| Digita informazioni più dettagliate sul layout. |no|
    |Opzioni di formattazione|Imposta questo campo in modo che corrisponda al tipo di layout, come Word, Excel o RDLC.|si|
 
-6. Seleziona **OK** > **Scegli** di aprire Esplora file sul tuo dispositivo.
-7. Trova e seleziona il file di Excel quindi seleziona **Apri**.
+6. Seleziona **OK**, quindi esegui una delle seguenti operazioni per caricare il file di layout per il report:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Il file selezionato viene caricato nel layout e torni alla pagina **Layout report**.
 

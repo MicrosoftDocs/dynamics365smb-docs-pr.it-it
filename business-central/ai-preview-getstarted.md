@@ -1,5 +1,5 @@
 ---
-title: Ottenere l'accesso all'anteprima di Business Central - Edizione Copilot
+title: Iniziare a usare la versione di anteprima di Business Central per Copilot
 description: Spiega come ottenere un ambiente Business Central con la nuova funzionalità IA per la generazione di suggerimenti di testo per le descrizioni di articoli/prodotti.
 author: jswymer
 ms.author: jswymer
@@ -9,38 +9,35 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Iniziare a usare la versione di anteprima di Business Central - Edizione Copilot
+# Iniziare a usare la versione di anteprima di Business Central per Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-Puoi provare il testo di marketing degli articoli basato sull'intelligenza artificiale con Copilot indipendentemente dal fatto che tu sia un cliente Business Central esistente o un potenziale cliente, ovvero qualcuno che è solo interessato a esplorare Business Central e provare la nuova funzionalità. Per iniziare, devi ottenere l'accesso a una versione di anteprima di Business Central che supporti la nuova funzionalità. Completa la sezione sottostante che ti riguarda.
+Puoi provare il testo di marketing degli articoli basato sull'intelligenza artificiale con Copilot indipendentemente dal fatto che tu sia un cliente Business Central esistente o un potenziale cliente, ovvero qualcuno che è solo interessato a esplorare Business Central e provare la nuova funzionalità. Per iniziare, devi ottenere l'accesso a una versione di Business Central online che supporti la nuova funzionalità. Completa la sezione sottostante che ti riguarda.
 
 ## L'organizzazione già usa Business Central
 
-Come cliente o partner esistente, avrai bisogno di un amministratore con accesso all'interfaccia di amministrazione di Business Central per configurare un *ambiente sandbox* che esegua la versione di anteprima che include Copilot. Una volta che l'ambiente sandbox è attivo e funzionante, gli utenti possono provare la nuova funzionalità.
+Come cliente o partner esistente, avrai bisogno di un amministratore con accesso all'interfaccia di amministrazione di Business Central per configurare un ambiente che esegua la versione di anteprima che include Copilot. Una volta che l'ambiente è attivo e funzionante, gli utenti possono provare la nuova funzionalità.
 
 Se sei un amministratore dell'ambiente, completa i seguenti passaggi:
 
 1. Accedi all'interfaccia di amministrazione di Business Central.
 2. Seleziona **Ambienti** > **Nuovo**.
 3. Nel riquadro **Crea ambiente** , specifica un nome per il nuovo ambiente nel campo **Nome ambiente**.
-4. Imposta **Tipo di ambiente** su **Sandbox**.
-5. Imposta **Paese** su **Stati Uniti**.
+4. Imposta **Tipo di ambiente** su **Sandbox** o **Produzione**.
+5. Imposta **Paese** su qualsiasi paese/area geografica nell'elenco, ma tieni presente che nell'anteprima il testo di marketing generato dall'intelligenza artificiale da Copilot è solo in inglese.
+6. Nella casella **Versione**, scegli una versione 22 o successiva nell'elenco.
 
+   <!--
    > [!IMPORTANT]
-   > L'anteprima è disponibile solo per gli Stati Uniti. Le organizzazioni in qualsiasi altro paese o regione possono comunque creare un'anteprima nell'ambiente sandbox per gli Stati Uniti per provare Copilot.
-
-6. Nella casella **Versione** , scegli una versione **22.0.54157.54311 (Anteprima - Edizione Copilot)**.
-
-   > [!IMPORTANT]
-   > Devi utilizzare **22.0.54157.54311 (Anteprima - Edizione Copilot)** per provare Copilot.
-
+   > You must use **22.0.54157.54311 (Preview - Copilot edition)** to experience Copilot.
+   -->
 7. Selezionare **Crea**.  
 
-Per ulteriori informazioni su come creare gli ambienti sandbox, vai a [Creare un ambiente](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
+Per ulteriori informazioni su come creare gli ambienti, vai a [Creare un ambiente](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
-> Gli ambienti sandbox di anteprima sono disponibili solo fino al 1° maggio 2023. Dopo questa data, dovrai eseguire il provisioning di un nuovo ambiente o aggiornare uno qualsiasi dei tuoi altri ambienti alla versione 22.0 o successiva per continuare a provare l'anteprima del testo di marketing degli articoli basato sull'intelligenza artificiale.
+> Se disponi di sandbox di anteprima che vengono eseguiti su **22.0.54157.54311 (Anteprima - Edizione Copilot)**, tieni presente che questi ambienti sono disponibili solo fino al 1° maggio 2023. Dopo questa data, dovrai eseguire il provisioning di un nuovo ambiente o aggiornare uno qualsiasi dei tuoi altri ambienti alla versione 22.0 o successiva per continuare a provare l'anteprima del testo di marketing degli articoli basato sull'intelligenza artificiale.
 
 ## L'organizzazione non usa Business Central
 
@@ -49,13 +46,12 @@ Se non sei un cliente di Business Central, registrati per una versione di valuta
 1. Vai a [questo sito di valutazione](https://go.microsoft.com/fwlink/?linkid=2227167) per iniziare la procedura di registrazione.
 2. Segui le istruzioni visualizzate.
 
-   Ti viene chiesto di fornire informazioni come il tuo indirizzo e-mail, nome e numero di telefono. L'esperienza esatta può variare, a seconda delle informazioni fornite. Ma qui ci sono un paio di punti importanti da tenere presente durante il processo di registrazione:
-
-   - Per l'indirizzo e-mail, usa il tuo indirizzo e-mail di lavoro o della scuola. Stabiliremo la tua versione di prova sull'account della tua organizzazione. Non è possibile utilizzare gli indirizzi e-mail forniti dai servizi di posta elettronica consumer o dai provider di telecomunicazioni, come outlook.com, hotmail.com, gmail.com, e altri.
-   - Quando arrivi all'opzione per **Paese o area geografica** assicurati di impostare **Stati Uniti**.
+   Ti viene chiesto di fornire informazioni come il tuo indirizzo e-mail, nome e numero di telefono. L'esperienza esatta può variare, a seconda delle informazioni fornite. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> Per l'indirizzo e-mail, usa il tuo indirizzo e-mail di lavoro o della scuola. Stabiliremo la tua versione di prova sull'account della tua organizzazione. Non è possibile utilizzare gli indirizzi e-mail forniti dai servizi di posta elettronica consumer o dai provider di telecomunicazioni, come outlook.com, hotmail.com, gmail.com, e altri.
+   
+   <!-- When you get to the option for **Country or region** be sure to set this **United States**.
 
       > [!IMPORTANT]
-      > Devi impostare **Paese o area geografica** su **Stati Uniti**; in caso contrario, il testo di marketing degli articoli basato sull'intelligenza artificiale con Copilot non sarà disponibile in Business Central.  
+      > You must set **Country or region** to **United States**; otherwise the AI-powered item marketing text with Copilot won't be available in Business Central.  -->
 3. Quando arrivi al passaggio **Dettagli di conferma** sei pronto per iniziare la versione di valutazione.
 
    - Per andare direttamente a Business Central, seleziona **Ignora e vai a Dynamics 365 Business Central** > **Inizia**.
