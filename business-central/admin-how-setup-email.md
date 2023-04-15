@@ -60,6 +60,8 @@ Se desideri utilizzare il protocollo SMTP per inviare e-mail da [!INCLUDE[prod_s
 >
 > Exchange Online sta deprecando l'uso dell'autenticazione di base per SMPT. I tenant che attualmente usano SMTP AUTH non saranno interessati da questa modifica. Tuttavia, consigliamo vivamente di utilizzare l'ultima versione di [!INCLUDE [prod_short](includes/prod_short.md)] e di configurare l'autenticazione OAuth 2.0 per SMTP. Non aggiungeremo l'autenticazione basata su certificato per le versioni precedenti di [!INCLUDE [prod_short](includes/prod_short.md)], ad esempio la versione 14. Se non riesci a configurare l'autenticazione OAuth 2.0, ti invitiamo a esplorare alternative di terze parti se desideri utilizzare l'e-mail SMTP nelle versioni precedenti.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## Aggiungere account di posta elettronica
 
 La guida al setup assistito **Configurare la posta elettronica** può consentirti di utilizzare rapidamente la posta elettronica.

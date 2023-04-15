@@ -2,7 +2,6 @@
 title: Estensione migrazione Cloud base
 description: Utilizzare l'estensione Cloud base per connettere la soluzione locale a Business Central Online.
 author: edupont04
-manager: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
