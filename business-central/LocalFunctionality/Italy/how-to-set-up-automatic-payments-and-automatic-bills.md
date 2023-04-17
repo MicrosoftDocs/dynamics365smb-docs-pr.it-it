@@ -1,28 +1,22 @@
 ---
-title: Pagamenti automatici ed effetti automatici [IT]
+title: 'Pagamenti automatici ed effetti automatici [IT]'
 description: Il seguente argomento spiega come impostare le informazioni rilevanti in Business Central per gestire pagamenti ed effetti automatici.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 12203, 12204
+ms.search.keywords: null
+ms.search.form: '12203, 12204'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: f33d0066a0e45b606c5d6579ce904e12117deb74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138134"
 ---
-# <a name="set-up-automatic-payments-and-automatic-bills-in-the-italian-version"></a>Impostare i pagamenti automatici e gli effetti automatici nella versione italiana
+# Impostare i pagamenti automatici e gli effetti automatici nella versione italiana
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire i pagamenti e gli effetti automatici.  
 
 Per utilizzare i pagamenti e gli effetti automatici, è necessario impostare le informazioni pertinenti.  
 
-## <a name="to-add-bank-information-for-your-company"></a>Per aggiungere le informazioni relative alla banca della società  
+## Per aggiungere le informazioni relative alla banca della società  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Pagamenti** compilare i campi chiave come indicato nella tabella seguente.  
@@ -44,7 +38,7 @@ Per utilizzare i pagamenti e gli effetti automatici, è necessario impostare le 
 
 Di seguito viene descritto come impostare gli effetti automatici per vendite e incassi, ma gli stessi passaggi sono applicabili per l'impostazione di acquisti e debiti per l'utilizzo dei pagamenti automatici.  
 
-## <a name="to-set-up-automatic-bills-for-sales-and-receivables"></a>Per impostare gli effetti automatici per vendite e incassi  
+## Per impostare gli effetti automatici per vendite e incassi  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Effetti**, nel campo **Nr. temp. distinta effetto** selezionare il numero temporaneo della distinta effetti. Compilare i campi come indicato nella tabella seguente.  
@@ -59,7 +53,7 @@ Di seguito viene descritto come impostare gli effetti automatici per vendite e i
 
  A questo punto, è necessario specificare i codici effetto per i metodi di pagamento utilizzati per i pagamenti automatici e gli effetti automatici.  
 
-## <a name="to-specify-bill-codes-for-a-payment-method"></a>Per specificare i codici effetto per un metodo di pagamento  
+## Per specificare i codici effetto per un metodo di pagamento  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di pagamento**, quindi scegli il collegamento correlato.  
 2.  Selezionare il metodo di pagamento utilizzato per i trasferimenti bancari ai fornitori, quindi nel campo **Cod. effetto**, selezionare un codice effetto.  
@@ -69,7 +63,7 @@ Di seguito viene descritto come impostare gli effetti automatici per vendite e i
 
 A questo punto, è possibile elaborare gli effetti cliente e fornitore in modo che vengano gestiti automaticamente.  
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
  [Definizione dei metodi di pagamento](../../finance-payment-methods.md) [Funzionalità locale per l'Italia](italy-local-functionality.md)
 
 

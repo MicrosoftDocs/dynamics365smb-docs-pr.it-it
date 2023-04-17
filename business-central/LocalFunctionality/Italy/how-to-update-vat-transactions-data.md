@@ -1,19 +1,13 @@
 ---
 title: Aggiornare i dati delle transazioni IVA
-description: Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti nella versione italiana di Business Central.
+description: 'Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti nella versione italiana di Business Central.'
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dce4e32a1c3fa027743b213e21d1b5d0c652b9ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131084"
 ---
-# <a name="update-vat-transactions-data"></a>Aggiornare i dati delle transazioni IVA
+# Aggiornare i dati delle transazioni IVA
 Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti eseguendo il report **Aggiorna data transazione IVA**. È inoltre necessario eseguire questo report se sono state apportate modifiche al setup in base ai nuovi requisiti delle autorità fiscali.  
 
 È possibile eseguire il report **Aggiorna data transazione IVA** come test prima di modificare i dati. Dopo avere verificato che i filtri soddisfano le previsioni e le richieste delle autorità fiscali, eseguire nuovamente il report per apportare le modifiche appropriate ai dati.  
@@ -21,7 +15,7 @@ Prima di creare il primo report transazioni IVA, è necessario preparare i dati 
 > [!CAUTION]  
 >  Prima di eseguire il report **Aggiorna data transazione IVA**, è necessario attivare il log delle modifiche nella pagina **Setup log modifiche**. Inoltre, è necessario attivare la registrazione delle modifiche nel campo **Includi in report transazioni IVA** nella tabella **Movimenti IVA**.  
 
-## <a name="to-update-vat-transaction-data"></a>Per aggiornare i dati delle transazioni IVA  
+## Per aggiornare i dati delle transazioni IVA  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Aggiorna data transazione IVA**, quindi scegli il collegamento correlato.  
 2.  Facoltativamente, nella Scheda dettaglio **Movimenti IVA** impostare i filtri appropriati.  
@@ -39,7 +33,7 @@ Quando si esegue il report, [!INCLUDE[prod_short](../../includes/prod_short.md)]
 
 - Il campo **Tipo** del movimento IVA non deve essere **Liquidazione**.  
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
 [Impostare l'IVA](../../finance-setup-vat.md)  
  [Preparare i report di transazioni IVA](how-to-prepare-for-vat-transactions-reports.md)   
  [IVA italiana](italian-vat.md)   

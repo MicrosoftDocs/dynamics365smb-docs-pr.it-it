@@ -1,5 +1,5 @@
 ---
-title: Come creare più schede cespite [IT]
+title: 'Come creare più schede cespite [IT]'
 description: In questo argomento viene spiegato come puoi creare automaticamente più schede cespite durante la registrazione delle fatture di acquisto.
 services: project-madeira
 documentationcenter: ''
@@ -8,20 +8,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 1a24367c6bccaf4f1f50d18843295ed164a7a14f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149281"
 ---
-# <a name="create-multiple-fixed-asset-cards-in-the-italian-version"></a>Creare più schede cespite nella versione italiana
+# Creare più schede cespite nella versione italiana
 Durante la registrazione delle fatture di acquisto è possibile creare automaticamente più schede cespite. Se ad esempio la società acquista 200 computer dello stesso tipo dallo stesso fornitore, non è necessario creare manualmente una scheda cespite per ogni computer, ma tali schede possono essere create automaticamente.  
 
-## <a name="to-create-multiple-fixed-asset-cards"></a>Per creare più schede cespite  
+## Per creare più schede cespite  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Liste**, quindi l'azione **Cespiti**.  
@@ -43,7 +37,7 @@ Durante la registrazione delle fatture di acquisto è possibile creare automatic
 
 9. Scegliere il pulsante **OK**.  
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
  [Cespiti](../../fa-manage.md)  
  [Cespiti italiani](italian-fixed-assets.md)
 

@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 8dd2f7f0d8fe4fb2c770498d4d015dbe7cd4a6c1
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950111"
 ---
-# <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
+# Funzionalità locale per l'Italia
 
 Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilità della funzionalità
+## Disponibilità della funzionalità
 
 * IVA e ritenute
     * [IVA italiana](italian-vat.md)
@@ -33,7 +27,6 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Preparare i report di transazioni IVA](how-to-prepare-for-vat-transactions-reports.md) **Disponibile ora**
     * [Stampare e ristampare i libri giornale e i registri IVA](how-to-print-and-reprint-g-l-books-and-vat-registers.md) **Disponibile ora**
     * [Stampa di report Intrastat per l'Italia](how-to-print-intrastat-reports-for-italy.md) **Disponibile ora**
-    * Intrastat per i servizi: **secondo ciclo di rilascio del 2022**
     * [Stampa report Ritenuta](how-to-print-withholding-tax-reports.md) **Disponibile ora**
 
 * Attività bancarie e pagamenti
@@ -44,7 +37,7 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 
 * Finanze principali
     * [Chiusura di un anno fiscale](how-to-close-a-fiscal-year.md) **Disponibile ora**
-    * [Definizione di dare e avere](how-to-define-debit-and-credit-amounts.md) **Disponibile ora**
+    * [Definizione di dare e avere ](how-to-define-debit-and-credit-amounts.md) **Disponibile ora**
     * [Storno di scritture contabili](reversing-journal-entries.md) **Disponibile ora**
 
 * Inventario
@@ -64,7 +57,13 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Conto lavoro italiano](italian-subcontracting.md) **Disponibile ora**
     * [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md) **Disponibile ora**
 
-## <a name="see-also"></a>Vedere anche
+## Futuri requisiti legislativi in fase di esame
+
+* Intrastat per i servizi: **primo ciclo di rilascio del 2023**
+* Aggiornata Fatturazione elettronica (FatturaPA) **secondo ciclo di rilascio del 2024**
+
+
+## Vedi anche
 
 [Utilizzare [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

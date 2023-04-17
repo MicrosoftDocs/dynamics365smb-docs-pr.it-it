@@ -1,25 +1,19 @@
 ---
-title: Preparare i report di transazioni IVA [IT]
+title: 'Preparare i report di transazioni IVA [IT]'
 description: Il seguente argomento spiega come preparare e inviare i report periodici delle transazioni IVA alle autorità fiscali.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: a6e5597760cff901c8bb4bb822ce4b5973ecc060
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148927"
 ---
-# <a name="prepare-for-vat-transactions-reports-in-the-italian-version"></a>Preparare i report di transazioni IVA nella versione italiana
+# Preparare i report di transazioni IVA nella versione italiana
 È necessario inviare i report periodici alle autorità fiscali per visualizzare l'elenco tutte le transazioni che includono l'IVA. L'autorità fiscale stabilisce le soglie richieste per la dichiarazione. Attualmente, la soglia è impostata su zero, a indicare che tutte le transazioni vengono dichiarate. Per prepararsi per le dichiarazioni, è necessario impostare la registrazione IVA in modo da includere gli importi di dichiarazione della transazione IVA.  
 
-## <a name="to-set-up-vat-transaction-amounts"></a>Per impostare gli importi delle transazioni IVA  
+## Per impostare gli importi delle transazioni IVA  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni IVA**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Importo report transazioni IVA**.  
@@ -39,7 +33,7 @@ ms.locfileid: "8148927"
     > [!NOTE]  
     >  Prima di poter specificare un rappresentante fiscale, è necessario creare il rappresentante fiscale come contatto.  
 
-### <a name="to-specify-a-tax-representative-for-a-non-resident-customer"></a>Per specificare un rappresentante fiscale per un cliente non residente  
+### Per specificare un rappresentante fiscale per un cliente non residente  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.  
 2. Selezionare un cliente.
@@ -52,7 +46,7 @@ ms.locfileid: "8148927"
 
     È necessario impostare le informazioni di modo che [!INCLUDE[prod_short](../../includes/prod_short.md)] terrà traccia delle nuove transazioni che corrispondono alle soglie specificate dalle autorità fiscali. Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti. Per ulteriori informazioni, vedere [Aggiornare i dati delle transazioni IVA](how-to-update-vat-transactions-data.md). È quindi possibile creare i report transazioni IVA. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).
 
-## <a name="see-also"></a>Vedi anche  
+## Vedi anche  
  [Aggiornare i dati delle transazioni IVA](how-to-update-vat-transactions-data.md)   
  [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md)   
  [IVA italiana](italian-vat.md)

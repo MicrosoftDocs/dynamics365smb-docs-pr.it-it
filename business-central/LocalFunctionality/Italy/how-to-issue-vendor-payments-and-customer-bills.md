@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 12102, 12175, 12176, 12178, 12180, 12181, 12182, 12184, 12185, 12186, 12190
+ms.search.keywords: null
+ms.search.form: '12102, 12175, 12176, 12178, 12180, 12181, 12182, 12184, 12185, 12186, 12190'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c734188ed59424d76295cb1ffef7f29439748d21
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146024"
 ---
-# <a name="issue-vendor-payments-and-customer-bills"></a>Emettere pagamenti fornitori ed effetti clienti
+# Emettere pagamenti fornitori ed effetti clienti
 
 La funzionalità di pagamento degli effetti cliente e fornitore supporta i formati SEPA oltre ai formati di file italiani. È possibile pagare i fornitori in base al bonifico SEPA standard e riscuotere i pagamenti dai clienti in base al metodo di addebito diretto SEPA standard. Di seguito viene descritto il processo per l'invio del pagamento a un fornitore con bonifico SEPA. I passaggi sono simili per la riscossione del pagamento da un cliente.  
 
@@ -30,7 +24,7 @@ Prima di avviare la seguente procedura, controllare che le informazioni sulla ba
 
 Inoltre, occorre inserire una fattura di acquisito registrata e con cui è possibile inviare un pagamento.  
 
-## <a name="to-issue-payment-to-a-vendor"></a>Per emettere il pagamento per un fornitore  
+## Per emettere il pagamento per un fornitore  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.  
 2. Selezionare il fornitore al quale si desidera inviare il pagamento. Nella Scheda dettaglio **Pagamento**, nel campo **Codice metodo di pagamento** scegliere l'opzione **TRASFBANC**.
@@ -54,7 +48,7 @@ Inoltre, occorre inserire una fattura di acquisito registrata e con cui è possi
 
 È possibile visualizzare il file XML prima di inviarlo. Per esaminare e correggere gli errori, è possibile fare riferimento al riquadro Dettaglio informazioni **Errori esportazione file**.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)
 

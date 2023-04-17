@@ -1,6 +1,6 @@
 ---
 title: 'Procedura: Chiusura di un anno fiscale'
-description: Per valutare i profitti e le perdite, alla fine di ogni anno fiscale viene fornito un report di chiusura dell'anno fiscale.
+description: 'Per valutare i profitti e le perdite, alla fine di ogni anno fiscale viene fornito un report di chiusura dell''anno fiscale.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -8,17 +8,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1f6a310900b9948f1d794163654692ec354fbea9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144184"
 ---
-# <a name="close-a-fiscal-year"></a>Chiusura di un anno fiscale
+# Chiusura di un anno fiscale
 Per valutare i profitti e le perdite, alla fine di ogni anno fiscale viene fornito un report di chiusura dell'anno fiscale.  
 
 La chiusura dell'anno fiscale include i seguenti passaggi:  
@@ -27,7 +21,7 @@ La chiusura dell'anno fiscale include i seguenti passaggi:
 - Generazione di un movimento di chiusura di fine anno utilizzando l'opzione **Chiudi conto economico**.  
 - Registrazione del movimento di chiusura di fine anno.  
 
-## <a name="to-close-a-fiscal-year"></a>Per chiudere un anno fiscale  
+## Per chiudere un anno fiscale  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Periodi contabili**, quindi scegli il collegamento correlato.  
 2.  Per chiudere un periodo contabile, selezionare il periodo contabile, quindi scegliere l'azione **Chiudi anno**.  
@@ -36,7 +30,7 @@ La chiusura dell'anno fiscale include i seguenti passaggi:
     > [!IMPORTANT]  
     >  Dopo la chiusura dell'anno fiscale, non sarà possibile riaprilo, né modificare il periodo nell'anno fiscale.  
 
-## <a name="to-generate-a-year-end-closing-entry-using-the-close-income-statement-option"></a>Per generare un movimento di chiusura di fine anno utilizzando l'opzione Chiudi conto economico  
+## Per generare un movimento di chiusura di fine anno utilizzando l'opzione Chiudi conto economico  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Chiudi conto economico**, quindi scegli il collegamento correlato.  
 2.  Compilare i campi nella scheda **Opzioni** come descritto nella tabella riportata di seguito.  
@@ -57,7 +51,7 @@ La chiusura dell'anno fiscale include i seguenti passaggi:
 
 3.  Scegliere il pulsante **OK** per creare le scritture contabili.  
 
-## <a name="to-post-the-year-end-closing-entry"></a>Per registrare il movimento di chiusura di fine anno  
+## Per registrare il movimento di chiusura di fine anno  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.  
 2.  Nel campo **Batch** specificare il batch contenente i movimenti di chiusura.  
@@ -66,7 +60,7 @@ La chiusura dell'anno fiscale include i seguenti passaggi:
 
 Viene registrato un movimento in ogni conto economico in modo che il saldo sia zero. Il risultato di fine anno viene trasferito nel conto patrimoniale.  
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
  [Chiusura di anni e periodi](../../year-close-years-periods.md)   
  [Funzionalità locale per l'Italia](italy-local-functionality.md)
 

@@ -1,40 +1,34 @@
 ---
 title: IVA italiana
-description: Nella versione italiana, l'IVA può essere dedotta se i beni o i servizi acquistati dall'azienda sono utilizzati nella produzione del suo reddito.
+description: 'Nella versione italiana, l''IVA può essere dedotta se i beni o i servizi acquistati dall''azienda sono utilizzati nella produzione del suo reddito.'
 author: edupont04
 ms.topic: conceptual
-ms.search.keywords: ''
-ms.search.form: 12100, 12104, 12105, 12111, 12112, 12113, 12122, 12126, 12127, 12133, 12135, 12151, 12158, 12187, 12189, 12198, 12199, 12202
+ms.search.keywords: null
+ms.search.form: '12100, 12104, 12105, 12111, 12112, 12113, 12122, 12126, 12127, 12133, 12135, 12151, 12158, 12187, 12189, 12198, 12199, 12202'
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 6a4c6d82e1c67023bb86952fa4431ed14fd2abb6
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372009"
 ---
-# <a name="italian-vat"></a>IVA italiana
+# IVA italiana
 
 Le società sono soggette al pagamento dell'IVA allo Stato per la maggior parte dei beni e dei servizi acquistati. L'IVA può essere detraibile se i beni o i servizi acquistati sono utilizzati nella produzione del reddito della società stessa.  
 
  In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile definire i report periodici IVA nella pagina **Report IVA**. È possibile compilare le righe in base ai movimenti IVA, quindi esportare il report IVA alle autorità competenti.  
 
-## <a name="vat-codes-and-rates"></a>Codici e aliquote IVA
+## Codici e aliquote IVA
 
 I codici e le aliquote IVA devono essere impostati anche se alcune transazioni non sono soggette a IVA. Esistono inoltre molte operazioni soggette a IVA per cui è prevista un'aliquota zero per legge.  
 
 Il codice IVA correlato viene stampato per ogni riga fattura. Le fatture per i movimenti transazioni IVA esenti da IVA devono essere registrate e stampate con una nota che indica che l'IVA non è dovuta.  
 
-### <a name="computing-vat"></a>Elaborazione dell'IVA
+### Elaborazione dell'IVA
 
 L'IVA per le transazioni viene elaborata in conformità con le normative in vigore nel giorno in cui hanno luogo le transazioni. È quindi necessario tenere traccia della data di esecuzione legale delle transazioni durante la registrazione delle transazioni.  
 
-### <a name="dates"></a>Date
+### Date
 
 La data d'emissione è la data del documento e la data di registrazione è la data di registrazione. I filtri dalla data reporting si basano sulle date di registrazione. Questo è cambiato dal comportamento precedente in cui i filtri per le date di segnalazione erano basati sulla data in cui è avvenuta l'operazione.  
 
-### <a name="non-deductible-vat"></a>IVA non detraibile
+### IVA non detraibile
 
 Non è possibile detrarre l'IVA per alcuni acquisti per i seguenti motivi:  
 
@@ -42,13 +36,13 @@ Non è possibile detrarre l'IVA per alcuni acquisti per i seguenti motivi:
 
 - IVA proporzionale parzialmente detraibile: l'IVA viene ripartita proporzionalmente tra le operazioni di vendita soggette a IVA e tutte le operazioni eseguite. L'IVA eccedente questo rapporto non può essere detratta.  
 
-## <a name="service-tariffs"></a>Nomenclatura articoli in assistenza
+## Nomenclatura articoli in assistenza
 
 L'Unione Europea (UE) ha emesso le direttive che cambiano la dichiarazione dell'IVA per il commercio transfrontaliere di beni o servizi nell'Unione Europea.  
 
 In Italia, i report elenco vendite UE (Intrastat) ed elenco annuale vengono aggiornati per includere i servizi. Ciò include una modifica nel formato di dichiarazione. Una nuova tabella per la nomenclatura articoli in assistenza è stata aggiunta in modo da consentire alle società di classificare i servizi che devono essere inclusi nel report INTRASTAT. Gli utenti devono aggiungere la nomenclatura di assistenza pertinente a tutti i documenti destinati alle transazioni transfrontaliere. La nomenclatura articoli in assistenza specificata nella Scheda dettaglio **Commercio estero** per il documento può essere modificato in ogni riga del documento.  
 
-## <a name="vat-transaction-reports"></a>Report transazioni IVA
+## Report transazioni IVA
 
 È necessario inviare periodicamente i report alle autorità fiscali per elencare le transazioni che includono l'IVA con importi superiori a una soglia specificata. I report transazioni IVA vengono creati in base alle transazioni con clienti o fornitori da un paese esterno all'UE e non incluso nell'elenco dei paesi bloccati delle autorità italiane. Le transazioni con clienti o fornitori dai paesi UE sono riportate nei report **Intrastat**. [!INCLUDE[prod_short](../../includes/prod_short.md)] fornisce il supporto per i seguenti tipi di transazione:  
 
@@ -95,7 +89,7 @@ Per prepararsi i dati per le dichiarazioni, è necessario impostare la registraz
 
 È necessario inviare il report transazioni IVA elettronicamente alle autorità fiscali. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare l'IVA](../../finance-setup-vat.md)  
 [Dichiarare l'IVA](../../finance-how-report-vat.md)  

@@ -1,20 +1,14 @@
 ---
 title: Impostare le condizioni pagamento
-description: Nella versione italiana di Business Central, per ogni condizione pagamento, è possibile specificare se il pagamento può essere rateizzato.
+description: 'Nella versione italiana di Business Central, per ogni condizione pagamento, è possibile specificare se il pagamento può essere rateizzato.'
 author: edupont04
 ms.topic: conceptual
-ms.search.keywords: ''
-ms.search.form: 12170, 12171, 12172, 12173, 12174
+ms.search.keywords: null
+ms.search.form: '12170, 12171, 12172, 12173, 12174'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd2576787815bd5ad829bdb9b656e409808f1a58
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512568"
 ---
-# <a name="set-up-payment-terms-in-the-italian-version"></a>Impostare le condizioni pagamento nella versione italiana
+# Impostare le condizioni pagamento nella versione italiana
 
 I termini di pagamento determinano la modalità di gestione delle date di scadenza e degli sconti pagamento. Per ogni condizione di pagamento, è possibile specificare se il pagamento può essere rateale. Ad esempio, è possibile definire che un pagamento può essere eseguito in tre rate dello stesso importo dopo 30, 60 e 90 giorni.  
 
@@ -22,7 +16,7 @@ Se una condizione di pagamento deve prevedere un unico pagamento, è necessario 
 
 Quando ti iscrivi per la prima volta a [!INCLUDE [prod_short](../../includes/prod_short.md)], la società demo fornisce alcuni metodi di pagamento che le aziende utilizzano spesso. Puoi tuttavia aggiungere tutti quelli desiderati.
 
-## <a name="to-set-up-payment-terms"></a>Impostare le condizioni pagamento
+## Impostare le condizioni pagamento
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Condizioni pagamento**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
@@ -42,7 +36,7 @@ Il campo **Nr. di pagamenti** nella pagina **Condizioni pagamento** viene aggior
 
 Dopo avere impostato le condizioni pagamento, è possibile assegnarle ai clienti e ai fornitori. Facoltativamente, assegna condizioni pagamento ai metodi di pagamento.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare le condizioni pagamento nella versione italiana](../../finance-payment-terms.md)  
 [Definizione dei metodi di pagamento](../../finance-payment-methods.md)  

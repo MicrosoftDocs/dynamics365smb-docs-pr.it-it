@@ -1,23 +1,17 @@
 ---
 title: Impostare la ritenuta d'acconto (IT)
-description: Nella versione italiana, le società devono versare la ritenuta allo Stato per i servizi di terzi e gli acquisti dai fornitori. Scopri come si fa.
+description: 'Nella versione italiana, le società devono versare la ritenuta allo Stato per i servizi di terzi e gli acquisti dai fornitori. Scopri come si fa.'
 author: edupont04
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8b02f6929946de8254c1756b08b7840d02684d5c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135535"
 ---
-# <a name="set-up-withholding-tax-in-the-italian-version"></a>Impostare la ritenuta d'acconto nella versione italiana
+# Impostare la ritenuta d'acconto nella versione italiana
 
 Le società devono versare la ritenuta allo Stato per i servizi di terzi e gli acquisti dai fornitori. La ritenuta viene calcolata al momento del pagamento della fattura anziché durante la registrazione della fattura.
 
-## <a name="to-set-up-withholding-tax-codes"></a>Per impostare i codici ritenuta
+## Per impostare i codici ritenuta
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ritenuta**, quindi scegli il collegamento per la pagina **Codice**.  
 
@@ -29,7 +23,7 @@ Le società devono versare la ritenuta allo Stato per i servizi di terzi e gli a
 
 5. Ripeti questi passaggi per ulteriori codici.  
 
-## <a name="to-set-up-withholding-tax-for-vendors"></a>Per impostare la ritenuta per i fornitori
+## Per impostare la ritenuta per i fornitori
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
 
@@ -45,7 +39,7 @@ Le società devono versare la ritenuta allo Stato per i servizi di terzi e gli a
     * Informazioni di commercio estero per il fornitore.
     * I campi pertinenti sulla scheda dettaglio **Ritenute e Contributi**, come il campo **Cod. ritenuta**.
 
-## <a name="to-calculate-withholding-tax-for-purchase-invoices"></a>Per calcolare la ritenuta per le fatture di acquisto
+## Per calcolare la ritenuta per le fatture di acquisto
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
 
@@ -57,7 +51,7 @@ Le società devono versare la ritenuta allo Stato per i servizi di terzi e gli a
 
 5. Per calcolare l'importo della ritenuta prima della registrazione, scegli l'azione **Calcola**.  
 
-## <a name="to-make-a-vendor-payment"></a>Per effettuare un pagamento fornitore
+## Per effettuare un pagamento fornitore
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
 
@@ -68,7 +62,7 @@ Le società devono versare la ritenuta allo Stato per i servizi di terzi e gli a
     > [!NOTE]
     > L'importo nella nuova riga nella pagina **Registrazioni pagamenti** corrisponde all'importo di pagamento della ritenuta.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Stampa di report delle ritenute](how-to-print-withholding-tax-reports.md)  
 [Impostare l'IVA](../../finance-setup-vat.md)  

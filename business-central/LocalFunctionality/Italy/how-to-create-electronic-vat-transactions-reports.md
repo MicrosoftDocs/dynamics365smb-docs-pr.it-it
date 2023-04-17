@@ -1,5 +1,5 @@
 ---
-title: Creare report elettronici di transazioni IVA [IT]
+title: 'Creare report elettronici di transazioni IVA [IT]'
 description: È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata.
 services: project-madeira
 documentationcenter: ''
@@ -8,20 +8,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 255b2467c44cce0fdd999ecbeb209b8fdc14c906
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144182"
 ---
-# <a name="create-electronic-vat-transactions-reports-in-the-italian-version"></a>Creare i report elettronici di transazioni IVA nella versione italiana
+# Creare i report elettronici di transazioni IVA nella versione italiana
 È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata. Inviare il report alle autorità fiscali.  
 
-## <a name="to-create-a-vat-transactions-report"></a>Per creare un report di transazioni IVA  
+## Per creare un report di transazioni IVA  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  Compilare i campi come indicato nella tabella seguente.  
@@ -39,7 +33,7 @@ Le note di credito vengono incluse nel report transazioni IVA se il cliente o il
 
 Dopo avere creato il report IVA, è necessario inviarlo alle autorità fiscali. Per ulteriori informazioni, vedere [Esportare i report di transazioni IVA](how-to-export-vat-transactions-reports.md).  
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
  [IVA italiana](italian-vat.md)
 
 

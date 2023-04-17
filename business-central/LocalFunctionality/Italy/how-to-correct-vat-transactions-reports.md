@@ -8,17 +8,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: fc86306f9e1c0d6301c9118499855ed295af9c66
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149283"
 ---
-# <a name="correct-vat-transactions-reports-in-the-italian-version"></a>Correggere i report di transazioni IVA nella versione italiana
+# Correggere i report di transazioni IVA nella versione italiana
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  Creare un nuovo report. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).  
@@ -45,7 +39,7 @@ ms.locfileid: "8149283"
 6.  Nella Scheda dettaglio **Generale** nel campo **Nr. ricevuta ufficio fiscale** specificare il numero di carico ricevuto dalle autorità fiscali.  
 7.  Scegliere l'azione **Contrassegna come inviato** per completare il report. Il valore del campo **Stato** diventa Inviato.  
 
-## <a name="see-also"></a>Vedere anche  
+## Vedere anche  
  [Esportare i report di transazioni IVA](how-to-export-vat-transactions-reports.md)
 
 
