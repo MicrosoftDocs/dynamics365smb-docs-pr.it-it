@@ -23,16 +23,23 @@
 #### [Procedura dettagliata: esecuzione di previsioni di flusso di cassa utilizzando i report finanziari](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Procedura dettagliata: impostazione e utilizzo del connettore Shopify](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Dati demo Contoso Coffee per la produzione
+### Dati demo Contoso Coffee
 #### [Introduzione ai dati demo Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
-#### [Creare una nuova distinta base di produzione e la versione della distinta base](contoso-coffee/create-new-production-bom-version.md)
-#### [Creare un nuovo ciclo](contoso-coffee/create-new-routing.md)
-#### [Creare un ordine di produzione confermato e modificarlo](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Combinare la consuntivazione automatica e manuale](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Usare la pianificazione degli ordini per creare e prenotare la fornitura](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Impostare ed elaborare un'operazione di conto lavoro](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Impostare una nuova capacità](contoso-coffee/set-up-new-capacity.md)
-#### [Varianti](contoso-coffee/variants.md)
+#### Produzione
+##### [Introduzione alla produzione per Contoso Coffee](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Creare una nuova distinta base di produzione e la versione della distinta base](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Creare un nuovo percorso di trasferimento](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Creare un ordine di produzione confermato e modificarlo](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Combinare la consuntivazione automatica e manuale](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Usare la pianificazione degli ordini per creare e prenotare la fornitura](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Impostare ed elaborare un'operazione di conto lavoro](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Impostare una nuova capacità](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Varianti](contoso-coffee/manufacturing/variants.md)
+#### Warehousing
+##### [Introduzione alla warehouse per Contoso Coffee](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Procedura dettagliata per il flusso in entrata e in uscita nelle configurazioni della warehouse di base](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Procedura dettagliata per il flusso in entrata e in uscita nelle configurazioni della warehouse miste](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Procedura dettagliata per il flusso in entrata e in uscita nella configurazione warehouse avanzata con Stoccaggi e prelievi guidati](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Dettagli di progettazione
 #### [Panoramica dei dettagli di progettazione dell'applicazione](design-details-application-design.md)
@@ -108,7 +115,7 @@
 ### [Annullare la sottoscrizione o rimuovere Business Central](admin-cancel.md)
 ### Testo del marketing articolo basato su intelligenza artificiale con Copilot
 #### [Panoramica](ai-overview.md)
-#### [Ottieni versione in anteprima - edizione Copilot](ai-preview-getstarted.md)
+#### [Ottenere la versione di anteprima](ai-preview-getstarted.md)
 #### [Configurare il testo del marketing articolo basato su intelligenza artificiale](enable-ai.md)
 #### [Creare il testo del marketing articolo basato su intelligenza artificiale](item-marketing-text.md)
 #### [Domande frequenti](ai-faq.md)
@@ -409,14 +416,19 @@
 ### Consolidare dati finanziari di più società
 #### [Consolidamento società](finance-consolidated-company-reporting.md)
 #### [Impostare il consolidamento società](finance-consolidated-company-reporting-setup.md)
-### [Consolidare i saldi per un'azienda che è cliente e fornitore](finance-consolidate-customer-vendor-balances.md)
-### [Informazioni sulla contabilità generale e Certificato di autenticità (Certificate of Authenticity)](finance-general-ledger.md)
+
+### Utilizzare il piano dei conti e la contabilità generale
+#### [Comprendere il piano dei conti e la contabilità generale](finance-general-ledger.md)
+#### [Rivedere i conti](finance-review-accounts.md)
+
+### [Consolidare i saldi per una società che è cliente e fornitore](finance-consolidate-customer-vendor-balances.md)
 ### [Usare le dimensioni](finance-dimensions.md)
-### [Risoluzione dei problemi e correzione delle dimensioni](finance-troubleshooting-correcting-dimensions.md)
+### [Risolvere i problemi e correggere le dimensioni](finance-troubleshooting-correcting-dimensions.md)
 ### [Valute in Business Central](finance-currencies.md)
 ### [Creare budget C/G](finance-how-create-budgets.md)
 ### [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)
 ### [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)
+### [Esportazione file di controllo](finance-how-to-export-audit-files.md)
 ### [Allocare costi e ricavi](year-allocate-costs-income.md)
 ### [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)
 ### [Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)
@@ -436,7 +448,8 @@
 ## Business Intelligence e report finanziario
 ### [Panoramica di Business Intelligence e report finanziario](bi.md)
 ### [Report finanziari](finance-reports.md)
-### [Analisi degli importi effettivi e degli importi di budget](bi-how-analyze-actual-versus-budget.md)
+### [Analizzare i dati con conti statistici](bi-use-statistical-accounts.md)
+### [Analizzare gli importi effettivi e gli importi di budget](bi-how-analyze-actual-versus-budget.md)
 ### [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)
 ### [Impostare e pubblicare servizi Web indicatore di prestazioni chiave (KPI) basati sui report finanziari](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)
@@ -795,8 +808,9 @@
 #### Generale
 ##### [Numeri impresa e numeri filiali](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Limitare il periodo di registrazione](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
-##### [Impostare la data del lavoro come data di registrazione.](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Impostare la data del lavoro come data di registrazione](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Rendere obbligatorie le definizioni di registrazioni](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Differimenti nei report del movimento contabile vendite e acquisti](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Funzionalità locale nella versione canadese](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -1511,14 +1525,16 @@
 #### [Inviare documenti tramite e-mail](ui-how-send-documents-email.md)
 #### [Impostare i metodi di spedizione](sales-how-set-up-shipment-methods.md)
 #### [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)
+#### [Definire criteri di registrazione fattura per gli utenti](admin-setup-invoice-posting-policy.md)
 ### Impostare gli acquisti
 #### [Impostare gli acquisti](purchasing-setup-purchasing.md)
 #### [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)
-#### [Impostare i conti correnti fornitori](purchasing-how-set-up-vendors-bank-accounts.md)
+#### [Impostare i conti bancari fornitori](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md)
 #### [Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md)
 #### [Impostare prezzi e sconti](across-prices-and-discounts.md)
 #### [Registrare i prezzi di acquisto e gli sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Definire criteri di registrazione fattura per gli utenti](admin-setup-invoice-posting-policy.md)
 ### Impostare il magazzino
 #### [Impostare il magazzino](inventory-setup-inventory.md)
 #### [Impostare le informazioni generali di magazzino](inventory-how-setup-general.md)
@@ -1629,8 +1645,9 @@
 ##### [Usare Business Central senza Outlook](admin-no-outlook.md)
 #### Usare Microsoft Teams con Business Central
 ##### [Sintesi](across-teams-overview.md)
-##### [Gestire l'integrazione di Teams](admin-teams-integration.md)
+##### [Gestire l'integrazione Teams](admin-teams-integration.md)
 ##### [Installare l'app Business Central per Teams](across-install-app-for-teams.md)
+##### [Accedere ai dati in Teams senza licenza per Business Central](teams-access-with-m365-license.md)
 ##### [Cercare clienti, fornitori e contatti](across-search-contacts-teams.md)
 ##### [Aggiungere una scheda Business Central al canale o alla chat](across-teams-tab.md)
 ##### [Condividere record e collegamenti di pagina in Teams](across-working-with-teams.md)
@@ -1754,7 +1771,8 @@
 ### [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)
 ### [Domande frequenti su ricerca e filtro](ui-search-filter-faq.yml)
 ### [Analizzare i dati della pagina in Excel](across-work-with-excel.md)
-### [Analisi dei dati del report con Excel](report-analyze-excel.md)
+### [Analizzare i dati del report con Excel](report-analyze-excel.md)
+### [Analizzare i dati di elenco con la modalità di analisi](analysis-mode.md)
 ### [Business Intelligence finanziario](bi.md)
 
 ## Analisi integrate 
@@ -1882,8 +1900,11 @@
 ### [Mappare le tabelle e i campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)
 ### [Programmare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Risoluzione dei problemi relativi agli errori di sincronizzazione](admin-troubleshoot-sales-synchronization.md)
+### [Risolvere errori di sincronizzazione](admin-troubleshoot-sales-synchronization.md)
 ### [Usare un flusso Power Automate per gli avvisi in caso di modifiche alle entità Dataverse](admin-power-automate-flow-dataverse.md)
+## Sincronizzare i dati master tra le società
+### [Preparati a sincronizzare i dati master](admin-set-up-data-sync.md)
+### [Gestire la sincronizzazione dati master](admin-sync-master-data.md)
 ## Dettagli di progettazione
 ### [Panoramica dei dettagli di progettazione dell'applicazione](design-details-application-design.md)
 ### Dettagli di progettazione: pianificazione approvvigionamento
