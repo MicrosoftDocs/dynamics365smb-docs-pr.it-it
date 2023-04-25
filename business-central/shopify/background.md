@@ -44,8 +44,8 @@ Ora, quando viene attivata l'azione di sincronizzazione, invece di un'attività 
 
 Altre attività che possono essere utili per automatizzare ulteriormente l'elaborazione dei documenti di vendita:
 
-- report 497 Agg. batch fatture acquisti
-- report 496 Aggior. batch ordini acquisto
+- report 297 Agg. batch fatture vendite
+- report 296 Aggior. batch ordini vendita
 
 È possibile utilizzare il campo **Nr. ordine Shopify** per identificare i documenti di vendita che sono stati importati da Shopify.
 

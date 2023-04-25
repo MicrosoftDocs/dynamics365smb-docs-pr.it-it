@@ -28,6 +28,7 @@ I flussi Power Automate vengono attivati da eventi, ad esempio la creazione, la 
 ## Informazioni sui flussi Power Automate
 
 Power Automate è un servizio che ti aiuta a creare flussi di lavoro (o flussi) automatizzati tra app e servizi, ad esempio [!INCLUDE[prod_short](includes/prod_short.md)]. I flussi Power Automate richiedono poca o nessuna conoscenza di codifica. Possono essere associati a un'ampia gamma di eventi e risposte, come ad esempio:
+
 - Registrare le modifiche
 - Aggiornamenti di file esterni
 - Documenti registrati
@@ -41,10 +42,13 @@ Esistono tre diversi tipi di flussi cloud con cui puoi lavorare:
 |Pianificato|Anche questo tipo di flusso viene eseguito automaticamente, ma viene eseguito periodicamente a una data e un'ora pianificate. |
 |Istantaneo |Questo tipo di flusso viene eseguito su richiesta, richiedendo all'utente di eseguirlo manualmente da un pulsante o un'azione in un'altra app o dispositivo, in questo caso, il client [!INCLUDE[prod_short](includes/prod_short.md)]. I flussi istantanei funzionano in modo simile ai collegamenti batch, eseguendo più passaggi lunghi con poche pressioni di pulsanti e vengono avviati da pagine o tabelle specifiche. Ad esempio, un flusso può aggiungere un pulsante al menu delle azioni nella pagina **Fornitori** per bloccare i pagamenti a un fornitore e, allo stesso tempo, inviare e-mail personalizzabili al contatto del fornitore e agli acquirenti della tua azienda, nonché aggiornare il contatto in Outlook. |
 
-## Funzionalità Power Automate in [!INCLUDE[prod_short](includes/prod_short.md)]
+## Funzionalità di Power Automate
 
-Puoi esplorare tutti i flussi Power Automate attualmente disponibili per te effettuando l'accesso a [Power Automate](https://powerautomate.com) e selezionando **I miei flussi** dalla barra di spostamento sul lato sinistro. Qui troverai tutti i flussi che hai già creato e i flussi condivisi con te da un amministratore o un collega. Questi flussi sono resi disponibili anche da dentro [!INCLUDE [prod_short](includes/prod_short.md)] da varie pagine. Con i flussi automatizzati in [!INCLUDE[prod_short](includes/prod_short.md)], non c'è niente che puoi fare, a meno che tu non voglia cambiarli o disattivarli. Altrimenti, funzioneranno solo se attivati. Per quanto riguarda i flussi istantanei sui dati [!INCLUDE[prod_short](includes/prod_short.md)], puoi eseguirli dalla maggior parte delle pagine di elenchi, schede e documenti selezionandoli dall'elemento **Automatizza** nell'azione. Ulteriori informazioni nelle sezioni di seguito.
+Puoi esplorare tutti i flussi Power Automate attualmente disponibili per te effettuando l'accesso a [Power Automate](https://powerautomate.com) e selezionando **I miei flussi** dalla barra di spostamento sul lato sinistro. Qui troverai tutti i flussi che hai già creato e i flussi condivisi con te da un amministratore o un collega.
 
+- I flussi istantanei sono disponibili anche per essere eseguiti direttamente dalla maggior parte delle pagine di elenchi, schede e documenti in [!INCLUDE[prod_short](includes/prod_short.md)]. Troverai i flussi istantanei nel gruppo di azioni **Automatizza** nella barra delle azioni delle pagine. Per eseguire un flusso, selezionalo e segui le istruzioni visualizzate. Ulteriori informazioni nelle sezioni di seguito.
+ 
+- Con i flussi automatizzati in [!INCLUDE[prod_short](includes/prod_short.md)], non c'è niente che puoi fare, a meno che tu non voglia cambiarli o disattivarli. Altrimenti, funzioneranno solo se attivati. 
 <!--
 
 ## Automated flows
@@ -55,7 +59,7 @@ With Power Automate, you can create business flows directly in-house and rely on
 
 ## Eseguire flussi istantanei
 
-I flussi di lavoro istantanei vengono aperti in [!INCLUDE [prod_short](includes/prod_short.md)] online in modo da rimanere nel contesto del processo aziendale in cui eri nel mezzo. Puoi eseguire un flusso istantaneo dalla maggior parte degli elenchi, delle schede o dei documenti.
+I flussi di lavoro istantanei vengono aperti in [!INCLUDE [prod_short](includes/prod_short.md)] online in modo da rimanere nel contesto del processo aziendale corrente. Puoi eseguire un flusso istantaneo dalla maggior parte degli elenchi, delle schede o dei documenti.
 
 1. Nella barra delle azioni, seleziona **Automatizza**, quindi scegli un flusso dall'elenco dei flussi disponibili nell'azione **Power Automate**
 
@@ -86,9 +90,9 @@ Most flows require you to fill in a field or two before you choose the **Run flo
 
 - Per creare un flusso istantaneo da una pagina elenco, scheda o documento, seleziona **Automatizza** > **Crea un flusso**.
 - Per aprire Power Automate da una pagina elenco, scheda o documento, seleziona **Automatizza** > **Gestisci flussi**.
-- Per creare nuovi flussi o gestire i flussi esistenti da dentro [!INCLUDE[prod_short](includes/prod_short.md)], vai alla pagina **Gestisci flussi Power Automate**.
+<!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-Queste attività vengono in genere eseguite da un amministratore o un utente con privilegi avanzati. Le attività richiedono una conoscenza più ampia dei processi aziendali in [!INCLUDE[prod_short](includes/prod_short.md)]. Per saperne di più, vedi [Imposta flussi automatizzati](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows),[ Imposta flussi istantanei](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) e [Gestisci flussi Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+Queste attività vengono in genere eseguite da un amministratore o un utente con privilegi avanzati. Le attività richiedono una conoscenza più ampia dei processi aziendali in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Integrazione di Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Imposta flussi istantanei](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) e [Gestisci flussi Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
 <!-- 
 
 ## Add more automated flows and instant flows

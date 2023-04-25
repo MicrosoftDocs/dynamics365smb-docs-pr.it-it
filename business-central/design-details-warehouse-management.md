@@ -28,7 +28,7 @@ Implementa queste funzionalità in diverse combinazioni per adattare i processi 
 
 ## Panoramica delle diverse opzioni di configurazione
 
-È possibile configurare le funzionalità warehouse in vari modi. È importante che le opzioni che scegli migliorino i tuoi processi senza causare sovraccarico. La tabella seguente fornisce una panoramica delle configurazioni tipiche utilizzate quando si tratta di beni fisici.
+È possibile configurare le funzionalità warehouse in vari modi. È importante scegliere opzioni che migliorino i tuoi processi senza causare sovraccarico. La tabella seguente fornisce una panoramica delle configurazioni tipiche per i beni fisici.
 
 |Livello di complessità|Descrizione|Impostazioni|Codice collocazione|Esempio di flusso in entrata|Esempio di flusso in uscita|Esempio di flusso interno|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -61,7 +61,7 @@ Per gestire i beni fisici, devi disporre di almeno una ubicazione. È possibile 
 In genere, le ubicazioni sono il modo preferito per organizzare le operazioni distribuite in più aree geografiche. In alcuni casi, tuttavia, potresti voler creare più ubicazioni che si trovano nello stesso luogo. L'utilizzo delle ubicazioni presenta i seguenti vantaggi:
 
 * Concedi l'accesso utilizzando le pagine **Impiegato warehouse** e **Centri di responsabilità**.
-* Definisci calendari, cicli e tempi di gestione in entrata e in uscita per il calcolo e la pianificazione delle date. [Informazioni sulla funzionalità di pianificazione](production-about-planning-functionality.md).
+* Definisci calendari, cicli e tempi di gestione in entrata e in uscita per il calcolo e la pianificazione delle date. Per ulteriori informazioni, vedi [Informazioni sulla funzionalità di pianificazione](production-about-planning-functionality.md).
 * Specifica le dimensioni predefinite e utilizza diverse impostazioni di registrazione dell'inventario.
 * Imposta i parametri di pianificazione. Per ulteriori informazioni vedi [Parametri di pianificazione](production-about-planning-functionality.md#planning-parameters).  
 * Utilizza funzionalità di warehouse diverse per ogni ubicazione.

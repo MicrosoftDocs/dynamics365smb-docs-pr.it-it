@@ -11,7 +11,7 @@ ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
 ms.search.form: '6250,'
 ---
 
-# Accoppiamento e sincronizzazione dei record tra Dataverse e Business Central
+# Associare e sincronizzare record tra Dataverse e Business Central
 
 In questo argomento viene descritto come associare uno o più record in [!INCLUDE[prod_short](includes/prod_short.md)] a record in Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. L'associazione di record consente di visualizzare le infomazioni di Dataverse da [!INCLUDE[prod_short](includes/prod_short.md)] e viceversa. L'associazione consente inoltre di sincronizzare dati tra i record. È possibile associare i record esistenti, oppure creare e associare nuovi record.
 
@@ -45,7 +45,7 @@ Questo video mostra l'associazione e la sincronizzazione dei dati nel contesto d
 2. Scegli l'azione **[!INCLUDE[prod_short](includes/prod_short.md)]** nella barra multifunzione per aprire e associare automaticamente il record.
 
     > [!Note]
-    > È possibile sincronizzare un singolo record da [!INCLUDE[crm_md](includes/crm_md.md)] automaticamente solo quando **Sinc. solo record associati** è disabilitata e la direzione di sincronizzazione è impostata su Bidirezionale o Da tabella di integrazione nella pagina **Integration Table Mapping** per il record. Per ulteriori informazioni, vedere [Mappatura delle tabelle e dei campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
+    > È possibile sincronizzare automaticamente un singolo record da [!INCLUDE[crm_md](includes/crm_md.md)] solo quando l'opzione **Sinc. solo record associati** è disabilitata e la direzione di sincronizzazione è impostata su **Bidirezionale** o **Da tabella di integrazione** nella pagina **Mapping tabella integrazione** per il record. Per ulteriori informazioni, vedere [Mappatura delle tabelle e dei campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
 ## Per accoppiare più record usando l'accoppiamento basato sulla corrispondenza
 
@@ -64,11 +64,41 @@ Specifica i dati da sincronizzare per un'entità, come un cliente o un contatto,
 2. Selezionare i record che si intende sincronizzare, quindi scegliere **Sincronizza adesso**.  
 3. Se i record possono essere sincronizzati in una direzione, selezionare l'opzione che specifica la direzione e scegliere **OK**.  
 
+## Inserire e associare record in blocco
+
+Se hai un numero elevato di entità Dataverse che corrispondono ai record in [!INCLUDE [prod_short](includes/prod_short.md)], puoi inserirle e associarle in blocco. Ad esempio, potresti voler inserire e associare in blocco i record quando imposti la sincronizzazione per la prima volta.
+
+Utilizzerai la **procedura guidata per l'importazione di dati** nell'**interfaccia di amministrazione di Microsoft Power Platform**.
+
+L'esempio seguente descrive come inserire e associare in blocco clienti ad account in Dataverse. Utilizza lo stesso processo per altri tipi di entità, come fornitori, articoli e risorse.
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , immetti **Clienti**, quindi scegli il collegamento correlato.
+2. Scegli l'azione **Apri in Excel** per aprire i dati del cliente in Excel. <!--Don't they need to choose the customers that they want to import to Dataverse?-->
+3. Per mappare e importare dati nell'entità **Account** in Dataverse, segui i passaggi descritti in [Importare i dati (tutti i tipi di record ) da più origini](/power-platform/admin/import-data-all-record-types).  
+
+    Se l'entità Account include una colonna **bcbi_companyid**, quando esegui il mapping delle colonne di dati assicurati che l'importazione assegni l'ID azienda appropriato nella colonna per ogni record importato. Per trovare l'ID azienda in [!INCLUDE [prod_short](includes/prod_short.md)], procedi come segue:
+
+    1. Apri la pagina **Mapping tabella integrazione**.
+    2. Scegli il mapping **CLIENTE**, quindi scegli **Modifica lista**.
+    3. Scorri verso destra e scegli il pulsante di modifica assistita :::image type="icon" source="media/assist-edit-icon.png" border="false"::: nel campo **Filtro tabella integrazione**. Viene visualizzato il filtro predefinito per il mapping dei clienti che contiene l'ID azienda. L'ID azienda è la prima parte del valore. Copia solo quella parte e ignora gli 0. L'esempio seguente evidenzia la parte da copiare.
+
+    :::image type="content" source="media/dataverse-company-id-guid.png" alt-text="Mostra la parte dell'ID azienda da copiare.":::
+
+    > [!NOTE]
+    > Non tutti i nomi delle entità Dataverse e i record di Business Central corrispondono. A seconda di ciò che stai importando, verifica che le seguenti colonne contengano i seguenti valori dopo l'importazione:
+    >
+    >* Per i clienti, la colonna **CustomerTypeCode** deve contenere **Cliente**.
+    >* Per i fornitori, la colonna **CustomerTypeCode** deve contenere **Fornitori**. 
+    >* Per gli articoli, la colonna **ProductTypeCode** deve contenere **Inventario vendite**.
+    >* Per le risorse, la colonna **ProductTypeCode** deve contenere **Servizio**.
+ 
+4. Dopo aver importato i dati nell'ambiente Dataverse, in [!INCLUDE [prod_short](includes/prod_short.md)], segui i passaggi [Per associare più record usando l'associazione basata su corrispondenza](#to-couple-multiple-records-using-match-based-coupling) per associare le entità Dataverse con record [!INCLUDE [prod_short](includes/prod_short.md)]. 
+
 ## Annullare l'associazione di record
 
 È possibile annullare l'associazione di uno o più record nelle pagine di elenco o nella pagina **Errori di sincronizzazione dati associati** scegliendo una o più righe e quindi **Elimina associazione**. È inoltre possibile rimuovere tutte le associazioni per una o più mapping di tabella nella pagina **Mapping tabella integrazione**.
 
-## Vedere anche  
+## Vedi anche  
 
 [Utilizzare Dynamics 365 Sales da Business Central](marketing-integrate-dynamicscrm.md)
 
