@@ -63,7 +63,7 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 - Nella Scheda dettaglio **Pagamento anticipato** è possibile visualizzare informazioni di riepilogo relative agli importi prepagati.  
 - Nella Scheda dettaglio **Fornitore** è possibile visualizzare le informazioni principali relative al fornitore.
 
-## Pere visualizzare le righe degli ordini di vendita programmati registrate e non registrate
+## Per visualizzare le righe degli ordini di vendita programmati registrate e non registrate
 
 Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di origine ed eventuali altri documenti di vendita, viene mantenuto dopo la registrazione come lista delle righe della fattura di vendita registrate e non registrate.  
 
