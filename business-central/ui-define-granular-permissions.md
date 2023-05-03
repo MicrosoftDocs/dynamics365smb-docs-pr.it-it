@@ -109,12 +109,11 @@ Per escludere completamente tutte le autorizzazioni di un set di autorizzazioni,
 
 Per escludere completamente o parzialmente un'autorizzazione specifica in un set che hai aggiunto, in **Autorizzazioni**, crea una riga per l'oggetto. I campi del livello di accesso, Inserisci autorizzazione, Modifica autorizzazione e così via, conterranno tutti **Escludi**. Per consentire un certo livello di accesso, scegli l'opzione appropriata.
 
-> [!NOTE]
-> L'esclusione di un set di autorizzazioni esclude tutte le autorizzazioni nel set. [!INCLUDE [prod_short](includes/prod_short.md)] calcola le autorizzazioni come segue:
+L'esclusione di un set di autorizzazioni esclude tutte le autorizzazioni nel set. [!INCLUDE [prod_short](includes/prod_short.md)] calcola le autorizzazioni come segue:
 
-> 1. Calcola l'elenco completo delle autorizzazioni incluse
-> 2. Calcola l'elenco completo delle autorizzazioni escluse
-> 3. Rimuovi le autorizzazioni escluse dall'elenco delle autorizzazioni incluse (la rimozione di un'autorizzazione indiretta equivale a Riduci su indiretto)
+1. Calcola l'elenco completo delle autorizzazioni incluse
+2. Calcola l'elenco completo delle autorizzazioni escluse
+3. Rimuovi le autorizzazioni escluse dall'elenco delle autorizzazioni incluse (la rimozione di un'autorizzazione indiretta equivale a Riduci su indiretto)
 
 ## Per copiare un set di autorizzazioni
 
