@@ -59,9 +59,11 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
 
 ## Futuri requisiti legislativi in fase di esame
 
-* Intrastat per i servizi: **primo ciclo di rilascio del 2023**
+* Intrastat per i servizi **maggio 2023**
+* IVA indetraibile ridisegnata e aggiornata **luglio 2023**
 * Aggiornata Fatturazione elettronica (FatturaPA) **secondo ciclo di rilascio del 2024**
 
+Se sei a conoscenza di eventuali caratteristiche normative imminenti, invia un [Avviso sulle funzionalità normative](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## Vedi anche
 

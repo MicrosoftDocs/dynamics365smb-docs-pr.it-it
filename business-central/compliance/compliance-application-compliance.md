@@ -1,26 +1,25 @@
 ---
 title: Conformità dell'applicazione
-description: 'Questo argomento spiega la conformità dell''applicazione in relazione a Business Central, come i principi IFRS, la funzionalità locale e GDPR.'
+description: 'Questo articolo spiega come Business Central è conforme agli standard di rendiconti finanziari internazionali, funzionalità locali e leggi e regolamenti sulla privacy.'
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 08/25/2022
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Conformità dell'applicazione
 
-Questo argomento contiene informazioni sulla conformità dell'applicazione in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)], come i principi IFRS, la funzionalità locale, Regolamento generale sulla protezione dei dati (GDPR) e altro ancora. La fiducia in una soluzione di gestione aziendale è la chiave per un'azienda efficiente. Grazie a Business Central, le società hanno la possibilità di semplificare i processi aziendali conformandosi nel contempo in modo coerente e conveniente ai crescenti requisiti normativi e di reporting.
+Questo articolo fornisce informazioni su come le società hanno la possibilità di semplificare i processi aziendali conformandosi nel contempo in modo coerente e conveniente ai crescenti requisiti normativi e di reporting grazie a [!INCLUDE [prod_short](../includes/prod_short.md)].
 
 ## Privacy dei dati
 
-Business Central supporta le iniziative per la privacy dei dati come il GDPR entrato in vigore il 25 maggio 2018. Per ulteriori informazioni, vedi [Business Central supporta GDPR](../admin-responding-to-requests-about-personal-data.md).  
+[!INCLUDE [prod_short](../includes/prod_short.md)] supporta le leggi e i regolamenti sulla privacy dei dati. [Informazioni su come rispondere alle richieste degli interessati in Business Central](../admin-responding-to-requests-about-personal-data.md).
 
-Se sei uno sviluppatore delle estensioni di Business Central, devi conoscere la classificazione dei dati. Per ulteriori informazioni, vedi [questa pagina](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
-Per ulteriori informazioni su GDPR in Dynamics 365, vedi [questo elenco di whitepaper](/dynamics365/get-started/gdpr/).
+Se sviluppi estensioni [!INCLUDE [prod_short](../includes/prod_short.md)], devi sapere [ come i dati vengono classificati in Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+
+[Ulteriori informazioni sulla privacy dei dati in Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## Processi e controlli contabili per agevolare la conformità
 
@@ -36,7 +35,7 @@ La conformità non dipende solo da informazioni accurate e processi contabili ap
 
 ## Concretizzare i benefici di una soluzione di gestione aziendale integrata
 
-Business Central fornisce informazioni finanziarie e operative integrate e in tempo reale dell'organizzazione in modo da poter:
+[!INCLUDE [prod_short](../includes/prod_short.md)] fornisce informazioni finanziarie e operative integrate e in tempo reale dell'organizzazione in modo da poter:
 
 - Tenere traccia dei dati finanziari usando report finanziari personalizzati per flusso di cassa, ricavi, conti economici, cespiti, struttura del capitale, indicatori delle prestazioni chiave, ecc.
 - Salvaguardare l'accuratezza dei dati con una protezione basata sui ruoli e controlli dell'applicazione configurabili che impediscono l'immissione di dati non validi o duplicati.
@@ -45,7 +44,7 @@ Business Central fornisce informazioni finanziarie e operative integrate e in te
 
 ## Controllare processi, report e informazioni critiche
 
-Business Central migliora il controllo delle funzioni chiave e delle informazioni critiche per il successo delle operazioni finanziarie della tua azienda.
+[!INCLUDE [prod_short](../includes/prod_short.md)] migliora il controllo delle funzioni chiave e delle informazioni critiche per il successo delle operazioni finanziarie della tua azienda.
 
 ### Gestire la conformità agli standard pertinenti
 
@@ -90,7 +89,7 @@ Microsoft crea versioni localizzate di Business Central per un numero limitato d
 
 > [!NOTE]  
 > **IAS/IFRS: standard di riconoscimento e controllo**  
-> A seconda dei principi GAAP locali attualmente in uso, una delle principali modifiche negli standard di riconoscimento e controllo per IAS/IFRS è l'utilizzo esteso dei principi del valore di mercato anziché del costo storico. Business Central può consentire alle società di calcolare i concetti di valore di mercato e di valore attuale netto (VAN), che sono incentrati sui flussi di cassa correnti e previsti anziché sul prezzo di acquisto storico. Può inoltre fornire reporting di settore per business unit e ubicazione geografica.
+> A seconda dei principi GAAP locali attualmente in uso, una delle principali modifiche negli standard di riconoscimento e controllo per IAS/IFRS è l'utilizzo esteso dei principi del valore di mercato anziché del costo storico. [!INCLUDE [prod_short](../includes/prod_short.md)] può consentire alle società di calcolare i concetti di valore di mercato e di valore attuale netto (VAN), che sono incentrati sui flussi di cassa correnti e previsti anziché sul prezzo di acquisto storico. Può inoltre fornire reporting di settore per business unit e ubicazione geografica.
 
 > [!NOTE]  
 > **Basilea II: implicazioni per reporting e analisi**  
