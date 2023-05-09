@@ -7,18 +7,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: BI, add-in, insight, headline, data
-ms.search.form: 1439,
+ms.search.keywords: 'BI, add-in, insight, headline, data'
+ms.search.form: '1439,'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361747"
 ---
-# <a name="the-essential-business-insights-extension"></a>Estensione Informazioni aziendali essenziali
+
+# Estensione Informazioni aziendali essenziali
 
 L'estensione Informazioni aziendali essenziali consente di trovare informazioni aziendali utili nei dati dell'azienda e le visualizza come titoli di giornale nelle Gestioni ruolo utente. A seconda di ciò che l'estensione trova nei dati, le informazioni dettagliate sono relative alla settimana, al mese o ai tre mesi precedenti la data corrente. Le informazioni dettagliate vengono aggiornate ogni 10 minuti.  
 
@@ -37,7 +32,7 @@ Nella tabella seguente vengono descritte le informazioni dettagliate che questa 
 |Project Manager| Visualizza un messaggio di saluto e il collegamento a informazioni sul prodotto.|
 |Amministratore| Visualizza un messaggio di saluto e il collegamento a informazioni sul prodotto.|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)
 

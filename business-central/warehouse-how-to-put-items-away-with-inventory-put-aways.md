@@ -32,9 +32,9 @@ Quando l'ubicazione è impostata in modo da richiedere l'elaborazione degli stoc
 
 È possibile creare uno stoccaggio in magazzino in tre modi:  
 
-- Creare lo stoccaggio in magazzino direttamente dal documento di origine.  
-- Crea gli stoccaggi in magazzino per più documenti di origine contemporaneamente utilizzando un processo batch.  
-- Crea lo stoccaggio in due passaggi rilasciando prima il documento di origine per rendere gli articoli disponibili per lo stoccaggio. È possibile creare lo stoccaggio di magazzino in base al documento di origine utilizzando la pagina **Stoccaggio magazzino**.  
+* Creare lo stoccaggio in magazzino direttamente dal documento di origine.  
+* Crea gli stoccaggi in magazzino per più documenti di origine contemporaneamente utilizzando un processo batch.  
+* Crea lo stoccaggio in due passaggi rilasciando prima il documento di origine per rendere gli articoli disponibili per lo stoccaggio. È possibile creare lo stoccaggio di magazzino in base al documento di origine utilizzando la pagina **Stoccaggio magazzino**.  
 
 ## Per creare uno stoccaggio magazzino dal documento origine
 
@@ -80,6 +80,8 @@ Un addetto warehouse può creare un nuovo stoccaggio di magazzino in base al doc
 
     * Registrare il carico delle righe del documento di origine che sono state stoccate
     * Se l'ubicazione prevede l'utilizzo di collocazioni, verranno inoltre creati movimenti warehouse per la registrazione delle modifiche delle quantità nelle collocazioni.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## Vedi il relativo [training Microsoft](/training/modules/receive-put-away-items/)
 

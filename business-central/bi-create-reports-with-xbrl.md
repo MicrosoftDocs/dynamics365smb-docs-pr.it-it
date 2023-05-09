@@ -90,8 +90,12 @@ La prima operazione da eseguire per poter utilizzare la funzionalità XBRL è l'
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Tassonomie XBRL**, quindi scegli il collegamento correlato.  
 2. Creare una nuova riga e immettere il nome e la descrizione della tassonomia nella pagina **Tassonomie XBRL**.  
 3. Scegli l'azione **Schemi** e quindi inserisci la descrizione dello schema.  
-4. Per importare lo schema, nella pagina **Schemi XBRL** scegli l'azione **Importa** e quindi seleziona una cartella e un file XSD. Scegli **Apri**.  
-5. Per importare la base di collegamento, nella pagina **Schemi XBRL** scegli l'azione **Basi collegamento** e quindi seleziona una cartella e un file XML. Scegli **Apri**.  
+4. Per importare lo schema, nella pagina **Schemi XBRL**, scegli l'azione **Importa**, quindi esegui una delle seguenti operazioni per caricare il file:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Per importare la base collegamento, nella pagina **Schemi XBRL**, scegli l'azione **Basi collegamento**, quindi esegui una delle seguenti operazioni per caricare il file:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. A questo punto, è possibile scegliere se applicare o meno la base di collegamento allo schema. Ripetere questa procedura per importare tutte le basi di collegamento.  
 7. Scegliere l'azione **Applicare a tassonomia** per applicare la base di collegamento allo schema.  
 
