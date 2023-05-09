@@ -1,24 +1,23 @@
 ---
 title: Programmare l'esecuzione automatica di processi
-description: I task programmati sono gestiti dalla coda processi. Questi processi eseguono report e codeunit. È possibile impostare processi da eseguire una sola volta o periodicamente.
-author: edupont04
+description: Informazioni su come utilizzare i movimenti coda processi per eseguire report e codeunit.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 03/20/2023
+ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
-ms.date: 10/01/2021
-ms.author: edupont
 ---
 # Utilizzare le code processi per programmare i task
 
-La pagina Movimenti coda processi consente agli utenti di programmare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Ad esempio, è possibile eseguire il report **Venditore * Statistiche di vendita** settimanale per monitorare le vendite per venditore ogni settimana, oppure è possibile eseguire la codeunit **Delegare le richieste di approvazione** quotidianamente per evitare che i documenti si accumulino.
+Usa la pagina **Movimenti coda processi** per programmare ed eseguire report e codeunit specifici. È possibile impostare processi da eseguire una sola volta o periodicamente. Ad esempio, è possibile eseguire il report **Venditore * Statistiche di vendita** settimanale per monitorare le vendite per venditore ogni settimana, oppure è possibile eseguire la codeunit **Delegare le richieste di approvazione** quotidianamente per evitare che i documenti si accumulino.
 
-Nella pagina **Movimenti coda processi** sono elencati tutti i processi esistenti. Se aggiungi un nuovo movimento coda processi che vuoi pianificare, devi fornire alcune informazioni. Ad esempio:
+Nella pagina Movimenti coda processi sono elencati tutti i processi esistenti. Se aggiungi un nuovo movimento coda processi che viene eseguito in una programmazione, devi fornire alcune informazioni. Ad esempio:
 
 * Il tipo di oggetto da eseguire, ad esempio un report o una codeunit. È necessario disporre dell'autorizzazione per eseguire il report o la codeunit particolare.
-* Il nome e l'ID dell'oggetto. 
-* I parametri per specificare il comportamento del movimento coda processi. Ad esempio, è possibile aggiungere un parametro per inviare solo ordini di vendita registrati. 
+* Il nome e l'ID dell'oggetto.
+* I parametri per specificare il comportamento del movimento coda processi. Ad esempio, è possibile aggiungere un parametro per inviare solo ordini di vendita registrati.
 * Quando e con quale frequenza verrà eseguito il movimento coda processi.
 
 > [!IMPORTANT]  
@@ -32,11 +31,11 @@ Dopo la configurazione e l'esecuzione delle code processi, lo stato può cambiar
 * **Errore**  
 * **Completato**  
 
-Dopo che un processo viene eseguito correttamente, viene rimosso dell'elenco dei movimenti coda processi a meno che non sia un processo ricorrente. Se è un processo ricorrente, il campo **Prima data/ora inizio** viene rettificato per mostrare la volta successiva in cui è prevista l'esecuzione del processo.  
+Dopo che un processo viene eseguito correttamente, viene rimosso dell'elenco dei movimenti coda processi a meno che non sia un processo ricorrente. Se è un processo ricorrente, il campo **Prima data/ora inizio** viene rettificato per mostrare la volta successiva in cui viene eseguito il processo.  
 
 ## Monitorare lo stato o gli errori nella coda processi
 
-I dati generati dalla coda processi vengono memorizzati nel database, in modo da poter risolvere gli errori relativi alla coda processi.  
+I dati generati dalla coda processi vengono memorizzati, in modo da poter risolvere gli errori.  
 
 Per ogni movimento coda processi, è possibile visualizzare e modificare lo stato. Quando si crea un movimento coda processi, il relativo stato è impostato su **In sospeso**. Ad esempio, è possibile impostare lo stato su **Pronto** e di nuovo su **In sospeso**. In caso contrario, le informazioni relative allo stato verranno aggiornate automaticamente.
 
@@ -55,11 +54,11 @@ La tabella seguente descrive i valori del campo **Stato**.
 
 ### Per visualizzare lo stato di qualsiasi processo
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.
 2. Nella pagina **Movimenti coda processi**, selezionare un movimento coda processi quindi scegliere il l'azione **Movimenti log**.  
 
 > [!TIP]
-> È inoltre possibile visualizzare lo stato dei movimenti della coda processi utilizzando Application Insights in Microsoft Azure per analisi più approfondite basate sulla telemetria. Per ulteriori informazioni, vedere [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) e [Analisi della telemetria della traccia del ciclo di vita della coda processi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) nel contenuto per sviluppatori e amministratori [!INCLUDE [prod_short](includes/prod_short.md)].
+> Per un'analisi approfondita basata sulla telemetria, puoi usare Application Insights in Microsoft Azure per esaminare lo stato dei movimenti coda processi. Per saperne di più sulla telemetria, vai a [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) e [Analisi della telemetria della traccia del ciclo di vita della coda processi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 ## Visualizza i compiti programmati
 
@@ -72,7 +71,7 @@ Ad esempio, tutte le attività pianificate vengono interrotte se l'azienda si tr
 
 ## Parte Coda processi
 
-La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle code processi avviati, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, ma puoi aggiungerla alla Gestione ruolo utente. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md).  
+La parte **Coda processi** in Gestione ruolo utente mostra i movimenti delle code processi avviati, ma non ancora completati. Per impostazione predefinita, la parte non è visibile, ma puoi aggiungerla alla Gestione ruolo utente. Per ulteriori informazioni sulla personalizzazione, vai a [Personalizzare l'area di lavoro](ui-personalization-user.md).  
 
 La parte mostra le seguenti informazioni:
 
@@ -86,25 +85,45 @@ La parte Coda processi personali consente inoltre di annullare la registrazione 
 1. In un movimento con lo stato, **Errore**scegliere l'azione **Mostra errore**.
 2. Analizzare il messaggio di errore e correggere il problema.
 
-## Esempi di cosa può essere programmato utilizzando la coda processi
+## Esempi di cosa puoi programmare utilizzando i movimenti coda processi
 
 ### Programmare report
 
 È possibile programmare un report o un processo batch da eseguire a una data e un'ora specifiche. I report e i processi batch programmati vengono inseriti nella coda commesse e vengono elaborati all'orario pianificato, in maniera analoga alle altre commesse. Scegliere l'opzione **Programmazione** dopo aver scelto l'azione **Invia a**, quindi immettere informazioni quali stampante, ora e data, ricorrenza.  
 
-Per ulteriori informazioni, vedere [Programmazione dell'esecuzione di un report](ui-work-report.md#ScheduleReport)
+Per saperne di più sulla programmazione, vai a [Programmazione di un report da eseguire](ui-work-report.md#ScheduleReport)
 
 ### Programmare la sincronizzazione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Se hai integrato [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[prod_short](includes/cds_long_md.md)], la coda processi ti consente di pianificare quando sincronizzare i dati. A seconda della direzione e delle regole che hai definito, il movimento coda processi può creare record in un'app in modo che corrispondano ai record nell'altra. Un buon esempio è quando registri un contatto in [!INCLUDE[crm_md](includes/crm_md.md)], il movimento coda processi può impostare quel contatto per te in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Programmazione di una sincronizzazione tra Business Central e Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+Se hai integrato [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[prod_short](includes/cds_long_md.md)], la coda processi ti consente di pianificare quando sincronizzare i dati. A seconda della direzione e delle regole che hai definito, il movimento coda processi può creare record in un'app in modo che corrispondano ai record nell'altra. Un buon esempio è quando registri un contatto in [!INCLUDE[crm_md](includes/crm_md.md)], il movimento coda processi può impostare quel contatto per te in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni sulla programmazione, vai a [Programmazione di una sincronizzazione tra Business Central e Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 
-### Programmare la registrazione delle vendite e gli ordini acquisto
+### Programmare la registrazione delle vendite e degli ordini acquisto
 
-È possibile utilizzare i movimenti coda processi per pianificare l'esecuzione in background dei processi aziendali. Ad esempio, le attività in background sono utili quando più utenti registrano ordini di vendita contemporaneamente, ma può essere elaborato solo un ordine alla volta. Per ulteriori informazioni, vedere [Per configurare la registrazione background con le code processi](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+È possibile utilizzare i movimenti coda processi per pianificare l'esecuzione in background dei processi aziendali. Ad esempio, le attività in background sono utili quando più utenti registrano ordini di vendita contemporaneamente, ma può essere elaborato solo un ordine alla volta. Per saperne di più sulla registrazione in background, vai a [Per configurare la registrazione in background con le code processi](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+
+## Gestire i problemi dei movimenti coda processi
+
+Se un movimento coda processi mostra un errore, la prima opzione per risolvere il problema è riavviare il movimento coda processi. È possibile impostare lo stato del movimento coda processi su **In attesa** e poi su **Pronto** o semplicemente riavviarlo.
+
+Se un riavvio non aiuta, il problema potrebbe essere nel codice. Puoi contattare il proprietario (chiamato anche *editore*) del codice nell'analisi dello stack AL nel registro della coda processi. Se l'errore proviene da un'app/estensione, contatta il tuo partner Microsoft. Se l'errore proviene da un'applicazione Microsoft, apri una richiesta di supporto con Microsoft.
+
+Se contatti il tuo partner Microsoft o Microsoft per il supporto, fornisci le seguenti informazioni:
+
+* L'ID del movimento coda processi eseguito quando si è verificato l'errore
+* Il timestamp di quando si è verificato l'errore
+* Il tuo fuso orario
+
+> [!TIP]
+> A seconda che [!INCLUDE [prod_short](includes/prod_short.md)] sia precedente o successivo alla versione 22.1, raccogli le informazioni nei seguenti modi:
+>
+> * Per le versioni precedenti, fornisci uno screenshot della pagina **Voci log coda processi**.
+> * Per le versioni successive, utilizza l'azione **Copia dettagli** nella pagina Voci log coda processi per copiare le informazioni (ID coda processi, timestamp e fuso orario).
 
 ## Monitorare la coda processi con la telemetria
 
-In qualità di amministratore, è possibile usare [Application Insights](/azure/azure-monitor/app/app-insights-overview) per raccogliere e analizzare i dati di telemetria da utilizzare per identificare i problemi. Per ulteriori informazioni, vedere [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) nel contenuto per sviluppatori e amministratori.  
+Gli amministratori possono usare [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) per raccogliere e analizzare i dati di telemetria da utilizzare per identificare i problemi. Per saperne di più sulla telemetria, vai a [Monitoraggio e analisi della telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) e [Analisi della telemetria della traccia del ciclo di vita della coda processi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
+
+La telemetria consente agli amministratori di impostare avvisi sui problemi della coda processi che inviano un messaggio di testo, un'e-mail o un messaggio in Teams se qualcosa non va. Per saperne di più su questi avvisi, vai a [Avviso sulla telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
 ## Vedere anche
 
@@ -112,6 +131,6 @@ In qualità di amministratore, è possibile usare [Application Insights](/azure/
 [Impostazione di Business Central](setup.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Analizzare la telemetria della traccia del ciclo di vita della coda processi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
-
+[Avviso sulla telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-alert)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

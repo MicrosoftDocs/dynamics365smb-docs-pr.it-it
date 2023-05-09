@@ -1,23 +1,17 @@
 ---
 title: Funzionalità aziendali supportate da Business Central
-description: Fornisce una panoramica funzionale di tutti i reparti e le funzioni aziendali che sono supportati dalle aree di applicazione, ad esempio finanze, magazzino e gestione dei progetti.
+description: 'Fornisce una panoramica funzionale di tutti i reparti e le funzioni aziendali che sono supportati dalle aree di applicazione, ad esempio finanze, magazzino e gestione dei progetti.'
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606804"
 ---
-# <a name="business-functionality"></a>Funzionalità aziendale
+# Funzionalità aziendale
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata. [Scopri come ottenere una versione di valutazione gratuita qui](trial-signup.md).  
 
@@ -39,13 +33,13 @@ ms.locfileid: "9606804"
 |Pianificare le operazioni produttive necessarie per trasformare gli input in prodotti finiti|[Pianif.](production-planning.md)|
 |Riunisci gli articoli vendibili in semplici passaggi per preparare un nuovo articolo, ad esempio un kit.|[Gestione assemblaggio](assembly-assemble-items.md)|
 |Definire le risorse del reparto e la relativa capacità, programmare le operazioni, inserire i componenti di produzione ed eseguire la produzione.|[Manufacturing](production-manage-manufacturing.md)|
-|Assicura un flusso efficace dei prodotti ricevuti e spediti.|[Warehouse Management](warehouse-manage-warehouse.md)|
+|Assicura un flusso efficace dei prodotti ricevuti e spediti.|[Panoramica gestione del magazzino](design-details-warehouse-management.md)|
 |Programmare le chiamate di assistenza, impostare ordini di assistenza e tenere traccia dei pezzi di ricambio e delle forniture.|[Gestione assistenza](service-service.md)|
 |Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. La richiesta e la concessione dell'approvazione per creare o registrare i documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|
 |Abilitare gli utenti allo scambio di dati con origini esterne durante le attività quotidiane, ad esempio l'invio e la ricezione di documenti elettronici, l'importazione e l'esportazione di file della banca e l'aggiornamento dei tassi di cambio delle valute.|[Scambio di dati in modalità elettronica](across-data-exchange.md)|
 |Registra i documenti esterni in [!INCLUDE[prod_short](includes/prod_short.md)], inclusi gli allegati di file, quindi crea manualmente i documenti correlati o converti automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Amministrazione](admin-setup-and-administration.md)    
 [Informazioni sulle funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
