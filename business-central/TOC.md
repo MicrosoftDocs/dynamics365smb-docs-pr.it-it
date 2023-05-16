@@ -1,4 +1,5 @@
-# [Benvenuti in Business Central](index.md)  
+
+# [Benvenuti in Business Central](index.md)
 # [Funzionalità nuove e pianificate](product-news.md)
 # Introduzione
 ## [Panoramica delle funzionalità aziendali](across-business-functionality.md)
@@ -350,9 +351,11 @@
 #### Impostazione IVA
 ##### [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)
 ##### [Impostazione della categoria di registrazione](finance-posting-groups.md#tax-posting-groups)
+##### [Impostare l'IVA non detraibile](finance-setup-nondeductible-vat.md)
 ##### [Impostare l'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)
 ##### [Impostare una dichiarazione IVA](finance-how-setup-vat-statement.md)
 #### [Usare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)
+#### [Usare IVA non detraibile](finance-how-use-non-deductible-vat.md)
 #### [Inviare la dichiarazione IVA alle autorità fiscali](finance-how-report-vat.md)
 #### [Gestione delle modifiche dell'aliquota IVA](finance-how-use-vat-rate-change-tool.md)
 #### [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md)
