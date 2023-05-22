@@ -232,13 +232,13 @@ In caso di problemi nell'utilizzo del protocollo SMTP per inviare e-mail dopo la
 
 ### Connettere l'app [!INCLUDE[prod_short](includes/prod_short.md)] alla registrazione dell'app
 
-Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_short](includes/prod_short.md)], utilizzare la guida al setup assistito **Registrazione AAD dell'applicazione e-mail** per connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla stessa.
+Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_short](includes/prod_short.md)], utilizza la pagina **Registrazione AAD dell'applicazione e-mail** per connettere [!INCLUDE[prod_short](includes/prod_short.md)] alla stessa.
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione AAD dell'applicazione e-mail**, quindi scegli il collegamento correlato.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> In alternativa, se ci si connette per la prima volta, è possibile eseguire la guida al setup assistito **Configurare la posta elettronica**. La guida richiederà le informazioni per la connessione alla registrazione dell'app. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> In alternativa, se ci si connette per la prima volta, è possibile eseguire la guida al setup assistito **Configurare la posta elettronica**. In questo caso, la guida includerà anche la pagina di registrazione AAD dell'applicazione e-mail per aggiungere le informazioni per la connessione alla registrazione dell'app. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 

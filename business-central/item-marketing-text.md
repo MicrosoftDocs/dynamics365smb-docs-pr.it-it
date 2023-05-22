@@ -50,14 +50,14 @@ Copilot è progettato per farti risparmiare tempo e aiutarti a scrivere testi cr
 
 2. Dalla scheda dell'articolo, ci sono due modi per iniziare a scrivere un testo di marketing con Copilot:
 
-   - Un modo consiste nell'utilizzare il riquadro **Testo di marketing** nel riquadro Dettaglio informazioni sul lato destro della pagina. Attenersi alla seguente procedura:
+   - Utilizza il riquadro **Testo di marketing** nel riquadro Dettaglio informazioni sul lato destro della pagina. Attenersi alla seguente procedura:
 
-      1. Nel riquadro **Testo di marketing** , seleziona **Crea con Copilot**.
+     1. Nel riquadro **Testo di marketing** , seleziona **Crea con Copilot**.
 
-         Il testo suggerito viene visualizzato nel riquadro.
-      2. Se desideri un altro suggerimento, seleziona **Crea con Copilot** di nuovo. Se non ti piace un suggerimento, seleziona **Ignora** per cancellare il riquadro.
+        Il testo suggerito viene visualizzato nel riquadro.
+     2. Se desideri un altro suggerimento, seleziona **Crea con Copilot** di nuovo. Se non ti piace un suggerimento, seleziona **Ignora** per cancellare il riquadro.
 
-         Puoi ripetere questo passaggio più e più volte finché non ricevi un suggerimento che ritieni sia un buon punto di partenza. Ma tieni presente che il suggerimento corrente verrà sovrascritto e non potrai eventualmente recuperarlo. Quindi, se ti piace il suggerimento attuale, vai al passaggio successivo. Avrai comunque l'opportunità di ottenere più suggerimenti e persino di migliorarli, se lo desideri in seguito.
+        Puoi ripetere questo passaggio più e più volte finché non ricevi un suggerimento che ritieni sia un buon punto di partenza. Ma tieni presente che il suggerimento corrente verrà sovrascritto e non potrai recuperarlo. Quindi, se ti piace il suggerimento attuale, vai al passaggio successivo. Avrai comunque l'opportunità di ottenere più suggerimenti e persino di migliorarli, se lo desideri in seguito.
       3. Seleziona **Rivedi e salva il suggerimento** o **Modifica** per rivedere, modificare e salvare il testo.
 
          Questo passaggio ti porta alla pagina **Crea con Copilot**. Vai alla sezione successiva.
@@ -65,7 +65,7 @@ Copilot è progettato per farti risparmiare tempo e aiutarti a scrivere testi cr
          > [!NOTE]
          > Il testo non verrà salvato fino a quando non eseguirai questo passaggio.
 
-   - Un altro modo è selezionare l'azione **Testo di marketing** nella parte superiore della pagina della scheda articolo per andare direttamente alla pagina **Crea con Copilot**.
+   - Seleziona l'azione **Testo di marketing** nella parte superiore della pagina della scheda articolo per andare direttamente alla pagina **Crea con Copilot**.
 
      Dalla pagina **Crea con Copilot** , seleziona **Crea con Copilot** per ottenere il primo suggerimento. Puoi quindi ottenere più suggerimenti, provare a migliorare i suggerimenti che ricevi, modificare il testo e altro ancora. Vai a [Rivedere, modificare e salvare](#review-edit-and-save-text) per i dettagli.
 
@@ -104,7 +104,7 @@ Ci sono alcuni passaggi che puoi fare per migliorare i suggerimenti di testo e m
    |-|-|
    |Attributi da includere|Utilizza questa opzione per basare i suggerimenti, in parte, sugli attributi assegnati all'articolo. Scegli gli attributi che meglio si allineano alle caratteristiche che desideri promuovere. Più attributi pertinenti includi, più ricco sarà il risultato. Se ritieni che ti manchino alcuni attributi chiave, aggiungine altri. Per ulteriori informazioni sugli attributi, vedi [Utilizzare gli attributi articolo](inventory-how-work-item-attributes.md) |
    |Enfatizza una qualità|Utilizza questa opzione per scegliere da un elenco di qualità predefinite che vuoi enfatizzare nel testo. Scegli una qualità che si allinei al meglio con il tipo di articolo di cui stai scrivendo. Le qualità non corrispondono direttamente agli attributi, alla descrizione o alla categoria dell'articolo. Ad esempio, **Qualità** potrebbe essere una buona scelta sia per una bicicletta che per una scrivania, mentre **Velocità** sarebbe adatta a una bicicletta, ma non una scrivania.|
-   |Tono della voce|Utilizza questa opzione per influenzare il tipo di parole, frasi e punteggiatura utilizzate per coinvolgere il pubblico di destinazione. Puoi scegliere tra diversi toni di voce predefiniti, che vanno da **Formale** (che si traduce in un tono più professionale delle scelte) a **Creativo** (che si traduce in un tono più informale delle scelte). |
+   |Tono della voce|Utilizza questa opzione per influenzare il tipo di parole, frasi e punteggiatura utilizzate per coinvolgere il pubblico di destinazione. Puoi scegliere tra diversi toni di voce predefiniti, che vanno da **Formale** (che si traduce in un tono più professionale delle scelte) a **Creativo** (che si traduce in un tono più informale). |
    |Formato e lunghezza|Usa questa opzione per controllare la struttura generale del testo, che si compone di tre parti, coperte da quattro diverse opzioni: <ul><li>**Tagline** - Una frase accattivante o una breve frase che identifica l'articolo o il marchio.</li><li>**Paragrafo** - Un singolo paragrafo di testo scorrevole e dettagliato, composto da diverse frasi complete.</li><li>**Tagline + Paragrafo**- Una tagline seguita da un paragrafo</li><li>**Informativa** - Una frase introduttiva, simile a uno slogan, seguita da un elenco puntato di punti di interesse chiave.</li></ul> |
 
 2. Migliora il campo **Descrizione** nella scheda articolo.
@@ -122,7 +122,7 @@ Ci sono alcuni passaggi che puoi fare per migliorare i suggerimenti di testo e m
     1. Nell'angolo in alto a destra seleziona l'icona ![lampadina che apre la funzione Dimmi 22.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato per visualizzare l'elenco degli articoli disponibili.
     2. Per aprire l'articolo, fai doppio clic sul nome o selezionane il numero nella colonna **Nr.** .
 
-2. Effettua uno dei seguenti passaggi:
+2. Effettuare una delle seguenti operazioni:
 
    - Nel riquadro **Testo di marketing** del riquadro Dettaglio informazioni sul lato destro della pagina seleziona **Modifica**.
    - Seleziona l'azione **Testo di marketing**.

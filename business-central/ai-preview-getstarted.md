@@ -106,7 +106,7 @@ Ci sono due modi per acconsentire come amministratore:
 
 - Il modo più semplice è utilizzare Copilot. La prima volta che utilizzi Copilot come amministratore, ti viene chiesto di rivedere i termini e le condizioni, quindi accettare o meno. Per informazioni su come utilizzare Copilot, vai a [Aggiungere testo di marketing agli articoli](item-marketing-text.md).  
 
-- L'altro modo consiste nell'utilizzare la pagina **Stato avvisi sulla privacy** in Business Central e accettare l'integrazione di **Azure OpenAI** per tutti gli utenti. Per saperne di più, vai a [Consenso ai termini e condizioni](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+- L'altro modo consiste nell'utilizzare la pagina **Stato avvisi sulla privacy** in Business Central e accettare l'integrazione di **Azure OpenAI** per tutti gli utenti. Per saperne di più, vai a [Consenso ai termini e condizioni](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ## Vedere anche
 

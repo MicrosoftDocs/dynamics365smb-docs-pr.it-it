@@ -99,9 +99,29 @@ Verifica che l'utente autenticato possa connettersi a un ambiente rilevato, in g
 |Nessun indirizzo di cluster di cui eseguire questo controllo|Controllare l'elenco degli ambienti disponibili nell'interfaccia di amministrazione di Business Central.|
 |L'endpoint della versione non esiste|Controllare l'elenco degli ambienti disponibili nell'interfaccia di amministrazione di Business Central.|
 
-## Vedere anche
+## Connettività server Web
 
-[Risorse per Guida e supporto](product-help-and-support.md)  
+Verifica che l'utente autenticato riesca a stabilire correttamente le connessioni con il server Web.
+
+|Problema|Cose da provare|
+|-------|-------------|
+|Nessun utente autenticato per cui eseguire questo controllo|Vedi il controllo **Autenticazione utente**.|
+|Impossibile recuperare gli ambienti disponibili per il tuo account.|Vedi **Individuazione degli ambienti di Business Central**.|
+|Nessun indirizzo di cluster di cui eseguire questo controllo|Controllare l'elenco degli ambienti disponibili nell'interfaccia di amministrazione di Business Central.|
+|Impossibile stabilire una connessione con il server Web|Svuota la cache e ricarica la pagina.|
+
+## Stato di integrità del servizio
+
+Segnala lo stato di integrità del servizio Business Central controllando le interruzioni dichiarate.
+
+|Problema|Cose da provare|
+|-------|-------------|
+|Nessun utente autenticato per cui eseguire questo controllo|Vedi il controllo **Autenticazione utente**.|
+|Business Central è temporaneamente non disponibile. Prego riprovare più tardi.|Riprovare.|
+
+## Vedi anche
+
+[Risorse per guida e supporto](product-help-and-support.md)  
 [Panoramica dei task per impostare Business Central](setup.md)  
 [Domande frequenti sull'utilizzo di Business Central](across-faq.yml)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

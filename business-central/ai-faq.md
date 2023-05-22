@@ -35,15 +35,15 @@ Per disporre di Copilot, devono essere soddisfatti i seguenti requisiti:
 - La lingua utilizzata in Business Central deve essere l'inglese. Qualsiasi lingua inglese disponibile funzionerà, come inglese (Stati Uniti), inglese (Regno Unito) o inglese (Sudafrica).
 
   Per cambiare la lingua, nell'angolo in alto a destra seleziona l'icona **Impostazioni** ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") > **Impostazioni personali** > **Lingua**. Per ulteriori informazioni, vai a [Modificare le impostazioni di base](ui-change-basic-settings.md#language).
-- Devi utilizzare Business Central online versione 22 o successiva (se sei un cliente esistente) o una versione di prova.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
+- Devi utilizzare Business Central online versione 22 o successiva (se sei un cliente esistente) o una versione di prova.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->
 
    Per verificare la versione, seleziona il punto interrogativo nell'angolo in alto a destra, quindi **Guida e supporto**. In **Risoluzione dei problemi**, cerca la versione dell'applicazione. Per informazioni su come ottenere la versione di anteprima corretta, vai a [Iniziare con una versione di anteprima di Business Central](ai-preview-getstarted.md).
 - La funzionalità **Crea descrizioni del prodotto basate sull'intelligenza artificiale con Copilot** deve essere abilitata.
 
-   Per ulteriori informazioni, vai a [Abilitare o disabilitare la funzione "Crea descrizioni del prodotto basate sull'intelligenza artificiale con Copilot"](enable-ai.md#enable-or-disable-the-create-ai-powered-product-descriptions-with-copilot-feature).
+   Per ulteriori informazioni, vai a [Abilitare o disabilitare la funzione "Crea descrizioni del prodotto basate sull'intelligenza artificiale con Copilot"](enable-ai.md#enable-or-disable-create-ai-powered-product-descriptions-with-copilot).
 - Un amministratore ha accettato le condizioni.
 
-   Per ulteriori informazioni, vai a [Accettare o rifiutare l'anteprima e le condizioni sulla privacy per tutti gli utenti](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+   Per ulteriori informazioni, vai a [Accettare o rifiutare l'anteprima e le condizioni sulla privacy per tutti gli utenti](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ### Copilot è disponibile per l'anteprima in Business Central locale?
 
@@ -63,9 +63,9 @@ Per informazioni sui suggerimenti inappropriati, vai a [Che cosa è stato fatto 
 
 Ci sono alcune cose che puoi fare per ottenere il massimo dai suggerimenti di Copilot:
 
-- Aggiungi più attributi a un articolo per promuovere le funzionalità e le caratteristiche specifiche che ti interessano
+- Aggiungi più attributi a un articolo per promuovere le funzionalità e le caratteristiche specifiche che ti interessano.
 - Modifica le opzioni per il tono della voce e l'enfasi della qualità in base alle tue preferenze personali.
-- Migliora la descrizione dell'articolo
+- Migliora la descrizione dell'articolo.
 - Assicurati che all'articolo sia assegnata la categoria più adatta.
 
 Per saperne di più, vai a [Migliorare e personalizzare i suggerimenti di testo](item-marketing-text.md#improve-and-tailor-text-suggestions).
@@ -98,7 +98,7 @@ Attualmente, Copilot supporta solo l'inglese. È possibile che vengano restituit
 
 ### Che cosa è stato fatto per i suggerimenti di testo offensivi e dannosi?
 
-Il servizio Azure OpenAI archivia le richieste e i completamenti del servizio per monitorare l'uso abusivo e per sviluppare e migliorare la qualità dei sistemi di gestione dei contenuti di Azure OpenAI. [Scopri di più sulla nostra gestione e sul filtro dei contenuti](/azure/cognitive-services/openai/concepts/content-filter).
+Il servizio Azure OpenAI archivia le richieste e i completamenti del servizio per monitorare l'uso abusivo e per sviluppare e migliorare la qualità dei sistemi di gestione dei contenuti di Azure OpenAI. [Scopri di più sulla nostra gestione e sul filtro dei contenuti](/azure/cognitive-services/openai/concepts/content-filter)
 
 I dipendenti Microsoft autorizzati possono accedere ai dati di richiesta e completamento che hanno attivato i nostri sistemi automatizzati allo scopo di indagare e verificare potenziali abusi. Per i clienti che hanno distribuito il servizio Azure OpenAI nell'Unione Europea, i dipendenti Microsoft autorizzati si troveranno nell'Unione Europea. Questi dati possono essere utilizzati per migliorare i nostri sistemi di gestione dei contenuti. In caso di violazione confermata delle norme, potremmo chiederti di intraprendere un'azione immediata per risolvere il problema e prevenire ulteriori abusi. La mancata risoluzione del problema può comportare la sospensione o l'interruzione dell'accesso alle risorse di Azure OpenAI.
 
@@ -106,7 +106,9 @@ Per ulteriori informazioni, vedi [Dati, privacy e sicurezza per il servizio Azur
 
 ### Posso rinunciare al processo di registrazione e revisione umana?  
 
-Nell'ambito dell'offerta delle anteprime di Azure Open AI, Microsoft elaborerà e memorizzerà i Dati del cliente inviati al servizio, nonché il Contenuto di output, allo scopo di (1) monitorare e prevenire usi o output abusivi o dannosi del servizio e (2) sviluppare, testare e migliorare le capacità progettate per prevenire l'uso abusivo e/o gli output dannosi del servizio. Il personale Microsoft autorizzato può esaminare i dati che hanno attivato i nostri sistemi automatizzati per indagare e verificare potenziali abusi e può impegnarsi in un campionamento casuale limitato di termini che non sono contrassegnati dai nostri sistemi automatizzati per garantire che i sistemi funzionino correttamente. Il personale Microsoft autorizzato può anche accedere e utilizzare questi dati per migliorare i nostri sistemi che monitorano e impediscono usi o output abusivi o dannosi del servizio. Leggi di più nelle [condizioni di anteprima](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)
+Nell'ambito dell'offerta delle anteprime di Azure OpenAI, Microsoft elaborerà e memorizzerà i dati dei clienti inviati al servizio, nonché il contenuto di output, allo scopo di monitorare e prevenire usi o output abusivi o dannosi del servizio e sviluppare, testare e migliorare le capacità progettate per prevenire l'uso abusivo e/o gli output dannosi del servizio. 
+
+Il personale Microsoft autorizzato può esaminare i dati che hanno attivato i nostri sistemi automatizzati per indagare e verificare potenziali abusi e può impegnarsi in un campionamento casuale limitato di termini che non sono contrassegnati dai nostri sistemi automatizzati per garantire che i sistemi funzionino correttamente. Il personale Microsoft autorizzato può anche accedere e utilizzare questi dati per migliorare i nostri sistemi che monitorano e impediscono usi o output abusivi o dannosi del servizio. Leggi di più nelle [condizioni di anteprima](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
 ## [Privacy](#tab/privacy)
 
@@ -125,4 +127,4 @@ Usiamo questi dati per valutare e migliorare la qualità della funzionalità. Ma
 [Panoramica del testo di marketing dell'articolo basato su intelligenza artificiale con Copilot](ai-overview.md)  
 [Configurare testo del marketing articolo basato su intelligenza artificiale con Copilot come amministratore](enable-ai.md)  
 [Creare un testo di marketing per gli articoli utilizzando Copilot](item-marketing-text.md)  
-[Domande frequenti sul testo di marketing per l'articolo basato sull'intelligenza artificiale con Copilot](ai-faq.md)  
+

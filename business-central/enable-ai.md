@@ -1,6 +1,6 @@
 ---
 title: Configurare un testo di marketing dell'articolo basato su intelligenza artificiale (anteprima) con Copilot
-description: Questo articolo spiega come ottenere una versione di valutazione di Copilot di Business Central e abilitare Copilot in un ambiente
+description: Questo articolo spiega come ottenere una versione di valutazione di Copilot di Business Central e abilitare Copilot in un ambiente.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -24,10 +24,10 @@ Se uno di questi requisiti non viene soddisfatto, la funzione non sarà disponib
 
 Stai utilizzando una [versione di anteprima](ai-preview-getstarted.md) di Business Central abilitata per Copilot. L'abilitazione di Copilot viene eseguita da un amministratore. Per ulteriori informazioni, vai a [Configurare il testo di marketing degli articoli basato sull'intelligenza artificiale con Copilot](enable-ai.md).
 
-## Abilitare o disabilitare la funzionalità "Crea descrizioni del prodotto basate sull'intelligenza artificiale con Copilot"
+## Abilita o disabilita Crea descrizioni del prodotto basate sull'intelligenza artificiale con Copilot
 
 1. In Business Central, cerca e apri la pagina **Gestione funzionalità**.
-2. Imposta la colonna **Abilitato per** della funzionalità **Anteprima della funzionalità: crea descrizioni del prodotto basate sull'intelligenza artificiale con Copilot** su **Tutti gli utenti** per abilitare la funzione o su **Nessuno** per disabilitarla.
+2. Imposta la colonna **Abilitato per** di **Anteprima della funzionalità: crea descrizioni del prodotto basate sull'intelligenza artificiale con Copilot** su **Tutti gli utenti** per abilitare la funzione o su **Nessuno** per disabilitarla.
 
    Per ulteriori informazioni sulla gestione delle funzionalità in generale, vai a [Gestione delle funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
