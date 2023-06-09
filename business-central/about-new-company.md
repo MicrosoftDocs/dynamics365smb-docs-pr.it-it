@@ -14,17 +14,20 @@ ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 902
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] il contenitore per i dati aziendali che appartiene alla Business Unit o alla persona giuridica viene indicato con il termine *società*. Quando ti iscrivi a [!INCLUDE[prod_short](includes/prod_short.md)], vengono fornite una società dimostrativa e una società vuota denominata *La mia azienda*. Il passaggio tra le società è facile: basta accedere a **Impostazioni personali** e passare all'altra società. È tuttavia possibile anche creare nuove società in [!INCLUDE[prod_short](includes/prod_short.md)] in base alle esigenze aziendali.  
 
+> [!NOTE]
+> Per creare una nuova società, devi essere assegnato al set di autorizzazioni **Super** .
+
 Quando si crea una nuova azienda una guida al setup assistito aiuta ad applicare le nozioni di base. Successivamente è possibile importare i dati rilevanti dal sistema legacy o un'altra azienda in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Scegliere il modello giusto
 
-Se si decide di aggiungere un'azienda a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile utilizzare la guida al setup assistito **Crea nuova società** per iniziare. Il setup guidato è disponibile dalla pagina **Società** e tramite la ricerca nel campo **Società** nella pagina **Impostazioni personali**.  
+Se decidi di aggiungere una società a [!INCLUDE[prod_short](includes/prod_short.md)], puoi utilizzare la guida al setup assistito **Crea nuova società** per iniziare. La guida al setup è disponibile nella pagina **Società** e tramite la ricerca nel campo **Società** nella pagina **Impostazioni personali**.  
 
-La procedura guidata di installazione offre due modelli e un'opzione vuota:
+La guida al setupoffre due modelli e un'opzione vuota:
 
-- **Valutazione - Dati di esempio**  
+- **Valutazione - Dati campione**  
     Crea una società che è simile alla società di dimostrazione con i dati di esempio e i dati di setup. Questo tipo di società è a tua disposizione senza passare a un periodo di valutazione di 30 giorni, come fanno gli altri tipi.  
 - **Produzione - Solo dati setup**  
     Crea una società che è simile a **La mia società** con i dati di setup ma senza i dati di esempio. Puoi utilizzare questa società per un periodo di valutazione di 30 giorni.  

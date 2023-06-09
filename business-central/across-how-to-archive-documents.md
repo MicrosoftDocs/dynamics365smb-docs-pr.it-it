@@ -2,18 +2,18 @@
 title: Archiviare documenti di vendita e acquisto
 description: 'Puoi archiviare ordini di vendita e di acquisto, offerte, ordini di reso e ordini programmati e ripristinare gli originali se necessario.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
-ms.date: 03/06/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 06/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ---
 # Archiviare documenti
+
 È possibile archiviare ordini di vendita e di acquisto, offerte, ordini di reso e ordini programmati. L'archiviazione dei documenti consente di ripristinare l'originale, se necessario. È possibile archiviare documento di acquisto o vendita più di uno volta, salvando ogni volta una versione archiviata diversa.
 
-Per i documenti di vendita archiviati di cui l'originale esiste ancora e non è registrato, puoi utilizzare l'azione **Ripristina** per sovrascrivere il documento corrente con la versione archiviata. 
+Per i documenti di vendita archiviati di cui l'originale esiste ancora e non è registrato, puoi utilizzare l'azione **Ripristina** per sovrascrivere il documento corrente con la versione archiviata.
 
 Per i documenti archiviati di cui l'originale è stato eliminato, è possibile riutilizzare il contenuto solo copiando i dati, ad esempio con l'azione **Copia da documento**.  
 
@@ -28,7 +28,7 @@ Per i documenti archiviati di cui l'originale è stato eliminato, è possibile r
 
 La procedura seguente illustra come configurare l'archiviazione automatica di documenti di vendita. I passaggi sono simili per i documenti di acquisto.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
 2. Sulla scheda dettaglio **Archiviazione** specifica se attivare l'archiviazione automatica per le varie tipologie di documenti di vendita. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 Nella seguente tabella vengono illustrate le opzioni per il campo **Archivia offerte**.
@@ -39,11 +39,11 @@ Nella seguente tabella vengono illustrate le opzioni per il campo **Archivia off
 |**Domanda**|Chiedi all'utente di scegliere se archiviare le offerte di vendita quando vengono eliminate.|
 |**Sempre**|Archivia automaticamente le offerte di vendita quando vengono eliminate.|
 
-## Per archiviare un ordine di vendita
+## Per archiviare manualmente un ordine di vendita
 
-Di seguito viene descritto come archiviare un ordine di vendita. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
+Di seguito viene descritto come archiviare manualmente un ordine di vendita. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Aprire un ordine di vendita da archiviare.  
 3. Scegliere l'azione **Archivia documento**.
 
@@ -60,18 +60,19 @@ Il contenuto dell'ordine di vendita originale viene sostituito con quello della 
 
 ## Per eliminare ordini di vendita archiviati
 
-Di seguito viene descritto come eliminare ordini di vendita archiviati. I passaggi sono simili per altri altri documenti di acquisto e vendita archiviati.
+Utilizza criteri di conservazione per pulire i documenti archiviati di cui non hai più bisogno. I criteri di conservazione consentono agli amministratori di definire per quanto tempo desiderano archiviare i dati. Ad esempio, possono impostare un criterio che elimina i dati dopo una data di scadenza. Per ulteriori informazioni, vedere [Definire i criteri di conservazione](admin-data-retention-policies.md).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Archivi ordini vendita**, quindi seleziona il collegamento correlato.  
-2. Scegli l'azione **Elimina versioni precedenti**, e poi, nella pagina **Elimina versioni ordine vendita archiviate**, seleziona i filtri appropriati.  
-3. Scegliere il pulsante **OK**.
+Ci sono alcune cose da prendere in considerazione in relazione alla creazione di criteri di conservazione per documenti archiviati:
+
+* *Se il documento originale non è stato eliminato, Business Central non eliminerà le versioni archiviate. Le versioni archiviate non scadranno finché esiste l'originale.
+* Quando configuri i criteri di conservazione, puoi specificare che vuoi che il criterio elimini tutte le versioni archiviate di un documento tranne la più recente. Ad esempio, potresti avere 10 versioni di un documento e voler conservare una copia dell'ultima. 
+* Business Central calcola la data di scadenza dei documenti in base alla data della versione archiviata più recente.
 
 ## Vedi anche
 
-[Tenere traccia delle righe dei documenti](across-how-to-track-document-lines.md)  
+[Tracciare le righe documento](across-how-to-track-document-lines.md)  
 [Vendite](sales-manage-sales.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
