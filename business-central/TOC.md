@@ -1,5 +1,6 @@
 
-# [Benvenuti in Business Central](index.md)
+# [Documentazione di Business Central](index.yml)
+# [Ti diamo il benvenuto in Business Central](welcome.md)
 # [Funzionalità nuove e pianificate](product-news.md)
 # Introduzione
 ## [Panoramica delle funzionalità aziendali](across-business-functionality.md)
@@ -157,6 +158,7 @@
 ### [Passare a un'altra società o un altro ambiente](ui-organization-switch.md)
 ### [Gestire le notifiche](ui-smart-notifications.md)
 ### [Suggerimenti sulle prestazioni per utenti aziendali](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Analisi delle prestazioni](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Avvisi e messaggi di errore](product-error-messages.md)
 ### Personalizzare Business Central
 #### [Personalizza l'area di lavoro](ui-personalization-user.md)
@@ -1844,6 +1846,7 @@
 ### [Task di amministrazione](admin-setup-and-administration.md)
 ### Gestire l'accesso a Business Central
 #### [Panoramica](admin-access-overview.md)
+#### [Controllare l'accesso a Business Central utilizzando i gruppi di sicurezza](ui-security-groups.md)
 #### Accesso con licenze Microsoft 365
 ##### [Panoramica](admin-access-with-m365-license.md)
 ##### [Impostare l'accesso con licenze Microsoft 365](admin-access-with-m365-license-setup.md)
