@@ -16,7 +16,7 @@ ms.search.form: '30118, 30119, 30120, 30101, 30102'
 
 ## Eseguire attività in primo piano
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri risolvere i problemi per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Disattiva l'opzione **Consenti sincronizzazioni in background**.
 
@@ -64,7 +64,7 @@ Questa funzione si applica solo alle sincronizzazioni da Shopify a [!INCLUDE[pro
 
 ## Richiedere il token di accesso
 
-Se [!INCLUDE[prod_short](../includes/prod_short.md)] non si connette al tuo account Shopify, prova a richiedere il token di accesso da Shopify. Potrebbe essere necessario il token se sono state apportate modifiche alle chiavi di sicurezza o alle autorizzazioni richieste (ambiti).
+Se [!INCLUDE[prod_short](../includes/prod_short.md)] non si connette al tuo account Shopify, prova a richiedere il token di accesso da Shopify. Potrebbe essere necessario richiedere un nuovo token se sono state apportate modifiche alle chiavi di sicurezza o alle autorizzazioni richieste (ambiti di applicazione).
 
 1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri recuperare il token di accesso per l'apertura della pagina **Scheda del punto vendita Shopify**.
@@ -73,7 +73,7 @@ Se [!INCLUDE[prod_short](../includes/prod_short.md)] non si connette al tuo acco
 
 L'interruttore **Con chiave di accesso** verrà attivato.
 
-### Verifica e abilita le autorizzazioni per effettuare richieste HTTP in un ambiente non di produzione
+## Verifica e abilita le autorizzazioni per effettuare richieste HTTP in un ambiente non di produzione
 
 Per funzionare correttamente, l'estensione connettore Shopify richiede l'autorizzazione per effettuare richieste HTTP. Durante il test nel sandbox, le richieste HTTP sono vietate per tutte le estensioni.
 
@@ -125,7 +125,7 @@ Ricordarti di condividere le informazioni sullo stack di chiamate AL con il forn
 
 ### Errore: Categoria registrazione business deve avere un valore in Cliente: "PUNTO VENDITA SHOPIFY". Non può essere zero o vuoto
 
-Nella pagina **Scheda punto vendita Shopify** compila il campo **Codice modello cliente** con il modello che include il campo **Categoria registrazione business** popolato. Il modello cliente viene utilizzato per creare clienti e calcolare i prezzi di vendita sui documenti di vendita.
+Nella pagina **Scheda punto vendita Shopify** compila il campo **Codice modello cliente**, scegli il modello che include il campo **Categoria registrazione business** popolato. Il modello cliente viene utilizzato per creare clienti e calcolare i prezzi di vendita sui documenti di vendita.
 
 ### Errore: L'importazione dei dati nel negozio Shopify non è abilitata. Vai alla scheda del punto vendita per abilitarla
 
@@ -134,6 +134,10 @@ Nella pagina **Scheda punto vendita Shopify**, abilita l'interruttore **Consenti
 ### Errore Oauth invalid_request: impossibile trovare l'API per l'applicazione Shopify con api_key
 
 Sembra che usi l'[app Embed](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), dove l'URL del client ha il formato: `https://[application name].bc.dynamics.com`. Il connettore Shopify non funziona per le app Embed. Per ulteriori informazioni, vai a [Per quali prodotti Microsoft è disponibile il connettore Shopify?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+
+### Errore: errore interno. A quanto pare si è verificato un errore. ID richiesta: XXXXXXXXX-XXXX-XXXX-XXXX-XXXX
+
+Contatta l'assistenza di Shopify entro 7 giorni dal verificarsi di questo errore e fornisci l'ID richiesta. Per saperne di più, vai a [Opzioni di supporto per Shopify](shopify-faq.md#shopify).
 
 ## Vedere anche
 

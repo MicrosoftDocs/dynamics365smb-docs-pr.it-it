@@ -50,6 +50,9 @@ Dopo aver creato il punto vendita, in **Amministrazione Shopify** del punto vend
   1. *(per test) Bogus Gateway*. Per ulteriori informazioni, vai ad [Attivare Bogus Gateway per il test](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify payments* in modalità di test. Ulteriori informazioni in [Test di Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> I punti vendita di sviluppo sono generalmente protetti da password. Quando provi ad aprire una pagina specifica nel tuo punto vendita online da [!INCLUDE [prod_short](../includes/prod_short.md)], ad esempio per accedere a un prodotto o un ordine specifico, dovrai inserire la tua password. Durante il test, per evitare di dover inserire la password, accedi all'amministrazione di Shopify e apri il tuo puntno vendita da lì. Non sarà necessario inserire la password del negozio fino a quando non si chiude il browser o la sessione scade.  
+
 ## Vedi anche
 
 [Iniziare a usare il connettore Shopify](get-started.md)  

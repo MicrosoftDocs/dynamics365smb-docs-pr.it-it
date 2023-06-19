@@ -39,7 +39,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 ## Vedi anche  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)   
 [Commesse](projects-how-create-jobs.md)   
-[Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
+[Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)] ](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

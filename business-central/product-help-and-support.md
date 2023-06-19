@@ -78,7 +78,7 @@ Nella sezione **Trovarla** sono presenti due collegamenti alla Guida del prodott
 
 - La guida relative alla pagina appena visualizzata in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Questo collegamento viene generato automaticamente. Se [!INCLUDE[prod_short](includes/prod_short.md)] non trova il collegamento, viene visualizzata la [pagina di destinazione Microsoft Learn](index.md) per la versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, se la pagina faceva parte di un'app a cui non è stata aggiunta la mappatura della Guida sensibile al contesto in [!INCLUDE[prod_short](includes/prod_short.md)], il valore predefinito del *collegamento di apprendimento* è la pagina di destinazione.  
+  Questo collegamento viene generato automaticamente. Se [!INCLUDE[prod_short](includes/prod_short.md)] non trova il collegamento, viene visualizzata la [pagina di destinazione Microsoft Learn](index.yml) per la versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, se la pagina faceva parte di un'app a cui non è stata aggiunta la mappatura della Guida sensibile al contesto in [!INCLUDE[prod_short](includes/prod_short.md)], il valore predefinito del *collegamento di apprendimento* è la pagina di destinazione.  
   
 - Pagina di destinazione della Guida per [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -152,9 +152,9 @@ Per avvisare il partner di un problema, scegliere il collegamento per inviare un
 
 ## Ulteriori informazioni sull'uso della documentazione del prodotto
 
-La versione base di [!INCLUDE [prod_short](includes/prod_short.md)] è ampliata e personalizzata da una vasta comunità di partner. Ogni partner e molti clienti distribuiscono la propria Guida al proprio sito Web. Ma puoi sempre andare al sito della [documentazione di Dynamics 365 Business Central](index.md) per ulteriori informazioni. Il sito ospita diversi tipi di contenuto, come i seguenti:
+La versione base di [!INCLUDE [prod_short](includes/prod_short.md)] è ampliata e personalizzata da una vasta comunità di partner. Ogni partner e molti clienti distribuiscono la propria Guida al proprio sito Web. Ma puoi sempre andare al sito della [documentazione di Dynamics 365 Business Central](index.yml) per ulteriori informazioni. Il sito ospita diversi tipi di contenuto, come i seguenti:
 
-- [Contenuto concettuale sulla funzionalità aziendale](index.md)  
+- [Contenuto concettuale sulla funzionalità aziendale](welcome.md)  
 - [Documentazione per sviluppatori](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Percorsi di apprendimento gratuiti e moduli di e-learning su più profili utente](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ In questa sezione, è possibile scoprire come navigare tra i contenuti delle fun
 
 ### Contenuto sul sito
 
-[Questa sezione](index.md) del sito Microsoft Learn ospita il contenuto di Microsoft che rappresenta il pilastro *Per saperne di più* del modello di assistenza agli utenti. In parte, il contenuto *Per saperne di più* intende rispondere a quelle domande a cui l'interfaccia utente non può rispondere, come le seguenti:
+[Questa sezione](welcome.md) del sito Microsoft Learn ospita il contenuto di Microsoft che rappresenta il pilastro *Per saperne di più* del modello di assistenza agli utenti. In parte, il contenuto *Per saperne di più* intende rispondere a quelle domande a cui l'interfaccia utente non può rispondere, come le seguenti:
 
 - Dove si inserisce questa pagina nel flusso di lavoro più ampio?  
 - Cosa viene dopo?  

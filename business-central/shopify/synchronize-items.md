@@ -1,18 +1,18 @@
 ---
 title: Sincronizzare articoli e inventario
 description: Configurare ed eseguire sincronizzazioni di articoli tra Shopify e Business Central
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Sincronizzare articoli e inventario
 
-Gli **Articoli** in [!INCLUDE[prod_short](../includes/prod_short.md)] sono equivalenti ai *prodotti* in Shopify e includono beni fisici, download digitali, servizi e buoni regalo che puoi vendere. Ci sono due ragioni principali per sincronizzare gli elementi:
+Gli **Articoli** in [!INCLUDE[prod_short](../includes/prod_short.md)] sono equivalenti ai *prodotti* in Shopify e includono beni fisici, download digitali, servizi e buoni regalo che vendi. Ci sono due ragioni principali per sincronizzare gli elementi:
 
 1. La gestione dei dati viene eseguita principalmente in [!INCLUDE[prod_short](../includes/prod_short.md)]. Devi esportare tutti o alcuni dati da lì in Shopify e renderli visibili. Puoi esportare il nome dell'articolo, la descrizione, l'immagine, i prezzi, la disponibilità, le varianti, i dettagli del fornitore e il codice a barre. Una volta esportati, puoi rivedere gli articoli o renderli immediatamente visibili.
 2. Quando un ordine di Shopify viene importato, le informazioni sugli articoli sono essenziali per l'ulteriore elaborazione del documento in [!INCLUDE[prod_short](../includes/prod_short.md)].
@@ -97,18 +97,18 @@ Puoi gestire il processo di esportazione degli articoli utilizzando queste impos
 |Shopify|Origine quando esportato da [!INCLUDE[prod_short](../includes/prod_short.md)]|Destinazione quando importato in [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
 |Stato|In base al campo **Stato per i prodotti creati** nella **Scheda punto vendita Shopify**. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
-|Titolo | **Descrizione**. Se il codice della lingua è definito ed esiste la traduzione dell'articolo corrispondente, verrà utilizzata la traduzione dell'articolo al posto della descrizione.|**descrizione**|
-|Descrizione|Combina testi e attributi estesi se le opzioni corrispondenti nella scheda punto vendita Shopify sono abilitate. Rispetta il codice lingua.|Non utilizzato.|
+|Titolo | **Descrizione**. Se il codice della lingua è definito ed esiste la traduzione dell'articolo corrispondente, verrà utilizzata la traduzione dell'articolo al posto della descrizione.|**Descrizione**|
+|Descrizione|Combina testi estesi, testi di marketing e attributi se abiliti le opzioni corrispondenti nella scheda punto vendita Shopify. Rispetta il codice lingua.|Non utilizzato.|
 |Titolo pagina SEO|Valore fisso: vuoto. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
 |Meta descrizione SEO|Valore fisso: vuoto. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
 |Elemento multimediale|**Immagine**. Scopri di più nella sezione [Sincronizzare le immagini degli articoli](synchronize-items.md#sync-item-images)|**Immagine**|
-|Prezzo|Il calcolo del prezzo per il cliente finale include il prezzo unitario dell'articolo, il gruppo prezzi cliente, il gruppo sconto cliente e il codice valuta. Scopri di più nella sezione [Sincronizzare i prezzi](synchronize-items.md#sync-prices-with-shopify)|**Prezzo Unitario**|
+|Prezzo|Il calcolo del prezzo per il cliente finale include il prezzo unitario dell'articolo, il gruppo prezzi cliente, il gruppo sconto cliente e il codice valuta. Scopri di più nella sezione [Sincronizzare i prezzi](synchronize-items.md#sync-prices-with-shopify)|**Prezzo unitario**. Il prezzo viene importato solo negli elementi appena creati, ma non verrà aggiornato nelle sincronizzazioni successive.|
 |Confronta prezzo|Il calcolo del prezzo senza sconto.|Non utilizzato.|
-|Costo per articolo|**Costo unitario**|**Costo unitario**|
+|Costo per articolo|**Costo unitario**|**Costo unitario**. Il costo unitario viene importato solo negli elementi appena creati e non verrà aggiornato nelle sincronizzazioni successive.|
 |SKU|Ulteriori informazioni in **Mapping SKU** nella sezione [Esportare articoli in Shopify](synchronize-items.md#export-items-to-shopify).|Per ulteriori informazioni vedi la sezione [Effetto delle SKU e dei codici a barre dei prodotti Shopify sulla mappatura e sulla creazione di articoli e varianti in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Codice a barre|**Riferimenti di articoli** del tipo codice a barre.|**Riferimenti di articoli** del tipo codice a barre.|
-|Traccia quantità|In base al campo **Inventario tracciato** nella pagina **Scheda punto vendita di Shopify**. Ulteriori informazioni nella sezione [Inventario](synchronize-items.md#sync-inventory-to-shopify).|Non utilizzato.|
-|Continuare a vendere quando le scorte sono esaurite|In base al **Criterio di inventario predefinito** nella **Scheda del punto vendita Shopify**. Non importato.|Non utilizzato.|
+|Traccia quantità|In base al campo **Inventario tracciato** nella pagina **Scheda punto vendita di Shopify**. Ulteriori informazioni nella sezione [Inventario](synchronize-items.md#sync-inventory-to-shopify). Utilizzato solo quando esporti un prodotto per la prima volta.|Non utilizzato.|
+|Continuare a vendere quando le scorte sono esaurite|In base al **Criterio di inventario predefinito** nella **Scheda del punto vendita Shopify**. Utilizzato solo quando esporti un prodotto per la prima volta.|Non utilizzato.|
 |Tipo|**Descrizione** di **Codice categoria articolo**. Se il tipo non è specificato in Shopify, viene aggiunto come tipo personalizzato.|**Codice categoria articolo**. Mapping per descrizione.|
 |Fornitore|**Nome** del fornitore da **Nr. fornitore**|Mapping **Nr. fornitore** per nome.|
 |Peso|**Peso lordo**.|Non utilizzato.|

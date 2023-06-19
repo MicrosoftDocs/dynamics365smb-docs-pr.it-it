@@ -1,18 +1,18 @@
 ---
 title: Sincronizzare clienti
 description: Importare cliente da o esportarli in Shopify
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Sincronizzare clienti
 
-Quando un ordine viene importato da Shopify, le informazioni sul cliente sono essenziali per l'ulteriore elaborazione del documento in [!INCLUDE[prod_short](../includes/prod_short.md)]. Esistono due opzioni principali per eseguire questa azione e le loro combinazioni:
+Quando importi un ordine da Shopify, le informazioni sul cliente sono essenziali per l'ulteriore elaborazione del documento in [!INCLUDE[prod_short](../includes/prod_short.md)]. Esistono due opzioni principali per eseguire questa azione e varie combinazioni:
 
 * Usa un cliente speciale per tutti gli ordini.
 * Importa le informazioni sui clienti effettivi da Shopify. Questa opzione è disponibile anche quando esporti prima i clienti in Shopify da [!INCLUDE[prod_short](../includes/prod_short.md)].
@@ -36,10 +36,9 @@ Alcune impostazioni possono essere definite a livello nazionale/regionale o stat
 Puoi eseguire le seguenti operazioni per ogni cliente con il **Modello cliente Shopify**:
 
 1. Specificare **Nr. cliente predefinito**, che ha la priorità sulla selezione nei campi **Importazione cliente da Shopify** e **Tipo di mapping cliente**. Viene utilizzato nell'ordine cliente importato.
-2. Definisci il **Codice modello cliente**, che viene utilizzato per creare clienti mancanti, se **Crea automaticamente clienti sconosciuti** è abilitato. Se **Codice modello cliente** è vuoto, la funzione utilizza **Codice modello cliente** definito nella **Scheda punto vendita Shopify**.
-3. Definisci se i prezzi includono imposte/IVA per gli ordini importati.
-4. In alcuni casi, il **Codice modello cliente** definito per un paese non è sufficiente per garantire il corretto calcolo delle imposte (ad esempio, per i paesi con imposta sulle vendite). In questo caso, l'inclusione delle **Aree fiscali** potrebbe essere un'utile aggiunta.
-5. Il campo **Area imposte** contiene anche un abbinamento **Codice paese** e **Nome regione**. Questa coppia è utile quando il connettore deve convertire un codice in un nome o viceversa.
+2. Definisci il **Codice modello cliente**, che viene utilizzato per creare clienti mancanti, se **Crea automaticamente clienti sconosciuti** è abilitato. Se **Codice modello cliente** è vuoto, la funzione utilizza **Codice modello cliente** definito nella **Scheda punto vendita Shopify**. Il sistema tenta innanzitutto di trovare un modello **Codice paese/regione** per l'indirizzo predefinito. Se non trova un modello, usa il primo indirizzo.
+3. In alcuni casi, il **Codice modello cliente** definito per un paese non è sufficiente per garantire il corretto calcolo delle imposte (ad esempio, per i paesi con imposta sulle vendite). In questo caso, l'inclusione delle **Area fiscale** potrebbe essere un'utile aggiunta.
+4. Il campo **Area imposte** contiene anche un abbinamento **Codice paese** e **Nome regione**. Questa coppia è utile quando il connettore deve convertire un codice in un nome o viceversa.
 
 > [!NOTE]  
 > I codici paese sono codici paese ISO 3166-1 alpha-2. Ulteriori informazioni sul [Codice paese](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).

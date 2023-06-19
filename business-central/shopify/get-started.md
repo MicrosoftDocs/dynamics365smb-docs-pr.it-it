@@ -60,7 +60,7 @@ Ripeti i passaggi 2-6 per tutti i negozi online che si desidera collegare.
 
 - Il browser blocca la finestra pop-up. Quando attivi l'interruttore **Abilitato**, [!INCLUDE [prod_short](../includes/prod_short.md)] si apre nella pagina **In attesa di risposta - non chiudere questa pagina** mentre attende un token di accesso da Shopify. Se quella pagina è chiusa o bloccata, non puoi connetterti a Shopify. Ulteriori informazioni in [Richiedere il token di accesso](troubleshoot.md#request-the-access-token)
 - [Errore Oauthinvalid_request: impossibile trovare l'API per l'applicazione Shopify con api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Impossibile connettersi dalla sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Impossibile connettersi dalla sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Passaggi successivi
 
@@ -96,7 +96,11 @@ Se devi utilizzare questa configurazione, ti consigliamo di rivedere e probabilm
 * **Shopify può aggiornare i clienti** per non aggiornare i clienti esistenti
 * **Crea automaticamente ordine di vendita** per non creare ordini di vendita e fatture di vendita
 
+Per ulteriori informazioni, vedi [Ripristino di un ambiente](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+
 ### Produzione Shopify e sandbox Business Central
+
+Potrebbe essere una buona idea eseguire il backup dei dati. Ad esempio, esporta i tuoi prodotti e clienti. Per ulteriori informazioni, vedi [Utilizzo di file CSV per eseguire il backup delle informazioni del punto vendita](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Disattiva l'interruttore **Consenti sincronizzazione dati a Shopify** in modo che [!INCLUDE[prod_short](../includes/prod_short.md)] non scriva su Shopify. In questo caso, potrai importare prodotti, immagini, clienti e ordini da Shopify. Ma non sarai in grado di inviare informazioni su articoli, prezzi, livelli di inventario, clienti, evasione ordini a Shopify.
 

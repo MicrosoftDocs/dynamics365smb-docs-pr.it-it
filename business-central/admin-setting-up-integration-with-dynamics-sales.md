@@ -16,10 +16,10 @@ In questo articolo viene fornita una panoramica su come impostare account utente
 
 ## Impostare l'account utente amministratore
 
-Devi aggiungere il tuo account utente amministratore per [!INCLUDE[prod_short](includes/prod_short.md)] come utente in [!INCLUDE[cds_long](includes/cds_long_md.md)]. Quando si imposta la connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)] usiamo questo account una volta per installare e configurare alcuni componenti richiesti.
+Per configurare la connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)], è necessario accedere a [!INCLUDE[prod_short](includes/prod_short.md)] con un account utente assegnato alla licenza [!INCLUDE[prod_short](includes/prod_short.md)] Essential o [!INCLUDE[prod_short](includes/prod_short.md)] Premium. Utilizzeremo questo account una volta per installare e configurare alcuni componenti richiesti.
 
 > [!IMPORTANT]
-> L'account utente amministratore deve essere un utente con licenza con il ruolo di sicurezza **Amministratore di sistema** nell'ambiente [!INCLUDE[prod_short](includes/cds_long_md.md)] e amministratore globale nel tenant a cui appartiene l'ambiente. Questo account non ha bisogno di una licenza per [!INCLUDE[prod_short](includes/prod_short.md)], in quanto verrà utilizzato solo per fornire il servizio nel tenant [!INCLUDE[prod_short](includes/cds_long_md.md)] e per eseguire attività di configurazione.
+> Durante l'installazione, ti verrà chiesto di fornire le credenziali per l'ambiente [!INCLUDE[prod_short](includes/cds_long_md.md)]. Fornisci le credenziali di un account che è un utente con licenza a cui è assegnato il ruolo di sicurezza di **Amministratore di sistema** nell'ambiente [!INCLUDE[prod_short](includes/cds_long_md.md)] e amministratore globale nel tenant a cui appartiene l'ambiente. Questo account non ha bisogno di una licenza per [!INCLUDE[prod_short](includes/prod_short.md)], in quanto verrà utilizzato solo per eseguire attività di configurazione nell'ambiente [!INCLUDE[prod_short](includes/cds_long_md.md)].
 >
 > Al termine della configurazione della connessione, questo utente [!INCLUDE[prod_short](includes/cds_long_md.md)] può essere rimosso. L'integrazione continuerà a utilizzare l'account utente automaticamente creato specificatamente per l'integrazione.
 

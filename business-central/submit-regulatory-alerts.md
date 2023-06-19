@@ -70,7 +70,7 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 [Funzionalità locale in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Modifica di lingua e impostazioni locali](about-locale-language.md)  
 [Preparazione al business](ui-get-ready-business.md)  
-[Benvenuto su Business Central](index.md)  
+[Benvenuto su Business Central](welcome.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

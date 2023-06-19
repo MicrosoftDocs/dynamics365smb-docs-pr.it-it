@@ -11,7 +11,7 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: null
+ms.reviewer: kfend
 ---
 
 # Esportazione file di controllo
@@ -50,7 +50,7 @@ La maggior parte dei formati richiesti dalle autorità per i conti Co.Ge. richie
 
 Segui questi passaggi per fornire il mapping del conto Co.Ge. per l'esportazione del file di controllo.
 
-1. Seleziona il pulsante di ricerca ![Lente d'ingrandimento che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), inserisci **Mapping conto C/G**, quindi seleziona il collegamento correlato.
+1. Seleziona il pulsante di ricerca ![Lente d'ingrandimento che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), inserisci **Mapping conto C/G**, quindi seleziona il collegamento correlato.
 2. Nella pagina **Mapping C/G**, seleziona **Nuovo** per creare un mapping.
 3. Nel campo **Codice**, specificare il mapping che rappresenta il periodo di dichiarazione.
 4. Nel campo **Tipo di conto standard**, seleziona il tipo di conti C/G standard.
@@ -98,10 +98,9 @@ Segui questi passaggi per fornire il mapping del conto Co.Ge. per l'esportazione
 > Se hai più movimenti da esportare, ti sconsigliamo di esportarli nella sessione corrente, a causa di possibili problemi di prestazioni. Ti consigliamo invece di utilizzare l'elaborazione parallela durante i giorni o le ore non lavorative.
 
 ## Vedere anche
-
 [Gestione contabile](finance.md)  
 [Informazioni sulla contabilità generale e sul piano dei conti](finance-general-ledger.md)  
 [Usare le dimensioni](finance-dimensions.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilizzare Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

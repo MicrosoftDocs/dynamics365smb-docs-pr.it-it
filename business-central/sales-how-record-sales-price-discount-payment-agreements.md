@@ -1,16 +1,14 @@
 ---
 title: Registrare i prezzi di vendita e gli sconti speciali
 description: Descrive come definire gli accordi sui prezzi e sugli sconti per i documenti di vendita.
-author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
-ms.date: 06/03/2022
-ms.author: bholtorf
 ---
 
 # Registrare i prezzi di vendita e gli sconti speciali
@@ -22,7 +20,11 @@ ms.author: bholtorf
 
 * Modelli a prezzo unico in cui un articolo viene venduto sempre allo stesso prezzo.
 * Accordi di prezzi speciali con clienti specifici o gruppi di clienti.
-* Campagne quando una vendita soddisfa i criteri per un'offerta speciale. Ad esempio, i criteri potrebbero essere quando un ordine soddisfa una quantità minima, è precedente a una determinata data o include un determinato tipo di articolo.  
+* Campagne quando una vendita soddisfa i criteri per un'offerta speciale. Ad esempio, potresti avere i seguenti criteri per un ordine:
+
+  * Soddisfa una quantità minima
+  * È prima di una certa data
+  * Include un certo tipo di articolo  
 
 Per utilizzare un modello di prezzo di base, è sufficiente specificare un prezzo unitario quando imposti un articolo o una risorsa. Tale prezzo sarà sempre utilizzato sui documenti di vendita. Per i modelli più avanzati, ad esempio, quando desideri offrire prezzi speciali per una campagna di vendita, puoi specificare i criteri nella pagina **Prezzi di vendita**. Puoi offrire prezzi speciali basati su una combinazione delle seguenti informazioni:  
 
@@ -36,9 +38,9 @@ Dopo aver impostato i prezzi speciali, [!INCLUDE[prod_short](includes/prod_short
 
 Per gli sconti puoi impostare due tipi:
 
-| Tipo di sconto: | Descrizione |
+| Tipo di sconto | Descrizione |
 | --- | --- |
-| **Sconto Riga Vendita** |È possibile fare in modo che venga usato uno sconto sull'importo nelle righe di vendita quando si verifica una determinata combinazione di cliente, articolo, quantità minima, unità di misura o data di inizio o di fine. Il tipo è lo stesso dei prezzi di vendita. |
+| **Sconto Riga Vendita** |Aggiungi un importo nelle righe di vendita con una determinata combinazione di cliente, articolo, quantità minima, unità di misura o data di inizio o di fine. Il tipo è lo stesso dei prezzi di vendita. |
 | **Sconto fattura** |Una percentuale di sconto che viene sottratta dal totale nei documenti di vendita se la somma di tutte le righe di un documento supera un determinato valore minimo. |
 
 > [!TIP]  
@@ -85,22 +87,22 @@ Quando abiliti l'aggiornamento della funzionalità **Nuova esperienza prezzo di 
 
 * Se vuoi lavorare con tutti i prezzi su un'unica pagina, attivalo. I prezzi esistenti vengono convertiti in un listino prezzi predefinito per ciascuno dei seguenti documenti:
 
-    * Vendite
-    * Acquisti
-    * Ricavi commesse
-    * Acquisti commesse
+  * Vendite
+  * Acquisti
+  * Ricavi commesse
+  * Acquisti commesse
 
-    Puoi modificare tutti i prezzi per queste aree nella pagina **Foglio di lavoro prezzi**. I listini prezzi predefiniti sono impostati nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** e **Setup commesse**. 
+  Puoi modificare tutti i prezzi per queste aree nella pagina **Foglio di lavoro prezzi**. I listini prezzi predefiniti sono impostati nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** e **Setup commesse**.
 
 > [!NOTE]
 > Se i prezzi sono impostati solo su schede articolo o risorsa, i listini prezzi predefiniti non verranno compilati con tali prezzi durante l'aggiornamento dei dati. Tuttavia, puoi aprire uno qualsiasi dei listini prezzi predefiniti o la pagina **Foglio di lavoro prezzi** e utilizzare l'azione **Suggerisci righe** per aggiungere i prezzi impostati sulle schede articolo o risorsa.
 
-* Per utilizzare i listini prezzi di vendita, disattivala. I prezzi esistenti vengono convertiti in un nuovo listino prezzi predefinito per ciascuna combinazione dei seguenti elementi: 
+* Per utilizzare i listini prezzi di vendita, disattivala. I prezzi esistenti vengono convertiti in un nuovo listino prezzi predefinito per ciascuna combinazione dei seguenti elementi:
 
-* Cliente
-* Gruppo di clienti o campagna
-* Date di inizio e fine
-* Valute 
+  * Cliente
+  * Gruppo di clienti o campagna
+  * Date di inizio e fine
+  * Valute
 
 Se hai molte combinazioni, avrai molti listini prezzi.
 
@@ -166,9 +168,12 @@ Se si desidera copiare prezzi di vendita, ad esempio i prezzi di vendita di un s
 
 #### [Nuova esperienza](#tab/new-experience/)  
 
-Puoi specificare se il nuovo listino prezzi utilizzerà le impostazioni dell'intestazione del listino che stai copiando o le impostazioni del nuovo listino in cui stai copiando. Per utilizzare le impostazioni del listino in cui stai copiando i prezzi, attiva l'opzione **Utilizzai valori predefiniti dalla destinazione**.
+Puoi specificare le impostazioni che verranno utilizzate dal listino prezzi:
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Listini prezzi di vendita** e quindi scegli il collegamento correlato. 
+* Usa le impostazioni dall'intestazione nell'elenco che stai copiando.
+* Usa le impostazioni dall'elenco che stai copiando. Per utilizzare le impostazioni del listino in cui stai copiando i prezzi, attiva l'opzione **Utilizzai valori predefiniti dalla destinazione**.
+
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Listini prezzi di vendita** e quindi scegli il collegamento correlato.
 2. Scegliere il listino prezzi da copiare e quindi scegliere **Copia righe**.
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -185,8 +190,17 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 Puoi compilare la pagina Prospetto prezzi vendita per aggiornare in blocco i prezzi degli articoli, come aumentare tutti i prezzi di una determinata percentuale usando il seguente processo:
 
-* **Suggerisci prezzo vendita in prosp.** suggerisce le modifiche in uno dei due modi. Applicando un fattore di rettifica ai prezzi di vendita esistenti o copiando gli accordi sui prezzi di vendita esistenti in altri clienti, gruppi di prezzi di clienti o campagne di vendita.
-* **Suggerisci prezzo articolo in prosp.** suggerisce le modifiche in uno dei due modi. Applicando un fattore di rettifica ai prezzi unitari esistenti nelle schede articolo o suggerendo prezzi per nuove combinazioni di valuta, unità di misura e così via. I prezzi unitari degli articoli non vengono modificati da questo processo batch.  
+* **Suggerisci prezzo vendita in prosp.** suggerisce le modifiche in uno dei due modi:
+
+  * Applicando un fattore di rettifica ai prezzi di vendita esistenti.
+  * Copiando gli accordi sui prezzi di vendita esistenti per altri clienti, gruppi di prezzi dei clienti o campagne di vendita.
+
+* **Suggerisci prezzo articolo in prosp.** suggerisce le modifiche in uno dei due modi:
+
+  * Applicando un fattore di rettifica ai prezzi unitari di vendita nelle schede articolo.
+  * Suggerendo prezzi per nuove combinazioni di valute, unità di misura e così via.
+
+  Questo processo batch non modifica i prezzi unitari sugli articoli.  
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immettere **Prospetto prezzi vendita** e quindi scegliere il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci prezzo articolo in prosp.** .  
@@ -219,7 +233,7 @@ Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che 
 
     * Il cliente usufruisce di uno speciale accordo relativo a prezzi o sconti o appartiene a un gruppo che ne usufruisce?
     * L'articolo o il gruppo sconto articolo specificato nella riga è incluso in uno di tali accordi prezzi o sconti?
-    * La data dell'ordine, o la data di registrazione per le fatture e le note di credito, è compresa nell'intervallo di validità dell'accordo prezzi o sconti?
+    * La data è compresa tra la data di inizio e quella di fine dell'accordo relativo a prezzo/sconto? Per fatture e note di credito, questa è la data riportata nel campo **Data di registrazione** nell'intestazione del documento. Per tutti gli altri documenti, è la data nel campo **Data ordine** sulle intestazioni.
     * È stato specificato un codice unità di misura? In caso affermativo, in [!INCLUDE[prod_short](includes/prod_short.md)] verranno controllati i prezzi o gli sconti aventi lo stesso codice di unità di misura, altrimenti verranno verificati prezzi o gli sconti a cui non è associato alcun codice di unità di misura.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] controlla se eventuali accordi di prezzo/sconto si applicano alle informazioni sul documento o sulla riga del giornale di registrazione. Quindi inserisce il prezzo unitario applicabile e la percentuale di sconto riga utilizzando i seguenti criteri:

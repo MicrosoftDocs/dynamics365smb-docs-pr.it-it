@@ -1,13 +1,13 @@
 ---
 title: Sincronizzare ed evadere gli ordini cliente
 description: Configura ed esegui l'importazione e l'elaborazione dell'ordine cliente da Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Sincronizzare ed evadere gli ordini cliente
@@ -32,7 +32,20 @@ Se desideri rilasciare automaticamente un documento di vendita, attiva l'interru
 
 Il documento di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] si collega all'ordine Shopify e puoi aggiungere un campo che non è già visualizzato nella pagina. Per ulteriori informazioni sull'aggiunta di un campo, vai a [Per iniziare a personalizzare una pagina tramite il banner **Personalizzazione**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Se selezioni il campo **Nr. ordine Shopify nella riga documento**, queste informazioni verranno ripetute nelle righe di vendita di tipo **Commento**.
 
-Nel campo **Origine area fiscale**, definisci la priorità su come selezionare il codice area fiscale o il gruppo di registrazione attività IVA in base all'indirizzo. L'ordine Shopify importato contiene informazioni sulle tasse, ma le tasse vengono ricalcolate quando crei il documento di vendita, quindi è importante che le impostazioni tasse/aliquote siano corrette in [!INCLUDE[prod_short](../includes/prod_short.md)]. Per ulteriori informazioni sulle imposte, vedi [Impostare le imposte per la connessione Shopify](setup-taxes.md).
+Nel campo **Priorità area fiscale**, definisci la priorità su come selezionare il codice area fiscale sugli indirizzi dell'ordine. L'ordine Shopify importato contiene informazioni sulle imposte. Le imposte vengono ricalcolate quando si crea il documento di vendita, quindi è importante che le impostazioni IVA/imposta siano corrette in [!INCLUDE[prod_short](../includes/prod_short.md)]. Per ulteriori informazioni sulle imposte, vedi [Impostare le imposte per la connessione Shopify](setup-taxes.md).
+
+Specifica come elaborerai resi e rimborsi:
+
+* **Vuoto** specifica che non importi ed elabori resi e rimborsi.
+* **Importa solo** specifica che importi le informazioni, ma creerai manualmente la nota di credito corrispondente.
+* **Crea automaticamente nota di credito** specifica che si importano informazioni e [!INCLUDE[prod_short](../includes/prod_short.md)] crea automaticamente le note di credito. Questa opzione richiede l'attivazione dell'interruttore **Crea automaticamente ordine di vendita**.
+
+Specifica un'ubicazione per i resi e i conti Co.Ge. per i rimborsi per merci e altri rimborsi.
+
+* **Conto rimborso articoli non riforniti**: specifica un nr. conto C/G per articoli per cui non si desidera avere una rettifica di magazzino.
+* **Conto rimborso**: specifica un nr. conto C/G per la differenza tra l'importo totale rimborsato e l'importo totale degli articoli.
+
+Scopri di più su [Resi e rimborsi](synchronize-orders.md#returns-and-refunds)
 
 ### Mapping metodo spedizione
 
@@ -118,7 +131,7 @@ Se le tue impostazioni impediscono la creazione automatica di un cliente e non �
 
 La funzione *Importa ordine da Shopify* cerca di selezionare i clienti nel seguente ordine:
 
-1. Se **Nr. cliente predefinito** è definito nel **Modello cliente Shopify** per il paese corrispondente, **Nr. cliente predefinito** viene utilizzato indipendentemente dalle impostazioni nei campi **Importazione cliente da Shopify** e **Tipo di mapping cliente**. Ulteriori informazioni in [Modello cliente per paese](synchronize-customers.md#customer-template-per-country).
+1. Se **Nr. cliente predefinito** è definito nel **Modello cliente Shopify** per **Spedire a - Codice paese/area geografica**, quindi **Nr. cliente predefinito** viene utilizzato indipendentemente dalle impostazioni nei campi **Importazione cliente da Shopify** e **Tipo di mapping cliente**. Ulteriori informazioni in [Modello cliente per paese](synchronize-customers.md#customer-template-per-country).
 2. Se **Importazione cliente da Shopify** è impostato su *Nessuno* e **Nr. cliente predefinito** è definito nella pagina **Scheda punto vendita Shopify**, il **Nr. cliente predefinito** viene utilizzato.
 
 I prossimi passaggi dipendono dal **Tipo di mapping cliente**.
@@ -129,6 +142,27 @@ I prossimi passaggi dipendono dal **Tipo di mapping cliente**.
 
 > [!NOTE]  
 > Il connettore utilizza le informazioni dall'indirizzo di fatturazione e crea il cliente di fatturazione in [!INCLUDE[prod_short](../includes/prod_short.md)]. Il cliente a cui vendere è lo stesso del cliente a cui fatturare.
+
+### Diverse regole di elaborazione per gli ordini
+
+Potresti voler elaborare gli ordini in modo diverso in base a una regola. Ad esempio, gli ordini da un canale di vendita specifico, come il POS, dovrebbero utilizzare il cliente predefinito, ma desideri che il tuo negozio online disponga di informazioni reali sul cliente.
+
+Un modo per soddisfare questo requisito è creare una Scheda punto vendita Shopify aggiuntiva e utilizzare i filtri nella pagina di richiesta **Sincronizza ordini da Shopify**.
+
+Esempio: hai un negozio online e un POS Shopify. Per il tuo POS, vuoi utilizzare un cliente fisso, ma per il tuo negozio online vuoi creare clienti in [!INCLUDE[prod_short](../includes/prod_short.md)]. La procedura seguente elenca i passaggi di alto livello. Per saperne di più, vai agli articoli della guida corrispondenti.
+
+1. Crea un punto vendita Shopify chiamato *STORE* e collegalo al tuo account Shopify.
+2. Configura la sincronizzazione articolo/prodotto in modo che questo negozio gestisca le informazioni sul prodotto.
+3. Specifica che i clienti vengono importati con gli ordini. Il connettore dovrebbe trovare i clienti cercando il loro indirizzo e-mail. Se non trova un indirizzo, utilizza il modello cliente per creare un nuovo cliente.
+4. Crea un punto vendita Shopify chiamato *POS* e collegalo allo stesso account Shopify.
+6. Assicurati che la sincronizzazione articolo/prodotto sia disabilitata.
+7. Seleziona il connettore che utilizza il cliente predefinito.
+8. Crea una voce coda processi ricorrente per Report 30104 **Sincronizza ordini da Shopify**. Seleziona **PUNTO VENDITA** nel campo **Codice punto vendita Shopify** e utilizza i filtri per acquisire tutti gli ordini ad eccezione di quelli creati dal canale di vendita POS. Ad esempio, **<>Punto vendita**
+9. Crea una voce coda processi ricorrente per il Report 30104 **Sincronizza ordini da Shopify**. Seleziona **POS** nel campo **Codice punto vendita Shopify** e utilizza i filtri per catturare gli ordini generati dal canale di vendita POS. Ad esempio, **Punto vendita**.
+
+Ciascuna coda di lavoro importerà ed elaborerà gli ordini all'interno dei filtri definiti e utilizzerà le regole della scheda del punto vendita Shopify corrispondente. Ad esempio, creeranno ordini del punto vendita per il cliente predefinito.
+
+>![Importante] Per evitare conflitti durante l'elaborazione degli ordini, ricorda di utilizzare la stessa categoria della coda lavori per entrambe le voci della coda lavori.
 
 ### Impatto delle modifiche degli ordini
 
@@ -184,6 +218,27 @@ La società di tracciamento viene popolata in base allo spedizioniere con le seg
 * **Codice**
 
 Se il campo **URL tracciabilità pacchetto** è compilato per il record dello spedizioniere, la conferma della spedizione conterrà anche un URL di tracciamento.
+
+## Resi e rimborsi
+
+In un'integrazione tra Shopify e [!INCLUDE[prod_short](../includes/prod_short.md)], è importante poter sincronizzare quanti più dati aziendali possibile. Ciò semplifica l'aggiornamento dei livelli finanziari e di magazzino in [!INCLUDE[prod_short](../includes/prod_short.md)]. I dati che puoi sincronizzare includono resi e rimborsi che sono stati registrati in Amministra Shopify o POS Shopify.
+
+Resi e rimborsi vengono importati con i relativi ordini se hai abilitato il tipo di lavorazione sulla scheda del punto vendita Shopify.
+
+I resi vengono importati solo a scopo informativo. Non esiste alcuna logica di elaborazione ad essi associata.
+
+Le transazioni finanziarie e, se necessario, di magazzino vengono elaborate tramite rimborsi. I rimborsi possono includere prodotti o solo importi, ad esempio, se un venditore ha deciso di compensare le spese di spedizione o qualche altro importo.
+È possibile creare note di credito di vendita per i rimborsi. Le note di credito possono avere le seguenti tipologie di righe:
+
+|Tipo|Nr.|Commento|
+|-|-|-|
+|Conto C/G|Conto buono regalo venduto| Da utilizzare per i rimborsi relativi ai buoni regalo.|
+|Conto C/G|Conto rimborso articoli non in stock | Da utilizzare per i rimborsi relativi a prodotti che non sono stati riassortiti. |
+|Articolo |Nr. articolo| Da utilizzare per i rimborsi relativi a prodotti che sono stati riassortiti. Valido per rimborsi diretti o rimborsi collegati a rimborsi. Il codice ubicazione sulla riga di credito in più viene impostato in base al valore selezionato per l'ubicazione di reso.|
+|Conto C/G| Conto rimborso | Da utilizzare per altri importi rimborsati non correlati a prodotti o buoni regalo. Ad esempio, mance o se hai specificato manualmente un importo da rimborsare in Shopify. |
+
+>[!Note]
+>La posizione di reso, comprese le posizioni vuote, definite in **Scheda punto vendita Shopify** viene utilizzata sulla nota di credito creata. Il sistema ignora le ubicazioni originali dagli ordini o dalle spedizioni.
 
 ## Buoni regalo
 

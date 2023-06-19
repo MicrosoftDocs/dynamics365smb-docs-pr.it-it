@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# Prepararsi a sincronizzare i dati master
+# Preparati a sincronizzare i dati master
 
-Quando si hanno due o più società che utilizzano almeno alcuni degli stessi dati master, è possibile risparmiare tempo nell'inserimento dei dati sincronizzandoli nelle società. La sincronizzazione dei dati è particolarmente utile quando si impostano nuove società filiali.
+Quando due o più società utilizzano alcuni degli stessi dati anagrafici, è possibile sincronizzare i dati anziché aggiungerli manualmente in ciascuna società. Ad esempio, la sincronizzazione dei dati è particolarmente utile quando si impostano nuove società filiali.
 
-I dati master includono impostazioni e informazioni non transazionali su entità aziendali, come clienti, fornitori, articoli e dipendenti. I dati forniscono il contesto per le transazioni commerciali. Di seguito sono riportati alcuni esempi di dati master per un cliente:
+I dati master includono impostazioni e informazioni non transazionali su entità aziendali. Ad esempio, clienti, fornitori, articoli e dipendenti. I dati forniscono il contesto per le transazioni commerciali. Di seguito sono riportati alcuni esempi di dati master per un cliente:
 
 * Name
 * Numero di identificazione
@@ -23,7 +23,7 @@ I dati master includono impostazioni e informazioni non transazionali su entità
 * Condizioni pagamento
 * Limite credito
 
-Imposti la sincronizzazione delle società filiali. Utilizzando un modello pull, le filiali estraggono i dati dalla società di origine di cui hanno bisogno per fare affari con loro. Dopo aver impostato la sincronizzazione e sincronizzato i dati per la prima volta, è tutto pronto. I record nelle tabelle sono accoppiati e i movimenti coda processi iniziano immediatamente ad aggiornare i dati nelle filiali quando qualcuno apporta una modifica nella società di origine.
+Imposti la sincronizzazione delle società filiali. Utilizzando un modello pull, le filiali estraggono i dati dalla società di origine di cui hanno bisogno per fare affari con loro. Dopo aver impostato la sincronizzazione e sincronizzato i dati per la prima volta, è tutto pronto. I movimenti coda processi aggiornano i record accoppiati nelle filiali quando qualcuno cambia i dati nella società di origine.
 
 ## Sincronizzazione solo unidirezionale
 
@@ -34,10 +34,13 @@ Imposti la sincronizzazione delle società filiali. Utilizzando un modello pull,
 
 ## Operazioni preliminari
 
-Questi sono i requisiti per impostare la sincronizzazione.
+Di seguito sono riportati i requisiti per impostare la sincronizzazione.
 
 * Tutte le aziende devono trovarsi nello stesso ambiente.
-* L'utente che imposta la filiale deve avere il set di autorizzazioni **Gestione dati master - Visualizza**. Il set di autorizzazioni è disponibile nelle licenze Premium ed Essential. La licenza Membro del team consente di accedere ma non di modificare i record, quindi non può essere utilizzata per configurare la sincronizzazione.
+* L'utente che configura la filiale deve avere una licenza **Essential**, **Premium** o **ISV di base**.
+
+> [!NOTE]
+> Le licenze Membro del team e Amministratore interno consentono di accedere ma non di modificare i record, quindi non possono essere utilizzate per configurare la sincronizzazione. La licenza Amministratore delegato non ti consente di pianificare attività in background, quindi non sarai in grado di completare la configurazione.
 
 ## Specificare la società di origine
 
@@ -52,7 +55,7 @@ Il passaggio successivo consiste nell'abilitare tabelle e campi per la sincroniz
 
 ## Abilitare o disabilitare tabelle e campi
 
-Per risparmiare tempo, [!INCLUDE [prod_short](includes/prod_short.md)] fornisce un elenco di tabelle che le aziende spesso sincronizzano. Per impostazione predefinita, queste tabelle sono abilitate per la sincronizzazione, ma puoi modificarle, disabilitarle o eliminarle come meglio credi. Come ulteriore risparmio di tempo, alcuni campi delle tabelle sono già disabilitati perché probabilmente non rilevanti per la filiale.
+Per risparmiare tempo, [!INCLUDE [prod_short](includes/prod_short.md)] fornisce un elenco di tabelle che le aziende spesso sincronizzano. Per impostazione predefinita, queste tabelle sono abilitate per la sincronizzazione. Puoi modificarli, disabilitarli o eliminarli come meglio credi. Come ulteriore risparmio di tempo, alcuni campi delle tabelle sono già disabilitati perché probabilmente non rilevanti per la filiale.
 
 > [!NOTE]
 > Se nella società di origine sono installate una o più estensioni, quando una filiale imposta la sincronizzazione la pagina **Tabelle di sincronizzazione** include le tabelle delle estensioni e puoi accedere ai loro campi. Tuttavia, se la società di origine aggiunge un'estensione dopo l'impostazione della sincronizzazione, ogni filiale deve aggiungere manualmente le tabelle. Per ulteriori informazioni sull'aggiunta di tabelle, vai ad [Aggiungere o eliminare tabelle dall'elenco delle tabelle di sincronizzazione](#add-or-delete-tables-from-the-synchronization-tables-list). Per ulteriori informazioni sull'estensione [!INCLUDE [prod_short](includes/prod_short.md)], vai a [Sviluppo di estensioni in Visual Studio Code](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -85,8 +88,11 @@ Per risparmiare tempo, [!INCLUDE [prod_short](includes/prod_short.md)] fornisce 
 
 Quando sei pronto, sulla pagina **Setup gestione dati master** scegli l'azione **Avvia sincronizzazione iniziale**. Sulla pagina **Sincronizzazione iniziale dati master** scegli il tipo di sincronizzazione che desideri utilizzare per ogni tabella.
 
-* Se disponi già di record sia nella società di origine che nella filiale e desideri creare una corrispondenza con i record esistenti, scegli l'azione **Usa l'accoppiamento basato sulla corrispondenza**. [!INCLUDE [prod_short](includes/prod_short.md)] corrisponde i record nella società filiale con i record nella società di origine, in base ai criteri di corrispondenza definiti. Per diverse tabelle predefinite, [!INCLUDE [prod_short](includes/prod_short.md)] ha già abbinato i record esistenti utilizzando la loro chiave primaria, ma puoi modificarli se lo desideri. È inoltre possibile consentire alla sincronizzazione di creare nuovi record nella filiale per i record nella società di origine che la filiale non possiede. Per saperne di più sulla corrispondenza, vai a [Utilizzare l'accoppiamento basato sulla corrispondenza](#use-match-based-coupling).
-* Se scegli **Esegui sincronizzazione completa**, la sincronizzazione creerà nuovi record per tutti i record nella società di origine che non sono ancora stati accoppiati. In genere, questa opzione è utile se la filiale non ha dati nella tabella o se si desidera solo aggiungere record dalla società di origine, senza corrispondenza.  
+* Se disponi già di record sia nella società di origine che nella filiale e desideri creare una corrispondenza con i record esistenti, scegli l'azione **Usa l'accoppiamento basato sulla corrispondenza**. [!INCLUDE [prod_short](includes/prod_short.md)] confronta i record nella società controllata con i record nella società di origine. Le corrispondenze si basano sui criteri di corrispondenza definiti dall'utente. Per diverse tabelle predefinite, [!INCLUDE [prod_short](includes/prod_short.md)] ha già abbinato i record esistenti utilizzando la loro chiave primaria, ma puoi modificarli se lo desideri. È inoltre possibile consentire alla sincronizzazione di creare nuovi record nella filiale per i record nella società di origine che la filiale non possiede. Per saperne di più sulla corrispondenza, vai a [Utilizzare l'accoppiamento basato sulla corrispondenza](#use-match-based-coupling).
+* Se scegli **Esegui sincronizzazione completa**, la sincronizzazione crea nuovi record per tutti i record nella società di origine che non sono ancora stati accoppiati. Ad esempio, questa opzione è utile nei seguenti scenari:
+
+    * La filiale non ha dati nella tabella.
+    * Desideri aggiungere record dalla società di origine senza corrispondenze.  
 
 Dopo aver scelto l'opzione da utilizzare, scegli l'azione **Avvia tutto** per avviare la sincronizzazione.
 
@@ -118,7 +124,7 @@ Per accedere ai dettagli, come il numero di record inseriti o modificati, scegli
 
 ## Usare l'esportazione e l'importazione per condividere una configurazione di sincronizzazione
 
-Se stai configurando diverse filiali che utilizzeranno impostazioni di sincronizzazione uguali o simili, puoi risparmiare tempo impostando una società filiale ed esportando la sua configurazione in un file .xml. Il file contiene l'intera configurazione, inclusi i mapping di tabelle e campi e i criteri di filtro. È quindi possibile importare il file nella filiale successiva. Per importare o esportare un'impostazione, nella pagina **Setup gestione dati master** utilizza l'azione **Importa** o **Esporta**.
+Se stai configurando diverse filiali che utilizzano impostazioni di sincronizzazione uguali o simili, c'è un risparmio di tempo. Configura una società consociata e quindi esportane l'impostazione in un file .xml. Il file contiene l'intera configurazione, inclusi i mapping di tabelle e campi e i criteri di filtro. È quindi possibile importare il file nella filiale successiva. Per importare o esportare un'impostazione, nella pagina **Setup gestione dati master** utilizza l'azione **Importa** o **Esporta**.
 
 ## Vedere anche
 

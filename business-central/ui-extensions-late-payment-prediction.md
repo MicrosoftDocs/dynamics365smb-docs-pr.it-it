@@ -118,7 +118,7 @@ Se sembra che i tuoi processi non corrispondano al modello standard, puoi comunq
 
 [Documentazione di Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personalizzazione di Business Central con le estensioni](ui-extensions.md)  
-[Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Usare l'intelligenza artificiale in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
