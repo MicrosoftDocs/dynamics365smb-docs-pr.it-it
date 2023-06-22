@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Panoramica sulla conformità
+# <a name="compliance-overview" />Panoramica sulla conformità
 
 Questo argomento contiene informazioni sulla conformità in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -27,7 +27,7 @@ In questa sezione sono fornite ulteriori informazioni sul nostro approccio alla 
 |Accedere alle informazioni sulle differenti certificazioni relative a Business Central. Qui sono contenute le informazioni sulle certificazioni generali e sulle certificazioni specifiche di ciascun paese.|[Certificazioni](compliance-certifications.md)|  
 |Informazioni sui termini dei contratti di servizio e altri termini per il servizio|[Condizioni di servizio](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

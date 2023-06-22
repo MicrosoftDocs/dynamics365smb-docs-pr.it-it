@@ -12,31 +12,31 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente
+# <a name="bookmark-a-page-or-report-on-your-role-center" />Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente
 Utilizzando la nuova icona segnalibro, è possibile aggiungere un'azione che apre una pagina o un report dal menu di navigazione di Gestione ruolo utente. I segnalibri consentono di raggiungere rapidamente i contenuti o le attività aziendali preferiti. Si aggiunge il segnalibro dalla pagina o dal report di destinazione, ovvero la schermata che deve essere aperta con il collegamento in Gestione ruolo utente.
 
 L'icona segnalibro è visualizzata nell'angolo in alto a destra di una pagina e anche nella finestra della **funzionalità delle informazioni** in cui puoi contrassegnare correttamente più pagine o report. Se un segnalibro esiste per la pagina, l'icona è scura e la descrizione comandi indica "Con segnalibro".
 
-## Per aggiungere un segnalibro alla pagina di destinazione
+## <a name="to-bookmark-the-target-page" />Per aggiungere un segnalibro alla pagina di destinazione
 1. Aprire qualsiasi pagina per la quale si desidera un collegamento in Gestione ruolo utente.
 2. Scegli l'icona ![Segnalibro.](media/ui_bookmark_icon.png "Segnalibro") .
 
 Un'azione denominata come la pagina viene aggiunta al menu di navigazione in Gestione ruolo utente.
 
-## Per aggiungere un segnalibro al report di destinazione
+## <a name="to-bookmark-the-target-report" />Per aggiungere un segnalibro al report di destinazione
 1. Aprire qualsiasi pagina di richiesta report per la quale si desidera un collegamento in Gestione ruolo utente.
 2. Scegli l'icona ![Segnalibro.](media/ui_bookmark_icon.png "Segnalibro") .
 
 Un'azione denominata come il report viene aggiunta al menu di navigazione in Gestione ruolo utente.
 
-## Per aggiungere un segnalibro a una pagina o un report dalla finestra della funzionalità delle informazioni
+## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window" />Per aggiungere un segnalibro a una pagina o un report dalla finestra della funzionalità delle informazioni
 1. Aprire la finestra della **funzionalità delle informazioni** e immettere, ad esempio, **Ordini vendita**.
 2. Passa il mouse sopra il risultato della ricerca per la pagina o il report **Ordini vendita**, quindi scegli l'icona ![Segnalibro.](media/ui_bookmark_icon.png "Segnalibro") .
 
 Un'azione denominata come la pagina o il report viene aggiunta al menu di navigazione in Gestione ruolo utente.
 
 
-## Domande frequenti  
+## <a name="frequently-asked-questions" />Domande frequenti
 
 - **È possibile riorganizzare i segnalibri?**  
 Sì. È possibile personalizzare Gestione ruolo utente e spostare le azioni in una sequenza più ottimale o in gruppi e sottogruppi esistenti.  
@@ -76,7 +76,7 @@ Quando viene aggiunta una nuova azione, qualsiasi testo tradotto disponibile in 
 - **Perché non posso aggiungere del testo in una pagina direttamente dopo averla aperta con il segnalibro?**<br> Quando una pagina è aggiunta ai segnalibri, la pagina si aprirà sempre in modalità di visualizzazione dal segnalibro, anche se era in modalità di modifica quando è stata aggiunta ai segnalibri. Selezionando l'icona **Apportare le modifiche nella pagina** ![Mostra l'icona della matita per modificare la pagina.](media/edit-pencil.png) ti consentirà di aggiungere testo nei campi modificabili.
 
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  

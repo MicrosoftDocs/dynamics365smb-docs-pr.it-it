@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# Valute in Business Central
+# <a name="currencies-in-business-central" />Valute in Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## Valute
+## <a name="currencies" />Valute
 
 > [!TIP]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] se si stanno cercando informazioni in tempo reale sui tassi di cambio delle valute estere (FX) o sui tassi di cambio storici, queste informazioni vanno sotto il nome di valuta. Oltre a questo articolo, vedere anche [Impostare una valuta di rendicontazione aggiuntiva](finance-how-setup-additional-currencies.md).
@@ -21,17 +21,17 @@ ms.author: edupont
 
 Specifica i codici valuta nell'elenco **Valute**, comprese le informazioni e le impostazioni aggiuntive necessarie per ciascun codice valuta. Per ulteriori informazioni, vedi [Valute](finance-set-up-currencies.md#curr)
 
-### Esempio di una transazione in valuta esigibile
+### <a name="example-of-a-receivable-currency-transaction" />Esempio di una transazione in valuta esigibile
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Tassi di cambio
+## <a name="exchange-rates" />Tassi di cambio
 
 I tassi di cambio sono lo strumento per calcolare il valore in valuta locale (LCY) di ogni transazione in valuta. Per ulteriori informazioni, vedere [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md).  
 
-## Vedi il relativo [training Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## Vedi anche
+## <a name="see-also" />Vedi anche
 
 [Impostare le valute](finance-set-up-currencies.md)  
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  

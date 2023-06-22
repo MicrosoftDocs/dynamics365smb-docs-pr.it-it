@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-includeprodshortincludesprodshortmd" />Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] include configurazioni standard per la maggior parte dei processi aziendali. Tuttavia, tale configurazione può essere adattata alle esigenze dell'organizzazione. Gli articoli di [avvio rapido di Business Central](quick-start-business-central.md) possono aiutarti a fare i primi passi per rendere [!INCLUDE [prod_short](includes/prod_short.md)] tuo. Questo articolo fornisce una panoramica su come è possibile configurare [!INCLUDE [prod_short](includes/prod_short.md)] per la propria organizzazione.
 
@@ -55,13 +55,13 @@ Per alcune aree, è necessario disporre di privilegi di amministratore nella sot
 > [!NOTE]
 > In qualità di amministratore puoi impostare una nuova società in [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando RapidStart Services, uno strumento progettato per accelerare i tempi di distribuzione, migliorare la qualità dell'implementazione, introdurre un approccio ripetibile alle implementazioni e migliorare la produttività mediante l'automazione e la semplificazione di task ricorrenti. Per ulteriori informazioni, vedi [Impostazione di una società con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## Impostare le app
+## <a name="set-up-apps" />Impostare le app
 
 Oltre alle capacità principali di [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft aggiunge alcune app elencate [nella pagina **Gestione estensioni**](https://businesscentral.dynamics.com/?page=2500). A partire da ottobre 2022, ogni app fornisce un collegamento per avviare la pagina di configurazione: basta scegliere l'azione **Imposta**.  
 
 Puoi anche aggiungere funzionalità a [!INCLUDE [prod_short](includes/prod_short.md)] aggiungendo app di AppSource. Per ulteriori informazioni, vedi [Personalizzazione di Business Central Online utilizzando le estensioni](ui-extensions.md).  
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Panoramica delle informazioni sulla società](admin-company-information.md)  
 [Amministrazione](admin-setup-and-administration.md)  
@@ -79,6 +79,6 @@ Puoi anche aggiungere funzionalità a [!INCLUDE [prod_short](includes/prod_short
 [Preparazione al business](ui-get-ready-business.md)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

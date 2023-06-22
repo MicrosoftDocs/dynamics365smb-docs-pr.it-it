@@ -11,7 +11,7 @@ ms.search.form: '1831, 1832'
 ms.date: 04/27/2022
 ms.author: jswymer
 ---
-# Ottieni il componente aggiuntivo Business Central per Outlook
+# <a name="get-the-business-central-add-in-for-outlook" />Ottieni il componente aggiuntivo Business Central per Outlook
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)], puoi gestire le interazioni commerciali con i tuoi clienti e fornitori, direttamente in Microsoft Outlook. Con il componente aggiuntivo [!INCLUDE[prod_short](includes/prod_short.md)] Outlook, è possibile vedere i dati finanziari relativi a clienti e fornitori. È anche possibile creare e inviare documenti finanziari, come preventivi e fatture.  
 
@@ -21,7 +21,7 @@ Ci sono due modi per installare l'add-in di Business Central per Outlook, a seco
 
 - Come qualsiasi utente, installa l'add-in per il tuo uso personale, se il tuo amministratore non l'ha già distribuito per te.
 
-## Informazioni sul componente aggiuntivo Business Central per Outlook
+## <a name="about-the-business-central-add-in-for-outlook" />Informazioni sul componente aggiuntivo Business Central per Outlook
 
 L'add-in Business Central per Outlook consiste in due add-in più piccoli:
 
@@ -40,20 +40,20 @@ Ogni add-in è fornito come un file XML, chiamato *manifest*, che deve essere in
 > [!IMPORTANT]
 > Lavorare con più ambienti Il componente aggiuntivo Business Central per Outlook è progettato per funzionare con un unico ambiente Business Central. Quando il componente aggiuntivo viene installato, il nome dell'ambiente viene incluso nel manifesto del componente aggiuntivo. Questa configurazione significa che il componente aggiuntivo si connette solo all'ambiente da cui è stato installato. Per utilizzare il componente aggiuntivo con un ambiente diverso, devi aprire l'ambiente e installare nuovamente il componente aggiuntivo.
 
-## Distribuire il componente aggiuntivo utilizzando la distribuzione centralizzata come amministratore
+## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin" />Distribuire il componente aggiuntivo utilizzando la distribuzione centralizzata come amministratore
 
 La distribuzione centralizzata è una funzione nel centro amministrativo di Microsoft 365 che si usa per installare automaticamente i componenti aggiuntivi nelle applicazioni Office degli utenti, come Outlook. È il modo raccomandato per gli amministratori di distribuire i componenti aggiuntivi di Office agli utenti e ai gruppi all'interno dell'organizzazione.
 
 > [!NOTE]
 > Per Business Central on-premises, vedi [Impostazione dell'Add-In per l'integrazione di Outlook con Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) nel contenuto dell'amministrazione (solo in inglese).
 
-### Prerequisiti
+### <a name="prerequisites" />Prerequisiti
 
 - Una sottoscrizione Microsoft 365  
 - Agli utenti viene assegnata una licenza Microsoft 365  
 - Il tuo account Microsoft 365 ha il ruolo di *Amministratore globale* o *Amministratore di Exchange*
 
-### Distribuire il componente aggiuntivo
+### <a name="deploy-the-add-in" />Distribuire il componente aggiuntivo
 
 1. In Business Central, scegli la ![lampadina che apre la funzione Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , entrare in **Setup assistito**e poi scegliere il link relativo.
 2. scegli **Outlook Add-in Centralized Deployment** per avviare la guida alla configurazione assistita.
@@ -83,7 +83,7 @@ La distribuzione centralizzata è una funzione nel centro amministrativo di Micr
 
 Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amministrazione di Microsoft 365, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install"></a>Installare l'add-in per uso personale
+## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Installare l'add-in per uso personale
 
 Se la tua organizzazione lo permette, puoi installare l'add-in Business Central solo per te stesso. Contatta il tuo amministratore se non sei sicuro.
 
@@ -94,7 +94,7 @@ Se la tua organizzazione lo permette, puoi installare l'add-in Business Central 
 
 Business Central si collegherà al tuo server di posta elettronica e installerà l'add-in nel tuo Outlook. Non ci vorrà molto tempo. Ora sei pronto per iniziare ad usare l'add-in in Outlook.
 
-### <a name="onprem"></a>Per Business Central on-premises
+### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Per Business Central on-premises
 
 Se stai usando Business Central on-premises, l'installazione dell'add-in potrebbe essere leggermente diversa.
 
@@ -116,9 +116,9 @@ Se stai usando Business Central on-premises, l'installazione dell'add-in potrebb
 
 Ora sei pronto per iniziare ad usare l'add-in in Outlook.
 
-## Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## Vedi anche
+## <a name="see-also" />Vedi anche
 
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Scaricare Business Central sul dispositivo mobile](install-mobile-app.md)  

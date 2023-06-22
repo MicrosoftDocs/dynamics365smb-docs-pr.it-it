@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 06/11/2021
 ms.author: bholtorf
 ---
-# Visitare la videoteca
+# <a name="visit-our-video-library" />Visitare la videoteca
 
 Hai trovato la documentazione. Alcune persone preferiscono guardare contenuti anziché leggere. A tal fine, stiamo producendo video brevi e facilmente acquisibili. La maggior parte dei video integra la nostra assistenza per gli utenti e alcuni possono essere guardati singolarmente.  
 
@@ -24,7 +24,7 @@ Puoi anche visualizzare i video delle procedure e molti altri contenuti nella pl
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Preparazione al business](ui-get-ready-business.md)  
 [Canale Dynamics 365 in YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

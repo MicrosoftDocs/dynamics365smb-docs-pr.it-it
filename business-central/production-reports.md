@@ -8,21 +8,21 @@ ms.search.form: 'Report_5871, Report_5872, Report_99000753, Report_99000756, Rep
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# Report di produzione e analisi in Business Central
+# <a name="production-reports-and-analytics-in-business-central" />Report di produzione e analisi in Business Central
 
 Il report di produzione in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti della produzione e aziendali di ottenere approfondimenti e statistiche sulle attività di produzione attuali e passate.  
 
-## Report
+## <a name="reports" />Report
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-## Attività
+## <a name="tasks" />Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
 * [Visualizzare il carico in aree di produzione e centri di lavoro](production-how-to-view-the-load-on-work-centers.md)  
 * [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

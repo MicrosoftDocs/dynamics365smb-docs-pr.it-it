@@ -8,7 +8,7 @@ ms.date: 06/18/2021
 ms.search.form: 12116
 ms.author: edupont
 ---
-# Stampa di report Intrastat per l'Italia
+# <a name="print-intrastat-reports-for-italy" />Stampa di report Intrastat per l'Italia
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
@@ -19,7 +19,7 @@ Sono disponibili i seguenti report Intrastat:
 - Report **Intrastat - Checklist**  
 - Report **Intrastat - Form**  
 
-## Per stampare report trimestrali o mensili  
+## <a name="to-print-quarterly-or-monthly-reports" />Per stampare report trimestrali o mensili
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni Intrastat**, quindi scegli il collegamento correlato.  
 2. Selezionare il batch contabile desiderato.  
@@ -31,20 +31,20 @@ Sono disponibili i seguenti report Intrastat:
     > [!NOTE]  
     >  Prima della stampa, è possibile selezionare il percorso e il nome file. Se non vengono specificate queste informazioni, il file verrà denominato **scambi.cee** e verrà stampato nella radice dell'unità C.  
 
-## Per stampare report Intrastat - Checklist  
+## <a name="to-print-intrastat---checklist-reports" />Per stampare report Intrastat - Checklist
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Intrastat - Elenco di controllo**, quindi scegli il collegamento correlato.  
 2. Per includere informazioni dettagliate sulle righe registrazioni nel report, selezionare la casella di controllo **Mostra righe registr. Intrastat** nella Scheda dettaglio **Opzioni**.  
 3. Nelle Schede dettaglio **Batch reg. Intrastat** e **Righe reg. Intrastat** selezionare i filtri appropriati.  
 4. Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 
-## Per stampare report Intrastat - Form  
+## <a name="to-print-intrastat---form-reports" />Per stampare report Intrastat - Form
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Intrastat - Modulo**, quindi scegli il collegamento correlato.  
 2. Nelle Schede dettaglio **Batch reg. Intrastat** e **Righe reg. Intrastat** selezionare i filtri appropriati.  
 3. Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md)  
 [Funzionalità locale per l'Italia](italy-local-functionality.md)  

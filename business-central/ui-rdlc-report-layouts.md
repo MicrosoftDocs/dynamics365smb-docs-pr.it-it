@@ -11,13 +11,13 @@ ms.search.form: '9650, 9652'
 ms.date: 03/14/2022
 ms.author: jswymer
 ---
-# Utilizzare i layout di RDLC
+# <a name="working-with-rdlc-layouts" />Utilizzare i layout di RDLC
 
 I layout RDLC sono basati sui file di layout di definizione dei report dei client (tipi di file .rdl o .rdlc). I concetti di progettazione per i layout RDLC sono simili ad altri tipi di layout. Il layout determina quali campi mostrare e come sono organizzati. Tuttavia la progettazione dei layout RDLC è un'operazione più avanzata, rispetto ai layout Word ed Excel.
 
 [![Mostra i diversi elementi di un layout RDLC.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## Strumenti necessari
+## <a name="required-tools" />Strumenti necessari
 
 Per modificare i layout RDL, puoi utilizzare Generatore di report Microsoft SQL Server o Microsoft RDLC Report Designer.
 
@@ -25,7 +25,7 @@ Per modificare i layout RDL, puoi utilizzare Generatore di report Microsoft SQL 
 
 - RDLC Report Designer è un'estensione per Visual Studio 2017 e versioni successive. È possibile scaricare e installare RDLC Report Designer dal [Marketplace Visual Studio](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## Creare e modificare layout RDLC
+## <a name="create-and-modify-rdlc-layouts" />Creare e modificare layout RDLC
 
 La creazione e la modifica dei layout RDLC è un'attività avanzata, che in genere viene eseguita da utenti esperti o sviluppatori. I concetti di base non sono specifici dei layout di report di Business Central. Per questo motivo facciamo riferimento alla seguente documentazione:
 
@@ -41,9 +41,9 @@ dietro RDL/RDLC e come utilizzare Generatore di report.
 > [!NOTE]
 > Generatore di report riconosce solo il tipo di file .rdl, non .rdlc. I file di layout esportati da Business Central sono tipi di file .rdlc. Quindi, per modificare questi layout in Generatore di report devi rinominare il tipo di file in .rdl.
 
-## Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## Vedi anche
+## <a name="see-also" />Vedi anche
 
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Impostare il layout utilizzato da un report](ui-set-report-layout.md)  

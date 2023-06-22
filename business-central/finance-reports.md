@@ -8,17 +8,17 @@ ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# Report finanziari e analisi in Business Central
+# <a name="financial-reports-and-analytics-in-business-central" />Report finanziari e analisi in Business Central
 
 La creazione di report finanziari in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti finanziari e aziendali di creare, gestire, distribuire e visualizzare i rendiconti finanziari. Va oltre i tradizionali vincoli di creazione di report per consentire di progettare in modo efficiente vari tipi di report. [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report, funzioni di tracciamento e strumenti utili per i revisori o i controllori responsabili della creazione di report per il reparto finanziario. La creazione di report finanziari include il supporto per le dimensioni, rendendo pertanto le dimensioni o i segmenti di conto immediatamente disponibili. Non sono necessari altri strumenti o passaggi di configurazione.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Report
+## <a name="reports" />Report
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Attività
+## <a name="tasks" />Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
@@ -30,9 +30,9 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 * [Creare report con XBRL](bi-create-reports-with-xbrl.md)  
 * [Gestire l'intento di accesso al database](admin-data-access-intent.md)  
 
-## Vedi il relativo [training Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Creazione di budget di costi](finance-create-cost-budgets.md)  
 [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)  

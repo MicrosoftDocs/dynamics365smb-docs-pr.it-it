@@ -11,7 +11,7 @@ ms.search.form: '5642, 5625'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Gestione di cespiti
+# <a name="maintain-fixed-assets" />Gestione di cespiti
 
 Le spese di manutenzione sono costi periodici di routine sostenuti per mantenere il valore del cespite. A differenza degli incrementi di capitale, il loro valore non aumenta.
 
@@ -19,7 +19,7 @@ Le spese di manutenzione sono costi periodici di routine sostenuti per mantenere
 
 L'indicizzazione consente di correggere i valori per le modifiche generali a livello di prezzo. Il processo batch **Indice cespiti** consente di ricalcolare i costi di manutenzione.
 
-## Per registrare un intervento di manutenzione su un cespite
+## <a name="to-record-maintenance-work-on-a-fixed-asset" />Per registrare un intervento di manutenzione su un cespite
 
 Ogniqualvolta vengono effettuate operazioni di manutenzione, ad esempio una visita di assistenza, è possibile registrarle in relazione al cespite corrispondente. Quest'operazione viene eseguita nella pagina **Registrazioni Manutenzione**.  
 
@@ -27,7 +27,7 @@ Ogniqualvolta vengono effettuate operazioni di manutenzione, ad esempio una visi
 2. Selezionare il cespite di cui registrare la manutenzione, quindi scegliere l'azione **Registrazioni manutenzione**.
 3. Nella pagina **Registrazioni manutenzione** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Per registrare i costi di manutenzione da Registrazioni Cespiti in C/G
+## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal" />Per registrare i costi di manutenzione da Registrazioni Cespiti in C/G
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Lista reg. beni ammortizz.**, quindi scegli il collegamento correlato.  
 2. Selezionare il registro beni ammortizzabili assegnato al cespite, quindi scegliere l'azione **Modifica**.
@@ -41,7 +41,7 @@ Ogniqualvolta vengono effettuate operazioni di manutenzione, ad esempio una visi
     >   Il passaggio 7 funziona solo se è stato impostato quanto segue: nella pagina **Scheda Cat. Reg. Cespite** della categoria di registrazione del cespite il campo **Conto manutenzione** contiene il conto di addebito contabilità generale e il campo **Conto saldo manutenzione** contiene il conto C/G in cui si desidera registrare i movimenti di contropartita per la rivalutazione. Per ulteriori informazioni, vedere [Per impostare le categorie di registrazione dei cespiti](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Scegliere l'azione **Registra**.
 
-## Per pianificare le visite di assistenza relative ai cespiti
+## <a name="to-follow-up-on-fixed-assets-service-visits" />Per pianificare le visite di assistenza relative ai cespiti
 
 È possibile stampare il report **Manutenzione - Servizio Succ.** per visualizzare per quali cespiti è stata programmata una visita di assistenza. È possibile inoltre utilizzare questo report durante l'aggiornamento del campo **Data Servizio Successivo** nelle schede cespiti.  
 
@@ -49,7 +49,7 @@ Ogniqualvolta vengono effettuate operazioni di manutenzione, ad esempio una visi
 2. Compilare i campi **Data inizio** e **Data fine**.  
 3. Selezionare il pulsante **Stampa** o **Anteprima**.
 
-## Per monitorare i costi di manutenzione
+## <a name="to-monitor-maintenance-costs" />Per monitorare i costi di manutenzione
 
 I costi di manutenzione possono essere visualizzati dalle statistiche di un cespite.  
 
@@ -60,7 +60,7 @@ I costi di manutenzione possono essere visualizzati dalle statistiche di un cesp
 
 Viene visualizzata la pagina **Movimenti contabili manutenzioni** con i movimenti che compongono l'importo del campo **Manutenzione**.
 
-## Per visualizzare o stampare i costi di manutenzione per più cespiti
+## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets" />Per visualizzare o stampare i costi di manutenzione per più cespiti
 
 Nel report **Manutenzione - Analisi** è possibile selezionare se la manutenzione debba essere visualizzata in uno, due o tre codici di manutenzione per una data o un periodo specifico. È possibile visualizzare il totale di tutti i cespiti selezionati o un totale per ogni cespite.
 
@@ -68,7 +68,7 @@ Nel report **Manutenzione - Analisi** è possibile selezionare se la manutenzion
 2. Compilare i campi, se necessario.
 3. Selezionare il pulsante **Stampa** o **Anteprima**.
 
-## Per visualizzare i movimenti contabili manutenzioni
+## <a name="to-view-maintenance-ledger-entries" />Per visualizzare i movimenti contabili manutenzioni
 
 I costi di manutenzione possono essere esaminati anche visualizzando i movimenti contabili di manutenzione.  
 
@@ -76,7 +76,7 @@ I costi di manutenzione possono essere esaminati anche visualizzando i movimenti
 2. Selezionare il cespite di cui visualizzare i movimenti contabili, quindi scegliere l'azione **Registri beni ammortizzabili**.
 3. Nella pagina **Registro beni amm. cespiti**, selezionare il registro beni ammortizzabili cespiti rilevante quindi scegliere l'azione **Movimenti contabili manutenzioni**.
 
-## Per visualizzare o stampare i movimenti contabili per più cespiti
+## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets" />Per visualizzare o stampare i movimenti contabili per più cespiti
 
 Nel report **Manutenzione - Dettagli**, è possibile visualizzare o stampare i movimenti contabili di manutenzione per uno o più cespiti.  
 
@@ -84,9 +84,9 @@ Nel report **Manutenzione - Dettagli**, è possibile visualizzare o stampare i m
 2. Compilare i campi in base alle esigenze.
 3. Seleziona il pulsante **Stampa** o **Anteprima**.
 
-## Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-maintenance-insurances" />Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  

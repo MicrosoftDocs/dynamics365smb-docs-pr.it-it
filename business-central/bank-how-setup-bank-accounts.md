@@ -11,7 +11,7 @@ ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
 ms.date: 01/24/2022
 ms.author: edupont
 ---
-# Impostare i conti correnti bancari
+# <a name="set-up-bank-accounts" />Impostare i conti correnti bancari
 
 I conti correnti bancari vengono utilizzati in [!INCLUDE[prod_short](includes/prod_short.md)] per tenere traccia delle transazioni bancarie. I conti possono essere denominati in valuta locale o estera. Dopo aver impostato i conti correnti bancari è possibile utilizzare l'opzione per la stampa di assegni. I conti bancari includono funzionalità extra per la [riconciliazione dei pagamenti](receivables-apply-payments-auto-reconcile-bank-accounts.md), la [riconciliazione bancaria](bank-how-reconcile-bank-accounts-separately.md) e l'importazione e l'esportazione di file bancari. I conti bancari possono essere inclusi anche in transazioni nelle registrazioni COGE. Ciascun conto bancario è collegato a un conto del piano dei conti tramite il gruppo di registrazione del conto bancario assegnato. L'utilizzo di un conto bancario in una transazione di pagamento crea automaticamente una voce sia nel conto bancario che nel conto di contabilità generale (C/G) collegato.  
 
@@ -81,7 +81,7 @@ Guarda nel video qui sotto i passaggi di base per impostare un conto bancario in
 > [!WARNING]
 > Alcuni campi possono contenere dati sensibili, come i campi **Nr. filiale banca**, **Nr. conto bancario**, **Codice SWIFT**, e **Codice IBAN**. Per ulteriori informazioni, vedi [Monitoraggio dei campi riservati](across-log-changes.md#monitoring-sensitive-fields).
 
-## Per impostare i conti correnti bancari
+## <a name="to-set-up-bank-accounts" />Per impostare i conti correnti bancari
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Nella pagina **C/C bancari** scegliere l'azione **Nuovo**.
@@ -151,7 +151,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## Per immettere un saldo di apertura
+## <a name="to-enter-an-opening-balance" />Per immettere un saldo di apertura
 
 Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare un movimento contabile del conto corrente bancario con la quantità in questione. È possibile effettuare questa operazione eseguendo un una riconciliazione bancaria. Per ulteriori informazioni vedi [Riconciliare i conti bancari](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -160,7 +160,7 @@ Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare
 > [!IMPORTANT]
 > Non registrare il saldo di apertura direttamente nella contabilità generale. La presenza di movimenti nel conto C/G che sono stati registrati direttamente comporta in genere l'impossibilità di riconciliare il conto bancario. Con i conti bancari in valuta estera, tale procedura comporta l'accumulo di differenze man mano che si registrano più riconciliazioni bancarie. Di solito registri il saldo bancario di apertura direttamente sul conto bancario e l'importo finisce quindi nel conto C/G. In alternativa, lo annulli in un secondo momento rispetto a un conto C/G che usi per bilanciare il saldo della contabilità generale di apertura. In entrambi i casi, è necessario bilanciare qualsiasi registrazione diretta sul conto C/G prima di iniziare la prima riconciliazione bancaria, soprattutto se il conto bancario è in una valuta estera.
 
-## Per impostare il conto corrente bancario per l'importazione o l'esportazione di file dei conti correnti bancari
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files" />Per impostare il conto corrente bancario per l'importazione o l'esportazione di file dei conti correnti bancari
 
 I campi relativi all'importazione e all'esportazione di feed e file bancari sono nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda conto corrente bancario**. Per ulteriori informazioni, vedi [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) e [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -213,13 +213,13 @@ L'illustrazione seguente mostra il percorso dei pagamenti in uscita (i numeri ne
   :::column-end:::
 :::row-end:::
 
-## Per impostare i conti correnti fornitore per l'esportazione di file dei conti correnti bancari
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files" />Per impostare i conti correnti fornitore per l'esportazione di file dei conti correnti bancari
 
 I campi nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda C/C bancari fornitori** sono correlati all'esportazione dei feed e dei file dei conti correnti bancari. Per ulteriori informazioni, vedi [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) ed [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## Cambiare il conto bancario
+## <a name="changing-your-bank-account" />Cambiare il conto bancario
 
 Per utilizzare un conto bancario diverso per la tua attività, devi creare il nuovo conto bancario in [!INCLUDE[prod_short](includes/prod_short.md)]. Ti consigliamo di non sostituire semplicemente le informazioni sul conto che stai attualmente utilizzando perché ciò può causare dati errati. Ad esempio, il bilancio di apertura potrebbe essere errato o il feed della banca potrebbe smettere di funzionare correttamente. È importante mantenere separati i conti attuali e nuovi.
 
@@ -230,9 +230,9 @@ Dopo aver creato il nuovo conto bancario, è necessario creare anche una nuova c
 
 Per ottenere una visione più concisa dei tuoi conti di cassa nei report finanziari, usa i conti **Inizio-Totale** e **Totale finale** nel piano dei conti, le righe **Totale** nei report finanziari o nelle categorie di conti C/G. Per ulteriori informazioni, vedi la sezione [Business Intelligence e Financial Reporting](bi.md).
 
-## Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Impostazione delle categorie di registrazione](finance-posting-groups.md)  

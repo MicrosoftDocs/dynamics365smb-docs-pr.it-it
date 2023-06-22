@@ -10,7 +10,7 @@ ms.search.form: '99000852, 99000860'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Eseguire la pianificazione completa, MPS o MRP
+# <a name="run-full-planning-mps-or-mrp" />Eseguire la pianificazione completa, MPS o MRP
 
 L'espressione "esecuzione del prospetto di pianificazione" o "esecuzione di MRP" si riferisce al calcolo della programmazione di produzione master e delle richieste di materiale in base alla domanda effettiva e prevista. Il sistema di pianificazione può calcolare la programmazione MPS o la pianificazione MRP su richiesta oppure può calcolarle entrambe contemporaneamente.  
 
@@ -23,7 +23,7 @@ Gli algoritmi di pianificazione utilizzati per MPS e MRP sono identici. Gli algo
 
 La correttezza dei risultati di pianificazione dipende dal setup di schede articolo, DB di assemblaggio, DB di produzione e cicli.  
 
-## Metodi per la generazione di un piano  
+## <a name="methods-for-generating-a-plan" />Metodi per la generazione di un piano
 
 -   **Calcola piano - Rigenerativo:** questa funzione consente di elaborare o rigenerare il piano del materiale. Il processo inizia con l'eliminazione di tutti gli ordini approvvigionamento attualmente caricati. Tutti gli articoli inclusi nel database vengono ripianificati.  
 -   **Calcola piano - Solo cambiamenti**: questa funzione consente di elaborare un piano dei cambiamenti. In questo piano gli articoli vengono considerati come da due tipi di cambiamenti:  
@@ -38,7 +38,7 @@ Con ogni metodo pianificato, [!INCLUDE[prod_short](includes/prod_short.md)] gene
 >   
 >  La funzione Piano di generazione dei messaggi di azione può essere eseguito tra le esecuzioni del calcolo del piano relativo ai cambiamenti e del piano rigenerativo per ottenere una visione immediata dell'impatto dei cambiamenti apportati alla programmazione, ma non è da intendersi come sostitutivo di tali processi.  
 
-## Per calcolare il prospetto pianificazione  
+## <a name="to-calculate-the-planning-worksheet" />Per calcolare il prospetto pianificazione
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetti pianificazione**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo** per aprire la pagina **Calcola piano**.  
 3.  Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
@@ -57,7 +57,7 @@ Con ogni metodo pianificato, [!INCLUDE[prod_short](includes/prod_short.md)] gene
 4.  Nella Scheda dettaglio **Articolo** è impostare i filtri ed eseguire la pianificazione in base ad articolo, descrizione articolo o ubicazione.  
 5.  Scegliere il pulsante **OK**. Verrà eseguito il processo batch, quindi nel prospetto di pianificazione verranno inserite le righe di pianificazione.  
 
-## Per eseguire i messaggi di azione  
+## <a name="to-perform-action-messages" />Per eseguire i messaggi di azione
 1.  Nella pagina **Prospetto pianificazione** scegliere l'azione **Esegui messaggi di azione**.  
 2.  Nella Scheda dettaglio **Opzioni** specificare come creare gli approvvigionamenti. Compilare i campi come indicato nella tabella seguente.  
 
@@ -75,7 +75,7 @@ Con ogni metodo pianificato, [!INCLUDE[prod_short](includes/prod_short.md)] gene
 
 Al termine dell'esecuzione del messaggio di azione, tramite il processo batch vengono eliminate le righe nel prospetto di pianificazione. Le righe meno recenti vengono mantenute nel prospetto di pianificazione fino a quando non vengono accettate in una data successiva o eliminate. È anche possibile eliminare le righe manualmente.  
 
-## Messaggi di azione  
+## <a name="action-messages" />Messaggi di azione
 I messaggi azione vengono generati dal sistema di tracciabilità degli ordini quando non è possibile raggiungere il saldo all'interno della rete di ordini esistente. Tali messaggi possono essere visualizzati come suggerimento per l'elaborazione delle modifiche che consentano di ristabilire l'equilibrio tra approvvigionamento e domanda.  
 
 La generazione dei messaggi di azione si verifica a un livello per volta, considerando il codice di ultimo livello di ciascun articolo. In questo modo, verranno sicuramente presi in considerazione tutti gli articoli soggetti a modifiche relative all'approvvigionamento o alla domanda.  
@@ -97,7 +97,7 @@ In risposta a qualsiasi mancato saldo tra approvvigionamento e domanda, vengono 
 |**Riprogr. e mod. qtà.**|Se sono state modificate sia le date sia le quantità di un ordine, è necessario modificare i piani relativamente a entrambe le situazioni. Le due azioni vengono riunite in un unico messaggio, **Riprogr. e mod. qtà.**, per garantire il ripristino del saldo nella rete di ordini.|  
 |**Annulla**|Se una domanda, trattata su base ordine-a-ordine, viene eliminata, viene generato un messaggio di azione per annullare gli ordini di approvvigionamento correlati. Se la relazione non è di tipo ordine-a-ordine, viene generato un messaggio di azione per ridurre l'approvvigionamento. Se a causa di altri fattori, ad esempio le rettifiche del magazzino, non è necessario alcun ordine di approvvigionamento nel momento in cui i messaggi di azione vengono generati dall'utente, viene generato da [!INCLUDE[prod_short](includes/prod_short.md)] un messaggio di azione **Annulla**.|  
 
-## Vedi anche  
+## <a name="see-also" />Vedi anche
 [Pianif.](production-planning.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

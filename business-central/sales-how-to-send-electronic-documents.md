@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Inviare documenti elettronici
+# <a name="send-electronic-documents" />Inviare documenti elettronici
 
 La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta l'invio delle fatture e delle note di credito elettroniche nel formato PEPPOL, supportato dai principali provider di servizi di scambio documenti. Un provider di servizi di Exchange per documenti invia i documenti elettronici tra i partner commerciali. Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.  
 
@@ -18,7 +18,7 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
 
  Per inviare una fattura di vendita come documento elettronico PEPPOL, selezionare l'opzione **Documento elettronico** nella finestra di dialogo **Registra e invia**. Nella finestra di dialogo è inoltre possibile impostare il profilo di invio documenti predefinito del cliente. Innanzitutto, è necessario impostare diversi dati principali, ad esempio le informazioni sulla società, i clienti, gli articoli e le unità di misura. Questi dati vengono utilizzati per identificare i partner commerciali e gli articoli durante la conversione dei dati nei campi in [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-### Per inviare una fattura di vendita elettronica
+### <a name="to-send-an-electronic-sales-invoice" />Per inviare una fattura di vendita elettronica
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 
@@ -43,9 +43,9 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
     > [!NOTE]  
     >  È inoltre possibile inviare una fattura di vendita registrata come documento elettronico. La procedura è uguale a quella descritta in questo argomento per i documenti di vendita non registrati. Nella pagina **Fatt. di vend. reg.** scegliere l'azione **Log attività** per visualizzare lo stato del documento elettronico.  
 
-## Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## Vedi anche
+## <a name="see-also" />Vedi anche
 
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md)  

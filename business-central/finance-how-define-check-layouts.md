@@ -11,13 +11,13 @@ ms.search.form: '374, 404'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Selezionare un layout degli assegni
+# <a name="select-a-check-layout" />Selezionare un layout degli assegni
 
 È possibile progettare i controlli per assicurare la conformità agli standard definiti dalle autorità locali. Le immagini degli assegni possono essere stampati in inglese, francese, o spagnolo.
 
 Gli assegni sono stati progettati per la stampa dei formati di immagine sia degli Stati Uniti che del Canada con formato assegno-matrice- assegno o matrice-matrice-assegno.
 
-## Per selezionare un layout degli assegni
+## <a name="to-select-a-check-layout" />Per selezionare un layout degli assegni
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezioni report C/C bancari**, quindi scegli il collegamento correlato.
 2. Nella pagina **Selez. report - C/C bancario**, nel campo **Utilizzo** selezionare **Assegno**.
@@ -34,7 +34,7 @@ Dopo aver impostato i layout dell'asegno, è possibile stampare assegni nella pa
 
 Per modificare uno di questi layout degli assegni predefinito, utilizzare l'integrazione Word o RDLC. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 
-## Utilizzare i caratteri MICR e di sicurezza
+## <a name="use-micr-and-security-fonts" />Utilizzare i caratteri MICR e di sicurezza
 La versione online di [!INCLUDE[prod_short](includes/prod_short.md)] contiene caratteri preinstallati sui server che possono essere utilizzati durante la definizione di layout di controllo. Di seguito vengono indicati i tipi di carattere disponibili con i collegamenti alle informazioni dettagliate di fornitori di terze parti dei caratteri.
 
 > [!Important]
@@ -45,19 +45,19 @@ Nell'aggiornamento 15.3 e successivi, i caratteri Magnetic Ink Character Recogni
 > [!NOTE]
 > Per motivi legali e di sicurezza, non è possibile caricare i caratteri personalizzati nell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### Specifiche MICR E-13B
+### <a name="micr-e-b-specifications" />Specifiche MICR E-13B
 
 Di seguito sono riepilogate le specifiche per i caratteri MICR E-13B che possono essere utili per la calibrazione dei caratteri per layout di controllo con specifiche stampanti MICR.
 
 ![Specifiche MICR E-13B.](media/font_MICR_E-13B_Specifications.png "Specifiche MICR E-13B")
 
-### Caratteri delimitatori
+### <a name="delimiter-characters" />Caratteri delimitatori
 
 ![Caratteri delimitatori.](media/font-micr-letters.png "Caratteri delimitatori")
 
 Le specifiche complete dei caratteri MICR E-13B sono disponibili nella documentazione del fornitore qui: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### Specifiche MICR CMC-7
+### <a name="micr-cmc--specifications" />Specifiche MICR CMC-7
 
 I seguenti caratteri CMC-7 sono disponibili in [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
@@ -70,13 +70,13 @@ Di seguito sono riepilogate le specifiche per i caratteri MICR CMC-7 che possono
 
 ![Specifiche MICR CMC-7.](media/font_MICR_CMC-7_Specifications.png "Specifiche MICR CMC-7")
 
-### Caratteri delimitatori
+### <a name="delimiter-characters" />Caratteri delimitatori
 
 ![Caratteri delimitatori per CMC-7.](media/font-cmc7-letters.png "Caratteri delimitatori per CMC-7")
 
 Le specifiche complete dei caratteri MICR CMC-7 sono disponibili nella documentazione del fornitore qui: (http://www.idautomation.com/micr-fonts/cmc7/).
 
-### Specifiche dei caratteri di sicurezza
+### <a name="secure-font-specifications" />Specifiche dei caratteri di sicurezza
 
 Di seguito sono riepilogate le specifiche per i caratteri dei controlli di sicurezza che possono essere utili per la calibrazione dei caratteri per layout di controllo con specifiche stampanti MICR.
 
@@ -86,7 +86,7 @@ Le specifiche complete dei caratteri dei controlli di sicurezza sono disponibili
 
 I caratteri per altri scopi sono disponibili anche in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Caratteri disponibili](ui-fonts.md)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)  
 [Caratteri in Business Central](ui-fonts.md)  

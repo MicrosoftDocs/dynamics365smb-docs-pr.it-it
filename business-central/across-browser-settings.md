@@ -10,17 +10,17 @@ ms.search.keywords: 'Teams, web client, troubleshooting, errors'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Configurazione e risoluzione dei problemi del browser per utilizzare Business Central Web Client
+# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client" />Configurazione e risoluzione dei problemi del browser per utilizzare Business Central Web Client
 
 In questo articolo viene descritto come configurare il browser di modo che [!INCLUDE[web_client](includes/web_client.md)] e tutte le relative funzionalità funzionino correttamente. Leggi questo articolo se hai problemi ad aprire [!INCLUDE[web_client](includes/web_client.md)], poiché alcuni problemi potrebbero essere causati dalle impostazioni del browser.
 
 L'articolo fornisce dettagli per la configurazione di Microsoft Edge, ma i requisiti per JavaScript, cookie e popup sono gli stessi per tutti i browser supportati. Per altri browser, fai riferimento alle istruzioni fornite dal produttore.  
 
-## Utilizzare un browser supportato
+## <a name="use-a-supported-browser" />Utilizzare un browser supportato
 
 Assicurati di utilizzare uno dei browser supportati. Vedi [Requisiti minimi per l'utilizzo di Business Central](product-requirements.md#browsers).  
 
-## Consentire JavaScript in Business Central
+## <a name="allow-javascript-from-business-central" />Consentire JavaScript in Business Central
 
 *Problema:*
 
@@ -37,7 +37,7 @@ The resource you are looking for has been removed, had its name changed, or is t
     - Sposta l'interruttore **Consentito** a sinistra (Off). Quindi seleziona **Aggiungi** e digita l'indirizzo (URL) per [!INCLUDE[prod_short](includes/prod_short.md)] nella casella **Sito**. Al termine, seleziona **Aggiungi**.
     - Sposta l'interruttore **Consentito** a destra (On).
 
-## Consentire i cookie in Business Central
+## <a name="allow-cookies-from-business-central" />Consentire i cookie in Business Central
 
 *Problema:*
 
@@ -50,7 +50,7 @@ Se il browser non consente i cookie, verrà visualizzato il seguente errore:
 1. In Microsoft Edge, vai a **Impostazioni** > **Cookie e autorizzazioni del sito** > **Cookie e dati del sito**.
 2. Sposta l'interruttore **Consenti ai siti di salvare e leggere i dati dei cookie** a destra (On).  
 
-## <a name="popup"></a>Consentire popup in Business Central
+## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Consentire popup in Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] si integra con diversi prodotti. In alcuni casi, come con Microsoft Teams, vengono visualizzati [!INCLUDE[prod_short](includes/prod_short.md)] o "popup", nel prodotto. Per questa funzionalità il browser deve consentire i popup in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -75,7 +75,7 @@ Try again
 2. Sposta l'interruttore **Bloccato** a destra (On).
 3. Seleziona **Aggiungi**. Nella casella **Sito**, digita `https://businesscentral.dynamics.com`, quindi seleziona **Aggiungi**.
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  
 

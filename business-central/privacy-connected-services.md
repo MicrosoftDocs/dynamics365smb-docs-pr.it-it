@@ -9,7 +9,7 @@ ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# Funzionalità di prova che si connettono ad altri servizi Microsoft 
+# <a name="trial-features-that-connect-to-other-microsoft-services" />Funzionalità di prova che si connettono ad altri servizi Microsoft
 
 [!INCLUDE[prod_long](includes/prod_long.md)] è una soluzione di gestione aziendale completa che è profondamente integrata con le app per la produttività Microsoft 365 e Power Platform. La tua versione di valutazione gratuita di Business Central può connettersi a molti servizi Microsoft diversi che devi prima configurare e abilitare. Per ottenere il massimo dalla tua versione di valutazione gratuita, alcune di queste funzionalità sono state abilitate automaticamente per te. Anche se la connessione da [!INCLUDE[prod_short](includes/prod_short.md)] è abilitata, questi servizi non sono inclusi nella prova e devono essere acquistati separatamente a meno che tu non li possieda già.
 
@@ -32,6 +32,6 @@ La tabella seguente indica le connessioni ai servizi Microsoft abilitate automat
 
 La privacy è molto importante per noi. Per ulteriori informazioni su come Microsoft gestisce i tuoi dati, vedi [Informativa sulla privacy di Microsoft](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

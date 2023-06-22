@@ -10,7 +10,7 @@ ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Pianificazione dei servizi
+# <a name="planning-services" />Pianificazione dei servizi
 Con [!INCLUDE[prod_short](includes/prod_short.md)] è possibile impostare le attività standard necessarie per soddisfare i requisiti dell'assistenza clienti. A tale proposito è necessario determinare quali articoli in assistenza e offerte di assistenza sono supportati dalla propria organizzazione di assistenza e a che prezzo.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce inoltre alcune statistiche che consentono di determinare la qualità dei servizi offerti e identificare le aree da migliorare.
@@ -25,7 +25,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |È possibile comprendere la relazione tra gli stati di una riparazione e l'effetto che hanno sulle risorse assegnate e viceversa.|[Informazioni su stato assegnazione e stato riparazione](service-allocation-status-and-repair-status.md)|  
 |Utilizzare le statistiche per analizzare i processi di assistenza. | [Visualizzazione delle statistiche relative all'assistenza:](service-service-statistics.md) |
 
-## Vedi anche
+## <a name="see-also" />Vedi anche
 [Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)  
 [Fornitura dell'assistenza](service-deliver-service.md)  
 [Impostare prezzi e costi aggiuntivi per i servizi assistenza](service-how-setup-service-costs-pricing.md)  

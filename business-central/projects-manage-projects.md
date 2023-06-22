@@ -9,7 +9,7 @@ ms.search.form: '89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Gestione progetti
+# <a name="project-management" />Gestione progetti
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile eseguire comuni task di gestione progetti, quali la configurazione di un commessa o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singole commesse, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
 
@@ -29,11 +29,11 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Registrare il consumo di materiali, risorse e altre spese del WIP commessa per monitorare il valore finanziario e per gestire i rendiconti finanziari corretti anche se si registrano delle spese commessa prima di fatturarla. |[Monitorare lo stato di avanzamento e le prestazioni delle commesse](projects-how-monitor-progress-performance.md) |
 | Registrare i costi della commessa per l'utilizzo di risorse, materiali e acquisti correlati alla commessa su base continuativa e fatturare al cliente, anche quando la commessa è terminata o in base a una pianificazione di fatturazione. |[Fatturazione di commesse](projects-how-invoice-jobs.md) |
 
-## Introduzione ai progetti
+## <a name="get-started-with-projects" />Introduzione ai progetti
 
 La gestione dei progetti è di per sé complicata e apprendere a come creare commesse e a gestire il WIP in un nuovo strumento può essere un'ulteriore complicazione. Per istruzioni su come iniziare con la gestione dei progetti in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile guardare [un video su come creare commesse](https://www.youtube.com/watch?v=VqaPWr7BWmw) sul canale [!INCLUDE[prod_short](includes/prod_short.md)] di YouTube.  
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Impostazione della Gestione progetti](projects-setup-projects.md)  
 [Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
@@ -43,7 +43,7 @@ La gestione dei progetti è di per sé complicata e apprendere a come creare com
 [Finanze](finance.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

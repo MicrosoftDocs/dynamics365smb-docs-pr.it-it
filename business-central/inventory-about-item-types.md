@@ -12,7 +12,7 @@ ms.search.form: '9297, 5845, 30,'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Informazioni sui tipi di articolo
+# <a name="about-item-types" />Informazioni sui tipi di articolo
 Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda che influisce sul grado di gestione dell'articolo in magazzino. La tabella seguente elenca e descrive i tre tipi di articoli disponibili.
 
 |Opzione|Scopo tipico|
@@ -32,19 +32,19 @@ La seguente tabella include le funzionalità supportate dai tre tipi dell'artico
 |Non magazzino|Sì|Sì|Sì|Sì|Sì|Sì|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Sì|
 |Assistenza|Sì|Sì|Sì|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Sì|
 
-## Metodi di costing per tipi di articoli
+## <a name="costing-methods-for-types-of-items" />Metodi di costing per tipi di articoli
 Quando si registrano le transazioni di magazzino, le modifiche alle quantità e al valore del magazzino vengono registrate rispettivamente nei movimenti contabili articoli e nei movimenti di valorizzazione. 
 
 Per gli articoli di magazzino, il costo è registrato nel campo **Importo costo (effettivo)** della pagina **Movimenti di valorizzazione** e quando viene riconciliato con la contabilità generale, il costo verrà visualizzato nel campo **Costo registrato in C/G**. Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
 Per gli articoli non di inventario e di assistenza il costo è registrato nel campo **Importo costo (non-fatt.)** della pagina **Movimenti di valorizzazione**. Per gli articoli non di inventario e di assistenza il costo è specificato nei documenti e nelle registrazioni di vendita, assemblaggio e produzione. Il costo predefinito può essere specificato nel campo **Costo unitario** delle pagine **Scheda articolo** e **Unità di stockkeeping**. I costi per questi tipi di articoli non sono riconciliati nella contabilità generale. 
 
-## Catalogo e articoli in assistenza
+## <a name="catalog-and-service-items" />Catalogo e articoli in assistenza
 Gli articoli offerti ai clienti che non si desidera gestire nel sistema fino a quando non si inizia a venderli possono essere impostati come articoli di catalogo. Gli articoli di catalogo non devono essere confusi con articoli normali di tipo Non in inventario. Per ulteriori informazioni, vedere [Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md).
 
 Gli articoli dei clienti per cui si esegue il servizio di assistenza, come una stampante, sono denominati articoli in assistenza. Gli articoli in assistenza non hanno nulla a che fare con articoli normali o di catalogo. Tuttavia, i componenti di assistenza possono essere articoli regolari. Per ulteriori informazioni, vedere [Impostare gli articoli in assistenza e i componenti degli articoli in assistenza](service-how-setup-service-items.md).
 
-## Vedi anche
+## <a name="see-also" />Vedi anche
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  

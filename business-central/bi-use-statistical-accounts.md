@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
 ---
-# Analizzare i dati con i conti statistici
+# <a name="analyze-data-with-statistical-accounts" />Analizzare i dati con i conti statistici
 
 Utilizza i conti statistici per integrare le informazioni nei report finanziari. I conti statistici ti consentono di aggiungere metriche basate su dati non transazionali. Aggiungi i dati non transazionali come unità basate su numeri, ad esempio:
 
@@ -26,12 +26,12 @@ In termini di funzionamento, i conti statistici sono simili ai conti di registra
 
 Ci sono un paio di differenze fondamentali tra i conti statistici e i conti di registrazione. I conti statistici sono entità separate e non sono inclusi nei report di bilancio di verifica. Inoltre, non è necessario bilanciare gli importi in dare e avere quando si utilizzano i giornali di registrazione dei conti statistici per registrare le voci in un conto statistico. Registri solo l'importo.
 
-## Impostare un conto statistico
+## <a name="set-up-a-statistical-account" />Impostare un conto statistico
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Conti statistici**, quindi scegli il collegamento correlato.
 1. Compila i campi della Scheda dettaglio **Generale**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Registrare gli importi in un conto statistico
+## <a name="post-amounts-to-a-statistical-account" />Registrare gli importi in un conto statistico
 
 1. Per registrare gli importi di cui vuoi tenere traccia, nella pagina **Conti statistici** , scegli l'azione **Registro conti statistici**.
 1. Nel campo **Data di registrazione** immetti l'ultima data del periodo di registrazione per cui vuoi registrare gli importi.
@@ -41,11 +41,11 @@ Ci sono un paio di differenze fondamentali tra i conti statistici e i conti di r
 1. Immetti l'importo da registrare nel campo **Importo**. 
 1. Facoltativo: se desideri includere il conto statistico in analisi più avanzate, specifica le dimensioni nei campi **Codice reparto** e **Codice gruppo clienti**. Per ulteriori informazioni sulle dimensioni, vai ad [Analisi dei dati per dimensioni](bi-how-analyze-data-dimension.md).
 
-## Verificare gli importi in un conto statistico
+## <a name="verify-statistical-account-amounts" />Verificare gli importi in un conto statistico
 
 Nella pagina **Conti statistici** , utilizza l'azione **Saldo conti statistici** per verificare che gli importi registrati siano corretti per ciascun periodo.  
 
-## Includere il conto statistico in un report finanziario
+## <a name="include-the-statistical-account-in-a-financial-report" />Includere il conto statistico in un report finanziario
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Report finanziari**, quindi scegli il collegamento correlato.
 1. Crea un nuovo report finanziario in uno dei seguenti modi:
@@ -61,7 +61,7 @@ Nella pagina **Conti statistici** , utilizza l'azione **Saldo conti statistici**
 1. Nel campo **Tipo riga** scegli se visualizzare il saldo alla data di registrazione o all'inizio del periodo di registrazione oppure se visualizzare la variazione dell'importo durante il periodo.
 1. Compilare i campi rimanenti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Business Intelligence finanziario](bi.md)  
 [Report finanziari e analisi in Business Central](finance-reports.md)

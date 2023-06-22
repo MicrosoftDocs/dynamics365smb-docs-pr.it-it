@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 05/27/2021
 ms.author: edupont
 ---
-# Numeri di documento esterno sui documenti di acquisto
+# <a name="external-document-numbers-on-purchase-documents" />Numeri di documento esterno sui documenti di acquisto
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 È inoltre possibile specificare numeri di documento esterno sui documenti di vendita. Per ulteriori informazioni, vedere [Numeri di documento esterno](sales-how-invoice-sales.md#external-document-numbers)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Immettere numeri di documento esterni](across-enter-external-document-numbers.md)  
 [Acquisti](purchasing-manage-purchasing.md)  

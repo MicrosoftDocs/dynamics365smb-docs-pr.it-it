@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: mikebc
 ---
 
-# Abilitazione di funzionalità nuove e imminenti in anticipo
+# <a name="enabling-new-and-upcoming-features-ahead-of-time" />Abilitazione di funzionalità nuove e imminenti in anticipo
 
 Alcune nuove funzionalità possono essere abilitate in anticipo in modo da poterle utilizzare il prima possibile. L'abilitazione anticipata delle funzionalità dà il tempo di testare e preparare l'organizzazione al cambiamento.
 
@@ -17,9 +17,9 @@ Quando Microsoft rilascia funzionalità o miglioramenti del design delle funzion
 
 Ulteriori informazioni su [Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## Vedi il relativo [training Microsoft](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/admin-online-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Funzionalità nuove e pianificate](/dynamics365-release-plan/2021wave1/)  
 

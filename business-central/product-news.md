@@ -7,7 +7,7 @@ ms.search.keywords: 'news, release plan, roadmap, whats new'
 ms.date: 12/07/2022
 ms.author: edupont
 ---
-# Funzionalità nuove e pianificate per Dynamics 365 Business Central
+# <a name="new-and-planned-for-dynamics--business-central" />Funzionalità nuove e pianificate per Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -20,11 +20,11 @@ Il seguente elenco fornisce informazioni sulle ultime versioni di [!INCLUDE [pro
 
 È consigliabile visitare il sito [Funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) e il sito [Roadmap di Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/).  
 
-## Ricevere una notifica sulle modifiche tramite un feed RSS
+## <a name="get-notified-about-changes-through-an-rss-feed" />Ricevere una notifica sulle modifiche tramite un feed RSS
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## Vedi anche
+## <a name="see-also" />Vedi anche
 
 [Visita la nostra videoteca](across-videos.md)  
 [Risorse per aiuto e supporto](product-help-and-support.md)  
@@ -36,6 +36,6 @@ Il seguente elenco fornisce informazioni sulle ultime versioni di [!INCLUDE [pro
 [Prezzi di Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Community di Dynamics 365 Business Central](https://community.dynamics.com/business/)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

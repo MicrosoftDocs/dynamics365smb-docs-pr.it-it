@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# Assemblare articoli
+# <a name="assemble-items" />Assemblare articoli
 
 Se nel campo **Sistema di rifornimento** nella scheda articolo è indicato **Assemblaggio**, il metodo predefinito per l'approvvigionamento dell'articolo è l'assemblaggio in base a un assemblaggio BOM e potenzialmente in base a una risorsa specifica. Per ulteriori informazioni, vedi [Utilizzo delle DB assemblaggio](assembly-how-work-assembly-boms.md). Per ulteriori informazioni sull'impostazione di un articolo di assemblaggio, vedi [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -27,7 +27,7 @@ Questo articolo descrive le impostazioni standard per l'assemblaggio per magazzi
 > [!NOTE]  
 > I componenti di assemblaggio sono gestiti in modo speciale in configurazioni di warehouse di base. Ulteriori informazioni in [Gestione di articoli da assemblare su ordine con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## Per assemblare un articolo per magazzino
+## <a name="to-assemble-an-item-to-stock" />Per assemblare un articolo per magazzino
 
 Segui i passaggi di questa procedura per assemblare un articolo per magazzino. Per informazioni sull'assemblaggio su ordine, vai a [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -61,9 +61,9 @@ Segui i passaggi di questa procedura per assemblare un articolo per magazzino. P
 
 Una volta effettuata la registrazione, l'articolo di assemblaggio viene registrato come output nel codice ubicazione e nel codice collocazione potenziale definiti nell'ordine di assemblaggio. Per gli ordini di assemblaggio creati manualmente, l'ubicazione può essere copiata dal campo di setup **Ubicazione di default per gli ordini**. Per i flussi di assemblaggio su ordine, il codice ubicazione può essere copiato dalla riga ordine di vendita.  
 
-## Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Usare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)  

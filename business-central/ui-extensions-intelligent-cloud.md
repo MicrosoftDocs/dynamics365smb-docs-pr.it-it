@@ -11,15 +11,15 @@ ms.date: 04/01/2021
 ms.author: edupont
 ---
 
-# Estensione migrazione Cloud base
+# <a name="cloud-migration-base-extension" />Estensione migrazione Cloud base
 
 Questa estensione ti guiderà attraverso il processo per configurare una connessione tra la tua soluzione locale e il tuo ambiente [!INCLUDE [prod_short](includes/prod_short.md)] Online quando si avvia la migrazione al cloud.  
 
 Una volta configurata la connessione, puoi migrare i dati dalla tua soluzione locale su [!INCLUDE[prod_short](includes/prod_short.md)] Online. L'estensione funziona in combinazione con un'estensione di replica dei dati disponibile per la soluzione specifica locale. Per ulteriori informazioni, vedi [Esecuzione dello strumento di migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Vedi il relativo [training Microsoft](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesconnect-intelligent-cloud-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Esecuzione dello strumento di migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Estensioni cloud intelligente per la migrazione al cloud](ui-extensions-data-replication.md)  

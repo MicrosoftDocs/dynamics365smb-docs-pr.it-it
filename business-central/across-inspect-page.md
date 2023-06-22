@@ -11,13 +11,13 @@ ms.author: jswymer
 ms.date: 04/01/2021
 ---
 
-# Controllo di pagine in Business Central
+# <a name="inspecting-pages-in-business-central" />Controllo di pagine in Business Central
 
 La funzionalità Controllo pagina consente di ottenere dettagli su una pagina, fornendo informazioni sulla progettazione della pagina, i differenti elementi della pagina e l'origine dei dati visualizzati. La funzionalità Controllo pagina è specificatamente progettata per amministratori, utenti esperti, personale del supporto e sviluppatori. È ideale per apprendere il modello di dati alla base di una pagina e per la risoluzione di problemi. Ad esempio, in caso di problema con una pagina, si potrebbe utilizzare Controllo pagina per ottenere informazioni da passare all'amministratore di sistema oppure al personale del supporto.
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## Utilizzare il controllo pagina
+## <a name="work-with-page-inspection" />Utilizzare il controllo pagina
 
 L'ispezione della pagina inizia dalla pagina **Guida e supporto**. Scegli il punto interrogativo nell'angolo superiore destro, scegli **Guida e supporto**, quindi scegli **Controllare pagine e dati**. In alternativa, è possibile semplicemente utilizzare i tasti di scelta rapida <kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>.
 
@@ -29,13 +29,13 @@ Per ulteriori informazioni relative a quanto visualizzato in Controllo pagina, v
 
 Se le informazioni previste non sono visualizzate nel riquadro **Controllo pagina**, probabilmente non si dispone delle autorizzazioni necessarie, come descritto nella sezione successiva.
 
-## Controllo dell'accesso alle informazioni di controllo pagina
+## <a name="controlling-access-to-page-inspection-details" />Controllo dell'accesso alle informazioni di controllo pagina
 
 In veste di amministratore, è possibile controllare l'accesso a tutte le informazioni visualizzate nel riquadro **Controllo pagina** configurando le autorizzazioni degli utenti. Per concedere un'autorizzazione per tutte le informazioni a un utente, fornirgli l'autorizzazione **Esegui** per l'oggetto **Sistema** **5330** . È possibile concedere questa autorizzazione utilizzando un set di autorizzazioni (ad esempio **Risoluzione dei problemi di D365**) o un gruppo di utenti (ad esempio **Risoluzione dei problemi di D365**). Per ulteriori informazioni sulle autorizzazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
 
 Gli utenti a cui non vengono concesse autorizzazioni per l'**Oggetto sistema 5330** possono comunque accedere al riquadro **Controllo pagina**, ma vedranno solo i campi **Pagina** e **Tabella**, che visualizzano dettagli di base che possono passare al team di supporto.
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

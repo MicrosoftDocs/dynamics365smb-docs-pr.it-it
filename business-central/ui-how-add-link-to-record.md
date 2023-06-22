@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 02/24/2023
 ms.custom: bap-template
 ---
-# Gestire allegati, collegamenti e note in schede e documenti
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents" />Gestire allegati, collegamenti e note in schede e documenti
 
 Nella maggior parte delle pagine elenco, delle schede e dei documenti, puoi allegare file, aggiungere collegamenti e scrivere note nella scheda **Allegati** del riquadro **Dettaglio informazioni**. Il numero nel titolo della scheda indica quanti file, collegamenti o note allegati esistono per la scheda o il documento.
 
@@ -23,7 +23,7 @@ Puoi anche aggiungere allegati alle email che invii da [!INCLUDE [prod_short](in
 >
 > Se elimini un ordine prima che venga fatturato, viene rimosso anche l'allegato. Quando si fatturano ordini di acquisto utilizzando l'azione Ottieni righe di carico da una fattura di acquisto, l'allegato degli ordini di acquisto non viene aggiunto alla fattura di acquisto.
 
-## Per allegare un file a una fattura acquisto
+## <a name="to-attach-a-file-to-a-purchase-invoice" />Per allegare un file a una fattura acquisto
 
 È possibile allegare un qualsiasi tipo di file, ad esempio testo, immagini o video, a una scheda, a un documento o a una riga di un documento. Ciò è utile, ad esempio, quando si desidera archiviare la fattura di un fornitore come file PDF nella relativa fattura acquisto in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -44,14 +44,14 @@ La seguente procedura è basata su una fattura di acquisto. I passaggi sono simi
 
 Il file è ora allegato alla fattura acquisto.
 
-## Per visualizzare il file allegato
+## <a name="to-view-an-attached-file" />Per visualizzare il file allegato
 
 1. Nel riquadro **Dettaglio informazioni**, apri la scheda **Allegati**.
 2. Scegliere il valore dietro il campo **Documenti**, ad esempio "1".
 3. Nella pagina **Documenti allegati** scegliere l'azione **Anteprima**.
 4. Aprire il file scaricato.
 
-## Per salvare un documento come allegato PDF
+## <a name="to-save-a-document-as-a-pdf-attachment" />Per salvare un documento come allegato PDF
 
 Ogni volta che è necessario salvare un documento come file, è possibile utilizzare l'azione **Allega come PDF** per acquisire il contenuto del documento corrente come file PDF allegato al riquadro Dettaglio informazioni del documento. Ciò è utile, ad esempio, quando i documenti seguono più passaggi in un processo, come un processo di vendita o un flusso di lavoro di approvazione, e si desidera fare riferimento a una stampa del passaggio precedente.
 
@@ -62,7 +62,7 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 Un file PDF con il contenuto corrente dell'ordine cliente viene aggiunto alla scheda **Allegati** nel riquadro Dettaglio informazioni.
 
-## Per aggiungere un collegamento da una scheda articolo
+## <a name="to-add-a-link-from-an-item-card" />Per aggiungere un collegamento da una scheda articolo
 
 È possibile aggiungere un link da una scheda o da un documento a qualsiasi URL. Ciò è utile, ad esempio, quando si desidera collegare una scheda articolo al catalogo articoli del fornitore.
 
@@ -80,7 +80,7 @@ La procedura seguente è basata su una scheda articolo. I passaggi sono simili p
 
 Il collegamento è ora allegato alla scheda articolo.  
 
-## Per scrivere una nota in un ordine cliente
+## <a name="to-write-a-note-on-a-sales-order" />Per scrivere una nota in un ordine cliente
 
 È possibile scrivere una nota in un documento o una scheda, ad esempio, per comunicare istruzioni speciali ad altri utenti del documento o della scheda. È possibile includere URL e collegamenti a file nelle note.
 
@@ -97,7 +97,7 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 La nota è ora allegata all'ordine cliente.
 
-## Vedere anche  
+## <a name="see-also" />Vedere anche
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  

@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# Scaricare Business Central sul dispositivo mobile
+# <a name="getting-business-central-on-your-mobile-device" />Scaricare Business Central sul dispositivo mobile
 
 Accedere ai dati di [!INCLUDE[prod_short](includes/prod_short.md)]  dal dispositivo mobile. È possibile accedere ai dati aziendali, utilizzare funzionalità come l'invio a Excel o Microsoft 365, visualizzare indicatori KPI e grafici aggiornati, inviare tramite e-mail offerte e fatture di vendita, scattare e allegare foto tramite la fotocamera. Seguire i passaggi indicati di seguito per scaricare l'app e per iniziare.
 
@@ -20,7 +20,7 @@ Accedere ai dati di [!INCLUDE[prod_short](includes/prod_short.md)]  dal disposit
 > [!TIP]
 > Vuoi un'app sul desktop del tuo computer Windows o macOS? Vedere [Ottenere l'applicazione Business Central Desktop App](install-desktop-app.md).
 
-## Installare l'app sul dispositivo mobile
+## <a name="get-the-app-on-my-mobile-device" />Installare l'app sul dispositivo mobile
 
 1. Installa l'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] sul tuo dispositivo mobile scaricandola dall'App Store o da Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
@@ -35,7 +35,7 @@ A questo punto si dovrebbe avere accesso a [!INCLUDE[prod_short](includes/prod_s
 > [!TIP]
 > Se si desidera connettere l'app a un ambiente sandbox, scegliere il pulsante **Opzioni avanzate**, quindi scegliere l'opzione di accesso **Sandbox cloud**. Quindi, se sono presenti più ambienti sandbox, scegliere l'ambiente pertinente.
 
-## Usare Business Central in locale?
+## <a name="use-business-central-on-premises" />Usare Business Central in locale?
 
 Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è anche possibile usufruire dei vantaggi dell'app per dispositivi mobili. L'installazione è simile, ma con un paio di eccezioni.
 
@@ -53,9 +53,9 @@ Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è anch
 > [!NOTE]
 > In caso di problemi di funzionamento dell'app, contattare l'amministratore. Potrebbe essere un prerequisito mancante o una configurazione incompleta. Per ulteriori informazioni, vedere [Preparazione dell'ambiente per l'app per dispositivi mobili](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) o [Risoluzione dei problemi relativi all'app per dispositivi mobili Business Central in locale](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## Vedi anche
+## <a name="see-also" />Vedi anche
 
 [Domande frequenti sull'app per dispositivi mobili](ui-mobile-faq.yml)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  

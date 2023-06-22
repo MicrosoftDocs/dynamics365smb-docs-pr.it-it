@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Conformità dell'assistenza
+# <a name="service-compliance" />Conformità dell'assistenza
 
 Questo argomento contiene informazioni sulla conformità dell'assistenza in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)] Online  
 
@@ -21,17 +21,17 @@ L'elenco dettagliato di [offerte di conformità cloud per Business Central è di
 
 Se si è interessati all'elenco completo delle offerte di conformità di Microsoft, consultare [Centro protezione Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Condizioni di servizio
+## <a name="service-terms" />Condizioni di servizio
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Conformità](compliance-overview.md)  
 [Conformità dell'applicazione](compliance-application-compliance.md)  
 [Certificazioni](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

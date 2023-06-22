@@ -10,7 +10,7 @@ ms.search.form: '1102, 1105, 1106, 1107, 1109, 1114'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Definizione e allocazione dei costi
+# <a name="defining-and-allocating-costs" />Definizione e allocazione dei costi
 
 Con le allocazioni costi è possibile spostare i costi e i ricavi tra i tipi di costo, i centri di costo e gli oggetti di costo. È possibile definire tutte le allocazioni necessarie. Ogni allocazione è costituita da:  
 
@@ -28,11 +28,11 @@ Per ogni destinazione di allocazione, è possibile definire una base di allocazi
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-## Impostare origini e destinazioni dell'allocazione
+## <a name="setting-up-allocation-source-and-targets" />Impostare origini e destinazioni dell'allocazione
 
 Ogni allocazione è costituita da un'origine di allocazione e da una o più destinazioni di allocazione. L'origine di allocazione definisce i costi che verranno allocati. Le destinazioni di allocazione determinano dove i costi verranno allocati.  
 
-### Per impostare le allocazioni costi
+### <a name="to-set-up-cost-allocations" />Per impostare le allocazioni costi
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Allocazione costi**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Allocazione costi** scegliere l'azione **Modifica**.  
@@ -50,11 +50,11 @@ Ogni allocazione è costituita da un'origine di allocazione e da una o più dest
 > [!NOTE]  
 > Selezionare la casella di controllo **Bloccato** per disattivare l'impostazione dell'allocazione.
 
-## Impostazione di filtri per le basi di allocazione dinamica
+## <a name="setting-filters-for-dynamic-allocation-bases" />Impostazione di filtri per le basi di allocazione dinamica
 
 Il metodo di allocazione dinamica si basa su valori variabili. Ad esempio, il numero di dipendenti in un centro di costo o gli articoli venduti di un oggetto di costo in un determinato intervallo di tempo specifico. Esistono nove basi di allocazione predefinite e dodici intervalli di date dinamici. Si impostano filtri diversi a seconda della base di allocazione.  
 
-### Impostazione filtri
+### <a name="setting-filters" />Impostazione filtri
 
 Nella tabella seguente vengono indicati i filtri possibili per le diverse basi di allocazione e i valori validi nei campi **Filtro nr.** e **Filtro gruppo**. Seleziona <kbd>F1</kbd> nel campo **Codice filtro data** per leggere le descrizioni dettagliate.  
 
@@ -70,7 +70,7 @@ Nella tabella seguente vengono indicati i filtri possibili per le diverse basi d
 |Articoli venduti (importo)|Nr. Articolo|Sì|Sì|Sì|Cat. reg. magazzino|  
 |Articoli acquistati (importo)|Nr. articolo|Sì|Sì|Sì|Gruppo registrazione magazzino|
 
-## Scenario 1: definizione della allocazioni statiche in base al rapporto di allocazione
+## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Scenario 1: definizione della allocazioni statiche in base al rapporto di allocazione
 
 Il metodo di allocazione statica è basato su un valore definito, ad esempio i metri quadri utilizzati, o su un rapporto di allocazione stabilito, quale 5:2:4.  
 
@@ -79,7 +79,7 @@ In questo argomento viene descritto come definire i tre nuovi oggetti di costo d
 > [!NOTE]  
 > Nell'esempio vengono utilizzati i dati di esempio di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### Per definire il centro di costo PROD di origine di allocazione nella Scheda dettaglio Generale  
+### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab" />Per definire il centro di costo PROD di origine di allocazione nella Scheda dettaglio Generale
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Allocazione costi**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Allocazione costi** scegliere l'azione **Nuovo**.  
@@ -89,7 +89,7 @@ In questo argomento viene descritto come definire i tre nuovi oggetti di costo d
 6. Nel campo **Codice centro di costo** immettere **PROD**.  
 7. Nel campo **Importo dare in tipo di costo** immettere il tipo di costo **9903**.  
 
-### Per definire gli oggetti di costo di destinazione di allocazione nella Scheda dettaglio Righe  
+### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab" />Per definire gli oggetti di costo di destinazione di allocazione nella Scheda dettaglio Righe
 
 1. Nel campo **Tipo di costo di destinazione** della prima riga immettere **9903**.  
 2. Nel campo **Oggetto di costo di destinazione** della prima riga selezionare **ACCESSO**.  
@@ -110,14 +110,14 @@ In questo argomento viene descritto come definire i tre nuovi oggetti di costo d
 > [!IMPORTANT]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] il campo **Percentuale** viene calcolato automaticamente utilizzando un tasso percentuale che dipende da tutti e tre i rapporti di allocazione immessi nel campo **Quota**  per tutte e tre le righe.
 
-## Scenario 2: definizione delle allocazioni dinamiche in base agli articoli venduti
+## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Scenario 2: definizione delle allocazioni dinamiche in base agli articoli venduti
 
 In questo argomento viene visualizzato un esempio su come definire le allocazioni utilizzando il metodo di allocazione dinamica. Nell'esempio è possibile modificare l'assegnazione dinamica dei costi per il centro di costo VENDITE per supportare il nuovo oggetto di costo ATTREZZATURA IT. I numeri degli articoli dei colli di ATTREZZATURA IT sono inclusi nell'intervallo compreso tra 8904-W e 8924-W. Utilizzare le cifre di vendita dell'anno precedente per calcolare la quota. L'allocazione viene registrata nel tipo di costo di supporto 9903.  
 
 > [!NOTE]  
 > Nell'esempio vengono utilizzati i dati di esempio di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### Per definire le allocazioni dinamiche in base agli articoli venduti nell'anno precedente  
+### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year" />Per definire le allocazioni dinamiche in base agli articoli venduti nell'anno precedente
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Allocazioni costi**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Allocazione costi** scegliere l'azione **Nuovo**.  
@@ -137,9 +137,9 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
 > [!IMPORTANT]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] vengono utilizzate le cifre di vendita degli anni precedenti per calcolare una quota di 1.596,50 VL con il 100% dei colli di ATTREZZATURA IT. Pertanto, tutti gli articoli venduti nell'ultimo anno verranno assegnati all'oggetto di costo ATTREZZATURA IT.
 
-## Vedi il relativo [training Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
  [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)  
  [Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)  

@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: edupont
 ---
-# Pianificazione con o senza ubicazioni
+# <a name="planning-with-or-without-locations" />Pianificazione con o senza ubicazioni
 
 Prima di iniziare a utilizzare il motore di pianificazione, ti consigliamo di decidere se utilizzare o meno le posizioni. Ci sono due semplici modalità principali:
 
 * Le righe della domanda includono sempre codici ubicazione e il sistema utilizza completamente le unità di stockkeeping, incluso il setup dell'ubicazione appropriato. Ulteriori informazioni su [Domanda nell'ubicazione](#demand-at-location).  
 * le righe di domanda non contengono mai codici ubicazione e il sistema utilizza la scheda articolo. Vedi lo scenario [Domanda nell'"ubicazione vuota"](#demand-at-blank-location) sottostante.
 
-## Domanda nell'ubicazione  
+## <a name="demand-at-location" />Domanda nell'ubicazione
 
 In caso di rilevamento di una domanda in corrispondenza di un'ubicazione, ovvero una riga con un codice ubicazione, il funzionamento del sistema di pianificazione varia in base a 2 importanti valori di setup.  
 
@@ -53,7 +53,7 @@ Vedere le differenze di [scenario riportate di seguito](#scenarios).
 >
 > È possibile definire ciò anche per un'unità di stockkeeping specifica selezionando un codice ubicazione diverso nel campo **Componenti nell'ubicazione** della scheda relativa. Si noti, tuttavia, che questo è difficilmente consigliabile perché la logica di pianificazione può essere distorta nella pianificazione del componente USK.
 
-## Domanda in "ubicazione vuota"
+## <a name="demand-at-blank-location" />Domanda in "ubicazione vuota"
 
 In generale, quando il sistema di pianificazione rileva la domanda in un'ubicazione vuota (una riga senza un codice ubicazione), l'articolo viene pianificato in base ai parametri di pianificazione nella scheda articolo.
 
@@ -63,75 +63,75 @@ Il campo **Ubicazioni obbligatorie** nella pagina **Setup magazzino**, il campo 
 * Per l'articolo pianificato esiste un'unità di stockkeeping.
 * Il campo **Ubicazione Obbligatoria** è selezionato.
 
-## Scenari
+## <a name="scenarios" />Scenari
 
 Vedere le differenze negli scenari di setup riportati di seguito.
 
-### Setup 1
+### <a name="setup-" />Setup 1
 
 * Ubicazione Obbligatoria = *Sì*  
 * SKU è configurato su *OVEST*  
 * Componenti nell'Ubicazione = *EST*  
 
-#### Caso 1.1: domanda nell'ubicazione *OVEST*
+#### <a name="case--demand-is-at-west-location" />Caso 1.1: domanda nell'ubicazione *OVEST*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda USK, incluso il possibile trasferimento.
 
-#### Caso 1.2: domanda nell'ubicazione *EST*
+#### <a name="case--demand-is-at-east-location" />Caso 1.2: domanda nell'ubicazione *EST*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda articolo.
 
-#### Caso 1.3: domanda nell'ubicazione  *NORD*
+#### <a name="case--demand-is-at-north-location" />Caso 1.3: domanda nell'ubicazione  *NORD*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-#### Caso 1.4: domanda nell'ubicazione *VUOTA*
+#### <a name="case--demand-is-at-blank-location" />Caso 1.4: domanda nell'ubicazione *VUOTA*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-### Setup 2
+### <a name="setup-" />Setup 2
 
 * Ubicazione Obbligatoria = *Sì*  
 * Nessuna USK esistente  
 * Componenti nell'Ubicazione = *EST*  
 
-#### Caso 2.1: domanda nell'ubicazione *OVEST*
+#### <a name="case--demand-is-at-west-location" />Caso 2.1: domanda nell'ubicazione *OVEST*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-#### Caso 2.2: domanda nell'ubicazione *EST*
+#### <a name="case--demand-is-at-east-location" />Caso 2.2: domanda nell'ubicazione *EST*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda articolo.  
 
-### Setup 3
+### <a name="setup-" />Setup 3
 
 * Ubicazione Obbligatoria = *No*  
 * Nessuna USK esistente  
 * Componenti nell'Ubicazione = *EST*  
 
-#### Caso 3.1: domanda nell'ubicazione *OVEST*
+#### <a name="case--demand-is-at-west-location" />Caso 3.1: domanda nell'ubicazione *OVEST*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-#### Caso 3.2: domanda nell'ubicazione *EST*
+#### <a name="case--demand-is-at-east-location" />Caso 3.2: domanda nell'ubicazione *EST*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda articolo.  
 
-#### Caso 3.3: domanda nell'ubicazione *VUOTA*
+#### <a name="case--demand-is-at-blank-location" />Caso 3.3: domanda nell'ubicazione *VUOTA*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-### Setup 4
+### <a name="setup-" />Setup 4
 
 * Ubicazione Obbligatoria = *No*  
 * Nessuna USK esistente  
 * Componenti nell'Ubicazione = *VUOTO*  
 
-#### Caso 4.1: domanda nell'ubicazione *EST*
+#### <a name="case--demand-is-at-east-location" />Caso 4.1: domanda nell'ubicazione *EST*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-#### Caso 4.2: domanda nell'ubicazione *VUOTA*
+#### <a name="case--demand-is-at-blank-location" />Caso 4.2: domanda nell'ubicazione *VUOTA*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda articolo.
 
@@ -139,9 +139,9 @@ Come risulta evidente dall'ultimo scenario, l'unico modo per ottenere un risulta
 
 Pertanto, se risulta spesso necessario pianificare la domanda in varie ubicazioni, è consigliabile utilizzare la funzionalità Unità di stockkeeping.
 
-## Vedi le informazioni relative al training in [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Vedi le informazioni relative al training in [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Pianif.](production-planning.md)  
 [Impostare la produzione](production-configure-production-processes.md)  

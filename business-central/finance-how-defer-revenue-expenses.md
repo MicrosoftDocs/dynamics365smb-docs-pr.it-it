@@ -11,13 +11,13 @@ ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Rateizzare le entrate e le uscite
+# <a name="defer-revenues-and-expenses" />Rateizzare le entrate e le uscite
 
 Per riconoscere un'entrata o una spesa in un periodo diverso dal periodo in cui è stata registrata la transazione, utilizzare la funzionalità per differire automaticamente le entrate e le uscite per una pianificazione specificata.
 
 Per ripartire le entrate o le spese sui periodi contabili implicati, impostare un modello di differimento per risorsa, articolo o conto C/G per il quale verrà registrata l'entrata o la spesa. Quando si registra il documento relativo alla vendita o all'acquisto, l'entrata o la spesa è differita ai periodi contabili implicati, in base a una pianificazione di differimento che è governata dalle impostazioni nel modello di differimento e dalla data di registrazione.
 
-## Per impostare un conto C/G per il differimento
+## <a name="to-set-up-a-gl-account-for-deferral" />Per impostare un conto C/G per il differimento
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Piano dei conti**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
@@ -26,7 +26,7 @@ Per ripartire le entrate o le spese sui periodi contabili implicati, impostare u
 
 Per entrambi i tipi di differimenti, selezionare **Conto patrimoniale** nel campo **Tipo** e chiamare i conti in modo appropriato, ad esempio "Rendita" per le entrate differite e "Spese non pagate" per le spese differite.
 
-## Per impostare un modello di differimento
+## <a name="to-set-up-a-deferral-template" />Per impostare un modello di differimento
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Modelli di differimento**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
@@ -48,7 +48,7 @@ Per entrambi i tipi di differimenti, selezionare **Conto patrimoniale** nel camp
 
 Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differite per %4 %6, la descrizione visualizzata sarà “Spese differite per febbraio 2016”.
 
-## Per assegnare un modello di differimento a un articolo
+## <a name="to-assign-a-deferral-template-to-an-item" />Per assegnare un modello di differimento a un articolo
 
 > [!NOTE]  
 > I passaggi di questa procedura sono gli stessi di quando si assegna un modello di rateo a un conto C/G o una risorsa.
@@ -57,7 +57,7 @@ Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differit
 2. Aprire la scheda dell'articolo per il quale devono essere differite le entrate o le spese ai periodi contabili in cui l'articolo è stato venduto o acquistato.
 3. Nel campo **Modello di differimento di default** selezionare il modello di differimento pertinente.
 
-## Per modificare un programma di differimento da una fattura di vendita
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice" />Per modificare un programma di differimento da una fattura di vendita
 
 > [!NOTE]  
 > I passaggi di questa procedura sono identici a quelli seguiti quando si modifica una programmazione di differimento da una fattura di acquisto.
@@ -71,7 +71,7 @@ Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differit
 5. Scegliere l'azione **Calcola programmazione**.
 6. Scegliere il pulsante **OK**. La programmazione differimento viene aggiornata per la fattura di vendita. Il modello di differimento correlato è invariato.
 
-## Per visualizzare in anteprima come le entrate o le spese differite verranno registrate nella contabilità generale
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger" />Per visualizzare in anteprima come le entrate o le spese differite verranno registrate nella contabilità generale
 
 > [!NOTE]  
 > I passaggi di questa procedura sono identici a quelli di quando si visualizza in anteprima come vengono registrati i differimenti spesa.
@@ -81,7 +81,7 @@ Esempio: la data di registrazione è 06/02/2016. Se si immette “Spese differit
 
 I movimenti C/G da registrare nel conto specificato di differimento, ad esempio, Rendita, sono denotati dalla descrizione inserita nel campo **Descrizione periodo** nel modello di differimento, ad esempio, “Spese differite per febbraio 2016”.
 
-## Per rivedere i differimenti registrati nel report Riepilogo differimento vendite
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report" />Per rivedere i differimenti registrati nel report Riepilogo differimento vendite
 
 > [!NOTE]  
 > I passaggi di questa procedura sono identici a quelli di quando si rivede il report Riepilogo differimento acquisto.
@@ -90,7 +90,7 @@ I movimenti C/G da registrare nel conto specificato di differimento, ad esempio,
 2. Nel campo **Saldo a partire dal** della pagina **Riepilogo differimento vendite** immettere la data fino alla quale si intende visualizzare le entrate differite.
 3. Fare clic sul pulsante **Anteprima**.
 
-## Per specificare un periodo in cui consentire la registrazione differita
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting" />Per specificare un periodo in cui consentire la registrazione differita
 
 È possibile specificare un periodo in cui le persone possono registrare le transazioni inserendo le date nei campi **Consenti registrazione da** e **Consenti registrazione a** come segue:
 
@@ -102,9 +102,9 @@ Se lo hai fatto, devi creare un'eccezione per i differimenti per consentirne la 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale** o **Setup utente**, quindi scegli il collegamento correlato.
 2. Nei campi **Consenti registrazione differita da** e **Consenti registrazione differita a**, inserisci una data di inizio e di fine per il periodo.
 
-## Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  

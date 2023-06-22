@@ -11,7 +11,7 @@ ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# Gestione contabile
+# <a name="financial-management" />Gestione contabile
 
 [!INCLUDE[prod_short](includes/prod_short.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedi [Impostazione degli aspetti finanziari](finance-setup-finance.md).
 
@@ -49,13 +49,13 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Utilizza i rendiconti finanziari e le sintesi fornite in Microsoft Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
 |Informazioni su come utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare l'hub aziendale per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
 
-## Guardare un video
+## <a name="take-a-video-tour" />Guardare un video
 
 Questo video presenta alcune delle funzionalità chiave per la gestione delle finanze. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Vendite](sales-manage-sales.md)  
@@ -66,6 +66,6 @@ Questo video presenta alcune delle funzionalità chiave per la gestione delle fi
 [Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

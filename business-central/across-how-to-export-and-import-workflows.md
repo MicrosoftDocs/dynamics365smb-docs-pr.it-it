@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# Importa ed esporta workflow di approvazione
+# <a name="export-and-import-approval-workflows" />Importa ed esporta workflow di approvazione
 
 Per trasferire i workflow ad altri database di [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio per risparmiare tempo durante la creazione di nuovi workflow, è possibile esportare e importare i workflow.  
 
@@ -18,12 +18,12 @@ Un altro modo per creare rapidamente i flussi di lavoro è da modelli di workflo
 
 Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi del flusso di lavoro compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).  
 
-## Esportare un flusso di lavoro
+## <a name="export-a-workflow" />Esportare un flusso di lavoro
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Selezionare un workflow e scegliere l'azione **Esporta in file**.  
 
-## Importare un flusso di lavoro
+## <a name="import-a-workflow" />Importare un flusso di lavoro
 
 1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Selezionare l'azione **Importa da file**.  
@@ -32,7 +32,7 @@ Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle r
 > [!CAUTION]  
 > Se il codice del flusso di lavoro è già esistente nel database, i passaggi del flusso di lavoro verranno sovrascritti dai passaggi il flusso di lavoro importato.  
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
 [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md)  

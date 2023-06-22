@@ -8,15 +8,15 @@ ms.author: edupont
 ms.date: 05/25/2022
 ---
 
-# Iscrizione per una valutazione gratuita di Dynamics 365 Business Central
+# <a name="sign-up-for-a-free-dynamics--business-central-trial" />Iscrizione per una valutazione gratuita di Dynamics 365 Business Central
 
 Business Central offre una prova gratuita. Dopo una rapida registrazione, avrai accesso a molte funzionalità chiave dell'app. La versione di prova ti consente di testare l'app con dati di esempio. Se vuoi provare con i tuoi dati, puoi passare a una prova gratuita di 30 giorni. [Ulteriori informazioni sulle funzionalità di Business Central](across-business-functionality.md).  
 
-## Per iscriversi per la versione di valutazione
+## <a name="to-sign-up-for-the-trial" />Per iscriversi per la versione di valutazione
 
 [!INCLUDE [trial-get](includes/trial-get.md)]
 
-## Cosa provare
+## <a name="what-to-try" />Cosa provare
 
 L'ambiente di prova include le stesse caratteristiche della versione a pagamento. I seguenti collegamenti ti guideranno attraverso l'utilizzo di alcune delle funzionalità chiave.
 
@@ -25,7 +25,7 @@ L'ambiente di prova include le stesse caratteristiche della versione a pagamento
 - [Diventa produttivo](ui-work-product.md)  
 - [Avvii rapidi](quick-start-business-central.md)  
 
-## Introduzione a una sottoscrizione
+## <a name="get-started-with-a-subscription" />Introduzione a una sottoscrizione
 
 Ogni volta che si accede durante il periodo di valutazione, una notifica in una barra blu nella parte superiore mostra il tempo rimanente. Se si decide di effettuare una sottoscrizione, trovare un partner [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Come trovare un partner di rivendita?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) Il partner rivenditore può fornire assistenza per impostare [!INCLUDE[prod_short](includes/prod_short.md)] in base alle esigenze della propria società, inclusa l'importazione di dati dal sistema precedente. È anche possibile personalizzare [!INCLUDE[prod_short](includes/prod_short.md)] aggiungendo applicazioni dal [mercato commerciale di Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
@@ -38,9 +38,9 @@ Ogni volta che si accede durante il periodo di valutazione, una notifica in una 
 
 Per ulteriori informazioni su cosa puoi fare con [!INCLUDE [prod_short](includes/prod_short.md)], vedi[Preparazione al business](ui-get-ready-business.md) e [Funzionalità aziendale](across-business-functionality.md).  
 
-## Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
 
-## Risorse aggiuntive
+## <a name="additional-resources" />Risorse aggiuntive
 
 - [Visitare la videoteca](across-videos.md)  
 - [Domande frequenti sulla versione di valutazione](trial-faq.md)  

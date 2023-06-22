@@ -9,11 +9,11 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: '99000883, 99000884,'
 ---
-# Creare gli ordini di produzione dagli ordini di vendita
+# <a name="create-production-orders-from-sales-orders" />Creare gli ordini di produzione dagli ordini di vendita
 
 È possibile creare ordini di produzione per gli articoli prodotti direttamente dagli ordini di vendita.  
 
-## Per creare gli ordini di produzione dagli ordini di vendita  
+## <a name="to-create-a-production-order-from-a-sales-order" />Per creare gli ordini di produzione dagli ordini di vendita
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Selezionare l'ordine di vendita per il quale creare un ordine di produzione.  
@@ -27,7 +27,7 @@ ms.search.form: '99000883, 99000884,'
     >
     > Quando crei ordini di produzione per gli ordini di vendita con la pagina Pianificazione ordini di vendita, vengono applicati collegamenti ordine su ordine tra la domanda e l'offerta. Quando sono presenti collegamenti ordine su ordine, il sistema di pianificazione non include l'approvvigionamento o il magazzino collegato nella procedura di bilanciamento. Per ulteriori informazioni sul bilanciamento, vai a [Collegamenti ordine su ordine](design-details-central-concepts-of-the-planning-system.md#order-to-order-links).
 
-## Tipo ordine  
+## <a name="order-type" />Tipo ordine
 
 La seguente tabella descrive due modi per creare ordini di produzione.
 
@@ -36,7 +36,7 @@ La seguente tabella descrive due modi per creare ordini di produzione.
 |Ordine articolo|Viene creato un ordine di produzione per ogni articolo rappresentato da una riga nella pagina **Pianifica ordine vendita**.|
 |Ordine progetto|Viene creato un ordine di produzione di più righe per tutti gli articoli rappresentati dalle righe nella pagina **Pianifica ordine vendita**. Quando usi gli ordini di progetto, il campo **Tipo di origine** dell'ordine di produzione contiene **Intestazione vendite**. L'ordine ha una riga per ogni articolo della riga di vendita che deve essere prodotto.|
 
-## Vedere anche  
+## <a name="see-also" />Vedere anche
 
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

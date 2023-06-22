@@ -10,13 +10,13 @@ ms.search.keywords: 'design, general ledger, post'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Sintesi della riga di registrazione di contabilità generale
+# <a name="general-journal-post-line-overview" />Sintesi della riga di registrazione di contabilità generale
 
 Codeunit 12, **Registrazioni Gen.-Riga di registrazione**, è il principale oggetto applicazione per la registrazione di contabilità generale ed è la sola area per registrare contabilità generale, IVA e movimenti contabili di clienti e fornitori. Questa codeunit viene inoltre utilizzata per tutte le operazioni Collega, Scollega e Storna.  
   
 In Microsoft Dynamics NAV 2013 R2, la codeunit è stata ridisegnata perché era diventata molto grande, con circa 7.600 righe di codice. Questa architettura è stato modificata e la codeunit è stata resa più semplice e gestibile. La documentazione descrive le modifiche e fornisce informazioni necessarie per aggiornare.  
   
-## Architettura precedente  
+## <a name="old-architecture" />Architettura precedente
 L'architettura precedente aveva le seguenti funzionalità:  
   
 * Era presente un utilizzo esteso delle variabili globali, il che aumentava la possibilità di errori nascosti causati dall'utilizzo di variabili con l'ambito errato.  
@@ -27,7 +27,7 @@ L'architettura precedente aveva le seguenti funzionalità:
 * Gran parte del codice nella codeunit 12, circa il 30%, relativo ai calcoli di tolleranza e di sconto sul pagamento, sebbene queste funzionalità non siano necessarie in molti paesi.  
 * Registrazione, Collega, Scollega, Storna, Sconto e tolleranza pagamento e Rettifica tasso di cambio sono state unite nella codeunit 12 utilizzando un lungo elenco di variabili globali.  
   
-### Nuova Architettura  
+### <a name="new-architecture" />Nuova Architettura
 In [!INCLUDE[prod_short](includes/prod_short.md)], sono stati apportati i seguenti miglioramenti alla codeunit 12:  
   
 * Per Codeunit 12 è stato eseguito il refactoring in procedure più piccole (tutte minori di 100 righe di codice).  
@@ -37,7 +37,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], sono stati apportati i seguen
 * Numerose funzioni di helper sono state trasferite alle corrispondenti tabelle dei movimenti contabili fornitore e cliente.  
 * L'utilizzo delle variabili globali è stato minimizzato, in modo che ogni procedura utilizzi parametri e incapsuli la propria la logica di collegamento.  
   
-## Vedi anche
+## <a name="see-also" />Vedi anche
 
 [Dettagli di progettazione: Struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)  
 [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)  
