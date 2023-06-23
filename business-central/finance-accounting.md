@@ -45,7 +45,7 @@ Dopo che il contabile ha eseguire l'accesso a [!INCLUDE[prod_short](includes/pro
 >
 > Questo task richiede l'accesso alla gestione di utenti e licenze in Azure Active Directory. All'utente che invia questo invito deve essere assegnato il ruolo **Amministratore globale** o **Amministratore utente** nell'interfaccia di amministrazione di Microsoft 365. Per ulteriori informazioni, vedere [Informazioni sui ruoli di amministratore](/microsoft-365/admin/add-users/about-admin-roles) nell'interfaccia di amministrazione di Microsoft 365.  
 
-### <a name="adding-your-accountant-to-your-microsoft--in-the-azure-portal" />Aggiunta del contabile a Microsoft 365 nel portale di Azure
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal" />Aggiunta del contabile a Microsoft 365 nel portale di Azure
 
 Se l'amministratore o il partner di rivendita non desidera utilizzare la guida **Invita un contabile esterno**, possono aggiungere un utente esterno nel portale di Azure e assegnare a questo utente la licenza di *contabile esterno*. Per ulteriori informazioni, vedere [Avvio rapido: aggiunta di utenti guest alla directory nel portale di Azure](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

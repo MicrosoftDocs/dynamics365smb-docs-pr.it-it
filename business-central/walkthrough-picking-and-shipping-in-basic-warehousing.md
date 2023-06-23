@@ -77,7 +77,7 @@ Per utilizzare questa funzionalità, devi aggiungerti all'ubicazione come lavora
   3. Nel campo **Codice ubicazione** selezionare SUD.  
   4. Selezionare il campo **Impostazione predefinita**, quindi selezionare il pulsante **Sì**.  
 
-### <a name="making-item--s-available" />Rendere disponibile l'articolo 1928-S
+### <a name="making-item-1928-s-available" />Rendere disponibile l'articolo 1928-S
 
 Per rendere l'articolo 1928-S disponibile nell'ubicazione SUD seguire i passaggi di seguito riportati:  
 

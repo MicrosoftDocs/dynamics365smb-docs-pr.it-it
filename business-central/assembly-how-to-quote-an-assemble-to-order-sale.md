@@ -34,7 +34,7 @@ Come per la vendita di qualsiasi altro tipo di articolo, è inoltre possibile cr
 6.  Dopo avere rettificato le righe dell'ordine di assemblaggio in base all'offerta, chiudere la pagina **Righe di assemblaggio su ordine** per tornare alla pagina **Offerta vendita**.  
 7.  Se il cliente accetta l'offerta, creare un ordine di vendita per l'articolo di assemblaggio offerto. Per ulteriori informazioni, vedere [Creare offerte di vendita](sales-how-make-offers.md). L'offerta di assemblaggio collegata ed eventuali personalizzazioni sono collegate al nuovo ordine di vendita per preparare l'assemblaggio dell'articolo o degli articoli da vendere.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

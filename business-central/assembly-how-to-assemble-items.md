@@ -61,7 +61,7 @@ Segui i passaggi di questa procedura per assemblare un articolo per magazzino. P
 
 Una volta effettuata la registrazione, l'articolo di assemblaggio viene registrato come output nel codice ubicazione e nel codice collocazione potenziale definiti nell'ordine di assemblaggio. Per gli ordini di assemblaggio creati manualmente, l'ubicazione può essere copiata dal campo di setup **Ubicazione di default per gli ordini**. Per i flussi di assemblaggio su ordine, il codice ubicazione può essere copiato dalla riga ordine di vendita.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

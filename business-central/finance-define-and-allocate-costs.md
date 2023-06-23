@@ -70,7 +70,7 @@ Nella tabella seguente vengono indicati i filtri possibili per le diverse basi d
 |Articoli venduti (importo)|Nr. Articolo|Sì|Sì|Sì|Cat. reg. magazzino|  
 |Articoli acquistati (importo)|Nr. articolo|Sì|Sì|Sì|Gruppo registrazione magazzino|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Scenario 1: definizione della allocazioni statiche in base al rapporto di allocazione
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Scenario 1: definizione della allocazioni statiche in base al rapporto di allocazione
 
 Il metodo di allocazione statica è basato su un valore definito, ad esempio i metri quadri utilizzati, o su un rapporto di allocazione stabilito, quale 5:2:4.  
 
@@ -110,7 +110,7 @@ In questo argomento viene descritto come definire i tre nuovi oggetti di costo d
 > [!IMPORTANT]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] il campo **Percentuale** viene calcolato automaticamente utilizzando un tasso percentuale che dipende da tutti e tre i rapporti di allocazione immessi nel campo **Quota**  per tutte e tre le righe.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Scenario 2: definizione delle allocazioni dinamiche in base agli articoli venduti
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Scenario 2: definizione delle allocazioni dinamiche in base agli articoli venduti
 
 In questo argomento viene visualizzato un esempio su come definire le allocazioni utilizzando il metodo di allocazione dinamica. Nell'esempio è possibile modificare l'assegnazione dinamica dei costi per il centro di costo VENDITE per supportare il nuovo oggetto di costo ATTREZZATURA IT. I numeri degli articoli dei colli di ATTREZZATURA IT sono inclusi nell'intervallo compreso tra 8904-W e 8924-W. Utilizzare le cifre di vendita dell'anno precedente per calcolare la quota. L'allocazione viene registrata nel tipo di costo di supporto 9903.  
 
@@ -137,7 +137,7 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
 > [!IMPORTANT]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] vengono utilizzate le cifre di vendita degli anni precedenti per calcolare una quota di 1.596,50 VL con il 100% dei colli di ATTREZZATURA IT. Pertanto, tutti gli articoli venduti nell'ultimo anno verranno assegnati all'oggetto di costo ATTREZZATURA IT.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

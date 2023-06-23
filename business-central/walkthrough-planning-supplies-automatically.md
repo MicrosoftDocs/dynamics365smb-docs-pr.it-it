@@ -138,7 +138,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
  La riga di pianificazione per l'articolo 1300, asse catena, suggerisce dieci pezzi. Questo valore si discosta dai cinque pezzi suggeriti per la maggior parte degli altri articoli nel piano. Visualizzare i movimenti di tracciabilità ordine.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Per visualizzare movimenti di tracciabilità ordine per l'articolo 1300
+### <a name="to-view-order-tracking-entries-for-item-1300" />Per visualizzare movimenti di tracciabilità ordine per l'articolo 1300
 
 1.  Selezionare la riga di pianificazione per l'articolo 1300, quindi scegliere l'azione **Tracciabilità ordine**.  
 
@@ -234,7 +234,7 @@ Espressioni come "esecuzione della pianificazione" ed "esecuzione MRP" fanno rif
 
  Più righe di pianificazione vengono semplicemente moltiplicate per tre per fornire 15 biciclette da turismo anziché 5 e le date di scadenza vengono spostate a una data precedente per fornire le quantità modificate entro la data di spedizione dell'ordine di vendita a Cannon Group. Per queste righe di pianificazione, è possibile tenere traccia di tutte le quantità. Le righe di pianificazione restanti sono aumentate di dieci pezzi e vengono spostate le date di scadenza. Per le righe di pianificazione, una parte della quantità non è tracciata a causa dei parametri di pianificazione. Visualizzare alcuni dei movimenti di tracciabilità ordine.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Per visualizzare movimenti di tracciabilità ordine per l'articolo 1250
+### <a name="to-view-order-tracking-entries-for-item-1250" />Per visualizzare movimenti di tracciabilità ordine per l'articolo 1250
 
 1.  Selezionare la riga di pianificazione per l'articolo 1250, quindi scegliere l'azione **Tracciabilità ordine**.  
 

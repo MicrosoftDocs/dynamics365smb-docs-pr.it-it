@@ -33,7 +33,7 @@ Quando si crea una nuova riga di registrazione, testata del documento o riga doc
 
 Quando si modifica e si chiude la pagina **Modifica movimenti set di dimensioni** , viene eseguito un controllo per verificare se la combinazione dei valori dimensioni esiste come set di dimensioni nella tabella. Se la combinazione si verifica nella tabella, l'ID set di dimensioni corrispondente viene assegnato alla riga di registrazione, alla testata del documento o alla riga del documento. In caso contrario, un nuovo set di dimensioni viene aggiunto alla tabella e il nuovo ID set di dimensioni viene assegnato alla riga di registrazione, alla testata del documento o alla riga del documento.
 
-## <a name="codeunit--dimension-management" />Gestione dimensioni codeunit 408
+## <a name="codeunit-408-dimension-management" />Gestione dimensioni codeunit 408
 Gestione dimensioni codeunit 408 è una libreria di funzioni che gestisce attività comuni correlate alle dimensioni, come la copia da una tabella a un'altra o da un documento a un altro.
 
 ## <a name="performance-improvement" />Miglioramento delle prestazioni

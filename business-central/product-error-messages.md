@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="warnings-and-error-messages-in-dynamics--business-central" />Avvisi e messaggi di errore in Dynamics 365 Business Central
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central" />Avvisi e messaggi di errore in Dynamics 365 Business Central
 
 Durante la giornata lavorativa, è possibile che vengano visualizzate notifiche in [!INCLUDE [prod_short](includes/prod_short.md)] indicanti che qualcosa non ha funzionato o che non è stato possibile pubblicare qualcosa, ad esempio. In molti casi, la notifica semplifica la risoluzione del problema o il rollback delle modifiche apportate. In altri casi, è possibile che le informazioni necessarie non siano sufficienti per sbloccare la situazione. Questo articolo fornisce suggerimenti su come risolvere il problema.  
 

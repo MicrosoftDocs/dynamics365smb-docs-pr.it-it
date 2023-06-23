@@ -26,7 +26,7 @@ La tabella seguente copre le principali funzionalità di business intelligence e
 | Integra gli strumenti di business intelligence esterni con [!INCLUDE[prod_short](includes/prod_short.md)].| [Strumenti di Business Intelligence esterni](reports-external-analysis.md) |
 |Modifica i layout dei report o persino sviluppare i tuoi report da zero. |[Sviluppo di report](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

@@ -172,7 +172,7 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 > [!TIP]
 > Se stai utilizzando un tastierino numerico, il tasto separatore decimale potrebbe restituire un carattere diverso dal punto (.). Per impostare il punto, premi i tasti <kbd>Alt</kbd>+<kbd>Separatore decimale</kbd> sulla tastiera numerica. Quando vuoi tornare indietro, premi di nuovo <kbd>Alt</kbd>+<kbd>Separatore decimale</kbd>. Per ulteriori informazioni, vedi [Impostazione del separatore decimale usato dalle tastiere numeriche](ui-enter-data.md#decimal).
 
-#### <a name="-eitheror" />(&#124;) Oppure
+#### <a name="124-eitheror" />(&#124;) Oppure
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Utilizzare `%myvendors` nel campo **Nessuno** fornitori per visualizzare tutti i
 |-----------------------|-----------------------|  
 |`%myvendors`|Fornitori in **Fornitori personali** in Gestione ruolo utente. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

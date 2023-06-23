@@ -58,7 +58,7 @@ Se modifichi la data dell'ordine sulla riga, [!INCLUDE[prod_short](includes/prod
 3. Scheda unità di stockkeeping
 4. Scheda fornitore
 
-## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

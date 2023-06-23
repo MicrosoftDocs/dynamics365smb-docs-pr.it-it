@@ -17,7 +17,7 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
 
  Per informazioni sulla creazione o la modifica della definizione di scambio dati, vedere [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />Mapping dei dati CAMT ai campi nella tabella Contabilità generale (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81" />Mapping dei dati CAMT ai campi nella tabella Contabilità generale (81)
 
 |Percorso dell'articolo|Elemento messaggio|Tipo di dati|Descrizione|Identificatore segno negativo|Nr. campo|Nome campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Non strutturato|Testo|Informazioni fornite per consentire la corrispondenza o riconciliazione di un movimento con gli articoli oggetto del pagamento, come le fatture aziendali in un sistema conto clienti, in un form non strutturato||8|Descrizione|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Testo|Informazioni aggiuntive relative al movimento||1222|Informazioni sulla transazione|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />Mapping dei dati CAMT ai campi nella tabella Riconc. C/C bancari (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273" />Mapping dei dati CAMT ai campi nella tabella Riconc. C/C bancari (273)
 
 |Percorso dell'articolo|Elemento messaggio|Tipo di dati|Descrizione|Identificatore segno negativo|Nr. campo|Nome campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Data|Data e ora di creazione del messaggio||3|Data estratto conto|  
 |Stmt/Bal/Amt|Importo|Decimale|Importo risultante dagli importi al netto per tutti i movimenti dare e avere||4|Saldo finale estratto conto|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />Mapping dei dati CAMT ai campi nella tabella Righe riconc. C/C bancari (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274" />Mapping dei dati CAMT ai campi nella tabella Righe riconc. C/C bancari (274)
 
 |Percorso dell'articolo|Elemento messaggio|Tipo di dati|Descrizione|Identificatore segno negativo|Nr. campo|Nome campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

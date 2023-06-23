@@ -42,7 +42,7 @@ In alternativa, eliminare i singoli ordini manualmente.
 
 Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esempio gli ordini di acquisto programmati.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -275,7 +275,7 @@ Per esempio, supponiamo che stai usando una tastiera numerica che usa un punto (
 > [!TIP]
 > Potrebbero esserci occasioni in cui vuoi utilizzare il separatore decimale per inserire un punto (.). Ad esempio, supponi di inserire un intervallo di date in un filtro, ad esempio `01/01/2022..04/01/2022`, o qualsiasi cosa che richieda un punto. Per risolvere questo caso, premi i tasti <kbd>Alt</kbd>+<kbd>Separatore decimale</kbd> sulla tastiera numerica. Questa combinazione di tasti cambia il separatore decimale tra l'emissione di un punto e del separatore decimale determinato dall'impostazione **Area geografica**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

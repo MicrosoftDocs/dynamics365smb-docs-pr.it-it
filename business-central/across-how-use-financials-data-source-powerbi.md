@@ -180,7 +180,7 @@ A partire da febbraio 2022, i nuovi report che utilizzano i dati di Business Cen
 9. Seleziona **Fatto**.
 10. Seleziona **Chiudi e applica** dalla barra multifunzione per salvare le modifiche e chiudere l'editor di Power Query.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

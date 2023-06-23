@@ -107,7 +107,7 @@ Scegli il collegamento *Modifica il momento in cui ricevere le notifiche* per vi
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedere anche
 

@@ -43,7 +43,7 @@ In termini di database, questa funzione è comunemente nota come *scale-out di l
     > [!NOTE]
     > Se un oggetto modificabile, come la scheda cliente, è impostato su **Sola lettura**, il database primario verrà comunque utilizzato, indipendentemente dall'intento di accesso, consentendo agli utenti di apportare modifiche normalmente.
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 [Funzionalità aziendale](across-business-functionality.md)  

@@ -92,7 +92,7 @@ Questa sezione spiega i requisiti per una distribuzione di [!INCLUDE[prod_short]
     Per effettuare la connessione iniziale, apri [!INCLUDE[prod_short](includes/prod_short.md)] ed esegui **Introduzione a Power BI** dalla home page. In questo modo, verrà avviato il processo di autorizzazione e verrà controllata la licenza di Power BI. Quando richiesto, accedere utilizzando un account amministratore di Azure. Per ulteriori informazioni, vedere [Connettersi a Power BI- una sola volta](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

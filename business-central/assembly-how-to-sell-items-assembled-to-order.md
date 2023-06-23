@@ -60,7 +60,7 @@ In questa procedura, si elabora la vendita di un articolo che verrà assemblato 
 > [!NOTE]  
 > Le sostituzioni degli articoli non sostituiscono automaticamente un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

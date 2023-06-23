@@ -45,7 +45,7 @@ Nell'aggiornamento 15.3 e successivi, i caratteri Magnetic Ink Character Recogni
 > [!NOTE]
 > Per motivi legali e di sicurezza, non è possibile caricare i caratteri personalizzati nell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="micr-e-b-specifications" />Specifiche MICR E-13B
+### <a name="micr-e-13b-specifications" />Specifiche MICR E-13B
 
 Di seguito sono riepilogate le specifiche per i caratteri MICR E-13B che possono essere utili per la calibrazione dei caratteri per layout di controllo con specifiche stampanti MICR.
 
@@ -57,7 +57,7 @@ Di seguito sono riepilogate le specifiche per i caratteri MICR E-13B che possono
 
 Le specifiche complete dei caratteri MICR E-13B sono disponibili nella documentazione del fornitore qui: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />Specifiche MICR CMC-7
+### <a name="micr-cmc-7-specifications" />Specifiche MICR CMC-7
 
 I seguenti caratteri CMC-7 sono disponibili in [!INCLUDE[prod_short](includes/prod_short.md)] online:
 

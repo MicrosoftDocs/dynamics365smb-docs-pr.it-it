@@ -230,7 +230,7 @@ Dopo aver creato il nuovo conto bancario, è necessario creare anche una nuova c
 
 Per ottenere una visione più concisa dei tuoi conti di cassa nei report finanziari, usa i conti **Inizio-Totale** e **Totale finale** nel piano dei conti, le righe **Totale** nei report finanziari o nelle categorie di conti C/G. Per ulteriori informazioni, vedi la sezione [Business Intelligence e Financial Reporting](bi.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -56,7 +56,7 @@ Il nome del layout personalizzato selezionato è ora visualizzato nel campo **De
 
 Ora è possibile andare alle schede cliente e fornitore per specificare quali layout utilizzare per diversi documenti creati per il cliente o il fornitore in questione, come conferme di ordini o solleciti di pagamento. Per ulteriori informazioni, vedere [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  

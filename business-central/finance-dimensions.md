@@ -238,7 +238,7 @@ In una pagina di movimenti contabili è possibile vedere se sono state impostate
 > [!NOTE]  
 > La pagina **Dimensioni Voci Partitario** visualizza le dimensioni di un movimento contabile alla volta. Il contenuto della pagina **Dimensioni Voci Partitario** cambia al variare del movimento contabile selezionato.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedere anche
 

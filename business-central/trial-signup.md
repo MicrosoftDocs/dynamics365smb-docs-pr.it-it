@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 05/25/2022
 ---
 
-# <a name="sign-up-for-a-free-dynamics--business-central-trial" />Iscrizione per una valutazione gratuita di Dynamics 365 Business Central
+# <a name="sign-up-for-a-free-dynamics-365-business-central-trial" />Iscrizione per una valutazione gratuita di Dynamics 365 Business Central
 
 Business Central offre una prova gratuita. Dopo una rapida registrazione, avrai accesso a molte funzionalità chiave dell'app. La versione di prova ti consente di testare l'app con dati di esempio. Se vuoi provare con i tuoi dati, puoi passare a una prova gratuita di 30 giorni. [Ulteriori informazioni sulle funzionalità di Business Central](across-business-functionality.md).  
 
@@ -38,7 +38,7 @@ Ogni volta che si accede durante il periodo di valutazione, una notifica in una 
 
 Per ulteriori informazioni su cosa puoi fare con [!INCLUDE [prod_short](includes/prod_short.md)], vedi[Preparazione al business](ui-get-ready-business.md) e [Funzionalità aziendale](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources" />Risorse aggiuntive
 

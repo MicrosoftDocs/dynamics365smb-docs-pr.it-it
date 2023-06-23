@@ -144,7 +144,7 @@ L'app Power BI visualizzerà solo i dati della società [!INCLUDE[prod_short](in
 - [Selezionare un riquadro](/power-bi/service-dashboard-tiles) per aprire il report sottostante.  
 - Per impostazione predefinita, il set di dati non è pianificato per l'aggiornamento. È possibile modificare la pianificazione dell'aggiornamento o eseguire l'aggiornamento su richiesta utilizzando **Aggiorna ora**. Per ulteriori informazioni, vedere [Configurazione di aggiornamenti pianificati](/power-bi/refresh-scheduled-refresh)
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

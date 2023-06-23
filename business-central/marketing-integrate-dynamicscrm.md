@@ -12,7 +12,7 @@ ms.search.forms: '9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 53
 ms.date: 09/16/2022
 ms.author: bholtorf
 ---
-# <a name="use-dynamics--sales-from-business-central" />Utilizzare Dynamics 365 Sales da Business Central
+# <a name="use-dynamics-365-sales-from-business-central" />Utilizzare Dynamics 365 Sales da Business Central
 Se si utilizza Dynamics 365 Sales for Customer Engagement, è possibile sfruttare un'integrazione ottimale nel processo dai lead agli incassi utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] per le attività backend come elaborare ordini e gestire inventario e finanze.
 
 Prima di poter utilizzare le funzionalità di integrazione, l'amministratore di sistema deve impostare la connessione e definire gli utenti in [!INCLUDE[crm_md](includes/crm_md.md)]. Per ulteriori informazioni, vedere [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).

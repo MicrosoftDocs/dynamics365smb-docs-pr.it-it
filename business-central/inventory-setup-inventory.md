@@ -32,7 +32,7 @@ Dopo aver impostato il magazzino, è possibile gestire i vari processi relativi 
 |Importare molteplici immagini articolo contemporaneamente da un file zip in cui i file sono denominati in base ai numeri di articolo.|[Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

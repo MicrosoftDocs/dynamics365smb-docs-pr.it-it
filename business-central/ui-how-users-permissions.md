@@ -118,7 +118,7 @@ Puoi rimuovere l'accesso di un utente a [!INCLUDE[prod_short](includes/prod_shor
 
 Puoi anche rimuovere la licenza da un utente nell'interfaccia di amministrazione di Microsoft 365. L'utente non può quindi eseguire l'accesso. Per ulteriori informazioni, vedi [Rimuovere le licenze agli utenti](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namemasynchronization-with-microsoft-" /><a name="m365"></a>Sincronizzazione con Microsoft 365
+### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Sincronizzazione con Microsoft 365
 
 Quando assegni una licenza per [!INCLUDE[prod_short](includes/prod_short.md)] a un utente in Microsoft 365, vi sono due modi per creare l'utente in [!INCLUDE[prod_short](includes/prod_short.md)].  
 

@@ -60,7 +60,7 @@ Oltre a visualizzare importi effettivi e preventivati di tutti i conti all'inter
 3. Nella scheda dettaglio **Opzioni**, compila i campi secondo le necessità per definire cosa viene visualizzato nella tabella.  
 4. Nella scheda dettaglio **Righe** passa il mouse su un campo della tabella per leggere una breve descrizione dell'importo visualizzato.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics--business-centralindex" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Vedere anche
 

@@ -126,7 +126,7 @@ Questo messaggio viene visualizzato se la distribuzione del report predefinito n
 
 Probabilmente è perché il nome del report non contiene il nome della pagina di elenco. Rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

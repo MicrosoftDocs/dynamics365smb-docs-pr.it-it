@@ -50,7 +50,7 @@ Nella modalità di analisi dei dati, la pagina è divisa in due aree:
 - L'area principale, costituita dall'area dati (1), dalla barra di riepilogo (2) e dalla barra delle schede (5)
 - L'area di manipolazione dei dati, composta da due riquadri: colonne (3) e filtri di analisi (4).
 
-### <a name="data-area-" />Area dati (1)
+### <a name="data-area-1" />Area dati (1)
 
 L'area dati è il punto in cui vengono visualizzate le righe e le colonne della pagina elenco e i dati vengono riepilogati. L'area dati fornisce un modo versatile per controllare il layout delle colonne e un modo rapido per ottenere un riepilogo dei dati. Per le colonne che contengono valori numerici, la somma di tutti i valori della colonna viene visualizzata nell'ultima riga, a meno che non siano stati definiti gruppi di righe. In questo caso, le somme vengono visualizzate come subtotale per i gruppi.  
 
@@ -64,7 +64,7 @@ L'area dati è il punto in cui vengono visualizzate le righe e le colonne della 
 - Utilizza l'area dati per interagire con i dati. Per le colonne che contengono valori numerici sommabili, puoi ottenere statistiche descrittive su un set di campi contrassegnandoli. Le statistiche vengono visualizzate nella barra di stato (2) nella parte inferiore della pagina.
 - Esporta i dati in formato Excel o csv. È sufficiente fare clic con il pulsante destro del mouse sull'area dati o su una selezione di celle da esportare.
 
-### <a name="summary-bar-" />Barra di riepilogo (2)
+### <a name="summary-bar-2" />Barra di riepilogo (2)
 
 La barra di riepilogo si trova nella parte inferiore della pagina e visualizza le statistiche sui dati nell'elenco. Man mano che interagisci con le colonne i cui valori possono essere sommati, ad esempio selezionando più righe in una colonna che visualizza gli importi, i dati verranno aggiornati.
 
@@ -83,7 +83,7 @@ La tabella seguente descrive i diversi numeri visualizzati nell'area dei totali:
 |Massimo|Il valore massimo in tutti i campi sommabili selezionati.|
 |Somma|La somma totale di tutti i valori nei campi sommabili selezionati.|
 
-### <a name="columns-" />Colonne (3)
+### <a name="columns-3" />Colonne (3)
 
 L'area **Colonne** è uno dei due riquadri che usi per definire la tua analisi. L'altra area è il riquadro **Filtri di analisi**. Il riquadro **Colonne** viene utilizzato per riepilogare i dati. Utilizza il riquadro **Colonne** per definire quali colonne devono essere incluse nell'analisi.
 
@@ -98,7 +98,7 @@ L'area **Colonne** è uno dei due riquadri che usi per definire la tua analisi. 
 
 Per spostare un campo da un'area all'altra, seleziona l'icona per afferrare ![Mostra una panoramica di una pagina nella modalità di analisi](media/column-grab-icon.png) accanto alla colonna nell'elenco precedente e trascina nell'area di destinazione. Ti viene impedito di spostare un campo in un'area in cui non è consentito.
 
-### <a name="analysis-filters-" />Filtri analisi (4)
+### <a name="analysis-filters-4" />Filtri analisi (4)
 
 Il riquadro **Filtri analisi** consente di impostare ulteriori filtri di dati sulle colonne per limitare le voci nell'elenco. Imposta i filtri sulle colonne per limitare le voci nell'elenco e le successive somme solo per le voci che ti interessano in base a criteri da te definiti. Ad esempio, supponi di essere interessato solo ai dati per un cliente specifico o agli ordini di vendita che superano un importo specifico. Per impostare un filtro, seleziona la colonna, scegli l'operazione di confronto dall'elenco (come **Uguale a** o **Inizia con**), quindi inserisci il valore.
 
@@ -107,7 +107,7 @@ Il riquadro **Filtri analisi** consente di impostare ulteriori filtri di dati su
 > [!NOTE]
 > I filtri aggiuntivi si applicano solo alla scheda di analisi corrente. Ciò consente di definire esattamente i filtri di dati aggiuntivi necessari per un'analisi specifica.
 
-### <a name="tabs-" />Schede (5)
+### <a name="tabs-5" />Schede (5)
 
 L'area delle schede in alto ti consente di creare diverse configurazioni (colonne e filtri di analisi) su schede separate, dove puoi manipolare i dati nelle schede indipendentemente l'una dall'altra. C'è sempre almeno una scheda, chiamata **Analisi 1** per impostazione predefinita. L'aggiunta di più schede è utile per salvare le configurazioni di analisi utilizzate di frequente su un set di dati. Ad esempio, potresti avere schede per l'analisi dei dati in modalità pivot e altre schede che filtrano un sottoinsieme di righe. Alcune schede possono mostrare una visualizzazione dettagliata con molte colonne, mentre altre mostrano solo alcune colonne chiave.
 

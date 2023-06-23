@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking--fundamentals-extension-or-sepa-credit-transfer" />Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer" />Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA
 
 Nella pagina **Registraz. pagamenti** è possibile elaborare i pagamenti ai fornitori esportando un file con le informazioni di pagamento dalle righe registrazioni. È quindi possibile caricare il file sul sito elettronico della banca dove vengono elaborati i trasferimenti di denaro correlati. [!INCLUDE[prod_short](includes/prod_short.md)] supporta il formato di bonifico SEPA, ma nel proprio paese potrebbero essere disponibili anche altri formati di pagamento elettronico.
 
@@ -23,7 +23,7 @@ Nella pagina **Registraz. pagamenti** è possibile elaborare i pagamenti ai forn
 > [!NOTE]  
 > Una volta verificato che i pagamenti sono stati elaborati correttamente dalla banca, è possibile passare alla registrazione delle righe di registrazione pagamenti.  
 
-## <a name="setting-up-the-amc-banking--fundamentals-extension" />Impostazione dell'estensione AMC Banking 365 Fundamentals
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension" />Impostazione dell'estensione AMC Banking 365 Fundamentals
 
 Attivare l'estensione AMC Banking 365 Fundamentals per convertire tutti i file di rendiconto bancario in un formato che è possibile importare o per convertire i file dei pagamenti esportati nel formato richiesto dalla banca. Per ulteriori informazioni, vedi [Usare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 

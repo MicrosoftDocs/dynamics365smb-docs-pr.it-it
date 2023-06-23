@@ -67,71 +67,71 @@ Il campo **Ubicazioni obbligatorie** nella pagina **Setup magazzino**, il campo 
 
 Vedere le differenze negli scenari di setup riportati di seguito.
 
-### <a name="setup-" />Setup 1
+### <a name="setup-1" />Setup 1
 
 * Ubicazione Obbligatoria = *Sì*  
 * SKU è configurato su *OVEST*  
 * Componenti nell'Ubicazione = *EST*  
 
-#### <a name="case--demand-is-at-west-location" />Caso 1.1: domanda nell'ubicazione *OVEST*
+#### <a name="case-11-demand-is-at-west-location" />Caso 1.1: domanda nell'ubicazione *OVEST*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda USK, incluso il possibile trasferimento.
 
-#### <a name="case--demand-is-at-east-location" />Caso 1.2: domanda nell'ubicazione *EST*
+#### <a name="case-12-demand-is-at-east-location" />Caso 1.2: domanda nell'ubicazione *EST*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda articolo.
 
-#### <a name="case--demand-is-at-north-location" />Caso 1.3: domanda nell'ubicazione  *NORD*
+#### <a name="case-13-demand-is-at-north-location" />Caso 1.3: domanda nell'ubicazione  *NORD*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-#### <a name="case--demand-is-at-blank-location" />Caso 1.4: domanda nell'ubicazione *VUOTA*
+#### <a name="case-14-demand-is-at-blank-location" />Caso 1.4: domanda nell'ubicazione *VUOTA*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-### <a name="setup-" />Setup 2
+### <a name="setup-2" />Setup 2
 
 * Ubicazione Obbligatoria = *Sì*  
 * Nessuna USK esistente  
 * Componenti nell'Ubicazione = *EST*  
 
-#### <a name="case--demand-is-at-west-location" />Caso 2.1: domanda nell'ubicazione *OVEST*
+#### <a name="case-21-demand-is-at-west-location" />Caso 2.1: domanda nell'ubicazione *OVEST*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-#### <a name="case--demand-is-at-east-location" />Caso 2.2: domanda nell'ubicazione *EST*
+#### <a name="case-22-demand-is-at-east-location" />Caso 2.2: domanda nell'ubicazione *EST*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda articolo.  
 
-### <a name="setup-" />Setup 3
+### <a name="setup-3" />Setup 3
 
 * Ubicazione Obbligatoria = *No*  
 * Nessuna USK esistente  
 * Componenti nell'Ubicazione = *EST*  
 
-#### <a name="case--demand-is-at-west-location" />Caso 3.1: domanda nell'ubicazione *OVEST*
+#### <a name="case-31-demand-is-at-west-location" />Caso 3.1: domanda nell'ubicazione *OVEST*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-#### <a name="case--demand-is-at-east-location" />Caso 3.2: domanda nell'ubicazione *EST*
+#### <a name="case-32-demand-is-at-east-location" />Caso 3.2: domanda nell'ubicazione *EST*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda articolo.  
 
-#### <a name="case--demand-is-at-blank-location" />Caso 3.3: domanda nell'ubicazione *VUOTA*
+#### <a name="case-33-demand-is-at-blank-location" />Caso 3.3: domanda nell'ubicazione *VUOTA*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-### <a name="setup-" />Setup 4
+### <a name="setup-4" />Setup 4
 
 * Ubicazione Obbligatoria = *No*  
 * Nessuna USK esistente  
 * Componenti nell'Ubicazione = *VUOTO*  
 
-#### <a name="case--demand-is-at-east-location" />Caso 4.1: domanda nell'ubicazione *EST*
+#### <a name="case-41-demand-is-at-east-location" />Caso 4.1: domanda nell'ubicazione *EST*
 
 L'articolo viene pianificato in base a quanto segue: Metodo di Riordino = *Lotto-per-Lotto* (*Ordine* rimane *Ordine*), Includi Giacenze = *Sì*, tutti gli altri parametri di pianificazione vuoti.
 
-#### <a name="case--demand-is-at-blank-location" />Caso 4.2: domanda nell'ubicazione *VUOTA*
+#### <a name="case-42-demand-is-at-blank-location" />Caso 4.2: domanda nell'ubicazione *VUOTA*
 
 L'articolo viene pianificato in base ai parametri di pianificazione nella scheda articolo.
 
@@ -139,7 +139,7 @@ Come risulta evidente dall'ultimo scenario, l'unico modo per ottenere un risulta
 
 Pertanto, se risulta spesso necessario pianificare la domanda in varie ubicazioni, è consigliabile utilizzare la funzionalità Unità di stockkeeping.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Vedi le informazioni relative al training in [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Vedi le informazioni relative al training in [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

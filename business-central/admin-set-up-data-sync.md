@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# Preparati a sincronizzare i dati master
+# <a name="get-ready-to-synchronize-master-data" />Preparati a sincronizzare i dati master
 
 Quando due o più società utilizzano alcuni degli stessi dati anagrafici, è possibile sincronizzare i dati anziché aggiungerli manualmente in ciascuna società. Ad esempio, la sincronizzazione dei dati è particolarmente utile quando si impostano nuove società filiali.
 
@@ -25,14 +25,14 @@ I dati master includono impostazioni e informazioni non transazionali su entità
 
 Imposti la sincronizzazione delle società filiali. Utilizzando un modello pull, le filiali estraggono i dati dalla società di origine di cui hanno bisogno per fare affari con loro. Dopo aver impostato la sincronizzazione e sincronizzato i dati per la prima volta, è tutto pronto. I movimenti coda processi aggiornano i record accoppiati nelle filiali quando qualcuno cambia i dati nella società di origine.
 
-## Sincronizzazione solo unidirezionale
+## <a name="uni-directional-synchronization-only" />Sincronizzazione solo unidirezionale
 
 È possibile sincronizzare i dati solo dalla società di origine alle società filiali in modalità pull. Le filiali non possono inviare i dati alla società di origine.
 
 > [!NOTE]
 > Sebbene sia possibile, non è consigliabile configurare la sincronizzazione bidirezionale. Ovvero, sincronizzare i dati dalla società di origine alle filiali e dalle filiali alla società di origine. La sincronizzazione dei dati in entrambe le direzioni può causare conflitti o sovrascritture indesiderate.
 
-## Operazioni preliminari
+## <a name="before-you-start" />Operazioni preliminari
 
 Di seguito sono riportati i requisiti per impostare la sincronizzazione.
 
@@ -42,7 +42,7 @@ Di seguito sono riportati i requisiti per impostare la sincronizzazione.
 > [!NOTE]
 > Le licenze Membro del team e Amministratore interno consentono di accedere ma non di modificare i record, quindi non possono essere utilizzate per configurare la sincronizzazione. La licenza Amministratore delegato non ti consente di pianificare attività in background, quindi non sarai in grado di completare la configurazione.
 
-## Specificare la società di origine
+## <a name="specify-the-source-company" />Specificare la società di origine
 
 I primi passaggi sono specificare la società che sarà l'origine dati e abilitare la sincronizzazione. Le società filiali estraggono i dati dalla società di origine.
 
@@ -53,7 +53,7 @@ I primi passaggi sono specificare la società che sarà l'origine dati e abilita
 
 Il passaggio successivo consiste nell'abilitare tabelle e campi per la sincronizzazione.
 
-## Abilitare o disabilitare tabelle e campi
+## <a name="enable-or-disable-tables-and-fields" />Abilitare o disabilitare tabelle e campi
 
 Per risparmiare tempo, [!INCLUDE [prod_short](includes/prod_short.md)] fornisce un elenco di tabelle che le aziende spesso sincronizzano. Per impostazione predefinita, queste tabelle sono abilitate per la sincronizzazione. Puoi modificarli, disabilitarli o eliminarli come meglio credi. Come ulteriore risparmio di tempo, alcuni campi delle tabelle sono già disabilitati perché probabilmente non rilevanti per la filiale.
 
@@ -75,7 +75,7 @@ Per risparmiare tempo, [!INCLUDE [prod_short](includes/prod_short.md)] fornisce 
 > [!TIP]
 > Un modo rapido per abilitare o disabilitare più campi contemporaneamente è selezionarli nell'elenco, quindi utilizzare le azioni **Abilita** o **Disabilita**.
 
-### Usare l'associazione basata su corrispondenza
+### <a name="use-match-based-coupling" />Usare l'associazione basata su corrispondenza
 
 È possibile specificare i dati da sincronizzare per una tabella abbinando i record in base a criteri. Sulla pagina **Setup gestione dati master** scegli l'azione **Accoppiamento basato sulla corrispondenza** per aprire la pagina **Seleziona criteri di accoppiamento**. Puoi definire i seguenti criteri per la corrispondenza:
 
@@ -84,7 +84,7 @@ Per risparmiare tempo, [!INCLUDE [prod_short](includes/prod_short.md)] fornisce 
 * I campi da utilizzare per la corrispondenza dei record e se la corrispondenza fa distinzione tra maiuscole e minuscole.
 * Dai priorità all'ordine di ricerca dei record specificando una priorità di corrispondenza. [!INCLUDE [prod_short](includes/prod_short.md)] cercherà una corrispondenza in ordine crescente in base alla priorità corrispondenza. Un valore vuoto equivale alla priorità 0, che è la priorità più alta. I campi con priorità 0 vengono considerati per primi.
 
-## Sincronizzare per la prima volta
+## <a name="synchronize-for-the-first-time" />Sincronizzare per la prima volta
 
 Quando sei pronto, sulla pagina **Setup gestione dati master** scegli l'azione **Avvia sincronizzazione iniziale**. Sulla pagina **Sincronizzazione iniziale dati master** scegli il tipo di sincronizzazione che desideri utilizzare per ogni tabella.
 
@@ -103,9 +103,9 @@ Mentre la sincronizzazione è in esecuzione, la colonna **Stato processo** nella
 
 Per accedere ai dettagli, come il numero di record inseriti o modificati, scegli il valore nella colonna **Stato processo** per aprire la pagina **Visualizza - Processi di sincronizzazione integrazione**. Per i record che sono stati inseriti, puoi scegliere il numero nella colonna **Inseriti** per accedere a maggiori dettagli sui nuovi record.
 
-## Aggiungere o eliminare tabelle dall'elenco delle tabelle di sincronizzazione
+## <a name="add-or-delete-tables-from-the-synchronization-tables-list" />Aggiungere o eliminare tabelle dall'elenco delle tabelle di sincronizzazione
 
-### Aggiungere una tabella
+### <a name="add-a-table" />Aggiungere una tabella
 
 > [!IMPORTANT]
 > Sebbene nell'elenco siano disponibili tabelle che contengono dati transazionali, ad esempio tabelle che contengono movimenti contabili, non è consigliabile sceglierle. La sincronizzazione funziona solo per le tabelle che contengono dati non transazionali.
@@ -114,7 +114,7 @@ Per accedere ai dettagli, come il numero di record inseriti o modificati, scegli
 1. Scegli **Nuovo**, quindi scegli la tabella da aggiungere.
 1. Compila i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### Eliminare una tabella
+### <a name="delete-a-table" />Eliminare una tabella
 
 > [!NOTE]
 > Se elimini un record nella società di origine, non viene eliminato anche nella filiale. Questo aiuta a prevenire la perdita indesiderata di dati. La filiale può decidere di eliminare la tabella se lo desidera.
@@ -122,10 +122,10 @@ Per accedere ai dettagli, come il numero di record inseriti o modificati, scegli
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tabelle di sincronizzazione**, quindi scegli il collegamento correlato.
 1. Scegliere l'azione **Elimina**.
 
-## Usare l'esportazione e l'importazione per condividere una configurazione di sincronizzazione
+## <a name="use-export-and-import-to-share-a-synchronization-setup" />Usare l'esportazione e l'importazione per condividere una configurazione di sincronizzazione
 
 Se stai configurando diverse filiali che utilizzano impostazioni di sincronizzazione uguali o simili, c'è un risparmio di tempo. Configura una società consociata e quindi esportane l'impostazione in un file .xml. Il file contiene l'intera configurazione, inclusi i mapping di tabelle e campi e i criteri di filtro. È quindi possibile importare il file nella filiale successiva. Per importare o esportare un'impostazione, nella pagina **Setup gestione dati master** utilizza l'azione **Importa** o **Esporta**.
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Gestire la sincronizzazione dei dati master](admin-sync-master-data.md)

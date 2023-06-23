@@ -58,7 +58,7 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
 Dopo avere modificato il layout, provare ad aggiornare nuovamente il layout.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
  [Gestione dei layout di report](ui-manage-report-layouts.md)  

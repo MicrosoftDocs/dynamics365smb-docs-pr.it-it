@@ -26,7 +26,7 @@ Se un fornitore ha uno o più conti bancari e desideri impostare un'opzione pref
 2. Apri la scheda per il fornitore.
 3. Sulla Scheda dettaglio **Pagamenti**, scegli il conto bancario del fornitore predefinito nel campo **Codice conto bancario preferito**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

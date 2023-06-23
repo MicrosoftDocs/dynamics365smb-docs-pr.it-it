@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Risoluzione dei problemi di accesso con licenze Microsoft 365
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Risoluzione dei problemi di accesso con licenze Microsoft 365
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />Messaggio di errore "Questa pagina utilizza i dati delle tabelle correlate a cui non hai accesso"
 
@@ -24,7 +24,7 @@ Quando accedi a un record in Teams, ti viene mostrato un messaggio di errore in 
 
 Molto probabilmente mancano le autorizzazioni per gli oggetti per le tabelle a cui si collega la pagina o il record corrente.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />L'accesso Microsoft 365 è stato abilitato, ma gli utenti ricevono un errore di autorizzazione
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />L'accesso Microsoft 365 è stato abilitato, ma gli utenti ricevono un errore di autorizzazione
 
 ### <a name="symptoms" />Sintomi
 

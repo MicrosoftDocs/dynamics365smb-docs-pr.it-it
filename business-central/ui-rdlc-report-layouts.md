@@ -41,7 +41,7 @@ dietro RDL/RDLC e come utilizzare Generatore di report.
 > [!NOTE]
 > Generatore di report riconosce solo il tipo di file .rdl, non .rdlc. I file di layout esportati da Business Central sono tipi di file .rdlc. Quindi, per modificare questi layout in Generatore di report devi rinominare il tipo di file in .rdl.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

@@ -90,14 +90,14 @@ Quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, è 
 
 Nell'esempio seguente viene mostrato che cosa accade se si registra un acquistato come ricevuto e fatturato in data 20-01-01. In secondo momento l'articolo venduto viene registrato come spedito e fatturato in data 01-15-20. Si eseguono quini di processi batch **Rettifica costo - Movimenti articoli** e **Registra costo magazzino in C/G**. Vengono creati i seguenti movimenti.  
 
-#### <a name="value-entries-" />Movimenti di valorizzazione (1)
+#### <a name="value-entries-1" />Movimenti di valorizzazione (1)
 
 |Data di registrazione|Tipo mov. articolo|Importo costo (effettivo)|Costo registrato in C/G|Quantità fatturata|Nr. movimento|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Acquisti|10,00|10,00|1|1|  
 |01-15-20|Vendite|-10,00|-10,00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Movimenti di relazione nella C/G – Relazione Movimento Articolo (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Movimenti di relazione nella C/G – Relazione Movimento Articolo (1)
 
 |Nr. movimento C/G|Nr. movimento valorizzazione|Nr. registro C/G|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ Nell'esempio seguente viene mostrato che cosa accade se si registra un acquistat
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />Movimenti C/G (1)
+#### <a name="general-ledger-entries-1" />Movimenti C/G (1)
 
 |Data di registrazione|Conti C/G|Numero di conto (demo en-US)|Importo|Nr. movimento|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ Nell'esempio seguente viene mostrato che cosa accade se si registra un acquistat
 
 Successivamente, si registra un addebito articolo di acquisto correlato per VL 2,00 fatturato il 20-10-02. Si esegue il processo batch **Rettifica costo - Movimenti articoli** e successivamente il processo batch **Registra costo magazzino in C/G**. Il processo batch di rettifica costi modifica il costo della vendita di VL -2,00 e il processo batch **Registra costo magazzino in C/G** registra i nuovi movimenti di valorizzazione nella contabilità generale. Il risultato è il seguente.  
 
-#### <a name="value-entries-" />Movimenti di valorizzazione (2)
+#### <a name="value-entries-2" />Movimenti di valorizzazione (2)
 
 |Data di registrazione|Tipo mov. articolo|Importo costo (effettivo)|Costo registrato in C/G|Quantità fatturata|Rettifica|Nr. movimento|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Acquisti|2.00|2.00|0|No|3|  
 |01-15-20|Vendite|-2,00|-2,00|0|Sì|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Movimenti di relazione nella C/G – Relazione Movimento Articolo (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Movimenti di relazione nella C/G – Relazione Movimento Articolo (2)
 
 |Nr. movimento C/G|Nr. movimento valorizzazione|Nr. registro C/G|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Successivamente, si registra un addebito articolo di acquisto correlato per VL 2
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />Movimenti C/G (2)
+#### <a name="general-ledger-entries-2" />Movimenti C/G (2)
 
 |Data di registrazione|Conti C/G|Numero di conto (demo en-US)|Importo|Nr. movimento|  
 |------------|-----------|------------------------|------|---------|  

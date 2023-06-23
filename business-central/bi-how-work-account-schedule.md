@@ -184,7 +184,7 @@ Un report finanziario può essere salvato come file in diversi formati, come PDF
 > [!NOTE]
 > Quando importi i report finanziari, i record esistenti con lo stesso nome di quelli che stai importando verranno eliminati.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Vedere anche
 

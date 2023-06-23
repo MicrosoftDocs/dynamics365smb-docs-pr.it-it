@@ -41,7 +41,7 @@ Le procedure riportate di seguito mostrano come allegare un file a un movimento 
 
 La connessione al documento registrato viene rimossa. È ora possibile connettere un altro record di documento in entrata al documento registrato come descritto in questo articolo.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

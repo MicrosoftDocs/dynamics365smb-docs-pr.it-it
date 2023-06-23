@@ -116,7 +116,7 @@ Verificare che la pagina da visualizzare sia la prima pagina del report.
 
 Verificare che la dimensione del report sia impostata su 325 x 310 pixel. Salvare il report quindi aggiornare la pagina elenco.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

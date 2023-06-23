@@ -59,7 +59,7 @@ Il diagramma seguente illustra il flusso di lavoro di base per gli utenti durant
 6. L'utente crea un report in Power BI Desktop.
 7. L'utente pubblica il report nel servizio Power BI. I report diventano anche disponibili per la selezione in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

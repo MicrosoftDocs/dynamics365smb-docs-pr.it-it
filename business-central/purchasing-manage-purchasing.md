@@ -43,7 +43,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

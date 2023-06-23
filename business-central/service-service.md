@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Gestione assistenza
+# <a name="service-management" />Gestione assistenza
 > [!NOTE]
 > La funzionalità descritta in questo argomento e negli argomenti secondari è visibile solo se si dispone dell'esperienza **Premium**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 
@@ -36,12 +36,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Creare e gestire accordi contrattuali tra la propria azienda e i clienti.|[Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)|  
 |Fornire assistenza ai clienti e fatturare gli ordini di assistenza.|[Fornitura dell'assistenza](service-deliver-service.md)|  
 
-## Vedi anche  
+## <a name="see-also" />Vedi anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)   
 [Commesse](projects-how-create-jobs.md)   
 [Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)] ](welcome.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,7 +52,7 @@ Per registrare sempre le spese relative agli oneri bancari di una banca specific
 | --- | --- | --- | --- | --- |
 | MyBank |VUOTO |60400|Conto C/G |VUOTO |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

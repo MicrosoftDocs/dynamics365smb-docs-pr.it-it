@@ -199,7 +199,7 @@ Per aggiornare i prezzi per più articoli, è necessario creare un nuovo listino
 
 Dopo aver registrato prezzi speciali e sconti riga di vendita e di acquisto, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino. Per ulteriori informazioni, vedi [Calcolo del prezzo migliore](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

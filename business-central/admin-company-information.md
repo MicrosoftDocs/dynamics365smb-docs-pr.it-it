@@ -54,7 +54,7 @@ Il nome della società viene sempre visualizzato nell'angolo in alto a sinistra 
 
 L'esperienza utente predefinita in una versione di prova di [!INCLUDE [prod_short](includes/prod_short.md)] non rivela tutte le capacità. Puoi attivare l'esperienza completa nella pagina **Informazioni sulla società**. Per ulteriori informazioni, vedi [Modifica delle funzionalità visualizzate](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

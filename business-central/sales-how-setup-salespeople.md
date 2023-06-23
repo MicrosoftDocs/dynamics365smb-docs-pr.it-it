@@ -25,7 +25,7 @@ Dopo che è stato impostato un agente nella pagina **Agenti**, è possibile sele
 
 È possibile utilizzare gli agenti in diverse attività di marketing e Relationship Management. Ad esempio, è possibile assegnare task agli agenti, in modo che i task vengano incorporati nelle opportunità di vendita a cui è assegnato l'agente. Per ulteriori informazioni, vedere [Impostare fasi ciclo e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

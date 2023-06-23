@@ -69,15 +69,15 @@ Nel diagramma seguente vengono illustrati i flussi warehouse in entrata per tipo
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Flusso in entrata di base in una warehouse.":::
 
-### <a name="-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Rilasciare un documento di origine per creare una richiesta per uno stoccaggio in magazzino
+### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Rilasciare un documento di origine per creare una richiesta per uno stoccaggio in magazzino
 
 Quando ricevi gli articoli, rilascia il documento di origine, ad esempio un ordine d'acquisto o un ordine di trasferimento in entrata. Il rilascio del documento rende gli articoli disponibili per lo stoccaggio. Puoi anche creare documenti di stoccaggio magazzino per le singole righe ordine, in modalità push, in base alle collocazioni specificate e le quantità da gestire.  
 
-### <a name="-create-an-inventory-put-away" />2: Creare uno stoccaggio magazzino
+### <a name="2-create-an-inventory-put-away" />2: Creare uno stoccaggio magazzino
 
 Nella pagina **Stoccaggio magazzino**, puoi recuperare, in modalità pull, le righe del documento di origine in attesa in base alle richieste warehouse in entrata. In modalità push, puoi anche creare righe stoccaggio di magazzino quando crei il documento di origine.  
 
-### <a name="-post-an-inventory-put-away" />3: Registrare uno stoccaggio di magazzino
+### <a name="3-post-an-inventory-put-away" />3: Registrare uno stoccaggio di magazzino
 
 In ogni riga per gli articoli che sono stati stoccati, in parte o completamente, compila il campo **Quantità**, quindi registra lo stoccaggio di magazzino. I documenti di origine che sono correlati allo stoccaggio di magazzino vengono registrati come ricevuti.  
 
@@ -94,21 +94,21 @@ Nel diagramma seguente viene illustrato il flusso warehouse in entrata per tipo 
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Flusso in entrata in una configurazione warehouse avanzata":::
 
-### <a name="-release-the-source-document" />1: Rilasciare il documento di origine
+### <a name="1-release-the-source-document" />1: Rilasciare il documento di origine
 
 Quando ricevi gli articoli, rilascia il documento di origine, ad esempio l'ordine d'acquisto o un ordine di trasferimento in entrata. Il rilascio del documento rende gli articoli disponibili per lo stoccaggio. Lo stoccaggio conterrà i riferimenti al tipo e al numero del documento di origine.
 
-### <a name="-create-a-warehouse-receipt" />2: Creare un carico warehouse
+### <a name="2-create-a-warehouse-receipt" />2: Creare un carico warehouse
 
 Nella pagina **Carico warehouse** recupera le righe dei documenti di origine in entrata. Puoi combinare più righe del documento di origine in un unico documento di carico warehouse. Compila il campo **Qtà da gestire** e, se necessario, seleziona la collocazione e l'area ricevimento.  
 
-### <a name="-post-the-warehouse-receipt" />3: Registrare il carico warehouse
+### <a name="3-post-the-warehouse-receipt" />3: Registrare il carico warehouse
 
 Registra il carico warehouse per creare movimenti contabili articoli positivi. Il campo **Quantità ricevuta** nella riga del documento di origine in entrata viene aggiornato.  
 
 Se l'interruttore **Richiesto stoccaggio** non è attivato sulla scheda ubicazione, il processo si interrompe. In caso contrario, la registrazione del documento di origine in entrata rende gli articoli disponibili per lo stoccaggio. Lo stoccaggio contiene i riferimenti al tipo e al numero del documento di origine.  
 
-### <a name="-optional-generate-put-away-worksheet-lines" />4: (Facoltativo) Generare le righe del prospetto di stoccaggio
+### <a name="4-optional-generate-put-away-worksheet-lines" />4: (Facoltativo) Generare le righe del prospetto di stoccaggio
 
 Recupera le righe di stoccaggio warehouse nel **Prospetto stoccaggio** in base ai carichi warehouse registrati o alle operazioni che producono output. Scegli le righe da stoccare e specifica le seguenti informazioni:
 
@@ -123,11 +123,11 @@ Una volta che tutti gli stoccaggi sono pianificati e assegnati agli addetti ware
 > [!NOTE]  
 > Se l'interruttore **Usa prospetto stoccaggi** non è attivato nella scheda ubicazione, i documenti di stoccaggio warehouse vengono creati direttamente in base a carichi warehouse registrati. In tal caso, questo passaggio non è necessario.  
 
-### <a name="-create-a-warehouse-put-away-document" />5: Creare un documento di stoccaggio warehouse
+### <a name="5-create-a-warehouse-put-away-document" />5: Creare un documento di stoccaggio warehouse
 
 Crea un documento di stoccaggio warehouse in modalità pull, in base al carico warehouse registrato. In alternativa, crea il documento di stoccaggio magazzino e assegnalo a un addetto warehouse in modalità push.  
 
-### <a name="-register-a-warehouse-put-away" />6: Registrare uno stoccaggio warehouse
+### <a name="6-register-a-warehouse-put-away" />6: Registrare uno stoccaggio warehouse
 
 In ogni riga per gli articoli che sono stati stoccati, in parte o completamente, compila il campo **Quantità** della pagina **Stoccaggio warehouse**, quindi registra lo stoccaggio nella warehouse.  
 

@@ -148,7 +148,7 @@ Nella tabella seguente sono descritte le codeunit da creare per il report.
 > [!Note]
 > Quando crei le codeunit per il report, presta attenzione al valore nel campo **Versione report IVA**. Questo campo deve riflettere la versione del report che è o era richiesto dall'autorità fiscale. Ad esempio, si potrebbe immettere **2021** nel campo per indicare che il report è conforme ai requisiti in essere in quell'anno. Per individuare la versione corrente, contattare l'autorità fiscale.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

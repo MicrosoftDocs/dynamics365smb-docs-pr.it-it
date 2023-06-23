@@ -38,7 +38,7 @@ Un ordine di acquisto creato come ordine speciale per un ordine di vendita viene
 > [!NOTE]  
 >  Se l'elemento è già prenotato, non è possibile utilizzare la funzionalità ordine speciale. Pertanto, per gli articoli venduti in ordini speciali, assicurarsi che il campo **Impegno** nella scheda articolo non sia impostato su **Sempre**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

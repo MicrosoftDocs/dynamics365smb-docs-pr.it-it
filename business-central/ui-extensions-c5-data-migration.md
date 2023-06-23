@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c-data-migration-extension" />Estensione di migrazione dati C5
+# <a name="the-c5-data-migration-extension" />Estensione di migrazione dati C5
 
 Questa estensione consente di migrare facilmente clienti, fornitori, articoli e conti di contabilità generale da Microsoft Dynamics C5 2012 a [!INCLUDE[prod_short](includes/prod_short.md)]. È inoltre possibile migrare lo storico dei movimenti per i conti di contabilità generale.
 

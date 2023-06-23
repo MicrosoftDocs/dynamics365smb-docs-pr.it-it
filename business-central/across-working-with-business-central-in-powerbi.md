@@ -71,7 +71,7 @@ Per condividere un report, in un rapport di elenco o in un rapporto aperto, sele
 > [!NOTE]
 > È necessario avere una [licenza Power BI Pro](/power-bi/service-features-license-type) per se e per le persone con cui si condivide. Il contenuto deve trovarsi in un'area di lavoro con una [capacità premium](/power-bi/service-premium-what-is). Per ulteriori informazioni, vedere [In che modo condividere il tuo lavoro in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

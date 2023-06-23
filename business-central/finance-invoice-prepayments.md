@@ -29,7 +29,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Creare un ordine, rettificare gli importi di pagamento anticipato ed emettere una fattura per gli importi di pagamento anticipato.|[Creare fatture per i pagamenti anticipati](finance-how-to-create-prepayment-invoices.md)|  
 |Emettere una fattura di pagamento anticipato supplementare, per articoli aggiuntivi o per un deposito aggiuntivo rispetto all'ordine originale, oppure emettere una nota di credito di pagamento anticipato.|[Rettificare i pagamenti anticipati](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

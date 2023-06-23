@@ -92,7 +92,7 @@ Se si creano più solleciti di quanti livelli sono stati definiti, verranno util
 
 Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, immettere uno dei codici in ognuna delle schede clienti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/send-reminders-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

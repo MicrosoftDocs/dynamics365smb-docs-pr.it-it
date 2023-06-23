@@ -51,7 +51,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Scopri come lavorare con le distinte base di assemblaggio e le principali differenze rispetto alle distinte base di produzione.|[Usare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)|
 |Informazioni sulla registrazione del consumo e dell'output di assemblaggio e su come [!INCLUDE [prod_short](includes/prod_short.md)] distribuisce i costi degli articoli e delle risorse nella contabilità generale.|[Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

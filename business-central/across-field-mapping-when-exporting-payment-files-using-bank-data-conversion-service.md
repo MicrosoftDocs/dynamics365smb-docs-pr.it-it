@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking--fundamentals-extension" />Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension" />Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals
 Quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals, i dati esportati sono esposti al provider di servizi. Il provider di servizi è responsabile per la privacy di questi dati. Per ulteriori informazioni sull'estensione AMC Banking 365 Fundamentals, vedere [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  

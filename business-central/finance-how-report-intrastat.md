@@ -116,7 +116,7 @@ Quando lavori con il **Report Intrastat** vedrai un campo **Stato** nell'intesta
 * *Rilasciato*: [!INCLUDE[prod_short](includes/prod_short.md)] cambia automaticamente lo stato in *Rilasciato* quando crei un file. Da quel momento, non puoi modificare il **Report Intrastat**. Se è necessario modificare qualcosa e segnalare nuovamente, è possibile utilizzare l'azione **Riapri** per riaprire il report Intrastat. Una volta riaperto il documento, è possibile utilizzare l'azione **Rilascia** per rilasciare nuovamente il documento.
 * **Riportato**: Specifica se il movimento è già stato comunicato alle autorità fiscali. Questo non è uno stato normale ma un campo indipendente e, anche se hai riaperto il report Intrastat, mostra comunque che il file è già stato creato per questo report.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Vedere anche
 

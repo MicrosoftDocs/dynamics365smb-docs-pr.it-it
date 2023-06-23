@@ -29,7 +29,7 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 | Chiudere i periodi contabili e l'anno fiscale, trasferire i saldi dal conto economico al conto patrimoniale e registrare il movimento di chiusura di fine anno. |[Chiusura registri](year-close-books.md) |
 | Stampare report per facilitare la creazione di rendiconti finanziari. |[Preparazione degli estratti conto di chiusura](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedere anche
 

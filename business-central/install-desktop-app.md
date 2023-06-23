@@ -66,7 +66,7 @@ La differenza è quando si hanno più inquilini. A differenza di [!INCLUDE[prod_
 > [!IMPORTANT]
 > Se utilizzi il primo ciclo di rilascio del 2021 di Business Central (versione 18) o precedenti, non puoi installare l'app come descritto in questo articolo. Puoi invece installare l'app da [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Per ulteriori informazioni e assistenza sull'installazione di questa app legacy, vedi [Preparazione e installazione dell'app Business Central](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

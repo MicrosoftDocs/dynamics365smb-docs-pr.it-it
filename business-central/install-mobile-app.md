@@ -53,7 +53,7 @@ Se si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in locale, è anch
 > [!NOTE]
 > In caso di problemi di funzionamento dell'app, contattare l'amministratore. Potrebbe essere un prerequisito mancante o una configurazione incompleta. Per ulteriori informazioni, vedere [Preparazione dell'ambiente per l'app per dispositivi mobili](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) o [Risoluzione dei problemi relativi all'app per dispositivi mobili Business Central in locale](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

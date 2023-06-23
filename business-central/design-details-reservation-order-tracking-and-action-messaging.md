@@ -133,13 +133,13 @@ Nella pagina **Setup manufacturing**, il campo **Componenti nell'ubicazione** è
 
  ![Primo esempio di movimenti di tracciabilità ordini nella tabella Movimenti impegni.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Numeri di movimento 8 e 9
+### <a name="entry-numbers-8-and-9" />Numeri di movimento 8 e 9
  Per la necessità del componente LOTA e LOTB rispettivamente, i collegamenti di tracciabilità ordine vengono creati dalla domanda nella tabella 5407, **Componenti ordini produzione**, all'approvvigionamento nella tabella 32, **Mov. contabili articoli**. Il campo **Stato impegno** contiene **Tracciabilità** per indicare che questi movimenti sono collegamenti tracciabilità ordine dinamici tra approvvigionamento e domanda.  
 
 > [!NOTE]  
 >  Il campo **Nr. lotto** è vuoto nelle righe della domanda, in quanto i numeri di lotto non sono specificati nelle righe componenti dell'ordine di produzione rilasciato.  
 
-### <a name="entry-numbers-" />Numeri di movimento 10
+### <a name="entry-numbers-10" />Numeri di movimento 10
  Dalla domanda di vendita nella tabella 37, **Righe vendite**, un collegamento di tracciabilità ordine viene creato nell'approvvigionamento nella tabella 5406, **Righe ordini prod.**. Il campo **Stato impegno** contiene **Impegno** e il campo **Vincolato** contiene **Ordine su ordine**. Questo perché l'ordine di produzione rilasciato è stato generato specificamente per l'ordine di vendita e deve rimanere collegato a differenza dei collegamenti di tracciabilità ordine con uno stato di impegno **Tracciabilità**, che vengono creati e modificati in modo dinamico. Per ulteriori informazioni, vedere la sezione "Prenotazioni automatiche" in questo argomento.  
 
  A questo punto nello scenario, le 100 unità di LOTA e LOTB vengono trasferite nell'ubicazione EST da un ordine di trasferimento.  
@@ -151,12 +151,12 @@ Nella pagina **Setup manufacturing**, il campo **Componenti nell'ubicazione** è
 
  ![Secondo esempio di movimenti di tracciabilità ordini nella tabella Movimenti impegni.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Numeri di movimento 8 e 9
+### <a name="entry-numbers-8-and-9" />Numeri di movimento 8 e 9
  I movimenti di tracciabilità ordini per i due lotti del componente che riflettono la domanda nella tabella 5407 vengono modificati dallo stato di impegno di **Tracciabilità** a **Surplus**. Il motivo è che gli approvvigionamenti a cui erano collegati prima, nella tabella 32, sono stati utilizzati dalla spedizione dell'ordine di trasferimento.  
 
  Il surplus genuino, come n questo caso, riflette un approvvigionamento o una domanda effettiva eccedente che non viene tracciata. È un'indicazione di sbilanciamento nella rete di ordini, che genererà un messaggio di azione dal sistema di pianificazione a meno che non venga risolto in modo dinamico.  
 
-### <a name="entry-numbers--to-" />Numeri di movimento da 12 a 16
+### <a name="entry-numbers-12-to-16" />Numeri di movimento da 12 a 16
  Poiché i due lotti del componente vengono registrati nell'ordine di trasferimento come spediti ma non ricevuti, tutti i movimenti di tracciabilità ordine positivi correlati sono del tipo di impegno **Surplus**, indicando che non sono allocati ad alcuna domanda. Per ciascun numero di lotto, un movimento si riferisce alla tabella 5741, **Riga trasferimento** e un movimento si riferisce all'ubicazione in transito in cui gli articoli ora esistono.  
 
  A questo punto nello scenario, l'ordine di trasferimento dei componenti dall'ubicazione EST a OVEST viene registrato come ricevuto.  
@@ -173,7 +173,7 @@ Nella pagina **Setup manufacturing**, il campo **Componenti nell'ubicazione** è
 
  ![Quarto esempio di movimenti di tracciabilità ordini nella tabella Movimenti impegni.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Numeri di movimento 21 e 22
+### <a name="entry-numbers-21-and-22" />Numeri di movimento 21 e 22
  Poiché la necessità di componenti è stata modificata nell'ubicazione EST e l'approvvigionamento è disponibile come movimenti contabili articoli nell'ubicazione EST, tutti i movimenti di tracciabilità ordine per i due numeri di lotto sono ora completamente tracciati, indicati dallo stato di impegno **Tracciabilità**.  
 
  Il campo **Nr. lotto** è ora compilato nel movimento tracciabilità ordine per la tabella 5407, poiché erano stati assegnati i numeri di lotto alle righe componente dell'ordine di produzione.  

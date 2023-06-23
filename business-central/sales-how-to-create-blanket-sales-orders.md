@@ -89,7 +89,7 @@ Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di ori
 
 5. Nella pagina **Righe acquisto** scegliere l'azione **Mostra documento** per visualizzare il movimento.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

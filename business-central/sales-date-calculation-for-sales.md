@@ -36,7 +36,7 @@ Se nella riga dell'ordine di vendita non si specifica una data di consegna richi
 - *data spedizione + tempo gest. uscita da whse. = data di spedizione pianificata*
 - *data di spedizione pianificata + tempo spedizione = data di consegna pianificata*
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

@@ -56,7 +56,7 @@ La seguente procedura è basata su una scheda cliente. I passaggi sono simili pe
 > [!NOTE]
 > Per i contatti, è possibile utilizzare la funzionalità per trovare contatti duplicati prima di utilizzare la pagina **Unisci duplicato**. Per ulteriori informazioni, vedere [Ricerca di contatti duplicati](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

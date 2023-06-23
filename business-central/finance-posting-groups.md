@@ -126,7 +126,7 @@ Quando qualcosa non va, [!INCLUDE[prod_short](includes/prod_short.md)] visualizz
 > [!NOTE]
 > La gestione degli errori descritta sopra non è disponibile su diari di articoli, risorse, impiegati e attività fisse, o per conti G/L aggiunti in versioni locali di gruppi di registrazione.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesposting-groups-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesposting-groups-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/posting-groups-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

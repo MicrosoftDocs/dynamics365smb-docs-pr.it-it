@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Workflow in Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central" />Workflow in Dynamics 365 Business Central
 
 È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. Le attività di sistema, come la pubblicazione automatica, possono essere incluse come passaggi in flussi di lavoro. Le attività di sistema possono essere precedute o seguite da attività utente. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro.
 

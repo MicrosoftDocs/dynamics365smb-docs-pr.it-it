@@ -193,9 +193,9 @@ Nella maggior parte dei casi, è possibile aprire i movimenti contabili dalla sc
 
 È possibile modificare determinati campi nei documenti di acquisto registrati, come ad esempio **Riferimento pagamento**. Ulteriori informazioni in [Modificare i documenti registrati](across-edit-posted-document.md). Per i campi più critici che influiscono sulla traccia di controllo, è necessario stornare o annullare la registrazione. Ulteriori informazioni in [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedere anche
 

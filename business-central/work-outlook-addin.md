@@ -122,7 +122,7 @@ Se stai usando l'applicazione Outlook, basta scegliere **Collegamento a document
 > A partire dal primo ciclo di rilascio del 2022, i documenti si aprono in una nuova finestra del browser con tutte le funzionalità che conosci di [!INCLUDE [prod_short](includes/prod_short.md)]. Puoi passare da un documento a un elenco e tornare indietro, aprire elenchi in Excel, inviare documenti da stampare ed eseguire o visualizzare in anteprima i report correlati. Hai anche tutte le scelte rapide da tastiera familiari proprio lì quando apri i documenti da Outlook.  
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

@@ -140,7 +140,7 @@ Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il ca
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 

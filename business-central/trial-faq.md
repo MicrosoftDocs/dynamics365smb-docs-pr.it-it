@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 02/23/2022
 ---
 
-# <a name="dynamics--business-central-trial-faq" />Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central
+# <a name="dynamics-365-business-central-trial-faq" />Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
@@ -44,7 +44,7 @@ Passa alla versione di prova di 30 giorni, quindi aggiungi i tuoi dati. Per ulte
 
 Non puoi. Se elimini accidentalmente dati di esempio, chiedi all'amministratore di creare un nuovo ambiente sandbox. Per ulteriori informazioni, vedi [Ambienti di produzione sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types) nel contenuto per amministratori (solo in inglese).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

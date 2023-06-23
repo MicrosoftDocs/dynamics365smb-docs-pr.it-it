@@ -84,7 +84,7 @@ Per ogni registro beni ammortizzabili viene determinato un setup di default dell
 3. Affinché ogni utente disponga di un'impostazione di default, scegliere il campo **ID utente** da selezionare nella pagina **Utenti**.  
 4. Negli altri campi, selezionare la definizione o il batch registrazioni che deve essere utilizzato per default.  
 
-## <a name="fiscal-year--days-field-depreciation" />Ammortamento e campo Anno fiscale 365 giorni
+## <a name="fiscal-year-365-days-field-depreciation" />Ammortamento e campo Anno fiscale 365 giorni
 
 Quando viene eseguito il processo batch Calcolo ammortamento, il calcolo è basato normalmente su un anno standard di 360 giorni in cui ciascuno dei 12 mesi ha 30 giorni.
 

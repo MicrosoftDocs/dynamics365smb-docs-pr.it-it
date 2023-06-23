@@ -179,7 +179,7 @@ Attieniti alla seguente procedura per modificare il nome e la descrizione di un 
     > Per trovare il layout, usa la casella **Ricerca**, il riquadro **Filtro** e l'ordinamento delle colonne.
 3. Cambia il **Nome layout**, quindi seleziona **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

@@ -136,7 +136,7 @@ In questo argomento sono contenute le seguenti procedure:
     |---------------------------------|---------------------------------------|  
     |**Conto C/G per righe non articolo**|Specifica il conto C/G che viene inserito automaticamente nelle righe di acquisto create dai documenti elettronici quando la riga del documento in ingresso non contiene un articolo identificabile. Tutte le righe di documenti in entrata che non hanno un GTIN o il numero di articolo del fornitore verranno convertite in una riga di acquisto di tipo **Conto C/G** e il campo **Nr.** della riga di acquisto conterrà il conto selezionato nel campo **Conto C/G per righe non articolo**.<br /><br /> Se si lascia vuoto il campo **Conto C/G per righe non articolo** e il documento in entrata dispone di righe senza articoli identificabili, il documento di acquisto non verrà creato. Un messaggio di errore avviserà l'utente che è necessario compilare il campo **Conto C/G per righe non articolo** prima di poter completare il task.|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 [Scambio di dati in modalità elettronica](across-data-exchange.md)   

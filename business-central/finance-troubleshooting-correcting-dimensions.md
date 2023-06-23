@@ -117,7 +117,7 @@ Se una correzione non viene completata, verrà visualizzato un avviso sulla sche
 
 Dopo aver corretto le dimensioni, i dati per la contabilità dei costi non saranno sincronizzati. La contabilità industriale utilizza le dimensioni per aggregare gli importi per i centri di costo e gli oggetti di costo e per eseguire le allocazioni dei costi. La modifica delle dimensioni per i movimenti C/G comporterà probabilmente la riesecuzione dei modelli di contabilità industriale. Se è necessario eliminare solo alcuni registri dei costi e rieseguire le allocazioni o è necessario eliminare tutto e rieseguire tutti i modelli dipende dai dati che sono stati aggiornati e da come sono impostate le capacità di contabilità dei costi. È necessario identificare manualmente dove le correzioni delle dimensioni avranno un impatto sulla contabilità dei costi e dove sono necessari aggiornamenti. [!INCLUDE[prod_short](includes/prod_short.md)] attualmente non fornisce un modo automatizzato per farlo.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

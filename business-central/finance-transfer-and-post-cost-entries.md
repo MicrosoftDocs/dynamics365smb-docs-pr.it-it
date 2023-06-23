@@ -98,7 +98,7 @@ Per i singoli movimenti di costo, in [!INCLUDE[prod_short](includes/prod_short.m
 
 Nella tabella **Registro costi**, [!INCLUDE[prod_short](includes/prod_short.md)] crea un movimento con il trasferimento di origine dalla contabilità generale. Il movimento registra il primo e l'ultimo numero dei movimenti C/G trasferiti, oltre al primo e all'ultimo numero dei movimenti di costo creati.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

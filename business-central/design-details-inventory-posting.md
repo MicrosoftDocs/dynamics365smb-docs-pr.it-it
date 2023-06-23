@@ -33,20 +33,20 @@ Nell'esempio seguente viene illustrato come i movimenti contabili articoli, i mo
 
  È possibile registrare un ordine di acquisto come ricevuto e fatturato per 10 articoli con un costo unitario diretto di VL 7 e un coefficiente costi generali di VL 1. La data di registrazione è 01-01-20. Vengono creati i seguenti movimenti.  
 
-### <a name="item-ledger-entries-" />Movimenti contabili articoli (1)
+### <a name="item-ledger-entries-1" />Movimenti contabili articoli (1)
 
 |Data di registrazione|Tipo movimento|Importo costo (effettivo)|Quantità|Nr. movimento|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Acquisti|80,00|10|1|  
 
-### <a name="value-entries-" />Movimenti di valorizzazione (1)
+### <a name="value-entries-1" />Movimenti di valorizzazione (1)
 
 |Data di registrazione|Tipo movimento|Importo costo (effettivo)|Nr. movimento cont. articolo|Nr. movimento|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Costo Diretto|70.00|1|1|  
 |01-01-20|Costo indiretto|10,00|1|2|  
 
-### <a name="item-application-entries-" />Movimenti di collegamento articoli (1)
+### <a name="item-application-entries-1" />Movimenti di collegamento articoli (1)
 
 |Nr. movimento|Nr. movimento cont. articolo|Nr. movimento articolo in entrata|Nr. movimento articolo in uscita|Quantità|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ Nell'esempio seguente viene illustrato come i movimenti contabili articoli, i mo
 
  Successivamente, registrare una vendita di 10 unità dell'articolo con una data di registrazione di 01-15-20.  
 
-### <a name="item-ledger-entries-" />Movimenti contabili articoli (2)
+### <a name="item-ledger-entries-2" />Movimenti contabili articoli (2)
 
 |Data di registrazione|Tipo movimento|Importo costo (effettivo)|Quantità|Nr. movimento|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Vendite|-80,00|-10|2|  
 
-### <a name="value-entries-" />Movimenti di valorizzazione (2)
+### <a name="value-entries-2" />Movimenti di valorizzazione (2)
 
 |Data di registrazione|Tipo movimento|Importo costo (effettivo)|Nr. movimento cont. articolo|Nr. movimento|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Costo diretto|-80,00|2|3|  
 
-### <a name="item-application-entries-" />Movimenti di collegamento articoli (2)
+### <a name="item-application-entries-2" />Movimenti di collegamento articoli (2)
 
 |Nr. movimento|Nr. movimento cont. articolo|Nr. movimento articolo in entrata|Nr. movimento articolo in uscita|Quantità|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ Alla fine del periodo contabile, viene eseguito il processo batch **Registra cos
 
  Nelle seguenti tabelle viene mostrano il risultato della riconciliazione delle transazioni di magazzino in questo esempio con la contabilità generale.  
 
-### <a name="value-entries-" />Movimenti di valorizzazione (3)
+### <a name="value-entries-3" />Movimenti di valorizzazione (3)
 
 |Data di registrazione|Tipo movimento|Importo costo (effettivo)|Costo registrato in C/G|Nr. movimento cont. articolo|Nr. movimento|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ Alla fine del periodo contabile, viene eseguito il processo batch **Registra cos
 |01-01-20|Costo Indiretto|10,00|10,00|1|2|  
 |01-15-20|Costo diretto|-80,00|-80,00|2|3|  
 
-### <a name="general-ledger-entries-" />Movimenti C/G (3)
+### <a name="general-ledger-entries-3" />Movimenti C/G (3)
 
 |Data di registrazione|Conti C/G|Numero di conto (demo en-US)|Importo|Nr. movimento|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ Alla fine del periodo contabile, viene eseguito il processo batch **Registra cos
 
  La relazione tra i movimenti di valorizzazione e i movimenti di contabilità generale viene archiviata nella tabella **Relazione C/G - Mov. contabili art.**.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Movimenti di relazione nella C/G – Relazione Movimento Articolo (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Movimenti di relazione nella C/G – Relazione Movimento Articolo (3)
 
 |Nr. movimento C/G|Nr. movimento valorizzazione|Nr. registro C/G|  
 |-------------|---------------|----------------|  

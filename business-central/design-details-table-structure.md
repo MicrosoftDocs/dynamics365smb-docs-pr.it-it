@@ -13,7 +13,7 @@ ms.author: edupont
 # <a name="design-details-table-structure" />Dettagli di progettazione: Struttura della tabella
 Per comprendere in che modo i movimenti dimensione sono archiviati e registrati, è importante comprendere la struttura della tabella.  
 
-## <a name="table--dimension-set-entry" />Tabella 480, Movimento set di dimensioni
+## <a name="table-480-dimension-set-entry" />Tabella 480, Movimento set di dimensioni
 Non è possibile modificare questa tabella. Dopo avere scritto i dati nella tabella, non è possibile eliminarli o modificarli.
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
@@ -25,7 +25,7 @@ Non è possibile modificare questa tabella. Dopo avere scritto i dati nella tabe
 |5|**Nome dimensione**|Testo 30|CalcField. Vedere la tabella 348.|  
 |6|**Nome valore dimensioni**|Testo 30|CalcField. Vedere la tabella 349.|  
 
-## <a name="table--dimension-set-tree-node" />Tabella 481, Nodo albero set di dimensioni
+## <a name="table-481-dimension-set-tree-node" />Tabella 481, Nodo albero set di dimensioni
 Non è possibile modificare questa tabella. Viene utilizzata per cercare un set di dimensioni. Se il set di dimensioni non viene trovato, verrà creato un nuovo set.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
@@ -35,7 +35,7 @@ Non è possibile modificare questa tabella. Viene utilizzata per cercare un set 
 |3|**ID set di dimensioni**|Nr. intero|AutoIncrement. Utilizzato nel campo 1 della tabella 480.|  
 |4|**In uso**|Booleano|False se non in uso.|  
 
-## <a name="table--reclas-dimension-set-buffer" />Buffer set di dimensioni di riclassificazione tabella 482
+## <a name="table-482-reclas-dimension-set-buffer" />Buffer set di dimensioni di riclassificazione tabella 482
 Questa tabella viene utilizzata quando si modifica un codice valore di dimensioni, ad esempio, in un movimento contabile articolo utilizzando la pagina **Registrazioni riclassificazione articolo**.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
@@ -56,7 +56,7 @@ Oltre agli altri campi dimensione nella tabella, questo campo è importante:
 |---------------|----------------|---------------|-------------|  
 |480|**ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 
-### <a name="table--item-journal-line" />Tabella 83, Righe reg. magazzino
+### <a name="table-83-item-journal-line" />Tabella 83, Righe reg. magazzino
 Oltre agli altri campi dimensione nella tabella, questi campi sono importanti.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
@@ -64,7 +64,7 @@ Oltre agli altri campi dimensione nella tabella, questi campi sono importanti.
 |480|**ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 |481|**Nuovo ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 
-### <a name="table--dimension-value" />Tabella 349, Valore dimensioni
+### <a name="table-349-dimension-value" />Tabella 349, Valore dimensioni
 Oltre agli altri campi dimensione nella tabella, questi campi sono importanti.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  

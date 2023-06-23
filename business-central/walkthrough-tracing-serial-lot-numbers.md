@@ -282,7 +282,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
  Tramite la pagina **Tracciabilità articolo** il manager qualità ha stabilito che i telai da corsa difettosi appartenevano al LOTTO1, ha individuato il loro fornitore e le transazioni registrate in cui sono state utilizzate. Deve ora determinare se il LOTTO1 esiste in documenti aperti passando alla pagina **Trova movimenti** in cui può eseguire una ricerca in tutti i record di database.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />Per trovare tutte le occorrenze del LOTTO1 nei record non registrati, ad esempio ordini aperti
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />Per trovare tutte le occorrenze del LOTTO1 nei record non registrati, ad esempio ordini aperti
 
 1.  Nella pagina **Tracciabilità articolo** selezionare la prima riga di tracciabilità, la ricezione acquisti del LOTTO1.  
 2.  Scegliere l'azione **Trova movimenti**.  

@@ -116,7 +116,7 @@ Se stai usando Business Central on-premises, l'installazione dell'add-in potrebb
 
 Ora sei pronto per iniziare ad usare l'add-in in Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

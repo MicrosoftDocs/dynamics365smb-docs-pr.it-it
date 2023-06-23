@@ -49,7 +49,7 @@ Un nuovo campo, **Blocca eliminazione conti C/G**, è stato aggiunto alla pagina
 
 L'impostazione del campo **Blocca eliminazione conti C/G** su *sì* può essere considerata una procedura consigliata, così come l'impostazione della data nel campo **Verifica eliminazione conti C/G posteriori a**, ad esempio la data entro la quale ti viene richiesto di archiviare i dati finanziari.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

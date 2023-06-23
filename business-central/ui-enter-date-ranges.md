@@ -345,7 +345,7 @@ Per vedere quale unità di misura viene utilizzata in un campo di durata, immett
 
 Ad esempio, il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

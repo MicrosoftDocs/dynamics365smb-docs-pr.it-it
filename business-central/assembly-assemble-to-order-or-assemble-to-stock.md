@@ -96,7 +96,7 @@ Sulla base di questo esempio, è possibile modificare il campo **Quantità da as
 * La quantità minima che è possibile immettere è 1. È necessario assemblare almeno un'unità per poter vendere le quattro unità, presupponendo che le tre restanti siano disponibili in magazzino.  
 * La quantità massima che è possibile immettere è 4. Questo limite garantisce di non assemblare più articoli di quelli necessari per la vendita.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

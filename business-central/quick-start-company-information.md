@@ -27,7 +27,7 @@ Per aiutarti a far funzionare la tua azienda in [!INCLUDE[prod_short](includes/p
 
 Una volta completata la compilazione delle informazioni puoi chiudere la pagina.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

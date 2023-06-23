@@ -16,7 +16,7 @@ Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCL
 ## <a name="building-search-tree" />Creazione albero di ricerca
  La tabella 481 **Nodo albero set di dimensioni** viene utilizzata quando [!INCLUDE[prod_short](includes/prod_short.md)] valuta se un set di dimensioni esiste già nella tabella 480 **Voce set di dimensioni**. La valutazione viene eseguita in modo ricorsivo lungo l'albero di ricerca a partire dal livello massimo con numero 0. Il livello massimo 0 rappresenta un set di dimensioni senza movimenti di set di dimensioni. I figli di questo set di dimensioni rappresentano i set di dimensioni con un solo movimento set di dimensioni. I figli di questi set di dimensioni rappresentano i set di dimensioni con due elementi figlio e così via.  
 
-### <a name="example-" />Esempio 1
+### <a name="example-1" />Esempio 1
  Nel seguente diagramma viene rappresentato un albero di ricerca con sei set di dimensioni. Solo il movimento set di dimensioni distintivo viene visualizzato nel grafico.  
 
  ![Esempio di struttura ad albero dimensioni.](media/nav2013_dimension_tree.png "Esempio di struttura ad albero dimensioni")  
@@ -33,7 +33,7 @@ Quando si chiude la pagina dopo avere modificato un set di dimensioni, in [!INCL
 |Set 5|AREA 40|  
 |Set 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Esempio 2
+### <a name="example-2" />Esempio 2
  In questo esempio viene mostrato in che modo [!INCLUDE[prod_short](includes/prod_short.md)] valuta se è presente un set di dimensioni costituito da movimenti di set di dimensioni AREA 40, DEPT PROD.  
 
  [!INCLUDE[prod_short](includes/prod_short.md)] aggiorna prima di tutto anche la tabella **Nodo albero set di dimensioni** per assicurarsi che l'albero di ricerca somigli al diagramma seguente. Pertanto il set di dimensioni 7 diventa un figlio del set di dimensioni 5.  

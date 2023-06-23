@@ -39,7 +39,7 @@ Ci sono fondamentalmente due attività coinvolte nella creazione di un layout di
 1. Crea il nuovo file di layout di Excel.
 2. Aggiungi il nuovo layout al report.
 
-## <a name="task--create-the-excel-layout-file" />Attività 1. Crea il nuovo file di layout di Excel
+## <a name="task-1-create-the-excel-layout-file" />Attività 1. Crea il nuovo file di layout di Excel
 
 Esistono tre modi per creare un file di layout Excel per un report.
 
@@ -58,13 +58,13 @@ Segui questi passaggi per creare un layout di Excel da un report, indipendenteme
 
 Se esiste già un layout di Excel per un report, utilizza il layout esistente come punto di partenza. Esistono due approcci per ottenere una copia del layout. Puoi esportare il layout esistente dalla pagina **Layout report** o scaricare il layout dalla pagina di richiesta del report. In entrambi i modi scarichi un file di layout di Excel che include tutti i fogli del file esistente. La differenza è che quando lo scarichi dalla pagina della richiesta, il layout include i dati effettivi. I dati non sono necessari, ma aiutano durante la progettazione del layout.
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Approccio 1: esportare il layout dalla pagina **Layout report**
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Approccio 1: esportare il layout dalla pagina **Layout report**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Seleziona il layout di Excel dall'elenco, quindi scegli l'azione **Esporta layout** nella parte superiore della pagina.
 3. Apri il file in Excel, apporta le modifiche e salva il file.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Approccio 2: scaricare il layout dalla pagina di richiesta di report
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Approccio 2: scaricare il layout dalla pagina di richiesta di report
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Nella pagina **Layout report** seleziona un layout per il report quindi scegli l'azione **Esegui report**.
@@ -77,7 +77,7 @@ Questo è il metodo più avanzato per creare un layout di report di Excel. Poich
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Attività 2. Aggiungi il nuovo file di layout al report
+## <a name="task-2-add-the-excel-layout-to-the-report" />Attività 2. Aggiungi il nuovo file di layout al report
 
 Una volta ottenuto il file di layout di Excel, l'attività successiva consiste nell'aggiungerlo come nuovo layout per il report.
 

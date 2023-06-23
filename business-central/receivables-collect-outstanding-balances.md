@@ -107,7 +107,7 @@ All'emissione di un sollecito, nella pagina **Mov. soll./Note add. int.** viene 
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Per ulteriori informazioni, vedere [Impostare più tassi di interesse](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 

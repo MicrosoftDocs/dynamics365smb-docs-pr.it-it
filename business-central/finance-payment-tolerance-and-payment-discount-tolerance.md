@@ -89,7 +89,7 @@ Per impostazione di default, la tolleranza di pagamento è consentita. Per disat
 > [!NOTE]  
 > Se il cliente o il fornitore dispone di movimenti aperti, è necessario prima rimuovere la tolleranza di pagamento dai movimenti correntemente aperti.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Esempio 1: calcoli di tolleranza per un singolo documento
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Esempio 1: calcoli di tolleranza per un singolo documento
 
 Di seguito sono descritti alcuni scenari di esempio mirati a illustrare i calcoli e le registrazioni della tolleranza prevista eseguiti in diverse situazioni.  
 
@@ -127,7 +127,7 @@ Gli scenari con l'alternativa A o B rappresentano quanto segue:
 
 I diagrammi degli intervalli di pagamento per lo scenario sopra illustrato sono:  
 
-#### <a name="-payment-date--scenarios--" />(1) Data di pagamento <=15/01/03 (scenari 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Data di pagamento <=15/01/03 (scenari 1-3)
 
 Importo residuo in base a  
 
@@ -139,7 +139,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Data di pagamento tra il 16/01/03 e il 20/01/03 (scenari 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) Data di pagamento tra il 16/01/03 e il 20/01/03 (scenari 4-9)
 
 Importo residuo in base a  
 
@@ -151,7 +151,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) Data di pagamento dopo il 20/01/03 (scenari 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) Data di pagamento dopo il 20/01/03 (scenari 10-15)
 
 Importo residuo in base a  
 
@@ -163,7 +163,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Esempio 2: calcoli di tolleranza per più documenti
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Esempio 2: calcoli di tolleranza per più documenti
 
 Di seguito sono descritti alcuni scenari di esempio mirati a illustrare i calcoli e le registrazioni della tolleranza prevista eseguiti in diverse situazioni. Questi esempi contemplano solo gli scenari in cui tutti i movimenti del collegamento vengono chiusi.  
 
@@ -215,7 +215,7 @@ Gli scenari con l'alternativa A, B, C o D rappresentano quanto segue:
 
 I diagrammi degli intervalli di pagamento per lo scenario sopra illustrato sono:  
 
-#### <a name="-payment-date--scenarios--" />(1) Data di pagamento <=15/01/03 (scenari 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Data di pagamento <=15/01/03 (scenari 1-3)
 
 Importo residuo in base a  
 
@@ -227,7 +227,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Data di pagamento tra il 16/01/03 e il 17/01/03 (scenari 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) Data di pagamento tra il 16/01/03 e il 17/01/03 (scenari 4-9)
 
 Importo residuo in base a  
 
@@ -239,7 +239,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) Data di pagamento tra il 18/01/03 e il 20/01/03 (scenari 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) Data di pagamento tra il 18/01/03 e il 20/01/03 (scenari 10-21)
 
 Importo residuo in base a  
 
@@ -251,7 +251,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) Data di pagamento tra il 21/01/03 e il 22/01/03 (scenari 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) Data di pagamento tra il 21/01/03 e il 22/01/03 (scenari 22-27)
 
 Importo residuo in base a  
 
@@ -263,7 +263,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) Data di pagamento dopo il 22/01/03 (scenari 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) Data di pagamento dopo il 22/01/03 (scenari 28-30)
 
 Importo residuo in base a  
 
@@ -275,7 +275,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

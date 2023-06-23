@@ -58,7 +58,7 @@ Il seguente processo utilizza un ordine di vendita, ma i passaggi sono gli stess
 > [!NOTE]  
 > Un riferimento di articolo viene automaticamente inserito tra il numero di articolo del venditore e il tuo nuovo numero di articolo. Per ulteriori informazioni sui riferimenti agli articoli, vai a [Usare i riferimenti agli articoli](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

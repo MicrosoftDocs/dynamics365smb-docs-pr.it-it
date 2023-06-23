@@ -12,7 +12,7 @@ ms.date: 09/20/2022
 ms.author: bholtorf
 ---
 
-# <a name="use-the-amc-banking--fundamentals-extension" />Utilizzare l'estensione AMC Banking 365 Fundamentals
+# <a name="use-the-amc-banking-365-fundamentals-extension" />Utilizzare l'estensione AMC Banking 365 Fundamentals
 
 L'estensione AMC Banking 365 Fundamentals rende più semplice e preciso l'invio di dati alle banche. L'estensione connette [!INCLUDE[prod_short](includes/prod_short.md)] con AMC Banking 365 Fundamentals per Microsoft Dynamics 365 Business Central, che può convertire i dati bancari da [!INCLUDE[prod_short](includes/prod_short.md)] nei formati richiesti da oltre 600 banche in tutto il mondo. Ciò rende ad esempio più semplice il trasferimento di pagamenti e crediti ai fornitori immettendo i pagamenti in [!INCLUDE[prod_short](includes/prod_short.md)]e quindi caricandoli nella banca. I formati possono anche facilitare i processi di riconciliazione bancaria. Per ulteriori informazioni, vedere [AMC Banking per Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 

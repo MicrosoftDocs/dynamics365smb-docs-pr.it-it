@@ -92,7 +92,7 @@ La seguente procedura illustra come impostare una numerazione per l'area delle v
 
 Il numero selezionato risulterà utilizzato per compilare il campo **Nr.** nella scheda o nel documento in questione, in base alle impostazioni effettuate nella serie di numerazione.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesnumber-series-trail-codes-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesnumber-series-trail-codes-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedere anche
 

@@ -153,7 +153,7 @@ I campi nella scheda dettaglio **Avanzate** impostano le limitazioni sul report 
 > [!NOTE]
 > I valori massimi possono essere diversi per [!INCLUDE[prod_short](includes/prod_short.md)] in locale e un amministratore può modificarli. Per ulteriori informazioni, vedi [Configurazione di Business Central Server - Report](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Per una panoramica dei limiti dei report in [!INCLUDE[prod_short](includes/prod_short.md)] online, vedi [Limiti operativi](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

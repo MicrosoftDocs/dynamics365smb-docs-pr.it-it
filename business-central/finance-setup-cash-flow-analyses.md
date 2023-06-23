@@ -134,7 +134,7 @@ Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/pr
 7. Espandi la Scheda dettaglio **Azure per intelligenza artificiale** e quindi compila i campi, inclusi l'URL dell'API e la chiave API forniti da Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Nella Gestione ruolo utente Contabile, nel grafico **Previsione flusso di cassa**, scegli l'azione **Ricalcola previsione**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedere anche
 
