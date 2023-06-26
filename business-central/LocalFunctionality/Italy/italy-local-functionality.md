@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="italy-local-functionality" />Funzionalità locale per l'Italia
+# Funzionalità locale per l'Italia
 
 Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability" />Disponibilità della funzionalità
+## Disponibilità della funzionalità
 
 * IVA e ritenute
     * [IVA italiana](italian-vat.md)
@@ -28,6 +28,7 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Stampare e ristampare i libri giornale e i registri IVA](how-to-print-and-reprint-g-l-books-and-vat-registers.md) **Disponibile ora**
     * [Stampa di report Intrastat per l'Italia](how-to-print-intrastat-reports-for-italy.md) **Disponibile ora**
     * [Stampa report Ritenuta](how-to-print-withholding-tax-reports.md) **Disponibile ora**
+    * [Intrastat per i servizi in Italia](../../finance-how-setup-use-service-declaration.md) **Disponibile ora**
 
 * Attività bancarie e pagamenti
     * [Impostare le condizioni pagamento](how-to-set-up-payment-terms.md) **Disponibile ora**
@@ -57,20 +58,19 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Conto lavoro italiano](italian-subcontracting.md) **Disponibile ora**
     * [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md) **Disponibile ora**
 
-## <a name="future-legislation-requirements-being-investigated" />Futuri requisiti legislativi in fase di esame
+## Futuri requisiti legislativi in fase di esame
 
-* Intrastat per i servizi **maggio 2023**
-* IVA indetraibile ridisegnata e aggiornata **luglio 2023**
+* IVA non detraibile riprogettata e aggiornata: prevista per il **secondo ciclo di rilascio 2023**
 * Aggiornata Fatturazione elettronica (FatturaPA) **secondo ciclo di rilascio del 2024**
 
 Se sei a conoscenza di eventuali caratteristiche normative imminenti, invia un [Avviso sulle funzionalità normative](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also" />Vedi anche
+## Vedi anche
 
 [Utilizzare [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,10 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: how-to
-ms.date: 02/24/2023
+ms.date: 03/22/2023
 ms.custom: bap-template
+ms-service: dynamics365-business-central
 ---
-# <a name="manage-attachments-links-and-notes-on-cards-and-documents" />Gestire allegati, collegamenti e note in schede e documenti
+# Gestire allegati, collegamenti e note in schede e documenti
 
 Nella maggior parte delle pagine elenco, delle schede e dei documenti, puoi allegare file, aggiungere collegamenti e scrivere note nella scheda **Allegati** del riquadro **Dettaglio informazioni**. Il numero nel titolo della scheda indica quanti file, collegamenti o note allegati esistono per la scheda o il documento.
 
@@ -19,11 +20,13 @@ Allegati, collegamenti e note rimangono allegati alla scheda o al documento ment
 Puoi anche aggiungere allegati alle email che invii da [!INCLUDE [prod_short](includes/prod_short.md)]. Quando invii un'e-mail direttamente da un documento, ad esempio un'offerta di vendita, l'azione **Aggiungi file dal documento di origine** ti consente di scegliere i file da allegare. Puoi scegliere solo i file allegati al documento. Non puoi scegliere i file allegati alle righe.
 
 > [!NOTE]
-> Quando si spedisce e si fattura parzialmente una fattura di vendita o un ordine di acquisto, l'allegato verrà collegato solo alla fattura finale di quell'ordine. Allo stesso modo, quando si fattura utilizzando la funzione Differimenti, l'allegato viene collegato ai movimenti C/G per il documento, ma non per i movimenti di differimento.
+> Quando si spedisce e si fattura parzialmente una fattura di vendita o un ordine di acquisto, l'allegato verrà collegato solo alla fattura finale di quell'ordine. Allo stesso modo, quando si fattura utilizzando Differimenti, l'allegato viene collegato ai movimenti C/G per il documento, ma non per i movimenti di differimento.
 >
-> Se elimini un ordine prima che venga fatturato, viene rimosso anche l'allegato. Quando si fatturano ordini di acquisto utilizzando l'azione Ottieni righe di carico da una fattura di acquisto, l'allegato degli ordini di acquisto non viene aggiunto alla fattura di acquisto.
+> Se elimini un ordine prima che venga fatturato, viene rimosso anche l'allegato.
+>
+> Quando si usa l'azione **Ottieni righe di carico** da una fattura di acquisto, l'allegato del relativo ordine di acquisto non viene aggiunto alla fattura di acquisto.
 
-## <a name="to-attach-a-file-to-a-purchase-invoice" />Per allegare un file a una fattura acquisto
+## Per allegare un file a una fattura acquisto
 
 È possibile allegare un qualsiasi tipo di file, ad esempio testo, immagini o video, a una scheda, a un documento o a una riga di un documento. Ciò è utile, ad esempio, quando si desidera archiviare la fattura di un fornitore come file PDF nella relativa fattura acquisto in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -39,19 +42,21 @@ La seguente procedura è basata su una fattura di acquisto. I passaggi sono simi
 2. Apri la fattura di acquisto a cui vuoi allegare un file.
 3. Nel riquadro **Dettaglio informazioni**, apri la scheda **Allegati**.
 4. Scegliere il valore dietro il campo **Documenti**, ad esempio "0".
-5. Nella pagina **Documenti allegati**, nel campo **Allegato**, scegliere l'azione **Seleziona file**.
-6. Selezionare un file in qualsiasi posizione, quindi scegliere il pulsante **Apri**.
+5. Nella pagina **Documenti allegati**, nel campo **Allegato**.
+6. Nella finestra di dialogo **Allega un documento**, esegui una delle seguenti operazioni per allegare un file:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
 Il file è ora allegato alla fattura acquisto.
 
-## <a name="to-view-an-attached-file" />Per visualizzare il file allegato
+## per visualizzare il file allegato
 
-1. Nel riquadro **Dettaglio informazioni**, apri la scheda **Allegati**.
+1. Nel riquadro Dettaglio informazioni, apri la scheda **Allegati**.
 2. Scegliere il valore dietro il campo **Documenti**, ad esempio "1".
 3. Nella pagina **Documenti allegati** scegliere l'azione **Anteprima**.
 4. Aprire il file scaricato.
 
-## <a name="to-save-a-document-as-a-pdf-attachment" />Per salvare un documento come allegato PDF
+## Per salvare un documento come allegato PDF
 
 Ogni volta che è necessario salvare un documento come file, è possibile utilizzare l'azione **Allega come PDF** per acquisire il contenuto del documento corrente come file PDF allegato al riquadro Dettaglio informazioni del documento. Ciò è utile, ad esempio, quando i documenti seguono più passaggi in un processo, come un processo di vendita o un flusso di lavoro di approvazione, e si desidera fare riferimento a una stampa del passaggio precedente.
 
@@ -62,7 +67,7 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 Un file PDF con il contenuto corrente dell'ordine cliente viene aggiunto alla scheda **Allegati** nel riquadro Dettaglio informazioni.
 
-## <a name="to-add-a-link-from-an-item-card" />Per aggiungere un collegamento da una scheda articolo
+## Per aggiungere un collegamento da una scheda articolo
 
 È possibile aggiungere un link da una scheda o da un documento a qualsiasi URL. Ciò è utile, ad esempio, quando si desidera collegare una scheda articolo al catalogo articoli del fornitore.
 
@@ -80,7 +85,7 @@ La procedura seguente è basata su una scheda articolo. I passaggi sono simili p
 
 Il collegamento è ora allegato alla scheda articolo.  
 
-## <a name="to-write-a-note-on-a-sales-order" />Per scrivere una nota in un ordine cliente
+## Per scrivere una nota in un ordine cliente
 
 È possibile scrivere una nota in un documento o una scheda, ad esempio, per comunicare istruzioni speciali ad altri utenti del documento o della scheda. È possibile includere URL e collegamenti a file nelle note.
 
@@ -97,7 +102,7 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 La nota è ora allegata all'ordine cliente.
 
-## <a name="see-also" />Vedere anche
+## Vedere anche  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documenti in entrata](across-income-documents.md)  
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  

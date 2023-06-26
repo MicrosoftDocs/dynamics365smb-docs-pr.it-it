@@ -1,11 +1,9 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 06/15/2023
+ms.author: bholtorf
 ---
-> [!IMPORTANT]
->
-> Vuoi sapere quali sono le funzionalità imminenti e rilasciate di recente in Dynamics 365 Business Central?
->
-> [Leggi l'ultima versione del piano di rilascio](/dynamics365/release-plans/). Tutti i dettagli completi sono stati raccolti in un unico PDF che è possibile utilizzare per la pianificazione. Per ogni versione, è possibile ottenere il piano di rilascio in un unico PDF.
+Vuoi sapere quali sono le funzionalità imminenti e rilasciate di recente in [!INCLUDE [prod_short](prod_short.md)]? I nostri piani di rilascio forniscono una panoramica delle funzionalità nuove e imminenti. Tutti i dettagli completi sono stati raccolti in un unico PDF che è possibile utilizzare per la pianificazione. Per ogni versione, è possibile scaricare il piano di rilascio in formato PDF.
+
+In questa documentazione, vengono forniti articoli con informazioni sulle funzionalità nuove ed esistenti nella versione predefinita di [!INCLUDE [prod_short](prod_short.md)].
