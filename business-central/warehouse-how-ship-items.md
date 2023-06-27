@@ -113,7 +113,7 @@ Dopo che la spedizione warehouse è stata registrata, i vari campi della riga or
 >
 > La quantità assemblaggio su ordine viene gestita come descritto in questo articolo. La quantità di magazzino viene gestita come una normale riga di spedizione warehouse. Per informazioni sugli scenari di combinazione, vedi [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

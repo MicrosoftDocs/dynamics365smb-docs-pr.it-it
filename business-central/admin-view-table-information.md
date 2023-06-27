@@ -17,7 +17,7 @@ La pagina **8700 Informazioni sulla tabella** fornisce informazioni sul numero d
 
 Queste informazioni sono utili per la risoluzione dei problemi di prestazioni, perché consente di vedere la distribuzione delle dimensioni dei dati tra le tabelle.
 
-## <a name="viewing-table-information" />Visualizzazione di Informazioni tabella
+## <a name="viewing-table-information-1" />Visualizzazione di Informazioni tabella
 
 Per aprire questa pagina, seleziona l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Informazioni tabella**, quindi scegli il collegamento correlato.
 

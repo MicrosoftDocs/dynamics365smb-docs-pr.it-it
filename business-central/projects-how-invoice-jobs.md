@@ -60,7 +60,7 @@ Nella procedura che segue viene mostrato come utilizzare un processo batch per f
 > [!NOTE]  
 >   La procedura sopra riportata è simile per la creazione, la revisione e la registrazione di una nota di credito di vendita correlata a una commessa.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Vedi il relativo [training Microsoft](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Vedere anche
 

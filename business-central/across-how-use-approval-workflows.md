@@ -78,7 +78,7 @@ La funzione **Invia notifiche di approvazione scadute** cerca tutte le richieste
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Richieste di approvazione scadute**, quindi scegli il collegamento correlato.
 2. Nella pagina **Richieste di approvazione scadute**, scegliere l'azione **Invia notifiche di approvazioni scadute**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Vedi il relativo [training Microsoft](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Vedere anche
 

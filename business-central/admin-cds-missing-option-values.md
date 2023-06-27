@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Tutti i valori di enumerazione di [!INCLUDE[prod_short](includes/prod_short.md)] precedenti sono mappati ai set di opzioni in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />Estensione dei set di opzioni in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="extending-option-sets-in-" />Estensione dei set di opzioni in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Crea una nuova estensione AL.
 
 2. Aggiungi un'estensione Enum per le opzioni che desideri estendere. Assicurati di utilizzare lo stesso valore. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > I primi dieci caratteri dei nomi e delle didascalie della nuova opzione devono essere univoci. Ad esempio, due opzioni denominate "Trasferimento 20 giorni lavorativi" e "Trasferimento 20 giorni di calendario" causeranno un errore perché entrambi hanno gli stessi primi 10 caratteri, "Trasferimento 2". Denominali, ad esempio "TRF20 WD" e "TRF20 CD".
 
-### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />Aggiornare la mappatura delle opzioni [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="update--option-mapping" />Aggiornare la mappatura delle opzioni [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Ora puoi ricreare la mappatura tra le opzioni [!INCLUDE[prod_short](includes/cds_long_md.md)] e i record [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Nella pagina **Mapping tabella integrazione**, scegli la riga per il mapping **Condizioni pagamento**, quindi scegliere l'azione **Sincronizza record modificati**. La pagina **Mappatura opzione Dataverse** viene aggiornata con i record aggiuntivi di seguito.

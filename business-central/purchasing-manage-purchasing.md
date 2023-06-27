@@ -43,7 +43,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 
@@ -54,7 +54,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

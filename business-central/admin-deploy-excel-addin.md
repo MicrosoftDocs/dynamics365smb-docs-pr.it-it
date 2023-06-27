@@ -35,7 +35,7 @@ Per l'utente finale, l'esperienza di installazione è diversa per i due scenari 
 
 Con entrambe queste opzioni di distribuzione, il componente aggiuntivo viene configurato automaticamente per connettersi a [!INCLUDE[prod_short](includes/prod_short.md)]. Una terza opzione di distribuzione è un'installazione manuale del componente aggiuntivo direttamente da Excel. Con questa opzione, gli utenti dovranno configurare il componente aggiuntivo a cui connettersi [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Passare dall'acquisizione individuale alla distribuzione centralizzata o viceversa
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Passare dall'acquisizione individuale alla distribuzione centralizzata o viceversa
 
 Quando si passa dall'acquisizione individuale del componente aggiuntivo alla distribuzione centralizzata, o viceversa, i file Excel che gli utenti hanno creato prima della transizione sono interessati. Dopo la transizione, gli utenti possono ancora aprire qualsiasi foglio di lavoro Excel precedentemente creato utilizzando l'azione **Modifica in Excel** o creato manualmente configurando l'add-in Excel. Ma non possono aggiornare i dati nel file da Business Central o spingere gli aggiornamenti a Business Central
 
@@ -87,7 +87,7 @@ Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amm
 > [!NOTE]
 > Può richiedere fino a 24 ore prima che gli utenti l'add-in distribuisce automaticamente in Excel di utenti.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Acquisizione individuale: Installare manualmente l'add-in per uso personale
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Acquisizione individuale: Installare manualmente l'add-in per uso personale
 
 Nella maggior parte dei casi, quando aprirai Excel da Business Central, l'add-in verrà installato automaticamente per te o ti verrà richiesto di installarlo. Ci potrebbero essere casi, tuttavia, in cui è necessario installare manualmente l'add-in.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

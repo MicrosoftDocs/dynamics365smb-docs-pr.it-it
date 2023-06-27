@@ -26,11 +26,11 @@ Molto probabilmente mancano le autorizzazioni per gli oggetti per le tabelle a c
 
 ## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />L'accesso Microsoft 365 è stato abilitato, ma gli utenti ricevono un errore di autorizzazione
 
-### <a name="symptoms" />Sintomi
+### <a name="symptoms-1" />Sintomi
 
 L'accesso con Microsoft 365 è stato abilitato nell'interfaccia di amministrazione di Business Central, ma gli utenti ricevono un errore di autorizzazione quando accedono a qualsiasi record.
 
-### <a name="cause" />Causa
+### <a name="cause-1" />Causa
 
 Se si abilita l'accesso nell'interfaccia di amministrazione di Business Central, ma non si assegnano le autorizzazioni nella pagina **Configurazione licenza**, chiunque tenti di accedere ai record di Business Central in Teams avrà il proprio record utente fornito senza autorizzazione per alcun oggetto. Business Central è sicuro per impostazione predefinita: gli amministratori devono prima configurare a quali dati è possibile accedere in Teams. 
 
@@ -40,25 +40,25 @@ La personalizzazione delle autorizzazioni nella pagina Configurazione licenza in
 
 ## <a name="you-shared-a-link-in-teams-but-users-get-a-message-that-they-can-only-view-data" />Hai condiviso un collegamento in Teams, ma gli utenti ricevono un messaggio che li informa che possono solo visualizzare i dati
 
-### <a name="symptoms" />Sintomi
+### <a name="symptoms-2" />Sintomi
 
 Quando condividi un collegamento in Teams come utente Business Central, altri ricevono l'errore "Quando si accede a Business Central con una licenza Microsoft 365, puoi solo visualizzare i dati in Microsoft Teams".
 
-### <a name="cause" />Causa
+### <a name="cause-2" />Causa
 
 Quando si condivide un collegamento di Business Central a una chat o a un canale di Teams, il raggiungimento di un collegamento uscirà sempre da Microsoft Teams qualora i dati non diventino più accessibili a un utente che dispone di una licenza Microsoft 365.
 
-### <a name="resolution" />Risoluzione
+### <a name="resolution-1" />Risoluzione
 
 Quando condividi pagine o record, includi l'anteprima del collegamento come scheda o condividi i dati come scheda nella chat o nel canale.
 
 ## <a name="card-from-shared-link-is-minimal-and-doesnt-include-details-button" />La scheda dal collegamento condiviso è ridotta al minimo e non include il pulsante Dettagli
 
-### <a name="symptoms" />Sintomi
+### <a name="symptoms-3" />Sintomi
 
 Quando un titolare della licenza Microsoft 365 senza licenza Business Central condivide un collegamento Business Central in Teams, si espande automaticamente in una scheda che non contiene informazioni utili e mostra solo Business Central senza il pulsante **Dettagli**.
 
-### <a name="cause" />Causa
+### <a name="cause-3" />Causa
 
 Gli utenti che dispongono di una licenza Microsoft 365 ma non di una licenza Business Central non sono autorizzati a condividere collegamenti come schede. Se l'utente ha installato l'app Business Central per Teams e incolla un collegamento nell'area di composizione, viene visualizzata solo una scheda ridotta al minimo. 
 

@@ -47,7 +47,7 @@ Il video seguente illustra le nozioni di base dei cespiti.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also" />Vedere anche
 
@@ -57,7 +57,7 @@ Il video seguente illustra le nozioni di base dei cespiti.
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

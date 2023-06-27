@@ -139,7 +139,7 @@ Tutti i movimenti correlati a una commessa vengono annotati nei registri commess
 
 Nella pagina **Movimenti cont. commesse** è possibile esaminare le voci associate a qualsiasi commessa.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Trova il relativo [training Microsoft](/training/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training" />Trova il relativo [training Microsoft](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Vedere anche
 

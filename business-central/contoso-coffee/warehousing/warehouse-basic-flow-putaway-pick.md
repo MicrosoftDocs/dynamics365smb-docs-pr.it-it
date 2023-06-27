@@ -119,10 +119,10 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse 
 
 Nella seguente procedura dettagliata viene dimostrato il metodo B nella tabella precedente.
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 Susan, la responsabile degli ordini, crea un ordine di vendita per vari chicchi tostati e lo passa al magazzino. Gianni, il lavoratore warehouse deve assicurarsi che la spedizione sia preparata e consegnata al cliente. Gianni gestisce tutte le attività interessate nella pagina **Prelievo magazzino** che automaticamente punta alle collocazioni in cui vengono archiviati i chicchi tostati.
 
-### <a name="steps" />Passaggi
+### <a name="steps-1" />Passaggi
 Questa è la continuazione di [Flusso in entrata: ricezione e stoccaggio nelle configurazioni di warehouse di base](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Imposta la pagina **Scheda ubicazione** per definire i flussi della warehouse in entrata della società.  
@@ -159,7 +159,7 @@ Questa è la continuazione di [Flusso in entrata: ricezione e stoccaggio nelle c
 
 5. Scegliere l'azione **Registra**, selezionare **Spedizione**, quindi scegliere il pulsante **OK**.  
 
-### <a name="results" />Risultati
+### <a name="results-1" />Risultati
  - I chicchi tostati sono ora registrati come prelevati da collocazioni specifiche
  - Viene creato il **prelievo magazzino registrato**
  - Viene creata la **spedizione vendita registrata**

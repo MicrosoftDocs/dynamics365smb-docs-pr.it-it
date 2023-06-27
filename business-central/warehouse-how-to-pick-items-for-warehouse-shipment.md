@@ -111,7 +111,7 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
 Ora puoi immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella pagina **Spedizione warehouse**. Per ulteriori informazioni vedi [Spedire articoli](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespick-ship-items-warehouse" />Vedi il relativo [training Microsoft](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also" />Vedere anche
 

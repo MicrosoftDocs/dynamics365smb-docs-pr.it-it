@@ -10,13 +10,13 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# Iniziare a usare il connettore Shopify
+# <a name="get-started-with-the-shopify-connector" />Iniziare a usare il connettore Shopify
 
 Collega il tuo negozio (o negozi) Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)] e massimizza la produttività della tua azienda. Gestisci e visualizza le informazioni dettagliate della tua azienda e del tuo negozio Shopify come un'unica unità.
 
 Per usare Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)], devi prima fare un paio di cose. Questo articolo funge da guida per integrare il tuo negozio Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## Prerequisiti per Shopify
+## <a name="prerequisites-for-shopify" />Prerequisiti per Shopify
 
 Devi avere:
 
@@ -25,7 +25,7 @@ Devi avere:
 
 Scopri di più su come creare valutazioni di prova e impostazioni consigliate Shopify in [Creare e configurare l'account Shopify](shopify-account.md).
 
-## Prerequisiti per Business Central
+## <a name="prerequisites-for-business-central" />Prerequisiti per Business Central
 
 - Assicurati che l'app **[Connettore Shopify](https://go.microsoft.com/fwlink/?linkid=2196238)** sia installata.
 
@@ -33,7 +33,7 @@ Scopri di più su come creare valutazioni di prova e impostazioni consigliate Sh
 
 - Assicurati che l'utente disponga di autorizzazioni corrette. Il connettore Shopify è coperto dal set di autorizzazioni **Shopify – Amministrazione (SHPFY – ADMIN)** . Ulteriori informazioni in [Creare utenti in base alle licenze](../ui-how-users-permissions.md) e [Assegnare autorizzazioni a utenti e gruppi](../ui-define-granular-permissions.md).
 
-## Installa l'app Dynamics 365 Business Central nel tuo negozio Shopify online
+## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store" />Installa l'app Dynamics 365 Business Central nel tuo negozio Shopify online
 
 Per le istanze esistenti di [!INCLUDE[prod_short](../includes/prod_short.md)], questo passaggio è facoltativo e può essere saltato.
 
@@ -45,7 +45,7 @@ Per le istanze esistenti di [!INCLUDE[prod_short](../includes/prod_short.md)], q
 4. Scegli **Iscriviti ora** per iniziare una versione di valutazione di [!INCLUDE[prod_short](../includes/prod_short.md)] o **accedi** se hai già [!INCLUDE[prod_short](../includes/prod_short.md)]. Verrà eseguito il reindirizzamento alla pagina [Business Central](https://businesscentral.dynamics.com).
 5. In [!INCLUDE[prod_short](../includes/prod_short.md)] effettua i seguenti passaggi.
 
-## Collegamento di Business Central al negozio online Shopify
+## <a name="connect-business-central-to-the-shopify-online-store" />Collegamento di Business Central al negozio online Shopify
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") icona, immetti **Negozio Shopify**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Nuovo**.  
@@ -56,13 +56,13 @@ Per le istanze esistenti di [!INCLUDE[prod_short](../includes/prod_short.md)], q
 
 Ripeti i passaggi 2-6 per tutti i negozi online che si desidera collegare.
 
-### Problemi noti
+### <a name="known-issues" />Problemi noti
 
 - Il browser blocca la finestra pop-up. Quando attivi l'interruttore **Abilitato**, [!INCLUDE [prod_short](../includes/prod_short.md)] si apre nella pagina **In attesa di risposta - non chiudere questa pagina** mentre attende un token di accesso da Shopify. Se quella pagina è chiusa o bloccata, non puoi connetterti a Shopify. Ulteriori informazioni in [Richiedere il token di accesso](troubleshoot.md#request-the-access-token)
 - [Errore Oauthinvalid_request: impossibile trovare l'API per l'applicazione Shopify con api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
 - [Impossibile connettersi dalla sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
-## Passaggi successivi
+## <a name="next-steps" />Passaggi successivi
 
 Ora il tuo negozio online è connesso a [!INCLUDE[prod_short](../includes/prod_short.md)]. Nei passaggi successivi definirai come e cosa sincronizzare.
 
@@ -70,7 +70,7 @@ Ora il tuo negozio online è connesso a [!INCLUDE[prod_short](../includes/prod_s
 - [Sincronizzare clienti](synchronize-customers.md)
 - [Sincronizzare ordini](synchronize-orders.md)
 
-## Strategie di test
+## <a name="testing-strategies" />Strategie di test
 
 Esistono diversi approcci per testare un'integrazione e ogni approccio ha i suoi pro e contro.
 
@@ -78,13 +78,13 @@ Puoi collegare i conti [!INCLUDE[prod_short](../includes/prod_short.md)] e Shopi
 
 È facile ripetere i test di sincronizzazione. Il connettore consente di eliminare i dati importati, come prodotti, clienti e ordini, e quindi importarli nuovamente. Basta solo [reimpostare la sincronizzazione](troubleshoot.md#reset-sync).
 
-### Sandbox Shopify e sandbox Business Central
+### <a name="shopify-sandbox-and-business-central-sandbox" />Sandbox Shopify e sandbox Business Central
 
 Questo è probabilmente il modo più sicuro per testare l'integrazione. Invece di utilizzare una sandbox Shopify puoi anche utilizzare un abbonamento di prova o un punto vendita per lo sviluppo. In [!INCLUDE[prod_short](../includes/prod_short.md)], puoi anche utilizzare un'azienda di test in un ambiente di produzione.
 
 Per ulteriori informazioni sulle sandbox [!INCLUDE[prod_short](../includes/prod_short.md)], vai a [Creare un nuovo ambiente](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
-### Sandbox Shopify e produzione Business Central
+### <a name="shopify-sandbox-and-business-central-production" />Sandbox Shopify e produzione Business Central
 
 Questa *non è* una configurazione consigliata per il test perché il connettore Shopify può creare o modificare articoli e clienti. Può anche creare documenti di vendita come ordini e fatture. Questi documenti possono essere difficili da annullare.
  
@@ -98,7 +98,7 @@ Se devi utilizzare questa configurazione, ti consigliamo di rivedere e probabilm
 
 Per ulteriori informazioni, vedi [Ripristino di un ambiente](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 
-### Produzione Shopify e sandbox Business Central
+### <a name="shopify-production-and-business-central-sandbox" />Produzione Shopify e sandbox Business Central
 
 Potrebbe essere una buona idea eseguire il backup dei dati. Ad esempio, esporta i tuoi prodotti e clienti. Per ulteriori informazioni, vedi [Utilizzo di file CSV per eseguire il backup delle informazioni del punto vendita](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
@@ -109,9 +109,9 @@ Se mantieni abilitata l'opzione **Consenti sincronizzazione dati a Shopify** le 
 *   Seleziona **Bozza** nel campo **Stato per creazione prodotto** per assicurarti che i prodotti esportati non siano disponibili per gli acquirenti. Puoi verificare l'aspetto dei prodotti nel negozio online, sincronizzare prezzi, opzioni e livelli delle scorte. Assicurati di utilizzare i filtri nella pagina **Aggiungi articolo a Shopify** per limitare il numero di articoli esportati.
 * Disattiva l'interruttore **Esporta cliente in Shopify** in modo da non inviare clienti a Shopify.
 
-## Vedi il relativo [training Microsoft](/training/paths/use-shopify-connector-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Procedura dettagliata: Impostazione e utilizzo di un connettore Shopify](walkthrough-setting-up-and-using-shopify.md)  
 

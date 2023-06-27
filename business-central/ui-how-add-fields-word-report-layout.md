@@ -37,7 +37,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
 > [!NOTE]  
 >  Non è possibile modificare layout di report predefiniti<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>Per aprire la parte XML personalizzata per il report in Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>Per aprire la parte XML personalizzata per il report in Word
   
 1. Se non è già aperto, aprire il documento di layout di report Word in Word.  
   
@@ -103,7 +103,7 @@ Le immagini vengono allineate all'angolo in alto a sinistra del controllo conten
   
 3. Per aumentare o diminuire la dimensione dell'immagine, trascinare un quadratino di ridimensionamento verso il centro o lontano dal centro del controllo contenuto.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Rimuovere i campi etichetta e dati
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Rimuovere i campi etichetta e dati
 
 I campi etichetta e dati di un report sono contenuti nei controlli contenuto di Word. La figura seguente illustra un controllo contenuto quando è selezionato nel documento Word.  
 

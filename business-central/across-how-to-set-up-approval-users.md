@@ -48,7 +48,7 @@ Una volta impostati questi utenti, è possibile creare le risposte del flusso di
 3. Per testare l'impostazione degli utenti per l'approvazione, scegliere l'azione **Test Setup utente approvazione**.  
 4. Ripetere i passaggi 2 e 3 per ogni persona che si desidera impostare come utente di approvazione.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Vedere anche
 

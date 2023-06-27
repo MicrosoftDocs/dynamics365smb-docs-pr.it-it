@@ -80,7 +80,7 @@ Il pacchetto di configurazione di default supporta le seguenti tabelle:
 [Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)  
 [Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -91,7 +91,7 @@ I movimenti contabili cliente e articolo sono ora creati nel sistema e l'ordine 
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

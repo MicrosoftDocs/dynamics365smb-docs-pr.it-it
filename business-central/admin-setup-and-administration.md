@@ -54,7 +54,7 @@ Gli amministratori interni e delegati hanno accesso all'interfaccia di amministr
 |Gestire le sessioni utente, inclusa l'annullamento di una sessione se l'utente è bloccato.|[Gestire sessioni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configurare il tenant per inviare i dati di telemetria ad Azure Application Insights per una migliore analisi e risoluzione dei problemi.|[Abilitare l'invio della telemetria ad Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 
@@ -63,7 +63,7 @@ Gli amministratori interni e delegati hanno accesso all'interfaccia di amministr
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

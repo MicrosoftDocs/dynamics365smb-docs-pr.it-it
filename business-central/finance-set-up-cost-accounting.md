@@ -189,7 +189,7 @@ Per ogni conto di contabilità generale, è possibile definire i valori dimensio
 > [!NOTE]  
 >  Per garantire che il centro di costo e l'oggetto di costo predefiniti impostati nella contabilità generale vengano riportati automaticamente nella contabilità industriale, selezionare la casella di controllo **Verifica registrazioni CG** nella pagina Setup contabilità industriale.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

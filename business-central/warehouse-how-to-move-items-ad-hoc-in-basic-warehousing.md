@@ -89,7 +89,7 @@ Anziché utilizzare documenti di movimento, puoi registrare i movimenti riclassi
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Vedi il relativo [training Microsoft](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Vedere anche
 

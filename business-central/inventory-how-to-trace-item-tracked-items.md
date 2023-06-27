@@ -59,7 +59,7 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 3. Nei campi **Nr. lotto** e **Nr. seriale**, immettere i numeri di tracciabilità articolo che si desidera analizzare.  
 4. Scegliere l'azione **Trova** per trovare tutte le istanze del numero seriale o di lotto nel database.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Vedere anche
 

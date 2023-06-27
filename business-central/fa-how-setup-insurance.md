@@ -55,7 +55,7 @@ I batch possono essere impostati in una definizione registrazioni assicurazioni.
 > [!NOTE]  
 >   I numeri hanno una funzione speciale nei nomi delle registrazioni. Se il nome definizione registrazioni o un nome batch registrazioni contiene un numero, quest'ultimo viene automaticamente incrementato di una unità ogni volta che le registrazioni vengono contabilizzate. Se ad esempio si immette HH1 nel campo **Nome**, il nome della registrazione verrà modificato in HH2 dopo la contabilizzazione della registrazione denominata HH1.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Vedere anche
 

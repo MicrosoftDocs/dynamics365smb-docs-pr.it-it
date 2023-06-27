@@ -234,7 +234,7 @@ Per visualizzare un gruppo di certificati, si inizia dalla pagina **Certificati 
 > * Per creare manualmente un certificato di fornitura  
 > * Per stampare un certificato di fornitura.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 

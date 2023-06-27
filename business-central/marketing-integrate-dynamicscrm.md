@@ -138,7 +138,7 @@ Per sincronizzare i listini prezzi, nella pagina **Listino prezzi di vendita** s
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)    
 [Panoramica di Sales e dell'Hub delle vendite](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

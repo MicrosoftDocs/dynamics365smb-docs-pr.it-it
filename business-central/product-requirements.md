@@ -53,7 +53,7 @@ Prima di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] online, si co
 
 **Modifica in Excel**: per utilizzare il componente aggiuntivo Excel per apportare modifiche e quindi inoltrare le modifiche di nuovo a [!INCLUDE[prod_short](includes/prod_short.md)], è necessario Excel 2019 o versione successiva. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Utilizzo dell'interfaccia di amministrazione di Business Central
+## <a name="using-the-business-central-administration-center" /><a name="TAC"></a> Utilizzo dell'interfaccia di amministrazione di Business Central
 
 L'Interfaccia di amministrazione è progettata per funzionare con la versione corrente dei seguenti browser:
 

@@ -49,7 +49,7 @@ Ad esempio, è possibile impostare che l'utente 2, l'utente responsabile dell'ap
 
   Per i workflow di approvazione, aggiungere un passaggio di risposta del workflow per notificare al mittente quando la richiesta è stata approvata o rifiutata. Scopri di più dal passaggio 9 nella sezione [Creare workflow](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Vedere anche
 

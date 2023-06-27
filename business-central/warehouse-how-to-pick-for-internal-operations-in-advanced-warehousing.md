@@ -167,7 +167,7 @@ Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione**
 
 :::image type="content" source="media/binflow.png" alt-text="Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.":::
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

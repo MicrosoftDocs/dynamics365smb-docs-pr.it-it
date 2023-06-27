@@ -96,7 +96,7 @@ Dopo avere registrato le righe di registrazione commessa registrate, è possibil
 2. Selezionare una registrazione commessa corrispondente, quindi scegliere l'azione **Mov. contabili**.  
 3. Nella pagina **Movimenti contabili commesse** scegliere l'azione **Mostra righe pianificazione commessa collegate**.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Vedi il relativo [training Microsoft](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Vedere anche
 

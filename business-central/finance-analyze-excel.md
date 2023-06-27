@@ -44,13 +44,13 @@ I report di Excel predefiniti si basano sui dati dell'azienda attuale. Ad esempi
 
 Altri fogli nella cartella di lavoro di Excel mostrano i dati utilizzati per il report. Per scoprire cosa c'è dietro i raggruppamenti nei report di Excel, potrebbe essere necessario filtrare gli elenchi in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />Componente aggiuntivo per Excel [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="the--excel-add-in" />Componente aggiuntivo per Excel [!INCLUDE [prod_short](includes/prod_short.md)]
 
 L'esperienza [!INCLUDE [prod_short](includes/prod_short.md)] include un componente aggiuntivo per Excel. A seconda della sottoscrizione, esegui l'accesso automaticamente oppure devi specificare i dettagli di accesso per [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Visualizzare e modificare in Excel da Business Central](across-work-with-excel.md).  
 
 Il componente aggiuntivo ti consente di ottenere dati aggiornati da [!INCLUDE [prod_short](includes/prod_short.md)], e importare nuovamente le modifiche in [!INCLUDE [prod_short](includes/prod_short.md)]. Tuttavia, la funzionalità che consente di importare nuovamente i dati nel database non è disponibile per i report finanziari di Excel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

@@ -88,7 +88,7 @@ Quando si registra il giornale di registrazione di riconciliazione pagamenti, i 
 > [!NOTE]  
 >   Se non si desidera riconciliare il conto bancario dalla pagina **Registrazione riconciliazione pagamenti**, è necessario utilizzare la pagina **Riconciliazioni C/C bancari**. Per ulteriori informazioni, vedere [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -71,7 +71,7 @@ Quando gli utenti vengono creati in Microsoft 365, possono essere importarli nel
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Per ulteriori informazioni, vedere [Risorse per Guida e supporto](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Configurare la società in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-" />Configurare la società in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Gli articoli di [avvio rapido](quick-start-business-central.md) possono aiutarti a fare i primi passi nell'impostazione di [!INCLUDE [prod_short](includes/prod_short.md)] per la tua organizzazione. All'interno di [!INCLUDE [prod_short](includes/prod_short.md)], la pagina **Setup assistito** elenca le guide di setup assistito che possono aiutarti. A seconda del proprio ruolo e paese, la pagina mostra diverse guide al setup assistito come illustrato nella tabella seguente:
 
@@ -112,6 +112,6 @@ Sulla base dei dati migrati, è possibile passare alla creazione di nuovi docume
 [Migrazione dei dati](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Versioni di valutazione e sottoscrizioni](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

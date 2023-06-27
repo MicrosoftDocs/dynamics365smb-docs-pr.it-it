@@ -70,7 +70,7 @@ Di seguito sono riepilogate le specifiche per i caratteri MICR CMC-7 che possono
 
 ![Specifiche MICR CMC-7.](media/font_MICR_CMC-7_Specifications.png "Specifiche MICR CMC-7")
 
-### <a name="delimiter-characters" />Caratteri delimitatori
+### <a name="delimiter-characters-1" />Caratteri delimitatori
 
 ![Caratteri delimitatori per CMC-7.](media/font-cmc7-letters.png "Caratteri delimitatori per CMC-7")
 

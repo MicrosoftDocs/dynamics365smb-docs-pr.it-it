@@ -28,7 +28,7 @@ Se [!INCLUDE [prod_short](includes/prod_short.md)] include più società, i tuoi
 
 Ci sono alcune funzioni che puoi utilizzare per passare da una società all'altra mentre lavori, come il selettore società (<kbd>CTRL</kbd>+<kbd>O</kbd>). Per ulteriori informazioni, vedi [Passare a un'altra società o ambiente](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Visualizzare un badge società
+## <a name="display-a-company-badge" /><a name="badge"></a>Visualizzare un badge società
 
 Quando c'è più di una società o un ambiente, vedrai il selettore società nella parte in alto a destra della barra dell'app, vicino all'icona di ricerca nella barra dell'app. Per impostazione predefinita, il selettore società utilizza un'icona di società standard, come ![icona di avvio della società.](media/ui-experience/company-icon.png "Visualizza l'icona del selettore società utilizzata quando è presente un unico ambiente") e ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Visualizza l'icona del selettore società utilizzata quando sono presenti più ambienti").
 
@@ -54,7 +54,7 @@ Il nome della società viene sempre visualizzato nell'angolo in alto a sinistra 
 
 L'esperienza utente predefinita in una versione di prova di [!INCLUDE [prod_short](includes/prod_short.md)] non rivela tutte le capacità. Puoi attivare l'esperienza completa nella pagina **Informazioni sulla società**. Per ulteriori informazioni, vedi [Modifica delle funzionalità visualizzate](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

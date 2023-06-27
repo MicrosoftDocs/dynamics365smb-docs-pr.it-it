@@ -297,7 +297,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
  La procedura dettagliata relativa all'utilizzo della pagina **Trova movimenti** per la gestione dei difetti in combinazione con la pagina **Tracciabilità articolo** è stata completata.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-serial-lot-numbers" />Vedi il relativo [training Microsoft](/training/paths/use-serial-lot-numbers/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/use-serial-lot-numbers/)
 
 ## <a name="see-also" />Vedere anche
 

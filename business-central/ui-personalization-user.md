@@ -58,7 +58,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 6. Scegliere l'elemento, quindi scegliere **Sposta**, **Rimuovi**, **Nascondi**, **Mostra**, **Visualizza in "Mostra più"**, **Mostra quando compresso**, **Mostra sempre**, **Imposta/Cancella Blocco riquadro** o **Includi/Escludi da Accesso rapido**, a seconda del tipo e dello stato dell'elemento dell'interfaccia utente. Per ulteriori informazioni, vedere [Elementi personalizzabili](#What).
 7. Al termine della modifica del layout in una o più pagine, selezionare il pulsante **Fatto** nel banner **Personalizzazione**.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Elementi personalizzabili
+## <a name="what-you-can-personalize" /><a name="What"></a>Elementi personalizzabili
 
 |Operazione da eseguire|Procedura|Osservazioni|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 |Aggiungere una nuova azione a una pagina o un report in Gestione ruolo utente.|Dalla pagina di destinazione, dalla pagina della richiesta di report o dalla finestra della funzionalità delle informazioni, selezionare l'icona del segnalibro.|Vedere [Aggiungere un segnalibro a una pagina o un report in Gestione ruolo utente](ui-bookmarks.md)|
 |Avvia sempre un elenco come espanso o compresso|Scegli il pulsante **Espandi tutto** o **Comprimi tutto** nell'angolo in alto a sinistra dell'elenco. In alternativa, scegli l'azione **Espandi tutto** o **Comprimi tutto** nel menu della prima colonna. |Si applica agli elenchi di gerarchie comprimibili.|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personalizzazione della barra delle azioni e dei menu
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personalizzazione della barra delle azioni e dei menu
 
 La personalizzazione consente di specificare quali azioni visualizzare nelle barre di spostamento e azione e in Gestione ruolo utente e dove. È possibile visualizzare, nascondere o spostare singole azioni o gruppi di azioni.
 
@@ -116,7 +116,7 @@ La posizione in cui è possibile spostare l'azione o i gruppi di azioni è indic
 1. Per spostare un azione o un gruppo di azioni, trascinarlo nella posizione desiderata, esattamente come per campi e colonne.
 2. Per spostare un'azione o un gruppo di azioni in un altro gruppo di azioni che è vuoto, trascinare l'azione o il gruppo di azioni sul nuovo gruppo e rilasciarlo nella casella **Rilasciare qui un'azione**.
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Personalizzazione delle parti
+## <a name="personalizing-parts" /><a name="Parts"></a>Personalizzazione delle parti
 
 Le parti sono aree di una pagina che in genere sono composte da più campi, grafici o altro contenuto. Una parte mostra un bordo colorato quando viene attivata. Ad esempio, una schermata iniziale di Gestione ruolo utente ha più parti. A causa del contorno ben definito, puoi personalizzare l'intera parte e il suo contenuto.
 
@@ -158,7 +158,7 @@ Per agevolare la comprensione della personalizzazione, di seguito sono elencati 
    > [!TIP]
    > In qualità di amministratore, puoi nascondere l'elemento **Automatizza** per gli utenti. Ulteriori informazioni in [Configurare l'integrazione di Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 [Personalizzare pagine per profili](ui-personalization-manage.md)  

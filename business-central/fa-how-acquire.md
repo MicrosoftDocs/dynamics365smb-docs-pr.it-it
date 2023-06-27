@@ -99,7 +99,7 @@ Ad esempio, se si registra un acquisto con la data errata, è necessario corregg
 > [!NOTE]
 > Se esiste un valore di recupero per un cespite, tale valore verrà utilizzato nella registrazione dell'ammortamento nel campo **Valore contabile finale** della pagina **Registro beni amm. cespiti**. Per ulteriori informazioni, vedere [Per gestire il valore contabile finale](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespurchase-fixed-assets" />Vedi il relativo [training Microsoft](/training/modules/purchase-fixed-assets/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/purchase-fixed-assets/)
 
 ## <a name="see-also" />Vedere anche
 

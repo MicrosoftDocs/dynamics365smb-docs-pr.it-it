@@ -135,7 +135,7 @@ Nella pagina **Prelievo magazzino** è possibile gestire tutte le attività di w
 
     Le 30 Lampade Amsterdam ora sono registrate come prelevati dalle collocazioni S-01-0001 e S-01-0002 e viene creato un movimento contabile articolo negativo che riflette la spedizione di vendita registrata.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

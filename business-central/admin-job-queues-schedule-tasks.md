@@ -93,7 +93,7 @@ La parte Coda processi personali consente inoltre di annullare la registrazione 
 
 Per saperne di più sulla programmazione, vai a [Programmazione di un report da eseguire](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between-includeprodshortincludesprodshortmd-and-includeprodshortincludescdslongmdmd" />Programmare la sincronizzazione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="schedule-synchronization-between--and-includeprod_short" />Programmare la sincronizzazione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Se hai integrato [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[prod_short](includes/cds_long_md.md)], la coda processi ti consente di pianificare quando sincronizzare i dati. A seconda della direzione e delle regole che hai definito, il movimento coda processi può creare record in un'app in modo che corrispondano ai record nell'altra. Un buon esempio è quando registri un contatto in [!INCLUDE[crm_md](includes/crm_md.md)], il movimento coda processi può impostare quel contatto per te in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni sulla programmazione, vai a [Programmazione di una sincronizzazione tra Business Central e Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 

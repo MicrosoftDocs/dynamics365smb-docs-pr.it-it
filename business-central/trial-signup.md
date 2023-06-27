@@ -38,7 +38,7 @@ Ogni volta che si accede durante il periodo di valutazione, una notifica in una 
 
 Per ulteriori informazioni su cosa puoi fare con [!INCLUDE [prod_short](includes/prod_short.md)], vedi[Preparazione al business](ui-get-ready-business.md) e [Funzionalità aziendale](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources" />Risorse aggiuntive
 

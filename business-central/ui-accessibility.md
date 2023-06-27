@@ -26,7 +26,7 @@ In questo articolo vengono fornite informazioni sulle funzionalità che rendono 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namenavigationa-navigation" /><a name="Navigation"></a> Spostamento
+## <a name="navigation" /><a name="Navigation"></a> Spostamento
   
 Puoi utilizzare diverse combinazioni dei tasti TAB, MAIUSC e di direzione della tastiera per spostarti tra gli elementi di una pagina. Gli elementi includono azioni, campi e colonne, parti e altri controlli. In generale, premi <kbd>Tab</kbd> o <kbd>MAIUSC</kbd>+<kbd>Tab</kbd> per passare all'elemento successivo o precedente.
 
@@ -34,19 +34,19 @@ Quando si evidenzia un'area che contiene azioni, come la barra di spostamento ne
 
 Utilizzando l'ordine delle schede è inoltre possibile passare, ad esempio, dalla pagina principale del browser alle finestre di dialogo che richiedono conferma o alla pagina di accesso.  
 
-## <a name="a-nameheadingsa-headings-in-content" /><a name="Headings"></a> Intestazioni nel contenuto
+## <a name="headings-in-content" /><a name="Headings"></a> Intestazioni nel contenuto
 
 L'origine HTML per il contenuto di [!INCLUDE[prod_short](includes/prod_short.md)] utilizza tag per aiutare gli utenti della tecnologia per l'accessibilità a comprendere la struttura e il contenuto della pagina. Ad esempio, nelle pagine di elenchi, le colonne vengono definite in tag TH e le intestazioni di colonna sono impostate con l'attributo TITLE all'interno del tag. Le didascalie per elementi quali Schede dettaglio, Riquadri Dettaglio informazioni e campi sono incluse nei tag delle intestazioni (H1, H2, H3 e H4).  
 
-## <a name="a-nameimagesa-image-and-links" /><a name="Images"></a> Immagine e collegamenti
+## <a name="image-and-links" /><a name="Images"></a> Immagine e collegamenti
 
 Un testo descrittivo per le immagini è impostato con l'attributo ALT all'interno del tag IMG. Un testo descrittivo per i collegamenti ipertestuali è impostato con l'attributo TITLE all'interno del tag A.  
 
-## <a name="a-nameassistivetecha-assistive-technologies" /><a name="AssistiveTech"></a> Tecnologie per l'accessibilità
+## <a name="assistive-technologies" /><a name="AssistiveTech"></a> Tecnologie per l'accessibilità
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta diverse tecnologie per l'accessibilità, ad esempio il contrasto elevato, le utilità per la lettura dello schermo e il software di riconoscimento vocale. Alcune tecnologie per l'accessibilità potrebbero non funzionare correttamente con determinati elementi nelle pagine di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="a-namezooma-zoom" /><a name="zoom"></a> Zoom
+## <a name="zoom" /><a name="zoom"></a> Zoom
 
 La maggior parte dei browser utilizza tasti di scelta rapida standard per ingrandire e ridurre la pagina corrente. Questi tasti di scelta rapida non sono specifici per [!INCLUDE [prod_short](includes/prod_short.md)], ma funzionano quando si utilizza [!INCLUDE [prod_short](includes/prod_short.md)] in un browser. Per un elenco dei tasti di scelta rapida supportati, vedere [Tasti di scelta rapida per ingrandire e ridurre](keyboard-shortcuts.md#zoomshortcuts).
 

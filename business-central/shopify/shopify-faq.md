@@ -55,7 +55,7 @@ Il connettore Shopify non funziona per l'[app Embed](/dynamics365/business-centr
 
 ## <a name="what-support-is-offered-for-the-shopify-connector" />Quale supporto viene offerto per il connettore Shopify?
 
-### <a name="includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](../includes/prod_short.md)]
+### [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 I connettore Shopify è coperto dall'attuale modello di supporto. Per ulteriori informazioni, vedi [Supporto tecnico](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (solo in inglese).
 

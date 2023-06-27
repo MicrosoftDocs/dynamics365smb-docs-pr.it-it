@@ -74,7 +74,7 @@ Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei pre
 3. Nella pagina **Prezzi risorse** compilare i campi in una riga in base alle esigenze.
 4. Ripetere il passaggio 3 per ogni prezzo di risorsa alternativo che si desidera impostare.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Vedere anche
 

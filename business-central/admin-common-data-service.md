@@ -24,7 +24,7 @@ I passaggi seguenti forniscono una panoramica delle operazioni per l'integrazion
 
 3. Sincronizzazione i dati tra le app. Per ulteriori informazioni, vedere [Sincronizzazione di Business Central e Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />Introduzione a [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-" />Introduzione a [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Per iniziare con [!INCLUDE[prod_short](includes/cds_long_md.md)] avrai bisogno di un account Microsoft Power Apps. Se non hai già un account Power Apps, puoi ottenerne uno gratuitamente visitando [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) e scegliendo il collegamento **Inizia gratis**. Per saperne di più su come iniziare con [!INCLUDE[prod_short](includes/cds_long_md.md)], vedere il modulo [Introduzione a Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) del training Microsoft.
 
@@ -57,7 +57,7 @@ Per dettagli su ciascun ruolo, come le autorizzazioni e i livelli di accesso, ve
 
 Durante la configurazione della connessione, vengono creati i mapping della tabella di integrazione necessari per sincronizzare i dati. Le entità in [!INCLUDE[prod_short](includes/cds_long_md.md)] vengono mappate a tabelle e campi di tabella in Business Central tramite tabelle di integrazione. Per ulteriori informazioni, vedere [Mapping delle entità standard per la sincronizzazione](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />Vedi il relativo [training Microsoft](/training/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also" />Vedere anche
 

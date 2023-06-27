@@ -22,7 +22,7 @@ Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle r
 2. Aprire il flusso di lavoro che si desidera abilitare.  
 3. Nella pagina **Workflow**, seleziona la casella di controllo **Abilitato**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Vedere anche
 

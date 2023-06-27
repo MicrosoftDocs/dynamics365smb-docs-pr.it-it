@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the-include-prodshortincludesprodshortmd-apps-in-power-bi" />Utilizzare le app [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
+# <a name="use-the--apps-in-power-bi" />Utilizzare le app [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
 
 > **SI APPLICA A:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -51,7 +51,7 @@ Le app Power BI richiedono autorizzazioni per le tabelle da cui vengono recupera
 
 Iscriversi al servizio Power BI. Se non si è già registrati andare a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Quando ci si registra, utilizzare l'indirizzo e-mail e la password di lavoro.
 
-## <a name="install-a-includeprodshortincludesprodshortmd-app-in-power-bi" />Installare un'app [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI
+## <a name="install-a--app-in-power-bi" />Installare un'app [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI
 
 1. Aprire il browser, passare a [https://powerbi.microsoft.com](https://powerbi.microsoft.com) e accedere al proprio account.
 2. Selezionare **Ottieni i dati** nella parte inferiore del riquadro di spostamento sinistro.  
@@ -69,7 +69,7 @@ Iscriversi al servizio Power BI. Se non si è già registrati andare a [https://
 
     Al termine, l'app sarà disponibile da **App** nel menu di spostamento in Power BI.
 
-## <a name="connect-the-includeprodshortincludesprodshortmd-app-to-your-data" />Connettere l'app [!INCLUDE[prod_short](includes/prod_short.md)] ai dati
+## <a name="connect-the--app-to-your-data" />Connettere l'app [!INCLUDE[prod_short](includes/prod_short.md)] ai dati
 
 1. In **App**, selezionare l'app Business Central, quindi **Connetti**.
 2. Quando richiesto, compilare i campi **Nome società** e **Ambiente** con le informazioni sull'istanza di [!INCLUDE[prod_short](includes/prod_short.md)] a cui ci si desidera connettere.
@@ -96,7 +96,7 @@ Un account Power BI non è stato impostato. È necessario avere una licenza per 
 
 Questo messaggio viene visualizzato se la distribuzione del report predefinito non è riuscita nell'area di lavoro Power BI. Oppure il report è stato distribuito ma non è stato aggiornato correttamente. Se si verifica questo problema, accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, tornare a [!INCLUDE[prod_short](includes/prod_short.md)] e selezionare manualmente il report dalla pagina **Selezionare i report**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-includeprodshortincludesprodshortmd-app-in-power-bi" />È necessaria una licenza Power BI Pro per installare l'app [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" />È necessaria una licenza Power BI Pro per installare l'app [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI
 
 È necessaria una [licenza Power BI Pro](/power-bi/service-features-license-type) per condividere i contenuti per se e per le persone con cui si condivide. Il contenuto deve trovarsi in un'area di lavoro con una [capacità premium](/power-bi/service-premium-what-is). Per ulteriori informazioni, vedere [In che modo condividere il tuo lavoro in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -144,7 +144,7 @@ L'app Power BI visualizzerà solo i dati della società [!INCLUDE[prod_short](in
 - [Selezionare un riquadro](/power-bi/service-dashboard-tiles) per aprire il report sottostante.  
 - Per impostazione predefinita, il set di dati non è pianificato per l'aggiornamento. È possibile modificare la pianificazione dell'aggiornamento o eseguire l'aggiornamento su richiesta utilizzando **Aggiorna ora**. Per ulteriori informazioni, vedere [Configurazione di aggiornamenti pianificati](/power-bi/refresh-scheduled-refresh)
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

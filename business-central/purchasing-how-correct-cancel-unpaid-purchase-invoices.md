@@ -51,7 +51,7 @@ Nella pagina **Fattura acquisto registrata** è possibile scegliere il pulsante 
 
 Se l'annullamento è correlato a una registrazione parziale della fattura, la riga dell'ordine di acquisto di origine viene aggiornata per riflettere la quantità fatturata annullata. I campi **Qtà da fatturare** e **Qtà fatturata** nella riga dell'ordine fornitore correlato vengono reimpostati sui valori precedenti alla registrazione parziale.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-central" />Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

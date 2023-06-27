@@ -34,7 +34,7 @@ Per creare diverse unità di stockkeeping per un articolo, utilizzare il process
 > Se la USK viene fornita tramite produzione, il campo **Costo standard** non è utilizzato quando si fattura e si rettifica il costo effettivo dell'articolo prodotto. In alternativa, [!INCLUDE [prod_short](includes/prod_short.md)] usa il valore nel campo **Costo standard** nella scheda articolo sottostante e tutti gli scostamenti vengono calcolati rispetto al dettaglio costi di tale articolo.<br><br>
 > Sebbene l'utente può assegnare le DB di produzione e i cicli assegnati alle SKU, anche il rollup del costo unitario e il calcolo correlato del dettaglio costi non sono disponibili nelle SKU. Per ulteriori informazioni sui costi standard, vai a [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-trainingtrainingmodulescontrol-inventory-multiple-locations" />Vedi il relativo [training Microsoft](/training/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/control-inventory-multiple-locations/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -36,7 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Ulteriori informazioni sui diversi metodi di ammortamento del cespite. |[Metodi di ammortamento](fa-depreciation-methods.md) |
 | Informazioni su come applicare metodi di ammortamento definiti dall'utente. |[Impostare i metodi di ammortamento definiti dall'utente](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -15,7 +15,7 @@ Per qualsiasi articolo registrato in Business Central, puoi scrivere un *testo d
 
 Il testo di marketing può essere creato in due modi: Il modo più semplice per iniziare è utilizzare Copilot, che suggerisce il testo generato dall'intelligenza artificiale. L'altro modo è cominciare da zero. 
 
-## <a name="a-namecopilotacreate-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Creare un testo di marketing generato dall'intelligenza artificiale (anteprima) con Copilot
+## <a name="create-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Creare un testo di marketing generato dall'intelligenza artificiale (anteprima) con Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 

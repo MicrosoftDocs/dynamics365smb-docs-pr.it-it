@@ -66,7 +66,7 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 2. Compilare i campi in base alle esigenze.
 3. Seleziona il pulsante **Stampa** o **Anteprima**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Vedi il relativo [training Microsoft](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/reclassify-fixed-assets/)
 
 ## <a name="see-also" />Vedere anche
 

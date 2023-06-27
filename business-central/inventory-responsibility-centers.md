@@ -49,7 +49,7 @@ Per poter procedere a queste impostazioni è necessario assegnare i centri di re
 > [!NOTE]  
 > Gli utenti possono visualizzare solo i documenti registrati relativi al proprio centro di responsabilità. Tuttavia, possono visualizzare tutti i movimenti contabili e passare ad altri documenti registrati dai movimenti contabili.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />Vedi il relativo [training Microsoft](/training/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also" />Vedere anche
 

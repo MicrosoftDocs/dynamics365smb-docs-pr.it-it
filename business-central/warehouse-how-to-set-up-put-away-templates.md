@@ -31,7 +31,7 @@ Grazie alla funzionalità per stoccaggi e prelievi guidati, viene suggerita in q
 
 È possibile creare diversi modelli di stoccaggio e applicarli in base alle esigenze. Viene utilizzato innanzitutto il modello di stoccaggio selezionato per l'articolo o l'unità di stockkeeping, qualora disponibile. Se questi campi non vengono compilati, verrà utilizzato il modello di stoccaggio selezionato per la warehouse nella Scheda dettaglio **Criteri per collocazione** della scheda ubicazione.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesput-away-templates" />Vedi il relativo [training Microsoft](/training/modules/put-away-templates/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/put-away-templates/)
 
 ## <a name="see-also" />Vedere anche
 

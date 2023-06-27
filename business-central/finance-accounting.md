@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Esperienze di contabile in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Esperienze di contabile in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Qualsiasi attività deve avere i suoi libri e firmare la contabilità. Alcuni aziende hanno un contabile esterno e altre hanno un contabile interno. Senza tenere conto del tipo di contabile in questione, è possibile utilizzare la Gestione ruolo utente **Contabile** come Home page in [!INCLUDE[prod_short](includes/prod_short.md)]. Da questa pagina, è possibile accedere a tutte le pagine necessarie per lavorare.  
 
@@ -25,7 +25,7 @@ Se non si ha familiarità con [!INCLUDE[prod_short](includes/prod_short.md)], è
 
 Se si lavora in più società [!INCLUDE [prod_short](includes/prod_short.md)] è possibile utilizzare la pagina **Hub aziendale** per tenere traccia del lavoro.  Per ulteriori informazioni, vedere [Gestire il lavoro tra più aziende nell'hub aziendale](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Invitare il contabile esterno in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Invitare il contabile esterno in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, l'amministratore può invitarlo a [!INCLUDE[prod_short](includes/prod_short.md)] in modo che possa utilizzare i dati fiscali dell'azienda. [!INCLUDE[prod_short](includes/prod_short.md)] include tre licenze di tipo Contabile esterno. Per ulteriori informazioni sulle licenze, vedere [Guida alle licenze di Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ Se l'amministratore o il partner di rivendita non desidera utilizzare la guida *
 
 Successivamente, è necessario assegnare una licenza al nuovo utente guest per [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />Per concedere al contabile l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />Per concedere al contabile l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Nel portale di Azure, per l'utente appena aggiunto, selezionare **Profilo** e quindi scegliere **Modifica**
 2. Aggiornare il campo **Posizione di utilizzo** con il paese pertinente, quindi selezionare **Salva**.
@@ -78,7 +78,7 @@ Successivamente, è necessario assegnare una licenza al nuovo utente guest per [
 
 Se l'operazione viene completata, la licenza viene assegnata all'utente guest e viene creato l'account guest.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Importazione del nuovo utente in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Importazione del nuovo utente in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Il contabile riceverà un messaggio e-mail che lo informa che gli è stato concesso l'accesso ad Active Directory. Successivamente, è necessario assegnare l'accesso alla società giusta in [!INCLUDE[prod_short](includes/prod_short.md)].
 

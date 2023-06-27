@@ -181,7 +181,7 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 2. Compilare i campi in base alle esigenze, quindi scegliere **OK**.  
 3. In alternativa, eliminare i singoli ordini di reso acquisto manualmente.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 [Acquisti](purchasing-manage-purchasing.md)  

@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Specificare una stampante predefinita
+# <a name="specify-a-default-printer" /><a name="default"></a>Specificare una stampante predefinita
 
 Dopo aver configurato le stampanti in Business Central, è possibile specificare quale stampante utilizzare per impostazione predefinita. Esistono due modi per specificare le stampanti che vengono utilizzate per impostazione predefinita per i report e altri lavori di stampa. Una stampante predefinita è utile se si lavora con report diversi che richiedono stampanti diverse a causa del loro posizionamento nell'azienda o delle loro capacità di output.
 

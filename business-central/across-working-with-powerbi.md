@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-include-prodshortincludesprodshortmd" />Utilizzare i report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-" />Utilizzare i report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)]
 
 In questo articolo vengono spiegate alcune delle nozioni di base sulla visualizzazione dei report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -35,7 +35,7 @@ Se si sta usando [!INCLUDE[prod_short](includes/prod_short.md)] in locale, deve 
 
 Prima di poter usare Power BI con [!INCLUDE[prod_short](includes/prod_short.md)], dovrai registrarti al servizio Power BI. Se non si è già registrati andare a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Quando ci si registra, utilizzare l'indirizzo e-mail e la password di lavoro.
 
-## <a name="a-nameconnectaconnect-to-power-bi---one-time-only" /><a name="connect"></a>Connettersi a Power BI - una sola volta
+## <a name="connect-to-power-bi---one-time-only" /><a name="connect"></a>Connettersi a Power BI - una sola volta
 
 Quando si accede per la prima volta a [!INCLUDE [prod_short](includes/prod_short.md)], potrai vedere una parte di Power BI vuota (come mostrato nella figura precedente) su varie pagine. La prima cosa da fare è connettersi all'account Power BI. Una volta connessi, è possibile vedere i report. È necessario eseguire questo passaggio solo una volta.
 
@@ -53,7 +53,7 @@ Viene avviato il processo di connessione. Durante il processo, [!INCLUDE [prod_s
 > [!TIP]
 > Con [!INCLUDE [prod_short](includes/prod_short.md)] online, questo passaggio caricherà automaticamente i report Power BI predefiniti utilizzati in [!INCLUDE [prod_short](includes/prod_short.md)] nell'area di lavoro Power BI.
 
-#### <a name="from-include-prodshortincludesprodshortmd-on-premises" />Da [!INCLUDE [prod_short](includes/prod_short.md)] in locale
+#### <a name="from--on-premises" />Da [!INCLUDE [prod_short](includes/prod_short.md)] in locale
 
 La connessione a Power BI da [!INCLUDE [prod_short](includes/prod_short.md)] è simile a quella per la soluzione online. Tuttavia, nella pagina **AUTORIZZAZIONI DI SERVIZIO AZURE ACTIVE DIRECTORY** potrebbe essere richiesto di concedere l'accesso ai servizi Power BI. Per concedere l'accesso, selezionare **Autorizza i servizi di Azure** e poi **Accetta**.
 
@@ -99,7 +99,7 @@ Quando si ritorna a Gestione ruolo utente, il report aggiornato verrà visualizz
 > [!NOTE]
 > Questa funzionalità non è disponibile con [!INCLUDE [prod_short](includes/prod_short.md)] locale.
 
-### <a name="a-nameuploadaupload-reports" /><a name="upload"></a>Caricare i report
+### <a name="upload-reports" /><a name="upload"></a>Caricare i report
 
 I report Power BI possono essere distribuiti tra gli utenti come file .pbix. Se sono disponibili file .pbix, è possibile caricarli e condividerli con tutti gli utenti di [!INCLUDE [prod_short](includes/prod_short.md)]. I report sono condivisi in ogni società in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -126,7 +126,7 @@ Questo messaggio viene visualizzato se la distribuzione del report predefinito n
 
 Probabilmente è perché il nome del report non contiene il nome della pagina di elenco. Rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

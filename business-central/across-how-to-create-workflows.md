@@ -172,7 +172,7 @@ La seguente illustrazione fornisce una panoramica del risultato di questa proced
 
 Successivamente, dovrai testare il flusso di lavoro aprendo una scheda fornitore esistente e modificando il nome. Verifica che venga inviata una richiesta di approvazione dopo la modifica del nome del fornitore.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Vedere anche
 

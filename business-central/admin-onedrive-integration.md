@@ -63,7 +63,7 @@ Il setup assistito **Setup OneDrive** è stata introdotto nel secondo ciclo di r
 
 Per passare, basta aprire ed eseguire il setup assistito **Setup OneDrive** direttamente o aprire la pagina **Setup connessione SharePoint** e scegliere **Vai al nuovo setup OneDrive** nella notifica nella parte superiore della pagina. Seguire la guida al setup come descritto nella sezione precedente.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />Ripristinare OneDrive e [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="restoring-onedrive-and-" />Ripristinare OneDrive e [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Come parte di un esercizio di disaster recovery, gli amministratori potrebbero aver bisogno di ripristinare un ambiente [!INCLUDE[prod_short](includes/prod_short.md)] online su un backup da un momento nel passato, e sincronizzare lo storage OneDrive a quello stesso punto nel tempo. OneDrive fornisce vari strumenti di ripristino, come il ripristino di OneDrive di un utente ad un tempo precedente, il ripristino di una versione precedente di un singolo file, o il ripristino di file cancellati. Per ulteriori informazioni, vedere i seguenti articoli:
 

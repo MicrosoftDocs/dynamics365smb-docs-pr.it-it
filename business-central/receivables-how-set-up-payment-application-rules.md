@@ -74,7 +74,7 @@ La tabella seguente descrive le regole di collegamento dei pagamenti standard in
 | Bassa              | 4        | Nr.                    | Nr.                             | Una corrispondenza                      |
 | Bassa              | 5        | Nr.                    | Nr.                             | Più corrispondenze               |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreconciliation-journals-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)  

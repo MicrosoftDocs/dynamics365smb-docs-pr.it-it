@@ -8,11 +8,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# Inviare avvisi su normative specifiche di un paese/area geografica
+# <a name="submit-alerts-about-countryregion-specific-regulatory-features" />Inviare avvisi su normative specifiche di un paese/area geografica
 
 Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per inviare avvisi normativi mediante il servizio di invio di avvisi normativi di Dynamics.  
 
-## Per inviare un avviso normativo tramite LCS
+## <a name="to-submit-a-regulatory-alert-in-lcs" />Per inviare un avviso normativo tramite LCS
 
 1. Vai a [https://lcs.dynamics.com](https://lcs.dynamics.com) e accedi  
 
@@ -65,7 +65,7 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 
       Dopo l'invio dell'avviso, verrà visualizzato un messaggio che conferma l'avvenuto invio a Microsoft.
 
-## Vedere anche
+## <a name="see-also" />Vedere anche
 
 [Funzionalità locale in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Modifica di lingua e impostazioni locali](about-locale-language.md)  

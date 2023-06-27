@@ -45,7 +45,7 @@ Se l'estensione del periodo di valutazione è scaduta, [effettua una sottoscrizi
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

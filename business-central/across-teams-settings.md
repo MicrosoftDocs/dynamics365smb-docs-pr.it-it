@@ -37,7 +37,7 @@ Esistono due modi per aprire la pagina **Impostazioni**: 1) dalla casella di com
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  
 [Sviluppo per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

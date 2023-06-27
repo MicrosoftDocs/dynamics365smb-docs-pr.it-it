@@ -202,7 +202,7 @@ Registra i record della collocazione di rettifica nella contabilità articoli pe
 5. Selezionare **OK**. Le rettifiche positive e negative vengono sommate per ogni articolo e le righe create nelle registrazioni magazzino.  
 6. Registrare le righe di registrazione per immettere le differenze di quantità nei movimenti contabili magazzino. Gli inventari nelle collocazioni e la contabilità articoli ora corrispondono.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Vedi il relativo [training Microsoft](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Vedere anche
 

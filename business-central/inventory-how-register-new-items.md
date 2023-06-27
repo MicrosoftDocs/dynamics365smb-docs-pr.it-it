@@ -115,7 +115,7 @@ Quando la tua azienda utilizza i processi di pianificazione della fornitura in [
 
 Per esempi di come è possibile utilizzare i campi nella Scheda dettaglio **Pianificazione**, vedi [Procedure consigliate per la configurazione: parametri di pianificazione](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Vedi il relativo [training Microsoft](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-items/)
 
 ## <a name="see-also" />Vedere anche
 

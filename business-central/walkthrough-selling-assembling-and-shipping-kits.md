@@ -436,7 +436,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Quando il reparto dispositivi effettua il pagamento per il carico di 18 PC da CRONUS, l'ordine di vendita e gli ordini di assemblaggio collegati vengono rimossi.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

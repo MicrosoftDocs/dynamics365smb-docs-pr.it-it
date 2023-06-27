@@ -25,7 +25,7 @@ Un report in [!INCLUDE[prod_short](includes/prod_short.md)] raccoglie informazio
 | Scopri come modificare il layout predefinito di un report. | [Modifica del layout predefinito del report](ui-how-change-layout-currently-used-report.md) |
 | Visualizza e analizza i dati da un set di dati di report in Microsoft Excel. | [Salva il set di dati del report in Excel dalla pagina della richiesta](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

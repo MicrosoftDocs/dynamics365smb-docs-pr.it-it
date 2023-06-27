@@ -83,7 +83,7 @@ Un addetto warehouse può creare un nuovo stoccaggio di magazzino in base al doc
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Vedi il relativo [training Microsoft](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Vedere anche
 

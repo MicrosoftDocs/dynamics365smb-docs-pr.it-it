@@ -69,7 +69,7 @@ Quando si registra una riduzione di magazzino, viene creato un movimento di coll
 
 Nella tabella **Mov. contabili articoli**, il campo **Quantità residua** indica la quantità che non è ancora stata collegata. Se la quantità residua è superiore a 0, viene selezionata la casella di controllo **Apri**.  
 
-### <a name="example" />Esempio
+### <a name="example-1" />Esempio
 Nel seguente esempio viene illustrato un movimento di collegamento articoli creato quando si registra una spedizione di vendita di 5 unità degli articoli ricevuti nell'esempio precedente. Il primo movimento di collegamento articoli è la ricezione acquisti. Il secondo movimento di collegamento è la spedizione di vendita.  
 
 Nella seguente tabella vengono mostrati i due movimenti di collegamento articoli derivanti rispettivamente dall'aumento di magazzino e dalla riduzione di magazzino.  

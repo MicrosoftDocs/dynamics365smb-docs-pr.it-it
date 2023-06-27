@@ -79,7 +79,7 @@ La causale selezionata verrà copiata nei nuovi batch di registrazioni creati in
 
 Quando la fattura viene registrata, la causale viene copiata in ogni movimento C/G, cliente e fornitore. Non è possibile assegnare causali diverse a singole righe di acquisto e vendita, perché tutte le righe vengono registrate come un unico movimento.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 
@@ -90,7 +90,7 @@ Quando la fattura viene registrata, la causale viene copiata in ogni movimento C
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

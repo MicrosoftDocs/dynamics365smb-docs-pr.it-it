@@ -47,7 +47,7 @@ Nella procedura, le quantità di assemblaggio su ordine vengono sostituite con l
 > [!CAUTION]  
 > Il campo **Codice collocazione** nell'ordine di vendita può contenere il valore del campo **Cod. coll. sp. ass. su ordine** o del campo **Cod. coll. art. da assembl.** nella scheda ubicazione. In tal caso, il campo **Codice collocazione** nella riga dell'ordine di vendita può essere errato in questa combinazione di quantità di assemblaggio su ordine e assemblaggio per magazzino. Ti consigliamo di verificare che la collocazione nel campo **Cod. collocazione** funzioni per tutte le quantità. In alternativa, immettere due quantità diverse in righe separate dell'ordine di vendita.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

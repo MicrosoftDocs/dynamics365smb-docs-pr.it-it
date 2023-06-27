@@ -294,7 +294,7 @@ Immettendo un movimento in B1 nella registrazione C/G cespiti ed inserendo un se
 > [!NOTE]  
 > Non è consentito utilizzare la stessa numerazione nelle registrazioni cespiti e nelle registrazioni cespiti. Quando si annotano movimenti nelle registrazioni cespiti o C/G, il campo **Nr. documento** deve essere lasciato vuoto. Se si immette un numero nel campo, il numero viene duplicato nelle registrazioni del cespite. Sarà necessario modificare manualmente il numero di documento prima di poter contabilizzare le registrazioni.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Vedi il relativo [training Microsoft](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also" />Vedere anche
 

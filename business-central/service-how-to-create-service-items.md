@@ -56,7 +56,7 @@ La seguente procedura indica le modalità di creazione di articoli in assistenza
 
     Verrà inserita una riga di assistenza di tipo **Costo** in cui viene indicata la spesa iniziale. La spesa iniziale viene applicata all'articolo in assistenza selezionato.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Vedi il relativo [training Microsoft](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-items/)
 
 ## <a name="see-also" />Vedere anche
 

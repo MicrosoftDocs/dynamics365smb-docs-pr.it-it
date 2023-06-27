@@ -24,7 +24,7 @@ La contabilità industriale viene utilizzata per comprendere i costi operativi d
 |Informazioni sui processi per creare budget costi.|[Creazione di budget di costi](finance-create-cost-budgets.md)|
 |Annullare movimenti budget costi dal registro budget costi.|[Eliminare movimenti budget costi](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 [Finanze](finance.md)  

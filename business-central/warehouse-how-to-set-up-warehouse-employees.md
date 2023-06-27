@@ -22,7 +22,7 @@ Ogni utente che può eseguire attività di warehouse deve essere impostato come 
 5. Attiva l'interruttore **Predefinito** per definire l'unica ubicazione in cui il dipendente può eseguire attività di warehouse.  
 6. Ripeti i passaggi indicati per assegnare altri dipendenti a ubicazioni o per assegnare altre ubicazioni ai dipendenti warehouse esistenti.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Vedere anche
 

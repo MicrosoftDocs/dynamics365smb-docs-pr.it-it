@@ -33,7 +33,7 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 |Immettere le informazioni sui diversi fornitori di servizi di trasporto utilizzati, incluso un collegamento al relativo servizio che consente di rintracciare il collo.|[Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 [Vendite](sales-manage-sales.md)  

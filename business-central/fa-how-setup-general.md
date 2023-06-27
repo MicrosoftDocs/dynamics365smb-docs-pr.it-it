@@ -123,7 +123,7 @@ Nel caso in cui si utilizzino i cespiti in [!INCLUDE[prod_short](includes/prod_s
 
 Se i cespiti non sono integrati in contabilità generale, saltare i passaggi 6 e 8.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -58,7 +58,7 @@ Esistono diversi modi per impostare il layout utilizzato da un report. Ogni modo
 
 I report sono progettati per utilizzare un layout per impostazione predefinita. È possibile tornare al layout predefinito originale dalla pagina **Selezione layout report**. Basta selezionare il report, quindi selezionare l'azione **Ripristina selezione predefinita** nella parte superiore della pagina.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

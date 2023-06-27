@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi modi, ad esempio attraverso la creazione di record e l'immissione di dati, l'ordinamento e il filtraggio dei dati, la scrittura di note e l'output di dati ad altre applicazioni.
 
@@ -18,7 +18,7 @@ Durante l'esecuzione di task aziendali, si interagisce con i dati in diversi mod
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Suggerimenti e trucchi
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Suggerimenti e trucchi
 
 > [!TIP]
 > Per una versione stampabile della panoramica delle funzioni più utilizzate, vedere l'immagine seguente e scaricare il file PDF.
@@ -80,7 +80,7 @@ Quando cerchi una pagina di elenco aperta, come l'elenco **Ordini di vendita**, 
 
 Ma quando apri la stessa pagina dell'elenco dalla tua home page, l'azione **Gestisci** non è presente. Invece, per aprire un singolo ordine di vendita, è sufficiente scegliere il campo **Numero**. In questa visualizzazione non puoi aggiungere la barra delle azioni.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 
@@ -89,7 +89,7 @@ Ma quando apri la stessa pagina dell'elenco dalla tua home page, l'azione **Gest
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Suggerimenti sulle prestazioni per utenti aziendali](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

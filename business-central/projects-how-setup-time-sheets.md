@@ -88,7 +88,7 @@ Le sezioni seguenti descrivono come impostare i fogli di presenza se non si usa 
 > [!NOTE]  
 > Non è possibile modificare l'ID del responsabile approvazione del foglio presenze in caso di fogli presenze non ancora elaborati e con lo stato **Inviato** o **Aperto**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Vedere anche
 

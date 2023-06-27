@@ -79,7 +79,7 @@ Conti bancari in [!INCLUDE[prod_short](includes/prod_short.md)] registrano le tr
    Il campo è diverso dal campo **Nr. conto bancario** disponibile anche nella Scheda dettaglio **Generale**.
 4. Compila i campi nella pagina **Scheda C/C bancari fornitori** secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

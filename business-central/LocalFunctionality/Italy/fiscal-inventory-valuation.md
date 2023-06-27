@@ -21,7 +21,7 @@ ms.author: edupont
 - Costo LIFO (Last-In-First-Out)  
 - Costo LIFO discreto  
 
-## <a name="fiscal-inventory-valuation-in-includeprodshortincludesprodshortmd" />Valutazione magazzino fiscale in [!INCLUDE[prod_short](../../includes/prod_short.md)]
+## <a name="fiscal-inventory-valuation-in-" />Valutazione magazzino fiscale in [!INCLUDE[prod_short](../../includes/prod_short.md)]
 
 Inizialmente, è necessario impostare la valutazione magazzino fiscale per tutti i tipi di costo nella pagina **Setup costing articolo** e nella pagina **Scheda articolo**. Per ulteriori informazioni, vedere [Impostare la valutazione magazzino fiscale](how-to-set-up-fiscal-inventory-valuation.md).  
 

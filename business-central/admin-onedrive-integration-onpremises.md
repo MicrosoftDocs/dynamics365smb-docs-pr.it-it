@@ -22,7 +22,7 @@ Ci sono due attività che devono essere eseguite per configurare l'integrazione 
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] on-premises può essere collegato solo a OneDrive ospitato da Microsoft nel cloud. La connessione di [!INCLUDE[prod_short](includes/prod_short.md)] on premises al repository My Sites di SharePoint Server non è supportata.
 
-## <a name="a-nameregisterapparegister-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Registrare un'app in Azure AD per l'integrazione di OneDrive
+## <a name="register-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Registrare un'app in Azure AD per l'integrazione di OneDrive
 
 In questa attività aggiungi un'app registrata per Business Central nel tenant Azure AD del tuo piano Microsoft 365. Come altri servizi Azure che lavorano con Business Central, OneDrive richiede un'app registrata in Azure Active Directory (Azure AD). L'app registrata fornisce servizi di autenticazione e autorizzazione tra Business Central e SharePoint, utilizzato da OneDrive.
 
@@ -45,7 +45,7 @@ Per la registrazione dell'applicazione, considera i seguenti punti:
 
 - Se utilizzi Business Central versione 19 o 20, copia **l'ID applicazione (client).** e il **segreto client** utilizzati dall'app registrata. Avrai bisogno di queste informazioni nel prossimo compito.
 
-## <a name="a-nameurlaget-your-onedrive-url" /><a name="url"></a>Ottenere l'URL OneDrive
+## <a name="get-your-onedrive-url" /><a name="url"></a>Ottenere l'URL OneDrive
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
@@ -74,7 +74,7 @@ Utilizza questa procedura se usi il secondo ciclo di rilascio di Business Centra
    - Se non hai già impostato l'app registrata in Azure AD, si apre la guida **Impostare Azure Active Directory**.
 6. Una volta completata, l'informativa sulla privacy per l'integrazione OneDrive è concordata per tutti gli utenti. Se vuoi cambiarla in modo che gli utenti debbano essere d'accordo o non essere d'accordo per se stessi, allora vai alla pagina **Stato informative sulla privacy** e seleziona **Consenti all'utente di decidere** per l'integrazione OneDrive. Agli utenti verrà quindi richiesto di accettare o meno l'informativa sulla privacy la prima volta che utilizzano le funzionalità OneDrive. Per maggiori informazioni, vedi [Informative sulla privacy](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Impostare la connessione in [!INCLUDE[prod_short](includes/prod_short.md)] nella versione 19 e 20
+## <a name="set-up-the-connection-in--version-19-and-20" />Impostare la connessione in [!INCLUDE[prod_short](includes/prod_short.md)] nella versione 19 e 20
 
 Utilizza questa procedura se usi il primo ciclo di rilascio di Business Central 2022 (versione 20) o il secondo ciclo di rilascio 2021 (versione 19).
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ Per passare alla nuova integrazione OneDrive, esegui la guida al setup assistito
 
 Prima di iniziare con il passaggio o mentre lo stai facendo, fai riferimento alla sezione successiva per conoscere alcuni aspetti e considerazioni sul processo. 
 
-### <a name="a-nameonedrivesetupmigrationaabout-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Informazioni sul passaggio alla nuova integrazione OneDrive
+### <a name="about-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Informazioni sul passaggio alla nuova integrazione OneDrive
 
 Oltre all'integrazione OneDrive, Business Central può anche integrarsi con altri servizi, come Power BI e Stampa universale. L'integrazione con questi altri servizi richiede anche un'app Azure AD registrata per l'autenticazione. L'app Azure AD utilizzata da questi altri servizi è configurata nel setup assistito **Impostazione account Azure Active Directory**. Quando passi dal setup connessione SharePoint legacy, il nuovo setup assistito **Setup OneDrive** cambierà l'integrazione OneDrive per utilizzare anche il setup assistito **Impostazione account Azure Active Directory**, quindi tutte le integrazioni usano la stessa app Azure AD.
 

@@ -115,7 +115,7 @@ Quando si compilano righe di registrazioni da contabilizzare in un registro dei 
 
 Le righe copiate vengono create nelle registrazioni cespiti in C/G o nelle registrazioni cespiti, a seconda che sia stata attivata l'integrazione contabilità generale per il registro beni ammortizzabili che si sta copiando.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />Vedi il relativo [training Microsoft](/training/modules/calculate-post-depreciations/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/calculate-post-depreciations/)
 
 ## <a name="see-also" />Vedere anche
 

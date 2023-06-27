@@ -62,7 +62,7 @@ Inoltre ogni condizione nella tabella Condiz.Interessi Finanziari è collegata a
 |%8|Contenuto del campo **Codice valuta** della testata della nota di addebito interessi|  
 |%9|Contenuto del campo **Data reg.** della testata della nota di addebito interessi|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/send-memos-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

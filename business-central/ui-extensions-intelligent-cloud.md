@@ -17,7 +17,7 @@ Questa estensione ti guiderà attraverso il processo per configurare una conness
 
 Una volta configurata la connessione, puoi migrare i dati dalla tua soluzione locale su [!INCLUDE[prod_short](includes/prod_short.md)] Online. L'estensione funziona in combinazione con un'estensione di replica dei dati disponibile per la soluzione specifica locale. Per ulteriori informazioni, vedi [Esecuzione dello strumento di migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconnect-intelligent-cloud-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

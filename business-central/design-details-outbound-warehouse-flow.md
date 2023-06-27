@@ -83,7 +83,7 @@ Nel diagramma seguente vengono illustrati i processi warehouse in uscita per div
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Mostra i passaggi in un flusso in uscita in una warehouse avanzata.":::
 
-### <a name="1-release-a-source-document" />1: Rilasciare un documento di origine
+### <a name="1-release-a-source-document-1" />1: Rilasciare un documento di origine
 
 Il rilascio di un documento di origine nelle configurazioni avanzate è uguale a quello delle configurazioni di base. Gli articoli diventano disponibili per la movimentazione nella warehouse. Ad esempio, possono essere inclusi in una spedizione.  
 

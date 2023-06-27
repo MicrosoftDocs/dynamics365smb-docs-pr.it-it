@@ -61,7 +61,7 @@ Se l'annullamento è correlato a una registrazione parziale della fattura, la ri
     Una nota di credito di vendita viene automaticamente creata e registrata per annullare la fattura di vendita registrata iniziale.
 5. Scegliere l'azione **Mostra nota credito di rettifica** per visualizzare la nota di credito di vendita registrata che annulla la fattura di vendita registrata iniziale.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -63,7 +63,7 @@ Esistono diversi tasti di scelta rapida che consentono di lavorare "senza mouse"
 
 Per ulteriori informazioni sui tasti di scelta rapida, vedere [Tasti di scelta rapida](keyboard-shortcuts.md). Alcuni dei tasti di scelta rapida vengono discussi in questo articolo.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Accelerazione dell'immissione di dati utilizzando Accesso rapido
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Accelerazione dell'immissione di dati utilizzando Accesso rapido
 
 Accesso rapido è una funzionalità concepita per l'immissione di dati utilizzando la tastiera. La funzionalità di Accesso rapido viene utilizzata nei campi (come nelle pagine scheda) e negli elenchi (righe e colonne). È utile quando si eseguono attività di digitazione ripetitive che richiedono la creazione di più record in sequenza. Gli esempi includono un batch di ordini di vendita o la registrazione di nuovi articoli.
 
@@ -125,7 +125,7 @@ Per avviare il filtro, seleziona ![l'icona riquadro Filtro](media/open-filter-pa
 
 I filtri sono particolarmente utili quando si visualizzano e analizzano i documenti più lunghi. Si supponga di aprire una fattura di vendita registrata. Quindi, filtrare le voci per visualizzare tutte le voci che hanno uno sconto individuale superiore al 5%. In alternativa, filtrare per visualizzare solo gli accessori per bici con "pro" nel nome.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Spostamento dello stato attivo sulle voci
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Spostamento dello stato attivo sulle voci
 
 Quando si lavora su documenti che includono una parte Voci, è possibile spostare lo stato attivo solo sulle voci. I documenti di esempio sono l'ordine di vendita o la pagina della fattura. La parte Voci si espande in modo da occupare quasi l'intera area di lavoro. Nasconde altre parti della pagina tranne l'area delle azioni in alto. Questo layout offre una migliore panoramica delle voci e maggiore spazio per utilizzarle.
 
@@ -266,7 +266,7 @@ Di seguito vengono forniti alcuni esempi.
 
  Il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Impostazione del separatore decimale usato dalle tastiere numeriche
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Impostazione del separatore decimale usato dalle tastiere numeriche
 
 Quando usi il tasto <kbd>separatore decimale</kbd> della tastiera numerica per inserire i dati, il separatore decimale effettivo che viene inserito nel campo è determinato dall'impostazione dell'area geografica in Business Central. La maggior parte delle aree geografiche utilizza il simbolo del punto (.) o della virgola (,) come separatore per i valori decimali, come in genere vedi negli importi in valuta. Il tasto decimale sulla tastierina si adatta alla tua area geografica. Spesso è diverso dai tasti punto o virgola sul resto della tastiera. Imposti l'area geografica in Business Central nella pagina **Impostazioni personali** .
 
@@ -275,7 +275,7 @@ Per esempio, supponiamo che stai usando una tastiera numerica che usa un punto (
 > [!TIP]
 > Potrebbero esserci occasioni in cui vuoi utilizzare il separatore decimale per inserire un punto (.). Ad esempio, supponi di inserire un intervallo di date in un filtro, ad esempio `01/01/2022..04/01/2022`, o qualsiasi cosa che richieda un punto. Per risolvere questo caso, premi i tasti <kbd>Alt</kbd>+<kbd>Separatore decimale</kbd> sulla tastiera numerica. Questa combinazione di tasti cambia il separatore decimale tra l'emissione di un punto e del separatore decimale determinato dall'impostazione **Area geografica**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

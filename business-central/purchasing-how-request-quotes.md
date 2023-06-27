@@ -31,7 +31,7 @@ L'offerta di acquisto viene rimossa dal database. Viene creato un ordine di acqu
 > [!NOTE]
 > Non è possibile convertire direttamente un'offerta di acquisto direttamente in una fattura di acquisto, come è possibile con le offerte di vendita. Per i dettagli su come creare una fattura di acquisto, leggi [Registrare gli acquisti con le fatture di acquisto](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-purchase-documents-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

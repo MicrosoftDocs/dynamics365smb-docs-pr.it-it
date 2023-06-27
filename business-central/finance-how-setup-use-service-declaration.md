@@ -155,7 +155,7 @@ Quando crei una fattura di acquisto, di vendita o di servizio, nelle relative ri
 
 Se specifichi un valore nel campo **Codice tipo di transazione di servizio** ma non selezioni il campo **Applicabile per la dichiarazione di servizio**, puoi pubblicare il documento ma la riga non verrà calcolata quando lo fai.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Vedere anche
 

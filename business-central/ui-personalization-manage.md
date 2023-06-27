@@ -62,7 +62,7 @@ Il layout delle pagine per il profilo viene ripristinato al layout predefinito.
 
 Il layout delle pagine selezionate viene adattato alle modifiche apportate.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Vedi il relativo [training Microsoft](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Vedere anche
 

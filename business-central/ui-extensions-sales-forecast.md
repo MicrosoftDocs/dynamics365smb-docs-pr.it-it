@@ -59,7 +59,7 @@ Prima di utilizzare il servizio Web [!INCLUDE[prod_short](includes/prod_short.md
 6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup previsione vendite e magazzino**, quindi scegli il collegamento correlato.  
 7. Espandere la Scheda dettaglio **Generale** e compilare i campi URL API e Chiave API.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-sales-inventory-forecast-extension" />Vedi il relativo [training Microsoft](/training/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also" />Vedere anche
 

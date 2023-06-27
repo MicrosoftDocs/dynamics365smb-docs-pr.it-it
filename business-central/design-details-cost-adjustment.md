@@ -158,7 +158,7 @@ Per impostare l'esecuzione automatica della rettifica dei costi quando si regist
 
 La selezione che si effettua nel campo **Rettifica costo automatica** è importante per le prestazioni e per la precisione dei costi. Periodi di tempo più brevi, ad esempio **Giorno** o **Settimana**, influiscono meno sulle prestazioni del sistema, in quanto fissano un requisito più rigoroso per cui solo i costi registrati nell'ultimo giorno o nell'ultima settimana possono essere rettificati automaticamente. Ciò significa che la rettifica dei costi automatica non viene eseguita frequentemente e quindi influisce meno sulle prestazioni del sistema. Tuttavia, ciò significa anche che i costi unitari possono essere meno precisi.  
 
-### <a name="example" />Esempio
+### <a name="example-1" />Esempio
 
 Nel seguente esempio viene illustrato uno scenario di rettifica costo automatica:  
 

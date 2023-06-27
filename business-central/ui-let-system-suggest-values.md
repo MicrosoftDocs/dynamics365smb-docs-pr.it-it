@@ -10,7 +10,7 @@ ms.search.form: '39, 251, 981'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="letting-includeprodshortincludesprodshortmd-suggest-values" />Suggerimento automatico dei valori in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="letting--suggest-values" />Suggerimento automatico dei valori in [!INCLUDE[prod_short](includes/prod_short.md)]
 [!INCLUDE[prod_short](includes/prod_short.md)] può aiutare a completare le attività in modo più rapido e più corretto precompilando campi o righe intere con dati che verrebbero altrimenti calcolati e immessi manualmente. Sebbene tale l'immissione dei dati automatica sia sempre corretta, è possibile modificarla in seguito se lo si desidera.
 
 La funzionalità che fornisce in automatico i valori dei campi è in genere offerta per le attività in cui si devono immettere grandi volumi di dati transazionali e per cui si desidera evitare errori e risparmiare tempo. Questo argomento contiene una selezione di tale funzionalità. Nei futuri aggiornamenti di [!INCLUDE[prod_short](includes/prod_short.md)] verranno aggiunte altre sezioni.

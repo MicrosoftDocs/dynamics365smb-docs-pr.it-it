@@ -21,7 +21,7 @@ I report sono disponibili nel menu **Report** delle pagine, degli elenchi e dell
 
 Quando scegli un report, in genere ti viene presentata una pagina di richiesta, intitolata con il nome del report, in cui imposti varie opzioni e filtri che determinano quali dati sono inclusi. Le sezioni seguenti spiegano come utilizzare la pagina di richiesta per creare, visualizzare in anteprima e stampare un report.
 
-## <a name="a-namesavedsettingsausing-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Utilizzo dei valori predefiniti: impostazioni predefinite
+## <a name="using-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Utilizzo dei valori predefiniti: impostazioni predefinite
 
 La maggior parte delle pagine di richiesta report include il campo **Utilizza valori predefiniti di**. Questo campo ti consente di selezionare le impostazioni predefinite per il report, che impostano automaticamente opzioni e filtri. Selezionare una voce dall'elenco a discesa per vedere che le opzioni e i filtri nella pagina della richiesta report cambiano di conseguenza.
 
@@ -80,7 +80,7 @@ Se la tua organizzazione ha configurato OneDrive per le funzionalità di sistema
 >
 > Puoi anche usare l'opzione **Documento Microsoft Excel (solo dati)** per creare nuovi layout di Excel per un determinato report. Per ulteriori informazioni, vedi [Utilizzare i layout di Excel](ui-excel-report-layouts.md).  
 
-## <a name="a-nameschedulereporta-scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Pianificazione dell'esecuzione posticipata o periodica di un report
+## <a name="scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Pianificazione dell'esecuzione posticipata o periodica di un report
 
 È possibile pianificare l'esecuzione singola o ricorrente di un report a una data e un'ora specifiche. I report previsti vengono inseriti nella coda commesse e vengono elaborati all'orario pianificato, in maniera analoga alle altre commesse. Scegli l'opzione **Programmazione** dopo aver scelto il pulsante **Invia a**, quindi immetti le informazioni quali stampante, ora e data. Il report viene aggiunto alla coda processi e viene eseguito alla data specificata. Quando il report viene elaborato, l'elemento viene rimosso dalla coda processi. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).  
 
@@ -103,13 +103,13 @@ Dopo aver modificato le opzioni del report, ripeti i primi due passaggi e selezi
 
 Ulteriori informazioni sulla gestione della coda processi in [Usare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).  
 
-## <a name="a-nameprintreportaprinting-a-report" /><a name="PrintReport"></a>Stampa di un report
+## <a name="printing-a-report" /><a name="PrintReport"></a>Stampa di un report
 
 Per stampare un report scegli **Stampa** nella pagina di richiesta report o nella barra dei menu della pagina **Anteprima**.
 
 Quando un report utilizza un layout di Excel, non vedrai il campo **Stampante**, il pulsante **Stampa** o **Anteprima**. C'è invece un'opzione **Scarica**. Per stampare, seleziona **Scarica**, quindi apri il file scaricato in Excel e stampa da lì.
 
-### <a name="a-nameprinteraprinter" /><a name="Printer"></a>Stampante
+### <a name="printer" /><a name="Printer"></a>Stampante
 
 Il campo **Stampante** nella pagina di richiesta del report mostra il nome della stampante a cui viene inviato il report. Per cambiare una stampante, seleziona semplicemente la stampante dall'elenco.
 
@@ -153,7 +153,7 @@ I campi nella scheda dettaglio **Avanzate** impostano le limitazioni sul report 
 > [!NOTE]
 > I valori massimi possono essere diversi per [!INCLUDE[prod_short](includes/prod_short.md)] in locale e un amministratore può modificarli. Per ulteriori informazioni, vedi [Configurazione di Business Central Server - Report](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Per una panoramica dei limiti dei report in [!INCLUDE[prod_short](includes/prod_short.md)] online, vedi [Limiti operativi](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

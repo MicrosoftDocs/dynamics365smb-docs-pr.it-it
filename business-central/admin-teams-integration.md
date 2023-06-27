@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="managing-microsoft-teams-integration-with-" />Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,7 +42,7 @@ Questa sezione descrive i requisiti minimi per il funzionamento dell'app [!INCLU
 
     L'impostazione dei criteri **Consenti anteprime URL** deve essere attivata. In caso contrario, non è possibile generare una scheda per i collegamenti di [!INCLUDE [prod_short](includes/prod_short.md)] incollati in una conversazione di Teams. Per ulteriori informazioni su questa impostazione, vedere [Gestire i criteri di messaggistica in Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-include-prodshortincludesprodshortmd-app-optional" />Gestione dell'app [!INCLUDE [prod_short](includes/prod_short.md)] (facoltativo)
+### <a name="managing-the--app-optional" />Gestione dell'app [!INCLUDE [prod_short](includes/prod_short.md)] (facoltativo)
 
 In qualità di amministratore di Teams, è possibile gestire tutte le app per l'organizzazione, inclusa l'app [!INCLUDE [prod_short](includes/prod_short.md)]. È possibile approvare o installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per l'organizzazione, impedire all'utente di installare l'app e altro ancora.
 
@@ -51,9 +51,9 @@ Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di M
 - [Gestire le app nell'interfaccia di amministrazione di Microsoft Teams](/MicrosoftTeams/manage-apps)
 - [Gestire i criteri di configurazione dell'app in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-include-prodshortincludesprodshortmd" />In [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-" />In [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements" />Requisiti minimi
+### <a name="minimum-requirements-1" />Requisiti minimi
 
 - Versione di [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -103,7 +103,7 @@ Il centro di amministrazione di Microsoft Teams è dove configuri le politiche d
 
 Microsoft Teams fornisce controlli estesi per la conformità e la gestione di dati sensibili o di identificazione personale, compresi i dati aggiunti a chat e canali mediante l'app [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="understanding-where-include-prodshortincludesprodshortmd-cards-are-stored" />Informazioni su dove vengono memorizzate le schede di [!INCLUDE [prod_short](includes/prod_short.md)]
+### <a name="understanding-where--cards-are-stored" />Informazioni su dove vengono memorizzate le schede di [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Dopo che una scheda è stata inviata a una chat, la scheda e i campi visualizzati nella scheda vengono copiati in Teams. Queste informazioni sono soggette ai criteri di Teams per l'organizzazione, come i criteri di conservazione dei dati. Quando si visualizzano i dettagli della scheda, i dati nella finestra dei dettagli non sono memorizzati in Teams. I dati rimangono memorizzati in [!INCLUDE [prod_short](includes/prod_short.md)] e verranno recuperati da Teams solo quando l'utente sceglie di visualizzare i dettagli. 
 
@@ -153,7 +153,7 @@ Configura l'impostazione per ambiente. Quindi, quando attivi o disattivi il riep
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  
 [Sviluppare per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

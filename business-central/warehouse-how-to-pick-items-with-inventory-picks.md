@@ -118,7 +118,7 @@ Negli scenari in cui una parte della quantità è assemblata e un'altra deve ess
 > [!NOTE]  
 > Se gli articoli vengono assemblati su ordinazione, il prelievo di magazzino per l'ordine di vendita collegato crea un movimento di magazzino per tutti i componenti di assemblaggio.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

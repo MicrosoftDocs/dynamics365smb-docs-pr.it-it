@@ -55,7 +55,7 @@ Le regole del flusso di posta cercano condizioni specifiche per i messaggi e agi
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] elabora solo i messaggi nella cartella Posta in arrivo nella cassetta postale condivisa. Se una regola sposta i messaggi dalla Posta in arrivo a un'altra cartella, tali messaggi non verranno elaborati. Inoltre, vengono ignorati anche i messaggi nella cartella Posta indesiderata.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />Impostare [!INCLUDE[prod_short](includes/prod_short.md)] per registrare i messaggi e-mail
+## <a name="set-up--to-log-email-messages" />Impostare [!INCLUDE[prod_short](includes/prod_short.md)] per registrare i messaggi e-mail
 
 Iniziare la registrazione dei messaggi e-mail con due semplici passaggi:
 
@@ -145,14 +145,14 @@ Se non si sta usando Azure Active Directory per gestire le identità e l'accesso
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Per modificare l'account utente utilizzato per il log delle e-mail
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Accedi a [!INCLUDE[prod_short](includes/prod_short.md)] con l'account utilizzato dal processo programmato per connettersi alla cassetta postale ed elaborare le e-mail. Questo account deve avere accesso a [!INCLUDE[prod_short](includes/prod_short.md)] ed Exchange Online.
 2. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Log delle e-mail**, quindi scegli il collegamento correlato. 
 3. Scegli **Correlato**, quindi **Movimento coda processi**.
 4. Riavvia il processo **Log delle e-mail**.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] locale
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] locale
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Log delle e-mail**, quindi scegli il collegamento correlato.
 2. Scegli **Azioni**, quindi **Rinnova token**.

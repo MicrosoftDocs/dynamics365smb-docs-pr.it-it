@@ -211,11 +211,11 @@ Gli scenari con l'alternativa A, B, C o D rappresentano quanto segue:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**>22/01/03**|**2000**|**Nessuno**|**Sì**|**0**|**0**|  
 |30|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|PaymentTolerance|Sì|0|5|  
 
-### <a name="payment-range-diagrams" />Diagrammi dell'intervallo di pagamento
+### <a name="payment-range-diagrams-1" />Diagrammi dell'intervallo di pagamento
 
 I diagrammi degli intervalli di pagamento per lo scenario sopra illustrato sono:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Data di pagamento <=15/01/03 (scenari 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Data di pagamento <=15/01/03 (scenari 1-3)
 
 Importo residuo in base a  
 
@@ -275,7 +275,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

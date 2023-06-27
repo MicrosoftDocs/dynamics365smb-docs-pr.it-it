@@ -89,7 +89,7 @@ In **Amministrazione Shopify**, seleziona **Includi o escludi imposte in base al
 > [!NOTE]
 > Questa impostazione non influisce sui prezzi nei mercati nazionali, che è controllata dall'interruttore **Tutti i prezzi includono le imposte**.
 
-### <a name="all-prices-include-tax-is-selected" />Tutti i prezzi includono le imposte è selezionata
+### <a name="all-prices-include-tax-is-selected-1" />Tutti i prezzi includono le imposte è selezionata
 
 |-|Vendite sul mercato interno|Paese estero dove l'imposta è inclusa nel prezzo|Paese estero dove l'imposta è esclusa|
 |------------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ In **Amministrazione Shopify**, seleziona **Includi o escludi imposte in base al
 
 Il prezzo per ciascun cliente cambia a seconda della sua posizione.
 
-### <a name="all-prices-include-tax-is-not-selected" />Tutti i prezzi includono le imposte non è selezionata
+### <a name="all-prices-include-tax-is-not-selected-1" />Tutti i prezzi includono le imposte non è selezionata
 
 |-|Vendite sul mercato interno|Paese estero dove l'imposta è inclusa nel prezzo|Paese estero dove l'imposta è esclusa|
 |------------------------|--------|--------|--------|

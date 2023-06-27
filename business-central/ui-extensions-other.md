@@ -16,7 +16,7 @@ In [AppSource.microsoft.com](https://appsource.microsoft.com/), è possibile ott
 
 La lista delle estensioni di altre società aumenta ogni mese. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) e scaricare app per semplificare il proprio lavoro in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -82,7 +82,7 @@ Il campo **Limite credito** in una scheda cliente specifica l'importo massimo ch
     |**Oltre Fido**|Il campo **Oltre fido** viene controllato e viene visualizzato un avviso che informa se il cliente ha un oltre fido.|
     |**Nessun Avviso**|Nessun avviso di credito viene visualizzato sullo stato del cliente.|
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

@@ -70,7 +70,7 @@ Con la funzione abilitata, una transazione di reso può essere registrata solo s
 | Specificare report predefiniti da utilizzare per diversi tipi di documenti. |[Selezione report in Business Central](across-report-selections.md)|
 |Specifica se gli utenti possono registrare le fatture di acquisto e se devono registrarle insieme a una spedizione. |[Definire un criterio di registrazione delle fatture per gli utenti](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

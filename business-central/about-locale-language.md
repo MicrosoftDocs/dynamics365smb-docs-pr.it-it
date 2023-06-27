@@ -50,7 +50,7 @@ Nella pagina **Setup contabilità generale**, se si attiva l'opzione **Richiedi 
 
 Nella pagina **Guida e supporto** è possibile visualizzare la versione di [!INCLUDE[prod_short](includes/prod_short.md)] su cui si basa la società. Se si desidera basare una società su una versione diversa, l'amministratore può creare un nuovo ambiente di produzione. Per ulteriori informazioni, vedere [Creare un nuovo ambiente di produzione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) nel contenuto per sviluppatori e professionisti IT.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Lingue della Guida di [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="languages-of-the--help" />Lingue della Guida di [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Il contenuto della Guida per la versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)] è pubblicato in Microsoft Learn. Il contenuto è disponibile in diverse lingue. Se accedi alla documentazione dall'interno di [!INCLUDE[prod_short](includes/prod_short.md)], il contenuto verrà visualizzato nella lingua in uso. Per impostazione predefinita, se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
 

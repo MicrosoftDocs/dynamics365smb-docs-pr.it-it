@@ -95,7 +95,7 @@ Si potrebbe decidere di addebitare al cliente una commissione di ristoccaggio pe
 
 Durante la registrazione dell'ordine di reso da vendita, la spesa di ristoccaggio viene aggiunta all'importo del movimento di vendita corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 

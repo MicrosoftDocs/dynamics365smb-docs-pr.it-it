@@ -49,7 +49,7 @@ Dopo avere creato le collocazioni, è possibile specificare il contenuto desider
 
 Poiché questo prospetto consente di utilizzare più righe di contenuto collocazione per più collocazioni, è possibile ottenere una panoramica precisa di tutti gli articoli che si stanno inserendo nelle varie collocazioni presenti in una determinata zona, corsia o scaffalatura.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Vedi il relativo [training Microsoft](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -51,7 +51,7 @@ Il seguente diagramma di flusso illustra in che modo il campo **Cod. collocazion
 
 :::image type="content" source="media/binflow.png" alt-text="Campo Codice collocazione nelle righe componenti dell'ordine di produzione.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Vedi il relativo [training Microsoft](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -119,7 +119,7 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Vedere anche
 

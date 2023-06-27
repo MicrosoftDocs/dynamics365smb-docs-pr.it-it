@@ -92,7 +92,7 @@ Se le collocazioni sono obbligatorie per un'ubicazione, i codici zona e collocaz
 * Per le configurazioni avanzate che utilizzano lo stoccaggio e il prelievo diretti, [!INCLUDE [prod_short](includes/prod_short.md)] utilizza il codice collocazione di carico dalla pagina **Scheda ubicazione** per l'ubicazione. Se non viene specificato un codice collocazione di carico, non viene specificata alcuna collocazione. Se le collocazioni dell'articolo e di carico non corrispondono, il codice collocazione di carico è vuoto.
 * In altre configurazioni, se non è specificato un codice collocazione di carico, [!INCLUDE [prod_short](includes/prod_short.md)] utilizza il codice collocazione del documento di origine.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also" />Vedere anche
 

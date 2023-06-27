@@ -57,7 +57,7 @@ L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni p
 | Nelle pagine **Piano dei conti** e **Movimenti C/G** utilizza una funzione di ricerca per trovare movimenti di contabilità generale per documenti registrati che non hanno record di documenti in entrata e successivamente collegali centralmente a record esistenti o creane di nuovi con file di documento allegati. |[Trovare documenti registrati senza record di documenti in entrata](across-how-find-posted-documents-without-income-document-records.md) |
 | Per ottenere una panoramica migliore è possibile impostare i record del documento in entrata su *Elaborato* e rimuoverli dalla visualizzazione predefinita. |[Gestire più record di documenti in entrata](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

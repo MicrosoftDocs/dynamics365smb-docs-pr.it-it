@@ -32,6 +32,6 @@ La tabella seguente indica le connessioni ai servizi Microsoft abilitate automat
 
 La privacy è molto importante per noi. Per ulteriori informazioni su come Microsoft gestisce i tuoi dati, vedi [Informativa sulla privacy di Microsoft](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

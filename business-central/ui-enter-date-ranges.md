@@ -123,7 +123,7 @@ Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati
 |m 23|Martedì della settimana 23 dell'anno della data di lavoro|
 |m-1|Martedì della settimana 1 dell'anno della data di lavoro|
 
-## <a name="a-namebkmksettingdaterangesa-setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Impostazione di intervalli di date
+## <a name="setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Impostazione di intervalli di date
 
 In elenchi, totali e report, è possibile impostare filtri su date, orari e periodi di tempo contenenti un valore iniziale e facoltativamente un valore finale per visualizzare solo i dati contenuti in tale intervallo. All'impostazione di intervalli di date si applicano regole standard.
 
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas" />Use Date Formulas
+## <a name="use-date-formulas-1" />Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -345,7 +345,7 @@ Per vedere quale unità di misura viene utilizzata in un campo di durata, immett
 
 Ad esempio, il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -77,7 +77,7 @@ Nella tabella seguente sono riportati alcuni esempi per spiegare come è possibi
 |`@*man`|Tutti i record con campi che finiscono con il testo **man**, indipendentemente dall'uso di maiuscole/minuscole. Ad esempio, **Sportsman**, ma non **Manchester** o **manual**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Filtro
+## <a name="filtering" /><a name="filtering"></a>Filtro
 
 I filtri forniscono un modo più avanzato e versatile per controllare quali record sono inclusi in un elenco in un report o in XMLport. Esistono due principali differenze tra la ricerca e il filtro, come descritto nella tabella seguente.
 
@@ -249,7 +249,7 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 |`..1299|1400..`|Include record con un numero minore o uguale a 1299 oppure un numero uguale a 1400 o maggiore, vale a dire tutti i numeri tranne quelli compresi tra 1300 e 1399.|  
 |`>50&<100`|Include record con numeri maggiori di 50 e minori di 100, vale a dire i numeri compresi tra 51 e 99.|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrare in base a valori che contengono simboli
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrare in base a valori che contengono simboli
 
 Potrebbero verificarsi casi in cui i valori dei campi contengono uno dei seguenti simboli:
 
@@ -302,7 +302,7 @@ Utilizzare `%myvendors` nel campo **Nessuno** fornitori per visualizzare tutti i
 |-----------------------|-----------------------|  
 |`%myvendors`|Fornitori in **Fornitori personali** in Gestione ruolo utente. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

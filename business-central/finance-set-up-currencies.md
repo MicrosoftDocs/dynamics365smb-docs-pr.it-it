@@ -16,7 +16,7 @@ Puoi utilizzare un servizio esterno per ottenere i tassi di cambio valuta più a
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="a-namecurracurrencies" /><a name="curr"></a>Valute
+## <a name="currencies" /><a name="curr"></a>Valute
 
 La tabella seguente descrive i campi dell'elenco **Valute**.
 
@@ -111,7 +111,7 @@ Non è possibile collegare codici valuta a conti di contabilità generale perch�
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

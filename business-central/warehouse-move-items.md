@@ -36,7 +36,7 @@ Le attività di conteggio, rettifica e riclassificazione degli articoli possono 
 |Utilizza il prospetto movimentazione warehouse, prelievo e stoccaggio interni, per spostare gli articoli in configurazioni di warehouse avanzate con prelievo e stoccaggio diretti.|[Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Ristrutturare la warehouse con nuovi codici collocazione e nuove caratteristiche per le collocazioni e spostarli.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Vedi il relativo [training Microsoft](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Vedere anche
 

@@ -75,7 +75,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 
 Gli articoli nella pagina **Articoli** vengono filtrati in base ai valori dell'attributo articolo specificato.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

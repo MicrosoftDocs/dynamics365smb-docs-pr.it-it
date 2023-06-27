@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# <a name="work-with-include-prodshortincludesprodshortmd-data-in-power-bi" />Utilizzare i dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
+# <a name="work-with--data-in-power-bi" />Utilizzare i dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
 
 In questo articolo vengono illustrate alcune delle nozioni di base sull'utilizzo di report e dashboard in Power BI che usa [!INCLUDE [prod_short](includes/prod_short.md)] come origine dati. L'articolo discute alcuni aspetti che aiuteranno a iniziare come utente di [!INCLUDE[prod_short](includes/prod_short.md)]. Per le linee guida generali e le istruzioni sull'uso di Power BI, vedi la [documentazione di Power BI per i consumatori](/power-bi/consumer).
 
@@ -44,7 +44,7 @@ Nel riquadro di spostamento, sotto Set di dati, selezionare Altre opzioni (...) 
 
 Per ulteriori informazioni, vedere [Configurare l'aggiornamento pianificato](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="a-nameuploadaupload-reports-from-files" /><a name="upload"></a>Caricare report da file
+## <a name="upload-reports-from-files" /><a name="upload"></a>Caricare report da file
 
 I report Power BI possono essere distribuiti tra gli utenti come file .pbix. Se è disponibile un file .pbix è possibile caricare il file in un'area di lavoro. Per caricare un report, procedere nel seguente modo:
 
@@ -62,7 +62,7 @@ Per ulteriori informazioni, vedere [Caricare il report nel servizio](/power-bi/p
 > [!TIP]
 > Se si sta usando [!INCLUDE[prod_short](includes/prod_short.md)] online, è possibile anche caricare un report da [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Utilizzare i report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)] - Caricare report](across-working-with-powerbi.md#upload).
 
-## <a name="a-nameshareashare-reports-with-others" /><a name="share"></a>Condividere i report con altri
+## <a name="share-reports-with-others" /><a name="share"></a>Condividere i report con altri
 
 Una volta che un report si trova nell'area di lavoro, è possibile condividerlo con altri nell'organizzazione.
 
@@ -71,7 +71,7 @@ Per condividere un report, in un rapport di elenco o in un rapporto aperto, sele
 > [!NOTE]
 > È necessario avere una [licenza Power BI Pro](/power-bi/service-features-license-type) per se e per le persone con cui si condivide. Il contenuto deve trovarsi in un'area di lavoro con una [capacità premium](/power-bi/service-premium-what-is). Per ulteriori informazioni, vedere [In che modo condividere il tuo lavoro in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

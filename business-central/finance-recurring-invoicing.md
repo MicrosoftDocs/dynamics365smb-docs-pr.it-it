@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
 ---
-# <a name="work-with-recurring-revenue-in-includeprodshortincludesprodshortmd" />Utilizzo del ricavo ricorrente in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-" />Utilizzo del ricavo ricorrente in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Molte aziende stanno passando da un modello di ricavo aziendale in cui i ricavi vengono effettuati dall'acquisto singolo di un cliente a un modello di abbonamento in cui i ricavi vengono effettuati su base ricorrente in cambio di un accesso coerente alla consegna di un bene o servizio.
 [!INCLUDE[prod_short](includes/prod_short.md)] ha le seguenti opzioni per automatizzare il modo in cui si inviano le fatture di abbonamento ai clienti e registrare il ricavo periodico. 
@@ -35,7 +35,7 @@ Il giornale di registrazione commesse periodico è un'alternativa più avanzata 
 
 Dopo aver pubblicato un giornale di registrazione commesse periodico, è possibile creare più fatture con l'attività **Crea fattura vendita per commessa**. È possibile rivedere e pubblicare le fatture create nella pagina **Fatture vendita**.
 
-### <a name="why-use-this-option" />Perché usare questa opzione
+### <a name="why-use-this-option-1" />Perché usare questa opzione
 
 Con questa opzione, seguire la procedura di fatturazione standard con tutti i vantaggi, inclusi layout standard e cliente per le preferenze di comunicazione. È inoltre possibile definire i prezzi per ciascuna commessa individualmente.
 
@@ -47,7 +47,7 @@ Per ulteriori informazioni, vedere [Creare righe del giornale di registrazione c
 
 Se è spesso necessario creare righe di vendita e acquisto con informazioni simili, è possibile impostare righe di vendita ricorrenti da inserire nei documenti di vendita e di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti. Utilizzare il processo batch **Crea fatture di vendita periodica** per creare fatture di vendita in base alle righe di vendita ricorrenti assegnate ai clienti e con date di registrazione comprese nell'intervallo di date valide specificato nelle righe di vendita ricorrenti.  
 
-### <a name="why-use-this-option" />Perché usare questa opzione
+### <a name="why-use-this-option-2" />Perché usare questa opzione
 
 Con questa opzione, è possibile assegnare le stesse righe ricorrenti a più clienti. È possibile definire un periodo di validità per le righe di vendita ricorrenti per un cliente specifico. È possibile assegnare più righe ricorrenti allo stesso cliente e tutte saranno incluse nella fattura.
 
@@ -62,7 +62,7 @@ Un contratto di assistenza contiene gli accordi di contratto di assistenza tra i
 È possibile definire la data di inizio del contratto, il periodo della fattura, se il contratto è prepagato o meno, le specifiche di aggiornamento dei prezzi se si prevede di modificare i prezzi mentre il contratto è attivo. È possibile utilizzare sia gli articoli di assistenza sia gli articoli nelle righe del contratto di assistenza.
 È possibile creare modelli dei contratti per definire il modo in cui creare determinati tipi di contratti.  
 
-### <a name="why-use-this-option" />Perché usare questa opzione
+### <a name="why-use-this-option-3" />Perché usare questa opzione
 
 Con questa opzione, si utilizza una parte della funzionalità avanzata di gestione dei servizi che non si limita all'emissione di fatture ricorrenti, ma supporta le operazioni di riparazione e assistenza sul campo.
 
@@ -78,7 +78,7 @@ Ci sono diverse funzionalità correlate in [!INCLUDE[prod_short](includes/prod_s
 Un ordine di vendita programmato rappresenta la struttura di un accordo a lungo termine tra la società e il cliente.
 Un ordine programmato viene in genere creato quando un cliente si impegna ad acquistare grandi quantità che verranno consegnate con diverse spedizioni più piccole effettuate in un determinato periodo di tempo. Gli ordini programmati riguardano spesso un solo articolo con date di consegna predefinite. Il motivo principale dell'utilizzo di un ordine programmato anziché di un ordine di vendita consiste nel fatto che le quantità immesse in un ordine programmato non hanno influenza sulla disponibilità dell'articolo e pertanto tali ordini possono essere utilizzati come prospetto per il monitoraggio, le previsioni e le pianificazioni.
 
-#### <a name="why-use-this-option" />Perché usare questa opzione
+#### <a name="why-use-this-option-4" />Perché usare questa opzione
 
 Con questa opzione, si utilizza la domanda prevista, pertanto le informazioni vengono prese in considerazione durante le normali procedure di pianificazione. Per ulteriori informazioni, vedere [Previsioni della domanda e ordini programmati](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
@@ -91,7 +91,7 @@ Per ulteriori informazioni, vedere [Utilizzare ordini vendita programmati](sales
 È possibile utilizzare gli ordini ricorrenti per creare modelli di ordine programmato in modo che gli ordini di vendita possano essere creati in base agli intervalli di date definiti. Ad esempio, se si consegna lo stesso ordine cliente ogni due settimane, è possibile utilizzare un ordine cliente programmato e creare ordini ricorrenti.
 È possibile utilizzare le categorie ricorrenti per definire un intervallo di parametri che mostrano come effettuare gli ordini. Queste categorie sono assegnate ad ordini programmati che devono essere creati regolarmente. Per creare gli ordini ricorrenti, sarà necessario eseguire periodicamente il processo di creazione degli ordini ricorrenti. 
 
-#### <a name="why-use-this-option" />Perché usare questa opzione
+#### <a name="why-use-this-option-5" />Perché usare questa opzione
 
 Con questa opzione, è possibile scegliere tra prezzi fissi e "migliori".
 

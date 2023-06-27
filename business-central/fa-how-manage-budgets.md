@@ -54,7 +54,7 @@ Utilizzare il report **Cespite - Valore Previsto** per calcolare l'ammortamento 
 4. Non compilare la Scheda dettaglio **Cespite** in modo che vengano inclusi tutti i cespiti. Nel campo **Cespite previsto** immettere **No** per escludere i cespiti previsti o **Sì** per visualizzare solo i cespiti previsti.
 5. Seleziona il pulsante **Stampa** o **Anteprima**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudget-fixed-assets" />Vedi il relativo [training Microsoft](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also" />Vedere anche
 

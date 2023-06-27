@@ -237,7 +237,7 @@ Puoi specificare i report che devono essere stampati in fasi diverse scegliendo 
 > [!NOTE]
 > I report disponibili possono variare in base alla localizzazione del tuo paese. L'applicazione di base non include alcun layout.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Vedi il relativo [training Microsoft](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Vedere anche
 

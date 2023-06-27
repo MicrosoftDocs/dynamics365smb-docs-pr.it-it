@@ -121,7 +121,7 @@ I campi **Data documento**, **Importo (VAT)** della pagina **Movimenti contabili
 
 Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/prod_short.md)] comprime le transazioni per **Data del documento** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa**.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa
 
 È inoltre possibile creare il proprio servizio Web predittivo basato su un modello pubblico denominato **Forecasting model per Microsoft Business Central**. Il modello predittivo è disponibile anche online nella raccolta Azure AI. Attenersi alla seguente procedura per utilizzare il modello:  
 
@@ -134,7 +134,7 @@ Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/pr
 7. Espandi la Scheda dettaglio **Azure per intelligenza artificiale** e quindi compila i campi, inclusi l'URL dell'API e la chiave API forniti da Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Nella Gestione ruolo utente Contabile, nel grafico **Previsione flusso di cassa**, scegli l'azione **Ricalcola previsione**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedere anche
 

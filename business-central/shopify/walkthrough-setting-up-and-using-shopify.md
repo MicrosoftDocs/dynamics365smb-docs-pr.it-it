@@ -132,11 +132,11 @@ In **Amministrazione Shopify** nota che l'ordine è ora contrassegnato come *Com
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Procedura dettagliata: invita i tuoi clienti nel tuo nuovo punto vendita online
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 
 Dopo un avvio rapido di successo del tuo nuovo punto vendita online, desideri che i tuoi attuali clienti lo visitino e inizino a effettuare ordini.
 
-### <a name="steps" />Passaggi
+### <a name="steps-1" />Passaggi
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passaggi:
 
@@ -148,11 +148,11 @@ In **Amministrazione Shopify** nota che i clienti sono stati importati. Apri uno
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Procedura dettagliata: messa a punto della gestione degli elementi
 
-### <a name="scenario" />Scenario
+### <a name="scenario-2" />Scenario
 
 Ti piacerà aggiungere maggiore flessibilità e controllo ai tuoi processi relativi alla gestione degli articoli. Desideri migliorare la descrizione del prodotto e desideri aggiungere ulteriori passaggi di revisione prima che i prodotti diventino disponibili per il cliente finale.
 
-### <a name="steps" />Passaggi
+### <a name="steps-2" />Passaggi
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passaggi:
 
@@ -241,11 +241,11 @@ Nel **punto vendita Shopify online** apri il catalogo prodotti, trova il prodott
 
 ## <a name="walkthrough-import-items-from-shopify" />Procedura dettagliata: importare articoli da Shopify
 
-### <a name="scenario" />Scenario
+### <a name="scenario-3" />Scenario
 
 Hai già un punto vendita online di successo e vorresti iniziare a usare [!INCLUDE[prod_short](../includes/prod_short.md)] come software gestionale aziendale. Desideri importare quanti più dati possibile da Shopify. 
 
-### <a name="steps" />Passaggi
+### <a name="steps-3" />Passaggi
 
 Questa è una continuazione di [Procedura dettagliata: iniziare a vendere prodotti online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Puoi anche provare con i tuoi dati, ad esempio la tua sandbox o il tuo punto vendita Shopify.
 

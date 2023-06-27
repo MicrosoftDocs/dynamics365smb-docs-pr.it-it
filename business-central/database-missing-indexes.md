@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/09/2022
 ---
-# <a name="database-missing-indexes-in-includeprodlongincludesprodlongmd" />Indici mancanti del database in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-missing-indexes-in-" />Indici mancanti del database in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Gli amministratori e gli sviluppatori possono rendere il database più efficiente e, in definitiva, migliorare le prestazioni dell'applicazione utilizzando le informazioni estratte da **Indici mancanti del database** in [!INCLUDE[prod_short](includes/prod_short.md)].
 

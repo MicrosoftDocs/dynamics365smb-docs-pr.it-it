@@ -70,7 +70,7 @@ Per utilizzare la pagina **Prospetto creaz. collocazione**, è necessario essere
 
 Ripetere la procedura per un altro gruppo di collocazioni finché non sono state create tutte le collocazioni desiderate per la warehouse.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-bins" />Vedi il relativo [training Microsoft](/training/modules/create-new-bins/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-new-bins/)
 
 ## <a name="see-also" />Vedere anche
 

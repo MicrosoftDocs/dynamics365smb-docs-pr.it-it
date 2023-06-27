@@ -136,7 +136,7 @@ La creazione di una collocazione dedicata fornisce una funzionalità simile all'
 > [!NOTE]  
 >  La collocazione deve essere vuota prima di poter selezionare o deselezionare il campo **Dedicata**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Vedere anche
 

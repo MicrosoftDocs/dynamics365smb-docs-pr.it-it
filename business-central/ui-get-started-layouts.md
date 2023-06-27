@@ -47,7 +47,7 @@ A seconda della tua situazione, le attività possono variare. Utilizza la tabell
 |Cambiare il layout corrente utilizzato da un report in un altro layout|[Impostare il layout utilizzato da un report](ui-set-report-layout.md)|
 |Modificare il nome e la descrizione di un layout|[Rinominare un layout](#rename)|
 
-## <a name="a-namedecideadecide-what-type-of-layout-you-want" /><a name="decide"></a>Decidere quale tipo di layout usare
+## <a name="decide-what-type-of-layout-you-want" /><a name="decide"></a>Decidere quale tipo di layout usare
 
 La prima cosa quando si crea un layout è decidere quale [tipo di layout](ui-manage-report-layouts.md#layout-types) usare. Puoi scegliere tra Word, Excel o RDLC. Il tipo di layout dipenderà da come vuoi che appaia il report generato. Inoltre, dipende dalla tua conoscenza del software applicativo per la creazione dei layout, come Word, Excel e il Generatore report di SQL Server.
 
@@ -66,7 +66,7 @@ La prima cosa quando si crea un layout è decidere quale [tipo di layout](ui-man
 
 * I concetti di progetto generali dei layout Word e RDLC sono simili. Tuttavia ogni tipologia presenta determinate caratteristiche progettuali che influiscono sulla visualizzazione del report generato in [!INCLUDE[prod_short](includes/prod_short.md)]. Lo stesso report può apparire diverso quando si utilizza il layout di Word rispetto al layout di RDLC.
 
-## <a name="a-namecreateacreate-a-new-layout" /><a name="create"></a>Creare un nuovo layout
+## <a name="create-a-new-layout" /><a name="create"></a>Creare un nuovo layout
 
 Esistono due modi per creare un nuovo layout da un layout esistente. Un modo è salvare una copia del layout esistente. L'altro modo è esportare il layout esistente.
 
@@ -127,7 +127,7 @@ Se vuoi vedere come appare il report con il nuovo layout, seleziona il layout ne
 
 ---
 
-## <a name="a-namemodifyamodify-a-layout" /><a name="modify"></a>Modificare un layout
+## <a name="modify-a-layout" /><a name="modify"></a>Modificare un layout
 
 Attieniti alla seguente procedura per modificare un layout definito dall'utente esistente.
 
@@ -156,7 +156,7 @@ Attieniti alla seguente procedura per modificare un layout definito dall'utente 
    Il file selezionato viene caricato nel layout e torni alla pagina **Layout report**.
 7. Se vuoi vedere come appare il report con il nuovo layout, seleziona il layout nell'elenco, quindi seleziona **Esegui report**.
 
-## <a name="a-namereplaceareplace-a-layout" /><a name="replace"></a>Sostituire un layout
+## <a name="replace-a-layout" /><a name="replace"></a>Sostituire un layout
 
 Attieniti alla seguente procedura per sostituire il file di layout definito dall'utente esistente con un nuovo file.
 
@@ -168,7 +168,7 @@ Attieniti alla seguente procedura per sostituire il file di layout definito dall
    Il file selezionato viene caricato nel layout e torni alla pagina **Layout report**.
 5. Se vuoi vedere come appare il report con il nuovo layout, seleziona il layout nell'elenco, quindi seleziona **Esegui report**.
 
-## <a name="a-namerenamearename-a-layout" /><a name="rename"></a>Rinominare un layout
+## <a name="rename-a-layout" /><a name="rename"></a>Rinominare un layout
 
 Attieniti alla seguente procedura per modificare il nome e la descrizione di un layout definito dall'utente.
 
@@ -179,7 +179,7 @@ Attieniti alla seguente procedura per modificare il nome e la descrizione di un 
     > Per trovare il layout, usa la casella **Ricerca**, il riquadro **Filtro** e l'ordinamento delle colonne.
 3. Cambia il **Nome layout**, quindi seleziona **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

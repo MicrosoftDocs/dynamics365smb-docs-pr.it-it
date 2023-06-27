@@ -170,7 +170,7 @@ In molti paesi, le autorità doganali e fiscali hanno stabilito dei codici a ott
 
 Impostare nella pagina **Nomenclature combinate** tutti i codici utilizzati. Prima di iniziare la registrazione è necessario immettere i codici nella scheda articolo. Una volta impostati, immetterli nel campo **Nomenclatura combinata** della scheda articolo. Compilare anche il campo **Peso netto** della scheda articolo.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Vedere anche
 

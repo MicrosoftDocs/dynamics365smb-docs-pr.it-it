@@ -25,7 +25,7 @@ Se hai già integrato [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_
 > [!NOTE]
 > La riconnessione tramite [!INCLUDE[prod_short](includes/cds_long_md.md)] applicherà le impostazioni di sincronizzazione predefinite e sovrascriverà tutte le configurazioni a tua disposizione. Ad esempio, verranno applicati i mapping di tabella predefiniti.
 
-## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Impostazioni di integrazione specifiche per un'integrazione [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="integration-settings-that-are-specific-to-a--integration" />Impostazioni di integrazione specifiche per un'integrazione [!INCLUDE[crm_md](includes/crm_md.md)]
 L'integrazione con [!INCLUDE[prod_short](includes/prod_short.md)] avviene tramite [!INCLUDE[prod_short](includes/cds_long_md.md)] e sono molte le impostazioni e le tabelle standard fornite dall'integrazione. Oltre alle impostazioni standard, ce ne sono alcune specifiche di [!INCLUDE[crm_md](includes/crm_md.md)]. Queste impostazioni vengono elencate nelle seguenti sezioni.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Autorizzazioni e ruoli di sicurezza per gli account utente nelle vendite

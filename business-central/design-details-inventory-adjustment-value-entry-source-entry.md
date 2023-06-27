@@ -158,7 +158,7 @@ Per i gruppi di utenti a cui non è consentito registrare in dicembre ma a genna
 
 ## <a name="item-charge-scenario" />Scenario di addebito dell'articolo
 
-### <a name="prerequisites" />Prerequisiti
+### <a name="prerequisites-1" />Prerequisiti
 
 Inserite i seguenti valori:
 
@@ -184,7 +184,7 @@ Inserite i seguenti valori:
 
 - Consentire la pubblicazione di = vuoto  
 
-### <a name="to-test-the-scenario" />Per testare lo scenario
+### <a name="to-test-the-scenario-1" />Per testare lo scenario
 
 Testate questo scenario eseguendo i seguenti passi:
 

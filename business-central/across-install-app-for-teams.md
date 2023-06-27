@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="install-the-include-prodshortincludesprodshortmd-app-for-microsoft-teams" />Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams
+# <a name="install-the--app-for-microsoft-teams" />Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -80,7 +80,7 @@ Ora è possibile usare l'app in Teams per cercare i contatti o condividere i rec
 [Sviluppare per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

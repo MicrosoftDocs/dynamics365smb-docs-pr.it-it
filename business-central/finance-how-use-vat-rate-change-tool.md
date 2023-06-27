@@ -100,7 +100,7 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 > [!IMPORTANT]  
 > Dopo la conversione, il campo **Convertito** nella tabella **Movimento log modifiche aliquota IVA** è selezionato e il campo **Data convertita** nella tabella **Movimento log modifiche aliquota IVA** visualizza la data di conversione.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

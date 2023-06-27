@@ -114,7 +114,7 @@ Quando una tassonomia viene modificata è necessario aggiornare di conseguenza l
 6. Per importare la base di collegamento, scegliere l'azione **Importa**.  
 7. Scegli **Sì** per collegare la base di collegamento allo schema.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Vedere anche
 

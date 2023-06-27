@@ -87,7 +87,7 @@ I partner e i rivenditori Microsoft possono creare un'app che possono utilizzare
 > [!NOTE]
 > Se sei un partner o un rivenditore Microsoft e sei interessato a fornire un elenco di applicazioni raccomandate, vedi [Raccomandare le applicazioni da AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) nel contenuto di amministrazione.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 
@@ -101,7 +101,7 @@ I partner e i rivenditori Microsoft possono creare un'app che possono utilizzare
 [App per [!INCLUDE[prod_short](includes/prod_short.md)] fornite da altri provider](ui-extensions-other.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

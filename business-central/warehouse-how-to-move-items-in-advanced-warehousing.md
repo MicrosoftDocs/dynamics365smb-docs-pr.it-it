@@ -138,7 +138,7 @@ Se è necessario registrare il fatto che gli articoli sono già stati spostati i
 2. Compilare i campi **Nr. articolo**, **Codice Da zona**, **Dal codice collocazione**, **A codice zona** e **A codice collocazione**.  
 3. Scegliere l'azione **Registra**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Vedi il relativo [training Microsoft](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Vedere anche
 

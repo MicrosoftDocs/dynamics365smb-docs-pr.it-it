@@ -112,7 +112,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 4.  Scegliere il pulsante **OK** per salvare le modifiche.
 
-## <a name="setting-up-a-job" />Impostazione di una commessa
+## <a name="setting-up-a-job-1" />Impostazione di una commessa
 
  In questo scenario, CRONUS si è aggiudicata un appalto dal cliente Progressive Home Furnishings per la progettazione di un'aula conferenze e di rappresentanza. Il cliente ha sede negli Stati Uniti e il progetto richiede software particolare. Il manager di progetto raggiunge un accordo con il cliente e crea una commessa per il contratto.  
 
@@ -258,7 +258,7 @@ Le righe sono così registrate.
 2.  Scegliere l'azione **Statistiche**. È possibile esaminare informazioni dettagliate su prezzi, costi e margini delle commesse sia in valuta locale che estera.  
 3.  Scegliere il pulsante **Chiudi** per chiudere la pagina **Statistiche commessa**.  
 
-## <a name="handling-fixed-prices" />Gestione dei prezzi fissi
+## <a name="handling-fixed-prices-1" />Gestione dei prezzi fissi
 
  CRONUS ha ottenuto un contratto per l'allestimento di alcune aule per conferenze. Come manager del progetto, Alboni vuole una panoramica precisa dei task necessari per la commessa con i costi previsti e sostenuti associati per ciascun task. Inoltre, Alboni desidera conoscere il prezzo totale a contratto della commessa e l'importo fatturato finora. Ha concluso un contratto con il cliente in cui sono stati concordati prezzi fissi per la commessa.  
 
@@ -454,7 +454,7 @@ Le procedure riportate di seguito mostrano come creare una nuova commessa, impos
 
  In questa procedura dettagliata sono state riprodotte alcune delle operazioni di base relative alla gestione delle commesse in [!INCLUDE[prod_short](includes/prod_short.md)]. Si è appreso come creare una nuova commessa, come copiare una commessa e come gestire i pagamenti. Inoltre, è stato illustrato come tenere traccia delle ore e creare le fatture.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Vedi il relativo [training Microsoft](/training/paths/create-jobs/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/create-jobs/)
 
 ## <a name="see-also" />Vedere anche
 

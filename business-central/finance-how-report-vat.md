@@ -35,7 +35,7 @@ Se si desidera visualizzare uno storico completo delle voci di IVA, ogni registr
 > [!NOTE]
 > Ogni ambiente [!INCLUDE[prod_short](includes/prod_short.md)] è destinato a gestire le dichiarazioni in base alle normative in un singolo paese. Ad esempio, la versione olandese di [!INCLUDE[prod_short](includes/prod_short.md)] gestisce le dichiarazioni IVA nei Paesi Bassi ma non in altri paesi. Allo stesso modo, la versione americana di [!INCLUDE[prod_short](includes/prod_short.md)] gestisce la dichiarazione 1099 negli Stati Uniti e non supporta la richiesta di dichiarazione IVA in altri paesi, a meno che non sia portata da un'estensione fornita dall'ecosistema partner o da una modifica del codice specifica del cliente.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Informazioni sul report Lista vendite UE
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Informazioni sul report Lista vendite UE
 
 Nell'Unione Europea (UE) e nel Regno Unito, tutte le società che vendono beni e servizi a clienti con partita IVA, inclusi i clienti in altri paesi dell'Unione Europea (UE), è necessario inviare una versione elettronica del report Lista vendite UE ai clienti e alle autorità fiscali. Il report **Lista vendite UE** è valido solo per i paesi dell'Unione Europea.
 
@@ -53,7 +53,7 @@ Dopo che l'autorità fiscale ha esaminato il report, invia un messaggio e-mail a
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>Informazioni sul report Dichiarazione IVA
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Informazioni sul report Dichiarazione IVA
 
 Utilizzare questo report per inviare l'IVA per i documenti di vendita e di acquisto, ad esempio gli ordini vendita e gli ordini acquisto, le fatture e le note di credito. Le informazioni nel report vengono mostrate nello stesso formato di quello utilizzato nel modulo di dichiarazione delle autorità fiscali e doganali.  
 
@@ -73,7 +73,7 @@ Per dichiarare l'IVA a un'autorità fiscale elettronicamente, è necessario conn
     > [!NOTE]  
     > È consigliabile testare la connessione. A tal fine, seleziona la casella di controllo **Modalità di test**, quindi prepara e invia la dichiarazione IVA come descritto nella sezione [Per preparare e inviare una dichiarazione IVA](#to-prepare-and-submit-a-vat-report). Mentre è attiva la modalità di test, il servizio verifica se l'autorità fiscale può ricevere la dichiarazione e lo stato del report indicherà se l'invio ha avuto esito positivo. È importante ricordare che non si tratta di un invio effettivo. Per inviare realmente il report, è necessario deselezionare la casella di controllo **Modalità di test** e quindi ripetere la procedura di invio.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />Per impostare i report IVA in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />Per impostare i report IVA in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ Nella tabella seguente sono descritte le codeunit da creare per il report.
 > [!Note]
 > Quando crei le codeunit per il report, presta attenzione al valore nel campo **Versione report IVA**. Questo campo deve riflettere la versione del report che è o era richiesto dall'autorità fiscale. Ad esempio, si potrebbe immettere **2021** nel campo per indicare che il report è conforme ai requisiti in essere in quell'anno. Per individuare la versione corrente, contattare l'autorità fiscale.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

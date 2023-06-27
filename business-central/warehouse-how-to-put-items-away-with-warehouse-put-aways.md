@@ -112,7 +112,7 @@ Se un'ubicazione è impostata per l'elaborazione degli stoccaggi e dei carichi e
 
 5. Una volta posizionati tutti gli articoli nelle collocazioni, come indicato nelle istruzioni, scegliere l'azione **Registra stoccaggio**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Vedi il relativo [training Microsoft](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Vedere anche
 

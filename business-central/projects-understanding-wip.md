@@ -27,7 +27,7 @@ Per tenere traccia del valore nella contabilità generale, è possibile calcolar
 | Percentuale di completamento |Costi riconosciuti = Costi totali utilizzo<br /><br /> Ricavo riconosciuto = Prezzo totale fatturabile x Percentuale di completamento<br /><br /> Percentuale di completamento = Costi totali utilizzo/Costi totali budget<br /> Aquisita nel campo **% completamento costi** nelle righe del task commessa<br /><br /> Vendite WIP = Vendite riconosciute - Prezzo fatturato fatturabile |I calcoli della percentuale di completamento riconoscono il ricavo in modo proporzionale in base alla percentuale di completamento, ovvero il rapporto tra i costi totali utilizzo e i costi di budget.<br /><br /> Questo calcolo richiede che il prezzo totale fatturabile e i costi totali budget siano inseriti correttamente per l'intera commessa. |
 | Contratto completato |Importo WIP = Importo costo WIP = Utilizzo (costo totale)<br /><br /> Importo vendita WIP = Fatturabile (prezzo fatturato) |Il ricavo e i costi vengono riconosciuti dal contratto completato solo in seguito al completamento della commessa. Ciò risulta utile qualora le previsioni dei costi e del ricavo della commessa siano particolarmente incerte.<br /><br /> Qualsiasi utilizzo viene registrato in Conto costi WIP (cespiti) e tutte le vendite fatturate vengono registrate in Conto vendite fatturate WIP (passività), fino al completamento della commessa. |
 
-## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Vedi il relativo [training Microsoft](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Vedere anche
 

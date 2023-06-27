@@ -89,7 +89,7 @@ Nel calcolo della quantità rivalutabile per gli articoli tramite il metodo di c
 -   Un movimento valorizzazione con un tipo di movimento di **Scostamento**. Questo movimento registra la differenza tra il costo fatturato e il costo standard rivalutato.  
 -   Un movimento valorizzazione con un tipo di movimento di **Rivalutazione**. Questo movimento registra lo storno della rivalutazione del costo previsto.  
 
-### <a name="example" />Esempio
+### <a name="example-1" />Esempio
 Nel seguente esempio, basato sulla produzione della catena nell'esempio precedente, viene illustrato in che modo vengono creati i tre tipi di movimenti. Si basa sullo scenario seguente:  
 
 1.  L'utente registra i collegamenti acquistati come ricevuti con un costo unitario di VL 2,00.  
@@ -123,7 +123,7 @@ Nella seguente tabella vengono mostrati i criteri utilizzati per un articolo che
 |E|Successivamente al numero movimento di rivalutazione.|Uguale alla data di registrazione di rivalutazione|Sì|  
 |D|Successivamente al numero movimento di rivalutazione.|Successivo alla data di registrazione di rivalutazione|Sì|  
 
-### <a name="example" />Esempio
+### <a name="example-2" />Esempio
 Il seguente esempio, che illustra la rivalutazione di un articolo che utilizza il metodo di costing FIFO, si basa sul seguente scenario:  
 
 1.  In data 20-01-01 l'utente registra un acquisto di 6 unità.  

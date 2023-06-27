@@ -151,7 +151,7 @@ Nella pagina **Setup manufacturing**, il campo **Componenti nell'ubicazione** è
 
  ![Secondo esempio di movimenti di tracciabilità ordini nella tabella Movimenti impegni.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9" />Numeri di movimento 8 e 9
+### <a name="entry-numbers-8-and-9-1" />Numeri di movimento 8 e 9
  I movimenti di tracciabilità ordini per i due lotti del componente che riflettono la domanda nella tabella 5407 vengono modificati dallo stato di impegno di **Tracciabilità** a **Surplus**. Il motivo è che gli approvvigionamenti a cui erano collegati prima, nella tabella 32, sono stati utilizzati dalla spedizione dell'ordine di trasferimento.  
 
  Il surplus genuino, come n questo caso, riflette un approvvigionamento o una domanda effettiva eccedente che non viene tracciata. È un'indicazione di sbilanciamento nella rete di ordini, che genererà un messaggio di azione dal sistema di pianificazione a meno che non venga risolto in modo dinamico.  

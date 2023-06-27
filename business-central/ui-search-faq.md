@@ -30,7 +30,7 @@ Le azioni, le pagine e i report che provengono da estensioni vengono acquisiti t
 
 La ricerca della pagina si è evoluta nella funzionalità delle informazioni per aiutare a svolgere rapidamente il lavoro. La ricerca della pagina potrebbe essere utile per passare a pagine o report. A livello tecnico, la funzionalità delle informazioni non si basa più sul concetto di MenuSuite precedente.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />Utilizzo [!INCLUDE[prod_short](includes/prod_short.md)] in locale. La funzionalità delle informazioni è inclusa.
+### <a name="i-use-on-premises--does-that-include-tell-me" />Utilizzo [!INCLUDE[prod_short](includes/prod_short.md)] in locale. La funzionalità delle informazioni è inclusa.
 
 È possibile utilizzare la funzionalità delle informazioni nel client Web locale per trovare azioni, pagine e report, ma non app e servizi di consulenza su AppSource.
 

@@ -19,7 +19,7 @@ Dopo che viene abilitato un servizio di pagamento in [!INCLUDE[prod_short](inclu
 
 Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono installate in [!INCLUDE[prod_short](includes/prod_short.md)] e pronte per essere abilitate.  
 
-## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />Per abilitare un servizio di pagamento in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-" />Per abilitare un servizio di pagamento in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Servizi di pagamento**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Servizi di pagamento** scegliere l'azione **Nuovo**.  
@@ -37,7 +37,7 @@ Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono install
     > [!NOTE]  
     > Il campo **Servizio di pagamento** è disponibile solo se è stato abilitato il servizio di pagamento.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

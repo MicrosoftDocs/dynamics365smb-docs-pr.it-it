@@ -231,7 +231,7 @@ Quando si effettuano prelievi tramite il metodo FEFO, gli articoli la cui scaden
 
 Il modello di stoccaggio specifica un set di regole in ordine di priorità che si applicano quando crei gli stoccaggi. Ad esempio, un modello di stoccaggio può richiedere di posizionare gli articoli in una collocazione con contenuto collocazione con la stessa unità di misura. Se non è possibile trovare una collocazione simile con una capacità sufficiente, l'articolo deve essere collocato in una collocazione vuota. Assegni il modello di stoccaggio a un articolo e a un'ubicazione.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Vedere anche
 
@@ -239,6 +239,6 @@ Il modello di stoccaggio specifica un set di regole in ordine di priorità che s
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

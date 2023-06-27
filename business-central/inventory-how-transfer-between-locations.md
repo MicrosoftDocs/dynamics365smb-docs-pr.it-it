@@ -125,7 +125,7 @@ Se la quantità è stata spedita in una spedizione warehouse, una riga di rettif
 
 Per completare la correzione, riapri l'ordine di trasferimento, inserisci la quantità corretta, quindi registra l'ordine. Se l'ordine deve essere spedito tramite una spedizione warehouse, crea e registra una nuova spedizione warehouse.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-items" />Vedi il relativo [training Microsoft](/training/modules/transfer-items/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/transfer-items/)
 
 ## <a name="see-also" />Vedere anche
 

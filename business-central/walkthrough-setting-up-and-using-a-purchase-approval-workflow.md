@@ -117,7 +117,7 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] comprende
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Vedi il relativo [training Microsoft](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Vedere anche
 

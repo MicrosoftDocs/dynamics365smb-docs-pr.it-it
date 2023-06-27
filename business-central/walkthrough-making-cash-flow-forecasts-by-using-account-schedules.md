@@ -133,7 +133,7 @@ Ken è ora pronto per assegnare la definizione di colonna al nome del report fin
 2. Nella pagina **Report finanziario** è possibile selezionare un importo e quindi visualizzare i movimenti di previsione del flusso di cassa che compongono l'importo. Inoltre, è possibile visualizzare la formula utilizzata per calcolare l'importo. È anche possibile filtrare gli importi per data e dimensioni.  
 3. Scegliere l'azione **Stampa** per stampare la previsione del flusso di cassa.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

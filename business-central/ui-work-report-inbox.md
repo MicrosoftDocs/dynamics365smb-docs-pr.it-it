@@ -47,7 +47,7 @@ La condivisione dei report con i collaboratori è possibile anche sulla pagina *
 >
 > L'azione **Condividi** rende il file di report generato disponibile solo ad altri utenti su OneDrive for Business e non elenca il report programmato nella pagina **Report elaborati**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/build-reports/).
 
 ## <a name="see-also" />Vedere anche
 

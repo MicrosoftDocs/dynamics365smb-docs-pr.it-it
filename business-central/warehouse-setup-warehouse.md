@@ -35,7 +35,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Ottenere suggerimenti su come riorganizzare ubicazioni, collocazioni o zone per migliorare l'efficacia delle attività di warehouse.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-warehouse-management" />Vedi il relativo [training Microsoft](/training/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/set-up-warehouse-management/)
 
 ## <a name="see-also" />Vedere anche
 

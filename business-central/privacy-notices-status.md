@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Stato informative sulla privacy in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Stato informative sulla privacy in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Questo articolo discute cos'è un'informativa sulla privacy e spiega lo scopo della pagina **Stato informative sulla privacy** in [!INCLUDE[prod_short](includes/prod_short.md)]. Imparerai anche come gli amministratori possono utilizzare questa pagina.
 

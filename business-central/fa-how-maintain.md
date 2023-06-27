@@ -84,7 +84,7 @@ Nel report **Manutenzione - Dettagli**, è possibile visualizzare o stampare i m
 2. Compilare i campi in base alle esigenze.
 3. Seleziona il pulsante **Stampa** o **Anteprima**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-maintenance-insurances" />Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## <a name="see-also" />Vedere anche
 

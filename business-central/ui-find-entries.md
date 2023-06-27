@@ -46,7 +46,7 @@ Dopo aver effettuato una selezione, inserire le informazioni di ricerca pertinen
 > [!TIP]
 > Per un paio di esempi sull'utilizzo di **Trova movimenti**, vedere [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md) e [Procedura dettagliata: Tracciabilità dei numeri seriali/lotto](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedere anche
 

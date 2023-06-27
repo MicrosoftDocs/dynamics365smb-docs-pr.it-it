@@ -159,7 +159,7 @@ Le commesse consentono di pianificare l'impiego delle risorse dell'azienda e di 
 
  In questa procedura dettagliata sono stati svolti i passaggi del calcolo del WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In commesse più grandi, può essere utile trasferire periodicamente i costi a un conto WIP fino al completamento della commessa. In questa procedura dettagliata è stato illustrato come escludere le righe di task dal calcolo. È stato inoltre illustrato quando è necessario ricalcolare. Infine, è stato descritto come registrare il WIP nella contabilità generale. Inoltre è incluso un esempio di come stornare una registrazione WIP nella contabilità generale.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Vedi il relativo [training Microsoft](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Vedi anche
 

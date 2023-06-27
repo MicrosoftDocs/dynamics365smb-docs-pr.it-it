@@ -70,7 +70,7 @@ Puoi modificare le informazioni sulle carte dei venditori in qualsiasi momento. 
 5. Una volta completato il nuovo modello fornitore, scegli **OK**.  
    Il modello fornitore viene aggiunto all'elenco dei modelli fornitore, in modo che sia possibile utilizzarlo per creare nuove schede fornitore.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Vedere anche
 

@@ -30,7 +30,7 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 * [Creare report con XBRL](bi-create-reports-with-xbrl.md)  
 * [Gestire l'intento di accesso al database](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

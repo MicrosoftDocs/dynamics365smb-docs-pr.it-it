@@ -45,7 +45,7 @@ Per risparmiare tempo quando invii documenti ai contatti di clienti e fornitori 
 1. Nella pagina **Layout documento** nella riga di un layout di report che si desidera inviare a un contatto specifico per il cliente, scegliere l'azione **Seleziona e-mail da contatti**.
 2. Nella pagina **Contatti**, seleziona uno o più contatti, quindi scegli **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedi anche
 

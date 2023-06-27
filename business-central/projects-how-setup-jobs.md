@@ -99,7 +99,7 @@ Un aspetto della pianificazione delle commesse è decidere quali conti di regist
 | **Conto costi riconosciuti** |Conto spesa contenente i costi riconosciuti per la commessa. In genere si tratta di un conto di addebito. |
 | **Conto vendite riconosciute** |Conto avere contenente le entrate riconosciute per la commessa. In genere si tratta di un conto di accredito. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Vedere anche
 

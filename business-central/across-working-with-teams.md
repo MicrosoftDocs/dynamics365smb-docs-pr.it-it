@@ -93,13 +93,13 @@ Ecco un paio di cose da tenere a mente quando si utilizzano i dettagli della sch
 
 Per ulteriori informazioni sull'utilizzo delle schede e sui dettagli delle schede, vedi [Domande frequenti su Teams](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Condividi un link alla pagina da Business Central a Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Condividi un link alla pagina da Business Central a Teams
 
 Direttamente dalla maggior parte delle pagine di raccolta, come la pagina degli **articoli**, e dalle pagine dei dettagli, come la scheda degli **articoli**, puoi inviare un link alla pagina a destinatari specifici in una conversazione di Team. Per esempio, puoi condividere un link a una vista filtrata dei tuoi record. I destinatari possono quindi selezionare il link per aprire la pagina in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![Il menu Condividi visualizzato su una scheda.](media/teams-share-link-v2.png "Il menu Condividi visualizzato su una scheda.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Prerequisiti
+### <a name="prerequisites-1" />Prerequisiti
 
 - Avere accesso a Microsoft Teams.
 - (Facoltativo) Avere installato l'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams. 
@@ -127,6 +127,6 @@ Direttamente dalla maggior parte delle pagine di raccolta, come la pagina degli 
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  
 [Sviluppare per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

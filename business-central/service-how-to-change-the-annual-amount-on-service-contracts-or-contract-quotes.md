@@ -75,7 +75,7 @@ Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di con
 
 I passaggi vengono ripetuti per ogni riga di contratto.  
 
-#### <a name="example" />Esempio
+#### <a name="example-1" />Esempio
 La casella di controllo **Permetti differenza importo** non viene selezionata nel contratto di assistenza contenente tre righe di contratto con tali informazioni.  
 
 |Articolo|Costo Riga|Valore Riga|% Sconto Riga|Importo Sconto Riga|Importo Riga|Margine|  
@@ -113,7 +113,7 @@ Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di con
     * % sconto riga = Importo sconto riga / Valore riga * 100  
     * Margine = Importo riga - Costo riga  
 
-#### <a name="example" />Esempio
+#### <a name="example-2" />Esempio
 La casella di controllo **Permetti differenza importo** non viene selezionata nel contratto di assistenza contenente tre righe di contratto con tali informazioni.  
 
 |Articolo|Costo Riga|Valore Riga|% Sconto Riga|Importo Sconto Riga|Importo Riga|Margine|  

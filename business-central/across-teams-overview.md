@@ -83,7 +83,7 @@ Per ulteriori informazioni, vedi [Aggiungi una scheda Business Central in Teams]
 [Modifica della società e di altre impostazioni in Teams](across-teams-settings.md)  
 [Sviluppare per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

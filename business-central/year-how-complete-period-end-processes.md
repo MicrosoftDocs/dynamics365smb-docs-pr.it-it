@@ -57,7 +57,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] non è obbligatorio chiudere i
 
 * Completa le dichiarazioni fiscali.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />Vedi il relativo [training Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also" />Vedere anche
 

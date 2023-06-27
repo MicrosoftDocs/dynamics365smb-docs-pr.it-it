@@ -83,7 +83,7 @@ La distribuzione centralizzata è una funzione nel centro amministrativo di Micr
 
 Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amministrazione di Microsoft 365, come assegnare più utenti. Per ulteriori informazioni sulla distribuzione dei componenti aggiuntivi nel centro amministrativo, vedi [Distribuzione di componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Installare l'add-in per uso personale
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Installare l'add-in per uso personale
 
 Se la tua organizzazione lo permette, puoi installare l'add-in Business Central solo per te stesso. Contatta il tuo amministratore se non sei sicuro.
 
@@ -94,7 +94,7 @@ Se la tua organizzazione lo permette, puoi installare l'add-in Business Central 
 
 Business Central si collegherà al tuo server di posta elettronica e installerà l'add-in nel tuo Outlook. Non ci vorrà molto tempo. Ora sei pronto per iniziare ad usare l'add-in in Outlook.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Per Business Central on-premises
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>Per Business Central on-premises
 
 Se stai usando Business Central on-premises, l'installazione dell'add-in potrebbe essere leggermente diversa.
 
@@ -116,7 +116,7 @@ Se stai usando Business Central on-premises, l'installazione dell'add-in potrebb
 
 Ora sei pronto per iniziare ad usare l'add-in in Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 

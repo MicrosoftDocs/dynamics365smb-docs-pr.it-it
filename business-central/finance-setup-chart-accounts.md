@@ -49,7 +49,7 @@ Un nuovo campo, **Blocca eliminazione conti C/G**, è stato aggiunto alla pagina
 
 L'impostazione del campo **Blocca eliminazione conti C/G** su *sì* può essere considerata una procedura consigliata, così come l'impostazione della data nel campo **Verifica eliminazione conti C/G posteriori a**, ad esempio la data entro la quale ti viene richiesto di archiviare i dati finanziari.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Vedi il relativo [training Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Vedi anche
 
@@ -65,6 +65,6 @@ L'impostazione del campo **Blocca eliminazione conti C/G** su *sì* può essere 
 [Impostare e chiudere i saldi di conto economico nella versione spagnola](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Indentare e convalidare il piano dei conti nella versione spagnola](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

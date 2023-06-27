@@ -39,7 +39,7 @@ Questo video mostra l'associazione e la sincronizzazione dei dati nel contesto d
 2. Scegliere l'azione **Sincronizza adesso**.  
 3. Se un record può essere sincronizzato in una direzione, selezionare l'opzione che specifica la direzione di aggiornamento dei dati e scegliere **OK**.  
 
-## <a name="to-synchronize-a-single-record-from-includecrmmdincludescrmmdmd" />Per sincronizzare un singolo record da [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="to-synchronize-a-single-record-from-" />Per sincronizzare un singolo record da [!INCLUDE[crm_md](includes/crm_md.md)]
 
 1. In [!INCLUDE[crm_md](includes/crm_md.md)], aprire il modulo del record da associare. Ad esempio, la scheda Account o il modulo scheda Contatto.  
 2. Scegli l'azione **[!INCLUDE[prod_short](includes/prod_short.md)]** nella barra multifunzione per aprire e associare automaticamente il record.

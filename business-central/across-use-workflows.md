@@ -64,7 +64,7 @@ Prima di poter iniziare a utilizzare i flussi di lavoro, è necessario impostare
 | Visualizzare istanze dei passaggi del flusso di lavoro con lo stato **Completato**. | [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md) |
 | Eliminare un workflow di approvazione che non verrà più utilizzato. | [Eliminare i workflow di approvazione](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Vedere anche
 
