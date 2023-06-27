@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments" />Impostare le regole per il collegamento automatico dei pagamenti
+# <a name="set-up-rules-for-automatic-application-of-payments"></a>Impostare le regole per il collegamento automatico dei pagamenti
 
 Nella pagina **Regole di collegamento pagamenti**, si impostano le regole per stabilire in che modo il testo del pagamento (in una transazione bancaria) viene collegato automaticamente al testo sulle relative fatture aperte (non pagate), note di credito o altre voci quando viene utilizzata la funzione **Applica automaticamente** nella pagina **Registrazione riconciliazione pagamenti**. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +29,7 @@ Oltre ai criteri di corrispondenza, il segno dell'importo del pagamento dipende 
 - Per gli importi negativi, viene creata una corrispondenza innanzitutto con i movimenti aperti che rappresentano le fatture cliente e poi con le note di credito fornitore.
 - Per gli importi positivi, viene creata una corrispondenza innanzitutto con i movimenti aperti che rappresentano le fatture fornitore e poi con le note di credito cliente.
 
-## <a name="to-set-up-a-payment-application-rule" />Per impostare una regola di collegamento del pagamento
+## <a name="to-set-up-a-payment-application-rule"></a>Per impostare una regola di collegamento del pagamento
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Regole di collegamento pagamenti**, quindi seleziona il collegamento correlato.
 2. Definire una regola dell'applicazione di pagamento nuova o modificata compilando i campi di una riga come descritto nella tabella.
 
@@ -74,9 +74,9 @@ La tabella seguente descrive le regole di collegamento dei pagamenti standard in
 | Bassa              | 4        | Nr.                    | Nr.                             | Una corrispondenza                      |
 | Bassa              | 5        | Nr.                    | Nr.                             | Più corrispondenze               |
 
-## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
-## <a name="see-also" />Vedi anche
+## <a name="see-also"></a>Vedi anche
 [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  

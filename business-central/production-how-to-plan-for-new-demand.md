@@ -10,14 +10,14 @@ ms.search.form: '5522, 5524, 5526'
 ms.date: 07/29/2021
 ms.author: edupont
 ---
-# <a name="plan-for-new-demand-order-by-order" />Pianificare una nuova domanda ordine per ordine
+# <a name="plan-for-new-demand-order-by-order"></a>Pianificare una nuova domanda ordine per ordine
 
 È possibile eseguire questa attività di pianificazione nella pagina **Pianificazione Ordini**, in cui viene visualizzata tutta la nuova domanda, oltre alle informazioni sulla disponibilità e ai suggerimenti sulla fornitura. In questa finestra sono disponibili la visualizzazione e gli strumenti necessari per una pianificazione efficace della domanda dalle righe di vendita e dalle righe di componenti e per la creazione diretta di diversi tipi di ordini di approvvigionamento.  
 
 È possibile accedere alla pagina **Pianificazione ordini** in due modi: da un ordine che si desidera pianificare in modo specifico oppure in modalità batch per pianificare tutte le nuove domande.  
 
 
-## <a name="to-plan-for-new-production-order-demand" />Per pianificare la domanda di un nuovo ordine di produzione
+## <a name="to-plan-for-new-production-order-demand"></a>Per pianificare la domanda di un nuovo ordine di produzione
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini di produzione confermati**, quindi seleziona il collegamento correlato. È possibile effettuare tali passaggi per ordini di produzione pianificati, confermati o rilasciati.
 2. Aprire l'ordine di produzione che si desidera pianificare, quindi scegliere l'azione **Pianificazione**.  
@@ -25,7 +25,7 @@ ms.author: edupont
 
 Le righe di pianificazione appaiono nella pagina in base al filtro di visualizzazione **Domanda produzione**, che consente di mostrare le righe componente non completate di tutti gli ordini di produzione esistenti. Non viene deliberatamente mostrata la domanda solo per l'ordine di produzione selezionato poiché è necessario pianificare un ordine di produzione con una sintesi della domanda relativa a eventuali righe componente precedenti. Le righe di pianificazione relative all'ordine di produzione selezionato vengono espanse.  
 
-## <a name="to-plan-for-any-new-demand" />Per pianificare qualunque nuova domanda
+## <a name="to-plan-for-any-new-demand"></a>Per pianificare qualunque nuova domanda
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Pianificazione ordini**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Pianificazione ordini** scegliere l'azione **Calcola piano**.
@@ -81,7 +81,7 @@ Le righe di pianificazione appaiono nella pagina in base al filtro di visualizza
 > [!NOTE]  
 >  Se si immette una data successiva a quella di uscita, verrà visualizzato un messaggio di avviso.  
 
-## <a name="to-make-supply-orders" />Per creare ordini di approvvigionamento
+## <a name="to-make-supply-orders"></a>Per creare ordini di approvvigionamento
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione confermati**, quindi seleziona il collegamento correlato. È possibile effettuare tali passaggi per un ordine di produzione pianificato, confermato o rilasciato.  
 2. Aprire l'ordine di produzione che si desidera pianificare, quindi scegliere l'azione **Pianificazione**.  
@@ -108,7 +108,7 @@ Al termine delle operazioni di pianificazione nella pagina **Pianificazione Ordi
 > [!NOTE]  
 > È possibile che gli ordini di approvvigionamento creati introducano una nuova domanda dipendente, ad esempio relativa a ordini di produzione sottostanti, e che sia quindi necessario scegliere nuovamente **Calcola piano** per individuare tali domande e risolverle prima di passare alle altre righe dell'elenco.  
 
-## <a name="see-also" />Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Pianif.](production-planning.md)  

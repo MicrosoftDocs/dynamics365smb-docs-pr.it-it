@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ---
 
-# <a name="setting-up-service-management" />Impostazione della gestione assistenza
+# <a name="setting-up-service-management"></a>Impostazione della gestione assistenza
 Prima di iniziare a utilizzare le funzionalità Gestione assistenza in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario impostare alcune opzioni. Ad esempio, è possibile definire codici per servizi standard, indizi, guasti, articoli in assistenza e tipi di articoli in assistenza che il servizio clienti dell'azienda deve richiedere.  
 
 Quando si imposta la gestione dell'assistenza, è necessario decidere quali servizi di assistenza offrire ai clienti e pianificarli di conseguenza. Un servizio di assistenza è un tipo di lavoro svolto da una o più risorse, che viene fornito a un cliente. Ad esempio, un servizio di assistenza potrebbe essere un tipo di riparazione di computer. Un articolo in assistenza è l'attrezzatura o l'articolo che richiede assistenza, ad esempio, il computer da riparare, installato presso la sede di un dato cliente. È possibile impostare servizi di assistenza come parte di un gruppo di articoli in riparazione e in manutenzione correlati.  
@@ -35,7 +35,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Impostare gli articoli in assistenza e i componenti degli articoli in assistenza. |[Impostare gli articoli in assistenza](service-how-setup-service-items.md) |
 | Porre le basi per creare contratti e offerte di contratto di assistenza. |[Impostare i contratti di assistenza](service-how-setup-service-contracts.md) |
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Gestione assistenza](service-service.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 

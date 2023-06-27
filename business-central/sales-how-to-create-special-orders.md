@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="create-special-orders" />Creare ordini speciali
+# <a name="create-special-orders"></a>Creare ordini speciali
 
 È possibile creare un ordine speciale per uno specifico articolo non presente in catalogo che deve venire spedito a un determinato cliente. L'articolo viene spedito dal fornitore abituale alla warehouse dell'azienda e a questo punto può essere spedito al cliente da solo oppure insieme ad altri articoli di un ordine diverso.  
 
@@ -18,7 +18,7 @@ Gli ordini speciali implicano il collegamento dell'ordine di acquisto all'ordine
 
 Prima di poter utilizzare questa funzionalità è necessario impostare le schede per il cliente, il fornitore e l'articolo interessati dall'ordine.  
 
-## <a name="to-create-a-special-order" />Per creare un ordine speciale
+## <a name="to-create-a-special-order"></a>Per creare un ordine speciale
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordine vendita**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Creare e compilare un ordine di vendita per l'articolo. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
@@ -38,9 +38,9 @@ Un ordine di acquisto creato come ordine speciale per un ordine di vendita viene
 > [!NOTE]  
 >  Se l'elemento è già prenotato, non è possibile utilizzare la funzionalità ordine speciale. Pertanto, per gli articoli venduti in ordini speciali, assicurarsi che il campo **Impegno** nella scheda articolo non sia impostato su **Sempre**.  
 
-## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md)  
 [Vendite](sales-manage-sales.md)  

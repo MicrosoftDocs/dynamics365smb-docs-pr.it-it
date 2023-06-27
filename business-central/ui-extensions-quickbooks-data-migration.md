@@ -12,12 +12,12 @@ ms.date: 06/24/2021
 ms.author: edupont
 ---
 
-# <a name="the-quickbooks-data-migration-extension" />Estensione di migrazione dei dati QuickBooks
+# <a name="the-quickbooks-data-migration-extension"></a>Estensione di migrazione dei dati QuickBooks
 
 Questa estensione consente di eseguire la migrazione di clienti, fornitori, articoli e conti da QuickBooks [!INCLUDE[prod_short](includes/prod_short.md)]. Se l'azienda al momento utilizza QuickBooks, è possibile esportare le informazioni rilevanti e aprire una guida al setup assistito per caricare i dati in [!INCLUDE[prod_short](includes/prod_short.md)].  
 Per ulteriori informazioni, vedere [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md).
 
-## <a name="data-from-quickbooks-desktop" />Dati da QuickBooks Desktop
+## <a name="data-from-quickbooks-desktop"></a>Dati da QuickBooks Desktop
 
 È possibile importare i seguenti dati da QuickBooks Online a Business Central:
 
@@ -34,7 +34,7 @@ Verranno migrati solo gli importi complessivi relativi a documenti di vendita e 
 > [!NOTE]
 > Non vengono migrati gli ordini di acquisto o di vendita.
 
-## <a name="before-you-start" />Operazioni preliminari
+## <a name="before-you-start"></a>Operazioni preliminari
 
 Una parte importante del processo di migrazione consiste nello specificare i conti verso cui migrare le transazioni. Si consiglia di pianificare questa mappatura che prima della migrazione dei dati. Ad esempio, i conti in cui vengono registrate le transazioni relative a:
 
@@ -50,20 +50,20 @@ Per ottenere i dati dall'applicazione QuickBooks Desktop sarà necessario scaric
 > [!NOTE]
 > Attualmente lo strumento di esportazione di dati è compatibile solo con QuickBooks 2017 e 2018.
 
-## <a name="finding-the-quickbooks-data-migration-extension" />Utilizzo dell'estensione per la migrazione dei dati QuickBooks
+## <a name="finding-the-quickbooks-data-migration-extension"></a>Utilizzo dell'estensione per la migrazione dei dati QuickBooks
 
 L'estensione per la migrazione dei dati QuickBooks si trova nella Guida setup assistito Migrazione dati ed è pronta all'uso. Se sei pronto per iniziare ora e hai esportato i dati da QuickBooks, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assistito**, quindi scegli il collegamento correlato. Scegliere **Migra dati aziendali**, quindi seguire i passaggi nella guida.  
 
-## <a name="what-do-i-do-after-i-migrate-data" />Operazioni successive alla migrazione dei dati
+## <a name="what-do-i-do-after-i-migrate-data"></a>Operazioni successive alla migrazione dei dati
 
 Dopo aver migrato i dati, le transazioni hanno come stato Non registrata, quindi è possibile esaminarle e apportare modifiche. Per verificare le transazioni, andare alla pagina in cui vengono in genere visualizzate. Ad esempio, per esaminare le fatture di vendita non registrate, andare alla pagina Fatture di vendita. Per verificare le registrazioni pagamenti, andare alla pagina Registrazioni pagamenti.
 Esistono alcune operazioni consigliate: se le transazioni in QuickBooks presentano importi di markup o sconti, è necessario aggiungere manualmente gli importi alle transazioni relative in Business Central prima di registrarle.
 Se si utilizza l'IVA, può essere necessario aggiungere una categoria di registrazione business e articoli/servizi nel Setup registrazione in modo che sia possibile registrare gli importi IVA.
 Verificare i saldi iniziali per i conti della contabilità generale. QuickBooks non memorizza il saldo attuale per tutti i conti, potrebbe quindi essere necessario correggere i saldi iniziali.
 
-## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  

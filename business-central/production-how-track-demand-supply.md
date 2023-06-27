@@ -10,13 +10,13 @@ ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="track-relations-between-demand-and-supply" />Tenere traccia delle relazioni tra domanda e approvvigionamento
+# <a name="track-relations-between-demand-and-supply"></a>Tenere traccia delle relazioni tra domanda e approvvigionamento
 
 A partire da qualsiasi documento dell'approvvigionamento o della domanda, è possibile tenere traccia della richiesta dell'ordine (quantità tracciata), della previsione, dell'ordine di vendita programmato o del parametro di pianificazione (quantità non tracciata) che ha generato la riga di pianificazione in questione.
 
 I prospetti di pianificazione offrono anche informazioni di supporto alla pianificazione relative a entità non di ordine per consentire al responsabile della pianificazione di ottenere un piano di approvvigionamento ottimale. Per ulteriori informazioni, vedere [Elementi di pianificazione non tracciati](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## <a name="to-track-linked-items" />Per tracciare articoli collegati
+## <a name="to-track-linked-items"></a>Per tracciare articoli collegati
 Tramite i sistemi di impegno e pianificazione, la funzione di tracciabilità degli ordini consente di conoscere la relazione tra ordini di vendita, di produzione e di acquisto e l'ordine di manufacturing.
 
 Di seguito viene descritto come tenere traccia degli articoli collegati in un ordine di produzione pianificato. I passaggi sono simili per tutti gli altri tipi di ordini e per le righe del prospetto di pianificazione.
@@ -27,7 +27,7 @@ Di seguito viene descritto come tenere traccia degli articoli collegati in un or
 
 Nelle righe in **Tracciabilità ordine** vengono visualizzati i documenti collegati alla riga dell'ordine di produzione corrente.
 
-## <a name="untracked-planning-elements" />Elementi di pianificazione non tracciati
+## <a name="untracked-planning-elements"></a>Elementi di pianificazione non tracciati
 Quando si sceglie il campo **Qtà non tracciata** nella pagina **Pianificazione ordini**, viene visualizzata la pagina **Elementi di pianificazione non tracciati**. Questa finestra è utilizzate per due scopi:
 
 1. Contenere informazioni sulle quantità non tracciate che vengono visualizzate quando l'utente effettua una ricerca dalla pagina Tracciabilità ordine.
@@ -46,7 +46,7 @@ In questa pagina sono contenuti movimenti che rappresentano una quantità di sur
 - Molteplicità dell'ordine
 - Smorzamento (percentuale di dimensione del lotto)
 
-## <a name="see-also" />Vedi anche
+## <a name="see-also"></a>Vedi anche
 [Pianif.](production-planning.md)   
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

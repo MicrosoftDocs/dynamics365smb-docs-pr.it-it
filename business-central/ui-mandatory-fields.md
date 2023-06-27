@@ -10,19 +10,19 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: solsen
 ---
-# <a name="detecting-mandatory-fields" />Rilevare campi obbligatori
+# <a name="detecting-mandatory-fields"></a>Rilevare campi obbligatori
 
 Quando inserisci i dati, potresti vedere un asterisco rosso accanto a un campo. Questo asterisco indica che il campo è obbligatorio per un determinato processo. Ad esempio, stai per registrare una transazione, ma non hai compilato un campo importante.
 
 L'indizio visivo non ti obbliga a compilare il campo. L'asterisco rosso è un promemoria che segnala che sei bloccato e non puoi completare un processo.
 
-## <a name="examples" />Esempi
+## <a name="examples"></a>Esempi
 
 Nella pagina **Scheda cliente** l'asterisco rosso viene visualizzato nei campi **Nome** e **Cod. area imposte** e nei campi della categoria di registrazione per indicare che non è possibile registrare una transazione di vendita per il cliente senza compilare tali campi.
 
 Nella pagina **Scheda articolo**, l'asterisco rosso viene visualizzato nel campo **Descrizione** per indicare che non è possibile immettere l'articolo in una riga di un documento, ad esempio un ordine di vendita, senza compilare questo campo.
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

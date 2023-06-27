@@ -11,7 +11,7 @@ ms.search.forms: '6520,'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="trace-item-tracked-items" />Tracciare gli articoli tracciati
+# <a name="trace-item-tracked-items"></a>Tracciare gli articoli tracciati
 
 È possibile analizzare dove è stato utilizzato un articolo tracciato, nonché ottenere informazioni su come e quando l'articolo è stato ricevuto o prodotto, trasferito, venduto, consumato o reso. È inoltre possibile trovare tutte le istanze correnti di un numero seriale o di un numero di lotto specifico nel database. A tale scopo si utilizzano le funzionalità Tracciabilità articolo e [Trova movimenti](ui-find-entries.md).  
 
@@ -23,7 +23,7 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 
  Le due funzionalità possono essere utilizzate in combinazione trasferendo un numero seriale o un numero di lotto analizzato alla pagina **Trova movimenti** per completare lo scenario di analisi. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
-## <a name="to-trace-item-tracked-items" />Analizzare articoli tracciati
+## <a name="to-trace-item-tracked-items"></a>Analizzare articoli tracciati
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Tracciabilità articolo**, quindi scegli il collegamento correlato.  
 2.  Nei campi di filtro nella parte superiore della pagina immettere numeri di articolo specifici o utilizzare un filtro per i numeri di articolo che si desidera analizzare.  
@@ -52,16 +52,16 @@ Queste funzionalità possono essere particolarmente utili in ambito di controllo
 >   
 >  Per individuare le righe di tracciabilità dell'articolo in cui lo storico delle transazioni è già stato analizzato, fare clic sul pulsante **Vai a Elemento già analizzato**. La riga di tracciabilità articolo in questione viene selezionata e tutte le righe sottostanti vengono espanse.  
 
-## <a name="to-find-item-tracked-items-with-find-entries" />Per trovare gli articoli tracciati con la funzionalità Trova movimenti
+## <a name="to-find-item-tracked-items-with-find-entries"></a>Per trovare gli articoli tracciati con la funzionalità Trova movimenti
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Trova movimenti**, quindi seleziona il collegamento correlato.  
 2. Scegliere **Azioni** > **Trova per** > **Trova per riferimento articolo**.
 3. Nei campi **Nr. lotto** e **Nr. seriale**, immettere i numeri di tracciabilità articolo che si desidera analizzare.  
 4. Scegliere l'azione **Trova** per trovare tutte le istanze del numero seriale o di lotto nel database.  
 
-## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Magazzino](inventory-manage-inventory.md)  
 [Utilizzo dei numeri di serie, di lotto e di pacchetto](inventory-how-work-item-tracking.md)  

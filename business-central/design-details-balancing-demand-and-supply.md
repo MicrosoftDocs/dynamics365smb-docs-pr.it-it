@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/15/2022
 ms.custom: bap-template
 ---
-# <a name="design-details-balancing-supply-and-demand" />Dettagli di progettazione: Bilanciamento della domanda e dell'offerta
+# <a name="design-details-balancing-supply-and-demand"></a>Dettagli di progettazione: Bilanciamento della domanda e dell'offerta
 
 Per capire come funziona il sistema di pianificazione, è importante comprendere i suoi obiettivi prioritari:  
 
@@ -18,7 +18,7 @@ Per capire come funziona il sistema di pianificazione, è importante comprendere
 
 In genere, questi obiettivi vengono raggiunti equilibrando l'approvvigionamento con la domanda.  
 
-## <a name="supply-and-demand" />Domanda e offerta
+## <a name="supply-and-demand"></a>Domanda e offerta
 
 Il termine *approvvigionamento* si riferisce a qualsiasi tipo di quantità positiva o in entrata, come ad esempio:
 
@@ -46,7 +46,7 @@ Quando vengono caricati i profili di magazzino, i set di domanda-offerta vengono
 
 I livelli di magazzino e i parametri di pianificazione sono altri tipi di domanda e offerta. Questi tipi sono sottoposti al bilanciamento integrato per rifornire gli articoli di magazzino. Per ulteriori informazioni vedi [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md).
 
-## <a name="the-concept-of-balancing-in-brief" />Il concetto di bilanciamento in breve
+## <a name="the-concept-of-balancing-in-brief"></a>Il concetto di bilanciamento in breve
 
 La domanda viene dai tuoi clienti. L'approvvigionamento è ciò che crei e rimuovi per stabilire il saldo. Il sistema di pianificazione inizia con la domanda e successivamente risale a ritroso fino all'offerta.  
 
@@ -56,7 +56,7 @@ L'obiettivo della pianificazione consiste nel bilanciare la domanda e l'offerta 
 
 :::image type="content" source="media/nav_app_supply_planning_2_balancing.png" alt-text="Panoramica del bilanciamento dell'offerta e della domanda.":::
 
-## <a name="process-orders-before-the-planning-start-date" />Elaborare gli ordini prima della data di inizio pianificazione
+## <a name="process-orders-before-the-planning-start-date"></a>Elaborare gli ordini prima della data di inizio pianificazione
 
 Per evitare che un piano di approvvigionamento mostri suggerimenti irragionevoli, il sistema di pianificazione non pianificherà nulla nel periodo precedente la data di inizio pianificazione. La seguente regola si applica a tale periodo:
 
@@ -70,11 +70,11 @@ Con poche eccezioni, il sistema di pianificazione non suggerisce le modifiche ag
 
 Se la giacenza disponibile iniziale è minore di zero, il sistema di pianificazione suggerisce un ordine di approvvigionamento di emergenza datato il giorno precedente al periodo di pianificazione per coprire la quantità mancante. Il magazzino previsto e disponibile sarà sempre almeno uguale a zero quando inizia la pianificazione per il periodo futuro. Nella riga di pianificazione per questo ordine di approvvigionamento verrà visualizzata un'icona di avviso di emergenza. Verranno inoltre fornite informazioni aggiuntive.
 
-### <a name="serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period" />I numeri seriali o di lotto e i collegamenti ordine su ordine sono esenti dal periodo precedente
+### <a name="serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period"></a>I numeri seriali o di lotto e i collegamenti ordine su ordine sono esenti dal periodo precedente
 
 Se sono richiesti numeri di serie o di lotto o esiste un collegamento ordine su ordine, il sistema di pianificazione ignora la regola relativa al periodo precedente. Includerà quantità retrodatate dalla data di inizio e può suggerire azioni correttive se l'offerta e la domanda non sono sincronizzate. Questi set di domanda-offerta devono corrispondere per garantire che una domanda specifica sia soddisfatta.
 
-## <a name="load-inventory-profiles" />Caricare i profili di magazzino
+## <a name="load-inventory-profiles"></a>Caricare i profili di magazzino
 
 Per ordinare le origini di offerta e domanda, il sistema di pianificazione le organizza su due sequenze temporali chiamate profili di magazzino.  
 
@@ -98,7 +98,7 @@ In genere, il sistema di pianificazione considera tutti gli ordini di approvvigi
 
 Oltre a caricare i tipi di offerta e di domanda, alcuni tipi vengono caricati con attenzione alle regole speciali e alle dipendenze. Le seguenti sezioni di questo articolo descrivono queste regole e dipendenze.  
 
-### <a name="item-dimensions-are-separated" />Le dimensioni articolo sono separate
+### <a name="item-dimensions-are-separated"></a>Le dimensioni articolo sono separate
 
 Il piano di approvvigionamento deve essere calcolato per ogni combinazione delle dimensioni dell'articolo, ad esempio la variante e l'ubicazione. Solo le combinazioni che includono la necessità di offerta e/o di domanda devono essere calcolate.  
 
@@ -107,7 +107,7 @@ Il sistema di pianificazione ricerca le combinazioni nel profilo di magazzino. Q
 > [!NOTE]  
 > Non devi immettere un record di SKU durante l'immissione della domanda e/o dell'offerta per una particolare combinazione di variante e ubicazione. Di conseguenza, se una SKU non esiste per una combinazione specifica, [!INCLUDE [prod_short](includes/prod_short.md)] crea un record SKU temporaneo in base ai dati dell'articolo. Se l'opzione **Ubicazione obbligatoria** è attivata nella **pagina Setup magazzino**, devi creare una SKU o attivare l'interruttore **Componenti nell'ubicazione**. Per ulteriori informazioni, vedi [Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md).  
 
-### <a name="serial-and-lot-numbers-are-loaded-by-specification-level" />I numeri seriali e di lotto vengono caricati dal livello di specifica
+### <a name="serial-and-lot-numbers-are-loaded-by-specification-level"></a>I numeri seriali e di lotto vengono caricati dal livello di specifica
 
 I numeri di serie e di lotto vengono caricati nei profili del magazzino insieme alla domanda e all'offerta cui sono assegnati.  
 
@@ -122,7 +122,7 @@ Un altro motivo per cui l'approvvigionamento con numeri seriali e di lotto non �
 
 Il bilanciamento del numero di serie e di lotto non rispetta la regola di non pianificare nulla prima della data di inizio della pianificazione. Se la domanda e l'offerta non sono sincronizzati, il sistema di pianificazione suggerisce delle modifiche o dei nuovi ordini, indipendentemente dalla data di inizio della pianificazione.  
 
-### <a name="order-to-order-links-are-never-broken" />I collegamenti ordine su ordine non sono mai interrotti
+### <a name="order-to-order-links-are-never-broken"></a>I collegamenti ordine su ordine non sono mai interrotti
 
 Nella pianificazione di un articolo ordine su ordine, l'approvvigionamento collegato deve essere utilizzata solo per la sua destinazione originaria. La domanda collegata non deve essere coperta da un'altra offerta, anche se è disponibile per tempo e quantità. Ad esempio, non puoi usare un ordine di assemblaggio collegato a un ordine di vendita in uno scenario di assemblaggio su ordine per coprire un'altra domanda.  
 
@@ -136,17 +136,17 @@ Questo bilanciamento influisce anche sui tempi. L'orizzonte limitato che viene f
 > [!NOTE]  
 > Le previsioni non devono condurre alla creazione degli ordini di approvvigionamento associati a un collegamento ordine-a-ordine. Se viene utilizzata la previsione, deve essere utilizzata solo come generatore della domanda dipendente in un ambiente di produzione.
 
-### <a name="component-need-is-loaded-according-to-production-order-changes" />Il componente richiesto viene caricato in base alle modifiche dell'ordine di produzione
+### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Il componente richiesto viene caricato in base alle modifiche dell'ordine di produzione
 
 Nella gestione degli ordini di produzione, il sistema di pianificazione deve monitorare i componenti necessari prima di caricarli nel profilo della domanda. Le righe componenti derivanti da un ordine di produzione modificato sostituiranno quelle dell'ordine originale. In questo modo il sistema di pianificazione non duplica le righe di pianificazione per un componente necessario.  
 
-### <a name="consume-safety-stock" />Consumare la scorta di sicurezza
+### <a name="consume-safety-stock"></a>Consumare la scorta di sicurezza
 
 La scorta di sicurezza è principalmente un tipo di domanda che viene caricata nel profilo di magazzino alla data di inizio della pianificazione.  
 
 La scorta di sicurezza è una quantità di magazzino accantonata per compensare le incertezze della domanda durante il rifornimento. Tuttavia, può essere consumata per soddisfare una domanda. In tal caso, il sistema di pianificazione assicurerà che la scorta di sicurezza venga rapidamente sostituita. Il sistema suggerisce un ordine di approvvigionamento per reintegrare la quantità della scorta di sicurezza alla data in cui viene consumata. La riga di pianificazione relativa a tale ordine conterrà un'icona di avviso di eccezione indicante che la scorta di sicurezza è stata parzialmente o completamente consumata per un ordine di eccezione per la quantità mancante.  
 
-### <a name="forecast-demand-is-reduced-by-sales-orders" />La domanda di previsione viene ridotta dagli ordini di vendita
+### <a name="forecast-demand-is-reduced-by-sales-orders"></a>La domanda di previsione viene ridotta dagli ordini di vendita
 
 La previsione della domanda esprime la domanda futura prevista. Mentre la domanda effettiva viene immessa, in genere come ordini vendita per articoli prodotti, viene utilizzata la previsione.
 
@@ -163,13 +163,13 @@ La previsione può riguardare diversi tipi di domanda:
 
 Un articolo può avere entrambi i tipi di previsione. Durante la pianificazione, il consumo avviene separatamente, prima per domanda indipendente quindi per la domanda dipendente.  
 
-### <a name="blanket-order-demand-is-reduced-by-sales-orders" />La domanda dell'ordine programmato viene ridotta dagli ordini di vendita
+### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>La domanda dell'ordine programmato viene ridotta dagli ordini di vendita
 
 Le previsioni vengono completate dagli ordini di vendita programmati al fine di specificare la domanda futura di un cliente specifico. Analogamente alle previsioni (non specificato), le vendite effettive dovrebbero consumare la domanda prevista e la quantità residua dovrebbe immettere il profilo di magazzino della domanda. Il consumo non riduce la quantità dell'ordine programmato.
 
 Il calcolo della pianificazione include gli ordini di vendita aperti collegati alla riga ordine di copertura specifica, ma non include alcun periodo di tempo valido. Non vengono inclusi neppure gli ordini registrati perché la procedura di registrazione ha già ridotto la quantità inevasa dell'ordine programmato.
 
-## <a name="prioritize-orders" />Assegnare la priorità agli ordini
+## <a name="prioritize-orders"></a>Assegnare la priorità agli ordini
 
 All'interno di una determinata SKU, la data richiesta o disponibile rappresenta la massima priorità. La domanda di oggi deve essere gestita prima della domanda della prossima settimana. Ma, oltre a questa priorità generale, il sistema di pianificazione fornirà i seguenti suggerimenti in base alle priorità dell'ordine:
 
@@ -178,7 +178,7 @@ All'interno di una determinata SKU, la data richiesta o disponibile rappresenta 
 
 La domanda e l'offerta caricate contribuiscono a un profilo per la giacenza disponibile in base alle priorità.  
 
-### <a name="priorities-on-the-demand-side" />Priorità sul lato della domanda
+### <a name="priorities-on-the-demand-side"></a>Priorità sul lato della domanda
 
 1. Già spediti: Mov. contabili articolo  
 2. Ord. reso di acquisto  
@@ -193,7 +193,7 @@ La domanda e l'offerta caricate contribuiscono a un profilo per la giacenza disp
 > [!NOTE]  
 > I resi di acquisto non vengono in genere inclusi nella pianificazione dell'approvvigionamento e devono essere sempre prenotati dal lotto che sta per essere reso. Se non prenotati, i resi di acquisto svolgono un ruolo nella disponibilità e hanno un'elevata priorità per evitare che il sistema suggerisca un ordine di approvvigionamento solo per un ordine di reso.  
 
-### <a name="priorities-on-the-supply-side" />Priorità sul lato dell'approvvigionamento
+### <a name="priorities-on-the-supply-side"></a>Priorità sul lato dell'approvvigionamento
 
 1. Già in magazzino: Mov. contabili articoli (Flessibilità pianificazione = Nessuna)  
 2. Ordine di reso vendita (flessibilità pianificazione = nessuna)  
@@ -202,7 +202,7 @@ La domanda e l'offerta caricate contribuiscono a un profilo per la giacenza disp
 5. Ordine di assemblaggio  
 6. Ordine di acquisto  
 
-### <a name="priority-related-to-the-state-of-supply-and-demand" />Priorità correlata allo stato di domanda e offerta
+### <a name="priority-related-to-the-state-of-supply-and-demand"></a>Priorità correlata allo stato di domanda e offerta
 
 Oltre alle priorità derivanti dal tipo di domanda e offerta, ci sono altre cose che influenzano la flessibilità della pianificazione. Ad esempio, le attività di warehouse e lo stato dei seguenti ordini:
 
@@ -220,7 +220,7 @@ Lo stato di questi ordini ha i seguenti effetti:
 4. Ordine di produzione confermato (flessibilità pianificazione = illimitata)  
 5. Pianificato/Aperto - tutti i tipi di ordine (flessibilità pianificazione = illimitata)
 
-## <a name="balancing-supply-with-demand" />Bilanciamento dell'offerta con la domanda
+## <a name="balancing-supply-with-demand"></a>Bilanciamento dell'offerta con la domanda
 
 Il sistema di pianificazione bilancia domanda e offerta suggerendo azioni per rivedere gli ordini di approvvigionamento che non sono bilanciati. Questo bilanciamento avviene per ogni combinazione di variante e ubicazione.  
 
@@ -254,7 +254,7 @@ Ogni evento si riferisce al suo tipo e identificativo di origine. Le regole per 
 
  La procedura inizia sempre con la domanda successiva e l'offerta corrente o viceversa. L'approvvigionamento corrente potrebbe essere in grado di soddisfare anche la domanda successiva o la domanda corrente se non è stata ancora interamente coperta.  
 
-### <a name="rules-for-actions-for-supply-events" />Regole per le azioni per gli eventi di approvvigionamento
+### <a name="rules-for-actions-for-supply-events"></a>Regole per le azioni per gli eventi di approvvigionamento
 
 Per i calcoli dall'alto verso il basso in cui l'offerta deve soddisfare la domanda, la domanda è specificata. È al di fuori del controllo del sistema di pianificazione. Tuttavia, il sistema di pianificazione può gestire il lato dell'approvvigionamento e fornire i seguenti suggerimenti:
 
@@ -297,7 +297,7 @@ In genere, tutti gli approvvigionamenti hanno una flessibilità di pianificazion
 * **Annulla**: come incidente speciale dell'azione di riduzione quantità, l'ordine di approvvigionamento può essere annullato se è stato diminuito a zero. 
 * **Nuovo**: se non è presente alcun ordine di approvvigionamento già esistente o un ordine esistente non può essere modificato per soddisfare la quantità necessaria alla data di scadenza per la domanda, verrà proposto un nuovo ordine di approvvigionamento.  
 
-### <a name="determine-the-supply-quantity" />Determinare la quantità di approvvigionamento
+### <a name="determine-the-supply-quantity"></a>Determinare la quantità di approvvigionamento
 
 I parametri di pianificazione che definisci controllano la quantità suggerita di ogni ordine di approvvigionamento.  
 
@@ -311,7 +311,7 @@ La quantità suggerita può essere modificata nella sequenza:
 2. Fino alla quantità minima ordine.  
 3. Fino a soddisfare la molteplicità di ordini più vicina.
 
-### <a name="order-tracking-links-during-planning" />Collegamenti della tracciabilità ordini durante la pianificazione
+### <a name="order-tracking-links-during-planning"></a>Collegamenti della tracciabilità ordini durante la pianificazione
 
 Per la tracciabilità dell'ordine durante la pianificazione, il sistema di pianificazione ridispone i collegamenti di tracciabilità ordine creati per le combinazioni articolo, variante e ubicazione. Il sistema riorganizza i collegamenti di tracciamento per i seguenti motivi:
 
@@ -325,7 +325,7 @@ Prima di bilanciare l'offerta con la domanda, il sistema di pianificazione elimi
 > [!NOTE]  
 > Anche se l'articolo non è impostato per la tracciabilità dinamica dell'ordine, il sistema di pianificazione creerà collegamenti di tracciabilità ordine.
 
-## <a name="close-balanced-supply-and-demand" />Chiusura della domanda e dell'offerta bilanciate
+## <a name="close-balanced-supply-and-demand"></a>Chiusura della domanda e dell'offerta bilanciate
 
 Il bilanciamento dell'approvvigionamento ha tre possibili esiti:
 
@@ -335,7 +335,7 @@ Il bilanciamento dell'approvvigionamento ha tre possibili esiti:
 
 Infine, il sistema di pianificazione crea un collegamento di tracciabilità ordine tra offerta e domanda.  
 
-### <a name="create-the-planning-line-suggested-action" />Creare la riga di pianificazione (azione suggerita)
+### <a name="create-the-planning-line-suggested-action"></a>Creare la riga di pianificazione (azione suggerita)
 
 Se viene suggerita una qualsiasi azione, ad esempio **Nuovo**, **Modifica quantità**, **Riprogramma**, **Riprogramma e modifica quantità**, o **Annulla**, per esaminare l'ordine di approvvigionamento, tramite il sistema di pianificazione viene creata una riga di pianificazione nel prospetto di pianificazione. Per la tracciabilità dell'ordine, la riga di pianificazione viene creata non solo quando l'evento di offerta viene chiuso, ma anche se l'evento di domanda è chiuso. Ciò è vero anche se l'evento di offerta è ancora aperto e può essere modificato quando viene elaborato il successivo evento di domanda. La riga di pianificazione può essere modificata nuovamente, una volta creata.
 
@@ -345,7 +345,7 @@ Per ridurre il carico sul database durante la gestione degli ordini di produzion
 * Includi il ciclo: il ciclo di produzione pianificato include il calcolo delle date di inizio e di fine e dei periodi. Includi il ciclo risulta molto impegnativo in termini di accessi al database. Per determinare le date di scadenza e di fine, può essere necessario calcolare il ciclo anche se l'evento di approvvigionamento non è stato chiuso. Ad esempio, se stai pianificando in avanti.  
 * Includi l'esplosione della distinta base: questa operazione può avvenire poco prima della chiusura dell'evento di approvvigionamento.
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Dettagli di progettazione: Concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md)  
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)  

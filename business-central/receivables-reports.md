@@ -8,15 +8,15 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central" />Report di contabilità clienti e analisi in Business Central
+# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Report di contabilità clienti e analisi in Business Central
 
 Per aiutarti a gestire la contabilità clienti in [!INCLUDE [prod_short](includes/prod_short.md)], report standard e analisi sono integrati. Va oltre i tradizionali vincoli di creazione di report per consentire di progettare in modo efficiente vari tipi di report.  
 
-## <a name="reports" />Report
+## <a name="reports"></a>Report
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Utilizzare le dimensioni](finance-dimensions.md)  

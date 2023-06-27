@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-on-service-tasks" />Utilizzare i compiti di assistenza
+# <a name="work-on-service-tasks"></a>Utilizzare i compiti di assistenza
 Dopo aver creato un ordine o un'offerta di assistenza, registrato righe di articoli in assistenza e assegnato risorse agli articoli in assistenza nell'ordine o nell'offerta, è possibile iniziare la riparazione e la manutenzione di tali articoli.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] dispone di una pagina **Compiti di assistenza** che fornisce una sintesi di tutti gli articoli in assistenza che richiedono attenzione. È possibile considerarla una sorta di pannello di comando dell'assistenza, da dove poter visualizzare gli ordini in sospeso, cercare e registrare pezzi di ricambio e mantenere aggiornato il magazzino.  
 
 Per tenere traccia delle modifiche e ottenere una vista grafica dell'andamento dell'attività di assistenza, si possono utilizzare gli strumenti statistici di [!INCLUDE[prod_short](includes/prod_short.md)] , che consentono di generare rapidamente e automaticamente grafici e analisi di vario tipo.  
 
-## <a name="to-work-on-a-service-task" />Per utilizzare un compito di assistenza
+## <a name="to-work-on-a-service-task"></a>Per utilizzare un compito di assistenza
 1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Task assistenza**, quindi scegli il collegamento correlato.
 2. Se vuoi una lista dei compiti di assistenza a cui sono assegnati una risorsa o un gruppo di risorse specifico, compila il campo **Filtro per risorsa** o **Filtro gruppo risorse** e premi <kbd>INVIO</kbd>.  
 3. Se vuoi una lista di compiti di assistenza con una o più date di risposta specifiche che rientrano in un determinato intervallo di date, compila il campo **Filtro data di risposta**, quindi premi <kbd>INVIO</kbd>.  
@@ -29,7 +29,7 @@ Per tenere traccia delle modifiche e ottenere una vista grafica dell'andamento d
    > [!NOTE]  
    >  Compilare il campo **Stato riparazione** con lo stato **Completato** o **Parzialmente assistito** se l'articolo in assistenza è stato completamente assistito o se un'altra risorsa continuerà l'assistenza. Lo stato **Completato** o **Riassegnazione necessaria** viene specificato automaticamente per il movimento di assegnazione corrispondente all'articolo in assistenza.  
 
-## <a name="to-register-service-operations" />Per registrare le operazioni di assistenza
+## <a name="to-register-service-operations"></a>Per registrare le operazioni di assistenza
 Quando si esegue un'operazione di assistenza relativa a un ordine specifico, è possibile registrarne i dettagli specificando gli articoli utilizzati, i costi sostenuti e il tempo impiegato. I dati specificati vengono archiviati nella pagina **Prospetto articoli in assistenza**. Se necessario, è possibile aggiornare i dati.
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Ordini assistenza**, quindi scegli il collegamento correlato.  
@@ -40,7 +40,7 @@ Quando si esegue un'operazione di assistenza relativa a un ordine specifico, è 
    > [!NOTE]  
    >  È possibile registrare le operazioni di assistenza direttamente sulle righe di assistenza collegate all'ordine di assistenza.  
 
-## <a name="to-register-spare-parts" />Per registrare i pezzi di ricambio
+## <a name="to-register-spare-parts"></a>Per registrare i pezzi di ricambio
 Quando si elaborano gli articoli in assistenza negli ordini di assistenza, potrebbe essere necessario utilizzare i pezzi di ricambio per l'assistenza. La seguente procedura indica come registrare i pezzi di ricambio che si utilizzano nella pagina **Prospetto Art. in Assist.**  
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 3](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). , entrare in **Attività di servizio**, e poi scegliere il link relativo.
@@ -52,13 +52,13 @@ Quando si elaborano gli articoli in assistenza negli ordini di assistenza, potre
 
  È possibile utilizzare una procedura simile per registrare i pezzi di ricambio nella pagina **Righe assistenza**, che è possibile aprire dalla pagina **Ordine assistenza**.  
 
-## <a name="to-register-spare-parts-from-a-service-order" />Per registrare i pezzi di ricambio da un ordine di assistenza
+## <a name="to-register-spare-parts-from-a-service-order"></a>Per registrare i pezzi di ricambio da un ordine di assistenza
 1. Scegli la ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , entrare in **Ordini di servizio**, e poi scegliere il link relativo.  
 2. Aprire l'ordine di assistenza per cui si desidera registrare pezzi di ricambio.  
 3. Scegliere la riga che include l'articolo in assistenza appropriato. Scegliere **Azioni**, quindi **Ordine** e infine **Righe assistenza**.  
 4. Immettere una nuova riga di assistenza.  
 
-## <a name="to-replace-a-service-item-or-a-service-item-component" />Per sostituire un articolo in assistenza o un componente dell'articolo in assistenza
+## <a name="to-replace-a-service-item-or-a-service-item-component"></a>Per sostituire un articolo in assistenza o un componente dell'articolo in assistenza
 Quando si presta assistenza ad un articolo in assistenza composto da diverse parti, potrebbe essere necessario sostituire un componente guasto con uno nuovo. Ogni volta che si immette un pezzo di ricambio per un articolo in assistenza composto da varie parti, si ha la possibilità di sostituire un componente o di crearne uno nuovo. Il nuovo articolo non viene registrato come componente dell'articolo in assistenza prima della registrazione della riga o dell'ordine di assistenza.
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 5.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , entrare in **Attività di servizio**, e poi scegliere il link relativo.
@@ -77,14 +77,14 @@ Quando si presta assistenza ad un articolo in assistenza composto da diverse par
 7. Scegliere **Sostituisci componente**.  
 8. Scegliere il componente da sostituire quindi scegliere **OK**.  
 
-## <a name="to-change-the-response-time-for-a-service-item-line" />Per modificare il tempo di risposta per una riga di articolo in assistenza
+## <a name="to-change-the-response-time-for-a-service-item-line"></a>Per modificare il tempo di risposta per una riga di articolo in assistenza
 Quando si registra una riga di articolo in assistenza in un ordine o in un'offerta di assistenza, a seconda che l'articolo in assistenza sia incluso in un contratto di assistenza o meno, viene automaticamente immesso il tempo di risposta espresso in ore e vengono calcolate di conseguenza la data e l'ora della risposta. Se necessario, è possibile modificare il tempo di risposta in ore e la data e l'ora di risposta.  
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 6.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini assistenza** o **Offerte assistenza**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'ordine o l'offerta di assistenza per aprire la scheda.  
 3. Nella riga dell'articolo in assistenza per cui si desidera modificare il tempo di risposta, immettere il nuovo tempo di risposta espresso in ore oppure la data e l'ora di risposta nel campo **Tempo risposta (ore)** o nei campi **Data risposta** e **Ora risposta**.  
 
-## <a name="to-register-faultresolution-codes" />Per registrare i codici di guasto/risoluzione
+## <a name="to-register-faultresolution-codes"></a>Per registrare i codici di guasto/risoluzione
 In seguito alla riparazione dell'articolo in assistenza, è possibile registrare il codice guasto e il codice risoluzione per l'articolo, selezionando una combinazione delle relazioni esistenti dei codici guasto/risoluzione. I codici guasto e risoluzione verranno visualizzati nei campi corrispondenti nella pagina **Prospetto articoli in assistenza**. È possibile inoltre registrare i codici direttamente in questa pagina.  
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 7.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , entrare in **Attività di servizio**, e poi scegliere il link relativo.
@@ -96,7 +96,7 @@ In seguito alla riparazione dell'articolo in assistenza, è possibile registrare
 
 4. Compilare la riga. Scegliere la corretta combinazione di codici guasto e risoluzione, quindi scegliere **OK** per copiarla nell'articolo in assistenza. Se non si riesce a trovare una combinazione corretta è possibile creare una nuova combinazione nella pagina.  
 
-## <a name="see-also" />Vedi anche
+## <a name="see-also"></a>Vedi anche
 [Impostare il reporting dei guasti](service-how-setup-fault-reporting.md)
 [Stato di assegnazione e stato di riparazione](service-allocation-status-and-repair-status.md)  
 [Registrazione di assistenza](service-service-posting.md)  

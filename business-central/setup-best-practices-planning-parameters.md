@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="setup-best-practices-planning-parameters" />Impostare le procedure ottimali: Pianificazione dei parametri
+# <a name="setup-best-practices-planning-parameters"></a>Impostare le procedure ottimali: Pianificazione dei parametri
 
 La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centrale della supply chain di una società. L'impostazione dei parametri di pianificazione corretti è molto importante per un controllo del magazzino conveniente e un'assistenza clienti di ottima qualità.  
 
@@ -34,7 +34,7 @@ La Scheda dettaglio **Pianificazione** nella scheda articolo è l'elemento centr
 >
 > Se le società pianificano la domanda in ubicazioni diverse, è consigliabile definire le unità di stockkeeping per ogni ubicazione e che tutta la domanda venga creata utilizzando un valore nel campo **Cod. ubicazione**. Per ulteriori informazioni, vedi [Dettagli di progettazione: Pianificazione con o senza ubicazioni](production-planning-with-without-locations.md).  
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Impostare le procedure ottimali: Pianificazione forniture](setup-best-practices-supply-planning.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
 [Impostare aree di applicazione complesse utilizzando le procedure ottimali](set-up-complex-application-areas-using-best-practices.md)  

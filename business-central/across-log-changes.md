@@ -11,11 +11,11 @@ ms.search.form: '592, 593, 594, 595, 710, 1366, 1367, 1368, 1369'
 ms.date: 03/24/2022
 ms.author: edupont
 ---
-# <a name="auditing-changes-in-business-central" />Revisione delle modifiche in Business Central
+# <a name="auditing-changes-in-business-central"></a>Revisione delle modifiche in Business Central
 
 Una sfida comune in molte applicazioni di gestione aziendale è evitare modifiche indesiderate nei dati. Potrebbe trattarsi di un numero di telefono errato del cliente o di una registrazione errata nella contabilità generale. Questo argomento descrive le funzionalità per scoprire cosa è cambiato, chi l'ha cambiato e quando è stato cambiato.
 
-## <a name="about-the-change-log" />Informazioni sul log modifiche
+## <a name="about-the-change-log"></a>Informazioni sul log modifiche
 
 Il log modifiche consente di tenere traccia di tutte le modifiche dirette apportate da un utente ai dati nel database. Si specifica ogni tabella e campo che si vuole che il sistema registri, e poi si attiva il registro delle modifiche. Il log modifiche è basato sulle modifiche apportate ai dati nelle tabelle che si traccia. Nella pagina **Movimenti log modifiche**, i movimenti vengono ordinati cronologicamente e mostrano tutte le modifiche apportate ai valori dei campi nelle tabelle specificate. 
 
@@ -34,7 +34,7 @@ Anche per motivi di prestazioni, il registro delle modifiche viene disattivato d
 > * L'utente ha selezionato un'altra società o gestione ruolo utente.
 > * L'utente è uscito e si è iscritto di nuovo.
 
-### <a name="work-with-the-change-log" />Utilizzare il log delle modifiche
+### <a name="work-with-the-change-log"></a>Utilizzare il log delle modifiche
 Il log modifiche viene attivato e disattivato nella pagina **Setup log modifiche**. Quando un utente attiva o disattiva il log modifiche, questa attività viene registrata, in modo da poter visualizzare sempre quale utente ha disattivato o riattivato il log modifiche.
 
 Nella pagina **Setup log modifiche**, se scegli l'azione **Tabelle**, puoi specificare per quali tabelle vuoi tracciare le modifiche e quali modifiche tracciare. [!INCLUDE[prod_short](includes/prod_short.md)] traccia anche diverse tabelle di sistema.
@@ -44,21 +44,21 @@ Nella pagina **Setup log modifiche**, se scegli l'azione **Tabelle**, puoi speci
 
 Dopo avere impostato e attivato il log modifiche e apportato una modifica ai dati, è possibile visualizzare e filtrare le modifiche nella pagina **Movimenti log modifiche**. Se si desidera rimuovere i movimenti, è possibile farlo nella pagina **Elimina mov. log modifiche**, in cui è possibile impostare filtri in base alle date e all'ora.  
 
-## <a name="about-activity-logs" />Informazioni sui log attività
+## <a name="about-activity-logs"></a>Informazioni sui log attività
 
 Da alcune pagine in [!INCLUDE [prod_short](includes/prod_short.md)], è possibile visualizzare un log attività che mostra lo stato e gli eventuali errori nei file esportati da o importati in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="work-with-activity-logs" />Utilizzare il log di attività
+### <a name="work-with-activity-logs"></a>Utilizzare il log di attività
 Le informazioni vengono visualizzate nella finestra **Log attività** in base alla pagina di contesto dalla quale viene aperta. Ad esempio, è possibile aprire la pagina dalle pagine **Setup servizio di scambio documenti**, **Documento in entrata**, **Fattura vendita registrata** e **Note cr. vendita registrate**. È possibile svuotare l'elenco dei movimenti del log o semplicemente cancellare l'elenco dei movimenti più vecchi di sette giorni.  
 
-## <a name="monitoring-sensitive-fields" />Monitoraggio dei campi riservati
+## <a name="monitoring-sensitive-fields"></a>Monitoraggio dei campi riservati
 
 Mantenere i dati sensibili protetti e privati è una preoccupazione fondamentale per la maggior parte delle aziende. Per aggiungere un livello di sicurezza, è possibile monitorare i campi importanti ed essere avvisati tramite e-mail quando qualcuno modifica un valore. Ad esempio, è possibile essere avvisati se qualcuno cambia il numero IBAN della tua azienda.
 
 > [!NOTE]
 > L'invio di notifiche tramite e-mail richiede la configurazione della funzione e-mail in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Configurare la posta elettronica](admin-how-setup-email.md).
 
-### <a name="setting-up-field-monitoring" />Impostazione del monitoraggio campi
+### <a name="setting-up-field-monitoring"></a>Impostazione del monitoraggio campi
 
 Usare la guida al setup assistito **Setup monitoraggio modifiche campi** per specificare i campi che si desidera monitorare in base a criteri di filtro, come la classificazione dei dati riservati per i campi. Per ulteriori informazioni, vedere [Classificazione di dati riservati](admin-classifying-data-sensitivity.md). La guida consente inoltre di specificare la persona che riceverà la notifica e-mail quando si verifica una modifica e l'account e-mail che invierà l'e-mail di notifica. Specifica sia l'utente da notificare che l'account da cui inviare la notifica. Al termine della guida, è possibile gestire le impostazioni per il monitoraggio dei campi nella pagina **Setup monitoraggio campi**. 
 
@@ -74,7 +74,7 @@ Quando si imposta il monitoraggio dei campi o si cambia qualcosa nella configura
 > [!NOTE]
 > Dopo aver aggiunto uno o più campi e avviato il monitoraggio, è necessario disconnettersi da [!INCLUDE[prod_short](includes/prod_short.md)] e accedere di nuovo per applicare le tue impostazioni.
 
-### <a name="work-with-field-monitoring" />Utilizzare il monitoraggio campi
+### <a name="work-with-field-monitoring"></a>Utilizzare il monitoraggio campi
 
 Le voci per tutti i valori modificati per i campi monitorati sono disponibili nella pagina **Voci del log dei campi monitorati**. Per esempio, le voci contengono le seguenti informazioni:
 
@@ -84,18 +84,18 @@ Le voci per tutti i valori modificati per i campi monitorati sono disponibili ne
 
 Per esaminare ulteriormente una modifica, scegliere un valore per aprire la pagina in cui è stata apportata. Per visualizzare un elenco di tutte le voci, scegliere **Movimenti modifica campo**.
 
-### <a name="viewing-field-monitoring-telemetry" />Visualizzare la telemetria di monitoraggio dei campi
+### <a name="viewing-field-monitoring-telemetry"></a>Visualizzare la telemetria di monitoraggio dei campi
 
 È possibile configurare [!INCLUDE[prod_short](includes/prod_short.md)] per inviare attività di monitoraggio dei campi a una risorsa Application Insights in Microsoft Azure. Quindi, utilizzando Monitoraggio di Azure, si creano report e si configurano avvisi sui dati raccolti. Per ulteriori informazioni, vedere i seguenti articoli nella Guida per sviluppatori e professionisti IT di [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [Monitoraggio e analisi della telemetria - Abilitazione di Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analizzare la telemetria di monitoraggio dei campi](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace)
 
-## <a name="defining-retention-policies" />Definizione dei criteri di conservazione
+## <a name="defining-retention-policies"></a>Definizione dei criteri di conservazione
 
 È possibile creare criteri di conservazione per eliminare i dati non necessari nei log dopo un periodo di tempo specificato. Ad esempio, nel tempo il numero di voci in un log può aumentare. Eliminando le vecchie voci è possibile concentrarsi più facilmente sulle voci più recenti e probabilmente più rilevanti. Per ulteriori informazioni, vedere [Definire i criteri di conservazione](admin-data-retention-policies.md).
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  

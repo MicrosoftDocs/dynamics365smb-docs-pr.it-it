@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="access-data-in-teams-without-business-central-license" />Accedere ai dati in Teams senza licenza Business Central
+# <a name="access-data-in-teams-without-business-central-license"></a>Accedere ai dati in Teams senza licenza Business Central
 
 Agli utenti di [!INCLUDE[prod_short](includes/prod_short.md)] viene assegnata una licenza Dynamics 365 Business Central che consente loro di visualizzare, modificare e agire sui propri dati aziendali in Teams. Questi utenti possono collaborare sui dati condividendo i record nelle chat o nei canali o aggiungendo schede che mostrano i record. Tuttavia, potrebbero esserci altri dipendenti all'interno dell'organizzazione che non dispongono di una licenza Business Central ma potrebbero trarre vantaggio dalla possibilità di visualizzare i dati in Teams. Per questi utenti, [!INCLUDE[prod_short](includes/prod_short.md)] offre un accesso limitato solo attraverso le loro licenze Microsoft 365.  
 
@@ -19,10 +19,10 @@ In qualità di amministratore, puoi configurare gli ambienti per abilitare l'acc
 
 Per ulteriori informazioni sull'accesso con licenze Microsoft 365, vai ad [Accesso a Business Central con licenze Microsoft 365](admin-access-with-m365-license.md) e [Domande frequenti sull'accesso a Business Central con licenze Microsoft 365](admin-access-with-m365-license-faq.md).
 
-## <a name="next-steps" />Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 
 [Configurazione degli accessi a Business Central in Teams con licenze Microsoft 365](admin-access-with-m365-license-setup.md)  
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Risoluzione dei problemi di accesso con licenze Microsoft 365](admin-access-with-m365-license-troubleshooting.md)  

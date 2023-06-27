@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality" />Funzionalità aziendali generali
+# <a name="general-business-functionality"></a>Funzionalità aziendali generali
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce funzionalità dedicate per le tipiche aree aziendali, come i settori Finanze e Vendite. Per ulteriori informazioni, vedere [Funzionalità aziendale](across-business-functionality.md).
 
@@ -45,7 +45,7 @@ Nella tabella seguente sono elencate queste aree generali e sono riportati i col
 | Impostare le definizioni di scambio dati per inviare e ricevere i documenti elettronici. |[Scambio di dati in modalità elettronica](across-data-exchange.md) |
 | Usa le mappe online per trovare posizioni e indicazioni per clienti, fornitori e indirizzi in generale. | [Utilizzare le mappe online per trovare posizioni e indicazioni stradali](across-online-maps.md) |
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Amministrazione](admin-setup-and-administration.md)  

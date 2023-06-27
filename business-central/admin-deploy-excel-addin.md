@@ -10,20 +10,20 @@ ms.search.keywords: 'Excel, add-in, centralized deployment, M365 admin center, i
 ms.date: 10/07/2021
 ms.author: jswymer
 ---
-# <a name="get-the-business-central-add-in-for-excel" />Ottieni il Business Central Add-in per Excel
+# <a name="get-the-business-central-add-in-for-excel"></a>Ottieni il Business Central Add-in per Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] include un add-in per Excel che permette agli utenti di selezionare un'azione **Modifica in Excel** su certe pagine per aprire i dati in un foglio di lavoro Excel. Questa azione è diversa dall'azione **Apri in Excel** perché consente agli utenti di apportare modifiche in Excel, quindi di ripubblicare le modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## <a name="overview" />Sintesi
+## <a name="overview"></a>Sintesi
 
-### <a name="about-the-add-in" />Informazioni sull'add-in
+### <a name="about-the-add-in"></a>Informazioni sull'add-in
 
 L'add-in si chiama **Add-in Microsoft Dynamics per Office** ed è disponibile per l'installazione su [Office Store (AppSource)](https://appsource.microsoft.com/). Con l'add-in installato, l'azione **Modifica in Excel** è disponibile nella maggior parte delle pagine dell'elenco e delle parti dell'elenco dall'icona **Condividi**  ![Condividi una pagina in un'altra app.](media/share-icon.png). Per ulteriori informazioni sull'uso dell'add-in, vedi [Visualizzazione e modifica in Excel da Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > L'add-in funziona solo su Windows; non su macOS.
 
-### <a name="about-deployment-as-an-admin" />Riguardo all'impiego come amministratore
+### <a name="about-deployment-as-an-admin"></a>Riguardo all'impiego come amministratore
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)] online, ci sono alcune opzioni di distribuzione per portare l'add-in agli utenti. Un'opzione è l' *acquisizione individuale*, dove si lascia che gli utenti installino il componente aggiuntivo da soli. Con questa opzione, gli utenti devono avere accesso al download di file da Office Store. Un'altra opzione è quella di impostare la *distribuzione centralizzata* nell'interfaccia di amministrazione di Microsoft 365 per distribuire automaticamente l'add-in all'intera organizzazione, a gruppi o a utenti specifici. La distribuzione centralizzata fornisce un modo per ottenere l'add-in agli utenti se la tua organizzazione non dà agli utenti l'accesso a Office Store.
 
@@ -35,21 +35,21 @@ Per l'utente finale, l'esperienza di installazione è diversa per i due scenari 
 
 Con entrambe queste opzioni di distribuzione, il componente aggiuntivo viene configurato automaticamente per connettersi a [!INCLUDE[prod_short](includes/prod_short.md)]. Una terza opzione di distribuzione è un'installazione manuale del componente aggiuntivo direttamente da Excel. Con questa opzione, gli utenti dovranno configurare il componente aggiuntivo a cui connettersi [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Passare dall'acquisizione individuale alla distribuzione centralizzata o viceversa
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Passare dall'acquisizione individuale alla distribuzione centralizzata o viceversa
 
 Quando si passa dall'acquisizione individuale del componente aggiuntivo alla distribuzione centralizzata, o viceversa, i file Excel che gli utenti hanno creato prima della transizione sono interessati. Dopo la transizione, gli utenti possono ancora aprire qualsiasi foglio di lavoro Excel precedentemente creato utilizzando l'azione **Modifica in Excel** o creato manualmente configurando l'add-in Excel. Ma non possono aggiornare i dati nel file da Business Central o spingere gli aggiornamenti a Business Central
 
 Questa condizione è causata dal fatto che ad ogni file Excel viene assegnato un identificatore "add-in". Nella transizione da o verso la distribuzione centralizzata, viene assegnato un ID diverso, quindi l'ID precedente diventa bloccato.
 
-## <a name="preparation-on-premises-only" />Preparazione (solo in sede)
+## <a name="preparation-on-premises-only"></a>Preparazione (solo in sede)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises richiede che il tuo ambiente sia configurato per l'add-in. In caso contrario, l'azione **Modifica in Excel** non sarà disponibile per gli utenti. Per maggiori informazioni, vedi [Impostazione dell'add-in di Excel per la modifica dei dati di Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) nella guida di Developer e IT Pro.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment" />Distribuire il componente aggiuntivo utilizzando la distribuzione centralizzata
+## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Distribuire il componente aggiuntivo utilizzando la distribuzione centralizzata
 
 La distribuzione centralizzata è una funzione nell'interfaccia di amministrazione di Microsoft 365 che si usa per installare automaticamente i componenti aggiuntivi nelle applicazioni Office degli utenti, come Excel. Per aiutarvi con la distribuzione centralizzata, [!INCLUDE[prod_short](includes/prod_short.md)] include la configurazione assistita di **Distribuzione centralizzata Add-in Excel** .
 
-### <a name="before-you-begin" />Prima di iniziare
+### <a name="before-you-begin"></a>Prima di iniziare
 
 - Per sapere come impedire agli utenti di scaricare dal negozio di Office, vedi [Gestire i componenti aggiuntivi nel centro amministrativo](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Verificate che la distribuzione centralizzata funzioni per la vostra organizzazione. Per ulteriori informazioni, vedere [Determinare se la distribuzione centralizzata degli add-in funziona per la propria organizzazione](/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
@@ -58,7 +58,7 @@ La distribuzione centralizzata è una funzione nell'interfaccia di amministrazio
 > [!NOTE]
 > L'abilitazione della distribuzione centralizzata influisce sulle funzioni che usano il componente aggiuntivo di Excel, come l'azione **Modifica in Excel** . Non ha alcun effetto su altre funzionalità relative a Excel e/o sulle autorizzazioni assegnate agli utenti in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="set-up-centralized-deployment-of-the-add-in" />Impostare la distribuzione centralizzata dell'add-in
+### <a name="set-up-centralized-deployment-of-the-add-in"></a>Impostare la distribuzione centralizzata dell'add-in
 
 Lavorerai sia in [!INCLUDE[prod_short](includes/prod_short.md)] sia nell'interfaccia di amministrazione di Microsoft 365.
 
@@ -87,7 +87,7 @@ Quando hai finito, puoi sempre cambiare la distribuzione nell'interfaccia di amm
 > [!NOTE]
 > Può richiedere fino a 24 ore prima che gli utenti l'add-in distribuisce automaticamente in Excel di utenti.
 
-## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Acquisizione individuale: Installare manualmente l'add-in per uso personale
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use"></a><a name="install"></a>Acquisizione individuale: Installare manualmente l'add-in per uso personale
 
 Nella maggior parte dei casi, quando aprirai Excel da Business Central, l'add-in verrà installato automaticamente per te o ti verrà richiesto di installarlo. Ci potrebbero essere casi, tuttavia, in cui è necessario installare manualmente l'add-in.
 
@@ -97,7 +97,7 @@ Nella maggior parte dei casi, quando aprirai Excel da Business Central, l'add-in
 
 Quando l'add-in è installato, si presenta come un pannello in Excel. Successivamente, configurate la connessione.
 
-### <a name="configure-the-business-central-connection" />Configurare la connessione a Business Central
+### <a name="configure-the-business-central-connection"></a>Configurare la connessione a Business Central
 
 Se un utente non può connettersi automaticamente, puoi sbloccarlo chiedendogli di seguire questi passi:
 
@@ -109,11 +109,11 @@ Se un utente non può connettersi automaticamente, puoi sbloccarlo chiedendogli 
 
 Il componente aggiuntivo è ora connesso a [!INCLUDE [prod_short](includes/prod_short.md)], e puoi modificare i dati e pubblicare le modifiche su [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="prepare-devices-and-network-for-the-excel-add-in" />Preparare i dispositivi e la rete per l'Add-In di Excel
+## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Preparare i dispositivi e la rete per l'Add-In di Excel
 
 I servizi di rete come i proxy o i firewall devono permettere il routing tra ogni dispositivo client su cui è installato il componente aggiuntivo e molti endpoint di servizio. Per un elenco di endpoint, vedi [Preparare la tua rete per l'Add-In Excel](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
-## <a name="troubleshooting" />Troubleshooting
+## <a name="troubleshooting"></a>Troubleshooting
 
 A volte, gli utenti incontrano problemi con l'add-in di Excel. Questa sezione fornisce alcuni suggerimenti su come sbloccare gli utenti in determinate circostanze.
 
@@ -127,14 +127,14 @@ A volte, gli utenti incontrano problemi con l'add-in di Excel. Questa sezione fo
 |Gli utenti non possono più accedere al componente aggiuntivo. Quando tentano di accedere, il processo si interrompe senza essere completato.| Questo problema potrebbe essere causato da un aggiornamento che abbiamo apportato al componente aggiuntivo, nel luglio 2022. Per ulteriori informazioni e una correzione, vedi [Modificare la configurazione del componente aggiuntivo di Excel per supportare l'aggiornamento di luglio 2022](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Si applica solo a [!INCLUDE [prod_short](includes/prod_short.md)] locale|
 
 <!--
-## <a name="deploy-the-excel-add-in-for-business-central-online" />Deploy the Excel add-in for Business Central online
+## <a name="deploy-the-excel-add-in-for-business-central-online"></a>Deploy the Excel add-in for Business Central online
 
 For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator can deploy the add-in for all users. But users can also install the add-in themselves, provided they have permission to configure their Office experience.  
 
 > [!TIP]
 > In some organizations, administrators cannot deploy add-ins centrally. For more information, see [Determine if Centralized Deployment of add-ins works for your organization](/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-deploy-the-excel-add-in-for-all-users" />To deploy the Excel add-in for all users
+### <a name="to-deploy-the-excel-add-in-for-all-users"></a>To deploy the Excel add-in for all users
 
 1. As the administrator, sign in to the Microsoft commercial website and find the add-in at [https://appsource.microsoft.com/product/office/WA104379629](https://appsource.microsoft.com/product/office/WA104379629).
 2. Choose the **Get it now** button.
@@ -145,7 +145,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 5. Save your changes.
 
 
-### <a name="to-add-the-excel-add-in-locally" />To add the Excel add-in locally
+### <a name="to-add-the-excel-add-in-locally"></a>To add the Excel add-in locally
 
 1. Open Excel, and then open any Excel workbook.
 2. On the **Insert** menu, choose **Office Add-ins**, and then choose **Admin managed** or **Store** as appropriate.
@@ -159,9 +159,9 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also" />Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Utilizzare Business Central](ui-work-product.md)  

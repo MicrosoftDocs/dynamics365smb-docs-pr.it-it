@@ -10,7 +10,7 @@ ms.search.form: 5510
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line" />Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato
 
 Questa attività viene eseguita nella pagina **Registrazioni di produzione**. Le registrazioni combinano le funzioni delle registrazioni consumi e registrazioni output separate. Alle registrazioni combinate è possibile accedere direttamente da un ordine di produzione rilasciato. Lo scopo principale è la registrazione manuale del consumo di componenti, la quantità di articoli finali prodotti e il tempo impiegato nelle operazioni. I valori vengono registrati nei movimenti contabili nell'ordine di produzione rilasciato. Le quantità di produzione sono registrate come movimenti contabili articoli negativi, le quantità di output vengono registrate come movimenti contabili positivi e il tempo speso viene registrato come movimento contabile capacità. Tali valori immessi possono essere anche visualizzati nella parte inferiore della finestra come quantità effettive.  
 
@@ -20,7 +20,7 @@ Questa attività viene eseguita nella pagina **Registrazioni di produzione**. Le
 > [!NOTE]  
 > i componenti privi di codici di legame tra ciclo e distinta base vengono elencati per primi in questa finestra.  
 
-## <a name="to-register-consumption-and-output" />Per registrare consumi e output
+## <a name="to-register-consumption-and-output"></a>Per registrare consumi e output
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
 2. Aprire una riga dell'ordine di produzione rilasciato pronta per la registrazione e nella Scheda dettaglio **Righe** scegliere l'azione **Riga**, quindi scegliere l'azione **Registrazioni di produzione**.  
@@ -61,7 +61,7 @@ Questa attività viene eseguita nella pagina **Registrazioni di produzione**. Le
 > [!WARNING]  
 > La pagina **Registrazioni di produzione** non può essere utilizzata simultaneamente da due utenti. Ciò significa che se l'utente 2 apre la pagina e immette i dati quando l'utente 1 già lavora nella pagina, è possibile che l'utente 2 perda i dati quando l'utente 1 chiude la pagina.  
 
-## <a name="see-also" />Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

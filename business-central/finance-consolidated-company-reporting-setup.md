@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="set-up-company-consolidation" />Impostare il consolidamento di una società
+# <a name="set-up-company-consolidation"></a>Impostare il consolidamento di una società
 
 Prima di poter consolidare i movimenti di contabilità generale di due o più società separate (filiali) in una società consolidata, è necessario preparare i piani contabili e la società di consolidamento.  
 
@@ -23,7 +23,7 @@ In base alla complessità delle proprie società, esistono due modi per impostar
   * In ogni business unit, specificare quali conti di contabilità generale devono essere inclusi nel consolidamento e il metodo di conversione del consolidamento per ogni conto.
   * Nella società di consolidamento impostare una scheda business unit per ogni società da includere nel consolidamento. Nella scheda business unit sono incluse informazioni quali le date dell'anno fiscale della business unit e la percentuale di ogni conto da includere nel consolidamento.
 
-## <a name="simple-consolidation-setup" />Setup semplice del consolidamento
+## <a name="simple-consolidation-setup"></a>Setup semplice del consolidamento
 
 [!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Se il consolidamento è semplice, ad esempio perché si è il solo proprietario delle business unit da consolidare, la guida al setup assistito **Consolidamento società** consente l'esecuzione delle seguenti operazioni:
@@ -36,11 +36,11 @@ Per utilizzare la guida al setup assistito, attenersi a questa procedura:
 1. Nella Gestione ruolo utente **Contabile**, scegliere l'azione **Setup assistito**.
 2. Scegliere **Imposta creazione di report di consolidamento**, quindi completare ogni passaggio nella guida al setup assistito.
 
-## <a name="advanced-consolidation-setup" />Setup avanzato del consolidamento
+## <a name="advanced-consolidation-setup"></a>Setup avanzato del consolidamento
 
 Se sono necessarie impostazioni più avanzate per il consolidamento, è possibile impostare il consolidamento manualmente. Ad esempio, se si possiedono solo parzialmente alcune società o se non si intende includere alcune società nel consolidamento.  
 
-### <a name="set-up-the-consolidated-company" />Impostare la società consolidata
+### <a name="set-up-the-consolidated-company"></a>Impostare la società consolidata
 
 È necessario impostare in primo luogo la società consolidata. Una società consolidata viene impostata come qualsiasi altra società. Per ulteriori informazioni, vedere [Preparazione al business](ui-get-ready-business.md).  
 
@@ -64,7 +64,7 @@ Il seguente elenco illustra gli aspetti chiave della società consolidata.
 
     Per ulteriori informazioni, vedere la sezione [Includere o escludere dimensioni](#dim).
 
-### <a name="add-business-units" /><a name="busunit"></a>Aggiungere business unit
+### <a name="add-business-units"></a><a name="busunit"></a>Aggiungere business unit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] consente di impostare un elenco di business unit da consolidare, verificare i dati contabili prima di eseguire il consolidamento, importare file e generare report relativi al consolidamento.  
 
@@ -78,7 +78,7 @@ Il seguente elenco illustra gli aspetti chiave della società consolidata.
 
 Se una business unit utilizza una valuta straniera, è necessario specificare il tasso di cambio da utilizzare nel consolidamento. È inoltre necessario immettere le informazioni di consolidamento nei conti C/G della business unit. Tali processi sono descritti nelle sezioni riportate di seguito.
 
-### <a name="prepare-general-ledger-accounts-for-consolidation" /><a name="glacc"></a>Preparare i conti di contabilità generale per il consolidamento
+### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Preparare i conti di contabilità generale per il consolidamento
 
 Nel piano dei conti di una società che verrà consolidata devono essere specificati i conti per il consolidamento. Per ogni conto C/G di ogni società, è necessario specificare il conto C/G della società consolidata in cui verrà trasferito il saldo al momento del consolidamento. Questa mappatura consente il consolidamento di società con piani dei conti diversi.
 
@@ -87,7 +87,7 @@ Se il piano dei conti nella business unit differisce dalla società consolidata,
 1. In [!INCLUDE [prod_short](includes/prod_short.md)] di ogni business unit, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda del conto e compilare i campi della Scheda dettaglio **Consolidamento**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="specify-exchange-rates-for-consolidations" /><a name="exchrates"></a>Specificare i tassi di cambio per i consolidamenti
+### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Specificare i tassi di cambio per i consolidamenti
 
 Se una business unit utilizza una valuta diversa rispetto alla società consolidata, è necessario specificare i metodi dei tassi di cambio per ogni conto prima di eseguire il consolidamento. Per ogni conto, il contenuto del campo **Metodo conversione consol.** determina il tasso di cambio. Nella società consolidata, nel campo **Tabella tasso di cambio valuta** di ogni scheda business unit specificare se per il consolidamento saranno utilizzati i tassi di cambio della business unit o della società consolidata. Se si utilizzano i tassi di cambio della società consolidata, è possibile modificare i tassi di cambio per una business unit. Per le business unit, se nel campo **Tabella tasso di cambio valuta** della scheda business unit è indicato **Locale**, è possibile modificare il tasso di cambio nella scheda stessa. I tassi di cambio vengono copiati dalla tabella **Tassi di cambio valute**, ma è possibile modificarli prima del consolidamento.
 
@@ -110,7 +110,7 @@ Per specificare i tassi di cambio per le business unit, attenersi alla seguente 
 4. Scegliere l'azione **Tasso di chiusura**.  
 5. Nel campo **Importo tasso cambio relativo**, immettere il tasso di cambio.
 
-### <a name="include-or-exclude-dimensions" /><a name="dim"></a>Includere o escludere dimensioni
+### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Includere o escludere dimensioni
 
 È possibile consolidare le informazioni sulle dimensioni, nonché i conti della contabilità generale.
 
@@ -120,15 +120,15 @@ Per specificare i tassi di cambio per le business unit, attenersi alla seguente 
   * Per consolidare il codice del valore di dimensione nella business unit con un codice del valore di dimensione diverso nella società consolidata, compilare il campo **Codice consolidamento** nelle dimensioni rilevanti.  
 * Aggiungere le dimensioni rilevanti ai conti di contabilità generale rilevanti
 
-### <a name="exclude-a-company-from-consolidation" /><a name="exclude"></a>Escludere una società dal consolidamento
+### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Escludere una società dal consolidamento
 
 Se non si desidera includere una business unit nel consolidamento, è possibile escluderla. A questo proposito, passare alla scheda business unit e deselezionare la casella di controllo **Consolidare**.
 
-### <a name="include-a-partially-owned-company-in-consolidation" /><a name="include"></a>Includere una società di cui si possiede soltanto una parte
+### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Includere una società di cui si possiede soltanto una parte
 
 Se si possiede solo una parte di una società, è possibile includere una percentuale di ogni transazione che corrisponde alla percentuale della società di cui si è possessore. Ad esempio, se si possiede il 70% della società, il consolidamento includerà € 70 di una fattura di € 100. Per specificare la percentuale della società posseduta, passare alla scheda business unit e immettere la percentuale nel campo **% consolidamento**.  
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)  
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  

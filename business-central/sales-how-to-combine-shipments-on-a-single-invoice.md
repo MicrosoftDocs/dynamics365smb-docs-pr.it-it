@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 12/16/2021
 ms.author: edupont
 ---
-# <a name="combine-shipments-on-a-single-invoice" />Combinare le spedizioni in una singola fattura
+# <a name="combine-shipments-on-a-single-invoice"></a>Combinare le spedizioni in una singola fattura
 
 Se si desidera fatturare più di una spedizione per volta, utilizzare la funzionalità per le spedizioni cumulate.  
 
 Prima di creare una spedizione cumulata, è necessario che venga registrata più di una spedizione di vendita per lo stesso cliente nella stessa valuta. In altri termini, è necessario creare due o più ordini di vendita e registrarli come spediti, ma non fatturati. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice" />Per combinare manualmente le spedizioni in una singola fattura
+## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Per combinare manualmente le spedizioni in una singola fattura
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Per ulteriori informazioni, vedere [Fatturare le vendite](sales-how-invoice-sales.md).
@@ -33,7 +33,7 @@ Prima di creare una spedizione cumulata, è necessario che venga registrata più
 > [!TIP]  
 > Se hai spedito ordini in cui il campo **Vendere a - Nr. cliente** è diverso da **Fatturare a - Nr. cliente**, le righe non vengono visualizzate nel report **Prendi righe di spedizione**. Usa la personalizzazione per aggiungere il campo **Vendere a - Cliente** alla pagina e rimuovere il filtro. Ora puoi aggiungere righe di spedizione alla fattura indipendentemente dal valore nel campo **Vendere a - Nr. cliente** purché il campo **Fatturare a - Nr. cliente** nelle righe di spedizione corrisponda al valore della fattura di vendita.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice" />Per combinare automaticamente le spedizioni in una singola fattura
+## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Per combinare automaticamente le spedizioni in una singola fattura
 
 [!INCLUDE[prod_short](includes/prod_short.md)] selezionerà solo gli ordini di vendita in cui **Fatture cumulative** è scelto. 
 
@@ -45,7 +45,7 @@ Prima di creare una spedizione cumulata, è necessario che venga registrata più
 > [!NOTE]  
 >  Se la casella di controllo **Registra fatture** non è selezionata per il processo batch, sarà necessario registrare manualmente le fatture.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting" />Per rimuovere ordini di vendita aperti dopo la registrazione della spedizione combinata
+## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Per rimuovere ordini di vendita aperti dopo la registrazione della spedizione combinata
 
 Quando le spedizioni vengono cumulate in una fattura e registrate, per le righe fatturate viene creata una fattura di vendita registrata. Il campo **Quantità fatturata** dell'ordine di vendita o dell'ordine di vendita programmato di origine viene aggiornato in base alla quantità fatturata.  
 
@@ -59,9 +59,9 @@ In alternativa, eliminare i singoli ordini di vendita manualmente.
 
 Ripetere i passaggi da 1 a 3 per tutti gli altri documenti interessati, ad esempio gli ordini di vendita programmati.
 
-## <a name="see-related-microsoft-training" />Vedi il relativo [training Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

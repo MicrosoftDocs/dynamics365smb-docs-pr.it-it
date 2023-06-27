@@ -11,7 +11,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-payments-and-reconciliations-dk-extension" />Estensione Pagamenti e riconciliazioni (DK)
+# <a name="the-payments-and-reconciliations-dk-extension"></a>Estensione Pagamenti e riconciliazioni (DK)
 
 Eseguire pagamenti veloci e senza errori esportando file formattati specificamente per gli scambi con i fornitori o la banca. Questi file accelerano i processi di pagamento e riconciliazione ed eliminano gli errori che possono verificarsi quando si immettono manualmente le informazioni su un sito Web della banca.  
 
@@ -20,7 +20,7 @@ Questa estensione supporta i formati di file per diverse banche danesi. Quando s
 > [!Note]
 > Per utilizzare l'estensione, è necessario conoscere il formato richiesto dalla banca o dal fornitore. Alcune banche o fornitori rendono disponibili queste informazioni sui loro siti Web; tuttavia, potrebbe essere necessario contattare il servizio clienti per ottenere le informazioni necessarie.  
 
-## <a name="supported-bank-formats" />Formati bancari supportati
+## <a name="supported-bank-formats"></a>Formati bancari supportati
 Questa estensione si applica ai seguenti formati di file per i file di pagamento:  
 
 * BANKDATA-V3  
@@ -36,7 +36,7 @@ Questa estensione si applica ai seguenti formati di file per i file di pagamento
 * SDC  
 * SDC-CSV  
 
-## <a name="to-set-up-the-extension" />Per impostare l'estensione
+## <a name="to-set-up-the-extension"></a>Per impostare l'estensione
 
 Ecco alcuni passaggi per iniziare.  
 
@@ -47,13 +47,13 @@ Ecco alcuni passaggi per iniziare.
 
 Inoltre, è necessario assegnare i fornitori a una **Categoria registrazione business** e una **Categoria registrazione fornitori**. L'impostazione del paese per il fornitore deve essere la Danimarca (DK). Per ulteriori informazioni, vedere [Impostazione delle categorie di registrazione](finance-posting-groups.md).  
 
-### <a name="to-allow--to-export-payment-data" />Consentire a [!INCLUDE[prod_short](includes/prod_short.md)] l'esportazione dei dati di pagamento.
+### <a name="to-allow--to-export-payment-data"></a>Consentire a [!INCLUDE[prod_short](includes/prod_short.md)] l'esportazione dei dati di pagamento.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Modifica registrazioni pagamenti** scegliere il batch **Banca**.  
 3. Scegliere la casella controllo **Consenti esportazione pagamento**.  
 
-### <a name="to-specify-a-payment-method-for-a-vendor" />Per specificare il metodo di pagamento per un fornitore
+### <a name="to-specify-a-payment-method-for-a-vendor"></a>Per specificare il metodo di pagamento per un fornitore
 
 La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO supportate da [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -67,13 +67,13 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 2. Aprire la scheda, espandere la scheda **Pagamenti**, nel campo **Metodo pagamento** selezionare il metodo di pagamento.  
 3. A seconda dell'opzione selezionata, è necessario compilare altri campi. Vedere la tabella sopra per una descrizione delle combinazioni.  
 
-### <a name="to-specify-the-format-to-use-for-a-bank-account" />Per specificare il formato da utilizzare per un conto corrente bancario
+### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Per specificare il formato da utilizzare per un conto corrente bancario
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **C/C bancari**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda del conto corrente bancario.  
 3. Nel campo **Formato esportazione pagamento**, selezionare il formato del file di esportazione.  
 
-## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices" />Scegliere le informazioni di pagamento FIK o Giro per le fatture fornitore
+## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Scegliere le informazioni di pagamento FIK o Giro per le fatture fornitore
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
 2. Scegliere il fornitore. Ricordare che deve trattarsi di un fornitore danese con un indirizzo in Danimarca.
@@ -85,7 +85,7 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 
 5. Contabilizzare la fattura.
 
-## <a name="to-use-the-extension-to-export-payment-data" />Per utilizzare l'estensione per esportare i dati di pagamento
+## <a name="to-use-the-extension-to-export-payment-data"></a>Per utilizzare l'estensione per esportare i dati di pagamento
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Suggerisci Registrazioni pagamenti fornitore**.  
@@ -97,7 +97,7 @@ La seguente tabella mostra le combinazioni dei metodi di pagamento FIK e GIRO su
 4. Nel campo **Tipo pagamento banca**, scegliere **Pagamento elettronico**.  
 5. Scegliere l'azione **Esporta**.  
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Personalizzazione di Business Central per [!INCLUDE[prod_short](includes/prod_short.md)] con le estensioni](ui-extensions.md)  
 [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)  

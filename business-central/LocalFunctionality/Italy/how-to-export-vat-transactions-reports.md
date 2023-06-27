@@ -12,12 +12,12 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="export-vat-transactions-reports-in-the-italian-version" />Esportare i report di transazioni IVA nella versione italiana
+# <a name="export-vat-transactions-reports-in-the-italian-version"></a>Esportare i report di transazioni IVA nella versione italiana
 Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per le autorità. Per modificare il report, assicurarsi che la casella di controllo Modifica report inviati sia attivata nella pagina Setup report IVA. Se non lo è, per modificare il report quando si desidera correggere un errore, sarà necessario creare un nuovo report, aggiungere il report con l'errore al numero di report originale e quindi creare un report correttivo. Per ulteriori informazioni, vedere [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md).  
 
 È possibile modificare le righe e i campi solo quando lo stato del documento è Aperto. Quando lo stato è Rilasciato, solo il numero di carico è modificabile. Quando lo stato è Inviato, tutti i campi sono bloccati.  
 
-## <a name="to-export-and-submit-a-vat-transaction-report" />Per esportare e inviare un report di transazioni IVA
+## <a name="to-export-and-submit-a-vat-transaction-report"></a>Per esportare e inviare un report di transazioni IVA
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  selezionare un report esistente o crearne uno nuovo.  
@@ -50,7 +50,7 @@ Dopo la creazione di un report, è possibile rilasciarlo e quindi esportarlo per
     > [!NOTE]  
     >  È possibile modificare un report con lo stato Inviato solo se è stata selezionata la casella di controllo **Modifica report inviati** nella pagina **Setup report IVA**.  
 
-## <a name="see-also" />Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Correggere i report di transazioni IVA](how-to-correct-vat-transactions-reports.md)
 
 
