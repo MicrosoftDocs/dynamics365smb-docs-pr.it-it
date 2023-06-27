@@ -10,13 +10,13 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# <a name="transactions-and-payouts"></a>Transazioni e pagamenti
+# Transazioni e pagamenti
 
 Quando un cliente completa il pagamento nel negozio online, le informazioni sui pagamenti vengono salvate come **Transazione**. Potrebbero esserci più transazioni collegate all'ordine, ad esempio quando un cliente utilizza una carta regalo per pagare parte del costo e quindi utilizza una carta di credito o PayPal per l'importo rimanente.
 
 Se usi Shopify Payment come fornitore di servizi di pagamento, quindi oltre alle informazioni sul denaro ricevuto dal cliente dal fornitore di servizi di pagamento, puoi anche visualizzare i pagamenti da Shopify sul tuo conto bancario.
 
-## <a name="transactions"></a>Transazioni
+## Transazioni
 
 Le operazioni di pagamento avvenute in Shopify sono sincronizzate agli ordini e possono essere visualizzate dalla pagina **Ordini Shopify**.
 
@@ -26,7 +26,7 @@ Il campo **Nr. fatture registrate** può essere utile nel processo di riconcilia
 
 Se hai configurato la mappatura del metodo di pagamento il documento di vendita creato verrà assegnato un codice metodo di pagamento. Ulteriori informazioni su [Mappatura del metodo di pagamento](#payment-method-mapping).
 
-## <a name="payouts"></a>Pagamenti
+## Pagamenti
 
 Se nel tuo negozio usi il metodo di pagamento Shopify, riceverai i pagamenti tramite **Pagamenti Shopify** quando un cliente paga utilizzando Shopify Payments e checkout accelerati.
 
@@ -38,7 +38,7 @@ Per rivedere tutti i pagamenti, scegli l'icona a forma di ![lampadina che apre l
 
 I **Pagamenti** sono solo a scopo informativo e non influiscono sulla contabilità generale o sui movimenti contabili bancari, sebbene possano essere utili durante l'elaborazione dell'estratto conto bancario.
 
-## <a name="payment-method-mapping"></a>Mapping metodo di pagamento
+## Mapping metodo di pagamento
 
 Per compilare il **Codice metodo di pagamento** per documenti di vendita importati da Shopify automaticamente, è necessario configurare **Mapping metodo di pagamento**.
 
@@ -52,7 +52,7 @@ Per compilare il **Codice metodo di pagamento** per documenti di vendita importa
 > [!NOTE]  
 > Se il metodo di pagamento corrispondente in [!INCLUDE[prod_short](../includes/prod_short.md)] ha **Tipo contropartita** e **Nr. contropartita** popolato, durante la registrazione il sistema di fatturazione creerà una voce di bilanciamento del *Pagamento* e applicalo al tipo di *Fattura* nel movimento contabile cliente.
 
-## <a name="use-cases"></a>Utilizzare casi
+## Utilizzare casi
   
 Parti:
 
@@ -60,7 +60,7 @@ Parti:
 * Venditore: la tua società.
 * Provider di servizi di pagamento: società che facilita l'elaborazione dei pagamenti. Può essere Shopify Payments o una terza parte.
 
-### <a name="how-money-flows"></a>Modalità dei flussi di denaro
+### Modalità dei flussi di denaro
 
 L'acquirente acquista la merce nel negozio online. L'ultima fase è l'elaborazione del pagamento.
 
@@ -77,7 +77,7 @@ A seconda della banca, il venditore può vedere questa transazione in entrata su
 
 Ci sono diverse opzioni su come gestire le transazioni di pagamento in [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices"></a>Opzione 1: riconcilia i trasferimenti in entrata sul conto bancario con le fatture originali
+### Opzione 1: riconcilia i trasferimenti in entrata sul conto bancario con le fatture originali
   
 Il venditore importa l'ordine di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] e registra la spedizione e la fattura.
 
@@ -90,7 +90,7 @@ Problemi:
 1. Può essere difficile se ci sono più fatture (e note di credito), ma un solo pagamento dal provider di servizi di pagamento in un'unica soluzione.
 2. L'importo di solito non corrisponde a causa della commissione. Puoi utilizzare la tolleranza di pagamento o/e gli sconti sui pagamenti per gestire le commissioni.
 
-### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider"></a>Opzione 2: riconciliare i bonifici in entrata sul conto bancario con il conto provvisorio che rappresenta denaro presso il provider di servizi di pagamento
+### Opzione 2: riconciliare i bonifici in entrata sul conto bancario con il conto provvisorio che rappresenta denaro presso il provider di servizi di pagamento
   
 Il venditore importa l'ordine di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] e registra la spedizione e la fattura.
   
@@ -119,6 +119,6 @@ Problemi:
 
 1. Puoi creare più conti C/G o conti bancari se hai a che fare con più provider di servizi di pagamento. Tuttavia, gli ordini di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] supportano un solo codice del metodo di pagamento, il che rende difficile la gestione dei casi in cui un acquirente utilizza più metodi di pagamento per un ordine.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Iniziare a utilizzare il connettore per Shopify](get-started.md)  
