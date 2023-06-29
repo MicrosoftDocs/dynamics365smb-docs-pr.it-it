@@ -12,13 +12,13 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="work-with-calendar-dates-and-times"></a>Utilizzare date e orari del calendario
+# <a name="work-with-calendar-dates-and-times"></a><a name="work-with-calendar-dates-and-times"></a>Utilizzare date e orari del calendario
 
 Puoi inserire date e orari in diversi modi. [!INCLUDE[prod_short](includes/prod_long.md)] include potenti funzionalità per accelerare l'immissione dei dati o scrivere espressioni di calendario complesse. È possibile immettere date e orari nei campi in diversi punti dell'applicazione. Ad esempio, in un ordine di vendita, è possibile impostare la data di spedizione. Quando si filtrano gli elenchi o i dati dei report, è possibile immettere date e orari per contrassegnare solo i dati a cui si è interessati.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="check-your-region-and-language-settings"></a>Verificare le impostazioni di lingua e paese
+## <a name="check-your-region-and-language-settings"></a><a name="check-your-region-and-language-settings"></a>Verificare le impostazioni di lingua e paese
 
 La pagina **Impostazioni personali** specifica l'**Area geografica** e la **Lingua** che si sta utilizzando nell'applicazione. Queste impostazioni influenzano le modalità di immissione delle date e ore.
 
@@ -33,7 +33,7 @@ La pagina **Impostazioni personali** specifica l'**Area geografica** e la **Ling
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## <a name="entering-dates"></a>Immissione di date
+## <a name="entering-dates"></a><a name="entering-dates"></a>Immissione di date
 
 In un campo Data, è possibile immettere una data utilizzando il formato standard per le impostazioni di un paese. Diverse regioni possono utilizzare separatori diversi tra i giorni, i mesi e gli anni. Ad esempio, alcune regioni utilizzano i trattini (gg-mm-aaaa) e altri usano le barre (gg/mm/aaaa).  
 
@@ -45,7 +45,7 @@ In un campo Data, è possibile immettere una data utilizzando il formato standar
 
 Per lavorare in modo più produttivo con date e orari, è possibile utilizzare uno dei metodi o formati descritti nelle sezioni seguenti.
 
-### <a name="picking-dates-from-the-calendar"></a>Selezionare le date dal calendario
+### <a name="picking-dates-from-the-calendar"></a><a name="picking-dates-from-the-calendar"></a>Selezionare le date dal calendario
 
 Qualsiasi campo che visualizza un'icona di calendario può essere impostato utilizzando il selettore di date del calendario. Per visualizzare il selettore di date del calendario, attiva l'icona del calendario o premi <kbd>Ctrl</kbd>+<kbd>Home</kbd> nel campo.
 
@@ -53,7 +53,7 @@ Qualsiasi campo che visualizza un'icona di calendario può essere impostato util
 
 Vedere anche [Tasti di scelta rapida nel calendario (selezione data)](keyboard-shortcuts.md#calendarshortcuts).
 
-### <a name="day-week-year-pattern"></a>Schema giorno\-settimana\-anno
+### <a name="day-week-year-pattern"></a><a name="day-week-year-pattern"></a>Schema giorno\-settimana\-anno
 
 È possibile immettere una data come giorno della settimana seguito da un numero di settimana e, facoltativamente, dall'anno. Ad esempio, Lun25 o lun25 indica il lunedì della settimana 25. Se non immetti un anno, viene utilizzato l'anno della data di lavoro.
 
@@ -61,7 +61,7 @@ Anziché immettere l'intera parola per il giorno della settimana, è possibile i
 
 Lo schema del numero della settimana è sempre ISO 8601, dove la settimana 1 è la settimana che include il 4 gennaio o la settimana con il primo giovedì dell'anno.
 
-### <a name="digit-patterns"></a>Schemi con cifre
+### <a name="digit-patterns"></a><a name="digit-patterns"></a>Schemi con cifre
 
 In un campo di data è possibile immettere due, quattro, sei o otto cifre:
 
@@ -74,17 +74,17 @@ In un campo di data è possibile immettere due, quattro, sei o otto cifre:
   > [!NOTE]
   > Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] in locale, l'intervallo di anni a due cifre potrebbe essere diverso. Gli amministratori possono modificare l'intervallo modificando l'impostazione **CalendarTwoDigitYearMax** del server [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Configurazione di Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### <a name="today"></a>Oggi
+### <a name="today"></a><a name="today"></a>Oggi
 
 Inserisci la parola per _oggi_, nella lingua specificata nella pagina **Impostazioni personali** per impostare la data di un record sulla data odierna. Anziché immettere l'intera parola, è possibile immettere una parte della parola. Ad esempio, in inglese, puoi inserire _t_ o _tod_, purché non sia anche l'inizio di un'altra parola.
 
-### <a name="period"></a>Periodo
+### <a name="period"></a><a name="period"></a>Periodo
 
 Per filtrare uno specifico periodo contabile, in un campo Data immettere la lettera p o la parola periodo, seguita da un numero che identifica il periodo contabile, ad esempio p2 o periodo4. Il periodo contabile è relativo all'anno fiscale della data di lavoro corrente impostata nella Gestione ruolo utente. Ad esempio, se la data di lavoro è **21/03/22**, _p1_ oppure soltanto _p_, filtra il primo periodo contabile dell'anno fiscale 2022 (come 01/01/22..31/01/22). _p15_ filtra il quindicesimo periodo contabile dall'inizio dell'anno fiscale 2022 (come 01/03/23..31/03/23).
 
 I periodi contabili sono definiti nella pagina **Periodi contabili**. Per visualizzare o modificare i periodi contabili, aprire la pagina [qui](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a>Data del lavoro
+### <a name="work-date"></a><a name="work-date"></a>Data del lavoro
 
 Utilizza una data di lavoro per specificare una data che non è la data odierna sui record. Ad esempio, una data di lavoro è utile quando è necessario impostare una data particolare per più record. Specifica la data di lavoro nella pagina **Impostazioni personali**. 
 
@@ -92,13 +92,13 @@ Un modo rapido per inserire la data di lavoro sui record è inserire alcune o tu
 
 Se non hai specificato una data di lavoro, verrà utilizzata la data odierna. Per ulteriori informazioni vedi [Modificare le impostazioni di base, quali l'ora di lavoro](ui-change-basic-settings.md#work-date).
 
-### <a name="closing-date"></a>Data chiusura
+### <a name="closing-date"></a><a name="closing-date"></a>Data chiusura
 
 Per chiudere un anno fiscale, è possibile utilizzare date di chiusura per indicare un movimento di chiusura. Una data di chiusura è tecnicamente compresa tra due date, ad esempio 31 dicembre e 1 gennaio.
 
 Per specificare che si tratta di una data di chiusura, immettere C prima della data, ad esempio C123101. Questo formato può essere utilizzato insieme a tutti i modelli per data.
 
-### <a name="examples"></a>Esempi
+### <a name="examples"></a><a name="examples"></a>Esempi
 
 Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati. Presuppone le impostazioni di paese con formato di data **anno.mese.giorno.**, una settimana che inizia il lunedì e la lingua inglese.
 
@@ -123,7 +123,7 @@ Nella tabella seguente sono contenuti esempi di date utilizzando tutti i formati
 |m 23|Martedì della settimana 23 dell'anno della data di lavoro|
 |m-1|Martedì della settimana 1 dell'anno della data di lavoro|
 
-## <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Impostazione di intervalli di date
+## <a name="setting-ranges"></a><a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Impostazione di intervalli di date
 
 In elenchi, totali e report, è possibile impostare filtri su date, orari e periodi di tempo contenenti un valore iniziale e facoltativamente un valore finale per visualizzare solo i dati contenuti in tale intervallo. All'impostazione di intervalli di date si applicano regole standard.
 
@@ -135,7 +135,7 @@ In elenchi, totali e report, è possibile impostare filtri su date, orari e peri
 
 È possibile utilizzare uno qualsiasi dei formati validi nei filtri dell'intervallo di date. Ad esempio, lun14 3..o 4p applicato a un campo data/ora risulta un filtro dalle 3 AM di lunedì nella settimana 14 dell'anno della data di lavoro corrente, incluso, fino alle 4 PM, comprese.
 
-## <a name="use-date-formulas"></a>Usare le formule data
+## <a name="use-date-formulas"></a><a name="use-date-formulas"></a>Usare le formule data
 
 Una formula di data è una breve combinazione di lettere e numeri che specifica il modo in cui calcolare le date. È possibile immettere formule per le date in diversi campi o filtri per il calcolo della data.
 
@@ -199,7 +199,7 @@ Nell'esempio seguente viene illustrato come utilizzare un segno meno per indicar
 > [!IMPORTANT]
 > Se l'ubicazione utilizza un calendario di base, la formula per la data immessa, ad esempio, nel campo **Durata spedizione** verrà interpretata in base ai giorni lavorativi del calendario. Ad esempio la formula 1S significa sette giorni lavorativi.
 <!--
-# <a name="entering-date-ranges"></a>Entering Date Ranges
+# <a name="entering-date-ranges"></a><a name="entering-date-ranges"></a>Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas-1"></a>Use Date Formulas
+## <a name="use-date-formulas-1"></a><a name="use-date-formulas-1"></a>Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -287,7 +287,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## <a name="entering-times"></a>Immissione di ore
+## <a name="entering-times"></a><a name="entering-times"></a>Immissione di ore
 
 Quando immetti l'ora, puoi inserire qualsiasi separatore diverso da spazio tra le unità. Se usi due cifre per ogni unità fino a millisecondi, non è necessario.
 
@@ -320,11 +320,11 @@ Nella tabella seguente sono indicati i diversi formati in cui è possibile immet
 
 La parola per "ora" nella lingua usata da [!INCLUDE[prod_short](includes/prod_long.md)] verrà valutata per l'ora corrente del computer o dispositivo mobile in uso. È possibile immettere qualsiasi parte della parola, a partire dall'inizio, come o oppure ORA.
 
-## <a name="entering-combined-dates-and-times"></a>Immissione di date e ore combinate
+## <a name="entering-combined-dates-and-times"></a><a name="entering-combined-dates-and-times"></a>Immissione di date e ore combinate
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a>Immissione della durata
+## <a name="entering-duration"></a><a name="entering-duration"></a>Immissione della durata
 
 Alcuni campi dell'applicazione rappresentano una durata, o una quantità di tempo trascorso, anziché una data o un'ora specifica. È possibile immettere una durata in caratteri numerici seguiti dalla relativa unità di misura.
 
@@ -345,9 +345,9 @@ Per vedere quale unità di misura viene utilizzata in un campo di durata, immett
 
 Ad esempio, il numero 5 viene convertito in 5 h se l'unità di misura è l'ora.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  

@@ -11,13 +11,13 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Inviare promemoria per saldi inevasi
+# <a name="send-reminders-of-outstanding-balances"></a><a name="send-reminders-of-outstanding-balances"></a>Inviare promemoria per saldi inevasi
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a><a name="see-also"></a>Vedi anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Imposta più tassi di interesse per il pagamento ritardato](finance-how-to-set-up-multiple-interest-rates.md)  

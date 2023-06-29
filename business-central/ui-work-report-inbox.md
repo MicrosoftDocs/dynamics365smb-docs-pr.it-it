@@ -11,14 +11,14 @@ ms.search.form: 680
 ms.date: 08/08/2022
 ms.author: a-reishima
 ---
-# <a name="share-and-export-reports-with-the-report-inbox"></a>Condividere ed esportare report con Report elaborati
+# <a name="share-and-export-reports-with-the-report-inbox"></a><a name="share-and-export-reports-with-the-report-inbox"></a>Condividere ed esportare report con Report elaborati
 
 La pagina **Report elaborati** elenca i report pianificati generati dall'utente in [!INCLUDE[prod_short](includes/prod_short.md)] e può essere utilizzata non solo per accedere ai report generati, ma anche per condividere e aprire i file in OneDrive for Business.
 
 > [!TIP]
 > Le seguenti azioni sono disponibili anche nella parte **Report elaborati** nella Gestione ruolo utente. Se la parte non viene visualizzata nell'interfaccia, scopri come personalizzare la Gestione ruolo utente qui: [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
-## <a name="download-generated-reports"></a>Scaricare i report generati
+## <a name="download-generated-reports"></a><a name="download-generated-reports"></a>Scaricare i report generati
 
 Per salvare i report precedenti, apri la pagina **Report elaborati** seguendo questi passaggi:
 
@@ -30,7 +30,7 @@ Per salvare i report precedenti, apri la pagina **Report elaborati** seguendo qu
 >
 > I file generati vengono salvati nel formato definito in fase di pianificazione del report e possono essere modificati sulla pagina **Movimenti coda processi** insieme alla ricorrenza e ad altre impostazioni. Scopri come modificare il formato del file di report e impostare opzioni aggiuntive in [Gestire i report ricorrenti programmati](ui-work-report.md#manage-scheduled-recurring-reports).
 
-## <a name="open-generated-reports-in-onedrive"></a>Aprire i report generati in OneDrive
+## <a name="open-generated-reports-in-onedrive"></a><a name="open-generated-reports-in-onedrive"></a>Aprire i report generati in OneDrive
 
 Per esportare il file di report in Microsoft OneDrive for Business, seleziona il report nella pagina **Report elaborati** e scegli l'azione **Apri in OneDrive**. Il rapporto viene quindi copiato nella cartella [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive e aperto in una nuova finestra del browser, dove è possibile stampare e gestire il file del documento.
 
@@ -38,7 +38,7 @@ Per esportare il file di report in Microsoft OneDrive for Business, seleziona il
 >
 > I report impostati per la scadenza nella pagina **Pianifica un report** e copiati in OneDrive non vengono rimossi automaticamente dalla cartella condivisa.
 
-## <a name="share-scheduled-reports"></a>Condividere i report programmati
+## <a name="share-scheduled-reports"></a><a name="share-scheduled-reports"></a>Condividere i report programmati
 
 La condivisione dei report con i collaboratori è possibile anche sulla pagina **Report elaborati**. Seleziona il report e scegli l'azione **Condividi**. Sulla pagina **Invia collegamento** seleziona chi può aprire il file, definisci le autorizzazioni di modifica, quindi scegli **Invia** per inviare un collegamento per accedere al report salvato.
 
@@ -47,9 +47,9 @@ La condivisione dei report con i collaboratori è possibile anche sulla pagina *
 >
 > L'azione **Condividi** rende il file di report generato disponibile solo ad altri utenti su OneDrive for Business e non elenca il report programmato nella pagina **Report elaborati**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/build-reports/).
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Eseguire e stampare i report](ui-work-report.md)  
 [Report disponibili in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

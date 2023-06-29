@@ -12,17 +12,17 @@ ms.date: 06/07/2022
 ms.author: solsen
 ---
 
-# <a name="configure-api-templates"></a>Configurare i modelli di API
+# <a name="configure-api-templates"></a><a name="configure-api-templates"></a>Configurare i modelli di API
 
 La libreria di API per [!INCLUDE[prod_short_md](includes/prod_short.md)] fornisce una rappresentazione semplificata delle entità sottostanti. Tutte le proprietà dell'applicazione non sono esposte tramite l'API associata. La pagina **Setup API** consente di definire modelli utilizzati per popolare le proprietà vuote in un'entità quando si crea un'azione POST tramite l'API. 
 
 Ad esempio, se per l'entità articolo viene definito un modello di configurazione, quando viene creato un nuovo record di articolo tramite l'API articoli, tutte le proprietà per il nuovo articolo che non sono definite nella chiamata API verranno popolate dal modello selezionato. Se, ad esempio, non è definito alcun valore per il campo **Cat. reg. articolo/servizio** tramite l'API, ma un valore è definito nel modello selezionato, al nuovo articolo verrà applicato il valore del gruppo di registrazione definito nel modello. 
 
-## <a name="setting-up-the-entity-template"></a>Impostazione del modello di entità
+## <a name="setting-up-the-entity-template"></a><a name="setting-up-the-entity-template"></a>Impostazione del modello di entità
 
 Per utilizzare i modelli con la libreria di API, è prima necessario definire e impostare le proprietà per i modelli. È possibile impostare questi modelli nella pagina **Modelli di configurazione**. Per ulteriori informazioni, vedi [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) (solo in inglese) nel contenuto per amministratori.  
 
-## <a name="assign-the-template-to-an-api"></a>Assegnare il modello a un'API
+## <a name="assign-the-template-to-an-api"></a><a name="assign-the-template-to-an-api"></a>Assegnare il modello a un'API
 
 Per assegnare un modello a un'API, è necessario seguire questi passaggi.
 
@@ -45,7 +45,7 @@ Per assegnare un modello a un'API, è necessario seguire questi passaggi.
 
     Il modello definito viene applicato a un nuovo record creato tramite l'API se, e solo se, le condizioni definite nel campo **Condizioni** sono soddisfatte dai valori già definiti per la nuova istanza dell'entità.
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a><a name="see-also"></a>Vedi anche
 
 [Documentazione API](/dynamics-nav/fin-graph)  
 [Sviluppare Connect Apps per [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

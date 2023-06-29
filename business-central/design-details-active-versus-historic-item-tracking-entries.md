@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-active-versus-historic-item-tracking-entries"></a>Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi
+# <a name="design-details-active-versus-historic-item-tracking-entries"></a><a name="design-details-active-versus-historic-item-tracking-entries"></a>Dettagli di progettazione: Movimenti di tracciabilità articolo storici e attivi
 Quando vengono registrate parti di una quantità di una riga documento, solo quella quantità in questione viene trasferita ai movimenti contabili articoli e ai relativi numeri di tracciabilità articolo. Tuttavia, è opportuno accedere a tutte le informazioni rilevanti di tracciabilità articoli direttamente dalla riga del documento attivo. Ovvero non solo si desidererà vedere i movimenti che sono correlati alla quantità residua, ma si vorranno anche informazioni sulle unità che sono state registrate. Quando si visualizza o si modifica la pagina **Righe tracciabilità articolo**, i contenuti collettivi delle tabelle **Specifica tracciabilità** (T336) e **Movimenti impegni** (T337) vengono presentati in una versione temporanea di T336. In questo modo si garantisce l'accesso unico ai dati di tracciabilità articolo attivi e storici.  
 
  Nella seguente tabella viene mostrato come T336 e T337 vengono utilizzati in uno scenario di acquisto. Le cifre in grassetto rappresentano i valori che l'utente immette manualmente nella pagina **Righe tracciabilità articolo**.  
@@ -52,7 +52,7 @@ Quando vengono registrate parti di una quantità di una riga documento, solo que
 |Pagina **Righe tracciabilità articolo**|7|0|**5**|7|2|  
 |**T336**|7|0|0|7|7|  
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a><a name="see-also"></a>Vedi anche
  [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)   
  [Dettagli di progettazione: Pagina righe tracciabilità articolo](design-details-item-tracking-lines-window.md)
 

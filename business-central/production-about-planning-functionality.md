@@ -10,7 +10,7 @@ ms.search.form: 5430
 ms.date: 08/30/2022
 ms.author: bholtorf
 ---
-# <a name="about-planning-functionality"></a>Informazioni sulla funzionalità di pianificazione
+# <a name="about-planning-functionality"></a><a name="about-planning-functionality"></a>Informazioni sulla funzionalità di pianificazione
 
 Il sistema di pianificazione considera tutti i dati relativi a domande e approvvigionamento, confronta i risultati e crea suggerimenti per bilanciare l'approvvigionamento in modo da soddisfare la domanda.  
 
@@ -19,7 +19,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Pianificazione ap
 > [!NOTE]  
 > Per tutti i campi citati in questo argomento, leggere la descrizione comando per comprenderne la funzione. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="demand-and-supply"></a>Domanda e approvvigionamento
+## <a name="demand-and-supply"></a><a name="demand-and-supply"></a>Domanda e approvvigionamento
 
 La pianificazione è costituita da due elementi, la domanda e l'approvvigionamento. Tali elementi devono essere proporzionati uno all'altro per assicurare che la domanda sia soddisfatta in modo tempestivo ed economicamente vantaggioso.  
 
@@ -28,7 +28,7 @@ La pianificazione è costituita da due elementi, la domanda e l'approvvigionamen
 
 Un altro obiettivo del sistema di pianificazione consiste nel garantire che il magazzino non aumenti in modo superfluo. Nel caso di un calo della domanda, verrà suggerito dal sistema di pianificazione di rimandare, ridurre in quantità o annullare gli ordini di rifornimento esistenti.  
 
-## <a name="planning-calculation"></a>Calcolo della pianificazione
+## <a name="planning-calculation"></a><a name="planning-calculation"></a>Calcolo della pianificazione
 
 Il sistema di pianificazione si basa sulla domanda anticipata ed effettiva da parte dei clienti, nonché sui parametri di riordino del magazzino. L'esecuzione del calcolo della pianificazione ha come risultato alcune azioni specifiche suggerite dall'applicazione ([Messaggi di azione](production-how-to-run-mps-and-mrp.md#action-messages)) da adottare relativamente al possibile rifornimento da fornitori, trasferimenti tra magazzini o produzione. Se sono già presenti ordini di rifornimento, le azioni suggerite possono consistere nell'aumento o nell'accelerazione di tali ordini per rispondere alle modifiche nella domanda.  
 
@@ -37,7 +37,7 @@ Le base della procedura di pianificazione consiste nel calcolo del fabbisogno da
 > [!TIP]
 > Il sistema di pianificazione si basa sul modo in cui l'organizzazione utilizza le sedi. Per ulteriori informazioni, vedere [Pianificazione con o senza sedi](production-planning-with-without-locations.md).
 
-## <a name="planning-with-manual-transfer-orders"></a>Pianificazione con ordini di trasferimento manuali
+## <a name="planning-with-manual-transfer-orders"></a><a name="planning-with-manual-transfer-orders"></a>Pianificazione con ordini di trasferimento manuali
 
 Come indicato nel campo **Sistema di Rifornimento** in una scheda USK, è possibile impostare il sistema di pianificazione in modo da creare ordini di trasferimento per bilanciare l'approvvigionamento e la domanda tra le ubicazioni.  
 
@@ -45,7 +45,7 @@ Oltre a tali ordini di trasferimento automatici, è possibile che in alcuni casi
 
 Se si desidera invece fare in modo che il sistema di pianificazione rettifichi le quantità e le date dell'ordine di trasferimento in base alla domanda esistente, impostare il campo **Flessibilità pianificazione** sul valore di default Illimitata.
 
-## <a name="planning-parameters"></a>Parametri di pianificazione
+## <a name="planning-parameters"></a><a name="planning-parameters"></a>Parametri di pianificazione
 
 I parametri di pianificazione determinano i tempi, le quantità e le modalità di rifornimento in base alle diverse impostazioni nella scheda articolo (unità di stockkeeping, USK) e in Setup manufacturing.  
 
@@ -86,16 +86,16 @@ I campi di setup di pianificazione globale nella pagina **Setup manufacturing** 
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
 
-## <a name="other-important-planning-fields"></a>Altri campi di pianificazione rilevanti
+## <a name="other-important-planning-fields"></a><a name="other-important-planning-fields"></a>Altri campi di pianificazione rilevanti
 
-### <a name="planning-flexibility"></a>Flessibilità pianificazione
+### <a name="planning-flexibility"></a><a name="planning-flexibility"></a>Flessibilità pianificazione
 
 Nella maggior parte degli ordini di approvvigionamento, ad esempio gli ordini di produzione, è possibile selezionare **Illimitata** o **Nessuna** nel campo **Flessibilità pianificazione** delle righe.
 
 Ciò indica se l'approvvigionamento rappresentato dalla riga dell'ordine di produzione viene considerato dal sistema di pianificazione durante il calcolo dei messaggi d'azione.
 Se nel campo è impostato il valore **Illimitata**, il sistema di pianificazione include la riga nel calcolo dei messaggi di azione. Se nel campo è impostato il valore **Nessuna**, la riga sarà fissa e non modificabile e non verrà inserita nel calcolo dei messaggi di azione.
 
-### <a name="warning"></a>Avviso
+### <a name="warning"></a><a name="warning"></a>Avviso
 
 Nel campo **Avviso** della pagina **Prospetto pianificazione** viene visualizzato un messaggio per ogni riga di pianificazione creata per una situazione insolita. L'utente può scegliere di leggere ulteriori informazioni. Sono disponibili i seguenti tipi di avviso:
 
@@ -113,7 +113,7 @@ Se le giacenze di un articolo sono negative alla data di inizio pianificazione, 
 
 Tutte le righe di documento con data di scadenza precedente la data di inizio pianificazione sono consolidate in un unico ordine di approvvigionamento di emergenza che pervenga nella data di inizio pianificazione.
 
-### <a name="exception"></a>Eccezione
+### <a name="exception"></a><a name="exception"></a>Eccezione
 
 L'avviso di eccezione viene visualizzato se la proiezione delle giacenze disponibili scende al di sotto della scorta di sicurezza.
 
@@ -124,7 +124,7 @@ Intaccare il livello di scorta di sicurezza è considerata un'eccezione perché 
 > [!NOTE]
 > L'approvvigionamento nelle righe di pianificazione con avvisi di eccezione in genere non viene modificato in base ai parametri di pianificazione. Al contrario, il sistema di pianificazione suggerisce solo un approvvigionamento per coprire la quantità di domanda esatta. Tuttavia, è possibile impostare la pianificazione in modo da rispettare parametri specifici per le righe di pianificazione con determinati avvisi. Per ulteriori informazioni, vedere la descrizione del campo **Rispetta parametri di pianificazione per avvisi di eccezione** nell'articolo [Eseguire la pianificazione completa, MPS o MRP](production-how-to-run-mps-and-mrp.md).
 
-### <a name="attention"></a>Attenzione
+### <a name="attention"></a><a name="attention"></a>Attenzione
 
 L'avviso di attenzione è visualizzato in due situazioni:
 
@@ -134,11 +134,11 @@ L'avviso di attenzione è visualizzato in due situazioni:
 > [!NOTE]
 > Nella pianificazione delle righe con avvisi, il campo **Accetta messaggio errore** non è selezionato perché si prevede che l'addetto alla pianificazione effettui ulteriori indagini su tali righe prima di eseguire il piano.
 
-## <a name="planning-worksheets-and-requisition-worksheets"></a>Prospetti pianificazione e richieste di approvvigionamento
+## <a name="planning-worksheets-and-requisition-worksheets"></a><a name="planning-worksheets-and-requisition-worksheets"></a>Prospetti pianificazione e richieste di approvvigionamento
 
 Come descritto in [Pianificazione](production-planning.md), è possibile scegliere tra due fogli di lavoro per la maggior parte delle attività di pianificazione, il prospetto pianificazione e la richiesta di approvvigionamento. La maggior parte dei processi viene descritta in base al prospetto pianificazione, ma esistono un paio di scenari in cui è preferibile la richiesta di approvvigionamento.
 
-### <a name="requisition-worksheet"></a>Richiesta di approvvigionamento
+### <a name="requisition-worksheet"></a><a name="requisition-worksheet"></a>Richiesta di approvvigionamento
 
 La pagina **Richiesta di approvvigionamento** viene elenca gli articoli da ordinare. Esistono due modi per immettere gli articoli nella richiesta:
 
@@ -159,9 +159,9 @@ Per dettagli sulla pianificazione con posizioni e trasferimenti, vedere [Pianifi
 > [!TIP]
 > Quando lavori nelle pagina **Richiesta di approvvigionamento** o **Prospetto pianificazione**, puoi organizzare le righe ordinandole in base al nome di una colonna. Ciò è particolarmente utile nella pagina Prospetto pianificazione perché può essere utilizzato per ordini di produzione multilivello. Per impostazione predefinita, le righe sono ordinate in base al campo **Nr. articolo**. Per raggruppare le righe per un ordine multilivello, ordina in base al campo **Nr. ordine rif.** . Anche i campi **Ordine MPS** e **Livello pianificazione** possono aiutare a mostrare la gerarchia delle righe.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/plan-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
 [Pianif.](production-planning.md)  

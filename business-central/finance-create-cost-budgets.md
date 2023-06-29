@@ -10,7 +10,7 @@ ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="creating-cost-budgets"></a>Creazione di budget di costi
+# <a name="creating-cost-budgets"></a><a name="creating-cost-budgets"></a>Creazione di budget di costi
 
 L'impostazione del budget nella contabilità industriale è simile a quella della contabilità generale. Un budget costi viene creato in base ai tipi di costo proprio come il budget della contabilità generale viene creato in base ai conti della contabilità generale.  
 
@@ -26,9 +26,9 @@ Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegli l'i
 |Visualizzare i registri budget costi e i movimenti di budget costi.|Pagina **Registri budget costi**|  
 |Stampare i confronti del budget costi utilizzando vari report.|Report **Saldo/Budget contabilità industriale**<br /><br /> Report **Estratto conto/Budget di contabilità industriale**<br /><br /> Report **Budget costi per centro di costo**<br /><br /> Report **Budget costi per oggetto di costo**|  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
 [Creare budget C/G](finance-how-create-budgets.md)  

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 03/23/2022
 ---
 
-# <a name="handling-missing-option-values"></a>Gestione dei valori delle opzioni mancanti
+# <a name="handling-missing-option-values"></a><a name="handling-missing-option-values"></a>Gestione dei valori delle opzioni mancanti
 > [!NOTE]
 > Nel primo ciclo di rilascio del 2022 puoi creare i mapping delle opzioni. Per ulteriori informazioni, vedi [Personalizzazione dei mapping di opzione con Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Le nuove funzionalità richiedono che l'amministratore abiliti **Aggiornamento della funzionalità: mapping all'opzione impostata in Dataverse senza codice** nella pagina **Gestione funzionalità**. Per ulteriori informazioni, vedi [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Tutti i valori di enumerazione di [!INCLUDE[prod_short](includes/prod_short.md)] precedenti sono mappati ai set di opzioni in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-"></a>Estensione dei set di opzioni in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="extending-option-sets-in-"></a><a name="extending-option-sets-in-"></a>Estensione dei set di opzioni in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Crea una nuova estensione AL.
 
 2. Aggiungi un'estensione Enum per le opzioni che desideri estendere. Assicurati di utilizzare lo stesso valore. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > I primi dieci caratteri dei nomi e delle didascalie della nuova opzione devono essere univoci. Ad esempio, due opzioni denominate "Trasferimento 20 giorni lavorativi" e "Trasferimento 20 giorni di calendario" causeranno un errore perché entrambi hanno gli stessi primi 10 caratteri, "Trasferimento 2". Denominali, ad esempio "TRF20 WD" e "TRF20 CD".
 
-### <a name="update--option-mapping"></a>Aggiornare la mappatura delle opzioni [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="update--option-mapping"></a><a name="update--option-mapping"></a>Aggiornare la mappatura delle opzioni [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Ora puoi ricreare la mappatura tra le opzioni [!INCLUDE[prod_short](includes/cds_long_md.md)] e i record [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Nella pagina **Mapping tabella integrazione**, scegli la riga per il mapping **Condizioni pagamento**, quindi scegliere l'azione **Sincronizza record modificati**. La pagina **Mappatura opzione Dataverse** viene aggiornata con i record aggiuntivi di seguito.
@@ -140,7 +140,7 @@ La tabella **Condizioni pagamento** in [!INCLUDE[prod_short](includes/prod_short
 | *NET60*      |                      |                           | 0.         | FALSE                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | FALSE                         |                   |
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 [Mapping delle tabelle e dei campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

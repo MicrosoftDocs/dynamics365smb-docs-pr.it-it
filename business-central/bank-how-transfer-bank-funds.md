@@ -11,11 +11,11 @@ ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
 ---
-# <a name="transfer-bank-funds"></a>Trasferimento di fondi bancari
+# <a name="transfer-bank-funds"></a><a name="transfer-bank-funds"></a>Trasferimento di fondi bancari
 
 Talvolta, può anche essere necessario effettuare un bonifico da un conto corrente bancario in [!INCLUDE[prod_short](includes/prod_short.md)] a un altro. A tale scopo, è necessario registrare la transazione nella pagina **Registrazioni COGE**. L'attività varia a seconda se i conti correnti bancari utilizzano la stessa valuta o valute diverse.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Per registrare un bonifico tra conti correnti bancari con lo stesso codice valuta
+## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a><a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Per registrare un bonifico tra conti correnti bancari con lo stesso codice valuta
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
 2. In una riga di registrazioni compilare i campi **Data di registrazione** e **Nr. documento**.
@@ -28,7 +28,7 @@ Talvolta, può anche essere necessario effettuare un bonifico da un conto corren
 7. Nel campo **Nr. contropartita** selezionare il conto bancario a cui si desidera trasferire i fondi.
 8. Effettuare la registrazione.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Per registrare un bonifico tra conti correnti bancari con codici valuta diversi
+## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a><a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Per registrare un bonifico tra conti correnti bancari con codici valuta diversi
 
 Per trasferire i fondi tra conti correnti bancari che utilizzano valute diverse, è necessario inserire due righe di registrazioni COGE.
 
@@ -65,7 +65,7 @@ Per trasferire i fondi tra conti correnti bancari che utilizzano valute diverse,
     > Un importo senza segno è un debito e un importo con un segno meno è un credito.
 10. Effettuare la registrazione.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  

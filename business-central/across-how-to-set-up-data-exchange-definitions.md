@@ -9,7 +9,7 @@ ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
+# <a name="set-up-data-exchange-definitions"></a><a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
 
 Puoi impostare [!INCLUDE[prod_short](includes/prod_short.md)] per scambiare i dati di tabelle specifiche con i dati di file esterni. Ad esempio per inviare e ricevere documenti elettronici, importare ed esportare dati bancari o altri dati, come buste paga e cataloghi di articoli. Per ulteriori informazioni, vedi [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
@@ -26,14 +26,14 @@ In questo articolo sono incluse le seguenti procedure:
 * Esportare una definizione di scambio di dati come file XML per l'utilizzo da parte di altri utenti.
 * Importare un file XML per una definizione di scambio di dati esistente.
 
-## <a name="create-a-data-exchange-definition"></a>Creare la definizione di scambio di dati
+## <a name="create-a-data-exchange-definition"></a><a name="create-a-data-exchange-definition"></a>Creare la definizione di scambio di dati
 
 La creazione di una definizione di scambio di dati include due task:  
 
 1. Nella pagina **Definizione di scambio dati** descrivere la formattazione delle righe e delle colonne del file. Ulteriori informazioni nella sezione [Per descrivere la formattazione di righe e colonne nel file](#formatlinescolumns).  
 2. Nella pagina **Mapping scambio dati** eseguire il mapping delle colonne nel file di dati ai campi in [!INCLUDE[prod_short](includes/prod_short.md)]. Ulteriori informazioni nella sezione [Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Per descrivere la formattazione di righe e colonne nel file
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Per descrivere la formattazione di righe e colonne nel file
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti le **definizioni di scambio dati**, e scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo**.  
@@ -108,7 +108,7 @@ Il passaggio successivo nella creazione di una definizione di scambio dati consi
 > [!NOTE]  
 > Il mapping specifico dipende dallo scopo aziendale del file di dati da sostituire e dalle variazioni locali. Anche lo standard bancario SEPA include variazioni locali. [!INCLUDE[prod_short](includes/prod_short.md)] supporta l'importazione dei file di rendiconto bancario SEPA CAMT come funzionalità predefinita. Questa è rappresentata dal codice del record della definizione di scambio dati **SEPA CAMT** nella pagina **Definizioni scambio di dati**. Per informazioni sul mapping dei file specifico del supporto SEPA CAMT, vedere [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > A volte i valori nei campi che si desidera mappare sono diversi. Ad esempio, in un'app aziendale il codice della lingua per gli Stati Uniti è "U.S.", ma in un'altra è "US". Ciò significa che è necessario trasformare il valore quando si scambiano i dati. Ciò accade attraverso le regole di trasformazione definite per i campi. Per ulteriori informazioni, vedi [Regole di trasformazione](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -163,7 +163,7 @@ A partire dal secondo ciclo di rilascio del 2022, puoi anche raggruppare in base
      |**ID campo**|Specifica il numero del campo nel file esterno che viene utilizzato per il raggruppamento e questo campo deve essere specificato dall'utente.|
      |**Didascalia campo**|Specifica la didascalia del campo nel file esterno che viene utilizzato per il raggruppamento.|
 
-## <a name="transformation-rules"></a>Regole di trasformazione
+## <a name="transformation-rules"></a><a name="transformation-rules"></a>Regole di trasformazione
 
 Se i valori nei campi che si stanno mappando differiscono tra loro, è necessario utilizzare le regole di trasformazione per le definizioni di scambio dei dati per renderle uguali. Si definiscono le regole di trasformazione per le definizioni di scambio dei dati aprendo una definizione esistente o creando una nuova definizione e quindi nella scheda dettaglio **Definizioni righe** scegliendo **Gestisci** e poi **Mapping dei campi**. Vengono fornite le regole predefinite, ma è possibile anche crearne di proprie. La tabella seguente descrive i tipi di trasformazione che è possibile eseguire.
 
@@ -188,7 +188,7 @@ Se i valori nei campi che si stanno mappando differiscono tra loro, è necessari
 > [!NOTE]  
 > Per ulteriori informazioni sulla formattazione di data e ora, vedi [Stringhe di formato di data e ora standard](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a>Suggerimento per gli sviluppatori: esempio dell'opzione Personalizzato
+### <a name="tip-for-developers-example-of-the-custom-option"></a><a name="tip-for-developers-example-of-the-custom-option"></a>Suggerimento per gli sviluppatori: esempio dell'opzione Personalizzato
 
 L'esempio seguente mostra come implementare il proprio codice di trasformazione.
 
@@ -206,7 +206,7 @@ codeunit 60100 "Hello World"
 
 Dopo aver definito le regole, è possibile verificarle. Nella scheda dettaglio **Test**, immetti un valore di esempio da trasformare, quindi controlla i risultati scegliendo **Aggiorna**.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Esportare una definizione di scambio di dati come file XML per l'utilizzo da parte di altri utenti
+## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a><a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Esportare una definizione di scambio di dati come file XML per l'utilizzo da parte di altri utenti
 
 Dopo aver creato la definizione di scambio di dati per un file di dati specifico, è possibile esportarla come file XML che può essere importato. Questa attività è descritta nella procedura seguente.  
 
@@ -217,14 +217,14 @@ Dopo aver creato la definizione di scambio di dati per un file di dati specifico
 
     Se è già stata creata una definizione di scambio di dati, occorre solo importare il file XML nel framework di scambio di dati. Questa attività è descritta nella procedura seguente.  
 
-## <a name="import-an-existing-data-exchange-definition"></a>Importare una definizione di scambio di dati esistente
+## <a name="import-an-existing-data-exchange-definition"></a><a name="import-an-existing-data-exchange-definition"></a>Importare una definizione di scambio di dati esistente
 
 1. Salvare il file XML che rappresenta la definizione di scambio di dati in un'ubicazione appropriata.  
 2. Scegli la ![lampadina che apre la funzione Dimmi 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti le **definizioni di scambio dati**, e scegli il collegamento correlato.  
 3. Scegliere l'azione **Importa definizione scambio dati**.  
 4. Scegliere il file salvato nel passaggio 1.  
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Impostare lo scambio di dati](across-set-up-data-exchange.md)  
 [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

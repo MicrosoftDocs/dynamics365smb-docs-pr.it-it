@@ -14,21 +14,21 @@ ms.contentlocale: it-IT
 ms.lasthandoff: 03/17/2022
 ms.locfileid: "8455700"
 ---
-# <a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a>Report di acquisto e analisi in Business Central
+# <a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a>Report di acquisto e analisi in Business Central
 
 Il report di acquisti in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti di approvvigionamento e aziendali di ottenere approfondimenti e statistiche sulle attività di acquisto attuali e passate.  
 
-## <a name="reports"></a><a name="reports"></a>Report
+## <a name="reports"></a><a name="reports"></a><a name="reports"></a>Report
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a><a name="tasks"></a>Attività
+## <a name="tasks"></a><a name="tasks"></a><a name="tasks"></a>Attività
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
 * [Creare report di analisi](bi-how-create-analysis-views-reports.md)  
 * [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 

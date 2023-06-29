@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ---
 
-# <a name="manage-inventory"></a>Gestire l'inventario
+# <a name="manage-inventory"></a><a name="manage-inventory"></a>Gestire l'inventario
 
 Per ogni prodotto fisico trattato è necessario creare una scheda articolo di tipo **Inventario**. Gli articoli che si offrono ai clienti ma che non sono presenti in magazzino possono essere registrati come articoli di catalogo che possono essere convertiti in articoli di magazzino se necessario. È possibile aumentare o diminuire la quantità di un articolo in magazzino registrando direttamente nei movimenti contabili articoli, ad esempio, dopo un conteggio fisico oppure se non si registrano gli acquisti.
 
@@ -25,13 +25,13 @@ Per ampliare la panoramica degli articoli e agevolare le operazioni di ricerca, 
 
 La pianificazione degli articoli per soddisfare la domanda è coperta nella funzionalità di pianificazione dell'offerta. Ulteriori informazioni in [Pianificazione](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a>Riconciliazione dell'inventario
+## <a name="inventory-reconciliation"></a><a name="inventory-reconciliation"></a>Riconciliazione dell'inventario
 
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale. Ulteriori informazioni in [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Ulteriori informazioni in [Rettifica costi articolo](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Attività correlate
+## <a name="related-tasks"></a><a name="related-tasks"></a>Attività correlate
 
 La tabella seguente descrive le attività correlate.
 
@@ -55,9 +55,9 @@ La tabella seguente descrive le attività correlate.
 |Gestisci le operazioni aziendali in uffici vendite, reparti acquisti o uffici di programmazione impianti distribuiti tra più sedi.|[Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)|
 |Utilizza risorse con funzioni specifiche per vari servizi e articoli in assistenza.|[Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/get-started-inventory-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/get-started-inventory-management/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Acquisti](purchasing-manage-purchasing.md)  

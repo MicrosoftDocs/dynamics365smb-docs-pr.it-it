@@ -12,7 +12,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ---
 
-# <a name="design-details-change-the-costing-method-for-items"></a>Dettagli di progettazione: modifica dei metodi di costing per gli articoli
+# <a name="design-details-change-the-costing-method-for-items"></a><a name="design-details-change-the-costing-method-for-items"></a>Dettagli di progettazione: modifica dei metodi di costing per gli articoli
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], non è possibile modificare un metodo di costing per un articolo dopo aver incluso l'articolo in una transazione. Ad esempio, dopo aver acquistato o venduto l'articolo. Se è stato assegnato un metodo di costing errato per l'articolo o gli articoli, è possibile che il problema non venga rilevato fino a quando non si esegue la rendicontazione finanziaria.
 
@@ -24,7 +24,7 @@ Questo argomento descrive come risolvere questa situazione. L'approccio consigli
 > [!TIP]
 > Per familiarizzare con il processo, consigliamo di iniziare il processo di conversione con un singolo articolo o un piccolo set di articoli.
 
-## <a name="about-costing-methods"></a>Informazioni sui metodi di costing
+## <a name="about-costing-methods"></a><a name="about-costing-methods"></a>Informazioni sui metodi di costing
 
 I metodi di costing controllano i calcoli dei costi quando le merci vengono acquistate, ricevute in inventario e vendute. I metodi di costing influenzano la tempistica degli importi registrati nel COGS che incidono sul profitto lordo. È questo flusso che calcola il COGS. Il costo delle merci vendute (COGS) e il ricavo sono utilizzati per determinare l'utile lordo, come segue:
 
@@ -40,7 +40,7 @@ Quando si impostano gli articoli di inventario, è necessario assegnare un metod
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).
 
-## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Utilizzare gli ordini di assemblaggio per modificare le assegnazioni del metodo di costing
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a><a name="use-assembly-orders-to-change-costing-method-assignments"></a>Utilizzare gli ordini di assemblaggio per modificare le assegnazioni del metodo di costing
 
 Questa sezione descrive i seguenti passaggi per modificare il metodo di costing assegnato a un articolo:
 
@@ -53,21 +53,21 @@ Questa sezione descrive i seguenti passaggi per modificare il metodo di costing 
 7. Gestire le quantità di inventario assegnate alla domanda.
 8. Bloccare l'articolo originale da ulteriore utilizzo.  
 
-### <a name="define-a-default-costing-method"></a>Definire il metodo di costing di default
+### <a name="define-a-default-costing-method"></a><a name="define-a-default-costing-method"></a>Definire il metodo di costing di default
 
 Per evitare errori futuri, è possibile specificare un metodo di costing predefinito per i nuovi articoli. Ogni volta che qualcuno crea un nuovo oggetto, [!INCLUDE[prod_short](includes/prod_short.md)] suggerirà il metodo di costing predefinito. Si specifica il metodo predefinito nel campo **Metodo di costing di default** della pagina **Setup magazzino**. 
 
-### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identificare gli articoli per cui modificare il metodo di costing e rinumerarli
+### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a><a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identificare gli articoli per cui modificare il metodo di costing e rinumerarli
 
 Si potrebbe voler dare ai nuovi articoli gli stessi numeri di quelli che stanno sostituendo. Per fare ciò, modificare i numeri degli articoli esistenti. Ad esempio, se il numero di articolo esistente è "P1000", è possibile modificarlo in "X-P1000". Questa è una modifica manuale che occorre apportare per ogni articolo.
 
-### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Creare nuovi articoli con il vecchio schema di numerazione e copiare l'anagrafica in un batch
+### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a><a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Creare nuovi articoli con il vecchio schema di numerazione e copiare l'anagrafica in un batch
 
 Creare i nuovi articoli utilizzando lo schema numerico corrente. Con l'eccezione del campo **Metodo di costing**, i nuovi articoli dovrebbero contenere la stessa anagrafica degli articoli esistenti. Per trasferire l'anagrafica per l'articolo e i dati correlati da altre funzioni, utilizzare l'azione **Copia articolo** della pagina **Scheda articolo**. Per ulteriori informazioni, vedere [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).
 
 Dopo aver creato i nuovi articoli e trasferito l'anagrafica, assegnare il metodo di costing corretto.
 
-### <a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a>Copiare manualmente l'anagrafica correlata dall'articolo originale al nuovo articolo
+### <a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a><a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a>Copiare manualmente l'anagrafica correlata dall'articolo originale al nuovo articolo
 
 Per rendere completamente utili i nuovi articoli, è necessario copiare manualmente alcuni dati anagrafici da altre aree, come descritto nella tabella seguente.
 
@@ -89,7 +89,7 @@ Per rendere completamente utili i nuovi articoli, è necessario copiare manualme
 > [!IMPORTANT]
 > Se il nuovo metodo di costing è standard, è necessario immettere un valore nel campo **Costo standard** della pagina **Scheda articolo**. È possibile usare la pagina **Prospetto costo standard** per impostare il dettaglio costi di conseguenza. Per ulteriori informazioni, vedere [Aggiornare i costi standard](finance-how-to-update-standard-costs.md).
 
-### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Determinare la quantità di inventario da convertire dall'articolo originale al nuovo articolo
+### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a><a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Determinare la quantità di inventario da convertire dall'articolo originale al nuovo articolo
 
 > [!NOTE]
 > Questo passaggio non considera le quantità incluse negli ordini non spediti. Per ulteriori informazioni, vedere [Gestire le quantità di magazzino allocate alla domanda](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
@@ -101,13 +101,13 @@ Utilizzare una registrazione d'inventario fisico per produrre un elenco di quant
 
 Entrambe le registrazioni possono calcolare la quantità di inventario dell'articolo, compresa la posizione, la variante, la collocazione e la posizione di stoccaggio. Per ulteriori informazioni, vedere [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni ](inventory-how-count-adjust-reclassify.md).
 
-### <a name="transfer-the-inventory-to-the-new-item"></a>Trasferire l'inventario al nuovo articolo
+### <a name="transfer-the-inventory-to-the-new-item"></a><a name="transfer-the-inventory-to-the-new-item"></a>Trasferire l'inventario al nuovo articolo
 
 Creare e registrare ordini di assemblaggio per trasferire il costo e la quantità di magazzino dall'articolo originale al nuovo articolo. Gli ordini di assemblaggio possono convertire un articolo in un altro preservando i costi. Questo aiuta a garantire che i totali netti per il conto magazzino e il COGS non siano interessati (tranne quando il nuovo metodo di costing è standard, nel qual caso i costi possono essere distribuiti ai conti scostamento). Per ulteriori informazioni, vedere [Gestione assemblaggio](assembly-assemble-items.md).
 
 Quando si creano ordini di assemblaggio, utilizzare le informazioni dalla Registrazioni inventario fisico o dalla  Registrazioni inventario whse. Le seguenti tabelle descrivono le informazioni nei report da inserire nell'intestazione e nelle righe nell'ordine di assemblaggio.
 
-#### <a name="header"></a>Testata
+#### <a name="header"></a><a name="header"></a>Testata
 
 |Campo  |Valore da immettere  |
 |---------|---------|
@@ -118,7 +118,7 @@ Quando si creano ordini di assemblaggio, utilizzare le informazioni dalla Regist
 |Codice unità di misura |Lo stesso della registrazione di inventario fisico. |
 |Codice collocazione |Lo stesso della registrazione di inventario fisico. |
 
-#### <a name="lines"></a>Righe
+#### <a name="lines"></a><a name="lines"></a>Righe
 
 |Campo  |Valore da immettere  |
 |---------|---------|
@@ -135,7 +135,7 @@ Quando si creano ordini di assemblaggio, utilizzare le informazioni dalla Regist
 > [!NOTE]
 > Per una posizione di magazzino, potrebbe essere necessario creare prelievi prima di poter registrare l'ordine di assemblaggio. Per indagare su ciò, rivedere il setup per il prelievo nella pagina **Scheda ubicazione**. Per ulteriori informazioni vedere [Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
-### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Gestire le quantità di inventario assegnate alla domanda
+### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a><a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Gestire le quantità di inventario assegnate alla domanda
 
 Idealmente, l'inventario per l'articolo originale dovrebbe essere a zero dopo aver trasferito le quantità di magazzino. Tuttavia, possono esserci ordini, prospetti e registrazioni in sospeso (vedere la tabella seguente) che richiedono ancora una quantità dell'articolo originale. La quantità potrebbe anche essere bloccata da una prenotazione o dalla tracciabilità articolo.
 
@@ -158,11 +158,11 @@ La tabella seguente elenca le aree funzionali in cui potrebbero esserci quantit�
 |Assistenza |Documenti di assistenza e contratti di assistenza |
 |Produzione |Ordini di produzione (pianificati, confermati e rilasciati) |
 
-### <a name="block-the-original-item-from-further-use"></a>Bloccare l'articolo originale da ulteriore utilizzo
+### <a name="block-the-original-item-from-further-use"></a><a name="block-the-original-item-from-further-use"></a>Bloccare l'articolo originale da ulteriore utilizzo
 
 Quando l'inventario per l'articolo originale è zero, è possibile bloccare l'articolo per impedirne l'utilizzo in nuove transazioni. Per bloccare l'articolo, nella pagina **Scheda articolo** attivare l'interruttore **Bloccato**. Per ulteriori informazioni, vedere [Bloccare gli articoli per la vendita o l'acquisto](inventory-how-block-items.md).
 
-## <a name="summary"></a>Riepilogo
+## <a name="summary"></a><a name="summary"></a>Riepilogo
 
 La modifica del metodo di costing per gli articoli che sono stati utilizzati nelle transazioni è un processo e non un'azione standard in [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile utilizzare i passaggi descritti in questo argomento come modello per il processo.
 
@@ -173,7 +173,7 @@ Si consiglia quanto segue:
 1. Valutare la fattibilità del processo prendendo uno, o forse alcuni, articoli rappresentativi durante l'intero processo.
 2. Prendere in considerazione di contattare un partner esperto che può aiutare nel processo.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Sintesi](design-details-inventory-costing.md)

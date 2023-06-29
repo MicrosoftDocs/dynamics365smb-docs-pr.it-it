@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.topic: conceptual
 ---
 
-# <a name="troubleshooting-accessing-camera-and-location"></a>Risoluzione dei problemi: accesso alla fotocamera e alla posizione
+# <a name="troubleshooting-accessing-camera-and-location"></a><a name="troubleshooting-accessing-camera-and-location"></a>Risoluzione dei problemi: accesso alla fotocamera e alla posizione
 
 È possibile che si riscontrino problemi quando si prova ad accedere alla fotocamera e alle informazioni sulla posizione di un dispositivo da [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile trovare le possibili cause e risoluzioni di questi problemi di seguito.
 
-## <a name="device-must-have-camera-and-location-capabilities"></a>Il dispositivo deve avere fotocamera e funzionalità di posizione
+## <a name="device-must-have-camera-and-location-capabilities"></a><a name="device-must-have-camera-and-location-capabilities"></a>Il dispositivo deve avere fotocamera e funzionalità di posizione
 
 Per accedere alla fotocamera o alla posizione di un utente da un dispositivo, il dispositivo deve avere, rispettivamente, una fotocamera fisica o la capacità di recuperare le informazioni sulla posizione.
 
 Se il dispositivo dispone di fotocamera e funzionalità di posizione, ma si riscontrano ancora problemi, è possibile che alcuni driver necessitino di aggiornamento o reinstallazione. Anche se non si è sicuri, si consiglia sempre di aggiornare il sistema operativo del dispositivo, i driver e il browser alla versione più recente per la migliore esperienza.
 
-## <a name="access-permissions-not-enabled"></a>Autorizzazioni di accesso non abilitate
+## <a name="access-permissions-not-enabled"></a><a name="access-permissions-not-enabled"></a>Autorizzazioni di accesso non abilitate
 
 È necessario abilitare l'accesso generale alla fotocamera e alla posizione dalle impostazioni sulla privacy del dispositivo e concedere esplicitamente a [!INCLUDE[prod_short](includes/prod_short.md)] l'autorizzazione ad accedervi. Ad esempio, per vedere o modificare le autorizzazioni per un dispositivo in esecuzione su Windows, andare a **Impostazioni**, scegliere **Privacy** e quindi **Autorizzazioni dell'app**. 
 
@@ -34,21 +34,21 @@ Per impostazione predefinita, il dispositivo o il browser visualizzerà una rich
 > [!NOTE]  
 > Alcuni browser precedenti non consentono l'accesso alla fotocamera e alla posizione. Ad esempio, la fotocamera non è disponibile in Internet Explorer o nel browser Edge legacy.
 
-## <a name="web-client-connection-not-secure"></a>Connessione client Web non protetta
+## <a name="web-client-connection-not-secure"></a><a name="web-client-connection-not-secure"></a>Connessione client Web non protetta
 
 La fotocamera e le funzionalità di posizione sono disponibili solo quando si accede al client Web tramite connessioni HTTP protette da SSL, utilizzando lo schema URI `https://`. 
 
 L'unica eccezione è la connessione a `http://localhost`, utilizzato per scopi di sviluppo e test.
 
 
-## <a name="work-with-virtualization-technologies"></a>Utilizzare le tecnologie di virtualizzazione
+## <a name="work-with-virtualization-technologies"></a><a name="work-with-virtualization-technologies"></a>Utilizzare le tecnologie di virtualizzazione
 
 Quando ci si collega a [!INCLUDE[prod_short](includes/prod_short.md)] tramite Desktop remoto o un'altra virtualizzazione, l'accesso alla fotocamera o alla posizione potrebbe non essere disponibile. In tal caso, utilizzare invece il sistema fisico.
 
-## <a name="antivirus-software"></a>Software antivirus
+## <a name="antivirus-software"></a><a name="antivirus-software"></a>Software antivirus
 Alcuni programmi software antivirus bloccano l'accesso alla fotocamera e alla posizione per impostazione predefinita. Ricordare di controllare le impostazioni del software antivirus.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 [Implementazione della fotocamera in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementazione della posizione in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 

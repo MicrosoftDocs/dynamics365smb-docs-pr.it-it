@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# <a name="move-items-internally-in-basic-warehouse-configurations"></a>Spostare gli articoli internamente nelle configurazioni della warehouse di base
+# <a name="move-items-internally-in-basic-warehouse-configurations"></a><a name="move-items-internally-in-basic-warehouse-configurations"></a>Spostare gli articoli internamente nelle configurazioni della warehouse di base
 
 È possibile spostare gli articoli tra le collocazioni senza una domanda da un documento di origine. Ad esempio, nell'ambito delle seguenti attività:
 
@@ -25,11 +25,11 @@ Nelle configurazioni warehouse in cui l'interruttore **Collocazione obbligatoria
 * Nella pagina **Movimento interno**.
 * Nella pagina **Registrazioni riclassificazione articolo**.  
 
-## <a name="internal-movements"></a>Movimenti interni
+## <a name="internal-movements"></a><a name="internal-movements"></a>Movimenti interni
 
 La pagina **Movimenti interni** consente di specificare le righe Prendere e Mettere quando non c'è una domanda da un documento di origine. La pagina del movimento interno è come un prospetto per organizzare le cose. Non puoi elaborare il movimento effettivo direttamente. Quando una riga è compilata, utilizza l'azione **Crea movimento di agazzino** per inviare la riga alla pagina **Movimento di magazzino** dove elabori e registri il movimento.
 
-### <a name="to-move-items-as-an-internal-movement"></a>Per spostare gli articoli come movimentazione interna
+### <a name="to-move-items-as-an-internal-movement"></a><a name="to-move-items-as-an-internal-movement"></a>Per spostare gli articoli come movimentazione interna
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti interni**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**. Assicurarsi che il campo **Nr.** della Scheda dettaglio **Generale** sia compilato.
@@ -59,7 +59,7 @@ La pagina **Movimenti interni** consente di specificare le righe Prendere e Mett
 
 Esegui il resto del movimento non pianificato nella pagina **Movimento di magazzino** con la stessa procedura utilizzata per un movimento basato su documenti di origine.
 
-### <a name="to-record-the-inventory-movement"></a>Per registrare il movimento di magazzino
+### <a name="to-record-the-inventory-movement"></a><a name="to-record-the-inventory-movement"></a>Per registrare il movimento di magazzino
 
 1. Nella pagina **Movimento di magazzino** apri il documento per cui registrare il movimento.  
 2. Nel campo **Codice collocazione** sulle righe di movimento, la collocazione da cui gli articoli devono essere prelevati da dove l'articolo è disponibile. Se necessario, puoi modificare la collocazione.
@@ -72,7 +72,7 @@ Durante il processo di registrazione si verifica quanto segue:
 
 * I movimenti warehouse indicano che la quantità viene trasferita dalle collocazioni Prendere alle collocazioni Mettere.
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Per spostare articoli con le registrazioni di riclassificazione articolo
+## <a name="to-move-items-with-the-item-reclassification-journal"></a><a name="to-move-items-with-the-item-reclassification-journal"></a>Per spostare articoli con le registrazioni di riclassificazione articolo
 
 Anziché utilizzare documenti di movimento, puoi registrare i movimenti riclassificando i codici di collocazione degli articoli. Per ulteriori informazioni vedi [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-adjust-reclassify.md).
 
@@ -89,9 +89,9 @@ Anziché utilizzare documenti di movimento, puoi registrare i movimenti riclassi
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

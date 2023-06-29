@@ -11,7 +11,7 @@ ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: edupont
 ---
-# <a name="sales"></a>Vendite
+# <a name="sales"></a><a name="sales"></a>Vendite
 
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
 
@@ -53,7 +53,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Comunicare ai clienti le date di consegna dell'ordine calcolando la data CTP (Capable-To-Promise) o ATP (Available-To-Promise).|[Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)|
 |Eliminare la confusione quando due o più record sono presenti per lo stesso cliente.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/sell-items-services-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Setup Vendite](sales-setup-sales.md)  
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  

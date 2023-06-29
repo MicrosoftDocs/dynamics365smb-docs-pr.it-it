@@ -10,7 +10,7 @@ ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="merge-duplicate-records"></a>Unire record duplicati
+# <a name="merge-duplicate-records"></a><a name="merge-duplicate-records"></a>Unire record duplicati
 
 Poiché utenti diversi creano nel tempo nuove schede cliente, fornitore o contatto, oppure nuovi record vengono creati automaticamente durante la migrazione, un cliente, un fornitore o un contatto possono essere rappresentati nel sistema con più di un record. In tal caso, è possibile utilizzare la pagina **Unisci duplicato** nella scheda del record che si desidera mantenere. La pagina fornisce una panoramica dei valori di campo duplicati e funzioni per selezionare i valori da mantenere o eliminare quando si uniscono due record.
 
@@ -56,9 +56,9 @@ La seguente procedura è basata su una scheda cliente. I passaggi sono simili pe
 > [!NOTE]
 > Per i contatti, è possibile utilizzare la funzionalità per trovare contatti duplicati prima di utilizzare la pagina **Unisci duplicato**. Per ulteriori informazioni, vedere [Ricerca di contatti duplicati](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup contatti](marketing-setup-contacts.md)  

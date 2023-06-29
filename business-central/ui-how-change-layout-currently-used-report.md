@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
 ---
-# <a name="legacy-set-the-layout-used-by-a-report"></a>(Legacy) Impostare il layout utilizzato da un report
+# <a name="legacy-set-the-layout-used-by-a-report"></a><a name="legacy-set-the-layout-used-by-a-report"></a>(Legacy) Impostare il layout utilizzato da un report
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -24,7 +24,7 @@ Quando vengono definiti layout di report personalizzati, è possibile selezionar
 > [!TIP]  
 > I report documento (non elenchi) che utilizzano un layout report Word sono in genere più rapidi di quelli che utilizzano un layout report RDLC. Quindi, se si ha la possibilità di scegliere tra un layout report Word o RDLC per un report documento, utilizzare il report layout Word per ottenere le migliori prestazioni.
 
-## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Per modificare il layout di report da utilizzare per un report o un documento
+## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a><a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Per modificare il layout di report da utilizzare per un report o un documento
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
   
@@ -43,7 +43,7 @@ Quando vengono definiti layout di report personalizzati, è possibile selezionar
 
 Se è stato selezionato un layout di report RDLC o Word predefinito, non sono necessarie ulteriori azioni e il layout verrà utilizzato alla successiva esecuzione del report.
 
-## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Per modificare il layout personalizzato da utilizzare per un layout di report
+## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a><a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Per modificare il layout personalizzato da utilizzare per un layout di report
 
 È anche possibile che si intenda modificare il layout personalizzato attualmente utilizzato. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 
@@ -56,9 +56,9 @@ Il nome del layout personalizzato selezionato è ora visualizzato nel campo **De
 
 Ora è possibile andare alle schede cliente e fornitore per specificare quali layout utilizzare per diversi documenti creati per il cliente o il fornitore in questione, come conferme di ordini o solleciti di pagamento. Per ulteriori informazioni, vedere [Definire layout di documenti per clienti e fornitori](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a><a name="see-also"></a>Vedi anche
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

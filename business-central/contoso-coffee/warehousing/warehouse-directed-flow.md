@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Procedura dettagliata del flusso in entrata e in uscita nella configurazione avanzata del magazzino con stoccaggio e prelievo diretti
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a><a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Procedura dettagliata del flusso in entrata e in uscita nella configurazione avanzata del magazzino con stoccaggio e prelievo diretti
 
 Questa procedura dettagliata illustra come completare i flussi in entrata e in uscita nella configurazione avanzata per stoccaggio e prelievo diretti. Per ulteriori informazioni, vedi [Panoramica delle diverse opzioni di configurazione](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Prerequisiti
+## <a name="prerequisites"></a><a name="prerequisites"></a>Prerequisiti
 Per completare questa procedura, devi diventare un dipendente warehouse presso l'ubicazione *BIANCA* effettuando i seguenti passaggi:  
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
 2. Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
@@ -24,10 +24,10 @@ Per completare questa procedura, devi diventare un dipendente warehouse presso l
 4. Attiva l'interruttore **Predefinito**.
 
 
-## <a name="scenario"></a>Scenario
+## <a name="scenario"></a><a name="scenario"></a>Scenario
 Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e di rifornimento delle collocazioni per velocizzare i tempi di ricezione e spedizione.  
 
-## <a name="steps"></a>Passaggi
+## <a name="steps"></a><a name="steps"></a>Passaggi
 
 1. Crea spedizione warehouse.  
 
@@ -136,7 +136,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
     4. Conferma l'opzione **Spedisci**.
 
 
-## <a name="results"></a>Risultati
+## <a name="results"></a><a name="results"></a>Risultati
 - Viene creato il **carico warehouse registrato**
 - Viene creato lo **stoccaggio warehouse registrato**    
 - Viene creato il **carico acquisto registrato**    
@@ -150,7 +150,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
 
 
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 [Ricevere articoli](../../warehouse-how-receive-items.md) 
 [Dettagli di progettazione: flusso di magazzino in entrata](../../design-details-inbound-warehouse-flow.md) 
 [Spedizione articoli](../../warehouse-how-ship-items.md) 

@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# <a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
+# <a name="pick-items-with-inventory-picks"></a><a name="pick-items-with-inventory-picks"></a>Prelevare articoli con prelievi magazzino
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], il prelievo e la spedizione degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
@@ -42,29 +42,29 @@ Quando un'ubicazione è impostata in modo da richiedere l'elaborazione dei preli
 
 Il prelievo in magazzino può quindi essere creato dalla pagina **Prelievo in magazzino** in base al documento di origine.  
 
-## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Per creare un prelievo magazzino dal documento di origine
+## <a name="to-create-an-inventory-pick-from-the-source-document"></a><a name="to-create-an-inventory-pick-from-the-source-document"></a>Per creare un prelievo magazzino dal documento di origine
 
 1. Nel documento di origine, che può essere un ordine di vendita, un ordine di reso da acquisto o un ordine di trasferimento in uscita, scegli l'azione **Crea stoccaggio / prelievo mag.**.
 2. Seleziona la casella di controllo **Crea prelievo mag.**.  
 3. Scegliere il pulsante **OK**. Verrà creato un nuovo prelievo magazzino.
 
-## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Per creare più prelievi magazzino utilizzando un processo batch
+## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a><a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Per creare più prelievi magazzino utilizzando un processo batch
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Crea stoccaggio/prelievo/movimento magazzino**, quindi seleziona il collegamento correlato.  
 2. Nella Scheda dettaglio **Richiesta warehouse**, utilizzare i campi **Nr. origine** e **Documento origine** per filtrare determinati tipi di documenti oppure intervalli di numeri di documenti. Ad esempio, è possibile creare prelievi solo per gli ordini di vendita.  
 3. Nella Scheda dettaglio **Opzioni**, seleziona la casella di controllo **Crea prelievo mag.**.
 4. Scegli il pulsante **OK**.
 
-## <a name="to-create-the-pick-in-two-steps"></a>Per creare il prelievo in due passaggi
+## <a name="to-create-the-pick-in-two-steps"></a><a name="to-create-the-pick-in-two-steps"></a>Per creare il prelievo in due passaggi
 
-### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Per richiedere un prelievo magazzino emettendo il documento di origine
+### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a><a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Per richiedere un prelievo magazzino emettendo il documento di origine
 
 Per gli ordini di vendita, gli ordini di reso acquisto e gli ordini di trasferimento in uscita, creare la richiesta warehouse emettendo l'ordine. Il rilascio dell'ordine rende gli articoli disponibili per il prelievo.
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Selezionare l'ordine di vendita che si intende rilasciare, quindi scegliere l'azione **Rilascio**.
 
-### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Per creare un prelievo da magazzino basato sul documento di origine
+### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a><a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Per creare un prelievo da magazzino basato sul documento di origine
 
 Dopo aver rilasciato un ordine, l'addetto alla warehouse può creare un prelievo da magazzino.
 
@@ -75,7 +75,7 @@ Dopo aver rilasciato un ordine, l'addetto alla warehouse può creare un prelievo
 5. In alternativa, scegli l'azione **Prendi documento origine** per creare una lista di tutti i documenti di origine in uscita pronti per il prelievo presso l'ubicazione.  
 6. Seleziona il pulsante **OK** per compilare le righe di prelievo in base ai documenti di origine selezionati.  
 
-## <a name="to-record-inventory-picks"></a>Per registrare i prelievi magazzino
+## <a name="to-record-inventory-picks"></a><a name="to-record-inventory-picks"></a>Per registrare i prelievi magazzino
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievo magazzino**, quindi scegli il collegamento correlato.  
 2. Nel campo **Codice collocazione** sulle righe di prelievo, la collocazione da cui gli articoli devono essere prelevati suggerisce la collocazione di default dell'articolo. È possibile modificare la collocazione in questa pagina, se necessario.  
@@ -88,7 +88,7 @@ Dopo aver rilasciato un ordine, l'addetto alla warehouse può creare un prelievo
     * Registra la spedizione delle righe del documento di origine prelevate.
     * Se l'ubicazione prevede l'utilizzo di collocazioni, verranno inoltre creati movimenti warehouse per la registrazione delle modifiche alla quantità nella collocazione.  
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Gestione di articoli da assemblare su ordine con prelievi magazzino
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a><a name="handling-assemble-to-order-items-with-inventory-picks"></a>Gestione di articoli da assemblare su ordine con prelievi magazzino
 
 Puoi anche usare la pagina **Prelievi magazzino** per prelevare e spedire vendite in cui gli articoli devono essere assemblati prima che possano essere spediti. Per ulteriori informazioni vedi [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -118,9 +118,9 @@ Negli scenari in cui una parte della quantità è assemblata e un'altra deve ess
 > [!NOTE]  
 > Se gli articoli vengono assemblati su ordinazione, il prelievo di magazzino per l'ordine di vendita collegato crea un movimento di magazzino per tutti i componenti di assemblaggio.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

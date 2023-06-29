@@ -11,7 +11,7 @@ ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/27/2021
 ms.author: edupont
 ---
-# <a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
+# <a name="process-sales-returns-or-cancellations"></a><a name="process-sales-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti vendite
 
 Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette della fattura di vendita, potete fare quanto segue:  
 
@@ -30,7 +30,7 @@ La registrazione della nota di credito annullerà anche tutti gli addebiti artic
 > [!NOTE]
 > Gli aspetti contabili dei resi di vendita, come i pagamenti ai clienti come rimborso, sono considerati lavori contabili e non sono descritti qui. Per ulteriori informazioni, vedere [Gestione della contabilità fornitori](payables-manage-payables.md).
 
-## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Per creare una nuova nota di credito di vendita da una fattura di vendita registrata
+## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Per creare una nuova nota di credito di vendita da una fattura di vendita registrata
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , immetti **Fatture di vendita registrate**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Fatture di vendita registrate**, seleziona la fattura di vendita registrata che vuoi annullare, scegli l'azione **Annulla** e poi scegli l'azione **Crea nota di credito correttiva** .
@@ -53,7 +53,7 @@ Viene visualizzata la finestra di dialogo **Registra e invia conferma** contenen
 
 I documenti di vendita registrati che sono stati collegati alla nota di credito sono ora stornati ed è possibile creare un pagamento del rimborso per il cliente. La nota di credito di vendita viene rimossa e sostituita con un nuovo documento nell'elenco delle note di credito di vendita registrate.
 
-## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Per creare una nota di credito di vendita copiando una fattura di vendita registrata
+## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Per creare una nota di credito di vendita copiando una fattura di vendita registrata
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di vendita vuota.
@@ -65,7 +65,7 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 8. Scegliere il pulsante **OK**. Le righe della fattura copiate vengono inserite nella nota di credito vendite.
 9. Completare la nota di credito di vendita come descritto in [Per creare una nota di credito di vendita da una fattura di vendita registrata](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-allowance"></a>Per creare un abbuono di vendita
+## <a name="to-create-a-sales-allowance"></a><a name="to-create-a-sales-allowance"></a>Per creare un abbuono di vendita
 È possibile inviare a un cliente una nota di credito con una riduzione di prezzo nel caso in cui il cliente abbia ricevuto articoli leggermente danneggiati oppure in ritardo.  
 È possibile registrare questo prezzo ridotto come addebito articolo in una nota di credito o in un ordine di reso e assegnarlo alla spedizione registrata. Di seguito sono descritte le procedure per una nota di credito di vendita, ma gli stessi passaggi si applicano a un ordine di reso da vendita.
 
@@ -81,7 +81,7 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 
 Durante la registrazione dell'ordine di reso da vendita, l'abbuono viene aggiunto all'importo del movimento di vendita corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.
 
-## <a name="to-combine-return-receipts"></a>Per combinare carichi da reso
+## <a name="to-combine-return-receipts"></a><a name="to-combine-return-receipts"></a>Per combinare carichi da reso
 È possibile cumulare carichi da reso se il cliente restituisce più articoli che rientrano in più ordini di reso da vendita.  
 
 Al momento del carico degli articoli nella warehouse, i relativi ordini di reso da vendita vengono registrati come ricevuti. In tal modo vengono creati i carichi da reso registrati.  
@@ -90,7 +90,7 @@ Al momento della fatturazione al cliente, invece di fatturare ciascun ordine di 
 
 Per cumulare carichi da reso, è necessario selezionare la casella di controllo **Fatt. cumulative** nella pagina **Scheda cliente**.  
 
-### <a name="to-manually-combine-return-receipts"></a>Per cumulare manualmente i carichi da reso
+### <a name="to-manually-combine-return-receipts"></a><a name="to-manually-combine-return-receipts"></a>Per cumulare manualmente i carichi da reso
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.
@@ -104,7 +104,7 @@ Per cumulare carichi da reso, è necessario selezionare la casella di controllo 
 6.  Se viene selezionata una riga di spedizione errata o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella nota di credito ed eseguire nuovamente la funzione **Prendi righe carico da reso**.  
 7.  Contabilizzare la fattura.  
 
-### <a name="to-automatically-combine-return-receipts"></a>Per combinare automaticamente carichi da reso
+### <a name="to-automatically-combine-return-receipts"></a><a name="to-automatically-combine-return-receipts"></a>Per combinare automaticamente carichi da reso
 
 È possibile cumulare automaticamente i carichi da reso, nonché registrare automaticamente le note di credito utilizzando la funzione **Cumula carichi da reso**.  
 
@@ -113,7 +113,7 @@ Per cumulare carichi da reso, è necessario selezionare la casella di controllo 
 3. Selezionare la casella di controllo **Registra note di credito**. In caso contrario, è necessario registrare manualmente le note di credito di acquisto risultanti.
 4. Scegliere il pulsante **OK**.  
 
-### <a name="to-remove-a-received-and-invoiced-return-order"></a>Per rimuovere un ordine di reso ricevuto e fatturato
+### <a name="to-remove-a-received-and-invoiced-return-order"></a><a name="to-remove-a-received-and-invoiced-return-order"></a>Per rimuovere un ordine di reso ricevuto e fatturato
 
 Quando si fatturano carichi da reso in questo modo, gli ordini di reso da cui sono stati registrati i carichi da reso vengono mantenuti, anche se sono già stati completamente ricevuti e fatturati.  
 
@@ -125,7 +125,7 @@ Quando i carichi da reso vengono cumulati in una nota di credito e registrati, p
 
 In alternativa, eliminare i singoli ordini di reso vendita manualmente.  
 
-## <a name="inventory-costing"></a>Costing di magazzino
+## <a name="inventory-costing"></a><a name="inventory-costing"></a>Costing di magazzino
 
 Per mantenere la corretta valutazione del magazzino, in genere si desidera sistemare gli articoli restituiti nuovamente in magazzino al costo unitario con cui sono stati venduti e non al costo unitario corrente. Questa operazione è detta storno esatto costo.
 
@@ -140,9 +140,9 @@ Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il ca
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche
+## <a name="see-also"></a><a name="see-also"></a>Vedi anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

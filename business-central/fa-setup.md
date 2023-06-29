@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
+# <a name="setting-up-fixed-assets"></a><a name="setting-up-fixed-assets"></a>Impostazione di cespiti
 
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
 
@@ -36,9 +36,9 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Ulteriori informazioni sui diversi metodi di ammortamento del cespite. |[Metodi di ammortamento](fa-depreciation-methods.md) |
 | Informazioni su come applicare metodi di ammortamento definiti dall'utente. |[Impostare i metodi di ammortamento definiti dall'utente](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Finanze](finance.md)  

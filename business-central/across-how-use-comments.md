@@ -11,7 +11,7 @@ ms.search.form: '124, 30'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="add-comments-to-cards-and-documents"></a>Aggiungere commenti a schede o documenti
+# <a name="add-comments-to-cards-and-documents"></a><a name="add-comments-to-cards-and-documents"></a>Aggiungere commenti a schede o documenti
 
 È possibile aggiungere informazioni supplementari a conti COGE, schede clienti o negli ordini di vendita per comunicare eccezioni o accordi speciali ad altri utenti.
 Praticamente tutte le schede e i documenti hanno un'azione **Commenti** che apre la scheda **Scheda commenti** dove è possibile scrivere o leggere i commenti. Nei documenti, è anche possibile aggiungere commenti a singole righe.
@@ -25,14 +25,14 @@ Inoltre, è possibile specificare se i commenti devono essere trasferiti da un t
 
 Di seguito viene descritto come aggiungere un commento a una scheda articolo. I passaggi sono simili per tutte le altre schede e i documenti, eccetto nelle righe del documento, l'azione **Commenti** verrà inserita in un menu di azione delle righe.
 
-## <a name="to-add-a-comments-to-an-item-card"></a>Per aggiungere dei commenti alla scheda articolo
+## <a name="to-add-a-comments-to-an-item-card"></a><a name="to-add-a-comments-to-an-item-card"></a>Per aggiungere dei commenti alla scheda articolo
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Apri la scheda articolo desiderata.
 3. Scegliere l'azione **Commenti**.
 4. Nella pagina **Scheda Commenti** immettere il testo desiderato e quindi scegliere il pulsante **OK**.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)

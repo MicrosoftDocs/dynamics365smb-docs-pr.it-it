@@ -8,7 +8,7 @@ ms.date: 06/28/2021
 ms.author: edupont
 ---
 
-# <a name="set-up-fixed-asset-depreciation"></a>Impostare l'ammortamento dei cespiti
+# <a name="set-up-fixed-asset-depreciation"></a><a name="set-up-fixed-asset-depreciation"></a>Impostare l'ammortamento dei cespiti
 
 È possibile utilizzare diversi metodi di ammortamento per la preparazione di estratti conto finanziari e dichiarazioni dei redditi. Molte grandi aziende utilizzano il metodo di ammortamento nei loro estratti conto finanziari, in quanto generalmente consente di dichiarare più utili. Altre aziende invece utilizzano il metodo di ammortamento accelerato ai fini del calcolo dell'imposta sul reddito, ad esempio l'ammortamento a quote decrescenti. Definire il metodo di ammortamento di un cespite con il campo **Metodo ammortamento** nella pagina **Scheda cespite**. Per ulteriori informazioni su ciò che fanno i diversi metodi, vedere [Metodi di ammortamento](fa-depreciation-methods.md).
 
@@ -16,7 +16,7 @@ Impostare i registri beni ammortizzabili, dove si definiscono i diversi modi di 
 
 Una volta creati i registri beni ammortizzabili necessari, assegnare almeno un registro ad ogni cespite. Un registro assegnato a un cespite è detto registro beni ammortizzabili. È possibile impostare un numero illimitato di registri beni ammortizzabili per un cespite.  
 
-## <a name="to-create-a-depreciation-book"></a>Per creare un registro beni ammortizzabili
+## <a name="to-create-a-depreciation-book"></a><a name="to-create-a-depreciation-book"></a>Per creare un registro beni ammortizzabili
 
 In un registro beni ammortizzabili cespiti, viene specificato come i cespiti vengono ammortizzati. Per facilitare i diversi metodi di ammortamento è possibile impostare diversi registri beni ammortizzabili.  
 
@@ -34,7 +34,7 @@ In un registro beni ammortizzabili cespiti, viene specificato come i cespiti ven
 
 Se ad esempio viene eseguita la cessione di cespiti laddove il registro beni ammortizzabili non specifica l'arrotondamento, ma il setup contabilità generale della propria società richiede l'arrotondamento, al momento della cessione dei cespiti verrà visualizzato un messaggio di errore che indica che un importo deve essere arrotondato su un movimento contabile.  
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Per assegnare un registro dei beni ammortizzabili a un cespite
+## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a><a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Per assegnare un registro dei beni ammortizzabili a un cespite
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cespiti**, quindi scegli il collegamento correlato.
 2. Selezionare il cespite per il quale si desidera impostare un registro beni ammortizzabili.
@@ -48,7 +48,7 @@ Se ad esempio viene eseguita la cessione di cespiti laddove il registro beni amm
     > [!NOTE]  
     > Quando usi il metodo di ammortamento definito dall'utente, assegni il registro beni ammortizzabili in un modo diverso. Per ulteriori informazioni, vedi [Impostare il metodo di ammortamento definito dall'utente](fa-how-setup-user-defined-depreciation-method.md).
 
-## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Per assegnare un registro beni ammortizzabili a più cespiti tramite un processo batch
+## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a><a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Per assegnare un registro beni ammortizzabili a più cespiti tramite un processo batch
 
 Se si desidera assegnare un registro beni ammortizzabili a diversi cespiti è possibile utilizzare il processo batch **Crea registro beni amm. cespiti** per creare registri beni ammortizzabili relativi ai cespiti.  
 
@@ -62,7 +62,7 @@ Se si desidera assegnare un registro beni ammortizzabili a diversi cespiti è po
 6. Nella Scheda dettaglio **Cespite** è possibile impostare un filtro per selezionare i cespiti per cui verranno creati i registri beni ammortizzabili cespiti.
 7. Scegliere il pulsante **OK**.
 
-## <a name="to-set-up-depreciation-posting-types"></a>Per impostare i tipi di registrazione dell'ammortamento
+## <a name="to-set-up-depreciation-posting-types"></a><a name="to-set-up-depreciation-posting-types"></a>Per impostare i tipi di registrazione dell'ammortamento
 
 Per ogni registro beni ammortizzabili, è necessario impostare le modalità di gestione dei diversi tipi di registrazione in [!INCLUDE[prod_short](includes/prod_short.md)]. ad esempio se la registrazione debba essere in dare o in avere e se il tipo di registrazione debba essere incluso nella base ammortizzabile.  
 
@@ -75,7 +75,7 @@ Per ogni registro beni ammortizzabili, è necessario impostare le modalità di g
 
 Si consiglia di evitare di modificare l’impostazione dei registri beni ammortizzabili per cui siano già stati registrati dei movimenti. Le modifiche non verrebbero infatti applicate ai movimenti già registrati e le statistiche del registro beni ammortizzabili risulterebbero pertanto fuorvianti.
 
-## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Per impostare modelli e batch di default per l'ammortamento dei cespiti
+## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a><a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Per impostare modelli e batch di default per l'ammortamento dei cespiti
 
 Per ogni registro beni ammortizzabili viene determinato un setup di default delle definizioni e dei batch. Questi default vengono utilizzati per la duplicazione di righe da una registrazione all'altra, per la creazione di righe di registrazione tramite il processo batch **Calcolo ammortamento** o **Indice cespiti** o per la duplicazione dei costi di acquisizione nelle registrazioni assicurazioni.  
 
@@ -84,15 +84,15 @@ Per ogni registro beni ammortizzabili viene determinato un setup di default dell
 3. Affinché ogni utente disponga di un'impostazione di default, scegliere il campo **ID utente** da selezionare nella pagina **Utenti**.  
 4. Negli altri campi, selezionare la definizione o il batch registrazioni che deve essere utilizzato per default.  
 
-## <a name="fiscal-year-365-days-field-depreciation"></a>Ammortamento e campo Anno fiscale 365 giorni
+## <a name="fiscal-year-365-days-field-depreciation"></a><a name="fiscal-year-365-days-field-depreciation"></a>Ammortamento e campo Anno fiscale 365 giorni
 
 Quando viene eseguito il processo batch Calcolo ammortamento, il calcolo è basato normalmente su un anno standard di 360 giorni in cui ciascuno dei 12 mesi ha 30 giorni.
 
 Se selezioni questo campo, il processo batch applica invece il calendario da 365 giorni, in cui ogni mese è calcolato con lo stesso numero di giorni del calendario. L'unica eccezione è febbraio negli anni bisestili, che verrà considerato di 28 giorni anziché di 29. Di conseguenza, anche l'anno bisestile verrà considerato di 365 giorni e non di 366.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-depreciation-books/)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  

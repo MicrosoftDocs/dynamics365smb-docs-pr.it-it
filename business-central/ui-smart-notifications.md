@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.search.form: null
 ms.author: bholtorf
 ---
-# <a name="manage-notifications"></a>Gestire le notifiche
+# <a name="manage-notifications"></a><a name="manage-notifications"></a>Gestire le notifiche
 
 [!INCLUDE[prod_short](includes/prod_short.md)] consente di lavorare in modo più intelligente tramite le notifiche che informano in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Queste notifiche vengono visualizzate come suggerimenti discreti nel contesto dell'attività che si sta eseguendo e consente di scegliere di ignorare la notifica o di visualizzare i dettagli sul problema.  
 
@@ -18,7 +18,7 @@ Se si sceglie di visualizzare i dettagli relativi a una notifica, è possibile i
 
 Le notifiche consentono agli utenti non addestrati di completare attività poco familiari senza ridurre la produttività dell'utente più formato.  
 
-## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Per attivare o disattivare le notifiche e controllare quando vengono inviate
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a><a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Per attivare o disattivare le notifiche e controllare quando vengono inviate
 
 Al primo avvio di [!INCLUDE[prod_short](includes/prod_short.md)] tutte le notifiche sono attivate, ma è possibile attivarle e disattivarle, ad esempio, se non si è interessati a un determinato evento o stato.  
 
@@ -31,7 +31,7 @@ L'attivazione e la disattivazione delle notifiche e l'indicazione delle condizio
 3. Nella pagina visualizzata, attivare o disattivare una notifica selezionando o deselezionando la casella di controllo **Abilitato**.  
 4. Per specificare le condizioni che danno origine a una notifica, selezionare il collegamento **Visualizza dettagli filtro** e compilare i campi.  
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

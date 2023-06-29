@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '600, 610'
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Utilizzo di documenti e registrazioni intercompany
+# <a name="work-with-intercompany-documents-and-journals"></a><a name="work-with-intercompany-documents-and-journals"></a>Utilizzo di documenti e registrazioni intercompany
 
 Utilizzare documenti o registrazioni intercompany per registrare le transazioni con i partner Intercompany. Quando si registra un documento o una riga di registrazione intercompany nella società, viene creato un documento o una riga di registrazione corrispondente nella casella in uscita IC. Trasferisci la riga dalla casella in uscita al tuo partner. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
 
@@ -18,7 +18,7 @@ Per i documenti di acquisto e di vendita, il codice partner IC per il cliente o 
 
 Lo stesso vale per le righe registrazioni COGE intercompany. Non è necessario specificare i conti, basta scegliere l'azienda partner. Le righe registrazioni COGE intercompany corrispondenti vengono quindi create nella società partner.
 
-## <a name="fill-in-and-send-an-intercompany-sales-order"></a>Compilare e inviare un ordine di vendita intercompany
+## <a name="fill-in-and-send-an-intercompany-sales-order"></a><a name="fill-in-and-send-an-intercompany-sales-order"></a>Compilare e inviare un ordine di vendita intercompany
 
 Gli ordini di vendita e acquisto, così come gli ordini di reso, possono essere inviati prima della registrazione. Le fatture e le note di credito non possono essere inviate finché non vengono registrate.
 
@@ -33,7 +33,7 @@ La procedura seguente illustra come compilare e inviare un ordine di vendita int
 > [!NOTE]
 > Se esegui il passaggio 5, l'ordine di vendita viene trasferito nella casella in uscita intercompany da cui puoi inviarlo in un secondo tempo. Per ulteriori informazioni sulla casella in entrata e in uscita intercompany, vai a [Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="fill-in-and-post-an-intercompany-journal"></a>Compilare e contabilizzare le registrazioni intercompany
+## <a name="fill-in-and-post-an-intercompany-journal"></a><a name="fill-in-and-post-an-intercompany-journal"></a>Compilare e contabilizzare le registrazioni intercompany
 
 Quando si registra una riga di registrazione COGE intercompany nella società, viene creata una riga di registrazione corrispondente nella casella in uscita IC che è possibile trasferire al partner. Con il primo ciclo di rilascio del 2022, è anche possibile impostare la società per creare automaticamente le transazioni intercompany ricevute dai partner, contabilizzate nelle registrazioni COGE intercompany. Il partner può quindi registrare le transazione corrispondente nella società, senza dover immettere di nuovo i dati.
 
@@ -48,7 +48,7 @@ Quando si registra una riga di registrazione COGE intercompany nella società, v
 
 I movimenti vengono registrati nella società e una registrazione con i movimenti corrispondenti viene creata nella casella in uscita IC in modo da poterli inviare alla società partner.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
 [Finanze](finance.md)  

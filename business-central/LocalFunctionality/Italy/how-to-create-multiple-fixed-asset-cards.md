@@ -12,10 +12,10 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="create-multiple-fixed-asset-cards-in-the-italian-version"></a>Creare più schede cespite nella versione italiana
+# <a name="create-multiple-fixed-asset-cards-in-the-italian-version"></a><a name="create-multiple-fixed-asset-cards-in-the-italian-version"></a>Creare più schede cespite nella versione italiana
 Durante la registrazione delle fatture di acquisto è possibile creare automaticamente più schede cespite. Se ad esempio la società acquista 200 computer dello stesso tipo dallo stesso fornitore, non è necessario creare manualmente una scheda cespite per ogni computer, ma tali schede possono essere create automaticamente.  
 
-## <a name="to-create-multiple-fixed-asset-cards"></a>Per creare più schede cespite
+## <a name="to-create-multiple-fixed-asset-cards"></a><a name="to-create-multiple-fixed-asset-cards"></a>Per creare più schede cespite
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Liste**, quindi l'azione **Cespiti**.  
@@ -37,7 +37,7 @@ Durante la registrazione delle fatture di acquisto è possibile creare automatic
 
 9. Scegliere il pulsante **OK**.  
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
  [Cespiti](../../fa-manage.md)  
  [Cespiti italiani](italian-fixed-assets.md)
 

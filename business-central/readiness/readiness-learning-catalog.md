@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-central-learning-catalog"></a>Catalogo di apprendimento Business Central
+# <a name="business-central-learning-catalog"></a><a name="business-central-learning-catalog"></a>Catalogo di apprendimento Business Central
 
 Trovare la formazione online appropriata, eventi e workshop di persona per il proprio ruolo di utente o partner di Business Central.
 

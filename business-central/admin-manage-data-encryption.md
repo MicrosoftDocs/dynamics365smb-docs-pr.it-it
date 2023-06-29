@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="managing-data-encryption"></a>Gestione crittografia dati
+# <a name="managing-data-encryption"></a><a name="managing-data-encryption"></a>Gestione crittografia dati
 È possibile crittografare dati nel server [!INCLUDE[prod_short](includes/prod_short.md)] generando nuove chiavi di crittografia o importando quelle esistenti che vengono abilitate nell'istanza del server [!INCLUDE[prod_short](includes/prod_short.md)] che collega al database.
 
 Per ulteriori informazioni, vedere [Crittografia di dati in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) nella Guida per sviluppatori e professionisti IT.
@@ -18,7 +18,7 @@ Per ulteriori informazioni, vedere [Crittografia di dati in Dynamics 365 Busines
 > [!Note]
 > È possibile attivare o disattivare la crittografia solo se si utilizza una versione locale di [!INCLUDE[prod_short](includes/prod_short.md)]. La crittografia è sempre attivata per le versioni online e non è possibile disattivarla.
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 [Amministrazione](admin-setup-and-administration.md)
 
 

@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Iniziare a usare la versione di anteprima di Business Central per Copilot
+# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a><a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Iniziare a usare la versione di anteprima di Business Central per Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Puoi provare il testo di marketing degli articoli basato sull'intelligenza artificiale con Copilot indipendentemente dal fatto che tu sia un cliente Business Central esistente o un potenziale cliente, ovvero qualcuno che è solo interessato a esplorare Business Central e provare la nuova funzionalità. Per iniziare, devi ottenere l'accesso a una versione di Business Central online che supporti la nuova funzionalità. Completa la sezione sottostante che ti riguarda.
 
-## <a name="your-organization-already-uses-business-central"></a>L'organizzazione già usa Business Central
+## <a name="your-organization-already-uses-business-central"></a><a name="your-organization-already-uses-business-central"></a>L'organizzazione già usa Business Central
 
 Come cliente o partner esistente, avrai bisogno di un amministratore con accesso all'interfaccia di amministrazione di Business Central per configurare un ambiente che esegua la versione di anteprima che include Copilot. Una volta che l'ambiente è attivo e funzionante, gli utenti possono provare la nuova funzionalità.
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni su come creare gli ambienti, vai a [Creare un ambient
 > [!IMPORTANT]
 > Se disponi di sandbox di anteprima che vengono eseguiti su **22.0.54157.54311 (Anteprima - Edizione Copilot)**, tieni presente che questi ambienti sono disponibili solo fino al 1° maggio 2023. Dopo questa data, dovrai eseguire il provisioning di un nuovo ambiente o aggiornare uno qualsiasi dei tuoi altri ambienti alla versione 22.0 o successiva per continuare a provare l'anteprima del testo di marketing degli articoli basato sull'intelligenza artificiale.
 
-## <a name="your-organization-doesnt-use-business-central"></a>L'organizzazione non usa Business Central
+## <a name="your-organization-doesnt-use-business-central"></a><a name="your-organization-doesnt-use-business-central"></a>L'organizzazione non usa Business Central
 
 Se non sei un cliente di Business Central, registrati per una versione di valutazione gratuita per provare le nuove funzionalità di intelligenza artificiale. Iscriversi alla versione di valutazione è semplice. Verrai guidato attraverso alcuni passaggi in cui dovrai fornire alcune informazioni, come il tuo indirizzo e-mail, numero di telefono e nome. Per ottenere la versione di valutazione, completa i seguenti passaggi:
 
@@ -95,7 +95,7 @@ Se non sei un cliente di Business Central, registrati per una versione di valuta
    > [!TIP]
    > Se non vedi **Elenco di controllo personale**, seleziona prima il pulsante **Mostra presentazioni dimostrative**.
 
-## <a name="next-steps"></a>Passaggi successivi
+## <a name="next-steps"></a><a name="next-steps"></a>Passaggi successivi
 
 Le funzionalità IA fornite da Copilot devono essere abilitate prima che tu o chiunque altro possiate utilizzare Copilot. Per abilitare le funzionalità IA, un amministratore deve accettare le condizioni dell'[anteprima](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) e l'[Informativa sulla privacy di Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839) per conto dell'organizzazione.
 
@@ -108,7 +108,7 @@ Ci sono due modi per acconsentire come amministratore:
 
 - L'altro modo consiste nell'utilizzare la pagina **Stato avvisi sulla privacy** in Business Central e accettare l'integrazione di **Azure OpenAI** per tutti gli utenti. Per saperne di più, vai a [Consenso ai termini e condizioni](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Panoramica del testo di marketing dell'articolo basato su intelligenza artificiale con Copilot](ai-overview.md)  
 [Configurare testo del marketing articolo basato su intelligenza artificiale con Copilot come amministratore](enable-ai.md)  

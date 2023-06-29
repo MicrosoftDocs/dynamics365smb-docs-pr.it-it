@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="restrict-and-allow-usage-of-a-record"></a>Limitare e consentire l'utilizzo di un record
+# <a name="restrict-and-allow-usage-of-a-record"></a><a name="restrict-and-allow-usage-of-a-record"></a>Limitare e consentire l'utilizzo di un record
 
 Se si desidera limitare l'utilizzo di un record in determinate attività, ad esempio, fino all'approvazione del record, è possibile includere due risposte in un flusso di lavoro che controlla l'utilizzo del record. Una risposta del workflow limita l'utilizzo del record come definito dall'evento e dalle condizioni del flusso di lavoro. L'altra risposta del workflow consente l'utilizzo del record come definito dall'evento e dalle condizioni del workflow. Esistono due risposte nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)] per questo scopo: **Aggiungere limitazione record** e **Rimuovere limitazione record**.
 
@@ -22,7 +22,7 @@ Se si desidera limitare l'utilizzo di un record in determinate attività, ad ese
 
 Nella procedura riportata di seguito viene descritto come limitare la registrazione degli ordini di acquisto fino all'approvazione. Il nuovo flusso di lavoro si baserà sul modello esistente del *flusso di lavoro di approvazione della fattura di acquisto*.  
 
-## <a name="create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Creare una fase del flusso di lavoro che limiti la registrazione degli ordini di acquisto non approvati
+## <a name="create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a><a name="create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Creare una fase del flusso di lavoro che limiti la registrazione degli ordini di acquisto non approvati
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Workflow** scegliere l'azione **Nuovo workflow da modello**. Ulteriori informazioni in [Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md).
@@ -32,7 +32,7 @@ Nella procedura riportata di seguito viene descritto come limitare la registrazi
 4. Nella Scheda dettaglio **Fasi workflow** scegli il campo **Condizione** per il primo passaggio e per il filtro **Tipo di documento** scegli **Ordine**.  
 5. Continuare per modificare, eliminare o aggiungere altre fasi del flusso di lavoro per creare un processo aziendale che inizia limitando la registrazione degli ordini di acquisto non approvati.  
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Utilizzare i workflow di approvazione](across-use-workflows.md)  
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  

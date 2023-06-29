@@ -11,7 +11,7 @@ ms.search.form: '113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 921
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="create-gl-budgets"></a>Creare budget C/G
+# <a name="create-gl-budgets"></a><a name="create-gl-budgets"></a>Creare budget C/G
 
 È possibile mantenere più budget per periodi di tempo identici creando budget con nomi separati. Innanzitutto è necessario impostare il nome del budget e immettere le relative cifre. Il nome del budget viene quindi inserito in tutti i movimenti di budget che vengono creati.  
 
@@ -21,7 +21,7 @@ I budget svolgono un ruolo importante nella business intelligence. Gli esempi in
 
 Nella contabilità industriale si utilizzano i budget costi in modo simile. Per ulteriori informazioni, vedi [Creazione di budget di costi](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>Per creare un nuovo budget C/G
+## <a name="to-create-a-new-gl-budget"></a><a name="to-create-a-new-gl-budget"></a>Per creare un nuovo budget C/G
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Budget C/G**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Modifica lista** e compila i campi necessari. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Nella contabilità industriale si utilizzano i budget costi in modo simile. Per 
 > [!NOTE]  
 > Nella Scheda dettaglio **Filtri** è possibile filtrare le informazioni in base alle dimensioni di budget impostate per il nome del budget.
 
-## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Esportazione e importazione di budget C/G con Excel
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a><a name="exporting-and-importing-gl-budgets-with-excel"></a>Esportazione e importazione di budget C/G con Excel
 
 Per praticamente tutte le altre pagine, è possibile esportare dati nelle pagine del budget in Microsoft Excel per una successiva elaborazione o analisi. Per ulteriori informazioni vedi [Esportazione dei dati aziendali in Excel](about-export-data.md).
 
@@ -45,7 +45,7 @@ Per praticamente tutte le altre pagine, è possibile esportare dati nelle pagine
 
 Di conseguenza, quando importi un budget C/G, tutti i valori presenti nelle righe Testata vengono eliminati. Questo per evitare totali non corretti dopo l'importazione di dati creati o modificati in Excel.
 
-### <a name="scenario"></a>Scenario
+### <a name="scenario"></a><a name="scenario"></a>Scenario
 
 Il nuovo costo degli stipendi a budget sarà di 1.200.000 in valuta locale. Vuoi consentire al reparto Stipendi di definire il budget per le tre righe specifiche (di tipo di conto Analitico) per i dipendenti a tempo pieno, i dipendenti part-time e gli aiutanti temporanei. Le tre righe sono raggruppate sotto una riga di intestazione Stipendi.
 
@@ -53,9 +53,9 @@ Immetti 1.200.000 nella riga di intestazione, esporti il budget in Excel e quind
 
 Il reparto Stipendi distribuisce la somma su tre conti di registrazione. Quando si reimporta nel budget C/G, i tre conti vengono compilati con i nuovi dati Excel, con totale 1.200.000 VL, e la riga di intestazione è vuota.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Esportazione dei dati aziendali in Excel](about-export-data.md)  
 [Finanze](finance.md)  

@@ -11,9 +11,9 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a>Riferimento rapido per tasti di scelta rapida - Solo PC
+# <a name="keyboard-quick-reference---pc-only"></a><a name="keyboard-quick-reference---pc-only"></a>Riferimento rapido per tasti di scelta rapida - Solo PC
 
-#### <a name="general"></a>Generale
+#### <a name="general"></a><a name="general"></a>Generale
 
 |Premi questi tasti|Operazione da eseguire|  
 |-|-|
@@ -39,7 +39,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>MAIUSC</kbd>+<kbd>Tab</kbd>|Spostare lo stato attivo sull'elemento successivo/precedente|
 |<kbd>F6</kbd>/<kbd>MAIUSC</kbd>+<kbd>F6</kbd>|Spostare il cursore alla Scheda dettaglio/parte successiva.|
 
-#### <a name="navigate--select-rows"></a>Spostarsi e selezionare righe
+#### <a name="navigate--select-rows"></a><a name="navigate--select-rows"></a>Spostarsi e selezionare righe
 
 |Premi questi tasti|Operazione da eseguire|
 |-|-|
@@ -53,14 +53,14 @@ ms.custom: bap-template
 |<kbd>MAIUSC</kbd>+<kbd>PGSU</kbd>/<kbd>PGGIÙ</kbd>|Selezionare righe visibili sopra/sotto|
 |<kbd>CTRL</kbd>+<kbd>INVIO</kbd>|Spostare lo stato attivo fuori dall'elenco|
 
-#### <a name="copy--paste"></a>Copiare e incollare
+#### <a name="copy--paste"></a><a name="copy--paste"></a>Copiare e incollare
 
 |Premi questi tasti|Operazione da eseguire|
 |-|-|
 |<kbd>CTRL</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Copiare/incollare righe|
 |<kbd>F8</kbd>|Copiare il campo soprastante nella riga corrente|
 
-#### <a name="search-filter--sort"></a>Cercare, filtrare e ordinare
+#### <a name="search-filter--sort"></a><a name="search-filter--sort"></a>Cercare, filtrare e ordinare
 
 |Premi questi tasti|Operazione da eseguire|
 |-|-|
@@ -71,20 +71,20 @@ ms.custom: bap-template
 |<kbd>MAIUSC</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Aggiungere un filtro sul campo selezionato|
 |<kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>MAIUSC</kbd>+<kbd>F3</kbd>|Reimposta filtri|
 
-#### <a name="quick-entry"></a>Accesso rapido
+#### <a name="quick-entry"></a><a name="quick-entry"></a>Accesso rapido
 
 |Premi questi tasti|Operazione da eseguire|
 |-|-|
 |<kbd>CTRL</kbd>+<kbd>MAIUSC</kbd>+<kbd>Invio</kbd>|Passare al campo Accesso rapido seguente al di fuori di un elenco|
 |<kbd>INVIO</kbd>/<kbd>MAIUSC</kbd>+<kbd>INVIO</kbd>|Passare al campo Accesso rapido successivo/precedente|
 
-##### <a name="report-preview"></a>Visualizzare in anteprima un report
+##### <a name="report-preview"></a><a name="report-preview"></a>Visualizzare in anteprima un report
 
 |Premi questi tasti|Operazione da eseguire|
 |-|-|
 |<kbd>CTRL</kbd>+<kbd>Home</kbd>/<kbd>Fine</kbd>|Passare alla prima/ultima pagina|
 
-#### <a name="numeric-keypad"></a>Tastiera numerica
+#### <a name="numeric-keypad"></a><a name="numeric-keypad"></a>Tastiera numerica
 
 |Premi questi tasti|Operazione da eseguire|  
 |-|-|
