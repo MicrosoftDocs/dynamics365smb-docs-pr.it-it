@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a><a name="walkthrough-set-up-new-capacity"></a>Procedura dettagliata: Impostare una nuova capacità
+# <a name="walkthrough-set-up-new-capacity"></a><a name="walkthrough-set-up-new-capacity"></a><a name="walkthrough-set-up-new-capacity"></a>Procedura dettagliata: Impostare una nuova capacità
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee per gestire la capacità.  
 
-## <a name="scenario"></a><a name="scenario"></a>Scenario
+## <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. In risposta ai cambiamenti della produzione, è necessario impostare una nuova area di produzione, il Reparto test. La nuova area di produzione dispone di un centro di lavoro, Test. Le nuove aree devono avere un calendario di capienza per un unico turno dalle 08:00:00 alle 16:00:00, dal lunedì al venerdì.  
 
-## <a name="steps"></a><a name="steps"></a>Passaggi
+## <a name="steps"></a><a name="steps"></a><a name="steps"></a>Passaggi
 
 1. Imposta l'area di produzione.
 
@@ -84,6 +84,6 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. In rispost
 
 Nella pagina **Movimenti calendario**, i movimenti di capacità giornaliera nel campo **Capacità (totale)** sono per 480 minuti. Ciò riflette un turno di otto ore per ogni giorno lavorativo. Inoltre il campo **Capacità (effettiva)** mostra 432 minuti. Ciò riflette il tasso di efficienza del 90% assegnato al centro di lavoro.  
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

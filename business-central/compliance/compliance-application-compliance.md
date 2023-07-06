@@ -9,11 +9,11 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="application-compliance"></a><a name="application-compliance"></a>Conformità dell'applicazione
+# <a name="application-compliance"></a><a name="application-compliance"></a><a name="application-compliance"></a>Conformità dell'applicazione
 
 Questo articolo fornisce informazioni su come le società hanno la possibilità di semplificare i processi aziendali conformandosi nel contempo in modo coerente e conveniente ai crescenti requisiti normativi e di reporting grazie a [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## <a name="data-privacy"></a><a name="data-privacy"></a>Privacy dei dati
+## <a name="data-privacy"></a><a name="data-privacy"></a><a name="data-privacy"></a>Privacy dei dati
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] supporta le leggi e i regolamenti sulla privacy dei dati. [Informazioni su come rispondere alle richieste degli interessati in Business Central](../admin-responding-to-requests-about-personal-data.md).
 
@@ -21,7 +21,7 @@ Se sviluppi estensioni [!INCLUDE [prod_short](../includes/prod_short.md)], devi 
 
 [Ulteriori informazioni sulla privacy dei dati in Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
-## <a name="accounting-processes-and-controls-to-aid-compliance"></a><a name="accounting-processes-and-controls-to-aid-compliance"></a>Processi e controlli contabili per agevolare la conformità
+## <a name="accounting-processes-and-controls-to-aid-compliance"></a><a name="accounting-processes-and-controls-to-aid-compliance"></a><a name="accounting-processes-and-controls-to-aid-compliance"></a>Processi e controlli contabili per agevolare la conformità
 
 Le società affrontano ogni anno sfide contabili sempre più complesse. A seconda del settore, dei mercati, della posizione geografica e delle esigenze di finanziamento, un'organizzazione può essere soggetta a principi GAAP locali e a uno o più dei seguenti testi:
 
@@ -29,11 +29,11 @@ Le società affrontano ogni anno sfide contabili sempre più complesse. A second
 - La sezione IFRS dei principi contabili internazionali dell'Unione Europea (IAS/IFRS), introdotta nel 2005 allo scopo di applicare standard contabili internazionali per riconoscimento, controllo, consolidamento e reporting.
 - Basilea II: il nuovo accordo di Basilea, stipulato nel 2004 per ridurre i rischi inerenti alle istituzioni finanziarie e promuovere una maggiore stabilità nel sistema finanziario globale.
 
-## <a name="enhance-people-practices-with-technology"></a><a name="enhance-people-practices-with-technology"></a>Migliorare le procedure delle persone con la tecnologia
+## <a name="enhance-people-practices-with-technology"></a><a name="enhance-people-practices-with-technology"></a><a name="enhance-people-practices-with-technology"></a>Migliorare le procedure delle persone con la tecnologia
 
 La conformità non dipende solo da informazioni accurate e processi contabili appropriati, ma anche dalle persone che definiscono e gestiscono tali processi. Una soluzione di gestione aziendale efficace può facilitare la conformità consentendo la gestione di informazioni valide e accessibili mediante processi trasparenti definiti in conformità con gli standard del settore e normativi.
 
-## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a><a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Concretizzare i benefici di una soluzione di gestione aziendale integrata
+## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a><a name="realize-the-benefits-of-an-integrated-business-management-solution"></a><a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Concretizzare i benefici di una soluzione di gestione aziendale integrata
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] fornisce informazioni finanziarie e operative integrate e in tempo reale dell'organizzazione in modo da poter:
 
@@ -42,22 +42,22 @@ La conformità non dipende solo da informazioni accurate e processi contabili ap
 - Generare rapidamente e facilmente report finanziari conformemente agli standard normativi applicabili.
 - Gestire audit trail completi con funzionalità di drill-down e drill-around e log modifiche.
 
-## <a name="gain-control-of-critical-information-processes-and-reports"></a><a name="gain-control-of-critical-information-processes-and-reports"></a>Controllare processi, report e informazioni critiche
+## <a name="gain-control-of-critical-information-processes-and-reports"></a><a name="gain-control-of-critical-information-processes-and-reports"></a><a name="gain-control-of-critical-information-processes-and-reports"></a>Controllare processi, report e informazioni critiche
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] migliora il controllo delle funzioni chiave e delle informazioni critiche per il successo delle operazioni finanziarie della tua azienda.
 
-### <a name="manage-compliance-to-the-standards-that-matter"></a><a name="manage-compliance-to-the-standards-that-matter"></a>Gestire la conformità agli standard pertinenti
+### <a name="manage-compliance-to-the-standards-that-matter"></a><a name="manage-compliance-to-the-standards-that-matter"></a><a name="manage-compliance-to-the-standards-that-matter"></a>Gestire la conformità agli standard pertinenti
 
 Le informazioni integrate, i processi allineati e gli strumenti di facile utilizzo aiutano le persone a soddisfare le aspettative e gli standard di gestione finanziaria importanti per la propria attività specifica.
 
-### <a name="tailor-financial-reports-to-your-needs"></a><a name="tailor-financial-reports-to-your-needs"></a>Adattare i report finanziari alle proprie esigenze
+### <a name="tailor-financial-reports-to-your-needs"></a><a name="tailor-financial-reports-to-your-needs"></a><a name="tailor-financial-reports-to-your-needs"></a>Adattare i report finanziari alle proprie esigenze
 
 - Definisci la struttura del piano dei conti della tua società in base a requisiti aziendali e standard normativi applicabili.
 - Crea conti e gestisci processi complessi relativi a una gamma di attività aziendali, tra cui valutazione del magazzino, valute estere, reporting di settore e deviazioni rispetto ai GAAP locali.
 - Controllare il livello dei dettagli per ogni transazione registrata e selezionare la registrazione dettagliata per specifici tipi di transazioni, ad esempio cespiti e contabilità fornitori.
 - Adatta la visualizzazione e i calcoli pianificati dei report finanziari o esporta le informazioni in Microsoft Excel per un'ulteriore analisi.
 
-### <a name="improve-information-validity"></a><a name="improve-information-validity"></a>Migliorare la validità delle informazioni
+### <a name="improve-information-validity"></a><a name="improve-information-validity"></a><a name="improve-information-validity"></a>Migliorare la validità delle informazioni
 
 - Configurare i campi di dati per accettare soltanto informazioni nel formato appropriato, come il numero corretto di decimali o modelli alfanumerici.
 - Garantire la completezza delle informazioni con controlli dell'applicazione, ad esempio richiedere l'immissione di un numero di fattura fornitore prima di registrare un ordine di acquisto.
@@ -66,20 +66,20 @@ Le informazioni integrate, i processi allineati e gli strumenti di facile utiliz
 - Identifica e risolvi facilmente le discordanze con una funzione di riconciliazione che recupera informazioni su conti correnti bancari e transazioni e le compara alle registrazioni nella contabilità generale.
 - Pianifica backup manuali o automatici per proteggere le informazioni da problemi informatici.
 
-### <a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a><a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a>Conformarsi rapidamente alle richieste di individuazione e di report
+### <a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a><a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a><a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a>Conformarsi rapidamente alle richieste di individuazione e di report
 
 - Risparmia tempo quando crei i report standard che utilizzano criteri e parametri aziendali comuni per soddisfare esigenze di report tipiche, da riepiloghi di ordini alla contabilità clienti con aging.
 - Eseguire verifiche complesse con funzionalità di analisi di base o avanzate.
 - Crea report personalizzati sia con gli strumenti integrati che con l'integrazione di Microsoft Power BI.
 
-### <a name="help-ensure-clear-audit-trails"></a><a name="help-ensure-clear-audit-trails"></a>Garantire audit trail chiari
+### <a name="help-ensure-clear-audit-trails"></a><a name="help-ensure-clear-audit-trails"></a><a name="help-ensure-clear-audit-trails"></a>Garantire audit trail chiari
 
 - Tracciare in avanti e all'indietro nel sistema documenti e informazioni, dall'origine ai rendiconti finanziari finali e viceversa.
 - Identificare come, quando e da chi le informazioni sono state immesse o modificate e in quale conto sono stati registrati i movimenti finanziari.
 - Cerca modifiche al database, tra cui dati precedenti e rivisti, nel [log modifiche](../across-log-changes.md) della soluzione.
 - Aumenta la trasparenza e l'usabilità degli audit trail e accelera l'accesso alle informazioni per revisori di terze parti con funzioni di drill-down, ricerca, filtro, registrazione e navigazione.
 
-## <a name="compliance-and-local-functionality"></a><a name="compliance-and-local-functionality"></a>Conformità e funzionalità locale
+## <a name="compliance-and-local-functionality"></a><a name="compliance-and-local-functionality"></a><a name="compliance-and-local-functionality"></a>Conformità e funzionalità locale
 
 Microsoft crea versioni localizzate di Business Central per un numero limitato di mercati. Queste localizzazioni riguardano innanzi tutto le funzioni relative alle normative nelle aree fiscali e finanziarie ma possono anche interessare altre parti della soluzione. Se vuoi vedere cosa è integrato nelle versioni localizzate di Microsoft di Business Central, vedi **Funzionalità locale** nel menu su questo sito Web e scegli un paese. Per ulteriori informazioni, vedi [Funzionalità locale](../about-localization.md).  
 
@@ -95,7 +95,7 @@ Microsoft crea versioni localizzate di Business Central per un numero limitato d
 > **Basilea II: implicazioni per reporting e analisi**  
 > L'accordo Basilea II, stipulato dalla Banca dei Regolamenti Internazionali (BRI), garantisce protezione e sicurezza in tre aree chiave del sistema finanziario: requisiti patrimoniali minimi, controllo delle autorità di vigilanza e disciplina di mercato. Sebbene l'accordo venga applicato alle istituzioni finanziarie e non alle PMI, può comunque avere alcune implicazioni per tali organizzazioni a livello di reporting e analisi.
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Conformità](compliance-overview.md)  
 [Conformità dell'assistenza](compliance-service-compliance.md)  

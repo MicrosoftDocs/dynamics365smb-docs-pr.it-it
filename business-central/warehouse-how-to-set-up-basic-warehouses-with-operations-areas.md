@@ -11,7 +11,7 @@ ms.search.form: '6774, 6775, 6776'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-basic-warehouses-with-operations-areas"></a><a name="set-up-basic-warehouses-with-operations-areas"></a>Impostare le warehouse di base con aree di operazioni
+# <a name="set-up-basic-warehouses-with-operations-areas"></a><a name="set-up-basic-warehouses-with-operations-areas"></a><a name="set-up-basic-warehouses-with-operations-areas"></a>Impostare le warehouse di base con aree di operazioni
 
 Se le aree delle operazioni interne, ad esempio produzione o assemblaggio, sono presenti nelle configurazioni di base della warehouse in cui le ubicazioni utilizzano il campo di setup **Collocazione obbligatoria** ed eventualmente i campi di setup **Richiesto prelievo** e **Richiesto stoccaggio**, è possibile utilizzare i seguenti documenti warehouse di base per registrare le attività di warehouse per le aree delle operazioni interne:  
 
@@ -35,14 +35,14 @@ Le procedure riportate di seguito sono basate sull'impostazione di attività di 
 > [!NOTE]  
 >  Nella procedura riportata di seguito, il campo di setup **Collocazione obbligatoria** nelle schede ubicazione è selezionato come condizione preliminare perché è considerato la base di qualsiasi livello di gestione warehouse.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a><a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Per abilitare i documenti di magazzino per le attività delle operazioni interne
+## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a><a name="to-enable-inventory-documents-for-internal-operation-activities"></a><a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Per abilitare i documenti di magazzino per le attività delle operazioni interne
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
 2. Aprire la scheda Ubicazione che si desidera configurare.  
 3.  Nella Scheda Dettaglio **Warehouse** selezionare la casella di controllo **Richiesto stoccaggio** per indicare che quando viene rilasciato un documento di origine in entrata o interno con un codice collocazione, può essere creato un documento di stoccaggio magazzino o di movimento di magazzino.  
 4.  Selezionare la casella di controllo **Richiesto prelievo** per indicare che quando viene creato un documento di origine in uscita o interno con un codice collocazione, deve essere creato un documento di prelievi magazzino o di movimento di magazzino.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a><a name="to-define-a-default-bin-structure-in-the-production-area"></a>Per definire una struttura di collocazione di default nell'area di produzione
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a><a name="to-define-a-default-bin-structure-in-the-production-area"></a><a name="to-define-a-default-bin-structure-in-the-production-area"></a>Per definire una struttura di collocazione di default nell'area di produzione
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
 2. Aprire l'ubicazione che si desidera configurare.  
@@ -60,7 +60,7 @@ Questo diagramma di flusso illustra in che modo il campo **Cod. collocazione** n
 
 ![Diagramma di flusso collocazione.](media/binflow.png "BinFlow")
 
-## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a><a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Per definire una struttura di collocazione di default nell'area di assemblaggio
+## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a><a name="to-define-a-default-bin-structure-in-the-assembly-area"></a><a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Per definire una struttura di collocazione di default nell'area di assemblaggio
 
 I componenti per gli ordini di assemblaggio non possono essere prelevati o registrati con i prelievi da magazzino. Pertanto, utilizzare la pagina **Movimento di magazzino**. Per ulteriori informazioni, vedi [Prelevare o spostare per produzione, assemblaggio o processi in warehouse di base](warehouse-how-to-pick-for-production.md).
 
@@ -68,12 +68,12 @@ Durante il prelievo e la spedizione di quantità righe di vendita assemblate sul
 
 Per ulteriori informazioni, vedere [Gestione assemblaggio](assembly-assemble-items.md).
 
-### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a><a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Per impostare la creazione automatica di un movimento di magazzino quando viene creato il prelievo magazzino per l'articolo di assemblaggio
+### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a><a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a><a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Per impostare la creazione automatica di un movimento di magazzino quando viene creato il prelievo magazzino per l'articolo di assemblaggio
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assemblaggio**, quindi scegli il collegamento correlato.
 2. Selezionare la casella di controllo **Crea movimenti automaticamente**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Per impostare la collocazione nell'area di assemblaggio in cui i componenti vengono inseriti per default prima di poter essere consumati in fase di assemblaggio
+### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Per impostare la collocazione nell'area di assemblaggio in cui i componenti vengono inseriti per default prima di poter essere consumati in fase di assemblaggio
 
 Il valore in questo campo viene automaticamente inserito nel campo **Codice collocazione** nelle righe ordine di assemblaggio quando questa ubicazione viene immessa nel campo **Codice ubicazione** nella riga di ordine di assemblaggio.
 
@@ -81,7 +81,7 @@ Il valore in questo campo viene automaticamente inserito nel campo **Codice coll
 2. Apri l'ubicazione che desideri configurare.
 3. Compilare il campo **Cod. coll. art. per assembl.**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Per impostare la collocazione nell'area di assemblaggio in cui gli articoli di assemblaggio completati sono registrati quando vengono assemblati per magazzino
+### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Per impostare la collocazione nell'area di assemblaggio in cui gli articoli di assemblaggio completati sono registrati quando vengono assemblati per magazzino
 
 Il valore in questo campo viene automaticamente inserito nel campo **Codice collocazione** nelle testate degli ordini di assemblaggio quando questo codice ubicazione viene immesso nel campo **Codice ubicazione** nella testata dell'ordine di assemblaggio.
 
@@ -94,7 +94,7 @@ I codici collocazione impostati nelle schede ubicazione consentono di definire u
 2. Apri l'ubicazione che desideri configurare.
 3. Compilare il campo **Cod. coll. art. da assembl.**.
 
-### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a><a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Per impostare la collocazione in cui gli articoli di assemblaggio completati sono registrati quando vengono assemblati per ordine di vendita collegato
+### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a><a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a><a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Per impostare la collocazione in cui gli articoli di assemblaggio completati sono registrati quando vengono assemblati per ordine di vendita collegato
 
 Da questa collocazione gli articoli di assemblaggio sono spediti immediatamente, tramite un prelievo di magazzino, per evadere l'ordine di vendita.
 
@@ -116,7 +116,7 @@ Lo stesso codice collocazione a sua volta viene copiato nel campo **Codice collo
 2. Apri l'ubicazione che desideri configurare.
 3. Compilare il campo **Cod. coll. sp. ass. su ordine**.
 
-## <a name="to-create-dedicated-component-bins"></a><a name="to-create-dedicated-component-bins"></a>Per creare collocazioni di componenti dedicate
+## <a name="to-create-dedicated-component-bins"></a><a name="to-create-dedicated-component-bins"></a><a name="to-create-dedicated-component-bins"></a>Per creare collocazioni di componenti dedicate
 
 È possibile specificare che le quantità in una collocazione siano protette dal prelievo per domande diverse da quella corrente.
 
@@ -136,9 +136,9 @@ La creazione di una collocazione dedicata fornisce una funzionalità simile all'
 > [!NOTE]  
 >  La collocazione deve essere vuota prima di poter selezionare o deselezionare il campo **Dedicata**.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

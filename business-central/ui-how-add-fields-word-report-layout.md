@@ -11,7 +11,7 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ---
 
-# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Utilizzare i layout di Word
+# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Utilizzare i layout di Word
 
 Un layout di report di Word determina il contenuto e il formato di un report quando viene visualizzato in anteprima e stampato da Business Central. Puoi creare e modificare questi layout utilizzando Microsoft Word.
 
@@ -26,18 +26,18 @@ Se stai progettando un layout di report Word da zero o aggiungendo nuovi campi d
 > [!TIP]  
 > Mostra le linee delle griglie della tabella in modo da visualizzare i limiti delle celle della tabella. Ricordati di nascondere le linee delle griglie quando finisci di apportare modifiche. Per visualizzare o nascondere le linee delle griglie della tabella, selezionare la tabella e quindi in **Layout** nella scheda **Tabella** scegliere **Visualizza linee griglia**.
 
-## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Incorporazione di caratteri in layout di Word per mantenere la coerenza
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Incorporazione di caratteri in layout di Word per mantenere la coerenza
 
 Per assicurarti che i report siano visualizzati e stampati con i caratteri voluti, indipendentemente da dove gli utenti aprono o stampano i report, puoi incorporare i caratteri nel documento di Word. Tuttavia considera che l'incorporazione di caratteri può aumentare significativamente la dimensione dei file di Word. Per ulteriori informazioni sull'incorporazione di caratteri in Word, vedere [Incorporare caratteri in Word, PowerPoint o Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-## <a name="adding-data-fields"></a><a name="adding-data-fields"></a>Aggiunta di campi dati
+## <a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a>Aggiunta di campi dati
 
 Un set di dati del report può consistere di campi nei quali sono visualizzati etichette, dati e immagini. In questo argomento viene descritta la procedura dell'aggiunta dei campi di un set di dati del report a un layout di report Word esistente per un report. Aggiungere i campi utilizzando la parte XML personalizzata di Word per il report e aggiungendo i controlli contenuto che eseguono il mapping ai campi del set di dati del report. L'aggiunta dei campi richiede la conoscenza del set di dati del report, perché sia possibile identificare i campi che si desidera aggiungere al layout.  
   
 > [!NOTE]  
 >  Non è possibile modificare layout di report predefiniti<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Per aprire la parte XML personalizzata per il report in Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Per aprire la parte XML personalizzata per il report in Word
   
 1. Se non è già aperto, aprire il documento di layout di report Word in Word.  
   
@@ -59,7 +59,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
      Dopo avere selezionato la parte XML personalizzata, il riquadro del mapping XML visualizza le etichette e i controlli campo disponibili per il report.  
   
-### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>Per aggiungere un campo dati o etichetta
+### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>Per aggiungere un campo dati o etichetta
   
 1. Posizionare il cursore nel documento dove si desidera aggiungere il controllo.  
   
@@ -68,7 +68,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
     > [!NOTE]  
     >  Non è possibile aggiungere un campo manualmente digitando il nome del campo set di dati nel controllo contenuto. Utilizzare il riquadro di **Mapping XML** per mappare i campi.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Per aggiungere righe ripetuti di campi dati per creare una lista
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Per aggiungere righe ripetuti di campi dati per creare una lista
   
 1. In una tabella, aggiungere una riga della tabella che include una colonna per ogni campo che si desidera che venga ripetuto.  
   
@@ -86,7 +86,7 @@ Un set di dati del report può consistere di campi nei quali sono visualizzati e
   
     3. Ripetere i passaggi a e b per ogni campo.  
   
-## <a name="adding-image-fields"></a><a name="adding-image-fields"></a>Aggiungere campi immagine
+## <a name="adding-image-fields"></a><a name="adding-image-fields"></a><a name="adding-image-fields"></a>Aggiungere campi immagine
 
 Un set di dati del report può includere un campo che contiene un'immagine, ad esempio un logo della società o l'immagine di un articolo. Per aggiungere un'immagine dal set di dati del report, si inserisce un controllo contenuto di **Immagine**.  
   
@@ -95,7 +95,7 @@ Le immagini vengono allineate all'angolo in alto a sinistra del controllo conten
 > [!IMPORTANT]  
 > È possibile aggiungere solo immagini con formato supportato da Word, ovvero .BMP, .jpeg e .png. Se si aggiunge un'immagine il cui formato non è supportato da Word, verrà visualizzato un errore quando si esegue il report dal client [!INCLUDE[prod_short](includes/prod_short.md)].  
   
-### <a name="to-add-an-image"></a><a name="to-add-an-image"></a>Per aggiungere un'immagine
+### <a name="to-add-an-image"></a><a name="to-add-an-image"></a><a name="to-add-an-image"></a>Per aggiungere un'immagine
   
 1. Posizionare il puntatore nel documento dove si desidera aggiungere il controllo.  
   
@@ -103,7 +103,7 @@ Le immagini vengono allineate all'angolo in alto a sinistra del controllo conten
   
 3. Per aumentare o diminuire la dimensione dell'immagine, trascinare un quadratino di ridimensionamento verso il centro o lontano dal centro del controllo contenuto.  
 
-## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Rimuovere i campi etichetta e dati
+## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Rimuovere i campi etichetta e dati
 
 I campi etichetta e dati di un report sono contenuti nei controlli contenuto di Word. La figura seguente illustra un controllo contenuto quando è selezionato nel documento Word.  
 
@@ -111,7 +111,7 @@ I campi etichetta e dati di un report sono contenuti nei controlli contenuto di 
 
 Il nome del campo etichetta o dati viene visualizzato nel controllo contenuto. Nell'esempio, il nome del campo è CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>Per rimuovere un campo dati o etichetta
+### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>Per rimuovere un campo dati o etichetta
 
 1. Fare clic con il tasto destro del mouse sul campo che si desidera eliminare, quindi fare clic su **Rimuovi controllo contenuto**.  
 
@@ -119,11 +119,11 @@ Il nome del campo etichetta o dati viene visualizzato nel controllo contenuto. N
 
 2. Eliminare il testo residuo in base alle esigenze.
 
-## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Panoramica della parte XML personalizzata
+## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Panoramica della parte XML personalizzata
 
 I layout di report Word sono sviluppati su *parti XML personalizzate*. Una parte XML personalizzata di un report consiste degli elementi corrispondenti agli elementi dati, alle colonne e alle etichette compresi nel set di dati del report. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->La parte XML personalizzata viene utilizzata per mappare i dati in un report all'esecuzione del report.
 
-### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>Struttura XML della parte XML personalizzata
+### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>Struttura XML della parte XML personalizzata
 
 Nella seguente tabella viene fornita una panoramica semplificata del codice XML di una parte XML personalizzata.  
   
@@ -136,7 +136,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Gli elementi di dati e le colonne che sono annidati nell'elemento dati di livello superiore. Le colonne sono elencate in ordine alfabetico sotto il rispettivo elemento di dati.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Scegliere gli articoli.|  
   
-### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Personalizzare la parte XML in Word
+### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Personalizzare la parte XML in Word
 
  In Word, aprire la parte XML personalizzata nel riquadro **Mapping XML**, quindi utilizzare il riquadro per mappare articoli ai controlli contenuto nel documento di Word. Il riquadro **Mapping XML** è accessibile dalla scheda **Sviluppatore**. Per ulteriori informazioni, vedere [Visualizzare la scheda sviluppatore nella barra multifunzione](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
@@ -154,7 +154,7 @@ Nella seguente tabella viene fornita una panoramica semplificata del codice XML 
   
 * La lingua dell'etichetta visualizzata quando si esegue il report dipende dall'impostazione della lingua dell'oggetto del report.  
   
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
 

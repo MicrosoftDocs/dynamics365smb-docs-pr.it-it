@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a>Ambienti sandbox in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a>Ambienti sandbox in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)] online è possibile ottenere facilmente un ambiente sicuro in cui testare, istruire o risolvere i problemi senza disturbare i processi di lavoro o i dati aziendali della società. Tale ambiente non di produzione è denominato *sandbox*. Isolato dalla produzione, un ambiente sandbox consente di esplorare, apprendere, dimostrare, sviluppare e testare in sicurezza il servizio senza il rischio di compromettere i dati e le impostazioni dell'ambiente di produzione.  
 
@@ -35,13 +35,13 @@ L'ambiente sandbox non è meno utile perché include un paio di funzioni utili:
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Designer](#designer)  
 
-## <a name="advanced-user-experience"></a><a name="advanced-user-experience"></a>Esperienza utente avanzata
+## <a name="advanced-user-experience"></a><a name="advanced-user-experience"></a><a name="advanced-user-experience"></a>Esperienza utente avanzata
 
 È possibile abilitare e provare la funzionalità completa della versione standard di [!INCLUDE[prod_short](includes/prod_short.md)] in un tenant sandbox impostando il campo **Esperienza** nella pagina **Informazioni società** su *Premium*. Trova la pagina **Informazioni società** nel menu :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Icona impostazioni."::: .  
 
 Dopo aver abilitato l'esperienza utente *Premium*, si ottiene l'accesso a tutti i profili standard (ruoli) e alla Gestione ruolo utente nella versione standard. In alternativa, contattare un partner di rivendita per una dimostrazione delle funzionalità. Per ulteriori informazioni, vedi [Come trovo un partner di rivendita?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### <a name="complete-sample-data"></a><a name="complete-sample-data"></a>Dati di esempio completi
+### <a name="complete-sample-data"></a><a name="complete-sample-data"></a><a name="complete-sample-data"></a>Dati di esempio completi
 
 Per situazioni in cui hai bisogno di dati di esempio aggiuntivi, parla con il tuo partner di rivendita.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -56,7 +56,7 @@ Per situazioni in cui hai bisogno di dati di esempio aggiuntivi, parla con il tu
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## <a name="designer"></a><a name="designer"></a>Designer
+## <a name="designer"></a><a name="designer"></a><a name="designer"></a>Designer
 
 In un ambiente sandbox, la **funzionalità di progettazione** è abilitata. Puoi attivare la funzionalità di progettazione selezionando l'icona di progettazione ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) su una pagina, o scegliendo la voce di menu **Progettazione** nel menu Impostazioni ![Impostazioni](media/ui-experience/settings_icon_small.png).  
 
@@ -64,9 +64,9 @@ Per ulteriori informazioni, vedi [Utilizzare la finestra di progettazione](/dyna
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 Versioni di valutazione e sottoscrizioni di [[!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

@@ -11,7 +11,7 @@ ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="record-and-reimburse-employees-expenses"></a><a name="record-and-reimburse-employees-expenses"></a>Registrare e rimborsare le spese dei dipendenti
+# <a name="record-and-reimburse-employees-expenses"></a><a name="record-and-reimburse-employees-expenses"></a><a name="record-and-reimburse-employees-expenses"></a>Registrare e rimborsare le spese dei dipendenti
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta le transazioni per i dipendenti in modo simile alle transazioni per i fornitori. Di conseguenza, sono disponibili alcune categorie di registrazione dipendenti che consentono di assicurarsi che i movimenti contabili per i dipendenti siano registrati nei conti di pertinenza nella contabilità COGE.
 
@@ -25,7 +25,7 @@ Se i dipendenti spendono denaro personale durante le attività lavorative, è po
 
 [!INCLUDE [prod_short](includes/prod_short.md)] è sufficientemente flessibile per adattarsi a molte pratiche diverse. I numeri di account esatti da utilizzare dipendono dalla configurazione e dai processi dell'organizzazione.  
 
-## <a name="to-record-an-employees-expense"></a><a name="to-record-an-employees-expense"></a>Per registrare le spese di un dipendente
+## <a name="to-record-an-employees-expense"></a><a name="to-record-an-employees-expense"></a><a name="to-record-an-employees-expense"></a>Per registrare le spese di un dipendente
 
 Le spese del dipendente vengono registrate nella pagina **Contabilità generale**.
 
@@ -41,7 +41,7 @@ Le spese del dipendente vengono registrate nella pagina **Contabilità generale*
     > Se si desidera immettere più righe di spesa sopra una riga di contropartita per il conto bancario del dipendente, selezionare la casella di controllo **Suggerisci importo contropartita** nella riga del batch nella pagina **Batch registrazioni COGE**. Il campo **Importo** nella riga di contropartita viene precompilato automaticamente con il valore necessario per pareggiare le spese.
 5. Scegliere l'azione **Registra** per registrare spese nel conto del dipendente.
 
-## <a name="to-reimburse-an-employee"></a><a name="to-reimburse-an-employee"></a>Per rimborsare un dipendente
+## <a name="to-reimburse-an-employee"></a><a name="to-reimburse-an-employee"></a><a name="to-reimburse-an-employee"></a>Per rimborsare un dipendente
 
 I dipendenti vengono rimborsati registrando i pagamenti nei relativi conti bancari nella pagina **Registrazioni pagamenti**.  
 
@@ -51,11 +51,11 @@ I dipendenti vengono rimborsati registrando i pagamenti nei relativi conti banca
 4. In alternativa, scegliere l'azione **Suggerisci pagamenti dipendente** per inserire automaticamente righe di registrazione per rimborsi in sospeso al dipendente.
 5. Scegliere l'azione **Registra** per registrare il rimborso.  
 
-## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a><a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Per riconciliare i rimborsi con movimenti contabili del dipendente
+## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a><a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a><a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Per riconciliare i rimborsi con movimenti contabili del dipendente
 
 I pagamenti dei dipendenti si applicano ai movimenti contabili aperti correlati come si fa per i pagamenti dei fornitori, ad esempio nella pagina **Registrazione riconciliazione pagamenti**, in base ai movimenti relativi dell'estratto conto. Per ulteriori informazioni, vedere [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md). In alternativa, è possibile applicarli manualmente nella pagina **Movimenti contabili dipendente**. Per ulteriori informazioni, vedere [Riconciliare manualmente i pagamenti ai fornitori con la registrazioni pagamenti o dai movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md).  
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
 [Utilizzare le registrazioni COGE](ui-work-general-journals.md)  

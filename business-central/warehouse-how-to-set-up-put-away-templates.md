@@ -10,13 +10,13 @@ ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-put-away-templates"></a><a name="set-up-put-away-templates"></a>Impostare i modelli di stoccaggio
+# <a name="set-up-put-away-templates"></a><a name="set-up-put-away-templates"></a><a name="set-up-put-away-templates"></a>Impostare i modelli di stoccaggio
 
 Grazie alla funzionalità per stoccaggi e prelievi guidati, viene suggerita in qualsiasi momento la collocazione più appropriata per gli articoli sulla base del modello di stoccaggio impostato per la warehouse, le valutazioni assegnate alle collocazioni e le quantità minima e massima impostate per le collocazioni fisse.  
 
 È possibile impostare più modelli di stoccaggio e selezionarne uno per gestire gli stoccaggi nella warehouse. È inoltre possibile selezionare un modello di stoccaggio per qualsiasi articolo o unità di stockkeeping che presenta speciali requisiti di stoccaggio.  
 
-## <a name="to-set-up-put-away-templates"></a><a name="to-set-up-put-away-templates"></a>Per impostare i modelli di stoccaggio
+## <a name="to-set-up-put-away-templates"></a><a name="to-set-up-put-away-templates"></a><a name="to-set-up-put-away-templates"></a>Per impostare i modelli di stoccaggio
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Modelli di stoccaggio**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -31,9 +31,9 @@ Grazie alla funzionalità per stoccaggi e prelievi guidati, viene suggerita in q
 
 È possibile creare diversi modelli di stoccaggio e applicarli in base alle esigenze. Viene utilizzato innanzitutto il modello di stoccaggio selezionato per l'articolo o l'unità di stockkeeping, qualora disponibile. Se questi campi non vengono compilati, verrà utilizzato il modello di stoccaggio selezionato per la warehouse nella Scheda dettaglio **Criteri per collocazione** della scheda ubicazione.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/put-away-templates/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/put-away-templates/)
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

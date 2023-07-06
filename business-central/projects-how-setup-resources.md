@@ -11,7 +11,7 @@ ms.search.form: '72, 76, 77, 203, 204'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-resources-for-projects"></a><a name="set-up-resources-for-projects"></a>Impostazione delle risorse per i progetti
+# <a name="set-up-resources-for-projects"></a><a name="set-up-resources-for-projects"></a><a name="set-up-resources-for-projects"></a>Impostazione delle risorse per i progetti
 
 Per gestire correttamente le attività delle risorse, è necessario impostare le risorse, nonché i costi e i prezzi correlati. I prezzi, gli sconti e le regole dei fattori di costi correlati a una commessa vengono impostati nella scheda commessa. È possibile specificare i costi e i prezzi per singole risorse, gruppi di risorse oppure per tutte le risorse disponibili della società.
 
@@ -25,7 +25,7 @@ L'importo orario di default viene specificato durante la creazione della risorsa
 >  
 > Se registri transazioni intercompany, sebbene sia possibile una risorsa in una riga di un ordine cliente, se si converte l'ordine cliente in un ordine fornitore sul lato ricevente, la risorsa non verrà inclusa. Per utilizzare le risorse nelle transazioni intercompany, utilizza il campo **Nr. conto C/G acq. partner IC** della scheda risorsa per specificare il conto su cui registrare le spese.
 
-## <a name="to-set-up-a-resource"></a><a name="to-set-up-a-resource"></a>Per impostare una risorsa
+## <a name="to-set-up-a-resource"></a><a name="to-set-up-a-resource"></a><a name="to-set-up-a-resource"></a>Per impostare una risorsa
 
 Creare una scheda per ogni risorsa che si desidera utilizzare nei progetti.
 
@@ -33,7 +33,7 @@ Creare una scheda per ogni risorsa che si desidera utilizzare nei progetti.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi, se necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-set-up-a-resource-group"></a><a name="to-set-up-a-resource-group"></a>Per impostare un gruppo di risorse
+## <a name="to-set-up-a-resource-group"></a><a name="to-set-up-a-resource-group"></a><a name="to-set-up-a-resource-group"></a>Per impostare un gruppo di risorse
 
 È possibile unire diverse risorse in uno stesso gruppo di risorse. Le capacità e i budget di un gruppo di risorse sono il risultato della somma delle capacità e dei budget delle singole risorse. È possibile immettere le capacità dei gruppi di risorse indipendentemente dai valori accumulati oppure in aggiunta a questi.
 
@@ -41,7 +41,7 @@ Creare una scheda per ogni risorsa che si desidera utilizzare nei progetti.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi, se necessario.
 
-## <a name="to-set-capacity-for-a-resource"></a><a name="to-set-capacity-for-a-resource"></a>Per impostare la capacità per una risorsa
+## <a name="to-set-capacity-for-a-resource"></a><a name="to-set-capacity-for-a-resource"></a><a name="to-set-capacity-for-a-resource"></a>Per impostare la capacità per una risorsa
 
 Per calcolare quanto tempo una risorsa può dedicare alle commesse, la relativa capacità deve essere prima impostata come tempo disponibile per periodo nel calendario di produzione. Questa impostazione è utilizzata quando si compilano le righe di pianificazione commessa che contengono la risorsa. Per ulteriori informazioni, vedere [Creare le commesse](projects-how-create-jobs.md).
 
@@ -54,7 +54,7 @@ Per calcolare quanto tempo una risorsa può dedicare alle commesse, la relativa 
 7. Scegliere l'azione **Aggiorna capacità**. La pagina **Capacità risorsa** viene aggiornata con la capacità immessa.
 8. Chiudere la pagina.
 
-## <a name="to-set-up-alternate-resource-costs"></a><a name="to-set-up-alternate-resource-costs"></a>Per impostare costi di risorsa alternativi
+## <a name="to-set-up-alternate-resource-costs"></a><a name="to-set-up-alternate-resource-costs"></a><a name="to-set-up-alternate-resource-costs"></a>Per impostare costi di risorsa alternativi
 
 Oltre al costo specificato nella scheda risorsa, è possibile impostare dei costi alternativi per ogni risorsa. Se ad esempio un lavoratore percepisce una paga oraria maggiore per il lavoro straordinario, si può impostare un costo risorsa per lo straordinario. Il costo alternativo impostato per la risorsa sovrascriverà il costo nella scheda della risorsa, quando si utilizzerà la risorsa nelle registrazioni risorse.
 
@@ -65,7 +65,7 @@ Oltre al costo specificato nella scheda risorsa, è possibile impostare dei cost
 
 **Nota**. Per impostare i costi risorse da applicare a tutte le risorse e ai gruppi di risorse, aprire la pagina **Costi risorse** e compilare i campi.
 
-## <a name="to-set-up-alternate-resource-prices"></a><a name="to-set-up-alternate-resource-prices"></a>Per impostare prezzi di risorsa alternativi
+## <a name="to-set-up-alternate-resource-prices"></a><a name="to-set-up-alternate-resource-prices"></a><a name="to-set-up-alternate-resource-prices"></a>Per impostare prezzi di risorsa alternativi
 
 Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei prezzi alternativi per ogni risorsa. Questi prezzi alternativi possono essere condizionali. Possono dipendere dal fatto che la risorsa sia utilizzata con un tipo di lavoro o una commessa specifica.
 
@@ -74,9 +74,9 @@ Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei pre
 3. Nella pagina **Prezzi risorse** compilare i campi in una riga in base alle esigenze.
 4. Ripetere il passaggio 3 per ogni prezzo di risorsa alternativo che si desidera impostare.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Impostazione della Gestione progetti](projects-setup-projects.md)  
 [Gestione progetti](projects-manage-projects.md)  

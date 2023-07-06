@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# <a name="compliance-overview"></a><a name="compliance-overview"></a>Panoramica sulla conformità
+# <a name="compliance-overview"></a><a name="compliance-overview"></a><a name="compliance-overview"></a>Panoramica sulla conformità
 
 Questo argomento contiene informazioni sulla conformità in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

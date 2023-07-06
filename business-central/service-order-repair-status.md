@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-statuses-for-service-orders-and-repairs"></a><a name="set-up-statuses-for-service-orders-and-repairs"></a>Come impostare gli stati per gli ordini di assistenza e le riparazioni
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a><a name="set-up-statuses-for-service-orders-and-repairs"></a><a name="set-up-statuses-for-service-orders-and-repairs"></a>Come impostare gli stati per gli ordini di assistenza e le riparazioni
 
 È necessario impostare opzioni relative allo stato della riparazione che indicano lo stato di avanzamento della riparazione e della manutenzione degli articoli in assistenza negli ordini di assistenza. È necessario impostare almeno nove opzioni di stato di riparazione che indichino le situazioni o le azioni intraprese durante le operazioni di assistenza effettuate sull'articolo.  
 
@@ -20,7 +20,7 @@ Ogni volta che si modifica lo stato di riparazione di un articolo in assistenza 
 
 Prima di poter impostare uno stato di riparazione, è necessario impostare le priorità dello stato di assistenza.
 
-## <a name="to-set-up-service-status-priorities"></a><a name="to-set-up-service-status-priorities"></a>Per impostare le priorità di stato di assistenza
+## <a name="to-set-up-service-status-priorities"></a><a name="to-set-up-service-status-priorities"></a><a name="to-set-up-service-status-priorities"></a>Per impostare le priorità di stato di assistenza
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stato ordine assistenza**, quindi scegli il collegamento correlato.  
 2. Selezionare lo stato dell'ordine di assistenza per cui si desidera impostare una priorità.  
@@ -28,7 +28,7 @@ Prima di poter impostare uno stato di riparazione, è necessario impostare le pr
 
 Ripetere i passaggi 2 e 3 per impostare la priorità per ciascuna delle quattro opzioni di stato, ovvero **Non iniziato**, **In corso**, **Completato** e **In attesa**.  
 
-## <a name="to-set-up-a-repair-status"></a><a name="to-set-up-a-repair-status"></a>Per impostare uno stato di riparazione
+## <a name="to-set-up-a-repair-status"></a><a name="to-set-up-a-repair-status"></a><a name="to-set-up-a-repair-status"></a>Per impostare uno stato di riparazione
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stato riparazione**, quindi scegli il collegamento correlato.
 2. Creare un nuovo stato di riparazione.  
@@ -41,7 +41,7 @@ Ripetere i passaggi 2 e 3 per impostare la priorità per ciascuna delle quattro 
 
 Ripetere i passaggi indicati per ogni opzione dello stato di riparazione che si intende creare.
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Stato ordine assistenza e stato riparazione](service-service-order-status-and-repair-status.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  

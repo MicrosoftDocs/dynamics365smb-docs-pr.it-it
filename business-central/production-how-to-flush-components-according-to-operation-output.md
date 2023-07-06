@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="flush-components-according-to-operation-output"></a><a name="flush-components-according-to-operation-output"></a>Eseguire la consuntivazione dei componenti in base all'output dell'operazione
+# <a name="flush-components-according-to-operation-output"></a><a name="flush-components-according-to-operation-output"></a><a name="flush-components-according-to-operation-output"></a>Eseguire la consuntivazione dei componenti in base all'output dell'operazione
 È possibile definire diverse strategie di consuntivazione, per automatizzare la registrazione del consumo di componenti. 
 
 Questa funzionalità si rivela particolarmente utile per i seguenti motivi:  
@@ -29,14 +29,14 @@ Questa funzionalità si rivela particolarmente utile per i seguenti motivi:
 
     Grazie alla possibilità di eseguire la consuntivazione manuale di un'operazione, è possibile automatizzare l'intero processo di registrazione dei consumi e dell'output. Lo svantaggio dell'utilizzo della consuntivazione automatica consiste nel fatto che lo scarto potrebbe non essere registrato o persino individuato correttamente.
 
-## <a name="automatic-consumption-posting-flushing-methods"></a><a name="automatic-consumption-posting-flushing-methods"></a>Metodi registrazione automatica del consumo (consuntivazione)
+## <a name="automatic-consumption-posting-flushing-methods"></a><a name="automatic-consumption-posting-flushing-methods"></a><a name="automatic-consumption-posting-flushing-methods"></a>Metodi registrazione automatica del consumo (consuntivazione)
 
 - Consuntivazione in avanti dell'intero ordine  
 - Consuntivazione in avanti in base all'operazione  
 - Consuntivazione a ritroso in base all'operazione  
 - Consuntivazione a ritroso dell'intero ordine  
 
-### <a name="automatic-reporting---forward-flush-the-entire-order"></a><a name="automatic-reporting---forward-flush-the-entire-order"></a>Reporting automatico - Consuntivazione in avanti dell'intero ordine
+### <a name="automatic-reporting---forward-flush-the-entire-order"></a><a name="automatic-reporting---forward-flush-the-entire-order"></a><a name="automatic-reporting---forward-flush-the-entire-order"></a>Reporting automatico - Consuntivazione in avanti dell'intero ordine
 Se si esegue la consuntivazione in avanti dell'ordine di produzione all'inizio della commessa, il comportamento dell'applicazione è molto simile a un consumo manuale. La differenza principale consiste nel fatto che il consumo si verifica automaticamente.  
 
 - L'intero contenuto della DB di produzione viene consumato e dedotto dal magazzino nel momento in cui viene aggiornato l'ordine di produzione rilasciato.  
@@ -51,7 +51,7 @@ La consuntivazione in avanti di un intero ordine è adatta negli ambienti di pro
 -   Numero ridotto di operazioni  
 -   Elevato consumo di componenti nelle operazioni iniziali  
 
-### <a name="automatic-reporting---forward-flushing-by-operation"></a><a name="automatic-reporting---forward-flushing-by-operation"></a>Registrazione automatica - Consuntivazione in avanti in base all'operazione
+### <a name="automatic-reporting---forward-flushing-by-operation"></a><a name="automatic-reporting---forward-flushing-by-operation"></a><a name="automatic-reporting---forward-flushing-by-operation"></a>Registrazione automatica - Consuntivazione in avanti in base all'operazione
 La consuntivazione in base all'operazione consente di dedurre materiale dal magazzino durante un'operazione specifica nel ciclo dell'articolo principale. Il materiale viene associato al ciclo tramite codici di legame tra ciclo e distinta base, un'attività che corrisponde all'applicazione di codici di legame tra ciclo e distinta base ai componenti nella DB di produzione.  
 
 Il calcolo viene eseguito quando l'operazione associata allo stesso codice di legame tra ciclo e distinta base viene avviata. Iniziato indica che alcune attività vengono inserite nelle registrazioni di output per l'operazione. E l'attività può corrispondere all'immissione di un tempo di setup.  
@@ -62,7 +62,7 @@ Questa tecnica è particolarmente efficace in presenza di molte operazioni e nel
 
 Il materiale può essere consumato durante le operazioni tramite codici di legame tra ciclo e distinta base. Alcuni componenti potrebbero non essere utilizzati fino alle operazioni di assemblaggio finale e non devono essere prelevati dallo stock fino a quel momento.  
 
-### <a name="automatic-reporting---back-flushing-by-operation"></a><a name="automatic-reporting---back-flushing-by-operation"></a>Registrazione automatica - Consuntivazione a ritroso in base all'operazione
+### <a name="automatic-reporting---back-flushing-by-operation"></a><a name="automatic-reporting---back-flushing-by-operation"></a><a name="automatic-reporting---back-flushing-by-operation"></a>Registrazione automatica - Consuntivazione a ritroso in base all'operazione
 La consuntivazione a ritroso in base all'operazione consente di registrare il consumo in seguito alla registrazione dell'operazione nelle registrazioni di output.  
 
 Il vantaggio di questo metodo consiste nel fatto che è noto il numero di parti principali completate nell'operazione.  
@@ -71,7 +71,7 @@ Il materiale incluso nella DB di produzione è collegato ai record del ciclo tra
 
 L'importo della consuntivazione corrisponde alla quantità per assemblaggio indicata nella DB di produzione moltiplicata per il numero di articoli principali registrati come quantità di output nell'operazione. Tale valore può differire dalla quantità prevista.  
 
-### <a name="automatic-reporting---back-flushing-the-entire-order"></a><a name="automatic-reporting---back-flushing-the-entire-order"></a>Reporting automatico - Consuntivazione a ritroso dell'intero ordine
+### <a name="automatic-reporting---back-flushing-the-entire-order"></a><a name="automatic-reporting---back-flushing-the-entire-order"></a><a name="automatic-reporting---back-flushing-the-entire-order"></a>Reporting automatico - Consuntivazione a ritroso dell'intero ordine
 In questo metodo di reporting non vengono considerati i codici di legame tra ciclo e distinta base.  
 
 Non viene prelevato alcun componente fino a quando lo stato dell'ordine di produzione rilasciato non viene modificato in *Completato*. L'importo della consuntivazione corrisponde alla quantità per assemblaggio indicata nella DB di produzione moltiplicata per il numero di articoli principali finiti e inseriti in magazzino.  
@@ -82,7 +82,7 @@ La consuntivazione a ritroso dell'intero ordine di produzione richiede lo stesso
 
 Ad esempio, se un ordine di produzione per produrre 800 metri richiede 8 chilogrammi di un componente, quando si registrano 200 metri come output, 2 chilogrammi vengono automaticamente registrati come consumo. Puoi eseguirlo combinando il metodo di consuntivazione a ritroso e i codici di legame tra ciclo e distinta base in modo che la quantità di cui è stata effettuata la consuntivazione per operazione sia proporzionale all'effettivo output dell'operazione completata. Per gli articoli impostati con il metodo di consuntivazione a ritroso, il comportamento di default prevede di calcolare e registrare il consumo di componenti quando si modifica lo stato di un ordine di produzione rilasciato in **Completato**. Se inoltre si definiscono i codici legame tra ciclo e distinta base, il calcolo e la registrazione si verificano una volta completata ogni operazione e la quantità effettivamente consumata nell'operazione viene registrata. Per ulteriori informazioni, vedere [Creare cicli](production-how-to-create-routings.md).  
 
-## <a name="to-flush-components-according-to-operation-output"></a><a name="to-flush-components-according-to-operation-output"></a>Per eseguire la consuntivazione dei componenti in base all'output dell'operazione
+## <a name="to-flush-components-according-to-operation-output"></a><a name="to-flush-components-according-to-operation-output"></a><a name="to-flush-components-according-to-operation-output"></a>Per eseguire la consuntivazione dei componenti in base all'output dell'operazione
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Modifica**.  
@@ -100,7 +100,7 @@ Ad esempio, se un ordine di produzione per produrre 800 metri richiede 8 chilogr
 
 Il consumo verrà registrato automaticamente al momento della registrazione dell'output. Per ulteriori informazioni, vedere [Registrare l'output e i tempi di lavorazione tramite processo batch](production-how-to-post-output-quantity.md)
 
-## <a name="flushing-methods"></a><a name="flushing-methods"></a>Metodi di consuntivazione
+## <a name="flushing-methods"></a><a name="flushing-methods"></a><a name="flushing-methods"></a>Metodi di consuntivazione
 
 La tabella seguente descrive le opzioni del metodo di consuntivazione disponibili che è possibile specificare sulle schede **Articolo** e **Unità di stockkeeping**.
 
@@ -112,7 +112,7 @@ La tabella seguente descrive le opzioni del metodo di consuntivazione disponibil
 |Prelievo + Avanti|Uguale al metodo di consuntivazione in avanti, tranne per il fatto che funziona solo per le ubicazioni che utilizzano la configurazione warehouse avanzata o la configurazione warehouse di base con collocazioni obbligatorie.<br><br> Il consumo viene calcolato e registrato dalla collocazione definita nel campo **Cod. coll. art. per produzione** nell'ubicazione o nel centro di lavoro dopo che il componente è stato prelevato dalla warehouse.<br><br> **Nota** <br>Se un componente è impostato con il metodo Prelievo + Consuntivazione in avanti, non potrà disporre di un codice legame ciclo-DB per un'operazione impostata con il metodo di consuntivazione in avanti. Il componente viene quindi consuntivato automaticamente quando comincia l'operazione, che rende impossibile richiedere l'attività di prelievo.|
 |Prelievo + Indietro|Uguale al metodo di consuntivazione indietro, tranne per il fatto che funziona solo per le ubicazioni che utilizzano la configurazione warehouse avanzata o la configurazione warehouse di base con collocazioni obbligatorie.<br><br> Il consumo viene calcolato e registrato dalla collocazione definita nel campo **Cod. coll. art. per produzione** nell'ubicazione o nel centro di lavoro dopo che il componente è stato prelevato dalla warehouse.|
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Creare le distinte base di produzione](production-how-to-create-production-boms.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

@@ -11,14 +11,14 @@ ms.date: 10/01/2020
 ms.author: bholtorf
 ---
 
-# <a name="business-central-for-multi-site-and-international-organizations"></a><a name="business-central-for-multi-site-and-international-organizations"></a>Business Central per organizzazioni multisito e internazionali
+# <a name="business-central-for-multi-site-and-international-organizations"></a><a name="business-central-for-multi-site-and-international-organizations"></a><a name="business-central-for-multi-site-and-international-organizations"></a>Business Central per organizzazioni multisito e internazionali
 Le organizzazioni con più siti utilizzano spesso un modello di business hub e spoke in cui una società madre, o sede centrale, gestisce tutte le operazioni dell'azienda mentre ogni sito funziona come una singola entità autonoma. I siti sono spesso distribuiti geograficamente e hanno esigenze diverse di condivisione delle informazioni con la sede centrale. Inoltre, i siti in genere non richiedono lo stesso livello di complessità e spesso mancano delle risorse per mantenere un sistema di grandi dimensioni.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offre alle piccole e medie imprese una soluzione di gestione aziendale facile da usare e da mantenere a un basso costo di proprietà.
 
 Questo articolo introduce alcuni dei modi in cui [!INCLUDE[prod_short](includes/prod_short.md)] supporta un modello di business hub e spoke.
 
-## <a name="integrating-the-headquarter-company-and-the-sites"></a><a name="integrating-the-headquarter-company-and-the-sites"></a>Integrazione della sede centrale e dei siti
+## <a name="integrating-the-headquarter-company-and-the-sites"></a><a name="integrating-the-headquarter-company-and-the-sites"></a><a name="integrating-the-headquarter-company-and-the-sites"></a>Integrazione della sede centrale e dei siti
 
 [!INCLUDE[prod_short](includes/prod_short.md)] può integrarsi con il sistema contabile della sede centrale, soddisfacendo al contempo le diverse esigenze dei diversi siti, indipendentemente dalle dimensioni, dall'ubicazione o dal tipo di attività.
 
@@ -26,7 +26,7 @@ Il diagramma seguente è un esempio di diversi siti integrati con una sede azien
 
 ![Descrizione diagramma generata automaticamente.](media/multisite-headquarter-sites.png)
 
-## <a name="meet-the-needs-of-domestic-and-international-sites"></a><a name="meet-the-needs-of-domestic-and-international-sites"></a>Soddisfare le esigenze dei siti nazionali e internazionali
+## <a name="meet-the-needs-of-domestic-and-international-sites"></a><a name="meet-the-needs-of-domestic-and-international-sites"></a><a name="meet-the-needs-of-domestic-and-international-sites"></a>Soddisfare le esigenze dei siti nazionali e internazionali
 
 Le esigenze aziendali nei diversi siti spesso differiscono in base al settore, ai metodi aziendali o al loro rapporto con la sede centrale. [!INCLUDE[prod_short](includes/prod_short.md)] può essere facilmente adattato ed esteso a vari tipi di attività commerciali e sedi. Microsoft AppSource offre una vasta gamma di app di Microsoft e dei nostri partner e i partner possono distribuire rapidamente [!INCLUDE[prod_short](includes/prod_short.md)] con interruzioni minime delle operazioni quotidiane.
 
@@ -45,7 +45,7 @@ Una rete di oltre 4.000 partner Microsoft in tutto il mondo fornisce competenze 
 | Gestisci più lingue e valute. | Il supporto di più lingue e valute consente di soddisfare le esigenze locali. | [Funzionalità multilingue](about-locale-language.md)<br></br>[Funzionalità multivaluta](finance-how-setup-additional-currencies.md) |
 
 
-## <a name="consolidate-financial-data"></a><a name="consolidate-financial-data"></a>Consolidare i dati finanziari
+## <a name="consolidate-financial-data"></a><a name="consolidate-financial-data"></a><a name="consolidate-financial-data"></a>Consolidare i dati finanziari
 
 Un aspetto fondamentale del modello di business hub and spoke è la capacità della sede centrale e degli altri siti di scambiare dati finanziari, anche quando la sede centrale e gli altri siti utilizzano sistemi, strutture contabili, lingue e valute differenti.
 
@@ -55,7 +55,7 @@ Un aspetto fondamentale del modello di business hub and spoke è la capacità de
 | Integrare le strutture contabili. | Trasferire i dati di consolidamento da diverse strutture contabili alla tua. Formato file integrato per F&O (disponibile con Wave 2, 2020) | [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)<br></br>[Preparare i conti di contabilità generale per il consolidamento](finance-consolidated-company-reporting-setup.md#glacc) |
 | Effettuare transazioni in più valute. | Contribuire a garantire che i rendiconti finanziari in valute diverse siano accurati e utilizzino tassi di cambio corretti. | [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md) |
 
-## <a name="share-business-insight-with-integrated-analytics"></a><a name="share-business-insight-with-integrated-analytics"></a>Condividere le informazioni aziendali con l'analisi integrata
+## <a name="share-business-insight-with-integrated-analytics"></a><a name="share-business-insight-with-integrated-analytics"></a><a name="share-business-insight-with-integrated-analytics"></a>Condividere le informazioni aziendali con l'analisi integrata
 
 Allineare l'organizzazione ai propri obiettivi di business fornendo una comprensione generale della realtà attuale. L'analisi integrata può aiutare le persone a basare le proprie decisioni sullo stesso insieme di fatti.
 
@@ -67,7 +67,7 @@ Allineare l'organizzazione ai propri obiettivi di business fornendo una comprens
 | Analizzare dati in Excel. | Cercare i fatti, risolvere i problemi ed eseguire analisi ad hoc in Microsoft Excel. | [Analizzare i rendiconti finanziari in Excel](finance-analyze-excel.md) |
 
 
-## <a name="exchange-data-using-apis-and-xmlports"></a><a name="exchange-data-using-apis-and-xmlports"></a>Scambiare dati utilizzando API e XMLports
+## <a name="exchange-data-using-apis-and-xmlports"></a><a name="exchange-data-using-apis-and-xmlports"></a><a name="exchange-data-using-apis-and-xmlports"></a>Scambiare dati utilizzando API e XMLports
 
 API e XMLport semplificano il processo di connessione delle istanze di [!INCLUDE[prod_short](includes/prod_short.md)], comprese quelle che sono state personalizzate per ogni sito.
 
@@ -82,7 +82,7 @@ API e XMLport semplificano il processo di connessione delle istanze di [!INCLUDE
 | Connettersi a soluzioni e servizi di <sup></sup>terze parti. | Le API stabiliscono una connessione punto a punto tra Business Central e soluzioni e servizi di<sup></sup> terze parti. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## <a name="promote-an-efficient-intercompany-supply-chain"></a><a name="promote-an-efficient-intercompany-supply-chain"></a>Promuovere una catena di approvvigionamento interaziendale efficiente
+## <a name="promote-an-efficient-intercompany-supply-chain"></a><a name="promote-an-efficient-intercompany-supply-chain"></a><a name="promote-an-efficient-intercompany-supply-chain"></a>Promuovere una catena di approvvigionamento interaziendale efficiente
 
 I siti hanno spesso bisogno di accedere alla catena di approvvigionamento e della capacità di gestirne alcuni aspetti. Ad esempio, i siti potrebbero utilizzare lo stesso fornitore, ma gestirne le risorse e le sedi fisiche separatamente.
 
@@ -91,7 +91,7 @@ I siti hanno spesso bisogno di accedere alla catena di approvvigionamento e dell
 | Gestire le transazioni tra le divisioni come normali transazioni di vendita e acquisto. | Utilizzare le registrazioni interaziendali per creare documenti di vendita e acquisto e movimenti C/G per interi flussi di lavoro e per più di una società alla volta per eliminare l'immissione di dati duplicati. | [Gestione delle transazioni interaziendali](intercompany-manage.md) |
 | Usare processi senza documenti cartacei. | Evitare i costi di invio, ricezione e stampa di documenti. | [Documenti in entrata](across-income-documents.md)<br><br> [Gestire allegati, collegamenti e note in schede e documenti](ui-how-add-link-to-record.md) |
 
-## <a name="respond-quickly-to-new-business-conditions"></a><a name="respond-quickly-to-new-business-conditions"></a>Rispondere rapidamente alle nuove condizioni commerciali
+## <a name="respond-quickly-to-new-business-conditions"></a><a name="respond-quickly-to-new-business-conditions"></a><a name="respond-quickly-to-new-business-conditions"></a>Rispondere rapidamente alle nuove condizioni commerciali
 
 La sede centrale deve essere in grado di reagire rapidamente ai cambiamenti aziendali in ogni sito. In combinazione con Power Automate, [!INCLUDE[prod_short](includes/prod_short.md)] può fungere da meccanismo di allarme anticipato.
 
@@ -102,7 +102,7 @@ La sede centrale deve essere in grado di reagire rapidamente ai cambiamenti azie
 | Generare automaticamente avvisi e-mail. | Impostare avvisi in Power Automate che genereranno messaggi di posta elettronica per ricevere informazioni in merito al condizioni aziendali critiche nelle sedi o presso i partner della catena di fornitura. | [Business Central e Power BI](admin-powerbi.md) |
 | Usare avvisi standard o personalizzati. | Utilizzare 12 diversi modelli inclusi per Business Central o impostare gli avvisi per adattarli alla propria attività. | [Usare Business Central in un flusso di lavoro automatizzato](across-how-use-financials-data-source-flow.md) |
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 [Amministrazione di Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

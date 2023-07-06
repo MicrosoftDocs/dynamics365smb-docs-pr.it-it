@@ -11,7 +11,7 @@ ms.search.form: '43, 48, 9301'
 ms.date: 09/01/2022
 ms.author: edupont
 ---
-# <a name="invoice-sales"></a><a name="invoice-sales"></a>Fatturare le vendite
+# <a name="invoice-sales"></a><a name="invoice-sales"></a><a name="invoice-sales"></a>Fatturare le vendite
 
 Puoi creare una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.  
 
@@ -25,7 +25,7 @@ In tutte le altre situazioni, gli ordini di vendita e le fatture di vendita funz
 
 È possibile negoziare con il cliente prima di tutto creando un'offerta di vendita, che è possibile convertire in una fattura di vendita quando ci si accorda sulla vendita. Ulteriori informazioni in [Creare offerte di vendita](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a><a name="create-sales-invoices"></a>Crea fatture di vendita
+## <a name="create-sales-invoices"></a><a name="create-sales-invoices"></a><a name="create-sales-invoices"></a>Crea fatture di vendita
 
 Se il cliente decide di acquistare, registrare la fattura di vendita per creare i relativi movimenti di quantità e valore. Quando si registra la fattura di vendita, è possibile inviarla via email come allegato PDF. È possibile impostare il messaggio con un testo precompilato che riepiloga le informazioni della fattura e per il pagamento, ad esempio con un collegamento a PayPal. Ulteriori informazioni in [Inviare documenti via e-mail](ui-how-send-documents-email.md). Quando un cliente paga quindi la fattura, è possibile registrare il pagamento in diversi modi, a seconda della dimensione e dei flussi di lavoro preferiti dell'organizzazione. Ulteriori informazioni nella sezione [Registrazione dei pagamenti](#registering-payments).  
 
@@ -33,7 +33,7 @@ Le schede articolo possono essere di tipo **Inventario**, **Assistenza** o **Non
 
 È possibile compilare i campi cliente nella fattura di vendita in uno dei due modi a seconda che il cliente sia già registrato o meno. Vedere il passaggio 2 della procedura riportata di seguito.
 
-### <a name="to-create-a-sales-invoice"></a><a name="to-create-a-sales-invoice"></a>Per creare una fattura di vendita
+### <a name="to-create-a-sales-invoice"></a><a name="to-create-a-sales-invoice"></a><a name="to-create-a-sales-invoice"></a>Per creare una fattura di vendita
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Nel campo **Cliente** immettere il nome di un cliente esistente. Se, tuttavia, il cliente è nuovo e quindi non registrato, attieniti alla seguente procedura per popolare le informazioni standard del cliente nella pagina **Fattura di vendita**:
@@ -88,11 +88,11 @@ Viene visualizzata la finestra dialogo **Registra e invia conferma** con il meto
 
 I movimenti articolo e di contabilità cliente sono ora creati nel sistema e la fattura di vendita è emessa come documento PDF. La fattura di vendita viene rimossa dall'elenco delle fatture di vendita e sostituita con un nuovo documento nell'elenco delle fatture di vendita registrate.  
 
-### <a name="calculating-invoice-discounts-on-sales"></a><a name="calculating-invoice-discounts-on-sales"></a>Calcolo degli sconti fattura per le vendite
+### <a name="calculating-invoice-discounts-on-sales"></a><a name="calculating-invoice-discounts-on-sales"></a><a name="calculating-invoice-discounts-on-sales"></a>Calcolo degli sconti fattura per le vendite
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a><a name="posted-invoices"></a>Fatture registrate
+## <a name="posted-invoices"></a><a name="posted-invoices"></a><a name="posted-invoices"></a>Fatture registrate
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -100,7 +100,7 @@ I movimenti articolo e di contabilità cliente sono ora creati nel sistema e la 
 
 [Apri l'elenco **Fatture vendite registrate**](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="registering-payments"></a><a name="registering-payments"></a>Registrazione dei pagamenti
+## <a name="registering-payments"></a><a name="registering-payments"></a><a name="registering-payments"></a>Registrazione dei pagamenti
 
 In base alle esigenze aziendali, è possibile ottenere pagato e registrare un pagamento in diversi modi: manualmente, in modo automatico e tramite i servizi di pagamento.  
 
@@ -115,13 +115,13 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 > [!TIP]
 > Se si desidera inviare ai clienti solleciti per pagamenti in ritardo, è necessario impostare i livelli e i termini di sollecito. Ulteriori informazioni in [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers"></a><a name="external-document-numbers"></a>Numeri di documento esterno
+## <a name="external-document-numbers"></a><a name="external-document-numbers"></a><a name="external-document-numbers"></a>Numeri di documento esterno
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index).
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

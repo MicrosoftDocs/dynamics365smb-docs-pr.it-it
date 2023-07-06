@@ -11,13 +11,13 @@ ms.search.form: '5610, 5611'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manage-budgets-for-fixed-assets"></a><a name="manage-budgets-for-fixed-assets"></a>Gestione dei budget per i cespiti
+# <a name="manage-budgets-for-fixed-assets"></a><a name="manage-budgets-for-fixed-assets"></a><a name="manage-budgets-for-fixed-assets"></a>Gestione dei budget per i cespiti
 
 È possibile impostare i cespiti previsti. Ad esempio, ciò consente di includere qualsiasi vendita o acquisto previsto nei report.  
 
 Per preparare una stima di estratto conto, di conto di bilancio o un budget di cassa occorre disporre di informazioni relative agli investimenti futuri, alle cessioni e all'ammortamento dei cespiti. Queste informazioni sono reperibili nel report **Cespite - Valore previsto**. Prima di stampare questo report occorre preparare il budget.  
 
-## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a><a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>Per prevedere i costi di acquisto di un cespite
+## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a><a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a><a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>Per prevedere i costi di acquisto di un cespite
 
 Al fine di preparare un budget occorre impostare le schede cespiti per i cespiti che si desidera acquistare in futuro. I cespiti del budget vengono impostati come cespiti generici, ma è necessario impostarli in modo che non venga effettuata la registrazione nella contabilità generale.
 
@@ -28,7 +28,7 @@ Durante la registrazione del costo di acquisto, immettere il numero del cespite 
 3. Selezionare la casella di controllo **Cespite previsto** per evitare la registrazione nella contabilità generale.
 4. Compilare i campi rimanenti, assegnare un registro beni ammortizzabili e registrare il primo costo di acquisto con il cespite previsto immesso nel campo **Nr. cespite previsto** nella riga delle registrazioni. Per ulteriori informazioni, vedere [Acquisire i cespiti](fa-how-acquire.md).
 
-## <a name="to-budget-the-disposal-of-a-fixed-asset"></a><a name="to-budget-the-disposal-of-a-fixed-asset"></a>Per prevedere la cessione di un cespite
+## <a name="to-budget-the-disposal-of-a-fixed-asset"></a><a name="to-budget-the-disposal-of-a-fixed-asset"></a><a name="to-budget-the-disposal-of-a-fixed-asset"></a>Per prevedere la cessione di un cespite
 
 Nel caso in cui si progetti la vendita di cespiti all'interno del periodo di budget è possibile immettere informazioni relative al prezzo di vendita e alla data di vendita.
 
@@ -36,7 +36,7 @@ Nel caso in cui si progetti la vendita di cespiti all'interno del periodo di bud
 2. Selezionare il cespite da cedere e scegliere l'azione **Registri beni ammortizz.**.
 3. Nella pagina **Registro beni amm. cespiti** compilare i campi **Data cessione prev.** e **Proventi di cessione previsti**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-projected-disposal-values"></a><a name="to-view-projected-disposal-values"></a>Per visualizzare i valori di cessione previsti
+## <a name="to-view-projected-disposal-values"></a><a name="to-view-projected-disposal-values"></a><a name="to-view-projected-disposal-values"></a>Per visualizzare i valori di cessione previsti
 
 Per visualizzare i valori di cessione previsti e calcolare i profitti e perdite è possibile utilizzare il report **Cespite - Valore Previsto**.
 
@@ -44,7 +44,7 @@ Per visualizzare i valori di cessione previsti e calcolare i profitti e perdite 
 2. Compilare i campi, se necessario.
 3. Selezionare il pulsante **Stampa** o **Anteprima**.
 
-## <a name="to-budget-depreciation"></a><a name="to-budget-depreciation"></a>Per prevedere l'ammortamento
+## <a name="to-budget-depreciation"></a><a name="to-budget-depreciation"></a><a name="to-budget-depreciation"></a>Per prevedere l'ammortamento
 
 Utilizzare il report **Cespite - Valore Previsto** per calcolare l'ammortamento futuro. Il report mostra il valore contabile e l'ammortamento accumulato all'inizio del periodo selezionato, le modifiche apportate durante il periodo, il valore contabile e l'ammortamento accumulato alla fine del periodo selezionato.
 
@@ -54,9 +54,9 @@ Utilizzare il report **Cespite - Valore Previsto** per calcolare l'ammortamento 
 4. Non compilare la Scheda dettaglio **Cespite** in modo che vengano inclusi tutti i cespiti. Nel campo **Cespite previsto** immettere **No** per escludere i cespiti previsti o **Sì** per visualizzare solo i cespiti previsti.
 5. Seleziona il pulsante **Stampa** o **Anteprima**.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/budget-fixed-assets/)
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  

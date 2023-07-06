@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 06/23/2021
 ms.author: jswymer
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a><a name="accessibility-and-keyboard-shortcuts"></a>Accessibilità e tasti di scelta rapida
+# <a name="accessibility-and-keyboard-shortcuts"></a><a name="accessibility-and-keyboard-shortcuts"></a><a name="accessibility-and-keyboard-shortcuts"></a>Accessibilità e tasti di scelta rapida
 
 In questo articolo vengono fornite informazioni sulle funzionalità che rendono [!INCLUDE[prod_short](includes/prod_short.md)] disponibile per gli utenti con esigenze particolari. [!INCLUDE[prod_short](includes/prod_short.md)] supporta le seguenti funzionalità di accessibilità:  
 
@@ -26,7 +26,7 @@ In questo articolo vengono fornite informazioni sulle funzionalità che rendono 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="navigation"></a><a name="navigation"></a><a name="Navigation"></a> Spostamento
+## <a name="navigation"></a><a name="navigation"></a><a name="navigation"></a><a name="Navigation"></a> Spostamento
   
 Puoi utilizzare diverse combinazioni dei tasti TAB, MAIUSC e di direzione della tastiera per spostarti tra gli elementi di una pagina. Gli elementi includono azioni, campi e colonne, parti e altri controlli. In generale, premi <kbd>Tab</kbd> o <kbd>MAIUSC</kbd>+<kbd>Tab</kbd> per passare all'elemento successivo o precedente.
 
@@ -34,29 +34,29 @@ Quando si evidenzia un'area che contiene azioni, come la barra di spostamento ne
 
 Utilizzando l'ordine delle schede è inoltre possibile passare, ad esempio, dalla pagina principale del browser alle finestre di dialogo che richiedono conferma o alla pagina di accesso.  
 
-## <a name="headings-in-content"></a><a name="headings-in-content"></a><a name="Headings"></a> Intestazioni nel contenuto
+## <a name="headings-in-content"></a><a name="headings-in-content"></a><a name="headings-in-content"></a><a name="Headings"></a> Intestazioni nel contenuto
 
 L'origine HTML per il contenuto di [!INCLUDE[prod_short](includes/prod_short.md)] utilizza tag per aiutare gli utenti della tecnologia per l'accessibilità a comprendere la struttura e il contenuto della pagina. Ad esempio, nelle pagine di elenchi, le colonne vengono definite in tag TH e le intestazioni di colonna sono impostate con l'attributo TITLE all'interno del tag. Le didascalie per elementi quali Schede dettaglio, Riquadri Dettaglio informazioni e campi sono incluse nei tag delle intestazioni (H1, H2, H3 e H4).  
 
-## <a name="image-and-links"></a><a name="image-and-links"></a><a name="Images"></a> Immagine e collegamenti
+## <a name="image-and-links"></a><a name="image-and-links"></a><a name="image-and-links"></a><a name="Images"></a> Immagine e collegamenti
 
 Un testo descrittivo per le immagini è impostato con l'attributo ALT all'interno del tag IMG. Un testo descrittivo per i collegamenti ipertestuali è impostato con l'attributo TITLE all'interno del tag A.  
 
-## <a name="assistive-technologies"></a><a name="assistive-technologies"></a><a name="AssistiveTech"></a> Tecnologie per l'accessibilità
+## <a name="assistive-technologies"></a><a name="assistive-technologies"></a><a name="assistive-technologies"></a><a name="AssistiveTech"></a> Tecnologie per l'accessibilità
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta diverse tecnologie per l'accessibilità, ad esempio il contrasto elevato, le utilità per la lettura dello schermo e il software di riconoscimento vocale. Alcune tecnologie per l'accessibilità potrebbero non funzionare correttamente con determinati elementi nelle pagine di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="zoom"></a><a name="zoom"></a><a name="zoom"></a> Zoom
+## <a name="zoom"></a><a name="zoom"></a><a name="zoom"></a><a name="zoom"></a> Zoom
 
 La maggior parte dei browser utilizza tasti di scelta rapida standard per ingrandire e ridurre la pagina corrente. Questi tasti di scelta rapida non sono specifici per [!INCLUDE [prod_short](includes/prod_short.md)], ma funzionano quando si utilizza [!INCLUDE [prod_short](includes/prod_short.md)] in un browser. Per un elenco dei tasti di scelta rapida supportati, vedere [Tasti di scelta rapida per ingrandire e ridurre](keyboard-shortcuts.md#zoomshortcuts).
 
-## <a name="tooltips"></a><a name="tooltips"></a>Descrizioni comando
+## <a name="tooltips"></a><a name="tooltips"></a><a name="tooltips"></a>Descrizioni comando
 
 Le descrizioni comando sono disponibili sulla maggior parte degli elementi dell'interfaccia utente, come campi e colonne della pagina, azioni, riquadri pile e grafici. Una descrizione comando fornisce un testo aggiuntivo che descrive un elemento per comprenderne meglio lo scopo. 
 
 È possibile accedere alle descrizioni comandi in modi diversi, a seconda del client (Web o mobile) e del dispositivo utilizzato. Utilizzare la tabella seguente come riferimento. Alcune descrizioni comando possono essere lette dalle utilità per la lettura dello schermo. In questo caso, accedere alle descrizioni comando come descritto nella tabella, quindi utilizzare l'utilità per la lettura dello schermo per navigare alla descrizione come si farebbe con qualsiasi altro elemento.
 
-#### <a name="accessing-tooltips"></a><a name="accessing-tooltips"></a>Accesso alle descrizioni comando
+#### <a name="accessing-tooltips"></a><a name="accessing-tooltips"></a><a name="accessing-tooltips"></a>Accesso alle descrizioni comando
 
 |Elemento|Azione del mouse per client Web|Tasti di scelta rapida per client Web|Movimento touch su tablet/telefono per app per dispositivi mobili|Supporto di utilità per la lettura dello schermo|
 |-------|-----------------|------------|--------------------------|---------------------|
@@ -73,11 +73,11 @@ Le descrizioni comando sono disponibili sulla maggior parte degli elementi dell'
 
 -->
 
-## <a name="for-more-accessibility-information"></a><a name="for-more-accessibility-information"></a>Per ulteriori informazioni sull'accessibilità
+## <a name="for-more-accessibility-information"></a><a name="for-more-accessibility-information"></a><a name="for-more-accessibility-information"></a>Per ulteriori informazioni sull'accessibilità
 
 È possibile trovare informazioni aggiuntive sull'accessibilità con i prodotti Microsoft e le tecnologie per l'accessibilità sul sito Web [Accessibilità di Microsoft](https://go.microsoft.com/fwlink/?LinkId=262160).
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

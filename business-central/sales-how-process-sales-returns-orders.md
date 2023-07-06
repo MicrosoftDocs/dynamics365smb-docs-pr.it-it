@@ -11,13 +11,13 @@ ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
 ---
-# <a name="process-sales-return-orders"></a><a name="process-sales-return-orders"></a>Elaborare gli ordini di restituzione delle vendite
+# <a name="process-sales-return-orders"></a><a name="process-sales-return-orders"></a><a name="process-sales-return-orders"></a>Elaborare gli ordini di restituzione delle vendite
 
 Se hai bisogno di un maggiore controllo del processo di ritorno delle vendite, come i documenti di magazzino per la gestione degli articoli, o una migliore visione d'insieme quando ricevi articoli da più documenti di vendita con un ritorno delle vendite, allora puoi creare ordini di ritorno delle vendite. Un ordine di reso da vendita genera automaticamente la nota di credito di vendite e altri documenti correlati ai resi, ad esempio un ordine di vendita di sostituzione, se necessario.
 
 Oltre alla fattura di vendita registrata originale, è possibile collegare la nota di credito di vendita o l'ordine di reso da vendita ad altri documenti di vendita, ad esempio un'altra fattura di vendita registrata, in quanto il cliente restituisce anche gli articoli consegnati con la fattura.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a><a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Creare un ordine di ritorno delle vendite basato su uno o più documenti di vendita inviati
+## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a><a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a><a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Creare un ordine di ritorno delle vendite basato su uno o più documenti di vendita inviati
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini reso vendita**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.  
@@ -67,7 +67,7 @@ Oltre alla fattura di vendita registrata originale, è possibile collegare la no
 10. Nella pagina **Ordine reso di vendita**, nel campo **Cod. causa di reso** di ciascuna riga, selezionare il motivo del reso.
 11. Scegliere l'azione **Registra**.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a><a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Per creare un ordine di vendita sostitutivo da un reso dell'ordine di vendita
+## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a><a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a><a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Per creare un ordine di vendita sostitutivo da un reso dell'ordine di vendita
 Si potrebbe decidere di compensare un cliente per un articolo venduto sostituendo l'articolo. La sostituzione può essere effettuata con lo stesso articolo o con un articolo differente. Questa situazione potrebbe presentarsi, ad esempio, se è stato erroneamente spedito l'articolo sbagliato.  
 
 1. Nella pagina **Ordine reso di vendita** per un processo di reso attivo, su una riga vuota, creare un movimento negativo per l'articolo in sostituzione immettendo un importo negativo nel campo **Quantità**.  
@@ -75,7 +75,7 @@ Si potrebbe decidere di compensare un cliente per un articolo venduto sostituend
 3. Nella pagina **Muovi righe vendite negative** compilare i campi secondo le necessità.
 4. Scegliere il pulsante **OK**. La riga negativa per l'articolo in sostituzione verrà eliminata dall'ordine di reso vendita e inserita in una nuova pagina **Ordine vendita**. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a><a name="to-create-return-related-documents-from-a-sales-return-order"></a>Per creare documenti relativi al reso da un ordine di reso vendita
+## <a name="to-create-return-related-documents-from-a-sales-return-order"></a><a name="to-create-return-related-documents-from-a-sales-return-order"></a><a name="to-create-return-related-documents-from-a-sales-return-order"></a>Per creare documenti relativi al reso da un ordine di reso vendita
 È possibile creare automaticamente ordini di vendita di sostituzione, ordini di reso acquisto e ordini di acquisto di sostituzione durante il processo di reso da vendita. Ciò risulta utile, ad esempio, in situazioni in cui si desidera gestire articoli coperti da garanzia del fornitore.
 
 1. Nella pagina **Ordine reso di vendita** per un processo di reso attivo, scegliere l'azione **Crea documenti collegati-resi**.
@@ -84,7 +84,7 @@ Si potrebbe decidere di compensare un cliente per un articolo venduto sostituend
 4. Se è necessario ordinare un articolo dal fornitore, selezionare la casella di controllo **Crea ordini di acquisto**.
 5. Se è necessario creare un ordine di vendita di sostituzione, selezionare la casella di controllo **Crea ordine di vendita**.
 
-## <a name="to-create-a-restock-charge"></a><a name="to-create-a-restock-charge"></a>Per creare una spesa di ristoccaggio
+## <a name="to-create-a-restock-charge"></a><a name="to-create-a-restock-charge"></a><a name="to-create-a-restock-charge"></a>Per creare una spesa di ristoccaggio
 Si potrebbe decidere di addebitare al cliente una commissione di ristoccaggio per coprire i costi di gestione fisica della resa dell'articolo. Ciò si potrebbe verificare, ad esempio, se il cliente ha per sbaglio ordinato un articolo errato oppure ha cambiato idea in seguito alla ricezione dell'articolo venduto.
 
 È possibile registrare questo costo aumentato come addebito articolo in una nota di credito o in un ordine di reso e assegnarlo alla spedizione registrata. Quanto segue descrive questo per un ordine di restituzione delle vendite, ma gli stessi passi si applicano a un promemoria di credito di vendita.
@@ -95,9 +95,9 @@ Si potrebbe decidere di addebitare al cliente una commissione di ristoccaggio pe
 
 Durante la registrazione dell'ordine di reso da vendita, la spesa di ristoccaggio viene aggiunta all'importo del movimento di vendita corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Vedi anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedi anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a><a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Procedura dettagliata: Creare un ordine di produzione confermato e modificarlo
+# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a><a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a><a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Procedura dettagliata: Creare un ordine di produzione confermato e modificarlo
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee per utilizzare gli ordini di produzione.  
 
-## <a name="scenario"></a><a name="scenario"></a>Scenario
+## <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Scenario
 
 Eduardo, l'addetto alla pianificazione di produzione di Contoso Coffee, deve creare un nuovo ordine di produzione per 10 unità dell'articolo **SP-SCM1009, Airpot** che deve essere pronto per il 28 aprile. Eduardo lo programma a ritroso e conferma che può iniziare l'ordine il 27 aprile.  
 
 Poco dopo aver terminato questa attività, a Eduardo viene chiesto di aumentare l'ordine a 50 unità. Quando esegue questa operazione, la funzionalità di pianificazione a ritroso sposta la data di inizio dell'ordine troppo presto. Quindi Eduardo anticipa l'ordine dal 23 aprile al fine di determinare una data di fine più realistica.  
 
-## <a name="steps"></a><a name="steps"></a>Passaggi
+## <a name="steps"></a><a name="steps"></a><a name="steps"></a>Passaggi
 
 1. Crea l'ordine di produzione iniziale per 10 unità dell'articolo **SP-SCM1009, Airpot**.
 
@@ -58,6 +58,6 @@ Poco dopo aver terminato questa attività, a Eduardo viene chiesto di aumentare 
 
 Il nuovo ordine di produzione è ora impostato e le esigenze di Eduardo sono soddisfatte.  
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

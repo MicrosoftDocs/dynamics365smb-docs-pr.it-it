@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-and-planning"></a><a name="design-details-item-tracking-and-planning"></a>Dettagli di progettazione: Tracciabilità articolo e pianificazione
+# <a name="design-details-item-tracking-and-planning"></a><a name="design-details-item-tracking-and-planning"></a><a name="design-details-item-tracking-and-planning"></a>Dettagli di progettazione: Tracciabilità articolo e pianificazione
 Poiché sono memorizzati nel sistema di prenotazione, i numeri di tracciabilità degli articoli sono completamente coordinati con i record di tracciabilità degli ordini. Ciò significa che agli articoli con record di tracciabilità ordini possono essere assegnati numeri di tracciabilità articoli. Al contrario, gli articoli con numeri di tracciabilità articolo possono diventare record di tracciabilità ordini. Per altre informazioni, vedere [Dettagli di progettazione - Progettazione tracciabilità articolo](design-details-item-tracking-design.md).
 
 Per ulteriori informazioni sui sistemi integrati, vedere [Dettagli di progettazione - Prenotazioni, monitoraggio degli ordini e messaggi di azione](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -35,7 +35,7 @@ Per gli articoli che utilizzano la tracciabilità specifica degli articoli, tutt
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione - Trasferimenti nella pianificazione](design-details-transfers-in-planning.md).
 
-## <a name="balancing-demand-and-supply"></a><a name="balancing-demand-and-supply"></a>Bilanciamento della domanda e dell'offerta
+## <a name="balancing-demand-and-supply"></a><a name="balancing-demand-and-supply"></a><a name="balancing-demand-and-supply"></a>Bilanciamento della domanda e dell'offerta
 Se un articolo richiede la tracciabilità di un articolo specifico, viene creato un collegamento di tracciabilità dell'ordine da tutta la domanda di tracciabilità dell'articolo a qualsiasi offerta di tracciabilità articolo corrispondente, con l'unica limitazione che l'offerta deve essere preceduta dalla domanda. Se, in tali circostanze, non viene trovata alcuna offerta di tracciabilità articolo che corrisponde alla domanda specifica di tracciabilità articolo, viene immediatamente creata una nuova offerta di tracciabilità articolo senza considerare il dimensionamento dell'ordine, i parametri di pianificazione o la riprogrammazione dell'offerta esistente dello stesso numero di serie o di lotto.
 
 Se i numeri di tracciabilità degli articoli vengono assegnati sul lato della domanda o sul lato dell'offerta senza richiedere la tracciabilità specifica degli articoli, viene creato un collegamento di tracciabilità dell'ordine dalla domanda a quell'offerta, in base alla tempistica e alla quantità più adatte, come nella normale procedura di bilanciamento. Il numero di tracciabilità articolo specificato viene inserito nel record di tracciabilità ordine nello stesso modo in cui qualsiasi quantità di tracciabilità articolo specificata definisce un'estremità del collegamento di tracciabilità ordine. Ciò significa che il numero di tracciabilità dell'articolo inserito viene conservato mentre fa anche parte del record di tracciabilità dell'ordine.
@@ -44,7 +44,7 @@ Se i numeri di tracciabilità degli articoli vengono assegnati sul lato dell'off
 
 Per altre informazioni, vedere [Dettagli di progettazione - Bilanciamento della domanda e dell'offerta](design-details-balancing-demand-and-supply.md).  
 
-## <a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
 [Dettagli di progettazione: Progettazione tracciabilità articolo](design-details-item-tracking-design.md)  
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)  
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)   
