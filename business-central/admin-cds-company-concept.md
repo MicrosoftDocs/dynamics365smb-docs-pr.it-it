@@ -11,12 +11,12 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="data-ownership-models"></a><a name="data-ownership-models"></a><a name="data-ownership-models"></a>Modelli di proprietà dei dati
+# <a name="data-ownership-models"></a>Modelli di proprietà dei dati
 
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] richiede di specificare un proprietario per i dati archiviati. Per ulteriori informazioni, vedi [Tipi di tabelle](/powerapps/maker/data-platform/types-of-entities) nella documentazione di Power Apps. Quando si imposta l'integrazione tra [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)] è necessario scegliere la proprietà **Utente o team** per i record sincronizzati. Le azioni che possono essere eseguite su questi record possono essere controllate a livello di utente. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
-## <a name="team-ownership"></a><a name="team-ownership"></a><a name="team-ownership"></a>Proprietà del team
+## <a name="team-ownership"></a>Proprietà del team
 In [!INCLUDE[prod_short](includes/prod_short.md)], una società è una persona giuridica e una tabella aziendale che offre modi per proteggere e visualizzare i dati aziendali. Gli utenti lavorano sempre nel contesto di una società. In [!INCLUDE[prod_short](includes/cds_long_md.md)] ciò che più si avvicina a questo concetto è la tabella Business Unit, che non ha implicazioni legali o commerciali.
 
 Poiché le Business Unit non hanno implicazioni legali e commerciali, non è possibile forzare una mappatura uno a uno (1: 1) per sincronizzare i dati tra una società e una Business Unit, a senso unico o bidirezionale. Per rendere possibile la sincronizzazione, quando si abilita la sincronizzazione per una società in [!INCLUDE[prod_short](includes/prod_short.md)], succede quanto segue in [!INCLUDE[prod_short](includes/cds_long_md.md)]:
@@ -50,21 +50,21 @@ La sincronizzazione determina a quale team devono appartenere i record. Questo �
 > [!NOTE]
 > I record diventano di sola lettura dopo che una società è stata aggiunta e salvata, quindi assicurati di scegliere la società corretta.
 
-## <a name="choosing-a-different-business-unit"></a><a name="choosing-a-different-business-unit"></a><a name="choosing-a-different-business-unit"></a>Scelta di una Business Unit diversa
+## <a name="choosing-a-different-business-unit"></a>Scelta di una Business Unit diversa
 È possibile modificare la selezione della Business Unit se si utilizza il modello di proprietà Team. Se si utilizza il modello di proprietà Persona, la Business Unit predefinita è sempre selezionata. 
 
 Se si sceglie un'altra Business Unit, ad esempio quella creata in precedenza in [!INCLUDE[prod_short](includes/cds_long_md.md)], manterrà il nome originale. Cioè, non verrà aggiunto il suffisso con l'ID società. Creeremo un team che utilizza la convenzione di denominazione.
 
 Quando si cambia una Business Unit, è possibile scegliere solo le Business Unit che si trovano a un livello al di inferiore alla Business Unit principale.
 
-## <a name="person-ownership"></a><a name="person-ownership"></a><a name="person-ownership"></a>Proprietà della persona
+## <a name="person-ownership"></a>Proprietà della persona
 Se scegli il modello di proprietà Persona, devi specificare ciascun venditore che sarà proprietario di nuovi record. La Business Unit e il team vengono creati come descritto nella sezione precedente [Proprietà del team](admin-cds-company-concept.md#team-ownership).
 
 La Business Unit predefinita viene utilizzata quando viene scelto il modello di proprietà Persona e non è possibile scegliere un'altra Business Unit. Il team associato alla Business Unit predefinita disporrà di record per tabelle comuni, come la tabella Prodotto, che non sono correlate a specifici venditori.
 
 Quando si associano gli agenti in [!INCLUDE[prod_short](includes/prod_short.md)] agli utenti in [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)] aggiungerà l'utente al team predefinito in [!INCLUDE[prod_short](includes/cds_long_md.md)]. È possibile verificare che gli utenti siano stati aggiunti guardando la colonna **Membro del team predefinito** nella pagina **Utenti - Common Data Service**. Se l'utente non viene aggiunto, è possibile aggiungerlo manualmente utilizzando l'azione **Aggiungi utenti associati al team**. Per ulteriori informazioni, vedere [Sincronizzazione dei dati in Business Central con Dataverse](admin-synchronizing-business-central-and-sales.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Informazioni su [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

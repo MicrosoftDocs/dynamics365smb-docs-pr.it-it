@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="sell-items-assembled-to-order"></a><a name="sell-items-assembled-to-order"></a><a name="sell-items-assembled-to-order"></a>Vendere articoli assemblati su ordine
+# <a name="sell-items-assembled-to-order"></a>Vendere articoli assemblati su ordine
 
 Non è previsto che gli articoli che sono configurati per assemblaggio su ordine siano in magazzino e verranno assemblati quando verranno inclusi in un ordine di vendita. Un articolo è impostato per l'assemblaggio su ordine quando il campo **Criteri di assemblaggio** sulla scheda articolo contiene **Assemblaggio su ordine**. Quando si immette l'articolo in una riga dell'ordine di vendita, un ordine di assemblaggio viene automaticamente creato e collegato all'ordine di vendita.  
 
@@ -28,7 +28,7 @@ In questa procedura, si elabora la vendita di un articolo che verrà assemblato 
 > [!NOTE]  
 > La procedura seguente non include i passaggi per la creazione di ordini di vendita standard prima del passaggio in cui inserisci l'articolo assemblaggio su ordine o su una riga dell'ordine di vendita. Scopri di più sulla creazione di ordini di vendita su [Vendere prodotti con un ordine di vendita al cliente](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a><a name="to-sell-an-item-that-is-assembled-to-order"></a><a name="to-sell-an-item-that-is-assembled-to-order"></a>Per vendere un articolo assemblato su ordine
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Per vendere un articolo assemblato su ordine
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Creare un ordine di vendita. 
@@ -60,9 +60,9 @@ In questa procedura, si elabora la vendita di un articolo che verrà assemblato 
 > [!NOTE]  
 > Le sostituzioni degli articoli non sostituiscono automaticamente un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Usare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)  

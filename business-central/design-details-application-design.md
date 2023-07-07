@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/26/2021
 ms.author: edupont
 ---
-# <a name="application-design-details"></a><a name="application-design-details"></a><a name="application-design-details"></a>Dettagli di progettazione dell'applicazione
+# <a name="application-design-details"></a>Dettagli di progettazione dell'applicazione
 
 Gli articoli in questa sezione contengono informazioni tecniche dettagliate sulle funzionalità di applicazioni complesse in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Il contenuto di Dettagli di progettazione è destinato a implementatori, svilupp
 |Informazioni sulla progettazione storica e corrente delle funzionalità di tracciabilità articolo e su come si integra con il sistema di impegno per includere i numeri seriali o di lotto nei calcoli della disponibilità.|[Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)|  
 |Ulteriori informazioni sulla funzione Riga di registrazione giornale di contabilità generale.|[Dettagli di progettazione: Riga di registrazione di contabilità generale](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Pianif.](production-planning.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  

@@ -11,7 +11,7 @@ ms.search.form: '1500,'
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="delete-approval-workflows"></a><a name="delete-approval-workflows"></a><a name="delete-approval-workflows"></a>Eliminare i workflow di approvazione
+# <a name="delete-approval-workflows"></a>Eliminare i workflow di approvazione
 
 È possibile eliminare un workflow che non si desidera utilizzare più. Lo stato di tutte le istanze delle fasi del workflow nel workflow devono avere stato **Completato**.
 
@@ -20,7 +20,7 @@ ms.author: edupont
 
 Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi del flusso di lavoro compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Ulteriori informazioni in [Creare workflow di approvazione](across-how-to-create-workflows.md).
 
-## <a name="delete-a-workflow"></a><a name="delete-a-workflow"></a><a name="delete-a-workflow"></a>Eliminare un flusso di lavoro
+## <a name="delete-a-workflow"></a>Eliminare un flusso di lavoro
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.
 2. Selezionare il flusso di lavoro che si desidera eliminare.
@@ -31,7 +31,7 @@ Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle r
 > [!NOTE]
 > L'eliminazione di un flusso di lavoro richiede che sia disabilitato. Per disabilitare un flusso di lavoro, aprilo nella pagina **Workflow**, quindi disattiva l'interruttore **Abilitato**.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
 [Abilitare i workflow di approvazione](across-how-to-enable-workflows.md)  

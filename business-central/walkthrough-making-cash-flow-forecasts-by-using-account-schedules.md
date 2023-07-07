@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 08/18/2022
 ms.author: edupont
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a><a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a><a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando i report finanziari
+# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Procedura dettagliata: Esecuzione di previsioni di flusso di cassa utilizzando i report finanziari
 
 In questa procedura dettagliata viene descritto come utilizzare la funzionalità dei report finanziari per effettuare previsioni del flusso di cassa. I report finanziari consentono di effettuare i calcoli che non possono essere eseguiti direttamente nel piano dei conti di cassa. Nei report finanziari puoi impostare i subtotali relativi agli incassi e alle uscite di cassa. I subtotali possono essere inclusi nei nuovi totali che potranno essere utilizzati per effettuare le previsioni del flusso di cassa.  
 
-## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
+## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
 
 In questa procedura dettagliata sono descritti i task seguenti:  
 
@@ -24,28 +24,28 @@ In questa procedura dettagliata sono descritti i task seguenti:
 - Assegnazione di una definizione di colonna a un report finanziario.  
 - Visualizzazione e stampa della previsione del flusso di cassa.  
 
-### <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Prerequisiti
+### <a name="prerequisites"></a>Prerequisiti
 
 Per completare questa procedura dettagliata, sarà necessario:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Un prospetto del flusso di cassa con righe registrate  
 
-## <a name="roles"></a><a name="roles"></a><a name="roles"></a>Ruoli
+## <a name="roles"></a>Ruoli
 
 Questa procedura dettagliata comprende task svolti dal ruolo utente seguente:  
 
 - Controller  
 
-## <a name="story"></a><a name="story"></a><a name="story"></a>Scenario
+## <a name="story"></a>Scenario
 
 Ken è un manager presso CRONUS che effettua previsioni del flusso di cassa mensili. Ken include interessi, vendite, acquisti e cespiti nelle previsioni e presenta alla DF Sara per un'opinione in merito.  
 
-## <a name="setting-up-a-new-financial-report-name"></a><a name="setting-up-a-new-financial-report-name"></a><a name="setting-up-a-new-financial-report-name"></a>Impostazione di un nuovo nome del report finanziario
+## <a name="setting-up-a-new-financial-report-name"></a>Impostazione di un nuovo nome del report finanziario
 
 Il nome del report finanziario è il nome assegnato alla previsione del flusso di cassa che include una serie di righe definite e una definizione di colonna.  
 
-### <a name="set-up-a-new-financial-report-name"></a><a name="set-up-a-new-financial-report-name"></a><a name="set-up-a-new-financial-report-name"></a>Impostare un nuovo nome del report finanziario
+### <a name="set-up-a-new-financial-report-name"></a>Impostare un nuovo nome del report finanziario
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Report finanziari**, quindi scegli il collegamento correlato.  
 2. Sulla pagina **Report finanziari** scegli **Nuovo** per creare un nuovo nome per il report finanziario del flusso di cassa.  
@@ -53,11 +53,11 @@ Il nome del report finanziario è il nome assegnato alla previsione del flusso d
 4. Nel campo **Descrizione** immettere **Previsione flusso di cassa**.  
 5. Lascia i campi **Definizione riga** e **Definizione colonna** vuoti.
 
-## <a name="setting-up-row-definition-lines"></a><a name="setting-up-row-definition-lines"></a><a name="setting-up-row-definition-lines"></a>Impostazione delle righe di definizione di riga
+## <a name="setting-up-row-definition-lines"></a>Impostazione delle righe di definizione di riga
 
 Dopo aver impostato il nome di un report finanziario, Ken definisce ogni riga nel report finanziario del flusso di cassa. Definisce le righe che possono essere visualizzate nei report, nonché le righe utilizzate solo per scopi di calcolo.  
 
-### <a name="set-up-row-definition-lines"></a><a name="set-up-row-definition-lines"></a><a name="set-up-row-definition-lines"></a>Impostare le righe di definizione di riga
+### <a name="set-up-row-definition-lines"></a>Impostare le righe di definizione di riga
 
 1. Sulla pagina **Report finanziari** seleziona il nuovo report finanziario **Previsione** che hai creato, quindi scegli l'azione **Modifica definizione riga**.  
 2. Nella pagina **Definizione riga** immetti ogni riga come indicato nella tabella riportata di seguito.  
@@ -93,7 +93,7 @@ Dopo aver impostato il nome di un report finanziario, Ken definisce ogni riga ne
     > [!NOTE]
     > Il numero di riga R10 viene utilizzato per acquisire i totali conto relativi alla contabilità clienti. Il numero di riga R20 viene utilizzato per calcolare la somma di tutti gli incassi. Il numero di riga R30 viene utilizzato per acquisire i totali conto relativi alla contabilità fornitori. Il numero di riga R40 viene utilizzato per calcolare la somma di tutte le uscite di cassa. Il numero di riga R50 viene utilizzato per acquisire la somma del surplus di cassa. Il numero di riga R60 viene utilizzato per acquisire i fondi liquidi. Il numero di riga R70 viene utilizzato per calcolare il flusso di cassa previsto.
 
-## <a name="setting-up-a-new-column-definition"></a><a name="setting-up-a-new-column-definition"></a><a name="setting-up-a-new-column-definition"></a>Impostazione di una nuova definizione di colonna
+## <a name="setting-up-a-new-column-definition"></a>Impostazione di una nuova definizione di colonna
 
 Prima di stampare la previsione del flusso di cassa, Ken deve creare la definizione di colonna per le informazioni numeriche. Nelle colonne definisce le informazioni che vuole utilizzare dalle righe.
 
@@ -102,7 +102,7 @@ Prima di stampare la previsione del flusso di cassa, Ken deve creare la definizi
 - La terza colonna è contrassegnata dal numero *C30* con il titolo **Anno intero** e contiene il saldo periodo nei saldi dell'intero anno fiscale.  
 - Ken assegna infine la definizione di colonna come opzione predefinita per il report finanziario **Previsione**.  
 
-### <a name="set-up-a-new-column-definition"></a><a name="set-up-a-new-column-definition"></a><a name="set-up-a-new-column-definition"></a>Impostare una nuova definizione di colonna
+### <a name="set-up-a-new-column-definition"></a>Impostare una nuova definizione di colonna
 
 1. Sulla pagina **Report finanziari** seleziona il nome del nuovo report finanziario **Previsione** che hai creato. Nel gruppo **Processo** della scheda **Pagina iniziale** scegli **Modifica definizione colonna**.
 
@@ -118,24 +118,24 @@ Prima di stampare la previsione del flusso di cassa, Ken deve creare la definizi
     |C20|Importo fino alla data|Saldo alla data|Movimenti|Importo netto|Sempre|  
     |C30|Anno fiscale intero|Anno fiscale intero|Movimenti|Importo netto|Sempre|
 
-## <a name="assigning-the-column-definition-to-the-financial-report-name"></a><a name="assigning-the-column-definition-to-the-financial-report-name"></a><a name="assigning-the-column-definition-to-the-financial-report-name"></a>Assegnazione della definizione di colonna al nome del report finanziario
+## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Assegnazione della definizione di colonna al nome del report finanziario
 
 Ken è ora pronto per assegnare la definizione di colonna al nome del report finanziario.  
 
-### <a name="assign-the-column-definition-to-the-financial-report-name"></a><a name="assign-the-column-definition-to-the-financial-report-name"></a><a name="assign-the-column-definition-to-the-financial-report-name"></a>Assegnare la definizione di colonna al nome del report finanziario
+### <a name="assign-the-column-definition-to-the-financial-report-name"></a>Assegnare la definizione di colonna al nome del report finanziario
 
 1. Sulla pagina **Report finanziari** seleziona il nuovo report finanziario **Previsione**, quindi scegli l'azione **Modifica definizione colonna**.  
 2. Nel campo **Nome** seleziona la definizione di colonna **Flusso di cassa** da assegnare come definizione di colonna predefinita.  
 
-## <a name="view-and-print-the-cash-flow-forecast"></a><a name="view-and-print-the-cash-flow-forecast"></a><a name="view-and-print-the-cash-flow-forecast"></a>Visualizzare e stampare la previsione del flusso di cassa
+## <a name="view-and-print-the-cash-flow-forecast"></a>Visualizzare e stampare la previsione del flusso di cassa
 
 1. Sulla pagina **Report finanziari** scegli il report finanziario **Previsione** per visualizzare la previsione del flusso di cassa.  
 2. Nella pagina **Report finanziario** è possibile selezionare un importo e quindi visualizzare i movimenti di previsione del flusso di cassa che compongono l'importo. Inoltre, è possibile visualizzare la formula utilizzata per calcolare l'importo. È anche possibile filtrare gli importi per data e dimensioni.  
 3. Scegliere l'azione **Stampa** per stampare la previsione del flusso di cassa.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare i report finanziari](bi-how-work-account-schedule.md)  
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  

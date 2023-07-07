@@ -11,7 +11,7 @@ ms.search.form: '175, 176, 177, 178, 456, 460, 5727, 5729'
 ms.date: 08/30/2022
 ms.author: edupont
 ---
-# <a name="setting-up-purchasing"></a><a name="setting-up-purchasing"></a><a name="setting-up-purchasing"></a>Impostazioni acquisti
+# <a name="setting-up-purchasing"></a>Impostazioni acquisti
 
 Prima di poter gestire i processi di acquisto, è necessario configurare le regole e i valori che definiscono i criteri di acquisto dell'azienda.
 
@@ -21,11 +21,11 @@ Una serie di attività specifiche correlate alla registrazione di nuovi fornitor
 
 L'impostazione degli acquisti correlata all'aspetto contabile, come i metodi di pagamento e le valute, è descritta nella sezione Impostazione degli aspetti finanziari. Per ulteriori informazioni, vedi [Impostazione degli aspetti finanziari](finance-setup-finance.md). Allo stesso modo, l'impostazione dell'acquisto relativo all'inventario, come le unità di misura e i codici di tracciabilità degli articoli, può essere trovata nella [sezione Setup magazzino](inventory-setup-inventory.md).
 
-## <a name="purchases-and-payables-setup"></a><a name="purchases-and-payables-setup"></a><a name="purchases-and-payables-setup"></a>Setup contabilità fornitori
+## <a name="purchases-and-payables-setup"></a>Setup contabilità fornitori
 
 Prima di lavorare con la contabilità fornitori, specifica nella pagina **Setup contabilità fornitori** come vengono registrati i valori di acquisto e le numerazioni utilizzate per i fornitori e i documenti di acquisto.
 
-### <a name="general-settings"></a><a name="general-settings"></a><a name="general-settings"></a>Impostazioni generali
+### <a name="general-settings"></a>Impostazioni generali
 
 Nella Scheda dettaglio **Generale** specifichi le opzioni, quali le modalità di calcolo e di registrazione degli sconti e gli eventuali arrotondamenti delle fatture. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -37,15 +37,15 @@ Inoltre, alcuni campi cambiano il loro comportamento o dipendono da come sono im
 
 Leggi i dettagli sui campi [**Nr. doc. esterno obblig.**](#external-document-number) e [**Storno esatto costo obblig.**](#exact-cost-reversing) di seguito.
 
-### <a name="number-series-settings"></a><a name="number-series-settings"></a><a name="number-series-settings"></a>Impostazioni delle numerazioni
+### <a name="number-series-settings"></a>Impostazioni delle numerazioni
 
 Nella Scheda dettaglio **Numerazioni** è necessario specificare codici di identificazione univoci che verranno utilizzati per fornitori, fatture e altri documenti di acquisto. La numerazione è importante non solo per i processi interni, ma potrebbe anche essere necessaria per seguire le normative locali. Quindi potrebbe valere la pena considerare di impostare tutte le numerazioni nella pagina **Numerazioni** in anticipo invece di crearne di nuove in **Setup contabilità fornitori**. Per ulteriori informazioni, vedi [Creare numerazioni](ui-create-number-series.md).
 
-## <a name="external-document-number"></a><a name="external-document-number"></a><a name="external-document-number"></a>Numero di documento esterni
+## <a name="external-document-number"></a>Numero di documento esterni
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="exact-cost-reversing"></a><a name="exact-cost-reversing"></a><a name="exact-cost-reversing"></a>Storno esatto costo
+## <a name="exact-cost-reversing"></a>Storno esatto costo
 
 La funzione **Storno esatto costo obblig.** aiuta a garantire che le merci restituite siano valutate allo stesso costo di quando erano state originariamente estratte dall'inventario, utilizzando un collegamento fisso invece di seguire un metodo di determinazione dei costi FIFO (first in, first-out). Scopri di più nella sezione [Dettagli di progettazione: Collegamento fisso](design-details-item-application.md#fixed-application). Se successivamente viene aggiunto un costo addizionale all'acquisto originale, il valore del reso da acquisto verrà automaticamente aggiornato.
 
@@ -53,7 +53,7 @@ Con la funzione abilitata, una transazione di reso può essere registrata solo s
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## <a name="more-purchasing-setups"></a><a name="more-purchasing-setups"></a><a name="more-purchasing-setups"></a>Altre impostazioni di acquisto
+## <a name="more-purchasing-setups"></a>Altre impostazioni di acquisto
 
 | A | Vedere |
 | --- | --- |
@@ -70,9 +70,9 @@ Con la funzione abilitata, una transazione di reso può essere registrata solo s
 | Specificare report predefiniti da utilizzare per diversi tipi di documenti. |[Selezione report in Business Central](across-report-selections.md)|
 |Specifica se gli utenti possono registrare le fatture di acquisto e se devono registrarle insieme a una spedizione. |[Definire un criterio di registrazione delle fatture per gli utenti](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Panoramica dell'impostazione](setup.md)  

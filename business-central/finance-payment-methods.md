@@ -11,7 +11,7 @@ ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-payment-methods"></a><a name="set-up-payment-methods"></a><a name="set-up-payment-methods"></a>Impostare i metodi di pagamento
+# <a name="set-up-payment-methods"></a>Impostare i metodi di pagamento
 
 I metodi di pagamento consentono di definire il modo in cui si desidera essere pagati dai clienti e quello in cui si intende pagare i fornitori. Il metodo può variare per ogni cliente o fornitore. Esempi di metodi di pagamento tipici sono **banca**, **contanti**, **assegno**, **conto**.
 
@@ -23,7 +23,7 @@ Le note di credito per i resi, tuttavia, sono eccezioni in quanto il flusso di d
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a><a name="to-set-up-a-payment-method"></a><a name="to-set-up-a-payment-method"></a>Per impostare un metodo di pagamento
+## <a name="to-set-up-a-payment-method"></a>Per impostare un metodo di pagamento
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce alcuni metodi di pagamento utilizzati spesso dalle aziende. Puoi tuttavia aggiungere tutti quelli desiderati.
 
@@ -32,14 +32,14 @@ Le note di credito per i resi, tuttavia, sono eccezioni in quanto il flusso di d
 
 Facoltativamente, aggiungi condizioni pagamento al metodo di pagamento. Per ulteriori informazioni, vedi [Impostare le condizioni pagamento](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a><a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a><a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Per assegnare un metodo di pagamento a un cliente o un fornitore
+## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Per assegnare un metodo di pagamento a un cliente o un fornitore
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cliente** o **Fornitore**, quindi scegli il collegamento correlato.
 2. Nel campo **Codice metodo di pagamento**, scegliere il metodo da utilizzare per impostazione predefinita per il cliente o il fornitore.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  
 [Impostare le condizioni pagamento](finance-payment-terms.md)  

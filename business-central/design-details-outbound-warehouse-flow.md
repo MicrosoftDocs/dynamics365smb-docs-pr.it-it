@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 11/25/2022
 ms.custom: bap-template
 ---
-# <a name="outbound-warehouse-processes"></a><a name="outbound-warehouse-processes"></a><a name="outbound-warehouse-processes"></a>Processi della warehouse in uscita
+# <a name="outbound-warehouse-processes"></a>Processi della warehouse in uscita
 
 I processi in uscita nelle warehouse iniziano quando si rilascia un documento di origine per prelevare gli articoli da un'ubicazione warehouse. Ad esempio, per spedire gli articoli da qualche parte o per spostarli in un'altra sede della società. In linea di principio, il processo di spedizione degli ordini in uscita consiste in due attività:
 
@@ -48,7 +48,7 @@ Nei metodi A, B e C, le attività di prelievo e di spedizione sono combinate in 
 > * Il prelievo di magazzino utilizzato nel metodo B, insieme alla registrazione delle informazioni di prelievo, registra anche la spedizione del documento di origine.
 > * Il prelievo warehouse utilizzato nel metodo D non può essere registrato e registra solo il prelievo. La registrazione rende gli articoli disponibili per la spedizione warehouse ma non registra la spedizione. Nel flusso in uscita, il prelievo warehouse richiede una spedizione warehouse.
 
-## <a name="no-dedicated-warehouse-activity"></a><a name="no-dedicated-warehouse-activity"></a><a name="no-dedicated-warehouse-activity"></a>Nessuna attività di warehouse dedicata
+## <a name="no-dedicated-warehouse-activity"></a>Nessuna attività di warehouse dedicata
 
 I seguenti articoli forniscono informazioni su come elaborare le ricevute per i documenti di origine se non sono disponibili attività di magazzino dedicate.
 
@@ -57,58 +57,58 @@ I seguenti articoli forniscono informazioni su come elaborare le ricevute per i 
 * [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)
 * [Creare ordini di assistenza](service-how-to-create-service-orders.md)
 
-## <a name="basic-warehouse-configurations"></a><a name="basic-warehouse-configurations"></a><a name="basic-warehouse-configurations"></a>Configurazioni warehouse di base
+## <a name="basic-warehouse-configurations"></a>Configurazioni warehouse di base
 
 Nel diagramma seguente vengono illustrati i processi warehouse in uscita per diversi tipi di documenti nelle configurazioni warehouse di base. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
 :::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Mostra i passaggi in un flusso in uscita di base in una warehouse.":::
 
-### <a name="1-release-a-source-document"></a><a name="1-release-a-source-document"></a><a name="1-release-a-source-document"></a>1: Rilasciare un documento di origine
+### <a name="1-release-a-source-document"></a>1: Rilasciare un documento di origine
 
 Quando usi l'azione **Rilascia** su un documento di origine, ad esempio un ordine di vendita o di trasferimento, gli articoli nel documento sono pronti per essere movimentati nella warehouse. Ad esempio, prelevati e stoccati nella collocazione specificata nel documento. In alternativa, puoi creare documenti di prelievo magazzino per le singole righe di ordini, in modalità push, in base alle collocazioni specificate e le quantità da gestire.  
 
-### <a name="2-create-an-inventory-pick"></a><a name="2-create-an-inventory-pick"></a><a name="2-create-an-inventory-pick"></a>2: Creare un prelievo di magazzino
+### <a name="2-create-an-inventory-pick"></a>2: Creare un prelievo di magazzino
 
 Nella pagina **Prelievo magazzino** l'addetto al magazzino recupera, in modalità pull, le righe del documento di origine. In alternativa, le righe di prelievo magazzino sono già create, in modalità push, dall'utente responsabile del documento di origine.  
 
-### <a name="3-post-an-inventory-pick"></a><a name="3-post-an-inventory-pick"></a><a name="3-post-an-inventory-pick"></a>3: Registrare un prelievo di magazzino
+### <a name="3-post-an-inventory-pick"></a>3: Registrare un prelievo di magazzino
 
 In ogni riga per gli articoli che sono stati prelevati o spostati, in parte o completamente, compila il campo **Quantità**, quindi registra il prelievo di magazzino. I documenti di origine correlati al prelievo magazzino vengono registrati come spediti o consumati.  
 
 Per i prelievi di magazzino vengono creati i movimenti contabili articoli negativi e i movimenti warehouse e viene eliminata la richiesta di prelievo, se completamente gestita. Ad esempio, il campo **Quantità spedita** nella riga del documento di origine in entrata viene aggiornato. Viene creato un documento di spedizione registrato che corrisponde all'ordine di vendita, ad esempio, e agli articoli spediti.  
 
-## <a name="advanced-warehouse-configurations"></a><a name="advanced-warehouse-configurations"></a><a name="advanced-warehouse-configurations"></a>Configurazioni avanzate della warehouse
+## <a name="advanced-warehouse-configurations"></a>Configurazioni avanzate della warehouse
 
 Nel diagramma seguente vengono illustrati i processi warehouse in uscita per diversi tipi di documenti nelle configurazioni warehouse avanzata. I numeri nel diagramma corrispondono ai passaggi indicati nelle sezioni che seguono il grafico.  
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Mostra i passaggi in un flusso in uscita in una warehouse avanzata.":::
 
-### <a name="1-release-a-source-document-1"></a><a name="1-release-a-source-document-1"></a><a name="1-release-a-source-document-1"></a>1: Rilasciare un documento di origine
+### <a name="1-release-a-source-document-1"></a>1: Rilasciare un documento di origine
 
 Il rilascio di un documento di origine nelle configurazioni avanzate è uguale a quello delle configurazioni di base. Gli articoli diventano disponibili per la movimentazione nella warehouse. Ad esempio, possono essere inclusi in una spedizione.  
 
-### <a name="2-create-a-warehouse-shipment"></a><a name="2-create-a-warehouse-shipment"></a><a name="2-create-a-warehouse-shipment"></a>2: Creare una spedizione warehouse
+### <a name="2-create-a-warehouse-shipment"></a>2: Creare una spedizione warehouse
 
 Nella pagina **Spedizione warehouse** ottieni le righe dal documento di origine rilasciato. Puoi combinare le righe di più documenti di origine in un'unica spedizione warehouse.  
 
-### <a name="3-create-a-warehouse-pick"></a><a name="3-create-a-warehouse-pick"></a><a name="3-create-a-warehouse-pick"></a>3: Creare un prelievo warehouse
+### <a name="3-create-a-warehouse-pick"></a>3: Creare un prelievo warehouse
 
 Nella pagina **Spedizione warehouse** crea le attività di prelievo warehouse per le spedizioni warehouse in uno dei due seguenti modi:
 
 - In modalità push, dove utilizzi l'azione **Crea prelievo**. Seleziona le righe da prelevare e prepara i prelievi specificando, ad esempio, le collocazioni da cui prelevare, quelle in cui inserire e il numero di unità da gestire. Le collocazioni possono essere predefinite per l'ubicazione o la risorsa warehouse.
 - In modalità pull, dove utilizzi l'azione **Rilascia**. Nella pagina **Prospetto prelievi**, i dipendenti della warehouse possono utilizzare l'azione **Prendi documenti warehouse** per ottenere i prelievi assegnati. Una volta registrati i prelievi della warehouse, le righe nel **Prospetto prelievi** vengono eliminate.
 
-### <a name="4-register-a-warehouse-pick"></a><a name="4-register-a-warehouse-pick"></a><a name="4-register-a-warehouse-pick"></a>4: Registrare un prelievo warehouse
+### <a name="4-register-a-warehouse-pick"></a>4: Registrare un prelievo warehouse
 
 Nella pagina **Prelievo warehouse** l'addetto alla warehouse compila il campo **Quantità** per ogni riga che ha prelevato in tutto o in parte, quindi registra il prelievo.
 
 I movimenti warehouse vengono creati e le righe di prelievo warehouse vengono eliminate, se la quantità è stata completamente prelevata. Il documento di prelievo warehouse rimane aperto fino a quando la quantità completa della spedizione warehouse non viene registrata. Il campo **Qtà prelevata** nelle righe di spedizione warehouse viene aggiornato di conseguenza.  
 
-### <a name="5-post-the-warehouse-shipment"></a><a name="5-post-the-warehouse-shipment"></a><a name="5-post-the-warehouse-shipment"></a>5: Registrare la spedizione warehouse
+### <a name="5-post-the-warehouse-shipment"></a>5: Registrare la spedizione warehouse
 
 Una volta che tutti gli articoli nel documento di spedizione warehouse sono registrati come prelevati, l'addetto alla warehouse registra la spedizione. La registrazione aggiorna i movimenti contabili articolo per riflettere la riduzione delle scorte. Ad esempio, il campo **Quantità spedita** nella riga del documento di origine in entrata viene aggiornato.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Warehouse Management](design-details-warehouse-management.md)  
 

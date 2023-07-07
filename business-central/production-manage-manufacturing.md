@@ -10,7 +10,7 @@ ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 932
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manufacturing"></a><a name="manufacturing"></a><a name="manufacturing"></a>Manufacturing
+# <a name="manufacturing"></a>Manufacturing
 
 > [!NOTE]
 > La funzionalità descritta in questo argomento e negli argomenti secondari è visibile solo se si dispone dell'esperienza **Premium**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
@@ -39,7 +39,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Utilizzare la pagina **Registrazioni capacità** per registrare le capacità consumate non assegnate a un ordine di produzione, ad esempio la manutenzione.|[Registrare le capacità](production-how-to-post-capacities.md)|  
 |Calcolare e rettificare il costo degli articoli di produzione terminati e dei componenti consumati ai fini della riconciliazione finanziaria.|[Informazioni sui costi di un ordine di produzione chiuso](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Pianif.](production-planning.md)  

@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-"></a><a name="power-bi-integration-component-and-architecture-overview-for-"></a><a name="power-bi-integration-component-and-architecture-overview-for-"></a>Componente di integrazione Power BI e panoramica dell'architettura per [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-"></a>Componente di integrazione Power BI e panoramica dell'architettura per [!INCLUDE[prod_short](includes/prod_short.md)]
 
 In questo articolo vengono descritti i diversi aspetti dell'integrazione Power BI con [!INCLUDE[prod_short](includes/prod_short.md)] per comprenderne l'implementazione e l'utilizzo.
 
-## <a name="components"></a><a name="components"></a><a name="components"></a>Componenti
+## <a name="components"></a>Componenti
 
 La tabella seguente descrive i principali componenti coinvolti nell'integrazione Power BI.
 
@@ -25,7 +25,7 @@ La tabella seguente descrive i principali componenti coinvolti nell'integrazione
 |Power BI Desktop|Uno strumento per la creazione di report e dashboard e consente di eseguire report. È disponibile come download gratuito su Microsoft Store e viene installato localmente.|
 |[!INCLUDE[prod_short](includes/prod_short.md)]|Soluzione online o locale con connettori esposti a Power BI e la capacità di incorporare una parte Power BI.|
 
-## <a name="whats-available-from-the-start"></a><a name="whats-available-from-the-start"></a><a name="whats-available-from-the-start"></a>Cosa è disponibile dall'inizio
+## <a name="whats-available-from-the-start"></a>Cosa è disponibile dall'inizio
 
 Nella seguente tabella vengono illustrate le funzionalità disponibili.
 
@@ -37,7 +37,7 @@ Nella seguente tabella vengono illustrate le funzionalità disponibili.
 |Report Power BI predefiniti nella Gestione ruolo utente distribuiti a Power BI|Online|
 |App Power BI in Microsoft AppSource|Online|
 
-## <a name="architecture"></a><a name="architecture"></a><a name="architecture"></a>Architettura
+## <a name="architecture"></a>Architettura
 
 [!INCLUDE[prod_short](includes/prod_short.md)] si integra con Power BI tramite un connettore utilizzando OData. L'origine dati per i report Power BI è esposta come pagine API e servizi web OData.
 
@@ -45,7 +45,7 @@ Nella seguente tabella vengono illustrate le funzionalità disponibili.
 
 A partire da febbraio 2022, i report Power BI per [!INCLUDE[prod_short](includes/prod_short.md)] online provengono da una replica del database di sola lettura secondaria. La replica del database fa parte della funzionalità [scalabilità orizzontale in lettura](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in [!INCLUDE[prod_short](includes/prod_short.md)] online. Questa configurazione libera il database principale per le transazioni, migliorando le prestazioni del sistema. La connessione alla replica del database di sola lettura è parte integrante del connettore di Business Central online e non richiede alcuna configurazione aggiuntiva da parte dell'utente. Tutti i nuovi report si collegheranno alla replica del database di sola lettura per impostazione predefinita. I vecchi report continueranno a utilizzare il database principale. Per ulteriori informazioni, vedi [Piano del secondo ciclo di rilascio del 2021 di Business Central](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
-## <a name="general-flow"></a><a name="general-flow"></a><a name="general-flow"></a>Flusso generale
+## <a name="general-flow"></a>Flusso generale
 
 Il diagramma seguente illustra il flusso di lavoro di base per gli utenti durante la connessione di [!INCLUDE[prod_short](includes/prod_short.md)] a Power BI.
 
@@ -59,9 +59,9 @@ Il diagramma seguente illustra il flusso di lavoro di base per gli utenti durant
 6. L'utente crea un report in Power BI Desktop.
 7. L'utente pubblica il report nel servizio Power BI. I report diventano anche disponibili per la selezione in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Business Central e Power BI](admin-powerbi.md)  
 [Power BI per i consumatori](/power-bi/consumer/end-user-consumer)  

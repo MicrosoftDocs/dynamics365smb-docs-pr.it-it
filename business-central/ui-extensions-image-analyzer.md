@@ -12,7 +12,7 @@ ms.date: 05/19/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-image-analyzer-extension"></a><a name="the-image-analyzer-extension"></a><a name="the-image-analyzer-extension"></a>Estensione di analisi immagini
+# <a name="the-image-analyzer-extension"></a>Estensione di analisi immagini
 
 L'estensione di analisi immagini utilizza potenti funzionalità di analisi delle immagini fornite dall'API per Azure Cognitive Services per individuare gli attributi nelle immagini importate per gli articoli e le persone di contatto, in modo da potere esaminare e assegnare questi elementi con semplicità. Per gli articoli, agli attributi possono indicare, ad esempio, se si tratta di un tavolo o un'automobile o se è di colore rosso o blu. Per i contatti, gli attributi possono riguardare il sesso o l'età.
 
@@ -22,11 +22,11 @@ L'estensione di analisi immagini è gratuita in [!INCLUDE[prod_short](includes/p
 
 Dopo che l'estensione è stata abilitata, l'analisi delle immagini viene eseguita ogni volta che si importa un'immagine in un articolo o un contatto. Verranno visualizzati gli attributi, il livello di affidabilità e i dettagli immediatamente ed è possibile decidere quali azioni intraprendere con ogni attributo. Se le immagini sono state importate prima di avere abilitato l'estensione di analisi di immagini, è necessario passare all'articolo o alle schede contatti e scegliere l'azione **Analizza immagine**.  
 
-## <a name="privacy-notice"></a><a name="privacy-notice"></a><a name="privacy-notice"></a>Informativa sulla privacy
+## <a name="privacy-notice"></a>Informativa sulla privacy
 
 Questa estensione utilizza l'API Visione artificiale di Azure Cognitive Services, che può avere livelli diversi di conformità rispetto a [!INCLUDE[prod_short](includes/prod_short.md)]. Quando si abilita l'estensione di analisi immagini, i dati del cliente quali un'immagine del contatto o un'immagine degli articoli verranno registrati nell'API Visione artificiale. Se si installa questa estensione si acconsente che questo set di dati limitato venga inviato all'API Visione artificiale. Si noti che è possibile disabilitare e disinstallare, l'estensione di analisi immagini in qualsiasi momento e interrompere utilizzo di questa funzione. Per ulteriori informazioni, vedere [Centro protezione Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
 
-## <a name="requirements"></a><a name="requirements"></a><a name="requirements"></a>Requisiti
+## <a name="requirements"></a>Requisiti
 
 Le immagini devono soddisfare alcuni requisiti:
 
@@ -34,7 +34,7 @@ Le immagini devono soddisfare alcuni requisiti:
 * Dimensione file massima: inferiore a 4 MB  
 * Dimensioni immagine: superiori a 50 x 50 pixel  
 
-## <a name="switch-on-the-image-analyzer-extension"></a><a name="switch-on-the-image-analyzer-extension"></a><a name="switch-on-the-image-analyzer-extension"></a>Attiva l'estensione Analisi di immagini
+## <a name="switch-on-the-image-analyzer-extension"></a>Attiva l'estensione Analisi di immagini
 
 L'estensione di analisi delle immagini è incorporata in [!INCLUDE[prod_short](includes/prod_short.md)]. È solo necessario attivarla.
 
@@ -49,7 +49,7 @@ Per attivare l'estensione di analisi immagini, effettuare una delle seguenti azi
     > [!TIP]  
     > Nella pagina **Setup analisi immagine** è possibile anche modificare il grado di affidabilità per i suggerimenti relativi all'attributo. Ad esempio, se si intende richiedere un maggior grado di affidabilità, è possibile immettere un valore percentuale più alto.
 
-## <a name="analyze-an-item-image"></a><a name="analyze-an-item-image"></a><a name="analyze-an-item-image"></a>Analizzare un'immagine dell'articolo
+## <a name="analyze-an-item-image"></a>Analizzare un'immagine dell'articolo
 
 Nei seguenti passaggi viene descritto come analizzare un'immagine importata prima dell'abilitazione dell'estensione di analisi immagini.  
 
@@ -69,7 +69,7 @@ Il campo **Azione da eseguire** ha le seguenti opzioni:
 > [!NOTE]  
 > Per impostazione predefinita, in **Attributi oggetto** vengono visualizzati gli attributi in cui **Punteggio di fiducia** è al di sopra di **Soglia punteggio affidabilità in %** definito in **Setup analisi immagine**. Per vedere tutti gli attributi rilevati, scegli l'azione **Visualizza tutti gli attributi**.
 
-## <a name="analyze-a-contact-person-picture"></a><a name="analyze-a-contact-person-picture"></a><a name="analyze-a-contact-person-picture"></a>Analizzare un'immagine di una persona di contatto
+## <a name="analyze-a-contact-person-picture"></a>Analizzare un'immagine di una persona di contatto
 
 Nei seguenti passaggi viene descritto come analizzare un'immagine importata prima dell'abilitazione dell'estensione di analisi immagini.  
 
@@ -90,7 +90,7 @@ Nei seguenti passaggi viene descritto come analizzare un'immagine importata prim
     >
     > L'API Visione artificiale non restituisce il livello di confidenza per gli attributi di età e sesso.
   
-## <a name="use-your-own-computer-vision-api-account"></a><a name="use-your-own-computer-vision-api-account"></a><a name="use-your-own-computer-vision-api-account"></a>Utilizzare il proprio account per l'API Visione artificiale
+## <a name="use-your-own-computer-vision-api-account"></a>Utilizzare il proprio account per l'API Visione artificiale
 
 È anche possibile utilizzare il proprio account per l'API Visione artificiale, ad esempio, se si desidera analizzare più immagini rispetto a quanto offre l'integrazione predefinita.
 
@@ -100,21 +100,21 @@ Nei seguenti passaggi viene descritto come analizzare un'immagine importata prim
     > [!NOTE]  
     > È necessario aggiungere **/analyze** alla fine dell'URI API, se non è già presente. Ad esempio: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a><a name="see-how-many-analyses-you-have-left-in-the-current-period"></a><a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Visualizzare il numero delle analisi rimanenti per il periodo corrente
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Visualizzare il numero delle analisi rimanenti per il periodo corrente
 
 È possibile visualizzare il numero delle analisi effettuate e il numero rimanente per il periodo corrente.  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup analisi immagine**, quindi scegli il collegamento correlato.
 2. I campi **Tipo di limite**, **Valore limite** e **Analisi eseguite** forniscono informazioni sull'utilizzo.  
 
-## <a name="stop-using-the-image-analyzer-extension"></a><a name="stop-using-the-image-analyzer-extension"></a><a name="stop-using-the-image-analyzer-extension"></a>Interrompere l'utilizzo dell'estensione di analisi immagini
+## <a name="stop-using-the-image-analyzer-extension"></a>Interrompere l'utilizzo dell'estensione di analisi immagini
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Connessioni servizio**, quindi scegli **Setup analisi immagine**.  
 2. Deselezionare il campo **Abilita analisi immagine**.  
 
 In alternativa, disinstalla completamente l'estensione. Puoi sempre recuperarla da AppSource. Per ulteriori informazioni, vedi [Installazione e disinstallazione delle estensioni in Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare gli attributi degli articoli](inventory-how-work-item-attributes.md)  
 [Classificare gli articoli](inventory-how-categorize-items.md)  

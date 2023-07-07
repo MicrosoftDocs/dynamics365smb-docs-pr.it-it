@@ -10,7 +10,7 @@ ms.search.form: 1752
 ms.date: 06/14/2021
 ---
 
-# <a name="classifying-data-sensitivity-fields"></a><a name="classifying-data-sensitivity-fields"></a><a name="classifying-data-sensitivity-fields"></a>Campi Classificazione di dati riservati
+# <a name="classifying-data-sensitivity-fields"></a>Campi Classificazione di dati riservati
 Per classificare i campi che contengono dati riservati o personali, un partner Microsoft può impostare la proprietà ```DataClassification``` nei campi. Per eseguire questa operazione è necessario l'accesso alle tabelle del database, tramite l'ambiente di sviluppo oppure eseguendo uno script Windows PowerShell. Per ulteriori informazioni, vedere [Classificazione di dati](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Come cliente, è possibile aggiungere un secondo livello di classificazione specificando i livelli di riservatezza per i dati archiviati in campi standard e personalizzati. La classificazione di dati riservati assicura la conoscenza della posizione in cui sono mantenuti i dati personali nel sistema e rende più semplice rispondere alle richieste dagli oggetti dati. Ad esempio, se un contatto o un cliente chiede di esportare i relativi dati personali. Per ulteriori informazioni, vedere [Rispondere a richieste relative a dati personali](admin-responding-to-requests-about-personal-data.md).
@@ -27,7 +27,7 @@ Nella tabella seguente sono descritti i livelli di riservatezza dei dati che è 
 |Riservato | Dati commerciali utilizzati a fini di contabilità o per altri scopi commerciali e che non si intende esporre a altre entità. Ad esempio, movimenti contabili.|
 |Normale | Dati generali che non appartengono a nessun altra categoria.|
 
-## <a name="how-do-i-classify-my-data"></a><a name="how-do-i-classify-my-data"></a><a name="how-do-i-classify-my-data"></a>Come si classificano i dati personali?
+## <a name="how-do-i-classify-my-data"></a>Come si classificano i dati personali?
 
 La classificazione dei livelli di riservatezza per ogni singolo campo potrebbe richiedere molto tempo. Per accelerare il processo, vengono forniti strumenti per classificare in blocco la riservatezza dei campi e ottimizzare le classificazioni per campi specifici. È possibile trovare strumenti nel foglio di lavoro Classificazione di dati, disponibile nella Gestione ruolo utente Amministrazione di utenti, gruppi di utenti e autorizzazioni. Per utilizzare questo foglio di lavoro è necessario essere un amministratore di sistema.
 
@@ -43,7 +43,7 @@ Ad esempio, il foglio di lavoro di classificazione di dati consente di eseguire 
 > [!Tip]
 > Sono state definite classificazioni di sensibilità di esempio per le tabelle e i campi nella società demo Cronus. È possibile utilizzare queste classificazioni come esempio quando si classificano tabelle e campi.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Classificazione di dati](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
 

@@ -11,7 +11,7 @@ ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a><a name="legacy-create-and-modify-custom-report-layouts"></a><a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Creare e modificare layout di report personalizzati
+# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Creare e modificare layout di report personalizzati
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -29,7 +29,7 @@ Dopo aver definito i layout di report personalizzati, è possibile selezionarli 
 
 Puoi utilizzare i layout personalizzati anche per aggiungere contenuti ai messaggi di posta elettronica. I layout dei report possono far risparmiare tempo e contribuire a garantire la coerenza riutilizzando lo stesso contenuto quando comunichi con i clienti. Per utilizzare i layout di report personalizzati con e-mail, il tipo di file per il layout deve essere Word, non puoi usare il tipo di file RDLC. Per ulteriori informazioni, vedi [Impostare testi e-mail riutilizzabili e layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a><a name="create-a-custom-layout"></a><a name="create-a-custom-layout"></a>Creare un layout personalizzato
+## <a name="create-a-custom-layout"></a>Creare un layout personalizzato
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.
 
@@ -54,11 +54,11 @@ Il layout personalizzato è stato creato e puoi modificarlo a tuo piacimento.
 > [!TIP]
 > Puoi esportare i risultati del report in un file Microsoft Excel per visualizzare l'intero set di dati, comprese tutte le colonne, ma senza layout. Il file Excel può aiutarti a verificare che il report restituisca i dati previsti o diagnosticare i problemi. Per informazioni, vedi [Analisi dei dati del report con Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="modifying-a-custom-layout"></a><a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modifica di un layout personalizzato
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modifica di un layout personalizzato
 
 Per modificare un layout di report personalizzato, è necessario prima esportare il layout di report come file in un percorso sul computer o sulla rete. Quindi, apri il documento esportato e apporta le modifiche. Quando sono state apportate tutte le modifiche, importa il layout di report.
 
-### <a name="modify-a-custom-layout"></a><a name="modify-a-custom-layout"></a><a name="modify-a-custom-layout"></a>Modificare un layout personalizzato
+### <a name="modify-a-custom-layout"></a>Modificare un layout personalizzato
 
 1. Esporta un layout personalizzato dalla pagina **Layout report personalizzati**. Se la pagina non è già aperta, cerca e apri la pagina **Selezione layout report**, seleziona il report che ha il layout da modificare, quindi scegli l'azione **Layout personalizzati**.  
 2. Nella pagina **Layout report personalizzati**, seleziona il layout che si desidera modificare, scegli l'azione **Esporta layout** e quindi scegli **Salva** o **Salva con nome** per salvare il documento di layout nel computer o in una rete.  
@@ -78,7 +78,7 @@ Per modificare un layout di report personalizzato, è necessario prima esportare
 > Ricordati di importare il documento di layout del report che hai modificato. In caso contrario, il nuovo layout del report non sarà disponibile.
 
 <!--
-## <a name="create-and-modify-custom-report-layouts"></a><a name="create-and-modify-custom-report-layouts"></a><a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Create and modify custom report layouts
+## <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a>Create and modify custom report layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
@@ -87,11 +87,11 @@ If you're designing a Word report layout from scratch or adding new data fields,
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding fonts in Word layouts for consistency
+### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding fonts in Word layouts for consistency
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-### <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="removing-label-and-data-fields-in-word-layouts"></a><a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Removing label and data fields in Word layouts
+### <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a>Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -99,7 +99,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
  The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
+### <a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
 
 1. Right-click the field you want to delete, then choose **Remove Content Control**.  
 
@@ -107,13 +107,13 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a>Adding data fields
+### <a name="adding-data-fields"></a>Adding data fields
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md)  

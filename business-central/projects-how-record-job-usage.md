@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a>Registrare il consumo o l'utilizzo per le commesse
+# <a name="record-consumption-or-usage-for-jobs"></a>Registrare il consumo o l'utilizzo per le commesse
 
 Dalla pagina **Scheda commessa**, è possibile aprire la pagina **Righe pianificazione commessa** per rivedere e registrare l'utilizzo delle varie parti della commessa. Queste informazioni vengono aggiornate automaticamente quando modifichi e trasferisci informazioni tra commesse e registrazioni commesse o fatture di commessa. Questo richiede che sia stata attivato l'interruttore **Applica collegamento utilizzo per impostazione predefinita** nella pagina **Setup commesse**. Per ulteriori informazioni vedi [Impostazione di commesse](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Ad esempio, per le righe di pianificazione di tipo **Budget**, puoi immettere la
 
 Di seguito viene descritto come registrare le quantità e i costi (previsti) effettivi con la registrazione delle commesse. In alternativa puoi utilizzare i documenti di acquisto per registrare l'acquisto di una commessa. Per ulteriori informazioni vedi [Gestire gli approvvigionamenti delle commesse](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Per registrare l'utilizzo per una riga di pianificazione commessa di tipo Budget
+## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Per registrare l'utilizzo per una riga di pianificazione commessa di tipo Budget
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Seleziona la commessa, quindi scegli l'azione **Righe pianificazione commessa**. 
@@ -42,7 +42,7 @@ Di seguito viene descritto come registrare le quantità e i costi (previsti) eff
 9. Nella pagina **Righe pianificazione commessa**, esaminare l'utilizzo registrato osservando i campi **Quantità**, **Quantità residua** e **Qtà da trasferire per registrazione**.  
 10. Ripetere i passaggi da 3 a 8 per registrare altri utilizzi.  
 
-## <a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a>Per creare le righe delle registrazioni delle commesse manualmente
+## <a name="to-create-job-journal-lines-manually"></a>Per creare le righe delle registrazioni delle commesse manualmente
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
 2. Nel campo **Nome batch** scegliere un nome batch di registrazioni commesse pertinente.  
@@ -51,7 +51,7 @@ Di seguito viene descritto come registrare le quantità e i costi (previsti) eff
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a>Per visualizzare le stime di utilizzo della commessa e gli aggiornamenti della registrazione
+## <a name="to-view-job-usage-estimates-and-post-updates"></a>Per visualizzare le stime di utilizzo della commessa e gli aggiornamenti della registrazione
 
 È possibile visualizzare l'utilizzo della commessa fino al completamento di un progetto in un unico passaggio. A questo scopo, utilizzare il processo batch **Commessa - Calc. utilizzo residuo** per tutti i task fino al termine della commessa incluso.  
 
@@ -66,7 +66,7 @@ In questo modo è possibile tenere traccia e confrontare le stime iniziali rispe
 4. Aggiornare le registrazioni con tutte le necessarie modifiche.  
 5. Scegliere **Registra**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Creare inventario e warehouse per le righe di pianificazione per una commessa
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Creare inventario e warehouse per le righe di pianificazione per una commessa
 
 Per creare documenti di selezione magazzino e warehouse per il processo, l'amministratore deve abilitare **Aggiornamento funzionalità: abilitazione del prelievo magazzino e warehouse da commesse** nella pagina **Gestione funzionalità**.
 
@@ -85,7 +85,7 @@ La funzione aggiunge le azioni **Crea prelievo magazzino** e **Crea prelievo war
 > 
 > Se l'ubicazione è impostata in modo da richiedere l'elaborazione di prelievi e di spedizioni, indicando che hai scelto i campi **Richiesta prelievo** e **Richiesta spedizione** nella pagina **Scheda ubicazione**, usa la pagina **Prelievo warehouse** per gestire il prelievo. I prelievi warehouse sono simili ai prelievi in magazzino. La differenza è che, anziché pubblicare le informazioni sul prelievo, registri il prelievo. Questa registrazione non registra il consumo, ma rende gli articoli disponibili per la pubblicazione. Il responsabile di warehouse può utilizzare i prospetti prelievi per organizzare le informazioni di prelievo prima di creare le istruzioni di prelievo dalla singola warehouse
 
-## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Per esaminare le righe di pianificazione per un movimento contabile commessa
+## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Per esaminare le righe di pianificazione per un movimento contabile commessa
 
 Dopo avere registrato le righe di registrazione commessa registrate, è possibile visualizzare le righe di pianificazione associate ai movimenti di registrazione commesse che sono stati registrati.
 
@@ -96,9 +96,9 @@ Dopo avere registrato le righe di registrazione commessa registrate, è possibil
 2. Selezionare una registrazione commessa corrispondente, quindi scegliere l'azione **Mov. contabili**.  
 3. Nella pagina **Movimenti contabili commesse** scegliere l'azione **Mostra righe pianificazione commessa collegate**.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  

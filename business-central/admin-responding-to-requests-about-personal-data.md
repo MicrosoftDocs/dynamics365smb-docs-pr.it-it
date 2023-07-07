@@ -9,14 +9,14 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="responding-to-requests-about-users-personal-data"></a><a name="responding-to-requests-about-users-personal-data"></a><a name="responding-to-requests-about-users-personal-data"></a>Rispondere a richieste relative a dati personali degli utenti
+# <a name="responding-to-requests-about-users-personal-data"></a>Rispondere a richieste relative a dati personali degli utenti
 
 Gli oggetti dati possono richiedere diversi tipi di azioni riguardanti i relativi dati personali. Ad esempio, ai sensi di alcune norme e regolamenti in materia di privacy, i residenti dell'UE hanno il diritto di chiedere l'esportazione, la cancellazione e la modifica dei loro dati personali. Queste richieste sono denominate *Richieste degli interessati*. Se i dati riservati sono stati classificati e si è certi della correttezza dell'operazione, un amministratore può rispondere alle richieste utilizzando le opzioni nella scheda **Privacy dati** in Gestione ruolo utente **Manager IT**. Per ulteriori informazioni sulla classificazione dei dati e sulla riservatezza dei dati in [!INCLUDE[prod_long](includes/prod_long.md)], consulta i seguenti articoli:
 
 * [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) 
 * [Classificazione di dati riservati](admin-classifying-data-sensitivity.md)  
 
-## <a name="types-of-requests"></a><a name="types-of-requests"></a><a name="types-of-requests"></a>Tipi di richieste
+## <a name="types-of-requests"></a>Tipi di richieste
 
 Nella tabella seguente vengono forniti esempi dei tipi di richieste a cui un amministratore può rispondere.
 
@@ -29,11 +29,11 @@ Nella tabella seguente vengono forniti esempi dei tipi di richieste a cui un amm
 |Richieste di eliminazione|Un oggetto dati può richiedere di eliminare i relativi dati personali. Esistono svariati metodi per eliminare dati personali utilizzando le funzionalità di personalizzazione, ma la decisione e l'implementazione sono di responsabilità dell'utente. In alcuni casi, potresti scegliere di modificare direttamente i tuoi dati. Ad esempio, eliminando un contatto e quindi eseguendo il processo batch relativo all'eliminazione di interazioni annullate per il contatto. <br><br> **Nota:** se è stata specificata una data nel campo **Consenti eliminazione documenti anteriori a** nelle pagine **Setup contabilità clienti e vendite** o **Setup contabilità fornitori e acquisti**, potrebbe essere necessario modificare la data in modo da eliminare i documenti di acquisto e vendita registrati che sono stati stampati e le cui date di registrazione sono uguali o antecedenti a quella data.|
 |Richieste di correzione|Un oggetto dati può richiedere di correggere dati personali inaccurati. Questa operazione può essere effettuata in vari modi. In alcuni casi, si potrebbero esportare liste in Excel per modificare in blocco più record e quindi importare i dati aggiornati. Per ulteriori informazioni, vedere [Esportazione dei dati aziendali in Excel](about-export-data.md). È inoltre possibile modificare manualmente i campi contenenti dati personali, ad esempio modificare informazioni relative a un cliente nella scheda cliente. Tuttavia, i record come i movimenti contabili generali, clienti e fiscali sono importanti. Se si archiviano dati personali nei record delle transazioni commerciali, si deve prendere in considerazione l'utilizzo delle funzionalità di personalizzazione per modificare tali dati personali.|
 
-## <a name="restrict-data-processing-for-a-data-subject"></a><a name="restrict-data-processing-for-a-data-subject"></a><a name="restrict-data-processing-for-a-data-subject"></a>Limitazione dell'elaborazione dei dati per un oggetto dati
+## <a name="restrict-data-processing-for-a-data-subject"></a>Limitazione dell'elaborazione dei dati per un oggetto dati
 
 Un oggetto dati può richiedere di interrompere temporaneamente l'elaborazione dei relativi dati personali. Per soddisfare tali richieste, è possibile contrassegnare i record come bloccati a causa della privacy. Quando un record viene contrassegnato come bloccato, non è possibile creare nuove transazioni che utilizzano quel record. Ad esempio, non è possibile creare una nuova fattura per un cliente quando il cliente o il venditore è bloccato. Per contrassegnare un oggetto dati come bloccato, aprire la scheda per l'oggetto dati, ad esempio le schede cliente, fornitore o contatto, e scegliere la casella du controllo **Bloccato dalla privacy**. Potrebbe essere necessario scegliere **Mostra di più** per visualizzare il campo.  
 
-## <a name="handling-data-subject-requests-when-using-a-trial-version"></a><a name="handling-data-subject-requests-when-using-a-trial-version"></a><a name="handling-data-subject-requests-when-using-a-trial-version"></a>Gestione delle richieste per un oggetto dati in una versione di valutazione
+## <a name="handling-data-subject-requests-when-using-a-trial-version"></a>Gestione delle richieste per un oggetto dati in una versione di valutazione
 
 Alcuni tipi di dati personali fanno parte di un account Microsoft 365 e solo gli amministratori possono esportare i dati. Il processo per la gestione delle richieste degli interessati è diverso in base al tipo di tenant di [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -45,21 +45,21 @@ Nella pagina sulla privacy per la privacy, è anche possibile chiudere il propri
 
 È comunque possibile contrassegnare le persone come bloccate in base alla privacy ed esportare, modificare o eliminare le transazioni come spiegato in altre sezioni di questo articolo.  
 
-## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a><a name="exporting-data-from-tables-not-classified-by-data-subject"></a><a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Esportazione dei dati da tabelle non classificate dagli oggetti dati
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Esportazione dei dati da tabelle non classificate dagli oggetti dati
 
 Devi esportare i dati non classificati in modo che vangano esportati automaticamente, ad esempio i dati dalla tabella Risposte profilo, è necessario effettuare le seguenti azioni:
 
 * Considerare se devi davvero esportare dati supplementari che non sono direttamente correlati al contatto.
 * Aggiungere manualmente la tabella e la relazione al pacchetto RapidStart ed esportarla direttamente dal pacchetto RapidStart. Generiamo un pacchetto RapidStart per te, in modo che tu possa modificarlo in tali situazioni.
 
-## <a name="handling-data-about-minors"></a><a name="handling-data-about-minors"></a><a name="handling-data-about-minors"></a>Gestione dei dati relativi ai minori
+## <a name="handling-data-about-minors"></a>Gestione dei dati relativi ai minori
 
 Se l'età di una persona di contatto è inferiore all'età legale stabilita dalle leggi nella propria area geografica, è possibile indicare tale condizione selezionando la casella di controllo **Minorenne** nella scheda **Contatto**. Quando si seleziona tale casella, la casella di controllo **Bloccato dalla privacy** viene selezionata automaticamente. Quando si riceve il consenso dal genitore o dal tutore legale, è possibile scegliere la casella di controllo **Consenso dei genitori ricevuto** per sbloccare il contatto. Sebbene sia possibile elaborare i dati personali dei minori, non è possibile utilizzare la funzione di profiling in Dynamics 365 Sales.
 
 > [!Note]
 > Il log modifiche consente di registrare informazioni dettagliate, ad esempio quando e da chi la casella di controllo **Consenso dei genitori ricevuto** è stata selezionata. Un amministratore può eseguire tale impostazione utilizzando la guida **Setup log modifiche** e anche scegliendo la casella di controllo **Modifica log per Consenso dei genitori ricevuto** nella scheda **Contatto**. Per ulteriori informazioni, vedere [Registrazione di modifiche](across-log-changes.md).  
 
-### <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+### <a name="see-also"></a>Vedere anche
 
 [Classificazione di dati](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Classificazione di dati riservati](admin-classifying-data-sensitivity.md)  

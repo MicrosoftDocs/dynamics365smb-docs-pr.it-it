@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ---
-# <a name="receive-items-with-warehouse-receipts"></a><a name="receive-items-with-warehouse-receipts"></a><a name="receive-items-with-warehouse-receipts"></a>Ricevere gli articoli con un carico warehouse
+# <a name="receive-items-with-warehouse-receipts"></a>Ricevere gli articoli con un carico warehouse
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], la ricezione e lo stoccaggio degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
@@ -25,7 +25,7 @@ Per ulteriori informazioni su come gestire gli articoli in entrata, vai a [Fluss
 
 Il seguente articolo fa riferimento ai metodi C e D nella precedente tabella.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a><a name="receive-items-with-a-warehouse-receipt"></a><a name="receive-items-with-a-warehouse-receipt"></a>Ricevere gli articoli con un carico warehouse
+## <a name="receive-items-with-a-warehouse-receipt"></a>Ricevere gli articoli con un carico warehouse
 
 Quando gli articoli arrivano in una warehouse impostata per elaborare i carichi warehouse, è necessario recuperare le righe del documento di origine rilasciato che ha dato origine al carico. Se utilizzi le collocazioni, puoi accettare la collocazione predefinita o specificare la collocazione in cui inserire gli articoli. Quest'ultima potrebbe essere richiesta quando ricevi un articolo per la prima volta. Quindi, immetti le quantità degli articoli ricevuti e registra il carico.  
 
@@ -66,7 +66,7 @@ Puoi creare un carico warehouse in uno di due modi:
     > [!NOTE]  
     > Se la warehouse utilizza il cross-docking, è possibile verificare se è possibile eseguire il cross-docking degli articoli senza stoccarli. Per ulteriori informazioni sul cross-dock, vai a [Sottoporre gli articoli a cross-dock](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a>Come utilizzare i filtri per ottenere i documenti di origine
+## <a name="how-to-use-filters-to-get-source-documents"></a>Come utilizzare i filtri per ottenere i documenti di origine
 
 Da un carico warehouse, puoi utilizzare la pagina **Filtri per ottenere documenti origine** per recuperare le righe del documento di origine rilasciato che definiscono gli articoli da ricevere.
 
@@ -82,7 +82,7 @@ Tutte le righe del documento origine rilasciato che soddisfano i criteri di filt
 
 È possibile creare un numero indefinito di combinazioni di filtri. I filtri vengono salvati nella pagina **Filtri per ottenere documenti origine** e sono disponibili in momento successivo. È possibile modificare i criteri in qualsiasi momento scegliendo l'azione **Modifica**.
 
-## <a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a>Codici zona e collocazione
+## <a name="zone-and-bin-codes"></a>Codici zona e collocazione
 
 Per ricevere gli articoli con codici classe warehouse diversi dal codice classe della collocazione specificato nel campo **Cod. collocazione** della testata del documento, elimina il contenuto del campo **Codice collocazione** della testata prima di recuperare le righe del documento di origine per gli articoli.  
 <!-- TBD, table with comparison of various options-->
@@ -92,9 +92,9 @@ Se le collocazioni sono obbligatorie per un'ubicazione, i codici zona e collocaz
 * Per le configurazioni avanzate che utilizzano lo stoccaggio e il prelievo diretti, [!INCLUDE [prod_short](includes/prod_short.md)] utilizza il codice collocazione di carico dalla pagina **Scheda ubicazione** per l'ubicazione. Se non viene specificato un codice collocazione di carico, non viene specificata alcuna collocazione. Se le collocazioni dell'articolo e di carico non corrispondono, il codice collocazione di carico è vuoto.
 * In altre configurazioni, se non è specificato un codice collocazione di carico, [!INCLUDE [prod_short](includes/prod_short.md)] utilizza il codice collocazione del documento di origine.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

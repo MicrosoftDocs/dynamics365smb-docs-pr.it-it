@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="manually-synchronize-table-mappings"></a><a name="manually-synchronize-table-mappings"></a><a name="manually-synchronize-table-mappings"></a>Sincronizzare manualmente i mapping di tabella
+# <a name="manually-synchronize-table-mappings"></a>Sincronizzare manualmente i mapping di tabella
 
 
 Un mapping di tabella di integrazione associa una tabella [!INCLUDE[prod_short](includes/cds_long_md.md)], come un cliente, a una tabella di [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio un conto. La sincronizzazione del mapping della tabella di integrazione consente la sincronizzazione di dati in tutti i record della tabella di [!INCLUDE[prod_short](includes/prod_short.md)] e della tabella di [!INCLUDE[prod_short](includes/cds_long_md.md)] associati. Inoltre, a seconda della configurazione di un mapping di tabella, la sincronizzazione può creare e associare nuovi record nella soluzione di destinazione per i record non associati nell'origine.  
@@ -20,7 +20,7 @@ La sincronizzazione manuale di mapping di tabella di integrazione può essere ut
 
 In questo articolo vengono descritti tre metodi per la sincronizzazione manuale dei mapping di tabella di integrazione. Ogni metodo fornisce un diverso livello di sincronizzazione.
 
-## <a name="run-a-full-synchronization"></a><a name="run-a-full-synchronization"></a><a name="run-a-full-synchronization"></a>Eseguire una sincronizzazione completa
+## <a name="run-a-full-synchronization"></a>Eseguire una sincronizzazione completa
 Una sincronizzazione completa esegue tutti i processi di sincronizzazione di Integrazione di default per la sincronizzazione dei record di [!INCLUDE[prod_short](includes/prod_short.md)] e delle tabelle di [!INCLUDE[prod_short](includes/cds_long_md.md)], come definito nella pagina **Mapping tabella integrazione**. 
 
 Una sincronizzazione completa esegue le seguenti operazioni per i record di [!INCLUDE[prod_short](includes/cds_long_md.md)] o [!INCLUDE[prod_short](includes/prod_short.md)]:
@@ -36,7 +36,7 @@ Se e dove una riga viene creata dipende dalla direzione della sincronizzazione. 
 > [!IMPORTANT]  
 >  In genere si utilizza la sincronizzazione completa solo quando si imposta l'integrazione inizialmente tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)] e una sola delle soluzioni contiene dati, che si desidera copiare nell'altra soluzione. Una sincronizzazione completa può risultare utile in un ambiente dimostrativo. Poiché la sincronizzazione completa crea e associa automaticamente record tra soluzioni, rende più rapido iniziare a lavorare con dati di sincronizzazione tra record. D'altro canto, è necessario eseguire la sincronizzazione completa solo se si desidera una riga in [!INCLUDE[prod_short](includes/prod_short.md)] per ogni riga in [!INCLUDE[prod_short](includes/cds_long_md.md)] per i mapping di tabella specificati. In caso contrario, è possibile avere record indesiderati o duplicati in [!INCLUDE[prod_short](includes/prod_short.md)] o [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
-### <a name="to-run-a-full-synchronization"></a><a name="to-run-a-full-synchronization"></a><a name="to-run-a-full-synchronization"></a>Per eseguire una sincronizzazione completa
+### <a name="to-run-a-full-synchronization"></a>Per eseguire una sincronizzazione completa
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup connessione a Dataverse**, quindi scegli il collegamento correlato.
 
     > [!NOTE]
@@ -51,7 +51,7 @@ Se e dove una riga viene creata dipende dalla direzione della sincronizzazione. 
 
 È possibile visualizzare i risultati della sincronizzazione completa nella pagina **Processi di sincronizzazione integrazione**. Per ulteriori informazioni, vedere [Visualizzare lo stato di una sincronizzazione](admin-how-to-view-synchronization-status.md).  
 
-## <a name="synchronizing-all-modified-records"></a><a name="synchronizing-all-modified-records"></a><a name="synchronizing-all-modified-records"></a>Sincronizzazione di tutti i record modificati
+## <a name="synchronizing-all-modified-records"></a>Sincronizzazione di tutti i record modificati
 È possibile utilizzare la pagina **Setup connessione a Common Data Service** per sincronizzare le modifiche ai dati in tutti i mapping di tabella di integrazione. Ciò è simile a una sincronizzazione completa. I dati saranno sincronizzati in tutti i record associati nelle tabelle di [!INCLUDE[prod_short](includes/prod_short.md)] e di [!INCLUDE[prod_short](includes/cds_long_md.md)] che sono definiti nei mapping di tabella. Per impostazione predefinita, solo i dati che sono stati modificati dopo l'ultima sincronizzazione verranno sincronizzati. I processi di sincronizzazione sincronizzano i mapping di tabella nel seguente ordine per evitare di associare dipendenze tra tabelle:  
 
 1.  VALUTA  
@@ -65,18 +65,18 @@ Se e dove una riga viene creata dipende dalla direzione della sincronizzazione. 
 > [!TIP]  
 >  Modificando il mapping di tabella di integrazione in anticipo, è possibile creare filtri per verificare i dati da sincronizzare, o configurare i mapping per creare nuovi dati nella soluzione di destinazione per record o righe non associati nell'origine. Per ulteriori informazioni, vedere [Modificare i mapping di tabella per la sincronizzazione](admin-how-to-modify-table-mappings-for-synchronization.md).
 
-### <a name="to-synchronize-data-for-all-tables"></a><a name="to-synchronize-data-for-all-tables"></a><a name="to-synchronize-data-for-all-tables"></a>Sincronizzare dati per tutte le tabelle
+### <a name="to-synchronize-data-for-all-tables"></a>Sincronizzare dati per tutte le tabelle
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup connessione a Microsoft Dynamics 365 Sales**, quindi scegli il collegamento correlato.
 2.  Scegliere l'azione **Sincronizza record modificati**, quindi scegliere il pulsante **Sì**.  
 
-## <a name="synchronize-individual-table-mappings"></a><a name="synchronize-individual-table-mappings"></a><a name="synchronize-individual-table-mappings"></a>Sincronizzare singoli mapping di tabella
+## <a name="synchronize-individual-table-mappings"></a>Sincronizzare singoli mapping di tabella
 È possibile utilizzare la pagina **Mapping tabella integrazione** per eseguire un processo di sincronizzazione per mapping di tabella. In questo modo i dati saranno sincronizzati per tutti i record e le righe associati nelle tabelle di [!INCLUDE[prod_short](includes/prod_short.md)] e di [!INCLUDE[prod_short](includes/cds_long_md.md)] definite dal mapping di tabella. Per impostazione predefinita, solo i dati che sono stati modificati dopo l'ultima sincronizzazione verranno sincronizzati.  
 
-### <a name="to-synchronize-records-of-an-integration-table-mapping"></a><a name="to-synchronize-records-of-an-integration-table-mapping"></a><a name="to-synchronize-records-of-an-integration-table-mapping"></a>Per sincronizzare i record di un mapping di tabella di integrazione
+### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Per sincronizzare i record di un mapping di tabella di integrazione
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Mapping tabella integrazione**, quindi scegli il collegamento correlato.
 2.  Scegliere l'azione **Sincronizza record modificati**, quindi scegliere il pulsante **Sì**.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Sincronizzazione di Business Central e Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Impostazione di account utente per l'integrazione con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
 

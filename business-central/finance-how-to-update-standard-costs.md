@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="update-standard-costs"></a><a name="update-standard-costs"></a><a name="update-standard-costs"></a>Aggiornare i costi standard
+# <a name="update-standard-costs"></a>Aggiornare i costi standard
 Periodicamente è necessario aggiornare i costi standard dei componenti ed eseguire il rollup dei nuovi costi nell'articolo padre. Il processo in genere è costituito dai quattro passaggi seguenti:  
 
 1.  Aggiornare i costi ai livelli di capacità e componente. Per ulteriori informazioni, vedere il processo batch **Suggerisci costo std. articolo**.  
@@ -20,7 +20,7 @@ Periodicamente è necessario aggiornare i costi standard dei componenti ed esegu
 
 Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a><a name="to-update-standard-costs"></a><a name="to-update-standard-costs"></a>Per aggiornare i costi standard
+## <a name="to-update-standard-costs"></a>Per aggiornare i costi standard
 
 1.  Eseguire il processo batch **Rettifica costo - Movimenti articoli**.  
 2.  Eseguire il processo batch **Registra costo magazzino in C/G**.  
@@ -35,7 +35,7 @@ Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard]
     7.  Eseguire il processo batch **Implementa modifiche costo std.**  
 4.  Analizzare e contabilizzare la pagina **Registrazioni rivalutazioni**, in cui sono stati inseriti i dati ricavati tramite i passaggi precedenti del processo.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedi anche
 
  [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)   
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   

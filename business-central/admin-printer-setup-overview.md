@@ -10,11 +10,11 @@ ms.date: 02/10/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a><a name="printer-setup-and-management-overview"></a><a name="printer-setup-and-management-overview"></a>Panoramica della configurazione e della gestione delle stampanti
+# <a name="printer-setup-and-management-overview"></a>Panoramica della configurazione e della gestione delle stampanti
 
 La stampa di documenti e report da [!INCLUDE[prod_short](includes/prod_short.md)] è un compito importante per gli utenti aziendali. Gli utenti vogliono in genere inviare i lavori di stampa direttamente a una delle stampanti dell'organizzazione, indipendentemente dal client o dall'app [!INCLUDE[prod_short](includes/prod_short.md)] che stanno utilizzando. Poiché [!INCLUDE[prod_short](includes/prod_short.md)] online è un servizio cloud, non può raggiungere direttamente le stampanti locali collegate ai dispositivi degli utenti, ma puoi connetterlo a stampanti abilitate per il cloud.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a><a name="what-are-your-printer-possibilities-in-business-central"></a><a name="what-are-your-printer-possibilities-in-business-central"></a>Quali sono le possibilità per la stampante in Business Central?
+## <a name="what-are-your-printer-possibilities-in-business-central"></a>Quali sono le possibilità per la stampante in Business Central?
 
 Per supportare le tue esigenze di stampa, [!INCLUDE[prod_short](includes/prod_short.md)] offre le seguenti caratteristiche:
 
@@ -29,13 +29,13 @@ La maggior parte del lavoro per l'impostazione delle stampanti può essere esegu
 > [!IMPORTANT]
 > Per Business Central locale, Stampa universale e Stampa con indirizzo e-mail richiedono l'utilizzo dell'autenticazione Azure Active Directory (AD) o NavUserPassword.
 
-## <a name="custom-printer-extensions"></a><a name="custom-printer-extensions"></a><a name="custom-printer-extensions"></a>Estensioni di stampante personalizzate
+## <a name="custom-printer-extensions"></a>Estensioni di stampante personalizzate
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta altre estensioni stampante personalizzate che aggiungono ancora più funzioni di stampa. Pertanto, se sono installate estensioni della stampante personalizzate, la tua applicazione potrebbe includere funzionalità di stampa non descritte in questo articolo.
 
 Se sei uno sviluppatore AL e vuoi sapere come creare estensioni per stampanti, vai a [Sviluppo di estensioni per stampanti in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 
 - [Impostare le stampanti di Stampa universale](admin-printer-setup-universal-print.md)  
 - [Impostare le stampanti con indirizzo e-mail](admin-printer-setup-email.md)  

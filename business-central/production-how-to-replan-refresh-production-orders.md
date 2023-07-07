@@ -10,7 +10,7 @@ ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a><a name="replan-or-refresh-production-orders-directly"></a><a name="replan-or-refresh-production-orders-directly"></a>Ripianificare o aggiornare direttamente gli ordini di produzione
+# <a name="replan-or-refresh-production-orders-directly"></a>Ripianificare o aggiornare direttamente gli ordini di produzione
 
 La funzione **Ripianifica** viene solitamente utilizzata negli ordini di produzione dopo l'aggiunta o la modifica di componenti che costituiscono ordini di produzione sottostanti. La funzione consente di calcolare le modifiche apportate alle righe componente e ciclo e include articoli disponibili nei livelli inferiori della distinta base di produzione per i quali potrebbero essere generati nuovi ordini di produzione.  
 
@@ -28,7 +28,7 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 > [!NOTE]
 > Utilizzando la funzione Aggiorna per ricalcolare le righe dell'ordine di produzione, le righe vecchie vengono eliminate e vengono calcolate le nuove righe.  
 
-## <a name="to-replan-a-production-order"></a><a name="to-replan-a-production-order"></a><a name="to-replan-a-production-order"></a>Per ripianificare un ordine di produzione
+## <a name="to-replan-a-production-order"></a>Per ripianificare un ordine di produzione
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
 2. Aprire l'ordine di produzione da ripianificare.  
@@ -57,7 +57,7 @@ Le righe dell'ordine di produzione possono essere inserite manualmente oppure co
 > [!NOTE]  
 > Le modifiche apportate con la funzione **Ripianifica** comportano una variazione nella capacità necessaria per l'ordine di produzione e occorre quindi riprogrammare le operazioni dopo l'aggiornamento.  
 
-## <a name="to-refresh-a-production-order"></a><a name="to-refresh-a-production-order"></a><a name="to-refresh-a-production-order"></a>Per aggiornare un ordine di produzione
+## <a name="to-refresh-a-production-order"></a>Per aggiornare un ordine di produzione
 
 Se righe ciclo, componente o dell'ordine di produzione sono state corrette, è necessario procedere anche all'aggiornamento delle informazioni nell'ordine di produzione. Nella procedura che segue i componenti vengono calcolati per un ordine produzione confermato. I passaggi sono simili per le righe ciclo.
 
@@ -80,7 +80,7 @@ Se righe ciclo, componente o dell'ordine di produzione sono state corrette, è n
 > [!NOTE]  
 > Con il calcolo dei componenti dell'ordine di produzione vengono annullate le precedenti modifiche ai componenti.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Pianif.](production-planning.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

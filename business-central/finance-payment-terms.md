@@ -7,7 +7,7 @@ ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-payment-terms"></a><a name="set-up-payment-terms"></a><a name="set-up-payment-terms"></a>Impostare le condizioni pagamento
+# <a name="set-up-payment-terms"></a>Impostare le condizioni pagamento
 
 I termini di pagamento determinano la modalità di gestione delle date di scadenza e degli sconti pagamento. È possibile impostare un numero indefinito di codici di condizioni pagamento e utilizzare le formule data per definire le condizioni pagamento. Quando ti iscrivi per la prima volta a [!INCLUDE [prod_short](includes/prod_short.md)], la società demo fornisce alcuni metodi di pagamento che le aziende utilizzano spesso. È tuttavia possibile aggiungere tutti quelli desiderati.  
 
@@ -19,7 +19,7 @@ Analogamente, quando registri una nota credito, [!INCLUDE [prod_short](includes/
 
 Se si desidera inviare ai clienti solleciti per pagamenti in ritardo, è necessario impostare i livelli e i termini di sollecito. Per ulteriori informazioni, vedere [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a><a name="to-set-up-payment-terms"></a><a name="to-set-up-payment-terms"></a>Impostare le condizioni pagamento
+## <a name="to-set-up-payment-terms"></a>Impostare le condizioni pagamento
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Condizioni pagamento**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +31,7 @@ Dopo avere impostato le condizioni pagamento, è possibile assegnarle ai clienti
 >
 > In alcuni paesi, *puòi* impostare le condizioni pagamento con pagamenti parziali. Per sapere se questa funzionalità è supportata nel tuo paese, consulta la sezione **Funzionalità locale** nel riquadro di navigazione sul lato sinistro di un articolo [Microsoft Learn](about-localization.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Impostare i metodi di pagamento](finance-payment-methods.md)  
 [Impostare i pagamenti anticipati](finance-set-up-prepayments.md)  

@@ -10,13 +10,13 @@ ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="add-extended-text"></a><a name="add-extended-text"></a><a name="add-extended-text"></a>Aggiungere testo esteso
+# <a name="add-extended-text"></a>Aggiungere testo esteso
 
 È possibile estendere la descrizione di articoli, unità di stockkeeping, conti di contabilità generale e risorse aggiungendo righe extra come testo esteso. È inoltre possibile impostare le condizioni per l'uso delle righe extra.  
 
 La sezione seguente descrive come aggiungere testo esteso a una descrizione di un articolo. Gli stessi passaggi si applicano alle unità di stockkeeping, ai conti di contabilità generale e alle risorse.  
 
-## <a name="to-define-extended-text-for-an-description"></a><a name="to-define-extended-text-for-an-description"></a><a name="to-define-extended-text-for-an-description"></a>Per definire il testo esteso per una descrizione
+## <a name="to-define-extended-text-for-an-description"></a>Per definire il testo esteso per una descrizione
 
 1. Aprire la scheda di un articolo al quale si desidera aggiungere il testo esteso, quindi scegliere l'azione **Testo esteso**.
 2. Compilare i campi **Codice** e **Descrizione**.
@@ -29,12 +29,12 @@ La sezione seguente descrive come aggiungere testo esteso a una descrizione di u
 
 È ora possibile aggiungere questo testo esteso ai documenti. La seguente procedura spiega come aggiungere testo esteso a un ordine cliente, ma gli stessi passaggi si applicano a qualsiasi altro documento specificato per il testo esteso.  
 
-## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><a name="to-add-an-extended-item-text-on-a-sales-order-line"></a><a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Per aggiungere testo esteso di articoli in una riga di un ordine di vendita
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Per aggiungere testo esteso di articoli in una riga di un ordine di vendita
 
 1. Aprire un ordine di vendita con una riga di vendita per un articolo che ha testo esteso definito. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 2. Selezionare la riga in questione e scegliere l'azione **Inserisci testo esteso**.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

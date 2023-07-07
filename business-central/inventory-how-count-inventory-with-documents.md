@@ -11,7 +11,7 @@ ms.search.forms: '5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 58
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="count-and-adjust-inventory-using-documents"></a><a name="count-and-adjust-inventory-using-documents"></a><a name="count-and-adjust-inventory-using-documents"></a>Conteggio e regolazione del magazzino utilizzando documenti
+# <a name="count-and-adjust-inventory-using-documents"></a>Conteggio e regolazione del magazzino utilizzando documenti
 
 È possibile eseguire un inventario fisico degli articoli utilizzando documenti di ordine di inventario fisico e di registrazioni di inventario fisico. La pagina **Ordine inventario fisico** è utilizzata per organizzare il progetto di conteggio dell'inventario completo, ad esempio uno per posizione. La pagina **Registrazione magazzino fisico** è utilizzata per comunicare e acquisire il conteggio effettivo degli articoli. È possibile creare molteplici registrazioni per un ordine, ad esempio per distribuire gruppi di articoli a dipendenti differenti.
 
@@ -29,7 +29,7 @@ Il conteggio dell'inventario utilizzando documenti consiste dei seguenti passagg
 3. Immettere le quantità di articoli conteggiate nelle registrazioni, ad esempio come acquisite negli stampati, e impostarle su **Completato**.
 4. Completare e registrate l'ordine di inventario fisico.
 
-## <a name="to-create-a-physical-inventory-order"></a><a name="to-create-a-physical-inventory-order"></a><a name="to-create-a-physical-inventory-order"></a>Per creare un ordine di inventario fisico
+## <a name="to-create-a-physical-inventory-order"></a>Per creare un ordine di inventario fisico
 
 Un ordine di inventario fisico è un documento è completo che consiste di un'intestazione di ordine di inventario fisico e alcune righe di ordine di inventario fisico. Le informazioni in un'intestazione di inventario fisico descrivono come eseguire l'inventario fisico. Le righe dell'ordine di inventario fisico contengono informazioni sugli articoli e le relative ubicazioni.
 
@@ -51,7 +51,7 @@ Una riga per ogni articolo esistente nell'ubicazione scelta e per i filtri e le 
 
 Ora è possibile procedere alla creazione di una o più registrazioni, che sono le istruzioni per i dipendenti che eseguono il conteggio effettivo.  
 
-## <a name="to-create-a-physical-inventory-recording"></a><a name="to-create-a-physical-inventory-recording"></a><a name="to-create-a-physical-inventory-recording"></a>Per creare una registrazione di inventario fisico
+## <a name="to-create-a-physical-inventory-recording"></a>Per creare una registrazione di inventario fisico
 
 Per ogni ordine di inventario fisico, è possibile creare uno o più documenti di registrazione di inventario fisico nei quali i dipendenti immettono le quantità conteggiate, manualmente o mediante un con dispositivo di scansione integrato.
 
@@ -73,7 +73,7 @@ Nel caso di conteggio manuale, è possibile stampare un elenco, il report **Regi
 8. Per gli articoli che utilizzano la tracciabilità degli articoli, creare una riga supplementare per ogni codice di numero di lotto o numero seriale scegliendo l'azione **Funzioni** e quindi l'azione **Copia riga**. Per ulteriori informazioni, vedere la sezione [Gestione della tracciabilità degli articoli durante il conteggio dell'inventario](#handling-item-tracking-when-counting-inventory).  
 9. Scegliere l'azione **Stampa** per produrre il documento fisico che i dipendenti utilizzeranno per annotare le quantità conteggiate.
 
-## <a name="to-finish-a-physical-inventory-recording"></a><a name="to-finish-a-physical-inventory-recording"></a><a name="to-finish-a-physical-inventory-recording"></a>Terminare una registrazione di inventario fisico
+## <a name="to-finish-a-physical-inventory-recording"></a>Terminare una registrazione di inventario fisico
 
 Quando i dipendenti hanno conteggiato le quantità di inventario, è necessario registrarle nel sistema.
 
@@ -88,7 +88,7 @@ Quando i dipendenti hanno conteggiato le quantità di inventario, è necessario 
 > Se non vi è una riga di ordine di inventario fisico corrispondente e se la casella di controllo **Consenti registrazione senza ordine** è selezionata, una nuova riga viene inserita automaticamente e viene selezionata la casella di controllo **Registrato senza ordine** nella riga dell'ordine di inventario fisico correlato. In caso contrario, viene visualizzato un messaggio di errore e il processo viene annullato.<br /><br />
 > Se più righe della registrazione di inventario fisico corrispondono a una riga dell'ordine di inventario fisico, viene visualizzato un messaggio e il processo viene annullato. Se, per qualche ragione, nell'ordine di inventario fisico vi sono due righe di inventario fisico identiche, è possibile utilizzare una funzione per risolvere il problema. Per ulteriori informazioni, vedere [Per trovare righe di ordine di inventario fisico duplicate](#to-find-duplicate-physical-inventory-order-lines).
 
-## <a name="to-complete-a-physical-inventory-order"></a><a name="to-complete-a-physical-inventory-order"></a><a name="to-complete-a-physical-inventory-order"></a>Per completare un ordine di inventario fisico
+## <a name="to-complete-a-physical-inventory-order"></a>Per completare un ordine di inventario fisico
 
 Al termine di una registrazione di inventario fisico, il campo **Quantità registrata (base)** nell'ordine di inventario fisico correlato viene aggiornato con i valori conteggiati (registrati) e la casella di controllo **In righe registrazione** viene selezionata. Se un valore conteggiato è differente da quello previsto, tale differenza è indicata rispettivamente nel campo **Quantità positiva (base)** e **Quantità negativa (base)**.
 
@@ -96,7 +96,7 @@ Per visualizzare le quantità previste e le eventuali differenze registrate per 
 
 È inoltre possibile scegliere l'azione **Differenza ordini magazzino fisico** per visualizzare le eventuali differenze tra la quantità prevista e la quantità conteggiata.
 
-### <a name="to-find-duplicate-physical-inventory-order-lines"></a><a name="to-find-duplicate-physical-inventory-order-lines"></a><a name="to-find-duplicate-physical-inventory-order-lines"></a>Per trovare righe di ordine di inventario fisico duplicate
+### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Per trovare righe di ordine di inventario fisico duplicate
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini inventario fisico**, quindi scegli il collegamento correlato.
 2. Aprire l'ordine di inventario fisico per il quale si desidera visualizzare le righe duplicate.
@@ -104,7 +104,7 @@ Per visualizzare le quantità previste e le eventuali differenze registrate per 
 
 Eventuali righe di ordine di inventario fisico duplicate vengono visualizzate affinché sia possibile eliminarle e mantenere solo una riga con un set di valori univoco nei campi **Nr. articolo**, **Codice variante**, **Codice ubicazione** e **Codice collocazione**.
 
-### <a name="to-post-a-physical-inventory-order"></a><a name="to-post-a-physical-inventory-order"></a><a name="to-post-a-physical-inventory-order"></a>Per registrare un ordine di inventario fisico
+### <a name="to-post-a-physical-inventory-order"></a>Per registrare un ordine di inventario fisico
 
 Dopo il completamento di un ordine di inventario fisico e la modifica del relativo stato a **Completato**, è possibile registrarlo. È possibile impostare lo stato di un ordine di inventario fisico su **Completato** se le seguenti condizioni sono vere:
 
@@ -123,7 +123,7 @@ Dopo il completamento di un ordine di inventario fisico e la modifica del relati
 
 I movimenti contabili articoli interessati vengono aggiornati insieme ai movimenti di tracciabilità ordine correlati.
 
-### <a name="to-view-posted-physical-inventory-orders"></a><a name="to-view-posted-physical-inventory-orders"></a><a name="to-view-posted-physical-inventory-orders"></a>Per visualizzare ordini di inventario fisico registrati
+### <a name="to-view-posted-physical-inventory-orders"></a>Per visualizzare ordini di inventario fisico registrati
 
 Dopo la registrazione, l'ordine di inventario fisico verrà eliminato ed è possibile visualizzare e valutare il documento come ordine di inventario fisico registrato incluse le relative registrazioni di inventario fisico e gli eventuali commenti.
 
@@ -131,13 +131,13 @@ Dopo la registrazione, l'ordine di inventario fisico verrà eliminato ed è poss
 2. Nella pagina **Ordini magazzino fisico registrati**, selezionare l'ordine di inventario registrato che si desidera visualizzare, quindi scegliere l'azione **Visualizza**.
 3. Per visualizzare un elenco di registrazioni di inventario fisico correlate, scegliere l'azione **Registrazioni**.
 
-## <a name="handling-item-tracking-when-counting-inventory"></a><a name="handling-item-tracking-when-counting-inventory"></a><a name="handling-item-tracking-when-counting-inventory"></a>Gestione della tracciabilità degli articoli durante il conteggio dell'inventario
+## <a name="handling-item-tracking-when-counting-inventory"></a>Gestione della tracciabilità degli articoli durante il conteggio dell'inventario
 
 La tracciabilità degli articoli è relativa ai numeri di serie o di lotto assegnati agli articoli. Quando si conteggia un articolo che è immagazzinato nell'inventario come, ad esempio, 10 numeri di lotto diversi, il dipendente deve essere in grado di registrare quali e quante unità di ogni numero di lotto sono nell'inventario. Per ulteriori informazioni sulla funzionalità di tracciabilità di articoli, vedere [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
 
 La casella di controllo **Usa tracciabilità articolo** nelle righe di ordine di inventario fisico viene selezionata automaticamente se un codice di tracciabilità articolo è impostato per l'articolo, ma è anche possibile selezionarla o deselezionarla manualmente.
 
-### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a><a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a><a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Esempio - Preparare una registrazione di inventario fisico per un articolo tracciato
+### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Esempio - Preparare una registrazione di inventario fisico per un articolo tracciato
 
 Considerare un inventario fisico per l'articolo A, che è immagazzinato nell'inventario come dieci numeri seriali differenti.
 1. Nella riga di registrazione per l'articolo, selezionare la casella di controllo **Usa tracciabilità articolo**.
@@ -153,7 +153,7 @@ Considerare un inventario fisico per l'articolo A, che è immagazzinato nell'inv
 
 Da notare che il report **Registrazione inventario fisico** contiene dieci righe per l'articolo A, uno per ogni numero seriale.
 
-### <a name="example---record-and-post-counted-lot-number-differences"></a><a name="example---record-and-post-counted-lot-number-differences"></a><a name="example---record-and-post-counted-lot-number-differences"></a>Esempio - Registrare e inserire le differenze nei numeri di lotto conteggiati
+### <a name="example---record-and-post-counted-lot-number-differences"></a>Esempio - Registrare e inserire le differenze nei numeri di lotto conteggiati
 
 Un articolo tracciato viene archiviato nell'inventario con la numerazione "LOT“.
 
@@ -188,7 +188,7 @@ Un articolo tracciato viene archiviato nell'inventario con la numerazione "LOT�
 
 Nella pagina **Ordine inventario fisico**, il campo **Quantità negativa (base)** conterrà *8*. Per la riga in questione, la pagina **Elenco tracciabilità articoli magazzino fisico** conterrà le quantità positive o negative per i singoli numeri di lotto.
 
-## <a name="inventory-documents"></a><a name="inventory-documents"></a><a name="inventory-documents"></a>Documenti di magazzino
+## <a name="inventory-documents"></a>Documenti di magazzino
 
 I seguenti tipi di documenti sono utili per la gestione del tuo warehouse:
 
@@ -200,7 +200,7 @@ Puoi stampare questi documenti in qualsiasi fase, rilasciarli e riaprirli e asse
 > [!NOTE]
 > Prima di poter utilizzare questi documenti è necessario specificare una serie di numeri per creare i loro identificatori. Per ulteriori informazioni, vedere la sezione seguente.
 
-### <a name="to-set-up-numbering-for-inventory-documents"></a><a name="to-set-up-numbering-for-inventory-documents"></a><a name="to-set-up-numbering-for-inventory-documents"></a>Per impostare la numerazione per i documenti di magazzino
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Per impostare la numerazione per i documenti di magazzino
 
 La seguente procedura illustra come impostare una numerazione per i documenti del magazzino.
 
@@ -211,7 +211,7 @@ La seguente procedura illustra come impostare una numerazione per i documenti de
    - **N. spedizione magazzino**  
    - **N. spedizione magazzino registrata**  
 
-### <a name="to-create-and-post-an-inventory-document"></a><a name="to-create-and-post-an-inventory-document"></a><a name="to-create-and-post-an-inventory-document"></a>Per creare e registrare un documento di magazzino
+### <a name="to-create-and-post-an-inventory-document"></a>Per creare e registrare un documento di magazzino
 
 La procedura seguente mostra come creare, stampare e registrare una ricevuta di magazzino. I passaggi sono simili a quelli per le spedizioni del magazzino.
 
@@ -225,7 +225,7 @@ Le seguenti funzioni sono disponibili nella pagina **Ricevuta di magazzino**:
 - Scegli le azioni **Rilascio** o **Riapri** per impostare lo stato per la fase di elaborazione successiva  
 - Scegli l'azione **Registra** per registrare la ricevuta di magazzino o scegli **Registra e stampa** per registrare la ricevuta e stampare il report di prova  
 
-## <a name="printing-inventory-documents"></a><a name="printing-inventory-documents"></a><a name="printing-inventory-documents"></a>Stampa dei documenti di magazzino
+## <a name="printing-inventory-documents"></a>Stampa dei documenti di magazzino
 
 Puoi specificare i report che devono essere stampati in fasi diverse scegliendo una delle seguenti opzioni nel campo **Uso** nella pagina **Selezione report - Magazzino**:
 
@@ -237,9 +237,9 @@ Puoi specificare i report che devono essere stampati in fasi diverse scegliendo 
 > [!NOTE]
 > I report disponibili possono variare in base alla localizzazione del tuo paese. L'applicazione di base non include alcun layout.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/adjust-inventory/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-adjust-reclassify.md)  
 [Utilizzare i numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
