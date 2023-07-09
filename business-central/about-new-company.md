@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ---
-# Creare nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="create-new-companies-in-"></a>Creare nuove società in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] il contenitore per i dati aziendali che appartiene alla Business Unit o alla persona giuridica viene indicato con il termine *società*. Quando ti iscrivi a [!INCLUDE[prod_short](includes/prod_short.md)], vengono fornite una società dimostrativa e una società vuota denominata *La mia azienda*. Il passaggio tra le società è facile: basta accedere a **Impostazioni personali** e passare all'altra società. È tuttavia possibile anche creare nuove società in [!INCLUDE[prod_short](includes/prod_short.md)] in base alle esigenze aziendali.  
 
@@ -21,7 +21,7 @@ Quando si crea una nuova azienda una guida al setup assistito aiuta ad applicare
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Scegliere il modello giusto
+## <a name="choose-the-right-template"></a>Scegliere il modello giusto
 
 Se decidi di aggiungere una società a [!INCLUDE[prod_short](includes/prod_short.md)], puoi utilizzare la guida al setup assistito **Crea nuova società** per iniziare. La guida al setup è disponibile nella pagina **Società** e tramite la ricerca nel campo **Società** nella pagina **Impostazioni personali**.  
 
@@ -43,7 +43,7 @@ Nella versione di valutazione di 30 giorni è possibile creare un numero qualsia
 
 L'amministratore può ottenere ulteriori informazioni su versioni di valutazione e sottoscrizioni [qui](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## Copiare una società
+## <a name="copy-a-company"></a>Copiare una società
 
 Nella pagina **Società** è possibile utilizzare l'azione **Copia** per creare una seconda società in base al contenuto di una società esistente. Ciò è utile ad esempio quando si desidera testare una società senza interrompere i dati di produzione.
 
@@ -52,7 +52,7 @@ Nella pagina **Società** è possibile utilizzare l'azione **Copia** per creare 
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
-## Impostare la società
+## <a name="set-up-the-company"></a>Impostare la società
 
 Quando si accede a una nuova società, la procedura guidata **Setup società** si avvia automaticamente e fornisce le istruzioni per iniziare. Verranno richieste le informazioni sulla società, ad esempio l'indirizzo, i dati bancari e il metodo di calcolo dei costi di magazzino. Queste informazioni servono da base per molte aree di [!INCLUDE[prod_short](includes/prod_short.md)] che non dovranno quindi più essere impostate manualmente un momento successivo.  
 
@@ -60,26 +60,26 @@ Ad esempio, [!INCLUDE [prod_short](includes/prod_short.md)] include l'indirizzo 
 
 Dopo che sono state impostate le informazioni di base, è possibile impostare le restanti aree fondamentali. A questo punto puoi aggiungere i dati aziendali, ad esempio i clienti e i fornitori. Per ulteriori informazioni, vedi [Impostare [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Società e ambienti
+## <a name="companies-and-environments"></a>Società e ambienti
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Per ulteriori informazioni, vedere [Passare a un'altra società o ambiente](ui-organization-switch.md). Per ulteriori informazioni sugli ambienti, vedi [Informazioni sull'infrastruttura di Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (solo in inglese).  
 
-## Modificare il nome di una società
+## <a name="changing-a-companys-name"></a>Modificare il nome di una società
 
 Una volta creata una società, non puoi modificarne il nome. Puoi tuttavia modificarne il **Nome visualizzato**, ovvero il testo che verrà visualizzato per la società nell'applicazione.  
 
 > [!TIP]
 > Puoi rinominare una società se utilizzi [!INCLUDE[prod_short](includes/prod_short.md)] locale.
 
-## Aggiungere Contoso Coffee
+## <a name="add-contoso-coffee"></a>Aggiungere Contoso Coffee
 
 L'app Contoso Coffee fornisce dati dimostrativi per aiutarti a esplorare le funzionalità avanzate di [!INCLUDE [prod_short](includes/prod_short.md)]. Trova l'app in AppSource e installala in una società vuota, ad esempio un'azienda in un ambiente sandbox. Per ulteriori informazioni, vedi [Introduzione ai dati dimostrativi di Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
-## Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Personalizzazione di Business Central](ui-customizing-overview.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
