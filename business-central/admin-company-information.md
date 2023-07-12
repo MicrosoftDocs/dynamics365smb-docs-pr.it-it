@@ -8,7 +8,7 @@ ms.date: 08/31/2022
 ms.author: edupont
 ---
 
-# <a name="company-information-overview"></a>Panoramica delle informazioni sulla società
+# Panoramica delle informazioni sulla società
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organizza le entità aziendali in *società*. Per ogni società, è necessario compilare alcuni dei dettagli aziendali di base e le informazioni pertinenti nella pagina **Informazioni società**. Le informazioni nella pagina [**Informazioni società**](https://businesscentral.dynamics.com/?page=1) sono usate nei documenti, come le testate delle fatture. È possibile impostare più di una società, per esempio, una società madre e una consociata.  
 
@@ -16,19 +16,19 @@ Se la warehouse e la sede dell'azienda hanno indirizzi differenti è possibile c
 
 Per ogni società impostata è necessario completare la pagina **Informazioni società** e la pagina **Setup contabilità generale**. Devi anche impostare ogni area in [!INCLUDE [prod_short](includes/prod_short.md)], come la pagina **Setup contabilità clienti**, per ogni società. Per ulteriori informazioni, vedi [Panoramica dei task per impostare [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-La pagina **Informazioni società** contiene diversi campi e Schede dettaglio, a seconda del tuo paese. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] La tabella seguente descrive le Schede dettaglio più comuni.
+La pagina **Informazioni società** contiene diversi campi e Schede dettaglio, a seconda del tuo paese/area geografica. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] La tabella seguente descrive le Schede dettaglio più comuni.
 
 [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Una volta completata la compilazione delle informazioni puoi chiudere la pagina.  
 
-## <a name="working-with-multiple-companies"></a>Lavorare con più società
+## Lavorare con più società
 
 Se [!INCLUDE [prod_short](includes/prod_short.md)] include più società, i tuoi utenti potrebbero voler utilizzare i *badge aziendali* per sapere velocemente con quale azienda stanno attualmente lavorando. Per ulteriori informazioni, vedi [Visualizzare un badge società](#badge).
 
 Ci sono alcune funzioni che puoi utilizzare per passare da una società all'altra mentre lavori, come il selettore società (<kbd>CTRL</kbd>+<kbd>O</kbd>). Per ulteriori informazioni, vedi [Passare a un'altra società o ambiente](ui-organization-switch.md).
 
-## <a name="display-a-company-badge"></a><a name="badge"></a>Visualizzare un badge società
+## <a name="badge"></a>Visualizzare un badge società
 
 Quando c'è più di una società o un ambiente, vedrai il selettore società nella parte in alto a destra della barra dell'app, vicino all'icona di ricerca nella barra dell'app. Per impostazione predefinita, il selettore società utilizza un'icona di società standard, come ![icona di avvio della società.](media/ui-experience/company-icon.png "Visualizza l'icona del selettore società utilizzata quando è presente un unico ambiente") e ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Visualizza l'icona del selettore società utilizzata quando sono presenti più ambienti").
 
@@ -42,7 +42,7 @@ Usando la pagina **Informazioni società** puoi sostituire l'icona società stan
 > [!NOTE]
 > Il selettore di società è stato introdotto nel secondo ciclo di rilascio del 2022, versione 21. Nelle versioni precedenti, il badge società non viene utilizzato per cambiare società. Viene visualizzato nell'angolo in alto a destra della maggior parte delle pagine, anche quando è presente una sola società. Selezionandolo verranno visualizzati il nome completo della società e il nome dell'ambiente.
 
-## <a name="change-company-display-name"></a>Cambiare il nome visualizzato della società
+## Cambiare il nome visualizzato della società
 
 Il nome della società viene sempre visualizzato nell'angolo in alto a sinistra e funziona come un'azione che è possibile scegliere per tornare a Gestione ruolo utente. Questo nome può essere modificato nella pagina **Informazioni società**.
 
@@ -50,13 +50,13 @@ Il nome della società viene sempre visualizzato nell'angolo in alto a sinistra 
 2. Nel campo **Nome** immettere il nuovo nome della società.
 3. Chiudere la pagina. Il sistema si riavvia e visualizza la nuova società nell'angolo superiore sinistro.
 
-## <a name="experience"></a>Esperienza
+## Esperienza
 
 L'esperienza utente predefinita in una versione di prova di [!INCLUDE [prod_short](includes/prod_short.md)] non rivela tutte le capacità. Puoi attivare l'esperienza completa nella pagina **Informazioni sulla società**. Per ulteriori informazioni, vedi [Modifica delle funzionalità visualizzate](ui-experiences.md).  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica delle attività per impostare [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Informazioni società - Inizio rapido](quick-start-company-information.md)  

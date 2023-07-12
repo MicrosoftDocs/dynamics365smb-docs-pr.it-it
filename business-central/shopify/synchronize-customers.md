@@ -29,7 +29,7 @@ Importando i clienti da Shopify in blocco o insieme all'importazione degli ordin
 |**Crea automaticamente clienti sconosciuti**| Seleziona questo campo se desideri che il connettore crei clienti mancanti, quando le opzioni **Per e-mail/telefono** o**Per informazioni Fatturare a** sono selezionate nel campo **Tipo di mapping cliente**. Verrà creato un nuovo cliente utilizzando i dati importati e il **Codice modello cliente** definito nelle pagine **Scheda punto vedita Shopify** o **Modello cliente Shopify**. Si noti che il cliente Shopify deve avere almeno un indirizzo. Gli ordini creati tramite il canale di vendita POS Shopify spesso non contengono i dettagli dell'indirizzo. Se questa opzione non è abilitata, dovrai creare il cliente manualmente e collegarlo al cliente Shopify.|
 |**Codice modello cliente**|Questo campo viene usato insieme a **Crea automaticamente clienti sconosciuti**.<br>- Scegli il modello predefinito da utilizzare per i clienti creati automaticamente. Assicurati che il modello selezionato contenga i campi obbligatori, come i campi **Cat. reg. business**, **Cat. reg. cliente**, IVA o campi relativi alle imposte.<br>- È possibile definire modelli per paese/regione nella pagina **Modelli cliente Shopify**, utile per un corretto calcolo delle tasse. <br>- Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).|
 
-### Modello cliente per paese
+### Modello cliente per paese/area geografica
 
 Alcune impostazioni possono essere definite a livello nazionale/regionale o statale/provinciale. Le impostazioni possono essere configurate in [Spedizione e consegna](https://www.shopify.com/admin/settings/shipping) su Shopify.
 
@@ -37,7 +37,7 @@ Puoi eseguire le seguenti operazioni per ogni cliente con il **Modello cliente S
 
 1. Specificare **Nr. cliente predefinito**, che ha la priorità sulla selezione nei campi **Importazione cliente da Shopify** e **Tipo di mapping cliente**. Viene utilizzato nell'ordine cliente importato.
 2. Definisci il **Codice modello cliente**, che viene utilizzato per creare clienti mancanti, se **Crea automaticamente clienti sconosciuti** è abilitato. Se **Codice modello cliente** è vuoto, la funzione utilizza **Codice modello cliente** definito nella **Scheda punto vendita Shopify**. Il sistema tenta innanzitutto di trovare un modello **Codice paese/regione** per l'indirizzo predefinito. Se non trova un modello, usa il primo indirizzo.
-3. In alcuni casi, il **Codice modello cliente** definito per un paese non è sufficiente per garantire il corretto calcolo delle imposte (ad esempio, per i paesi con imposta sulle vendite). In questo caso, l'inclusione delle **Area fiscale** potrebbe essere un'utile aggiunta.
+3. In alcuni casi, il **Codice modello cliente** definito per un paese/area geografica non è sufficiente per garantire il corretto calcolo delle imposte (ad esempio, per i paesi/aree geografiche con imposta sulle vendite). In questo caso, l'inclusione delle **Area fiscale** potrebbe essere un'utile aggiunta.
 4. Il campo **Area imposte** contiene anche un abbinamento **Codice paese** e **Nome regione**. Questa coppia è utile quando il connettore deve convertire un codice in un nome o viceversa.
 
 > [!NOTE]  
@@ -83,7 +83,7 @@ Anche un cliente in Shopify ha un indirizzo predefinito. L'indirizzo può conten
 |1|**Nome**|Priorità massima, se il campo **Origine nome** nella**Scheda punto vednita Shopify** contiene *Nome azienda*.|
 |2|**Nome 2**|Priorità più bassa, se il campo **Origine nome 2** nella **Scheda cliente Shopify** contiene *Nome azienda*.|
 
-Per gli indirizzi in cui viene utilizzato il paese/regione, seleziona **Codice** o **Nome** nel campo **Origine regione** nella pagina **Scheda punto vendita Shopify**. Specifica il tipo di dati archiviati in [!INCLUDE[prod_short](../includes/prod_short.md)] nel campo **Regione**. Ricordati di inizializzare i modelli dei clienti per paese in modo che la mappatura del codice/nome della regione sia pronta. 
+Per gli indirizzi in cui viene utilizzato il paese/regione, seleziona **Codice** o **Nome** nel campo **Origine regione** nella pagina **Scheda punto vendita Shopify**. Specifica il tipo di dati archiviati in [!INCLUDE[prod_short](../includes/prod_short.md)] nel campo **Regione**. Ricordati di inizializzare i modelli dei clienti per paese/area geografica in modo che la mappatura del codice/nome della regione sia pronta. 
 
 
 ## Sincronizzare clienti

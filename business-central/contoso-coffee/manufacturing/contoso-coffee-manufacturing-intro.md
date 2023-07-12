@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduzione alla produzione di Contoso Coffee
+# Introduzione alla produzione di Contoso Coffee
 
 Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono i dati demo che puoi usare per imparare a usare le funzionalità di produzione in Business Central.  
 
@@ -36,7 +36,7 @@ Le attività di produzione per tutti gli scenari utilizzano la località *NORD*.
 > [!IMPORTANT]
 > Prima di eseguire uno qualsiasi degli scenari per Contoso Coffee, registra le righe di registrazione articolo con i saldi di apertura. Per ulteriori requisiti, vedi la sezione [Impostare i dati di Contoso Coffee](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Impostare i dati di produzione Contoso Coffee
+## Impostare i dati di produzione Contoso Coffee
 
 Per usare i dati demo di produzione Contoso Coffee, devi installare due app nell'azienda pertinente in [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -45,7 +45,7 @@ Per usare i dati demo di produzione Contoso Coffee, devi installare due app nell
     Questa app fornisce i dati demo per l'applicazione di base.  
 - **Set di dati demo Contoso Coffee (ID paese)**  
 
-    Questa app aggiunge contenuti specifici per il paese oltre a quelli dell'applicazione di base.
+    Questa app aggiunge contenuti specifici per il paese/area geografica oltre a quelli dell'applicazione di base.
 
 Aggiungi le app a un'azienda vuota in un abbonamento a pagamento o come parte di una versione di valutazione. Ad esempio, crea una nuova società senza dati di esempio dalla guida setup assistito **Crea una nuova società** che puoi aprire dall'elenco **Società**. Quindi aggiungi le app dal [marketplace](../../ui-extensions-install-uninstall.md#install) se non sono già elencate nella pagina **Gestione estensioni**.  
 
@@ -67,7 +67,7 @@ Una volta installate le app pertinenti, vai alla pagina [Dati demo di Contoso Co
 
 Quando sei pronto, scegli l'azione **Crea dati demo**. Occorrono alcuni minuti per aggiungere i dati al database sottostante, ma poi sei pronto per eseguire i vari scenari.  
 
-## <a name="scenarios"></a>Scenari
+## Scenari
 
 I dati demo di produzione Contoso Coffee attualmente supportano i seguenti scenari per il test e la formazione:
 
@@ -85,7 +85,7 @@ Leggi i passaggi per ogni scenario nell'articolo pertinente.
 > [!IMPORTANT]
 > Queste procedure dettagliate richiedono che l'esperienza utente sia impostata su *Premium* nella pagina **Informazioni società**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Manufacturing](../../production-manage-manufacturing.md)  
 [Report di produzione e analisi in Business Central](../../production-reports.md)  

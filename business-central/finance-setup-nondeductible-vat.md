@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Impostare l'IVA non detraibile
 
-L'imposta sul valore aggiunto (IVA) non detraibile è l'IVA che è dovuta da un acquirente, ma che non è detraibile dal proprio debito IVA dell'acquirente. Le aziende possono solitamente recuperare l'IVA sull'acquisto di beni e servizi correlati alle loro attività commerciali. Tuttavia, in alcune situazioni, un'azienda è soggetta all'IVA che non è detraibile. Queste situazioni sono in genere correlate alle normative locali e possono variare da paese a paese. Tuttavia, il modello di utilizzo dell'IVA non detraibile o parzialmente detraibile è simile. Puoi utilizzare l'IVA proporzionale per calcolare l'IVA quando c'è IVA detraibile e non detraibile.
+L'imposta sul valore aggiunto (IVA) non detraibile è l'IVA che è dovuta da un acquirente, ma che non è detraibile dal proprio debito IVA dell'acquirente. Le aziende possono solitamente recuperare l'IVA sull'acquisto di beni e servizi correlati alle loro attività commerciali. Tuttavia, in alcune situazioni, un'azienda è soggetta all'IVA che non è detraibile. Queste situazioni sono in genere correlate alle normative locali e possono variare da paese a paese, da area geografica ad area geografica. Tuttavia, il modello di utilizzo dell'IVA non detraibile o parzialmente detraibile è simile. Puoi utilizzare l'IVA proporzionale per calcolare l'IVA quando c'è IVA detraibile e non detraibile.
 
 In generale, l'IVA non può essere detratta per alcuni acquisti a causa dei seguenti fattori:
 
 - **Tipologia di beni e servizi acquistati**: l'IVA non è detraibile completamente o parzialmente per legge su beni quali automobili, telefoni cellulari, alimentari acquistati presso ristoranti.
 - **IVA proporzionale parzialmente detraibile**: l'IVA viene ripartita proporzionalmente tra le operazioni di vendita soggette a IVA e tutte le operazioni eseguite. L'IVA eccedente questo rapporto non può essere detratta.
 
-Poiché può essere difficile sapere dove e come viene utilizzato un articolo, è necessario contattare le autorità fiscali locali del proprio paese per determinare se una determinata percentuale dell'IVA è detraibile in base ai dati storici. 
+Poiché può essere difficile sapere dove e come viene utilizzato un articolo, è necessario contattare le autorità fiscali locali del proprio paese/area geografica per determinare se una determinata percentuale dell'IVA è detraibile in base ai dati storici. 
 
 > [!IMPORTANT]
 > Questa funzione globale è disponibile in tutti i paesi con IVA abilitata **ad eccezione di Belgio, Italia, Norvegia e Spagna**. Queste localizzazioni dispongono già di funzionalità locali esistenti e verranno aggiornate in futuro. Non eseguire questa funzione in questi paesi perché la procedura di aggiornamento non esiste.

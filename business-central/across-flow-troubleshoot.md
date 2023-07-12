@@ -4,7 +4,7 @@ description: Scopri come risolvere i problemi di connessione tra Business Centra
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 06/16/2023
+ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: d365-business-central
@@ -22,7 +22,7 @@ Se un evento crea o modifica molti record, il flusso non viene eseguito su alcun
 
 ### Causa possibile
 
-Attualmente esiste un limite al numero di record che un flusso può elaborare. Se vengono creati o modificati più di 100 record entro 30 secondi, il flusso non viene attivato.
+Attualmente esiste un limite al numero di record che un flusso può elaborare. Se vengono creati o modificati più di 1000 record entro 30 secondi, il flusso non viene attivato.
 
 > [!NOTE]
 > Per gli sviluppatori, l'attivazione del flusso viene eseguita tramite notifiche webhook e questa limitazione è dovuta al modo in cui il connettore Business Central gestisce le notifiche `collection`. Per ulteriori informazioni, vedi [Utilizzo dei webhook in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) nella Guida per sviluppatori e amministratori.

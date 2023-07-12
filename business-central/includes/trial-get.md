@@ -7,7 +7,7 @@ ms.author: edupont
 1. Vai al [sito della versione di valutazione](https://go.microsoft.com/fwlink/?linkid=847861), scegli *Finanza e operazioni*, e poi, nella scheda **Dynamics 365 Business Central**, scegli il pulsante **Prova gratuitamente**.  
 2. Immetti il tuo indirizzo e-mail aziendale o dell'istituto di istruzione e altri dettagli. Verrà eseguito il reindirizzamento alla versione di valutazione all'indirizzo [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
 
-Il caricamento della versione di valutazione richiederà alcuni istanti, quindi puoi iniziare a utilizzare l'app. L'elemento di controllo **Inizia** ti guida attraverso i passaggi per prepararti al lavoro. I passaggi variano a seconda del paese e di qualsiasi funzionalità specifica del settore aggiunta a [!INCLUDE [prod_short](prod_short.md)].  
+Il caricamento della versione di valutazione richiederà alcuni istanti, quindi puoi iniziare a utilizzare l'app. L'elemento di controllo **Inizia** ti guida attraverso i passaggi per prepararti al lavoro. I passaggi variano a seconda del paese/area geografica e di qualsiasi funzionalità specifica del settore aggiunta a [!INCLUDE [prod_short](prod_short.md)].  
 
 In [!INCLUDE[prod_short](prod_short.md)] alcune funzionalità saranno familiari, altre potrebbero essere nuove da scoprire. Quando si accede per la prima volta alla società demo, si accede a una pagina Scheda Inizia con un collegamento per visualizzare i tour dimostrativi. Per ulteriori informazioni, vedere [Prepararsi a fare affari](../ui-get-ready-business.md) e gli articoli di [avvio rapido](../quick-start-business-central.md) .  
 
