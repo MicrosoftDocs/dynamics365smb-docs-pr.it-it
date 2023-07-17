@@ -189,8 +189,9 @@ La sincronizzazione delle immagini può essere inizializzata nei due modi descri
 
 ### Osservazioni sulla sincronizzazione delle immagini
 
-* Quando si esportano immagini da [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify, vengono aggiunte le nuove immagini a Shopify, mantenendo intatte le vecchie immagini. Se un'immagine viene aggiornata in [!INCLUDE[prod_short](../includes/prod_short.md)], dovrai eliminare le vecchie immagini in **Amministratore Shopify**.
-* Le immagini esportate in Shopify che non rispettano i requisiti definiti da Shopify non verranno importate. Per ulteriori informazioni, vedi [Tipi di supporto del prodotto su help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images)
+* Quando esporti immagini da [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify, le immagini sostituiscono quelle esportate in precedenza. Le immagini precedenti non sono più disponibili.
+* Se elimini un'immagine in [!INCLUDE[prod_short](../includes/prod_short.md)], l'immagine in Shopify non viene eliminata. Dovrai eliminare manualmente le vecchie immagini in **Amministrazione Shopify**.
+* Le immagini esportate in Shopify devono essere conformi ai requisiti Shopify. Altrimenti, non puoi importarle. Per ulteriori informazioni sui requisiti multimediali, vai a [Tipi di supporto del prodotto su help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images)
 
 ## Sincronizzare i prezzi con Shopify
 

@@ -18,7 +18,7 @@ Questo articolo descrive le impostazioni e i passaggi necessari da eseguire per 
 
 Immetti un **Codice valuta** se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDE[prod_short](../includes/prod_short.md)], lascia il campo vuoto. 
 
-Puoi vedere la valuta del punto vendita nelle impostazioni [Dettagli punto vendita](https://www.shopify.com/admin/settings/general) nel tuo Amministratore Shopify. Shopify può essere configurato per accettare diverse valute, tuttavia gli ordini importati in [!INCLUDE[prod_short](../includes/prod_short.md)] usano la valuta del punto vendita.
+Puoi accedere alla valuta del punto vendita nelle impostazioni [Dettagli punto vendita](https://www.shopify.com/admin/settings/general) nel tuo Amministratore Shopify. Shopify può essere configurato per accettare diverse valute, tuttavia gli ordini importati in [!INCLUDE[prod_short](../includes/prod_short.md)] usano la valuta del punto vendita.
 
 Un ordine Shopify regolare può includere importi extra al subtotale, come spese di spedizione o, se abilitate, mance. Questi importi vengono registrati direttamente nel conto C/G che si desidera usare per tipi di transazione specifici:
 
@@ -96,6 +96,31 @@ In alternativa, puoi cercare il processo batch **Sincronizza ordini da Shopify**
 
 È possibile pianificare l'attività da eseguire automaticamente. Ulteriori informazioni su [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
 
+### Informazioni dettagliate
+
+Il connettore Shopify importa gli ordini in due fasi:
+
+1.  Importa le intestazioni degli ordini nella tabella **Ordini Shopify da importare** quando soddisfano determinate condizioni:
+    
+* Non vengono soddisfatte.
+* Sono state create o modificate dopo l'ultima sincronizzazione.
+
+2.  Importa ordini Shopify e informazioni aggiuntive.
+* Il Connettore Shopify elabora tutti i record nella tabella **Ordini Shopify da importare** che corrispondono ai criteri di filtro definiti nella pagina di richiesta **Sincronizza ordini da Shopify**. Ad esempio, tag, canale o stato di evasione ordini. Se non hai specificato alcun filtro, elabora tutti i record.
+* Durante l'importazione dell'ordine Shopify, il connettore Shopify richiede informazioni supplementari da Shopify:
+
+    * Intestazione ordine
+    * Righe ordine
+    * Informazioni sulla spedizione e l'evasione
+    * Transazioni
+    * Resi e rimborsi, se configurati
+
+La pagina **Ordine Shopify da importare** è utile per la risoluzione dei problemi di importazione degli ordini. Puoi valutare gli ordini disponibili e seguire i passaggi successivi:
+
+* Controlla se un errore ha bloccato l'importazione di un ordine specifico ed esplora i dettagli dell'errore. Controlla il campo **Con errore**.
+* Elabora solo ordini specifici. Dovrai compilare il campo **Codice punto vendita**, selezionare uno o più ordini, quindi scegliere l'azione **Importa ordini selezionati**.
+* Elimina gli ordini dalla pagina **Ordine Shopify da importare** per escluderli dalla sincronizzazione.
+
 ## Esaminare gli ordini importati
 
 Una volta completata l'importazione, puoi esplorare l'ordine Shopify e trovare tutte le informazioni correlate, come transazioni di pagamento, costi di spedizione, livello di rischio, attributi e tag o adempimenti se l'ordine è stato già adempiuto in Shopify. Puoi anche vedere la conferma di ogni ordine inviata al cliente scegliendo l'azione **Pagina di stato Shopify**.
@@ -131,7 +156,7 @@ Se le tue impostazioni impediscono la creazione automatica di un cliente e non �
 
 La funzione *Importa ordine da Shopify* cerca di selezionare i clienti nel seguente ordine:
 
-1. Se **Nr. cliente predefinito** è definito nel **Modello cliente Shopify** per **Spedire a - Codice paese/area geografica**, quindi **Nr. cliente predefinito** viene utilizzato indipendentemente dalle impostazioni nei campi **Importazione cliente da Shopify** e **Tipo di mapping cliente**. Ulteriori informazioni in [Modello cliente per paese](synchronize-customers.md#customer-template-per-country).
+1. Se **Nr. cliente predefinito** è definito nel **Modello cliente Shopify** per **Spedire a - Codice paese/area geografica**, quindi **Nr. cliente predefinito** viene utilizzato indipendentemente dalle impostazioni nei campi **Importazione cliente da Shopify** e **Tipo di mapping cliente**. Ulteriori informazioni in [Modello cliente per paese](synchronize-customers.md#customer-template-per-countryregion).
 2. Se **Importazione cliente da Shopify** è impostato su *Nessuno* e **Nr. cliente predefinito** è definito nella pagina **Scheda punto vendita Shopify**, il **Nr. cliente predefinito** viene utilizzato.
 
 I prossimi passaggi dipendono dal **Tipo di mapping cliente**.
