@@ -12,7 +12,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# Impostare l'IVA non detraibile
+# <a name="set-up-non-deductible-vat"></a>Impostare l'IVA non detraibile
 
 L'imposta sul valore aggiunto (IVA) non detraibile è l'IVA che è dovuta da un acquirente, ma che non è detraibile dal proprio debito IVA dell'acquirente. Le aziende possono solitamente recuperare l'IVA sull'acquisto di beni e servizi correlati alle loro attività commerciali. Tuttavia, in alcune situazioni, un'azienda è soggetta all'IVA che non è detraibile. Queste situazioni sono in genere correlate alle normative locali e possono variare da paese a paese, da area geografica ad area geografica. Tuttavia, il modello di utilizzo dell'IVA non detraibile o parzialmente detraibile è simile. Puoi utilizzare l'IVA proporzionale per calcolare l'IVA quando c'è IVA detraibile e non detraibile.
 
@@ -26,7 +26,7 @@ Poiché può essere difficile sapere dove e come viene utilizzato un articolo, �
 > [!IMPORTANT]
 > Questa funzione globale è disponibile in tutti i paesi con IVA abilitata **ad eccezione di Belgio, Italia, Norvegia e Spagna**. Queste localizzazioni dispongono già di funzionalità locali esistenti e verranno aggiornate in futuro. Non eseguire questa funzione in questi paesi perché la procedura di aggiornamento non esiste.
 
-## Usare IVA non detraibile
+## <a name="use-non-deductible-vat"></a>Usare IVA non detraibile
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup e-mail VAT**, quindi seleziona il collegamento correlato.
 2. Seleziona la casella di controllo **Abilita IVA non detraibile**.
@@ -41,7 +41,7 @@ Poiché può essere difficile sapere dove e come viene utilizzato un articolo, �
     3. Seleziona la casella di controllo **Utilizza per costo commessa** per specificare che l'IVA non detraibile deve essere aggiunta al costo del lavoro quando si acquistano articoli per il lavoro. In caso contrario, l'IVA non detraibile non influirà sul costo della commessa e l'intero importo verrà registrato solo a livello di contabilità generale.
     4. Seleziona la casella di controllo **Mostra IVA non detraibile nelle righe** per specificare che l'IVA non detraibile deve essere visualizzata nelle pagine delle righe del documento per facilitare la manipolazione degli importi IVA.
 
-## Utilizza la percentuale IVA non detraibile
+## <a name="use-the-non-deductible-vat-percentage"></a>Utilizza la percentuale IVA non detraibile
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni IVA**, quindi seleziona il collegamento correlato.
 2. Compilare i campi nella pagina **Setup registrazioni IVA** come descritto nella tabella riportata di seguito.
@@ -62,7 +62,7 @@ Poiché può essere difficile sapere dove e come viene utilizzato un articolo, �
 >
 > Non usare lo stesso valore per **Codice IVA** sia per IVA normale dove il campo **% IVA indetraibile** è impostato su **0** (zero) e IVA normale dove il campo **% IVA non detraibile** è impostato su un valore diverso da zero. In caso contrario, l'importo totale dell'IVA non detraibile sarà calcolato in modo errato.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione contabile](finance.md)  
 [Setup dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)  
