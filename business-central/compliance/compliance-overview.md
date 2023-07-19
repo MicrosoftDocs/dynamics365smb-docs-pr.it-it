@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="compliance-overview"></a>Panoramica sulla conformità
+# Panoramica sulla conformità
 
 Questo argomento contiene informazioni sulla conformità in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
