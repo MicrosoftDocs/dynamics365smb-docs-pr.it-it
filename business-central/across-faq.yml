@@ -5,7 +5,7 @@ metadata:
   author: edupont04
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 09/07/2022
+  ms.date: 07/14/2023
   ms.author: edupont
 title: Domande frequenti sull'utilizzo di Business Central
 summary: |
@@ -28,9 +28,9 @@ sections:
       - question: |
           Dove posso trovare risposta alle domande?
         answer: |
-          In caso di domande su [!INCLUDE[prod_short](includes/prod_short.md)] per cui non è possibile trovare risposta in questa documentazione, rivolgersi alla community di Business Central. Ulteriori informazioni in [Community di Dynamics 365 Business Central](https://community.dynamics.com/business).  
+          In caso di domande su [!INCLUDE[prod_short](includes/prod_short.md)] per cui non è possibile trovare risposta in questa documentazione, rivolgersi alla community di Business Central. Ulteriori informazioni in [Forum della community di Dynamics 365 Business Central](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
 
-          Nella home page della community, è anche possibile trovare collegamenti ai nostri blog dove è possibile trovare suggerimenti e consigli. Ulteriori informazioni in [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) e nel [blog di Dynamics 365 Business Central precedente](https://community.dynamics.com/business/b/financials).  
+          Nella home page della community, è anche possibile trovare collegamenti ai nostri blog dove è possibile trovare suggerimenti e consigli. Ulteriori informazioni in [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) e nel [blog di Dynamics 365 Business Central precedente](https://community.dynamics.com/blogs/?blogid=57bdb1f3-851d-4406-a81a-508fef896fc2&groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
 
           Infine, è possibile contattare il proprio partner rivenditore di [!INCLUDE[prod_short](includes/prod_short.md)]. Ulteriori informazioni nelle sezioni [Come ottengo il supporto tecnico?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) e [Come trovo un partner per la rivendita?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -61,7 +61,7 @@ sections:
       - question: |
           Dov'è il pulsante Salva?
         answer: |
-          non esiste alcun pulsante *Salva* nelle pagine come in altri programmi con cui si ha familiarità. In [!INCLUDE[prod_short](includes/prod_short.md)], le modifiche a un campo vengono automaticamente salvate non appena si passa al campo successivo o si chiude la pagina, purché non ci siano errori. Quando si apportano modifiche a un campo e ci si sposta a un altro campo, verrà visualizzato il testo **Salvataggio** nell'angolo in alto a destra della pagina. Cambia in **Salvato** rapidamente se non si verificano errori. Se si verifica un errore, il testo diventerà **Non salvato**.  
+          Non esiste alcun pulsante *Salva* nelle pagine come in altri programmi con cui si ha familiarità. In [!INCLUDE[prod_short](includes/prod_short.md)], le modifiche a un campo vengono automaticamente salvate non appena si passa al campo successivo o si chiude la pagina, purché non ci siano errori. Quando si apportano modifiche a un campo e ci si sposta a un altro campo, verrà visualizzato il testo **Salvataggio** nell'angolo in alto a destra della pagina. Cambia in **Salvato** rapidamente se non si verificano errori. Se si verifica un errore, il testo diventerà **Non salvato**.  
       - question: |
           Dove si trova quel numero di riga?
         answer: |

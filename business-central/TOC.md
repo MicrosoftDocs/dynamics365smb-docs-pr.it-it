@@ -106,9 +106,9 @@
 ##### [Panoramica della riga registrazioni COGE](design-details-general-journal-post-line-overview.md)  
 ##### [Dettagli di progettazione: struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)  
 ##### [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)  
-
-## Versione di valutazione
-### [Iscrizione a una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md)
+#### [Dettagli di progettazione: IVA non deducibile](design-details-nondeductible-vat.md)
+## Prova
+### [Iscrizione per una versione di valutazione gratuita di Dynamics 365 Business Central](trial-signup.md)
 ### [Domande frequenti sulla versione di valutazione di Dynamics 365 Business Central](trial-faq.md)
 ### [Versioni di valutazione e sottoscrizioni (solo inglese)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Preparazione al business](ui-get-ready-business.md)
@@ -213,7 +213,7 @@
 ## Guida e supporto
 ### [Risorse per guida e supporto](product-help-and-support.md)
 ### [Visitare la videoteca](across-videos.md)
-### [Ottenere supporto tecnico](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Ottenere supporto tecnico](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 <!--## Microsoft Learn training
 ### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -996,10 +996,11 @@
 ##### [Eliminazione di note di credito e fatture registrate](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
 ### India
-#### [Sintesi](LocalFunctionality/India/india-local-functionality.md)
+#### [Panoramica](LocalFunctionality/India/india-local-functionality.md)
 #### [Impostare le serie di numeri di posta](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Log di modifica e audit trail per il software per la contabilità in India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Motore imposte
-##### [Sintesi](LocalFunctionality/India/TaxEngine-001-Overview.md)  
+##### [Panoramica](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configurazione di esportazione/importazione del motore imposte](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
 ##### Configurazione del motore imposte
 ###### [Configurazione del tipo di imposta e dell'aliquota fiscale](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
