@@ -11,7 +11,7 @@ ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Abilitare i pagamenti clienti tramite i servizi di pagamento
+# <a name="enable-customer-payments-through-payment-services"></a>Abilitare i pagamenti clienti tramite i servizi di pagamento
 
 Come alternativa alla riscossione dei pagamenti tramite bonifico o carte di credito, i clienti possono pagare utilizzando il conto personale e servizi di pagamento, quali PayPal o WorldPay.  
 
@@ -22,7 +22,7 @@ Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono install
 > [!CAUTION]
 > L'estensione WorldPay Payments Standard sarà obsoleta. Il codice è commercializzato come obsoleto a partire dal secondo ciclo di rilascio del 2023. L'app sarà attiva per le prossime tre versioni principali e poi verrà rimossa.   
 
-## Per abilitare un servizio di pagamento in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-"></a>Per abilitare un servizio di pagamento in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Servizi di pagamento**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Servizi di pagamento** scegliere l'azione **Nuovo**.  
@@ -31,7 +31,7 @@ Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono install
 5. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Chiudere la pagina.  
 
-## Per selezionare un servizio di pagamento di una fattura di vendita
+## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Per selezionare un servizio di pagamento di una fattura di vendita
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Aprire una fattura di vendita che si desidera pagare utilizzando il servizio di pagamento.  
@@ -40,9 +40,9 @@ Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono install
     > [!NOTE]  
     > Il campo **Servizio di pagamento** è disponibile solo se è stato abilitato il servizio di pagamento.  
 
-## Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  

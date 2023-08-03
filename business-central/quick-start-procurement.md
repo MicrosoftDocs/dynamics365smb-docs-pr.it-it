@@ -12,11 +12,11 @@ ms.date: 09/29/2021
 ms.author: edupont
 ---
 
-# Inizio rapido per l'approvvigionamento
+# <a name="procurement-quick-start"></a>Inizio rapido per l'approvvigionamento
 
 Per essere in grado di acquistare prodotti e servizi, devi prima impostare i venditori. Una volta fatto questo, si può iniziare a registrare gli ordini di acquisto e a ricevere le fatture.  
 
-## Impostare i venditori
+## <a name="set-up-vendors"></a>Impostare i venditori
 
 Il seguente video mostra come impostare un fornitore in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -24,13 +24,13 @@ Il seguente video mostra come impostare un fornitore in [!INCLUDE[prod_short](in
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### Impostare un nuovo fornitore
+### <a name="set-up-a-new-vendor"></a>Impostare un nuovo fornitore
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Per ulteriori informazioni e cose aggiuntive che puoi fare quando registri i fornitori, vedi [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md).  
 
-## Creare nuovi ordini di acquisto
+## <a name="create-new-purchase-orders"></a>Creare nuovi ordini di acquisto
 
 Quando compri qualcosa da un venditore hai due opzioni. Il primo, e più semplice, è quello di creare semplicemente una fattura di acquisto. Tuttavia, devi usare gli ordini di acquisto se il tuo processo di acquisto richiede che tu registri ricevute parziali di una quantità di ordine, per esempio, perché l'intera quantità non era disponibile presso il venditore.
 
@@ -40,7 +40,7 @@ Il seguente video mostra come creare un ordine di acquisto in [!INCLUDE[prod_sho
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### Per creare un ordine di acquisto  
+### <a name="to-create-a-purchase-order"></a>Per creare un ordine di acquisto
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 
@@ -66,11 +66,11 @@ Il seguente video mostra come creare un ordine di acquisto in [!INCLUDE[prod_sho
 
 Per maggiori informazioni e ulteriori cose che puoi fare quando crei un ordine di acquisto, vedi [Acquisti](purchasing-manage-purchasing.md).  
 
-## Creare una fattura di acquisto  
+## <a name="create-a-purchase-invoice"></a>Creare una fattura di acquisto
 
 Si crea una fattura di acquisto per registrare il costo degli acquisti e per tenere traccia dei conti passivi. La creazione di una fattura di acquisto è simile alla creazione di un ordine di acquisto.
 
-### Come creare e pubblicare una fattura d'acquisto  
+### <a name="how-to-create-and-post-a-purchase-invoice"></a>Come creare e pubblicare una fattura d'acquisto
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 3](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Fattura di acquisto**, selezionare l'azione **Nuovo** per creare una nuova Fattura di acquisto.
@@ -95,7 +95,7 @@ L'acquisto si riflette ora nel magazzino, nei movimenti contabili risorse e nei 
 
 Per maggiori informazioni e ulteriori cose che puoi fare quando crei una fattura d'acquisto, vedi [Registrare gli acquisti con le fatture d'acquisto](purchasing-how-record-purchases.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
 [Panoramica sugli acquisti](Purchasing-manage-purchasing.md)  
