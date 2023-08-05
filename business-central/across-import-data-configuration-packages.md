@@ -10,7 +10,7 @@ ms.search.keywords: 'migration, Excel'
 ms.date: 05/10/2022
 ms.author: edupont
 ---
-# <a name="import-business-data-from-other-finance-systems"></a>Importare dati aziendali da altri sistemi finanziari
+# Importare dati aziendali da altri sistemi finanziari
 
 Quando ci si iscrive a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile scegliere di creare una società vuota nella quale caricare i propri dati e testare la nuova società in [!INCLUDE[prod_short](includes/prod_short.md)]. A seconda della soluzione contabile che l'azienda utilizza correntemente, è possibile trasferire le informazioni sui conti clienti, fornitori, magazzino e bancari.  
 
@@ -21,11 +21,11 @@ Dalla Gestione ruolo utente, è possibile avviare una guida al setup assistito c
 > [!TIP]  
 > Si consiglia di usare le procedure guidate di migrazione dati per importare i dati da Dynamics GP, Dynamics NAV o QuickBooks. Per ulteriori informazioni, vedere [Eseguire la migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo o [Migrazione dei dati di QuickBooks](ui-extensions-quickbooks-data-migration.md).
 
-## <a name="work-with-data-in-excel"></a>Utilizzare i dati in Excel
+## Utilizzare i dati in Excel
 
 Puoi utilizzare il componente aggiuntivo di Excel per preparare il contneuto esistente per l'uso in [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Visualizzare e modificare in Excel da Business Central](across-work-with-excel.md).  
 
-## <a name="import-data-from-configuration-packages"></a>Importare di dati dei pacchetti di configurazione
+## Importare di dati dei pacchetti di configurazione
 
 Per un lavoro di implementazione più ampio, puoi impostare pacchetti di configurazione specifici per la soluzione. Per ulteriori informazioni, vedere [Impostare pacchetti di configurazione aziendale ](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (solo in inglese) nel contenuto per amministratori.  
 
@@ -42,7 +42,7 @@ Quando si esporta il pacchetto di configurazione di default in Excel, la cartell
 > [!NOTE]
 > I campi di tipo BLOB non possono essere esportati/importati utilizzando Excel.
 
-### <a name="tables-in-the-default-configuration-package"></a>Tabelle nel pacchetto di configurazione di default
+### Tabelle nel pacchetto di configurazione di default
 
 Il pacchetto di configurazione di default supporta le seguenti tabelle:
 
@@ -73,14 +73,14 @@ Il pacchetto di configurazione di default supporta le seguenti tabelle:
 - Prezzo vendita
 - Prezzo acquisto
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Eseguire la migrazione dei dati locali in Business Central Online (solo in inglese)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Configurare i pacchetti di configurazione dell'azienda](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  
 [Migrazione dei dati QuickBooks](ui-extensions-quickbooks-data-migration.md)  
 [Importare molteplici immagini articolo](inventory-how-import-item-pictures.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

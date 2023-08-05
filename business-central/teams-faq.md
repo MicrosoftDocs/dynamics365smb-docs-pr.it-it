@@ -340,6 +340,10 @@ L'eliminazione di un messaggio che contiene una scheda non elimina né modifica 
 
 No. I valori dei campi in una scheda di Teams, incluse le immagini, sono basati sui dati disponibili al momento dell'invio della scheda alla chat. Le schede di [!INCLUDE [prod_short.md](includes/prod_short.md)] non vengono aggiornate automaticamente in Teams. 
 
+### Perché le schede non mostrano più informazioni anziché solo il nome della pagina e il pulsante dei dettagli?
+
+Un amministratore potrebbe aver configurato l'integrazione di Teams in modo che le schede non mostrino i dati sui record. Per ulteriori informazioni, vedi [Mostrare o nascondere i dati dei record sulle schede](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+
 ### Gli altri utenti vedranno la mia scheda se non hanno l'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams? 
 
 Quando scrivi e invii un messaggio in chat che include una scheda, tutti gli utenti vedranno la scheda&mdash;anche se non hanno installato l'app [!INCLUDE [prod_short.md](includes/prod_short.md)] per Teams.

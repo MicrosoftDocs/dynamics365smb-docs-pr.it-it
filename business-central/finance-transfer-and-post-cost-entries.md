@@ -10,7 +10,7 @@ ms.search.form: '1100, 1103, 1104, 1108, 1113, 1135'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="transferring-and-posting-cost-entries"></a>Trasferimento e registrazione di movimenti di costi
+# Trasferimento e registrazione di movimenti di costi
 
 Prima di definire le allocazioni costi, è necessario comprendere come i movimenti di costi derivino dalle origini seguenti:  
 
@@ -19,7 +19,7 @@ Prima di definire le allocazioni costi, è necessario comprendere come i movimen
 - Registrazioni automatiche delle allocazioni per i costi effettivi.  
 - Trasferimento dei movimenti budget in costi effettivi.
 
-## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criteri per trasferire movimenti C/G ai movimenti di costi
+## Criteri per trasferire movimenti C/G ai movimenti di costi
 
 È importante comprendere i criteri per trasferire i movimenti C/G nei movimenti di costi. Durante il trasferimento, il processo batch **Trasferisci movimenti C/G a CA** utilizza i seguenti criteri per determinare se e come i movimenti C/G vengono trasferiti.  
 
@@ -40,13 +40,13 @@ I movimenti C/G non vengono trasferiti nei seguenti casi:
 - I movimenti hanno una data di registrazione anteriore alla **Data inizio per trasferimento CG**.  
 - Registrazione dei movimenti con data chiusura completata. Si tratta in genere di movimenti che reimpostano il saldo del conto economico alla fine dell'anno.
 
-## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Trasferire movimenti C/G ai movimenti di costi
+## Trasferire movimenti C/G ai movimenti di costi
 
 I movimenti C/G possono essere trasferiti ai movimenti di costi.  
 
 Prima di eseguire il processo per il trasferimento dei movimenti C/G ai movimenti di costi, è necessario preparare il trasferimento per evitare la registrazione manuale della correzione.  
 
-### <a name="to-prepare-the-transfer"></a>Per preparare il trasferimento
+### Per preparare il trasferimento  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità industriale**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Setup contabilità industriale** controllare che il campo **Data inizio per trasferimento C/G** sia impostato sul valore corretto.  
@@ -56,14 +56,14 @@ Prima di eseguire il processo per il trasferimento dei movimenti C/G ai moviment
 6.  Per ogni conto di contabilità generale pertinente, nella pagina **Scheda conto C/G** verificare che il campo **Nr. tipo di costo** sia collegato correttamente a un tipo di costo. Per ulteriori informazioni, vedere [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md).  
 7.  Verificare che a tutti i relativi movimenti C/G siano associati valori dimensioni che corrispondono a un centro di costo e a un oggetto di costo.  
 
-### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Per trasferire movimenti C/G a movimenti di costi
+### Per trasferire movimenti C/G a movimenti di costi
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Trasferisci movimenti C/G a CA**, quindi scegli il collegamento correlato.  
 2.  Scegliere **Sì** per avviare il trasferimento. Con il processo vengono trasferiti tutti i movimenti C/G che non sono già stati trasferiti.  
 
 Durante il trasferimento, con il processo vengono creati collegamenti nei movimenti nella tabella **Movimento di costo** e nella tabella **Registro costi**. In questo modo è possibile analizzare l'origine dei movimenti di costi.
 
-## <a name="automatic-transfer-and-combined-entries"></a>Trasferimento automatico e movimenti combinati
+## Trasferimento automatico e movimenti combinati
 
 Nella contabilità industriale, è possibile trasferire i movimenti C/G in un tipo di costo utilizzando una registrazione combinata. È possibile specificare se il tipo di costo riceve i movimenti combinati nel campo **Cumula movimenti** nella definizione del tipo di costo. Nella seguente tabella vengono illustrate le diverse opzioni.  
 
@@ -76,15 +76,15 @@ Nella contabilità industriale, è possibile trasferire i movimenti C/G in un ti
 > [!IMPORTANT]  
 >  Se si è selezionata la casella di controllo **Trasferimento automatico da CG** nella pagina **Setup contabilità industriale**, [!INCLUDE[prod_short](includes/prod_short.md)] aggiorna la contabilità dopo ogni registrazione nella contabilità generale. Le entità combinate non sono possibili.
 
-## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Risultati del trasferimento di movimenti C/G a movimenti di costi
+## Risultati del trasferimento di movimenti C/G a movimenti di costi
 
 Durante il trasferimento dei movimenti C/G ai movimenti di costo, in [!INCLUDE[prod_short](includes/prod_short.md)] vengono creati i collegamenti nei movimenti nelle tabelle **Movimento CG**, **Movimento di costo** e **Registro costi** per consentire di tenere traccia dei collegamenti tra i movimenti di costo e i movimenti C/G.  
 
-### <a name="general-ledger-entries"></a>Movimenti C/G
+### Movimenti C/G
 
 Per ogni movimento C/G che viene trasferito alla contabilità industriale, in [!INCLUDE[prod_short](includes/prod_short.md)] viene compilato il campo **Nr. movimento** dei costi.  
 
-### <a name="cost-entries"></a>Movimenti di costi
+### Movimenti di costi
 
 Per ogni movimento di costo, [!INCLUDE[prod_short](includes/prod_short.md)] salva il numero del movimento C/G corrispondente nel campo **Nr. movimento C/G** della tabella **Movimento di costo**.  
 
@@ -94,13 +94,13 @@ Nel campo **Conto C/G** della tabella **Movimento di costo** è contenuto il num
 
 Per i singoli movimenti di costo, in [!INCLUDE[prod_short](includes/prod_short.md)] viene trasferito il testo della registrazione dal movimento C/G al campo di testo **Descrizione**. Per i movimenti combinati, il campo di testo mostra che questi movimenti vengono trasferiti come movimenti combinati. Ad esempio, per un movimento combinato per il mese di ottobre 2013, il testo può essere **Movimenti combinati, ottobre 2013**.  
 
-### <a name="cost-register"></a>Registro costi
+### Registro costi
 
 Nella tabella **Registro costi**, [!INCLUDE[prod_short](includes/prod_short.md)] crea un movimento con il trasferimento di origine dalla contabilità generale. Il movimento registra il primo e l'ultimo numero dei movimenti C/G trasferiti, oltre al primo e all'ultimo numero dei movimenti di costo creati.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)  
  [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)  

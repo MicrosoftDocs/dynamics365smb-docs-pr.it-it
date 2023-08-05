@@ -10,11 +10,11 @@ ms.search.keywords: 'accountant, accounting, financial report'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="viewing-and-editing-in-excel-from-business-central"></a>Visualizzare e modificare in Excel da Business Central
+# Visualizzare e modificare in Excel da Business Central
 
 Con le pagine che visualizzano una lista di record in righe e colonne, come una lista di clienti, ordini di vendita o fatture, è possibile esportare la lista in Microsoft Excel, e visualizzarla lì. A seconda della pagina, hai due opzioni per la visualizzazione in Excel. Entrambe le opzioni sono disponibili dall'icona **Condividi**  ![Condividi una pagina in un'altra app.](media/share-icon.png) all'inizio di una pagina. È possibile selezionare l'azione **Apri in Excel** o l'azione **Modifica in Excel** nella pagina. Questo articolo spiega le due azioni.
 
-## <a name="open-in-excel"></a>Apri in Excel
+## Apri in Excel
 
 Con l'azione **Apri in Excel** puoi apportare modifiche ai record in Excel, ma non puoi ripubblicare le modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile salvare solo le modifiche al file Excel, senza influenzare i dati in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -32,7 +32,7 @@ Con l'azione **Apri in Excel** puoi apportare modifiche ai record in Excel, ma n
 > In Excel, i numeri interi nelle colonne avranno un simbolo decimale alla fine (come un punto `.` o una virgola `,`) anche se il simbolo decimale non viene visualizzato in Business Central. Il simbolo decimale dipende dalle impostazioni della regione del tuo dispositivo. Ad esempio, `10` in Business Central potrebbe apparire come `10.` o `10,` in Excel. È possibile modificare il formato in Excel selezionando i valori, quindi selezionando <kbd>CTRL</kbd>+<kbd>1</kbd>. Per ulteriori informazioni sulla modifica del formato dei numeri in Excel, vai a [Formato dei numeri](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
 
 
-## <a name="edit-in-excel"></a>Modifica in Excel
+## Modifica in Excel
 
 L'azione **Modifica in Excel** è disponibile nella maggior parte delle liste, ma non in tutte. Con l'azione **Modifica in Excel** puoi apportare modifiche ai record in Excel e poi puoi ripubblicare le modifiche in [!INCLUDE[prod_short](includes/prod_short.md)]. Quando Excel si apre, vedrai il pannello **Add-in Excel** sulla destra.
 
@@ -41,13 +41,13 @@ L'azione **Modifica in Excel** è disponibile nella maggior parte delle liste, m
 - Per ottenere gli ultimi dati da [!INCLUDE[prod_short](includes/prod_short.md)], scegli **Aggiorna** nel pannello del componente aggiuntivo di Excel.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-### <a name="first-time-sign-in"></a>Primo accesso
+### Primo accesso
 
 L'azione **Modifica in Excel** richiede che l'add-in di Business Central sia installato in Excel. In alcuni casi, il tuo amministratore potrebbe aver impostato l'add-in per installarlo automaticamente per te. In questo caso, devi solo accedere a Business Central nel pannello **Add-in Excel** con il tuo nome utente e password. Altrimenti, si apre il riquadro **Nuovo componente aggiuntivo di Office** . Per installare l'add-in, scegli **Il componente aggiuntivo è attendibile**, che installerà l'add-in direttamente da Office Store.
 
 Se il componente aggiuntivo non si installa, contatta il tuo amministratore o prova a installarlo manualmente. Per maggiori informazioni, vedi [Installare l'add-in manualmente per uso personale](admin-deploy-excel-addin.md#install).
 
-### <a name="work-across-environments-and-companies"></a>Utilizzo di ambienti e società
+### Utilizzo di ambienti e società
 
 Puoi cambiare la compagnia con cui stai lavorando. Per cambiare azienda, seleziona l'icona **Opzioni** ![Opzioni del componente aggiuntivo di Excel.](media/cogwheel.png "Opzioni del componente aggiuntivo per Excel") nel riquadro del componente aggiuntivo di Excel, quindi seleziona l'azienda dal campo **Società**.  
 
@@ -61,18 +61,18 @@ Se si apportano modifiche al componente aggiuntivo, è necessario ricaricarlo pe
 >
 > Per [!INCLUDE[prod_short](includes/prod_short.md)] in locale, l'azione **Modifica in Excel** è disponibile solo se il componente aggiuntivo di Excel è stato configurato dall'amministratore ed è disponibile solo per il client Web. Gli amministratori che desiderano installare il componente aggiuntivo di Excel possono consultare [Installazione del componente aggiuntivo di Excel per la modifica dei dati di Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-### <a name="limits-when-using-excel-for-the-web"></a>Limiti quando si utilizza Excel per il Web
+### Limiti quando si utilizza Excel per il Web 
 
 Quando **Modifica in Excel** viene utilizzato nelle pagine elenco per tabelle con molte colonne, la cartella di lavoro risultante potrebbe avere troppe colonne per consentire la visualizzazione del file in Excel per il Web. [!INCLUDE[prod_short](includes/prod_short.md)] limita automaticamente la cartella di lavoro esportata a 100 colonne quando OneDrive è configurato per le funzioni del sistema. 
 
-## <a name="see-the-differences-between-the-options"></a>Vedere le differenze tra le opzioni
+## Vedere le differenze tra le opzioni
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Utilizzare Business Central](ui-work-product.md)  

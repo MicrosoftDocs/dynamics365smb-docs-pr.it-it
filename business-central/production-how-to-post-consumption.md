@@ -10,7 +10,7 @@ ms.search.form: '99000846, 99000850'
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="batch-post-production-consumption"></a>Registrare il consumo produzione tramite processo batch
+# Registrare il consumo produzione tramite processo batch
 
 Se il metodo di consuntivazione è **Manuale**, usa le registrazioni consumi per registrare i componenti manualmente.  
 
@@ -19,7 +19,7 @@ Se il metodo di consuntivazione è **Manuale**, usa le registrazioni consumi per
 
 È inoltre possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] sulla registrazione (*consuntivazione*) automatica dei componenti quando si avviano o si chiudono ordini di produzione. Per ulteriori informazioni vedere [Attivare la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Per registrare il consumo per una o più righe dell'ordine di produzione
+## Per registrare il consumo per una o più righe dell'ordine di produzione
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni consumi**, quindi scegli il collegamento correlato.  
 2. Compilare i campi inserendo i dati relativi agli ordini di produzione e al consumo. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ Se il metodo di consuntivazione è **Manuale**, usa le registrazioni consumi per
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

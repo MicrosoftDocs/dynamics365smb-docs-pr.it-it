@@ -350,9 +350,10 @@
 
 ### Gestione IVA
 #### [Panoramica della gestione IVA](finance-manage-vat.md)
+#### [Triangolazioni intracomunitarie](finance-how-to-eu3party-trade-purchase.md)
 #### Impostazione IVA
 ##### [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)
-##### [Impostazione della categoria di registrazione](finance-posting-groups.md#tax-posting-groups)
+##### [Impostare la categoria di registrazione](finance-posting-groups.md#tax-posting-groups)
 ##### [Impostare l'IVA non detraibile](finance-setup-nondeductible-vat.md)
 ##### [Impostare l'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)
 ##### [Impostare una dichiarazione IVA](finance-how-setup-vat-statement.md)

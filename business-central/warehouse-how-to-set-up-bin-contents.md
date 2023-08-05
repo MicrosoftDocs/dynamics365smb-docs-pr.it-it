@@ -10,11 +10,11 @@ ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="create-bin-contents"></a>Creare il contenuto delle collocazioni
+# Creare il contenuto delle collocazioni
 
 Dopo avere impostato le collocazioni, è possibile impostare il contenuto collocazione. Ciò significa che è possibile impostare gli articoli che si desidera inserire in una determinata collocazione e le regole che verranno seguite per l'inserimento di uno specifico articolo in una collocazione. Questa operazione può essere effettuata manualmente nella pagina **Contenuto collocazioni** o automaticamente tramite la pagina **Crea prospetto contenuto collocazione**.
 
-## <a name="to-create-bin-content-manually"></a>Per creare manualmente il contenuto collocazione
+## Per creare manualmente il contenuto collocazione
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2. Selezionare l'ubicazione in cui si desidera impostare contenuti collocazione e scegliere l'azione **Collocazioni**.  
@@ -31,7 +31,7 @@ Se si seleziona il campo **Fisso**, si stabilisce che l'articolo debba essere as
 > [!NOTE]  
 > È possibile impostare diversi contenuti collocazione contemporaneamente nella pagina **Prospetto creaz. cont. colloc.**  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Per creare il contenuto delle collocazioni con un prospetto
+## Per creare il contenuto delle collocazioni con un prospetto
 
 Dopo avere creato le collocazioni, è possibile specificare il contenuto desiderato per ciascuna collocazione nel prospetto creazione contenuto collocazione.
 
@@ -49,9 +49,9 @@ Dopo avere creato le collocazioni, è possibile specificare il contenuto desider
 
 Poiché questo prospetto consente di utilizzare più righe di contenuto collocazione per più collocazioni, è possibile ottenere una panoramica precisa di tutti gli articoli che si stanno inserendo nelle varie collocazioni presenti in una determinata zona, corsia o scaffalatura.  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/set-up-zones-bins/)
+## Vedi il relativo [training Microsoft](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

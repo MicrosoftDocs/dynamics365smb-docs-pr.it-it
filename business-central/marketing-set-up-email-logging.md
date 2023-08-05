@@ -10,22 +10,22 @@ ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect, opportunity, email'
 ms.search.form: '1680, 1811, 5076'
 ---
-# <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Tenere traccia degli scambi di messaggi e-mail tra venditori e contatti
+# Tenere traccia degli scambi di messaggi e-mail tra venditori e contatti
 
 Ottieni di più dalle comunicazioni tra i venditori e i clienti facendo diventare gli scambi di e-mail in opportunità fruibili. [!INCLUDE[prod_short](includes/prod_short.md)] può utilizzare Exchange Online per tenere un log dei messaggi in entrata e in uscita. È possibile visualizzare e analizzare i contenuti di ciascun messaggio nella pagina **Movimenti log interazione**.
 
 > [!IMPORTANT]
 > Per [!INCLUDE[prod_short](includes/prod_short.md)] online, [!INCLUDE[prod_short](includes/prod_short.md)] e Exchange Online devono appartenere allo stesso tenant.
 
-## <a name="to-set-up-email-logging"></a>Per impostare la registrazione e-mail
+## Per impostare la registrazione e-mail
 
-### <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Impostare le cartelle pubbliche e le regole per il log delle e-mail in Exchange Online
+### Impostare le cartelle pubbliche e le regole per il log delle e-mail in Exchange Online
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Quindi, connettersi a [!INCLUDE[prod_short](includes/prod_short.md)] con Exchange Online.
 
-### <a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a>Impostare una casella di posta condivisa e regole condivise per la registrazione della posta elettronica in Exchange Online
+### Impostare una casella di posta condivisa e regole condivise per la registrazione della posta elettronica in Exchange Online
 
 > [!NOTE]
 > Questi passaggi richiedono l'accesso come amministratore per Exchange Online.
@@ -35,15 +35,15 @@ Prepara una cassetta postale condivisa nell'interfaccia di amministrazione di Ex
 > [!NOTE]
 > Seusi Exchange Management PowerShell, le modifiche diventano disponibili nell'interfaccia di amministrazione di Exchange dopo un certo tempo. Potrebbe verificarsi un ritardo di diverse ore.
 
-### <a name="add-a-user-account-for-members-of-the-shared-mailbox"></a>Aggiungere un account utente per i membri della cassetta postale condivisa
+### Aggiungere un account utente per i membri della cassetta postale condivisa
 
 L'account che utilizzerai per la registrazione e-mail è un account Exchange Online. Il processo programmato utilizza l'account per connettersi alla cassetta postale ed elaborare le e-mail. Questo account non deve essere associato a una persona specifica. Aggiungi l'account e-mail ai membri per la casella di posta condivisa. Per ulteriori informazioni, vedi [Utilizzare l'interfaccia di amministrazione di Exchange per modificare la delega della cassetta postale condivisa](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
-### <a name="allow-other-users-to-see-logged-emails"></a>Consentire ad altri utenti di vedere le e-mail registrate
+### Consentire ad altri utenti di vedere le e-mail registrate
 
 È possibile consentire a un altro utente di aprire un messaggio di posta elettronica in Exchange correlato a una voce del registro di interazione da [!INCLUDE[prod_short](includes/prod_short.md)]. Per farlo, concedi all'utente l'autorizzazione ``Read`` per la cartella **Archivio** nella casella di posta condivisa. Per maggiori informazioni, vedi [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Creare regole di flusso di posta
+### Creare regole di flusso di posta
 
 Le regole del flusso di posta cercano condizioni specifiche per i messaggi e agiscono. Crea due regole di flusso di posta in base alle informazioni nella seguente tabella. Per ulteriori informazioni, vedere [Gestire le regole del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) e [Azioni della regola del flusso di posta in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
@@ -55,7 +55,7 @@ Le regole del flusso di posta cercano condizioni specifiche per i messaggi e agi
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] elabora solo i messaggi nella cartella Posta in arrivo nella cassetta postale condivisa. Se una regola sposta i messaggi dalla Posta in arrivo a un'altra cartella, tali messaggi non verranno elaborati. Inoltre, vengono ignorati anche i messaggi nella cartella Posta indesiderata.
 
-## <a name="set-up--to-log-email-messages"></a>Impostare [!INCLUDE[prod_short](includes/prod_short.md)] per registrare i messaggi e-mail
+## Impostare [!INCLUDE[prod_short](includes/prod_short.md)] per registrare i messaggi e-mail
 
 Iniziare la registrazione dei messaggi e-mail con due semplici passaggi:
 
@@ -66,14 +66,14 @@ Iniziare la registrazione dei messaggi e-mail con due semplici passaggi:
     > [!Tip]
     > Dopo aver completato i passaggi nella guida, è possibile verificare se la connessione ha avuto esito positivo. Cerca **Log delle e-mail**, scegli **Azioni**, quindi scegli **Convalida setup**.
 
-## <a name="view-email-message-exchanges-in-the-interaction-log"></a>Visualizzazione degli scambi di messaggi e-mail nel log delle interazioni
+## Visualizzazione degli scambi di messaggi e-mail nel log delle interazioni
 
 [!INCLUDE[prod_short](includes/prod_short.md)] crea una voce nella pagina **Log delle interazioni** ogni volta che un venditore e un contatto scambiano un messaggio di posta elettronica. Per visualizzare il log delle interazioni, aprire la scheda **Contatto** per la persona, scegliere **Correlato**, quindi **Cronologia** e **Movimenti log interazione**. Ci sono alcune cose che si possono fare con ogni voce del log, ad esempio:
 
 * Visualizzare il contenuto del messaggio di posta elettronica che è stato scambiato selezionando **Processo** e quindi **Mostra allegati**.
 * Trasforma uno scambio di e-mail in un'opportunità di vendita. Se una voce sembra promettente, è possibile trasformarla in un'opportunità e gestirne i progressi verso una vendita. Per trasformare uno scambio di e-mail in un'opportunità, scegli la voce, quindi **Processo** e poi **Crea opportunità**. Per ulteriori informazioni, vedere [Gestire opportunità di vendita](marketing-manage-sales-opportunities.md).
 
-## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Limiti di cassette postali e cartelle in Exchange Online
+## Limiti di cassette postali e cartelle in Exchange Online
 
 Ci sono limiti di cassette postali e cartelle Exchange Online, come i limiti per le dimensioni delle cartelle e il numero di messaggi. Per altre informazioni, vedi [Limiti di Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) e [Limiti per le cartelle pubbliche in Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019&preserve-view=true).
 
@@ -87,14 +87,14 @@ I passaggi seguenti possono aiutarti a evitare di interrompere i collegamenti ai
     2. Aggiorna le regole del flusso di posta elettronica in Exchange Online.
     3. Aggiorna di conseguenza la configurazione dei log delle e-mail in Business Central
 
-## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Connettere le versioni locali a Microsoft Exchange
+## Connettere le versioni locali a Microsoft Exchange
 
 È possibile connettere [!INCLUDE[prod_short](includes/prod_short.md)] in locale a Exchange in locale o a Exchange Online per il log delle e-mail. Per entrambe le versioni di Exchange, le impostazioni per la connessione sono disponibili nella pagina **Setup marketing**. Per Exchange Online, è anche possibile utilizzare una guida alla al setup assistito.
 
 <!-- [!IMPORTANT]
 > The new experience doesn't support a connection to Exchange on-premises. If you must use Exchange on-premises, do not enable the feature update for the new experience.
 
-## <a name="connect-to-exchange-on-premises"></a>Connect to Exchange on-premises
+## Connect to Exchange on-premises
 <!--
 ## [Current Experience](#tab/current-experience)
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchange on-premises, on the **Marketing Setup** page, you can use **Basic** as the **Authentication Type**, and then enter credentials for the user account for Exchange on-premises. Then turn on the **Enabled** toggle to start logging email.
@@ -102,7 +102,7 @@ To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchang
 ## [New Experience](#tab/new-experience)
 The new experience does not support connections to Exchange on-premises.
 -->
-## <a name="connect-to-exchange-online"></a>Connettersi a Exchange Online
+## Connettersi a Exchange Online
 
 Per connettersi a Exchange Online è necessario registrare un'applicazione in Azure Active Directory. Fornisci l'ID applicazione, il segreto del key vault e l'URL di reindirizzamento per la registrazione. L'URL di reindirizzamento è preimpostato e dovrebbe funzionare per la maggior parte delle installazioni. Per ulteriori informazioni, vedere [Per registrare un'applicazione in Azure AD per la connessione da Business Central a Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
@@ -110,7 +110,7 @@ Devi anche usare **OAuth2** come **Tipo di autenticazione**. Devi anche registra
 
 È necessario configurare l'installazione per utilizzare HTTPS. Per ulteriori informazioni, vedi [Configurazione di SSL per proteggere la connessione client Web di Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Se stai configurando il server in modo da avere una home page diversa, puoi cambiare l'URL. Il segreto del client verrà salvato come stringa crittografata nel database.
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Per registrare un'applicazione in Azure AD per la connessione da Business Central a Exchange Online
+### Per registrare un'applicazione in Azure AD per la connessione da Business Central a Exchange Online
 
 I seguenti passaggi presuppongono che si stia utilizzando Azure Active Directory per gestire identità e accesso. Per ulteriori informazioni, vedi [Avvio rapido: registrare un'applicazione con la piattaforma di identità Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -126,11 +126,11 @@ I seguenti passaggi presuppongono che si stia utilizzando Azure Active Directory
 6. Scegli **Panoramica**, quindi trova il valore **ID applicazione (client)**. Questo è l'ID client dell'applicazione. Devi inserirlo nel campo **ID client** della pagina **Log delle e-mail**.
 7. In [!INCLUDE[prod_short](includes/prod_short.md)], configura il log delle e-mail nella pagina **Log delle e-mail** o usa la guida **Setup assistito** per assistenza.
 
-### <a name="use-another-identity-and-access-management-service"></a>Utilizzare un altro servizio di gestione dell'identità e degli accessi
+### Utilizzare un altro servizio di gestione dell'identità e degli accessi
 
 Se non si sta usando Azure Active Directory per gestire le identità e l'accesso, è necessario l'aiuto di uno sviluppatore. Se si preferisce archiviare l'ID app e il segreto in una posizione diversa, è possibile lasciare vuoti i campi ID client e Segreto client e scrivere un'estensione per recuperare l'ID e il segreto dalla posizione. È possibile fornire il segreto in fase di esecuzione sottoscrivendo gli eventi OnGetCDSConnectionClientId e OnGetCDSConnectionClientSecret nella codeunit 1641 "Setup log delle e-mail".
 
-## <a name="to-start-logging-email"></a>Per avviare il log delle e-mail
+## Per avviare il log delle e-mail
 
 1. Per avviare il log delle e-mail, nella pagina **Log delle e-mail** attiva l'interruttore **Abilitato**.
 2. Accedi con l'account Exchange Online utilizzato dal processo programmato per connettersi alla cassetta postale ed elaborare le e-mail.
@@ -138,27 +138,27 @@ Se non si sta usando Azure Active Directory per gestire le identità e l'accesso
     > [!NOTE]
     > Se non ti viene richiesto di accedere con l'account Exchange Online, è possibile che i popup siano bloccati da browser. Per accedere, consenti i popup da https://login.microsoftonline.com.
 
-## <a name="to-stop-logging-email"></a>Per interrompere il log delle e-mail
+## Per interrompere il log delle e-mail
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Log delle e-mail**, quindi scegli il collegamento correlato.
 2. Disattiva l'interruttore **Abilitato**.
 
-## <a name="to-change-the-user-account-used-for-email-logging"></a>Per modificare l'account utente utilizzato per il log delle e-mail
+## Per modificare l'account utente utilizzato per il log delle e-mail
 
-### <a name="-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Accedi a [!INCLUDE[prod_short](includes/prod_short.md)] con l'account utilizzato dal processo programmato per connettersi alla cassetta postale ed elaborare le e-mail. Questo account deve avere accesso a [!INCLUDE[prod_short](includes/prod_short.md)] ed Exchange Online.
 2. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Log delle e-mail**, quindi scegli il collegamento correlato. 
 3. Scegli **Correlato**, quindi **Movimento coda processi**.
 4. Riavvia il processo **Log delle e-mail**.
 
-### <a name="-on-premises"></a>[!INCLUDE[prod_short](includes/prod_short.md)] locale
+### [!INCLUDE[prod_short](includes/prod_short.md)] locale
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Log delle e-mail**, quindi scegli il collegamento correlato.
 2. Scegli **Azioni**, quindi **Rinnova token**.
 3. Accedi con l'account Exchange Online utilizzato dal processo programmato per connettersi alla cassetta postale ed elaborare le e-mail.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Gestione delle relazioni](marketing-relationship-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

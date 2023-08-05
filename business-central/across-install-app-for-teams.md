@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="install-the--app-for-microsoft-teams"></a>Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams
+# Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -20,7 +20,7 @@ In questo articolo viene descritto come installare l'app [!INCLUDE [prod_short](
 > [!NOTE]
 > Il tuo amministratore potrebbe aver impostato le cose in modo che l'app venga installata automaticamente per te. Per controllare se l'app è installata, apri Teams, poi scegli **Apps**. Cerca **Business Central**, poi sceglilo quando lo trovi. Se vedi **Apri** nella pagina di **Business Central**, l'app è già installata.  
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti
 
 - Un account utente online [!INCLUDE [prod_short](includes/prod_short.md)] è necessario per [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
 
@@ -30,7 +30,7 @@ In questo articolo viene descritto come installare l'app [!INCLUDE [prod_short](
 
 - I criteri dell'organizzazione consentono di installare le app in Microsoft Teams.
 
-## <a name="add-the-business-central-app-to-teams"></a>Aggiungere l'app Business Central a Teams
+## Aggiungere l'app Business Central a Teams
 
 Ci sono tre modi per installare l'applicazione Business Central:
 
@@ -67,11 +67,11 @@ Questa opzione è il modo più rapido per installare l'app.
 > [!NOTE]
 > Con entrambe le opzioni, ti potrebbe essere chiesto di accedere a [!INCLUDE [prod_short](includes/prod_short.md)]. Seleziona il collegamento di **accesso** e segui le istruzioni per inserire il nome e la password per l'accesso a [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="next-step"></a>Passaggio successivo
+## Passaggio successivo
 
 Ora è possibile usare l'app in Teams per cercare i contatti o condividere i record di Business Central. Per ulteriori informazioni, vedere [Ricerca di clienti, fornitori e altri contatti da Microsoft Teams](across-search-contacts-teams.md) o [Condividi record in Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'integrazione di Business Central e Microsoft Teams](across-teams-overview.md)  
 [Domande frequenti su Teams](teams-faq.md)  
@@ -80,7 +80,7 @@ Ora è possibile usare l'app in Teams per cercare i contatti o condividere i rec
 [Sviluppare per l'integrazione di Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

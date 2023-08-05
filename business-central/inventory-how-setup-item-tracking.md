@@ -40,7 +40,7 @@ Un codice di tracciabilità articolo riflette i diversi criteri che una società
 Poiché questo specifico campo di setup copre tutte le possibili transazioni eseguibili per l'articolo, anche nei singoli campi In Entrata/In Uscita verrà selezionato. Tuttavia, i campi In Entrata/In Uscita non riguardano gli eventuali collegamenti all'interno del magazzino, bensì consentono unicamente di definire il workflow aziendale relativo all'assegnazione dei numeri di tracciabilità articolo.  
 
 > [!NOTE]  
->  Per assegnare i numeri di tracciabilità articolo nelle attività di warehouse, i campi **Tracciab. NS in warehouse** e **Tracciab. lotto in warehouse** devono essere selezionate nella scheda del codice di tracciabilità articolo.  
+> Per assegnare i numeri di tracciabilità articolo nelle attività di warehouse, i campi **Tracciab. NS in warehouse** e **Tracciab. lotto in warehouse** devono essere selezionate nella scheda del codice di tracciabilità articolo.  
 
 ## Per impostare le regole di scadenza per i numeri seriali e di lotto
 
@@ -78,6 +78,36 @@ Per abilitare la tracciabilità degli articoli devi prima assegnare i codici di 
 2. Seleziona un articolo esistente nell'elenco e apri la pagina **Scheda articolo**.  
 3. Nella Scheda dettaglio **Tracciabilità articolo**, assegna i codici di tracciabilità articolo appropriati e specifica dei valori nei campi **Codice tracciabilità articolo**, **Nr. seriali** e **Nr. lotti**.
     1. In alternativa puoi anche creare un nuovo codice di tracciabilità articolo selezionando l'azione **Nuovo**.
+
+## Per specificare i saldi di apertura per gli articoli di cui si tiene traccia
+
+Puoi creare saldi iniziali per gli articoli che monitori. Poiché puoi scegliere diverse configurazioni di magazzino, ci sono due opzioni:
+
+* Abilita batch specifici nella pagina **Reg. Magazzino** per consentire alle persone di inserire i dati di serie, lotto e confezione direttamente nelle righe del giornale di registrazione.
+* Per i luoghi in cui l'interruttore **Stoccaggi e prelievi guidati** è attivato, utilizza la pagina **Giornale inventario fisico magazzino** per rendere disponibili tutti i campi di tracciabilità dell'articolo. I campi disponibili includono i campi **Data garanzia** e **Data di scadenza**.
+
+### Registrazioni articoli 
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni articoli**, quindi scegli il collegamento correlato.
+2. Scegli il campo **Nome** per aprire un elenco di batch registrazioni magazzino.
+3. Scegli **Nuovo** per creare un nuovo batch, quindi attiva l'interruttore **Righe tracciabilità articolo**.
+4. Scegli **OK** per selezionare il batch creato.
+5. Compila i campi nella riga di registrazione magazzino in base alle esigenze. Nota che i campi **Lotto n.**, **Numero di serie**, **Data di scadenza**, **Data garanzia** e **N. pacchetto** sono disponibili (se la funzione è abilitata).
+6. Scegli l'azione **Registra** per regolare il magazzino.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] esegue alcune convalide minori quando si immettono o si importano dati. Un controllo più completo si verifica quando si registrano o si trasferiscono dati dalle righe del giornale di registrazione a **Codici tracciabilità articolo**. Quest'ultimo avviene automaticamente quando si apre la pagina **Finestra di tracciabilità articolo** dalla riga del registro magazzino o se si sceglie l'azione **Aggiorna righe tracciabilità articolo**.
+
+### Registrazione dell'inventario fisico warehouse nelle ubicazioni che prevedono l'uso di prelievi e stoccaggi guidati  
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazione dell'inventario fisico warehouse**, quindi scegli il collegamento correlato.
+2. Compila i campi nella riga di registrazione magazzino in base alle esigenze. Nota che i campi **Lotto n.**, **Numero di serie**, **Data di scadenza**, **Data garanzia** e **N. pacchetto** sono disponibili (se la funzione è abilitata).
+3. Scegli l'azione **Registra** per procedere con le rettifiche di magazzino. Ricordati che per sincronizzare i movimenti warehouse rettificati con i movimenti contabili articoli correlati. Per saperne di più, vai a [Sincronizzare i movimenti warehouse rettificati](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+Per le importazioni in blocco, utilizzare i pacchetti di configurazione per importare i dati nei giornali.
+
+> [!NOTE]
+> Non puoi utilizzare **Modifica in Excel** per creare righe di registrazione con informazioni di tracciabilità.
 
 ## Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
 

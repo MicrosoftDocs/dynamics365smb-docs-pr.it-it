@@ -2,17 +2,15 @@
 title: Sincronizzazione e integrazione dei dati | Microsoft Docs
 description: La sincronizzazione copia i dati tra le tabelle di Microsoft Dataverse e i record di Business Central e mantiene i dati aggiornati in entrambi i sistemi.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Sincronizzazione di dati in Business Central con Microsoft Dataverse
-
+# Sincronizzazione di dati in Business Central con Microsoft Dataverse
 
 Quando si integra [!INCLUDE[prod_short](includes/cds_long_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)], è possibile decidere se sincronizzare i dati nei campi selezionati di [!INCLUDE[prod_short](includes/prod_short.md)] (ad esempio clienti, contatti e agenti) con righe equivalenti in [!INCLUDE[prod_short](includes/cds_long_md.md)] (come conti, contatti e utenti). A seconda del tipo di riga, è possibile sincronizzare i dati da [!INCLUDE[prod_short](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)], o viceversa. Per ulteriori informazioni, vedere [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -37,7 +35,7 @@ Quando la sincronizzazione è impostata è possibile associare i record di [!INC
 > La sincronizzazione tra [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)] si basa sull'esecuzione pianificata delle voci della coda dei lavori e non garantisce la coerenza dei dati in tempo reale tra due servizi. Per la coerenza dei dati in tempo reale vai a [Tabelle virtuali di Business Central](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) o API di Business Central.   
 
 
-## <a name="standard-table-mapping-for-synchronization"></a>Mapping delle tabelle standard per la sincronizzazione
+## Mapping delle tabelle standard per la sincronizzazione
 Le tabelle in [!INCLUDE[prod_short](includes/cds_long_md.md)], come i conti, vengono integrate con i tipi di tabelle equivalenti in [!INCLUDE[prod_short](includes/prod_short.md)], quali i clienti. Per utilizzare i dati di [!INCLUDE[prod_short](includes/cds_long_md.md)] si impostano collegamenti, denominati associazioni, tra le tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 Nella seguente tabella è elencato il mapping standard tra le tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -56,10 +54,10 @@ Nella seguente tabella è elencato il mapping standard tra le tabelle in [!INCLU
 > [!NOTE]
 > Le azioni **Dataverse** non saranno disponibili nelle pagine, ad esempio, la pagina Scheda cliente, per i record che non rispettano il filtro tabella sul mapping di tabelle di integrazione.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Suggerimento per amministratori: visualizzazione di mapping di tabelle
+### Suggerimento per amministratori: visualizzazione di mapping di tabelle
 È possibile visualizzare il mapping tra le tabelle in [!INCLUDE[prod_short](includes/cds_long_md.md)] e le tabelle in [!INCLUDE[prod_short](includes/prod_short.md)] nella pagina **Mapping tabella integrazione**, dove è anche possibile applicare filtri. È possibile definire il mapping tra i campi nelle tabelle di [!INCLUDE[prod_short](includes/prod_short.md)] e le colonne nelle tabelle di [!INCLUDE[prod_short](includes/cds_long_md.md)] nella pagina **Mapping campo integrazione**, in cui è possibile aggiungere ulteriori logica di mapping. Ad esempio, ciò può essere utile se è necessario risolvere problemi relativi alla sincronizzazione.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 [Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Pianificare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-decision-makers-learning-catalog"></a>Catalogo di apprendimento per decisori aziendali
+# Catalogo di apprendimento per decisori aziendali
 
 Si è responsabili delle decisioni relative agli investimenti in nuove tecnologie?
 
 Il seguente catalogo è organizzato a partire dalle informazioni di base fino a domini specifici, dai contenuti di base, fino a quelli più avanzati. Se il contenuto è disponibile in più formati, verrà notificato, così da poter scegliere il formato di formazione più adatto alle proprie esigenze.  
 
-## <a name="business-value"></a><a name="busvalue"></a>Valore aziendale
+## Valore aziendale<a name="busvalue"></a>
 
 | Contenuto                                                                 | Descrizione                                                                                                | Formato                                | Lunghezza     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Questo modulo mostra le funzionalità dell'applicazione, vantaggi ed esempi di Dynamics 365 Business Central in azione. | Percorso di apprendimento online gratuito e personalizzato | 24 minuti |
 
-## <a name="getting-started"></a><a name="get-started"></a>Introduzione
+## Introduzione<a name="get-started"></a>
 
 | Contenuto                                                                                                                             | Descrizione                                                                                                                                                                                                                                                                                      | Formato                                | Lunghezza             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

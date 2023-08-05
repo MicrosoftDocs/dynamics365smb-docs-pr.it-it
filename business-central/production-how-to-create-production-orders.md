@@ -10,7 +10,7 @@ ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="create-production-order-headers"></a>Creare le testate degli ordini di produzione
+# Creare le testate degli ordini di produzione
 
 Gli ordini di produzione possono essere creati manualmente. Prima di tutto è necessario creare la testata ordine di produzione.
 
@@ -18,7 +18,7 @@ Gli ordini di produzione vengono in genere creati automaticamente da una funzion
 
 Nella seguente procedura viene creato un ordine produzione confermato. È anche possibile creare ordini di produzione con uno stato differente.  
 
-## <a name="to-create-a-production-order-header"></a>Per creare una testata degli ordini di produzione
+## Per creare una testata degli ordini di produzione
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ord. produzione confermati**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -31,7 +31,7 @@ Nella seguente procedura viene creato un ordine produzione confermato. È anche 
 
 Quando i requisiti di produzione cambiano, ad esempio componenti o operazioni, è possibile ripianificare rapidamente l'ordine di produzione. Per ulteriori informazioni, vedere [Ripianificare o aggiornare direttamente gli ordini di produzione](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Manufacturing](production-manage-manufacturing.md)
 [Impostazione della produzione](production-configure-production-processes.md)  

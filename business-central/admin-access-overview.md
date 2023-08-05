@@ -9,17 +9,17 @@ ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
-# <a name="manage-access-to-business-central"></a>Gestire l'accesso a Business Central
+# Gestire l'accesso a Business Central
 
 Questo articolo offre agli amministratori e agli sviluppatori di applicazioni una panoramica di alto livello su come controllare l'accesso a [!INCLUDE [prod_short](includes/prod_short.md)] e alle sue funzionalità. Utilizzare i collegamenti per accedere ad altri articoli che forniscono maggiori dettagli sugli argomenti.
 
-## <a name="layered-access"></a>Accesso su più livelli
+## Accesso su più livelli
 
 [!INCLUDE [prod_short](includes/prod_short.md)] utilizza un approccio a più livelli alla sicurezza delle applicazioni, come illustrato nel diagramma seguente. Per ulteriori informazioni su ogni livello, vai a [Sicurezza delle applicazioni in Business Central](/dynamics365/business-central/dev-itpro/security/security-application).
 
 :::image type="content" source="media/security-overview.png" alt-text="Sicurezza delle applicazioni su più livelli in Business Central.":::
 
-## <a name="licenses"></a>Licenze
+## Licenze
 
 Agli utenti di [!INCLUDE [prod_short](includes/prod_short.md)] viene assegnata una licenza **Dynamics 365 Business Central** che consente loro di visualizzare, modificare e agire sui propri dati aziendali da qualsiasi interfaccia utente. Per ulteriori informazioni sulle licenze, vai a [Licenze in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
 
@@ -27,7 +27,7 @@ Tuttavia, le persone che occasionalmente necessitano di accesso in sola lettura 
 
 Per ulteriori informazioni sui diversi tipi di licenze e sul funzionamento delle licenze in [!INCLUDE[prod_short](includes/prod_short.md)], [scarica la guida alle licenze di Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-## <a name="business-central-administrator-tasks"></a>Attività di amministrazione in Business Central
+## Attività di amministrazione in Business Central
 
 La tabella seguente elenca in che modo gli amministratori possono controllare l'accesso a [!INCLUDE [prod_short](includes/prod_short.md)] e le funzionalità che verranno utilizzate dagli utenti. Alcune delle attività aiutano anche a mantenere aggiornate le impostazioni di accesso.
 
@@ -42,7 +42,7 @@ La tabella seguente elenca in che modo gli amministratori possono controllare l'
 |Un tag di servizio di Azure rappresenta un gruppo di indirizzi IP da cui può provenire o indirizzare il traffico per un servizio. Utilizza i tag di servizio per configurare i firewall in modo da consentire il traffico solo da determinati servizi. Il tag **Dynamics365BusinessCentral** ti consente di utilizzare le regole del firewall e del gruppo di sicurezza di rete per limitare il traffico da e verso [!INCLUDE [prod_short](includes/prod_short.md)].| [Tag del servizio di sicurezza di Azure](/dynamics365/business-central/dev-itpro/security/security-service-tags)|
 |Quando si utilizza l'autenticazione Azure Active Directory con [!INCLUDE [prod_short](includes/prod_short.md)], si consiglia di sfruttare l'[autenticazione a più fattori di Azure AD (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks). L'MFA salvaguarda ulteriormente l'accesso all'applicazione e ai dati.|[Autenticazione a più fattori per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/security/multifactor-authentication)|
 
-## <a name="business-central-developer-tasks"></a>Attività di Business Central per sviluppatori
+## Attività di Business Central per sviluppatori
 
 C'è anche una storia di sviluppatori per la gestione dell'accesso a [!INCLUDE [prod_short](includes/prod_short.md)]. Ad esempio, sviluppatori e amministratori possono creare e connettere applicazioni a [!INCLUDE [prod_short](includes/prod_short.md)] a vantaggio dell'azienda:  
 
@@ -56,6 +56,6 @@ La tabella seguente contiene collegamenti a informazioni su come concedere ad ap
 |--|--|
 |I due concetti principali per definire l'accesso alle funzionalità sono i diritti e le autorizzazioni. I diritti danno ampio accesso agli oggetti in base a licenze o ai ruoli Azure Active Directory. Le autorizzazioni e gli insiemi di autorizzazioni consentono di ottimizzare l'accesso agli oggetti. |[Panoramica dei diritti e dei set di autorizzazioni](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Sicurezza in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)

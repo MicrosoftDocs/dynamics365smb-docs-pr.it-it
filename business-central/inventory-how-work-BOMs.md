@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 09/26/2022
 ms.author: a-reishima
 ---
-# <a name="work-with-bills-of-material"></a>Utilizzare le distinte base
+# Utilizzare le distinte base
 
 Utilizzare le distinte base (DB) per strutturare gli articoli padre che devono essere assemblati con altri articoli o prodotti dalle risorse o dai centri di lavoro a partire dai componenti.
 
-## <a name="assembly-boms-or-production-boms"></a>DB di assemblaggio o DB di produzione
+## DB di assemblaggio o DB di produzione
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta due diversi tipi di distinte base:
 
@@ -36,7 +36,7 @@ Il concetto di risorse in produzione è molto più avanzato rispetto alla gestio
 
 Gli ordini di assemblaggio e gli ordini di produzione possono essere collegati direttamente agli ordini di vendita. Tuttavia, è possibile utilizzare soltanto gli ordini di assemblaggio per personalizzare direttamente l'articolo finale per una richiesta cliente con l'ordine di vendita.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)  
 [Creare le distinte base di produzione](production-how-to-create-production-boms.md)  

@@ -12,7 +12,7 @@ ms.search.forms: '5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 50
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="managing-sales-opportunities"></a>Gestione delle opportunità di vendita
+# Gestione delle opportunità di vendita
 Tutti i clienti potenziali possono essere considerati opportunità di vendita. È possibile creare opportunità e associarle a un agente in modo da tenere traccia delle vendite potenziali.
 
 Prima di iniziare a utilizzare la gestione delle opportunità, è necessario impostare cicli di vendita e fasi dei cicli di vendita. Quando si creano opportunità, è necessario fornire informazioni sul contatto, l'agente, il ciclo di vendita e le date, nonché le proprie previsioni del valore di vendita dell'opportunità e le probabilità di successo stimate.
@@ -25,7 +25,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Creare opportunità di vendita dai contatti. |[Creare opportunità](marketing-how-create-opportunities.md) |
 | Spostare un'opportunità di vendita nel ciclo di vendita al completamento. |[Elaborare le opportunità di vendita](marketing-processing-sales-opportunities.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

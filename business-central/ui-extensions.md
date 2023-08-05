@@ -8,11 +8,11 @@ ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Personalizzazione di Business Central Online con le app
+# Personalizzazione di Business Central Online con le app
 
 È possibile modificare [!INCLUDE[prod_short](includes/prod_short.md)] online installando app in grado ad esempio di aggiungere funzionalità, modificare il comportamento o consentire l'accesso a nuovi servizi online. Queste app sono anche chiamate *estensioni* perché *estendono* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="manage-apps"></a>Gestire le app
+## Gestire le app
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -49,7 +49,7 @@ Alcune app sono fornite da Microsoft, altre sono fornite da [altre società](ui-
 > [!NOTE]  
 > È possibile controllare la disponibilità di nuove app di Microsoft e altri fornitori su [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a>App e trasferimento dati
+## App e trasferimento dati
 
 Poiché le seguenti app comunicano con altri servizi, potrebbero trasferire dati al di fuori della geografia dell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)] :
 
@@ -69,7 +69,7 @@ Questo vale anche per alcune funzionalità nell'applicazione di base, come le se
 * Mappa online
 * Reg. IVA UE No. Assistenza
 
-## <a name="connect-your-business"></a>Collega l'azienda
+## Collega l'azienda
 
 A partire dal secondo ciclo di rilascio del 2022, gli ambienti online [!INCLUDE [prod_short](includes/prod_short.md)] possono elencare una o più app nelle pagine **App di connettività** e **App bancarie**. Queste app possono collegare l'azienda a servizi esterni per aumentare la produttività automatizzando i processi. Ad esempio, puoi connetterti alle tue banche e importare automaticamente le transazioni bancarie. Le app sono facili da installare e configurare direttamente da questa pagina. Scegli un'app per saperne di più su funzionalità e prezzi.  
 
@@ -80,16 +80,16 @@ Visualizza l'elenco delle app suggerite scegliendo l'azione **App di connettivit
 
 Questo servizio esterno genererà un elenco di app pertinenti in base al tuo paese o area geografica
 
-## <a name="recommended-apps"></a>App raccomandate
+## App raccomandate
 
 I partner e i rivenditori Microsoft possono creare un'app che possono utilizzare per compilare elenchi di applicazioni che spesso raccomandano ai loro clienti. Se lo fanno, e hanno distribuito l'app al tuo tenant, le app saranno disponibili nella pagina **App consigliate** . Lì puoi leggere di ogni app e decidere se installarla.
 
 > [!NOTE]
 > Se sei un partner o un rivenditore Microsoft e sei interessato a fornire un elenco di applicazioni raccomandate, vedi [Raccomandare le applicazioni da AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) nel contenuto di amministrazione.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/customize-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/customize-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Installare e disinstallare app](ui-extensions-install-uninstall.md)  
 [Personalizzare Business Central](ui-customizing-overview.md)  
@@ -101,7 +101,7 @@ I partner e i rivenditori Microsoft possono creare un'app che possono utilizzare
 [App per [!INCLUDE[prod_short](includes/prod_short.md)] fornite da altri provider](ui-extensions-other.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

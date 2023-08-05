@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="business-process-walkthroughs"></a>Procedure dettagliate per i processi aziendali
+# Procedure dettagliate per i processi aziendali
 
 Queste procedure dettagliate descrivono passo per passo i processi aziendali completi che possono essere svolti utilizzando la società demo CRONUS. Esse consistono di diverse procedure secondarie, alcune delle quali sono normalmente effettuate da un solo utente, mentre altre coinvolgono più ruoli utente. Per simulare l'ambiente lavorativo, alcune delle procedure dettagliate richiedono operazioni preliminari necessarie a completare gli esercizi come descritto. Tali operazioni aiutano a comprendere quali tipi di informazioni gli utenti devono condividere con il personale informatico della loro società.  
 
@@ -36,11 +36,11 @@ Queste procedure dettagliate descrivono passo per passo i processi aziendali com
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

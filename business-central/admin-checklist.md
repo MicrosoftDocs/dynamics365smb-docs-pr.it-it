@@ -8,11 +8,11 @@ ms.search.form: '1992, 1993, 1994, 1995, 1990, 1997, 1801'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="onboard-users-with-checklists"></a>Aggiungere utenti con elenchi di controllo
+# Aggiungere utenti con elenchi di controllo
 
 La prima volta che un utente accede a una nuova azienda [!INCLUDE [prod_short](includes/prod_short.md)], possono vedere un banner che li incoraggia ad avviare l'elenco di controllo **Inizia** per aiutarti a impostare le informazioni chiave e prepararti al business. In qualità di amministratore o partner di rivendita, puoi personalizzare gli elenchi di controllo predefiniti e impostare i tuoi passaggi.
 
-## <a name="to-add-an-item-to-the-checklist"></a>Per aggiungere un elemento all'elenco di controllo
+## Per aggiungere un elemento all'elenco di controllo
 
 1. Accedere a [!INCLUDE[prod_short](includes/prod_short.md)] all'indirizzo [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -25,7 +25,7 @@ La prima volta che un utente accede a una nuova azienda [!INCLUDE [prod_short](i
     > [!TIP]
     > Se il passaggio è per una guida all'installazione, il campo **Attività** specifica la guida all'installazione. Se il passaggio è per saperne di più, il campo **Attività** specifica il collegamento all'articolo o al modulo di e-learning.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Preparazione al business](ui-get-ready-business.md)  
 [Amministrazione](admin-setup-and-administration.md)  

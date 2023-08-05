@@ -11,7 +11,7 @@ ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="process-purchase-returns-or-cancellations"></a>Elaborare i resi o gli annullamenti acquisti
+# Elaborare i resi o gli annullamenti acquisti
 
 Se si desidera restituire gli articoli al fornitore o annullare l'assistenza acquistata, è possibile creare e registrare una nota di credito di acquisto in cui viene specificata la modifica richiesta rispetto alla fattura di acquisto originale. Per includere le informazioni corrette in merito alle fatture di acquisto, è possibile creare la nota di credito di acquisto direttamente dalla fattura di acquisto registrata oppure creare una nuova nota di credito di acquisto con le informazioni copiate dalla fattura.
 
@@ -28,7 +28,7 @@ Oltre alla fattura di acquisto registrata originale, è possibile collegare la n
 
 La registrazione della nota di credito annullerà anche tutti gli addebiti articolo assegnati al documento registrato, in modo che i movimenti valorizzazione articolo siano identici a prima dell'assegnazione dell'addebito articolo.
 
-## <a name="inventory-costing"></a>Costing di magazzino
+## Costing di magazzino
 Per mantenere la corretta valutazione del magazzino, in genere si desidera selezionare gli articoli di reso dal magazzino al costo unitario con cui sono stati acquistati e non al costo unitario corrente. Questa operazione è detta storno esatto costo.
 
 Sono disponibili due funzioni per assegnare lo storno esatto costo automaticamente.  
@@ -42,7 +42,7 @@ Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il ca
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
-## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Per creare una nota di credito di acquisto da una fattura di acquisto registrata
+## Per creare una nota di credito di acquisto da una fattura di acquisto registrata
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto registrate**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Fatture acquisto registrate** selezionare la fattura di acquisto registrata che si desidera stornare, quindi scegliere l'azione **Crea nota credito di rettifica**.
@@ -63,7 +63,7 @@ Le fatture di acquisto registrate a cui si applica la nota di credito vengono or
 
 La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento nell'elenco delle note di credito di acquisto registrate.
 
-## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Per creare una nota di credito di acquisto copiando una fattura di acquisto registrata
+## Per creare una nota di credito di acquisto copiando una fattura di acquisto registrata
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito acquisto**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo** per aprire una nuova nota di credito di acquisto vuota.
@@ -75,7 +75,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 8. Scegliere il pulsante **OK**. Le righe della fattura copiate vengono inserite nella nota di credito di acquisto.
 9. Completare la nota di credito acquisto come descritto in [Per creare una nota di credito di acquisto da una fattura di acquisto registrata](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati
+## Per creare un ordine di reso da acquisto sulla base di uno o più documenti di acquisto registrati
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di reso acquisto**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -125,7 +125,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 10. Nella pagina **Ordine di reso acquisto**, nel campo **Cod. causa di reso** di ciascuna riga, selezionare il motivo del reso.
 11. Scegliere l'azione **Registra**.
 
-## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Per creare un ordine di acquisto di sostituzione da un ordine di reso da acquisto
+## Per creare un ordine di acquisto di sostituzione da un ordine di reso da acquisto
 
 È possibile raggiungere un accordo con un fornitore per la sostituzione di un articolo quale compensazione per un articolo acquistato. L'articolo sostitutivo può essere uguale oppure diverso. Questa situazione potrebbe presentarsi, ad esempio, se il fornitore ha spedito l'articolo sbagliato.  
 
@@ -134,7 +134,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 3. Nella pagina **Muovi righe acquisto negative** compilare i campi secondo le necessità.
 4. Scegliere il pulsante **OK**. La riga negativa viene eliminata dall'ordine di reso acquisto e un nuovo ordine di acquisto viene creato. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).  
 
-## <a name="to-create-a-purchase-allowance"></a>Per creare un abbuono di acquisto
+## Per creare un abbuono di acquisto
 
 Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richiesti, ad esempio, se sono leggermente danneggiati, se il colore o la misura non sono quelli giusti, il fornitore può proporre un abbuono sull'acquisto.  
 
@@ -153,7 +153,7 @@ Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richi
 
 Durante la registrazione dell'ordine di reso da acquisto, l'abbuono viene aggiunto all'importo del movimento di acquisto corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.  
 
-## <a name="to-combine-return-shipments"></a>Per cumulare le spedizioni di reso
+## Per cumulare le spedizioni di reso
 
 Per rendere articoli coperti da diversi ordini di reso acquisto allo stesso fornitore, è possibile utilizzare la funzione **Spedizioni reso cumulative**.  
 
@@ -175,15 +175,15 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
     Se è stata selezionata una riga di spedizione di reso non corretta o si desidera effettuare una nuova selezione, è possibile eliminare le righe dalla nota di credito di acquisto ed eseguire nuovamente la funzione **Prendi righe di spedizione reso**.  
 6. Scegliere l'azione **Registra**.  
 
-### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Per rimuovere ordini di reso acquisto aperti dopo la registrazione della spedizione reso cumulativa
+### Per rimuovere ordini di reso acquisto aperti dopo la registrazione della spedizione reso cumulativa  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Elimina ordini di reso acquisto fatturati**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze, quindi scegliere **OK**.  
 3. In alternativa, eliminare i singoli ordini di reso acquisto manualmente.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
