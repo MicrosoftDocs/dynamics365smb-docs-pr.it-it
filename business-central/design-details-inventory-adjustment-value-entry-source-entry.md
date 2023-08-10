@@ -11,15 +11,15 @@ ms.date: 09/17/2021
 ms.author: edupont
 ---
 
-# Data di registrazione nella registrazione del valore di aggiustamento rispetto alla registrazione di origine
+# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Data di registrazione nella registrazione del valore di aggiustamento rispetto alla registrazione di origine
 
 Questo articolo confronta la data di registrazione sulla registrazione del valore di aggiustamento con la data di registrazione sulla registrazione che causa l'esecuzione del lavoro batch Rettifica costo movimenti articoli, in particolare uno scenario di rivalutazione e uno scenario di addebito dell'articolo.
 
 Il lavoro batch **Rettifica costo movimenti articoli** elaborerà i vostri dati a seconda del vostro scenario e della configurazione di [!INCLUDE[prod_short](includes/prod_short.md)]. In questa sezione, descriviamo due processi separati, e per ognuno mostriamo il tipo di impatto che il lavoro batch Rettifica costo movimenti articoli ha sui dati.
 
-## Scenario di rivalutazione
+## <a name="revaluation-scenario"></a>Scenario di rivalutazione
 
-### Prerequisiti  
+### <a name="prerequisites"></a>Prerequisiti
 
 Inserite i seguenti valori:
 
@@ -45,7 +45,7 @@ Inserite i seguenti valori:
 
 - Permettere di inviare a = Vuoto  
 
-### Per verificare lo scenario:
+### <a name="to-test-the-scenario"></a>Per verificare lo scenario:
 
 Testate questo scenario eseguendo i seguenti passi.
 
@@ -150,15 +150,15 @@ La rettifica apportata per la rettifica negativa nel passaggio 3 è oggetto di d
 
 Per ottenere l'aggiustamento in dicembre dell'aggiustamento negativo al passo 3, il campo Setup contabilità generale, Consenti registrazione da, deve indicare una data in dicembre.  
 
-### Conclusione
+### <a name="conclusion"></a>Conclusione
 
 Con l'esperienza acquisita in questo scenario, quando si considera la configurazione più adatta per un intervallo di date di invio consentito per un'azienda, si potrebbe voler considerare quanto segue. Finché si permette che i cambiamenti nel valore dell'inventario siano registrati in un periodo, come dicembre in questo caso, la configurazione che l'azienda usa per gli intervalli di date di registrazione permessi dovrebbe essere allineata con questa decisione. Il campo Consenti registraz. da nel setup di contabilità generale, indicante il 1° dicembre, permetterebbe il trasferimento della rivalutazione effettuata a dicembre ai movimenti in uscita interessati nello stesso periodo.  
 
 Per i gruppi di utenti a cui non è consentito registrare in dicembre ma a gennaio, condizione probabilmente determinata dal setup di contabilità generale in questo scenario, si deve utilizzare il setup utente.  
 
-## Scenario di addebito dell'articolo  
+## <a name="item-charge-scenario"></a>Scenario di addebito dell'articolo
 
-### Prerequisiti  
+### <a name="prerequisites-1"></a>Prerequisiti
 
 Inserite i seguenti valori:
 
@@ -184,7 +184,7 @@ Inserite i seguenti valori:
 
 - Consentire la pubblicazione di = vuoto  
 
-### Per testare lo scenario  
+### <a name="to-test-the-scenario-1"></a>Per testare lo scenario
 
 Testate questo scenario eseguendo i seguenti passi:
 
@@ -350,7 +350,7 @@ La data 1° gennaio indicata nel campo Consenti registraz. da del setup di conta
 
 Come alternativa in questo scenario si sarebbe potuto avere una data in dicembre di un paio di giorni in più nel campo Consenti registraz. da del setup di contabilità generale e differire la registrazione del primo addebito articolo per consentire il riconoscimento di tutti i costi relativi al periodo/anno fiscale per il periodo a cui appartengono inizialmente, quindi eseguire il processo batch Rettifica costo - Movimenti articoli e infine spostare la data di registrazione consentita al nuovo periodo\/anno fiscale. Si sarebbe quindi potuto registrare il primo addebito con la data 2 gennaio.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 
 [Dettagli del design: Data di registrazione del valore di aggiustamento](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Dettagli del design: Inventario dei costi](design-details-inventory-costing.md)  

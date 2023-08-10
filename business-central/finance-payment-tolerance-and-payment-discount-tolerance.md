@@ -10,7 +10,7 @@ ms.search.form: '118, 314, 395'
 ms.date: 04/03/2023
 ms.author: edupont
 ---
-# Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilizzare le tolleranze pagamento e le tolleranze sconto pagamento
 
 È possibile impostare una tolleranza di pagamento per chiudere una fattura quando il pagamento non copre l'intero importo della fattura. Ad esempio, le tolleranze pagamento sono in genere per importi di piccola entità per cui costerebbe di più la correzione che semplicemente accettarli. È possibile impostare una tolleranza sconto pagamento per consentire uno sconto sul pagamento dopo che è trascorsa la data dello sconto sul pagamento.  
 
@@ -18,7 +18,7 @@ Utilizza le tolleranze di pagamento in modo che ogni importo inevaso abbia una t
 
 Puoi utilizzare le tolleranze sconto pagamento in modo che, se accetti uno sconto sul pagamento dopo la relativa data di scadenza, tale evento verrà registrato nel conto degli sconti sul pagamento oppure nel conto delle tolleranze di pagamento.
 
-## Collegamento della tolleranza di pagamento a più documenti
+## <a name="applying-payment-tolerance-to-multiple-documents"></a>Collegamento della tolleranza di pagamento a più documenti
 
 Un documento singolo ha la stessa tolleranza di pagamento indipendentemente dal fatto che sia applicato in modo autonomo o collegato con altri documenti. L'accettazione di uno sconto di pagamento ritardato quando si collega la tolleranza di pagamento a più documenti si verifica automaticamente per ogni documento in cui la seguente regola è vera:  
 
@@ -36,7 +36,7 @@ Questa regola determina anche se visualizzare avvisi quando si collega la toller
 
 Per ulteriori informazioni, vedere [Abilitare o disabilitare gli avvisi di tolleranza pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## Per impostare le tolleranze
+## <a name="to-set-up-tolerances"></a>Per impostare le tolleranze
 
 La tolleranza su giorni e importi consente di chiudere una fattura anche se il pagamento non copre interamente l'importo in fattura. Ad esempio, perché è stata superata la data di scadenza per lo sconto sul pagamento, le merci sono state detratte o a causa di un errore minore. Lo stesso principio è valido anche per note di credito e rimborsi.  
 
@@ -70,7 +70,7 @@ Per impostare le tolleranze è necessario impostare vari conti di tolleranza, sp
 > [!IMPORTANT]  
 > Quando abiliti il campo **Rettifica per sconto pagamento** nella pagina **Setup registrazioni IVA**, l'importo dell'IVA è considerato in quanto relativo agli importi **Tolleranze di pagamento** e **Sconti sui pagamenti** e l'IVA sarà ridotta per entrambi gli importi delle transazioni, se esistenti. Il sistema non può essere configurato per utilizzare la riduzione dell'IVA solo per un tipo di transazione.  
 
-## Per abilitare o disabilitare gli avvisi di tolleranza pagamento
+## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Per abilitare o disabilitare gli avvisi di tolleranza pagamento
 
 L'avviso tolleranza pagamento viene visualizzato quando si registra un collegamento con un saldo che rientra nella tolleranza consentita. Sarà quindi possibile decidere come registrare e documentare il saldo.    
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
@@ -79,7 +79,7 @@ L'avviso tolleranza pagamento viene visualizzato quando si registra un collegame
 > [!NOTE]  
 > L'opzione predefinita per la pagina **Avviso tolleranza pag.** è **Mantieni il saldo come importo residuo**. L'opzione predefinita per la pagina **Avviso tolleranza sconto pagamento** è **Non accettare lo sconto di pagamento ritardato**.
 
-## Per bloccare la tolleranza pagamento per i clienti
+## <a name="to-block-payment-tolerance-for-customers"></a>Per bloccare la tolleranza pagamento per i clienti
 
 Per impostazione di default, la tolleranza di pagamento è consentita. Per disattivare la tolleranza di pagamento per un cliente o un fornitore, è necessario bloccare la tolleranza nella relativa scheda cliente o scheda fornitore. Di seguito viene descritto come eseguire l'operazione per un cliente. I passaggi sono simili per un fornitore.
 
@@ -89,7 +89,7 @@ Per impostazione di default, la tolleranza di pagamento è consentita. Per disat
 > [!NOTE]  
 > Se il cliente o il fornitore dispone di movimenti aperti, è necessario prima rimuovere la tolleranza di pagamento dai movimenti correntemente aperti.
 
-## Esempio 1: calcoli di tolleranza per un singolo documento
+## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Esempio 1: calcoli di tolleranza per un singolo documento
 
 Di seguito sono descritti alcuni scenari di esempio mirati a illustrare i calcoli e le registrazioni della tolleranza prevista eseguiti in diverse situazioni.  
 
@@ -123,11 +123,11 @@ Gli scenari con l'alternativa A o B rappresentano quanto segue:
 |14|1.000|20|5|15/01/03|20/01/03|>20/01/03|980|Nessuno|No, 20 in fattura|0|0|  
 |15|1.000|20|5|15/01/03|20/01/03|>20/01/03|975|Nessuno|No, 25 in fattura|0|0|  
 
-### Diagrammi dell'intervallo di pagamento
+### <a name="payment-range-diagrams"></a>Diagrammi dell'intervallo di pagamento
 
 I diagrammi degli intervalli di pagamento per lo scenario sopra illustrato sono:  
 
-#### (1) Data di pagamento <=15/01/03 (scenari 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Data di pagamento <=15/01/03 (scenari 1-3)
 
 Importo residuo in base a  
 
@@ -139,7 +139,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### (2) Data di pagamento tra il 16/01/03 e il 20/01/03 (scenari 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Data di pagamento tra il 16/01/03 e il 20/01/03 (scenari 4-9)
 
 Importo residuo in base a  
 
@@ -151,7 +151,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### (3) Data di pagamento dopo il 20/01/03 (scenari 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Data di pagamento dopo il 20/01/03 (scenari 10-15)
 
 Importo residuo in base a  
 
@@ -163,7 +163,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-## Esempio 2: calcoli di tolleranza per più documenti
+## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Esempio 2: calcoli di tolleranza per più documenti
 
 Di seguito sono descritti alcuni scenari di esempio mirati a illustrare i calcoli e le registrazioni della tolleranza prevista eseguiti in diverse situazioni. Questi esempi contemplano solo gli scenari in cui tutti i movimenti del collegamento vengono chiusi.  
 
@@ -211,11 +211,11 @@ Gli scenari con l'alternativa A, B, C o D rappresentano quanto segue:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**>22/01/03**|**2000**|**Nessuno**|**Sì**|**0**|**0**|  
 |30|1.000 <br />1.000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|PaymentTolerance|Sì|0|5|  
 
-### Diagrammi dell'intervallo di pagamento
+### <a name="payment-range-diagrams-1"></a>Diagrammi dell'intervallo di pagamento
 
 I diagrammi degli intervalli di pagamento per lo scenario sopra illustrato sono:  
 
-#### (1) Data di pagamento <=15/01/03 (scenari 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1"></a>(1) Data di pagamento <=15/01/03 (scenari 1-3)
 
 Importo residuo in base a  
 
@@ -227,7 +227,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### (2) Data di pagamento tra il 16/01/03 e il 17/01/03 (scenari 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Data di pagamento tra il 16/01/03 e il 17/01/03 (scenari 4-9)
 
 Importo residuo in base a  
 
@@ -239,7 +239,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### (3) Data di pagamento tra il 18/01/03 e il 20/01/03 (scenari 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Data di pagamento tra il 18/01/03 e il 20/01/03 (scenari 10-21)
 
 Importo residuo in base a  
 
@@ -251,7 +251,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### (4) Data di pagamento tra il 21/01/03 e il 22/01/03 (scenari 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Data di pagamento tra il 21/01/03 e il 22/01/03 (scenari 22-27)
 
 Importo residuo in base a  
 
@@ -263,7 +263,7 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.  
 
-#### (5) Data di pagamento dopo il 22/01/03 (scenari 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Data di pagamento dopo il 22/01/03 (scenari 28-30)
 
 Importo residuo in base a  
 
@@ -275,9 +275,9 @@ regole di collegamento normali
 
 (2) Se il pagamento ricade in questi intervalli, i movimenti di collegamento non possono essere chiusi, nemmeno con tolleranza.
 
-## Vedi il relativo [training Microsoft](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/enter-payments-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  

@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Stampare la lista prelievo
+# <a name="print-the-picking-list"></a>Stampare la lista prelievo
 
 È possibile stampare una lista prelievo magazzino direttamente da un ordine di vendita e altri documenti che avviano la spedizione di articoli.
 
 Questo report viene in genere utilizzato in società senza funzionalità dedicata per la gestione del magazzino, in modo che un addetto all'inventario possa visualizzare o stampare la lista prelievo dal relativo documento di vendita. In società con volumi più elevati o processi più complessi, la spedizione e il prelievo vengono pianificati ed eseguiti in documenti di magazzino dedicati. Per ulteriori informazioni vedi [Flusso warehouse in uscita](design-details-outbound-warehouse-flow.md).
 
-## Per stampare una lista prelievo da un ordine di vendita
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>Per stampare una lista prelievo da un ordine di vendita
 
 La seguente procedura è basata su un ordine di vendita. I passaggi sono simili per tutti i documenti di vendita che possono essere utilizzati per avviare la spedizione degli articoli, come l'ordine di trasferimento.
 
@@ -30,7 +30,7 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 > [!NOTE]
 > Se si è utilizzata la funzione **Esplodi DB** nell'ordine di vendita, nel report vengono visualizzati solo i componenti dell'articolo di assemblaggio correlato. Per ulteriori informazioni vedi [Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Magazzino](inventory-manage-inventory.md)  
 [Flusso di warehouse in uscita](design-details-outbound-warehouse-flow.md)

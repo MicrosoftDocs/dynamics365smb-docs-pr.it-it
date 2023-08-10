@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-"></a>Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] include un elemento di controllo Dettaglio informazioni Power BI su diverse pagine elenco chiave. Lo scopo di questo Dettaglio informazioni è di visualizzare i report Power BI che sono correlati ai record negli elenchi, fornendo ulteriori informazioni sui dati. L'idea è che spostandosi tra le righe dell'elenco, il report si aggiorna per la voce selezionata.
 
@@ -19,7 +19,7 @@ ms.author: jswymer
 > [!NOTE]
 > Per informazioni generali sulla creazione e la pubblicazione di report Power BI per Business Central, vedi [Creazione di report Power BI per visualizzare i dati [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md). 
 
-## Prerequisiti
+## <a name="prerequisites"></a>Prerequisiti
 
 - Un account Power BI.
 - Power BI Desktop.
@@ -27,7 +27,7 @@ ms.author: jswymer
 <!-- 
 For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-## Crea un report per una pagina di elenco
+## <a name="create-a-report-for-a-list-page"></a>Crea un report per una pagina di elenco
 
 1. Avviare Power BI Desktop.
 2. Seleziona **Ottieni dati** e inizia a scegliere l'origine dati per il report.
@@ -75,7 +75,7 @@ For more information about getting started, see [Use [!INCLUDE[prod_short](inclu
 
     Se progettato correttamente, viene visualizzato il report.  
 
-## Imposta le dimensioni e il colore del report
+## <a name="set-the-report-size-and-color"></a>Imposta le dimensioni e il colore del report
 
 La dimensione del report deve essere impostata su 325 x 310 pixel. Questa dimensione fornisce il corretto ridimensionamento del report nello spazio disponibile dal controllo del riquadro dettaglio informazioni Power BI in [!INCLUDE[prod_short](includes/prod_short.md)]. Per definire la dimensione del report, posizionare il focus all'esterno dell'area del layout di report e quindi scegliere l'icona del rullo di verniciatura.
 
@@ -88,37 +88,37 @@ Se desideri che lo sfondo del report sfumi con il colore di sfondo del controllo
 > [!TIP]
 > Usa il file del tema di [!INCLUDE [prod_short](includes/prod_short.md)] per creare report con lo stesso stile di colore delle app [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Utilizzare il tema del report [!INCLUDE [prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-powerbi.md#theme).
 
-## Report con più pagine
+## <a name="reports-with-multiple-pages"></a>Report con più pagine
 
 Power BI consente di creare un unico report con più pagine. Tuttavia, per i report che verranno visualizzati con le pagine di elenco, non è consigliabile che abbiano più di una pagina. Il riquadro Dettaglio informazioni Power BI mostrerà solo la prima pagina del report.
 
-## Risolvere i problemi
+## <a name="fixing-problems"></a>Risolvere i problemi
 
 Questa sezione descrive come risolvere i problemi che potresti incontrare durante il tentativo di visualizzare un report di Power BI per una pagina di elenco in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### Non puoi vedere il Dettaglio informazioni di Power BI in una pagina di elenco
+### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Non puoi vedere il Dettaglio informazioni di Power BI in una pagina di elenco
 
 Per impostazione predefinita, il Dettaglio informazioni di Power BI è nascosto alla vista. Per visualizzare il Dettaglio informazioni su una pagina, dalla barra delle azioni, seleziona **Azioni** > **Schermo** > **Mostra/Nascondi report Power BI**.
 
-### Non è possibile visualizzare il report nel pannello Seleziona report
+### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Non è possibile visualizzare il report nel pannello Seleziona report
 
 Il nome del report non contiene il nome della pagina di elenco visualizzata. Rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.  
 
-### Il report è caricato ma è vuoto, non filtrato o filtrato in modo errato
+### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Il report è caricato ma è vuoto, non filtrato o filtrato in modo errato
 
 Verifica che il filtro del report contenga la chiave primaria corretta. Nella maggior parte dei casi, questo è il campo **Nr.** ma nella tabella **Movimenti C/G**, ad esempio, è necessario utilizzare il campo **Nr. movimento**.
 
-### Il report è caricato, ma mostra una pagina non prevista
+### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Il report è caricato, ma mostra una pagina non prevista
 
 Verificare che la pagina da visualizzare sia la prima pagina del report.  
 
-### Il report viene visualizzato con un bordo grigio indesiderato o è troppo piccolo o troppo grande
+### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Il report viene visualizzato con un bordo grigio indesiderato o è troppo piccolo o troppo grande
 
 Verificare che la dimensione del report sia impostata su 325 x 310 pixel. Salvare il report quindi aggiornare la pagina elenco.  
 
-## Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Abilitare i dati aziendali per Power BI](admin-powerbi.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  

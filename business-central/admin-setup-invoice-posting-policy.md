@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.forms: '119, 9807,'
 ---
 
-# Definire un criterio di registrazione delle fatture per gli utenti
+# <a name="define-an-invoice-posting-policy-for-users"></a>Definire un criterio di registrazione delle fatture per gli utenti
 
 Le aziende hanno spesso processi univoci per la registrazione di fatture di vendita e acquisto e spedizioni. Ad esempio, i processi possono variare da una persona che registra tutto su un ordine di acquisto a più dipendenti. È possibile impedire agli utenti di registrare fatture o richiedere che le fatture vengano registrate insieme a spedizioni o ricevute.
 
-## Per specificare un criterio di registrazione
+## <a name="to-specify-a-posting-policy"></a>Per specificare un criterio di registrazione
 
 Nella pagina **Configurazione utente** nei campi **Criteri di registrazione delle fatture di vendita** e **Criteri di registrazione delle fatture di acquisto**, scegli una delle seguenti opzioni:
 
@@ -22,7 +22,7 @@ Nella pagina **Configurazione utente** nei campi **Criteri di registrazione dell
 * **Proibito** - Impedisce all'utente di registrare le fatture. Business Central mostrerà una finestra di dialogo di conferma che fornisce solo le opzioni **Spedisci** o **Ricevi**.
 * **Obbligatorio** - Consente all'utente di registrare le fatture insieme a ricevute o spedizioni. Business Central mostrerà una finestra di dialogo di conferma con le opzioni **Spedisci e fattura** o **Ricevi e fattura**.
 
-## Effetto sui documenti
+## <a name="effect-on-documents"></a>Effetto sui documenti
 
 La tabella seguente descrive in che modo i criteri di registrazione delle fatture influiscono sui documenti.
 
@@ -39,7 +39,7 @@ La tabella seguente descrive in che modo i criteri di registrazione delle fattur
    > [!Note]
    > L'impostazione non influisce sulla registrazione delle righe di registrazioni generali in cui è possibile selezionare **Fattura** nel campo **Tipo di documento**.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Registrare gli acquisti con le fatture e gli ordini di acquisto](purchasing-how-record-purchases.md)  

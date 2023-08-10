@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
 ---
-# Informazioni sul calcolo del costo standard
+# <a name="about-calculating-standard-cost"></a>Informazioni sul calcolo del costo standard
 
 Molte aziende di produzione scelgono una base di valutazione del costo standard. Ciò si applica anche alle società che eseguono la produzione leggera, come assemblaggio e kitting. In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard. Questi costi sono congelati fino a quando non si decide di cambiarli. Il costo effettivo per la produzione di un prodotto può essere diverso dai costi standard previsti. Per consentire il controllo della gestione, il costo effettivo viene messo a confronto con il costo standard di un articolo specifico e le differenze, o *scostamenti*, vengono identificate e analizzate.  
 
@@ -21,7 +21,7 @@ I costi standard possono essere gestiti per articoli il cui rifornimento viene e
 |**Assemblaggio**|Costo diretto del materiale, costo di manodopera diretto o fisso e costo generale.|  
 |**Ordine Produzione**|Costo diretto del materiale, costo di manodopera, costo di terzisti e costo generale.|  
 
-## Impostazione dei costi standard
+## <a name="setting-up-standard-costs"></a>Impostazione dei costi standard
 
 Poiché il costo standard di un articolo lavorato o assemblato è costituito da più elementi di costo, ovvero costi relativi a materiale, capacità e terzisti (diretti e generali), i costi standard devono essere stabiliti per ognuno di questi elementi.  
 
@@ -38,7 +38,7 @@ I seguenti elementi di costo principali compongono il costo diretto totale di un
 - Costo capacità.  
 - Costo per conto lavoro solo per gli articoli prodotti.  
 
-### Costi materiale
+### <a name="material-costs"></a>Costi materiale
 
 I costi del materiale sono quelli associati ai subassemblaggi e alle materie prime acquistate. Il costo unitario del materiale può essere costituito da elementi di costo diretti e indiretti.  
 
@@ -56,7 +56,7 @@ Il costo del materiale di un articolo prodotto può essere rappresentato in due 
 |Livello Singolo|L'articolo prodotto è uguale al costo totale di tutti gli articoli acquistati o sottoassemblati nella DB di produzione di tale articolo.|  
 |Livello o multilivello di ricalcolo|L'articolo prodotto è la somme dei costi del materiale di tutti i subassemblaggi nella distinta base dell'articolo in questione e del costo di tutti gli articoli acquistati nella distinta base dell'articolo in questione.|  
 
-### Costi della capacità
+### <a name="capacity-costs"></a>Costi della capacità
 
 I costi capacità sono quelli associati alla manodopera interna e ai costi dei macchinari. È necessario impostare questi costi per ogni risorsa (in gestione assemblaggio) e area di produzione o centro di lavoro nel ciclo (in produzione). Come nel caso dei materiali, è possibile identificare sia elementi diretti che indiretti del costo della capacità. Il costo diretto di un'area di lavoro può ad esempio essere costituito dalla tariffa del reparto produzione stabilita per eseguire una funzione specifica. Il costo indiretto di un'area di lavoro può rappresentare alcune spese generali della fabbrica, ad esempio l'illuminazione, il riscaldamento e così via. Analogamente ai costi del materiale, è possibile esprimere i costi generali capacità come percentuale dei costi indiretti o coefficiente fisso dei costi generali.  
 
@@ -81,13 +81,13 @@ Per specificare il tempo di setup nel ciclo per la pianificazione senza includer
 
 A livello singolo, si tratta del costo della manodopera necessaria per produrre l'articolo finito, specificato nel ciclo dell'articolo di produzione. A più livelli, si tratta del costo della capacità specificato per ogni singolo articolo prodotto incluso nella distinta base dell'articolo principale.  
 
-### Costi dei terzisti
+### <a name="subcontractor-costs"></a>Costi dei terzisti
 
 I costi dei terzisti sono quelli associati ai servizi forniti da terzisti o fornitori esterni di un'azienda. Analogamente ai costi del materiale e della capacità, i costi dei terzisti possono essere costituiti da importi sia di costi diretti che generali. I costi diretti dei terzisti rappresentano l'addebito effettivo per ogni unità di servizio fornito. I costi generali dei terzisti possono, ad esempio, rappresentare i costi di spedizione e di gestione sostenuti dall'azienda in relazione a un ordine in conto lavoro.  
 
 Poiché il conto lavoro rappresenta essenzialmente una capacità esterna, il costo, diretto e indiretto, dei servizi in conto lavoro viene impostato nella scheda area di produzione che rappresenta l'operazione di affidamento in conto lavoro.  
 
-## Aggiornamento dei costi standard
+## <a name="updating-standard-costs"></a>Aggiornamento dei costi standard
 
 Per aggiornare o calcolare il costo standard degli articoli di assemblaggio, utilizzare la funzione dalla scheda articolo.  
 
@@ -98,7 +98,7 @@ Il processo di aggiornamento o del calcolo dei costi standard in genere è costi
 3.  Implementazione dei costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non verranno implementati. Usa il processo batch **Implementa modifiche costo std.** che consente di aggiornare il costo standard degli elementi riportati nella tabella Prospetto costo standard.  
 4.  Implementazione delle modifiche per aggiornare il campo **Costo unitario** nella scheda articolo ed eseguire la rivalutazione di magazzino. Per ulteriori informazioni, vedere [Rivalutare il magazzino](inventory-how-revalue-inventory.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Aggiornare i costi standard](finance-how-to-update-standard-costs.md)  

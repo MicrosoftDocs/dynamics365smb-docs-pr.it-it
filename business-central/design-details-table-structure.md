@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Dettagli di progettazione: Struttura della tabella
+# <a name="design-details-table-structure"></a>Dettagli di progettazione: Struttura della tabella
 Per comprendere in che modo i movimenti dimensione sono archiviati e registrati, è importante comprendere la struttura della tabella.  
 
-## Tabella 480, Movimento set di dimensioni  
+## <a name="table-480-dimension-set-entry"></a>Tabella 480, Movimento set di dimensioni
 Non è possibile modificare questa tabella. Dopo avere scritto i dati nella tabella, non è possibile eliminarli o modificarli.
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
@@ -25,7 +25,7 @@ Non è possibile modificare questa tabella. Dopo avere scritto i dati nella tabe
 |5|**Nome dimensione**|Testo 30|CalcField. Vedere la tabella 348.|  
 |6|**Nome valore dimensioni**|Testo 30|CalcField. Vedere la tabella 349.|  
 
-## Tabella 481, Nodo albero set di dimensioni  
+## <a name="table-481-dimension-set-tree-node"></a>Tabella 481, Nodo albero set di dimensioni
 Non è possibile modificare questa tabella. Viene utilizzata per cercare un set di dimensioni. Se il set di dimensioni non viene trovato, verrà creato un nuovo set.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
@@ -35,7 +35,7 @@ Non è possibile modificare questa tabella. Viene utilizzata per cercare un set 
 |3|**ID set di dimensioni**|Nr. intero|AutoIncrement. Utilizzato nel campo 1 della tabella 480.|  
 |4|**In uso**|Booleano|False se non in uso.|  
 
-## Buffer set di dimensioni di riclassificazione tabella 482  
+## <a name="table-482-reclas-dimension-set-buffer"></a>Buffer set di dimensioni di riclassificazione tabella 482
 Questa tabella viene utilizzata quando si modifica un codice valore di dimensioni, ad esempio, in un movimento contabile articolo utilizzando la pagina **Registrazioni riclassificazione articolo**.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
@@ -49,14 +49,14 @@ Questa tabella viene utilizzata quando si modifica un codice valore di dimension
 |7|**Nome valore dimensioni**|Testo 30|CalcField. Vedere la tabella 349.|  
 |8|**Nuovo nome valore dimensioni**|Testo 30|CalcField. Vedere la tabella 349.|  
 
-## Tabelle del budget e delle transazioni  
+## <a name="transaction-and-budget-tables"></a>Tabelle del budget e delle transazioni
 Oltre agli altri campi dimensione nella tabella, questo campo è importante:  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
 |480|**ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 
-### Tabella 83, Righe reg. magazzino  
+### <a name="table-83-item-journal-line"></a>Tabella 83, Righe reg. magazzino
 Oltre agli altri campi dimensione nella tabella, questi campi sono importanti.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
@@ -64,14 +64,14 @@ Oltre agli altri campi dimensione nella tabella, questi campi sono importanti.
 |480|**ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 |481|**Nuovo ID set di dimensioni**|Nr. intero|Fa riferimento al campo 1 nella tabella 480.|  
 
-### Tabella 349, Valore dimensioni  
+### <a name="table-349-dimension-value"></a>Tabella 349, Valore dimensioni
 Oltre agli altri campi dimensione nella tabella, questi campi sono importanti.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
 |12|**ID valore dimensioni**|Nr. intero|AutoIncrement. Utilizzato per i riferimenti nelle tabelle 480 e 481.|  
 
-### Tabelle che contengono il campo ID set di dimensioni
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabelle che contengono il campo ID set di dimensioni
  Il campo **ID set di dimensioni** (480) esiste nelle seguenti tabelle. Per le tabelle che memorizzano i dati registrati, il campo fornisce soltanto una visualizzazione non modificabile di dimensioni, contrassegnata come drill-down. Per le tabelle che memorizzano i documenti di lavoro, il campo è modificabile. Le tabelle buffer utilizzate internamente non richiedono funzionalità modificabili o non modificabili.  
 
  Il campo 480 non è modificabile nelle seguenti tabelle.  
@@ -174,7 +174,7 @@ Il campo 480 esiste nelle seguenti tabelle buffer.
 |5637|**Buffer reg. C/G cespiti**|  
 |7136|**Buffer budget articoli**|  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Sintesi movimenti set di dimensioni](design-details-dimension-set-entries-overview.md)  
 [Dettagli di progettazione: Ricerca delle combinazioni di dimensione](design-details-searching-for-dimension-combinations.md)   

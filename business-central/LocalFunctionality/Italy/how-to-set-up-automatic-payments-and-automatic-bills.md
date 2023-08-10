@@ -11,12 +11,12 @@ ms.search.form: '12203, 12204'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Impostare i pagamenti automatici e gli effetti automatici nella versione italiana
+# <a name="set-up-automatic-payments-and-automatic-bills-in-the-italian-version"></a>Impostare i pagamenti automatici e gli effetti automatici nella versione italiana
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], è possibile gestire i pagamenti e gli effetti automatici.  
 
 Per utilizzare i pagamenti e gli effetti automatici, è necessario impostare le informazioni pertinenti.  
 
-## Per aggiungere le informazioni relative alla banca della società  
+## <a name="to-add-bank-information-for-your-company"></a>Per aggiungere le informazioni relative alla banca della società
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Pagamenti** compilare i campi chiave come indicato nella tabella seguente.  
@@ -38,7 +38,7 @@ Per utilizzare i pagamenti e gli effetti automatici, è necessario impostare le 
 
 Di seguito viene descritto come impostare gli effetti automatici per vendite e incassi, ma gli stessi passaggi sono applicabili per l'impostazione di acquisti e debiti per l'utilizzo dei pagamenti automatici.  
 
-## Per impostare gli effetti automatici per vendite e incassi  
+## <a name="to-set-up-automatic-bills-for-sales-and-receivables"></a>Per impostare gli effetti automatici per vendite e incassi
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda dettaglio **Effetti**, nel campo **Nr. temp. distinta effetto** selezionare il numero temporaneo della distinta effetti. Compilare i campi come indicato nella tabella seguente.  
@@ -53,7 +53,7 @@ Di seguito viene descritto come impostare gli effetti automatici per vendite e i
 
  A questo punto, è necessario specificare i codici effetto per i metodi di pagamento utilizzati per i pagamenti automatici e gli effetti automatici.  
 
-## Per specificare i codici effetto per un metodo di pagamento  
+## <a name="to-specify-bill-codes-for-a-payment-method"></a>Per specificare i codici effetto per un metodo di pagamento
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di pagamento**, quindi scegli il collegamento correlato.  
 2.  Selezionare il metodo di pagamento utilizzato per i trasferimenti bancari ai fornitori, quindi nel campo **Cod. effetto**, selezionare un codice effetto.  
@@ -63,7 +63,7 @@ Di seguito viene descritto come impostare gli effetti automatici per vendite e i
 
 A questo punto, è possibile elaborare gli effetti cliente e fornitore in modo che vengano gestiti automaticamente.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
  [Definizione dei metodi di pagamento](../../finance-payment-methods.md) [Funzionalità locale per l'Italia](italy-local-functionality.md)
 
 

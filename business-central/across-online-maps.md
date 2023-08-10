@@ -8,7 +8,7 @@ ms.search.form: '21, 26, 76, 86, 88, 300, 370, 800, 804, 5050, 5200, 5703'
 ms.date: 07/15/2022
 ms.author: a-reishima
 ---
-# Utilizzare le mappe online per trovare posizioni e indicazioni stradali
+# <a name="use-online-maps-to-find-locations-and-directions"></a>Utilizzare le mappe online per trovare posizioni e indicazioni stradali
 
 Puoi ottenere una mappa da un servizio di mappe in linea che visualizza indirizzi e ubicazioni di un cliente o di un fornitore o le relative indicazioni stradali. È possibile accedere a **Online Map** nelle seguenti schede in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -25,14 +25,14 @@ Puoi ottenere una mappa da un servizio di mappe in linea che visualizza indirizz
 > [!NOTE]
 > Se nel campo **Cod. paese** non è presente un codice, il programma non sarà in grado di individuare le direzioni.
 
-## Trovare un'ubicazione in una mappa online
+## <a name="find-a-location-in-an-online-map"></a>Trovare un'ubicazione in una mappa online
 
 1. Apri una delle schede elencate sopra.
 2. Scegli l'azione **Online Map** o **Mostra su mappa**.
 3. Scegli il campo **Questo indirizzo**, quindi scegli **OK**.
 4. La mappa online configurata si apre con la posizione dell'indirizzo definita sulla carta.
 
-## Ottieni indicazioni stradali dalla tua ubicazione
+## <a name="get-route-directions-from-your-location"></a>Ottieni indicazioni stradali dalla tua ubicazione
 
 1. Apri una delle schede elencate sopra.
 2. Scegli l'azione **Online Map** o **Mostra su mappa**.
@@ -42,7 +42,7 @@ Puoi ottenere una mappa da un servizio di mappe in linea che visualizza indirizz
 > [!NOTE]
 > La mappa online si apre nel browser o nell'app predefinita, che potrebbe richiedere l'accesso ai dati sulla posizione del dispositivo.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare le mappe online](across-online-maps-setup.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  

@@ -10,7 +10,7 @@ ms.search.form: '30, 31'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Impostare le procedure ottimali: metodo di costing
+# <a name="setup-best-practices-costing-method"></a>Impostare le procedure ottimali: metodo di costing
 
 Il **Metodo di costing** sulla scheda articolo definisce come viene registrato il flusso del costo dell'articolo e se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi.  
 
@@ -26,7 +26,7 @@ Nella seguente tabella vengono fornite le procedure consigliate sulla modalità 
 |Specifico|Utilizzare nella produzione o nel commercio di articoli facilmente identificabili a costi unitari abbastanza elevati.<br /><br /> Utilizzare gli articoli che sono soggetti a regolazione.<br /><br /> Utilizzare per articoli con numeri di serie.|Il costo unitario di un articolo è il costo esatto con la particolare unità è stata ricevuta.|
 |Standard|Utilizzare quando il controllo costi è fondamentale.<br /><br /> Utilizzare nella produzione ripetitiva per stimare i costi di materiale diretto, di manodopera diretta e i costi generali di produzione.<br /><br /> Utilizzare quando esiste una disciplina e del personale per gestire gli standard.|Il costo unitario di un articolo è prestabilito in base a una stima.<br /><br /> Quando il costo effettivo viene realizzato successivamente, il costo standard deve essere rettificato con il costo effettivo tramite i valori di scostamento.|  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Dettagli di progettazione: determinazione dei costi di inventario](design-details-inventory-costing.md)  

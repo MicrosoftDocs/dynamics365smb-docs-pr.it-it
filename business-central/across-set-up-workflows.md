@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# Imposta workflow di approvazione
+# <a name="set-up-approval-workflows"></a>Imposta workflow di approvazione
 
 È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro. Ulteriori informazioni in [Utilizzare i workflow di approvazione](across-use-workflows.md).
 
@@ -35,16 +35,16 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Condividere workflow con altri database [!INCLUDE[prod_short](includes/prod_short.md)].|[Importa ed esporta workflow di approvazione](across-how-to-export-and-import-workflows.md)|  
 |Come impostare un workflow per approvare documenti di vendita seguendo una procedura end-to-end.|[Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## Esempio di workflow di approvazione
+## <a name="example-of-an-approval-workflow"></a>Esempio di workflow di approvazione
 
 Questo video mostra come impostare un workflow che chiede a un utente di richiedere l'approvazione di qualcun altro prima di poter modificare le informazioni su un cliente esistente o creare un nuovo cliente.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare i workflow di approvazione](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

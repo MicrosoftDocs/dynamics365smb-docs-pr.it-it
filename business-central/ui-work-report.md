@@ -8,20 +8,20 @@ ms.search.form: null
 ms.date: 09/09/2022
 ms.author: jswymer
 ---
-# Eseguire e stampare i report
+# <a name="run-and-print-reports"></a>Eseguire e stampare i report
 
 Un report raccoglie informazioni in base a una serie di criteri specificati. Organizza e presenta le informazioni in un formato di facile lettura che puoi stampare o salvare come file. Sono disponibili molti report a cui è possibile accedere dall'applicazione. I report in genere forniscono informazioni relative al contesto della pagina visualizzata. Ad esempio, la pagina **Cliente** include i report per i principali 10 clienti, statistiche di vendita e altro ancora.
 
 > [!NOTE]
 > I processi batch e XMLport eseguono più o meno gli stessi report ma sono usati più per eseguire un processo o esportare dati. Ad esempio, il processo batch **Crea solleciti** crea documenti di sollecito da inviare ai clienti con pagamenti scaduti. Questo articolo fa essenzialmente riferimento ai "report" ma informazioni simili si applicano ai processi batch e a XMLport.
 
-## Introduzione
+## <a name="get-started"></a>Introduzione
 
 I report sono disponibili nel menu **Report** delle pagine, degli elenchi e delle schede selezionate oppure puoi utilizzare la ricerca tramite l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") per individuare i report per nome. Per una panoramica dei report integrati che puoi utilizzare in [!INCLUDE[prod_short](includes/prod_short.md)], ordinati per categorie, vedi [Report disponibili in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md).
 
 Quando scegli un report, in genere ti viene presentata una pagina di richiesta, intitolata con il nome del report, in cui imposti varie opzioni e filtri che determinano quali dati sono inclusi. Le sezioni seguenti spiegano come utilizzare la pagina di richiesta per creare, visualizzare in anteprima e stampare un report.
 
-## <a name="SavedSettings"></a>Utilizzo dei valori predefiniti: impostazioni predefinite
+## <a name="using-default-valuesmdashpredefined-settings"></a><a name="SavedSettings"></a>Utilizzo dei valori predefiniti: impostazioni predefinite
 
 La maggior parte delle pagine di richiesta report include il campo **Utilizza valori predefiniti di**. Questo campo ti consente di selezionare le impostazioni predefinite per il report, che impostano automaticamente opzioni e filtri. Selezionare una voce dall'elenco a discesa per vedere che le opzioni e i filtri nella pagina della richiesta report cambiano di conseguenza.
 
@@ -32,7 +32,7 @@ Il campo **Utilizza valori predefiniti di** fornisce un modo rapido e affidabile
 > [!NOTE]
 > Le impostazioni predefinite vengono generalmente configurate e gestite da un amministratore. Per ulteriori informazioni, vedi [Gestire impostazioni salvate per report e processi batch](reports-saving-reusing-settings.md).
 
-## Specificare la data da includere in un report
+## <a name="specifying-the-data-to-include-in-a-report"></a>Specificare la data da includere in un report
 
 Usa i campi in **Opzioni** e **Filtri** per cambiare o limitare le informazioni che vuoi nel report. È possibile impostare i filtri in un report più o meno nello stesso modo in cui si impostano i filtri negli elenchi. Ulteriori informazioni nella sezione [Filtro](ui-enter-criteria-filters.md#filtering).
 
@@ -43,7 +43,7 @@ Usa i campi in **Opzioni** e **Filtri** per cambiare o limitare le informazioni 
 >
 > **Esempio**: quando si utilizza il processo batch **Crea solleciti**, un filtro per il campo **Movimenti contabili clienti** di **Livello ultimo sollecito emesso** viene ignorato perché i filtri sono fissi per tale processo batch.
 
-## Anteprima di un report
+## <a name="previewing-a-report"></a>Anteprima di un report
 
 L'anteprima di un report ti consente di vedere come apparirà il report prima di stamparlo. L'anteprima non è basata sulla stampante selezionata nel campo **Stampante** nella pagina della richiesta. È controllato dal browser. Dopo l'anteprima, è possibile tornare alla pagina della richiesta e modificare le opzioni e i filtri secondo necessità.
 
@@ -52,7 +52,7 @@ Le scelte di anteprima nella pagina **Richiesta report** dipendono dal report. Q
 > [!NOTE]
 > Se si utilizza il primo ciclo di rilascio di Business Central 2020 o una versione precedente, l'unica scelta disponibile è **Anteprima** che chiude la pagina di richiesta in anteprima, come descritto sopra per **Anteprima e chiudi**.
 
-### Utilizzare l'anteprima
+### <a name="work-with-the-preview"></a>Utilizzare l'anteprima
 
 Nell'anteprima, utilizzare la barra dei menu nell'anteprima del report per:
 
@@ -69,7 +69,7 @@ Nell'anteprima, utilizzare la barra dei menu nell'anteprima del report per:
 - Scaricare in un file PDF sul computer o in rete.
 - Stampa
 
-## Salvataggio di un report in un file
+## <a name="saving-a-report-to-a-file"></a>Salvataggio di un report in un file
 
 Puoi salvare un report in un documento PDF, un documento di Microsoft Word, una cartella di lavoro di Microsoft Excel o un documento XML scegliendo **Invia a** ed effettuando la scelta desiderata. Il file viene scaricato sul dispositivo.
 
@@ -80,7 +80,7 @@ Se la tua organizzazione ha configurato OneDrive per le funzionalità di sistema
 >
 > Puoi anche usare l'opzione **Documento Microsoft Excel (solo dati)** per creare nuovi layout di Excel per un determinato report. Per ulteriori informazioni, vedi [Utilizzare i layout di Excel](ui-excel-report-layouts.md).  
 
-## <a name="ScheduleReport"></a> Pianificazione dell'esecuzione posticipata o periodica di un report
+## <a name="scheduling-a-report-to-run-later-or-periodically"></a><a name="ScheduleReport"></a>Pianificazione dell'esecuzione posticipata o periodica di un report
 
 È possibile pianificare l'esecuzione singola o ricorrente di un report a una data e un'ora specifiche. I report previsti vengono inseriti nella coda commesse e vengono elaborati all'orario pianificato, in maniera analoga alle altre commesse. Scegli l'opzione **Programmazione** dopo aver scelto il pulsante **Invia a**, quindi immetti le informazioni quali stampante, ora e data. Il report viene aggiunto alla coda processi e viene eseguito alla data specificata. Quando il report viene elaborato, l'elemento viene rimosso dalla coda processi. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).  
 
@@ -88,7 +88,7 @@ Quando pianifichi l'esecuzione di un report, puoi specificare ad esempio che dev
 
 È possibile salvare il report in un file, ad esempio un file Excel, Word, PDF, o stamparlo, o solo generare il report. Se scegli di salvare il report in un file, il report elaborato viene inviato nella pagina **Report elaborati** della Gestione ruolo utente, dove puoi visualizzarlo. Per ulteriori informazioni, vedi [Condividere ed esportare report con Report elaborati](ui-work-report-inbox.md)
 
-### Gestire i report ricorrenti programmati
+### <a name="manage-scheduled-recurring-reports"></a>Gestire i report ricorrenti programmati
 
 I report programmati sono generati da processi batch gestiti nella pagina **Movimenti coda processi**. È possibile visualizzare lo stato e altre informazioni per ciascun report sulla pagina, sospendere/riprendere il processo batch del report e generare il report su richiesta.
 
@@ -103,13 +103,13 @@ Dopo aver modificato le opzioni del report, ripeti i primi due passaggi e selezi
 
 Ulteriori informazioni sulla gestione della coda processi in [Usare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).  
 
-## <a name="PrintReport"></a>Stampa di un report
+## <a name="printing-a-report"></a><a name="PrintReport"></a>Stampa di un report
 
 Per stampare un report scegli **Stampa** nella pagina di richiesta report o nella barra dei menu della pagina **Anteprima**.
 
 Quando un report utilizza un layout di Excel, non vedrai il campo **Stampante**, il pulsante **Stampa** o **Anteprima**. C'è invece un'opzione **Scarica**. Per stampare, seleziona **Scarica**, quindi apri il file scaricato in Excel e stampa da lì.
 
-### <a name="Printer"></a>Stampante
+### <a name="printer"></a><a name="Printer"></a>Stampante
 
 Il campo **Stampante** nella pagina di richiesta del report mostra il nome della stampante a cui viene inviato il report. Per cambiare una stampante, seleziona semplicemente la stampante dall'elenco.
 
@@ -119,13 +119,13 @@ Il campo **Stampante** nella pagina di richiesta del report mostra il nome della
 > [!TIP]
 > La stampante selezionata per impostazione predefinita è configurata nella pagina **Selezioni della stampante**. Ulteriori informazioni sulla modifica della stampante predefinita nella sezione [Configurare le stampanti predefinite](ui-specify-printer-selection-reports.md#default).
 
-### Stampa di report nella versione tailandese
+### <a name="printing-reports-in-thai"></a>Stampa di report nella versione tailandese
 
 Nella versione tailandese di [!INCLUDE[prod_short](includes/prod_short.md)], non è possibile stampare correttamente i report con il pulsante **Stampa** a causa delle limitazioni nel servizio che genera il file PDF stampabile. In alternativa, è possibile aprire il report in Word e quindi salvare il report come PDF stampabile.  
 
 Oppure è possibile richiedere all'amministratore di creare un layout report Word per i report più utilizzati. Per ulteriori informazioni, vedi [Gestione dei layout di report e documento](ui-manage-report-layouts.md).  
 
-## Cambiare il layout di report
+## <a name="switching-the-report-layout"></a>Cambiare il layout di report
 
 Un layout di report determina le informazioni che verranno visualizzate nel report, nonché la disposizione e l'aspetto delle stesse. La modifica del layout può essere effettuata in vari modi:
 
@@ -134,13 +134,13 @@ Un layout di report determina le informazioni che verranno visualizzate nel repo
 
 Per ulteriori informazioni, vedi [Impostare il layout utilizzato da un report](ui-set-report-layout.md). Oppure per personalizzare un layout di report, vai a [Iniziare a creare layout](ui-get-started-layouts.md).
 
-## Cambiare la lingua e il formato di numeri, date e orari
+## <a name="change-language-and-format-of-numbers-dates-and-times"></a>Cambiare la lingua e il formato di numeri, date e orari
 
 Per impostazione predefinita, la lingua del testo e il formato di numeri, date e orari in un report si basano sulla lingua di lavoro e sulle impostazioni della regione, definite nella pagina **Impostazioni personali**. È tuttavia possibile modificare caso per caso la lingua e la regione del formato durante l'anteprima, la stampa o l'invio di un report. Nella pagina della richiesta, seleziona **Avanzate**, quindi imposta le opzioni **Lingua** e **Formato area geografica** come desideri.
 
 Per ulteriori informazioni sulla pagina **Impostazioni personali** vai a [Modificare le impostazioni di base](ui-change-basic-settings.md#region).
 
-## Opzioni avanzate
+## <a name="advanced-options"></a>Opzioni avanzate
 
 I campi nella scheda dettaglio **Avanzate** impostano le limitazioni sul report generato per controllare le risorse della stampante. In genere non è necessario modificare queste impostazioni, a meno che il report non sia di grandi dimensioni. Se un report supera questi limiti quando si tenta di visualizzarlo in anteprima o stamparlo, viene indicato quale limite è stato superato. È quindi possibile modificare le impostazioni per adattarle al report. Ogni campo, tuttavia, ha un valore massimo che è necessario conoscere:
 
@@ -153,9 +153,9 @@ I campi nella scheda dettaglio **Avanzate** impostano le limitazioni sul report 
 > [!NOTE]
 > I valori massimi possono essere diversi per [!INCLUDE[prod_short](includes/prod_short.md)] in locale e un amministratore può modificarli. Per ulteriori informazioni, vedi [Configurazione di Business Central Server - Report](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Per una panoramica dei limiti dei report in [!INCLUDE[prod_short](includes/prod_short.md)] online, vedi [Limiti operativi](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Report disponibili in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Usare i report nel lavoro quotidiano](reports-use-reports.md)  

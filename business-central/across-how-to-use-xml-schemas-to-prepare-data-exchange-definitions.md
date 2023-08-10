@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# Utilizzare gli schemi XML per preparare le definizioni di scambio dati
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Utilizzare gli schemi XML per preparare le definizioni di scambio dati
 
 Per abilitare l'importazione/esportazione di dati in file XML attraverso il framework di scambio dati in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile usare gli schemi XML per definire quali elementi di dati si desidera scambiare con [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile effettuare questa attività nella pagina **Visualizzatore schema XML** caricando il file di schema XML, selezionando gli elementi dati pertinenti e quindi inizializzando una definizione di scambio dati.  
 
@@ -24,7 +24,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
 - Per generare una definizione di scambio di dati basata su uno schema XML  
 
-## Per caricare un file di schema XML
+## <a name="to-load-an-xml-schema-file"></a>Per caricare un file di schema XML
 
 1. Assicurarsi che il file schema XML pertinente sia disponibile. L'estensione del file è .xsd.  
 
@@ -48,7 +48,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
     > [!NOTE]  
     >  La struttura ad albero dello schema XML caricato è compressa per impostazione predefinita. Ogni nodo può essere espanso scegliendo il pulsante **+** accanto al nodo desiderato. Per espandere tutti i nodi, selezionare **Espandi tutto** nella barra multifunzione.  
 
-### Per selezionare o rimuovere i nodi in uno schema XML  
+### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Per selezionare o rimuovere i nodi in uno schema XML
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Visualizzatore schema XML**, quindi scegli il collegamento correlato.  
 
@@ -86,7 +86,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 
      Il campo **Scelta** specifica che il nodo dispone di due o più nodi di pari livello che fungono da opzioni.  
 
-### Per generare una definizione di scambio di dati basata su uno schema XML  
+### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Per generare una definizione di scambio di dati basata su uno schema XML
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Schemi XML**, quindi scegli il collegamento correlato.  
 
@@ -104,7 +104,7 @@ Per abilitare l'importazione/esportazione di dati in file XML attraverso il fram
 > [!NOTE]
 > Nella prima ondata di rilascio del 2019 e nelle versioni precedenti, è possibile generare un XMLport basato sullo schema e poi importalo nella soluzione. Questa funzionalità non è più supportata.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)  
 [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

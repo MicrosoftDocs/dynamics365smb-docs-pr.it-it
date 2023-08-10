@@ -10,14 +10,14 @@ ms.search.form: 99000823
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# Registrare lo scarto manualmente
+# <a name="post-scrap-manually"></a>Registrare lo scarto manualmente
 
 Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto.  
 
 > [!NOTE]
 > La quantità di scarto non aumenta la quantità di output.  
 
-## Per registrare lo scarto manualmente
+## <a name="to-post-scrap-manually"></a>Per registrare lo scarto manualmente
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -27,7 +27,7 @@ Nelle registrazioni output può essere inserito lo scarto eventualmente prodotto
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Manufacturing](production-manage-manufacturing.md)
 [Impostazione della produzione](production-configure-production-processes.md)  
