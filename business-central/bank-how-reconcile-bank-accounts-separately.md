@@ -34,11 +34,6 @@ La casella di controllo **Collegato** è selezionata nelle righe in cui i movime
 
 Se il valore nel campo **Saldo totale** del riquadro **Righe rendiconto bancario** è pari al valore totale del campo **Saldo da riconciliare** e del campo **Saldo ultimo estratto conto** del riquadro **Mov. contabili C/C bancari** puoi scegliere l'azione **Registra**. I movimenti contabili del conto bancario non corrispondenti rimarranno nella pagina, indicando le discrepanze che è necessario risolvere per riconciliare il conto bancario.
 
-Per ricontrollare la riconciliazione del tuo conto bancario prima di pubblicarla, usa l'azione **Report test** per preparare un'anteprima della riconciliazione. Il report è disponibile nei seguenti contesti:
-
-* Quando stai preparando una riconciliazione bancaria sulla pagina **Riconciliazioni C/C bancari**.
-* Quando esegui la riconciliazione dei pagamenti nella pagina **Registrazioni riconciliazione pagamenti**.
-
 Qualsiasi riga che non può essere corrisposta, indicata da un valore nel campo **Differenza**, rimarrà nella pagina **Riconciliazioni C/C bancari** dopo la registrazione. Rappresenta una sorta di discrepanza che è necessario risolvere prima di poter completare la riconciliazione del conto bancario. La tabella seguente descrive alcune situazioni aziendali tipiche che possono causare differenze.
 
 | Differenza | Motivo | Risoluzione |
@@ -97,7 +92,7 @@ Puoi indagare la base delle corrispondenze usando l'azione **Dettagli partita** 
     Se si inserisce 0 o si lascia il campo vuoto, l'azione **Abbina automaticamente** cercherà solo le date delle transazioni corrispondenti alla data di registrazione del conto bancario.
 3. Scegli il pulsante **OK**.
 
-    Le righe sono codificate a colori per facilitare la comprensione di cosa farne. Tutte le righe del rendiconto bancario e i movimenti contabili di conti correnti bancari che possono corrispondere vengono modificati con carattere verde e la casella di controllo **Collegato** è selezionata. I movimenti contabili del conto bancario già abbinati in altre riconciliazioni bancarie sono visualizzati in carattere blu.
+    Le righe sono codificate a colori per facilitare la comprensione di cosa farne. Le righe del rendiconto bancario e i movimenti contabili di conti correnti bancari che possono corrispondere alla riconciliazione bancaria attuale vengono modificati con carattere verde grassetto. I movimenti contabili del conto bancario abbinati in altre riconciliazioni bancarie sono visualizzati in carattere blu corsivo.
 4. Per rimuovere una corrispondenza, selezionare la riga dell'estratto conto bancario quindi selezionare l'azione **Rimuovi corrispondenza**.
 
 > [!TIP]
@@ -107,6 +102,13 @@ Puoi indagare la base delle corrispondenze usando l'azione **Dettagli partita** 
 
 > [!TIP]
 > Quando si abbinano righe e movimenti manualmente, le azioni **Mostra tutto**, **Mostra movimenti stornati**, **Nascondi movimenti stornati**, e **Mostra non collegati** possono rendere più facile ottenere una panoramica. Per impostazione predefinita, i movimenti contabili del conto bancario non includono movimenti stornati non corrispondenti. Per includere questi movimenti nell'elenco e abbinarli manualmente, scegli l'azione **Mostra movimenti stornati**. Se scegli di nascondere i movimenti stornati dopo aver effettuato una o più corrispondenze, i movimenti corrispondenti vengono comunque visualizzati.
+
+> [!NOTE]
+> Non è possibile registrare una riconciliazione bancaria se si esegue l'abbinamento molti a uno e gli importi combinati contengono differenze. Questo è vero anche se le differenze combinate equivalgono a zero.
+>
+> Di seguito è riportato un esempio di corrispondenza molti a uno con differenze. Il valore 200 per il movimento 1 dell'estratto conto bancario viene abbinato a due movimenti contabili bancari che hanno un valore totale di 180. La differenza è 20. Il valore 350 per il movimento 2 dell'estratto conto bancario viene abbinato ad altri due movimenti contabili bancari che hanno un valore totale di 370. La differenza è -20, che bilancia il valore di 20 per l'estratto conto 1.  
+>
+> Per registrare una riconciliazione bancaria con differenze nelle righe, registrare le differenze e quindi confrontarle con i movimenti registrati.
 
 1. Nella pagina **Riconciliazioni C/C bancari** selezionare una riga non collegata nel riquadro **Righe rendiconto bancario**.
 2. Nel riquadro **Mov. contabili C/C bancari** selezionare uno o più movimenti contabili del conto bancario che possono corrispondere alla riga selezionata del rendiconto bancario. Per scegliere più righe, tieni premuto il tasto <kbd>CTRL</kbd> e scegli le righe.
@@ -121,6 +123,49 @@ Puoi indagare la base delle corrispondenze usando l'azione **Dettagli partita** 
 > [!TIP]
 > Per rimuovere una corrispondenza, selezionare la riga dell'estratto conto bancario quindi selezionare l'azione **Rimuovi corrispondenza**. Se hai abbinato più righe di estratto conto bancario a una voce del libro mastro e hai bisogno di rimuovere una o più delle righe abbinate, tutte le corrispondenze manuali vengono rimosse per la voce del libro mastro quando scegli **Rimuovi corrispondenza**.
 
+## Per convalidare la tua riconciliazione bancaria
+
+Per ricontrollare la riconciliazione del tuo conto bancario prima di pubblicarla, usa l'azione **Report test** per visualizzare un'anteprima della riconciliazione. Il report è disponibile nei seguenti contesti:
+
+* Quando stai preparando una riconciliazione bancaria sulla pagina **Riconciliazioni C/C bancari**.
+* Quando esegui la riconciliazione dei pagamenti nella pagina **Registrazioni riconciliazione pagamenti**.
+
+Le righe che non possono essere abbinate rimangono nella pagina **Riconciliazione conto bancario** dopo la pubblicazione. Queste righe contengono un valore nel campo **Differenza**. La differenza rappresenta una sorta di discrepanza che è necessario risolvere prima di poter completare la riconciliazione del conto bancario. La tabella seguente descrive alcune situazioni aziendali tipiche che possono causare differenze.
+
+| Differenza | Motivo | Risoluzione |
+|------------|--------|------------|
+| Una transazione nel conto bancario in [!INCLUDE[prod_short](includes/prod_short.md)] non è sull'estratto conto. | La transazione bancaria non è stata creata nonostante sia stata effettuata una registrazione in [!INCLUDE[prod_short](includes/prod_short.md)]. | Crea la transazione mancante (o chiedi a un debitore di effettuarla). Quindi reimporta il file dell'estratto conto o inserisci manualmente la transazione. |
+| Una transazione sull'estratto conto non esiste come documento o riga di registrazione in [!INCLUDE[prod_short](includes/prod_short.md)]. | È stata effettuata una transazione bancaria senza una registrazione corrispondente in [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio la registrazione di una riga per una spesa. | Creare e registrare il movimento mancante. Per informazioni su un modo rapido per eseguire questa operazione, vedi [Per creare i movimenti contabili mancanti per applicare la corrispondenza con le transazioni bancarie](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines). |
+| Una transazione nel conto bancario interno corrisponde a una transazione bancaria, ma alcune informazioni sono troppo diverse per fornire una corrispondenza. | Le informazioni, come l'importo o il nome del cliente, sono state inserite diversamente nella transazione bancaria o nella registrazione interna. | Rivedere le informazioni, quindi corrisponderle manualmente. Facoltativamente, correggi la mancata corrispondenza. |
+
+È necessario risolvere le differenze, ad esempio creando movimenti mancanti e correggendo le informazioni non corrispondenti oppure effettuando le transazioni di denaro mancanti, fino a quando non completi e registri la riconciliazione del conto bancario.
+
+> [!NOTE]
+> La pagina Riconciliazione bancaria e il report di prova presumono che tu stia effettuando la riconciliazione solo entro il periodo fino alla data di fine dell'estratto conto. Se si abbina una riga dell'estratto conto bancario a un movimento contabile bancario prima di immettere una data di fine estratto conto e quindi si immette una data di fine estratto conto successiva alla data finale per il movimento contabile bancario, i dati nel report di prova non saranno corretti.
+
+La seguente tabella descrive i campi del report di prova che possono aiutarti a completare la riconciliazione bancaria.
+
+|Campo  |Descrizione  |
+|---------|---------|
+|Data estratto conto| La data specificata nel campo **Data estratto conto** della pagina **Riconciliazione conto bancario**.|
+|Saldo ultimo estratto conto|Il saldo specificato nel campo **Saldo ultimo estratto conto** della pagina **Riconciliazione conto bancario**. Questo viene compilato automaticamente dalla riconciliazione più recente per lo stesso conto bancario. Il valore è zero se si tratta della prima riconciliazione del conto bancario.|
+|Saldo finale estratto conto|Il saldo specificato nel campo **Saldo finale estratto conto** della pagina **Riconciliazione conto bancario**. |
+|N. conto Co.Ge. <*numero*> Saldo alla <*data*> | Il saldo del conto Co.Ge. alla data di chiusura dell'estratto conto. Questo è il saldo non filtrato a quella data. Se la tua banca utilizza la tua valuta locale, questo saldo dovrebbe essere uguale al saldo del tuo conto bancario (mostrato sul lato destro dell'intestazione del rapporto) dopo aver abbinato tutte le righe dell'estratto conto. Un campo vuoto **()** nel nome di questo campo indica che la tua banca utilizza la valuta locale.<br><br>Una discrepanza in questo e nei campi precedenti potrebbe indicare che hai registrato direttamente nel conto Co.Ge. o che stai utilizzando lo stesso conto Co.Ge. per più banche, il che non è consigliato. Le banche sono collegate alla contabilità generale tramite il gruppo di registrazione del conto bancario specificato per il conto.<br><br>Il Test Report mostra un avviso se si dispone di registrazioni dirette, anche se il saldo per la registrazione è pari a zero. Le registrazioni dirette non bilanciate spesso portano a differenze accumulate per future riconciliazioni bancarie. È necessario controllare il saldo della contabilità generale e i movimenti contabili prima di registrare la riconciliazione bancaria. Per ulteriori informazioni sulla pubblicazione diretta, vai a [Evita la pubblicazione diretta](#avoid-direct-posting).|
+|N. conto Co.Ge. <*numero*> Saldo (<*LCY*>) alla <*data*>| Il saldo del conto Co.Ge. alla data di chiusura dell'estratto conto in valuta locale. Il saldo viene convertito nella valuta del conto bancario utilizzando il tasso di cambio valido alla data di chiusura dell'estratto conto. Questo è il saldo non filtrato a quella data. Confrontalo con il campo **Nr. conto C/G <* numero *> Saldo alla <* data*>* se la tua banca utilizza una valuta estera. Il valore nel conto Co.Ge. nel campo <* number *> Saldo alla <* date*> per la valuta locale potrebbe differire leggermente perché la conversione di valuta può comportare piccole differenze. Il saldo della tua banca dovrebbe essere molto vicino a questo saldo.  |
+|Saldo conto corrente bancario al <*data*>| Il saldo del conto corrente bancario alla data di chiusura dell'estratto conto.|
+|Somma delle differenze    | La somma delle differenze per le righe dell'estratto conto bancario. Per accedere ai dettagli, attivare il toggle **Stampa transazioni inevase** quando si inseriscono i criteri per il report. Una differenza è una riga dell'estratto conto bancario che non corrisponde completamente a uno o più movimenti contabili bancari. Non è possibile registrare una riconciliazione del conto bancario con differenze. È possibile registrare una riconciliazione bancaria che contiene movimenti contabili bancari che non corrispondono alle righe dell'estratto conto. Questo valore è mostrato nel campo **Transazioni bancarie inevase** e in una sezione separata se si attiva il toggle Stampa transazioni inevase.      |
+|Saldo estratto conto     | Il valore specificato nel campo **Saldo finale estratto conto** della pagina **Riconciliazione conto bancario**.  |
+|Transazioni bancarie inevase     | La somma dei movimenti contabili bancari non abbinati e non assegni con una data di registrazione corrispondente o precedente alla data di fine dell'estratto conto. Ciò accade quando registri le transazioni prima che vengano registrate nella tua banca. Ad esempio, alla fine di un periodo. Quando si crea la successiva riconciliazione bancaria, è possibile riconciliare questi movimenti.        |
+|Assegni inevasi     | La somma dei movimenti contabili bancari non abbinati per assegni con una data di registrazione corrispondente o precedente alla data di fine dell'estratto conto. Ciò accade quando registri le transazioni prima che vengano registrate nella tua banca. Ad esempio, questo può accadere per gli assegni se un venditore non incassa un assegno nello stesso periodo in cui lo hai registrato. Quando si crea la successiva riconciliazione bancaria, è possibile riconciliare questi movimenti.        |
+|Saldo conto corrente bancario     | La somma dei valori per il saldo finale dell'estratto conto, le transazioni bancarie in sospeso e gli assegni in sospeso. Dopo aver gestito tutte le differenze sulle voci abbinate, questo saldo corrisponde al tuo saldo bancario. Ad esempio, per questo estratto conto bancario sono state contabilizzate tutte le voci abbinate nonché le voci che non è stato possibile abbinare. È ora possibile registrare la riconciliazione.        |
+
+> [!TIP]
+> Se esegui il **Report di prova** dalla pagina **Registrazione riconciliazione pagamenti**, [!INCLUDE [prod_short](includes/prod_short.md)] calcola il valore in **Saldo finale estratto conto** come segue:
+>
+> * saldo ultimo estratto conto + somma di tutte le righe nel giornale di registrazione riconciliazione pagamenti
+>
+> Puoi utilizzare il valore per confrontarlo con il tuo estratto conto bancario.
+
 ## Per creare i movimenti contabili mancanti per applicare la corrispondenza con le righe del rendiconto bancario
 
 Talvolta un estratto conto contiene importi corrispondenti ad interessi o all'addebito di commissioni. Per le righe del rendiconto bancario non può essere effettuata alcuna corrispondenza perché nessun movimento contabile collegato è presente in [!INCLUDE[prod_short](includes/prod_short.md)]. È quindi necessario registrare una riga di registrazione per ogni transazione per creare un movimento contabile collegato per cui può essere effettuata una corrispondenza.
@@ -128,9 +173,9 @@ Talvolta un estratto conto contiene importi corrispondenti ad interessi o all'ad
 1. Nella pagina **Riconciliazioni C/C bancari** scegliere l'azione **Trasferisci a registrazioni COGE**.  
 2. Nella pagina **Trans. ric. banc. in reg. gen.** specificare quali registrazioni COGE utilizzare, quindi scegliere **OK**.
 
-    Verrà visualizzata la pagina **Registrazioni COGE** contenente le nuove righe registrazioni per tutte le righe rendiconto bancario con movimenti contabili mancanti.
+    Verrà visualizzata la pagina **Registrazioni COGE** con le nuove righe registrazioni per tutte le righe rendiconto bancario con movimenti contabili mancanti.
 3. Completare la riga di registrazione con le informazioni rilevanti, ad esempio il conto profitti/perdite. Per ulteriori informazioni, vedi [Elaborazione delle registrazioni COGE](ui-work-general-journals.md).  
-4. Per visualizzare i risultati di una registrazione prima di eseguirla, scegliere l'azione **Report test**. Il report **Estratto conto bancario** si apre e mostra gli stessi campi dell'intestazione della pagina **Riconciliazioni C/C bancari**.
+4. Per rivedere il risultato della pubblicazione prima di eseguire la pubblicazione, scegli l'azione **Report di prova**, quindi sceglie un'opzione per accedere al report. Il report **Estratto conto bancario** mostra gli stessi campi dell'intestazione della pagina **Riconciliazioni C/C bancari**.
 5. Scegli l'azione **Registra**.
 
     Dopo aver registrato il movimento, collegalo alla riga dell'estratto conto.
@@ -197,11 +242,11 @@ Questo errore si verifica spesso quando si inserisce un saldo di apertura per un
 ## Vedi il relativo [training Microsoft](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## Vedi anche
+
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,16 +1,16 @@
 ---
 title: Creare i record di documenti in entrata
 description: 'Utilizza diverse funzioni nella pagina Documenti in entrata per rivedere le ricevute delle spese, gestire i task OCR, convertire i file dei documenti in entrata e collegare file esterni.'
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: jswymer
+ms.topic: how-to
+ms-service: dynamics365-business-central
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
-ms.date: 06/14/2022
-ms.author: edupont
+ms.date: 03/2/2023
+ms.author: jswymer
+ms.custom: bap-template
+ms.reviewer: jswymer
 ---
-# <a name="create-incoming-document-records"></a>Creare i record di documenti in entrata
+# Creare i record di documenti in entrata
 
 Nella pagina **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
 
@@ -18,7 +18,7 @@ Per registrare un documento esterno in [!INCLUDE[prod_short](includes/prod_short
 
 Per poter utilizzare la funzionalità **Documenti in entrata**, devi eseguire l'impostazione necessaria. Per ulteriori informazioni, vedere [Impostare documenti in entrata](across-how-setup-income-documents.md).
 
-## <a name="approve-or-reject-an-incoming-document"></a>Per approvare o rifiutare un documento in entrata
+## Approvare o rifiutare un documento in arrivo
 
 Se hai impostato la funzione **Documenti in entrata** per richiedere l'approvazione per la creazione di documenti, gli utenti con i diritti appropriati devono approvare i record prima che vengano elaborati. Per ulteriori informazioni, vedi [Impostare i responsabili dell'approvazione dei record dei documenti in entrata](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -27,7 +27,7 @@ Se hai impostato la funzione **Documenti in entrata** per richiedere l'approvazi
 
 Se si approva il record del documento in entrata, la casella di controllo **Rilasciato** nella riga del documento in entrata è selezionata. L'utente incaricato di creare, ad esempio, le fatture di acquisto può procedere all'elaborazione del record.
 
-## <a name="create-an-incoming-document-record-by-taking-a-photo"></a>Per creare un record di documento in entrata facendo una foto
+## Creare un record di documento in entrata facendo una foto
 
 > [!NOTE]  
 > La seguente procedura si applica solo ai client di [!INCLUDE[prod_short](includes/prod_short.md)] per tablet e telefono.
@@ -39,7 +39,7 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 
     Viene creato un nuovo record di documento in entrata con l'immagine allegata.
 
-## <a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Per allegare un'immagine a un record di documento in entrata facendo una foto
+## Allegare un'immagine a un record di documento in entrata facendo una foto
 
 > [!NOTE]  
 > La seguente procedura si applica solo ai client di [!INCLUDE[prod_short](includes/prod_short.md)] per tablet e telefono.
@@ -51,19 +51,23 @@ Se si approva il record del documento in entrata, la casella di controllo **Rila
 
     L'immagine viene allegata al record di documento in entrata.
 
-## <a name="create-an-incoming-document-record-manually"></a>Per creare manualmente il record di un documento in entrata
+## Creare manualmente il record di un documento in entrata
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Documenti in entrata**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Documenti in entrata**, quindi scegli il collegamento correlato.
 2. Scegli **Nuovo**, e l'azione **Crea da file**.  
-3. Nella pagina **Inserisci file** selezionare un file e scegliere **Apri**. Il file viene automaticamente allegato.
-4. In alternativa, selezionare l'azione **Nuovo**.
-5. Per allegare un file, seleziona **Elabora** e l'azione **Allega file**.
-6. Nella pagina **Inserisci file** selezionare il file che rappresenta il documento in entrata in questione, quindi scegliere il pulsante **Apri**.
-7. Nella pagina **Documento in entrata** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Nella pagina **Inserisci file** esegui uno dei passaggi seguenti per allegare un file che rappresenta il documento in entrata:
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
-## <a name="see-also"></a>Vedere anche
+4. In alternativa, scegli l'azione **Nuovo**, quindi procedi come segue:
+
+    1. Per allegare un file, seleziona **Processo** > **Allega file**.
+    2. Nella pagina **Inserisci file**, trascina un file selezionato che rappresenta il documento in entrata in questione oppure seleziona **Fai clic qui per navigare** per trovare e aprire il file.
+    3. Nella pagina **Documento in entrata** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
+
+## Vedere anche
 
 [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md)
 [Creare i record di documenti in entrata direttamente da documenti e movimenti](across-how-connect-disconnect-income-document-records.md)

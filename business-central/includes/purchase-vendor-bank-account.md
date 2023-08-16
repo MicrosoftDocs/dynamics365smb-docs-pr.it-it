@@ -1,8 +1,8 @@
 ---
-author: rubenseishima
+author: brentholtorf
 ms.topic: include
-ms.date: 06/30/2022
-ms.author: a-reishima
+ms.date: 08/03/2023
+ms.author: bholtorf
 ---
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
@@ -15,4 +15,4 @@ ms.author: a-reishima
 > Alcuni campi sono nascosti finché non scegli l'azione **Mostra di più**, in genere perché vengono utilizzati raramente. Altri campi devono essere aggiunti tramite la personalizzazione. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](../ui-personalization-user.md).
 
 > [!WARNING]
-> Alcuni campi del conto bancario del fornitore contengono dati aziendali sensibili, come i campi **Nr. filiale banca**, **Nr. conto bancario**, **Codice SWIFT**, e **Codice IBAN**. Per ulteriori informazioni su come monitorare e ricevere notifiche quando qualcuno modifica un valore in quei campi, vedi [Monitoraggio dei campi sensibili](../across-log-changes.md#monitoring-sensitive-fields).
+> Alcuni campi del conto bancario del fornitore contengono dati aziendali sensibili, come i campi **Nr. filiale banca**, **Nr. conto bancario**, **Codice SWIFT**, e **Codice IBAN**. Per ulteriori informazioni su come monitorare e ricevere notifiche quando qualcuno modifica un valore in quei campi, vedi [Monitoraggio dei campi sensibili](../across-log-changes.md#monitor-sensitive-fields).

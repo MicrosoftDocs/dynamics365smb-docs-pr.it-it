@@ -10,11 +10,11 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-"></a>Utilizzare i report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)]
+# Utilizzare i report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)]
 
 In questo articolo vengono spiegate alcune delle nozioni di base sulla visualizzazione dei report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="overview"></a>Sintesi
+## Sintesi
 
 I report Power BI offrono informazioni dettagliate da [!INCLUDE[prod_short](includes/prod_short.md)]. Varie pagine in [!INCLUDE [prod_short](includes/prod_short.md)] includono una parte di un report Power BI che può visualizzare report Power BI. La Gestione ruolo utente è una tipica pagina in cui è visibile una parte di report Power BI. Alcune pagine di elenco, come **Elementi**, includono anche una parte Power BI.
 
@@ -22,20 +22,20 @@ I report Power BI offrono informazioni dettagliate da [!INCLUDE[prod_short](incl
 
 ![Parte Power BI in Business Central.](./media/power-bi-part.png)
 
-## <a name="get-started"></a>Inizia
+## Inizia
 
-### <a name="prerequisites"></a>Prerequisiti
+### Prerequisiti
 
 Se si sta usando [!INCLUDE[prod_short](includes/prod_short.md)] in locale, deve essere abilitato per l'integrazione di Power BI. Questa attività è in genere eseguita da un amministratore. Per ulteriori informazioni, vedere [Impostare [!INCLUDE[prod_short](includes/prod_short.md)] in locale per l'integrazione di Power BI](admin-powerbi-setup.md#setup).
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] online è già impostato per l'integrazione con Power BI.
 
-### <a name="sign-up-power-bi"></a>Iscrizione a Power BI
+### Iscrizione a Power BI
 
 Prima di poter usare Power BI con [!INCLUDE[prod_short](includes/prod_short.md)], dovrai registrarti al servizio Power BI. Se non si è già registrati andare a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Quando ci si registra, utilizzare l'indirizzo e-mail e la password di lavoro.
 
-## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Connettersi a Power BI - una sola volta
+## <a name="connect"></a>Connettersi a Power BI - una sola volta
 
 Quando si accede per la prima volta a [!INCLUDE [prod_short](includes/prod_short.md)], potrai vedere una parte di Power BI vuota (come mostrato nella figura precedente) su varie pagine. La prima cosa da fare è connettersi all'account Power BI. Una volta connessi, è possibile vedere i report. È necessario eseguire questo passaggio solo una volta.
 
@@ -53,15 +53,15 @@ Viene avviato il processo di connessione. Durante il processo, [!INCLUDE [prod_s
 > [!TIP]
 > Con [!INCLUDE [prod_short](includes/prod_short.md)] online, questo passaggio caricherà automaticamente i report Power BI predefiniti utilizzati in [!INCLUDE [prod_short](includes/prod_short.md)] nell'area di lavoro Power BI.
 
-#### <a name="from--on-premises"></a>Da [!INCLUDE [prod_short](includes/prod_short.md)] in locale
+#### Da [!INCLUDE [prod_short](includes/prod_short.md)] in locale
 
 La connessione a Power BI da [!INCLUDE [prod_short](includes/prod_short.md)] è simile a quella per la soluzione online. Tuttavia, nella pagina **AUTORIZZAZIONI DI SERVIZIO AZURE ACTIVE DIRECTORY** potrebbe essere richiesto di concedere l'accesso ai servizi Power BI. Per concedere l'accesso, selezionare **Autorizza i servizi di Azure** e poi **Accetta**.
 
 Una volta connessi è possibile selezionare un report dalla parte Power BI nelle pagine.
 
-## <a name="work-with-power-bi-reports"></a>Utilizzare i report Power BI
+## Utilizzare i report Power BI
 
-### <a name="show-reports-on-list-pages"></a>Visualizza i report sulle pagine di elenco
+### Visualizza i report sulle pagine di elenco
 
 [!INCLUDE[prod_long](includes/prod_long.md)] include un riquadro Dettaglio informazioni Power BI su diverse pagine elenco chiave. Questo riquadro Dettaglio informazioni fornisce ulteriori informazioni sui dati nell'elenco. Spostandosi tra le righe dell'elenco, il report viene aggiornato e filtrato per la voce selezionata.
 
@@ -72,13 +72,13 @@ Per informazioni su come creare report per le pagine di elenco, vedi [Creazione 
 >
 > Oppure, se disponi di una versione precedente di Business Central, vai alla barra delle azioni, seleziona **Azioni** > **Visualizza** > **Mostra/nascondi report Power BI**.
 
-### <a name="switch-reports"></a>Cambia rapporti
+### Cambia rapporti
 
 Una parte Power BI su una pagina può visualizzare qualsiasi report Power BI disponibile. Per passare alla visualizzazione di un altro report, scegliere l'azione **Seleziona report** dall'elenco a discesa dei comandi nella parte superiore della parte.  
 
 La pagina **di selezione dei report Power BI** mostra un elenco di tutti i report Power BI a cui si ha accesso. Questa lista viene recuperata da qualsiasi spazio di lavoro tuo o condiviso con te nel servizio Power BI . Selezionare la casella **Abilita** per ogni report che si intende visualizzare nella pagina quindi scegliere **OK**. Viene visualizzata di nuovo la pagina con l'ultimo report abilitato. Mediante l'elenco a discesa, utilizzare i comandi **Precedente** e **Successivo** per spostarsi tra i report.  
 
-### <a name="get-more-reports"></a>Ottieni più report
+### Ottieni più report
 
 Se non è visualizzato alcun report nella pagina **di selezione dei report Power BI** o non è visualizzato il report desiderato, scegliere **Ottieni report**. Questa azione consente di cercare i report in due posizioni: *Organizzazione personale* o *Servizi*.
 
@@ -88,7 +88,7 @@ Se non è visualizzato alcun report nella pagina **di selezione dei report Power
 > [!TIP]
 > Se Power BI Desktop è disponibile, è anche possibile creare nuovi report Power BI. Quindi, dopo la pubblicazione di questi report nell'area di lavoro Power BI, visualizzati nella pagina **di selezione dei report Power BI**.  
 
-### <a name="manage-and-modify-reports"></a>Gestire e modificare i report
+### Gestire e modificare i report
 
 È possibile apportare modifiche a un report nella parte Power BI. Le modifiche apportate verranno quindi pubblicate nel servizio Power BI. Se il report è condiviso con altri utenti, anche loro vedranno le modifiche, a meno che non si salvano le modifiche in un nuovo report.
 
@@ -99,7 +99,7 @@ Quando si ritorna a Gestione ruolo utente, il report aggiornato verrà visualizz
 > [!NOTE]
 > Questa funzionalità non è disponibile con [!INCLUDE [prod_short](includes/prod_short.md)] locale.
 
-### <a name="upload-reports"></a><a name="upload"></a>Caricare i report
+### <a name="upload"></a>Caricare i report
 
 I report Power BI possono essere distribuiti tra gli utenti come file .pbix. Se sono disponibili file .pbix, è possibile caricarli e condividerli con tutti gli utenti di [!INCLUDE [prod_short](includes/prod_short.md)]. I report sono condivisi in ogni società in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -110,25 +110,25 @@ Dopo che il report è stato caricato nell'area di lavoro Power BI viene automati
 > [!NOTE]
 > Il caricamento di un report richiede privilegi avanzati in [!INCLUDE[prod_short](includes/prod_short.md)]. Inoltre, non è possibile caricare report con [!INCLUDE [prod_short](includes/prod_short.md)] locale. Con la soluzione locale i report vengono caricati direttamente nell'area di lavoro Power BI. Per ulteriori informazioni, vedi [Utilizzare dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI](across-working-with-business-central-in-powerbi.md).
 
-## <a name="fixing-problems"></a>Risolvere i problemi
+## Risolvere i problemi
 
 Tuttavia, se si verifica un errore, in questa sezione viene fornita una soluzione alternativa per i problemi più comuni.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>Non si dispone di un account Power BI
+### Non si dispone di un account Power BI
 
 Un account Power BI non è stato impostato. Per ottenere un account Power BI valido, è necessario avere una licenza e aver effettuato l'accesso a Power BI in precedenza per creare un'area di lavoro Power BI.
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Messaggio: Non sono presenti report abilitati. Scegliere Seleziona report per visualizzare un elenco di report che è possibile visualizzare.
+### Messaggio: Non sono presenti report abilitati. Scegliere Seleziona report per visualizzare un elenco di report che è possibile visualizzare.
 
 Questo messaggio viene visualizzato se la distribuzione del report predefinito non è riuscita nell'area di lavoro Power BI. In alternativa il report è stato distribuito ma non è stato aggiornato correttamente. Accedere al report nella propria area di lavoro Power BI, selezionare **Set di dati**, **Impostazioni** e quindi aggiornare manualmente le credenziali. Dopo aver aggiornato correttamente il set di dati, torna a [!INCLUDE[prod_short](includes/prod_short.md)] e seleziona manualmente il report dalla pagina **Selezionare i report**.
 
-#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Non è possibile visualizzare un report nella pagina Seleziona report in una pagina di elenco
+#### Non è possibile visualizzare un report nella pagina Seleziona report in una pagina di elenco
 
 Probabilmente è perché il nome del report non contiene il nome della pagina di elenco. Rimuovere il filtro per ottenere un elenco completo dei report disponibili in Power BI.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Business Central e Power BI](admin-powerbi.md)  
 [Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  

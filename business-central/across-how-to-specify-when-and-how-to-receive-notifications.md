@@ -11,7 +11,7 @@ ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 09/09/2022
 ms.author: bholtorf
 ---
-# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Specificare come e quando ricevere le notifiche del flusso di lavoro
+# Specificare come e quando ricevere le notifiche del flusso di lavoro
 
 Quando imposti gli utenti di approvazione nei flussi di lavoro in cui vuoi che qualcuno approvi le modifiche, ad esempio quando vengono creati nuovi record o quando qualcuno richiede un'approvazione, devi specificare come e quando l'utente di approvazione riceverà una notifica. Ad esempio, puoi specificare che un utente di approvazione riceverà immediatamente un messaggio e-mail quando qualcuno crea un nuovo cliente. In alternativa, puoi programmare le notifiche da consegnare insieme, insieme, ad esempio su base settimanale o mensile.
 
@@ -25,11 +25,11 @@ Prima di impostare le preferenze di notifica di un utente di approvazione, è ne
 > [!NOTE]
 > Se si desidera utilizzare la posta elettronica come metodo di notifica, è necessario impostarla sia per il mittente che per il destinatario in [!INCLUDE [prod_short](includes/prod_short.md)]. Ulteriori informazioni sulla [Configurazione e-mail](admin-how-setup-email.md).
 
-## <a name="steps-in-workflows"></a>Passaggi nei flussi di lavoro
+## Passaggi nei flussi di lavoro
 
 Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti, di un evento che si è verificato e la relativa necessità di intervento. Ad esempio, in una fase del workflow, l'evento potrebbe essere che l'Utente 1 richiede l'approvazione di un nuovo record. La risposta correlata prevede l'invio di una notifica all'Utente 2, cioè il responsabile dell'approvazione. Nella fase successiva del workflow, l'evento potrebbe essere che l'Utente 2 approva il record. La risposta correlata prevede l'invio di una notifica all'Utente 3 per iniziare un processo con il record approvato. Per le fasi del workflow che includono l'approvazione, ogni notifica è collegata a un movimento di approvazione. Ulteriori informazioni in [Workflow](across-workflow.md).  
 
-## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Specificare come e quando gli utenti per l'approvazione ricevono le notifiche
+## Specificare come e quando gli utenti per l'approvazione ricevono le notifiche  
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
 2. Selezionare la riga per l'utente per il quale si desidera impostare le preferenze di notifica, quindi scegliere l'azione **Setup notifiche**.  
@@ -58,7 +58,7 @@ Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti
    |**Data del mese**|Specificare se l'utente riceve le notifiche il primo giorno o l'ultimo giorno del mese o in una data specifica del mese.|
    |**Data notifica mensile**|Specificare la data del mese in cui l'utente riceve le notifiche quando il valore nel campo **Data del mese** è **Personalizzato**.|
 
-## <a name="change-when-and-how-you-receive-notifications"></a>Modificare come e quando si ricevono le notifiche
+## Modificare come e quando si ricevono le notifiche
 
 1. In una delle notifiche ricevute, come e-mail o nota, fai clic sul pulsante **Modifica impostazioni di notifica**.  
 2. Nella pagina **Setup notifiche workflow** modifica le preferenze relative alla notifica come descritto nei passaggi da 3 a 5 sopra descritti.
@@ -66,7 +66,7 @@ Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti
    2. Scegli se ricevere un'e-mail o una notifica di nota nel campo **Metodo di notifica**.
    3. Seleziona **Programmazione notifica** per modificare la frequenza e la ricorrenza di invio delle notifiche.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)  

@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Frequently Asked Questions about List Views
-  description: This article answers your FAQ about List Views and offers detailed information about saving and working with filters as List Views.
+  title: Domande frequenti sulle visualizzazioni elenco
+  description: Questo articolo risponde alle domande frequenti sulle visualizzazioni elenco e offre informazioni dettagliate sul salvataggio e sull'utilizzo dei filtri come visualizzazioni elenco.
   author: mikebcMSFT
   ms.topic: faq
   ms.devlang: na
@@ -10,110 +10,110 @@ metadata:
   ms.search.keywords: 'list, filter, pane, views'
   ms.date: 08/09/2022
   ms.author: mikebc
-title: List Views FAQ
-summary: This article answers questions that our advanced users often ask about working with list views and saving filters.
+title: Domande frequenti sulle visualizzazioni elenco
+summary: Questo articolo contiene le risposte alle domande sulle visualizzazioni elenco e il salvataggio dei filtri poste spesso dagli utenti esperti.
 sections:
-  - name: Ignored
+  - name: Ignorato
     questions:
       - question: |
-          How do views handle expressions?
+          In che modo le visualizzazioni gestiscono le espressioni?
         answer: |
-          When you save a view that includes filters with expressions (like date ranges, operators, keywords, or filter tokens), only the expression gets saved<ph id="ph1">&amp;mdash;</ph>not the resulting values. For example, saving a view that filters on the <bpt id="p1">**</bpt>Created Date<ept id="p1">**</ept> field with the expression <ph id="ph1">`-1W..today`</ph> will always find records related to the current date, even when the view is accessed next month.
+          Quando si salva una visualizzazione che include filtri con espressioni (intervalli di date, operatori, parole chiave o token di filtro), viene salvata l'espressione ma non i valori risultanti. Ad esempio, il salvataggio di una visualizzazione che filtra in base al campo **Data di creazione** con l'espressione `-1W..today` troverà sempre record relativi alla data corrente, anche quando alla visualizzazione si accede il mese successivo.
       - question: |
-          Where are list views saved?
+          Dove vengono salvate le visualizzazioni elenco?
         answer: |
-          Similarly to hiding a field or reordering your navigation menu, list views are a part of user personalization and are stored in the database. Clearing all personalization on a list will also permanently remove your personal views and clear other personalization such as reordering of views. For more information, see <bpt id="p1">[</bpt>Personalize your workspace<ept id="p1">](ui-personalization-user.md)</ept>.
+          Analogamente alle operazioni eseguite per nascondere un campo o riorganizzare il menu di navigazione, le visualizzazioni elenco fanno parte della personalizzazione dell'utente e sono archiviate nel database. L'annullamento dell'intera personalizzazione in un elenco rimuoverà in modo permanente anche le visualizzazioni personali e altre personalizzazioni come il riordino delle visualizzazioni. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
       - question: |
-          Why don't I have a Save icon?
+          Perché non è presente un'icona Salva?
         answer: |
-          There's a couple reasons why you might not see the Save icon and options menu alongside views in the filter pane.
+          Ci sono un paio di motivi per cui l'icona Salva e il menu delle opzioni non siano visibili insieme alle visualizzazioni nel riquadro dei filtri.
 
-          One reason could be that personalization isn't enabled for your user role. In this case, you still have access to system views that are a standard part of the pages. You can modify these views, like changing or adding filters. You just can't save the changes. Another reason could be that the page you're looking at is a <bpt id="p1">*</bpt>worksheet<ept id="p1">*</ept> type page<ph id="ph1">&amp;mdash;</ph>not a list.
+          Uno dei motivi potrebbe essere che la personalizzazione non è abilitata per il ruolo utente. In questo caso, hai ancora accesso alle visualizzazioni di sistema che sono una parte standard delle pagine. È possibile modificare queste visualizzazioni, come cambiare o aggiungere filtri, ma non salvare le modifiche. Un altro motivo potrebbe essere che la pagina che si sta guardando è un tipo di pagina *prospetto* e non un elenco.
       - question: |
-          On which page types can I use list views?
+          In quali tipi di pagina è possibile utilizzare visualizzazioni elenco?
         answer: |
-          Views are only available on list pages.
+          Le visualizzazioni sono disponibili solo nelle pagine elenco.
       - question: |
-          How do I know whether I'm on a list type page?
+          Come posso sapere se sono in una pagina di tipo elenco?
         answer: |
-          Use page inspection. To open page inspection, select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>Alt<ept id="p2">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p3">&lt;kbd&gt;</bpt>F1<ept id="p3">&lt;/kbd&gt;</ept>. Then, in the <bpt id="p1">**</bpt>Page<ept id="p1">**</ept> field, look for the word <bpt id="p2">**</bpt>List<ept id="p2">**</ept> in the parenthesis at the end.
+          È necessario utilizzare l'ispezione della pagina. Per aprire l'ispezione della pagina, premi <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>. Quindi, nel campo **Pagina**, cercare la parola **Elenco** tra parentesi alla fine.
       - question: |
-          Are views also available on other form factors?
+          Le visualizzazioni sono disponibili anche in altri fattori di forma?
         answer: |
-          Yes. Any views you save on your desktop browser or desktop app will also be available on your tablet, smartphone, or when embedded in Microsoft Teams. You can't modify or personalize views on mobile devices.
+          Sì. Tutte le visualizzazioni salvate nel browser desktop o nell'applicazione desktop saranno disponibili anche nel tablet, nello smartphone o incorporate in Microsoft Teams. Non è possibile modificare o personalizzare visualizzazioni nei dispositivi mobili.
       - question: |
-          Are my personal views always accessible?
+          Le visualizzazioni personali sono sempre accessibili?
         answer: |
-          Your views are available on a list page whether you access it from the navigation menu, using the <bpt id="p1">**</bpt>Tell Me<ept id="p1">**</ept> window, or through a URL link. Views aren't available in list parts, lookups or whenever a list page is displayed as a dialog.
+          Le visualizzazioni sono disponibili in una pagina elenco se vi si accede dal menu di navigazione, tramite la finestra della **funzionalità delle informazioni** o tramite un collegamento URL. Le visualizzazioni non sono disponibili in parti di elenco, ricerche o ogni volta che una pagina di elenco viene visualizzata come finestra di dialogo.
       - question: |
-          How do I return a view to its original filters after modifying them?
+          Come è possibile ripristinare i filtri originali di una visualizzazione dopo averli modificati?
         answer: |
-          At the bottom of the filter pane, choose the <bpt id="p1">**</bpt>Reset filters<ept id="p1">**</ept> action to clear filter changes you have made to the view and return to its original filtered fields and filter criteria.
+          Nella parte inferiore del riquadro filtri, selezionare l'azione **Reimposta filtri** per annullare le modifiche ai filtri apportate alla visualizzazione e ripristinare i campi filtrati e i criteri di filtro originali.
       - question: |
-          What is the difference between hiding and removing views?
+          Qual è la differenza tra nascondere e rimuovere le visualizzazioni?
         answer: |
-          Removing a view will permanently delete that view. Hiding a view allows you to temporarily hide it from the filter pane, but you can unhide it again later by choosing the <bpt id="p1">**</bpt>Show<ept id="p1">**</ept> action.
+          La rimozione di una visualizzazione eliminerà definitivamente quella visualizzazione. Quando si nasconde una visualizzazione, questa viene rimossa temporaneamente dal riquadro filtri, ma è possibile renderla di nuovo visibile in seguito scegliendo l'azione **Mostra**.
       - question: |
-          How can I share my views with others?
+          Come è possibile condividere le visualizzazioni con altri utenti?
         answer: |
-          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> doesn't provide a way to share the precise list view. But you can share your current filters so that other users can see a similar list of records. In the Business Central Web client, choose a view then use the <bpt id="p1">**</bpt>Copy link<ept id="p1">**</ept> feature to copy the URL to your clipboard. just copy the URL and share it with your colleagues. Sharing filters isn't guaranteed to give the recipient an identical set of filters that you see in your browser.
+          [!INCLUDE[prod_short](includes/prod_short.md)] non fornisce un modo di condividere la visualizzazione elenco precisa. È comunque possibile condividere i filtri correnti in modo che altri utenti possano vedere un elenco di record simile. Nel client Web di Business Central, scegli una vista, quindi utilizza la funzione **Copia collegamento** per copiare l'URL negli appunti. copia semplicemente l'URL e condividilo con i colleghi. La condivisione dei filtri non garantisce al destinatario un set di filtri identico a quello visualizzato nel proprio browser.
       - question: |
-          Can I search for views in the Tell Me window?
+          È possibile cercare visualizzazioni nella finestra della funzionalità delle informazioni?
         answer: |
-          No. The <bpt id="p1">**</bpt>Tell Me<ept id="p1">**</ept> window only displays search results for the page, but you're only a step away from getting to your favorite view once you navigate to the page.
+          No. La finestra della **funzionalità delle informazioni** visualizza solo i risultati della ricerca per la pagina, ma è comunque possibile accedere alla visualizzazione preferita dalla pagina.
       - question: |
-          What is shared layout?
+          Cos'è un layout condiviso?
         answer: |
-          All views on a list page share a common column layout. The layout includes which columns are displayed, their sequence, width, freeze pane, and quick entry settings. Personalizing any column layout will also affect other views sharing the same layout on the list page.
+          Tutte le visualizzazioni in una pagina elenco condividono un layout di colonna comune. Il layout include le colonne visualizzate, la relativa sequenza, la larghezza, il riquadro di blocco e le impostazioni di immissione rapida. La personalizzazione di qualsiasi layout di colonna influirà anche su altre visualizzazioni che condividono lo stesso layout nella pagina elenco.
 
-          Some system views can have unique layouts of the columns in the list. For example, they could rearrange columns to display only the columns most relevant to that view. You can identify which views have unique layouts by choosing the <bpt id="p1">![</bpt>Show more options<ept id="p1">](media/show-more-options-icon.png "|::ref1::|")</ept> icon and observing that the <bpt id="p2">**</bpt>Shared layout<ept id="p2">**</ept> check box isn't selected. As a user, you can personalize the column layout for a view with unique layout without it affecting any of the other views on the list page. Only developers can define a unique column layout for a view that initially has a shared layout.
+          Alcune visualizzazioni di sistema possono avere layout univoci delle colonne nell'elenco. Ad esempio, potrebbero riorganizzare le colonne per visualizzare solo le colonne più pertinenti a quella visualizzazione. È possibile identificare quali visualizzazioni hanno layout univoci scegliendo l'icona ![Mostra altre opzioni](media/show-more-options-icon.png "Mostra altre opzioni") e deselezionando la casella di controllo **Layout condiviso** se questa è selezionata. Come utente, è possibile personalizzare il layout di colonna di una visualizzazione con un layout univoco senza che ciò influisca sulle altre visualizzazioni nella pagina di elenco. Solo gli sviluppatori possono definire un layout di colonna univoco per una visualizzazione che inizialmente ha un layout condiviso.
       - question: |
-          What does the Show System Filters link do?
+          Qual è la funzione del collegamento Mostra filtri di sistema?
         answer: |
-          On some list pages, the filter pane displays <bpt id="p1">**</bpt>Show system filters<ept id="p1">**</ept> at the bottom, specifically when the page includes filters specified by the system. These special filters are typically used to display records based on the current context. An example would be when an orders list has to be filtered for a specific customer.
+          In alcune pagine di elenco, il riquadro filtri visualizza **Mostra filtri di sistema** nella parte inferiore specificatamente quando la pagina include filtri specificati dal sistema. Questi filtri speciali vengono generalmente utilizzati per visualizzare i record in base al contesto corrente. Un esempio potrebbe essere quando un elenco di ordini deve essere filtrato per un cliente specifico.
 
-          System filters are set by application developers, which they set using filter group 0. For more information about system filters, see <bpt id="p1">[</bpt>FilterGroup Method<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)</ept>.
+          I filtri di sistema sono impostati dagli sviluppatori dell'applicazione utilizzando il gruppo di filtri 0. Per ulteriori informazioni sui filtri di sistema, vedere [Metodo FilterGroup](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method).
       - question: |
-          I see multiple views on my page, but I didn't create them. Where did they come from?
+          La pagina contiene varie visualizzazioni non create dall'utente. Qual è la loro origine?
         answer: |
-          The views you see on any list are a combination of your personal views together with system views. System views may originate from the business application, from extensions, or may be role-specific if the list was customized for your role.
+          Le visualizzazioni presenti in un qualsiasi elenco sono una combinazione delle visualizzazioni personali e delle visualizzazioni di sistema. Le visualizzazioni di sistema possono essere originate dall'applicazione aziendale, dalle estensioni oppure possono essere specifiche del ruolo se l'elenco è stato personalizzato per il proprio ruolo.
       - question: |
-          Why do some views provide fewer options?
+          Perché alcune visualizzazioni presentano meno opzioni?
         answer: |
-          Some views only provide the option to save a copy of the view, while others don't allow saving changes to the view. How the view was created determines the options available to that view. Views can be created in multiple ways:
+          Alcune visualizzazioni forniscono solo l'opzione di salvare una copia della visualizzazione, mentre altre non consentono il salvataggio delle modifiche alla visualizzazione. Il modo in cui la visualizzazione è stata creata determina le opzioni disponibili per quella visualizzazione. Le visualizzazioni possono essere create in vari modi:
 
-          - Personal views that you saved
-          - System views that are a standard part of the business application, or added by extensions or role-specific views. Unlike personal views, you can't save changes to filters back to that system view.
-          - Legacy system views that are a standard part of the business application but were created using older versions of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>. These views offer fewer options. You can only save them as a new view and can't hide or reorder them either. Legacy system views will be discontinued in a future update to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
+          - Visualizzazioni personali salvate
+          - Visualizzazioni di sistema che sono una parte standard dell'applicazione aziendale o che vengono aggiunte dalle estensioni o dalle visualizzazioni specifiche del ruolo. A differenza delle visualizzazioni personali, non è possibile salvare le modifiche ai filtri nelle visualizzazioni di sistema.
+          - Visualizzazioni di sistema legacy che sono una parte standard dell'applicazione aziendale ma che sono state create utilizzando versioni precedenti di [!INCLUDE[prod_short](includes/prod_short.md)]. Queste visualizzazioni offrono meno opzioni. È possibile salvarle solo come nuova visualizzazione e non possono nemmeno essere nascoste o riordinate. Le visualizzazioni di sistema legacy verranno sospese in un futuro aggiornamento di [!INCLUDE[prod_short](includes/prod_short.md)].
 
           > [!NOTE]
-          > Starting with Business Central 2023 release wave 2, legacy views will no longer be supported, and won't be displayed in the list page. Learn technical details about how developers can migrate to modern list views at <bpt id="p1">[</bpt>Migrating from Legacy Views to Modern Views<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy)</ept>. 
+          > A partire dal secondo ciclo di rilascio di Business Central 2023, le visualizzazioni legacy non saranno più supportate e non verranno visualizzate nella pagina elenco. Scopri i dettagli tecnici su come gli sviluppatori possono migrare alle moderne visualizzazioni elenco in [Migrazione da viste legacy a viste moderne](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). 
       - question: |
-          How do I get past limitations of legacy system views?
+          Come faccio a superare i limiti delle viste di sistema legacy?
         answer: |
-          Legacy system views are list views that were created by developers in older versions of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> by placing them on the Role Center page. These views are now displayed directly on the list page but offer a degraded experience and fewer options. You can convert a legacy system view to a personal view that is fully customizable, simply by saving that legacy view as a new view. Similarly, administrators can choose to convert role-specific legacy system views by customizing the user role and saving the legacy view as a new role-specific view.
+          Le visualizzazioni di sistema legacy sono visualizzazioni elenco che sono state create dagli sviluppatori nelle versioni precedenti di [!INCLUDE[prod_short](includes/prod_short.md)] mediante posizionamento delle stesse nella pagina Gestione ruolo utente. Queste visualizzazioni sono ora visualizzate direttamente nella pagina di elenco ma offrono un'esperienza meno qualitativa e un numero inferiore di opzioni. È possibile convertire una visualizzazione di sistema legacy in una visualizzazione personale completamente personalizzabile salvandola come nuova visualizzazione. Allo stesso modo, gli amministratori possono scegliere di convertire visualizzazioni di sistema legacy specifiche del ruolo personalizzando il ruolo utente e salvando la visualizzazione legacy come nuova visualizzazione specifica del ruolo.
 
-          Legacy system views will be discontinued in a future update to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
+          Le visualizzazioni di sistema legacy verranno sospese in un futuro aggiornamento di [!INCLUDE[prod_short](includes/prod_short.md)].
       - question: |
-          Others in my organization need similar list views as standard. What can I do?
+          Altri utenti nell'organizzazione necessitano di visualizzazioni elenco simili. Come si deve procedere?
         answer: |
-          Working with personal views is quick and effective, but <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> provides other tools to define list views needed by specific user roles or all users in the organization.
-           - Developers can customize the environment and create list views in extensions for all users in the organization.
-           - Non-coders such as administrators or department managers, can create role-specific list views when customizing a role from the <bpt id="p1">**</bpt>Profiles (Roles)<ept id="p1">**</ept> page.
+          L'utilizzo di visualizzazioni personali è rapido ed efficace, ma [!INCLUDE[prod_short](includes/prod_short.md)] fornisce altri strumenti per definire visualizzazioni elenco necessarie a ruoli utente specifici o a tutti gli utenti nell'organizzazione.
+           - Gli sviluppatori possono personalizzare l'ambiente e creare visualizzazioni elenco nelle estensioni per tutti gli utenti nell'organizzazione.
+           - Gli utenti non programmatori come gli amministratori o i responsabili di reparto possono creare visualizzazioni elenco specifiche del ruolo quando personalizzano un ruolo dalla pagina **Profili (ruoli)**.
       - question: |
-          I work with multiple languages: how do I translate the name of the view?
+          Come è possibile tradurre il nome della visualizzazione?
         answer: |
-          When saving a new view or renaming an existing view, you must enter a recognizable and meaningful name for that view. The name is saved for your current language and will be displayed also when you or other users work with <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> in different languages. To provide translated view names, switch the language by using the <bpt id="p1">**</bpt>My Settings<ept id="p1">**</ept> page. Then rename the view, which will store the translated name in the new language.
+          Quando si salva una nuova visualizzazione o si rinomina una visualizzazione esistente, è necessario immettere un nome riconoscibile e significativo per quella visualizzazione. Il nome viene salvato per la lingua corrente e verrà visualizzato anche quando si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] in altre lingue. Per fornire nomi di visualizzazioni tradotti, cambiare la lingua utilizzando la pagina **Impostazioni personali**. Quindi rinominare la visualizzazione, che memorizzerà il nome tradotto nella nuova lingua.
       - question: |
-          Do views with expressions work in all languages?
+          Le visualizzazioni con espressioni sono utilizzabili con tutte le lingue?
         answer: |
-          Expressions that only use symbols, such as <ph id="ph1">`|`</ph> or <ph id="ph2">`..`</ph> are considered safe for users to access in any language. Any views with expressions that include letters, keywords, or filter tokens will only work for the language in which they were authored.
+          Le espressioni che utilizzano solo simboli, come `|` o `..` sono considerate sicure per gli utenti in qualsiasi lingua. Le visualizzazioni con espressioni che includono lettere, parole chiave o token di filtro sono utilizzabili solo con la lingua in cui sono state create.
 additionalContent: |
 
-  ## See Also
-     <bpt id="p1">[</bpt>Save and Personalize List Views<ept id="p1">](ui-views.md)</ept>  
-     <bpt id="p1">[</bpt>Finding Features and Information<ept id="p1">](ui-search.md)</ept>  
-     <bpt id="p1">[</bpt>Sorting, Searching, and Filtering<ept id="p1">](ui-enter-criteria-filters.md)</ept>  
+  ## Vedere anche
+     [Salvare e personalizzare visualizzazioni elenco](ui-views.md)  
+     [Individuazione di funzionalità e informazioni](ui-search.md)  
+     [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  
           
           
      [!INCLUDE[footer-include](includes/footer-banner.md)]

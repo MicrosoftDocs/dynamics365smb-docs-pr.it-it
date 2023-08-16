@@ -11,11 +11,11 @@ ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Copiare articoli esistenti per creare nuovi articoli
+# Copiare articoli esistenti per creare nuovi articoli
 
 Quando si aggiunge un nuovo articolo, per risparmiare tempo è possibile usare la funzione **Copia articolo** per copiare un articolo esistente da usare come modello per un nuovo articolo.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Per copiare un articolo esistente in un nuovo articolo
+## Per copiare un articolo esistente in un nuovo articolo
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Scegliere l'articolo che si intende copiare, quindi scegliere l'azione **Copia articolo**.  
@@ -29,7 +29,7 @@ Quando si aggiunge un nuovo articolo, per risparmiare tempo è possibile usare l
 
 4. Per copiare le selezioni nel nuovo articolo, scegliere il pulsante **OK**.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Impostazione del magazzino](inventory-setup-inventory.md)  

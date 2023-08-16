@@ -1995,13 +1995,13 @@
 #### [Dettagli di progettazione: struttura della tabella](design-details-table-structure.md)
 <!--migrate to BC online-->
 ## Migrazione a Business Central Online
-### [Migrazione dei dati locali](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
-### [Esecuzione dello strumento di Migrazione cloud](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
-### [Gestire la migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
+### [Introduzione](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+<!--### [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)-->
+### [Gestione della migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/migration-manage?toc=/dynamics365/business-central/toc.json)
 ### [Migrazione da Business Central locale](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Migrazione da Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
-### [Migrazione da Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Domande frequenti sulla migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+<!--### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)-->
+### [Domande frequenti sulla migrazione al cloud](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
 ## [Amministrazione di Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Sviluppo](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Sicurezza e protezione](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
