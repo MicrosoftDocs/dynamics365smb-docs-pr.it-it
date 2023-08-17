@@ -11,14 +11,14 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="default"></a>Specificare una stampante predefinita  
+# <a name="specify-a-default-printer"></a><a name="default"></a>Specificare una stampante predefinita
 
 Dopo aver configurato le stampanti in Business Central, è possibile specificare quale stampante utilizzare per impostazione predefinita. Esistono due modi per specificare le stampanti che vengono utilizzate per impostazione predefinita per i report e altri lavori di stampa. Una stampante predefinita è utile se si lavora con report diversi che richiedono stampanti diverse a causa del loro posizionamento nell'azienda o delle loro capacità di output.
 
 > [!IMPORTANT]
 > Le uniche stampanti che puoi specificare come predefinite sono **Microsoft Print to PDF** e le stampanti cloud che sono già state configurate per l'uso in Business Central, come le stampanti e-mail e le stampanti di Stampa universale. Le stampanti cloud sono in genere configurate da un amministratore. Per ulteriori informazioni, vedi [Configurazione e gestione della stampante](admin-printer-setup-overview.md).   
 
-## Imposta una stampante come stampante predefinita per tutti i lavori di stampa
+## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Imposta una stampante come stampante predefinita per tutti i lavori di stampa
 
 La pagina **Gestione stampante** ti consente di impostare una stampante come stampante predefinita per tutti i lavori di stampa. Puoi specificare la stampante come predefinita solo per te o per tutti gli utenti.
 
@@ -31,7 +31,7 @@ La pagina **Gestione stampante** ti consente di impostare una stampante come sta
 > [!NOTE]
 > L'impostazione di una stampante predefinita da **Gestione stampante** aggiunge una voce in **Selezioni della stampante**.
 
-## Imposta una stampante predefinita per report specifici
+## <a name="set-a-default-printer-for-specific-reports"></a>Imposta una stampante predefinita per report specifici
 
 La pagina **Selezioni della stampante** ti consente di specificare la stampante che un report utilizza per impostazione predefinita. Le stampanti predefinite vengono impostate in base all'account utente. Puoi impostare una stampante predefinita solo per te stesso, per un altro utente o per tutti gli utenti.
 
@@ -60,17 +60,17 @@ Tu o l'amministratore potete anche usare la pagina **Selezioni stampante** per d
 > [!NOTE]
 > Altre selezioni stampante specifiche hanno la precedenza su una selezione stampante generale. Ad esempio, una selezione di stampante che ha valori nei campi **ID utente**, **ID report** e **Nome stampante** ha la precedenza su una selezione di stampante che ha voci vuote nei campi **ID utente** o **ID report**.
 
-## Scelta della stampante durante l'esecuzione di un report
+## <a name="choosing-the-printer-when-running-a-report"></a>Scelta della stampante durante l'esecuzione di un report
 
 Invece di utilizzare la stampante predefinita durante l'esecuzione di un report, è possibile ignorare questa impostazione dalla pagina della richiesta. Basta scegliere la stampante che vuoi utilizzare per questa generazione del report nel menu a discesa **Stampante**.
 
-## Ridimensionamento dei lavori di stampa
+## <a name="sizing-print-jobs"></a>Ridimensionamento dei lavori di stampa
 
 La stampa cloud è progettata per documenti di dimensioni ragionevoli. La maggior parte dei servizi cloud, inclusi PrintNode e HP ePrint, ha un limite di 10 MB per processo. Se è necessario stampare report più grandi, potrebbe essere necessario dividerli in più stampe.
 
 [Training Microsoft](/training/modules/change-documents-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione stampante](admin-printer-setup-overview.md)  
 [Impostare le stampanti di Stampa universale](admin-printer-setup-universal-print.md)  

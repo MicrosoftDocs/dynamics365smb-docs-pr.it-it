@@ -11,7 +11,7 @@ ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 
 ms.date: 09/26/2022
 ms.author: edupont
 ---
-# Registrare nuovi articoli
+# <a name="register-new-items"></a>Registrare nuovi articoli
 
 Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, sono i beni o i servizi trattati. Ogni articolo deve essere registrato come scheda articolo.
 
@@ -34,7 +34,7 @@ La seguente procedura illustra come creare manualmente una scheda articolo da ze
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## Per creare una nuova scheda articolo
+## <a name="to-create-a-new-item-card"></a>Per creare una nuova scheda articolo
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -49,7 +49,7 @@ L'articolo è ora registrato e la scheda articolo è pronta per essere utilizzat
 
 Se si desidera utilizzare questa scheda articolo come modello quando si creano nuove schede articolo, è possibile salvarla come modello. Per ulteriori informazioni, vedere la seguente sezione:  
 
-### Per salvare la scheda articolo come modello
+### <a name="to-save-the-item-card-as-a-template"></a>Per salvare la scheda articolo come modello
 
 1. Nella pagina **Scheda articolo** scegliere l'azione **Salva come modello**. Nella pagina **Modello articolo** verrà visualizzata la scheda articolo come modello.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,11 +59,11 @@ Se si desidera utilizzare questa scheda articolo come modello quando si creano n
 
 Il modello articolo viene aggiunto all'elenco dei modelli articolo, in modo che sia possibile utilizzarlo per creare nuove schede articolo.
 
-### Articoli utilizzati negli ordini di produzione
+### <a name="items-used-in-production-orders"></a>Articoli utilizzati negli ordini di produzione
 
 Se vuoi registrare gli articoli che vengono quindi utilizzati negli ordini di produzione, specifica il sistema di rifornimento come *Ordine produzione* nella scheda dettaglio **Rifornimento**. Per ulteriori informazioni, vedere [Informazioni sugli ordini di produzione](production-about-production-orders.md).  
 
-## Per impostare più fornitori per un articolo
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Per impostare più fornitori per un articolo
 
 Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le informazioni relative a ogni singolo fornitore dell'articolo quali il prezzo, il lead time, lo sconto e così via.  
 
@@ -76,11 +76,11 @@ Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le 
 
 I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori** che si apre dalla scheda articolo per poter selezionare facilmente un fornitore alternativo.
 
-## Configurare articoli sostitutivi
+## <a name="set-up-item-substitutions"></a>Configurare articoli sostitutivi
 
 È possibile impostare articoli in modo che abbiano articoli sostitutivi, ad esempio altri articoli che possono essere utilizzati al posto dell'articolo originale.
 
-### Per sostituire un articolo
+### <a name="to-make-an-item-substitution"></a>Per sostituire un articolo
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") , inserisci **Elemento** e scegli il link relativo.  
 2. Trova l'elemento pertinente, quindi scegli **Nr. Articolo** per aprire la Scheda articolo.  
@@ -93,31 +93,31 @@ Quando la quantità richiesta supera la quantità disponibile in magazzino, un m
 > [!NOTE]  
 > Tieni presente che le sostituzioni non determinano automaticamente la sostituzione di un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
 
-## Categorie, attributi e varianti
+## <a name="categories-attributes-and-variants"></a>Categorie, attributi e varianti
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Ulteriori informazioni sulle varianti in [Gestire le varianti di prodotto](inventory-item-variants.md).  
 
-## Eliminazione delle schede articolo
+## <a name="deleting-item-cards"></a>Eliminazione delle schede articolo
 
 Se è stata registrata una transazione per un articolo, non è possibile eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo o la valutazione del magazzino. Per eliminare le schede articoli con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.  
 
-## Gestione del magazzino in warehouse
+## <a name="manage-inventory-in-warehouses"></a>Gestione del magazzino in warehouse
 
 Quando registri un nuovo articolo, vengono visualizzati i campi relativi alla gestione del magazzino, in particolare nella scheda dettaglio **Warehouse**. Se l'organizzazione non utilizza le funzionalità di gestione del magazzino in [!INCLUDE [prod_short](includes/prod_short.md)] è possibile ignorare quei campi.  
 
 Se la tua organizzazione in seguito imposta la gestione del magazzino, ti consigliamo di assicurarti che ogni articolo esistente abbia le informazioni corrette nei vari campi. In questo modo, i processi di magazzino possono essere eseguiti come previsto. Le informazioni possono includere campi come **Codice classe warehouse** o **Codice modello stoccaggio**. Per ulteriori informazioni, vedere [Impostazione gestione warehouse](warehouse-setup-warehouse.md).  
 
-## Piano
+## <a name="planning"></a>Piano
 
 Quando la tua azienda utilizza i processi di pianificazione della fornitura in [!INCLUDE [prod_short](includes/prod_short.md)], devi compilare i campi pertinenti nella Scheda dettaglio **Pianificazione**. Per un'introduzione all'area di pianificazione, vedi [Dettagli di progettazione: concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md).  
 
 Per esempi di come è possibile utilizzare i campi nella Scheda dettaglio **Pianificazione**, vedi [Procedure consigliate per la configurazione: parametri di pianificazione](setup-best-practices-planning-parameters.md).  
 
-## Vedi il relativo [training Microsoft](/training/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-items/)
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Magazzino](inventory-manage-inventory.md)  
 [Impostare unità di misura](inventory-how-setup-units-of-measure.md)  

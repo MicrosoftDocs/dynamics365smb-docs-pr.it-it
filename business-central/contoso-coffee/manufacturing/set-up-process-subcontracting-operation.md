@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Impostare ed elaborare un'operazione di subappalto
+# <a name="set-up-and-process-a-subcontracting-operation"></a>Impostare ed elaborare un'operazione di subappalto
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee nel conto lavoro.
 
-## Scenario
+## <a name="scenario"></a>Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. A causa di limiti di capacità, prevedi di utilizzare un subappaltatore per produrre l'articolo **SP-SCM1009, Airpot**.
 
 Crei un nuovo ordine di produzione rilasciato per 12 unità dell'articolo SP-SCM1009, Airpot, utilizzando Routing - SP-SCM1009-SUB-2. Utilizza il foglio di lavoro conto lavoro per generare un ordine d'acquisto per la produzione, quindi completa l'operazione ricevendo e fatturando l'ordine d'acquisto.
 
-## Passaggi
+## <a name="steps"></a>Passaggi
 
 1. Crea un nuovo ordine di produzione rilasciato per 12 unità dell'articolo SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Crei un nuovo ordine di produzione rilasciato per 12 unità dell'articolo SP-SCM
 
 L'output dell'articolo SP-SCM1009 Airpot è ora registrato.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

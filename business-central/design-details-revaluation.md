@@ -9,7 +9,7 @@ ms.date: 07/07/2023
 ms.custom: bap-template
 ---
 
-# Dettagli di progettazione: Rivalutazione
+# <a name="design-details-revaluation"></a>Dettagli di progettazione: Rivalutazione
 
 È possibile rivalutare il magazzino in base alla base di valutazione che riflette nel modo più preciso il valore di magazzino. È inoltre possibile retrodatare una rivalutazione per aggiornare in modo corretto il costo delle merci vendute (COGS). Gli articoli che utilizzano il metodo di costing standard che non sono stati completamente fatturati possono essere rivalutati.  
 
@@ -19,7 +19,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] la seguente flessibilità è s
 - Per gli articoli che utilizzano il metodo di costing standard, i movimenti di costi previsti vengono inclusi nella rivalutazione.  
 - Vengono rilevate le riduzioni di magazzino interessate dalla rivalutazione.  
 
-## Calcola la quantità rivalutabile
+## <a name="calculate-the-revaluable-quantity"></a>Calcola la quantità rivalutabile
 
 La quantità rivalutabile è la quantità residua in magazzino disponibile in una data stabilita. La quantità è il totale dei movimenti contabili articoli completamente fatturati registrati alla data di rivalutazione o prima.  
 
@@ -30,7 +30,7 @@ Dopo aver registrato una rivalutazione, è possibile registrare un aumento o una
 
 Poiché la rivalutazione può essere effettuata in qualsiasi data, è necessario che un articolo venga considerato parte del magazzino. Ad esempio, quando l'articolo è in magazzino e quando l'articolo è semilavorato (WIP).  
 
-### Esempio  
+### <a name="example"></a>Esempio
 
 Nel seguente esempio viene illustrato quando un articolo WIP diventa parte del magazzino. L'esempio si basa sulla produzione di una catena con 150 collegamenti.  
 
@@ -79,7 +79,7 @@ La data di valutazione viene impostata alla data di registrazione del consumo (2
 |02-01-20|Costo Diretto|02-01-20|-150,00|2|2|  
 |02-15-20|Costo diretto|02-15-20|150.00|3|3|  
 
-## Costo previsto nella rivalutazione
+## <a name="expected-cost-in-revaluation"></a>Costo previsto nella rivalutazione
 
 La quantità rivalutabile viene calcolata come somma della quantità per i movimenti contabili articolo che hai registrato nella data della rivalutazione o prima. Quando alcuni articoli vengono ricevuti o spediti ma non fatturati, il loro valore di magazzino non può essere calcolato. Gli articoli che utilizzano il metodo di costing standard non sono limitati a tale riguardo.  
 
@@ -92,7 +92,7 @@ Nel calcolo della quantità rivalutabile per gli articoli tramite il metodo di c
 - Un movimento valorizzazione con un tipo di movimento di **Scostamento**. Questo movimento registra la differenza tra il costo fatturato e il costo standard rivalutato.  
 - Un movimento valorizzazione con un tipo di movimento di **Rivalutazione**. Questo movimento registra lo storno della rivalutazione del costo previsto.
 
-### Esempio  
+### <a name="example-1"></a>Esempio
 
 L'esempio seguente si basa sulla produzione della catena nell'esempio precedente. Questo esempio illustra come vengono creati i tre tipi di voci, in base al seguente scenario:  
 
@@ -114,7 +114,7 @@ Nella seguente tabella vengono illustrati i risultati.
 |3.b.|01-15-20|Rivalutazione|01-20-20|-150,00|0.00|1|4|  
 |3.c.|01-15-20|Scostamenti|01-15-20|0.00|450.00|1|5|  
 
-## Determinare se la rivalutazione influisce su una riduzione di magazzino  
+## <a name="determine-whether-revaluation-affects-an-inventory-decrease"></a>Determinare se la rivalutazione influisce su una riduzione di magazzino
 
 Usare la data della registrazione o della rivalutazione per determinare se una riduzione di magazzino è interessata dalla rivalutazione.  
 
@@ -129,7 +129,7 @@ Nella seguente tabella vengono mostrati i criteri utilizzati per un articolo che
 |E|Successivamente al numero movimento di rivalutazione.|Uguale alla data di registrazione di rivalutazione|Sì|  
 |D|Successivamente al numero movimento di rivalutazione.|Successivo alla data di registrazione di rivalutazione|Sì|  
 
-### Esempio  
+### <a name="example-2"></a>Esempio
 
 Il seguente esempio, che illustra la rivalutazione di un articolo che utilizza il metodo di costing FIFO. L'esempio si basa sullo scenario seguente:  
 
@@ -160,7 +160,7 @@ Nella tabella seguente sono riportati i movimenti di valorizzazione risultanti.
 |D|04-01-20|Vendite|04-01-20|-1|-10,00|7|8|  
 ||04-01-20|Vendita|04-01-20|-1|2.00|7|12|  
 
-## Rivalutazione del magazzino WIP  
+## <a name="wip-inventory-revaluation"></a>Rivalutazione del magazzino WIP
 
 La rivalutazione delle scorte WIP implica la rivalutazione dei componenti registrati come scorte WIP.  
 
@@ -180,7 +180,7 @@ La modalità con cui viene impostata la data di valutazione del movimento di val
 > [!CAUTION]  
 > Il report **Valutazione magazzino - WIP** visualizza il valore dei movimenti di ordini di produzione registrati e potrebbe quindi risultare un poco confusionario per gli articoli WIP che sono stati rivalutati.  
 
-## Rivalutare gli articoli con il metodo di costing medio
+## <a name="revaluate-items-with-the-average-costing-method"></a>Rivalutare gli articoli con il metodo di costing medio
 
 È possibile rivalutare solo gli articoli che utilizzano il metodo di costing medio se **Calcola per** è *Articolo*.
 
@@ -188,7 +188,7 @@ Puoi eseguire la rivalutazione solo alla fine del periodo selezionato nel campo 
 
 La rivalutazione non influirà sulle transazioni negative nel mese corrente, motivo per cui non sono inclusi nemmeno i movimenti in entrata completamente applicati.
 
-### Esempio
+### <a name="example-3"></a>Esempio
 
 Questo esempio mostra cosa succede quando si calcola il valore dell'inventario nella pagina **Giornale di rivalutazione articolo**. Nella pagina **Impostazione inventario**, **Articolo** viene scelto nel campo **Tipo calcolo costo medio** e **Mese** viene scelto nel campo **Periodo costo medio**.
 
@@ -218,7 +218,7 @@ Il risultato dei seguenti movimenti sarà 0, indipendentemente dalla data di reg
 13-05-23|Acquisti|5|5.00|1
 26-04-23|Vendita|-5|5.00|2
 
-## Vedi anche  
+## <a name="see-also"></a>Vedi anche
 
 [Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)   
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)   

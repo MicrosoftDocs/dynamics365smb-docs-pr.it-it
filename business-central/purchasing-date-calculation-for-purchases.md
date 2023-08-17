@@ -11,7 +11,7 @@ ms.search.forms: null
 ms.date: 10/28/2022
 ms.author: bholtorf
 ---
-# Calcolare le date per gli acquisti
+# <a name="calculate-dates-for-purchases"></a>Calcolare le date per gli acquisti
 
 Se vuoi avere gli articoli in inventario in una certa data, [!INCLUDE[prod_short](includes/prod_short.md)] può calcolare automaticamente la data in cui è necessario ordinarli. 
 
@@ -26,7 +26,7 @@ La data di carico è anche la data in cui gli articoli saranno disponibili per i
 > [!TIP]
 > Per impostazione predefinita, molti dei campi della data citati in questo articolo sono nascosti nelle righe dell'ordine fornitore. Se un campo non è disponibile, puoi aggiungerlo personalizzando la pagina. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
-## Calcolo con una data di carico richiesta
+## <a name="calculating-with-a-requested-receipt-date"></a>Calcolo con una data di carico richiesta
 
 Se è presente una data di carico richiesta sulla riga dell'ordine di acquisto, questa data verrà utilizzata per i calcoli seguenti:  
 
@@ -38,7 +38,7 @@ Se specifichi una data di carico richiesta in una riga dell'ordine d'acquisto, t
 > [!NOTE]
 > Se il processo si basa sul calcolo indietro, ad esempio, se si utilizza la data carico richiesta per ottenere la data dell'ordine, si consiglia di utilizzare formule di data con durate fisse, ad esempio "5D" per cinque giorni o "1W" per una settimana. Le formule di data senza durate fisse, come "CW" per settimana corrente o CM per mese corrente, possono comportare calcoli della data errati. Per ulteriori informazioni sulle formule di data, vedere [Utilizzare date e orari del calendario](ui-enter-date-ranges.md).
 
-## Calcolo senza una data di carico richiesta
+## <a name="calculating-without-a-requested-receipt-date"></a>Calcolo senza una data di carico richiesta
 
 Se si immette una riga di ordine di acquisto senza una data di consegna richiesta, il campo **Data ordine** nella riga mostra la data nel campo **Data ordine** dell'intestazione dell'ordine di acquisto. È la data immessa o la data di lavoro. Le date vengono quindi calcolate per la riga dell'ordine di acquisto, con la data dell'ordine come punto di partenza come segue:  
 
@@ -47,7 +47,7 @@ Se si immette una riga di ordine di acquisto senza una data di consegna richiest
 
 Se modifichi la data dell'ordine sulla riga, [!INCLUDE[prod_short](includes/prod_short.md)] ricalcola le altre date.  
 
-## Valori predefiniti per il calcolo del lead time
+## <a name="default-values-for-lead-time-calculation"></a>Valori predefiniti per il calcolo del lead time
 
 [!INCLUDE[prod_short](includes/prod_short.md)] utilizza la formula della data nel campo **Calcolo lead time** nella riga dell'ordine acquisto per calcolare l'ordine e le date carico previste.  
 
@@ -58,9 +58,9 @@ Se modifichi la data dell'ordine sulla riga, [!INCLUDE[prod_short](includes/prod
 3. Scheda unità di stockkeeping
 4. Scheda fornitore
 
-## Vedi il relativo [training Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Calcolo della data per le vendite](sales-date-calculation-for-sales.md)  
 [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)  

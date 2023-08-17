@@ -10,7 +10,7 @@ ms.search.form: '9652, 9650'
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# (Legacy) Aggiornare layout report personalizzati
+# <a name="legacy-update-custom-report-layouts"></a>(Legacy) Aggiornare layout report personalizzati
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -22,7 +22,7 @@ Inoltre è possibile verificare gli aggiornamenti senza applicare le modifiche n
 
 Non tutte le modifiche del set di dati del report possono essere aggiornate automaticamente nei layout di report. Alcune modifiche del layout di report dovranno essere apportate manualmente dall'utente. Per ulteriori informazioni, vedere [Limiti dell'aggiornamento di layout di report personalizzati](ui-update-report-layouts.md#UpdateLimitations).  
 
-## Per aggiornare uno o più layout di report personalizzati  
+## <a name="to-update-one-or-more-custom-report-layouts"></a>Per aggiornare uno o più layout di report personalizzati
 
 1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
 
@@ -30,7 +30,7 @@ Non tutte le modifiche del set di dati del report possono essere aggiornate auto
 
 Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di report. Se si verificano errori, viene visualizzato un messaggio contenente gli errori. Sarà quindi necessario modificare manualmente il layout di report personalizzato per correggere l'errore. Per ulteriori informazioni, vedere [Risolvere gli errori](ui-update-report-layouts.md#FixErrors).  
 
-## Per verificare gli aggiornamenti del layout di report personalizzato  
+## <a name="to-test-custom-report-layout-updates"></a>Per verificare gli aggiornamenti del layout di report personalizzato
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
 
@@ -38,7 +38,7 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
  Le modifiche ai layout di report vengono verificate ma non applicate ai layout di report effettivi. Viene visualizzata una pagina **Log aggiornamenti layout report** in cui viene indicato lo stato dei potenziali aggiornamenti per ogni layout di report. Se il layout di report presenta errori, è possibile accedervi direttamente dal messaggio per risolverli. Per ulteriori informazioni, vedere [Risolvere gli errori](ui-update-report-layouts.md#FixErrors).  
 
-##  <a name="UpdateLimitations"></a> Limiti dell'aggiornamento di layout di report personalizzati  
+## <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a>Limiti dell'aggiornamento di layout di report personalizzati
  Sono disponibili diversi tipi di modifiche che l'aggiornamento automatico può applicare ai layout di report personalizzati, ad esempio la rimozione dal set di dati di un campo che è stato utilizzato nel layout. Tuttavia, l'aggiornamento automatico non può gestire le seguenti modifiche da apportare al set di dati di un report.  
 
 1.  Eliminazione di campi, etichette o elementi di dati.  
@@ -49,7 +49,7 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
  Se il processo di aggiornamento rileva uno qualsiasi di questi problemi, l'aggiornamento non può essere applicato. Sarà necessario risolvere i problemi manualmente, ad esempio modificando il layout di report in Word o, a livello di codice, utilizzando le codeunit di aggiornamento.  
 
-##  <a name="FixErrors"></a> Risolvere gli errori  
+## <a name="fixing-errors"></a><a name="FixErrors"></a>Risolvere gli errori
  Se si visualizza un messaggio di errore quando si eseguono o si verificano gli aggiornamenti del layout di report, molto probabilmente sarà necessario modificare il layout di report per risolvere il problema. Leggere il messaggio di errore per aiutare a determinare la causa del problema.  
 
  Il problema più frequente si verifica quando un campo utilizzato nel layout è stato rimosso dal set di dati del report. In questo caso, verrà visualizzata una riga nel messaggio di errore che indica che un articolo è stato rimosso. Per risolvere il problema, sarà necessario modificare il layout e rimuovere il campo in questione.  
@@ -58,9 +58,9 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
 Dopo avere modificato il layout, provare ad aggiornare nuovamente il layout.  
 
-## Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## Vedi anche  
+## <a name="see-also"></a>Vedi anche
  [Gestione dei layout di report](ui-manage-report-layouts.md)  
  [Utilizzare report, processi batch e XMLport](ui-work-report.md)  
 

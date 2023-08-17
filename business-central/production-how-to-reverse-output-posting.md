@@ -10,11 +10,11 @@ ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Stornare la registrazione dell'output
+# <a name="reverse-output-posting"></a>Stornare la registrazione dell'output
 
 La registrazione dell'output deve essere stornata in tre casi diversi. È possibile, ad esempio, che si verifichi un errore di immissione dei dati e che in un ordine di produzione venga registrata una quantità di output non corretta.  
 
-## Per stornare una registrazione di output
+## <a name="to-reverse-an-output-posting"></a>Per stornare una registrazione di output
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni output**, quindi scegli il collegamento correlato. Selezionare il batch.  
 2. Compilare i campi come necessario. Per ulteriori informazioni, vedere [Registrare l'output e i tempi di lavorazione tramite processo batch](production-how-to-post-output-quantity.md).
@@ -23,7 +23,7 @@ La registrazione dell'output deve essere stornata in tre casi diversi. È possib
 
 I movimenti delle registrazioni di output verranno registrati nei movimenti contabili magazzino come rettifica positiva.  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
  [Manufacturing](production-manage-manufacturing.md) [Impostazione della produzione](production-configure-production-processes.md)  
  [Pianif.](production-planning.md)  
