@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
 ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
-# <a name="set-up-intrastat-reporting"></a>Impostare il reporting Intrastat
+# Impostare il reporting Intrastat
 
 Tutte le società dell'Unione Europea (UE) devono creare report relativi alle attività commerciali con altri paesi UE. Le società devono presentare ogni mese alle autorità statistiche del proprio paese/area geografica report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Intrastat è il sistema usato per raccogliere statistiche commerciali su prodotti in tali paesi/aree geografiche. Usa il report Intrastat per completare il reporting Intrastat periodico mediante raccolta, registrazione e reporting degli scambi di prodotti secondo la legislazione locale.
 
@@ -27,7 +27,7 @@ Il reporting Intrastat si basa sulle normative UE standard che si applicano a tu
 >
 > Leggi l'articolo sulla configurazione e sull'utilizzo di Intrastat della versione precedente in [Impostare e registrare report Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-## <a name="enable-the-new-intrastat-experience"></a>Abilitare la nuova esperienza Intrastat
+## Abilitare la nuova esperienza Intrastat
 
 Nel secondo ciclo di rilascio del 2022, [!INCLUDE[prod_short](includes/prod_short.md)] include un'esperienza Intrastat riprogettata che fornisce funzionalità estese. Se la nuova funzionalità Intrastat non è abilitata nel tuo ambiente, un amministratore può abilitarla manualmente nella pagina **Gestione funzionalità**.
 
@@ -44,11 +44,11 @@ Nel secondo ciclo di rilascio del 2022, [!INCLUDE[prod_short](includes/prod_shor
     > [!NOTE]
     > A seconda dell'ubicazione della società, sarà sufficiente abilitare la funzionalità sopra descritta. Per i paesi/aree geografiche con funzionalità specifiche per il reporting Intrastat, abilita l'app Intrastat specifica del paese o dell'area geografica oltre all'estensione principale.
 
-## <a name="intrastat-configuration"></a>Configurazione Intrastat
+## Configurazione Intrastat
 
 Prima di poter utilizzare i report Intrastat, è necessario configurare diverse impostazioni.
 
-### <a name="intrastat-reporting-setup"></a>Setup reporting Intrastat
+### Setup reporting Intrastat
 
 Usa la pagina **Setup reporting Intrastat** per abilitare e impostare il comportamento predefinito per il reporting Intrastat. Puoi specificare se è necessario creare report Intrastat da spedizioni (invii), entrate (arrivi) o entrambi a seconda delle soglie impostate in base alle normative locali. Puoi anche impostare tipi di transazioni predefiniti per documenti normali e di reso utilizzati per il reporting delle transazioni.
 
@@ -61,6 +61,7 @@ Per impostare il reporting Intrastat, esegui la procedura seguente:
    | --- | --- |
    | **Dichiara ricevute** | Specifica che è necessario includere gli arrivi delle le merci ricevute nei report Intrastat. |
    | **Dichiara spedizioni** | Specifica che è necessario includere le spedizioni degli articoli inviati nei report Intrastat. |
+   | **Includi spedizioni dirette** | Specifica se le transazioni di spedizione diretta sono incluse nei report Intrastat. Per ulteriori informazioni, vedi [Utilizzo dei report Intrastat](finance-how-report-intrastat.md).  |  
    | **Spedizioni basate su**  | Specifica il codice paese in base a quale vengono utilizzate le righe report Intrastat.  |
    | **Partita IVA basata su** | Specifica il codice cliente/fornitore in base al quale viene utilizzato il numero partita IVA per il report Intrastat.  |
    | **Partita IVA della società in archivio** | Specifica la modalità di esportazione del numero di partita IVA della società nel file Intrastat.  |
@@ -68,7 +69,7 @@ Per impostare il reporting Intrastat, esegui la procedura seguente:
    | **Partita IVA del cliente in archivio** | Specifica la modalità di esportazione del numero di partita IVA del cliente nel file Intrastat.  |
    | **Ottieni IVA partner** | Specifica da quale tipo di riga del report Intrastat viene aggiornato il numero di partita IVA del partner. A seconda dei requisiti locali, puoi scegliere solo righe per ricevuta, solo righe per spedizione o entrambi i tipi di righe. |
 
-3. Nella Scheda dettaglio **Transazioni predefinite** seleziona o immetti le informazioni sul campo come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] La tabella seguente descrive alcuni dei campi chiave.
+4. Nella Scheda dettaglio **Transazioni predefinite** seleziona o immetti le informazioni sul campo come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] La tabella seguente descrive alcuni dei campi chiave.
 
    | Campo | Descrizione |
    | --- | --- |
@@ -79,7 +80,7 @@ Per impostare il reporting Intrastat, esegui la procedura seguente:
    | **IVA predefinita per stato sconosciuto** | Specifica il numero di partita IVA predefinito per uno stato sconosciuto. |
    | **Codice paese/area geografica predefinito** | Specifica il codice paese di ricevimento predefinito. |
 
-4. Nella Scheda dettaglio **Reporting** seleziona o immetti le informazioni sul campo come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] La tabella seguente descrive alcuni dei campi chiave.
+5. Nella Scheda dettaglio **Reporting** seleziona o immetti le informazioni sul campo come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] La tabella seguente descrive alcuni dei campi chiave.
 
    | Campo | Descrizione |
    | --- | --- |
@@ -89,9 +90,9 @@ Per impostare il reporting Intrastat, esegui la procedura seguente:
    | **Codice definizione di scambio dati - Ricevuta** | Specifica il codice della definizione di scambio dati per generare il file Intrastat per le merci ricevute. Questa campo è disponibile solo se il campo **Suddividi file ricevute/spedizioni** è impostato su **Sì**. |
    | **Codice definizione di scambio dati - Spedizione** | Specifica il codice della definizione di scambio dati per generare il file Intrastat per le merci spedite. Questa campo è disponibile solo se il campo **Suddividi file ricevute/spedizioni** è impostato su **Sì**. |
 
-5. Nella scheda dettaglio **Numerazione** immetti un valore nel campo **Nr. Intrastat** .
+6. Nella scheda dettaglio **Numerazione** immetti un valore nel campo **Nr. Intrastat** .
 
-### <a name="set-up-a-reporting-file"></a>Impostare un file di reporting
+### Impostare un file di reporting
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immetti le **definizioni di scambio dati** e seleziona il collegamento correlato.
 2. Seleziona **Nuovo** e nella Scheda dettaglio **Generale** immetti le informazioni sulla definizione dello scambio di dati, il tipo di file di dati, il separatore di colonna, le codeunit correlate, XMLport e altri campi come necessario.
@@ -114,7 +115,7 @@ Per impostare il reporting Intrastat, esegui la procedura seguente:
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] viene fornito con la definizione di scambio dati preconfigurata per Intrastat per tutti i paesi o le aree geografiche localizzati. Per informazioni su come creare una nuova definizione di scambio dati, vedi [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Impostare i campi obbligatori con l'elenco di controllo del report Intrastat
+### Impostare i campi obbligatori con l'elenco di controllo del report Intrastat
 
 In alcuni paesi/aree geografiche, le autorità richiedono che i report Intrastat includano, ad esempio, il metodo di spedizione per gli acquisti o altri valori quando le vendite superano una certa soglia.
 
@@ -138,7 +139,7 @@ Per impostare campi e/o valori obbligatori nella pagina **Report Intrastat**, pr
 >
 > Fai attenzione quando imposti le regole di convalida poiché possono differire da un paese o area geografica all'altro.
 
-## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Utilizzare codeunit personalizzate nel reporting Intrastat
+## Utilizzare codeunit personalizzate nel reporting Intrastat
 
 Se vuoi modificare il funzionamento di Intrastat e la configurazione predefinita non è sufficiente, puoi personalizzare il sistema estendendo le funzionalità standard. Se è necessario modificare ulteriormente il comportamento di Intrastat, è possibile sviluppare le proprie codeunit. Quando crei codeunit, devi apportare ulteriori modifiche per utilizzarle. Per configurare il sistema per utilizzare i tuoi oggetti, procedi come segue.
 
@@ -154,7 +155,7 @@ Se vuoi modificare il funzionamento di Intrastat e la configurazione predefinita
 > [!IMPORTANT]
 > Questa riga deve essere vuota se si utilizzano le codeunit standard. Dovresti creare una riga e configurarla solo se hai sviluppato codeunit personalizzate.
 
-## <a name="other-intrastat-configurations"></a>Altre configurazione Intrastat
+## Altre configurazione Intrastat
 
 Le schede cliente e fornitore includono il campo **Tipo di partner Intrastat**, che ha gli stessi valori di opzione del campo **Tipo di partner**: 
 
@@ -192,21 +193,21 @@ Facoltativamente è anche possibile impostare le opzioni seguenti:
 * **Cod. spedizione Intrastat**: specifica le ubicazioni da cui si spediscono o si ricevono gli articoli da o verso altri paesi/aree geografiche. Un esempio di codice di spedizione Intrastat è un aeroporto. I codici di spedizione Intrastat possono essere immessi nei documenti di vendita e di acquisto nella Scheda dettaglio **Commercio estero**. Queste informazioni vengono copiate dai movimenti articoli creati per le registrazioni Intrastat.
 * **Unità di misura supplementare**: la quantità di merci per il reporting Intrastat può essere il peso netto (in chilogrammi) o un'unità supplementare. Se sono necessarie unità supplementari, è necessario configurarle per articoli e cespiti.
 
-#### <a name="set-up-transport-methods"></a>Impostare i metodi di trasporto
+#### Impostare i metodi di trasporto
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Metodi di trasporto**, quindi seleziona il collegamento correlato.
 2. Compila i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="set-up-transaction-nature-codes"></a>Impostare il codici della natura delle transazioni
+#### Impostare il codici della natura delle transazioni
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Tipi di transazione di servizio**, quindi seleziona il collegamento correlato.
 2. Compila i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="other-related-configurations"></a>Altre configurazioni correlate
+### Altre configurazioni correlate
 
 Prima di utilizzare la funzionalità di reporting Intrastat, devi definire dei campi nelle schede articolo, cespite, cliente e fornitore.
 
-#### <a name="item-cards"></a>Schede articolo
+#### Schede articolo
 
 Segui questi passaggi per impostare tutte le informazioni necessarie relative a Intrastat nelle schede articolo.
 
@@ -222,7 +223,7 @@ Segui questi passaggi per impostare tutte le informazioni necessarie relative a 
 > [!NOTE]
 > Quando aggiungi la nomenclatura combinata a un'unità di misura definita per l'articolo, [!INCLUDE [prod_short](includes/prod_short.md)] compila automaticamente il campo **Unità di misura supplementare**, in base alla configurazione della nomenclatura combinata. Puoi cambiare il campo **Unità di misura supplementare** come necessario.
 
-#### <a name="set-up-fixed-assets-for-intrastat"></a>Impostare cespiti per Intrastat
+#### Impostare cespiti per Intrastat
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Cespiti**, quindi seleziona il collegamento correlato.
 2. Seleziona il cespite che vuoi configurare.
@@ -231,7 +232,7 @@ Segui questi passaggi per impostare tutte le informazioni necessarie relative a 
 > [!NOTE]
 > Puoi utilizzare diverse unità di misura come unità di misura supplementare. Qualsiasi **Codice unità di misura** scegli, la sua **Quantità** nei report Intrastat sarà sempre 1.
 
-#### <a name="set-up-vendors-for-intrastat"></a>Impostare fornitori per Intrastat
+#### Impostare fornitori per Intrastat
 
 Prima di poter includere un fornitore nel reporting Intrastat, immetti le relative informazioni nella pagina **Scheda fornitore**. Ad esempio, specifica un valore **Codice paese/area geografica** e un valore **Partita IVA**.
 
@@ -240,7 +241,7 @@ Prima di poter includere un fornitore nel reporting Intrastat, immetti le relati
 3. Nella Scheda dettaglio **Intrastat** nei campi **Tipo di transazione predefinito**, **Tipo di transazione predefinito - Resi** e **Metodo di trasporto predefinito**, imposta un valore predefinito per ogni campo.
 4. Espandi la scheda dettaglio **Pagamenti** e scegli l'opzione nel campo **Tipo di partner Intrastat** per specificare se il fornitore è una persona o una società nel report Intrastat.
 
-#### <a name="set-up-customers-for-intrastat"></a>Impostare clienti per Intrastat
+#### Impostare clienti per Intrastat
 
 Prima di poter includere un cliente nel reporting Intrastat, immetti le relative informazioni nella pagina **Scheda cliente**. Ad esempio, devi specificare un valore **Codice paese/area geografica** e un valore **Partita IVA**.
 
@@ -249,22 +250,22 @@ Prima di poter includere un cliente nel reporting Intrastat, immetti le relative
 3. Nella Scheda dettaglio **Intrastat** nei campi **Tipo di transazione predefinito**, **Tipo di transazione predefinito - Resi** e **Metodo di trasporto predefinito**, imposta un valore predefinito per ogni campo.
 4. Espandi la scheda dettaglio **Pagamenti** e scegli l'opzione nel campo **Tipo di partner Intrastat** per specificare se il fornitore è una persona o una società nel report Intrastat.
 
-#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Escludere articoli e cespiti dal reporting Intrastat
+#### Escludere articoli e cespiti dal reporting Intrastat
 
-Se c'è un motivo per escludere un articolo o un cespite specifico dal reporting Intrastat, modifica l'opzione nella relativa scheda.
+Se c'è un motivo per escludere un articolo o un cespite specifico dal reporting Intrastat, modifica l'opzione nella relativa scheda contrassegnando il campo **Escludi da report Intrastat**. Utilizzare questo campo nella scheda **Modello articolo** per creare più articoli esclusi dal reporting Intrastat. 
 
-##### <a name="exclude-an-item-from-intrastat-reporting"></a>Escludere un articolo dal reporting Intrastat
+##### Escludere un articolo dal reporting Intrastat
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Articoli** e seleziona il collegamento correlato.
 2. Seleziona l'elemento che desideri configurare, quindi nella Scheda dettaglio  **Costo e registrazione**, seleziona la casella di controllo **Escludi da report Intrastat** .
 
-##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Escludere un cespite dal reporting Intrastat
+##### Escludere un cespite dal reporting Intrastat
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Cespiti**, quindi seleziona il collegamento correlato.
 2. Seleziona il cespite che vuoi configurare.
 3. Nella Scheda dettaglio **Intrastat** seleziona la casella di controllo **Escludi da report Intrastat**.
 
-#### <a name="set-up-tariff-numbers"></a>Impostare nomenclature combinate
+#### Impostare nomenclature combinate
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Nomenclatura combinata**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Nomenclatura combinata** immetti le informazioni nei campi come descritto nella tabella riportata di seguito.
@@ -282,11 +283,11 @@ Se c'è un motivo per escludere un articolo o un cespite specifico dal reporting
 > 
 > Quando aggiungi una nomenclatura che ha un valore **Unità di misura** definito per l'articolo,  [!INCLUDE [prod_short](includes/prod_short.md)] aggiunge automaticamente una nuova unità di misura al valore **Unità di misura articoli** per l'articolo. Il valore **Quantità per unità di misura** si basa sul campo **Precisione arrotondamento quantità**.
 
-## <a name="enter-countryregion-intrastat-settings"></a>Immettere impostazioni Intrastat specifiche per paese/area geografica
+## Immettere impostazioni Intrastat specifiche per paese/area geografica
 
 I requisiti Intrastat sono simili in tutti gli stati membri dell'UE, sebbene vi siano importanti eccezioni. In teoria, le regole dovrebbero essere applicate uniformemente in tutti gli Stati membri. Tuttavia, esistono differenze nelle implementazioni perché alcuni Stati membri forniscono linee guida su come applicare i principi in situazioni specifiche (ad esempio, campioni commerciali e resi di merci). Queste linee guida possono produrre risultati diversi per varie situazioni. Pertanto, le informazioni che i paesi/aree geografiche devono immettere possono differire, così come il formato di file che devono utilizzare per il reporting.
 
-### <a name="austria"></a>Austria
+### Austria
 
 Il reporting Intrastat in Austria richiede due file diversi per i ricevimenti e le spedizioni. Per verificare che la configurazione sia corretta, procedi nel seguente modo.
 
@@ -298,11 +299,11 @@ Il processo di utilizzo dei report Intrastat è lo stesso della funzionalità gl
 
 <!-- ### Belgium-->
 
-### <a name="czech-republic"></a>Repubblica Ceca
+### Repubblica Ceca
 
 La nuova esperienza di report Intrastat per la Repubblica Ceca sarà disponibile nel primo ciclo di rilascio del 2023. Nel frattempo, continua a utilizzare la funzionalità **Registrazione Intrastat**.
 
-### <a name="finland"></a>Finlandia
+### Finlandia
 
 In Finlandia, ci sono alcuni passaggi aggiuntivi per configurare Intrastat. Il reporting Intrastat in Finlandia richiede due file diversi per i ricevimenti e le spedizioni. Puoi notare che vi sono anche due valori **Codice definizione di scambio dati** distinti configurati.
 
@@ -320,13 +321,13 @@ Il processo di utilizzo dei report Intrastat è lo stesso della funzionalità gl
 
 <!-- ### Germany-->
 
-### <a name="italy"></a>Italia
+### Italia
 
 Un nuova esperienza di report Intrastat per l'Italia sarà disponibile a partire da febbraio 2023. Nel frattempo, continua a utilizzare la funzionalità **Registrazione Intrastat**.
 
 <!-- ### France-->
 
-### <a name="sweden"></a>Svezia
+### Svezia
 
 Il reporting Intrastat in Svezia richiede due file diversi per i ricevimenti e le spedizioni. Per verificare che la configurazione sia corretta, procedi nel seguente modo.
 
@@ -337,9 +338,9 @@ Il processo di utilizzo dei report Intrastat è lo stesso della funzionalità gl
 
 <!-- ### United Kingdom-->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Reporting Intrastat in Business Central](finance-how-report-intrastat.md)  
 [Gestione contabile](finance.md)  

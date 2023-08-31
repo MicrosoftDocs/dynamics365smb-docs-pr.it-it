@@ -29,7 +29,7 @@ Il reporting Intrastat si basa sui regolamenti di base dell'UE che si applicano 
 
 ## Compilare il report Intrastat
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Lista Intrastat**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Lista Intrastat**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Nuovo** per creare un nuovo **report Intrastat**.
 3. Se hai bisogno di inserire alcune informazioni interne sul **Report Intrastat**, inserisci queste informazioni nel campo **Descrizione**.
 4. Nel campo **Periodo statistico** specifica il mese per il quale riportare i dati. Immetti il periodo come numero di quattro cifre senza spazi o simboli. A seconda del tuo paese/area geografica, inserisci prima il mese e poi l'anno o viceversa. Immetti, ad esempio, *2206* o *0622* per indicare giugno 2022.
@@ -79,7 +79,7 @@ Se hai ricevuto il messaggio di errore *"Peso totale" nella riga del report Intr
 
 È possibile inviare il report Intrastat come file in base ai requisiti delle diverse autorità locali. Prima di creare il file, è necessario eseguire **Report elenco di controllo** per verificare se tutte le righe contengono tutte le informazioni necessarie e valide. Per creare un file:
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Lista Intrastat**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Lista Intrastat**, quindi scegli il collegamento correlato.
 2. Scegli il **report Intrastat** che vuoi segnalare come file.
 3. Se non è stato fatto in precedenza, compila il **Report Intrastat** manualmente o scegli l'azione **Suggerisci righe**.
 4. Scegliere l'azione **Crea file**.
@@ -116,12 +116,31 @@ Quando lavori con il **Report Intrastat** vedrai un campo **Stato** nell'intesta
 * *Rilasciato*: [!INCLUDE[prod_short](includes/prod_short.md)] cambia automaticamente lo stato in *Rilasciato* quando crei un file. Da quel momento, non puoi modificare il **Report Intrastat**. Se è necessario modificare qualcosa e segnalare nuovamente, è possibile utilizzare l'azione **Riapri** per riaprire il report Intrastat. Una volta riaperto il documento, è possibile utilizzare l'azione **Rilascia** per rilasciare nuovamente il documento.
 * **Riportato**: Specifica se il movimento è già stato comunicato alle autorità fiscali. Questo non è uno stato normale ma un campo indipendente e, anche se hai riaperto il report Intrastat, mostra comunque che il file è già stato creato per questo report.
 
+### Commercio triangolare in Intrastat
+
+Il commercio triangolare prevede il commercio tra tre paesi o regioni in cui le merci bypassano il paese della società di reporting. In Business Central, ciò può essere facilitato tramite la funzionalità [Spedizione diretta](sales-how-drop-shipment.md) . Per abilitare questa opzione, attiva il campo **Includi spedizione diretta** in **Setup report Intrastat**.  
+
+Quando abiliti questa opzione, il sistema utilizza le seguenti regole, ma solo se hai contrassegnato  **Spedizione diretta** in **Ordine di vendita**: 
+
+| Ricevuto da | In consegna a | Risultato Intrastat previsto |
+|----------|------------|----------------------|
+| Paese come in **Informazioni società** | Paese come in **Informazioni società** | Nessuna riga Intrastat |  
+| Paese come in **Informazioni società** | Paese UE diverso dal paese indicato nelle **Informazioni società** | Riga spedizione Intrastat | 
+| Paese come in **Informazioni società** | Paese extra UE | Nessuna riga Intrastat |   
+| Paese UE diverso dal paese indicato nelle **Informazioni società** | Paese come in **Informazioni società** | Riga ricezione Intrastat | 
+| Paese UE diverso dal paese indicato nelle **Informazioni società** | Paese UE diverso dal paese indicato nelle **Informazioni società** | Nessuna riga Intrastat |
+| Paese UE diverso dal paese indicato nelle **Informazioni società** | Paese extra UE | Nessuna riga Intrastat | 
+| Paese extra UE | Paese come in **Informazioni società** | Nessuna riga Intrastat |  
+| Paese extra UE | Paese UE diverso dal paese indicato nelle **Informazioni società** | Nessuna riga Intrastat |
+| Paese extra UE | Paese extra UE | Nessuna riga Intrastat |   
+
 ## Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Vedere anche
 
-[Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md)  
+[Impostare il report Intrastat](finance-how-setup-report-intrastat.md)  
 [Gestione contabile](finance.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Spedizione diretta](sales-how-drop-shipment.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
