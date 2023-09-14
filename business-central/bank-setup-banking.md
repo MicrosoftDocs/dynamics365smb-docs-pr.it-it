@@ -1,7 +1,7 @@
 ---
 title: Impostare le attività bancarie
 description: 'Utilizzare le schede di conto corrente bancario per tenere traccia dei conti bancari e impostare i feed della banca, ad esempio Yodlee, per scambiare dati.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-banking"></a>Impostazione delle attività bancarie
+# Impostazione delle attività bancarie
 
 Utilizzando le schede di conto corrente bancario è possibile tenere traccia di tutti i conti bancari, in qualsiasi valuta. Dopo avere impostato i conti correnti bancari, è possibile utilizzare anche l'opzione per la stampa di assegni.
 
@@ -25,7 +25,7 @@ Per utilizzare i servizi bancari elettronici per importare gli estratti conto ba
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  

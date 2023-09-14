@@ -1,7 +1,7 @@
 ---
 title: Modifica le impostazioni di base per l'utente corrente
 description: 'Scopri come modificare alcune impostazioni di base in Business Central, ad esempio il ruolo e la gestione ruolo utente, l''azienda, la data di lavoro e il fuso orario.'
-author: jswymer
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: 'change Role Center, notification, change company, change work date, decimal separator'
 ms.search.form: '9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 08/31/2022
-ms.author: jswymer
+ms.author: bholtorf
 ---
-# <a name="change-basic-settings"></a>Modificare le impostazioni di base
+# Modificare le impostazioni di base
 
 Nella pagina **Impostazioni personali** è possibile vedere e modificare le impostazioni di base per [!INCLUDE[prod_short](includes/prod_short.md)]. Le modifiche apportate interesseranno solo la propria area di lavoro, non quella di altri utenti.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="role"></a><a name="role-center"></a>Ruolo
+## Ruolo <a name="role-center"></a>
 
 Il ruolo determina la home page, una schermata iniziale che è progettata per le esigenze di un ruolo specifico dell'organizzazione. A seconda del ruolo, la home page o la Gestione ruolo utente offre una panoramica del business, del reparto o dei task personali. Agevola anche l'esplorazione dei task quotidiane e la ricerca del lavoro assegnato.
 
@@ -25,7 +25,7 @@ Il ruolo determina la home page, una schermata iniziale che è progettata per le
 
 * In Gestione ruolo utente, è presente l'area **Attività** che mostra i dati correnti e che può essere selezionata per visualizzare informazioni più dettagliate. È possibile impostare Indicatori delle prestazioni chiave (KPI) in modo da visualizzare un grafico selezionato per una rappresentazione visiva di, ad esempio, flussi di cassa o spese e ricavi. È inoltre possibile creare una lista di Clienti preferiti nella home page per gli account aziendali con cui si intrattengono affari spesso o a cui è importante prestare un'attenzione speciale.
 
-### <a name="change-the-role"></a>Modificare il ruolo
+### Modificare il ruolo
 
 Il ruolo predefinito è **Manager aziendale**, ma è possibile selezionare un altro ruolo per utilizzare una gestione ruolo utente più adatta alle proprie esigenze.  
 
@@ -33,7 +33,7 @@ Il ruolo predefinito è **Manager aziendale**, ma è possibile selezionare un al
 2. Nella pagina **Impostazioni personali** nel campo **Ruolo** selezionare il ruolo che si desidera utilizzare per impostazione predefinita. Ad esempio, selezionare **Contabile**.
 3. Selezionare **OK**.
 
-## <a name="company"></a><a name="company"></a>Società
+## <a name="company"></a>Società
 
 Una società funziona da contenitore dei dati in [!INCLUDE[prod_short](includes/prod_short.md)]. Possono essere presenti più società in un database, ma è possibile selezionarne solo una alla volta. La società di default è detta CRONUS e contiene solo i dati di esempio.
 
@@ -45,7 +45,7 @@ Il campo **Società** mostra la società in cui lavori attualmente e puoi usarlo
 La società di default è detta CRONUS e contiene solo i dati di esempio. È possibile creare una nuova società con dati personalizzati. Per ulteriori informazioni, vedere [Creazione di nuove società](about-new-company.md).
 
 <!--
-### <a name="to-change-the-company-name"></a>To change the company name
+### To change the company name
 
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="work-date"></a><a name="work-date"></a>Data lavoro
+## Data lavoro <a name="work-date"></a>
 
 La data di lavoro più comunemente utilizzata è la data odierna. Per poter eseguire task quali il completamento delle transazioni per una data che non corrisponde alla data odierna, può essere necessario modificare temporaneamente la data di lavoro.
 
@@ -73,7 +73,7 @@ La data di lavoro più comunemente utilizzata è la data odierna. Per poter eseg
 > [!IMPORTANT]  
 > Dopo che si modifica la data di lavoro, se ci si disconnette o si passa a un'altra società, la data di lavoro è di nuovo quella predefinita. Di conseguenza, quando si accede o si passa di nuovo alla società originale, può essere necessario reimpostare la data di lavoro.
 
-### <a name="work-date-indication"></a>Indicazione della data del lavoro
+### Indicazione della data del lavoro
 
 La data del lavoro è fondamentale nelle pagine che possono essere modificate. Ogni volta che la data del lavoro non è impostata sulla data odierna su una pagina modificabile, vengono visualizzati due tipi di indicatori nella pagina:
 
@@ -83,11 +83,11 @@ La data del lavoro è fondamentale nelle pagine che possono essere modificate. O
 
 Se la data del lavoro non è impostata sul giorno corrente (oggi), in tutte le pagine in cui è possibile modificare i dati, la data del lavoro corrente è visualizzata nell'angolo superiore sinistro.
 
-## <a name="region"></a><a name="region"></a>Area geografica
+## <a name="region"></a> Area geografica
 
 L'impostazione **Area geografica** determina il modo in cui date, ore, numeri e valute vengono visualizzati o formattati. Determina anche quale carattere viene usato come separatore decimale quando si usa una tastiera numerica per inserire i dati. Per ulteriori informazioni, vedi [Immissione dati](ui-enter-data.md#decimal).
 
-## <a name="language"></a><a name="language"></a>Lingua
+## <a name="language"></a> Lingua
 
 Cambia la lingua di visualizzazione. Questo campo viene visualizzato solo quando c'è più di una lingua tra cui scegliere.
 
@@ -95,21 +95,21 @@ La lingua iniziale è determinata dall'amministratore o dalle impostazioni del b
 
 Altre lingue per [!INCLUDE[prod_short](includes/prod_short.md)] posssono essere installate da AppSource. Mentre tutte le lingue di visualizzazione supportate sono visualizzate nell'elenco, l'amministratore deve installare l'app della lingua relativa al tenant prima che gli utenti possano passare alla nuova lingua in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="time-zone"></a>Fuso orario
+## Fuso orario
 
 Definisce il fuso orario in cui ti trovi. Quando accedi per la prima volta a [!INCLUDE [prod_short](includes/prod_short.md)], il fuso orario viene impostato in base all'indirizzo della tua azienda. Modificalo se non si adatta alla tua posizione fisica.  
 
-## <a name="notifications"></a>Notifiche
+## Notifiche
 
 Scegli il collegamento *Modifica il momento in cui ricevere le notifiche* per visualizzare o modificare le notifiche ricevute in merito a determinati eventi o modifiche dello stato, come, ad esempio, quando si sta per fatturare a un cliente che ha un saldo scaduto o la giacenza disponibile è inferiore alla quantità che si intende vendere. Per ulteriori informazioni, vedi [Gestione delle notifiche](ui-smart-notifications.md).
 
-## <a name="teaching-tips"></a>Suggerimenti didattici
+## Suggerimenti didattici
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  

@@ -1,16 +1,16 @@
 ---
 title: Dettagli di progettazione - Struttura del motore di registrazione
 description: L'interfaccia di registrazione utilizza le funzioni del motore di registrazione per preparare e inserire record di movimenti di contabilità generale e IVA.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-posting-engine-structure"></a>Dettagli di progettazione: struttura del motore di registrazione
+# Dettagli di progettazione: struttura del motore di registrazione
 L'interfaccia di registrazione e alcune altre funzioni nella codeunit 12 utilizzare le funzioni del motore di registrazione e inseriscono record di movimenti di contabilità generale e IVA. Il motore di registrazione è inoltre responsabile della creazione del registro di contabilità generale.  
   
  Le funzioni nella seguente tabella forniscono una struttura standard per progettare le procedure di registrazione (ad esempio, Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry e Reverse) e l'accesso esclusivo alla tabella 17, movimenti C/G.  
@@ -30,7 +30,7 @@ L'interfaccia di registrazione e alcune altre funzioni nella codeunit 12 utilizz
 |CreateGLEntryVATCollectAdj|Uguale a CreateGLEntry, ma con raccolta addizionale di rettifiche e salvataggio nel buffer temporaneo IVA:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
 |CreateGLEntryFromVATEntry|Uguale a CreateGLEntry, ma copia anche le categorie di registrazione dal movimento IVA.|  
   
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
  [Dettagli di progettazione: Struttura dell'interfaccia di registrazione](design-details-posting-interface-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

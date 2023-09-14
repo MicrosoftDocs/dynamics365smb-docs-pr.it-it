@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 Quando si immettono dati di tipo datetime che corrispondono a una data e un'ora combinate in un campo, è necessario inserire uno spazio tra la data e l'ora. La parte della data può contenere solo spazi nella forma del separatore della data ufficiale delle impostazioni del paese. L'ora può contenere spazi attorno all'indicatore AM/PM nelle impostazioni regionali rilevanti.
 

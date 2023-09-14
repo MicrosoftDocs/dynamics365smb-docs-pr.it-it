@@ -1,7 +1,7 @@
 ---
 title: Dettagli di progettazione - Costing di magazzino
 description: In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Dettagli di progettazione: Costing di magazzino
+# Dettagli di progettazione: Costing di magazzino
 
 In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Il costing di magazzino, detto anche gestione costing riguarda la registrazione e il reporting dei costi operativi business.  
 
-## <a name="in-this-section"></a>In questa sezione
+## In questa sezione
 
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  

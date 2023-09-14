@@ -1,14 +1,14 @@
 ---
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-## <a name="setting-up-the-location"></a>Impostazione dell'ubicazione
+## Impostazione dell'ubicazione
 
 L'impostazione della pagina **Scheda Ubicazione** definisce i flussi della warehouse della società. Usare la scheda Ubicazioni per impostare un'ubicazione con il nome in codice *SUD*.
 
-### <a name="to-set-up-the-location-south"></a>Per impostare l'ubicazione SUD
+### Per impostare l'ubicazione SUD
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2. Crea una scheda Ubicazione denominata *SUD*.  

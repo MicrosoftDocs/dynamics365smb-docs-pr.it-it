@@ -1,16 +1,16 @@
 ---
 title: Configurazione dei processi di produzione
 description: 'Per convertire il materiale in articoli finali prodotti, è necessario configurare nel sistema le risorse di produzione, ad esempio distinte base, cicli, operatori macchina e macchinari.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-manufacturing"></a>Impostazione della produzione
+# Impostazione della produzione
 
 Per convertire il materiale in articoli finali prodotti, è necessario configurare nel sistema le risorse di produzione, ad esempio distinte base, cicli, operatori macchina e macchinari.
 
@@ -33,7 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Utilizzare task standard per semplificare la creazione di cicli allegando rapidamente informazioni supplementari a operazioni periodiche.|[Impostare righe di ciclo standard](production-how-set-up-standard-routing-lines.md)|  
 |Preparare le aree di produzione e i cicli per rappresentare le operazioni di produzione in conto lavoro.|[Gestire le attività di conto lavoro](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Pianif.](production-planning.md)  

@@ -1,7 +1,7 @@
 ---
 title: 'Stampare e ristampare libri giornale e registri IVA [IT]'
 description: 'Le autorità fiscali richiedono l''invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report Libro giornale - Stampa e Registro IVA - Stampa.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '12141, 12143, 12149, 12150'
 ms.date: 06/24/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="print-and-reprint-gl-books-and-vat-registers-in-the-italian-version"></a>Stampa e ristampa di libri giornale e registri IVA nella versione italiana
+# Stampa e ristampa di libri giornale e registri IVA nella versione italiana
 Le autorità fiscali richiedono l'invio di due report fiscali che elencano tutti i movimenti contabili registrati, i report **Libro giornale - Stampa** e **Registro IVA - Stampa**. Ogni pagina stampata deve avere un proprio numero progressive e pertanto è necessario aggiornare [!INCLUDE[prod_short](../../includes/prod_short.md)] con il numero dell'ultima pagina stampata prima di eseguire nuovamente il report.  
 
 Di seguito viene descritto come stampare o ristampare il report **Libro giornale - Stampa**, ma gli stessi passaggi si applicano per la stampa o la ristampa del report **Registro IVA - Stampa**.  
 
-## <a name="to-print-the-general-ledger-book-report"></a>Per stampare il report libro giornale
+## Per stampare il report libro giornale  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Libro giornale - Stampa**, quindi scegli il collegamento correlato.  
 2.  Compilare i campi come indicato nella tabella seguente.  
@@ -44,14 +44,14 @@ Entrambi i report ufficiali possono essere ristampati. Quando si ristampa un rep
 
 Di seguito viene descritto come visualizzare o modificare la numerazione della pagina per le versioni precedentemente stampate del report **Libro giornale - Stampa**, ma gli stessi passaggi si applicano per il report **Registro IVA - Stampa**.  
 
-## <a name="to-view-or-change-page-numbering-for-reprinting-the-general-ledger-book-report"></a>Per visualizzare o modificare la numerazione della pagina per la ristampa del report libro contabile
+## Per visualizzare o modificare la numerazione della pagina per la ristampa del report libro contabile  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Modifica informazioni ristampa libro giornale** . Nella pagina **Informazioni ristampa libro giornale**, il campo **Numero prima pagina** indica il numero della prima pagina dei report precedentemente stampati.  
 
 Quando si aggiorna la pagina **Setup contabilità generale** o **Registri IVA** con il numero dell'ultima pagina del report stampato, accertarsi di specificare il numero di pagina corretto. Se il report ristampato inizia con il numero di pagina non corretto, il report non verrà accettato dalle autorità fiscali. La pagina **Informazioni ristampa libro giornale** e **Informazioni ristampa registro IVA** facilitano l'identificazione del numero corretto di pagina.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 [Funzionalità locale per l'Italia](italy-local-functionality.md)
 
 

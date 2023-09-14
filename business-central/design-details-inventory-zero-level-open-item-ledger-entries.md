@@ -1,21 +1,21 @@
 ---
 title: Movimenti contabili articoli aperti con inventario zero
 description: In questo articolo viene discusso un problema in cui il livello di scorte è pari a zero sebbene vi siano movimenti contabili articoli aperti.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-known-item-application-issue"></a>Dettagli di progettazione: Problema noto di collegamento articoli
+# Dettagli di progettazione: Problema noto di collegamento articoli
 In questo articolo viene discusso un problema in cui il livello di magazzino è pari a zero sebbene vi siano movimenti contabili articoli aperti in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 L'articolo inizia elencando gli indizi tipici del problema, seguiti dai concetti di base del collegamento articoli per supportare i motivi descritti per tale problema. Alla fine dell'articolo viene fornita una soluzione alternativa per gestire tali movimenti contabili articoli aperti.  
 
-## <a name="symptoms-of-the-issue"></a>Indizi del problema
+## Indizi del problema  
  Gli indizi tipici del problema con magazzino zero anche se esistono movimenti contabili articoli aperti sono i seguenti:  
 
 -   Il seguente messaggio quando si tenta di chiudere un periodo di magazzino: "The inventory cannot be closed because there is negative inventory for one or more items.".  
@@ -29,7 +29,7 @@ L'articolo inizia elencando gli indizi tipici del problema, seguiti dai concetti
      |333|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|-1|-10|-1|-1|Sì|  
      |334|28/01/2018|Vendita|Spedizioni vendita|102043|TEST|BLU|1|10|1|1|Sì|  
 
-## <a name="basics-of-item-application"></a>Nozioni di base del collegamento articoli
+## Nozioni di base del collegamento articoli  
  Un movimento di collegamento articoli viene creato per ogni transazione di magazzino per collegare il destinatario di costo alla relativa origine del costo in modo da poter trasferire il costo in base al metodo di costing. Per ulteriori informazioni, vedere [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md).  
 
 -   Per un movimento contabile articolo in entrata, il movimento di collegamento articoli viene creato alla creazione del movimento contabile articolo.  
@@ -42,7 +42,7 @@ L'articolo inizia elencando gli indizi tipici del problema, seguiti dai concetti
 
 -   Collegamento costo  
 
-### <a name="quantity-application"></a>Collegamento della quantità
+### Collegamento della quantità  
  I collegamenti quantità vengono eseguiti per tutte le transazioni di magazzino e sono creati automaticamente, oppure manualmente in processi speciali. Quando creati manualmente, i collegamenti quantità sono denominati collegamenti fissi.  
 
  L'illustrazione seguente mostra come vengono eseguiti i collegamenti quantità.  
@@ -54,7 +54,7 @@ L'articolo inizia elencando gli indizi tipici del problema, seguiti dai concetti
 > [!NOTE]  
 >  Se il movimento contabile articolo in uscita viene valutato per costo medio, il movimento contabile articolo in entrata collegato non è l'origine del costo univoca. Svolge semplicemente un ruolo nel calcolo del costo medio del periodo.  
 
-### <a name="cost-application"></a>Collegamento costo
+### Collegamento costo  
 I collegamenti costo sono creati solo per le transazioni in entrata dove il campo **Collega-da mov. art.** viene compilato per fornire un collegamento fisso. Questo avviene in genere in relazione a una nota di credito di vendita oppure a uno scenario con eliminazione della spedizione. Il collegamento costo garantisce che l'articolo viene immesso di nuovo in magazzino con lo stesso costo di quando è stato spedito.  
 
 Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.  
@@ -66,7 +66,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  Da notare che il movimento contabile articolo in entrata 3 (Reso vendita) è un destinatario di costo per il movimento contabile articolo in uscita 2 (Vendita).  
 
-## <a name="illustration-of-a-basic-cost-flow"></a>Illustrazione di un flusso dei costi di base
+## Illustrazione di un flusso dei costi di base  
  Si supponga un flusso dei costi completo in cui un articolo viene ricevuto, spedito e fatturato, reso con lo storno del costo\-esatto e spedito nuovamente.  
 
  Il seguente diagramma illustra il flusso dei costi.  
@@ -75,7 +75,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  Da notare che il costo viene trasferito al movimento contabile articolo 2 (Vendita), quindi al movimento contabile articolo 3 (Reso vendita) e infine al movimento contabile articolo 4 (Vendita 2).  
 
-## <a name="reasons-for-the-issue"></a>Motivi del problema
+## Motivi del problema  
  Il problema con magazzino zero sebbene esistano movimenti contabili articolo aperti può essere causato dai seguenti scenari:  
 
 -   Scenario 1: Una spedizione e una fattura vengono registrati anche se l'articolo non è disponibile. La registrazione viene quindi stornata del costo esatto con una nota di credito di vendita.  
@@ -90,7 +90,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  Il movimento contabile articolo 2 (Reso vendita) non può essere un destinatario di costo del movimento contabile articolo originale e allo stesso tempo un fornitore degli articoli e la relativa origine dei costi. Di conseguenza, il movimento contabile articolo originale 1 (Vendita 1) rimane aperto fino a che non si ha un origine valida.  
 
-## <a name="identifying-the-issue"></a>Identificazione del problema
+## Identificazione del problema  
  Per determinare se i movimenti contabili articolo aperti sono stati creati, procedere nel modo seguente:  
 
  Per lo scenario 1, identificare il problema nel modo seguente:  
@@ -130,7 +130,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  Da notare che il movimento contabile articolo in entrata 334 è collegato al costo al movimento contabile articolo in uscita 333.  
 
-## <a name="workaround-for-the-issue"></a>Soluzione alternativa per il problema
+## Soluzione alternativa per il problema  
  Nella pagina **Registrazioni magazzino**, registrare le seguenti righe per l'articolo in questione:  
 
 -   Una rettifica positiva per chiudere il movimento contabile articolo in uscita aperto.  
@@ -141,7 +141,7 @@ Il diagramma seguente mostra come vengono eseguiti i collegamenti costo.
 
  Il risultato è un magazzino pari a zero e tutti i movimenti contabili articolo sono chiusi.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 [Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)   
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  
 

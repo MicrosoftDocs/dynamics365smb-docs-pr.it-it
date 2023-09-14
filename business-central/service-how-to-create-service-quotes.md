@@ -1,21 +1,21 @@
 ---
 title: Come creare offerte di assistenza
 description: Scopri come usare un'offerta di assistenza come bozza preliminare di un ordine di assistenza e può essere in seguito convertita in un ordine.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="create-service-quotes"></a>Creare offerte di assistenza
+# Creare offerte di assistenza
 Le offerte di assistenza possono essere considerate come ordini di assistenza di base. In effetti, sono quasi identici. Entrambi includono informazioni come l'identità del cliente, il tipo di ordine, l'articolo che necessita di assistenza, nonché informazioni di fatturazione, spedizione e relative al lavoro di assistenza effettivo.
  
 Un'offerta di assistenza può essere utilizzata come bozza preliminare di un ordine di assistenza e può essere in seguito convertita in un ordine.  
   
-## <a name="to-create-a-service-quote"></a>Per creare un'offerta di assistenza
+## Per creare un'offerta di assistenza  
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Offerte assistenza**, quindi scegli il collegamento correlato.  
 2. Creare una nuova offerta di assistenza.  
 3. Nel campo **Nr.** immettere un numero per l'offerta di assistenza. In alternativa, se hai impostato una numerazione per le offerte di assistenza nella pagina **Setup gest. assist.**, puoi selezionare <kbd>INVIO</kbd> per selezionare il successivo numero di offerta di assistenza disponibile.  
@@ -28,7 +28,7 @@ Un'offerta di assistenza può essere utilizzata come bozza preliminare di un ord
 6. Compilare le righe di articolo in assistenza.  
 7. Registrare i costi previsti nelle righe di assistenza.  
   
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 [Creare ordini di assistenza](service-how-to-create-service-orders.md)  
 [Utilizzare i compiti di assistenza](service-how-to-work-on-service-tasks.md)  
 

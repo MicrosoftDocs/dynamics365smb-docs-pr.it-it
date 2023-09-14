@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 È necessario impostare un codice per ogni valuta utilizzata se:
 

@@ -2,7 +2,7 @@
 title: Gestione delle relazioni
 description: Le funzionalità di Relationship Management supportano le attività di vendita e consentono di accedere alle informazioni sui contatti e i potenziali clienti in modo da poter assistere in modo efficiente i clienti.
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: 'contact, prospect, client'
 ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-relationships"></a>Gestione delle relazioni
+# Gestione delle relazioni
 Le funzionalità Relationship Management di [!INCLUDE[prod_short](includes/prod_short.md)] aiutano a gestire e a supportare le attività di vendita. Grazie a tali funzionalità è possibile accedere sempre a informazioni complete e accurate e focalizzare le interazioni sui segmenti di clienti o contatti preferiti.
 
 Per garantire la buona riuscita delle iniziative di marketing e la chiusura delle vendite, è fondamentale prendere le decisioni ottimali nel momento appropriato. [!INCLUDE[prod_short](includes/prod_short.md)] offre un quadro accurato e tempestivo delle informazioni sui contatti consentendo di presentarsi in modo efficace a potenziali clienti, nonché di incrementare il livello di soddisfazione dei clienti.

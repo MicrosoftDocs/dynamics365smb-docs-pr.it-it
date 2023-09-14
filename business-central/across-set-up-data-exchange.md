@@ -1,16 +1,16 @@
 ---
 title: Impostare lo scambio di dati per inviare e ricevere file
 description: 'Imposta il framework di scambio dati per scambiare i dati con i file interessati, inviare e ricevere documenti elettronici o importare ed esportare file della banca.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/11/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-data-exchange"></a>Impostazione dello scambio di dati
+# Impostazione dello scambio di dati
 
 Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file della banca, è necessario impostare il framework di scambio dati per elaborare i file interessati. È inoltre necessario impostare aree correlate, ad esempio i clienti a cui si inviano fatture elettroniche o l'estensione AMC Banking 365 Fundamentals, qualora si utilizzi il provider di servizi esterno per convertire i file dei conti correnti bancari. Per ulteriori informazioni, vedere [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
@@ -33,9 +33,9 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Preparare l'impostazione di una nuova definizione di scambio di dati per un file o un flusso di dati utilizzando lo schema XML del file per precompilare la Scheda dettaglio **Definizioni colonne** nella pagina **Registrazione definizioni di scambio**.|[Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Impostare il framework di scambio dei dati per consentire agli utenti di ricevere un nuovo formato di documenti di acquisto, inviare un nuovo formato di documenti di vendita, importare un nuovo file bancario o altri tipi di scambio di dati.|[Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
 [Documenti in entrata](across-income-documents.md)  

@@ -5,16 +5,16 @@ ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 4760
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduzione ai dati demo Contoso Coffee
+# Introduzione ai dati demo Contoso Coffee
 
 Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono i dati demo che puoi usare per imparare a usare le funzionalità in Business Central.  
 
 
-## <a name="set-up-contoso-coffee-data"></a>Impostare i dati di Contoso Coffee
+## Impostare i dati di Contoso Coffee
 
 Per usare i dati demo di Contoso Coffee, devi installare due app nell'azienda pertinente in [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -31,7 +31,7 @@ Dovresti quindi completare:
  - L'[Impostazione di produzione](manufacturing/contoso-coffee-manufacturing-intro.md) per prepararti all'uso degli [Scenari di produzione](#manufacturing-scenarios)
  - L'[Impostazione di magazzino](warehousing/contoso-coffee-warehousing-intro.md) per prepararti all'uso degli [Scenari di magazzino](#warehousing-scenarios)
 
-## <a name="manufacturing-scenarios"></a>Scenari di produzione
+## Scenari di produzione
 
 I dati demo di Contoso Coffee attualmente supportano i seguenti scenari di produzione per il test e la formazione:
 
@@ -49,7 +49,7 @@ Leggi i passaggi per ogni scenario nell'articolo pertinente.
 > [!IMPORTANT]
 > Le procedure dettagliate di produzione richiedono che l'esperienza utente sia impostata su *Premium* nella pagina **Informazioni società**.
 
-## <a name="warehousing-scenarios"></a>Scenari di magazzino
+## Scenari di magazzino
 
 I dati demo di Contoso Coffee attualmente supportano i seguenti scenari di magazzino per il test e la formazione:
 
@@ -59,7 +59,7 @@ I dati demo di Contoso Coffee attualmente supportano i seguenti scenari di magaz
 
 Leggi i passaggi per ogni scenario nell'articolo pertinente.
    
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Manufacturing](../production-manage-manufacturing.md)  
 [Gestione della warehouse](../warehouse-manage-warehouse.md)  

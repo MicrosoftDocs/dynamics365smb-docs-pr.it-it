@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Quando ricevi una fattura da un'azienda in valuta estera, è abbastanza facile calcolare il valore in valuta locale (VL) della fattura in base al tasso di cambio corrente. Tuttavia, la fattura spesso viene fornita con termini di pagamento in modo da poter ritardare il pagamento a una data successiva, il che implica un tasso di cambio potenzialmente diverso. Questo problema, in combinazione con il fatto che i tassi di valuta bancaria differiscono sempre dai tassi di valuta ufficiali, rende impossibile anticipare l'importo esatto in valuta locale (VL) richiesto per coprire la fattura. Se la data di scadenza della fattura si estende al mese successivo, potrebbe essere necessario rivalutare l'importo in valuta locale (VL) alla fine del mese. La rettifica della valuta è necessaria perché il nuovo valore VL richiesto per coprire l'importo della fattura potrebbe essere diverso e il debito della società nei confronti del fornitore è potenzialmente cambiato. Il nuovo importo VL potrebbe essere superiore o inferiore all'importo precedente e rappresenta quindi un guadagno o una perdita. Tuttavia, poiché la fattura non è stata ancora pagata, si considera l'utile o la perdita come *non realizzati*. Successivamente, la fattura viene pagata e la banca restituisce il tasso di cambio effettivo per il pagamento. Fino ad allora l'utile o la perdita *realizzati* non vengono calcolati. L'utile o la perdita non realizzati vengono quindi stornati e al loro posto vengono registrati l'utile o la perdita realizzati.
 

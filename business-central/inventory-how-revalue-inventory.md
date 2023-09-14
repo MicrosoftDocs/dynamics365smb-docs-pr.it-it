@@ -2,7 +2,7 @@
 title: Creare nuovi movimenti di valorizzazione per gli articoli in magazzino| Documenti Microsoft
 description: Descrive come rivalutare o ammortizzare i movimenti di valorizzazione di uno o più articoli in magazzino registrandone il corrente valore calcolato.
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: 'costing, inventory cost, value entries'
 ms.search.forms: '5803,'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="revalue-inventory"></a>Rivalutare il magazzino
+# Rivalutare il magazzino
 Per rivalutare o ammortizzare un determinato articolo o movimento contabile articolo, è necessario utilizzare le registrazioni rivalutazioni.
 
-## <a name="to-revalue-inventory"></a>Per rivalutare il magazzino
+## Per rivalutare il magazzino
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni rivalutazioni**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Calcola valore magazzino**.
 3. Nella pagina **Calcola valore magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -27,7 +27,7 @@ Per rivalutare o ammortizzare un determinato articolo o movimento contabile arti
 
 Vengono a questo punto creati i nuovi movimenti di valorizzazione che riflettono le rivalutazioni registrate. È possibile visualizzare i nuovi valori nelle rispettive schede articolo.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 [Dettagli di progettazione: Rivalutazione](design-details-revaluation.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Vendite](sales-manage-sales.md)  

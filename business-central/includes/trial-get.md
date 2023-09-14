@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/05/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Vai al [sito della versione di valutazione](https://go.microsoft.com/fwlink/?linkid=847861), scegli *Finanza e operazioni*, e poi, nella scheda **Dynamics 365 Business Central**, scegli il pulsante **Prova gratuitamente**.  
 2. Immetti il tuo indirizzo e-mail aziendale o dell'istituto di istruzione e altri dettagli. Verrà eseguito il reindirizzamento alla versione di valutazione all'indirizzo [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  

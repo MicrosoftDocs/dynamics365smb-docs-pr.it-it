@@ -1,7 +1,7 @@
 ---
 title: Prelevare articoli per la spedizione warehouse
 description: Informazioni sull'utilizzo dei documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima di registrare una spedizione warehouse.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central
@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
+# Prelevare articoli per la spedizione warehouse
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], il prelievo e la spedizione degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
@@ -39,7 +39,7 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 >  
 > Per informazioni sul prelievo di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio è correlato a una spedizione vendita, vedi [Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Per creare documenti di prelievo in blocco con i prospetti prelievi
+## Per creare documenti di prelievo in blocco con i prospetti prelievi
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
 
@@ -89,7 +89,7 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
 8. Selezionare **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] creerà il prelievo in base alle tue selezioni.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Per prelevare articoli per una spedizione warehouse
+## Per prelevare articoli per una spedizione warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi warehouse**, quindi scegli il collegamento correlato.  
 
@@ -111,9 +111,9 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
 Ora puoi immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella pagina **Spedizione warehouse**. Per ulteriori informazioni vedi [Spedire articoli](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/pick-ship-items-warehouse/)
+## Vedi il relativo [training Microsoft](/training/modules/pick-ship-items-warehouse/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

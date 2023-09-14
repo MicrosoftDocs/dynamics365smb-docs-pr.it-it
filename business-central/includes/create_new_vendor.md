@@ -1,8 +1,8 @@
 ---
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: include
 ms.date: 09/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 2](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Fornitori**, quindi scegli il collegamento correlato.  

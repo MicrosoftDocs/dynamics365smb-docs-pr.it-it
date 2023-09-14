@@ -1,16 +1,16 @@
 ---
 title: Gestione assistenza
 description: Informazioni su come utilizzare le funzionalità di Business Central progettate per gestire e monitorare l'assistenza per supportare le operazioni di riparazione e assistenza sul campo.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="service-management"></a>Gestione assistenza
+# Gestione assistenza
 > [!NOTE]
 > La funzionalità descritta in questo argomento e negli argomenti secondari è visibile solo se si dispone dell'esperienza **Premium**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
 
@@ -36,7 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Creare e gestire accordi contrattuali tra la propria azienda e i clienti.|[Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)|  
 |Fornire assistenza ai clienti e fatturare gli ordini di assistenza.|[Fornitura dell'assistenza](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)   
 [Commesse](projects-how-create-jobs.md)   
 [Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)] ](welcome.md)

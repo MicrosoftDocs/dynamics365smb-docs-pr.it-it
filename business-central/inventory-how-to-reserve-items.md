@@ -1,7 +1,7 @@
 ---
 title: Come prenotare gli articoli
 description: 'È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto e ordini di produzione. Puoi anche impegnare gli articoli in magazzino o in entrata nelle righe del documento aperto.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '498, 497'
 ms.date: 08/11/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="reserve-items"></a>Prenotare articoli
+# Prenotare articoli
 
 È possibile impegnare gli articoli per ordini di vendita, ordini di acquisto, ordini di assistenza, ordini di assemblaggio, ordini di trasferimento e ordini di produzione. Puoi anche impegnare gli articoli in magazzino o in entrata nelle righe del giornale di registrazione o del documento aperto. Lo fai nella pagina **Prenotazione**.
 
 In ogni riga che apri per impegnare gli articoli nella pagina **Impegno** vengono visualizzate informazioni su un tipo di riga (vendite, acquisti, registrazioni) o movimento di magazzino. Le righe contengono il numero di articoli disponibili per l'impegno da ogni tipo di riga o di movimento.
 
-## <a name="reserve-items-for-sales"></a>Impegnare articoli per la vendita
+## Impegnare articoli per la vendita
 
 La seguente procedure descrive come impegnare gli articoli da un ordine di vendita. I passaggi sono simili a quelli degli ordini di assemblaggio, trasferimento, assistenza e acquisto.
   
@@ -36,7 +36,7 @@ La seguente procedure descrive come impegnare gli articoli da un ordine di vendi
 > [!NOTE]  
 > Se per l'ordine di vendita esistono righe di tracciabilità articolo, il sistema di impegno richiederà l'esecuzione di passaggi speciali. Per ulteriori informazioni, vedi la sezione [Per impegnare un numero seriale o di lotto specifico](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## <a name="reserve-an-item-for-a-production-order-line"></a>Impegnare articoli per le righe degli ordini di produzione
+## Impegnare articoli per le righe degli ordini di produzione
 
 È possibile impegnare articoli per ordini di produzione. È però necessario distinguere tra righe degli ordini di produzione, ossia l'articolo padre, e componenti.
 
@@ -50,7 +50,7 @@ Nella seguente procedura viene utilizzato un ordine produzione confermato.
 
 La quantità immessa nella riga dell'ordine di produzione confermato viene ora impegnata.
 
-## <a name="reserve-items-for-production-order-components"></a>Impegnare gli articoli per i componenti degli ordini di produzione
+## Impegnare gli articoli per i componenti degli ordini di produzione
 
 È possibile impegnare articoli per ordini di produzione. È però necessario distinguere tra righe degli ordini di produzione, ossia l'articolo padre, e componenti.
 
@@ -66,7 +66,7 @@ Nella seguente procedura viene utilizzato un ordine produzione confermato.
 
 La quantità immessa nella riga del componente di produzione confermato viene ora impegnata.
 
-## <a name="change-a-reservation"></a>Modificare un impegno
+## Modificare un impegno
 
 A volte, può essere necessario modificare un impegno su un articolo.
 
@@ -75,7 +75,7 @@ A volte, può essere necessario modificare un impegno su un articolo.
 3. Nella pagina **Movimenti impegni** aggiorna il campo **Quantità** nella riga che vuoi modificare.
 4. Conferma il messaggio successivo, scegliendo il pulsante **OK**.
 
-## <a name="cancel-a-reservation"></a>Annullare un impegno
+## Annullare un impegno
 
 A volte può essere necessario annullare un impegno su un articolo.
 
@@ -84,7 +84,7 @@ A volte può essere necessario annullare un impegno su un articolo.
 3. Nella pagina **Mov. impegni**, selezionare l'azione **Annulla impegno**.  
 4. Conferma il messaggio successivo, scegliendo il pulsante **OK**.  
 
-## <a name="reserve-a-specific-serial-or-lot-number"></a>Impegnare un numero seriale o di lotto specifico
+## Impegnare un numero seriale o di lotto specifico
 
 Dai documenti in uscita per gli articoli tracciati, ad esempio ordini di vendita o liste di componenti di produzione, è possibile impegnare numeri seriali o di lotto specifici. Ciò può risultare utile, ad esempio, se si necessita di componenti di produzione da un lotto specifico per assicurare la coerenza con i batch di produzione precedenti o perché un cliente ha richiesto un numero seriale specifico. Per ulteriori informazioni, vedi [Utilizzo dei numeri di serie e di lotto](inventory-how-work-item-tracking.md).
 
@@ -101,9 +101,9 @@ La seguente procedura è basata su un ordine di vendita.
 7. Fare clic su **OK** per aprire la pagina **Impegno** in cui viene visualizzato solo l'approvvigionamento con il numero di tracciabilità articolo specificato. Se vi sono impegni non specifici per numeri di tracciabilità articolo specificati per la riga, viene visualizzato un messaggio che indica la quantità già impegnata.  
 8. Scegli l'azione **Impegno automatico** o **Impegna da riga corrente** per creare l'impegno per numeri di tracciabilità articolo specifici.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/manage-outbound-serial-lot-numbers/)
+## Vedi il relativo [training Microsoft](/training/modules/manage-outbound-serial-lot-numbers/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  

@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/11/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Scegli la ![lampadina che apre la funzione Dimmi 0](../media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Setup report IVA**, quindi scegli il collegamento correlato.  
 2. Per permettere agli utenti di modificare e ripresentare questo report, seleziona il campo **Consenti modifica**.  

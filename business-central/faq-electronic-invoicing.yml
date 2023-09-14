@@ -3,8 +3,8 @@ metadata:
   title: Domande frequenti sulla fatturazione elettronica
   description: Ottieni risposte sul servizio di scambio di documenti e sulle versioni supportate di PEPPOL.
   ms.topic: faq
-  author: edupont04
-  ms.author: edupont
+  author: brentholtorf
+  ms.author: bholtorf
 title: Domande frequenti sulla fatturazione elettronica
 summary: |
   Il servizio di scambio di documenti integrato invia le fatture elettroniche a TradeShift, un fornitore di servizi che inoltra le fatture elettroniche a destinatari PEPPOL o NemHandel. Ma il servizio supporta un numero limitato di versioni.   

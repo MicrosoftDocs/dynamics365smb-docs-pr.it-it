@@ -1,7 +1,7 @@
 ---
 title: Creare un ordine di vendita cliente e vendere i prodotti
 description: Descrive come creare un ordine di vendita per registrare l'accordo con un cliente per vendere o commercializzare prodotti secondo termini specifici.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
 ms.date: 09/02/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Vendere prodotti con un ordine di vendita cliente
+# Vendere prodotti con un ordine di vendita cliente
 
 Questo articolo fornisce istruzioni su quando utilizzare un ordine di vendita cliente oltre a una fattura. Se il processo di vendita richiede di spedire solo parte di un ordine, forse perché la quantità completa non è disponibile, è necessario elaborare la vendita effettuando un ordine di vendita.
 
@@ -23,7 +23,7 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 
 È persino possibile creare ordini pagati direttamente per clienti non registrati impostando dapprima una scheda "cliente per vendite in contanti", selezionabile nell'ordine di vendita. Ulteriori informazioni in [Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Creare un ordine di vendita
+## Creare un ordine di vendita
 
 > [!NOTE]  
 > La seguente procedura presuppone che il cliente sia già impostato. Per istruzioni su come eseguire questa operazione, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
@@ -87,13 +87,13 @@ Viene visualizzata la finestra dialogo **Registra e invia conferma** con il meto
 
 I movimenti contabili cliente e articolo sono ora creati nel sistema e l'ordine di vendita è emesso come documento PDF. Una volta che l'ordine di vendita è completamente registrato, viene rimosso dalla lista degli ordini di vendita e viene sostituito con nuovi documenti nella lista delle fatture di vendita registrate e nella lista delle spedizioni vendite registrate.  
 
-## <a name="external-document-number"></a>Numero di documento esterni
+## Numero di documento esterni
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Fatturare le vendite](sales-how-invoice-sales.md)  
 [Registrazione di vendite](ui-post-sales.md)  

@@ -1,7 +1,7 @@
 ---
 title: Panoramica delle attività di gestione fornitori
 description: 'Descrive i task per la gestione dei fornitori, ad esempio, pagare i creditori o collegare i pagamenti in uscita ai movimenti contabili per chiudere fatture o note di credito.'
-author: edupont04
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-payables"></a>Gestione della contabilità fornitori
+# Gestione della contabilità fornitori
 
 Una parte importante della gestione della contabilità fornitori consiste nel pagare i fornitori o rimborsare le spese ai dipendenti. È possibile utilizzare funzioni per aggiungere righe di pagamenti per le fatture di acquisto che sono in scadenza nella pagina **Registrazioni pagamenti**. Per inviare transazioni alla banca, è possibile esportare più righe di registrazione pagamenti in un file, che sarà quindi caricato nella banca. È inoltre possibile effettuare i pagamenti con assegno, incluso trasmettere assegni come pagamenti elettronici.
 
@@ -29,16 +29,16 @@ Nella tabella seguente viene descritta una sequenza di attività, all'interno de
 |È possibile assicurarsi della corretta valutazione di magazzino assegnando i costi degli articoli, come le spese di spedizione, gestione fisica, assicurazione e il trasporto sostenute per gli acquisti.|[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|
 |Rimborsare ai dipendenti le spese personali durante le attività aziendali effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## Vedi il relativo [training Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

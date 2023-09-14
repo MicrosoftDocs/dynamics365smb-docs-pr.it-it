@@ -1,16 +1,16 @@
 ---
 title: Impostare aree di applicazione complesse utilizzando le procedure ottimali | Documenti Microsoft
 description: 'Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall''inizio.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-complex-application-areas-using-best-practices"></a>Impostare aree di applicazione complesse utilizzando le procedure ottimali
+# Impostare aree di applicazione complesse utilizzando le procedure ottimali
 Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i valori di setup appropriati dall'inizio.  
 
  Se si utilizza Avvio rapido per implementare i valori di setup o questi vengono immessi manualmente nella nuova società, è possibile supportare le decisioni di setup con alcuni consigli generali per i campi di setup selezionati che potrebbero provocare la mancata efficacia della soluzione se definiti in modo errato.  
@@ -21,7 +21,7 @@ Per la riuscita di qualsiasi nuovo software aziendale, è importante immettere i
 
 -   [Impostare le procedure ottimali: metodo di costing](setup-best-practices-costing-method.md)  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)   
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

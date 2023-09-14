@@ -1,7 +1,7 @@
 ---
 title: Inizio rapido di Business Intelligence
 description: Scopri come Business Central ti aiuta a trasformare i dati aziendali in informazioni fruibili utilizzando report e dashboard di Business Intelligence.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/17/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 
-# <a name="business-intelligence-quick-start"></a>Inizio rapido di Business Intelligence
+# Inizio rapido di Business Intelligence
 
 Essere in grado di raccogliere e analizzare le quantità sempre crescenti di dati in modo attuabile è una parte inestimabile del modo di fare affari in questi giorni. [!INCLUDE[prod_short](includes/prod_short.md)] offre molti strumenti di Business Intelligence (BI), sia integrato che integrato con altri servizi, per aiutare la tua azienda nel processo decisionale.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a>Ottieni informazioni dettagliate sui tuoi principali punti di interesse
+## Ottieni informazioni dettagliate sui tuoi principali punti di interesse
 
 [!INCLUDE[prod_short](includes/prod_short.md)] include grafici integrati che possono essere visualizzati nella sezione **Insights** sulla tua home page, che copre *entrate e uscite*, *flusso di cassa*, *tendenze di vendita* e altri report. Puoi trovare indicatori di prestazione chiave (KPI) aggiuntivi nella pagina **Informazioni su Cloud intelligente**, che mostra informazioni utili da finanza, inventario, vendite e approvvigionamento:
 
@@ -24,7 +24,7 @@ Essere in grado di raccogliere e analizzare le quantità sempre crescenti di dat
 
 Le schede dati e gli approfondimenti disponibili possono essere selezionati per aprire la relativa pagina del registro. La pagina **Informazioni su Cloud intelligente** utilizza anche una connessione con Power BI e sottoscrizioni di Azure Machine Learning esistenti per visualizzare dashboard di analisi e previsioni.
 
-## <a name="set-up-power-bi-integration"></a>Configurare l'integrazione con Power BI
+## Configurare l'integrazione con Power BI
 
 Puoi connetterti [!INCLUDE[prod_short](includes/prod_short.md)] insieme a Power BI per creare report penetranti e dashboard potenti. L'integrazione di Power BI offre molte opzioni per fornire informazioni dettagliate basate sui dati aziendali, inclusa un'ampia gamma di personalizzazioni visive, di filtraggio e di visualizzazione.
 
@@ -40,9 +40,9 @@ L'integrazione di Power BI con [!INCLUDE[prod_short](includes/prod_short.md)] in
 
 Puoi anche creare report visivi basati su [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando l'opzione del tipo di file **Documento di Microsoft Excel (solo dati)** nelle pagine di richiesta del report. Ulteriori informazioni su [Esegui e stampa report](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/use-power-bi).
+## Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/use-power-bi).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Business Analysis e Financial Reporting](bi.md)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  

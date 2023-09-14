@@ -1,8 +1,8 @@
 ---
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 22](../media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Articoli**, quindi scegli il collegamento correlato.  

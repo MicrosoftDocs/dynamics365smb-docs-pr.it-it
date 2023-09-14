@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Quando si apre la pagina **Disp. art. per varianti** da una riga di documento, è possibile inserire una variante nella riga del documento selezionando la riga con la variante che vuoi inserire, quindi facendo clic su OK. Se hai usato la pagina solo per visualizzare la disponibilità e non vuoi inserire una variante, è necessario chiudere la pagina senza fare clic su OK.
 

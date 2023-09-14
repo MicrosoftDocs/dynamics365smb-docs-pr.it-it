@@ -1,7 +1,7 @@
 ---
 title: Come visualizzare le istanze di fasi workflow archiviate
 description: Tutte le istanze di fasi workflow vengono salvate nella pagina Istanze di fasi workflow archiviate. Ogni passaggio è costituito da un evento del flusso di lavoro e da una risposta del flusso di lavoro.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '1530,'
 ms.date: 09/09/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="view-archived-workflow-step-instances"></a>Visualizzare le istanze di fase workflow archiviate
+# Visualizzare le istanze di fase workflow archiviate
 
 Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate**.  
 
@@ -20,7 +20,7 @@ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle
 > [!NOTE]
 > Per visualizzare la cronologia e lo stato dei workflow utilizzando l'integrazione di Power Automate, scegli l'azione **I miei flussi** nella pagina **Power Automate**, quindi scegli un flusso per visualizzarne la cronologia e lo stato di esecuzione.
 
-## <a name="to-view-archived-workflow-step-instances"></a>Per visualizzare le istanze del passaggio del flusso di lavoro archiviate
+## Per visualizzare le istanze del passaggio del flusso di lavoro archiviate
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Aprire il flusso di lavoro per cui si desidera visualizzare tutte le istanze del passaggio del flusso di lavoro archiviate.  
@@ -31,7 +31,7 @@ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle
 
    La pagina **Istanze di fasi workflow archiviate** si apre mostrando tutte le istanze di fasi workflow varchiviate. Nel campo **Codice workflow** è possibile visualizzare il workflow a cui appartiene l'istanza di fase workflow archiviata.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Eliminare i workflow di approvazione](across-how-to-delete-workflows.md)  
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  

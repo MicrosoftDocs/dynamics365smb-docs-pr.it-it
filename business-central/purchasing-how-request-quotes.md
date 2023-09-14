@@ -1,7 +1,7 @@
 ---
 title: Creare un'offerta di acquisto per richiedere un'offerta
 description: Descrive come creare un documento di un'offerta di vendita o una richiesta di offerta (RdO) per registrare la propria offerta a un cliente per la vendita di prodotti in base a termini determinati.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="request-quotes"></a>Richiedere le offerte
+# Richiedere le offerte
 
 Un'offerta di acquisto può essere utilizzata come bozza preliminare di un ordine di acquisto che può essere in seguito convertito in una fattura di acquisto.
 
-## <a name="create-a-purchase-quote"></a>Creare un'offerta di acquisto
+## Creare un'offerta di acquisto
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Offerte acquisto**, quindi scegli il collegamento correlato.
 2. Creare un nuovo documento nello stesso modo in cui si crea un ordine di acquisto. Ulteriori informazioni in [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
-## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Convertire un'offerta di acquisto in un ordine di acquisto
+## Convertire un'offerta di acquisto in un ordine di acquisto
 
 Una volta che l'offerta del fornitore viene accettata, può essere convertita in ordine d'acquisto per elaborare l'acquisto.
 
@@ -31,9 +31,9 @@ L'offerta di acquisto viene rimossa dal database. Viene creato un ordine di acqu
 > [!NOTE]
 > Non è possibile convertire direttamente un'offerta di acquisto direttamente in una fattura di acquisto, come è possibile con le offerte di vendita. Per i dettagli su come creare una fattura di acquisto, leggi [Registrare gli acquisti con le fatture di acquisto](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/).
+## Vedi il relativo [training Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  

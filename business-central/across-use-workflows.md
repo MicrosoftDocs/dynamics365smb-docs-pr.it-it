@@ -1,7 +1,7 @@
 ---
 title: Utilizzare i flussi di lavoro di approvazione
 description: È possibile impostare e utilizzare flussi di lavoro che collegano le attività dei processi aziendali come la pubblicazione automatica o la richiesta e la concessione dell'approvazione per nuovi record.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="use-approval-workflows"></a>Utilizzare i workflow di approvazione
+# Utilizzare i workflow di approvazione
 
 Un flusso di lavoro è una sequenza di attività attivate da un'azione, una condizione o una regola. I flussi di lavoro vengono solitamente implementati per integrare la logica aziendale in un'organizzazione, come la separazione dei compiti, l'unificazione dei processi o l'applicazione delle procedure consigliate.
 
@@ -64,9 +64,9 @@ Prima di poter iniziare a utilizzare i flussi di lavoro, è necessario impostare
 | Visualizzare istanze dei passaggi del flusso di lavoro con lo stato **Completato**. | [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md) |
 | Eliminare un workflow di approvazione che non verrà più utilizzato. | [Eliminare i workflow di approvazione](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Configurare i flussi di lavoro di approvazione](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

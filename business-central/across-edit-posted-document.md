@@ -1,18 +1,18 @@
 ---
 title: Modificare i documenti di vendita e acquisto registrati
 description: Questo argomento spiega come aggiornare le informazioni su un documento registrato come una spedizione di vendita o una fattura di acquisto quando le informazioni rilevanti sono cambiate.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
 ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="edit-posted-documents"></a>Modifica dei documenti registrati
+# Modifica dei documenti registrati
 
 A volte è necessario aggiornare un documento registrato perché le informazioni rilevanti per il documento sono cambiate. In un documento di vendita registrato, ad esempio, questo può essere il numero di registrazione del pacchetto dell'agente di spedizione. Su un documento di acquisto registrato, questo può essere un testo di riferimento di pagamento.
 
@@ -32,7 +32,7 @@ I seguenti documenti aggiuntivi possono essere modificati nei paesi/aree geograf
 - RU: Nota credito di vendita registrate
 - IT: Spedizione trasferimento registrata, Spedizione assistenza registrata
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Per modificare una spedizione vendita registrata
+## Per modificare una spedizione vendita registrata
 
 Di seguito viene spiegato come modificare una spedizione vendita registrata. I passaggi sono simili per gli altri documenti supportati.
 
@@ -43,7 +43,7 @@ Di seguito viene spiegato come modificare una spedizione vendita registrata. I p
 
 La spedizione vendita registrata viene aggiornata.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
 [Ricerca di movimenti correlati per documenti](ui-find-entries.md)  

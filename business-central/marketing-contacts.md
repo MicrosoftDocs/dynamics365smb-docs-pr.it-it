@@ -1,7 +1,7 @@
 ---
 title: Creare e gestire i contatti della società
 description: 'Si possono impostare come contatti tutte le entità esterne con cui si ha una relazione d''affari, ad esempio prospetti, clienti, fornitori e consulenti.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-contacts"></a>Gestione dei contatti
+# Gestione dei contatti
 
 I dipendenti della tua azienda incontrano regolarmente potenziali relazioni commerciali che possono svilupparsi in relazioni formali. Tutti questi contatti esterni e le loro informazioni dettagliate dovrebbero essere registrati nel sistema in modo che la comunicazione abbia più successo e che possano quindi essere facilmente convertiti in relazioni formali con clienti, fornitori o banche.
 
@@ -26,7 +26,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti.|[Utilizzare i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md)|
 |Eliminare la confusione quando due o più record sono presenti per lo stesso contatto.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  
