@@ -90,7 +90,7 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |*<kbd>MAIUSC</kbd>+<kbd>CTRL</kbd>+<kbd>F</kbd>*|Invia le righe suggerite nella pagina dei fogli di lavoro del flusso di cassa.|Non applicabile.|
 |*<kbd>MAIUSC</kbd>+<kbd>CTRL</kbd>+<kbd>I</kbd>*|Visualizza i numeri di serie e di lotto assegnati alla voce nel documento o nel giornale di registrazione.|Non applicabile.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Spostarsi tra righe e colonne
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Spostarsi tra righe e colonne
 
 Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio pagine di elenco e parti **Righe** sui documenti. Lo spostamento da una cella all'altra attraverso una griglia è completamente abilitato per la tastiera.
 
@@ -111,7 +111,7 @@ Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE
 | <kbd>TAB</kbd> | In un elenco modificabile, spostare il cursore nella stessa riga sul campo successivo a destra. | Non applicabile. | 
 | <kbd>MAIUSC</kbd>+<kbd>Tab</kbd> | In un elenco modificabile, spostare il cursore nella stessa riga sul campo precedente a sinistra. | Non applicabile. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selezionare, copiare e incollare
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Selezionare, copiare e incollare
 
 |Premi questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione riquadri |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE
 |<kbd>MAIUSC</kbd>+<kbd>PGGIÙ</kbd><br /><br />(<kbd>MAIUSC</kbd>+<kbd>Fn</kbd>+<kbd>Freccia SU</kbd>)|Estendere la selezione per includere tutte le righe visibili sotto la selezione di righe corrente.|Non applicabile.|
 |<kbd>F8</kbd>|Copiare il campo nella stessa colonna della riga precedente e lo incolla nella riga corrente. Questo è possibile solo in elenchi modificabili. L'utilizzo di questo tasto seguito dal tasto <kbd>Tab</kbd> consente di compilare rapidamente i campi delle voci per cui si desidera avere lo stesso valore della riga precedente.|Non applicabile.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Cercare e filtrare elenchi
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Cercare e filtrare elenchi
 
 |Premi questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|

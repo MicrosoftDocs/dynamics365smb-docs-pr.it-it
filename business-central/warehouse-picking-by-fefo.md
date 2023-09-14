@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Abilitare il prelievo di articoli tramite il metodo FEFO
+# <a name="enable-picking-items-by-fefo"></a>Abilitare il prelievo di articoli tramite il metodo FEFO
 FEFO (First-Expired-First-Out) è un metodo di ordinamento che assicura che vengano prelevati per primi gli articoli meno recenti, ovvero quelli con le date di scadenza più prossime.  
 
  La funzionalità può essere utilizzata solo quando vengono soddisfatti i seguenti criteri:  
@@ -33,7 +33,7 @@ Per abilitare le movimentazioni in base al metodo FEFO, lasciare il campo **Dal 
 <br /><br />
 Se il campo **Registrazione scadenza vincolante** è selezionato in **Scheda cod. tracciab. articolo**, nel prelievo verranno inclusi solo gli articoli non scaduti e le righe verranno ordinate secondo il principio FEFO.
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 [Prelevare articoli per la spedizione warehouse](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Prelevare articoli con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)

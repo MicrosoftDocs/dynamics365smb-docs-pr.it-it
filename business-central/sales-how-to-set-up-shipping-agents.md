@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Impostare gli spedizionieri
+# <a name="set-up-shipping-agents"></a>Impostare gli spedizionieri
 È possibile impostare un codice per ciascuno degli spedizionieri di cui si avvale l'azienda e immettere informazioni relative a ognuno di essi.  
 
 Se viene immesso l'indirizzo Internet di uno spedizioniere che fornisce servizi per rintracciare colli su Internet, è possibile utilizzare la funzione di tracciabilità automatica dei colli. Per ulteriori informazioni, vedere [Rintracciare i colli](sales-how-track-packages.md).
@@ -20,7 +20,7 @@ Per ciascuno di essi è possibile impostare un numero qualsiasi di servizi e per
 
 Quando a una riga di ordine di vendita viene assegnato un servizio spedizioniere, il tempo di spedizione del servizio sarà compreso nel calcolo della promessa d'ordine relativa a quella riga. Per ulteriori informazioni, vedere [Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md).
 
-## Per impostare uno spedizioniere  
+## <a name="to-set-up-a-shipping-agent"></a>Per impostare uno spedizioniere
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Spedizionieri**, quindi scegli il collegamento correlato.  
 2.  Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Scegliere l'azione **Servizi spedizioniere**.
@@ -29,7 +29,7 @@ Quando a una riga di ordine di vendita viene assegnato un servizio spedizioniere
 > [!NOTE]  
 >  Se uno spedizioniere viene eliminato dalla riga di ordine, verrà eliminato anche il codice di servizio spedizioniere. Il contenuto di campi parzialmente basato sul servizio spedizioniere verrà ricalcolato.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Impostare i metodi di spedizione](sales-how-set-up-shipment-methods.md)  
 [Rintracciare i colli](sales-how-track-packages.md)    
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
