@@ -3,14 +3,14 @@ title: Come suddividere le righe attività di warehouse
 description: Scopri come suddividere le righe di attività di warehouse se la capacità disponibile in una collocazione suggerita non è sufficiente.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 9314, 9313, 9315, 9330'
 ---
-# <a name="split-warehouse-activity-lines"></a>Suddividere righe attività warehouse
+# Suddividere righe attività warehouse
 
 Nei prelievi, nei movimenti o negli stoccaggi warehouse, nonché nei prelievi e negli stoccaggi magazzino, vengono forniti suggerimenti circa le collocazioni per il prelievo o lo stoccaggio di articoli. Nella collocazione suggerita la quantità effettiva può non essere sufficiente o non vi è abbastanza spazio per stoccare la quantità richiesta. In questi casi puoi suddividere la riga in modo che gli articoli ad essa corrispondenti vengano prelevati da o riposti in più collocazioni.  
 
@@ -23,7 +23,7 @@ La seguente procedura si applica ai seguenti documenti di warehouse:
 * Movimenti di magazzino
 * Prelievi magazzino  
 
-## <a name="to-split-warehouse-activity-lines"></a>Per suddividere righe attività warehouse
+## Per suddividere righe attività warehouse  
 
 1. Aprire una riga attività warehouse in cui si sta tentando di gestire una quantità insufficiente.  
 2. Nel campo **Qtà da gestire** immetti la quantità ridotta che sei in grado di gestire.  
@@ -33,7 +33,7 @@ La seguente procedura si applica ai seguenti documenti di warehouse:
 > [!NOTE]  
 > Se per l'ubicazione vengono utilizzati stoccaggi e prelievi guidati e si procede alla suddivisione delle righe, è necessario avere familiarità con la warehouse ed essere in grado di scegliere una collocazione che corrisponda ai requisiti di immagazzinamento dell'articolo e che soddisfi i requisiti generali del documento di warehouse. Ad esempio, non è consigliabile suddividere una riga in un documento di prelievo e posizionare alcuni articoli nell'area di immagazzinamento a massa.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

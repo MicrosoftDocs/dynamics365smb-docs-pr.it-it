@@ -3,16 +3,16 @@ title: Inviare avvisi normativi
 description: 'Se ritieni che sia necessaria assistenza sulle normative di una nuova legislazione in Business Central, puoi utilizzare questa guida per inviare un avviso normativo al team di prodotto.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Inviare avvisi su normative specifiche di un paese/area geografica
+# Inviare avvisi su normative specifiche di un paese/area geografica
 
 Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per inviare avvisi normativi mediante il servizio di invio di avvisi normativi di Dynamics.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Per inviare un avviso normativo tramite LCS
+## Per inviare un avviso normativo tramite LCS
 
 1. Vai a [https://lcs.dynamics.com](https://lcs.dynamics.com) e accedi  
 
@@ -65,7 +65,7 @@ Invitiamo gli utenti a utilizzare Microsoft Dynamics Lifecycle Services per invi
 
       Dopo l'invio dell'avviso, verrà visualizzato un messaggio che conferma l'avvenuto invio a Microsoft.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Funzionalità locale in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Modifica di lingua e impostazioni locali](about-locale-language.md)  

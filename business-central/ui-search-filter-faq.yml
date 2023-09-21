@@ -2,13 +2,13 @@
 metadata:
   title: Informazioni su ricerca e filtro in Business Central
   description: Risposte alle domande frequenti relative alla ricerca e al filtro.
-  author: mikebcMSFT
+  author: brentholtorf
   ms.topic: faq
   ms.reviewer: bholtorf
   ms.search.keywords: 'keyboarding, productivity, how do i, filter pane'
   ms.search.form: TellMe
   ms.date: 04/01/2021
-  ms.author: mikebc
+  ms.author: bholtorf
 title: Domande frequenti su ricerca e filtro
 summary: Questo articolo risponde alle domande più frequenti relative alle operazioni di ricerca e filtro in Business Central.
 sections:

@@ -3,12 +3,12 @@ title: Dettagli di progettazione - Gestione dei metodi di riordino
 description: Questo articolo fornisce una panoramica dei criteri di riordino che è possibile utilizzare nella pianificazione dell'approvvigionamento.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/24/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-handling-reordering-policies"></a>Dettagli di progettazione: Gestione dei metodi di riordino
+# Dettagli di progettazione: Gestione dei metodi di riordino
 
 Per includere un articolo nella pianificazione dell'approvvigionamento, è necessario specificare un criterio di riordino nella pagina **Scheda articolo** . Sono disponibili i seguenti criteri di riordino:  
 
@@ -19,36 +19,36 @@ Per includere un articolo nella pianificazione dell'approvvigionamento, è neces
 
 I criteri **Qtà riordino fissa** e **Qtà massima** sono relativi alla pianificazione del magazzino. Questi criteri coesistono con il bilanciamento graduale dell'approvvigionamento e la tracciabilità degli ordini.  
 
-## <a name="the-role-of-the-reorder-point"></a>Il ruolo del punto di riordino
+## Il ruolo del punto di riordino
 
 Un punto di riordino rappresenta la domanda durante il lead time. Quando la giacenza disponibile scende sotto il livello di magazzino definito dal punto di riordino, è tempo di ordinare altra quantità. Il magazzino diminuisce gradualmente fino all'arrivo dell'approvvigionamento. Può raggiungere lo zero o il livello delle scorte di sicurezza. Il sistema di pianificazione suggerisce un ordine di approvvigionamento programmato in avanti alla fase in cui la giacenza prevista passa al di sotto del punto di riordino.  
 
 I livelli di magazzino possono variare in modo significativo durante l'intervallo di tempo. Pertanto, il sistema di pianificazione monitora costantemente le scorte disponibili.
 
-## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Monitoraggio del livello di giacenza disponibile e del punto di riordino
+## Monitoraggio del livello di giacenza disponibile e del punto di riordino
 
 Il magazzino è un tipo di approvvigionamento, ma per la pianificazione del magazzino, il sistema di pianificazione distingue tra due livelli di magazzino:  
 
 * Quantità scorte previste  
 * Scorte disponibili previste  
 
-### <a name="projected-inventory"></a>Quantità scorte previste
+### Quantità scorte previste  
 
 All'inizio del processo di pianificazione, le scorte previste sono la quantità lorda del magazzino. La quantità lorda include la domanda e l'offerta registrate e non registrate in passato. Questa quantità diventa un livello di magazzino previsto mantenuto dalle quantità lorde derivanti dalla domanda e dall'offerta future. La domanda e l'offerta future vengono introdotte nella linea del tempo, riservate o assegnate in altri modi.  
 
 La giacenza disponibile viene utilizzata dal sistema di pianificazione per monitorare il punto di riordino e per determinare la quantità di riordino quando viene utilizzato il metodo di riordino **Qtà massima**.  
 
-### <a name="projected-available-inventory"></a>Scorte disponibili previste
+### Scorte disponibili previste  
 
 Le scorte disponibili previste sono la parte della giacenza disponibile che in un dato momento è disponibile per soddisfare la domanda. Le scorte disponibili previste vengono utilizzate dal sistema di pianificazione durante il monitoraggio del livello della scorta di sicurezza. Le scorte di sicurezza devono essere sempre disponibili per una domanda imprevista.  
 
-### <a name="time-buckets"></a>Intervalli di tempo
+### Intervalli di tempo  
 
 È importante disporre di un controllo delle scorte previste per rilevare quando viene raggiunto il punto di riordino e per calcolare le giuste quantità dell'ordine quando si utilizza il metodo di riordino **Qtà massima**.  
 
 Il livello di magazzino previsto viene calcolato all'inizio del periodo di pianificazione. È un livello lordo che non considera gli impegni e altre allocazioni. Per monitorare il livello di magazzino durante la sequenza di pianificazione, le modifiche aggregate vengono monitorate dal sistema si pianificazione nell'arco di un periodo di tempo. Questo periodo è chiamato *intervallo di tempo*. Per saperne di più sugli intervalli di tempo, vai a [Il ruolo dell'intervallo di tempo](#the-role-of-the-time-bucket). Il sistema di pianificazione garantisce che l'intervallo di tempo sia di almeno un giorno. Un giorno è l'unità di tempo minima per gli eventi di domanda od offerta.  
 
-### <a name="determining-the-projected-inventory-level"></a>Determinazione del livello di magazzino previsto
+### Determinazione del livello di magazzino previsto  
 
 Nella seguente sequenza viene descritto in che modo il sistema di pianificazione determina il livello di giacenza disponibile:  
 
@@ -77,7 +77,7 @@ L'immagine seguente illustra questo principio.
 8. Il sistema di pianificazione aggiunge un sollecito di diminuzione di -3 al livello di giacenza disponibile, A: +4 -3 = 1 o B: +6 -3 = +3.  
 9. Per A, il sistema di pianificazione crea un ordine programmato in avanti che inizia alla data indicata di **Da**. Per B, viene raggiunto il punto di riordino e viene creato un nuovo ordine.
 
-## <a name="the-role-of-the-time-bucket"></a>Il ruolo dell'intervallo di tempo
+## Il ruolo dell'intervallo di tempo
 
 Lo scopo dell'intervallo di tempo è di raccogliere gli eventi di domanda nell'intervallo di tempo in modo da creare un ordine di approvvigionamento congiunto.  
 
@@ -91,7 +91,7 @@ Il concetto di intervallo di tempo riflette il processo manuale di controllo del
 
 L'intervallo di tempo viene spesso utilizzato per evitare un effetto di sovrapposizione. Ad esempio, una riga equilibrata di approvvigionamento e domanda dove una domanda iniziale viene annullata o ne viene creata una nuova. Il risultato sarebbe che ogni ordine di approvvigionamento (eccetto l'ultimo) viene riprogrammato.
 
-## <a name="stay-below-the-overflow-level"></a>Restare al di sotto del livello di overflow
+## Restare al di sotto del livello di overflow
 
 Quando si utilizzano i criteri di riordino **Qtà massima** e **Qtà riordino fissa**, il sistema di pianificazione si concentra solo sulle giacenze previste nell'intervallo di tempo specificato. Potrebbe suggerire un'offerta extra quando la domanda negativa o le modifiche positive dell'offerta si verificano al di fuori dell'intervallo di tempo. Per l'approvvigionamento extra, il sistema di pianificazione calcola la quantità di cui ridurre l'approvvigionamento. Questa quantità è denominata “livello di overflow”. L'overflow è disponibile come riga di pianificazione con un'azione **Cambia Qtà (riduzione)** o **Annulla** e il seguente messaggio di avviso:  
 
@@ -99,11 +99,11 @@ Quando si utilizzano i criteri di riordino **Qtà massima** e **Qtà riordino fi
 
 ![Livello di overflow del magazzino.](media/supplyplanning_2_overflow1_new.png "Livello di overflow del magazzino")  
 
-### <a name="calculating-the-overflow-level"></a>Calcolo del livello di overflow
+### Calcolo del livello di overflow  
 
 Il livello di overflow viene calcolato in modi diversi a seconda del criterio di riordino.  
 
-#### <a name="maximum-qty"></a>Qtà Massima
+#### Qtà Massima
 
 Livello di overflow = giacenza massima  
 
@@ -112,7 +112,7 @@ Livello di overflow = giacenza massima
 >
 > Livello di overflow = giacenza massima + quantità minima dell'ordine.  
 
-#### <a name="fixed-reorder-qty"></a>Qtà Riordino Fissa
+#### Qtà Riordino Fissa  
 
 Livello di overflow = quantità di riordino + punto di riordino  
 
@@ -121,15 +121,15 @@ Livello di overflow = quantità di riordino + punto di riordino
 >
 > Livello di overflow = quantità di riordino + quantità minima dell'ordine  
 
-#### <a name="order-multiple"></a>Molteplicità dell'ordine
+#### Molteplicità dell'ordine  
 
 In presenza di una molteplicità di ordini, viene rettificato il livello di overflow per i metodi di riordino sia Quantità massima che Quantità riordino fissa.  
 
-### <a name="creating-the-planning-line-with-an-overflow-warning"></a>Creazione della riga di pianificazione con avviso di overflow
+### Creazione della riga di pianificazione con avviso di overflow  
 
 Una riga di pianificazione viene creata quando un approvvigionamento esistente determina un aumento della giacenza disponibile oltre il livello di overflow alla fine di un intervallo di tempo. Per avvisare dell'approvvigionamento extra, la riga di pianificazione contiene un messaggio di avviso, il campo **Accetta messaggio azione** non è selezionato e il messaggio di azione è **Annulla** o **Cambia qtà**.  
 
-#### <a name="calculating-the-planning-line-quantity"></a>Calcolo della quantità della riga di pianificazione
+#### Calcolo della quantità della riga di pianificazione  
 
 La quantità in una riga di pianificazione viene calcolata come segue:
 
@@ -138,12 +138,12 @@ quantità della riga di pianificazione = quantità dell'approvvigionamento corre
 > [!NOTE]  
 > Analogamente a tutte le righe di avviso, le quantità ordine minime e massime e di ordine multiplo vengono ignorate.  
 
-#### <a name="defining-the-action-message-type"></a>Definizione del tipo di messaggio di azione
+#### Definizione del tipo di messaggio di azione  
 
 * Se la quantità della riga di pianificazione è uguale o superiore a 0, il messaggio di azione sarà **Cambia qtà**.  
 * Se la quantità della riga di pianificazione è uguale o inferiore a 0, il messaggio di azione sarà **Annulla**  
 
-#### <a name="composing-the-warning-message"></a>Composizione del messaggio di avviso
+#### Composizione del messaggio di avviso  
 
 In caso di overflow, nella pagina **Elementi di pianificazione non tracciati** viene visualizzato un messaggio di avviso con le informazioni seguenti:  
 
@@ -153,11 +153,11 @@ In caso di overflow, nella pagina **Elementi di pianificazione non tracciati** v
 
 Esempio: "La giacenza disponibile 120 è superiore al livello di overflow 60 in 01-28-23”  
 
-### <a name="example-scenario"></a>Scenario di esempio
+### Scenario di esempio  
 
 In questo scenario, un cliente modifica un ordine di vendita da 70 a 40 pezzi tra due esecuzioni di pianificazione. La funzionalità di overflow riduce l'acquisto che è stato suggerito per la quantità di vendita iniziale.  
 
-#### <a name="item-setup"></a>Impostazione articolo
+#### Impostazione articolo  
 
 |Metodo di riordino|Qtà Massima|  
 |-----------------------|------------------|  
@@ -165,7 +165,7 @@ In questo scenario, un cliente modifica un ordine di vendita da 70 a 40 pezzi tr
 |Punto riordino|50|  
 |Magazzino|80|  
 
-#### <a name="situation-before-sales-decrease"></a>Situazione prima della riduzione della vendita
+#### Situazione prima della riduzione della vendita  
 
 |Evento|Cambia Qtà|Quantità scorte previste|  
 |-----------|-----------------|-------------------------|  
@@ -174,7 +174,7 @@ In questo scenario, un cliente modifica un ordine di vendita da 70 a 40 pezzi tr
 |Fine dell'intervallo di tempo|Nessuno|10|  
 |Suggerire nuovo ordine di acquisto|+90|100|  
 
-#### <a name="situation-after-sales-decrease"></a>Situazione dopo la riduzione della vendita
+#### Situazione dopo la riduzione della vendita  
 
 |Cambia|Cambia Qtà|Quantità scorte previste|  
 |------------|-----------------|-------------------------|  
@@ -184,7 +184,7 @@ In questo scenario, un cliente modifica un ordine di vendita da 70 a 40 pezzi tr
 |Fine dell'intervallo di tempo|Nessuno|130|  
 |Suggerire di ridurre l'acquisto<br><br> ordine di acquisto da 90 a 60|-30|100|  
 
-#### <a name="resulting-planning-lines"></a>Righe pianificazione risultanti
+#### Righe pianificazione risultanti  
 
 Il sistema crea una riga di pianificazione avviso per ridurre l'acquisto di 30 da 90 a 60 per mantenere la giacenza disponibile su 100 in base al livello di overflow.  
 
@@ -193,7 +193,7 @@ Il sistema crea una riga di pianificazione avviso per ridurre l'acquisto di 30 d
 > [!NOTE]  
 > Senza la funzionalità di overflow, nessun avviso viene creato se il livello di giacenza disponibile è superiore alla giacenza massima, che può causare un approvvigionamento extra di 30.
 
-## <a name="handling-projected-negative-inventory"></a>Gestione delle giacenze negative previste
+## Gestione delle giacenze negative previste
 
 Il punto di riordino esprime la domanda prevista durante il lead time dell'articolo. Le scorte previste devono essere abbastanza grandi da coprire la domanda fino a che non viene ricevuto il nuovo ordine. Nel frattempo, la scorta di sicurezza deve coprire le fluttuazioni della domanda fino a un livello di servizio di destinazione.  
 
@@ -227,11 +227,11 @@ Nella seguente immagine l'approvvigionamento D rappresenta un ordine di emergenz
 
 Nella seguente sezione vengono illustrate le caratteristiche dei quattro metodi di riordino supportati.
 
-## <a name="reordering-policies"></a>Criteri di riordino
+## Criteri di riordino
 
 I metodi di riordino consentono di definire la quantità da ordinare quando l'articolo deve essere rifornito. Esistono quattro metodi diversi di riordine.  
 
-### <a name="fixed-reorder-quantity"></a>Quantità di riordino fissa
+### Quantità di riordino fissa
 
 Il criterio quantità di riordino fissa viene in genere utilizzato per la pianificazione del magazzino per gli articoli con le seguenti caratteristiche:
 
@@ -241,7 +241,7 @@ Il criterio quantità di riordino fissa viene in genere utilizzato per la pianif
 
 Di norma, usa questo criterio in connessione con un punto di riordino che riflette la domanda anticipata durante il lead time dell'articolo.  
 
-#### <a name="calculated-per-time-bucket"></a>Calcolato per intervallo di tempo
+#### Calcolato per intervallo di tempo  
 
 Se raggiungi o superi il punto di riordino in un intervallo di tempo (ciclo di riordino), il sistema suggerisce due azioni:
 
@@ -250,7 +250,7 @@ Se raggiungi o superi il punto di riordino in un intervallo di tempo (ciclo di r
 
 Il punto di riordino programmato riduce il numero di suggerimenti di approvvigionamento. Riflette un processo di controllo manuale del contenuto effettivo delle collocazioni nella tua warehouse.  
 
-#### <a name="creates-only-necessary-supply"></a>Crea solo l'approvvigionamento necessario
+#### Crea solo l'approvvigionamento necessario  
 
 Prima di suggerire un nuovo ordine di approvvigionamento per soddisfare un punto di riordino, il sistema di pianificazione controlla il seguente approvvigionamento:
 
@@ -261,7 +261,7 @@ Il sistema non suggerirà un nuovo ordine di approvvigionamento se un approvvigi
 
 Gli ordini di approvvigionamento che vengono creati specificamente per soddisfare un punto di riordino sono esclusi dal bilanciamento dell'approvvigionamento ordinario e non verranno modificati. Se desideri eliminare gradualmente un articolo che ha un punto di riordino, controlla manualmente i tuoi ordini di approvvigionamento in sospeso o modifica il criterio di riordino in **Lotto per lotto**. Il sistema ridurrà o annullerà l'approvvigionamento extra.  
 
-#### <a name="combines-with-order-modifiers"></a>Combina con i modificatori di ordine
+#### Combina con i modificatori di ordine  
 
 I modificatori di ordini, Quantità minima ordine, Quantità massima ordine e Molteplicità ordine non devono svolgere un ruolo significativo quando vengono utilizzati i criteri di quantità riordino fissa. Tuttavia, il sistema di pianificazione ne tiene conto:
 
@@ -269,27 +269,27 @@ I modificatori di ordini, Quantità minima ordine, Quantità massima ordine e Mo
 * Aumenta l'ordine fino alla quantità minima specificata
 * Arrotonda la quantità dell'ordine per soddisfare un multiplo dell'ordine specificato  
 
-#### <a name="combines-with-calendars"></a>Combina con i calendari
+#### Combina con i calendari  
 
 Prima di suggerire un nuovo ordine di approvvigionamento per soddisfare un punto di riordino, il sistema di pianificazione controlla se l'ordine è programmato per un giorno non lavorativo. Utilizza i calendari specificati nel campo **Codice calendario di base** nelle pagine **Informazioni sulla società** e **Scheda ubicazione**.  
 
 Se la data prevista è un giorno non lavorativo, il sistema di pianificazione sposta l'ordine al giorno lavorativo più vicino. Lo spostamento di data potrebbe causare che un ordine soddisfi un punto di riordino ma non una richiesta specifica. Per tale richiesta non bilanciata, il sistema di pianificazione crea un approvvigionamento aggiuntivo.  
 
-#### <a name="shouldnt-be-used-with-forecasts"></a>Non deve essere utilizzato con le previsioni
+#### Non deve essere utilizzato con le previsioni  
 
 Poiché la domanda prevista è già espressa nel livello del punto di riordino non è necessario includere una previsione nella pianificazione. Se è necessario basare il piano su una previsione, utilizza il criterio **lotto per lotto**.  
 
-#### <a name="must-not-be-used-with-reservations"></a>Non deve essere utilizzato con le prenotazioni
+#### Non deve essere utilizzato con le prenotazioni  
 
 Se hai prenotato una quantità, ad esempio una quantità in magazzino, per una domanda remota, potresti alterare la struttura della pianificazione. Anche se il livello della quantità scorte previste è ammesso relativamente al punto di riordino, le quantità potrebbero non essere disponibili. Il sistema potrebbe tentare di compensare creando ordini di eccezione. Tuttavia, ti consigliamo di impostare il campo **Prenota** su **Mai** per gli articoli pianificati utilizzando un punto di riordino.
 
-### <a name="maximum-quantity"></a>Quantità massima
+### Quantità massima
 
 Il criterio Quantità massima è un modo per mantenere il magazzino utilizzando un punto di riordino.  
 
 Tutto ciò che riguarda il metodo Qtà Riordino Fissa si applica anche a questi criteri. L'unica differenza è la quantità dell'approvvigionamento suggerito. Se si utilizza il metodo della quantità massima, la quantità di riordino verrà definita in modo dinamico in base al livello delle giacenze disponibili. Pertanto, di solito differisce da ordine a ordine.  
 
-#### <a name="calculate-per-time-bucket"></a>Calcolare per intervallo di tempo
+#### Calcolare per intervallo di tempo
 
 Quando raggiungi o superi il punto di riordino, il sistema determina la quantità di riordino alla fine di un intervallo di tempo. Misura la differenza tra il livello di magazzino previsto corrente e il magazzino massimo specificato per determinare la quantità da ordinare. Il sistema controlla quindi:
 
@@ -300,7 +300,7 @@ In tal caso, il sistema riduce la quantità del nuovo ordine di approvvigionamen
 
 Se non specifichi una quantità massima di scorte, il sistema di pianificazione assicura che le scorte previste raggiungano la quantità di riordino.
 
-#### <a name="combine-with-order-modifiers"></a>Combinare con i modificatori di ordine
+#### Combinare con i modificatori di ordine
 
 A seconda della configurazione, potrebbe essere meglio combinare il criterio Quantità massima con i modificatori d'ordine: 
 
@@ -308,13 +308,13 @@ A seconda della configurazione, potrebbe essere meglio combinare il criterio Qua
 * Arrotonda la quantità a un numero intero di unità di misura di acquisto
 * Dividi la quantità in lotti come definito dalla quantità massima dell'ordine  
 
-### <a name="combine-with-calendars"></a>Combinare con i calendari
+### Combinare con i calendari
 
 Prima di suggerire un nuovo ordine di approvvigionamento per soddisfare un punto di riordino, il sistema di pianificazione controlla se l'ordine è programmato per un giorno non lavorativo. Utilizza i calendari specificati nel campo **Codice calendario di base** nelle pagine **Informazioni sulla società** e **Scheda ubicazione**.  
 
 Se la data prevista è un giorno non lavorativo, il sistema di pianificazione sposta l'ordine al giorno lavorativo più vicino. Lo spostamento di data potrebbe causare che un ordine soddisfi un punto di riordino ma non una richiesta specifica. Per tale richiesta non bilanciata, il sistema di pianificazione crea un approvvigionamento aggiuntivo.
 
-### <a name="order"></a>Ordinamento
+### Ordinamento
 
 In un ambiente di produzione su ordine, un articolo viene acquistato o prodotto per coprire una domanda specifica. In genere, il criterio di riordino degli ordini viene utilizzato per gli articoli con le seguenti caratteristiche
 
@@ -330,11 +330,11 @@ In un ambiente di produzione su ordine, un articolo viene acquistato o prodotto 
 > [!TIP]
 > Se gli attributi dell'articolo non variano, potrebbe essere meglio utilizzare un criterio di riordino lotto per lotto. Di conseguenza, viene utilizzato il magazzino non pianificato e si accumuleranno solo ordini di vendita con la stessa data di spedizione o all'interno di un intervallo di tempo definito.  
 
-#### <a name="order-to-order-links-and-past-due-dates"></a>Collegamenti ordine su ordine e date di scadenza passate
+#### Collegamenti ordine su ordine e date di scadenza passate
 
 A differenza della maggior parte dei set di approvvigionamento-domanda, gli ordini collegati con date di scadenza precedenti alla data di inizio della pianificazione sono completamente pianificati dal sistema. Il motivo di questa eccezione è che la domanda e l'approvvigionamento specifici devono essere sincronizzati. Per ulteriori informazioni sulla zona bloccata che si applica alla maggior parte dei tipi di domanda-approvvigionamento, vedi [Elaborare gli ordini prima della data di inizio pianificazione](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).
 
-### <a name="lot-for-lot"></a>Lotto-per-Lotto
+### Lotto-per-Lotto
 
 Il criterio lotto per lotto è il più flessibile perché il sistema reagisce solo alla domanda effettiva. Agisce sulla domanda anticipata dagli ordini previsti e programmati e quindi regola la quantità dell'ordine in base alla domanda. I criteri sono destinati agli articoli dove il magazzino può essere accettato ma dovrebbe essere evitato.  
 
@@ -354,7 +354,7 @@ Poiché la quantità dell'ordine di approvvigionamento si basa sulla domanda eff
 * Aumenta l'ordine fino a una quantità minima specificata
 * Diminuisci la quantità fino alla quantità massima specificata (e crea due o più approvvigionamenti per raggiungere la quantità totale necessaria)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)  
 [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)  

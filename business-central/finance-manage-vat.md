@@ -11,7 +11,7 @@ ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
 ---
-# <a name="vat-management-overview"></a>Panoramica della gestione IVA
+# Panoramica della gestione IVA
 L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni e servizi. L'IVA viene riscossa in ogni fase della catena di approvvigionamento in cui il valore viene aggiunto dalla produzione iniziale al punto vendita. Per un'introduzione sulla gestione dell'IVA, vedi i seguenti argomenti.  
 
 |  Articolo  |  Descrizione  |  
@@ -29,7 +29,7 @@ L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni 
 | [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md) | Questo articolo descrive come usare la convalida di Business Central per i numeri di partita IVA per contatti, clienti e fornitori in base al servizio di convalida dei numeri di partita IVA (VIES) dell'Unione Europea.|
 
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 [Dati finanziari](finance.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

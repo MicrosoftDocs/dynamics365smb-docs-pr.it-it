@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-expected-cost-posting"></a>Dettagli di progettazione: Registrazione del costo previsto
+# Dettagli di progettazione: Registrazione del costo previsto
 I costi previsti rappresentano, ad esempio, la stima del costo di un articolo acquistato registrato prima di ricevere la fattura per l'articolo.  
 
  I costi previsti possono venire registrati sia nell'inventario sia nella contabilità generale. Quando si registra una quantità che è solo ricevuta o spedita ma non fatturata, viene creato un movimento di valorizzazione con il costo previsto. Questo costo previsto influisce sul valore di magazzino ma non viene registrato nella contabilità generale a meno che non si imposti il sistema appositamente.  
@@ -22,7 +22,7 @@ I costi previsti rappresentano, ad esempio, la stima del costo di un articolo ac
 
  Per supportare il lavoro di riconciliazione e di tracciabilità, il movimento di valorizzazione fatturato mostra l'importo del costo previsto che è stato registrato per bilanciare i conti provvisori.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Prerequisiti per la registrazione dei costi previsti
+## Prerequisiti per la registrazione dei costi previsti
 
 Per rendere possibile la registrazione dei costi previsti è necessario effettuare le seguenti operazioni:
 1. Nella pagina **Setup magazzino**, selezionare le caselle di controllo **Reg. automatica costi** e **Reg. costi previsti in CG**.
@@ -32,7 +32,7 @@ Per rendere possibile la registrazione dei costi previsti è necessario effettua
 3. Nella pagina **Setup registrazioni COGE**, verificare il campo **Conto ratei magaz. (provvis.)** per i valori **Cat. Reg. Business** e **Cat. reg. articolo/servizio** che verranno utilizzati.
 4. Quando si crea un ordine di acquisto, per impostazione predefinita il campo **Nr. fattura fornitore** è obbligatorio. È necessario deselezionarlo nella pagina **Setup contabilità fornitori** deselezionando il campo **Nr. doc. esterno obblig.**.
 
-## <a name="example"></a>Esempio
+## Esempio  
 
 > [!NOTE]  
 > I numeri di conto utilizzati in questo esempio sono solo di riferimento e saranno diversi nel sistema in uso. Impostarli come indicato nei prerequisiti sopra.
@@ -85,7 +85,7 @@ Si registra un ordine di acquisto come ricevuto. Il costo previsto è di VL 95,0
 |01-15-20|Conto costi diretti coll.|7291|-100|6|  
 |01-15-20|Conto giac. magazzino|2130|100|5|  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
  [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md)   
  [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md)   
