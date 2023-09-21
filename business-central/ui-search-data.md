@@ -12,14 +12,14 @@ ms.date: 09/20/2022
 ms.author: bholtorf
 ---
 
-# Cercare un record nei dati
+# <a name="search-for-a-record-in-your-data"></a>Cercare un record nei dati
 
 Quando vuoi trovare un record o un valore particolare, usa la funzionalità **Cerca dati** per cercarlo. Avvia una ricerca in Gestione ruolo utente nei seguenti modi:
 
 * Utilizza l'azione **Cerca dati**
 * Usa la combinazione di tasti di scelta rapida <kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>F</kbd>.
 
-## Come funziona la ricerca
+## <a name="how-search-works"></a>Come funziona la ricerca
 
 Dopo aver inserito le parole chiave, [!INCLUDE[prod_short](includes/prod_short.md)] avvia la ricerca in background e scorre ogni tabella una alla volta. I risultati della ricerca iniziano a comparire dopo aver terminato ogni tabella. 
 
@@ -32,11 +32,11 @@ Ogni volta che scegli un risultato di ricerca, aumenti la popolarità della tabe
 > [!NOTE]
 > Le intestazioni sui documenti di vendita, acquisto e servizio rappresentano in realtà diversi tipi di documenti, come preventivi, fatture e ordini. Le intestazioni vengono trattate come se fossero tabelle. Se la tua parola chiave è stata trovata in una riga di uno di questi documenti, quando scegli il risultato della ricerca viene visualizzata la pagina del documento e non solo la riga.
 
-## Introduzione
+## <a name="getting-started"></a>Introduzione
 
 Puoi velocizzare i risultati scegliendo i campi delle tabelle che vuoi includere nelle tue ricerche. Le tabelle e i campi tra cui puoi scegliere variano a seconda della Gestione ruolo utente. Per impostazione predefinita, vengono scelte tutte le tabelle e i campi, il che può rallentare la ricerca. Ti consigliamo di escludere quante più tabelle e campi possibile.
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md)  
 [Immissione di dati](ui-enter-data.md)  

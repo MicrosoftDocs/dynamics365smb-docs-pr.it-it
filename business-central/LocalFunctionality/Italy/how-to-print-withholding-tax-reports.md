@@ -11,11 +11,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# Stampare i report di ritenuta d'acconto nella versione italiana
+# <a name="print-withholding-tax-reports-in-the-italian-version"></a>Stampare i report di ritenuta d'acconto nella versione italiana
 
 Nel report **Ritenute** viene visualizzato un elenco delle ritenute dovute allo stato italiano.  
 
-## Per stampare un report delle ritenute  
+## <a name="to-print-a-withholding-tax-report"></a>Per stampare un report delle ritenute
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ritenute**, quindi scegli il collegamento correlato.  
 2. Nella Scheda dettaglio **Opzioni** compilare i campi come descritto nella tabella riportata di seguito.  
@@ -29,7 +29,7 @@ Nel report **Ritenute** viene visualizzato un elenco delle ritenute dovute allo 
 
 3. Scegliere il pulsante **Stampa** per stampare il report oppure scegliere il pulsante **Anteprima** per visualizzarlo sullo schermo.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Dichiarare l'IVA all'autorità fiscale](../../finance-how-report-vat.md)  
 

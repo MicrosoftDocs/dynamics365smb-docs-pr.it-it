@@ -7,17 +7,17 @@ ms.service: dynamics365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
-# Procedura dettagliata: Creare una nuova DBA di produzione e la versione DBA
+# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Procedura dettagliata: Creare una nuova DBA di produzione e la versione DBA
 
 In questo articolo vengono illustrati i passaggi per utilizzare i dati demo di Contoso Coffee per lavorare con le distinte base (DBA) nei processi di produzione.  
 
-## Scenario
+## <a name="scenario"></a>Scenario
 
 Contoso Coffee ha deciso di aggiungere un'altra caffettiera alla propria linea di prodotti: **SP-SCM1008 Airpot Lite**. Questa caffettiera è identica all'articolo esistente **SP-SCM1009 Airpot**, tranne per il fatto che non include la piastra riscaldante, **SP-BOM1104**. In un passaggio separato, la spia di accensione/spegnimento, **SP-BOM1106** viene rimossa per una versione della distinta base di Airpot Lite.
 
 Oscar, l'ingegnere di processo di Contoso Coffee, deve impostare una nuova distinta base di produzione per definire i requisiti dei componenti iniziali per Airpot Lite. Oscar deve quindi impostare una nuova versione della distinta base, con una data di inizio del 01 luglio, per allinearsi a ulteriori piani sul rilascio di un'altra edizione.
 
-## Passaggi
+## <a name="steps"></a>Passaggi
 
 1. Crea una nuova distinta base di produzione per Airpot Lite.
 
@@ -72,6 +72,6 @@ Oscar, l'ingegnere di processo di Contoso Coffee, deve impostare una nuova disti
 
 La nuova caffettiera è ora configurata come distinta base di produzione con una versione.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

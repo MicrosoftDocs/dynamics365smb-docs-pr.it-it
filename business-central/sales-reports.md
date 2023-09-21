@@ -8,14 +8,14 @@ ms.search.form: 'Report_107, Report_111, Report_112, Report_113, Report_119, Rep
 ms.date: 06/01/2021
 ms.author: bholtorf
 ---
-# Report delle vendite e analisi in Business Central
+# <a name="sales-reports-and-analytics-in-business-central"></a>Report delle vendite e analisi in Business Central
 
 Il report delle vendite in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti delle vendite e aziendali di ottenere approfondimenti e statistiche sulle attività di vendita attuali e passate.  
 
-## Report
+## <a name="reports"></a>Report
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Attività
+## <a name="tasks"></a>Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
@@ -23,7 +23,7 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 * [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
 
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
