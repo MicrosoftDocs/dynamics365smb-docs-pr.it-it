@@ -79,12 +79,10 @@ Conti bancari in [!INCLUDE[prod_short](includes/prod_short.md)] registrano le tr
    Il campo è diverso dal campo **Nr. conto bancario** disponibile anche nella Scheda dettaglio **Generale**.
 4. Compila i campi nella pagina **Scheda C/C bancari fornitori** secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
-
 ## Vedere anche
 
 [Impostare un piano dei conti](finance-setup-chart-accounts.md)  
-[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)  
+[Impostare i conti bancari](bank-how-setup-bank-accounts.md)  
 [Eseguire e stampare i report](ui-work-report.md)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
 

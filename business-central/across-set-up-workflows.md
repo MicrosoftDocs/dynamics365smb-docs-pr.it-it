@@ -42,11 +42,9 @@ Questo video mostra come impostare un workflow che chiede a un utente di richied
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
-
 ## Vedere anche
 
-[Utilizzare i workflow di approvazione](across-use-workflows.md)  
+[Usare workflow di approvazione](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Utilizzare Business Central](ui-work-product.md)

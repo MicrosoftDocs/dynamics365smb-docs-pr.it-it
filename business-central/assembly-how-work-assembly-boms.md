@@ -106,8 +106,6 @@ Il costo unitario di una DB di assemblaggio è sempre uguale al totale dei costi
 
 I costi degli articoli che compongono la DB di assemblaggio vengono copiate dalle schede articoli componenti. Il costo di ogni articolo viene moltiplicato per la quantità e il costo totale viene mostrato nel campo **Costo unitario** nella scheda articolo.
 
-## Vedi il relativo [training Microsoft](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
-
 ## Vedere anche
 
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  

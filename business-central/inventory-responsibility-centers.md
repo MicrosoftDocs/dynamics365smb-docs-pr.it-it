@@ -49,8 +49,6 @@ Per poter procedere a queste impostazioni è necessario assegnare i centri di re
 > [!NOTE]  
 > Gli utenti possono visualizzare solo i documenti registrati relativi al proprio centro di responsabilità. Tuttavia, possono visualizzare tutti i movimenti contabili e passare ad altri documenti registrati dai movimenti contabili.
 
-## Vedi il relativo [training Microsoft](/training/modules/set-up-responsibility-centers/)
-
 ## Vedere anche
 
 [Impostazione del magazzino](inventory-setup-inventory.md)  

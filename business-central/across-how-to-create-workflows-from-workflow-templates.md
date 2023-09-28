@@ -29,12 +29,10 @@ Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle r
    Verrà visualizzata la pagina **Workflow** per un nuovo workflow contenente tutte le informazioni del modello selezionato. Il valore nel campo **Codice** ad esempio con "-01" per indicare che questo è il primo workflow che viene creato dal modello di workflow.  
 4. Continuare la creazione del flusso di lavoro modificando i passaggi del flusso di lavoro o aggiungendone di nuovi. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).  
 
-## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
-
 ## Vedere anche
 
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
-[Importa ed esporta workflow di approvazione](across-how-to-export-and-import-workflows.md)  
+[Importare ed esportare workflow di approvazione](across-how-to-export-and-import-workflows.md)  
 [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)  
 [Eliminare i workflow di approvazione](across-how-to-delete-workflows.md)  
 [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  

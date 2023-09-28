@@ -45,8 +45,6 @@ ms.author: bholtorf
 
  Il layout del report personalizzato originale viene sostituito con il layout di report importato.  
 
-## Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Vedi anche
 
 [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   

@@ -31,8 +31,6 @@ Per ulteriori informazioni, leggi informazioni sull'estensione adatta alla tua a
 
 Se sei pronto per iniziare ora, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assistito**, quindi scegli il collegamento correlato. Scegliere **Migra dati aziendali**, quindi seguire i passaggi nella guida.
 
-## Vedi il relativo [training Microsoft](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  

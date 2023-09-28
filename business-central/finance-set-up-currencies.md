@@ -111,8 +111,6 @@ Non è possibile collegare codici valuta a conti di contabilità generale perch�
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Vedi il relativo [training Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  

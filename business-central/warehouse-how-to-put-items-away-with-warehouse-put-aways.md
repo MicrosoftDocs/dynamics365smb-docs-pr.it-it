@@ -3,7 +3,7 @@ title: Come stoccare articoli con gli stoccaggi warehouse
 description: Informazioni sui diversi modi per utilizzare gli stoccaggi warehouse per stoccare gli articoli ricevuti.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -111,8 +111,6 @@ Se un'ubicazione è impostata per l'elaborazione degli stoccaggi e dei carichi e
     > Se è necessario inserire gli articoli relativi a una riga in più collocazioni, ad esempio perché la collocazione designata è piena, utilizza l'azione **Dividi riga** della Scheda dettaglio **Righe**. L'azione crea una riga per la quantità rimanente da gestire.
 
 5. Una volta posizionati tutti gli articoli nelle collocazioni, come indicato nelle istruzioni, scegliere l'azione **Registra stoccaggio**.  
-
-## Vedi il relativo [training Microsoft](/training/modules/receive-put-away-items/)
 
 ## Vedere anche
 

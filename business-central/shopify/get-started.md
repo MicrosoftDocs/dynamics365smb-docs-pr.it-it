@@ -47,7 +47,7 @@ Per le istanze esistenti di [!INCLUDE[prod_short](../includes/prod_short.md)], q
 
 ## Collegamento di Business Central al negozio online Shopify
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") icona, immetti **Negozio Shopify**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") icona, immetti **Negozio Shopify**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Nuovo**.  
 3. Nel campo **Codice**, inserisci un codice che lo renderà facilmente reperibile in [!INCLUDE[prod_short](../includes/prod_short.md)]. Il nome potrebbe riflettere ciò che un negozio vende, ad esempio "Mobili" o "Caffè", oppure il paese o la regione in cui opera.
 4. Nel campo **URL Shopify**, immetti l'URL del punto vendita online a cui desideri connetterti. Usa il seguente formato: `https://{shop}.myshopify.com/`.
@@ -59,7 +59,9 @@ Ripeti i passaggi 2-6 per tutti i negozi online che si desidera collegare.
 ### Problemi noti
 
 - Il browser blocca la finestra pop-up. Quando attivi l'interruttore **Abilitato**, [!INCLUDE [prod_short](../includes/prod_short.md)] si apre nella pagina **In attesa di risposta - non chiudere questa pagina** mentre attende un token di accesso da Shopify. Se quella pagina è chiusa o bloccata, non puoi connetterti a Shopify. Ulteriori informazioni in [Richiedere il token di accesso](troubleshoot.md#request-the-access-token)
+- Potrebbe essere una buona idea avere Amministrazione Shopify aperto nello stesso browser di [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Errore Oauthinvalid_request: impossibile trovare l'API per l'applicazione Shopify con api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Errore: errore Oauth invalid_request: il tuo account non dispone dell'autorizzazione per concedere l'accesso richiesto per questa app.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Impossibile connettersi dalla sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Passaggi successivi
@@ -108,8 +110,6 @@ Se mantieni abilitata l'opzione **Consenti sincronizzazione dati a Shopify** le 
 
 *   Seleziona **Bozza** nel campo **Stato per creazione prodotto** per assicurarti che i prodotti esportati non siano disponibili per gli acquirenti. Puoi verificare l'aspetto dei prodotti nel negozio online, sincronizzare prezzi, opzioni e livelli delle scorte. Assicurati di utilizzare i filtri nella pagina **Aggiungi articolo a Shopify** per limitare il numero di articoli esportati.
 * Disattiva l'interruttore **Esporta cliente in Shopify** in modo da non inviare clienti a Shopify.
-
-## Vedi il relativo [training Microsoft](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## Vedere anche
 

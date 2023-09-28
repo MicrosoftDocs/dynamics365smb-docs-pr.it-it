@@ -68,14 +68,12 @@ Con la funzione abilitata, una transazione di reso può essere registrata solo s
 | Gestisci le interazioni commerciali con i tuoi fornitori, importa i documenti di fatturazione ricevuti e registra i nuovi fornitori utilizzando il client di posta elettronica di Outlook. | [Impostare il componente aggiuntivo Business Central per Outlook](admin-outlook.md) |
 | Esamina le ricevute di spesa, converti documenti cartacei ed elettronici in righe di giornale di registrazione e digitalizza le fatture cartacee dei fornitori. | [Impostare documenti in entrata](across-how-setup-income-documents.md) |
 | Specificare report predefiniti da utilizzare per diversi tipi di documenti. |[Selezione report in Business Central](across-report-selections.md)|
-|Specifica se gli utenti possono registrare le fatture di acquisto e se devono registrarle insieme a una spedizione. |[Definire un criterio di registrazione delle fatture per gli utenti](admin-setup-invoice-posting-policy.md)|
-
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+|Specifica se gli utenti possono registrare le fatture di acquisto e se devono registrarle insieme a una spedizione. |[Definire criteri di registrazione fattura per gli utenti](admin-setup-invoice-posting-policy.md)|
 
 ## Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Panoramica dell'impostazione](setup.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

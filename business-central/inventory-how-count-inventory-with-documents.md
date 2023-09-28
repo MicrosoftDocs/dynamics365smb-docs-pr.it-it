@@ -242,8 +242,6 @@ Puoi specificare i report che devono essere stampati in fasi diverse scegliendo 
 > [!NOTE]
 > I report disponibili possono variare in base alla localizzazione per il tuo paese/area geografica. L'applicazione di base non include alcun layout.
 
-## Vedi il relativo [training Microsoft](/training/modules/adjust-inventory/)
-
 ## Vedere anche
 
 [Conteggio, rettifica e riclassificazione dell'inventario utilizzando registrazioni](inventory-how-count-adjust-reclassify.md)  

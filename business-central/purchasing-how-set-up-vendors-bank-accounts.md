@@ -26,13 +26,11 @@ Se un fornitore ha uno o più conti bancari e desideri impostare un'opzione pref
 2. Apri la scheda per il fornitore.
 3. Sulla Scheda dettaglio **Pagamenti**, scegli il conto bancario del fornitore predefinito nel campo **Codice conto bancario preferito**.
 
-## Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
-[Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)  
+[Impostare i conti bancari](bank-how-setup-bank-accounts.md)  
 [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -27,8 +27,6 @@ Per aiutarti a far funzionare la tua azienda in [!INCLUDE[prod_short](includes/p
 
 Una volta completata la compilazione delle informazioni puoi chiudere la pagina.  
 
-## Vedi il relativo [training Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/)
-
 ## Vedere anche  
 
 [Panoramica delle informazioni sulla società](admin-company-information.md)  

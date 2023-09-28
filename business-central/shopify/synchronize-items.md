@@ -35,7 +35,7 @@ Un terzo scenario è gestire i dati in Shopify e importare gli articoli in blocc
 |**Da Shopify**| Scegli questa opzione se prevedi di importare prodotti da Shopify in blocco, manualmente con l'azione **Sincronizza prodotto** o la coda processi per gli aggiornamenti ricorrenti. Per ulteriori informazioni, vedi la sezione [Importare articoli da Shopify](synchronize-items.md#import-items-from-shopify)|
 
 > [!NOTE]
-> Modifica **Sincronizza articolo** da **Da Shopify** a **A Shopify** non ha effetto se non abiliti **Può aggiornare Prodotti Shopify**.
+> Modifica **Sincronizza articolo** da **Da Shopify** a **A Shopify** non ha effetto se non abiliti **Può aggiornare Prodotti Shopify**. 
 
 ## Importare articoli da Shopify
 
@@ -93,7 +93,7 @@ Puoi gestire il processo di esportazione degli articoli utilizzando queste impos
 |**Separatore campo SKU**|Definisci un separatore per l'opzione **Nr. articolo + Codice variante**.|
 |**Inventario tracciato**| Scegli come il sistema dovrebbe popolare il campo **Tieni traccia dell'inventario** per i prodotti esportati su Shopify. È possibile aggiornare le informazioni sulla disponibilità da [!INCLUDE[prod_short](../includes/prod_short.md)] per i prodotti in Shopify il cui inventario di traccia è abilitato. Ulteriori informazioni nella sezione [Inventario](synchronize-items.md#sync-inventory-to-shopify).|
 |**Criterio di inventario predefinito**|Scegli *Nega* per evitare stock negativo del lato Shopify.|
-|**Può aggiornare prodotti Shopify**|Definisci in questo campo se [!INCLUDE[prod_short](../includes/prod_short.md)] può solo creare articoli o anche aggiornarli. Seleziona questa opzione se, dopo la sincronizzazione iniziale attivata dall'azione **Aggiungi articolo**, prevedi di aggiornare i prodotti manualmente utilizzando l'azione **Sincronizza prodotto** o la coda processi per gli aggiornamenti ricorrenti. Ricordati di selezionare **A Shopify** nel campo **Sincronizzazione articoli**.<br>**Può aggiornare Prodotti Shopify** non ha impatto sulla sincronizzazione di prezzi, immagini o livelli di inventario, che sono configurati da controlli indipendenti.<br>Se **Può aggiornare Prodotti Shopify** è abilitato, i seguenti campi Shopify verranno aggiornati sul prodotto e se necessario a livello di variante: **SKU**, **Codice a barre**, **Peso**. **Titolo**, **Tipo di prodotto**, **Fornitore**, **Descrizione** sul prodotto verrà aggiornata se i valori esportati non sono vuoti. Per la descrizione, ciò significa che è necessario abilitare uno qualsiasi degli interruttori **Sincronizza testo esteso articolo**, **Sincronizza testo marketing articolo**, **Sincronizza attributi articolo** e gli attributi, il testo esteso o di marketing devono avere valori. Se il prodotto utilizza varianti, la variante verrà aggiunta o rimossa se necessario.|
+|**Può aggiornare prodotti Shopify**|Definisci in questo campo se [!INCLUDE[prod_short](../includes/prod_short.md)] può solo creare articoli o anche aggiornarli. Seleziona questa opzione se, dopo la sincronizzazione iniziale attivata dall'azione **Aggiungi articolo**, prevedi di aggiornare i prodotti manualmente utilizzando l'azione **Sincronizza prodotto** o la coda processi per gli aggiornamenti ricorrenti. Ricordati di selezionare **A Shopify** nel campo **Sincronizzazione articoli**.<br>**Può aggiornare Prodotti Shopify** non ha impatto sulla sincronizzazione di prezzi, immagini o livelli di inventario, che sono configurati da controlli indipendenti.<br>Se **Può aggiornare Prodotti Shopify** è abilitato, i seguenti campi Shopify verranno aggiornati sul prodotto e se necessario a livello di variante: **SKU**, **Codice a barre**, **Peso**. **Titolo**, **Tipo di prodotto**, **Fornitore**, **Descrizione** sul prodotto verrà aggiornata se i valori esportati non sono vuoti. Per la descrizione, ciò significa che è necessario abilitare uno qualsiasi degli interruttori **Sincronizza testo esteso articolo**, **Sincronizza testo marketing articolo**, **Sincronizza attributi articolo** e gli attributi, il testo esteso o di marketing devono avere valori. Se il prodotto utilizza varianti, la variante verrà aggiunta o rimossa se necessario. <br>Tieni presente che se il prodotto su Shopify è configurato per utilizzare una matrice di varianti che combina due o più opzioni, il connettore Shopify non può creare varianti per quel prodotto. In [!INCLUDE[prod_short](../includes/prod_short.md)] non c'è modo di definire la matrice delle opzioni, ecco perché il connettore utilizza il **Codice variante** come unica opzione. Tuttavia Shopify si aspetta diverse opzioni e si rifiuta di creare una variante se mancano informazioni sulla seconda e altre opzioni. |
 
 ### Panoramica mapping dei campi
 
@@ -101,6 +101,7 @@ Puoi gestire il processo di esportazione degli articoli utilizzando queste impos
 |------|-----------------|-----------------|
 |Stato|In base al campo **Stato per i prodotti creati** nella **Scheda punto vendita Shopify**. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
 |Titolo | **Descrizione**. Se il codice della lingua è definito ed esiste la traduzione dell'articolo corrispondente, verrà utilizzata la traduzione dell'articolo al posto della descrizione.|**Descrizione**|
+|Titolo variante | **Codice variante**.|**Descrizione** di variante|
 |Descrizione|Combina testi estesi, testi di marketing e attributi se abiliti le opzioni corrispondenti nella scheda punto vendita Shopify. Rispetta il codice lingua.|Non utilizzato.|
 |Titolo pagina SEO|Valore fisso: vuoto. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
 |Meta descrizione SEO|Valore fisso: vuoto. Per ulteriori informazioni, vedi la sezione [Aggiornamenti ad hoc di prodotti Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Non utilizzato.|
@@ -147,6 +148,10 @@ Gli articoli risultanti vengono creati automaticamente in Shopify con i prezzi. 
 In alternativa, utilizza l'azione **Sincronizza prodotti** sulla pagina **Prodotti Shopify** o cerca il processo batch **Sincronizzare prodotti**.
 
 È possibile pianificare l'attività da eseguire in modo automatizzato. Ulteriori informazioni su [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
+
+### URL e URL di anteprima
+
+L'elemento aggiunto a Shopify o importato da Shopify potrebbe avere l'**URL** o **URL di anteprima** popolato. Il campo **URL** sarà vuoto se il prodotto non è pubblicato nel punto vendita online, ad esempio perché il suo stato è bozza. L'**URL** sarà vuoto se il punto vendita è protetto da password, ad esempio perché si tratta di un punto vendita di sviluppo. Nella maggior parte dei casi puoi utilizzare l'**URL di anteprima** per verificare come verrà visualizzato il prodotto una volta pubblicato.
 
 ### Aggiornamenti ad hoc di prodotti Shopify
 
@@ -204,7 +209,7 @@ Puoi gestire il processo di esportazione dei prezzi utilizzando queste impostazi
 |**Consenti sconto riga**|Specifica se consentire lo sconto riga nel calcolo dei prezzi per Shopify. Questa impostazione si applica solo ai prezzi dell'articolo. I prezzi per il gruppo di prezzi cliente hanno propri interruttori sulle righe.|
 |**Prezzi IVA inclusa**|Specifica se i calcoli del prezzo per Shopify includono l'IVA. Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).|
 |**Cat. reg. business IVA**|Specifica la categoria registrazione business IVA che viene utilizzata per calcolare i prezzi in Shopify. Questo deve essere il gruppo che utilizzi per i clienti nazionali. Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).|
-|**Codice valuta**|Immetti un Codice valuta solo se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDEprod_short], lascia il campo vuoto.|
+|**Codice valuta**|Immetti un Codice valuta solo se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDE[prod_short](../includes/prod_short.md)], lascia il campo vuoto.|
 
 Puoi esportare i prezzi per gli articoli sincronizzati nei due modi descritti di seguito.
 

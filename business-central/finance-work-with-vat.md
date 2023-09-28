@@ -234,8 +234,6 @@ Per visualizzare un gruppo di certificati, si inizia dalla pagina **Certificati 
 > * Per creare manualmente un certificato di fornitura  
 > * Per stampare un certificato di fornitura.
 
-## Vedi il relativo [training Microsoft](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)  

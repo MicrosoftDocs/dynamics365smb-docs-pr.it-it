@@ -117,8 +117,6 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] comprende
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## Vedi il relativo [training Microsoft](/training/modules/use-approval-workflows/)
-
 ## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  

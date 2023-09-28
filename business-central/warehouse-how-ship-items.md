@@ -3,14 +3,14 @@ title: Spedire articoli
 description: Questo articolo descrive come spedire gli articoli dalla warehouse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
 
-# <a name="ship-items-with-a-warehouse-shipment"></a>Spedire gli articoli con una spedizione warehouse
+# Spedire gli articoli con una spedizione warehouse
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], il prelievo e la spedizione degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
@@ -37,7 +37,7 @@ Puoi creare una spedizione warehouse in uno di due modi:
 * In modalità push, quando il lavoro viene svolto ordine per ordine. Scegli l'azione **Crea spedizione warehouse** nel documento di origine per creare una spedizione warehouse per il documento.
 * In modalità pull, in cui si utilizza l'azione **Rilascia** nel documento di origine per rilasciarlo alla warehouse. Un dipendente della warehouse crea una **Spedizione warehouse** per uno o più documenti di origine rilasciati. La procedura seguente descrive come creare la spedizione warehouse nella modalità pull.
 
-## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>Per spedire gli articoli usando un documento spedizione warehouse
+## Per spedire gli articoli usando un documento spedizione warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Spedizioni warehouse**, quindi scegli il collegamento correlato.  
 2. Selezionare **Nuovo**.  
@@ -74,7 +74,7 @@ Puoi creare una spedizione warehouse in uno di due modi:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Come utilizzare i filtri per ottenere i documenti di origine
+## Come utilizzare i filtri per ottenere i documenti di origine
 
 Da una spedizione warehouse, è possibile utilizzare la pagina **Filtri per ottenere documenti origine** per recuperare le righe del documento di origine rilasciato che definiscono quali articoli spedire.
 
@@ -90,14 +90,14 @@ Tutte le righe del documento origine rilasciato che soddisfano i criteri di filt
 
 È possibile creare un numero indefinito di combinazioni di filtri. I filtri vengono salvati nella pagina **Filtri per ottenere documenti origine** e sono disponibili in momento successivo. È possibile modificare i criteri in qualsiasi momento scegliendo l'azione **Modifica**.
 
-## <a name="zone-and-bin-codes"></a>Codici zona e collocazione
+## Codici zona e collocazione
 
 Se le collocazioni sono obbligatorie nell'ubicazione, [!INCLUDE [prod_short](includes/prod_short.md)] suggerisce una zona e un codice collocazione sul documento di spedizione warehouse.
 
 * Per le configurazioni avanzate in cui un'ubicazione utilizza stoccaggio e prelievo diretti, [!INCLUDE [prod_short](includes/prod_short.md)] usa la collocazione specificata nel campo **Codice collocazione spedizione** nella **Scheda ubicazione**. Se il **Codice collocazione spedizione** non è specificato, il campo è vuoto. Se l'articolo e la collocazione spedizione non corrispondono, [!INCLUDE [prod_short](includes/prod_short.md)] lascia vuota la collocazione spedizione.
 * Negli altri casi, [!INCLUDE [prod_short](includes/prod_short.md)] utilizza sempre la collocazione specificata nel campo **Codice collocazione spedizione** nella **Scheda ubicazione**. Se non è specificato un codice collocazione spedizione, [!INCLUDE [prod_short](includes/prod_short.md)] utilizza il codice collocazione del documento di origine.
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Gestione di articoli da assemblare su ordine in spedizioni warehouse
+## Gestione di articoli da assemblare su ordine in spedizioni warehouse
 
 Negli scenari di assemblaggio su ordine, usa il campo **Qtà da spedire** sulle righe spedizione warehouse per registrare il numero di unità assemblate. La quantità viene registrata come output assemblaggio quando registri la spedizione warehouse. Per altre righe spedizione warehouse, il valore del campo **Qtà da spedire** è uguale a zero.
 
@@ -115,11 +115,9 @@ Dopo che la spedizione warehouse è stata registrata, i vari campi della riga or
 >
 > La quantità assemblaggio su ordine viene gestita come descritto in questo articolo. La quantità di magazzino viene gestita come una normale riga di spedizione warehouse. Per informazioni sugli scenari di combinazione, vedi [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## Vedere anche
 
-## <a name="see-also"></a>Vedere anche
-
-[Magazzino](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)

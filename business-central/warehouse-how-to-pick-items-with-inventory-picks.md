@@ -3,7 +3,7 @@ title: Come prelevare articoli con prelievi magazzino
 description: Informazioni su come utilizzare i prelievi di magazzino per registrare e contabilizzare le informazioni di prelievo e spedizione per i documenti di origine.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -119,8 +119,6 @@ Negli scenari in cui una parte della quantità è assemblata e un'altra deve ess
 
 > [!NOTE]  
 > Se gli articoli vengono assemblati su ordinazione, il prelievo di magazzino per l'ordine di vendita collegato crea un movimento di magazzino per tutti i componenti di assemblaggio.  
-
-## Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
 
 ## Vedere anche
 

@@ -22,14 +22,12 @@ La contabilità industriale viene utilizzata per comprendere i costi operativi d
 |Trasferire movimenti C/G a movimenti di costi.|[Trasferimento e registrazione di movimenti di costi](finance-transfer-and-post-cost-entries.md)|  
 |Assegna costi.|[Definizione e allocazione dei costi](finance-define-and-allocate-costs.md)|  
 |Informazioni sui processi per creare budget costi.|[Creazione di budget di costi](finance-create-cost-budgets.md)|
-|Annullare movimenti budget costi dal registro budget costi.|[Eliminare movimenti budget costi](finance-how-to-delete-cost-budget-entries.md)|
-
-## Vedi il relativo [training Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+|Annullare movimenti budget costi dal registro budget costi.|[Eliminazione di movimenti budget costi](finance-how-to-delete-cost-budget-entries.md)|
 
 ## Vedi anche  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

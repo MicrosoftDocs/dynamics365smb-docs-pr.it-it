@@ -49,12 +49,10 @@ Ad esempio, è possibile impostare che l'utente 2, l'utente responsabile dell'ap
 
   Per i workflow di approvazione, aggiungere un passaggio di risposta del workflow per notificare al mittente quando la richiesta è stata approvata o rifiutata. Scopri di più dal passaggio 9 nella sezione [Creare workflow](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
-
 ## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
-[Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)  
+[Impostare gli utenti del flusso di lavoro](across-how-to-set-up-workflow-users.md)  
 [Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md)  
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
 [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)  

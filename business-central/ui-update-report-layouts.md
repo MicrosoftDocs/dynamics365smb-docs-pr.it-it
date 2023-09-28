@@ -58,8 +58,6 @@ Se non si verifica alcun errore, l'aggiornamento viene applicato ai layout di re
 
 Dopo avere modificato il layout, provare ad aggiornare nuovamente il layout.  
 
-## Vedi il relativo [training Microsoft](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Vedi anche  
  [Gestione dei layout di report](ui-manage-report-layouts.md)  
  [Utilizzare report, processi batch e XMLport](ui-work-report.md)  

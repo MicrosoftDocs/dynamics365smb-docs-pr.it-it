@@ -4,14 +4,14 @@ description: Elenco completo dei tasti di scelta rapida per utilizzare in modo e
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/15/2023
+ms.date: 09/07/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
+# Tasti di scelta rapida
 
 In questo articolo viene fornita una panoramica di alcuni tasti di scelta rapida che è possibile utilizzare con [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -21,7 +21,7 @@ Per una panoramica dei tasti di scelta rapida più utilizzati, vedere [Tasti di 
 > Per una visualizzazione grafica dei tasti di scelta rapida più utilizzati, vedere l'immagine seguente e scaricare il file PDF.  
 > [ ![Icona per il file PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icona che apre un PDF")
 
-## <a name="overview"></a>Sintesi
+## Sintesi
 
 I tasti di scelta rapida agevolano l'accessibilità e rendono più semplice ed efficace la navigazione in differenti aree ed elementi in una pagina. I tasti di scelta rapida sono supportati dalla maggior parte dei browser Web, tuttavia, il comportamento può variare leggermente.
 
@@ -33,7 +33,7 @@ Molti dei tasti di scelta rapida sono uguali indipendentemente dal sistema opera
 > [!NOTE]
 > Oltre alle scelte rapide da tastiera globali descritte in questo articolo, sono disponibili una serie di scelte rapide specifiche per l'azienda. Ad esempio, nella versione generica di [!INCLUDE[prod_short](includes/prod_short.md)], <kbd>F9</kbd> registra un documento e <kbd>CTRL</kbd>+<kbd>F7</kbd> mostra i movimenti contabili per un record quando si apre il record in una scheda. Questo articolo include alcune delle scelte rapide più comuni specifiche per l'azienda, che sono mostrate in corsivo. Tieni presente che le scelte rapide effettive potrebbero essere diverse nella tua soluzione. Nell'interfaccia utente, la scelta rapida da tastiera è mostrata nella descrizione comando per l'azione in questione.
 
-## <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a>Tasti di scelta rapida generali
+##  <a name="Keyboard"></a> Tasti di scelta rapida generali
 
 La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'accesso a diversi elementi di una pagina. Gli elementi includono azioni, elenchi a discesa, ricerche e altro. Per informazioni dettagliate sui tasti di scelta rapida per la navigazione nei record dopo l'accesso a un elenco, vedere la sezione successiva.
 
@@ -67,14 +67,14 @@ La tabella seguente descrive i tasti di scelta rapida per la navigazione e l'acc
 |<kbd>MAIUSC</kbd>+<kbd>Tab</kbd>|Spostare lo stato attivo sul controllo o sull'elemento precedente in una pagina, ad esempio azioni, pulsanti, campi o intestazioni di elenchi.|
 |<kbd>S</kbd> e <kbd>N</kbd>|Attivare i pulsanti **Sì** e **No** nelle finestre di dialogo. I tasti effettivi variano in base alla lingua corrente specificata in **Impostazioni personali**. Ad esempio, premi <kbd>J</kbd> per attivare il pulsante **Ja** quando si utilizza la lingua tedesca.|
 
-## <a name="keyboard-shortcuts-in-lists"></a>Tasti di scelta rapida negli elenchi
+## Tasti di scelta rapida negli elenchi
 
 Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile utilizzare in una pagina elenco. L'azione di scelta rapida è leggermente diversa a seconda se la pagina viene visualizzata nella visualizzazione elenco o nella visualizzazione riquadri.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### <a name="general"></a>Generale
+### Generale
 
 |Premi questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco|Per effettuare questa operazione in una visualizzazione riquadri |
 |--------------------------------|-------------------------|--------------------------|
@@ -85,12 +85,12 @@ Nella tabella seguente sono descritti i tasti di scelta rapida che è possibile 
 |<kbd>Alt</kbd>+<kbd>D</kbd>|Apri le voci del set di dimensioni.|Stessa operazione.|
 |<kbd>CTRL</kbd>+<kbd>F7</kbd>|Apri voci contabili, voci di registro, voci di costo e così via.|
 |<kbd>CTRL</kbd>+<kbd>F9</kbd>|Rilascia il documento.|Stessa operazione.|
-|*<kbd>F7</kbd>*|Apri le statistiche.|Stessa operazione.|
-|*<kbd>F9</kbd>*|Invia, emetti, registra o inverti il documento.|Stessa operazione.|
-|*<kbd>MAIUSC</kbd>+<kbd>CTRL</kbd>+<kbd>F</kbd>*|Invia le righe suggerite nella pagina dei fogli di lavoro del flusso di cassa.|Non applicabile.|
-|*<kbd>MAIUSC</kbd>+<kbd>CTRL</kbd>+<kbd>I</kbd>*|Visualizza i numeri di serie e di lotto assegnati alla voce nel documento o nel giornale di registrazione.|Non applicabile.|
+|<kbd>F7</kbd>|Apri le statistiche.|Stessa operazione.|
+|<kbd>F9</kbd>|Invia, emetti, registra o inverti il documento.|Stessa operazione.|
+|<kbd>MAIUSC</kbd>+<kbd>CTRL</kbd>+<kbd>F</kbd>|Invia le righe suggerite nella pagina **Prospetto flusso di cassa**|Non applicabile.|
+|<kbd>MAIUSC</kbd>+<kbd>CTRL</kbd>+<kbd>I</kbd>|Visualizza i numeri di serie e di lotto assegnati alla voce nel documento o nel giornale di registrazione.|Non applicabile.|
 
-### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Spostarsi tra righe e colonne
+### <a name="navigateshortcuts"></a> Spostarsi tra le righe e le colonne
 
 Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio pagine di elenco e parti **Righe** sui documenti. Lo spostamento da una cella all'altra attraverso una griglia è completamente abilitato per la tastiera.
 
@@ -103,33 +103,33 @@ Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE
 | <kbd>Immettere</kbd> | Aprire il record associato al campo.<br /><br />Applicabile solo se una pagina schede è associata al record. | Apre il record.<br /><br />Applicabile solo se una pagina schede è associata al record. |
 | <kbd>CTRL</kbd>+<kbd>INVIO</kbd> | Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco. | Spostare lo stato attivo all'elemento successivo al di fuori dell'elenco. |
 | <kbd>Pagina su</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Freccia SU</kbd>) | Scorrere per visualizzare il set di righe sopra le righe correnti nella visualizzazione. | Scorre per visualizzare i riquadri del set sopra i riquadri correnti nella visualizzazione. |
-| <kbd>Pagina giù</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Freccia SU</kbd>) | Scorrere per visualizzare il set di righe sotto le righe correnti nella visualizzazione. | Scorrere per visualizzare il set di riquadri sotto i riquadri correnti nella visualizzazione. |
-| <kbd>Freccia su</kbd> | Spostare il cursore nella stessa colonna sul campo nella riga sotto. | Spostare il cursore nella stessa colonna sul riquadro nella riga sotto. |
+| <kbd>Pagina giù</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Freccia GIÙ</kbd>) | Scorrere per visualizzare il set di righe sotto le righe correnti nella visualizzazione. | Scorrere per visualizzare il set di riquadri sotto i riquadri correnti nella visualizzazione. |
+| <kbd>Freccia GIÙ</kbd> | Spostare il cursore nella stessa colonna sul campo nella riga sotto. | Spostare il cursore nella stessa colonna sul riquadro nella riga sotto. |
 | <kbd>Freccia su</kbd> | Spostare il cursore nella stessa colonna sul campo nella riga sopra. | Spostare il cursore nella stessa colonna sul riquadro nella riga sopra. |
 | <kbd>Freccia destra</kbd> | In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo successivo a destra.<br /><br />In un elenco modificabile, spostarsi a destra all'interno del campo corrente. | Spostare il cursore nella stessa riga sul riquadro successivo a destra. |
 | <kbd>Freccia sinistra</kbd> | In un elenco di sola visualizzazione, spostare il cursore nella stessa riga sul campo precedente a sinistra. <br /><br />In un elenco modificabile, spostarsi a sinistra all'interno del campo corrente. | Spostare il cursore nella stessa riga sul riquadro precedente a sinistra. |
 | <kbd>TAB</kbd> | In un elenco modificabile, spostare il cursore nella stessa riga sul campo successivo a destra. | Non applicabile. | 
 | <kbd>MAIUSC</kbd>+<kbd>Tab</kbd> | In un elenco modificabile, spostare il cursore nella stessa riga sul campo precedente a sinistra. | Non applicabile. |
 
-### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Selezionare, copiare e incollare
+### <a name="CopyRows"></a>Seleziona, Copia e Incolla
 
 |Premi questi tasti<br />(in macOS)|Per effettuare questa operazione in una visualizzazione elenco |Per effettuare questa operazione in una visualizzazione riquadri |
 |--------------------------------|--------------------------|--------------------------|
 |<kbd>CTRL</kbd>+clic<br /><br />(<kbd>Cmd</kbd>+clic)|Estendere la selezione delle righe per includere la riga su cui si fa clic.|Non applicabile.|
-|<kbd>MAIUSC</kbd>+clic|Estendere la selezione delle righe per includere la riga su cui si fa clic e tutte le righe precedenti.<br /><br />È possibile utilizzare questa scelta rapida dopo avere usato <kbd>CTRL</kbd>+<kbd>freccia SU</kbd> o <kbd>CTRL</kbd>freccia GIÙ per estendere la selezione.|Non applicabile.|
+|<kbd>MAIUSC</kbd>+clic|Estendere la selezione delle righe per includere la riga su cui si fa clic e tutte le righe precedenti.<br /><br />È possibile utilizzare questa scelta rapida dopo avere usato <kbd>CTRL</kbd>+<kbd>freccia SU</kbd> o <kbd>CTRL</kbd>+<kbd>freccia GIÙ</kbd> per estendere la selezione.|Non applicabile.|
 |<kbd>CTRL</kbd>+<kbd>Freccia SU</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>Cmd</kbd>+<kbd>Freccia SU</kbd>)|Spostare lo stato attivo sulla riga sopra e mantenere la riga corrente selezionata.|Non applicabile.|
-|<kbd>CTRL</kbd>+<kbd>Freccia SU</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>Cmd</kbd>+<kbd>Freccia SU</kbd>)|Spostare lo stato attivo sulla riga sotto e mantenere la riga corrente selezionata.|Non applicabile.|
-|<kbd>CTRL</kbd>+<kbd>BARRA SPAZIATRICE</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>Cmd</kbd>+BARRA SPAZIATRICE)|Estendere la selezione delle righe per includere la riga attiva.<br /><br />È possibile utilizzare questa scelta rapida dopo avere usato <kbd>CTRL</kbd>+<kbd>freccia SU</kbd> o <kbd>CTRL</kbd>+<kbd>freccia GIÙ</kbd> per estendere la selezione.|Non applicabile.|
+|<kbd>CTRL</kbd>+<kbd>Freccia GIÙ</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>Cmd</kbd>+<kbd>Freccia GIÙ</kbd>)|Spostare lo stato attivo sulla riga sotto e mantenere la riga corrente selezionata.|Non applicabile.|
+|<kbd>CTRL</kbd>+<kbd>BARRA SPAZIATRICE</kbd><br /><br />(<kbd>CTRL</kbd>+<kbd>Cmd</kbd>+BARRA SPAZIATRICE)|Estendere la selezione delle righe per includere la riga attiva.<br /><br />È possibile utilizzare questa scelta rapida dopo avere usato <kbd>CTRL</kbd>+<kbd>freccia SU</kbd> o <kbd>CTRL</kbd>+<kbd>Freccia GIÙ</kbd> per estendere la selezione.|Non applicabile.|
 |<kbd>CTRL</kbd>+<kbd>A</kbd>|Selezionare tutte le righe.|Non applicabile.|
 |<kbd>CTRL</kbd>+<kbd>C</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>C</kbd>)|Copiare le righe selezionate negli Appunti.|Sì, ma solo per una singolo riquadro selezionato.|
 |<kbd>CTRL</kbd>+<kbd>V</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>V</kbd>)|Incolla le righe selezionate dagli Appunti nella pagina corrente o in un documento esterno, come Microsoft Excel o Outlook. Questo è possibile solo in elenchi modificabili.|Non applicabile.|
 |<kbd>MAIUSC</kbd>+<kbd>Freccia SU</kbd>|Estendere la selezione delle righe per includere la riga sopra.|Non applicabile.|
-|<kbd>MAIUSC</kbd>+<kbd>Freccia SU</kbd>|Estendere la selezione delle righe per includere la riga sotto.|Non applicabile.|
+|<kbd>MAIUSC</kbd>+<kbd>Freccia GIÙ</kbd>|Estendere la selezione delle righe per includere la riga sotto.|Non applicabile.|
 |<kbd>MAIUSC</kbd>+<kbd>PGSU</kbd><br /><br />(<kbd>MAIUSC</kbd>+<kbd>Fn</kbd>+<kbd>Freccia SU</kbd>)|Estendere la selezione per includere tutte le righe visibili sopra la selezione di righe corrente.|Non applicabile.|
-|<kbd>MAIUSC</kbd>+<kbd>PGGIÙ</kbd><br /><br />(<kbd>MAIUSC</kbd>+<kbd>Fn</kbd>+<kbd>Freccia SU</kbd>)|Estendere la selezione per includere tutte le righe visibili sotto la selezione di righe corrente.|Non applicabile.|
+|<kbd>MAIUSC</kbd>+<kbd>PGGIÙ</kbd><br /><br />(<kbd>MAIUSC</kbd>+<kbd>Fn</kbd>+<kbd>Freccia GIÙ</kbd>)|Estendere la selezione per includere tutte le righe visibili sotto la selezione di righe corrente.|Non applicabile.|
 |<kbd>F8</kbd>|Copiare il campo nella stessa colonna della riga precedente e lo incolla nella riga corrente. Questo è possibile solo in elenchi modificabili. L'utilizzo di questo tasto seguito dal tasto <kbd>Tab</kbd> consente di compilare rapidamente i campi delle voci per cui si desidera avere lo stesso valore della riga precedente.|Non applicabile.|
 
-### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Cercare e filtrare elenchi
+### <a name="KeyboardFilter"></a>Cercare e filtrare elenchi
 
 |Premi questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
@@ -141,7 +141,7 @@ Griglie contenenti righe e colonne esistono in molti tipi di pagina in [!INCLUDE
 |<kbd>CTRL</kbd>+<kbd>MAIUSC</kbd>+<kbd>ALT</kbd>+<kbd>F3</kbd>|Reimpostare i filtri. Ciò equivale a scegliere **Reimposta filtri** nel riquadro dei filtri e si applica ai filtri di campi e totali.<br /><br /> I filtri tornano ai filtri predefiniti per la vista corrente. Se la visualizzazione corrente è **Tutto**, equivale a tornare a una visualizzazione non filtrata con tutti i record. |
 |<kbd>CTRL</kbd>+<kbd>INVIO</kbd>|Spostare di nuovo lo stato attivo dal riquadro filtri all'elenco.|
 
-## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Tasti di scelta rapida in schede e documenti
+## Tasti di scelta rapida in schede e documenti
 
 I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cliente**) e nelle pagine documento (come **Ordine vendita**) per visualizzare e modificare i record.
 
@@ -155,7 +155,7 @@ I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cli
 |<kbd>Alt</kbd>+<kbd>MAIUSC</kbd>+<kbd>N</kbd> |Chiudere una pagina e aprirne una nuova per creare un nuovo record; equivale a selezionare l'azione **OK e nuovo**. |
 |<kbd>Alt</kbd>+<kbd>MAIUSC</kbd>+<kbd>W</kbd> |Aprire la scheda o il documento corrente in una nuova finestra. Per ulteriori informazioni, vedere [Multitasking in più pagine ](ui-enter-data.md#multitasking-across-multiple-pages).|
 |<kbd>CTRL</kbd>+<kbd>INVIO</kbd>|Salvare e chiudere la pagina.|
-|<kbd>CTRL</kbd>+<kbd>Freccia SU</kbd>|Aprire il record successivo per un'entità.|
+|<kbd>CTRL</kbd>+<kbd>Freccia GIÙ</kbd>|Aprire il record successivo per un'entità.|
 |<kbd>CTRL</kbd>+<kbd>Freccia SU</kbd> |Aprire il record precedente per un'entità.|
 |<kbd>CTRL</kbd>+<kbd>Ins</kbd> |Inserire una nuova riga in documenti.|
 |<kbd>CTRL</kbd>+<kbd>CANC</kbd> |Eliminare la riga in documenti, giornali e fogli di lavoro.|
@@ -163,13 +163,14 @@ I tasti di scelta rapida sono disponibili nelle pagine scheda (come **Scheda cli
 |<kbd>CTRL</kbd>+<kbd>F9</kbd>|Rilascia il documento.|
 |<kbd>CTRL</kbd>+<kbd>MAIUSC</kbd>+<kbd>F12</kbd> |Ingrandire la parte Voci in una pagina del documento. Premi di nuovo i tasti per tornare alla visualizzazione normale. Per ulteriori informazioni, vedere [Spostare lo stato attivo su Voci](ui-enter-data.md#Focus).|
 |<kbd>F6</kbd>|Sposta il cursore alla Scheda<kbd>dettaglio</kbd> o alla parte successiva (pagina secondaria).|
-|*<kbd>F7</kbd>*|Apri le statistiche.|
-|*<kbd>F9</kbd>*|Invia, emetti, registra o inverti il documento.|
-|*<kbd>MAIUSC</kbd>+<kbd>CTRL</kbd>+<kbd>F9</kbd>*|Invia, stampa e conserva la ricevuta di magazzino.|
+|<kbd>F7</kbd>|Apri le statistiche.|
+|<kbd>F9</kbd>|Invia, emetti, registra o inverti il documento.|
+|<kbd>MAIUSC</kbd>+<kbd>CTRL</kbd>+<kbd>F9</kbd>|Invia, stampa e conserva la ricevuta di magazzino.|
 |<kbd>MAIUSC</kbd>+<kbd>F6</kbd>|Spostarsi sulla parte o Scheda<kbd>dettaglio</kbd> precedente (pagina secondaria).|
-|*<kbd>MAIUSC</kbd>+<kbd>F9</kbd>*|Registra e stampa un documento.|
+|<kbd>MAIUSC</kbd>+<kbd>F9</kbd>|Registra e stampa un documento.|
+|<kbd>MAIUSC</kbd>+<kbd>F11</kbd>|Applica i movimenti, ottiene i documenti di origine o ottiene i documenti warehouse.|
 
-## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Scelte rapide di Accesso rapido per campi
+## <a name="QuickEntry"></a>Scelte rapide di Immissione rapida per campi
 
 I tasti di scelta rapida seguenti sono relativi alla funzionalità Accesso rapido in carte, documenti e pagine elenco. Negli elenchi, i tasti di scelta rapida non possono essere utilizzati quando l'elenco è nella visualizzazione riquadri. Per ulteriori informazioni su Accesso rapido, vedere [Accelerare l'immissione di dati utilizzando Accesso rapido](ui-enter-data.md#QuickEntry).
 
@@ -179,7 +180,7 @@ I tasti di scelta rapida seguenti sono relativi alla funzionalità Accesso rapid
 |<kbd>MAIUSC</kbd>+<kbd>INVIO</kbd>|Confermare il valore nel campo corrente e passare al campo Accesso rapido precedente.||
 |<kbd>CTRL</kbd>+<kbd>MAIUSC</kbd>+<kbd>Invio</kbd>|Confermare il valore nella colonna corrente e passare al campo Accesso rapido successivo al di fuori dell'elenco.<br /><br />Questa combinazione di tasti di scelta rapida si applica agli elenchi incorporati in una pagina, ad esempio voci in un ordine di vendita. Consente di uscire rapidamente dall'elenco e di continuare a immettere dati in altri campi nella pagina.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a>Tasti di scelta rapida nel calendario (selezione data)
+## <a name="calendarshortcuts"></a> Tasti di scelta rapida nel calendario (selezione data)
 
 Quando si imposta un campo data, è possibile inserire la data manualmente o aprire un calendario (selezione data) che consente di selezionare la data desiderata. Nella tabella seguente sono descritti i tasti di scelta rapida nel calendario.
 
@@ -190,35 +191,35 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |<kbd>CTRL</kbd>+<kbd>Freccia SINISTRA</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Freccia SINISTRA</kbd>)|Sposta il cursore al giorno precedente.|
 |<kbd>CTRL</kbd>+<kbd>Freccia DESTRA</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Freccia DESTRA</kbd>)|Spostare il cursore al giorno successivo.|
 |<kbd>CTRL</kbd>+<kbd>Freccia SU</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Freccia SU</kbd>)|Spostare il cursore alla settimana precedente, lo stesso giorno della settimana.|
-|<kbd>CTRL</kbd>+<kbd>Freccia SU</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Freccia SU</kbd>)|Spostare il cursore alla settimana successiva, lo stesso giorno della settimana.|
+|<kbd>CTRL</kbd>+<kbd>Freccia GIÙ</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Freccia GIÙ</kbd>)|Spostare il cursore alla settimana successiva, lo stesso giorno della settimana.|
 |<kbd>Immettere</kbd>|Selezionare la data attiva.|
 |<kbd>CTRL</kbd>+<kbd>Fine</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Fine</kbd>)|Chiudere il calendario ed eliminare la data corrente.|
 |<kbd>ESC</kbd>|Chiudere il calendario senza una selezione, mantenere la data corrente.|
 |<kbd>Pagina giù</kbd>|Spostare il cursore al mese successivo.|
 |<kbd>Pagina su</kbd>|Spostare il cursore al mese precedente.|  
 
-## <a name="keyboard-shortcuts-in-date-fields"></a>Tasti di scelta rapida nei campi Data
+## Tasti di scelta rapida nei campi Data
 
 |Premi questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
 |<kbd>o</kbd>|Immettere la data corrente. "T" sta per "oggi".|
 |<kbd>w</kbd>|Immettere la data del lavoro. Per ulteriori informazioni, vedere [Data del lavoro](ui-change-basic-settings.md#work-date).|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Tasti di scelta rapida nell'anteprima report
+## <a name="reportpreviewshortcuts"></a>Tasti di scelta rapida nell'anteprima report
 
 |Premi questi tasti<br />(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
-|<kbd>Freccia su</kbd>|Scorrere la pagina verso il basso.|  
+|<kbd>Freccia GIÙ</kbd>|Scorrere la pagina verso il basso.|  
 |<kbd>Freccia su</kbd>|Scorrere la pagina verso l'alto.|
 |<kbd>CTRL</kbd>+<kbd>0</kbd> (zero)<br /><br />(<kbd>Cmd</kbd>+<kbd>0</kbd>)|Adattare l'intera pagina alla finestra. |
 |<kbd>CTRL</kbd>+<kbd>Home</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Passare alla prima pagina del report.|
-|<kbd>CTRL</kbd>+<kbd>Fine</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Passare all'ultima pagina del report.|
+|<kbd>CTRL</kbd>+<kbd>Fine</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Fine</kbd>)|Passare all'ultima pagina del report.|
 |<kbd><kbd>Freccia sinistra</kbd></kbd>|Scorrere la pagina verso sinistra quando è ingrandita e non è quindi interamente visibile. |
 |<kbd>Freccia destra</kbd>|Scorrere la pagina verso destra quando è ingrandita e non è quindi interamente visibile. |
-|<kbd>Pagina giù</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Freccia SU</kbd>)|Passare alla pagina successiva del report.|
+|<kbd>Pagina giù</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Freccia GIÙ</kbd>)|Passare alla pagina successiva del report.|
 |<kbd>Pagina su</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Freccia SU</kbd>)|Passare alla pagina precedente del report.|
 
-## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Tasti di scelta rapida per ingrandire e ridurre
+## <a name="zoomshortcuts"></a>Tasti di scelta rapida per ingrandire e ridurre
 
 |Premi questi tasti|Operazione da eseguire|
 |--------------------------------|----------|
@@ -226,28 +227,28 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |<kbd>CTRL</kbd>+<kbd>-</kbd>|Ridurre la pagina corrente.|  
 |<kbd>CTRL</kbd>+<kbd>0</kbd>|Ingrandire o ridurre del 100% la pagina corrente.|  
 
-## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Tasti di scelta rapida per Esplora ruoli
+## <a name="roleexplorer"></a>Tasti di scelta rapida per Esplora ruoli
 
 Esplora ruoli offre una panoramica e l'accesso rapido a tutte le funzionalità aziendali disponibili per un specifico ruolo. Per ulteriori informazioni, vedere [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).
 
-|Premi questi tasti<br />(in macOS)|Operazione da eseguire|
+|Premi questi tasti<br/>(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
 |<kbd>MAIUSC</kbd>+<kbd>F12</kbd>|Aprire Esplora ruoli.|
 |<kbd>F3</kbd>|Aprire la casella **Trova** in Esplora ruoli per trovare funzioni in base a una parola o un termine di ricerca specifico.|
-|<kbd>F3</kbd> o <kbd>CTRL</kbd>+<kbd>Freccia SU</kbd>|Spostare lo stato attivo sulla successiva funzionalità trovata in Esplora ruoli. <kbd>F3</kbd> sposterà lo stato attivo sulla casella **Trova** dopo l'ultima funzionalità trovata.|
+|<kbd>MAIUSC</kbd> <kbd>F3</kbd> o <kbd>CTRL</kbd>+<kbd>Freccia GIÙ</kbd>|Spostare lo stato attivo sulla successiva funzionalità trovata in Esplora ruoli. <kbd>F3</kbd> sposterà lo stato attivo sulla casella **Trova** dopo l'ultima funzionalità trovata.|
 |<kbd>MAIUSC</kbd> <kbd>F3</kbd> or <kbd>CTRL</kbd>+<kbd>Freccia SU</kbd>|Spostare lo stato attivo sulla precedente funzionalità trovata in Esplora ruoli.|
 |<kbd>CTRL</kbd>+<kbd>MAIUSC</kbd>|Espandere o comprimere tutti i nodi secondari, oltre ai nodi di livello principale, quando si sceglie l'azione **Espandi** o **Comprimi**.|
 
-## <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a>Tasti di scelta rapida della tastierna numerica
+##  <a name="keypad"></a> Tasti di scelta rapida della tastierna numerica
 
 Nella tabella seguente sono descritti i tasti di scelta rapida della tastierina numerica.
 
-|Premi questi tasti<br />(in macOS)|Operazione da eseguire|
+|Premi questi tasti<br/>(in macOS)|Operazione da eseguire|
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Separatore decimale</kbd>|Cambia l'output del tasto separatore decimale sul punto (.) o sul carattere determinato dall'impostazione **Area geografica** della pagina **Impostazioni personali**. Per ulteriori informazioni, vedi [Impostazione del separatore decimale usato dalle tastiere numeriche](ui-enter-data.md#decimal).|
 
 
-## <a name="access-keys-for-action-bar-and-navigation-menu"></a>Tasti di accesso per la barra delle azioni e il menu di navigazione
+## Tasti di accesso per la barra delle azioni e il menu di navigazione
 
 I tasti di accesso sono tasti di scelta rapida che selezionano azioni specifiche sulla barra delle azioni e sul menu di navigazione, consentendoti di navigare tra le azioni per arrivare alla pagina desiderata. I tasti di accesso sono disponibili nel client Web di Business Central e sono simili ai tasti di accesso in Excel e Word Online.  
 
@@ -259,7 +260,7 @@ Per selezionare un'azione, seleziona la combinazione di tasti visualizzata nella
 - Se l'azione si apre in un sottomenu di altre azioni, vengono mostrati i suggerimenti dei tasti per il sottomenu, consentendoti di continuare a utilizzare i tasti di accesso se lo desideri.
 - Se l'azione apre una pagina diversa, i suggerimenti dei tasti sono disattivati. Per mostrarli di nuovo, seleziona il tasto <kbd>Alt</kbd>. 
  
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Riferimento rapido per tasti di scelta rapida - Solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Funzionalità di accessibilità](ui-accessibility.md)  

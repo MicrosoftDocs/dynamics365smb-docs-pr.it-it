@@ -26,8 +26,6 @@ Utilizzare le seguenti pagine per creare e analizzare i budget costi. Scegli l'i
 |Visualizzare i registri budget costi e i movimenti di budget costi.|Pagina **Registri budget costi**|  
 |Stampare i confronti del budget costi utilizzando vari report.|Report **Saldo/Budget contabilità industriale**<br /><br /> Report **Estratto conto/Budget di contabilità industriale**<br /><br /> Report **Budget costi per centro di costo**<br /><br /> Report **Budget costi per oggetto di costo**|  
 
-## Vedi il relativo [training Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  

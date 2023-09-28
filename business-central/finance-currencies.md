@@ -29,8 +29,6 @@ Specifica i codici valuta nell'elenco **Valute**, comprese le informazioni e le 
 
 I tassi di cambio sono lo strumento per calcolare il valore in valuta locale (LCY) di ogni transazione in valuta. Per ulteriori informazioni, vedere [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md).  
 
-## Vedi il relativo [training Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Impostare le valute](finance-set-up-currencies.md)  

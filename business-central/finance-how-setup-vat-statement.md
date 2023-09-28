@@ -39,8 +39,6 @@ Una volta definita una dichiarazione IVA, è possibile visualizzarla in anteprim
 4. Per le righe il cui campo **Tipo** contiene il valore **Totale movimenti IVA** è possibile visualizzare un elenco dei movimenti IVA selezionando l'importo nel campo **Importo colonna**.
 5. È possibile utilizzare la personalizzazione per mostrare più campi nelle righe. Ad esempio, l'importo imponibile ad esigibilità differita e l'importo IVA ad esigibilità differita, se si utilizza l'IVA ad esigibilità differita.
 
-## Vedi il relativo [training Microsoft](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)  

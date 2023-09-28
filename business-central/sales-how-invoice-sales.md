@@ -119,14 +119,12 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Vedi il relativo [training Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index).
-
 ## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Stampare la lista prelievo](sales-how-print-picking-list.md)  
-[Magazzino](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Inviare documenti via e-mail](ui-how-send-documents-email.md)  
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Eseguire la fatturazione in blocco da Microsoft Bookings in Business Central](finance-bookings.md)  

@@ -220,11 +220,9 @@ Riclassificare la tracciabilità di un articolo significa modificare un numero d
 8. Se si desidera modificare le informazioni esistenti per il numero di lotto o seriale, è possibile registrare informazioni sul numero di lotto o seriale.  
 9. Effettuare la registrazione per collegare i nuovi numeri di tracciabilità articolo o le nuove date di scadenza ai movimenti contabili articoli associati
 
-## Vedi il relativo [training Microsoft](/training/modules/prepare-item-tracking/)
-
 ## Vedere anche
 
-[Configurare la tracciabilità di articoli con numeri di serie, di lotto e di pacco](inventory-how-setup-item-tracking.md)  
+[Impostare la tracciabilità articolo con numeri di serie, di lotto e di collo](inventory-how-setup-item-tracking.md)  
 [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)  

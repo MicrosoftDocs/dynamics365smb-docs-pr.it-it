@@ -80,8 +80,6 @@ Quando cerchi una pagina di elenco aperta, come l'elenco **Ordini di vendita**, 
 
 Ma quando apri la stessa pagina dell'elenco dalla tua home page, l'azione **Gestisci** non è presente. Invece, per aprire un singolo ordine di vendita, è sufficiente scegliere il campo **Numero**. In questa visualizzazione non puoi aggiungere la barra delle azioni.  
 
-## Vedi il relativo [training Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Prepararsi a fare affari](ui-get-ready-business.md)  

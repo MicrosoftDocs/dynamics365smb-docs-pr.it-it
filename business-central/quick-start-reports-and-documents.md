@@ -64,8 +64,6 @@ r Il file del report generato viene salvato automaticamente nella cartella di do
 
 Scopri di più su come personalizzare report e documenti in base alle tue esigenze aziendali in [Layout di report e documenti](ui-manage-report-layouts.md).
 
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/work-with-reports/).
-
 ## Vedere anche
 
 [Usare i report nel lavoro quotidiano](reports-use-reports.md)  

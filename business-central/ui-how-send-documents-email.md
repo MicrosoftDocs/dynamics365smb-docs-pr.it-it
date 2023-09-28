@@ -76,13 +76,11 @@ Alcuni documenti in [!INCLUDE[prod_short](includes/prod_short.md)] hanno un camp
 
 La **Posta in uscita** è dove si trovano le e-mail salvate come bozze e le e-mail che non è stato possibile inviare, ad esempio, se l'indirizzo email non era valido. Per i messaggi che non sono stati inviati, è possibile scegliere **Mostra errore** o **Analizza errore** per risolvere il problema.  
 
-## Vedi il relativo [training Microsoft](/training/modules/set-up-email/)
-
-## Vedi anche
+## Vedere anche
 
 [Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
 [Configurare la posta elettronica](admin-how-setup-email.md)  
-[Fatturare le vendite](sales-how-invoice-sales.md)  
+[Fatturazione delle vendite](sales-how-invoice-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -55,13 +55,11 @@ I batch possono essere impostati in una definizione registrazioni assicurazioni.
 > [!NOTE]  
 >   I numeri hanno una funzione speciale nei nomi delle registrazioni. Se il nome definizione registrazioni o un nome batch registrazioni contiene un numero, quest'ultimo viene automaticamente incrementato di una unità ogni volta che le registrazioni vengono contabilizzate. Se ad esempio si immette HH1 nel campo **Nome**, il nome della registrazione verrà modificato in HH2 dopo la contabilizzazione della registrazione denominata HH1.
 
-## Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
-
 ## Vedere anche
 
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

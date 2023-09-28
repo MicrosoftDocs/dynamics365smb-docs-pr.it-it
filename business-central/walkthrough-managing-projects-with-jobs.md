@@ -454,8 +454,6 @@ Le procedure riportate di seguito mostrano come creare una nuova commessa, impos
 
  In questa procedura dettagliata sono state riprodotte alcune delle operazioni di base relative alla gestione delle commesse in [!INCLUDE[prod_short](includes/prod_short.md)]. Si è appreso come creare una nuova commessa, come copiare una commessa e come gestire i pagamenti. Inoltre, è stato illustrato come tenere traccia delle ore e creare le fatture.  
 
-## Vedi il relativo [training Microsoft](/training/paths/create-jobs/)
-
 ## Vedere anche
 
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  

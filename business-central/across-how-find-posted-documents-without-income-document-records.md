@@ -1,14 +1,14 @@
 ---
 title: Trovare documenti registrati senza documenti in entrata
 description: 'È possibile cercare i movimenti di contabilità generale per i documenti di vendita e di acquisto registrati che non presentano documenti elettronici in entrata, quali fatture importate.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Trovare documenti registrati senza record di documenti in entrata
 
@@ -30,8 +30,6 @@ Viene visualizzata la pagina **Documenti registrati senza documento in entrata**
 3. Nella pagina **Documenti registrati senza documento in entrata**, il record di documento in entrata selezionato è ora connesso al documento registrato, come indicato nel Dettaglio informazioni **File documento in entrata**.
 
 Se nella pagina **Documenti in entrata** non è presente un record di documento in entrata adeguato, è possibile crearlo. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).
-
-## Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## Vedere anche
 

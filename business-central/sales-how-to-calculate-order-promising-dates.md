@@ -128,13 +128,11 @@ Prima che un articolo possa essere incluso nel calcolo della promessa d'ordine, 
     - Selezionare **CTP (Capable-To-Promise)** se l'articolo attualmente è esaurito e se si desidera calcolare la prima data in cui può essere disponibile emettendo delle nuove richieste di rifornimento.  
 5.  Selezionare il pulsante **Accetta** per confermare la prima data di spedizione disponibile.  
 
-## Vedi il relativo [training Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

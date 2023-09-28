@@ -101,12 +101,10 @@ La seguente procedura è basata su un ordine di vendita.
 7. Fare clic su **OK** per aprire la pagina **Impegno** in cui viene visualizzato solo l'approvvigionamento con il numero di tracciabilità articolo specificato. Se vi sono impegni non specifici per numeri di tracciabilità articolo specificati per la riga, viene visualizzato un messaggio che indica la quantità già impegnata.  
 8. Scegli l'azione **Impegno automatico** o **Impegna da riga corrente** per creare l'impegno per numeri di tracciabilità articolo specifici.
 
-## Vedi il relativo [training Microsoft](/training/modules/manage-outbound-serial-lot-numbers/)
-
 ## Vedere anche
 
-[Magazzino](inventory-manage-inventory.md)  
-[Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
+[Inventario](inventory-manage-inventory.md)  
+[Dettagli di progettazione: prenotazione, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Dettagli di progettazione: Tracciabilità articolo e impegni](design-details-item-tracking-and-reservations.md)  
 [Utilizzare i numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

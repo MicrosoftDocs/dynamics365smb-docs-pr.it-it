@@ -3,14 +3,14 @@ title: Monitorare lo stato di avanzamento e le prestazioni delle commesse
 description: Descrive come creare un metodo semilavorati (WIP) e calcolare il WIP per stimare il valore finanziario delle commesse in corso.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ---
-# <a name="monitor-job-progress-and-performance"></a>Monitorare lo stato di avanzamento e le prestazioni delle commesse
+# Monitorare lo stato di avanzamento e le prestazioni delle commesse
 
 La funzionalità WIP (Work in Process) consente di stimare il valore finanziario delle commesse nella contabilità generale.
 
@@ -27,7 +27,7 @@ Durante lo svolgimento di una commessa, vengono consumati materiali, risorse ed 
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## <a name="create-a-job-wip-method"></a>Creare un metodo WIP commessa
+## Creare un metodo WIP commessa
 
 Creare un metodo WIP commessa che corrisponda alle esigenze dell'organizzazione e impostarlo come predefinito.  
 
@@ -40,7 +40,7 @@ Creare un metodo WIP commessa che corrisponda alle esigenze dell'organizzazione 
 4. Per rendere predefinito questo nuovo metodo, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup commesse**, quindi scegli il collegamento correlato.  
 5. Nel campo **Metodo WIP di default** , selezionare il metodo dall'elenco.
 
-## <a name="define-a-wip-method-for-a-job"></a>Definire un metodo WIP per una commessa
+## Definire un metodo WIP per una commessa
 
 Quando si crea una nuova commessa, è necessario specificare il metodo WIP commessa da applicare. In alcuni casi, il metodo WIP del lavoro utilizzato è già impostato come predefinito.
 
@@ -48,7 +48,7 @@ Quando si crea una nuova commessa, è necessario specificare il metodo WIP comme
 2. Scegliere l'azione **Nuovo**. Ulteriori informazioni in [Crea lavori](projects-how-create-jobs.md).  
 3. Nella pagina **Scheda commessa**, nel campo **Metodo WIP**, selezionare un metodo WIP dall'elenco. Se è stato definito un metodo di default, è possibile selezionare un'altra opzione, se necessario.  
 
-### <a name="define-a-wip-method-for-a-job-task"></a>Definire un metodo WIP per una commessa
+### Definire un metodo WIP per una commessa
 
 Puoi definire un metodo WIP per un'attività commessa, escludere alcune attività dal calcolo WIP o raggruppare le attività da calcolare insieme. 
 
@@ -93,7 +93,7 @@ Noterai:
 
 * Da *1.300* a *1.399*: il calcolo WIP verrà eseguito separatamente per questo gruppo di attività commessa.
 
-## <a name="calculate-wip"></a>Calcola WIP
+## Calcola WIP
 
 È possibile determinare l'importo WIP che deve essere registrato per i conti patrimoniali per il reporting di fine periodo. Utilizzare il processo batch **Commessa - Calcola WIP**.  
 
@@ -105,7 +105,7 @@ Noterai:
 > [!NOTE]  
 >   Il processo batch calcola solo il WIP, ma non di eseguirne la registrazione nella contabilità generale. Per registrarlo, è necessario eseguire il processo batch **Registra WIP in C/G** dopo avere calcolato il WIP. Ulteriori informazioni nella procedura riportata di seguito.
 
-## <a name="post-wip"></a>Registra WIP
+## Registra WIP
 
 Dopo avere calcolato il WIP, è possibile registrarlo nei conti patrimoniali per il reporting di fine periodo. A tale scopo, utilizzare il processo batch **Commessa - Registra WIP in C/G**.
 
@@ -113,7 +113,7 @@ Dopo avere calcolato il WIP, è possibile registrarlo nei conti patrimoniali per
 2. Nella pagina **Commessa - Registra WIP in C/G** compilare i campi in base alle esigenze.  
 3. Scegli il pulsante **OK**.
 
-## <a name="calculate-and-post-job-completion-entries"></a>Calcolare e registrare i movimenti di completamento della commessa
+## Calcolare e registrare i movimenti di completamento della commessa
 
 Al termine di tutte le operazioni di registrazione e fatturazione dell'utilizzo per una commessa, è necessario aggiornare la commessa in modo che il campo **Stato** sia impostato su **Completato**. Successivamente, è necessario stornare eventuali WIP registrati nella contabilità generale.
 
@@ -130,7 +130,7 @@ Al termine di tutte le operazioni di registrazione e fatturazione dell'utilizzo 
 
      Per i movimenti C/G WIP commessa creati tramite l'esecuzione del processo batch sarà ora selezionata la casella di controllo **Commessa completata**, a indicare che si tratta di movimenti di completamento.
 
-## <a name="view-job-ledger-entries"></a>Visualizzare i movimenti contabili commesse
+## Visualizzare i movimenti contabili commesse
 
 Tutti i movimenti correlati a una commessa vengono annotati nei registri commesse e numerati in sequenza a partire da 1. Dal registro commesse è possibile ottenere una panoramica di tutti i movimenti contabili della commessa.    
 
@@ -139,9 +139,7 @@ Tutti i movimenti correlati a una commessa vengono annotati nei registri commess
 
 Nella pagina **Movimenti cont. commesse** è possibile esaminare le voci associate a qualsiasi commessa.  
 
-## <a name="find-related-microsoft-training"></a>Trova il relativo [training Microsoft](/training/paths/calculate-post-job-wip/)
-
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Procedura dettagliata: Calcolo del valore WIP per una commessa](walkthrough-calculating-work-in-process-for-a-job.md)
 [Gestione di progetti](projects-manage-projects.md)  

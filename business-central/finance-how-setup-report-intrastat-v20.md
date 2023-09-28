@@ -56,7 +56,7 @@ I processi batch Intrastat includono solo i movimenti articoli, non i movimenti 
 > [!NOTE]
 > È consigliabile impostare un batch Registrazione Intrastat per ogni mese.  
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Definizioni registrazioni Intrastat**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Definizioni registrazioni Intrastat**, quindi scegli il collegamento correlato.  
 2. Compila i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Crea una definizione per ogni modulo Intrastat che utilizzi.  
 3. Per creare batch, scegliere l'azione **Batch**.  
 4. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Creare una definizione per ogni modulo Intrastat che si utilizza.
@@ -66,7 +66,7 @@ I processi batch Intrastat includono solo i movimenti articoli, non i movimenti 
 
 ### Per impostare i metodi di trasporto
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Metodi di trasporto**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Metodi di trasporto**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### Per impostare quali campi del report Intrastat sono obbligatori
@@ -169,8 +169,6 @@ I report Intrastat vengono presentati con cadenza mensile e per ogni report è n
 In molti paesi o aree geografiche, le autorità doganali e fiscali hanno stabilito dei codici a otto cifre per i vari articoli. Perché i movimenti degli articoli contengano le necessarie informazioni quando vengono importati nella riga delle registrazioni Intrastat, è necessario che nella pagina **Nomenclature combinate** vengano specificate le opportune informazioni sulle nomenclature combinate. È necessario trovare i codici degli articoli di cui si occupa la propria società e immetterli nella pagina **Nomenclatura combinata**.
 
 Impostare nella pagina **Nomenclature combinate** tutti i codici utilizzati. Prima di iniziare la registrazione è necessario immettere i codici nella scheda articolo. Una volta impostati, immetterli nel campo **Nomenclatura combinata** della scheda articolo. Compilare anche il campo **Peso netto** della scheda articolo.
-
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Vedere anche
 

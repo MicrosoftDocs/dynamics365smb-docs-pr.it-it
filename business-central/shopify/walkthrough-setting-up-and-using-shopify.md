@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Procedura dettagliata: configurare e usare il connettore Shopify
+# Procedura dettagliata: configurare e usare il connettore Shopify
 
 Questa sezione illustra alcuni scenari tipici e illustra i passaggi per testare o addestrare gli utenti sul flusso di lavoro di [!INCLUDE[prod_short](../includes/prod_short.md)] e del punto vendita Shopify integrato.
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Devi avere:
 
@@ -25,13 +25,13 @@ Devi avere:
 
 Scopri di più su come creare valutazioni di prova e impostazioni consigliate Shopify in [Creare e configurare l'account Shopify](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 È necessario avere un account [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
 Ad esempio, puoi creare un account CRONUS o avviare la valutazione. Per ulteriori informazioni, vedi [Preparare ambienti dimostrativi di Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) e [Iscriversi per la versione di valutazione](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Collegamento di Business Central al punto vendita Shopify
+## Collegamento di Business Central al punto vendita Shopify
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passaggi:
 
@@ -43,32 +43,32 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passag
 
 Configura il punto vendita Shopify come descritto nei seguenti passaggi:
 
-1. Abilita l'interruttore **Log abilitato**.
-2. Disattiva l'opzione **Consenti sincronizzazioni in background**.
-3. Seleziona **A Shopify** nel campo **Sincronizza articolo**.
-4. Seleziona **A Shopify** nel campo **Sincronizza immagini articolo**.
-5. Abilita l'interruttore **Sincronizza attributi articolo**.
-6. Abilita l'interruttore **Inventario tracciato**.
-7. Seleziona **Nega** nel campo **Criterio di inventario predefinito**.
-8. Abilita l'interruttore **Crea automaticamente clienti sconosciuti**.
-9. Compila il campo **Codice modello cliente** con il modello appropriato.
-10. Compila il campo **Conto costo spedizione**, **Conto mance** con il conto ricavi. Ad esempio, negli Stati Uniti, utilizza `40100`.
-11. Abilita l'interruttore **Creazione automatica degli ordini**.
+1. Disattiva l'opzione **Consenti sincronizzazioni in background**.
+2. Seleziona *A Shopify* nel campo **Sincronizza articolo**.
+3. Seleziona *A Shopify* nel campo **Sincronizza immagini articolo**.
+4. Abilita l'interruttore **Sincronizza attributi articolo**.
+5. Abilita l'interruttore **Inventario tracciato**.
+6. Seleziona *Nega* nel campo **Criterio di inventario predefinito**.
+7. Abilita l'interruttore **Crea automaticamente clienti sconosciuti**.
+8. Compila il campo **Codice modello cliente** con il modello appropriato.
+9. Compila il campo **Conto costo spedizione**, **Conto mance** con il conto ricavi. Ad esempio, negli Stati Uniti, utilizza `40100`.
+10. Abilita l'interruttore **Creazione automatica degli ordini**.
 
 Configurare il mapping della posizione:
 
 1. Scegli l'azione **Posizioni** per aprire **Posizioni punto vendita Shopify**.
-2. Scegli l'azione **Ottieni ubicazioni Shopify** per importare tutte le posizioni definite in Shopify.
+2. Scegli l'azione **Ottieni ubicazioni Shopify** per importare tutte le posizioni definite in Shopify. Seleziona la tua posizione predefinita in Shopify
 3. In **Filtro ubicazione**, immetti `''|EAST|MAIN`.
-4. Disattiva l'interruttore **Disabilitato** per abilitare la sincronizzazione dell'inventario per la posizione Shopify selezionata.
+4. Attiva l'interruttore **Ubicazione prodotto predefinita**.
+5. Seleziona *Disponibilità calcolata a oggi* nel campo **Calcolo scorte** per abilitare la sincronizzazione dell'inventario per l'ubicazione Shopify.
 
-## <a name="walkthrough-start-selling-products-online"></a>Procedura dettagliata: iniziare a vendere prodotti online
+## Procedura dettagliata: iniziare a vendere prodotti online
 
-### <a name="scenario"></a>Scenario
+### Scenario
 
 Supponiamo che tu voglia provare Shopify come punto vendita online senza dedicare molto tempo alla configurazione, soprattutto perché mantieni già i tuoi articoli in [!INCLUDE[prod_short](../includes/prod_short.md)] correttamente. Dopo aver lanciato il tuo punto vendita online Shopify, ottieni immediatamente nuovi clienti che sono soddisfatti del tuo punto vendita e della loro esperienza di acquisto. Quindi, decidono di lasciare mance alla cassa.
 
-### <a name="steps"></a>Passaggi
+### Passaggi
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passaggi:
 
@@ -130,13 +130,13 @@ Ora i dati fisici e finanziari sono registrati in [!INCLUDE[prod_short](../inclu
 
 In **Amministrazione Shopify** nota che l'ordine è ora contrassegnato come *Completato*. Puoi anche rivedere i dettagli della spedizione e vedere l'URL di tracciamento lì. Se esegui **Sincronizza ordini da Shopify** di nuovo, l'ordine verrà archiviato in entrambi i sistemi.
 
-## <a name="walkthrough-invite-your-customers-to-your-new-online-store"></a>Procedura dettagliata: invita i tuoi clienti nel tuo nuovo punto vendita online
+## Procedura dettagliata: invita i tuoi clienti nel tuo nuovo punto vendita online
 
-### <a name="scenario-1"></a>Scenario
+### Scenario
 
 Dopo un avvio rapido di successo del tuo nuovo punto vendita online, desideri che i tuoi attuali clienti lo visitino e inizino a effettuare ordini.
 
-### <a name="steps-1"></a>Passaggi
+### Passaggi
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passaggi:
 
@@ -146,13 +146,13 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passag
 
 In **Amministrazione Shopify** nota che i clienti sono stati importati. Apri uno dei clienti e nota che il nome e il cognome del cliente provengono dal campo **Nome contatto** di **Scheda cliente**. Il nome dell'azienda si trova nell'indirizzo predefinito, collegato al cliente. Scegli **Invia invito account** per invitare il cliente.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Procedura dettagliata: messa a punto della gestione degli elementi
+## Procedura dettagliata: messa a punto della gestione degli elementi
 
-### <a name="scenario-2"></a>Scenario
+### Scenario 
 
 Ti piacerà aggiungere maggiore flessibilità e controllo ai tuoi processi relativi alla gestione degli articoli. Desideri migliorare la descrizione del prodotto e desideri aggiungere ulteriori passaggi di revisione prima che i prodotti diventino disponibili per il cliente finale.
 
-### <a name="steps-2"></a>Passaggi
+### Passaggi
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passaggi:
 
@@ -167,7 +167,7 @@ Seleziona la voce **1896-S, Athens Desk** ed esegui i seguenti passaggi.
 
 1. Scegli l'azione **Varianti**, quindi aggiungi due varianti `PREMIUM, Athens Desk, Premium edition` e `ESSENTIAL, Athens Desk, Essential edition`.
 2. Scegli l'azione **Testo esteso**, crea un nuovo testo esteso valido per tutti i codici lingua. Nel campo **Descrizione**, immetti `Shopify`. 
-3. Aggiungi il seguente testo con i tag HTML: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+3. Aggiungi il seguente testo con i tag HTML: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Chiudi la pagina **Testo esteso** e torna alla scheda articolo.
 4. Scegli l'azione **Prezzi vendita** e aggiungi nuovi prezzi come mostrato nella seguente tabella:
 
   |A linee|**Tipo vendita**|**Codice vendita**|Tipo|Codice|Codice variante<br>(aggiungi il campo tramite personalizzazione)|Prezzo unitario|
@@ -214,7 +214,7 @@ Esegui la sincronizzazione.
 2. Seleziona il punto vendita *DEMO1* per il quale desideri sincronizzare gli articoli per l'apertura della pagina **Scheda del punto vendita Shopify**.
 3. Scegli l'azione **Prodotti** per aprire la finestra **Prodotti Shopify**.
 4. Scegli l'azione **Aggiungi articoli**.
-5. Imposta il filtro **TABELLA** sul campo *Codice categoria articolo*.
+5. Imposta il filtro **TABLE|DESK** sul campo *Codice categoria articolo*.
 6. Scegli l'azione **Sincronizza immagini prodotto**.
 7. Scegli l'azione **Sincronizza inventario**.
 
@@ -239,19 +239,19 @@ Nota che l'inventario per il tavolo da conferenza di ANTWERP è 100, perché abb
 
 Nel **punto vendita Shopify online** apri il catalogo prodotti, trova il prodotto *Scrivania ATENE*. Nota che sono disponibili diverse opzioni. Per diverse opzioni, i prezzi sono diversi. Presta attenzione alle informazioni sugli sconti.
 
-## <a name="walkthrough-import-items-from-shopify"></a>Procedura dettagliata: importare articoli da Shopify
+## Procedura dettagliata: importare articoli da Shopify
 
-### <a name="scenario-3"></a>Scenario
+### Scenario 
 
 Hai già un punto vendita online di successo e vorresti iniziare a usare [!INCLUDE[prod_short](../includes/prod_short.md)] come software gestionale aziendale. Desideri importare quanti più dati possibile da Shopify. 
 
-### <a name="steps-3"></a>Passaggi
+### Passaggi
 
 Questa è una continuazione di [Procedura dettagliata: iniziare a vendere prodotti online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Puoi anche provare con i tuoi dati, ad esempio la tua sandbox o il tuo punto vendita Shopify.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passaggi:
 
-#### <a name="prepare-data"></a>Preparare i dati
+#### Preparare i dati
 
 1. Passa a una prova gratuita di 30 giorni senza dati di esempio. Per ulteriori informazioni, vedi [Aggiungere i propri dati a una prova vuota](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Scegli l'icona ![lampadina che apre la funzione Dimmi.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
@@ -262,19 +262,15 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], effettua i seguenti passag
 
 Configura il punto vendita Shopify come descritto di seguito nei prossimi passaggi:
 
-7. Abilita l'interruttore **Log abilitato**.
-8. Disabilita l'opzione **Consenti sincronizzazioni in background**.
-9. Seleziona **Da Shopify** nel campo **Sincronizza articolo**.
-5. Abilita l'interruttore **Crea automaticamente articoli sconosciuti**.
-11. Compila il campo **Codice modello articolo** con il modello appropriato.
-12. Seleziona **Da Shopify** nel campo **Sincronizza immagini articolo**.
-13. Seleziona **Tutti i clienti** in **Importazione clienti da Shopify**.
-14. Abilita l'interruttore **Crea automaticamente clienti sconosciuti**.
-15. Compila il campo **Codice modello cliente** con il modello appropriato.
-16. Compila il campo **Conto spese spedizione**, **Conto mance** con il conto ricavi. Ad esempio, negli Stati Uniti, utilizza `40100`.
-17. Abilita l'interruttore **Creazione automatica degli ordini**.
+7. Disabilita l'opzione **Consenti sincronizzazioni in background**.
+8. Seleziona *Da Shopify* nel campo **Sincronizza articolo**.
+9. Abilita l'interruttore **Crea automaticamente articoli sconosciuti**.
+10. Compila il campo **Codice modello articolo** con il modello appropriato.
+11. Seleziona *Da Shopify* nel campo **Sincronizza immagini articolo**.
+12. Seleziona *Tutti i clienti* in **Importazione clienti da Shopify**.
+13. Abilita l'interruttore **Crea automaticamente clienti sconosciuti**.
 
-#### <a name="run-the-synchronization"></a>Esegui la sincronizzazione
+#### Esegui la sincronizzazione
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita *DEMO2* per il quale desideri sincronizzare i dati per l'apertura della pagina **Scheda del punto vendita Shopify**.
@@ -282,7 +278,7 @@ Configura il punto vendita Shopify come descritto di seguito nei prossimi passag
 4. Scegli l'azione **Sincronizza immagini prodotto**.
 5. Scegli l'azione **Sincronizza clienti**.
 
-### <a name="results"></a>Risultati
+### Risultati
 
 * I prodotti Shopify vengono importati. Per verificare, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Prodotti Shopify**, quindi scegli il collegamento correlato.
 * Vengono creati elementi con immagini. Per verificare, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articolo** e scegli il collegamento correlato.
@@ -290,6 +286,6 @@ Configura il punto vendita Shopify come descritto di seguito nei prossimi passag
 * I clienti vengono creati. Per verificare, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Iniziare a usare il connettore Shopify](get-started.md)  

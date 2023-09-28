@@ -37,6 +37,14 @@ Dopo la configurazione e l'esecuzione delle code processi, lo stato può cambiar
 
 Dopo che un processo viene eseguito correttamente, viene rimosso dell'elenco dei movimenti coda processi a meno che non sia un processo ricorrente. Se è un processo ricorrente, il campo **Prima data/ora inizio** viene rettificato per mostrare la volta successiva in cui viene eseguito il processo.  
 
+## La prima data di inizio
+
+Il valore nel campo **Prima data/ora di inizio** nella pagina **Scheda movimento coda processi** mostra la prossima volta che il lavoro verrà eseguito. Esistono diversi fattori che possono influire sull'esecuzione effettiva di una voce della coda processi in quel momento.
+
+I fattori più comuni sono il numero di voci della coda di lavoro in un ambiente e il numero complessivo di attività pianificate. Per proteggere i livelli delle prestazioni, esistono limiti operativi. Se ci sono molte voci in coda e, ad esempio, una di esse fallisce o le voci richiedono più tempo del previsto, il lavoro successivo potrebbe non avviarsi all'ora prevista. Se disponi di codeunit che generano 100.000 o più attività pianificate, dovresti verificare se hai effettivamente bisogno di tutte quelle attività. È possibile accedere all'elenco di tutte le attività pianificate nella pagina **Attività pianificate**.
+
+Per ulteriori informazioni sul monitoraggio dello stato delle voci della coda dei lavori, vai a [Per visualizzare lo stato di qualsiasi processo](#to-view-status-for-any-job). Per ulteriori informazioni sui limiti operativi, vai a [Limiti delle attività asincrone](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+
 ## Monitorare lo stato o gli errori nella coda processi
 
 I dati generati dalla coda processi vengono memorizzati, in modo da poter risolvere gli errori.  

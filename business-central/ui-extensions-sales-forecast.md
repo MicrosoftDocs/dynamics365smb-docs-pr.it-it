@@ -59,12 +59,10 @@ Prima di utilizzare il servizio Web [!INCLUDE[prod_short](includes/prod_short.md
 6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup previsione vendite e magazzino**, quindi scegli il collegamento correlato.  
 7. Espandere la Scheda dettaglio **Generale** e compilare i campi URL API e Chiave API.  
 
-## Vedi il relativo [training Microsoft](/training/modules/use-sales-inventory-forecast-extension/)
-
 ## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
-[Magazzino](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Usare l'intelligenza artificiale in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 

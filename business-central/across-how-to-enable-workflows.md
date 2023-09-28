@@ -22,12 +22,10 @@ Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle r
 2. Aprire il flusso di lavoro che si desidera abilitare.  
 3. Nella pagina **Workflow**, seleziona la casella di controllo **Abilitato**.  
 
-## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
-
 ## Vedere anche
 
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
-[Utilizzare i workflow di approvazione](across-use-workflows.md)  
+[Usare workflow di approvazione](across-use-workflows.md)  
 [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)  
 [Eliminare i workflow di approvazione](across-how-to-delete-workflows.md)  
 [Configurare i flussi di lavoro di approvazione](across-set-up-workflows.md)  

@@ -40,8 +40,6 @@ Le estensioni PayPal Payments Standard e WorldPay Payments Standard sono install
     > [!NOTE]  
     > Il campo **Servizio di pagamento** è disponibile solo se è stato abilitato il servizio di pagamento.  
 
-## Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)  

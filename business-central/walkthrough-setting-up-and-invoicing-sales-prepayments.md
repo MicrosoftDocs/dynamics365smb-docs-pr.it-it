@@ -235,13 +235,11 @@ Inoltre, è stata registrata una fattura di pagamento anticipato, creata una fat
 
 Le funzionalità di pagamento anticipato semplificano l'impostazione e l'applicazione delle regole di pagamento anticipato per clienti e articoli. Ti consentono anche di registrare ogni pagamento per una fattura.  
 
-## Vedi il relativo [training Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
-[Finanze](finance.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dati finanziari](finance.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)
 
 

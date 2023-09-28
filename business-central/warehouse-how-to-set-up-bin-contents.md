@@ -49,8 +49,6 @@ Dopo avere creato le collocazioni, è possibile specificare il contenuto desider
 
 Poiché questo prospetto consente di utilizzare più righe di contenuto collocazione per più collocazioni, è possibile ottenere una panoramica precisa di tutti gli articoli che si stanno inserendo nelle varie collocazioni presenti in una determinata zona, corsia o scaffalatura.  
 
-## Vedi il relativo [training Microsoft](/training/modules/set-up-zones-bins/)
-
 ## Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)

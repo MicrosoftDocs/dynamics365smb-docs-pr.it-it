@@ -40,8 +40,6 @@ L'integrazione di Power BI con [!INCLUDE[prod_short](includes/prod_short.md)] in
 
 Puoi anche creare report visivi basati su [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando l'opzione del tipo di file **Documento di Microsoft Excel (solo dati)** nelle pagine di richiesta del report. Ulteriori informazioni su [Esegui e stampa report](ui-work-report.md).
 
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/paths/use-power-bi).
-
 ## Vedere anche
 
 [Business Analysis e Financial Reporting](bi.md)  

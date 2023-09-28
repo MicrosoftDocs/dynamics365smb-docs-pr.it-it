@@ -45,8 +45,6 @@ Se l'estensione del periodo di valutazione è scaduta, [effettua una sottoscrizi
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## Vedi il relativo [training Microsoft](/training/modules/trial-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Versioni di valutazione e sottoscrizioni (solo inglese)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  

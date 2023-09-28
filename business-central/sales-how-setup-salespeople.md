@@ -20,18 +20,16 @@ Dopo che è stato impostato un agente nella pagina **Agenti**, è possibile sele
 
 ## Per impostare un codice agente
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Agenti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Agenti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Agenti** scegliere l'azione **Nuovo**.
 
 È possibile utilizzare gli agenti in diverse attività di marketing e Relationship Management. Ad esempio, è possibile assegnare task agli agenti, in modo che i task vengano incorporati nelle opportunità di vendita a cui è assegnato l'agente. Per ulteriori informazioni, vedere [Impostare fasi ciclo e fasi di vendita delle opportunità](marketing-how-setup-opportunity-sales-cycles-stages.md).
-
-## Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

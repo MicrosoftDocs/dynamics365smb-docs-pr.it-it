@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics-365-business-central"></a>Workflow in Dynamics 365 Business Central
+# Workflow in Dynamics 365 Business Central
 
 È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. Le attività di sistema, come la pubblicazione automatica, possono essere incluse come passaggi in flussi di lavoro. Le attività di sistema possono essere precedute o seguite da attività utente. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro.
 
@@ -26,7 +26,7 @@ La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] suppo
 
   Nella pagina **Modelli di flusso di lavoro**, puoi vedere tutti i flussi di lavoro disponibili. La versione di valutazione di [!INCLUDE[prod_short](includes/prod_short.md)] include molti workflow preconfigurati, rappresentati da modelli di workflow che si possono copiare per crearne di nuovi. Quando apri un modello dalla pagina **Modelli di flusso di lavoro** e il nome del flusso di lavoro inizia con *MS-*, il modello viene aggiunto da Microsoft.
 
-## <a name="power-automate-flows"></a>Flussi di Power Automate
+## Flussi di Power Automate
 
 Con [!INCLUDE [prod_short](includes/prod_short.md)] online, puoi iscriverti a Power Automate per creare potenti flussi di lavoro automatizzati. Esegui quei flussi di lavoro da dentro [!INCLUDE [prod_short](includes/prod_short.md)]. I flussi possono connettere origini dati interne ed esterne e strumenti, senza conoscenze di codifica.
 
@@ -36,7 +36,7 @@ Con [!INCLUDE [prod_short](includes/prod_short.md)] online, puoi iscriverti a Po
 |Scopri i dettagli su come creare, modificare e gestire i flussi|[Imposta flussi automatizzati](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) e [Imposta flussi istantanei](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Imposta l'integrazione di Power Automate con [!INCLUDE[prod_short](includes/prod_short.md)] per gli utenti in qualità di amministratore|[Configurare l'integrazione di Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## <a name="approval-workflows"></a>Workflow di approvazione
+## Workflow di approvazione
 
 Crea un workflow di approvazione definendo cosa avvia il workflow e cosa accade dopo, come segue:
 
@@ -52,19 +52,17 @@ Esempi di eventi dei workflow di approvazione includono la creazione di ordini/p
 | **Per** | **Vedere** |
 |--|--|
 | Imposta gli utenti del workflow di approvazione, specifica la modalità di notifica per gli utenti e crea nuovi flussi di lavoro. Per creare i nuovi flussi di lavoro per gli scenari non sostenuti, implementare gli elementi necessari del flusso di lavoro personalizzando il codice dell'applicazione. | [Configurare i flussi di lavoro di approvazione](across-set-up-workflows.md) |
-| Abilita i workflow di approvazione, intervieni sulle relative notifiche, incluse le richieste e le approvazioni di una fase del workflow. Archiviare ed eliminare i flussi di lavoro. | [Utilizzare i workflow di approvazione](across-use-workflows.md) |
+| Abilita i workflow di approvazione, intervieni sulle relative notifiche, incluse le richieste e le approvazioni di una fase del workflow. Archiviare ed eliminare i flussi di lavoro. | [Usare workflow di approvazione](across-use-workflows.md) |
 
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
-
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Gestione di progetti](projects-manage-projects.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Risolvere i problemi dei flussi di lavoro automatizzati di [!INCLUDE[prod_short](includes/prod_short.md)]](across-flow-troubleshoot.md)  
 
 

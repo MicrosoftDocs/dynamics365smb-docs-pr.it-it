@@ -2,14 +2,12 @@
 title: Configurare la posta elettronica in Business Central (video)
 description: Descrizione di come connettere gli account di posta elettronica a Business Central in modo da poter inviare messaggi in uscita senza dover aprire un'altra app.
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # Configurare la posta elettronica
@@ -56,9 +54,11 @@ La tabella seguente descrive le estensioni di posta elettronica disponibili per 
 Se desideri utilizzare il protocollo SMTP per inviare e-mail da [!INCLUDE[prod_short](includes/prod_short.md)], puoi utilizzare l'estensione del connettore SMTP. Quando si configura un account che utilizza SMTP, il campo **tipo di mittente** è importante. Se scegli **Utente specifico**, le e-mail verranno inviate utilizzando il nome e altre informazioni dall'account che stai configurando. Tuttavia, se scegli **Utente corrente**, le e-mail verranno inviate dall'account e-mail specificato per l'account di ciascun utente. L'utente corrente è simile alla funzione Invia come. Per altre informazioni vedi [Utilizzare un indirizzo mittente sostitutivo nei messaggi di posta elettronica in uscita](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] locale, non è possibile utilizzare il protocollo di autenticazione OAuth 2.0. È necessario creare una registrazione dell'applicazione nel portale di Azure, quindi eseguire la guida al setup assistito **Impostazione Azure Active Directory** in [!INCLUDE[prod_short](includes/prod_short.md)] per connettersi ad Azure AD. Per ulteriori informazioni, vedi [Crea una registrazione dell'app per Business Central nel portale di Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Se stai usando [!INCLUDE[prod_short](includes/prod_short.md)] locale, non è possibile utilizzare il protocollo di autenticazione OAuth 2.0. Per utilizzare OAuth per SMTP, tutti gli utenti devono trovarsi nello stesso Microsoft Entra Microsoft Entra. 
+> 
+> È necessario creare una registrazione dell'applicazione nel portale di Azure, quindi eseguire la guida al setup assistito **Impostazione Azure Active Directory** in [!INCLUDE[prod_short](includes/prod_short.md)] per connettersi ad Azure AD. Per ulteriori informazioni, vedi [Crea una registrazione dell'app per Business Central nel portale di Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online sta deprecando l'uso dell'autenticazione di base per SMPT. I tenant che attualmente usano SMTP AUTH non saranno interessati da questa modifica. Tuttavia, consigliamo vivamente di utilizzare l'ultima versione di [!INCLUDE [prod_short](includes/prod_short.md)] e di configurare l'autenticazione OAuth 2.0 per SMTP. Non aggiungeremo l'autenticazione basata su certificato per le versioni precedenti di [!INCLUDE [prod_short](includes/prod_short.md)], ad esempio la versione 14. Se non riesci a configurare l'autenticazione OAuth 2.0, ti invitiamo a esplorare alternative di terze parti se desideri utilizzare l'e-mail SMTP nelle versioni precedenti.
+> Exchange Online sta deprecando l'uso dell'autenticazione di base per SMTP. I tenant che attualmente usano SMTP AUTH non saranno interessati da questa modifica. Tuttavia, consigliamo vivamente di utilizzare l'ultima versione di [!INCLUDE [prod_short](includes/prod_short.md)] e di configurare l'autenticazione OAuth 2.0 per SMTP. Non aggiungeremo l'autenticazione basata su certificato per le versioni precedenti di [!INCLUDE [prod_short](includes/prod_short.md)], ad esempio la versione 14. Se non riesci a configurare l'autenticazione OAuth 2.0, ti invitiamo a esplorare alternative di terze parti se desideri utilizzare l'e-mail SMTP nelle versioni precedenti.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -274,14 +274,12 @@ Dopo aver registrato l'applicazione nel portale di Azure, in [!INCLUDE[prod_shor
 
 -->
 
-## Vedi il relativo [training Microsoft](/training/modules/set-up-email/)
-
 ## Vedi anche
 
 [Cassette postali condivise in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Inviare documenti tramite e-mail](ui-how-send-documents-email.md)  
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] come Posta in arrivo aziendale in Outlook](admin-outlook.md)  
 [Scarica [!INCLUDE[prod_short](includes/prod_short.md)] sul dispositivo mobile](install-mobile-app.md)   

@@ -46,11 +46,9 @@ Una volta impostati gli utenti per l'approvazione, puoi creare le risposte del w
 
 Il passaggio successivo consiste nello specificare come si desidera [!INCLUDE [prod_short](includes/prod_short.md)] notificare alle persone che una richiesta è in attesa della loro attenzione. Per ulteriori informazioni, vedi [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md).
 
-## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
-
 ## Vedere anche
 
-[Impostare gli utenti del workflow](across-how-to-set-up-workflow-users.md)  
+[Impostare gli utenti del flusso di lavoro](across-how-to-set-up-workflow-users.md)  
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
 [Configurare i workflow di approvazione](across-set-up-workflows.md)  

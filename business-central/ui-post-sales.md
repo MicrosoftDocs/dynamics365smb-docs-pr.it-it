@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: bholtorf
@@ -46,8 +46,6 @@ Nella maggior parte dei casi, è possibile aprire i movimenti contabili dalla sc
 ## Modifica di movimenti contabili
 
 È possibile modificare determinati campi nei documenti di acquisto registrati, come ad esempio **Nr. identificazione collo** . Per ulteriori informazioni, vedere [Modificare i documenti registrati](across-edit-posted-document.md). Per i campi più critici che influiscono sulla traccia di controllo, è necessario stornare o annullare la registrazione. Per ulteriori informazioni, vedere [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md).
-
-## Vedi il relativo [training Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## Vedi anche
 

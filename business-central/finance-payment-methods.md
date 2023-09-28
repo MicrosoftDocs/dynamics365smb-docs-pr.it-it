@@ -37,13 +37,11 @@ Facoltativamente, aggiungi condizioni pagamento al metodo di pagamento. Per ulte
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cliente** o **Fornitore**, quindi scegli il collegamento correlato.
 2. Nel campo **Codice metodo di pagamento**, scegliere il metodo da utilizzare per impostazione predefinita per il cliente o il fornitore.
 
-## Vedi il relativo [training Microsoft](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  
 [Impostare le condizioni pagamento](finance-payment-terms.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

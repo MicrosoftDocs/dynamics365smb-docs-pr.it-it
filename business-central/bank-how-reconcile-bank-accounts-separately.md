@@ -239,8 +239,6 @@ Non utilizzare un conto C/G che consente la registrazione diretta nella categori
 
 Questo errore si verifica spesso quando si inserisce un saldo di apertura per un conto bancario. È importante non registrare il saldo di apertura direttamente nella contabilità generale. I movimenti nel conto C/G che vengono registrati direttamente nel conto C/G causeranno problemi. Ad esempio, questi movimenti potrebbero impedirti di riconciliare il tuo conto bancario. Per i conti bancari in valuta estera, i movimenti possono causare l'accumulo di differenze dopo la registrazione di più riconciliazioni bancarie a causa delle rettifiche del tasso di cambio valuta. Spesso si registra il saldo bancario di apertura direttamente sul conto bancario e l'importo finisce quindi nel conto C/G. In alternativa, lo annulli in un secondo momento rispetto a un conto C/G che usi per bilanciare il saldo della contabilità generale di apertura. In entrambi i casi, è necessario bilanciare qualsiasi registrazione diretta sul conto C/G prima di iniziare la prima riconciliazione bancaria, soprattutto se il conto bancario è in una valuta estera.
 
-## Vedi il relativo [training Microsoft](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
-
 ## Vedi anche
 
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  

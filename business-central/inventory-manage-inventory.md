@@ -55,8 +55,6 @@ La tabella seguente descrive le attività correlate.
 |Gestisci le operazioni aziendali in uffici vendite, reparti acquisti o uffici di programmazione impianti distribuiti tra più sedi.|[Utilizzare i centri di responsabilità](inventory-responsibility-centers.md)|
 |Utilizza risorse con funzioni specifiche per vari servizi e articoli in assistenza.|[Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md)|
 
-## Vedi il relativo [training Microsoft](/training/paths/get-started-inventory-management/)
-
 ## Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)

@@ -95,13 +95,11 @@ Per gestire il costo dell'articolo per la ricevuta parziale, sulla pagina **Asse
 
 Quando sei pronto per gestire l'articolo mancante, aggiorna il campo **Quantità da gestire** e invia l'ordine.
 
-## Vedi il relativo [training Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
-[Fatturare le vendite](sales-how-invoice-sales.md)  
+[Fatturazione delle vendite](sales-how-invoice-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

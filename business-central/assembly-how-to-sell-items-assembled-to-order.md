@@ -3,7 +3,7 @@ title: Vendere articoli assemblati su ordine
 description: Scopri come vendere un articolo assemblato su ordine.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -59,8 +59,6 @@ In questa procedura, si elabora la vendita di un articolo che verrà assemblato 
 
 > [!NOTE]  
 > Le sostituzioni degli articoli non sostituiscono automaticamente un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
-
-## Vedi il relativo [training Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## Vedere anche
 

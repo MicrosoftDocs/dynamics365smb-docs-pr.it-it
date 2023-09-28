@@ -122,8 +122,6 @@ Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti i
 
 Il valore nel campo **Tasso di cambio** della pagina **Valute** viene aggiornato con il tasso di cambio delle valute più recente.
 
-## Vedi il relativo [training Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Valute in Business Central](finance-currencies.md)  

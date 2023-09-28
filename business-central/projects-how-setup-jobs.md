@@ -3,7 +3,7 @@ title: 'Impostare commesse, prezzi e categorie di registrazione commesse'
 description: Descrive come impostare le informazioni generali sui lavori.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -98,8 +98,6 @@ Un aspetto della pianificazione delle commesse è decidere quali conti di regist
 | **Conto rettifica vendite commesse** |Contropartita per il conto vendite WIP per la commessa, che rappresenta un conto avere. | Vendite sospese|
 | **Conto costi riconosciuti** |Conto spesa contenente i costi riconosciuti per la commessa. In genere si tratta di un conto di addebito. | Costi riconosciuti|
 | **Conto vendite riconosciute** |Conto avere contenente le entrate riconosciute per la commessa. In genere si tratta di un conto di accredito. | Vendite riconosciute|
-
-## Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
 
 ## Vedere anche
 

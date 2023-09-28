@@ -115,11 +115,9 @@ Quando la tua azienda utilizza i processi di pianificazione della fornitura in [
 
 Per esempi di come è possibile utilizzare i campi nella Scheda dettaglio **Pianificazione**, vedi [Procedure consigliate per la configurazione: parametri di pianificazione](setup-best-practices-planning-parameters.md).  
 
-## Vedi il relativo [training Microsoft](/training/modules/create-items/)
-
 ## Vedere anche
 
-[Magazzino](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Impostare unità di misura](inventory-how-setup-units-of-measure.md)  
 [Gestire le varianti di prodotto](inventory-item-variants.md)  
 [Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  

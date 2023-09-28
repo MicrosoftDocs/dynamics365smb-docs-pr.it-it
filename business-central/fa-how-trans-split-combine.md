@@ -63,16 +63,14 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 ## Per visualizzare i valori del registro beni ammortizzabili modificati a causa dalla riclassificazione dei cespiti
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valore contabile cespiti 02**, quindi scegli il collegamento correlato.
-2. Compilare i campi in base alle esigenze.
+2. Compila i campi in base alle esigenze.
 3. Seleziona il pulsante **Stampa** o **Anteprima**.  
-
-## Vedi il relativo [training Microsoft](/training/paths/reclassify-fixed-assets/)
 
 ## Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -79,13 +79,11 @@ Una riga di pianificazione commessa può contenere uno dei seguenti tipi.
 4. Nella pagina **Righe pianificazione commessa**, in una nuova riga compilare i campi secondo le esigenze.
 5. Ripetere i passaggi 3 e 4 per tutte le righe di pianificazione richieste per il task commessa.
 
-## Vedi il relativo [training Microsoft](/training/modules/create-new-job/)
-
 ## Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

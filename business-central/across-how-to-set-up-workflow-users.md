@@ -34,8 +34,6 @@ Nella pagina **Gruppi utenti del workflow**, puoi specificare dove un partecipan
 
 6. Ripetere il passaggio 5 per aggiungere altri utenti del workflow nel gruppo utenti.  
 
-## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
-
 ## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  

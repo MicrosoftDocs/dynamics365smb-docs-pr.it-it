@@ -50,7 +50,7 @@ Utilizza le visualizzazioni analisi precedentemente impostate con la matrice **A
 > Non è possibile selezionare una durata periodo più breve rispetto a quello specificato per la compressione data nella scheda **Visualizzazione analisi**. I comandi **Periodo successivo** e **Periodo precedente** non sono attivi se nel campo **Mostra come righe** oppure **Mostra come colonne** è stato selezionato il valore **Periodo**.  
 
 > [!NOTE]  
-> È possibile utilizzare il report **Dimensioni - Dettagli** per visualizzare una classificazione dettagliata di come sono state utilizzate le dimensioni per i movimenti di un determinato periodo selezionato. È possibile utilizzare il report **Dimensioni - Totali** per visualizzare solo gli importi totali.  
+> È possibile utilizzare il report **Dimensioni - Dettagli** per visualizzare una dettagliata classificazione di come le dimensioni siano state utilizzate nei movimenti contabili durante un periodo selezionato. È possibile utilizzare il report **Dimensioni - Totali** per visualizzare solo gli importi totali.  
 
 > [!TIP]  
 > È inoltre possibile modificare la visualizzazione cambiando il contenuto dei campi **Mostra come righe** e **Mostra come colonne**. Per ripristinare un'impostazione di visualizzazione, scegliere l'azione **Inverti righe e colonne**.
@@ -73,12 +73,10 @@ Usa la seguente procedura per aggiornare una visualizzazione analisi dalla pagin
 > [!NOTE]  
 > Per aggiornare contemporaneamente alcune o tutte le visualizzazioni analisi, è necessario utilizzare il processo batch **Aggiorna visualizzazione analisi**.  
 
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
-
 ## Vedere anche
 
 [Business Intelligence finanziario](bi.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Utilizzare le dimensioni](finance-dimensions.md)  

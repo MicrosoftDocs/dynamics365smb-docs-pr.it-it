@@ -37,10 +37,8 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Collegare il testo sui pagamenti a specifici conti cliente, fornitore o di contabilità generale per registrare sempre incassi o spese ricorrenti in tali conti quando non esistono documenti da applicare. |[Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Impostare le regole per stabilire in che modo i pagamenti e le transazioni bancarie devono essere collegati automaticamente ai relativi movimenti contabili aperti quando si utilizza la funzione **Collega automaticamente** nella pagina **Registrazione riconciliazione pagamenti**.|[Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md)|
 
-## Vedi il relativo [training Microsoft](/training/modules/use-journals-dynamics-365-business-central/index)
-
 ## Vedi anche
-[Riconciliazione dei conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)  
+[Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

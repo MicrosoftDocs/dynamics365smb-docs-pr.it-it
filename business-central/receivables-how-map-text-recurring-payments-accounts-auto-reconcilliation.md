@@ -52,8 +52,6 @@ Per registrare sempre le spese relative agli oneri bancari di una banca specific
 | --- | --- | --- | --- | --- |
 | MyBank |VUOTO |60400|Conto C/G |VUOTO |
 
-## Vedi il relativo [training Microsoft](/training/modules/use-journals-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  

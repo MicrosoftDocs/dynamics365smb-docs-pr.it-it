@@ -172,11 +172,9 @@ La seguente illustrazione fornisce una panoramica del risultato di questa proced
 
 Successivamente, dovrai testare il flusso di lavoro aprendo una scheda fornitore esistente e modificando il nome. Verifica che venga inviata una richiesta di approvazione dopo la modifica del nome del fornitore.
 
-## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
-
 ## Vedere anche
 
-[Creare workflow da modelli di workflow](across-how-to-create-workflows-from-workflow-templates.md)  
+[Creare flussi di lavoro da modelli di flussi di lavoro](across-how-to-create-workflows-from-workflow-templates.md)  
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Impostazione delle notifiche del workflow di approvazione](across-setting-up-workflow-notifications.md)  
 [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)  

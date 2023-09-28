@@ -167,11 +167,9 @@ Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione**
 
 :::image type="content" source="media/binflow.png" alt-text="Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.":::
 
-## Vedi il relativo [training Microsoft](/training/paths/pick-ship-items-business-central/)
-
 ## Vedere anche
 
-[Magazzino](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)

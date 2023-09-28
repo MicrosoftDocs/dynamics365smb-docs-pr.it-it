@@ -88,8 +88,6 @@ Le sezioni seguenti descrivono come impostare i fogli di presenza se non si usa 
 > [!NOTE]  
 > Non è possibile modificare l'ID del responsabile approvazione del foglio presenze in caso di fogli presenze non ancora elaborati e con lo stato **Inviato** o **Aperto**.
 
-## Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
-
 ## Vedere anche
 
 [Utilizzare i fogli presenze per i progetti](projects-how-use-time-sheets.md)  

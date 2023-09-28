@@ -159,11 +159,9 @@ Per dettagli sulla pianificazione con posizioni e trasferimenti, vedere [Pianifi
 > [!TIP]
 > Quando lavori nelle pagina **Richiesta di approvvigionamento** o **Prospetto pianificazione**, puoi organizzare le righe ordinandole in base al nome di una colonna. Ciò è particolarmente utile nella pagina Prospetto pianificazione perché può essere utilizzato per ordini di produzione multilivello. Per impostazione predefinita, le righe sono ordinate in base al campo **Nr. articolo**. Per raggruppare le righe per un ordine multilivello, ordina in base al campo **Nr. ordine rif.** . Anche i campi **Ordine MPS** e **Livello pianificazione** possono aiutare a mostrare la gerarchia delle righe.
 
-## Vedi il relativo [training Microsoft](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## Vedere anche
 
-[Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  
+[Dettagli di progettazione: pianificazione approvvigionamento](design-details-supply-planning.md)  
 [Pianif.](production-planning.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

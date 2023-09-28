@@ -43,15 +43,13 @@ Nella pagina **Scheda commessa**, è possibile ora vedere un riepilogo dei costi
 
 Per informazioni su come registrare i prezzi e i costi di commesse a budget rispetto a quelli effettivi, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
 
-## Vedi il relativo [training Microsoft](/training/modules/set-up-job-planning-lines/)
-
 ## Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

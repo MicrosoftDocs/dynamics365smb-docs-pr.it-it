@@ -45,8 +45,6 @@ In caso di vendita o di cessione di un cespite, il valore di cessione viene regi
 
 Viene visualizzata la pagina **Movimenti C/G** in cui è possibile visualizzare i movimenti che hanno comportato la registrazione di cessione.  
 
-## Vedi il relativo [training Microsoft](/training/modules/dispose-fixed-assets/)
-
 ## Vedere anche
 
 [Cespiti](fa-manage.md)  

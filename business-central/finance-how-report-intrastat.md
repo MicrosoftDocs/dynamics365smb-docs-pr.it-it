@@ -134,8 +134,6 @@ Quando abiliti questa opzione, il sistema utilizza le seguenti regole, ma solo s
 | Paese extra UE | Paese UE diverso dal paese indicato nelle **Informazioni società** | Nessuna riga Intrastat |
 | Paese extra UE | Paese extra UE | Nessuna riga Intrastat |   
 
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Vedere anche
 
 [Impostare il report Intrastat](finance-how-setup-report-intrastat.md)  

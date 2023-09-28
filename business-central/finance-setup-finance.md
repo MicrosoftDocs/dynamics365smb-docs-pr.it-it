@@ -39,7 +39,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Definisci una o più valute aggiuntive in modo da indicare automaticamente gli importi sia nella valuta locale (VL) sia nella seconda valuta in ogni movimento di contabilità generale (C/G) e in altri movimenti.|[Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md)|
 |Rettificare periodicamente gli equivalenti della valuta addizionale per compensare tassi di cambio fluttuanti.|[Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)|
 |Definisci molteplici tassi di interesse da utilizzare in periodi differenti per pagamenti in ritardo nelle transazioni commerciali.|[Impostare più tassi d'interesse](finance-how-to-set-up-multiple-interest-rates.md)|
-|Fai in modo che gli importi vengano arrotondati automaticamente durante la creazione delle fatture.|[Impostare l'arrotondamento delle fatture](finance-set-up-invoice-rounding.md)|
+|Fare in modo che gli importi vengano arrotondati automaticamente durante la creazione delle fatture.|[Impostare l'arrotondamento delle fatture](finance-set-up-invoice-rounding.md)|
 | Aggiungere nuovi conti a un piano dei conti esistente. |[Impostazione del piano dei conti](finance-setup-chart-accounts.md) |
 | Impostare i grafici di business intelligence (BI) per analizzare il flusso di cassa. |[Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md) |
 |Abilita la fatturazione di un cliente che non è impostato nel sistema.|[Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md)|
@@ -51,13 +51,11 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 > [!TIP]
 > A seconda della posizione geografica, alcune pagine di Business Central possono contenere campi non descritti negli articoli qui elencati perché si applicano a funzionalità o personalizzazioni locali. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Vedi il relativo [training Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/)
-
 ## Vedere anche
 
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
-[Utilizzare le dimensioni](finance-dimensions.md)  
+[Usare le dimensioni](finance-dimensions.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

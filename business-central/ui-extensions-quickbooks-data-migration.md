@@ -61,8 +61,6 @@ Esistono alcune operazioni consigliate: se le transazioni in QuickBooks presenta
 Se si utilizza l'IVA, può essere necessario aggiungere una categoria di registrazione business e articoli/servizi nel Setup registrazione in modo che sia possibile registrare gli importi IVA.
 Verificare i saldi iniziali per i conti della contabilità generale. QuickBooks non memorizza il saldo attuale per tutti i conti, potrebbe quindi essere necessario correggere i saldi iniziali.
 
-## Vedi il relativo [training Microsoft](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  

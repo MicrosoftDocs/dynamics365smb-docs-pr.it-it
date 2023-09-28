@@ -70,8 +70,6 @@ La funzione **Dimmi cosa vuoi fare** non effettua ricerche nei dati, come i nomi
 
 La funzionalità delle informazioni è stata mostrata a una serie di parti interessate, si è preso atto delle domande comuni e trasformato gli appunti in un elenco di domande frequenti. Nel caso, vedi le [domande frequenti sulla funzionalità delle informazioni](ui-search-faq.md).
 
-## Vedi il relativo [training Microsoft](/training/modules/user-interface-dynamics-365-business-central/index)
-
 ## Vedi anche
 
 [Utilizzare Business Central](ui-work-product.md)  

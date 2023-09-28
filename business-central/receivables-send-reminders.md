@@ -15,8 +15,6 @@ ms.author: bholtorf
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Vedi il relativo [training Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  

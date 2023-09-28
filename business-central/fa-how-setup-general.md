@@ -123,13 +123,11 @@ Nel caso in cui si utilizzino i cespiti in [!INCLUDE[prod_short](includes/prod_s
 
 Se i cespiti non sono integrati in contabilità generale, saltare i passaggi 6 e 8.
 
-## Vedi il relativo [training Microsoft](/training/paths/set-up-fixed-assets-management/)
-
 ## Vedere anche
 
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -120,8 +120,6 @@ La pagina **Correzione dati OCR** che si apre dalla pagina **Documento in entrat
 
 I campi della Scheda dettaglio **Informazioni finanziarie** nella pagina **Documento in entrata** vengono aggiornati con i nuovi valori immessi nel passaggio 4.
 
-## Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Creare i record di documenti in entrata](across-how-create-income-document-records.md)

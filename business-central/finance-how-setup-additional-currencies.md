@@ -124,8 +124,6 @@ Per tutti i movimenti futuri dello stesso tipo gli importi verranno inoltre regi
 > [!NOTE]  
 > Il campo **Valuta contabile addizionale** verrà attivata solo dopo aver fatto clic sul pulsante **OK** nel processo batch **Rett. valuta cont. addizionale**.  
 
-## Vedi il relativo [training Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  

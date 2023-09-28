@@ -47,8 +47,6 @@ Tutti i record del documento in entrata vengono visualizzati, inclusi quelli in 
 > [!NOTE]  
 > È inoltre possibile eseguire questa azione per il singolo record nella pagina **Scheda Documento in entrata**.
 
-## Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Vedere anche
   
 [Creare i record di documenti in entrata](across-how-create-income-document-records.md)

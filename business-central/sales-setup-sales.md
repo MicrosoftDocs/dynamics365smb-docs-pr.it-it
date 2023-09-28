@@ -35,8 +35,6 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 |Specifica se gli utenti possono registrare le fatture di vendita e se devono registrarle insieme a una spedizione. |[Definire criteri di registrazione fattura per gli utenti](admin-setup-invoice-posting-policy.md)|
 
-## Vedi il relativo [training Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/)
-
 ## Vedi anche
 [Vendite](sales-manage-sales.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

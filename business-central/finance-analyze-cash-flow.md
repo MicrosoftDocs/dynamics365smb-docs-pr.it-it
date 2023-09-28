@@ -42,12 +42,10 @@ Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibil
 2. Scegliere una previsione flusso di cassa quindi scegliere l'azione **Prospetto flussi di cassa**.  
 3. Nella pagina **Prospetto flusso di cassa** scegliere l'azione **Suggerisci righe prospetto**.  
 
-## Vedi il relativo [training Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
-
 ## Vedi anche
 
 [Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md)  
 [Previsione del flusso di cassa in Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)  
 [Configurare le previsioni del flusso di cassa usando l'intelligenza artificiale di Azure in Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)  

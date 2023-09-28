@@ -61,9 +61,7 @@ Per collegare Business Central on-premises, è necessario creare un'app su Trade
 
 Se si preferisce archiviare l'ID app e il segreto in una posizione diversa, è possibile lasciare vuoti i campi ID client e Segreto client e scrivere un'estensione per recuperare l'ID e il segreto dalla posizione. Puoi fornire il segreto a runtime sottoscrivendo gli eventi OnGetClientId e OnGetClientSecret nella codeunit 1410 "Doc. Exch. Gestione dei servizi"
 
-## Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/)
-
-## Vedi anche
+## Vedere anche
 
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)

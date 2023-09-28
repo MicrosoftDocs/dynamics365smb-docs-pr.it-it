@@ -43,13 +43,11 @@ In questo argomento vengono definiti i termini chiave utilizzati nella contabili
 |Costo variabile|I costi variabili sono spese che cambiano proporzionalmente all'attività di un'azienda. Rappresentano la somma dei costi marginali in tutte le unità prodotte. I costi fissi e quelli variabili costituiscono i due componenti dei costi totali.|  
 |Variante|Viene utilizzata una variante come etichetta personalizzata opzionale relativa alle allocazioni. Lo scopo dell'etichetta è quello di filtrare i gruppi di allocazione.|  
 
-## Vedi il relativo [training Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Vedere anche
 
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)  
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
- [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

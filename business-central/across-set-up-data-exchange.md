@@ -33,8 +33,6 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Preparare l'impostazione di una nuova definizione di scambio di dati per un file o un flusso di dati utilizzando lo schema XML del file per precompilare la Scheda dettaglio **Definizioni colonne** nella pagina **Registrazione definizioni di scambio**.|[Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Impostare il framework di scambio dei dati per consentire agli utenti di ricevere un nuovo formato di documenti di acquisto, inviare un nuovo formato di documenti di vendita, importare un nuovo file bancario o altri tipi di scambio di dati.|[Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  

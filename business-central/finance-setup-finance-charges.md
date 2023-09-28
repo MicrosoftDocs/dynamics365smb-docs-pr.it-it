@@ -62,8 +62,6 @@ Inoltre ogni condizione nella tabella Condiz.Interessi Finanziari è collegata a
 |%8|Contenuto del campo **Codice valuta** della testata della nota di addebito interessi|  
 |%9|Contenuto del campo **Data reg.** della testata della nota di addebito interessi|  
 
-## Vedi il relativo [training Microsoft](/training/modules/send-memos-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  

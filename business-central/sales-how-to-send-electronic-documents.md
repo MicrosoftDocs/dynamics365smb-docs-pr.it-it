@@ -43,11 +43,9 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] supporta 
     > [!NOTE]  
     >  È inoltre possibile inviare una fattura di vendita registrata come documento elettronico. La procedura è uguale a quella descritta in questo argomento per i documenti di vendita non registrati. Nella pagina **Fatt. di vend. reg.** scegliere l'azione **Log attività** per visualizzare lo stato del documento elettronico.  
 
-## Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Vedi anche
 
-[Fatturare le vendite](sales-how-invoice-sales.md)  
+[Fatturazione delle vendite](sales-how-invoice-sales.md)  
 [Impostare profili di invio documenti](sales-how-setup-document-send-profiles.md)  
 [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Impostare un servizio di scambio documenti](across-how-to-set-up-a-document-exchange-service.md)  

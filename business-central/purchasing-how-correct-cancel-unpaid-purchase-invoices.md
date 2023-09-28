@@ -23,7 +23,7 @@ Nella pagina **Fattura acquisto registrata** è possibile scegliere il pulsante 
 
 ## Per correggere una fattura di acquisto registrata
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto registrate**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la fattura di acquisto che si desidera rettificare.  
 
     > [!NOTE]  
@@ -51,13 +51,11 @@ Nella pagina **Fattura acquisto registrata** è possibile scegliere il pulsante 
 
 Se l'annullamento è correlato a una registrazione parziale della fattura, la riga dell'ordine di acquisto di origine viene aggiornata per riflettere la quantità fatturata annullata. I campi **Qtà da fatturare** e **Qtà fatturata** nella riga dell'ordine fornitore correlato vengono reimpostati sui valori precedenti alla registrazione parziale.
 
-## Vedi il relativo [training Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/)
-
 ## Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -27,7 +27,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 3. Nella pagina **Attributi articolo** compilare i campi secondo le proprie necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Se selezioni **Opzione** nel campo **Tipo** puoi scegliere l'azione **Valori attributo articolo** per creare valori per l'attributo dell'articolo. Per ulteriori informazioni, vedere [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
+> Se selezioni **Opzione** nel campo **Tipo** puoi scegliere l'azione **Valori attributo articolo** per creare valori per l'attributo dell'articolo. Per ulteriori informazioni, vedere [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#create-values-for-item-attributes-of-type-option).  
 
 ## Creare i valori per gli attributi articolo di tipo Opzione
 
@@ -40,9 +40,9 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Nella pagina **Articoli**, selezionare l'articolo a cui si desidera assegnare gli attributi articoli quindi selezionare l'azione **Attributi**.
 3. Nella pagina **Valori attributo articolo** scegliere l'azione **Nuovo**.
-4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto in [Per creare attributi articolo](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto in [Per creare attributi articolo](inventory-how-work-item-attributes.md#create-item-attributes).
 5. Nel campo **Valore** immettere il valore dell'attributo articolo, ad esempio "2010" per l'attributo **Anno modello**.
-6. Per gli attributi articolo di tipo **Opzione**, scegliere il pulsante di ricerca nel campo **Valore**, quindi selezionare un valore di attributo articolo. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo valore di attributo articolo come descritto in [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
+6. Per gli attributi articolo di tipo **Opzione**, scegliere il pulsante di ricerca nel campo **Valore**, quindi selezionare un valore di attributo articolo. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo valore di attributo articolo come descritto in [Per creare i valori per gli attributi articolo di tipo Opzione](inventory-how-work-item-attributes.md#assign-item-attributes-to-items).
 7. Ripetere i passaggi da 4 a 6 per tutti gli attributi articoli che si desidera assegnare all'articolo.
 
 ## Assegnare attributi articolo alle categorie articoli
@@ -50,7 +50,7 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie articoli**, quindi scegli il collegamento correlato.
 2. Nella pagina **Categorie articoli**, selezionare la categoria dell'articolo a cui si desidera assegnare gli attributi articolo quindi selezionare l'azione **Modifica**.
 3. Nella pagina **Scheda categoria articolo**, scegliere l'azione **Nuovo** nella Scheda dettaglio **Attributi**.
-4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto in [Per creare attributi articolo](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. Nel campo **Attributo** scegliere il pulsante di ricerca e selezionare un attributo articolo esistente. In alternativa, scegliere l'azione **Nuovo** per creare prima un nuovo attributo articolo come descritto in [Per creare attributi articolo](inventory-how-work-item-attributes.md#create-item-attributes).
 5. Nel campo **Valore predefinito** scegliere il pulsante di ricerca e selezionare un valore attributo articolo.
 6. Ripetere i passaggi da 4 a 5 per tutti gli attributi articoli che si desidera assegnare alla categoria articolo.
 
@@ -75,14 +75,12 @@ Quando i clienti richiedono informazioni su un articolo, per corrispondenza o in
 
 Gli articoli nella pagina **Articoli** vengono filtrati in base ai valori dell'attributo articolo specificato.
 
-## Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Classificare gli articoli](inventory-how-categorize-items.md)  
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
-[Magazzino](inventory-manage-inventory.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Inventario](inventory-manage-inventory.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

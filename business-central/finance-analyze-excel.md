@@ -50,8 +50,6 @@ L'esperienza [!INCLUDE [prod_short](includes/prod_short.md)] include un componen
 
 Il componente aggiuntivo ti consente di ottenere dati aggiornati da [!INCLUDE [prod_short](includes/prod_short.md)], e importare nuovamente le modifiche in [!INCLUDE [prod_short](includes/prod_short.md)]. Tuttavia, la funzionalità che consente di importare nuovamente i dati nel database non è disponibile per i report finanziari di Excel.  
 
-## Vedi il relativo [training Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Vedi anche
 
 [Visualizzare e modificare in Excel da Business Central](across-work-with-excel.md)  

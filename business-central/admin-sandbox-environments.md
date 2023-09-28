@@ -3,7 +3,7 @@ title: Ambienti sandbox
 description: 'Scopri come un ambiente dedicato può aiutarti a esplorare, imparare, dimostrare, sviluppare, risolvere i problemi e testare Business Central in sicurezza.'
 author: brentholtorf
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -64,11 +64,9 @@ Per ulteriori informazioni, vedi [Utilizzare la finestra di progettazione](/dyna
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## Vedi il relativo [training Microsoft](/training/modules/admin-online-dynamics-365-business-central/)
-
 ## Vedere anche
 
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 Versioni di valutazione e sottoscrizioni di [[!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 [Gestione di ambienti nell'interfaccia di amministrazione di Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Ambienti di produzione e sandbox](/dynamics365/business-central/dev-itpro/administration/environment-types)  

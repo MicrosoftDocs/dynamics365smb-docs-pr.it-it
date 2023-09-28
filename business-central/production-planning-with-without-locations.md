@@ -139,14 +139,12 @@ Come risulta evidente dall'ultimo scenario, l'unico modo per ottenere un risulta
 
 Pertanto, se risulta spesso necessario pianificare la domanda in varie ubicazioni, è consigliabile utilizzare la funzionalità Unità di stockkeeping.
 
-## Vedi le informazioni relative al training in [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Vedere anche
 
 [Pianif.](production-planning.md)  
 [Impostare la produzione](production-configure-production-processes.md)  
-[Manufacturing](production-manage-manufacturing.md)  
-[Magazzino](inventory-manage-inventory.md)  
+[Produzione](production-manage-manufacturing.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Impostare le unità di stockkeeping](inventory-how-to-set-up-stockkeeping-units.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 [Dettagli di progettazione: Pianificazione approvvigionamento](design-details-supply-planning.md)  

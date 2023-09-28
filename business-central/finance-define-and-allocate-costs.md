@@ -137,8 +137,6 @@ In questo argomento viene visualizzato un esempio su come definire le allocazion
 > [!IMPORTANT]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] vengono utilizzate le cifre di vendita degli anni precedenti per calcolare una quota di 1.596,50 VL con il 100% dei colli di ATTREZZATURA IT. Pertanto, tutti gli articoli venduti nell'ultimo anno verranno assegnati all'oggetto di costo ATTREZZATURA IT.
 
-## Vedi il relativo [training Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/)
-
 ## Vedere anche
 
  [Impostazione della contabilità industriale](finance-set-up-cost-accounting.md)  

@@ -68,12 +68,10 @@ Analogamente alla definizione del budget nella contabilità generale, è possibi
 
 La maggior parte dei report e delle statistiche è basata sui movimenti di costi registrati. È possibile impostare l'ordinamento dei risultati e utilizzare filtri per definire quali dati devono essere visualizzati. È possibile creare report per l'analisi di distribuzione dei costi. Inoltre, è possibile utilizzare i report finanziari standard per definire come vengono visualizzati i report del piano dei tipi di costo.  
 
-## Vedi il relativo [training Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Terminologia della contabilità industriale](finance-terminology-in-cost-accounting.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

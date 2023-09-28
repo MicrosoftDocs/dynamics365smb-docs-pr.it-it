@@ -81,16 +81,14 @@ I costi di manutenzione possono essere esaminati anche visualizzando i movimenti
 Nel report **Manutenzione - Dettagli**, è possibile visualizzare o stampare i movimenti contabili di manutenzione per uno o più cespiti.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Dettagli manutenzione**, quindi scegli il collegamento correlato.
-2. Compilare i campi in base alle esigenze.
+2. Compila i campi in base alle esigenze.
 3. Seleziona il pulsante **Stampa** o **Anteprima**.
-
-## Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

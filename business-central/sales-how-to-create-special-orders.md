@@ -38,11 +38,9 @@ Un ordine di acquisto creato come ordine speciale per un ordine di vendita viene
 > [!NOTE]  
 >  Se l'elemento è già prenotato, non è possibile utilizzare la funzionalità ordine speciale. Pertanto, per gli articoli venduti in ordini speciali, assicurarsi che il campo **Impegno** nella scheda articolo non sia impostato su **Sempre**.  
 
-## Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Vedere anche
 
-[Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md)  
+[Usare gli articoli del catalogo](inventory-how-work-nonstock-items.md)  
 [Vendite](sales-manage-sales.md)  
 [Effettuare spedizioni dirette](sales-how-drop-shipment.md)   
 [Dettagli di progettazione: Metodi di riordino](design-details-reservation-order-tracking-and-action-messaging.md)  

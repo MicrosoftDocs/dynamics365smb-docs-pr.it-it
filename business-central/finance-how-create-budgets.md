@@ -53,12 +53,10 @@ Immetti 1.200.000 nella riga di intestazione, esporti il budget in Excel e quind
 
 Il reparto Stipendi distribuisce la somma su tre conti di registrazione. Quando si reimporta nel budget C/G, i tre conti vengono compilati con i nuovi dati Excel, con totale 1.200.000 VL, e la riga di intestazione è vuota.
 
-## Vedi il relativo [training Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
-
 ## Vedere anche
 
 [Esportazione dei dati aziendali in Excel](about-export-data.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Business Intelligence](bi.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  

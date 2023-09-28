@@ -91,11 +91,9 @@ I movimenti contabili cliente e articolo sono ora creati nel sistema e l'ordine 
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/).
-
 ## Vedere anche
 
-[Fatturare le vendite](sales-how-invoice-sales.md)  
+[Fatturazione delle vendite](sales-how-invoice-sales.md)  
 [Registrazione di vendite](ui-post-sales.md)  
 [Spedire articoli](warehouse-how-ship-items.md)  
 [Effettuare spedizioni dirette](sales-how-drop-shipment.md)  

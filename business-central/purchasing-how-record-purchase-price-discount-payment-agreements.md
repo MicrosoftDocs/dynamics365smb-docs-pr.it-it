@@ -35,7 +35,7 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 
 #### [Esperienza corrente](#tab/current-experience)
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda fornitore interessata e scegliere l'azione **Prezzi**.
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Compilare una riga per ogni combinazione per la quale il fornitore concede uno sconto riga acquisto.
@@ -139,12 +139,10 @@ Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che 
 
 Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato nella riga, viene recuperato l'ultimo costo diretto o il prezzo unitario dalla scheda articolo immesso.
 
-## Vedi il relativo [training Microsoft](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
-
 ## Vedere anche
 
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

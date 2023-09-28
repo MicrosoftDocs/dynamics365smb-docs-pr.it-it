@@ -140,14 +140,12 @@ Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il ca
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
-## Vedi il relativo [training Microsoft](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
-[Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Inviare documenti tramite e-mail](ui-how-send-documents-email.md)  
 [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

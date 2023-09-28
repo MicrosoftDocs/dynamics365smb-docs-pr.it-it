@@ -338,8 +338,6 @@ Il processo di utilizzo dei report Intrastat è lo stesso della funzionalità gl
 
 <!-- ### United Kingdom-->
 
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Vedere anche
 
 [Reporting Intrastat in Business Central](finance-how-report-intrastat.md)  

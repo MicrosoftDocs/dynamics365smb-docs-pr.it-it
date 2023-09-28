@@ -3,13 +3,13 @@ title: Come impostare ubicazioni per l'utilizzo di collocazioni
 description: Le collocazioni rappresentano la struttura di warehouse di base e vengono utilizzate per creare suggerimenti relativi al posizionamento degli articoli.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-locations-to-use-bins"></a>Impostare ubicazioni per l'utilizzo di collocazioni
+# Impostare ubicazioni per l'utilizzo di collocazioni
 
 Le collocazioni rappresentano la struttura di base del magazzino e possono suggerire dove riporre gli articoli. Dopo avere creato le collocazioni, puoi definire il contenuto o utilizzarle come collocazioni variabili, ovvero prive di contenuto specifico.
 
@@ -27,7 +27,7 @@ Nel prossimo passaggio si progetta il flusso degli articoli nell'ubicazione spec
 > [!NOTE]  
 > È necessario creare i codici collocazione prima di poterli specificare per l'ubicazione. Per ulteriori informazioni, vedere [Creare collocazioni](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Per impostare un'ubicazione per l'utilizzo di collocazioni
+## Per impostare un'ubicazione per l'utilizzo di collocazioni
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2. Selezionare l'ubicazione in cui si desidera utilizzare le collocazioni.  
@@ -45,15 +45,13 @@ Nel prossimo passaggio si progetta il flusso degli articoli nell'ubicazione spec
 9. Facoltativo: compila i campi nella scheda dettaglio **Criteri collocazione**. I campi più importanti sono **Criteri capacità collocazione**, **Permettere breakbulk** e **Codice modello stoccaggio**.  
 10. Nella Scheda dettaglio **Warehouse** compilare i campi **Tempo gest. uscita da whse.**, **Tempo gest. entrata in whse.** e **Codice calendario base**. Per ulteriori informazioni, vai a [Impostazione dei calendari di base](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin"></a>Rifornimento della collocazione di consumo
+## Rifornimento della collocazione di consumo
 
 Il seguente diagramma di flusso illustra in che modo il campo **Cod. collocazione** nelle righe del componente dell'ordine di produzione viene compilato in base al setup dell'ubicazione.
 
 :::image type="content" source="media/binflow.png" alt-text="Campo Codice collocazione nelle righe componenti dell'ordine di produzione.":::
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/configure-bins-location/)
-
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

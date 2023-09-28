@@ -33,12 +33,12 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Per | Vedere |
 | --- | --- |
 | Creazione di cespiti, assegnazione di metodi di ammortamento, registrazione di acquisti, valori di realizzo e stampa di liste di cespiti. |[Acquisire i cespiti](fa-how-acquire.md) |
-| Registrazione delle visite di assistenza, pubblicazione dei costi di manutenzione e monitoraggio dei costi di manutenzione. |[Gestione di cespiti](fa-how-maintain.md) |
-| Aggiornamento delle informazioni di assicurazione, registrazione dei costi di acquisto in polizze assicurative, modifica della copertura assicurativa, visualizzazione delle statistiche di assicurazione e creazione di liste delle polizze assicurative. |[Assicurazione di cespiti](fa-how-insure.md) |
+| Registrare le visite di assistenza, pubblicare e monitorare i costi di manutenzione. |[Gestione di cespiti](fa-how-maintain.md) |
+| Aggiornare informazioni di assicurazione, registrare costi di acquisto in polizze assicurative, modificare la copertura assicurativa, visualizzare le statistiche di assicurazione e creare liste delle polizze assicurative. |[Assicurazione di cespiti](fa-how-insure.md) |
 | Riclassificazione dei cespiti, trasferimento dei cespiti in ubicazioni diverse, suddivisione o raggruppamento dei cespiti. |[Trasferimento, divisione o combinazione di cespiti](fa-how-trans-split-combine.md) |
 | Rettifica dei valori dei cespiti, registrazione dell'ammortamento e di transazioni di svalutazione. |[Rivalutazione dei cespiti](fa-how-revalue.md) |
 | Calcolo dell'ammortamento, registrazione dell'ammortamento e analisi dell'ammortamento nei report sui cespiti. |[Ammortamento dei cespiti](fa-how-depreciate-amortize.md) |
-| Registrazione di transazioni di cessione, visualizzazione dei movimenti contabili di cessione e registrazione di cessioni parziali. |[Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md) |
+| Registrare transazioni di cessione, visualizzare movimenti contabili di cessione e registrare cessioni parziali. |[Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md) |
 | Gestione dei budget per i cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. |[Gestione dei budget per i cespiti](fa-how-manage-budgets.md) |
 
 ## Video di panoramica
@@ -47,12 +47,10 @@ Il video seguente illustra le nozioni di base dei cespiti.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Vedi il relativo [training Microsoft](/training/paths/manage-fixed-assets-transactions/)
-
 ## Vedere anche
 
 [Impostazione di cespiti](fa-setup.md)  
-[Modifica delle funzionalità visualizzate](ui-experiences.md)  
+[Modificare le funzionalità visualizzate](ui-experiences.md)  
 [Finanze](finance.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

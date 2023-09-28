@@ -62,14 +62,12 @@ Prima di poter iniziare a utilizzare i flussi di lavoro, è necessario impostare
 | Richiedere l'approvazione di un task, come responsabile approvazione, accettare, declinare o delegare le approvazioni e inviare o visualizzare le notifiche di approvazione. | [Procedura: Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md) |
 | Creare le fasi del flusso di lavoro che limitano l'utilizzo di un certo tipo di record prima del verificarsi di un determinato evento, ad esempio l'approvazione del record. | [Limitare e consentire l'utilizzo di un record](across-how-to-restrict-and-allow-usage-of-a-record.md) |
 | Visualizzare istanze dei passaggi del flusso di lavoro con lo stato **Completato**. | [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md) |
-| Eliminare un workflow di approvazione che non verrà più utilizzato. | [Eliminare i workflow di approvazione](across-how-to-delete-workflows.md) |
-
-## Vedi il relativo [training Microsoft](/training/modules/create-workflows/)
+| Eliminare un workflow di approvazione che non verrà più utilizzato. | [Eliminare workflow di approvazione](across-how-to-delete-workflows.md) |
 
 ## Vedere anche
 
-[Configurare i flussi di lavoro di approvazione](across-set-up-workflows.md)  
+[Configurare i workflow di approvazione](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

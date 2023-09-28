@@ -62,11 +62,9 @@ Il layout delle pagine per il profilo viene ripristinato al layout predefinito.
 
 Il layout delle pagine selezionate viene adattato alle modifiche apportate.
 
-## Vedi il relativo [training Microsoft](/training/paths/tailor-roles-design-ui/)
-
 ## Vedere anche
 
-[Personalizzare l'area di lavoro](ui-personalization-user.md)  
+[Personalizza l'area di lavoro](ui-personalization-user.md)  
 [Gestire profili](admin-users-profiles-roles.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  

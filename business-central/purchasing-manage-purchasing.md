@@ -37,13 +37,11 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Convertire, ad esempio, le fatture elettroniche dei fornitori in fatture di acquisto in Business Central.|[Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Informazioni su come vengono effettuati i calcoli [!INCLUDE[prod_short](includes/prod_short.md)] quando è necessario ordinare un articolo per riceverlo in una determinata data.|[Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)|
 |Eliminare la confusione quando due o più record sono presenti per lo stesso fornitore.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
-|Gestire l'impegno di un fornitore per acquistare grandi quantità consegnate nel tempo in diverse spedizioni.|[Utilizzare gli ordini di acquisto programmati](sales-how-to-create-blanket-sales-orders.md)|
+|Gestire l'impegno di un fornitore per acquistare grandi quantità consegnate nel tempo in diverse spedizioni.|[Usare gli ordini di acquisto programmati](sales-how-to-create-blanket-sales-orders.md)|
 
 ## Numeri di documento esterno
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
-## Vedi il relativo [training Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## Vedere anche
 

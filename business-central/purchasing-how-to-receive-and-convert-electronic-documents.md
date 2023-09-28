@@ -52,8 +52,6 @@ Nella procedura riportata di seguito viene descritto come ricevere una fattura d
 
     Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[prod_short](includes/prod_short.md)], verranno visualizzati nella Scheda dettaglio **Messaggi di errore**.  
 
-## Vedi il relativo [training Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Vedi anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

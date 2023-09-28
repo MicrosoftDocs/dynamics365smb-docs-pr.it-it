@@ -302,8 +302,6 @@ Gli importi nei documenti che non sono ancora stati registrati vengono arrotonda
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## Vedi il relativo [training Microsoft](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Impostazione di definizioni di dichiarazione IVA e di nomi delle dichiarazioni IVA](finance-how-setup-vat-statement.md)  
