@@ -5,13 +5,13 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/24/2023
+ms.date: 09/07/2023
 ms.custom: bap-template
 ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
-ms.search.form: '2500, 20350'
+ms.search.form: '2500, 2514, 20350'
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Installare e disinstallare le estensioni (app) in Business Central
+# Installare e disinstallare le estensioni (app) in Business Central
 
 È possibile modificare [!INCLUDE[prod_short](includes/prod_short.md)] installando app che, ad esempio aggiungano funzionalità, modifichino il comportamento o permettano di accedere a nuovi servizi online. Per ulteriori informazioni, vedere [Personalizzazione di Business Central usando le estensioni](ui-extensions.md).
 
@@ -22,7 +22,7 @@ ms.search.form: '2500, 20350'
 
 Per utilizzare un'estensione, devi disporre dei set di autorizzazioni fornito con essa.
 
-## <a name="install-an-extension"></a><a name="install"></a>Installare un'estensione
+## <a name="install"></a>Installare un'estensione
 
 Le app e le estensioni vengono gestite nella pagina **Gestione estensioni**. È possibile accedere a questa pagina dalla home page. In alternativa scegli l'icona **Cerca pagina o report** ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") nell'angolo in alto a destra, inserisci **Estensione**, quindi scegli il collegamento correlato.  
 
@@ -69,19 +69,19 @@ Microsoft fornisce le seguenti app:
 * [Estensione dei codici postali di GetAddress.io per il Regno Unito](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Invio dell'avviso di rimessa](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a>Impostare un'app
+## Impostare un'app
 
 Dopo aver installato un'app, potrebbe essere necessario configurarla. Ad esempio, per l'app **PayPal Payments Standard per [!INCLUDE[prod_short](includes/prod_short.md)]** è necessario specificare il conto PayPal da utilizzare. In tal caso, al termine dell'installazione, [!INCLUDE[prod_short](includes/prod_short.md)] ti chiederà se desideri configurare l'app immediatamente. Le impostazioni possono essere obbligatorie per il funzionamento dell'app o facoltative.
 
 Se scegli di configurare subito la tua app e ha una configurazione obbligatoria, [!INCLUDE[prod_short](includes/prod_short.md)] aprirà la configurazione obbligatoria. La configurazione può essere una pagina in cui inserire le informazioni o una guida al setup assistito che ti aiuta durante i passaggi. Se non completi l'impostazione in una volta, puoi utilizzare la pagina **Setup per _nome dell'app_**, che elenca tutte le impostazioni per l'app. Impostazioni obbligatorie indicate da **lettere in grassetto**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Caricare un'estensione per tenant (PTE)
+## Caricare un'estensione per tenant (PTE)
 
 Si carica un PTE usando la pagina di **gestione delle estensioni** . Nella pagina di **gestione delle estensioni**, vai su **Gestisci**, poi scegli **Carica estensioni**. Nella pagina **Caricare e distribuire l'estensione**, specifica il file .app da caricare. Per procedere, scegli il pulsante **Accetta** e poi il pulsante **Distribuisci**, questo inizierà il processo di distribuzione del PTE.
 
 Se il PTE contiene modifiche allo schema di suddivisione, è possibile *forzarne* il caricamento. Per farlo, nella **modalità Schema Sync** scegli l'opzione **Forza**. Viene visualizzata una finestra di dialogo di conferma da accettare prima di procedere.  
 
-## <a name="uninstall-an-app"></a>Disinstallare un'app
+## Disinstallare un'app
 
 Si disinstalla un'app utilizzando la pagina **Gestione delle estensioni** . Per disinstallare un'app, selezionala nella pagina, quindi seleziona l'azione **Disinstalla**. Se si disinstalla un'app e successivamente si cambia idea, è possibile installare di nuovo l'app.
 
@@ -92,7 +92,9 @@ Per impostazione predefinita, quando disinstalli un'app che hai utilizzato, i tu
 > * Se attivi l'interruttore **Elimina dati dell'estensione**, la disinstallazione dell'app cancellerà tutti i dati per l'app *e* i dati di tutte le app dipendenti. Questa azione non può essere annullata.
 > * Alcune app sono obbligatorie e non puoi eliminarle nella pagina **Gestione estensioni**.  
 
-## <a name="see-also"></a>Vedi anche
+Se desideri conservare i dati di un'app disinstallata, puoi eliminarli in un secondo momento. La pagina **Elimina dati dell'estensione** elenca le app per le quali disponi ancora di dati. Per eliminare i dati, scegli l'app, quindi scegli **Elimina dati**. 
+
+## Vedi anche
 
 [Personalizzare Business Central](ui-customizing-overview.md)  
 [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)  

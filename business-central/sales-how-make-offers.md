@@ -92,14 +92,12 @@ La conversione rimuove l'offerta di vendita dal database. Viene creata una fattu
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Inviare documenti via e-mail](ui-how-send-documents-email.md)  
-[Archiviare documenti](across-how-to-archive-documents.md)  
+[Inviare documenti tramite e-mail](ui-how-send-documents-email.md)  
+[Archiviare i documenti](across-how-to-archive-documents.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

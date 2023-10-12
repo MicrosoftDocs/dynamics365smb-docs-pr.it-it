@@ -9,7 +9,7 @@ Una volta aggiunti tutti gli articoli nelle righe, sarà possibile calcolare lo 
 Lo sconto viene calcolato in base a tutte le righe del documento di vendita in cui viene selezionata la casella di controllo **Sconto fattura**. Per impostazione predefinita, sono consentiti sconti fattura. Tuttavia, le righe con addebiti articolo non vengono ad esempio incluse nel calcolo dello sconto fattura. Per applicare uno sconto a tali righe, immetti un valore nel campo **Importo Sconto Riga** nelle righe.  
 
 > [!NOTE]
-> Per impostazione predefinita, i campi **Sconto Fattura** e **Importo Sconto Riga** sono nascosti sulle righe. Se i campi non sono disponibili, puoi aggiungerli personalizzando la pagina. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Per impostazione predefinita, i campi **Sconto Fattura** e **Importo Sconto Riga** sono nascosti sulle righe. Se i campi non sono disponibili, puoi aggiungerli personalizzando la pagina. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
 > Se il campo **Calcola sconto fatt.** nella pagina **Setup contabilità clienti** è selezionato, lo sconto sulla fattura viene calcolato automaticamente. Il momento in cui avviene il calcolo varia a seconda del tipo di documento di vendita che stai utilizzando.

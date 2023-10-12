@@ -4,12 +4,12 @@ metadata:
   description: Risposte alle domande frequenti sull'utilizzo di Business Central con un telefono o un tablet.
   author: brentholtorf
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.service: dynamics365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 10/25/2021
+  ms.date: 09/21/2023
   ms.author: bholtorf
+  ms.reviewer: jswymer
+  ms.custom: bap-template
 title: Domande frequenti sulle app per dispositivi mobili
 summary: |
   Questo articolo contiene le risposte alle domande più comuni poste dai nostri utenti esperti sulle app per dispositivi mobili per [!INCLUDE [prod_short](includes/prod_short.md)].  
@@ -38,8 +38,8 @@ sections:
           | Azioni nella barra delle azioni | Sono visualizzate solo le azioni essenziali. | Sono visualizzate solo le azioni essenziali. |  |
           | Riquadri Dettaglio informazioni | Non visualizzati nelle pagine di elenco o nelle pagine di prospetto. | Non visualizzati nelle pagine di elenco o nelle pagine di prospetto. | Elenco `Customer` nella gestione ruolo utente `Small Business` |
           | Filtri avanzati | Non è disponibile alcun filtro specifico per le colonne. | Non è disponibile alcun filtro specifico per le colonne. | Nella pagina di elenco `Customer`. |
-          | Funzionalità delle informazioni | Non ancora disponibile. | Non ancora disponibile. | Vedi [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md). |  |
-          | Esplora ruoli | Non ancora disponibile. | Non ancora disponibile. | Vedi [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md). |
+          | Funzionalità delle informazioni | Deve essere abilitata in [Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management) usando l'interruttore **Funzionalità: ricerca di pagine e dati nell'app per dispositivi mobili**. La sezione **Ottieni da Microsoft AppSource** nei risultati per le app non è disponibile. | Come per tablet | Vedi [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md). |  |
+          | Esplora ruolo | Non ancora disponibile. | Non ancora disponibile. | Vedi [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md). |
           | Campi nelle Schede dettaglio | I campi nelle Schede dettaglio delle pagine di elenco non sono visualizzati. Nell'area del contenuto della pagina è visualizzato solo il controllo ripetitore. | Non disponibile. |  |
           | Seleziona da elenco completo | Non disponibile nelle ricerche. Gli utenti non sono in grado di eseguire azioni in una pagina di ricerca e non possono accedere al set di record completo. | Non disponibile nelle ricerche. Gli utenti non sono in grado di eseguire azioni in una pagina di ricerca e non possono accedere al set di record completo. | Sulla `Item Card` quando si seleziona **Unità di misura base**. |
           | Ricerca nelle colonne dell'elenco | Supportato parzialmente. La ricerca non includerà FlowField. | Supportato parzialmente. La ricerca non includerà FlowField. | Vedi gli esempi nella pagina di elenco `Customers`. |
@@ -61,7 +61,7 @@ sections:
       - question: |
           Un utente guest può utilizzare l'app per accedere alla nostra soluzione Business Central?
         answer: |
-          No. Gli utenti guest sono utenti invitati da un altro tenant Azure Active Directory (AD) diverso dal tuo. In questo caso, l'app si autenticherà sul tenant primario Azure AD dell'utente guest e proverà ad aprire l'endpoint di Business Central su quel tenant anziché sul tuo.  
+          Nr. Gli utenti guest sono utenti invitati da un tenant Microsoft Entra diverso dal tuo. In questo caso, l'app si autenticherà sul tenant primario Microsoft Entra dell'utente guest e proverà ad aprire l'endpoint di Business Central su quel tenant anziché sul tuo.  
 additionalContent: |
 
   ## Vedere anche

@@ -107,12 +107,10 @@ Scegli il collegamento *Modifica il momento in cui ricevere le notifiche* per vi
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Vedere anche
 
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Modifica delle funzionalità visualizzate](ui-experiences.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Modificare le funzionalità visualizzate](ui-experiences.md)  
 [Creazione di nuove società](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

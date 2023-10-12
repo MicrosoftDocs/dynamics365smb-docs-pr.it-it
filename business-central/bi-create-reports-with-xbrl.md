@@ -114,12 +114,10 @@ Quando una tassonomia viene modificata è necessario aggiornare di conseguenza l
 6. Per importare la base di collegamento, scegliere l'azione **Importa**.  
 7. Scegli **Sì** per collegare la base di collegamento allo schema.  
 
-## Vedi le informazioni relative al training in [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
-
 ## Vedere anche
 
 [Business Intelligence finanziario](bi.md)  
-[Finanze](finance.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Dati finanziari](finance.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -42,13 +42,11 @@ Se movimenti in diverse valute vengono collegati, è necessario impostare il con
 3. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cat. reg. fornitori**, quindi scegli il collegamento correlato.  
 4. Nei campi **Conto dare arrot. coll. val.** e **Conto avere arrot. coll. val.** immettere i conti di contabilità generale pertinenti per registrare le differenze di arrotondamento.  
 
-## Vedi il relativo [training Microsoft](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

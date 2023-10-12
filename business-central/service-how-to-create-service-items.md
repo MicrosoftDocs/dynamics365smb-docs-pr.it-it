@@ -10,18 +10,18 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="create-service-items"></a>Creare articoli in assistenza
+# Creare articoli in assistenza
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], il termine "articolo in assistenza" si riferisce alle attrezzature o agli articoli che necessitano di assistenza. Quando si crea un ordine di assistenza, si specificano gli articoli che necessitano di assistenza. Nell'ordine, è possibile collegare un articolo in assistenza a un articolo in magazzino o a un gruppo di articoli in assistenza.    
 
 Quando si riceve un articolo che necessita di assistenza, è possibile registrarlo come articolo in assistenza. Questa operazione può essere effettuata in vari modi. Ad esempio, è possibile creare un articolo in assistenza nella pagina **Articoli in assistenza**, o nell'ambito di un altro processo, ad esempio quando si lavora con un ordine di assistenza.   
 
-## <a name="to-create-a-service-item"></a>Per creare un articolo in assistenza
+## Per creare un articolo in assistenza
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli in assistenza**, quindi scegli il collegamento correlato.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order"></a>Per creare articoli in assistenza all'interno di un ordine di assistenza
+## Per creare articoli in assistenza all'interno di un ordine di assistenza
 
 Quando si ricevono articoli su cui prestare assistenza e li si intende registrare come articoli in assistenza, è possibile crearli come articoli in assistenza nelle pagine **Ordine Assistenza** o **Offerte Assistenza**.  
 
@@ -31,7 +31,7 @@ Quando si ricevono articoli su cui prestare assistenza e li si intende registrar
 
     Viene assegnato un numero all'articolo in assistenza e viene creata una scheda articolo in assistenza. Il campo **Nr. articolo in assistenza** viene compilato con il numero del nuovo articolo in assistenza.
 
-## <a name="to-create-a-service-item-when-shipping-items"></a>Per creare un articolo in assistenza durante la spedizione degli articoli
+## Per creare un articolo in assistenza durante la spedizione degli articoli
 
 Quando si spediscono articoli registrando ordini o fatture di vendita, gli articoli spediti vengono automaticamente registrati come articoli in assistenza se è rispettata la seguente condizione. Gli articoli devono appartenere a un gruppo di articoli in assistenza per cui la casella di controllo **Crea articolo in assistenza** risulta selezionata. Se i numeri seriali degli articoli sono registrati nella pagina Righe tracciabilità articolo, tali informazioni verranno automaticamente copiate nel campo **Nr. seriale** della scheda relativa all'articolo in assistenza al momento della creazione degli articoli stessi.  
 
@@ -48,7 +48,7 @@ La seguente procedura indica le modalità di creazione di articoli in assistenza
 >   
 >  Se un articolo è una distinta base e la distinta base non è stata espansa, verrà creato un articolo in assistenza in base alla condizione specificata per il gruppo di articoli in assistenza ed eventualmente alla condizione specificata per i numeri seriali.  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Per inserire una spesa iniziale per un articolo in assistenza
+## Per inserire una spesa iniziale per un articolo in assistenza
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Task assistenza**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Prospetto interv. articolo**.
@@ -56,7 +56,7 @@ La seguente procedura indica le modalità di creazione di articoli in assistenza
 
     Verrà inserita una riga di assistenza di tipo **Costo** in cui viene indicata la spesa iniziale. La spesa iniziale viene applicata all'articolo in assistenza selezionato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli articoli in assistenza e i componenti degli articoli in assistenza](service-how-setup-service-items.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  

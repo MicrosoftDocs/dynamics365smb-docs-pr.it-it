@@ -2,7 +2,7 @@
 title: Panoramica di Business Intelligence e creazione di report
 description: Fornisce una panoramica di tutte le funzionalità di Business Intelligence e creazione di report supportate in Business Central.
 author: KennieNP
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Panoramica di Business Intelligence e creazione di report
+# Panoramica di Business Intelligence e creazione di report
 
 Le piccole e medie imprese usano le funzionalità di analisi e report integrate che possono utilizzare immediatamente per tenere traccia della propria attività. [!INCLUDE[prod_short](includes/prod_short.md)] supporta processi aziendali comuni e processi più complessi per tali organizzazioni. Ciascuno di questi processi include report e strumenti di analisi. Puoi anche fare analisi ad hoc direttamente dalla tua home page.  
 
@@ -26,7 +26,7 @@ La tabella seguente copre le principali funzionalità di business intelligence e
 | Integra gli strumenti di business intelligence esterni con [!INCLUDE[prod_short](includes/prod_short.md)].| [Strumenti di Business Intelligence esterni](reports-external-analysis.md) |
 |Modifica i layout dei report o persino sviluppare i tuoi report da zero. |[Sviluppo di report](reports-develop-reports.md)|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Business Intelligence finanziario](bi.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

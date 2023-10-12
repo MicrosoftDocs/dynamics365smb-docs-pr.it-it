@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 12/27/2022
+ms.date: 08/29/2023
 ms.custom: bap-template
 ms.search.keywords: 'journals, recurring, accrual, renumber, bulk-post'
 ms.search.form: '39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022'
@@ -32,6 +32,10 @@ Le informazioni immesse in una registrazione sono temporanee e possono essere mo
 
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
+
+## Aggiungere contesto alle transazioni delle registrazioni COGE
+
+Quando crei una registrazione, puoi aggiungere collegamenti che forniscono contesto alle relative transazioni. Quando contabilizzi la registrazione, [!INCLUDE [prod_short](includes/prod_short.md)] copia i collegamenti nella registrazione contabilizzata e nei movimenti contabili creati dalla registrazione. Ad esempio, fornire collegamenti può semplificare il lavoro del revisore. Se conservi le immagini delle ricevute di spesa nel sito Sharepoint della tua azienda, puoi aggiungere collegamenti ai file. Quando contabilizzi la registrazione per inviare le tue spese, il tuo revisore può accedere rapidamente ai file delle ricevute.
 
 ## Usare batch e definizioni di registrazioni
 
@@ -220,12 +224,10 @@ La procedura riportata di seguito è basata sulla pagina **Registrazione COGE**,
 
 I valori nel campo **Nr. documento** vengono modificati, se necessario, in modo che il numero del documento nelle righe registrazioni singole o raggruppate seguano un ordine sequenziale. Dopo la rinumerazione dei documenti, è possibile contabilizzare le registrazioni.
 
-## Vedi il relativo [training Microsoft](/training/paths/use-journals-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)  
-[Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md)  
+[Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)  
 [Allocazione di costi e ricavi](year-allocate-costs-income.md)  
 [Finanze](finance.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

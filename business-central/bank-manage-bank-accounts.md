@@ -32,12 +32,10 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 > [!TIP]
 > Utilizzare la riconciliazione bancaria per verificare che i libri siano aggiornati e non pubblicare la riconciliazione finché non si è soddisfatti della riconciliazione.
 
-## Vedi il relativo [training Microsoft](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
-
 ## Vedi anche
 
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
-[Riconciliazione dei conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)  
+[Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)  
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Trasferimento di fondi bancari](bank-how-transfer-bank-funds.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  

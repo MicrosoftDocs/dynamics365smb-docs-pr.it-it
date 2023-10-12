@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/25/2023
+ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
@@ -38,6 +38,10 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 > Le righe prelievo warehouse vengono create per il valore nel campo **Quantità residua** sulle righe dell'ordine di assemblaggio collegato alla riga dell'ordine di vendita spedito. Tutti i componenti vengono prelevati con una sola azione. Per ulteriori informazioni vedi [Gestione di articoli di assemblaggio su ordine in spedizioni warehouse](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).  
 >  
 > Per informazioni sul prelievo di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio è correlato a una spedizione vendita, vedi [Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+
+## Controllare se gli articoli sono disponibili per il prelievo
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
 ## Per creare documenti di prelievo in blocco con i prospetti prelievi
 
@@ -110,8 +114,6 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 4. Dopo avere prelevato e posizionato gli articoli nell'area di spedizione o nella collocazione di spedizione, scegli l'azione **Registra prelievo**.  
 
 Ora puoi immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella pagina **Spedizione warehouse**. Per ulteriori informazioni vedi [Spedire articoli](warehouse-how-ship-items.md).
-
-## Vedi il relativo [training Microsoft](/training/modules/pick-ship-items-warehouse/)
 
 ## Vedere anche
 

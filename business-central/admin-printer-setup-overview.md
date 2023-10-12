@@ -6,15 +6,17 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: overview
-ms.date: 02/10/2023
+ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Panoramica della configurazione e della gestione delle stampanti
+# Panoramica della configurazione e della gestione delle stampanti
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 La stampa di documenti e report da [!INCLUDE[prod_short](includes/prod_short.md)] è un compito importante per gli utenti aziendali. Gli utenti vogliono in genere inviare i lavori di stampa direttamente a una delle stampanti dell'organizzazione, indipendentemente dal client o dall'app [!INCLUDE[prod_short](includes/prod_short.md)] che stanno utilizzando. Poiché [!INCLUDE[prod_short](includes/prod_short.md)] online è un servizio cloud, non può raggiungere direttamente le stampanti locali collegate ai dispositivi degli utenti, ma puoi connetterlo a stampanti abilitate per il cloud.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>Quali sono le possibilità per la stampante in Business Central?
+## Quali sono le possibilità per la stampante in Business Central?
 
 Per supportare le tue esigenze di stampa, [!INCLUDE[prod_short](includes/prod_short.md)] offre le seguenti caratteristiche:
 
@@ -27,15 +29,15 @@ Per supportare le tue esigenze di stampa, [!INCLUDE[prod_short](includes/prod_sh
 La maggior parte del lavoro per l'impostazione delle stampanti può essere eseguita dalla pagina **Gestione stampanti** in [!INCLUDE[prod_short](includes/prod_short.md)]. Sebbene con le stampanti di Stampa universale potresti anche dover lavorare nell'interfaccia di amministrazione di Microsoft 365 o nel portale di Azure.
 
 > [!IMPORTANT]
-> Per Business Central locale, Stampa universale e Stampa con indirizzo e-mail richiedono l'utilizzo dell'autenticazione Azure Active Directory (AD) o NavUserPassword.
+> Per Business Central locale, Stampa universale e Stampa e-mail richiedono l'utilizzo dell'autenticazione Microsoft Entra ID o NavUserPassword.
 
-## <a name="custom-printer-extensions"></a>Estensioni di stampante personalizzate
+## Estensioni di stampante personalizzate
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta altre estensioni stampante personalizzate che aggiungono ancora più funzioni di stampa. Pertanto, se sono installate estensioni della stampante personalizzate, la tua applicazione potrebbe includere funzionalità di stampa non descritte in questo articolo.
 
 Se sei uno sviluppatore AL e vuoi sapere come creare estensioni per stampanti, vai a [Sviluppo di estensioni per stampanti in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Passaggi successivi
+## Passaggi successivi
 
 - [Impostare le stampanti di Stampa universale](admin-printer-setup-universal-print.md)  
 - [Impostare le stampanti con indirizzo e-mail](admin-printer-setup-email.md)  

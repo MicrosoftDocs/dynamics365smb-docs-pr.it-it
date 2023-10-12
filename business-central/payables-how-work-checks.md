@@ -75,8 +75,6 @@ Se si desidera verificare gli assegni registrati, ad esempio per verificare più
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancario - Dettaglio assegni**, quindi scegli il collegamento correlato.
 2. Impostare i filtri desiderati quindi scegliere il pulsante **Anteprima**.
 
-## Vedi il relativo [training Microsoft](/training/modules/use-checks-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Effettuare i pagamenti](payables-make-payments.md)  

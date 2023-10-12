@@ -1,31 +1,31 @@
 ---
 title: Aggiornare i tassi di cambio delle valute (video)
-description: Se tieni traccia degli importi in valute differenti puoi utilizzare Business Central per rettificare i tassi di cambio delle valute dei movimenti registrati con un servizio esterno.
+description: Se tieni traccia degli importi in differenti valute puoi utilizzare Business Central per rettificare i tassi di cambio.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: 'multiple currencies, adjust exchange rates, FX rates'
 ms.search.form: '5, 118'
-ms.date: 03/15/2022
+ms.date: 09/07/2023
 ms.author: bholtorf
 ---
-# <a name="update-currency-exchange-rates"></a>Aggiornare i tassi di cambio valuta
+# Aggiornare i tassi di cambio valuta
 
-Puoi definire diverse valute in [!INCLUDE [prod_short](includes/prod_short.md)], ad esempio se commerci in valute diverse dalla tua valuta locale. Quindi, per aiutarti a tenere traccia delle variazioni dei tassi di cambio valuta, puoi gestire le valute manualmente oppure puoi impostare un servizio di cambio valuta.
+Puoi definire differenti valute in [!INCLUDE [prod_short](includes/prod_short.md)], ad esempio se commerci in valute diverse dalla tua valuta locale. Per tenere traccia delle variazioni dei tassi di cambio valuta, puoi gestire i tassi manualmente oppure impostare un servizio di cambio valuta.
 
-## <a name="currencies"></a>Valute
+## Valute
 
 > [!TIP]  
-> In [!INCLUDE[prod_short](includes/prod_short.md)] se si stanno cercando informazioni in tempo reale sui tassi di cambio delle valute estere (FX) o sui tassi di cambio storici, queste informazioni vanno sotto il nome di valuta. Oltre a questo articolo, vedere anche [Impostare una valuta di rendicontazione aggiuntiva](finance-how-setup-additional-currencies.md).
+> In [!INCLUDE[prod_short](includes/prod_short.md)], se stai cercando informazioni in tempo reale sui tassi di cambio delle valute estere o sui tassi di cambio storici, queste informazioni vanno sotto il nome di valuta. Oltre a questo articolo, vedere anche [Impostare una valuta di dichiarazione aggiuntiva](finance-how-setup-additional-currencies.md).
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
 Specifica i codici valuta nell'elenco **Valute**, comprese le informazioni e le impostazioni aggiuntive necessarie per ciascun codice valuta. Per ulteriori informazioni, vedi [Valute](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Esempio di una transazione in valuta esigibile
+### Esempio di una transazione in valuta esigibile
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Tassi di cambio
+## Tassi di cambio
 
 I tassi di cambio sono lo strumento per calcolare il valore in valuta locale (LCY) di ogni transazione in valuta. La pagina **Tassi di cambio** include i seguenti campi:
 
@@ -47,50 +47,65 @@ In generale, i valori dei campi **Importo del tasso di cambio** e **Importo del 
 >
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
-L'importo del tasso di cambio di rettifica o l'importo del tasso di cambio di rettifica relazionale verrà utilizzato per aggiornare tutte le transazioni bancarie, attive o passive aperte.  
+L'importo del tasso di cambio di rettifica o l'importo del tasso di cambio di rettifica relazionale, aggiorna tutte le transazioni bancarie, attive o passive aperte.  
 
 > [!Note]
 > Il tasso di cambio effettivo verrà calcolato utilizzando questa formula:
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjusting-exchange-rates"></a>Rettifica di tassi di cambio
+## Rettifica dei tassi di cambio
 
-Poiché i tassi di cambio oscillano costantemente, gli equivalenti in valuta addizionale nel sistema devono essere rettificati periodicamente. Se queste rettifiche non vengono apportate, gli importi che sono stati convertiti da valute estere (o addizionali) e registrati nella contabilità generale in valuta locale possono essere fuorvianti. Inoltre, i movimenti quotidiani registrati prima dell'immissione di un tasso di cambio quotidiano nell'applicazione devono essere aggiornati dopo l'immissione delle informazioni su tale tasso di cambio.
+Poiché i tassi di cambio oscillano costantemente, devi rettificare periodicamente altri equivalenti in valuta. In caso contrario, gli importi che hai convertito da valute estere (o altre valute) e registrato nella contabilità generale in valuta locale possono non essere corretti. Inoltre, devi aggiornare i movimenti giornalieri registrati prima di immettere un tasso di cambio giornaliero.
 
-Il processo batch **Rettifica tassi di cambio** viene utilizzato manualmente per rettificare i tassi di cambio dei movimenti cliente, fornitore e conti C/C bancari registrati. Consente inoltre di aggiornare gli importi nella valuta contabile addizionale nei movimenti C/G.  
+Usa il processo batch **Rettifica tassi di cambio** per rettificare manualmente i tassi di cambio per movimenti cliente, fornitore e conti correnti bancari registrati. Il processo batch può anche aggiornare importi in altre valute di dichiarazione nei movimenti C/G.  
 
 > [!TIP]
 > È possibile utilizzare un servizio per aggiornare automaticamente i tassi di cambio nel sistema. Per ulteriori informazioni, vedere [Per impostare un servizio dei tassi di cambio delle valute](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Tuttavia, ciò non modifica i tassi di cambio sulle transazioni già registrate. Per aggiornare i tassi di cambio sui movimenti registrati, utilizzare il processo batch **Modifica i tassi di cambio**.
 
-Puoi visualizzare in anteprima l'effetto che una modifica avrà sulla pubblicazione prima di pubblicarla effettivamente selezionando **Anteprima** nella pagina **Rettifica tassi di cambio**. Inoltre, puoi selezionare se la registrazione della contabilità generale sarà dettagliata (per voce) o riepilogativa (per valuta) scegliendo **Raggruppa articoli**. Puoi inoltre specificare come gestire le dimensioni per registrazioni di utili e perdite non realizzati scegliendo una delle seguenti opzioni nel campo **Trasferire i valori dimensioni**:  
+Puoi inoltre specificare il modo in cui la rettifica gestirà le dimensioni per utili e perdite non realizzati scegliendo una delle seguenti opzioni nel campo **Registrazione dimensione**:  
 
-- **Movimento origine**: voci C/G per utili e perdite non realizzati avranno i valori delle dimensioni trasferiti dalla voce rettificata.
-- **Per conto C/G**: le voci C/G per utili e perdite non realizzati avranno i valori delle dimensioni trasferiti dalla voce di origine delle impostazioni delle dimensioni del conto C/G non realizzati.
-- **Nessun trasferimento**: i movimenti C/G per utili e perdite non realizzati non avranno valori dimensionali.
+* **Dimensioni movimento di origine**: trasferisce valori di dimensione per movimenti C/G per utili e perdite non realizzati dal movimento che stai rettificando.  
+* **Nessuna dimensione**: non trasferisce valori di dimensione per utili e perdite non realizzati a movimenti C/G. [!INCLUDE [prod_short](includes/prod_short.md)] utilizzerà comunque le impostazioni predefinite delle dimensioni, ad esempio **Codice obbligatorio**, **Stesso codice** o **Nessun codice**. Se i movimenti della transazione di origine hanno valori di dimensione, la rettifica crea movimenti senza valori di dimensione.  
+* **Dimensioni conto C/G**: trasferisce valori di dimensione dal movimento di origine delle impostazioni delle dimensioni del conto C/G per utili e perdite non realizzati a movimenti C/G.
 
-### <a name="effect-on-customers-and-vendors"></a>Effetto su clienti e fornitori
+> [!NOTE]
+> Per utilizzare la funzionalità di anteprima, devi attivare la funzionalità **Aggiornamento della funzionalità: abilitare l'utilizzo della nuova rettifica tasso di cambio estendibile, inclusa la revisione registrazione** nella pagina **[Gestione funzionalità](https://businesscentral.dynamics.com/?page=2610)**.
 
-Per i conti di clienti e fornitori, la valuta viene rettificata in base al tasso di cambio valido alla data di registrazione specificata nel processo batch. Durante il processo batch vengono calcolate le differenze per singoli saldi in valuta, quindi gli importi vengono registrati nel conto C/G specificato nel campo **Conto utili non-realizzati** o nel campo **Conto Perdite Non-Realizzate** della pagina **Valuta**. I movimenti rettificativi vengono automaticamente registrati nel conto crediti/debiti della contabilità generale.
+> [!IMPORTANT]
+> A causa dei requisiti locali in Svizzera, non consigliamo di abilitare **Aggiornamento della funzionalità: abilitare l'utilizzo della nuova rettifica tasso di cambio estendibile, inclusa la revisione registrazione** nella versione per la Svizzera.
 
-Il processo batch consente di elaborare tutti i movimenti registro clienti e i movimenti fornitori aperti. Se per un movimento vi è una differenza di tasso di cambio, il processo batch crea un nuovo registro fornitori o un nuovo registro clienti dettagliato, che riflette l'importo rettificato nel registro fornitori o clienti.
+## Visualizzare in anteprima l'effetto di una rettifica
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensioni nei movimenti clienti e fornitori
+Puoi visualizzare in anteprima l'effetto che una rettifica di un tasso di cambio avrà sulla registrazione prima di effettuare la registrazione scegliendo l'azione **Anteprima registrazione** nella pagina di richiesta (report 596) del report **Rettifica tassi di cambio**. Nella pagina di richiesta puoi specificare cosa includere nell'anteprima:
 
-Ai movimenti di rettifica vengono assegnate le dimensioni dei movimenti del registro clienti/fornitori e le rettifiche vengono registrate per combinazione di valori di dimensione.
+* Una registrazione dettagliata nella contabilità generale per movimento
+* Una registrazione riepilogativa per valuta. Seleziona semplicemente il campo **Rettifica per movimento** nel report **Rettifica tassi di cambio**.
 
-### <a name="effect-on-bank-accounts"></a>Effetto su conti correnti bancari
+### Effetto su clienti e fornitori
+
+Per i conti di clienti e fornitori, il processo batch usa il tasso di cambio che era valido alla data di registrazione specificata per il processo batch per rettificare la valuta. Durante il processo batch vengono calcolate le differenze per singoli saldi in valuta, quindi gli importi vengono registrati nel conto C/G specificato nel campo **Conto utili non-realizzati** o nel campo **Conto Perdite Non-Realizzate** della pagina **Valuta**. I movimenti rettificativi vengono automaticamente registrati nel conto crediti/debiti della contabilità generale.
+
+Il processo batch consente di elaborare tutti i movimenti registro clienti e i movimenti fornitori aperti. Se per un movimento vi è una differenza di tasso di cambio, il processo batch crea un nuovo movimento contabile fornitori o clienti dettagliato. Il nuovo movimento riflette l'importo rettificato nel movimento contabile clienti o fornitori.
+
+#### Dimensioni nei movimenti contabili clienti e fornitori
+
+[!INCLUDE [prod_short](includes/prod_short.md)] assegna le dimensioni dai movimenti contabili clienti o fornitori a movimenti di rettifica e registra le rettifiche per ogni combinazione di valori di dimensione.
+
+### Effetto sui conti correnti bancari
 
 Per i conti correnti bancari, la valuta viene rettificata utilizzando il tasso di cambio valido alla data di registrazione specificata nel processo batch. Durante il processo batch vengono calcolate le differenze per ogni conto corrente bancario che ha un codice di valuta, quindi gli importi vengono registrati nel conto C/G specificato nel campo **Conto utili realizzati** o nel campo **Conto Perdite Realizzate** della pagina **Valuta**. I movimenti rettificativi vengono automaticamente registrati nei conti correnti bancari CoGe specificati nelle categorie di registrazione dei conti correnti bancari. Viene calcolato un solo movimento per valuta per categoria di registrazione.
 
-#### <a name="dimensions-on-bank-account-entries"></a>Dimensioni nei movimenti di conti correnti bancari
+#### Dimensioni nei movimenti di conto corrente bancario
 
 Ai movimenti di rettifica per il conto CoGe del conto corrente bancario e per il conto profitti/perdite vengono assegnate le dimensioni di default del conto corrente bancario.
 
-### <a name="effect-on-gl-accounts"></a>Effetto su conti C/G
-Se si effettua una registrazione in una valuta contabile addizionale, è possibile impostare il processo batch per creare nuovi movimenti di contabilità generale per rettifiche valutarie comprese tra VL e la valuta contabile addizionale. Verranno calcolate le differenze per ogni movimento C/G e inserite delle rettifiche a seconda del contenuto del campo **Rettifica tasso di cambio** di ogni conto C/G.
+### Effetto su conti C/G
 
-##### <a name="dimensions-on-gl-account-entries"></a>Dimensioni nei movimenti del conto C/G
+Se registri un'altra valuta di dichiarazione, il processo batch può creare nuovi movimenti di contabilità generale per rettifiche valutarie tra la valuta locale e un'altra valuta di dichiarazione. Verranno calcolate le differenze per ogni movimento C/G e inserite delle rettifiche a seconda del contenuto del campo **Rettifica tasso di cambio** di ogni conto C/G.
+
+#### Dimensioni in movimenti di conti C/G
+
 Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti in cui vengono registrati.
 
 > [!Important]
@@ -98,7 +113,8 @@ Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti i
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a>Per impostare un servizio dei tassi di cambio delle valute
+## Per impostare un servizio dei tassi di cambio delle valute
+
 È possibile utilizzare un servizio esterno per mantenere aggiornati i tassi di cambio delle valute, ad esempio FloatRates. 
 
 > [!NOTE]
@@ -116,17 +132,18 @@ Ai movimenti di rettifica vengono assegnate le dimensioni di default dei conti i
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="to-update-currency-exchange-rates-through-a-service"></a>Per aggiornare i tassi di cambio delle valute mediante un servizio
+## Per aggiornare i tassi di cambio delle valute mediante un servizio
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Valute**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Aggiorna tassi di cambio**.
 
 Il valore nel campo **Tasso di cambio** della pagina **Valute** viene aggiornato con il tasso di cambio delle valute più recente.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Valute in Business Central](finance-currencies.md)  
 [Impostare le valute](finance-set-up-currencies.md)  
-[Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md)  
+[Impostare una valuta di dichiarazione addizionale](finance-how-setup-additional-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

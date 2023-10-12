@@ -11,7 +11,7 @@ ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: bholtorf
 ---
-# <a name="analyze-data-by-dimensions"></a>Analizzare i dati per dimensioni
+# Analizzare i dati per dimensioni
 
 Nelle analisi finanziarie, una dimensione corrisponde ai dati che aggiungi a un movimento come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Le dimensioni possono essere utilizzate per i movimenti nelle registrazioni, nei documenti e nei. 
 
@@ -23,7 +23,7 @@ Ogni "dimensione" descrive lo stato attivo dell'analisi. Quindi, un'analisi bidi
 > [!NOTE]
 > Se scopri che è stata utilizzata una dimensione errata nei movimenti di contabilità generale registrati, puoi correggerli e aggiornare le visualizzazioni di analisi. Per ulteriori informazioni, vedi la sezione [Risoluzione dei problemi e correzione delle dimensioni](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Impostare una visualizzazione analisi
+## Impostare una visualizzazione analisi
 
 Un'analisi basata sulle dimensioni utilizza una combinazione selezionata di dimensioni. È possibile archiviare, recuperare e aggiornare il set di dimensioni creando una scheda **Visualizzazione analisi**. 
 
@@ -33,7 +33,7 @@ Un'analisi basata sulle dimensioni utilizza una combinazione selezionata di dime
 4. Per aggiungere altri codici di dimensione ai quattro disponibili nella Scheda dettaglio **Dimensioni**, scegli l'azione **Filtro**, compila i campi e scegli il pulsante **OK**.  
 5. Per aggiornare la visualizzazione, scegliere l'azione **Aggiorna**.
 
-## <a name="analyze-by-dimensions"></a>Analizzare per dimensioni
+## Analizzare per dimensioni
 
 Utilizza le visualizzazioni analisi precedentemente impostate con la matrice **Analisi per dimensioni** per visualizzare gli importi della contabilità generale.   
 
@@ -55,7 +55,7 @@ Utilizza le visualizzazioni analisi precedentemente impostate con la matrice **A
 > [!TIP]  
 > È inoltre possibile modificare la visualizzazione cambiando il contenuto dei campi **Mostra come righe** e **Mostra come colonne**. Per ripristinare un'impostazione di visualizzazione, scegliere l'azione **Inverti righe e colonne**.
 
-## <a name="update-an-analysis-view"></a>Aggiornare una visualizzazione analisi
+## Aggiornare una visualizzazione analisi
 
 Gli importi visualizzati nella pagina **Analisi per dimensioni** forniscono un'immagine dello stato della società al momento dell'ultimo aggiornamento. Per avere un'immagine dello stato corrente, è necessario eseguire la funzione di aggiornamento per aggiornare la visualizzazione dell'analisi.
 
@@ -73,7 +73,7 @@ Usa la seguente procedura per aggiornare una visualizzazione analisi dalla pagin
 > [!NOTE]  
 > Per aggiornare contemporaneamente alcune o tutte le visualizzazioni analisi, è necessario utilizzare il processo batch **Aggiorna visualizzazione analisi**.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Business Intelligence finanziario](bi.md)  
 [Dati finanziari](finance.md)  

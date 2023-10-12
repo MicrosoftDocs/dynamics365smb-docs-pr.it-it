@@ -72,8 +72,6 @@ Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine 
 4. Scegliere l'azione **Registra** o **Registra e invia**.
 5. Selezionare l'opzione **Spedizione** per fatturare in seguito oppure l'opzione **Spedisci e fattura** per fatturare immediatamente.
 
-## Vedi il relativo [training Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Creare ordini speciali](sales-how-to-create-special-orders.md)  

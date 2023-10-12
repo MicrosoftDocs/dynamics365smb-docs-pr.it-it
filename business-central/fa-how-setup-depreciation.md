@@ -90,13 +90,11 @@ Quando viene eseguito il processo batch Calcolo ammortamento, il calcolo è basa
 
 Se selezioni questo campo, il processo batch applica invece il calendario da 365 giorni, in cui ogni mese è calcolato con lo stesso numero di giorni del calendario. L'unica eccezione è febbraio negli anni bisestili, che verrà considerato di 28 giorni anziché di 29. Di conseguenza, anche l'anno bisestile verrà considerato di 365 giorni e non di 366.
 
-## Vedi il relativo [training Microsoft](/training/modules/configure-depreciation-books/)
-
 ## Vedere anche
 
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

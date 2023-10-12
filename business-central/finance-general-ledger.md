@@ -98,8 +98,6 @@ La pagina **Piano dei conti** visualizza i conti in una lista gerarchica che off
 
 In una piccola organizzazione, come la società dimostrativa CRONUS, la maggior parte degli utenti può modificare il piano dei conti, ad eccezione degli utenti con una licenza membro del team. Tuttavia, le organizzazioni più grandi in genere utilizzano ruoli e autorizzazioni per limitare l'accesso alla modifica del piano dei conti. Se sei un amministratore o hai il ruolo *Manager aziendale* o *Contabile*, puoi controllare le autorizzazioni utente per assicurarti che le persone giuste abbiano accesso alle tabelle pertinenti. Per ulteriori informazioni, vedi la sezione [Per ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## Vedi il relativo [training Microsoft](/training/modules/business-central-configure-general-ledger-setup/)
-
 ## Vedere anche
 
 [Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md)  

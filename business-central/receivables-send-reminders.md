@@ -11,11 +11,11 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: bholtorf
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Inviare promemoria per saldi inevasi
+# Inviare promemoria per saldi inevasi
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Imposta più tassi di interesse per il pagamento ritardato](finance-how-to-set-up-multiple-interest-rates.md)  

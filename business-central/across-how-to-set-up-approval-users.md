@@ -10,7 +10,7 @@ ms.search.form: '663,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-approval-users"></a>Impostare gli utenti per l'approvazione
+# Impostare gli utenti per l'approvazione
 
 Prima di creare workflow che coinvolgono passaggi di approvazione, devi impostare gli utenti coinvolti nei processi di approvazione nella pagina **Setup utente approvazione**. Puoi anche impostare limiti di importo per diversi tipi di richieste, definire responsabili dell'approvazione sostitutivi e impostare notifiche.  
 
@@ -19,7 +19,7 @@ Una volta impostati gli utenti per l'approvazione, puoi creare le risposte del w
 > [!TIP]
 > Puoi richiedere che più responsabili dell'approvazione reagiscano a una richiesta di approvazione creando un gruppo di responsabili dell'approvazione nella pagina **Gruppo di utenti del workflow**. Per ulteriori informazioni, vedi [Impostare gruppi utenti del workflow](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Per impostare un utente per l'approvazione
+## Per impostare un utente per l'approvazione
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,7 +46,7 @@ Una volta impostati gli utenti per l'approvazione, puoi creare le risposte del w
 
 Il passaggio successivo consiste nello specificare come si desidera [!INCLUDE [prod_short](includes/prod_short.md)] notificare alle persone che una richiesta è in attesa della loro attenzione. Per ulteriori informazioni, vedi [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli utenti del flusso di lavoro](across-how-to-set-up-workflow-users.md)  
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  

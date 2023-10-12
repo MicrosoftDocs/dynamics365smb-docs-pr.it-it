@@ -22,7 +22,7 @@ Poiché utenti diversi creano nel tempo nuove schede cliente, fornitore o contat
 
 La seguente procedura è basata su una scheda cliente. I passaggi sono simili per una scheda contatto o fornitore.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Clienti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Selezionare il cliente per il quale un record duplicato esiste o se ne sospetta l'esistenza, quindi scegliere l'azione **Modifica**.
 3. Nella pagina **Scheda cliente** scegliere l'azione **Unisci con**.
 4. Nella pagina **Unisci duplicato**, nel campo **Unisci con**, selezionare il cliente che si ritiene sia un duplicato di quello aperto, indicato nel campo **Corrente**.
@@ -56,13 +56,11 @@ La seguente procedura è basata su una scheda cliente. I passaggi sono simili pe
 > [!NOTE]
 > Per i contatti, è possibile utilizzare la funzionalità per trovare contatti duplicati prima di utilizzare la pagina **Unisci duplicato**. Per ulteriori informazioni, vedere [Ricerca di contatti duplicati](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup contatti](marketing-setup-contacts.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
