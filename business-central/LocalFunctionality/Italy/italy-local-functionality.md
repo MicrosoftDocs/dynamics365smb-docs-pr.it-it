@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# Funzionalità locale per l'Italia
+# <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 
 Negli argomenti indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Disponibilità della funzionalità
+## <a name="feature-availability"></a>Disponibilità della funzionalità
 
 * IVA e ritenute
     * [IVA italiana](italian-vat.md)
@@ -58,14 +58,14 @@ Negli argomenti indicati di seguito viene descritta la funzionalità locale univ
     * [Conto lavoro italiano](italian-subcontracting.md) **Disponibile ora**
     * [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md) **Disponibile ora**
 
-## Futuri requisiti legislativi in fase di esame
+## <a name="future-legislation-requirements-being-investigated"></a>Futuri requisiti legislativi in fase di esame
 
 * IVA non detraibile riprogettata e aggiornata: prevista per il **secondo ciclo di rilascio 2023**
 * Aggiornata Fatturazione elettronica (FatturaPA) **secondo ciclo di rilascio del 2024**
 
 Se sei a conoscenza di eventuali caratteristiche normative imminenti, invia un [Avviso sulle funzionalità normative](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Utilizzare [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

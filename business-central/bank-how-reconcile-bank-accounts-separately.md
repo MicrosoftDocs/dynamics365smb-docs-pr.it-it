@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/13/2022
 ms.custom: bap-template
 ---
-# Riconciliazione dei conti correnti bancari
+# <a name="reconcile-bank-accounts"></a>Riconciliazione dei conti correnti bancari
 
 La riconciliazione bancaria aiuta a garantire che ciò che è nei tuoi libri corrisponda ai rendiconto che ricevi dalla tua banca. La riconciliazione del conto bancario confronta e abbina i movimenti nei conti bancari che hai impostato in [!INCLUDE[prod_short](includes/prod_short.md)] con transazioni bancarie della tua banca. La riconciliazione può quindi registrare i saldi sui tuoi conti bancari in [!INCLUDE[prod_short](includes/prod_short.md)] per metterli a disposizione dei responsabili finanziari. La riconciliazione bancaria è anche un modo pratico per scoprire e risolvere i pagamenti mancanti e gli errori di contabilità.
 
@@ -49,7 +49,7 @@ Qualsiasi riga che non può essere corrisposta, indicata da un valore nel campo 
 * Automaticamente, utilizzando la funzione **Importa rendiconto bancario** per compilare le **Righe rendiconto bancario** con le transazioni bancarie in base a un file o un flusso importato fornito dalla banca.
 * Manualmente, utilizzando la funzione **Suggerisci righe** per compilare il riquadro **Righe rendiconto bancario** in base alle fatture in [!INCLUDE[prod_short](includes/prod_short.md)] con pagamenti scaduti.
 
-## Per aggiungere le righe dell'estratto conto bancario importando un estratto conto bancario
+## <a name="to-add-bank-statement-lines-by-importing-a-bank-statement"></a>Per aggiungere le righe dell'estratto conto bancario importando un estratto conto bancario
 
 Il riquadro **Righe rendiconto bancario** verrà riempito con le transazioni bancarie in base a un file o un flusso importato fornito dalla banca.
 
@@ -66,7 +66,7 @@ Per importare estratti conto come feed bancari, è necessario impostare il servi
 6. Se si dispone di un file dell'estratto conto, selezionare l'azione **Importa rendiconto bancario**.
 7. Individuare il file, quindi selezionare il pulsante **Apri** per importare le transazioni bancarie nel riquadro **Righe rendiconto bancario** della pagina **Riconciliazioni C/C bancari**.
 
-## Per compilare le righe di riconciliazione con l'azione Suggerisci righe
+## <a name="to-fill-in-bank-reconciliation-lines-with-the-suggest-lines-action"></a>Per compilare le righe di riconciliazione con l'azione Suggerisci righe
 
 Il riquadro **Righe rendiconto bancario** verrà compilato in base alle fatture in [!INCLUDE[prod_short](includes/prod_short.md)] che hanno pagamenti in sospeso.  
 
@@ -80,7 +80,7 @@ Il riquadro **Righe rendiconto bancario** verrà compilato in base alle fatture 
 4. Se non desideri che i movimenti contabili del conto bancario includano movimenti stornati aperti non corrispondenti, scegli l'interruttore **Escludi movimenti stornati**. Per impostazione predefinita, l'elenco dei movimenti contabili del conto bancario include i movimenti stornati fino alla data dell'estratto conto.
 5. Scegli il pulsante **OK**.
 
-## Per associare automaticamente le righe del rendiconto bancario con i movimenti contabili di conti correnti bancari
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Per associare automaticamente le righe del rendiconto bancario con i movimenti contabili di conti correnti bancari
 
 La pagina **Riconciliazioni C/C bancari** offre funzionalità di corrispondenza automatica in base a una corrispondenza di testo su una riga del rendiconto (riquadro a sinistra) con testo su uno o più movimenti contabili del conto corrente bancario (riquadro a destra). Puoi sovrascrivere la corrispondenza automatica suggerita e scegliere di non utilizzare affatto la corrispondenza automatica. Per ulteriori informazioni, vedere [Per associare manualmente le righe del rendiconto bancario con i movimenti contabili di conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
@@ -98,7 +98,7 @@ Puoi indagare la base delle corrispondenze usando l'azione **Dettagli partita** 
 > [!TIP]
 > Puoi usare un mix di abbinamento manuale e automatico. Se hai abbinato manualmente delle voci, l'abbinamento automatico non sovrascriverà le tue selezioni.
 
-## Per associare manualmente le righe del rendiconto bancario con i movimenti contabili di conti correnti bancari
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Per associare manualmente le righe del rendiconto bancario con i movimenti contabili di conti correnti bancari
 
 > [!TIP]
 > Quando si abbinano righe e movimenti manualmente, le azioni **Mostra tutto**, **Mostra movimenti stornati**, **Nascondi movimenti stornati**, e **Mostra non collegati** possono rendere più facile ottenere una panoramica. Per impostazione predefinita, i movimenti contabili del conto bancario non includono movimenti stornati non corrispondenti. Per includere questi movimenti nell'elenco e abbinarli manualmente, scegli l'azione **Mostra movimenti stornati**. Se scegli di nascondere i movimenti stornati dopo aver effettuato una o più corrispondenze, i movimenti corrispondenti vengono comunque visualizzati.
@@ -123,7 +123,7 @@ Puoi indagare la base delle corrispondenze usando l'azione **Dettagli partita** 
 > [!TIP]
 > Per rimuovere una corrispondenza, selezionare la riga dell'estratto conto bancario quindi selezionare l'azione **Rimuovi corrispondenza**. Se hai abbinato più righe di estratto conto bancario a una voce del libro mastro e hai bisogno di rimuovere una o più delle righe abbinate, tutte le corrispondenze manuali vengono rimosse per la voce del libro mastro quando scegli **Rimuovi corrispondenza**.
 
-## Per convalidare la tua riconciliazione bancaria
+## <a name="to-validate-your-bank-reconciliation"></a>Per convalidare la tua riconciliazione bancaria
 
 Per ricontrollare la riconciliazione del tuo conto bancario prima di pubblicarla, usa l'azione **Report test** per visualizzare un'anteprima della riconciliazione. Il report è disponibile nei seguenti contesti:
 
@@ -166,7 +166,7 @@ La seguente tabella descrive i campi del report di prova che possono aiutarti a 
 >
 > Puoi utilizzare il valore per confrontarlo con il tuo estratto conto bancario.
 
-## Per creare i movimenti contabili mancanti per applicare la corrispondenza con le righe del rendiconto bancario
+## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines"></a>Per creare i movimenti contabili mancanti per applicare la corrispondenza con le righe del rendiconto bancario
 
 Talvolta un estratto conto contiene importi corrispondenti ad interessi o all'addebito di commissioni. Per le righe del rendiconto bancario non può essere effettuata alcuna corrispondenza perché nessun movimento contabile collegato è presente in [!INCLUDE[prod_short](includes/prod_short.md)]. È quindi necessario registrare una riga di registrazione per ogni transazione per creare un movimento contabile collegato per cui può essere effettuata una corrispondenza.
 
@@ -182,7 +182,7 @@ Talvolta un estratto conto contiene importi corrispondenti ad interessi o all'ad
 6. Aggiornare o riaprire la pagina **Riconciliazioni C/C bancari**. Il nuovo movimento contabile verrà visualizzato nel riquadro **Mov. contabili C/C bancari**.
 7. Effettuare la corrispondenza della riga dell'estratto conto con il movimento contabile del conto corrente bancario, manualmente o automaticamente.
 
-## Trovare le transazioni in sospeso nei periodi precedenti
+## <a name="find-outstanding-transactions-in-previous-periods"></a>Trovare le transazioni in sospeso nei periodi precedenti
 
 È possibile utilizzare il report dell'estratto conto per trovare le transazioni in sospeso nei periodi precedenti. Le transazioni in sospeso sono state aperte prima della data dell'estratto conto e non sono state chiuse oppure sono state chiuse dopo la registrazione della riconciliazione bancaria.
 
@@ -194,22 +194,22 @@ A settembre riceviamo un pagamento per il movimento B e decidiamo di riconciliar
 
 Se stampiamo il report per agosto avremo transazioni in sospeso per i movimenti B e C, anche se abbiamo chiuso il movimento B a settembre.
 
-## Annullare la riconciliazione di un C/C bancario
+## <a name="undo-a-bank-account-reconciliation"></a>Annullare la riconciliazione di un C/C bancario
 
 Se trovi un errore in una riconciliazione bancaria registrata, puoi utilizzare l'azione **Annulla** nella pagina **Lista dich. C/C bancari** per correggerlo. Quando annulli una riconciliazione bancaria registrata, i movimenti verranno spostati nella pagina **Riconciliazione bancaria** e contrassegnati come **Aperti**, nel senso che non sono riconciliati. Puoi quindi possibile correggere la riconciliazione bancaria e registrarla di nuovo.
 
 > [!NOTE]
 > Nella versione nordamericana, per utilizzare la funzionalità Annulla per riconciliazioni bancarie registrate ed estratti conto, è necessario attivare l'interruttore **Riconc. bancaria con abbinamento automatico** nella pagina **Setup contabilità generale**. La funzionalità Annulla non è disponibile per gli estratti conto registrati dai fogli di lavoro di riconciliazione bancaria.
 
-### Riutilizzo del numero dell'estratto conto
+### <a name="reusing-the-bank-statement-number"></a>Riutilizzo del numero dell'estratto conto
 
 Il numero dell'estratto conto utilizzato per la nuova riconciliazione bancaria viene ottenuto dal conto bancario così come il saldo dell'ultimo estratto conto. È possibile modificare questi valori prima di avviare una nuova riconciliazione bancaria. Tuttavia, quando crei una nuova riconciliazione bancaria, [!INCLUDE[d365fin](includes/d365fin_md.md)] verifica se il numero dell'estratto conto è già assegnato a un estratto conto registrato. Se il numero è in uso, ma desideri che venga utilizzato il nuovo estratto conto, puoi utilizzare l'azione **Cambia nr. estratto conto** nella pagina **Riconciliazione conto bancario**.
 
-### Esempi
+### <a name="examples"></a>Esempi
 
 Di seguito sono riportati gli esempi per correggere un errore in una riconciliazione bancaria registrata con o senza l'utilizzo dello stesso numero di estratto conto.
 
-#### Esempio 1
+#### <a name="example-1"></a>Esempio 1
 
 Hai effettuato riconciliazioni bancarie per gennaio, febbraio e marzo. Il numero dell'estratto conto bancario era 100 per marzo. Successivamente, scopri che marzo include solo movimenti fino al 30, il che significa che mancano quelli del 31. Quindi, devi ripetere la riconciliazione bancaria per marzo. In questo caso, apriremo la pagina **Estratto conto bancario**, scegli l'estratto conto di marzo, quindi **Annulla**. 
 
@@ -218,7 +218,7 @@ Alla nuova riconciliazione bancaria viene assegnato il numero 101. Per riassegna
 > [!TIP]
 > Ricorda di impostare la data fine dell'estratto conto appropriata (in questo esempio, il 31 marzo) e modifica il campo **Saldo ultimo estratto conto**. 
 
-#### Esempio 2
+#### <a name="example-2"></a>Esempio 2
 
 Hai effettuato riconciliazioni bancarie per gennaio, giugno e luglio. Scopri che febbraio non è corretto. Supponiamo che avesse il numero di estratto conto 100. Come nell'esempio 1, utilizzi le azioni Annulla e Cambia nr. estratto conto per modificare il numero dell'estratto conto come nell'esempio 1 sopra e ora puoi ripetere la riconciliazione bancaria di febbraio.  
 
@@ -233,13 +233,13 @@ Se la riconciliazione bancaria successiva che esegui è per agosto, valuta la po
 >
 > Il saldo dell'ultimo estratto conto viene conservato nel conto bancario per ridurre al minimo gli errori durante le riconciliazioni bancarie, ma è anche modificabile, consentendoti di eseguire le riconciliazioni bancarie nell'ordine che desideri. Ciò significa anche che se annulli un estratto conto, il nuovo saldo finale potrebbe non essere l'ultimo saldo nell'estratto conto successivo. Non esiste alcuna funzionalità che ti consenta di spostare un saldo in tutti gli estratti conto bancari successivi, quindi tieni presente questo quando utilizzi Annulla.  
 
-## Evitare la registrazione diretta
+## <a name="avoid-direct-posting"></a>Evitare la registrazione diretta
 
 Non utilizzare un conto C/G che consente la registrazione diretta nella categoria di registrazione del conto bancario. La registrazione diretta interrompe la connessione tra il movimento contabile del conto bancario e il movimento contabile del conto C/G. Quando effettui la riconciliazione del tuo conto bancario, i movimenti registrati direttamente sul conto C/G non verranno inclusi e sarà difficile completare la riconciliazione.
 
 Questo errore si verifica spesso quando si inserisce un saldo di apertura per un conto bancario. È importante non registrare il saldo di apertura direttamente nella contabilità generale. I movimenti nel conto C/G che vengono registrati direttamente nel conto C/G causeranno problemi. Ad esempio, questi movimenti potrebbero impedirti di riconciliare il tuo conto bancario. Per i conti bancari in valuta estera, i movimenti possono causare l'accumulo di differenze dopo la registrazione di più riconciliazioni bancarie a causa delle rettifiche del tasso di cambio valuta. Spesso si registra il saldo bancario di apertura direttamente sul conto bancario e l'importo finisce quindi nel conto C/G. In alternativa, lo annulli in un secondo momento rispetto a un conto C/G che usi per bilanciare il saldo della contabilità generale di apertura. In entrambi i casi, è necessario bilanciare qualsiasi registrazione diretta sul conto C/G prima di iniziare la prima riconciliazione bancaria, soprattutto se il conto bancario è in una valuta estera.
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

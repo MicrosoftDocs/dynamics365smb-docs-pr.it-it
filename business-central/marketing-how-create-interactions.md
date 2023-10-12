@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ---
-# Creare interazioni per i contatti e i segmenti
+# <a name="create-interactions-on-contacts-and-segments"></a>Creare interazioni per i contatti e i segmenti
 
 Puoi creare interazioni per tenere traccia delle comunicazioni che hai con un singolo contatto o con più contatti nei segmenti. Per semplificare la creazione di interazioni, [!INCLUDE [prod_short](includes/prod_short.md)] fornisce la guida al setup assistito **Crea interazione**. La guida ti aiuta ad acquisire dettagli importanti sull'interazione.
 
 Prima di creare interazioni, tuttavia, devi impostare modelli interazione. Per ulteriori informazioni su modelli interazione, vedi [Impostare modelli interazione](marketing-interactions.md).
 
-## Per creare un'interazione con un contatto
+## <a name="to-create-an-interaction-with-a-contact"></a>Per creare un'interazione con un contatto
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contatti**, **Venditore** o **Mov. log interazione**, quindi scegli il collegamento correlato.
 2. Selezionare l'azione **Crea interazione**.
@@ -25,7 +25,7 @@ Prima di creare interazioni, tuttavia, devi impostare modelli interazione. Per u
 > [!NOTE]  
 > Se devi interrompere prima di aver chiuso l'interazione, puoi scegliere **Annulla** e quindi specifica se desideri salvare le impostazioni per poter continuare in seguito. Per ulteriori informazioni su interazioni posticipate, vedi [Per completare la configurazione di un'interazione posticipata](#to-finish-setting-up-a-postponed-interaction).
 
-## Per creare un'interazione in un segmento
+## <a name="to-create-an-interaction-on-a-segment"></a>Per creare un'interazione in un segmento
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Segmenti**, quindi scegli il collegamento correlato.
 2. Selezionare l'azione **Crea interazione**.
@@ -40,12 +40,12 @@ Prima di creare interazioni, tuttavia, devi impostare modelli interazione. Per u
 
 Un'interazione viene registrata per ogni contatto all'interno del segmento nella tabella **Mov. log interazione** e il segmento viene registrato. I segmenti registrati sono disponibili nella pagina **Segmento registrato**.
 
-## Per completare la configurazione di un'interazione posticipata
+## <a name="to-finish-setting-up-a-postponed-interaction"></a>Per completare la configurazione di un'interazione posticipata
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Interazioni posticipate**, quindi scegli il collegamento correlato.
 2. Scegli l'interazione che vuoi chiudere e quindi scegli **Riprendi**.
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Registrazione di interazioni](marketing-interactions.md)  
 [Gestione dei contatti](marketing-contacts.md)  

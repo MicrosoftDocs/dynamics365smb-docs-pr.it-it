@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Perché non è possibile personalizzare una pagina
+# <a name="why-a-page-is-locked-from-personalization"></a>Perché non è possibile personalizzare una pagina
 
 Vi sono due condizioni che impediscono la personalizzazione di una pagina. La pagina è protetta (come indicato dall'icona ![Blocco della personalizzazione.](media/personalization-lock-icon.png "Blocco della personalizzazione")) oppure è bloccata (come indicato dall'icona ![Personalizzazione bloccata.](media/personalization-blocked-icon.png "Personalizzazione bloccata")) .
 
-## Protetta dalla personalizzazione
+## <a name="locked-from-personalizing"></a>Protetta dalla personalizzazione
 
 Se c'è un'icona ![Personalizza blocco.](media/personalization-lock-icon.png "Blocco della personalizzazione") nel banner **Personalizzazione** quando viene aperta una pagina, indica che attualmente non sono consentite ulteriori modifiche di personalizzazione nella pagina.
 
@@ -30,14 +30,14 @@ I motivi possono essere due:
 
 2. Finora, è stato utilizzato solo [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] ora deprecato per personalizzare la pagina.
 
-### Sblocco della pagina
+### <a name="unlocking-the-page"></a>Sblocco della pagina
 
 Se si desidera sbloccare una pagina e continuare a personalizzarla, scegliere l'icona ![Blocco della personalizzazione](media/personalization-lock-icon.png "Blocco della personalizzazione") e quindi scegliere **Sblocca**.  
 
 > [!CAUTION]
 > La personalizzazione corrente della pagina verrà eliminata. Per la pagina verrà utilizzato il layout originale e sarà necessario cominciare da zero.  
 
-## Bloccata per la personalizzazione
+## <a name="blocked-from-personalizing"></a>Bloccata per la personalizzazione
 
 Se esiste un'icona ![Personalizzazione bloccata](media/personalization-blocked-icon.png "Personalizzazione bloccata") nel banner **Personalizzazione**, ciò significa che qualsiasi personalizzazione della pagina è bloccata.
 
@@ -45,7 +45,7 @@ Se esiste un'icona ![Personalizzazione bloccata](media/personalization-blocked-i
 
 Ciò è dovuto al fatto che Gestione ruolo utente o il ruolo attualmente associato al proprio account utente modifica questa pagina specificatamente per il ruolo. Contattare l'amministratore per l'assistenza. In alternativa, provare a passare a un Centro ruoli che include l'adattamento dei ruoli per questa pagina. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
 [Personalizzare pagine per profili](ui-personalization-manage.md)  

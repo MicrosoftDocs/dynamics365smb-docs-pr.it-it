@@ -10,7 +10,7 @@ ms.date: 09/28/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# Introduzione a [!INCLUDE[prod_short](includes/prod_short.md)] e Power BI
+# <a name="introduction-to--and-power-bi"></a>Introduzione a [!INCLUDE[prod_short](includes/prod_short.md)] e Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -18,7 +18,7 @@ Ottenere informazioni dettagliate sui dati [!INCLUDE[prod_short](includes/prod_s
 
 ![Power BI e Business Central.](media/power-bi-intro.png)
 
-## Operazioni che è possibile eseguire con Power BI e [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="what-you-can-do-with-power-bi-and-"></a>Operazioni che è possibile eseguire con Power BI e [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Ci sono varie funzionalità da utilizzare con [!INCLUDE[prod_short](includes/prod_short.md)] e Power BI. Alcune cose possono essere eseguite in Power BI, mentre altre vengono fatte da [!INCLUDE[prod_short](includes/prod_short.md)]. Inoltre, alcune funzionalità sono disponibili solo con [!INCLUDE[prod_short](includes/prod_short.md)] online e non in locale. La tabella seguente offre una panoramica.
 
@@ -32,7 +32,7 @@ Ci sono varie funzionalità da utilizzare con [!INCLUDE[prod_short](includes/pro
 
 <a name="onprem"><sup>*</sup></a>Questa funzione richiede un'applicazione registrata per Business Central in Microsoft Azure. Per ulteriori informazioni, vedi [Registrazione di Business Central locale in Microsoft Entra ID per l'integrazione con altri servizi](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## Preparati all'uso di Power BI
+## <a name="get-ready-to-use-power-bi"></a>Preparati all'uso di Power BI
 
 Ci sono alcune attività che devono essere eseguite prima di poter iniziare a utilizzare Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Le attività dipenderanno dal tuo ruolo nella tua organizzazione e da cosa vuoi fare con Power BI:
 
@@ -47,7 +47,7 @@ Ci sono alcune attività che devono essere eseguite prima di poter iniziare a ut
 |Esponi i dati di Business Central in Power BI||![è un segno di spunta.](media/check.png)|![ancora un segno di spunta](media/check.png)|[Esporre i dati tramite pagine API o servizi web OData](admin-powerbi-setup.md#exposedata)
 |Abilita integrazione di Power BI<br />(solo locale)||![è un segno di spunta.](media/check.png)||[Impostare Business Central locale per l'integrazione con Power BI](admin-powerbi-setup.md#setup)|
 
-## Tieni traccia dei tuoi indicatori KPI aziendali con le metriche Power BI
+## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Tieni traccia dei tuoi indicatori KPI aziendali con le metriche Power BI
 
 Se utilizzi Power BI su dati [!INCLUDE[prod_short](includes/prod_short.md)], è facile tenere traccia degli indicatori KPI o delle metriche importanti per te. 
 
@@ -67,12 +67,12 @@ Per ulteriori informazioni sulle metriche Power BI, vedi [Introduzione alle metr
 > [!NOTE]
 > A partire dal secondo ciclo di rilascio di Business Central 2023, è possibile incorporare scorecard da metriche di Power BI in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 
 - Se sei un amministratore che deve configurare Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], vai ad [Abilitazione dell'integrazione di Power BI](admin-powerbi-setup.md).
 - Se Power BI è già configurato e desideri provare le funzionalità, vai a [Uso dei report Power BI in Business Central](across-working-with-powerbi.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Business Intelligence](bi.md)  
 [Configurare [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

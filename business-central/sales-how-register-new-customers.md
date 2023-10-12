@@ -11,7 +11,7 @@ ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380
 ms.date: 09/01/2022
 ms.author: bholtorf
 ---
-# Registrare nuovi clienti
+# <a name="register-new-customers"></a>Registrare nuovi clienti
 
 I clienti sono l'origine del reddito. È necessario registrare ogni cliente, cui è stata effettuata una vendita, come una scheda cliente. Le schede cliente contengono le informazioni richieste per la vendita dei prodotti al cliente. Ulteriori informazioni in [Fatturare le vendite](sales-how-invoice-sales.md) e [Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
@@ -20,7 +20,7 @@ Prima di registrare nuovi clienti, è necessario impostare vari codici di vendit
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## Aggiunta di nuovi clienti
+## <a name="adding-new-customers"></a>Aggiunta di nuovi clienti
 
 Puoi aggiungere nuovi clienti manualmente, compilando la pagina della **Scheda cliente**, oppure puoi usare dei modelli che contengono informazioni predefinite. Per esempio, è possibile creare un modello per diversi tipi di profili di clienti. L'uso di modelli fa risparmiare tempo quando si aggiungono nuovi clienti e aiuta a garantire che le informazioni siano corrette ogni volta. 
 
@@ -35,7 +35,7 @@ Dopo aver creato un modello, è possibile utilizzare l'azione **Applica modello*
 
 Puoi anche creare un cliente da un contatto. Ulteriori informazioni nella sezione [Creare un cliente, un fornitore, un dipendente o un conto bancario da un contatto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-### Per creare una nuova scheda cliente
+### <a name="to-create-a-new-customer-card"></a>Per creare una nuova scheda cliente
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -43,7 +43,7 @@ L'azione **Prezzi e sconti** fornisce opzioni per la gestione di prezzi speciali
 
 Il cliente è ora registrato e la scheda cliente è pronta per essere utilizzata nei documenti di vendita.  
 
-### Per salvare la scheda cliente come modello
+### <a name="to-save-the-customer-card-as-a-template"></a>Per salvare la scheda cliente come modello
 
 Puoi utilizzare questa scheda cliente come modello quando si creano nuove schede cliente.
 
@@ -55,11 +55,11 @@ Puoi utilizzare questa scheda cliente come modello quando si creano nuove schede
 
 Il modello cliente viene aggiunto all'elenco dei modelli cliente, in modo che sia possibile utilizzarlo per creare nuove schede cliente.
 
-## Eliminazione di schede cliente
+## <a name="deleting-customer-cards"></a>Eliminazione di schede cliente
 
 Se è stata registrata una transazione per un cliente, non è possibile eliminare la scheda cliente perché i movimenti contabili potrebbero essere necessari per il controllo. Per eliminare le schede cliente con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.  
 
-## Gestione dei limiti di credito
+## <a name="managing-credit-limits"></a>Gestione dei limiti di credito
 
 Limiti di credito, importi saldo e condizioni di pagamento consentono a [!INCLUDE [prod_short](includes/prod_short.md)] di visualizzare automaticamente un avviso relativo a credito e oltre fido quando viene immesso un ordine di vendita. Inoltre, il termine di sollecito e gli elementi della condizione di interessi finanziari ti consentono di fatturare interessi e/o oneri addizionali.  
 
@@ -69,7 +69,7 @@ Il campo **Limite credito** in una scheda cliente specifica l'importo massimo ch
 
 È possibile scegliere di non ricevere avvisi che informano in merito al superamento del limite di credito di un cliente e specificare i tipi di avviso che si desidera visualizzare.
 
-### Per specificare gli avvisi sui limiti di credito
+### <a name="to-specify-credit-limit-warnings"></a>Per specificare gli avvisi sui limiti di credito
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
 
@@ -82,7 +82,7 @@ Il campo **Limite credito** in una scheda cliente specifica l'importo massimo ch
     |**Oltre Fido**|Il campo **Oltre fido** viene controllato e viene visualizzato un avviso che informa se il cliente ha un oltre fido.|
     |**Nessun Avviso**|Nessun avviso di credito viene visualizzato sullo stato del cliente.|
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Definizione dei metodi di pagamento](finance-payment-methods.md)  
 [Unire record duplicati](sales-how-merge-duplicate-records.md)  
