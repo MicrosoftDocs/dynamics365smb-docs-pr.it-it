@@ -11,11 +11,11 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: bholtorf
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-"></a>Fatturazione in blocco per Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
+# Fatturazione in blocco per Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Se la società utilizza l'app Bookings in Microsoft 365, è possibile eseguire la fatturazione in blocco per gli appuntamenti. La pagina **Registrazioni non fatturate** di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una lista delle prenotazioni completate della società. Nella pagina è possibile selezionare rapidamente gli appuntamenti da fatturare e creare fatture in bozza per i servizi forniti.  
 
-## <a name="connect-to-bookings"></a>Connessione a Bookings
+## Connessione a Bookings
 
 Per collegare [!INCLUDE[prod_short](includes/prod_short.md)] a Bookings, è necessario specificare la società Bookings, cosa sincronizzazione con Bookings, la frequenza di sincronizzare e i modelli da utilizzare. Impostare queste informazioni nella pagina **Setup sincronizzazione registrazione** che è possibile aprire dalla pagina **Setup sincronizzazione con Exchange** che è possibile trovare tramite la [Ricerca](ui-search.md).  
 
@@ -29,7 +29,7 @@ Analogamente, se si desidera sincronizzare gli articoli in assistenza tra Bookin
 > [!NOTE]
 > Solo gli articoli di tipo *Assistenza* verranno sincronizzati tra Bookings e [!INCLUDE[prod_short](includes/prod_short.md)]. Il modello impostato nella pagina **Modelli di configurazione** di modo che possa essere utilizzato per la sincronizzazione degli articoli deve definire il tipo come *Assistenza*.
 
-## <a name="invoice-appointments"></a>Fattura appuntamenti
+## Fattura appuntamenti
 
 Quando è tempo di inviare le fatture per le prenotazioni completate, aprire la pagina **Registrazioni non fatturate**. In base alla frequenza della sincronizzazione delle informazioni, l'elenco è lungo o breve. È possibile creare fatture per tutte le prenotazioni della lista o per una prenotazione alla volta. È possibile selezionare uno o più movimenti dell'elenco e fatturare solo quelli.  
 
@@ -38,7 +38,7 @@ Il supporto per la fatturazione degli appuntamenti da Bookings è più semplice 
 > [!NOTE]
 > A maggio 2022 abbiamo scoperto un problema nell'integrazione con Bookings. Attualmente, la sincronizzazione da Bookings a [!INCLUDE [prod_short](includes/prod_short.md)] richiede di associare manualmente le fatture ai clienti in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Finanze](finance.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)  

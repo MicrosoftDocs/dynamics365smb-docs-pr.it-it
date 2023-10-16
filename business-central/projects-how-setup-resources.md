@@ -74,8 +74,6 @@ Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei pre
 3. Nella pagina **Prezzi risorse** compilare i campi in una riga in base alle esigenze.
 4. Ripetere il passaggio 3 per ogni prezzo di risorsa alternativo che si desidera impostare.
 
-## Vedi il relativo [training Microsoft](/training/paths/set-up-jobs-resources/)
-
 ## Vedere anche
 
 [Impostazione della Gestione progetti](projects-setup-projects.md)  

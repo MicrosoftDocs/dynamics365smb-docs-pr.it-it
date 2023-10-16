@@ -102,13 +102,11 @@ Se lo hai fatto, devi creare un'eccezione per i differimenti per consentirne la 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale** o **Setup utente**, quindi scegli il collegamento correlato.
 2. Nei campi **Consenti registrazione differita da** e **Consenti registrazione differita a**, inserisci una data di inizio e di fine per il periodo.
 
-## Vedi il relativo [training Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## Vedere anche
 
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
-[Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
+[Usare le registrazioni COGE](ui-work-general-journals.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

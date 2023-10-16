@@ -114,13 +114,11 @@ Se non è stata selezionata la casella di controllo **Ammort. alla data reg. ces
 
 *totale ammortamento = 100 + 15 + 55,54 = 170,54*
 
-## Vedi il relativo [training Microsoft](/training/paths/manage-advanced-fixed-assets-transactions/)
-
 ## Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
-[Finanze](finance.md)  
+[Dati finanziari](finance.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

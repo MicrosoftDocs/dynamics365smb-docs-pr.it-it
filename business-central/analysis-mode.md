@@ -1,11 +1,11 @@
 ---
-title: Analizzare i dati nelle pagine elenco utilizzando la modalità di analisi dei dati
+title: Analizzare i dati nelle pagine elenco e nelle query utilizzando la modalità di analisi dei dati
 description: Informazioni su come utilizzare la modalità di analisi dei dati in Business Central per analizzare i dati.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/23/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -21,7 +21,7 @@ In questo articolo apprenderai come analizzare i dati delle pagine elenco e dell
 
 ## Prerequisiti 
 
-- Se utilizzi Business Central versione 22, la modalità di analisi dei dati è in anteprima, quindi deve essere abilitata da un amministratore prima di poterla utilizzare. Per abilitarla, vai alla pagina **Gestione funzionalità** e abilita **Aggiornamento della funzionalità: modalità di analisi, analisi rapida dei dati direttamente in Business Central**. [Ulteriori informazioni su Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Se utilizzi Business Central versione 22, la modalità di analisi dei dati è in anteprima. Pertanto, un amministratore deve abilitarlo per poterlo utilizzare. Per abilitarla, vai alla pagina **Gestione funzionalità** e abilita **Aggiornamento della funzionalità: modalità di analisi, analisi rapida dei dati direttamente in Business Central**. [Ulteriori informazioni su Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - Nella versione 23 e successive, al tuo account deve essere assegnato il set di autorizzazioni **DATA ANALYSIS - EXEC** o includere l'autorizzazione di esecuzione sull'oggetto di sistema **9640 Consenti modalità di analisi dati**. In qualità di amministratore, puoi escludere queste autorizzazioni per gli utenti a cui non desideri concedere l'accesso alla modalità di analisi.
 
 > [!NOTE]
@@ -45,7 +45,7 @@ In questo articolo apprenderai come analizzare i dati delle pagine elenco e dell
 
 4. Quando vuoi uscire dalla modalità di analisi, disattiva l'interruttore **Analizza**.
 
-   Le schede di analisi che hai aggiunto rimangono fino a quando non le elimini. Quindi, se torni di nuovo alla modalità di analisi dei dati, le vedrai esattamente come le avevi lasciate.
+   Le schede di analisi che hai aggiunto rimangono fino a quando non le elimini. Quindi, se torni di nuovo alla modalità di analisi dei dati, le vedi esattamente come le avevi lasciate.
 
 > [!NOTE]
 > I dati mostrati in modalità di analisi sono controllati dai filtri o dalle viste impostati nella pagina elenco. Ciò ti consente di prefiltrare i dati prima di accedere alla modalità di analisi.
@@ -69,11 +69,11 @@ L'area dati è il punto in cui vengono visualizzate le righe e le colonne della 
   - Per aggiungere una colonna a sinistra o a destra dell'area dati in modo che non sia fuori dallo schermo durante lo scorrimento, seleziona ![Mostra l'icona su una colonna in modalità analisi dati che apre un menu di azioni](media/analysis-mode-column-menu-icon.png) > **Aggiungi colonna** > **Aggiungi a sinistra** la parte della colonna.
   - Definisci i filtri di dati direttamente nella definizione della colonna invece di accedere ai riquadri **Filtri di analisi**. Puoi ancora esaminare i dettagli sui dati correlati e per ogni riga e aprire la scheda per altre informazioni su una determinata entità.
 - Utilizza l'area dati per interagire con i dati. Per le colonne che contengono valori numerici sommabili, puoi ottenere statistiche descrittive su un set di campi contrassegnandoli. Le statistiche vengono visualizzate nella barra di stato (2) nella parte inferiore della pagina.
-- Esporta i dati in formato Excel o csv. È sufficiente fare clic con il pulsante destro del mouse sull'area dati o su una selezione di celle da esportare.
+- Esporta i dati in formato Excel o csv. Fai clic con il pulsante destro del mouse sull'area dati o su una selezione di celle da esportare.
 
 ### Barra di riepilogo (2)
 
-La barra di riepilogo si trova nella parte inferiore della pagina e visualizza le statistiche sui dati nella pagina elenco o nella query. Man mano che interagisci con le colonne i cui valori possono essere sommati, ad esempio selezionando più righe in una colonna che visualizza gli importi, i dati verranno aggiornati.
+La barra di riepilogo si trova nella parte inferiore della pagina e visualizza le statistiche sui dati nella pagina elenco o nella query. Man mano che interagisci con le colonne i cui valori possono essere sommati, ad esempio selezionando più righe in una colonna che visualizza gli importi, i dati si aggiornano.
 
 ![Mostra una panoramica di una barra di riepilogo nella modalità di analisi dei dati](media/analysis-mode-totals-row.png)
 
@@ -103,7 +103,7 @@ L'area **Colonne** è uno dei due riquadri che usi per definire la tua analisi. 
 |Gruppi di righe|Utilizza quest'area per raggruppare e sommare i dati in base a uno o più campi. Puoi includere solo campi non numerici, come campi di testo, data e ora. I gruppi di righe vengono utilizzati spesso in modalità pivot.|
 |Valori|Utilizza quest'area per specificare i campi per i quali vuoi una somma totale. Puoi includere solo campi che contengono numeri che possono essere sommati; ad esempio, non campi di testo, data o ora.|
 
-Per spostare un campo da un'area all'altra, seleziona l'icona per afferrare ![Mostra una panoramica di una pagina nella modalità di analisi](media/column-grab-icon.png) accanto alla colonna nell'elenco precedente e trascina nell'area di destinazione. Ti viene impedito di spostare un campo in un'area in cui non è consentito.
+Per spostare un campo da un'area all'altra, seleziona l'icona per afferrare ![Mostra una panoramica di una pagina nella modalità di analisi](media/column-grab-icon.png) accanto alla colonna nell'elenco e trascina nell'area di destinazione. Ti viene impedito di spostare un campo in un'area in cui non è consentito.
 
 ### Filtri analisi (4)
 
@@ -126,17 +126,27 @@ Ecco alcuni suggerimenti su come lavorare con più schede di analisi:
    - **Elimina** elimina la scheda attualmente aperta. **Elimina tutto** elimina tutte le schede che hai aggiunto, tranne la scheda predefinita **Analisi 1**.
 - Non puoi rimuovere completamente la scheda **Analisi 1**, ma puoi rinominarla utilizzando l'azione **Rinomina** e cancellare le modifiche apportate utilizzando **Elimina** o **Elimina tutto**.  
 
-- Le schede di analisi che hai aggiunto e configurato rimangono fino a quando non le elimini. Quindi, se torni di nuovo alla modalità di analisi dei dati, le vedrai esattamente come le avevi lasciate.
+- Le schede di analisi che hai aggiunto e configurato rimangono fino a quando non le elimini. Quindi, se torni di nuovo alla modalità di analisi dei dati, le vedi esattamente come le avevi lasciate.
 
    > [!TIP]
    > Le schede che hai impostato sono visibili solo a te. Gli altri utenti vedranno solo le schede che hanno configurato.
 - Puoi copiare le schede di analisi. La copia può essere utile se vuoi sperimentare la modifica di una scheda senza modificare l'originale o per creare diverse varianti della stessa analisi.
 
+
+## Gerarchie di date
+
+In modalità analisi, i campi data del set di dati vengono generati in una gerarchia anno-trimestre-mese di tre campi separati. Questa gerarchia si basa sul calendario normale e non sui calendari fiscali definiti in Business Central.
+
+I campi aggiuntivi sono denominati _\<field name\> Anno_, _\<field name\> Trimestre_ e _\<field name\> Mese_. Ad esempio, se il set di dati include un campo denominato _Data di registrazione_, la gerarchia di date corrispondente è composta da campi chiamati _Anno data di registrazione_, _Trimestre data di registrazione_ e _Mese data di registrazione_.
+
+> [!NOTE]
+> La gerarchia delle date attualmente si applica solo ai campi di tipo data, non ai campi di tipo datetime.
+
 ## Modalità pivot
 
 È possibile utilizzare la modalità pivot per analizzare grandi quantità di dati numerici, e fare un subtotale dei dati per categorie e sottocategorie. La modalità pivot è equivalente alle [tabelle pivot in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
-Per attivare e disattivare la modalità pivot, fai scorrere l'interruttore **Modalità pivot** nel riquadro **Colonne** (3). Quando attivi la modalità pivot, nel riquadro viene visualizzata l'area **Etichette colonna**. Utilizza l'area **Etichette colonna** per raggruppare i totali della somma per le righe in categorie. I campi che aggiungi all'area **Etichette colonna** verranno visualizzati come colonne nell'area dati (1).
+Per attivare e disattivare la modalità pivot, fai scorrere l'interruttore **Modalità pivot** nel riquadro **Colonne** (3). Quando attivi la modalità pivot, nel riquadro viene visualizzata l'area **Etichette colonna**. Utilizza l'area **Etichette colonna** per raggruppare i totali della somma per le righe in categorie. I campi che aggiungi all'area **Etichette colonna** sono visualizzati come colonne nell'area dati (1).
 
 La creazione dell'analisi dei dati in modalità pivot comporta lo spostamento dei campi nelle tre aree: **Gruppi di righe**, **Etichette colonne**, e **Valori**. La figura seguente illustra dove i campi vengono mappati all'area dati (1), dove `sum` sono i dati calcolati e, facoltativamente, **Valori**.
 

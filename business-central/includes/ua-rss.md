@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 08/16/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Per sottoscriversi a un feed RSS (Really Simple Syndication) di tutti gli aggiornamenti relativi al contenuto delle funzionalità aziendali su learn.microsoft.com per [!INCLUDE [prod_short](prod_short.md)], utilizza il seguente collegamento:
 

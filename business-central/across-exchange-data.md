@@ -10,7 +10,7 @@ ms.search.keywords: 'exchange data, external files, electronic documents, AMC Ba
 ms.date: 06/10/2021
 ms.author: bholtorf
 ---
-# <a name="exchanging-data"></a>Scambio di dati
+# Scambio di dati
 È possibile scambiare i dati tra [!INCLUDE[prod_short](includes/prod_short.md)] e flussi o file esterni in relazione alle attività aziendali, come l'invio e la ricezione di documenti elettronici e l'importazione e l'esportazione di file dalla banca.  
 
 Prima di poter inviare e ricevere documenti elettronici o importare ed esportare file bancari, è necessario impostare il framework di scambio dati per elaborare i flussi o i file di dati. È inoltre necessario impostare aree correlate, ad esempio i clienti a cui si inviano fatture elettroniche e l'estensione AMC Banking 365 Fundamentals, qualora si distribuiscano conversioni di file bancari a un provider di servizi esterno. Per ulteriori informazioni, vedere [Impostazione dello scambio di dati](across-set-up-data-exchange.md).  
@@ -31,7 +31,7 @@ Prima di poter inviare e ricevere documenti elettronici o importare ed esportare
 |Esportare i dati per il reporting Intrastat in [!INCLUDE[prod_short](includes/prod_short.md)].|[Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md)|
 |Visualizzare i campi in [!INCLUDE[prod_short](includes/prod_short.md)] di cui viene eseguito il mapping agli elementi del file durante l'esportazione dei file di pagamento tramite l'estensione AMC Banking 365 Fundamentals.|[Mappatura dei campi quando si esportano file di pagamento utilizzando l'estensione AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 [Impostazione dello scambio di dati](across-set-up-data-exchange.md)  
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
 [Fatturare le vendite](sales-how-invoice-sales.md)   

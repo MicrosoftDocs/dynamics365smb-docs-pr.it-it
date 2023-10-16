@@ -348,7 +348,12 @@
 #### [Usare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md)
 
-### Gestione IVA
+### Gestire documenti elettronici
+#### [Impostare documenti elettronici](finance-how-setup-edocuments.md)
+#### [Utilizzare documenti elettronici nelle vendite e negli acquisti](finance-how-use-edocuments.md)
+#### [Estensione della funzionalità dei documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Gestire l'IVA
 #### [Panoramica della gestione IVA](finance-manage-vat.md)
 #### [Triangolazioni intracomunitarie](finance-how-to-eu3party-trade-purchase.md)
 #### Impostare l'IVA
@@ -447,11 +452,12 @@
 ### [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)
 ### [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)
 ### [Esportazione file di controllo](finance-how-to-export-audit-files.md)
-### [Allocare costi e ricavi](year-allocate-costs-income.md)
 ### [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)
 ### [Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)
+### [Allocare costi e ricavi periodici](year-allocate-costs-income.md)
+### [Allocare ricavi e costi a più conti C/G](finance-allocate-revenue-costs.md)
 ### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
-### [Importare transazioni retribuzioni](finance-how-import-payroll-transactions.md)
+### [Importare transazioni di retribuzioni](finance-how-import-payroll-transactions.md)
 ### [Usare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)
 ### [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)
 ### [Convertire i contratti di servizio che includono importi IVA](service-how-to-convert-service-contracts.md)
@@ -585,8 +591,9 @@
 #### [Gestire interazioni per i segmenti](marketing-interaction-segments.md)
 ### Gestire le interazioni
 #### [Interazioni](marketing-interactions-overview.md)
-#### [Registrare le interazioni con i contatti](marketing-interactions.md)
-#### [Creare interazioni per i contatti e i segmenti](marketing-how-create-interactions.md)
+#### [Allegati per interazioni](marketing-interaction-attachments.md)
+#### [Registrare interazioni con contatti](marketing-interactions.md)
+#### [Creare interazioni per contatti e segmenti](marketing-how-create-interactions.md)
 #### [Registrare automaticamente le interazioni con i contatti](marketing-auto-record-interactions.md)
 ### Gestire le opportunità di vendita
 #### [Opportunità](marketing-manage-sales-opportunities.md)
@@ -1545,18 +1552,20 @@
 #### [Impostare i metodi di spedizione](sales-how-set-up-shipment-methods.md)
 #### [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)
 #### [Definire criteri di registrazione fattura per gli utenti](admin-setup-invoice-posting-policy.md)
+#### [Aggiornare le date dei documenti con le date di registrazione](across-link-doc-dates-to-posting-dates.md)
 ### Impostare gli acquisti
 #### [Impostare gli acquisti](purchasing-setup-purchasing.md)
 #### [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)
-#### [Impostare i conti bancari fornitori](purchasing-how-set-up-vendors-bank-accounts.md)
+#### [Impostare i conti correnti bancari dei fornitori](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Attribuire un ordine di priorità ai fornitori](purchasing-how-prioritize-vendors.md)
 #### [Impostare gli addetti agli acquisti](purchasing-how-setup-purchasers.md)
 #### [Impostare prezzi e sconti](across-prices-and-discounts.md)
-#### [Registrare i prezzi di acquisto e gli sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Registrare prezzi di acquisto e sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Definire criteri di registrazione fattura per gli utenti](admin-setup-invoice-posting-policy.md)
+#### [Aggiornare le date dei documenti con le date di registrazione](across-link-doc-dates-to-posting-dates.md)
 ### Impostare il magazzino
 #### [Impostare il magazzino](inventory-setup-inventory.md)
-#### [Impostare le informazioni generali di magazzino](inventory-how-setup-general.md)
+#### [Impostare informazioni generali di magazzino](inventory-how-setup-general.md)
 #### [Usare i centri di responsabilità](inventory-responsibility-centers.md)
 #### [Impostare le ubicazioni](inventory-how-setup-locations.md)
 #### [Registrare nuovi articoli](inventory-how-register-new-items.md)
@@ -1720,7 +1729,7 @@
 ### [Panoramica](reports-use-reports.md)
 ### [Eseguire i report](ui-work-report.md)
 ### [Aggiungere un segnalibro a un report](ui-bookmarks.md)
-### [Analizzare i dati del report con Excel](report-analyze-excel.md)
+### [Analizzare dati di report con Excel](report-analyze-excel.md)
 ### [Stampare i report](ui-specify-printer-selection-reports.md#default)
 ### [Programmare i report](ui-work-report.md#ScheduleReport)
 ### [Condividere ed esportare report con Report elaborati](ui-work-report-inbox.md)
@@ -1789,9 +1798,9 @@
 ### [Panoramica](reports-adhoc-analysis.md)
 ### [Ordinare, cercare e filtrare](ui-enter-criteria-filters.md)
 ### [Domande frequenti sulla ricerca e sui filtri](ui-search-filter-faq.yml)
-### [Analizzare i dati della pagina in Excel](across-work-with-excel.md)
-### [Analizzare i dati del report con Excel](report-analyze-excel.md)
-### [Analisi dei dati di elenco con la modalità di analisi](analysis-mode.md)
+### [Analizzare dati di pagina in Excel](across-work-with-excel.md)
+### [Analizzare dati di report con Excel](report-analyze-excel.md)
+### [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md)
 ### [Business Intelligence finanziario](bi.md)
 
 ## Analisi integrate 

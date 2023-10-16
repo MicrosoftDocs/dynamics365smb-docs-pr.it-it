@@ -9,7 +9,7 @@ ms.search.form: '1360, 1361, 1364,'
 ms.date: 08/02/2023
 ms.custom: hap-template
 ---
-# <a name="the-worldpay-payments-standard-extension"></a>Estensione WorldPay Payments Standard
+# Estensione WorldPay Payments Standard
 
 > [!CAUTION]
 > L'estensione WorldPay Payments Standard sarà obsoleta. Il codice è commercializzato come obsoleto a partire dal secondo ciclo di rilascio del 2023. L'app sarà attiva per le prossime tre versioni principali e poi verrà rimossa.
@@ -20,7 +20,7 @@ Se si abilita l'estensione e si invia una fattura di vendita tramite e-mail, il 
 
 L'abilitazione delle estensioni del servizio di pagamento è gratuita in [!INCLUDE[prod_short](includes/prod_short.md)], tuttavia, sarà necessario contattare il servizio di pagamento per ottenere un conto. Per ulteriori informazioni, vedi [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Setup Vendite](sales-setup-sales.md)  

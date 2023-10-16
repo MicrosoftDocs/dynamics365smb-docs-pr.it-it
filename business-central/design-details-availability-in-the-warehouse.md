@@ -73,6 +73,10 @@ Il risultato viene visualizzato nel campo **Quantità totale disponibile** della
 
 In una riga di impegno, la quantità che non può essere impegnata, in quanto è allocata nella warehouse, viene visualizzata nel campo **Qtà. allocata in warehouse** della pagina **Impegni**.  
 
+## Controllare se gli articoli sono disponibili per il prelievo
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Calcolo della quantità disponibile da impegnare
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calcola la quantità disponibile da impegnare come segue:  
@@ -85,8 +89,8 @@ Nel seguente diagramma vengono mostrati i differenti elementi del calcolo.
 
 ## Vedere anche  
 
-[Panoramica di Warehouse Management](design-details-warehouse-management.md)
-[Visualizzare la disponibilità degli articoli](inventory-how-availability-overview.md)
-
+[Panoramica della gestione warehouse](design-details-warehouse-management.md)
+[Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
+[Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

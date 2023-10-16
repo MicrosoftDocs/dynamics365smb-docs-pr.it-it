@@ -9,7 +9,9 @@ ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="create-users-according-to-licenses"></a>Creare utenti in base alle licenze
+# Creare utenti in base alle licenze
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -22,7 +24,7 @@ Per ulteriori informazioni sui diversi tipi di licenze e sul funzionamento delle
 > [!NOTE]
 > Il processo di gestione degli utenti e delle licenze varia a seconda che la soluzione [!INCLUDE[prod_short](includes/prod_short.md)] sia distribuita online o in locale. Per [!INCLUDE [prod_short](includes/prod_short.md)] online, è necessario aggiungere utenti da Microsoft 365. Nelle distribuzioni locali è possibile creare, modificare ed eliminare utenti direttamente.  
 
-## <a name="manage-users-and-licenses-in-online-tenants"></a>Gestire utenti e licenze nei tenant online
+## Gestire utenti e licenze nei tenant online
 
 Gli account utente in [!INCLUDE[prod_short](includes/prod_short.md)] devono essere prima creati nell'interfaccia di amministrazione Microsoft 365. Questi account utente non sono esclusivi di Business Central. Se ti abboni ad altri piani, possono essere utilizzati per accedere ad altre applicazioni, come Power BI. Per informazioni sulla creazione di utenti nell'interfaccia di amministrazione Microsoft 365, vai a [Aggiungi utenti nell'interfaccia di amministrazione Microsoft](/microsoft-365/admin/add-users/add-users).
 
@@ -54,7 +56,7 @@ Entrambi gli approcci hanno i loro vantaggi e puoi usarli contemporaneamente. Og
 
 Per ulteriori informazioni, vedi [Accesso dell'amministratore con delega a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Configurare le autorizzazioni in base alle licenze
+### <a name="licensespermissions"></a>Configurare le autorizzazioni in base alle licenze
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +86,7 @@ Se questa non è la configurazione corretta per un determinato ambiente, l'ammin
 > [!IMPORTANT]
 > Questa personalizzazione delle autorizzazioni ha effetto solo per i nuovi utenti a cui si assegna la licenza pertinente. Gli utenti esistenti non vengono aggiornati. Ti consigliamo di personalizzare le autorizzazioni prima di iniziare ad assegnare le licenze agli utenti nell'interfaccia di amministrazione di Microsoft 365.
 
-### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Per aggiungere utenti o aggiornare le informazioni utente e le assegnazioni della licenza in Business Central
+### <a name="adduser"></a>Per aggiungere utenti o aggiornare le informazioni utente e le assegnazioni della licenza in Business Central
 
 Dopo aver aggiunto utenti o modificato le informazioni utente nell'interfaccia di amministrazione di Microsoft 365, è possibile importare rapidamente le informazioni utente in [!INCLUDE[prod_short](includes/prod_short.md)]. L'importazione include le assegnazioni della licenza.  
 
@@ -108,7 +110,7 @@ Per altre informazioni sulla sincronizzazione delle informazioni utente con Micr
 > [!NOTE]
 > Se viene utilizzato un contabile esterno per gestire i libri contabili e i rendiconti finanziari, è possibile invitarlo a [!INCLUDE[prod_short](includes/prod_short.md)] in modo che possa utilizzare i dati fiscali dell'azienda. Per ulteriori informazioni, vedere [Invitare il contabile esterno in Business Central](finance-accounting.md#inviteaccountant).
 
-### <a name="to-remove-a-users-access-to-the-system"></a>Per rimuovere l'accesso di un utente al sistema
+### Per rimuovere l'accesso di un utente al sistema
 
 Puoi rimuovere l'accesso di un utente a [!INCLUDE[prod_short](includes/prod_short.md)] online. Tutti i riferimenti all'utente vengono mantenuti. Tuttavia, l'utente non può accedere e le sessioni attive per l'utente vengono interrotte.
 
@@ -118,7 +120,7 @@ Puoi rimuovere l'accesso di un utente a [!INCLUDE[prod_short](includes/prod_shor
 
 Puoi anche rimuovere la licenza da un utente nell'interfaccia di amministrazione di Microsoft 365. L'utente non può quindi eseguire l'accesso. Per ulteriori informazioni, vedi [Rimuovere le licenze agli utenti](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Sincronizzazione con Microsoft 365
+### <a name="m365"></a>Sincronizzazione con Microsoft 365
 
 Quando assegni una licenza per [!INCLUDE[prod_short](includes/prod_short.md)] a un utente in Microsoft 365, vi sono due modi per creare l'utente in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -139,17 +141,17 @@ Se si modificano le informazioni dell'utente in Microsoft 365, puoi aggiornare [
 
 Gli utenti possono accedere ai record di [!INCLUDE[prod_short](includes/prod_short.md)] in Teams utilizzando solo la licenza Microsoft 365. Quando l'accesso è abilitato per un ambiente, la sincronizzazione tramite l'azione **Aggiorna utenti da Microsoft 365** non includerà gli utenti che dispongono solo di una licenza Microsoft 365. Per includere questi utenti nella sincronizzazione, devi prima aggiornare le impostazioni dell'ambiente assegnando un gruppo di sicurezza che contenga utenti con una licenza [!INCLUDE[prod_short](includes/prod_short.md)] e utenti con solo una licenza Microsoft 365.
 
-Scopri come proteggere l'accesso agli ambienti utilizzando i gruppi di sicurezza in [Gestire gli accessi utilizzando gruppi di Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
+Scopri come proteggere l'accesso agli ambienti utilizzando i gruppi di sicurezza in [Gestire gli accessi utilizzando gruppi di Microsoft Entra](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
 Ottieni una panoramica degli accessi a [!INCLUDE[prod_short](includes/prod_short.md)] in Teams con licenze Microsoft 365 in [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Gestire utenti e licenze nelle distribuzioni locali
+## Gestire utenti e licenze nelle distribuzioni locali
 
 Per le distribuzioni locali, nel file di licenza (.bclicense o .flf). è specificato il numero di licenze utente. Quando un amministratore o il partner Microsoft carica il file di licenza, può specificare quali utenti possono accedere a [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Per le distribuzioni locali, l'amministratore crea, modifica ed elimina gli utenti direttamente dalla pagina **Utenti**.
 
-### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Per modificare o eliminare un utente in una distribuzione locale
+### Per modificare o eliminare un utente in una distribuzione locale
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
 2. Scegliere l'utente che si intende modificare, quindi scegliere l'azione **Modifica**.
@@ -161,7 +163,7 @@ Per le distribuzioni locali, l'amministratore crea, modifica ed elimina gli uten
 >
 > Per ulteriori informazioni, vedere [Tipi di autenticazione e credenziali](/dynamics365/business-central/dev-itpro/administration/users-credential-types) nella Guida per amministratori di [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 [Gestire profili](admin-users-profiles-roles.md)  

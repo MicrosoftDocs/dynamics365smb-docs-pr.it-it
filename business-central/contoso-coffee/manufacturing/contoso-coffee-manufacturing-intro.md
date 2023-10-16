@@ -4,12 +4,12 @@ description: Panoramica degli scenari su come i dati demo di Contoso Coffee poss
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 4760
+ms.search.form: 4765
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduzione alla produzione di Contoso Coffee
+# Introduzione alla produzione di Contoso Coffee
 
 Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono i dati demo che puoi usare per imparare a usare le funzionalità di produzione in Business Central.  
 
@@ -31,43 +31,23 @@ L'app fornisce quattro prodotti ottimizzati per diversi scenari:
 
   Questo prodotto ha tre varianti e tre distinte base (DB) che possono essere assegnate alle unità di stockkeeping. Il prodotto utilizza il concetto di distinta base fantasma. Il metodo di costing è *Standard*.
 
-Le attività di produzione per tutti gli scenari utilizzano la località *NORD*.  
+Le attività di produzione per tutti gli scenari utilizzano l'ubicazione *PRINCIPALE*.  
 
 > [!IMPORTANT]
 > Prima di eseguire uno qualsiasi degli scenari per Contoso Coffee, registra le righe di registrazione articolo con i saldi di apertura. Per ulteriori requisiti, vedi la sezione [Impostare i dati di Contoso Coffee](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Impostare i dati di produzione Contoso Coffee
+## Impostare i dati di produzione Contoso Coffee
 
-Per usare i dati demo di produzione Contoso Coffee, devi installare due app nell'azienda pertinente in [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
-
-- **Set di dati demo Contoso Coffee**  
-
-    Questa app fornisce i dati demo per l'applicazione di base.  
-- **Set di dati demo Contoso Coffee (ID paese)**  
-
-    Questa app aggiunge contenuti specifici per il paese/area geografica oltre a quelli dell'applicazione di base.
-
-Aggiungi le app a un'azienda vuota in un abbonamento a pagamento o come parte di una versione di valutazione. Ad esempio, crea una nuova società senza dati di esempio dalla guida setup assistito **Crea una nuova società** che puoi aprire dall'elenco **Società**. Quindi aggiungi le app dal [marketplace](../../ui-extensions-install-uninstall.md#install) se non sono già elencate nella pagina **Gestione estensioni**.  
-
-Una volta installate le app pertinenti, vai alla pagina [Dati demo di Contoso Coffee](https://businesscentral.dynamics.com/?page=4760) in [!INCLUDE [prod_short](../../includes/prod_short.md)] e modifica le impostazioni predefinite in base alle tue esigenze. Nella seguente tabella vengono illustrate le impostazioni:  
+[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
 |Campo  |Descrizione  |
 |---------|---------|
-|**Anno di inizio** |Specifica il primo anno da usare per i dati dimostrativi di Contoso Coffee. A seconda della configurazione dell'azienda, l'anno può essere un anno solare o un anno fiscale.|
-|**Ubicazione produzione** |Specifica il magazzino da usare per le operazioni di produzione. L'impostazione predefinita è *NORD*, ma puoi modificarla in base alle tue esigenze.|
-|**Tipo di società**    |Specifica se la società corrente deve dichiarare l'IVA. |
-|**Nazionale - Categoria registrazione business generale**|Specifica un codice aziendale per clienti e fornitori nazionali. I codici aziendali vengono utilizzati durante la registrazione delle transazioni. |
-|**Capacità - Categoria registrazione articoli/servizi**    |Specifica un codice per gli articoli o le risorse che devono essere utilizzati per la registrazione della capacità.|
-|**Vendita al dettaglio - Categoria registrazione articoli/servizi**    |Specifica un codice per gli articoli o le risorse che devono essere utilizzati per la registrazione della vendita al dettaglio.|
-|**Mat. prime - Categoria registrazione articoli/servizi**    |Specifica un codice per gli articoli o le risorse che devono essere utilizzati per la registrazione delle materie prime. |
-|**Codice imponibile IVA**    |Specifica un gruppo di prodotti IVA esistente che viene utilizzato per gli articoli.|
-|**Codice finito**    |Specifica un gruppo di prodotti esistente che viene utilizzato per gli articoli finiti.|
-|**Fattore prezzo**     |Specifica un fattore per convertire un prezzo da USD/EUR nella valuta locale. *1* significa che il prezzo è lo stesso in qualsiasi valuta. Un numero alto viene utilizzato per ottenere il prezzo nella valuta locale. |
-|**Precisione arrotondamento**  |Definisce il modo in cui le quantità di consumo calcolate vengono arrotondate una volta immesse nelle righe di registrazione consumi. Le quantità minori di 0,5 verranno arrotondate per difetto. Le quantità uguali a maggiori di 0,5 saranno arrotondate per eccesso.|
+|**Ubicazione produzione** |Specifica il magazzino da usare per le operazioni di produzione. L'impostazione predefinita è *PRINCIPALE*, ma puoi modificarla in base alle tue esigenze.|
+
 
 Quando sei pronto, scegli l'azione **Crea dati demo**. Occorrono alcuni minuti per aggiungere i dati al database sottostante, ma poi sei pronto per eseguire i vari scenari.  
 
-## <a name="scenarios"></a>Scenari
+## Scenari
 
 I dati demo di produzione Contoso Coffee attualmente supportano i seguenti scenari per il test e la formazione:
 
@@ -85,7 +65,7 @@ Leggi i passaggi per ogni scenario nell'articolo pertinente.
 > [!IMPORTANT]
 > Queste procedure dettagliate richiedono che l'esperienza utente sia impostata su *Premium* nella pagina **Informazioni società**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Manufacturing](../../production-manage-manufacturing.md)  
 [Report di produzione e analisi in Business Central](../../production-reports.md)  

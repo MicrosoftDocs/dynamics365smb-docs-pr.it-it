@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-production-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di produzione
+# Dettagli di progettazione: Registrazione dell'ordine di produzione
 Simile alla registrazione dell'ordine di assemblaggio, i componenti consumati e il tempo macchina utilizzato vengono convertiti e resi come articolo prodotto una volta completato l'ordine di produzione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md). Tuttavia, il flusso dei costi per gli ordini di assemblaggio è meno complesso, soprattutto perché la registrazione dei costi di assemblaggio si verifica solo una volta e pertanto non genera magazzino WIP.
 
 
@@ -46,7 +46,7 @@ I valori degli aumenti e delle diminuzioni vengono registrati nei diversi tipi d
 
 Benché i valori delle transazioni correlate alle merci acquistate siano registrati solo come movimenti contabili articoli con i movimenti di valorizzazione correlati, le transazioni correlate agli articoli prodotti vengono registrate come movimenti contabili capacità ai movimenti di valorizzazione correlati, oltre ai movimenti contabili articoli.  
 
-## <a name="posting-structure"></a>Struttura della registrazione
+## Struttura della registrazione  
 La registrazione di ordini di produzione nel magazzino WIP include l'output, il consumo e la capacità.  
 
 Nel seguente diagramma vengono mostrate le routine di registrazione implicate nella codeunit 22.  
@@ -69,12 +69,12 @@ Un movimento di valorizzazione che descrive il valore di magazzino WIP può esse
 
 Per ulteriori informazioni su come i costi dall'assemblaggio e della produzione vengono registrati nella contabilità generale, vedere [Dettagli di progettazione: Registrazione di magazzino](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting"></a>Registrazione capacità
+## Registrazione capacità  
 La registrazione dell'output dall'ultima riga del ciclo ordine di produzione comporta la registrazione di un movimento contabile capacità per l'articolo finale, oltre all'aumento di magazzino.  
 
  Il movimento contabile capacità è un record che indica il tempo dedicato a produrre l'articolo. Il movimento di valorizzazione correlato descrive l'aumento del valore di magazzino WIP, che corrisponde al valore del costo di conversione. Per altre informazioni, vedere "Dal contabile capacità" in [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="production-order-costing"></a>Determinazione costi ordine di produzione
+## Determinazione costi ordine di produzione  
  Per controllare i costi di produzione e di magazzino, un'azienda manifatturiera deve misurare il costo degli ordini di produzione, in quanto il costo standard predeterminato di ogni articolo prodotto viene capitalizzato nello stato patrimoniale. Per informazioni sui motivi per i quali gli articoli prodotti utilizzano il metodo di costing standard, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -98,7 +98,7 @@ Negli ambienti con costi standard, il calcolo dei costi di un ordine di produzio
     >  È diverso dalla registrazione dell'ordine di assemblaggio, dove vengono sempre registrati i costi effettivi. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md).  
 2.  Quando l'ordine di produzione viene impostato su **Completato**, l'ordine viene fatturato eseguendo il processo batch **Rettifica costo - Movimenti articoli**. Di conseguenza, il costo totale dell'ordine viene calcolato in base al costo standard dei materiali e della capacità consumati. Gli scostamenti tra i costi standard calcolati e i costi effettivi di produzione vengono calcolati e registrati.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
  [Dettagli di progettazione: Registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)  
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md) [Contabilità](finance.md)  
