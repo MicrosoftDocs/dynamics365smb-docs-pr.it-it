@@ -65,7 +65,7 @@ sections:
       - question: |
           Dove si trova quel numero di riga?
         answer: |
-          Documenti quali ordini di vendita o fatture di acquisto sono costituiti da intestazioni e righe. Ogni riga ha un numero che [!INCLUDE [prod_short](includes/prod_short.md)] utilizza per identificare la particolare riga. Di conseguenza, è possibile che venga visualizzato un avviso o un messaggio di errore indicante un problema nella riga numero 1000, ad esempio. Nella versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)], i numeri di riga sono nascosti. Per vedere i numeri di riga, è necessario personalizzare la pagina corrente e aggiungere il **Nr. riga** . Ulteriori informazioni in [Personalizzare l'area di lavoro](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Documenti quali ordini di vendita o fatture di acquisto sono costituiti da intestazioni e righe. Ogni riga ha un numero che [!INCLUDE [prod_short](includes/prod_short.md)] utilizza per identificare la particolare riga. Di conseguenza, è possibile che venga visualizzato un avviso o un messaggio di errore indicante un problema nella riga numero 1000, ad esempio. Nella versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)], i numeri di riga sono nascosti. Per vedere i numeri di riga, è necessario personalizzare la pagina corrente e aggiungere il **Nr. riga** . Ulteriori informazioni in [Personalizzare l'area di lavoro](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Perché la Guida descrive funzionalità a cui non è possibile accedere?
         answer: |
@@ -90,7 +90,7 @@ sections:
 
           Se accedi con un account aziendale non Microsoft 365 (come joe@mysolution.com) e disponi di un abbonamento a Microsoft 365, puoi associare il tuo dominio (*mysolution.com*) all'abbonamento a Microsoft 365. Ulteriori informazioni su [Informazioni su un dominio](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) nel contenuto Microsoft 365.  
 
-          Se non disponi di un abbonamento a Microsoft 365 e non intendi acquistarne uno, forniamo un nuovo tenant Azure Active Directory all'iscrizione per poter accedere agli strumenti di amministrazione avanzati nel portale di Azure.  
+          Se non disponi di un abbonamento a Microsoft 365 e non intendi acquistarne uno, forniamo un nuovo tenant Microsoft Entra all'iscrizione per poter accedere agli strumenti di amministrazione avanzati nel portale di Azure.  
       - question: |
           Quali sono i vantaggi dell'integrazione con Microsoft 365?
         answer: |
