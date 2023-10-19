@@ -10,7 +10,7 @@ ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
-# Impostare le stampanti di Stampa universale
+# <a name="set-up-universal-print-printers"></a>Impostare le stampanti di Stampa universale
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -23,7 +23,7 @@ La configurazione completa richiede che tu lavori in Microsoft Azure, usando il 
 1. In Microsoft Azure, configura Stampa universale e aggiungi le stampanti che vuoi utilizzare in Business Central a una condivisione di stampa. Vai in [questa sezione](#set-up-universal-print-and-printers-in-microsoft-azure).
 2. In [!INCLUDE[prod_short](includes/prod_short.md)], aggiungi le stampanti dalle condivisioni di stampa in Stampa universale. Vai in [questa sezione](#add-printers-in-business-central-online) per online o [qui](#add-printers-in-business-central-on-premises) per locale.
 
-## Prerequisiti
+## <a name="prerequisites"></a>Prerequisiti
 
 - Stampanti supportate
 
@@ -57,7 +57,7 @@ La configurazione completa richiede che tu lavori in Microsoft Azure, usando il 
 
     Per registrare un'app e impostare le autorizzazioni appropriate, segui i passaggi descritti in [Registrare un'applicazione in Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
-## Configurazione di Stampa universale e delle stampanti in Microsoft Azure
+## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Configurazione di Stampa universale e delle stampanti in Microsoft Azure
 
 Prima di poter iniziare a gestire le stampanti Stampa universale in Business Central, sono necessarie diverse attività per attivare Stampa universale in Azure con le stampanti che desideri utilizzare.
 
@@ -110,7 +110,7 @@ Per istruzioni dettagliate su come eseguire la configurazione, vedi [Inizia: con
 
 Ora sei pronto per aggiungere le stampanti a [!INCLUDE[prod_short](includes/prod_short.md)], configurare le stampanti predefinite per i report e stampare.  
 
-## Aggiungere le stampanti in Business Central online
+## <a name="add-printers-in-business-central-online"></a>Aggiungere le stampanti in Business Central online
 
 Dopo che le stampanti sono state configurate e condivise in Stampa universale, puoi aggiungerle per utilizzarle in [!INCLUDE[prod_short](includes/prod_short.md)]. Esistono due modi per aggiungere stampanti Stampa universale. Puoi aggiungere le stampanti tutte in una volta o singolarmente, una alla volta.
 
@@ -133,7 +133,7 @@ L'aggiunta di stampanti singole consente di configurare la stessa stampante Stam
 
 Dopo che una stampante è stata aggiunta, puoi visualizzarne e modificarne le impostazioni dalla pagina **Gestione stampante**. Seleziona la stampante, quindi scegli **Modifica impostazioni stampante**.
 
-## Aggiungere le stampanti in Business Central locale
+## <a name="add-printers-in-business-central-on-premises"></a>Aggiungere le stampanti in Business Central locale
 
 <!--With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, unlike online, users aren't automatically authenticated with the registered app in Azure used for the Universal Print service. So, before any Business Central user (including admins) can add or even use Universal Print printers, they'll have to authenticate with the Azure app and grant access to the Universal Print service. The following procedure describes how to initiate this authentication flow. Each user typically only has to do this task once.-->
 
@@ -149,7 +149,7 @@ Questa operazione viene in genere eseguita la prima volta che si connettono all'
 > Se sei un amministratore, ti consigliamo di completare questa attività prima degli altri utenti. Successivamente, informa gli utenti che dovranno utilizzare le stampanti di Stampante universale e come farlo. Se l'app registrata in Azure per Stampa universale richiede il consenso dell'amministratore per le autorizzazioni API, è più semplice concedere il consenso per conto dell'organizzazione. Puoi concedere il consenso dell'amministratore dal portale di Azure o quando esegui i passaggi seguenti. 
 
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
-### Connessione a Stampa universale per la prima volta
+### <a name="connect-to-universal-print-for-the-first-time"></a>Connessione a Stampa universale per la prima volta
 
 Completa questi passaggi per connettersi al servizio Stampa universale per la prima volta.
 
@@ -175,11 +175,11 @@ Dopo che una stampante è stata aggiunta, puoi visualizzarne e modificarne le im
 
 Dopo aver completato l'accesso iniziale, puoi utilizzare le stampanti di Stampa universale per stampare report e altri processi di stampa. Per ulteriori informazioni, vai a [Stampa di un report](ui-work-report.md#PrintReport). Se desideri aggiungere, rimuovere o modificare qualsiasi stampante, torna alla pagina **Gestione stampa** e seleziona **Stampa universale**.
 
-## Problemi comuni e soluzioni
+## <a name="common-problems-and-resolutions"></a>Problemi comuni e soluzioni
 
 In questa sezione verranno descritti i problemi comuni che gli utenti potrebbero riscontrare durante il tentativo di impostare o utilizzare le stampanti di Stampa universale.
 
-### Non si dispone dell'accesso alla stampante \<your-printer\>.
+### <a name="you-dont-have-access-to-the-printer-your-printer"></a>Non si dispone dell'accesso alla stampante \<your-printer\>.
 
 Se un utente riceve questo messaggio quando tenta di stampare un documento su una stampante di Stampa universale, potrebbe essere causato da una delle seguenti condizioni:
 
@@ -188,17 +188,17 @@ Se un utente riceve questo messaggio quando tenta di stampare un documento su un
 - (Locale) La registrazione dell'app di Azure usata per Stampa universale non funziona o è stata modificata di recente dall'ultimo accesso dell'utente.
 - (Locale) L'utente non ha ancora effettuato l'accesso all'app registrata in Azure per l'app Stampa universale per acconsentire per la prima volta.
 
-## Errore durante il recupero delle stampanti condivise.
+## <a name="there-was-an-error-fetching-printers-shared-to-you"></a>Errore durante il recupero delle stampanti condivise.
 
 Se un utente riceve questo messaggio quando prova ad aggiungere una stampante di Stampa universale dalla pagina **Gestione stampanti**, in genere è perché non ha ancora effettuato l'accesso all'app registrata in Azure per Stampa universale né ha acconsentito per la prima volta. 
 <!--
-### Troubleshooting
+### <a name="troubleshooting"></a>Troubleshooting
 
-#### You don't see the a printer in the 
+#### <a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
 
 The printer is not shared in Universal Print.
 
-### You get an error when tryong to add all or a single printer
+### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
 
 You have'nt been assigned a Uincersla Print license.
 
@@ -206,7 +206,7 @@ There was an error fetching printers shared to you. You don't have access to the
 or 
 You don't seem to have access to Universal Print. Make sure you have a Universal Print subscription, and that your account has been assigned a Universal Print license.
 
-## Could not upload the document to print job 50.
+## <a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
 
 There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
@@ -215,10 +215,10 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 -->
 
-## Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 [Configurazione delle stampanti predefinite](ui-specify-printer-selection-reports.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica delle stampanti](admin-printer-setup-overview.md)  
 [Configurazione delle stampanti e-mail](admin-printer-setup-email.md)
