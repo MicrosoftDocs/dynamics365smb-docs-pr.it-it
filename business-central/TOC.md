@@ -6,6 +6,7 @@
 ## [Panoramica delle funzionalità aziendali](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Apprendere
+### [Risorse per utenti](resources-for-users.md)
 ### [Catalogo di apprendimento Business Central](readiness/readiness-learning-catalog.md)
 ### [Formazione su Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procedure dettagliate per i processi aziendali
@@ -349,6 +350,7 @@
 #### [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md)
 
 ### Gestire documenti elettronici
+#### [Panoramica dei documenti elettronici](finance-edocuments-overview.md)
 #### [Impostare documenti elettronici](finance-how-setup-edocuments.md)
 #### [Utilizzare documenti elettronici nelle vendite e negli acquisti](finance-how-use-edocuments.md)
 #### [Estensione della funzionalità dei documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
@@ -1815,6 +1817,7 @@
 
 ## Analizzare i dati negli strumenti di business intelligence
 ### [Panoramica](reports-external-analysis.md)
+### [Microsoft Fabric e Business Central](admin-fabric.md)
 ### [Usare Power BI con Business Central](admin-powerbi.md)
 ### [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md)
 ### [Estrarre dati in data warehouse o data lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
