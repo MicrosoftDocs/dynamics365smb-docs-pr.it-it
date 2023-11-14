@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-customers"></a>Sincronizzare clienti
+# Sincronizzare clienti
 
 Quando importi un ordine da Shopify, le informazioni sul cliente sono essenziali per l'ulteriore elaborazione del documento in [!INCLUDE[prod_short](../includes/prod_short.md)]. Esistono due opzioni principali per eseguire questa azione e varie combinazioni:
 
 * Usa un cliente speciale per tutti gli ordini.
 * Importa le informazioni sui clienti effettivi da Shopify. Questa opzione è disponibile anche quando esporti prima i clienti in Shopify da [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="important-settings-when-importing-customers-from-shopify"></a>Impostazioni importanti durante l'importazione di clienti da Shopify
+## Impostazioni importanti durante l'importazione di clienti da Shopify
 
 Importando i clienti da Shopify in blocco o insieme all'importazione degli ordini, le seguenti impostazioni consentono di gestire il processo:
 
@@ -29,7 +29,7 @@ Importando i clienti da Shopify in blocco o insieme all'importazione degli ordin
 |**Crea automaticamente clienti sconosciuti**| Seleziona questo campo se desideri che il connettore crei clienti mancanti, quando le opzioni **Per e-mail/telefono** o**Per informazioni Fatturare a** sono selezionate nel campo **Tipo di mapping cliente**. Verrà creato un nuovo cliente utilizzando i dati importati e il **Codice modello cliente** definito nelle pagine **Scheda punto vedita Shopify** o **Modello cliente Shopify**. Si noti che il cliente Shopify deve avere almeno un indirizzo. Gli ordini creati tramite il canale di vendita POS Shopify spesso non contengono i dettagli dell'indirizzo. Se questa opzione non è abilitata, dovrai creare il cliente manualmente e collegarlo al cliente Shopify.|
 |**Codice modello cliente**|Questo campo viene usato insieme a **Crea automaticamente clienti sconosciuti**.<br>- Scegli il modello predefinito da utilizzare per i clienti creati automaticamente. Assicurati che il modello selezionato contenga i campi obbligatori, come i campi **Cat. reg. business**, **Cat. reg. cliente**, IVA o campi relativi alle imposte.<br>- È possibile definire modelli per paese/regione nella pagina **Modelli cliente Shopify**, utile per un corretto calcolo delle tasse. <br>- Ulteriori informazioni sulla [Configurazione delle imposte](setup-taxes.md).|
 
-### <a name="customer-template-per-countryregion"></a>Modello cliente per paese/area geografica
+### Modello cliente per paese/area geografica
 
 Alcune impostazioni possono essere definite a livello nazionale/regionale o statale/provinciale. Le impostazioni possono essere configurate in [Spedizione e consegna](https://www.shopify.com/admin/settings/shipping) su Shopify.
 
@@ -43,7 +43,7 @@ Puoi eseguire le seguenti operazioni per ogni cliente con il **Modello cliente S
 > [!NOTE]  
 > I codici paese sono codici paese ISO 3166-1 alpha-2. Ulteriori informazioni sul [Codice paese](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## <a name="export-customers-to-shopify"></a>Esportare clienti su Shopify
+## Esportare clienti su Shopify
 
 Puoi esportare i clienti esistenti in Shopify in blocco. In ogni caso, vengono creati un cliente e un indirizzo predefinito. Puoi gestire il processo utilizzando le seguenti impostazioni:
 
@@ -66,7 +66,7 @@ I seguenti sono i requisiti per esportare un cliente:
 
 Dopo aver creato i clienti in Shopify, puoi inviare loro inviti diretti incoraggiandoli ad attivare i loro account.
 
-### <a name="populate-customer-information-in-shopify"></a>Inserisci le informazioni sui clienti in Shopify
+### Inserisci le informazioni sui clienti in Shopify
 
 Un cliente in Shopify ha nome, cognome, e-mail e/o numero di telefono. Puoi immettere il nome e il cognome dalla scheda cliente in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -86,7 +86,7 @@ Anche un cliente in Shopify ha un indirizzo predefinito. L'indirizzo può conten
 Per gli indirizzi in cui viene utilizzato il paese/regione, seleziona **Codice** o **Nome** nel campo **Origine regione** nella pagina **Scheda punto vendita Shopify**. Specifica il tipo di dati archiviati in [!INCLUDE[prod_short](../includes/prod_short.md)] nel campo **Regione**. Ricordati di inizializzare i modelli dei clienti per paese/area geografica in modo che la mappatura del codice/nome della regione sia pronta. 
 
 
-## <a name="sync-customers"></a>Sincronizzare clienti
+## Sincronizzare clienti
 
 1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Punto vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita specifico per il quale desideri sincronizzare i clienti.
@@ -96,6 +96,6 @@ In alternativa, utilizza l'azione **Avvia sincronizzazione clienti** sulla fines
 
 È possibile pianificare l'attività da eseguire in modo automatizzato. Ulteriori informazioni su [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Iniziare a utilizzare il connettore per Shopify](get-started.md)  

@@ -74,8 +74,6 @@ Se si è soliti effettuare acquisti o vendite utilizzando unità di misura diver
 4. Per gli acquisti, nella Scheda dettaglio **Rifornimento**, nel campo **Unità di misura acquisto** , aprire la pagina **Unità di misura articoli** .
 5. Selezionare il codice che si intende impostare come unità di misura di default per le vendite o gli acquisti rispettivamente quindi scegliere il pulsante **OK**.
 
-## Vedi il relativo [training Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Utilizzare le unità di misura batch di produzione](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  

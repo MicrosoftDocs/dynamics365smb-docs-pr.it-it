@@ -9,7 +9,7 @@ ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="send-documents-and-emails"></a>Inviare documenti ed e-mail
+# Inviare documenti ed e-mail
 
 È possibile condividere facilmente informazioni e documenti, come ordini di vendita e di acquisto e fatture, via e-mail direttamente da [!INCLUDE[prod_short](includes/prod_short.md)], senza dover aprire un'applicazione di posta elettronica.  
 
@@ -22,7 +22,7 @@ Per abilitare i messaggi e-mail da [!INCLUDE[prod_short](includes/prod_short.md)
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] supporta solo comunicazioni via e-mail in uscita. Non è inoltre possibile ricevere risposte dall'app.
 
-## <a name="to-send-documents-by-email"></a>Per inviare i documenti tramite e-mail
+## Per inviare i documenti tramite e-mail
 
 Questa procedura descrive come associare una fattura vendita registrata a un'e-mail come file PDF e con il testo dell'e-mail specifico del documento. I passaggi sono uguali per gli altri documenti.
 
@@ -44,14 +44,14 @@ Questa procedura descrive come associare una fattura vendita registrata a un'e-m
 > [!NOTE]  
 > Se non si desidera specificare le impostazioni dell'e-mail ogni volta che si invia un documento, è possibile selezionare l'opzione **Sì (Usa impostazioni di default)** nel campo **E-mail** della pagina **Invia documento a**. In questo caso, non verrà visualizzata la pagina **Invia messaggio e-mail**. Vedere il passaggio 4. Per ulteriori informazioni, vedere [Impostare i profili di invio dei documenti](sales-how-setup-document-send-profiles.md).  
 
-## <a name="to-compose-and-send-an-email"></a>Per comporre e inviare un'e-mail
+## Per comporre e inviare un'e-mail
 
 È possibile comporre rapidamente e-mail per contatti, clienti, venditori, venditori/acquirenti e conti bancari direttamente dalle pagine per queste entità. Basta scegliere **Processo** e poi **Invia e-mail** per aprire l'editor di e-mail. Per i conti bancari, l'azione **Invia email** è sotto **Azioni**.
 
 > [!TIP]
 > Se si inviano spesso messaggi di posta elettronica di natura simile, o si vuole inviare una comunicazione di massa, ad esempio, per pubblicizzare una campagna di vendita, l'uso di modelli di Word con le e-mail può accelerare il processo. È possibile creare un modello per entità come clienti, fornitori e contatti, che genererà il contenuto di un messaggio e-mail per voi, e anche personalizzare il contenuto per il destinatario in base ai dati in [!INCLUDE[prod_short](includes/prod_short.md)]. Per maggiori informazioni, vedi [Usare i modelli di Word per le comunicazioni di massa](ui-mail-merge.md).  
 
-### <a name="attach-a-document-to-an-email"></a>Allegare un documento a un'e-mail
+### Allegare un documento a un'e-mail
 
 Esistono diversi modi per allegare documenti alle e-mail.
 
@@ -63,11 +63,11 @@ Per allegare un file manualmente, nell'editor di posta elettronica, utilizzare l
 * Scegli **Aggiungi file dalla selezione predefinita** per aggiungere manualmente un file associato allo scenario e-mail.
 * Scegli **Aggiungi file dal documento di origine** per scegliere un file da allegare al documento su cui stai lavorando. I file sono allegati al documento stesso o a una o più delle sue righe.
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenti contrassegnati come stampati al momento dell'invio
+## Documenti contrassegnati come stampati al momento dell'invio
 
 Alcuni documenti in [!INCLUDE[prod_short](includes/prod_short.md)] hanno un campo che specifica quante volte quel documento è stato stampato. Il numero in quel campo <!--"that field?" need a name...--> viene aggiornato anche se si invia il documento tramite posta elettronica poiché viene generato un file PDF per lo stesso. Il numero viene aggiornato anche se non invii l'e-mail. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>E-mail inviate e posta in uscita
+## E-mail inviate e posta in uscita
 
 [!INCLUDE[prod_short](includes/prod_short.md)] memorizza le e-mail inviate nella pagina **Elementi inviati**. Questo per consentire di inviare nuovamente le e-mail o inoltrarle a qualcun altro. Se non si riesce a trovare un'e-mail negli elementi inviati, cercarla nella pagina **Posta in uscita**. 
 
@@ -76,7 +76,7 @@ Alcuni documenti in [!INCLUDE[prod_short](includes/prod_short.md)] hanno un camp
 
 La **Posta in uscita** è dove si trovano le e-mail salvate come bozze e le e-mail che non è stato possibile inviare, ad esempio, se l'indirizzo email non era valido. Per i messaggi che non sono stati inviati, è possibile scegliere **Mostra errore** o **Analizza errore** per risolvere il problema.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
 [Configurare la posta elettronica](admin-how-setup-email.md)  

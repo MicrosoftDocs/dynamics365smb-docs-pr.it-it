@@ -158,6 +158,10 @@ Contatta il servizio di assistenza di Shopify entro sette giorni dal verificarsi
 
 Sembra che l'utente che richiede l'accesso non abbia i diritti per gestire le app (capacità di gestire e installare app e canali, nonché potenzialmente approvare gli addebiti delle app). Potresti riuscire a risolvere questo problema installando l'app come proprietario dell'account. In alternativa puoi controllare le **Autorizzazioni dell'app** per l'utente nelle impostazioni [**Utente e autorizzazioni**](https://www.shopify.com/admin/settings/account) in **Amministrazione Shopify**.  
 
+### [{"message":"Accesso al campo FIELD negato.","ubicazioni":[{"line":0,"column":0}],"percorso":["path"],"estensioni":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
+
+Richiedi un nuovo token perché la versione aggiornata del connettore richiede più autorizzazioni (ambiti dell'applicazione). Per ulteriori informazioni, vai a [Richiedere il token di accesso](#request-the-access-token).
+
 ## Vedere anche
 
 [Iniziare a usare il connettore per Shopify](get-started.md)

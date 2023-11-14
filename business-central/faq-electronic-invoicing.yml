@@ -10,6 +10,9 @@ summary: |
   Il servizio di scambio di documenti integrato invia le fatture elettroniche a TradeShift, un fornitore di servizi che inoltra le fatture elettroniche a destinatari PEPPOL o NemHandel. Ma il servizio supporta un numero limitato di versioni.   
 
   Questo articolo contiene le risposte ad alcune delle domande chiave sulla fatturazione elettronica.  
+
+  > [!NOTE]
+  > Questa pagina delle domande frequenti non è correlata alla nuova app per documenti elettronici disponibile nel secondo ciclo di rilascio del 2023. Per ulteriori informazioni sulla nuova funzionalità, consulta [Panoramica dei documenti elettronici](finance-edocuments-overview.md).  
 sections:
   - name: Generale
     questions:

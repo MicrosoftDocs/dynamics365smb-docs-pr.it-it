@@ -1,5 +1,5 @@
 ---
-title: Utilizzare il reporting Intrastat
+title: Utilizzare il report Intrastat
 description: Scopri come dichiarare gli scambi con aziende in altri paesi o aree geografiche dell'UE utilizzando il sistema Intrastat.
 author: altotovi
 ms.topic: conceptual
@@ -13,9 +13,9 @@ ms.author: altotovi
 ---
 # Usare il report Intrastat
 
-Tutte le società dell'Unione Europea (UE) devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Intrastat è il sistema per la raccolta di statistiche commerciali di prodotti all'interno di questi paesi/aree geografiche. Usa **Report Intrastat** per completare il reporting Intrastat periodico (tipicamente mensile), la raccolta, la registrazione e i report degli scambi di prodotti secondo la legislazione del governo locale.
+Tutte le società dell'Unione Europea (UE) devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Intrastat è il sistema per la raccolta di statistiche commerciali di prodotti all'interno di questi paesi/aree geografiche. Usa **Report Intrastat** per completare il report Intrastat periodico (tipicamente mensile), la raccolta, la registrazione e i report degli scambi di prodotti secondo la legislazione del governo locale.
 
-Il reporting Intrastat si basa sui regolamenti di base dell'UE che si applicano a tutti i paesi o aree geografiche, tuttavia, in pratica, vi sono alcune differenze all'interno dei singoli paesi o aree geografiche. Ogni paese/area geografica ha le sue regole su cosa e come dichiarare esattamente.
+Il report Intrastat si basa sui regolamenti di base dell'UE che si applicano a tutti i paesi o aree geografiche, tuttavia, in pratica, vi sono alcune differenze all'interno dei singoli paesi o aree geografiche. Ogni paese/area geografica ha le sue regole su cosa e come dichiarare esattamente.
 
 > [!IMPORTANT]
 > Questo articolo descrive la nuova esperienza Intrastat disponibile in [!INCLUDE[prod_short](includes/prod_short.md)] a partire dal secondo ciclo di rilascio del 2022, che include funzionalità estese e [deve essere attivata per le società esistenti](finance-how-setup-report-intrastat.md#enable-the-new-intrastat-experience). Contatta l'amministratore per attivare e configurare la nuova funzionalità.
@@ -52,7 +52,7 @@ Se necessario, è possibile modificare le righe, ma ogni volta che si modifica u
 2. Scegli l'opzione **Ricevuta** o **Spedizione** nel campo **Tipo**.
 3. Nel campo **Tipo di origine** scegli una delle origini: **movimento articolo**, **movimento cespite**, o **movimento commessa**.
 4. In base al **Tipo di origine** nel campo **Nr. articolo**, puoi scegliere un **movimento** (in entrambi i casi, **movimento articolo** o **movimento commessa**) o i **cespiti**.
-5. Compila gli altri campi necessari per il reporting Intrastat.
+5. Compila gli altri campi necessari per il report Intrastat.
 
 > [!NOTE]
 > Quando aggiungi manualmente una nuova riga al report Intrastat, il campo **Data** nella riga deve essere all'interno dell'intervallo **Periodo statistico** che hai aggiunto nell'intestazione.
@@ -116,9 +116,16 @@ Quando lavori con il **Report Intrastat** vedrai un campo **Stato** nell'intesta
 * *Rilasciato*: [!INCLUDE[prod_short](includes/prod_short.md)] cambia automaticamente lo stato in *Rilasciato* quando crei un file. Da quel momento, non puoi modificare il **Report Intrastat**. Se è necessario modificare qualcosa e segnalare nuovamente, è possibile utilizzare l'azione **Riapri** per riaprire il report Intrastat. Una volta riaperto il documento, è possibile utilizzare l'azione **Rilascia** per rilasciare nuovamente il documento.
 * **Riportato**: Specifica se il movimento è già stato comunicato alle autorità fiscali. Questo non è uno stato normale ma un campo indipendente e, anche se hai riaperto il report Intrastat, mostra comunque che il file è già stato creato per questo report.
 
+### Ubicazioni nei report Intrastat 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] utilizza sempre le informazioni nel campo **Codice paese** nella pagina **Scheda Ubicazione** come il paese **a cui inviare** o **da cui ricevere** merci. Quando queste informazioni non esistono o l'ubicazione non è stata utilizzata, il sistema utilizza le informazioni nella pagina **Informazioni società**.   
+
+> [!NOTE]
+> Se la società opera da più paesi, il report Intrastat non è valido per tutti i paesi in cui sono configurate le ubicazioni. Il report si basa solo sul paese principale, poiché al momento non è possibile utilizzare il report per più paesi.  
+
 ### Commercio triangolare in Intrastat
 
-Il commercio triangolare prevede il commercio tra tre paesi o regioni in cui le merci bypassano il paese della società di reporting. In Business Central, ciò può essere facilitato tramite la funzionalità [Spedizione diretta](sales-how-drop-shipment.md) . Per abilitare questa opzione, attiva il campo **Includi spedizione diretta** in **Setup report Intrastat**.  
+Il commercio triangolare prevede il commercio tra tre paesi o aree in cui le merci bypassano il paese della società del report. In Business Central, ciò può essere facilitato tramite la funzionalità [Spedizione diretta](sales-how-drop-shipment.md) . Per abilitare questa opzione, attiva il campo **Includi spedizione diretta** in **Setup report Intrastat**.  
 
 Quando abiliti questa opzione, il sistema utilizza le seguenti regole, ma solo se hai contrassegnato  **Spedizione diretta** in **Ordine di vendita**: 
 

@@ -58,8 +58,6 @@ Se modifichi la data dell'ordine sulla riga, [!INCLUDE[prod_short](includes/prod
 3. Scheda unità di stockkeeping
 4. Scheda fornitore
 
-## Vedi il relativo [training Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Calcolo della data per le vendite](sales-date-calculation-for-sales.md)  

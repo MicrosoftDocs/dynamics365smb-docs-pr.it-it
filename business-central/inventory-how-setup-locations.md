@@ -11,7 +11,7 @@ ms.search.forms: '5703, 15'
 ms.date: 03/25/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-locations"></a>Impostare le ubicazioni
+# Impostare le ubicazioni
 
 Le ubicazioni sono luoghi come i magazzini in cui acquisti, stocchi o vendi articoli. [!INCLUDE [prod_short](includes/prod_short.md)] utilizza le ubicazioni per tenere traccia dell'inventario sia nei casi semplici che nei processi di magazzino complessi.
 
@@ -20,7 +20,7 @@ Le ubicazioni sono luoghi come i magazzini in cui acquisti, stocchi o vendi arti
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Schede Ubicazione
+## Schede Ubicazione
 
 Specifica le informazioni su un'ubicazione, ad esempio un warehouse o un centro di distribuzione nella pagina **Scheda ubicazione**. A ogni ubicazione vengono assegnati un nome e un codice che la rappresenta. Quando si desidera registrare le transazioni per una determinata ubicazione, è possibile immettere il codice ubicazione in altre aree del programma.  
 
@@ -30,7 +30,7 @@ Alcuni campi opzione dipendono da altre impostazioni nella pagina **Scheda Ubica
 
 Seleziona l'azione **Zone** o **Collocazioni** per visualizzare le informazioni relative a zone e collocazioni che sono definite per l'ubicazione.
 
-### <a name="to-set-up-a-location"></a>Per impostare un'ubicazione
+### Per impostare un'ubicazione
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
@@ -44,7 +44,7 @@ Puoi modificare la configurazione di un'ubicazione purché non includa movimenti
 
 Se disponi di più ubicazioni, puoi definire percorsi di trasferimento tra le ubicazioni. Per ulteriori informazioni sui percorsi di trasferimento, vai a [Per creare un percorso di trasferimento](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Per creare i percorsi di trasferimento
+### Per creare i percorsi di trasferimento
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Percorsi di trasferimento**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Nuovo**.
@@ -52,7 +52,7 @@ Se disponi di più ubicazioni, puoi definire percorsi di trasferimento tra le ub
 
 A questo punto è possibile trasferire agli articoli di magazzino tra due ubicazioni. Per ulteriori informazioni sui trasferimenti, vai a [Trasferire scorte tra ubicazioni](inventory-how-transfer-between-locations.md).
 
-## <a name="bins"></a>Collocazioni
+## Collocazioni
 
 Le collocazioni rappresentano la struttura di base del magazzino e possono suggerire dove riporre gli articoli. Le tue collocazioni possono avere contenuto o essere collocazioni mobili senza contenuto specifico.
 
@@ -61,11 +61,11 @@ Per utilizzare la funzionalità di collocazione in una ubicazione, devi prima at
 > [!NOTE]
 > Prima di poter specificare i codici di collocazione in una ubicazione, è necessario creare i codici di collocazione. Per ulteriori informazioni sulle collocazioni, vai a [Creare le collocazioni](warehouse-how-to-create-individual-bins.md) e [Impostare i tipi di collocazione](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Zone
+## Zone
 
 Se vuoi strutturare le tue collocazioni in zone, puoi farlo nella pagina **Zone**. Quando si assegna una zona alle collocazioni, [!INCLUDE [prod_short](includes/prod_short.md)] copia le informazioni dalla zona nelle collocazioni. Puoi anche scegliere di impostare una zona e utilizzare le collocazioni da sole per organizzare il tuo magazzino. Per ulteriori informazioni sulle zone, vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Dimensioni predefinite per le ubicazioni
+## Dimensioni predefinite per le ubicazioni
 
 Le dimensioni sono valori che categorizzano i movimenti in modo da poterli seguire e analizzare usando diversi strumenti di report. Ad esempio, le dimensioni possono indicare il reparto o il progetto da cui un movimento proviene. Avere dimensioni predefinite aiuta le persone a evitare di commettere errori e di dover inserire manualmente le dimensioni a livello di transazione se tutte le merci provengono da un'unica ubicazione e reparto.
 
@@ -81,7 +81,7 @@ Se necessario, puoi eliminare o modificare le dimensioni nella riga. Nel campo *
 
 Poiché i documenti dell'ordine di trasferimento e le registrazioni di riclassificazione riguardano più ubicazioni, l'ordine in cui si inseriscono i dati è importante. Le dimensioni predefinite vengono copiate dall'ultimo campo dell'ubicazione (l'ubicazione in transito viene ignorata).
 
-### <a name="example-of-default-dimensions-on-locations"></a>Esempio di dimensioni predefinite per le ubicazioni
+### Esempio di dimensioni predefinite per le ubicazioni
 
 Gli esempi seguenti illustrano come viene utilizzata la dimensione predefinita.
 
@@ -104,7 +104,7 @@ Compila i campi nell'ordine opposto, come indicato di seguito:
 
 La dimensione ADM verrà copiata dall'ubicazione EAST.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 [Trasferire il magazzino tra le ubicazioni](inventory-how-transfer-between-locations.md)  

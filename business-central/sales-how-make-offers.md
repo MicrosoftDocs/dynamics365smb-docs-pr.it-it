@@ -11,7 +11,7 @@ ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: bholtorf
 ---
-# <a name="make-sales-quotes"></a>Creare offerte di vendita
+# Creare offerte di vendita
 
 Creare un'offerta di vendita per registrare la propria offerta al cliente o prospect per vendere alcuni prodotti a determinate condizioni di consegna e di pagamento. È possibile inviare l'offerta di vendita al cliente per comunicare l'offerta. È possibile inviare il documento via e-mail come allegato PDF. È inoltre possibile fare in modo che il corpo e-mail venga precompilato con un riepilogo dell'offerta. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
 
@@ -19,7 +19,7 @@ Quando si negozia con il cliente o prospect è possibile modificare e inviare nu
 
 Nella maggior parte dei casi, si inviano offerte di vendita a potenziali clienti. Hai spesso una persona di contatto con cui negoziare. Se accetta la tua offerta, trasformi l'offerta di vendita in un ordine e registri il prospect come cliente in [!INCLUDE [prod_short](includes/prod_short.md)]. Nella procedura seguente, ci concentriamo sui contatti, ma puoi anche inviare offerte a clienti esistenti.  
 
-## <a name="to-create-a-sales-quote"></a>Per creare un'offerta di vendita
+## Per creare un'offerta di vendita
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Offerte di vendita**, quindi seleziona il collegamento correlato.
 2. Specifica il contatto o il cliente a cui vuoi inviare l'offerta di vendita.
@@ -88,11 +88,11 @@ Nella maggior parte dei casi, si inviano offerte di vendita a potenziali clienti
 
 La conversione rimuove l'offerta di vendita dal database. Viene creata una fattura, o un ordine, di vendita basata sulle informazioni contenute nell'offerta di vendita e in tal modo puoi elaborare la vendita. Nel campo **Nr. offerta** dell'ordine o della fattura di vendita è presente il numero dell'offerta di vendita da cui è stato convertito. Per ulteriori informazioni vedere [Fatturare le vendite](sales-how-invoice-sales.md) o [Vendere prodotti](sales-how-sell-products.md).  
 
-## <a name="external-document-number"></a>Numero di documento esterni
+## Numero di documento esterni
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

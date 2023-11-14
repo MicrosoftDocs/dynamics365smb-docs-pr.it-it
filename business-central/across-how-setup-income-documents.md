@@ -18,7 +18,7 @@ Se la funzionalità **Documenti in entrata** è impostata, è possibile utilizza
 
 ## Per impostare la funzione Documenti in entrata
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup documenti in entrata**, quindi scegli il collegamento correlato.
+1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup documenti in entrata**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Come parte del setup, è necessario decidere se si desidera richiedere l'approvazione dei documenti in arrivo. Per richiedere l'approvazione, è necessario [impostare responsabili approvazione e workflow di approvazione](#to-set-up-approvers-of-incoming-document-records). Se l'organizzazione non intende richiedere l'approvazione, è possibile ignorare la sezione successiva.
@@ -43,13 +43,11 @@ Per trasformare file PDF e immagini in documenti elettronici che puoi convertire
 
 Per ulteriori informazioni, vedere [Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici](across-how-use-ocr-pdf-images-files.md).  
 
-## Vedi il relativo [training Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Vedere anche
 
 [Documenti in entrata](across-income-documents.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,7 +9,7 @@ ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: bholtorf
 ---
-# <a name="create-jobs"></a>Creare commesse
+# Creare commesse
 
 Quando si inizia un nuovo progetto, è necessario creare una scheda commessa con i task commessa e le righe di pianificazione commessa integrati. La scheda è strutturata su due livelli.  
 
@@ -28,7 +28,7 @@ A volte la parte a cui è rivolto un servizio è diversa dalla parte che paga il
 * Aggiungi informazioni su riferimenti esterni per semplificare la comunicazione sul progetto.
 * Sovrascrivi i termini finanziari standard del progetto.
 
-## <a name="to-create-a-job-card"></a>Per creare una scheda commessa
+## Per creare una scheda commessa
 
 Creare una scheda commessa, quindi creare le righe del task commessa e le relative righe di pianificazione commessa.
 
@@ -47,7 +47,7 @@ Facoltativamente, contrassegna le azioni sul progetto come bloccate utilizzando 
 |Registrazione    |È possibile utilizzare le righe di pianificazione, ma la commessa è bloccata ai fini della registrazione. Se si sceglie questa opzione, non è possibile registrare alcun utilizzo o vendita nella commessa.|
 |Tutto  |Sono bloccate tutte le azioni.|
 
-## <a name="to-create-tasks-for-a-job"></a>Per creare i task di una commessa
+## Per creare i task di una commessa
 
 Una parte fondamentale nella creazione di una nuova commessa consiste nello specificare i vari task implicati nella commessa. Specificare le attività creando una riga per attività nella Scheda dettaglio **Attività** della pagina **Scheda commessa**. Ogni commessa deve avere almeno un task.
 
@@ -58,7 +58,7 @@ Una parte fondamentale nella creazione di una nuova commessa consiste nello spec
 5. Ripetere i passaggi 3 e 4 per i task con cui si desidera completare la commessa.
 6. Per specificare i task commesse utilizzando le informazioni di altri task commesse, scegliere l'azione **Copia task commessa da**, compilare i campi necessari, quindi scegliere **OK**.
 
-## <a name="to-create-planning-lines-for-a-job"></a>Per creare le righe di pianificazione per una commessa
+## Per creare le righe di pianificazione per una commessa
 
 È possibile perfezionare i nuovi task commessa nelle righe di pianificazione commessa. Una riga di pianificazione può acquisire le informazioni di cui si desidera tenere traccia per una commessa. Ad esempio, puoi tenere traccia delle risorse richieste dal processo o degli elementi necessari. Ad esempio, hai un'attività per convincere un cliente ad approvare un processo. È possibile associare l'attività alle righe di pianificazione per articoli quali la riunione con il cliente e l'assegnazione di una risorsa.  
 
@@ -79,7 +79,7 @@ Una riga di pianificazione commessa può contenere uno dei seguenti tipi.
 4. Nella pagina **Righe pianificazione commessa**, in una nuova riga compilare i campi secondo le esigenze.
 5. Ripetere i passaggi 3 e 4 per tutte le righe di pianificazione richieste per il task commessa.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Video: Come creare una commessa in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

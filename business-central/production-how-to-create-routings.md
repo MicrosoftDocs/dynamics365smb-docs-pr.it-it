@@ -10,7 +10,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="create-routings"></a>Creare cicli
+# Creare cicli
 
 Le aziende manifatturiere utilizzano i cicli per visualizzare e gestire il processo di produzione.
 
@@ -23,7 +23,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 - Aver creato schede articolo per gli articoli padre inclusi nella produzione. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 - Sono state impostate le risorse di produzione. Per ulteriori informazioni, vedere [Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-routing"></a>Per creare un ciclo
+## Per creare un ciclo
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cicli**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -51,7 +51,7 @@ Prima di poter configurare un ciclo, è necessario verificare quanto segue:
 > [!NOTE]  
 > Ricordare inoltre di ricalcolare il costo standard dell'articolo dalla scheda **Articolo**: scegliere l'azione **Produzione**, quindi selezionare l'azione **Calc. costo standard** e poi l'azione **Tutti i livelli**.  
 
-## <a name="to-create-routing-links"></a>Per creare collegamenti ciclo
+## Per creare collegamenti ciclo
 
 È possibile creare collegamenti ciclo per connettere componenti a operazioni specifiche, in modo da conservarne le relazioni anche in caso di modifica della distinta base di produzione o del ciclo. Questa soluzione facilita inoltre la consuntivazione dei componenti in tempo reale, che avviene infatti all'avvio dell'operazione specifica collegata, anziché al rilascio dell'ordine di produzione completo. Per ulteriori informazioni vedere [Componenti ordine produzione a livello in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ Un altro vantaggio importante consiste nel fatto che le operazioni e i component
 
 I componenti selezionati risultano collegati alle operazioni specificate quando si crea o si aggiorna un ordine di produzione mediante la distinta base di produzione e il ciclo interessati. Ciò è visibile nella pagina **Componenti ordine produzione** nell'ordine di produzione, dove è inoltre possibile rimuovere e aggiungere i codici di collegamento ciclo codici definiti in qualsiasi momento.
 
-## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Per assegnare personale, strumenti e controlli di qualità alle operazioni di ciclo
+## Per assegnare personale, strumenti e controlli di qualità alle operazioni di ciclo
 
 Se occorre personale con speciali qualifiche, particolari conoscenze o una speciale autorizzazione per un'operazione, è possibile assegnarlo all'operazione. Inoltre, è possibile assegnare strumenti e requisiti di qualità all'operazione. Questa procedura descrive come assegnare personale. I passaggi sono simili per altri tipi di informazioni sull'operazione.
 
@@ -95,7 +95,7 @@ Se occorre personale con speciali qualifiche, particolari conoscenze o una speci
 4. Compilare i campi della pagina **Personale ciclo**.  
 5. Scegliere il pulsante **OK** per chiudere la pagina. I valori immessi vengono copiati e assegnati all'operazione.  
 
-## <a name="to-create-a-new-versions-of-a-routing"></a>Per creare nuove versioni di un ciclo
+## Per creare nuove versioni di un ciclo
 
 La funzionalità di versione consente di gestire più versioni dei cicli. La struttura della versione del ciclo corrisponde a quella del ciclo ed è costituita da una testata e da righe. La differenza principale è costituita dalla data iniziale del ciclo.  
 
@@ -114,7 +114,7 @@ La funzionalità di versione consente di gestire più versioni dei cicli. La str
 
 La validità temporale della versione viene specificata nel campo **Data di Inizio**.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Creare le distinte base di produzione](production-how-to-create-production-boms.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

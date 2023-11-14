@@ -11,7 +11,7 @@ ms.search.form: '7, 118, 130, 142, 459, 460, 525'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="work-with-vat-on-sales-and-purchases"></a>Usare l'IVA nelle vendite e negli acquisti
+# Usare l'IVA nelle vendite e negli acquisti
 
 Se il tuo paese o area geografica richiede di calcolare e dichiarare l'imposta sul valore aggiunto (IVA) sulle transazioni di vendita e acquisto, puoi impostare [!INCLUDE[prod_short](includes/prod_short.md)] per calcolare l'IVA. Per ulteriori informazioni, vedere [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md).
 
@@ -20,7 +20,7 @@ Ci sono, tuttavia, alcuni task relativi all'IVA che è possibile eseguire manual
 > [!TIP]
 > È possibile consentire a [!INCLUDE[prod_short](includes/prod_short.md)] di convalidare i numeri di partita IVA e altre informazioni sulla società durante la creazione o l'aggiornamento dei documenti. Per ulteriori informazioni, vedere [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md).
 
-## <a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a>Calcolo e visualizzazione degli importi IVA nei documenti di vendita e di acquisto
+## Calcolo e visualizzazione degli importi IVA nei documenti di vendita e di acquisto  
 
 Quando si sceglie un numero di articolo nel campo **Nr.** su un documento di vendita o di acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] compila i campi **Prezzo unitario** e **Importo riga**. Il prezzo unitario deriva dalla scheda **Articolo** o dai prezzi degli articoli definiti per l'articolo e il cliente. [!INCLUDE[prod_short](includes/prod_short.md)] calcola il valore l'importo riga quando immetti una quantità per la riga.  
 
@@ -28,7 +28,7 @@ Se desideri che i prezzi unitari e gli importi delle righe comprendano l'IVA, ad
 
 Puoi calcolare e visualizzare gli importi IVA nei documenti di vendita e di acquisto in modo diverso, in base al tipo di cliente o di fornitore con cui hai relazioni commerciali. È inoltre possibile modificare l'importo IVA manualmente, ad esempio in modo che corrisponda all'importo IVA calcolato dal fornitore per una determinata transazione.
 
-### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>IVA inclusa e IVA esclusa in prezzi e importi riga
+### IVA inclusa e IVA esclusa in prezzi e importi riga
 
 Se la casella di controllo **Prezzi IVA inclusa** è selezionata in un documento di vendita, i campi **Prezzo unitario** e **Importo riga** includono l'IVA e questa impostazione è indicata anche nei nomi dei campi. Per impostazione predefinita, l'IVA non è inclusa nei valori di questi campi. I nomi dei campi indicano se i prezzi sono comprensivi di IVA.  
 
@@ -43,7 +43,7 @@ Nella tabella seguente viene fornita una panoramica del metodo utilizzato dall'a
 |Abilitato|Non abilitato|Viene calcolato l'importo IVA incluso nel campo **Prezzo unitario** nella **scheda articolo** utilizzando la percentuale IVA relativa alla combinazione di Cat. reg. business IVA (prezzo) e di Cat. reg. art./serv. IVA. Il valore del campo **Prezzo unitario** nella scheda articolo, sottratto di IVA, viene immesso nel campo **Prezzo unitario IVA esclusa** delle righe di vendita. Per ulteriori informazioni, vedi [Utilizzo delle categorie registrazione business IVA e dei gruppi prezzi cliente](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
 |Abilitato|Abilitato|Il **Prezzo unitario** indicato nella scheda articolo viene copiato nel campo **Prezzo unitario IVA inclusa** nelle righe di vendita.|
 
-#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Utilizzo delle categorie registrazione business IVA e dei gruppi prezzi cliente
+#### Utilizzo delle categorie registrazione business IVA e dei gruppi prezzi cliente 
 
 Se vuoi che i prezzi includano l'IVA, puoi utilizzare le categorie registrazione business IVA per calcolare l'importo in base all'impostazione di registrazione IVA per la categoria. Per ulteriori informazioni, vedi [Impostare le categorie registrazione business IVA](finance-setup-vat.md#set-up-vat-business-posting-groups).
 
@@ -57,13 +57,13 @@ A seconda di ciò che vuoi fare, puoi assegnare una categoria registrazione busi
 > [!NOTE]
 > Se non specifichi un gruppo nel campo **Cat. reg. business IVA (prezzo)** l'IVA non sarà inclusa nei prezzi.
 
-#### <a name="examples"></a>Esempi
+#### Esempi
 
 Fattori come il paese o l'area geografica in cui vendi o il tipo di settore a cui vendi possono influire sull'importo dell'IVA che devi contabilizzare. Ad esempio, un ristorante potrebbe addebitare il 6% di IVA per i pasti consumati in casa e il 17% per l'asporto. A tal fine, crei un gruppo di registrazione business IVA (prezzo) per il consumo in sede e uno per l'asporto.
 
-## <a name="working-with-vat-date"></a>Utilizzo della Data IVA
+## Utilizzo della Data IVA
 
-### <a name="vat-date-in-documents"></a>Data IVA nei documenti
+### Data IVA nei documenti
 
 Quando crei nuovi documenti di vendita o acquisto, la **Data IVA** sarà basata sull'impostazione nel campo **Data IVA predefinita** sulla pagina **Setup contabilità generale**. Questo valore predefinito può essere uguale alla **Data di registrazione** o alla **Data del documento**. Se hai bisogno di una data IVA diversa, puoi modificare manualmente il valore nel campo **Data IVA**. Quando registri il documento, la **Data IVA** sarà riportata sul documento di registrazione e sulle voci IVA e C/G.
 
@@ -74,12 +74,12 @@ Quando crei nuovi documenti di vendita o acquisto, la **Data IVA** sarà basata 
 > Se configuri **Controllo periodo IVA** in **Setup contabilità generale** come **Blocca registrazione all'interno periodo di chiusura**, o **Blocca registrazione entro il periodo di chiusura e avvisa per il periodo di rilascio**, puoi registrare il documento o il giornale di registrazione solo se la data nel campo **Data IVA** non è in un periodo chiuso in **Periodi di dichiarazione IVA**. Anche se il periodo in **Periodi di dichiarazione IVA** è aperto, potresti ricevere un avviso in base allo **Stato dichiarazione IVA** e alla configurazione nel **Controllo periodo IVA**.
 
 > [!IMPORTANT]
-> È possibile impedire o consentire la registrazione della **Data IVA** per un intervallo di dati specifico, utilizzando i campi **Consenti registrazione da** e **Consenti registrazione in** in **Setup contabilità generale** e **Setup utente**.  
+> A partire dalla versione 23.1, puoi impedire o consentire la registrazione della **Data IVA** per un intervallo di dati specifico, utilizzando i campi **Consenti data IVA da** e **Consenti data IVA a** in **Setup IVA** e **Setup utente**. Se utilizzi versione meno recenti, puoi impedire o consentire la registrazione della **Data IVA** per un intervallo di dati specifico, utilizzando i campi **Consenti registrazione da** e **Consenti registrazione in** in **Setup contabilità generale** e **Setup utente**.  
 
 > [!NOTE]
 > Se lasci la **Data IVA** vuota, [!INCLUDE [prod_short](includes/prod_short.md)] usa la configurazione predefinita della **Data IVA predefinita** in **Setup contabilità generale** come **Data IVA** nella transazione registrata.  
 
-### <a name="modifying-the-vat-date-in-posted-entries"></a>Modifica della data IVA nei movimenti registrati
+### Modifica della data IVA nei movimenti registrati
 
 Se necessario, è possibile modificare i documenti registrati con data IVA. Per cambiare la data nel campo **Data IVA** per i documenti registrati segui questi passaggi:
 
@@ -94,7 +94,7 @@ Se necessario, è possibile modificare i documenti registrati con data IVA. Per 
 > [!NOTE]
 > Se il tuo documento ha più di un **Movimento IVA**, devi solo modificare il valore nel campo **Data IVA** in un movimento relativo al documento. Per mantenere la coerenza dei movimenti, [!INCLUDE[prod_short](includes/prod_short.md)] modifica automaticamente la data IVA nei movimenti IVA relativi a questa transazione. [!INCLUDE [prod_short](includes/prod_short.md)] aggiornerà la **Data IVA** in altre tabelle (Movimenti C/G e documenti), ma solo in relazione a questa transazione.  
 
-## <a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a>Correzione manuale degli importi IVA nei documenti di vendita e di acquisto
+## Correzione manuale degli importi IVA nei documenti di vendita e di acquisto  
 
 È possibile apportare correzioni a movimenti IVA registrati e modificare gli importi dell'IVA di acquisto e vendita senza modificare l'imponibile. Ad esempio, se ricevi una fattura da un fornitore con un importo IVA errato.  
 
@@ -102,13 +102,13 @@ Anche se è possibile impostare una o più combinazioni per gestire l'IVA da imp
 
 Se è stato calcolato uno sconto sul pagamento sulla base dell'importo di una fattura che include l'IVA, è possibile stornare la parte di sconto sul pagamento dell'importo IVA quando viene concesso lo sconto. È necessario attivare il campo **Rett. per sconto pagam.** sia nel setup della contabilità generale che nel setup delle registrazioni IVA per combinazioni specifiche di una categoria di registrazione business IVA e una categoria di registrazione articoli/servizi IVA.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Per impostare il sistema per il movimento IVA manuale nei documenti di vendita
+### Per impostare il sistema per il movimento IVA manuale nei documenti di vendita
 Di seguito viene descritto come abilitare le modifiche manuali dell'IVA nei documenti di vendita. I passaggi sono simili nella pagina **Setup contabilità fornitori**.
 
 1. Nella pagina **Setup contabilità generale** specificare un valore per **Max. differenza IVA permessa** tra l'importo calcolato dall'applicazione e quello immesso manualmente.  
 2. Nella pagina **Setup contabilità clienti e vendite** inserire un segno di spunta nel campo **Permetti differenze IVA**.  
 
-### <a name="to-adjust-vat-for-a-sales-document"></a>Per rettificare l'IVA per un documento di vendita
+### Per rettificare l'IVA per un documento di vendita
 
 1. Aprire l'ordine di vendita appropriato.  
 2. Scegliere l'azione **Statistiche**.  
@@ -118,16 +118,16 @@ Di seguito viene descritto come abilitare le modifiche manuali dell'IVA nei docu
 > [!NOTE]  
 > L'importo totale per la fattura, raggruppato in base al codice IVA, viene visualizzato nelle righe. È possibile rettificare manualmente l'importo nel campo **Importo IVA** nelle righe per ogni codice IVA. Quando si modifica il campo **Importo IVA** viene effettuato un controllo per verificare che l'IVA non sia stata modificata di un importo superiore a quello specificato come massima differenza consentita. Se l'importo è superiore a quello specificato nel campo **Max. differenza IVA permessa**, viene visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo in modo che rientri nei parametri accettabili. Fare clic su **OK** e immettere un diverso **Importo IVA** che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o inferiore a quella massima consentita, l'IVA verrà divisa proporzionalmente tra le righe del documento con lo stesso codice IVA.  
 
-## <a name="calculating-vat-manually-using-journals"></a>Calcolo manuale dell'IVA utilizzando le registrazioni
+## Calcolo manuale dell'IVA utilizzando le registrazioni  
 È anche possibile rettificare gli importi IVA nelle registrazioni COGE, vendite e acquisti. Ad esempio, questa operazione potrebbe essere necessaria quando si immette una fattura del fornitore nelle registrazioni e vi è una differenza tra l'importo IVA calcolato da [!INCLUDE[prod_short](includes/prod_short.md)] e quello specificato nella fattura del fornitore.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Per impostare il sistema per il movimento IVA manuale in una registrazione COGE
+### Per impostare il sistema per il movimento IVA manuale in una registrazione COGE
 È necessario eseguire i passaggi seguenti prima di inserire manualmente l'IVA in una registrazione COGE.  
 
 1. Nella pagina **Setup contabilità generale** specificare un valore per **Max. differenza IVA permessa** tra l'importo calcolato dall'applicazione e quello immesso manualmente.  
 2. Nella pagina **Def. registrazioni COGE** selezionare la casella di controllo **Permetti differenze IVA** per le registrazioni pertinenti.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Per impostare il sistema per il movimento IVA manuale in una registrazione COGE
+### Per impostare il sistema per il movimento IVA manuale in una registrazione COGE
 
 È necessario eseguire i passaggi seguenti prima di inserire manualmente l'IVA in una registrazione acquisti o vendite.
 
@@ -138,10 +138,10 @@ Di seguito viene descritto come abilitare le modifiche manuali dell'IVA nei docu
 > [!NOTE]  
 > Se la differenza è maggiore, verrà visualizzato un avviso che indica la massima differenza consentita. Per continuare, è necessario rettificare l'importo. Scegliere **OK** e immettere un importo che rientri nell'intervallo consentito. Se la differenza nell'IVA è uguale o minore di quella massima consentita, [!INCLUDE[prod_short](includes/prod_short.md)] mostrerà la differenza nel campo **Differenza IVA**.  
 
-## <a name="posting-import-vat-with-purchase-invoices"></a>Registrare l'IVA da importazione con fatture di acquisto
+## Registrare l'IVA da importazione con fatture di acquisto
 Anziché utilizzare le registrazioni per registrare una fattura con IVA da importazione, è possibile utilizzare una fattura di acquisto.  
 
-### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Per impostare l'acquisto per registrare le fatture con IVA da importazione
+### Per impostare l'acquisto per registrare le fatture con IVA da importazione
 
 1. Impostare una scheda fornitore per l'autorità di importazione che invia la fattura con IVA da importazione. I campi **Cat. reg. business** e **Cat. reg. business IVA** devono essere impostati in modo analogo al conto C/G per l'IVA da importazione.  
 2. Creare una categoria **Cat. reg. articoli/servizi** per l'IVA da importazione e impostare una categoria **Cat. reg. art. serv. IVA default** relativa all'IVA da importazione per la categoria correlata creata in **Cat. reg. articoli/servizi**.  
@@ -151,7 +151,7 @@ Anziché utilizzare le registrazioni per registrare una fattura con IVA da impor
 6. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.  
 7. Creare una combinazione tra la **Cat. reg. business** per l'autorità competente sull'IVA e la **Cat. reg. articolo/servizio** per l'IVA da importazione. Per questa nuova combinazione, nel campo **Conto acquisti** scegliere il conto di contabilità generale per l'IVA da importazione.  
 
-### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Per creare una nuova fattura per il fornitore dell'importazione competente dopo avere completato il setup
+### Per creare una nuova fattura per il fornitore dell'importazione competente dopo avere completato il setup  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Creare una nuova fattura di acquisto.  
@@ -161,11 +161,11 @@ Anziché utilizzare le registrazioni per registrare una fattura con IVA da impor
 6. Nel campo **Costo unitario diretto IVA escl.** specificare l'importo IVA.  
 7. Contabilizzare la fattura.  
 
-## <a name="processing-certificates-of-supply"></a>Elaborare certificati di fornitura
+## Elaborare certificati di fornitura
 
 Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare il cliente un certificato di fornitura che il cliente deve firmare e restituire all'utente. Le procedure riportate di seguito sono utili a elaborare i certificati di fornitura per le spedizioni vendita, ma gli stessi passaggi sono applicabili anche per le spedizioni di assistenza per gli articoli e per le spedizioni di reso ai fornitori.  
 
-### <a name="to-view-certificate-of-supply-details"></a>Per visualizzare i dettagli del certificato di fornitura
+### Per visualizzare i dettagli del certificato di fornitura  
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
 3. Scegliere **Dettagli certificato di fornitura**.  
@@ -184,7 +184,7 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
 > [!Note]  
 >  È possibile visualizzare in anteprima o stampare il documento. Scegliendo **Stampa certificato di fornitura** e si stampa il documento, la casella di controllo **Stampato** viene selezionata. Inoltre, se non è già specificato, lo stato del certificato viene aggiornato a **Obbligatorio**. Se necessario, includere il certificato stampato con la spedizione.  
 
-### <a name="to-print-a-certificate-of-supply"></a>Per stampare un certificato di fornitura
+### Per stampare un certificato di fornitura
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
@@ -203,7 +203,7 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
 
 8. Inviare il certificato di fornitura stampato al cliente per la firma.  
 
-### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Per aggiornare lo stato di un certificato di fornitura per una spedizione
+### Per aggiornare lo stato di un certificato di fornitura per una spedizione  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizioni vendita registrate**, quindi scegli il collegamento correlato.  
 2. Selezionare la spedizione vendita appropriata a un cliente in un altro paese UE.  
@@ -217,7 +217,7 @@ Quando si vendono merci a un cliente in un altro paese UE, è necessario inviare
 
 Per visualizzare un gruppo di certificati, si inizia dalla pagina **Certificati di fornitura** e quindi si aggiornano le informazioni relative allo stato dei certificati in sospeso appena vengono ricevuti dai clienti. Questo può risultare utile quando si desidera individuare tutti i certificati con un determinato stato, ad esempio, **Obbligatorio**, per i quali si desidera aggiornare lo stato a **Non ricevuto**.  
 
-### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Per aggiornare lo stato di un gruppo di certificati di fornitura.
+### Per aggiornare lo stato di un gruppo di certificati di fornitura.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Certificati di fornitura**, quindi scegli il collegamento correlato.  
 2. Filtrare il campo **Stato** secondo il valore che si desidera per creare l'elenco dei certificati che si desidera gestire.  
@@ -234,7 +234,7 @@ Per visualizzare un gruppo di certificati, si inizia dalla pagina **Certificati 
 > * Per creare manualmente un certificato di fornitura  
 > * Per stampare un certificato di fornitura.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Impostazione dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)  
 [Dichiarare l'IVA a un'autorità fiscale](finance-how-report-vat.md)  

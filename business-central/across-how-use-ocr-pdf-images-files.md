@@ -11,7 +11,7 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: bholtorf
 ---
-# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici
+# Utilizzare OCR per convertire PDF e file di immagine in documenti elettronici
 
 Dai PDF o dai file di immagine che si ricevono dai partner commerciali, è possibile impostare che un servizio OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) generi documenti elettronici che si possono convertire in record di documento in [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, quando si riceve una fattura nel formato PDF dal fornitore, è possibile [inviarla al servizio OCR dalla pagina **Documenti in entrata**](#to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page).
 
@@ -26,7 +26,7 @@ Il traffico di file da e verso il servizio OCR viene elaborato da un movimento c
 > [!NOTE]
 > La funzione OCR è fornita da fornitori esterni. Scegliere un pacchetto di servizi appropriato per l'organizzazione e/o paese/area geografica. Trova i servizi compatibili con [!INCLUDE[prod_short](includes/prod_short.md)] e i dettagli sulle funzionalità disponibili su [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Per inviare un file di immagine o PDF al servizio OCR dalla pagina Documenti in entrata
+## Per inviare un file di immagine o PDF al servizio OCR dalla pagina Documenti in entrata
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.
 2. Creare un nuovo record di documento in entrata e allegare il file. Per ulteriori informazioni, vedere [Creare i record di documenti in entrata](across-how-create-income-document-records.md).  
@@ -37,7 +37,7 @@ Il traffico di file da e verso il servizio OCR viene elaborato da un movimento c
 
    Il valore nel campo **Stato OCR** diventa **Inviato**, se non sono presenti errori.
 
-## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Per inviare un file di immagine o PDF del servizio OCR tramite e-mail
+## Per inviare un file di immagine o PDF del servizio OCR tramite e-mail
 
 Dall'applicazione e-mail, è possibile inoltrare un messaggio e-mail al provider di servizi OCR con il file di immagine o PDF allegato. Per informazioni sull'indirizzo e-mail di destinazione, vedi il sito Web del provider di servizi OCR.
 
@@ -46,7 +46,7 @@ Dal momento che non esiste alcun record di documento in entrata per il file, un 
 > [!NOTE]  
 > Se si utilizza un tablet o un telefono, è possibile inviare il file al servizio OCR non appena viene scattata la foto del documento oppure è possibile creare direttamente un documento in entrata. Per ulteriori informazioni, vedere [Creare un record di documento in entrata facendo una foto](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
-## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Per ricevere il documento elettronico risultante dal servizio OCR
+## Per ricevere il documento elettronico risultante dal servizio OCR
 
 Il documento elettronico creato dal servizio OCR dal PDF o dal file di immagine viene ricevuto automaticamente nella pagina **Documenti in entrata** dal movimento coda processi impostato quando si abilita il servizio OCR.
 
@@ -65,7 +65,7 @@ Se non viene utilizzata una coda processi o vuoi ricevere un documento OCR finit
 
 A questo punto è possibile passare alla creazione dei record per i documenti elettronici ricevuti in [!INCLUDE[prod_short](includes/prod_short.md)], manualmente o automaticamente. Per ulteriori informazioni, vedere la procedura che segue. È inoltre possibile [connettere il nuovo record del documento in entrata ai documenti esistenti registrati o non registrati](across-how-connect-disconnect-income-document-records.md) in modo che il file di origine sia facilmente accessibile da [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Per creare una fattura di acquisto da un documento elettronico ricevuto dal servizio OCR
+## Per creare una fattura di acquisto da un documento elettronico ricevuto dal servizio OCR
 
 Di seguito viene descritto come creare un record di fattura di acquisto da una fattura fornitore ricevuta come documento elettronico dal servizio OCR. La procedura è identica a quella per creare, ad esempio, una riga di registrazione COGE da una ricevuta di spesa o un ordine di reso vendita da un cliente.
 
@@ -78,7 +78,7 @@ Una fattura di acquisto verrà creata in [!INCLUDE[prod_short](includes/prod_sho
 
 Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[prod_short](includes/prod_short.md)], verranno visualizzati nella Scheda dettaglio **Errori e avvisi**. Per ulteriori informazioni, vedi [Gestire gli errori durante la ricezione di documenti elettronici](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
-### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Per mappare il testo di un documento in entrata a un determinato conto del fornitore
+### Per mappare il testo di un documento in entrata a un determinato conto del fornitore
 
 Per i documenti in entrata, in genere l'azione **Mappa testo a conto** si utilizza per definire che un determinato testo in una fattura fornitore ricevuta dal servizio OCR viene mappato a un determinato conto fornitore. Andando avanti, qualsiasi parte della descrizione del documento in entrata che esiste come testo di mappatura significa che il campo **Nr. fornitore** sul documento risultante o sulle righe del giornale di registrazione di tipo *Conto CoGe* è compilato con il fornitore in questione.
 
@@ -94,7 +94,7 @@ Oltre alla mappatura a un conto fornitore o ad altri conti C/G, è possibile map
    > Non usare i campi **Tipo di origine saldo** e **Nr. origine saldo** in relazione ai documenti in entrata. Vengono utilizzati solo per la riconciliazione automatica di pagamento. Per ulteriori informazioni, vedere [Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 6. Ripeti i passaggi da 2 a 5 per qualsiasi testo su documenti in entrata per cui vuoi creare automaticamente i documenti.
 
-## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Per gestire gli errori durante la ricezione di documenti elettronici
+## Per gestire gli errori durante la ricezione di documenti elettronici
 
 1. Nella pagina **Documenti in entrata**, seleziona la riga per un documento elettronico ricevuto dal servizio OCR con errori, indicato dal valore *Errore* nel campo **Stato OCR**.
 2. Scegliere l'azione **Modifica** per aprire la pagina **Documento in entrata**.
@@ -104,7 +104,7 @@ Oltre alla mappatura a un conto fornitore o ad altri conti C/G, è possibile map
 6. Continuare a elaborare il documento elettronico in entrata scegliendo di nuovo l'azione **Crea manualmente**.
 7. Ripetere i passaggi 5 e 6 per tutti gli errori rimanenti finché il documento elettronico non può essere ricevuto correttamente.
 
-## <a name="to-train-the-ocr-service-to-avoid-errors"></a>Per istruire il servizio OCR a evitare errori
+## Per istruire il servizio OCR a evitare errori
 
 Poiché OCR si basa sul riconoscimento ottico, è possibile che il servizio OCR interpreti scorrettamente i caratteri nei file PDF o di immagine quando, ad esempio, elabora per la prima volta i documenti da un determinato fornitore. Potrebbe non interpretare il logo della società come nome del fornitore o potrebbe comprendere erroneamente l'importo totale in una ricezione di spese a causa del layout. Per evitare che tali errori vanno avanti, è possibile correggere i dati ricevuti dal servizio OCR e quindi inviare il feedback all'assistenza.
 
@@ -120,7 +120,7 @@ La pagina **Correzione dati OCR** che si apre dalla pagina **Documento in entrat
 
 I campi della Scheda dettaglio **Informazioni finanziarie** nella pagina **Documento in entrata** vengono aggiornati con i nuovi valori immessi nel passaggio 4.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Creare i record di documenti in entrata](across-how-create-income-document-records.md)
 [Creare i record di documenti in entrata direttamente da documenti e movimenti](across-how-connect-disconnect-income-document-records.md)

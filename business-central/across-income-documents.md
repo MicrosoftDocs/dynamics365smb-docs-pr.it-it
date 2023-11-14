@@ -10,13 +10,13 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: bholtorf
 ---
-# <a name="incoming-documents"></a>Documenti in entrata
+# Documenti in entrata
 
 I documenti commerciali esterni possono arrivare nella società come allegato a un messaggio e-mail o copia cartacea che è possibile scansionare e trasformare in file. Questo scenario è tipico degli acquisti, dove questi file di documenti in entrata rappresentano le ricevute di pagamento per le spese o i piccoli acquisti.
 
 Nella pagina **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
 
-## <a name="usage-scenario"></a>Scenario di utilizzo
+## Scenario di utilizzo
 
 Puoi registrare file o copie cartacee ricevute dai tuoi partner commerciali in [!INCLUDE[prod_short](includes/prod_short.md)] e creare un record del documento. Ad esempio, una fattura di acquisto o di vendita, una nota di credito o una riga del giornale di registrazione.
 
@@ -30,7 +30,7 @@ Ad esempio, quando si riceve una fattura nel formato PDF dal fornitore, è possi
 > [!TIP]
 > Crea record di documenti in entrata in [!INCLUDE[prod_short](includes/prod_short.md)] direttamente dalle e-mail inviate dai fornitori utilizzando il componente aggiuntivo di Outlook. Per ulteriori informazioni, vedi [Utilizzare Business Central come Posta in arrivo aziendale in Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Funzionalità del documento in entrata
+## Funzionalità del documento in entrata
 
 L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni principali:
 
@@ -57,7 +57,7 @@ L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni p
 | Nelle pagine **Piano dei conti** e **Movimenti C/G** utilizza una funzione di ricerca per trovare movimenti di contabilità generale per documenti registrati che non hanno record di documenti in entrata e successivamente collegali centralmente a record esistenti o creane di nuovi con file di documento allegati. |[Trovare documenti registrati senza record di documenti in entrata](across-how-find-posted-documents-without-income-document-records.md) |
 | Per ottenere una panoramica migliore è possibile impostare i record del documento in entrata su *Elaborato* e rimuoverli dalla visualizzazione predefinita. |[Gestire più record di documenti in entrata](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Modifica di documenti registrati](across-edit-posted-document.md)  

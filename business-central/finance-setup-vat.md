@@ -21,7 +21,7 @@ I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acq
 * Merci vendute  
 * Merci acquistate  
 
-È possibile impostare manualmente i calcoli IVA, ma può essere complesso e richiedere molto tempo. In caso contrario, sarebbe molto facile utilizzare erroneamente diverse aliquote IVA e creare report sull'IVA inaccurati. Per facilitare la configurazione dell'IVA, ti consigliamo di utilizzare La guida **Impostazione IVA** fornita nel prodotto. 
+È possibile impostare manualmente i calcoli IVA, ma può essere complesso e richiedere molto tempo. È facile utilizzare erroneamente diverse aliquote IVA e creare report sull'IVA inaccurati. Per facilitare la configurazione dell'IVA, ti consigliamo di utilizzare La guida **Impostazione IVA** fornita nel prodotto. 
 
 Tuttavia se vuoi impostare i calcoli IVA manualmente, o se vuoi conoscere ciascun passaggio, in questo articolo vengono fornite descrizioni per ogni fase.  
 
@@ -75,7 +75,7 @@ Per impostare il livello di utilizzo della data IVA, procedi nel seguente modo:
 |--------------------|-----------------------------------------|
 | **Utilizzare la funzionalità Data IVA completa** | Tutto ciò che riguarda **Data IVA** funziona per impostazione predefinita, offrendoti il massimo della funzionalità **Data IVA**. È possibile impostare la data, modificarla nei documenti, creare report basati sulla data e modificare la data dopo la pubblicazione, purché il periodo non sia chiuso o protetto con date consentite per la pubblicazione. |
 | **Utilizzare ma non consentire le modifiche** | Tutto ciò che riguarda la **Data IVA** funziona per impostazione predefinita con un'eccezione. Non puoi modificare la **Data IVA** in **Movimenti IVA**. |
-| **Non utilizzare la funzionalità Data IVA** | [!INCLUDE [prod_short](includes/prod_short.md)] nasconderà e renderà non disponibili i campi **Data IVA** su documenti, registrazioni e movimenti. La **Data IVA predefinita** sarà configurata come **Data di registrazione**. |
+| **Non utilizzare la funzionalità Data IVA** | [!INCLUDE [prod_short](includes/prod_short.md)] nasconderà e renderà non disponibili i campi **Data IVA** su documenti, registrazioni e movimenti. La **Data IVA predefinita** è configurata come **Data di registrazione**. |
 
 3. Chiudere la pagina.
 
@@ -91,17 +91,42 @@ Puoi impedire alle persone di registrare o modificare i movimenti IVA in interva
 
 #### Per limitare la registrazione in base al periodo di dichiarazione IVA
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella scheda dettaglio **Generale**, nel campo **Controllo periodo IVA**, specifica il grado di controllo del periodo di dichiarazione IVA. Nella seguente tabella vengono illustrate le opzioni.
 
 | Tipo | Descrizione |
 |--------------------|-----------------------------------------|
-| **Blocca registrazione per periodo chiuso e avvisa per periodo rilasciato** | Impedisci alle persone di registrare un documento o una registrazione o di modificare i movimenti IVA che hanno una data IVA in un **periodo di dichiarazione IVA** chiuso. [!INCLUDE [prod_short](includes/prod_short.md)] mostrerà anche un avviso se il tuo **Periodo di dichiarazione IVA** è aperto, ma lo stato della **Dichiarazione IVA** è **Rilasciato** or **Inviato**. |
+| **Blocca registrazione per periodo chiuso e avvisa per periodo rilasciato** | Impedisci alle persone di registrare un documento o una registrazione o di modificare i movimenti IVA che hanno una data IVA in un **periodo di dichiarazione IVA** chiuso. [!INCLUDE [prod_short](includes/prod_short.md)] mostra anche un avviso se il tuo **Periodo di dichiarazione IVA** è aperto, ma lo stato della **Dichiarazione IVA** è **Rilasciato** or **Inviato**. |
 | **Blocca registrazione per periodo chiuso** | Impedisci alle persone di registrare un documento o una registrazione o di modificare i movimenti IVA che hanno una data IVA nel **periodo di dichiarazione IVA** chiuso. |
 | **Avvisa per registrazione in periodo chiuso** | Mostra un avviso, ma non bloccare la registrazione, se desideri registrare un documento o una registrazione che ha una data IVA in un **periodo di dichiarazione IVA** chiuso. |
 | **Disabilitato** | Non intraprendere alcuna azione sulla base di un **periodo di dichiarazione IVA** chiuso. |
 
-#### Per limitare la registrazione in base a Consenti dal/al periodo
+#### Limitare la registrazione in base a Consenti dal/al periodo
+
+> [!NOTE]
+> A partire dalla versione 23.1 di Business Central, questo controllo è stato modificato. Nelle versioni precedenti, era presente un solo controllo nella pagina **Setup contabilità generale** sia per la Data di registrazione che per la Data IVA. Ora questi controlli sono suddivisi, quindi il controllo nella pagina **Setup contabilità generale** è solo per la **Data di registrazione** e il controllo nella pagina **Setup IVA** è valido solo per la **Data IVA** . Sono presenti anche nuovi controlli della data nella pagina **Setup utente**.  
+
+##### Versione 23.1 o successiva
+
+> [!IMPORTANT]
+> Quando esegui l'aggiornamento a una nuova versione, tieni presente che i valori vengono aggiornati nella nuova opzione **Consenti data IVA da/a** della pagina **Setup IVA** in base ai valori in **Consenti registrazione da/a** in **Setup contabilità generale**. Se vuoi utilizzare controlli della data diversi, apri la pagina **Setup IVA** e apporta le modifiche.  
+
+Puoi impostare limitazioni per la società o a livelli utente specifici.
+
+Per limitare tutte le registrazioni per l'intera azienda:
+
+1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup e-mail VAT**, quindi seleziona il collegamento correlato.  
+2. Nella scheda dettaglio **Data IVA**, nel campo **Consenti data IVA da**, specifica la data IVA a partire dalla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA precedente a questa data non è consentita.  
+3. Nella scheda dettaglio **Data IVA**, nel campo **Consenti data IVA a**, specifica la data IVA fino alla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA dopo questa data non è consentita. 
+
+Per limitare le registrazioni per l'utente specifico:  
+
+1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente**, quindi seleziona il collegamento correlato.  
+2. Nel campo **ID utente** specifica l'utente a cui consenti di registrare in un periodo specifico.  
+3. Nel campo **Consenti data IVA da** specifica la data IVA a partire dalla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA precedente a questa data non è consentita. 
+4. Nel campo **Consenti data IVA a** specifica la data IVA fino alla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA dopo questa data non è consentita.  
+
+##### Versione antecedente alla versione 23.1 
 
 È possibile impostare limitazioni per l'azienda o livelli utente specifici.
 
@@ -114,7 +139,7 @@ Per limitare tutte le registrazioni per l'intera azienda:
 Per limitare le registrazioni per l'utente specifico:
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup utente**, quindi scegli il collegamento correlato.  
-2. Nel campo **ID utente** specifica l'utente a cui desideri consentire di registrare in un periodo specifico.  
+2. Nel campo **ID utente** specifica l'utente a cui consenti di registrare in un periodo specifico.  
 3. Nel campo **Consenti registrazione da** specifica la data IVA a partire dalla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA precedente a questa data non è consentita.
 4. Nel campo **Consenti registrazione a** specifica la data IVA fino alla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA dopo questa data non è consentita.
 
@@ -122,14 +147,14 @@ Per limitare le registrazioni per l'utente specifico:
 
 Per garantire che le persone inseriscano numeri di partita IVA validi, è possibile definire i formati per i numeri di partita IVA utilizzati nei paesi in cui si opera. [!INCLUDE[prod_short](includes/prod_short.md)] visualizza un messaggio di errore quando qualcuno commette un errore o utilizza un formato non corretto per il paese.
 
-Per impostare i numeri di partita VAT, attenersi a questa procedura:
+Per impostare i numeri di partita VAT, attieniti a questa procedura:
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Paesi/Aree geografiche**.
 2. Specificare il paese e quindi scegliere l'azione **Formati Nr. P. IVA**.
 3. Nel campo **Formati**, specificare il formato immettendo uno o più dei seguenti caratteri:  
 
 * **#** Richiede un numero a una cifra.  
-* **@** Richiede una lettera. Il formato non rispetta la distinzione tra maiuscole e minuscole.  
+* **@** Richiede una lettera. Il formato non fa distinzione tra maiuscole e minuscole.  
 * **?** Consente qualsiasi carattere.  
 
     > [!TIP]
@@ -156,7 +181,7 @@ Si consiglia di utilizzare codici semplici da ricordare e descrittivi. Ad esempi
 
 Per impostare una categoria di registrazione business IVA, attenersi a questa procedura:
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie registrazioni articoli/servizi IVA**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie registrazioni articoli/servizi IVA**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
 
 ## Combinare le categorie di registrazione IVA nei setup registrazione IVA

@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-service-management"></a>Introduzione a Gestione assistenza di Contoso Coffee
+# Introduzione a Gestione assistenza di Contoso Coffee
 
 Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono i dati demo che puoi usare per imparare a usare le funzionalità di Gestione assistenza in Business Central.
 
@@ -22,7 +22,7 @@ Questa app fornisce diversi elementi che vengono utilizzati per le procedure det
 > Prima di eseguire uno qualsiasi degli scenari per Contoso Coffee, registra le righe di registrazione articolo con i saldi di apertura. Per ulteriori requisiti, vedi la sezione [Impostare i dati di Contoso Coffee](#set-up-contoso-coffee-service-management-data).
 >
 > 
-## <a name="set-up-contoso-coffee-service-management-data"></a>Impostare i dati di Gestione assistenza di Contoso Coffee
+## Impostare i dati di Gestione assistenza di Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
@@ -42,7 +42,7 @@ Una volta installate le app pertinenti, vai alla pagina [Strumento demo Contoso]
 
 Quando sei pronto, scegli l'azione **Crea dati demo**. Occorrono alcuni minuti per aggiungere i dati al database sottostante, ma poi sei pronto per eseguire i vari scenari.  
 
-## <a name="scenarios"></a>Scenari
+## Scenari
 
 I dati demo di Contoso Coffee attualmente supportano i seguenti scenari di assistenza per test e formazione:
 
@@ -55,6 +55,6 @@ Leggi i passaggi per ogni scenario nell'articolo pertinente.
 > Le procedure dettagliate di assistenza richiedono che l'esperienza utente sia impostata su **Premium** nella pagina **Informazioni società**.
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Assistenza](../../service-service.md)
