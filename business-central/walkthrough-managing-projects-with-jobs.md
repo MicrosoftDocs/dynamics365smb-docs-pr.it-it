@@ -190,7 +190,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
 
 2. Crea righe di pianificazione con i seguenti dati:  
 
-    | Riga | Tipo riga | Data pianificazione  | Tipo        | No.   | Quantità | Prezzo unitario |
+    | Riga | Tipo riga | Data pianificazione  | Tipo        | Nr.   | Quantità | Prezzo unitario |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Sia budget sia fatturabile | (data odierna) | Risorsa | Cinzia | 40        |     |
     | 2    | Sia budget sia fatturabile | (data odierna) | Risorsa | Maldonado | 40        |     |
@@ -199,7 +199,7 @@ Nella procedura descritta di seguito si crea un batch registrazioni commesse per
      Chiudere la pagina. I totali vengono aggiornati nella pagina **Righe task commessa** .  
 3. Selezionare la riga 1020, quindi scegliere l'azione **Righe pianificazione commessa**. Inserire i seguenti dati:  
 
-    | Riga | Tipo riga | Data pianificazione  | Tipo        | No.   | Quantità | Prezzo unitario |
+    | Riga | Tipo riga | Data pianificazione  | Tipo        | Nr.   | Quantità | Prezzo unitario |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Sia budget sia fatturabile | (data odierna) | Risorsa | Cinzia | 80        |     |
     | 2    | Sia budget sia fatturabile | (data odierna) | Articolo | 80201 (Progr. grafica) | 1 |     |
@@ -266,13 +266,13 @@ Le righe sono così registrate.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Selezionare il numero di commessa **Società mercantile internaz.**, quindi scegliere l'azione **Righe task commessa**.  
-3. Seleziona la riga 1,120 e nel campo **Budget (costo totale)** fai clic con il pulsante destro del mouse sull'importo e scegli **DrillDown**.  
+3. Seleziona la riga 1120 e nel campo **Budget (costo totale)** fai clic con il pulsante destro del mouse sull'importo e scegli **DrillDown**.  
 
      Verificando le righe di pianificazione commessa, Alboni stabilisce che avrà anche bisogno di Cinzia per 30 ore per questa fase del progetto. E concorda un prezzo fisso con il cliente.  
 
 4. Nella pagina **Righe task commessa**, selezionare la riga 1120, quindi scegliere l'azione **Righe pianificazione commessa**. Creare una riga di pianificazione con i seguenti dati:  
 
-    | Riga | Tipo riga | Tipo        | No.   | Quantità |
+    | Riga | Tipo riga | Tipo        | Nr.   | Quantità |
     |------|-----------|-------------|-------|----------|
     | 1    | Sia budget sia fatturabile  | Risorsa | Cinzia | 30 |
 
@@ -328,7 +328,7 @@ Dopo che Cinzia è stata aggiunta alla pianificazione per questa riga di task, l
 
 9. Scegliere l'azione **Registra**. Scegliere il pulsante **OK** per chiudere la pagina.  
 10. Aprire l'elenco **Commesse**.  
-11. Seleziona il lavoro GUILDFORD e poi, nella sezione **Righe task commessa** seleziona la riga 1,120 e nel campo **Budget (costo totale)** fai clic con il pulsante destro del mouse sull'importo. Selezionare **Drilldown** per visualizzare le informazioni.  
+11. Seleziona il lavoro GUILDFORD e poi, nella sezione **Righe task commessa** seleziona la riga 1120 e nel campo **Budget (costo totale)** fai clic con il pulsante destro del mouse sull'importo. Selezionare **Drilldown** per visualizzare le informazioni.  
 
      Le modifiche sono inserite automatiche nella riga per il Nr. task commessa 1120. Nel costo totale del lavoro pianificato, cinque ore in più di lavoro di Cinzia sono state aggiunte alla programmazione.  
 
@@ -413,7 +413,7 @@ Le procedure riportate di seguito mostrano come creare una nuova commessa, impos
 
 6. Creare una riga di pianificazione con i seguenti dati:  
 
-    | Riga | Tipo riga | Data pianificazione  | Tipo        | No.   | Quantità | Prezzo unitario |
+    | Riga | Tipo riga | Data pianificazione  | Tipo        | Nr.   | Quantità | Prezzo unitario |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Fatturabile  | (data odierna) | Conti C/G | 40255 | 1        | 5000       |
 
@@ -423,7 +423,7 @@ Le procedure riportate di seguito mostrano come creare una nuova commessa, impos
 
 8. Creare una riga di pianificazione con i seguenti dati:
 
-    | Riga | Tipo riga | Data pianificazione  | Tipo     | No.    | Quantità |
+    | Riga | Tipo riga | Data pianificazione  | Tipo     | Nr.    | Quantità |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Budget    | (data odierna) | Risorsa | Cinzia | 120      |
     | 2    | Budget    | (data odierna) | Articolo     | 70104  | 10       |
@@ -434,7 +434,7 @@ Le procedure riportate di seguito mostrano come creare una nuova commessa, impos
 
 10. Creare una riga di pianificazione con i seguenti dati:
 
-    | Riga | Tipo riga | Data pianificazione   | Tipo        | No.   | Quantità | Prezzo unitario |
+    | Riga | Tipo riga | Data pianificazione   | Tipo        | Nr.   | Quantità | Prezzo unitario |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Fatturabile  | (una data futura) | Conti C/G | 40255 | 1        | 5000       |
 

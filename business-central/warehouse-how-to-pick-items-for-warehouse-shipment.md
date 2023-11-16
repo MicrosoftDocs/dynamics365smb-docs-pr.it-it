@@ -60,7 +60,7 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
     > [!NOTE]  
     >  Il modo in cui le righe vengono ordinate nel prospetto non si applica automaticamente all'istruzione di prelievo. Tuttavia, esistono le stesse opportunità per l'ordinamento e la valutazione collocazione. È possibile ricreare facilmente l'ordine delle righe pianificate nel prospetto quando crei le istruzioni di prelievo o le ordini nelle istruzioni di prelievo.
 
-5. Compila il campo **Qtà. gestire** manualmente o utilizzando l'azione **Autocompil. qtà da gestire**.  
+5. Compila il campo **Qtà da gestire** manualmente o utilizzando l'azione **Autocompil. qtà da gestire**.  
 
     La pagina mostra le quantità disponibili nelle collocazioni cross-dock. Queste informazioni sono utili per pianificare le assegnazioni del lavoro in situazioni di cross-dock. [!INCLUDE[prod_short](includes/prod_short.md)] proporrà sempre prima un prelievo da una collocazione cross-dock.
 6. Le righe possono essere modificate, se necessario. È inoltre possibile eliminare le righe per creare un prelievo più efficiente. Se ad esempio vi sono più righe con articoli nelle collocazioni di cross-dock, puoi creare un prelievo per tutte le righe. Gli articoli sottoposti a cross-dock verranno spediti con agli altri articoli e nelle collocazioni di cross-dock sarà disponibile una maggiore quantità di spazio per ulteriori articoli in entrata.  
@@ -83,12 +83,12 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
     |Opzione|Descrizione|
     |-|-|
-    |Importo massimo No. di righe prelievo|Crea documenti di prelievo con un numero di righe in ogni documento non superiore a quello specificato.|
-    |Importo massimo No. di doc. origine prelievo|Crea documenti di prelievo che si riferiscono a un numero di documenti origine non superiore a quello specificato.|
+    |Importo massimo Nr. di righe prelievo|Crea documenti di prelievo con un numero di righe in ogni documento non superiore a quello specificato.|
+    |Importo massimo Nr. di doc. origine prelievo|Crea documenti di prelievo che si riferiscono a un numero di documenti origine non superiore a quello specificato.|
     |ID utente assegnato|Crea documenti di prelievo solo per le righe del prospetto assegnate all'impiegato warehouse selezionato.|
     |Metodo di ordinamento per righe di prelievo|Scegli una delle opzioni disponibili per ordinare le righe nel documento di prelievo creato.|
     |Impostare filtro breakbulk|Nasconde le righe prelievo di breakbulk intermedie quando un'unità di misura più grande viene convertita in un'unità di misura più piccola e completamente prelevata.|
-    |Qtà da gestire non compilata|Lascia il campo Qtà. da gestire vuoto nelle righe di prelievo create.|
+    |Qtà da gestire non compilata|Lascia il campo Qtà da gestire vuoto nelle righe di prelievo create.|
     |Stampa prelievo|Stampa i documenti di prelievo al momento della creazione. È inoltre possibile stampare dai documenti di prelievo creati.|
 
 8. Selezionare **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] creerà il prelievo in base alle tue selezioni.  

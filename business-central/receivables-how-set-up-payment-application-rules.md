@@ -71,8 +71,8 @@ La tabella seguente descrive le regole di collegamento dei pagamenti standard in
 | Basso              | 1        | Completamente                 | No                             | Nessuna corrispondenza                     |
 | Basso              | 2        | Parzialmente             | No                             | Più corrispondenze               |
 | Basso              | 3        | Parzialmente             | No                             | Nessuna corrispondenza                     |
-| Bassa              | 4        | Nr.                    | Nr.                             | Una corrispondenza                      |
-| Bassa              | 5        | Nr.                    | Nr.                             | Più corrispondenze               |
+| Bassa              | 4        | No                    | No                             | Una corrispondenza                      |
+| Bassa              | 5        | No                    | No                             | Più corrispondenze               |
 
 ## Vedi anche
 [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md)  

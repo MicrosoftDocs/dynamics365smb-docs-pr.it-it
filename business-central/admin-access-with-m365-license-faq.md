@@ -41,7 +41,7 @@ Sì. L'aggiunta di set di autorizzazioni al gruppo di utenti interni di Microsof
 
 ### Quando un utente di Business Central condivide un record in Teams, concede nuove autorizzazioni?
 
-Nr. Questa azione non equivale a condividere un collegamento a un documento di SharePoint in cui la persona che condivide il documento può scegliere di concedere l'autorizzazione ad altri. In Business Central solo gli amministratori possono configurare e assegnare le autorizzazioni. Confrontato con la condivisione di documenti SharePoint equivale a scegliere l'opzione "Condividi con persone con accesso esistente".
+No. Questa azione non equivale a condividere un collegamento a un documento di SharePoint in cui la persona che condivide il documento può scegliere di concedere l'autorizzazione ad altri. In Business Central solo gli amministratori possono configurare e assegnare le autorizzazioni. Confrontato con la condivisione di documenti SharePoint equivale a scegliere l'opzione "Condividi con persone con accesso esistente".
 
 ### Questa funzione supporta la sicurezza a livello di riga?
 
@@ -95,7 +95,7 @@ Per massimizzare la produttività e semplificare le operazioni, le PMI spesso ac
 
 ### È gratuito al 100%?
  
-Nr. L'accesso ai dati di Business Central in Microsoft Teams richiede che ciascun utente disponga di una licenza Business Central o di una licenza Microsoft 365 dall'elenco dei piani supportati.
+No. L'accesso ai dati di Business Central in Microsoft Teams richiede che ciascun utente disponga di una licenza Business Central o di una licenza Microsoft 365 dall'elenco dei piani supportati.
 
 ### Funziona con le versioni di valutazione Microsoft 365 e le versioni di valutazione di Business Central?
 

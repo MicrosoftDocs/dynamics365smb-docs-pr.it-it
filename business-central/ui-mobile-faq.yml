@@ -61,7 +61,7 @@ sections:
       - question: |
           Un utente guest può utilizzare l'app per accedere alla nostra soluzione Business Central?
         answer: |
-          Nr. Gli utenti guest sono utenti invitati da un tenant Microsoft Entra diverso dal tuo. In questo caso, l'app si autenticherà sul tenant primario Microsoft Entra dell'utente guest e proverà ad aprire l'endpoint di Business Central su quel tenant anziché sul tuo.  
+          No. Gli utenti guest sono utenti invitati da un tenant Microsoft Entra diverso dal tuo. In questo caso, l'app si autenticherà sul tenant primario Microsoft Entra dell'utente guest e proverà ad aprire l'endpoint di Business Central su quel tenant anziché sul tuo.  
 additionalContent: |
 
   ## Vedere anche

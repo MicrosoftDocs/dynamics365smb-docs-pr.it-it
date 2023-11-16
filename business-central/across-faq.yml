@@ -86,7 +86,7 @@ sections:
       - question: |
           Devo acquistare Microsoft 365?
         answer: |
-          Nr. Se tuttavia desideri provare [!INCLUDE[prod_short](includes/prod_short.md)] in modo completamente integrato con Microsoft 365, puoi eseguire l'iscrizione per una versione di valutazione gratuita di 1 mese di Microsoft 365 [qui](https://products.office.com/try).  
+          No. Se tuttavia desideri provare [!INCLUDE[prod_short](includes/prod_short.md)] in modo completamente integrato con Microsoft 365, puoi eseguire l'iscrizione per una versione di valutazione gratuita di 1 mese di Microsoft 365 [qui](https://products.office.com/try).  
 
           Se accedi con un account aziendale non Microsoft 365 (come joe@mysolution.com) e disponi di un abbonamento a Microsoft 365, puoi associare il tuo dominio (*mysolution.com*) all'abbonamento a Microsoft 365. Ulteriori informazioni su [Informazioni su un dominio](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) nel contenuto Microsoft 365.  
 

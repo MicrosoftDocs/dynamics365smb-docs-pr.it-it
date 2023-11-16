@@ -123,7 +123,7 @@ Quando si creano ordini di assemblaggio, utilizzare le informazioni dalla Regist
 |Campo  |Valore da immettere  |
 |---------|---------|
 |Tipo |Articolo |
-|No. |Il numero dell'articolo originale. |
+|Nr. |Il numero dell'articolo originale. |
 |Quantità per |1 |
 |Cod. variante |Lo stesso della registrazione di inventario fisico. |
 |Cod. ubicazione |Lo stesso della registrazione di inventario fisico. |

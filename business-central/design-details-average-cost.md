@@ -69,10 +69,10 @@ La tabella seguente mostra i movimenti contabili per l'articolo di esempio costo
 
 | **Nr. Articolo** | **Cod. variante** | **Codice ubicazione** | **Data di valutazione** | **Costo rettificato** |
 |--|--|--|--|--|
-| ARTICOLO1 |  | BLU | 01-01-23 |   Nr. |
-| ARTICOLO1 |  | BLU | 02-01-23 |   Nr. |
-| ARTICOLO1 |  | BLU | 02-02-23 |   Nr. |
-| ARTICOLO1 |  | BLU | 02-03-23 |   Nr. |
+| ARTICOLO1 |  | BLU | 01-01-23 |   No |
+| ARTICOLO1 |  | BLU | 02-01-23 |   No |
+| ARTICOLO1 |  | BLU | 02-02-23 |   No |
+| ARTICOLO1 |  | BLU | 02-03-23 |   No |
 
  Nella tabella seguente vengono mostrati gli stessi movimenti contabili dopo che è stato eseguito il processo batch **Rettifica costo - Movimenti articoli**. Il costo medio giornaliero viene calcolato e applicato alle riduzioni del magazzino.  
 
@@ -109,8 +109,8 @@ Nella seguente tabella vengono mostrati i movimenti nella tabella **Rettifica co
 
 | **Nr. Articolo** | **Cod. variante** | **Codice ubicazione** | **Data di valutazione** | **Costo rettificato** |
 |--|--|--|--|--|
-| ARTICOLO1 |  | BLU | 01-31-23 |   Nr. |
-| ARTICOLO1 |  | BLU | 02-28-23 |   Nr. |
+| ARTICOLO1 |  | BLU | 01-31-23 |   No |
+| ARTICOLO1 |  | BLU | 02-28-23 |   No |
 
 > [!NOTE]  
 > La data di valutazione è impostata sull'ultimo giorno del costo medio del periodo, che in questo caso è l'ultimo giorno del mese.  
@@ -132,7 +132,7 @@ Per ottenere il costo medio per febbraio, [!INCLUDE [prod_short](includes/prod_s
 
 ## Impostazione della data di valutazione
 
- Il campo **Data valutazione** della tabella **Movimenti valorizzazione** determina il costo medio del periodo al quale la voce di dimuzione inventario appartiene. Questa impostazione si applica anche al magazzino dei semilavorati (WIP).  
+ Il campo **Data valutazione** della tabella **Movimenti valorizzazione** determina il costo medio del periodo al quale la voce di diminuzione inventario appartiene. Questa impostazione si applica anche al magazzino dei semilavorati (WIP).  
 
  Nella seguente tabella vengono mostrati i criteri utilizzati per impostare la data di valutazione.  
 

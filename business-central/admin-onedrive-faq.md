@@ -42,11 +42,11 @@ Sì, ma a differenza di [!INCLUDE[prod_short](includes/prod_short.md)] online, r
 
 ##  [!INCLUDE[prod_short](includes/prod_short.md)] on premises si collega con SharePoint Server?
 
-Nr. Questa combinazione di distribuzione non è supportata, anche se SharePoint Server ha abilitato My Sites.  
+No. Questa combinazione di distribuzione non è supportata, anche se SharePoint Server ha abilitato My Sites.  
 
 ##  [!INCLUDE[prod_short](includes/prod_short.md)] online si collega con SharePoint Server?
 
-Nr. Questa combinazione di distribuzione non è supportata, anche se SharePoint Server ha abilitato My Sites.  
+No. Questa combinazione di distribuzione non è supportata, anche se SharePoint Server ha abilitato My Sites.  
 
 ## Come funziona in un'organizzazione con più ambienti?
 
@@ -91,7 +91,7 @@ In Microsoft, i feedback della nostra variegata comunità di utenti vengono cost
 
 Se vuoi partecipare al miglioramento dell'integrazione di OneDrive, o hai un'idea che migliorerebbe la condivisione di file e la collaborazione in [!INCLUDE[prod_short](includes/prod_short.md)], aggiungi un'idea o vota le idee esistenti su [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## Troubleshooting
+## Risoluzione dei problemi
 
 Questa sezione fornisce informazioni su come identificare e risolvere i problemi che si possono verificare quando si usa OneDrive con [!INCLUDE[prod_short](includes/prod_short.md)].  
 

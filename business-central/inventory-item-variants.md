@@ -41,7 +41,7 @@ Nelle schede articolo, il campo **Variante obbligatoria se esistente** ha le seg
 |Valore campo |Descrizione|
 |---------|----|
 |Predefinito| L'impostazione di **Setup inventario** si applica a questo articolo.|
-|Nr.| Gli utenti non sono tenuti a specificare una variante per questo articolo.|
+|No| Gli utenti non sono tenuti a specificare una variante per questo articolo.|
 |Sì| Se l'articolo ha una o più varianti, gli utenti devono specificare la variante pertinente. In caso contrario, verrà impedito loro di registrare la transazione.|
 
 > [!NOTE]

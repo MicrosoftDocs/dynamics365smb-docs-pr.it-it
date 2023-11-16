@@ -29,8 +29,8 @@ La seguente tabella include le funzionalità supportate dai tre tipi dell'artico
 |Tipo di articolo|Vendite|Acquisti|Consumo per la commessa|Consumo di assistenza|Consumo assemblaggio|Consumo produzione|Output assemblaggio|Output produzione|Trasferimento ubicazione|Conteggio fisico|Rivalutazione del magazzino|Costing di magazzino|Tracciabilità articolo|Impegno|Gestione della warehouse|Piano|Pianificazione ordini|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Inventario|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|Sì|
-|Non magazzino|Sì|Sì|Sì|Sì|Sì|Sì|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Sì|
-|Assistenza|Sì|Sì|Sì|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Sì|
+|Non magazzino|Sì|Sì|Sì|Sì|Sì|Sì|No|No|No|No|No|No|No|No|No|No|Sì|
+|Assistenza|Sì|Sì|Sì|No|No|No|No|No|No|No|No|No|No|No|No|No|Sì|
 
 ## Metodi di costing per tipi di articoli
 Quando si registrano le transazioni di magazzino, le modifiche alle quantità e al valore del magazzino vengono registrate rispettivamente nei movimenti contabili articoli e nei movimenti di valorizzazione. 

@@ -42,11 +42,11 @@ Gli utenti hanno il diritto di accedere ai dati di [!INCLUDE [prod_short](includ
 |Cliente che accede al servizio Business Central |Accedi|
 |-|-|
 |App Business Central per Microsoft Teams|![Sì](media/check.png)|
-|Client Web Business Central |![Nr.](media/x-icon.png ) |
-|App per dispositivi mobili Business Central|![Nr.](media/x-icon.png )|
-|API Business Central|![Nr.](media/x-icon.png )|
-|Integrazioni di Business Central con altre applicazioni di Office|![Nr.](media/x-icon.png )|
-|Business Central integrato in altre applicazioni |![Nr.](media/x-icon.png )|
+|Client Web Business Central |![No](media/x-icon.png ) |
+|App per dispositivi mobili Business Central|![No](media/x-icon.png )|
+|API Business Central|![No](media/x-icon.png )|
+|Integrazioni di Business Central con altre applicazioni di Office|![No](media/x-icon.png )|
+|Business Central integrato in altre applicazioni |![No](media/x-icon.png )|
 
 ### Accesso ai dati
 
@@ -69,26 +69,26 @@ Funzionalità dell'app [!INCLUDE [prod_short](includes/prod_short.md)] per Teams
 |Aggiungere i dettagli come scheda |![Sì](media/check.png)|
 |Visualizzare le schede di [!INCLUDE [prod_short](includes/prod_short.md)]|![Sì](media/check.png)|
 |Aggiungere una scheda di [!INCLUDE [prod_short](includes/prod_short.md)]|![No_](media/x-icon.png )|
-|Cerca contatti aziendali |![Nr.](media/x-icon.png )|
-|Incollare e condividere un'anteprima del collegamento come scheda|![Nr.](media/x-icon.png )|
+|Cerca contatti aziendali |![No](media/x-icon.png )|
+|Incollare e condividere un'anteprima del collegamento come scheda|![No](media/x-icon.png )|
 
 Funzioni del client [!INCLUDE [prod_short](includes/prod_short.md)] integrato in Teams:
 
 |Funzione |Disponibile|Esempi di funzioni|
 |-|-|-|
-|Azioni del sistema di manipolazione dei dati |![Nr.](media/x-icon.png )|Modifica, crea, elimina|
+|Azioni del sistema di manipolazione dei dati |![No](media/x-icon.png )|Modifica, crea, elimina|
 |Funzioni di base negli elenchi|![Sì](media/check.png)|Cerca, ordina, modifica layout|
-|Funzioni avanzate negli elenchi|![Nr.](media/x-icon.png )|Riquadro filtri, viste|
+|Funzioni avanzate negli elenchi|![No](media/x-icon.png )|Riquadro filtri, viste|
 |Scorri dall'elenco alla scheda |![Sì](media/check.png)||
-|Accessi ai dati da tabelle correlate|![Nr.](media/x-icon.png )|Riquadro Dettaglio informazioni, drilldown campo, visualizzare, cercare |
-|Azioni|![Nr.](media/x-icon.png )|Barra delle azioni, menu delle azioni, azioni di notifica della pagina|
-|Scelte rapide a livello di sistema|![Nr.](media/x-icon.png )|Impostazioni personali, Esplora ruoli, ricerca Dimmi  |
+|Accessi ai dati da tabelle correlate|![No](media/x-icon.png )|Riquadro Dettaglio informazioni, drilldown campo, visualizzare, cercare |
+|Azioni|![No](media/x-icon.png )|Barra delle azioni, menu delle azioni, azioni di notifica della pagina|
+|Scelte rapide a livello di sistema|![No](media/x-icon.png )|Impostazioni personali, Esplora ruoli, ricerca Dimmi  |
 |Copia|![Sì](media/check.png)|Copia le righe, copia il valore del campo, copia il collegamento alla pagina|
-|Personalizzazione interfaccia utente|![Nr.](media/x-icon.png )|Personalizza| 
+|Personalizzazione interfaccia utente|![No](media/x-icon.png )|Personalizza| 
 |Personalizzazione incorporata|![Sì](media/check.png)|Ridimensiona colonna, Espandi/Comprimi, Mostra di più |
-|Condivisione dei dati |![Nr.](media/x-icon.png )|Apri o Modifica in Excel, Condividi in Teams|
+|Condivisione dei dati |![No](media/x-icon.png )|Apri o Modifica in Excel, Condividi in Teams|
 |Assistenza utente incorporata|![Sì](media/check.png) |Suggerimenti, collegamenti alla documentazione|
-|Assistenza utente avanzata |![Nr.](media/x-icon.png )|Suggerimenti didattici relativi a pagine e campi, riquadro della Guida|
+|Assistenza utente avanzata |![No](media/x-icon.png )|Suggerimenti didattici relativi a pagine e campi, riquadro della Guida|
 
 ## Requisiti minimi
 

@@ -101,12 +101,12 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 
     |Opzione|Descrizione|
     |-|-|
-    |Importo massimo No. di righe prelievo|Crea documenti di prelievo con un numero di righe in ogni documento non superiore a quello specificato.|
-    |Importo massimo No. di doc. origine prelievo|Crea documenti di prelievo che si riferiscono al numero di documenti origine specificato.|
+    |Importo massimo Nr. di righe prelievo|Crea documenti di prelievo con un numero di righe in ogni documento non superiore a quello specificato.|
+    |Importo massimo Nr. di doc. origine prelievo|Crea documenti di prelievo che si riferiscono al numero di documenti origine specificato.|
     |ID utente assegnato|Crea documenti di prelievo solo per le righe del prospetto assegnate all'impiegato warehouse selezionato.|
     |Metodo di ordinamento per righe di prelievo|Scegli una delle opzioni disponibili per ordinare le righe nel documento di prelievo creato.|
     |Impostare filtro breakbulk|Nasconde le righe prelievo di breakbulk intermedie quando un'unità di misura più grande viene convertita in un'unità di misura più piccola e completamente prelevata.|
-    |Qtà da gestire non compilata|Lascia il campo **Qtà. da gestire** vuoto nelle righe di prelievo create.|
+    |Qtà da gestire non compilata|Lascia il campo **Qtà da gestire** vuoto nelle righe di prelievo create.|
     |Stampa prelievo|Stampa i documenti di prelievo al momento della creazione. È inoltre possibile stampare dai documenti di prelievo creati.|
 
 8. Scegli il pulsante **OK**.  
