@@ -12,11 +12,11 @@ ms.date: 09/27/2021
 ms.author: bholtorf
 ---
 
-# Risoluzione dei problemi e correzione delle dimensioni
+# <a name="troubleshooting-and-correcting-dimensions"></a>Risoluzione dei problemi e correzione delle dimensioni
 
 Le visualizzazioni analisi e i report finanziari spesso si basano sui dati delle dimensioni. Nonostante le misure di sicurezza disponibili, a volte accade un errore che può portare a imprecisioni. Questo argomento descrive alcuni degli errori tipici e descrive come correggere le assegnazioni di dimensioni sulle transazioni registrate in modo che i report finanziari siano accurati.
 
-## Risoluzione dei problemi relativi alle dimensioni
+## <a name="troubleshooting-dimensions-errors"></a>Risoluzione dei problemi relativi alle dimensioni
 
 Quando si registrano documenti o righe di registrazione che contengono dimensioni, possono verificarsi vari errori che, tuttavia sono relativi a un'errata impostazione o assegnazione di dimensioni.
 
@@ -38,21 +38,21 @@ Quando si registrano documenti o righe di registrazione che contengono dimension
 |Valore di dimensione non previsto per la dimensione di default in cui il campo **Registrazione valore** contiene **Nessun Cod.**|-%1 %2 non deve essere nominato.<br />-%1 %2 non deve essere nominato per %3 %4.|- Modificare il campo **Registrazione valore** nella pagina **Dimensione di default**.<br />- Rimuovere la riga in conflitto dal set di dimensioni.|
 |Una correzione dimensionale non viene completata correttamente.||-Scegli **Ripristina** per riportare la correzione allo stato di bozza. Ciò ripristina le modifiche e puoi eseguire nuovamente la correzione.|
 
-## Modifica delle assegnazioni delle dimensioni dopo la registrazione
+## <a name="changing-dimension-assignments-after-posting"></a>Modifica delle assegnazioni delle dimensioni dopo la registrazione
 
 Se scopri che è stata utilizzata una dimensione errata nei movimenti di contabilità generale registrati, puoi correggere i valori delle dimensioni e aggiornare le visualizzazioni di analisi. Ciò contribuirà a mantenere accurati i rapporti e le analisi finanziarie.
 
 > [!IMPORTANT]
 > Le funzioni per la correzione delle dimensioni hanno il solo scopo di contribuire a rendere accurato il reporting finanziario. Le correzioni delle dimensioni si applicano solo alle voci C/G. Non modificano le dimensioni assegnate alle voci in altri libri mastri per la stessa transazione. Ci sarà una mancata corrispondenza tra le dimensioni assegnate nella contabilità generale e nei movimenti inventario secondari.
 
-### Configurazione delle dimensioni delle correzioni
+### <a name="setting-up-dimension-corrections"></a>Configurazione delle dimensioni delle correzioni
 
 Ci sono due cose da considerare quando si impostano le correzioni delle dimensioni:
 
 * Ci sono dimensioni che non vuoi che le persone cambino? Nella pagina **Impostazioni correzione quota**, specifica le dimensioni che desideri bloccare per le modifiche.
 * A chi vuoi consentire di modificare le dimensioni? Per consentire alle persone di apportare modifiche, assegna l'autorizzazione **CORREZIONE DIM D365** agli utenti. Le autorizzazioni consentono loro di creare correzioni delle dimensioni, eseguirle e annullarle se necessario. Potranno anche specificare le dimensioni bloccate. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md). 
 
-### Correzione di una dimensione
+### <a name="correcting-a-dimension"></a>Correzione di una dimensione
 
 È possibile selezionare manualmente uno o più movimenti di contabilità generale oppure utilizzare i filtri per selezionare gruppi di movimenti. Se necessario, puoi anche aggiungere o eliminare dimensioni. 
 
@@ -82,42 +82,42 @@ Ci sono due cose da considerare quando si impostano le correzioni delle dimensio
 5. Per convalidare la correzione, scegli **Convalida le modifiche alle dimensioni**. Per ulteriori informazioni, vedi [Convalida delle correzioni delle dimensioni](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Scegli **Esegui**.
 
-### Convalida delle correzioni delle dimensioni
+### <a name="validating-dimension-corrections"></a>Convalida delle correzioni delle dimensioni
 
 Prima di eseguire una correzione, è una buona idea convalidarla. La convalida controlla le restrizioni sulla registrazione del valore per i conti C/G, le restrizioni per le dimensioni e se i valori delle dimensioni sono bloccati. Durante la convalida, lo stato della correzione è impostato su **Convalida in corso**. Dopo aver convalidato una correzione, il risultato viene visualizzato nel campo **Stato di convalida**. Se sono stati rilevati errori, è possibile utilizzare l'azione **Visualizza errori** per indagare su di loro. Dopo aver corretto un errore, è necessario utilizzare l'azione **Riapri** per eseguire la correzione o una nuova convalida.
 
 Puoi eseguire una correzione immediatamente o programmarne l'esecuzione in un secondo momento. Se stai eseguendo correzioni su un set di dati di grandi dimensioni, ti consigliamo di pianificarne l'esecuzione al di fuori dell'orario di lavoro. Per ulteriori informazioni, vedi [Correzioni delle dimensioni su set di dati di grandi dimensioni](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### Annullamento di una correzione
+### <a name="undoing-a-correction"></a>Annullamento di una correzione
 
 Dopo aver corretto una dimensione, se non ti piace quello che vedi puoi usare l'azione **Annulla** per ripristinare il valore precedente. Tuttavia, puoi annullare solo la correzione più recente. Prima di annullare una correzione, puoi convalidare le modifiche che verranno apportate dall'annullamento. Ad esempio, ciò è utile se le restrizioni sulle dimensioni sono cambiate dopo la correzione.
 
 Se l'azione Annulla non è disponibile, ad esempio perché sono state apportate molte correzioni, è possibile utilizzare l'azione **Copia in bozza** per avviare una nuova correzione per le stesse voci.
 
-### Correzioni dimensionali su set di dati di grandi dimensioni
+### <a name="dimension-corrections-on-large-data-sets"></a>Correzioni dimensionali su set di dati di grandi dimensioni
 
 Prestare attenzione quando si correggono set di voci di grandi dimensioni, ad esempio set che includono più di 10.000 voci. Se puoi, ti consigliamo di utilizzare i filtri per eseguire le correzioni su set di dati di dimensioni più piccole. È anche una buona idea eseguire le correzioni al di fuori del normale orario lavorativo. 
 
-### Utilizzare le visualizzazioni delle analisi con correzioni delle dimensioni
+### <a name="use-analysis-views-with-dimension-corrections"></a>Utilizzare le visualizzazioni delle analisi con correzioni delle dimensioni
 
 Se **Aggiorna in registrazione** è abilitata per una visualizzazione analisi, [!INCLUDE[prod_short](includes/prod_short.md)] può visualizzare quando vengono registrati documenti e giornali. Puoi inoltre aggiornare le viste con questa impostazione abilitata con i risultati delle correzioni delle dimensioni. A tale scopo, attivare il toggle **Aggiorna visualizzazione analisi**. L'aggiornamento delle visualizzazioni delle analisi può influire sulle prestazioni, soprattutto per set di dati di grandi dimensioni, quindi si consiglia di aggiornare le visualizzazioni di analisi solo per set di dati di piccole dimensioni.  
 
-### Visualizzazione delle correzioni delle dimensioni storiche
+### <a name="viewing-historical-dimension-corrections"></a>Visualizzazione delle correzioni delle dimensioni storiche
 
 Se un movimento di contabilità generale è stato corretto, è possibile esaminare la modifica utilizzando l'azione **Storia delle correzioni dimensionali**.
 
-### Gestione delle correzioni incomplete
+### <a name="handling-incomplete-corrections"></a>Gestione delle correzioni incomplete
 
 Se una correzione non viene completata, verrà visualizzato un avviso sulla scheda di correzione. In tal caso, puoi utilizzare l'azione **Ripristina** per riportare la correzione allo stato di bozza e annullare le modifiche. È quindi possibile eseguire nuovamente la correzione.
 
 > [!NOTE]
 > La reimpostazione di una correzione incompleta non influirà sugli aggiornamenti alle visualizzazioni dell'analisi perché questi si verificano alla fine del processo di correzione.
 
-### Utilizzare la contabilità industriale con movimenti C/G corretti
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Utilizzare la contabilità industriale con movimenti C/G corretti
 
 Dopo aver corretto le dimensioni, i dati per la contabilità dei costi non saranno sincronizzati. La contabilità industriale utilizza le dimensioni per aggregare gli importi per i centri di costo e gli oggetti di costo e per eseguire le allocazioni dei costi. La modifica delle dimensioni per i movimenti C/G comporterà probabilmente la riesecuzione dei modelli di contabilità industriale. Se è necessario eliminare solo alcuni registri dei costi e rieseguire le allocazioni o è necessario eliminare tutto e rieseguire tutti i modelli dipende dai dati che sono stati aggiornati e da come sono impostate le capacità di contabilità dei costi. È necessario identificare manualmente dove le correzioni delle dimensioni avranno un impatto sulla contabilità dei costi e dove sono necessari aggiornamenti. [!INCLUDE[prod_short](includes/prod_short.md)] attualmente non fornisce un modo automatizzato per farlo.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Usare le dimensioni](finance-dimensions.md)  
 [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)  

@@ -10,7 +10,7 @@ ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Utilizzare gli ordini di vendita programmati o gli ordini di acquisto programmati
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Utilizzare gli ordini di vendita programmati o gli ordini di acquisto programmati
 
 Un ordine di vendita programmato rappresenta la struttura di un accordo a lungo termine fra la società e un cliente. Allo stesso modo, utilizzare gli ordini di acquisto programmati per gestire contratti a lungo termine tra l'utente e il fornitore.
 
@@ -23,7 +23,7 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 > [!NOTE]
 > Gli ordini di acquisto programmati sono simili agli ordini di vendita programmati. In questa documentazione vengono descritti solo gli ordini di vendita programmati.
 
-## Per creare un ordine di vendita programmato
+## <a name="to-create-a-blanket-sales-order"></a>Per creare un ordine di vendita programmato
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -31,7 +31,7 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 4. Lasciare vuoto il campo **Data ordine**. Quando vengono creati i diversi ordini di vendita dall'ordine programmato, la data dell'ordine di vendita viene impostata sulla data del lavoro effettiva.
 5. Nella Scheda dettaglio **Righe** creare righe separate per ogni spedizione. Se, ad esempio, un cliente desidera che 1000 unità vengano divise equamente per quattro settimane, immettere quattro righe separate, ognuna per 250 unità.  
 
-## Per creare un ordine di vendita da un ordine di vendita programmato  
+## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Per creare un ordine di vendita da un ordine di vendita programmato
 
 1. Per creare un ordine per una delle righe nell'ordine di vendita programmato, rimuovere la quantità dal campo **Qtà da spedire** di tutte le righe che al momento non si desidera spedire.  
 2. Per creare gli ordini, scegliere l'azione **Crea ordine** e quindi **Sì**. Verrà visualizzato un messaggio che informa che all'ordine programmato è stato assegnato un numero di ordine. Si osservi che l'ordine programmato non è stato eliminato.  
@@ -50,7 +50,7 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 - L'ordine di vendita programmato fatturato rimane nel sistema fino a quando non viene eliminato, eliminando i singoli ordini programmati o eseguendo il processo batch **Elimina ord. ven. progr. fatt.**.  
 - Se un cliente è anche registrato come contatto nell'area di applicazione Marketing ed è stato specificato un codice modello di interazione per l'ordine di vendita programmato nella pagina **Setup marketing**, viene registrata un'interazione nella tabella Mov. log interazione quando si seleziona **Stampa** per stampare l'ordine di vendita programmato.
 
-## Per visualizzare lo stato di un ordine di vendita programmato
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Per visualizzare lo stato di un ordine di vendita programmato
 
 È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche ordini vendita programmati**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di vendita programmato.  
 
@@ -63,7 +63,7 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 - Nella Scheda dettaglio **Pagamento anticipato** è possibile visualizzare informazioni di riepilogo relative agli importi prepagati.  
 - Nella Scheda dettaglio **Fornitore** è possibile visualizzare le informazioni principali relative al fornitore.
 
-## Per visualizzare le righe degli ordini di vendita programmati registrate e non registrate
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Per visualizzare le righe degli ordini di vendita programmati registrate e non registrate
 
 Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di origine ed eventuali altri documenti di vendita, viene mantenuto dopo la registrazione come lista delle righe della fattura di vendita registrate e non registrate.  
 
@@ -89,7 +89,7 @@ Il collegamento tra l'ordine di vendita programmato e l'ordine di vendita di ori
 
 5. Nella pagina **Righe acquisto** scegliere l'azione **Mostra documento** per visualizzare il movimento.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Creare ordini di assemblaggio programmati](assembly-how-to-create-blanket-assembly-orders.md)  

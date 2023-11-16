@@ -11,7 +11,7 @@ ms.search.form: '10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646'
 ms.date: 09/04/2023
 ms.custom: bap-template
 ---
-# Creare depositi bancari
+# <a name="create-bank-deposits"></a>Creare depositi bancari
 
 > [!NOTE]
 > La possibilità di creare depositi bancari è una novità del primo ciclo di rilascio del 2022 di Business Central per molte versioni per paesi/aree geografiche. Se utilizzavi Business Central negli Stati Uniti, in Canada o in Messico prima di tale versione, puoi usare le funzionalità precedenti. Puoi continuare, ma le nuove funzionalità sostituiranno quelle precedenti in una versione futura. Per iniziare a utilizzare le nuove funzionalità descritte in questo articolo, l'amministratore può accedere alla pagina **Gestione funzionalità** e accendere ad **Aggiornamento delle funzionalità: riconciliazione e depositi bancari standardizzati**.  
@@ -30,17 +30,17 @@ Dopo aver compilato le informazioni e le righe sul deposito, è necessario regis
 
 Il report **Deposito bancario** mostra i depositi di clienti e fornitori con l'importo del deposito originale, l'importo del deposito che rimane aperto e l'importo applicato. Il rapporto mostra anche l'importo totale del deposito registrato da riconciliare.
 
-## Operazioni preliminari
+## <a name="before-you-start"></a>Operazioni preliminari
 
 Ci sono alcune cose da impostare prima di poter utilizzare i depositi bancari. È necessario disporre di una numerazione e di un modello di giornale di registrazione generale pronto. È inoltre necessario specificare se registrare gli importi dei depositi bancari in un'unica soluzione. Cioè, come totale di tutti gli importi sulle righe di deposito. In caso contrario, ogni riga viene registrata come voce singola. La registrazione di un deposito come un unico movimento contabile bancario può semplificare la riconciliazione bancaria.
 
-### Numerazione e depositi forfettari
+### <a name="number-series-and-lump-sum-deposits"></a>Numerazione e depositi forfettari
 
 È necessario impostare una numerazione per i depositi bancari, quindi specificare la numerazione nel campo **Nr. depositi bancari** della pagina **Setup contabilità clienti**. Per ulteriori informazioni sulla numerazione, vai a [Creazione di numeri](ui-create-number-series.md).
 
 Sempre nella pagina **Setup contabilità clienti** per registrare i depositi come somme forfettarie anziché come singole righe, attiva l'interruttore **Registra depositi bancari come somma forfettaria**. La registrazione di un deposito come somma forfettaria, che crea un movimento contabile bancario per l'intero importo del deposito, può semplificare la riconciliazione bancaria.
 
-### Definizione registrazioni COGE per depositi bancari
+### <a name="general-journal-templates-for-bank-deposits"></a>Definizione registrazioni COGE per depositi bancari
 
 È inoltre necessario creare una definizione registrazioni COGE per i depositi. I giornali di registrazione generali vengono utilizzati per registrare i movimenti in conti bancari, clienti, fornitori, cespiti e contabilità generale. Le definizioni registrazioni progettano le registrazioni COGE in base allo scopo del tuo lavoro. Cioè, i campi della definizione registrazioni sono esattamente quelli di cui hai bisogno.
 
@@ -48,14 +48,14 @@ I depositi saranno ricevute di cassa, quindi potresti voler riutilizzare le tue 
 
 Dovrai anche creare un processo batch per il modello. Per creare un processo batch, nella pagina **Definizioni registrazioni COGE**, scegli l'azione **Batch**. Per ulteriori informazioni sui batch, vai a [Utilizzo di batch e definizioni di registrazioni](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## Dimensioni nelle righe di deposito bancario
+## <a name="dimensions-on-bank-deposit-lines"></a>Dimensioni nelle righe di deposito bancario
 
 Le righe sul deposito bancario utilizzeranno automaticamente le dimensioni predefinite specificate nei campi **Codice reparto** e **Codice gruppo di clienti**. Quando scegli **Cliente** o **Fornitore** nel campo **Tipo di account**, le dimensioni specificate per il cliente o il fornitore sostituiranno le impostazioni predefinite. Puoi modificare le dimensioni nelle righe in base alle esigenze.
 
 > [!TIP]
 > Le dimensioni nelle linee vengono impostate in base alle priorità delle dimensioni predefinite. Le dimensioni della riga sono prioritarie rispetto alle dimensioni dell'intestazione. Per evitare conflitti, puoi creare regole che stabiliscono la priorità quando utilizzare una dimensione a seconda dell'origine. Se desideri modificare la priorità delle dimensioni, puoi modificare le classifiche nella pagina **Priorità dimensione predefinita**. Per ulteriori informazioni, vedi [Per impostare priorità nelle dimensioni predefinite](finance-dimensions.md#to-set-up-default-dimension-priorities).
 
-## Creare un deposito bancario
+## <a name="create-a-bank-deposit"></a>Creare un deposito bancario
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Depositi bancari**, quindi scegli il collegamento correlato.
 2. Scegli **Nuovo** per aprire la pagina **Deposito bancario**.
@@ -96,13 +96,13 @@ Le righe sul deposito bancario utilizzeranno automaticamente le dimensioni prede
     > [!TIP]
     > Prima di registrare il deposito puoi utilizzare l'azione **Report test** per rivedere i tuoi dati. Il rapporto mostrerà se ci sono problemi, come dati mancanti, che impediscono la registrazione.  
 
-## Ricerca dei depositi bancari registrati
+## <a name="find-posted-bank-deposits"></a>Ricerca dei depositi bancari registrati
 
 La pagina **Depositi bancari registrati** elenca i depositi precedenti della tua azienda. Nell'elenco è possibile rivedere i commenti e le dimensioni specificati per i depositi. Puoi aprire il deposito bancario per visualizzare maggiori dettagli e puoi indagare ulteriormente. Ad esempio, è possibile scegliere l'azione **Trova movimenti** per visualizzare i movimenti contabili bancari registrati. Dal movimento contabile bancario, puoi trovare il corrispondente movimento di contabilità generale registrato.
 
 Se vuoi cercare tutti i movimenti di contabilità generale per le righe di deposito registrate, vai alla pagina **Registro C/G** e utilizza l'azione **Contabilità generale**. Troverai tutti i movimenti di contabilità generale, inclusi i movimenti per clienti e fornitori.
 
-## Storno di un deposito bancario registrato
+## <a name="reverse-a-posted-bank-deposit"></a>Storno di un deposito bancario registrato
 
 Esistono un paio di modi per stornare un deposito bancario registrato:
 
@@ -112,7 +112,7 @@ Esistono un paio di modi per stornare un deposito bancario registrato:
 > [!NOTE]
 > È possibile stornare solo un registro che contiene un solo tipo di voce. Cioè, il registro deve contenere solo voci cliente o voci fornitore, ma non entrambe. Se un registro contiene entrambi è necessario stornare manualmente il deposito.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance.md)  

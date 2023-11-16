@@ -12,7 +12,7 @@ ms.date: 10/03/2023
 ms.author: altotovi
 ---
 
-# Utilizzare documenti elettronici in vendite e acquisti
+# <a name="use-e-documents-in-sales-and-purchases"></a>Utilizzare documenti elettronici in vendite e acquisti
 
 Puoi utilizzare documenti elettronici configurati con documenti di vendita e di acquisto.
 
@@ -28,13 +28,13 @@ Attualmente puoi utilizzare i seguenti documenti per i documenti elettronici:
 
 Attualmente, un ordine di acquisto può essere utilizzato solo quando crei il documento dal documento elettronico del tuo fornitore. Tuttavia, non puoi aggiornare il documento esistente con le righe ricevute dal tuo fornitore.
 
-## Documenti elettronici per le vendite
+## <a name="e-documents-in-sales"></a>Documenti elettronici per le vendite
 
 Per creare e inviare una fattura elettronica a un cliente, devi creare e registrare la fattura di vendita. Per ulteriori informazioni sul processo standard, consulta [Fatturare le vendite](sales-how-invoice-sales.md).
 
 Dopo aver registrato il documento di vendita, apri la pagina **Fattura di vendita registrata** per accedere alla pagina  **Documento elettronico** correlata.
 
-### Visualizzare documenti elettronici
+### <a name="view-e-documents"></a>Visualizzare documenti elettronici
 
 Per visualizzare i documenti elettronici esistenti, procedi come segue.
 
@@ -43,7 +43,7 @@ Per visualizzare i documenti elettronici esistenti, procedi come segue.
 3. Il campo **Record** mostra il numero del documento della fattura di vendita registrata. Seleziona il collegamento per aprire il documento.
 4. Nel campo **Stato del documento elettronico** puoi visualizzare lo stato in tempo reale del documento e la relativa posizione nella pipeline del processo. Se il documento è stato registrato, lo stato è **Elaborato**.
 
-### Log e stati dei documenti elettronici
+### <a name="e-document-statuses-and-logs"></a>Log e stati dei documenti elettronici
 
 Per dettagli sul livello di stato del servizio del documento elettronico, consulta la Scheda dettaglio **Stato del servizio documenti elettronici**. Nelle righe il sistema mostra uno o più servizi utilizzati dal documento. Nello scenario più comune, ogni documento utilizza un solo servizio. Tuttavia, un documento può utilizzare più servizi.
 
@@ -67,11 +67,11 @@ Se c'è un problema con il provider del servizio e il documento non può essere 
 
 Una volta risolto il problema, esegui manualmente le azioni **Invia documento**. Se hai bisogno di azioni diverse, come ad esempio **Documento ricreato**, **Annulla documento**, o **Ottieni approvazione**, puoi eseguirle.
 
-## Documenti elettronici per gli acquisti
+## <a name="e-documents-in-purchases"></a>Documenti elettronici per gli acquisti
 
 La ricezione delle fatture elettroniche di acquisto in Dynamics 365 Business Central può essere effettuata come processo batch o manualmente.
 
-### Eseguire il processo batch
+### <a name="run-the-batch-job"></a>Eseguire il processo batch
 
 > [!NOTE]
 > Questo processo batch è usato per la raccolta automatizzata delle fatture in entrata. Può funzionare solo in un paese o in un'area in cui esiste la funzionalità.
@@ -95,7 +95,7 @@ Vi sono due errori comuni:
 
 Dopo aver corretto gli errori e gli avvisi, puoi specificare manualmente quando il sistema deve creare una fattura di acquisto in base alla tua impostazione selezionando **Crea documento**.
 
-### Importare manualmente le fatture
+### <a name="manually-import-invoices"></a>Importare manualmente le fatture
 
 Per importare manualmente documenti elettronici esterni, procedi come segue.
 
@@ -106,7 +106,7 @@ Per importare manualmente documenti elettronici esterni, procedi come segue.
 5. Una volta risolti i problemi, nel gruppo **Importa manualmente**, seleziona **Crea documento**.
 6. Dopo aver creato il documento in Business Central, puoi visualizzarlo esattamente come se si utilizzasse un processo batch.
 
-## Panoramica degli stati dei documenti elettronici
+## <a name="overview-of-e-document-statuses"></a>Panoramica degli stati dei documenti elettronici
 
 Per avere una migliore panoramica di tutti i documenti elettronici nella società, puoi selezionare la gestione ruolo utente **Contabile** dove esistono gli stati dei documenti elettronici. Qui puoi trovare le attività relative ai documenti elettronici che hanno i seguenti stati:
 
@@ -122,7 +122,7 @@ Per avere una migliore panoramica di tutti i documenti elettronici nella societ�
     - In corso
     - Errore
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Come impostare documenti elettronici in Business Central](finance-how-setup-edocuments.md)  
 [Come estendere documenti elettronici in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

@@ -11,13 +11,13 @@ ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022
 ms.author: bholtorf
 ---
-# Analisi degli importi effettivi e degli importi di budget
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analisi degli importi effettivi e degli importi di budget
 
 Come parte della raccolta, dell'analisi e della condivisione dei dati della società, si visualizzano gli importi effettivi rispetto agli importi di budget per tutti i conti e per diversi periodi.
 
 Per analizzare gli importi di budget, è prima necessario creare budget di contabilità generale (C/G). Per ulteriori informazioni, vedi [Creare budget C/G](finance-how-create-budgets.md).
 
-## Visualizzare un budget C/G
+## <a name="view-a-gl-budget"></a>Visualizzare un budget C/G
 
 In un budget per cui siano state impostate delle dimensioni è possibile filtrare i movimenti e visualizzare budget specifici.
 
@@ -34,7 +34,7 @@ In un budget per cui siano state impostate delle dimensioni è possibile filtrar
 > [!TIP]  
 > Utilizza l'azione **Modifica budget** per modificare il budget. Nel riquadro budget, scegli un importo per visualizzare i movimenti del budget della contabilità generale sottostanti.
 
-## Visualizzare gli importi effettivi e preventivati di tutti i conti
+## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Visualizzare gli importi effettivi e preventivati di tutti i conti
 
 È possibile visualizzare budget di contabilità generale e confrontarli con le cifre effettive in diverse aree di [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -51,7 +51,7 @@ Le colonne a sinistra contengono il piano dei conti. Delle quattro colonne sulla
 > [!TIP]  
 > Utilizzare il campo **Visualizza per** nella pagina **Saldo budget C/G** per selezionare la durata del periodo. Utilizza il campo **Visualizza come** per selezionare la modalità di calcolo degli importi, **Saldo periodo** o **Saldo alla data**. Scegliere l'azione **Periodo precedente** o **Periodo successivo** per modificare il periodo.  
 
-## Per visualizzare importi effettivi e preventivati per più periodi  
+## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Per visualizzare importi effettivi e preventivati per più periodi
 
 Oltre a visualizzare importi effettivi e preventivati di tutti i conti all'interno di un unico periodo è possibile visualizzare un certo numero di periodo per un unico conto.  
 
@@ -60,7 +60,7 @@ Oltre a visualizzare importi effettivi e preventivati di tutti i conti all'inter
 3. Nella scheda dettaglio **Opzioni**, compila i campi secondo le necessità per definire cosa viene visualizzato nella tabella.  
 4. Nella scheda dettaglio **Righe** passa il mouse su un campo della tabella per leggere una breve descrizione dell'importo visualizzato.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Business Intelligence finanziario](bi.md)  
 [Usare i report finanziari](bi-how-work-account-schedule.md)  
