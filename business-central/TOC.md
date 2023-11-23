@@ -116,13 +116,6 @@
 ### [Risoluzione dei problemi relativi all'iscrizione self-service](ui-troubleshoot-self-signup.md)
 ### [Estendere la versione di valutazione](admin-extend-trial.md)
 ### [Annullare la sottoscrizione o rimuovere Business Central](admin-cancel.md)
-### Testo del marketing articolo basato su intelligenza artificiale con Copilot
-#### [Panoramica](ai-overview.md)
-#### [Ottenere la versione di anteprima](ai-preview-getstarted.md)
-#### [Configurare il testo del marketing articolo basato su intelligenza artificiale](enable-ai.md)
-#### [Creare il testo del marketing articolo basato su intelligenza artificiale](item-marketing-text.md)
-#### [Domande frequenti](ai-faq.md)
-
 ## Acquistare
 ### [Introduzione a una sottoscrizione](trial-signup.md#get-started-with-a-subscription)
 ### [Preparazione al business](ui-get-ready-business.md)
@@ -283,7 +276,7 @@
 #### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 ##### [Impostare il servizio rendiconti bancari](bank-how-setup-bank-statement-service.md)
-##### [Impostare i conti bancari](bank-how-setup-bank-accounts.md)
+##### [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)
 ##### [Usare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
 
 #### Scambiare dati
@@ -379,6 +372,7 @@
 ### Riconciliare i conti correnti bancari
 #### [Panoramica della riconciliazione bancaria](bank-manage-bank-accounts.md)
 #### [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)
+#### [Riconciliare i conti correnti bancari con Copilot (anteprima)](bank-reconciliation-with-copilot.md)
 #### [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Gestire le transazioni intercompany
@@ -1536,7 +1530,7 @@
 #### [Usare le chiavi di allocazione nelle registrazioni COGE](ui-how-use-allocation-keys-general-journals.md)
 ### Impostare le attività bancarie
 #### [Impostare le attività bancarie](bank-setup-banking.md)
-#### [Impostare i conti bancari](bank-how-setup-bank-accounts.md)
+#### [Impostare i conti correnti bancari](bank-how-setup-bank-accounts.md)
 #### [Impostare il servizio di Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
 #### [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 #### [Selezionare un layout degli assegni](finance-how-define-check-layouts.md)
@@ -1577,7 +1571,6 @@
 #### [Impostare le unità di stockkeeping](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Classificare gli articoli](inventory-how-categorize-items.md)
 #### [Importare più immagini articolo](inventory-how-import-item-pictures.md)
-#### [Configurare testo del marketing articolo basato su intelligenza artificiale con Copilot](enable-ai.md)
 ### Impostare la gestione dei progetti
 #### [Impostare i progetti](projects-setup-projects.md)
 #### [Impostare le risorse](projects-how-setup-resources.md)
@@ -1841,6 +1834,17 @@
 #### [Guida allo sviluppo del report](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Guida all'ottimizzazione delle prestazioni del report](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Funzionalità di Copilot e IA
+## Gestire le funzionalità di Copilot e IA
+### [Configurare le funzionalità di Copilot e IA](enable-ai.md)
+### [Spostamento dei dati di Copilot tra aree geografiche](ai-copilot-data-movement.md)
+## Assistenza per la riconciliazione dei conti correnti bancari (anteprima)
+### [Riconciliare i conti correnti bancari con Copilot](bank-reconciliation-with-copilot.md)
+### [Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari](faqs-bank-reconciliation.md)
+## Suggerimenti di testo di marketing
+### [Panoramica dei suggerimenti di testo di marketing](ai-overview.md)
+### [Creare testo di marketing con Copilot](item-marketing-text.md)
+### [Domande frequenti sui suggerimenti di testo di marketing](faqs-marketing-text.md)
 
 # Sicurezza, privacy e conformità
 ## Sicurezza e protezione
@@ -1894,6 +1898,7 @@
 ### [Abilitare nuove funzionalità in anticipo](admin-feature-management.md)
 ### [Aggiungere utenti con elenchi di controllo](admin-checklist.md)
 ### [Ambienti sandbox](admin-sandbox-environments.md)
+## [Funzionalità di Copilot e IA](enable-ai.md)
 ## Personalizzare Business Central
 ### [Panoramica della personalizzazione](ui-customizing-overview.md)
 ### [Personalizzare le pagine per profili](ui-personalization-manage.md)
@@ -1926,20 +1931,20 @@
 #### [US/CA/UK/AU/NZ/ZA - Invio dell'avviso di rimessa](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Estensioni per Business Central fornite da altri provider](ui-extensions-other.md)
-## Integrazione con Dynamics 365 Sales
-### [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrazione con altre applicazioni Dynamics 365
+### [Integrazione con Dynamics 365 Sales tramite la sincronizzazione dei dati](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrazione con Microsoft Dataverse
-### [Integrazione con Microsoft Dataverse](admin-common-data-service.md)
-### [Modelli di proprietà dei dati](admin-cds-company-concept.md)
-### [Impostare account utente per l'integrazione con Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
-### [Connettersi a Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrazione con Dataverse tramite la sincronizzazione dei dati](admin-common-data-service.md)
+### [Modelli di proprietà dei dati per la sincronizzazione](admin-cds-company-concept.md)
+### [Impostare account utente per l'integrazione di Dataverse tramite la sincronizzazione dei dati](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connettersi a Dataverse per la sincronizzazione dei dati](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Sincronizzare Business Central e Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Mappare le tabelle e i campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Sincronizzare manualmente i mapping di tabella](admin-manual-synchronization-of-table-mappings.md)
 ### [Programmare una sincronizzazione](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Risolvere errori di sincronizzazione](admin-troubleshoot-sales-synchronization.md)
-### [Usare un flusso Power Automate per gli avvisi in caso di modifiche alle entità Dataverse](admin-power-automate-flow-dataverse.md)
-## Sincronizzare i dati master tra le società
+### [Usare un flusso Power Automate per sincronizzare tempestivamente le modifiche alle entità Dataverse](admin-power-automate-flow-dataverse.md)
+## Sincronizzare i dati master tra società
 ### [Preparazione alla sincronizzazione dei dati master](admin-set-up-data-sync.md)
 ### [Gestire la sincronizzazione dei dati master](admin-sync-master-data.md)
 ## Dettagli di progettazione
@@ -2019,3 +2024,7 @@
 ## [Sicurezza e protezione](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Prestazioni](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Funzionalità rimosse o deprecate](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# IA responsabile
+## [Panoramica](responsible-ai-overview.md)
+## [Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari (anteprima)](faqs-bank-reconciliation.md)
+## [Domande frequenti sui suggerimenti di testo di marketing](faqs-marketing-text.md)

@@ -9,11 +9,11 @@ ms.date: 03/08/2023
 ms.custom: bap-template
 ms.search.form: '15, 5703, 7302, 7332, 5768'
 ---
-# <a name="cross-dock-items"></a>Sottoporre gli articoli a cross-dock
+# Sottoporre gli articoli a cross-dock
 
 Gli articoli cross-dock sono articoli che ricevi e spedisci senza stoccarli. I processi di stoccaggio e prelievo richiedono una gestione limitata degli articoli. È possibile sottoporre gli articoli a cross-dock per le spedizioni e per gli ordini di produzione.
 
-## <a name="cross-dock-bins-and-zones"></a>Zone e collocazioni cross-dock
+## Zone e collocazioni cross-dock
 
 Se utilizzi le collocazioni, imposta almeno una collocazione cross-dock, quindi specifica la collocazione nel campo **Codice collocazione cross-dock** sulle tue ubicazioni. Se utilizzi stoccaggi e prelievi diretti, configura una zona di cross-dock.
 
@@ -21,13 +21,13 @@ Quando prepari una spedizione o prelevi gli articoli per la produzione e usi le 
 
 Se sono state calcolate le quantità di cross-dock, durante la registrazione del carico vengono create delle righe di stoccaggio nella collocazione di cross-docking per i calcoli di cross-docking. Le altre righe di stoccaggio vengono create seguendo la normale procedura.  
 
-## <a name="cross-dock-select-lines-for-a-receipt"></a>Righe cross-dock selezionate per una ricevuta
+## Righe cross-dock selezionate per una ricevuta
 
 Se si desidera registrare gli articoli di cross-docking immediatamente in modo da renderli disponibili per il prelievo, è necessario registrare anche uno stoccaggio per i rimanenti articoli della riga di carico, ovvero quelli che devono essere effettivamente posti a magazzino. Se si sottopone a cross-dock solo alcuni articoli di una riga di carico, è quindi necessario stoccare gli articoli rimanenti il più rapidamente possibile. In alternativa, è possibile impostare criteri di logistica di warehouse che favoriscano il cross-dock di intere righe di carico ogni qualvolta possibile.
 
 Nell'istruzione di stoccaggio, elimina le righe dell'istruzione Prendere e Mettere per ciascuna riga di carico degli articoli da stoccare. Puoi creare le righe delle istruzioni in un secondo tempo come righe di stoccaggio dal prospetto stoccaggi o dal carico registrato. Una volta eliminate le righe delle istruzioni, puoi eseguire lo stoccaggio e registrare le righe per gli articoli di cross-dock.  
 
-## <a name="about-the-put-away-worksheet-page"></a>Pagina Informazioni sul prospetto stoccaggi
+## Pagina Informazioni sul prospetto stoccaggi
 
 Se attivi l'interruttore **Usa prospetto stoccaggi** nella pagina **Scheda ubicazione** e hai registrato il carico con i cross-dock calcolati, tutte le righe di carico verranno rese disponibili nel prospetto. Le informazioni su cross-dock andranno perse e non potranno essere ricreate. Pertanto, per utilizzare la funzionalità di cross-dock, è consigliabile inoltrare le righe al prospetto stoccaggi eliminando le istruzioni di stoccaggio anziché utilizzare la funzione di inoltro automatico fornita dal campo **Usa prospetto stoccaggi**.  
 
@@ -39,7 +39,7 @@ Se registri il carico warehouse e l'interruttore **Usa prospetto stoccaggi** è 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] non conserva record separati per gli articoli sottoposti a cross-dock. Li registra come istruzioni di stoccaggio ordinarie.  
 
-## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Per impostare la warehouse per il cross-docking
+## Per impostare la warehouse per il cross-docking  
 
 1. Se usi le collocazioni, imposta almeno una collocazione di cross-dock. Se utilizzi stoccaggi e prelievi diretti, configura una zona di cross-dock.  
 
@@ -61,7 +61,7 @@ Se registri il carico warehouse e l'interruttore **Usa prospetto stoccaggi** è 
 > [!NOTE]  
 >  È possibile utilizzare il cross-dock solo se l'ubicazione prevede l'elaborazione degli stoccaggi e dei carichi warehouse.  
 
-## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Per sottoporre a cross-dock gli articoli senza visualizzare le opportunità
+## Per sottoporre a cross-dock gli articoli senza visualizzare le opportunità  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Carichi warehouse**, quindi seleziona il collegamento correlato.  
 2. Creare un carico warehouse per un articolo arrivato e che può essere sottoposto a cross-dock. Per ulteriori informazioni sul ricevimento, vai a [Ricevere articoli](warehouse-how-receive-items.md).  
@@ -79,7 +79,7 @@ Se registri il carico warehouse e l'interruttore **Usa prospetto stoccaggi** è 
 6. Stampare l'istruzione di stoccaggio per le righe rimanenti e posizionare le quantità del carico da immagazzinare nelle collocazioni o nell'area appropriata della warehouse. Posizionare gli articoli di cross-dock nell'area o nella collocazione designata dal criterio di logistica di warehouse. Talvolta, i criteri di logistica di warehouse prevedono che tali articoli vengano lasciati nell'area di carico.  
 7. Per registrare gli articoli sottoposti a cross-dock come articoli stoccati e disponibili per il prelievo, scegliere l'azione **Registra**.  
 
-## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Per sottoporre a cross-dock gli articoli dopo la visualizzazione delle opportunità
+## Per sottoporre a cross-dock gli articoli dopo la visualizzazione delle opportunità  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Carichi warehouse**, quindi seleziona il collegamento correlato.  
 2. Crea un carico warehouse per un articolo arrivato e che può essere sottoposto a cross-dock.  
@@ -99,7 +99,7 @@ Se registri il carico warehouse e l'interruttore **Usa prospetto stoccaggi** è 
     > [!NOTE]  
     > nel processo di stoccaggio nella warehouse è possibile continuare a modificare le quantità da immagazzinare o da sottoporre a cross-dock a seconda delle esigenze. È ad esempio possibile scegliere di sottoporre a cross-dock una quantità aggiuntiva per accelerare la registrazione del cross-dock.  
 
-## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Per visualizzare gli articoli sottoposti a cross-dock in una spedizione o in un prospetto prelievi
+## Per visualizzare gli articoli sottoposti a cross-dock in una spedizione o in un prospetto prelievi  
 
 Se usi le collocazioni, quando apri una spedizione o il prospetto prelievi, la quantità di ciascun articolo nelle collocazioni di cross-dock viene aggiornata. Quando l'articolo è disponibile nella collocazione di cross-dock, è possibile creare un prelievo per tutti gli articoli da spedire. Nel prospetto prelievi è possibile modificare le righe in base alle esigenze.  
 
@@ -107,7 +107,7 @@ Quando viene rilasciato un ordine di produzione, le righe vengono rese disponibi
 
 Se non si utilizzano le collocazioni, ti consigliamo di controllare periodicamente l'area di cross-dock o basarsi sulle notifiche di carico per verificare se gli articoli per la produzione sono arrivati.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
 [Magazzino](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)     
