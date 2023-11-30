@@ -65,7 +65,7 @@ sections:
       - question: |
           Dove si trova quel numero di riga?
         answer: |
-          Documenti quali ordini di vendita o fatture di acquisto sono costituiti da intestazioni e righe. Ogni riga ha un numero che [!INCLUDE [prod_short](includes/prod_short.md)] utilizza per identificare la particolare riga. Di conseguenza, è possibile che venga visualizzato un avviso o un messaggio di errore indicante un problema nella riga numero 1000, ad esempio. Nella versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)], i numeri di riga sono nascosti. Per vedere i numeri di riga, è necessario personalizzare la pagina corrente e aggiungere il **Nr. riga** . Ulteriori informazioni in [Personalizzare l'area di lavoro](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
+          Documenti quali ordini di vendita o fatture di acquisto sono costituiti da intestazioni e righe. Ogni riga ha un numero che [!INCLUDE [prod_short](includes/prod_short.md)] utilizza per identificare la particolare riga. Di conseguenza, è possibile che venga visualizzato un avviso o un messaggio di errore indicante un problema nella riga numero 1000, ad esempio. Nella versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)], i numeri di riga sono nascosti. Per vedere i numeri di riga, è necessario personalizzare la pagina corrente e aggiungere il campo **Nr. riga** . Ulteriori informazioni in [Personalizzare l'area di lavoro](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Perché la Guida descrive funzionalità a cui non è possibile accedere?
         answer: |
@@ -86,7 +86,7 @@ sections:
       - question: |
           Devo acquistare Microsoft 365?
         answer: |
-          No. Se tuttavia desideri provare [!INCLUDE[prod_short](includes/prod_short.md)] in modo completamente integrato con Microsoft 365, puoi eseguire l'iscrizione per una versione di valutazione gratuita di 1 mese di Microsoft 365 [qui](https://products.office.com/try).  
+          Nr. Se tuttavia desideri provare [!INCLUDE[prod_short](includes/prod_short.md)] in modo completamente integrato con Microsoft 365, puoi eseguire l'iscrizione per una versione di valutazione gratuita di 1 mese di Microsoft 365 [qui](https://products.office.com/try).  
 
           Se accedi con un account aziendale non Microsoft 365 (come joe@mysolution.com) e disponi di un abbonamento a Microsoft 365, puoi associare il tuo dominio (*mysolution.com*) all'abbonamento a Microsoft 365. Ulteriori informazioni su [Informazioni su un dominio](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) nel contenuto Microsoft 365.  
 
@@ -151,8 +151,8 @@ additionalContent: |
   [Modificare le impostazioni di base](ui-change-basic-settings.md)  
   [Utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
   [Ottenere risposte alle domande](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
-  [Risorse per Guida e supporto](product-help-and-support.md)  
-  [Catalogo di apprendimento Business Central](readiness/readiness-learning-catalog.md)  
+  [Training di Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   
+  [Risorse per guida e supporto](product-help-and-support.md)  
   [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
   [Disponibilità nazionale/regionale e traduzioni supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Condizioni di servizio](compliance/compliance-service-compliance.md#service-terms)  
