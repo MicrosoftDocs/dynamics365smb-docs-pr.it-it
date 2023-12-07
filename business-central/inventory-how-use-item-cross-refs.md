@@ -14,16 +14,6 @@ ms.custom: bap-template
 
 Se acquisti o vendi articoli per i quali tu e il tuo fornitore o cliente utilizzate termini diversi, puoi impostare un riferimento tra i termini per gli articoli e i termini utilizzati dal cliente o dal venditore di quell'articolo. In questo modo, la descrizione dell'articolo, l'unità di misura o il codice variante del fornitore o del cliente vengono automaticamente inseriti nei documenti pertinenti quando si compila il **Nr. di riferimento articolo** .  
 
-> [!NOTE]
-> Non tutte le aziende utilizzano i riferimenti degli articoli. Per minimizzare il disordine nelle pagine abbiamo nascosto i campi e le azioni relative per impostazione predefinita. Se decidi di usarli, seleziona il campo **Utilizzare i riferimenti dell'elemento** nella pagina **Setup magazzino**. Dopo aver attivato i riferimenti agli articoli, i campi e le azioni sono disponibili nelle pagine Scheda articolo, Scheda venditore e Scheda cliente e dai documenti di vendita e acquisto.
->
-> Nelle versioni precedenti al secondo ciclo di rilascio del 2021, l'amministratore può attivare la funzionalità *scrittura di riferimenti articolo più lunghi* nella pagina [Gestione delle funzionalità](https://businesscentral.dynamics.com/?page=2610) (il collegamento richiede un tenant [!INCLUDE [prod_short](includes/prod_short.md)]). Il modo in cui si usano i riferimenti non cambia, ma i nomi di cose come pagine e pulsanti cambia. Ad esempio, la pagina **Cross reference per l'articolo** diventerà la pagina**Movimenti riferimento per l'articolo**.
-
-## Per iniziare a usare i riferimenti agli elementi
-
-1. Scegli l'icona :::image type="icon" source="media/ui-search/search_small.png" border="false"::: immetti **Setup magazzino** e scegli il collegamento correlato.
-2. Seleziona il campo **Usa riferimenti articolo**.
-
 ## Per impostare un riferimento articolo
 
 1. Scegli l'icona :::image type="icon" source="media/ui-search/search_small.png" border="false"::: immetti **Articoli** e scegli il collegamento correlato.

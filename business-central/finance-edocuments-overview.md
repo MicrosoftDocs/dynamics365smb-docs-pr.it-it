@@ -12,7 +12,7 @@ ms.date: 10/10/2023
 ms.author: altotovi
 ---
 
-# <a name="e-documents-overview"></a>Panoramica dei documenti elettronici
+# Panoramica dei documenti elettronici
 
 I documenti elettronici sono la spina dorsale delle moderne transazioni commerciali. Comprendono documenti vitali, come fatture e ricevute in entrambe le direzioni (consegna e carico). Aggiungono inoltre funzionalità per la messaggistica relativa allo stato dei documenti tra punti di accesso.
 
@@ -32,7 +32,7 @@ La documentazione spiega dettagliatamente i documenti elettronici. Mostra le fun
 | [Estensione delle funzionalità relative ai documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Scopri come estendere le funzionalità relative a documenti elettronici con requisiti locali o di settore specifici creando app aggiuntive basate sull'app Documenti elettronici. |
 | [Scambio di dati in modalità elettronica](across-data-exchange.md) | Scopri come utilizzare il framework di scambio dati per gestire lo scambio di dati in documenti aziendali come file bancari e tassi di cambio valuta. | 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione contabile](finance.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
