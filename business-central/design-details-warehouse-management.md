@@ -10,7 +10,7 @@ ms.date: 10/09/2023
 ms.custom: bap-template
 ---
 
-# Panoramica gestione del magazzino
+# <a name="warehouse-management-overview"></a>Panoramica gestione del magazzino
 
 Ci sono due cose importanti per tutte le aziende che spostano fisicamente le merci dentro e fuori dalla warehouse:
 
@@ -26,7 +26,7 @@ Per aiutare le aziende a raggiungere questi obiettivi, le funzionalità di wareh
 
 Implementa queste funzionalità in diverse combinazioni per adattare i processi di warehouse alla tua azienda. Consenti l'aumento della complessità man mano che la tua azienda cresce e i tuoi processi cambiano.
 
-## Panoramica delle diverse opzioni di configurazione
+## <a name="overview-of-different-configuration-options"></a>Panoramica delle diverse opzioni di configurazione
 
 È possibile configurare le funzionalità warehouse in vari modi. È importante scegliere opzioni che migliorino i tuoi processi senza causare sovraccarico. La tabella seguente fornisce una panoramica delle configurazioni tipiche per i beni fisici.
 
@@ -48,13 +48,13 @@ Il livello di complessità è influenzato anche dai tipi di documenti utilizzati
 
 Un altro fattore che influisce sulla complessità è il modo in cui la tua warehouse fisica è rappresentata in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni vedi [Modellazione della warehouse fisica](#modeling-the-physical-warehouse).
 
-## Modellazione della warehouse fisica
+## <a name="modeling-the-physical-warehouse"></a>Modellazione della warehouse fisica
 
 Hai diverse opzioni per rappresentare la configurazione della warehouse nel mondo reale in [!INCLUDE[prod_short](includes/prod_short.md)]. Le tue scelte determinano come lavorerai con le funzionalità della warehouse.
 
 Il posizionamento degli articoli può essere scaffali, ubicazioni o collocazioni e ci sono pro e contro per ogni opzione.
 
-### Ubicazioni e collocazioni
+### <a name="locations-and-bins"></a>Ubicazioni e collocazioni
 
 Per gestire i beni fisici, devi disporre di almeno una ubicazione. È possibile utilizzare più ubicazioni o collocazioni per modellare la warehouse e la struttura organizzativa.
 
@@ -66,7 +66,7 @@ In genere, le ubicazioni sono il modo preferito per organizzare le operazioni di
 * Imposta i parametri di pianificazione. Per ulteriori informazioni vedi [Parametri di pianificazione](production-about-planning-functionality.md#planning-parameters).  
 * Utilizza funzionalità di warehouse diverse per ogni ubicazione.
 
-### Scaffali e collocazioni
+### <a name="shelves-and-bins"></a>Scaffali e collocazioni
 
 Se conservi sempre un articolo nello stesso posto, puoi utilizzare il campo **Nr. scaffale** nelle pagine **Scheda Articolo** o **Scheda Unità di stockkeeping**. Questo campo può essere un sistema di archiviazione manuale di base negli ambienti senza collocazioni. Il valore viene copiato dalla scheda articolo nelle righe del documento e nei report, ma solo a scopo informativo. Il valore non viene utilizzato nelle attività della warehouse o nei calcoli di disponibilità.
 
@@ -77,7 +77,7 @@ Le collocazioni rappresentano la struttura di warehouse di base e vengono utiliz
 * Limiti di capacità e peso della collocazione (solo per stoccaggi e prelievi diretti).
 * Valutazione collocazione (solo per stoccaggi e prelievi diretti).
 
-## Flusso di lavoro tipico della warehouse
+## <a name="typical-warehouse-workflow"></a>Flusso di lavoro tipico della warehouse
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli articoli che li descrivono.
 
@@ -89,19 +89,19 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 
 Imposta i processi di warehouse adatti alla tua attività. Per ulteriori informazioni vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).
 
-## Terminologia relativa a Warehouse Management
+## <a name="terminology-related-to-warehouse-management"></a>Terminologia relativa a Warehouse Management
 
-### Livelli di complessità
+### <a name="complexity-levels"></a>Livelli di complessità
 
 Usiamo i termini "base" e "avanzato" per differenziare i livelli di complessità. Questa semplice differenziazione copre numerosi livelli di complessità nei setup dell'ubicazione, ciascuno supportato da documenti di warehouse differenti. Il livello più avanzato di warehouse è denominato "stoccaggio e prelievo diretto". Per utilizzare lo stoccaggio e il prelievo diretti per un'ubicazione, attiva l'interruttore **Stoccaggio e prelievo diretti** nella pagina **Scheda ubicazione**.
 
-### Flussi di warehouse
+### <a name="warehouse-flows"></a>Flussi di warehouse
 
 * Flusso in entrata - Sposta gli articoli nell'ubicazione della warehouse e li rende disponibili, ad esempio gli acquisti e i trasferimenti in entrata.
 * Flusso in uscita - Preleva e spedisci gli articoli ai clienti o ad altre ubicazioni.
 * Flusso interno - Gestisci gli articoli all'interno di un'ubicazione. Ad esempio, sposti i componenti in produzione o esegui un conteggio dell'inventario fisico.
 
-### Documenti di base  
+### <a name="basic-documents"></a>Documenti di base
 
 I seguenti documenti vengono utilizzati nei flussi warehouse di base.
 
@@ -111,7 +111,7 @@ I seguenti documenti vengono utilizzati nei flussi warehouse di base.
 * Reg. Magazzino
 * Registrazioni riclassificazione articolo
 
-### Documenti avanzati  
+### <a name="advanced-documents"></a>Documenti avanzati
 
 I seguenti documenti vengono utilizzati nei flussi warehouse avanzati.
 
@@ -129,11 +129,11 @@ I seguenti documenti vengono utilizzati nei flussi warehouse avanzati.
 * Registrazione degli articoli di warehouse
 * Registrazioni della riclassificazione articoli warehouse
 
-### Pagine e impostazioni
+### <a name="pages-and-settings"></a>Pagine e impostazioni
 
 Questa sezione descrive i concetti alla base delle pagine principali e delle impostazioni per la gestione della warehouse.
 
-#### Collocazioni e contenuto della collocazione
+#### <a name="bins-and-bin-content"></a>Collocazioni e contenuto della collocazione
 
 Una collocazione è un dispositivo di archiviazione progettato per contenere le parti di ricambio. È l'unità contenitore più piccola presente in [!INCLUDE[prod_short](includes/prod_short.md)]. Le quantità di articoli nelle collocazioni vengono denominate *contenuto collocazione*. Una ricerca dal campo **Articolo** oppure dal campo **Cod. collocazione** nella riga documenti correlata al warehouse visualizza la disponibilità calcolata dell'articolo nella collocazione.  
 
@@ -150,7 +150,7 @@ Una collocazione dedicata utilizza il contenuto collocazione che può essere sel
 
 Puoi avere solo una collocazione predefinita per articolo per ubicazione.  
 
-#### Tipo collocazione
+#### <a name="bin-type"></a>Tipo collocazione
 
 Le ubicazioni che utilizzano lo stoccaggio e il prelievo diretti possono utilizzare i tipi di collocazione. I tipi di collocazione controllano le attività consentite per una collocazione. Sono disponibili i seguenti tipi di collocazione:  
 
@@ -168,7 +168,7 @@ Ad eccezione dei tipi di collocazione PICK, PUTPICK e PUTAWAY, il tipo di colloc
 > [!NOTE]  
 > È necessario utilizzare i movimenti per spostare gli articoli nelle collocazioni RECEIVE e QC. Utilizza i movimenti per spostare gli articoli dalle collocazioni SHIP e QC.  
 
-#### Valutazione collocazione
+#### <a name="bin-ranking"></a>Valutazione collocazione
 
 Nella gestione avanzata della warehouse, è possibile automatizzare e ottimizzare il modo in cui gli articoli vengono raccolti nei prospetti di prelievo e stoccaggio in base alla valutazione collocazione. Gli articoli vengono suggeriti per prelievi o stoccaggi in base alla valutazione collocazione.
 
@@ -176,7 +176,7 @@ I processi di stoccaggio vengono ottimizzati in base alla valutazione collocazio
 
 Valutazione collocazione e contenuto collocazione sono le proprietà di base che guidano i dipendenti della warehouse.  
 
-#### Impostazione della collocazione
+#### <a name="bin-setup"></a>Impostazione della collocazione
 
 Nella gestione warehouse avanzata, è possibile specificare i seguenti valori di capacità per controllare come e in quali collocazioni si immagazzinano gli articoli:
 
@@ -193,7 +193,7 @@ Prima di impostare le restrizioni alla capacità per i contenuti della collocazi
 > [!NOTE]  
 > È possibile utilizzare più unità di misura solo nelle ubicazioni che utilizzano lo stoccaggio e il prelievo diretti. In tutte le altre configurazioni puoi usare il contenuto collocazione solo nell'unità di misura di base. In tutte le transazioni con una unità di misura superiore a quella di base dell'articolo, la quantità viene convertita nell'unità di misura di base.  
 
-#### Area
+#### <a name="zone"></a>Area
 
 Nella gestione avanzata della warehouse, le collocazioni possono essere raggruppate in zone per gestire la conduzione del flusso di lavoro delle attività di warehouse per le ubicazioni.  
 
@@ -201,7 +201,7 @@ Un'area potrebbe essere un'area ricevimento o di approvvigionamento e ogni area 
 
 La maggior parte delle proprietà assegnate a una zona è assegnata alle collocazioni create per la zona.  
 
-#### Classe warehouse
+#### <a name="warehouse-class"></a>Classe warehouse
 
 Nella gestione avanzata della warehouse, è possibile assegnare codici classe warehouse alle seguenti entità: 
 
@@ -215,11 +215,11 @@ Quando si utilizzano le classi warehouse e una collocazione di carico o di spedi
 
 Nei flussi in entrata, il codice di classe è evidenziato solo nelle righe in entrata dove il codice di classe dell'articolo non corrisponde alla collocazione di carico predefinita. Se le collocazioni predefinite corrette non sono assegnate, la quantità non può essere caricata.  
 
-#### Ubicazione
+#### <a name="location"></a>Ubicazione
 
 Un'ubicazione è una struttura fisica o un luogo in cui le scorte vengono ricevute, immagazzinate e spedite. Un'ubicazione può essere una warehouse, un'auto di servizio, uno showroom, uno stabilimento o un'area di uno stabilimento. L'inventario è spesso organizzato in collocazioni e zone.
 
-#### FEFO (First Expired First Out)
+#### <a name="first-expired-first-out"></a>FEFO (First Expired First Out)
 
 Se si seleziona la casella di controllo **Prelievo in base a FEFO** nella Scheda dettaglio **Criteri per collocazione** nella pagina **Scheda ubicazione**, gli articoli tracciati vengono prelevati nell'ubicazione in base alla data di scadenza. Gli articoli con le date di scadenza meno recenti vengono prelevati per primi.  
 
@@ -227,11 +227,11 @@ Le attività di warehouse in tutti i documenti di spostamento e prelievo sono or
 
 Quando si effettuano prelievi tramite il metodo FEFO, gli articoli la cui scadenza è più imminente vengono raccolti in una lista di tracciabilità articolo temporanea basata sulla data di scadenza. Se due articoli hanno la stessa data di scadenza, viene selezionato automaticamente quello con il numero di lotto o seriale inferiore. Se i numeri di lotto o seriale sono identici, viene selezionato automaticamente l'articolo registrato per primo. Alla lista di tracciabilità articolo FEFO temporanea vengono applicati i criteri standard relativi alla selezione degli articoli nella collocazione, ad esempio Valutazione collocazione e Breakbulk.  
 
-#### Modello stoccaggio
+#### <a name="put-away-template"></a>Modello stoccaggio
 
 Il modello di stoccaggio specifica un set di regole in ordine di priorità che si applicano quando crei gli stoccaggi. Ad esempio, un modello di stoccaggio può richiedere di posizionare gli articoli in una collocazione con contenuto collocazione con la stessa unità di misura. Se non è possibile trovare una collocazione simile con una capacità sufficiente, l'articolo deve essere collocato in una collocazione vuota. Assegni il modello di stoccaggio a un articolo e a un'ubicazione.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Inventario](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  

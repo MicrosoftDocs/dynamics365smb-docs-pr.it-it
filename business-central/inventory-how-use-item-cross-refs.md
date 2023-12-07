@@ -10,11 +10,11 @@ ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/02/2023
 ms.custom: bap-template
 ---
-# Utilizzare i riferimenti dell'elemento
+# <a name="use-item-references"></a>Utilizzare i riferimenti dell'elemento
 
 Se acquisti o vendi articoli per i quali tu e il tuo fornitore o cliente utilizzate termini diversi, puoi impostare un riferimento tra i termini per gli articoli e i termini utilizzati dal cliente o dal venditore di quell'articolo. In questo modo, la descrizione dell'articolo, l'unità di misura o il codice variante del fornitore o del cliente vengono automaticamente inseriti nei documenti pertinenti quando si compila il **Nr. di riferimento articolo** .  
 
-## Per impostare un riferimento articolo
+## <a name="to-set-up-an-item-reference"></a>Per impostare un riferimento articolo
 
 1. Scegli l'icona :::image type="icon" source="media/ui-search/search_small.png" border="false"::: immetti **Articoli** e scegli il collegamento correlato.
 2. Apri la scheda di un articolo per cui vuoi creare un riferimento.
@@ -26,7 +26,7 @@ Se acquisti o vendi articoli per i quali tu e il tuo fornitore o cliente utilizz
 
 La seguente procedura descrive come specificare il riferimento articolo in un ordine di acquisto. La stessa procedura si applica ai documenti di vendita e ad altri documenti di acquisto.  
 
-## Per immettere la descrizione articolo di un fornitore in un documento
+## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Per immettere la descrizione articolo di un fornitore in un documento
 
 1. Scegli l'icona :::image type="icon" source="media/ui-search/search_small.png" border="false"::: immetti **Ordini di acquisto** e scegli il collegamento correlato.
 2. Create un ordine di acquisto per il fornitore per il quale avete impostato un riferimento di articolo nella procedura precedente.
@@ -35,7 +35,7 @@ La seguente procedura descrive come specificare il riferimento articolo in un or
 
 Il campo **Descrizione** sulla riga viene sovrascritto con la descrizione dell'articolo del venditore, come impostato nella voce di riferimento dell'articolo. Se il riferimento articolo include un codice variante o un'unità di misura, anche questi valori vengono copiati nel documento.  
 
-## Eseguire la scansione di codici a barre con l'app per dispositivi mobili Business Central
+## <a name="scan-barcodes-with-the-business-central-mobile-app"></a>Eseguire la scansione di codici a barre con l'app per dispositivi mobili Business Central
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
@@ -49,7 +49,7 @@ La seguente tabella elenca le pagine che supportano la scansione di codici a bar
 |Righe Acquisto     |   Nr. riferimento articolo      |
 |Righe vendite     | Nr. riferimento articolo        |
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  

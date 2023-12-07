@@ -99,7 +99,7 @@ Quando la quantità richiesta supera la quantità disponibile in magazzino, un m
 
 Ulteriori informazioni sulle varianti in [Gestire le varianti di prodotto](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a>Eliminazione delle schede articolo
+## <a name="delete-item-cards"></a>Eliminazione delle schede articolo
 
 Se è stata registrata una transazione per un articolo, non è possibile eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo o la valutazione del magazzino. Per eliminare le schede articoli con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.  
 

@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 10/30/2023
 ms.author: jswymer
 ---
-# Ricerca, filtro e ordinamento
+# <a name="sorting-searching-and-filtering"></a>Ricerca, filtro e ordinamento
 
 Ordinamento, ricerca e filtro sono alcune delle operazioni che semplificano l'individuazione, l'analisi e la limitazione di record in un elenco o in un XMLport o report. È possibile collegare alcune o tutte le procedure contemporaneamente a rapidamente per trovare o analizzare rapidamente i dati.
 
@@ -26,7 +26,7 @@ Per i report e gli XMLport, è possibile impostare filtri come negli elenchi per
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
-## Ordinamento
+## <a name="sorting"></a>Ordinamento
 
 L'ordinamento consente di ottenere in modo semplice e rapido una panoramica dei dati. Ad esempio, se si dispone di molti clienti, si potrebbe ordinarli in base a **Nr. cliente**, **Codice valuta** o **Codice paese** per ottenere la panoramica desiderata.
 
@@ -38,7 +38,7 @@ Per ordinare un elenco, è possibile:
 > [!NOTE]  
 > L'ordinamento non è supportato nelle immagini, nei campi BLOB, in FlowFilter e nei campi che non appartengono a una tabella.  
 
-## Ricerca
+## <a name="searching"></a>Ricerca
 
 <!--## Searching by using the Quick Filter -->
 Nella parte superiore di ogni pagina elenco, c'è un'azione ![Cerca nell'elenco.](media/ui-search/search-list.png "Icona Cerca nell'elenco") **Cerca** che fornisce un modo rapido e semplice per ridurre i record in un elenco e visualizzare solo i record che contengono i dati che si intende visualizzare.
@@ -54,7 +54,7 @@ In generale, la ricerca tenta di trovare il testo corrispondente in tutti i camp
 > La ricerca non restituisce i valori di immagini, campi BLOB, FlowFilters, FlowField e altri campi che non fanno parte di una tabella.
 
 
-### Perfezionamento della ricerca con criteri di filtro
+### <a name="fine-tuning-the-search-with-filter-criteria"></a>Perfezionamento della ricerca con criteri di filtro
 
 È possibile effettuare una ricerca più precisa utilizzando operatori di filtro, espressioni e token di filtro. A differenza dei filtri, questi vengono applicati a tutti i campi quando utilizzati nella casella di ricerca, rendendoli meno efficienti dei filtri.
 
@@ -77,7 +77,7 @@ Nella tabella seguente sono riportati alcuni esempi per spiegare come è possibi
 |`@*man`|Tutti i record con campi che finiscono con il testo **man**, indipendentemente dall'uso di maiuscole/minuscole. Ad esempio, **Sportsman**, ma non **Manchester** o **manual**.|
 
 
-## <a name="filtering"></a>Filtro
+## <a name="filtering"></a><a name="filtering"></a>Filtro
 
 I filtri forniscono un modo più avanzato e versatile per controllare quali record sono inclusi in un elenco in un report o in XMLport. Esistono due principali differenze tra la ricerca e il filtro, come descritto nella tabella seguente.
 
@@ -90,7 +90,7 @@ Il filtro consente di visualizzare record per account o clienti specifici, date,
 
 Per gli elenchi, i filtri vengono visualizzati in un riquadro filtri visualizzato a sinistra dell'elenco quando viene attivato. Per report, processi batch e XMLport, i filtri sono visibili direttamente nella pagina di richiesta.
 
-### Filtro con campi di tipo opzione
+### <a name="filtering-with-option-fields"></a>Filtro con campi di tipo opzione
 
 Per i campi "ordinari" che contengono dati, data di impostazione o dati aziendali, è possibile impostare filtri selezionando i dati e digitando valori di filtro e quindi utilizzare i simboli per definire criteri di filtro avanzati. Per ulteriori informazioni, vedere [Immissione dei criteri di filtro](ui-enter-criteria-filters.md#entering-filter-criteria).
 
@@ -99,7 +99,7 @@ Tuttavia, per i campi di tipo **Opzione**, è possibile soltanto impostare un fi
 > [!NOTE]
 > Quando si selezionano più opzioni come valore di filtro, la relazione tra le opzioni viene definita come *O*. Ad esempio, se si selezionano le caselle di controllo **Aperto** e **Rilasciato** nel campo di filtro **Stato** della pagina **Ordini vendita**, significa che sono visualizzati gli ordini vendita aperti o rilasciati.
 
-### Impostazione di filtri negli elenchi
+### <a name="setting-filters-on-lists"></a>Impostazione di filtri negli elenchi
 
 Negli elenchi, i filtri vengono impostati utilizzando il riquadro filtri. Per visualizzare il riquadro filtri per un elenco, selezionare la freccia rivolta verso il basso accanto al nome della pagina, quindi selezionare l'azione **Mostra riquadro Filtri**. In alternativa, premi <kbd>MAIUSC</kbd>+<kbd>F3</kbd>.
 
@@ -126,7 +126,7 @@ Il riquadro filtri visualizza i filtri correnti per un elenco e consente di impo
 
 È possibile impostare un filtro semplice direttamente in un elenco utilizzando il riquadro filtri, ovvero un filtro che visualizza solo i record con lo stesso valore della cella selezionata. Selezionare un cella nell'elenco, selezionare la freccia rivolta verso il basso quindi scegliere l'azione **Filtra in base a questo valore**. In alternativa, premi <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
-### Impostazione di filtri in report, processi batch e XMLport
+### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Impostazione di filtri in report, processi batch e XMLport
 
 Per report e XMLport, i filtri sono visibili direttamente nella pagina di richiesta. La pagina di richiesta visualizza gli ultimi filtri utilizzati in base alla selezione effettuata nel campo **Utilizza valori predefiniti da**. Per ulteriori informazioni, vedi [Usare le impostazioni salvate](ui-work-report.md#SavedSettings).
 
@@ -134,7 +134,7 @@ La sezione **Filtro** principale mostra i campi di filtro predefiniti utilizzati
 
 Nella sezione **Filtra totali per**, è possibile regolare varie dimensioni che influenzano i calcoli in report o XMLport. Per aggiungere un filtro, scegliere l'azione **+ Filtro**. Quindi, digitare il nome del campo in base al quale filtrare o selezionare un campo dall'elenco a discesa.
 
-## Immissione di criteri di filtro
+## <a name="entering-filter-criteria"></a>Immissione di criteri di filtro
 
 Nel riquadro filtri e in una pagina di richiesta, i criteri di filtro vengono immessi nella casella sotto il campo di filtro.
 
@@ -145,7 +145,7 @@ Le colonne che hanno già dei filtri sono indicate dall'icona ![icona Filtro.](m
 > [!TIP]
 > Accelerare la ricerca e l'analisi dei dati utilizzando combinazioni di tasti di scelta rapida da tastiera. Ad esempio, seleziona un campo, usa <kbd>MAIUSC</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> per aggiungere quel campo al riquadro dei filtri, digita i criteri del filtro, usa <kbd>CTRL</kbd>+<kbd>INVIO</kbd> per tornare alle righe, seleziona un altro campo e usa <kbd>Alt</kbd>+<kbd>F3</kbd> per filtrare tale valore. Per ulteriori informazioni, vedere [Tasti di scelta rapida](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Criteri e operatori di filtro
+### <a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Criteri e operatori di filtro
 
 Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri e le lettere in genere utilizzati nel campo. È inoltre possibile utilizzare un set di simboli speciali come operatori per filtrare ulteriormente i risultati. Le sezioni seguenti descrivono questi simboli e come utilizzarli come operatori nei filtri.
 
@@ -157,7 +157,7 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 >
 > - Se sono presenti più di 200 operatori in un singolo filtro, il sistema raggrupperà automaticamente alcune espressioni tra parentesi `()` ai fini del trattamento. Ciò non ha alcun effetto sul filtro o sui risultati.  
 
-#### (..) Intervallo
+#### <a name="-interval"></a>(..) Intervallo
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
@@ -172,62 +172,62 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 > [!TIP]
 > Se stai utilizzando un tastierino numerico, il tasto separatore decimale potrebbe restituire un carattere diverso dal punto (.). Per impostare il punto, premi i tasti <kbd>Alt</kbd>+<kbd>Separatore decimale</kbd> sulla tastiera numerica. Quando vuoi tornare indietro, premi di nuovo <kbd>Alt</kbd>+<kbd>Separatore decimale</kbd>. Per ulteriori informazioni, vedi [Impostazione del separatore decimale usato dalle tastiere numeriche](ui-enter-data.md#decimal).
 
-#### (&#124;) Oppure
+#### <a name="124-eitheror"></a>(&#124;) Oppure
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Numeri con 1200 o 1300|  
 
-#### (<>) Diverso da  
+#### <a name="-not-equal-to"></a>(<>) Diverso da
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`<>0`|Tutti i numeri tranne 0<br /><br /> SQL Server Option consente di combinare questo simbolo con un'espressione contenente caratteri jolly. <>A*, ad esempio, si riferisce a un testo diverso da qualunque testo che inizia con la lettera A.|  
 
-#### (>) Maggiore di  
+#### <a name="-greater-than"></a>(>) Maggiore di
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`>1200`|Numeri maggiori di 1200|  
 
-#### (>=) Maggiore di o uguale a  
+#### <a name="-greater-than-or-equal-to"></a>(>=) Maggiore di o uguale a
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`>=1200`|Numeri maggiori o uguali a 1200|  
 
-#### (<) Minore di  
+#### <a name="-less-than"></a>(<) Minore di
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`<1200`|Numeri minori di 1200|  
 
-#### (<=) Minore di o uguale a  
+#### <a name="-less-than-or-equal-to"></a>(<=) Minore di o uguale a
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`<=1200`|Numeri minori o uguali a 1200|  
 
-#### (&) E  
+#### <a name="-and"></a>(&) E
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Numeri maggiori di 200 e minori di 1200.|  
 
-#### ('') Una corrispondenza esatta di carattere  
+#### <a name="-an-exact-character-match"></a>('') Una corrispondenza esatta di carattere
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`'man'`|Testo con corrispondenza esatta a **man** e con distinzione tra maiuscole e minuscole.|  
 |`''`|Testo vuoto.|  
 
-#### (@) Senza distinzione tra maiuscole e minuscole  
+#### <a name="-case-insensitive"></a>(@) Senza distinzione tra maiuscole e minuscole
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`@man*`|Testo che inizia con **man** e senza distinzione tra maiuscole e minuscole.|  
 
-#### (*) Un numero indefinito di caratteri non noti
+#### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Un numero indefinito di caratteri non noti
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
@@ -235,13 +235,13 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 |`*Co`|Testo che termina con **Co** e con distinzione tra maiuscole e minuscole.|  
 |`Co*`|Testo che inizia con **Co** e con distinzione tra maiuscole e minuscole.|  
 
-#### (?) Un carattere non noto  
+#### <a name="-one-unknown-character"></a>(?) Un carattere non noto
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Testo come **Marco** o **Mario**|  
 
-#### Espressioni di formato combinate  
+#### <a name="combined-format-expressions"></a>Espressioni di formato combinate
 
 |espressione di esempio|Record visualizzati|  
 |-----------------------|-----------------------|  
@@ -249,7 +249,7 @@ Quando si impostano criteri in un filtro, è possibile immettere tutti i numeri 
 |`..1299|1400..`|Include record con un numero minore o uguale a 1299 oppure un numero uguale a 1400 o maggiore, vale a dire tutti i numeri tranne quelli compresi tra 1300 e 1399.|  
 |`>50&<100`|Include record con numeri maggiori di 50 e minori di 100, vale a dire i numeri compresi tra 51 e 99.|  
 
-### <a name="symbols"></a>Filtrare in base a valori che contengono simboli
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtrare in base a valori che contengono simboli
 
 Potrebbero verificarsi casi in cui i valori dei campi contengono uno dei seguenti simboli:
 
@@ -263,14 +263,14 @@ Se si desidera filtrare in base a uno qualsiasi di questi simboli, inserire l'es
 
 Questo requisito non è necessario per altri simboli.
 
-### <a name="FilterTokens"> </a>Token di filtro
+### <a name="a-namefiltertokens-afilter-tokens"></a><a name="FilterTokens"> </a>Token di filtro
 
 Quando si immettono i criteri di filtro, è anche possibile digitare parole che hanno un significato speciale, chiamate token di filtro. Dopo aver immesso la parola token, la parola viene sostituita dal valore o dai valori che rappresenta. I token di filtro semplificano l'operazione di filtro riducendo la necessità di passare ad altre pagine per cercare i valori che si desidera aggiungere al filtro. Le tabelle seguenti descrivono alcuni dei token che è possibile immettere a questo scopo.
 
 > [!TIP]
 > Un'organizzazione potrebbe utilizzare token personalizzati. Per informazioni sul set completo di token disponibili o per aggiungere altri token personalizzati, contattare l'amministratore. Per informazioni tecniche vedere [Aggiunta di token di filtro](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### (%me or %userid) Record assegnati all'utente
+#### <a name="me-or-userid-records-assigned-to-you"></a>(%me or %userid) Record assegnati all'utente
 
 Utilizzare `%me` o `%userid` quando si filtrano i campi che contengono l'ID utente, quale il campo **Assegnato a ID utente**, per visualizzare tutti i record assegnati all'utente.
 
@@ -278,7 +278,7 @@ Utilizzare `%me` o `%userid` quando si filtrano i campi che contengono l'ID uten
 |-----------------------|-----------------------|  
 |`%me`<br />oppure<br />`%userid`|Record assegnati all'account utente. |  
 
-#### (%mycustomers) clienti in Clienti personali
+#### <a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) clienti in Clienti personali
 
 Utilizzare `%mycustomers` nel campo **Nessuno** cliente per visualizzare tutti i record per i clienti inclusi nell'elenco **Clienti personali** in Gestione ruolo utente.
 
@@ -286,7 +286,7 @@ Utilizzare `%mycustomers` nel campo **Nessuno** cliente per visualizzare tutti i
 |-----------------------|-----------------------|  
 |`%mycustomers`|Clienti in **Clienti personali** in Gestione ruolo utente. |  
 
-#### (%myitems) Articoli in Articoli personali
+#### <a name="myitems-items-in-my-items"></a>(%myitems) Articoli in Articoli personali
 
 Utilizzare `%myitems` nel campo **Nessuno** articolo per visualizzare tutti i record per gli articoli inclusi nell'elenco **Articoli personali** in Gestione ruolo utente.
 
@@ -294,7 +294,7 @@ Utilizzare `%myitems` nel campo **Nessuno** articolo per visualizzare tutti i re
 |-----------------------|-----------------------|  
 |`%myitems`|Articoli in **Articoli personali** in Gestione ruolo utente. |  
 
-#### (%myvendors) Fornitori in Fornitori personali
+#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Fornitori in Fornitori personali
 
 Utilizzare `%myvendors` nel campo **Nessuno** fornitori per visualizzare tutti i record per i fornitori inclusi nell'elenco **Fornitori personali** in Gestione ruolo utente.
 
@@ -302,7 +302,7 @@ Utilizzare `%myvendors` nel campo **Nessuno** fornitori per visualizzare tutti i
 |-----------------------|-----------------------|  
 |`%myvendors`|Fornitori in **Fornitori personali** in Gestione ruolo utente. |  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Domande frequenti su ricerca e filtro](ui-search-filter-faq.yml)  
 [Salvare e personalizzare le visualizzazioni elenco](ui-views.md)  

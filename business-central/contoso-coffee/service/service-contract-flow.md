@@ -73,7 +73,7 @@ Charles, il responsabile dell'assistenza, crea quindi un contratto di assistenza
 - Verrà creato un contratto di assistenza firmato, con movimenti contabili
 - Verrà creata una fattura di assistenza registrata
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Creazione di un ordine di assistenza per un contratto di assistenza e assegnazione delle risorse
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Creazione di un ordine di assistenza per un contratto di assistenza e assegnazione delle risorse
 
 ### <a name="scenario-2"></a>Scenario
 

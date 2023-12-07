@@ -11,7 +11,7 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Ricevere e convertire documenti elettronici
+# <a name="receive-and-convert-electronic-documents"></a>Ricevere e convertire documenti elettronici
 
 > [!NOTE]
 > Il contenuto di questo articolo è applicabile solo alle versioni di Dynamics 365 Business Central rilasciate prima del secondo ciclo di rilascio del 2023. Nel secondo ciclo di rilascio del 2023 è inclusa la nuova funzionalità per documenti elettronici. Per altre informazioni, vedi [Impostare documenti elettronici](finance-how-setup-edocuments.md). 
@@ -38,7 +38,7 @@ Il traffico dei documenti elettronici in entrata e in uscita da [!INCLUDE[prod_s
 
 Nella procedura riportata di seguito viene descritto come ricevere una fattura del fornitore e convertirla in una fattura di acquisto in [!INCLUDE[prod_short](includes/prod_short.md)]. La procedura è la stessa quando si converte una fattura del fornitore in una riga registrazioni COGE.  
 
-### Per ricevere e convertire una fattura elettronica in fattura di acquisto
+### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Per ricevere e convertire una fattura elettronica in fattura di acquisto
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Documenti in entrata**, quindi scegli il collegamento correlato.  
 
@@ -56,7 +56,7 @@ Nella procedura riportata di seguito viene descritto come ricevere una fattura d
 
     Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[prod_short](includes/prod_short.md)], verranno visualizzati nella Scheda dettaglio **Messaggi di errore**.  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Documenti in entrata](across-income-documents.md)  

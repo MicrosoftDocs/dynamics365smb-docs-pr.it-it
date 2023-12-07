@@ -22,7 +22,7 @@ Quando si ricevono gli articoli di magazzino, o quando il servizio acquistato vi
 > [!CAUTION]  
 > Non registrare gli articoli fisici per una fattura di acquisto fino a quando non si ricevono gli articoli e si conosce il costo finale dell'acquisto, incluse le spese aggiuntive. In caso contrario, il valore di magazzino e le cifre di margine possono risultare distorti.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Creare e registrare una fattura di acquisto
+### <a name="create-and-post-a-purchase-invoice"></a>Creare e registrare una fattura di acquisto
 
 Di seguito viene descritto come creare una fattura di acquisto. I passaggi sono simili per un ordine di acquisto. La differenza principale è che gli ordini acquisto hanno campi e azioni aggiuntivi per la gestione fisica degli articoli.
 
