@@ -12,17 +12,17 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>Impostare documenti elettronici
+# Impostare documenti elettronici
 
 > [!IMPORTANT]
-> Il modulo principale di Documenti elettronici è un framework. Per impostazione predefinita, non c'è un campo **Formato documento** o **Integrazione del servizio**. Questi dettagli fanno parte delle app di localizzazione perché sono entrambi specifici per requisiti locali.
+> Il modulo principale di Documenti elettronici è un framework. Per impostazione predefinita, non c'è un campo **Integrazione del servizio**. Se trovi le opzioni **Formato documento** per impostazione predefinita, tieni presente che vengono offerte come esempio e che la localizzazione deve fornire un formato dettagliato. Questi dettagli fanno parte delle app di localizzazione perché sono specifici per requisiti locali.
 
 > [!NOTE]
-> A partire dalla versione 23.1, un formato di documento PEPPOL standard viene aggiunto come formato globale nel campo **Formato documento**.
+> A partire dalla versione 23.2, un formato di documento PEPPOL standard viene aggiunto come formato globale nel campo **Formato documento**. Tieni presente che probabilmente non puoi utilizzare questo formato così com'è. È un formato W1 fornito per mostrare come utilizzare questa funzionalità. Ti consigliamo di verificare il formato PEPPOL esistente prima di iniziare a utilizzare questo formato.
 
 Il primo passaggio nella configurazione di documenti elettronici è impostare il Servizio documenti elettronici dove configuri il comportamento completo del tuo sistema in relazione alla comunicazione di documenti elettronici.
 
-## <a name="set-up-the-e-document-service"></a>Impostare il Servizio documenti elettronici
+## Impostare il Servizio documenti elettronici
 
 Segui questi passaggi per impostare il Servizio documenti elettronici.
 
@@ -33,11 +33,11 @@ Segui questi passaggi per impostare il Servizio documenti elettronici.
     |-------|-------------|
     | Codice | Seleziona il codice del setup esportazione elettronica. |
     | Descrizione | Immetti una breve descrizione del setup esportazione elettronica. |
-    | Formato documento | <p>Il formato di esportazione del setup esportazione elettronica.</p><p>Per impostazione predefinita, non sono presenti opzioni in questo campo nel ciclo 1.</p> |
+    | Formato documento | <p>Il formato di esportazione del setup esportazione elettronica.</p><p>Per impostazione predefinita, sono presenti due opzioni in questo campo. Puoi selezionare **PEPPOL BIS 3** come formato generico basato su codice o **Scambio dati** quando devi impostare pre-documenti di formati specifici nella Scheda dettaglio **Definizione di scambio dati**.</p> |
     | Integrazione del servizio | Seleziona il codice di integrazione per il setup esportazione elettronica. Nel ciclo 1, l'unica opzione è **Nessuna integrazione**. |
     | Usa elaborazione batch | Specifica se il servizio utilizza l'elaborazione batch per l'esportazione. |
 
-4. Nella Scheda dettaglio **Parametri importati** configura i campi come descritto nella tabella seguente.
+3. Nella Scheda dettaglio **Parametri importati** configura i campi come descritto nella tabella seguente.
 
     | Campo | Descrizione |
     |-------|-------------|
@@ -57,11 +57,22 @@ Segui questi passaggi per impostare il Servizio documenti elettronici.
     | Ora di inizio batch | Specifica l'ora di inizio per i processi di importazione. |
     | Minuti tra ogni esecuzione | Specifica il numero di minuti tra le esecuzioni dei processi di importazione. |
 
-Se hai configurato il formato **Definizione di scambio dati** nella tua localizzazione, puoi aggiungere una riga per ogni tipo di documento di cui hai bisogno. Tuttavia, devi prima selezionare l'opzione **Tipo di documento** per ogni riga di cui hai bisogno. Per ogni tipo di dati, seleziona il valore **Importa codice definizione scambio dati** o **Esporta codice definizione scambio dati** che vuoi utilizzare.
+4. Se hai selezionato **Scambio dati** nel campo **Formato documento** nella Schda dettaglio **Generale**, utilizza la Scheda dettaglio **Definizione di scambio dati** per impostare i seguenti campi.
 
-Infine, se non utilizzi il formato **Definizione di scambio dati**, puoi configurare i formati tramite le righe **Mapping esportazione** e **Mapping importazione**, dove puoi individuare le tabelle e i campi da utilizzare per configurare le regole di trasformazione, se applicabile.
+    | Campo | Descrizione |
+    |-------|-------------|
+    | Tipo di documento | Specifica il tipo di documento che usa lo scambio dati per importare ed esportare i dati. Gli esempi includono **Fattura di vendita**, **Nota credito vendita** e **Fattura di acquisto**. |
+    | Importa codice definizione scambio dati | Specifica il codice di scambio dati utilizzato per importare i dati. Utilizza questo campo solo per ricevere un documento nel processo di acquisto. |
+    | Esporta codice definizione scambio dati | Specifica il codice di scambio dati utilizzato per esportare i dati. Utilizza questo campo solo per consegnare documenti nel processo di vendita. |
 
-## <a name="set-up-a-document-sending-profile"></a>Impostare un profilo di invio documenti
+> [!NOTE]
+> Sono disponibili definizioni di scambio dati preparate per il formato PEPPOL correlate al documento di vendita e acquisto standard. Tuttavia, probabilmente non puoi utilizzare queste definizioni così come sono. Sono tutte in formato W1 fornito per mostrare come utilizzare questa funzionalità. Ti consigliamo di verificare il formato PEPPOL esistente prima di iniziare a utilizzarle.
+
+Se hai configurato il formato **Definizione di scambio dati** nella tua localizzazione, puoi aggiungere una riga per ogni tipo di documento di cui hai bisogno. Aggiungi righe che corrispondono all'esempio di scambio dati predefinito per il formato W1 PEPPOL. Tuttavia, prima seleziona l'opzione **Tipo di documento** per ogni riga di cui hai bisogno. Per ogni tipo di dati, seleziona il valore **Importa codice definizione scambio dati** o **Esporta codice definizione scambio dati** che vuoi utilizzare.
+
+Se non utilizzi il formato **Definizione di scambio dati**, puoi creare e configurare i formati utilizzando l'[interfaccia](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Modifica le informazioni nelle righe **Mapping esportazione** e **Mapping importazione**, dove puoi trovare le tabelle e i campi per configurare regole di trasformazione. In questo caso, devi aggiungere una nuova opzione nel campo **Formato documento** correlato al tuo formato.
+
+## Impostare un profilo di invio documenti
 
 Puoi impostare un metodo preferito di invio di documenti di vendita per ogni cliente. In tal modo, non devi selezionare un'opzione di invio ogni volta che selezioni l'azione **Registra e invia**. Nella pagina **Profili di invio documenti** puoi impostare differenti profili di invio e quindi selezionarne uno nel campo **Profilo di invio documenti** nella scheda cliente. Puoi selezionare la casella di controllo **Predefinito** per specificare che un profilo di invio documenti è il profilo predefinito per tutti i clienti, eccetto per quelli per i quali il campo **Profilo di invio documenti** è impostato su un profilo di invio differente.
 
@@ -83,7 +94,7 @@ Per impostare un profilo di invio documenti, procedi come segue.
     > [!NOTE]
     > Se selezioni **Flusso esteso del servizio documenti elettronici** nel campo **Documento elettronico**, devi avere già configurato il workflow per i tuoi documenti elettronici.
 
-## <a name="set-up-the-workflow"></a>Impostare il workflow
+## Impostare il workflow
 
 Segui questi passaggi per impostare il workflow utilizzato nella funzionalità Documenti elettronici.
 
@@ -98,7 +109,11 @@ Segui questi passaggi per impostare il workflow utilizzato nella funzionalità D
 > [!NOTE]
 > Puoi creare il tuo workflow per documenti elettronici senza utilizzare modelli di workflow predefiniti. Se disponi di più servizi, puoi utilizzare workflow differenti.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Impostare criteri di conservazione per documenti elettronici
+Per utilizzare più flussi di lavoro, configurali tramite i profili di invio documenti per diversi clienti. Quando imposti il flusso di lavoro, specifica il profilo di invio documenti nella colonna **Condizione** della Scheda dettaglio **Fasi workflow**, perché non è possibile avere due servizi che utilizzano lo stesso profilo di invio documenti nei workflow.
+
+Quando configuri il workflow nella pagina **Workflow**, punta al campo **Condizione** nella Scheda dettaglio **Fasi workflow**. Nella pagina **Condizioni evento**, nel campo **Filtro**, seleziona il profilo di invio documenti che desideri utilizzare.
+
+## Impostare criteri di conservazione per documenti elettronici
 
 I documenti elettronici possono essere oggetto di diverse legislazioni locali relative al periodo di conservazione dei documenti elettronici. Pertanto, abbiamo aggiunto un setup di criteri di conservazione per tutte le informazioni importanti relative a documenti elettronici. Gli amministratori possono definire criteri di conservazione che specificano la frequenza alla quale Dynamics 365 Business Central elimina i record obsoleti correlati a documenti elettronici. Per altre informazioni su criteri di conservazione, vedi [Definire i criteri di conservazione](admin-data-retention-policies.md).
 
@@ -112,7 +127,7 @@ Per impostare i criteri di conservazione relativi a documenti elettronici, proce
     - Log mapping di documenti elettronici
     - Archiviazione dati di documenti elettronici
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Come utilizzare documenti elettronici in Business Central](finance-how-use-edocuments.md)  
 [Come estendere documenti elettronici in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

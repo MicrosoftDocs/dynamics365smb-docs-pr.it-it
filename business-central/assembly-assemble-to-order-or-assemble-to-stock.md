@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Assemblaggio su ordine e assemblaggio per magazzino
+# Assemblaggio su ordine e assemblaggio per magazzino
 
 [!INCLUDE [prod_short](includes/prod_short.md)] consente di fornire articoli di assemblaggio nei seguenti due modi:
 
 * Assemblaggio su ordine  
 * Assemblaggio per magazzino  
 
-## <a name="assemble-to-order"></a>Assemblaggio su ordine
+## Assemblaggio su ordine
 
 Utilizza il processo di assemblaggio su ordine per gli articoli che non vuoi immagazzinare. Ad esempio, per i seguenti motivi:
 
@@ -43,7 +43,7 @@ Quando immetti un articolo assemblaggio su ordine in una riga dell'ordine di ven
 
 Per specificare che un articolo è assemblato su ordinazione, nel campo **Criteri di assemblaggio** della pagina **Scheda articolo** per l'articolo, scegli **Assemblaggio su ordine**.  
 
-## <a name="assemble-to-stock"></a>Assemblaggio per magazzino
+## Assemblaggio per magazzino
 
 Utilizza il processo di assemblaggio per magazzino per gli articoli che si assemblano e si immagazzinano per vendite future. Gli articoli assemblaggio per magazzino sono articoli standard, come i kit confezionati, che non si personalizzano. È inoltre possibile consumare questi articoli come componenti di sottoassemblaggio. Gli articoli vengono prelevati ed elaborati come singoli articoli e trattati come articoli finiti di produzione. Per ulteriori informazioni sugli articoli di assemblaggio, vai a [Articoli di assemblaggio](assembly-how-to-assemble-items.md).  
 
@@ -54,7 +54,7 @@ Quando specifichi un articolo con assemblaggio per magazzino in una riga vendita
 
 Per specificare che un articolo è assemblato per magazzino, nel campo **Criteri di assemblaggio** della pagina **Scheda articolo** per l'articolo, scegli **Assemblaggio per magazzino**.  
 
-## <a name="combination-scenarios"></a>Scenari di combinazione
+## Scenari di combinazione
 
 Quando le quantità di assemblaggio su ordine e per magazzino vengono combinate in un ordine di vendita, le quantità di assemblaggio su ordine devono essere spedite per prime.  
 
@@ -96,7 +96,7 @@ Sulla base di questo esempio, è possibile modificare il campo **Quantità da as
 * La quantità minima che è possibile immettere è 1. È necessario assemblare almeno un'unità per poter vendere le quattro unità, presupponendo che le tre restanti siano disponibili in magazzino.  
 * La quantità massima che è possibile immettere è 4. Questo limite garantisce di non assemblare più articoli di quelli necessari per la vendita.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Usare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)  

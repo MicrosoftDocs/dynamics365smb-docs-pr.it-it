@@ -8,25 +8,25 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 09/01/2022
+ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# <a name="record-purchases-with-purchase-invoices-and-orders"></a>Registrare gli acquisti con le fatture e gli ordini di acquisto
+# Registrare gli acquisti con le fatture e gli ordini di acquisto
 
 È possibile creare una fattura o un ordine di acquisto per registrare il costo di acquisto e per tenere traccia del conto fornitori. Le fatture e gli ordini di acquisto vengono utilizzati per aggiornare in modo dinamico i livelli di magazzino in modo da ridurre i costi di magazzino al minimo e migliorare l'assistenza clienti. I costi di acquisto, incluse le spese di assistenza, e i valori di magazzino derivanti dalla registrazione delle fatture o degli ordini di acquisto contribuiscono alle cifre di profitto e altri indicatori KPI finanziari in Gestione ruolo utente.
 
-## <a name="record-purchases-with-purchase-invoices"></a>Registrare gli acquisti con le fatture di acquisto
+## Registrare gli acquisti con le fatture di acquisto
 
 Quando si ricevono gli articoli di magazzino, o quando il servizio acquistato viene completato, si registra la fattura di acquisto per aggiornare il magazzino e i record finanziari e per attivare il pagamento al fornitore in base alle condizioni di pagamento. [Effettuare i pagamenti](payables-make-payments.md).
 
 > [!CAUTION]  
 > Non registrare gli articoli fisici per una fattura di acquisto fino a quando non si ricevono gli articoli e si conosce il costo finale dell'acquisto, incluse le spese aggiuntive. In caso contrario, il valore di magazzino e le cifre di margine possono risultare distorti.
 
-### <a name="create-and-post-a-purchase-invoice"></a>Creare e registrare una fattura di acquisto
+### Creare e registrare una fattura di acquisto
 
-Di seguito viene descritto come creare una fattura di acquisto. I passaggi sono simili per un ordine di acquisto. La differenza principale è che gli ordini acquisto hanno campi e azioni aggiuntivi per la gestione fisica degli articoli.
+I passaggi seguenti descrivono come creare una fattura di acquisto. I passaggi per la creazione di un ordine di acquisto sono simili. La differenza principale è che gli ordini acquisto hanno campi e azioni aggiuntivi per la gestione fisica degli articoli.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Nel campo **Fornitore** immettere il nome del fornitore esistente.
 
     Altri campi nella pagina **Fattura di vendita** ora vengono compilati con le informazioni standard del fornitore selezionato. Se il fornitore non è registrato, è necessario attenersi alla seguente procedura:
@@ -49,7 +49,7 @@ Di seguito viene descritto come creare una fattura di acquisto. I passaggi sono 
 
     Il prezzo e l'importo riga vengono visualizzati con o senza le tasse di vendita a seconda della selezione nel campo **Prezzi IVA inclusa** della scheda fornitore.
 
-    I campi dei totali sotto le righe vengono automaticamente aggiornati quando si creano o si modificano le righe per visualizzare gli importi che verranno registrati nei libri contabili.
+    I campi dei totali sotto le righe vengono automaticamente aggiornati, quando si creano o si modificano le righe, per visualizzare gli importi che verranno registrati nei libri contabili.
 
 6. Nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.** nella parte inferiore della fattura.
 
@@ -64,16 +64,16 @@ L'acquisto si riflette ora nel magazzino, nei movimenti contabili risorse e nei 
 >
 > Per verificare gli importi che verranno effettivamente registrati, vai alla pagina **Statistiche**, che tiene conto dei calcoli nel conto. Inoltre, se si sceglie l'azione **Rilascia**, i campi dei totali verranno aggiornati per includere i calcoli di arrotondamento.
 
-## <a name="posted-invoices"></a>Fatture registrate
+## Fatture registrate
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
-È possibile correggere o annullare in modo semplice una fattura di acquisto registrata prima che venga pagata al fornitore. Ciò risulta utile se si desidera correggere un errore di digitazione o se si desidera modificare l'acquisto in una fase iniziale dell'elaborazione dell'ordine. Ulteriori informazioni in [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Se è già stato eseguito il pagamento degli articoli o dei servizi nella fattura di acquisto registrata, è necessario creare una nota di credito di acquisto per stornare l'acquisto. Ulteriori informazioni in [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md).
+È possibile correggere o annullare in modo semplice una fattura di acquisto registrata prima che venga pagata al fornitore. Ciò risulta utile se si desidera correggere un errore di digitazione o se si desidera modificare l'acquisto in una fase iniziale dell'elaborazione dell'ordine. Ulteriori informazioni in [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Per stornare un acquisto per gli articoli o i servizi elencati nella fattura di acquisto registrata per cui il pagamento viene elaborato, devi creare una nota di credito di acquisto. Ulteriori informazioni in [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md).
 
 [Apri l'elenco **Fatture acquisto registrate**](https://businesscentral.dynamics.com/?page=146) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
-## <a name="purchasing-non-inventory-items"></a>Acquisto di articoli non in magazzino
+## Acquisto di articoli non in magazzino
 
 Le righe di una fattura di acquisto possono essere di tipo **Risorsa** o **Articolo**. Le schede articolo possono essere classificate come tipo **Inventario**, **Assistenza** o **Non inventario** per specificare se la scheda articolo rappresenta un'unità fisica di inventario, un'unità di misura del tempo (applicabile anche per le risorse) della manodopera o un'unità fisica non registrata in magazzino. Ulteriori informazioni in [Registrare nuovi articoli](inventory-how-register-new-items.md). Il processo della fattura di acquisto è lo stesso per tutti i tipi menzionati.
 
@@ -82,7 +82,7 @@ Le righe di una fattura di acquisto possono essere di tipo **Risorsa** o **Artic
 >
 > Per utilizzare una risorsa acquistata, potrebbe essere necessario impostare la capacità della risorsa e assegnarla manualmente a un processo. L'acquisto di una risorsa crea un movimento contabile di risorsa, tuttavia, i movimenti contabili non vengono monitorati per quantità e valore come, ad esempio, per gli articoli. Se è richiesto il monitoraggio della quantità e del valore, considera l'utilizzo di altri tipi di voci.
 
-## <a name="when-to-use-purchase-orders"></a>Quando utilizzare gli ordini di acquisto
+## Quando utilizzare gli ordini di acquisto
 
 Utilizzare gli ordini di acquisto se il processo di acquisto richiede la registrazione delle le ricevute parziali di una quantità di un ordine, ad esempio, perché la quantità completa non è disponibile presso il fornitore. Se si consegni articoli venduti direttamente dal fornitore al cliente, come una spedizione diretta, è necessario utilizzare anche gli ordini di acquisto. Ulteriori informazioni su [Effettuare spedizioni dirette](sales-how-drop-shipment.md).
 
@@ -92,9 +92,9 @@ In tutti gli altri aspetti, gli ordini di acquisto funzionano come le fatture di
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## <a name="receive-items-with-a-purchase-order"></a>Ricevere gli articoli con un ordine di acquisto
+## Ricevere gli articoli con un ordine di acquisto
 
-Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto. 
+I passaggi seguenti descrivono come ricevere gli articoli con un ordine di acquisto. 
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
 2. Aprire un ordine di acquisto esistente o crearne uno.
@@ -109,19 +109,19 @@ Di seguito viene descritto come ricevere gli articoli con un ordine di acquisto.
 > [!NOTE]
 > Se usi la gestione warehouse, non puoi utilizzare l'azione **Registra** sull'ordine di acquisto per registrare la ricevuta. Questo perché un addetto warehouse ha già registrato la quantità dell'ordine di acquisto ricevuta. Per ulteriori informazioni vedi [Dettagli di progettazione - Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md).
 
-## <a name="receive-more-items-than-ordered"></a>Ricevere più articoli di quelli ordinati
+## Ricevere più articoli di quelli ordinati
 
-Quando arrivano più merci di quelle ordinate, è possibile che vuoi mantenerle anziché annullare il carico. Ad esempio, potrebbe essere più economico mantenere l'eccesso di articoli nell'inventario anziché restituirli oppure il fornitore potrebbe offrire uno sconto per accettarlo.
+Quando arrivano più merci di quelle ordinate, potresti volerle mantenere anziché annullare il carico. Ad esempio, potrebbe essere più economico mantenere l'eccesso di articoli nell'inventario anziché restituirli oppure il fornitore potrebbe offrire uno sconto per accettarlo.
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
-### <a name="set-up-over-receipts"></a>Configurare le ricevute in eccesso
+### Configurare le ricevute in eccesso
 
 Crea i codici di ricevuta in eccesso per definire una percentuale in base alla quale una quantità ricevuta può superare la quantità ordinata. Specifica la percentuale nel campo **% tolleranza per ricezione eccessiva**. Quindi assegna il codice nelle pagine Scheda articolo o Scheda fornitore per articoli e fornitori.  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Codici di ricezione eccessiva**, quindi scegli il collegamento correlato.
 2. Compila i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="assign-the-over-receipt-code-to-an-item"></a>Assegnare il codice di ricezione eccessiva a un articolo
+### Assegnare il codice di ricezione eccessiva a un articolo
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , inserisci **Elemento** e scegli il link relativo.
 2. Apri la pagina **Scheda articolo** per l'articolo.
@@ -132,7 +132,7 @@ Il codice di ricezione eccessiva viene assegnato all'articolo. Gli ordini di acq
 > [!NOTE]
 > È possibile configurare un flusso di lavoro di approvazione per richiedere che le ricezioni eccessive debbano essere approvate prima di poter essere gestite. Seleziona la casella di conteollo **Approvazione richiesta** nella pagina **Codici di ricezione eccessiva**. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).
 
-### <a name="over-receive-an-order"></a>Ricezione eccessiva di un ordine
+### Ricezione eccessiva di un ordine
 
 Sulle righe di acquisto e sulle righe di ricevuta del magazzino, il campo **Quantità di ricezione eccessiva** viene utilizzato per registrare le quantità ricevute in eccesso, ovvero le quantità che superano il valore nel campo **Quantità**, la quantità ordinata.
 
@@ -142,18 +142,18 @@ Quando si gestisce una ricezione in eccesso, puoi aumentare il valore nel campo 
 
     Se l'aumento rientra nella tolleranza specificata dal codice di ricezione eccessiva assegnato, il campo **Quantità di ricezione eccessiva** viene aggiornato per mostrare la quantità che il valore nel campo **Quantità** ha superato.
 
-    Se l'aumento è superiore alla tolleranza, la ricezione eccessiva non è consentita. Verifica se un altro codice di ricevuta in eccesso la consene. In caso contrario, è possibile ricevere solo la quantità ordinata e la quantità in eccesso deve essere gestita altrimenti, ad esempio, restituendola al fornitore.
+    Se l'aumento è superiore alla tolleranza, la ricezione eccessiva non è consentita. Verifica se un altro codice di ricevuta in eccesso la consente. In caso contrario, è possibile ricevere solo la quantità ordinata e la quantità in eccesso deve essere gestita altrimenti, ad esempio, restituendola al fornitore.
 
 2. Registra la ricevuta come faresti per qualsiasi altra ricevuta.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] non gestisce automaticamente gli aspetti finanziari delle ricevute in eccesso. È necessario gestirle manualmente in accordo con il fornitore, ad esempio, chiedendo al fornitore di inoltrare una fattura nuova o aggiornata.
 
-## <a name="external-document-number"></a>Numero di documento esterni
+## Numero di documento esterni
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="posting-purchases"></a>Registrazione di acquisti
+## Registrazione di acquisti
 
 In un documento di acquisto, è possibile scegliere tra le seguenti azioni di registrazione:
 
@@ -165,7 +165,7 @@ In un documento di acquisto, è possibile scegliere tra le seguenti azioni di re
 
 Quando un documento di acquisto viene registrato, il conto del fornitore, la contabilità generale e i movimenti contabili risorse vengono aggiornati.
 
-Per ciascun documento di acquisto viene creato un movimento di acquisto nella tabella **Movimenti C/G**. Vengono inoltre creati un movimento nel conto del fornitore nella tabella **Mov. contabili fornitori** e un movimento C/G nel relativo conto passività verso il fornitore. Infine, la registrazione dell'acquisto potrebbe generare un movimento IVA e un movimento C/G relativi all'importo dello sconto. La registrazione di un movimento relativo allo sconto dipende dal contenuto del campo **Registrazione Sconti** nella pagina **Setup contabilità fornitori**.
+Per ciascun documento di acquisto viene creato un movimento di acquisto nella tabella **Movimenti C/G**. Vengono inoltre creati un movimento nel conto del fornitore nella tabella **Mov. contabili fornitori** e un movimento C/G nel relativo conto passività verso il fornitore. Inoltre, la registrazione dell'acquisto può generare un movimento IVA e un movimento C/G relativi all'importo dello sconto. La registrazione di un movimento relativo allo sconto dipende dal contenuto del campo **Registrazione Sconti** nella pagina **Setup contabilità fornitori**.
 
 Per ogni riga di acquisto, se applicabile, verranno create le seguenti voci:
 
@@ -175,7 +175,7 @@ Per ogni riga di acquisto, se applicabile, verranno create le seguenti voci:
 
 Inoltre, i documenti di acquisto vengono sempre registrati nelle tabelle **Testata carico acq.** e **Testate fatt. acq**.
 
-È sempre possibile rivedere i vari movimenti contabili che verranno creati in seguito alle registrazioni. Scegli **Anteprima registrazione** per convalidare il documento e ispezionare i movimenti contabili previsti.
+È sempre possibile rivedere i vari movimenti contabili che vengono creati in seguito alle registrazioni. Scegli **Anteprima registrazione** per convalidare il documento e ispezionare i movimenti contabili previsti.
 
 
 > [!IMPORTANT]  
@@ -183,17 +183,17 @@ Inoltre, i documenti di acquisto vengono sempre registrati nelle tabelle **Testa
 
 È possibile effettuare la registrazione oppure effettuare la registrazione e stampare. Quando si seleziona Registra e stampa, viene stampato un report al momento della registrazione dell'ordine. È inoltre possibile scegliere l'azione **Registra batch** per registrare più ordini contemporaneamente. Ulteriori informazioni in [Registrare più documenti contemporaneamente](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Visualizzazione di movimenti contabili
+## Visualizzazione di movimenti contabili
 
 Una volta completata la registrazione, le righe di acquisto registrate vengono rimosse dall'ordine. Un messaggio avviserà l'utente che la registrazione è completata. Dopodiché sarà possibile visualizzare i movimenti registrati nelle varie pagine, come ad esempio le pagine **Movimenti contabili fornitori**, **Movimenti C/G**, **Mov. contabili articoli**, **Movimenti contabili risorse**, **Ricezioni acquisti** e **Fatture acquisto registrate**.
 
 Nella maggior parte dei casi, è possibile aprire i movimenti contabili dalla scheda o dal documento interessato. Ad esempio, nella pagina **Scheda fornitore** scegliere l'azione **Movimenti**.
 
-## <a name="editing-ledger-entries"></a>Modifica di movimenti contabili
+## Modifica di movimenti contabili
 
 È possibile modificare determinati campi nei documenti di acquisto registrati, come ad esempio **Riferimento pagamento**. Ulteriori informazioni in [Modificare i documenti registrati](across-edit-posted-document.md). Per i campi più critici che influiscono sulla traccia di controllo, è necessario stornare o annullare la registrazione. Ulteriori informazioni in [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Richiedere le offerte](purchasing-how-request-quotes.md)  
 [Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md)  

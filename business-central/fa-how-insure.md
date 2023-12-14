@@ -11,7 +11,7 @@ ms.search.form: '5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 927
 ms.date: 06/29/2021
 ms.author: bholtorf
 ---
-# <a name="insure-fixed-assets"></a>Assicurazione di cespiti
+# Assicurazione di cespiti
 La polizza assicurativa di un cespite è rappresentata da una scheda assicurazione. È possibile assegnare un solo cespite a una sola polizza assicurativa o più cespiti a una sola polizza assicurativa.
 
 Assegnare un cespite a una polizza assicurativa registrando nel registro di copertura assicurativa dalla pagina **Registr. assicuraz.**.
@@ -25,7 +25,7 @@ Se la casella di controllo **Reg. automatica assicurazione** della pagina **Setu
 
 Dopo aver assegnato un cespite ad una polizza assicurativa, la casella di controllo **Assicurato** viene selezionata nella scheda cespite. Quando si vende il cespite, la casella di controllo viene deselezionata automaticamente.
 
-## <a name="to-create-or-modify-an-insurance-card"></a>Per creare o modificare una scheda assicurazione
+## Per creare o modificare una scheda assicurazione
 La polizza assicurativa di un cespite deve essere rappresentata da una scheda assicurazione.
 
 In caso di ricezione di informazioni relative a modifiche dell'importo di copertura, è necessario immettere le nuove informazioni nella pagina **Scheda assicurazione** per assicurarsi che la copertura della polizza venga analizzata correttamente.  
@@ -34,7 +34,7 @@ In caso di ricezione di informazioni relative a modifiche dell'importo di copert
 2. Scegliere l'azione **Nuovo** per creare una nuova scheda per una polizza assicurativa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In alternativa, selezionare la polizza assicurativa che si desidera modificare, quindi scegliere l'azione **Modifica**.
 
-## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Per assegnare un cespite a una polizza assicurativa mediante la registrazione dalla registrazione assicurazioni
+## Per assegnare un cespite a una polizza assicurativa mediante la registrazione dalla registrazione assicurazioni
 Assegnare un cespite a una polizza assicurativa mediante la registrazione al registro della copertura assicurativa.  
 
 La seguente procedura illustra come creare manualmente una riga di registrazione assicurazioni. Se la casella di controllo **Reg. automatica assicurazione** è selezionata nella pagina **Setup cespiti**, le righe di registrazione assicurazioni vengono create automaticamente durante la registrazione dei costi di acquisto. In tal caso, è sufficiente registrare la registrazione.  
@@ -47,7 +47,7 @@ La seguente procedura illustra come creare manualmente una riga di registrazione
     > [!NOTE]  
     >   I movimenti delle registrazioni delle assicurazioni vengono registrati soltanto nelle registrazioni della copertura assicurativa.  
 
-## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Per aggiornare il valore dell'assicurazione di un cespite
+## Per aggiornare il valore dell'assicurazione di un cespite
 Il processo batch **Indice Cespiti** consente di aggiornare il valore dei cespiti coperti da assicurazione.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Indice assicurazioni**, quindi scegli il collegamento correlato.
@@ -61,16 +61,16 @@ Il processo batch **Indice Cespiti** consente di aggiornare il valore dei cespit
 4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni assicurazioni**, quindi scegli il collegamento correlato.  
 5. Aprire la registrazione assicurazioni appropriata, esaminare i valori creati e registrarli nel registro di copertura assicurativa.  
 
-## <a name="to-monitor-insurance-coverage"></a>Per controllare la copertura assicurativa
+## Per controllare la copertura assicurativa
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce le pagine dedicate per statistiche e report da utilizzare per analizzare le polizze assicurative e controllare se i cespiti sono sovra o sotto assicurati.  
 
-### <a name="overview-of-insurance-policies"></a>Sintesi delle polizze assicurative
+### Sintesi delle polizze assicurative
 Per una sintesi delle polizze assicurative, visualizzare in anteprima o stampare il report **Assicurazione - Lista**. Nel report vengono visualizzate tutte le polizze e i campi più importanti delle schede assicurative.  
 
-### <a name="insurance-coverage"></a>Copertura assicurativa
+### Copertura assicurativa
 Per sapere quale polizza assicurativa copre ogni risorsa e per quale importo, è possibile visualizzare in anteprima o stampare il report **Assicurazione - Totale valori assicurati**.  
 
-### <a name="overunder-coverage"></a>Sopra/sottocopertura
+### Sopra/sottocopertura
 È possibile controllare se i cespiti sono sovra o sotto assicurati nei seguenti modi:  
 
 * La pagina **Statistiche assicurazioni**. Un importo positivo nel campo **Sopra/sotto assicurato** indica che il cespite è soprassicurato. Un importo negativo indica invece che è sottoassicurato.  
@@ -78,16 +78,16 @@ Per sapere quale polizza assicurativa copre ogni risorsa e per quale importo, è
 * Il report **Sopra/sottocopertura**.  
 * Il report **Analisi assicurazioni**.  
 
-### <a name="uninsured-fixed-assets"></a>Cespiti non assicurati
+### Cespiti non assicurati
 Per controllare di non aver dimenticato di assegnare un cespite ad una polizza assicurativa è possibile stampare o visualizzare in anteprima il report **Assicur. - Cespiti non Assic.** In questo report vengono visualizzati i cespiti i cui importi non sono stati registrati nel registro della copertura assicurativa.  
 
-## <a name="to-view-insurance-coverage-ledger-entries"></a>Per visualizzare i movimenti contabili di copertura assicurativa
+## Per visualizzare i movimenti contabili di copertura assicurativa
 È possibile visualizzare i movimenti effettuati nel registro copertura assicurativa.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Assicurazione**, quindi scegli il collegamento correlato.  
 2. Selezionare la polizza assicurativa rilevante e scegliere l'azione **Mov.cont. copert. assicurativa**.  
 
-## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Per visualizzare il valore totale assicurato dei cespiti
+## Per visualizzare il valore totale assicurato dei cespiti
 In una pagina della matrice dedicata vengono visualizzati i valori assicurativi registrati per ognuna delle polizze assicurative di ogni cespite come risultato degli importi contabilizzati a fini assicurativi registrati.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Assicurazione**, quindi scegli il collegamento correlato.  
@@ -96,7 +96,7 @@ In una pagina della matrice dedicata vengono visualizzati i valori assicurativi 
 4. Scegliere l'azione **Mostra matrice**.  
 5. Per visualizzare i movimenti contabili sottostanti della copertura assicurativa, selezionare un valore nella matrice.  
 
-## <a name="to-correct-insurance-coverage-entries"></a>Per correggere i movimenti di copertura assicurativa
+## Per correggere i movimenti di copertura assicurativa
 Se un cespite è stato collegato a una polizza assicurativa errata, è possibile correggere creando due movimenti di riclassificazione dalla registrazione assicurazioni.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni assicurazioni**, quindi scegli il collegamento correlato.  
@@ -106,7 +106,7 @@ Se un cespite è stato collegato a una polizza assicurativa errata, è possibile
 
 Il cespite viene scollegato dalla polizza assicurativa errata, sulla seconda riga, e viene allegato a quella corretta, sulla prima riga.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Finanze](finance.md)  

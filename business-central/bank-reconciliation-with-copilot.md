@@ -10,13 +10,13 @@ ms.date: 10/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Riconciliare i conti correnti bancari con Copilot (anteprima)
+# Riconciliare i conti correnti bancari con Copilot (anteprima)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 Questo articolo spiega come utilizzare l'assistenza per la riconciliazione dei conti correnti bancari per riconciliare le transazioni bancarie con movimenti contabili in Business Central.
 
-## <a name="about-bank-account-reconciliation-assist"></a>Informazioni sull'assistenza per la riconciliazione dei conti correnti bancari
+## Informazioni sull'assistenza per la riconciliazione dei conti correnti bancari
 
 L'assistenza per la riconciliazione dei conti correnti bancari è un insieme di funzionalità basate sull'intelligenza artificiale che ti assistono nella riconciliazione dei conti correnti bancari. L'assistenza per la riconciliazione dei conti correnti bancari ti offre due attività distinte tramite Copilot:
 
@@ -34,14 +34,14 @@ L'assistenza per la riconciliazione dei conti correnti bancari è un insieme di 
 
 
    
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti
 
 - L'assistenza per la riconciliazione dei conti correnti bancari è abilitata e attivata. Questa attività è eseguita da un amministratore. [Scopri di più sull'abilitazione delle funzionalità di Copilot e IA](enable-ai.md).
 - I conti correnti bancari in Business Central che vuoi riconciliare sono collegati a un conto corrente bancario online o impostati con il formato di importazione dell'estratto conto. 
 - Hai familiarità con la riconciliazione dei conti correnti bancari in Business Central come descritto in [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## <a name="reconcile-bank-accounts-with-copilot"></a>Riconciliare i conti correnti bancari con Copilot
+## Riconciliare i conti correnti bancari con Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -85,7 +85,7 @@ Con questo approccio, puoi utilizzare Copilot per una nuova riconciliazione del 
 1. Esamina le corrispondenze proposte come descritto nella sezione seguente. 
 ---
 
-### <a name="review-save-or-discard-proposed-matches"></a>Esaminare, salvare o eliminare le corrispondenze proposte
+### Esaminare, salvare o eliminare le corrispondenze proposte
 
 Dopo aver eseguito Copilot, la finestra **Riconcilia con Copilot** mostra i risultati dettagliati, incluse eventuali corrispondenze proposte. A questo punto, nessuna corrispondenza proposta da Copilot è stata salvata, quindi ti offre l'opportunità di esaminare le proposte e di salvarle o scartarle come preferisci.
 
@@ -100,7 +100,7 @@ La finestra Copilot è suddivisa in due sezioni. La sezione superiore fornisce a
 |Saldo finale estratto conto|Specifica il saldo finale visualizzato nell'estratto conto per il quale stai eseguendo la riconciliazione|
 |Pubblica se completamente applicato|Attiva questo interruttore se desideri pubblicare automaticamente la riconciliazione del conto corrente bancario quando tutte le righe (100%) hanno corrispondenze e hai selezionato **Conservalo**.|
 
-#### <a name="save-or-discard-proposed-matches"></a>Salvare o eliminare le corrispondenze proposte
+#### Salvare o eliminare le corrispondenze proposte
 
 Nella sezione **Proposte risultanti**, esamina le corrispondenze suggerite riga per riga, quindi intraprendi l'azione appropriata:
 
@@ -117,7 +117,7 @@ Nella sezione **Proposte risultanti**, esamina le corrispondenze suggerite riga 
 - Per salvare le corrispondenze attualmente visualizzate nella finestra di Copilot, seleziona **Conservalo**.
 
 
-## <a name="transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts"></a>Trasferire transazioni bancarie senza corrispondenze a conti di contabilità generale suggeriti
+## Trasferire transazioni bancarie senza corrispondenze a conti di contabilità generale suggeriti
 
 In questa sezione, apprenderai a utilizzare Copilot per trasferire estratti conto non riconciliati dalla contabilità del conto corrente bancario a un conto di contabilità generale. Questa attività può essere eseguita solo da una riconciliazione esistente. 
 
@@ -154,11 +154,11 @@ In questa sezione, apprenderai a utilizzare Copilot per trasferire estratti cont
 
       Questo passaggio conferma il trasferimento delle proposte attualmente selezionate dalla contabilità del conto bancario al conto di contabilità generale. Pubblica nuovi pagamenti nei conti C/G proposti e applica le righe corrispondenti ai movimenti contabili C/C bancari risultanti.
 
-## <a name="next-steps"></a>Passaggi successivi
+## Passaggi successivi
 
 [Convalidare la riconciliazione del conto corrente bancario](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Risoluzione dei problemi relativi alle funzionalità di Copilot e IA](ai-copilot-troubleshooting.md)  
 [Domande frequenti sull'intelligenza artificiale responsabile per l'assistenza per la riconciliazione dei conti correnti bancari](faqs-bank-reconciliation.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  

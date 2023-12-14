@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# <a name="walkthrough-conducting-a-sales-campaign"></a>Procedura dettagliata: Conduzione di una campagna di vendita
+# Procedura dettagliata: Conduzione di una campagna di vendita
 
 Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte importante dell'impostazione di una campagna è la selezione del target. A questo scopo, in [!INCLUDE[prod_short](includes/prod_short.md)] si crea un segmento, o gruppo di contatti, utilizzando dei filtri.  
 
@@ -18,7 +18,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
  Le funzioni di Campagna e Segmento con i loro processi automatizzati consentono di pianificare, organizzare e tenere traccia delle attività di marketing. Ciò incrementa le possibilità di acquisire nuovi clienti e mantenere quelli esistenti.  
 
-## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
+## Informazioni sulla procedura dettagliata
 
  In questa procedura dettagliata viene illustrato come fare seguito a una fiera di settore rivolgendosi ai potenziali clienti (contatti) con una campagna mirata.  
 
@@ -31,18 +31,18 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 - Invio di lettere ai contatti  
 - Registrazione delle risposte alla campagna  
 
-## <a name="roles"></a>Ruoli
+## Ruoli
 
  Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
 
 - Manager marketing o manager vendite  
 - Impiegato di marketing  
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti
 
  Prima di svolgere le attività di questa procedura dettagliata, è necessario installare [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="story"></a>Scenario
+## Scenario
 
  Il manager marketing del reparto vendite di CRONUS ha il compito di pianificare le campagne e di attuarle. Il manager marketing decide anche a quali fiere di settore partecipare e valuta il progresso della campagna.  
 
@@ -56,11 +56,11 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
  L'impiegato di marketing aiuta ad inviare lettere di ringraziamento a tutti i contatti che hanno lasciato il loro biglietto da visita allo stand e, infine, il responsabile registra tutte le risposte ricevute dai potenziali clienti.  
 
-## <a name="setting-up-a-campaign"></a>Impostazione della campagna
+## Impostazione della campagna
 
  Non appena l'impiegato ha terminato di inserire i dati dei biglietti da visita raccolti alla fiera, il manager imposta una scheda per gestire le attività necessarie per la campagna.  
 
-### <a name="to-set-up-a-campaign"></a>Per impostare una campagna
+### Per impostare una campagna  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Campagne**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** per creare una nuova campagna. Nella scheda campagna, seleziona <kbd>Invio</kbd> per inserire automaticamente un numero campagna.  
@@ -68,13 +68,13 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 4. Scegliere il campo **Codice di stato** e selezionare il codice di stato "1-PLAN". 
 5. Compilare i campi **Data inizio** e **Data fine** della campagna.  
 
-## <a name="selecting-the-target-audience"></a>Selezione del target
+## Selezione del target
 
  Il manager marketing crea un segmento per selezionare i contatti con i quali vuole interagire.  
  
  Quando crei un segmento, puoi utilizzare una serie di criteri per selezionare i contatti che devono essere target per il segmento. Ad esempio, puoi selezionare le persone di contatto che lavorano presso la sede di un cliente o responsabili degli acquisti presso un potenziale cliente. I filtri servono per aggiungere contatti in base ai criteri più rispondenti ai propri scopi. Ad esempio, è possibile scegliere di impostare un filtro in base al ruolo professionale del contatto o alla relazione d'affari o al settore della società contatto. In questa procedura dettagliata verrà impiegato il filtro **Ruolo professionale** per selezionare i contatti.
 
-### <a name="to-create-a-segment-with-the-relevant-contacts"></a>Per creare un segmento con i contatti scelti
+### Per creare un segmento con i contatti scelti  
 
 1. Scegliere l'azione **Naviga**, quindi scegliere **Segmenti**.  
 2. Scegliere l'azione **Nuovo** per creare un nuovo segmento. Nella scheda segmento, premere **Invio** per inserire automaticamente un numero segmento.  
@@ -87,18 +87,18 @@ La pagina **Segmento** ora contiene una lista dei contatti in base al filtro imm
 > [!NOTE]  
 > È possibile salvare i criteri per riutilizzarli in futuro.
 
-### <a name="to-save-your-segmentation-criteria"></a>Per salvare i criteri di segmentazione
+### Per salvare i criteri di segmentazione
 
 1. Nella pagina **Segmento**, scegliere **Azioni**.
 2. Scegliere **Funzioni**, quindi **Segmento**, quindi scegliere l'azione **Salva criteri**.  
 3. Nella pagina **Salva criteri segmento** , immettere un codice per il segmento. Nel campo **Descrizione** inserire una descrizione dei criteri segmento.
 4. Scegliere il pulsante **OK**.  
 
-## <a name="mining-the-data"></a>Data mining
+## Data mining
 
  Il manager marketing esamina più attentamente l'elenco dei contatti nel segmento e si rende conto che è troppo corposa. Il manager decide quindi di ridurre il numero dei contatti a quelli dei clienti potenziali effettivi, in modo da concentrarsi sul target giusto. Questo processo di affinamento e riduzione dei dati è anche detto data mining.  
 
-### <a name="to-remove-contacts-from-the-segment"></a>Per rimuovere contatti dal segmento
+### Per rimuovere contatti dal segmento  
 
 1. Nella pagina **Segmento**, scegliere **Azioni**.
 2. Nella barra dei menu in basso, scegli **Funzioni**, **Contatti** e **Riduci contatti**.  
@@ -111,28 +111,28 @@ La pagina **Segmento** ora contiene una lista dei contatti in base al filtro imm
  > [!NOTE]  
  > Per annullare quest'ultima operazione, utilizzare la funzione **Vai a precedente**. Ciò significa che è possibile annullare l'ultima segmentazione.  
 
-### <a name="to-bring-back-the-removed-contacts"></a>Per riportare i contatti rimossi
+### Per riportare i contatti rimossi
 
 1. Nella pagina **Segmento**, scegliere l'azione **Segmento**.
 2. Scegliere l'azione **Indietro**.
 
 I contatti appena rimossi vengono reinseriti nell'elenco dei contatti.
 
-## <a name="linking-a-segment-to-a-campaign"></a>Collegamento di un segmento a una campagna
+## Collegamento di un segmento a una campagna
 
 Il manager marketing decide che l'elenco ridotto è quello finale dei contatti da coinvolgere nella campagna. Quindi collega questo segmento alla campagna della fiera FUTURUS.  
 
-### <a name="to-link-a-segment-to-the-campaign"></a>Per collegare un segmento a una campagna
+### Per collegare un segmento a una campagna  
 
 1. Nella pagina **Segmento**, nella Scheda dettaglio **Campagna**, selezionare il campo **Nr. campagna** per selezionare la campagna alla quale si desidera collegare il segmento, ad esempio, **CP0001**.
 2. Seleziona **Sì**.  
 3. Poiché questo segmento è il target della campagna, selezionare la casella di controllo **Target campagna** e poi **Sì**.  
 
-## <a name="sending-letters-and-email-messages-to-contacts"></a>Invio di lettere e messaggi di posta elettronica ai contatti
+## Invio di lettere e messaggi di posta elettronica ai contatti
 
  L'impiegato di marketing aiuta il manager a inviare una comunicazione ai potenziali clienti, ringraziandoli di aver visitato lo stand alla fiera.
 
-### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Per utilizzare un segmento per l'invio di una lettera a un contatto
+### Per utilizzare un segmento per l'invio di una lettera a un contatto  
 
 > [!NOTE]  
 > In questa procedura devi allegare un documento Word. Puoi aggiungere allegati in qualsiasi lingua.
@@ -160,7 +160,7 @@ Dopo che il segmento è stato registrato, ogni lettera inviata viene registrata 
 
 Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti log interazione**, quindi scegli il collegamento correlato. È presente un movimento per ciascuna lettera inviata.  
 
-### <a name="to-send-an-email-message-to-a-contact"></a>Per inviare un messaggio di posta elettronica a un contatto
+### Per inviare un messaggio di posta elettronica a un contatto  
 
 1. Nel campo **Codice modello interazione** della Scheda dettaglio **Interazione** selezionare il modello Lettera Business con codice **BUS**.  
 2. Nel campo **Oggetto (Default)** immettere il seguente testo di esempio: **Grazie di aver visitato la fiera**.  
@@ -173,13 +173,13 @@ Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità de
 
  Le lettere vengono inviate automaticamente tramite posta elettronica e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato salvato nella lista dei segmenti registrati. Per vedere l'elenco, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Segmenti registrati**, quindi scegli il collegamento correlato.  
 
-## <a name="registering-campaign-responses"></a>Registrazione delle risposte alla campagna
+## Registrazione delle risposte alla campagna
 
  Nel corso delle due settimane seguenti, i potenziali clienti rispondono alla lettera. Il responsabile del marketing desidera tenere traccia delle risposte e registrare le interazioni.  
 
  A tal scopo, impostare un segmento dei contatti che hanno risposto alla lettera  
 
-### <a name="to-register-campaign-responses"></a>Per registrare le risposte alla campagna
+### Per registrare le risposte alla campagna  
 
 1. Nella scheda dettaglio **Interazione** della pagina **Segmento**, scegli il **Codice modello interazione**.  
 
@@ -193,7 +193,7 @@ Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità de
 7. Nella pagina **Segmento**, scegliere l'azione **Log**.  
 8. Nella pagina **Segmento di registro**, cancellare la casella di controllo **Invia allegati**. Quindi selezionare **OK** per confermare il messaggio che il segmento è stato registrato.  
   
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 [Gestione delle relazioni](marketing-relationship-management.md)  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
  [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

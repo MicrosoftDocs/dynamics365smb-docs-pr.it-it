@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 09/11/2023
+ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# <a name="invoice-sales"></a>Fatturazione delle vendite
+# Fatturazione delle vendite
 
 Puoi creare una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.  
 
@@ -25,7 +25,7 @@ In tutte le altre situazioni, gli ordini di vendita e le fatture di vendita funz
 
 È possibile negoziare con il cliente prima di tutto creando un'offerta di vendita, che è possibile convertire in una fattura di vendita quando ci si accorda sulla vendita. Per ulteriori informazioni, vedi [Creare offerte di vendita](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Crea fatture di vendita
+## Crea fatture di vendita
 
 Se il cliente decide di acquistare, registrare la fattura di vendita per creare i relativi movimenti di quantità e valore. Quando si registra la fattura di vendita, è possibile inviarla via email come allegato PDF. È possibile impostare il messaggio con un testo precompilato che riepiloga le informazioni della fattura e per il pagamento, ad esempio con un collegamento a PayPal. Ulteriori informazioni in [Inviare documenti via e-mail](ui-how-send-documents-email.md). Quando un cliente paga quindi la fattura, è possibile registrare il pagamento in diversi modi, a seconda della dimensione e dei flussi di lavoro preferiti dell'organizzazione. Ulteriori informazioni nella sezione [Registrazione dei pagamenti](#register-payments).  
 
@@ -33,7 +33,7 @@ Le schede articolo possono essere di tipo **Inventario**, **Assistenza** o **Non
 
 È possibile compilare i campi cliente nella fattura di vendita in uno dei due modi a seconda che il cliente sia già registrato o meno. Vedere il passaggio 2 della procedura riportata di seguito.
 
-### <a name="to-create-a-sales-invoice"></a>Per creare una fattura di vendita
+### Per creare una fattura di vendita
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Nel campo **Nome del cliente**, inserite il nome di un cliente esistente. Se, tuttavia, il cliente è nuovo e quindi non registrato, attieniti alla seguente procedura per popolare le informazioni standard del cliente nella pagina **Fattura di vendita**:
@@ -72,10 +72,10 @@ Le schede articolo possono essere di tipo **Inventario**, **Assistenza** o **Non
     Il prezzo e gli importi riga sono con o senza le tasse di vendita a seconda della selezione nel campo **Prezzi IVA inclusa** della scheda cliente.  
 7. Se si desidera assegnare uno sconto, immettere una percentuale nel campo **% sconto riga**. Il valore nel campo **Importo riga** viene aggiornato di conseguenza.  
 
-    Se sono stati impostati prezzi articolo speciali nella Scheda dettaglio **Prezzi di vendita e sconti riga di vendita** per il cliente o la scheda articolo, la percentuale di sconto riga, il prezzo e l'importo nella riga dei vendita vengono automaticamente aggiornati se vengono soddisfatti i criteri di prezzo concordati. Ulteriori informazioni in [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md)  
+    Se sono stati impostati prezzi articolo speciali nella Scheda dettaglio **Prezzi di vendita e sconti riga di vendita** nella scheda cliente o articolo, e se vengono soddisfatti i criteri di prezzo, il prezzo e l'importo nella riga di vendita vengono automaticamente aggiornati. Ulteriori informazioni in [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md)  
 8. Ripetere i passaggi da 4 a 7 per ogni prodotto o addebito che si desidera fatturare al cliente.
 
-    I campi dei totali sotto le righe vengono automaticamente aggiornati quando si creano o si modificano le righe per visualizzare gli importi che verranno registrati nei libri contabili.
+    I campi dei totali sotto le righe vengono automaticamente aggiornati, quando si creano o si modificano le righe, per visualizzare gli importi che verranno registrati nei libri contabili.
 
     > [!NOTE]
     > In casi molto rari, gli importi registrati possono discostarsi da ciò che viene visualizzato nei campi dei totali. Ciò è in genere dovuto ai calcoli di arrotondamento in relazione all'IVA o all'imposta sulle vendite.<br /><br />Per verificare gli importi che registrerai, utilizza il riquadro Dettaglio informazioni **Statistiche cliente**. Inoltre, quando scegli l'azione **Rilascia**, i valori nei campi dei totali verranno aggiornati per includere i calcoli di arrotondamento.
@@ -90,25 +90,25 @@ Viene visualizzata la finestra dialogo **Registra e invia conferma** con il meto
 
 I movimenti articolo e di contabilità cliente sono ora creati nel sistema e la fattura di vendita è emessa come documento PDF. La fattura di vendita viene rimossa dall'elenco delle fatture di vendita e sostituita con un nuovo documento nell'elenco delle fatture di vendita registrate.  
 
-### <a name="calculate-invoice-discounts-on-sales"></a>Calcolare sconti fattura per le vendite
+### Calcolare sconti fattura per le vendite
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Fatture registrate
+## Fatture registrate
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
-È possibile correggere o annullare in modo semplice una fattura di vendita registrata prima che venga pagata. Ciò risulta utile se si desidera correggere un errore di digitazione o se il cliente richiede una modifica in anticipo nell'elaborazione dell'ordine. Ulteriori informazioni in [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md). Se la fattura di vendita registrata è stata pagata, allora sarà necessario creare una nota di credito di vendita per stornare la vendita. Ulteriori informazioni in [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md).  
+È possibile correggere o annullare in modo semplice una fattura di vendita registrata prima del pagamento finale. Ciò risulta utile se si desidera correggere un errore di digitazione o se il cliente richiede una modifica in anticipo nell'elaborazione dell'ordine. Ulteriori informazioni in [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md). Se la fattura di vendita registrata è stata pagata, allora sarà necessario creare una nota di credito di vendita per stornare la vendita. Ulteriori informazioni in [Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md).  
 
 [Apri l'elenco **Fatture vendite registrate**](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="register-payments"></a>Registrare i pagamenti
+## Registrare i pagamenti
 
 In base alle esigenze aziendali, è possibile ottenere pagato e registrare un pagamento in diversi modi: manualmente, in modo automatico e tramite i servizi di pagamento.  
 
 È possibile elaborare i pagamenti direttamente dalla scheda cliente. Utilizzare l'azione **Registra pagamenti clienti** per ottenere una sintesi delle fatture pagate non per tale cliente. Quindi, contrassegnare la fattura come pagata parzialmente o interamente. Questi processi di riconciliazione pagamenti elaborano i pagamenti dei clienti facendo corrispondere gli importi ricevuti sul conto bancario alle relative fatture di vendita non pagate, quindi registrare i pagamenti. Ulteriori informazioni nella sezione [Per riconciliare i pagamenti individualmente](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-Negli ambienti aziendali in cui il cliente paga qualche tempo dopo la consegna, in base alle condizioni di pagamento, una fattura di vendita registrata rimane aperta (non pagata) fino a quando il reparto Contabilità clienti verifica che il pagamento sia stato ricevuto e applica il pagamento alla fattura di vendita pubblicata. Questo può essere fatto manualmente o automaticamente. Ulteriori informazioni, in [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md) e [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).  
+Negli ambienti aziendali in cui il cliente paga qualche tempo dopo la consegna. In base alle condizioni di pagamento, una fattura di vendita registrata rimane aperta (non pagata) fino a quando il reparto Contabilità clienti verifica il pagamento e lo applica alla fattura di vendita registrata. Questo può essere fatto manualmente o automaticamente. Ulteriori informazioni, in [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md) e [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).  
 
 Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio tramite PayPal o contanti, il pagamento viene registrato immediatamente quando si registra la fattura di vendita, vale a dire la fattura di vendita pubblicata viene chiusa come interamente applicata. Selezionare il metodo rilevante nel campo **Codice metodo di pagamento** nell'ordine cliente. Per i pagamenti elettronici, come PayPal, compilare anche il campo **Servizio di pagamento**. Ulteriori informazioni in [Abilitare i pagamenti clienti tramite i servizi di pagamento](sales-how-enable-payment-service-extensions.md).
 
@@ -117,11 +117,11 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 > [!TIP]
 > Se desideri inviare ai clienti solleciti per pagamenti in ritardo, devi dapprima impostare i livelli e i termini di sollecito. Ulteriori informazioni in [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers"></a>Numeri di documento esterno
+## Numeri di documento esterno
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

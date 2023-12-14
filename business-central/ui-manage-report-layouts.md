@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650, 9660'
 ms.date: 05/23/2023
 ms.author: jswymer
 ---
-# <a name="report-and-document-layouts-overview"></a>Panoramica dei layout di report e documento
+# Panoramica dei layout di report e documento
 
 Un layout di report controlla il contenuto e il formato del report, compresi quali campi di dati di un set di dati vengono visualizzati nel report e come siano disposti, lo stile del testo, le immagini e altro. Da [!INCLUDE[prod_short](includes/prod_short.md)] è possibile cambiare il layout utilizzato in un report, creare un nuovo layout o modificare i layout esistenti.
 
@@ -20,7 +20,7 @@ Un layout di report controlla il contenuto e il formato del report, compresi qua
 
 Puoi utilizzare i layout anche per aggiungere contenuti ai messaggi di posta elettronica. Ad esempio, i layout dei report possono far risparmiare tempo e contribuire a garantire la coerenza riutilizzando lo stesso contenuto quando comunichi con i clienti. Per utilizzare i layout di report personalizzati con e-mail, il tipo di file per il layout deve essere Word. Non è possibile utilizzare il tipo di file RDLC. Per ulteriori informazioni, vedi [Impostare testi e layout e-mail riutilizzabili](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="introduction"></a>Introduzione
+## Introduzione
 
 In particolare, un layout di report imposta quanto segue:
 
@@ -35,11 +35,11 @@ Un report può essere impostato con diversi layout di report, che è possibile a
 
 Ci sono due aspetti importanti dei layout di report che influenzeranno il modo in cui li utilizzi: il *tipo di layout* e l'*origine del layout*. Il tipo di layout indica la tipologia di file su cui si basa il layout. L'origine del layout specifica l'origine del layout.
 
-## <a name="layout-types"></a>Tipi di layout
+## Tipi di layout
 
 Esistono quattro tipi di layout che è possibile utilizzare nei report: Word, RDLC, Excel ed esterno.
 
-### <a name="word"></a>Word
+### Word
 
 I layout di Word si basano sui documenti di Word (tipo di file .docx). I layout di Word consentono di progettare layout utilizzando Microsoft Word. Un layout di Word determina il contenuto del report, controllando la disposizione e l'aspetto degli elementi del contenuto. Un documento di layout di Word in genere utilizza tabelle per la disposizione del contenuto, le cui celle possono contenere campi di dati, testo o immagini.
 
@@ -49,7 +49,7 @@ I layout di Word si basano sui documenti di Word (tipo di file .docx). I layout 
 
 Per ulteriori informazioni, vedi [Utilizzare i layout di Word](ui-how-add-fields-word-report-layout.md).
 
-### <a name="excel"></a>Excel
+### Excel
 
 I layout di Excel si basano sulle cartelle di lavoro Microsoft Excel (tipo di file .xlsx). Consentono di creare report utilizzando le familiari funzionalità di Excel per il riepilogo, l'analisi e la presentazione dei dati con strumenti come formule, tabelle pivot, grafici pivot e altro
 
@@ -57,7 +57,7 @@ I layout di Excel si basano sulle cartelle di lavoro Microsoft Excel (tipo di fi
 
 Per ulteriori informazioni, vedi [Utilizzare i layout di Excel](ui-excel-report-layouts.md).
 
-### <a name="rdlc"></a>RDLC
+### RDLC
 
 I layout RDLC sono basati sui file di layout di definizione dei report dei client (tipi di file .rdl o .rdlc). Questi layout vengono creati e modificati utilizzando il Generatore report di SQL Server o Microsoft RDLC Report Designer. Il concetto di progettazione per i layout RDLC è simile ai layout di Word, in cui il layout determina quali campi mostrare e come sono disposti. Tuttavia la progettazione dei layout RDLC è un'operazione più avanzata, rispetto ai layout Word.
 
@@ -65,13 +65,13 @@ I layout RDLC sono basati sui file di layout di definizione dei report dei clien
 
 Per ulteriori informazioni, vedi [Utilizzare i layout RDLC](ui-rdlc-report-layouts.md).
 
-### <a name="external"></a>Esterno
+### Esterno
 
 Un tipo di layout esterno si riferisce a un tipo avanzato appositamente progettato per report specifici. I report e i layout stessi sono in genere forniti dai partner, non da Microsoft. Il tipo di file effettivo del layout varia a seconda del provider.
 
 Per ulteriori informazioni, vedi [Sviluppo di un rendering di report personalizzato](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## <a name="layout-sources"></a>Origini del layout
+## Origini del layout
 
 Oltre al tipo, i layout sono ulteriormente suddivisi in tre categorie, in base alla loro origine o fonte.
 
@@ -97,7 +97,7 @@ Per informazioni che ti aiuteranno a decidere qual è il tipo megliore per te, v
 > Una cosa importante da ricordare è che non è possibile modificare i layout di estensione dal client Business Central. Ad esempio, non è consentito modificare il nome o il tipo di layout, né caricarlo e sostituirlo con un'altra versione. Se tenti, viene visualizzato un messaggio di errore. Dovrai invece creare un layout personalizzato o definito dall'utente in base al layout di estensione.
 
 <!--
-### <a name="built-in-and-custom-report-layouts"></a>Built-in and custom report layouts
+### Built-in and custom report layouts
 
 
 
@@ -117,7 +117,7 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Aggiornare layout di report personalizzati](ui-update-report-layouts.md)  
 [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)  

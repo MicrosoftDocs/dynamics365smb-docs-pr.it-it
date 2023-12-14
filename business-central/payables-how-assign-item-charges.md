@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'transportation, added cost, landed cost'
 ms.search.form: '5709, 5800, 5805, 5814'
-ms.date: 06/22/2021
+ms.date: 11/08/2023
 ms.author: bholtorf
 ---
-# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali
+# Usare gli addebiti articolo al conto per i costi aggiuntivi commerciali
 
 Per una valutazione corretta, è necessario includere nei movimenti di magazzino tutti i costi aggiuntivi, quali spedizione, gestione fisica, assicurazione e trasporto sostenuti per l'acquisto o la vendita degli articoli. Per gli acquisti, il costo franco di tutte le spese allo sbarco di un articolo acquistato è dato dal prezzo di acquisto del fornitore più tutti gli addebiti articolo diretti aggiuntivi che è possibile assegnare ai singoli carichi o alle singole spedizioni di reso. Per le vendite, per un'azienda conoscere il costo della spedizione di articoli venduti è altrettanto importante che conoscere il costo franco di tutte le spese di sbarco degli articoli acquistati.
 
@@ -31,13 +31,13 @@ Sia per i documenti di vendita che di acquisto, è possibile assegnare un addebi
 > [!NOTE]  
 > È possibile assegnare addebiti articoli a ordini, fatture e note di credito, per i documenti di vendita e per quelli di acquisto. Di seguito viene descritto come utilizzare gli addebiti articolo per una fattura di acquisto. I passaggi sono simili per tutti gli altri documenti di acquisto o vendita.
 
-## <a name="example"></a>Esempio
+## Esempio
 
 Questo video mostra come gestire un costo di spedizione aggiuntivo come parte del costing di magazzino.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## <a name="to-set-up-item-charge-numbers"></a>Per impostare i numeri di addebito articolo
+## Per impostare i numeri di addebito articolo
 
 I numeri di addebito articolo vengono utilizzati per distinguere fra i vari tipi di addebito.
 
@@ -45,7 +45,7 @@ I numeri di addebito articolo vengono utilizzati per distinguere fra i vari tipi
 2. Scegliere l'azione **Nuovo** nella pagina **Addebiti articoli** per creare una nuova riga.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo
+## Per assegnare un addebito articolo direttamente alla fattura di acquisto per l'articolo
 
 Se si conosce l'addebito articolo quando si registra una fattura di acquisto per l'articolo, attenersi alla procedura seguente.
 
@@ -65,11 +65,11 @@ Se si conosce l'addebito articolo quando si registra una fattura di acquisto per
 9. Nella pagina **Assegnazione addebito articolo**, selezionare l'azione **Suggerisci assegnazione addebiti articoli**.
 10. Se vi sono più di una riga fattura di tipo Articolo, selezionare una delle quattro opzioni di distribuzione.  
 
-Finché l'addebito articolo è assegnato completamente, il valore nel campo **Qtà da assegnare** nella fattura di acquisto verrà visualizzato come zero.
+Se l'addebito articolo è assegnato completamente, il valore nel campo **Qtà da assegnare** nella fattura di acquisto verrà visualizzato come zero.
 
 L'addebito è ora assegnato alla fattura di acquisto. Quando si registra il carico della fattura di acquisto, i valori di magazzino degli articoli vengono aggiornati con il costo dell'addebito articolo.  
 
-## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Per assegnare un addebito articolo da una fattura distinta alla fattura di acquisto per l'articolo
+## Per assegnare un addebito articolo da una fattura distinta alla fattura di acquisto per l'articolo
 
 Se si riceve una fattura per l'addebito articolo dopo aver effettuato la registrazione del carico dell'acquisto originale, attenersi alla procedura seguente.
 
@@ -80,7 +80,7 @@ Se si riceve una fattura per l'addebito articolo dopo aver effettuato la registr
 
 Gli addebiti articoli nella fattura di acquisto distinta vengono ora assegnati all'articolo nel carico di acquisto registrato, viene quindi aggiornato il valore di magazzino dell'articolo con il costo dell'addebito articolo.
 
-## <a name="handle-item-charges-for-partial-receipts"></a>Gestire gli addebiti articolo per le ricevute parziali
+## Gestire gli addebiti articolo per le ricevute parziali
 
 Analizziamo un esempio di come gestire gli addebiti articolo per una ricevuta parziale.
 
@@ -95,7 +95,7 @@ Per gestire il costo dell'articolo per la ricevuta parziale, sulla pagina **Asse
 
 Quando sei pronto per gestire l'articolo mancante, aggiorna il campo **Quantità da gestire** e invia l'ordine.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  

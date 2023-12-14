@@ -11,11 +11,11 @@ ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790
 ms.date: 08/24/2022
 ms.author: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Informazioni sulla contabilità generale e sul piano dei conti
+# Informazioni sulla contabilità generale e sul piano dei conti
 
 La contabilità generale (C/G) memorizza i dati finanziari e il piano dei conti indica in conti in cui sono registrati tutti i movimenti di contabilità generale. [!INCLUDE[prod_short](includes/prod_short.md)] include un piano dei conti standard pronto per supportare l'azienda.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a>Setup contabilità generale e setup registrazioni COGE
+## Setup contabilità generale e setup registrazioni COGE
 
 Il setup della contabilità generale svolge un ruolo fondamentale nei processi finanziari perché definisce il modo in cui vengono registrati i dati. Due pagine in particolare svolgono un ruolo importante nella configurazione dei processi finanziari:  
 
@@ -41,7 +41,7 @@ Il setup della contabilità generale svolge un ruolo fondamentale nei processi f
 
   Apri la pagina [qui](https://businesscentral.dynamics.com/?page=314).
 
-## <a name="the-chart-of-accounts"></a>Il piano dei conti
+## Il piano dei conti
 
 Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei conti è possibile eseguire operazioni, quali:  
 
@@ -53,7 +53,7 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 
 È possibile aggiungere, modificare o eliminare i conti di contabilità generale. Tuttavia, per evitare le differenze, non è possibile eliminare un conto di contabilità generale se i relativi dati vengono utilizzato nel piano dei conti. Inoltre, a partire dal secondo ciclo di rilascio del 2022, puoi anche bloccare l'eliminazione accidentale di conti in periodi sensibili. Ulteriori informazioni nella sezione [Eliminazione di conti](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="account-categories"></a>Categorie di conti
+## Categorie di conti
 
 È possibile personalizzare la struttura dei rendiconti finanziari mappando i conti di contabilità generale alle categorie dei conti.  
 
@@ -63,7 +63,7 @@ Puoi creare un gruppo di categoria definendo un'indentazione di altre categorie 
 
 È possibile definire se tipi specifici di report devono includere i conti in ciascuna sottocategoria. Le categorie di conto consentono di definire il layout dei rendiconti finanziari.  
 
-### <a name="example"></a>Esempio
+### Esempio
 
 Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai *contanti* nei *cespiti correnti*. Se vuoi che nell'estratto conto vengano considerate la piccola cassa e il conto assegni, effettua questi passaggi:
 
@@ -90,15 +90,15 @@ Quando scegli l'azione **Genera report finanziari**, o la prossima volta che vie
 > [!NOTE]
 > Se crei un conto C/G senza assegnare una categoria di conto, quando assegni il conto a un gruppo di registrazione [!INCLUDE[prod_short](includes/prod_short.md)] assegna automaticamente la categoria conto dal conto C/G immediatamente sopra il conto nel piano dei conti. Tuttavia, per includere il nuovo conto nei tuoi report finanziari, devi scegliere l'azione **Genera report finanziari** nella pagina **Categorie di conti C/G**. In alternativa, puoi aprire la pagina Scheda conto C/G, specificare la categoria del conto e quindi rigenerare il tuo report finanziario.
 
-## <a name="get-a-quick-overview"></a>Ottenere una rapida visione d'insieme
+## Ottenere una rapida visione d'insieme
 
 La pagina **Piano dei conti** visualizza i conti in una lista gerarchica che offre un accesso veloce alle informazioni chiave per ogni conto. Tuttavia, l'elenco è statico, e se hai molti account potresti dover scorrere per visualizzare diversi account. Se vuoi solo una rapida panoramica delle basi, come i cambiamenti netti e i saldi, la pagina **Sintesi del piano dei conti** è un'utile alternativa. Il layout delle colonne sulla pagina è ora lo stesso che troverai nella pagina **Piano dei conti** (anche se con meno colonne), quindi non dovrai riorientarti. È possibile espandere o comprimere i livelli gerarchici per condensare la vista. Per facilitare il passaggio tra le pagine, la pagina **Panoramica del piano dei conti** è disponibile dalla pagina **Piano dei conti**.
 
-## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Accesso per creare e modificare conti e categorie di conti
+## Accesso per creare e modificare conti e categorie di conti
 
 In una piccola organizzazione, come la società dimostrativa CRONUS, la maggior parte degli utenti può modificare il piano dei conti, ad eccezione degli utenti con una licenza membro del team. Tuttavia, le organizzazioni più grandi in genere utilizzano ruoli e autorizzazioni per limitare l'accesso alla modifica del piano dei conti. Se sei un amministratore o hai il ruolo *Manager aziendale* o *Contabile*, puoi controllare le autorizzazioni utente per assicurarti che le persone giuste abbiano accesso alle tabelle pertinenti. Per ulteriori informazioni, vedi la sezione [Per ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md)  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  

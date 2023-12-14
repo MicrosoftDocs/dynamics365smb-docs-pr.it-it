@@ -1,6 +1,6 @@
 ---
-title: 'Procedura: Correggere i report di transazioni IVA [IT]'
-description: Il seguente argomento è una spiegazione su come correggere e inviare nuovamente i report elettronici di transazione IVA.
+title: 'Correggere report di transazioni IVA [IT]'
+description: Il seguente articolo descrive come correggere e inviare nuovamente report elettronici di transazioni IVA.
 services: project-madeira
 documentationcenter: ''
 author: brentholtorf
@@ -9,12 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/18/2021
+ms.date: 11/21/2023
 ms.author: bholtorf
 ---
-# <a name="correct-vat-transactions-reports-in-the-italian-version"></a>Correggere i report di transazioni IVA nella versione italiana
+# Correggere report di transazioni IVA nella versione italiana
 
-1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
+1.  Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  Creare un nuovo report. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).  
 3.  Nel nuovo report, impostare il campo **Tipo report IVA** su **Correttiva** o **Annullamento**. Nel campo **Nr. report originale** selezionare il report che si desidera correggere dalla lista dei report disponibili. I campi **Data di fine** e **Data di inizio** vengono copiati dal report originale.  
 
@@ -39,7 +39,7 @@ ms.author: bholtorf
 6.  Nella Scheda dettaglio **Generale** nel campo **Nr. ricevuta ufficio fiscale** specificare il numero di carico ricevuto dalle autorità fiscali.  
 7.  Scegliere l'azione **Contrassegna come inviato** per completare il report. Il valore del campo **Stato** diventa Inviato.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
  [Esportare i report di transazioni IVA](how-to-export-vat-transactions-reports.md)
 
 

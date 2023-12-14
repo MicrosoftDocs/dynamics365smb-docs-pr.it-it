@@ -10,7 +10,7 @@ ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-item-application"></a>Dettagli di progettazione: Collegamento articoli
+# Dettagli di progettazione: Collegamento articoli
 
 Quando si registra una transazione di magazzino, la registrazione della quantità viene registrata nei movimenti contabili articoli, la registrazione del valore nei movimenti di valorizzazione. Per ulteriori informazioni, vedere [Dettagli di progettazione: Registrazione magazzino](design-details-inventory-posting.md).  
 
@@ -54,22 +54,22 @@ In un movimento di collegamento articoli vengono registrate le seguenti informaz
 |**Quantità**|quantità collegata.|  
 |**Data di Registrazione:**|data di registrazione della transazione.|  
 
-## <a name="inventory-increase"></a>Aumento di magazzino
+## Aumento di magazzino  
 Quando si registra un aumento di magazzino, allora viene registrato un semplice movimento di collegamento articoli senza un collegamento a un movimento in uscita.  
 
-### <a name="example"></a>Esempio
+### Esempio  
 Nella seguente tabella viene illustrato il movimento di collegamento articoli che viene creato quando si registra una ricezione acquisti di 10 unità.  
 
 |Data di registrazione|Nr. movimento articolo in entrata|Nr. movimento articolo in uscita|Quantità|Nr. movimento cont. articolo|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 
-## <a name="inventory-decrease"></a>Riduzione di magazzino
+## Riduzione di magazzino  
 Quando si registra una riduzione di magazzino, viene creato un movimento di collegamento articoli che collega la riduzione di magazzino a un aumento di magazzino. Questo collegamento viene creato utilizzando come linea guida il metodo di costing dell'articolo. Per gli articoli che utilizzano i metodi di costing FIFO, standard e medio, il collegamento è basato sul principio FIFO. La riduzione di magazzino viene applicata all'aumento di magazzino con la data di registrazione meno recente. Per gli articoli che utilizzano il metodo di costing LIFO, il collegamento è basato sul principio LIFO. La riduzione di magazzino viene applicata all'aumento di magazzino con la data di registrazione più recente.  
 
 Nella tabella **Mov. contabili articoli**, il campo **Quantità residua** indica la quantità che non è ancora stata collegata. Se la quantità residua è superiore a 0, viene selezionata la casella di controllo **Apri**.  
 
-### <a name="example-1"></a>Esempio
+### Esempio  
 Nel seguente esempio viene illustrato un movimento di collegamento articoli creato quando si registra una spedizione di vendita di 5 unità degli articoli ricevuti nell'esempio precedente. Il primo movimento di collegamento articoli è la ricezione acquisti. Il secondo movimento di collegamento è la spedizione di vendita.  
 
 Nella seguente tabella vengono mostrati i due movimenti di collegamento articoli derivanti rispettivamente dall'aumento di magazzino e dalla riduzione di magazzino.  
@@ -79,12 +79,12 @@ Nella seguente tabella vengono mostrati i due movimenti di collegamento articoli
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
 
-## <a name="fixed-application"></a>Collegamento fisso
+## Collegamento fisso  
 Viene impostato un collegamento fisso quando si specifica che il costo di un aumento di magazzino deve essere collegato a una determinata riduzione di magazzino o viceversa. Il collegamento fisso influisce sulle quantità residue dei movimenti, ma il collegamento fisso provoca anche lo storno del costo esatto del movimento originale a cui o da cui si sta effettuando il collegamento.  
 
 Per impostare un collegamento fisso, è possibile utilizzare i campi **Collega a mov. art.** o **Collega da mov. art.** nelle righe del documento per specificare il movimento contabile articolo a cui o da cui si desidera collegare la riga della transazione. Viene ad esempio creato un collegamento fisso quando si desidera creare un collegamento costo che specifichi che un reso di vendita deve essere collegato a una determinata spedizione di vendita allo scopo di ottenere lo storno del costo della spedizione di vendita. In questo caso, il metodo di costing viene ignorato da [!INCLUDE[prod_short](includes/prod_short.md)] e viene eseguito un collegamento della riduzione di magazzino, o dell'aumento nel caso di un reso di vendita, al movimento contabile articolo specificato. Il vantaggio della creazione di un collegamento fisso consiste nel fatto che il costo della transazione originale viene passato alla nuova transazione.  
 
-### <a name="example--fixed-application-in-purchase-return"></a>Esempio: collegamento fisso nel reso di acquisto
+### Esempio: collegamento fisso nel reso di acquisto  
 Il seguente esempio, che illustra l'effetto del collegamento fisso di un reso acquisto di un articolo che utilizza il metodo di costing FIFO, si basa sul seguente scenario:  
 
 1. Nel movimento 1, l'utente registra un acquisto a un costo di VL 10,00.  
@@ -109,7 +109,7 @@ Nella seguente tabella viene illustrato il movimento di collegamento articoli ch
 
 Il costo del secondo acquisto, VL 20,00 viene passato correttamente al reso di acquisto.  
 
-### <a name="example--fixed-application-with-average-cost"></a>Esempio: collegamento fisso con costo medio
+### Esempio: collegamento fisso con costo medio  
 Il seguente esempio, che illustra l'effetto del collegamento fisso, si basa sul seguente scenario per un articolo che utilizza il metodo di costing medio:  
 
 1. Nei movimenti numero 1 e 2, l'utente registra due fatture di acquisto. La seconda fattura ha costo unitario diretto errato di VL 1000,00.  
@@ -149,7 +149,7 @@ Nel movimento numero 5, anche il valore del campo **Importo costo (effettivo)** 
 > [!NOTE]  
 >  Se si crea un collegamento fisso per una riduzione di magazzino per un articolo per il quale viene utilizzato il metodo di costing Medio, alla riduzione non viene assegnato il costo medio come avviene in genere, bensì il costo dell'aumento di magazzino specificato. Tale riduzione di magazzino non fa più pertanto parte del calcolo del costo medio.  
 
-### <a name="example--fixed-application-in-sales-return"></a>Esempio: collegamento fisso nel reso di vendita
+### Esempio: collegamento fisso nel reso di vendita  
 I collegamenti fissi sono anche uno strumento molto preciso di stornare esattamente i costi, ad esempio con resi di vendita.  
 
 Il seguente esempio, che illustra in che modo un collegamento fisso garantisce lo storno esatto del costo, si basa sul seguente scenario:  
@@ -190,10 +190,10 @@ Quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, il 
 > [!NOTE]  
 >  Se si registra una transazione con un collegamento fisso e il movimento contabile articolo a cui si sta effettuando il collegamento è chiuso, ovvero la quantità residua è zero, allora il collegamento precedente viene automaticamente annullato e il movimento contabile articolo viene collegato di nuovo utilizzando il collegamento fisso specificato.  
 
-## <a name="transfer-application"></a>Applicazione trasferimento
+## Applicazione trasferimento  
 Quando un articolo viene trasferito da un'ubicazione a un'altra, all'interno del magazzino della società, viene creato un collegamento tra i due movimenti di trasferimento. La valutazione di un movimento di trasferimento dipende dal metodo di costing. Per gli articoli che utilizzano il metodo di costing medio, la valutazione viene effettuata utilizzando il costo medio nel costo medio del periodo in cui si verifica la data di valutazione di trasferimento. Per gli articoli che utilizzano altri metodi di costing, la valutazione viene effettuata ritracciando al costo dell'aumento di magazzino originale.  
 
-### <a name="example--average-costing-method"></a>Esempio: metodo di costing medio
+### Esempio: metodo di costing medio  
 Il seguente esempio, che illustra la modalità di applicazione dei movimenti di trasferimento, si basa sul seguente scenario di un articolo che utilizza il metodo di costing medio e il costo medio del periodo Giorno.  
 
 1. L'utente acquista l'articolo a un costo di VL 10,00.  
@@ -209,7 +209,7 @@ Nella seguente tabella viene illustrato l'effetto del trasferimento sui moviment
 |02-01-20|Trasferimento|EST|-1|15.00|3|  
 |02-01-20|Trasferimento|OVEST|1|15.00|4|  
 
-### <a name="example--standard-costing-method"></a>Esempio: Metodo di costing standard
+### Esempio: Metodo di costing standard  
 Il seguente esempio, che illustra la modalità di applicazione dei movimenti di trasferimento, si basa sul seguente scenario di un articolo che utilizza il metodo di costing standard e il costo medio del periodo Giorno.  
 
 1. L'utente acquista l'articolo a un costo standard di VL 10,00.  
@@ -225,7 +225,7 @@ Nella seguente tabella viene illustrato l'effetto del trasferimento sui moviment
 
 Poiché il valore dell'aumento di magazzino originale è VL 10,00, il trasferimento viene valutato a quel costo, non a VL 12,00.  
 
-## <a name="reapplication"></a>Nuovo collegamento
+## Nuovo collegamento  
 A causa della modalità di calcolo del costo unitario di un articolo, un collegamento articoli non corretto potrebbe portare a un costo medio o a un costo unitario non attendibile. Gli scenari seguenti possono determinare dei collegamenti articoli errati. Potrebbero richiedere l'annullamento dei collegamenti articoli e la creazione di un nuovo collegamento dei movimenti contabili articoli:  
 
 * Ci si è dimenticati di creare un collegamento fisso.  
@@ -235,7 +235,7 @@ A causa della modalità di calcolo del costo unitario di un articolo, un collega
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offre una funzionalità per l'analisi e la correzione dei collegamenti articoli. Questa operazione può essere effettuata nella pagina **Prospetto collegamento**.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 [Dettagli di progettazione: Problema noto di collegamento articoli](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  
 [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  

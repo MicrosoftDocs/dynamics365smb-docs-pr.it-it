@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 12/21/2022
 ms.custom: bap-template
 ---
-# <a name="electronic-invoicing-fatturapa-in-the-italian-version"></a>Fatturazione Elettronica (FatturaPA) nella versione italiana
+# Fatturazione Elettronica (FatturaPA) nella versione italiana
 
 Questo articolo fornisce informazioni utili per iniziare a utilizzare la fatturazione elettronica per l'Italia in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 La fattura elettronica in Italia si chiama FatturaPA. **FatturaPA** significa **Fatturazione Elettronica verso la Pubblica Amministrazione** e tradotto significa: "Fatturazione elettronica alla pubblica amministrazione". Il termine comprende tutte le misure tecniche e organizzative per la fatturazione elettronica alla pubblica amministrazione. Le autorità accettano fatture elettroniche solo tramite la piattaforma Sistema di Interscambio (SDI), che è il sistema di scambio ufficiale.
 
-## <a name="to-set-up-electronic-invoicing"></a>Per configurare la fatturazione elettronica
+## Per configurare la fatturazione elettronica
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup fattura**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup fattura**, nella Scheda dettaglio **Generale**, nel campo **Gruppo business IVA fatturazione automatica**, specifica la **Categoria di registrazione business IVA** utilizzata per i movimenti IVA relativi ai documenti di autofatturazione.
@@ -33,6 +33,6 @@ La fattura elettronica in Italia si chiama FatturaPA. **FatturaPA** significa **
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Funzionalità locale per l'Italia](italy-local-functionality.md)
