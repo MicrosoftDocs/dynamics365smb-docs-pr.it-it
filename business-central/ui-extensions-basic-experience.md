@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 
-# Estensione dell'esperienza di base
+# <a name="the-basic-experience-extension"></a>Estensione dell'esperienza di base
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -22,7 +22,7 @@ Questa estensione è destinata alle piccole imprese e può supportare fino a tre
 > [!NOTE]
 > Al momento, questa estensione è disponibile solo per i clienti in Danimarca e Islanda.
 
-## Funzionalità disponibili
+## <a name="whats-available"></a>Funzionalità disponibili
 
 La tabella seguente descrive le funzionalità disponibili se si installa l'estensione dell'esperienza di base.
 
@@ -34,7 +34,7 @@ La tabella seguente descrive le funzionalità disponibili se si installa l'esten
 |**Gestione progetti** |Commesse, prezzi delle commesse, fogli presenze, assegnazioni, task, risorse |
 |**Magazzino** |Inventario di base, sostituzioni di articolo, cross reference dell'articolo |
 
-## Introduzione
+## <a name="getting-started"></a>Introduzione
 
 Questa estensione è leggermente diversa dalla maggior parte e sarà necessario l'aiuto di un partner Microsoft per installarla e configurarla. Per sapere cosa aspettarsi, ecco una visualizzazione ad alto livello di ciò che fa il partner Microsoft.
 
@@ -45,11 +45,11 @@ Questa estensione è leggermente diversa dalla maggior parte e sarà necessario 
 5. Aggiungere il pacchetto **Demo RapidStart**. <!--what does the package contain?-->
 6. Scaricare e installare l'estensione dell'esperienza di base da AppSource.
 
-## Migrazione dei dati
+## <a name="migrating-data"></a>Migrazione dei dati
 
 Portare con sé i propri dati Dynamics C5. Dopo che il partner Microsoft avrà installato l'estensione dell'esperienza di base, sarà disponibile un'azienda vuota. Un modo semplice per spostare i dati da Dynamics C5 all'esperienza di base consiste nell'utilizzare l'estensione Migrazione dei dati C5, inclusa in [!INCLUDE[prod_short](includes/prod_short.md)]. L'estensione esegue la migrazione di clienti, fornitori, articoli, conti di contabilità generale e relativi movimenti.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Estensione di migrazione dati C5](ui-extensions-c5-data-migration.md)  
 

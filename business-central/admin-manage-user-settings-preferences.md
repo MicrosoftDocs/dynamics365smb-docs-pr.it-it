@@ -12,7 +12,7 @@ ms.search.form: '9204,'
 ms.date: 04/01/2021
 ms.author: soalex
 ---
-# Gestire le impostazioni e le preferenze dell'utente
+# <a name="manage-user-settings-and-preferences"></a>Gestire le impostazioni e le preferenze dell'utente
 
 Come amministratore, è possibile configurare le impostazioni dell'utente in [!INCLUDE[prod_short](includes/prod_short.md)], in modo simile a come i singoli utenti possono gestire le proprie preferenze nella pagina **Impostazioni personali**.  
 
@@ -23,7 +23,7 @@ Ottieni una panoramica di tutti gli utenti nell'elenco **Utenti** e modifica le 
 
 La pagina **Scheda Impostazioni utente** è simile alla pagina **Le mie impostazioni** a cui ogni utente ha accesso ed è un potente strumento per te come amministratore per l'impostazione delle impostazioni predefinite e la cancellazione delle pagine personalizzate, ad esempio.  
 
-## Tipi di impostazioni utente
+## <a name="types-of-user-settings"></a>Tipi di impostazioni utente
 
 Le *impostazioni utente* non sono il *setup dell'utente*, che riguarda l'utente come entità e l'accesso dell'utente nel sistema. Inoltre, le impostazioni dell'utente non hanno nulla a che fare con la personalizzazione di un utente, come lievi modifiche all'interfaccia utente. Le impostazioni dell'utente determinano le impostazioni predefinite per ciascun utente in vari aspetti del modo in cui l'applicazione si presenta all'utente. Il paragrafo seguente elenca i cinque tipi di impostazioni e preferenze dell'utente che possono essere impostate dall'utente o centralmente dall'amministratore:
 
@@ -59,21 +59,21 @@ Le *impostazioni utente* non sono il *setup dell'utente*, che riguarda l'utente 
 > [!NOTE]
 > Se la sincronizzazione degli utenti di Microsoft 365 viene effettuata mentre gli utenti sono connessi a [!INCLUDE[prod_short](includes/prod_short.md)], questi utenti devono aggiornare il browser o disconnettersi e accedere nuovamente a [!INCLUDE[prod_short](includes/prod_short.md)] per vedere una potenziale lingua diversa impostata dall'azione di sincronizzazione.
 
-## Panoramica di tutte le modifiche specifiche dell'utente
+## <a name="overview-of-all-user-specific-changes"></a>Panoramica di tutte le modifiche specifiche dell'utente
 
 In qualità di amministratore, puoi ottenere una panoramica delle singole modifiche a [!INCLUDE [prod_short](includes/prod_short.md)] che ogni utente potrebbe aver apportato in varie pagine in [!INCLUDE [prod_short](includes/prod_short.md)]. Man mano che gli utenti apportano modifiche alla loro esperienza in [!INCLUDE [prod_short](includes/prod_short.md)], tali modifiche verranno riflesse nell'elenco **Personalizzazioni utente**. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## Per rivedere o eliminare le personalizzazioni degli utenti
+## <a name="to-review-or-delete-user-personalizations"></a>Per rivedere o eliminare le personalizzazioni degli utenti
 
 1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Pagine personalizzate**, quindi scegli il collegamento correlato.
 2. Viene visualizzato l'elenco degli utenti e le loro pagine personalizzate. Per cancellare la personalizzazione di un utente, fai clic sulla riga pertinente o scegli **Gestisci**, quindi scegli **Elimina**.
 
 Ciò elimina la personalizzazione e l'esperienza dell'utente della pagina pertinente torna allo stato predefinito.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Preparazione al business](ui-get-ready-business.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

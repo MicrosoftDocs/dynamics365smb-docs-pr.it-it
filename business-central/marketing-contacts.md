@@ -11,7 +11,7 @@ ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Gestione dei contatti
+# <a name="managing-contacts"></a>Gestione dei contatti
 
 I dipendenti della tua azienda incontrano regolarmente potenziali relazioni commerciali che possono svilupparsi in relazioni formali. Tutti questi contatti esterni e le loro informazioni dettagliate dovrebbero essere registrati nel sistema in modo che la comunicazione abbia più successo e che possano quindi essere facilmente convertiti in relazioni formali con clienti, fornitori o banche.
 
@@ -26,7 +26,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti.|[Utilizzare i questionari profilo per classificare i contatti business](marketing-create-contact-profile-questionnaire.md)|
 |Eliminare la confusione quando due o più record sono presenti per lo stesso contatto.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Ricerca, filtro e ordinamento](ui-enter-criteria-filters.md)  

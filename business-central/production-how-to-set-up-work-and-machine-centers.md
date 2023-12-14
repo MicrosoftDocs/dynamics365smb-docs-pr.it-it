@@ -10,7 +10,7 @@ ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 990
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Impostare aree di produzione e centri di lavoro
+# <a name="set-up-work-centers-and-machine-centers"></a>Impostare aree di produzione e centri di lavoro
 
 L'applicazione distingue tra tre tipi di capacità. Questi sono disposti in modo gerarchico. Ogni livello contiene i livelli inferiori.  
 
@@ -25,7 +25,7 @@ La disponibilità viene memorizzata nei movimenti di calendario.
 > [!IMPORTANT]
 > Prima di impostare le aree di produzione o i centri di lavoro, è necessario impostare calendari del reparto produzione. Per ulteriori informazioni, vedere [Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md).
 
-## Per impostare un'area di produzione
+## <a name="to-set-up-a-work-center"></a>Per impostare un'area di produzione
 
 Di seguito viene descritto come impostare un'area di produzione. I passaggi per impostare un calendario centro di lavoro sono gli stessi ad eccezione della Scheda dettaglio **Setup cicli**.  
 
@@ -71,13 +71,13 @@ Di seguito viene descritto come impostare un'area di produzione. I passaggi per 
 > [!NOTE]
 > Utilizzare i tempi in coda per fornire un buffer tra il momento in cui un componente arriva a una macchina o un'area di produzione e quando l'operazione inizia effettivamente. Ad esempio, un pezzo viene consegnato a un centro lavoro alle 10:00, ma ci vuole un'ora per montarlo sulla macchina, quindi l'operazione non inizia prima delle 11:00. Per tenere conto di quell'ora, il tempo in coda sarebbe un'ora. Il valore del campo **Tempo in coda** nella scheda Centro di Lavoro o Area di produzione sommato ai valori dei campi **Tempo di setup**, **Tempo lavorazione**, **Tempo attesa** e **Tempo spostamento** della riga del ciclo dell'articolo fornisce il lead time di produzione dell'articolo. Ciò consente di fornire tempi di produzione complessivi accurati.  
 
-## Considerazioni sulla capacità
+## <a name="considerations-about-capacity"></a>Considerazioni sulla capacità
 
 La capacità e l'efficienza specificate per un'area di produzione e un centro di lavoro non influiscono solo sulla capacità disponibile. Influiscono anche sul tempo di produzione complessivo che consiste nel tempo di configurazione e nel tempo di esecuzione, entrambi definiti sulla riga del ciclo di produzione.  
 
 Quando una specifica riga del ciclo di produzione viene assegnata a un'area di produzione e un centro di lavoro, il sistema calcola la capacità necessaria e il tempo necessario per completare l'operazione.  
 
-### Tempo lavorazione
+### <a name="run-time"></a>Tempo lavorazione
 
 Per calcolare il tempo lavorazione, il sistema alloca il tempo esatto definito nel campo **Tempo lavorazione** della riga del ciclo di produzione. Né l'efficienza né la capacità influiscono sul tempo assegnato. Ad esempio, se il tempo di lavorazione è definito come 2 ore, il tempo allocato sarà di 2 ore, indipendentemente dai valori nei campi efficienza e capacità nell'area di produzione.  
 
@@ -93,7 +93,7 @@ La *durata* di un'operazione, al contrario, considera sia l'efficienza che la ca
 
 La capacità frazionaria è complicata e ne parleremo più avanti. 
 
-### Tempo di setup
+### <a name="setup-time"></a>Tempo di setup
 
 L'allocazione del tempo per il tempo di setup dipende dalla capacità e viene calcolata come *Tempo di setup * Capacità*. Ad esempio, se la capacità è impostata su *2*, il tempo di setup assegnato sarà raddoppiato, poiché è necessario configurare due macchine per l'operazione.  
 
@@ -104,7 +104,7 @@ La *durata* del tempo di setup dipende dall'efficienza ed è calcolata come *Tem
 
 La capacità frattale non è qualcosa di facile da eseguire e viene utilizzata in casi molto specifici.
 
-### Area di produzione che elabora più ordini contemporaneamente
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Area di produzione che elabora più ordini contemporaneamente
 
 Prendiamo come esempio una cabina per verniciatura a spruzzo. Ha lo stesso setup e tempo di lavorazione per ogni lotto elaborato. Ma ogni lotto può contenere più ordini individuali che vengono dipinti contemporaneamente.  
 
@@ -122,7 +122,7 @@ Il tempo di setup assegnato per ogni singolo ordine sarà in ordine inverso risp
 In entrambi i casi, il tempo totale allocato per tutti gli ordini è di due ore.
 
 
-### Una risorsa efficiente può dedicare solo una parte della data del lavoro al lavoro produttivo
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Una risorsa efficiente può dedicare solo una parte della data del lavoro al lavoro produttivo
 
 > [!NOTE]
 > Non è uno scenario consigliato. Ti consigliamo di utilizzare invece l'efficienza. 
@@ -133,7 +133,7 @@ Il tempo di lavorazione allocato è di due ore e la durata è di quattro ore.
 
 Non utilizzare il tempo di setup per tali scenari, poiché il sistema allocherà solo il 50% del tempo. Se il tempo di setup è impostato su *2*, il tempo di setup allocato è di un'ora e la durata è di due ore.
 
-### Calendario consolidato
+### <a name="consolidated-calendar"></a>Calendario consolidato
 
 Quando il campo **Calendario consolidato** è selezionato, l'area di produzione non ha capacità proprie. La sua capacità è invece pari alla somma delle capacità di tutti i centri di lavoro assegnati all'area di produzione.  
 
@@ -145,7 +145,7 @@ Ad esempio, se si dispone di due centri di lavoro con un'efficienza rispettivame
 > [!NOTE]
 >  Utilizza il campo **Calendario consolidato** quando strutturi i cicli per pianificare le operazioni di produzione a livello di centro di lavoro, non a livello di area di produzione. Quando consolidi il calendario, la pagina **Carico area di produzione** e i report diventano una panoramica del carico aggregato in tutti i centri di lavoro assegnati all'area di produzione.
 
-### Esempio: diversi centri di lavoro assegnati a un'area di produzione
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Esempio: diversi centri di lavoro assegnati a un'area di produzione
 
 Quando si impostano i centri di lavoro e le aree di produzione, è importante pianificare quali capacità formeranno la capacità totale.
 
@@ -155,7 +155,7 @@ Se, tuttavia, centri di lavoro uguali tra loro (ad esempio, 210 tavolo da imball
 
 Se le capacità delle aree di produzione non devono contribuire a formare la capacità totale, l'efficienza deve risultare uguale a zero.
 
-## Per impostare un centro lavoro o area di produzione con capacità-vincolata
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Per impostare un centro lavoro o area di produzione con capacità-vincolata
 
 È necessario impostare le risorse di produzione considerate critiche e contrassegnarle per l'accettazione soltanto di carichi limitati, escludendo in questo modo il carico illimitato predefinito che viene accettato da altre risorse di produzione. Una risorsa critica può essere costituita da un'area di produzione o da un centro lavoro che costituiscono strozzature nel ciclo produttivo e per i quali si desidera stabilire un limite finito di carico.
 
@@ -174,7 +174,7 @@ Nella pianificazione con risorse vincolate alla capacità, il sistema garantisce
 
 > Nel caso che l'operazione venga suddivisa, il tempo di setup viene assegnato una sola volta perché si presuppone che vengano apportate alcune rettifiche manuali per ottimizzare la pianificazione.
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Creare calendari del reparto produzione](production-how-to-create-work-center-calendars.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

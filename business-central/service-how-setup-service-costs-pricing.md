@@ -11,12 +11,12 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ---
 
-# Impostare prezzi e costi aggiuntivi per i servizi assistenza
+# <a name="set-up-pricing-and-additional-costs-for-services"></a>Impostare prezzi e costi aggiuntivi per i servizi assistenza
 È possibile utilizzare le funzionalità di definizione dei prezzi di [!INCLUDE[prod_short](includes/prod_short.md)] per impostare e personalizzare l'applicazione in modo da poter applicare e rettificare i prezzi per articoli in assistenza, riparazioni e ordini. Queste decisioni relative ai prezzi potranno essere in seguito agevolmente trasmesse al processo di fatturazione.  
   
 Come previsto dall'implementazione, si possono impostare gruppi di prezzi associandoli a specifici periodi di tempo, clienti o valute. È anche possibile impostare prezzi fissi, minimi o massimi, a seconda dei contratti di assistenza in atto con i vari clienti. Infine, in fase di rettifica dei prezzi, è possibile visualizzare e approvare le modifiche prima di applicarle alla contabilità.  
 
-## Per impostare un gruppo di prezzi in assistenza
+## <a name="to-set-up-a-service-price-group"></a>Per impostare un gruppo di prezzi in assistenza
 È possibile impostare gruppi contenenti articoli in assistenza a cui si desidera vengano applicate le stesse definizioni speciali del prezzo di assistenza. I gruppi dei prezzi di assistenza vengono assegnati ad articoli in assistenza nelle righe di articoli in assistenza. È inoltre possibile assegnare gruppi di prezzi di assistenza ai gruppi di articoli in assistenza.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi prezzo assistenza**, quindi scegli il collegamento correlato.  
@@ -28,7 +28,7 @@ Come previsto dall'implementazione, si possono impostare gruppi di prezzi associ
  > [!Tip]
  > Con i campi **Tipo rettifica** e **Importo**, è possibile specificare se una rettifica riguarderà un importo fisso oppure verrà applicata esclusivamente ai prezzi totali di assistenza che supereranno o saranno inferiori all'importo specificato nel campo **Importo**.  
 
-## Per impostare un gruppo di rettifica dei prezzi di assistenza  
+## <a name="to-set-up-a-service-price-adjustment-group"></a>Per impostare un gruppo di rettifica dei prezzi di assistenza
 È possibile impostare i gruppi di rettifica del prezzo per rettificare il prezzo di assistenza degli articoli in assistenza. Ad esempio, è possibile impostare gruppi di rettifica del prezzo per modificare il costo di spedizione o dei pezzi di ricambio.  
   
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi rettifica prezzo assistenza**, quindi scegli il collegamento correlato.  
@@ -45,18 +45,18 @@ Come previsto dall'implementazione, si possono impostare gruppi di prezzi associ
 > [!Tip]
 > È possibile scegliere **Dettagli** per aggiungere altre informazioni relative al gruppo di rettifica. Ad esempio, specificare quale articolo appartiene al gruppo di rettifica dei prezzi di assistenza e se si tratta di un articolo, una risorsa, un gruppo di risorse o un addebito di assistenza.  
 
-## Per impostare costi aggiuntivi per i servizi assistenza
+## <a name="to-set-up-additional-costs-for-services"></a>Per impostare costi aggiuntivi per i servizi assistenza
 Quando si utilizzano articoli in assistenza e ordini di assistenza, potrebbe essere necessario registrare costi aggiuntivi, quali le spese di viaggio in determinate zone di assistenza o le spese iniziali. Quando si crea un ordine di assistenza, è possibile inserire tali costi e verrà aggiunta una riga con il tipo **Costo**. In alternativa, se si desidera applicare il costo a tutti gli ordini di assistenza, è possibile impostare un costo di default. Ad esempio, se si desidera applicare sempre una spesa iniziale.
   
-### Per impostare i costi di assistenza
+### <a name="to-set-up-service-costs"></a>Per impostare i costi di assistenza
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Costi assistenza**, quindi scegli il collegamento correlato. 
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### Per specificare un costo di default per gli ordini di assistenza
+### <a name="to-specify-a-default-cost-for-service-orders"></a>Per specificare un costo di default per gli ordini di assistenza
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup assistenza**, quindi scegli il collegamento correlato. 
 2. Nel campo **Tariffa iniziale ordine assistenza** selezionare il costo di assistenza appropriato.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Impostazione della gestione assistenza](service-setup-service.md)  
 [Gestione assistenza](service-service.md)  
 

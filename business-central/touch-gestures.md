@@ -11,7 +11,7 @@ ms.date: 04/29/2021
 ms.author: jswymer
 ---
 
-# Movimenti tocco e della penna per tablet e telefoni 
+# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Movimenti tocco e della penna per tablet e telefoni
 
 Questo articolo fornisce alcuni dei gesti speciali che puoi usare quando lavori con [!INCLUDE[prod_short](includes/prod_short.md)] da un tablet o un telefono.
 
@@ -30,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Riferimento rapido per tasti di scelta rapida - Solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Funzionalità di accessibilità](ui-accessibility.md)  
