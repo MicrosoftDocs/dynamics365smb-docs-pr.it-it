@@ -12,7 +12,7 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>Impostare documenti elettronici
+# Impostare documenti elettronici
 
 > [!IMPORTANT]
 > Il modulo principale di Documenti elettronici è un framework. Per impostazione predefinita, non c'è un campo **Integrazione del servizio**. Se trovi le opzioni **Formato documento** per impostazione predefinita, tieni presente che vengono offerte come esempio e che la localizzazione deve fornire un formato dettagliato. Questi dettagli fanno parte delle app di localizzazione perché sono specifici per requisiti locali.
@@ -22,7 +22,7 @@ ms.author: altotovi
 
 Il primo passaggio nella configurazione di documenti elettronici è impostare il Servizio documenti elettronici dove configuri il comportamento completo del tuo sistema in relazione alla comunicazione di documenti elettronici.
 
-## <a name="set-up-the-e-document-service"></a>Impostare il Servizio documenti elettronici
+## Impostare il Servizio documenti elettronici
 
 Segui questi passaggi per impostare il Servizio documenti elettronici.
 
@@ -72,7 +72,7 @@ Se hai configurato il formato **Definizione di scambio dati** nella tua localizz
 
 Se non utilizzi il formato **Definizione di scambio dati**, puoi creare e configurare i formati utilizzando l'[interfaccia](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Modifica le informazioni nelle righe **Mapping esportazione** e **Mapping importazione**, dove puoi trovare le tabelle e i campi per configurare regole di trasformazione. In questo caso, devi aggiungere una nuova opzione nel campo **Formato documento** correlato al tuo formato.
 
-## <a name="set-up-a-document-sending-profile"></a>Impostare un profilo di invio documenti
+## Impostare un profilo di invio documenti
 
 Puoi impostare un metodo preferito di invio di documenti di vendita per ogni cliente. In tal modo, non devi selezionare un'opzione di invio ogni volta che selezioni l'azione **Registra e invia**. Nella pagina **Profili di invio documenti** puoi impostare differenti profili di invio e quindi selezionarne uno nel campo **Profilo di invio documenti** nella scheda cliente. Puoi selezionare la casella di controllo **Predefinito** per specificare che un profilo di invio documenti è il profilo predefinito per tutti i clienti, eccetto per quelli per i quali il campo **Profilo di invio documenti** è impostato su un profilo di invio differente.
 
@@ -94,7 +94,7 @@ Per impostare un profilo di invio documenti, procedi come segue.
     > [!NOTE]
     > Se selezioni **Flusso esteso del servizio documenti elettronici** nel campo **Documento elettronico**, devi avere già configurato il workflow per i tuoi documenti elettronici.
 
-## <a name="set-up-the-workflow"></a>Impostare il workflow
+## Impostare il workflow
 
 Segui questi passaggi per impostare il workflow utilizzato nella funzionalità Documenti elettronici.
 
@@ -113,7 +113,7 @@ Per utilizzare più flussi di lavoro, configurali tramite i profili di invio doc
 
 Quando configuri il workflow nella pagina **Workflow**, punta al campo **Condizione** nella Scheda dettaglio **Fasi workflow**. Nella pagina **Condizioni evento**, nel campo **Filtro**, seleziona il profilo di invio documenti che desideri utilizzare.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Impostare criteri di conservazione per documenti elettronici
+## Impostare criteri di conservazione per documenti elettronici
 
 I documenti elettronici possono essere oggetto di diverse legislazioni locali relative al periodo di conservazione dei documenti elettronici. Pertanto, abbiamo aggiunto un setup di criteri di conservazione per tutte le informazioni importanti relative a documenti elettronici. Gli amministratori possono definire criteri di conservazione che specificano la frequenza alla quale Dynamics 365 Business Central elimina i record obsoleti correlati a documenti elettronici. Per altre informazioni su criteri di conservazione, vedi [Definire i criteri di conservazione](admin-data-retention-policies.md).
 
@@ -127,7 +127,7 @@ Per impostare i criteri di conservazione relativi a documenti elettronici, proce
     - Log mapping di documenti elettronici
     - Archiviazione dati di documenti elettronici
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Come utilizzare documenti elettronici in Business Central](finance-how-use-edocuments.md)  
 [Come estendere documenti elettronici in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

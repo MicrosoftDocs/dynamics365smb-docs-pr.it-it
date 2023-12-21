@@ -162,7 +162,7 @@ additionalContent:
             - text: Utilizzo dei report Power BI in Business Central
               url: /dynamics365/business-central/across-working-with-powerbi
             - text: Analisi dei dati di elenco con la modalità di analisi
-              url: /dynamics365/business-central/across-working-with-powerbi
+              url: /dynamics365/business-central/analysis-mode
             - text: Analisi dei dati di report con Excel
               url: /dynamics365/business-central/report-analyze-excel
         - title: Funzionalità aziendali generali

@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 09/14/2023
 ms.author: jswymer
 ---
-# <a name="personalize-your-workspace"></a>Personalizza l'area di lavoro
+# Personalizza l'area di lavoro
 
 Puoi personalizzare l'area di lavoro per adattarla alle tue preferenze di lavoro. Modifica le pagine in modo che mostrino solo le informazioni di cui hai bisogno e dove ne hai bisogno. La personalizzazione riguarda solo la tua area di lavoro. Non cambia il modo in cui lavorano gli altri. Puoi personalizzare tutti i tipi di pagine, inclusa la pagina [Gestione ruolo utente](ui-change-basic-settings.md#role-center). 
 
@@ -23,13 +23,13 @@ Puoi eseguire varie modifiche, come spostare o nascondere campi, colonne, azioni
 > Gli amministratori possono eseguire le stesse modifiche al layout degli utenti personalizzando un profilo (ruolo) a cui sono assegnati più utenti. Per saperne di più sulle pagine per i ruoli, vai a [Personalizzare le pagine per i ruoli](ui-personalization-manage.md)<br /><br />
 Gli amministratori possono anche sostituire o disabilitare la personalizzazione degli utenti e definire quali funzionalità sono visualizzabili in tutte o alcune società. Per ulteriori informazioni, vedere [Personalizzazione di Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## Video
 
 Il video seguente mostra alcuni dei modi per personalizzare il Centro gestione ruoli.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="change-the-width-of-a-column"></a>Modificare la larghezza di una colonna
+## Modificare la larghezza di una colonna
 
 Puoi facilmente ridimensionare le colonne di qualsiasi elenco. Basta che trascini il bordo tra due colonne verso destra o sinistra.  
 
@@ -38,7 +38,7 @@ Puoi facilmente ridimensionare le colonne di qualsiasi elenco. Basta che trascin
 
 Come per altre personalizzazioni, le modifiche apportate alla larghezza della colonna vengono archiviate nel proprio account e sono visibili indipendentemente dal dispositivo utilizzato.
 
-## <a name="start-personalizing-by-using-the-personalization-mode"></a>Iniziare a personalizzare utilizzando la modalità di personalizzazione
+## Iniziare a personalizzare utilizzando la modalità di personalizzazione
 
 1. Aprire qualsiasi pagina da personalizzare.
 1. Nell'angolo in alto a destra seleziona l'icona ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") e poi scegli l'azione **Personalizza**.
@@ -56,7 +56,7 @@ Come per altre personalizzazioni, le modifiche apportate alla larghezza della co
 
 Per ulteriori informazioni, vedere [Elementi personalizzabili](#What).
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Elementi personalizzabili
+## <a name="What"></a>Elementi personalizzabili
 
 |Operazione da eseguire|Procedura|Osservazioni|
 |----|------------|-------|
@@ -73,7 +73,7 @@ Per ulteriori informazioni, vedere [Elementi personalizzabili](#What).
 |Aggiungere una nuova azione a una pagina o un report in Gestione ruolo utente.|Dalla pagina di destinazione, dalla pagina della richiesta di report o dalla finestra della funzionalità delle informazioni, seleziona l'icona del segnalibro.|[Ulteriori informazioni sull'aggiunta di un segnalibro a pagine e report](ui-bookmarks.md)|
 |Avviare sempre un elenco come espanso o compresso|Scegli il pulsante **Espandi tutto** o **Comprimi tutto** nell'angolo in alto a sinistra dell'elenco. In alternativa, scegli l'azione **Espandi tutto** o **Comprimi tutto** nel menu della prima colonna. |Si applica agli elenchi di gerarchie comprimibili.|
 
-## <a name="personalize-action-bar-and-menus"></a><a name="Actions"></a>Personalizzare la barra delle azioni e i menu
+## <a name="Actions"></a>Personalizzare la barra delle azioni e i menu
 
 La personalizzazione consente di specificare quali azioni visualizzare nelle barre di spostamento e azione e in Gestione ruolo utente e dove. È possibile visualizzare, nascondere o spostare singole azioni o gruppi di azioni.
 
@@ -92,7 +92,7 @@ Una *categoria promossa* è un gruppo di azioni visualizzato prima della riga ve
 > [!NOTE]  
 > Per cancellare la personalizzazione, seleziona la freccia del menu progettazione della parte, quindi scegli **Cancella personalizzazione**.
 
-### <a name="remove-hide-and-show-actions-and-action-groups"></a>Rimuovere, nascondere e visualizzare azioni e gruppi di azioni
+### Rimuovere, nascondere e visualizzare azioni e gruppi di azioni
 
 Quando si desidera mostrare o nascondere un'azione, le opzioni sotto la freccia definiscono le operazioni consentite in base allo stato dell'azione. 
 
@@ -105,7 +105,7 @@ Quando si desidera mostrare o nascondere un'azione, le opzioni sotto la freccia 
 |**Nascondi**|Questa opzione viene visualizzata se l'azione o il gruppo di azioni non si trova altrove nella barra di spostamento o delle azioni. Come per **Elimina**, la scelta di questa opzione rimuove l'azione o il gruppo di azioni dalla barra di spostamento o delle azioni. Tuttavia, in modalità di personalizzazione, l'azione o il gruppo di azioni è ancora visualizzato nella posizione corrente, ma è inattivo.|
 |**Mostra**|Questa opzione viene visualizzata se l'azione o il gruppo di azioni è stato nascosto (inattivo). La scelta di questa opzione visualizza l'azione o il gruppo di azioni nella barra di spostamento o delle azioni.|
 
-### <a name="move-actions-and-action-groups"></a>Spostare azioni e gruppi di azioni
+### Spostare azioni e gruppi di azioni
 
 La posizione in cui è possibile spostare l'azione o i gruppi di azioni è indicata da una riga orizzontale tra le due azioni o da un bordo intorno a un gruppo di azioni. Sono presenti le seguenti limitazioni:
 
@@ -115,7 +115,7 @@ La posizione in cui è possibile spostare l'azione o i gruppi di azioni è indic
 1. Per spostare un azione o un gruppo di azioni, trascinarlo nella posizione desiderata, esattamente come per campi e colonne.
 2. Per spostare un'azione o un gruppo di azioni in un altro gruppo di azioni che è vuoto, trascinare l'azione o il gruppo di azioni sul nuovo gruppo e rilasciarlo nella casella **Rilasciare qui un'azione**.
 
-### <a name="about-the-automate-menu"></a>Informazioni sul menu Automatizza
+### Informazioni sul menu Automatizza
 
 - Non puoi nascondere o spostare il menu **Automatizza** o il sottomenu **Power Automate** e le relative azioni.
 - Puoi spostare i flussi inclusi sotto l'elemento **Automatizza**, ma non puoi nasconderli usando la personalizzazione. Lo spostamento del flusso crea una copia del flusso nella destinazione, non lo rimuove dall'elemento **Automatizza**.
@@ -123,7 +123,7 @@ La posizione in cui è possibile spostare l'azione o i gruppi di azioni è indic
 > [!TIP]
 > In qualità di amministratore, puoi nascondere l'elemento **Automatizza** per gli utenti. Ulteriori informazioni in [Configurare l'integrazione di Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="personalize-parts"></a><a name="Parts"></a>Personalizzare le parti
+## <a name="Parts"></a>Personalizzare le parti
 
 Punta a o selezione <kbd>ALT</kbd>+<kbd>Freccia SU</kbd> Le parti sono aree di una pagina in genere composte da più campi, grafici o altro contenuto. Una parte mostra un bordo colorato quando viene attivata. Ad esempio, una schermata iniziale di Gestione ruolo utente ha più parti. A causa del contorno ben definito, puoi personalizzare l'intera parte e il suo contenuto.
 
@@ -133,7 +133,7 @@ Punta a o selezione <kbd>ALT</kbd>+<kbd>Freccia SU</kbd> Le parti sono aree di u
 
 Puoi cancellare tutte le modifiche di personalizzazione che hai apportato all'interno di una singola parte scegliendo l'opzione **Cancella personalizzazione** sotto la freccia della parte. L'annullamento della personalizzazione di una parte influisce solo sulle modifiche ai contenuti della parte, non sul posizionamento o sulla visibilità della parte nella pagina.  
 
-## <a name="work-with-fields-and-columns"></a><a name="fields"></a>Utilizzare campi e colonne
+## <a name="fields"></a> Utilizzare campi e colonne
 
 Quando personalizzi una pagina, utilizza il riquadro **Aggiungi campo a pagina** per mostrare i campi attualmente nascosti nella pagina. Per aprire questo riquadro, seleziona l'azione **+ Campo** nella parte superiore della pagina. A differenza di altri elementi, i campi nascosti non sono indicati nella pagina stessa in modalità di personalizzazione. Tuttavia, puoi identificare i campi nascosti utilizzando il riquadro **Aggiungi campo a pagina**.
 
@@ -149,14 +149,14 @@ Per semplificare l'utilizzo dei campi, ecco alcune linee guida generali da segui
 - Alcune pagine hanno più campi pagina associati alla stessa tabella di origine. Il riquadro mostrerà entrambi/tutti i campi pagina in modo indipendente. Anche mostrare/nascondere/spostare questi campi sono operazioni indipendenti che non hanno effetto l'una sull'altra.
 
 
-### <a name="make-a-hidden-field-visible"></a>Rendere visibile un campo nascosto
+### Rendere visibile un campo nascosto
 
 Esistono due modi per mostrare un campo attualmente nascosto nella pagina:
 
 - Trascinare il campo nella posizione desiderata. Una spessa linea orizzontale o verticale indica la posizione di destinazione.
 - Selezionare il campo nell'elenco, quindi andare al campo ombreggiato nella pagina e selezionare l'opzione **Mostra**.
 
-## <a name="clear-personalization"></a>Cancella individualizzazione
+## Cancella individualizzazione
 
 In alcuni casi, potrebbe essere necessario annullare alcune o tutte le modifiche di personalizzazione effettuate nel tempo in una pagina.
 
@@ -173,7 +173,7 @@ In alcuni casi, potrebbe essere necessario annullare alcune o tutte le modifiche
 |**Solo campi e colonne**|Cancella qualsiasi modifica di personalizzazione alla pagina salvo quelle nella barra di spostamento o delle azioni. Sono incluse le modifiche a campi, colonne, parti e riquadri. |
 |**Tutto**|Cancella tutte le modifiche di personalizzazione alla pagina per ripristinarne l'aspetto originale. Sono incluse le modifiche alla barra di spostamento o delle azioni, a campi, colonne, parti e riquadri.|
 
-## <a name="tips-and-other-points-of-interest"></a>Suggerimenti e altri punti di interesse
+## Suggerimenti e altri punti di interesse
 
 Per agevolare la comprensione della personalizzazione, di seguito sono elencati alcuni puntatori.
 
@@ -184,9 +184,9 @@ Per agevolare la comprensione della personalizzazione, di seguito sono elencati 
 - Alcune pagine hanno più campi pagina associati alla stessa tabella di origine. Il riquadro mostrerà entrambi/tutti i campi pagina in modo indipendente. Anche mostrare/nascondere/spostare questi campi sono operazioni indipendenti che non hanno effetto l'una sull'altra.
 - Se una parte o un gruppo è nascosto, i campi fantasma saranno comunque visibili all'interno della parte o del gruppo, ma non potrai trascinare o aggiungere/mostrare quel campo finché non rendi visibile il gruppo o la parte.
 
-## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 [Personalizzare le pagine per profili](ui-personalization-manage.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
