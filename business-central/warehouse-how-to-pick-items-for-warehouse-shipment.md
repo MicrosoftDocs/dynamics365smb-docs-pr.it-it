@@ -10,7 +10,7 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# Prelevare articoli per la spedizione warehouse
+# <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], il prelievo e la spedizione degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
@@ -39,11 +39,11 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 >  
 > Per informazioni sul prelievo di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio è correlato a una spedizione vendita, vedi [Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## Controllare se gli articoli sono disponibili per il prelievo
+## <a name="check-whether-items-are-available-for-picking"></a>Controllare se gli articoli sono disponibili per il prelievo
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## Per creare documenti di prelievo in blocco con i prospetti prelievi
+## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Per creare documenti di prelievo in blocco con i prospetti prelievi
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
 
@@ -93,7 +93,7 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
 8. Selezionare **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] creerà il prelievo in base alle tue selezioni.  
 
-## Per prelevare articoli per una spedizione warehouse
+## <a name="to-pick-items-for-a-warehouse-shipment"></a>Per prelevare articoli per una spedizione warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi warehouse**, quindi scegli il collegamento correlato.  
 
@@ -115,7 +115,7 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
 Ora puoi immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella pagina **Spedizione warehouse**. Per ulteriori informazioni vedi [Spedire articoli](warehouse-how-ship-items.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 - [Panoramica della gestione warehouse](design-details-warehouse-management.md)
 - [Gestire i costi del magazzino](inventory-manage-inventory.md)  

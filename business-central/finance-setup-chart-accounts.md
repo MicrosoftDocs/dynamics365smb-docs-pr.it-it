@@ -10,14 +10,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 12/19/2023
 ms.custom: bap-template
 ---
-# Impostare o modificare il piano dei conti
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Impostare o modificare il piano dei conti
 
 Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[prod_short](includes/prod_short.md)] include un piano dei conti standard pronto per supportare l'azienda. Tuttavia, puoi modificare i conti predefiniti e aggiungere nuovi conti.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Aggiungere o cambiare conti
+## <a name="add-or-change-accounts"></a>Aggiungere o cambiare conti
 
 Nel piano dei conti, puoi aprire ogni conto di contabilità generale (C/G) e aggiungere o modificare le impostazioni. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -28,7 +28,7 @@ Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo 
 > [!IMPORTANT]
 > Se le definizioni per i conti **Totale Finale** sono state immesse nei campi **Totale** prima di eseguire la funzione di indentazione, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Totale finale**.
 
-## Eliminare conti
+## <a name="delete-accounts"></a>Eliminare conti
 
 È possibile eliminare un conto di contabilità generale. Tuttavia, prima che venga eliminato, è necessario soddisfare le seguenti condizioni:  
 
@@ -42,13 +42,13 @@ Puoi anche specificare quando consentire alle persone di eliminare gli account. 
 
 L'attivazione del campo **Blocca eliminazione conti C/G** spesso è una procedura consigliata, così come l'impostazione della data nel campo **Verifica eliminazione conti C/G posteriori a**, ad esempio la data entro la quale ti viene richiesto di archiviare i dati finanziari.  
 
-### Guida video
+### <a name="video-guidance"></a>Guida video
 
 Questo video mostra come specificare se e quando gli utenti possono eliminare i conti CoGe.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
