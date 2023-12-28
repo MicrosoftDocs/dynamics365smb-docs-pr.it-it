@@ -10,7 +10,7 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
+# Prelevare articoli per la spedizione warehouse
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], il prelievo e la spedizione degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
@@ -39,11 +39,11 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 >  
 > Per informazioni sul prelievo di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio è correlato a una spedizione vendita, vedi [Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Controllare se gli articoli sono disponibili per il prelievo
+## Controllare se gli articoli sono disponibili per il prelievo
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Per creare documenti di prelievo in blocco con i prospetti prelievi
+## Per creare documenti di prelievo in blocco con i prospetti prelievi
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
 
@@ -60,7 +60,7 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
     > [!NOTE]  
     >  Il modo in cui le righe vengono ordinate nel prospetto non si applica automaticamente all'istruzione di prelievo. Tuttavia, esistono le stesse opportunità per l'ordinamento e la valutazione collocazione. È possibile ricreare facilmente l'ordine delle righe pianificate nel prospetto quando crei le istruzioni di prelievo o le ordini nelle istruzioni di prelievo.
 
-5. Compila il campo **Qtà da gestire** manualmente o utilizzando l'azione **Autocompil. qtà da gestire**.  
+5. Compila il campo **Qtà. gestire** manualmente o utilizzando l'azione **Autocompil. qtà da gestire**.  
 
     La pagina mostra le quantità disponibili nelle collocazioni cross-dock. Queste informazioni sono utili per pianificare le assegnazioni del lavoro in situazioni di cross-dock. [!INCLUDE[prod_short](includes/prod_short.md)] proporrà sempre prima un prelievo da una collocazione cross-dock.
 6. Le righe possono essere modificate, se necessario. È inoltre possibile eliminare le righe per creare un prelievo più efficiente. Se ad esempio vi sono più righe con articoli nelle collocazioni di cross-dock, puoi creare un prelievo per tutte le righe. Gli articoli sottoposti a cross-dock verranno spediti con agli altri articoli e nelle collocazioni di cross-dock sarà disponibile una maggiore quantità di spazio per ulteriori articoli in entrata.  
@@ -83,17 +83,17 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
     |Opzione|Descrizione|
     |-|-|
-    |Importo massimo Nr. di righe prelievo|Crea documenti di prelievo con un numero di righe in ogni documento non superiore a quello specificato.|
-    |Importo massimo Nr. di doc. origine prelievo|Crea documenti di prelievo che si riferiscono a un numero di documenti origine non superiore a quello specificato.|
+    |Importo massimo No. di righe prelievo|Crea documenti di prelievo con un numero di righe in ogni documento non superiore a quello specificato.|
+    |Importo massimo No. di doc. origine prelievo|Crea documenti di prelievo che si riferiscono a un numero di documenti origine non superiore a quello specificato.|
     |ID utente assegnato|Crea documenti di prelievo solo per le righe del prospetto assegnate all'impiegato warehouse selezionato.|
     |Metodo di ordinamento per righe di prelievo|Scegli una delle opzioni disponibili per ordinare le righe nel documento di prelievo creato.|
     |Impostare filtro breakbulk|Nasconde le righe prelievo di breakbulk intermedie quando un'unità di misura più grande viene convertita in un'unità di misura più piccola e completamente prelevata.|
-    |Qtà da gestire non compilata|Lascia il campo Qtà da gestire vuoto nelle righe di prelievo create.|
+    |Qtà da gestire non compilata|Lascia il campo Qtà. da gestire vuoto nelle righe di prelievo create.|
     |Stampa prelievo|Stampa i documenti di prelievo al momento della creazione. È inoltre possibile stampare dai documenti di prelievo creati.|
 
 8. Selezionare **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] creerà il prelievo in base alle tue selezioni.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Per prelevare articoli per una spedizione warehouse
+## Per prelevare articoli per una spedizione warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi warehouse**, quindi scegli il collegamento correlato.  
 
@@ -115,13 +115,13 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
 Ora puoi immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella pagina **Spedizione warehouse**. Per ulteriori informazioni vedi [Spedire articoli](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Panoramica di Warehouse Management](design-details-warehouse-management.md)
-[Inventario](inventory-manage-inventory.md)  
-[Impostazione Warehouse Management](warehouse-setup-warehouse.md)     
-[Gestione assemblaggio](assembly-assemble-items.md)    
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Panoramica della gestione warehouse](design-details-warehouse-management.md)
+- [Gestire i costi del magazzino](inventory-manage-inventory.md)  
+- [Impostazione Warehouse Management](warehouse-setup-warehouse.md)     
+- [Gestione assemblaggio](assembly-assemble-items.md)    
+- [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

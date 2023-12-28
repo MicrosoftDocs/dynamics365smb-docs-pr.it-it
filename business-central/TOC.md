@@ -1,7 +1,7 @@
 
 # [Documentazione di Business Central](index.yml)
 # [Ti diamo il benvenuto in Business Central](welcome.md)
-# [Funzionalità nuove e pianificate](/dynamics365/business-central/dev-itpro/whatsnew/overview)
+# [Funzionalità nuove e pianificate](/dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json)
 # Introduzione
 ## [Panoramica delle funzionalità aziendali](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
@@ -333,6 +333,7 @@
 #### [Panoramica dei documenti elettronici](finance-edocuments-overview.md)
 #### [Impostare documenti elettronici](finance-how-setup-edocuments.md)
 #### [Utilizzare documenti elettronici nelle vendite e negli acquisti](finance-how-use-edocuments.md)
+#### [Impostare il connettore Documenti elettronici con endpoint esterni](finance-how-setup-edocuments-external.md)
 #### [Estensione della funzionalità dei documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Gestire l'IVA
@@ -870,6 +871,8 @@
 ### Danimarca
 #### [Funzionalità locale nella versione danese](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Notifica e registrazione per NemHandelsregisteret in Danimarca](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Impostare la fatturazione elettronica con NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### [Conservare i dati transazionali per cinque anni in Danimarca](localfunctionality/denmark/how-to-keep-data-5years.md)
 #### IVA
 ##### [Stampare report riconciliazione IVA](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Dichiarazione IVA-VIES](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -883,7 +886,7 @@
 ##### [Impostare clienti per OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Impostare la fatturazione elettronica OIOUBL](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [Estensione OIOUBL per la fatturazione elettronica](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Creare documenti elettronici in un formato OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+##### [Creare documenti elettronici in un formato OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
 #### Retribuzioni
 ##### [Definizioni dei dati di retribuzioni (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 #### Giustificativi digitali

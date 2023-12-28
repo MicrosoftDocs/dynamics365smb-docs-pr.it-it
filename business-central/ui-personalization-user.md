@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Personalizza l'area di lavoro
 
-Puoi personalizzare l'area di lavoro per adattarla alle tue preferenze di lavoro. Modifica le pagine in modo che mostrino solo le informazioni di cui hai bisogno e dove ne hai bisogno. La personalizzazione riguarda solo la tua area di lavoro. Non cambia il modo in cui lavorano gli altri. Puoi personalizzare tutti i tipi di pagine, inclusa la pagina [Gestione ruolo utente](ui-change-basic-settings.md#role-center). 
+Puoi personalizzare l'area di lavoro per adattarla alle tue preferenze di lavoro. Modifica le pagine in modo che mostrino solo le informazioni di cui hai bisogno e dove ne hai bisogno. La personalizzazione riguarda solo la tua area di lavoro. Non cambia il modo in cui lavorano gli altri. Puoi personalizzare tutti i tipi di pagine, inclusa la pagina [Gestione ruolo utente](ui-change-basic-settings.md#role-center).
+
+> [!NOTE]
+> A causa delle limitazioni sulle capacità di progettazione nel client Web, al momento non è possibile personalizzare i controlli all'interno della sintassi della griglia.
+Si applica a tutte le modalità di progettazione, non solo alla personalizzazione.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,11 +188,10 @@ Per agevolare la comprensione della personalizzazione, di seguito sono elencati 
 - Alcune pagine hanno più campi pagina associati alla stessa tabella di origine. Il riquadro mostrerà entrambi/tutti i campi pagina in modo indipendente. Anche mostrare/nascondere/spostare questi campi sono operazioni indipendenti che non hanno effetto l'una sull'altra.
 - Se una parte o un gruppo è nascosto, i campi fantasma saranno comunque visibili all'interno della parte o del gruppo, ma non potrai trascinare o aggiungere/mostrare quel campo finché non rendi visibile il gruppo o la parte.
 
-## Vedi il relativo [training Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## Vedi anche
+## Vedere anche
 [Personalizzare le pagine per profili](ui-personalization-manage.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
 [Modifica delle funzionalità visualizzate](ui-experiences.md)  
 

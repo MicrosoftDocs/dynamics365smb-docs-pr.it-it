@@ -1,24 +1,23 @@
 ---
 title: Impostare o modificare il piano dei conti (video)
-description: Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. Puoi modificare i conti predefiniti nel piano dei conti e aggiungere nuovi conti.
+description: Informazioni su come configurare il piano dei conti per mostrare i conti di contabilità che memorizzano i dati finanziari.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 01/21/2022
-ms.author: bholtorf
+ms.date: 12/19/2023
+ms.custom: bap-template
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Impostare o modificare il piano dei conti
+# Impostare o modificare il piano dei conti
 
 Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[prod_short](includes/prod_short.md)] include un piano dei conti standard pronto per supportare l'azienda. Tuttavia, puoi modificare i conti predefiniti e aggiungere nuovi conti.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Aggiungere o cambiare conti
+## Aggiungere o cambiare conti
 
 Nel piano dei conti, puoi aprire ogni conto di contabilità generale (C/G) e aggiungere o modificare le impostazioni. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +28,7 @@ Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo 
 > [!IMPORTANT]
 > Se le definizioni per i conti **Totale Finale** sono state immesse nei campi **Totale** prima di eseguire la funzione di indentazione, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Totale finale**.
 
-## <a name="delete-accounts"></a>Eliminare conti
+## Eliminare conti
 
 È possibile eliminare un conto di contabilità generale. Tuttavia, prima che venga eliminato, è necessario soddisfare le seguenti condizioni:  
 
@@ -39,17 +38,17 @@ Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] impedisce di eliminare un conto di contabilità generale che memorizza i dati necessari per il piano dei conti.  
 
-## <a name="block-deletion-of-gl-accounts"></a>Blocca eliminazione conti C/G
+Puoi anche specificare quando consentire alle persone di eliminare gli account. Nella pagina **Setup contabilità generale**, l'interruttore **Blocca eliminazione conti C/G** funziona insieme alla data nel campo **Verifica eliminazione conti C/G posteriori a** per fungere da convalida aggiuntiva. Se attivi l'interruttore **Blocca eliminazione conti C/G è**, non è possibile eliminare i conti C/G con movimenti contabili successivi alla data presente nel campo **Verifica eliminazione conti C/G posteriori a**. Per eliminare un account di questo tipo, qualcuno con accesso alla pagina **Setup contabilità generale** deve disattivare l'interruttore **Blocca eliminazione conti C/G**.  
 
-[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+L'attivazione del campo **Blocca eliminazione conti C/G** spesso è una procedura consigliata, così come l'impostazione della data nel campo **Verifica eliminazione conti C/G posteriori a**, ad esempio la data entro la quale ti viene richiesto di archiviare i dati finanziari.  
 
-Il secondo ciclo di rilascio del 2022 introduce un'ulteriore tutela contro la cancellazione accidentale dei conti C/G anche negli scenari in cui i criteri sono soddisfatti.  
+### Guida video
 
-Un nuovo campo, **Blocca eliminazione conti C/G**, è stato aggiunto alla pagina **Setup contabilità generale**. Quando è impostato su *Sì*, il campo funge da ulteriore convalida e quindi non è possibile eliminare i conti C/G con movimenti contabili successivi alla data presente nel campo **Verifica eliminazione conti C/G posteriori a**. Per eliminare tale conto, un utente con accesso alla pagina **Setup contabilità generale** deve prima impostare questo campo su *No*.  
+Questo video mostra come specificare se e quando gli utenti possono eliminare i conti CoGe.
 
-L'impostazione del campo **Blocca eliminazione conti C/G** su *sì* può essere considerata una procedura consigliata, così come l'impostazione della data nel campo **Verifica eliminazione conti C/G posteriori a**, ad esempio la data entro la quale ti viene richiesto di archiviare i dati finanziari.  
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  

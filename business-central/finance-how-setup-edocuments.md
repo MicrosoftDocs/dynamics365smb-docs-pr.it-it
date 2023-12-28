@@ -70,7 +70,11 @@ Segui questi passaggi per impostare il Servizio documenti elettronici.
 
 Se hai configurato il formato **Definizione di scambio dati** nella tua localizzazione, puoi aggiungere una riga per ogni tipo di documento di cui hai bisogno. Aggiungi righe che corrispondono all'esempio di scambio dati predefinito per il formato W1 PEPPOL. Tuttavia, prima seleziona l'opzione **Tipo di documento** per ogni riga di cui hai bisogno. Per ogni tipo di dati, seleziona il valore **Importa codice definizione scambio dati** o **Esporta codice definizione scambio dati** che vuoi utilizzare.
 
-Se non utilizzi il formato **Definizione di scambio dati**, puoi creare e configurare i formati utilizzando l'[interfaccia](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Modifica le informazioni nelle righe **Mapping esportazione** e **Mapping importazione**, dove puoi trovare le tabelle e i campi per configurare regole di trasformazione. In questo caso, devi aggiungere una nuova opzione nel campo **Formato documento** correlato al tuo formato.
+Se non utilizzi il formato **Definizione di scambio dati**, puoi creare e configurare i formati utilizzando l'[interfaccia](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Modifica le informazioni nelle righe **Mapping esportazione** e **Mapping importazione**, dove puoi trovare le tabelle e i campi per configurare regole di trasformazione. In questo caso, devi aggiungere una nuova opzione nel campo **Formato documento** correlato al tuo formato.  
+
+### Tipi di documenti supportati 
+
+I tipi di documenti supportati si basano sul **Formato documento** scelto. Per verificare quali tipi di documenti sono supportati, nella pagina  **Servizio documenti elettronici**, esegui l'azione **Tipi di documenti supportati**. Si apre la finestra **Tipi di documenti di origine supportati dal servizio documenti elettronici** e nella colonna **Tipo di documenti di origine** è possibile trovare tutti i tipi di documenti supportati.  
 
 ## Impostare un profilo di invio documenti
 
