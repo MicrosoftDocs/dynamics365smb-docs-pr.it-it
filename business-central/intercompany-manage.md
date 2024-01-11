@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ---
-# Gestione delle transazioni Intercompany
+# <a name="managing-intercompany-transactions"></a>Gestione delle transazioni Intercompany
 
 Le aziende con più di una persona giuridica con funzioni contabili separate possono trarre vantaggio dalle transazioni intercompany. Ad esempio, è utile per le aziende che hanno filiali in più mercati o regioni internazionali. Oppure, un'organizzazione potrebbe essere costituita da più società, ma non disporre di un numero corrispondente di team contabili e amministrativi. Tramite le transazioni intercompany è possibile semplificare le transazioni e i processi aziendali tra le società nella partnership intercompany.
 
@@ -23,7 +23,7 @@ La funzionalità intercompany offre quattro vantaggi principali:
 * Audit trail e visibilità completi per quanto riguarda le attività aziendali e lo storico delle transazioni.  
 * Transazioni efficaci e convenienti con le consociate e le filiali.  
 
-## Semplificazione del flusso delle attività aziendali  
+## <a name="streamline-the-flow-of-business-activities"></a>Semplificazione del flusso delle attività aziendali
 
 Le transazioni intercompany consentono di distribuire documenti di vendita e di acquisto e movimenti registrazioni COGE a tutti gli uffici satellite, gli uffici vendite o le filiali. La distribuzione delle transazioni consente di risparmiare tempo e aumenta l'efficienza in tutta l'organizzazione riducendo l'immissione dei dati. Riduce la necessità di inviare, ricevere, stampare e archiviare documenti di vendita e acquisto.  
 
@@ -68,7 +68,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Organizzare ed elaborare le transazioni in entrata e in uscita che si scambiano con i partner IC.|[Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)|
 |Utilizzare le transazioni IC per distribuire i costi tra società partner.|[Allocare costi a partner IC](intercompany-allocate-costs.md)|
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  

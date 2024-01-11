@@ -10,11 +10,11 @@ ms.search.form: '5638, 5636, 5640, 5637'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Trasferimento, divisione o raggruppamento dei cespiti
+# <a name="transfer-split-or-combine-fixed-assets"></a>Trasferimento, divisione o raggruppamento dei cespiti
 
 Utilizzare le registrazioni di riclassificazione cespiti per trasferire, suddividere e raggruppare i cespiti. Visualizzare o stampare i risultati della riclassificazione cespiti con il report **Cespiti - Valore contabile 02**.
 
-## Per trasferire un cespite in un reparto diverso
+## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Per trasferire un cespite in un reparto diverso
 
 Il trasferimento dei cespiti in ubicazioni diverse può essere utilizzato, ad esempio, quando si assegna un cespite al reparto produzione mentre è in costruzione e al termine della costruzione viene spostato nel reparto amministrativo.  
 
@@ -30,7 +30,7 @@ Il trasferimento dei cespiti in ubicazioni diverse può essere utilizzato, ad es
 
 Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizzare le registrazioni di riclassificazione cespiti per suddividere i costi di acquisto in diversi cespiti.  
 
-## Per dividere un cespite in tre cespiti
+## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>Per dividere un cespite in tre cespiti
 È possibile dividere un unico cespite in più cespiti, ad esempio quando è necessario distribuire un cespite in tre diversi reparti. In tal caso, è possibile spostare ad esempio il 25 percento del costo di acquisto e dell'ammortamento del cespite originale al secondo cespite ed il 45 percento al terzo cespite. Il rimanente 30 percento resterà al cespite originale.
 
 1. Impostare due nuovi cespiti. Inserire i dipartimenti rilevanti come dimensione.  
@@ -46,7 +46,7 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 9. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.
 10. Nella pagina **Registrazioni cespiti in C/G**, scegliere l'azione **Registra** per registrare la riclassificazione eseguita ai passaggi da 4 a 8.
 
-## Per raggruppare due cespiti in uno
+## <a name="to-combine-two-fixed-assets-into-one"></a>Per raggruppare due cespiti in uno
 
 È possibile raggruppare più cespiti in un unico cespite, ad esempio quando si spostano i cespiti distribuiti in un unico reparto. Se sono stati registrati i costi di acquisto e l'ammortamento del cespite da spostare, i valori verranno raggruppati singolo cespite.
 
@@ -60,13 +60,13 @@ Se per un cespite è stato registrato un costo d'acquisto, è possibile utilizza
 6. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.
 7. Nella pagina **Registrazioni cespiti in C/G**, scegliere l'azione **Registra** per registrare la riclassificazione eseguita ai passaggi da 2 a 5.
 
-## Per visualizzare i valori del registro beni ammortizzabili modificati a causa dalla riclassificazione dei cespiti
+## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Per visualizzare i valori del registro beni ammortizzabili modificati a causa dalla riclassificazione dei cespiti
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Valore contabile cespiti 02**, quindi scegli il collegamento correlato.
 2. Compila i campi in base alle esigenze.
 3. Seleziona il pulsante **Stampa** o **Anteprima**.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
