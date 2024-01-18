@@ -17,7 +17,7 @@ Il ruolo di agente è spesso considerato come rivolto verso l'esterno in un'azie
 > [!NOTE]
 > Questo argomento descrive il processo di integrazione delle versioni online di [!INCLUDE[crm_md](includes/crm_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)] tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per informazioni sulla configurazione locale, vedere [Preparazione di Dynamics 365 Sales per l'integrazione locale](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## <a name="integrating-through-dataverse"></a>Integrazione tramite Dataverse
+## <a name="integrate-through-dataverse"></a>Integrazione tramite Dataverse
 
 Per semplificare la connessione e la sincronizzazione dei dati con altre applicazioni Dynamics 365, [!INCLUDE[prod_short](includes/prod_short.md)] si integra anche con [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ad esempio, puoi connetterti a [!INCLUDE[crm_md](includes/crm_md.md)] o anche ad app che crei tu stesso. Se stai eseguendo l'integrazione per la prima volta, devi farlo tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per ulteriori informazioni, vedi [Integrazione con Dataverse](admin-common-data-service.md).
 
@@ -122,7 +122,7 @@ Nella seguente tabella elenca il mapping standard tra le tabelle in [!INCLUDE[pr
 > [!NOTE]
 > Le mappature per le tabelle Unità di misura articoli, Unità di misura risorse e Unità di vendita sono disponibili solo se l'amministratore ha attivato l'opzione di funzionalità **Aggiornamento funzionalità: sincronizzazione di più unità di misura con Dynamics 365 Sales** nella pagina **Gestione funzionalità**. Per ulteriori informazioni, vedi [Sincronizzazione di articoli e risorse con prodotti in diverse unità di misura](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
-## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Sincronizzazione di articoli e risorse con prodotti in diverse unità di misura
+## <a name="synchronize-items-and-resources-with-products-with-different-units-of-measure"></a>Sincronizzazione di articoli e risorse con prodotti in diverse unità di misura
 
 Le aziende spesso producono o acquistano gli articoli in un'unità di misura e poi li vendono in un'altra. Per sincronizzare articoli che utilizzano più unità di misura, è necessario attivare l'opzione di funzionalità **Aggiornamento funzionalità: sincronizzazione di più unità di misura con Dynamics 365 Sales** nella pagina **Gestione funzionalità**. 
 
@@ -132,7 +132,7 @@ Quando attivi l'aggiornamento della funzionalità, viene creata una nuova tabell
 
 Puoi creare più unità di misura per ogni unità di vendita e assegnare le unità ai prodotti in [!INCLUDE[crm_md](includes/crm_md.md)]. Successivamente, sarai in grado di sincronizzare i prodotti con articoli e risorse in [!INCLUDE[prod_short](includes/prod_short.md)]. È possibile associare manualmente unità di misura articolo o unità di misura risorsa con un'unità di vendita. Quando lo fai, se l'unità di vendita per l'articolo o la risorsa non è associata a un'unità di vendita in [!INCLUDE[crm_md](includes/crm_md.md)], ad esempio, perché l'unità di vendita non esisteva, [!INCLUDE[prod_short](includes/prod_short.md)] creerà automaticamente l'unità di vendita in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### <a name="mapping-items-and-resources-to-products"></a>Mappatura di articoli e risorse a prodotti
+### <a name="map-items-and-resources-to-products"></a>Mappatura di articoli e risorse a prodotti
 
 Quando attivi l'opzione di funzionalità **Aggiornamento funzionalità: sincronizzazione di più unità di misura con Dynamics 365 Sales**, accade quanto segue:
 
@@ -208,7 +208,7 @@ Nella tabella seguente sono descritti i processi di sincronizzazione predefiniti
 |Processo di sincronizzazione FATTVNDTRGSTR-FATT - Dynamics 365 Sales|Sincronizza le fatture di [!INCLUDE[crm_md](includes/crm_md.md)] con le fatture di vendita registrate di [!INCLUDE[prod_short](includes/prod_short.md)].|Da [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|FATTURE-FATTURE DI VENDITA REGISTRATE|30|1440<br> (24 ore)|
 |Processo di sincronizzazione Statistiche cliente - Dynamics 365 Sales|Aggiorna i conti di [!INCLUDE[crm_md](includes/crm_md.md)] con i dati cliente di [!INCLUDE[prod_short](includes/prod_short.md)] più recenti. In [!INCLUDE[crm_md](includes/crm_md.md)], questa informazione viene visualizzata nel modulo di visualizzazione rapida **Statistiche conto Business Central** dei conti associati ai clienti di [!INCLUDE[prod_short](includes/prod_short.md)].<br /><br /> Questi dati possono anche essere aggiornati manualmente da ogni record cliente. Per ulteriori informazioni, vedere [Associare e sincronizzare i record manualmente](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Nota:** questo movimento coda processi è pertinente solo se la soluzione di integrazione di [!INCLUDE[prod_short](includes/prod_short.md)] è installata in [!INCLUDE[crm_md](includes/crm_md.md)]. |Non applicabile|Non applicabile|30|Non applicabile| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Connessione a versioni locali del primo ciclo di rilascio di Business Central 2019 e Microsoft Dynamics NAV 2018
+## <a name="connect-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Connessione a versioni locali del primo ciclo di rilascio di Business Central 2019 e Microsoft Dynamics NAV 2018
 
 Il team Microsoft Power Platform ha [annunciato](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) che sta deprecando il tipo di autenticazione di Office365. Se stai usando una versione di [!INCLUDE[prod_short](includes/prod_short.md)] locale precedente al primo ciclo di rilascio di Business Central 2019 devi utilizzare il tipo di autenticazione OAuth per la connessione a [!INCLUDE[crm_md](includes/crm_md.md)] online. I passaggi in questa sezione descrivono come effettuare la connessione alle seguenti versioni del prodotto:
 
@@ -227,7 +227,7 @@ Il team Microsoft Power Platform ha [annunciato](/power-platform/important-chang
 
    * OAuth
 
-### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Per connettere il primo ciclo di rilascio di Business Central 2019 e Dynamics NAV 2018
+### <a name="connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Per connettere il primo ciclo di rilascio di Business Central 2019 e Dynamics NAV 2018
 
 1. Importa la Soluzione di integrazione di Microsoft Dynamics 365 Business Central nell'ambiente [!INCLUDE[crm_md](includes/crm_md.md)]. La soluzione di integrazione è disponibile nella cartella CrmCustomization sul DVD di installazione di [!INCLUDE[prod_short](includes/prod_short.md)] o Dynamics NAV 2018. A seconda della versione del prodotto, importa una delle seguenti soluzioni:
 

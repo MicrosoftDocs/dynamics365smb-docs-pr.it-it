@@ -11,7 +11,7 @@ ms.date: 12/07/2023
 ms.author: bholtorf
 ---
 
-# Convertire i contratti di servizio che includono importi IVA
+# <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertire i contratti di servizio che includono importi IVA
 
 Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i contratti di assistenza, tali contratti devono essere convertiti manualmente. In questo articolo vengono descritti diversi metodi alternativi che è possibile utilizzare per la conversione del contratto di assistenza.  
 
@@ -23,7 +23,7 @@ Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i
 > [!NOTE]  
 > Per questo esempio, è necessario modificare la data di lavoro in 01.01.2017.  
 
-## Per correggere una fattura per un contratto di assistenza prepagato  
+## <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Per correggere una fattura per un contratto di assistenza prepagato
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gestione contratti**, quindi scegli il collegamento correlato.  
 2. In **Liste** selezionare **Contratti assistenza**.  
@@ -36,14 +36,14 @@ Dal momento che lo strumento di modifica dell'aliquota IVA non può convertire i
 > [!NOTE]  
 > Non modificare la fattura di assistenza non registrata. Poiché i movimenti di assistenza vengono generati quando la fattura viene creata, una modifica della fattura non registrata non influenzerà i movimenti contabili di assistenza già creati. Tuttavia, i movimenti IVA vengono creati quando la fattura viene registrata. In questo modo è possibile modificare la categoria di registrazione articoli/servizi e la categoria di registrazione articoli/servizi del sistema di preferenze generalizzate nella fattura di assistenza non registrata.  
 
-### Per creare una nota di credito per la differenza IVA 
+### <a name="to-create-a-credit-memo-for-vat-difference"></a>Per creare una nota di credito per la differenza IVA
  
 Nella procedura riportata di seguito viene descritto come creare una nota di credito che includa solo la differenza IVA per un periodo già fatturato a partire da **01.07.2017**. Nell'esempio l'importo IVA viene registrato solo nel modulo Gestione contabile, non in quello Gestione assistenza. I movimenti IVA collegati al movimento assistenza non verranno corretti.  
 
 1. Creare un nuovo conto di contabilità generale per la differenza IVA. Questo conto viene utilizzato per la registrazione diretta della correzione IVA.  
 2. Aggiungere una nuova riga all'impostazione per le registrazioni IVA.  
 
-## Per creare le date di scadenza del contratto nelle righe di contratto  
+## <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Per creare le date di scadenza del contratto nelle righe di contratto
 
 Nella procedura riportata di seguito viene descritto come creare nuovi contratti utilizzando le date di scadenza del contratto nelle righe del contratto di assistenza.  
 
@@ -51,7 +51,7 @@ Nella procedura riportata di seguito viene descritto come creare nuovi contratti
 2. Scegliere l'azione **Crea nota credito** per creare automaticamente una nota di credito per il periodo compreso tra luglio 2017 e dicembre 2017.  
 3. Dal momento che il contratto è scaduto, è necessario creare un nuovo contratto con la nuova aliquota IVA per il periodo compreso tra il 1° luglio 2017 e 31 dicembre 2017.  
 
-### Per creare una nuova nota di credito.  
+### <a name="to-create-a-new-credit-memo"></a>Per creare una nuova nota di credito.
 
 Nella procedura riportata di seguito viene descritto come creare una nuova nota di credito mediante il processo batch **Prendi mov. contr. prepagati**. I movimenti che non si desidera correggere da gennaio 2017 a giugno 2017 verranno eliminati.  
 
@@ -62,7 +62,7 @@ Nella procedura riportata di seguito viene descritto come creare una nuova nota 
 5. Scegliere l'azione **Prendi mov. contr. prepagati**.  
 6. Dopo aver completato la conversione, l'IVA e i movimenti contabili verranno corretti.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 
 [Usare contratti e offerte di contratto di servizio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finanze](finance.md)  
