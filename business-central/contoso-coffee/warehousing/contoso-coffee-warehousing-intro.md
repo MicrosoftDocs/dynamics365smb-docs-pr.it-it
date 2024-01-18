@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Introduzione alla gestione magazzino Contoso Coffee
+# Introduzione alla gestione magazzino Contoso Coffee
 
 Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono i dati demo che puoi usare per imparare a usare le funzionalità di magazzino in Business Central. Puoi configurare le funzionalità del magazzino in vari modi, vedi [Panoramica delle diverse opzioni di configurazione](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -21,15 +21,15 @@ L'app fornisce tre ubicazioni ottimizzate per diversi scenari:
 
 - **GIALLO**  
 
-  Questa ubicazione utilizza la configurazione avanzata del magazzino, ma non utilizza le collocazioni. Può essere riconfigurata per supportare le configurazioni di base.
+  Questa ubicazione utilizza la configurazione warehouse avanzata, ma non utilizza le collocazioni. Può essere riconfigurata per supportare le configurazioni di base.
 
 - **BIANCO**  
 
-  Questa ubicazione utilizza la configurazione magazzino avanzata con stoccaggi e prelievi diretti, che abilita regole più avanzate su come gli articoli si spostano all'interno del magazzino.
+  Questa ubicazione utilizza la configurazione warehouse avanzata con stoccaggi e prelievi diretti, che abilita regole più avanzate su come gli articoli si spostano all'interno del magazzino.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Impostare i dati di magazzino Contoso Coffee
+## Impostare i dati di magazzino Contoso Coffee
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Una volta installate le app pertinenti, vai alla pagina [Strumento demo Contoso](https://businesscentral.dynamics.com/?page=5194) in [!INCLUDE [prod_short](../../includes/prod_short.md)], seleziona la riga *Modulo Warehouse* e utilizza l'azione **Configura** per preparare i moduli. Nelle seguenti tabelle vengono illustrate le impostazioni:  
 
@@ -50,17 +50,17 @@ Quando sei pronto, scegli l'azione **Crea dati demo**. Occorrono alcuni minuti p
 > [!IMPORTANT]
 > Se stai eseguendo gli scenari, potresti voler verificare che il tuo utente sia stato aggiunto per le ubicazioni selezionate. Per ulteriori informazioni, vedere [Impostare impiegati warehouse](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Scenari
+## Scenari
 
 I dati demo di magazzino Contoso Coffee attualmente supportano i seguenti scenari per il test e la formazione:
 
 1.  [Procedura dettagliata del flusso in entrata e in uscita nelle configurazioni di warehouse di base](warehouse-basic-flow-putaway-pick.md)
 2.  [Procedura dettagliata per il flusso in entrata e in uscita nelle configurazioni della warehouse miste](warehouse-mixed-flow-receive-pick-ship.md)
-3.  [Procedura dettagliata del flusso in entrata e in uscita nella configurazione avanzata del magazzino con stoccaggio e prelievo diretti](warehouse-directed-flow.md)
+3.  [Procedura dettagliata del flusso in entrata e in uscita nella configurazione warehouse avanzata con stoccaggio e prelievo diretti](warehouse-directed-flow.md)
 
 Leggi i passaggi per ogni scenario nell'articolo pertinente.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione del magazzino](../../inventory-setup-inventory.md) 
 [Come impostare le ubicazioni](../../inventory-how-setup-locations.md) 

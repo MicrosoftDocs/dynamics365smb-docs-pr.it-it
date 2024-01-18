@@ -41,7 +41,11 @@
 ##### [Introduzione alla warehouse per Contoso Coffee](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
 ##### [Procedura dettagliata per il flusso in entrata e in uscita nelle configurazioni della warehouse di base](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Procedura dettagliata per il flusso in entrata e in uscita nelle configurazioni della warehouse miste](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-##### [Procedura dettagliata per il flusso in entrata e in uscita nella configurazione warehouse avanzata con stoccaggi e prelievi guidati](contoso-coffee/warehousing/warehouse-directed-flow.md)
+##### [Procedura dettagliata sul flusso in entrata e in uscita nella configurazione warehouse avanzata con stoccaggi e prelievi guidati](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Assistenza
+##### [Introduzione a Gestione dell'assistenza di Contoso Coffee](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Procedura dettagliata sugli ordini di assistenza per articoli in assistenza](contoso-coffee/service/service-basic-flow-order.md)
+##### [Procedura dettagliata sui contratti di assistenza per articoli in assistenza](contoso-coffee/service/service-contract-flow.md)
 
 ### Dettagli di progettazione
 #### [Panoramica dei dettagli di progettazione dell'applicazione](design-details-application-design.md)

@@ -1,15 +1,16 @@
 ---
-title: Prelevare per le operazioni interne in configurazioni di warehouse avanzate
+title: Prelevare per le operazioni interne in configurazioni warehouse avanzate
 description: 'Se le ubicazioni utilizzano il prelievo e la spedizione, preleva i componenti per le attività di produzione, assemblaggio e commessa nella pagina Prelievo warehouse.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 09/12/2023
+ms.date: 12/13/2023
 ms.custom: bap-template
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate
+
+# Prelevare per produzione, assemblaggio o commesse in configurazioni warehouse avanzate
 
 La modalità di stoccaggio dei componenti di prelievo per le commesse, gli ordini di produzione o di assemblaggio dipende dall'impostazione della warehouse come ubicazione. Per ulteriori informazioni vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -30,7 +31,7 @@ Per prelevare o spostare i componenti per i documenti di origine in modalità pu
 |Ordine di assemblaggio|Modificare lo stato in Rilasciato.|
 |Commesse | Cambia lo stato in Aperto o crea subito una commessa con stato Aperto.|  
 
-## <a name="production"></a>Produzione
+## Produzione
 
 Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di produzione nel flusso verso la produzione.
 
@@ -39,13 +40,13 @@ Per un'ubicazione che utilizza le collocazioni per spostare gli articoli nelle c
 * Per un'ubicazione che utilizza lo stoccaggio e il prelievo diretti, segui i passaggi nell'articolo [Spostare articoli nelle configurazioni warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * Per le altre ubicazioni, segui le indicazioni nell'articolo [Spostare gli articoli internamente nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Assemblaggio
+## Assemblaggio  
 
 Utilizza i documenti **Prelievo warehouse** per spostare i componenti dell'assemblaggio nell'area di assemblaggio.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] supporta tipi di flusso assemblaggio su ordine e assemblaggio per magazzino. Per ulteriori informazioni sull'assemblaggio su ordine nel flusso di warehouse in uscita, vai a [Gestione di articoli assemblaggio su ordine nelle spedizioni warehouse](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Gestione progetti
+## Gestione progetti  
 
 Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di commessa nel flusso verso la gestione progetti.
 
@@ -54,17 +55,17 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 >
 > Le commesse non supportano le configurazioni avanzate in cui l'interruttore **Prelievo e stoccaggio diretti** è attivato.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Controllare se gli articoli sono disponibili per il prelievo
+## Controllare se gli articoli sono disponibili per il prelievo
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Per creare documenti di prelievo in blocco con i prospetti prelievi
+## Per creare documenti di prelievo in blocco con i prospetti prelievi
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
 
 2. Scegliere l'azione **Prendi documenti warehouse**.  
 
-    La lista mostrerà la produzione rilasciata, le commesse, gli ordini di assemblaggio che sono stati inoltrati alla funzione di prelievo. Gli ordini includono quelli per i quali sono già state create istruzioni di prelievo. I documenti contenenti righe di prelievo per le quali il prelievo è stato eseguito per intero e registrato non vengono visualizzati in questa lista.  
+    La lista mostra la produzione rilasciata, le commesse, gli ordini di assemblaggio che sono stati inoltrati alla funzione di prelievo. Gli ordini includono quelli per i quali sono già state create istruzioni di prelievo. I documenti contenenti righe di prelievo per le quali il prelievo è stato eseguito e registrato non vengono visualizzati in questa lista.  
 3. Seleziona gli ordini per cui vuoi preparare un prelievo.
 
     > [!NOTE]  
@@ -79,7 +80,7 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 
     La pagina mostra le quantità disponibili nelle collocazioni cross-dock, utili per pianificare le assegnazioni del lavoro in situazioni di cross-dock. [!INCLUDE[prod_short](includes/prod_short.md)] proporrà sempre prima un prelievo da una collocazione cross-dock.
 
-6. Le righe possono essere modificate manualmente, se necessario. È inoltre possibile eliminare alcune righe per creare un prelievo più efficiente. Se ad esempio vi sono più righe con articoli nelle collocazioni di cross-dock, puoi creare un prelievo per tutte le righe. Gli articoli sottoposti a cross-dock verranno prelevati con gli altri articoli nel documento di origine e nelle collocazioni di cross-dock sarà disponibile una maggiore quantità di spazio per ulteriori articoli in entrata.
+6. Le righe possono essere modificate manualmente, se necessario. È inoltre possibile eliminare alcune righe per creare un prelievo più efficiente. Se ad esempio vi sono più righe con articoli nelle collocazioni di cross-dock, puoi creare un prelievo per tutte le righe. Gli articoli sottoposti a cross-dock vengono prelevati con gli altri articoli nel documento di origine e nelle collocazioni di cross-dock è disponibile una maggiore quantità di spazio per ulteriori articoli in entrata.
 
     > [!NOTE]  
     >  Le righe vengono eliminate solo da questo prospetto e non dalla lista di selezione dei prelievi.  
@@ -93,8 +94,8 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
     |Per documento whse. Documento|Crea documenti di prelievo distinti per le righe del prospetto con lo stesso documento warehouse di origine.|
     |Per cliente/forn./ubicazione|Crea documenti di prelievo separati per ogni cliente (commesse)|
     |Per articolo|Crea documenti di prelievo separati per ogni articolo nel prospetto prelievi.|
-    |Per Da zona|Crea documenti di prelievo separati per ogni zona da cui verranno prelevati articoli.|
-    |Per collocazione|Crea documenti di prelievo separati per ogni collocazione da cui verranno prelevati articoli.|
+    |Per Da zona|Crea documenti di prelievo separati per ogni zona da cui vengono prelevati articoli.|
+    |Per collocazione|Crea documenti di prelievo separati per ogni collocazione da cui vengono prelevati articoli.|
     |Per scadenza|Crea documenti di prelievo separati per i documenti di origine che hanno la stessa data di scadenza.|
 
     Specifica in che modo vengono creati i documenti di prelievo selezionando una delle opzioni seguenti.  
@@ -105,15 +106,15 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
     |Importo massimo No. di doc. origine prelievo|Crea documenti di prelievo che si riferiscono al numero di documenti origine specificato.|
     |ID utente assegnato|Crea documenti di prelievo solo per le righe del prospetto assegnate all'impiegato warehouse selezionato.|
     |Metodo di ordinamento per righe di prelievo|Scegli una delle opzioni disponibili per ordinare le righe nel documento di prelievo creato.|
-    |Impostare filtro breakbulk|Nasconde le righe prelievo di breakbulk intermedie quando un'unità di misura più grande viene convertita in un'unità di misura più piccola e completamente prelevata.|
+    |Impostare filtro breakbulk|Nasconde le righe prelievo di breakbulk intermedie quando un'unità di misura più grande viene convertita in un'unità di misura più piccola e prelevata.|
     |Qtà da gestire non compilata|Lascia il campo **Qtà. da gestire** vuoto nelle righe di prelievo create.|
     |Stampa prelievo|Stampa i documenti di prelievo al momento della creazione. È inoltre possibile stampare dai documenti di prelievo creati.|
 
 8. Scegli il pulsante **OK**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Per prelevare articoli per un ordine di produzione, un ordine di assemblaggio, una commessa
+## Per prelevare articoli per un ordine di produzione, un ordine di assemblaggio, una commessa
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 
     Se è necessario utilizzare un determinato prelievo, seleziona il prelievo dalla lista oppure filtra la lista per individuare i prelievi assegnati a te. Aprire la scheda prelievo.  
 2. Se il campo **ID utente assegnato** è vuoto, immetti il tuo ID per identificarti, se necessario.  
@@ -139,15 +140,15 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
     * [Assemblare articoli](assembly-how-to-assemble-items.md)
     * [Registrare il consumo o l'uso per i lavori](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Consuntivazione dei componenti di produzione in una configurazione warehouse avanzata
+## Consuntivazione dei componenti di produzione in una configurazione warehouse avanzata
 
 I metodi di consuntivazione influiscono sul flusso dei componenti in produzione. Per ulteriori informazioni vedi [Eseguire la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md). A seconda del metodo di consuntivazione selezionato, è possibile prelevare i componenti per la produzione nei seguenti modi:
 
-* Utilizza un documento **Prelievo warehouse** per registrare il prelievo per gli articoli che utilizzano il metodo di consuntivazione **Manuale**. Dovrai registrare il consumo separatamente. Per ulteriori informazioni vedi [Registrare il consumo produzione tramite processo batch](production-how-to-post-consumption.md).
-* Utilizza un documento **Prelievo warehouse** per registrare il prelievo per gli articoli che utilizzano il metodo di consuntivazione **Prelievo + Avanti**, **Prelievo + Indietro**. Il consumo dei componenti avverrà automaticamente quando modifichi lo stato dell'ordine di produzione oppure avvii o termini un'operazione. Tutti i componenti obbligatori devono essere disponibili. In caso contrario, la registrazione del consumo della consuntivazione viene interrotta per tale componente.
+* Utilizza un documento **Prelievo warehouse** per registrare il prelievo per gli articoli che utilizzano il metodo di consuntivazione **Manuale**. Devi registrare il consumo separatamente. Per ulteriori informazioni vedi [Registrare il consumo produzione tramite processo batch](production-how-to-post-consumption.md).
+* Utilizza un documento **Prelievo warehouse** per registrare il prelievo per gli articoli che utilizzano il metodo di consuntivazione **Prelievo + Avanti**, **Prelievo + Indietro**. Il consumo dei componenti avviene automaticamente quando modifichi lo stato dell'ordine di produzione oppure avvii o termini un'operazione. Tutti i componenti obbligatori devono essere disponibili. In caso contrario, la registrazione del consumo della consuntivazione viene interrotta per tale componente.
 * Utilizza un documento **Movimento warehouse** senza riferimento a un documento di origine o altri modi per registrare il movimento di componenti che utilizzano il metodo di consuntivazione **Avanti** o **Indietro**. I componenti vengono automaticamente consumati quando modifichi lo stato dell'ordine di produzione oppure avvii o termini un'operazione. Tutti i componenti obbligatori devono essere disponibili. In caso contrario, la registrazione del consumo della consuntivazione viene interrotta per tale componente. Per ulteriori informazioni vedi [Spostare articoli](warehouse-move-items.md).
 
-### <a name="example"></a>Esempio
+### Esempio
 
 Esiste un ordine di produzione per 15 PZ dell'articolo SP-SCM1004. Alcuni articoli nella lista dei componenti devono essere sottoposti manualmente a consuntivazione nelle registrazioni consumi. Altri articoli possono essere prelevati e sottoposti a consuntivazione automaticamente utilizzando il metodo di consuntivazione **Preleva + Indietro**.  
 
@@ -156,7 +157,7 @@ I seguenti passaggi descrivono le azioni eseguite da utenti differenti e la risp
 1. Il supervisore di produzione rilascia l'ordine di produzione. Gli articoli con il metodo di consuntivazione in **Avanti** e privi di un collegamento ciclo-distinta base vengono dedotti dalla collocazione produzione aperta.  
 2. Il supervisore di produzione fa clic sull'azione **Crea prelievo warehouse** nell'ordine di produzione. Un documento di prelievo warehouse viene creato per il prelievo degli articoli con i metodi di flushing **Manuale**, **Prelievo + Indietro** e **Prelievo + Avanti**. Questi articoli si trovano nella collocazione articoli per produzione.  
 3. Il responsabile di warehouse assegna i prelievi a un dipendente warehouse.  
-4. Il dipendente warehouse seleziona gli articoli dalle collocazioni appropriate e li inserisce nella collocazione articoli per produzione o nella collocazione specificata nel prelievo warehouse. La collocazione può essere una collocazione centro di lavoro o area di produzione.
+4. Il dipendente warehouse seleziona gli articoli dalle collocazioni appropriate e li inserisce nella collocazione articoli per produzione o nella collocazione specificata nel prelievo warehouse. La collocazione potrebbe essere una collocazione centro di lavoro o area di produzione.
 5. Il dipendente warehouse registra il prelievo. La quantità viene trasferita dalla collocazione di prelievo nella collocazione di consumo. Il campo **Qtà prelevata** nell'elenco dei componenti per tutti gli articoli selezionati viene aggiornato.
 
     > [!NOTE]  
@@ -170,7 +171,7 @@ Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione**
 
 :::image type="content" source="media/binflow.png" alt-text="Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.":::
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 - [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 - [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  

@@ -1,5 +1,5 @@
 ---
-title: 'Ricevimento, stoccaggio, movimentazione, prelievo e spedizione in configurazione avanzata di magazzino con prelievo e stoccaggio diretti'
+title: 'Carico, stoccaggio, movimentazione, prelievo e spedizione nella configurazione warehouse avanzata'
 description: I processi in entrata e in uscita possono essere eseguiti in modalità differenti a seconda del livello di complessità della warehouse.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,37 +8,37 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: null
-ms.date: 04/01/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Procedura dettagliata del flusso in entrata e in uscita nella configurazione avanzata del magazzino con stoccaggio e prelievo diretti
+# Procedura dettagliata del flusso in entrata e in uscita nella configurazione warehouse avanzata
 
 Questa procedura dettagliata illustra come completare i flussi in entrata e in uscita nella configurazione avanzata per stoccaggio e prelievo diretti. Per ulteriori informazioni, vedi [Panoramica delle diverse opzioni di configurazione](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti  
 Per completare questa procedura, devi diventare un dipendente warehouse presso l'ubicazione *BIANCA* effettuando i seguenti passaggi:  
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
 2. Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
 3. Nel campo **Codice ubicazione** immettere BIANCO:  
 4. Attiva l'interruttore **Predefinito**.
 
 
-## <a name="scenario"></a>Scenario
+## Scenario  
 Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e di rifornimento delle collocazioni per velocizzare i tempi di ricezione e spedizione.  
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 1. Crea spedizione warehouse.  
 
-    1. Scegli l'icona ![lampadina che apre la funzione Dimmi 2.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
+    1. Scegli l'icona ![lampadina che apre la funzione Dimmi 2.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
     2. Seleziona l'ordine per il cliente 10000 per l'ubicazione BIANCA. Il numero dell'ordine esterno è *W-1*.
     3. Scegli l'azione **Crea spedizione warehouse** per creare una spedizione warehouse per l'ordine di vendita selezionato.
     4. Scegli l'azione **Rilascia** per comunicare alla warehouse che la spedizione ordine di vendita è pronta per la gestione warehouse.  
 
 2. Definire le collocazioni per l'articolo per controllare dove viene stoccato 
 
-    1.  Scegli l'icona ![lampadina che apre la funzione Dimmi 3.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli** e scegli il collegamento correlato.  
+    1.  Scegli l'icona ![lampadina che apre la funzione Dimmi 3.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli** e scegli il collegamento correlato.  
     2.  Seleziona *WRB-1000* e scegli l'azione **Contenuto delle collocazioni**.  
     3.  Scegli l'azione **Nuovo**. Aggiungi due righe.
     
@@ -55,7 +55,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
 
 
 4. Controlla se ci sono ordini in uscita che richiedono articoli ricevuti e invia la ricevuta
-    1. Scegliere l'azione **Calcola cross-dock**. Questo popolerà una colonna **Qtà. al cross-dock**.
+    1. Scegliere l'azione **Calcola cross-dock**. In questo modo, si popola una colonna **Qtà. al cross-dock**.
     2. Inserisci 0 nel campo **Qtà. al cross-dock** nella riga con l'articolo *WRB-1000* poiché non prevedi di reimballare l'articolo nell'area di carico.
     3. Scegli l'azione **Registra carico**.
 
@@ -64,12 +64,12 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
     2. Individua il documento di stoccaggio warehouse creato dalla ricevuta warehouse e aprilo
     3. Nella pagina **Stoccaggio warehouse** esamina la sezione **Righe**
 
-    In questa fase, viene rivelata la logica della capacità della collocazione. Le righe di stoccaggio warehouse avranno tre righe per l'articolo *WRB-1000*:
+    In questa fase, viene rivelata la logica della capacità della collocazione. Le righe di stoccaggio warehouse hanno tre righe per l'articolo *WRB-1000*:
     - Una riga Prendere per spostare le quantità ricevute dalla collocazione di ricezione (W-08-0001)
-    - Una riga Mettere che sposterà un contenitore in una delle collocazioni fisse configurate (W-05-0001)
-    - Una riga Mettere che sposterà un altro contenitore in altre collocazioni fisse (W-05-0002). Ciò perché una singola collocazione fissa non può contenere l'intera quantità di carico.
+    - Una riga Mettere che sposta un contenitore in una delle collocazioni fisse configurate (W-05-0001)
+    - Una riga Mettere che sposta un altro contenitore in altre collocazioni fisse (W-05-0002). Ciò perché una singola collocazione fissa non può contenere l'intera quantità di carico.
 
-    Poiché questo stoccaggio contiene righe di cross-dock, verranno visualizzate tre righe per l'articolo *WRB-1001*:
+    Poiché questo stoccaggio contiene righe di cross-dock, vengono visualizzate tre righe per l'articolo *WRB-1001*:
     -  Una riga Prendere per spostare le quantità ricevute dalla collocazione di ricezione (W-08-0001)
     -  Una riga Mettere per il 2 nella collocazione del cross-dock
     -  Una riga Mettere per la quantità rimanente nella collocazione di stoccaggio
@@ -120,7 +120,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
     4. Scegliere l'azione **Crea prelievo**.
     5. Conferma una qualsiasi delle impostazioni di prelievo necessarie, ad esempio abilita l'interruttore **Per zona di partenza**. Scegli il pulsante **OK**.
     
-    Riceverai un messaggio di conferma con i numeri di prelievo. Ci sono due prelievi in quanto alcuni articoli si trovano nella zona di cross-dock, vicino all'area di spedizione, e avrebbe senso elaborarli separatamente.
+    Viene visualizzato un messaggio di conferma con i numeri di prelievo. Ci sono due prelievi in quanto alcuni articoli si trovano nella zona di cross-dock, vicino all'area di spedizione, e avrebbe senso elaborarli separatamente.
 
 9.  Registrare i prelievi warehouse
     1. Scegli l'icona ![lampadina che apre la funzione Dimmi 10.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi warehouse**, quindi scegli il collegamento correlato.
@@ -136,7 +136,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
     4. Conferma l'opzione **Spedisci**.
 
 
-## <a name="results"></a>Risultati
+## Risultati
 - Viene creato il **carico warehouse registrato**
 - Viene creato lo **stoccaggio warehouse registrato**    
 - Viene creato il **carico acquisto registrato**    
@@ -150,7 +150,7 @@ Ellen, la responsabile del magazzino, utilizza la funzionalità di cross-dock e 
 
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Ricevere articoli](../../warehouse-how-receive-items.md) 
 [Dettagli di progettazione: flusso di magazzino in entrata](../../design-details-inbound-warehouse-flow.md) 
 [Spedizione articoli](../../warehouse-how-ship-items.md) 

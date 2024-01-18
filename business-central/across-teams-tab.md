@@ -6,12 +6,12 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 11/04/2022
+ms.date: 12/12/2023
 ms.custom: bap-template
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab'
 ---
 
-# <a name="add-business-central-tab-in-microsoft-teams"></a>Aggiungere la scheda Business Central in Microsoft Teams
+# Aggiungere la scheda Business Central in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,7 +19,7 @@ In Teams, le schede vengono visualizzate nella parte superiore dei canali e dell
 
 ![Schede in Teams](media/teams-tabs-border.png)
 
-## <a name="about-business-central-tabs"></a>Informazioni sulle schede Business Central
+## Informazioni sulle schede Business Central
 
 Una scheda [!INCLUDE [prod_short](includes/prod_short.md)] fornisce una vista mirata degli elenchi e delle pagine delle schede di [!INCLUDE [prod_short](includes/prod_short.md)]. La scheda non mostra l'intero client Web [!INCLUDE [prod_short](includes/prod_short.md)]. Non c'è il bordo del browser, il banner di [!INCLUDE [prod_short](includes/prod_short.md)] (ad esempio con Dimmi, ricerca, guida) o menu di navigazione in alto, solo il contenuto della pagina e le sue azioni. Il contenuto è interattivo, il che significa che puoi selezionare azioni e collegamenti, modificare i dati e altro ancora. Sei limitato a ciò che vedi e puoi fare con le stesse autorizzazioni assegnate al tuo account in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ Per sapere chi può visualizzare il contenuto in una scheda [!INCLUDE [prod_shor
 > [!TIP]
 > Sei uno sviluppatore? Puoi anche aggiungere schede a livello di codice utilizzando l'API Microsoft Graph. Per ulteriori informazioni, vedi [Aggiungere schede Business Central in Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti
 
 Per aggiungere una scheda [!INCLUDE [prod_short](includes/prod_short.md)], devono essere soddisfatti i seguenti requisiti:
 
@@ -42,7 +42,7 @@ Per vedere la scheda [!INCLUDE [prod_short](includes/prod_short.md)] aggiunta da
 - Disporre di una licenza [!INCLUDE [prod_short](includes/prod_short.md)] o avere accesso limitato a Business Central con una sola licenza Microsoft 365. Per ulteriori informazioni, vedi [Accesso a Business Central con licenze Microsoft 365](admin-access-with-m365-license.md).
 - Avere installato l'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams.
 
-## <a name="add-tab-using-recommended-content"></a>Aggiungere la scheda utilizzando il contenuto consigliato
+## Aggiungere la scheda utilizzando il contenuto consigliato
 
 Segui questi passaggi per aggiungere una scheda scegliendo cosa visualizzare da un elenco prontamente disponibile di contenuti consigliati basato sul tuo centro di ruolo, senza uscire da Teams. Per ulteriori informazioni sui contenuti tra cui è possibile scegliere, vedi [Da dove provengono i contenuti consigliati?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
@@ -61,7 +61,7 @@ Segui questi passaggi per aggiungere una scheda scegliendo cosa visualizzare da 
 6. Seleziona **Pubblica nel canale circa questa scheda** per pubblicare automaticamente un annuncio nel canale o nella chat di Teams per far sapere ai partecipanti che hai aggiunto questa scheda.
 7. Seleziona **Salva**.
 
-## <a name="add-tab-using-a-page-link"></a>Aggiungi scheda utilizzando un collegamento a una pagina
+## Aggiungi scheda utilizzando un collegamento a una pagina
 
 Un altro modo per aggiungere una scheda utilizzando un collegamento (URL) alla pagina che desideri mostrare. Questa modalità è utile quando si desidera visualizzare un record specifico di [!INCLUDE [prod_short](includes/prod_short.md)] o una pagina di elenco che non è stata inserita nei preferiti nel centro di ruolo.
 
@@ -76,18 +76,18 @@ Un altro modo per aggiungere una scheda utilizzando un collegamento (URL) alla p
    Il collegamento può essere copiato in due modi: Il modo più semplice e preferito è selezionare **Condividi** ![Icona Condividi in Business Central](media/share-icon.png) > **Copia collegamento**. L'altro modo è copiare l'URL completo dalla barra degli indirizzi del browser. Per ulteriori informazioni su questo passaggio, vedi [Condivisione di record e link di pagine di Business Central](across-working-with-teams.md).
 
 6. Torna a Teams e incolla il collegamento nella casella **URL**.
-7. Nella casella **Nome scheda**, immetti un nome che verrà visualizzato nella scheda.
+7. Nella casella **Nome scheda**, immetti un nome che viene visualizzato nella scheda.
 8. Seleziona **Pubblica nel canale circa questa scheda** per pubblicare automaticamente un annuncio nel canale o nella chat di Teams per far sapere ai partecipanti che hai aggiunto questa scheda.
 9. Seleziona **Salva**.
 
-## <a name="add-tab-by-pinning-card-details"></a>Aggiungi scheda inserendi i dettagli della scheda
+## Aggiungi scheda inserendi i dettagli della scheda
 
 Utilizzare questi passaggi per aggiungere una scheda per un record che è stato condiviso o incollato in un canale o in una chat di Teams. Per informazioni su come condividere record e collegamenti a pagine in Teams, vedi [Condividi record e collegamenti di pagina in Teams](across-working-with-teams.md).
 
 1. In Teams, seleziona il pulsante **Dettagli** sulla scheda.
 2. Nell'angolo in alto a destra dei dettagli della scheda, seleziona **Aggiungi nella parte superiore della chat** ![Icona Aggiungi per aggiungere la scheda Teams in Business Central](media/pin-teams.png).
 
-## <a name="change-a-tab-and-its-content"></a>Modificare una scheda e il suo contenuto
+## Modificare una scheda e il suo contenuto
 
 Dopo aver aggiunto una scheda, puoi apportare determinate modifiche. Ad esempio, puoi rinominarla, spostarla e rimuoverla. Puoi trovare queste azioni nelle opzioni della scheda disponibili selezionando la freccia giù nella scheda.
 
@@ -95,9 +95,9 @@ Dopo aver aggiunto una scheda, puoi apportare determinate modifiche. Ad esempio,
 
 Per quanto riguarda il contenuto di una scheda, puoi modificare i dati, se disponi delle autorizzazioni. Se modifichi i dati, gli altri non vedranno le modifiche finché non escono dalla scheda e tornano alla scheda. Lo stesso vale per te se altri utenti apportano modifiche ai dati. Non puoi modificare la pagina visualizzata nella scheda, quindi rimuovi semplicemente la scheda e aggiungine un'altra.
 
-Puoi anche modificare la visualizzazione della pagina e dei suoi dati, ad esempio ordinare e cambiare il layout tra visualizzazione a elenco e a riquadri. Quando apporti questo tipo di modifiche, non influiranno su ciò che gli altri vedono. Vedranno ciò che hai pubblicato in origine, finché non apporteranno modifiche simili.
+Puoi anche modificare la visualizzazione della pagina e dei suoi dati, ad esempio ordinare e cambiare il layout tra visualizzazione a elenco e a riquadri. Quando apporti questo tipo di modifiche, non influiranno su ciò che gli altri vedono. Vedono ciò che hai pubblicato in origine, finché non apportano modifiche simili.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'integrazione di Business Central e Microsoft Teams](across-teams-overview.md)  
 [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  

@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# <a name="responsible-ai-faqs-for-dynamics-365-business-central"></a>Domande frequenti sull'intelligenza artificiale responsabile per Dynamics 365 Business Central
+# Domande frequenti sull'intelligenza artificiale responsabile per Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 
