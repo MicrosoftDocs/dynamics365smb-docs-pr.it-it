@@ -8,13 +8,15 @@ ms.topic: article
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.collection:
+  - bap-ai-copilot
 ---
 
-# <a name="faq-for-marketing-text-suggestions-with-copilot"></a>Domande frequenti sui suggerimenti di testo di marketing con Copilot
+# Domande frequenti sui suggerimenti di testo di marketing con Copilot
 
 Queste domande frequenti (FAQ) descrivono l'impatto della funzionalità [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] sull'intelligenza artificiale in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="what-is-item-marketing-text-suggestions"></a>Cos'è la funzionalità per i suggerimenti di testo di marketing?
+## Cos'è la funzionalità per i suggerimenti di testo di marketing?
 
 Copilot fornisce assistenza alla scrittura agli utenti responsabili della creazione di testo di marketing (noto anche come copia) su articoli in [!INCLUDE[prod_short](includes/prod_short.md)]. Questa funzionalità è nota come [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]. La funzionalità [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] fornisce assistenza alla scrittura agli utenti responsabili della creazione di testo di marketing (noto anche come *copia*) su articoli in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -31,20 +33,20 @@ Alcuni vantaggi chiave di questa funzionalità includono:
 - Sblocca la creatività per fornire descrizioni dei prodotti più accattivanti.
 - Migliora la coerenza del materiale di marketing per le linee di prodotti.
 
-## <a name="what-are-the-systems-capabilities"></a>Quali sono le funzionalità del sistema?
+## Quali sono le funzionalità del sistema?
 
 La funzionalità [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] utilizza il [servizio OpenAI di Microsoft Azure](/azure/cognitive-services/openai/overview) per accedere a potenti modelli linguistici che analizzano e generano linguaggio naturale. Questi modelli sono stati addestrati su un'ampia gamma di set di dati di testo. Di conseguenza, Copilot può generare risposte suggerite e personalizzate in inglese sulla base di una quantità minima di dati di input, come gli attributi, la categoria o la descrizione di un articolo. 
 
-## <a name="what-is-the-systems-intended-use"></a>Qual è lo scopo previsto del sistema?
+## Qual è lo scopo previsto del sistema?
 
 Questa funzionalità ha lo scopo di assistere gli utenti nella creazione di testo di marketing per articoli in [!INCLUDE[prod_short](includes/prod_short.md)]. Gli scrittori utilizzano la funzionalità per ottenere rapidamente suggerimenti di testo accattivanti e coinvolgenti, che vengono poi riesaminati e modificati per garantirne la precisione. 
 
-## <a name="how-was-item-marketing-text-evaluated-what-metrics-are-used-to-measure-performance"></a>Come è stato valutato il testo di marketing dell'articolo? Quali metriche vengono utilizzate per misurare le prestazioni?
+## Come è stato valutato il testo di marketing dell'articolo? Quali metriche vengono utilizzate per misurare le prestazioni?
 
 - La funzionalità è stata sottoposta a test approfonditi in cui numerosi testi in diverse lingue sono stati valutati da esperti linguistici rispetto a vari criteri. I test si basavano sui dati dimostrativi di [!INCLUDE[prod_short](includes/prod_short.md)] e su altri cataloghi di prodotti fittizi.
 - Questa funzionalità è stata creata in conformità con lo standard di intelligenza artificiale responsabile di Microsoft. [Scopri di più sull'intelligenza artificiale responsabile di Microsoft](https://aka.ms/RAI).
 
-## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>In che modo Microsoft monitora la qualità del contenuto generato?
+## In che modo Microsoft monitora la qualità del contenuto generato?
 
 Microsoft dispone di vari sistemi per garantire che le funzionalità di Copilot rimangano operative e generino contenuti della massima qualità.
 
@@ -66,7 +68,7 @@ Microsoft dispone di vari sistemi per garantire che le funzionalità di Copilot 
 
    Per ulteriori informazioni, consulta [Dati, privacy e sicurezza per il servizio OpenAI di Azure](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-## <a name="is-there-a-logging-and-human-review-process-as-part-of-azure-openai-service-and-if-so-can-i-opt-out"></a>Il servizio OpenAI di Azure include un processo di registrazione e revisione umana e, in caso affermativo, posso rinunciarvi esplicitamente?
+## Il servizio OpenAI di Azure include un processo di registrazione e revisione umana e, in caso affermativo, posso rinunciarvi esplicitamente?  
 
 Nell'ambito della fornitura del servizio OpenAI di Azure, Microsoft elaborerà e memorizzerà i dati dei clienti inviati al servizio, nonché il contenuto di output, allo scopo di monitorare e prevenire usi o output abusivi o dannosi del servizio e sviluppare, testare e migliorare le capacità progettate per prevenire l'uso abusivo e/o gli output dannosi del servizio. 
 
@@ -74,13 +76,13 @@ Il personale Microsoft autorizzato può esaminare i dati che hanno attivato i no
 
 Affinché Microsoft possa salvaguardare il servizio e i relativi clienti, non è possibile rinunciare esplicitamente ai processi di registrazione e revisione umana.
 
-## <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Quali dati vengono raccolti dalla funzionalità? Come vengono usati i dati?
+## Quali dati vengono raccolti dalla funzionalità? Come vengono usati i dati?
 
 La funzionalità per i suggerimenti di testo di marketing raccoglie i dati minimi richiesti da Business Central per offrire il servizio. Per ulteriori informazioni, vedi [Termini di Dynamics 365 per le funzionalità basate sul servizio OpenAI di Azure](https://go.microsoft.com/fwlink/?linkid=2236010).
 
 La funzionalità raccoglie anche dati dal feedback che l'utente può fornire utilizzando le icone Mi piace (pollice su) o Non mi piace (pollice giù) nella parte superiore della pagina **Copilot**. I dati sono anonimi e includono la scelta Mi piace o Non mi piace, il motivo di Non mi piace, se fornito, e la funzionalità di Copilot a cui si applica il feedback. Usiamo questi dati per valutare e migliorare la qualità della funzionalità.
 
-## <a name="what-are-the-limitations-of--how-can-users-minimize-the-impact-of-the-includefeature-marketing-text-suggestions-limitations-when-using-the-system"></a>Quali sono le limitazioni di [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? In che modo gli utenti possono ridurre al minimo l'impatto delle limitazioni dei [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] durante l'utilizzo del sistema?
+## Quali sono le limitazioni di [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? In che modo gli utenti possono ridurre al minimo l'impatto delle limitazioni dei [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] durante l'utilizzo del sistema?
 
 - Poiché la tecnologia alla base della funzionalità utilizza l'intelligenza artificiale che è stata addestrata su un'ampia gamma di origini, il contenuto generato non è sempre idoneo o adatto. Alcuni suggerimenti possono anche includere contenuti discutibili o inappropriati. È tua responsabilità rivedere e modificare i suggerimenti generati per assicurarti che siano accurati e appropriati.
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
@@ -88,7 +90,7 @@ La funzionalità raccoglie anche dati dal feedback che l'utente può fornire uti
   È possibile che vengano restituite risposte imprecise quando gli utenti interagiscono con il sistema in lingue diverse da quelle supportate. Inoltre, potrebbe essere generato testo impreciso quando la lingua dell'utente e la lingua dei dati principali nel database di [!INCLUDE[prod_short](includes/prod_short.md)] non sono identiche.
 
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-system"></a>Quali fattori operativi e impostazioni consentono un uso efficace e responsabile del sistema?
+## Quali fattori operativi e impostazioni consentono un uso efficace e responsabile del sistema?
 
 Ci sono alcune cose che puoi fare per ottenere il massimo dalla funzionalità:
 
@@ -103,7 +105,7 @@ Per saperne di più, vai a [Migliorare e personalizzare i suggerimenti di testo]
 > Esamina sempre l'accuratezza dei suggerimenti prima di salvarli e pubblicarli per il pubblico.
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 - [Suggerimenti di testo di marketing](ai-overview.md)
 

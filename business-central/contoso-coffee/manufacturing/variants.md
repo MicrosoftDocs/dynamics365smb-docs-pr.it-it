@@ -3,20 +3,20 @@ title: Varianti
 description: Procedura dettagliata per apprendere come aggiornare la previsione della domanda per ciascuna variante di un prodotto in Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Procedura dettagliata: varianti
+# Procedura dettagliata: varianti
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee per apprendere le varianti.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessario aggiornare la previsione della domanda per ciascuna variante dell'articolo SP-SCM1006, AutoDripLite. Poiché ha colori diversi, è necessario garantire che venga utilizzata la distinta base (DB) corretta per ciascuna variante. Esegui il prospetto pianificazione per calcolare l'offerta.  
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 1. Imposta le unità di stockkeeping per l'articolo SP-SCM1006, AutoDripLite. Assegna una distinta base per SKU con le varianti ROSSO e BIANCO.
 
@@ -98,6 +98,6 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
     9. Per ogni riga creata, scegli l'azione **Componenti** e rivedi quale vernice viene utilizzata.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

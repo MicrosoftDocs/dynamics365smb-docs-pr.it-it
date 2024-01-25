@@ -4,18 +4,18 @@ description: Informazioni su come impostare e usare le funzionalità Dichiarazio
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/21/2022
 ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, service, declaration,'
 ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 ---
-# <a name="the-service-declaration-extension"></a>L'estensione Dichiarazione di servizio
+# L'estensione Dichiarazione di servizio
 
 In alcuni paesi o aree geografiche dell'UE, le autorità richiedono alle imprese di segnalare l'esportazione di servizi in altri paesi o aree geografiche dell'UE. L'estensione **Dichiarazione di servizio** consente di raccogliere informazioni sul commercio di servizi nell'UE e di segnalarle alle autorità. Sebbene sia denominata **Dichiarazione di servizio**, puoi utilizzarla anche come **Intrastat per servizi**. Questa estensione è disponibile per tutti i paesi o aree geografiche dell'UE come versione W1 e può essere utilizzata così com'è in Belgio. Per gli altri paesi o aree geografiche, sarà richiesta un'estensione basata sul paese o l'area geografica. Se un paese/area geografica necessita solo di un formato diverso, puoi usare la configurazione del report nel **Framework di scambio dei dati** per modificare il formato.
 
-## <a name="enable-the-service-declaration-extension"></a>Abilitare l'estensione Dichiarazione di servizio
+## Abilitare l'estensione Dichiarazione di servizio
 
 Dopo aver installato l'estensione nell'ambiente, è necessario abilitarla.
 
@@ -26,11 +26,11 @@ Dopo aver installato l'estensione nell'ambiente, è necessario abilitarla.
 5. Prima di iniziare, controlla il **Numero totale di codici** per capire quanti tipi di transazioni di servizi sono già stati specificati.
 6. Scegli **Fine** nell'ultimo passaggio per terminare la configurazione.
 
-## <a name="set-up-the-service-declaration-extension"></a>Configurare l'estensione Dichiarazione di servizio
+## Configurare l'estensione Dichiarazione di servizio
 
 È possibile impostare l'estensione manualmente o utilizzando un file di report in Definizioni di scambio dati.
 
-### <a name="to-set-up-service-declaration-manually"></a>Per configurare Dichiarazione di servizio manualmente
+### Per configurare Dichiarazione di servizio manualmente
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup dichiarazione di servizio**, quindi scegli il collegamento correlato.
 2. Nella Scheda dettaglio **Generale** configurare i campi come descritto nella tabella seguente:
@@ -47,7 +47,7 @@ Dopo aver installato l'estensione nell'ambiente, è necessario abilitarla.
 3. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Tipi di transazione di servizio**, quindi scegli il collegamento correlato.
 4. Nelle righe, specifica **Codici** e **Descrizioni** per i tipi di transazione del servizio che utilizzerai.
 
-### <a name="set-up-a-reporting-file"></a>Impostare un file di report
+### Impostare un file di report
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti le **definizioni di scambio dati** e scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
@@ -66,11 +66,11 @@ Dopo aver installato l'estensione nell'ambiente, è necessario abilitarla.
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] viene fornito con la definizione di scambio dati preconfigurata per **Dichiarazione di servizio** per tutti i paesi o le aree geografiche localizzati. Per informazioni sulla creazione di una nuova definizione di scambio dati, vedi [Impostare le definizioni di scambio dati](across-how-to-set-up-data-exchange-definitions.md).
 
-## <a name="other-related-configurations"></a>Altre configurazioni correlate
+## Altre configurazioni correlate
 
 Prima di usare l'estensione Dichiarazione di servizio, configura alcuni campi per articoli, risorse e addebiti articolo.
 
-### <a name="items"></a>Articoli
+### Articoli
 
 Imposta le informazioni relative alla Dichiarazione di servizio nelle pagine Scheda articolo:
 
@@ -81,7 +81,7 @@ Imposta le informazioni relative alla Dichiarazione di servizio nelle pagine Sch
    2. Nel campo **Codice tipo transazione servizio**, specifica il codice per un **Tipo transazione servizio**.
    3. Se non desideri includere questo articolo di servizio nelle dichiarazioni di servizio, seleziona il campo **Escludi dalla dichiarazione di servizio**.
 
-### <a name="resources"></a>Risorse
+### Risorse
 
 Imposta le informazioni relative alla Dichiarazione di servizio nelle pagine Scheda risorsa:
 
@@ -91,7 +91,7 @@ Imposta le informazioni relative alla Dichiarazione di servizio nelle pagine Sch
    1. Nel campo **Codice tipo transazione servizio**, specifica il codice per un **Tipo transazione servizio**.
    2. Se non desideri includere questa risorsa nelle dichiarazioni di servizio, seleziona il campo **Escludi dalla dichiarazione di servizio**.
 
-### <a name="item-charges"></a>Addebiti articoli
+### Addebiti articoli
 
 Imposta le informazioni relative alla Dichiarazione di servizio per gli addebiti articolo.
 
@@ -100,7 +100,7 @@ Imposta le informazioni relative alla Dichiarazione di servizio per gli addebiti
 3. Nel campo **Codice tipo transazione servizio**, specifica il codice per un **Tipo transazione servizio**.
 4. Se non desideri includere questo addebito articolo nelle dichiarazioni di servizio, seleziona il campo **Escludi dalla dichiarazione di servizio**.
 
-## <a name="create-new-service-declaration"></a>Creare una nuova dichiarazione di servizio
+## Creare una nuova dichiarazione di servizio
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Dichiarazione di servizio**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Nuovo**.
@@ -111,7 +111,7 @@ Imposta le informazioni relative alla Dichiarazione di servizio per gli addebiti
 
 Il processo batch recupera tutti i movimenti dai documenti di acquisto e di vendita applicabili nel periodo richiesto e li aggiunge alle righe della dichiarazione di servizio. Passa con il mouse sulle righe per leggere una breve descrizione.
 
-## <a name="modify-a-service-declaration"></a>Modifica una dichiarazione di servizio
+## Modifica una dichiarazione di servizio
 
 Se necessario, puoi modificare le righe o aggiungerne di nuove.
 
@@ -120,11 +120,11 @@ Se necessario, puoi modificare le righe o aggiungerne di nuove.
 3. In base al **Tipo di documento**, compila il campo **N. documento**.
 4. Compilare i campi rimanenti.
 
-## <a name="overview-the-service-declaration-lines"></a>Panoramica delle righe della dichiarazione di servizio
+## Panoramica delle righe della dichiarazione di servizio
 
 Dopo aver creato una dichiarazione di servizio, utilizza l'azione **Panoramica** per ottenere una panoramica delle righe della dichiarazione di servizio. Puoi raggruppare e riepilogare le righe allo stesso modo del file esportato. È anche possibile aprire le righe in Excel.
 
-## <a name="report-service-declaration-in-a-file"></a>Indica la dichiarazione di servizio in un file
+## Indica la dichiarazione di servizio in un file
 
 È possibile inviare la dichiarazione di servizio come file in base ai requisiti delle diverse autorità locali. Per creare un file:
 
@@ -134,17 +134,17 @@ Dopo aver creato una dichiarazione di servizio, utilizza l'azione **Panoramica**
 4. Scegliere l'azione **Crea file**.
 5. La dichiarazione di servizio verrà salvata nel formato richiesto.
 
-## <a name="other-considerations"></a>Altre considerazioni
+## Altre considerazioni
 
 Quando utilizzi l'estensione **Dichiarazione di servizio**, ci sono alcune altre cose da considerare. Ad esempio, è importante che i tuoi gruppi soddisfino i requisiti delle autorità. È anche importante che i servizi siano inclusi correttamente nei documenti di vendita e acquisto.
 
-### <a name="grouping-lines"></a>Raggruppamento di righe
+### Raggruppamento di righe
 
 Nelle righe della dichiarazione di servizio non è presente alcun raggruppamento per campo. Tutte le voci vengono copiate dal documento originale come origine.
 
 Il raggruppamento richiesto dalle autorità verrà fornito nel file esportato. Devi configurarle i gruppi in **Definizione scambio dati**, che è completamente configurabile. Per ulteriori informazioni vedi [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="using-services-in-document-lines"></a>Utilizzo dei servizi nelle righe del documento
+### Utilizzo dei servizi nelle righe del documento
 
 Quando crei una fattura di acquisto, di vendita o di servizio, nelle relative righe troverai due campi relativi alle dichiarazioni di servizio. Entrambi i campi sono compilati con i valori predefiniti dell'articolo, della risorsa o delle impostazioni di addebito articolo.
 
@@ -155,7 +155,7 @@ Quando crei una fattura di acquisto, di vendita o di servizio, nelle relative ri
 
 Se specifichi un valore nel campo **Codice tipo di transazione di servizio** ma non selezioni il campo **Applicabile per la dichiarazione di servizio**, puoi pubblicare il documento ma la riga non verrà calcolata quando lo fai.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md)
 [Report Intrastat in Business Central](finance-how-report-intrastat.md)  

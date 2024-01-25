@@ -3,13 +3,13 @@ title: Introduzione alla produzione di Contoso Coffee
 description: Panoramica degli scenari su come i dati demo di Contoso Coffee possono aiutarti a imparare a usare le funzionalità di produzione in Business Central.
 ms.date: 04/01/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: '4765,'
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduzione alla produzione di Contoso Coffee
+# Introduzione alla produzione di Contoso Coffee
 
 Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono i dati demo che puoi usare per imparare a usare le funzionalità di produzione in Business Central.  
 
@@ -36,7 +36,7 @@ Le attività di produzione per tutti gli scenari utilizzano l'ubicazione *PRINCI
 > [!IMPORTANT]
 > Prima di eseguire uno qualsiasi degli scenari per Contoso Coffee, registra le righe di registrazione articolo con i saldi di apertura. Per ulteriori requisiti, vedi la sezione [Impostare i dati di Contoso Coffee](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Impostare i dati di produzione Contoso Coffee
+## Impostare i dati di produzione Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -47,7 +47,7 @@ Le attività di produzione per tutti gli scenari utilizzano l'ubicazione *PRINCI
 
 Quando sei pronto, scegli l'azione **Crea dati demo**. Occorrono alcuni minuti per aggiungere i dati al database sottostante, ma poi sei pronto per eseguire i vari scenari.  
 
-## <a name="scenarios"></a>Scenari
+## Scenari
 
 I dati demo di produzione Contoso Coffee attualmente supportano i seguenti scenari per il test e la formazione:
 
@@ -65,7 +65,7 @@ Leggi i passaggi per ogni scenario nell'articolo pertinente.
 > [!IMPORTANT]
 > Queste procedure dettagliate richiedono che l'esperienza utente sia impostata su *Premium* nella pagina **Informazioni società**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Manufacturing](../../production-manage-manufacturing.md)  
 [Report di produzione e analisi in Business Central](../../production-reports.md)  

@@ -4,13 +4,13 @@ description: Scopri come spostare gli articoli tra le collocazioni nella warehou
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Spostamento di articoli
+# Spostamento di articoli
 
 Puoi spostare gli articoli nella warehouse in diversi modi, a seconda di come hai configurato la warehouse. La complessità può variare:
 
@@ -36,7 +36,7 @@ Le attività di conteggio, rettifica e riclassificazione degli articoli possono 
 |Utilizza il prospetto movimentazione warehouse, prelievo e stoccaggio interni, per spostare gli articoli in configurazioni di warehouse avanzate con prelievo e stoccaggio diretti.|[Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Ristrutturare la warehouse con nuovi codici collocazione e nuove caratteristiche per le collocazioni e spostarli.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica della gestione warehouse](design-details-warehouse-management.md)  
 [Inventario](inventory-manage-inventory.md)  
