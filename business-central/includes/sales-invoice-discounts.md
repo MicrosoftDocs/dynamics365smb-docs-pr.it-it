@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Una volta aggiunti tutti gli articoli nelle righe, sarà possibile calcolare lo sconto fattura per l'intero documento di vendita scegliendo l'azione **Calcola sconto fattura**.
 

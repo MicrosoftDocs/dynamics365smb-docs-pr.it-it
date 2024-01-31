@@ -3,15 +3,14 @@ title: Panoramica dei task per la configurazione dei processi di vendita
 description: 'Panoramica dei task necessari per impostare regole e valori che definiscono i criteri e i processi di vendita, inclusa l''impostazione generale e l''impostazione delle vendite relative ai dati finanziari.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell, configure'
 ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-sales"></a>Setup Vendite
+# Setup Vendite
 
 Prima di poter dare inizio alla gestione dei processi di vendita, è necessario configurare le regole e i valori che definiscono i criteri di vendita dell'azienda.
 
@@ -35,7 +34,7 @@ L'impostazione delle vendite correlata all'aspetto contabile, come i metodi di p
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 |Specifica se gli utenti possono registrare le fatture di vendita e se devono registrarle insieme a una spedizione. |[Definire criteri di registrazione fattura per gli utenti](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 [Vendite](sales-manage-sales.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

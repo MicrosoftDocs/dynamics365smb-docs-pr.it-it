@@ -3,8 +3,9 @@ author: brentholtorf
 ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Verificare i dati in documenti e registrazioni durante il lavoro
+## Verificare i dati in documenti e registrazioni durante il lavoro
 
 Nel primo ciclo di rilascio del 2022 abbiamo introdotto una funzionalità che convalida i dati inseriti nei documenti e nelle registrazioni durante l'inserimento. Ad esempio, l'attivazione di questa funzione può aiutare a evitare errori nell'immissione dei dati o quando è impossibile registrare qualcosa a causa di un errore. 
 

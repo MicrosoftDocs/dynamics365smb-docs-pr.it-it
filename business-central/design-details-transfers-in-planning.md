@@ -8,8 +8,9 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-transfers-in-planning"></a>Dettagli di progettazione: Trasferimenti nella pianificazione
+# Dettagli di progettazione: Trasferimenti nella pianificazione
 
 Gli ordini di trasferimento sono anche un'origine di approvvigionamento quando si lavora a livello di stockkeeping. Se si utilizzano più ubicazioni (warehouse), il sistema di rifornimento della USK può essere impostato su Trasferimento, implicando che l'ubicazione sia rifornita trasferendo le merci da un'altra ubicazione. In una situazione con più warehouse potresti avere una catena di trasferimenti. L'approvvigionamento all'ubicazione VERDE è stata trasferita dall'ubicazione GIALLA, l'approvvigionamento all'ubicazione GIALLA è trasferito dall'ubicazione ROSSA, e così via. All'inizio della catena, è presente un sistema di rifornimento di **Ordine di produzione** o **di acquisto**.  
 
@@ -27,7 +28,7 @@ Se la domanda cambia, potrebbe causare un effetto onda lungo la catena. Tutti gl
 
 ![Esempio di saldo tra approvvigionamento e domanda nei trasferimenti.](media/nav_app_supply_planning_7_transfers2.png "Esempio di saldo tra approvvigionamento e domanda nei trasferimenti")  
 
-## <a name="why-is-a-transfer-a-special-case"></a>Perché il trasferimento è un caso speciale?
+## Perché il trasferimento è un caso speciale?  
 
 Gli ordini di trasferimento sono simili ad altri ordini, come gli ordini di acquisto e di produzione. Tuttavia sono diversi.  
 
@@ -37,7 +38,7 @@ Una differenza è che una riga trasferimento rappresenta sia la domanda che l'of
 
 Quando [!INCLUDE [prod_short](includes/prod_short.md)] cambia il lato approvvigionamento del trasferimento, deve apportare una modifica simile sul lato domanda.  
 
-## <a name="transfers-are-dependent-demand"></a>I trasferimenti dipendono dalla domanda
+## I trasferimenti dipendono dalla domanda  
 
 La relazione tra domanda e offerta è simile ai componenti nelle righe ordine di produzione. La differenza è che i componenti nelle righe ordine di produzione si trovano al livello di pianificazione successivo e hanno un articolo diverso. Le due parti del trasferimento sono allo stesso livello per lo stesso articolo.  
 
@@ -47,7 +48,7 @@ A meno che la flessibilità di pianificazione sia impostata su Nessuna, una riga
 
 Nella procedura di pianificazione, la domanda di trasferimento deve essere considerata soltanto dopo che il sistema di pianificazione ha elaborato il lato di approvvigionamento. Prima che avvenga l'elaborazione, la domanda effettiva non è nota. La sequenza delle modifiche è importante per gli ordini di trasferimento.  
 
-## <a name="planning-sequence"></a>Sequenza di pianificazione
+## Sequenza di pianificazione  
 
 L'immagine seguente mostra un esempio di stringa di trasferimento.  
 
@@ -59,7 +60,7 @@ In questo esempio, il sistema di pianificazione inizia alla domanda del cliente 
 
 ![Pianificazione forniture con trasferimenti.](media/nav_app_supply_planning_7_transfers5.png "Pianificazione forniture con trasferimenti")  
 
-## <a name="transfer-level-code"></a>Codice livello trasferimento
+## Codice livello trasferimento  
 
 La sequenza in cui le ubicazioni vengono elaborate nel sistema di pianificazione è determinata dal codice del livello di trasferimento della SKU.  
 
@@ -71,7 +72,7 @@ Il codice del livello di trasferimento sarà 0 per le unità di stockkeeping con
 
 Per aggiornare la SKU, il sistema di pianificazione rileva se il sistema di approvvigionamento per le unità di stockkeeping ha riferimenti circolari.  
 
-## <a name="planning-transfers-without-sku"></a>Pianificazione dei trasferimenti senza SKU
+## Pianificazione dei trasferimenti senza SKU  
 
 Per configurazioni warehouse meno avanzate, puoi utilizzare le ubicazioni ed effettuare trasferimenti manuali tra le ubicazioni, anche se non utilizzi le SKU. Ad esempio, il trasferimento potrebbe riguardare un ordine di vendita in tale ubicazione. Il sistema di pianificazione risponde alle modifiche nella domanda.  
 
@@ -81,7 +82,7 @@ Per i trasferimenti manuali, il sistema di pianificazione analizza gli ordini di
 
 Se esistono più trasferimenti a un'ubicazione, il primo ordine di trasferimento definisce la direzione di pianificazione. I trasferimenti nella direzione opposta vengono annullati.  
 
-## <a name="changing-quantity-with-reservations"></a>Modificare la quantità con gli impegni
+## Modificare la quantità con gli impegni  
 
 Quando si modificano le quantità di un approvvigionamento, il sistema di pianificazione tiene conto degli impegni. La quantità riservata rappresenta il limite inferiore di quanto ridurre l'approvvigionamento.  
 
@@ -96,7 +97,7 @@ Anche se il lato in entrata potrebbe avere un approvvigionamento in eccesso, non
 
 ![Prenotazioni nella pianificazione dei trasferimenti.](media/nav_app_supply_planning_7_transfers8.png "Prenotazioni nella pianificazione dei trasferimenti")  
 
-## <a name="changing-quantity-in-a-transfer-chain"></a>Modificare la quantità in una catena di trasferimento
+## Modificare la quantità in una catena di trasferimento  
 
 Ecco un esempio di ciò che accade quando modifichi una quantità in una modifica di trasferimento.
 
@@ -118,7 +119,7 @@ Quando il sistema di pianificazione viene eseguito nuovamente, deve liberarsi de
 
 Il trasferimento ROSA-ROSSO è stato ridotto a 22. La parte in entrata del trasferimento BLU-ROSA non è riservata, ma la parte in uscita lo è. La prenotazione comporta l'impossibilità di ridurre la quantità al di sotto di 27.  
 
-## <a name="lead-time-calculation"></a>Calcolo del lead time
+## Calcolo del lead time  
 
 Nel calcolo della data di scadenza di un ordine di trasferimento vengono presi in considerazione diversi tipi di lead time.  
 
@@ -149,7 +150,7 @@ L'esempio mostra i seguenti calcoli:
 * Data inizio + Durata spedizione = Data fine  
 * Data Fine + Gest. Entrata = Data Carico  
 
-## <a name="safety-lead-time"></a>Lead time di sicurezza
+## Lead time di sicurezza  
 
 Il campo **Lead time di sicurezza predefinito** nella pagina **Setup produzione** e il campo **Lead time di sicurezza** correlato della pagina **Scheda articolo** non verranno considerati nel calcolo di un ordine di trasferimento. Tuttavia, il lead time di sicurezza influenza il piano totale. Il lead time di sicurezza influisce sull'ordine di approvvigionamento (acquisto o produzione) all'inizio della catena di trasferimento. Questo è il punto in cui gli articoli sono stati collocati nell'ubicazione da cui verranno trasferiti.  
 
@@ -159,7 +160,7 @@ Nella riga dell'ordine di produzione, la Data Fine + Lead Time di Sicurezza + Te
 
 Nella riga dell'ordine di acquisto, la Data Carico Pianificato + Lead Time di Sicurezza + Tempo Gest. Entrata in Whse. = Data Carico Prevista.  
 
-## <a name="reschedule"></a>Ripianifica
+## Ripianifica  
 
 Nella riprogrammazione di una riga di trasferimento, il sistema di pianificazione trova la parte in uscita e modifica la data e l'ora.
 
@@ -170,11 +171,11 @@ Nella riprogrammazione di una riga di trasferimento, il sistema di pianificazion
 
 Quando si modifica la data di scadenza in una riga di trasferimento, è necessario calcolare il lead time per aggiornare il lato in uscita del trasferimento.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Numeri seriali e di lotto nelle catene di trasferimento
+## Numeri seriali e di lotto nelle catene di trasferimento  
 
 Se la domanda usa numeri seriali o di lotto e il motore di pianificazione è in esecuzione, verranno creati gli ordini di trasferimento. Per ulteriori informazioni su questo concetto, vedere gli attributi dell'articolo. Se, tuttavia, i numeri seriali o di lotto vengono rimossi dalla domanda, gli ordini di trasferimento usano ancora i numeri seriali o di lotto e pertanto verranno trascurati dalla pianificazione (non eliminati).  
 
-## <a name="order-to-order-links"></a>Collegamenti ordine su ordine
+## Collegamenti ordine su ordine  
 
 In questo esempio, la SKU BLU è impostata con un criterio di riordino **Ordine**. Le SKU ROSA e ROSSA hanno il criterio di riordino **lotto per lotto**. La creazione di un ordine cliente per 27 nell'ubicazione ROSSA comporta una catena di trasferimenti. L'ultimo trasferimento è nell'ubicazione BLU, ed è riservato con l'associazione. In questo esempio, gli impegni non sono impegni imposti dal responsabile della pianificazione presso l'ubicazione ROSA. Il sistema di pianificazione crea le associazioni. La differenza importante è che il sistema di pianificazione può modificare l'ultimo.  
 
@@ -182,7 +183,7 @@ In questo esempio, la SKU BLU è impostata con un criterio di riordino **Ordine*
 
 Se la domanda viene modificata da 27 a 22, il sistema di pianificazione abbasserà la quantità lungo la catena. Anche l'impegno dell'associazione è ridotto.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
 [Dettagli di progettazione: Parametri di pianificazione](design-details-planning-parameters.md)   
 [Dettagli di progettazione: Tabella Assegnazione pianificazione](design-details-planning-assignment-table.md)   

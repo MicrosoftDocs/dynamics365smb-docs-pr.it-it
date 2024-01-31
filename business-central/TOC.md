@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 
 # [Documentazione di Business Central](index.yml)
 # [Ti diamo il benvenuto in Business Central](welcome.md)
@@ -286,6 +289,7 @@
 ## Dati finanziari
 ### [Panoramica dei dati finanziari](finance.md)
 ### [Report finanziari](finance-reports.md)
+
 ### Gestire la contabilità clienti
 #### [Panoramica della contabilità clienti](receivables-manage-receivables.md)
 #### [Report di contabilità clienti e analisi](receivables-reports.md)
@@ -298,6 +302,7 @@
 ##### [Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md)
 #### [Riconciliare i pagamenti dei clienti dall'elenco dei documenti di vendita non pagati](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti](receivables-how-apply-sales-transactions-manually.md)
+#### [Consolidare i saldi per una società che è cliente e fornitore](finance-consolidate-customer-vendor-balances.md)
 #### [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)
 #### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Inviare promemoria per saldi inevasi](receivables-send-reminders.md)
@@ -326,34 +331,13 @@
 ##### [Riconciliare i pagamenti che non possono essere collegati automaticamente](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Mappare il testo nei pagamenti periodici a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Riconciliare manualmente i pagamenti dei fornitori con le registrazioni pagamenti o i movimenti contabili fornitori](payables-how-apply-purchase-transactions-manually.md)
+#### [Consolidare i saldi per una società che è cliente e fornitore](finance-consolidate-customer-vendor-balances.md)
 #### [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)
 #### [Riscuotere pagamenti con addebito diretto SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Bloccare i fornitori](payables-how-block-vendors.md)
 #### [Usare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)
 #### [Usare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md)
-
-### Gestire documenti elettronici
-#### [Panoramica dei documenti elettronici](finance-edocuments-overview.md)
-#### [Impostare documenti elettronici](finance-how-setup-edocuments.md)
-#### [Utilizzare documenti elettronici nelle vendite e negli acquisti](finance-how-use-edocuments.md)
-#### [Impostare il connettore Documenti elettronici con endpoint esterni](finance-how-setup-edocuments-external.md)
-#### [Estensione della funzionalità dei documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### Gestire l'IVA
-#### [Panoramica della gestione IVA](finance-manage-vat.md)
-#### [Triangolazioni intracomunitarie](finance-how-to-eu3party-trade-purchase.md)
-#### Impostare l'IVA
-##### [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)
-##### [Impostare la categoria di registrazione](finance-posting-groups.md#tax-posting-groups)
-##### [Impostare l'IVA non detraibile](finance-setup-nondeductible-vat.md)
-##### [Impostare l'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)
-##### [Impostare una dichiarazione IVA](finance-how-setup-vat-statement.md)
-#### [Usare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)
-#### [Usare IVA non detraibile](finance-how-use-non-deductible-vat.md)
-#### [Inviare la dichiarazione IVA alle autorità fiscali](finance-how-report-vat.md)
-#### [Gestione delle modifiche dell'aliquota IVA](finance-how-use-vat-rate-change-tool.md)
-#### [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md)
 
 ### Fatturazione dei pagamenti anticipati
 #### [Panoramica dei pagamenti anticipati](finance-invoice-prepayments.md)
@@ -366,13 +350,8 @@
 #### [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)
 #### [Riconciliare i conti correnti bancari con Copilot (anteprima)](bank-reconciliation-with-copilot.md)
 #### [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### Gestire le transazioni intercompany
-#### [Panoramica di intercompany](intercompany-manage.md)
-#### [Impostare intercompany](intercompany-how-setup.md)
-#### [Usare documenti e registrazioni intercompany](intercompany-how-work-documents-journals.md)
-#### [Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)
-#### [Allocare costi a partner IC](intercompany-allocate-costs.md)
+#### [Trasferire fondi bancari](bank-how-transfer-bank-funds.md)
+#### [Creare depositi bancari](bank-create-bank-deposits.md)
 
 ### Contabilizzazione dei costi
 #### [Panoramica della contabilità industriale](finance-manage-cost-accounting.md)
@@ -408,6 +387,8 @@
 ### Gestire il flusso di cassa
 #### [Panoramica del flusso di cassa](finance-cash-flow-overview.md)
 #### [Analizzare i flussi di cassa della società](finance-analyze-cash-flow.md)
+#### [Procedura dettagliata: utilizzo di report finanziari per eseguire previsioni di flusso di cassa](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ### Chiusura di anni e periodi
 #### [Panoramica della chiusura dell'anno](year-close-years-periods.md)
@@ -424,38 +405,63 @@
 #### [Chiudere i conti economici](year-close-income-statement.md)
 #### [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)
 
-### Consolidare dati finanziari di più società
-#### [Consolidamento società](finance-consolidated-company-reporting.md)
-#### [Impostare il consolidamento società](finance-consolidated-company-reporting-setup.md)
-
-### Utilizzare il piano dei conti e la contabilità generale
+### Utilizzare il piano dei conti e la contabilità generale (C/G)
 #### [Comprendere il piano dei conti e la contabilità generale](finance-general-ledger.md)
 #### [Rivedere i conti](finance-review-accounts.md)
+#### [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)
+#### [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md)
+#### [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)
+#### [Creare budget C/G](finance-how-create-budgets.md)
+#### [Esportazione file di controllo](finance-how-to-export-audit-files.md)
+#### [Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)
+#### [Allocare costi e ricavi periodici](year-allocate-costs-income.md)
+#### [Allocare ricavi e costi a più conti C/G](finance-allocate-revenue-costs.md)
 
-### [Consolidare i saldi per una società che è cliente e fornitore](finance-consolidate-customer-vendor-balances.md)
-### [Usare le dimensioni](finance-dimensions.md)
-### [Risolvere i problemi e correggere le dimensioni](finance-troubleshooting-correcting-dimensions.md)
-### [Valute in Business Central](finance-currencies.md)
-### [Creare budget C/G](finance-how-create-budgets.md)
-### [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)
-### [Stornare le registrazioni e annullare carichi/spedizioni errati.](finance-how-reverse-journal-posting.md)
-### [Esportazione file di controllo](finance-how-to-export-audit-files.md)
-### [Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)
-### [Rateizzare le entrate e le uscite](finance-how-defer-revenue-expenses.md)
-### [Allocare costi e ricavi periodici](year-allocate-costs-income.md)
-### [Allocare ricavi e costi a più conti C/G](finance-allocate-revenue-costs.md)
-### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
-### [Importare transazioni di retribuzioni](finance-how-import-payroll-transactions.md)
-### [Usare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)
-### [Dichiarare l'IVA all'autorità fiscale](finance-how-report-vat.md)
-### [Convertire i contratti di servizio che includono importi IVA](service-how-to-convert-service-contracts.md)
-### [Gestire le variazioni dell'aliquota IVA](finance-how-use-vat-rate-change-tool.md)
-### [Procedura dettagliata: utilizzo di report finanziari per eseguire previsioni di flusso di cassa](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Analizzare i rendiconti finanziari in Excel](finance-analyze-excel.md)
-### [Trasferire fondi bancari](bank-how-transfer-bank-funds.md)
-### [Creare depositi bancari](bank-create-bank-deposits.md)
-### [Esperienze di contabile in Business Central](finance-accounting.md)
+### Utilizzo delle dimensioni
+#### [Panoramica delle dimensioni](finance-dimensions.md)
+#### [Risolvere i problemi e correggere le dimensioni](finance-troubleshooting-correcting-dimensions.md)
+#### [Importare transazioni di retribuzioni](finance-how-import-payroll-transactions.md)
+
+### Utilizzo delle valute
+#### [Valute in Business Central](finance-currencies.md)
+#### [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)
+
+### Utilizzo dell'IVA
+#### [Panoramica della gestione IVA](finance-manage-vat.md)
+#### [Triangolazioni intracomunitarie](finance-how-to-eu3party-trade-purchase.md)
+#### Impostare l'IVA
+##### [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)
+##### [Impostare la categoria di registrazione](finance-posting-groups.md#tax-posting-groups)
+##### [Impostare l'IVA non detraibile](finance-setup-nondeductible-vat.md)
+##### [Impostare l'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)
+##### [Impostare una dichiarazione IVA](finance-how-setup-vat-statement.md)
+#### [Usare l'IVA nelle vendite e negli acquisti](finance-work-with-vat.md)
+#### [Usare IVA non detraibile](finance-how-use-non-deductible-vat.md)
+#### [Inviare la dichiarazione IVA alle autorità fiscali](finance-how-report-vat.md)
+#### [Gestione delle modifiche dell'aliquota IVA](finance-how-use-vat-rate-change-tool.md)
+#### [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md)
+#### [Convertire i contratti di servizio che includono importi IVA](service-how-to-convert-service-contracts.md)
+
+### Impostare e utilizzare i documenti elettronici
+#### [Panoramica dei documenti elettronici](finance-edocuments-overview.md)
+#### [Impostare documenti elettronici](finance-how-setup-edocuments.md)
+#### [Utilizzare documenti elettronici nelle vendite e negli acquisti](finance-how-use-edocuments.md)
+#### [Impostare il connettore Documenti elettronici con endpoint esterni](finance-how-setup-edocuments-external.md)
+#### [Estensione della funzionalità dei documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### [Organizzazioni multisito e internazionali](finance-multi-site-organizations.md)
+#### Consolidare dati finanziari di più società
+##### [Consolidamento società](finance-consolidated-company-reporting.md)
+##### [Impostare il consolidamento società](finance-consolidated-company-reporting-setup.md)
+#### Gestire le transazioni intercompany
+##### [Panoramica di intercompany](intercompany-manage.md)
+##### [Impostare intercompany](intercompany-how-setup.md)
+##### [Usare documenti e registrazioni intercompany](intercompany-how-work-documents-journals.md)
+##### [Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)
+##### [Allocare costi a partner IC](intercompany-allocate-costs.md)
+
+### [Esperienze di contabile in Business Central](finance-accounting.md)
+
 
 ## Business Intelligence e report finanziari
 ### [Panoramica di Business Intelligence e report finanziario](bi.md)
@@ -466,8 +472,11 @@
 ### [Impostare e pubblicare servizi Web indicatore di prestazioni chiave (KPI) basati sui report finanziari](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)
 ### [Creare report di analisi](bi-how-create-analysis-views-reports.md)
+### [Analizzare i rendiconti finanziari in Excel](finance-analyze-excel.md)
 ### [Creare report con XBRL](bi-create-reports-with-xbrl.md)
 ### [Gestire l'intento di accesso al database](admin-data-access-intent.md)
+### [Procedura dettagliata: utilizzo di report finanziari per eseguire previsioni di flusso di cassa](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ## Vendite
 ### [Panoramica delle vendite](sales-manage-sales.md)
@@ -815,7 +824,7 @@
 ##### [Trasferire e registrare manualmente estratti conto CODA](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
 ##### [Importare estratti conto CODA](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### Dati finanziari principali
-##### [Collegare e scollegare movimenti C/G](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
+##### [Collegare e scollegare movimenti di contabilità generale](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Creare giornali di registrazione finanziari](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
 ##### [Esportare in Accon](LocalFunctionality/Belgium/how-to-export-to-accon.md)
 #### Generale
@@ -846,7 +855,7 @@
 #### Dati finanziari principali  
 ##### [Dati finanziari](LocalFunctionality/Czech/finance.md)
 ##### [Operazioni di chiusura anno](LocalFunctionality/Czech/year-close-operations.md)
-##### [Collegamento di movimenti C/G](LocalFunctionality/Czech/general-ledger-entries-application.md)
+##### [Collegamento di movimenti di contabilità generale](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Aggiornamento di tassi di cambio](LocalFunctionality/Czech/exchange-rate-update.md)
 #### IVA
 ##### [Contabilità - IVA](LocalFunctionality/Czech/finance-vat.md)
@@ -874,9 +883,13 @@
 
 ### Danimarca
 #### [Funzionalità locale nella versione danese](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### [Notifica e registrazione per NemHandelsregisteret in Danimarca](localfunctionality/denmark/how-to-nemhandel-register.md)
-#### [Impostare la fatturazione elettronica con NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### Conformità
 #### [Conservare i dati transazionali per cinque anni in Danimarca](localfunctionality/denmark/how-to-keep-data-5years.md)
+##### [Impostare giustificativi digitali in Danimarca](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+#### Revisione
+##### [Esportare il formato del file di controllo SAF-T in Danimarca](LocalFunctionality/Denmark/how-to-use-saft-audit-files-export.md)
+##### [Piano dei conti standard pubblico in Danimarca](LocalFunctionality/Denmark/how-to-set-up-standard-coa.md)
+##### [Esportare i dati contabili nel Regnskab Basis in Danimarca](LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md)
 #### IVA
 ##### [Stampare report riconciliazione IVA](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Dichiarazione IVA-VIES](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -890,11 +903,11 @@
 ##### [Impostare clienti per OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Impostare la fatturazione elettronica OIOUBL](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [Estensione OIOUBL per la fatturazione elettronica](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Creare documenti elettronici in un formato OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
+##### [Creare documenti elettronici in un formato OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+#### [Notifica e registrazione per NemHandelsregisteret in Danimarca](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Impostare la fatturazione elettronica con NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### Retribuzioni
 ##### [Definizioni dei dati di retribuzioni (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-#### Giustificativi digitali
-##### [Impostare giustificativi digitali in Danimarca](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finlandia
 #### [Funzionalità locale nella versione finlandese](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -916,8 +929,8 @@
 ### Francia
 #### [Funzionalità locale nella versione francese](LocalFunctionality/France/france-local-functionality.md)
 #### IVA
-##### [Esportare movimenti C/G per controlli fiscali](LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md)
-##### [Esportare movimenti C/G in un file XML](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
+##### [Esportare movimenti di contabilità generale per controlli fiscali](LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md)
+##### [Esportare movimenti di contabilità generale in un file XML](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Requisiti per il report della dichiarazione di commercio di beni](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Attività bancarie e pagamenti
 ##### [Gestione pagamenti](LocalFunctionality/France/payment-management.md)
@@ -930,8 +943,8 @@
 ##### [Esportare o importare parametri di impostazione di gestione pagamenti](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Dati finanziari principali
 ##### [Contabilità generale](LocalFunctionality/France/general-ledger.md)
-##### [Collegare movimenti C/G](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
-##### [Scollegare movimenti C/G](LocalFunctionality/France/how-to-unapply-general-ledger-entries.md)
+##### [Collegare movimenti di contabilità generale](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
+##### [Scollegare movimenti di contabilità generale](LocalFunctionality/France/how-to-unapply-general-ledger-entries.md)
 ##### [Stampare report di contabilità generale](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
 ##### [Visualizzare riconciliazioni di contabilità generale](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
 ##### [Specificare i periodi di registrazione](LocalFunctionality/France/how-to-specify-posting-periods.md)
@@ -1190,8 +1203,8 @@
 ##### [Creare ed esportare lo storico pagamenti](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 ##### [Importare e riconciliare rendiconti bancari](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Dati finanziari principali
-##### [Collegare e scollegare movimenti C/G](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
-##### [Descrizioni richieste nei movimenti C/G](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
+##### [Collegare e scollegare movimenti di contabilità generale](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
+##### [Descrizioni richieste nei movimenti di contabilità generale](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 #### Acquisti
 ##### [Verificare gli importi di acquisto](LocalFunctionality/Netherlands/check-purchase-amounts.md)
 ##### [Modificare importi documento in fatture di acquisto e note di credito](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
@@ -1270,7 +1283,7 @@
 ##### [Importare ed esportare pagamenti OCR](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 ##### [Stampare il report giornale OCR - Test](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
 #### Dati finanziari principali
-##### [Collegare movimenti C/G in periodi chiusi](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
+##### [Collegare movimenti di contabilità generale in periodi chiusi](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 #### Generale
 ##### [Ordini ricorrenti](LocalFunctionality/Norway/recurring-orders.md)  
 ##### [Creare ordini ricorrenti](LocalFunctionality/Norway/how-to-create-recurring-orders.md)
@@ -1395,7 +1408,7 @@
 #### Dati finanziari principali
 ##### [Impostare e chiudere saldi del conto economico](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Impostare il rientro e convalidare il piano dei conti](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
-##### [Ignorare gli sconti nei conti CoGe](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
+##### [Ignorare gli sconti nei conti di contabilità generale](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
 ##### [Esportare i report finanziari in formato ASC](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
 ##### [Stampare report Schede contabili](LocalFunctionality/Spain/how-to-print-account-book-reports.md)
 ##### [Stampare registri fatture di vendita e di acquisto](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
@@ -1439,7 +1452,7 @@
 ##### [Importare numeri di clearing svizzeri](LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md)
 ##### [Stampare report di liste di pagamenti fornitore](LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md)
 #### Dati finanziari principali
-##### [Conti CoGe per la Svizzera](LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md)
+##### [Conti di contabilità generale per la Svizzera](LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md)
 ##### [Saldo](LocalFunctionality/Switzerland/balance.md)
 ##### [Rettificare tassi di cambio](LocalFunctionality/Switzerland/how-to-adjust-exchange-rates.md)
 ##### [Visualizzare i saldi temporanei nelle registrazioni di contabilità generale](LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md)
@@ -1832,19 +1845,6 @@
 #### [Guida allo sviluppo del report](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Guida all'ottimizzazione delle prestazioni del report](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
-# Funzionalità di Copilot e IA
-## Gestire le funzionalità di Copilot e IA
-### [Configurare le funzionalità di Copilot e IA](enable-ai.md)
-### [Spostamento dei dati di Copilot tra aree geografiche](ai-copilot-data-movement.md)
-### [Risoluzione dei problemi relativi alle funzionalità di Copilot e IA](ai-copilot-troubleshooting.md)
-## Assistenza per la riconciliazione dei conti correnti bancari (anteprima)
-### [Riconciliare i conti correnti bancari con Copilot](bank-reconciliation-with-copilot.md)
-### [Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari](faqs-bank-reconciliation.md)
-## Suggerimenti di testo di marketing
-### [Panoramica dei suggerimenti di testo di marketing](ai-overview.md)
-### [Creare testo di marketing con Copilot](item-marketing-text.md)
-### [Domande frequenti sui suggerimenti di testo di marketing](faqs-marketing-text.md)
-
 # Sicurezza, privacy e conformità
 ## Sicurezza e protezione
 ### [Panoramica di sicurezza e protezione (solo in inglese)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
@@ -2023,6 +2023,18 @@
 ## [Sicurezza e protezione](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Prestazioni](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Funzionalità rimosse o deprecate](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Funzionalità di Copilot e IA
+## Gestire le funzionalità di Copilot e IA
+### [Configurare le funzionalità di Copilot e IA](enable-ai.md)
+### [Spostamento dei dati di Copilot tra aree geografiche](ai-copilot-data-movement.md)
+### [Risoluzione dei problemi relativi alle funzionalità di Copilot e IA](ai-copilot-troubleshooting.md)
+## Assistenza per la riconciliazione dei conti correnti bancari (anteprima)
+### [Riconciliare i conti correnti bancari con Copilot](bank-reconciliation-with-copilot.md)
+### [Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari](faqs-bank-reconciliation.md)
+## Suggerimenti di testo di marketing
+### [Panoramica dei suggerimenti di testo di marketing](ai-overview.md)
+### [Creare testo di marketing con Copilot](item-marketing-text.md)
+### [Domande frequenti sui suggerimenti di testo di marketing](faqs-marketing-text.md)
 # IA responsabile
 ## [Panoramica](responsible-ai-overview.md)
 ## [Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari (anteprima)](faqs-bank-reconciliation.md)

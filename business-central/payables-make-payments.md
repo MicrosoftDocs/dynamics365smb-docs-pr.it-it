@@ -3,15 +3,14 @@ title: Panoramica dei task di gestione dei pagamenti ai fornitori
 description: 'Descrive i task per gestire i pagamenti ai fornitori o ai creditori, inclusa la registrazione delle righe di pagamento e la visualizzazione di una panoramica del saldo dovuto.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="making-payments"></a>Effettuare i pagamenti
+# Effettuare i pagamenti
 
 Quando si eseguono i pagamenti ai fornitori, ai clienti o i rimborsi ai dipendenti, si registrano le relative righe di pagamento nella pagina **Registrazioni pagamenti**. Le registrazioni pagamenti sono registrazioni generali ottimizzate per effettuare pagamenti e includono una serie di potenti funzioni come **Sugg. pagamenti fornitore** che consente di individuare i pagamenti fornitore in scadenza e il report **Fornitori - Scadenziario riepilogativo** che mostra una panoramica dei pagamenti scadenza dei fornitori.  
 
@@ -35,7 +34,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Pagare un fornitore in contanti o con assegno e registrare il pagamento mentre si registra la fattura. |[Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati inviandole un file che contenga informazioni sul fornitore, l'assegno e il pagamento. |[Esportare un file Positive Pay](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  

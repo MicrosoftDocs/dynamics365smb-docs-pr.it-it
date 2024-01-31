@@ -3,22 +3,21 @@ title: Iniziare a creare layout
 description: 'Informazioni su come creare i layout che consentono di personalizzare l''aspetto del report quando viene visualizzato, stampato o salvato.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '9650, 9652'
 ms.date: 03/23/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="get-started-creating-report-layouts"></a>Iniziare a creare layout di report
+# Iniziare a creare layout di report
 
 Business Central viene fornito con molti layout integrati che puoi utilizzare nei report. Altri layout potrebbero essere stati aggiunti come parte di altre estensioni. Ma è anche possibile creare i propri report da zero o basandosi su un layout esistente.
 
 > [!IMPORTANT]
 > Puoi utilizzare i layout anche per aggiungere contenuti ai messaggi di posta elettronica. Ad esempio, i layout dei report possono far risparmiare tempo e contribuire a garantire la coerenza riutilizzando lo stesso contenuto quando comunichi con i clienti. Per utilizzare i layout di report personalizzati con e-mail, il tipo di file per il layout deve essere Word. Non è possibile utilizzare il tipo di file RDLC. Per ulteriori informazioni, vedi [Impostare testi e layout e-mail riutilizzabili](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="overview"></a>Sintesi
+## Sintesi
 
 Quando si lavora con i layout di report, è utile pensare al layout come a un file importato e assegnato a un report. Indipendentemente dal tipo di layout, il modo in cui gestisci i layout in Business Central è sostanzialmente sempre lo stesso. Di solito, lavori dalla pagina **Layout report**. La differenza principale è la modalità di progettazione del layout, che viene eseguita utilizzando il software applicativo su cui è basato il layout, come Word, Excel o il Generatore report di SQL Server.
 
@@ -34,7 +33,7 @@ Occorre tenere questo concetto in mente. Ci sono fondamentalmente tre o quattro 
 >
 > Per ulteriori informazioni sulla differenza tra i layout delle estensioni e i layout definiti dall'utente, vedi [Origine del layout](ui-manage-report-layouts.md#layout-sources).
 
-## <a name="get-started"></a>Inizia
+## Inizia
 
 A seconda della tua situazione, le attività possono variare. Utilizza la tabella seguente per iniziare.
 
@@ -47,7 +46,7 @@ A seconda della tua situazione, le attività possono variare. Utilizza la tabell
 |Cambiare il layout corrente utilizzato da un report in un altro layout|[Impostare il layout utilizzato da un report](ui-set-report-layout.md)|
 |Modificare il nome e la descrizione di un layout|[Rinominare un layout](#rename)|
 
-## <a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Decidere quale tipo di layout usare
+## <a name="decide"></a>Decidere quale tipo di layout usare
 
 La prima cosa quando si crea un layout è decidere quale [tipo di layout](ui-manage-report-layouts.md#layout-types) usare. Puoi scegliere tra Word, Excel o RDLC. Il tipo di layout dipenderà da come vuoi che appaia il report generato. Inoltre, dipende dalla tua conoscenza del software applicativo per la creazione dei layout, come Word, Excel e il Generatore report di SQL Server.
 
@@ -66,7 +65,7 @@ La prima cosa quando si crea un layout è decidere quale [tipo di layout](ui-man
 
 * I concetti di progetto generali dei layout Word e RDLC sono simili. Tuttavia ogni tipologia presenta determinate caratteristiche progettuali che influiscono sulla visualizzazione del report generato in [!INCLUDE[prod_short](includes/prod_short.md)]. Lo stesso report può apparire diverso quando si utilizza il layout di Word rispetto al layout di RDLC.
 
-## <a name="create-a-new-layout"></a><a name="create"></a>Creare un nuovo layout
+## <a name="create"></a>Creare un nuovo layout
 
 Esistono due modi per creare un nuovo layout da un layout esistente. Un modo è salvare una copia del layout esistente. L'altro modo è esportare il layout esistente.
 
@@ -127,7 +126,7 @@ Se vuoi vedere come appare il report con il nuovo layout, seleziona il layout ne
 
 ---
 
-## <a name="modify-a-layout"></a><a name="modify"></a>Modificare un layout
+## <a name="modify"></a>Modificare un layout
 
 Attieniti alla seguente procedura per modificare un layout definito dall'utente esistente.
 
@@ -156,7 +155,7 @@ Attieniti alla seguente procedura per modificare un layout definito dall'utente 
    Il file selezionato viene caricato nel layout e torni alla pagina **Layout report**.
 7. Se vuoi vedere come appare il report con il nuovo layout, seleziona il layout nell'elenco, quindi seleziona **Esegui report**.
 
-## <a name="replace-a-layout"></a><a name="replace"></a>Sostituire un layout
+## <a name="replace"></a>Sostituire un layout
 
 Attieniti alla seguente procedura per sostituire il file di layout definito dall'utente esistente con un nuovo file.
 
@@ -168,7 +167,7 @@ Attieniti alla seguente procedura per sostituire il file di layout definito dall
    Il file selezionato viene caricato nel layout e torni alla pagina **Layout report**.
 5. Se vuoi vedere come appare il report con il nuovo layout, seleziona il layout nell'elenco, quindi seleziona **Esegui report**.
 
-## <a name="rename-a-layout"></a><a name="rename"></a>Rinominare un layout
+## <a name="rename"></a>Rinominare un layout
 
 Attieniti alla seguente procedura per modificare il nome e la descrizione di un layout definito dall'utente.
 
@@ -179,7 +178,7 @@ Attieniti alla seguente procedura per modificare il nome e la descrizione di un 
     > Per trovare il layout, usa la casella **Ricerca**, il riquadro **Filtro** e l'ordinamento delle colonne.
 3. Cambia il **Nome layout**, quindi seleziona **OK**.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Utilizzare i layout di Word](ui-how-add-fields-word-report-layout.md)  

@@ -3,18 +3,17 @@ title: Impostare i calendari di base
 description: 'Puoi assegnare un calendario di base alla tua società e ai partner aziendali, per calcolare le date di consegna e ricevimento in base ai giorni lavorativi specificati.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-base-calendars"></a>Impostare i calendari di base
+# Impostare i calendari di base
 
 È possibile assegnare un calendario di base alla società e ai partner commerciali, quali clienti, fornitori o magazzini. I giorni lavorativi specificati nel calendario verranno utilizzati per il calcolo delle date di consegna e di carico nelle righe dei futuri ordini di vendita, di acquisto, di trasferimento e di produzione. L'operazione principale da eseguire per impostare un nuovo calendario di base consiste nello specificare e definire i giorni non lavorativi.  
 
-## <a name="to-set-up-a-base-calendar"></a>Per impostare un calendario base
+## Per impostare un calendario base
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Calendario base**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
@@ -36,7 +35,7 @@ Quando si inserisce un movimento, il campo **Non lavorativo** viene selezionato.
 >  Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi.
 Specifica una formula di data per il tempo necessario per il rifornimento dell'articolo. Viene utilizzato per il calcolo del campo **Data carico pianificato**, se calcolato in avanti, e del campo **Order Date**, se calcolato a ritroso. Vedere [Calcolo lead time](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## <a name="lead-time-calculation"></a>Calcolo lead time
+## Calcolo lead time
 
 Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce sul modo in cui le date vengono calcolate e arrotondate in base ai giorni lavorativi. Di conseguenza, i due campi data principali nelle righe ordine di acquisto vengono calcolati come segue secondo condizioni diverse.
 
@@ -53,7 +52,7 @@ Qualsiasi calendario di base definito per il fornitore o l'ubicazione influisce 
 
 Il contenuto del campo **Calcolo lead time** viene copiato dalla scheda articolo o dalla scheda USK, se il lead time è definito per l'articolo, o nella pagina **Catalogo articolo fornitori**, se il lead time è definito per il fornitore.
 
-## <a name="to-customize-a-calendar"></a>Per personalizzare un calendario
+## Per personalizzare un calendario
 L'operazione principale da eseguire per personalizzare un calendario di base per la propria società, o per uno dei partner commerciali, è la modifica dello stato dei giorni lavorativi e non lavorativi.
 
 Mentre un calendario di base standard mostra solitamente tutti i sabati come giorni non lavorativi, il calendario personalizzato di una determinata ubicazione potrebbe ad esempio riportare come giorni lavorativi tutti i sabati dei mesi di novembre e dicembre e del mese precedente il periodo di ferie.
@@ -86,7 +85,7 @@ Se non si compila il campo **Cod. spedizioniere** nella riga dell'ordine, verrà
 > [!NOTE]  
 > Se si apportano modifiche a un calendario di base per cui esistono variazioni personalizzate, tutti i calendari personalizzati esistenti verranno aggiornati automaticamente.
 
-## <a name="to-assign-a-base-calendar"></a>Per assegnare un calendario di base
+## Per assegnare un calendario di base  
 La procedura riportata di seguito programma come esempio le date di consegna nelle righe dell'ordine di vendita per un cliente.
 
 I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni e spedizionieri come segue:  
@@ -108,7 +107,7 @@ I calendari di base vengono assegnati a società, clienti, fornitori, ubicazioni
 > [!NOTE]  
 >  Prima di creare voci di calendario personalizzate, è innanzitutto necessario assegnare un calendario di base alla società.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Magazzino](inventory-manage-inventory.md)  

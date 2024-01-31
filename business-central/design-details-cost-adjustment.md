@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-cost-adjustment"></a>Dettagli di progettazione: Rettifica costo
+# Dettagli di progettazione: Rettifica costo
 
 Il principale scopo della rettifica dei costi è di inoltrare le modifiche dei costi dalle origini di costo ai destinatari di costo, in base al metodo di costing di un articolo, per fornire una valutazione di magazzino corretta.  
 
@@ -27,7 +28,7 @@ Di seguito vengono indicati gli scopi secondari, o funzioni, della rettifica cos
 
 I costi di magazzino devono essere rettificati prima che i movimenti di valorizzazione correlati possano essere riconciliati con la contabilità generale. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="detecting-the-adjustment"></a>Rilevazione della rettifica
+## Rilevazione della rettifica
 
 L'attività di rilevamento di eventuali necessità di rettifiche dei costi viene svolta principalmente dalla routine Item Jnl.-Post Line, mentre l'attività di calcolo e di generazione dei movimenti di rettifica viene eseguita dal processo batch **Rettifica costo - Mov. art.**.  
 
@@ -37,21 +38,21 @@ Per poter inoltrare i costi, il meccanismo di rilevamento determina quali origin
 * Rettifica costo medio cod. spedizioni Intrastat  
 * Livello di ordine  
 
-### <a name="item-application-entry"></a>Mov. collegamento articoli
+### Mov. collegamento articoli
 
 La funzione di tracciabilità viene utilizzata per gli articoli che utilizzano i metodi di costing FIFO, LIFO, Standard e Specifico e per gli scenari di collegamenti fissi. Le funzioni della funzione sono le seguenti:  
 
 * La rettifica dei costi è rilevata contrassegnando i movimenti contabili articoli di origine come *Mov. colleg. da rettif.* ogni volta che si registra un movimento contabile articoli o un movimento valorizzazione.  
 * Il costo viene inoltrato in base alle catene di costi registrati nella tabella **Mov. collegamento articoli**.  
 
-### <a name="average-cost-adjustment-entry-point"></a>Rettifica costo medio cod. spedizioni Intrastat
+### Rettifica costo medio cod. spedizioni Intrastat
 
 La funzione di rilevamento viene utilizzata per gli articoli che utilizzano il metodo di costing medio. Le funzioni della funzione sono le seguenti:  
 
 * La rettifica dei costi viene rilevata contrassegnando un record nella tabella **Rettifica costo medio cod. spedizioni Intrastat** ogni volta che viene registrato un movimento valorizzazione.  
 * Il costo viene inoltrato applicando i costi ai movimenti valorizzazione con una data di valutazione successiva.  
 
-### <a name="order-level"></a>Livello di ordine
+### Livello di ordine
 
 Questa funzione di rilevamento viene utilizzata in scenari di conversione, produzione e assemblaggio. Le funzioni della funzione sono le seguenti:  
 
@@ -64,7 +65,7 @@ La funzione di livello di ordine viene utilizzata per rilevare le rettifiche nel
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md).  
 
-## <a name="manual-versus-automatic-cost-adjustment"></a>Rettifica costo automatica e rettifica costo manuale
+## Rettifica costo automatica e rettifica costo manuale
 
 La rettifica dei costi può essere effettuata in due modi:  
 
@@ -79,25 +80,25 @@ A prescindere dall'esecuzione manuale o automatica della rettifica dei costi, il
 
 I nuovi movimenti di valorizzazione dell'arrotondamento e della rettifica contengono la data di registrazione della fattura correlata. Le eccezioni si verificano se i movimenti di valorizzazione rientrano in un periodo contabile o in un periodo di magazzino chiuso o se la data di registrazione è antecedente alla data nel campo **Consenti registraz. da** della pagina **Setup contabilità generale**. In questo caso, il processo batch assegna la data di registrazione come la prima data del successivo periodo aperto.  
 
-## <a name="adjust-cost---item-entries-batch-job"></a>Processo batch Rettifica costo - Mov. art.
+## Processo batch Rettifica costo - Mov. art.
 
 Quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, è possibile scegliere se eseguire tale processo per tutti gli articoli o solo per determinati articoli o categorie.  
 
 > [!NOTE]  
 > Si consiglia di eseguire sempre il processo batch per tutti gli articoli e utilizzare l'opzione filtro solo per ridurre il runtime del processo batch o per rettificare il costo di un determinato articolo.  
 
-### <a name="example"></a>Esempio
+### Esempio
 
 Nell'esempio seguente viene mostrato che cosa accade se si registra un acquistato come ricevuto e fatturato in data 20-01-01. In secondo momento l'articolo venduto viene registrato come spedito e fatturato in data 01-15-20. Si eseguono quini di processi batch **Rettifica costo - Movimenti articoli** e **Registra costo magazzino in C/G**. Vengono creati i seguenti movimenti.  
 
-#### <a name="value-entries-1"></a>Movimenti di valorizzazione (1)
+#### Movimenti di valorizzazione (1) 
 
 |Data di registrazione|Tipo mov. articolo|Importo costo (effettivo)|Costo registrato in C/G|Quantità fatturata|Nr. movimento|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Acquisti|10,00|10,00|1|1|  
 |01-15-20|Vendite|-10,00|-10,00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Movimenti di relazione nella C/G – Relazione Movimento Articolo (1)
+#### Movimenti di relazione nella C/G – Relazione Movimento Articolo (1)
 
 |Nr. movimento C/G|Nr. movimento valorizzazione|Nr. registro C/G|  
 |-------------|---------------|----------------|  
@@ -106,7 +107,7 @@ Nell'esempio seguente viene mostrato che cosa accade se si registra un acquistat
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-1"></a>Movimenti C/G (1)
+#### Movimenti C/G (1)
 
 |Data di registrazione|Conti C/G|Numero di conto (demo en-US)|Importo|Nr. movimento|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +118,14 @@ Nell'esempio seguente viene mostrato che cosa accade se si registra un acquistat
 
 Successivamente, si registra un addebito articolo di acquisto correlato per VL 2,00 fatturato il 20-10-02. Si esegue il processo batch **Rettifica costo - Movimenti articoli** e successivamente il processo batch **Registra costo magazzino in C/G**. Il processo batch di rettifica costi modifica il costo della vendita di VL -2,00 e il processo batch **Registra costo magazzino in C/G** registra i nuovi movimenti di valorizzazione nella contabilità generale. Il risultato è il seguente.  
 
-#### <a name="value-entries-2"></a>Movimenti di valorizzazione (2)
+#### Movimenti di valorizzazione (2)  
 
 |Data di registrazione|Tipo mov. articolo|Importo costo (effettivo)|Costo registrato in C/G|Quantità fatturata|Rettifica|Nr. movimento|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Acquisti|2.00|2.00|0|No|3|  
 |01-15-20|Vendite|-2,00|-2,00|0|Sì|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Movimenti di relazione nella C/G – Relazione Movimento Articolo (2)
+#### Movimenti di relazione nella C/G – Relazione Movimento Articolo (2)
 
 |Nr. movimento C/G|Nr. movimento valorizzazione|Nr. registro C/G|  
 |-------------|---------------|----------------|  
@@ -133,7 +134,7 @@ Successivamente, si registra un addebito articolo di acquisto correlato per VL 2
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-2"></a>Movimenti C/G (2)
+#### Movimenti C/G (2)
 
 |Data di registrazione|Conti C/G|Numero di conto (demo en-US)|Importo|Nr. movimento|  
 |------------|-----------|------------------------|------|---------|  
@@ -142,7 +143,7 @@ Successivamente, si registra un addebito articolo di acquisto correlato per VL 2
 |01-15-20|[Conto giac. magazzino]|2130|-2,00|7|  
 |01-15-20|[Conto COGS]|7290|2.00|8|  
 
-## <a name="automatic-cost-adjustment"></a>Rettifica costo automatica
+## Rettifica costo automatica
 
 Per impostare l'esecuzione automatica della rettifica dei costi quando si registra una transazione di magazzino, utilizzare il campo **Rettifica costo automatica** della pagina **Setup magazzino**. Questo campo consente di selezionare una data antecedente a quella di lavoro corrente nella quale si desidera che venga eseguita una rettifica automatica dei costi. Sono disponibili le seguenti opzioni:  
 
@@ -158,7 +159,7 @@ Per impostare l'esecuzione automatica della rettifica dei costi quando si regist
 
 La selezione che si effettua nel campo **Rettifica costo automatica** è importante per le prestazioni e per la precisione dei costi. Periodi di tempo più brevi, ad esempio **Giorno** o **Settimana**, influiscono meno sulle prestazioni del sistema, in quanto fissano un requisito più rigoroso per cui solo i costi registrati nell'ultimo giorno o nell'ultima settimana possono essere rettificati automaticamente. Ciò significa che la rettifica dei costi automatica non viene eseguita frequentemente e quindi influisce meno sulle prestazioni del sistema. Tuttavia, ciò significa anche che i costi unitari possono essere meno precisi.  
 
-### <a name="example-1"></a>Esempio
+### Esempio
 
 Nel seguente esempio viene illustrato uno scenario di rettifica costo automatica:  
 
@@ -170,7 +171,7 @@ Se è stata impostata la rettifica dei costi automatica da applicare alle regist
 
 Se è stata impostata la rettifica dei costi automatica da applicare alle registrazioni che si verificano in un giorno o una settimana dalla data di lavoro corrente, la rettifica dei costi automatica non verrà eseguita e il costo dell'acquisto non verrà inoltrato alla vendita fintanto che non si esegue il processo batch **Rettifica costo - Movimenti articoli**.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Rettifica costi articolo](inventory-how-adjust-item-costs.md)  
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  

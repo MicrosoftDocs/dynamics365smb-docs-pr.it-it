@@ -9,11 +9,12 @@ ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Utilizzare contratti e offerte di contratto di assistenza
+# Utilizzare contratti e offerte di contratto di assistenza
 È possibile creare un contratto di assistenza manualmente o partendo da un'offerta di contratto assistenza. Se l'offerta di contratto di assistenza viene utilizzata come base per un contratto di assistenza, la società propone un'offerta al cliente, il quale la approva prima che possa essere convertita in un contratto di assistenza. Le procedure per la creazione di un contratto di assistenza o di un'offerta di contratto di assistenza sono analoghe.  
 
-## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Per creare un contratto o un'offerta di contratto di assistenza
+## Per creare un contratto o un'offerta di contratto di assistenza  
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contratti assistenza** o **Offerte contratto assistenza**, quindi seleziona il collegamento correlato.  
 2. Creare un nuovo contratto o un'offerta di contratto di assistenza.  
 3. Compilare il campo **Nr.** . Verrà visualizzata una finestra di dialogo in cui viene chiesto se si desidera compilare il contratto o l'offerta utilizzando i dati di un modello di contratto. Se si desidera creare un contratto di assistenza o un'offerta di questo tipo, fare clic sul pulsante **Sì**. Verrà visualizzata la pagina **Lista modelli contr. assist**.  
@@ -23,7 +24,7 @@ ms.author: bholtorf
 7. Inserire le righe di contratto nel contratto o nell'offerta di contratto di assistenza.  
 8. Compilare debitamente il resto dei campi.  
 
-## <a name="to-convert-a-service-contract-quote-to-service-contract"></a>Per convertire un'offerta di contratto di assistenza in contratto di assistenza
+## Per convertire un'offerta di contratto di assistenza in contratto di assistenza  
 Quando un cliente ha accettato un'offerta di contratto di assistenza, quest'ultima viene trasformata in un contratto di assistenza. Contemporaneamente è possibile creare una fattura di assistenza per il periodo iniziale del contratto, se la data di inizio del contratto risulta precedente al successivo periodo di fatturazione.
 
 Dopo il completamento dei passaggi seguenti, viene creato un contratto di assistenza con lo stato **Firmato**. Se viene creata una fattura di assistenza per il periodo d'inizio del contratto, l'importo fatturato verrà calcolato come riportato di seguito, in base al livello di dettaglio del contratto.  
@@ -46,7 +47,7 @@ Per i contratti non dettagliati l'importo fatturato verrà calcolato come segue:
 
  La fattura di assistenza viene registrata nel conto relativo all'assistenza del contratto, anche se il contratto è prepagato.
 
-## <a name="to-create-contract-service-credit-memos"></a>Per creare note di credito di assistenza per un contratto
+## Per creare note di credito di assistenza per un contratto
 È possibile utilizzare una nota di credito di assistenza per un contratto quando un cliente annulla un contratto di assistenza prepagato oppure elimina un articolo in assistenza da un contratto prepagato. La nota di credito di vendita consente inoltre di correggere una fattura di assistenza errata.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito assistenza**, quindi scegli il collegamento correlato.  
@@ -66,12 +67,12 @@ Per i contratti non dettagliati l'importo fatturato verrà calcolato come segue:
 
  Per creare manualmente una nota di credito durante l'eliminazione delle righe di contratto da un contratto di assistenza, nella pagina **Contratto di assistenza** scegliere l'azione **Nota credito**.  
 
-## <a name="updating-and-evaluating-contracts"></a>Aggiornamento e valutazione dei contratti
+## Aggiornamento e valutazione dei contratti
 Talvolta può essere necessario modificare le condizioni di un contratto dopo che è stato creato. Nella maggior parte dei casi è sufficiente aprire il contratto in questione nella pagina **Contratto di assistenza** e apportare le modifiche necessarie.  
 
 È possibile cambiare lo stato del contratto, inizialmente impostato su **Bloccato**, aggiungere e rimuovere righe del contratto e annullare un contratto. Se si desidera vedere come procede l'attività in termini di guadagni e perdite, è possibile eseguire una rapida analisi utilizzando la funzionalità Trendscape contratto.
 
-## <a name="to-add-a-contract-line-to-a-service-contract-or-contract-quote"></a>Per aggiungere una riga di contratto a un contratto di assistenza o a un'offerta di contratto
+## Per aggiungere una riga di contratto a un contratto di assistenza o a un'offerta di contratto  
 Quando un cliente acquista un nuovo articolo e desidera includerlo in un contratto di assistenza esistente o un'offerta di contratto, è possibile registrare l'articolo come articolo in assistenza e inserirlo nel contratto o nell'offerta di contratto come nuova riga di contratto.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contratti assistenza**, quindi scegli il collegamento correlato.  
@@ -81,7 +82,7 @@ Quando un cliente acquista un nuovo articolo e desidera includerlo in un contrat
 5. Nella Scheda dettaglio **Righe** aggiungere l'articolo o gli articoli in assistenza oppure una descrizione in ciascuna riga. In alternativa, è possibile aggiungere righe di offerta di contratto. È possibile creare contratti multipli per un articolo in assistenza in modo che risulti incluso contemporaneamente in differenti contratti di assistenza o offerte di contratto.  
 6. Verificare e correggere i numeri nei campi **% sconto riga**, **Importo sconto riga**, **Ora di risposta**, **Periodo assistenza** e in altri campi, se necessario.
 
-## <a name="to-remove-contract-lines"></a>Per eliminare le righe di contratto
+## Per eliminare le righe di contratto  
 A seguito della rimozione di articoli in assistenza da un contratto di assistenza, potrebbe essere necessario dover rimuovere le righe corrispondenti dal contratto di assistenza. Solitamente si rimuove una riga di contratto scaduta o corrispondente all'articolo in assistenza che si è guastato.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contratti assistenza**, quindi scegli il collegamento correlato.  
@@ -97,7 +98,7 @@ A seguito della rimozione di articoli in assistenza da un contratto di assistenz
 >   
 >  Se il contratto è dettagliato e prepagato e sono state registrate fatture per il contratto, è possibile creare una nota di credito per il contratto. Scegliere l'azione **Crea nota credito**. Questa operazione non è necessaria se è selezionata la casella di controllo nel campo **Note credito automatiche** nella Scheda dettaglio **Dettagli fattura**. In tal caso, una nota di credito viene automaticamente creata quando si rimuove una riga di contratto.
 
-## <a name="service-line-cost-and-value"></a>Costo e valore riga assistenza
+## Costo e valore riga assistenza
 Nelle righe di un contratto di assistenza, gli importi in **Costo riga** e **Valore riga** viene calcolato come descritto nelle seguenti tabelle.
 
 | Opzioni costo riga | Description|
@@ -112,7 +113,7 @@ Nelle righe di un contratto di assistenza, gli importi in **Costo riga** e **Val
 |**Articolo** | In base al valore del campo **Metodo calc. valore contratto** della tabella **Setup gest. assist.** l'importo viene recuperato dal campo **Prezzo unitario** o **Costo unitario** della tabella **Articolo**. Successivamente, tale valore viene moltiplicato per il contenuto del campo **% Valore contratto** della tabella **Setup gest. assist.** e diviso per 100. L'importo risultante viene quindi copiato nel campo **Valore riga**.<br /><br /> **NOTA:** Se il valore del campo **Metodo calc. valore contratto** è impostato su **Nessuno**, il contenuto del campo **Valore riga** non verrà calcolato.|  
 |**Descrizione testo** | Il contenuto del campo **Valore riga** è impostato su zero.|  
 
-## <a name="to-add-a-contract-discount-to-service-contract-quotes"></a>Per aggiungere uno sconto contrattuale alle offerte di contratto di assistenza
+## Per aggiungere uno sconto contrattuale alle offerte di contratto di assistenza  
 È possibile aggiungere sconti contrattuali relativi all'assistenza in offerte di contratto e in contratti di assistenza. Tali sconti possono essere applicati ai pezzi di ricambio in gruppi specifici di articoli in assistenza, alle ore delle risorse per le risorse che si trovano in particolari gruppi di risorse e a particolari costi di assistenza.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Offerte contratto assistenza**, quindi scegli il collegamento correlato.  
@@ -124,7 +125,7 @@ Nelle righe di un contratto di assistenza, gli importi in **Costo riga** e **Val
 > [!Tip]  
 >  Per aggiungere sconti contrattuali direttamente a un contratto di assistenza, eseguire operazioni analoghe nella pagina **Contratto assistenza**.  
 
-## <a name="to-change-the-owner-of-a-service-contract"></a>Per modificare l'intestatario di un contratto di assistenza
+## Per modificare l'intestatario di un contratto di assistenza  
 Può essere necessario modificare l'intestatario di un contratto di assistenza. Se un articolo in assistenza di un contratto di assistenza è registrato in contratti multipli non annullati intestati allo stesso cliente, verrà automaticamente aggiornato l'intestatario di tutti i contratti di assistenza che includono questo articolo, così come di tutti gli altri articoli in assistenza inclusi in tali contratti.  
 
 > [!NOTE]  
@@ -144,7 +145,7 @@ Può essere necessario modificare l'intestatario di un contratto di assistenza. 
 7. Scegliere il pulsante **OK** per modificare il cliente e il codice di spedizione dei contratti di assistenza.  
 8. Scegliere l'azione **Blocca contratto** per bloccare il contratto e garantire che le modifiche vengano applicate ai contratti.  
 
-## <a name="to-update-a-service-contract-price"></a>Per aggiornare un prezzo del contratto di assistenza
+## Per aggiornare un prezzo del contratto di assistenza  
 È possibile aggiornare i prezzi nei contratti di assistenza indicando una percentuale di aggiornamento del prezzo.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Aggiorna prezzi contratti assistenza**, quindi seleziona il collegamento correlato.
@@ -153,7 +154,7 @@ Può essere necessario modificare l'intestatario di un contratto di assistenza. 
 4. Nel campo **Aggiornamento prezzo %** immettere la percentuale con cui si intendono aggiornare i prezzi.  
 5. Nel campo **Azione** selezionare **Varia prezzi contratti**.  
 
-## <a name="to-post-prepaid-contract-entries"></a>Per registrare movimenti di contratto prepagati
+## Per registrare movimenti di contratto prepagati  
 Se si utilizzano contratti di assistenza prepagati, occorre registrare regolarmente i movimenti dei contratti prepagati, trasferendo quindi i pagamenti prepagati dai conti contrattuali prepagati a conti contrattuali normali.  
 
 Prima di registrare movimenti di contratti prepagati, occorre specificare una numerazione nel campo **Nr. Reg. Giroconto Prepagato** della pagina **Setup Gest. Assist**.  
@@ -164,13 +165,13 @@ Prima di registrare movimenti di contratti prepagati, occorre specificare una nu
 5. Nel campo **Azione** scegliere **Giroconto Trans. Contr. Prepagati**.  
 6. Scegliere **OK** per registrare i movimenti.
 
-## <a name="changing-the-service-contract-status"></a>Modifica dello stato del contratto di assistenza
+## Modifica dello stato del contratto di assistenza
 Dopo la firma del contratto di assistenza, il valore del campo **Modifica stato** viene automaticamente impostato su **Bloccato**. Se si desidera modificare le informazioni nel contratto o nell'offerta di contratto di assistenza, è innanzitutto necessario modificare lo stato del contratto o dell'offerta da **Bloccato** ad **Aperto**. Si noti che non è possibile creare fatture di assistenza per il contratto di assistenza se lo stato è **Aperto**. Dopo la modifica del contratto o dell'offerta di contratto, sarà necessario ripristinare lo stato **Bloccato** per consentire la creazione di fatture di assistenza e di movimenti contabili per il contratto di assistenza, includendo le modifiche apportate.  
 
 > [!NOTE]  
 >  Il campo **Modifica stato** non è correlato al campo **Stato rilascio** nella testata dell'ordine di assistenza, che determina la gestione della warehouse degli articoli in assistenza.  
 
-## <a name="to-cancel-a-service-contract"></a>Per annullare un contratto di assistenza
+## Per annullare un contratto di assistenza  
 Può essere necessario annullare un contratto di assistenza alla scadenza di quest'ultimo o per volontà della società o del cliente.  
 
 > [!NOTE]  
@@ -186,10 +187,10 @@ Può essere necessario annullare un contratto di assistenza alla scadenza di que
 5. Nel campo **Stato** selezionare **Annullato**.  
 6. Se al contratto sono associate fatture non registrate, note di credito o movimenti prepagati aperti, verrà visualizzato un messaggio di conferma. Nella finestra del messaggio scegliere **No** per tornare al contratto e registrare i documenti oppure scegliere **Sì** per procedere all'annullamento.  
 
-## <a name="filing-a-service-contract-or-contract-quote"></a>Archiviazione di un contratto di assistenza o un'offerta di contratto di assistenza
+## Archiviazione di un contratto di assistenza o un'offerta di contratto di assistenza  
 È possibile archiviare contratti di assistenza e offerte di contratto in qualsiasi momento per registrare e memorizzare una copia del contratto o dell'offerta di contratto nel programma. In [!INCLUDE[prod_short](includes/prod_short.md)] i contratti di assistenza vengono archiviati automaticamente quando le offerte di contratto vengono convertite in contratti di assistenza oppure quando i contratti di assistenza vengono eliminati. È possibile archiviare un contratto o un'offerta scegliendo l'azione **Archivia contratto** nelle pagine **Contratti assistenza** o **Offerte contratto assistenza**. Se si desidera visualizzare i contratti archiviati delle offerte cercando **Contratti archiviati**.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 [Impostare i contratti di assistenza](service-how-setup-service-contracts.md)  
 [Gestione assistenza](service-service.md)  
 [Convertire i contratti di assistenza che includono importi IVA](service-how-to-convert-service-contracts.md)  

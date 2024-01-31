@@ -9,23 +9,24 @@ ms.search.keywords: reporting
 ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, Report_5808, Report_5809, Report_7313, Report_7319, Report_7320'
 ms.date: 04/13/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics"></a>Rapporti e analisi di inventario e warehouse
+# Rapporti e analisi di inventario e warehouse
 
 Il report di inventario e warehouse in [!INCLUDE [prod_short](includes/prod_short.md)] consentono ai professionisti di inventario e aziendali di ottenere informazioni dettagliate e statistiche su attività di inventario e warehouse correnti e passate.  
 
-## <a name="reports"></a>Report
+## Report
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## <a name="tasks"></a>Attività
+## Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
 * [Creare report di analisi](bi-how-create-analysis-views-reports.md)  
 * [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
 
-## <a name="print-and-scan-barcodes"></a>Stampare codici a barre ed eseguirne la scansione
+## Stampare codici a barre ed eseguirne la scansione
 
 L'uso di codici a barre può aiutare a semplificare i processi di warehouse in entrata, in uscita e interni. 
 
@@ -43,7 +44,7 @@ Dopo aver installato l'app, puoi utilizzare l'azione **Stampa etichetta** per st
 > [!NOTE]
 > Alcune stampanti e formati di codici a barre/codici QR richiedono un'implementazione specifica. È possibile che tu debba caricare un modello Word differente o clonare il report per creare la tua versione personalizzata.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Inventario](inventory-manage-inventory.md)  

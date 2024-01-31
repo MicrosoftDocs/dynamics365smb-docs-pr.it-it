@@ -4,9 +4,7 @@ description: 'Questo articolo spiega come impostare diversi formati di esportazi
 author: altotovi
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
@@ -14,7 +12,7 @@ ms.author: altotovi
 ms.reviewer: kfend
 ---
 
-# <a name="audit-file-export"></a>Esportazione file di controllo
+# Esportazione file di controllo
 
 L'esportazione delle informazioni contabili dal sistema è una richiesta comune da parte di alcune autorità locali o revisori. Le esportazioni di formati e informazioni richieste possono differire. I movimenti per l'esportazione sono in genere movimenti di contabilità generale (G/L) o movimenti di imposta sul valore aggiunto (IVA). Tuttavia, a volte sono necessarie altre informazioni.
 
@@ -23,7 +21,7 @@ L'esportazione delle informazioni contabili dal sistema è una richiesta comune 
 > [!NOTE]
 > Attualmente, puoi selezionare il formato SIE (Svezia) FEC (Francia) o SAF-T come app aggiuntiva. I partner possono anche sviluppare un formato personalizzato. Il numero di formati disponibili aumenterà nel tempo.
 
-## <a name="set-up-audit-file-export"></a>Configurazione dell'esportazione dei file di controllo
+## Configurazione dell'esportazione dei file di controllo
 
 1. Seleziona il pulsante di ricerca ![Lente d'ingrandimento che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), inserisci **Configurazione dell'esportazione dei file di controllo**, quindi seleziona il collegamento correlato.
 2. Nella pagina **Configurazione dell'esportazione dei file di controllo**, attieniti alla seguente procedura:
@@ -44,7 +42,7 @@ L'esportazione delle informazioni contabili dal sistema è una richiesta comune 
     2. Nel campo **Nome file di controllo**, specifica il nome file predefinito o il modello di nome file per il file di controllo che si desidera esportare.
     3. Seleziona la casella di controllo **Archivia in file Zip** per comprimere automaticamente i file esportati.
 
-## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Fornisci il mapping del conto Co.Ge. per l'esportazione del file di controllo
+## Fornisci il mapping del conto Co.Ge. per l'esportazione del file di controllo
 
 La maggior parte dei formati richiesti dalle autorità per i conti Co.Ge. richiede un piano dei conti standard specifico. Pertanto, dopo aver configurato i conti Co.Ge., il file esportato sarà basato sulle mappature. Puoi utilizzare più mapping nel tuo sistema.
 
@@ -69,7 +67,7 @@ Segui questi passaggi per fornire il mapping del conto Co.Ge. per l'esportazione
     1. Per generare le righe nella pagina **Mappatura conto C/G** in base a un piano dei conti esistente, seleziona **Inizializza origine per la mappatura**. Per copiare il mapping del conto C/G da un altro codice di mapping, seleziona **Copia da un'altra mappatura**. Al termine della creazione delle righe, tutti i conti C/G che hanno registrato movimenti verranno contrassegnati in verde.
     2. Per contrassegnare solo i conti C/G con inserimenti, seleziona **Aggiorna disponibilità movimento C/G**. Se l'opzione **Includi saldo in entrata** è abilitata, tutti i movimenti C/G registrati vengono presi in considerazione per il calcolo. In caso contrario, vengono considerate solo le registrazioni C/G del periodo contabile.
 
-## <a name="export-the-audit-file"></a>Esportazione del file di controllo
+## Esportazione del file di controllo
 
 1. Seleziona il pulsante di ricerca ![Lente d'ingrandimento che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), inserisci **Documenti dell'esportazione dei file di controllo**, quindi seleziona il collegamento correlato.
 2. Nella pagina **Documenti dell'esportazione del file di controllo**, seleziona **Nuovo**.
@@ -97,7 +95,7 @@ Segui questi passaggi per fornire il mapping del conto Co.Ge. per l'esportazione
 > [!IMPORTANT]
 > Se hai più movimenti da esportare, ti sconsigliamo di esportarli nella sessione corrente, a causa di possibili problemi di prestazioni. Ti consigliamo invece di utilizzare l'elaborazione parallela durante i giorni o le ore non lavorative.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Gestione contabile](finance.md)  
 [Informazioni sulla contabilità generale e sul piano dei conti](finance-general-ledger.md)  
 [Usare le dimensioni](finance-dimensions.md)  

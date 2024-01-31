@@ -5,14 +5,13 @@ services: project-madeira
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="correct-vat-transactions-reports-in-the-italian-version"></a>Correggere report di transazioni IVA nella versione italiana
+# Correggere report di transazioni IVA nella versione italiana
 
 1.  Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  Creare un nuovo report. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).  
@@ -39,7 +38,7 @@ ms.author: bholtorf
 6.  Nella Scheda dettaglio **Generale** nel campo **Nr. ricevuta ufficio fiscale** specificare il numero di carico ricevuto dalle autorità fiscali.  
 7.  Scegliere l'azione **Contrassegna come inviato** per completare il report. Il valore del campo **Stato** diventa Inviato.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
  [Esportare i report di transazioni IVA](how-to-export-vat-transactions-reports.md)
 
 

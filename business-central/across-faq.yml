@@ -5,8 +5,9 @@ metadata:
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 07/14/2023
+  ms.date: 12/19/2023
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Domande frequenti sull'utilizzo di Business Central
 summary: |
   Questa sezione contiene le risposte alle domande frequenti sulla registrazione per una versione di valutazione, l'acquisto di una sottoscrizione e l'utilizzo di [!INCLUDE[prod_short](includes/prod_short.md)]. È inoltre possibile ottenere informazioni su come ottenere supporto tecnico.  
@@ -22,7 +23,7 @@ sections:
         answer: |
           È possibile registrarsi per ottenere una versione di valutazione gratuita ed esplorare [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Se si desidera più tempo per esplorare la versione di valutazione, [è possibile estendere il periodo di valutazione](#can-i-extend-my-30-day--new-company--trial-period-).  
 
-          Per ulteriori informazioni su prepararsi al business in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile consultare le guide di setup assistito, video o argomenti della Guida per le attività di configurazione selezionate. Ulteriori informazioni in [Prepararsi a fare affari](ui-get-ready-business.md).  
+          Per ulteriori informazioni su prepararsi al business in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile consultare le guide di setup assistito, video o articoli della Guida per le attività di configurazione selezionate. Ulteriori informazioni in [Prepararsi a fare affari](ui-get-ready-business.md).  
 
           Quando si è pronti per acquistare [!INCLUDE[prod_short](includes/prod_short.md)], è possibile trovare un partner [!INCLUDE[prod_short](includes/prod_short.md)] nella pagina [Trovare un provider di soluzioni](https://go.microsoft.com/fwlink/?linkid=2038145). Ulteriori informazioni in [Come trovo un partner di rivendita?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -61,7 +62,7 @@ sections:
       - question: |
           Dov'è il pulsante Salva?
         answer: |
-          Non esiste alcun pulsante *Salva* nelle pagine come in altri programmi con cui si ha familiarità. In [!INCLUDE[prod_short](includes/prod_short.md)], le modifiche a un campo vengono automaticamente salvate non appena si passa al campo successivo o si chiude la pagina, purché non ci siano errori. Quando si apportano modifiche a un campo e ci si sposta a un altro campo, verrà visualizzato il testo **Salvataggio** nell'angolo in alto a destra della pagina. Cambia in **Salvato** rapidamente se non si verificano errori. Se si verifica un errore, il testo diventerà **Non salvato**.  
+          Non esiste alcun pulsante *Salva* nelle pagine come in altri programmi con cui si ha familiarità. In [!INCLUDE[prod_short](includes/prod_short.md)], le modifiche a un campo vengono automaticamente salvate non appena si passa al campo successivo o si chiude la pagina, purché non ci siano errori. Quando si apportano modifiche a un campo e ci si sposta a un altro campo, verrà visualizzato il testo **Salvataggio** nell'angolo in alto a destra della pagina. Cambia in **Salvato** rapidamente se non si verificano errori. Se si verifica un errore, il testo si modifica in **Non salvato**.  
       - question: |
           Dove si trova quel numero di riga?
         answer: |
@@ -69,7 +70,7 @@ sections:
       - question: |
           Perché la Guida descrive funzionalità a cui non è possibile accedere?
         answer: |
-          Se l'impostazione Esperienza nella pagina **Informazioni società** è impostata su **Essential**, gli elementi dell'interfaccia utente per le funzionalità di Manufacturing e Gestione assistenza. non sono visibili perché richiedono l'esperienza **Premium**. Per tali aree di funzionalità, viene inserita una nota di testo negli argomenti della Guida di alto livello. Ulteriori informazioni in [Modifica delle funzionalità visualizzate](ui-experiences.md).  
+          Se l'impostazione Esperienza nella pagina **Informazioni società** è impostata su **Essential**, gli elementi dell'interfaccia utente per le funzionalità di Manufacturing e Gestione assistenza. non sono visibili perché richiedono l'esperienza **Premium**. Per tali aree di funzionalità, viene inserita una nota di testo negli articoli della Guida di alto livello. Ulteriori informazioni in [Modifica delle funzionalità visualizzate](ui-experiences.md).  
       - question: |
           Perché le nuove informazioni non sono disponibili nella lingua dell'utente?
         answer: |
@@ -139,10 +140,10 @@ sections:
           Le prime versioni di [!INCLUDE[prod_short](includes/prod_short.md)] in locale includevano un client installabile derivato da Microsoft Dynamics NAV. A partire dall'ondata 2 del 2019, questo componente legacy, denominato "client Windows", non è più disponibile per [!INCLUDE[prod_short](includes/prod_short.md)]. Ulteriori informazioni in [Domande frequenti sul client Windows e Business Central ](/dynamics365/business-central/dev-itpro/faq-win-cli).
 additionalContent: |
 
-  ## Vedi anche
+  ## Vedere anche
 
-  [Preparazione al business](ui-get-ready-business.md)  
-  [Domande frequenti relative alla funzionalità delle informazioni](ui-search-faq.md)  
+  [Prepararsi a fare affari](ui-get-ready-business.md)  
+  [Domande frequenti relative alla finestra delle informazioni](ui-search-faq.md)  
   [Domande frequenti su ricerca e filtro](ui-search-filter-faq.yml)  
   [Domande frequenti sulle visualizzazioni elenco](ui-views-faq.yml)  
   [Modifica di lingua e impostazioni locali](about-locale-language.md)  

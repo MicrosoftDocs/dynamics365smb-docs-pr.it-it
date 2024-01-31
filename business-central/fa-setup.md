@@ -3,15 +3,14 @@ title: Impostazione cespiti
 description: 'Informazioni sulla sequenza di attività da eseguire per impostare i cespiti, ad esempio macchinari o edifici.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-fixed-assets"></a>Impostazione di cespiti
+# Impostazione di cespiti
 
 Per poter utilizzare i cespiti, è necessario definire alcune opzioni:  
 
@@ -36,7 +35,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Ulteriori informazioni sui diversi metodi di ammortamento del cespite. |[Metodi di ammortamento](fa-depreciation-methods.md) |
 | Informazioni su come applicare metodi di ammortamento definiti dall'utente. |[Impostare i metodi di ammortamento definiti dall'utente](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Dati finanziari](finance.md)  

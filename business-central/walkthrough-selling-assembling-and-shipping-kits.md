@@ -3,14 +3,13 @@ title: 'Vendita, assemblaggio e spedizione di kit'
 description: 'Per supportare un magazzino JIT (just-in-time), gli ordini di assemblaggio possono essere automaticamente creati e collegati non appena viene creata la riga ordine di vendita.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedura dettagliata: vendita, assemblaggio e spedizione di kit
+# Procedura dettagliata: vendita, assemblaggio e spedizione di kit
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -20,18 +19,18 @@ Questa funzione speciale consente di gestire la spedizione delle quantità per l
 
 Nelle configurazioni di base della warehouse, quando una quantità per l'assemblaggio su ordine è pronta per essere spedita, l'addetto warehouse incaricato registra un prelievo da magazzino per le righe ordine di vendita in questione. Questo crea un movimento di magazzino per i componenti, registra l'output di assemblaggio e la spedizione dell'ordine di vendita. Per ulteriori informazioni, vedere [Gestione di articoli da assemblare su ordine in prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
+## Informazioni sulla procedura dettagliata
 
 In questa procedura dettagliata sono illustrati i task seguenti:  
 
-### <a name="setting-up-assembly-items"></a>Impostazione di articoli di assemblaggio
+### Impostazione di articoli di assemblaggio
 
 Gli articoli di assemblaggio sono caratterizzati dal sistema di rifornimento e dalla DB di assemblaggio. I criteri di assemblaggio dell'articolo possono essere assemblaggio su ordine (ATO) o assemblaggio per magazzino (ATS). In questa sezione sono descritti i seguenti task:  
 
 -   Impostazione del sistema di rifornimento e dei criteri di assemblaggio appropriati in una nuova scheda dell'articolo di assemblaggio.  
 -   Creazione di una DB di assemblaggio che elenca i componenti di assemblaggio e le risorse che costituiscono un articolo di assemblaggio.  
 
-### <a name="selling-customized-assembly-items"></a>Vendita di articoli di assemblaggio personalizzati
+### Vendita di articoli di assemblaggio personalizzati
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offre la possibilità di immettere sia una quantità magazzino che una quantità di assemblaggio su ordine in una sola riga dell'ordine di vendita. In questa sezione sono descritti i seguenti task:  
 
@@ -41,14 +40,14 @@ Gli articoli di assemblaggio sono caratterizzati dal sistema di rifornimento e d
 -   Creazione di una riga di ordine di vendita mista in cui parti della quantità di vendita vengono fornite dal magazzino e la parte residua deve essere assemblata prima della spedizione.  
 -   Informazioni sugli avvisi di disponibilità di ATO.  
 
-### <a name="planning-for-assembly-items"></a>Pianificazione per gli articoli di assemblaggio
+### Pianificazione per gli articoli di assemblaggio
 
 La domanda e l'approvvigionamento di assemblaggio vengono gestiti dal sistema di pianificazione, proprio come per gli acquisti, i trasferimenti e la produzione. In questa sezione sono descritti i seguenti task:  
 
 -   Esecuzione di un piano rigenerativo per gli articoli con domanda di vendita per l'approvvigionamento assemblato.  
 -   Generazione di un ordine di assemblaggio per soddisfare la quantità di una riga di vendita in base alla data di spedizione richiesta.  
 
-### <a name="assembling-items"></a>Assemblaggio di articoli
+### Assemblaggio di articoli
 
 Gli ordini di assemblaggio funzionano in modo simile agli ordini di produzione, in quanto il consumo e l'output vengono registrati direttamente dall'ordine. Quando gli articoli vengono assemblati per magazzino, l'addetto all'assemblaggio ha accesso completo a tutti i campi della riga e della testata. Quando gli articoli vengono assemblati in un ordine in cui la quantità e la data sono promesse al cliente, determinati campi nell'ordine di assemblaggio non sono modificabili. In questo caso, la registrazione dell'assemblaggio viene eseguita dalla spedizione warehouse dell'ordine di vendita collegato. In questa sezione sono descritti i seguenti task.  
 
@@ -56,7 +55,7 @@ Gli ordini di assemblaggio funzionano in modo simile agli ordini di produzione, 
 -   Accesso a una riga di spedizione warehouse da un ordine di assemblaggio di ATO per registrare il lavoro di assemblaggio.  
 -   Accesso a un ordine di assemblaggio di ATO da una riga di spedizione warehouse per rivedere i dati immessi automaticamente.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Spedizione degli articoli di assemblaggio dal magazzino e assemblaggio su ordine
+### Spedizione degli articoli di assemblaggio dal magazzino e assemblaggio su ordine
 
 La funzionalità speciale consente di gestire la spedizione delle quantità per l'assemblaggio su ordine. In questa sezione sono descritti i seguenti task:  
 
@@ -66,7 +65,7 @@ La funzionalità speciale consente di gestire la spedizione delle quantità per 
 -   Spedizione delle quantità dell'assemblaggio su ordine.  
 -   Spedizione di articoli di assemblaggio per magazzino.  
 
-## <a name="roles"></a>Ruoli
+## Ruoli
 
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
 
@@ -76,7 +75,7 @@ Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:
 -   Addetto al prelievo  
 -   Responsabile spedizioni  
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti
 
 Prima di svolgere le attività di questa procedura dettagliata, è necessario:  
 
@@ -110,7 +109,7 @@ Rimuovere il lead time di default per i processi interni effettuando i seguenti 
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Scenario
+## Scenario
 
 Il 23 gennaio, Elisabetta, il gestore degli ordini di vendita, accetta un ordine dal reparto dispositivi, di tre unità del Kit B, che è un articolo di ATO. Tutte e tre le unità sono personalizzate e devono contenere la scheda grafica potente e un blocco aggiuntivo di RAM. Devono essere utilizzate unità disco migliori, i DWD, perché le unità CD non sono disponibili. Elisabetta sa che le unità possono essere assemblate immediatamente, quindi mantiene la data di spedizione suggerita del 23 gennaio.  
 
@@ -138,7 +137,7 @@ Samuele imballa le dieci unità di ATS con le cinque unità di ATO che Linda ha 
 
 Quando l'ordine di vendita viene successivamente registrato come totalmente fatturato, tale ordine e gli ordini di assemblaggio collegati vengono rimossi.  
 
-## <a name="prepare-sample-data"></a>Preparazione dei dati di esempio
+## Preparazione dei dati di esempio
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni articoli whse.**, quindi scegli il collegamento correlato.  
 2.  Selezionare il campo **Nome batch**, quindi selezionare la registrazione di default.  
@@ -162,7 +161,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 7.  Nella pagina **Calcola rettifica whse.** scegliere il pulsante **OK**.  
 8.  Nella pagina **Registrazioni magazzino** scegliere l'azione **Registra** quindi scegliere il pulsante **Sì**.  
 
-### <a name="creating-the-assembly-items"></a>Creazione degli articoli di assemblaggio
+### Creazione degli articoli di assemblaggio  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
@@ -213,7 +212,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
     |Articolo|80210|1|  
     |Risorsa|Linda|1|  
 
-### <a name="selling-the-assembly-items"></a>Vendita degli articoli di assemblaggio
+### Vendita degli articoli di assemblaggio  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
@@ -266,7 +265,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 17. Scegliere l'azione **Crea spedizione whse**.  
 18. Chiudere l'ordine di vendita.  
 
-### <a name="planning-for-the-unavailable-ats-items"></a>Pianificazione per gli articoli ATS non disponibili
+### Pianificazione per gli articoli ATS non disponibili  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto pianificazione**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Calcola piano - Rigenerativo**.  
@@ -284,7 +283,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 6.  Nella pagina **Pianificaz. - Esegui mess. azioni**, selezionare il campo **Ordine di assemblaggio**, quindi selezionare **Crea ordini di assemblaggio**.  
 7.  Scegliere il pulsante **OK**.  
 
-### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Assemblaggio e spedizione della prima quantità di ATO
+### Assemblaggio e spedizione della prima quantità di ATO  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizione warehouse**, quindi scegli il collegamento correlato.  
 
@@ -344,7 +343,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Sono state completate le attività di warehouse per soddisfare la prima riga ordine di vendita entro il 23 gennaio. In seguito, soddisfare le righe ordine vendita da spedire il 27 gennaio  
 
-### <a name="assembling-and-recording-the-second-ato-quantity"></a>Assemblaggio e registrazione della seconda quantità di ATO
+### Assemblaggio e registrazione della seconda quantità di ATO  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di assemblaggio**, quindi scegli il collegamento correlato.  
 
@@ -368,7 +367,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
 5.  Chiudere la pagina **Ordine di assemblaggio**.  
 
-### <a name="assembling-the-ats-quantity"></a>Assemblaggio della quantità di ATO
+### Assemblaggio della quantità di ATO  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di assemblaggio**, quindi scegli il collegamento correlato.  
 2.  Aprire l'ordine di assemblaggio per dieci unità di Kit A.  
@@ -396,7 +395,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Si noti che l'ordine di assemblaggio viene rimosso dalla lista degli ordini aperti.  
 
-### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Spedizione degli articoli restanti, in parte dal magazzino e assemblati su ordine
+### Spedizione degli articoli restanti, in parte dal magazzino e assemblati su ordine  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Spedizione warehouse**, quindi scegli il collegamento correlato.  
 2.  Aprire la spedizione warehouse più recente creata presso l'ubicazione BIANCA.  
@@ -436,7 +435,7 @@ Quando l'ordine di vendita viene successivamente registrato come totalmente fatt
 
     Quando il reparto dispositivi effettua il pagamento per il carico di 18 PC da CRONUS, l'ordine di vendita e gli ordini di assemblaggio collegati vengono rimossi.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
  [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Assemblare articoli](assembly-how-to-assemble-items.md)   

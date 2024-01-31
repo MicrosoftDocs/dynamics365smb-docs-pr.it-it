@@ -9,11 +9,12 @@ ms.workload: na
 ms.search.keywords: null
 ms.date: 11/17/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="prepare-for-vat-transactions-reports-in-the-italian-version"></a>Preparare report di transazioni IVA nella versione italiana
+# Preparare report di transazioni IVA nella versione italiana
 È necessario inviare i report periodici alle autorità fiscali per visualizzare l'elenco tutte le transazioni che includono l'IVA. L'autorità fiscale stabilisce le soglie richieste per la dichiarazione. Attualmente, la soglia è impostata su zero, a indicare che tutte le transazioni vengono dichiarate. Per prepararsi per le dichiarazioni, è necessario impostare la registrazione IVA in modo da includere gli importi di dichiarazione della transazione IVA.  
 
-## <a name="to-set-up-vat-transaction-amounts"></a>Per impostare gli importi delle transazioni IVA
+## Per impostare gli importi delle transazioni IVA  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni IVA**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Importo report transazioni IVA**.  
@@ -33,7 +34,7 @@ ms.author: bholtorf
     > [!NOTE]  
     >  Prima di poter specificare un rappresentante fiscale, è necessario creare il rappresentante fiscale come contatto.  
 
-### <a name="to-specify-a-tax-representative-for-a-non-resident-customer"></a>Per specificare un rappresentante fiscale per un cliente non residente
+### Per specificare un rappresentante fiscale per un cliente non residente  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.  
 2. Selezionare un cliente.
@@ -46,7 +47,7 @@ ms.author: bholtorf
 
     Imposti le informazioni di modo che [!INCLUDE[prod_short](../../includes/prod_short.md)] tenga traccia delle nuove transazioni che soddisfano le soglie specificate dalle autorità fiscali. Prima di creare il primo report transazioni IVA, è necessario preparare i dati esistenti. Per ulteriori informazioni, vedere [Aggiornare i dati delle transazioni IVA](how-to-update-vat-transactions-data.md). È quindi possibile creare i report transazioni IVA. Per ulteriori informazioni, vedere [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
  [Aggiornare i dati delle transazioni IVA](how-to-update-vat-transactions-data.md)   
  [Creare report elettronici di transazioni IVA](how-to-create-electronic-vat-transactions-reports.md)   
  [IVA italiana](italian-vat.md)

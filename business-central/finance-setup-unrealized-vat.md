@@ -3,20 +3,19 @@ title: Impostare l'IVA ad esigibilità differita
 description: 'Se si utilizza contabilità basata su contanti, è possibile specificare come gestire l''IVA ad esigibilità differita per le vendite e acquisti.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'cash, VAT, unrealized, cash-based'
 ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti
+# Setup dell'IVA ad esigibilità differita per la contabilità basata su contanti
 
 Se si utilizzano metodi di contabilità basata su contanti, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] affinché gestisca l'IVA ad esigibilità differita.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Per utilizzare conti C/G per l'IVA ad esigibilità differita
+## Per utilizzare conti C/G per l'IVA ad esigibilità differita
 
 Gli importi IVA possono essere calcolati e registrati in un conto di contabilità generale temporaneo al momento della registrazione di una fattura, quindi registrati nel conto corretto e inclusi nelle dichiarazioni IVA al momento della registrazione del pagamento effettivo della fattura. Prima di effettuare questa operazione, è necessario completare l'[impostazione della registrazione dell'IVA](finance-setup-vat.md).
 
@@ -46,7 +45,7 @@ Per utilizzare conti per l'IVA ad esigibilità differita, procedere nel modo seg
 > [!NOTE]  
 > L'importo dell'IVA verrà registrato su questo conto e vi rimarrà fino alla registrazione del pagamento effettuato dal cliente. L'importo viene quindi trasferito sul conto relativo all'IVA sugli acquisti.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Setup dei calcoli e registrazione dei metodi per l'IVA](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

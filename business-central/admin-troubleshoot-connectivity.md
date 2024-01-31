@@ -3,16 +3,15 @@ title: Risoluzione dei problemi di connettività
 description: Descrive come utilizzare la pagina Risoluzione dei problemi di connettività per identificare e risolvere i problemi di connessione a Business Central online.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'connectivity, troubleshooting, connection problems'
 ms.date: 11/24/2023
 ms.author: jswymer
 ROBOTS: NOINDEX
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="troubleshoot-connectivity-for-business-central"></a>Risoluzione dei problemi di connettività per Business Central
+# Risoluzione dei problemi di connettività per Business Central
 
 > **SI APPLICA A:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
@@ -23,7 +22,7 @@ ROBOTS: NOINDEX
 > [!NOTE]
 > La pagina **Risoluzione dei problemi di connettività** non esegue il test delle prestazioni o dell'affidabilità della rete, come la velocità della connessione. Verifica solo la connettività a risorse diverse.
 
-## <a name="start-the-connectivity-check"></a>Avviare il controllo della connettività
+## Avviare il controllo della connettività 
 
 1. Apri un browser Internet.
 2. Nell'indirizzo, inserisci l'URL che utilizzi per aprire Business Central e aggiungi `/connectivity` alla fine. 
@@ -52,7 +51,7 @@ ROBOTS: NOINDEX
 
 Le sezioni seguenti spiegano i controlli eseguiti e forniscono alcuni suggerimenti per risolvere eventuali problemi.
 
-## <a name="basic-internet-connectivity"></a>Connettività Internet di base
+## Connettività Internet di base
 
 Controlla la tua connessione Internet verificando che tu possa accedere a un dominio pubblico noto, come www.bing.com.
 
@@ -61,7 +60,7 @@ Controlla la tua connessione Internet verificando che tu possa accedere a un dom
 |Il tuo browser non supporta questo controllo|Apri la pagina in un browser supportato e riprova. Per un elenco di browser supportati, vedi [Requisiti minimi per l'utilizzo di Business Central - Browser](product-requirements.md#browsers)|
 |Impossibile eseguire il ping del server al seguente URL: {url}|Verifica le impostazioni del firewall.|
 
-## <a name="cdn-content-delivery-network-resources-loading"></a>Caricamento delle risorse CDN (Content Delivery Network)
+## Caricamento delle risorse CDN (Content Delivery Network)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] usa Azure Content Delivery Network (CDN) per fornire le risorse necessarie per eseguire il client Web di Business Central. Questo controllo verifica che le risorse richieste siano disponibili e accessibili eseguendo il ping dell'istanza di Business Central in CDN.
 
@@ -70,7 +69,7 @@ Controlla la tua connessione Internet verificando che tu possa accedere a un dom
 |Il tuo browser non supporta questo controllo|Vedi il controllo **Connettività Internet di base**.|
 |Impossibile eseguire il ping del server al seguente URL: {url}|Verifica le impostazioni del firewall.|
 
-## <a name="user-authentication"></a>Autenticazione utente
+## Autenticazione utente
 
 Verifica che l'utente corrente effettui l'accesso con un account Business Central valido.
 
@@ -78,7 +77,7 @@ Verifica che l'utente corrente effettui l'accesso con un account Business Centra
 |-------|-------------|
 |Nessun utente è attualmente autenticato|Accedi a Business Central con nome utente e password validi.|
 
-## <a name="business-central-environments-discovery"></a>Individuazione degli ambienti di Business Central
+## Individuazione degli ambienti di Business Central
 
 Verifica gli ambienti Business Central disponibili per un utente autenticato, quindi verifica se l'utente può essere autenticato nell'ambiente.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -89,7 +88,7 @@ Verifica gli ambienti Business Central disponibili per un utente autenticato, qu
 |Impossibile recuperare gli ambienti disponibili per il tuo account.|Controllare l'elenco degli ambienti disponibili nell'interfaccia di amministrazione di Business Central.|
 |Il nome utente o la password non sono corretti oppure non si dispone di un account valido.| Verifica di effettuare l'accesso utilizzando il nome utente e la password corretti.|
 
-## <a name="application-service-connectivity"></a>Connettività del servizio applicazioni
+## Connettività del servizio applicazioni
 
 Verifica che l'utente autenticato possa connettersi a un ambiente rilevato, in genere a partire dall'ambiente di produzione.
 
@@ -100,7 +99,7 @@ Verifica che l'utente autenticato possa connettersi a un ambiente rilevato, in g
 |Nessun indirizzo di cluster di cui eseguire questo controllo|Controllare l'elenco degli ambienti disponibili nell'interfaccia di amministrazione di Business Central.|
 |L'endpoint della versione non esiste|Controllare l'elenco degli ambienti disponibili nell'interfaccia di amministrazione di Business Central.|
 
-## <a name="web-server-connectivity"></a>Connettività server Web
+## Connettività server Web
 
 Verifica che l'utente autenticato riesca a stabilire correttamente le connessioni con il server Web.
 
@@ -111,7 +110,7 @@ Verifica che l'utente autenticato riesca a stabilire correttamente le connession
 |Nessun indirizzo di cluster di cui eseguire questo controllo|Controllare l'elenco degli ambienti disponibili nell'interfaccia di amministrazione di Business Central.|
 |Impossibile stabilire una connessione con il server Web|Svuota la cache e ricarica la pagina.|
 
-## <a name="service-health-status"></a>Stato di integrità del servizio
+## Stato di integrità del servizio
 
 Segnala lo stato di integrità del servizio Business Central controllando le interruzioni dichiarate.
 
@@ -120,7 +119,7 @@ Segnala lo stato di integrità del servizio Business Central controllando le int
 |Nessun utente autenticato per cui eseguire questo controllo|Vedi il controllo **Autenticazione utente**.|
 |Business Central è temporaneamente non disponibile. Riprovare.|Riprovare.|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Risorse per guida e supporto](product-help-and-support.md)  
 [Panoramica dei task per impostare Business Central](setup.md)  

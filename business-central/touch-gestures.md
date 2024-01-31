@@ -3,15 +3,14 @@ title: Gesti tocco e della penna
 description: Scopri i movimenti tocco e della penna che ti aiutano a lavorare in modo efficiente con i tuoi dati da tablet e telefoni.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Movimenti tocco e della penna per tablet e telefoni
+# Movimenti tocco e della penna per tablet e telefoni 
 
 Questo articolo fornisce alcuni dei gesti speciali che puoi usare quando lavori con [!INCLUDE[prod_short](includes/prod_short.md)] da un tablet o un telefono.
 
@@ -30,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Riferimento rapido per tasti di scelta rapida - Solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Funzionalità di accessibilità](ui-accessibility.md)  

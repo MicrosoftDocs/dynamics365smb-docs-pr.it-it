@@ -3,14 +3,13 @@ title: Configurare i processi della warehouse
 description: 'La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse, ad esempio le ubicazioni warehouse.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 09/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-warehouse-management"></a>Impostazione gestione warehouse
+# Impostazione gestione warehouse
 
 La strategia di distribuzione di una società si riflette in una configurazione dei relativi processi di warehouse. Ciò include la definizione della modalità di gestione dei diversi articoli nelle diverse ubicazioni di warehouse, ad esempio il livello di controllo della collocazione e l'estensione del flusso di lavoro necessario tra le diverse attività di warehouse.  
 
@@ -35,7 +34,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Ottenere suggerimenti su come riorganizzare ubicazioni, collocazioni o zone per migliorare l'efficacia delle attività di warehouse.|[Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)|
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report in Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Inventario](inventory-manage-inventory.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  

@@ -7,9 +7,10 @@ ms.reviewer: andreipa
 ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-service-orders-for-service-items"></a>Procedura dettagliata sugli ordini di assistenza per articoli in assistenza
+# Procedura dettagliata sugli ordini di assistenza per articoli in assistenza
 
 Questa procedura dettagliata illustra diversi processi principali:
 
@@ -17,13 +18,13 @@ Questa procedura dettagliata illustra diversi processi principali:
 - Fornire un articolo in prestito al cliente per il periodo della riparazione
 - Registrare e fatturare l'ordine di assistenza
     
-## <a name="creating-a-service-order"></a>Creazione di un ordine di assistenza
+## Creazione di un ordine di assistenza
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 
 Charles, il responsabile dell'assistenza, crea un ordine di assistenza per uno scenario di riparazione e presta un articolo al cliente per il periodo della riparazione.
 
-### <a name="steps"></a>Passaggi
+### Passaggi
 
 1. Crea manualmente l'ordine di assistenza per l'articolo da riparare.
    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Ordini di assistenza**
@@ -40,20 +41,20 @@ Charles, il responsabile dell'assistenza, crea un ordine di assistenza per uno s
    1. Nelle righe, seleziona **MUTUANTE1** come Nr. articolo in prestito. Conferma l'emissione dell'articolo in prestito selezionando **Sì** per prestare l'articolo sostitutivo. 
    2. Scegli l'azione Funzioni **Ottieni codici servizio std.**, seleziona il codice standard associato al gruppo di assistenza e seleziona **OK**.
    
-### <a name="results"></a>Risultati
+### Risultati
 
 - Viene creato un ordine di assistenza per l'articolo
 - Il log dei documenti di assistenza dell'ordine di assistenza mostra le attività relative all'articolo in prestito.
 - L'articolo in prestito ha un movimento contabile per riflettere il prestito.
    
 
-## <a name="register-performed-work-mark-loaner-as-returned"></a>Registra il lavoro eseguito e contrassegna l'articolo in prestito come restituito
+## Registra il lavoro eseguito e contrassegna l'articolo in prestito come restituito
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 
 Il tecnico dell'assistenza contrassegna l'articolo in prestito come restituito e registra il lavoro eseguito.
 
-### <a name="steps-1"></a>Passaggi
+### Passaggi
 
 1. Individua l'attività di assistenza e registra il tempo speso 
    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , entrare in **Attività di servizio**, e poi scegliere il link relativo.
@@ -73,13 +74,13 @@ Il tecnico dell'assistenza contrassegna l'articolo in prestito come restituito e
    3. Scegli l'azione **Ricevi** 
    4. Conferma la restituzione dell'articolo in prestito selezionando **Sì**.
       
-### <a name="results-1"></a>Risultati
+### Risultati
 
 - Il **log dei documenti di assistenza** dell'ordine di assistenza mostra le attività relative all'articolo in prestito.
 - L'articolo in prestito ha un movimento contabile per riflettere la ricezione.
 
 
-### <a name="scenario-2"></a>Scenario
+### Scenario  
 
 Charles, il responsabile dell'assistenza, registra l'ordine di assistenza finito.
 
@@ -90,11 +91,11 @@ Charles, il responsabile dell'assistenza, registra l'ordine di assistenza finito
 2. Registra la fattura nell'ordine di assistenza
    1. Scegli l'azione **Registra** per completare l'ordine di assistenza, seleziona l'azione **Spedisci e fattura**, quindi scegli il pulsante **OK**.
    2. Conferma l'apertura della fattura registrata selezionando **Sì**. 
-### <a name="results-2"></a>Risultati
+### Risultati
 
 - Verrà creata una **Fattura assistenza registrata**.
 - Vengono creati i **Movimenti contabili assistenza** associati all'articolo e alla risorsa
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Procedura dettagliata sui contratti di assistenza per articoli in assistenza](service-contract-flow.md)  
 [Assistenza](../../service-service.md)

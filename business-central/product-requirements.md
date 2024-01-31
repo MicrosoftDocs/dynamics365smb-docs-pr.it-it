@@ -5,16 +5,16 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 09/29/2023
+ms.date: 12/13/2023
 ms.review: jswymer
 ms.author: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ---
-# <a name="minimum-requirements-for-using-business-central"></a>Requisiti minimi per l'utilizzo di Business Central
+# Requisiti minimi per l'utilizzo di Business Central
 
 Prima di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] online, si consiglia di verificare che il computer o il dispositivo mobile soddisfi o superi i requisiti minimi di sistema per il prodotto. In questo articolo vengono elencati i requisiti.  
 
-## <a name="browsers"></a>Browser
+## Browser
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per utilizzare la versione corrente di Microsoft Edge.
   
@@ -25,13 +25,15 @@ Prima di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] online, si co
 > [!TIP]
 > Installa l'app [!INCLUDE[prod_short](includes/prod_short.md)] nel menu Start usando il browser Microsoft Edge o Chrome. Per ulteriori informazioni, vedi [Installare l'app per Business Central Online](/dynamics365/business-central/install-desktop-app#install-the-app-for-business-central-online).
 
-## <a name="mobile-devices"></a>Dispositivi mobili
+Ti consigliamo di utilizzare una versione del canale stabile di un browser Web poiché è la versione più affidabile e stabile che è stata sottoposta a test approfonditi e correzione di bug. Ciò ti garantisce la migliore esperienza e avrai meno probabilità di riscontrare problemi durante l'utilizzo del client Web.
+
+## Dispositivi mobili
 
 **Android (tablet e telefono):** una delle ultime tre versioni principali del sistema operativo e i relativi aggiornamenti.
 
 **iOS (iPad e iPhone):** una delle ultime tre versioni principali del sistema operativo e i relativi aggiornamenti.
 
-## <a name="outlook"></a>Outlook
+## Outlook
 
 **Applicazioni Outlook:** per usare [!INCLUDE[prod_short](includes/prod_short.md)] Online come posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2019 o versione successiva, Outlook sul Web, Outlook per iOS oppure Outlook per Android. L'organizzazione deve inoltre utilizzare Microsoft 365. Non è possibile utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale. 
 
@@ -39,7 +41,7 @@ Prima di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] online, si co
 
 **Piattaforme:** quando si utilizza il componente aggiuntivo per Outlook [!INCLUDE[prod_short](includes/prod_short.md)] in Outlook per iPhone, Outlook per iOS o Outlook per Android, tale componente aggiuntivo richiede che il dispositivo mobile esegua uno dei dispositivi mobili supportati elencati per [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="teams"></a>Teams
+## Teams
 
 **Applicazioni desktop di Teams:** l'app [!INCLUDE[prod_short](includes/prod_short.md)] per Teams supporta la versione più recente del client desktop Windows di Teams. 
 
@@ -49,11 +51,11 @@ Prima di accedere a [!INCLUDE[prod_short](includes/prod_short.md)] online, si co
 
 **Abbonamento supportato**: l'app [!INCLUDE[prod_short](includes/prod_short.md)] per Teams supporta le sottoscrizioni Microsoft 365 Business ed Enterprise che includono Microsoft Teams o Microsoft Teams EEA, ma non altre sottoscrizioni Teams autonome come Microsoft Teams (gratuito) o Microsoft Teams Essentials.
 
-## <a name="excel"></a>Excel
+## Excel
 
 **Modifica in Excel**: per utilizzare il componente aggiuntivo Excel per apportare modifiche e quindi inoltrare le modifiche di nuovo a [!INCLUDE[prod_short](includes/prod_short.md)], è necessario Excel 2019 o versione successiva. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a>Utilizzo dell'interfaccia di amministrazione di Business Central
+## <a name="TAC"></a> Utilizzo dell'interfaccia di amministrazione di Business Central
 
 L'Interfaccia di amministrazione è progettata per funzionare con la versione corrente dei seguenti browser:
 
@@ -62,11 +64,11 @@ L'Interfaccia di amministrazione è progettata per funzionare con la versione co
 - Firefox per Windows
 - Safari per macOS
 
-## <a name="use-business-central-on-premises"></a>Usare Business Central in locale
+## Usare Business Central in locale
 
 Se si desidera distribuire Business Central in locale, è necessario verificare i requisiti di sistema. Per ulteriori informazioni, vedere [Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23) e [Panoramica sulla distribuzione](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Prepararsi a fare affari](ui-get-ready-business.md)  
 [Requisiti di sistema per Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23)  

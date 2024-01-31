@@ -3,15 +3,14 @@ title: Riconciliazione dei pagamenti con l'estensione Envestnet Yodlee Bank Feed
 description: 'Descrive l''estensione Envestnet Yodlee Bank Feeds, che consente di collegare i conti bancari in modo che sia possibile riconciliare rapidamente i pagamenti.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize, stream, bank account link'
 ms.search.form: '1450, 1451, 1452, 1453, 1454, 1458, 1460,'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Estensione Envestnet Yodlee Bank Feeds
+# Estensione Envestnet Yodlee Bank Feeds
 
 Per riconciliare rapidamente i pagamenti effettuati sui conti correnti bancari, il servizio Envestnet Yodlee Bank Feeds consente di collegare il proprio conto bancario di sistema al conto bancario online. Ciò significa che l'ultimo rendiconto bancario viene caricato automaticamente o manualmente nella registrazione riconciliazione. In questo modo viene garantito che si elaborino sempre gli ultimi pagamenti con il rischio minimo di errori.
 
@@ -34,13 +33,13 @@ Il servizio Envestnet Yodlee Bank Feeds offre i seguenti vantaggi:
 * Supporta i feed bancari manuali e automatici.
 * Consente di assegnare in outsourcing la riconciliazione dei pagamenti a un ragioniere fornendo l'accesso ai rendiconti bancari.
 
-## <a name="available-bank-feeds"></a>Feed bancari disponibili
+## Feed bancari disponibili
 
 È possibile verificare se una banca è supportata configurando la connessione al servizio Envestnet Yodlee Bank Feeds. La banca apparirà nell'elenco se è supportata da Envestnet Yodlee.
 
 Per ulteriori informazioni, vedere [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni ](ui-extensions.md)  
 [Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

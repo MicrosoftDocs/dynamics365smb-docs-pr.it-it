@@ -3,15 +3,14 @@ title: Modifica della società e di altre impostazioni in Teams
 description: Informazioni su come modificare le impostazioni di connessione di Business Central da Microsoft Teams.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Modifica della società e di altre impostazioni in Teams
+# Modifica della società e di altre impostazioni in Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +26,7 @@ Esistono due modi per aprire la pagina **Impostazioni**: 1) dalla casella di com
 
    ![Impostazioni per Business Central dalla casella del messaggio.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'integrazione di Business Central e Microsoft Teams](across-teams-overview.md)  
 [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 [!INCLUDE[prod_short](prod_short.md)] online è regolato dai [Criterio del ciclo di vita moderno](https://support.microsoft.com/help/30881/modern-lifecycle-policy). I termini dei contratti di servizio sono descritti nel documento che è possibile scaricare dalla sezione **Contratti di servizio per Microsoft Online Services** nella pagina [Condizioni di licenza](https://www.microsoft.com/licensing/product-licensing/products).  
 

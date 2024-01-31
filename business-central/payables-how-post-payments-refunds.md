@@ -3,15 +3,14 @@ title: Registrare pagamenti e resi nelle Registrazioni pagamenti
 description: Informazioni su come registrare i pagamenti corrisposti ai fornitori e i rimborsi corrisposti ai clienti nella pagina Registrazioni pagamenti.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP'
 ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/09/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrare pagamenti e resi nelle Registrazioni pagamenti
+# Registrare pagamenti e resi nelle Registrazioni pagamenti
 
 Nella pagina **Registrazioni pagamenti** è possibile registrare i pagamenti corrisposti ai fornitori e i rimborsi corrisposti ai clienti. Quando si registra una riga di registrazioni dei pagamenti, l'importo pagato viene registrato sul conto bancario di sistema specificato. È quindi necessario intraprendere le azioni necessarie per eseguire il trasferimento effettivo del denaro dal relativo conto bancario.  
 
@@ -29,7 +28,7 @@ Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire 
 
     Oltre alla registrazione che il pagamento è stato effettuato, è possibile utilizzare la pagina **Registrazioni pagamenti** per emettere il pagamento per l'ulteriore elaborazione da parte della banca. Per ulteriori informazioni, vedere [Effettuare pagamenti tramite assegno](payables-how-work-checks.md) e [Effettuare pagamenti elettronici](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Per eseguire i pagamenti nelle registrazioni pagamenti
+## Per eseguire i pagamenti nelle registrazioni pagamenti
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni pagamenti**, quindi scegli il collegamento correlato.
 2. Aprire il batch contabile che verrà dedicato ai pagamenti.
@@ -43,7 +42,7 @@ Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire 
 6. Una volta completate tutte le righe di registrazione pagamento, scegliere l'azione **Registra**.
 
 
-## <a name="to-issue-a-refund-check"></a>Per emettere un assegno di rimborso
+## Per emettere un assegno di rimborso
 
 1. Scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immettere **Registrazioni pagamenti** e quindi scegliere il collegamento correlato.
 2. Nel campo **Tipo di documento** seleziona **Rimborso**.  
@@ -57,7 +56,7 @@ Le registrazioni pagamenti sono registrazioni generali ottimizzate per eseguire 
 10. Quando tutte le righe di registrazione pagamenti sono state completate, scegli l'azione **Registra/Stampa** quindi scegli **Registra e stampa** e seleziona **Sì**.  
   
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Effettuare pagamenti tramite assegno](payables-how-work-checks.md)  
 [Effettuare pagamenti elettronici](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

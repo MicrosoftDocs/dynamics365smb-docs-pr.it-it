@@ -3,15 +3,14 @@ title: Conformità dell'assistenza e contratto di servizio
 description: 'Dal punto di vista del servizio, Business Central è all''altezza dei severi requisiti e della conformità del contratto di servizio in diverse certificazioni ISO e specifiche del settore.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
 ms.date: 06/14/2021
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Conformità dell'assistenza
+# Conformità dell'assistenza
 
 Questo argomento contiene informazioni sulla conformità dell'assistenza in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)] Online  
 
@@ -21,11 +20,11 @@ L'elenco dettagliato di [offerte di conformità cloud per Business Central è di
 
 Se si è interessati all'elenco completo delle offerte di conformità di Microsoft, consultare [Centro protezione Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Condizioni di servizio
+## Condizioni di servizio
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Conformità](compliance-overview.md)  
 [Conformità dell'applicazione](compliance-application-compliance.md)  

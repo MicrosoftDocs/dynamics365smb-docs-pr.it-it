@@ -3,15 +3,14 @@ title: Rivedere o collegare i pagamenti manualmente in seguito al collegamento a
 description: 'Dopo che i pagamenti sono stati collegati automaticamente, è possibile verificare tutti i movimenti relativi a un pagamento e ricollegare manualmente i movimenti che sono stati collegati erroneamente.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment process, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Rivedere o collegare i pagamenti manualmente in seguito al collegamento automatico
+# Rivedere o collegare i pagamenti manualmente in seguito al collegamento automatico
 Per ogni riga di registrazione che rappresenta un pagamento nella pagina **Registrazione riconciliazione pagamenti** è possibile aprire la pagina **Collegamento pagamenti** per vedere tutti i movimenti aperti candidati per il pagamento e visualizzare, per ciascun movimento, informazioni dettagliate sulla corrispondenza dei dati su cui si basa un collegamento di pagamento. Qui è possibile collegare manualmente i pagamenti o applicare nuovamente i pagamenti che sono stati collegati automaticamente a un movimento aperto scorretto. Per ulteriori informazioni sul collegamento automatico, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
@@ -30,7 +29,7 @@ Ogni rettifica di guadagno-e-perdite obbligatoria a causa delle conversioni di v
 > [!NOTE]  
 >   È possibile collegare un pagamento solo a un conto. Se si desidera suddividere il collegamento su più movimenti aperti, ad esempio per collegare un pagamento forfettario, i movimenti aperti devono essere per lo stesso conto. Per ulteriori informazioni, vedere passaggi 7 e 8 della procedura in questo argomento.
 
-## <a name="to-review-or-apply-payments-after-automatic-application"></a>Per esaminare o collegare i pagamenti in seguito al collegamento automatico
+## Per esaminare o collegare i pagamenti in seguito al collegamento automatico
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni riconciliazione pagamenti**, quindi scegli il collegamento correlato.
 2. Aprire la registrazione della riconciliazione di pagamento di un conto corrente bancario per cui si desidera riconciliare i pagamenti. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
 3. Nella pagina **Registrazione riconciliazione pagamenti**, selezionare un pagamento che si desidera esaminare o collegare manualmente a uno o più movimenti aperti, quindi scegliere l'azione **Collega manualmente**.
@@ -43,7 +42,7 @@ Ogni rettifica di guadagno-e-perdite obbligatoria a causa delle conversioni di v
 
 Viene chiusa la pagina **Collegamento pagamenti** e nella pagina **Registrazione riconciliazione pagamenti** il valore del campo **Affidabilità corrispondenza** viene modificato in **Accettato** a indicare che il pagamento è stato esaminato o collegato manualmente.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

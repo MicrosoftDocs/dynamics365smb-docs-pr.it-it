@@ -3,14 +3,13 @@ title: Registrare l'output e i tempi di lavorazione tramite processo batch
 description: La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quantità finita e capacità utilizzata del centro lavoro o della macchina.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 03/08/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="batch-post-output-and-run-times"></a>Registrare l'output e i tempi di lavorazione tramite processo batch
+# Registrare l'output e i tempi di lavorazione tramite processo batch
 
 La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quantità finita e capacità utilizzata del centro lavoro o della macchina.
 
@@ -25,7 +24,7 @@ La quantità di output rappresenta l'avanzamento del lavoro sotto forma di quant
 
 La pagina **Registrazioni di produzione** consente di svolgere le stesse attività della pagina **Registrazioni di output** e anche attività di registrazione dei consumi. Per ulteriori informazioni, vedi [Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Per registrare quantità di output e/o registrare tempi di lavorazione per una o più righe dell'ordine di produzione
+## Per registrare quantità di output e/o registrare tempi di lavorazione per una o più righe dell'ordine di produzione
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni output**, quindi scegli il collegamento correlato.  
 2. Compilare i campi inserendo i dati relativi agli ordini di produzione e/o ai tempi di lavorazione. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +38,7 @@ La pagina **Registrazioni di produzione** consente di svolgere le stesse attivit
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Registrare lo scarto manualmente](production-how-to-post-scrap.md)
 [Stornare la registrazione dell'output](production-how-to-reverse-output-posting.md)
