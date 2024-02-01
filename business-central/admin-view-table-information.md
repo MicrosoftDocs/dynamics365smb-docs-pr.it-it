@@ -3,9 +3,7 @@ title: Visualizzare le informazioni delle tabelle
 description: Informazioni su come visualizzare le informazioni sulle tabelle di database in Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 8700
 ms.date: 10/11/2023
 ms.author: jswymer

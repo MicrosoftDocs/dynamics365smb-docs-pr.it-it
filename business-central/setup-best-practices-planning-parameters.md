@@ -3,9 +3,7 @@ title: Impostare le procedure ottimali - Pianificazione dei parametri
 description: Questo argomento descrive le procedure consigliate per impostare i campi dei parametri di pianificazione selezionati con la Scheda dettaglio Pianificazione nella scheda articolo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

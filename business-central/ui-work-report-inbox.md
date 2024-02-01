@@ -3,9 +3,7 @@ title: Condividere ed esportare report con Report elaborati
 description: 'Utilizza la pagina Report elaborati per scaricare, condividere ed esportare report in Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, dataset, export, report inbox, onedrive,'
 ms.search.form: 680
 ms.date: 08/08/2022

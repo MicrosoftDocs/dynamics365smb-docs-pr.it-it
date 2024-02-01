@@ -3,9 +3,7 @@ title: Panoramica di Business Intelligence e creazione di report
 description: Fornisce una panoramica di tutte le funzionalità di Business Intelligence e creazione di report supportate in Business Central.
 author: KennieNP
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.reviewer: bholtorf
 ms.date: 09/22/2022

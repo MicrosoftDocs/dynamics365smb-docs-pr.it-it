@@ -3,9 +3,7 @@ title: 'Dettagli di progettazione: Collegamento articoli | Microsoft Docs'
 description: Questo argomento descrive dove vengono registrati la quantità e il valore di magazzino quando si registra una transazione di magazzino.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
 ms.author: bholtorf

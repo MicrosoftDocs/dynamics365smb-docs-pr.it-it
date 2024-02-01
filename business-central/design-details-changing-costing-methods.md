@@ -3,9 +3,7 @@ title: Dettagli di progettazione - Modifica dei metodi di costing per gli artico
 description: Informazioni su come assegnare un diverso metodo di costing a un articolo sebbene si sia già utilizzato l'articolo nelle transazioni.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'costing methods, costing, item cost'
 ms.search.form: 8645
 ms.date: 06/08/2021

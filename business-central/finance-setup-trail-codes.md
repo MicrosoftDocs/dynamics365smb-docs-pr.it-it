@@ -3,13 +3,12 @@ title: Impostazione codici per audit trail
 description: Informazioni sulle attività per impostare i codici sorgente e le causali da utilizzare per tenere traccia degli audit trail.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Impostazione di codici sorgente e causali per audit trail
 

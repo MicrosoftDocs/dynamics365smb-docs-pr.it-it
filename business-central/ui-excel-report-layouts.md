@@ -3,9 +3,7 @@ title: Utilizzo dei layout di Excel
 description: Scopri come creare e modificare i layout di report creati con Excel.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '9650, 9652'
 ms.date: 11/10/2022

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 08/03/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.

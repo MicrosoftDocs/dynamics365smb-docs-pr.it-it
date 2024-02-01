@@ -3,7 +3,6 @@ title: Condivisione dei dati
 description: Scopri i diversi modi per condividere i dati aziendali da Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer

@@ -3,9 +3,7 @@ title: Come creare articoli in assistenza
 description: 'Leggi i diversi modi in cui puoi creare articoli in assistenza in Business Central, ad esempio all''interno di un ordine di assistenza o durante la spedizione di articoli.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Configurare indicatori colorati personalizzati per l'attività della pila
 description: 'Come amministratore, è possibile impostare le pile che vengono visualizzate in gestione ruolo utente degli utenti in modo che includano un indicatore che cambia colore in base ai valori dei dati presenti nelle pile.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer

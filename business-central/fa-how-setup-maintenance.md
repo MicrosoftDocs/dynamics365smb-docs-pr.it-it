@@ -3,9 +3,7 @@ title: Impostare la manutenzione cespiti
 description: 'Per gestire la riparazione e l''assistenza del cespite, specificare le informazioni di manutenzione generali, i codici per il tipo di lavoro e un conto registrazione per i costi.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'repair, service'
 ms.search.form: '5600, 5642'
 ms.date: 04/01/2021

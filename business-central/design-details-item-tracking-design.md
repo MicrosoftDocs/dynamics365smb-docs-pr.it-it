@@ -3,9 +3,7 @@ title: 'Dettagli di progettazione: Progettazione tracciabilità articolo'
 description: In questo argomento viene descritta la progettazione alla base della tracciabilità articolo in Business Central man mano che matura attraverso le versioni del prodotto.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: bholtorf

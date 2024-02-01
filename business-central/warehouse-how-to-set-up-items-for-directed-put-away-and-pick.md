@@ -3,19 +3,18 @@ title: Impostare stoccaggi e prelievi guidati
 description: Lo stoccaggio e il prelievo diretti ti offrono funzionalità per gestire la tua warehouse in modo efficiente.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 11/07/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati
+# Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati
 
 L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati offre una nuova funzionalità che consente di gestire la warehouse nel modo più efficiente possibile. Per sfruttare al meglio tale funzionalità occorre fornire informazioni aggiuntive sugli articoli, le quali verranno utilizzate per effettuare i calcoli necessari e suggerire le modalità più efficaci ed efficienti per eseguire le attività di warehouse. 
 
-## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Per impostare un articolo per gli stoccaggi e i prelievi guidati
+## Per impostare un articolo per gli stoccaggi e i prelievi guidati  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda per l'articolo da impostare per stoccaggio e prelievo guidati.
@@ -25,7 +24,7 @@ L'impostazione dell'ubicazione di una warehouse per stoccaggi e prelievi guidati
 6. Scegliere l'azione **Contenuto collocazioni**.
 7. Nella pagina **Contenuto collocazioni** definire l'ubicazione e la collocazione a cui deve essere associato l'articolo. Il campo **Default** non è disponibile quando l'ubicazione viene impostata per gli stoccaggi e i prelievi guidati.  
 
-## <a name="to-start-using-directed-put-away-and-pick"></a>Per iniziare a utilizzare lo stoccaggio e il prelievo diretti
+## Per iniziare a utilizzare lo stoccaggio e il prelievo diretti
 
 Gli stoccaggi e i prelievi guidati fanno parte delle funzioni di configurazione di warehouse avanzate che consentono di migliorare notevolmente l'efficienza e aumentare l'affidabilità dei dati. Per utilizzare queste funzionalità occorre innanzitutto impostare alcuni parametri nell'ubicazione della warehouse.  
 
@@ -46,7 +45,7 @@ Il passo successivo consiste nel definire il tipo di collocazioni che si desider
 
 Ora sei pronto per configurare le zone, se lo desideri. L'utilizzo delle zone riduce il numero dei campi che è necessario compilare durante l'impostazione delle collocazioni, in quanto le collocazioni create all'interno delle zone ne ereditano varie proprietà. Le zone consentono inoltre agli impiegati nuovi o temporanei di orientarsi più facilmente all'interno della warehouse. Si noti che il flusso è controllato dalle collocazioni, pertanto è possibile utilizzare più collocazioni e una sola zona.  
 
-## <a name="to-set-up-a-zone-in-your-warehouse"></a>Per impostare una zona nella warehouse
+## Per impostare una zona nella warehouse  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2. Selezionare l'ubicazione in cui si desidera impostare la zona e aprire la scheda ubicazione, quindi scegliere l'azione **Zone**.  
@@ -61,7 +60,7 @@ Il passaggio successivo consiste nella definizione delle collocazioni. Per ulter
 
 Inoltre, è necessario creare modelli di stoccaggio e periodi di conteggio. Per ulteriori informazioni, vedi [Impostare i modelli di stoccaggio](warehouse-how-to-set-up-put-away-templates.md).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

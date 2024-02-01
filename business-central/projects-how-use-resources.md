@@ -3,9 +3,7 @@ title: Registrare e rettificare l'utilizzo e i prezzi delle risorse
 description: 'Descrive come registrare l''utilizzo o il consumo di risorse associato a una commessa, per tenere traccia e gestire i costi, i prezzi e i tipi di lavoro.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
 ms.date: 03/08/2023

@@ -3,7 +3,6 @@ title: Sincronizzare articoli e inventario
 description: Configurare ed eseguire sincronizzazioni di articoli tra Shopify e Business Central
 ms.date: 11/17/2023
 ms.topic: article
-ms.service: dynamics-365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf

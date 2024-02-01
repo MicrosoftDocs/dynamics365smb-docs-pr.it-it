@@ -7,8 +7,9 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: 'item, variant, product'
 ms.date: 08/22/2023
+ms.service: dynamics-365-business-central
 ---
-# <a name="block-items-or-item-variants-from-sales-or-purchasing"></a>Bloccare articoli o varianti di articoli in documenti di vendita o di acquisto
+# Bloccare articoli o varianti di articoli in documenti di vendita o di acquisto
 
 Puoi bloccare articoli e varianti di articoli in modo che non vengano immessi nelle righe di documenti di acquisto o di vendita e puoi bloccarli in modo che non vengano registrati nelle transazioni. Ad esempio, questo è utile quando un articolo presenta un difetto noto. Se qualcuno sceglie un articolo o una variante bloccato in un documento di vendita o di acquisto, un messaggio informerà che l'articolo è bloccato.
 
@@ -25,7 +26,7 @@ Nella tabella seguente vengono illustrati diversi scenari che si verificano quan
 
 Quando usi l'azione **Copia da documento** per creare nuovi documenti basati su documenti esistenti, vieni avvisato se eventuali articoli o varianti nelle righe del documento di origine sono bloccati. Le righe del documento bloccate sono escluse dal nuovo documento e una notifica mostra una panoramica di tutte le righe del documento che sono bloccate nel documento di origine.
 
-## <a name="to-block-an-item"></a>Per bloccare un articolo
+## Per bloccare un articolo  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli** e scegli il collegamento correlato.  
 2. A seconda di ciò che vuoi fare, seleziona l'articolo e scegli una o più delle seguenti caselle di controll:
@@ -33,7 +34,7 @@ Quando usi l'azione **Copia da documento** per creare nuovi documenti basati su 
     * **Vendite bloccate**
     * **Acquisti bloccati**  
 
-## <a name="to-block-an-item-variant"></a>Per bloccare una variante di articolo
+## Per bloccare una variante di articolo  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli** e scegli il collegamento correlato.  
 2. Seleziona l'articolo che ha una variante che desideri bloccare, scegli **Varianti**, quindi seleziona una o più delle seguenti caselle di controllo:  
@@ -41,7 +42,7 @@ Quando usi l'azione **Copia da documento** per creare nuovi documenti basati su 
     * **Vendite bloccate**
     * **Acquisti bloccati**
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  

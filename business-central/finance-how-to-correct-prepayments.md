@@ -3,9 +3,7 @@ title: Rettificare i pagamenti anticipati
 description: È possibile correggere un ordine dopo aver registrato una fattura di pagamento anticipato per l'ordine e aggiungere nuove righe a un ordine dopo aver emesso un pagamento anticipato.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '44, 48, 42, 50, 52, 9305, 9307'
 ms.date: 06/16/2021
 ms.author: bholtorf

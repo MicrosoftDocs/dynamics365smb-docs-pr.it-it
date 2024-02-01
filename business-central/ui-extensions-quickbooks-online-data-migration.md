@@ -3,9 +3,7 @@ title: Estensione di migrazione dei dati QuickBooks Online
 description: 'Descrive come utilizzare l''estensione per migrare clienti, fornitori, articoli e conti da QuickBooks Online a Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'extension, migrate, data, QuickBooks, import'
 ms.search.form: '1830,'
 ms.date: 06/24/2021

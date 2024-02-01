@@ -3,9 +3,7 @@ title: Visualizzare blocchi di database
 description: Informazioni su come visualizzare le informazioni sui blocchi di database del cliente direttamente dall'interfaccia client in Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer

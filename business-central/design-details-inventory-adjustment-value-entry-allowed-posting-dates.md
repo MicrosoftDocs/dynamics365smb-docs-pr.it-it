@@ -3,9 +3,7 @@ title: Messaggio di errore "La data di invio non rientra nel tuo intervallo di d
 description: Risolvere l'errore dietro al messaggio "La data di registrazione non rientra nel tuo intervallo di date di registrazione consentite" quando si esegue il lavoro batch Regolare i costi - Voci voce.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: bholtorf

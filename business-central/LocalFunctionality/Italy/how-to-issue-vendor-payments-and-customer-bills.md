@@ -3,9 +3,7 @@ title: Emettere pagamenti fornitori ed effetti clienti (IT)
 description: La funzionalità di pagamento degli effetti cliente e fornitore supporta i formati SEPA oltre ai formati di file italiani.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '12102, 12175, 12176, 12178, 12180, 12181, 12182, 12184, 12185, 12186, 12190'
 ms.date: 04/01/2021

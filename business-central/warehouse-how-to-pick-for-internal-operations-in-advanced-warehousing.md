@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Prelevare per produzione, assemblaggio o commesse in configurazioni warehouse avanzate

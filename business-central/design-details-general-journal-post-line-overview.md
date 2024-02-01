@@ -3,9 +3,7 @@ title: Sintesi della riga di registrazione di contabilità generale
 description: 'Questo argomento introduce le modifiche a Codeunit 12, Gen. Jnl.-Post Line ed è la sola area in cui inserire i movimenti di contabilità generale, IVA e clienti e fornitori.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, general ledger, post'
 ms.date: 06/15/2021
 ms.author: bholtorf

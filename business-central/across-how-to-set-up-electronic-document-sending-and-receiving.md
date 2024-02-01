@@ -3,9 +3,7 @@ title: Come impostare l'invio e la ricezione di documenti elettronici | Microsof
 description: 'Come alternativa all''invio tramite e-mail come allegati di file, è possibile inviare e ricevere documenti aziendali elettronicamente.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

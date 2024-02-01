@@ -3,9 +3,7 @@ title: Dettagli di progettazione - Rettifica costo
 description: 'La rettifica dei costi inoltra le modifiche dei costi dalle origini di costo ai destinatari di costo, in base al metodo di costing di un articolo, per fornire una valutazione di magazzino corretta.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Riclassificare i cespiti
 description: 'Riclassificare un cespite da trasferire in un altro reparto, dividere o raggruppare con altri cespiti.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5638, 5636, 5640, 5637'
 ms.date: 04/01/2021
 ms.author: bholtorf

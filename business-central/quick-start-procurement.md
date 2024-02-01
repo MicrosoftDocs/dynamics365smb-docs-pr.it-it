@@ -3,9 +3,7 @@ title: Inizio rapido dell'approvvigionamento (video)
 description: Impara come riempire i primi campi critici sui venditori in Business Central in modo da poter iniziare ad acquistare prodotti e servizi.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: '26, 27, 50, 56'
 ms.date: 09/29/2021

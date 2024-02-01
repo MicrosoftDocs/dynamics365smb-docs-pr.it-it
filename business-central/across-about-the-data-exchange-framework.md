@@ -3,13 +3,12 @@ title: Informazioni sul framework di scambio dati
 description: Questo articolo spiega come utilizzare il framework di scambio dati per gestire lo scambio di dati nei documenti aziendali come le fatture con i partner aziendali.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR'
 ms.search.form: '189,'
 ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Informazioni sul framework di scambio dei dati
 

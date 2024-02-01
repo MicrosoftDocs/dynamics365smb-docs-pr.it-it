@@ -3,9 +3,7 @@ title: Triangolazioni intracomunitarie
 description: Questo argomento dell'articolo spiega come impostare e utilizzare le triangolazioni intracomunitarie dell'Unione europea (UE).
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '50, 51, 52, 187, 317'
 ms.search.keywords: 'EU3P, EU 3-P, EU 3-Party'
 ms.date: 07/07/2023

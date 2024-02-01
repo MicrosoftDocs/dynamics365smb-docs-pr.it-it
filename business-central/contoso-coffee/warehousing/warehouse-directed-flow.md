@@ -3,13 +3,12 @@ title: 'Carico, stoccaggio, movimentazione, prelievo e spedizione nella configur
 description: I processi in entrata e in uscita possono essere eseguiti in modalità differenti a seconda del livello di complessità della warehouse.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Procedura dettagliata del flusso in entrata e in uscita nella configurazione warehouse avanzata

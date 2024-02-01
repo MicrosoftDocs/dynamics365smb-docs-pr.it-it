@@ -3,9 +3,7 @@ title: Panoramica dei task per la gestione delle vendite
 description: 'Leggi come utilizzare i servizi di Business Central per la gestione delle attività di vendita dei tuoi clienti con fatture di vendita, ordini, offerte e altro.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022

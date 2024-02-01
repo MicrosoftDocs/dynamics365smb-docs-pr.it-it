@@ -7,9 +7,10 @@ ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Impostare i cespiti con metodi di ammortamento definiti dall'utente
+# Impostare i cespiti con metodi di ammortamento definiti dall'utente
 
 Puoi usare [!INCLUDE[prod_short](includes/prod_short.md)] per impostare i metodi di ammortamento definiti dall'utente come descritto qui.
 
@@ -23,7 +24,7 @@ La formula per il calcolo dell'importo di ammortamento è la seguente:
 > [!NOTE]  
 > Mentre la data nel campo **Data iniz. amm. personalizzato** viene utilizzato per determinare gli intervalli di tempo, è il campo **Data inizio ammortamento** che viene utilizzato per determinare il numero di giorni di ammortamento. Se il valore in **Data iniz. amm. personalizzato** è antecedente al valore di **Data inizio ammortamento**, la percentuale relativa al primo periodo nella tabella di ammortamento verrà utilizzata solo parzialmente quando viene calcolato il primo ammortamento. Ciò significa che il cespite non verrà ammortizzato completamente entro la fine dell'ultimo periodo.
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Per assegnare un registro beni ammortizzabili a un cespite con un metodo di ammortamento definito dall'utente
+## Per assegnare un registro beni ammortizzabili a un cespite con un metodo di ammortamento definito dall'utente
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cespiti**, quindi scegli il collegamento correlato.
 2. Selezionare il cespite per il quale si desidera impostare un registro beni ammortizzabili.
@@ -36,7 +37,7 @@ La formula per il calcolo dell'importo di ammortamento è la seguente:
 7. Quando usi un metodo definito dall'utente, il campo **Data iniz. amm. personalizzato** deve essere impostato su una data uguale o precedente al campo **Data inizio ammortamento**. Se hai selezionato un valore nel campo **Periodo** nella tabella di ammortamento, la data contenuta nel campo **Data iniz. amm. personalizzato** deve essere la data iniziale di un periodo contabile.
 8. Compila il campo **Nr. anni di ammortamento** o il campo **Data finale ammortamento**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## <a name="to-set-up-user-defined-depreciation-methods"></a>Per impostare i metodi di ammortamento personalizzati
+## Per impostare i metodi di ammortamento personalizzati
 
 La pagina **Tabella ammortamento** consente di impostare metodi di ammortamento personalizzati. Ad esempio, è possibile impostare l'ammortamento in base al numero di unità.  
 
@@ -56,11 +57,11 @@ Somma di cifre = 1 + 2 + 3 + 4 = 10 Ammortamento:
 * Anno 3 = 2/10  
 * Anno 4 = 1/10  
 
-### <a name="depreciation-based-on-number-of-units"></a>Ammortamento in base al numero di unità
+### Ammortamento in base al numero di unità
 
 Il metodo personalizzato può essere utilizzato anche per effettuare l'ammortamento in base al numero di unità, ad esempio nel caso di produzione di macchinari con una determinata durata totale di funzionamento. Nella pagina **Tabelle Ammortamento** è possibile immettere il numero di unità che possono essere prodotte in ogni periodo (mese, trimestre, anno o periodo contabile).  
 
-### <a name="example---user-defined-depreciation"></a>Esempio - ammortamento definito dall'utente
+### Esempio - ammortamento definito dall'utente
 
 Ai fini del calcolo dell'imposta sul reddito, l'utilizzo di un determinato metodo di ammortamento consente di ammortizzare i cespiti più velocemente.  
 
@@ -93,7 +94,7 @@ Nell'esempio precedente, entrambi i campi **Data iniz. amm. personalizzato** e *
 | 31/12/24 |Deprezzamento |Nessuno |Nessuno |0 |
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Impostazione di cespiti](fa-setup.md)  
 [Cespiti](fa-manage.md)  
 [Impostare l'ammortamento dei cespiti](fa-how-setup-depreciation.md)  

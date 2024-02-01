@@ -3,9 +3,7 @@ title: OneDrive per il business FAQ
 description: Ottieni risposte ad alcune domande tipiche sul lavoro con OneDrive for Business e Business Central.
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'OneDrive, integration, share, browser'
 ms.date: 09/09/2022
 ms.author: bholtorf

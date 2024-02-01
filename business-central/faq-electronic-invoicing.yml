@@ -5,6 +5,7 @@ metadata:
   ms.topic: faq
   author: brentholtorf
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Domande frequenti sulla fatturazione elettronica
 summary: |
   Il servizio di scambio di documenti integrato invia le fatture elettroniche a TradeShift, un fornitore di servizi che inoltra le fatture elettroniche a destinatari PEPPOL o NemHandel. Ma il servizio supporta un numero limitato di versioni.   

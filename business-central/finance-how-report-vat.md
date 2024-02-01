@@ -3,9 +3,7 @@ title: Inviare la dichiarazione IVA alle autorità fiscali
 description: 'Informazioni su come preparare un report che elenca l''IVA di vendita durante un periodo, o di vendite e acquisti, e inviarlo a un''autorità fiscale.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, tax, report, EC sales list, statement'
 ms.search.form: '321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401'
 ms.date: 01/31/2022

@@ -3,19 +3,18 @@ title: Righe acquisto ricorrenti standard
 description: Imposta le righe di acquisto più frequentemente usate e quindi inseriscile nei documenti di acquisto per compilare rapidamente le righe con informazioni standard.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
 ms.date: 07/06/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-recurring-purchase-lines"></a>Creare righe di acquisto ricorrenti
+# Creare righe di acquisto ricorrenti
 
 Se è spesso necessario creare righe di acquisto con informazioni simili, è possibile impostare righe standard da inserire nei documenti di acquisto ricorrenti, ad esempio, per ordini di approvvigionamento ricorrenti.
 
-## <a name="set-up-recurring-purchase-lines"></a>Impostare righe di acquisto ricorrenti
+## Impostare righe di acquisto ricorrenti
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Righe acquisto ricorrenti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Righe acquisto ricorrenti** scegli l'azione **Nuovo**.
@@ -27,7 +26,7 @@ Se è spesso necessario creare righe di acquisto con informazioni simili, è pos
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-purchase-lines-to-a-vendor"></a>Assegnare righe di acquisto ricorrenti a un fornitore
+## Assegnare righe di acquisto ricorrenti a un fornitore
 
 Assegna una o più righe di acquisto ricorrenti a un fornitore di modo che sia possibile inserirle nei documenti di acquisto di quel fornitore.
 
@@ -44,7 +43,7 @@ Assegna una o più righe di acquisto ricorrenti a un fornitore di modo che sia p
 |**Automatico**|Se esistono più righe di acquisto ricorrenti per il fornitore, viene visualizzata una notifica da cui è possibile selezionare quale inserire. Se esiste una sola riga di acquisto ricorrente, verrà inserita automaticamente.<br /><br />Ciò funziona solo se il nuovo documento è stato creato da un elenco di documenti, ad esempio selezionando l'azione **Nuovo** nella pagina **Ordini acquisto**. Non funziona se il documento è stato creato, ad esempio, da una scheda fornitore.|
 |**Chiedi sempre**|Una notifica verrà visualizzata e tutte le righe di acquisto ricorrenti esistenti vengono visualizzate in modo che sia possibile selezionarne una.
 
-## <a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a>Inserire le righe di acquisto ricorrenti in una fattura di acquisto
+## Inserire le righe di acquisto ricorrenti in una fattura di acquisto
 
 Se esistono righe di acquisto ricorrenti per il fornitore, è possibile inserirle o aggiungerle automaticamente in tutti i tipi di documenti di acquisto come fattura di acquisto. Se hai attivato le opzioni **Chiedi sempre** per l'assegnazione delle righe di acquisto ricorrenti ai fornitori, verrai informato dell'esistenza di righe di acquisto ricorrenti.
 
@@ -54,7 +53,7 @@ Se esistono righe di acquisto ricorrenti per il fornitore, è possibile inserirl
 4. Nella pagina **Righe acquisto ricorrenti**, scegli il pulsante di ricerca nel campo **Codice** e seleziona una serie di righe di acquisto standard.
 5. Scegli il pulsante **OK** per inserire le righe di acquisto standard nella fattura, in cui è possibile riutilizzare la riga così come è o modificarne le informazioni.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Impostare gli acquisti](purchasing-setup-purchasing.md)  

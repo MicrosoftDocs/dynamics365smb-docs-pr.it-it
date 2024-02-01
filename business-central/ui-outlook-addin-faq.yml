@@ -4,12 +4,11 @@ metadata:
   description: Risposte alle domande frequenti sull'utilizzo del componente aggiuntivo Business Central per Outlook.
   author: jswymer
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.devlang: al
   ms.search.keywords: 'phone, tablet'
   ms.date: 04/27/2022
   ms.author: jswymer
+  ms.service: dynamics-365-business-central
 title: Domande frequenti sul componente aggiuntivo Business Central per Outlook
 summary: |
   Questo articolo contiene le risposte alle domande più comuni poste dai nostri utenti sul componente aggiuntivo Business Central per Outlook.   

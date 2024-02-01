@@ -3,9 +3,7 @@ title: Come abilitare i workflow di approvazione
 description: 'Dopo avere creato un workflow ed esserti assicurato che sia pronto, è necessario abilitare il workflow.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: bholtorf

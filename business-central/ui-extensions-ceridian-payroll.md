@@ -3,9 +3,7 @@ title: Importazione dei dati di retribuzioni o stipendi tramite l'estensione Reg
 description: Utilizzare questa estensione per importare le transazioni del registro paga dai servizi di Ceridian HR/Payroll (USA) e di Ceridian PowerPay (Canada).
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'app, add-in, manifest, customize, salary, wage'
 ms.search.form: '1665,'
 ms.date: 04/01/2021

@@ -1,1 +1,4 @@
+---
+ms.service: dynamics-365-business-central
+---
 Se la tua organizzazione ha configurato OneDrive per le funzionalità di sistema, la cartella di lavoro di Excel viene aperta nel browser usando Excel per il Web. Se non stai usando OneDrive per le funzionalità di sistema, la cartella di lavoro viene scaricata sul dispositivo. Da lì, puoi aprirla utilizzando l'app desktop Excel o Excel per il Web, a seconda di ciò che hai.

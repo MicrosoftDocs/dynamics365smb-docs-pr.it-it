@@ -3,9 +3,7 @@ title: Impostare la mappatura testo a conto per i pagamenti ricorrenti
 description: 'Si può collegare il testo sui pagamenti con determinati conti, in modo che i pagamenti vengano registrati nei conti quando si effettua la registrazione riconciliazione pagamenti.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021

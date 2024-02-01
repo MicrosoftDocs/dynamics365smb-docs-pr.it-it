@@ -3,9 +3,7 @@ title: 'Pagamenti automatici ed effetti automatici [IT]'
 description: Il seguente argomento spiega come impostare le informazioni rilevanti in Business Central per gestire pagamenti ed effetti automatici.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '12203, 12204'
 ms.date: 06/25/2021

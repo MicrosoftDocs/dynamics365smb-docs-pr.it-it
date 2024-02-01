@@ -3,7 +3,6 @@ title: Impostazione delle notifiche del workflow di approvazione
 description: Questo articolo spiega come impostare le notifiche del flusso di lavoro per avvisare un utente che si è verificato un evento a cui deve reagire con la risposta del flusso di lavoro obbligatoria.
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf

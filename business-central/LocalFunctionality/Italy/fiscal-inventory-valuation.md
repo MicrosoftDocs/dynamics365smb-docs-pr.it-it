@@ -3,9 +3,7 @@ title: Valutazione magazzino fiscale
 description: È necessario inviare un report annuale che indichi il valore monetario degli articoli di magazzino per l'anno fiscale.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '12117, 12188, 12128, 12130, 12137'
 ms.date: 04/01/2021

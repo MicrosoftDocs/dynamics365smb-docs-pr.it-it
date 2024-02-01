@@ -3,9 +3,7 @@ title: Dettagli di progettazione - Tabella Compiti di pianificazione
 description: Questo argomento fornisce informazioni su cosa succede quando una modifica nei modelli di domanda o offerta richiede il calcolo della modalità di pianificazione di un articolo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

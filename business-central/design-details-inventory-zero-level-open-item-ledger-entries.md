@@ -3,9 +3,7 @@ title: Movimenti contabili articoli aperti con inventario zero
 description: In questo articolo viene discusso un problema in cui il livello di scorte è pari a zero sebbene vi siano movimenti contabili articoli aperti.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

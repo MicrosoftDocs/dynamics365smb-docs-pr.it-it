@@ -3,9 +3,7 @@ title: Fatturare le prenotazioni in Business Central
 description: Questo argomento spiega come eseguire la fatturazione in blocco da Microsoft Bookings in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'invoicing, bookings'
 ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022

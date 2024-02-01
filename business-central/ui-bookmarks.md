@@ -3,9 +3,7 @@ title: Aggiungere un collegamento a segnalibro a una pagina o un report in Gesti
 description: 'Utilizzando la nuova icona segnalibro, è possibile aggiungere un''azione che apre una pagina o un report dal menu di navigazione di Gestione ruolo utente.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 06/23/2021

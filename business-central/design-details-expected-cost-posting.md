@@ -3,9 +3,7 @@ title: Dettagli di progettazione - Registrazione del costo previsto
 description: 'I costi previsti rappresentano, ad esempio, la stima del costo di un articolo acquistato registrato prima di ricevere la fattura per l''articolo.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: bholtorf

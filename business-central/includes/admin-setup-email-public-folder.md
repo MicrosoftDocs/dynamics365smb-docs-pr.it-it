@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 02/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 > [!NOTE]
@@ -15,7 +16,7 @@ Prima di poter configurare la registrazione delle e-mail, è necessario preparar
 
 Seguire i passaggi seguenti per configurare Exchange Online, con collegamenti a ulteriori risorse per ottenere maggiori informazioni.
 
-### <a name="create-an-admin-role-group"></a>Creare un gruppo di ruoli amministratore
+### Creare un gruppo di ruoli amministratore
 
 Creare un gruppo di ruoli amministratore per cartelle pubbliche in base alle informazioni nella seguente tabella:
 
@@ -27,7 +28,7 @@ Creare un gruppo di ruoli amministratore per cartelle pubbliche in base alle inf
 
 Per ulteriori informazioni, vedi [Gestire i gruppi di ruoli in Exchange Online](/exchange/permissions-exo/role-groups).
 
-### <a name="create-a-new-public-folder-mailbox"></a>Creare una nuova cassetta postale della cartella pubblica della cartella pubblica
+### Creare una nuova cassetta postale della cartella pubblica della cartella pubblica
 
 Creare una nuova cassetta postale della cartella pubblica in base alle informazioni nella seguente tabella:
 
@@ -37,7 +38,7 @@ Creare una nuova cassetta postale della cartella pubblica in base alle informazi
 
 Per ulteriori informazioni, vedi [Creare una cassetta postale della cartella pubblica](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
-### <a name="create-new-public-folders"></a>Creare nuove cartelle pubbliche
+### Creare nuove cartelle pubbliche
 
 1. Creare una nuova cartella pubblica con il nome **Log delle e-mail** nella radice in modo che il percorso completo della cartella diventi `\Email Logging\`.
 2. Creare due sottocartelle in modo che il risultato sia il seguente percorso completo delle cartelle:
@@ -47,23 +48,23 @@ Per ulteriori informazioni, vedi [Creare una cassetta postale della cartella pub
 
 Per ulteriori informazioni, vedi [Creare una cartella pubblica](/exchange/collaboration-exo/public-folders/create-public-folder).
 
-### <a name="set-public-folder-ownership"></a>Impostare la proprietà della cartella pubblica
+### Impostare la proprietà della cartella pubblica
 
 Impostare l'utente del log delle e-mail come proprietario di entrambe le cartelle pubbliche,*Coda* e *Archiviazione*.
 
 Per ulteriori informazioni, vedere [Assegnare le autorizzazioni per la cartella pubblica](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### <a name="mail-enable-the-queue-public-folder"></a>Abilitare alla posta la cartella pubblica *Coda*
+### Abilitare alla posta la cartella pubblica *Coda*
 
   Per ulteriori informazioni, vedi [Abilitare o disabilitare alla posta una cartella pubblica](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
-### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Abilitare alla posta per l'invio di e-mail alla cartella pubblica *Coda*
+### Abilitare alla posta per l'invio di e-mail alla cartella pubblica *Coda*
 
 Abilitare alla posta per l'invio di e-mail alla cartella pubblica *Coda* utilizzando Outlook o la shell di gestione di Exchange.
 
 Per ulteriori informazioni, vedere [Consentire agli utenti anonimi di inviare e-mail a una cartella pubblica abilitata alla posta](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Creare regole di flusso di posta
+### Creare regole di flusso di posta
 
 Creare due regole di flusso di posta in base alle informazioni nella seguente tabella:
 

@@ -3,9 +3,7 @@ title: Creare e gestire le interazioni con i contatti
 description: 'In Business Central vengono definiti interazioni tutti i tipi di comunicazioni che intercorrono tra la società e i contatti, Leggi i modi per creare e gestire i tuoi contatti.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: bholtorf

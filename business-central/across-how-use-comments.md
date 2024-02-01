@@ -3,9 +3,7 @@ title: Aggiungere commenti a schede o documenti
 description: 'Aggiungere informazioni supplementari a conti, schede clienti o negli ordini di vendita per comunicare gli accordi, ad esempio un metodo di consegna o dei prezzi speciali ad altri utenti.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tasks, work'
 ms.search.form: '124, 30'
 ms.date: 04/01/2021
