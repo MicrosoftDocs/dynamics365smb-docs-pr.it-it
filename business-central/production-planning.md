@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Pianificazione
+# <a name="planning"></a>Pianificazione
 
 A seconda del volume e della natura dei prodotti, è necessario pianificare quotidianamente o settimanalmente le operazioni di produzione richieste per trasformare gli input in prodotti finiti. In [!INCLUDE[prod_short](includes/prod_short.md)] sono disponibili funzionalità per gestire la domanda anticipata ed effettiva dei reparti vendite, assemblaggio e produzione, nonché funzionalità per la pianificazione della distribuzione tramite unità di stockkeeping e trasferimenti di ubicazione.
 
@@ -38,7 +38,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Visualizzare le scorte disponibili previste di un articolo in modi diversi e sapere quali fattori, tra domanda lorda, carico ordini pianificati e di altro tipo, influiscono nel tempo sulla giacenza.|[Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)|  
 <!--|Eseguire le attività di pianificazione selezionate, come la modifica o aggiunta di riga del prospetto di pianificazione, in una visualizzazione grafica del piano di approvvigionamento.|[Modificare i suggerimenti di pianificazione in una visualizzazione grafica](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Produzione](production-manage-manufacturing.md)  

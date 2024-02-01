@@ -10,11 +10,11 @@ ms.date: 02/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Inviare promemoria per saldi inevasi
+# <a name="send-reminders-of-outstanding-balances"></a>Inviare promemoria per saldi inevasi
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Imposta più tassi di interesse per il pagamento ritardato](finance-how-to-set-up-multiple-interest-rates.md)  

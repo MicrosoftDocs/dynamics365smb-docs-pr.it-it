@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Convertire le ubicazioni esistenti in ubicazione warehouse
+# <a name="convert-existing-locations-to-warehouse-locations"></a>Convertire le ubicazioni esistenti in ubicazione warehouse
 È possibile consentire l'utilizzo di zone e collocazioni in un'ubicazione magazzino esistente, in modo da utilizzare tale ubicazione come ubicazione warehouse.  
 
 Il processo batch per l'abilitazione di un'ubicazione per le attività warehouse comporta la creazione di movimenti warehouse iniziali per la collocazione di rettifica della warehouse per tutti gli articoli in magazzino nell'ubicazione. Tali movimenti iniziali verranno convertiti quando i movimenti di inventario fisico della warehouse vengono immessi dopo l'esecuzione del processo batch.  
@@ -20,7 +20,7 @@ Il processo batch per l'abilitazione di un'ubicazione per le attività warehouse
 > [!IMPORTANT]  
 >  Per eliminare tutte le giacenze negative ed eventuali documenti warehouse aperti prima di convertire l'ubicazione per la gestione warehouse, eseguire un report per identificare gli articoli con giacenza negativa e documenti warehouse aperti per l'ubicazione specificata. Per ulteriori informazioni, vedere Verifica giacenze negative.  
 
-## Per abilitare un'ubicazione esistente come ubicazione di warehouse  
+## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Per abilitare un'ubicazione esistente come ubicazione di warehouse
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Crea ubicazione warehouse**, quindi scegli il collegamento correlato.  
 2.  Nel campo **Cod. ubicazione** specificare l'ubicazione che si desidera abilitare per l'elaborazione warehouse.  
 3.  Nel campo **Codice collocazione rettifica** specificare la collocazione nell'ubicazione in cui sono archiviati i movimenti warehouse non sincronizzati. Per ulteriori informazioni, vedere [Per sincronizzare i movimenti warehouse rettificati con i movimenti contabili articoli correlati](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)  
@@ -35,7 +35,7 @@ Il processo batch per l'abilitazione di un'ubicazione per le attività warehouse
 
  Nel caso delle ubicazioni in cui i documenti di gestione della warehouse non venivano utilizzati prima della conversione, è necessario riaprire e rilasciare eventuali documenti di origine ricevuti parzialmente o spediti parzialmente prima della conversione.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)     

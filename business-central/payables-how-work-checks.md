@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Effettuare pagamenti tramite assegno
+# <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
 
 È possibile emettere assegni elettronici e manuali in [!INCLUDE[prod_short](includes/prod_short.md)]. In entrambi i metodi vengono utilizzate le registrazioni pagamenti per emettere assegni ai fornitori. È inoltre possibile annullare assegni e visualizzare movimenti contabili assegni.
 
@@ -29,7 +29,7 @@ La seguente procedura mostra come pagare un fornitore con un assegno automatico 
 
 È possibile stampare fino a 10 fatture in una pagina per una matrice. Se un assegno si applica a più di 10 fatture, quando si stampa la matrice l'assegno viene annullato alla prima pagina e viene stampata la parola ANNULLATO sull'assegno. Quindi si stampa il resto delle fatture e l'importo totale degli assegni nella seconda pagina.
 
-## Per pagare una fattura fornitore con un assegno automatico
+## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Per pagare una fattura fornitore con un assegno automatico
 
 Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi sono simili al rimborso dei clienti tramite assegno.
 
@@ -49,13 +49,13 @@ Vengono creati movimenti contabili fornitori collegati completamente e movimenti
 > [!NOTE]  
 > Se si desidera stampare e pagare gli assegni provenienti da vari conti correnti bancari utilizzando più di una valuta, eseguire un singolo processo batch **Stampa assegno** per ogni valuta, specificando il conto corrente bancario appropriato.
 
-## Per annullare assegni stampati che non sono registrati
+## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Per annullare assegni stampati che non sono registrati
 
 È possibile annullare gli assegni non registrati dopo che sono stati stampati utilizzando l'azione **Annullo assegno** della pagina **Registrazioni pagamenti**.
 
 1. Nella pagina **Registrazioni pagamenti** scegliere **Annullo assegno**, quindi scegliere gli assegni da annullare.
 
-## Per annullare gli assegni
+## <a name="to-void-checks"></a>Per annullare gli assegni
 
 Una volta che i pagamenti tramite assegno sono stati registrati, è possibile annullare gli assegni dai movimenti contabili bancari risultanti.
 
@@ -68,13 +68,13 @@ Una volta che i pagamenti tramite assegno sono stati registrati, è possibile an
 4. Selezionare la casella di controllo **Annullo solo assegno**.
 5. Scegliere il pulsante **OK**.
 
-## Per visualizzare un riepilogo degli assegni registrati
+## <a name="to-view-a-summary-of-posted-checks"></a>Per visualizzare un riepilogo degli assegni registrati
 
 Se si desidera verificare gli assegni registrati, ad esempio per verificare più assegni pagati a un fornitore, è possibile utilizzare il report **C/C bancario - Dettaglio assegni**.
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancario - Dettaglio assegni**, quindi scegli il collegamento correlato.
 2. Impostare i filtri desiderati quindi scegliere il pulsante **Anteprima**.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Effettuare i pagamenti](payables-make-payments.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

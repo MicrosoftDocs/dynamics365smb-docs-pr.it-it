@@ -9,7 +9,7 @@ ms.date: 05/28/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Immettere numeri di documento esterni
+# <a name="enter-external-document-numbers"></a>Immettere numeri di documento esterni
 
 È possibile immettere numeri di documento esterno per clienti e fornitori in tutti gli ordini di vendita e acquisto, fatture e note di credito. È possibile utilizzare questi numeri per cercare le vendite registrate e le righe di acquisto in un secondo momento.  
 
@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 La seguente procedura spiega come specificare un numero di documento esterno in un ordine di vendita, ma passaggi simili si applicano ad altri documenti di vendita e di acquisto.
 
-## Per immettere numeri di documento esterno in un ordine di vendita  
+## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>Per immettere numeri di documento esterno in un ordine di vendita
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2. Selezionare l'ordine di vendita pertinente, quindi scegliere l'azione **Modifica**.  
@@ -27,7 +27,7 @@ La seguente procedura spiega come specificare un numero di documento esterno in 
     Nei documenti di acquisto il campo rilevante è **Nr. fattura fornitore**.
 4. Compilare gli altri campi obbligatori.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Numeri di documento esterno sui documenti di acquisto](purchasing-ext-doc-no.md)  
 [Numeri di documento esterno sui documenti di vendita](sales-how-invoice-sales.md#external-document-numbers)  

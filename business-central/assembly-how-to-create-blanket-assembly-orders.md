@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Creare ordini di assemblaggio programmati
+# <a name="create-blanket-assembly-orders"></a>Creare ordini di assemblaggio programmati
 
 Puoi utilizzare la gestione assemblaggio per personalizzare un articolo di assemblaggio nella richiesta di un cliente durante il processo di vendita. Per ulteriori informazioni, vedi [Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -19,7 +19,7 @@ Puoi utilizzare la gestione assemblaggio per personalizzare un articolo di assem
 > [!NOTE]  
 >  Come in tutti gli ordini programmati, le quantità negli ordini di assemblaggio programmati sono solo previsioni e non diventano operative finché non viene effettuata la conversione in ordini di assemblaggio effettivi. Di conseguenza, le funzionalità dell'ordine, ad esempio calcolo della disponibilità, impegno e tracciabilità dell'articolo, non sono attive negli ordini di assemblaggio programmati.  
 
-## Per creare un ordine di assemblaggio programmato per un articolo assemblato su ordine  
+## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Per creare un ordine di assemblaggio programmato per un articolo assemblato su ordine
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2. Creare un nuovo ordine di vendita programmato con una riga per un articolo di assemblaggio. Per ulteriori informazioni, vedere [Creare ordini vendita programmati](sales-how-to-create-blanket-sales-orders.md).  
@@ -35,7 +35,7 @@ Puoi utilizzare la gestione assemblaggio per personalizzare un articolo di assem
 
 L'ordine di assemblaggio programmato collegato ed eventuali personalizzazioni sono collegati al nuovo ordine di vendita per preparare l'assemblaggio dell'articolo o degli articoli da vendere.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Creare ordini vendita programmati](sales-how-to-create-blanket-sales-orders.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  

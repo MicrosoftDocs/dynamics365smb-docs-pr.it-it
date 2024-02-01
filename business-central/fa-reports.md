@@ -9,15 +9,15 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Report cespiti e analisi in Business Central
+# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Report cespiti e analisi in Business Central
 
 Per aiutarti a gestire i tuoi cespiti in [!INCLUDE [prod_short](includes/prod_short.md)], report standard e analisi sono integrati. Va oltre i tradizionali vincoli di creazione di report per consentire di progettare in modo efficiente vari tipi di report.  
 
-## Report
+## <a name="reports"></a>Report
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
 [Utilizzare le dimensioni](finance-dimensions.md)  

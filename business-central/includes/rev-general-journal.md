@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-### Storno delle registrazioni per correggere gli errori
+### <a name="reversing-journals-to-correct-mistakes"></a>Storno delle registrazioni per correggere gli errori
 
 Quando si lavora con registrazioni che hanno molte righe e si verifica un errore, è importante avere un modo semplice per correggere gli errori. La pagina **Registrazioni COGE registrate** offre un paio di azioni che possono aiutare.
 

@@ -10,10 +10,10 @@ ms.date: 06/29/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Utilizzare le chiavi di allocazione nelle registrazioni COGE
+# <a name="use-allocation-keys-in-general-journals"></a>Utilizzare le chiavi di allocazione nelle registrazioni COGE
 È possibile assegnare un movimento in una registrazione generale a più conti diversi, quando tale registrazione viene contabilizzata. L'allocazione può essere effettuata per quantità, percentuale o importo.
 
-## Per impostare le chiavi di allocazione
+## <a name="to-set-up-allocation-keys"></a>Per impostare le chiavi di allocazione
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni periodiche generali**, quindi scegli il collegamento correlato.
 2. Scegliere il campo **Nome batch** per aprire la pagina **Batch registrazioni COGE**.
 3. È possibile modificare le allocazioni in un batch esistente nell'elenco o creare un nuovo batch con le allocazioni.
@@ -28,13 +28,13 @@ ms.service: dynamics-365-business-central
 10. Dopo aver immesso le righe di allocazione, scegliere **OK** per tornare alla pagina **Reg. periodiche generali**. Il campo **Importo allocato (VL)** viene compilato e corrisponde al campo **Importo**.
 11. Effettuare la registrazione.
 
-## Per modificare una chiave di allocazione già impostata
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Per modificare una chiave di allocazione già impostata
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni periodiche generali**, quindi scegli il collegamento correlato.
 2. Nella pagina **Registrazioni periodiche generali** selezionare le registrazioni con l'allocazione.
 3. Selezionare la riga con l'allocazione e scegliere l'azione **Allocazioni**.
 4. Cambia i campi pertinenti e quindi scegli **OK**.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Utilizzare le registrazioni COGE](ui-work-general-journals.md)  
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# (Legacy) Importare ed esportare layout di report personalizzati
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Legacy) Importare ed esportare layout di report personalizzati
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 > [!IMPORTANT]  
 >  Non è possibile importare o esportare i layout di report predefiniti.  
 
-### Per esportare un layout di report verso un file  
+### <a name="to-export-a-report-layout-to-a-file"></a>Per esportare un layout di report verso un file
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Selezione layout report**, quindi scegli il collegamento correlato.  
 
@@ -28,7 +28,7 @@ ms.service: dynamics-365-business-central
 
 4.  Nella finestra di dialogo **Esporta file** selezionare il pulsante **Salva** quindi salvare il file in un percorso del computer o in rete.  
 
-### Per importare un file di layout di report  
+### <a name="to-import-a-report-layout-file"></a>Per importare un file di layout di report
 
 1.  Assicurarsi che il file pertinente che definisce il layout di report sia disponibile nel computer o in rete.  
 
@@ -44,7 +44,7 @@ ms.service: dynamics-365-business-central
 
  Il layout del report personalizzato originale viene sostituito con il layout di report importato.  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Creare e modificare un layout di report personalizzato](ui-how-create-custom-report-layout.md)   
 [Gestione dei layout di report e documenti](ui-manage-report-layouts.md)  
