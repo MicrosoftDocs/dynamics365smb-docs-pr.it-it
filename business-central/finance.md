@@ -10,7 +10,7 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="financial-management"></a>Gestione contabile
+# Gestione contabile
 
 [!INCLUDE[prod_short](includes/prod_short.md)] include una configurazione standard per la maggior parte dei processi finanziari. Tuttavia, tale configurazione può essere adattata alle esigenze aziendali. Per ulteriori informazioni, vedi [Impostazione degli aspetti finanziari](finance-setup-finance.md).
 
@@ -48,13 +48,13 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Utilizza i rendiconti finanziari e le sintesi fornite in Microsoft Excel. |[Analisi dei rendiconti finanziari in Excel](finance-analyze-excel.md) |
 |Informazioni su come utilizzare Gestione ruolo utente Contabile, invitare un contabile esterno e utilizzare l'hub aziendale per gestire i conti relativi a più client.|[Esperienze contabile in Business Central](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Guardare un video
+## Guardare un video
 
 Questo video presenta alcune delle funzionalità chiave per la gestione delle finanze. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Vendite](sales-manage-sales.md)  
