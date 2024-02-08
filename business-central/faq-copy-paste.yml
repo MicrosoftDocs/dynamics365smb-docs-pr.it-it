@@ -3,6 +3,7 @@ metadata:
   title: Domande frequenti sulla su come copiare e incollare dati
   description: Ottieni risposte alle domande frequenti su come copiare e incollare dati da campi e righe nelle pagine di Business Central.
   ms.topic: faq
+  ms.service: dynamics-365-business-central
 title: Domande frequenti sulla funzionalità di copia e incolla
 summary: |
   È possibile copiare una o più righe (record) da un elenco o un singolo campo in una pagina e quindi incollare ciò che è stato copiato nella stessa pagina, in un'altra pagina o in un documento esterno (ad esempio di Microsoft Excel o Outlook).  

@@ -3,15 +3,14 @@ title: Chiusura dell'anno fiscale e del periodo contabile
 description: 'Descrive i task per la chiusura di un anno fiscale o di un periodo contabile, ad esempio, per garantire che documenti e registrazioni vengano contabilizzati e per verificare i saldi di conti correnti.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="closing-years-and-periods"></a>Chiusura di anni e periodi
+# Chiusura di anni e periodi
 
 Al termine di un anno fiscale, vi sono numerose attività amministrative da eseguire, ad esempio assicurarsi che tutti i documenti e le registrazioni siano stati contabilizzati, assicurarsi che i dati della valuta siano aggiornati, chiudere i libri e altro ancora. Le attività effettive dipenderanno dalla società.
 
@@ -29,7 +28,7 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 | Chiudere i periodi contabili e l'anno fiscale, trasferire i saldi dal conto economico al conto patrimoniale e registrare il movimento di chiusura di fine anno. |[Chiusura registri](year-close-books.md) |
 | Stampare report per facilitare la creazione di rendiconti finanziari. |[Preparazione degli estratti conto di chiusura](year-prepare-close-statement.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Usare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

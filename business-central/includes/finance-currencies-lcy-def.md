@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi/aree geografiche, diventa essenziale poter vendere e riportare dati finanziari in più di una valuta. La valuta locale (VL) è definita nella pagina **Setup contabilità generale** come descritto nell'articolo [Informazioni sulla contabilità generale e sul piano dei conti](../finance-general-ledger.md). Una volta che la valuta locale (LCY) è stata definita, sarà rappresentata come una valuta vuota, quindi quando il campo **Valuta** è vuoto, significa che è LCY.  
 

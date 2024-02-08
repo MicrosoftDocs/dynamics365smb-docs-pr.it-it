@@ -3,15 +3,14 @@ title: Business Intelligence finanziario
 description: 'Business Central contiene molte funzionalità che ti consentono di raccogliere, analizzare e condividere dati aziendali preziosi per la business intelligence e il processo decisionale.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="financial-business-intelligence"></a>Business Intelligence finanziario
+# Business Intelligence finanziario
 
 Durante lo svolgimento dell'attività quotidiana, le aziende acquisiscono una quantità enorme di dati. Questi dati che riflettono, ad esempio, le cifre relative alle vendite, agli acquisti, alle spese operative, agli stipendi dei dipendenti e ai budget dell'organizzazione e possono diventare informazioni preziose, vale a dire Business Intelligence (BI), per i responsabili decisionali. In [!INCLUDE[prod_short](includes/prod_short.md)] sono disponibili molte funzionalità che facilitano la raccolta, l'analisi e la condivisione dei dati della società.
 
@@ -32,7 +31,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Abilita il reporting finanziario globale da parte di organizzazioni contabili internazionali utilizzando lo standard eXtensible Business Reporting Language (XBRL).|[Creare report con XBRL](bi-create-reports-with-xbrl.md)|
 |Modifica l'intento di accesso al database su report, pagine di tipo API e query per ridurre il carico e migliorare le prestazioni.|[Gestire l'intento di accesso al database](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Finanze](finance.md)  
 [Usare Business Central come origine dati di Power BI](across-how-use-financials-data-source-powerbi.md)  

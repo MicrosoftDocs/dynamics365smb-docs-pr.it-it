@@ -8,15 +8,16 @@ ms.topic: conceptual
 ms.date: 01/30/2023
 ms.custom: bap-template
 ms.search.form: 630
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-data-archive-extension"></a>L'estensione dell'archivio dati
+# L'estensione dell'archivio dati
 
 Nel corso del tempo, la vostra azienda accumulerà una notevole quantità di dati, e come amministratore, è probabilmente una buona idea avere una strategia per l'archiviazione dei dati. Avere molti dati può rallentare le cose, per esempio, potrebbe richiedere un po' più tempo per generare i rapporti, o anche bloccare i record. Inoltre, grandi quantità di dati possono portare a un aumento dei costi di archiviazione.
 
 L'estensione Data Archive fornisce un quadro di base per l'archiviazione e il backup dei dati come parte della compressione della data. La compressione della data consolida i movimenti correlati in un unico movimento ed elimina gli originali. Per ulteriori informazioni vedi [Comprimere i dati con la compressione della data](admin-manage-documents.md#compress-data-with-date-compression). Tuttavia, potrebbe esserci un valore nel mantenere quei dati, quindi piuttosto che cancellarli, potete archiviarli per un uso successivo.
 
-## <a name="start-archiving-data"></a>Iniziare l'archiviazione dei dati
+## Iniziare l'archiviazione dei dati
 
 L'estensione è preinstallata e disponibile nella **Gestione delle estensioni**, quindi non è necessario fare nulla per iniziare. L'estensione è disponibile anche su AppSource.
 
@@ -50,10 +51,10 @@ L'estensione dell'Archivio dati è utilizzata dai seguenti processi batch per la
 
 Per avviare l'archiviazione dei dati quando esegui uno dei lavori batch, attiva il toggle **Archivia le voci cancellate** .
 
-## <a name="storage-considerations"></a>Considerazioni sullo stoccaggio
+## Considerazioni sullo stoccaggio
 
 I dati archiviati sono memorizzati nella tabella **Elemento multimediale tenant** . Consigliamo di esportare i vecchi archivi, per esempio, in un file CSV e poi cancellare i vecchi record dell'archivio.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestire l'archiviazione eliminando i documenti o comprimendo i dati](admin-manage-documents.md)

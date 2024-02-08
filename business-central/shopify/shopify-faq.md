@@ -1,7 +1,7 @@
 ---
 title: DOMANDE FREQUENTI per dettagli tecnici
 description: Dettagli di implementazione relativi al connetore Shopify.
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -70,8 +70,7 @@ Puoi anche visitare il [Marketplace degli esperti](https://experts.shopify.com/)
 ## Funzionalità attualmente non supportate, tuttavia, le stiamo monitorando e potremmo considerare di aggiungerle
 
 - Funzionalità B2B, tra cui aziende, listini prezzi aziendali e condizioni di pagamento
-  - Attualmente è possibile importare ordini creati tramite B2B. Se hai più acquirenti collegati all'azienda, non dovresti abilitare la creazione automatica dei clienti, ma collegare manualmente ciascun acquirente Shopify al rispettivo cliente.
-  - Dovrai mantenere i listini prezzi aziendali in Shopify.
+  - Il supporto esteso di B2B sarà disponibile nel primo ciclo di rilascio del 2024. Per ulteriori informazioni, vedi [Collegare Business Central a Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Mercati
   - Traduzioni multiple di dati master. Puoi scegliere una lingua che verrà utilizzata per l'esportazione delle informazioni sul prodotto.
   - Prezzi per paese/regione. È disponibile un listino prezzi per la valuta selezionata. Shopify gestisce la conversione in altre valute.
@@ -84,6 +83,16 @@ Sì, il connettore Shopify è estendibile. Controlla GitHub per accedere all'[el
 ## Il connettore Shopify è aperto al contributo
 
 Sì, questa estensione è aperta al contributo della nostra community. Puoi trovare il [codice sorgente](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) nel repository dei componenti aggiuntivi dell'applicazione Microsoft AL.
+
+## Costruisci la tua versione del connettore Shopify
+
+Secondo Shopify, se desideri creare e pubblicare un'app connettore sul marketplace Shopify che abbia lo scopo principale di trasferire o condividere i dati del commerciante a terzi ([!INCLUDE [prod_short](../includes/prod_short.md)]), è necessario avere il consenso scritto di Shopify. Nell'ambito di questo processo, è necessario ottenere il consenso di Microsoft nel "Modulo di riconoscimento dei dati del destinatario finale". Dobbiamo chiederti di gestire la questione con Shopify perché Microsoft non può firmare accordi con terze parti.
+
+### Cosa fare
+
+Controlla i requisiti Shopify perché potresti comunque essere in grado di avere un'app non elencata.
+
+In alternativa, il connettore Shopify per [!INCLUDE [prod_short](../includes/prod_short.md)] ottiene costantemente nuove funzionalità e nuovi clienti. Se scopri una lacuna specifica, valuta la possibilità di inviare un suggerimento sul prodotto (https://aka.ms/bcideas) o un contributo in codice a [!INCLUDE [prod_short](../includes/prod_short.md)]. Per i requisiti che potrebbero non essere rilevanti per la maggior parte dei clienti e che non possono essere facilmente risolti dall'attuale modello di estensibilità, contatta il  [!INCLUDE [prod_short](../includes/prod_short.md)] team di sviluppo per discutere il caso d'uso. Dovremmo essere in grado di trovare una soluzione fattibile.
 
 ## Vedi anche
 

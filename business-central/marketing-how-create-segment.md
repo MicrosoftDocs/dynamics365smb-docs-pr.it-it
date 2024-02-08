@@ -3,19 +3,17 @@ title: Creare segmenti
 description: 'Descrive come creare un segmento per un gruppo di contatti in Business Central, ad esempio, per rivolgersi a diversi contatti tramite messaggi di posta diretti.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-segments"></a>Creare segmenti
+# Creare segmenti
 È possibile creare segmenti per selezionare un gruppo di contatti, ad esempio se si desidera creare un'interazione in cui siano coinvolti più contatti (invio di messaggi di posta diretti).
 
-## <a name="to-create-a-segment"></a>Per creare un segmento
+## Per creare un segmento
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Segmenti**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Nella sezione **Generale** nel campo **Nr.** inserire un numero per il segmento.
@@ -25,7 +23,7 @@ ms.service: dynamics-365-business-central
 
 A questo punto è possibile aggiungere i contatti al segmento. Per ulteriori informazioni, vedere [Aggiungere contatti ai segmenti](marketing-add-contact-segment.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Gestione dei segmenti](marketing-segments.md)  
 [Gestione delle opportunità di vendita](marketing-manage-sales-opportunities.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
