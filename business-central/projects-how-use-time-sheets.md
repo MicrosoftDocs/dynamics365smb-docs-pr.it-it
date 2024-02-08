@@ -131,7 +131,7 @@ La registrazione del foglio presenze avviene in ore, l'unità di misura base sta
     > Un manager potrebbe rifiutare una riga del foglio presenze che è stata inviata per l'approvazione. Se una riga presenta lo stato **Rifiutato**, puoi apportare modifiche alla riga e scegliere nuovamente **Invia**.  
 6. Scegliere il pulsante **OK**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Per approvare o rifiutare un foglio presenze
+## <a name="approve-or-reject-a-time-sheet"></a>Per approvare o rifiutare un foglio presenze
 
 Un foglio presenze deve essere inviato per l'approvazione prima di poter essere utilizzato. Puoi approvare e rifiutare singole righe di un foglio presenze o inviarle al mittente per un'ulteriore azione. Un foglio presenze può essere approvato in due modi:
 
@@ -207,7 +207,7 @@ Dopo avere approvato i movimenti del foglio presenze per una commessa è possibi
 5. Scegli l'azione **Registra**.  
 6. Per verificare la registrazione, scegliere l'azione **Mov. contabili**. Verrà visualizzata la pagina **Movimenti cont. commesse** nella quale verrà visualizzato il risultato della registrazione delle registrazioni commesse.
 
-## <a name="to-archive-time-sheets"></a>Per archiviare fogli presenze
+## <a name="archive-time-sheets"></a>Per archiviare fogli presenze
 
 Dopo avere registrato i fogli presenze, puoi archiviarli per riferimento futuro. Devi registrare tutte le righe di un foglio presenze prima di poterlo archiviare.
 
