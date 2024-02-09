@@ -63,16 +63,19 @@ La tabella seguente descrive i valori del campo **Stato**.
 |--|--|
 | Pronto | Il movimento coda processi è pronto per l'esecuzione. |
 | In corso | Il movimento coda processi è in corso. Il campo viene aggiornato durante l'esecuzione della coda processi. |
-| In sospeso | Lo stato predefinito del movimento coda processi quando viene creato. Selezionare l'azione **Imposta stato su Pronto** per modificare lo stato in **Pronto**. Scegli l'azione **Imposta in sospeso** per ripristinare lo stato **In sospeso**. |
+| In sospeso | Lo stato predefinito del movimento coda processi quando viene creato. Selezionare l'azione **Imposta stato su Pronto** per modificare lo stato in **Pronto**. Scegli l'azione **Imposta in sospeso** per ripristinare lo stato **In sospeso**. Per ulteriori informazioni, fai riferimento a [Informazioni su In sospeso](#about-on-hold).|
 | Errore | Si è verificato un errore. Seleziona **Mostra errore** per visualizzare il messaggio di errore. |
 | Finito | Il movimento coda processi è stato completato. |
 
-> [!Tip]  
+> [!TIP]  
 > I movimenti coda processi smettono di essere eseguiti quando si verifica un errore. Ad esempio, questo può essere un problema quando un movimento si connette a un servizio esterno, come un feed bancario. Se il servizio non è temporaneamente disponibile e il movimento coda processi non riesce a connettersi, il movimento mostrerà un errore e interromperà l'esecuzione. Dovrai riavviare manualmente il movimento coda processi. In ogni caso, i campi **Numero massimo di tentativi** e **Ritardo nuova esecuzione (sec.)** possono aiutarti a evitare questa situazione. Il campo **Numero massimo di tentativi** ti consente di specificare quante volte il movimento coda processi può non riuscire prima che smetta di tentare di essere eseguito. Il campo **Ritardo nuova esecuzione (sec.)** ti consente di specificare la quantità di tempo, in secondi, tra i tentativi. La combinazione di questi due campi può mantenere in esecuzione il movimento coda processi finché il servizio esterno non diventa disponibile.
 
+### Informazioni su In sospeso
+
+L'impostazione di una voce della coda di lavoro su **In sospeso** non influisce su un processo già in esecuzione. Una volta avviato un processo nella coda dei lavori, il lavoro continua a essere eseguito fino al completamento, indipendentemente da eventuali modifiche successive apportate alla voce della coda del processo, ad esempio mettendola in attesa.<br><br>Lo stato **In sospeso** viene generalmente utilizzato per impedire l'avvio automatico di un processo quando raggiunge l'ora di inizio pianificata. Consente di sospendere temporaneamente l'esecuzione di un processo prima che inizi l'elaborazione. Tuttavia, una volta che un processo è già in esecuzione, la modifica dello stato in "In sospeso" non interromperà né influirà sull'esecuzione del lavoro.<br><br>Se è necessario interrompere o annullare un processo in esecuzione, è possibile farlo intervenendo manualmente nel processo, ad esempio terminando la sessione o il processo corrispondente responsabile dell'esecuzione del processo.
 ### Per visualizzare lo stato di qualsiasi processo
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.
 2. Nella pagina **Movimenti coda processi**, selezionare un movimento coda processi quindi scegliere il l'azione **Movimenti log**.  
 
 > [!TIP]

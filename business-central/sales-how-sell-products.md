@@ -10,7 +10,7 @@ ms.date: 11/03/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Vendere prodotti con un ordine di vendita cliente
+# Vendere prodotti con un ordine di vendita cliente
 
 Questo articolo fornisce istruzioni su quando utilizzare un ordine di vendita cliente oltre a una fattura. Se il processo di vendita richiede di spedire solo parte di un ordine, forse perché la quantità completa non è disponibile, è necessario elaborare la vendita effettuando un ordine di vendita.
 
@@ -22,7 +22,7 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 
 È persino possibile creare ordini pagati direttamente per clienti non registrati impostando dapprima una scheda "cliente per vendite in contanti", selezionabile nell'ordine di vendita. Ulteriori informazioni in [Impostare i clienti per vendite in contanti](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Creare un ordine di vendita
+## Creare un ordine di vendita
 
 > [!NOTE]  
 > La seguente procedura presuppone che il cliente sia già impostato. Per istruzioni su come eseguire questa operazione, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
@@ -86,11 +86,11 @@ Viene visualizzata la finestra dialogo **Registra e invia conferma** con il meto
 
 I movimenti contabili cliente e articolo sono ora creati nel sistema e l'ordine di vendita è emesso come documento PDF. Una volta che l'ordine di vendita è completamente registrato, viene rimosso dall'elenco degli ordini di vendita e viene sostituito con nuovi documenti nell'elenco delle fatture di vendita e delle spedizioni di vendita.  
 
-## <a name="external-document-number"></a>Numero di documento esterni
+## Numero di documento esterni
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Fatturazione delle vendite](sales-how-invoice-sales.md)  
 [Registrazione di vendite](ui-post-sales.md)  
