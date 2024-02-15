@@ -3,9 +3,7 @@ title: Contabilità e tenuta dei libri
 description: Questo articolo fornisce informazioni che ti aiuteranno a utilizzare Microsoft Dynamics 365 Business Central per eseguire correttamente la contabilità e la tenuta dei libri per la tua azienda.
 author: altotovi
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, bookkeeping'
 ms.search.form: '16, 39, 108'
 ms.date: 03/14/2023
@@ -13,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="accounting-and-bookkeeping"></a>Contabilità e tenuta dei libri
+# Contabilità e tenuta dei libri
 
 La contabilità è una funzione fondamentale in qualsiasi soluzione di pianificazione delle risorse aziendali (ERP) nonché nella maggior parte delle aziende. La contabilità rappresenta il processo di registrazione e catalogazione delle transazioni finanziarie di un'azienda e quindi il recupero, la misurazione, la sintesi e la presentazione dei risultati utilizzando differenti report spesso richiesti dalla legislazione locale. L'obiettivo principale di questo processo è aiutare la direzione dell'azienda a comprendere i dati finanziari della stessa e misurare i risultati delle attività economiche dell'azienda.
 
@@ -101,7 +99,7 @@ La tabella seguente descrive una sequenza di attività e fornisce collegamenti a
 | Abilitare il reporting finanziario globale per organizzazioni contabili internazionali utilizzando lo standard eXtensible Business Reporting Language (XBRL). | [Creare report con XBRL](bi-create-reports-with-xbrl.md) |
 | Modificare l'intento di accesso al database in report, pagine di tipo API e query per ridurre il carico e migliorare le prestazioni. | [Gestire l'intento di accesso al database](admin-data-access-intent.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di dati finanziari](finance-setup-finance.md)  
 [Vendite](sales-manage-sales.md)  

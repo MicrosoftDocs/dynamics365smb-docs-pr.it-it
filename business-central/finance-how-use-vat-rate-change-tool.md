@@ -1,21 +1,21 @@
 ---
 title: Gestione delle modifiche dell'aliquota IVA
 description: Scopri come utilizzare lo strumento di modifica dell'aliquota IVA per Dynamics 365 Business Central per la modifica delle aliquote IVA in base alla legislazione locale.
-author: andregu
+author: jswymer
 ms.topic: conceptual
 ms.reviewer: bholtorf
-ms.workload: na
 ms.search.keywords: 'VAT, VAT rate, posting, tax, value-added tax'
 ms.search.form: '550,'
 ms.date: 06/16/2021
-ms.author: andregu
+ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="managing-vat-rate-changes"></a>Gestione delle variazioni dell'aliquota IVA
+# Gestione delle variazioni dell'aliquota IVA
 
 Le aliquote IVA possono variare in base alla legislazione locale. Qualsiasi modifica dell'IVA incide sui dati dell'utente in [!INCLUDE[prod_short](includes/prod_short.md)] indipendentemente dal fatto che l'aliquota IVA sia stata ridotta, aumentata o rimossa. L'IVA è collegata a molte entità in [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio clienti, fornitori, articoli, risorse, addebiti articolo e conti di contabilità generale. Le variazioni delle aliquote IVA si verificano in genere a una data specifica, da quel momento sarà necessario aver modificato l'impostazione IVA, i gruppi di registrazione e così via per assicurarsi che i nuovi ordini di vendita e gli ordini di acquisto vengano creati con la nuova aliquota IVA.
 
-## <a name="changing-vat-rates"></a>Modifica delle aliquote IVA
+## Modifica delle aliquote IVA
 
 L'approccio ottimale per la gestione di una variazione dell'aliquota IVA è di registrare e chiudere integralmente gli ordini aperti e gli altri documenti prima della data del cambio dell'aliquota IVA, per assicurarsi che questi non siano influenzati dalla modifica. Questo è l'approccio più pulito che consente di avviare nuovi ordini e documenti con la nuova aliquota IVA.
 
@@ -30,11 +30,11 @@ Si suggerisce il seguente approccio per gestire una variazione dell'aliquota IVA
 > [!NOTE]  
 > Al momento lo strumento di modifica dell'aliquota IVA è in aggiornamento. La funzionalità menzionata di seguito potrebbe non corrispondere alla funzionalità nel proprio ambiente. L'aggiornamento avrà luogo prima del 1° luglio 2020 e non sarà un aggiornamento mensile regolare. Al contrario, tutti gli ambienti verranno aggiornati automaticamente (aggiornamento rapido). Al termine dell'aggiornamento, questo messaggio non verrà più visualizzato.  
 
-## <a name="the-vat-rate-change-tool"></a>Strumento di modifica dell'aliquota IVA
+## Strumento di modifica dell'aliquota IVA
 
 Lo strumento di modifica dell'aliquota IVA può aiutare a convertire le aliquote IVA in anagrafica, registrazioni e ordini, in una certa misura. Ciò è utile se si desidera convertire più facilmente l'IVA sull'anagrafica o se sono presenti ordini che non è possibile chiudere prima della data di variazione e che verranno elaborati per un periodo di tempo più lungo, oltre la data di variazione dell'aliquota IVA. Esistono alcune restrizioni e limitazioni nello strumento di modifica dell'aliquota IVA.
 
-## <a name="understanding-the-vat-rate-conversion-process-and-limitations"></a>Informazioni sulle limitazioni e sul processo di conversione dell'aliquota IVA
+## Informazioni sulle limitazioni e sul processo di conversione dell'aliquota IVA
 
 Lo strumento di modifica dell'aliquota IVA effettua le conversioni di aliquota IVA per anagrafica, registrazioni e ordini in modalità diverse. Le registrazioni e i dati master selezionati verranno aggiornati in base alla nuova categoria di registrazione articoli/servizi o a quella relativa agli articoli/servizi IVA. Se un ordine è stato spedito completamente o in parte, gli articoli spediti conserveranno la categoria di registrazione articoli/servizi o quella di articoli/servizi IVA corrente. Per gli articoli non spediti verrà creata una nuova riga ordine che verrà aggiornata in modo da corrispondere alle categorie di registrazione articoli/servizi o a quelle di articoli/servizi IVA correnti e nuove. Inoltre, verranno aggiornati di conseguenza le assegnazioni di addebito articoli, i modelli di configurazione per articoli, prenotazioni e le informazioni sulla tracciabilità degli articoli. 
 
@@ -55,7 +55,7 @@ Esistono alcuni elementi che lo strumento non converte:
 * Prezzi sui prezzi di vendita (anagrafica)
 * Categorie di registrazione business IVA per clienti e fornitori.
 
-### <a name="to-prepare-vat-rate-change-conversions"></a>Per preparare conversioni di modifica dell'aliquota IVA
+### Per preparare conversioni di modifica dell'aliquota IVA
 
 Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario effettuare le preparazioni riportate di seguito.
 
@@ -64,20 +64,20 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 * Per ridurre il numero di documenti che vengono convertiti, registrare il maggior numero di documenti possibile e ridurre al minimo quelli non registrati.  
 * Eseguire il backup dei dati.
 
-### <a name="to-set-up-the-vat-rate-change-tool"></a>Per impostare lo strumento di modifica dell'aliquota IVA
+### Per impostare lo strumento di modifica dell'aliquota IVA
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup modifiche aliquota IVA**, quindi scegli il collegamento correlato.  
 2. Nelle Schede dettaglio **Dati master**, **Registrazioni** e **Documenti** scegliere un valore della categoria registrazione dall'elenco di opzioni per i campi necessari. Per ciascun gruppo è possibile scegliere se convertire le categorie di registrazione di articoli e servizi IVA o le categorie di registrazione di articoli e servizi generali oppure convertire entrambi i valori se sono disponibili nell'elemento dati master. Per alcune aree è anche possibile impostare un filtro per convertire solo un sottoinsieme di valori, ad esempio i conti C/G. 
 3. Nella scheda dettaglio **Prezzi IVA inclusa**, scegliere i tipi di riga per gli ordini per i quali si desidera aggiornare i prezzi unitari. I prezzi unitari sulle righe di tipo articolo e risorsa verranno sempre aggiornati.
 
-### <a name="to-set-up-product-posting-group-conversion"></a>Per impostare la conversione delle categorie di registrazione prodotti
+### Per impostare la conversione delle categorie di registrazione prodotti
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup modifiche aliquota IVA**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup modifiche aliquota IVA** scegliere l'azione **Conv. cat. reg. art./serv. IVA** o **Conv. cat. reg. articolo/servizio**.  
 3. Nel campo **Da codice** immettere la categoria di registrazione corrente.  
 4. Nel campo **A codice** immettere la nuova categoria di registrazione.  
 
-### <a name="to-perform-vat-rate-change-conversion"></a>Per eseguire la conversione della modifica dell'aliquota IVA
+### Per eseguire la conversione della modifica dell'aliquota IVA
 
 È possibile utilizzare lo strumento di modifica aliquota IVA per gestire le modifiche nell'aliquota IVA standard. Vengono eseguite le conversioni della categoria di registrazione generale e dell'IVA per modificare le aliquote IVA e gestire il reporting IVA accurato. In base all'impostazione vengono apportate le modifiche seguenti:  
 
@@ -100,7 +100,7 @@ Prima di impostare lo strumento di modifica dell'aliquota IVA, è necessario eff
 > [!IMPORTANT]  
 > Dopo la conversione, il campo **Convertito** nella tabella **Movimento log modifiche aliquota IVA** è selezionato e il campo **Data convertita** nella tabella **Movimento log modifiche aliquota IVA** visualizza la data di conversione.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)  
 [Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  
