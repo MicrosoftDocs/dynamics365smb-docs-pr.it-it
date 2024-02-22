@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: troubleshooting
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/15/2023
+ms.date: 02/01/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -29,6 +29,10 @@ Se provi a utilizzare Copilot e viene visualizzato un errore simile a **Copilot 
 
 - Innanzitutto, assicurati che la funzionalità sia attivata nella pagina **Funzionalità di Copilot e IA**. [Scopri di più sull'attivazione delle funzionalità di Copilot e IA](enable-ai.md#activate-features). 
 - Successivamente, assicurati che l'informativa sulla privacy per l'integrazione di Azure OpenAI non sia impostata su **Non accetto per tutti**. Se lo è, impostala su **Accetto per tutti**. [Scopri di più sulle informative sulla privacy](privacy-notices-status.md).
+
+## Funzionalità di Copilot di Microsoft non elencate nella pagina Copilot e funzionalità IA
+
+Se nessuna delle funzionalità AI di Microsoft è mostrata nella pagina **Copilot e funzionalità IA**, è probabile che tu abbia una o più app incorporate installate nel tuo ambiente. Le app incorporate possono offrire le proprie funzionalità Copilot, ma le funzionalità pubblicate da Microsoft non sono compatibili con gli ambienti che dispongono di app incorporate.
 
 ## Vedere anche
 

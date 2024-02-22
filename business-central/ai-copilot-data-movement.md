@@ -11,7 +11,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="copilot-data-movement-across-geographies"></a>Spostamento dei dati di Copilot tra aree geografiche
+# Spostamento dei dati di Copilot tra aree geografiche 
 
 Copilot è disponibile in tutte le [aree geografiche/paesi di Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) supportati. Tuttavia, Copilot utilizza il servizio OpenAI di Microsoft Azure, attualmente disponibile per Business Central solo in alcune aree geografiche, ovvero Stati Uniti e Svizzera. Ciò significa che se il tuo ambiente si trova altrove, i dati delle funzionalità di Copilot e dell'IA generativa devono essere trasmessi al di fuori della tua area geografica e potrebbero essere elaborati e archiviati al di fuori dei limiti di conformità. I dati includono le richieste di IA e i dati aziendali utilizzati o generati da Copilot. In questo caso, devi fornire il consenso esplicito per spostare i dati in un servizio OpenAI di Azure in un'altra area geografica. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
@@ -23,7 +23,7 @@ Copilot è disponibile in tutte le [aree geografiche/paesi di Business Central](
 > 
 > Ogni funzionalità di Copilot e dell'intelligenza artificiale generativa di editori non Microsoft, come quelle originate da personalizzazioni o app AppSource installate, definisce le proprie aree geografiche specifiche del servizio OpenAI di Azure. Consulta l'editore dell'estensione per sapere quali servizi regionali di Azure sono usati dall'estensione. 
 
-### <a name="azure-openai-service-geographies"></a>Aree geografiche del servizio OpenAI di Azure
+### Aree geografiche del servizio OpenAI di Azure
 
 La tabella seguente mostra le aree geografiche del servizio OpenAI di Azure usate da Copilot, in base all'area geografica di un ambiente Business Central. Queste informazioni sono importanti quando si decide se acconsentire esplicitamente o meno allo spostamento dei dati tra aree geografiche. Puoi identificare l'area geografica di Azure per il tuo ambiente nell'interfaccia di amministrazione di Business Central, (vedi [Gestione di ambienti nell'interfaccia di amministrazione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
@@ -33,7 +33,7 @@ La tabella seguente mostra le aree geografiche del servizio OpenAI di Azure usat
 |Australia (sud-orientale)| Stati Uniti |Sì |
 |Brasile (meridionale) |Stati Uniti|Sì|
 |Canada (centrale, orientale)|Stati Uniti|Sì|
-|Europa (occidentale, settentrionale)| Svezia o Svizzera |Sì|
+|Europa (occidentale, settentrionale)| Svezia o Svizzera |No\*|
 |Francia (centrale, meridionale)| Svezia o Svizzera |Sì|
 |Germania (settentrionale, centro-occidentale)| Svezia o Svizzera |Sì|
 |India (centrale, meridionale)|Stati Uniti|Sì|
@@ -46,8 +46,10 @@ La tabella seguente mostra le aree geografiche del servizio OpenAI di Azure usat
 |Regno Unito (meridionale, occidentale)|Regno Unito|Sì|
 |Stati Uniti (centrali, orientali, centro-settentrionali, centro-meridionali, occidentali) |Stati Uniti|No|
 
+\* Per gli ambienti nelle regioni di Azure dell'Europa occidentale e dell'Europa settentrionale, Business Central acconsente automaticamente allo spostamento dei dati tra aree geografiche, ma gli amministratori possono scegliere di disattivarlo in qualsiasi momento.
+
 > [!NOTE]
-> Quando il servizio OpenAI di Azure diventa disponibile nell'area geografica di Business Central, il tuo ambiente inizierà a usare automaticamente il servizio OpenAI di Azure e il consenso esplicito non sarà più necessario e nemmeno possibile.  
+> Quando il servizio OpenAI di Azure diventa disponibile nell'area geografica di Business Central, il tuo ambiente inizierà a usare automaticamente il servizio OpenAI di Azure e il consenso esplicito non sarà più necessario e nemmeno possibile.
 <!--
 
 BC geos base on https://dynamics.microsoft.com/en-us/availability-reports/georeport/
@@ -107,6 +109,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## <a name="next-steps"></a>Passaggi successivi
+## Passaggi successivi
 
-Il consenso esplicito allo spostamento dei dati tra aree geografiche viene fornito nella pagina [Funzionalità di Copilot e IA](https://businesscentral.dynamics.com/?page=7775). Per ulteriori informazioni, vedi [Consentire lo spostamento di dati tra aree geografiche](enable-ai.md#allow-data-movement-across-geographies).
+Il consenso esplicito (o il rifiuto) allo spostamento dei dati tra aree geografiche viene fornito nella pagina [Funzionalità di Copilot e IA](https://businesscentral.dynamics.com/?page=7775). Per ulteriori informazioni, vedi [Consentire lo spostamento di dati tra aree geografiche](enable-ai.md#allow-data-movement-across-geographies).
