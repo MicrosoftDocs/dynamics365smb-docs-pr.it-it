@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Nei documenti acquisto e nelle registrazioni è possibile specificare un numero documento che fa riferimento al sistema di numerazione del fornitore. Utilizzare questo campo per registrare il numero assegnato dal fornitore all'ordine, alla fattura o alla nota di credito. Il numero potrà essere utilizzato per cercare la riga dopo che questa sia stata contabilizzata.

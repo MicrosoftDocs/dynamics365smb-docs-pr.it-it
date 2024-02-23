@@ -2,13 +2,14 @@
 title: Creare un ordine di vendita cliente e vendere i prodotti
 description: Descrive come creare un ordine di vendita per registrare l'accordo con un cliente per vendere o commercializzare prodotti secondo termini specifici.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Vendere prodotti con un ordine di vendita cliente
 
@@ -89,6 +90,12 @@ I movimenti contabili cliente e articolo sono ora creati nel sistema e l'ordine 
 ## Numero di documento esterni
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Utilizzo dei campi importo
+
+I valori nei campi che mostrano gli importi possono essere positivi o negativi, a seconda che il valore rappresenti un credito o un debito. Questo video mostra come usare i campi che mostrano gli importi.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Vedere anche
 

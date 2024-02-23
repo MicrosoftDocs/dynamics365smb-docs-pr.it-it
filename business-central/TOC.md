@@ -1560,6 +1560,7 @@ ms.service: dynamics-365-business-central
 #### [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)
 #### [Definire criteri di registrazione fattura per gli utenti](admin-setup-invoice-posting-policy.md)
 #### [Aggiornare le date dei documenti con le date di registrazione](across-link-doc-dates-to-posting-dates.md)
+#### [Visualizzare un avviso esaurimento scorte](sales-setup-show-stockout-warning.md)
 ### Impostare gli acquisti
 #### [Impostare gli acquisti](purchasing-setup-purchasing.md)
 #### [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)
