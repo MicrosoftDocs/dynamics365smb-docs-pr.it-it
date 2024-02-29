@@ -9,10 +9,10 @@ ms.date: 11/14/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="update-document-dates-with-posting-dates"></a>Aggiornamento delle date dei documenti con date di registrazione
+# Aggiornare le date dei documenti con le date di registrazione
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)
