@@ -2,20 +2,23 @@
 title: 'Dettagli di progettazione: Conti nella contabilità generale | Microsoft Docs'
 description: 'Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 06/08/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a>Dettagli di progettazione: Conti nella contabilità generale
+# Dettagli di progettazione: conti nella contabilità generale
+
 Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>Dai contabili inventario
+## Dai contabili inventario  
+
 Nella seguente tabella viene mostrata la relazione tra i diversi tipi di movimenti di valorizzazione magazzino e i conti e le contropartite nella contabilità generale.  
 
-|**Tipo mov. articolo**|**Tipo mov. valorizz.**|**Tipo scostamento**|**Costo previsto**|**Conto**|**Contropartita**|  
+|**Tipo mov. articolo**|**Tipo mov. valorizz.**|**Tipo scostamento**|**Costo previsto**|**Account**|**Contropartita**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
 |Acquisto|Costo diretto||Sì|Magazzino (Provvis.)|Conto ratei magaz. (provvis.)|  
 |Acquisto|Costo diretto||No|Magazzino|Costo diretto collegato|  
@@ -55,7 +58,8 @@ Nella seguente tabella viene mostrata la relazione tra i diversi tipi di movimen
 |Output assemblaggio|Scostamenti|Costi generali produzione|No|Magazzino|Scost. costi gen. mfg|  
 |Output assemblaggio|Arrotondamento||No|Magazzino|Rettifica magazzino|  
 
-## <a name="from-the-capacity-ledger"></a>Dal contabile capacità
+## Dal contabile capacità  
+
  Nella seguente tabella viene mostrata la relazione tra i diversi tipi di movimenti di valorizzazione capacità e i conti e le contropartite nella contabilità generale. I movimenti contabili capacità rappresentano il tempo di lavoro utilizzato nel lavoro di assemblaggio o di produzione.  
 
 |**Tipo di lavoro**|**Tipo mov. contabile capacità**|**Tipo mov. valorizz.**|**Conto**|**Contropartita**|  
@@ -63,20 +67,22 @@ Nella seguente tabella viene mostrata la relazione tra i diversi tipi di movimen
 |Assemblaggio|Risorsa|Costo diretto|Costo diretto collegato|Rettifica magazzino|  
 |Assemblaggio|Risorsa|Costo Indiretto|Costi generali collegati|Rettifica magazzino|  
 |Produzione|Centro di lavoro/Area di produzione|Costo Diretto|Conto WIP|Costo diretto collegato|  
-|Produzione|Centro di lavoro/Area di produzione|Costo Indiretto|Conto WIP|Costi generali collegati|  
+|Produzione|Centro di lavoro/Area di produzione|Costi indiretti|Conto WIP|Costi generali collegati|  
 
-## <a name="assembly-costs-are-always-actual"></a>I costi di assemblaggio sono sempre effettivi
+## I costi di assemblaggio sono sempre effettivi  
+
  Come illustrato nella tabella precedente, le registrazioni di assemblaggio non sono rappresentate nei conti provvisori. Questo perché il concetto di semilavorati (WIP) non si applica alla registrazione di output assemblaggio, a differenza della registrazione dell'output di produzione. I costi di assemblaggio vengono registrati solo come costo effettivo, mai come costo previsto.  
 
  Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md).  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Calcolo della quantità da registrare nella contabilità generale
+## Calcolo della quantità da registrare nella contabilità generale  
+
  I seguenti campi nella tabella **Movimenti valorizzazione** vengono utilizzati per calcolare l'importo del costo previsto che viene registrato nella contabilità generale:  
 
--   Importo costo (effettivo)  
--   Costo registrato in C/G  
--   Importo costo (previsto)  
--   Costo prev. registrato in C/G  
+- Importo costo (effettivo)  
+- Costo registrato in C/G  
+- Importo costo (previsto)  
+- Costo prev. registrato in C/G  
 
 Nella seguente tabella viene mostrato in che modo vengono calcolati gli importi da registrare nella contabilità generale per i due diversi tipi di costo.  
 
@@ -85,13 +91,13 @@ Nella seguente tabella viene mostrato in che modo vengono calcolati gli importi 
 |Costo effettivo|Importo Costo (Effettivo) - Costo Registrato in C/G|  
 |Costo previsto|Importo Costo (Previsto) - Costo Registrato in C/G|  
 
-## <a name="see-also"></a>Vedi anche
- [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
- [Dettagli di progettazione: Registrazione di magazzino](design-details-inventory-posting.md)   
- [Dettagli di progettazione: Registrazione del costo previsto](design-details-expected-cost-posting.md)  
- [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
- [Finanze](finance.md)  
- [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+## Vedere anche  
 
+[Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)  
+[Dettagli di progettazione: registrazione di magazzino](design-details-inventory-posting.md)  
+[Dettagli di progettazione: Registrazione del costo previsto](design-details-expected-cost-posting.md)  
+[Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
+[Finanze](finance.md)  
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
