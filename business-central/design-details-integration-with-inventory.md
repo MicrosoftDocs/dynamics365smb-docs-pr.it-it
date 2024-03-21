@@ -9,11 +9,11 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-integration-with-inventory"></a>Dettagli di progettazione: Integrazione con il magazzino
+# Dettagli di progettazione: Integrazione con il magazzino
 
 Le funzionalità Gestione warehouse e Magazzino interagiscono tra loro nell'inventario fisico e nella rettifica della warehouse o di magazzino.  
 
-## <a name="physical-inventory"></a>Inventario fisico
+## Inventario fisico  
 
 La pagina **Registrazioni Inventario Whse.** viene utilizzata con la pagina **Registrazioni inventario fis.** per tutte le ubicazioni warehouse avanzate. Il magazzino a livello di collocazione viene calcolato e viene stampato un elenco per l'impiegato warehouse. L'elenco indica quali elementi devono essere conteggiati in quali collocazioni.  
   
@@ -29,7 +29,7 @@ Quando si effettuano le registrazioni di inventario, vengono aggiornati il magaz
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## <a name="warehouse-adjustments-to-the-item-ledger"></a>Rettifiche di warehouse nel movimento contabile articolo
+## Rettifiche di warehouse nel movimento contabile articolo  
 
 La pagina **Registrazioni magazzino** e la funzione **Calcola rettifica whse** consentono di rettificare il magazzino nei movimenti magazzino conformemente a una rettifica che è stata eseguita sulla quantità di articoli in una collocazione warehouse. Per creare un collegamento tra il magazzino e la warehouse, è necessario definire una collocazione di rettifica predefinita per ubicazione.  
   
@@ -42,7 +42,7 @@ Per rettificare il contenuto collocazione, utilizza le registrazioni articoli wa
   
 Se si immette una quantità positiva e si registra la riga, il magazzino archiviato nella collocazione aumenta e la quantità della collocazione di rettifica predefinita diminuisce di conseguenza.  
   
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
 [Panoramica gestione del magazzino](design-details-warehouse-management.md)  
 [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)  

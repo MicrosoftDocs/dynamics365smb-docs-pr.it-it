@@ -10,13 +10,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="viewing-table-information"></a>Visualizzazione di Informazioni tabella
+# Visualizzazione di Informazioni tabella
 
 La pagina **8700 Informazioni sulla tabella** fornisce informazioni sul numero di record in tutte le tabelle di sistema e aziendali in [!INCLUDE[prod_short](includes/prod_short.md)] e quanti dati contiene ciascuna tabella.
 
 Queste informazioni sono utili per la risoluzione dei problemi di prestazioni, perché consente di vedere la distribuzione delle dimensioni dei dati tra le tabelle.
 
-## <a name="view-table-information"></a>Visualizzare le informazioni delle tabelle
+## Visualizzare le informazioni delle tabelle
 
 Per aprire questa pagina, seleziona l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Informazioni tabella**, quindi scegli il collegamento correlato.
 
@@ -41,7 +41,7 @@ La tabella seguente descrive le informazioni fornite per ciascuna tabella:
 > La pagina **Informazioni tabella** mostra le dimensioni dei dati e degli indici e la somma delle dimensioni delle tabelle non corrisponderà alla capacità totale utilizzata, poiché visualizza la dimensione dei dati e non la dimensione effettiva allocata. Lo spazio allocato è sempre maggiore dello spazio utilizzato per evitare di dover allocare spazio in ogni inserto, il che limiterebbe notevolmente le prestazioni
 
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Controllo di pagine](across-inspect-page.md)  
 [Articoli sulle prestazioni per gli sviluppatori](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

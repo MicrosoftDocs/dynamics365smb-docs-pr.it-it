@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari
+# Collegare i pagamenti automaticamente e riconciliare i conti correnti bancari
 È necessario riconciliare periodicamente i conti debiti, crediti e bancari collegando i pagamenti registrati nella banca alle relative fatture aperte non pagate e note di credito o altri movimenti aperti in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Questa operazione può essere eseguita nella pagina **Registrazione riconciliazione pagamenti**, ad esempio importando un file di rendiconto della banca o un feed per registrare rapidamente i pagamenti. I pagamenti sono collegati ai movimenti contabili aperti per clienti o fornitori in base alle corrispondenze tra il testo di pagamento e le informazioni del movimento. È possibile rivedere e modificare i collegamenti automatici prima di effettuare la registrazione. Quando si effettua la registrazione, è possibile scegliere di chiudere qualsiasi movimento contabile di conto corrente bancario aperto correlato ai movimenti contabili. Il conto bancario viene automaticamente riconciliato una volta che tutti i pagamenti sono collegati.
@@ -36,7 +36,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Collegare il testo sui pagamenti a specifici conti cliente, fornitore o di contabilità generale per registrare sempre incassi o spese ricorrenti in tali conti quando non esistono documenti da applicare. |[Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Impostare le regole per stabilire in che modo i pagamenti e le transazioni bancarie devono essere collegati automaticamente ai relativi movimenti contabili aperti quando si utilizza la funzione **Collega automaticamente** nella pagina **Registrazione riconciliazione pagamenti**.|[Impostare le regole per il collegamento automatico dei pagamenti](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  

@@ -9,7 +9,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-shop-calendars"></a>Impostare i calendari del reparto produzione
+# Impostare i calendari del reparto produzione
 
 In un calendario delle aree di produzione o dei centri di lavoro sono specificati i giorni e gli orari lavorativi, i turni, le ferie e le assenze che determinano la capacità lorda disponibile dell'area o del centro, misurata in tempo, sulla base dei valori definiti per l'efficienza e la capacità di tale area o centro.
 
@@ -17,7 +17,7 @@ Come base per il calcolo di un calendario specifico delle aree di produzione o d
 
 Di seguito viene descritto come impostare i calendari delle aree di produzione. I passaggi sono gli stessi della procedura per l'impostazione dei calendari dei centri di lavoro.  
 
-## <a name="to-create-work-shifts"></a>Per creare turni lavorativi
+## Per creare turni lavorativi  
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Turni lavorativi**, quindi scegli il collegamento correlato.  
 2.  In una riga vuota immettere un numero nel campo **Codice** per identificare il turno lavorativo, ad esempio **1**.  
 3.  Descrivere il turno lavorativo nel campo **Descrizione**, ad esempio **1mo Turno**.  
@@ -25,7 +25,7 @@ Di seguito viene descritto come impostare i calendari delle aree di produzione. 
 
 Anche se nelle aree di produzione specificate non vengono effettuati turni diversi, immettere almeno un codice di turno lavorativo.  
 
-## <a name="to-set-up-a-shop-calendar"></a>Per impostare un calendario reparto prod.
+## Per impostare un calendario reparto prod.  
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Calendari reparto prod.**, quindi scegli il collegamento correlato.  
 2.  In una riga vuota immettere un numero nel campo **Codice** per identificare il calendario reparto prod.  
 3.  Nel campo **Descrizione** immettere una descrizione del calendario.  
@@ -59,7 +59,7 @@ La capacità disponibile per le ferie definite sarà pari a zero in un calendari
 
 È ora possibile assegnare il calendario reparto prod. a un'area di produzione per calcolare il calendario reparto prod. su cui sarà basata la pianificazione di tutte le operazioni in tale area di produzione.  
 
-## <a name="to-calculate-a-work-center-calendar"></a>Per calcolare un calendario aree di produzione
+## Per calcolare un calendario aree di produzione  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Aree di produzione**, quindi scegli il collegamento correlato.
 2. Aprire l'area di produzione che si desidera aggiornare.  
@@ -87,7 +87,7 @@ Vengono ora creati o aggiornati i movimenti di calendario, in cui viene visualiz
 
 Il calendario calcolato dell'area di produzione definirà ora quando e quanta capacità è disponibile in quest'area di produzione. Ciò controlla la pianificazione dettagliata delle operazioni eseguite nell'area di produzione.  
 
-## <a name="to-record-work-center-absence"></a>Per registrare un'assenza dell'area di produzione
+## Per registrare un'assenza dell'area di produzione  
 1.  Nella pagina **Calendario aree di prod.**, scegliere l'azione **Mostra matrice**.
 2. Nella pagina **Matrice calendario aree di prod.** selezionare l'area di produzione e il giornio di calendario in cui registrare l'orario di assenza, quindi scegliere l'azione **Assenze**.  
 3.  Nella pagina **Assenze** definire l'ora di inizio, l'ora di fine e la descrizione dell'assenza relativa al giorno specificato. Ad esempio:  
@@ -98,7 +98,7 @@ Il calendario calcolato dell'area di produzione definirà ora quando e quanta ca
 
 La capacità del giorno selezionato risulta ora diminuita in base al tempo di assenza registrato.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 [Impostare i calendari di base](across-how-to-assign-base-calendars.md)  
 [Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

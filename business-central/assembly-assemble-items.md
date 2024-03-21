@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-management"></a>Gestione assemblaggio
+# Gestione assemblaggio
 
 Le società possono fornire prodotti ai clienti combinando componenti senza utilizzare le funzionalità di produzione. Le funzionalità per l'assemblaggio degli articoli si integrano con funzionalità correlate come vendite, pianificazione, impegni e warehouse.  
 
@@ -52,7 +52,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Scopri come lavorare con le distinte base di assemblaggio e le principali differenze rispetto alle distinte base di produzione.|[Usare le distinte base assemblaggio](assembly-how-work-assembly-boms.md)|
 |Informazioni sulla registrazione del consumo e dell'output di assemblaggio e su come [!INCLUDE [prod_short](includes/prod_short.md)] distribuisce i costi degli articoli e delle risorse nella contabilità generale.|[Dettagli di progettazione: registrazione dell'ordine di assemblaggio](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Usare le distinte base](inventory-how-work-BOMs.md)  
 [Inventario](inventory-manage-inventory.md)  

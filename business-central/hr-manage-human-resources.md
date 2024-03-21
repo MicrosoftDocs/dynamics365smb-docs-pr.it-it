@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-human-resources"></a>Gestione personale
+# Gestione personale
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile conservare record dettagliati degli impiegati. È possibile registrare informazioni sugli impiegati, ad esempio contratti di impiego, informazioni riservate, qualifiche e contratti di impiegati ed eseguirne la manutenzione.
 
@@ -25,7 +25,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Registrare i nuovi impiegati o modificare i record per gli impiegati esistenti e allegare informazioni correlate, ad esempio contratti e articoli. |[Registrare i dipendenti](hr-how-register-employees.md) |
 | Registrare le assenze degli impiegati e visualizzare statistiche di assenza in base a vari filtri. |[Gestire le assenze di un impiegato](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Finanze](finance.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

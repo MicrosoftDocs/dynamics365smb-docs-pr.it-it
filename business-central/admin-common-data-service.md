@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="integrate-with-microsoft-dataverse-via-data-sync"></a>Integrazione con Microsoft Dataverse tramite la sincronizzazione dei dati
+# Integrazione con Microsoft Dataverse tramite la sincronizzazione dei dati
 
 Le app aziendali utilizzano spesso dati provenienti da più di un'origine. [!INCLUDE[prod_short](includes/cds_long_md.md)] combina i dati in un unico set di logica che semplifica la connessione di [!INCLUDE[prod_short](includes/prod_short.md)] ad altre applicazioni Dynamics 365. Ad esempio, [!INCLUDE[crm_md](includes/crm_md.md)] o la tua applicazione basata su [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per ulteriori informazioni su [!INCLUDE[prod_short](includes/cds_long_md.md)], vai a [Cos'è Dataverse?](/powerapps/maker/common-data-service/data-platform-intro).
 
@@ -25,19 +25,19 @@ I passaggi seguenti forniscono una panoramica delle operazioni per l'integrazion
 
 3. Sincronizzazione i dati tra le app. Per ulteriori informazioni, vedere [Sincronizzazione di Business Central e Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="get-started-with-"></a>Introduzione a [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Introduzione a [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Per iniziare con [!INCLUDE[prod_short](includes/cds_long_md.md)] avrai bisogno di un account Microsoft Power Apps. Se non hai già un account Power Apps, puoi ottenerne uno gratuitamente visitando [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) e scegliendo il collegamento **Inizia gratis**. Per saperne di più su come iniziare con [!INCLUDE[prod_short](includes/cds_long_md.md)], vai a [Introduzione a Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) del training Microsoft.
 
-## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Sincronizzazione dei dati bidirezionale o unidirezionale
+## Sincronizzazione dei dati bidirezionale o unidirezionale
 
 Puoi sincronizzare i dati da o verso un'app aziendale di Dynamics 365 a un'altra, o in entrambe le direzioni in tempo quasi reale tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ad esempio, se si integra [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[crm_md](includes/crm_md.md)], un venditore può creare un ordine cliente in [!INCLUDE[crm_md](includes/crm_md.md)] e l'ordine verrà sincronizzato con [!INCLUDE[prod_short](includes/prod_short.md)]. Al contrario, da [!INCLUDE[crm_md](includes/crm_md.md)], il venditore può verificare la disponibilità dell'articolo nell'ordine in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-## <a name="standard-and-custom-entities"></a>Entità standard e personalizzate
+## Entità standard e personalizzate
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] archivia in modo sicuro i dati in un set di tabelle, che sono insiemi di record simili a come una tabella archivia i dati all'interno di un database. [!INCLUDE[prod_short](includes/cds_long_md.md)] include un set di base di tabelle standard che coprono scenari tipici, ma puoi anche creare tabelle personalizzate specifiche per la tua organizzazione. In [!INCLUDE[prod_short](includes/prod_short.md)], puoi visualizzare le tabelle standard e personalizzate sincronizzate nella pagina Mapping tabella integrazione.
 
-## <a name="about-the-business-central-base-integration-solution"></a>Informazioni sulla soluzione di integrazione di base di Business Central
+## Informazioni sulla soluzione di integrazione di base di Business Central
 
 La soluzione di integrazione di base è un componente chiave dell'integrazione. La soluzione aggiunge i ruoli obbligatori e i livelli di accesso agli account utente per l'integrazione e crea tabelle necessarie per mappare la società [!INCLUDE[prod_short](includes/prod_short.md)] a unità di business in [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
@@ -56,7 +56,7 @@ Oltre alla personalizzazione di [!INCLUDE [cds_long_md](includes/cds_long_md.md)
 
 Durante la configurazione della connessione, crei i mapping della tabella di integrazione necessari per sincronizzare i dati. Le entità in [!INCLUDE[prod_short](includes/cds_long_md.md)] vengono mappate a tabelle e campi di tabella in [!INCLUDE [prod_short](includes/prod_short.md)] tramite tabelle di integrazione. Per ulteriori informazioni sui mapping, vai a [Mapping di entità standard per la sincronizzazione](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="handle-differences-in-local-and-base-transaction-currencies"></a>Gestisci le differenze nelle valute di transazione locali e di base
+## Gestisci le differenze nelle valute di transazione locali e di base
 
 Puoi connetterti a un ambiente [!INCLUDE[prod_short](includes/cds_long_md.md)] che ha una valuta di base diversa dalla valuta locale in [!INCLUDE[prod_short](includes/prod_short.md)]. Puoi effettuare la connessione in [!INCLUDE[prod_short](includes/prod_short.md)] nella pagina **Configurazione connessione Dataverse** o utilizzando la guida alla configurazione assistita **Configura connessione a Dataverse**.
 
@@ -71,7 +71,7 @@ La sincronizzazione della valuta è unidirezionale, da [!INCLUDE [prod_short](in
 * Gli importi nella valuta di base [!INCLUDE[prod_short](includes/cds_long_md.md)] vengono convertiti nella valuta locale [!INCLUDE [prod_short](includes/prod_short.md)] in base all'ultimo tasso di cambio sincronizzato da [!INCLUDE [prod_short](includes/prod_short.md)].
 * Gli importi nella valuta locale [!INCLUDE [prod_short](includes/prod_short.md)] si sincronizzano con la valuta locale [!INCLUDE [prod_short](includes/prod_short.md)] in una delle altre valute (non di base) in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Modelli di proprietà dei dati](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->

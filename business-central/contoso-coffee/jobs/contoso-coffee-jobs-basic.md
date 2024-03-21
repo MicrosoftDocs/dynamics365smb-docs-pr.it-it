@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Procedura dettagliata di commesse di base
+# Procedura dettagliata di commesse di base
 
 Questa procedura dettagliata illustra diversi processi principali:
 
@@ -16,13 +16,13 @@ Questa procedura dettagliata illustra diversi processi principali:
 - Registrazione del tempo e delle spese materiali per una commessa
 - Fatturazione di una commessa
 
-## <a name="adding-a-job-task-to-a-job"></a>Aggiunta di una task commessa a una commessa
+## Aggiunta di una task commessa a una commessa
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 
 Simon, il project manager, vuole registrare il tempo dedicato alla formazione del cliente sull'uso di una macchina per caffè espresso in una task distinta nella commessa per l'installazione di una macchina commerciale in loco.
 
-### <a name="steps"></a>Passaggi
+### Passaggi
 
 1. Crea la task commessa  
 
@@ -38,17 +38,17 @@ Simon, il project manager, vuole registrare il tempo dedicato alla formazione de
    1. Nell'area Task, individua l'azione **Indenta task commesse**
    2. Conferma di voler indentare le task selezionando **Sì**.
 
-### <a name="results"></a>Risultati
+### Risultati
 
  - Ora puoi registrare tempi e spese nella nuova task commessa
 
-## <a name="record-time-and-material-expenses-to-a-job"></a>Registrare tempo e spese materiali per una commessa
+## Registrare tempo e spese materiali per una commessa
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 
 Edgin, il tecnico che installa la macchina, deve registrare il tempo impiegato e i materiali utilizzati durante l'installazione della commessa per la fatturazione.  Ha già aggiunto il viaggio e i materiali e ora deve aggiungere il tempo per formare il personale all'uso della macchina.
 
-### <a name="steps-1"></a>Passaggi
+### Passaggi
 
 1. Crea righe di registrazioni commesse aggiuntive
 
@@ -64,19 +64,19 @@ Edgin, il tecnico che installa la macchina, deve registrare il tempo impiegato e
    1. Scegli l'azione **Registra**
    2. Conferma di voler registrare le righe selezionando **Sì**.
 
-### <a name="results-1"></a>Risultati
+### Risultati
 
  - Verranno creati movimenti contabili commesse e movimenti contabili risorse di tipo *Utilizzo*
  - Verranno creati movimenti contabili articoli per rettificare negativamente l'inventario
  - Nella scheda commessa, i costi e i prezzi nell'area Task rifletteranno i nuovi saldi in attesa di fatturazione
  - Nella scheda commessa, la casella Dettagli commessa rifletterà i totali dei prezzi
 
-## <a name="creating-a-sales-invoice-for-a-job"></a>Creazione di una fattura di vendita per una commessa
+## Creazione di una fattura di vendita per una commessa
 
-### <a name="scenario-2"></a>Scenario
+### Scenario  
 Simon deve creare e registrare una fattura da inviare al cliente con il tempo e le spese relativi alla commessa.
 
-### <a name="steps-2"></a>Passaggi
+### Passaggi
 1. Crea la fattura di vendita
 
     1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
@@ -89,7 +89,7 @@ Simon deve creare e registrare una fattura da inviare al cliente con il tempo e 
    2. Seleziona l'ultima fattura per aprirla per la revisione.
    3. Scegli l'azione **Registra**.
 
-### <a name="results-2"></a>Risultati
+### Risultati
 
  - Verranno creati movimenti contabili commesse e movimenti contabili risorse di tipo *Vendita*
  - Nella scheda commessa, i costi e i prezzi nell'area Task rifletteranno i nuovi saldi fatturati
