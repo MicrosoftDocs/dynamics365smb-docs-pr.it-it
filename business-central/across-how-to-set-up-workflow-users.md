@@ -10,7 +10,7 @@ ms.date: 05/31/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Impostare una sequenza di utenti del workflow
+# <a name="set-up-a-sequence-of-workflow-users"></a>Impostare una sequenza di utenti del workflow
 
 Prima di poter creare i workflow di approvazione, devi impostare gli utenti che invieranno le richieste e i relativi responsabili dell'approvazione. Ad esempio, puoi specificare chi riceverà una notifica per agire in una fase workflow. I partecipanti del workflow di approvazione vengono impostati nella pagina **Setup utente approvazione**. Ulteriori informazioni in [Impostare utenti per l'approvazione](across-how-to-set-up-approval-users.md).
 
@@ -18,7 +18,7 @@ Nella pagina **Gruppi utenti del workflow**, puoi specificare dove un partecipan
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## Per impostare un gruppo del workflow
+## <a name="to-set-up-a-workflow-user-group"></a>Per impostare un gruppo del workflow
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi di utenti del workflow**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo**. Viene visualizzata la pagina **Gruppo di utenti del workflow**.  
@@ -33,7 +33,7 @@ Nella pagina **Gruppi utenti del workflow**, puoi specificare dove un partecipan
 
 6. Ripetere il passaggio 5 per aggiungere altri utenti del workflow nel gruppo utenti.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Configurare i workflow di approvazione](across-set-up-workflows.md)  

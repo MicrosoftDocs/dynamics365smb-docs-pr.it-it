@@ -9,13 +9,13 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Estensioni per Business Central fornite da altri provider
+# <a name="business-central-extensions-by-other-providers"></a>Estensioni per Business Central fornite da altri provider
 
 In [AppSource.microsoft.com](https://appsource.microsoft.com/), è possibile ottenere estensioni per [!INCLUDE[prod_short](includes/prod_short.md)]. Alcune estensioni sono fornite da Microsoft, altre sono fornite da altre società. Per le estensioni non fornite da Microsoft, facciamo riferimento ai siti Web di queste società per maggiori informazioni. È possibile trovare queste informazioni all'indirizzo [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 La lista delle estensioni di altre società aumenta ogni mese. Seguire gli aggiornamenti sulla disponibilità delle estensioni tramite il sito Web [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) e scaricare app per semplificare il proprio lavoro in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando le estensioni](ui-extensions.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  

@@ -9,7 +9,7 @@ ms.date: 05/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Dettagli di progettazione: Metodi di costing
+# <a name="design-details-costing-methods"></a>Dettagli di progettazione: Metodi di costing
 
 Il metodo di costing determina se un valore effettivo o a budget viene capitalizzato e utilizzato nel calcolo dei costi. Insieme alla data e alla sequenza di registrazione, il metodo di costing influisce anche sul modo in cui viene registrato il flusso dei costi.
 
@@ -48,7 +48,7 @@ I metodi di costing differiscono in modo da valorizzare le riduzioni di magazzin
 |**Standard**     |Semplice da utilizzare, ma richiede la manutenzione qualificata.|Il collegamento tiene traccia della **quantità residua**.<br /><br /> Il collegamento è basato su FIFO.|Rivaluta le quantità fatturate e non fatturate.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata a ritroso.|Utilizzare la pagina **Prospetto standard** per aggiornare e riepilogare periodicamente i costi standard.<br /><br /> NON è supportata per USK.<br /><br /> Nessun record storico esistente per i costi standard.|
 |**Specifico**     |Richiede la tracciabilità articolo sia sulla transazione in entrata che sulla transazione in uscita.<br /><br /> Viene solitamente utilizzato per gli articoli serializzati.|Tutti i collegamenti sono fissi.|Rivaluta solo la quantità fatturata.<br /><br /> Può essere eseguita per articolo oppure per movimento contabile articolo.<br /><br /> Può essere effettuata a ritroso.|È possibile utilizzare la tracciabilità articolo specifico senza utilizzare il metodo di costing Specifico. Il costo quindi non seguirà il numero di lotto, ma l'ipotesi di costo del metodo di costing selezionato.|
 
-## Esempio
+## <a name="example"></a>Esempio
 
 In questa sezione vengono forniti esempi di come i differenti metodi di costing influiscono sul valore di magazzino.  
 
@@ -66,7 +66,7 @@ Nella seguente tabella vengono mostrati gli aumenti e le riduzioni di magazzino 
 > [!NOTE]  
 > La quantità risultante in magazzino è pari a zero. Di conseguenza, il valore di magazzino deve essere zero, indipendentemente dal metodo di costing.  
 
-### Effetto dei metodi di costing sulla valutazione degli aumenti di magazzino  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effetto dei metodi di costing sulla valutazione degli aumenti di magazzino
 
 Per gli articoli con i metodi di costing che utilizzano il costo effettivo come base di valutazione (**FIFO**, **LIFO**, **Medio** o **Specifico**), gli aumenti in magazzino sono stimati come costo di acquisto dell'articolo.  
 
@@ -74,11 +74,11 @@ Per gli articoli con i metodi di costing che utilizzano il costo effettivo come 
 
     Per gli articoli che utilizzano il metodo di costing **Standard**, gli aumenti di magazzino vengono valutati in base al costo standard corrente dell'articolo.  
 
-#### Standard  
+#### <a name="standard"></a>Standard
 
 Per gli articoli che utilizzano il metodo di costing **Standard**, gli aumenti di magazzino vengono valutati in base al costo standard corrente dell'articolo.  
 
-### Effetto dei metodi di costing sulla valutazione delle riduzioni di magazzino
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effetto dei metodi di costing sulla valutazione delle riduzioni di magazzino
 
 - **FIFO**  
 
@@ -146,7 +146,7 @@ Per gli articoli che utilizzano il metodo di costing **Standard**, gli aumenti d
     |03-01-20|-1|-10,00|**1**|5|  
     |04-01-20|-1|-30,00|**3**|6|  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)  
 [Dettagli di progettazione: scostamento](design-details-variance.md)  

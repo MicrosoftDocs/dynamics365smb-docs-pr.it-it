@@ -11,10 +11,10 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Rivalutare il magazzino
+# <a name="revalue-inventory"></a>Rivalutare il magazzino
 Per rivalutare o ammortizzare un determinato articolo o movimento contabile articolo, è necessario utilizzare le registrazioni rivalutazioni.
 
-## Per rivalutare il magazzino
+## <a name="to-revalue-inventory"></a>Per rivalutare il magazzino
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni rivalutazioni**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Calcola valore magazzino**.
 3. Nella pagina **Calcola valore magazzino** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -26,7 +26,7 @@ Per rivalutare o ammortizzare un determinato articolo o movimento contabile arti
 
 Vengono a questo punto creati i nuovi movimenti di valorizzazione che riflettono le rivalutazioni registrate. È possibile visualizzare i nuovi valori nelle rispettive schede articolo.
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 [Dettagli di progettazione: Rivalutazione](design-details-revaluation.md)  
 [Magazzino](inventory-manage-inventory.md)  
 [Vendite](sales-manage-sales.md)  

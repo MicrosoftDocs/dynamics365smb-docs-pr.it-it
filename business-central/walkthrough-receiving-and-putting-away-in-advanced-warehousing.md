@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Procedura dettagliata - Ricezione e stoccaggio nelle configurazioni di warehouse avanzate
+# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Procedura dettagliata - Ricezione e stoccaggio nelle configurazioni di warehouse avanzate
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -26,7 +26,7 @@ Per ulteriori informazioni vedi [Flusso warehouse in entrata](design-details-inb
 
 Nella seguente procedura dettagliata viene dimostrato il metodo D nella tabella precedente.  
 
-## Informazioni sulla procedura dettagliata
+## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
 
 Nelle configurazioni di warehouse avanzate in cui un'ubicazione è impostata in modo da richiedere l'elaborazione di carichi oltre all'elaborazione di stoccaggi, utilizzare la pagina **Carico warehouse** per registrare e contabilizzare il carico di articoli su più ordini in entrata. Quando il carico warehouse è registrato, viene creato uno o più documenti di stoccaggio warehouse per istruire gli addetti warehouse sulla ricezione e lo stoccaggio degli articoli ricevuti nelle aree definite in base alla collocazione stabilita o in altre collocazioni. L'ubicazione specifica degli articoli viene registrata quando viene registrato lo stoccaggio warehouse. Il documento di origine in entrata può essere un ordine di acquisto, un ordine di reso da vendita, un ordine di trasferimento in entrata, un assemblaggio o un ordine di produzione il cui output è pronto per lo stoccaggio. Se il carico viene creato per un ordine in entrata, più di un documento di origine in entrata può essere recuperato per il carico. Utilizzando questo metodo è possibile registrare più articoli in arrivo da ordini in entrata diversi con un carico.  
 
@@ -37,7 +37,7 @@ In questa procedura dettagliata sono illustrati i task seguenti:
 -   Creazione e registrazione di un documento di carico warehouse per più righe di ordini di acquisto da fornitori specifici.  
 -   Registrazione dello stoccaggio warehouse per gli articoli ricevuti.  
 
-## Ruoli
+## <a name="roles"></a>Ruoli
 
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
 
@@ -46,7 +46,7 @@ Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:
 -   Personale di ricezione  
 -   Lavoro warehouse  
 
-## Prerequisiti
+## <a name="prerequisites"></a>Prerequisiti
 
 Per completare questa procedura dettagliata, sarà necessario:  
 
@@ -58,15 +58,15 @@ Per completare questa procedura dettagliata, sarà necessario:
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
 4.  Selezionare il campo **Default**.  
 
-## Scenario
+## <a name="story"></a>Scenario
 
 Ellen, responsabile warehouse presso CRONUS, crea due ordini di acquisto per articoli relativi agli accessori dai fornitori 10000 e 20000 che devono essere consegnati al magazzino BIANCO. Quando le consegne giungono alla warehouse, Sammy, responsabile della ricezione degli articoli dai fornitori 10000 e 20000, utilizza un filtro per creare righe di carico per gli ordini di acquisto che arrivano dai due fornitori. Sammy registra gli articoli ricevuti nel magazzino in un carico warehouse e li mette a disposizione per la vendita o altre richieste. John, il lavoratore warehouse, prende gli articoli dalla collocazione di ricevimento e li stocca. John stocca tutte le unità nelle proprie collocazioni di default, eccetto 40 su 100 cerniere ricevute durante lo stoccaggio nel reparto di assemblaggio suddividendo la riga di stoccaggio. Quando John registra lo stoccaggio, il contenuto delle collocazioni viene aggiornato e gli articoli vengono resi disponibili per il prelievo dalla warehouse.  
 
-## Verifica dell'impostazione dell'ubicazione BIANCA
+## <a name="reviewing-the-white-location-setup"></a>Verifica dell'impostazione dell'ubicazione BIANCA
 
 L'impostazione della pagina **Scheda Ubicazione** definisce i flussi della warehouse della società.  
 
-### Per rivedere l'impostazione dell'ubicazione  
+### <a name="to-review-the-location-setup"></a>Per rivedere l'impostazione dell'ubicazione
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2.  Aprire la scheda ubicazione BIANCA.  
@@ -78,11 +78,11 @@ L'impostazione della pagina **Scheda Ubicazione** definisce i flussi della wareh
 
 Ciò significa che quando si crea un carico warehouse, il codice collocazione viene copiato nell'intestazione del documento di carico warehouse per impostazione di default e nelle righe degli stoccaggi warehouse risultanti.  
 
-## Creazione degli ordini di acquisto
+## <a name="creating-the-purchase-orders"></a>Creazione degli ordini di acquisto
 
 Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.  
 
-### Per creare gli ordini di acquisto  
+### <a name="to-create-the-purchase-orders"></a>Per creare gli ordini di acquisto
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
@@ -111,11 +111,11 @@ Gli ordini di acquisto sono il tipo più comune di documenti origine in entrata.
 
     Le consegne degli articoli dai fornitori 10000 e 20000 sono arrivate alla warehouse BIANCO e Sammy inizia per elaborare le ricezioni di acquisto.  
 
-## Ricezione degli articoli
+## <a name="receiving-the-items"></a>Ricezione degli articoli
 
 Nella pagina **Carico warehouse** è possibile gestire più ordini in entrata per i documenti di origine, ad esempio un ordine di acquisto.  
 
-### Per ricevere gli articoli  
+### <a name="to-receive-the-items"></a>Per ricevere gli articoli
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Carichi warehouse**, quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**.  
 3.  Nel campo **Codice ubicazione** immettere BIANCO:  
@@ -130,12 +130,12 @@ Nella pagina **Carico warehouse** è possibile gestire più ordini in entrata pe
 
     I movimenti contabili articoli positivi vengono creati sulla base delle ricezioni acquisti registrate di accessori da fornitori 10000 e 20000 e gli articoli sono pronti per lo stoccaggio nella warehouse dalla collocazione di carico.  
 
-## Stoccaggio di articoli
+## <a name="putting-the-items-away"></a>Stoccaggio di articoli
 
 Nella pagina **Stoccaggio warehouse** è possibile gestire gli stoccaggi per uno specifico documento warehouse di carico che copre più documenti di origine. Come in tutti i documenti di attività di warehouse, ogni articolo nello stoccaggio nella warehouse è rappresentato da una riga Prendere e da una riga Mettere. Nella procedura riportata di seguito, il codice di collocazione nelle righe Prendere è la collocazione di ricevimento di default presso l'ubicazione BIANCA, W-08-0001.  
 
 
-### Per stoccare gli articoli  
+### <a name="to-put-the-items-away"></a>Per stoccare gli articoli
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi**, quindi scegli il collegamento correlato.  
 2.  Selezionare l'unico documento di stoccaggio warehouse nell'elenco e scegliere l'azione **Modifica**.  
 
@@ -156,7 +156,7 @@ Nella pagina **Stoccaggio warehouse** è possibile gestire gli stoccaggi per uno
 
     Gli accessori ricevuti vengono a questo punto stoccati nelle collocazioni di default degli articoli e 40 cerniere vengono collocate nel reparto di assemblaggio. Gli articoli ricevuti sono ora disponibili per essere prelevati a seconda delle richieste interne, ad esempio gli ordini di assemblaggio, o delle richieste esterne, ad esempio le spedizioni vendite.  
 
-## Vedi anche  
+## <a name="see-also"></a>Vedi anche
  [Eseguire lo stoccaggio con Stoccaggi warehouse:](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Spostare articoli in configurazioni di warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md)   

@@ -9,15 +9,15 @@ ms.date: 09/07/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Utilizzare i dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
+# <a name="work-with--data-in-power-bi"></a>Utilizzare i dati di [!INCLUDE [prod_short](includes/prod_short.md)] in Power BI
 
 In questo articolo vengono illustrate alcune delle nozioni di base sull'utilizzo di report e dashboard in Power BI che usa [!INCLUDE [prod_short](includes/prod_short.md)] come origine dati. L'articolo discute alcuni aspetti che aiuteranno a iniziare come utente di [!INCLUDE[prod_short](includes/prod_short.md)]. Per le linee guida generali e le istruzioni sull'uso di Power BI, vedi la [documentazione di Power BI per i consumatori](/power-bi/consumer).
 
-## Preparazione
+## <a name="get-ready"></a>Preparazione
 
 Iscriversi al servizio Power BI. Se non si è già registrati andare a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Quando ci si registra, utilizzare un indirizzo e-mail e una password di lavoro.
 
-## Inizia
+## <a name="get-started"></a>Inizia
 
 Una volta che l'account Power BI è disponibile è possibile accedere a [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
@@ -29,21 +29,21 @@ Con [!INCLUDE[prod_short](includes/prod_short.md)] online, viene automaticamente
 
 Se si sta usando [!INCLUDE[prod_short](includes/prod_short.md)] locale è necessario iniziare da zero utilizzando Power BI Desktop. Facoltativamente, i report Power BI possono essere distribuiti come file, che è possibile caricare.
 
-## Ottenere i dati più recenti
+## <a name="get-the-latest-data"></a>Ottenere i dati più recenti
 
 Ogni report Power BI si basa su un set di dati che ottiene i dati dalle origini [!INCLUDE[prod_short](includes/prod_short.md)]. Si desidera assicurarsi che i dati nel report Power BI siano aggiornati con i dati in [!INCLUDE[prod_short](includes/prod_short.md)]. Questo concetto è definito *aggiornamento*.  A seconda di come è stata configurata l'organizzazione Power BI, l'aggiornamento potrebbe non avvenire automaticamente. Esistono due modi per aggiornare i dati: manualmente o pianificando un aggiornamento. L'aggiornamento manuale viene eseguito su richiesta, se necessario. L'aggiornamento pianificato consente di aggiornare automaticamente a intervalli di tempo definiti.
 
-### Aggiornare manualmente
+### <a name="refresh-manually"></a>Aggiornare manualmente
 
 Nel riquadro di spostamento, sotto **Set di dati**, selezionare **Altre opzioni (...)** accanto al set di dati, quindi selezionare **Aggiorna ora**.
 
-### Pianificare un aggiornamento
+### <a name="schedule-a-refresh"></a>Pianificare un aggiornamento
 
 Nel riquadro di spostamento, sotto Set di dati, selezionare Altre opzioni (...) accanto al set di dati, quindi selezionare **Pianifica aggiornamento**. Compilare le informazioni sotto la sezione **Pianifica aggiornamento** e selezionare **Applica**.
 
 Per ulteriori informazioni, vedere [Configurare l'aggiornamento pianificato](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="upload"></a>Caricare report da file
+## <a name="upload-reports-from-files"></a><a name="upload"></a>Caricare report da file
 
 I report Power BI possono essere distribuiti tra gli utenti come file .pbix. Se è disponibile un file .pbix è possibile caricare il file in un'area di lavoro. Per caricare un report, procedere nel seguente modo:
 
@@ -61,7 +61,7 @@ Per ulteriori informazioni, vedere [Caricare il report nel servizio](/power-bi/p
 > [!TIP]
 > Se si sta usando [!INCLUDE[prod_short](includes/prod_short.md)] online, è possibile anche caricare un report da [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Utilizzare i report Power BI in [!INCLUDE [prod_short](includes/prod_short.md)] - Caricare report](across-working-with-powerbi.md#upload).
 
-## <a name="share"></a>Condividere i report con altri
+## <a name="share-reports-with-others"></a><a name="share"></a>Condividere i report con altri
 
 Una volta che un report si trova nell'area di lavoro, è possibile condividerlo con altri nell'organizzazione.
 
@@ -70,7 +70,7 @@ Per condividere un report, in un rapport di elenco o in un rapporto aperto, sele
 > [!NOTE]
 > È necessario avere una [licenza Power BI Pro](/power-bi/service-features-license-type) per se e per le persone con cui si condivide. Il contenuto deve trovarsi in un'area di lavoro con una [capacità premium](/power-bi/service-premium-what-is). Per ulteriori informazioni, vedere [In che modo condividere il tuo lavoro in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Business Central e Power BI](admin-powerbi.md)  
 [Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  

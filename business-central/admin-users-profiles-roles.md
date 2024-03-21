@@ -10,7 +10,7 @@ ms.date: 01/11/2023
 ms.custom: bap-template
 ms.search.form: 9171
 ---
-# Gestire profili utente
+# <a name="manage-user-profiles"></a>Gestire profili utente
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -34,11 +34,11 @@ Per ulteriori informazioni sulle impostazioni utente e sulle Gestioni ruolo uten
 
 Prima di poter amministrare i profili degli utenti, è necessario creare e aggiungere gli utenti tramite l'interfaccia di amministrazione di Microsoft 365. È quindi possibile assegnare autorizzazioni a ciascun utente o gruppo di utenti. Le autorizzazioni definiscono le funzionalità a cui gli utenti possono accedere. Per ulteriori informazioni sulle impostazioni delle autorizzazioni, vedi [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
 
-## Personalizzazione delle pagine
+## <a name="page-customization"></a>Personalizzazione delle pagine
 
 È possibile personalizzare layout di pagina per un profilo di modo che tutti gli utenti assegnati al profilo possano vedere le pagine personalizzate. Come amministratore, si personalizzano le pagine utilizzando le stesse funzionalità utilizzate dagli utenti. Per ulteriori informazioni sulla personalizzazione dei layout di pagina, vedi [Personalizzare le pagine per i profili](ui-personalization-manage.md).
 
-## Per creare un profilo
+## <a name="to-create-a-profile"></a>Per creare un profilo
 
 Se non è possibile copiare un profilo esistente, è possibile crearne uno manualmente.
 
@@ -49,7 +49,7 @@ Se non è possibile copiare un profilo esistente, è possibile crearne uno manua
 > [!TIP]
 > Se desideri che un particolare profilo sia disponibile solo per utenti molto specifici, puoi impostare il campo **Descrizione** su `Navigation menu only.`. In questo modo il profilo viene escluso dall'elenco dei ruoli disponibili in **Impostazioni personali**.
 
-## Per copiare un profilo
+## <a name="to-copy-a-profile"></a>Per copiare un profilo
 
 Per risparmiare tempo, è possibile creare un nuovo profilo copiandone uno esistente. Copiarne uno con impostazioni simili a quello che si desidera creare.
 
@@ -59,14 +59,14 @@ Quando si copia un profilo, vengono copiate anche tutte le personalizzazioni del
 2. Riempire i campi **ID profilo** e **Nome da visualizzato**, quindi selezionare il pulsante **OK**.
 3. Nella pagina **Profili (ruoli)**, aprire la scheda profilo appena creata e quindi modificare altri campi come necessario.
 
-## Per modificare un profilo
+## <a name="to-edit-a-profile"></a>Per modificare un profilo
 
 È possibile modificare un profilo modificando i campi nella pagina **Profili (ruoli)**. Le modifiche non sono visibili all'utente a cui è assegnato il profilo solo dopo che tale utente avrà eseguito la disconnessione e quindi avrà eseguito di nuovo l'accesso.
 
 > [!Caution]
 > Non rinominare un profilo mentre gli utenti a cui è stato assegnato sono connessi, poiché potrebbero verificarsi blocchi del prodotto e il successivo riavvio.
 
-## Per assegnare un profilo a un utente
+## <a name="to-assign-a-profile-to-a-user"></a>Per assegnare un profilo a un utente
 
 Gli utenti possono assegnarsi un ruolo (che rappresenta un profilo) scegliendo il campo **Ruolo** nella pagina **Impostazioni personali**. Come amministratore, è possibile fare lo stesso tramite la pagina **Profili (ruoli)**.
 
@@ -76,7 +76,7 @@ Gli utenti possono assegnarsi un ruolo (che rappresenta un profilo) scegliendo i
 
 Se si assegna un altro profilo a un utente, tutte le personalizzazioni eseguite dall'utente con il profilo precedente vengono mantenute.
 
-## Per definire le impostazioni utente per un profilo
+## <a name="to-define-user-settings-for-a-profile"></a>Per definire le impostazioni utente per un profilo
 
 Nella pagina **Impostazioni personali**, gli utenti possono definire il comportamento di base del proprio account, come la Gestione ruolo utente, la lingua e le notifiche che ricevono. Per ulteriori informazioni sulle impostazioni utente, vedi [Modificare le impostazioni di base](ui-change-basic-settings.md).
 
@@ -87,7 +87,7 @@ In qualità di amministratore, puoi definire le impostazioni per un profilo. Le 
 3. Nella pagina **Personalizzazioni utente**, aprire la scheda per l'utente di cui si desidera modificare le impostazioni.
 4. Nella pagina **Scheda personalizzazione utente** modificare i campi come necessario.
 
-## Per attivare un profilo
+## <a name="to-activate-a-profile"></a>Per attivare un profilo
 
 Quando crei un profilo, è possibile definire se, dove e come il profilo e le relative informazioni sono disponibili per gli utenti.
 
@@ -98,7 +98,7 @@ Nella pagina **Profili (ruoli)**, seleziona le seguenti caselle di controllo:
 * **Disabilita personalizzazione** per specificare se gli utenti del ruolo correlato possono personalizzare la propria area di lavoro.
 * **Mostra in Esplora ruoli** per specificare se le azioni per le funzionalità aziendali incluse nel profilo vengono visualizzate nella vista estesa di Esplora ruoli, una panoramica delle funzionalità. Per ulteriori informazioni su Esplora ruoli, vedi [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md).
 
-## Per esportare profili
+## <a name="to-export-profiles"></a>Per esportare profili
 
 Puoi esportare i profili da [!INCLUDE[prod_short](includes/prod_short.md)] e riutilizzarli in un altro tenant. I profili vengono esportati in un file zip che contiene file Lingua applicazione (AL). Puoi riutilizzare i file AL per sviluppare estensioni. Per ulteriori informazioni sull'esportazione di profili, vedi [Utilizzare il client per creare profili e personalizzazioni di pagine](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
@@ -106,7 +106,7 @@ Puoi esportare i profili da [!INCLUDE[prod_short](includes/prod_short.md)] e riu
 
     Questa azione esporta un file zip che contiene file AL per tutti i profili.
 
-## Per importare profili
+## <a name="to-import-profiles"></a>Per importare profili
 
 Puoi importare i profili che sono stati esportati da Business Central. I passaggi sono più o meno l'opposto dei passaggi per esportare i profili.
 
@@ -118,7 +118,7 @@ Puoi importare i profili che sono stati esportati da Business Central. I passagg
 
     Questa azione importa un file zip che contiene file AL per i profili selezionati.
 
-## Per eliminare un profilo
+## <a name="to-delete-a-profile"></a>Per eliminare un profilo
 
 È possibile eliminare un profilo selezionando l'azione **Elimina** nella pagina **Profili (ruoli)**. Tuttavia, si applicano le seguenti limitazioni:
 
@@ -126,7 +126,7 @@ Puoi importare i profili che sono stati esportati da Business Central. I passagg
 * Non è possibile eliminare profili originati dalle estensioni. L'estensione deve essere prima disinstallata.
 * È possibile eliminare un solo profilo alla volta.
 
-## Per eliminare tutte le personalizzazioni effettuate da un utente
+## <a name="to-delete-all-personalizations-made-by-a-user"></a>Per eliminare tutte le personalizzazioni effettuate da un utente
 
 È possibile eliminare tutte le modifiche che un utente ha apportato alle pagine. L'eliminazione delle modifiche può essere utile, ad esempio, se un dipendente ha cambiato ruolo e non ne ha più bisogno. Il profilo definisce il layout della pagina e le eliminazioni lo ripristinano a quella definizione.
 
@@ -141,7 +141,7 @@ L'utente visualizzerà le modifiche all'accesso successivo.
 
 È anche possibile eliminare tutte le personalizzazioni di pagine per un profilo. Per ulteriori informazioni, vedere [Per eliminare tutte le personalizzazioni per un profilo](ui-personalization-manage.md#delete-all-customizations-for-a-profile).
 
-## Per eliminare le personalizzazioni per pagine specifiche
+## <a name="to-delete-personalizations-for-specific-pages"></a>Per eliminare le personalizzazioni per pagine specifiche
 
 È possibile eliminare le personalizzazioni eseguite da uno o più utenti in pagine specifiche. L'eliminazione delle personalizzazioni può essere utile, ad esempio, se un processo aziendale modificato implica che una personalizzazione non deve più essere utilizzata. Le eliminazioni ripristinano il layout di pagina definito dal profilo.
 
@@ -157,13 +157,13 @@ L'utente visualizzerà le modifiche dopo l'accesso successivo.
 
 È anche possibile eliminare singole personalizzazioni di pagina per un profilo. Per ulteriori informazioni, vedere [Per eliminare la personalizzazione di specifiche pagine per un profilo](ui-personalization-manage.md#delete-customization-for-specific-pages-for-a-profile).
 
-## Gestione delle sessioni utente
+## <a name="managing-user-sessions"></a>Gestione delle sessioni utente
 
 Come amministratore di [!INCLUDE[prod_short](includes/prod_short.md)] online, è possibile gestire le sessioni utente nell'interfaccia di amministrazione. Per ulteriori informazioni, vedere [Gestione delle sessioni][def] nel contenuto amministrativo.  
 
 Per [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, è possibile gestire le sessioni utilizzando, ad esempio, SQL Server Management Studio. Per ulteriori informazioni, vedere [Documentazione tecnica su SQL Server](/sql/sql-server).  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 [Personalizzare le pagine per profili](ui-personalization-manage.md)  

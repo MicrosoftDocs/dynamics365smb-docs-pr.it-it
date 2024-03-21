@@ -8,14 +8,14 @@ ms.date: 09/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gestire l'archiviazione eliminando documenti o comprimendo i dati
+# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Gestire l'archiviazione eliminando documenti o comprimendo i dati
 
 Un ruolo centrale, ad esempio l'amministratore dell'applicazione, deve occuparsi regolarmente dell'accumularsi dei documenti storici, eliminandoli o comprimendoli.  
 
 > [!TIP]
 > Per ulteriori informazioni su altri modi di ridurre la quantità di dati archiviati in un database, vedi [Ridurre i dati archiviati nei database di Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) nella documentazione per sviluppatori e professionisti IT.
 
-## Eliminare documenti.
+## <a name="delete-documents"></a>Eliminare documenti.
 
 In certe situazioni, si ha la necessità di eliminare degli ordini di acquisto fatturati. Tuttavia, non puoi eliminarli a meno che tu non abbia completamente fatturato e ricevuto gli articoli negli ordini di acquisto. [!INCLUDE[prod_short](includes/prod_short.md)] ti aiuta eseguendo i controlli.
 
@@ -27,7 +27,7 @@ Gli ordini di assistenza fatturati vengono in genere eliminati automaticamente d
 
 Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la quantità totale indicata nell'ordine è stata registrata dalla pagina **Fattura assistenza** anziché dall'ordine stesso. Potrebbe essere necessario eliminare manualmente tali ordini fatturati eseguendo il processo batch **Elimina ordini assistenza fatturati**.  
 
-## Comprimere i dati con la compressione della data
+## <a name="compress-data-with-date-compression"></a>Comprimere i dati con la compressione della data
 
 È possibile comprimere i dati in [!INCLUDE [prod_short](includes/prod_short.md)] per risparmiare spazio nel database, che in [!INCLUDE [prod_short](includes/prod_short.md)] online può anche far risparmiare denaro. La compressione si basa sulle date e sulle funzioni, combinando diversi movimenti vecchi in un unico movimento nuovo.
 
@@ -56,7 +56,7 @@ Quando definisci i criteri per la compressione, puoi mantenere il contenuto di c
 
 In seguito alla compressione verranno sempre mantenute le informazioni contenute nei seguenti campi: **Data di registrazione**, **Nr. fornitore**, **Tipo di documento**, **Codice valuta**, **Categoria registrazione**, **Importo**, **Importo residuo**, **Importo originario (VL)**, **Importo residuo (VL)**, **Importo (VL)**, **Acquisti (VL)**, **Sconto fattura (VL)**, **Sconto pagam. applicato (VL)** e **Colleg. sconto pag. possibile**.
 
-## Registrazione dei movimenti compressi
+## <a name="posting-compressed-entries"></a>Registrazione dei movimenti compressi
 
 Le voci compresse vengono pubblicate in modo leggermente diverso rispetto alla registrazione standard. Ciò serve a ridurre il numero di nuovi movimenti di contabilità generale creati dalla compressione della data ed è particolarmente importante quando si conservano informazioni quali dimensioni e numeri di documento. La compressione della data crea nuovi movimenti come segue:
 
@@ -73,7 +73,7 @@ Il numero dei movimenti creati da una compressione data dipende dal numero di fi
 > [!WARNING]
 > Poiché la compressione data elimina del tutto i movimenti, è consigliabile eseguire sempre una copia di backup del database prima di eseguire questo processo batch.
 
-### Per eseguire una compressione data
+### <a name="to-run-a-date-compression"></a>Per eseguire una compressione data
 
 1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report"), immetti **Amministrazione data**, quindi scegli il collegamento correlato.
 2. Effettuare una delle seguenti operazioni:
@@ -84,7 +84,7 @@ Il numero dei movimenti creati da una compressione data dipende dal numero di fi
    > Puoi comprimere solo i dati che hanno più di cinque anni. Se intendi comprimere dati che hanno meno di cinque anni, contatta il partner Microsoft. Devono utilizzare l'evento `OnSetMinimumNumberOfYearsToKeep` nella codeunit "Date Compression" per impostare la soglia.
 
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Amministrazione](admin-setup-and-administration.md)  
 

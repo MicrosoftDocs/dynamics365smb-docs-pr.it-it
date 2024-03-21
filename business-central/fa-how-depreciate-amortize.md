@@ -10,7 +10,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ammortamento dei cespiti
+# <a name="depreciate-or-amortize-fixed-assets"></a>Ammortamento dei cespiti
 
 L'ammortamento consente di allocare il costo dei cespiti, come macchinari o attrezzature, in tutto il periodo di ammortamento. Occorre definire le modalità di ammortamento di ogni cespite.  
 
@@ -27,7 +27,7 @@ Tramite il processo batch **Annulla mov. contabili cespiti** è possibile annull
 
 L'indicizzazione consente di correggere i valori per le modifiche generali a livello di prezzo. Il processo batch **Indice cespiti** consente di ricalcolare gli importi di ammortamento.  
 
-## Per calcolare automaticamente l'ammortamento
+## <a name="to-calculate-depreciation-automatically"></a>Per calcolare automaticamente l'ammortamento
 
 Una volta al mese, oppure ogniqualvolta sia necessario, è possibile eseguire il processo batch **Calcola Ammortamento**. Il processo non considera i cespiti venduti, bloccati o inattivi né i cespiti che utilizzano il metodo di ammortamento manuale.  
 
@@ -48,7 +48,7 @@ Una volta al mese, oppure ogniqualvolta sia necessario, è possibile eseguire il
 > Raccomandiamo la prima opzione perché non si vuole cambiare l'uso di 30 giorni/mesi per l'ammortamento. Per ulteriori informazioni, vedi [Ammortamento e campo Anno fiscale 365 giorni](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
 
 
-## Per registrare un ammortamento manualmente tramite Registrazioni Cespiti in C/G
+## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Per registrare un ammortamento manualmente tramite Registrazioni Cespiti in C/G
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
 2. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze.  
@@ -60,7 +60,7 @@ Il campo **Valore contabile** nella pagina **Scheda cespite** viene aggiornato d
 
 Se sono state impostate le chiavi di allocazione cespiti per allocare importi a diversi reparti o progetti, gli importi vengono allocati durante la registrazione. Per ulteriori informazioni, vedere [Impostare i valori generali per i cespiti](fa-how-setup-general.md).  
 
-## Per gestire il valore contabile finale
+## <a name="to-manage-the-ending-book-value"></a>Per gestire il valore contabile finale
 
 Nel campo **Valore contabile finale** della pagina **Registro beni amm. cespiti**, è possibile specificare il valore contabile che si desidera avere per il cespite nel registro beni ammortizzabili corrente dopo che è stato completamente ammortizzato. È possibile eseguire questa operazione manualmente oppure compilando il campo **Valore cont. finale default** nella pagina **Registro beni ammortizzabili** relativa, che verrà quindi utilizzata per riempire automaticamente il campo.
 
@@ -68,7 +68,7 @@ Nel campo **Valore contabile finale** della pagina **Registro beni amm. cespiti*
 > L'ultimo ammortamento viene automaticamente ridotto di questo importo se il campo **Valore contabile** nella pagina **Scheda cespite** è uguale a zero.<br /><br />
 > Se il valore nel campo **Valore contabile** dopo l'ultimo ammortamento è maggiore di zero, ad esempio per un problema di arrotondamento o perché esiste un valore di realizzo, il valore nel campo **Valore contabile finale** nella pagina **Registro beni amm. cespiti** viene ignorato. Per ulteriori informazioni, vedere [Per registrare il valore di realizzo con il costo di acquisto](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
-## Per calcolare le allocazioni nella registrazione cespiti in C/G
+## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Per calcolare le allocazioni nella registrazione cespiti in C/G
 
 Se diversi reparti utilizzano lo stesso cespite, l'ammortamento periodico può essere assegnato automaticamente a tali reparti in base a una tabella di allocazione personalizzata.  
 
@@ -78,7 +78,7 @@ Se diversi reparti utilizzano lo stesso cespite, l'ammortamento periodico può e
 4. Scegliere l'azione **Inserisci conto cespiti**. Una seconda riga di registrazione viene creata per la contropartita impostata per la registrazione dell'allocazione.  
 5. Scegliere l'azione **Registra** per eseguire la registrazione.  
 
-## Utilizzare le liste di duplicazione per preparare la registrazione in diversi registri beni ammortizzabili
+## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Utilizzare le liste di duplicazione per preparare la registrazione in diversi registri beni ammortizzabili
 
 Quando si compilano righe di registrazioni da contabilizzare in un registro dei beni ammortizzabili, è possibile duplicare le righe in una registrazione distinta e quindi contabilizzarle in un registro dei beni ammortizzabili diverso. Per ulteriori informazioni, vedere la sezione [Per registrare i movimenti in diversi registri beni ammortizzabili](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
@@ -88,7 +88,7 @@ Quando si compilano righe di registrazioni da contabilizzare in un registro dei 
 > [!IMPORTANT]  
 >   Se è stato selezionato il campo **Usa lista duplicazione**, non utilizzare la numerazione nelle registrazioni. Il motivo è che la numerazione delle registrazioni cespiti in C/G non è la numerazione delle registrazioni del cespite.  
 
-## Per registrare i movimenti in diversi registri beni ammortizzabili
+## <a name="to-post-entries-to-different-depreciation-books"></a>Per registrare i movimenti in diversi registri beni ammortizzabili
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
 2. Nelle registrazioni con cui si desidera registrare l'ammortamento, selezionare la casella di controllo **Usa lista duplicazione**.  
@@ -105,7 +105,7 @@ Quando si compilano righe di registrazioni da contabilizzare in un registro dei 
 
 È possibile copiare movimenti da un registro dei beni ammortizzabili a un altro mediante il processo batch **Copia reg. beni ammortizz.**. Il processo batch crea le righe di registrazione nel batch delle registrazioni specificato nella pagina **Setup registrazioni cespiti** per il registro beni ammortizzabili in cui si desidera copiare. Per ulteriori informazioni, vedere la seguente procedura.  
 
-## Per copiare i movimenti contabili cespiti tra i registri beni ammortizzabili
+## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Per copiare i movimenti contabili cespiti tra i registri beni ammortizzabili
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registri beni ammortizzabili**, quindi scegli il collegamento correlato.  
 2. Aprire la relativa scheda registro beni ammortizzabili e scegliere l'azione **Copia reg. beni ammortizz.**.  
@@ -114,7 +114,7 @@ Quando si compilano righe di registrazioni da contabilizzare in un registro dei 
 
 Le righe copiate vengono create nelle registrazioni cespiti in C/G o nelle registrazioni cespiti, a seconda che sia stata attivata l'integrazione contabilità generale per il registro beni ammortizzabili che si sta copiando.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  

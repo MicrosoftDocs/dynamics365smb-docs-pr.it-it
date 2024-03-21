@@ -9,18 +9,18 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Impostare righe di ciclo standard
+# <a name="set-up-standard-routing-lines"></a>Impostare righe di ciclo standard
 
 L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli. Questi consentono di allegare rapidamente ulteriori informazioni alle operazioni periodiche.
 
-## Per impostare un task standard
+## <a name="to-set-up-a-standard-task"></a>Per impostare un task standard
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Task standard**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere l'azione **Strumenti**, **Personale**, **Descrizione** o **Strumenti**, quindi, nella pagina visualizzata, aggiungere l'articolo pertinente.
 
-## Per aggiungere un task standard a un'operazione
+## <a name="to-add-a-standard-task-to-an-operation"></a>Per aggiungere un task standard a un'operazione
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cicli**, quindi scegli il collegamento correlato.
 2. Aprire il ciclo pertinente.
@@ -28,7 +28,7 @@ L'utilizzo di task standard semplifica la creazione e la manutenzione dei cicli.
 
 Quando si stampa il foglio di ciclo, è possibile scegliere di includere gli elementi dell'attività standard aggiunta alle righe di ciclo.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Creare cicli](production-how-to-create-routings.md)  
 [Creare le distinte base di produzione](production-how-to-create-production-boms.md)  
