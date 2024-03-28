@@ -10,7 +10,7 @@ ms.date: 07/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Impostare una valuta contabile addizionale
+# <a name="set-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
 
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter esaminare e riportare dati finanziari in più di una valuta.
 
@@ -25,7 +25,7 @@ La contabilità generale è impostata per utilizzare la valuta locale (VL) ma è
 >
 > Ad esempio, hai una grande quantità di crediti in sterline britanniche (GBP) e hai impostato la valuta di dichiarazione aggiuntiva (VA) in GBP. In questo scenario, gli importi nei crediti che utilizzano GBP non verranno rettificati per gli utili/perdite di cambio nella VA, ma solo gli importi nei crediti che sono in altre valute. Ciò significa che se utilizzi VA per dichiarare i tuoi rendiconti finanziari, potrebbe risultare in saldi insoluti sottostimati o sopravvalutati dei crediti.
 
-## Visualizzazione di report e importi nella valuta addizionale
+## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Visualizzazione di report e importi nella valuta addizionale
 L'utilizzo di una valuta addizionale può essere utile per il processo di creazione di report di una società nei seguenti casi:
 
 - Società di paesi non UE che effettuano numerose transazioni con società di paesi UE. In questo caso, la società non UE potrebbe desiderare di creare report in euro per semplificare l'utilizzo dei report finanziari da parte dei partner commerciali UE.
@@ -33,11 +33,11 @@ L'utilizzo di una valuta addizionale può essere utile per il processo di creazi
 
 Vari report finanziari sono basati sui movimenti C/G. Per visualizzare i dati del report nella valuta contabile addizionale, selezionare semplicemente il campo **Mostra importi in valuta contabile addizionale** nella Scheda dettaglio **Opzioni** per il relativo report CG.
 
-## Rettifica di tassi di cambio
+## <a name="adjusting-exchange-rates"></a>Rettifica di tassi di cambio
 
 Poiché i tassi di cambio oscillano costantemente, gli equivalenti in valuta addizionale nel sistema devono essere rettificati periodicamente. Se queste rettifiche non vengono apportate, gli importi che sono stati convertiti da valute estere (o addizionali) e registrati nella contabilità generale in valuta locale possono essere fuorvianti. Inoltre, i movimenti quotidiani registrati prima dell'immissione di un tasso di cambio quotidiano nell'applicazione devono essere aggiornati dopo l'immissione delle informazioni su tale tasso di cambio. Il processo batch **Rettifica tassi di cambio** viene utilizzato per rettificare i tassi di cambio dei movimenti cliente, fornitore e conti C/C bancari registrati. Consente inoltre di aggiornare gli importi nella valuta contabile addizionale nei movimenti C/G. Per ulteriori informazioni, vedere [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md).
 
-## Impostare una valuta contabile addizionale
+## <a name="setting-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
 
 Seguire questa procedura per impostare una valuta contabile addizionale:
 
@@ -46,7 +46,7 @@ Seguire questa procedura per impostare una valuta contabile addizionale:
 - Specificare il metodo di rettifica del tasso di cambio per i movimenti IVA.  
 - Attivare la valuta contabile addizionale.  
 
-### Per specificare i conti C/G per la registrazione delle rettifiche tasso di cambio.  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Per specificare i conti C/G per la registrazione delle rettifiche tasso di cambio.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Valute**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Valute** riempire i seguenti campi per la valuta contabile addizionale.  
@@ -63,7 +63,7 @@ Seguire questa procedura per impostare una valuta contabile addizionale:
 
 Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il conto verranno rettificati in caso di fluttuazioni del tasso di cambio tra la valuta locale e quella contabile addizionale.  
 
-### Per specificare il metodo della rettifica tasso di cambio per tutti i conti C/G
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Per specificare il metodo della rettifica tasso di cambio per tutti i conti C/G
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Piano dei conti**, selezionare il conto pertinente quindi scegliere l'azione **Modifica**.  
@@ -81,7 +81,7 @@ Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il
 
 4.  Chiudere la pagina **Scheda conto C/G**.  
 
-### Per specificare il metodo di rettifica del tasso di cambio per i movimenti IVA
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Per specificare il metodo di rettifica del tasso di cambio per i movimenti IVA
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup contabilità generale** selezionare il metodo pertinente nel campo **Rettif. tasso di cambio IVA**.  
@@ -97,7 +97,7 @@ Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il
     |**Rettifica Importo**|L'importo VL verrà rettificato per tutti gli utili e le perdite del tasso di cambio. Tali utili o perdite verranno registrati nel conto C/G nel campo **Importo** e nel campo **Conto utili C/G realizzati** o **Conto perdite C/G realizzate** della pagina **Valute** dei conti specificati per gli utili o le perdite.|  
     |**Rettifica Importo in Valuta-Addiz.**|La valuta contabile addizionale verrà rettificata per tutti gli utili e le perdite del tasso di cambio. Tali utili o perdite verranno registrati nel conto C/G nel campo **Importo in valuta addiz.** e nel campo **Conto utili C/G realizzati** o **Conto perdite C/G realizzate** della pagina **Valute** dei conti specificati per gli utili o le perdite.|  
 
-### Per attivare la valuta contabile addizionale  
+### <a name="to-activate-the-additional-reporting-currency"></a>Per attivare la valuta contabile addizionale
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup contabilità generale** scegliere il campo **Valuta contabile addizionale** per selezionare la valuta addizionale in cui si desidera effettuare la registrazione.  
 3. Quando si esce dal campo, verrà visualizzato un messaggio di conferma in [!INCLUDE[prod_short](includes/prod_short.md)] in cui sono descritti gli effetti dell'attivazione della valuta contabile addizionale.  
@@ -123,7 +123,7 @@ Per tutti i movimenti futuri dello stesso tipo gli importi verranno inoltre regi
 > [!NOTE]  
 > Il campo **Valuta contabile addizionale** verrà attivata solo dopo aver fatto clic sul pulsante **OK** nel processo batch **Rett. valuta cont. addizionale**.  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  

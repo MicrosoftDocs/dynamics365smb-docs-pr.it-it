@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Modifica di lingua e area geografica
+# <a name="changing-language-and-region"></a>Modifica di lingua e area geografica
 
 [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile in molti mercati e lingue in tutto il mondo. Nei mercati dove [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile, sono offerte funzioni normative per assistere le aziende con gli oneri normativi. [!INCLUDE[prod_short](includes/prod_short.md)] può essere visualizzato in diverse lingue. Puoi persino cambiare la lingua utilizzata per visualizzare i testi. La modifica viene applicata quando vieni disconnesso automaticamente e accedi nuovamente. L'impostazione è valida solo per l'utente corrente e non per gli altri utenti nella società.  
 
@@ -28,7 +28,7 @@ Non è possibile modificare i testi archiviati come dati dell'applicazione. Tra 
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] supporta solo un unico set di caratteri per i dati. Alcuni caratteri, pertanto, potrebbero non essere supportati nell'ambiente ed è possibile che si verifichino problemi durante il recupero di dati immessi utilizzando un set di caratteri diverso. È possibile, ad esempio, che l'ambiente supporti solo caratteri inglesi e russi. In questo caso, se immetti i dati in una lingua diversa potrebbero non essere archiviati correttamente. Per essere certo di avere identificato correttamente le lingue supportate da [!INCLUDE[prod_short](includes/prod_short.md)], contatta l'amministratore di sistema.  
 
-## Cambiare l'impostazione della regione
+## <a name="changing-your-region-setting"></a>Cambiare l'impostazione della regione
 
 L'area geografica differisce dalla lingua e dai requisiti legali nei mercati locali. L'area geografica determina come i tuoi dati vengono presentati, ad esempio il separatore decimale, come si allinea il testo, a sinistra o a destra. L'area geografica determina anche alcuni degli elementi di sistema nel browser, come l'azione per creare un nuovo elemento in un elenco.  
 
@@ -39,28 +39,28 @@ L'area geografica differisce dalla lingua e dai requisiti legali nei mercati loc
 
 Per modificare l'area geografica accedere alla pagina **Impostazioni personali**. Per ulteriori informazioni, vedere [Modificare le impostazioni di base](ui-change-basic-settings.md).  
 
-## Cambiare l'impostazione della regione per clienti, contatti e fornitori
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Cambiare l'impostazione della regione per clienti, contatti e fornitori
 
 Alcune aziende usano un servizio esterno che convalida le informazioni dell'indirizzo nel loro paese o regione. Tuttavia, quando avete bisogno di aggiornare le informazioni sull'indirizzo, l'approccio strutturato che questi servizi utilizzano potrebbe non essere sempre quello giusto per alcuni scenari. Business Central offre un mezzo più flessibile per inserire i dettagli dell'indirizzo.
 
 Nella pagina **Setup contabilità generale**, se si attiva l'opzione **Richiedi il codice paese/regione nel toggle dell'indirizzo**, le modifiche al campo **Codice paese/regione** negli indirizzi di clienti, contatti o fornitori resetteranno i valori negli altri campi indirizzo.
 
-## Versione applicazione
+## <a name="application-version"></a>Versione applicazione
 
 Nella pagina **Guida e supporto** è possibile visualizzare la versione di [!INCLUDE[prod_short](includes/prod_short.md)] su cui si basa la società. Se si desidera basare una società su una versione diversa, l'amministratore può creare un nuovo ambiente di produzione. Per ulteriori informazioni, vedere [Creare un nuovo ambiente di produzione](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) nel contenuto per sviluppatori e professionisti IT.  
 
-## Lingue della Guida di [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="languages-of-the--help"></a>Lingue della Guida di [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Il contenuto della Guida per la versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)] è pubblicato in Microsoft Learn. Il contenuto è disponibile in diverse lingue. Se accedi alla documentazione dall'interno di [!INCLUDE[prod_short](includes/prod_short.md)], il contenuto verrà visualizzato nella lingua in uso. Per impostazione predefinita, se una pagina specifica non è disponibile nella lingua in uso, verrà visualizzata in inglese.
 
-### Come cambio la lingua del sito di Microsoft Learn?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Come cambio la lingua del sito di Microsoft Learn?
 
 È semplice. Basta scorrere in fondo alla pagina del browser e scegliere il simbolo del globo nell'angolo inferiore sinistro.
 
 > [!NOTE]  
 > Verrà visualizzato un elenco delle lingue supportate dal sito Microsoft Learn. [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile in un numero limitato di paesi/regioni e il contenuto della Guida di [!INCLUDE [prod_short](includes/prod_short.md)] non è disponibile in tutte le lingue supportate dal sito Microsoft Learn.
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Risorse per aiuto e supporto](product-help-and-support.md)  
 [Modificare le impostazioni di base](ui-change-basic-settings.md)  
