@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a>Inizio rapido dell'output di report e documenti di base
+# Inizio rapido dell'output di report e documenti di base
 
 Per adattare [!INCLUDE[prod_short](includes/prod_short.md)] alle esigenze della tua azienda, imposta e utilizza report e documenti personalizzati adatti ai processi e all'identità visiva della tua azienda.
 
-## <a name="add-your-company-logo-to-documents"></a>Aggiungere il logo della società ai documenti
+## Aggiungere il logo della società ai documenti
 
 [!INCLUDE[prod_short](includes/prod_short.md)] dispone di modelli impostati per utilizzare il logo della tua azienda per risparmiare tempo nella personalizzazione di documenti come fatture, ordini ed estratti conto.
 
@@ -25,7 +25,7 @@ Per adattare [!INCLUDE[prod_short](includes/prod_short.md)] alle esigenze della 
 
 Puoi vedere le istruzioni di cui sopra in [questo video di YouTube](https://www.youtube.com/watch?v=AatXbKF1NGg). Una volta che l'immagine viene visualizzata nel campo **Immagine**, è possibile chiudere la pagina **Informazioni società**.
 
-## <a name="run-reports"></a>Eseguire report
+## Eseguire report
 
 I report organizzano le informazioni provenienti da diverse fonti in [!INCLUDE[prod_short](includes/prod_short.md)] e le presentano in un modo leggibile che può essere facilmente stampato o condiviso digitalmente. I report possono essere trovati nelle pagine a cui sono contestualmente associati. Ad esempio, la pagina **Articoli** elenca i report relativi a livelli di magazzino, acquisti, vendite e altro.
 
@@ -37,7 +37,7 @@ I report organizzano le informazioni provenienti da diverse fonti in [!INCLUDE[p
 
 Ulteriori informazioni sul filtraggio dei dati, sulla pianificazione dei report e altro ancora all'indirizzo [Esegui e stampa report](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Salvare report in formato PDF, Excel o Word
+## Salvare report in formato PDF, Excel o Word
 
 Per condividere rapidamente i report, puoi salvare report [!INCLUDE[prod_short](includes/prod_short.md)] direttamente in PDF, Microsoft Excel o documenti Microsoft Word.
 
@@ -46,7 +46,7 @@ Per condividere rapidamente i report, puoi salvare report [!INCLUDE[prod_short](
 3. Selezionare il tipo di file quindi scegli **OK**.
 r Il file del report generato viene salvato automaticamente nella cartella di download del browser.
 
-### <a name="change-report-and-document-layouts"></a>Modifica layout di documenti e report
+### Modifica layout di documenti e report
 
 [!INCLUDE[prod_short](includes/prod_short.md)] viene fornito con molti layout predefiniti per i tuoi report e altri documenti generati, come le fatture di vendita. Puoi usare applicazioni quali Microsoft Word o Excel per modificare i modelli di layout per documenti e report, come descritto nell'esempio seguente:
 
@@ -63,7 +63,7 @@ r Il file del report generato viene salvato automaticamente nella cartella di do
 
 Scopri di più su come personalizzare report e documenti in base alle tue esigenze aziendali in [Layout di report e documenti](ui-manage-report-layouts.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Usare i report nel lavoro quotidiano](reports-use-reports.md)  
 [Report disponibili in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
