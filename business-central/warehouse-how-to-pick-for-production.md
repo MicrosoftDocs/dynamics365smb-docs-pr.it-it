@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse di base
+# Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse di base
 
 La modalità di stoccaggio dei componenti di prelievo per le commesse, gli ordini di produzione o di assemblaggio dipende dall'impostazione della warehouse come ubicazione. Per ulteriori informazioni vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -21,13 +21,13 @@ Usa i seguenti documenti per le operazioni interne:
 * Prelievi magazzino
 * Movimento di magazzino
 
-## <a name="inventory-picks"></a>Prelievi magazzino
+## Prelievi magazzino
 
 * Quando si registra un prelievo da magazzino per un'operazione interna, come la produzione o una commessa, il consumo dei componenti prelevati viene registrato contemporaneamente.
 * L'interruttore **Collocazione obbligatoria** nella pagina **Scheda ubicazione** è facoltativo.
 * Quando usi i prelievi da magazzino, il campo **Cod. collocazione** nella riga di componente di un ordine di produzione o nelle righe di pianificazione commessa definisce la collocazione *prendere*. I componenti vengono diminuiti nella collocazione quando registri il consumo.
 
-## <a name="inventory-movements"></a>Movimenti di magazzino
+## Movimenti di magazzino
 
 * I movimenti di magazzino richiedono l'attivazione dell'opzione **Collocazione obbligatoria** nella pagina **Scheda ubicazione** per l'ubicazione.
 * I movimenti di magazzino funzionano solo con le righe dei componenti dell'ordine di produzione e le righe dell'ordine di assemblaggio.
@@ -38,13 +38,13 @@ Usa i seguenti documenti per le operazioni interne:
 >[!NOTE]
 > Anche se l'interruttore **Richiesto prelievo** è disattivato, puoi utilizzare un documento **Prelievo warehouse**. I documenti prelievo warehouse sono simili ai documenti **prelievo in magazzino**. Ciò è utile se vuoi utilizzare i prelievi nelle operazioni e la spedizione nei flussi warehouse in uscita.
 
-### <a name="production"></a>Produzione
+### Produzione
 
 Utilizza i documenti **prelievo in magazzino** per il prelievo dei componenti di produzione nel flusso verso la produzione.
 
 Per un'ubicazione che utilizza le collocazioni, è possibile estendere il flusso alla produzione utilizzando i documenti **Movimento di magazzino**. I movimenti di magazzino sono particolarmente utili per la consuntivazione dei componenti. Per ulteriori informazioni su come il consumo del componente è consuntivato dalla collocazione articoli per produzione o produzione aperta, vedi [Consuntivazione dei componenti di produzione in una configurazione warehouse di base](#flushing-production-components-in-a-basic-warehouse-configuration).
 
-### <a name="assembly"></a>Assemblaggio
+### Assemblaggio  
 
 Utilizza i documenti **Movimento magazzino** per spostare i componenti dell'assemblaggio nell'area di assemblaggio.
 
@@ -53,7 +53,7 @@ Utilizza i documenti **Movimento magazzino** per spostare i componenti dell'asse
 
 [!INCLUDE [prod_short](includes/prod_short.md)] supporta tipi di flusso assemblaggio su ordine e assemblaggio per magazzino. Per ulteriori informazioni sull'assemblaggio su ordine nel flusso di warehouse in uscita, vai a [Gestione di articoli assemblaggio su ordine con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### <a name="project-management"></a>Gestione progetti
+### Gestione progetti  
 
 Utilizza i documenti **prelievo magazzino** per il prelievo dei componenti di commessa nel flusso verso la gestione progetti.
 
@@ -64,7 +64,7 @@ Per le ubicazioni che utilizzano le collocazioni, è possibile estendere il flus
 >
 > [!INCLUDE[prod_short](includes/prod_short.md)] utilizza il valore del campo **Quantità rimanente** nella riga di pianificazione commessa quando crea prelievi magazzino. Per utilizzare i prelievi di magazzino per le commesse, è necessario attivare l'interruttore **Applica collegamento utilizzo** nella pagina **scheda commessa** per la commessa. Ciò ti consente di monitorare l'utilizzo rispetto al tuo piano. Se non si attiva l'interruttore, la quantità rimanente rimarrà a **0** e il prelievo magazzino non verrà creato. Per ulteriori informazioni, vedi [Per impostare la tracciabilità dell'utilizzo in una commessa](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
 
-## <a name="pick-or-move-for-production-assembly-and-jobs-in-a-basic-warehouse-configuration"></a>Prelevare o spostare per produzione, assemblaggio e commesse in una configurazione warehouse di base
+## Prelevare o spostare per produzione, assemblaggio e commesse in una configurazione warehouse di base
 
 È possibile creare un prelievo da magazzino o un movimento di magazzino in tre modi:  
 
@@ -72,26 +72,26 @@ Per le ubicazioni che utilizzano le collocazioni, è possibile estendere il flus
 * Per più documenti di origine contemporaneamente utilizzando un processo batch.  
 * In due passaggi. Rilascia il documento di origine per renderlo pronto per il prelievo. Crea il prelievo o il movimento di magazzino dai documenti **Prelievo di magazzino** o **Movimento di magazzino**. Il prelievo o il movimento di magazzino si basano sul documento di origine.  
 
-### <a name="to-create-an-inventory-pick-from-the-source-document"></a>Per creare un prelievo magazzino dal documento di origine
+### Per creare un prelievo magazzino dal documento di origine
 
 1. Nel documento di origine, che può essere un ordine di produzione o una commessa, scegli l'azione **Crea stoccaggio/prelievo di magazzino**.  
 2. Seleziona la casella di controllo **Crea prelievo mag.**.
 3. Scegli il pulsante **OK**.
 
-### <a name="to-create-an-inventory-movement-from-the-source-document"></a>Per creare un movimento di magazzino dal documento origine
+### Per creare un movimento di magazzino dal documento origine
 
 1. Nel documento di origine, che può essere un ordine di produzione, un ordine di assemblaggio o una commessa, scegli l'azione **Crea stoccaggio/prelievo di magazzino**.  
 2. Seleziona la casella di controllo **Crea movimento di magazzino**.
 3. Scegli il pulsante **OK**.
 
-### <a name="to-create-multiple-inventory-picks-or-movements-with-a-batch-job"></a>Per creare più prelievi o movimenti di magazzino utilizzando un processo batch
+### Per creare più prelievi o movimenti di magazzino utilizzando un processo batch
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Crea stoccaggio/prelievo/movimento magazzino**, quindi seleziona il collegamento correlato.  
 2. Nella Scheda dettaglio **Richiesta warehouse**, utilizza i campi **Nr. origine** e **Documento origine** per filtrare i tipi di documenti oppure gli intervalli di numeri di documenti. Ad esempio, è possibile creare prelievi solo per gli ordini di produzione.
 3. Nella Scheda dettaglio **Opzioni**, attiva l'interruttore **Crea prelievo mag.** o **Crea movimento mag.**.
 4. Scegli il pulsante **OK**.
 
-### <a name="to-create-inventory-picks-or-movements-in-two-steps"></a>Per creare prelievi o movimenti di magazzino in due passaggi
+### Per creare prelievi o movimenti di magazzino in due passaggi
 
 Per prelevare o spostare i componenti per i documenti di origine in due passaggi, è necessario rilasciare il documento di origine per renderlo pronto per il prelievo. Rilasciare i documenti di origine per le operazioni interne nei seguenti modi.  
 
@@ -113,7 +113,7 @@ Un dipendente warehouse addetto al prelievo degli articoli può creare un docume
 5. In alternativa, scegli l'azione **Prendi documento origine** per selezionare il documento da una lista di documenti di origine in entrata pronti per il prelievo presso l'ubicazione.  
 6. Seleziona il pulsante **OK** per compilare le righe di prelievo o movimento in base al documento di origine selezionato.  
 
-## <a name="to-record-the-inventory-pick"></a>Per registrare il prelievo magazzino
+## Per registrare il prelievo magazzino
 
 1. Nella pagina **Prelievo magazzino** apri il documento per cui registrare un prelievo.  
 2. Nel campo **Codice collocazione** sulle righe di prelievo, la collocazione da cui gli articoli devono essere prelevati dalla collocazione in cui l'articolo è disponibile. Se necessario, puoi modificare la collocazione.
@@ -129,7 +129,7 @@ Durante il processo di registrazione si verifica quanto segue:
 
 [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="to-record-the-inventory-movement"></a>Per registrare il movimento di magazzino
+## Per registrare il movimento di magazzino
 
 1. Nella pagina **Movimento di magazzino** apri il documento per cui registrare un movimento.  
 2. Nel campo **Codice collocazione** sulle righe di movimento, la collocazione da cui prelevare è suggerita sulla base della collocazione predefinita dell'articolo e della disponibilità. Se necessario, puoi modificare la collocazione.  
@@ -145,7 +145,7 @@ Durante il processo di registrazione si verifica quanto segue:
 >[!NOTE]
 > A differenza di quando si spostano componenti con un prelievo magazzino, il consumo non è registrato quando si registra un movimento di magazzino. Registra il consumo come passaggio separato registrando il documento di origine.
 
-## <a name="flushing-production-components-in-a-basic-warehouse-configuration"></a>Consuntivazione componenti di produzione in una configurazione warehouse di base
+## Consuntivazione componenti di produzione in una configurazione warehouse di base
 
 I metodi di consuntivazione influiscono sul flusso dei componenti in produzione. Per ulteriori informazioni vedi [Eseguire la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md). A seconda del metodo di consuntivazione selezionato, è possibile prelevare i componenti per la produzione nei seguenti modi:
 
@@ -154,7 +154,7 @@ I metodi di consuntivazione influiscono sul flusso dei componenti in produzione.
 * Utilizza un documento **Movimento di magazzino** con riferimento a un documento di origine per registrare i prelievi per i componenti che utilizzano il metodo di consuntivazione **Prelievo + Avanti**, **Prelievo + Indietro**. Il consumo dei componenti avverrà automaticamente quando modifichi lo stato dell'ordine di produzione oppure avvii o termini un'operazione. Tutti i componenti obbligatori devono essere disponibili. In caso contrario, la registrazione del consumo della consuntivazione viene interrotta per tale componente.
 * Utilizza un documento **Movimento di magazzino** senza riferimento a un documento di origine o altri modi per registrare il movimento di componenti che utilizzano il metodo di consuntivazione **Avanti** o **Indietro**. Il consumo dei componenti avverrà automaticamente quando modifichi lo stato dell'ordine di produzione oppure avvii o termini un'operazione. Tutti i componenti obbligatori devono essere disponibili. In caso contrario, la registrazione del consumo della consuntivazione viene interrotta per tale componente. Per ulteriori informazioni vedi [Spostare gli articoli internamente nelle configurazioni warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-### <a name="example"></a>Esempio
+### Esempio
 
 Esiste un ordine di produzione per 15 PZ dell'articolo SP-SCM1004. Alcuni degli articoli nell'elenco dei componenti devono essere consuntivati manualmente in una registrazione di consumo, mentre altri articoli possono essere prelevati e consuntivati automaticamente utilizzando il metodo di consuntivazione **Prelievo + Indietro**.  
 
@@ -174,7 +174,7 @@ I seguenti passaggi forniscono un esempio delle azioni eseguite da utenti differ
 
 :::image type="content" source="media/binflow.png" alt-text="Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.":::
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Inventario](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  

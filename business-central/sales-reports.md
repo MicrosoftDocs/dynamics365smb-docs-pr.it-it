@@ -9,14 +9,14 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sales-reports-and-analytics-in-business-central"></a>Report delle vendite e analisi in Business Central
+# Report delle vendite e analisi in Business Central
 
 Il report delle vendite in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti delle vendite e aziendali di ottenere approfondimenti e statistiche sulle attività di vendita attuali e passate.  
 
-## <a name="reports"></a>Report
+## Report
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## <a name="tasks"></a>Attività
+## Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
@@ -24,7 +24,7 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 * [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
