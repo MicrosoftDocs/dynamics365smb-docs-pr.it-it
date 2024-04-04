@@ -12,7 +12,7 @@ ms.date: 07/27/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Impostare i fogli presenze
+# <a name="set-up-time-sheets"></a>Impostare i fogli presenze
 
 I fogli presenze di [!INCLUDE[prod_short](includes/prod_short.md)] consentono di gestire la registrazione del tempo in incrementi settimanali di sette giorni. Questi fogli possono essere usati per tenere traccia del tempo utilizzato nei progetti e per registrare semplicemente il tempo risorsa. Prima di utilizzare i fogli presenze, è necessario specificare quali utenti invieranno i fogli presenze e come si desidera configurare tali fogli.  
 
@@ -26,7 +26,7 @@ Eventualmente, specifica se e come vengono approvati i fogli presenze. In base a
 
 Una volta configurati i fogli presenze, è possibile creare fogli presenze per le risorse, che possono registrare le righe dei fogli presenze. Facoltativamente, assegnare i fogli presenze alle righe di pianificazione commessa. Per saperne di più, vedi [Usare i fogli presenze](projects-how-use-time-sheets.md).  
 
-## Impostare i fogli di presenza con la guida all'impostazione assistita
+## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Impostare i fogli di presenza con la guida all'impostazione assistita
 
 Per impostare i fogli presenze è disponibile una guida al setup assistito.  
 
@@ -55,11 +55,11 @@ Alla fine della guida alla configurazione, puoi scegliere di lasciare che [!INCL
 > [!IMPORTANT]
 > Se utilizzi il primo ciclo di rilascio del 2023 (v22) o successivo, per assicurarti di poter gestire i fogli presenze nei dispositivi mobili, devi attivare manualmente l'opzione **Usa la nuova esperienza del foglio presenze** per il setup dei fogli presenze, come descritto nella procedura successiva.
 
-## Impostare manualmente i fogli di presenza
+## <a name="set-up-time-sheets-manually"></a>Impostare manualmente i fogli di presenza
 
 Le sezioni seguenti descrivono come impostare i fogli presenze se non usi la guida al setup assistito **Impostare fogli presenze**.  
 
-### Impostare manualmente le informazioni generali per i fogli di presenza
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Impostare manualmente le informazioni generali per i fogli di presenza
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup risorse**, quindi scegli il collegamento correlato.  
 1. Compila i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ Le sezioni seguenti descrivono come impostare i fogli presenze se non usi la gui
 | **Sempre** |Il foglio presenze viene approvato dall'utente indicato nel campo **Persona responsabile** nella scheda commessa. |
 | **Solo macchina** |Se il foglio presenze della macchina è collegato a una commessa, il foglio presenze viene approvato dall'utente indicato nel campo **Persona responsabile** della scheda commessa. Se il foglio presenze della macchina è collegato a una risorsa, il foglio presenze viene approvato dall'utente indicato nel campo **ID utente resp. approvazione foglio presenze** della scheda risorsa. |
 
-### Assegnare manualmente un amministratore del foglio presenze
+### <a name="assign-a-time-sheet-administrator-manually"></a>Assegnare manualmente un amministratore del foglio presenze
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup utente**, quindi scegli il collegamento correlato.  
 2. Seleziona l'utente che sarà l'amministratore dei fogli presenze, quindi seleziona la casella di controllo **Amministratore foglio presenze**.  
@@ -82,7 +82,7 @@ Le sezioni seguenti descrivono come impostare i fogli presenze se non usi la gui
 > [!TIP]  
 > Yi consigliamo di designare un solo utente come amministratore dei fogli presenze di una società. Nella procedura riportata di seguito, si impostano un proprietario e un responsabile approvazione del foglio presenze dove il responsabile approvazione è assegnato a ciascuna risorsa.  
 
-### Assegnare manualmente un proprietario e un responsabile dell'approvazione di fogli presenze
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Assegnare manualmente un proprietario e un responsabile dell'approvazione di fogli presenze
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse**, quindi scegli il collegamento correlato.
 2. Seleziona la risorsa per cui desideri impostare la possibilità di utilizzare i fogli presenze, quindi seleziona la casella di controllo **Usa foglio presenze**.  
@@ -92,7 +92,7 @@ Le sezioni seguenti descrivono come impostare i fogli presenze se non usi la gui
 > [!NOTE]  
 > Non puoi modificare l'ID del responsabile dell'approvazione del foglio presenze in caso di fogli presenze non ancora elaborati e con lo stato **Inviato** o **Aperto**.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare i fogli presenze per i progetti](projects-how-use-time-sheets.md)  
 [Come creare fogli di presenza](projects-how-use-time-sheets.md#create-time-sheets)  

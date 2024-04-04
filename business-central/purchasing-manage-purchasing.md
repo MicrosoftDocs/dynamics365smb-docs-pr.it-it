@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Acquisti
+# <a name="purchasing"></a>Acquisti
 
 È possibile creare una fattura o un ordine di acquisto per registrare il costo di acquisto e per tenere traccia del conto fornitori. Se è necessario verificare un magazzino, anche le fatture di acquisto vengono utilizzate per aggiornare in modo dinamico i livelli di magazzino in modo da ridurre i costi di magazzino al minimo e migliorare l'assistenza clienti. I costi di acquisto, incluse le spese di assistenza, e i valori di magazzino derivanti dalla registrazione delle fatture di acquisto contribuiscono alle cifre di profitto e altri indicatori KPI finanziari in Gestione ruolo utente.
 
@@ -38,11 +38,11 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Eliminare la confusione quando due o più record sono presenti per lo stesso fornitore.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 |Gestire l'impegno di un fornitore per acquistare grandi quantità consegnate nel tempo in diverse spedizioni.|[Usare gli ordini di acquisto programmati](sales-how-to-create-blanket-sales-orders.md)|
 
-## Numeri di documento esterno
+## <a name="external-document-numbers"></a>Numeri di documento esterno
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
