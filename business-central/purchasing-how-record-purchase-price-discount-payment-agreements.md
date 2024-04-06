@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Registrare i prezzi di acquisto e gli sconti speciali
+# <a name="record-special-purchase-prices-and-discounts"></a>Registrare i prezzi di acquisto e gli sconti speciali
 
 > [!NOTE]
 > Nel secondo ciclo di rilascio del 2020 abbiamo rilasciato processi semplificati per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti che utilizzano questa versione, trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -30,7 +30,7 @@ Nel caso degli sconti, è possibile impostare e utilizzare due tipi di sconti:
 
 Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combinazione di articolo e fornitore, è anche possibile immettere questa configurazione dalla scheda articolo, in cui sono definiti le regole e i valori. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
-## Per impostare un prezzo di acquisto speciale per un fornitore
+## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Per impostare un prezzo di acquisto speciale per un fornitore
 
 #### [Esperienza corrente](#tab/current-experience)
 
@@ -53,7 +53,7 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 
 ---
 
-## Per impostare uno sconto riga per un fornitore
+## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Per impostare uno sconto riga per un fornitore
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fornitori**, quindi scegli il collegamento correlato.
 2. Aprire la scheda fornitore interessata e scegliere l'azione **Sconti riga**.
@@ -62,7 +62,7 @@ Poiché gli sconti riga acquisto e i prezzi di acquisto sono basati su una combi
 3. Compilare i campi della riga come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Compilare una riga per ogni combinazione per la quale il fornitore concede uno sconto riga acquisto.
 
-## Per impostare uno sconto su fattura per un fornitore
+## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Per impostare uno sconto su fattura per un fornitore
 
 Una volta informati degli sconti su fattura concessi dai fornitori, immettere il codice sconto fattura nelle schede fornitore e impostare le condizioni per ciascun codice.
 
@@ -82,7 +82,7 @@ Una volta informati degli sconti su fattura concessi dai fornitori, immettere il
 
 Lo sconto fattura è ora impostato e assegnato al fornitore in questione. Quando selezioni il codice fornitore nel campo **Cod. sconto fatt.** nelle altre schede fornitore, lo stesso sconto fattura viene assegnato a quei fornitori.
 
-## Per scegliere una modalità di registrazione degli sconti di acquisto
+## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Per scegliere una modalità di registrazione degli sconti di acquisto
 
 Quando si registra una fattura di acquisto che include uno o più sconti, si può scegliere fra due modalità di registrazione degli importi dello sconto. Gli sconti possono essere registrati separatamente oppure possono essere sottratti dagli sconti fattura.  
 
@@ -98,7 +98,7 @@ Prima di effettuare questa operazione, è necessario avere precedentemente impos
 |**Sconti Riga**|Sottratti|Registrati separatamente|  
 |**Nessuno sconto**|Sottratti|Sottratti|  
 
-## Sconti fatture di acquisto e addebiti assistenza
+## <a name="purchase-invoice-discounts-and-service-charges"></a>Sconti fatture di acquisto e addebiti assistenza
 
 Se esistono condizioni fisse per gli sconti sulle fatture con un fornitore qualsiasi, è possibile immettere tali condizioni in relazione ai corrispondenti fornitori. Lo sconto verrà calcolato quando si compila una fattura di acquisto.  
 
@@ -115,7 +115,7 @@ Oltre a una percentuale di sconto, è possibile collegare l'importo di un addebi
 > [!TIP]  
 > Prima di immettere le informazioni, è opportuno preparare uno schema della struttura di sconto da utilizzare. In questo modo, sarà più semplice visualizzare quali fornitori si possono collegare alla stessa pagina dello sconto fattura. Minore è il numero delle pagine da impostare, più veloce risulta l'inserimento delle informazioni principali.
 
-## Calcolo del prezzo migliore
+## <a name="best-price-calculation"></a>Calcolo del prezzo migliore
 
 Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino.
 
@@ -138,7 +138,7 @@ Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che 
 
 Se non è possibile calcolare alcun prezzo speciale per l'articolo specificato nella riga, viene recuperato l'ultimo costo diretto o il prezzo unitario dalla scheda articolo immesso.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
