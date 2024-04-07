@@ -12,13 +12,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="intelligent-insights-and-cloud-migration-on-premises-only"></a>Informazioni intelligenti in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# Informazioni intelligenti in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Come utente di [!INCLUDE[prod_short](includes/prod_short.md)] online, si dispone di accesso completo agli scenari basati sul cloud intelligente, ad esempio KPI basati su Machine Learning o quando si visualizzano dati in Power BI.  
 
 Tuttavia, se usi [!INCLUDE [prod_short](includes/prod_short.md)] in locale, non hai accesso alle stesse informazioni. Se desideri trarre vantaggio dagli scenari online, devi eseguire la migrazione a [!INCLUDE [prod_short](includes/prod_short.md)] Online. Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo per [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in--online"></a>Visualizzazione di approfondimenti in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## Visualizzazione di approfondimenti in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] Online, la pagina **Informazioni su Cloud intelligente** mostra quattro punti chiave per la maggior parte delle aziende:
 
@@ -34,7 +34,7 @@ Accanto ai grafici KPI, si ottengono informazioni su potenziali aree problematic
 
 La pagina si connette anche a Power BI per ulteriori approfondimenti. Facoltativamente, connettiti ad Azure AI per informazioni ancora più intelligenti. Per ulteriori informazioni, vedi [L'estensione Previsione vendite e magazzino](ui-extensions-sales-forecast.md).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Benvenuto in Business Central](welcome.md)  
 [Estensioni per la migrazione al cloud](ui-extensions-data-replication.md)  
