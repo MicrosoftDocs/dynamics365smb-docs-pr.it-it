@@ -10,13 +10,13 @@ ms.search.forms: '7200, 7201'
 ms.date: 02/28/2024
 ms.service: dynamics-365-business-central
 ---
-# Connettersi a Microsoft Dataverse
+# <a name="connect-to-microsoft-dataverse"></a>Connettersi a Microsoft Dataverse
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Questo articolo descrive come impostare una connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. In genere, le aziende creano la connessione per integrare e sincronizzare i dati con un'altra app aziendale di Dynamics 365, ad esempio [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-## Operazioni preliminari
+## <a name="before-you-start"></a>Operazioni preliminari
 
 Prima di creare la connessione, è necessario disporre di alcune informazioni:  
 
@@ -32,13 +32,13 @@ Prima di creare la connessione, è necessario disporre di alcune informazioni:
 > Tali passaggi descrivono la procedura per [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > Se stai utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] locale e non stai utilizzando un account Microsoft Entra per connetterti a [!INCLUDE [cds_long_md](includes/cds_long_md.md)], devi anche specificare un nome utente e una password di un account utente per l'integrazione. Questo account viene definito account "utente integrazione". Se stai usando un account Microsoft Entra l'account utente di integrazione non è richiesto o visualizzato. L'utente dell'integrazione verrà impostato automaticamente e non richiede una licenza.
 
-## Collegare gli ambienti Business Central e Dataverse
+## <a name="link-your-business-central-and-dataverse-environments"></a>Collegare gli ambienti Business Central e Dataverse
 
 Le aziende desiderano mantenere i propri dati al sicuro e protetti entro i limiti della privacy, soprattutto quando la loro applicazione di gestione aziendale si integra con altre app. Collegando gli ambienti [!INCLUDE [prod_short](includes/prod_short.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)] , non solo otterrai tali considerazioni, ma offrirai anche ai tuoi amministratori un modo più semplice per creare e gestire le tue integrazioni con altre app Dynamics 365.
 
 Nell'interfaccia di amministrazione di [!INCLUDE [prod_short](includes/prod_short.md)], puoi collegare il tuo ambiente [!INCLUDE [prod_short](includes/prod_short.md)] al tuo ambiente [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. [!INCLUDE [prod_short](includes/prod_short.md)] può utilizzare le informazioni del collegamento per rendere più semplice e sicura l'integrazione con altre app Dynamics 365, come Sales e Field Service. Ad esempio, l'URL dell'ambiente [!INCLUDE [cds_long_md](includes/cds_long_md.md)] collegato è disponibile per impostazione predefinita nella pagina **Setup connessione Dataverse** e quando esegui la guida al setup assistito **Setup connessione Dataverse**.
 
-## Consentire valute diverse
+## <a name="allow-for-different-currencies"></a>Consentire valute diverse
 
 Le società [!INCLUDE [prod_short](includes/prod_short.md)] possono connettersi a un ambiente [!INCLUDE [cds_long_md](includes/cds_long_md.md)] che ha una valuta di base diversa dalla valuta locale.
 
@@ -61,7 +61,7 @@ Poiché la sincronizzazione della valuta è unidirezionale, da [!INCLUDE [prod_s
 * Se nella valuta di base [!INCLUDE [cds_long_md](includes/cds_long_md.md)], gli importi vengono convertiti nella valuta locale [!INCLUDE [prod_short](includes/prod_short.md)] in base all'ultimo tasso di cambio sincronizzato da [!INCLUDE [prod_short](includes/prod_short.md)].
 * Se nella valuta locale [!INCLUDE [prod_short](includes/prod_short.md)], gli importi si sincronizzano con la valuta locale [!INCLUDE [prod_short](includes/prod_short.md)] in una delle altre valute non di base in [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 
-## Impostazione connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## <a name="set-up-a-connection-to-"></a>Impostazione connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 Per tutti i tipi di autenticazione diversi dall'autenticazione di Microsoft 365, imposti la connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] nella pagina **Setup connessione a Dataverse**. Per l'autenticazione di Microsoft 365, è consigliabile utilizzare la guida del setup assistito **Setup connessione a Dataverse**. La guida rende più semplice configurare la connessione e specificare le funzionalità avanzate, ad esempio il modello di proprietà e la sincronizzazione iniziale.  
 
@@ -74,7 +74,7 @@ Per tutti i tipi di autenticazione diversi dall'autenticazione di Microsoft 365,
 >
 > Fornendo il consenso per conto dell'organizzazione, l'amministratore autorizza l'applicazione Azure registrata chiamata [!INCLUDE[prod_short](includes/prod_short.md)] Integration per [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a sincronizzare i dati usando le credenziali dell'utente dell'applicazione [!INCLUDE[prod_short](includes/prod_short.md)] Integration creato automaticamente.
 
-### Utilizzare la guida al setup assistito Setup connessione a Dataverse
+### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Utilizzare la guida al setup assistito Setup connessione a Dataverse
 
 La guida Setup connessione a Dataverse può semplificare la connessione delle applicazioni e può persino aiutarti a eseguire una sincronizzazione iniziale. Se scegli di eseguire la sincronizzazione iniziale, [!INCLUDE[prod_short](includes/prod_short.md)] esaminerà i dati in entrambe le applicazioni e fornirà suggerimenti sulla sincronizzazione iniziale. Nella seguente tabella vengono illustrati i suggerimenti.
 
@@ -94,7 +94,7 @@ La guida Setup connessione a Dataverse può semplificare la connessione delle ap
 > [!NOTE]
 > Se non viene richiesto di accedere con il proprio account amministratore, è probabile che i popup siano bloccati. Per accedere, consentire i popup da `https://login.microsoftonline.com`.
 
-### Per creare o gestire la connessione manualmente
+### <a name="to-create-or-maintain-the-connection-manually"></a>Per creare o gestire la connessione manualmente
 
 La procedura seguente illustra come configurare la connessione manualmente nella pagina **Setup connessione a Dataverse**. La pagina **Setup connessione a Dataverse** è dove gestisci le impostazioni di integrazione.
 
@@ -122,7 +122,7 @@ La procedura seguente illustra come configurare la connessione manualmente nella
 5. Se la sincronizzazione di [!INCLUDE[cds_long_md](includes/cds_long_md.md)] non è ancora impostata, verrà richiesto se si desidera utilizzare l'impostazione di sincronizzazione predefinita. A seconda se si desidera conservare o meno i record allineati in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] e [!INCLUDE[prod_short](includes/prod_short.md)]  scegliere **Sì** o **No**.
 
 <!--
-## Show Me the Process
+## <a name="show-me-the-process"></a>Show Me the Process
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
@@ -130,7 +130,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## Personalizzare l'accoppiamento basato sulla corrispondenza
+## <a name="customize-the-match-based-coupling"></a>Personalizzare l'accoppiamento basato sulla corrispondenza
 
 A partire dal secondo ciclo di rilascio del 2021, un amministratore può immettere i criteri per abbinare i record in base alle corrispondenze. Puoi avviare l'algoritmo per la corrispondenza dei record dai seguenti punti in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -162,7 +162,7 @@ In tutti e tre i casi, la pagina **Select Coupling Criteria** si apre in modo da
 
 * Specifica se creare una nuova istanza di entità in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] nel caso in cui non sia possibile trovare una corrispondenza unica non accoppiata utilizzando i criteri di corrispondenza. Per attivare questa capacità, scegli l'azione **Crea nuovo se non si trova accoppiamento** .  
 
-### Visualizza i risultati del lavoro di accoppiamento
+### <a name="view-the-results-of-the-coupling-job"></a>Visualizza i risultati del lavoro di accoppiamento
 
 Per visualizzare i risultati del lavoro di accoppiamento, aprire la pagina **Mappatura tabella integrazione**, selezionare la mappatura pertinente, scegliere l'azione **Accoppiamento** e poi scegliere l'azione **Registro lavoro accoppiamento integrazione** .  
 
@@ -189,7 +189,7 @@ In genere, l'accoppiamento non riesce per i seguenti motivi:
 > [!TIP]
 > Per aiutarti ad avere una panoramica sul progresso dell'accoppiamento, il campo **Associato a Dataverse** mostra se un record è accoppiato a un'entità [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Puoi usare il campo **Associato a Dataverse** per filtrare l'elenco dei record che stai sincronizzando.
 
-## Aggiornare le connessioni da Business Central Online per utilizzare l'autenticazione basata su certificato
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Aggiornare le connessioni da Business Central Online per utilizzare l'autenticazione basata su certificato
 
 > [!NOTE]
 > Questa sezione è rilevante solo per i locatari online [!INCLUDE[prod_short](includes/prod_short.md)] che sono ospitati da Microsoft. I tenant online ospitati dagli ISV e le installazioni locali non sono interessati.
@@ -198,7 +198,7 @@ Ad aprile 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] depreca il tipo
 
 Per evitare di interrompere le integrazioni, _devi aggiornare_ la connessione per utilizzare l'autenticazione basata su certificato. Sebbene la modifica sia prevista per marzo 2022, ti consigliamo vivamente di eseguire l'upgrade il prima possibile. I passaggi seguenti descrivono come eseguire l'aggiornamento all'autenticazione basata su certificato. 
 
-### Per aggiornare la connessione di Business Central online per utilizzare l'autenticazione basata su certificato
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Per aggiornare la connessione di Business Central online per utilizzare l'autenticazione basata su certificato
 
 1. A seconda dell'integrazione o meno con Dynamics 365 Sales, esegui una delle seguenti operazioni:
    * Se integri, apri la pagina **Setup connessione a Microsoft Dynamics 365**.
@@ -209,13 +209,13 @@ Per evitare di interrompere le integrazioni, _devi aggiornare_ la connessione pe
 > [!NOTE]
 > Devi ripetere questi passaggi in ciascun ambiente [!INCLUDE[prod_short](includes/prod_short.md)], compresi gli ambienti di produzione e sandbox, e in ogni azienda per cui hai una connessione a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## Connessione alle versioni locali
+## <a name="connecting-on-premises-versions"></a>Connessione alle versioni locali
 
 Per connettere [!INCLUDE[prod_short](includes/prod_short.md)] on-premises a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], è necessario specificare alcune informazioni nella pagina **Setup connessione a Dataverse**.
 
 Per connettersi usando un account Microsoft Entra, devi registrare un'applicazione in Microsoft Entra ID. Dovrai fornire l'ID applicazione, il segreto del key vault e l'URL di reindirizzamento da usare. L'URL di reindirizzamento è precompilato e dovrebbe funzionare per la maggior parte delle installazioni. È necessario configurare l'installazione per utilizzare HTTPS. Per ulteriori informazioni, vedere [Configurazione di SSL per proteggere la connessione client Web di Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Se stai configurando il server in modo da avere una home page diversa, puoi cambiare l'URL. Il segreto del client verrà salvato come stringa crittografata nel database. 
 
-### Per registrare un'applicazione in Microsoft Entra ID per la connessione da Business Central a Dataverse
+### <a name="to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-dataverse"></a>Per registrare un'applicazione in Microsoft Entra ID per la connessione da Business Central a Dataverse
 
 I seguenti passaggi presuppongono che si stia utilizzando Microsoft Entra ID per gestire identità e accesso. Per ulteriori informazioni sulla registrazione di un'applicazione in Microsoft Entra ID, vedi [Avvio rapido: registrare un'applicazione con la piattaforma di identità Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -238,12 +238,12 @@ I seguenti passaggi presuppongono che si stia utilizzando Microsoft Entra ID per
    > [!NOTE]
    > Se non viene richiesto di accedere con l'account amministratore, è probabile che i popup siano bloccati. Per accedere, consentire i popup da `https://login.microsoftonline.com`.
 
-### Per disconnettersi da [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### <a name="to-disconnect-from-"></a>Per disconnettersi da [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup connessione a Dataverse**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup connessione a Dataverse**, disattiva l'opzione **Abilitato**.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Visualizzare lo stato di una sincronizzazione](admin-how-to-view-synchronization-status.md)  
 

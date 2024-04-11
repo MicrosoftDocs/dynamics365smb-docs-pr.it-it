@@ -11,7 +11,7 @@ ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# Monitorare l'avanzamento e le prestazioni dei progetti
+# <a name="monitor-project-progress-and-performance"></a>Monitorare l'avanzamento e le prestazioni dei progetti
 
 La funzionalità WIP (Work in Process) consente di stimare il valore finanziario dei progetti in corso nella contabilità generale.
 
@@ -28,7 +28,7 @@ Durante lo svolgimento di un progetto, vengono consumati materiali, risorse ed e
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## creare un metodo WIP progetto
+## <a name="create-a-project-wip-method"></a>creare un metodo WIP progetto
 
 Creare un metodo WIP progetto che corrisponda alle esigenze dell'organizzazione e impostarlo come predefinito.  
 
@@ -41,7 +41,7 @@ Creare un metodo WIP progetto che corrisponda alle esigenze dell'organizzazione 
 4. Per rendere predefinito questo nuovo metodo, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup progetti**, quindi scegli il collegamento correlato.  
 5. Nel campo **Metodo WIP di default** , selezionare il metodo dall'elenco.
 
-## Definire un metodo WIP per un progetto
+## <a name="define-a-wip-method-for-a-project"></a>Definire un metodo WIP per un progetto
 
 Quando si crea un nuovo progetto, è necessario specificare il metodo WIP progetto da applicare. In alcuni casi, il metodo WIP progetto utilizzato è già impostato come predefinito.
 
@@ -49,7 +49,7 @@ Quando si crea un nuovo progetto, è necessario specificare il metodo WIP proget
 2. Scegli l'azione **Nuovo**. Per ulteriori informazioni vedere [Creare progetti](projects-how-create-jobs.md).  
 3. Nella pagina **Scheda progetto**, nel campo **Metodo WIP**, selezionare un metodo WIP dall'elenco. Se è stato definito un metodo di default, è possibile selezionare un'altra opzione, se necessario.  
 
-### Definire un metodo WIP per un'attività di progetto
+### <a name="define-a-wip-method-for-a-project-task"></a>Definire un metodo WIP per un'attività di progetto
 
 Puoi definire un metodo WIP per un'attività di progetto, escludere alcune attività di progetto dal calcolo WIP o raggruppare le attività da calcolare insieme. 
 
@@ -94,7 +94,7 @@ Noterai:
 
 * Da *1300* a *1399*: il calcolo del WIP viene eseguito separatamente per questo gruppo di attività di progetto.
 
-## Calcola WIP
+## <a name="calculate-wip"></a>Calcola WIP
 
 È possibile determinare l'importo WIP che deve essere registrato per i conti patrimoniali per il reporting di fine periodo. A tale scopo, utilizzare il progetto batch **Progetto - Calcola WIP**.  
 
@@ -106,7 +106,7 @@ Noterai:
 > [!NOTE]  
 > Il progetto batch calcola solo il WIP, ma non ne esegue la registrazione nella contabilità generale. Per registrarlo, è necessario eseguire il progetto batch **Registra WIP in C/G** dopo avere calcolato il WIP. Ulteriori informazioni nella procedura riportata di seguito.
 
-## Registra WIP
+## <a name="post-wip"></a>Registra WIP
 
 Dopo avere calcolato il WIP, è possibile registrarlo nei conti patrimoniali per il reporting di fine periodo. A tale scopo, utilizzare il progetto batch **Progetto - Registra WIP in C/G**.
 
@@ -114,7 +114,7 @@ Dopo avere calcolato il WIP, è possibile registrarlo nei conti patrimoniali per
 2. Nella pagina **Progetto - Registra WIP in C/G** compilare i campi come necessario.  
 3. Scegli il pulsante **OK**.
 
-## Calcolare e registrare movimenti di completamento di progetti
+## <a name="calculate-and-post-project-completion-entries"></a>Calcolare e registrare movimenti di completamento di progetti
 
 Al termine di tutte le operazioni di registrazione e fatturazione dell'utilizzo per un progetto, è necessario aggiornare lo stato del progetto di modo che sia **Completato**. Successivamente, è necessario stornare eventuali WIP registrati nella contabilità generale.
 
@@ -131,7 +131,7 @@ Al termine di tutte le operazioni di registrazione e fatturazione dell'utilizzo 
 
      Per i movimenti C/G WIP progetto creati tramite l'esecuzione del progetto batch la casella di controllo **Progetto completato** sarà selezionata, a indicare che si tratta di movimenti di completamento.
 
-## Visualizzare movimenti contabili progetto
+## <a name="view-project-ledger-entries"></a>Visualizzare movimenti contabili progetto
 
 Tutti i movimenti correlati a un progetto vengono registrati nei registri progetti e numerati in sequenza a partire da 1. Dal registro progetti è possibile ottenere una panoramica di tutti i movimenti contabili progetto.    
 
@@ -140,7 +140,7 @@ Tutti i movimenti correlati a un progetto vengono registrati nei registri proget
 
 Nella pagina **Movimenti contabili progetto** è possibile esaminare i movimenti associate a qualsiasi progetto.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Procedura dettagliata: Calcolo del valore WIP per un progetto](walkthrough-calculating-work-in-process-for-a-job.md)
 [Gestione di progetti](projects-manage-projects.md)  

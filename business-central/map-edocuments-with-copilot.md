@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot (anteprima)
+# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot (anteprima)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ Ora puoi aggiornare un ordine di acquisto esistente in Business Central con le i
 > - AI-generated content may be incorrect.-->
 
 
-## Identificare ordini di acquisto
+## <a name="identify-purchase-orders"></a>Identificare ordini di acquisto
 
 Innanzitutto, puoi identificare gli ordini di acquisto per i quali puoi trovare automaticamente una corrispondenza.
 
-## Mappare le righe
+## <a name="map-lines"></a>Mappare le righe
 
 Copilot ti aiuta a trovare automaticamente una corrispondenza tra le righe della fattura elettronica e le righe di ordine di acquisto e offre informazioni aggiuntive sulla corrispondenza per migliorare le corrispondenze.
 
 Una volta trovata la corrispondenza ed eseguito il mapping, Business Central aggiorna l'ordine di acquisto corrispondente con le informazioni sul carico pertinenti per garantire che nelle righe di ordine vengano ricevute le quantità corrette.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica dei documenti elettronici](finance-edocuments-overview.md)  
 [Utilizzare documenti elettronici nelle vendite e negli acquisti](finance-how-use-edocuments.md)  

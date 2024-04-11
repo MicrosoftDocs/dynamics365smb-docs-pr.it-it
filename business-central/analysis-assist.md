@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Analizzare i dati negli elenchi con Copilot (anteprima)
+# <a name="analyze-data-in-lists-with-help-from-copilot-preview"></a>Analizzare i dati negli elenchi con Copilot (anteprima)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -18,7 +18,7 @@ Questo articolo spiega come utilizzare l'*assistenza all'analisi* per analizzare
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Informazioni sull'assistenza all'analisi
+## <a name="about-analysis-assist"></a>Informazioni sull'assistenza all'analisi
 
 L'assistenza all'analisi è un copilota per la [modalità di analisi](analysis-mode.md) nelle pagine di elenco in Business Central. La modalità di analisi fornisce un modo interattivo e versatile per calcolare, riassumere ed esaminare i dati. Per analizzare i dati nella modalità di analisi, crei una scheda *analisi* in cui trasformi i dati per visualizzare le aggregazioni e i riepiloghi desiderati. Ad esempio, puoi organizzare i campi in righe e colonne, specificare filtri, ordinare colonne ed eseguire il pivot nei campi. Con l'assistenza all'analisi, invece di svolgere questa attività manualmente, ottieni più o meno lo stesso, o almeno inizialmente, utilizzando parole. Esprimendo la struttura desiderata in linguaggio naturale, ad esempio "ordina in base alla quantità dal più piccolo al più grande" o "mostra il costo medio per categoria", l'assistenza all'analisi utilizza l'intelligenza artificiale per generare un layout suggerito in una scheda di analisi.
 
@@ -27,7 +27,7 @@ L'assistenza all'analisi è un copilota per la [modalità di analisi](analysis-m
 
  However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
 --> 
-## Prerequisiti
+## <a name="prerequisites"></a>Prerequisiti
 
 - La funzionalità di assistenza all'analisi è attivata e ti vengono concesse le autorizzazioni per utilizzarla. Questa attività viene in genere eseguita da un amministratore. [Vedi qui per ulteriori informazioni sulla configurazione delle funzionalità di Copilot e IA](enable-ai.md).
 - La lingua di visualizzazione in Business Central è impostata su una delle seguenti impostazioni locali inglesi: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Scorpi di più sulla modifica della lingua](ui-change-basic-settings.md#language).
@@ -37,7 +37,7 @@ L'assistenza all'analisi è un copilota per la [modalità di analisi](analysis-m
 > [!NOTE]
 > You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
 
-## Introduzione
+## <a name="get-started"></a>Introduzione
 
 1. Apri la pagina di elenco da analizzare.
 
@@ -69,7 +69,7 @@ L'assistenza all'analisi è un copilota per la [modalità di analisi](analysis-m
 
 1. Se vuoi salvare la scheda di analisi, seleziona **Mantieni**. Se non la vuoi salvare, seleziona **Elimina**.
 
-## Suggerimenti ed esempi di prompt
+## <a name="prompt-tips-and-examples"></a>Suggerimenti ed esempi di prompt
 
 La creazione di prompt efficaci per Copilot è essenziale per ottenere suggerimenti di analisi accurati e pertinenti. Esistono anche modi per ridurre al minimo il testo che aggiungi nei prompt per rendere più veloce la digitazione. Ecco alcuni suggerimenti e linee guida seguiti da alcuni esempi:
 
@@ -81,7 +81,7 @@ La creazione di prompt efficaci per Copilot è essenziale per ottenere suggerime
 - Sono consentite abbreviazioni comuni.
 - L'uso di maiuscolo e/o minuscolo non è importante.
 
-### Esempi
+### <a name="examples"></a>Esempi
 
 I seguenti esempi di prompt utilizzano l'assistenza all'analisi nell'elenco **Articoli**. La pagina degli articoli include tre campi sommabili per l'analisi: **Giacenza**, **Costo unitario**, **Prezzo unitario**.
 
@@ -97,7 +97,7 @@ Prompt: `Show total quantity per type per UoM`
 
 Questo prompt crea una tabella pivot nel campo **Giacenza** per **Unità di misura base** per **Tipo**.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Domande frequenti sull'intelligenza artificiale responsabile per l'assistenza all'analisi](faqs-analysis-assist.md)  
 [Analisi dei dati ad hoc](reports-adhoc-analysis.md)  

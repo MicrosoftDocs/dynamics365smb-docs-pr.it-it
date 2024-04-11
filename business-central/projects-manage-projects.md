@@ -9,7 +9,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gestione progetti
+# <a name="project-management"></a>Gestione progetti
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] è possibile eseguire attività comuni di gestione progetti, quali la configurazione di un progetto o la programmazione di una risorsa, nonché la predisposizione di informazioni necessarie alla gestione dei budget e al monitoraggio degli stati di avanzamento. È possibile tenere traccia delle ore macchina e di personale nel progetto utilizzando fogli presenze. In qualità di responsabile progetto, è possibile disporre di un quadro completo non solo di singoli progetti, ma anche dell'allocazione di dipendenti, macchine e altre risorse utilizzati in tutti i progetti.
 
@@ -29,11 +29,11 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Registrare il consumo di materiali, risorse e altre spese del WIP progetto per monitorare il valore finanziario e per gestire i rendiconti finanziari corretti anche se si registrano delle spese progetto prima di fatturare il progetto. |[Monitorare l'avanzamento e le prestazioni dei progetti](projects-how-monitor-progress-performance.md) |
 | Registrare i costi del progetto per l'utilizzo di risorse, materiali e acquisti correlati al progetto su base continuativa e fatturare al cliente, anche quando il progetto è terminato o in base a una pianificazione di fatturazione. |[Fatturare un progetto](projects-how-invoice-jobs.md) |
 
-## Introduzione ai progetti
+## <a name="get-started-with-projects"></a>Introduzione ai progetti
 
 La gestione dei progetti è di per sé complicata e apprendere a come creare progetti e a gestire il WIP in un nuovo strumento può essere un'ulteriore complicazione. Per istruzioni su come iniziare con la gestione dei progetti in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile guardare [un video su come creare progetti](https://www.youtube.com/watch?v=VqaPWr7BWmw) sul canale [!INCLUDE[prod_short](includes/prod_short.md)] di YouTube.  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Impostazione della Gestione progetti](projects-setup-projects.md)  
 [Video: Come creare un progetto in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
