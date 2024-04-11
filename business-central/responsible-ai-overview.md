@@ -1,7 +1,7 @@
 ---
 title: Domande frequenti sull'intelligenza artificiale responsabile per Dynamics 365 Business Central
 description: 'Le domande frequenti sull''intelligenza artificiale responsabile forniscono informazioni sulla tecnologia di intelligenza artificiale utilizzata in Business Central, insieme a considerazioni e dettagli chiave su come viene utilizzata l''intelligenza artificiale, come è stata testata e valutata ed eventuali limitazioni specifiche.'
-ms.date: 10/29/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -18,5 +18,9 @@ ms.collection:
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
+- [Assistenza all'analisi (anteprima)](faqs-analysis-assist.md)
 - [Assistenza per la riconciliazione dei conti correnti bancari (anteprima)](faqs-bank-reconciliation.md)
+- [Chat con Copilot (anteprima)](faqs-chat-with-copilot.md)
 - [Suggerimenti di testo di marketing](faqs-marketing-text.md)
+- [Suggerimenti per le righe di vendita con Copilot (anteprima)](faq-sales-suggest-sales-lines-with-copilot.md)
+- [Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot (anteprima)](map-edocuments-with-copilot.md)

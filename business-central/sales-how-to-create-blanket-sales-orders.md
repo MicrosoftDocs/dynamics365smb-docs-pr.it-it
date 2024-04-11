@@ -1,15 +1,15 @@
 ---
-title: Utilizzare gli ordini di vendita programmati o gli ordini di acquisto
+title: Utilizzare ordini di vendita programmati o ordini di acquisto
 description: Gli ordini programmati vengono utilizzati quando un cliente si impegna ad acquistare grandi quantità che verranno consegnate con diverse spedizioni più piccole effettuate in un determinato periodo di tempo. Lo stesso vale per l'acquisto.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Utilizzare gli ordini di vendita programmati o gli ordini di acquisto programmati
+# Utilizzare ordini di vendita programmati o ordini di acquisto programmati
 
 Un ordine di vendita programmato rappresenta la struttura di un accordo a lungo termine fra la società e un cliente. Allo stesso modo, utilizzare gli ordini di acquisto programmati per gestire contratti a lungo termine tra l'utente e il fornitore.
 
@@ -34,7 +34,7 @@ Nell'ordine programmato ogni singola spedizione può essere impostata come riga 
 
 1. Per creare un ordine per una delle righe nell'ordine di vendita programmato, rimuovere la quantità dal campo **Qtà da spedire** di tutte le righe che al momento non si desidera spedire.  
 2. Per creare gli ordini, scegliere l'azione **Crea ordine** e quindi **Sì**. Verrà visualizzato un messaggio che informa che all'ordine programmato è stato assegnato un numero di ordine. Si osservi che l'ordine programmato non è stato eliminato.  
-3. Scegliere il pulsante **OK**.  
+3. Scegli il pulsante **OK**.  
 4. Per visualizzare i risultati dei passaggi precedenti, scegliere l'azione **Riga**, l'azione **Righe non registrate** e l'azione **Ordini**.  
 5. Nella pagina **Righe vendita** selezionare l'ordine di vendita appropriato e scegliere l'azione **Riga** e l'azione **Mostra documento**.  
 
@@ -51,7 +51,7 @@ Quanto segue si applica agli ordini di vendita creati da ordini di vendita progr
 
 ## Per visualizzare lo stato di un ordine di vendita programmato
 
-È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche ordini vendita programmati**. Ciò può risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di vendita programmato.  
+È possibile visualizzare lo stato di un ordine di vendita programmato nella pagina **Statistiche ordini vendita programmati**. Ciò potrebbe risultare utile quando si avvia la fatturazione dell'ordine creato dall'ordine di vendita programmato.  
 
 1.  Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita programmati**, quindi scegli il collegamento correlato.  
 2.  Selezionare un ordine di vendita programmato quindi scegliere l'azione **Statistiche**.  

@@ -2,21 +2,22 @@
 title: 'Impostare capacità, prezzi, costi delle risorse del progetto'
 description: 'Per utilizzare le risorse e semplificare la gestione dei progetti, specificare i costi e i prezzi per le singole risorse o i gruppi di risorse e impostare la capacità della risorsa.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '72, 76, 77, 203, 204'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Impostazione delle risorse per i progetti
+# Impostare risorse per progetti
 
-Per gestire correttamente le attività delle risorse, è necessario impostare le risorse, nonché i costi e i prezzi correlati. I prezzi, gli sconti e le regole dei fattori di costi correlati a una commessa vengono impostati nella scheda commessa. È possibile specificare i costi e i prezzi per singole risorse, gruppi di risorse oppure per tutte le risorse disponibili della società.
+Per gestire correttamente le attività delle risorse, è necessario impostare le risorse, nonché i costi e i prezzi correlati. I prezzi, gli sconti e le regole dei fattori di costi correlati a una un progetto vengono impostati nella scheda progetto. È possibile specificare i costi e i prezzi per singole risorse, gruppi di risorse oppure per tutte le risorse disponibili della società.
 
-Quando le risorse vengono utilizzate o vendute nell'ambito di una commessa, i prezzi e i costi ad esse associati vengono recuperati dalle informazioni impostate.
+Quando le risorse vengono utilizzate o vendute nell'ambito di un progetto, i prezzi e i costi ad esse associati vengono recuperati dalle informazioni impostate.
 
-L'importo orario di default viene specificato durante la creazione della risorsa. Se, ad esempio, si utilizza per cinque ore un macchinario per l'esecuzione di una commessa, quest'ultima verrà calcolata sulla base dell'importo orario.
+L'importo orario di default viene specificato durante la creazione della risorsa. Se, ad esempio, si utilizza per cinque ore un macchinario per l'esecuzione di un progetto, quest'ultimo verrà calcolato sulla base dell'importo orario.
 
 > [!NOTE]
 > Puoi acquistare risorse esterne, ad esempio, per fatturare a un fornitore per il lavoro eseguito. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).<br /><br />
@@ -42,9 +43,9 @@ Creare una scheda per ogni risorsa che si desidera utilizzare nei progetti.
 
 ## Per impostare la capacità per una risorsa
 
-Per calcolare quanto tempo una risorsa può dedicare alle commesse, la relativa capacità deve essere prima impostata come tempo disponibile per periodo nel calendario di produzione. Questa impostazione è utilizzata quando si compilano le righe di pianificazione commessa che contengono la risorsa. Per ulteriori informazioni, vedere [Creare le commesse](projects-how-create-jobs.md).
+Per calcolare quanto tempo una risorsa può dedicare ai progetti, la relativa capacità deve essere prima impostata come tempo disponibile per periodo nel calendario di produzione. Questa impostazione è utilizzata quando si compilano righe di pianificazione progetto che contengono la risorsa. Per ulteriori informazioni, vedi [Creare progetti](projects-how-create-jobs.md).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse**, quindi scegli il collegamento correlato.
 2. Aprire la scheda risorsa interessata e scegliere l'azione **Capacità risorsa**.
 3. Nella pagina **Capacità risorsa** nel campo **Visualizza per** specificare la durata del periodo, ad esempio **giorno**, che viene visualizzato nelle colonne della Scheda dettaglio **Matrice capacità risorse**.
 4. Per ogni risorsa di una riga, specificare per ogni periodo nelle colonne il numero di ore per cui la risorsa è disponibile.
@@ -66,9 +67,9 @@ Oltre al costo specificato nella scheda risorsa, è possibile impostare dei cost
 
 ## Per impostare prezzi di risorsa alternativi
 
-Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei prezzi alternativi per ogni risorsa. Questi prezzi alternativi possono essere condizionali. Possono dipendere dal fatto che la risorsa sia utilizzata con un tipo di lavoro o una commessa specifica.
+Oltre al prezzo specificato nella scheda risorsa, è possibile impostare dei prezzi alternativi per ogni risorsa. Questi prezzi alternativi possono essere condizionali. Possono dipendere dal fatto che la risorsa sia utilizzata con un tipo di lavoro o progetto specifico.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Risorse**, quindi scegli il collegamento correlato.
 2. Selezionare la risorsa per la quale si desidera impostare uno o più prezzi alternativi, quindi scegliere l'azione **Prezzi**.
 3. Nella pagina **Prezzi risorse** compilare i campi in una riga in base alle esigenze.
 4. Ripetere il passaggio 3 per ogni prezzo di risorsa alternativo che si desidera impostare.

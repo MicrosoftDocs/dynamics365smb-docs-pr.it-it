@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
-ms.date: 04/01/2021
+ms.date: 02/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -28,7 +28,7 @@ Una volta completate le righe e immesse tutte le informazioni nell'ordine di ven
 
 Quando un ordine di acquisto viene registrato, il conto del cliente, la contabilità generale e i movimenti contabili articoli vengono aggiornati.
 
-Per ciascun ordine di vendita viene creato un movimento di vendita nella tabella **Movimenti C/G**. Vengono inoltre creati un movimento nel conto del cliente nella tabella **Mov. contabili clienti** e un movimento C/G nel relativo conto crediti. Infine, la registrazione dell'ordine potrebbe generare un movimento IVA e un movimento di contabilità generale relativi all'importo dello sconto. La registrazione di un movimento relativo allo sconto dipende dal contenuto del campo **Registrazione sconti** della pagina **Setup contabilità clienti**.
+Per ciascun ordine di vendita viene creato un movimento di vendita nella tabella **Movimenti C/G**. Vengono inoltre creati un movimento nel conto del cliente nella tabella **Mov. contabili clienti** e un movimento C/G nel relativo conto crediti. Inoltre, la registrazione dell'ordine potrebbe generare un movimento IVA e un movimento di contabilità generale relativi all'importo dello sconto. La registrazione di un movimento relativo allo sconto dipende dal contenuto del campo **Registrazione sconti** della pagina **Setup contabilità clienti**.
 
 Per ciascuna riga dell'ordine di vendita, verrà creato un movimento contabile articolo nella tabella **Mov. contabili articoli** (se le righe di vendita contengono numeri di articolo) oppure un movimento C/G nella tabella **Movimenti C/G** (se le righe di vendita contengono un conto C/G). Inoltre, gli ordini vendita vengono sempre registrati nelle tabelle **Testate sped. vendita** e **Testate Fatt. Vendita**.
 
@@ -46,7 +46,7 @@ Nella maggior parte dei casi, è possibile aprire i movimenti contabili dalla sc
 
 È possibile modificare determinati campi nei documenti di acquisto registrati, come ad esempio **Nr. identificazione collo** . Per ulteriori informazioni, vedere [Modificare i documenti registrati](across-edit-posted-document.md). Per i campi più critici che influiscono sulla traccia di controllo, è necessario stornare o annullare la registrazione. Per ulteriori informazioni, vedere [Stornare le registrazioni e annullare carichi/spedizioni errati](finance-how-reverse-journal-posting.md).
 
-## Vedi anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Registrare più documenti contemporaneamente](ui-batch-posting.md)  

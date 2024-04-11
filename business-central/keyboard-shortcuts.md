@@ -22,7 +22,6 @@ Per una panoramica dei tasti di scelta rapida più utilizzati, vedere [Tasti di 
 > [ ![Icona per il file PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Icona che apre un PDF")
 
 
-
 ## Sintesi
 
 I tasti di scelta rapida agevolano l'accessibilità e rendono più semplice ed efficace la navigazione in differenti aree ed elementi in una pagina. Questi tasti di scelta rapida sono supportati dalla maggior parte dei Web browser, tuttavia, il comportamento potrebbe variare leggermente.
@@ -194,12 +193,12 @@ Quando si imposta un campo data, è possibile inserire la data manualmente o apr
 |--------------------------------|----------|
 |<kbd>CTRL</kbd>+<kbd>Home</kbd>|Aprire il calendario se chiuso. **Nota**: non funziona se il campo della data si trova in una griglia, in cui <kbd>CTRL</kbd>+<kbd>Home</kbd> passa alla prima riga.|
 |<kbd>CTRL</kbd>+<kbd>Home</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Spostare il cursore al mese corrente, al giorno corrente.|
-|<kbd>CTRL</kbd>+<kbd>Freccia SINISTRA</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Freccia SINISTRA</kbd>)|Sposta il cursore al giorno precedente.|
-|<kbd>CTRL</kbd>+<kbd>Freccia DESTRA</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Freccia DESTRA</kbd>)|Spostare il cursore al giorno successivo.|
-|<kbd>CTRL</kbd>+<kbd>Freccia SU</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Freccia SU</kbd>)|Spostare il cursore alla settimana precedente, lo stesso giorno della settimana.|
-|<kbd>CTRL</kbd>+<kbd>Freccia GIÙ</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Freccia GIÙ</kbd>)|Spostare il cursore alla settimana successiva, lo stesso giorno della settimana.|
+|<kbd>Freccia sinistra</kbd><br /><br />(<kbd>Freccia SINISTRA</kbd>)|Sposta il cursore al giorno precedente.|
+|<kbd>Freccia destra</kbd><br /><br />(<kbd>Freccia DESTRA</kbd>)|Spostare il cursore al giorno successivo.|
+|<kbd>Freccia su</kbd><br /><br />(<kbd>Freccia SU</kbd>)|Spostare il cursore alla settimana precedente, lo stesso giorno della settimana.|
+|<kbd>Freccia GIÙ</kbd><br /><br />(<kbd>Freccia GIÙ</kbd>)|Spostare il cursore alla settimana successiva, lo stesso giorno della settimana.|
 |<kbd>Immettere</kbd>|Selezionare la data attiva.|
-|<kbd>CTRL</kbd>+<kbd>Fine</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Fine</kbd>)|Chiudere il calendario ed eliminare la data corrente.|
+|<kbd>Fine</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Fine</kbd>)|Chiudere il calendario ed eliminare la data corrente.|
 |<kbd>ESC</kbd>|Chiudere il calendario senza una selezione, mantenere la data corrente.|
 |<kbd>Pagina giù</kbd>|Spostare il cursore al mese successivo.|
 |<kbd>Pagina su</kbd>|Spostare il cursore al mese precedente.|  

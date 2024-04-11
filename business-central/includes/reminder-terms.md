@@ -1,8 +1,8 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/15/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-È possibile impostare un numero qualsiasi di termini di sollecito. Ogni set di termini è identificato da un codice. Ogni termine di sollecito ha un livelli di sollecito predefinito. e ogni livello include le regole relative all'emissione del sollecito, ad esempio il numero di giorni dopo la data di scadenza della fattura o dopo la data del sollecito precedente.
+Per gestire scadenzari clienti, puoi impostare termini di sollecito e assegnarli ai clienti. I termini di sollecito ti consentono di controllare il funzionamento della procedura di sollecito. Ogni termine di sollecito include una serie di livelli di sollecito che definisci. I livelli di sollecito includono regole su quando verrà emesso il sollecito, quali commissioni da addebitare e se calcolare gli interessi. I livelli di sollecito includono anche un'impostazione per il periodo di dilatazione che ti garantisce di non inviare un sollecito per una fattura già pagata da un cliente.

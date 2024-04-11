@@ -51,6 +51,10 @@ Per le istanze esistenti di [!INCLUDE[prod_short](../includes/prod_short.md)], q
 2. Scegli l'azione **Nuovo**.  
 3. Nel campo **Codice**, inserisci un codice che lo renderà facilmente reperibile in [!INCLUDE[prod_short](../includes/prod_short.md)]. Il nome potrebbe riflettere ciò che un negozio vende, ad esempio "Mobili" o "Caffè", oppure il paese o la regione in cui opera.
 4. Nel campo **URL Shopify**, immetti l'URL del punto vendita online a cui desideri connetterti. Usa il seguente formato: `https://{shop}.myshopify.com/`.
+
+   > [!TIP]
+   > Puoi copiare l'URL dall'amministrazione di Shopify, come `https://admin.shopify.com/store/{shop}`, e il connettore lo convertirà nel formato richiesto.
+
 5. Attiva l'interruttore **Abilitato** quindi rivedi e accetta i termini e le condizioni.
 6. Se richiesto, accedi al tuo account Shopify. Dopo aver esaminato la privacy e le autorizzazioni, scegli il pulsante **Installa app**.
 
@@ -69,8 +73,8 @@ Ripeti i passaggi 2-6 per tutti i negozi online che si desidera collegare.
 
 Ora il tuo negozio online è connesso a [!INCLUDE[prod_short](../includes/prod_short.md)]. Nei passaggi successivi definirai come e cosa sincronizzare.
 
-- [Sincronizzazione elementi](synchronize-items.md)
-- [Sincronizzare clienti](synchronize-customers.md)
+- [Sincronizzare articoli e inventario](synchronize-items.md)
+- [Sincronizza clienti](synchronize-customers.md)
 - [Sincronizzare ordini](synchronize-orders.md)
 
 ## Strategie di test

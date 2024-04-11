@@ -21,8 +21,8 @@ Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelie
 
 Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di un flusso di lavoro in cui una persona che sta elaborando un ordine li crea in modalità push o l'addetto alla warehouse li crea in modalità pull:
 
-- In una modalità push, dove usi l'azione **Crea prelievo** nella pagina **Ordine di produzione**, **Ordine di assemblaggio**, **Scheda commessa**. Seleziona le righe da prelevare e prepara i prelievi specificando, ad esempio, le collocazioni da cui prelevare, quelle in cui inserire e il numero di unità da gestire. Le collocazioni possono essere predefinite per l'ubicazione o la risorsa warehouse.
-- In modalità pull, dove rilasci un **Ordine di produzione**, **Ordine di assemblaggio**, **Scheda commessa** alla warehouse che rende gli articoli disponibili per il prelievo. Quindi, nella pagina **Prospetto prelievi**, i dipendenti della warehouse possono utilizzare l'azione **Prendi documenti warehouse** per prendere i prelievi assegnati.
+- In una modalità push, dove usi l'azione **Crea prelievo** nella pagina **Ordine di produzione**, **Ordine di assemblaggio**, **Scheda progetto**. Seleziona le righe da prelevare e prepara i prelievi specificando, ad esempio, le collocazioni da cui prelevare, quelle in cui inserire e il numero di unità da gestire. Le collocazioni possono essere predefinite per l'ubicazione o la risorsa warehouse.
+- In modalità pull, dove rilasci un **Ordine di produzione**, **Ordine di assemblaggio**, **Scheda progetto** alla warehouse che rende gli articoli disponibili per il prelievo. Quindi, nella pagina **Prospetto prelievi**, i dipendenti della warehouse possono utilizzare l'azione **Prendi documenti warehouse** per prendere i prelievi assegnati.
 
 Per prelevare o spostare i componenti per i documenti di origine in modalità pull, è necessario rilasciare il documento di origine per renderlo pronto per il prelievo. Rilasciare i documenti di origine per le operazioni interne nei seguenti modi.  
 
@@ -52,7 +52,7 @@ Utilizza i documenti **Prelievo warehouse** per spostare i componenti dell'assem
 Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di commessa nel flusso verso la gestione progetti.
 
 > [!NOTE]
-> È stata aggiunta la possibilità di selezionare i componenti per le righe di pianificazione commesse in [!INCLUDE[d365fin](includes/d365fin_md.md)] nel secondo ciclo di rilascio del 2022. Per iniziare a utilizzare la funzionalità, un amministratore deve attivare **Aggiornamento funzionalità: abilitazione del prelievo magazzino e warehouse da commesse** nella pagina **Gestione funzionalità**.
+> È stata aggiunta la possibilità di selezionare i componenti per le righe di pianificazione progetto in [!INCLUDE[d365fin](includes/d365fin_md.md)] nel secondo ciclo di rilascio del 2022. Per iniziare a utilizzare la funzionalità, un amministratore deve attivare **Aggiornamento funzionalità: abilitazione del prelievo magazzino e warehouse da commesse** nella pagina **Gestione funzionalità**.
 >
 > Le commesse non supportano le configurazioni avanzate in cui l'interruttore **Prelievo e stoccaggio diretti** è attivato.
 
@@ -135,11 +135,11 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 
 4. Dopo avere prelevato e posizionato gli articoli nell'area di produzione, assemblaggio o commessa o nella collocazione, scegli l'azione **Registra prelievo**.  
 
-    È ora possibile portare gli articoli nella rispettiva area e registrare l'utilizzo o il consumo dei componenti prelevati contabilizzando le registrazioni consumi, l'ordine di assemblaggio o il giornale commesse. Per ulteriori informazioni, vedi i seguenti articoli:
+    È ora possibile portare gli articoli nella rispettiva area e registrare l'utilizzo o il consumo dei componenti prelevati contabilizzando le registrazioni consumi, l'ordine di assemblaggio o la registrazione progetti. Per ulteriori informazioni, vedi i seguenti articoli:
 
     * [Registrare i consumi e l'output relativi a una singola riga dell'ordine di produzione rilasciato](production-how-to-register-consumption-and-output.md)
     * [Assemblare articoli](assembly-how-to-assemble-items.md)
-    * [Registrare il consumo o l'uso per i lavori](projects-how-record-job-usage.md)
+    * [Registrare il consumo o l'uso per i progetti](projects-how-record-job-usage.md)
 
 ## Consuntivazione dei componenti di produzione in una configurazione warehouse avanzata
 

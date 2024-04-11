@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: rfq
 ms.search.form: '142, 800, 806'
-ms.date: 06/23/2021
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -30,7 +30,7 @@ La seguente procedura mostra come tenere traccia di un collo da una spedizione d
 [Impostare gli spedizionieri](sales-how-to-set-up-shipping-agents.md)  
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Inviare documenti tramite e-mail](ui-how-send-documents-email.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

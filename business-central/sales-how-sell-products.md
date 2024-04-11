@@ -7,7 +7,7 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.
 2. Selezionare **Nuovo** per creare una nuova voce.
-3. Nel campo **Cliente** immettere il nome di un cliente esistente.
+3. Nel campo **Nome del cliente**, inserite il nome di un cliente esistente.
 
     Altri campi nella pagina **Ordine di vendita** vengono compilati con le informazioni standard del cliente selezionato.  
 
@@ -71,7 +71,7 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
     >
     > Per verificare gli importi che verranno effettivamente registrati, è possibile utilizzare la pagina **Statistiche**, che tiene conto dei calcoli di arrotondamento. Inoltre, se si sceglie l'azione **Rilascia**, i campi dei totali verranno aggiornati per includere i calcoli di arrotondamento.  
 
-11. Facoltativamente, nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.**.
+11. Facoltativamente, nel campo **Importo sconto fatt.** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.**.
 
     Se sono stati impostati gli sconti fattura per il cliente e se vengono soddisfatti i criteri, la percentuale specificata viene automaticamente inserita nel campo **% sconto fattura**. E il relativo importo viene quindi inserito nel campo **Importo sconto fatt. IVA esclusa**. Ulteriori informazioni in [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md)
 12. Per spedire solo una parte della quantità ordinata, immettere la quantità desiderata nel campo **Qtà da spedire**. Il valore viene copiato automaticamente nel campo **Qtà da fatturare**.

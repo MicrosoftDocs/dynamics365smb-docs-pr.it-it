@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/23/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -24,13 +24,13 @@ Prima di poter utilizzare questa funzionalità è necessario impostare le schede
 3.  Nella Scheda dettaglio **Righe** compilare la riga di vendita. Nel campo **Codice acquisto** selezionare un codice di acquisto per il quale il campo **Ordine speciale** sia selezionato.
 
     È quindi necessario creare un ordine di acquisto da una richiesta di approvvigionamento.  
-4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Richiesta di approvvigionamento**, quindi scegli il collegamento correlato.  
+4. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") icona, immetti **Richiesta di approvvigionamento**, quindi scegli il collegamento correlato.  
 5. Scegliere l'azione **Ordine speciale** e scegliere l'azione **Ottieni ordini vendite**.  
 6.  Nella pagina **Prendi ordini vendite** vengono visualizzati i risultati in cui **Nr. documento** è il numero dell'ordine di vendita. Scegliere il pulsante **OK**. Viene creata una riga di richiesta di approvvigionamento per l'articolo.  
 7.  Nella riga di richiesta di approvvigionamento selezionare **Nuovo** nel campo **Messaggio azione**.  
-8.  Nella pagina **Prospetto rich.** scegliere l'azione **Esegui messaggi di azione**. Viene aperta la pagina **Approv. - Esegui mess. azioni**. Scegliere il pulsante **OK**.  
+8.  Nella pagina **Richieste di approvvigionamento** scegliere l'azione **Esegui messaggi di azione**. Viene aperta la pagina **Approv. - Esegui mess. azioni**. Scegliere il pulsante **OK**.  
 
-    Verrà quindi visualizzato un messaggio con l'informazione che gli ordini di acquisto sono stati creati. Scegliere il pulsante **OK**.  
+    Verrà quindi visualizzato un messaggio con l'informazione che gli ordini di acquisto sono stati creati. Scegli il pulsante **OK**.  
 
 Un ordine di acquisto creato come ordine speciale per un ordine di vendita viene rispettato dal sistema di pianificazione poiché pareggia la domanda e l'offerta. Ossia, l'ordine di acquisto (approvvigionamento) resta collegato all'ordine di vendita (domanda), anche se l'ordine di acquisto può approvvigionare un'altra domanda precedente. Per ulteriori informazioni, vedere [Dettagli di programmazione: Metodi di riordino](design-details-reservation-order-tracking-and-action-messaging.md).  
 

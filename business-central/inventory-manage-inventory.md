@@ -1,12 +1,12 @@
 ---
-title: Gestione dei costi del magazzino
+title: Gestione dell'inventario
 description: Questo articolo descrive come gestire i prodotti fisici trattati creando una scheda articolo inventario.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -56,11 +56,11 @@ La tabella seguente descrive le attività correlate.
 
 ## Vedere anche
 
-[Panoramica di Warehouse Management](design-details-warehouse-management.md)
-[Acquisti](purchasing-manage-purchasing.md)  
-[Vendite](sales-manage-sales.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Funzionalità aziendali generali](ui-across-business-areas.md)  
+[Panoramica gestione del magazzino](design-details-warehouse-management.md)    
+[Acquisti](purchasing-manage-purchasing.md)    
+[Vendite](sales-manage-sales.md)    
+[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Funzionalità aziendali generali](ui-across-business-areas.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

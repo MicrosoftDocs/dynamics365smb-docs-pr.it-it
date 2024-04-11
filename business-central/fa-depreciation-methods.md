@@ -7,32 +7,27 @@ ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'write down, depreciate, depreciation'
 ms.search.form: '5629, 5633'
-ms.date: 09/22/2023
+ms.date: 03/25/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Metodi ammortamento per cespiti
 
-Esistono otto metodi di ammortamento disponibili in [!INCLUDE [prod_short](includes/prod_short.md)]:  
+# Metodi di ammortamento per cespiti
 
-* Quote costanti  
-* Decrescente 1  
-* Decrescente 2  
-* Decr. 1/Cost.  
-* Decr. 2/Cost.  
-* personalizzato  
+[!INCLUDE [prod_short](includes/prod_short.md)] supporta otto diversi metodi di ammortamento per cespiti:
 
-  Definisci il metodo di ammortamento usando le tabelle di ammortamento. Per altre informazioni sull'applicazione di un metodo di ammortamento definito dall'utente, vai a [Impostare il metodo di ammortamento definito dall'utente](fa-how-setup-user-defined-depreciation-method.md).
-* Manuale  
-
-  Utilizza il metodo manuale per i cespiti che non sono soggetti ad ammortamento, ad esempio i terreni. Immettere l'ammortamento nella Registrazioni Cespiti in C/G. Il processo batch **Calcolo ammortamento** non considera i cespiti che utilizzano il metodo di ammortamento manuale.  
-* Convenzione semestrale  
-
-  Con questo metodo,ogni anno un cespite viene ammortizzato dello stesso importo.  
+* Quote costanti (SL)
+* Decrescente 1 (DB1)
+* Decrescente 2 (DB2)
+* Decr. 1/Cost.
+* Decr. 2/Cost.
+* Convenzione semestrale
+* Manuale
+* Ammortamento definito dall'utente
 
 ## Ammortamento a quote costanti
 
-Se si utilizza il metodo a quote costanti occorre indicare nel registro beni ammortizzabili cespiti una delle seguenti opzioni:  
+Con l'ammortamento a quote costanti, si ammortizza il valore del cespite con una percentuale annuale fissa o con un importo annuo fisso durante il periodo di ammortamento. Se si utilizza il metodo a quote costanti occorre indicare nel registro beni ammortizzabili cespiti una delle seguenti opzioni:  
 
 * il periodo di ammortamento (anni o mesi) o una data di fine ammortamento  
 * una percentuale annuale fissa  
@@ -43,9 +38,9 @@ Se si utilizza il metodo a quote costanti occorre indicare nel registro beni amm
 
 Se viene immesso il periodo di ammortamento (numero di anni di ammortamento, numero di mesi di ammortamento o data di fine ammortamento), viene utilizzata la formula seguente per calcolare l'importo dell'ammortamento:  
 
-*importo di ammortamento = ((valore contabile – valore realizzo) x numero di giorni di ammortamento)/giorni di ammortamento restanti*  
+* Importo di ammortamento = ((valore contabile – valore realizzo) x numero di giorni di ammortamento)/giorni di ammortamento restanti*  
 
-I giorni restanti di ammortamento vengono calcolati sottraendo al numero di giorni di ammortamento il numero di giorni intercorsi tra la data di inizio ammortamento e l'ultima data di movimento cespite.  
+I giorni di ammortamento restanti vengono calcolati sottraendo al numero di giorni di ammortamento il numero di giorni intercorsi tra la data di inizio ammortamento e l'ultima data di movimento cespite.  
 
 Al valore contabile può essere sottratta la rivalutazione registrata, la svalutazione, l'ammortamento anticipato e l'ammortamento acc./ridotto, a seconda che il campo **Includi nel Calc. Ammortamento** sia disattivato e che il campo **Parte del Valore Netto** sia attivo nella pagina **Setup Tipo Reg. Cespiti**. Questo calcolo garantisce che il cespite venga completamente ammortizzato alla data di fine ammortamento.  
 
@@ -53,13 +48,13 @@ Al valore contabile può essere sottratta la rivalutazione registrata, la svalut
 
 Se viene immessa una percentuale annuale fissa, l'importo di ammortamento viene calcolato da [!INCLUDE [prod_short](includes/prod_short.md)] in base alla seguente formula:  
 
-*importo di ammortamento = (% quota costante x base ammortizzabile x numero di giorni di ammortamento) / (100 x 360)*  
+* Importo di ammortamento = (% quota costante x base ammortizzabile x numero di giorni di ammortamento) / (100 x 360)*  
 
 ### Importo annuale fisso
 
 Se viene immesso un importo annuale fisso, l'importo di ammortamento viene calcolato da [!INCLUDE [prod_short](includes/prod_short.md)] in base alla seguente formula:  
 
-* *importo di ammortamento = (importo fisso di ammortamento x numero di giorni di ammortamento) / 360*  
+* Importo di ammortamento = (importo fisso di ammortamento x numero di giorni di ammortamento) / 360*  
 
 ### Esempio: ammortamento a quote costanti
 
@@ -68,14 +63,15 @@ Il costo di acquisto di un cespite è VL 100.000. La vita utile prevista è di o
 Per questo esempio, il movimento contabile cespite viene visualizzato come segue:  
 
 | Date | Tipo reg. cespite | Giorni | Importo | Valore contabile |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Costo di acquisto |Data inizio ammortamento |100,000.00 |100,000.00 |
 | 30/06/20 |Deprezzamento |180 |-6.250,00 |93,750.00 |
 | 31/12/20 |Deprezzamento |180 |-6.250,00 |87,500.00 |
 | 30/06/21 |Deprezzamento |180 |-6.250,00 |81,250.00 |
 | 31/12/21 |Deprezzamento |180 |-6.250,00 |75,000.00 |
-| 30/06/27 |Deprezzamento |180 |-6.250,00 |6,250.00 |
-| 31/12/27 |Deprezzamento |180 |-6.250,00 |0 |
+| ...      |             |    |          |          |
+| 30/06/27 |Deprezzamento |180 |-6.250,00 |6,250.00  |
+| 31/12/27 |Deprezzamento |180 |-6.250,00 |0         |
 
 ## Metodo di ammortamento a quote decrescenti 1
 
@@ -83,7 +79,7 @@ Questo metodo di ammortamento alloca la maggior parte dei costi di un cespite ai
 
 La formula seguente calcola l'importo di ammortamento:  
 
-* *importo di ammortamento = (quota decrescente % x numero di giorni di ammortamento x base ammortizzabile) / (100 x 360)*  
+* Importo di ammortamento = (quota decrescente % x numero di giorni di ammortamento x base ammortizzabile) / (100 x 360)*  
 
 La base ammortizzabile è calcolata come il valore contabile all'inizio dell'anno. Il numeo di giorni di ammortamento corrisponde al numero di giorni tra la data della registrazione e la data dell'ultimo ammortamento. [!INCLUDE [prod_short](includes/prod_short.md)] calcola l'ammortamento presupponendo che qualsiasi ammortamento effettuato nell'anno fiscale venga eseguito con questa formula.  
 
@@ -96,7 +92,7 @@ Il costo di acquisto di un cespite è VL 100.000. Il campo **Perc. amm. quote de
 La tabella seguente mostra l'aspetto dei movimenti contabili cespiti.  
 
 | Date | Tipo reg. cespite | Giorni | Importo | Valore contabile |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Costi di acquisto |Data inizio ammortamento |100,000.00 |100,000.00 |
 | 30/06/20 |Deprezzamento |180 |-12.500,00 |87,500.00 |
 | 31/12/20 |Deprezzamento |180 |-12.500,00 |75,000.00 |
@@ -108,14 +104,14 @@ La tabella seguente mostra l'aspetto dei movimenti contabili cespiti.
 | 31/12/23 |Deprezzamento |180 |-5.273,44 |31,640.62 |
 | 30/06/24 |Deprezzamento |180 |-3.955,08 |27,685.54 |
 | 31/12/24 |Deprezzamento |180 |-3.955,08 |23,730.46 |
+| ...      |             |    |          |          |
 
 Metodo di calcolo:  
 
 * Anno 1: *25% di 100.000 = 25.000 = 12.500 + 12.500*
-
 * Anno 2: *25% di 75.000 = 18.750 = 9.375 + 9.375*
-
 * Anno 3: *25% di 56.250 = 14.062,50 = 7.031,25 + 7.031,25*
+* ...
 
 Il calcolo continua fino a quando il valore contabile corrisponde all'importo finale di arrotondamento o al valore di realizzo immesso.  
 
@@ -127,7 +123,7 @@ Il valore contabile di un cespite è 100.000 al 31/12/2022. Si registra un ammor
 
 ### Esempio 3: metodo di ammortamento a quote decrescenti 1
 
-Se registri un importo che non è in linea con il metodo di ammortamento a quote decrescenti 1, ad esempio 5.000, [!INCLUDE [prod_short](includes/prod_short.md)] suggerirà il resto dell'importo previsto.
+Se registri un importo che non è in linea con il metodo di ammortamento a quote decrescenti 1, ad esempio 5.000, [!INCLUDE [prod_short](includes/prod_short.md)] suggerisce il resto dell'importo previsto.
 
 Il valore contabile di un cespite è 100.000 al 31/12/2022. Si registra un ammortamento di 5.000 il 2/2/2023, che è superiore all'importo (proporzionale) previsto il 2/2/2023 a 32 giorni. Se esegui l'ammortamento il 30/6/2023, [!INCLUDE [prod_short](includes/prod_short.md)] suggerirà 8.222, perché ci sono 148 giorni dal 2/2/2023 al 30/6/2023. L'ammortamento residuo previsto per il 30/06/2023 è calcolato utilizzando la seguente formula:
 
@@ -149,13 +145,14 @@ Con i metodi a quote decrescenti 1 e 2 viene calcolato lo stesso importo totale 
 
 Il costo di acquisto di un cespite è VL 100.000. Il campo **Perc. amm. quote decr. %** è 25. Il processo batch **Calcola Ammortamento** viene eseguita semestralmente. I movimenti contabili cespiti vengono visualizzati come segue:  
 
-| Date | Tipo reg. cespite | Giorni | Importo | Valore contabile |
-| --- | --- | --- | --- | --- |
+| Date     | Tipo reg. cespite  | Giorni                       | Importo    | Valore contabile |
+| -------- | ---------------- | -------------------------  | --------- | ---------- |
 | 01/01/20 |Costi di acquisto |Data inizio ammortamento|100,000.00 |100,000.00 |
-| 30/06/20 |Deprezzamento |180 |-13.397,46 |86,602.54 |
-| 31/12/20 |Deprezzamento |180 |-11.602,54 |75,000.00 |
-| 30/06/21 |Deprezzamento |180 |-10.048,09 |64,951.91 |
-| 31/12/21 |Deprezzamento |180 |-8.701,91 |56,250.00 |
+| 30/06/20 |Deprezzamento      |180                         |-13.397,46 | 86,602.54 |
+| 31/12/20 |Deprezzamento      |180                         |-11.602,54 | 75,000.00 |
+| 30/06/21 |Deprezzamento      |180                         |-10.048,09 | 64,951.91 |
+| 31/12/21 |Deprezzamento      |180                         |-8.701,91  | 56,250.00 |
+| ...      |                  |                            |           |           |
 
 Metodo di calcolo:  
 
@@ -165,18 +162,19 @@ Metodo di calcolo:
 * *P* = *PQD*/100  
 * *A* = *GA*/360  
 
-La formula per il calcolo dell'importo di ammortamento è la seguente:  
+La formula per calcolare l'importo di ammortamento è la seguente:  
 
-*DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
+* *DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
 
 I valori di ammortamento sono:  
 
-| Date | Calcolo |
-| --- | --- |
+| Date     | Calcolo                                                |
+| -------- | -----------                                                |
 | 30/06/20 |DA = 100.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 13.397,46 |
 | 31/12/20 |DA = 86.602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11.602,54 |
 | 30/06/21 |DA = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
-| 31/12/21 |DA = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
+| 31/12/21 |DA = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91  |
+| ...      |                                                            |
 
 ## Ammortamento Decr. 1/Cost.
 
@@ -195,7 +193,7 @@ Se viene utilizzato questo metodo, occorre immettere la vita utile prevista ed u
 
 ### Esempio: ammortamento Decrescente 1-Quote Costanti
 
-Il costo di acquisto di un cespite è VL 100.000. Nella pagina **Registro beni amm. cespiti** il campo **Perc. amm. quote decr. %** contiene 25 e il campo **Nr. anni di ammortamento** contiene 8. Il processo batch **Calcola Ammortamento** viene eseguita semestralmente.  
+Il costo di acquisto di un cespite è VL 100.000. Nella pagina **Registro beni amm. cespiti** il campo **Perc. amm. quote decr. %** contiene 25 e il campo **Nr. anni di ammortamento** contiene **8**. Il processo batch **Calcola Ammortamento** viene eseguita semestralmente.  
 
 I movimenti contabili cespiti vengono visualizzati come segue:  
 
@@ -230,26 +228,26 @@ Metodo di calcolo:
     *importo di ammortamento a quote costanti = 100.000/8=12.500=6.250+6.250*  
 
     L'importo di ammortamento a quote decrescenti viene utilizzato in quanto costituisce l'importo maggiore.  
-
+* ...
 * Anno 5 (2025):  
 
     *importo di ammortamento a quote decrescenti: 25% di 23,730.46 = 4,943.85=2,471.92+2,471.92*  
 
-    *importo di ammortamento a quote costanti = 23.730,46/3 = 7.910,15=3.995,07+3.995,08*  
+    *importo di ammortamento a quote costanti = 23,730.46/3=7,910.15=3,995.07+3,995.08*  
 
     L'importo di ammortamento a quote costanti viene utilizzato in quanto costituisce l'importo maggiore.  
 
 ## Ammortamento di convenzione semestrale
 
-Il metodo di ammortamento di convenzione semestrale viene applicato se nel campo **Usa convenzione semestrale** della pagina **Registro beni amm. cespiti** è stato impostato un segno di spunta.  
+Il metodo Convenzione semestrale viene applicato solo se attivi l'interruttore **Usa convenzione semestrale** per il cespite nella pagina **Scheda cespite**.  
 
-Questo metodo può essere utilizzato insieme ai seguenti metodi di ammortamento:  
+Puoi usare questo metodo con i seguenti metodi di ammortamento:  
 
 * Quote costanti  
 * Decrescente 1  
 * Decr. 1/Cost.  
 
-Applicando il metodo di convenzione semestrale, i cespiti avranno sei mesi di ammortamento durante il primo anno a prescindere dal contenuto del campo **Data inizio Ammortamento**.  
+Applicando il metodo Convenzione semestrale, i cespiti avranno sei mesi di ammortamento durante il primo anno a prescindere dal contenuto del campo **Data inizio Ammortamento**.  
 
 > [!NOTE]  
 > La vita utile residua del cespite dopo il primo anno finanziario conterrà sempre un semestre in cui viene utilizzato il metodo di convenzione semestrale. Affinché il metodo di convenzione semestrale venga applicato correttamente, nel campo **Data Finale Ammortamento** nel **Registro Beni Ammortizzabili Cespite** deve sempre essere riportata una data che sia esattamente di sei mesi anteriore alla data di fine esercizio in cui il cespite viene ammortizzato completamente.  
@@ -294,26 +292,26 @@ Metodo di calcolo:
 
     *Importo di ammortamento a quote decrescenti = Importo dell'intero anno = 40% di 100.000 = 40.000.* Ne consegue che l'importo semestrale è 40.000/2 = 20.000  
 
-    *Importo di ammortamento a quote costanti = Importo dell'intero anno = 100.000/5 = 20.000.* Ne consegue che l'importo semestrale è 20.000/2 = 10.000  
+    *Importo di ammortamento a quote costanti = Importo dell'intero anno = 100.000/5 = 20.000.* Ne consegue che l'importo semestrale è 20.000 / 2 = 10.000  
 
     L'importo di ammortamento a quote decrescenti viene utilizzato in quanto costituisce l'importo maggiore.  
-
+* ...
 * Anno 5 (2024):  
 
     *importo di ammortamento a quote decrescenti = 40% di 17.280,00 = 6.912,00*  
 
-    *importo di ammortamento a quote costanti = 28.800 / 1,5 = 11.520,00*  
+    *Importo di ammortamento a quote costanti = 28.800/1,5 = 11.520,00*  
 
     L'importo di ammortamento a quote costanti viene utilizzato in quanto costituisce l'importo maggiore.  
 
-## Duplicazione di movimenti in più registri beni ammortizzabili
+## Duplicare i movimenti in altri registri beni ammortizzabili
 
-In presenza di tre registri di beni ammortizzabili, B1, B2 e B3, per duplicare i movimenti da B1 a B2 e B3 occorre selezionare la casella di controllo **Parte della Lista Duplicazione** nelle schede Registro Beni Ammortizzabili per B2 e B3. Ad esempio, questa impostazione può essere utile nelle situazioni seguenti:
+In presenza di tre registri di beni ammortizzabili, B1, B2 e B3, per duplicare i movimenti da B1 a B2 e B3 puoi attivare l'interruttore **Parte della lista duplicazione** nelle schede registro beni ammortizzabili per B2 e B3. Ad esempio, questa impostazione può essere utile nelle situazioni seguenti:
 
 * Il registro beni ammortizzabilil B1 si integra con la contabilità generale e utilizza le registrazioni cespiti in C/G.
 * I registri beni ammortizzabilil B2 e B3 non si integrano con la contabilità generale e utilizzano le registrazioni dei cespiti.  
 
-Immettendo un movimento in B1 nella registrazione C/G cespiti ed selezionando la casella di controllo **Usa Lista Duplicazione**, [!INCLUDE [prod_short](includes/prod_short.md)] duplicherà il movimento nei registri B2 e B3 in Registrazioni Cespiti durante la registrazione.  
+Immettendo un movimento in B1 nella registrazione C/G cespiti e attivando l'interruttore **Parte della lista duplicazione**, [!INCLUDE [prod_short](includes/prod_short.md)] duplica il movimento nei registri B2 e B3 nella registrazione di cespiti durante la registrazione del movimento.  
 
 > [!NOTE]  
 > La registrazione e il batch di registrazione di partenza e di arrivo della duplicazione non possono coincidere. I movimenti possono essere duplicati nelle registrazioni cespiti o nelle registrazioni C/G cespiti quando vengono annotati nelle registrazioni C/G cespiti, a condizione che si utilizzi un batch diverso.  
@@ -321,9 +319,17 @@ Immettendo un movimento in B1 nella registrazione C/G cespiti ed selezionando la
 > [!NOTE]  
 > Non è consentito utilizzare la stessa numerazione nelle registrazioni cespiti e nelle registrazioni cespiti. Quando si annotano movimenti nelle registrazioni cespiti o C/G, il campo **Nr. documento** deve essere lasciato vuoto. Se si immette un numero nel campo, il numero viene duplicato nelle registrazioni del cespite. Sarà necessario modificare manualmente il numero di documento prima di poter contabilizzare le registrazioni.  
 
+## Ammortamento manuale
+
+Utilizza il metodo manuale per i cespiti che non sono soggetti ad ammortamento, ad esempio i terreni. Immettere l'ammortamento nella Registrazioni Cespiti in C/G. Il processo batch **Calcolo ammortamento** non considera i cespiti che utilizzano il metodo di ammortamento manuale.
+
+## Ammortamento definito dall'utente
+
+Se i metodi di ammortamento predefiniti non soddisfano le tue esigenze, puoi definire un metodo di ammortamento personalizzato utilizzando le tabelle di ammortamento. Per altre informazioni sull'applicazione di un metodo di ammortamento definito dall'utente, vai a [Impostare il metodo di ammortamento definito dall'utente](fa-how-setup-user-defined-depreciation-method.md).
+
 ## Vedere anche
 
-[Cespiti](fa-manage.md)  
+[Panoramica dei cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  
 [Dati finanziari](finance.md)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  

@@ -30,7 +30,7 @@ Oltre alle guide al setup assistito, è possibile impostare manualmente alcune f
 | Configurare le regole e i valori che definiscono i criteri di acquisto della società, registrare nuovi fornitori e dare la priorità ai fornitori per l'elaborazione dei pagamenti. |[Impostazioni acquisti](purchasing-setup-purchasing.md) |
 | Configurare le regole e i valori che definiscono i criteri di magazzino della società, impostare ubicazioni se il magazzino è conservato in più warehouse e suddividere in categorie gli articoli per migliorare la ricerca e l'ordinamento. |[Impostazione del magazzino](inventory-setup-inventory.md) |
 |Specificare report predefiniti da utilizzare per diversi tipi di documenti.|[Selezione report per documenti](across-report-selections.md)|
-| Impostare le risorse, i fogli presenze e le commesse per gestire progetti. |[Impostazione della Gestione progetti](projects-setup-projects.md) |
+| Impostare risorse, fogli presenze e progetti per gestire progetti. |[Impostazione della Gestione progetti](projects-setup-projects.md) |
 | Configurare come assicurare, mantenere e ammortizzare i cespiti e impostare come vengono registrati i costi dei cespiti nei registri della società. |[Impostazione di cespiti](fa-setup.md) |
 |Definire valori e regole generali per i processi di warehouse e la gestione specifica in ogni ubicazione.|[Impostazione Warehouse Management](warehouse-setup-warehouse.md)|
 |Preparare distinte base (DB) e cicli di produzione per definire il modo in cui gli articoli vengono prodotti e preparare aree di produzione o centri di lavoro per eseguire le operazioni richieste.|[Impostazione della produzione](production-configure-production-processes.md)|

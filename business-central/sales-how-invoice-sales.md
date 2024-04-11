@@ -1,12 +1,12 @@
 ---
-title: Fatturare le vendite
+title: Fatturazione delle vendite
 description: Descrive come creare un fattura di vendita o un ordine di vendita per registrare l'accordo con un cliente per vendere prodotti secondo termini specifici.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 11/01/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ In tutte le altre situazioni, gli ordini di vendita e le fatture di vendita funz
 
 ## Crea fatture di vendita
 
-Se il cliente decide di acquistare, registrare la fattura di vendita per creare i relativi movimenti di quantità e valore. Quando si registra la fattura di vendita, è possibile inviarla via email come allegato PDF. È possibile impostare il messaggio con un testo precompilato che riepiloga le informazioni della fattura e per il pagamento, ad esempio con un collegamento a PayPal. Ulteriori informazioni in [Inviare documenti via e-mail](ui-how-send-documents-email.md). Quando un cliente paga quindi la fattura, è possibile registrare il pagamento in diversi modi, a seconda della dimensione e dei flussi di lavoro preferiti dell'organizzazione. Ulteriori informazioni nella sezione [Registrazione dei pagamenti](#register-payments).  
+Se il cliente decide di acquistare, registrare la fattura di vendita per creare i relativi movimenti di quantità e valore. Quando si registra la fattura di vendita, è possibile inviarla via email come allegato PDF. È possibile impostare il messaggio con un testo precompilato che riepiloga le informazioni della fattura e per il pagamento, ad esempio con un collegamento a PayPal. Ulteriori informazioni in [Inviare documenti via e-mail](ui-how-send-documents-email.md#to-send-documents-by-email). Quando un cliente paga quindi la fattura, è possibile registrare il pagamento in diversi modi, a seconda della dimensione e dei flussi di lavoro preferiti dell'organizzazione. Ulteriori informazioni nella sezione [Registrazione dei pagamenti](#register-payments).  
 
 Le schede articolo possono essere di tipo **Inventario**, **Assistenza** o **Non in inventario** per specificare se la scheda articolo rappresenta un'unità fisica di inventario, un'unità di misura del tempo della manodopera o un'unità fisica non gestita in magazzino, rispettivamente. Ulteriori informazioni in [Registrare nuovi articoli](inventory-how-register-new-items.md). Il processo della fattura di vendita è lo stesso per tutti e tre i tipi di articoli.
 
@@ -126,7 +126,7 @@ Negli ambienti aziendali in cui il cliente paga immediatamente, ad esempio trami
 [Setup Vendite](sales-setup-sales.md)  
 [Stampare la lista prelievo](sales-how-print-picking-list.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Inviare documenti via e-mail](ui-how-send-documents-email.md)  
+[Inviare documenti via e-mail](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Eseguire la fatturazione in blocco da Microsoft Bookings in Business Central](finance-bookings.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

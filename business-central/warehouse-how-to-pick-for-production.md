@@ -25,7 +25,7 @@ Usa i seguenti documenti per le operazioni interne:
 
 * Quando si registra un prelievo da magazzino per un'operazione interna, come la produzione o una commessa, il consumo dei componenti prelevati viene registrato contemporaneamente.
 * L'interruttore **Collocazione obbligatoria** nella pagina **Scheda ubicazione** è facoltativo.
-* Quando usi i prelievi da magazzino, il campo **Cod. collocazione** nella riga di componente di un ordine di produzione o nelle righe di pianificazione commessa definisce la collocazione *prendere*. I componenti vengono diminuiti nella collocazione quando registri il consumo.
+* Quando usi i prelievi da magazzino, il campo **Cod. collocazione** nella riga di componente di un ordine di produzione o nelle righe di pianificazione progetto definisce la collocazione *prendere*. I componenti vengono diminuiti nella collocazione quando registri il consumo.
 
 ## Movimenti di magazzino
 
@@ -60,11 +60,11 @@ Utilizza i documenti **prelievo magazzino** per il prelievo dei componenti di co
 Per le ubicazioni che utilizzano le collocazioni, è possibile estendere il flusso alle commesse con i documenti **Movimento di magazzino**.
 
 > [!NOTE]
-> È stata aggiunta la possibilità di selezionare i componenti per le righe di pianificazione commesse in [!INCLUDE[d365fin](includes/d365fin_md.md)] nel secondo ciclo di rilascio del 2022. Per iniziare a utilizzare la funzionalità, un amministratore deve attivare **Aggiornamento funzionalità: abilitazione del prelievo magazzino e warehouse da commesse** nella pagina **Gestione funzionalità**.
+> È stata aggiunta la possibilità di selezionare i componenti per le righe di pianificazione progetto in [!INCLUDE[d365fin](includes/d365fin_md.md)] nel secondo ciclo di rilascio del 2022. Per iniziare a utilizzare la funzionalità, un amministratore deve attivare **Aggiornamento funzionalità: abilitazione del prelievo magazzino e warehouse da commesse** nella pagina **Gestione funzionalità**.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] utilizza il valore del campo **Quantità rimanente** nella riga di pianificazione commessa quando crea prelievi magazzino. Per utilizzare i prelievi di magazzino per le commesse, è necessario attivare l'interruttore **Applica collegamento utilizzo** nella pagina **scheda commessa** per la commessa. Ciò ti consente di monitorare l'utilizzo rispetto al tuo piano. Se non si attiva l'interruttore, la quantità rimanente rimarrà a **0** e il prelievo magazzino non verrà creato. Per ulteriori informazioni, vedi [Per impostare la tracciabilità dell'utilizzo in una commessa](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] utilizza il valore del campo **Quantità rimanente** nella riga di pianificazione progetto quando crea prelievi magazzino. Per utilizzare i prelievi magazzino per le commesse, è necessario attivare l'interruttore **Applica collegamento utilizzo** nella pagina **Scheda progetto** per la commessa. Ciò ti consente di monitorare l'utilizzo rispetto al tuo piano. Se non si attiva l'interruttore, la quantità rimanente rimarrà a **0** e il prelievo magazzino non verrà creato. Per ulteriori informazioni, vedi [Per impostare la tracciabilità dell'utilizzo di un progetto](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## Prelevare o spostare per produzione, assemblaggio e commesse in una configurazione warehouse di base
+## Prelevare o spostare per produzione, assemblaggio e progetti in una configurazione warehouse di base
 
 È possibile creare un prelievo da magazzino o un movimento di magazzino in tre modi:  
 
@@ -86,7 +86,7 @@ Per le ubicazioni che utilizzano le collocazioni, è possibile estendere il flus
 
 ### Per creare più prelievi o movimenti di magazzino utilizzando un processo batch
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Crea stoccaggio/prelievo/movimento magazzino**, quindi seleziona il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea stoccaggio/prelievo/movimento magazzino**, quindi seleziona il collegamento correlato.  
 2. Nella Scheda dettaglio **Richiesta warehouse**, utilizza i campi **Nr. origine** e **Documento origine** per filtrare i tipi di documenti oppure gli intervalli di numeri di documenti. Ad esempio, è possibile creare prelievi solo per gli ordini di produzione.
 3. Nella Scheda dettaglio **Opzioni**, attiva l'interruttore **Crea prelievo mag.** o **Crea movimento mag.**.
 4. Scegli il pulsante **OK**.
@@ -103,7 +103,7 @@ Per prelevare o spostare i componenti per i documenti di origine in due passaggi
 
 Un dipendente warehouse addetto al prelievo degli articoli può creare un documento di stoccaggio magazzino per il documento di origine.  
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi magazzino** o **Movimento di magazzino**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi magazzino** o **Movimento di magazzino**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo**.  
 3. Nel campo **Documento origine**, seleziona il tipo di documento di origine per cui esegui lo stoccaggio.
 
@@ -140,7 +140,7 @@ Durante il processo di registrazione si verifica quanto segue:
 
 Durante il processo di registrazione si verifica quanto segue:
 
-* I movimenti warehouse ora indicano che i componenti sono nelle collocazioni specificate nelle righe ordine del documento di origine. Ad esempio, l'ordine di assemblaggio, il componente di produzione o la riga di pianificazione commessa.
+* I movimenti warehouse ora indicano che i componenti sono nelle collocazioni specificate nelle righe ordine del documento di origine. Ad esempio, l'ordine di assemblaggio, il componente di produzione o la riga di pianificazione progetto.
 
 >[!NOTE]
 > A differenza di quando si spostano componenti con un prelievo magazzino, il consumo non è registrato quando si registra un movimento di magazzino. Registra il consumo come passaggio separato registrando il documento di origine.

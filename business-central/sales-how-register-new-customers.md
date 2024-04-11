@@ -2,20 +2,20 @@
 title: Registrare nuovi clienti creando una scheda cliente (contiene video)
 description: Descrive come creare una scheda cliente per registrare informazioni su ogni nuovo cliente a cui sono rivolte le vendite.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
 ms.search.keywords: 'client, customer, credit'
 ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Registrazione di nuovi clienti
 
 I clienti sono l'origine del reddito. È necessario registrare ogni cliente, cui è stata effettuata una vendita, come una scheda cliente. Le schede cliente contengono le informazioni richieste per la vendita dei prodotti al cliente. Ulteriori informazioni in [Fatturare le vendite](sales-how-invoice-sales.md) e [Registrare nuovi articoli](inventory-how-register-new-items.md).  
 
 Prima di registrare nuovi clienti, è necessario impostare vari codici di vendita selezionabili durante la compilazione delle schede cliente. Ulteriori informazioni in [Setup vendite](sales-setup-sales.md).
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -80,6 +80,14 @@ Il campo **Limite credito** in una scheda cliente specifica l'importo massimo ch
     |**Limite credito**|Il valore contenuto nel campo **Limite credito** della scheda del cliente viene confrontato con il saldo del cliente e viene visualizzato un avviso che informa se il saldo del cliente supera questo importo.|
     |**Oltre Fido**|Il campo **Oltre fido** viene controllato e viene visualizzato un avviso che informa se il cliente ha un oltre fido.|
     |**Nessun Avviso**|Nessun avviso di credito viene visualizzato sullo stato del cliente.|
+
+## Assegnare un agente
+
+Puoi assegnare agenti all'indirizzo di spedizione del cliente anziché al suo indirizzo di fatturazione in modo che i report sulle vendite riflettano la reale distribuzione geografica delle tue vendite. L'assegnazione di un agente all'indirizzo di spedizione di un cliente fornisce informazioni più precise e ottimizza l'allocazione delle risorse.
+
+Assegna un agente nella pagina scheda **Cliente** scegliendo **Cliente**, quindi **Spedire a - Indirizzi** per aprire la pagina **Spedire a - Lista indirizzi**. Scegli **Gestisci**, quindi **Modifica** per aprire la pagina scheda **Spedire a - Indirizzi**. Immetti o scegli un **Codice agente** per selezionare l'agente.
+
+Quando scegli l'opzione **Indirizzo di spedizione alternativo** come ubicazione **Spedire a** in un documento di vendita, il **Codice agente** viene aggiornato per trovare la corrispondenza con l'agente nell'**indirizzo di spedizione** piuttosto che nell'**indirizzo di fatturazione**. 
 
 ## Vedere anche
 

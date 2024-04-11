@@ -7,7 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 In ogni riga che apri per impegnare gli articoli nella pagina **Impegno** vengono visualizzate informazioni su un tipo di riga (vendite, acquisti, registrazioni) o movimento di magazzino. Le righe contengono il numero di articoli disponibili per l'impegno da ogni tipo di riga o di movimento.
 
 > [!TIP]
-> In base alle quantità impegnata nel magazzino, [!INCLUDE [prod_short](includes/prod_short.md)] visualizza uno stato sui documenti in modo da essere rapidamente consapevoli del passaggio successivo. Ad esempio, per indicare che è possibile spedire un ordine di vendita o iniziare a lavorare su un ordine commessa, di assemblaggio o di produzione. Lo stato aiuta inoltre a ridurre il rischio di spedizioni parziali accidentali o di ritardi dovuti alla mancanza di scorte per ordini di produzione e assemblaggio.
+> In base alle quantità impegnata nel magazzino, [!INCLUDE [prod_short](includes/prod_short.md)] visualizza uno stato sui documenti in modo da essere rapidamente consapevoli del passaggio successivo. Ad esempio, per indicare che è possibile spedire un ordine di vendita o iniziare a lavorare su un ordine progetto, di assemblaggio o di produzione. Lo stato aiuta inoltre a ridurre il rischio di spedizioni parziali accidentali o di ritardi dovuti alla mancanza di scorte per ordini di produzione e assemblaggio.
 >
 > Il campo **Impegnato da magazzino** può aiutarti a capire se puoi effettuare una spedizione o un prelievo per un ordine o una riga di ordine specifico. Per le righe, il campo Impegnato da magazzino è disponibile nei riquadri Dettaglio informazioni. Per accedere alle informazioni dell'intero ordine, il campo si trova nella pagina **Statistiche**.
 
@@ -79,13 +79,13 @@ Utilizza la pagina **Prospetto di impegno** per impegnare e assegnare le merci i
 2. Scegli l'azione **Ottieni domanda**, quindi specifica il tipo di domanda che desideri impegnare dal magazzino disponibile.
 3. Compila i filtri in base alle esigenze. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Facoltativo: per assegnare subito gli articoli, scegli l'azione **Assegna**.
-5. Nella pagina **Criteri di assegnazione**, scegli i criteri per ogni passaggio
+5. Nella pagina **Criteri di assegnazione**, scegli i criteri per ogni passaggio.
 
    |Criteri di assegnazione  |Descrizione  |
    |---------|---------|
-   |Di base     | Assegna le scorte a una domanda se non ci sono conflitti e la domanda può essere completamente coperta. Ad esempio, hai un ordine di vendita A con una quantità pari a 10 e una commessa con una quantità pari a 7. Se hai 20 in magazzino, entrambe le domande ricevono la quantità completa. Se in magazzino hai 12, non viene assegnata alcuna quantità. Devi assegnare manualmente la quantità.        |
+   |Base     | Assegna le scorte a una domanda se non ci sono conflitti e la domanda può essere completamente coperta. Ad esempio, hai un ordine di vendita A con una quantità pari a 10 e una commessa con una quantità pari a 7. Se hai 20 in magazzino, entrambe le domande ricevono la quantità completa. Se in magazzino hai 12, non viene assegnata alcuna quantità. Devi assegnare manualmente la quantità.        |
    |Ugualmente    | Distribuisce equamente le scorte disponibili alla domanda. Ad esempio, hai un ordine di vendita A con una quantità pari a 10 e una commessa con una quantità pari a 7. Se il livello delle scorte è 20, entrambe le domande riceveranno la quantità completa. Se il livello delle scorte è 12, entrambe le domande riceveranno 6.        |
-   |Per priorità cliente|Distribuzione in base al campo Priorità nella scheda cliente. In caso di quantità insufficienti, il sistema darà priorità alla fornitura ai clienti con la massima priorità.|
+   |Per priorità cliente|Distribuzione in base al campo **Priorità** nella pagina **Scheda cliente**. In caso di quantità di inventario ridotte, Business Central fornisce prima i clienti con priorità più elevata.|
 
 6. Per impegnare tutte le righe in cui l'opzione **Accetta** è attivata, scegli l'azione **Impegna**.
     

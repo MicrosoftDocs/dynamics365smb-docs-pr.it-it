@@ -1,11 +1,11 @@
 ---
-title: 'Procedura: Combinare le spedizioni in una singola fattura | Documenti Microsoft'
+title: Come combinare spedizioni in una singola fattura | Documenti Microsoft
 description: 'Se si desidera fatturare più di una spedizione per volta, utilizzare la funzionalità per le spedizioni cumulate.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/16/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Prima di creare una spedizione cumulata, è necessario che venga registrata più
     - Per inserire tutte le righe, selezionare tutte le righe, quindi fare clic su **OK**.  
     - Per inserire righe specifiche, selezionare le righe, quindi fare clic su **OK**. È possibile utilizzare il tasto CTRL per selezionare più righe non consecutive.  
 
-    Se viene selezionata una riga di spedizione errata o si desidera effettuare di nuovo la selezione, eliminare semplicemente le righe nella fattura ed eseguire nuovamente la funzione **Prendi righe di spedizione**.  
+    Se viene selezionata una riga di spedizione errata o si desidera effettuare di nuovo la selezione, eliminare le righe nella fattura ed eseguire nuovamente la funzione **Prendi righe di spedizione**.  
 7. Per registrare la fattura scegliere l'azione **Registra**.  
 
 > [!TIP]  

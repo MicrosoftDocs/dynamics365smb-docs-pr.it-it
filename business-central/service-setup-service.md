@@ -1,23 +1,23 @@
 ---
-title: Impostazione della gestione assistenza | Documenti Microsoft
+title: Impostazione della gestione dell'assistenza | Documenti Microsoft
 description: Sintesi delle attività necessarie per impostare la gestione dell'assistenza adattandola al modo in cui le organizzazioni gestiscono i propri servizi.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'service, service items, repairs, maintenance, fix'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Impostazione della gestione assistenza
-Prima di iniziare a utilizzare le funzionalità Gestione assistenza in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario impostare alcune opzioni. Ad esempio, è possibile definire codici per servizi standard, indizi, guasti, articoli in assistenza e tipi di articoli in assistenza che il servizio clienti dell'azienda deve richiedere.  
+# Impostazione della gestione dell'assistenza
+Prima di iniziare a utilizzare le funzionalità Gestione assistenza in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario impostare alcune opzioni. Ad esempio, è possibile definire codici per servizi standard, indizi, guasti, articoli in assistenza e tipi di articoli in assistenza basati sui requisiti del servizio clienti della società.  
 
 Quando si imposta la gestione dell'assistenza, è necessario decidere quali servizi di assistenza offrire ai clienti e pianificarli di conseguenza. Un servizio di assistenza è un tipo di lavoro svolto da una o più risorse, che viene fornito a un cliente. Ad esempio, un servizio di assistenza potrebbe essere un tipo di riparazione di computer. Un articolo in assistenza è l'attrezzatura o l'articolo che richiede assistenza, ad esempio, il computer da riparare, installato presso la sede di un dato cliente. È possibile impostare servizi di assistenza come parte di un gruppo di articoli in riparazione e in manutenzione correlati.  
   
 Quando si definisce un servizio di assistenza, è possibile associarlo alle competenze richieste per svolgerlo. Per migliorare l'efficienza dei rappresentanti dell'assistenza, si possono anche impostare indicazioni di troubleshooting in tempo reale e assegnare costi iniziali tipici, tra cui spese di viaggio o altre spese.  
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.  
+Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli articoli che li descrivono.  
   
 | A | Vedere |
 | --- | --- |

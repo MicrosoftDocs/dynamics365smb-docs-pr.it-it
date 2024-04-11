@@ -1,12 +1,12 @@
 ---
-title: Panoramica dei task per la gestione degli acquisti
+title: Panoramica delle attività per la gestione degli acquisti
 description: 'Descrive i task di gestione dei processi di acquisto o approvvigionamento, incluso l''utilizzo delle fatture di acquisto e degli ordini di acquisto.'
 author: brentholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'procurement, supply, vendor order'
 ms.search.form: '460, 9307'
-ms.date: 04/01/2021
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -16,13 +16,13 @@ ms.service: dynamics-365-business-central
 
 Utilizzare gli ordini di acquisto se il processo di acquisto richiede la registrazione delle le ricevute parziali di una quantità di un ordine, ad esempio, perché la quantità completa non è disponibile presso il fornitore. Se si vendono articoli con consegna diretta dal fornitore al cliente, come una spedizione diretta, è necessario utilizzare anche gli ordini di acquisto. Per ulteriori informazioni, vedere [Effettuare spedizioni dirette](sales-how-drop-shipment.md). In tutti gli altri aspetti, gli ordini di acquisto funzionano come le fatture di acquisto.
 
-È possibile creare le fatture di acquisto automaticamente utilizzando il servizio OCR (riconoscimento ottico dei caratteri) per convertire le fatture PDF ricevute dai fornitori in documenti elettronici, che verranno successivamente convertiti in fatture di acquisto da un workflow. Per utilizzare questa funzionalità, è necessario innanzitutto iscriversi al servizio OCR e impostarlo. Per ulteriori informazioni, vedi [Documenti in entrata](across-income-documents.md).
+È possibile creare le fatture di acquisto automaticamente utilizzando il servizio OCR (riconoscimento ottico dei caratteri) per convertire le fatture PDF ricevute dai fornitori in documenti elettronici, che verranno successivamente convertiti in fatture di acquisto da un workflow. Per utilizzare questa funzionalità, è necessario innanzitutto iscriversi al servizio OCR e quindi impostare varie impostazioni. Per ulteriori informazioni, vedi [Documenti in entrata](across-income-documents.md).
 
 I prodotti possono essere sia articoli di magazzino che servizi. Per ulteriori informazioni, vedere [Registrare nuovi articoli](inventory-how-register-new-items.md).
 
 Per tutti i processi di acquisto, è possibile incorporare un workflow di approvazione, ad esempio, per richiedere che gli acquisti di grande volume siano approvati dal responsabile della contabilità. Per ulteriori informazioni, vedere [Utilizzare i workflow di approvazione](across-how-use-approval-workflows.md).
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
+Nella tabella seguente viene descritta una sequenza di attività, con collegamenti agli articoli che le descrivono.
 
 | A | Vedere |
 | --- | --- |
@@ -31,7 +31,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Creare una fattura di acquisto per tutte le righe o quelle selezionate in una fattura di vendita. |[Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md) |
 |Capire cosa accade quando si registrano documenti di acquisto.|[Registrazione di acquisti](ui-post-purchases.md)|
 | Eseguire un'azione in una fattura di acquisto registrata non pagata per creare automaticamente una nota di credito e per annullare la fattura di acquisto o per ricrearla in modo da apportare correzioni. |[Correggere o annullare le fatture di vendita non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
-| Creare una nota di credito di acquisto per stornare una fattura di acquisto registrata specifica per riflettere i prodotti resi al fornitore e l'importo di pagamento ricevuto. |[Elaborare i resi o gli annullamenti acquisti](purchasing-how-register-new-vendors.md) |
+| Creare una nota di credito di acquisto per stornare una fattura di acquisto registrata specifica per riflettere i prodotti resi al fornitore e l'importo di pagamento che verrà ricevuto. |[Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md) |
 |Preparare la fattura per più carichi dallo stesso fornitore dopo aver combinato i carichi in una sola fattura.|[Combinare i carichi in una singola fattura](purchasing-how-to-combine-receipts.md)|
 |Convertire, ad esempio, le fatture elettroniche dei fornitori in fatture di acquisto in Business Central.|[Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Informazioni su come vengono effettuati i calcoli [!INCLUDE[prod_short](includes/prod_short.md)] quando è necessario ordinare un articolo per riceverlo in una determinata data.|[Calcolo della data per gli acquisti](purchasing-date-calculation-for-purchases.md)|

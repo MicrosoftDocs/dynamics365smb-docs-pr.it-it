@@ -1,15 +1,15 @@
 ---
-title: Impostazione e fatturazione di pagamenti anticipati vendite
+title: Impostare e fatturare pagamenti anticipati di vendite
 description: I pagamenti anticipati sono pagamenti che vengono fatturati e registrati in un ordine di pagamento anticipato di vendita o di acquisto prima della fatturazione finale.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/03/2021
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite
+# Procedura dettagliata: impostare e fatturare pagamenti anticipati di vendite
 
 Questa procedura dettagliata illustra il processo di configurazione e di utilizzo dei pagamenti anticipati in [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -126,7 +126,7 @@ Crea quindi la fattura di pagamento anticipato e la invia al cliente
     |**Articolo**|**1896-S**|**1**|  
     |**Articolo**|**1900-S**|**1**|
 
-    I campi del pagamento anticipato nella riga di vendita sono nascosti per default. Per visualizzare i campi è necessario personalizzare la pagina. Per ulteriori informazioni, vedere [Per avviare la personalizzazione di una pagina tramite il banner Personalizzazione](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
+    I campi del pagamento anticipato nella riga di vendita sono nascosti per default. Per visualizzare i campi, è necessario personalizzare la pagina. Per ulteriori informazioni, vedere [Per avviare la personalizzazione di una pagina tramite il banner Personalizzazione](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 6. Verificare che il campo **% pagamento anticipato** sulla riga dell'articolo **1900-S** contenga **30**. Il valore di default è stato copiato dalla testata di vendita, popolata dalla scheda cliente.  
 
@@ -156,8 +156,8 @@ Dopo aver inserito nell'ordine i valori di pagamento anticipato corretti, Elisab
 
 ### Per creare una fattura di pagamento anticipato
 
-1. Nella pagina **Ordine vendita**, selezionare **Azioni**, quindi **Registrazione**, **Pagamento anticipato** e quindi selezionare **Registra e stampa fattura pagamento anticipato**
-2. Scegliere **Sì** per registrare la fattura.  
+1. Nella pagina **Ordine vendita**, selezionare **Azioni**, quindi **Registrazione**, **Pagamento anticipato** e quindi selezionare **Registra e stampa fattura pagam. ant.**
+2. Scegli **Sì** per registrare la fattura.  
 
 > [!NOTE]  
 > Susan invierebbe ora la fattura al cliente.  
@@ -171,11 +171,11 @@ Il giorno seguente, il cliente chiama Elisabetta e apporta modifiche all'ordine.
 1. Nella pagina **Ordine vendita**, scegliere l'azione **Rilascia**, quindi **Riapri**.  
 2. Immettere **2** nel campo **Quantità** della riga dell'articolo **1896-S**.  
 
-    Nell'azione **Ordine**, scegli **Statistiche**. Il campo **Importo pagam. ant. IVA esclusa** ora contiene **768.04** e il campo **Fattura importo pagam. ant. IVA esclusa** contiene **417.76**. Questi valori indicano l'esistenza di un importo di pagamento anticipato aggiuntivo che non è stato ancora fatturato.  
-3. Per registrare una fattura per l'importo aggiuntivo, seleziona **Azioni**, quindi **Registrazione**, **Pagamento anticipato** e infine seleziona **Registra e stampa fattura pagamento anticipato**
+    Nell'azione **Ordine**, scegli **Statistiche**. Il campo **Importo pagam. ant. IVA esclusa** ora contiene **768,04** e il campo **Fattura importo pagam. ant. IVA esclusa** contiene **417,76**. Questi valori indicano l'esistenza di un importo di pagamento anticipato aggiuntivo che non è stato ancora fatturato.  
+3. Per registrare una fattura per l'importo aggiuntivo, seleziona **Azioni**, quindi **Registrazione**, **Pagamento anticipato** e infine seleziona **Registra e stampa fattura pagam. ant.**
 4. Scegli **Sì** per registrare la fattura.  
 
-## Collegare i pagamenti anticipati
+## Applicare i pagamenti anticipati
 
 Il cliente paga l'importo del pagamento anticipato. Armando, dell'ufficio contabilità, registra il pagamento e lo applica alle fatture di pagamento anticipato.  
 
@@ -217,9 +217,9 @@ Ora l'amministratore della contabilità clienti, Armando, è stato informato che
 
 5. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") , immetti **Fatture di vendita registrate**, quindi scegli il collegamento correlato.  
 
-## Aggiornare automaticamente lo stato degli ordini con pagamento anticipato e delle fatture
+## Aggiornare automaticamente lo stato di ordini e fatture con pagamento anticipato
 
-È possibile velocizzare l'elaborazione di ordini e fatture impostando movimenti nella coda processi che aggiornano automaticamente lo stato di tali documenti. Quando viene pagata una fattura con pagamento anticipato, le voci della coda processi possono modificare automaticamente lo stato del documento da **In attesa di pagamento anticipato** a **Rilasciato**. Quando imposti le voci della coda processi, le codeunit che dovrai utilizzare sono **383 Aggiornamento pagamento anticipato vendita in sospeso** e **383 Aggiornamento pagamento anticipato acquisto in sospeso**. Ti consigliamo di pianificare l'esecuzione frequente delle voci, ad esempio ogni minuto. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
+È possibile velocizzare l'elaborazione di ordini e fatture impostando movimenti nella coda processi che aggiornano automaticamente lo stato di tali documenti. Quando viene pagata una fattura con pagamento anticipato, le voci della coda processi possono modificare automaticamente lo stato del documento da **In attesa di pagamento anticipato** a **Rilasciato**. Quando imposti le voci della coda processi, le codeunit che dovrai utilizzare sono **383 Aggiornamento pagamento anticipato vendita in sospeso** e **383 Aggiornamento pagamento anticipato acquisto in sospeso**. Ti consigliamo di pianificare l'esecuzione frequente delle voci, ad esempio ogni minuto. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
 ## Passaggi successivi
 

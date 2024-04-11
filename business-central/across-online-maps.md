@@ -16,7 +16,7 @@ Puoi ottenere una mappa da un servizio di mappe in linea che visualizza indirizz
 * Scheda cliente
 * Scheda fornitore
 * Scheda risorsa
-* Scheda commessa
+* Scheda progetto
 * Scheda conto corrente bancario
 * Scheda contatto
 * Scheda dipendente

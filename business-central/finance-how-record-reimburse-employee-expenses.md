@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
-ms.date: 06/16/2021
+ms.date: 03/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -15,14 +15,17 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta le transazioni per i dipendenti in modo simile alle transazioni per i fornitori. Di conseguenza, sono disponibili alcune categorie di registrazione dipendenti che consentono di assicurarsi che i movimenti contabili per i dipendenti siano registrati nei conti di pertinenza nella contabilità COGE.
 
 > [!NOTE]  
-> Le transazioni relative ai dipendenti possono essere registrate solo nella valuta locale. I rimborsi ai dipendenti non supportano sconti e e tolleranze sui pagamenti.
+> I rimborsi ai dipendenti non supportano sconti e e tolleranze sui pagamenti.
 
 Se i dipendenti spendono denaro personale durante le attività lavorative, è possibile registrare le spese nei conti dei dipendenti. È quindi possibile rimborsare il dipendente effettuando un pagamento sul conto bancario del dipendente, analogamente a quando si pagano i fornitori.  
 
-> [!TIP]
-> Questo articolo spiega come registrare le spese nei libri e come rimborsare il dipendente. L'organizzazione potrebbe avere un portale o un'app in cui i dipendenti possono inviare le proprie note spese.
+Questo articolo spiega come registrare le spese nei libri e come rimborsare il dipendente. L'organizzazione potrebbe avere un portale o un'app in cui i dipendenti possono inviare le proprie note spese.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] è sufficientemente flessibile per adattarsi a molte pratiche diverse. I numeri di account esatti da utilizzare dipendono dalla configurazione e dai processi dell'organizzazione.  
+
+È possibile utilizzare le registrazioni generali dei conti dei dipendenti per registrare le spese dei dipendenti e le transazioni di rimborso in valuta estera, quindi tenere facilmente traccia degli importi e confrontarli con le entrate. Lascia la calcolatrice nel cassetto della scrivania: Business Central può modificare il tasso di cambio per te. Quando utilizzi le registrazioni generali per registrare le transazioni per i conti dei dipendenti, ad esempio rimborsi le spese, puoi utilizzare il campo **Codice valuta** per specificare la valuta per le transazioni. La specifica di una valuta ti consente di utilizzare le stesse funzionalità di quando registri le transazioni nei registri clienti e fornitori. Ad esempio, i dipendenti possono registrare una spesa in euro ma essere pagati in dollari.
+
+Per garantire che il tasso di cambio degli importi sia aggiornato, puoi rettificare i saldi dei dipendenti quando esegui il processo batch del tasso di cambio valuta. Se desideri utilizzare la tabella dei tassi di cambio, ma liquidare i saldi dei dipendenti nella valuta locale, puoi escludere i conti dei dipendenti quando rettifichi i tassi di cambio.
 
 ## Per registrare le spese di un dipendente
 

@@ -8,15 +8,17 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/25/2023
+ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
 # Riconciliare i conti correnti bancari con Copilot (anteprima)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 Questo articolo spiega come utilizzare l'assistenza per la riconciliazione dei conti correnti bancari per riconciliare le transazioni bancarie con movimenti contabili in Business Central.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## Informazioni sull'assistenza per la riconciliazione dei conti correnti bancari
 
@@ -25,7 +27,7 @@ L'assistenza per la riconciliazione dei conti correnti bancari è un insieme di 
 - Creazione migliorata delle corrispondenze tra transazioni e movimenti contabili
 
    È possibile che tu conosca già l'azione **Corrispondenza automatica** nella pagina **Riconciliazioni C/C bancari** che crea automaticamente corrispondenze tra la maggior parte delle transazioni bancarie e i movimenti contabili. Definiamo questa operazione come *corrispondenza automatica*. Sebbene la corrispondenza automatica funzioni correttamente, gli algoritmi che utilizza a volte possono generare molte transazioni senza corrispondenze. Copilot utilizza la tecnologia IA per ispezionare le transazioni rimanenti e identificare più corrispondenze, in base a date, importi e descrizioni. Ad esempio, se più fatture sono state pagate come un'unica somma forfettaria da un cliente, Copilot riconcilia la singola riga dell'estratto conto con più movimenti contabili delle fatture.
-   
+
    Vedi [Riconciliare i conti correnti bancari con Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Conti di contabilità generale suggeriti
@@ -34,11 +36,9 @@ L'assistenza per la riconciliazione dei conti correnti bancari è un insieme di 
   
    Vedi [Trasferire transazioni bancarie senza corrispondenze a conti di contabilità generale suggeriti](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Prerequisiti
 
-- L'assistenza per la riconciliazione dei conti correnti bancari è abilitata e attivata. Questa attività è eseguita da un amministratore. [Scopri di più sull'abilitazione delle funzionalità di Copilot e IA](enable-ai.md).
+- L'assistenza per la riconciliazione dei conti correnti bancari è attivata. Questa attività è eseguita da un amministratore. [Scopri di più sulla configurazione delle funzionalità di Copilot e IA](enable-ai.md).
 - I conti correnti bancari in Business Central che vuoi riconciliare sono collegati a un conto corrente bancario online o impostati con il formato di importazione dell'estratto conto. 
 - Hai familiarità con la riconciliazione dei conti correnti bancari in Business Central come descritto in [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md). 
 

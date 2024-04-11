@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/27/2021
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Elaborare i resi o gli annullamenti vendite
 
-Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette della fattura di vendita, potete fare quanto segue:  
+Se un cliente desidera restituire gli articoli o ottenere il rimborso degli articoli o dei servizi che gli sono stati venduti e che ha pagato, è necessario creare e registrare una nota di credito di vendita in cui viene specificata la modifica richiesta. Per includere le informazioni corrette della fattura di vendita, puoi effettuare quanto segue:  
 
 - Creare la nota di credito di vendita direttamente dalla fattura di vendita registrata.
 - Creare una nuova nota di credito di vendita con le informazioni della fattura copiate.
@@ -22,7 +22,7 @@ Se hai bisogno di un maggiore controllo del processo di ritorno delle vendite, c
 > [!NOTE]  
 > Se una fattura di vendita registrata non è stata ancora pagata, è possibile utilizzare la funzione **Rettifica** o **Annulla** nella fattura di vendita registrata per stornare le transazioni. Queste funzionano solo per le fatture non pagate e non supportano i resi o le cancellazioni parziali. Per ulteriori informazioni, vedere [Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md).
 
-Un reso o un risarcimento può essere correlato solo ad alcuni degli articoli o dei servizi nella fattura di vendita originale. In questo caso, è necessario modificare le informazioni nelle righe della nota di credito di vendita o dell'ordine di reso da vendita. Quando si registra la nota di credito di vendita o l'ordine di reso da vendita, i documenti di vendita influenzati dalla variazione vengono stornati ed è possibile creare un pagamento di rimborso per il cliente. Per ulteriori informazioni, vedere [Effettuare i pagamenti](payables-make-payments.md).  
+Un reso o un risarcimento potrebbe essere correlato solo ad alcuni degli articoli o dei servizi nella fattura di vendita originale. In questo caso, è necessario modificare le informazioni nelle righe della nota di credito di vendita o dell'ordine di reso da vendita. Quando si registra la nota di credito di vendita o l'ordine di reso da vendita, i documenti di vendita influenzati dalla variazione vengono stornati ed è possibile creare un pagamento di rimborso per il cliente. Per ulteriori informazioni, vedere [Effettuare i pagamenti](payables-make-payments.md).  
 
 La registrazione della nota di credito annullerà anche tutti gli addebiti articolo assegnati al documento registrato, in modo che i movimenti valorizzazione articolo siano identici a prima dell'assegnazione dell'addebito articolo.
 
@@ -36,7 +36,7 @@ La registrazione della nota di credito annullerà anche tutti gli addebiti artic
 
     Nell'intestazione della nota di credito di vendita sono incluse alcune informazioni contenute nella fattura di vendita registrata. Tali informazioni possono, ad esempio, essere sostituite da nuove informazioni che riflettono il contratto di reso.  
 3. Modificare le informazioni nelle righe in base al contratto, quali il numero di articoli resi o l'importo da rimborsare.
-4. Scegli l'azione **Prepara** e poi scegli l'azione **Applica voci** .
+4. Scegli l'azione **Prepara** e quindi scegli l'azione **Applica voci**.
 5. Nella pagina **Collega movimenti clienti**, selezionare la riga con il documento di vendita registrato a cui si desidera collegare la nota di credito di vendita, quindi scegliere l'azione **Collega-a ID**.
 
     L'identificativo della nota di credito di vendita viene visualizzato nel campo **Collega-a ID**.
@@ -73,7 +73,7 @@ I documenti di vendita registrati che sono stati collegati alla nota di credito 
 3. Compilare la testata della nota di credito con le informazioni relative al cliente cui si intende riconoscere l'abbuono.  
 4. Nel campo **Tipo** della Scheda dettaglio **Righe** selezionare **Addebito (Articolo)**.  
 5. Nel campo **Nr.** selezionare il valore di addebito articolo appropriato.  
-     È possibile creare un numero di addebito articolo particolare in cui includere gli abbuoni.  
+     È possibile che si intenda creare un numero di addebito articolo particolare in cui includere gli abbuoni.  
 6. Nel campo **Quantità** immettere **1**.  
 7. Nel campo **Prezzo unitario tasse escluse**, immetti l'importo dell'indennità di vendita.  
 8. Assegnare l'abbuono di vendita come addebito articolo agli articoli nella spedizione registrata. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla pagina **Nota credito**.  
@@ -139,7 +139,7 @@ Per assegnare manualmente lo storno esatto costo, è necessario utilizzare il ca
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md).
 
-## Vedi anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

@@ -1,12 +1,12 @@
 ---
-title: Acquistare articoli per una vendita
+title: Acquisto di articoli per una vendita
 description: 'Da una fattura di vendita, per acquistare prodotti, è possibile creare una fattura di acquisto per un fornitore.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
-ms.date: 04/01/2021
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -58,10 +58,10 @@ Per creare un'unica fattura di acquisto per una o più righe di un documento di 
     Viene creata una fattura d'acquisto che contiene una, più o tutte le righe nella fattura di vendita.
 7. Continuare a elaborare la fattura di acquisto, ad esempio, modificando o aggiungendo altre righe alla fattura di acquisto. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
-## Vedi anche
+## Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
-[Fatturare le vendite](sales-how-invoice-sales.md)  
+[Fatturazione delle vendite](sales-how-invoice-sales.md)  
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

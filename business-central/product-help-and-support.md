@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,20 @@ ms.service: dynamics-365-business-central
 
 Le organizzazioni che utilizzano [!INCLUDE[prod_long](includes/prod_long.md)] possono ottenere supporto tecnico per eventuali problemi riscontrati. In questo articolo, ti mostriamo le seguenti informazioni e molti altri suggerimenti su come utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]:
 
+- Scopri come utilizzare l'assistente basato sull'intelligenza artificiale [per ottenere istruzioni e spiegazioni](#chat-with-copilot)
 - Scopri come [essere sbloccato](#in-product-tips)  
-- Scopri dove trovare [ulteriori informazioni](#help-pane)    
-- Scopri come trovare le [informazioni tecniche](#help--support-page) necessarie per inviare una richiesta di assistenza    
+- Scopri dove trovare [ulteriori informazioni](#help-pane)
+- Scopri come trovare le [informazioni tecniche](#help--support-page) necessarie per inviare una richiesta di assistenza
+
+## Chat con Copilot
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+Chat con Copilot è uno strumento basato sull'intelligenza artificiale che risponde a domande e trova dati aziendali correlati a Business Central. È accessibile da qualsiasi pagina selezionando l'icona ![Mostra l'icona per Chat con Copilot](media/chat-copilot-icon.png) **Copilot** nell'angolo in alto a destra. [Scopri di più su Chat con Copilot](chat-with-copilot.md).
+
+### Guida sui campi
+
+Copilot può aiutarti a comprendere lo scopo e l'uso tipico dei singoli campi. Quando scegli **Chiedi a Copilot** in una descrizione comando di un campo, la chat si apre con un prompt Spiegazione per il nome del campo e Copilot fornisce informazioni al riguardo. Copilot si collega agli articoli a cui fa riferimento, quindi è facile verificare la descrizione.
 
 ## Suggerimenti nel prodotto
 
@@ -35,14 +46,9 @@ In [!INCLUDE [prod_short](includes/prod_short.md)], la voce di menu Help (il pun
 
 L'elenco seguente descrive come è possibile accedere al riquadro della Guida e se le schede sono state aggiunte:
 
-- Scegli il collegamento *Per saperne di più* su un suggerimento per un campo
-
-  La seguente scheda viene aggiunta al riquadro della Guida:
-
-  - Descrizione comando del campo
-- Scegli il collegamento *Per saperne di più* su un suggerimento per un'azione
 - Scegli la voce di menu Guida (il punto interrogativo nell'angolo in alto a destra)
-- Usa la scelta rapida da tastiera <kbd>CTRL</kbd>+<kbd>F1</kbd> da qualsiasi luogo
+- Usa la scelta rapida da tastiera <kbd>CTRL</kbd>+<kbd>F1</kbd> da qualsiasi area
+- Scegli il collegamento *Ulteriori informazioni* in una descrizione comando di un campo, se disponibile. Il collegamento *Ulteriori informazioni* è disponibile solo nell'app per dispositivi mobili o nei campi personalizzati (ovvero campi di estensioni non Microsoft) nel client Web.
 
 > [!TIP]
 > Quando scegli un link, l'articolo di destinazione si apre in una nuova scheda del browser. Si può scegliere di sganciare la scheda del browser, quindi, in modo da poter visualizzare le informazioni pertinenti fianco a fianco con [!INCLUDE [prod_short](includes/prod_short.md)]. Il riquadro rimane aperto mentre si naviga su [!INCLUDE [prod_short](includes/prod_short.md)] in modo che il contenuto cercato rimanga visibile.  

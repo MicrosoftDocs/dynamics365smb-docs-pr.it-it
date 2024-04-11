@@ -1,32 +1,38 @@
 ---
-title: Come creare flussi di lavoro da modelli di flusso di lavoro
-description: 'Per risparmiare tempo durante la creazione di nuovi workflow di approvazione, è possibile creare flussi di lavoro non modificabili da modelli di flusso di lavoro con prefisso "MS".'
+title: Come creare workflow da modelli di workflow
+description: 'Per risparmiare tempo durante la creazione di nuovi workflow di approvazione, puoi creare i workflow da modelli di workflow.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/08/2022
 ms.author: bholtorf
+ms.reviewer: dajoo
+ms.topic: how-to
+ms.search.keywords: null
+ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Creare workflow da modelli di workflow
 
-Per risparmiare tempo durante la creazione di nuovi workflow di approvazione, puoi creare i modelli di workflow.  
+Nella pagina **Workflow** crei un workflow creando una serie di fasi workflow nelle righe. Ogni fase consiste di un evento workflow (Evento), moderato dalle condizioni di evento (Condizione) e in una risposta workflow (Risposta), moderata dalle opzioni di risposta. I campi nel righe del workflow forniscono elenchi fissi di valori di eventi e risposte che rappresentano gli scenari che [!INCLUDE [prod_short](includes/prod_short.md)] supporta. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).
 
-I modelli di workflow sono flussi di lavoro non modificabili presenti nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)]. Il codice dei modelli di flusso di lavoro che vengono creati da Microsoft hanno il prefisso "MS-".  
+Per risparmiare tempo durante la creazione di workflow di approvazione, [!INCLUDE [prod_short](includes/prod_short.md)] fornisce modelli di workflow. I modelli sono disponibili nella pagina **Modelli del workflow**. Puoi utilizzare i modelli così come sono o personalizzarli per soddisfare le tue esigenze. Il codice dei modelli di workflow di Microsoft hanno il prefisso **MS-**.
 
-Un altro modo per creare rapidamente un workflow consiste nell'importare un workflow esistente disponibile in un file all'esterno di [!INCLUDE[prod_short](includes/prod_short.md)]. Ulteriori informazioni in [Importare ed esportare workflow](across-how-to-export-and-import-workflows.md).  
+[!INCLUDE [workflow-next-step](includes/workflow-next-step.md)]
 
-Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi del flusso di lavoro compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).  
+Se modifichi un modello di workflow, ma in seguito ti penti della modifica, utilizza l'azione **Reimposta i modelli Microsoft** per ripristinare l'impostazione originale del workflow.
+
+> [!CAUTION]
+> L'azione **Reimposta i modelli Microsoft** reimposta tutti i modelli di workflow di Microsoft. Non puoi reimpostare un singolo modello.  
+
+Un altro modo per creare rapidamente un workflow è importarlo, ad esempio, se lo hai esportato da un'altra istanza di [!INCLUDE[prod_short](includes/prod_short.md)]. Ulteriori informazioni in [Importare ed esportare workflow](across-how-to-export-and-import-workflows.md).  
 
 ## Per creare un flusso di lavoro da un modello di flusso di lavoro
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo workflow da modello**. Verrà aperta la pagina **Modelli del workflow**.  
 3. Seleziona un modello di flusso di lavoro e scegli **OK**.  
 
    Verrà visualizzata la pagina **Workflow** per un nuovo workflow contenente tutte le informazioni del modello selezionato. Il valore nel campo **Codice** ad esempio con "-01" per indicare che questo è il primo workflow che viene creato dal modello di workflow.  
-4. Continuare la creazione del flusso di lavoro modificando i passaggi del flusso di lavoro o aggiungendone di nuovi. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).  
+4. Per personalizzare il workflow, modifica le fasi workflow o aggiungine di nuove. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).  
 
 ## Vedere anche
 
@@ -35,7 +41,7 @@ Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle r
 [Visualizzare le istanze di fase workflow archiviate](across-how-to-view-archived-workflow-step-instances.md)  
 [Eliminare i workflow di approvazione](across-how-to-delete-workflows.md)  
 [Procedura dettagliata: Impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Configurare i flussi di lavoro di approvazione](across-set-up-workflows.md)  
+[Configurare workflow di approvazione](across-set-up-workflows.md)  
 [Utilizzare i workflow di approvazione](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 

@@ -79,7 +79,7 @@ Per rendere completamente utili i nuovi articoli, è necessario copiare manualme
 |Vendite |Percentuale pagamenti anticipati vendite | Controllare se sono state definite percentuali di pagamento anticipato vendite per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Vendite** e poi **Percentuali di pagamento anticipato**.|
 |Acquisti |Percentuale pagamento anticipato acquisti |Controllare se sono state definite percentuali di pagamento anticipato acquisti per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le percentuali di pagamento anticipato, nella pagina **Scheda articolo** scegliere **Acquisti** e poi **Percentuali di pagamento anticipato**. |
 |Warehouse |Contenuto collocazioni |Rivedere il contenuto collocazione definito per l'articolo originale. Se colonne come Q.tà min.,  Q.tà max.,  Predefinito e Dedicato sono state inserite individualmente, è necessario creare manualmente il contenuto della collocazione per il nuovo articolo. In caso contrario, non è richiesta alcuna azione. [!INCLUDE[prod_short](includes/prod_short.md)] manterrà i record quando si registrano documenti e registrazioni di magazzino.|
-|Commessa |Costi commessa |Controllare se sono stati definiti costi commessa per l'articolo originale e trasferire tali dati nel nuovo articolo. Questa informazione è disponibile nella pagina **Scheda commessa** nella parte **Dettagli commessa - Nr. prezzi** nel **riquadro Dettaglio informazioni**. |
+|Posizione |Costi commessa |Controllare se sono stati definiti costi progetto per l'articolo originale e trasferire tali dati nel nuovo articolo. Questa informazione è disponibile nella pagina **Scheda progetto** nella parte **Dettagli progetto - Nr. prezzi** nel **riquadro Dettaglio informazioni**. |
 |Assistenza |Competenza risorsa in assistenza |Controllare se sono state definite le competenze risorsa in assistenza per l'articolo originale e trasferire tali dati nel nuovo articolo. Per visualizzare le competenze delle risorse, utilizzare l'azione **Competenze risorse** nella pagina **Scheda articolo**.  |
 | |Componenti articolo in assistenza |Controllare se sono stati definiti i componenti per l'articolo in assistenza originale e trasferire tali dati nel nuovo articolo. Per visualizzare i componenti dell'articolo in assistenza, nella pagina **Scheda articolo** usare l'azione **Articolo in assistenza** per aprire l'elenco degli articoli in assistenza correlati, quindi selezionare l'azione **Componenti**.  |
 |Produzione |Dist.base di produz. |Controllare se eventuali DB produzione contengono l'articolo originale e sostituirlo con il nuovo articolo. Per sostituire l'articolo originale, nella pagina **DB produzione**, scegliere l'azione **Scambio articolo DB produzione**. |
@@ -122,7 +122,7 @@ Quando si creano ordini di assemblaggio, utilizzare le informazioni dalla Regist
 |Campo  |Valore da immettere  |
 |---------|---------|
 |Tipo |Articolo |
-|Nr. |Il numero dell'articolo originale. |
+|No. |Il numero dell'articolo originale. |
 |Quantità per |1 |
 |Cod. variante |Lo stesso della registrazione di inventario fisico. |
 |Cod. ubicazione |Lo stesso della registrazione di inventario fisico. |
@@ -153,7 +153,7 @@ La tabella seguente elenca le aree funzionali in cui potrebbero esserci quantit�
 |Pianificazione |Richiesta di approvvigionamento, prospetto di pianificazione e pianificazione degli ordini |
 |Warehouse |Ordini di trasferimento, spedizioni warehouse, registrazioni di warehouse e prelievi warehouse, stoccaggi e movimenti, prelievi e stoccaggi interni e prospetti di creazione collocazione |
 |Assemblaggio |Documenti di assemblaggio, inclusi ordini, ordini di reso e ordini programmati |
-|Commesse |Righe di pianificazione commessa e righe di registrazioni commessa |
+|Commesse |Righe di pianificazione progetto e righe di registrazione progetto |
 |Assistenza |Documenti di assistenza e contratti di assistenza |
 |Produzione |Ordini di produzione (pianificati, confermati e rilasciati) |
 

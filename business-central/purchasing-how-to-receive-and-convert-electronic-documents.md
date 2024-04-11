@@ -1,12 +1,12 @@
 ---
 title: Ricevere e convertire documenti elettronici
-description: In questo argomento viene spiegato come ricevere documenti elettronici direttamente da partner commerciali o da un servizio OCR.
+description: In questo articolo viene spiegato come ricevere documenti elettronici direttamente da partner commerciali o da un servizio OCR.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -55,7 +55,7 @@ Nella procedura riportata di seguito viene descritto come ricevere una fattura d
 
     Tutti gli errori di convalida, in genere correlati a dati mancanti o errati in [!INCLUDE[prod_short](includes/prod_short.md)], verranno visualizzati nella Scheda dettaglio **Messaggi di errore**.  
 
-## Vedi anche
+## Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Documenti in entrata](across-income-documents.md)  

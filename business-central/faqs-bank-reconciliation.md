@@ -1,7 +1,7 @@
 ---
 title: Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari (anteprima) con Copilot
 description: 'Queste domande frequenti forniscono informazioni sulla tecnologia di IA utilizzata per riconciliare conti correnti bancari ed estratti conto in Business Central. Includono considerazioni e dettagli chiave su come viene utilizzata l''intelligenza artificiale, come è stata testata e valutata ed eventuali limitazioni specifiche.'
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -13,11 +13,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari (anteprima) con Copilot
+# Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari con Copilot (anteprima)
+
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
+
+Queste domande frequenti descrivono l'impatto IA dell'assistenza di Copilot sulla riconciliazione dei conti correnti bancari in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-Queste domande frequenti descrivono l'impatto IA dell'assistenza di Copilot sulla riconciliazione dei conti correnti bancari in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## Che cos'è la funzionalità per l'assistenza per la riconciliazione dei conti correnti bancari?
 
@@ -58,7 +60,7 @@ I conti CoGe suggeriti offrono migliori prestazioni in lingua inglese. Sebbene q
 -->
 ## In quali aree geografiche e lingue è disponibile l'assistenza per la riconciliazione bancaria? 
 
-Questa funzionalità è disponibile per la localizzazione di qualsiasi paese/regione dell'ambiente e in qualsiasi lingua dell'utente. Per gli ambienti dei clienti situati in paesi/aree geografiche in cui il servizio OpenAI di Azure non è distribuito, gli amministratori devono prima consentire lo spostamento dei dati oltre i confini affinché [!INCLUDE[prod_short](includes/prod_short.md)] si connetta al servizio OpenAI di Azure e questa funzionalità sia disponibile. 
+Questa funzionalità è disponibile per la localizzazione di qualsiasi paese/area eografica dell'ambiente e in qualsiasi lingua dell'utente. Per gli ambienti dei clienti situati in paesi/aree geografiche in cui il servizio OpenAI di Azure non è distribuito, gli amministratori devono prima consentire lo spostamento dei dati oltre i confini affinché [!INCLUDE[prod_short](includes/prod_short.md)] si connetta al servizio OpenAI di Azure e questa funzionalità sia disponibile. 
 
 Per ulteriori informazioni sulla lingua, vedi la domanda precedente sulle limitazioni.  
 

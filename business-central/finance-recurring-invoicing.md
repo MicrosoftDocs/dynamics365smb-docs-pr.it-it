@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf
-ms.date: 04/01/2021
+ms.date: 03/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -18,29 +18,29 @@ Molte aziende stanno passando da un modello di ricavo aziendale in cui i ricavi 
 
 ## Registrare il ricavo con un giornale generale di registrazione periodica
 
-Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica, come affitto, sottoscrizioni, elettricità o riscaldamento. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. Utilizzando registrazioni periodiche, è sufficiente immettere una sola volta i movimenti registrati regolarmente. Ciò significa che i conti, le dimensioni, i valori dimensioni e così via, immessi nei campi rimarranno nelle registrazioni dopo la contabilizzazione. Se sono necessarie rettifiche, è possibile eseguirle a ogni registrazione.
+Una registrazione periodica è una registrazione generale con campi specifici per la gestione di transazioni registrate frequentemente con poche o nessuna modifica, come affitto, sottoscrizioni, elettricità o riscaldamento. Se si utilizzano questi campi per le transazioni ricorrenti, è possibile registrare sia gli importi fissi sia quelli variabili. Utilizzando una registrazione ricorrente, è sufficiente immettere una sola volta i movimenti registrati regolarmente. Ciò significa che conti, dimensioni, valori dimensioni e così via immessi rimarranno nella registrazione dopo la contabilizzazione. Se sono necessarie rettifiche, è possibile eseguirle a ogni registrazione.
 
 ### Perché usare questa opzione
 
 Con questa opzione, è possibile definire periodi di fatturazione flessibili con le [formule della data](ui-enter-date-ranges.md#use-date-formulas).
 
-Tuttavia, con questa opzione, non è possibile stampare e inviare fatture nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)].  
+Tuttavia, con questa opzione, non puoi stampare e inviare fatture nella versione predefinita di [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Per ulteriori informazioni, vedi [Utilizzare le registrazioni periodiche](ui-work-general-journals.md#work-with-recurring-journals).  
 
-## Creare più fatture basate su un giornale di registrazione commesse periodico
+## Creare più fatture basate su una registrazione progetti ricorrente
 
-Il giornale di registrazione commesse periodico è un'alternativa più avanzata al giornale di registrazione generale. Si definiscono articoli, risorse e conti Co.Ge., che devono essere ripetuti per ciascuna commessa e si specifica la frequenza di ricorrenza.  
+Il giornale di registrazione commesse periodico è un'alternativa più avanzata al giornale di registrazione generale. Si definiscono articoli, risorse e conti C/G che devono essere ripetuti per ciascuna processo e si specifica la frequenza di ricorrenza.  
 
-Dopo aver pubblicato un giornale di registrazione commesse periodico, è possibile creare più fatture con l'attività **Crea fattura vendita per commessa**. È possibile rivedere e pubblicare le fatture create nella pagina **Fatture vendita**.
+Dopo aver pubblicato una registrazione progetti ricorrente, puoi creare più fatture con l'attività **Crea fattura vendita per commessa**. È possibile rivedere e pubblicare le fatture create nella pagina **Fatture vendita**.
 
 ### Perché usare questa opzione
 
-Con questa opzione, seguire la procedura di fatturazione standard con tutti i vantaggi, inclusi layout standard e cliente per le preferenze di comunicazione. È inoltre possibile definire i prezzi per ciascuna commessa individualmente.
+Con questa opzione, seguire la procedura di fatturazione standard con tutti i vantaggi, inclusi layout standard e cliente per le preferenze di comunicazione. Puoi inoltre definire i prezzi per ciascun progetto individualmente.
 
-Tuttavia, per ogni nuovo cliente, è necessario creare una nuova commessa e aggiungere righe al giornale periodico. 
+Tuttavia, per ogni nuovo cliente, devi creare un nuovo progetto e aggiungere righe alla registrazione ricorrente. 
 
-Per ulteriori informazioni, vedere [Creare righe del giornale di registrazione commesse](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) e [Creare più fatture di vendita commesse](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Per ulteriori informazioni, vedi [Creare righe di registrazione progetto](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) e [Creare più fatture di vendita progetto](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Creare più fatture basate sulle righe di vendita ricorrenti
 
@@ -106,10 +106,10 @@ In [AppSource.microsoft.com](https://appsource.microsoft.com/), è possibile ott
 
 [Formule per la data](ui-enter-date-ranges.md#use-date-formulas)  
 [Utilizzare le registrazioni periodiche](ui-work-general-journals.md#work-with-recurring-journals)  
-[Creare righe di registrazione commesse](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Creare più fatture di vendita commesse](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Creare righe di registrazione progetto](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Creare più fatture di vendita progetto](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Creare righe di vendite e acquisti ricorrenti](sales-how-work-standard-lines.md)  
-[Utilizzare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Usare contratti e offerte di contratto di servizio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Fatturare più contratti di assistenza](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Previsioni della domanda e ordini programmati](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Utilizzare gli ordini di vendita programmati](sales-how-to-create-blanket-sales-orders.md)  

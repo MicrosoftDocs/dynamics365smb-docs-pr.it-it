@@ -1,11 +1,11 @@
 ---
-title: Effettuare spedizioni dirette (contiene video)
+title: Effettuare spedizioni dirette (con video)
 description: Viene descritto come creare un ordine di vendita collegato a un ordine di acquisto per consentire la spedizione diretta dal fornitore al cliente.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: direct shipment
-ms.date: 04/01/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

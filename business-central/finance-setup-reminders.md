@@ -6,30 +6,44 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '431, 432, 436, 478'
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Impostare i termini e i livelli di sollecito
 
-È possibile utilizzare i solleciti per indicare ai clienti gli importi insoluti. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
+Puoi utilizzare i solleciti per ricordare ai clienti gli importi scaduti e il pagamento della richiesta. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
+
+> [!TIP]
+> Dopo aver impostato i termini e i livelli dei solleciti, puoi includerli nei processi automatizzati per creazione, emissione e invio di solleciti. Per ulteriori informazioni sul processo automatizzato, vai a [Automatizzare i solleciti nelle riscossioni](finance-automate-reminders.md).
 
 ## Termini di sollecito
 
 Se per un cliente sono presenti pagamenti scaduti, è necessario decidere quando e con quale modalità inviare un sollecito. Può inoltre essere necessario addebitare sul relativo conto gli interessi o gli oneri. È possibile impostare un numero qualsiasi di termini di sollecito.  
 
 > [!NOTE]
-> Se si desidera calcolare gli interessi sui pagamenti scaduti, è possibile effettuare questa operazione quando si creano i solleciti. Se tuttavia si desidera semplicemente calcolare gli interessi e informarne i clienti senza inviare solleciti, utilizzare [note addebito interessi](finance-setup-finance-charges.md). Per ulteriori informazioni, vedere rispettivamente [Solleciti](receivables-collect-outstanding-balances.md#reminders) o [Addebiti interessi](receivables-collect-outstanding-balances.md#finance-charges).
+> Se si desidera calcolare gli interessi sui pagamenti scaduti, è possibile effettuare questa operazione quando si creano i solleciti. Se tuttavia desideri semplicemente calcolare gli interessi e informarne i clienti senza inviare un sollecito, utilizza una [nota di addebito degli interessi](finance-setup-finance-charges.md). Per ulteriori informazioni, vedi [Solleciti](receivables-collect-outstanding-balances.md#reminders) o [Addebiti interessi](receivables-collect-outstanding-balances.md#finance-charges).
 
-### Per impostare i termini di sollecito
+### Impostare i tesi degli allegati e del corpo e-mail per le comunicazioni
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Termini di sollecito**, quindi scegli il collegamento correlato.  
+Nella pagina **Impostazione dei termini di sollecito**, puoi impostare i testi degli allegati e i messaggi e-mail standard da utilizzare per tutti i livelli di sollecito o creare messaggi specifici per ciascun livello. Ad esempio, il messaggio inviato per il primo livello di sollecito potrebbe avere un tono o un contenuto diverso rispetto al secondo o al terzo. Per creare testi di allegati e messaggi e-mail per tutti i livelli, scegli **Comunicazione del cliente** nella parte superiore della pagina. Per creare messaggi per righe specifiche, nella scheda dettaglio **Livello sollecito** scegli una riga, quindi scegli l'azione **Comunicazione del cliente** nella Scheda dettaglio.
+
+Per impostazione predefinita, i testi degli allegati e delle e-mail utilizzano l'impostazione della lingua. Se invii solleciti ai clienti in altri paesi, tuttavia, potresti voler comunicare in lingue diverse. Puoi creare testi per ogni lingua che [!INCLUDE [prod_short](includes/prod_short.md)] supporta utilizzando l'azione **Aggiungi testo per la lingua**. In tal caso, assicurati che le lingue siano le stesse per i testi degli allegati e per i testi delle e-mail. Se non corrispondono e il termine del sollecito ha più di un livello, l'automazione potrebbe non essere in grado di personalizzare il messaggio per uno o più livelli. Per verificare che le lingue corrispondano, utilizza l'azione **Panoramica comunicazioni** e confronta le comunicazioni per i testi.
+
+Quando invii un'e-mail, il sollecito è un report che alleghi all'e-mail. Puoi definire il report che genera il sollecito nella pagina **Selezioni report - Sollecito e addebito interessi**, dove selezioni anche il report che contiene il testo del corpo e-mail nel campo **Nome layout corpo e-mail**. Quando invii e-mail ai tuoi clienti, i testi presenti nella Scheda dettaglio **Testo e-mail** vengono inseriti nel report selezionato nel campo **Nome layout corpo e-mail**. Il report standard dispone di un campo di testo per questo testo. Se lo desideri, puoi modificare questo report, ad esempio, per aggiungere o rimuovere contenuti. Modifica il layout di questi report nella pagina **Layout report**. Per ulteriori informazioni sui layout di report, vedi [Iniziare a creare layout di report](ui-get-started-layouts.md).
+
+> [!NOTE]
+> Per comunicare tramite email direttamente da [!INCLUDE [prod_short](includes/prod_short.md)] è necessario che tu sia configurato per farlo. Per ulteriori informazioni sulla connessione della posta elettronica con [!INCLUDE [prod_short](includes/prod_short.md)], vedi [Impostare la posta elettronica](admin-how-setup-email.md).
+
+### Impostare i termini di sollecito
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Termini di sollecito**, quindi scegli il collegamento correlato.  
 2. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Per utilizzare più di una combinazione dei termini di sollecito, impostare un codice per ciascuno di essi.
 
 ## Livelli di sollecito
 
-A ciascun codice dei termini di sollecito corrispondono un numero illimitato di livelli di sollecito. La prima volta che si crea un sollecito per un cliente, viene utilizzata l'impostazione del livello 1. Quando si emette il solletico, il numero del livello viene registrato nei movimenti del sollecito creati e collegati ai singoli movimenti contabili cliente. Se è necessario sollecitare nuovamente il cliente, vengono controllati tutti i movimenti del sollecito collegati ai movimenti contabili cliente aperti per individuare il numero di livello più alto. Per il nuovo sollecito verranno quindi utilizzate le condizioni del numero di livello successivo.
+Per ciascun termine di sollecito puoi definire un numero illimitato di livelli di sollecito, sebbene la maggior parte delle società utilizzi solo due o tre livelli. La prima volta che si crea un sollecito per un cliente, viene utilizzata l'impostazione del livello 1. Quando si emette il solletico, il numero del livello viene registrato nei movimenti del sollecito creati e collegati ai singoli movimenti contabili cliente. Se è necessario sollecitare nuovamente il cliente, vengono controllati tutti i movimenti del sollecito collegati ai movimenti contabili cliente aperti per individuare il numero di livello più alto. Per il nuovo sollecito verranno quindi utilizzate le condizioni del numero di livello successivo.
 
 Se si creano più solleciti di quanti livelli sono stati definiti, verranno utilizzate le condizioni del livello massimo. È possibile creare tanti solleciti quanti sono consentiti dall'impostazione del campo **Nr. max solleciti** nei termini del sollecito.
 
@@ -67,7 +81,7 @@ Se si creano più solleciti di quanti livelli sono stati definiti, verranno util
     Per ogni livello di sollecito è possibile specificare il testo che verrà stampato prima (**Testo iniziale**) o dopo (**Testo finale**) nei movimenti nel sollecito.
 
 6. Scegliere rispettivamente le azioni **Testo iniziale** o **Testo finale** e compilare la pagina **Testi di sollecito**.
-7. Per inserire automaticamente i relativi valori nel testo di sollecito risultante, fornire seguenti segnaposti nel campo **Testo**.  
+7. Per inserire automaticamente i valori correlati nel testo di sollecito, puoi immettere i seguenti segnaposto nel campo **Testo**.  
 
     |Segnaposto|Valore|  
     |-----------------|-----------|  
@@ -84,12 +98,14 @@ Se si creano più solleciti di quanti livelli sono stati definiti, verranno util
     |%11|Nome della società|  
     |%12|Contenuto del campo **Onere add. per riga** della testata sollecito|  
 
-    Ad esempio, se si scrive **È dovuto il pagamento di %9 %7 con scadenza %2**, nel sollecito risultante verrà visualizzato il seguente testo: **È dovuto il pagamento di 1.200,50 USD con scadenza 02-02-2014.**
+    Ad esempio, se scrivi **È dovuto il pagamento di %9 %7 con scadenza %2**, nel sollecito viene visualizzato il seguente testo: **È dovuto il pagamento di 1.200,50 USD con scadenza 02-02-2024.**
 
     > [!NOTE]
-    > La data di scadenza viene calcolata in base alla formula immessa per la data. Per ulteriori informazioni, vedi [Utilizzare le formule per le date](ui-enter-date-ranges.md#use-date-formulas).
+    > [!INCLUDE [prod_short](includes/prod_short.md)] calcola la data di scadenza in base alla formula immessa per la data. Per ulteriori informazioni, vedi [Utilizzare le formule per le date](ui-enter-date-ranges.md#use-date-formulas).
 
-Dopo avere impostato i termini di sollecito, con livelli e testo aggiuntivi, immettere uno dei codici in ognuna delle schede clienti. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
+8. Per specificare la lingua per un messaggio e-mail, scegli l'azione **Aggiungi testo per la lingua**. Il campo **Codice lingua** si aggiorna per mostrare la selezione. Nella Scheda dettaglio veloce **Testo e-mail** immetti il contenuto del messaggio nella lingua selezionata.
+
+Dopo aver impostato i termini del sollecito, puoi assegnarli ai clienti nelle pagine Scheda cliente. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
 
 ## Vedere anche
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 I direttori vendite devono analizzare il turnover, il margine lordo e altri indicatori di prestazioni vendite principali periodicamente. Gli addetti agli acquisti sono più interessati alle dinamiche dei volumi di acquisto, alle prestazioni dei fornitori e ai prezzi di acquisto. Mentre i responsabili di logistica e magazzino necessitano informazioni sull'indice di rotazione delle giacenze, l'analisi dei movimenti di magazzino e le statistiche sul valore di magazzino. Quindi non esiste un report di analisi valido per tutti.
 
-Puoi personalizzare i report di analisi in base ai record delle transazioni registrate, ad esempio vendite, acquisti, trasferimenti e rettifiche magazzino. In un report personalizzabile i dati di origine, derivati dai movimenti contabili degli articoli a cui sono associati movimenti di valorizzazione, possono essere combinati, confrontati e presentati nel formato più appropriato definito dall'utente. Da questo punto di vista, il report Analisi è molto simile a un report tabella pivot di Microsoft Excel.  
+Puoi personalizzare i report di analisi in base ai record delle transazioni registrate, ad esempio vendite, acquisti, trasferimenti e rettifiche magazzino. In un report personalizzabile i dati di origine, derivati dai movimenti contabili degli articoli a cui sono associati movimenti di valorizzazione, possono essere combinati, confrontati e presentati nel formato più appropriato definito dall'utente. Da questo punto di vista, il report Analisi è simile a un report tabella pivot di Microsoft Excel.  
 
 Quindi, ad esempio, puoi creare un report personalizzato che si concentra sui tuoi conti chiave in termini di fatturato totale del prodotto in importi e quantità vendute, profitto lordo e percentuale di profitto lordo durante il mese corrente. Quindi puoi far confrontare queste cifre con i risultati dei mesi precedenti o dello stesso mese dell'anno precedente e calcolare le deviazioni. Tutte queste operazioni possono essere effettuate nella stessa visualizzazione, che ti consente di visualizzare le cause di aree problematiche identificate e anche scegliere il pulsante a discesa per accedere ai dettagli a livello delle singole transazioni.  
 
@@ -60,10 +60,10 @@ In base alle righe e alle colonne impostate, il risultato del report viene aggre
 
 La seguente procedura è basata sulle visualizzazioni di analisi per le vendite. I passaggi sono simili a quelli delle visualizzazioni di analisi di magazzino e di acquisto.
 
-Un modello colonne analisi contiene un set di righe, che rappresentano una colonna di analisi nel report di analisi. Per definire una colonna, è necessario assegnare un codice di tipo di analisi a una riga. Questo codice tipo analisi determina il tipo di dati di origine nei movimenti contabili articoli su cui sarà basata l'analisi. I dati di origine possono includere costo, importo vendita o quantità e i relativi movimenti di valorizzazione associati. Puoi impostare il numero di modelli di colonna desiderato, quindi utilizzarli per creare nuovi report di analisi.    
+Un modello colonne analisi contiene un set di righe, che rappresentano una colonna di analisi nel report di analisi. Per definire una colonna, devi assegnare un codice di tipo di analisi a una riga. Questo codice tipo analisi determina il tipo di dati di origine nei movimenti contabili articoli su cui sarà basata l'analisi. I dati di origine possono includere costo, importo vendita o quantità e i relativi movimenti di valorizzazione associati. Puoi impostare il numero di modelli di colonna desiderato, quindi utilizzarli per creare nuovi report di analisi.    
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Modelli colonne vendite**, quindi scegli il collegamento correlato.  
-2. Seleziona la prima riga vuota e compila i campi necessari.
+2. Seleziona la prima riga vuota e compila i campi come necessario.
 3. Scegliere l'azione **Colonne**.  
 4. Nella pagina **Colonne Analisi** compila i campi per specificare le colonne da includere nel report analisi.  
 
@@ -80,7 +80,7 @@ La seguente procedura è basata sui report di analisi per le vendite. I passaggi
 Un modello righe analisi contiene un set di righe, che rappresentano una riga di analisi nel report di analisi. In una riga è possibile specificare un articolo o un insieme di articoli, clienti, fornitori o gruppi. È inoltre possibile creare una formula in una riga per calcolare la somma delle altre righe. Puoi impostare il numero desiderato di modelli di righe e utilizzarli per creare nuovi report di analisi.   
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Modelli righe vendite**, quindi scegli il collegamento correlato.  
-2. Seleziona la prima riga vuota e compila i campi necessari.
+2. Selezionare la prima riga vuota e compilare i campi necessari.
 3. Scegliere l'azione **Righe**.  
 4. Nella pagina **Righe Analisi** creare le righe relative agli articoli, ai clienti, ai fornitori o agli agenti di cui si desidera visualizzare i valori nel report analisi. È necessario compilare i campi **Tipo**, **Range** e **Descrizione**.  
 
@@ -95,7 +95,7 @@ Con i report di analisi puoi valutare in dettaglio la dinamica delle vendite in 
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Report analisi vendite**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Report analisi vendite** scegliere l'azione **Nuovo**.
-3. Compila i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Scegliere l'azione **Modifica report analisi**.
 5. Nella pagina **Report analisi vendite** scegliere l'azione **Mostra matrice**.  
 

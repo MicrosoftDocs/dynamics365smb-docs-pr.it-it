@@ -35,7 +35,7 @@ Per utilizzare un modello di prezzo di base, è sufficiente specificare un prezz
 * Quantità minima
 * Date che definiscono il periodo di validità dei prezzi.
 
-Dopo aver impostato i prezzi speciali, [!INCLUDE[prod_short](includes/prod_short.md)] può calcolare il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione commessa e articolo. Per ulteriori informazioni vedi [Calcolo del miglior prezzo](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Dopo aver impostato i prezzi speciali, [!INCLUDE[prod_short](includes/prod_short.md)] può calcolare il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione progetto e articolo. Per ulteriori informazioni vedi [Calcolo del miglior prezzo](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Per gli sconti puoi impostare due tipi:
 
@@ -93,7 +93,7 @@ Quando abiliti l'aggiornamento della funzionalità **Nuova esperienza prezzo di 
   * Ricavi commesse
   * Acquisti commesse
 
-  Puoi modificare tutti i prezzi per queste aree nella pagina **Foglio di lavoro prezzi**. I listini prezzi predefiniti sono impostati nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** e **Setup commesse**.
+  Puoi modificare tutti i prezzi per queste aree nella pagina **Foglio di lavoro prezzi**. I listini prezzi predefiniti sono impostati nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** e **Setup progetti**.
 
 > [!NOTE]
 > Se i prezzi sono impostati solo su schede articolo o risorsa, i listini prezzi predefiniti non verranno compilati con tali prezzi durante l'aggiornamento dei dati. Tuttavia, puoi aprire uno qualsiasi dei listini prezzi predefiniti o la pagina **Foglio di lavoro prezzi** e utilizzare l'azione **Suggerisci righe** per aggiungere i prezzi impostati sulle schede articolo o risorsa.
@@ -107,7 +107,7 @@ Quando abiliti l'aggiornamento della funzionalità **Nuova esperienza prezzo di 
 
 Se hai molte combinazioni, avrai molti listini prezzi.
 
-Se hai già abilitato la Nuova esperienza prezzi, puoi creare listini prezzi predefiniti manualmente o specificare un listino prezzi esistente come predefinito. Per impostare un listino prezzi esistente come predefinito, attiva l'interruttore **Consenti aggiornamento impostazioni predefinite** per il listino prezzi. Quindi nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** o **Setup commesse** imposta il listino prezzi come predefinito.
+Se hai già abilitato la Nuova esperienza prezzi, puoi creare listini prezzi predefiniti manualmente o specificare un listino prezzi esistente come predefinito. Per impostare un listino prezzi esistente come predefinito, attiva l'interruttore **Consenti aggiornamento impostazioni predefinite** per il listino prezzi. Quindi nelle pagine **Setup contabilità clienti**, **Setup contabilità fornitori** o **Setup progetti** imposta il listino prezzi come predefinito.
 
 ### Modifica dei listini prezzi attivi
 
@@ -223,7 +223,7 @@ Per aggiornare i prezzi per più articoli, è necessario creare un nuovo listino
 
 ## Calcolo del prezzo migliore
 
-Dopo aver registrato i prezzi speciai e gli sconti di riga per vendite e acquisti, [!INCLUDE[prod_short](includes/prod_short.md)] calcola automaticamente il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione commessa e articolo.
+Dopo aver registrato i prezzi speciai e gli sconti di riga per vendite e acquisti, [!INCLUDE[prod_short](includes/prod_short.md)] calcola automaticamente il miglior prezzo sui documenti di vendita e acquisto e sulle righe di registrazione progetto e articolo.
 
 Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che gode dello sconto riga più alto possibile praticabile in una specifica data. [!INCLUDE[prod_short](includes/prod_short.md)] calcola il miglior prezzo quando inserisce il prezzo unitario e la percentuale di sconto riga per gli articoli in nuove righe di documenti e di registrazione.
 

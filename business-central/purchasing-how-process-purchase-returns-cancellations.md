@@ -1,12 +1,12 @@
 ---
-title: Elaborare i resi o gli annullamenti
+title: Elaborare resi o annullamenti
 description: Descrizione di come creare e registrare una nota di credito acquisto quando si desidera effettuare un reso degli articoli a un fornitore o annullare servizi acquistati.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cancel, undo, correct'
 ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
-ms.date: 04/01/2021
+ms.date: 03/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -21,7 +21,7 @@ Se è necessario più controllo del processo di reso da acquisto, ad esempio i d
 
 In genere, si crea una nota di credito di acquisto o un ordine di reso da acquisto in risposta a una nota di credito inviata da un fornitore. La nota di credito di acquisto o l'ordine di reso da acquisto funziona come documentazione interna del processo di nota di credito per scopi contabili o per controllare la spedizione degli articoli interessati.
 
-La modifica può essere correlata a tutti o solo ad alcuni prodotti nella fattura di acquisto originale. Di conseguenza, è possibile restituire parzialmente gli articoli ricevuti o richiedere il risarcimento parziale dei servizi ricevuti. In questo caso, è necessario modificare le informazioni nella nota di credito di acquisto o nell'ordine di reso da acquisto.
+La modifica potrebbe essere correlata a tutti o solo ad alcuni prodotti nella fattura di acquisto originale. Di conseguenza, è possibile restituire parzialmente gli articoli ricevuti o richiedere il risarcimento parziale dei servizi ricevuti. In questo caso, è necessario modificare le informazioni nella nota di credito di acquisto o nell'ordine di reso da acquisto.
 
 Oltre alla fattura di acquisto registrata originale, è possibile collegare la nota di credito di acquisto o l'ordine di reso da acquisto ad altri documenti di acquisto, ad esempio un'altra fattura di acquisto registrata, in quanto si restituiscono anche gli articoli consegnati con la fattura.
 
@@ -58,7 +58,7 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Costing di magazz
     Dopo avere creato o modificato le righe della nota di credito di acquisto necessarie e aver specificato uno o più collegamenti, è possibile passare alla registrazione della nota di credito di acquisto.
 8. Scegliere l'azione **Registra**.
 
-Le fatture di acquisto registrate a cui si applica la nota di credito vengono ora stornate. Se è già stata pagata la fattura originale, il fornitore dovrà rimborsare il pagamento. Se la nota di credito riguarda solo parte del prodotto nella fattura originale, è possibile pagare solo l'importo restante nella fattura di acquisto originale per chiuderla.
+Le fatture di acquisto registrate a cui si applica la nota di credito vengono ora stornate. Se è già stata pagata la fattura originale, il fornitore dovrà rimborsare il pagamento. Se la nota di credito riguarda solo parte del prodotto nella fattura originale, si potrebbe pagare solo l'importo restante nella fattura di acquisto originale per chiuderla.
 
 La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento nell'elenco delle note di credito di acquisto registrate.
 
@@ -114,7 +114,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 
     - Se la riga del documento registrata include righe di tracciabilità articolo, il campo **Collega-a mov. art.** nelle righe di tracciabilità articolo viene compilato con i numeri dei movimenti contabili articoli appropriati indicati nelle righe di tracciabilità articolo registrate.  
 
-     Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella pagina **Setup contabilità fornitori e acquisti** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. È possibile, pertanto, che l'importo riga per la nuova riga sia diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
+     Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella pagina **Setup contabilità fornitori e acquisti** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. L'importo riga per la nuova riga potrebbe quindi essere diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
 
     > [!NOTE]  
     >  Se parte della quantità della riga del documento registrato è già stata stornata, venduta o consumata, viene creata una riga solo per la quantità rimanente in magazzino o non ancora resa. Se l'intera quantità della riga del documento registrato è già stata stornata, non viene creata una nuova riga.  
@@ -126,7 +126,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 
 ## Per creare un ordine di acquisto di sostituzione da un ordine di reso da acquisto
 
-È possibile raggiungere un accordo con un fornitore per la sostituzione di un articolo quale compensazione per un articolo acquistato. L'articolo sostitutivo può essere uguale oppure diverso. Questa situazione potrebbe presentarsi, ad esempio, se il fornitore ha spedito l'articolo sbagliato.  
+Si potrebbe raggiungere un accordo con un fornitore per la sostituzione di un articolo quale compensazione per un articolo acquistato. L'articolo sostitutivo può essere uguale oppure diverso. Questa situazione potrebbe presentarsi, ad esempio, se il fornitore ha spedito l'articolo sbagliato.  
 
 1.  Nella pagina **Ordine di reso acquisto** per un processo di reso attivo, su una riga vuota, creare un movimento negativo per l'articolo in sostituzione immettendo un importo negativo nel campo **Quantità**.  
 2. Scegliere l'azione **Sposta righe negative**.  
@@ -135,7 +135,7 @@ La nota di credito di acquisto viene rimossa e sostituita con un nuovo documento
 
 ## Per creare un abbuono di acquisto
 
-Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richiesti, ad esempio, se sono leggermente danneggiati, se il colore o la misura non sono quelli giusti, il fornitore può proporre un abbuono sull'acquisto.  
+Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richiesti, ad esempio, se sono leggermente danneggiati, se il colore o la misura non sono quelli giusti, il fornitore potrebbe proporre un abbuono sull'acquisto.  
 
 È possibile registrare tale costo di acquisto ridotto come addebito articolo in una nota di credito o in un ordine di reso e collegarlo al carico registrato. Di seguito sono descritte le procedure per un ordine di reso da acquisto, ma gli stessi passaggi si applicano a una nota di credito di acquisto.
 
@@ -145,7 +145,7 @@ Se si ricevono degli articoli dal fornitore che non corrispondono a quelli richi
 4. Nel campo **Tipo** della Scheda dettaglio **Righe** selezionare **Addebito (Articolo)**.  
 5. Nel campo **Nr.** selezionare il valore di addebito articolo appropriato.  
 
-    È possibile creare un numero di addebito articolo particolare per coprire gli abbuoni sugli acquisti.  
+    Si potrebbe creare un numero di addebito articolo particolare per coprire gli abbuoni sugli acquisti.  
 6. Nel campo **Quantità** immettere **1**.  
 7. Nel campo **Costo Diretto Unitario** immettere l'importo dell'abbuono.  
 8. Assegnare l'abbuono come addebito sugli articoli nel carico registrato. Per ulteriori informazioni, vedere [Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md). Dopo avere assegnato l'abbuono, tornare alla pagina **Nota credito acquisto**.
@@ -180,7 +180,7 @@ Quando le spedizioni di reso vengono cumulate in una nota di credito e registrat
 2. Compilare i campi in base alle esigenze, quindi scegliere **OK**.  
 3. In alternativa, eliminare i singoli ordini di reso acquisto manualmente.
 
-## Vedi anche
+## Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)  
 [Registrare gli acquisti](purchasing-how-record-purchases.md)  
 [Correggere o annullare le fatture di acquisto non pagate](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

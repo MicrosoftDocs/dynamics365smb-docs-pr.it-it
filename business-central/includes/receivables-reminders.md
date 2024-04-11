@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 È possibile utilizzare i solleciti per indicare ai clienti gli importi insoluti. È anche possibile calcolare addebiti di interessi, ad esempio interessi o commissioni, e includerli nei solleciti.
+
+> [!TIP]
+> Le informazioni contenute in questo articolo sono accurate, tuttavia descrivono un processo prevalentemente manuale. [!INCLUDE [prod_short](prod_short.md)] offre strumenti che puoi utilizzare per automatizzare i processi di creazione, emissione e invio di solleciti. L'automatizzazione di questi passaggi può farti risparmiare una notevole quantità di tempo dedicato alle riscossioni. Per ulteriori informazioni, vedi [Automatizzare i solleciti nelle riscossioni](../finance-automate-reminders.md).
 
 Prima di creare i solleciti, è necessario impostarne i termini e assegnarli ai clienti. Per ulteriori informazioni, vedi [Impostare i termini e i livelli di sollecito](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] Il contenuto della pagina **Condiz. interessi finanziari** determina se nel sollecito vengono calcolati anche gli interessi.  
 

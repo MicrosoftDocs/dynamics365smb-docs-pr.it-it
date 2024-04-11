@@ -1,20 +1,20 @@
 ---
-title: Registrare gli acquisti con le fatture di acquisto (video)
+title: Registrare acquisti con fatture di acquisto (con video)
 description: Viene descritto come acquistare articoli di magazzino o non o risorse creando e registrando le fatture o gli ordini di acquisto.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Registrare gli acquisti con le fatture e gli ordini di acquisto
+# Registrare acquisti con fatture e ordini di acquisto
 
 È possibile creare una fattura o un ordine di acquisto per registrare il costo di acquisto e per tenere traccia del conto fornitori. Le fatture e gli ordini di acquisto vengono utilizzati per aggiornare in modo dinamico i livelli di magazzino in modo da ridurre i costi di magazzino al minimo e migliorare l'assistenza clienti. I costi di acquisto, incluse le spese di assistenza, e i valori di magazzino derivanti dalla registrazione delle fatture o degli ordini di acquisto contribuiscono alle cifre di profitto e altri indicatori KPI finanziari in Gestione ruolo utente.
 
-## Registrare gli acquisti con le fatture di acquisto
+## Registrare acquisti con fatture di acquisto
 
 Quando si ricevono gli articoli di magazzino, o quando il servizio acquistato viene completato, si registra la fattura di acquisto per aggiornare il magazzino e i record finanziari e per attivare il pagamento al fornitore in base alle condizioni di pagamento. [Effettuare i pagamenti](payables-make-payments.md).
 
@@ -26,11 +26,11 @@ Quando si ricevono gli articoli di magazzino, o quando il servizio acquistato vi
 I passaggi seguenti descrivono come creare una fattura di acquisto. I passaggi per la creazione di un ordine di acquisto sono simili. La differenza principale è che gli ordini acquisto hanno campi e azioni aggiuntivi per la gestione fisica degli articoli.
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
-2. Nel campo **Fornitore** immettere il nome del fornitore esistente.
+2. Nel campo **Nome fornitore**, inserisci il nome di un fornitore esistente.
 
     Altri campi nella pagina **Fattura di vendita** ora vengono compilati con le informazioni standard del fornitore selezionato. Se il fornitore non è registrato, è necessario attenersi alla seguente procedura:
 
-    1. Nel campo **Fornitore** immettere il nome del nuovo fornitore.
+    1. Nel campo **Nome fornitore** immettere il nome del nuovo fornitore.
     2. Nella finestra di dialogo relativa alla registrazione del nuovo fornitore fare clic su **Sì**.
     3. Per ulteriori informazioni su come compilare la scheda fornitore, vai a [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md).  
     4. Una volta completata la scheda fornitore, fai clic su **OK** per tornare alla pagina **Fattura di acquisto**.
@@ -50,11 +50,11 @@ I passaggi seguenti descrivono come creare una fattura di acquisto. I passaggi p
 
     I campi dei totali sotto le righe vengono automaticamente aggiornati, quando si creano o si modificano le righe, per visualizzare gli importi che verranno registrati nei libri contabili.
 
-6. Nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.** nella parte inferiore della fattura.
+6. Nel campo **Importo sconto fatt.** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.** nella parte inferiore della fattura.
 
     > [!NOTE]  
-    > Se sono stati impostati gli sconti sulla fattura per il fornitore, allora la percentuale specificata verrà automaticamente inserita nel campo **Vendor Invoice Discount %** se vengono soddisfatti i criteri. Il relativo importo viene quindi inserito nel campo **Importo sconto fattura**.
-7. Quando si ricevono l'assistenza o gli articoli acquistati, scegliere **Registra**.
+    > Se sono stati impostati gli sconti sulla fattura per il fornitore, allora la percentuale specificata verrà automaticamente inserita nel campo **Vendor Invoice Discount %** se vengono soddisfatti i criteri. Il relativo importo viene quindi inserito nel campo **Importo sconto fatt.**.
+7. Quando ricevi gli articoli o i servizi acquistati, scegli **Registra**.
 
 L'acquisto si riflette ora nel magazzino, nei movimenti contabili risorse e nei record finanziari e il pagamento fornitore viene attivato. La fattura di acquisto viene rimossa dall'elenco delle fatture di acquisto e sostituita con un nuovo documento nell'elenco delle fatture di acquisto registrate.  Per ulteriori informazioni su cosa accade quando si registrano i documenti di acquisto, vedi [Registrazione degli acquisti](purchasing-how-record-purchases.md#posting-purchases).
 
@@ -79,7 +79,7 @@ Le righe di una fattura di acquisto possono essere di tipo **Risorsa** o **Artic
 > [!NOTE]
 > Con il tipo di riga acquisto **Risorsa**, è inoltre possibile acquistare risorse esterne, ad esempio, per fatturare a un fornitore per il lavoro eseguito. Ulteriori informazioni in [Impostare risorse](projects-how-setup-resources.md).
 >
-> Per utilizzare una risorsa acquistata, potrebbe essere necessario impostare la capacità della risorsa e assegnarla manualmente a un processo. L'acquisto di una risorsa crea un movimento contabile di risorsa, tuttavia, i movimenti contabili non vengono monitorati per quantità e valore come, ad esempio, per gli articoli. Se è richiesto il monitoraggio della quantità e del valore, considera l'utilizzo di altri tipi di voci.
+> Per utilizzare una risorsa acquistata, potrebbe essere necessario impostare la capacità della risorsa e assegnarla manualmente a un progetto. L'acquisto di una risorsa crea un movimento contabile di risorsa, tuttavia, i movimenti contabili non vengono monitorati per quantità e valore come, ad esempio, per gli articoli. Se è richiesto il monitoraggio della quantità e del valore, considera l'utilizzo di altri tipi di voci.
 
 ## Quando utilizzare gli ordini di acquisto
 

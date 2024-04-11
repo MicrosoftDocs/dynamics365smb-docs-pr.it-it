@@ -89,7 +89,6 @@ La funzionalità raccoglie anche dati dal feedback che l'utente può fornire uti
 
   È possibile che vengano restituite risposte imprecise quando gli utenti interagiscono con il sistema in lingue diverse da quelle supportate. Inoltre, potrebbe essere generato testo impreciso quando la lingua dell'utente e la lingua dei dati principali nel database di [!INCLUDE[prod_short](includes/prod_short.md)] non sono identiche.
 
-
 ## Quali fattori operativi e impostazioni consentono un uso efficace e responsabile del sistema?
 
 Ci sono alcune cose che puoi fare per ottenere il massimo dalla funzionalità:

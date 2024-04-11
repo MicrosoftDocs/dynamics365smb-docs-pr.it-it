@@ -12,85 +12,88 @@ ms.service: dynamics-365-business-central
 
 Questa procedura dettagliata illustra diversi processi principali:
 
-- Aggiunta di task commessa a commesse
-- Registrazione del tempo e delle spese materiali per una commessa
-- Fatturazione di una commessa
+- Aggiungere attività di progetto a progetti
+- Registrare spese per tempo e materiali per un progetto
+- Fatturare un progetto
 
-## Aggiunta di una task commessa a una commessa
+## Aggiunta di un'attività di progetto
 
 ### Scenario  
 
-Simon, il project manager, vuole registrare il tempo dedicato alla formazione del cliente sull'uso di una macchina per caffè espresso in una task distinta nella commessa per l'installazione di una macchina commerciale in loco.
+Simon, il project manager, vuole che venga registrato il tempo speso a insegnare al cliente come utilizzare la macchina per caffè espresso. Simon vuole utilizzare un'attività separata nel processo per installare una macchina commerciale in loco.
 
 ### Passaggi
 
-1. Crea la task commessa  
+1. Crea l'attività di progetto.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
+    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Progetti**, quindi scegli il collegamento correlato.  
     2. Seleziona la commessa *J00010*.
-    3. Nell'area **Task**, scegli l'azione **Nuova riga**.  Immetti i valori seguenti:
+    3. Nell'area **Attività**, scegli l'azione **Nuova riga** e quindi inserisci i seguenti valori:
  
-    |Nr. task commessa|Descrizione|Tipo task commessa|
+    |Nr. attività di progetto|Descrizione|Tipo di attività di progetto|
     |------------|-----------|-------------|  
     |220|Formazione del cliente|Registrazione|
 
-2. Indenta le task commessa
-   1. Nell'area Task, individua l'azione **Indenta task commesse**
-   2. Conferma di voler indentare le task selezionando **Sì**.
+2. Indenta le attività di progetto.
+   1. Nell'area Attività, individua l'azione **Indenta attività di progetto**.
+   2. Conferma che vuoi indentare le attività selezionando **Sì**.
 
 ### Risultati
 
- - Ora puoi registrare tempi e spese nella nuova task commessa
+ - Ora puoi registrare tempi e spese nella nuova attività di progetto
 
-## Registrare tempo e spese materiali per una commessa
+## Registrare spese per tempo e materiali per un progetto
 
 ### Scenario  
 
-Edgin, il tecnico che installa la macchina, deve registrare il tempo impiegato e i materiali utilizzati durante l'installazione della commessa per la fatturazione.  Ha già aggiunto il viaggio e i materiali e ora deve aggiungere il tempo per formare il personale all'uso della macchina.
+Edgin, il tecnico che installa la macchina, deve registrare il tempo impiegato e i materiali utilizzati durante l'installazione della commessa per la fatturazione. Edgin ha già aggiunto il viaggio e i materiali e ora deve aggiungere il tempo per formare il personale all'uso della macchina.
 
 ### Passaggi
 
-1. Crea righe di registrazioni commesse aggiuntive
+1. Crea le righe di registrazione progetto supplementari.
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
-    2. Seleziona il batch *CONTOSO*.  Vedrai diverse righe di tipi di risorse e di articoli, che riflettono il tempo (per il tecnico e il veicolo) e i materiali (la macchina e le forniture) utilizzati.
-    3. Creare una nuova riga. Immetti i valori seguenti:
+    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni progetti**, quindi scegli il collegamento correlato.  
+    2. Seleziona il batch *CONTOSO*. Sono visualizzate diverse righe di tipi di risorse e di articoli, che riflettono il tempo (per il tecnico e il veicolo) e i materiali (la macchina e le forniture) utilizzati.
+    3. Crea una nuova riga, quindi inserisci i seguenti valori:
  
-    |Nr. processo|Nr. task commessa|Tipo|Nr.|Descrizione|Quantità|
+    |Nr. progetto|Nr. attività di progetto|Tipo|Nr.|Descrizione|Quantità|
     |-------|------------|----|---|-----------|--------|  
     |J00010|220|Risorsa|EDGIN|Formazione del cliente|1|
 
-2. Registra il tempo e le spese
-   1. Scegli l'azione **Registra**
+2. Registra il tempo e le spese.
+   1. Scegli l'azione **Registra**.
    2. Conferma di voler registrare le righe selezionando **Sì**.
 
 ### Risultati
 
- - Verranno creati movimenti contabili commesse e movimenti contabili risorse di tipo *Utilizzo*
- - Verranno creati movimenti contabili articoli per rettificare negativamente l'inventario
- - Nella scheda commessa, i costi e i prezzi nell'area Task rifletteranno i nuovi saldi in attesa di fatturazione
- - Nella scheda commessa, la casella Dettagli commessa rifletterà i totali dei prezzi
+- Vengono creati movimenti contabili progetto e movimenti contabili risorse di tipo *Utilizzo*.
+- Vengono creati movimenti contabili articoli per rettificare negativamente l'inventario.
+- Nella scheda progetto, i costi e i prezzi nell'area Attività riflettono i nuovi saldi in attesa di fatturazione
+- Nella scheda progetto, il riquadro Dettagli progetto riflette i totali dei prezzi.
 
-## Creazione di una fattura di vendita per una commessa
+## Creazione di una fattura di vendita per un progetto
 
 ### Scenario  
-Simon deve creare e registrare una fattura da inviare al cliente con il tempo e le spese relativi alla commessa.
+
+Simon deve creare e registrare una fattura da inviare al cliente con il tempo e le spese relativi al progetto.
 
 ### Passaggi
-1. Crea la fattura di vendita
 
-    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
-    2. Nell'elenco delle commesse, scegli l'azione **Crea fattura vendita per commessa**.
-    3. Imposta il filtro **Nr. commessa** su *J00010*.
-    4. Scegli **OK** per generare la fattura di vendita.  Riceverai una conferma di quante fatture vengono generate
+1. Crea la fattura di vendita.
 
-2. Registra la fattura del tempo e delle spese
+    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Progetti**, quindi scegli il collegamento correlato.  
+    2. Nell'elenco delle commesse, scegli l'azione **Crea fattura di vendita progetto**.
+    3. Imposta il filtro **Nr. progetto** su *J00010*.
+    4. Scegli **OK** per generare la fattura di vendita. Ricevi una conferma di quante fatture vengono generate.
+
+2. Registra la fattura del tempo e delle spese.
+
    1. Scegli la ![lampadina che apre la funzione Dimmi.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
    2. Seleziona l'ultima fattura per aprirla per la revisione.
    3. Scegli l'azione **Registra**.
 
 ### Risultati
 
- - Verranno creati movimenti contabili commesse e movimenti contabili risorse di tipo *Vendita*
- - Nella scheda commessa, i costi e i prezzi nell'area Task rifletteranno i nuovi saldi fatturati
- - Nella scheda commessa, la casella Dettagli commessa rifletterà i totali dei prezzi nella sezione Prezzo fatturato
+- Vengono creati movimenti contabili progetto e movimenti contabili risorse di tipo *Vendita*.
+- Nella scheda progetto, i costi e i prezzi nell'area Attività riflettono i nuovi saldi fatturati
+- Nella scheda progetto, la casella Dettagli progetto riflette i totali dei prezzi nella sezione Prezzo fatturato.

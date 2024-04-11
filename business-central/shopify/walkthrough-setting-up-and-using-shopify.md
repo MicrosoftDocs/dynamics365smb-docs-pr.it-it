@@ -132,11 +132,11 @@ In **Amministrazione Shopify** nota che l'ordine è ora contrassegnato come *Com
 
 ### Scenario
 
-Dopo un avvio rapido di successo del tuo nuovo punto vendita online, desideri che i tuoi attuali clienti lo visitino e inizino a effettuare ordini. A seconda del piano e del processo Shopify, puoi provare i flussi B2B e D2C.
+Dopo un avvio rapido di successo del tuo nuovo punto vendita online, desideri che i tuoi attuali clienti lo visitino e inizino a effettuare ordini. A seconda del piano e del processo Shopify, puoi provare i flussi B2B e DTC
 
-### Passaggi per D2C
+### Passaggi per DTC
 
-In [!INCLUDE[prod_short](../includes/prod_short.md)] esegui le operazioni seguenti:
+In [!INCLUDE[prod_short](../includes/prod_short.md)] procedi come segue:
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Clienti Shopify**, quindi seleziona il collegamento correlato.
 2. Seleziona **Aggiungi clienti**.

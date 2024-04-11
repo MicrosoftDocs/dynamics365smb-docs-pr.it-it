@@ -9,9 +9,9 @@ ms.topic: conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ---
-# Dettagli di progettazione: Concetti centrali del sistema di pianificazione
+# Dettagli di progettazione: concetti centrali del sistema di pianificazione
 
-Le funzioni di pianificazione sono contenute in un processo batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di basso livello di ciascun articolo (posizione DBA), il processo batch chiama un'unità di codice che calcola un piano di approvvigionamento. L'unità di codice bilancia gli insiemi di domanda e offerta e suggerisce le azioni da intraprendere all'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
+Le funzioni di pianificazione sono contenute in un progetto batch che seleziona innanzitutto articoli rilevanti e il periodo per la pianificazione. Quindi, in base al codice di basso livello di ciascun articolo (posizione DBA), il processo batch chiama un'unità di codice che calcola un piano di approvvigionamento. L'unità di codice bilancia gli insiemi di domanda e offerta e suggerisce le azioni da intraprendere all'utente. Le azioni suggerite vengono visualizzate come righe nel prospetto di pianificazione o nella richiesta di approvvigionamento.  
 
 ![Contenuto della pagina Prospetti pianificazione.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contenuto della pagina Prospetti pianificazione")  
 
@@ -75,7 +75,7 @@ Dopo aver eseguito la pianificazione, la tabella Movimenti messaggi azione non c
 
 ## Sequenza e priorità nella pianificazione
 
-La sequenza dei calcoli dei piano è importante per ottenere il completamento del processo entro un intervallo temporale ragionevole. La priorità dei requisiti e delle risorse svolge un ruolo importante nell'ottenimento dei risultati migliori.  
+La sequenza dei calcoli dei piano è importante per ottenere il completamento del progetto entro un intervallo temporale ragionevole. La priorità dei requisiti e delle risorse svolge un ruolo importante nell'ottenimento dei risultati migliori.  
 
 Il sistema di pianificazione è guidato dalla domanda. Gli articoli di alto livello devono essere pianificati prima degli articoli di basso livello, in quanto possono generare la domanda degli articoli di livello più basso. Ad esempio, pianifica le ubicazioni al dettaglio prima dei centri di distribuzione, in quanto il piano per un'ubicazione al dettaglio può includere una domanda aggiuntiva dal centro di distribuzione. A livello di contropartita dettagliata, se un ordine di approvvigionamento già rilasciato può soddisfare l'ordine di vendita, il sistema non deve creare un nuovo ordine di approvvigionamento. Un approvvigionamento con un numero di lotto specifico non deve essere allocato per soddisfare una domanda generica se un'altra domanda richiede questo specifico lotto.  
 
@@ -267,7 +267,7 @@ Se il campo non è selezionato, il processo batch **Calcola piano** continuerà 
 
 ## Flessibilità pianificazione
 
-Non è sempre fattibile pianificare un ordine di approvvigionamento esistente. Ad esempio, quando la produzione è iniziata o assumi altre persone in un giorno specifico per svolgere il lavoro. Per indicare se un ordine esistente può essere modificato dal sistema di pianificazione, tutte le righe dell'ordine di approvvigionamento dispongono di un campo **Flessibilità pianificazione** con due opzioni: **Illimitata** o **Nessuna**. Se il campo è impostato su **Nessuna**, il sistema di pianificazione non proverà a modificare la riga dell'ordine di approvvigionamento.  
+Non è sempre fattibile pianificare un ordine di approvvigionamento esistente. Ad esempio, quando la produzione è iniziata o assumi altre persone in un giorno specifico per svolgere il progetto. Per indicare se un ordine esistente può essere modificato dal sistema di pianificazione, tutte le righe dell'ordine di approvvigionamento dispongono di un campo **Flessibilità pianificazione** con due opzioni: **Illimitata** o **Nessuna**. Se il campo è impostato su **Nessuna**, il sistema di pianificazione non proverà a modificare la riga dell'ordine di approvvigionamento.  
 
 Puoi scegliere manualmente un'opzione nel campo tuttavia, in alcuni casi verrà impostato automaticamente da [!INCLUDE [prod_short](includes/prod_short.md)]. Il fatto che la flessibilità di pianificazione possa essere impostata manualmente è importante perché ti consente di adattare l'utilizzo della funzionalità a flussi di lavoro e casi differenti. Per ulteriori informazioni su come viene utilizzato questo campo, vedi [Dettagli di progettazione - Trasferimenti nella pianificazione](design-details-transfers-in-planning.md).  
 

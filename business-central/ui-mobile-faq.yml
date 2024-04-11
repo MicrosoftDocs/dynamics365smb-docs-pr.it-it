@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.service: dynamics-365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 09/21/2023
+  ms.date: 03/18/2024
   ms.author: bholtorf
   ms.reviewer: jswymer
   ms.custom: bap-template
@@ -36,9 +36,7 @@ sections:
           | Gruppi attività | È visualizzato solo il gruppo attività **Home**. | È visualizzato solo il gruppo attività **Home**. | **Home** e **Documenti registrati** nella gestione ruolo utente `Sales Order Processor`. |  |
           | Selezione di più record negli elenchi | Non disponibile. | Non disponibile. | <kbd>Ctrl</kbd>+<kbd>A</kbd> o <kbd>Ctrl</kbd>+<kbd>clic</kbd> sulle righe in un elenco nel browser. |
           | Azioni nella barra delle azioni | Sono visualizzate solo le azioni essenziali. | Sono visualizzate solo le azioni essenziali. |  |
-          | Riquadri Dettaglio informazioni | Non visualizzati nelle pagine di elenco o nelle pagine di prospetto. | Non visualizzati nelle pagine di elenco o nelle pagine di prospetto. | Elenco `Customer` nella gestione ruolo utente `Small Business` |
           | Filtri avanzati | Non è disponibile alcun filtro specifico per le colonne. | Non è disponibile alcun filtro specifico per le colonne. | Nella pagina di elenco `Customer`. |
-          | Funzionalità delle informazioni | Deve essere abilitata in [Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management) usando l'interruttore **Funzionalità: ricerca di pagine e dati nell'app per dispositivi mobili**. La sezione **Ottieni da Microsoft AppSource** nei risultati per le app non è disponibile. | Come per tablet | Vai a [Individuare pagine e informazioni con la funzionalità delle informazioni](ui-search.md). |  |
           | Esplora ruolo | Non ancora disponibile. | Non ancora disponibile. | Vai a [Ricerca di pagine con Esplora ruoli](ui-role-explorer.md). |
           | Campi nelle Schede dettaglio | I campi nelle Schede dettaglio delle pagine di elenco non sono visualizzati. Nell'area del contenuto della pagina è visualizzato solo il controllo ripetitore. | Non disponibile. |  |
           | Seleziona da elenco completo | Non disponibile nelle ricerche. Gli utenti non sono in grado di eseguire azioni in una pagina di ricerca e non possono accedere al set di record completo. | Non disponibile nelle ricerche. Gli utenti non sono in grado di eseguire azioni in una pagina di ricerca e non possono accedere al set di record completo. | Sulla `Item Card` quando si seleziona **Unità di misura base**. |
@@ -46,8 +44,7 @@ sections:
           | Ricerche | Disponibile. | Disponibile, con la differenza che il comportamento delle ricerche avanzate e semplici è lo stesso con un telefono. La ricerca non visualizzerà la scheda, non mostrerà i riquadri Dettaglio informazioni o alcun gruppo di campi. | Vai agli esempi nella pagina `Customer Card`. |
           | Controlli matrice | Non disponibile. | Non disponibile. | Vai all'esempio in `G/L Budget`. |
           | Scarica file | Disponibile. Non è possibile scaricare più file contemporaneamente. | Disponibile. Non è possibile scaricare più file contemporaneamente. | Report `Trial Balance` nella casella di controllo **Stampa in Excel**. |
-          | Pagine di prospetto | Disponibile. | Non disponibile; viene visualizzato un messaggio di errore. | Prospetto `Sales Price` o `Cash Flow`. |
-          | Elenchi | Disponibile. | Disponibile, con la differenza che sono visualizzati in un layout brick. | Pagine Clienti o Ordini vendita. |
+          | Liste | Disponibile. | Disponibile, con la differenza che sono visualizzati in un layout brick. | Pagine Clienti o Ordini vendita. |
           | Rientro nei controlli ripetitore | Disponibile. | Non disponibile. Il rendering del controllo ripetitore sarà un layout flat brick normale. | Pagine Piano dei conti e Lista contatti. |
           | Stato attivo automatico dell'input nel primo campo modificabile di una pagina | Non disponibile. | Non disponibile. | Pagina `Customer Card`.<BR /><BR />Nel browser, lo stato attivo sarà automaticamente nel primo campo modificabile (come il campo `Name`), consentendo di modificare immediatamente il valore.<BR /><BR />Nelle app per tablet e telefono, lo stato attivo non sarà su questo campo; sarà invece necessario selezionare manualmente il primo campo per apportare le modifiche.|
       - question: |

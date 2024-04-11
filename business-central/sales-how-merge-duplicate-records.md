@@ -1,11 +1,11 @@
 ---
-title: Unire record duplicati relativi a clienti o fornitori
+title: Unire record cliente o fornitore duplicati
 description: Descrive come consolidare le informazioni su clienti o fornitori quando si hanno voci duplicate su alcuni di essi.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,9 +26,9 @@ La seguente procedura è basata su una scheda cliente. I passaggi sono simili pe
 3. Nella pagina **Scheda cliente** scegliere l'azione **Unisci con**.
 4. Nella pagina **Unisci duplicato**, nel campo **Unisci con**, selezionare il cliente che si ritiene sia un duplicato di quello aperto, indicato nel campo **Corrente**.
 
-    La Scheda dettaglio **Campi** elenca i campi dove i valori sono diversi per i due clienti. Ciò significa che se il cliente selezionato è effettivamente un duplicato, solo pochissimi campi devono essere elencati, come errori di digitazione e altri errori nell'immissione dei dati.
+    La Scheda dettaglio **Campi** elenca i campi dove i valori sono diversi per i due clienti. Ciò significa che se il cliente selezionato è effettivamente un duplicato, solo pochi campi devono essere elencati, come errori di digitazione e altri errori nell'immissione dei dati.
 
-    La Scheda dettaglio **Tabelle correlate** elenca le tabelle in cui vi sono campi relativi a entrambi i clienti. I campi **Conteggio corrente** e **Conteggio duplicati** visualizzano il numero di campi nelle tabelle correlate in cui viene utilizzato il valore **Nr.** del cliente corrente e di quello duplicato. Nella pagina **Unisci duplicato**, questa sezione è solo informativa, tuttavia, se vi sono conflitti di unione, possono essere risolti nella pagina **Unisci conflitti duplicati**. Vedere i passaggi da 8 a 12.   
+    La Scheda dettaglio **Tabelle correlate** elenca le tabelle in cui vi sono campi relativi a entrambi i clienti. I campi **Conteggio corrente** e **Conteggio duplicati** visualizzano il numero di campi nelle tabelle correlate in cui viene utilizzato il valore **Nr.** del cliente corrente e di quello duplicato. Nella pagina **Unisci duplicato**, questa sezione è solo informativa, tuttavia, se vi sono conflitti di unione, potranno essere risolti nella pagina **Unisci conflitti duplicati**. Vedere i passaggi da 8 a 12.   
 
 5. Per ciascun campo in cui si intende utilizzare un altro valore da quello corrente, selezionare la casella di controllo **Ignora**. Il valore nel campo **Valore alternativo** verrà quindi trasferito al record corrente quando si completa il processo.
 6. Al termine della selezione di quali valori mantenere o ignorare, scegliere l'azione **Unione**.

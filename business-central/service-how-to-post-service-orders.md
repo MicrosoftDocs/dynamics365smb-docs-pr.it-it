@@ -70,7 +70,7 @@ La procedura seguente indica le modalità di registrazione degli articoli, delle
 4. Individuare i movimenti necessari e specificare le quantità di cui si desidera registrare il consumo nel campo **Qtà da consumare**. La quantità non può essere maggiore della quantità già spedita né di quella rimanente, ma non fatturata dopo la fatturazione parziale della spedizione.  
 
     > [!NOTE]  
-    >  Per registrare il consumo relativamente a una commessa, compilare i campi **Nr. commessa**, **Nr. task commessa** e **Tipo riga commessa** della riga di assistenza.  
+    >  Per registrare il consumo relativamente a un progetto, compilare i campi **Nr. progetto**, **Nr. attività di progetto** e **Tipo di riga progetto** della riga di assistenza.  
 
 5. Scegliere le righe da registrare e scegliere l'azione **Registra**. Nella pagina visualizzata selezionare **Spedizione e consumo**.  
 
@@ -109,7 +109,7 @@ Per ulteriori informazioni sulla spedizione degli articoli nelle configurazioni 
 >  Non è possibile annullare un consumo di assistenza se:  
 
 >    * L'ordine di assistenza è stato chiuso.  
->    * È stato registrato nell'area Commesse e i movimenti contabili delle commesse sono stati collegati ad esso.  
+>    * È stato registrato nell'area Commesse, quindi vi sono movimenti contabili progetto collegati ad esso.  
 
 ## Per registrare le righe di assistenza  
 Se in un ordine di assistenza è necessario eseguire operazioni per un elevato periodo di tempo prima della registrazione, potrebbe essere opportuno registrare alcune righe di assistenza collegate, ad esempio per mantenere aggiornato il magazzino. Per eseguire la registrazione, è possibile specificare le quantità relative sulle righe da registrare. La registrazione delle righe potrebbe essere eseguita singolarmente o selezionando diverse righe contemporaneamente.  

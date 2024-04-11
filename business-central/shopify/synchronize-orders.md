@@ -1,13 +1,13 @@
 ---
 title: Sincronizzare ed evadere gli ordini di vendita
 description: Configura ed esegui l'importazione e l'elaborazione degli ordini cliente da Shopify.
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
 # Sincronizzare ed evadere gli ordini di vendita
@@ -30,10 +30,12 @@ Abilita **Creazione automatica degli ordini** per creare automaticamente documen
 
 Se desideri rilasciare automaticamente un documento di vendita, attiva l'interruttore **Rilascio automatico ordine cliente**.
 
+Se non desideri inviare conferme di spedizione automatiche ai clienti, disattiva l'interruttore **Invia conferma spedizione**. Disattivare l'interruttore può essere utile se vendi beni digitali o desideri utilizzare un altro meccanismo di notifica.
+
 Se selezioni il campo **Nr. ordine Shopify nella riga documento**, [!INCLUDE [prod_short](../includes/prod_short.md)] inserisci le righe di vendita di tipo **Commento** con un numero di ordine Shopify.
 
->[!NOTE]
->Il documento di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] si collega all'ordine Shopify e puoi aggiungere il campo **N. ordine Shopify** all'elenco o alle pagine della scheda per gli ordini di vendita, le fatture e la spedizione. Per ulteriori informazioni sull'aggiunta di un campo, vai a [Iniziare a personalizzare utilizzando la modalità di personalizzazione](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+> [!NOTE]
+> Il documento di vendita in [!INCLUDE[prod_short](../includes/prod_short.md)] si collega all'ordine Shopify e puoi aggiungere il campo **N. ordine Shopify** all'elenco o alle pagine della scheda per gli ordini di vendita, le fatture e la spedizione. Per ulteriori informazioni sull'aggiunta di un campo, vai a [Iniziare a personalizzare utilizzando la modalità di personalizzazione](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 Nel campo **Priorità area fiscale**, definisci la priorità su come selezionare un'area di codice fiscale per gli indirizzi dell'ordine. L'ordine Shopify importato contiene informazioni sulle imposte. Le imposte vengono ricalcolate quando si crea i documenti di vendita, quindi è importante che le impostazioni IVA o imposta siano corrette in [!INCLUDE[prod_short](../includes/prod_short.md)]. Per ulteriori informazioni sulle imposte, vai a [Impostare le imposte per la connessione Shopify](setup-taxes.md).
 
@@ -131,7 +133,11 @@ La pagina **Ordine Shopify da importare** è utile per la risoluzione dei proble
 Una volta completata l'importazione, puoi esplorare l'ordine Shopify e trovare tutte le informazioni correlate, come transazioni di pagamento, costi di spedizione, livello di rischio, attributi e tag o adempimenti se l'ordine è stato già adempiuto in Shopify. Puoi anche vedere la conferma di ogni ordine inviata al cliente scegliendo l'azione **Pagina di stato Shopify**.
 
 > [!NOTE]  
-> Puoi accedere alla finestra **Ordini Shopify** direttamente e vedrai gli ordini con lo stato *aperto* di tutti i punti vendita Per rivedere gli ordini completati, è necessario aprire la pagina **Ordini Shopify** dalla specifica finestra **Scheda del punto vendita Shopify**.
+> Puoi accedere alla finestra **Ordini Shopify** direttamente e vedrai gli ordini con lo stato *aperto* di tutti i punti vendita Per esaminare gli ordini completati, devi aprire la pagina **Ordini Shopify** dalla finestra **Scheda punto vendita Shopify** specifica.
+
+Prima che i documenti di vendita vengano creati in [!INCLUDE[prod_short](../includes/prod_short.md)], è possibile utilizzare l'azione **Sincronizza ordine da Shopify** nella pagina **Ordine Shopify** per reimportare ordini specifici.
+
+Puoi anche contrassegnare un ordine come pagato, il che è utile in uno scenario B2B in cui i pagamenti vengono elaborati al di fuori del checkout Shopify. Scegli l'azione **Contrassegna come pagato** nella pagina **Ordine Shopify**. Inoltre, puoi contrassegnare un ordine come annullato per avviare il flusso di rimborso in Shopify. Scegli l'azione **Annulla ordine** nella pagina **Ordine Shopify**, compila i campi come necessario nella pagina **Shopify Annulla Ordine** e premi **OK**. Dovrai eseguire la sincronizzazione degli ordini per importare gli aggiornamenti in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Creare documenti di vendita in Business Central
 
@@ -147,15 +153,17 @@ Se l'opzione **Creazione automatica ordini** è abilitata nella **Scheda del pun
 
 Se l'ordine Shopify richiede l'evasione, l'**Ordine di vendita** viene creato. Per gli ordini Shopify evasi, come gli ordini che contengono solo un buono regalo o che sono già gestiti in Shopify, la **Fattura di vendita** viene creata.
 
-Viene ora creato un documento di vendita che può essere gestito utilizzando le funzionalità di [!INCLUDE[prod_short](../includes/prod_short.md)] standard.
+Viene creato un documento di vendita che può essere gestito utilizzando le funzionalità di [!INCLUDE[prod_short](../includes/prod_short.md)] standard.
+
+Se desideri ricreare il documento di vendita, puoi utilizzare l'azione **Scollega documenti elaborati** nella pagina **Ordine Shopify**. Tieni presente che questa azione non elimina il documento di vendita già creato. Devi elaborarlo manualmente.
 
 ### Gestire i clienti mancanti
 
-Se le tue impostazioni impediscono la creazione automatica di un cliente e non è possibile trovare un cliente esistente corretto, dovrai assegnare un cliente a un ordine Shopify manualmente. Questa operazione può essere effettuata in vari modi:
+Se le tue impostazioni impediscono la creazione automatica di un cliente e non è possibile trovare un cliente corrispondente, dovrai assegnare un cliente a un ordine Shopify manualmente. Esistono alcuni modi per assegnare clienti a ordini:
 
-* Puoi assegnare **Nr. cliente di vendita** e **Fatturare a - Nr. cli.** direttamente nella pagina **Ordini Shopify** scegliendo un cliente dall'elenco dei clienti esistenti.
-* È possibile selezionare un codice modello cliente, creare e assegnare il cliente tramite l'azione **Crea nuovo cliente** nella pagina **Ordini Shopify**. Si noti che il cliente Shopify deve avere almeno un indirizzo. Gli ordini creati tramite il canale di vendita Shopify POS spesso non contengono i dettagli dell'indirizzo.
-* È possibile mappare il cliente esistente al relativo **cliente Shopify** nella finestra **Clienti Shopify** e quindi scegliere l'azione **Trova mapping** nella pagina **Ordini Shopify**.
+* Assegna il campo **Nr. cliente di vendita** e **Fatturare a - Nr. cli.** direttamente nella pagina **Ordini Shopify** scegliendo un cliente dall'elenco dei clienti esistenti.
+* Selezionare un codice cliente, quindi creare e assegnare il cliente tramite l'azione **Crea nuovo cliente** nella pagina **Ordini Shopify**. Il cliente Shopify deve avere almeno un indirizzo. Gli ordini creati tramite il canale di vendita Shopify POS spesso non includono i dettagli dell'indirizzo.
+* Mappare il cliente esistente al relativo **Cliente Shopify** nella pagina **Clienti Shopify** e quindi scegliere l'azione **Trova mapping** nella pagina **Ordini Shopify**.
 
 ### In che modo il connettore sceglie quale cliente usare
 
@@ -172,6 +180,8 @@ I prossimi passaggi dipendono dal **Tipo di mapping cliente**.
 
 > [!NOTE]  
 > Il connettore utilizza le informazioni dall'indirizzo di fatturazione e crea il cliente di fatturazione in [!INCLUDE[prod_short](../includes/prod_short.md)]. Il cliente a cui vendere è lo stesso del cliente a cui fatturare.
+
+Per gli ordini B2B il flusso è simile, sebbene il connettore utilizzi **Nr. società predefinita**, **Importazione società da Shopify**, **Tipo di mapping società** nella pagina **Scheda punto vendita Shopify**. Si noti che non esiste **Nr. società predefinita** nel **Modello cliente Shopify** poiché per il B2B è prevista la presenza di clienti nominativi.
 
 ### Diverse regole di elaborazione per gli ordini
 
@@ -199,27 +209,32 @@ Ciascuna coda di lavoro importerà ed elaborerà gli ordini all'interno dei filt
 
 In Shopify:
 
-|Modifica|Impatto per l'ordine già importato|Impatto per l'ordine che viene importato per la prima volta|
+|Modifica|Impatto su ordini Shopify non ancora elaborati in [!INCLUDE[prod_short](../includes/prod_short.md)] | Impatto su ordini Shopify già elaborati in [!INCLUDE[prod_short](../includes/prod_short.md)] |
 |------|-----------|-----------|
-|Cambia la posizione di evasione | L'ubicazione originale è nelle righe | L'ubicazione di evasione viene sincronizzata con [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Modificare un ordine e aumentare la quantità| L'intestazione dell'ordine e le tabelle supplementari verranno aggiornate in [!INCLUDE[prod_short](../includes/prod_short.md)], non le righe.| L'ordine importato utilizzerà la nuova quantità|
-|Modificare un ordine e diminuire la quantità| L'intestazione dell'ordine e le tabelle supplementari verranno aggiornate in [!INCLUDE[prod_short](../includes/prod_short.md)], non le righe.| L'ordine importato utilizzerà la quantità originale, il campo Quantità disponibile per l'evasione conterrà un nuovo valore.|
-|Modificare un ordine e rimuovere un articolo esistente | L'intestazione dell'ordine e le tabelle supplementari verranno aggiornate in [!INCLUDE[prod_short](../includes/prod_short.md)], non le righe.| L'articolo rimosso verrà comunque importato, il campo Quantità disponibile per l'evasione conterrà zero. |
-|Modifica un ordine e aggiungi nuovo articolo | L'intestazione dell'ordine verrà aggiornata, le righe no. | Gli articoli originali e aggiunti verranno importati. |
-|Elaborare l'ordine: evadere, aggiornare le informazioni di pagamento | L'intestazione dell'ordine verrà aggiornata, ma non le righe. |La modifica non ha alcun impatto sulla modalità di importazione dell'ordine.|
-|Annullare l'ordine | L'intestazione dell'ordine verrà aggiornata, ma non le righe. |L'ordine annullato non viene importato |
+|Cambia la posizione di evasione | L'ubicazione di evasione viene sincronizzata con [!INCLUDE[prod_short](../includes/prod_short.md)]. | L'ubicazione di evasione viene sincronizzata con [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Modificare un ordine e aumentare la quantità|L'ordine importato utilizzerà la nuova quantità.| Il connettore rileverà la modifica e contrassegnerà gli ordini. |
+|Modificare un ordine e diminuire la quantità|L'ordine importato utilizzerà la nuova quantità. Il rimborso Shopify con importo 0 verrà importato e non potrà essere convertito in nota di credito.| Il connettore rileverà la modifica e contrassegnerà gli ordini. |
+|Modificare un ordine e rimuovere un articolo esistente |L'articolo rimosso non verrà importato. Il rimborso Shopify con importo 0 verrà importato e non potrà essere convertito in nota di credito.| Il connettore rileverà la modifica e contrassegnerà gli ordini. |
+|Modifica un ordine e aggiungi nuovo articolo | Gli articoli originali e aggiunti verranno importati. | Il connettore rileverà la modifica e contrassegnerà gli ordini. |
+|Elaborare l'ordine: evadere, aggiornare le informazioni di pagamento | L'intestazione dell'ordine verrà aggiornata. |L'intestazione dell'ordine verrà aggiornata. L'evasione non verrà sincronizzata con Shopify.|
+|Annullare l'ordine pagato | L'intestazione dell'ordine verrà aggiornata, per essere elaborata separatamente |Il connettore rileverà la modifica e contrassegnerà gli ordini. |
+|Annullare l'ordine non pagato | L'articolo rimosso non verrà importato. Il rimborso Shopify con importo 0 verrà importato e non potrà essere convertito in nota di credito. |Il connettore rileverà la modifica e contrassegnerà gli ordini. |
 
-Come puoi vedere, in alcuni casi potrebbe essere ragionevole eliminare l'ordine modificato in [!INCLUDE[prod_short](../includes/prod_short.md)] e importarlo come nuovo.
+Nel caso in cui l'ordine sia già stato elaborato nel connettore [!INCLUDE[prod_short](../includes/prod_short.md)], verrà visualizzato il messaggio di errore seguente: *L'ordine è già stato elaborato in Business Central, ma è stata ricevuta un'edizione da Shopify. Le modifiche non sono state propagate all'ordine elaborato in Business Central. Aggiornare i documenti elaborati in modo che corrispondano ai dati ricevuti da Shopify. Se si desidera forzare la sincronizzazione, utilizzare l'azione "Sincronizza ordine da Shopify" nella pagina della scheda Ordine Shopify.*
+
+A seconda dello stato del documento di vendita creato è possibile eseguire le seguenti azioni:
+1. Eliminare un documento di vendita creato
+2. Scegli l'azione **Scollega documenti elaborati** per reimpostare l'indicatore **Elaborato**.
+3. Scegli l'azione **Sincronizza ordine da Shopify** per aggiornare il singolo ordine con i dati recenti da Shopify.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Modifica|Impatto|
 |------|-----------|
-|Cambia la posizione in un'altra posizione, mappata alle posizioni Shopify. Registra spedizione. | L'ordine sarà contrassegnato come evaso. L'ubicazione originale verrà utilizzata. |
-|Cambia la posizione in un'altra posizione, non mappata alle posizioni Shopify. Registra spedizione. | L'evasione non verrà sincronizzata con Shopify. |
+|Cambia l'ubicazione. Registra spedizione. | L'ordine sarà contrassegnato come evaso. Verrà utilizzata l'ubicazione di evasione da Shopify. |
 |Riduci la quantità. Registra spedizione. | L'ordine in Shopify sarà contrassegnato come parzialmente evaso. |
-|Aumenta la quantità. Registra spedizione. | L'evasione non verrà sincronizzata con Shopify. |
-|Aggiungi un nuovo articolo. Registra spedizione. | L'ordine in Shopify sarà contrassegnato come evaso. Le righe non verranno aggiornate. |
+|Aumenta la quantità. Registra spedizione. | L'evasione non verrà sincronizzata con Shopify. Lo stesso se l'evasione fosse suddivisa in Shopify ma elaborata come riga in [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Aggiungi un nuovo articolo. Registra spedizione. | L'ordine in Shopify sarà contrassegnato come evaso. Non verranno aggiunte nuove righe. |
 
 ## Sincronizzare le spedizioni con Shopify
 

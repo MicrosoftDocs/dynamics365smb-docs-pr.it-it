@@ -24,7 +24,7 @@ Eventualmente, specifica se e come vengono approvati i fogli presenze. In base a
 * Uno o più utenti come amministratore dei fogli presenze e come responsabile approvazione di tutti i fogli presenze.
 * Un responsabile approvazione del foglio presenze di ogni risorsa.
 
-Una volta configurati i fogli presenze, è possibile creare fogli presenze per le risorse, che possono registrare le righe dei fogli presenze. Facoltativamente, assegnare i fogli presenze alle righe di pianificazione commessa. Per saperne di più, vedi [Usare i fogli presenze](projects-how-use-time-sheets.md).  
+Una volta configurati i fogli presenze, è possibile creare fogli presenze per le risorse, che possono registrare le righe dei fogli presenze. Eventualmente, assegnare i fogli presenze alle righe di pianificazione progetto. Per saperne di più, vedi [Usare i fogli presenze](projects-how-use-time-sheets.md).  
 
 ## Impostare i fogli di presenza con la guida all'impostazione assistita
 
@@ -71,8 +71,8 @@ Le sezioni seguenti descrivono come impostare i fogli presenze se non usi la gui
 | Opzione | Descrizione |
 | --- | --- |
 | **Mai** |Il foglio presenze viene approvato dall'utente indicato nel campo **ID utente resp. approvazione foglio presenze** nella scheda risorsa. |
-| **Sempre** |Il foglio presenze viene approvato dall'utente indicato nel campo **Persona responsabile** nella scheda commessa. |
-| **Solo macchina** |Se il foglio presenze della macchina è collegato a una commessa, il foglio presenze viene approvato dall'utente indicato nel campo **Persona responsabile** della scheda commessa. Se il foglio presenze della macchina è collegato a una risorsa, il foglio presenze viene approvato dall'utente indicato nel campo **ID utente resp. approvazione foglio presenze** della scheda risorsa. |
+| **Sempre** |Il foglio presenze viene approvato dall'utente indicato nel campo **Persona responsabile** della scheda progetto. |
+| **Solo macchina** |Se il foglio presenze della macchina è collegato a un processo, il foglio presenze viene approvato dall'utente indicato nel campo **Persona responsabile** della scheda progetto. Se il foglio presenze della macchina è collegato a una risorsa, il foglio presenze viene approvato dall'utente indicato nel campo **ID utente resp. approvazione foglio presenze** della scheda risorsa. |
 
 ### Assegnare manualmente un amministratore del foglio presenze
 

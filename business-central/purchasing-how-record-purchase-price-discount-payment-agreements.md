@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 I differenti accordi relativi a prezzi e sconti applicati quando si effettuano acquisti da fornitori diversi devono essere definiti in modo che le regole e i valori concordati vengano applicati ai documenti di acquisto creati per il fornitore.
 
-Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino. Per ulteriori informazioni, vedere [Calcolo del prezzo migliore](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
+Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo dei documenti di acquisto e di vendita e delle righe di registrazione progetto e magazzino. Per ulteriori informazioni, vedere [Calcolo del prezzo migliore](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 Per quanto riguarda i prezzi, è possibile fare in modo che venga inserito un prezzo di acquisto speciale nelle righe di acquisto quando si verifica una determinata combinazione di fornitore, articolo, quantità minima, unità di misura o data di inizio o di fine.
 
@@ -117,7 +117,7 @@ Oltre a una percentuale di sconto, è possibile collegare l'importo di un addebi
 
 ## Calcolo del prezzo migliore
 
-Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino.
+Dopo aver registrato prezzi speciali e gli sconti riga di vendita e di acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo dei documenti di acquisto e di vendita e delle righe di registrazione progetto e magazzino.
 
 Con il termine "miglior prezzo" si intende il prezzo più basso ammissibile che gode dello sconto riga più alto possibile praticabile in una specifica data. [!INCLUDE[prod_short](includes/prod_short.md)] calcola automaticamente questo prezzo quando inserisce il prezzo unitario e la percentuale di sconto riga per gli articoli in nuove righe di documenti e di registrazione.
 

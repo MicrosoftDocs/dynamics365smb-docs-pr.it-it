@@ -1,12 +1,12 @@
 ---
-title: Righe acquisto ricorrenti standard
+title: Righe di acquisto ricorrenti standard
 description: Imposta le righe di acquisto più frequentemente usate e quindi inseriscile nei documenti di acquisto per compilare rapidamente le righe con informazioni standard.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
-ms.date: 07/06/2022
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -47,7 +47,7 @@ Assegna una o più righe di acquisto ricorrenti a un fornitore di modo che sia p
 
 Se esistono righe di acquisto ricorrenti per il fornitore, è possibile inserirle o aggiungerle automaticamente in tutti i tipi di documenti di acquisto come fattura di acquisto. Se hai attivato le opzioni **Chiedi sempre** per l'assegnazione delle righe di acquisto ricorrenti ai fornitori, verrai informato dell'esistenza di righe di acquisto ricorrenti.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.
 2. Apri la fattura di acquisto in cui desideri inserire una più righe di acquisto standard.
 3. Scegli l'azione **Ottieni righe acquisto ricorrenti**.
 4. Nella pagina **Righe acquisto ricorrenti**, scegli il pulsante di ricerca nel campo **Codice** e seleziona una serie di righe di acquisto standard.

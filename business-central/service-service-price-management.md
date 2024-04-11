@@ -46,7 +46,7 @@ Ad esempio è possibile impostare tipi di definizione del prezzo di assistenza p
 #### [Esperienza corrente](#tab/current-experience)
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli in assistenza**, quindi scegli il collegamento correlato.  
 2. Selezionare l'articolo in assistenza, espandere la Scheda dettaglio **Prezzi e vendite**, scegliere l'azione **Risorsa**, **Articolo** o **Conto C/G**.
-3. Nelle pagine **Prezzi risorse commesse**, **Prezzi articoli commesse** o **Prezzi conti C/G commesse** compilare i campi come necessario.
+3. Nelle pagine **Prezzi risorse progetto**, **Prezzi articoli progetto** o **Prezzi conti C/G progetto** compilare i campi come necessario.
 
   
 ## Rettifica dei prezzi di assistenza  

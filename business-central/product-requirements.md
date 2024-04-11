@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 12/13/2023
+ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -35,7 +35,7 @@ Ti consigliamo di utilizzare una versione del canale stabile di un browser Web p
 
 ## Outlook
 
-**Applicazioni Outlook:** per usare [!INCLUDE[prod_short](includes/prod_short.md)] online come posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2019 o versione successiva o di Outlook sul Web. L'organizzazione deve inoltre utilizzare Microsoft 365. Non è possibile utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale. 
+**Applicazioni Outlook:** per usare [!INCLUDE[prod_short](includes/prod_short.md)] online come posta in arrivo aziendale in Outlook, occorre disporre di Outlook 2021 o versione successiva o di Outlook sul Web. L'organizzazione deve inoltre utilizzare Microsoft 365. Non è possibile utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] online come posta in arrivo aziendale in Outlook se l'organizzazione utilizza Exchange Server in locale. 
 
 **Browser:** quando si utilizza [!INCLUDE[prod_short](includes/prod_short.md)] come casella di posta in arrivo aziendale in Outlook in un browser, il componente aggiuntivo richiede che il computer esegua uno dei browser supportati elencati in precedenza in questo articolo. 
 
@@ -51,7 +51,7 @@ Ti consigliamo di utilizzare una versione del canale stabile di un browser Web p
 
 ## Excel
 
-**Modifica in Excel**: per utilizzare il componente aggiuntivo Excel per apportare modifiche e quindi inoltrare le modifiche di nuovo a [!INCLUDE[prod_short](includes/prod_short.md)], è necessario Excel 2019 o versione successiva. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
+**Modifica in Excel**: per utilizzare il componente aggiuntivo Excel per apportare modifiche e quindi inoltrare le modifiche di nuovo a [!INCLUDE[prod_short](includes/prod_short.md)], è necessario Excel 2021 o versione successiva. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Utilizzo dell'interfaccia di amministrazione di Business Central
 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/22/2022
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -30,7 +30,7 @@ Se gli articoli sono disponibili per il prelievo alla data di spedizione, il pro
 
 ## Calcolo della prima data utile per la consegna
 
-Se nella riga dell'ordine di vendita non si specifica una data di consegna richiesta, o se la data richiesta non può essere rispettata, viene calcolata la prima data in cui gli articoli saranno disponibili. Questa data viene quindi immessa nel campo **Data spedizione** della riga e le date in cui si prevede di spedire gli articoli e in cui essi saranno consegnati al cliente vengono calcolate secondo le seguenti formule.
+Se nella riga dell'ordine di vendita non si specifica una data di consegna richiesta, o se la data richiesta non può essere rispettata, viene calcolata la prima data in cui gli articoli saranno disponibili. Questa data viene quindi immessa nel campo **Data spedizione** della riga e le date in cui si prevede di spedire gli articoli e in cui essi saranno consegnati al cliente vengono calcolate secondo le seguenti formule:
 
 - *data spedizione + tempo gest. uscita da whse. = data di spedizione pianificata*
 - *data di spedizione pianificata + tempo spedizione = data di consegna pianificata*

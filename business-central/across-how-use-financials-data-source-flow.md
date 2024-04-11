@@ -107,7 +107,7 @@ Most flows require you to fill in a field or two before you choose the **Run flo
 Queste attività vengono in genere eseguite da un amministratore o un utente con privilegi avanzati. Le attività richiedono una conoscenza più ampia dei processi aziendali in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi i seguenti articoli nella Guida per sviluppatori e professionisti IT di Business Central.
 
 - [Integrazione di Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Creare flussi automatizzati](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (copre anche i flussi di approvazione)
+- [Creare flussi automatizzati](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (copre anche i flussi di approvazione)
 - [Creare flussi istantanei](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Gestire flussi di Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 

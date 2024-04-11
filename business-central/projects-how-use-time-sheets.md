@@ -1,6 +1,6 @@
 ---
 title: Uso dei fogli presenze
-description: 'Scopri come creare, inviare, approvare e pubblicare fogli presenze per risorse, lavori e servizi.'
+description: 'Scopri come creare, inviare, approvare e pubblicare fogli presenze per risorse, progetti e servizi.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
@@ -13,11 +13,11 @@ ms.custom: bap-template
 ---
 # Uso dei fogli presenze
 
-Questo articolo descrive come usare i fogli presenze per tenere traccia delle assenze e del tempo e delle risorse impiegati per un progetto. Il tracciamento del tempo ti aiuta a identificare in anticipo i problemi per evitare ritardi e sovraccarichi di costo. I fogli presenze consentono a una risorsa di registrare più facilmente l'utilizzo del tempo per una persona fisica o una macchina di modo che i responsabili possano esaminare l'utilizzo e la relativa assegnazione. 
+Questo articolo descrive come usare i fogli presenze per tenere traccia delle assenze e del tempo e delle risorse impiegati per un progetto. Il tracciamento del tempo ti aiuta a identificare in anticipo i problemi per evitare ritardi e sovraccarichi di costo. I fogli presenze consentono a una risorsa di registrare più facilmente l'utilizzo del tempo per una persona fisica o una macchina di modo che i responsabili possano esaminare l'utilizzo e la relativa assegnazione.
 
-È possibile copiare e utilizzare le righe di pianificazione commessa in un foglio presenze. In questo modo, sarà sufficiente immettere le informazioni in un punto per essere sicuri che le informazioni siano sempre corrette. Per ulteriori informazioni, vedi [Per copiare le righe pianificazione commessa in un foglio presenze](#copy-job-planning-lines-to-a-time-sheet).
+È possibile copiare e utilizzare le righe di pianificazione progetto in un foglio presenze. In questo modo, sarà sufficiente immettere le informazioni in un punto per essere sicuri che le informazioni siano sempre corrette. Per ulteriori informazioni, vedi [Per copiare le righe di pianificazione progetto in un foglio presenze](#copy-project-planning-lines-to-a-time-sheet).
 
-Dopo avere approvato i movimenti del foglio presenze per una commessa, è possibile registrarli nelle registrazioni commesse o nelle registrazioni risorse corrispondenti. Per ulteriori informazioni, vedi [Per registrare le righe del foglio presenze nelle registrazioni commesse](#post-time-sheet-lines-in-a-job-journal) e [Per registrare le righe del foglio presenze nelle registrazioni risorse](#post-time-sheet-lines-in-a-resource-journal).
+Dopo avere approvato i movimenti del foglio presenze per un progetto, è possibile registrarli nella registrazione progetti o nella registrazione risorse pertinente. Per ulteriori informazioni, vedi [Per registrare le righe del foglio presenze in una registrazione progetti](#post-time-sheet-lines-in-a-project-journal) e [Per registrare le righe del foglio presenze in una registrazione risorse](#post-time-sheet-lines-in-a-resource-journal).
 
 Prima di poter utilizzare i fogli presenze, è necessario impostare le informazioni generali e specificare un amministratore e uno o più responsabili approvazione dei fogli presenze. Per ulteriori informazioni sull'impostazione di fogli presenze, vedi [Impostare fogli presenze](projects-how-setup-time-sheets.md).  
 
@@ -26,7 +26,7 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 
 ## Creare fogli presenze
 
-Puoi utilizzare la pagina **Crea fogli presenze** per impostare i fogli presenze per periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un'attività. Puoi anche [pianificare l'esecuzione automatica del processo batch](ui-work-report.md#ScheduleReport).  
+Puoi utilizzare la pagina **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task. Puoi anche [pianificare l'esecuzione automatica del progetto batch](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > È necessario disporre dei permessi necessari per creare i fogli presenze. Per ulteriori informazioni sulle autorizzazioni, vedi [Impostare fogli presenze](projects-how-setup-time-sheets.md).
@@ -49,7 +49,7 @@ Puoi utilizzare la pagina **Crea fogli presenze** per impostare i fogli presenze
 | | Consente di aggiungere una nota o un contrassegno nel campo **Descrizione** della riga del foglio presenze. Ad esempio, è possibile utilizzare questo campo per classificare i movimenti del foglio presenze. Se si lascia vuoto il campo **Tipo** per una riga del foglio presenze, non è possibile immettere i valori temporali nei campi relativi al giorno della settimana per la riga specificata. |
 | Assenze | Consente di registrare il tempo di assenza durante la settimana lavorativa. Per completare le informazioni per la riga, specificare il tipo di assenza nel campo **Codice causa di assenza**. |
 | Ordine di assemblaggio | Utilizzato per registrare il tempo per gli ordini di assemblaggio. Una riga del foglio presenze di questo tipo viene creata durante la registrazione delle righe degli ordini di assemblaggio per i quali l'impostazione prevede che la risorsa utilizzi i fogli presenze. Non è possibile selezionare manualmente una riga di questo tipo. |
-| Posizione | Utilizzare per registrare l'utilizzo del tempo per un progetto. Per completare le informazioni per la riga, specificare il numero di commessa e il numero di task commessa per cui si desidera registrare il tempo. È possibile registrare il tempo per le righe non pianificate.|
+| Progetto | Utilizzare per registrare l'utilizzo del tempo per un progetto. Per completare le informazioni per la riga, specificare il numero di progetto e il numero di attività di progetto per cui si desidera registrare il tempo. È possibile registrare il tempo per le righe non pianificate.|
 | Risorsa | Utilizzare per registrare l'utilizzo del tempo per una risorsa. Per completare le informazioni per la riga, immettere una descrizione del lavoro. |
 | Assistenza | Utilizzare per registrare l'utilizzo del tempo per un ordine di assistenza o una nota di credito di assistenza. |
 
@@ -76,19 +76,19 @@ Se le informazioni del foglio presenze rimangono invariate da un periodo di temp
 2. Aprire il foglio presenze per un periodo successivo al periodo per un foglio presenze esistente con le righe.  
 3. Scegliere l'azione **Copia righe da foglio presenze precedente**.
 
-Verranno copiate le righe e tutti i dettagli quali tipo e descrizione. Ad esempio, se la riga è correlata a una commessa, viene copiato **Nr. commessa**. Tutte le righe copiate presentano lo stato **Aperto**. È ora possibile modificare le righe in base alle esigenze.
+Verranno copiate le righe e tutti i dettagli quali tipo e descrizione. Ad esempio, se la riga è correlata a un progetto, viene copiato **Nr. progetto** . Tutte le righe copiate presentano lo stato **Aperto**. È ora possibile modificare le righe in base alle esigenze.
 
-## Copiare le righe pianificazione commessa in un foglio presenze
+## Copiare le righe di pianificazione progetto in un foglio presenze
 
-Nella procedura riportata di seguito viene descritto come aggiungere rapidamente righe pianificazione commessa a un foglio presenze.
+Nella procedura riportata di seguito viene descritto come aggiungere rapidamente righe di pianificazione progetto a un foglio presenze.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immettere **Fogli presenze**, quindi scegliere il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immettere **Fogli presenze**, quindi scegliere il collegamento correlato.  
 2. Selezionare un foglio presenze per il periodo pertinente nella pagina **Fogli presenze**.  
-3. Scegliere l'azione **Crea righe da pianificazione commessa**. Tutte le righe di pianificazione commessa nel periodo di tempo del foglio di presenze verranno copiate nel foglio di presenze della persona o della macchina indicata nel campo **Nr. risorsa** del foglio presenze.
+3. Scegliere l'azione **Crea righe da pianificazione progetto**. Tutte le righe di pianificazione progetto nel periodo di tempo del foglio di presenze verranno copiate nel foglio di presenze della persona o della macchina indicata nel campo **Nr. risorsa** del foglio presenze.
 
 ## Definire i tipi di lavoro e aggiungerne uno a un foglio presenze
 
-Puoi definire il tipo di lavoro per tutte le righe del foglio presenze per ordini di assistenza, ordini commessa e risorse. In questo modo, sarà possibile aggiungere le informazioni necessarie per fatturare al cliente diversi tipi di lavoro.  
+Puoi definire il tipo di lavoro per tutte le righe del foglio presenze per ordini di assistenza, ordini di progetto e risorse. In questo modo, sarà possibile aggiungere le informazioni necessarie per fatturare al cliente diversi tipi di lavoro.  
 
 1. Nella pagina **Fogli presenze** scegli il foglio presenze rilevante.
 2. Sulla prima riga della sezione **Righe**, scegliere il campo **Tipo**, quindi scegliere il tipo rilevante, ad esempio *Risorsa*.  
@@ -161,16 +161,16 @@ Una volta approvato o rifiutato, un foglio presenze non può essere modificato a
 3. Nella pagina **Foglio presenze** scegli l'azione **Riapri**, quindi scegli l'azione **Tutte le righe inviate** per riaprire tutte le righe oppure l'azione **Solo le righe selezionate** per riaprire solo le righe che sono state selezionate nella pagina **Foglio presenze**.
 4. Scegliere il pulsante **OK**. Lo stato della riga o delle righe del foglio presenze cambia in **Inviato**.  
 
-## Visualizzare e approvare fogli presenze in base alla commessa
+## Visualizzare e approvare fogli presenze in base al progetto
 
-Per una commessa, è possibile specificare una persona responsabile della commessa. Tali informazioni sono collegate alle righe del foglio presenze. Il collegamento fornisce ai project manager un elenco dei fogli presenze da approvare. Ad esempio, il project manager del team potrebbe essere responsabile di alcune commesse nella società. In questo caso, deve essere designato come **Persona responsabile** nella pagina Scheda commessa. Questa visualizzazione delle informazioni del foglio presenze mostra le attività associate a una commessa e la quantità di ore utilizzate.
+Per un progetto, è possibile specificare una persona responsabile del progetto. Tali informazioni sono collegate alle righe del foglio presenze. Il collegamento fornisce ai project manager un elenco dei fogli presenze da approvare. Ad esempio, il project manager del team potrebbe essere responsabile di alcuni progetti nella società. In questo caso, deve essere designato come **Persona responsabile** nella pagina Scheda progetto. Questa visualizzazione delle informazioni del foglio presenze mostra le attività di progetto associate a un progetto e la quantità di ore utilizzate.
 
 > [!NOTE]
-> Per approvare i fogli presenze nella pagina **Foglio presenze manager per commessa**, devi selezionare un'opzione **Foglio presenze per approvazione commesse** nella pagina **Setup risorse**. Per ulteriori informazioni sull'impostazione delle approvazioni per le risorse, vedi [Impostare risorse](projects-how-setup-resources.md).
+> Per approvare i fogli presenze nella pagina **Foglio presenze manager per progetto**, devi selezionare un'opzione **Foglio presenze per approvazione progetto** nella pagina **Setup risorse**. Per ulteriori informazioni sull'impostazione delle approvazioni per le risorse, vedi [Impostare risorse](projects-how-setup-resources.md).
 
-### Approvare o rifiutare un foglio presenze in base alla commessa
+### Approvare o rifiutare un foglio presenze in base al progetto
 
-1. Nella casella **Cerca** immettere **Foglio presenze manager per commessa**, quindi selezionare il collegamento correlato. [!INCLUDE[prod_short](includes/prod_short.md)] visualizza un elenco di righe del foglio presenze associate alle commesse di cui sei responsabile.
+1. Nella casella **Cerca** immettere **Foglio presenze manager per progetto**, quindi selezionare il collegamento correlato. [!INCLUDE[prod_short](includes/prod_short.md)] visualizza un elenco di righe del foglio presenze associate ai progetti di cui sei responsabile.
 2. Scegliere l'azione **Approva**, quindi scegli l'azione **Tutte le righe inviate** per approvare tutte le righe oppure l'azione **Solo le righe selezionate** per approvare solo le righe che sono selezionate nella pagina **Foglio presenze**.
 
     > [!NOTE]
@@ -180,32 +180,32 @@ Per una commessa, è possibile specificare una persona responsabile della commes
 4. Scegli il pulsante **OK**.
 
 > [!NOTE]
-> Dopo aver approvato o rifiutato una riga del foglio presenze in base alla commessa, non puoi riaprirla o modificarla nella pagina **Foglio presenze**.
+> Dopo aver approvato o rifiutato una riga del foglio presenze in base al progetto, non puoi riaprirla o modificarla nella pagina **Foglio presenze**.
 
-## Registrare le righe di un foglio presenze nelle registrazioni risorse
+## Registrare le righe di un foglio presenze in una registrazione risorse
 
-Dopo avere approvato i movimenti del foglio presenze per una risorsa, è possibile registrarli nelle registrazioni risorse corrispondenti.
+Dopo avere approvato i movimenti del foglio presenze per una risorsa, è possibile registrarli nella registrazione risorse corrispondente.
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni risorse**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Suggerisci righe da fogli presenze**.  
 3. Nella pagina **Suggerisci righe reg. ris.** compila i campi come necessario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
-4. Scegli il pulsante **OK**. I movimenti per l'utilizzo verranno creati nelle registrazioni risorse, dove sarà possibile modificare le informazioni in base alle esigenze.  
+4. Scegli il pulsante **OK**. I movimenti per l'utilizzo verranno creati nella registrazione risorse, dove sarà possibile modificare le informazioni in base alle esigenze.  
 5. Scegliere l'azione **Registra**.  
-6. Per verificare la registrazione, scegliere l'azione **Mov. contabili**. Verrà visualizzata la pagina **Mov. contabili risorse** nella quale verrà visualizzato il risultato della registrazione delle registrazioni risorse.
+6. Per verificare la registrazione, scegliere l'azione **Mov. contabili**. Verrà visualizzata la pagina **Mov. contabili risorse** nella quale verrà visualizzato il risultato della registrazione della registrazione risorse.
 
-## Registrare le righe di un foglio presenze nelle registrazioni commesse
+## Registrare le righe di un foglio presenze in una registrazione progetti
 
-Dopo avere approvato i movimenti del foglio presenze per una commessa è possibile registrarli nelle registrazioni commesse corrispondenti.
+Dopo avere approvato i movimenti del foglio presenze per un progetto, è possibile registrarli nella registrazione progetti pertinente.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni progetti**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Suggerisci righe da fogli presenze**.  
-3. Nella pagina **Suggerisci righe reg. comm.** compila i campi come necessario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
-4. Scegli il pulsante **OK**. I movimenti per l'utilizzo verranno creati nelle registrazioni commesse, dove sarà possibile modificare le informazioni in base alle esigenze.  
+3. Nella pagina **Suggerisci righe registrazione progetti** compila i campi come necessario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
+4. Scegli il pulsante **OK**. I movimenti per l'utilizzo verranno creati nella registrazione progetti, dove sarà possibile modificare le informazioni in base alle esigenze.  
 
     > [!NOTE]  
     > Le informazioni sul tipo di lavoro e l'indicazione se il lavoro è addebitabile o meno vengono copiate dalla riga del foglio presenze. Se necessario, è possibile ridurre la quantità di ore ed effettuare una registrazione parziale. Se si riduce la quantità, alla successiva selezione dell'azione **Suggerisci righe da fogli presenze** la riga conterrà la quantità residua di ore.  
 5. Scegli l'azione **Registra**.  
-6. Per verificare la registrazione, scegliere l'azione **Mov. contabili**. Verrà visualizzata la pagina **Movimenti cont. commesse** nella quale verrà visualizzato il risultato della registrazione delle registrazioni commesse.
+6. Per verificare la registrazione, scegliere l'azione **Mov. contabili**. Verrà visualizzata la pagina **Movimenti contabili progetto** nella quale verrà visualizzato il risultato della registrazione della registrazione risorse.
 
 ## Archiviare fogli presenze
 
@@ -227,6 +227,5 @@ Dopo avere registrato i fogli presenze, puoi archiviarli per riferimento futuro.
 [Acquisti](purchasing-manage-purchasing.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

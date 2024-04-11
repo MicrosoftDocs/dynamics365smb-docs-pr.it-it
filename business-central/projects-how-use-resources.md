@@ -1,32 +1,32 @@
 ---
 title: Registrare e rettificare l'utilizzo e i prezzi delle risorse
-description: 'Descrive come registrare l''utilizzo o il consumo di risorse associato a una commessa, per tenere traccia e gestire i costi, i prezzi e i tipi di lavoro.'
+description: 'Descrive come registrare l''utilizzo o il consumo di risorse associato a un progetto, per tenere traccia e gestire i costi, i prezzi e i tipi di lavoro.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Utilizzare le risorse per le commesse
+# Uso delle risorse per i progetti
 
-Si registra l'utilizzo di risorse nelle registrazioni commesse per tenere traccia dei costi, dei prezzi e dei tipi di lavoro che sono collegati alle commesse. Per ulteriori informazioni, vedere [Registrare l'utilizzo nelle commesse](projects-how-record-job-usage.md).
+Si registra l'utilizzo di risorse nella registrazione progetti per tenere traccia dei costi, dei prezzi e dei tipi di lavoro che sono collegati ai progetti. Per ulteriori informazioni, vedi [Registrare l'utilizzo per i progetti](projects-how-record-job-usage.md).
 
 > [!NOTE]
 > Puoi inoltre acquistare risorse esterne, ad esempio, per fatturare a un fornitore per il lavoro eseguito. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
 
 Si può anche registrare l'utilizzo di una risorsa nelle registrazioni risorse. Le voci registrate nelle registrazioni risorse non influiscono sulla contabilità generale.
 
-## Per assegnare le risorse alle commesse
+## Per assegnare risorse a progetti
 
-È possibile assegnare le risorse alle commesse creando righe di pianificazione commessa per la commessa. Per ulteriori informazioni, vedere [Creare le commesse](projects-how-create-jobs.md).
+È possibile assegnare risorse a progetti creando righe di pianificazione progetto per il progetto. Per ulteriori informazioni, vedi [Creare progetti](projects-how-create-jobs.md).
 
-## Per registrare l'utilizzo delle risorse per una commessa
+## Per registrare l'utilizzo delle risorse per un progetto
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse**, quindi scegli il collegamento correlato.
-2. Aprire il batch di registrazioni delle commesse interessato e compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni progetti**, quindi scegli il collegamento correlato.
+2. Apri il batch di registrazioni progetti pertinente e compila i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Una volta completate le registrazioni, scegliere l'azione **Registra**.
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
@@ -75,6 +75,5 @@ Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, 
 [Acquisti](purchasing-manage-purchasing.md)         
 [Vendite](sales-manage-sales.md)     
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

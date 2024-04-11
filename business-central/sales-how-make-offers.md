@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Creare offerte di vendita
 
-Creare un'offerta di vendita per registrare la propria offerta al cliente o prospect per vendere alcuni prodotti a determinate condizioni di consegna e di pagamento. È possibile inviare l'offerta di vendita al cliente per comunicare l'offerta. È possibile inviare il documento via e-mail come allegato PDF. È inoltre possibile fare in modo che il corpo e-mail venga precompilato con un riepilogo dell'offerta. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md).
+Creare un'offerta di vendita per registrare la propria offerta al cliente o prospect per vendere alcuni prodotti a determinate condizioni di consegna e di pagamento. È possibile inviare l'offerta di vendita al cliente per comunicare l'offerta. È possibile inviare il documento via e-mail come allegato PDF. È inoltre possibile fare in modo che il corpo e-mail venga precompilato con un riepilogo dell'offerta. Per ulteriori informazioni, vedere [Inviare documenti via e-mail](ui-how-send-documents-email.md#to-send-documents-by-email).
 
 Quando si negozia con il cliente o prospect è possibile modificare e inviare nuovamente l'offerta di vendita in base alle esigenze. Se il cliente accetta l'offerta, si converte l'offerta di vendita in un ordine o una fattura di vendita in cui viene elaborata la vendita. Per ulteriori informazioni vedere [Fatturare le vendite](sales-how-invoice-sales.md) o [Vendere prodotti](sales-how-sell-products.md).
 
@@ -44,7 +44,7 @@ Nella maggior parte dei casi, si inviano offerte di vendita a potenziali clienti
 
     Se sono state impostate le righe di vendita periodiche per il cliente, ad esempio un ordine di rifornimento mensile, è possibile inserire queste righe nell'ordine scegliendo l'azione **Ottieni righe di vendita ricorrenti**.  
 
-4. Nella Scheda dettaglio **Righe** nel campo **Tipo** selezionare il tipo di prodotto, addebito o transazione per cui si effettuerà la registrazione per il cliente con la riga di vendita.
+4. Nella FastTab **Righe**, nel campo **Tipo**, selezionare il tipo di prodotto, addebito o transazione che si vorrà registrare per il cliente con la linea di vendita.
 5. Nel campo **Nr.** selezionare un record per effettuare la registrazione in base al valore nel campo **Tipo**.
 
     Lasciare il campo **Nr.** vuoto nei seguenti casi:
@@ -65,7 +65,7 @@ Nella maggior parte dei casi, si inviano offerte di vendita a potenziali clienti
 8. Ripeti i passaggi da 4 a 7 per ogni prodotto che vuoi offrire al cliente.
 
     I totali sotto le righe vengono automaticamente calcolati quando si creano o si modificano le righe.  
-9. Nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Totale IVA incl.**.
+9. Nel campo **Importo sconto fattura** immettere un importo che deve essere dedotto dal valore indicato nel campo **Importo sconto fatt.**.
 
     Se sono stati impostati degli sconti su fattura per il cliente, il valore percentuale specificato viene automaticamente inserito nel campo **% sconto fattura** se vengono soddisfatti i criteri e l'importo correlato viene inserito nel campo **Importo sconto fatt. IVA esclusa**. Per ulteriori informazioni, vedere [Registrazione di prezzi, sconti e contratti di pagamento per le vendite](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -73,7 +73,7 @@ Nella maggior parte dei casi, si inviano offerte di vendita a potenziali clienti
     > Per compilare automaticamente il campo **Offerta valida fino alla data** con un determinato numero di giorni dopo la creazione di un'offerta, è possibile compilare il campo **Calcolo validità offerta** nella pagina **Contabilità clienti**.
 
 10. Una volta completate le righe dell'offerta di vendita, scegliere l'azione **Invia tramite messaggio e-mail**.
-11. Nella pagina **Invia messaggio e-mail** compilare tutti i campi restanti ed esaminare l'offerta di vendita inclusa. Per ulteriori informazioni, vedi [Inviare documenti via e-mail](ui-how-send-documents-email.md).
+11. Nella pagina **Invia messaggio e-mail** compilare tutti i campi restanti ed esaminare l'offerta di vendita inclusa. Per ulteriori informazioni, vedi [Inviare documenti via e-mail](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. Se il contatto accetta l'offerta, scegli l'azione **Crea ordine**.  
 
     In alternativa, se la tua organizzazione preferisce quel processo, scegli l'azione **Crea fattura**.  
@@ -95,7 +95,7 @@ La conversione rimuove l'offerta di vendita dal database. Viene creata una fattu
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  
-[Inviare documenti tramite e-mail](ui-how-send-documents-email.md)  
+[Inviare documenti tramite e-mail](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Archiviare i documenti](across-how-to-archive-documents.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -28,7 +28,7 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 > [!NOTE]
 > Il movimento deve derivare da una registrazione.
 >
-> Inoltre, non è possibile annullare i movimenti registrati con le informazioni di un processo o che hanno realizzato utili e perdite all'interno della stessa transazione.
+> Inoltre, non è possibile annullare i movimenti registrati con le informazioni di un progetto o che hanno realizzato utili e perdite all'interno della stessa transazione.
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti C/G**, quindi scegli il collegamento correlato.
 2. Selezionare il movimento che si desidera stornare quindi scegliere l'azione **Storno**.

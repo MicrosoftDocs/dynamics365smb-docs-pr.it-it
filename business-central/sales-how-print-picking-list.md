@@ -1,11 +1,11 @@
 ---
-title: Stampare una lista prelievi magazzino da un ordine di vendita
+title: Stampare una lista prelievo magazzino da un ordine di vendita
 description: 'È possibile stampare una lista prelievo magazzino direttamente da un ordine di vendita, vendite, fattura e altri documenti di vendita in uscita.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/25/2021
+ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -31,7 +31,7 @@ La seguente procedura è basata su un ordine di vendita. I passaggi sono simili 
 
 ## Vedere anche
 
-[Magazzino](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Flusso di warehouse in uscita](design-details-outbound-warehouse-flow.md)
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

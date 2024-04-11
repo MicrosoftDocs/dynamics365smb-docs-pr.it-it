@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '49, 97, 9306, 9346'
-ms.date: 08/08/2022
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Richiedere le offerte
+# Richiesta di offerte
 
 Un'offerta di acquisto può essere utilizzata come bozza preliminare di un ordine di acquisto che può essere in seguito convertito in una fattura di acquisto.
 

@@ -1,25 +1,28 @@
 ---
 title: Rateizzare le entrate e le uscite
-description: 'Per riconoscere un''entrata o una spesa in un periodo diverso dal periodo in cui è stata registrata la transazione, puoi differire o posporre automaticamente le entrate e le uscite per una pianificazione specificata.'
+description: Scopri come rateizzare o posporre entrate o uscite in periodi in cui la transazione non è stata registrata o come posporle secondo una pianificazione specificata.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 # Rateizzare le entrate e le uscite
 
-Per riconoscere un'entrata o una spesa in un periodo diverso dal periodo in cui è stata registrata la transazione, utilizzare la funzionalità per differire automaticamente le entrate e le uscite per una pianificazione specificata.
+Per riconoscere un'entrata o un'uscita in un periodo diverso dal periodo in cui è stata registrata la transazione, puoi utilizzare la funzionalità per differire automaticamente le entrate e le uscite per una pianificazione specificata.
 
 Per ripartire le entrate o le spese sui periodi contabili implicati, impostare un modello di differimento per risorsa, articolo o conto C/G per il quale verrà registrata l'entrata o la spesa. Quando si registra il documento relativo alla vendita o all'acquisto, l'entrata o la spesa è differita ai periodi contabili implicati, in base a una pianificazione di differimento che è governata dalle impostazioni nel modello di differimento e dalla data di registrazione.
 
+> [!NOTE]
+> Le registrazioni di vendite e acquisti convalidano il codice sorgente. La convalida richiede che il codice sorgente rispettivamente per le vendite e le registrazioni vendite e per gli acquisti e le registrazioni acquisti non sia identico quando utilizzi differimenti. Se è configurato per essere identico, puoi aggirare questa limitazione creando un modello e un batch che utilizzi altro codice sorgente.
+
 ## Per impostare un conto C/G per il differimento
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Piano dei conti**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Piano dei conti**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.
 3. Compilare tutti i campi in modo da creare un conto C/G per le entrate differite. Per ulteriori informazioni, vedere [Contabilità generale e piano dei conti](finance-general-ledger.md).
 4. Ripetere i passaggi 2 e 3 per creare un nuovo conto C/G per le spese differite.

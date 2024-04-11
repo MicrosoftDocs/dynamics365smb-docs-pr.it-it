@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'find, search, Tell Me'
 ms.search.form: TellMe
-ms.date: 09/21/2023
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -41,7 +41,7 @@ La ricerca della pagina si è evoluta nella funzionalità delle informazioni per
 
 ## La funzionalità delle informazioni è disponibile per tutti i fattori di forma?
 
-Sì. È stato introdotto su telefoni e tablet nel secondo ciclo di rilascio di Business Central 2023, ma deve essere abilitato in [Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management) usando l'interruttore **Funzionalità: ricerca di pagine e dati nell'app per dispositivi mobili**. 
+Sì. È stata introdotta in telefoni e tablet nel secondo ciclo di rilascio di Business Central 2023. Nel secondo ciclo di rilascio del 2023, deve essere abilitata in [Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management) usando l'interruttore **Funzionalità: ricerca di pagine e dati nell'app per dispositivi mobili**. Nel primo ciclo di rilascio del 2024 e successivi, è sempre abilitata.
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

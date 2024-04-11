@@ -1,6 +1,6 @@
 ---
-title: Report finanziari e analisi
-description: Vedi quali report finanziari e analisi sono disponibili nella versione standard di Business Central in modo da poter tenere traccia dell'attività. Utilizzare il report 38 per la rendicontazione di profitti/perdite.
+title: Report finanziari predefiniti in Business Central
+description: Verifica quali report finanziari predefiniti sono disponibili nella versione standard di Business Central in modo da poter tenere traccia della tua attività. Utilizzare il report 38 per la rendicontazione di profitti/perdite.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -9,27 +9,15 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Report finanziari e analisi in Business Central
 
-La creazione di report finanziari in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti finanziari e aziendali di creare, gestire, distribuire e visualizzare i rendiconti finanziari. Va oltre i tradizionali vincoli di creazione di report per consentire di progettare in modo efficiente vari tipi di report. [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report, funzioni di tracciamento e strumenti utili per i revisori o i controllori responsabili della creazione di report per il reparto finanziario. La creazione di report finanziari include il supporto per le dimensioni, rendendo pertanto le dimensioni o i segmenti di conto immediatamente disponibili. Non sono necessari altri strumenti o passaggi di configurazione.  
+# Report finanziari predefiniti in Business Central
+
+[!INCLUDE [prod_short](includes/prod_short.md)] include diversi report predefiniti, funzioni di tracciamento e strumenti utili per i revisori o i controllori responsabili della creazione di report per il reparto finanziario. 
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Report
-
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Attività
-
-I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
-
-* [Analisi degli importi effettivi e degli importi di budget](bi-how-analyze-actual-versus-budget.md)  
-* [Preparare Financial Reporting con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)  
-* [Impostare e pubblicare servizi Web indicatore di prestazioni chiave (KPI) basati sui report finanziari](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
-* [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)  
-* [Creare report di analisi](bi-how-create-analysis-views-reports.md)  
-* [Creare report con XBRL](bi-create-reports-with-xbrl.md)  
-* [Gestire l'intento di accesso al database](admin-data-access-intent.md)  
 
 ## Vedere anche
 

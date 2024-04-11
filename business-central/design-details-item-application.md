@@ -133,7 +133,7 @@ Se l'utente non avesse creato il collegamento fisso tra la nota di credito di ac
 
 Nella seguente tabella viene illustrato il risultato sui movimenti di valorizzazione dell'articolo se il passaggio 2 dello scenario precedente viene eseguito senza un collegamento fisso.  
 
-|Data di registrazione|Tipo mov. articolo|Quantità valorizzata|Importo costo (effettivo)|Collega-a mov. art.|Valutato per costo medio|Nr. movimento cont. articolo|Nr. movimento|  
+|Data di registrazione|Tipo mov. articolo|Quantità valorizzata|Importo costo (effettivo)||Valutato per costo medio|Nr. movimento cont. articolo|Nr. movimento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Acquisto|1|200.00||No|1|1|  
 |01-01-20|Acquisto|1|1000.00||No|2|2|  

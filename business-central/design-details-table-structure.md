@@ -1,5 +1,5 @@
 ---
-title: 'Dettagli di progettazione: Struttura della tabella | Microsoft Docs'
+title: 'Dettagli di progettazione: struttura della tabella | Microsoft Docs'
 description: 'Per comprendere in che modo sono state riprogettate l''archiviazione e la registrazione dei movimenti dimensione, è importante comprendere la struttura della tabella.'
 author: brentholtorf
 ms.topic: conceptual
@@ -9,23 +9,25 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Dettagli di progettazione: Struttura della tabella
-Per comprendere in che modo i movimenti dimensione sono archiviati e registrati, è importante comprendere la struttura della tabella.  
+# Dettagli di progettazione: struttura della tabella
+
+Per capire in che modo i movimenti dimensione vengono archiviati e registrati, è importante comprendere la struttura della tabella.  
 
 ## Tabella 480, Movimento set di dimensioni  
-Non è possibile modificare questa tabella. Dopo avere scritto i dati nella tabella, non è possibile eliminarli o modificarli.
+
+Non puoi modificare questa tabella. Dopo avere scritto i dati nella tabella, non puoi eliminarli o modificarli.
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
 |1|**ID**|Nr. intero|>0,0 è prenotato per il set di dimensioni vuoto. Fa riferimento al campo 3 nella tabella 481.|  
 |2|**Codice dimensione**|Codice 20|Relazione tabella a tabella 348.|  
 |3|**Codice valore dimensioni**|Codice 20|Relazione tabella a tabella 349.|  
-|4|**ID valore dimensioni**|Nr. intero|Fa riferimento al campo 12 nella tabella 349. Si tratta della chiave secondaria utilizzata per lo scorrimento della tabella 481.|  
+|4|**ID valore dimensioni**|Intero|Fa riferimento al campo 12 nella tabella 349. Si tratta della chiave secondaria utilizzata per lo scorrimento della tabella 481.|  
 |5|**Nome dimensione**|Testo 30|CalcField. Vedere la tabella 348.|  
 |6|**Nome valore dimensioni**|Testo 30|CalcField. Vedere la tabella 349.|  
 
 ## Tabella 481, Nodo albero set di dimensioni  
-Non è possibile modificare questa tabella. Viene utilizzata per cercare un set di dimensioni. Se il set di dimensioni non viene trovato, verrà creato un nuovo set.  
+Non puoi modificare questa tabella. Viene utilizzata per cercare un set di dimensioni. Se il set di dimensioni non viene trovato, viene creato un nuovo set.  
 
 |Nr. campo|Nome campo|Tipo di dati|Commento|  
 |---------------|----------------|---------------|-------------|  
@@ -77,7 +79,7 @@ Oltre agli altri campi dimensione nella tabella, questi campi sono importanti.
 
 |Nr. tabella|Nome tabella|  
 |---------------|----------------|  
-|17|**Movimenti C/G**|  
+|17|**Movimento C/G**|  
 |21|**Mov. contabili clienti**|  
 |25|**Mov. contabili fornitori**|  
 |32|**Mov. Contabile Articoli**|  
@@ -140,9 +142,9 @@ Il campo 480 è modificabile nelle seguenti tabelle.
 |89|**Riga registrazioni DBA**|  
 |96|**Movimenti budget C/G**|  
 |207|**Righe registrazioni risorse**|  
-|210|**Righe reg. commesse**|  
-|221|**Allocazioni registrazioni gen.**|  
-|246|**Riga Richiesta**|  
+|210|**Riga registrazione progetti**|  
+|221|**Allocazioni Registrazioni Gen.**|  
+|246|**Riga richiesta**|  
 |295|**Testata sollecito**|  
 |302|**Testate note add. interessi**|  
 |5405|**Ordine di produzione**|  
@@ -166,7 +168,7 @@ Il campo 480 esiste nelle seguenti tabelle buffer.
 |Nr. tabella|Nome tabella|  
 |---------------|----------------|  
 |49|**Buffer Reg. Fatture**|  
-|212|**Buffer reg. commesse**|  
+|212|**Buffer registrazione progetto**|  
 |372|**Buffer pagamenti**|  
 |382|**Mov. buffer CF**|  
 |461|**Buffer riga fattura pagam. anticipato**|  

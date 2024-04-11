@@ -24,7 +24,7 @@ Fornire un'assistenza continua ai clienti è un aspetto fondamentale dell'attivi
 
 Inoltre, è possibile standardizzare la definizione dei codici, impostare contratti, implementare una politica di sconti e creare tabelle di marcia per gli addetti all'assistenza.  
 
-In generale, la gestione dell'assistenza presenta due aspetti fondamentali: la configurazione e l'impostazione del sistema e il suo utilizzo per la definizione di prezzi, di contratti e di ordini, l'invio del personale di assistenza e la pianificazione dei compiti.  
+In generale, la gestione dell'assistenza presenta due aspetti fondamentali: la configurazione e l'impostazione del sistema e il suo utilizzo per la definizione di prezzi, di contratti e di ordini, l'invio del personale di assistenza e la pianificazione dei progetti.  
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
 

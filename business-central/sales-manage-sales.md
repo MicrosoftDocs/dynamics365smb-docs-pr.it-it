@@ -1,12 +1,12 @@
 ---
-title: Panoramica dei task per la gestione delle vendite
+title: Panoramica delle attività per gestire le vendite
 description: 'Leggi come utilizzare i servizi di Business Central per la gestione delle attività di vendita dei tuoi clienti con fatture di vendita, ordini, offerte e altro.'
 author: brentholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
-ms.date: 09/02/2022
+ms.date: 01/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -14,11 +14,11 @@ ms.service: dynamics-365-business-central
 
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
 
-È necessario utilizzare gli ordini di vendita se il processo di vendita richiede che si possano spedire parti di una quantità di un ordine, ad esempio, perché la quantità completa non è disponibile immediatamente. Se si vendono articoli con consegna diretta dal fornitore al cliente, come una spedizione diretta, è necessario utilizzare anche gli ordini di vendita. In tutti gli altri aspetti, gli ordini di vendita funzionano come le fatture di vendita. Con gli ordini di vendita è possibile anche utilizzare la funzionalità Promesse ordine per comunicare determinate date di consegna ai clienti.  
+È necessario utilizzare gli ordini di vendita se il processo di vendita richiede la spedizione di parti di una quantità di un ordine, ad esempio, perché la quantità completa non è disponibile immediatamente. Se si vendono articoli con consegna diretta dal fornitore al cliente, come una spedizione diretta, è necessario utilizzare anche gli ordini di vendita. In tutti gli altri aspetti, gli ordini di vendita funzionano come le fatture di vendita. Con gli ordini di vendita è possibile anche utilizzare la funzionalità Promesse ordine per comunicare determinate date di consegna ai clienti.  
 
 È possibile negoziare con il cliente prima di tutto creando un'offerta di vendita, che è possibile convertire in una fattura di vendita o un ordine di vendita quando ci si accorda sulla vendita. Dopo che il cliente ha confermato il contratto, è possibile inviare una conferma dell'ordine per registrare l'obbligo di consegnare i prodotti come concordato.
 
-È possibile correggere o annullare in modo semplice una fattura di vendita registrata prima che venga pagata. Ciò risulta utile se si desidera correggere un errore di digitazione o se il cliente richiede una modifica in anticipo nell'elaborazione dell'ordine. Se la fattura di vendita registrata è stata pagata, allora sarà necessario creare una nota di credito di vendita o un ordine di reso da vendita per stornare la vendita.
+È possibile correggere o annullare facilmente una fattura di vendita registrata prima che venga pagata. Ciò risulta utile se si desidera correggere un errore di digitazione o se il cliente richiede una modifica in anticipo nell'elaborazione dell'ordine. Se la fattura di vendita registrata è stata pagata, allora sarà necessario creare una nota di credito di vendita o un ordine di reso da vendita per stornare la vendita.
 
 Per garantire la buona riuscita delle iniziative di marketing e la chiusura delle vendite, è fondamentale prendere le decisioni ottimali nel momento appropriato. La funzionalità di marketing in [!INCLUDE[prod_short](includes/prod_short.md)] offre un quadro accurato e tempestivo delle informazioni sui contatti consentendo di presentarsi in modo efficace a potenziali clienti, nonché di incrementare il livello di soddisfazione dei clienti. Ulteriori informazioni in [Relationship Management](marketing-relationship-management.md).
 

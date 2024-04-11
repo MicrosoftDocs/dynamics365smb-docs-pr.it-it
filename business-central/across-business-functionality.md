@@ -24,8 +24,8 @@ ms.service: dynamics-365-business-central
 |Ottenere informazioni relative alla prestazioni delle attività aziendali tramite i budget, le situazioni contabili e le visualizzazioni analisi.|[Business Intelligence finanziario](bi.md)|
 |Gestire i processi di vendita e le informazioni, quali offerte, ordini e resi, e nei conti dei clienti effettuare spedizioni dirette.|[Vendite](sales-manage-sales.md)|
 |Gestire i processi e le informazioni relative agli acquisti, quali fatture, ordini, resi e conti fornitori, e acquistare articoli da documenti di vendita. |[Acquisti](purchasing-manage-purchasing.md)|
-|Registrare nuovi articoli di tipo magazzino o assistenza, categorizzare gli articoli per agevolare la ricerca, rettificare i livelli di magazzino e svolgere attività comuni di costing di magazzino.|[Magazzino](inventory-manage-inventory.md)|
-|Crea commesse e pianifica le risorse per i progetti, gestisci i budget commesse, monitora lo stato di avanzamento e tieni traccia delle ore di utilizzo di macchinari e dipendenti.|[Gestione progetti](projects-manage-projects.md)|
+|Registrare nuovi articoli di tipo magazzino o assistenza, categorizzare gli articoli per agevolare la ricerca, rettificare i livelli di magazzino e svolgere attività comuni di costing di magazzino.|[Inventario](inventory-manage-inventory.md)|
+|Crea progetti e pianifica le risorse per i progetti, gestisci i budget di progetti, monitora lo stato di avanzamento e tieni traccia delle ore di utilizzo di macchinari e dipendenti.|[Gestione progetti](projects-manage-projects.md)|
 |Organizzare i cespiti, accertarsi che l'ammortamento periodico venga calcolato in modo corretto e mantenere traccia dei costi di manutenzione.|[Cespiti](fa-manage.md)|
 |Gestire e supportare le attività di vendita e concentrare le interazioni sui contatti e i clienti preferiti.|[Relationship Management](marketing-relationship-management.md)|
 |Conserva i record dettagliati dei dipendenti e registra le assenze a scopo di analisi. |[Gestione del personale](hr-manage-human-resources.md)|
@@ -34,7 +34,7 @@ ms.service: dynamics-365-business-central
 |Definire le risorse del reparto e la relativa capacità, programmare le operazioni, inserire i componenti di produzione ed eseguire la produzione.|[Manufacturing](production-manage-manufacturing.md)|
 |Assicura un flusso efficace dei prodotti ricevuti e spediti.|[Panoramica gestione del magazzino](design-details-warehouse-management.md)|
 |Programmare le chiamate di assistenza, impostare ordini di assistenza e tenere traccia dei pezzi di ricambio e delle forniture.|[Gestione assistenza](service-service.md)|
-|Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. Richiedere e concedere l'approvazione per creare o registrare documenti sono passaggi tipici del flusso di lavoro.|[Workflow](across-workflow.md)|
+|Impostare e utilizzare flussi di lavoro che connettono le attività eseguite da utenti diversi o dal sistema, ad esempio la registrazione automatica. Richiedere e concedere l'approvazione per creare o registrare documenti sono fasi workflow tipiche.|[Workflow](across-workflow.md)|
 |Abilitare gli utenti allo scambio di dati con origini esterne durante le attività quotidiane, ad esempio l'invio e la ricezione di documenti elettronici, l'importazione e l'esportazione di file della banca e l'aggiornamento dei tassi di cambio delle valute.|[Scambio di dati in modalità elettronica](across-data-exchange.md)|
 |Registra i documenti esterni in [!INCLUDE[prod_short](includes/prod_short.md)], inclusi gli allegati di file, quindi crea manualmente i documenti correlati o converti automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
 

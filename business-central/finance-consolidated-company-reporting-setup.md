@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Impostare il consolidamento di una società
+# Impostare il consolidamento società
 
 Prima di poter consolidare i movimenti di contabilità generale di due o più società (filiali) in una società consolidata, è necessario preparare i piani contabili e la società di consolidamento.  
 
@@ -75,8 +75,21 @@ Una parte importante dell'impostazione della business unit consiste nel specific
 > [!NOTE]
 > L'opzione API ti consente anche di condividere i movimenti C/G di altri ambienti di [!INCLUDE [prod_short](includes/prod_short.md)]. Per utilizzare l'opzione API, l'utente che configura il consolidamento deve disporre dell'autorizzazione per accedere ai movimenti CoGe. Ad esempio, i set di autorizzazioni D365 Basic e D365 Read forniscono l'accesso.
 
+#### Impostare le valute delle business unit
+
+Quando esegui il consolidamento per business unit che utilizzano una valuta estera, devi prestare particolare attenzione ai tassi di cambio utilizzati nelle varie parti del processo e ancora di più quando esegui nuovamente il consolidamento. A tale scopo, utilizza la pagina **Imposta valute della Business Unit** per tenere facilmente traccia dei tassi.
+
+La pagina **Imposta valute della Business Unit** fornisce gli ultimi tassi per il tasso medio, il tasso di chiusura e l'ultimo tasso di chiusura. Puoi cercare i tassi di cambio nella tabella dei tassi di cambio valuta, il che semplifica la convalida dei tassi. Puoi modificare i tassi per l'esecuzione corrente immettendo i valori o copiandoli dalle esecuzioni precedenti. Per copiare i tassi, scegli **Seleziona tra consolidamenti precedenti**. Questa pagina è particolarmente utile quando si desidera eseguire nuovamente un consolidamento precedente, in cui devi utilizzare un tasso di chiusura precedente. Ciò è necessario per rivalutare correttamente le voci del bilancio patrimoniale. La pagina **Seleziona tra consolidamenti precedenti** è utile anche se desideri semplicemente visualizzare i tassi utilizzati, ad esempio, durante la risoluzione dei problemi. La pagina viene filtrata in base alle esecuzioni che includevano la business unit selezionata.
+
+Il processo batch **Esegui consolidamento** viene eseguito dalla pagina elenco **Business Unit**. Puoi anche trovare la pagina **Imposta valute della Business Unit** scegliendo l'azione **Tassi di cambio**.
+
+> [!NOTE]
+> Le pagine di impostazione del tasso di cambio per il tasso medio, il tasso di chiusura e l'ultimo tasso di chiusura attualmente disponibili nella scheda **Business Unit** saranno obsolete in una versione futura. Tuttavia, puoi comunque mantenere questi tassi se disponi di business unit importate tramite file.
+
+#### Creare una business unit
+
 1. Accedere alla società consolidata.
-2. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Business unit**, quindi scegli il collegamento correlato.  
+2. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Business unit**, quindi scegli il collegamento correlato.  
 3. Scegli **Nuovo** e compila i campi necessari nella Schede dettaglio **Generale** e **Conti G/L**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -100,7 +113,7 @@ Se il piano dei conti nella business unit differisce dalla società consolidata,
 
 ### <a name="exchrates"></a>Specificare i tassi di cambio per i consolidamenti
 
-Se una business unit utilizza una valuta diversa rispetto alla società consolidata, è necessario specificare i metodi dei tassi di cambio per ogni conto prima di eseguire il consolidamento. Per ogni conto, il contenuto del campo **Metodo conversione consol.** determina il tasso di cambio. Nella società consolidata, nel campo **Tabella tasso di cambio valuta** di ogni scheda business unit specificare se per il consolidamento saranno utilizzati i tassi di cambio della business unit o della società consolidata. Se si utilizzano i tassi di cambio della società consolidata, è possibile modificare i tassi di cambio per una business unit. Per le business unit, se nel campo **Tabella tasso di cambio valuta** della scheda business unit è indicato **Locale**, è possibile modificare il tasso di cambio nella scheda stessa. I tassi di cambio vengono copiati dalla tabella **Tassi di cambio valute**, ma è possibile modificarli prima del consolidamento.
+Se una business unit utilizza una valuta diversa rispetto alla società consolidata, è necessario specificare i metodi dei tassi di cambio per ogni conto prima di eseguire il consolidamento. Per ogni conto, il contenuto del campo **Metodo conversione consol.** determina il tasso di cambio. Nella società consolidata, nel campo **Tabella tasso di cambio valuta** di ogni scheda business unit specifica se per il consolidamento vengono utilizzati i tassi di cambio della business unit o della società consolidata. Se si utilizzano i tassi di cambio della società consolidata, è possibile modificare i tassi di cambio per una business unit. Per le business unit, se nel campo **Tabella tasso di cambio valuta** della scheda business unit è indicato **Locale**, è possibile modificare il tasso di cambio nella scheda stessa. I tassi di cambio vengono copiati dalla tabella **Tassi di cambio valute**, ma è possibile modificarli prima del consolidamento.
 
 Nella tabella seguente sono descritti i metodi dei tassi di cambio che è possibile utilizzare per i conti.
 
@@ -113,13 +126,11 @@ Nella tabella seguente sono descritti i metodi dei tassi di cambio che è possib
 |Tasso composito | Gli importi del periodo corrente vengono convertiti sulla base del tasso medio e aggiunti al saldo precedentemente registrato nella società consolidata. In genere si utilizza questo metodo per i conti profitti/perdite. Tali conti includono importi di periodi diversi, pertanto contengono importi convertiti con tassi di cambio diversi.|
 |Tasso equo | Questa opzione è simile a **Tasso composito**. Le differenze sono registrate in conti di contabilità generale separati.|
 
-Per specificare i tassi di cambio per le business unit, attenersi alla seguente procedura:
+Per specificare i tassi di cambio per una business unit, attieniti alla seguente procedura:
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Business unit**, quindi scegli il collegamento correlato.  
-2. Nella pagina **Lista business unit**, scegliere la business unit, quindi l'azione **Tasso medio (manuale)**.  
-3. Nella pagina **Modifica tasso di cambio**, il campo **Importo tasso cambio relativo** contiene valori copiati dalla tabella **Tassi di cambio valute**, ma è possibile modificarli. Chiudere la pagina.  
-4. Scegliere l'azione **Tasso di chiusura**.  
-5. Nel campo **Importo tasso cambio relativo**, immettere il tasso di cambio.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Business unit**, quindi scegli il collegamento correlato.  
+2. Nella pagina **Lista business unit**, scegli la business unit, quindi l'azione **Tasso di cambio**.  
+3. Nella pagina **Imposta valute della Business Unit** compila i campi come necessario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Includere o escludere dimensioni
 

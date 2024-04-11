@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/24/2021
+ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -47,7 +47,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
  L'impiegato di marketing si occupa della produzione, della distribuzione e della collocazione del materiale di marketing.  
 
- La società ha appena lanciato un nuovo prodotto chiamato Sedia ospiti ROMA. Il prodotto è stato presentato a una fiera di settore, Ufficio Futurus. Molti clienti hanno espresso grande interesse nel prodotto e, come parte di un'iniziativa promozionale, è stato offerto un prezzo speciale a chi decide di acquistare Sedia ospiti Roma durante il periodo di promozione.  
+ La società ha lanciato un nuovo prodotto chiamato Sedia ospiti ROMA. Il prodotto è stato presentato a una fiera di settore, Ufficio Futurus. Molti clienti hanno espresso grande interesse nel prodotto e, come parte di un'iniziativa promozionale, è stato offerto un prezzo speciale a chi decide di acquistare Sedia ospiti Roma durante il periodo di promozione.  
 
  Uno dei task dell'impiegato di marketing dopo la fiera è di inserire tutti i potenziali clienti come contatti.  
 
@@ -55,7 +55,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
  L'impiegato di marketing aiuta ad inviare lettere di ringraziamento a tutti i contatti che hanno lasciato il loro biglietto da visita allo stand e, infine, il responsabile registra tutte le risposte ricevute dai potenziali clienti.  
 
-## Impostazione della campagna
+## Impostazione di una campagna
 
  Non appena l'impiegato ha terminato di inserire i dati dei biglietti da visita raccolti alla fiera, il manager imposta una scheda per gestire le attività necessarie per la campagna.  
 
@@ -71,7 +71,7 @@ Una campagna è ogni tipo di attività che coinvolga diversi contatti. Una parte
 
  Il manager marketing crea un segmento per selezionare i contatti con i quali vuole interagire.  
  
- Quando crei un segmento, puoi utilizzare una serie di criteri per selezionare i contatti che devono essere target per il segmento. Ad esempio, puoi selezionare le persone di contatto che lavorano presso la sede di un cliente o responsabili degli acquisti presso un potenziale cliente. I filtri servono per aggiungere contatti in base ai criteri più rispondenti ai propri scopi. Ad esempio, è possibile scegliere di impostare un filtro in base al ruolo professionale del contatto o alla relazione d'affari o al settore della società contatto. In questa procedura dettagliata verrà impiegato il filtro **Ruolo professionale** per selezionare i contatti.
+ Quando crei un segmento, puoi utilizzare vari criteri per selezionare i contatti che devono essere target per il segmento. Ad esempio, puoi selezionare le persone di contatto che lavorano presso la sede di un cliente o responsabili degli acquisti presso un potenziale cliente. I filtri servono per aggiungere contatti in base ai criteri più rispondenti ai propri scopi. Ad esempio, è possibile scegliere di impostare un filtro in base al ruolo professionale del contatto o alla relazione d'affari o al settore della società contatto. In questa procedura dettagliata verrà impiegato il filtro **Ruolo professionale** per selezionare i contatti.
 
 ### Per creare un segmento con i contatti scelti  
 
@@ -91,11 +91,11 @@ La pagina **Segmento** ora contiene una lista dei contatti in base al filtro imm
 1. Nella pagina **Segmento**, scegliere **Azioni**.
 2. Scegliere **Funzioni**, quindi **Segmento**, quindi scegliere l'azione **Salva criteri**.  
 3. Nella pagina **Salva criteri segmento** , immettere un codice per il segmento. Nel campo **Descrizione** inserire una descrizione dei criteri segmento.
-4. Scegliere il pulsante **OK**.  
+4. Scegli il pulsante **OK**.  
 
 ## Data mining
 
- Il manager marketing esamina più attentamente l'elenco dei contatti nel segmento e si rende conto che è troppo corposa. Il manager decide quindi di ridurre il numero dei contatti a quelli dei clienti potenziali effettivi, in modo da concentrarsi sul target giusto. Questo processo di affinamento e riduzione dei dati è anche detto data mining.  
+ Il manager marketing esamina più attentamente l'elenco dei contatti nel segmento e si rende conto che è troppo grande. Il manager decide quindi di ridurre il numero dei contatti a quelli dei clienti potenziali effettivi, in modo da concentrarsi sul target giusto. Questo processo di affinamento e riduzione dei dati è anche detto data mining.  
 
 ### Per rimuovere contatti dal segmento  
 
@@ -172,9 +172,9 @@ Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità de
 
  Le lettere vengono inviate automaticamente tramite posta elettronica e il segmento registrato. Dal momento che il segmento è stato registrato, non è più contenuto nella lista dei segmenti, ma è stato salvato nella lista dei segmenti registrati. Per vedere l'elenco, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Segmenti registrati**, quindi scegli il collegamento correlato.  
 
-## Registrazione delle risposte alla campagna
+## Registrare le risposte alla campagna
 
- Nel corso delle due settimane seguenti, i potenziali clienti rispondono alla lettera. Il responsabile del marketing desidera tenere traccia delle risposte e registrare le interazioni.  
+ Nel corso delle due settimane seguenti, i potenziali clienti rispondono alla lettera. Il responsabile del marketing desidera tenere traccia delle risposte e registra le interazioni.  
 
  A tal scopo, impostare un segmento dei contatti che hanno risposto alla lettera  
 

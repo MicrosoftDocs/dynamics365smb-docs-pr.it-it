@@ -2,11 +2,12 @@
 title: Connessione a Microsoft Dataverse (video)
 description: Imposta una connessione tra Business Central e Dataverse. In genere le aziende creano la connessione per integrare i dati con un'altra app aziendale di Dynamics 365.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 09/28/2023
-ms.author: bholtorf
+ms.date: 02/28/2024
 ms.service: dynamics-365-business-central
 ---
 # Connettersi a Microsoft Dataverse
@@ -29,7 +30,13 @@ Prima di creare la connessione, è necessario disporre di alcune informazioni:
 
 > [!Note]
 > Tali passaggi descrivono la procedura per [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> Se stai utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] locale e non si sta utilizzando un account Microsoft Entra per connettersi a [!INCLUDE [cds_long_md](includes/cds_long_md.md)], devi inoltre specificare un nome utente e una password di un account utente per l'integrazione. Questo account viene definito account "utente integrazione". Se stai usando un account Microsoft Entra l'account utente di integrazione non è richiesto o visualizzato. L'utente dell'integrazione verrà impostato automaticamente e non richiede una licenza.
+> Se stai utilizzando [!INCLUDE[prod_short](includes/prod_short.md)] locale e non stai utilizzando un account Microsoft Entra per connetterti a [!INCLUDE [cds_long_md](includes/cds_long_md.md)], devi anche specificare un nome utente e una password di un account utente per l'integrazione. Questo account viene definito account "utente integrazione". Se stai usando un account Microsoft Entra l'account utente di integrazione non è richiesto o visualizzato. L'utente dell'integrazione verrà impostato automaticamente e non richiede una licenza.
+
+## Collegare gli ambienti Business Central e Dataverse
+
+Le aziende desiderano mantenere i propri dati al sicuro e protetti entro i limiti della privacy, soprattutto quando la loro applicazione di gestione aziendale si integra con altre app. Collegando gli ambienti [!INCLUDE [prod_short](includes/prod_short.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)] , non solo otterrai tali considerazioni, ma offrirai anche ai tuoi amministratori un modo più semplice per creare e gestire le tue integrazioni con altre app Dynamics 365.
+
+Nell'interfaccia di amministrazione di [!INCLUDE [prod_short](includes/prod_short.md)], puoi collegare il tuo ambiente [!INCLUDE [prod_short](includes/prod_short.md)] al tuo ambiente [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. [!INCLUDE [prod_short](includes/prod_short.md)] può utilizzare le informazioni del collegamento per rendere più semplice e sicura l'integrazione con altre app Dynamics 365, come Sales e Field Service. Ad esempio, l'URL dell'ambiente [!INCLUDE [cds_long_md](includes/cds_long_md.md)] collegato è disponibile per impostazione predefinita nella pagina **Setup connessione Dataverse** e quando esegui la guida al setup assistito **Setup connessione Dataverse**.
 
 ## Consentire valute diverse
 

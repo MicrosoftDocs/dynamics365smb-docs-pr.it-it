@@ -1,16 +1,16 @@
 ---
-title: Elaborare gli ordini di restituzione delle vendite
+title: Elaborare gli ordini di reso vendita
 description: 'Descrive come creare un ordine di restituzione delle vendite per elaborare una restituzione, una cancellazione o un rimborso per articoli o servizi per i quali si è ricevuto il pagamento.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return, order'
 ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/08/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Elaborare gli ordini di restituzione delle vendite  
+# Elaborare ordini di reso vendita  
 
 Se hai bisogno di un maggiore controllo del processo di ritorno delle vendite, come i documenti di magazzino per la gestione degli articoli, o una migliore visione d'insieme quando ricevi articoli da più documenti di vendita con un ritorno delle vendite, allora puoi creare ordini di ritorno delle vendite. Un ordine di reso da vendita genera automaticamente la nota di credito di vendite e altri documenti correlati ai resi, ad esempio un ordine di vendita di sostituzione, se necessario.
 
@@ -56,7 +56,7 @@ Oltre alla fattura di vendita registrata originale, è possibile collegare la no
 
     -   Se la riga del documento registrato include righe di tracciabilità articolo, il campo **Collega-da mov. art.** nelle righe di tracciabilità articolo viene compilato con i numeri dei movimenti contabili articoli appropriati indicati nelle righe di tracciabilità articolo registrate.  
 
-     Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella pagina **Setup contabilità clienti e vendite** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. È possibile, pertanto, che l'importo riga per la nuova riga sia diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
+     Quando si copia da una fattura o una nota di credito registrata, gli sconti fattura e gli sconti riga pertinenti vengono copiati come validi al momento della registrazione del documento dalla riga del documento registrato nella riga del nuovo documento. Si noti, tuttavia, che se l'opzione **Calcola sconto fatt.** è attivata nella pagina **Setup contabilità clienti e vendite** , lo sconto fattura verrà calcolato quando si registra la riga del nuovo documento. L'importo riga per la nuova riga potrebbe quindi essere diverso da quello della riga del documento registrato, a seconda del nuovo calcolo dello sconto fattura.  
 
      > [!NOTE]  
      >  Se parte della quantità della riga del documento registrato è già stata stornata, venduta o consumata, viene creata una riga solo per la quantità rimanente in magazzino o non ancora resa. Se l'intera quantità della riga del documento registrato è già stata stornata, non viene creata una nuova riga.  
@@ -94,7 +94,7 @@ Si potrebbe decidere di addebitare al cliente una commissione di ristoccaggio pe
 
 Durante la registrazione dell'ordine di reso da vendita, la spesa di ristoccaggio viene aggiunta all'importo del movimento di vendita corrispondente. In questo modo è possibile mantenere una valutazione precisa del magazzino.  
 
-## Vedi anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

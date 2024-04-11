@@ -1,52 +1,57 @@
 ---
-title: Gestire gli approvvigionamenti delle commesse
-description: Descrive i diversi modi per gestire gli approvvigionamenti e gli acquisti di materiale e servizi per le commesse.
+title: Gestione degli approvvigionamenti per un progetto
+description: Descrive i diversi modi per gestire gli approvvigionamenti e gli acquisti di materiale e servizi per i progetti.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
 ms.search.keywords: 'project management, material, purchase'
 ms.search.form: '98, 1020'
-ms.date: 06/22/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Gestire gli approvvigionamenti delle commesse
-La gestione degli approvvigionamenti di progetto di articoli, servizi e spese è un aspetto integrale e critico dell'esecuzione di tutte le commesse. È possibile utilizzare le giacenze o effettuare acquisti specifici per delle commesse utilizzando gli ordini di acquisto e/o le fatture di acquisto. Ad esempio, per completare una commessa relativa a un intervento di assistenza su un computer è richiesto un nuovo disco. Si crea quindi una fattura di acquisto per acquistare il nuovo disco e si registra la commessa in cui verrà utilizzato.
+# Gestione degli approvvigionamenti per un progetto
 
-Se il processo di acquisto non richiede la registrazione separata della transazione fisica, è possibile elaborare un acquisto nella pagina **Registrazioni commesse in G/L**. Per ulteriori informazioni, vedere [Per registrare una spesa correlata a una commessa](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
+Devi gestire gli approvvigionamenti di progetto di articoli, servizi e spese come un aspetto integrale e critico dell'esecuzione di tutti i progetti. È possibile utilizzare le giacenze o effettuare acquisti specifici per dei progetti mediante gli ordini di acquisto e/o le fatture di acquisto. Ad esempio, per completare un progetto relativa a un intervento di assistenza su un computer è richiesto un nuovo disco. Si crea quindi una fattura di acquisto per acquistare il nuovo disco e si registra il progetto che la utilizza.
 
-## Per acquistare articoli o servizi per una commessa
-Nella procedura riportata di seguito viene illustrato come utilizzare una fattura di acquisto per acquistare i prodotti per una commessa. La stessa procedura vale anche quando si utilizza un ordine di acquisto.  
+Se il processo di acquisto non richiede la registrazione separata della transazione fisica, è possibile elaborare un acquisto nella pagina **Registrazione progetti in C/G**. Per ulteriori informazioni, vedere [Per registrare un spesa correlata a un progetto](projects-how-manage-project-supplies.md#to-post-a-project-related-expense).
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
-2. Scegliere l'azione **Nuovo** e compilare i campi necessari. Per ulteriori informazioni, vedere [Registrare gli acquisti](purchasing-how-record-purchases.md).
-3. Nei campi **Nr. commessa** e **Nr. task commessa** selezionare le informazioni della commessa per la quale si desidera acquistare articoli o servizi. Utilizzare gli strumenti di personalizzazione se un campo non è visibile. Per ulteriori informazioni, vedere [Personalizzare l'area di lavoro](ui-personalization-user.md).
+## Per acquistare articoli o servizi per un progetto
 
-    Il valore che si seleziona nel campo **Tipo riga commessa** definisce se viene creata una riga di pianificazione quando si registra l'utilizzo dell'articolo. Se il campo contiene **Fatturabile**, vengono create le righe di pianificazione commessa che sono pronte per la fatturazione al cliente. Per ulteriori informazioni, vedere [Fatturare le commesse](projects-how-invoice-jobs.md).
-4. Scegliere l'azione **Registra**.
+Nella procedura riportata di seguito viene illustrato come utilizzare una fattura di acquisto per acquistare i prodotti per un progetto. La stessa procedura vale anche quando si utilizza un ordine di acquisto.  
 
-## Per visualizzare il valore degli acquisti per una commessa
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Commesse**, quindi scegli il collegamento correlato.
-2. Aprire una scheda commessa di interesse.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
+2. Scegliere l'azione **Nuovo** e compilare i campi necessari. Per ulteriori informazioni, vedi [Registrare gli acquisti](purchasing-how-record-purchases.md).
+3. Nel campo **Nr. progetto** e **Nr. attività di progetto** selezionare le informazioni del progetto per la quale si desidera acquistare articoli o servizi. Utilizzare gli strumenti di personalizzazione se un campo non è visibile. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
-    Nella Scheda dettaglio **Task**, il campo **Ordini inevasi** mostra l'importo inevaso totale, in valuta locale, degli articoli a magazzino e dei servizi sui documenti di acquisto per la riga del task commessa.  
+    Il valore che si seleziona nel campo **Tipo di riga progetto** definisce se viene creata una riga di pianificazione quando si registra l'utilizzo dell'articolo. Se il campo contiene **Fatturabile**, vengono create righe di pianificazione progetto che sono pronte per la fatturazione al cliente. Per ulteriori informazioni, vedere [Fatturare progetti](projects-how-invoice-jobs.md).
+4. Scegli l'azione **Registra**.
+
+## Per visualizzare il valore degli acquisti per un progetto
+
+1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Progetti**, quindi scegli il collegamento correlato.
+2. Apri una scheda progetto pertinente.
+
+    Nella Scheda dettaglio **Attività**, il campo **Ordini inevasi** mostra l'importo inevaso totale, in valuta locale, degli articoli a magazzino e dei servizi sui documenti di acquisto per la riga di attività di progetto.  
 
     Il campo **Importo carichi non fatt.** mostra il valore di articoli spediti su documenti di acquisto, ma non ancora fatturati.  
-3. Scegliere uno dei campi per aprire la pagina **Righe acquisto** dove è possibile esaminare le informazioni sulle righe del documento di vendita correlate, inclusi gli articoli o i servizi che sono stati ricevuti.
+3. Scegliere uno dei campi per aprire la pagina **Righe acquisto** dove è possibile esaminare le informazioni sulle righe del documento di vendita correlate, inclusi gli articoli o i servizi che vengono ricevuti.
 
-## Per registrare una spesa correlata a una commessa
-Se si incorre in spese di commessa straordinarie o eccezionali, è possibile utilizzare la pagina **Registrazioni commesse in G/L** per registrarle direttamente nel conto commessa correlato.
+## Per registrare una spesa correlata a un progetto
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni commesse in C/G**, quindi scegli il collegamento correlato.  
-2. Creare una nuova riga e immettere le informazioni sulla spesa, tra cui le informazioni nei campi **Nr. commessa** e **Nr. task commessa**.  
+Se si incorre in spese di progetto straordinarie o eccezionali, è possibile utilizzare la pagina **Registrazione progetti in C/G** per registrarle direttamente nel conto progetto correlato.
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni progetti in C/G**, quindi scegli il collegamento correlato.  
+2. Creare una nuova riga e immettere le informazioni sulla spesa, incluse le informazioni nei campi **Nr. progetto** e **Nr. attività di progetto**.  
 3. Una volta completate le registrazioni, scegliere l'azione **Registra**.
 
 ## Vedere anche
-[Gestione progetti](projects-manage-projects.md)  
-[Finanze](finance.md)  
-[Acquisti](purchasing-manage-purchasing.md)         
-[Vendite](sales-manage-sales.md)      
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
+[Gestione progetti](projects-manage-projects.md)  
+[Dati finanziari](finance.md)  
+[Acquisti](purchasing-manage-purchasing.md)  
+[Vendite](sales-manage-sales.md)  
+[Utilizzare Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 06/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -70,6 +70,12 @@ La sincronizzazione della valuta è unidirezionale, da [!INCLUDE [prod_short](in
 
 * Gli importi nella valuta di base [!INCLUDE[prod_short](includes/cds_long_md.md)] vengono convertiti nella valuta locale [!INCLUDE [prod_short](includes/prod_short.md)] in base all'ultimo tasso di cambio sincronizzato da [!INCLUDE [prod_short](includes/prod_short.md)].
 * Gli importi nella valuta locale [!INCLUDE [prod_short](includes/prod_short.md)] si sincronizzano con la valuta locale [!INCLUDE [prod_short](includes/prod_short.md)] in una delle altre valute (non di base) in [!INCLUDE[prod_short](includes/cds_long_md.md)].
+
+## Cosa succede quando copi una società
+
+Puoi copiare in sicurezza le società che si integrano con [!INCLUDE[prod_short](includes/cds_long_md.md)] o [!INCLUDE[crm_md](includes/crm_md.md)]. Copiare le società aiuta a ridurre il rischio di incoerenze dei dati e può farti risparmiare tempo prezioso. Per ulteriori informazioni su come copiare le società, vedi [Copiare una società](about-new-company.md#copy-a-company).
+
+[!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
 ## Vedere anche
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, sell, replenishment'
 ms.search.form: 172
-ms.date: 07/06/2022
+ms.date: 02/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -45,14 +45,14 @@ Assegnare una o più righe di vendita ricorrenti a un cliente di modo che sia po
 |Opzione|Descrizione|
 |------|-----------|
 |**Manuale**|È possibile cercare e inserire manualmente la riga di vendite ricorrenti esistente per il cliente.|
-|**Automatico**|Se esistono più righe di vendite ricorrenti per il cliente, viene visualizzata una notifica da cui è possibile selezionare quale inserire. Se esiste una sola riga di vendite ricorrenti, verrà inserita automaticamente.<br /><br />Ciò funziona solo se il nuovo documento è stato creato da un elenco di documenti, ad esempio selezionando l'azione **Nuovo** nella pagina **Ordini vendita**. Non funziona se il documento è stato creato, ad esempio, da una scheda cliente.|
+|**Automatico**|Se esistono più righe di vendite ricorrenti per il cliente, verrà visualizzata una notifica da cui è possibile selezionare quale inserire. Se esiste una sola riga di vendite ricorrenti, verrà inserita automaticamente.<br /><br />Ciò funziona solo se il nuovo documento è stato creato da un elenco di documenti, ad esempio selezionando l'azione **Nuovo** nella pagina **Ordini vendita**. Non funziona se il documento è stato creato, ad esempio, da una scheda cliente.|
 |**Chiedi sempre**|Una notifica verrà visualizzata e tutte le righe di vendite ricorrenti esistenti vengono visualizzate in modo che sia possibile selezionarne una.
 
 ## Inserire righe di vendita ricorrenti in una fattura di vendita
 
 Se esistono righe di vendita ricorrenti per il cliente, è possibile inserirle o farle inserire in tutti i tipi di documenti di vendita come una fattura di vendita. Se hai attivato le opzioni **Chiedi sempre** per l'assegnazione delle righe di vendita ricorrenti ai clienti, verrai informato dell'esistenza di righe di vendita ricorrenti.
 
-1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.
 2. Aprire la fattura di vendita in cui si desidera inserire una più righe di vendita standard.
 3. Scegliere l'azione **Ottieni righe vendita ricorrenti**.
 4. Nella pagina **Righe vendita ricorrenti**, scegliere il pulsante di ricerca nel campo **Codice** e selezionare una serie di righe di vendita standard.

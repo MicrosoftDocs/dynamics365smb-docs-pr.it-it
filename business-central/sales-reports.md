@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_107, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313'
-ms.date: 12/19/2023
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Report delle vendite e analisi in Business Central
+# Report e analisi delle vendite in Business Central
 
 Il report delle vendite in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti delle vendite e aziendali di ottenere approfondimenti e statistiche sulle attività di vendita attuali e passate.  
 

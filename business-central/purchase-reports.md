@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Report_707, Report_709, Report_714, Report_716, Report_720'
-ms.date: 06/01/2021
+ms.date: 02/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Report di acquisto e analisi in Business Central
+# Report e analisi degli acquisti in Business Central
 
 Il report di acquisti in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti di approvvigionamento e aziendali di ottenere approfondimenti e statistiche sulle attività di acquisto attuali e passate.  
 

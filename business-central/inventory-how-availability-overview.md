@@ -7,7 +7,7 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: stock
 ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390'
-ms.date: 09/21/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -20,7 +20,7 @@ Dal contesto di un task di business, è possibile ottenere informazioni avanzate
 > [!NOTE]  
 >   Le visualizzazioni di disponibilità per ubicazione richiedono che si disponga di un magazzino presso più di un'ubicazione. Per ulteriori informazioni, vedere [Impostare le ubicazioni](inventory-how-setup-locations.md).
 
-Se si utilizza la funzionalità di gestione warehouse, la disponibilità varia in base alle allocazioni a livello di collocazione quando si verificano le attività di warehouse ad esempio i prelievi e i movimenti e quando il sistema di impegno magazzino impone limitazioni da soddisfare. Un algoritmo piuttosto complesso verifica che tutte le condizioni siano soddisfatte prima di assegnare le quantità ai prelievi per i flussi in uscita. Per ulteriori informazioni vedere [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md).
+Se si utilizza la funzionalità di gestione warehouse, la disponibilità varia in base alle allocazioni a livello di collocazione quando si verificano le attività di warehouse ad esempio i prelievi e i movimenti e quando il sistema di impegno magazzino impone limitazioni da soddisfare. Un algoritmo piuttosto complesso verifica che tutte le condizioni siano soddisfatte prima di assegnare le quantità ai prelievi per i flussi in uscita. Per ulteriori informazioni, vedi [Dettagli di progettazione: Disponibilità nella warehouse](design-details-availability-in-the-warehouse.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], i dati relativi alla disponibilità vengono in genere visualizzati in due campi diversi, ognuno con una diversa definizione:
 
@@ -59,7 +59,7 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
 
 È possibile visualizzare la disponibilità di un articolo presso i luoghi diversi dove viene immagazzinato nella pagina **Disp. art. per ubicazione**.
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.
 2. Apri la scheda di un articolo per cui vuoi visualizzare la disponibilità.
 3. Scegliere l'azione **Disponibilità articolo per** quindi scegliere l'azione **Ubicazione**.
 
@@ -127,7 +127,7 @@ Nella pagina **Disponibilità assemblaggio** sono visualizzate le informazioni d
 
 - Automaticamente da una riga ordine di vendita in scenari di assemblaggio su ordine quando si immette una quantità che provoca un problema di disponibilità dei componenti.
 - Automaticamente da una testata ordine di assemblaggio quando si immette un valore nel campo Quantità che provoca un problema di disponibilità dei componenti.
-- Manualmente quando la si apre da un ordine di assemblaggio. Nel gruppo Funzioni della scheda Azioni scegliere Mostra disponibilità.
+- Manualmente quando la si apre da un ordine di assemblaggio. Nel gruppo Funzioni della scheda Azioni seleziona Mostra disponibilità.
 
 Nella Scheda dettaglio **Dettagli** sono visualizzate le informazioni dettagliate sulla disponibilità per l'articolo di assemblaggio, inclusa la quantità dell'ordine di assemblaggio che è possibile assemblare entro la data di scadenza in base alla disponibilità dei componenti necessari. Sono visualizzate nel campo In grado di assemblare nella Scheda Dettaglio Dettagli.
 

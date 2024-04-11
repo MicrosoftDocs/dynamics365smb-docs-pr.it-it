@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Assegnare risorse
-L'elemento chiave della gestione dell'assistenza sono le persone che forniscono i servizi di assistenza. È possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] in modo da assegnare le persone ai processi in modo appropriato. Le assegnazioni possono essere effettuate in base alle zone di assistenza in cui il personale è dislocato oppure a dove l'intervento di assistenza avrà luogo. Quando si risponde a richieste di assistenza è inoltre possibile raggruppare le risorse. Per ulteriori informazioni, vedere [Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md).
+L'elemento chiave della gestione dell'assistenza sono le persone che forniscono i servizi di assistenza. È possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] per assegnare le persone ai processi in modo appropriato. Le assegnazioni possono essere effettuate in base alle zone di assistenza in cui il personale è dislocato oppure a dove l'intervento di assistenza avrà luogo. Quando si risponde a richieste di assistenza è inoltre possibile raggruppare le risorse. Per ulteriori informazioni, vedere [Impostare l'assegnazione delle risorse](service-how-setup-resource-allocation.md).
 
 È possibile assegnare le risorse, ad esempio i tecnici, utilizzando il **Quadro attività** o da un ordine di assistenza. È possibile utilizzare la disponibilità delle risorse per assegnare risorse che svolgano compiti di assistenza negli ordini o nelle offerte.
 
