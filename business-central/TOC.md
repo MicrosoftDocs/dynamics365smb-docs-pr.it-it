@@ -471,6 +471,8 @@ ms.service: dynamics-365-business-central
 
 ### Reporting finanziario (implementazione dei rendiconti finanziari e degli indicatori KPI)
 #### [Preparare il reporting finanziario](bi-how-work-account-schedule.md)
+#### [Definizioni di riga nel reporting finanziario](bi-row-definitions.md)
+#### [Definizioni di colonna nel reporting finanziario](bi-column-definitions.md)
 #### [Procedura dettagliata: utilizzo del reporting finanziario per eseguire previsioni di flusso di cassa](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Impostare e pubblicare un servizio Web con indicatori KPI basato sul reporting finanziario](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analizzare i dati con conti statistici](bi-use-statistical-accounts.md)
@@ -1049,6 +1051,7 @@ ms.service: dynamics-365-business-central
 
 ### Islanda
 #### [Funzionalità locale nella versione islandese](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Impostazione dell'app principale W1 per l'Islanda](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### IVA
 ##### [Stampare le informazioni di riepilogo IVA su documenti](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Output di dati speciale e report per l'autorità fiscale](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,11 +1060,12 @@ ms.service: dynamics-365-business-central
 #### Generale  
 ##### [Mappare numeri IRS al piano dei conti](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Eliminare note di credito e fatture registrate](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Numero del registro imprese nella localizzazione per l'Islanda](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### India
 #### [Panoramica](LocalFunctionality/India/india-local-functionality.md)
-#### [Impostare le serie di numeri di registrazione](LocalFunctionality/India/posting-no-series-setup.md)
-#### [Log di modifica e audit trail per il software per la contabilità in India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
+#### [Impostare le numerazioni di registrazione](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Log di modifica e di audit trail per il software per la contabilità in India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Motore imposte
 ##### [Panoramica](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configurazione di esportazione/importazione del motore imposte](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1386,7 +1390,7 @@ ms.service: dynamics-365-business-central
 ##### [IVA nella versione russa](LocalFunctionality/Russia/VAT.md)
 ##### [Impostare movimenti contabili IVA](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
 ##### [Preparare e registrare movimenti IVA](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
-##### [Liquidazione VAT](LocalFunctionality/Russia/Settlement-VAT.md)  
+##### [Liquidazione IVA](LocalFunctionality/Russia/Settlement-VAT.md)  
 ##### [Caricare i registri di acquisti e vendite e la dichiarazione IVA in formato XML](LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md)  
 ##### [IVA per pagamenti anticipati clienti](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
 ##### [Reintroduzione dell'IVA](LocalFunctionality/Russia/VAT-reinstatement.md)  
