@@ -10,7 +10,7 @@ ms.date: 01/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
-# Usare il report Intrastat
+# <a name="work-with-intrastat-reporting"></a>Usare il report Intrastat
 
 Tutte le società dell'Unione Europea (UE) devono creare report relativi alle attività commerciali con altri paesi UE. È necessario presentare ogni mese alle autorità statistiche del proprio paese report relativi al movimento delle merci, che devono quindi essere inviati alle autorità fiscali. Intrastat è il sistema per la raccolta di statistiche commerciali di prodotti all'interno di questi paesi/aree geografiche. Usa **Report Intrastat** per completare il report Intrastat periodico (tipicamente mensile), la raccolta, la registrazione e i report degli scambi di prodotti secondo la legislazione del governo locale.
 
@@ -26,7 +26,7 @@ Il report Intrastat si basa sui regolamenti di base dell'UE che si applicano a t
 >
 > Al momento prevediamo che questa funzione sarà disponibile da novembre 2022 come app in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). A quel punto, per usarla, devi prima installarla nella pagina **Gestione estensioni**.
 
-## Compilare il report Intrastat
+## <a name="fill-in-the-intrastat-report"></a>Compilare il report Intrastat
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Lista Intrastat**, quindi scegli il collegamento correlato.
 2. Scegli l'azione **Nuovo** per creare un nuovo **report Intrastat**.
@@ -42,7 +42,7 @@ Il report Intrastat si basa sui regolamenti di base dell'UE che si applicano a t
 
 Il processo batch recupererà tutti i movimenti articolo nel periodo statistico indicato e li inserirà come righe del **Report Intrastat**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Modificare il report Intrastat
+## <a name="modify-the-intrastat-report"></a>Modificare il report Intrastat
 
 Se necessario, è possibile modificare le righe, ma ogni volta che si modifica un valore nella riga del report Intrastat, il campo **Correzione** verrà automaticamente contrassegnato come **sì**. In caso, puoi aggiungere una nuova riga manualmente se c'è una ragione per farlo. Per aggiungere una nuova riga manualmente:
 
@@ -55,13 +55,13 @@ Se necessario, è possibile modificare le righe, ma ogni volta che si modifica u
 > [!NOTE]  
 > Quando aggiungi manualmente una nuova riga al report Intrastat, il campo **Data** nella riga deve essere all'interno dell'intervallo **Periodo statistico** che hai aggiunto nell'intestazione.
 
-## Convalidare le righe Intrastat
+## <a name="validate-intrastat-lines"></a>Convalidare le righe Intrastat
 
 Dopo aver compilato il **Report Intrastat**, è possibile eseguire l'azione **Report elenco di controllo** per verificare che tutte le informazioni nel **Report Intrastat** siano corrette. I campi obbligatori impostati nella pagina **Elenco di controllo report Intrastat** in cui mancano i valori verranno mostrati in Dettaglio informazioni di **Errori e avvisi** nella pagina **Report Intrastat**.
 
 Esegui il report **Elenco di controllo report Intrastat** per controllare le righe Intrastat prima che vengano esportate nel formato richiesto. Il controllo viene eseguito all'interno del **Report Intrastat**.
 
-## Ricalcolo del peso o dell'unità di misura supplementare
+## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Ricalcolo del peso o dell'unità di misura supplementare
 
 Se viene visualizzato il messaggio di errore *"Peso totale" nella riga del report Intrastat non deve essere vuoto*, probabilmente è perché non hai impostato il campo **Peso netto** sull'origine, sull'articolo o sul cespite utilizzato. In questo caso, cerca l'articolo o la scheda cespiti e aggiungi il valore richiesto. Dopodiché, devi solo riaprire il **Report Intrastat** e seguire questi passaggi:
 
@@ -73,7 +73,7 @@ Se viene visualizzato il messaggio di errore *"Peso totale" nella riga del repor
     3. **Entrambi** – per ricalcolare il **Peso totale** e la **Quantità supplementare**, in base alle informazioni attuali nelle schede articolo e cespite.
 3. Seleziona **OK** per avviare il processo batch.
 
-## Creare un report Intrastat in un file
+## <a name="report-intrastat-in-a-file"></a>Creare un report Intrastat in un file
 
 È possibile inviare il report Intrastat come file in base ai requisiti delle diverse autorità locali. Prima di creare il file, è necessario eseguire **Report elenco di controllo** per verificare se tutte le righe contengono tutte le informazioni necessarie e valide. Per creare un file:
 
@@ -91,22 +91,22 @@ Una volta creato il file, [!INCLUDE[prod_short](includes/prod_short.md)] compile
 > [!NOTE]  
 > La prossima volta che crei un file, i campi **Data di esportazione** e **Ora di esportazione** manterranno solo le informazioni sull'ultimo file che hai creato.
 
-## Regole Intrastat
+## <a name="intrastat-rules"></a>Regole Intrastat
 
-### Raggruppamento di righe
+### <a name="grouping-lines"></a>Raggruppamento di righe
 
 Nelle righe del **Report Intrastat** non vi è alcun raggruppamento per nessun campo. Tutti movimenti vengono copiati dalla fonte originale, quindi puoi individuarli rapidamente in base alla combinazione di **Tipo di origine** e **Nr. movimento di origine**.
 
 Il raggruppamento richiesto dalle autorità verrà fornito nel file esportato. Devi configurarlo nella **Definizione scambio dati**, che è completamente configurabile. Per ulteriori informazioni vedi [Impostare le definizioni di scambio di dati](across-how-to-set-up-data-exchange-definitions.md).
 
-### Report cespiti
+### <a name="fixed-assets-reporting"></a>Report cespiti
 
 I cespiti verranno visualizzati nelle righe Intrastat solo se:
 
 * Il **Tipo di registrazione cespiti** nel campo **Movimento contabile IVA** è **Costo di acquisizione** e se il **Tipo di documento** è **Fattura** in caso di acquisti, e
 * Il **Tipo di registrazione cespiti** nel campo **Movimento contabile IVA** è **Proventi di cessione** e se il **Tipo di documento** è **Fattura** in caso di vendite.
 
-### Stati del report Intrastat
+### <a name="intrastat-report-statuses"></a>Stati del report Intrastat
 
 Quando lavori con il **Report Intrastat** vedrai un campo **Stato** nell'intestazione del documento. È possibile trovare i seguenti stati insieme alle relative regole:
 
@@ -114,14 +114,14 @@ Quando lavori con il **Report Intrastat** vedrai un campo **Stato** nell'intesta
 * **Rilasciato**: [!INCLUDE[prod_short](includes/prod_short.md)] cambia automaticamente lo stato in *Rilasciato* quando crei un file. Da quel momento, non puoi modificare il **Report Intrastat**. Se è necessario modificare qualcosa e segnalare nuovamente, è possibile utilizzare l'azione **Riapri** per riaprire il report Intrastat. Una volta riaperto il documento, è possibile utilizzare l'azione **Rilascia** per rilasciare nuovamente il documento.
 * **Riportato**: Specifica se il movimento è già stato comunicato alle autorità fiscali. Questo non è uno stato normale ma un campo indipendente e, anche se hai riaperto il report Intrastat, mostra comunque che il file è già stato creato per questo report.
 
-### Ubicazioni nei report Intrastat 
+### <a name="locations-in-intrastat-reporting"></a>Ubicazioni nei report Intrastat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] utilizza sempre le informazioni nel campo **Codice paese** nella pagina **Scheda Ubicazione** come il paese **a cui inviare** o **da cui ricevere** merci. Quando queste informazioni non esistono o l'ubicazione non è stata utilizzata, il sistema utilizza le informazioni nella pagina **Informazioni società**.   
 
 > [!NOTE]  
 > Se la società opera da più paesi, il report Intrastat non è valido per tutti i paesi in cui sono configurate le ubicazioni. Il report si basa solo sul paese principale, poiché al momento non è possibile utilizzare il report per più paesi.  
 
-### Commercio triangolare in Intrastat
+### <a name="triangular-trade-in-intrastat"></a>Commercio triangolare in Intrastat
 
 Il commercio triangolare prevede il commercio tra tre paesi o aree in cui le merci bypassano il paese della società del report. In Business Central, ciò può essere facilitato tramite la funzionalità [Spedizione diretta](sales-how-drop-shipment.md) . Per abilitare questa opzione, attiva il campo **Includi spedizione diretta** in **Setup report Intrastat**.  
 
@@ -139,7 +139,7 @@ Quando abiliti questa opzione, il sistema utilizza le seguenti regole, ma solo s
 | Paese extra UE | Paese UE diverso dal paese indicato nelle **Informazioni società** | Nessuna riga Intrastat |
 | Paese extra UE | Paese extra UE | Nessuna riga Intrastat |   
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare il report Intrastat](finance-how-setup-report-intrastat.md)  
 [Gestione contabile](finance.md)  
