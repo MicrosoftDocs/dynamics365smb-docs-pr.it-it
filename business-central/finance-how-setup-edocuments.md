@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 10/05/2023
+ms.date: 03/29/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -21,7 +21,7 @@ ms.service: dynamics-365-business-central
 
 Il primo passaggio nella configurazione di documenti elettronici è impostare il Servizio documenti elettronici dove configuri il comportamento completo del tuo sistema in relazione alla comunicazione di documenti elettronici.
 
-## Impostare il Servizio documenti elettronici
+## Impostare il servizio documenti elettronici
 
 Segui questi passaggi per impostare il Servizio documenti elettronici.
 
@@ -73,17 +73,17 @@ Se non utilizzi il formato **Definizione di scambio dati**, puoi creare e config
 
 ### Tipi di documenti supportati 
 
-I tipi di documenti supportati si basano sul **Formato documento** scelto. Per verificare quali tipi di documenti sono supportati, nella pagina  **Servizio documenti elettronici**, esegui l'azione **Tipi di documenti supportati**. Si apre la finestra **Tipi di documenti di origine supportati dal servizio documenti elettronici** e nella colonna **Tipo di documenti di origine** è possibile trovare tutti i tipi di documenti supportati.  
+I tipi di documenti supportati si basano sul **Formato documento** scelto. Per verificare quali tipi di documenti sono supportati, nella pagina **Servizio documenti elettronici**, scegli l'azione **Tipi di documenti supportati**. Si apre **Tipi di documenti di origine supportati dal servizio documenti elettronici** e nella colonna **Tipo di documenti di origine** è possibile scegliere differenti tipi di documento per supportarli per il formato che prevedi di utilizzare. Assicurati di non utilizzare il tipo di documento se quel documento non è selezionato in questa pagina.   
 
 ## Impostare un profilo di invio documenti
 
-Puoi impostare un metodo preferito di invio di documenti di vendita per ogni cliente. In tal modo, non devi selezionare un'opzione di invio ogni volta che selezioni l'azione **Registra e invia**. Nella pagina **Profili di invio documenti** puoi impostare differenti profili di invio e quindi selezionarne uno nel campo **Profilo di invio documenti** nella scheda cliente. Puoi selezionare la casella di controllo **Predefinito** per specificare che un profilo di invio documenti è il profilo predefinito per tutti i clienti, eccetto per quelli per i quali il campo **Profilo di invio documenti** è impostato su un profilo di invio differente.
+Puoi impostare un metodo preferito di invio di documenti di vendita per ogni cliente. In tal modo, non devi scegliere un'opzione di invio ogni volta che scegli l'azione **Registra e invia**. Nella pagina **Profili di invio documenti** puoi impostare differenti profili di invio e quindi selezionarne uno nel campo **Profilo di invio documenti** nella scheda cliente. Puoi selezionare la casella di controllo **Predefinito** per specificare che un profilo di invio documenti è il profilo predefinito per tutti i clienti, eccetto per quelli per i quali il campo **Profilo di invio documenti** è impostato su un profilo di invio differente.
 
-Questa funzionalità viene utilizzata per impostare l'automazione della fatturazione elettronica. Quando selezioni **Registra e invia** in un documento di vendita, nella finestra di dialogo **Registra e invia conferma** viene visualizzato il profilo di invio utilizzato, ovvero quello impostato per il cliente o quello predefinito per tutti i clienti.
+Questa funzionalità viene utilizzata per impostare l'automazione della fatturazione elettronica. Quando scegli **Registra e invia** in un documento di vendita, nella finestra di dialogo **Registra e invia conferma** viene visualizzato il profilo di invio utilizzato, ovvero quello impostato per il cliente o quello predefinito per tutti i clienti.
 
 Per impostare un profilo di invio documenti, procedi come segue.
 
-1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Profili di invio documenti**, quindi seleziona il collegamento correlato.
+1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immetti **Profili di invio documenti**, quindi seleziona il collegamento correlato.
 2. Nella pagina **Profili di invio documenti** seleziona **Nuovo**.
 3. Nella Scheda dettaglio **Generale** immetti le eventuali informazioni richieste.
 4. Nella Scheda dettaglio **Opzioni di invio** configura i campi come descritto nella tabella riportata di seguito.
@@ -104,10 +104,10 @@ Segui questi passaggi per impostare il workflow utilizzato nella funzionalità D
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immetti **Modelli del workflow**, quindi seleziona il collegamento correlato.
 2. Se non puoi trovare **Modelli di workflow per documenti elettronici** nella pagina **Modelli del workflow**, seleziona **Reimposta i modelli Microsoft**. Dovrebbe apparire **Modelli di workflow per documenti elettronici**. Chiudere la pagina.
 3. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Workflow**, quindi seleziona il collegamento correlato.
-4. Esegui l'azione **Nuovo workflow da modello** per selezionare un modello per il processo dei documenti elettronici. I modelli disponibili sono **Invia a un servizio** e **Invia a più servizi**.
+4. Scegli l'azione **Nuovo workflow da modello** per selezionare un modello per il processo dei documenti elettronici. I modelli disponibili sono **Invia a un servizio** e **Invia a più servizi**.
 5. Seleziona **OK** per completare il setup del workflow.
 6. Nel campo **Risposta**, seleziona **Invia documento elettronico utilizzando il setup** per configurare le risposte del workflow.
-7. Seleziona il Servizio documenti elettronici che hai creato come opzione, seleziona **OK**, quindi abilita il workflow.
+7. Seleziona il Servizio documenti elettronici che hai creato come opzione, scegli **OK**, quindi abilita il workflow.
 
 > [!NOTE]
 > Puoi creare il tuo workflow per documenti elettronici senza utilizzare modelli di workflow predefiniti. Se disponi di più servizi, puoi utilizzare workflow differenti.
@@ -122,13 +122,28 @@ I documenti elettronici possono essere oggetto di diverse legislazioni locali re
 
 Per impostare i criteri di conservazione relativi a documenti elettronici, procedi come segue.
 
-1. Nella pagina **Servizi documenti elettronici**, esegui l'azione **Criteri di conservazione**.
+1. Nella pagina **Servizi documenti elettronici**, scegli l'azione **Criteri di conservazione**.
 2. Una volta completata l'azione, seleziona uno dei seguenti criteri di conservazione da impostare:
 
     - Log documenti elettronici
     - Log di integrazione documenti elettronici
     - Log mapping di documenti elettronici
     - Archiviazione dati di documenti elettronici
+
+## Dati dimostrativi dei documenti elettronici  
+
+> [!NOTE]
+> A partire dalla versione 24.0 di Business Central, è possibile impostare dati dimostrativi per documenti elettronici.
+
+Per fornire modalità più semplici per testare e dimostrare le funzionalità di **Documenti elettronici**, Microsoft ha creato un nuovo modulo demo per i documenti elettronici. Per abilitare questo modulo, segui i passaggi:  
+
+1.  Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Strumento demo Contoso**, quindi seleziona il collegamento correlato.  
+2.  Prima di abilitare il **Modulo Contoso documenti elettronici**, a causa delle dipendenze è necessario aver abilitato i seguenti moduli: **Modulo comune** e **Modulo Warehouse**. 
+3.  Dopo aver abilitato questi moduli, seleziona il **Modulo Contoso documenti elettronici**, quindi scegli l'azione **Genera**. 
+4.  Segui i passaggi.  
+5.  Chiudere la pagina.   
+
+Una volta abilitato il modulo, avrai creato nuovi elementi demo, importato sei documenti elettronici (basati su Peppol BIS 3) e già configurato il **Servizio documenti elettronici** con flussi di lavoro creati.  
 
 ## Vedere anche
 

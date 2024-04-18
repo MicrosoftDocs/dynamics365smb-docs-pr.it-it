@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 02/12/2024
+ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Panoramica della gestione della sostenibilità
+# Panoramica della gestione della sostenibilità
 
 >[!IMPORTANT]
 >Questa funzionalità sarà disponibile in Business Central a partire dal **primo ciclo di rilascio del 2024** e tutti i collegamenti di riferimento saranno abilitati non appena saranno disponibili.
@@ -25,7 +25,7 @@ La prima versione si concentra sulle emissioni di gas serra e ci sono tre ambiti
 
 - **Emissioni di ambito 1**: includono le emissioni emesse dalla combustione mobile e stazionaria e da emissioni fuggitive involontarie.  
 - **Emissioni di ambito 2**: includono le emissioni indirette derivanti dalla generazione di energia acquistata da fornitori di servizi pubblici.   
-- **Emissioni di ambito 3**: includono un ampio spettro di emissioni, derivanti da beni e servizi acquistati e beni strumentali, attività legate al carburante e all'energia, trasporti a monte e a valle, rifiuti generati, viaggi di lavoro e spostamenti dei dipendenti, ecc. 
+- **Emissioni di ambito 3**: includono un ampio spettro di emissioni, derivanti da beni e servizi acquistati e beni capitali, attività legate a combustibile ed energia, trasporti a monte e a valle, rifiuti generati, viaggi di lavoro e spostamenti dei dipendenti, ecc. 
 
 Con questa funzionalità puoi:   
 
@@ -38,13 +38,16 @@ Per un'introduzione alla gestione della sostenibilità, vedi i seguenti articoli
 
 |  Articolo  |  Descrizione  |  
 |--------|--------------| 
-|Setup sostenibilità | Questo articolo fornisce informazioni per aiutarti a configurare correttamente l'intero modulo Sostenibilità. |
-|Contabilità generale e piano dei conti di sostenibilità | Questo articolo fornisce informazioni su come configurar correttamente il piano dei conti di sostenibilità, le categorie di conti e le sottocategorie e su come analizzare le informazioni nelle voci di sostenibilità. |
-|Come registrare le emissioni | Utilizza questo articolo per imparare a lavorare con tutti i tipi di giornali di registrazione sostenibilità. |
+|[Setup sostenibilità](finance-sustainability-setup.md) | Questo articolo fornisce informazioni per aiutarti a configurare correttamente l'intero modulo Sostenibilità. |
+|[Contabilità generale e piano dei conti di sostenibilità](finance-sustainability-accounts-ledger.md) | Questo articolo fornisce informazioni su come configurare correttamente il grafico dei conti di sostenibilità, categorie di conti e sottocategorie e su come analizzare le informazioni in Movimenti contabili sostenibilità. |
+|[Come registrare emissioni di gas serra](finance-sustainability-journal.md) | Utilizza questo articolo per imparare a lavorare con tutti i tipi di giornali di registrazione sostenibilità. |
 
 
-## <a name="see-also"></a>Vedere anche
-[Finanze](finance.md)    
+## Vedere anche  
+[Setup sostenibilità](finance-sustainability-setup.md) 
+[Contabilità generale e grafico dei conti di sostenibilità](finance-sustainability-accounts-ledger.md) 
+[Come registrare le emissioni di gas serra](finance-sustainability-journal.md)
+[Finanza](finance.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
