@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Utilizzare documenti elettronici nel processo di vendita
+# <a name="use-e-documents-in-the-sales-process"></a>Utilizzare documenti elettronici nel processo di vendita
 
 Puoi utilizzare documenti elettronici configurati con documenti di vendita.
 
@@ -25,13 +25,13 @@ Puoi utilizzare i seguenti documenti di vendita con la funzionalità dei documen
 - Note addebito interessi
 - Solleciti
 
-## Documenti elettronici per le vendite  
+## <a name="e-documents-in-sales"></a>Documenti elettronici per le vendite
 
 Per creare e inviare una fattura elettronica a un cliente, devi creare e registrare la fattura di vendita. Per ulteriori informazioni sul processo standard, consulta [Fatturare le vendite](sales-how-invoice-sales.md).
 
 Dopo aver registrato il documento di vendita, apri la pagina **Fattura di vendita registrata** per accedere alla pagina  **Documento elettronico** correlata.
 
-### Visualizzare documenti elettronici   
+### <a name="view-e-documents"></a>Visualizzare documenti elettronici
 
 Per visualizzare i documenti elettronici esistenti, procedi come segue.
 
@@ -40,7 +40,7 @@ Per visualizzare i documenti elettronici esistenti, procedi come segue.
 3. Il campo **Record** mostra il numero del documento della fattura di vendita registrata. Seleziona il collegamento per aprire il documento.
 4. Nel campo **Stato del documento elettronico** puoi visualizzare lo stato in tempo reale del documento e la relativa posizione nella pipeline del processo. Se il documento è stato registrato, lo stato è **Elaborato**.
 
-### Log e stati dei documenti elettronici 
+### <a name="e-document-statuses-and-logs"></a>Log e stati dei documenti elettronici
 
 Per dettagli sul livello di stato del servizio del documento elettronico, consulta la Scheda dettaglio **Stato del servizio documenti elettronici**. Nelle righe il sistema mostra uno o più servizi utilizzati dal documento. Nello scenario più comune, ogni documento utilizza un solo servizio. Tuttavia, un documento può utilizzare più servizi.
 
@@ -64,7 +64,7 @@ Se c'è un problema con il provider del servizio e il documento non può essere 
 
 Una volta risolto il problema, esegui manualmente le azioni **Invia documento**. Se hai bisogno di azioni diverse, come ad esempio **Documento ricreato**, **Annulla documento**, o **Ottieni approvazione**, puoi eseguirle.
 
-## Panoramica degli stati dei documenti elettronici
+## <a name="overview-of-e-document-statuses"></a>Panoramica degli stati dei documenti elettronici
 
 Per avere una migliore panoramica di tutti i documenti elettronici nella società, puoi selezionare la gestione ruolo utente **Contabile** dove esistono gli stati dei documenti elettronici. Qui puoi trovare le attività relative ai documenti elettronici che hanno i seguenti stati:
 
@@ -75,7 +75,7 @@ Per avere una migliore panoramica di tutti i documenti elettronici nella societ�
     - Errore
 
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Come impostare documenti elettronici in Business Central](finance-how-setup-edocuments.md)  
 [Come estendere documenti elettronici in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

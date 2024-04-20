@@ -10,11 +10,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Esportare i dati di Business Central in Excel
+# <a name="export-your-business-data-to-excel"></a>Esportare i dati di Business Central in Excel
 
 Excel è un potente strumento per lavorare con i dati. È possibile aprire qualsiasi lista in Excel da [!INCLUDE[prod_short](includes/prod_short.md)]. Puoi persino modificare i dati in Excel e quindi inviarli di nuovo a [!INCLUDE [prod_short](includes/prod_short.md)]. La stessa funzionalità ti consente di portare facilmente i tuoi dati con te se decidi di annullare l'abbonamento.
 
-## Aprire gli elenchi in Excel
+## <a name="opening-lists-in-excel"></a>Aprire gli elenchi in Excel
 
 È possibile visualizzare i dati in Excel da qualsiasi registrazione, elenco o foglio di lavoro. Aprire la pagina che si desidera quindi scegliere **Apri in Excel**. Ad esempio, aprire l'elenco dei clienti (cercare **Clienti**) quindi scegliere **Apri in Excel**. Il browser chiederà conferma dell'apertura o del salvataggio della cartella di lavoro di Excel generata.  
 
@@ -23,11 +23,11 @@ Excel è un potente strumento per lavorare con i dati. È possibile aprire quals
 
 Ogni elenco include alcune colonne. L'esportazione in Excel include tutte le colonne presenti nella visualizzazione corrente. Modifica le colonne aprendo il menu di scelta rapida per una colonna e quindi specificando quali colonne desideri visualizzare. L'elenco delle colonne è diverso per la maggior parte degli elenchi. Le colonne riflettono la struttura nel database che memorizza i tuoi dati. Se non sei sicuro del tipo di dati che contiene una determinata colonna, aggiungilo alla tua visualizzazione. Puoi sempre rimuoverlo.  
 
-### Modifica dei dati in Excel
+### <a name="edit-data-in-excel"></a>Modifica dei dati in Excel
 
 L'esperienza [!INCLUDE[prod_short](includes/prod_short.md)] include un componente aggiuntivo per Excel in modo da poter modificare i dati in Excel. Per ulteriori informazioni, vedere [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md).  
 
-## Esportare i dati in altri sistemi contabili
+## <a name="exporting-data-to-other-finance-systems"></a>Esportare i dati in altri sistemi contabili
 
 Se si decide di annullare la sottoscrizione a [!INCLUDE[prod_short](includes/prod_short.md)], è possibile esportare i dati in Excel e averli a disposizione nel sistema finanziario.  
 
@@ -71,7 +71,7 @@ Se si desidera esportare anche tutte le transazioni finanziarie, ovvero una gran
 
 Per ulteriori informazioni, vedere [Per ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 [Annullamento della sottoscrizione per [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  
