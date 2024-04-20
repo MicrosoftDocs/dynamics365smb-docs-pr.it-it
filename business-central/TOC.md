@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Informazioni sui metodi WIP](projects-understanding-wip.md)
 ### [Monitorare l'avanzamento e le prestazioni del progetto](projects-how-monitor-progress-performance.md)
 ### [Fatturare i progetti](projects-how-invoice-jobs.md)
+### [Assemblare a progetto](projects-assemble-to-project.md)
 
 ## Cespiti
 ### [Panoramica dei cespiti](fa-manage.md)
@@ -2094,8 +2095,8 @@ ms.service: dynamics-365-business-central
 ### [Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari](faqs-bank-reconciliation.md)
 ## Chat con Copilot (anteprima)
 ### [Chat con Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
-### [Domande frequenti su Chat con Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
-### [Domande frequenti sull'intelligenza artificiale responsabile per Chat con Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Domande frequenti sulla chat con Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Domande frequenti sull'intelligenza artificiale responsabile per la chat con Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Suggerimenti di testo di marketing
 ### [Panoramica dei suggerimenti di testo di marketing](ai-overview.md)
 ### [Creare testo di marketing con Copilot](item-marketing-text.md)

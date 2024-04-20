@@ -9,7 +9,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 04/11/2024
   hide_bc: true
 highlightedContent:
   items:
@@ -71,7 +71,15 @@ additionalContent:
               url: /dynamics365/business-central/across-onedrive-overview
     - title: Amministrazione e sviluppo
       items:
-        - title: Gestione dell'accesso utente
+        - title: Funzionalità di Copilot e IA
+          links:
+            - text: Configurazione delle funzionalità di Copilot e dell'IA
+              url: /dynamics365/business-central/enable-ai
+            - text: Estensione di Copilot in Business Central
+              url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+            - text: Domande frequenti sulle funzionalità e sull'intelligenza artificiale responsabile
+              url: /dynamics365/business-central/responsible-ai-overview
+        - title: Gestione dell'accesso degli utenti
           links:
             - text: Creazione di utenti
               url: /dynamics365/business-central/ui-how-users-permissions
@@ -133,6 +141,20 @@ additionalContent:
               url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
     - title: Produttività
       items:
+        - title: Copilot
+          links:
+            - text: Analisi dei dati di elenco
+              url: /dynamics365/business-central/analysis-assist
+            - text: Chat con Copilot
+              url: /dynamics365/business-central/chat-with-copilot
+            - text: Ottenere suggerimenti di testo di marketing
+              url: /dynamics365/business-central/ai-overview
+            - text: Associazione di documenti elettronici
+              url: /dynamics365/business-central/map-edocuments-with-copilot
+            - text: Riconciliare i conti correnti bancari
+              url: /dynamics365/business-central/bank-reconciliation-with-copilot
+            - text: Suggerimenti per riga
+              url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Impostazioni dell'area di lavoro
           links:
             - text: 'Lingua, area geografica, data del lavoro, fuso orario e altro'
@@ -153,7 +175,7 @@ additionalContent:
               url: /dynamics365/business-central/across-share-onedrive
             - text: Collaborazione in Excel
               url: /dynamics365/business-central/across-work-with-excel
-        - title: 'Business Intelligence, report e analisi dati'
+        - title: 'BI, creazione di report e analisi dei dati'
           links:
             - text: Panoramica
               url: /dynamics365/business-central/reports-bi-reporting
@@ -165,7 +187,9 @@ additionalContent:
               url: /dynamics365/business-central/analysis-mode
             - text: Analisi dei dati di report con Excel
               url: /dynamics365/business-central/report-analyze-excel
-        - title: Funzionalità aziendali generali
+    - title: Gestione delle attività
+      items:
+        - title: Generale
           links:
             - text: Registrazioni COGE
               url: /dynamics365/business-central/ui-work-general-journals
@@ -175,8 +199,6 @@ additionalContent:
               url: /dynamics365/business-central/admin-job-queues-schedule-tasks
             - text: Documenti in entrata
               url: /dynamics365/business-central/across-income-documents
-    - title: Gestione delle attività
-      items:
         - title: Dati finanziari
           links:
             - text: Panoramica
