@@ -148,7 +148,7 @@ Ci sono un paio di modi per inviare report ai colleghi e ad altre persone:
 
 ## <a name="fixing-problems"></a>Risolvere i problemi
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Impossibile inserire un record. L'intento di connessione corrente è di sola lettura." errore durante la connessione alla pagina API personalizzata
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Impossibile inserire un record. L'intento di connessione corrente è di sola lettura." errore durante la connessione alla pagina API personalizzata
 
 > **APPLICABILE A:** Business Central Online
 
