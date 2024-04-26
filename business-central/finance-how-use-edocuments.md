@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, deliver'
 ms.search.form: '42, 43, 132, 6103, 6133, 6121, 9301, 9305'
-ms.date: 03/29/2024
+ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-the-sales-process"></a>Utilizzare documenti elettronici nel processo di vendita
+# Utilizzare documenti elettronici nel processo di vendita
 
 Puoi utilizzare documenti elettronici configurati con documenti di vendita.
 
@@ -25,22 +25,22 @@ Puoi utilizzare i seguenti documenti di vendita con la funzionalità dei documen
 - Note addebito interessi
 - Solleciti
 
-## <a name="e-documents-in-sales"></a>Documenti elettronici per le vendite
+## Documenti elettronici per le vendite  
 
 Per creare e inviare una fattura elettronica a un cliente, devi creare e registrare la fattura di vendita. Per ulteriori informazioni sul processo standard, consulta [Fatturare le vendite](sales-how-invoice-sales.md).
 
-Dopo aver registrato il documento di vendita, apri la pagina **Fattura di vendita registrata** per accedere alla pagina  **Documento elettronico** correlata.
+Dopo aver registrato il documento di vendita, apri la pagina **Fatture di vendita registrata** per accedere alla pagina **Documenti elettronici** correlata.
 
-### <a name="view-e-documents"></a>Visualizzare documenti elettronici
+### Visualizzare documenti elettronici   
 
 Per visualizzare i documenti elettronici esistenti, procedi come segue.
 
-1. Nella pagina **Fattura di vendita registrata** seleziona **Documento elettronico** \> **Apri documento elettronico**.
-2. Nella pagina **Documento elettronico**, nell'intestazione, puoi visualizzare le informazioni di base sulla fattura registrata.
+1. Nella pagina **Fatture di vendita registrate** seleziona **Documento elettronico**, quindi seleziona **Apri documento elettronico**.
+2. Nella pagina **Documenti elettronici**, nell'intestazione, puoi visualizzare le informazioni di base sulla fattura registrata.
 3. Il campo **Record** mostra il numero del documento della fattura di vendita registrata. Seleziona il collegamento per aprire il documento.
 4. Nel campo **Stato del documento elettronico** puoi visualizzare lo stato in tempo reale del documento e la relativa posizione nella pipeline del processo. Se il documento è stato registrato, lo stato è **Elaborato**.
 
-### <a name="e-document-statuses-and-logs"></a>Log e stati dei documenti elettronici
+### Log e stati dei documenti elettronici 
 
 Per dettagli sul livello di stato del servizio del documento elettronico, consulta la Scheda dettaglio **Stato del servizio documenti elettronici**. Nelle righe il sistema mostra uno o più servizi utilizzati dal documento. Nello scenario più comune, ogni documento utilizza un solo servizio. Tuttavia, un documento può utilizzare più servizi.
 
@@ -56,7 +56,7 @@ Per ulteriori informazioni dettagliate, seleziona il movimento con lo stato **Es
 
 Per visualizzare la comunicazione tra te e il servizio a cui stai inviando il documento, utilizza il campo **Log di comunicazione**. Apri la pagina **Log comunicazioni dei documenti elettronici** per visualizzare i dettagli sulla richiesta e i motivi del messaggio con quel servizio.
 
-Se c'è un problema con il provider del servizio e il documento non può essere inviato, cerca i seguenti indicatori nella pagina **Documento elettronico**:
+Se c'è un problema con il provider del servizio e il documento non può essere inviato, cerca i seguenti indicatori nella pagina **Documenti elettronici**:
 
 - Il campo **Stato del documento elettronico** nell'intestazione mostra lo stato **Errore**.
 - Il campo **Stato del documento elettronico** nella Scheda dettagli **Stato del servizio documenti elettronici** mostra lo stato **Errore di invio**.
@@ -64,7 +64,7 @@ Se c'è un problema con il provider del servizio e il documento non può essere 
 
 Una volta risolto il problema, esegui manualmente le azioni **Invia documento**. Se hai bisogno di azioni diverse, come ad esempio **Documento ricreato**, **Annulla documento**, o **Ottieni approvazione**, puoi eseguirle.
 
-## <a name="overview-of-e-document-statuses"></a>Panoramica degli stati dei documenti elettronici
+## Panoramica degli stati dei documenti elettronici
 
 Per avere una migliore panoramica di tutti i documenti elettronici nella società, puoi selezionare la gestione ruolo utente **Contabile** dove esistono gli stati dei documenti elettronici. Qui puoi trovare le attività relative ai documenti elettronici che hanno i seguenti stati:
 
@@ -75,13 +75,14 @@ Per avere una migliore panoramica di tutti i documenti elettronici nella societ�
     - Errore
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Come impostare documenti elettronici in Business Central](finance-how-setup-edocuments.md)  
-[Come estendere documenti elettronici in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Gestione contabile](finance.md)  
-[Fatturazione delle vendite](sales-how-invoice-sales.md)  
-[Registrare gli acquisti con le fatture e gli ordini di acquisto](purchasing-how-record-purchases.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Come impostare documenti elettronici in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-how-setup-edocuments.md)    
+[Come usare documenti elettronici negli acquisti](finance-how-use-edocuments-purchase.md)  
+[Come estendere documenti elettronici in [!INCLUDE[prod_short](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Gestione contabile](finance.md)    
+[Fatturare le vendite](sales-how-invoice-sales.md)    
+[Registrare gli acquisti con le fatture e gli ordini di acquisto](purchasing-how-record-purchases.md)    
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

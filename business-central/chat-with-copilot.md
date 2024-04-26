@@ -103,7 +103,7 @@ Prompt: `How does I save my filterrings to do them later?`
 
 In questo esempio chiedi a Copilot indicazioni su come eseguire alcune attività in Business Central. Di solito Copilot riesce a comprendere l'intento della tua domanda, anche se sono presenti alcuni errori grammaticali, di ortografia o abbreviazioni.
 
-Prompt: `Provide feedback on answers`
+## Fornire feedback sulle risposte
 
 Puoi valutare le risposte che ricevi da Copilot utilizzando il pulsante Mi piace (pollice su) per una valutazione buona o il pulsante Non mi piace (pollice giù) per una valutazione scarsa. Quando selezioni il pulsante Non mi piace, puoi scegliere un motivo, tra cui impreciso, inappropriato o altro. Queste informazioni possono aiutarci a migliorare i suggerimenti.
 
@@ -113,7 +113,7 @@ Puoi valutare le risposte che ricevi da Copilot utilizzando il pulsante Mi piace
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
 ## Vedere anche
 
-[Risoluzione dei problemi relativi alle funzionalità di Copilot e IA](ai-copilot-troubleshooting.md)  
+[Risolvere i problemi relativi alle funzionalità di Copilot e IA](ai-copilot-troubleshooting.md)  
 [Configurare le funzionalità di Copilot e IA](enable-ai.md)  
 [Domande frequenti sull'intelligenza artificiale responsabile per Chat con Copilot](faqs-chat-with-copilot.md)  
 [Risorse per la guida in Business Central](product-help-and-support.md)  

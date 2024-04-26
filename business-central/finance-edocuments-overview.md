@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: null
-ms.date: 01/16/2024
+ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="e-documents-overview"></a>Panoramica dei documenti elettronici
+# Panoramica dei documenti elettronici
 
 I documenti elettronici sono la spina dorsale delle moderne transazioni commerciali. Comprendono documenti vitali, come fatture e ricevute in entrambe le direzioni (consegna e carico). Aggiungono inoltre funzionalità per la messaggistica relativa allo stato dei documenti tra punti di accesso.
 
@@ -27,14 +27,16 @@ La documentazione spiega dettagliatamente i documenti elettronici. Mostra le fun
 | Articolo | Descrizione | 
 |---------|-------------|
 | [Impostare documenti elettronici](finance-how-setup-edocuments.md) | Scopri come impostare le funzionalità relativi ai documenti elettronici, inclusi servizi, flusso di lavoro, profili di invio e criteri di conservazione. |
-| [Utilizzare documenti elettronici nelle vendite e negli acquisti](finance-how-use-edocuments.md) | Scopri come utilizzare le funzionalità dei documenti elettronici correlate a fatture di vendita e di acquisto, ai relativi stati e a messaggi di azione.| 
-| [Estensione delle funzionalità relative ai documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Scopri come estendere le funzionalità relative a documenti elettronici con requisiti locali o di settore specifici creando app aggiuntive basate sull'app Documenti elettronici. |
+| [Usare documenti elettronici nelle vendite](finance-how-use-edocuments.md) | Scopri come utilizzare le funzionalità dei documenti elettronici correlate a fatture di vendita e di acquisto, ai relativi stati e a messaggi di azione.| 
+| [Utilizzare documenti elettronici negli acquisti](finance-how-use-edocuments-purchase.md) | Scopri come utilizzare le funzionalità dei documenti elettronici correlate a fatture di vendita e ordini, ai relativi stati e a messaggi di azione.|
+| [Estensione della funzionalità dei documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Scopri come estendere le funzionalità relative a documenti elettronici con requisiti locali o di settore specifici creando app aggiuntive basate sull'app Documenti elettronici. |
 | [Impostare il connettore Documenti elettronici con endpoint esterni](finance-how-setup-edocuments-external.md) | Scopri come utilizzare i punti di accesso esterni per l'automazione nella consegna e nella ricezione dei tuoi documenti elettronici. |
 | [Scambio di dati in modalità elettronica](across-data-exchange.md) | Scopri come utilizzare il framework di scambio dati per gestire lo scambio di dati in documenti aziendali come file bancari e tassi di cambio valuta. | 
+| [Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot (anteprima)](map-edocuments-with-copilot.md) | Scopri come utilizzare Copilot per migliorare la tua efficienza quando lavori con documenti elettronici. |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Gestione contabile](finance.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Gestione contabile](finance.md)    
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

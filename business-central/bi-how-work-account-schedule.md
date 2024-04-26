@@ -127,11 +127,42 @@ Puoi utilizzare un report finanziario per creare un rendiconto che confronti le 
 
 Ora è possibile copiare e incollare la dichiarazione di budget in un foglio elettronico.  
 
+## Integra i report finanziari con Excel
+
+Puoi integrare un report finanziario con un modello di cartella di lavoro Excel, adattare il layout alle tue esigenze e quindi aggiornare il modello Excel con i dati da [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, questa integrazione semplifica la generazione dei rendiconti finanziari mensili e annuali in un formato adatto alle tue esigenze.
+
+### Configurare l'integrazione di Excel per un report finanziario (creare un modello Excel)
+
+Per impostare l'integrazione di Excel per un report finanziario, attieniti alla seguente procedura per creare un modello Excel per un report.
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Report finanziari**, quindi scegli il collegamento correlato.
+1. Nella pagina **Report finanziari** seleziona il report finanziario da abilitare con Excel e quindi scegli l'azione **Esporta in Excel**.
+1. Selezionare l'azione **Crea nuovo documento**. Questa azione scarica un modello di cartella di lavoro Excel con un singolo foglio di lavoro denominato in base al nome del report.
+1. Copia il foglio di lavoro e rinominalo in **Dati**.
+1. Rinomina il foglio di lavoro del report a tuo piacimento.
+1. Nel foglio di lavoro del report, contrassegna tutte le celle che mostrano i dati del report finanziario (comprese le intestazioni di colonna e riga). Nella barra multifunzione **Home**, trova il menu **Numero** e seleziona **Generale** come formato.
+1. Scegli la cella più a sinistra dell'area con i dati del report finanziario e imposta un riferimento alla cella equivalente nel foglio di lavoro Dati. Trascina la formula verso destra per estenderla a tutte le celle della prima riga, quindi trascina la riga verso il basso per coprire tutte le righe del report finanziario.
+1. Nascondi il foglio di lavoro **Dati**.
+1. Formatta il foglio di lavoro del report in base alle tue esigenze.
+1. Salva la cartella di lavoro in OneDrive o in una posizione simile in cui viene eseguito il backup e la versione del file.
+1. Chiudi la cartella di lavoro.
+
+### Esegui un report finanziario con un modello Excel
+
+Per eseguire un report finanziario con un modello Excel, attieniti alla seguente procedura:
+
+1. Scegli la ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report finanziari**, quindi scegli il collegamento correlato.
+1. Nella pagina **Report finanziari** seleziona il report finanziario da abilitare con Excel e quindi scegli l'azione **Esporta in Excel**.
+1. Scegli l'azione **Aggiorna copia del documento esistente**.
+1. Carica il tuo modello Excel (chiudi la cartella di lavoro Excel prima di caricarla).
+1. Nella pagina **Ricerca nome/valore**, scegli il foglio di lavoro Dati.
+1. [!INCLUDE[prod_short](includes/prod_short.md)] esegue il report finanziario e unisce i dati risultanti con il modello Excel.
+
 ## Stampare e salvare i report finanziari
 
 Puoi stampare i report finanziari utilizzando i servizi di stampa del tuo dispositivo. [!INCLUDE[prod_short](includes/prod_short.md)] offre anche opzioni di salvare i report come cartelle di lavoro di Excel, documenti di Word, file PDF e XML.
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Report finanziari**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report finanziari**, quindi scegli il collegamento correlato.
 1. Sulla pagina **Report finanziari** seleziona il report da stampare, quindi scegli l'azione **Stampa**.
 1. Compila i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 1. Nel campo **Stampante** seleziona il dispositivo a cui viene inviato il report.
@@ -142,11 +173,12 @@ Puoi stampare i report finanziari utilizzando i servizi di stampa del tuo dispos
 
 Puoi salvare un report finanziario in formti di file come PDF, XML, Word o Excel. [!INCLUDE[prod_short](includes/prod_short.md)] può anche generare report finanziari ricorrenti.
 
-1. Scegli la ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report finanziari**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report finanziari**, quindi scegli il collegamento correlato.
 1. Nella pagina **Report finanziari** scegli l'azione **Stampa**.
 1. Imposta il report di conseguenza, quindi scegli l'azione **Invia a**.
 1. Seleziona il formato di file o l'azione **Programma** e scegli **OK**.
 1. Per generare un report finanziario programmato o ricorrente, compila i campi. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Per i report finanziari ricorrenti, imposta i campi **Prima data/ora di inizio** e **Data/ora di scadenza** con la prima e l'ultima data, rispettivamente, per generare il report finanziario. Inoltre, seleziona in quali giorni viene generato il report impostando il campo **Formula della data di esecuzione successiva** seguendo il formato spiegato nella sezione [Usare le formule data](ui-enter-date-ranges.md#use-date-formulas).
+
 
 ## Procedure consigliate per utilizzare definizioni di report finanziari
 

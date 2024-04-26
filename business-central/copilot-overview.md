@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 03/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Microsoft Copilot è l'assistente basato sull'intelligenza artificiale che aiuta
 
 Copilot include una serie di funzionalità in costante espansione che assistono gli utenti in diversi ruoli e attività. Informazioni su Copilot e altre funzionalità di intelligenza artificiale in Business Central sono disponibili all'indirizzo [aka.ms/BCAI](https://aka.ms/BCAI). 
 
-## Copilot è gratuito? 
+## Copilot è gratuito?
 
 Al momento, Copilot in Business Central è incluso nella licenza Business Central senza costi aggiuntivi. Ciò non esclude che criteri, quote o prezzi di fair use possano essere introdotti in un secondo momento.
 
@@ -39,6 +39,10 @@ Business Central offre numerose funzionalità basate sull'intelligenza artificia
 ## Copilot in Business Central è disponibile in tutto il mondo? 
 
 Copilot include una serie di funzionalità in costante espansione che assistono gli utenti in diversi ruoli e attività. Ciascuna funzionalità Copilot definisce il proprio elenco di aree geografiche e lingue supportate. Sebbene la maggior parte delle funzionalità sarà probabilmente disponibile inizialmente solo in inglese, aspiriamo a renderle disponibili in altre lingue e aree geografiche nel tempo. Puoi ottenere una panoramica delle lingue e delle aree geografiche di Copilot disponibili per le applicazioni aziendali all'indirizzo [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+
+## Copilot è a conoscenza delle personalizzazioni del mio ambiente?
+
+Alcune, ma non tutte le funzionalità di Copilot sono in grado di funzionare con le tue pagine e tabelle personalizzate. Ad esempio, puoi usare [assistenza all'analisi](analysis-assist.md) nei tuoi elenchi personalizzati, o [chattare con Copilot](chat-with-copilot.md)  per trovare i record nelle tabelle personalizzate. Per comprendere quali funzionalità di Copilot funzionano con le personalizzazioni, consulta gli articoli relativi a ciascuna funzionalità.
 
 ## Posso sviluppare i miei copiloti per Business Central?
 
