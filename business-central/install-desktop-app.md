@@ -9,7 +9,7 @@ ms.date: 01/11/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="get-business-central-desktop-app"></a>Ottieni Business Central Desktop App
+# <a name="get-the-business-central-desktop-app"></a>Ottieni Business Central Desktop App
 
 Se hai un computer Windows (PC) o macOS, puoi installare un'app Business Central sul tuo desktop. L'app funziona con Business Central online e in locale.
 
@@ -24,7 +24,7 @@ L'applicazione Business Central assomiglia al client web, ma fornisce alcuni van
 
      Quando apri l'applicazione per un ambiente specifico, il nome dell'ambiente è incluso nel titolo della finestra. Quando si lavora in più ambienti [!INCLUDE[prod_short](includes/prod_short.md)], ogni finestra di app viene visualizzata separatamente. Il nome rende più facile per voi vedere quale finestra è associata ad ogni ambiente.
 
-## <a name="install-the-app-for-business-central-online"></a>Installare l'app per Business Central online
+## <a name="install-the-app-for--online"></a>Installare l'app per Business Central online
 
 Esistono due modi per installare l'app per Business Central online. Puoi installarla direttamente dal browser o da Microsoft Store. Qualunque approccio utilizzi, è la stessa app. La differenza è che l'installazione dal browser consente di installare l'app per ogni ambiente quando ce n'è più di uno.
 
@@ -56,7 +56,7 @@ La prossima volta che vuoi aprire l'app, cercala nel menu **Start**.
 
 Una volta installata, l'applicazione appare nel menu **Start** . Se hai selezionato un ambiente specifico per l'app, il nome dell'ambiente viene aggiunto al nome dell'app nel menu **Start** .
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Installare l'app per Business Central in locale
+## <a name="install-the-app-for--on-premises"></a>Installare l'app per Business Central in locale
 
 L'installazione dell'app desktop quando usi Business Central in locale è eseguita direttamente dal browser come [descritto sopra](#from-the-browser). Se hai solo un tenant, basta aprire Business Central nel tuo browser, quindi selezionare o ![Icon per installare un'app in Edge.](media/ui-edge-install-app-icon.png) **App disponibile. Installare Business Central** o ![Icona per installare un'app in Chrome.](media/ui-chrome-install-app-icon.png) **Installa Business Central** come mostrato sopra.
 

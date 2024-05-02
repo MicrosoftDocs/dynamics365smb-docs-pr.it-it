@@ -68,7 +68,7 @@ Quindi si crea un ordine cliente con una quantità di 12 pezzi nell'ubicazione O
 > [!NOTE]  
 > Se le previsioni basate sull'ubicazione vengono visualizzate singolarmente, la previsione complessiva potrebbe non essere rappresentativa.
 
-### <a name="do-not-use-forecast-by-locations"></a>Non utilizzare previsioni in base alle ubicazioni
+### <a name="if-you-dont-use-forecast-by-locations"></a>Non utilizzare previsioni in base alle ubicazioni
 
 Se disattivi **Usa previsione in base a ubicazione**, [!INCLUDE[prod_short](includes/prod_short.md)] ignorerà tutti i codici ubicazione specificati per ogni voce previsione della domanda e aggregherà le previsioni in una previsione per ubicazioni vuote.  
 

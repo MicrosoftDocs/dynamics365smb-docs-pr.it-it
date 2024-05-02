@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Report di contabilità fornitori e analisi in Business Central
+# <a name="accounts-payable-reports-and-analytics"></a>Report di contabilità fornitori e analisi in Business Central
 
 Per aiutarti a gestire la contabilità fornitori in [!INCLUDE [prod_short](includes/prod_short.md)], report standard e analisi sono integrati. Va oltre i tradizionali vincoli di creazione di report per consentire di progettare in modo efficiente vari tipi di report.  
 

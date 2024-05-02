@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621, 653_Primary'
 ms.service: dynamics-365-business-central
 ---
-# Impostare transazioni intercompany
+# <a name="set-up-intercompany-transactions"></a>Impostare transazioni intercompany
 
 Le partnership intercompany semplificano la gestione dei processi contabili quando due o più filiali di una società fanno spesso affari tra loro. I partner possono scambiare transazioni, come vendite e acquisti, e gestirle manualmente o automaticamente. Ad esempio, quando un partner invia una riga di registrazione vendite a un altro partner, viene creata una riga di registrazione acquisti per il partner ricevente.
 
@@ -22,7 +22,7 @@ Il piano dei conti intercompany può essere dato, ad esempio, da una versione de
 >
 > Le attività in questo articolo presuppongono che l'interruttore della funzionalità sia attivato. Se hai già impostato una partnership intercompany, puoi continuare a utilizzarla.
 
-## Operazioni preliminari
+## <a name="before-you-start"></a>Operazioni preliminari
 
 Prima di iniziare a impostare la tua partnership intercompany, ci sono alcune decisioni da prendere.
 
@@ -36,7 +36,7 @@ Prima di iniziare a impostare la tua partnership intercompany, ci sono alcune de
 |Come vuoi gestire i numeri degli articoli?     | Se le righe intercompany contengono articoli, è possibile utilizzare i propri numeri articolo oppure impostare i numeri articolo del partner per ogni articolo menzionato, nel campo **Nr. articolo fornitore** o nel campo **Nr. articolo comune** della scheda articolo. Puoi anche utilizzare l'azione **Riferimento articolo** per mappare i tuoi numeri di articolo alle descrizioni degli articoli dei tuoi partner intercompany. Per ulteriori informazioni sui riferimenti agli articoli, vai a [Usare i riferimenti agli articoli](inventory-how-use-item-cross-refs.md).        |
 |Le risorse sono interessate?     | Se le transazioni di vendita intercompany includono risorse, compila il campo **Nr. conto C/G acq. partner IC** della scheda risorsa per ogni risorsa interessata. Il campo contiene il numero del conto di contabilità generale intercompany in cui verrà contabilizzato l'importo di questa risorsa nella società partner. Per ulteriori informazioni sulle risorse, vai a [Impostazione delle risorse](projects-how-setup-resources.md).<br><br>**NOTA**<br>Le transazioni di acquisto intercompany che includono risorse, cespiti e addebiti articolo non sono completamente supportate. Nella società partner, il campo **Tipo di riga** sarà vuoto nelle righe del documento di acquisto che includono queste entità. Devi aggiornare manualmente il campo.        |
 
-## Panoramica dei passaggi per iniziare
+## <a name="overview-of-the-steps-to-get-started"></a>Panoramica dei passaggi per iniziare
 
 Utilizza la pagina **Setup intercompany** per impostare i seguenti componenti delle transazioni intercompany:
 
@@ -48,7 +48,7 @@ Utilizza la pagina **Setup intercompany** per impostare i seguenti componenti de
 * Le società che sono i partner intercompany.
 * Le aziende che sono fornitori o clienti, o entrambi.
 
-## Impostare un partner di sincronizzazione
+## <a name="set-up-a-synchronization-partner"></a>Impostare un partner di sincronizzazione
 
 Tutti i partner devono utilizzare lo stesso piano dei conti intercompany e, se necessario, le stesse dimensioni intercompany. È possibile risparmiare tempo durante l'impostazione della partnership utilizzando il piano dei conti e le dimensioni di uno dei partner come riferimento per il piano dei conti e le dimensioni intercompany. L'azienda che utilizzi come riferimento è chiamata *partner di sincronizzazione*. In genere, il partner di sincronizzazione è la società della sede centrale, ma non è obbligatorio che lo sia.
 
@@ -57,7 +57,7 @@ Nella pagina **Setup interaziendale** ciascun partner specifica il partner di si
 > [!NOTE]
 > È importante mappare i conti e le dimensioni in entrambe le direzioni. Ovvero, sia al piano dei conti e alle dimensioni intercompany, sia da questi ai propri conti e dimensioni.
 
-### Connettersi ai partner in un altro tenant o ambiente
+### <a name="connect-with-partners-in-another-tenant-or-environment"></a>Connettersi ai partner in un altro tenant o ambiente
 
 Se uno o più partner [!INCLUDE [prod_short](includes/prod_short.md)] si trovano in un altro tenant o ambiente, sono necessari alcuni passaggi aggiuntivi per creare la connessione. I passaggi si applicano a tutti i partner in un altro tenant o ambiente.
 
@@ -81,7 +81,7 @@ Se uno o più partner [!INCLUDE [prod_short](includes/prod_short.md)] si trovano
 
 Esegui la guida al setup assistito **Setup partner IC nell'ambiente** in tutte le società per specificare le informazioni. Per avviare la guida, nella pagina **Partner IC**, utilizza l'azione **Setup connessione esterna**.
 
-#### Creare un'app registrata nel portale di Azure
+#### <a name="create-a-registered-app-in-azure-portal"></a>Creare un'app registrata nel portale di Azure
 
 Questo processo è necessario solo se desideri connetterti a un partner il cui [!INCLUDE [prod_short](includes/prod_short.md)] si trova in un tenant o ambiente diverso.
 
@@ -120,7 +120,7 @@ Questo processo è necessario solo se desideri connetterti a un partner il cui [
 20. Copia il valore nel campo **ID directory (tenant)**. Ad esempio, incolla il valore in un editor di testo.
 21. Nel valore del token che hai copiato, sostituisci **organizations** con il valore che hai copiato dal campo **ID directory (tenant)** nel passaggio precedente.
 
-#### Aggiungere e abilitare l'app registrata in Business Central
+#### <a name="add-and-enable-your-registered-app-in-business-central"></a>Aggiungere e abilitare l'app registrata in Business Central
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Scheda applicazione Microsoft Entra**, quindi scegli il link correlato.  
 2. Compila i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -128,7 +128,7 @@ Questo processo è necessario solo se desideri connetterti a un partner il cui [
 4. Scegli l'azione **Concedi consenso**. 
 5. Nel campo **Set di autorizzazioni**, scegli il set di autorizzazioni **API - Ambiente interaziendale**.
 
-## Impostare il piano dei conti intercompany
+## <a name="set-up-the-intercompany-charts-of-accounts"></a>Impostare il piano dei conti intercompany
 
 Tutti i partner devono utilizzare lo stesso piano dei conti intercompany e mappare ad esso i conti del proprio piano dei conti. Se il piano dei conti della propria società definisce il piano dei conti intercompany delle società partner, attieniti alla procedura descritta in questa sezione.
 
@@ -146,7 +146,7 @@ Se utilizzi un file XML che contiene il piano dei conti intercompany, segui i pa
 
 Il passaggio successivo consiste nell'associare il piano dei conti al piano dei conti intercompany. Ulteriori informazioni in [Mappare il piano dei conti intercompany ai piani dei conti della società](#map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts).
 
-### Importare o esportare un piano dei conti intercompany
+### <a name="import-or-export-an-intercompany-chart-of-accounts"></a>Importare o esportare un piano dei conti intercompany
 
 La società di sincronizzazione può condividere il proprio piano dei conti con i partner esportandolo in un file. I partner possono importare il file per ottenere il piano dei conti.
 
@@ -157,7 +157,7 @@ La società di sincronizzazione può condividere il proprio piano dei conti con 
 
 La pagina **Piano dei conti IC** viene compilata con le righe nuove o modificate del conto C/G in base al piano dei conti IC del file. Eventuali righe esistenti e non correlate della pagina restano invariate.
 
-## Mappare il piano dei conti intercompany ai piani dei conti della società  
+## <a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a>Mappare il piano dei conti intercompany ai piani dei conti della società
 
 Dopo aver definito o importato il piano dei conti intercompany, mappa ogni conto intercompany a uno dei propri conti. Nella pagina **Piano dei Conti IC** è possibile specificare come mappare i conti C/G intercompany utilizzati nelle transazioni in entrata ai conti C/G del piano dei conti della società.
 
@@ -178,7 +178,7 @@ Se i conti intercompany e i tuoi conti hanno gli stessi numeri, puoi mappare i c
     > [!TIP]
     > Se vuoi mappare molti o forse tutti i conti, scegli una riga, scegli :::image type="icon" source="media/show-more-options-icon.png" border="false":::, quindi scegli **Seleziona più elementi**.
 
-## Impostare le dimensioni intercompany
+## <a name="set-up-intercompany-dimensions"></a>Impostare le dimensioni intercompany
 
 Se i partner scambieranno transazioni con dimensioni collegate, è necessario concordare le dimensioni che verranno usate da tutti. Ad esempio, la società di sincronizzazione può creare una versione semplificata delle proprie dimensioni, esportarle in un file XML e quindi distribuire il file a ciascun partner. Ogni partner può importare il file XML nella pagina **Dimensioni intercompany** e quindi mappare le dimensioni intercompany alle proprie dimensioni. Ulteriori informazioni in [Mappare le dimensioni intercompany alle dimensioni della società](#map-intercompany-dimensions-to-your-companys-dimensions).
 
@@ -197,7 +197,7 @@ Se i partner utilizzeranno le dimensioni intercompany del partner di sincronizza
     > [!TIP]
     > Se copi le dimensioni intercompany da un partner di sincronizzazione, puoi utilizzare l'azione **Impostazione sincronizzazione** per aggiornare le proprie dimensioni intercompany con eventuali modifiche apportate dal partner alle proprie.  
 
-### Importare o esportare le dimensioni intercompany  
+### <a name="import-or-export-intercompany-dimensions"></a>Importare o esportare le dimensioni intercompany
 
 La società di sincronizzazione può condividere le proprie dimensioni con i partner esportandole in un file. I partner possono importare il file per ottenere le dimensioni.
 
@@ -208,7 +208,7 @@ La società di sincronizzazione può condividere le proprie dimensioni con i par
 
 Il passaggio successivo consiste nel mappare le dimensioni con le dimensioni intercompany. Ulteriori informazioni in [Mappare le dimensioni intercompany alle dimensioni della società](#map-intercompany-dimensions-to-your-companys-dimensions).
 
-### Mappare le dimensioni intercompany alle dimensioni della società
+### <a name="map-intercompany-dimensions-to-your-companys-dimensions"></a>Mappare le dimensioni intercompany alle dimensioni della società
 
 Dopo aver specificato le dimensioni che utilizzerai, mappa ogni dimensione intercompany con una delle dimensioni della tua azienda e viceversa. Utilizza la pagina **Mappatura dimensioni intercompany** per specificare la mappatura. Successivamente, ripeti il processo per i valori delle dimensioni.
 
@@ -233,7 +233,7 @@ Nei passaggi seguenti, si mappano dapprima le dimensioni intercompany alle dimen
 5. Scegli l'azione **Mapping valori dimensioni**.
 6. Nella pagina **Mapping valori dimensione intercompany** i passaggi per creare la mappatura sono simili a quelli appena eseguiti per le dimensioni.
 
-## Impostare modelli e batch di registrazioni COGE intercompany
+## <a name="set-up-intercompany-general-journal-templates-and-batches"></a>Impostare modelli e batch di registrazioni COGE intercompany
 
 È necessario impostare un modello di registrazioni COGE e un batch di registrazioni COGE da utilizzare per impostazione predefinita per le transazioni intercompany. Il modello e il batch sono particolarmente importanti se accetti automaticamente transazioni intercompany dai tuoi partner. Per ulteriori informazioni sull'accettazione automatica delle transazioni, vai a [Accettare automaticamente transazioni da partner intercompany](#auto-accept-transactions-from-intercompany-partners).   
 
@@ -242,7 +242,7 @@ Nei passaggi seguenti, si mappano dapprima le dimensioni intercompany alle dimen
 
 Per ulteriori informazioni sui modelli e sui batch di registrazioni COGE, vai a [Usare batch e definizioni di registrazioni](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## Impostare una società per le transazioni intercompany
+## <a name="set-up-a-company-for-intercompany-transactions"></a>Impostare una società per le transazioni intercompany
 
 I passaggi seguenti presuppongono che sia impostato un partner di sincronizzazione con il piano dei conti e le dimensioni su cui baserai il piano dei conti e le dimensioni intercompany. Puoi configurarli tu stesso, ma in genere è più veloce iniziare e la manutenzione è più semplice se utilizzi un partner di sincronizzazione. Per altre informazioni sul partner di sincronizzazione, vai a [Impostare un partner di sincronizzazione](#set-up-a-synchronization-partner).
 
@@ -260,7 +260,7 @@ I passaggi seguenti presuppongono che sia impostato un partner di sincronizzazio
 
 Il prossimo passaggio è la configurazione delle società partner.
 
-## Impostare i partner IC
+## <a name="set-up-intercompany-partners"></a>Impostare i partner IC
 
 Ogni partner deve aggiungere tutte le altre società della partnership come partner.
 
@@ -272,7 +272,7 @@ Ogni partner deve aggiungere tutte le altre società della partnership come part
 > [!NOTE]
 > Per la registrazione intercompany, se hai attivato l'interruttore **Accetta automaticamente transazione** nella pagina **Scheda partner intercompany** [!INCLUDE[prod_short](includes/prod_short.md)] sopprime i messaggi di avviso sulle fatture di acquisto che duplicano l'ordine di acquisto originale. È importante disporre di un processo aziendale per la gestione dei duplicati. Ad esempio, eliminando tali ordini di acquisto quando la fattura di acquisto viene ricevuta dal partner IC.
 
-### Impostare partner IC come clienti e fornitori
+### <a name="set-up-intercompany-partners-as-customers-and-vendors"></a>Impostare partner IC come clienti e fornitori
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup IC**, quindi scegli il collegamento correlato.
 2. Nella scheda dettaglio **Partner IC** apri la pagina della scheda per il partner.
@@ -284,7 +284,7 @@ Ogni partner deve aggiungere tutte le altre società della partnership come part
     > [!TIP]
     > È inoltre possibile specificare un cliente o un fornitore come partner IC compilando il campo **Codice partner IC** nelle pagine **Scheda cliente** e **Scheda fornitore**.
 
-### Impostare i conti C/G predefiniti per i partner IC  
+### <a name="set-up-default-intercompany-partner-general-ledger-accounts"></a>Impostare i conti C/G predefiniti per i partner IC
 
 Quando si crea una riga di acquisto o vendita intercompany da inviare come transazione in uscita, è necessario immettere un conto del piano dei conti intercompany come impostazione di default per il conto della società partner in cui deve essere registrato l'importo. Nella pagina **Scheda conto C/G** è possibile specificare un conto di contabilità generale partner intercompany di default per i conti utilizzati regolarmente nelle righe di acquisto o di vendita intercompany in uscita. Per i conti crediti vs clienti è ad esempio possibile specificare i conti debiti corrispondenti del piano dei conti intercompany. I conti clienti e fornitori vengono utilizzati come conto di contropartita per il partner intercompany quando si registrano transazioni nei giornali di registrazione generali intercompany.  
 
@@ -294,7 +294,7 @@ Quando si specifica un conto C/G nel campo **Nr. contropartita** di una riga int
 2. Apri il conto C/G utilizzato per le transazioni intercompany, e nel campo **Conto C/G partner IC di default**, immetti il conto di contabilità generale intercompany in cui il partner effettuerà le registrazioni al momento della registrazione del conto C/G nella riga.
 3. Ripetere il passaggio 2 per ogni conto immesso di frequente nel campo **Nr. contropartita** di una riga di documento o registrazione intercompany.
 
-### Accettare automaticamente le transazioni da partner IC
+### <a name="auto-accept-transactions-from-intercompany-partners"></a>Accettare automaticamente le transazioni da partner IC
 
 Per velocizzare l'elaborazione delle transazioni intercompany, è possibile specificare di creare automaticamente le righe di registrazione basate sulle registrazione di un partner intercompany dalla pagina **Registrazioni COGE IC**. Per creare automaticamente le transazioni in entrata e in uscita, devi attivare le seguenti opzioni per ciascun partner:
 
@@ -310,17 +310,17 @@ Le righe del giornale di registrazione vengono create per te, ma non registrate.
 > [!NOTE]
 > Se la tua organizzazione ha utilizzato funzionalità interaziendali in [!INCLUDE [prod_short](includes/prod_short.md)] prima del primo ciclo di rilascio del 2022, per accettare automaticamente le transazioni l'amministratore deve attivare la funzionalità **Accettazione automatica delle transazioni di registrazioni CoGe intercompany** nella pagina **Gestione delle funzionalità**.
 
-### Specificare i conti bancari da utilizzare per i partner intercompany
+### <a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a>Specificare i conti bancari da utilizzare per i partner intercompany
 
 Per facilitare i pagamenti rapidi, specifica uno o più conti bancari da utilizzare per i partner intercompany. Quando un partner utilizza un giornale di registrazione COGE intercompany per effettuare un pagamento, può specificare il conto bancario nella riga. Il conto bancario viene utilizzato come conto di contropartita nella società ricevente, il che riduce al minimo la necessità di inserire manualmente le transazioni.
 
 * Per specificare il conto bancario da utilizzare, sulla pagina **Partner intercompany** scegli l'azione **Conto bancario**. Nella **Scheda conto bancario intercompany**, inserisci le informazioni sul conto.
 
-## Risoluzione dei problemi dell'impostazione intercompany
+## <a name="troubleshoot-your-intercompany-setup"></a>Risoluzione dei problemi dell'impostazione intercompany
 
 Sulla pagina **Setup intercompany** il riquadro **Diagnostica setup intercompany** contiene riquadri che indicano se sono stati impostati tutti i componenti necessari per lo scambio di transazioni intercompany. I riquadri sono disponibili anche nella Gestione ruolo utente manager aziendale. Scegli i riquadri per scoprire cosa manca. Per una panoramica dei componenti richiesti, vai a [Panoramica dei passaggi per iniziare](#overview-of-the-steps-to-get-started).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  
 [Finanze](finance.md)  

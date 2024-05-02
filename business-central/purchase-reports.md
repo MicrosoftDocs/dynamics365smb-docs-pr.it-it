@@ -9,21 +9,21 @@ ms.date: 02/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Report e analisi degli acquisti in Business Central
+# <a name="purchase-reporting-and-analytics"></a>Report e analisi degli acquisti in Business Central
 
 Il report di acquisti in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti di approvvigionamento e aziendali di ottenere approfondimenti e statistiche sulle attività di acquisto attuali e passate.  
 
-## Report
+## <a name="reports"></a>Report
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Attività
+## <a name="tasks"></a>Attività
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
 * [Creare report di analisi](bi-how-create-analysis-views-reports.md)  
 * [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)  
 
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Acquisti](purchasing-manage-purchasing.md)  
 
