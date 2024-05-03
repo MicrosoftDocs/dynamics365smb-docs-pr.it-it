@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Gestire i cespiti
+# Gestire i cespiti
 
 La funzionalità Cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
 
-## <a name="video-overview"></a>Video di panoramica
+## Video di panoramica
 
 Il video seguente illustra le nozioni di base dei cespiti:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="fixed-assets-overview"></a>Panoramica dei cespiti
+## Panoramica dei cespiti
 
 Per ogni cespite occorre impostare una scheda che ne riporti le relative informazioni. È possibile impostare edifici o attrezzature di produzione come bene principale con un elenco di componenti ed è possibile raggrupparli in vari modi, ad esempio per classe, reparto o ubicazione. È quindi possibile iniziare ad acquistare, gestire e vendere i cespiti. È possibile anche impostare i cespiti previsti. L'impostazione di budget ti consente di includere qualsiasi vendita e acquisto previsti nei report.
 
@@ -46,7 +46,7 @@ Puoi associare ciascun cespite a una o più polizze assicurative e verificare ch
 > [!NOTE]  
 > È possibile registrare le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. Nella Guida per i cespiti viene descritto solo come utilizzare la pagina **Reg. cespiti in G/L**. Per ulteriori informazioni, vedere [Impostare l'ammortamento cespiti](fa-how-setup-depreciation.md).
 
-## <a name="how-to-use-fixed-assets"></a>Come utilizzare i cespiti
+## Come utilizzare i cespiti
 
 Nella tabella seguente viene descritta una sequenza di attività, con collegamenti agli articoli che le descrivono.
 
@@ -64,7 +64,7 @@ Nella tabella seguente viene descritta una sequenza di attività, con collegamen
 | Gestire budget per cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. |[Gestione dei budget per i cespiti](fa-how-manage-budgets.md) |
 | Ulteriori informazioni sulle funzionalità di reporting e analisi predefinite per cespiti. | [Report cespiti e analisi](fa-reports.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di cespiti](fa-setup.md)  
 [Panoramica dei dati finanziari](finance.md)  
