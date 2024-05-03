@@ -157,7 +157,7 @@ Se desideri aggiungere un po' di tolleranza e consentire la differenza tra le ri
 3. Questa impostazione verrà applicata a tutte le righe corrispondenti, ma ancora una volta considerando la tolleranza per l'importo totale, come per il **Costo unitario diretto** insieme alla **% sconto riga** applicata.  
 4. Chiudere la pagina.   
 
-##### <a name="to-match-lines-from-e-document"></a>Per abbinare righe del documento elettronico
+##### <a name="matching-lines-from-e-document"></a>Per abbinare righe del documento elettronico
 
 Puoi abbinare le righe nella pagina **Documento elettronico**. Per iniziare, utilizza i seguenti passaggi:  
 

@@ -154,7 +154,7 @@ Puoi esportare i clienti esistenti in Shopify in blocco come società. In ogni c
 |**Autorizzazioni contatto predefinite**| Specifica quali autorizzazioni devono essere assegnate al contatto principale; puoi scegliere tra **Nessuno**, **Solo ordine** e **Amministratore ubicazione**.|
 |**Creazione automatica catalogo**| Abilita questa opzione se desideri creare un catalogo che includa tutti i prodotti. Per ogni società esportata viene creato un catalogo.|
 
-## <a name="export-b2b-company-to-shopify"></a>Esporta società B2B in Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>Esporta società B2B in Shopify
 
 ### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Sincronizzazione iniziale di società B2B da Business Central a Shopify
 

@@ -327,7 +327,7 @@ Dalla prospettiva di [!INCLUDE[prod_short](../includes/prod_short.md)] quando cr
 * Utilizzare l'interruttore **Ubicazione prodotto predefinita** per specificare se questo articolo sarà evaso tramite l'evasione Shopify o tramite 3PL. È sempre disponibile il **servizio di evasione Business Central**, ma possono essere presenti più servizi di evasione se vengono installate più app. Puoi abilitare **Ubicazione prodotto predefinita** solo in un record se desideri utilizzare il servizio di evasione. 
 * Utilizzare l'interruttore **Ubicazione prodotto predefinita** per specificare quali ubicazioni desideri utilizzare per tenere traccia dell'inventario. Puoi attivare **Ubicazione prodotto predefinita** per più ubicazioni in cui **Servizio di evasione** è disabilitato. Tieni presente che l'inventario verrà sempre monitorato per l'ubicazione principale. 
  
-#### <a name="what-is-the-difference"></a>Qual è la differenza?
+#### <a name="whats-the-difference"></a>Qual è la differenza?
 
 L'evasione Shopify è utile durante l'utilizzo di Shopify POS e sono presenti più punti vendita fisici. Desideri che i dipendenti del punto vendita fisico siano a conoscenza del relativo inventario corrente. In questo caso crei più ubicazioni in Shopify, più ubicazioni in [!INCLUDE[prod_short](../includes/prod_short.md)] e attivi **Ubicazione prodotto predefinita** per tutte queste ubicazioni.  
 
