@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Panoramica della gestione della sostenibilità
+# <a name="sustainability-management-overview"></a>Panoramica della gestione della sostenibilità
 
 >[!IMPORTANT]
 >Questa funzionalità sarà disponibile in Business Central a partire dal **primo ciclo di rilascio del 2024** e tutti i collegamenti di riferimento saranno abilitati non appena saranno disponibili.
@@ -43,7 +43,7 @@ Per un'introduzione alla gestione della sostenibilità, vedi i seguenti articoli
 |[Come registrare emissioni di gas serra](finance-sustainability-journal.md) | Utilizza questo articolo per imparare a lavorare con tutti i tipi di giornali di registrazione sostenibilità. |
 
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 [Setup sostenibilità](finance-sustainability-setup.md) 
 [Contabilità generale e grafico dei conti di sostenibilità](finance-sustainability-accounts-ledger.md) 
 [Come registrare le emissioni di gas serra](finance-sustainability-journal.md)
