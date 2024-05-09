@@ -2,28 +2,25 @@
 title: Analisi integrate
 description: Fornisce una panoramica di tutte le funzionalità che supportano le attività di analisi nel prodotto Business Central.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: feature overview
-ms.date: 02/03/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: feature overview
+ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="built-in-analytics"></a>Analisi integrate
+# Analisi integrate
 
-[!INCLUDE[prod_short](includes/prod_short.md)] viene fornito con una serie di funzionalità che consentono di analizzare i dati in forma aggregata. Questa funzionalità è utile se, ad esempio, vuoi tenere traccia degli indicatori di prestazioni chiave (KPI) finanziari o analizzare i rendiconti finanziari in Microsft Excel. Di seguito sono riportati i collegamenti per aiutarti a imparare come usarla.
+[!INCLUDE[prod_short](includes/prod_short.md)] viene fornito con funzionalità che consentono di analizzare i dati in forma aggregata. Ad esempio, puoi utilizzare queste funzionalità per tenere traccia degli indicatori chiave di prestazione (KPI) per le tue finanze o analizzare i rendiconti finanziari in Microsoft Excel. La tabella seguente fornisce collegamenti ad articoli che possono aiutarti a imparare a utilizzare l'analisi integrata.
 
 | A | Vedere |
 | --- | --- |
-|Ottieni una panoramica dei KPI come disponibilità di cassa, redditività delle vendite, reddito netto o valore dell'inventario | [Informazioni intelligenti](about-intelligent-cloud.md) |
-|Analizza i dati con i report Power BI integrati. | [Utilizzare i report Power BI](across-working-with-powerbi.md) |
-|Analizza i dati finanziari in tempo reale utilizzando i report finanziari e le visualizzazioni di analisi.| [Analisi finanziaria](bi.md) |
-|Analizzare i rendiconti finanziari con Excel | [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md) |
-|Analizzare i dati finanziari di più società | [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md) |
+|Analizza i dati con i report Power BI integrati. | [Usare i report Power BI](across-working-with-powerbi.md) |
 |Ottenere informazioni dettagliate sui report utilizzati dagli utenti| [Report per la telemetria di utilizzo](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Panoramica di Business Intelligence e creazione di report](reports-use-reports.md)
+[Panoramica dell'analisi](reports-bi-reporting.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

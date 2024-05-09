@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
     > [!NOTE]
     > Se è necessario prelevare o inserire gli articoli relativi a una riga in più collocazioni, ad esempio perché la collocazione designata è piena, utilizza l'azione **Dividi riga** della Scheda dettaglio **Righe**. L'azione crea una riga per la quantità rimanente da gestire.
 
+      Puoi ordinare le righe di prelievo in base a diversi criteri, ad esempio per articolo, numero di scaffale o data di scadenza. L'ordinamento può aiutare a ottimizzare il processo di stoccaggio, ad esempio:
+
+    * Se le righe Prendere e Mettere per ciascuna riga di spedizione non sono consecutive, è possibile ordinarle selezionando **Articolo** nel campo **Metodo ordinamento**.  
+    * Se le valutazioni collocazione riflettono il layout fisico della warehouse, utilizza il metodo di ordinamento **Valutazione collocazione** per organizzare la gestione delle ubicazioni della collocazione.
+
+  > [!NOTE]  
+  > Le righe sono ordinate in ordine crescente in base ai criteri selezionati. Se ordini per documento, l'ordinamento viene eseguito prima per tipo di documento in base al campo **Documento origine attività warehouse**. Se ordini per spedizione, l'ordinamento viene eseguito prima per tipo di destinazione in base al campo **Tipo di destinazione warehouse**.
+
 4. Dopo avere prelevato e posizionato gli articoli nell'area di produzione, assemblaggio o commessa o nella collocazione, scegli l'azione **Registra prelievo**.  
 
     È ora possibile portare gli articoli nella rispettiva area e registrare l'utilizzo o il consumo dei componenti prelevati contabilizzando le registrazioni consumi, l'ordine di assemblaggio o la registrazione progetti. Per ulteriori informazioni, vedi i seguenti articoli:
@@ -171,6 +179,14 @@ I seguenti passaggi descrivono le azioni eseguite da utenti differenti e la risp
 Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione** nell'elenco di componenti viene compilato in base all'ubicazione o all'impostazione area di produzione/centro di lavoro.  
 
 :::image type="content" source="media/binflow.png" alt-text="Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.":::
+
+## Componenti di produzione Prod. su ordine in una configurazione warehouse avanzata
+
+Negli scenari in cui un articolo prodotto è costituito da materie prime e articoli semilavorati con il criterio di produzione impostato su **Prod. su ordine**, il prelievo in warehouse per tali componenti semilavorati viene aggiunto allo stesso ordine di produzione con il campo **Cod. livello pianificazione** compilato. Si prevede che gli articoli semilavorati siano immediatamente disponibili per il consumo e non richiedano il prelievo, pertanto non sono inclusi nel documento di prelievo in warehouse. I prelievi in warehouse creati includono solo le materie prime per gli articoli prodotti e per gli articoli semilavorati.
+
+Tuttavia, se gli articoli semilavorati sono disponibili in magazzino, il sistema di pianificazione suggerisce di consumarli invece di produrre l'intera quantità. Ad esempio, un articolo prodotto richiede cinque componenti semilavorati, ma tre sono già disponibili in magazzino. In questo caso, nei componenti dell'ordine di produzione vengono elencati cinque articoli semilavorati, ma solo due vengono prodotti nello stesso ordine di produzione come riga ordine di produzione separata.
+Tale impostazione non è compatibile con i prelievi in warehouse e, a seconda della frequenza, per tali articoli semilavorati devi impostare il criterio di produzione **Prod. per Magazzino** o suddividere manualmente la riga componente dell'ordine di produzione quando devi prelevare gli articoli semilavorati prodotti in precedenza.
+
 
 ## Vedere anche
 

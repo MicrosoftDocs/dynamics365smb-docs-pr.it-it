@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Prelevare articoli per la spedizione warehouse
+# Prelevare articoli per la spedizione warehouse
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], il prelievo e la spedizione degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
@@ -39,11 +39,11 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 >  
 > Per informazioni sul prelievo di componenti per gli ordini di assemblaggio, incluse le situazioni in cui l'articolo di assemblaggio è correlato a una spedizione vendita, vedi [Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse avanzate](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Controllare se gli articoli sono disponibili per il prelievo
+## Controllare se gli articoli sono disponibili per il prelievo
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Per creare documenti di prelievo in blocco con i prospetti prelievi
+## Per creare documenti di prelievo in blocco con i prospetti prelievi
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
 
@@ -93,7 +93,7 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
 8. Selezionare **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] creerà il prelievo in base alle tue selezioni.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Per prelevare articoli per una spedizione warehouse
+## Per prelevare articoli per una spedizione warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievi warehouse**, quindi scegli il collegamento correlato.  
 
@@ -110,12 +110,20 @@ Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di
 
     > [!NOTE]
     > Se è necessario prelevare o inserire gli articoli relativi a una riga in più collocazioni, ad esempio perché la collocazione designata è piena, utilizza l'azione **Dividi riga** della Scheda dettaglio **Righe**. L'azione crea una riga per la quantità rimanente da gestire.
+        
+    Puoi ordinare le righe di prelievo in base a diversi criteri, ad esempio per articolo, numero di scaffale o data di scadenza. L'ordinamento può aiutare a ottimizzare il processo di stoccaggio, ad esempio:
+
+    * Se le righe Prendere e Mettere per ciascuna riga di spedizione non sono consecutive, è possibile ordinarle selezionando **Articolo** nel campo **Metodo ordinamento**.  
+    * Se le valutazioni collocazione riflettono il layout fisico della warehouse, utilizza il metodo di ordinamento **Valutazione collocazione** per organizzare la gestione delle ubicazioni della collocazione.
+
+  > [!NOTE]  
+  > Le righe sono ordinate in ordine crescente in base ai criteri selezionati. Se ordini per documento, l'ordinamento viene eseguito prima per tipo di documento in base al campo **Documento origine attività warehouse**. Se ordini per spedizione, l'ordinamento viene eseguito prima per tipo di destinazione in base al campo **Tipo di destinazione warehouse**.
 
 4. Dopo avere prelevato e posizionato gli articoli nell'area di spedizione o nella collocazione di spedizione, scegli l'azione **Registra prelievo**.  
 
 Ora puoi immettere gli articoli al dock di spedizione e registrare la spedizione, incluso il documento di origine correlato, nella pagina **Spedizione warehouse**. Per ulteriori informazioni vedi [Spedire articoli](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 - [Panoramica della gestione warehouse](design-details-warehouse-management.md)
 - [Gestire i costi del magazzino](inventory-manage-inventory.md)  

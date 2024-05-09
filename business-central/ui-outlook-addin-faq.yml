@@ -27,12 +27,16 @@ sections:
         answer: |
           Sì. In qualità di amministratore, sviluppatore o partner, puoi modificare e creare i tuoi manifesti del componente aggiuntivo. Un modo consiste nel scaricare il manifesto di Contact Insights da ogni ambiente a cui gli utenti vogliono connettersi. Quindi, modifica i tag `<Id>` e `<DisplayName>` per consentire l'installazione di più versioni del componente aggiuntivo. Queste modifiche consentiranno all'utente di installare più componenti aggiuntivi di Business Central, ognuno dei quali punta al proprio ambiente.
 
-          ![Molteplici componenti aggiuntivi Business Central per Outlook.](media/outlook-multiple-addins.png) 
+          ![Molteplici componenti aggiuntivi Business Central per Outlook.](media/outlook-multiple-addins.png)
+      - question: |
+          Il componente aggiuntivo di Outlook mi dice che la pagina non è supportata. Perché?
+        answer: |
+          Alcune funzionalità di Business Central richiedono un'area di lavoro significativa per offrire un'esperienza ottimale e non sono disponibili quando si utilizza il riquadro dei componenti aggiuntivi di Outlook. Ad esempio, le pagine della procedura guidata dettagliata non sono disponibili nel riquadro. Per risolvere questo problema, puoi far apparire la pagina nel componente aggiuntivo utilizzando l'azione "Apri nuova finestra". La finestra popout può essere allungata a qualsiasi dimensione, inclusa l'espansione per riempire lo schermo.
 additionalContent: |
 
   ## Vedere anche
 
-  [Ottieni il componente aggiuntivo Business Central per Outlook](admin-outlook.md)  
+  [Ottenere il componente aggiuntivo Business Central per Outlook](admin-outlook.md)  
   [Utilizzare Business Central come Posta in arrivo aziendale di Outlook](work-outlook-addin.md)  
 
   [!INCLUDE[footer-include](includes/footer-banner.md)]

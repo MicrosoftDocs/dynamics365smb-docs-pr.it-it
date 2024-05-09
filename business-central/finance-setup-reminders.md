@@ -10,21 +10,21 @@ ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-reminder-terms-and-levels"></a>Impostare i termini e i livelli di sollecito
+# Impostare i termini e i livelli di sollecito
 
 Puoi utilizzare i solleciti per ricordare ai clienti gli importi scaduti e il pagamento della richiesta. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
 > [!TIP]
 > Dopo aver impostato i termini e i livelli dei solleciti, puoi includerli nei processi automatizzati per creazione, emissione e invio di solleciti. Per ulteriori informazioni sul processo automatizzato, vai a [Automatizzare i solleciti nelle riscossioni](finance-automate-reminders.md).
 
-## <a name="reminder-terms"></a>Termini di sollecito
+## Termini di sollecito
 
 Se per un cliente sono presenti pagamenti scaduti, è necessario decidere quando e con quale modalità inviare un sollecito. Può inoltre essere necessario addebitare sul relativo conto gli interessi o gli oneri. È possibile impostare un numero qualsiasi di termini di sollecito.  
 
 > [!NOTE]
 > Se si desidera calcolare gli interessi sui pagamenti scaduti, è possibile effettuare questa operazione quando si creano i solleciti. Se tuttavia desideri semplicemente calcolare gli interessi e informarne i clienti senza inviare un sollecito, utilizza una [nota di addebito degli interessi](finance-setup-finance-charges.md). Per ulteriori informazioni, vedi [Solleciti](receivables-collect-outstanding-balances.md#reminders) o [Addebiti interessi](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="set-up-attachment-and-email-body-texts-for-communications"></a>Impostare i tesi degli allegati e del corpo e-mail per le comunicazioni
+### Impostare i tesi degli allegati e del corpo e-mail per le comunicazioni
 
 Nella pagina **Impostazione dei termini di sollecito**, puoi impostare i testi degli allegati e i messaggi e-mail standard da utilizzare per tutti i livelli di sollecito o creare messaggi specifici per ciascun livello. Ad esempio, il messaggio inviato per il primo livello di sollecito potrebbe avere un tono o un contenuto diverso rispetto al secondo o al terzo. Per creare testi di allegati e messaggi e-mail per tutti i livelli, scegli **Comunicazione del cliente** nella parte superiore della pagina. Per creare messaggi per righe specifiche, nella scheda dettaglio **Livello sollecito** scegli una riga, quindi scegli l'azione **Comunicazione del cliente** nella Scheda dettaglio.
 
@@ -35,19 +35,19 @@ Quando invii un'e-mail, il sollecito è un report che alleghi all'e-mail. Puoi d
 > [!NOTE]
 > Per comunicare tramite email direttamente da [!INCLUDE [prod_short](includes/prod_short.md)] è necessario che tu sia configurato per farlo. Per ulteriori informazioni sulla connessione della posta elettronica con [!INCLUDE [prod_short](includes/prod_short.md)], vedi [Impostare la posta elettronica](admin-how-setup-email.md).
 
-### <a name="set-up-reminder-terms"></a>Impostare i termini di sollecito
+### Impostare i termini di sollecito
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Termini di sollecito**, quindi scegli il collegamento correlato.  
 2. Compilare i campi, se necessario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Per utilizzare più di una combinazione dei termini di sollecito, impostare un codice per ciascuno di essi.
 
-## <a name="reminder-levels"></a>Livelli di sollecito
+## Livelli di sollecito
 
 Per ciascun termine di sollecito puoi definire un numero illimitato di livelli di sollecito, sebbene la maggior parte delle società utilizzi solo due o tre livelli. La prima volta che si crea un sollecito per un cliente, viene utilizzata l'impostazione del livello 1. Quando si emette il solletico, il numero del livello viene registrato nei movimenti del sollecito creati e collegati ai singoli movimenti contabili cliente. Se è necessario sollecitare nuovamente il cliente, vengono controllati tutti i movimenti del sollecito collegati ai movimenti contabili cliente aperti per individuare il numero di livello più alto. Per il nuovo sollecito verranno quindi utilizzate le condizioni del numero di livello successivo.
 
 Se si creano più solleciti di quanti livelli sono stati definiti, verranno utilizzate le condizioni del livello massimo. È possibile creare tanti solleciti quanti sono consentiti dall'impostazione del campo **Nr. max solleciti** nei termini del sollecito.
 
-### <a name="to-set-up-reminder-levels"></a>Per impostare i livelli di sollecito
+### Per impostare i livelli di sollecito
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Termini di sollecito**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Termini di sollecito** selezionare la riga con i termini di sollecito per cui si desidera impostare i livelli e scegliere l'azione **Livelli**.  
@@ -107,7 +107,7 @@ Se si creano più solleciti di quanti livelli sono stati definiti, verranno util
 
 Dopo aver impostato i termini del sollecito, puoi assegnarli ai clienti nelle pagine Scheda cliente. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Inviare promemoria per saldi inevasi](receivables-send-reminders.md)  

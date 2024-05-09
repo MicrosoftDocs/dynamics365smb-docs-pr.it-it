@@ -1,19 +1,20 @@
 ---
-title: Informazioni sul calcolo costo unitario
+title: Informazioni sul calcolo del costo unitario
 description: Scopri come il metodo di determinazione dei costi e altri fattori influenzano il campo Costo unitario della scheda Articolo.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: article
-ms.date: 03/06/2022
-ms.author: bholtorf
+ms.date: 04/19/2024
 ---
-# <a name="about-unit-cost-calculation"></a>Informazioni sul calcolo costo unitario
+# Informazioni sul calcolo del costo unitario
 
 Ogni articolo ha un costo unitario che viene calcolato in base al metodo di determinazione dei costi dell'azienda e ad altri fattori. Di regola, il valore nel campo **Costo unitario** si basa sul costo *Standard* per l'articolo. Per tutti gli altri metodi di costo (*FIFO*, *LIFO*, *Specifico*, e *Media*), il costo unitario viene calcolato in base al costo unitario medio in un periodo di tempo.  
 
 Per ulteriori informazioni, vedere [Gestione dei costi di magazzino](finance-manage-inventory-costs.md).  
 
-## <a name="when-is-the-unit-cost-field-updated"></a>Quando viene aggiornato il campo del costo unitario
+## Quando viene aggiornato il campo del costo unitario
 
 Il metodo di determinazione dei costi scelto influisce sull'aggiornamento del campo **Costo unitario**.
 
@@ -33,35 +34,35 @@ Se una di queste condizioni è vera, il campo **Costo unitario** viene aggiornat
 
 Nel campo **Costo unitario** della scheda articolo, è possibile visualizzare la cronologia delle transazioni da cui viene calcolato il costo medio delle unità disponibili nel **Panoramica del calcolo dei costi medi**.
 
-## <a name="unit-cost-calculation-for-purchases"></a>Calcolo del costo unitario per gli acquisti
+## Calcolo del costo unitario per gli acquisti
 
 Quando si acquistano degli articoli, il valore contenuto nel campo **Ultimo costo diretto** nella scheda articolo viene copiato nel campo **Costo unitario diretto** di una riga di acquisto oppure nella riga **Importo unitario** di una riga di registrazione magazzino.
 
 In base all'opzione selezionata nel campo **Metodo di costing**, [!INCLUDE[prod_short](includes/prod_short.md)] calcola il contenuto del campo **Costo Unitario** delle righe.
 
-### <a name="costing-method-fifo-lifo-specific-or-average"></a>Metodo di costing FIFO, LIFO, Specifico o Medio
+### Metodo di costing FIFO, LIFO, Specifico o Medio
 
 [!INCLUDE[prod_short](includes/prod_short.md)] calcola il contenuto del campo **Costo unitario VL** della riga di acquisto o il contenuto del campo **Costo unitario** della riga di registrazione magazzino in base alla seguente formula:
 
 *Costo unitario (VL) = (Costo diretto unitario - (Importo sconto / Quantità)) x (1 + Costo indiretto % / 100) + Coefficiente costi generali*
 
-### <a name="costing-method-standard"></a>Metodo di costing standard
+### Metodo di costing standard
 
 Il campo **Costo Unitario (VL)** nella riga di acquisto e il campo **Costo Unitario** nella riga di registrazioni magazzino vengono compilati automaticamente copiando il valore nel campo **Costo Unitario** nella scheda relativa all'articolo. Utilizzando il metodo di costing impostato come *Standard*, il valore di riferimento è sempre il costo standard.
 
 Alla registrazione dell'acquisto, [!INCLUDE[prod_short](includes/prod_short.md)] usa il costo unitario dalla riga di acquisto o dalla riga di registrazioni magazzino nella fattura di acquisto. Puoi vederlo nell'elenco di voci per l'articolo.
 
-### <a name="all-costing-methods"></a>Tutti i metodi di costing
+### Tutti i metodi di costing
 
 Per calcolare il contenuto del campo **Importo costo effettivo** oppure, se pertinente, del campo **Importo costo previsto** relativo a questo movimento articolo viene sempre utilizzato il costo unitario indicato nella riga del documento di origine, indipendentemente dal metodo di costing dell'articolo.
 
-## <a name="unit-cost-calculation-for-sales"></a>Calcolo del costo unitario per le vendite
+## Calcolo del costo unitario per le vendite
 
 Quando vengono venduti degli articoli, il costo unitario viene copiato dal campo **Costo unitario** della scheda articolo alla riga di vendita o la riga di registrazioni di magazzino.
 
 Al momento della registrazione, il costo unitario viene copiato nella fattura di vendita dell'articolo e può essere visualizzato nella lista dei movimenti relativi all'articolo. Il costo unitario indicato nella riga del documento di origine viene utilizzato da [!INCLUDE[prod_short](includes/prod_short.md)] per calcolare il contenuto del campo **Importo costo effettivo** oppure, se pertinente, del campo **Importo costo previsto** nel movimento di valorizzazione connesso a questo movimento articolo.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Registrazione di nuovi articoli](inventory-how-register-new-items.md)  

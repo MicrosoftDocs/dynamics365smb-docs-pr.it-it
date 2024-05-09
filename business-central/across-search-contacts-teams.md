@@ -5,12 +5,12 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions'
-ms.date: 04/12/2021
+ms.date: 04/16/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Ricerca di clienti, fornitori e altri contatti da Microsoft Teams
+# Ricerca di clienti, fornitori e altri contatti da Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Introdotto nel primo ciclo di rilascio del 2021.
 
@@ -20,7 +20,7 @@ ms.service: dynamics-365-business-central
 - Condividi un contatto come scheda in una conversazione di Teams.
 - Visualizza i dettagli sul contatto, la cronologia delle interazioni e altri approfondimenti come pagamenti in sospeso o documenti aperti.
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti
 
 - Avere accesso a Microsoft Teams.
 - Avere installato l'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams. Per ulteriori informazioni, vedere [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)
@@ -29,13 +29,13 @@ ms.service: dynamics-365-business-central
 > [!NOTE]
 > Sia che tu stia cercando dalla casella di comando o dalla casella di composizione del messaggio, ti potrebbe essere chiesto di accedere o configurare l'app la prima volta. Questo passaggio è necessario per cercare i contatti nella società Business Central corretta. Per informazioni sulla configurazione dell'app per scegliere la tua azienda, vedi [Modifica della società e di altre impostazioni in Teams](across-teams-settings.md).
 
-## <a name="look-up-contacts-from-the-command-box"></a>Cerca i contatti dalla casella di comando
+## Cerca i contatti dalla casella di comando
 
 La casella di comando si trova nella parte superiore di ogni schermata in Teams. Ti consente di cercare, eseguire azioni rapide o avviare app, come l'app [!INCLUDE [prod_short](includes/prod_short.md)]. La ricerca dalla casella di comando è ottima per cercare rapidamente i contatti e i relativi dati per uso personale. Supponi, ad esempio, di voler cercare un indirizzo di posta elettronica di un fornitore per organizzare una riunione del calendario. Oppure vuoi cercare la cronologia delle interazioni durante una riunione con un cliente.
 
-1. Nella casella di comando, digita **@Business Central**, quindi seleziona l'app Business Central dai risultati.
+1. Nella casella di comando, digita **/Business Central**, quindi seleziona l'app Business Central dai risultati.
 
-    ![Apri l'app Business Central per cercare i contatti dalla casella di comando.](media/teams-contacts-command-1.png)
+    ![Apri l'app Business Central per cercare i contatti dalla casella di comando.](media/teams-contacts-command-1a.png)
 
 2. Nella casella **Business Central**, inizia a digitare il testo di ricerca, come un nome, un indirizzo o un numero di telefono.
 
@@ -50,7 +50,7 @@ La casella di comando si trova nella parte superiore di ogni schermata in Teams.
 
 Per informazioni più generali sulla casella di comando in Teams, vedi [Teams: utilizza la casella di comando](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## <a name="look-up-contacts-from-the-message-compose-box"></a>Cerca i contatti dalla casella di composizione del messaggio
+## Cerca i contatti dalla casella di composizione del messaggio
 
 Il vantaggio di utilizzare la casella di composizione del messaggio è che puoi aggiungere una scheda del contatto direttamente a una conversazione, affinché gli altri possano vederla.
 
@@ -72,13 +72,14 @@ Il vantaggio di utilizzare la casella di composizione del messaggio è che puoi 
     > [!NOTE]
     > La scheda del contatto non viene inviata immediatamente alla conversazione in modo che gli altri possano vederla. Hai la possibilità di rivedere il contenuto della scheda e aggiungere del testo prima o dopo di essa come preferisci. Quindi, invia il tuo messaggio alla chat quando sei pronto.
 
-### <a name="heres-another-way"></a>Ecco un altro modo
+<!--
+### Here's another way
 
-1. Invece di usare l'icona **Business Central**, digita **@Business Central** direttamente nella casella di composizione del messaggio.
-2. Immetti i termini di ricerca nella casella.
-3. Utilizza i tasti freccia su e giù sulla tastiera per scegliere un contatto, quindi premi <kbd>Invio</kbd> per selezionarlo.
+1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
+2. Enter your search terms in the box.
+3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.-->
 
-## <a name="viewing-contact-card-details"></a>Visualizzazione dei dettagli della scheda del contatto
+## Visualizzazione dei dettagli della scheda del contatto
 
 La scheda del contatto in Teams offre una rapida panoramica del cliente, fornitore o del contatto. La scheda è interattiva&mdash;ciò significa che puoi visualizzare più informazioni o persino modificare un contatto utilizzando i pulsanti **Dettagli** o **Apri nuova finestra**.
 
@@ -89,7 +90,7 @@ La scheda del contatto funziona come le schede per i record, come articoli, clie
 > [!NOTE]
 > Tutti i partecipanti a una conversazione di Teams saranno in grado di visualizzare il contatto Business Central inviato alla conversazione. Tuttavia per visualizzare maggiori dettagli sui record, utilizzando i pulsanti **Dettagli** o **Apri nuova finestra** in una scheda, sarà necessario accedere a [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Gestione dell'integrazione di Microsoft Teams](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'integrazione di Business Central e Microsoft Teams](across-teams-overview.md)  
 [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  

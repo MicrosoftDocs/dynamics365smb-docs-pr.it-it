@@ -1,12 +1,12 @@
 ---
-title: Informazioni sulla contabilità generale e COA
+title: Informazioni sulla contabilità generale e sul piano dei conti
 description: 'Descrive la contabilità generale, il piano dei conti e le categorie dei conti. Usa la pagina Setup contabilità generale per specificare le modalità di gestione di determinate questioni contabili relative alla società.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'analysis, history, track'
 ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
-ms.date: 12/19/2023
+ms.date: 04/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -18,31 +18,34 @@ La contabilità generale (C/G) memorizza i dati finanziari e il piano dei conti 
 
 Il setup della contabilità generale svolge un ruolo fondamentale nei processi finanziari perché definisce il modo in cui vengono registrati i dati. Due pagine in particolare svolgono un ruolo importante nella configurazione dei processi finanziari:  
 
-* La pagina **Setup contabilità generale**
+* **Setup contabilità generale**
+* **Setup Registrazioni Generali**
 
-  Nella pagina **Setup contabilità generale** è possibile specificare le modalità di gestione di determinate questioni contabili relative alla società, quali:  
+### La pagina **Setup contabilità generale**
 
-  * Dettagli relativi all'arrotondamento delle fatture  
-  * Formati indirizzi  
-  * Report finanziari
+Utilizza la pagina **Setup contabilità generale** per specificare le modalità di gestione di determinate questioni contabili relative alla società, quali:  
 
-  > [!TIP]
-  > La pagina **Setup contabilità generale** include campi generici e campi specifici per il paese o la regione. Se non si è certi del significato di un campo, suggeriamo di collaborare con il contabile per determinare se è rilevante per l'organizzazione. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+* Dettagli relativi all'arrotondamento delle fatture  
+* Formati indirizzi  
+* Report finanziari
 
-  Apri la pagina [qui](https://businesscentral.dynamics.com/?page=118).
-  
-* La pagina **Setup registrazioni COGE**
+> [!TIP]
+> La pagina **Setup contabilità generale** include campi generici e campi specifici per il paese o la regione. Se non sei certo del significato di un campo, ti consigliamo di collaborare con il contabile per determinare se è rilevante per l'organizzazione. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-  Analogamente, nella pagina **Setup registrazioni COGE** è possibile specificare come si desidera impostare le combinazioni di categorie di registrazione business generale e le categorie di registrazione di articoli e servizi. I gruppi di registrazione mappano entità come clienti, venditori, articoli, risorse e documenti di vendita e acquisto ai conti della contabilità generale. Compilare una riga per ogni combinazione di categorie di registrazione business e di categorie di registrazione articoli/servizi. Ma è anche possibile aprire ogni riga nella relativa scheda di setup della registrazione. Per ulteriori informazioni vedi [Setup categorie di registrazione](finance-posting-groups.md).  
+Per aprire subito la pagina, utilizza il seguente collegamento [Setup contabilità generale](https://businesscentral.dynamics.com/?page=118).
 
-  > [!TIP]
-  > Se non riesci a vedere i campi cercati nella pagina **Setup registrazioni COGE**, utilizza la barra di scorrimento orizzontale nella parte inferiore della pagina per scorrere verso destra.  
+### La pagina **Setup registrazioni COGE**
 
-  Apri la pagina [qui](https://businesscentral.dynamics.com/?page=314).
+Utilizza la pagina **Setup registrazioni COGE** per impostare combinazioni di categorie di registrazione business e di categorie di registrazione articoli/servizi. I gruppi di registrazione mappano entità come clienti, venditori, articoli, risorse e documenti di vendita e acquisto ai conti della contabilità generale. Compilare una riga per ogni combinazione di categorie di registrazione business e di categorie di registrazione articoli/servizi. Ma è anche possibile aprire ogni riga nella relativa scheda di setup della registrazione. Per ulteriori informazioni vedi [Setup categorie di registrazione](finance-posting-groups.md).  
+
+> [!TIP]
+> Se non riesci a vedere i campi cercati nella pagina **Setup registrazioni COGE**, utilizza la barra di scorrimento orizzontale nella parte inferiore della pagina per scorrere verso destra.  
+
+Per aprire subito la pagina, utilizza il collegamento [Setup registrazioni COGE](https://businesscentral.dynamics.com/?page=314).
 
 ## Il piano dei conti
 
-Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei conti è possibile eseguire operazioni, quali:  
+Nella pagina **Piano dei conti** sono visualizzati tutti i conti C/G. Tramite il piano dei conti è possibile eseguire operazioni, quali:  
 
 * Visualizzare i report che mostrano i movimenti e i saldi di contabilità generale.  
 * Chiudere il conto economico.  
@@ -50,7 +53,7 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 * Visualizza una lista delle categorie di registrazione per il conto.
 * Visualizza i saldi attivi e passivi separatamente per un singolo conto.
 
-È possibile aggiungere, modificare o eliminare i conti di contabilità generale. Tuttavia, per evitare le differenze, non è possibile eliminare un conto di contabilità generale se i relativi dati vengono utilizzato nel piano dei conti. Inoltre, a partire dal secondo ciclo di rilascio del 2022, puoi anche bloccare l'eliminazione accidentale di conti in periodi sensibili. Ulteriori informazioni nella sezione [Eliminazione di conti](finance-setup-chart-accounts.md#delete-accounts).  
+Per saperne di più, vedi [Informazioni sul piano dei conti](finance-chart-of-accounts.md)
 
 ## Categorie di conti
 
@@ -66,7 +69,7 @@ Puoi creare un gruppo di categoria definendo un'indentazione di altre categorie 
 
 Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai *contanti* nei *cespiti correnti*. Se vuoi che nell'estratto conto vengano considerate la piccola cassa e il conto assegni, effettua questi passaggi:
 
-1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie conto C/G**, quindi scegli il collegamento correlato.
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie conto C/G**, quindi scegli il collegamento correlato.
    1. In alternativa, apri la pagina [qui](https://businesscentral.dynamics.com/?page=790).
 2. Scegliere l'azione **Modifica lista**.
 3. Aggiungi due nuove sottocategorie: una per la piccola cassa e una per il conto assegni:
@@ -81,7 +84,7 @@ Ad esempio, l'estratto conto di default presenta una sottocategoria relativa ai 
    3. Scegli l'azione **Sposta giù**.
    4. Scegli l'azione **Rientra** per impostare un rientro nella sottocategoria **Cassa**.
 
-Quando scegli l'azione **Genera report finanziari**, o la prossima volta che viene generato il report, il tuo estratto conto mostrerà le seguenti righe:
+Quando scegli l'azione **Genera report finanziari** o la prossima volta che viene generato il report, il tuo estratto conto mostrerà le seguenti righe:
 
 * Saldo totale per contanti.
 * Righe con saldi per piccola cassa e conto corrente.  
@@ -89,17 +92,20 @@ Quando scegli l'azione **Genera report finanziari**, o la prossima volta che vie
 > [!NOTE]
 > Se crei un conto C/G senza assegnare una categoria di conto, quando assegni il conto a un gruppo di registrazione [!INCLUDE[prod_short](includes/prod_short.md)] assegna automaticamente la categoria conto dal conto C/G immediatamente sopra il conto nel piano dei conti. Tuttavia, per includere il nuovo conto nei tuoi report finanziari, devi scegliere l'azione **Genera report finanziari** nella pagina **Categorie di conti C/G**. In alternativa, puoi aprire la pagina Scheda conto C/G, specificare la categoria del conto e quindi rigenerare il tuo report finanziario.
 
-## Ottenere una rapida visione d'insieme
+## Accedere per creare e modificare conti C/G e categorie di conti
 
-La pagina **Piano dei conti** visualizza i conti in una lista gerarchica che offre un accesso veloce alle informazioni chiave per ogni conto. Tuttavia, l'elenco è statico, e se hai molti account potresti dover scorrere per visualizzare diversi account. Se vuoi solo una rapida panoramica delle basi, come i cambiamenti netti e i saldi, la pagina **Sintesi del piano dei conti** è un'utile alternativa. Il layout delle colonne sulla pagina è ora lo stesso che troverai nella pagina **Piano dei conti** (anche se con meno colonne), quindi non dovrai riorientarti. È possibile espandere o comprimere i livelli gerarchici per condensare la vista. Per facilitare il passaggio tra le pagine, la pagina **Panoramica del piano dei conti** è disponibile dalla pagina **Piano dei conti**.
+In una piccola organizzazione, come la società demo CRONUS, la maggior parte degli utenti può modificare le entità finanziarie come conti C/G, categorie di conti e il piano dei conti ad eccezione degli utenti con una licenza MEMBRO DEL TEAM. Tuttavia, le organizzazioni più grandi in genere utilizzano ruoli e autorizzazioni per limitare l'accesso alla modifica di tali entità. Se sei un amministratore o hai il ruolo *Manager aziendale* o *Contabile*, puoi controllare le autorizzazioni utente per assicurarti che le persone giuste abbiano accesso alle tabelle pertinenti. Per ulteriori informazioni, vedi [Ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
-## Accesso per creare e modificare conti e categorie di conti
+## Utilizzare le dimensioni per semplificare il piano dei conti
 
-In una piccola organizzazione, come la società dimostrativa CRONUS, la maggior parte degli utenti può modificare il piano dei conti, ad eccezione degli utenti con una licenza membro del team. Tuttavia, le organizzazioni più grandi in genere utilizzano ruoli e autorizzazioni per limitare l'accesso alla modifica del piano dei conti. Se sei un amministratore o hai il ruolo *Manager aziendale* o *Contabile*, puoi controllare le autorizzazioni utente per assicurarti che le persone giuste abbiano accesso alle tabelle pertinenti. Per ulteriori informazioni, vedi la sezione [Ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
+Le dimensioni sono valori che categorizzano i movimenti in modo da poterli seguire e analizzare nei documenti, ad esempio ordini vendita. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene. Quindi, anziché impostare conti di contabilità generale distinti per ogni reparto e progetto, è possibile utilizzare le dimensioni come base per l'analisi ed evitare di dover creare un piano dei conti complesso.
+
+Per ulteriori informazioni sulle dimensioni, vedi [Impostare le dimensioni di default per clienti, fornitori e altri conti](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
 ## Vedere anche
 
-[Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md)  
+[Informazioni sul piano dei conti](finance-chart-of-accounts.md)  
+[Usare le dimensioni](finance-dimensions.md)  
 [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md)  
 [Business Intelligence](bi.md)  
 [Finanze](finance.md)  

@@ -1,35 +1,35 @@
 ---
-title: Impostare o modificare il piano dei conti (video)
-description: Informazioni su come configurare il piano dei conti per mostrare i conti di contabilità che memorizzano i dati finanziari.
+title: Impostare o modificare il piano dei conti (con video)
+description: Informazioni su come configurare il piano dei conti con i conti di contabilità che memorizzano i dati finanziari.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 12/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Impostare o modificare il piano dei conti
+# Impostare o modificare il piano dei conti
 
 Il piano dei conti mostra i conti di contabilità che memorizzano i dati finanziari. [!INCLUDE[prod_short](includes/prod_short.md)] include un piano dei conti standard pronto per supportare l'azienda. Tuttavia, puoi modificare i conti predefiniti e aggiungere nuovi conti.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Aggiungere o cambiare conti
+## Aggiungere o cambiare conti
 
 Nel piano dei conti, puoi aprire ogni conto di contabilità generale (C/G) e aggiungere o modificare le impostazioni. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
 In caso di necessità è possibile utilizzare più di una riga per il nome di un conto C/G. Nella pagina **Scheda conto C/G** nel gruppo **Conto** scegli **Testi estesi**, quindi compila una o più righe con il nome del conto e il testo copiato.  
 
-Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo **Totale finale** questo campo viene compilato automaticamente tramite la funzione di indentazione. Dopo aver impostato tutti gli account, scegli l'azione **Elabora**, quindi scegli **Indenta piano dei conti**.  
+Per i conti di tipo **Totale** compila il campo **Totale**. Per i conti di tipo **Totale Finale** questo campo viene compilato automaticamente tramite la funzione di indentazione. Dopo aver impostato gli account, scegli l'azione **Elabora**, quindi scegli **Indenta piano dei conti**.  
 
 > [!IMPORTANT]
 > Se le definizioni per i conti **Totale Finale** sono state immesse nei campi **Totale** prima di eseguire la funzione di indentazione, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Totale finale**.
 
-## <a name="delete-accounts"></a>Eliminare conti
+## Eliminare conti
 
 È possibile eliminare un conto di contabilità generale. Tuttavia, prima che venga eliminato, è necessario soddisfare le seguenti condizioni:  
 
@@ -43,13 +43,17 @@ Puoi anche specificare quando consentire alle persone di eliminare gli account. 
 
 L'attivazione del campo **Blocca eliminazione conti C/G** spesso è una procedura consigliata, così come l'impostazione della data nel campo **Verifica eliminazione conti C/G posteriori a**, ad esempio la data entro la quale ti viene richiesto di archiviare i dati finanziari.  
 
-### <a name="video-guidance"></a>Guida video
+### Guida video
 
 Questo video mostra come specificare se e quando gli utenti possono eliminare i conti CoGe.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Vedi anche
+## Percorso di apprendimento: Impostare il piano dei conti in Dynamics 365 Business Central
+
+Per impostare il piano dei conti in [!INCLUDE [prod_short](includes/prod_short.md)], inizia il percorso di apprendimento [Impostare il piano dei conti in Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
+
+## Vedere anche
 
 [Contabilità generale e piano dei conti](finance-general-ledger.md)  
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  

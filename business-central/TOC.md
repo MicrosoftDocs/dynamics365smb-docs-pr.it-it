@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)
 
 ### Utilizzare il piano dei conti e la contabilità generale (C/G)
-#### [Comprendere il piano dei conti e la contabilità generale](finance-general-ledger.md)
+#### [Informazioni sulla contabilità generale](finance-general-ledger.md)
+#### [Informazioni sul piano dei conti](finance-chart-of-accounts.md)
 #### [Rivedere i conti](finance-review-accounts.md)
 #### [Rivalutare i saldi dei conti di contabilità generale](finance-revalue-account-balances.md)
 #### [Registrare le transazioni direttamente nella contabilità generale](finance-how-post-transactions-directly.md)
@@ -477,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [Impostare e pubblicare un servizio Web con indicatori KPI basato sul reporting finanziario](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analizzare i dati con conti statistici](bi-use-statistical-accounts.md)
 #### [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)
-#### [Creare report di analisi](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -495,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Vendite
 ### [Panoramica delle vendite](sales-manage-sales.md)
-### [Report vendite](sales-reports.md)
+### Analisi delle vendite 
+#### [Panoramica dell'analisi delle vendite](sales-analytics-overview.md)
+#### [Creare report di analisi delle vendite](bi-how-create-analysis-views-reports.md)
+#### [Analisi ad hoc dei dati delle vendite](ad-hoc-analysis-sales.md)
+#### [Report delle vendite predefiniti](sales-reports.md)
+
 ### [Procedura dettagliata: conduzione di una campagna di vendita](walkthrough-conducting-a-sales-campaign.md)
 ### [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Registrare nuovi clienti](sales-how-register-new-customers.md)
@@ -522,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Acquisti
 ### [Panoramica degli acquisti](purchasing-manage-purchasing.md)
-### [Report di acquisto](purchase-reports.md)
+### Analisi degli acquisti 
+#### [Panoramica dell'analisi degli acquisti](purchasing-analytics-overview.md)
+#### [Analisi ad hoc dei dati degli acquisti](ad-hoc-analysis-purchasing.md)
+#### [Report degli acquisti predefiniti](purchase-reports.md)
 ### [Procedura dettagliata: impostazione e utilizzo di un workflow di approvazione di acquisto](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Registrazione degli acquisti](purchasing-how-record-purchases.md)
 ### [Richiesta di offerte](purchasing-how-request-quotes.md)
@@ -577,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Cespiti
 ### [Panoramica dei cespiti](fa-manage.md)
+### Analisi dei cespiti
+#### [Panoramica dell'analisi dei cespiti](fa-analytics-overview.md)
+#### Strumenti integrati di analisi dei cespiti
+##### [Monitorare i costi di manutenzione](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitorare la copertura assicurativa](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [Visualizzare i valori del registro beni ammortizzabili modificati](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Report sui cespiti predefiniti](fa-reports.md)
 ### [Impostare i cespiti](fa-setup.md)
 ### [Metodi di ammortamento](fa-depreciation-methods.md)
-### [Report e analisi dei cespiti](fa-reports.md)
+### [Gestire budget per i cespiti](fa-how-manage-budgets.md)
 ### [Acquisire cespiti](fa-how-acquire.md)
 ### [Gestire cespiti](fa-how-maintain.md)
 ### [Assicurare cespiti](fa-how-insure.md)
@@ -587,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Rivalutare i cespiti](fa-how-revalue.md)
 ### [Ammortizzare cespiti](fa-how-depreciate-amortize.md)
 ### [Smaltire o ritirare cespiti](fa-how-dispose-retire.md)
-### [Gestire budget per i cespiti](fa-how-manage-budgets.md)
 ### [Risoluzione dei problemi relativi ai movimenti contabili per i cespiti](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Gestione delle relazioni
 ### [Panoramica della gestione delle relazioni](marketing-relationship-management.md)
@@ -1758,7 +1775,7 @@ ms.service: dynamics-365-business-central
 ###### [Creare i report per la visualizzazione dei dati di elenco](across-how-use-powerbi-reports-factbox.md)
 ##### Utente aziendale
 ###### [Usare i report Power BI in Business Central](across-working-with-powerbi.md)
-###### [Usare i dati Business Central in Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Connettersi a Power BI da Business Central locale](across-working-with-business-central-in-powerbi.md)
 ###### [Usare le app Business Central in Power BI](across-powerbi-business-central-apps.md)
 ##### [Domande frequenti](power-bi-faq.md)
 #### Usare Power Automate con Business Central
@@ -1785,8 +1802,22 @@ ms.service: dynamics-365-business-central
 # Analisi, business Intelligence e reporting 
 
 ## [Panoramica dell'analisi](reports-bi-reporting.md)
-## [Uso degli indicatori KPI per soddisfare gli obiettivi aziendali](./analytics-about-kpis.md)
+## [Uso degli indicatori di prestazioni chiave (KPI) per soddisfare gli obiettivi aziendali](./analytics-about-kpis.md)
 ## [Uso del reporting finanziario](bi-how-work-account-schedule.md)
+
+## Analisi dei dati ad hoc
+### [Panoramica](reports-adhoc-analysis.md)
+### [Ordinare, cercare e filtrare](ui-enter-criteria-filters.md)
+### [Domande frequenti sulla ricerca e sui filtri](ui-search-filter-faq.yml)
+### [Analizzare dati di pagina in Excel](across-work-with-excel.md)
+### [Analizzare dati di report con Excel](report-analyze-excel.md)
+### [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md)
+
+## Strumenti di analisi integrati
+### [Panoramica](reports-built-in-analytics.md)
+### [Usare i report Power BI](across-working-with-powerbi.md)
+### [Informazioni intelligenti (locale)](about-intelligent-cloud.md)
+### [Report per la telemetria di utilizzo](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 ## Usare i report nel lavoro quotidiano
 ### [Panoramica](reports-use-reports.md)
@@ -1857,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Panoramica delle offerte assistenza](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Panoramica del documento di assistenza registrato](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Analisi dei dati ad hoc
-### [Panoramica](reports-adhoc-analysis.md)
-### [Ordinare, cercare e filtrare](ui-enter-criteria-filters.md)
-### [Domande frequenti sulla ricerca e sui filtri](ui-search-filter-faq.yml)
-### [Analizzare dati di pagina in Excel](across-work-with-excel.md)
-### [Analizzare dati di report con Excel](report-analyze-excel.md)
-### [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md)
-### [Business Intelligence finanziario](bi.md)
-
-## Analisi integrate 
-### [Panoramica](reports-built-in-analytics.md)
-### [Informazioni intelligenti](about-intelligent-cloud.md)
-### [Usare i report Power BI](across-working-with-powerbi.md)
-### [Business Intelligence finanziario](bi.md)
-### [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md)
-### [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)
-### [Report per la telemetria di utilizzo](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analizzare i dati negli strumenti di business intelligence
-### [Panoramica](reports-external-analysis.md)
-### [Microsoft Fabric e Business Central](admin-fabric.md)
-### [Usare Power BI con Business Central](admin-powerbi.md)
-### [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md)
-### [Estrarre dati in data warehouse o data lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Leggere dati con l'API di Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Sviluppare report
 ### [Panoramica](reports-develop-reports.md)
 ### Sviluppare i layout di report
@@ -1901,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Sviluppare set di dati di report
 #### [Guida allo sviluppo del report](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Guida all'ottimizzazione delle prestazioni del report](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Analizzare i dati negli strumenti di business intelligence
+### [Panoramica](reports-external-analysis.md)
+### [Microsoft Fabric e Business Central](admin-fabric.md)
+### [Usare Power BI con Business Central](admin-powerbi.md)
+### [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md)
+### [Estrarre dati in data warehouse o data lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Leggere dati con l'API di Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Sicurezza, privacy e conformità
 ## Sicurezza e protezione

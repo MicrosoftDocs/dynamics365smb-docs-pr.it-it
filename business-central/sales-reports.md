@@ -26,6 +26,8 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 
 ## Vedere anche
 
+[Panoramica delle analisi delle vendite](sales-analytics-overview.md)   
+[Analisi ad hoc dei dati sulle vendite](ad-hoc-analysis-sales.md)    
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
 [Prenotare articoli](inventory-how-to-reserve-items.md)

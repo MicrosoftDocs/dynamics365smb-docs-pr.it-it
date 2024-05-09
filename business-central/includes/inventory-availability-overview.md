@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ Le informazioni rispettano anche altri fattori che influenzano la disponibilità
 > [!NOTE]
 > Questa funzionalità richiede l'attivazione dell'interruttore **Stoccaggi e prelievi guidati** per le posizioni che utilizzi nel processo di prelievo.
 
-### <a name="set-up-previews"></a>Configurare le anteprime
+### Configurare le anteprime
 
 Per ottenere dettagli su cosa viene prelevato e cosa no, attiva l'interruttore **Mostra riepilogo (stoccaggi e prelievi guidati)** nella pagina di richiesta **Whse.- Origine - Crea documento** o **Whse.- Spediz. - Crea prelievo**.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Determinare la quantità che è possibile prelevare
+### Determinare la quantità che è possibile prelevare
 
 Nelle righe della pagina **Crea riepilogo prelievi warehouse** il campo **Qtà da gestire (base)** mostra quali e quanti articoli [!INCLUDE [prod_short](prod_short.md)] ha provato a prelevare. Il Dettaglio informazioni **Riepilogo** fornisce maggiori dettagli.
 
@@ -57,7 +57,7 @@ L'immagine seguente illustra la quantità massima presa in considerazione per il
 |B     |Collocazioni con contenuto di tipo Prelievo con articoli con movimentazione in uscita bloccata         |
 |O     |Altre collocazioni         |
 
-### <a name="reservations"></a>Prenotazioni
+### Prenotazioni
 
 Se sono presenti impegni per l'articolo da prelevare, il calcolo continua. L'idea è che la domanda impegnata abbia una priorità più alta rispetto a quella non impegnata, il che significa che il prelievo per la domanda non impegnata non dovrebbe impedire il prelievo per la domanda impegnata in seguito.
 
@@ -70,12 +70,29 @@ Il campo **Qtà disponibile escluso il contenitore di spedizione** mostra la qua
 * Sono già prelevate per le spedizioni.
 * Si trovano in numeri di serie o lotti di articoli bloccati.
 * Sono in collocazioni bloccate.
+* Sono in collocazioni dedicate.
 
 Queste quantità potrebbero essere disponibili, ma è possibile che non tu non sia ancora in grado di prelevarle. Potrebbero trovarsi ancora nelle aree di carico, stoccaggio o controllo qualità. Puoi spostarle nell'area di prelievo elaborando un prospetto di stoccaggio o movimentazione.
 
 La differenza tra la quantità in **Qtà disponibile escluso il contenitore di spedizione** e la quantità impegnata in warehouse è la quantità disponibile per il prelievo senza incidere sullo stock impegnato.
 
-### <a name="other-details"></a>Altri dettagli
+L'immagine seguente illustra l'allocazione della quantità disponibile per la quantità impegnata.
+
+:::image type="content" source="../media/Warehouse_Reservation_Pick.png" alt-text="Quantità massima considerata per il prelievo al momento della prenotazione.":::
+
+**Legenda**
+
+|Lettera  |Descrizione  |
+|---------|---------|
+|P     |Quantità da prelevare         |
+|TR    |Qtà totale impegnata in warehouse.         |
+|RS    |Le quantità impegnate già prelevate e pronte per la spedizione, l'utilizzo o il consumo       |
+|A     |Qtà disponibile escluso il contenitore di spedizione         |
+|B     |Quantità in collocazioni dedicate o bloccate, lotti di articoli bloccati o numeri di serie         |
+
+Sebbene nella warehouse sia disponibile una quantità sufficiente per soddisfare completamente il prelievo, ciò porterà al fatto che la quantità totale impegnata verrà allocata rispetto alle quantità nelle collocazioni dedicate o bloccate, impedendo il prelievo per questa domanda. Poiché la domanda impegnata ha una priorità più alta, [!INCLUDE [prod_short](prod_short.md)] riduce la quantità da prelevare per evitare un impatto negativo, come l'impossibilità di prelevare, sulla domanda impegnata.
+
+### Altri dettagli
 
 Se gli articoli richiedono la tracciabilità articolo, puoi anche trovare la quantità in lotti o numeri di serie bloccati, il che comporta le seguenti riduzioni:
 

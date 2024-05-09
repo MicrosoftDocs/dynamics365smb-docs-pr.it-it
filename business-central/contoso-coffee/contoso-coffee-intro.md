@@ -11,17 +11,17 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduzione ai dati demo Contoso Coffee
+# Introduzione ai dati demo Contoso Coffee
 
 Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per [!INCLUDE [prod_short](../includes/prod_short.md)] aggiungono i dati demo che puoi usare per imparare a usare le funzionalità in [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="set-up-contoso-coffee-data"></a>Impostare i dati di Contoso Coffee
+## Impostare i dati di Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
 Una volta installate le app, nella pagina **Strumento demo Contoso** utilizza l'azione **Configura** per preparare i seguenti moduli. Puoi scegliere di installare tutti i dati disponibili, inclusi i dati di configurazione e produzione, oppure solo i dati di configurazione.
 
- - Il **Modulo comune** per preparare le impostazioni generali che [!INCLUDE [prod_short](../includes/prod_short.md)] richiede. Ad esempio, cose come serie numeriche. 
+ - Il **Modulo comune** per preparare le impostazioni generali che [!INCLUDE [prod_short](../includes/prod_short.md)] richiede. Ad esempio, cose come serie numeriche. Tieni presente che il **Modulo comune** contiene dati supplementari solo per gli scenari Warehouse, Produzione e Assistenza. Non è consigliabile eseguirlo singolarmente.
 
 Nella seguente tabella vengono illustrate le impostazioni:  
 
@@ -39,7 +39,7 @@ Nella seguente tabella vengono illustrate le impostazioni:
 
 Dopo aver configurato i moduli che desideri provare, scegli l'azione **Genera** per creare dati dimostrativi per tali moduli.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Produzione](../production-manage-manufacturing.md)  
 [Warehousing](../warehouse-manage-warehouse.md)  

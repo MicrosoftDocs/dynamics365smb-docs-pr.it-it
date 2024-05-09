@@ -6,12 +6,12 @@ ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
 ms.reviewer: jswymer
-ms.date: 09/28/2023
+ms.date: 04/24/2024
 ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="introduction-to-business-central-and-power-bi"></a>Introduzione a [!INCLUDE[prod_short](includes/prod_short.md)] e Power BI
+# Introduzione a Business Central e Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,13 +19,13 @@ Ottenere informazioni dettagliate sui dati [!INCLUDE[prod_short](includes/prod_s
 
 ![Power BI e Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-business-central"></a>Operazioni che è possibile eseguire con Power BI e [!INCLUDE[prod_short](includes/prod_short.md)]
+## Cosa puoi fare con Power BI e Business Central
 
 Ci sono varie funzionalità da utilizzare con [!INCLUDE[prod_short](includes/prod_short.md)] e Power BI. Alcune cose possono essere eseguite in Power BI, mentre altre vengono fatte da [!INCLUDE[prod_short](includes/prod_short.md)]. Inoltre, alcune funzionalità sono disponibili solo con [!INCLUDE[prod_short](includes/prod_short.md)] online e non in locale. La tabella seguente offre una panoramica.
 
 |Funzionalità|Descrizione|Online|Locale|Ulteriori informazioni|
 |-------|-----------|--------------|-----------|----------------|
-|Visualizzare dati [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI|È possibile visualizzare i dati da [!INCLUDE[prod_short](includes/prod_short.md)] nei report in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online include alcuni report Power BI predefiniti. Oppure l'organizzazione potrebbe aver reso disponibili alcuni report personalizzati.|![Funziona online.](media/check.png)|![Funziona in locale](media/check.png)|[Qui...](across-working-with-business-central-in-powerbi.md)|
+|Visualizzare dati [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI|È possibile visualizzare i dati da [!INCLUDE[prod_short](includes/prod_short.md)] nei report in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online include alcuni report Power BI predefiniti. Oppure l'organizzazione potrebbe aver reso disponibili alcuni report personalizzati.|![Funziona online.](media/check.png)|![Funziona in locale](media/check.png)|[Qui...](across-working-with-powerbi.md)|
 |Visualizzare report Power BI nel client [!INCLUDE[prod_short](includes/prod_short.md)].| I report Power BI che visualizzano dati [!INCLUDE[prod_short](includes/prod_short.md)] possono essere incorporati direttamente nelle pagine [!INCLUDE[prod_short](includes/prod_short.md)] delle parti. È possibile cambiare la parte per visualizzare qualsiasi report reso disponibile. |![disponibile online.](media/check.png)|![Funziona in locale](media/check.png)<sup>[*](#onprem)</sup>|[Qui...](across-working-with-powerbi.md).|
 |Creare report e dashboard in Power BI che visualizzano dati [!INCLUDE[prod_short](includes/prod_short.md)].|Usare Power BI Desktop per creare report e dashboard personalizzati. È possibile pubblicare i report nel servizio Power BI o condividerli con altri utenti dell'organizzazione.|![Funziona online.](media/check.png)|![funziona in locale](media/check.png)|[Qui...](across-how-use-financials-data-source-powerbi.md)|
 |App [!INCLUDE[prod_short](includes/prod_short.md)] in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] pubblica tre app per Power BI in Microsoft AppSource. Queste app creano report e dashboard dettagliati nel servizio Power BI per la visualizzazione dei dati [!INCLUDE[prod_short](includes/prod_short.md)]. Le app disponibili includono: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Funziona online.](media/check.png)||[Qui...](across-powerbi-business-central-apps.md)|
@@ -33,7 +33,7 @@ Ci sono varie funzionalità da utilizzare con [!INCLUDE[prod_short](includes/pro
 
 <a name="onprem"><sup>*</sup></a>Questa funzione richiede un'applicazione registrata per Business Central in Microsoft Azure. Per ulteriori informazioni, vedi [Registrazione di Business Central locale in Microsoft Entra ID per l'integrazione con altri servizi](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Preparati all'uso di Power BI
+## Preparati all'uso di Power BI
 
 Ci sono alcune attività che devono essere eseguite prima di poter iniziare a utilizzare Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Le attività dipenderanno dal tuo ruolo nella tua organizzazione e da cosa vuoi fare con Power BI:
 
@@ -46,9 +46,9 @@ Ci sono alcune attività che devono essere eseguite prima di poter iniziare a ut
 |Ottenere un account Power BI.|![ancora un altro segno di spunta.](media/check.png)|![è un segno di spunta](media/check.png)|![ancora un segno di spunta](media/check.png)|Vai a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Per accedere per un account utilizzare l'indirizzo e-mail e la password di lavoro. <br /><br/>La registrazione richiede una licenza, ma nella maggior parte dei casi dovrebbe già essere disponibile una licenza gratuita. Per ulteriori informazioni, vedi [Licenze di Power BI](admin-powerbi-setup.md#license).|
 |Ottenere Power BI Desktop|||![ancora un segno di spunta.](media/check.png)|Per scaricare, vai su [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Per ulteriori informazioni, vedere [Ottenere Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
 |Esponi i dati di Business Central in Power BI||![è un segno di spunta.](media/check.png)|![ancora un segno di spunta](media/check.png)|[Esporre i dati tramite pagine API o servizi web OData](admin-powerbi-setup.md#exposedata)
-|Abilita integrazione di Power BI<br />(solo locale)||![è un segno di spunta.](media/check.png)||[Impostare Business Central locale per l'integrazione con Power BI](admin-powerbi-setup.md#setup)|
+|Abilita integrazione di Power BI<br />(solo locale)||![è un segno di spunta.](media/check.png)||[Impostare Business Central locale per l'integrazione con Power BI](across-working-with-business-central-in-powerbi.md#setup)|
 
-## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Tieni traccia dei tuoi indicatori KPI aziendali con le metriche Power BI
+## Tieni traccia dei tuoi indicatori KPI aziendali con le metriche Power BI
 
 Se utilizzi Power BI su dati [!INCLUDE[prod_short](includes/prod_short.md)], è facile tenere traccia degli indicatori KPI o delle metriche importanti per te. 
 
@@ -68,12 +68,12 @@ Per ulteriori informazioni sulle metriche Power BI, vedi [Introduzione alle metr
 > [!NOTE]
 > A partire dal secondo ciclo di rilascio di Business Central 2023, è possibile incorporare scorecard da metriche di Power BI in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="next-steps"></a>Passaggi successivi
+## Passaggi successivi
 
 - Se sei un amministratore che deve configurare Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], vai ad [Abilitazione dell'integrazione di Power BI](admin-powerbi-setup.md).
 - Se Power BI è già configurato e desideri provare le funzionalità, vai a [Uso dei report Power BI in Business Central](across-working-with-powerbi.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Business Intelligence](bi.md)  
 [Configurare [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

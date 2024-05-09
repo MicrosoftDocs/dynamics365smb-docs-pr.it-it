@@ -5,18 +5,18 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 09/07/2022
+ms.date: 01/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="building-power-bi-reports-to-display--data"></a>Creazione di report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]
+# Creare report Power BI per visualizzare dati [!INCLUDE [prod_long](includes/prod_long.md)]
 
 È possibile rendere disponibili i dati di [!INCLUDE[prod_long](includes/prod_long.md)] come origine di dati in Power BI Desktop e sviluppare report efficaci dello stato dell'attività.
 
 Questo articolo descrive come iniziare a utilizzare Power BI Desktop per creare report che visualizzano i dati di [!INCLUDE[prod_long](includes/prod_long.md)].  Dopo aver creato i report, è possibile pubblicarli nel servizio Power BI o condividerli con tutti gli utenti dell'organizzazione. Una volta che questi report sono nel servizio Power BI, gli utenti configurati per il suo utilizzo possono quindi visualizzare i report in [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## <a name="get-ready"></a>Preparazione
+## Preparazione
 
 - Iscriversi al servizio Power BI.
 
@@ -30,14 +30,14 @@ Questo articolo descrive come iniziare a utilizzare Power BI Desktop per creare 
 
   Per ulteriori informazioni, vedi [Esporre i dati tramite pagine API o servizi web OData](admin-powerbi-setup.md#exposedata).
 
-- Per [!INCLUDE[prod_short](includes/prod_short.md)] in locale, ottenere le seguenti informazioni:
+<!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
-  - L'URL OData per [!INCLUDE[prod_short](includes/prod_short.md)].
+  - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    In genere, questo URL ha il formato `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, per esempio `https://localhost:7048/BC190/ODataV4`. Se si dispone di una distribuzione multi-tenant, includere il tenant nell'URL, ad esempio `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
-  - Un nome utente e una chiave di accesso al servizio Web di un account [!INCLUDE[prod_short](includes/prod_short.md)].
+    Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC190/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
+  - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
-    Per ottenere dati da [!INCLUDE[prod_short](includes/prod_short.md)], Power BI utilizza l'autenticazione di base. Quindi, sono necessari un nome utente e una chiave di accesso al servizio web per la connessione. L'account potrebbe essere l'account utente oppure l'organizzazione potrebbe avere un account specifico per questo scopo.
+    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.-->
 
 - Scaricare il tema del report [!INCLUDE [prod_short](includes/prod_short.md)] (opzionale).
 
@@ -45,7 +45,7 @@ Questo articolo descrive come iniziare a utilizzare Power BI Desktop per creare 
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Aggiungi [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop
+## <a name="getdata"></a>Aggiungi [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop
 
 La prima attività della creazione di report è aggiungere [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop. Una volta connesso, è possibile iniziare a creare il report.
 
@@ -57,7 +57,7 @@ La prima attività della creazione di report è aggiungere [!INCLUDE[prod_short]
 4. Nel riquadro **Servizi online** eseguire una delle seguenti operazioni:
 
     - Per connetterti a [!INCLUDE [prod_short](includes/prod_short.md)] online, seleziona **Dynamics 365 Business Central**, poi **Connetti**.
-    - Per connetterti a [!INCLUDE [prod_short](includes/prod_short.md)] locale, seleziona **Dynamics 365 Business Central (locale)**, poi **Connetti**.
+    <!--- To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.-->
 
 5. Accedi a [!INCLUDE [prod_short](includes/prod_short.md)] (una sola volta).
 
@@ -65,7 +65,7 @@ La prima attività della creazione di report è aggiungere [!INCLUDE[prod_short]
 
     - Per [!INCLUDE [prod_short](includes/prod_short.md)] online, seleziona **Accedi**, quindi scegli l'account pertinente. Utilizzare lo stesso account usato per accedere a [!INCLUDE [prod_short](includes/prod_short.md)]. Al termine, seleziona **Connetti**.
 
-    - Per [!INCLUDE [prod_short](includes/prod_short.md)] locale, inserisci prima l'URL OData per [!INCLUDE[prod_short](includes/prod_short.md)], quindi seleziona **OK**. Quando richiesto, immetti il nome utente e la password dell'account da utilizzare per la connessione a [!INCLUDE[prod_short](includes/prod_short.md)]. Nella casella **Password**, immettere la chiave di accesso del servizio web. Al termine, seleziona **Connetti**.
+    <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
     > Una volta eseguita la connessione a [!INCLUDE[prod_short](includes/prod_short.md)], non verrà richiesto nuovamente di eseguire l'accesso. [Come posso modificare o cancellare l'account che sto utilizzando attualmente per connettermi a Business Central da Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
@@ -88,8 +88,9 @@ La prima attività della creazione di report è aggiungere [!INCLUDE[prod_short]
 
           Questa cartella elenca le pagine, le codeunit e le query pubblicate come servizi Web in Business Central.
 
+    <!--
     > [!NOTE]
-    > La struttura per Business Central locale è diversa perché non supporta le pagine API.
+    > The structure for Business Central on-premises is different because it doesn't support API pages.-->
 
 7. Seleziona una o più origini dati che vuoi aggiungere al modello dati quindi scegli il pulsante **Carica**.
 8. Se in seguito vuoi aggiungere altri dati di Business Central, puoi ripetere i passaggi precedenti.
@@ -99,45 +100,45 @@ Dopo che i dati sono stati caricati puoi vederli nel riquadro di spostamento des
 > [!TIP]
 > Per ulteriori informazioni sull'uso di Power BI Desktop, vedere [Introduzione a Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## <a name="creating-accessible-reports"></a>Creazione di report accessibili
+## Creazione di report accessibili
 
 È importante rendere i tuoi report utilizzabili per il maggior numero di persone possibile. Prova a progettare report in modo che non richiedano adattamenti speciali per soddisfare esigenze specifiche di utenti diversi. Assicurati che il design consenta agli utenti di sfruttare le tecnologie per l'accessibilità standard, come le utilità per la lettura dello schermo. Power BI include varie funzioni di accessibilità, strumenti e linee guida per aiutarti a raggiungere questo obiettivo. Per maggiori informazioni, [Progettare report Power BI per l'accessibilità](/power-bi/create-reports/desktop-accessibility-creating-reports) nella documentazione di Power BI.
 
-## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Creazione di report per visualizzare i dati associati a un elenco
+## Creazione di report per visualizzare i dati associati a un elenco
 
 È possibile creare report che vengono visualizzati in un riquadro Dettaglio informazioni di una pagina elenco [!INCLUDE [prod_short](includes/prod_short.md)]. I report possono contenere dati sul record selezionato nell'elenco. La creazione di questi report è simile ad altri report, tranne che per alcune cose che è necessario eseguire per assicurarsi che i report vengano visualizzati come previsto. Per ulteriori informazioni, vedere [Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the--report-theme-optional"></a><a name="theme"></a>Uso del tema del report [!INCLUDE [prod_short](includes/prod_short.md)] (opzionale)
+## <a name="theme"></a>Uso del tema del report [!INCLUDE [prod_short](includes/prod_short.md)] (opzionale)
 
 Prima di creare il report, è consigliabile scaricare e importare il file del tema [!INCLUDE [prod_short](includes/prod_short.md)]. Il file del tema crea una tavolozza dei colori in modo da creare report con lo stesso stile cromatico delle app [!INCLUDE [prod_short](includes/prod_short.md)] senza dover definire i colori personalizzati per ogni elemento grafico.
 
 > [!NOTE]
 > Questa attività è facoltativa. È sempre possibile creare i report e quindi scaricare e applicare il modello di stile in un secondo momento.
 
-### <a name="download-the-theme"></a>Scaricare il tema
+### Scaricare il tema
 
 Il file del tema è disponibile come file json nella raccolta dei temi di Microsoft Power BI Community. Per scaricare il file del tema, procedere nel seguente modo:
 
 1. Andare alla [raccolta dei temi di Microsoft Power BI Community per Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Selezionare l'allegato **Microsoft Dynamics Business Central.json** del download.
 
-### <a name="import-the-theme-on-a-report"></a>Importare il tema in un report
+### Importare il tema in un report
 
 Dopo aver scaricato il tema del report [!INCLUDE [prod_short](includes/prod_short.md)] è possibile importarlo nei report. Per importare il tema, selezionare **Visualizza** > **Temi** > **Cerca temi**. Per ulteriori informazioni, vedere [Power BI Desktop - Importare temi di report personalizzati](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## <a name="publish-reports"></a>Pubblicare i report
+## Pubblicare i report
 
 Dopo aver creato o modificato un report è possibile pubblicarlo nel servizio Power BI e condividerlo anche con altre persone nell'organizzazione. Una volta pubblicato, il report è visibile in Power BI. Il report diventa anche disponibile per la selezione in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Per pubblicare un report, selezionare **Pubblica** nella scheda **Home** della barra multifunzione o dal menu **File**. Se è stato effettuato l'accesso al servizio Power BI il report viene pubblicato in questo servizio. In caso contrario, verrà richiesto di accedere. 
 
-## <a name="distribute-or-share-a-report"></a>Distribuire o condividere un report
+## Distribuire o condividere un report
 
 Ci sono un paio di modi per inviare report ai colleghi e ad altre persone:
 
 - Distribuire report come file .pbix.
 
-    I report vengono archiviati sul computer come file .pbix. È possibile distribuire il file .pbix del report agli utenti, come qualsiasi altro file. Quindi, gli utenti possono caricare il file nel servizio Power BI. Vedere [Caricare report da file](across-working-with-business-central-in-powerbi.md#upload).
+    I report vengono archiviati sul computer come file .pbix. È possibile distribuire il file .pbix del report agli utenti, come qualsiasi altro file. Quindi, gli utenti possono caricare il file nel servizio Power BI. Vedere [Caricare report da file](across-working-with-powerbi.md#upload).
 
     > [!NOTE]
     > La distribuzione dei report in questo modo comporta che l'aggiornamento dei dati per i report verrà eseguito individualmente da ciascun utente. Questa situazione potrebbe avere un impatto sulle prestazioni di [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -146,9 +147,9 @@ Ci sono un paio di modi per inviare report ai colleghi e ad altre persone:
 
     Se si dispone di una licenza Power BI Pro, è possibile condividere il report con altre persone direttamente dal servizio Power BI. Per ulteriori informazioni, vedere [Power BI - Condividere una dashboard o un report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="fixing-problems"></a>Risolvere i problemi
+## Risolvere i problemi
 
-### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Impossibile inserire un record. L'intento di connessione corrente è di sola lettura." errore durante la connessione alla pagina API personalizzata
+### "Impossibile inserire un record. L'intento di connessione corrente è di sola lettura." errore durante la connessione alla pagina API personalizzata
 
 > **APPLICABILE A:** Business Central Online
 
@@ -179,9 +180,9 @@ A partire da febbraio 2022, i nuovi report che utilizzano i dati di Business Cen
 9. Seleziona **Fatto**.
 10. Seleziona **Chiudi e applica** dalla barra multifunzione per salvare le modifiche e chiudere l'editor di Power Query.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
-[Abilitare i dati aziendali per Power BI](admin-powerbi.md)  
+[Abilitare i dati aziendali per Power BI](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  
 [Preparazione al business](ui-get-ready-business.md)  
 [Importazione dei dati aziendali da altri sistemi contabili](across-import-data-configuration-packages.md)  
