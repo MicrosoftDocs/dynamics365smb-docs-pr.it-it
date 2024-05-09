@@ -10,11 +10,11 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Ottenere l'applicazione desktop Business Central
+# <a name="get-the-business-central-desktop-app"></a>Ottenere l'applicazione desktop Business Central
 
 Se hai un computer Windows (PC) o macOS, puoi installare un'app [!INCLUDE [prod_short](includes/prod_short.md)] sul desktop. L'app funziona con [!INCLUDE [prod_short](includes/prod_short.md)] online e locale.
 
-## Perché usare l'applicazione?
+## <a name="why-use-the-app"></a>Perché usare l'applicazione?
 
 L'app [!INCLUDE [prod_short](includes/prod_short.md)] assomiglia al client Web, ma fornisce alcuni vantaggi come:
 
@@ -25,11 +25,11 @@ L'app [!INCLUDE [prod_short](includes/prod_short.md)] assomiglia al client Web, 
 
      Quando apri l'applicazione per un ambiente specifico, il nome dell'ambiente è incluso nel titolo della finestra. Quando si lavora in più ambienti [!INCLUDE[prod_short](includes/prod_short.md)], ogni finestra di app viene visualizzata separatamente. Il nome rende più facile per voi vedere quale finestra è associata ad ogni ambiente.
 
-## Installare l'app per [!INCLUDE [prod_short](includes/prod_short.md)] online
+## <a name="install-the-app-for--online"></a>Installare l'app per [!INCLUDE [prod_short](includes/prod_short.md)] online
 
 Esistono due modi per installare l'app per [!INCLUDE [prod_short](includes/prod_short.md)] online. Puoi installarla direttamente dal browser o da Microsoft Store. Qualunque approccio utilizzi, è la stessa app. La differenza è che l'installazione dal browser consente di installare l'app per ogni ambiente quando ce n'è più di uno.
 
-### Da Microsoft Store
+### <a name="from-microsoft-store"></a>Da Microsoft Store
 
 1. Accedi a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Scegli **Ottieni** > **Installa**. 
@@ -37,7 +37,7 @@ Esistono due modi per installare l'app per [!INCLUDE [prod_short](includes/prod_
 
 La prossima volta che vuoi aprire l'app, cercala nel menu **Start**.
 
-### Dal browser
+### <a name="from-the-browser"></a>Dal browser
 
 1. Aprite il client web [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Edge o Google Chrome.
 
@@ -57,13 +57,13 @@ La prossima volta che vuoi aprire l'app, cercala nel menu **Start**.
 
 Una volta installata, l'applicazione appare nel menu **Start** . Se hai selezionato un ambiente specifico per l'app, il nome dell'ambiente viene aggiunto al nome dell'app nel menu **Start** .
 
-## Installare l'app per [!INCLUDE [prod_short](includes/prod_short.md)] locale
+## <a name="install-the-app-for--on-premises"></a>Installare l'app per [!INCLUDE [prod_short](includes/prod_short.md)] locale
 
 L'installazione dell'app desktop quando usi [!INCLUDE [prod_short](includes/prod_short.md)] locale è eseguita direttamente dal browser come [descritto sopra](#from-the-browser). Se hai solo un tenant, ti basta aprire [!INCLUDE [prod_short](includes/prod_short.md)] nel tuo browser e selezionare ![Icona per installare un'app in Edge](media/ui-edge-install-app-icon.png). **App disponibile. Installare Business Central** o ![Icona per installare un'app in Chrome.](media/ui-chrome-install-app-icon.png) **Installa Business Central** come mostrato sopra.
 
 La differenza è quando si hanno più inquilini. A differenza di [!INCLUDE[prod_short](includes/prod_short.md)] online, dove è possibile installare l'applicazione per diversi ambienti, è possibile installare l'applicazione solo per un tenant. Quindi, prima di installare l'app quando hai più tenant, assicurati di passare al tenant corretto. Una volta installato, quando si apre l'applicazione, si aprirà direttamente il tenant.
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Domande frequenti sulle app per dispositivi mobili](ui-mobile-faq.yml)  
 [Prepararsi a fare affari](ui-get-ready-business.md)  

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analisi sugli acquisti
+# <a name="analytics-in-purchasing"></a>Analisi sugli acquisti
 
 Le aziende acquisiscono moltissimi dati durante le attività quotidiane che supportano la business Intelligence (BI) per i responsabili acquisti:
 
@@ -30,7 +30,7 @@ Ognuna di queste funzionalità presenta vantaggi e svantaggi, a seconda del tipo
 
 Questo articolo illustra come utilizzare queste funzionalità analitiche per ottenere informazioni dettagliate sugli acquisti.
 
-## Esigenze di analisi per gli acquisti
+## <a name="analytics-needs-in-purchasing"></a>Esigenze di analisi per gli acquisti
 
 Quando pensi alle esigenze di analisi per gli acquisti, potrebbe essere utile utilizzare un modello basato su un utente tipo che descrive diverse esigenze di analisi ad alto livello.
 
@@ -47,14 +47,14 @@ Persone che ricoprono ruoli diversi hanno esigenze diverse in termini di dati e 
 |Responsabile acquisti/Addetto acquisti | Dati dettagliati     | Report operativi predefiniti <br> Dati delle attività visualizzate |
 
 <!-- 
-## Purchasing KPIs
+## <a name="purchasing-kpis"></a>Purchasing KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
 
 - TODO  
 -->
 
-## Utilizzare il reporting finanziario per produrre rendiconti finanziari e indicatori KPI (relativi agli acquisti)
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-purchasing"></a>Utilizzare il reporting finanziario per produrre rendiconti finanziari e indicatori KPI (relativi agli acquisti)
 
 La funzionalità **Reporting finanziario** fornisce informazioni dettagliate sui dati finanziari mostrati nel piano dei conti. Puoi configurare i report finanziari per analizzare le cifre nei conti di contabilità generale (C/G) e confrontare i movimenti di contabilità generale con i movimenti di budget. Specificamente per gli acquisti, puoi impostare report finanziari sui conti C/G utilizzati per tenere traccia delle registrazioni degli acquisti.
 
@@ -62,13 +62,13 @@ Le dimensioni svolgono un ruolo importante nella business intelligence. Una dime
 
 Per ulteriori informazioni sui report finanziari, vedi [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md).
 
-## Reporting finanziario in business unit o persone giuridiche (relative agli acquisti)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-purchasing"></a>Reporting finanziario in business unit o persone giuridiche (relative agli acquisti)
 
 Alcune organizzazioni usano [!INCLUDE [prod_short](includes/prod_short.md)] in più business unit o persone giuridiche. Altre usano [!INCLUDE [prod_short](includes/prod_short.md)] nelle filiali che devono generare report per le organizzazioni padre. [!INCLUDE [prod_short](includes/prod_short.md)] offre ai contabili strumenti che li aiutano a trasferire i movimenti C/G da due o più società (filiali) a una società consolidata. In particolare per la gestione degli acquisti, potresti voler consolidare i movimenti C/G per i tuoi conti acquisti per tenere traccia degli indicatori KPI di vendita in business unit o persone giuridiche.
 
 Per ulteriori informazioni, vedi [Consolidamento della società](finance-consolidated-company-reporting.md).
 
-## Analisi ad hoc dei dati sugli acquisti
+## <a name="ad-hoc-analysis-of-purchasing-data"></a>Analisi ad hoc dei dati sugli acquisti
 
 A volte, devi solo verificare se i numeri si sommano correttamente o confermare rapidamente una cifra. Le seguenti funzionalità sono ottime per le analisi ad hoc:
 
@@ -88,7 +88,7 @@ Allo stesso modo, puoi usare l'azione **Apri in Excel** per aprire una pagina di
 
 Per ulteriori informazioni su come eseguire analisi ad hoc sui dati relativi agli acquisti, vedi [Analisi ad hoc dei dati sugli acquisti](ad-hoc-analysis-purchasing.md).
 
-## Report predefiniti per gli acquisti
+## <a name="built-in-reports-for-purchasing"></a>Report predefiniti per gli acquisti
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report integrati, funzioni di tracciamento e strumenti per aiutare le organizzazioni dedicate agli acquisti a creare report sui propri dati.
 
@@ -103,13 +103,13 @@ Per ottenere una panoramica dei report disponibili, scegli **Tutti i report** ne
 
 Per ulteriori informazioni sui report relativi agli acquisti, vedi [Report sugli acquisti integrati](purchase-reports.md).
 
-## Analisi degli acquisti visualizzate
+## <a name="on-screen-purchasing-analytics"></a>Analisi degli acquisti visualizzate
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include varie pagine che forniscono panoramiche sugli acquisti e attività da svolgere. Ecco un esempio per iniziare:
 
 - [Calcolare le date per gli acquisti](purchasing-date-calculation-for-purchases.md)
 
-### Mostrare movimenti e saldi C/G relativi agli acquisti dalla pagina Piano dei conti
+### <a name="show-purchasing-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Mostrare movimenti e saldi C/G relativi agli acquisti dalla pagina Piano dei conti
 
 La pagina Piano dei conti mostra tutti i conti C/G con numeri aggregati registrati nella contabilità generale. Da questa pagina puoi fare cose come:  
 
@@ -123,7 +123,7 @@ Specificamente per gli acquisti, puoi creare una visualizzazione nella pagina Pi
 
 Per saperne di più, vedi [Informazioni sul piano dei conti](finance-general-ledger.md#the-chart-of-accounts)
 
-### Analizzare i dati per dimensioni (relative agli acquisti)
+### <a name="analyze-data-by-dimensions-related-to-purchasing"></a>Analizzare i dati per dimensioni (relative agli acquisti)
 
 Le dimensioni sono valori che categorizzano i movimenti in modo da poterli seguire e analizzare nei documenti, ad esempio ordini di acquisto. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene.  
 
@@ -131,7 +131,7 @@ Quindi, anziché impostare conti di contabilità generale distinti per ogni repa
 
 Per ulteriori informazioni, vedi [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Consolidamento società](finance-consolidated-company-reporting.md)  
 [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)  
