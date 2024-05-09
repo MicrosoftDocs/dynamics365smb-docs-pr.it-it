@@ -11,7 +11,7 @@ ms.date: 02/08/2023
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="assign-permissions-to-users-and-groups"></a>Assegnare autorizzazioni a utenti e gruppi
+# Assegnare autorizzazioni a utenti e gruppi
 
 [!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
@@ -47,7 +47,7 @@ Per ulteriori informazioni, vedi [Accesso dell'amministratore con delega a Busin
 >
 > È inoltre possibile definire le funzionalità disponibili per gli utenti nell'interfaccia utente e il modo in cui si interagisce nelle pagine. A questo proposito si utilizzano i profili, che vengono assegnati a diversi tipi di utenti in base al ruolo e al reparto. Per ulteriori informazioni, vedere [Gestire i profili](admin-users-profiles-roles.md) e [Personalizzazione di [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
-## <a name="create-a-permission-set"></a>Creare un set di autorizzazioni
+## Creare un set di autorizzazioni
 
 > [!NOTE]
 > Nel secondo ciclo di rilascio del 2022 abbiamo semplificato l'aggiunta di autorizzazioni ai set di autorizzazioni. Anziché aggiungere le autorizzazioni singolarmente, puoi aggiungere interi set di autorizzazioni. Se necessario, puoi quindi escludere singole autorizzazioni al loro interno. Per ulteriori informazioni, vedi [Per aggiungere altri set di autorizzazioni](#to-add-other-permission-sets). Per renderlo possibile, abbiamo sostituito la pagina Set di autorizzazioni con una nuova. Le differenze principali sono i nuovi riquadri **Set di autorizzazioni** e **Risultati** e la scheda dettaglio **Autorizzazioni incluse**. Per continuare a usare la pagina Autorizzazioni sostituite, nella pagina **Set di autorizzazioni**, scegli l'azione **Autorizzazioni (legacy)**.
@@ -90,13 +90,13 @@ Anche la manutenzione è più facile. Quando aggiungi un'autorizzazione di siste
 > [!IMPORTANT]
 > Usa cautela quando assegni **Permesso inserimento** o **Permesso modifica** alla tabella **9001 Membro gruppo utenti** o **9003 Set autorizzazioni gruppo utenti** . Qualsiasi utente assegnato al set di permessi potrebbe potenzialmente assegnarsi ad altri gruppi di utenti, che a loro volta potrebbero dare permessi non voluti.
 
-### <a name="example---indirect-permission"></a>Esempio - Autorizzazione indiretta
+### Esempio - Autorizzazione indiretta
 
 Puoi assegnare un'autorizzazione indiretta per consentire a un utente di usare un oggetto, ma solo attraverso un altro oggetto. Ad esempio, un utente ha l'autorizzazione per eseguire la codeunit 80, Vendite-Registra. La codeunit Vendite-Registra esegue molti task, tra cui la modifica della tabella 37, Riga vendite. Quando l'utente registra un documento di vendita usando la codeunit Vendite-Registra, [!INCLUDE[prod_short](includes/prod_short.md)] verifica se l'utente dispone delle autorizzazioni per modificare la tabella Righe vendite. In caso di risposta negativa, la codeunit non può completare i relativi task e l'utente riceve un messaggio di errore. In caso di risposta affermativa, la codeunit viene eseguita correttamente.
 
 Tuttavia, per l'utente non è necessario avere accesso completo alla tabella Righe vendite per eseguire la codeunit. Se l'utente possiede un'autorizzazione indiretta per la tabella Righe vendite, la codeunit Vendite-Registra viene eseguita correttamente. Quando un utente possiede un'autorizzazione indiretta, può solo modificare la tabella Riga vendite eseguendo la codeunit di Vendite-Registra o un altro oggetto per cui possiede l'autorizzazione per modificare la tabella Righe vendite. L'utente può solo modificare la tabella Righe vendite quando esegue questa operazione da aree di applicazione supportate. L'utente non può eseguire inavvertitamente o intenzionalmente la funzionalità con altri metodi.
 
-### <a name="to-add-other-permission-sets"></a>Per aggiungere altri set di autorizzazioni
+### Per aggiungere altri set di autorizzazioni
 
 Espandi un set di autorizzazioni aggiungendovi altri set di autorizzazioni. Successivamente, puoi includere o escludere autorizzazioni specifiche o interi set di autorizzazioni in ogni set che aggiungi. Ciò include le autorizzazioni nei set di autorizzazioni di tipo Estensione e Sistema, che altrimenti non sono consentite. Le esclusioni si applicano solo al set di autorizzazioni che stai espandendo. Il set originale non viene modificato.
 
@@ -116,7 +116,7 @@ L'esclusione di un set di autorizzazioni esclude tutte le autorizzazioni nel set
 2. Calcola l'elenco completo delle autorizzazioni escluse
 3. Rimuovi le autorizzazioni escluse dall'elenco delle autorizzazioni incluse (la rimozione di un'autorizzazione indiretta equivale a Riduci su indiretto)
 
-## <a name="copy-a-permission-set"></a>Copiare un set di autorizzazioni
+## Copiare un set di autorizzazioni
 
 Crea un nuovo set di autorizzazioni copiandone un altro. Il nuovo set includerà tutte le autorizzazioni e i set di autorizzazioni del set copiato. Il modo in cui le autorizzazioni e i set di autorizzazioni sono organizzati nel nuovo set di autorizzazioni varia a seconda della scelta effettuata nel campo **Operazione di copia**. Nella seguente tabella vengono illustrate le opzioni.
 
@@ -134,7 +134,7 @@ Crea un nuovo set di autorizzazioni copiandone un altro. Il nuovo set includerà
 > [!NOTE]
 > La notifica richiede che la notifica **Set di autorizzazioni di sistema originale modificato** sia abilitata nella pagina **Notifiche personali**.
 
-## <a name="create-or-modify-permissions-by-recording-your-actions"></a>Creare o modificare le autorizzazioni registrando le azioni
+## Creare o modificare le autorizzazioni registrando le azioni
 
 1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Set di autorizzazioni**, quindi scegli il collegamento correlato.
 
@@ -150,7 +150,7 @@ Crea un nuovo set di autorizzazioni copiandone un altro. Il nuovo set includerà
 8. Scegliere il pulsante **Sì** per aggiungere le autorizzazioni registrate nel nuovo set di autorizzazioni.
 9. Per ogni oggetto nella lista registrata, specifica se gli utenti possono immettere, modificare o eliminare, i record nelle tabelle registrate.
 
-### <a name="to-export-and-import-a-permission-set"></a>Per esportare e importare un set di autorizzazioni
+### Per esportare e importare un set di autorizzazioni
 
 Per impostare rapidamente le autorizzazioni, è possibile importare set di autorizzazioni che sono state esportate da un altro tenant [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -171,11 +171,11 @@ In ambienti multitenant, un set di autorizzazioni verrà importato in un tenant 
 
 I set di autorizzazioni vengono importati.
 
-## <a name="remove-obsolete-permissions-from-all-permission-sets"></a>Rimuovere le autorizzazioni obsolete da tutti i set di autorizzazioni
+## Rimuovere le autorizzazioni obsolete da tutti i set di autorizzazioni
 
 Nella pagina **Set di autorizzazioni**, scegliere l'azione **Rimuovi autorizzazioni obsolete**.
 
-## <a name="set-up-time-constraints-for-users"></a>Impostare i vincoli di tempo per gli utenti
+## Impostare i vincoli di tempo per gli utenti
 
 Gli amministratori possono definire periodi di tempo durante i quali gli utenti specificati possono pubblicare. Gli amministratori possono anche specificare se il sistema registra per quanto tempo gli utenti sono connessi. Gli amministratori possono anche assegnare centri di responsabilità agli utenti. Per ulteriori informazioni, vedi [Usare i centri di responsabilità](inventory-responsibility-centers.md).
 
@@ -184,7 +184,7 @@ Gli amministratori possono definire periodi di tempo durante i quali gli utenti 
 3. Nel campo **ID utente**, immettere l'ID di un utente o scegliere il campo per visualizzare tutti gli utenti correnti di Windows nel sistema.
 4. Compila i campi come necessario.
 
-## <a name="control-access-to-specific-companies"></a>Controllare l'accesso ad aziende specifiche
+## Controllare l'accesso ad aziende specifiche
 
 Se in Business Central sono presenti più società, la gestione delle autorizzazioni tra società richiede un'ulteriore considerazione. Potresti non volere che gli utenti abbiano gli stessi diritti di accesso per tutte le aziende. Potrebbe invece essere necessario concedere le autorizzazioni agli utenti in base alla loro affiliazione aziendale. Per supportare questo scenario, quando assegni insiemi di autorizzazioni a singoli utenti o gruppi di sicurezza, hai la possibilità di selezionare un'azienda specifica a cui si applica l'insieme di autorizzazioni. La società non viene specificata esplicitamente all'interno dell'insieme di autorizzazioni, ma piuttosto quando l'insieme di autorizzazioni viene assegnato all'utente o al gruppo di sicurezza.
 
@@ -192,7 +192,7 @@ Se non specifichi la società quando assegni un set di autorizzazioni, il set di
 
 Ulteriori informazioni in [Assegnare set di autorizzazioni a utenti](#assign-permission-sets-to-users) o [Assegnare autorizzazioni a un gruppo di sicurezza](ui-security-groups.md#assign-permissions-to-a-security-group).
 
-## <a name="manage-permissions-through-user-groups"></a>Gestire le autorizzazioni tramite gruppi di utenti
+## Gestire le autorizzazioni tramite gruppi di utenti
 
 I gruppi di utenti ti aiutano a gestire i set di autorizzazioni all'interno dell'azienda. [!INCLUDE [prod_short](includes/prod_short.md)] online include gruppi di utenti predefiniti che vengono assegnati automaticamente agli utenti in base alla loro licenza. Puoi aggiungere utenti manualmente a un gruppo di utenti e creare nuovi gruppi di utenti come copie di quelli esistenti.  
 
@@ -200,7 +200,7 @@ Si inizia creando un gruppo di utenti. Quindi assegnare i set di autorizzazioni 
 
 I set di autorizzazioni assegnati a un utente tramite un gruppo di utenti rimangono sincronizzati. Una modifica alle autorizzazioni del gruppo di utenti viene propagata automaticamente agli utenti. Se si rimuove un utente da un gruppo di utenti, le autorizzazioni interessate vengono automaticamente revocate.
 
-### <a name="to-add-users-to-a-user-group"></a>Per aggiungere utenti a un gruppo di utenti
+### Per aggiungere utenti a un gruppo di utenti
 
 La seguente procedura spiega come creare manualmente gruppi di utenti. Per creare automaticamente gruppi di utenti, vedi [Per copiare un gruppo di utenti e tutti i suoi set di autorizzazioni](#to-copy-a-user-group-and-all-its-permission-sets).
 
@@ -210,7 +210,7 @@ La seguente procedura spiega come creare manualmente gruppi di utenti. Per crear
 2. Nella pagina **Gruppo di utenti**, scegliere l'azione **Membri gruppo di utenti**.
 3. Nella pagina **Gruppo di utenti**, scegliere l'azione **Aggiungi utenti**.
 
-### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Per copiare un gruppo di utenti e tutti i suoi set di autorizzazioni
+### Per copiare un gruppo di utenti e tutti i suoi set di autorizzazioni
 
 Per definire rapidamente un nuovo gruppo di utenti, è possibile copiare tutti i set di autorizzazioni da un gruppo di utenti esistenti al nuovo gruppo di utenti.
 
@@ -226,7 +226,7 @@ Il nuovo gruppo di utenti viene aggiunto nella pagina **Gruppi di utenti**. Proc
 > [!IMPORTANT]
 > Riceverai un errore di convalida se stai tentando di assegnare un gruppo di utenti all'utente che fa riferimento a un set di autorizzazioni che è stato definito in un'estensione disinstallata. È perché l'ID app dell'estensione viene convalidato ogni volta che viene indicato come riferimento. Per assegnare quel gruppo di utenti a un utente, puoi reinstallare l'estensione, rimuovere il riferimento dell'estensione disinstallata dal set delle autorizzazioni o rimuovere quel set di autorizzazioni dal gruppo di utenti.
 
-### <a name="to-assign-permission-sets-to-user-groups"></a>Per assegnare i set di autorizzazioni a gruppi utente
+### Per assegnare i set di autorizzazioni a gruppi utente
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Gruppi di utenti**, quindi scegli il collegamento correlato.
 2. Selezionare il gruppo di utenti a cui si intende assegnare l'autorizzazione.  
@@ -235,7 +235,7 @@ Il nuovo gruppo di utenti viene aggiunto nella pagina **Gruppi di utenti**. Proc
 3. Scegliere l'azione **Set di autorizzazioni utente** per aprire la pagina **Set di autorizzazioni utente**.
 4. Nella pagina **Set di autorizzazioni utente** compilare i campi secondo le necessità su una nuova riga.
 
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>Per assegnare un set di autorizzazioni nella pagina Set di autorizzazioni per gruppo di utenti
+### Per assegnare un set di autorizzazioni nella pagina Set di autorizzazioni per gruppo di utenti
 
 La seguente procedura illustra come assegnare i set di autorizzazioni a un gruppo di utenti nella pagina **Set di autorizzazioni per gruppo di utenti**.
 
@@ -246,7 +246,7 @@ La seguente procedura illustra come assegnare i set di autorizzazioni a un grupp
 
 È anche possibile assegnare i set di autorizzazioni direttamente a un utente.
 
-## <a name="assign-permission-sets-to-users"></a>Assegnare set di autorizzazioni agli utenti
+## Assegnare set di autorizzazioni agli utenti
 
 Un set di autorizzazioni è una raccolta di autorizzazioni per oggetti di database specifici. A tutti gli utenti devono essere assegnati uno o più set di autorizzazioni prima di poter accedere a [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -262,7 +262,7 @@ Una soluzione [!INCLUDE[prod_short](includes/prod_short.md)] contiene solitament
 - Nella pagina **Scheda Utente** selezionando i set di autorizzazioni da assegnare all'utente.
 - Nella pagina **Set di autorizzazioni per utente** selezionando gli utenti a cui è assegnato un set di autorizzazioni.
 
-### <a name="to-assign-a-permission-set-on-a-user-card"></a>Per assegnare un set di autorizzazioni in una scheda utente
+### Per assegnare un set di autorizzazioni in una scheda utente
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
 1. Selezionare l'utente a cui si intende assegnare l'autorizzazione.
@@ -273,7 +273,7 @@ Una soluzione [!INCLUDE[prod_short](includes/prod_short.md)] contiene solitament
 
    Se desideri che il set di autorizzazioni venga applicato a una società specifica, imposta il campo **Azienda** a quella società. Se desideri che l'insieme di autorizzazioni venga applicato a tutte le aziende, lascia il campo **Azienda** vuoto. [Ulteriori informazioni](#control-access-to-specific-companies).
 
-## <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Per assegnare un set di autorizzazioni nella pagina Set di autorizzazioni per utente
+## Per assegnare un set di autorizzazioni nella pagina Set di autorizzazioni per utente
 
 Questo metodo facilita l'assegnazione di set di autorizzazioni differenti a più utenti. 
 
@@ -284,7 +284,7 @@ Questo metodo facilita l'assegnazione di set di autorizzazioni differenti a più
 
     Seleziona la casella di controllo **Tutti gli utenti** per assegnare il set di autorizzazioni a tutti gli utenti.
 
-## <a name="get-an-overview-of-a-users-permissions"></a>Ottenere una sintesi delle autorizzazioni di un utente
+## Ottenere una sintesi delle autorizzazioni di un utente
 
 Puoi visualizzare le autorizzazioni valide di altri utenti solo se disponi delle autorizzazioni SUPER o SECURITY. 
 
@@ -314,23 +314,23 @@ La pagina **Autorizzazioni valide** offre informazioni aggiuntive sull'origine d
 > [!NOTE]  
 > Quando si modifica un set di autorizzazioni, le modifiche si applicano anche ad altri utenti a cui è stato assegnato il set di autorizzazioni.
 
-### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Filtri di sicurezza per limitare l'accesso di un utente a record specifici in una tabella
+### Filtri di sicurezza per limitare l'accesso di un utente a record specifici in una tabella
 
 Per la protezione a livello di record in [!INCLUDE[prod_short](includes/prod_short.md)], usa i filtri di protezione per limitare l'accesso dell'utente ai dati in una tabella. I filtri di protezione sono creati sui dati della tabella. Un filtro di protezione descrive un set di record in una tabella che un utente è autorizzato a accedere. È possibile specificare, ad esempio, che un utente può leggere solo i record che contengono informazioni su un determinato cliente. Ciò significa che l'utente non può accedere ai record che contengono informazioni su altri clienti. Per ulteriori informazioni, vedere [Uso dei filtri di sicurezza](/dynamics365/business-central/dev-itpro/security/security-filters) nel contenuto amministrativo.
 
 
-## <a name="view-permission-changes-telemetry"></a>Visualizzare la telemetria sulle modifiche delle autorizzazioni
+## Visualizzare la telemetria sulle modifiche delle autorizzazioni
 
 È possibile configurare [!INCLUDE[prod_short](includes/prod_short.md)] per inviare le modifiche applicate a un'autorizzazione a una risorsa Application Insights in Microsoft Azure. Quindi, utilizzando Monitoraggio di Azure, si creano report e si configurano avvisi sui dati raccolti. Per ulteriori informazioni, vedere i seguenti articoli nella Guida per sviluppatori e amministratori di [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [Monitoraggio e analisi della telemetria - Abilitazione di Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analizzare la telemetria di monitoraggio dei campi](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
 
-## <a name="delegated-admin-users"></a>Utenti amministratori con delega
+## Utenti amministratori con delega
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Creare utenti in base alle licenze](ui-how-users-permissions.md)  
 [Gestire profili](admin-users-profiles-roles.md)  
