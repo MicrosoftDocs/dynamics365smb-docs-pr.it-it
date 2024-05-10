@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analisi finanziaria in Business Central
+# <a name="financial-analytics"></a>Analisi finanziaria in Business Central
 
 Le aziende acquisiscono un'enorme quantità di dati durante le attività quotidiane che supportano una preziosa Business Intelligence (BI) per i decisori: 
 
@@ -33,7 +33,7 @@ Ognuna di queste funzionalità presenta vantaggi e svantaggi, a seconda del tipo
 
 Questo articolo illustra come utilizzare queste funzionalità analitiche per fornire informazioni finanziarie.
 
-## Esigenze di analisi in ambito finanziario
+## <a name="analytics-needs-in-finance"></a>Esigenze di analisi in ambito finanziario
 
 Quando si pensa alle esigenze di analisi in ambito finanziario, potrebbe essere utile utilizzare un modello mentale basato su utenti descritti ad alto livello e sulle loro diverse esigenze di analisi.
 
@@ -49,7 +49,7 @@ Persone che ricoprono ruoli diversi hanno esigenze diverse in termini di dati e 
 |Gestione interessi | Tendenze, sintesi | Report manageriali predefiniti <br> Analisi ad hoc      | 
 |Addetto contabile         | Dati dettagliati     | Report operativi predefiniti <br> Dati delle attività visualizzate |
 
-## Indicatori KPI finanziari
+## <a name="finance-kpis"></a>Indicatori KPI finanziari
 
 Un indicatore KPI è un valore misurabile che mostra l'efficacia con cui stai raggiungendo i tuoi obiettivi. Nel settore finanziario, le persone spesso utilizzano i seguenti KPI per monitorare la salute finanziaria della propria organizzazione:
 
@@ -67,7 +67,7 @@ Un indicatore KPI è un valore misurabile che mostra l'efficacia con cui stai ra
 For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
 -->
 
-## Utilizzo del reporting finanziario per produrre rendiconti finanziari e indicatori KPI
+## <a name="using-financial-reporting-to-produce-financial-statements-and-kpis"></a>Utilizzo del reporting finanziario per produrre rendiconti finanziari e indicatori KPI
 
 La funzionalità **Report finanziari** ti offre informazioni sui dati finanziari mostrati nel piano dei conti. Puoi configurare i report finanziari per analizzare le cifre nei conti di contabilità generale (C/G) e confrontare i movimenti di contabilità generale con i movimenti di budget. La visualizzazione dei risultati nei grafici e nei report nella home page, quali il piano del flusso di cassa e i report Conto economico e Conto patrimoniale.
 
@@ -87,13 +87,13 @@ Nella tabella seguente viene descritta una sequenza di attività nel reporting f
 | Impostare le visualizzazioni per analizzare i dati utilizzando le dimensioni.|[Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)|
 | Creare nuovi report di analisi per vendite, acquisti e magazzino e impostare modelli di analisi. |[Creare report di analisi](bi-how-create-analysis-views-reports.md)|
 
-## Reporting finanziario in business unit o persone giuridiche
+## <a name="finance-reporting-across-business-units-or-legal-entities"></a>Reporting finanziario in business unit o persone giuridiche
 
 Alcune organizzazioni usano [!INCLUDE [prod_short](includes/prod_short.md)] in più business unit o persone giuridiche. Altre usano [!INCLUDE [prod_short](includes/prod_short.md)] nelle filiali che devono riferire nelle organizzazioni madri. [!INCLUDE [prod_short](includes/prod_short.md)] offre ai contabili strumenti che li aiutano a trasferire i movimenti C/G da due o più società (filiali) a una società consolidata.  
 
 Per ulteriori informazioni, vedi [Consolidamento della società](finance-consolidated-company-reporting.md).
 
-## Analisi ad hoc dei dati finanziari
+## <a name="ad-hoc-analysis-of-finance-data"></a>Analisi ad hoc dei dati finanziari
 
 A volte, devi solo verificare se i numeri si sommano correttamente o confermare rapidamente una cifra. Le seguenti funzionalità sono ottime per le analisi ad hoc:
 
@@ -114,7 +114,7 @@ Allo stesso modo, puoi usare l'azione **Apri in Excel** per aprire una pagina di
 <!-- Not ready yet
 For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
 -->
-## Report predefiniti per la finanza
+## <a name="built-in-reports-for-finance"></a>Report predefiniti per la finanza
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report predefiniti, funzioni di tracciamento e strumenti utili per i revisori o i controllori responsabili della creazione di report per il reparto finanziario.
 
@@ -141,11 +141,11 @@ Per ulteriori informazioni, vedi queste panoramiche per i report pertinenti per 
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
 -->
 
-## Pagine di attività finanziarie visualizzate
+## <a name="on-screen-finance-task-pages"></a>Pagine di attività finanziarie visualizzate
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include varie pagine che forniscono panoramiche finanziarie e attività da svolgere.
 
-### Mostrare movimenti e saldi di contabilità generale dalla pagina Piano dei conti
+### <a name="show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Mostrare movimenti e saldi di contabilità generale dalla pagina Piano dei conti
 
 La pagina Piano dei conti mostra tutti i conti di contabilità generale con numeri aggregati su quanto registrato nella contabilità generale. Da questa pagina puoi fare cose come:  
 
@@ -157,13 +157,13 @@ La pagina Piano dei conti mostra tutti i conti di contabilità generale con nume
 
 Per saperne di più, vedi [Informazioni sul piano dei conti](finance-general-ledger.md#the-chart-of-accounts)
 
-### Visualizzare gli importi effettivi rispetto agli importi budget per tutti i conti e per diversi periodi
+### <a name="view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods"></a>Visualizzare gli importi effettivi rispetto agli importi budget per tutti i conti e per diversi periodi
 
 Come parte della raccolta, dell'analisi e della condivisione dei dati della società, potresti voler visualizzare gli importi effettivi rispetto agli importi budget per tutti i conti e per diversi periodi. Puoi eseguire questa operazione nella pagina **Piano dei conti** scegliendo l'azione **Saldo budget C/G**.
 
 Per saperne di più, vai [Analizzare importi effettivi e importi budget](bi-how-analyze-actual-versus-budget.md).
 
-### Analizzare i dati per dimensioni
+### <a name="analyze-data-by-dimensions"></a>Analizzare i dati per dimensioni
 
 Le dimensioni sono valori che categorizzano i movimenti in modo da poterli seguire e analizzare nei documenti, ad esempio ordini vendita. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene.  
 
@@ -171,7 +171,7 @@ Quindi, anziché impostare conti di contabilità generale distinti per ogni repa
 
 Nelle analisi finanziarie, una dimensione corrisponde ai dati che aggiungi a un movimento C/G come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti C/G con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Puoi usare le dimensioni per i movimenti in registrazioni, documenti e budget. Per ulteriori informazioni, vedi [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)
 
-### Analisi del flusso di cassa
+### <a name="analyzing-cash-flow"></a>Analisi del flusso di cassa
 
 Nella home page Addetto contabile, in **Prestazioni finanziarie**, i grafici Ciclo di cassa, Flusso di cassa ed Entrate e uscite consentono di analizzare il flusso di cassa:
 
@@ -189,7 +189,7 @@ Per esaminare la previsione, oltre ai movimenti previsti, è possibile analizzar
 
 Per saperne di più, vedi [Analisi del flusso di cassa dell'azienda](finance-analyze-cash-flow.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione dei report finanziari in business unit o persone giuridiche](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->
