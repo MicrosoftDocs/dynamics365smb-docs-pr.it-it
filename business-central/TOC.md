@@ -202,7 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Informazioni intelligenti (solo online)](about-intelligent-cloud.md)
 ## Domande frequenti
 ### [Domande frequenti](across-faq.yml)
-### [Domande frequenti su Chat con Copilot (anteprima)](chat-with-copilot-faq.md)
+### [Domande frequenti sulle chat con Copilot (anteprima)](chat-with-copilot-faq.md)
 ### [Domande frequenti relative alla finestra delle informazioni](ui-search-faq.md)
 ### [Domande frequenti sulla ricerca e sui filtri](ui-search-filter-faq.yml)
 ### [Domande frequenti sulle visualizzazioni elenco](ui-views-faq.yml)
@@ -449,9 +449,16 @@ ms.service: dynamics-365-business-central
 ### Impostare e utilizzare i documenti elettronici
 #### [Panoramica dei documenti elettronici](finance-edocuments-overview.md)
 #### [Impostare documenti elettronici](finance-how-setup-edocuments.md)
-#### [Utilizzare documenti elettronici nelle vendite e negli acquisti](finance-how-use-edocuments.md)
-#### [Impostare il connettore Documenti elettronici con endpoint esterni](finance-how-setup-edocuments-external.md)
+#### [Usare documenti elettronici nelle vendite](finance-how-use-edocuments.md)
+#### [Usare documenti elettronici negli acquisti](finance-how-use-edocuments-purchase.md)
+#### [Impostare il connettore per i documenti elettronici con endpoint esterni](finance-how-setup-edocuments-external.md)
 #### [Estensione della funzionalità dei documenti elettronici](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Gestione della sostenibilità
+#### [Panoramica della gestione della sostenibilità](finance-manage-sustainability.md)
+#### [Setup sostenibilità](finance-sustainability-setup.md)
+#### [Grafico dei conti di sostenibilità e contabilità](finance-sustainability-accounts-ledger.md)
+#### [Come registrare le emissioni di gas a effetto serra (GHG)](finance-sustainability-journal.md)
 
 ### [Organizzazioni multisito e internazionali](finance-multi-site-organizations.md)
 #### Consolidare dati finanziari di più società
@@ -479,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Analizzare i dati con conti statistici](bi-use-statistical-accounts.md)
 #### [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Analisi ad hoc sui dati finanziari](ad-hoc-analysis-finance.md)
 
 ### Strumenti di analisi finanziaria integrati
 #### [Analizzare i dati finanziari dal piano dei conti](finance-general-ledger.md)
@@ -549,7 +556,10 @@ ms.service: dynamics-365-business-central
 
 ## Inventario
 ### [Panoramica dell'inventario](inventory-manage-inventory.md)
-### [Report di inventario e warehouse](inventory-WMS-reports.md)
+### Analisi dell'inventario 
+#### [Panoramica dell'analisi dell'inventario](inventory-analytics-overview.md)
+#### [Analisi ad hoc dei dati di inventario](ad-hoc-analysis-inventory.md)
+#### [Report di inventario e warehouse predefiniti](inventory-WMS-reports.md)
 ### [Registrare nuovi articoli](inventory-how-register-new-items.md)
 ### [Usare le distinte base](inventory-how-work-BOMs.md)
 ### [Classificare gli articoli](inventory-how-categorize-items.md)
@@ -585,8 +595,10 @@ ms.service: dynamics-365-business-central
 
 ## Cespiti
 ### [Panoramica dei cespiti](fa-manage.md)
+
 ### Analisi dei cespiti
 #### [Panoramica dell'analisi dei cespiti](fa-analytics-overview.md)
+#### [Analisi ad hoc dei dati dei cespiti](ad-hoc-analysis-fa.md)
 #### Strumenti integrati di analisi dei cespiti
 ##### [Monitorare i costi di manutenzione](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Monitorare la copertura assicurativa](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -594,6 +606,7 @@ ms.service: dynamics-365-business-central
 ##### [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Report sui cespiti predefiniti](fa-reports.md)
+
 ### [Impostare i cespiti](fa-setup.md)
 ### [Metodi di ammortamento](fa-depreciation-methods.md)
 ### [Gestire budget per i cespiti](fa-how-manage-budgets.md)
@@ -648,7 +661,7 @@ ms.service: dynamics-365-business-central
 ### [Informazioni sulla funzionalità di pianificazione](production-about-planning-functionality.md)
 ### [Pianificare con o senza ubicazioni](production-planning-with-without-locations.md)
 ### [Creare una previsione](production-how-to-create-a-forecast.md)
-### [Creare gli ordini di produzione dagli ordini di vendita](production-how-to-create-production-orders-from-sales-orders.md)
+### [Creare gli ordini di produzione dagli ordini cliente](production-how-to-create-production-orders-from-sales-orders.md)
 ### [Pianificare una nuova domanda ordine per ordine](production-how-to-plan-for-new-demand.md)
 ### [Eseguire la pianificazione completa, MPS o MRP](production-how-to-run-mps-and-mrp.md)
 ### [Ripianificare o aggiornare direttamente gli ordini di produzione](production-how-to-replan-refresh-production-orders.md)
@@ -693,8 +706,8 @@ ms.service: dynamics-365-business-central
 <!-- ### [Warehouse Management](warehouse-manage-warehouse.md) -->
 ### [Report di inventario e warehouse](inventory-WMS-reports.md)
 
-### Processi della warehouse in entrata
-#### [Processi della warehouse in entrata](design-details-inbound-warehouse-flow.md)
+### Processi di warehouse in entrata
+#### [Processi di warehouse in entrata](design-details-inbound-warehouse-flow.md)
 #### [Individuare le assegnazioni di lavoro](warehouse-how-to-find-your-warehouse-assignments.md) 
 #### [Ricevere articoli](warehouse-how-receive-items.md)
 <!-- #### [Put Items Away](warehouse-put-away-items.md) -->
@@ -776,6 +789,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Funzionalità locale
 ### [Panoramica delle funzionalità locali](about-localization.md)
+### [Sviluppo di app di localizzazione convalidate](about-validated-localization-apps.md)
 
 ### Australia
 #### [Panoramica della versione australiana](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -929,7 +943,7 @@ ms.service: dynamics-365-business-central
 ##### [Compensazioni](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Inventario
 ##### [Arrotondare la contabilità nell'inventario](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
-##### [Miglioramenti alla riconciliazione della contabilità generale dell'inventario](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Miglioramenti alla riconciliazione dei saldi della contabilità generale dell'inventario](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
 ##### [Funzionalità avanzata dell'inventario fisico](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
 ##### [Documenti di conteggio dell'inventario](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
 ##### [Documento di operazioni di inventario](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
@@ -1567,9 +1581,13 @@ ms.service: dynamics-365-business-central
 #### [Funzionalità locale nella versione americana](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Imposte
 ##### [Setup IVA di base](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Dichiarazione IVA negli Stati Uniti](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+##### [Dichiarazione IVA negli Stati Uniti](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Introduzione ai moduli IRS 1099 e relative funzionalità](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Impostare e usare il modulo IRS 1099 per la versione 24 (primo ciclo di rilascio del 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [Usare i moduli IRS 1099](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [Inviare e segnalare i moduli IRS 1099](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ##### [Impostare e usare il modulo IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
-##### [Normativa 1099 modifiche al formato e dettagli](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
+##### [Modifiche al formato e dettagli della normativa 1099](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Impostare e usare il modulo IRS 1096](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
 ##### [Impostare l'IVA intracomunitaria e l'imposta sugli acquisti](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Impostare l'IVA ad esigibilità differita e sconti pagamenti](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
@@ -1679,7 +1697,7 @@ ms.service: dynamics-365-business-central
 #### [Convertire le ubicazioni esistenti in ubicazioni warehouse](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
 #### [Impostare le warehouse di base con aree di operazioni](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 #### [Impostare articoli e ubicazioni per gli stoccaggi e i prelievi guidati](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
-#### [Abilitare breakbulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
+#### [Abilitare il break bulk automatico con stoccaggi e prelievi guidati](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 #### [Abilita il metodo FEFO per prelevare articoli](warehouse-picking-by-fefo.md)
 <!-- #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md) -->
 #### [Ristrutturare warehouse](warehouse-how-to-restructure-warehouses.md)
@@ -1802,8 +1820,14 @@ ms.service: dynamics-365-business-central
 # Analisi, business Intelligence e reporting 
 
 ## [Panoramica dell'analisi](reports-bi-reporting.md)
-## [Uso degli indicatori di prestazioni chiave (KPI) per soddisfare gli obiettivi aziendali](./analytics-about-kpis.md)
-## [Uso del reporting finanziario](bi-how-work-account-schedule.md)
+## [Analisi per area funzionale](analytics-by-functional-area.md)
+
+## KPI, dashboard e report finanziari
+### [Uso degli indicatori di prestazioni chiave per soddisfare gli obiettivi aziendali](analytics-about-kpis.md)
+### [Introduzione a Business Central e Power BI](admin-powerbi.md)
+### [Usare i report Power BI](across-working-with-powerbi.md)
+### [Tenere traccia dei KPI con le metriche di Power BI](track-kpis-with-power-bi-metrics.md)
+### [Uso del reporting finanziario](bi-how-work-account-schedule.md)
 
 ## Analisi dei dati ad hoc
 ### [Panoramica](reports-adhoc-analysis.md)
@@ -1812,12 +1836,7 @@ ms.service: dynamics-365-business-central
 ### [Analizzare dati di pagina in Excel](across-work-with-excel.md)
 ### [Analizzare dati di report con Excel](report-analyze-excel.md)
 ### [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md)
-
-## Strumenti di analisi integrati
-### [Panoramica](reports-built-in-analytics.md)
-### [Usare i report Power BI](across-working-with-powerbi.md)
-### [Informazioni intelligenti (locale)](about-intelligent-cloud.md)
-### [Report per la telemetria di utilizzo](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Analisi dei dati ad hoc per area funzionale](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Usare i report nel lavoro quotidiano
 ### [Panoramica](reports-use-reports.md)
@@ -1834,44 +1853,21 @@ ms.service: dynamics-365-business-central
 ## Report predefiniti
 ### [Panoramica del report](reports-available-reports.md)
 ### Dati finanziari
-#### [Business Intelligence finanziario](bi.md)
-#### [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md)
+#### [Preparare il reporting finanziario](bi-how-work-account-schedule.md)
 #### [Report finanziari chiave](finance-reports.md)
 #### [Report contabilità clienti](receivables-reports.md)
 #### [Report contabilità fornitori](payables-reports.md)
-#### [Analizzare il flusso di cassa](finance-setup-cash-flow-analyses.md)
-#### [Consolidare dati finanziari di molteplici società](finance-consolidated-company-reporting.md)
 
-### Vendite
-#### [Report vendite](sales-reports.md)
-#### [Stato dell'ordine di vendita programmato](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Tracciabilità collo](sales-how-track-packages.md)
-#### [Visualizzare le righe degli ordini di vendita programmati registrate e non registrate](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Acquisti
-#### [Report di acquisto](purchase-reports.md)
-#### [Visualizzare i movimenti contabili di acquisto](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Inventario e warehouse
-#### [Report di inventario e warehouse](inventory-wms-reports.md)
-#### [Disponibilità articolo](inventory-how-availability-overview.md)
-#### [Tracciare gli articoli con numeri di serie, di lotto e di collo](inventory-how-work-item-tracking.md)
-#### [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)
-#### [Controllare la riconciliazione tra il movimento contabile di inventario e la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Visualizzare gli articoli sottoposti a cross-dock in una spedizione o in un prospetto prelievi](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Report vendite](sales-reports.md)
+### [Report di acquisto](purchase-reports.md)
+### [Report di inventario e warehouse](inventory-wms-reports.md)
 
 ### Progetto
 #### [Report di progetto](project-reports.md)
 #### [Visualizzare le stime di utilizzo del progetto](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Monitorare l'avanzamento e le prestazioni del progetto](projects-how-monitor-progress-performance.md)
 
-### Cespiti
-#### [Report cespiti](fa-reports.md)
-#### [Monitorare i costi di manutenzione](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Monitorare la copertura assicurativa](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Visualizzare i valori del registro beni ammortizzabili modificati](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Report cespiti](fa-reports.md)
 
 ### Gestione assemblaggio
 #### [Report di gestione assemblaggio](assembly-reports.md)
@@ -1887,6 +1883,9 @@ ms.service: dynamics-365-business-central
 #### [Panoramica degli ordini di assistenza](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Panoramica delle offerte assistenza](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Panoramica del documento di assistenza registrato](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+### [Report per la telemetria di utilizzo](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 
 ## Sviluppare report
 ### [Panoramica](reports-develop-reports.md)
@@ -1909,11 +1908,9 @@ ms.service: dynamics-365-business-central
 ## Analizzare i dati negli strumenti di business intelligence
 ### [Panoramica](reports-external-analysis.md)
 ### [Microsoft Fabric e Business Central](admin-fabric.md)
-### [Usare Power BI con Business Central](admin-powerbi.md)
-### [Analizzare i rendiconti finanziari con Excel](finance-analyze-excel.md)
 ### [Estrarre dati in data warehouse o data lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Leggere dati con l'API di Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Informazioni intelligenti (locale)](about-intelligent-cloud.md)
 
 
 # Sicurezza, privacy e conformità
