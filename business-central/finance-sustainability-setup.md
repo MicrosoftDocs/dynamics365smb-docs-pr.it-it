@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Setup sostenibilità  
+# <a name="sustainability-setup"></a>Setup sostenibilità
 
 Per far funzionare correttamente il modulo Sostenibilità, devi prima impostare alcuni controlli e istruzioni di base relativi all'intera funzionalità.  
 
@@ -49,7 +49,7 @@ Per impostare un modulo di sostenibilità, segui i passaggi successivi:
 >[!NOTE]
 > Nella versione 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] non supporta il reporting ad alcuna autorità. Quindi, il campo relativo alla configurazione nella Scheda dettaglio **Reporting** verrà utilizzato per future funzionalità di reporting, ma può essere utilizzato anche dai partner nelle versioni localizzate.
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)    
 [Panoramica sulla gestione della sostenibilità](finance-manage-sustainability.md)
 [Contabilità generale e grafico dei conti di sostenibilità](finance-sustainability-accounts-ledger.md)
