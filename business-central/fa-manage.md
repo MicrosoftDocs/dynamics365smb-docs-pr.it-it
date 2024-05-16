@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Gestire i cespiti
+# <a name="manage-fixed-assets"></a>Gestire i cespiti
 
 La funzionalità relativa ai cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
 
-## Video di panoramica
+## <a name="video-overview"></a>Video di panoramica
 
 Il video seguente illustra le nozioni di base dei cespiti:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Configurazione iniziale dei cespiti
+## <a name="initial-setup-of-fixed-assets"></a>Configurazione iniziale dei cespiti
 
 Per poter gestire i cespiti, devi dapprima completare le seguenti configurazioni:
 
@@ -34,7 +34,7 @@ Per poter gestire i cespiti, devi dapprima completare le seguenti configurazioni
 
 Per ulteriori informazioni, vedi [Configurazione dei cespiti](fa-setup.md).
 
-## Analisi dei cespiti
+## <a name="fixed-assets-analytics"></a>Analisi dei cespiti
 
 In questa sezione vengono descritti gli strumenti analitici che puoi utilizzare per ottenere informazioni dettagliate sui cespiti.
 
@@ -48,7 +48,7 @@ In questa sezione vengono descritti gli strumenti analitici che puoi utilizzare 
 | Visualizzazione dei movimenti contabili di cessione | [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visualizza i valori di cessione previsti. | [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Registrare i cespiti
+## <a name="register-fixed-assets"></a>Registrare i cespiti
 
 Per ogni cespite occorre impostare una scheda che contiene le relative informazioni. Ad esempio, puoi confiugurare edifici e strumenti di produzione come beni principali con una lista dei componenti. Puoi raggruppare i cespiti in vari modi, ad esempio per classe, reparto o ubicazione. Quindi, puoi iniziare ad acquistare, gestire e vendere i cespiti. È possibile anche impostare i cespiti previsti. L'impostazione di budget ti consente di includere qualsiasi vendita e acquisto previsti nei report.
 
@@ -57,7 +57,7 @@ Per ogni cespite occorre impostare una scheda che contiene le relative informazi
 | Gestire budget per cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. |[Gestione dei budget per i cespiti](fa-how-manage-budgets.md) |
 | Creazione di cespiti, assegnazione di metodi di ammortamento, registrazione di acquisti, valori di realizzo e stampa di liste di cespiti. |[Acquisire i cespiti](fa-how-acquire.md) |
 
-## Configurare gli ammortamenti per i cespiti
+## <a name="set-up-depreciations-for-your-fixed-assets"></a>Configurare gli ammortamenti per i cespiti
 
 Per tenere traccia degli ammortamenti dei cespiti e altre transazioni finanziarie per cespiti, imposta uno o più registri beni ammortizzabili per ogni cespite. Ecco alcuni passaggi per ammortizzare i cespiti:
 
@@ -74,7 +74,7 @@ Per tenere traccia degli ammortamenti dei cespiti e altre transazioni finanziari
 | Visualizza i valori del registro ammortamento modificati. | [Visualizzare i valori del registro beni ammortizzabili modificati](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Registra manualmente le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. | [Impostare l'ammortamento dei cespiti](fa-how-setup-depreciation.md) |
 
-## Manutenzione e assicurazione dei cespiti
+## <a name="fixed-assets-maintenance-and-insurance"></a>Manutenzione e assicurazione dei cespiti
 
 Puoi registrare i costi di manutenzione e la data del prossimo intervento per ogni cespite. Può essere importante tenere traccia delle spese di manutenzione ai fini dell'impostazione del budget e per decidere se un cespite debba essere sostituito. Puoi associare ciascun cespite a una o più polizze assicurative e verificare che i premi della polizza siano allineati al valore dei cespiti.
 
@@ -85,7 +85,7 @@ Puoi registrare i costi di manutenzione e la data del prossimo intervento per og
 | Aggiornare informazioni di assicurazione, registrare costi di acquisto in polizze assicurative, modificare la copertura assicurativa, visualizzare le statistiche di assicurazione e creare liste delle polizze assicurative. |[Assicurazione di cespiti](fa-how-insure.md) |
 | Monitora la copertura assicurativa. | [Monitorare la copertura assicurativa](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## Riclassificare, trasferire, suddividere/comobinare, rettificare il valore, svalutare e smaltire i cespiti
+## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Riclassificare, trasferire, suddividere/comobinare, rettificare il valore, svalutare e smaltire i cespiti
 
 | A  | Vedere |
 | --- | --- |
@@ -95,7 +95,7 @@ Puoi registrare i costi di manutenzione e la data del prossimo intervento per og
 | Visualizzazione dei movimenti contabili di cessione | [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visualizza i valori di cessione previsti. | [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostazione di cespiti](fa-setup.md)  
 [Panoramica dell'analisi dei cespiti](fa-analytics-overview.md)  

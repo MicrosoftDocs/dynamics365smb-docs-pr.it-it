@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Contabilità generale e grafico dei conti di sostenibilità 
+# <a name="chart-of-sustainability-accounts-and-ledger"></a>Contabilità generale e grafico dei conti di sostenibilità
 
-## Grafico dei conti di sostenibilità  
+## <a name="chart-of-sustainability-accounts"></a>Grafico dei conti di sostenibilità
 
 Il **grafico dei conti di sostenibilità** (CoSA) costituisce l'elenco strutturato fondamentale utilizzato per registrare tutti i dati sulle emissioni. Funziona come un framework che classifica e organizza i conti di sostenibilità in base ai relativi attributi, come l’ambito o altri raggruppamenti. A ogni conto viene generalmente assegnato un codice o numero univoco per facilitarne la consultazione e il monitoraggio, seguendo la stessa struttura di un tradizionale **Piano dei conti** ma personalizzato specificamente per il monitoraggio dei dati e delle metriche relativi alla sostenibilità all’interno di un’organizzazione. 
  
@@ -35,7 +35,7 @@ Tramite il **Grafico dei conti di sostenibilità** è possibile eseguire operazi
     
 È possibile aggiungere, modificare o eliminare **Conti di sostenibilità**. Tuttavia, per evitare discrepanze, non è possibile eliminare un **Conto di sostenibilità** se sono presenti uno o più movimenti contabili associati al conto.  
 
-### Aggiungere o cambiare conti  
+### <a name="add-or-change-accounts"></a>Aggiungere o cambiare conti
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Grafico dei conti di sostenibilità**, quindi seleziona il collegamento correlato. 
 2. Nella pagina **Grafico dei conti di sostenibilità**, è possibile aprire ogni **Conto di sostenibilità** e quindi aggiungere o modificare le impostazioni. Passare sul campo con il mouse per visualizzare una breve descrizione. 
@@ -45,11 +45,11 @@ Per i conti di tipo **Totale** compilare il campo **Totale**. Per i conti di tip
 >[!IMPORTANT]
 >Se le definizioni per i conti **Totale Finale** sono state immesse nei campi **Totale** prima di eseguire la funzione di indentazione, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Totale finale**.  
 
-### Eliminare conti  
+### <a name="delete-accounts"></a>Eliminare conti
 
 È possibile eliminare un **Conto di sostenibilità**. Tuttavia, prima di eliminarlo, devi assicurarti che siano presenti uno o più movimenti contabili associati al conto, poiché Business Central impedirà l'eliminazione di un **Conto di sostenibilità** in questa situazione.  
 
-## Categorie di conti   
+## <a name="account-categories"></a>Categorie di conti
 
 Gli utenti devono aggiungere la **Categoria conto di sostenibilità** a ciascuno dei **Conti di sostenibilità**, per definire come si comporta il sistema, selezionando ambiti di emissione, emissioni dedicate per il monitoraggio, formule e configurazioni simili.  
 
@@ -89,7 +89,7 @@ Se usi la **Base di calcolo** (formule), c'è una spiegazione su come il sistema
 |  | Personalizzato | Emissione = Importo personalizzato * EF | _ovvero Importo personalizzato = Soggiorni in hotel..._ |
 |  | Combustibile/Elettricità | Emissioni = Combustibile * EF | _ovvero Combustibile = Quantità di combustibile spesa nell'auto aziendale, nell'auto a noleggio..._ |
 
-## Sottocategorie di conti  
+## <a name="account-subcategories"></a>Sottocategorie di conti
 
 Gli utenti devono aggiungere la **Sottocategoria conto di sostenibilità** a ciascuno dei **Conti di sostenibilità** per definire i fattori di emissione che verranno utilizzati nelle formule, ma si basa sulla scelta del monitoraggio delle emissioni nella **Categoria conto di sostenibilità**.  
 
@@ -109,7 +109,7 @@ Per esaminare le **Sottocategorie conti di sostenibilità**, procedi come segue:
 >[!NOTE]
 >I campi **Importa dati** e **Importa da** sono destinati alla potenziale integrazione con sistemi esterni utilizzati per la raccolta dei fattori di emissione, ma nel **Prima ciclo di rilascio del 2024** non possono essere utilizzati come funzionalità per impostazione predefinita.  
 
-## Movimenti contabili sostenibilità  
+## <a name="sustainability-ledger-entries"></a>Movimenti contabili sostenibilità
 
 Nel **Registro della sostenibilità** è memorizzata la cronologia di tutte le transazioni di sostenibilità registrate, con tutti i dati sulle emissioni organizzati secondo il **Grafico dei conti di sostenibilità**. Quando un utente registra la **Registrazione sostenibilità**, tutti i dati cruciali verranno registrati lì. Tutti i report attivi vengono generati in base a **Movimenti contabili sostenibilità**.   
 
@@ -118,7 +118,7 @@ L'utente può aprire questo registro per un conto specifico utilizzando l'azione
 >[!IMPORTANT]
 >Una volta registrati i dati nel Registro della sostenibilità, non è possibile eliminarli. In caso di errore puoi registrare la transazione di storno utilizzando gli stessi dettagli, ma utilizzando il segno negativo per l'importo.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 [Finanze](finance.md)    
 [Panoramica sulla gestione della sostenibilità](finance-manage-sustainability.md)
 [Setup sostenibilità](finance-sustainability-setup.md)

@@ -9,15 +9,15 @@ ms.date: 05/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Report e analisi delle vendite in Business Central
+# <a name="sales-reports-and-analytics-in-business-central"></a>Report e analisi delle vendite in Business Central
 
 Il report delle vendite consente ai professionisti delle vendite e aziendali di ottenere approfondimenti e statistiche sulle attività di vendita attuali e passate.  
 
-## Report
+## <a name="reports"></a>Report
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Attività
+## <a name="tasks"></a>Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato delle tue vendite:
 
@@ -27,7 +27,7 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 * [Tracciabilità collo](sales-how-track-packages.md)
 * [Visualizzare le righe degli ordini di vendita programmati registrate e non registrate](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-## Esplorare i report di vendita con Esplora report
+## <a name="explore-sales-reports-with-report-explorer"></a>Esplorare i report di vendita con Esplora report
 
 Per ottenere una panoramica dei report disponibili per le vendite, scegli **Tutti i report** nella home page. Questa azione apre Esplora ruoli, il cui contenuto viene filtrato in base alle funzionalità nell'opzione **Report e analisi**. Sotto l'intestazione **Vendite e marketing**, seleziona **Esplora**.
 
@@ -35,7 +35,7 @@ Per ottenere una panoramica dei report disponibili per le vendite, scegli **Tutt
 
 Per ulteriori informazioni, vedi [Ricerca di report con Esplora ruoli](ui-role-explorer.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Analisi ad hoc dei dati sulle vendite](ad-hoc-analysis-sales.md)    
 [Panoramica delle analisi delle vendite](sales-analytics-overview.md)   
