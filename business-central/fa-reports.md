@@ -17,9 +17,15 @@ Per aiutarti a gestire i tuoi cespiti in [!INCLUDE [prod_short](includes/prod_sh
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
+## Esplorare i report finanziari con Esplora report
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## Vedere anche
 
+[Analisi ad hoc dei dati dei cespiti](ad-hoc-analysis-fa.md)     
 [Panoramica dell'analisi dei cespiti](fa-analytics-overview.md)   
+[Panoramica di Analisi finanziaria](bi.md)   
 [Gestione dei cespiti](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

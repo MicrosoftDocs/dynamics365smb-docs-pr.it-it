@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Report e analisi degli acquisti
 
-Il report di acquisti in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti di approvvigionamento e aziendali di ottenere approfondimenti e statistiche sulle attività di acquisto attuali e passate.  
+Il report di acquisti in  consente ai professionisti di approvvigionamento e aziendali di ottenere approfondimenti e statistiche sulle attività di acquisto attuali e passate.  
 
 ## Report
 
@@ -20,13 +20,25 @@ Il report di acquisti in [!INCLUDE [prod_short](includes/prod_short.md)] consent
 
 ## Attività
 
-I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
+I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato dell'acquisto:
 
-* [Creare report di analisi](bi-how-create-analysis-views-reports.md)  
-* [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)  
+- [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)  
+- [Calcolare le date per gli acquisti](purchasing-date-calculation-for-purchases.md)
+- [Visualizzare i movimenti contabili di acquisto](purchasing-how-record-purchases.md#viewing-ledger-entries)
+
+## Esplorare i report sull'acquisto con Esplora report
+
+Per ottenere una panoramica dei report disponibili per l'acquisto, scegli **Tutti i report** nella home page. Questa azione apre Esplora ruoli, il cui contenuto viene filtrato in base alle funzionalità nell'opzione **Report e analisi**. Sotto l'intestazione **Acquisto** , scegli **Esplora**.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Esempio di report in Gestione ruolo utente XXX." lightbox="media/report-explorer-purchasing.png":::
+
+Per ulteriori informazioni, vedi [Ricerca di report con Esplora ruoli](ui-role-explorer.md). 
 
 ## Vedere anche
+
+[Analisi ad hoc dei dati degli acquisti](ad-hoc-analysis-purchasing.md)  
+[Panoramica dell'analisi degli acquisti](purchasing-analytics-overview.md)   
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
-[Acquisti](purchasing-manage-purchasing.md)  
+[Panoramica degli acquisti](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

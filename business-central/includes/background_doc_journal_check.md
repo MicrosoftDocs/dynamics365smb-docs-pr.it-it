@@ -1,19 +1,21 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Verificare i dati in documenti e registrazioni durante il lavoro
+## Verificare i dati in documenti e registrazioni durante il lavoro
 
-Nel primo ciclo di rilascio del 2022 abbiamo introdotto una funzionalità che convalida i dati inseriti nei documenti e nelle registrazioni durante l'inserimento. Ad esempio, l'attivazione di questa funzione può aiutare a evitare errori nell'immissione dei dati o quando è impossibile registrare qualcosa a causa di un errore. 
+Il tuo amministratore può consentire a [!INCLUDE [prod_short](prod_short.md)] di convalidare i dati inseriti nei documenti e nei giornali di registrazione in tempo reale.
 
-L'amministratore può abilitare la funzionalità **Funzionalità: verifica di documenti e registrazioni durante il lavoro** nella pagina **Gestione funzionalità**. Successivamente, riceverai una notifica quando apri una pagina per iniziare a lavorare su un documento o una registrazione. Per iniziare a utilizzare la funzione, scegli il collegamento **Abilita per l'utente corrente** nella notifica. 
+Se abiliti la funzione, il riquadro Dettaglio informazioni mostra un Dettaglio informazioni **Controlla documento** o **Controlla registrazione**, a seconda del tipo di documento su cui stai lavorando. Il riquadro Dettaglio informazioni elenca gli errori nella pagina in modo che tu possa risolverli rapidamente.
 
-Se abiliti la funzione, il riquadro Dettaglio informazioni mostrerà un Dettaglio informazioni **Controlla documento** o **Controlla registrazione**, a seconda del tipo di documento su cui stai lavorando. Il riquadro Dettaglio informazioni elenca gli errori nella pagina in modo che tu possa risolverli rapidamente.
+Per abilitare la funzionalità, nella pagina **Le mie notifiche**, seleziona le seguenti caselle di controllo:
 
-Se decidi di non aver bisogno della funzione, ci sono due modi per disattivarla:
+* Per i giornali di registrazione, seleziona la casella di controllo **Abilitata** per **Abilita controllo dati**.
+* Per i documenti, seleziona la casella di controllo **Abilitata** per **Mostra la casella informativa Controllo documento**.
 
-* Per le registrazioni, disattiva l'interruttore **Abilita controllo dati** nella pagina **Setup registrazioni COGE**.
-* Per i documenti, deseleziona la casella di controllo **Mostra il riquadro Dettaglio informazioni Controllo documento** nella pagina **Notifiche personali**.
+Il seguente video spiega il controllo dei dati in tempo reale.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l0pR]

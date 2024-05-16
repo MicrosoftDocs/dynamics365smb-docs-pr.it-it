@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 04/02/2024
+ms.date: 04/24/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Setup sostenibilità
+# Setup sostenibilità  
 
 Per far funzionare correttamente il modulo Sostenibilità, devi prima impostare alcuni controlli e istruzioni di base relativi all'intera funzionalità.  
 
@@ -28,6 +28,10 @@ Per impostare un modulo di sostenibilità, segui i passaggi successivi:
 | **Centro di responsabilità obbligatorio** | Specifica se il centro di responsabilità è obbligatorio, poiché il centro di responsabilità può essere utilizzato come struttura per misurare le emissioni basate sulla struttura. Puoi utilizzare questo campo nelle registrazioni senza configurarlo, ma puoi selezionarlo se desideri imporre agli utenti di compilare il campo prima della pubblicazione. |
 | **Modifica della base di calcolo dei blocchi se esistono movimenti contabili** | Specifica se la modifica della base di calcolo nella Categoria conto è bloccata al momento dell'immissione della sostenibilità, il che significa che questa formula è già stata applicata. |
 | **Abilita verifica errori in background** | Specifica se il controllo degli errori in background delle righe di registrazione della sostenibilità è abilitato. |
+
+> [!NOTE]
+> Dopo aver abilitato o disattivato il **controllo errori in background** nei giornali di registrazione, dovrai effettuare nuovamente l'accesso prima di iniziare la nuova configurazione.
+ 
 
 3.  Nella Scheda dettaglio **Calcoli**, configura i campi obbligatori relativi alle formule utilizzate per il calcolo delle emissioni:  
 
@@ -49,12 +53,12 @@ Per impostare un modulo di sostenibilità, segui i passaggi successivi:
 >[!NOTE]
 > Nella versione 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] non supporta il reporting ad alcuna autorità. Quindi, il campo relativo alla configurazione nella Scheda dettaglio **Reporting** verrà utilizzato per future funzionalità di reporting, ma può essere utilizzato anche dai partner nelle versioni localizzate.
 
-## <a name="see-also"></a>Vedere anche
-[Finanze](finance.md)    
-[Panoramica sulla gestione della sostenibilità](finance-manage-sustainability.md)
-[Contabilità generale e grafico dei conti di sostenibilità](finance-sustainability-accounts-ledger.md)
-[Come registrare le emissioni](finance-sustainability-journal.md)
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Vedere anche  
+[Dati finanziari](finance.md)  
+[Panoramica della gestione della sostenibilità](finance-manage-sustainability.md)    
+[Contabilità generale e grafico dei conti di sostenibilità](finance-sustainability-accounts-ledger.md)    
+[Come registrare le emissioni](finance-sustainability-journal.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

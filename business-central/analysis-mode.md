@@ -14,22 +14,22 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144,
 
 > **SI APPLICA A:** Anteprima pubblica nel primo ciclo di rilascio di Business Central 2023 e successive per l'analisi delle pagine elenco; Disponibile a livello generale nel secondo ciclo di rilascio di Business Central 2023 per l'analisi dei dati dalle pagine elenco e dalle query.
 
-In questo articolo apprenderai come analizzare i dati delle pagine elenco e delle query utilizzando la funzionalità di *analisi dei dati*. Con la funzionalità di analisi dei dati, puoi analizzare i dati direttamente dalla pagina, senza dover eseguire un report o passare a un'altra applicazione come Excel. Fornisce un modo interattivo e versatile per calcolare, riassumere ed esaminare i dati. Invece di eseguire i report utilizzando opzioni e filtri diversi, puoi aggiungere più schede che rappresentano attività o viste diverse sui dati. Esempi potrebbero essere "I miei clienti", "Articoli di follow-up", "Fornitori aggiunti di recente", "Statistiche di vendita" o qualsiasi altra visualizzazione che puoi immaginare.
+In questo articolo viene descritto come utilizzare la funzionalità di analisi dei dati delle pagine elenco e delle query. L'analisi dei dati consente di analizzare i dati direttamente dalla pagina, senza dover eseguire un report o aprire un'altra applicazione come Excel. La funzionalità fornisce un modo interattivo e versatile per calcolare, riassumere ed esaminare i dati. Invece di eseguire i report utilizzando opzioni e filtri diversi, puoi aggiungere più schede che rappresentano attività o viste diverse sui dati. Alcuni esempi sono "I miei clienti", "Articoli di follow-up", "Fornitori aggiunti di recente", "Statistiche di vendita" o qualsiasi altra visualizzazione che puoi immaginare.
 
 > [!TIP]
-> Un aspetto positivo della funzionalità di analisi dei dati è che non modifica nessuno dei dati sottostanti della pagina elenco o della query o il layout della pagina o della query quando non è in modalità di analisi. Quindi il modo migliore per scoprire cosa puoi fare nella modalità di analisi è provare a usarla.
+> Un aspetto positivo della funzionalità di analisi dei dati è che non modifica i dati sottostanti di una pagina di elenco o di query. Inoltre, non modifica il layout della pagina o della query quando non è in modalità di analisi. Quindi il modo migliore per scoprire cosa puoi fare nella modalità di analisi è provare a usarla.
 
-## Prerequisiti 
+## Prerequisiti
 
-- Se utilizzi Business Central versione 22, la funzionalità di analisi dei dati è in anteprima. Pertanto, un amministratore deve abilitarlo per poterlo utilizzare. Per abilitarla, vai alla pagina **Gestione funzionalità** e abilita **Aggiornamento della funzionalità: modalità di analisi, analisi rapida dei dati direttamente in Business Central**. [Ulteriori informazioni su Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Se utilizzi [!INCLUDE [prod_short](includes/prod_short.md)] versione 22, la funzionalità di analisi dei dati è in anteprima. Pertanto, un amministratore deve abilitarlo per poterlo utilizzare. Per abilitarla, vai alla pagina **Gestione funzionalità** e abilita **Aggiornamento della funzionalità: modalità di analisi, analisi rapida dei dati direttamente in Business Central**. [Ulteriori informazioni su Gestione funzionalità](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - Nella versione 23 e successive, al tuo account deve essere assegnato il set di autorizzazioni **DATA ANALYSIS - EXEC** o includere l'autorizzazione di esecuzione sull'oggetto di sistema **9640 Consenti modalità di analisi dati**. In qualità di amministratore, puoi escludere queste autorizzazioni per gli utenti a cui non desideri concedere l'accesso alla modalità di analisi.
 
 > [!NOTE]
-> Potresti notare che alcune pagine elenco non includono l'interruttore **Entra in modalità analisi** per passare alla modalità di analisi. Il motivo è che gli sviluppatori possono disabilitare la modalità di analisi in pagine specifiche utilizzando la [proprietà AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.
+> Alcune pagine di elenco che non includono l'interruttore **Entra in modalità analisi** per attivare la modalità di analisi. Il motivo è che gli sviluppatori possono disabilitare la modalità di analisi in pagine specifiche utilizzando la [proprietà AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.
 
 ## Introduzione
 
-Completa questi passaggi per iniziare ad analizzare i dati utilizzando la modalità di analisi.
+Segui questi passaggi per iniziare a utilizzare la modalità di analisi.
 
 >[!TIP]
 > La modalità di analisi include anche una funzionalità Copilot denominata *assistenza all'analisi* utile per iniziare. [Ulteriori informazioni sull'assistenza all'analisi con Copilot](analysis-assist.md).
@@ -70,9 +70,9 @@ L'area dati è il punto in cui vengono visualizzate le righe e le colonne della 
 
 - Per spostare una colonna, selezionala e trascinala dove ha più senso nella tua analisi.
 - Per ordinare in base a una colonna, seleziona l'intestazione della colonna. Per ordinare su più colonne, seleziona e tieni premuto il tasto <kbd>MAIUSC</kbd> mentre selezioni le intestazioni delle colonne in base alle quali vuoi ordinare.
-- Fai clic con il pulsante destro del mouse sulla colonna o passaci sopra con il mouse e seleziona l'icona del menu ![Mostra l'icona su una colonna in modalità di analisi che apre un menu di azioni](media/analysis-mode-column-menu-icon.png) per accedere a diverse azioni che puoi eseguire sulle colonne. Ad esempio:
+- Per accedere a diverse azioni che puoi eseguire sulle colonne, fai clic con il pulsante destro del mouse sulla colonna o passa il mouse sopra di essa e seleziona l'icona del menu ![Mostra l'icona su una colonna in modalità di analisi che apre un menu di azioni](media/analysis-mode-column-menu-icon.png). Ad esempio:
 
-  - Per aggiungere una colonna a sinistra o a destra dell'area dati in modo che non sia fuori dallo schermo durante lo scorrimento, seleziona ![Mostra l'icona su una colonna in modalità di analisi che apre un menu di azioni](media/analysis-mode-column-menu-icon.png) > **Aggiungi colonna** > **Aggiungi a sinistra** la parte della colonna.
+  - Per aggiungere una colonna all'area dati in modo che non sia fuori dallo schermo durante lo scorrimento, seleziona ![Mostra l'icona su una colonna in modalità di analisi che apre un menu di azioni](media/analysis-mode-column-menu-icon.png) > **Aggiungi colonna** > **Aggiungi a sinistra** la parte della colonna.
   - Definisci i filtri di dati direttamente nella definizione della colonna invece di accedere ai riquadri **Filtri di analisi**. Puoi ancora esaminare i dettagli sui dati correlati e per ogni riga e aprire la scheda per altre informazioni su una determinata entità.
 - Utilizza l'area dati per interagire con i dati. Per le colonne che contengono valori numerici sommabili, puoi ottenere statistiche descrittive su un set di campi contrassegnandoli. Le statistiche vengono visualizzate nella barra di stato (2) nella parte inferiore della pagina.
 - Esporta i dati in formato Excel o csv. Fai clic con il pulsante destro del mouse sull'area dati o su una selezione di celle da esportare.
@@ -104,7 +104,7 @@ L'area **Colonne** è uno dei due riquadri che usi per definire la tua analisi. 
 
 |Aree|Descrizione|
 |-|-|
-|Cerca/seleziona o deseleziona tutte le caselle|Ricerca di colonne. Seleziona la casella di controllo per selezionare/deselezionare tutte le colonne.|
+|Cerca/seleziona o deseleziona tutte le caselle|Ricerca di colonne. Per selezionare/deselezionare tutte le colonne, seleziona la casella di controllo.|
 |Caselle di controllo|Quest'area include una casella di controllo per ogni campo nella tabella di origine dell'elenco o della query. Utilizza quest'area per modificare le colonne visualizzate. Seleziona una casella di controllo per mostrare la colonna per il campo sulla pagina; deseleziona la casella di controllo per nascondere la colonna. |
 |Gruppi di righe|Utilizza quest'area per raggruppare e sommare i dati in base a uno o più campi. Puoi includere solo campi non numerici, come campi di testo, data e ora. I gruppi di righe vengono utilizzati spesso in modalità pivot.|
 |Valori|Utilizza quest'area per specificare i campi per i quali vuoi una somma totale. Puoi includere solo campi che contengono numeri che possono essere sommati; ad esempio, non campi di testo, data o ora.|
@@ -132,11 +132,11 @@ Ecco alcuni suggerimenti su come lavorare con più schede di analisi:
    - **Elimina** elimina la scheda attualmente aperta. **Elimina tutto** elimina tutte le schede che hai aggiunto, tranne la scheda predefinita **Analisi 1**.
 - Non puoi rimuovere completamente la scheda **Analisi 1**, ma puoi rinominarla utilizzando l'azione **Rinomina** e cancellare le modifiche apportate utilizzando **Elimina** o **Elimina tutto**.  
 
-- Le schede di analisi che hai aggiunto e configurato rimangono fino a quando non le elimini. Quindi, se torni di nuovo alla modalità di analisi, le vedi esattamente come le avevi lasciate.
+- Le schede di analisi che hai aggiunto e configurato rimangono fino a quando non le elimini. Se torni di nuovo alla modalità di analisi, le vedi esattamente come le avevi lasciate.
 
    > [!TIP]
    > Le schede che hai impostato sono visibili solo a te. Gli altri utenti vedranno solo le schede che hanno configurato.
-- Puoi copiare le schede di analisi. La copia può essere utile se vuoi sperimentare la modifica di una scheda senza modificare l'originale o per creare diverse varianti della stessa analisi.
+- Puoi copiare le schede di analisi. La copia può essere utile, ad esempio, per sperimentare la modifica di una scheda senza modificare l'originale. La copia è utile anche se si desidera creare diverse varianti della stessa analisi.
 
 ## Gerarchie di date
 
@@ -179,7 +179,7 @@ Se il set di dati che desideri analizzare supera le 100.000 righe, ti consigliam
    - fusi orari
 - I campi utilizzati in modalità pivot e aggiunti alle etichette delle colonne devono avere un numero basso di valori distinti.
 
-   Se abiliti la modalità pivot e trascini un campo nell'area **Etichette colonna**, dove i dati sottostanti per quel campo hanno troppi valori distinti, la scheda del browser potrebbe non rispondere e alla fine si chiude, richiedendo di ricominciare da capo in una nuova sessione. In questo caso, non abilitare la modalità pivot per quel campo o applica un filtro al campo prima di aggiungerlo all'area **Etichette colonna**.
+   Se abiliti la modalità pivot e trascini un campo nell'area **Etichette colonna**, dove i dati sottostanti per quel campo hanno troppi valori distinti, la scheda del browser potrebbe non rispondere. Il browser alla fine si chiude, richiedendo di ricominciare da capo in una nuova sessione. In questo caso, non abilitare la modalità pivot per quel campo o applica un filtro al campo prima di aggiungerlo all'area **Etichette colonna**.
 
 ## Condividere l'analisi dei dati
 
@@ -191,61 +191,41 @@ Dopo aver preparato un'analisi in una scheda, puoi condividerla come collegament
 
    Si apre la finestra di dialogo **Collega a \<tab name\>**.
 
-1. Per impostazione predefinita, l'analisi che condividi si collegherà alla pagina o alla query della società in cui lavori attualmente, indicata da `company=<company_name>` nel campo URL accanto al pulsante **Copia**. Se desideri inviare un collegamento a un'analisi non associata a una società specifica, imposta il campo **Società:** su **Non collegare a una società specifica**.
+1. Per impostazione predefinita, l'analisi che condividi si collega alla pagina o alla query della società in cui lavori attualmente, indicata da `company=<company_name>` nel campo URL accanto al pulsante **Copia**. Se desideri inviare un collegamento a un'analisi non associata a una società specifica, imposta il campo **Società:** su **Non collegare a una società specifica**.
 
    ![Finestra di dialogo per la copia di un collegamento per una scheda di analisi](media/analysis-link-copied.svg)
 
 1. Seleziona **Copia**.
-1. Incolla il collegamento nel supporto di comunicazione di tua scelta, come Word, Outlook, Teams, OneNote e così via. 
-1. Una volta ricevuto, i destinatari possono selezionare il collegamento e aprire l'analisi per la pagina o la query in Business Central. Ai destinatari viene richiesto di specificare un nome per la nuova scheda di analisi che verrà creata.  
+1. Incolla il collegamento nel supporto di comunicazione di tua scelta, come Word, Outlook, Teams, OneNote e così via.
+1. Una volta ricevuto, i destinatari possono selezionare il collegamento e aprire l'analisi per la pagina o la query in [!INCLUDE [prod_short](includes/prod_short.md)]. Ai destinatari viene richiesto di specificare un nome per la nuova scheda di analisi che verrà creata.  
 
 ## Esempi di come analizzare i dati
 
-La funzionalità *Analizza dati* è pensata per il controllo rapido dei fatti e l'analisi ad hoc quando non desideri eseguire un report, se esiste un report per le tue esigenze specifiche o se desideri eseguire rapidamente l'iterazione per ottenere una buona panoramica di parte della tua attività.
+Utilizza la funzione **Analisi dei dati** per un rapido controllo dei fatti e un'analisi ad hoc:
 
-Nelle sezioni seguenti troverai esempi di scenari di utilizzo per molte delle aree funzionali dell'applicazione Business Central.
+- Se non vuoi eseguire un report.
+- Se non esiste un report per la tua esigenza specifica.
+- Se desideri eseguire rapidamente l'iterazione per ottenere una buona panoramica di una parte della tua attività.
 
-| Area | Per... | Apri questa pagina in modalità di analisi | Utilizzando questi campi |
-| ---- | ----- | ------------------------------- |------------------- |
-| [Finanza (Contabilità clienti)](#example-finance-accounts-receivables) | Per vedere ciò che ti devono i tuoi clienti, ad esempio suddiviso in intervalli di tempo per quando gli importi sono dovuti. | [Movimenti contabili clienti](https://businesscentral.dynamics.com/?page=25) | **Ragione Sociale**, **Scadenza** e **Importo residuo** |
-| [Finanza (Conto economico)](#example-finance-income-statement) | Visualizza il tuo reddito sui conti economici dal piano dei conti, ad esempio, suddiviso in intervalli di tempo in cui sono stati registrati gli importi. | [Movimenti C/G](https://businesscentral.dynamics.com/?page=20) | **Nr. conto C/G**, **Data di registrazione** e **Quantità**. |
-| [Finanza (totale attività)](#example-finance-total-assets) | Visualizza le attività sui conti cespiti dal piano dei conti, ad esempio, suddiviso in intervalli di tempo in cui sono stati registrati gli importi. | [Movimenti C/G](https://businesscentral.dynamics.com/?page=20) | **Nr. conto C/G**, **Data di registrazione** e **Quantità**. |
+Le sezioni seguenti forniscono esempi di scenari per molte delle aree funzionali in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ### Esempio: Finanza (Contabilità clienti)
 
-Per vedere ciò che ti devono i tuoi clienti, magari suddiviso in intervalli di tempo per quando gli importi sono dovuti, procedi come segue:
+Per vedere ciò che ti devono i tuoi clienti, magari suddiviso in intervalli di tempo per quando gli importi sono dovuti, segui questi passaggi:
 
-1. Apri l'elenco [Movimenti contabili clienti](https://businesscentral.dynamics.com/?page=25) e attiva la modalità di analisi.
-1. Vai al menu **Colonne** e rimuovi tutte le colonne (seleziona la casella accanto al campo *Ricerca*).
-1. Attiva la **modalità* Pivot** (situata direttamente sopra il campo **Ricerca**).
-1. Ora trascina il campo *Ragione sociale* nell'area **Gruppi di righe** e trascina il campo **Importo rimanente** nell'area **Valori**. 
-1. Infine, trova il campo **Data scadenza (mese)** e trascinalo nell'area **Etichette di colonna**. 
-1. Se vuoi limitare l'analisi a un determinato anno o trimestre, applica un filtro nel menu **Filtri aggiuntivi** (a destra della pagina, appena sotto il menu **Colonne**). 
-1. Rinomina la scheda di analisi in "Scadenziari per mese" o qualcosa che descriva questa analisi. 
+1. Apri l'elenco [Movimenti contabili clienti](https://businesscentral.dynamics.com/?page=25) e scegli l'icona :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entra in modalità analisi"::: per attivare la modalità di analisi.
+1. Vai al menu **Colonne** e rimuovi tutte le colonne (seleziona la casella accanto al campo *Ricerca* sulla destra).
+1. Attiva l'interruttore **Modalità* Pivot** (situato sopra il campo **Cerca** sulla destra).
+1. Trascina il campo **Ragione sociale** nell'area **Gruppi di righe** e trascina il campo **Importo rimanente** nell'area **Valori**.
+1. Trascina il campo **Data scadenza (mese)** nell'area **Etichette di colonna**.
+1. Per eseguire l'analisi per un determinato anno o trimestre, applica un filtro nel menu **Filtri analisi** (che si trova sotto il menu **Colonne** sulla destra).
+1. Rinomina la scheda di analisi in **Scadenziari per mese** o qualcosa che descriva questa analisi.
 
-### Esempio: Finanza (Conto economico)
+### Esempi di analisi dati ad hoc per area funzionale
 
-Per vedere il tuo reddito sui conti economici dal piano dei conti, ad esempio, suddiviso in intervalli di tempo in cui sono stati registrati gli importi, procedi come segue:
+Molte delle aree funzionali in [!INCLUDE[prod_short](includes/prod_short.md)] includono articoli con esempi di analisi dei dati ad hoc.
 
-1. Apri l'elenco [Movimenti C/G](https://businesscentral.dynamics.com/?page=20) e attiva la modalità di analisi.
-1. Vai al menu **Colonne** e rimuovi tutte le colonne (seleziona la casella accanto al campo **Ricerca**).
-1. Attiva la modalità **Pivot** (situata direttamente sopra il campo **Ricerca**).
-1. Ora trascina il campo **Nr. conto C/G** nell'area **Gruppi di righe** e trascina il campo **Importo rimanente** nell'area **Valori**.
-1. Infine, trova il campo **Data di registrazione (mese)** e trascinalo nell'area **Etichette di colonna**.
-1. Per il conto economico, devi filtrare i conti utilizzati a tale scopo. Nei dati demo di Business Central, si tratta di conti che iniziano con "4", l'impostazione del piano dei conti potrebbe essere diversa (se si esegue il report [Bilancio di verifica per periodo](https://businesscentral.dynamics.com/?report=38), puoi facilmente vedere quali conti vengono utilizzati nella tua configurazione). Imposta un filtro sui conti appropriati nel menu **Filtri aggiuntivi** (a destra della pagina, appena sotto il menu **Colonne**).
-1. Rinomina la scheda di analisi in "Ricavi per mese" o qualcosa che descriva questa analisi.
-
-### Esempio: Finanza (totale attività)
-
-Per vedere le tue attività sui conti cespiti dal piano dei conti, ad esempio, suddiviso in intervalli di tempo in cui sono stati registrati gli importi, procedi come segue:
-
-1. Apri l'elenco [Movimenti C/G](https://businesscentral.dynamics.com/?page=20) e attiva la modalità di analisi.
-1. Vai al menu **Colonne** e rimuovi tutte le colonne (seleziona la casella accanto al campo **Ricerca**).
-1. Attiva la modalità **Pivot** (situata direttamente sopra il campo **Ricerca**).
-1. Ora trascina il campo **Nr. conto C/G** nell'area **Gruppi di righe** e trascina il campo **Importo rimanente** nell'area **Valori**.
-1. Infine, trova il campo **Data di registrazione (mese)** e trascinalo nell'area **Etichette di colonna**.
-1. Per l'estratto conto delle attività totali, devi filtrare i conti utilizzati a tale scopo. Nei dati dimostrativi di Business Central si tratta di conti che iniziano con "10", la configurazione del piano dei conti potrebbe essere diversa. Se esegui il report [Bilancio di verifica per periodo](https://businesscentral.dynamics.com/?report=38), puoi facilmente vedere quali conti vengono utilizzati nella tua configurazione. Imposta un filtro sui conti appropriati nel menu **Filtri aggiuntivi** (a destra della pagina, appena sotto il menu **Colonne**).
-1. Rinomina la scheda di analisi in "Ricavi per mese" o qualcosa che descriva questa analisi.
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 ## Limitazioni nel primo ciclo di rilascio del 2023 (anteprima)
 
@@ -257,5 +237,6 @@ L'anteprima pubblica di questa funzionalità presenta le seguenti limitazioni:
 
 ## Vedere anche
 
+[Analisi dati ad hoc per area funzionale](ad-hoc-data-analysis-by-functional-area.md)   
 [Analisi dei dati ad hoc](reports-adhoc-analysis.md)  
 [Visualizzare e modificare in Excel](across-work-with-excel.md)  

@@ -44,8 +44,20 @@ Dopo aver installato l'app, puoi utilizzare l'azione **Stampa etichetta** per st
 > [!NOTE]
 > Alcune stampanti e formati di codici a barre/codici QR richiedono un'implementazione specifica. È possibile che tu debba caricare un modello Word differente o clonare il report per creare la tua versione personalizzata.
 
+
+## Esplorare i report sul magazzino con Esplora report
+
+Per ottenere una panoramica dei report disponibili per il magazzino, scegli **Tutti i report** nella home page. Questa azione apre Esplora ruoli, il cui contenuto viene filtrato in base alle funzionalità nell'opzione **Report e analisi**. Sotto l'intestazione **Vendite e marketing**, seleziona **Esplora**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Esempio di report sul centro ruoli finanziario." lightbox="media/report-explorer-sales.png":::
+
+Per ulteriori informazioni, vedi [Ricerca di report con Esplora ruoli](ui-role-explorer.md).
+
+
 ## Vedere anche
 
+[Analisi ad hoc dei dati di inventario](ad-hoc-analysis-inventory.md)  
+[Panoramica dell'analisi dell'inventario](inventory-analytics-overview.md)   
 [Impostazione del magazzino](inventory-setup-inventory.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  

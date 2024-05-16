@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 03/29/2024
+ms.date: 04/23/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Panoramica della gestione della sostenibilità
+# Panoramica della gestione della sostenibilità
 
 >[!IMPORTANT]
 >Questa funzionalità sarà disponibile in Business Central a partire dal **primo ciclo di rilascio del 2024** e tutti i collegamenti di riferimento saranno abilitati non appena saranno disponibili.
@@ -39,16 +39,16 @@ Per un'introduzione alla gestione della sostenibilità, vedi i seguenti articoli
 |  Articolo  |  Descrizione  |  
 |--------|--------------| 
 |[Setup sostenibilità](finance-sustainability-setup.md) | Questo articolo fornisce informazioni per aiutarti a configurare correttamente l'intero modulo Sostenibilità. |
-|[Contabilità generale e piano dei conti di sostenibilità](finance-sustainability-accounts-ledger.md) | Questo articolo fornisce informazioni su come configurare correttamente il grafico dei conti di sostenibilità, categorie di conti e sottocategorie e su come analizzare le informazioni in Movimenti contabili sostenibilità. |
+|[Contabilità generale e grafico dei conti di sostenibilità](finance-sustainability-accounts-ledger.md) | Questo articolo fornisce informazioni su come configurare correttamente il grafico dei conti di sostenibilità, categorie di conti e sottocategorie e su come analizzare le informazioni in Movimenti contabili sostenibilità. |
 |[Come registrare emissioni di gas serra](finance-sustainability-journal.md) | Utilizza questo articolo per imparare a lavorare con tutti i tipi di giornali di registrazione sostenibilità. |
 
 
-## <a name="see-also"></a>Vedere anche
-[Setup sostenibilità](finance-sustainability-setup.md) 
-[Contabilità generale e grafico dei conti di sostenibilità](finance-sustainability-accounts-ledger.md) 
-[Come registrare le emissioni di gas serra](finance-sustainability-journal.md)
-[Finanza](finance.md)  
-[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Vedere anche  
+[Setup sostenibilità](finance-sustainability-setup.md)   
+[Contabilità generale e grafico dei conti di sostenibilità](finance-sustainability-accounts-ledger.md)   
+[Come registrare le emissioni GHG](finance-sustainability-journal.md)  
+[Finanze](finance.md)    
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

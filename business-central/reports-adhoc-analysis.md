@@ -21,6 +21,13 @@ A volte è necessario analizzare i dati in [!INCLUDE[prod_short](includes/prod_s
 | Visualizza e analizza i dati da un set di dati di report in Excel | [Analisi dei dati del report con Excel e XML](report-analyze-excel.md) |
 | Analizza i dati dell'elenco direttamente da una pagina |[Analizzare i dati di elenco utilizzando la modalità di analisi dei dati](analysis-mode.md)|
 
+## Analisi dati ad hoc per area funzionale
+
+Il contenuto generale sull'analisi dei dati ad hoc è disponibile anche in versioni speciali per molte delle aree funzionali di [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
+
+
 ## Vedere anche
 
 [Panoramica di Business Intelligence e creazione di report](ui-work-report.md)

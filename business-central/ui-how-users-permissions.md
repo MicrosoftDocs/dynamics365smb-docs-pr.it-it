@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 02/21/2024
+ms.date: 05/03/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
-Questo articolo descrive come gli amministratori creano utenti e definiscono chi può accedere a [!INCLUDE[prod_short](includes/prod_short.md)]. Scoprirai come assegnare autorizzazioni a diversi utenti in base alle licenze del prodotto.
+Questo articolo descrive come gli amministratori creano utenti e definiscono chi può accedere a [!INCLUDE[prod_short](includes/prod_short.md)]. Questo articolo illustra anche come assegnare autorizzazioni a diversi tipi di utenti in base alle licenze del prodotto.
 
 Quando crei utenti in [!INCLUDE[prod_short](includes/prod_short.md)], concedi loro le autorizzazioni tramite set di autorizzazioni. Puoi anche organizzare gli utenti in gruppi di utenti. I gruppi di utenti semplificano la gestione delle autorizzazioni e altre impostazioni per più utenti contemporaneamente. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).  
 
@@ -80,11 +80,11 @@ Altri set di autorizzazioni vengono aggiunti automaticamente in base ai gruppi d
 Se questa non è la configurazione corretta per un determinato ambiente, l'amministratore può modificarla. Tuttavia, le autorizzazioni personalizzate influiranno solo sui nuovi utenti a cui è stata assegnata quella licenza. Le autorizzazioni per gli utenti esistenti a cui è stata assegnata la licenza non saranno interessate.  
 
 1. Accedere a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando come account amministratore.  
-2. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Configurazione licenza**, quindi scegli il collegamento correlato.  
+2. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Configurazione licenza**, quindi scegli il collegamento correlato.  
 
     <!--Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.-->  
 3. Nella pagina **Configurazione della licenza** scegli la licenza che desideri personalizzare, quindi scegli l'azione **Configura**.  
-4. Scegli il campo **Personalizza autorizzazioni** per attivare la personalizzazione e apportare le modifiche pertinenti.  
+4. Scegli il campo **Personalizza autorizzazioni** per attivare la personalizzazione e apportare le modifiche.  
 
     Nel nostro esempio, l'amministratore desidera rimuovere l'autorizzazione di modifica in Excel, quindi rimuove il gruppo di utenti *Azione esportazione Excel* dalla licenza Membro del team. D'ora in poi, i nuovi utenti a cui è stata assegnata la licenza di membro del team non avranno la possibilità di esportare i dati in Excel. Se l'organizzazione cambia idea, può semplicemente tornare alla pagina **Configurazione della licenza** e disattivare la personalizzazione per quel tipo di licenza.  
 
@@ -108,7 +108,7 @@ Dopo aver aggiunto utenti o modificato le informazioni utente nell'interfaccia d
 > [!NOTE]
 > La guida **Aggiornare gli utenti da Microsoft 365** non aggiorna gli utenti a cui non è assegnata una licenza, ad esempio qualcuno che è amministratore globale e amministratore di Dynamics 365. Tali utenti verranno aggiornati la prossima volta che accedono all'ambiente.
 
-Per i nuovi utenti, il passaggio successivo consiste nell'assegnare gruppi di utenti e autorizzazioni. Vai ad [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md) per ulteriori informazioni. Se stai aggiornando un utente e l'aggiornamento include una modifica della licenza, gli utenti verranno assegnati al gruppo di utenti appropriato e i relativi set di autorizzazioni verranno aggiornati. Per ulteriori informazioni, vedere [Per gestire le autorizzazioni tramite gruppo di utenti](ui-define-granular-permissions.md).  
+Per i nuovi utenti, il passaggio successivo consiste nell'assegnare gruppi di utenti e autorizzazioni. Vai ad [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md) per ulteriori informazioni. Se stai aggiornando un utente con una modifica della licenza, [!INCLUDE [prod_short](includes/prod_short.md)] assegna gli utenti al gruppo di utenti appropriato e aggiorna i relativi set di autorizzazioni verranno aggiornati. Per ulteriori informazioni, vedere [Per gestire le autorizzazioni tramite gruppo di utenti](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > A tutti gli utenti di un ambiente deve essere assegnata la stessa licenza: Essentials o Premium. Per ulteriori informazioni sulle licenze, visita il sito Web [Business Central](https://dynamics.microsoft.com/business-central/overview/) .
@@ -133,7 +133,7 @@ Puoi anche rimuovere la licenza da un utente nell'interfaccia di amministrazione
 Quando assegni una licenza per [!INCLUDE[prod_short](includes/prod_short.md)] a un utente in Microsoft 365, vi sono due modi per creare l'utente in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 - L'amministratore può aggiungere l'utente scegliendo l'azione **Aggiorna utenti da Microsoft 365** nella pagina **Utenti** come descritto nella sezione [Per aggiungere un utente o aggiornare le informazioni sull'utente in Business Central](#adduser).
-- Le informazioni sulla licenza si aggiorneranno automaticamente quando l'utente accede per la prima volta.
+- Le informazioni sulla licenza aggiornano automaticamente quando l'utente accede per la prima volta.
 
 In entrambi i casi, vengono automaticamente applicate diverse impostazioni. Queste impostazioni sono elencate nella seconda e terza colonna nella tabella seguente.
 
@@ -147,7 +147,7 @@ Se si modificano le informazioni dell'utente in Microsoft 365, puoi aggiornare [
 |Sincronizzare piani utente (licenze) con licenze e ruoli assegnati in Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|
 |Aggiungere l'utente a gruppi di utenti in base ai piani utente correnti. Rimuovere il set di autorizzazioni SUPER per tutti gli utenti diversi dal primo utente che accede e gli [amministratori](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Almeno un'autorizzazione SUPER è obbligatoria.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**<br /><br />Rimuove le autorizzazioni e i gruppi di utenti assegnati manualmente.|
 
-Gli utenti possono accedere ai record di [!INCLUDE[prod_short](includes/prod_short.md)] in Teams utilizzando solo la licenza Microsoft 365. Quando l'accesso è abilitato per un ambiente, la sincronizzazione tramite l'azione **Aggiorna utenti da Microsoft 365** non includerà gli utenti che dispongono solo di una licenza Microsoft 365. Per includere questi utenti nella sincronizzazione, devi prima aggiornare le impostazioni dell'ambiente assegnando un gruppo di sicurezza che contenga utenti con una licenza [!INCLUDE[prod_short](includes/prod_short.md)] e utenti con solo una licenza Microsoft 365.
+Gli utenti possono accedere ai record di [!INCLUDE[prod_short](includes/prod_short.md)] in Teams utilizzando solo la licenza Microsoft 365. Quando l'accesso è abilitato per un ambiente, la sincronizzazione tramite l'azione **Aggiorna utenti da Microsoft 365** ignora gli utenti che dispongono solo di una licenza Microsoft 365. Per includere questi utenti nella sincronizzazione, devi prima aggiornare le impostazioni dell'ambiente assegnando un gruppo di sicurezza che contenga utenti con una licenza [!INCLUDE[prod_short](includes/prod_short.md)] e utenti con solo una licenza Microsoft 365.
 
 Scopri come proteggere l'accesso agli ambienti utilizzando i gruppi di sicurezza in [Gestire gli accessi utilizzando gruppi di Microsoft Entra](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
@@ -170,6 +170,43 @@ Per le distribuzioni locali, l'amministratore crea, modifica ed elimina gli uten
 > Per le distribuzioni locali, un amministratore può specificare come autenticare le credenziali dell'utente nell'istanza [!INCLUDE[server](includes/server.md)]. Quando si crea un utente, si fornisce il tipo di credenziale che si sta utilizzando.
 >
 > Per ulteriori informazioni, vedere [Tipi di autenticazione e credenziali](/dynamics365/business-central/dev-itpro/administration/users-credential-types) nella Guida per amministratori di [!INCLUDE[prod_short](includes/prod_short.md)].
+
+## Analizza lo stato dell'utente per tipo di licenza
+
+Puoi utilizzare la funzionalità **Analisi dei dati** per analizzare i dati sulla pagina [Utenti](https://businesscentral.dynamics.com/?page=9800). Non è necessario eseguire un report o aprire un'altra applicazione, come Excel. La funzionalità fornisce un modo interattivo e versatile per calcolare, riassumere ed esaminare i dati. Invece di eseguire i report utilizzando opzioni e filtri, puoi aggiungere più schede che rappresentano attività o viste diverse sui dati. Alcuni esempi sono "Utenti per stato" o "Utenti per tipo di licenza" o qualsiasi altra visualizzazione tu possa immaginare. Per ulteriori informazioni su come utilizzare la funzionalità **Analisi dei dati**, vai a [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md).
+
+### Scenari di analisi degli utenti
+
+Le sezioni seguenti forniscono esempi di scenari in cui l'analisi dell'elenco di utenti può aiutare a monitorare lo stato degli utenti.
+
+| Ad area | Per... | Apri questa pagina in modalità di analisi | Utilizzando questi campi |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Utenti per stato](#example-users-by-status) | Visualizza un elenco di utenti in base al loro stato (abilitato/disabilitato). | [Utenti](https://businesscentral.dynamics.com/?page=9800) | **Stato**, **Nome utente**, **Nome completo**, **E-mail di autorizzazione** e **Tipo di licenza**. |
+| [Utenti per tipo di licenza](#example-users-by-license-type) | Visualizza un elenco di utenti in base al loro tipo di licenza. | [Utenti](https://businesscentral.dynamics.com/?page=9800) | **Tipo di licenza**, **Stato**, **Nome utente**, **Nome completo** e **E-mail di autorizzazione**. |
+
+### Esempio, utenti per stato
+
+Per analizzare gli utenti in base allo stato, segui questa procedura:
+
+1. Apri l'elenco [Utenti](https://businesscentral.dynamics.com/?page=9800) e scegli l'icona :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entra in modalità analisi"::: per attivare la modalità di analisi.
+1. Nel menu **Colonne**, rimuovi tutte le colonne (seleziona la casella accanto al campo **Ricerca** sulla destra).
+1. Trascina i campi **Stato** (utente abilitato/disabilitato) e **Tipo di licenza** sull'area **Gruppi di righe**.
+1. Scegli i campi **Nome utente**, **Nome completo** e **E-mail di autorizzazione**.
+1. Rinomina la scheda di analisi in **Utenti per stato** o qualcosa che descriva questa analisi.
+
+L'immagine seguente mostra il risultato di questi passaggi.
+
+:::image type="content" source=" media/data-analysis-users.png" alt-text="Esempio di come eseguire l'analisi dei dati nella pagina Voci log modifiche (Chi ha modificato quali dati e quando)." lightbox="media/data-analysis-users.png":::
+
+### Esempio: utenti per tipo di licenza
+
+Per analizzare gli utenti in base al tipo di licenza, segui questa procedura:
+
+1. Apri l'elenco [Utenti](https://businesscentral.dynamics.com/?page=9800) e scegli l'icona :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entra in modalità analisi"::: per attivare la modalità di analisi.
+1. Nel menu **Colonne**, rimuovi tutte le colonne (seleziona la casella accanto al campo **Ricerca** sulla destra).
+1. Trascina i campi **Tipo di licenza** e **Stato** (utente abilitato/disabilitato) e sull'area **Gruppi di righe**.
+1. Scegli i campi **Nome utente**, **Nome completo** e **E-mail di autorizzazione**.
+1. Rinomina la scheda di analisi in **Utenti per tipo di licenza** o qualcosa che descriva questa analisi.
 
 ## Vedere anche
 

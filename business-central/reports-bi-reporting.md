@@ -40,7 +40,7 @@ La funzionalità Report finanziari ti offrono informazioni dettagliate sui dati 
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Screenshot di un report finanziario." lightbox="media/acc_schedule_13_columns.jpg":::
 
-Le dimensioni svolgono un ruolo importante nella business intelligence. Una dimensione corrisponde ai dati che puoi aggiungere a un movimento come parametro. Le dimensioni ti consentono di raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Tra altri scopi, le dimensioni si usano quando si definiscono le visualizzazioni analisi e si creano report finanziari. Per ulteriori informazioni, vedi [Utilizzare le dimensioni](finance-dimensions.md).
+Le dimensioni svolgono un ruolo importante nella business intelligence. Una dimensione corrisponde ai dati che puoi aggiungere a un movimento come parametro. Le dimensioni consentono di raggruppare voci con caratteristiche simili. Ad esempio, gruppi di clienti, aree geografiche, prodotti e venditori. I gruppi semplificano il recupero dei dati per l'analisi. Tra altri scopi, le dimensioni si usano quando si definiscono le visualizzazioni analisi e si creano report finanziari. Per ulteriori informazioni, vedi [Utilizzare le dimensioni](finance-dimensions.md).
 
 Per ulteriori informazioni sui rendiconti finanziari e sugli indicatori KPI, vai a [Utilizzo del reporting finanziario per produrre rendiconti finanziari e indicatori KPI](bi.md).
 
@@ -61,7 +61,7 @@ Per ulteriori informazioni sugli indicatori KPI, vedi [Uso degli indicatori KPI 
 
 ## Analisi dei dati ad hoc
 
-A volte potresti semplicemente voler verificare se i numeri si sommano correttamente, confermare o sfatare rapidamente un'ipotesi sull'attività o magari cercare anomalie nei tuoi dati finanziari. Per le analisi ad hoc, potresti non disporre di un report predefinito utile per rispondere alle tue domande. Per le analisi ad hoc, utilizza queste due funzionalità:
+Potresti semplicemente voler verificare se i numeri si sommano correttamente, confermare o sfatare rapidamente un'ipotesi sull'attività o magari cercare anomalie nei tuoi dati finanziari. Per le analisi ad hoc, potresti non disporre di un report predefinito utile per rispondere alle tue domande. Per le analisi ad hoc, utilizza queste due funzionalità:
 
 - Analisi dei dati nelle pagine degli elenchi di contabilità
 - Apri in Excel
@@ -107,7 +107,7 @@ La tabella seguente elenca gli articoli su come utilizzare report predefiniti in
 
 ## Strumenti di Business Intelligence e reporting esterni
 
-Se preferisci utilizzare strumenti di Business Intelligence non incorporati in [!INCLUDE[prod_short](includes/prod_short.md)], la tabella seguente fornisce collegamenti a indicazioni sugli strumenti e sulle modalità di utilizzo degli strumenti esterni.
+Se preferisci, puoi utilizzare strumenti di business intelligence non integrati in [!INCLUDE[prod_short](includes/prod_short.md)]. La tabella seguente fornisce collegamenti a indicazioni e modalità di utilizzo di strumenti esterni.
 
 | A  | Vedere |
 | --- | --- |
@@ -116,6 +116,18 @@ Se preferisci utilizzare strumenti di Business Intelligence non incorporati in [
 | Estrarre dati in data warehouse o data lake| [Come estrarre dati in data warehouse o data lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Analizzare i dati di Business Central in Microsoft Fabric| [Introduzione a Microsoft Fabric e Business Central](admin-fabric.md) |
 | Leggere dati da Business Central utilizzando API | [API di Business Central v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+
+## Analisi per area funzionale
+
+Il contenuto in questo articolo generale è disponibile anche in versioni speciali per molte delle aree funzionali di [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Se utilizzi... | Vedere |
+| --- | --- |
+| Dati finanziari | [Analisi finanziaria](bi.md) |
+| Vendita | [Analisi delle vendite](sales-analytics-overview.md) |
+| Acquisti | [Analisi degli acquisti](purchasing-analytics-overview.md) |
+| Gestione dei cespiti | [Analisi dei cespiti](fa-analytics-overview.md) |
+
 
 ## Vedere anche
 

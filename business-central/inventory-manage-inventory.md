@@ -24,6 +24,16 @@ Per ampliare la panoramica degli articoli e agevolare le operazioni di ricerca, 
 
 La pianificazione degli articoli per soddisfare la domanda è coperta nella funzionalità di pianificazione dell'offerta. Ulteriori informazioni in [Pianificazione](production-planning.md).  
 
+## Analisi dell'inventario
+
+In questa sezione vengono descritti gli strumenti analitici che puoi utilizzare per ottenere informazioni dettagliate sui dati di magazzino.
+
+| Per... | Vedere |
+| --- | --- |
+| Scopri le funzionalità per l'analisi dei dati di magazzino. | [Panoramica dell'analisi delle vendite](inventory-analytics-overview.md) |
+| Esegui analisi ad hoc dei dati relativi al magazzino direttamente nelle pagine di elenco e nelle query. | [Analisi ad hoc dei dati di inventario](ad-hoc-analysis-inventory.md) |
+| Esplora report di magazzino integrati. | [Report di inventario e warehouse predefiniti](inventory-WMS-reports.md) |
+
 ## Riconciliazione dell'inventario
 
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale. Ulteriori informazioni in [Riconciliare i costi di magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
