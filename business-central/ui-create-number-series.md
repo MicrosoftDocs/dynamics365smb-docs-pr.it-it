@@ -10,7 +10,7 @@ ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-number-series"></a>Creazione di numerazioni
+# Creazione di numerazioni
 
 Per ogni società impostata, è necessario assegnare codici di identificazione univoci a elementi quali i conti di contabilità generale, i conti clienti e i conti fornitori, le fatture e altri documenti. La numerazione non è importante ai fini dell'identificazione. Un sistema di numerazione progettato correttamente inoltre semplifica la gestione e l'analisi della società e può ridurre gli errori di immissione dei dati.
 
@@ -31,11 +31,11 @@ In genere, si imposta la numerazione per inserire automaticamente il numero imme
 
 Se si desidera utilizzare più codici di numerazione per un tipo di anagrafica, ad esempio per utilizzare una numerazione diversa per diverse categorie di articoli, è possibile utilizzare relazioni tra numerazioni.
 
-## <a name="gaps-in-number-series"></a>Interruzioni nelle numerazioni
+## Interruzioni nelle numerazioni
 
 Non tutti i record creati in [!INCLUDE[prod_short](includes/prod_short.md)] sono transazioni finanziarie che devono utilizzare numerazioni sequenziali. Le schede cliente, le offerte di vendita e le attività di warehouse sono esempi di record a cui è assegnato un numero di una numerazione, ma che non sono soggetti a controlli finanziari e/o che possono essere eliminati. Per tali numerazioni, è possibile selezionare la casella di controllo **Consenti interruzioni in num.** nella pagina **Righe nr. serie**. Questa impostazione può essere modificata anche dopo aver creato le numerazioni. Per ulteriori informazioni, vedere [Per creare nuove numerazioni](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamento del campo Nr. in documenti e schede
+## Comportamento del campo Nr. in documenti e schede
 
 Nei documenti di vendita, acquisto, trasferimento e assistenza e in tutte le schede, il campo **Nr.** può essere compilato automaticamente da una numerazione predefinita o puoi aggiungerlo manualmente. Tuttavia, in determinate circostanze, il campo **Nr.** è invisibile per impedirti di modificarlo.  
 
@@ -59,7 +59,7 @@ Quando si apre un nuovo documento o scheda per cui esiste una numerazione, si ap
 >
 > Lo stesso vale se utilizzi le funzionalità di gestione dell'assistenza. Per risolvere quel problema, passare alla pagina **Impostazione gestione assistenza** e scegliere il campo **Nr. articoli in assistenza** per impostare la numerazione su **Consenti num. manuale**.
 
-## <a name="to-create-a-new-number-series"></a>Per creare nuove numerazioni
+## Per creare nuove numerazioni
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Nr. serie**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Nuovo**.  
@@ -73,7 +73,7 @@ Quando si apre un nuovo documento o scheda per cui esiste una numerazione, si ap
 
 Puoi assegnare numerazioni ai modelli che hai impostato per i diversi tipi di cliente e fornitore che i tuoi venditori e acquirenti aggiungono più spesso. In tal caso, imposta la numerazione pertinente, collegala tramite relazioni, quindi aggiungi la prima numerazione nella relazione pertinente alla pagina di configurazione pertinente. Quindi, quando un utente crea un cliente, sceglie il modello pertinente e il nuovo cliente riceve un numero assegnato dalla numerazione definita per quel modello.  
 
-## <a name="to-create-relationships-between-number-series"></a>Per creare relazioni tra numerazioni
+## Per creare relazioni tra numerazioni
 
 È possibile creare relazioni tra codici di numerazioni se ne sono stati impostati più di uno per lo stesso tipo di informazione o transazione di base. Questa funzione può essere utile per selezionare il codice corretto, al momento di utilizzare un numero. Impostando una relazione tra un gruppo di numeri di serie, tutte le numerazioni correlate vengono associate a un solo codice di numerazione. Quindi puoi inserire quel codice in un campo della scheda dettaglio **Numerazione** in una delle pagine di configurazione pertinenti, ad esempio **Setup contabilità clienti**.  
 
@@ -85,7 +85,7 @@ Puoi assegnare numerazioni ai modelli che hai impostato per i diversi tipi di cl
 
 Ogni volta che verrà impostato un elemento che richiede un numero, è ora possibile utilizzare le relazioni che sono state create per selezionare la numerazione corretta tra quelle poste in relazione.
 
-## <a name="to-set-up-where-a-number-series-is-used"></a>Per impostare le aree in cui la numerazione viene utilizzata
+## Per impostare le aree in cui la numerazione viene utilizzata
 
 La seguente procedura illustra come impostare una numerazione per l'area delle vendite. I passaggi sono simili per altre aree.  
 
@@ -94,7 +94,7 @@ La seguente procedura illustra come impostare una numerazione per l'area delle v
 
 Il numero selezionato risulterà utilizzato per compilare il campo **Nr.** nella scheda o nel documento in questione, in base alle impostazioni effettuate nella riga della numerazione.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
