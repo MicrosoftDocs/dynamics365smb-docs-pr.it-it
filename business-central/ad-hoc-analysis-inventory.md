@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-inventory-data"></a>Analisi ad hoc dei dati di magazzino
+# Analisi ad hoc dei dati di magazzino
 
 Questo articolo spiega come utilizzare la funzionalità **Analisi dei dati** per analizzare i dati di magazzino direttamente dalle pagine di elenco e dalle query. Non è necessario eseguire un report o passare a un'altra applicazione, come Excel. La funzionalità fornisce un modo interattivo e versatile per calcolare, riassumere ed esaminare i dati. Invece di eseguire i report utilizzando opzioni e filtri, puoi aggiungere più schede che rappresentano attività o viste diverse sui dati. Alcuni esempi sono "stock in scadenza" o "venditori principali" o qualsiasi altra visualizzazione tu possa immaginare. Per ulteriori informazioni su come utilizzare la funzionalità **Analisi dei dati**, vai a [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Utilizza le seguenti pagine di elenco per analisi ad hoc dei processi di magazzi
 
 - [Movimenti contabili articoli](https://businesscentral.dynamics.com/?page=38)
 
-## <a name="inventory-ad-hoc-analysis-scenarios"></a>Scenari di analisi di magazzino ad hoc
+## Scenari di analisi di magazzino ad hoc
 
 Utilizza la funzione **Analisi dei dati** per un rapido controllo dei fatti e un'analisi ad hoc:
 
@@ -38,7 +38,7 @@ Le sezioni seguenti forniscono esempi di scenari di magazzino in [!INCLUDE [prod
 | Produttività del magazzino | Ottieni una panoramica degli acquisti e delle vendite nel tuo magazzino per mese o trimestre. | [Movimenti contabili articoli](https://businesscentral.dynamics.com/?page=38) | **Anno data di registrazione**, **Mese data di registrazione**, **Nr. articolo**, **Quantità**, **Importo delle vendite**, **Importo del costo (effettivo)** e **Mese data di registrazione** |
 | [Movimenti di magazzino] | Ottieni una panoramica di come le merci nel tuo magazzino si spostano tra le sedi. | [Movimenti contabili articoli](https://businesscentral.dynamics.com/?page=38) | **Codice ubicazione**, **Quantità**, **Data di registrazione**, **Nr. articolo** |
 
-## <a name="example-inventory-on-hand"></a>Esempio: scorte disponibili
+## Esempio: scorte disponibili
 
 Per analizzare gli articoli del tuo magazzino che sono in stock, procedi nel seguente modo:
 
@@ -54,7 +54,7 @@ L'immagine seguente mostra il risultato di questi passaggi.
 
 :::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Esempio di come eseguire un'analisi sulle scorte disponibili." lightbox="media/data-analysis-inventory-on-hand.png":::
 
-## <a name="example-track-expiring-or-old-stock"></a>Esempio: tenere traccia delle scorte in scadenza o vecchie
+## Esempio: tenere traccia delle scorte in scadenza o vecchie
 
 Per analizzare gli articoli nel tuo magazzino che sono rimasti in stock per molto tempo e non vendono bene, segui questi passaggi.
 
@@ -69,7 +69,7 @@ L'immagine seguente mostra il risultato di questi passaggi.
 
 :::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Esempio di come eseguire un'analisi dei dati sullo stock scaduto nella pagina Movimenti contabili articoli." lightbox="media/data-analysis-inventory-dead-stock.png":::
 
-## <a name="example-returned-items-by-return-reason"></a>Esempio: articoli restituiti per motivo del reso
+## Esempio: articoli restituiti per motivo del reso
 
 Per analizzare gli articoli restituiti ordinati in base ai motivi del reso, procedi nel seguente modo:
 
@@ -83,7 +83,7 @@ Per analizzare gli articoli restituiti ordinati in base ai motivi del reso, proc
 1. Aggiungi eventuali altri campi che desideri nell'analisi e abilitali nell'area **Colonne**. Ad esempio, potresti aggiungere **Data di registrazione**, **Tipo documento**, **Nr. articolo .** e  **Nr. documento**.
 1. Rinomina la scheda di analisi in **Articoli restituiti per motivo del reso** o qualcosa che descriva questa analisi.  
 
-## <a name="example-inventory-throughput"></a>Esempio: produttività del magazzino
+## Esempio: produttività del magazzino
 
 1. Apri l'elenco [Movimenti contabili articoli](https://businesscentral.dynamics.com/?page=38) e scegli l'icona :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entra in modalità analisi"::: per attivare la modalità di analisi.
 1. Vai al menu **Colonne** e rimuovi tutte le colonne (seleziona la casella accanto al campo **Ricerca** sulla destra).
@@ -93,7 +93,7 @@ Per analizzare gli articoli restituiti ordinati in base ai motivi del reso, proc
 1. Trascina il campo **Data di registrazione (mese)** nell'area **Gruppi di colonne**.
 1. Rinomina la scheda di analisi in **Produttività del magazzino per mese** o qualcosa che descriva questa analisi.  
 
-## <a name="inventory-movements"></a>Movimenti di magazzino
+## Movimenti di magazzino
 
 Per tenere traccia dei movimenti di magazzino tra le ubicazioni, procedi nel seguente modo:
 
@@ -107,7 +107,7 @@ Per tenere traccia dei movimenti di magazzino tra le ubicazioni, procedi nel seg
    > [!TIP]
    > Se aggiungi il campo Data di registrazione, puoi anche tenere traccia dei movimenti nel tempo.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-inventory"></a>Base dati per analisi ad hoc sul magazzino
+## Base dati per analisi ad hoc sul magazzino
 
 Quando registri un ordine di acquisto, [!INCLUDE [prod_short](includes/prod_short.md)] aggiorna il conto del cliente, la contabilità generale e i movimenti contabili articoli.
 
@@ -117,7 +117,7 @@ Quando registri un documento di acquisto, [!INCLUDE [prod_short](includes/prod_s
 
 - Per ciascuna riga di acquisto, a seconda dei casi, vengono creati movimenti nella tabella **Mov. Contabile Articoli** (se la riga di acquisto è di tipo Articolo). Inoltre, i documenti di acquisto vengono sempre registrati nelle tabelle **Testata carico acq.** e **Testate fatt. acq**. Per ulteriori informazioni, vedi [Registrazione di acquisti](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md)  
 [Panoramica dell'analisi di magazzino](inventory-analytics-overview.md)  
