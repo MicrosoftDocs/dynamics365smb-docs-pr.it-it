@@ -3,7 +3,7 @@ title: Uso dei fogli presenze
 description: 'Scopri come creare, inviare, approvare e pubblicare fogli presenze per risorse, progetti e servizi.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'project management, capacity, staff, resource, time sheets'
 ms.search.form: '950, 951, 973'
@@ -11,7 +11,7 @@ ms.date: 02/05/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="use-time-sheets"></a>Uso dei fogli presenze
+# Uso dei fogli presenze
 
 Questo articolo descrive come usare i fogli presenze per tenere traccia delle assenze e del tempo e delle risorse impiegati per un progetto. Il tracciamento del tempo ti aiuta a identificare in anticipo i problemi per evitare ritardi e sovraccarichi di costo. I fogli presenze consentono a una risorsa di registrare più facilmente l'utilizzo del tempo per una persona fisica o una macchina di modo che i responsabili possano esaminare l'utilizzo e la relativa assegnazione.
 
@@ -24,7 +24,7 @@ Prima di poter utilizzare i fogli presenze, è necessario impostare le informazi
 > [!TIP]
 > Puoi utilizzare i fogli presenze in un dispositivo mobile. Per fare ciò, è possibile che sia necessario attivare l'interruttore **Usa la nuova esperienza del foglio presenze** nella pagina [Setup risorse](https://businesscentral.dynamics.com/?page=462).
 
-## <a name="create-time-sheets"></a>Creare fogli presenze
+## Creare fogli presenze
 
 Puoi utilizzare la pagina **Crea fogli presenze** per impostare i fogli presenze per un numero specificato di periodi di tempo o settimane. Il proprietario potrà così aprirlo e registrarvi il tempo dedicato a un task. Puoi anche [pianificare l'esecuzione automatica del progetto batch](ui-work-report.md#ScheduleReport).  
 
@@ -68,7 +68,7 @@ In questo esempio ipotetico, vengono registrate le ore pertinenti nei giorni spe
 >
 > Per selezionare il tipo di lavoro, scegliere il pulsante :::image type="icon" source="media/assist-edit-icon.png" border="false"::: nel campo **Descrizione**, scegliere l'azione **Dettagli attività**, quindi specificarlo nella pagina visualizzata oppure sceglierlo nel campo **Codice tipo lavoro** o **Codice tipo di assenza**, rispettivamente. In questo caso, è possibile ignorare la sezione [Per definire i tipi di lavoro e aggiungerne uno a un foglio presenze](#define-work-types-and-add-one-to-a-time-sheet).  
 
-## <a name="reuse-time-sheet-lines-in-other-time-sheets"></a>Riutilizzare le righe di un foglio presenze in altri fogli presenze
+## Riutilizzare le righe di un foglio presenze in altri fogli presenze
 
 Se le informazioni del foglio presenze rimangono invariate da un periodo di tempo a un altro, è possibile copiare le righe dal periodo di tempo precedente per risparmiare tempo. In questo modo, sarà sufficiente immettere l'utilizzo del tempo per il nuovo periodo.
 
@@ -78,7 +78,7 @@ Se le informazioni del foglio presenze rimangono invariate da un periodo di temp
 
 Verranno copiate le righe e tutti i dettagli quali tipo e descrizione. Ad esempio, se la riga è correlata a un progetto, viene copiato **Nr. progetto** . Tutte le righe copiate presentano lo stato **Aperto**. È ora possibile modificare le righe in base alle esigenze.
 
-## <a name="copy-project-planning-lines-to-a-time-sheet"></a>Copiare le righe di pianificazione progetto in un foglio presenze
+## Copiare le righe di pianificazione progetto in un foglio presenze
 
 Nella procedura riportata di seguito viene descritto come aggiungere rapidamente righe di pianificazione progetto a un foglio presenze.
 
@@ -86,7 +86,7 @@ Nella procedura riportata di seguito viene descritto come aggiungere rapidamente
 2. Selezionare un foglio presenze per il periodo pertinente nella pagina **Fogli presenze**.  
 3. Scegliere l'azione **Crea righe da pianificazione progetto**. Tutte le righe di pianificazione progetto nel periodo di tempo del foglio di presenze verranno copiate nel foglio di presenze della persona o della macchina indicata nel campo **Nr. risorsa** del foglio presenze.
 
-## <a name="define-work-types-and-add-one-to-a-time-sheet"></a>Definire i tipi di lavoro e aggiungerne uno a un foglio presenze
+## Definire i tipi di lavoro e aggiungerne uno a un foglio presenze
 
 Puoi definire il tipo di lavoro per tutte le righe del foglio presenze per ordini di assistenza, ordini di progetto e risorse. In questo modo, sarà possibile aggiungere le informazioni necessarie per fatturare al cliente diversi tipi di lavoro.  
 
@@ -100,7 +100,7 @@ Puoi definire il tipo di lavoro per tutte le righe del foglio presenze per ordin
 > [!TIP]
 > Puoi seguire passaggi simili per definire i codici di assenza.
 
-## <a name="fill-in-time-sheet-lines-and-submit-for-approval"></a>Compilare le righe di un foglio presenze e inviarle per l'approvazione
+## Compilare le righe di un foglio presenze e inviarle per l'approvazione
 
 La registrazione del foglio presenze avviene in ore, l'unità di misura base standard per le risorse. Per impostazione predefinita, un foglio presenze mostra i giorni lavorativi normali dal lunedì al venerdì.  
 
@@ -131,7 +131,7 @@ La registrazione del foglio presenze avviene in ore, l'unità di misura base sta
     > Un manager potrebbe rifiutare una riga del foglio presenze che è stata inviata per l'approvazione. Se una riga presenta lo stato **Rifiutato**, puoi apportare modifiche alla riga e scegliere nuovamente **Invia**.  
 6. Scegli il pulsante **OK**.
 
-## <a name="approve-or-reject-a-time-sheet"></a>Per approvare o rifiutare un foglio presenze
+## Per approvare o rifiutare un foglio presenze
 
 Un foglio presenze deve essere inviato per l'approvazione prima di poter essere utilizzato. Puoi approvare e rifiutare singole righe di un foglio presenze o inviarle al mittente per un'ulteriore azione. Un foglio presenze può essere approvato in due modi:
 
@@ -151,7 +151,7 @@ Un foglio presenze deve essere inviato per l'approvazione prima di poter essere 
 
 Una volta approvato o rifiutato, un foglio presenze non può essere modificato a meno che non venga prima riaperto. La procedura riportata di seguito spiega come riaprire un foglio presenze approvato o rifiutato.
 
-## <a name="reopen-a-time-sheet"></a>Riaprire un foglio presenze
+## Riaprire un foglio presenze
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fogli presenze manager** o **Fogli presenze**, quindi scegli il collegamento correlato.
 2. Aprire un foglio presenze dall'elenco.  
@@ -161,14 +161,14 @@ Una volta approvato o rifiutato, un foglio presenze non può essere modificato a
 3. Nella pagina **Foglio presenze** scegli l'azione **Riapri**, quindi scegli l'azione **Tutte le righe inviate** per riaprire tutte le righe oppure l'azione **Solo le righe selezionate** per riaprire solo le righe che sono state selezionate nella pagina **Foglio presenze**.
 4. Scegliere il pulsante **OK**. Lo stato della riga o delle righe del foglio presenze cambia in **Inviato**.  
 
-## <a name="view-and-approve-time-sheets-by-project"></a>Visualizzare e approvare fogli presenze in base al progetto
+## Visualizzare e approvare fogli presenze in base al progetto
 
 Per un progetto, è possibile specificare una persona responsabile del progetto. Tali informazioni sono collegate alle righe del foglio presenze. Il collegamento fornisce ai project manager un elenco dei fogli presenze da approvare. Ad esempio, il project manager del team potrebbe essere responsabile di alcuni progetti nella società. In questo caso, deve essere designato come **Persona responsabile** nella pagina Scheda progetto. Questa visualizzazione delle informazioni del foglio presenze mostra le attività di progetto associate a un progetto e la quantità di ore utilizzate.
 
 > [!NOTE]
 > Per approvare i fogli presenze nella pagina **Foglio presenze manager per progetto**, devi selezionare un'opzione **Foglio presenze per approvazione progetto** nella pagina **Setup risorse**. Per ulteriori informazioni sull'impostazione delle approvazioni per le risorse, vedi [Impostare risorse](projects-how-setup-resources.md).
 
-### <a name="approve-or-reject-a-time-sheet-by-project"></a>Approvare o rifiutare un foglio presenze in base al progetto
+### Approvare o rifiutare un foglio presenze in base al progetto
 
 1. Nella casella **Cerca** immettere **Foglio presenze manager per progetto**, quindi selezionare il collegamento correlato. [!INCLUDE[prod_short](includes/prod_short.md)] visualizza un elenco di righe del foglio presenze associate ai progetti di cui sei responsabile.
 2. Scegliere l'azione **Approva**, quindi scegli l'azione **Tutte le righe inviate** per approvare tutte le righe oppure l'azione **Solo le righe selezionate** per approvare solo le righe che sono selezionate nella pagina **Foglio presenze**.
@@ -182,7 +182,7 @@ Per un progetto, è possibile specificare una persona responsabile del progetto.
 > [!NOTE]
 > Dopo aver approvato o rifiutato una riga del foglio presenze in base al progetto, non puoi riaprirla o modificarla nella pagina **Foglio presenze**.
 
-## <a name="post-time-sheet-lines-in-a-resource-journal"></a>Registrare le righe di un foglio presenze in una registrazione risorse
+## Registrare le righe di un foglio presenze in una registrazione risorse
 
 Dopo avere approvato i movimenti del foglio presenze per una risorsa, è possibile registrarli nella registrazione risorse corrispondente.
 
@@ -193,7 +193,7 @@ Dopo avere approvato i movimenti del foglio presenze per una risorsa, è possibi
 5. Scegliere l'azione **Registra**.  
 6. Per verificare la registrazione, scegliere l'azione **Mov. contabili**. Verrà visualizzata la pagina **Mov. contabili risorse** nella quale verrà visualizzato il risultato della registrazione della registrazione risorse.
 
-## <a name="post-time-sheet-lines-in-a-project-journal"></a>Registrare le righe di un foglio presenze in una registrazione progetti
+## Registrare le righe di un foglio presenze in una registrazione progetti
 
 Dopo avere approvato i movimenti del foglio presenze per un progetto, è possibile registrarli nella registrazione progetti pertinente.
 
@@ -207,7 +207,7 @@ Dopo avere approvato i movimenti del foglio presenze per un progetto, è possibi
 5. Scegli l'azione **Registra**.  
 6. Per verificare la registrazione, scegliere l'azione **Mov. contabili**. Verrà visualizzata la pagina **Movimenti contabili progetto** nella quale verrà visualizzato il risultato della registrazione della registrazione risorse.
 
-## <a name="archive-time-sheets"></a>Archiviare fogli presenze
+## Archiviare fogli presenze
 
 Dopo avere registrato i fogli presenze, puoi archiviarli per riferimento futuro. Devi registrare tutte le righe di un foglio presenze prima di poterlo archiviare.
 
@@ -219,7 +219,7 @@ Dopo avere registrato i fogli presenze, puoi archiviarli per riferimento futuro.
 3. Nella pagina **Sposta fogli presenze in archivio**, compila i campi in base alle esigenze, quindi scegli **OK**.  
 4. Per rivedere i fogli presenze archiviati, scegliere l'icona a forma di ![lampadina che consente di aprire la funzionalità relativa alla informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Archivi foglio presenze** o **Archivi foglio presenze manager**, quindi scegli il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Impostazione della Gestione progetti](projects-setup-projects.md)  

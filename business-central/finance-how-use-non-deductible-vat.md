@@ -3,7 +3,6 @@ title: Uso dell'IVA non detraibile
 description: Questo articolo spiega come usare e riportare l'IVA non detraibile.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: null
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: 'VAT, non-deductible, return, settlement'
@@ -12,11 +11,11 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="use-non-deductible-vat"></a>Uso dell'IVA non detraibile
+# Uso dell'IVA non detraibile
 
 Questo articolo spiega come usare e riportare l'IVA non detraibile.
 
-## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Creare una fattura di acquisto con IVA non detraibile
+## Creare una fattura di acquisto con IVA non detraibile
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture di acquisto**, quindi seleziona il collegamento correlato.
 2. Seleziona **Nuovo** per creare una fattura di acquisto e inserire le informazioni appropriate nell'intestazione della fattura.
@@ -27,7 +26,7 @@ Questo articolo spiega come usare e riportare l'IVA non detraibile.
 
 5. Contabilizzare la fattura.
 
-## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Creare un ordine di acquisto con IVA non detraibile
+## Creare un ordine di acquisto con IVA non detraibile
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.
 2. Seleziona **Nuovo** per creare un ordine di acquisto e inserire le informazioni appropriate nell'intestazione del documento.
@@ -38,7 +37,7 @@ Questo articolo spiega come usare e riportare l'IVA non detraibile.
 
 5. Registrare l'ordine di acquisto.
 
-## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Adeguare gli importi IVA arrotondati prima della registrazione del documento
+## Adeguare gli importi IVA arrotondati prima della registrazione del documento
 
 Se gli importi IVA non vengono arrotondati allo stesso modo nel proprio ambiente e nel sistema contabile esterno (il documento fattura originale), è possibile rettificare l'importo IVA prima di registrare il documento. Per apportare questa rettifica, attenersi alla seguente procedura prima di registrare il documento.
 
@@ -61,7 +60,7 @@ Per utilizzare le rettifiche degli importi IVA, è necessario abilitare le retti
 > [!IMPORTANT]
 > Non è possibile utilizzare l'IVA non detraibili sulle fatture di pagamento anticipato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione contabile](finance.md)
 

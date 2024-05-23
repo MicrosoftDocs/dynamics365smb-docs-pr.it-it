@@ -2,22 +2,23 @@
 title: Impostare prezzi e sconti
 description: Descrive come definire accordi su prezzi e sconti standard e speciali per vendite e acquisti.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: article
-ms.devlang: al
 ms.search.keywords: 'price, pricing, discount, discounting, rebate, sale, purchase, invoice'
 ms.search.form: '459, 460, 7001, 7011, 7015, 7016, 7017, 7018'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-prices-and-discounts"></a>Impostare prezzi e sconti
+# Impostare prezzi e sconti
 
 > [!NOTE]
 > Nel secondo ciclo di rilascio del 2020 abbiamo rilasciato processi semplificati per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti che utilizzano questa versione, trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** nella pagina **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Le strategie di prezzo e sconto per l'acquisto e la vendita di articoli e servizi sono strumenti fondamentali per le imprese di successo. Dopo aver impostato gli articoli e i servizi acquistati e venduti dalla società, è possibile definire quali pagare o addebitare e tali importi verranno automaticamente aggiunti ai documenti di vendita e acquisto. 
 
-## <a name="setting-up-prices-and-discounts"></a>Impostazione di prezzi e sconti
+## Impostazione di prezzi e sconti
 
 Prima di creare listini prezzi, è necessario definire le strategie di prezzo e sconto sul file **Setup contabilità clienti** e **Setup contabilità fornitori e acquisti**.
 
@@ -33,11 +34,11 @@ Poiché i prezzi di vendita e gli sconti riga di vendita si basano su una combin
 > [!TIP]  
 > Se un articolo non dovrà mai essere venduto a un prezzo scontato, lasciare vuoti i campi relativi allo sconto nella pagina dell'articolo e non includere l'articolo in alcuna impostazione di sconto riga.
 
-## <a name="about-price-lists"></a>Informazioni sui listini prezzi
+## Informazioni sui listini prezzi
 
 I listini prezzi sono flessibili e consentono di specificare il business partner o l'attività a cui si applicano. Ad esempio, è possibile configurare un listino prezzi applicabile a tutti i fornitori e clienti oppure offrire prezzi o sconti speciali per ogni business partner, ad esempio in base a una quantità minima sugli ordini di acquisto o di vendita o in base a una combinazione specifica di cliente, articolo, quantità minima, unità di misura o periodo di tempo. I prezzi e gli sconti definiti vengono applicati automaticamente ai documenti di acquisto e di vendita. 
 
-## <a name="set-up-prices"></a>Impostare i prezzi
+## Impostare i prezzi
 
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. 
 
@@ -67,7 +68,7 @@ Per rivedere i listini prezzi e i prezzi che si applicano a clienti o fornitori 
 
 ---
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Per impostare uno sconto riga vendita per un cliente
+## Per impostare uno sconto riga vendita per un cliente
 
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. 
 
@@ -97,7 +98,7 @@ Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'
 
 ---
 
-## <a name="work-with-invoice-discounts-and-service-charges"></a>Utilizzare Sconti fattura e Addebito assistenza
+## Utilizzare gli sconti fattura e gli addebiti di assistenza
 
 Quando si utilizzano gli sconti fattura, lo sconto applicato dipende dall'importo della fattura. Nella pagina **Sconti fattura** è inoltre possibile aggiungere un addebito di assistenza a fatture che superano un certo importo.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -114,7 +115,7 @@ Oltre a (oppure invece di) una percentuale di sconto, è possibile collegare l'i
 > [!TIP]  
 > Prima di iniziare a immettere queste informazioni, è consigliabile preparare in anticipo la struttura di sconto, in modo che sia più facile visualizzare i clienti che possono essere collegati alla stessa pagina di sconto fattura. Per ulteriori informazioni sugli sconti per le vendite, vedi [Impostare gli sconti per i clienti](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Per impostare uno sconto fattura per un cliente
+### Per impostare uno sconto fattura per un cliente
 
 Dopo avere stabilito a quali clienti si devono applicare gli sconti fattura, è necessario immettere i codici di sconto fattura nelle schede clienti e impostare le condizioni relative ai singoli codici.
 
@@ -135,7 +136,7 @@ Continuare a impostare le nuove condizioni dello sconto fattura di vendita.
 
 Lo sconto fattura è ora impostato e assegnato al cliente in questione. Quando si seleziona il codice cliente nel campo **Cod. sconto fatt.** nelle altre schede cliente, lo stesso sconto fattura viene assegnato a quei clienti.
 
-## <a name="to-copy-sales-prices"></a>Per copiare prezzi di vendita
+## Per copiare prezzi di vendita
 
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. 
 
@@ -166,7 +167,7 @@ Lo stato del listino prezzi deve essere **Bozza**.
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>Per aggiornare in blocco i prezzi degli articoli
+## Per aggiornare in blocco i prezzi degli articoli
 
 Questi passaggi differiscono a seconda se l'amministratore ha attivato o meno l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita**. 
 
@@ -194,15 +195,14 @@ Per aggiornare i prezzi per più articoli, è necessario creare un nuovo listino
 
 ---
 
-## <a name="calculating-the-best-price"></a>Calcolo del prezzo migliore
+## Calcolo del prezzo migliore
 
 Dopo aver registrato prezzi speciali e sconti riga di vendita e di acquisto, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantisce che il profitto sul commercio degli articoli sia sempre ottimale calcolando automaticamente il miglior prezzo delle vendite e dei documenti di acquisto e delle righe di registrazione magazzino. Per ulteriori informazioni, vedi [Calcolo del prezzo migliore](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)  
 [Vendite](sales-manage-sales.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

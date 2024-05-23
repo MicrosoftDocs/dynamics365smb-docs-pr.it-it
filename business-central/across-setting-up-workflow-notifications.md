@@ -2,13 +2,15 @@
 title: Impostazione delle notifiche del workflow di approvazione
 description: Questo articolo spiega come impostare le notifiche del flusso di lavoro per avvisare un utente che si è verificato un evento a cui deve reagire con la risposta del flusso di lavoro obbligatoria.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 09/13/2022
-ms.author: bholtorf
+ms.date: 05/03/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="approval-workflow-notifications"></a>Notifiche del workflow di approvazione
+# Notifiche del workflow di approvazione
 
 Impostare i workflow per notificare automaticamente agli utenti quando è richiesta la loro attenzione per un passaggio del workflow. Molte risposte del workflow riguardano la comunicazione, a un utente, di un evento che si è verificato e la relativa necessità di intervento.
 
@@ -20,7 +22,7 @@ Ad esempio, è possibile impostare che l'utente 2, l'utente responsabile dell'ap
 > [!IMPORTANT]  
 > Tutte le notifiche del workflow vengono inviate tramite una coda processi. Assicurarsi che la coda processi nella propria installazione sia impostata in modo da gestire le notifiche del workflow e che la casella di controllo **Avvia automaticamente da server** sia selezionata. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Impostazione delle notifiche
+## Impostazione delle notifiche
 
 È possibile impostare diversi aspetti delle notifiche del workflow nelle aree seguenti:  
 
@@ -49,7 +51,7 @@ Ad esempio, è possibile impostare che l'utente 2, l'utente responsabile dell'ap
 
   Per i workflow di approvazione, aggiungere un passaggio di risposta del workflow per notificare al mittente quando la richiesta è stata approvata o rifiutata. Scopri di più dal passaggio 9 nella sezione [Creare workflow](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Impostare gli utenti del flusso di lavoro](across-how-to-set-up-workflow-users.md)  

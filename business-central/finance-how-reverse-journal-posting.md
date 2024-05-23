@@ -3,9 +3,9 @@ title: Annullare una registrazione con un movimento di storno
 description: 'Se rilevi un errore in un giornale di registrazione generale registrato, puoi utilizzare l''azione Storno transazione per annullare la registrazione con un audit trail corretto.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -27,8 +27,6 @@ Se è stata eseguita una registrazione di quantità positiva, ad esempio se è s
 
 > [!NOTE]
 > Il movimento deve derivare da una registrazione.
->
-> Inoltre, non è possibile annullare i movimenti registrati con le informazioni di un progetto o che hanno realizzato utili e perdite all'interno della stessa transazione.
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimenti C/G**, quindi scegli il collegamento correlato.
 2. Selezionare il movimento che si desidera stornare quindi scegliere l'azione **Storno**.
@@ -83,6 +81,17 @@ I passaggi sono simili a quelli per i carichi da reso registrati.
 8. Correggere la voce nel campo **Quantità** e registrare nuovamente l'ordine di reso acquisto.  
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
+
+## Stornare un movimento contabile cliente e fornitore con un movimento di guadagno o perdita realizzato
+
+È possibile utilizzare l'azione **Storna transazione** per stornare i pagamenti applicati a movimenti originati in valute straniere e rettificati utilizzando il processo batch Rettifica tassi di cambio. La funzionalità può essere usata sia per gli acquisti sia per le vendite.
+
+Quello che segue è uno scenario semplice che illustra come funziona:
+
+1. Registrare una fattura di vendita per un cliente con una valuta estera.
+2. Modificare il tasso di cambio per quella valuta.
+3. Registrare un pagamento applicato alla fattura.
+4. Scollegare e stornare la transazione di pagamento, ad esempio, dalla pagina **Movimenti contabili clienti**.
 
 ## Vedere anche
 

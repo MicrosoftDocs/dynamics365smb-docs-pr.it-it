@@ -1,16 +1,17 @@
 ---
-title: Creare una scheda fornitore per registrare un nuovo fornitore (video)
+title: Creare una scheda fornitore per registrare un nuovo fornitore (contiene video)
 description: Scopri come creare una scheda fornitore per registrare un nuovo fornitore e salvare la scheda fornitore come modello.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: supplier
 ms.search.form: '26, 27, 34, 461, 786, 1379, 1385, 1386, 1628'
-ms.date: 09/05/2022
-ms.author: bholtorf
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="register-new-vendors"></a>Registrare nuovi fornitori
+# Registrare nuovi fornitori
 
 I fornitori forniscono i prodotti venduti. Ogni fornitore da cui si acquista deve essere registrato come una scheda fornitore.
 
@@ -21,7 +22,7 @@ Le schede fornitore conservano le informazioni richieste per acquistare i prodot
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## <a name="adding-new-vendors"></a>Aggiunta di nuovi fornitori
+## Aggiunta di nuovi fornitori
 
 Puoi aggiungere nuovi venditori manualmente, compilando nella pagina **Scheda fornitore**, oppure puoi usare dei modelli che contengono informazioni predefinite. Per esempio, si può creare un modello per diversi tipi di profili di venditori. L'uso di modelli fa risparmiare tempo quando si aggiungono nuovi fornitori e aiuta a garantire che le informazioni siano corrette ogni volta.
 
@@ -39,7 +40,7 @@ Gli indirizzi di rimessa vengono utilizzati quando si stampano assegni per pagar
 
 Specifica gli indirizzi di rimessa nelle pagine della scheda fornitore e nella scheda dettaglio Spedizioni e pagamenti su ordini di acquisto e fatture. Quando crei le righe di registrazione pagamenti utilizzando le azioni Pagamento fornitore o Crea pagamento nella pagina Elenco fornitori o Scheda fornitore o l'azione Applica movimenti su un giornale di registrazione pagamenti, viene assegnato il codice di rimessa sul movimento contabile fornitore. È possibile sostituire questo valore.
 
-### <a name="to-create-a-new-vendor"></a>Per creare un nuovo fornitore
+### Per creare un nuovo fornitore
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -50,7 +51,7 @@ Il fornitore è ora registrato e la scheda fornitore è pronta per essere utiliz
 
 Se si desidera utilizzare questa scheda fornitore come modello quando si creano nuove schede fornitore, è possibile salvarla come modello fornitore. Ulteriori informazioni nella sezione [Per salvare la scheda fornitore come modello](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-and-editing-vendor-information"></a>Cancellazione e modifica delle informazioni del fornitore
+### Cancellazione e modifica delle informazioni del fornitore
 
 Puoi modificare le informazioni sulle carte dei venditori in qualsiasi momento. Tuttavia, se hai inserito una transazione per un venditore, non puoi cancellare la carta perché le voci del libro mastro potrebbero essere necessarie per la revisione contabile. Per eliminare le schede fornitori con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.
 
@@ -60,7 +61,7 @@ Puoi modificare le informazioni sulle carte dei venditori in qualsiasi momento. 
 > [!TIP]
 > Puoi aggiungere indirizzi alternativi sulle schede fornitore scegliendo l'azione **Indirizzi ordine**.
 
-## <a name="to-save-the-vendor-card-as-a-template"></a>Per salvare la scheda fornitore come modello
+## Per salvare la scheda fornitore come modello
 
 1. Nella pagina **Scheda fornitore** scegliere l'azione **Salva come modello**. Nella pagina **Modello fornitore** verrà visualizzata la scheda fornitore come modello.
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -69,7 +70,7 @@ Puoi modificare le informazioni sulle carte dei venditori in qualsiasi momento. 
 5. Una volta completato il nuovo modello fornitore, scegli **OK**.  
    Il modello fornitore viene aggiunto all'elenco dei modelli fornitore, in modo che sia possibile utilizzarlo per creare nuove schede fornitore.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Unire record duplicati](sales-how-merge-duplicate-records.md)  
 [Creazione di numerazioni](ui-create-number-series.md)  

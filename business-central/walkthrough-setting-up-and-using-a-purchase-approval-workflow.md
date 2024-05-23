@@ -2,25 +2,26 @@
 title: Impostare e utilizzare un workflow di approvazione di acquisto
 description: Questa procedura dettagliata illustra tutte le fasi coinvolte nell'impostazione e nell'utilizzo di un flusso di lavoro di approvazione acquisti in Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.date: 03/11/2024
-ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="walkthrough-set-up-and-use-a-purchase-approval-workflow"></a>Procedura dettagliata: impostazione e utilizzo di un workflow di approvazione di acquisto
+# Procedura dettagliata: impostazione e utilizzo di un workflow di approvazione di acquisto
 
 È possibile automatizzare il processo di approvazione dei record nuovi o modificati, ad esempio documenti, righe di registrazione e schede cliente, creando i workflow con le fasi indicate per le approvazioni in questione.
 
-Prima di creare workflow di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. È inoltre possibile impostare i limiti di importo per i responsabili approvazione per definire i record di vendita e acquisto che sono qualificati ad approvare. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come nota interna. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.
+Prima di creare workflow di approvazione, è necessario impostare un responsabile approvazione e un responsabile approvazione sostitutivo per ogni utente approvazione. Per definire i record di vendita e di acquisto che sono idonei per l'approvazione, è inoltre possibile impostare i limiti di importo per i responsabili approvazione. Le richieste di approvazione e altre notifiche possono essere inviate per e-mail o come note interne. Per ogni setup utente approvazione, è inoltre possibile impostare quando vengono ricevute le notifiche.
 
 > [!NOTE]
-> Oltre alla funzionalità Workflow in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile utilizzare Power Automate per definire workflow per gli eventi in [!INCLUDE[prod_short](includes/prod_short.md)]. Si noti che sebbene siano presenti due sistemi del workflow, qualsiasi modello di flusso creato con Power Automate viene aggiunta all'elenco dei modelli di flusso in [!INCLUDE[prod_short](includes/prod_short.md)]. Ulteriori informazioni in [Usare Business Central in un flusso di lavoro automatizzato](across-how-use-financials-data-source-flow.md).  
+> Oltre alla funzionalità del flusso di lavoro in [!INCLUDE[prod_short](includes/prod_short.md)], è possibile utilizzare Power Automate per definire i flussi di lavoro per gli eventi in [!INCLUDE[prod_short](includes/prod_short.md)]. Notare che sebbene siano presenti due sistemi di flusso di lavoro, qualsiasi modello di flusso creato con Power Automate viene aggiunto all'elenco dei modelli di flusso di lavoro in [!INCLUDE[prod_short](includes/prod_short.md)]. Ulteriori informazioni in [Usare Business Central in un flusso di lavoro automatizzato](across-how-use-financials-data-source-flow.md).  
 
 È possibile impostare e utilizzare i flussi di lavoro che collegano task di processi aziendali eseguiti da utenti diversi. I task di sistema, ad esempio la registrazione automatica, possono essere inclusi come fasi nei workflow e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro. Ulteriori informazioni in [Workflow](across-workflow.md).  
 
-## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
+## Informazioni sulla procedura dettagliata
 
 Questa procedura dettagliata è uno scenario che illustra le attività seguenti:  
 
@@ -30,21 +31,21 @@ Questa procedura dettagliata è uno scenario che illustra le attività seguenti:
 - Richiesta di approvazione di un ordine di acquisto (come Alicia)  
 - Ricezione di una notifica e approvazione della richiesta (come Sean)  
 
-## <a name="story"></a>Scenario
+## Scenario
 
 Sean è un utente con privilegi avanzati di CRONUS e crea due utenti di approvazione. Un utente è Alicia che rappresenta un rivenditore. L'altro è Sean stesso che rappresenta il responsabile approvazione di Alicia. Sean quindi concede a se stesso i diritti di approvazione acquisti illimitati e specifica che riceverà le notifiche tramite nota interna non appena si verifica un evento correlato. Infine, Sean crea il workflow di approvazione richiesto come copia del modello esistente del *workflow di approvazione dell'ordine di acquisto*, lascia inalterate tutte le condizioni di evento e le opzioni di risposta, quindi abilita il workflow.  
 
 Per verificare il workflow di approvazione, Sean innanzitutto accede a [!INCLUDE[prod_short](includes/prod_short.md)] come Alicia, quindi richiede l'approvazione di un ordine di acquisto. Sean quindi accede come se stesso, vede la nota in Gestione ruolo utente, seleziona il collegamento della richiesta di approvazione per l'ordine di acquisto e approva la richiesta.  
 
-## <a name="users"></a>Utenti
+## Utenti
 
 Prima di poter impostare gli utenti di approvazione e il relativo metodo di notifica, è necessario assicurarsi che questi utenti esistano in [!INCLUDE[prod_short](includes/prod_short.md)]: Un utente rappresenterà Alicia. L'altro utente, l'utente corrente, rappresenterà Sean. Ulteriori informazioni in [Creare utenti in base alle licenze](ui-how-users-permissions.md).
 
-### <a name="set-up-approval-users"></a>Impostare gli utenti per l'approvazione
+### Impostare gli utenti per l'approvazione
 
 Dopo aver eseguito l'accesso, imposta Alicia come utente di approvazione di cui sei il responsabile. Imposta i diritti di approvazione e specifica come e quando si riceve la notifica delle richieste di approvazione.  
 
-#### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Per impostare l'utente corrente e Alicia come utenti approvazione
+#### Per impostare l'utente corrente e Alicia come utenti approvazione
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup utente approvazione** scegliere l'azione **Nuovo**.  
@@ -59,11 +60,11 @@ Dopo aver eseguito l'accesso, imposta Alicia come utente di approvazione di cui 
     |UTENTE CORRENTE||Selezionato|
     |ALICIA|UTENTE CORRENTE||
 
-### <a name="set-up-notifications"></a>Impostazione delle notifiche
+### Impostazione delle notifiche
 
 In questa procedura dettagliata, l'utente viene avvisato sulle richieste di approvare mediante la nota interna. Le notifiche di approvazione possono essere anche inviate tramite posta elettronica ed è possibile aggiungere un passaggio di risposta workflow che avvisa il mittente quando una richiesta viene approvata o rifiutata. Ulteriori informazioni in [Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-#### <a name="to-set-up-how-and-when-youre-notified"></a>Per impostare come e quando si riceve la notifica
+#### Per impostare come e quando si riceve la notifica
 
 1. Nella pagina **Setup utente approvazione**, selezionare la riga dell'utente corrente e quindi scegliere l'azione **Setup di notifica**.  
 2. Nella pagina **Setup di notifica**, nel campo **Tipo di notifica**, scegliere **Approvazione**.  
@@ -71,14 +72,14 @@ In questa procedura dettagliata, l'utente viene avvisato sulle richieste di appr
 4. Nella pagina **Setup di notifica** scegliere l'azione **Programmazione notifica**.  
 5. Nella pagina **Programmazione notifica**, nel campo **Ricorrenza** selezionare **Immediatamente**.  
 
-## <a name="create-the-approval-workflow"></a>Creare il workflow di approvazione
+## Creare il workflow di approvazione
 
 Crea il workflow di approvazione dell'ordine di acquisto copiando i passaggi dal modello di workflow **Workflow di approvazione ordine acquisto**. Lasciare le fasi esistenti del workflow invariate quindi abilitare il workflow.  
 
 > [!TIP]
 > Facoltativamente, aggiungere un passaggio di risposta del workflow per notificare al mittente quando la relativa richiesta è stata approvata o rifiutata. Ulteriori informazioni in [Specificare come e quando ricevere le notifiche](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Per creare e abilitare un workflow di approvazione dell'ordine di acquisto
+### Per creare e abilitare un workflow di approvazione dell'ordine di acquisto
 
 1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Worflows**, selezionare **Azioni**, quindi **Nuovo**, poi scegliere l'azione **Nuovo workflow da modello**.  
@@ -87,11 +88,11 @@ Crea il workflow di approvazione dell'ordine di acquisto copiando i passaggi dal
    Verrà visualizzata la pagina **Workflow** per un nuovo workflow contenente tutte le informazioni del modello selezionato. Il valore nel campo **Codice** è esteso con *-01* per indicare che si tratta del primo workflow che viene creato dal modello di workflow **Workflow di approvazione ordine acquisto**.  
 4. Nell'intestazione della pagina **Workflow**, seleziona la casella di controllo **Abilitato**.  
 
-## <a name="use-the-approval-workflow"></a>Utilizzare il flusso di lavoro di approvazione
+## Utilizzare il flusso di lavoro di approvazione
 
 Utilizza il nuovo workflow di approvazione dell'ordine di acquisto eseguendo per prima cosa l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)] come Alicia per richiedere l'approvazione di un ordine di acquisto. Eseguire quindi l'accesso come l'utente corrente, visualizzare la nota in Gestione ruolo utente, selezionare il collegamento della richiesta di approvazione e approvare la richiesta.  
 
-### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Per richiedere l'approvazione di un ordine di acquisto, come Alicia
+### Per richiedere l'approvazione di un ordine di acquisto, come Alicia
 
 1. Effettuare l'accesso come Alicia.
 2. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
@@ -100,7 +101,7 @@ Utilizza il nuovo workflow di approvazione dell'ordine di acquisto eseguendo per
 
 Si noti che il valore nel campo **Stato** è diventato **Approvazione in sospeso**.  
 
-### <a name="to-approve-the-purchase-order-as-sean"></a>Per approvare l'ordine di acquisto, come Sean
+### Per approvare l'ordine di acquisto, come Sean
 
 1. Effettuare l'accesso come Sean.
 2. In Gestione ruolo utente, nell'area **Self-service** seleziona **Richieste da approvare**.
@@ -116,7 +117,7 @@ La versione generica di [!INCLUDE[prod_short](includes/prod_short.md)] comprende
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Impostazione delle notifiche del workflow](across-setting-up-workflow-notifications.md)  

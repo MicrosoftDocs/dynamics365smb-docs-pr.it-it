@@ -1,16 +1,17 @@
 ---
-title: 'Emettere, stampare e annullare un assegno'
+title: 'Emettere, stampare, annullare e invalidare un assegno'
 description: Descrive come emettere o stampare assegni tramite le registrazioni dei pagamenti e annullare movimenti contabili degli assegni in Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256, 404,'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="make-check-payments"></a>Effettuare pagamenti tramite assegno
+# Effettuare pagamenti tramite assegno
 
 È possibile emettere assegni elettronici e manuali in [!INCLUDE[prod_short](includes/prod_short.md)]. In entrambi i metodi vengono utilizzate le registrazioni pagamenti per emettere assegni ai fornitori. È inoltre possibile annullare assegni e visualizzare movimenti contabili assegni.
 
@@ -29,7 +30,7 @@ La seguente procedura mostra come pagare un fornitore con un assegno automatico 
 
 È possibile stampare fino a 10 fatture in una pagina per una matrice. Se un assegno si applica a più di 10 fatture, quando si stampa la matrice l'assegno viene annullato alla prima pagina e viene stampata la parola ANNULLATO sull'assegno. Quindi si stampa il resto delle fatture e l'importo totale degli assegni nella seconda pagina.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Per pagare una fattura fornitore con un assegno automatico
+## Per pagare una fattura fornitore con un assegno automatico
 
 Di seguito viene descritto come pagare un fornitore tramite assegno. I passaggi sono simili al rimborso dei clienti tramite assegno.
 
@@ -49,13 +50,13 @@ Vengono creati movimenti contabili fornitori collegati completamente e movimenti
 > [!NOTE]  
 > Se si desidera stampare e pagare gli assegni provenienti da vari conti correnti bancari utilizzando più di una valuta, eseguire un singolo processo batch **Stampa assegno** per ogni valuta, specificando il conto corrente bancario appropriato.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Per annullare assegni stampati che non sono registrati
+## Per annullare assegni stampati che non sono registrati
 
 È possibile annullare gli assegni non registrati dopo che sono stati stampati utilizzando l'azione **Annullo assegno** della pagina **Registrazioni pagamenti**.
 
 1. Nella pagina **Registrazioni pagamenti** scegliere **Annullo assegno**, quindi scegliere gli assegni da annullare.
 
-## <a name="to-void-checks"></a>Per annullare gli assegni
+## Per annullare gli assegni
 
 Una volta che i pagamenti tramite assegno sono stati registrati, è possibile annullare gli assegni dai movimenti contabili bancari risultanti.
 
@@ -68,19 +69,19 @@ Una volta che i pagamenti tramite assegno sono stati registrati, è possibile an
 4. Selezionare la casella di controllo **Annullo solo assegno**.
 5. Scegliere il pulsante **OK**.
 
-## <a name="to-view-a-summary-of-posted-checks"></a>Per visualizzare un riepilogo degli assegni registrati
+## Per visualizzare un riepilogo degli assegni registrati
 
 Se si desidera verificare gli assegni registrati, ad esempio per verificare più assegni pagati a un fornitore, è possibile utilizzare il report **C/C bancario - Dettaglio assegni**.
+
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancario - Dettaglio assegni**, quindi scegli il collegamento correlato.
 2. Impostare i filtri desiderati quindi scegliere il pulsante **Anteprima**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Effettuare i pagamenti](payables-make-payments.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Esportare un file Positive Pay](finance-how-positive-pay.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

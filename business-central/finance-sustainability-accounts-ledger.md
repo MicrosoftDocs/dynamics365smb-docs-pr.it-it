@@ -1,129 +1,133 @@
 ---
-title: Contabilità generale e grafico dei conti di sostenibilità
-description: 'Scopri come gestire il grafico dei conti di sostenibilità, le categorie e le sottocategorie nonché i dettagli sui movimenti contabili di sostenibilità.'
+title: Piano dei conti di sostenibilità e contabilità
+description: 'Informazioni su come gestire il piano dei conti di sostenibilità (CoSA), le categorie e le sottocategorie, nonché i dettagli sui movimenti contabili relativi alla sostenibilità.'
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger'
 ms.search.form: '6210, 6213, 6214, 6220'
-ms.date: 04/02/2024
+ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="chart-of-sustainability-accounts-and-ledger"></a>Contabilità generale e grafico dei conti di sostenibilità
+# Contabilità generale e piano dei conti di sostenibilità
 
-## <a name="chart-of-sustainability-accounts"></a>Grafico dei conti di sostenibilità
+## Piano dei conti di sostenibilità
 
-Il **grafico dei conti di sostenibilità** (CoSA) costituisce l'elenco strutturato fondamentale utilizzato per registrare tutti i dati sulle emissioni. Funziona come un framework che classifica e organizza i conti di sostenibilità in base ai relativi attributi, come l’ambito o altri raggruppamenti. A ogni conto viene generalmente assegnato un codice o numero univoco per facilitarne la consultazione e il monitoraggio, seguendo la stessa struttura di un tradizionale **Piano dei conti** ma personalizzato specificamente per il monitoraggio dei dati e delle metriche relativi alla sostenibilità all’interno di un’organizzazione. 
- 
-Gli utenti possono aggiungere **Categorie di account** e **Sottocategorie** per definire il comportamento del sistema, selezionando le emissioni dedicate per monitoraggio, fattori di emissione, formule e configurazioni simili.  
+Il piano dei conti di sostenibilità (CoSA) costituisce l'elenco strutturato fondamentale che viene utilizzato per registrare tutti i dati sulle emissioni. Funge da framework che classifica e organizza i conti di sostenibilità in base ai relativi attributi, come l'ambito o altri raggruppamenti. A ogni conto viene in genere assegnato un codice o un numero univoco per un facile riferimento e per facilitare il tracciamento. Presenta la stessa struttura di un piano dei conti tradizionale ma è personalizzato specificamente per monitorare i dati e le metriche correlati alla sostenibilità in un'organizzazione.
 
->[!NOTE]
->Per acquisire familiarità con gli ambiti, sulla base degli standard di gas a effetto serra, esistono tre ambiti di emissione:  
->- **Emissioni di ambito 1**: includono le emissioni emesse dalla combustione mobile e stazionaria e da emissioni fuggitive involontarie. 
->- **Emissioni di ambito 2**: includono le emissioni indirette derivanti dalla generazione di energia acquistata da fornitori di servizi pubblici. 
->- **Emissioni di ambito 3**: includono un ampio spettro di emissioni, derivanti da beni e servizi acquistati e beni capitali, attività legate a combustibile ed energia, trasporti a monte e a valle, rifiuti generati, viaggi di lavoro e spostamenti dei dipendenti, ecc. 
+Gli utenti possono aggiungere categorie e sottocategorie di conti di sostenibilità per definire il comportamento del sistema. In questo modo, possono selezionare le emissioni dedicate da tracciare, i fattori di emissione, le formule e configurazioni simili.
 
-Tramite il **Grafico dei conti di sostenibilità** è possibile eseguire operazioni come:  
+> [!NOTE]
+> In base agli standard relativi ai gas a effetto serra (GHG), esistono tre ambiti di emissione:
+>
+> - **Emissioni di ambito 1**: includono le emissioni da combustione mobile e stazionaria e da emissioni fuggitive involontarie.
+> - **Emissioni di ambito 2**: includono le emissioni indirette derivanti dalla generazione di energia acquistata da fornitori di servizi pubblici.
+> - **Emissioni di ambito 3**: includono un ampio spettro di emissioni, derivanti da beni e servizi acquistati e beni capitali, attività legate a combustibile ed energia, trasporti a monte e a valle, rifiuti generati, viaggi di lavoro e spostamenti dei dipendenti, ecc.
 
--   Visualizzare i report che mostrano i movimenti e i saldi contabili di sostenibilità. 
--   Aprire la **Scheda conto di sostenibilità** per aggiungere o modificare le impostazioni.  
--   Visualizzare la categoria e la sottocategoria per quel conto.   
--   Visualizzare saldi separati per ciascuna delle emissioni per un singolo conto. 
--   Aggiungere una o più **Dimensioni** a ciascuno dei conti e impostare il filtro dimensioni. 
-    
-È possibile aggiungere, modificare o eliminare **Conti di sostenibilità**. Tuttavia, per evitare discrepanze, non è possibile eliminare un **Conto di sostenibilità** se sono presenti uno o più movimenti contabili associati al conto.  
+Il CoSA consente di eseguire le operazioni seguenti:
 
-### <a name="add-or-change-accounts"></a>Aggiungere o cambiare conti
+- Visualizzare i report che mostrano i movimenti e i saldi contabili di sostenibilità.
+- Aprire la scheda del conto di sostenibilità per aggiungere o modificare le impostazioni.
+- Visualizzare la categoria e la sottocategoria per il conto. 
+- Visualizzare saldi separati per ogni emissione per un singolo conto.
+- Aggiungere una o più dimensioni a ciascun conto e impostare i filtri dimensioni.
 
-1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Grafico dei conti di sostenibilità**, quindi seleziona il collegamento correlato. 
-2. Nella pagina **Grafico dei conti di sostenibilità**, è possibile aprire ogni **Conto di sostenibilità** e quindi aggiungere o modificare le impostazioni. Passare sul campo con il mouse per visualizzare una breve descrizione. 
+È possibile aggiungere, modificare o eliminare i conti di sostenibilità. Tuttavia, per evitare discrepanze, non è possibile eliminare un conto di sostenibilità se sono presenti uno o più movimenti contabili associati al conto.
 
-Per i conti di tipo **Totale** compilare il campo **Totale**. Per i conti di tipo **Totale Finale** questo campo viene compilato automaticamente tramite la funzione di indentazione. A tale proposito, dopo aver impostato tutti i conti, scegli l'azione **Imposta rientri grafico dei conti di sostenibilità**.  
+### Aggiungere o cambiare conti
 
->[!IMPORTANT]
->Se le definizioni per i conti **Totale Finale** sono state immesse nei campi **Totale** prima di eseguire la funzione di indentazione, sarà necessario inserirle nuovamente in seguito poiché questa funzione sovrascrive i valori in tutti i campi **Totale finale**.  
+1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Piano dei conti di sostenibilità**, quindi seleziona il collegamento correlato.
+2. Nella pagina **Piano dei conti di sostenibilità** puoi aprire ciascun conto di sostenibilità e aggiungere impostazioni o modificarle. Passa sul campo con il mouse per visualizzare una breve descrizione.
 
-### <a name="delete-accounts"></a>Eliminare conti
+Per i conti di tipo **Totale** devi impostare il campo **Totale**.
 
-È possibile eliminare un **Conto di sostenibilità**. Tuttavia, prima di eliminarlo, devi assicurarti che siano presenti uno o più movimenti contabili associati al conto, poiché Business Central impedirà l'eliminazione di un **Conto di sostenibilità** in questa situazione.  
+Per i conti di tipo **Fine-Totale**, la funzione di impostazione del rientro imposta il campo **Totale** automaticamente. Dopo aver impostato tutti i conti, seleziona l'azione **Imposta rientri piano dei conti di sostenibilità** per eseguire la funzione di impostazione del rientro e impostare il campo **Totale**.
 
-## <a name="account-categories"></a>Categorie di conti
+> [!IMPORTANT]
+> La funzione di impostazione del rientro sovrascrive il valore di tutti i campi per i conti **Fine-Totale**. Pertanto, se hai immesso definizioni nel campo **Totale** per i conti **Fine-Totale** prima di eseguire la funzione di impostazione del rientro, dovrai inserirle di nuovo dopo aver eseguito la funzione.
 
-Gli utenti devono aggiungere la **Categoria conto di sostenibilità** a ciascuno dei **Conti di sostenibilità**, per definire come si comporta il sistema, selezionando ambiti di emissione, emissioni dedicate per il monitoraggio, formule e configurazioni simili.  
+### Eliminare conti
 
-Per esaminare **Categorie conti di sostenibilità**, segui i passaggi: 
+È possibile eliminare un conto di sostenibilità. Tuttavia, è necessario assicurarsi prima di tutto che non vi siano movimenti contabili associati. Business Central non consente di eliminare un conto di sostenibilità se sono presenti uno o più movimenti contabili associati al conto.
 
-1.  Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Categorie conti di sostenibilità**, quindi seleziona il collegamento correlato. 
-2.  Nella pagina **Categorie conti di sostenibilità**, puoi modificare l'elenco esistente o creare una nuova categoria. Per creare una nuova categoria, seleziona l'azione **Nuova**.  
-3.  Compilare i campi **Codice** e **Descrizione**.   
-4.  Imposta il campo **Ambito di emissione**, scegliendo una delle opzioni di ambito.  
-5.  Seleziona le emissioni di gas che desideri monitorare. Attualmente puoi utilizzare una delle opzioni: **CO2**, **CH4** o **N2O**. Puoi scegliere qualsiasi combinazione che desideri monitorare, ma devi avere almeno un'emissione per il monitoraggio.  
-6.  Nel campo **Base di calcolo**, puoi scegliere una qualsiasi delle formule che desideri utilizzare, nel caso in cui non conosci la quantità esatta di emissioni. Qui puoi specificare la base di calcolo (formula) per il calcolo delle emissioni. Puoi scegliere una delle seguenti opzioni: **Combustibile/Elettricità**, **Distanza**, **Installazione** o **Personalizzata**. 
-7.  Se scegli la formula **Personalizzata**, puoi configurare la descrizione personalizzata nel campo **Valore personalizzato**.  
+## Categorie di conti
 
->[!NOTE]
->Se questo insieme di formule offerte nel campo **Base di calcolo** non è sufficiente, puoi estendere questo campo e aggiungere più calcoli al sistema da utilizzare nelle **Registrazioni di sostenibilità**.  
+Gli utenti devono aggiungere una categoria di conti di sostenibilità per ciascun conto di sostenibilità per definire il comportamento del sistema. Possono selezionare gli ambiti delle emissioni, le emissioni dedicate da tracciare, le formule e configurazioni simili.
 
-Se usi la **Base di calcolo** (formule), c'è una spiegazione su come il sistema eseguirà il calcolo in base all'opzione scelta (**EF** è il **Fattore di emissione** che puoi configurare nella pagina **Sottocategoria conto di sostenibilità**): 
+Per esaminare le categorie di conti di sostenibilità, segui i passaggi:
 
-|  Tipo di emissioni  |  Base di calcolo  |  Formula         | Commento      |
-|------------|--------------|------------------------------|---------------------------------|
-| **AMBITO 1**  |
-| Combustione stazionaria | Combustibile/Elettricità | Emissioni = Combustibile * EF | _ovvero Combustibile = Quantità di combustibile speso per caldaie, riscaldatori, ossidatori termici..._ |
-| Combustione mobile | Combustibile/Elettricità | Emissioni = Combustibile * EF | _ovvero Combustibile = Quantità di combustibile speso per veicoli stradali o non stradali, ferroviari..._ |
-|  |  |  Emissioni = Distanza * EF | _ovvero Distanza = Chilometraggio di veicoli stradali o non stradali, ferroviari..._ |
-| Emissioni fuggitive | Installazione | Emissione = Moltiplicatore di installazione * Importo personalizzato / 100 * Fattore temporale | _ovvero Importo personalizzato = Perdite di assemblaggio, tasso di perdita annuale..._ |
-| **AMBITO 2**  |
-| Fornitori di servizi | Combustibile/Elettricità | Emissioni = Elettricità * EF | _ovvero Combustibile/elettricità = Quantità di elettricità, quantità di vapore, unità di riscaldamento..._ |
-|  | Personalizzato | Emissione = Importo personalizzato * EF | _ovvero Importo personalizzato = Unità termica, Tonnellata-ora..._ |
-| **AMBITO 3**  |
-| Beni e servizi acquistati e beni capitali | Personalizzato | Emissione = Importo personalizzato * EF | _ovvero Importo personalizzato = Costo (GL)..._ |
-| Trasporto e distribuzione upstream | Distanza | Emissioni = Distanza * EF |  |
-|  | Distanza | Emissioni = Distanza * Moltiplicatore * EF | _Moltiplicatore = Tonnellate di carico_ |
-| Trasporto e distribuzione downstream | Distanza | Emissioni = Distanza * EF |  |
-|  | Distanza | Emissioni = Distanza * Moltiplicatore * EF | _Moltiplicatore = Tonnellate di carico_ |
-| Rifiuti generati nelle operazioni e nel trattamento di fine vita dei prodotti venduti | Personalizzato | Emissione = Importo personalizzato * EF | _ovvero Importo personalizzato = Rifiuti..._ |
-| Viaggi d'affari e spostamento dei dipendenti | Distanza | Emissioni = Distanza * EF | _ovvero Distanza = Chilometraggio di auto aziendale usata, auto a noleggio, treno, volo..._ |
-|  | Personalizzato | Emissione = Importo personalizzato * EF | _ovvero Importo personalizzato = Soggiorni in hotel..._ |
-|  | Combustibile/Elettricità | Emissioni = Combustibile * EF | _ovvero Combustibile = Quantità di combustibile spesa nell'auto aziendale, nell'auto a noleggio..._ |
+1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Categorie conti di sostenibilità**, quindi seleziona il collegamento correlato.
+2. Nella pagina **Categorie conti di sostenibilità**, puoi modificare l'elenco esistente o creare una nuova categoria. Per creare una nuova categoria, seleziona l'azione **Nuova**.
+3. Imposta i campi **Codice** e **Descrizione**.
+4. Nel campo **Ambito emissioni** seleziona una delle opzioni di ambito.
+5. Seleziona le emissioni di gas che desideri monitorare. Attualmente sono disponibili le opzioni seguenti: **CO2**, **CH4** e **N2O**. Puoi selezionare qualsiasi combinazione che desideri monitorare, ma devi selezionare almeno una emissione.
+6. Nel campo **Base di calcolo** puoi selezionare la base per il calcolo, vale a dire la formula, da usare per i calcoli delle emissioni se non conosci la quantità di emissioni precisa. Puoi selezionare una delle opzioni seguenti: **Combustibile/elettricità**, **Distanza**, **Installazione** o **Personalizzata**.
 
-## <a name="account-subcategories"></a>Sottocategorie di conti
+    > [!NOTE]
+    > Se il set di formule disponibili nel campo **Base di calcolo** non è sufficiente, puoi estendere il campo e aggiungere al sistema altri calcoli da usare nelle registrazioni di sostenibilità.
 
-Gli utenti devono aggiungere la **Sottocategoria conto di sostenibilità** a ciascuno dei **Conti di sostenibilità** per definire i fattori di emissione che verranno utilizzati nelle formule, ma si basa sulla scelta del monitoraggio delle emissioni nella **Categoria conto di sostenibilità**.  
+7. Se hai selezionato **Personalizzata** nel campo **Base di calcolo**, puoi configurare una descrizione personalizzata nel campo **Valore personalizzato**.
 
-Per esaminare le **Sottocategorie conti di sostenibilità**, procedi come segue:  
+Se imposti il campo **Base di calcolo**, la tabella seguente spiega il modo in cui il sistema calcola le emissioni in base all'opzione che hai selezionato. In questa tabella, *EF* rappresenta il valore **Fattore di emissione** che è possibile configurare nella pagina **Sottocategoria conto di sostenibilità**.
 
-1.  Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Sottocategorie conti di sostenibilità**, quindi seleziona il collegamento correlato. 
-2.  Nella pagina **Sottocategorie conti di sostenibilità**, puoi modificare l'elenco esistente o creare una nuova categoria. Per creare una nuova categoria, seleziona l'azione **Nuova**.  
-3.  Compilare i campi **Codice** e **Descrizione**.   
-4.  In base alle emissioni di gas che desideri monitorare nella **Categoria conto di sostenibilità** e a cui vuoi collegare questa sottocategoria, puoi anche popolare uno o più fattori di emissione: 
+| Tipo di emissioni | Base di calcolo | Formula | Commento |
+|---------------|------------------------|---------|---------|
+| **Ambito 1** | | | |
+| Combustione stazionaria | Combustibile/Elettricità | *Emissione* = *Combustibile* &times; *EF* | *Combustibile* = Quantità di combustibile speso per scaldabagni, stufe, ossidatori termici, ecc. |
+| Combustione mobile | Combustibile/Elettricità | *Emissione* = *Combustibile* &times; *EF* | *Combustibile* = Quantità di combustibile speso per veicoli stradali, non stradali, ferrovia, ecc. |
+| | | *Emissione* = *Distanza* &times; *EF* | *Distanza* = Chilometraggio dei veicoli stradali, non stradali, ferrovia, ecc. |
+| Emissioni fuggitive | Installazione | *Emissione* = *Moltiplicatore installazione* &times; *Importo personalizzato* &divide; 100 &times; *Fattore temporale* | *Importo personalizzato* = Perdite di assemblaggio, tasso di perdita annuale, ecc. |
+| **Ambito 2** | | | |
+| Fornitori di servizi | Combustibile/Elettricità | *Emissione* = *Elettricità* &times; *EF* | *Combustibile/elettricità* = Quantità di elettricità, quantità di vapore, unità di riscaldamento, ecc. |
+| | Personalizzato | *Emissione* = *Importo personalizzato* &times; *EF* | *Importo personalizzato* = Unità termica, tonnellata all'ora, ecc. |
+| **Ambito 3** | | | |
+| Beni e servizi acquistati e beni capitali | Personalizzato | *Emissione* = *Importo personalizzato* &times; *EF* | *Importo personalizzato* = Costo (CoGe), ecc. |
+| Trasporto e distribuzione upstream | Distanza | *Emissione* = *Distanza* &times; *EF* | |
+| | Distanza | *Emissione* = *Distanza* &times; *Moltiplicatore* &times; *EF* | *Moltiplicatore* = Tonnellate di carico |
+| Trasporto e distribuzione downstream | Distanza | *Emissione* = *Distanza* &times; *EF* | |
+| | Distanza | *Emissione* = *Distanza* &times; *Moltiplicatore* &times; *EF* | *Moltiplicatore* = Tonnellate di carico |
+| Rifiuti generati nelle operazioni e nel trattamento di fine vita dei prodotti venduti | Personalizzato | *Emissione* = *Importo personalizzato* &times; *EF* | *Importo personalizzato* = Rifiuti |
+| Viaggi d'affari e spostamento dei dipendenti | Distanza | *Emissione* = *Distanza* &times; *EF* | *Distanza* = Chilometraggio di auto aziendale, auto a noleggio, treno, volo utilizzati, ecc. |
+| | Personalizzato | *Emissione* = *Importo personalizzato* &times; *EF* | *Importo personalizzato* = Soggiorni in hotel |
+| | Combustibile/Elettricità | *Emissione* = *Combustibile* &times; *EF* | *Combustibile* = Quantità di combustibile consumato con auto aziendale, auto a noleggio, ecc. |
 
-   - **Fattore di emissione CO2**: specifica il fattore di emissioni per le emissioni CO2.  
-   - **Fattore di emissione CH4**: specifica il fattore di emissioni per le emissioni CH4. 
-   - **Fattore di emissione N2O**: specifica il fattore di emissioni per le emissioni N2O.  
+## Sottocategorie di conti
 
-5.  Se questa sottocategoria è correlata alle energie rinnovabili, seleziona il campo **Energie rinnovabili**.   
+Gli utenti devono aggiungere una categoria di conti di sostenibilità per ciascun conto di sostenibilità. Questa sottocategoria definisce i fattori di emissione che vengono utilizzati nelle formule, in base alla scelta di tracciamento delle emissioni nella categoria del conto di sostenibilità.
 
->[!NOTE]
->I campi **Importa dati** e **Importa da** sono destinati alla potenziale integrazione con sistemi esterni utilizzati per la raccolta dei fattori di emissione, ma nel **Prima ciclo di rilascio del 2024** non possono essere utilizzati come funzionalità per impostazione predefinita.  
+Per esaminare le sottocategorie di conti di sostenibilità, segui questi passaggi:
 
-## <a name="sustainability-ledger-entries"></a>Movimenti contabili sostenibilità
+1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Sottocategorie conti di sostenibilità**, quindi seleziona il collegamento correlato. 
+2. Nella pagina **Sottocategorie conti di sostenibilità**, puoi modificare l'elenco esistente o creare una nuova categoria. Per creare una nuova categoria, seleziona l'azione **Nuova**.
+3. Imposta i campi **Codice** e **Descrizione**.
+4. In base alle emissioni di gas che desideri monitorare nella categoria del conto di sostenibilità e a cui vuoi collegare questa sottocategoria, puoi anche impostare uno o più fattori di emissione: 
 
-Nel **Registro della sostenibilità** è memorizzata la cronologia di tutte le transazioni di sostenibilità registrate, con tutti i dati sulle emissioni organizzati secondo il **Grafico dei conti di sostenibilità**. Quando un utente registra la **Registrazione sostenibilità**, tutti i dati cruciali verranno registrati lì. Tutti i report attivi vengono generati in base a **Movimenti contabili sostenibilità**.   
+    - **Fattore di emissione CO2**: il fattore di emissione per l'emissione di anidride carbonica (CO<sub>2</sub>).
+    - **Fattore di emissione CH4**: il fattore di emissione per l'emissione di metano (CH<sub>4</sub>).
+    - **Fattore di emissione N2O**: il fattore di emissione per l'emissione di ossido di azoto (N<sub>2</sub>O).
 
-L'utente può aprire questo registro per un conto specifico utilizzando l'azione **Movimenti contabili** nella pagina **Grafico dei conti di sostenibilità** oppure, per aprire tutti i movimenti del registro, seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti contabili sostenibilità**, quindi seleziona il collegamento correlato. Passa sul campo con il mouse per visualizzare una breve descrizione.  
+5. Se la sottocategoria è correlata a energie rinnovabili, seleziona il campo **Energie rinnovabili**.
 
->[!IMPORTANT]
->Una volta registrati i dati nel Registro della sostenibilità, non è possibile eliminarli. In caso di errore puoi registrare la transazione di storno utilizzando gli stessi dettagli, ma utilizzando il segno negativo per l'importo.  
+> [!NOTE]
+> I campi **Importa dati** e **Importa da** sono destinati all'integrazione potenziale con i sistemi esterni che vengono usati per raccogliere i fattori di emissione. Tuttavia, nel **primo ciclo di rilascio del 2024**, questi campi non possono essere utilizzati come funzionalità per impostazione predefinita.
 
-## <a name="see-also"></a>Vedere anche
-[Finanze](finance.md)    
-[Panoramica sulla gestione della sostenibilità](finance-manage-sustainability.md)
-[Setup sostenibilità](finance-sustainability-setup.md)
-[Come registrare le emissioni](finance-sustainability-journal.md)
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Movimenti contabili sostenibilità
 
+Il registro della sostenibilità memorizza la cronologia di tutte le transazioni di sostenibilità registrate e organizza tutti i dati sulle emissioni in base al CoSA. Quando un utente registra il giornale di registrazione della sostenibilità, tutti i dati cruciali vengono registrati lì. Tutti i report attivi vengono generati in base ai movimenti contabili sostenibilità.
+
+Per aprire questo registro per un conto specifico, utilizza l'azione **Movimenti contabili** nella pagina **Piano del conto di sostenibilità**. Per aprire tutti i movimenti contabili, seleziona l'![icona lampadina che apre la funzione Dimmi 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti contabili sostenibilità**, quindi seleziona il collegamento correlato. Passa sul campo con il mouse per visualizzare una breve descrizione.
+
+> [!IMPORTANT]
+> Dopo che hai registrato i dati nel registro della sostenibilità, non puoi eliminarli. In caso di errore puoi registrare la transazione di storno con gli stessi dettagli, ma con il segno negativo per l'importo.
+
+## Vedere anche
+
+[Dati finanziari](finance.md)  
+[Panoramica della gestione della sostenibilità](finance-manage-sustainability.md)  
+[Setup sostenibilità](finance-sustainability-setup.md)  
+[Come registrare le emissioni](finance-sustainability-journal.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

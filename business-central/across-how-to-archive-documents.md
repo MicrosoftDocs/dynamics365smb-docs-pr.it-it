@@ -3,14 +3,14 @@ title: Archiviare documenti di vendita e acquisto
 description: 'È possibile archiviare ordini di vendita e di acquisto, offerte, ordini di reso e ordini programmati.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/26/2024
 ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# <a name="archive-documents"></a>Archiviare i documenti
+# Archiviare i documenti
 
 È possibile archiviare ordini di vendita e di acquisto, offerte, ordini di reso e ordini programmati. Se utilizzi le funzionalità di Gestione progetti, puoi anche archiviare i tuoi progetti. Puoi archiviare documenti e progetti più volte e ogni volta viene salvata una versione archiviata diversa.
 
@@ -21,7 +21,7 @@ Per i documenti di vendita, se l'originale esiste ancora e non è registrato, pu
 
 Per i documenti archiviati di cui l'originale è stato eliminato, puoi riutilizzare il contenuto copiando i dati, ad esempio con l'azione **Copia da documento**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Per impostare l'archiviazione automatica dei documenti
+## Per impostare l'archiviazione automatica dei documenti
 
 Puoi automatizzare l'archiviazione per creare una nuova versione del documento archiviato quando qualcuno esegue le seguenti operazioni:
 
@@ -43,7 +43,7 @@ Nella seguente tabella vengono illustrate le opzioni per il campo **Archivia off
 |**Domanda**|Chiedi all'utente di scegliere se archiviare le offerte di vendita quando vengono eliminate.|
 |**Sempre**|Archivia automaticamente le offerte di vendita quando vengono eliminate.|
 
-## <a name="to-manually-archive-a-sales-order"></a>Per archiviare manualmente un ordine di vendita
+## Per archiviare manualmente un ordine di vendita
 
 Di seguito viene descritto come archiviare manualmente un ordine di vendita. I passaggi sono simili per tutti i documenti e i progetti che puoi archiviare.
 
@@ -53,7 +53,7 @@ Di seguito viene descritto come archiviare manualmente un ordine di vendita. I p
 
 L'ordine di vendita è archiviato. È possibile visualizzarlo nella pagina **Ordine vendite archiviato**.
 
-## <a name="to-restore-a-non-posted-sales-document-or-a-project-from-the-archive"></a>Per ripristinare un progetto o un documento di vendita non registrato dall'archivio
+## Per ripristinare un progetto o un documento di vendita non registrato dall'archivio
 
 Di seguito viene descritto come ripristinare un ordine di vendita archiviato nell'ordine di vendita originale. Il ripristino di un documento è possibile soltanto quando il documento originale non è registrato. I passaggi sono simili per tutti gli ordini, gli ordini programmati, gli ordini di reso e le offerte, nonché i progetti.
 
@@ -62,7 +62,7 @@ Di seguito viene descritto come ripristinare un ordine di vendita archiviato nel
 
 Il contenuto dell'ordine di vendita originale o del progetto viene sostituito con la versione archiviata.
 
-## <a name="to-delete-archived-versions"></a>Per eliminare le versioni archiviate
+## Per eliminare le versioni archiviate
 
 Utilizza criteri di conservazione per pulire le versioni archiviate di cui non hai più bisogno. I criteri di conservazione consentono agli amministratori di definire per quanto tempo desiderano archiviare i dati. Ad esempio, possono impostare un criterio che elimina i dati dopo una data di scadenza. Per altre informazioni, vedi [Definire i criteri di conservazione](admin-data-retention-policies.md).
 
@@ -72,7 +72,7 @@ Ci sono alcune cose da prendere in considerazione in relazione alla creazione di
 * Quando configuri i criteri di conservazione, puoi specificare che vuoi che i criteri eliminino tutte le versioni archiviate tranne la più recente. Ad esempio, potresti avere 10 versioni e voler conservare una copia dell'ultima. 
 * [!INCLUDE [prod_short](includes/prod_short.md)] calcola la data di scadenza dei documenti in base alla data della versione archiviata più recente.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Tracciare le righe documento](across-how-to-track-document-lines.md)  
 [Vendite](sales-manage-sales.md)  
