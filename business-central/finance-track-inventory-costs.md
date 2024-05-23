@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Tenere traccia delle rettifiche dei costi degli articoli
+# <a name="track-item-cost-adjustments"></a>Tenere traccia delle rettifiche dei costi degli articoli
 
 È importante mantenere accurati i costi degli articoli e ridurre il tempo che intercorre tra il momento in cui registri un movimento e il momento in cui il costo viene riportato nella contabilità generale. Puoi tenere traccia delle prestazioni delle rettifiche dei costi per singole esecuzioni e articoli di rettifica. Se si verificano degli errori, puoi identificare gli elementi problematici e apportare correzioni. Ad esempio, puoi escludere gli articoli dai calcoli per garantire che le rettifiche non vengano interrotte per altri articoli. Puoi rettificare i costi per singoli articoli oppure creare batch di articoli e rettificarli tutti contemporaneamente.
 
-## Avviare la tracciabilità delle rettifiche dei costi
+## <a name="start-tracking-cost-adjustments"></a>Avviare la tracciabilità delle rettifiche dei costi
 
 È facile iniziare. Nella pagina **Setup magazzino**, il campo **Registrazione rettifica costi** offre alcune opzioni:
 
@@ -29,11 +29,11 @@ ms.custom: bap-template
 
 Devi inoltre impostare il movimento nella coda di processi **Registra costo magazzino in C/G (1002)**. Questo movimento della coda di processi rettifica automaticamente i costi in base a una pianificazione. Per ulteriori informazioni sui movimenti della coda di processi, vedi [Usare le code processi per pianificare le attività](admin-job-queues-schedule-tasks.md).
 
-## Gestire le rettifiche dei costi
+## <a name="manage-cost-adjustments"></a>Gestire le rettifiche dei costi
 
 Utilizza la pagina **Rettifica costo inventario** per gestire e monitorare il processo di rettifica dei costi. In questa pagina vengono visualizzati gli articoli insieme ai relativi parametri di costing e allo stato di rettifica dei costi. Puoi filtrare l'elenco per concentrarti sugli articoli che richiedono una rettifica o che sono esclusi dal processo di rettifica dei costi.
 
-### Informazioni su batch di articoli
+### <a name="about-item-batches"></a>Informazioni su batch di articoli
 
 Puoi eseguire la rettifica dei costi per diversi articoli raggruppandoli in batch. I batch semplificano la rettifica separata di alcuni articoli, ad esempio perché la relativa rettifica richiede più tempo. I batch possono anche aiutare a identificare gli articoli che presentano problemi.
 
@@ -54,7 +54,7 @@ Al termine dell'esecuzione di un batch, il batch presenta uno dei seguenti stati
 
 > [SUGGERIMENTO!] Ogni batch viene eseguito in una sessione separata. Per monitorare l'avanzamento, utilizza l'azione **Aggiorna**.
 
-### Esegui rettifica costi
+### <a name="run-cost-adjustment"></a>Esegui rettifica costi
 
 Utilizza la pagina **Rettifica costo inventario** per apportare modifiche.
 
@@ -69,7 +69,7 @@ Utilizza la pagina **Rettifica costo inventario** per apportare modifiche.
     
     Per ulteriori informazioni sui batch, vedi [Informazioni di batch di articoli](#about-item-batches).
 
-### Esplorare i dettagli degli articoli
+### <a name="explore-item-details"></a>Esplorare i dettagli degli articoli
 
 Utilizza il menu **Articolo** per accedere alle informazioni sulle rettifiche dei costi per un articolo selezionato.
 
@@ -78,24 +78,24 @@ Utilizza il menu **Articolo** per accedere alle informazioni sulle rettifiche de
 * **Punti di ingresso rettifica costi**: apri la pagina **Rettifica costo medio cod. spedizioni Intrastat**, utilizzata principalmente per calcolare il costo medio. Nella pagina vengono visualizzate combinazioni di articoli, ubicazioni, varianti e date di valutazione per le quali le rettifiche dei costi vengono o devono essere eseguite.
 * **Ordini di rettifica costi**: apri la pagina **Movimento di rettifica inventario**, in cui rettifichi gli ordini di produzione e di assemblaggio. Mostra che gli ordini sono stati rettificati o che richiedono una rettifica.
 
-### Visualizzare il risultato
+### <a name="view-the-outcome"></a>Visualizzare il risultato
 
 Utilizza il menu **Log per** per visualizzare il risultato delle rettifiche dei costi:
 
 * **Esegui**: mostra i registri di rettifica dei costi per ogni esecuzione. Il registro include dati su filtro degli articoli, stato (Riuscito/Non riuscito/Timeout), data/ora di inizio e fine, durata e differenze di costo generate dall'esecuzione.
 * **Articolo**: mostra informazioni dettagliate sul processo di rettifica per l'articolo selezionato.
 
-### Includere o escludere articoli dalle rettifiche
+### <a name="include-or-exclude-items-from-adjustments"></a>Includere o escludere articoli dalle rettifiche
 
 Se uno o più articoli non riescono, è possibile escluderli dall'esecuzione della rettifica e quindi includerli nelle esecuzioni successive. Nel menu **Funzioni**, scegli una delle seguenti opzioni:
 
 * **Escludi articolo da rettifica** e **Includi articolo nella rettifica**: disabilita temporaneamente e quindi riabilita la rettifica dei costi per un articolo selezionato. La rettifica dei costi continua a mantenere accurati i costi per altri articoli mentre esamini un problema con un articolo specifico.
 
-## Registrare i costi rettificati nella contabilità generale
+## <a name="post-adjusted-costs-to-the-general-ledger"></a>Registrare i costi rettificati nella contabilità generale
 
 In genere, i nuovi movimenti di valorizzazione vengono registrati nella contabilità generale in base alla pianificazione per il movimento della coda di processi **Registra costo magazzino in C/G (1002)**. Tuttavia, puoi registrare immediatamente le rettifiche nella contabilità generale dalla pagina **Rettifica costo inventario**. Nel menu **Funzioni**, scegli **Registra costo magazzino in C/G**.
 
-## Risolvere i problemi relativi alle rettifiche dei costi
+## <a name="troubleshoot-cost-adjustments"></a>Risolvere i problemi relativi alle rettifiche dei costi
 
 Utilizza le seguenti opzioni nel menu **Diagnostica** per risolvere i problemi relativi alle esecuzioni di rettifica dei costi.
 
@@ -105,7 +105,7 @@ Utilizza le seguenti opzioni nel menu **Diagnostica** per risolvere i problemi r
 * **Report Rilevamento problemi di costing**: diagnostica problemi tipici relativi ai dati che causano errori di calcolo nei costi. Verifica se i movimenti contabili articoli, i movimenti di valorizzazione, i movimenti di collegamento articolo e i movimenti contabili di capacità sono corretti.
 * **Elimina dati articolo**: cancella tutte le tabelle relative agli articoli nel database. Questa azione è disponibile solo in ambienti sandbox o società di valutazione.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Rettificare i costi degli articoli](inventory-how-adjust-item-costs.md)  
 [Dettagli di progettazione: rettifica costo](design-details-cost-adjustment.md)  

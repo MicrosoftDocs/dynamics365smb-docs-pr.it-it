@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Gestione dei budget dei progetti
+# <a name="manage-project-budgets"></a>Gestione dei budget dei progetti
 
 È possibile impostare un budget per ogni progetto. Il budget viene utilizzato per pianificare le risorse allocate a un progetto. Il budget può essere generale con pochi movimenti oppure può contenere più movimenti divisi in livelli di attività. È quindi possibile confrontare gli importi previsti con l'utilizzo effettivo come registrato nella registrazione progetti. Monitorando le differenze tra l'utilizzo effettivo e quello a budget, è possibile controllare un progetto in corso e migliorare la qualità di progetti futuri riducendo il rischio di sottovalutazione dei costi.
 
 Di seguito viene descritto come stimare i costi a budget durante la pianificazione. Per informazioni su come registrare i prezzi e i costi di progetti a budget rispetto a quelli effettivi, vedere [Registrare l'utilizzo nei progetti](projects-how-record-job-usage.md).  
 
-## <a name="JobBudgetCosts"></a> Per stimare i costi a budget per un progetto
+## <a name="to-estimate-the-budgeted-costs-for-a-project"></a><a name="JobBudgetCosts"></a>Per stimare i costi a budget per un progetto
 
 Quando un cliente desidera conoscere il prezzo di un progetto che verrà fatturata in base all'utilizzo, è necessario determinare i costi a budget per il progetto. A tale scopo, utilizza la pagina **Righe attività di progetto**.
 
@@ -44,7 +44,7 @@ Nella pagina **Scheda progetto**, è possibile ora vedere un riepilogo dei costi
 
 Per informazioni su come registrare i prezzi e i costi di progetti a budget rispetto a quelli effettivi, vedere [Registrare l'utilizzo nei progetti](projects-how-record-job-usage.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Dati finanziari](finance.md)  

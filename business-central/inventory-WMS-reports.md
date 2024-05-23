@@ -11,22 +11,22 @@ ms.date: 03/21/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Report e analisi di inventario e warehouse
+# <a name="inventory-and-warehouse-reports-and-analytics"></a>Report e analisi di inventario e warehouse
 
 Il report di inventario e warehouse in [!INCLUDE [prod_short](includes/prod_short.md)] consentono ai professionisti di inventario e aziendali di ottenere informazioni dettagliate e statistiche su attività di inventario e warehouse correnti e passate.  
 
-## Report
+## <a name="reports"></a>Report
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## Attività
+## <a name="tasks"></a>Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
 * [Creare report di analisi](bi-how-create-analysis-views-reports.md)  
 * [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
 
-## Stampare codici a barre ed eseguirne la scansione
+## <a name="print-and-scan-barcodes"></a>Stampare codici a barre ed eseguirne la scansione
 
 L'uso di codici a barre può aiutare a semplificare i processi di warehouse in entrata, in uscita e interni. 
 
@@ -45,7 +45,7 @@ Dopo aver installato l'app, puoi utilizzare l'azione **Stampa etichetta** per st
 > Alcune stampanti e formati di codici a barre/codici QR richiedono un'implementazione specifica. È possibile che tu debba caricare un modello Word differente o clonare il report per creare la tua versione personalizzata.
 
 
-## Esplorare i report sul magazzino con Esplora report
+## <a name="explore-inventory-reports-with-report-explorer"></a>Esplorare i report sul magazzino con Esplora report
 
 Per ottenere una panoramica dei report disponibili per il magazzino, scegli **Tutti i report** nella home page. Questa azione apre Esplora ruoli, il cui contenuto viene filtrato in base alle funzionalità nell'opzione **Report e analisi**. Sotto l'intestazione **Vendite e marketing**, seleziona **Esplora**.
 
@@ -54,7 +54,7 @@ Per ottenere una panoramica dei report disponibili per il magazzino, scegli **Tu
 Per ulteriori informazioni, vedi [Ricerca di report con Esplora ruoli](ui-role-explorer.md).
 
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Analisi ad hoc dei dati di inventario](ad-hoc-analysis-inventory.md)  
 [Panoramica dell'analisi dell'inventario](inventory-analytics-overview.md)   

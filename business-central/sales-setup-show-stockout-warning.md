@@ -12,21 +12,21 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Visualizzare un avviso esaurimento scorte
+# <a name="display-a-stockout-warning"></a>Visualizzare un avviso esaurimento scorte
 
 Quando qualcuno inserisce una quantità per un articolo in un documento di vendita che supera il livello di inventario corrente dell'articolo presso l'ubicazione, potresti volerlo informare visualizzando una notifica. La notifica serve solo a informare l'utente del potenziale problema e non gli impedisce di creare l'ordine.
 
-## Per mostrare un avviso relativo alle scorte in esaurimento su un documento di vendita
+## <a name="to-show-a-warning-about-low-inventory-on-a-sales-document"></a>Per mostrare un avviso relativo alle scorte in esaurimento su un documento di vendita
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
 1. Se desideri mostrare l'avviso, attiva o disattiva l'interruttore **Avviso di esaurimento scorte".
 
-## Guida video
+## <a name="video-guidance"></a>Guida video
 
 Il video seguente mostra uno scenario in cui qualcuno sta creando un ordine di vendita e la quantità supera il livello di inventario disponibile per l'articolo nella sua ubicazione.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h9hL]
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)

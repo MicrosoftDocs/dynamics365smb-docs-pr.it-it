@@ -36,7 +36,7 @@ In questa procedura dettagliata vengono presentate le funzionalità di gestione 
 - Come si determinano i valori di contratto e della fattura  
 - Come ammettere nella pianificazione lavoro extra non fatturato  
 
-### <a name="copying-a-job"></a>Copia di una commessa
+### <a name="copying-a-project"></a>Copia di una commessa
 
  Questa parte della procedura dettagliata si incentra sulla copia, parziale o totale, di un progetto al fine di ridurre l'immissione manuale di dati e garantire maggior accuratezza. È incluso quanto segue:  
 
@@ -223,11 +223,11 @@ Nella procedura descritta di seguito si crea un batch registrazioni progetti aff
 
 Le righe sono così registrate.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Creazione e registrazione di una fattura di vendita per una commessa
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Creazione e registrazione di una fattura di vendita per una commessa
 
  Quindi, Cinzia può creare una nuova fattura per l'intera commessa o per parte di una commessa. Può anche allegare la fattura a un'altra fattura per lo stesso cliente e per la stessa commessa. In questo caso, Cinzia può procedere a fatturare l'intera commessa, poiché il progetto è completato.  
 
-### <a name="to-create-a-job-sales-invoice"></a>Per creare una fattura di vendita per una commessa
+### <a name="to-create-a-project-sales-invoice"></a>Per creare una fattura di vendita per una commessa
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2.  Selezionare la commessa creata in precedenza, quindi scegliere l'azione **Crea fattura vendita per commessa**.  
@@ -261,7 +261,7 @@ Le righe sono così registrate.
 
  CRONUS ha ottenuto un contratto per l'allestimento di alcune aule per conferenze. Come project manager, Alboni vuole una panoramica precisa dei task necessari per la commessa con i costi previsti e sostenuti associati per ciascun task. Inoltre, Alboni desidera conoscere il prezzo totale a contratto della commessa e l'importo fatturato finora. Ha concluso un contratto con il cliente in cui sono stati concordati prezzi fissi per la commessa.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>Per gestire i prezzi fissi nelle commesse
+### <a name="to-manage-fixed-pricing-in-projects"></a>Per gestire i prezzi fissi nelle commesse
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Commesse**, quindi scegli il collegamento correlato.  
 2. Selezionare il numero di commessa **Società mercantile internaz.**, quindi scegliere l'azione **Righe task commessa**.  

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti
+# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Riconciliare i pagamenti clienti con la registrazione incassi o da movimenti contabili clienti
 
 Quando si riceve un pagamento in contanti da un cliente o si effettua un rimborso in contanti, è possibile applicare il pagamento o il rimborso per chiudere addebiti o crediti aperti. Puoi specificare l'importo esatto da collegare. Ad esempio, è possibile collegare pagamenti parziali ai movimenti contabili clienti. La chiusura dei movimenti contabili dei clienti mantiene aggiornate le statistiche dei clienti, gli estratti conto, gli oneri finanziari e così via.
 

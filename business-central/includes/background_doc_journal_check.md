@@ -5,7 +5,7 @@ ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## Verificare i dati in documenti e registrazioni durante il lavoro
+## <a name="check-data-in-documents-and-journals-while-you-work"></a>Verificare i dati in documenti e registrazioni durante il lavoro
 
 Il tuo amministratore può consentire a [!INCLUDE [prod_short](prod_short.md)] di convalidare i dati inseriti nei documenti e nei giornali di registrazione in tempo reale.
 
