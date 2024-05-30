@@ -9,21 +9,21 @@ ms.date: 01/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Connettersi a Power BI da Business Central locale
+# <a name="connect-to-power-bi-from-business-central-on-premises"></a>Connettersi a Power BI da Business Central locale
 
 <!--In this article, you learn some of the basics about working with reports and dashboards in Power BI that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
 
-## Get ready
+## <a name="get-ready"></a>Get ready
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use a work email address and password.-->
 
-## Introduzione
+## <a name="get-started"></a>Introduzione
 
 Per utilizzare [!INCLUDE [prod_short](includes/prod_short.md)] locale, è necessario che sia abilitato per l'integrazione di Power BI. Questa attività è in genere eseguita da un amministratore. Per ulteriori informazioni sull'abilitazione dell'integrazione di Power BI con Business Central online, vedi [Configurare Business Central locale per l'integrazione di Power BI](admin-powerbi-setup.md).
 
 Alcune funzionalità sono disponibili solo con Business Central Online e non in locale. Per ulteriori informazioni, vedi [Introduzione a Business Central e Power BI](admin-powerbi.md#what-you-can-do-with-power-bi-and-business-central)
 
-## <a name="setup"></a>Configurare [!INCLUDE[prod_short](includes/prod_short.md)] locale per l'integrazione Power BI
+## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>Configurare [!INCLUDE[prod_short](includes/prod_short.md)] locale per l'integrazione Power BI
 
 Questa sezione spiega i requisiti per una distribuzione di [!INCLUDE[prod_short](includes/prod_short.md)] locale da integrare con Power BI.
 
@@ -56,7 +56,7 @@ Questa sezione spiega i requisiti per una distribuzione di [!INCLUDE[prod_short]
 
     Per effettuare la connessione iniziale, apri [!INCLUDE[prod_short](includes/prod_short.md)] ed esegui **Introduzione a Power BI** dalla home page. In questo modo, verrà avviato il processo di autorizzazione e verrà controllata la licenza di Power BI. Quando richiesto, accedi utilizzando un account amministratore di Microsoft Entra. Per ulteriori informazioni, vedere [Connettersi a Power BI- una sola volta](across-working-with-powerbi.md#connect).
 
-## Creare report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]
+## <a name="build-power-bi-reports-to-display--data"></a>Creare report di Power BI per visualizzare i dati di [!INCLUDE [prod_long](includes/prod_long.md)]
 
 È possibile rendere disponibili i dati di Dynamics 365 Business Central come origine di dati in Power BI Desktop e sviluppare report efficaci dello stato dell'attività.
 
@@ -71,7 +71,7 @@ Utilizza Power BI Desktop per creare report che visualizzano dati di Dynamics 36
 
     Per ottenere dati da [!INCLUDE[prod_short](includes/prod_short.md)], Power BI utilizza l'autenticazione di base. Quindi, sono necessari un nome utente e una chiave di accesso al servizio web per la connessione. L'account potrebbe essere l'account utente oppure l'organizzazione potrebbe avere un account specifico per questo scopo.
 
-## <a name="getdata"></a>Aggiungi [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Aggiungi [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop
 
 La prima attività della creazione di report è aggiungere [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop. Una volta connesso, è possibile iniziare a creare il report.
 
@@ -105,12 +105,12 @@ Dopo che i dati sono stati caricati puoi vederli nel riquadro di spostamento des
 > [!TIP]
 > Per ulteriori informazioni sull'uso di Power BI Desktop, vedere [Introduzione a Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## Gestire e modificare i report
+## <a name="manage-and-modify-reports"></a>Gestire e modificare i report
 
 > [!NOTE]
 > Non puoi gestire e modificare i report. 
 
-## Caricare i report
+## <a name="upload-reports"></a>Caricare i report
 
 Per [!INCLUDE [prod_short](includes/prod_short.md)] locale, non sono disponibili report demo, quindi dovrai iniziare da zero utilizzando Power BI Desktop. In alternativa, i report Power BI possono essere distribuiti come file che puoi caricare direttamente dal servizio online Power BI. Per ulteriori informazioni, vedere [Caricare il report nel servizio](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
 
@@ -132,11 +132,11 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'
 
 Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prod_short](includes/prod_short.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing*.  Depending on how your organization has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
-### Refresh manually
+### <a name="refresh-manually"></a>Refresh manually
 
 In the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Refresh now**.
 
-### Schedule a refresh
+### <a name="schedule-a-refresh"></a>Schedule a refresh
 
 In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
 
@@ -160,7 +160,7 @@ For more information, see [Upload the report to the service](/power-bi/paginated
 > [!TIP]
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, you can also upload a report from within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)] - Upload Reports](across-working-with-powerbi.md#upload).
 
-## <a name="share"></a>Share reports with others
+## <a name="share-reports-with-others"></a><a name="share"></a>Share reports with others
 
 Once a report is in your workspace, you can share it with others in your organization.
 
@@ -169,7 +169,7 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 > [!NOTE]
 > You must have  [Power BI Pro license](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).-->
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Business Central e Power BI](admin-powerbi.md)  
 [Caricare report da file](across-working-with-powerbi.md#upload-reports)  

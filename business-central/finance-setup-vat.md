@@ -142,7 +142,7 @@ Per limitare le registrazioni per l'utente specifico:
 3. Nel campo **Consenti registrazione da** specifica la data IVA a partire dalla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA precedente a questa data non è consentita.
 4. Nel campo **Consenti registrazione a** specifica la data IVA fino alla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA dopo questa data non è consentita.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Impostare i numeri di partita IVA per il paese o l'area geografica
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Impostare i numeri di partita IVA per il paese o l'area geografica
 
 Per garantire che le persone inseriscano numeri di partita IVA validi, è possibile definire i formati per i numeri di partita IVA utilizzati nei paesi in cui si opera. [!INCLUDE[prod_short](includes/prod_short.md)] visualizza un messaggio di errore quando qualcuno commette un errore o utilizza un formato non corretto per il paese.
 
@@ -232,7 +232,7 @@ Nelle sezioni successive viene descritto come assegnare le categorie di registra
     * Nella scheda **Risorsa** espandere la Scheda dettaglio **Fatturazione**.  
 3. Scegliere la categoria di registrazione articoli/servizi IVA.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Impostare le categorie per spiegare l'esenzione IVA o le aliquote IVA non standard
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Impostare le categorie per spiegare l'esenzione IVA o le aliquote IVA non standard
 
 È possibile impostare una categoria IVA per descrivere informazioni sul tipo di IVA che viene applicata. Le informazioni possono essere obbligatorie per la normativa statale. Dopo aver impostato una categoria IVA e averla associata a un setup registrazioni IVA, la categoria IVA viene visualizzata su tutti i documenti di vendita stampati con tale categoria di setup registrazioni IVA.
 
@@ -293,7 +293,7 @@ Per impostare i codici per l'IVA sull'importazione, attenersi a questa procedura
 5. Nel campo **Tipologia IVA** selezionare **Sola IVA**.  
 6. Nel campo **Conto IVA Acquisti** immettere il conto C/G da utilizzare per registrare l'IVA da importazione. Tutti gli altri conti sono facoltativi.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Usare l'IVA intracomunitaria per il commercio tra i paesi della UE
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Usare l'IVA intracomunitaria per il commercio tra i paesi della UE
 
 Per il commercio tre due società nell'Unione Europea, per alcune società è necessario utilizzare l'IVA intracomunitaria. Ad esempio, la regola si applica agli acquisti e alle vendite nei paesi UE.  
 
@@ -303,7 +303,7 @@ Per il commercio tre due società nell'Unione Europea, per alcune società è ne
 > [!TIP]  
 > È possibile verificare che la società sia registrata come soggetto IVA in un altro paese/area geografica UE utilizzando il servizio di convalida partita IVA UE. Il servizio è disponibile gratuitamente in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Verificare i numeri di partita IVA](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Vendite ai paesi UE
+### <a name="sales-to-eu-countriesregions"></a>Vendite ai paesi UE
 
 Sulle vendite a società soggette a IVA in altri paesi UE l'IVA non viene calcolata. È necessario indicare il valore di tali vendite ai paesi UE separatamente nella dichiarazione IVA.  
 

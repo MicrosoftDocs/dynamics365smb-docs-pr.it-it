@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Setup sostenibilità
+# <a name="sustainability-setup"></a>Setup sostenibilità
 
 Prima che il modulo Sostenibilità possa funzionare correttamente, devi impostare alcuni controlli di base e seguire istruzioni di base che sono correlati all'intera funzionalità.
 
@@ -52,7 +52,7 @@ Per impostare un modulo Sostenibilità, segui questi passaggi:
     | **Approssimazione di arrotondamento delle emissioni** | Specifica le dimensioni dell'intervallo che viene utilizzato nell'arrotondamento degli importi delle emissioni quando crei i report per le autorità. |
     | **Tipo di arrotondamento delle emissioni** | Specifica in che modo il programma arrotonda gli importi delle emissioni quando crei i report per le autorità. Sono disponibili le opzioni seguenti: **Al più vicino**, **Per eccesso** e **Per difetto**. |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Dati finanziari](finance.md)  
 [Panoramica della gestione della sostenibilità](finance-manage-sustainability.md)  

@@ -10,7 +10,7 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Acquisti
+# <a name="purchasing"></a>Acquisti
 
 È possibile creare una fattura o un ordine di acquisto per registrare il costo di acquisto e per tenere traccia del conto fornitori. Se è necessario verificare un magazzino, anche le fatture di acquisto vengono utilizzate per aggiornare in modo dinamico i livelli di magazzino in modo da ridurre i costi di magazzino al minimo e migliorare l'assistenza clienti. I costi di acquisto, incluse le spese di assistenza, e i valori di magazzino derivanti dalla registrazione delle fatture di acquisto contribuiscono alle cifre di profitto e altri indicatori KPI finanziari in Gestione ruolo utente.
 
@@ -24,7 +24,7 @@ Per tutti i processi di acquisto, è possibile incorporare un workflow di approv
 
 Nella sezione seguente viene descritta una sequenza di task, con collegamenti agli articoli che li descrivono.
 
-## Iniziare con le funzionalità per l'acquisto
+## <a name="get-started-with-purchase-capabilities"></a>Iniziare con le funzionalità per l'acquisto
 
 Prima di acquistare la merce, specifica come vuoi gestire i processi di acquisto della tua azienda.
 
@@ -33,7 +33,7 @@ Prima di acquistare la merce, specifica come vuoi gestire i processi di acquisto
 | Configura ruoli e valori che definiscono i criteri di acquisto della società. | [Impostare gli acquisti](purchasing-setup-purchasing.md) |
 | Registra ogni fornitore da cui si acquista con una scheda fornitore. | [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md) |
 
-## Analisi degli acquisti
+## <a name="purchase-analytics"></a>Analisi degli acquisti
 
 In questa sezione vengono descritti gli strumenti analitici che puoi utilizzare per ottenere informazioni dettagliate sui processi di acquisto.
 
@@ -43,7 +43,7 @@ In questa sezione vengono descritti gli strumenti analitici che puoi utilizzare 
 | Esegui analisi ad hoc dei dati di acquisto direttamente nelle pagine di elenco e nelle query. | [Analisi ad hoc dei dati sugli acquisti](ad-hoc-analysis-purchasing.md) |
 | Esplora report sul'acquisto integrati. | [Report degli acquisti predefiniti](purchase-reports.md) |
 
-## Offerta su ordine nella fattura di acquisto
+## <a name="quote-to-order-to-purchase-invoice"></a>Offerta su ordine nella fattura di acquisto
 
 La tabella seguente descrive come utilizzare semplici processi di acquisto.
 
@@ -64,7 +64,7 @@ Se hai bisogno di processi di acquisto più complessi, la tabella seguente elenc
 |Gestire l'impegno di un fornitore per acquistare grandi quantità consegnate nel tempo in diverse spedizioni.|[Usare gli ordini di acquisto programmati](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## Ordini annullati, rimborsi e resi
+## <a name="canceled-orders-refunds-and-returns"></a>Ordini annullati, rimborsi e resi
 
 La seguente tabella descrive come gestire gli ordini annullati, i rimborsi e i resi dei beni acquistati.
 
@@ -74,7 +74,7 @@ La seguente tabella descrive come gestire gli ordini annullati, i rimborsi e i r
 |Convertire, ad esempio, le fatture elettroniche dei fornitori in fatture di acquisto in Business Central.|[Ricevere e convertire documenti elettronici](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## Altri processi nelle vendite
+## <a name="other-processes-in-sales"></a>Altri processi nelle vendite
 
 La tabella seguente descrive come gestire altri processi di acquisto.
 
@@ -83,11 +83,11 @@ La tabella seguente descrive come gestire altri processi di acquisto.
 |Eliminare la confusione quando due o più record sono presenti per lo stesso fornitore.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
 
-## Numeri di documento esterno
+## <a name="external-document-numbers"></a>Numeri di documento esterno
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostazioni acquisti](purchasing-setup-purchasing.md)  
 [Registrare nuovi fornitori](purchasing-how-register-new-vendors.md)  

@@ -26,7 +26,7 @@ Questo messaggio di errore indica che l'utente non è autorizzato a pubblicare v
 
 L'utente in questo caso ha un intervallo di date di registrazione consentito dall'11 settembre al 30 settembre e quindi non è autorizzato a registrare la registrazione del valore di aggiustamento con data di registrazione 10 settembre.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Panoramica della configurazione della data di registrazione coinvolta
+### <a name="overview-of-the-posting-date-setup"></a>Panoramica della configurazione della data di registrazione coinvolta
 
 #### <a name="inventory-periods"></a>Periodi di inventario
 
