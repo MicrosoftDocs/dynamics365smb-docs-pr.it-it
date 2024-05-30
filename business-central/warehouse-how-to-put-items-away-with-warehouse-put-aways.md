@@ -10,7 +10,7 @@ ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Eseguire lo stoccaggio con stoccaggi warehouse
+# Eseguire lo stoccaggio con stoccaggi warehouse
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], la ricezione e lo stoccaggio degli articoli avvengono utilizzando uno dei quattro metodi, come descritto nella tabella seguente.
 
@@ -31,7 +31,7 @@ A seconda del valore nel campo **Usa prospetto stoccaggi** nella **Scheda ubicaz
 
 Oltre ai metodi standard per creare stoccaggi warehouse descritti in questo argomento, puoi creare uno stoccaggio a partire dal carico warehouse registrato correlato. Questo è utile se sono state eliminate le righe di stoccaggio oppure se decidi di non utilizzare il prospetto stoccaggi, perché è possibile creare o ricreare istruzioni di stoccaggio dalle righe di carico registrate.
 
-## <a name="zone-and-bin-codes"></a>Codici zona e collocazione
+## Codici zona e collocazione
 
 Nelle ubicazioni impostate per l'utilizzo di stoccaggi e prelievi diretti, le impostazioni che sono necessarie per determinare il miglior stoccaggio degli articoli:  
 
@@ -41,7 +41,7 @@ Nelle ubicazioni impostate per l'utilizzo di stoccaggi e prelievi diretti, le im
 
 La valutazione collocazione viene usata quando più collocazioni soddisfano i criteri del modello di stoccaggio. Se i criteri del modello di stoccaggio e la valutazione della collocazione sono gli stessi per più di una collocazione, viene scelta la collocazione con il numero più alto.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Per creare documenti di stoccaggio in blocco con i prospetti stoccaggi
+## Per creare documenti di stoccaggio in blocco con i prospetti stoccaggi  
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
@@ -77,7 +77,7 @@ La valutazione collocazione viene usata quando più collocazioni soddisfano i cr
 
 8. Seleziona **OK** per creare lo stoccaggio.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Per creare uno stoccaggio a partire dal carico registrato
+## Per creare uno stoccaggio a partire dal carico registrato
 
 Se un'ubicazione è impostata per l'elaborazione degli stoccaggi e dei carichi e sono state eliminate le righe di stoccaggio oppure utilizzi stoccaggi e prelievi diretti e hai deciso di non utilizzare il prospetto stoccaggi, puoi creare o ricreare istruzioni di stoccaggio per le righe di carico registrate.
 
@@ -90,7 +90,7 @@ Se un'ubicazione è impostata per l'elaborazione degli stoccaggi e dei carichi e
 4. Se il carico non è stato stoccato o è stato stoccato solo parzialmente, scegliere l'azione **Crea stoccaggio**.  
 5. Compila i campi in base alle esigenze, quindi scegli **OK**.  
 
-## <a name="to-put-items-away"></a>Per stoccare gli articoli
+## Per stoccare gli articoli
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Stoccaggi warehouse**, quindi seleziona il collegamento correlato.
 
@@ -117,7 +117,7 @@ Se un'ubicazione è impostata per l'elaborazione degli stoccaggi e dei carichi e
 
 5. Una volta posizionati tutti gli articoli nelle collocazioni, come indicato nelle istruzioni, scegliere l'azione **Registra stoccaggio**.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

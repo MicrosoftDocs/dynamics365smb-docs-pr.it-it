@@ -3,7 +3,7 @@ title: Modifica delle funzionalità visualizzate
 description: 'Informazioni sulle caratteristiche dei livelli dell''esperienza utente Essential e Premium che hanno effetto su interfaccia utente, aree di applicazione e società.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'essential, basic, user interface, application area, experience'
 ms.search.form: '1,'
@@ -11,7 +11,7 @@ ms.date: 03/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="change-which-features-are-displayed"></a>Modificare le funzionalità visualizzate
+# Modificare le funzionalità visualizzate
 
 [!INCLUDE[prod_short](includes/prod_short.md)] è progettato per aiutare l'utente a gestire la propria attività indipendentemente dalle dimensioni e dalla complessità. Alla base del prodotto sono disponibili funzionalità essenziali, come la gestione di report finanziari, vendite, acquisti e magazzino. Con l'aumentare della complessità aziendale,è possibile ad esempio attivare la funzionalità per la produzione e la gestione dell'assistenza.
 
@@ -36,11 +36,11 @@ Prima di definire l'impostazione dell'esperienza di una società, definire l'acc
 
 L'impostazione **Esperienza** si applica a tutti gli utenti di una società, ma ogni utente può personalizzare ulteriormente la propria esperienza modificando il layout e il contenuto della pagina. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Abilitazione delle funzionalità Premium dopo l'aggiornamento di un piano
+## Abilitazione delle funzionalità Premium dopo l'aggiornamento di un piano
 
 Agli utenti vengono assegnati i piani tramite l'interfaccia di amministrazione di Microsoft 365 in relazione al lavoro generale per creare gli utenti di Business Central. Per ulteriori informazioni, vedere[Aggiungere utenti e assegnare licenze allo stesso tempo](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a>Per aggiornare le modifiche di piano in gruppi di utenti
+### Per aggiornare le modifiche di piano in gruppi di utenti
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -50,18 +50,18 @@ Dopo aver apportato una modifica ai piani utenti dell'interfaccia di amministraz
 2. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Utenti**, quindi scegli il collegamento correlato.
 3. Nella pagina **Utenti**, scegli l'azione **Aggiorna utenti da Microsoft 365**.
 
-### <a name="to-select-the-premium-experience"></a>Per selezionare l'esperienza Premium
+### Per selezionare l'esperienza Premium
 
 È ora possibile selezionare la nuova esperienza.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Informazioni società**, quindi scegli il collegamento correlato.
 2. Nella Scheda dettaglio **Esperienza utente** della pagina **Informazioni società** selezionare Premium nel campo **Esperienza**.
 
-## <a name="help-assumes-the-premium-experience"></a>La Guida presuppone l'esperienza Premium
+## La Guida presuppone l'esperienza Premium
 
 Tutte le descrizioni delle caratteristiche nella documentazione per [!INCLUDE[prod_short](includes/prod_short.md)] presuppongono l'esperienza **Premium**, ovvero le descrizioni riguardano l'intero ambito degli elementi dell'interfaccia utente.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Personalizzare l'area di lavoro](ui-personalization-user.md)  
 [Personalizzazione di Business Central](ui-customizing-overview.md)  

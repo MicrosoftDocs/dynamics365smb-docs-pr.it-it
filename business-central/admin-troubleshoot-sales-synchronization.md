@@ -7,11 +7,11 @@ ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/04/2024
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="troubleshoot-synchronization-errors"></a>Risolvere errori di sincronizzazione
+# Risolvere errori di sincronizzazione
 
 Ci sono molte parti mobili coinvolte nell'integrazione di [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[prod_short](includes/cds_long_md.md)] e a volte le cose vanno male. Questo articolo evidenzia alcuni degli errori tipici che si verificano e fornisce alcuni suggerimenti su come risolverli.
 
@@ -33,7 +33,7 @@ Di seguito sono riportati alcuni strumenti nella pagina Errori di sincronizzazio
 * Le azioni **Elimina movimenti risalenti a più di 7 giorni prima**e **Elimina tutti i movimenti** puliranno l'elenco. In genere, si utilizzano queste azioni dopo aver risolto la causa di un errore che interessa molti record. Tuttavia, prestare attenzione. Queste azioni potrebbero eliminare errori che sono ancora rilevanti.
 * L'azione **Mostra stack di chiamate errore** mostra informazioni che possono aiutare a identificare la causa dell'errore. Se non riesci a risolvere l'errore da solo e decidi di inviare una richiesta di supporto, includi le informazioni nella richiesta di supporto.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Integrazione con Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Impostazione di account utente per l'integrazione con Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
