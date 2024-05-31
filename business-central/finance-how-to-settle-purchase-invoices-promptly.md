@@ -8,14 +8,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Saldare immediatamente le fatture di acquisto
+# <a name="settle-purchase-invoices-promptly"></a>Saldare immediatamente le fatture di acquisto
 
 Se si deve pagare il fornitore in contanti o con assegno, è possibile registrare il pagamento mentre si registra la fattura.  
 
 > [!NOTE]  
 > Se le fatture di acquisto sono spesso pagate in contanti, in assegni o con bonifico è una buona idea impostare un metodo di pagamento specifico con una contropartita e immetterlo nel campo **Metodo Pagamento** nella scheda del fornitore. Il numero della contropartita verrà immesso automaticamente nella testata della fattura ogni volta che ne verrà creata una nuova. Per ulteriori informazioni, vedere [Definizione dei metodi di pagamento](finance-payment-methods.md).  
 
-## Per saldare immediatamente le fatture di acquisto
+## <a name="to-settle-purchase-invoices-promptly"></a>Per saldare immediatamente le fatture di acquisto
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Fatture di acquisto**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -26,7 +26,7 @@ Se si deve pagare il fornitore in contanti o con assegno, è possibile registrar
 >
 > Questa personalizzazione è richiesta solo se non si specificano conti di contropartita per i metodi di pagamento come descritto sopra.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  

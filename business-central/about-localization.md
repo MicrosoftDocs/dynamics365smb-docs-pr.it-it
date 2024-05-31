@@ -11,13 +11,13 @@ ms.date: 09/05/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Cos'è la funzionalità locale in [!INCLUDE[prod_long](includes/prod_long.md)]?
+# <a name="what-is-local-functionality-in-"></a>Cos'è la funzionalità locale in [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ha una strategia combinata di localizzazione che include sia i modelli Microsoft che i modelli dei partner. In questa sezione è possibile visualizzare le descrizioni di funzionalità che si applicano ai paesi o le aree geografiche in cui Microsoft garantisce la conformità normativa e altre funzionalità locali.  
 
 Per un elenco dei mercati attualmente supportati, vai a [Disponibilità nazionale/regionale e traduzioni supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## Funzionalità locale
+## <a name="local-functionality"></a>Funzionalità locale
 
 La tabella seguente fornisce collegamenti ad articoli in cui è possibile ottenere informazioni sulle funzionalità locali per ogni paese/area geografica.
 
@@ -48,11 +48,11 @@ La tabella seguente fornisce collegamenti ad articoli in cui è possibile ottene
 |        | India | [Funzionalità locale per l'India](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nuova Zelanda | [Funzionalità locale per la Nuova Zelanda](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### Altri paesi o aree geografiche
+### <a name="other-countriesregions"></a>Altri paesi o aree geografiche
 
 [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile anche in altri mercati attraverso le app di localizzazione. Se un partner Microsoft ha sviluppato un'app di localizzazione per il paese/area geografica interessato, è possibile trovarla in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Creazione degli ambienti](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Preparazione al business](ui-get-ready-business.md)  

@@ -9,11 +9,11 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Impostare i clienti per vendite in contanti
+# <a name="set-up-cash-customers"></a>Impostare i clienti per vendite in contanti
 
 Non è possibile creare una fattura senza un numero di cliente. Ciò si applica anche nel caso di una vendita in contanti, quando non ci sarebbe niente da registrare in un conto cliente.  
 
-## Per impostare un cliente per vendite in contanti
+## <a name="to-set-up-a-cash-customer"></a>Per impostare un cliente per vendite in contanti
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cliente**, quindi scegli il collegamento correlato.  
 2. Creare una nuova scheda **Cliente**. Per ulteriori informazioni, vedere [Registrare nuovi clienti](sales-how-register-new-customers.md).
@@ -28,7 +28,7 @@ Non è possibile creare una fattura senza un numero di cliente. Ciò si applica 
 >
 > È necessario immettere un numero di conto incassi per la categoria di registrazione, anche se il saldo di questo conto dopo la registrazione di una fattura corrisponderà sempre a 0.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Registrare nuovi clienti](sales-how-register-new-customers.md)

@@ -11,7 +11,7 @@ ms.date: 05/20/2022
 ms.service: dynamics-365-business-central
 ---
 
-# Utilizzare i questionari profilo per classificare i contatti business
+# <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Utilizzare i questionari profilo per classificare i contatti business
 
 Puoi assegnare valutazioni ai potenziali clienti in modo da identificare quelli ideali e rivolgere loro la campagna di vendita. È possibile impostare questionari profilo da utilizzare durante l'immissione di informazioni sul profilo dei contatti. In ogni questionario, è possibile impostare le diverse domande da porre ai contatti. In questo modo, puoi raggruppare i contatti in modo che le tue campagne abbiano maggiori probabilità di rivolgersi alle persone giuste in base ai criteri che definisci con i questionari.  
 
@@ -19,13 +19,13 @@ Con i questionari corretti, puoi valutare i potenziali clienti e raggrupparli in
 
 È inoltre possibile eseguire il questionario per rispondere automaticamente ad alcune domande sulla base dei dati di contatto, cliente o fornitore.  
 
-## Per aggiungere un questionario profilo
+## <a name="to-add-a-profile-questionnaire"></a>Per aggiungere un questionario profilo
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup questionario**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
 3. Compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Per aggiungere domande a un questionario profilo
+## <a name="to-add-questions-to-a-profile-questionnaire"></a>Per aggiungere domande a un questionario profilo
 
 1. Scegliere il questionario profilo pertinente e quindi scegliere l'azione **Modifica setup questionario**.  
 2. Sulla prima riga vuota, nel campo **Tipo**, scegliere **Domanda** e digitare la domanda desiderata nel campo **Descrizione**. Compilare gli altri campi della riga.  
@@ -60,11 +60,11 @@ Dopo avere creato un questionario, puoi usarlo per valutare e classificare i con
 > [!NOTE]
 > Se immetti una domanda con risposta automatica, seleziona **Riga** e quindi **Dettagli domanda** per immettere i criteri da utilizzare per fornire la risposta automatica.
 
-## Applicare i questionari ai contatti
+## <a name="apply-questionnaires-to-contacts"></a>Applicare i questionari ai contatti
 
 Puoi applicare i tuoi questionari ai contatti manualmente. Apri la scheda conatto appropriata, quindi scegli l'azione **Profilo**. Quindi, una volta applicati i questionari che desideri applicare, puoi iniziare a utilizzare le categorie nelle tue campagne.  
 
-## Classificazione automatica dei contatti
+## <a name="the-automatic-classification-of-contacts"></a>Classificazione automatica dei contatti
 
 È possibile classificare automaticamente i contatti in base alle informazioni relative a cliente, fornitore e contatto, mediante una serie di domande sul profilo con risposta automatica nella pagina **Setup questionario profilo**.  
 
@@ -73,7 +73,7 @@ Puoi applicare i tuoi questionari ai contatti manualmente. Apri la scheda conatt
 
 Dopo avere impostato le domande relative al profilo, se si assegna il questionario profilo a un contatto, le risposte corrette relative a tale contatto vengono assegnate automaticamente da [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Esempio
+## <a name="example"></a>Esempio
 
 È possibile classificare i contatti in base al volume di acquisti da essi effettuati:
 
@@ -101,7 +101,7 @@ Compilare la pagina **Dettagli domande profilo** nel modo seguente:
 
 Quando si assegna il questionario profilo contenente questa domanda a un contatto, la risposta pertinente al contatto viene automaticamente inserita nelle righe profilo della scheda del contatto.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Creazione di contatti](marketing-create-contact-companies.md)  
 

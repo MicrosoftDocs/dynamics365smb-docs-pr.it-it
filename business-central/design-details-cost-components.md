@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Dettagli di progettazione: Componenti costo
+# <a name="design-details-cost-components"></a>Dettagli di progettazione: Componenti costo
 I componenti di costo sono diversi tipi di costi che compongono il valore di un aumento o di una riduzione di magazzino.  
 
  Nella seguente tabella vengono mostrati i diversi componenti di costo e i relativi componenti secondari.  
@@ -32,7 +32,7 @@ I componenti di costo sono diversi tipi di costi che compongono il valore di un 
 > [!NOTE]  
 >  I costi di assicurazione e di spedizione sono addebiti articoli che possono aggiunti al costo di un articolo in qualsiasi momento. Quando si esegue il processo batch **Rettifica costo - Movimenti articoli**, il valore delle riduzioni di magazzino correlate viene aggiornato di conseguenza.  
 
-## Vedi anche  
+## <a name="see-also"></a>Vedi anche
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
  [Dettagli di progettazione: Scostamento](design-details-variance.md) [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
  [Finanze](finance.md)  

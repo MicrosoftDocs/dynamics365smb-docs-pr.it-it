@@ -9,7 +9,7 @@ ms.search.form: null
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Contabilizzazione dei documenti e delle registrazioni
+# <a name="posting-documents-and-journals"></a>Contabilizzazione dei documenti e delle registrazioni
 
 La contabilizzazione rappresenta l'azione di contabilità di registrazione delle transazioni commerciali nei vari registri della società.
 
@@ -26,7 +26,7 @@ Nella tabella seguente sono descritti i task correlati, con i collegamenti agli 
 | Visualizzare in anteprima, in una pagina, i movimenti che verranno creati quando si registra. |[Visualizzare in anteprima i risultati della contabilizzazione](ui-how-preview-post-results.md) |
 | Visualizzare in anteprima, in un report, i movimenti che verranno creati quando si registra. |[Visualizzare i report dei test prima della registrazione](ui-how-view-test-reports-posting.md) |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Modificare i documenti registrati](across-edit-posted-document.md)  
 [Ricerca di movimenti correlati per documenti](ui-find-entries.md)  

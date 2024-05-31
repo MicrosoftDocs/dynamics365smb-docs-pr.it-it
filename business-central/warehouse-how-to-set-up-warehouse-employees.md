@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ms.service: dynamics-365-business-central
 ---
-# Impostare impiegati warehouse
+# <a name="set-up-warehouse-employees"></a>Impostare impiegati warehouse
 
 Devi impostare ogni utente che esegue attività di warehouse come impiegato warehouse e assegnarlo a un'ubicazione predefinita. [!INCLUDE [prod_short](includes/prod_short.md)] filtra le attività di magazzino in base all'ubicazione predefinita del dipendente. Può eseguire solo le attività di magazzino nell'ubicazione. Puoi anche assegnare un utente ad altre ubicazioni. Può accedere ma non eseguire attività in tali ubicazioni.
 
-## Per impostare impiegati warehouse  
+## <a name="to-set-up-warehouse-employees"></a>Per impostare impiegati warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -26,9 +26,9 @@ Devi impostare ogni utente che esegue attività di warehouse come impiegato ware
 > [!TIP]
 > Puoi anche utilizzare l'azione **Aggiungimi come dipendente warehouse** per aggiungerti rapidamente all'elenco dei dipendenti warehouse. Ciò è utile, ad esempio, quando si verificano le funzionalità.
 
-## Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Vedi il relativo [training Microsoft](/training/modules/get-started-warehouse-management/)
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

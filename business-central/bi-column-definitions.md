@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# Definizioni di colonna nel reporting finanziario
+# <a name="column-definitions-in-financial-reporting"></a>Definizioni di colonna nel reporting finanziario
 
 Usa definizioni di colonna per specificare le colonne da includere in un report. Ad esempio, puoi creare un layout di report che metta a confronto saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente. In una definizione di colonna possono essere presenti fino a 15 colonne. Ad esempio, più colonne sono utili per visualizzare i budget per 12 mesi con una colonna che mostra il totale.
 
-## Creare o modificare una definizione di colonna
+## <a name="create-or-edit-a-column-definition"></a>Creare o modificare una definizione di colonna
 
 Segui questi passaggi per creare o modificare una definizione di colonna:
 
@@ -28,7 +28,7 @@ Segui questi passaggi per creare o modificare una definizione di colonna:
 1. Selezionare **OK**.
 1. Apri la pagina **Report finanziario** di tanto in tanto per verificare che la nuova definizione di colonna funzioni come previsto.
 
-## Definizioni di colonna integrate
+## <a name="built-in-column-definitions"></a>Definizioni di colonna integrate
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce definizioni di colonna di esempio che possono aiutarti a iniziare rapidamente a configurare report finanziari che soddisfano le tue esigenze.
 
@@ -41,7 +41,7 @@ Segui questi passaggi per creare o modificare una definizione di colonna:
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## Esempio: Creare una definizione di colonna per calcolare le percentuali
+## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Esempio: Creare una definizione di colonna per calcolare le percentuali
 
 Potrebbe essere necessario includere in un report finanziario una colonna per il calcolo delle percentuali di un totale. Se, ad esempio, vi sono alcune righe in cui è prevista la suddivisione delle vendite per dimensioni, potresti voler inserire una colonna per indicare la percentuale delle vendite totali in ogni riga.
 
@@ -58,7 +58,7 @@ Potrebbe essere necessario includere in un report finanziario una colonna per il
     1. Nel campo **Formula** immetti una formula per l'importo per il quale vuoi calcolare la percentuale, seguita dal segno di percentuale (%). Quindi, se il numero di colonna N contiene il saldo periodo, immetti **N%**.  
 1. Ripeti i passaggi da 4 a 7 per ogni gruppo di righe che vuoi suddividere per percentuale.
 
-## Confronto dei periodi contabili con le formule periodo
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Confronto dei periodi contabili con le formule periodo
 
 Il report finanziario consente di confrontare i risultati di diversi periodi contabili, ad esempio mese precedente rispetto allo stesso mese dell'anno precedente. Per eseguire questa operazione, apri la pagina **Definizione colonna** e personalizzala aggiungendo il campo **Formula confronto periodo** come colonna. Per ulteriori informazioni vedi [Personalizzare l'area di lavoro](ui-personalization-user.md). È quindi possibile impostare quel campo su una formula del periodo.  
 
@@ -94,7 +94,7 @@ Per ulteriori informazioni, vedi [Utilizzare date e orari del calendario](ui-ent
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## Importare o esportare definizioni di colonna di report finanziari
+## <a name="import-or-export-financial-report-column-definitions"></a>Importare o esportare definizioni di colonna di report finanziari
 
 A partire dal primo ciclo di rilascio del 2024 (versione 24.1), puoi importare ed esportare le definizioni di colonna di report finanziari come pacchetti di configurazione RapidStart. Ad esempio, i pacchetti di configurazione sono utili per condividere le informazioni con altre società. Il pacchetto viene creato in un file .rapidstart, che comprime il contenuto.
 
@@ -106,7 +106,7 @@ Per importare o esportare definizioni di colonna di report finanziari, procedi c
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Definizioni di colonne**, quindi scegli il collegamento correlato.
 1. Scegli la definizione di riga, quindi scegli l'azione **Importa definizione di colonna** o **Esporta definizione di colonna**, a seconda di cosa vuoi fare.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Definizioni di riga nel reporting finanziario](bi-row-definitions.md)  
 [Preparare il reporting finanziario](bi-how-work-account-schedule.md)  
