@@ -611,11 +611,11 @@ ms.service: dynamics-365-business-central
 ### [Metodi di ammortamento](fa-depreciation-methods.md)
 ### [Gestire budget per i cespiti](fa-how-manage-budgets.md)
 ### [Acquisire cespiti](fa-how-acquire.md)
+### [Ammortizzare cespiti](fa-how-depreciate-amortize.md)
 ### [Gestire cespiti](fa-how-maintain.md)
 ### [Assicurare cespiti](fa-how-insure.md)
 ### [Trasferire, dividere o combinare cespiti](fa-how-trans-split-combine.md)
 ### [Rivalutare i cespiti](fa-how-revalue.md)
-### [Ammortizzare cespiti](fa-how-depreciate-amortize.md)
 ### [Smaltire o ritirare cespiti](fa-how-dispose-retire.md)
 ### [Risoluzione dei problemi relativi ai movimenti contabili per i cespiti](fa-troubleshooting-fa-ledger-entries.md)
 

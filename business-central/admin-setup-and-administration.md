@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Attività di amministrazione
+# Attività di amministrazione
 
 I task di amministrazione centrale vengono generalmente eseguiti da un solo ruolo nella società. L'ambito di tali task può dipendere dalle dimensioni dell'azienda e dalle responsabilità previste dalla mansione dell'amministratore. Questi task possono includere la gestione della sincronizzazione con il database di code di processi ed e-mail, l'impostazione di utenti e la personalizzazione dell'interfaccia utente.  
 
@@ -43,7 +43,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Connettere Dynamics 365 Sales a [!INCLUDE[prod_short](includes/prod_short.md)] per ottenere un'integrazione ottimale tra le relazioni con il cliente e l'elaborazione degli ordini nel processo dai lead agli incassi.|[Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Modificare i campi e le azioni visualizzati nell'interfaccia utente per adattarli ai processi aziendali della società e estendere la soluzione con le app.|[Personalizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Amministrazione nell'interfaccia di amministrazione
+## Amministrazione nell'interfaccia di amministrazione
 
 Gli amministratori interni e delegati hanno accesso all'interfaccia di amministrazione [!INCLUDE [prod_short](includes/prod_short.md)] da cui possono configurare, monitorare e risolvere i problemi degli ambienti [!INCLUDE [prod_short](includes/prod_short.md)]. Nella tabella seguente sono descritte alcune delle attività principali, con collegamenti agli articoli che li descrivono.  
 
@@ -54,7 +54,7 @@ Gli amministratori interni e delegati hanno accesso all'interfaccia di amministr
 |Gestire le sessioni utente, inclusa l'annullamento di una sessione se l'utente è bloccato.|[Gestire sessioni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configurare il tenant per inviare i dati di telemetria ad Azure Application Insights per una migliore analisi e risoluzione dei problemi.|[Abilitare l'invio della telemetria ad Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Funzionalità aziendali](across-business-functionality.md)  
 [Funzionalità aziendali generali](ui-across-business-areas.md)  

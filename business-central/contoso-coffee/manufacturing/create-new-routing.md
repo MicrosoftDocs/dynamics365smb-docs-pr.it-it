@@ -7,15 +7,15 @@ ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Procedura dettagliata: Creare un nuovo ciclo
+# Procedura dettagliata: Creare un nuovo ciclo
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee per configurare manualmente un nuovo ciclo di produzione in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Oscar, l'ingegnere di processo presso Contoso Coffee, decide di creare un nuovo ciclo con il nome *Nuovo percorso*. Poiché questo ciclo è diverso da qualsiasi altro ciclo in Contoso Coffee, Oscar deve immettere manualmente tutte le informazioni per il ciclo.  
 
-## <a name="steps"></a>Passaggi
+## Passaggi
 
 1. Crea l'intestazione del ciclo.  
 
@@ -54,6 +54,6 @@ Oscar, l'ingegnere di processo presso Contoso Coffee, decide di creare un nuovo 
 
 Il nuovo ciclo è ora impostato.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

@@ -9,7 +9,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-planning-assignment-table"></a>Dettagli di progettazione: Tabella Assegnazione pianificazione
+# Dettagli di progettazione: Tabella Assegnazione pianificazione
 Tutti gli articoli devono essere pianificati, tuttavia, non esiste motivo per calcolare un piano per un articolo a meno che non ci sia stato una modifica nella domanda o nel modello di approvvigionamento dall'ultima volta in cui è stato calcolato un piano.  
 
 Se l'utente ha immesso un nuovo ordine di vendita o ne ha cambiato uno esistente, esiste motivo per ricalcolare il piano. Altri motivi includono una modifica nella previsione o la scorta di sicurezza desiderata. Modificare una distinta base aggiungendo o rimuovendo un componente che molto probabilmente indicherebbe una modifica, ma solo per l'articolo del componente.  
@@ -54,7 +54,7 @@ Nel calcolo di un MPS o un MRP si applicano le seguenti restrizioni:
 * MPS: il sistema di pianificazione controlla che l'articolo includa una previsione di domanda o un ordine di vendita. In caso contrario, l'articolo non viene incluso nel piano.  
 * MRP: se il sistema di pianificazione rileva che l'articolo sta per essere rifornito da una riga di pianificazione MPS o da un ordine di approvvigionamento MPS, l'articolo verrà escluso dalla pianificazione. Tuttavia, è inclusa qualsiasi domanda dai componenti pertinenti.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 [Dettagli di progettazione: Bilanciamento domanda e approvvigionamento](design-details-balancing-demand-and-supply.md)   
 [Dettagli di progettazione: Gestione dei metodi di riordino](design-details-handling-reordering-policies.md)   
 [Dettagli di progettazione: Trasferimenti nella pianificazione](design-details-transfers-in-planning.md)   

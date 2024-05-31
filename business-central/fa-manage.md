@@ -14,7 +14,33 @@ ms.custom: bap-template
 
 # Gestire i cespiti
 
-La funzionalità relativa ai cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Consente, inoltre, di tenere traccia dei costi di manutenzione, di gestire polizze assicurative, di registrare transazioni di cespiti e di generare diversi report e statistiche.
+La funzionalità relativa ai cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Ti aiuta inoltre a tenere traccia dei costi di manutenzione, gestire le polizze assicurative, registrare transazioni relative a cespiti e generare vari report e statistiche.
+
+## Cos'è un cespite?
+
+I cespiti differiscono dagli altri articoli presenti nel magazzino. Un cespite, noto anche come cespite, è un pezzo tangibile di proprietà, impianti o attrezzature (PP&E) che possiedi o gestisci con l'aspettativa che continui a generare reddito. Una risorsa è fissa quando si tratta di un articolo che la tua azienda non consumerà, venderà o convertirà in contanti entro il successivo anno solare. Le immobilizzazioni sono diverse dalle attività correnti, che sono in contanti o destinate a essere convertite in contanti entro i prossimi 12 mesi. Anche le immobilizzazioni differiscono dal tuo inventario, poiché l'inventario viene generalmente consumato in breve tempo.
+
+## Tipi di immobilizzazioni
+
+Le aziende in genere investono in alcuni tipi di immobilizzazioni. Alcuni esempi sono:
+
+- Edifici e strutture
+- Attrezzature informatiche e software
+- Mobili e arredi
+- Macchinario
+- Automezzi
+
+## Comprendere la contabilità delle immobilizzazioni
+
+Contabilità delle immobilizzazioni significa tenere registri finanziari precisi sui tuoi beni capitali. Questi record includono dettagli sulle cinque fasi del ciclo di vita di una risorsa. Dopo l'acquisto iniziale, il ciclo di vita di ciascun cespite include almeno tre delle seguenti fasi:
+
+- Acquisizione: aggiungi un nuovo cespite ai tuoi libri.
+- Ammortamento: si registra il calo periodico del valore di un bene, per il quale si utilizza un metodo di ammortamento. Per ulteriori informazioni, vai a [Calcolo dell'ammortamento FA](LocalFunctionality/India/FA_Depreciation.md).
+- Rivalutazione: si registra una valutazione dell'attuale valore equo di mercato di un bene. Per saperne di più, vai a [Rivalutare le immobilizzazioni](fa-how-revalue.md).
+- Perdita di valore: si registra una riduzione di valore dovuta a eventi o circostanze.
+- Smaltimento: vendi, rottami o utilizzi un altro modo per smaltire un bene alla fine della sua vita utile.
+
+Gli audit rientrano anche nei controlli dettagliati dei registri contabili della vostra azienda dopo la chiusura dei libri contabili dell'esercizio finanziario. Sia interni che esterni, gli audit sono i luoghi in cui potresti notare incoerenze o differenze tra le tue note e lo stato effettivo delle tue risorse. Gli audit promuovono la trasparenza delle tue risorse e della contabilità se stai perdendo più denaro del previsto.
 
 ## Video di panoramica
 
@@ -61,7 +87,7 @@ Per ogni cespite occorre impostare una scheda che contiene le relative informazi
 
 Per tenere traccia degli ammortamenti dei cespiti e altre transazioni finanziarie per cespiti, imposta uno o più registri beni ammortizzabili per ogni cespite. Ecco alcuni passaggi per ammortizzare i cespiti:
 
-1. Esegui un report per calcolare l'ammortamento periodico.
+1. Eseguire un report che calcola l'ammortamento periodico.
 1. Compila un giornale di registrazione con i movimenti ottenuti.
 1. Effettuare la registrazione.
 
@@ -94,6 +120,15 @@ Puoi registrare i costi di manutenzione e la data del prossimo intervento per og
 | Registrazione di transazioni di cessione, visualizzazione dei movimenti contabili di cessione e registrazione di cessioni parziali. |[Smaltimento o ritiro dei cespiti](fa-how-dispose-retire.md) |
 | Visualizzazione dei movimenti contabili di cessione | [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visualizza i valori di cessione previsti. | [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
+
+## Suggerimenti per migliorare la contabilità delle immobilizzazioni
+
+Ci sono alcune cose che puoi implementare nella tua strategia contabile per le immobilizzazioni che possono aiutarti a garantire la massimizzazione dei tuoi guadagni.
+
+- Stabilire una soglia per la capitalizzazione. Quando acquisti un articolo, determina un importo fisso per la capitalizzazione. L'importo aiuta a garantire che i tuoi libri contabili siano coerenti e rende più facile per te e il tuo team individuare gli errori contabili.
+- Rivalutare il ciclo di vita delle apparecchiature. È importante stimare correttamente il periodo di tempo in cui è possibile utilizzare le immobilizzazioni per lo scopo originale. Poiché la contabilità e l'ammortamento si basano su stime accurate del ciclo di vita, rivalutarle quando necessario perché potrebbero cambiare nel tempo.
+- Tagga le tue risorse. È essenziale monitorare e taggare le tue risorse durante tutto il loro ciclo di vita perché molti fattori possono influenzarne il valore. L'etichettatura aiuta a tenere traccia dei tuoi articoli durante tutte le fasi del loro ciclo di vita e aiuta a prevenire i furti, eliminare gli smarrimenti e supportare le statistiche finanziarie.
+- Automatizza gli insight con il software di contabilità delle immobilizzazioni. L'automazione delle attività manuali per tenere traccia dei dati con il software di contabilità delle immobilizzazioni semplifica il completamento dei processi. La protezione tramite password può aiutare a fornire l'accesso solo alle persone che ne hanno bisogno e che sono addestrate per questo.
 
 ## Vedere anche
 

@@ -22,7 +22,7 @@ Utilizza le seguenti pagine di elenco per iniziare a eseguire analisi ad hoc dei
 - [Movimenti contabili clienti](https://businesscentral.dynamics.com/?page=25)
 - [Mov. contabili fornitori](https://businesscentral.dynamics.com/?page=29)
 
-## Scenari di analisi finanziarie ad hoc
+## Scenari di analisi ad hoc in finanza
 
 Utilizza la funzione **Analisi dei dati** per un rapido controllo dei fatti e un'analisi ad hoc:
 
@@ -34,12 +34,13 @@ Le sezioni seguenti forniscono esempi di scenari finanziari in [!INCLUDE [prod_s
 
 | Ad area | Per... | Apri questa pagina in modalità di analisi | Utilizzando questi campi |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Finanza (Contabilità clienti)](#example-finance-accounts-receivables) | Per vedere ciò che ti devono i tuoi clienti, ad esempio suddiviso in intervalli di tempo per quando gli importi sono dovuti. | [Movimenti contabili clienti](https://businesscentral.dynamics.com/?page=25) | **Ragione Sociale**, **Scadenza** e **Importo residuo** |
+|[Esempio: Finanza (contabilità clienti)](#example-finance-accounts-receivable) | Per vedere ciò che ti devono i tuoi clienti, ad esempio suddiviso in intervalli di tempo per quando gli importi sono dovuti. | [Movimenti contabili clienti](https://businesscentral.dynamics.com/?page=25) | **Ragione Sociale**, **Scadenza** e **Importo residuo** |
 | [Finanza (Contabilità fornitori)](#example-finance-accounts-payable) | Per vedere ciò che ti devono i tuoi fornitori, magari suddiviso in intervalli di tempo per quando gli importi sono dovuti. | [Mov. contabili fornitori](https://businesscentral.dynamics.com/?page=29) | **Nome fornitore**, **Tipo documento**, **Nr. documento**, **Data scadenza (anno)**, **Data scadenza (mese)** e **Importo residuo**. |
+| [Finanza (fatture di vendita per conto Co.Ge.)](#example-finance-sales-invoices-by-gl-account) | Scopri come le tue fatture di vendita vengono distribuite sui conti Co.Ge. dal piano dei conti, ad esempio, suddivise in intervalli di tempo in cui sono stati registrati gli importi. | [Movimenti C/G](https://businesscentral.dynamics.com/?page=20) | **Nome conto Co.Ge.**, **Codice sorgente**, **Nome conto Co.Ge.**,  **N. conto Co.Ge.**, **Importo debito**, **Importo credito**, **Data di pubblicazione Anno**, **Data di pubblicazione Trimestre** e **Data di pubblicazione Data Mese** |
 | [Finanza (Conto economico)](#example-finance-income-statement) | Visualizza il tuo reddito sui conti economici dal piano dei conti, ad esempio, suddiviso in intervalli di tempo in cui sono stati registrati gli importi. | [Movimenti C/G](https://businesscentral.dynamics.com/?page=20) | **Nr. conto C/G**, **Data di registrazione** e **Quantità**. |
 | [Finanza (totale attività)](#example-finance-total-assets) | Visualizza le attività sui conti cespiti dal piano dei conti, ad esempio, suddiviso in intervalli di tempo in cui sono stati registrati gli importi. | [Movimenti C/G](https://businesscentral.dynamics.com/?page=20) | **Nr. conto C/G**, **Data di registrazione** e **Quantità**. |
 
-### Esempio: Finanza (Contabilità clienti)
+### Esempio: Finanza (contabilità clienti)
 
 Per vedere ciò che ti devono i tuoi clienti, magari suddiviso in intervalli di tempo per quando gli importi sono dovuti, segui questi passaggi:
 
@@ -67,12 +68,32 @@ L'immagine seguente mostra il risultato di questi passaggi.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Esempio di come eseguire l'analisi dei dati nella pagina Movimenti contabili clienti." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
+### Esempio: Finanza (fatture di vendita per conto Co.Ge.)
+
+Per visualizzare la distribuzione delle fatture di vendita sui conti Co.Ge. dal piano dei conti, ad esempio, suddivise in intervalli di tempo in base ai quali sono stati registrati gli importi, attenersi alla seguente procedura:
+
+1. Apri la pagina [Movimenti contabili generali](https://businesscentral.dynamics.com/?page=20) .
+1. Aggiungi i campi **Nome conto Co.Ge.** e **Codice sorgente** personalizzando la pagina. Nel menu  **Impostazioni** , scegli **Personalizza**.
+1. Esci dalla modalità di personalizzazione.
+1. Scegli :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entra in modalità analisi"::: per attivare la modalità di analisi.
+1. Nel menu  **Filtri di analisi**, imposta un filtro nel campo **Codice sorgente** su **VENDITE**. Se disponi di personalizzazioni che aggiungono altri valori, puoi aggiungere anche quelle.
+1. Nel menu **Colonne**, rimuovi tutte le colonne (seleziona la casella accanto al campo **Ricerca**).
+1. Attiva l'interruttore **Modalità Pivot** (situato sopra il campo **Ricerca** a destra).
+1. Trascina i campi **Nome conto Co.Ge.** e **N. conto Co.Ge.** su **Area gruppi di righe** .
+1. Trascina i campi **Importo debito** e **Importo credito** su **Valori** zona.
+1. Trascina  **Anno data di pubblicazione**, **Trimestre data di pubblicazione** e **Mese data di pubblicazione** campi nell'area **Etichette colonna** .
+1. Rinomina la scheda di analisi in **Disaggregazione fatture per account** o qualcosa che descriva questa analisi.
+
+L'immagine seguente mostra il risultato di questi passaggi.
+
+:::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Esempio di come eseguire l'analisi dei dati nella pagina Movimenti contabili C/G (per comprendere le registrazioni delle vendite)." lightbox="media/data-analysis-gl-entries-invoices.png":::
+
 ### Esempio: Finanza (Conto economico)
 
 Per vedere il tuo reddito sui conti economici dal piano dei conti, ad esempio, suddiviso in intervalli di tempo in cui sono stati registrati gli importi, segui questi passaggi:
 
 1. Apri l'elenco [Movimenti C/G](https://businesscentral.dynamics.com/?page=20) e scegli l'icona :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entra in modalità analisi"::: per attivare la modalità di analisi.
-1. Vai al menu **Colonne** e rimuovi tutte le colonne (seleziona la casella accanto al campo **Ricerca**).
+1. Vai al menu **Colonne** e rimuovi tutte le colonne (seleziona la casella accanto al campo **Ricerca** sulla destra).
 1. Attiva l'interruttore **Modalità Pivot** (situato sopra il campo **Ricerca** a destra).
 1. Trascina il campo **Nr. conto C/G** nell'area **Gruppi di righe** e trascina il campo **Importo rimanente** nell'area **Valori**.
 1. Trascina il campo **Data di registrazione (mese)** nell'area **Etichette di colonna**.
@@ -113,7 +134,7 @@ Per saperne di più, vai ai seguenti articoli:
 [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md)  
 [Panoramica di Analisi finanziaria](bi.md)  
 [Panoramica di analisi, business Intelligence e reporting](reports-bi-reporting.md)  
-[Panoramica dei dati finanziari](finance.md)   
+[Panoramica dei dati finanziari](finance.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

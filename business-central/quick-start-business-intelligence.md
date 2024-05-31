@@ -1,48 +1,47 @@
 ---
-title: Inizio rapido di Business Intelligence
+title: Avvio rapido della business intelligence
 description: Scopri come Business Central ti aiuta a trasformare i dati aziendali in informazioni fruibili utilizzando report e dashboard di Business Intelligence.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
-ms.date: 08/17/2022
-ms.author: bholtorf
+ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="business-intelligence-quick-start"></a>Inizio rapido di Business Intelligence
+# Avvio rapido della business intelligence
 
 Essere in grado di raccogliere e analizzare le quantità sempre crescenti di dati in modo attuabile è una parte inestimabile del modo di fare affari in questi giorni. [!INCLUDE[prod_short](includes/prod_short.md)] offre molti strumenti di Business Intelligence (BI), sia integrato che integrato con altri servizi, per aiutare la tua azienda nel processo decisionale.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a>Ottieni informazioni dettagliate sui tuoi principali punti di interesse
+Ruoli diversi nelle organizzazioni spesso preferiscono modalità di consumo e analisi dei dati che riflettono il livello di aggregazione dei dati di cui hanno bisogno.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] include grafici integrati che possono essere visualizzati nella sezione **Insights** sulla tua home page, che copre *entrate e uscite*, *flusso di cassa*, *tendenze di vendita* e altri report. Puoi trovare indicatori di prestazione chiave (KPI) aggiuntivi nella pagina **Informazioni su Cloud intelligente**, che mostra informazioni utili da finanza, inventario, vendite e approvvigionamento:
+:::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustrazione di come utenti tipo diversi hanno esigenze di analisi diverse." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
-* Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Informazioni su Cloud intelligente**, quindi scegli il collegamento correlato.
+[!INCLUDE[prod_short](includes/prod_short.md)] ha molteplici funzionalità che ti aiutano ad analizzare i dati aziendali:
 
-Le schede dati e gli approfondimenti disponibili possono essere selezionati per aprire la relativa pagina del registro. La pagina **Informazioni su Cloud intelligente** utilizza anche una connessione con Power BI e sottoscrizioni di Azure Machine Learning esistenti per visualizzare dashboard di analisi e previsioni.
+- Report finanziari
+- Indicatori KPI e dashboard
+- Analisi ad hoc
+- Report
 
-## <a name="set-up-power-bi-integration"></a>Configurare l'integrazione con Power BI
+Per ulteriori informazioni sull'analisi, vai a [Panoramica dell'analisi](reports-bi-reporting.md).
 
-Puoi connetterti [!INCLUDE[prod_short](includes/prod_short.md)] insieme a Power BI per creare report penetranti e dashboard potenti. L'integrazione di Power BI offre molte opzioni per fornire informazioni dettagliate basate sui dati aziendali, inclusa un'ampia gamma di personalizzazioni visive, di filtraggio e di visualizzazione.
+## Analisi per area funzionale
 
-1. Nella tua home page, scegli il collegamento **Inizia con Power BI**.
-2. Seleziona **Avanti**.
-3. Scegli l'azione **Vai alla pagina iniziale Power BI**, accedi con il tuo account Power BI o avvia una prova utilizzando il tuo indirizzo e-mail di lavoro.
-4. Torna alla pagina **Imposta report Power BI**, scegli **Avanti**.
-5. Nella schermata successiva, scegli **Avanti** in cui caricare un report dimostrativo Power BI, quindi scegli **Fine**.
+La tabella seguente fornisce collegamenti ad articoli che descrivono come utilizzare l'analisi in aree funzionali specifiche in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Il caricamento del report richiede alcuni minuti, ma puoi riprendere a lavorare [!INCLUDE[prod_short](includes/prod_short.md)] durante il trasferimento. Dopo il caricamento, puoi scegliere l'azione **Seleziona report** nella parte **Report di Power BI** nella tua home page per visualizzare i dashboard disponibili.
+| Se utilizzi... | Vedere |
+| --- | --- |
+| Dati finanziari | [Analisi finanziaria](bi.md) |
+| Vendita | [Analisi delle vendite](sales-analytics-overview.md) |
+| Acquisti | [Analisi degli acquisti](purchasing-analytics-overview.md) |
+| Gestione dei cespiti | [Analisi dei cespiti](fa-analytics-overview.md) |
 
-L'integrazione di Power BI con [!INCLUDE[prod_short](includes/prod_short.md)] include un dashboard di esempio per la società demo Cronus. È possibile installare facilmente dashboard e connettori di set di dati più pronti per l'uso sfogliando la sezione **App** nel sito Web Power BI. Lì vedrai le app disponibili per [!INCLUDE[prod_short](includes/prod_short.md)] che integrano e visualizzano i dati di finanza, vendite e altre aree. Ulteriori informazioni sulle funzionalità Power BI in questo [articolo Business Central e Power BI](admin-powerbi.md) e scopri come creare i tuoi dashboard a [Inizia a creare nel servizio Power BI](/power-bi/fundamentals/service-get-started).
+## Vedere anche
 
-Puoi anche creare report visivi basati su [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando l'opzione del tipo di file **Documento di Microsoft Excel (solo dati)** nelle pagine di richiesta del report. Ulteriori informazioni su [Esegui e stampa report](ui-work-report.md).
-
-## <a name="see-also"></a>Vedere anche
-
-[Business Analysis e Financial Reporting](bi.md)  
+[Panoramica dell'analisi](reports-bi-reporting.md)  
 [Avviamento rapido di Business Central](quick-start-business-central.md)  
-[Utilizzare i report Power BI in Business Central](across-working-with-powerbi.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

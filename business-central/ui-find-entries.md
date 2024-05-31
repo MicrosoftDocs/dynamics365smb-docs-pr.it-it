@@ -10,7 +10,7 @@ ms.date: 05/23/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="finding-related-entries-for-documents"></a>Ricerca di movimenti correlati per documenti
+# Ricerca di movimenti correlati per documenti
 
 In questo articolo viene illustrato come trovare documenti e movimenti correlati tra loro in base a informazioni comuni, come:
 
@@ -20,7 +20,7 @@ In questo articolo viene illustrato come trovare documenti e movimenti correlati
 
 Questa funzione risulta utile per cercare i movimenti contabili ottenuti da determinate transazioni. Durante la ricerca per numero di documento, è possibile stampare il riepilogo dal report **Movimenti documento**.
 
-## <a name="get-started"></a>Introduzione
+## Introduzione
 
 La funzione Trova voci è prontamente disponibile da quasi tutte le pagine premendo i tasti <kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>. Dalle pagine che visualizzano in modo specifico documenti pubblicati o movimenti di documenti registrati, sia per le liste che per le schede, puoi anche aprire la funzione scegliendo l'azione **Trova movimenti**.
 
@@ -30,7 +30,7 @@ La pagina **Trova movimenti** include tutti i documenti e i movimenti correlati 
 - La sezione centrale mostra i documenti correlati in base alla ricerca.
 - La sezione inferiore mostra le informazioni sul documento di origine trovato durante la ricerca.
 
-## <a name="search-for-entries"></a>Ricerca di movimenti
+## Ricerca di movimenti
 
 È possibile cercare movimenti in base alle informazioni sul documento, al contatto commerciale o al riferimento articolo. Nella sezione superiore, selezionare una delle seguenti opzioni in base al tipo di informazioni disponibili:
 
@@ -45,7 +45,7 @@ Dopo aver effettuato una selezione, inserire le informazioni di ricerca pertinen
 > [!TIP]
 > Per un paio di esempi sull'utilizzo di **Trova movimenti**, vedere [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md) e [Procedura dettagliata: Tracciabilità dei numeri seriali/lotto](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  
 [Ricerca di record di documenti registrati senza documento in entrata](across-how-find-posted-documents-without-income-document-records.md)  

@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="e-documents-overview"></a>Panoramica dei documenti elettronici
+# Panoramica dei documenti elettronici
 
 I documenti elettronici sono la spina dorsale delle moderne transazioni commerciali. Comprendono documenti vitali, come fatture e ricevute in entrambe le direzioni (consegna e carico). Aggiungono inoltre funzionalità per la messaggistica relativa allo stato dei documenti tra punti di accesso.
 
@@ -34,7 +34,7 @@ La documentazione spiega dettagliatamente i documenti elettronici. Mostra le fun
 | [Scambio di dati in modalità elettronica](across-data-exchange.md) | Scopri come utilizzare il framework di scambio dati per gestire lo scambio di dati in documenti aziendali come file bancari e tassi di cambio valuta. | 
 | [Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot (anteprima)](map-edocuments-with-copilot.md) | Scopri come utilizzare Copilot per migliorare la tua efficienza quando lavori con documenti elettronici. |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione contabile](finance.md)    
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

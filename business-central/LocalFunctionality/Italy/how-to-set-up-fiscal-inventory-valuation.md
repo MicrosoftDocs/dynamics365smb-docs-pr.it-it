@@ -11,10 +11,10 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-fiscal-inventory-valuation-in-the-italian-version"></a>Impostare la valutazione del magazzino fiscale nella versione italiana
+# Impostare la valutazione del magazzino fiscale nella versione italiana
 Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metodi di valutazione magazzino.  
 
-## <a name="to-set-up-fiscal-inventory-valuation-for-item-costing"></a>Per impostare la valutazione del magazzino fiscale per il costing dell'articolo
+## Per impostare la valutazione del magazzino fiscale per il costing dell'articolo  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup costing articolo**, quindi scegli il collegamento correlato.  
 2.  Nella Scheda Dettaglio **Generale** compilare i campi come indicato nella tabella seguente.  
@@ -26,14 +26,14 @@ Per utilizzare la valutazione magazzino fiscale, è necessario impostare i metod
 
 3.  Scegliere il pulsante **OK**.  
 
-## <a name="to-set-up-fiscal-inventory-valuation-for-an-item"></a>Per impostare la valutazione del magazzino fiscale per un articolo
+## Per impostare la valutazione del magazzino fiscale per un articolo  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Elenco articoli** selezionare ogni articolo e poi, nella Scheda dettaglio **Generale**, nel campo **Valutazione magazzino**, specificare il tipo di valutazione di magazzino.  
 
 3.  Scegliere il pulsante **OK**.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
  [Valutazione magazzino fiscale](fiscal-inventory-valuation.md)   
 
 

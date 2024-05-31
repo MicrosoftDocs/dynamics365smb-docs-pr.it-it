@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.devlang: al
   ms.search.keywords: 'list, filter, pane, views'
-  ms.date: 08/09/2022
+  ms.date: 02/28/2024
   ms.author: mikebc
   ms.service: dynamics-365-business-central
 title: Domande frequenti sulle visualizzazioni elenco
@@ -86,7 +86,7 @@ sections:
           - Visualizzazioni di sistema legacy che sono una parte standard dell'applicazione aziendale ma che sono state create utilizzando versioni precedenti di [!INCLUDE[prod_short](includes/prod_short.md)]. Queste visualizzazioni offrono meno opzioni. È possibile salvarle solo come nuova visualizzazione e non possono nemmeno essere nascoste o riordinate. Le visualizzazioni di sistema legacy verranno sospese in un futuro aggiornamento di [!INCLUDE[prod_short](includes/prod_short.md)].
 
           > [!NOTE]
-          > A partire dal secondo ciclo di rilascio di Business Central 2023, le visualizzazioni legacy non saranno più supportate e non verranno visualizzate nella pagina elenco. Scopri i dettagli tecnici su come gli sviluppatori possono migrare alle moderne visualizzazioni elenco in [Migrazione da viste legacy a viste moderne](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). 
+          > A partire dal primo ciclo di rilascio di Business Central 2024, le visualizzazioni legacy non saranno più supportate e non verranno visualizzate nella pagina elenco. Scopri i dettagli tecnici su come gli sviluppatori possono migrare alle moderne visualizzazioni elenco in [Migrazione da viste legacy a viste moderne](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). 
       - question: |
           Come faccio a superare i limiti delle viste di sistema legacy?
         answer: |

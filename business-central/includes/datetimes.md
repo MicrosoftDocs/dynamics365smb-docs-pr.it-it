@@ -19,12 +19,12 @@ Nella tabella seguente sono elencati i vari formati in cui è possibile immetter
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
 |11 12|11/mese corrente/anno corrente 12.00.00|
-|1112 12|11/12/anno corrente 12.00.00|
-|o oppure oggi|Data odierna 00.00.00|
-|o ora|Ora corrente in data odierna|
-|o 10:30|Data odierna 10.30.00|
-|o 3:3:3|Data odierna 03.03.03|
-|l o data di lavoro|Data del lavoro 00.00.00|
+|1112 12|11-12-anno corrente 12.00.00|
+|t o today|Data odierna 00.00.00|
+|t time|Ora corrente in data odierna|
+|t 10:30|Data odierna 10.30.00|
+|t 3:3:3|Data odierna 03.03.03|
+|w o workdate|Data del lavoro 00.00.00|
 |lu o lunedì|Lunedì della settimana corrente 00.00.00|
 |ma o martedì|Martedì della settimana corrente 00.00.00|
 |me o mercoledì|Mercoledì della settimana corrente 00.00.00|
