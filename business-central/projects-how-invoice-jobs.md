@@ -10,7 +10,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="invoice-projects"></a>Fatturare i progetti
+# Fatturare i progetti
 
 Durante il progetto, è possibile che si accumulino i costi di progetto derivanti da utilizzo delle risorse, materiali e acquisti correlati al progetto. Durante l'esecuzione del progetto, tali transazioni vengono inserite nella registrazione progetti. È importante registrare tutti i costi nella registrazione progetti prima di fatturare al cliente.
 
@@ -24,7 +24,7 @@ Puoi fatturare l'intero progetto dalla pagina **Righe attività di progetto** op
 
 Puoi anche fatturare una società che non è il cliente finale. A volte la parte a cui è rivolto un progetto è diversa dalla parte che paga il conto. Nella pagina **Progetti** è possibile specificare il cliente che beneficerà del progetto nei campi **Vendere a** e la parte che fattura nei campi **Fatturare a**.
 
-## <a name="to-create-multiple-project-sales-invoices"></a>Per creare più fatture di vendita progetto
+## Per creare più fatture di vendita progetto
 
 Puoi creare una fattura per un progetto o per una o più attività di progetto per un cliente al completamento del lavoro da fatturare o al raggiungimento della data per la fatturazione in base a una programmazione di fatturazione.
 
@@ -40,7 +40,7 @@ Nella procedura che segue viene mostrato come utilizzare un processo batch per f
 > [!NOTE]
 > In alternativa, fattura a un cliente selezionando il progetto, quindi scegliendo l'azione **Crea fattura vendita**. 
 
-## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>Per creare e registrare una fattura di vendita progetto da righe di pianificazione progetto
+## Per creare e registrare una fattura di vendita progetto da righe di pianificazione progetto
 
 Puoi creare una fattura da righe di pianificazione progetto e indicare in quella occasione la quantità dell'articolo, la risorsa o il conto CoGe che vuoi fatturare.
 
@@ -59,7 +59,7 @@ Puoi creare una fattura da righe di pianificazione progetto e indicare in quella
 > [!NOTE]  
 > La procedura sopra riportata è simile per la creazione, la revisione e la registrazione di una nota di credito di vendita correlata a un progetto.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione di progetti](projects-manage-projects.md)  
 [Dati finanziari](finance.md)  

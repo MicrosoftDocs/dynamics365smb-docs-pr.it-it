@@ -10,11 +10,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="using-key-performance-indicators-kpis-to-meet-your-business-goals"></a>Uso degli indicatori KPI per raggiungere gli obiettivi aziendali
+# Uso degli indicatori KPI per raggiungere gli obiettivi aziendali
 
 Un indicatore KPI è un valore misurabile che mostra l'efficacia con cui stai raggiungendo i tuoi obiettivi. Considera gli indicatori KPI come la scorecard della tua azienda, un modo per determinare se stai raggiungendo o meno i tuoi obiettivi.
 
-## <a name="why-kpis-matter"></a>Perché gli indicatori KPI sono importanti
+## Perché gli indicatori KPI sono importanti
 
 L'identificazione e il monitoraggio degli identificatori KPI ti consentono di sapere se la tua azienda è sulla strada giusta o se devi cambiare rotta per evitare di perdere tempo e denaro preziosi. Se utilizzati correttamente, gli indicatori KPI sono strumenti potenti che ti aiutano a:
 
@@ -25,7 +25,7 @@ L'identificazione e il monitoraggio degli identificatori KPI ti consentono di sa
 - Motivare i membri del team.
 - Prendere decisioni migliori e più velocemente.
 
-## <a name="get-started-identifying-your-kpis"></a>Introduzione all'identificazione degli indicatori KPI
+## Introduzione all'identificazione degli indicatori KPI
 
 Come si identificano gli indicatori KPI importanti per la tua società? Inizia chiarendo i tuoi obiettivi strategici, collettivamente o per reparto.
 
@@ -35,7 +35,7 @@ Successivamente, identifica gli obiettivi KPI per i quali stai lavorando e come 
 
 Parla con il tuo team e incoraggia un dialogo aperto sugli indicatori KPI e i relativi obiettivi. Sono troppo aggressivi? Troppo facili? Gli obiettivi dovrebbero essere impegnativi, ma se sono troppo inverosimili o si basano interamente su metriche che il tuo team non è in grado di controllare, sarebbe saggio rivederli. Vorrai inoltre esplorare le attività e le tattiche che la tua società utilizzerà per raggiungere tali obiettivi. Infine, prenditi del tempo per valutare dove ti trovi oggi: questo sarà il tuo punto di partenza rispetto all'uso degli indicatori KPI.
 
-## <a name="get-to-know-the-different-types-of-kpis"></a>Ottenere informazioni sui differenti tipi di indicatori KPI
+## Ottenere informazioni sui differenti tipi di indicatori KPI
 
 Identificare quali indicatori KPI monitorare diventa più semplice quando si comprendono meglio i tipi di indicatori KPI più comunemente utilizzati per misurare i progressi.
 
@@ -47,7 +47,7 @@ Identificare quali indicatori KPI monitorare diventa più semplice quando si com
 
 Per ogni indicatore KPI che scegli di monitorare, assegna un proprietario e concorda la frequenza di monitoraggio. Qualunque sia l'indicatore KPI che decidi di monitorare, l'utilizzo di una piattaforma o di uno strumento KPI è fondamentale per collaborare con il tuo team sulle definizioni degli indicatori KPI. Definendo collettivamente ciascun indicatore KPI, quindi acquisendo dati contestuali e unificandoli in un'unica visualizzazione, puoi abilitare azioni mirate e in tempo reale.
 
-## <a name="kpi-reporting"></a>Reporting degli indicatori KPI
+## Reporting degli indicatori KPI
 
 I report KPI portano le informazioni presentate nel dashboard KPI a un nuovo livello. Approfondiscono i dati per ottenere informazioni e analisi più dettagliate.
 
@@ -68,7 +68,7 @@ Ulteriori considerazioni per la creazione dei report KPI includono:
 - Presentare soltanto gli indicatori KPI pertinenti in modo da non sovraccaricare il report con indicatori KPI che non corrispondono agli obiettivi del reporting.
 - Assicurarsi che i report siano chiari, facili da comprendere e utilizzabili per i destinatari previsti.
 
-## <a name="tools-for-implementing-kpis"></a>Strumenti per l'implementazione degli indicatori KPI
+## Strumenti per l'implementazione degli indicatori KPI
 
 La tabella seguente presenta collegamenti ad articoli su come utilizzare business intelligence e gli strumenti di reporting con dati di [!INCLUDE[prod_short](includes/prod_short.md)] per implementare indicatori KPI.
 
@@ -79,7 +79,7 @@ La tabella seguente presenta collegamenti ad articoli su come utilizzare busines
 | [Analizzare rendiconti finanziari con Microsoft Excel](finance-analyze-excel.md) |
 | Integrare strumenti di Business Intelligence esterni con [!INCLUDE[prod_short](includes/prod_short.md)].| [Strumenti di Business Intelligence esterni](reports-external-analysis.md) |
 
-## <a name="kpi-best-practices"></a>Procedure consigliate per gli indicatori KPI
+## Procedure consigliate per gli indicatori KPI
 
 Per aiutarti a sfruttare con successo la potenza degli indicatori KPI, di seguito sono riportati alcuni suggerimenti utili.
 
@@ -96,7 +96,7 @@ Monitoraggio degli indicatori KPI:
 - Determina una cadenza per il monitoraggio e l'azione sui KPI. I dashboard KPI vengono monitorati quotidianamente o settimanalmente? Le azioni vengono eseguite solo dopo il reporting o le parti interessate e/o i membri del team hanno la possibilità di adattare le tattiche lungo il percorso?
 - Assicurati di disporre di una protezione dei dati semplice ed end-to-end per i dashboard dei dati, con controlli per la condivisione all'esterno dell'organizzazione.
 
-## <a name="common-kpi-mistakes"></a>Errori KPI comuni
+## Errori KPI comuni
 
 Evita questi errori KPI comuni:
 
@@ -106,7 +106,7 @@ Evita questi errori KPI comuni:
 - Monitoraggio di indicatori KPI senza proprietari. La responsabilità è importante, non solo per i risultati ma anche per il processo. Ciascun indicatore KPI deve avere un proprietario responsabile di monitoraggio, reporting, analisi e azione.
 - Non riuscire ad intraprendere azioni sui tuoi indicatori KPI. Indipendentemente dal fatto che tu riesca a raggiungere o meno i tuoi obiettivi, gli indicatori KPI sono strumenti che ti aiutano a prendere decisioni migliori. Quindi non monitorare solo per il gusto di monitorare, ma agisci.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'analisi](reports-bi-reporting.md)  
 [Utilizzo del reporting finanziario per produrre rendiconti finanziari e indicatori KPI](bi.md)  

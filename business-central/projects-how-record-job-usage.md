@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 02/22/2024
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-projects"></a>Registrare il consumo o l'utilizzo per progetti
+# Registrare il consumo o l'utilizzo per progetti
 
 Dalla pagina **Scheda progetto**, è possibile aprire la pagina **Righe di pianificazione progetto** per esaminare e registrare l'utilizzo delle varie parti del progetto. Queste informazioni vengono aggiornate automaticamente quando modifichi e trasferisci informazioni tra progetti e registrazioni progetti o fatture di progetto. Ciò richiede che sia stata attivato l'interruttore **Applica collegamento utilizzo per impostazione predefinita** nella pagina **Setup progetto**. Per ulteriori informazioni, vedere [Impostare progetti](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Ad esempio, per le righe di pianificazione di tipo **Budget**, puoi immettere la
 
 Di seguito viene descritto come registrare le quantità e i costi (previsti) effettivi con una registrazione progetti. In alternativa puoi utilizzare i documenti di acquisto per registrare l'acquisto per un progetto. Per ulteriori informazioni vedere [Gestire approvvigionamenti di progetti](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-project-planning-line-of-type-budget"></a>Per registrare l'utilizzo per una riga di pianificazione progetto di tipo Budget
+## Per registrare l'utilizzo per una riga di pianificazione progetto di tipo Budget
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Progetti**, quindi scegli il collegamento correlato.  
 2. Seleziona il progetto, quindi scegli l'azione **Righe pianificazione progetto**. 
@@ -42,7 +42,7 @@ Di seguito viene descritto come registrare le quantità e i costi (previsti) eff
 9. Nella pagina **Righe di pianificazione progetto**, esaminare l'utilizzo registrato osservando i campi **Quantità**, **Quantità residua** e **Qtà da trasferire per registrazione**.  
 10. Ripetere i passaggi da 3 a 8 per registrare altri utilizzi.  
 
-## <a name="to-create-project-journal-lines-manually"></a>Per creare righe di registrazione progetto manualmente
+## Per creare righe di registrazione progetto manualmente
 
 1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni progetti**, quindi scegli il collegamento correlato.  
 2. Nel campo **Nome batch** scegliere un batch di registrazioni progetti pertinente.  
@@ -51,7 +51,7 @@ Di seguito viene descritto come registrare le quantità e i costi (previsti) eff
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-project-usage-estimates-and-post-updates"></a>Per visualizzare le stime di utilizzo del progetto e gli aggiornamenti della registrazione
+## Per visualizzare le stime di utilizzo del progetto e gli aggiornamenti della registrazione
 
 È possibile visualizzare l'utilizzo del progetto fino al completamento di un progetto in un unico passaggio. A questo scopo, utilizzare il processo batch **Progetto - Calcolo utilizzo residuo** per tutte le attività fino al termine del progetto incluso.  
 
@@ -66,7 +66,7 @@ In questo modo è possibile tenere traccia e confrontare le stime iniziali rispe
 4. Aggiornare le registrazioni con tutte le necessarie modifiche.  
 5. Scegliere **Registra**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-project"></a>Creare documenti di prelievo di magazzino o di warehouse per un progetto
+## Creare documenti di prelievo di magazzino o di warehouse per un progetto
 
 Usare le azioni **Crea prelievo di magazzino** e **Crea prelievo warehouse** nella pagina **Scheda progetto**. Per creare o registrare un documento di prelievo, utilizzare le azioni **Righe stoccaggio/prelievo/movimento** o **Righe prelievo registrate**. Per ulteriori informazioni vedere [Flussi per produzione, assemblaggio e progetti](design-details-internal-warehouse-flows.md).
 
@@ -83,7 +83,7 @@ Usare le azioni **Crea prelievo di magazzino** e **Crea prelievo warehouse** nel
 > 
 > Se l'ubicazione è impostata in modo da richiedere l'elaborazione di prelievi e di spedizioni, indicando che hai scelto i campi **Richiesta prelievo** e **Richiesta spedizione** nella pagina **Scheda ubicazione**, usa la pagina **Prelievo warehouse** per gestire il prelievo. I prelievi warehouse sono simili ai prelievi in magazzino. La differenza è che, anziché pubblicare le informazioni sul prelievo, registri il prelievo. Questa registrazione non registra il consumo, ma rende gli articoli disponibili per la pubblicazione. Il responsabile di warehouse può utilizzare i prospetti prelievi per organizzare le informazioni di prelievo prima di creare le istruzioni di prelievo dalla singola warehouse
 
-## <a name="to-review-planning-lines-for-a-project-ledger-entry"></a>Per esaminare le righe di pianificazione per un movimento contabile progetto
+## Per esaminare le righe di pianificazione per un movimento contabile progetto
 
 Dopo avere registrato le righe di registrazione progetto, è possibile visualizzare le righe di pianificazione associate ai movimenti di registrazione progetto che sono stati registrati.
 
@@ -94,7 +94,7 @@ Dopo avere registrato le righe di registrazione progetto, è possibile visualizz
 2. Selezionare una registrazione progetti pertinente, quindi scegliere l'azione **Movimenti contabili**.  
 3. Nella pagina **Movimenti contabili progetto** scegliere l'azione **Mostra righe di pianificazione progetto collegate**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Dati finanziari](finance.md)  

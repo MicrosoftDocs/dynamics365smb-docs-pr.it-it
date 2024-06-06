@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-reports-and-analytics-in-business-central"></a>Report di assemblaggio e analisi in Business Central
+# Report di assemblaggio e analisi in Business Central
 
 Il report di assemblaggio in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti della produzione e aziendali di ottenere approfondimenti e statistiche sulle attività di montaggio attuali e passate.  
 
-## <a name="reports"></a>Report
+## Report
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## <a name="tasks"></a>Attività
+## Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
 * [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione assemblaggio](assembly-assemble-items.md)  
 [Utilizzare le distinte base di assemblaggio](assembly-how-work-assembly-boms.md)  

@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-and-fulfill-sales-orders"></a>Sincronizzare ed evadere gli ordini di vendita
+# Sincronizzare ed evadere gli ordini di vendita
 
 Questo articolo descrive le impostazioni e i passaggi necessari da eseguire per sincronizzare ed evadere gli ordini cliente con Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Impostare l'importazione di ordini nella scheda del punto vendita Shopify
+## Impostare l'importazione di ordini nella scheda del punto vendita Shopify
 
 Immetti un **Codice valuta** se il tuo negozio online utilizza una valuta diversa dalla valuta locale. La valuta specificata deve avere i tassi di cambio configurati. Se il tuo negozio online utilizza la stessa valuta di [!INCLUDE[prod_short](../includes/prod_short.md)], lascia il campo vuoto. 
 
@@ -52,7 +52,7 @@ Specifica un'ubicazione per i resi e i conti Co.Ge. per i rimborsi per merci e a
 
 Scopri di più su [Resi e rimborsi](synchronize-orders.md#returns-and-refunds)
 
-### <a name="shipment-method-mapping"></a>Mapping metodo spedizione
+### Mapping metodo spedizione
 
 Il **Codice metodo di spedizione** per documenti di vendita importati da Shopify può essere compilato automaticamente. Devi configurare il **Mapping metodo di spedizione**.
 
@@ -65,7 +65,7 @@ Il **Codice metodo di spedizione** per documenti di vendita importati da Shopify
 > [!NOTE]  
 > Se più spese di spedizione sono associate a un ordine cliente; solo uno verrà selezionato come metodo di spedizione e assegnato al documento di vendita.
 
-### <a name="location-mapping"></a>Mapping della posizione
+### Mapping della posizione
 
 Il mapping dell'ubicazione è necessaria per compilare il **Codice ubicazione** per le righe dei documenti di vendita importate da Shopify. Questa opzione è importante se l'interruttore **Posizione obbligatoria** è abilitato nella scheda **Configurazione inventario**, altrimenti non potrai creare documenti di vendita.
 
@@ -78,7 +78,7 @@ Il mapping dell'ubicazione è necessaria per compilare il **Codice ubicazione** 
 > [!NOTE]  
 > Il mapping della posizione viene utilizzata anche per sincronizzare l'inventario. Per ulteriori informazioni, vai a [Sincronizzare l'inventario con Shopify](synchronize-items.md#sync-inventory-to-shopify).
   
-## <a name="run-the-order-synchronization"></a>Eseguire la sincronizzazione degli ordini
+## Eseguire la sincronizzazione degli ordini
 
 Di seguito viene descritto come importare e aggiornare gli ordini di vendita.
 
@@ -102,7 +102,7 @@ In alternativa, puoi cercare il processo batch **Sincronizza ordini da Shopify**
 
 È possibile pianificare l'attività da eseguire automaticamente. Ulteriori informazioni su [Programmare le attività ricorrenti](background.md#to-schedule-recurring-tasks).
 
-### <a name="under-the-hood"></a>Informazioni dettagliate
+### Informazioni dettagliate
 
 Il connettore Shopify importa gli ordini in due fasi:
 
@@ -128,7 +128,7 @@ La pagina **Ordine Shopify da importare** è utile per la risoluzione dei proble
 * Elabora solo ordini specifici. Dovrai compilare il campo **Codice punto vendita**, selezionare uno o più ordini, quindi scegliere l'azione **Importa ordini selezionati**.
 * Elimina gli ordini dalla pagina **Ordine Shopify da importare** per escluderli dalla sincronizzazione.
 
-## <a name="review-imported-orders"></a>Esaminare gli ordini importati
+## Esaminare gli ordini importati
 
 Una volta completata l'importazione, puoi esplorare l'ordine Shopify e trovare tutte le informazioni correlate, come transazioni di pagamento, costi di spedizione, livello di rischio, attributi e tag o adempimenti se l'ordine è stato già adempiuto in Shopify. Puoi anche vedere la conferma di ogni ordine inviata al cliente scegliendo l'azione **Pagina di stato Shopify**.
 
@@ -139,11 +139,11 @@ Prima che i documenti di vendita vengano creati in [!INCLUDE[prod_short](../incl
 
 Puoi anche contrassegnare un ordine come pagato, il che è utile in uno scenario B2B in cui i pagamenti vengono elaborati al di fuori del checkout Shopify. Scegli l'azione **Contrassegna come pagato** nella pagina **Ordine Shopify**. Inoltre, puoi contrassegnare un ordine come annullato per avviare il flusso di rimborso in Shopify. Scegli l'azione **Annulla ordine** nella pagina **Ordine Shopify**, compila i campi come necessario nella pagina **Shopify Annulla Ordine** e premi **OK**. Dovrai eseguire la sincronizzazione degli ordini per importare gli aggiornamenti in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="create-sales-documents-in-business-central"></a>Creare documenti di vendita in Business Central
+## Creare documenti di vendita in Business Central
 
 Se l'opzione **Creazione automatica ordini** è abilitata nella **Scheda del punto vendita Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tenta di creare un documento di vendita dopo aver importato l'ordine. Se manca un cliente o un prodotto, dovrai risolvere il problema e quindi creare nuovamente l'ordine di vendita.
 
-### <a name="to-create-sales-documents"></a>Per creare i documenti di vendita
+### Per creare i documenti di vendita
 
 1. Scegli l'icona a forma di ![lampadina che apre la funzione Dimmi 1.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Punti vendita Shopify**, quindi scegli il collegamento correlato.
 2. Seleziona il punto vendita per il quale desideri sincronizzare gli ordini per l'apertura della pagina **Scheda del punto vendita Shopify**.
@@ -157,7 +157,7 @@ Viene creato un documento di vendita che può essere gestito utilizzando le funz
 
 Se desideri ricreare il documento di vendita, puoi utilizzare l'azione **Scollega documenti elaborati** nella pagina **Ordine Shopify**. Tieni presente che questa azione non elimina il documento di vendita già creato. Devi elaborarlo manualmente.
 
-### <a name="manage-missing-customers"></a>Gestire i clienti mancanti
+### Gestire i clienti mancanti
 
 Se le tue impostazioni impediscono la creazione automatica di un cliente e non è possibile trovare un cliente corrispondente, dovrai assegnare un cliente a un ordine Shopify manualmente. Esistono alcuni modi per assegnare clienti a ordini:
 
@@ -165,7 +165,7 @@ Se le tue impostazioni impediscono la creazione automatica di un cliente e non �
 * Selezionare un codice cliente, quindi creare e assegnare il cliente tramite l'azione **Crea nuovo cliente** nella pagina **Ordini Shopify**. Il cliente Shopify deve avere almeno un indirizzo. Gli ordini creati tramite il canale di vendita Shopify POS spesso non includono i dettagli dell'indirizzo.
 * Mappare il cliente esistente al relativo **Cliente Shopify** nella pagina **Clienti Shopify** e quindi scegliere l'azione **Trova mapping** nella pagina **Ordini Shopify**.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>In che modo il connettore sceglie quale cliente usare
+### In che modo il connettore sceglie quale cliente usare
 
 La funzione *Importa ordine da Shopify* cerca di selezionare i clienti nel seguente ordine:
 
@@ -183,7 +183,7 @@ I prossimi passaggi dipendono dal **Tipo di mapping cliente**.
 
 Per gli ordini B2B il flusso è simile, sebbene il connettore utilizzi **Nr. società predefinita**, **Importazione società da Shopify**, **Tipo di mapping società** nella pagina **Scheda punto vendita Shopify**. Si noti che non esiste **Nr. società predefinita** nel **Modello cliente Shopify** poiché per il B2B è prevista la presenza di clienti nominativi.
 
-### <a name="different-processing-rules-for-orders"></a>Diverse regole di elaborazione per gli ordini
+### Diverse regole di elaborazione per gli ordini
 
 Potresti voler elaborare gli ordini in modo diverso in base a una regola. Ad esempio, gli ordini da un canale di vendita specifico, come il POS, dovrebbero utilizzare il cliente predefinito, ma desideri che il tuo negozio online disponga di informazioni reali sul cliente.
 
@@ -205,7 +205,7 @@ Ciascuna coda di lavoro importerà ed elaborerà gli ordini all'interno dei filt
 > [!Important]
 > Per evitare conflitti durante l'elaborazione degli ordini, utilizza la stessa categoria della coda lavori per entrambe le voci della coda lavori.
 
-### <a name="impact-of-order-editing"></a>Impatto delle modifiche degli ordini
+### Impatto delle modifiche degli ordini
 
 In Shopify:
 
@@ -237,7 +237,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 |Aumenta la quantità. Registra spedizione. | L'evasione non verrà sincronizzata con Shopify. Lo stesso se l'evasione fosse suddivisa in Shopify ma elaborata come riga in [!INCLUDE[prod_short](../includes/prod_short.md)]. |
 |Aggiungi un nuovo articolo. Registra spedizione. | L'ordine in Shopify sarà contrassegnato come evaso. Non verranno aggiunte nuove righe. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Sincronizzare le spedizioni con Shopify
+## Sincronizzare le spedizioni con Shopify
 
 Quando un ordine cliente creato da un ordine Shopify viene spedito, è possibile sincronizzare le spedizioni con Shopify.
 
@@ -256,7 +256,7 @@ In alternativa, utilizza l'azione **Sincronizza spedizioni** in Ordini di vendit
 
 Ricordati di eseguire **Sincronizza ordini da Shopify** per aggiornare lo stato di evasione di un ordine in [!INCLUDE[prod_short](../includes/prod_short.md)]. La funzionalità del connettore archivia anche gli ordini completamente pagati ed evasi in Shopify e [!INCLUDE[prod_short](../includes/prod_short.md)] purché le condizioni siano soddisfatte. 
 
-### <a name="shipping-agents-and-tracking-url"></a>Agenti di spedizione e URL di tracciamento
+### Agenti di spedizione e URL di tracciamento
 
 Se il documento **Spedizione vendita registrate** contiene il **codice Spedizioniere** e/o il **Numero di tracciabilità del pacco**, queste informazioni saranno inviate a Shopify e al cliente nell'e-mail di conferma della spedizione.
 
@@ -268,7 +268,7 @@ La società di tracciamento viene popolata in base allo spedizioniere con le seg
 
 Se il campo **URL tracciabilità pacchetto** è compilato per il record dello spedizioniere, la conferma della spedizione conterrà anche un URL di tracciamento.
 
-## <a name="returns-and-refunds"></a>Resi e rimborsi
+## Resi e rimborsi
 
 In un'integrazione tra Shopify e [!INCLUDE[prod_short](../includes/prod_short.md)], è importante poter sincronizzare quanti più dati aziendali possibile. Ciò semplifica l'aggiornamento dei livelli finanziari e di magazzino in [!INCLUDE[prod_short](../includes/prod_short.md)]. I dati che puoi sincronizzare includono resi e rimborsi che sono stati registrati in Amministra Shopify o POS Shopify.
 
@@ -290,7 +290,7 @@ Le transazioni finanziarie e, se necessario, di magazzino vengono elaborate tram
 > [!Note]
 > Le posizioni di reso, comprese le posizioni vuote, definite in **Scheda punto vendita Shopify** viene utilizzata sulla nota di credito creata. Il sistema ignora le ubicazioni originali dagli ordini o dalle spedizioni.
 
-## <a name="gift-cards"></a>Buoni regalo
+## Buoni regalo
 
 Nel punto vendita Shopify puoi vendere buoni regalo, che possono essere utilizzati per pagare prodotti reali.
 
@@ -298,6 +298,6 @@ Quando si tratta di buoni regalo, è importante inserire un valore nel campo **C
 
 Per rivedere i buoni regalo emessi e applicati, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") e immetti **Buoni regalo**, quindi scegli il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Introduzione al connettore Shopify](get-started.md)  

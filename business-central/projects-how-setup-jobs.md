@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-projects-prices-and-project-posting-groups"></a>Impostare progetti, prezzi e categorie di registrazioni progetti
+# Impostare progetti, prezzi e categorie di registrazioni progetti
 
 In veste di project manager, è possibile configurare i progetti che definiscono ogni progetto gestito in [!INCLUDE[prod_short](includes/prod_short.md)]. Utilizza la pagina **Setup progetto** per definire come utilizzerai le funzionalità del progetto.
 
@@ -22,7 +22,7 @@ Per ogni progetto, specifica varie informazioni:
 * Conti C/G progetto
 * Categorie di registrazioni progetti (obbligatorio)
 
-## <a name="to-set-general-information-for-projects"></a>Per impostare informazioni generali per progetti
+## Per impostare informazioni generali per progetti
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup progetto**, quindi scegli il collegamento correlato.
 2. Compila i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Per ogni progetto, specifica varie informazioni:
 > [!NOTE]
 > L'interruttore **Applica collegamento utilizzo per default** nella pagina **Setup progetti** indica se i movimenti contabili del progetto sono collegati alle righe di pianificazione progetto per impostazione predefinita. Attiva l'interruttore per applicare questa impostazione a tutti i nuovi progetti. Puoi abilitare o disabilitare il monitoraggio dell'utilizzo dei progetti per un progetto specifico abilitando o disabilitando l'interruttore **Applica collegamento utilizzo** nella pagina **Scheda progetto**.
 
-### <a name="specify-a-default-location-for-project-items"></a>Specificare un'ubicazione predefinita per gli articoli del progetto
+### Specificare un'ubicazione predefinita per gli articoli del progetto
 
 Puoi risparmiare tempo nell'immissione dei dati specificando un'ubicazione e una collocazione predefinite per i progetti nella pagina **Scheda progetto** . Quando crei attività di progetto, righe di pianificazione progetto e righe di registrazione progetto per il progetto, l'ubicazione e la collocazione predefinite vengono assegnati automaticamente. Se necessario, puoi tuttavia modificare il codice ubicazione e la collocazione nelle attività e nelle righe.
 
@@ -44,11 +44,11 @@ Ci sono alcune cose da sapere sull'utilizzo delle ubicazioni predefinite:
 * Per le righe di pianificazione progetto, il **Codice ubicazione** si basa sul valore selezionato nella riga di pianificazione progetto quando selezioni un articolo. Se non è definito un codice collocazione per l'attività di progetto, viene selezionata la collocazione dal contenuto collocazione predefinito. Puoi modificare entrambi i valori manualmente.
 * Per le righe di registrazione progetto, il **Codice ubicazione** si basa sul valore selezionato nella riga di registrazione commesse quando selezioni un articolo. Se un codice collocazione non è definito per l'attività di progetto, viene selezionata la collocazione dal contenuto collocazione predefinito. Puoi modificare entrambi i valori manualmente.
 
-### <a name="invoice-multiple-customers-for-project-tasks"></a>Fatturare a più clienti per attività di progetto
+### Fatturare a più clienti per attività di progetto 
 
 Quando i progetti comportano più clienti, fatturare ai clienti giusti le attività appropriate può risultare difficile. [!INCLUDE [prod_short](includes/prod_short.md)] rende la fatturazione meno complessa consentendoti di specificare i clienti a cui fatturare e a cui vendere su ciascuna riga di attività di progetto, in modo da poter generare automaticamente fatture per i clienti corretti. Per ulteriori informazioni sulla fatturazione a più clienti, vedi [Fatturare a uno o più clienti per attività di progetto](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>Per impostare la tracciabilità dell'utilizzo di un progetto
+### Per impostare la tracciabilità dell'utilizzo di un progetto
 
 Quando lavori su un progetto, è possibile che tu voglia sapere come viene eseguita la tracciabilità dell'utilizzo rispetto al piano. Per esplorare l'uso puoi creare un collegamento tra le righe di pianificazione progetto e l'utilizzo effettivo. Il collegamento ti consente di monitorare i tuoi costi e capire il lavoro residuo da svolgere. Per impostazione predefinita, il tipo di riga di pianificazione progetto è **Budget**, ma utilizzando il tipo di riga **Budget e fatturabile** si ottengono effetti simili.
 
@@ -62,7 +62,7 @@ Dopo aver impostato la tracciabilità dell'utilizzo abilitando l'interruttore **
 > [!IMPORTANT]
 > Se non specifichi un valore nel campo **Tipo riga** nella riga di registrazione progetto o nella riga acquisto, non viene creata alcuna riga di pianificazione progetto quando si registra la registrazione progetto o il documento di acquisto.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>Per impostare i prezzi per risorse, articoli e conti di contabilità generale per progetti
+## Per impostare i prezzi per risorse, articoli e conti di contabilità generale per progetti
 
 > [!NOTE]
 > Nel secondo ciclo di rilascio del 2020 sono stati rilasciati nuovi processi per l'impostazione e la gestione di prezzi e sconti. I nuovi clienti trarranno vantaggio dalla nuova esperienza. Per i clienti esistenti, l'utilizzo della nuova esperienza dipende da se l'amministratore ha o meno abilitato l'aggiornamento della funzionalità **Nuova esperienza prezzo di vendita** in **Gestione funzionalità**. Per ulteriori informazioni, vedere [Abilitazione di funzionalità imminenti in anticipo](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -90,7 +90,7 @@ Quando scegli una risorsa, un articolo o un conto di contabilità generale per u
 
 ---
 
-## <a name="to-set-up-project-posting-groups"></a>Per impostare le categorie di registrazione progetti
+## Per impostare le categorie di registrazione progetti
 
 Un aspetto della pianificazione dei progetti è decidere quali conti di registrazione utilizzare per il costing dei progetti. Perché sia possibile registrare commesse, è necessario impostare conti per la registrazione per ciascuna categoria di registrazione progetti. La categoria di registrazione rappresenta un collegamento tra il progetto e come deve essere considerata nella contabilità generale. Quando si crea un progetto, si specifica una categoria di registrazione e, per impostazione predefinita, ogni attività che crei per il progetto viene associata a tale categoria di registrazione. Tuttavia, quando si creano i task, è possibile sostituire l'impostazione di default e selezionare una categoria di registrazione più appropriata.  
 
@@ -118,7 +118,7 @@ Un aspetto della pianificazione dei progetti è decidere quali conti di registra
 | **Conto costi riconosciuti** |Conto spesa contenente i costi riconosciuti per il progetto. In genere si tratta di un conto di addebito. | Costi riconosciuti|
 | **Conto vendite riconosciute** |Conto economico contenente le entrate riconosciute per il progetto. In genere si tratta di un conto di accredito. | Vendite riconosciute|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare la gestione dei progetti](projects-setup-projects.md)  
 [Video: Come creare un progetto in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

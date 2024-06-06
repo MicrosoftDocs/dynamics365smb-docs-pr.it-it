@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-projects"></a>Creare progetti
+# Creare progetti
 
 Quando si inizia un nuovo progetto, è necessario creare una scheda progetto con le attività di progetto e le righe di pianificazione progetto integrate. La scheda è strutturata su due livelli.  
 
@@ -24,7 +24,7 @@ La struttura a livelli consente di dividere il progetto in attività meno comple
 > [!TIP]
 > Scegliere l'azione **Nuovo progetto** in Gestione ruolo utente **Manager progetto** per avviare una guida al setup assistito che consente di creare un progetto con attività e righe di pianificazione integrati. Di seguito viene descritto come eseguire i passaggi manualmente. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Fatturare a uno o più clienti per attività di progetto
+## Fatturare a uno o più clienti per attività di progetto
 
 A volte la parte a cui è rivolto un servizio è diversa dalla parte che pagherà la fattura. Inoltre, a volte potrebbe essere necessario fatturare a più clienti per le attività nel progetto. Nella pagina **Scheda progetto**, utilizza il campo **Metodo di fatturazione delle attività** per specificare se stai fatturando a un cliente o a più clienti.
 
@@ -36,7 +36,7 @@ Se stai fatturando a più clienti, puoi specificare il cliente che riceverà il 
 * Aggiungi informazioni su riferimenti esterni per semplificare la comunicazione sul progetto.
 * Sovrascrivi i termini finanziari standard del progetto.
 
-## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Fatturare a un cliente per molteplici attività di progetto
+## Fatturare a un cliente per molteplici attività di progetto
 
 Puoi semplificare il processo di fatturazione inviando una fattura a un cliente per più progetti. Aggiungi righe di pianificazione progetto da più progetti a una fattura di vendita in una volta sola. Questo processo è simile alla creazione di una fattura di vendita da una riga di pianificazione progetto e all'immissione di un valore nel campo **Aggiungi a nr. fattura vendita**.
 
@@ -54,7 +54,7 @@ Ripeti questi passaggi se vuoi aggiungere un altro set di righe di pianificazion
 > * L'azione **Ottieni righe di pianificazione progetto** non è disponibile negli ordini cliente o nelle offerte di vendita.
 > * Non puoi filtrare in base ai campi **Codice di spedizione** o **Nr. contatto** .
 
-## <a name="to-create-a-project-card"></a>Per creare una scheda progetto
+## Per creare una scheda progetto
 
 Crea una scheda progetto e quindi righe di attività di progetto e le relative righe di pianificazione progetto.
 
@@ -73,7 +73,7 @@ Facoltativamente, contrassegna le azioni sul progetto come bloccate utilizzando 
 |Registrazione    |È possibile utilizzare le righe di pianificazione, ma il progetto è bloccato ai fini della registrazione. Se si sceglie questa opzione, non è possibile registrare alcun utilizzo o vendita nel progetto.|
 |Tutto  |Sono bloccate tutte le azioni.|
 
-## <a name="to-create-tasks-for-a-project"></a>Per creare attività per un progetto
+## Per creare attività per un progetto
 
 Una parte fondamentale nella creazione di un progetto consiste nello specificare le varie attività implicate nel progetto. Specifica le attività creando una riga per attività nella Scheda dettaglio **Attività** della pagina **Scheda progetto**. Ogni progetto deve avere almeno un'attività.
 
@@ -84,7 +84,7 @@ Una parte fondamentale nella creazione di un progetto consiste nello specificare
 5. Ripetere i passaggi 3 e 4 per le attività necessarie per il progetto.
 6. Per specificare le attività di progetto con informazioni di altri attività di progetto, scegliere l'azione **Copia attività di progetto da**, compilare i campi necessari, quindi scegliere il pulsante **OK**.
 
-## <a name="to-create-planning-lines-for-a-project"></a>Per creare righe di pianificazione per un progetto
+## Per creare righe di pianificazione per un progetto
 
 È possibile perfezionare le nuove attività di progetto nelle righe di pianificazione progetto. Una riga di pianificazione può acquisire le informazioni di cui si desidera tenere traccia per un progetto. Ad esempio, puoi tenere traccia delle risorse richieste dal processo o degli articoli necessari. Ad esempio, disponi di un'attività affinché un cliente approvi un progetto. È possibile associare l'attività alle righe di pianificazione per articoli quali la riunione con il cliente e l'assegnazione di una risorsa.  
 
@@ -105,7 +105,7 @@ Una riga di pianificazione progetto può avere uno dei seguenti tipi.
 4. Nella pagina **Righe di pianificazione progetto**, in una nuova riga compila i campi come necessario.
 5. Ripetere i passaggi 3 e 4 per tutte le righe di pianificazione necessarie per l'attività di progetto.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Video: Come creare un progetto in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
