@@ -10,13 +10,13 @@ ms.date: 12/13/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Procedura dettagliata: Calcolo del valore WIP per un progetto
+# <a name="walkthrough-calculating-work-in-process-for-a-project"></a>Procedura dettagliata: Calcolo del valore WIP per un progetto
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Con un progetto, è possibile pianificare l'impiego delle risorse dell'azienda e tenere traccia dei vari costi connessi all'impiego delle risorse in un progetto specifico. Un progetto implica il consumo di ore di lavoro del personale, ore macchina, articoli a magazzino e altri tipi di utilizzo che devono essere monitorati durante l'esecuzione del progetto. Se un progetto si protrae per lungo tempo, potrebbe essere opportuno trasferire questi costi a un conto WIP (Work in Process, ovvero semilavorati) nel conto patrimoniale fino al completamento del progetto. Sarà possibile riconoscere conti e vendite nel conto economico quando opportuno.  
 
-## Informazioni sulla procedura dettagliata
+## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
 
  In questa procedura dettagliata sono illustrati i task seguenti:  
 
@@ -28,19 +28,19 @@ Con un progetto, è possibile pianificare l'impiego delle risorse dell'azienda e
 
  In ogni fase della procedura viene calcolato il valore del WIP e le transazioni del progetto sono trasferite alla contabilità generale. Le fasi di calcolo e registrazione sono state separate per consentire all'utente di rivedere i dati e apportarvi modifiche prima di procedere alla registrazione nella contabilità generale. Pertanto, dopo aver eseguito i processi batch di calcolo e prima di effettuare i processi batch di registrazione, è necessario controllare che tutti i dati siano corretti.  
 
-## Ruoli
+## <a name="roles"></a>Ruoli
 
  Questa procedura dettagliata è svolta da un membro del team (Cinzia Di Marco).  
 
-## Prerequisiti
+## <a name="prerequisites"></a>Prerequisiti
 
  Prima di svolgere le attività di questa procedura dettagliata, è necessario installare [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Scenario
+## <a name="story"></a>Scenario
 
  Questa procedura dettagliata è incentrata su CRONUS International Ltd., una società che si occupa di progettazione, consulenza e installazione di nuove infrastrutture, ad esempio aule conferenze e uffici, complete di mobilia e accessori. La maggior parte di lavoro in CRONUS è svolto sulla base di un progetto e Cinzia, un membro del team di progetto, utilizza il progetto per avere una panoramica dei progetti in corso avviati da CRONUS e di quelli completati. Una parte del progetto può risultare lunga e può durare mesi. Cinzia può utilizzare un conto WIP per registrare i semilavorati e per tenere traccia dei costi in varie parti del progetto.  
 
-## Calcolo del WIP
+## <a name="calculating-wip"></a>Calcolo del WIP
 
  CRONUS ha preso in carico un lungo progetto che si sta estendendo su più periodi contabili. Cinzia, un membro del team di progetto, calcola il WIP per garantire l'accuratezza del rendiconto finanziario della società.  
 
@@ -56,7 +56,7 @@ Con un progetto, è possibile pianificare l'impiego delle risorse dell'azienda e
 
  Nella seguente procedura dettagliata, Cinzia applica il metodo Valore costo, lo standard della società, per calcolare il WIP. Cinzia specifica la parte del progetto da includere nel calcolo WIP assegnando dei valori WIP-Totale a varie righe di attività di progetto.  
 
-### Per calcolare il WIP  
+### <a name="to-calculate-wip"></a>Per calcolare il WIP
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Progetto**, quindi scegli il collegamento correlato.  
 2. Nell'elenco **Progetti** selezionare il progetto **Chernelli**, quindi scegliere l'azione **Modifica**. Viene visualizzata la Scheda progetto in modalità di modifica.  
@@ -88,7 +88,7 @@ Con un progetto, è possibile pianificare l'impiego delle risorse dell'azienda e
 
  Si noti che il valore **Importo costi ricon.** è 215,60 nella colonna **Da registrare**. Ciò riflette i costi totali di due degli articoli nel gruppo di attività di progetto 1110 a 1130. Il terzo articolo è stato impostato su **Escluso** e quindi non è incluso nel calcolo del WIP.  
 
-### Per esaminare gli avvisi WIP  
+### <a name="to-review-wip-warnings"></a>Per esaminare gli avvisi WIP
 
 1.  Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pannello di controllo WIP progetto**, quindi scegli il collegamento correlato.  
 2.  Selezionare il progetto **Chernelli**, quindi scegliere l'azione **Mostra avvisi**.  
@@ -96,7 +96,7 @@ Con un progetto, è possibile pianificare l'impiego delle risorse dell'azienda e
 
  Dopo il periodo contabile, Cinzia deve ricalcolare il WIP per includervi il lavoro completato finora.  
 
-### Per ricalcolare il WIP  
+### <a name="to-recalculate-wip"></a>Per ricalcolare il WIP
 
 1. Nella pagina **Scheda progetto**, scegliere l'azione **Movimenti WIP** per visualizzare il calcolo del WIP.  
 
@@ -108,11 +108,11 @@ Con un progetto, è possibile pianificare l'impiego delle risorse dell'azienda e
 > [!NOTE]  
 > Il WIP e il corrispettivo vengono calcolati ma non vengono registrati nella contabilità generale. A tale scopo, è necessario eseguire il processo batch **Registra WIP in C/G** dopo aver calcolato il WIP e il corrispettivo.
 
-## Registrazione del WIP nella contabilità generale
+## <a name="posting-wip-to-general-ledger"></a>Registrazione del WIP nella contabilità generale
 
  Ora che il WIP per il progetto è stato calcolato, è possibile registrarlo nella contabilità generale.  
 
-### Per registrare il WIP nella contabilità generale  
+### <a name="to-post-wip-to-general-ledger"></a>Per registrare il WIP nella contabilità generale
 
 1. Nell'elenco **Progetti** selezionare il progetto **Chernelli**.  
 2. Scegliere l'azione **WIP**, quindi scegliere l'azione **Registra WIP in C/G**.  
@@ -132,11 +132,11 @@ Con un progetto, è possibile pianificare l'impiego delle risorse dell'azienda e
 10. Nella Scheda dettaglio **WIP e corrispettivo**, si noti che nella colonna **Registrato** il campo **Importo C/G costi ricon.** ora è compilato, il che indica che il WIP è stato correttamente registrato nella contabilità generale.  
 11. Scegliere il pulsante **OK** per chiudere la scheda.  
 
-## Storno di una registrazione WIP
+## <a name="reversing-a-wip-posting"></a>Storno di una registrazione WIP
 
  Cinzia si accorge che le attività di progetto escluse dal calcolo del WIP avrebbero dovuto essere calcolate nel WIP. Cinzia può stornare le registrazioni errate senza dover contabilizzare nuove registrazioni WIP.  
 
-### Per stornare una registrazione WIP  
+### <a name="to-reverse-a-wip-posting"></a>Per stornare una registrazione WIP
 
 1. Nell'elenco **Progetti** selezionare il progetto **Chernelli**.  
 2. Scegliere l'azione **WIP**, quindi scegliere l'azione **Registra WIP in C/G**.  
@@ -155,11 +155,11 @@ Con un progetto, è possibile pianificare l'impiego delle risorse dell'azienda e
     > [!NOTE]  
     >  Si supponga che Cinzia abbia calcolato e registrato il WIP per un progetto con date errate. Seguendo il metodo che è stato discusso in precedenza, Cinzia può stornare le registrazioni errate, correggerne le date e registrarle nuovamente nella contabilità generale.  
 
-## Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 
  In questa procedura dettagliata sono stati svolti i passaggi del calcolo del WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In progetti più grandi, potrebbe essere utile trasferire periodicamente i costi a un conto WIP fino al completamento del progetto. In questa procedura dettagliata è stato illustrato come escludere le righe di task dal calcolo. È stato inoltre illustrato quando è necessario ricalcolare. Infine, è stato descritto come registrare il WIP nella contabilità generale. Inoltre è incluso un esempio di come stornare una registrazione WIP nella contabilità generale.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
  [Procedura dettagliata: Gestione dei progetti](walkthrough-managing-projects-with-jobs.md)  

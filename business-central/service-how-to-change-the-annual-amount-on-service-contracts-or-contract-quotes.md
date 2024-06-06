@@ -9,10 +9,10 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Modificare l'importo annuo dei contratti di assistenza o delle offerte di contratto
 È possibile modificare l'importo annuo del contratto di assistenza o dell'offerta di contratto per correggere l'importo da fatturare annualmente.  
 
-## Per modificare l'importo annuo del contratto di assistenza o dell'offerta di contratto  
+## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Per modificare l'importo annuo del contratto di assistenza o dell'offerta di contratto
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Contratti assistenza** o **Offerte contratto assistenza**, quindi seleziona il collegamento correlato.  
 2. Scegliere l'offerta di contratto o il contratto.  
@@ -21,14 +21,14 @@ ms.service: dynamics-365-business-central
 5. Modificare il contenuto del campo **Importo Annuo**. Non è possibile firmare, ovvero convertire in un contratto di assistenza se si utilizza un'offerta di contratto, né bloccare un contratto di assistenza se l'importo annuo è negativo. Se si azzera l'importo annuo, il contenuto del campo **Periodo di Fatturazione** deve essere **Nessuno** quando si firma o si blocca il contratto di assistenza.  
 6. A seconda che la casella di controllo **Permetti differenza importo** sia selezionata o meno, eseguire la ripartizione manuale o automatica della differenza di importo annuo. Le righe di contratto verranno aggiornate in modo che il valore del campo **Importo annuo calcolato** sia uguale al nuovo importo annuo.  
 
-## Differenze di distribuzione tra gli importi annui nuovo e calcolato
+## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Differenze di distribuzione tra gli importi annui nuovo e calcolato
 Se si modifica l'importo annuo di un contratto di assistenza o dell'offerta di contratto, è possibile ripartire la differenza tra il nuovo importo annuo e l'importo annuo calcolato nelle righe di contratto. Esistono tre modi ripartire gli importi:
 
 * Ripartizione livellata  
 * Ripartizione basata sugli importi riga  
 * Ripartizione basata sul margine
 
-### Ripartizione livellata
+### <a name="even-distribution"></a>Ripartizione livellata
 Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di contratto, è possibile che sia necessario ripartire la differenza tra il nuovo importo annuo e l'importo annuo calcolato nelle righe di contratto. La ripartizione livellata è uno dei metodi di ripartizione automatica che consente di ripartire equamente la differenza degli importi annui nuovo e calcolato tra gli importi delle righe nelle righe di contratto. I passaggi riportati di seguito descrivono la procedura di ripartizione.  
 
 1. La differenza tra il nuovo valore del campo **Importo annuo** e il valore del campo **Importo annuo calcolato** viene divisa per il numero delle righe di contratto presenti nel contratto di assistenza o nell'offerta di contratto.  
@@ -40,7 +40,7 @@ Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di con
 
  I passaggi vengono ripetuti per ogni riga di contratto.  
 
-#### Esempio  
+#### <a name="example"></a>Esempio
 La casella di controllo **Permetti differenza importo** non viene selezionata nel contratto di assistenza contenente tre righe di contratto con tali informazioni.  
 
 |Articolo|Costo Riga|Valore Riga|% Sconto Riga|Importo Sconto Riga|Importo Riga|Margine|  
@@ -61,7 +61,7 @@ Al termine, le righe di contratto conterranno i seguenti dati.
 |Articolo 2|40,00|50.00|16.00|8.00|42.00|2.00|  
 |Articolo 3|50.00|70.00|14.29|10.00|60.00|10.00|  
 
-### Ripartizione basata sull'importo riga
+### <a name="distribution-based-on-line-amount"></a>Ripartizione basata sull'importo riga
 Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di contratto, è possibile che sia necessario ripartire la differenza tra il nuovo importo annuo e l'importo annuo calcolato nelle righe di contratto. La ripartizione basata sull'importo riga è un metodo automatico che consente di ripartire la differenza degli importi annui nuovo e calcolato tra gli importi delle righe nelle righe di contratto. Questa ripartizione viene eseguita proporzionalmente alle quote degli importi delle righe sull'importo annuo calcolato. I passaggi riportati di seguito descrivono la procedura di ripartizione per ogni riga di contratto.  
 
 1. Il contributo percentuale dell'importo riga viene calcolato dividendo il contenuto del campo **Importo riga** per i valori del campo **Importo annuo calcolato** in tutte le righe di contratto.  
@@ -74,7 +74,7 @@ Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di con
 
 I passaggi vengono ripetuti per ogni riga di contratto.  
 
-#### Esempio  
+#### <a name="example-1"></a>Esempio
 La casella di controllo **Permetti differenza importo** non viene selezionata nel contratto di assistenza contenente tre righe di contratto con tali informazioni.  
 
 |Articolo|Costo Riga|Valore Riga|% Sconto Riga|Importo Sconto Riga|Importo Riga|Margine|  
@@ -101,7 +101,7 @@ Al termine, le righe di contratto conterranno i seguenti dati.
 |Articolo 2|20,00|23.00|8.65|1.99|21.01|1.01|  
 |Articolo 3|24.00|27.00|11.37|3.07|23.93|-0,07|  
 
-### Ripartizione basata sul margine
+### <a name="distribution-based-on-profit"></a>Ripartizione basata sul margine
 Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di contratto, è possibile che sia necessario ripartire la differenza tra il nuovo importo annuo e l'importo annuo calcolato nelle righe di contratto. La ripartizione basata sul margine è uno dei metodi di ripartizione automatica che consente di ripartire la differenza degli importi annui nuovo e calcolato tra gli importi delle righe nelle righe di contratto. Questa ripartizione viene eseguita proporzionalmente alle relative quote di margine sul margine totale del contratto o dell'offerta di contratto. I passaggi riportati di seguito descrivono la procedura di ripartizione per ogni riga di contratto.  
 
 1. Il contributo percentuale del margine viene calcolato dividendo il contenuto del campo **Margine** per la somma dei valori del campo **Margine** in tutte le righe di contratto.  
@@ -112,7 +112,7 @@ Se si modifica l'importo annuo del contratto di assistenza o dell'offerta di con
     * % sconto riga = Importo sconto riga / Valore riga * 100  
     * Margine = Importo riga - Costo riga  
 
-#### Esempio  
+#### <a name="example-2"></a>Esempio
 La casella di controllo **Permetti differenza importo** non viene selezionata nel contratto di assistenza contenente tre righe di contratto con tali informazioni.  
 
 |Articolo|Costo Riga|Valore Riga|% Sconto Riga|Importo Sconto Riga|Importo Riga|Margine|  
@@ -139,7 +139,7 @@ Al termine, le righe di contratto conterranno i seguenti dati.
 |Articolo 2|50.00|58.00|9.93|5.76|52.24|2.24|  
 |Articolo 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## Vedi anche  
+## <a name="see-also"></a>Vedi anche
 [Creare contratti e offerte di contratto di assistenza](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  
 

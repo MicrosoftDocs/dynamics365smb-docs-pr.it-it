@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Emettere pagamenti fornitori ed effetti clienti
+# <a name="issue-vendor-payments-and-customer-bills"></a>Emettere pagamenti fornitori ed effetti clienti
 
 La funzionalità di pagamento degli effetti cliente e fornitore supporta i formati SEPA oltre ai formati di file italiani. È possibile pagare i fornitori in base al bonifico SEPA standard e riscuotere i pagamenti dai clienti in base al metodo di addebito diretto SEPA standard. Di seguito viene descritto il processo per l'invio del pagamento a un fornitore con bonifico SEPA. I passaggi sono simili per la riscossione del pagamento da un cliente.  
 
@@ -23,7 +23,7 @@ Prima di avviare la seguente procedura, controllare che le informazioni sulla ba
 
 Inoltre, occorre inserire una fattura di acquisito registrata e con cui è possibile inviare un pagamento.  
 
-## Per emettere il pagamento per un fornitore  
+## <a name="to-issue-payment-to-a-vendor"></a>Per emettere il pagamento per un fornitore
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fornitori**, quindi scegli il collegamento correlato.  
 2. Selezionare il fornitore al quale si desidera inviare il pagamento. Nella Scheda dettaglio **Pagamento**, nel campo **Codice metodo di pagamento** scegliere l'opzione **TRASFBANC**.
@@ -47,7 +47,7 @@ Inoltre, occorre inserire una fattura di acquisito registrata e con cui è possi
 
 È possibile visualizzare il file XML prima di inviarlo. Per esaminare e correggere gli errori, è possibile fare riferimento al riquadro Dettaglio informazioni **Errori esportazione file**.  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Creare movimenti riscossione addebiti diretti SEPA ed esportarli in un file della banca](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)
 

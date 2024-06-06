@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Come usare i workflow di approvazione
+# <a name="how-to-use-approval-workflows"></a>Come usare i workflow di approvazione
 
 Quando un record, ad esempio un documento di acquisto o una scheda cliente, deve essere approvato da una persona della propria organizzazione, inviare una richiesta di approvazione come parte di un flusso di lavoro. In base all'impostazione del flusso di lavoro, al responsabile dell'approvazione appropriato viene inviata una notifica relativa alla richiesta di approvazione del record.
 
@@ -21,7 +21,7 @@ Oltre ai workflow di approvazione descritti in questo articolo, è possibile ese
 
 I workflow di approvazione principali dei documenti di acquisto e vendita, le registrazioni dei pagamenti, le schede cliente e le schede articolo sono un punto di inizio per la guida al setup assistito. Ulteriori informazioni in [Prepararsi a fare affari](ui-get-ready-business.md).
 
-## Richiesta di un'approvazione di record
+## <a name="request-a-record-approval"></a>Richiesta di un'approvazione di record
 
 La seguente attività viene eseguita da un utente approvazione.
 
@@ -32,7 +32,7 @@ Lo stato del movimento di approvazione viene aggiornato da **Creato** ad **Apert
 
 Quando tutti i responsabili dell'approvazione hanno approvato il record, lo stato viene impostato su **Rilasciato**. È quindi possibile continuare a lavorare con i record.
 
-## Annullare le richieste di approvazione
+## <a name="cancel-approval-requests"></a>Annullare le richieste di approvazione
 
 La seguente attività viene eseguita da un utente approvazione con diritti di approvazione.
 
@@ -42,7 +42,7 @@ La seguente attività viene eseguita da un utente approvazione con diritti di ap
 
 Una volta che la richiesta di approvazione è stata annullata, lo stato della voce di approvazione correlata viene impostato automaticamente su **Annullato**. Lo stato del record viene aggiornato da **Approvazione in sospeso** ad **Aperto**. A questo punto, il processo di approvazione può essere avviato nuovamente.
 
-## Approvare o rifiutare le richieste di approvazione
+## <a name="approve-or-reject-approval-requests"></a>Approvare o rifiutare le richieste di approvazione
 
 La seguente attività viene eseguita da un utente approvazione con diritti di approvazione.
 
@@ -58,7 +58,7 @@ Se è impostata una gerarchia di responsabili, lo stato del record è impostato 
 
 Contemporaneamente, lo stato di approvazione cambierà da **Creato** ad **Aperto** non appena verrà creata una richiesta di approvazione per il record. Se la richiesta viene rifiutata, lo stato di approvazione diventa **Rifiutato**. Lo stato rimane **Aperto** o **Rifiutato** fino a quando tutti i responsabili non hanno approvato la richiesta.
 
-## Delega richieste di approvazione
+## <a name="delegate-approval-requests"></a>Delega richieste di approvazione
 
 La seguente attività viene eseguita da un utente approvazione con diritti di approvazione.
 
@@ -69,7 +69,7 @@ Per impedire l'accumularsi dei record o un eventuale altro blocco del flusso di 
 
 Viene inviata una notifica nella quale viene chiesto al responsabile sostitutivo di approvare la richiesta.
 
-## Gestire le richieste di approvazione scadute
+## <a name="manage-overdue-approval-requests"></a>Gestire le richieste di approvazione scadute
 
 La seguente attività viene eseguita da un utente approvazione con diritti di approvazione.
 
@@ -80,7 +80,7 @@ La funzione **Invia notifiche di approvazione scadute** cerca tutte le richieste
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Richieste di approvazione scadute**, quindi scegli il collegamento correlato.
 2. Nella pagina **Richieste di approvazione scadute**, scegliere l'azione **Invia notifiche di approvazioni scadute**.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Usare workflow di approvazione](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

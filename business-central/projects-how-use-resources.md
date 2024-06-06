@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Uso delle risorse per i progetti
+# <a name="use-resources-for-projects"></a>Uso delle risorse per i progetti
 
 Si registra l'utilizzo di risorse nella registrazione progetti per tenere traccia dei costi, dei prezzi e dei tipi di lavoro che sono collegati ai progetti. Per ulteriori informazioni, vedi [Registrare l'utilizzo per i progetti](projects-how-record-job-usage.md).
 
@@ -19,11 +19,11 @@ Si registra l'utilizzo di risorse nella registrazione progetti per tenere tracci
 
 Si può anche registrare l'utilizzo di una risorsa nelle registrazioni risorse. Le voci registrate nelle registrazioni risorse non influiscono sulla contabilità generale.
 
-## Per assegnare risorse a progetti
+## <a name="to-assign-resources-to-projects"></a>Per assegnare risorse a progetti
 
 È possibile assegnare risorse a progetti creando righe di pianificazione progetto per il progetto. Per ulteriori informazioni, vedi [Creare progetti](projects-how-create-jobs.md).
 
-## Per registrare l'utilizzo delle risorse per un progetto
+## <a name="to-record-resource-usage-for-a-project"></a>Per registrare l'utilizzo delle risorse per un progetto
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni progetti**, quindi scegli il collegamento correlato.
 2. Apri il batch di registrazioni progetti pertinente e compila i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +31,7 @@ Si può anche registrare l'utilizzo di una risorsa nelle registrazioni risorse. 
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Per rettificare i prezzi delle risorse
+## <a name="to-adjust-resource-prices"></a>Per rettificare i prezzi delle risorse
 
 Se si desidera modificare i costi o i prezzi di un gran numero di risorse, si può usare un processo batch.  
 
@@ -41,7 +41,7 @@ Se si desidera modificare i costi o i prezzi di un gran numero di risorse, si pu
 > [!NOTE]  
 > Questo processo batch non consente di creare o rettificare costi e prezzi alternativi per le risorse. Modifica soltanto il contenuto del campo nella scheda risorsa per il campo **Rettifica campo** selezionato nel processo batch. Poiché la rettifica diventerà effettiva immediatamente per le risorse, controllare i fattori di rettifica prima di eseguire il processo batch.
 
-## Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi alternativi esistenti
+## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi alternativi esistenti
 
 Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, è possibile utilizzare un processo batch per impostare più prezzi di risorse alternativi.
 
@@ -50,7 +50,7 @@ Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, 
 3. Scegliere il pulsante **OK**.  
 4. Al termine del processo batch, i relativi risultati saranno visualizzati nella pagina **Modifiche prezzi risorsa**.
 
-## Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi standard
+## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi standard
 
 Se si desidera impostare più prezzi di risorsa alternativi basati sui prezzi standard nelle schede risorse, è possibile utilizzare un processo batch .  
 
@@ -59,7 +59,7 @@ Se si desidera impostare più prezzi di risorsa alternativi basati sui prezzi st
 3. Scegliere il pulsante **OK**.  
 4. Al termine del processo batch, aprire la pagina **Modifiche prezzi risorsa** per visualizzarne i risultati.
 
-## Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi alternativi
+## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Per ottenere suggerimenti per la modifica del prezzo di una risorsa sulla base dei prezzi alternativi
 
 Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, è possibile utilizzare un processo batch per impostare più prezzi di risorse alternativi.
 
@@ -68,7 +68,7 @@ Se è già stato impostato il prezzo di risorsa alternativo per alcune risorse, 
 3. Scegliere il pulsante **OK**.  
 4. Al termine del processo batch, aprire la pagina **Modifiche prezzi risorsa** per visualizzarne i risultati.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Finanze](finance.md)  

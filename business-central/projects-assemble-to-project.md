@@ -11,7 +11,7 @@ ms.date: 08/03/2022
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Assemblaggio su progetto
+# <a name="assemble-to-project"></a>Assemblaggio su progetto
 
 L'assemblaggio su progetto ti aiuta a migliorare la gestione dell'inventario eseguendo l'assemblaggio su ordine solo quando è richiesto.
 
@@ -19,7 +19,7 @@ Quando scegli un articolo di assemblaggio su ordine in una riga di pianificazion
 
 Gli ordini di assemblaggio sono riservati ai progetti e [!INCLUDE [prod_short](includes/prod_short.md)] sincronizza la tracciabilità degli articoli tra le righe di pianificazione progetto e l'ordine di assemblaggio.
 
-## Eseguire l'integrazione con la gestione warehouse
+## <a name="integrate-with-warehouse-management"></a>Eseguire l'integrazione con la gestione warehouse
 
 Assemblaggio su progetto si integra con le funzionalità di gestione warehouse per facilitare l'assemblaggio e la spedizione. Il processo aiuta inoltre a garantire che il flusso di assemblaggio su consegna del progetto si svolga senza intoppi nei processi di warehouse interni. Per ulteriori informazioni sui flussi di warehouse interni per progetti, vedi [Flussi per produzione, assemblaggio e processi](design-details-internal-warehouse-flows.md#flows-to-and-from-assembly-in-a-basic-warehouse-configuration).
 
@@ -31,7 +31,7 @@ La seguente tabella descrive le configurazioni di warehouse supportate dall'asse
 |**Prelievo inventario**|Utilizza un prelievo inventario per registrare l'utilizzo completo o parziale. L'output e il consumo dei componenti vengono registrati automaticamente per l'ordine di assemblaggio.          |
 |**Prelievo warehouse**|Crea e registra prelievi warehouse per i componenti, quindi utilizza una registrazione progetti per registrare l'utilizzo. [!INCLUDE [prod_short](includes/prod_short.md)] verifica se i componenti di assemblaggio consumati sono stati prelevati. L'output e il consumo dei componenti vengono registrati automaticamente per l'ordine di assemblaggio.         |
 
-## Limitazioni note
+## <a name="known-limitations"></a>Limitazioni note
 
 In questa sezione vengono descritte le limitazioni note per l'assemblaggio su progetto.
 
@@ -42,7 +42,7 @@ In questa sezione vengono descritte le limitazioni note per l'assemblaggio su pr
 * Non puoi inserire una quantità negativa nel campo **Quantità per assemblaggio su ordine**.
 * Non è possibile annullare un assemblaggio.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  

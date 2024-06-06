@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Report finanziari predefiniti in Business Central
+# <a name="built-in-finance-reports-in-business-central"></a>Report finanziari predefiniti in Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report predefiniti, funzioni di tracciamento e strumenti utili per i revisori o i controllori responsabili della creazione di report per il reparto finanziario.
 
@@ -20,11 +20,11 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Esplorare i report finanziari con Esplora report
+## <a name="explore-finance-reports-with-report-explorer"></a>Esplorare i report finanziari con Esplora report
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Report di contabilità clienti e analisi](receivables-reports.md)  
 [Report di contabilità fornitori e analisi](payables-reports.md)  

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-## Procedure consigliate per utilizzare definizioni di colonna
+## <a name="best-practices-for-working-with-column-definitions"></a>Procedure consigliate per utilizzare definizioni di colonna
 
 Le definizioni di colonna non hanno una versione. Quando modifichi una definizione di colonna, la versione precedente viene sostituita quando la modifica viene salvata nel database. L'elenco seguente contiene alcune procedure consigliate per l'utilizzo delle definizioni di colonna:
 

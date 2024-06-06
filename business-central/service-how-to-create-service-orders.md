@@ -9,12 +9,12 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Creare ordini di assistenza
+# <a name="create-service-orders"></a>Creare ordini di assistenza
 La pagina **Ordine assistenza** consente di creare documenti in cui vengono immesse informazioni relative a un servizio di assistenza, ad esempio riparazione e manutenzione, svolto su articoli in assistenza su richiesta del cliente.  
 
 Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. Alcuni campi sono facoltativi e molti vengono compilati automaticamente durante la compilazione dei campi correlati.  
 
-## Per creare un ordine di assistenza    
+## <a name="to-create-a-service-order"></a>Per creare un ordine di assistenza
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini assistenza**, quindi scegli il collegamento correlato.  
 2. Creare un nuovo ordine di assistenza.  
 3. Nel campo **Nr.** immettere un numero per l'ordine di assistenza.  
@@ -27,7 +27,7 @@ Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. A
 6. Facoltativamente, compilare i campi restanti.  
 7. Registrare le righe di articolo in assistenza.  
 
-## Per creare un ordine di assistenza da un contratto  
+## <a name="to-create-a-service-order-from-a-contract"></a>Per creare un ordine di assistenza da un contratto
 È possibile creare automaticamente ordini di assistenza per la manutenzione degli articoli in assistenza in base ai contratti di assistenza.  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Crea ordini assistenza a contratto**, quindi seleziona il collegamento correlato.  
@@ -41,7 +41,7 @@ Quando si crea un ordine di assistenza, è sufficiente compilare alcuni campi. A
     > [!NOTE]  
     >  Non sarà possibile creare un ordine con più articoli di servizio, se il campo **Una riga art. in assistenza/ordine** è stato impostato nella pagina **Setup gestione assistenza**. 
 
-## Per convertire un'offerta di assistenza in un ordine di assistenza
+## <a name="to-convert-a-service-quote-to-a-service-order"></a>Per convertire un'offerta di assistenza in un ordine di assistenza
 Quando un'offerta di assistenza è stata accettata dal cliente, è possibile convertirla in un ordine di assistenza. L'offerta verrà eliminata e verrà impostato un nuovo ordine di assistenza con la stessa descrizione dell'offerta di assistenza. Verranno inoltre ricalcolate la data e l'ora di risposta per l'ordine di assistenza, il cui stato passerà a **Non inviato**. Anche lo stato di riparazione degli articoli in assistenza nell'ordine verrà modificato in **Iniziale**.  
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] vengono ricercati i movimenti di assegnazione per tutti gli articoli in assistenza nell'offerta di assistenza con lo stato **Attivo**. Se tali movimenti di assegnazione vengono trovati, lo stato di assegnazione verrà aggiornato in **Riassegnazione necessaria**. Quando si riassegnano gli articoli in assistenza nell'ordine di assistenza, lo stato dei movimenti di assegnazione registrati per l'offerta verrà modificato in **Completato**.   
@@ -50,7 +50,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] vengono ricercati i movimenti 
 2. Scegliere l'offerta di assistenza da convertire in un ordine di assistenza.  
 3. Scegliere l'azione **Crea ordine**.  
 
-## Per verificare la disponibilità di un articolo per uno o più ordini  
+## <a name="to-check-item-availability-for-one-or-more-orders"></a>Per verificare la disponibilità di un articolo per uno o più ordini
 È possibile controllare se un articolo necessario per soddisfare un ordine è in stock e, in caso contrario, quando lo sarà. Inoltre, se un articolo è disponibile per l'impegno, è possibile impegnarlo per assicurarne la disponibilità all'utilizzo. È possibile verificare la disponibilità di un determinato ordine o di tutti gli ordini.  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Quadro attività**, quindi scegli il collegamento correlato.  
@@ -61,7 +61,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] vengono ricercati i movimenti 
 
 3. Nella pagina **Sintesi domanda** espandere il raggruppamento dell'articolo e visualizzare le informazioni sulla disponibilità dell'articolo. Ad esempio, è possibile visualizzare il numero di articoli in magazzino. È inoltre possibile verificare se e quando un articolo sarà disponibile se è in ordine arretrato, ovvero Tipo origine = Acquisto, o se è stato impegnato.
 
-## Per impegnare un articolo per un ordine di assistenza
+## <a name="to-reserve-an-item-for-a-service-order"></a>Per impegnare un articolo per un ordine di assistenza
 Se è necessario assicurarsi che un articolo sia disponibile per un ordine di assistenza, è possibile impegnare l'articolo.
 
 1. Nella casella **Cerca** immettere **Ordini assistenza**, quindi selezionare il collegamento correlato.  
@@ -70,7 +70,7 @@ Se è necessario assicurarsi che un articolo sia disponibile per un ordine di as
 4. Nella pagina **Righe assistenza** selezionare l'articolo da impegnare, quindi scegliere l'azione **Impegna**.  
 5. Nella pagina **Impegni** scegliere **Impegna da riga corrente**.
 
-## Per inserire righe in base a codici di assistenza standard  
+## <a name="to-insert-lines-based-on-standard-service-codes"></a>Per inserire righe in base a codici di assistenza standard
 Se sono stati impostati codici di servizio standard successivamente assegnati a gruppi di articoli in assistenza, è possibile inserire righe standard collegate ai codici sui documenti di assistenza. Per ulteriori informazioni, vedere [Impostare codici di servizio standard](service-how-setup-service-coding.md).   
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini assistenza**, quindi scegli il collegamento correlato.  
@@ -83,10 +83,10 @@ Se sono stati impostati codici di servizio standard successivamente assegnati a 
 > [!NOTE]  
 >  Se il campo **Cod. gruppo articoli assist.** nella riga dell'articolo in assistenza del documento è vuoto, significa che l'articolo in assistenza non appartiene ad alcun gruppo di articoli in assistenza. In questo caso, la pagina **Cod. gr. art. ass. standard** conterrà una lista di tutti i codici di servizio standard. È necessario selezionare dalla lista per inserire righe di assistenza standard nel documento. È inoltre possibile selezionare dalla lista dei codici di servizio standard assegnati a un gruppo di articoli in assistenza specifico. Per visualizzare la lista, selezionare il codice appropriato nel campo **Cod. gruppo articoli assist.** nella pagina **Cod. gr. art. ass. standard**.  
 
-## Per registrare i commenti interni o pubblici
+## <a name="to-register-internal-or-public-comments"></a>Per registrare i commenti interni o pubblici
 È possibile aggiungere commenti da stampare su ordini di assistenza e offerte di assistenza per fornire informazioni aggiuntive. È possibile aggiungere fino a 80 caratteri, spazi inclusi. Se è necessario più spazio, scegliere un'altra riga. Per registrare un commento, selezionare una riga, quindi scegliere l'azione **Commenti**.  
 
-## Per eliminare ordini di assistenza fatturati  
+## <a name="to-delete-invoiced-service-orders"></a>Per eliminare ordini di assistenza fatturati
 Gli ordini vengono in genere eliminati automaticamente dopo che sono stati completamente fatturati. Quando si registra una fattura, viene creato un movimento corrispondente nella pagina **Fatture assistenza registrate**. Il documento registrato può essere visualizzato nella pagina **Fattura assistenza registrata**.  
 
 Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la quantità totale indicata nell'ordine è stata registrata non dall'ordine stesso, ma dalla pagina **Fattura assistenza**. In questo caso può essere necessario eliminare ordini fatturati che non sono stati eliminati. Per eseguire questa operazione, utilizzare il processo batch **Elimina ordini assistenza fatturati**.  
@@ -96,7 +96,7 @@ Gli ordini di assistenza non vengono, tuttavia, eliminati automaticamente se la 
 3. Selezionare **OK**.  
 
 
-## Vedi anche  
+## <a name="see-also"></a>Vedi anche
 [Registrazione di assistenza](service-service-posting.md)  
 [Registrare un ordine di assistenza](service-how-to-post-service-orders.md)  
 [Impostazione della gestione assistenza](service-setup-service.md)  

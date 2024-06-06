@@ -12,13 +12,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Informazioni intelligenti e migrazione cloud (solo locale)
+# <a name="intelligent-insights-and-cloud-migration-on-premises-only"></a>Informazioni intelligenti e migrazione cloud (solo locale)
 
 Se utilizzi [!INCLUDE[prod_short](includes/prod_short.md)] online, hai accesso completo agli scenari basati sul cloud intelligente. Ad esempio, gli indicatori KPI basati sull'apprendimento automatico o quando visualizzi i dati in Power BI.  
 
 Tuttavia, se usi [!INCLUDE [prod_short](includes/prod_short.md)] in locale, non hai accesso alle stesse informazioni. Se desideri trarre vantaggio dagli scenari online, devi eseguire la migrazione a [!INCLUDE [prod_short](includes/prod_short.md)] Online. Per ulteriori informazioni, vedere [Migrazione dei dati locali in Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) nel contenuto amministrativo per [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Visualizzazione di approfondimenti in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## <a name="viewing-insights-in--online"></a>Visualizzazione di approfondimenti in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Per un ambiente locale per il quale i dati sono stati migrati a [!INCLUDE[prod_short](includes/prod_short.md)] online, la pagina **Informazioni su Cloud intelligente** nell'ambiente online mostra quattro principali punti di interesse per la maggior parte delle aziende:
 
@@ -34,7 +34,7 @@ Accanto ai grafici KPI, si ottengono informazioni su potenziali aree problematic
 
 La pagina si connette anche a Power BI per ulteriori approfondimenti. Facoltativamente, connettiti ad Azure AI per informazioni ancora più intelligenti. Per ulteriori informazioni, vedi [L'estensione Previsione vendite e magazzino](ui-extensions-sales-forecast.md).  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Benvenuto in Business Central](welcome.md)  
 [Estensioni per la migrazione al cloud](ui-extensions-data-replication.md)  

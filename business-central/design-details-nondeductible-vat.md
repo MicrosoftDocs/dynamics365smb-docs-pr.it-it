@@ -10,18 +10,18 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Dettagli di progettazione: IVA non detraibile
+# <a name="design-details-non-deductible-vat"></a>Dettagli di progettazione: IVA non detraibile
 
 L'imposta sul valore aggiunto (IVA) non detraibile è l'IVA che è dovuta da un acquirente, ma che non è detraibile dal proprio debito IVA dell'acquirente. Poiché può essere difficile sapere dove e come viene utilizzato un articolo, è necessario contattare le autorità fiscali locali del proprio paese o area geografica per determinare se una determinata percentuale dell'IVA è detraibile. Anche quando si sa che una determinata percentuale dell'IVA non è detraibile, esistono diversi modelli per la gestione degli importi indeducibili in quanto relativi a **articoli** e **cespiti**.
 
-## Prerequisiti per l'utilizzo dell'IVA non detraibile
+## <a name="prerequisites-for-using-non-deductible-vat"></a>Prerequisiti per l'utilizzo dell'IVA non detraibile
 
 Per utilizzare e registrare l'IVA non detraibile, attieniti alla seguente procedura.
 
 1. Nella pagina **Setup IVA**, seleziona **Abilita IVA non detraibile** per abilitare la funzione.
 2. Nella pagina **Setup registrazione IVA**, seleziona quali categorie di registrazione IVA possono utilizzare l'IVA non detraibile.
 
-## Esempi
+## <a name="examples"></a>Esempi
 
 Per i seguenti esempi, l'IVA non detraibile è abilitata e la seguente configurazione è stata completata:
 
@@ -38,7 +38,7 @@ Per i seguenti esempi, l'IVA non detraibile è abilitata e la seguente configura
 
 Tutti gli esempi utilizzano articoli e cespiti in cui la categoria di registrazione del prodotto IVA è **NDVAT**.
 
-### Articoli
+### <a name="items"></a>Articoli
 
 Una nuova posizione ha **NDVAT** impostato come categoria di registrazione prodotto IVA. Nel documento di acquisto, **Quantità** = **1** e **Costo unitario diretto IVA escl.** = **1.000,00**.
 
@@ -53,19 +53,19 @@ I dettagli sono riportati nei **Movimenti di valorizzazione**.
 > [!NOTE]
 > È possibile abilitare il campo **Utilizza per costo articolo** nella pagina **Setup IVA**.
 
-#### Usa per costo dell'articolo non è abilitato
+#### <a name="use-for-item-cost-isnt-enabled"></a>Usa per costo dell'articolo non è abilitato
 
 | Tipo mov. articolo | Tipo movimento | Importo costo (effettivo) | Quantità mov. contabili art. |
 |---|---|---|---|
 | Acquisti | Costo diretto | 1,000.00 | 1 |
 
-#### Usa per costo dell'articolo è abilitato
+#### <a name="use-for-item-cost-is-enabled"></a>Usa per costo dell'articolo è abilitato
 
 | Tipo mov. articolo | Tipo movimento | Importo costo (effettivo) | Quantità mov. contabili art. |
 |---|---|---|---|
 | Acquisti | Costo diretto | 1,250.00 | 1 |
 
-### Cespiti
+### <a name="fixed-assets"></a>Cespiti
 
 Un nuovo cespite ha il conto costi di acquisizione impostato per utilizzare **NDVAT** come categoria di registrazione prodotto IVA. Nel documento di acquisto, **Quantità** = **1** e **Costo unitario diretto IVA escl.** = **1.000,00**.
 
@@ -80,20 +80,20 @@ I dettagli sono riportati in **Movimenti contabili cespiti**.
 > [!NOTE]
 > È possibile abilitare il campo **Utilizza per costo cespite** nella pagina **Setup IVA**.
 
-#### Utilizza per costo cespite non è abilitata
+#### <a name="use-for-fixed-asset-cost-isnt-enabled"></a>Utilizza per costo cespite non è abilitata
 
 | Tipo di documento | Tipo registrazione cespite | Importo | Importo IVA |
 |---|---|---|---|
 | Fattura | Costo di acquisto | 1,000.00 | 250.00 |
 
-#### Utilizza per costo cespite è abilitata
+#### <a name="use-for-fixed-asset-cost-is-enabled"></a>Utilizza per costo cespite è abilitata
 
 | Tipo di documento | Tipo registrazione cespite | Importo | Importo IVA |
 |---|---|---|---|
 | Fattura | Costo di acquisto | 1,000.00 | 250.00 |
 | Fattura | Costo di acquisto | 250.00 | 0.00 |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare l'IVA non detraibile](finance-setup-nondeductible-vat.md)  
 [Dati finanziari](finance.md)  
