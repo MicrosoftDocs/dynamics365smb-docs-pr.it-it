@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Setup dei calcoli e registrazione dei metodi per l'IVA
+# Setup dei calcoli e registrazione dei metodi per l'IVA
 
 I consumatori e le imprese pagano l'imposta sul valore aggiunto (IVA) quando acquistano beni o servizi. L'importo dell'IVA da pagare può variare, a seconda di diversi fattori. In [!INCLUDE[prod_short](includes/prod_short.md)], puoi impostare l'IVA per specificare l'aliquota da utilizzare per calcolare gli importi IVA in base ai seguenti parametri:
 
@@ -26,7 +26,7 @@ Tuttavia se vuoi impostare i calcoli IVA manualmente, o se vuoi conoscere ciascu
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Impostare l'IVA utilizzando la guida al setup assistito (consigliato)
+## Impostare l'IVA utilizzando la guida al setup assistito (consigliato)
 
 > [!NOTE]
 > Puoi utilizzare la procedura guidata **Impostazione IVA** solo se è stata creata una società *La mia azienda* e se non sono state registrate transazioni con IVA.
@@ -37,7 +37,7 @@ Per avviare la Guida assistita al setup, attenersi a questa procedura:
 2. Scegli **Imposta IVA** e completa i passaggi.
 3. Dopo aver completato il setup assistito, visita la pagina **Setup registrazioni IVA** e verifica se è necessario compilare campi aggiuntivi in base ai requisiti della versione di [!INCLUDE [prod_short](includes/prod_short.md)]. Ulteriori informazioni in [Funzionalità locale in Business Central](about-localization.md).  
 
-### <a name="check-the-vat-posting-setup"></a>Controllare il setup registrazioni IVA
+### Controllare il setup registrazioni IVA
 
 Per iniziare velocemente, [!INCLUDE [prod_short](includes/prod_short.md)] ti mostrerà le notifiche se mancano conti di contabilità generale (C/G) nelle categorie di registrazione o nei setup di registrazione, come la pagina **Setup registrazioni IVA**. Puoi attivare o disattivare questo tipo di notifica utilizzando la notifica *Il conto C/G non è presente nel setup o nella categoria di registrazione* nella pagina **Notifiche personali**. Vai alla pagina **Impostazioni personali** e scegli *Modifica il momento in cui ricevere le notifiche*. .  
 
@@ -45,7 +45,7 @@ Se scegli una tale notifica, [!INCLUDE [prod_short](includes/prod_short.md)] cre
 
 A questo punto, puoi semplicemente compilare i conti C/G mancanti. Quindi, in seguito, quando perfezioni ulteriormente la configurazione, potresti renderti conto che questa configurazione iniziale era sbagliata. [!INCLUDE [prod_short](includes/prod_short.md)] non consente l'eliminazione di un setup registrazioni IVA e di un setup registrazioni COGE quando sono presenti movimenti creati in base a tali configurazioni. A partire dal primo ciclo di rilascio del 2022, puoi utilizzare il campo **Bloccato** nella pagina **Setup registrazioni IVA** per impedire agli utenti di utilizzare erroneamente un'impostazione che non è più rilevante per le nuove registrazioni.
 
-## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Impostare una data IVA predefinita per documenti e giornali di registrazione
+## Impostare una data IVA predefinita per documenti e giornali di registrazione
 
 La dichiarazione IVA in [!INCLUDE [prod_short](includes/prod_short.md)] si basa sulla **Data IVA** per includere i movimenti IVA nei report IVA in un periodo IVA. La data IVA può essere modificata su tutti i documenti e giornali di registrazione, ma è necessario specificare un valore predefinito per la data IVA.
 
@@ -61,7 +61,7 @@ Per impostare un valore predefinito per una data IVA, attieniti alla seguente pr
 > [!NOTE]
 > Per impostazione predefinita, la **Data IVA predefinita** è la **Data di registrazione**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Abilitazione o disabilitazione della funzione Data IVA
+### Abilitazione o disabilitazione della funzione Data IVA
 
 Alcuni paesi/aree geografiche richiedono che le aziende utilizzino una data IVA specifica, mentre altri paesi/aree geografiche no. Alcuni paesi/aree geografiche richiedono inoltre alle aziende di modificare la data IVA in situazioni specifiche dopo aver registrato i documenti, mentre altri paesi non consentono modifiche alle date IVA. Per consentire contesti diversi, puoi scegliere se utilizzare questa funzionalità e, in tal caso, in quale misura.
 
@@ -81,14 +81,14 @@ Per impostare il livello di utilizzo della data IVA, procedi nel seguente modo:
 > [!IMPORTANT]
 > Anche se hai scelto l'opzione **Non utilizzare la funzionalità Data IVA**, [!INCLUDE [prod_short](includes/prod_short.md)] usa la **Data IVA** in background. Poiché la **Data IVA predefinita** è configurata come **Data di registrazione** e in questo caso non è possibile modificarla, otterrai la stessa esperienza senza questa funzione. I campi **Data IVA** saranno rimossi da tutte le pagine, ma questo campo continuerà a esistere nelle tabelle e i report funzioneranno in base ad esso.
 
-### <a name="limiting-periods-for-posting-and-changing-the-vat-date"></a>Limitazione dei periodi per la registrazione e modifica della data IVA
+### Limitazione dei periodi per la registrazione e modifica della data IVA
 
 Puoi impedire alle persone di registrare o modificare i movimenti IVA in intervalli di date specifici. Puoi impostare la restrizione utilizzando due impostazioni:
 
 * In base al **periodo di dichiarazione IVA** chiuso
 * In base ai campi **Consenti registrazione da** e **Consenti registrazione a**.
 
-#### <a name="to-limit-posting-based-on-vat-return-period"></a>Per limitare la registrazione in base al periodo di dichiarazione IVA
+#### Per limitare la registrazione in base al periodo di dichiarazione IVA
 
 1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella scheda dettaglio **Generale**, nel campo **Controllo periodo IVA**, specifica il grado di controllo del periodo di dichiarazione IVA. Nella seguente tabella vengono illustrate le opzioni.
@@ -100,12 +100,12 @@ Puoi impedire alle persone di registrare o modificare i movimenti IVA in interva
 | **Avvisa per registrazione in periodo chiuso** | Mostra un avviso, ma non bloccare la registrazione, se desideri registrare un documento o una registrazione che ha una data IVA in un **periodo di dichiarazione IVA** chiuso. |
 | **Disabilitato** | Non intraprendere alcuna azione sulla base di un **periodo di dichiarazione IVA** chiuso. |
 
-#### <a name="limit-posting-based-on-allow-fromto-period"></a>Limitare la registrazione in base a Consenti dal/al periodo
+#### Limitare la registrazione in base a Consenti dal/al periodo
 
 > [!NOTE]
 > A partire dalla versione 23.1 di Business Central, questo controllo è stato modificato. Nelle versioni precedenti, era presente un solo controllo nella pagina **Setup contabilità generale** sia per la Data di registrazione che per la Data IVA. Ora questi controlli sono suddivisi, quindi il controllo nella pagina **Setup contabilità generale** è solo per la **Data di registrazione** e il controllo nella pagina **Setup IVA** è valido solo per la **Data IVA** . Sono presenti anche nuovi controlli della data nella pagina **Setup utente**.  
 
-##### <a name="version-231-or-newer"></a>Versione 23.1 o successiva
+##### Versione 23.1 o successiva
 
 > [!IMPORTANT]
 > Quando esegui l'aggiornamento a una nuova versione, tieni presente che i valori vengono aggiornati nella nuova opzione **Consenti data IVA da/a** della pagina **Setup IVA** in base ai valori in **Consenti registrazione da/a** in **Setup contabilità generale**. Se vuoi utilizzare controlli della data diversi, apri la pagina **Setup IVA** e apporta le modifiche.  
@@ -125,7 +125,7 @@ Per limitare le registrazioni per l'utente specifico:
 3. Nel campo **Consenti data IVA da** specifica la data IVA a partire dalla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA precedente a questa data non è consentita. 
 4. Nel campo **Consenti data IVA a** specifica la data IVA fino alla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA dopo questa data non è consentita.  
 
-##### <a name="versions-before-231"></a>Versione antecedente alla versione 23.1
+##### Versione antecedente alla versione 23.1 
 
 È possibile impostare limitazioni per l'azienda o livelli utente specifici.
 
@@ -142,7 +142,7 @@ Per limitare le registrazioni per l'utente specifico:
 3. Nel campo **Consenti registrazione da** specifica la data IVA a partire dalla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA precedente a questa data non è consentita.
 4. Nel campo **Consenti registrazione a** specifica la data IVA fino alla quale consenti la registrazione. La registrazione di un documento o un giornale con una data IVA dopo questa data non è consentita.
 
-## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Impostare i numeri di partita IVA per il paese o l'area geografica
+## Impostare i numeri di partita IVA per il paese o l'area geografica
 
 Per garantire che le persone inseriscano numeri di partita IVA validi, è possibile definire i formati per i numeri di partita IVA utilizzati nei paesi in cui si opera. [!INCLUDE[prod_short](includes/prod_short.md)] visualizza un messaggio di errore quando qualcuno commette un errore o utilizza un formato non corretto per il paese.
 
@@ -159,7 +159,7 @@ Per impostare i numeri di partita VAT, attieniti a questa procedura:
     > [!TIP]
     > È possibile utilizzare altri caratteri purché siano sempre presenti nel formato del paese. Se è necessario includere un punto o un trattino tra i set di numeri, è possibile definire il formato come ##.####.### o @@-###-###.  
 
-## <a name="set-up-vat-business-posting-groups"></a>Impostare le categorie di registrazione business IVA
+## Impostare le categorie di registrazione business IVA
 
 Le categorie di registrazione business IVA dovrebbero rappresentare i mercati in cui si intrattengono relazioni commerciali con clienti e fornitori e dovrebbero definire il modo in cui calcolare l'IVA in ogni mercato. Esempi di categoria di registrazione business IVA sono **Nazionale** e **Unione Europea (UE)**.  
 
@@ -172,7 +172,7 @@ Per impostare una categoria di registrazione business IVA, attenersi a questa pr
 
 Le categorie di registrazione business IVA di default vengono impostate collegandole alle categorie di registrazione business. [!INCLUDE[prod_short](includes/prod_short.md)] assegna automaticamente la categoria di registrazione business IVA quando viene assegnata la categoria di registrazione business a un cliente, un fornitore o un conto di contabilità generale.
 
-## <a name="set-up-vat-product-posting-groups"></a>Impostare le categorie di registrazione articoli/servizi IVA
+## Impostare le categorie di registrazione articoli/servizi IVA
 
 Le categorie di registrazione articoli/servizi IVA rappresentano articoli e risorse acquistate o vendute e determinano la tipologia di calcolo e di registrazione dell'IVA in base al tipo di articolo o risorsa.
 
@@ -183,7 +183,7 @@ Per impostare una categoria di registrazione business IVA, attenersi a questa pr
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie registrazioni articoli/servizi IVA**, quindi scegli il collegamento correlato.  
 2. Compilare i campi in base alle esigenze.
 
-## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Combinare le categorie di registrazione IVA nei setup registrazione IVA
+## Combinare le categorie di registrazione IVA nei setup registrazione IVA
 
 [!INCLUDE[prod_short](includes/prod_short.md)] calcola gli importi IVA su vendite e acquisti in base alle impostazioni di registrazione IVA, che sono combinazioni di categorie di registrazione business e di categorie di registrazione articoli/servizi IVA. Per ogni combinazione, è possibile specificare la percentuale IVA, la tipologia di calcolo IVA e i numeri di conto C/G per la registrazione dell'IVA relativa a vendite e acquisti e dell'IVA intracomunitaria. È inoltre possibile specificare se l'IVA viene ricalcolata quando viene applicato o ricevuto uno sconto pagamento.  
 
@@ -197,7 +197,7 @@ Per combinare setup di registrazioni IVA, attenersi a questa procedura:
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 5.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni IVA**, quindi scegli il collegamento correlato.
 2. Compilare i campi in base alle esigenze. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Assegnare le categorie di registrazione IVA per impostazione predefinita a più entità
+## Assegnare le categorie di registrazione IVA per impostazione predefinita a più entità
 
 Se si desidera applicare le stesse categorie di registrazione IVA a più entità, è possibile impostare [!INCLUDE[prod_short](includes/prod_short.md)] per effettuare questa operazione in modo predefinita. Esistono due metodi per farlo:
 
@@ -206,24 +206,24 @@ Se si desidera applicare le stesse categorie di registrazione IVA a più entità
 
 La categoria registrazione business o articoli/servizi IVA è assegnata quando si sceglie una categoria registrazione business o articoli/servizi per un cliente, un fornitore, un articolo o una risorsa.
 
-## <a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Assegnare le categorie di registrazione IVA a conti, clienti, fornitori, articoli e risorse
+## Assegnare le categorie di registrazione IVA a conti, clienti, fornitori, articoli e risorse
 
 Nelle sezioni successive viene descritto come assegnare le categorie di registrazione IVA alle singole entità.
 
-### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Per assegnare categorie di registrazione IVA a singoli conti di contabilità generale
+### Per assegnare categorie di registrazione IVA a singoli conti di contabilità generale
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 6.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Aprire la scheda **Conto C/G** per il conto.  
 3. Nella Scheda dettaglio **Registrazione**, nel campo **Tipo reg. gen.**, selezionare **Vendita** o **Acquisto**.  
 4. Scegliere le categorie di registrazione IVA da utilizzare per il conto vendite o acquisti.  
 
-### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Per assegnare le categorie di registrazione business IVA a clienti e fornitori
+### Per assegnare le categorie di registrazione business IVA a clienti e fornitori
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 7.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Cliente** o **Fornitore**, quindi scegli il collegamento correlato.  
 2. Nella scheda del **Cliente** o **Fornitore**, espandere la Scheda dettaglio **Fatturazione**.  
 3. Scegliere la categoria di registrazione business IVA.  
 
-### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Per assegnare le categorie di registrazione articoli/servizi IVA a singoli articoli e risorse
+### Per assegnare le categorie di registrazione articoli/servizi IVA a singoli articoli e risorse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 8.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articolo** o **Risorsa**, quindi scegli il collegamento correlato.  
 2. Effettuare una delle seguenti operazioni:  
@@ -232,7 +232,7 @@ Nelle sezioni successive viene descritto come assegnare le categorie di registra
     * Nella scheda **Risorsa** espandere la Scheda dettaglio **Fatturazione**.  
 3. Scegliere la categoria di registrazione articoli/servizi IVA.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Impostare le categorie per spiegare l'esenzione IVA o le aliquote IVA non standard
+## Impostare le categorie per spiegare l'esenzione IVA o le aliquote IVA non standard
 
 È possibile impostare una categoria IVA per descrivere informazioni sul tipo di IVA che viene applicata. Le informazioni possono essere obbligatorie per la normativa statale. Dopo aver impostato una categoria IVA e averla associata a un setup registrazioni IVA, la categoria IVA viene visualizzata su tutti i documenti di vendita stampati con tale categoria di setup registrazioni IVA.
 
@@ -242,7 +242,7 @@ Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti
 
 È possibile modificare o eliminare una categoria IVA. Le modifiche si rifletteranno in un report generato. Tuttavia, [!INCLUDE[prod_short](includes/prod_short.md)] non conserva una cronologia della modifica. Nel report, le descrizioni della categoria IVA vengono stampate e visualizzate per tutte le righe del report accanto all'importo IVA e all'imponibile IVA. Se una categoria IVA non è stata definita per alcune righe del documento di vendita, allora viene omessa l'intera sezione quando il report viene stampato.
 
-### <a name="to-set-up-vat-clauses"></a>Impostare categorie IVA
+### Impostare categorie IVA
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 9.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie IVA**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Categorie IVA** creare una nuova riga.  
@@ -253,19 +253,19 @@ Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti
 7. Facoltativo: per assegnare direttamente la categoria IVA a un setup registrazioni IVA, scegliere **Setup** e quindi la categoria. Se si desidera attendere, è possibile assegnare la categoria in seguito nella pagina **Setup registrazioni IVA**.  
 8. Facoltativo: per specificare come tradurre automaticamente la categoria IVA scegliere l'azione **Traduzioni**.
 
-### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Per assegnare una categoria IVA a un setup di registrazione
+### Per assegnare una categoria IVA a un setup di registrazione
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 10.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup registrazioni IVA**, quindi scegli il collegamento correlato.  
 2. Nella colonna **Categoria IVA** selezionare la categoria e utilizzarla per ogni setup registrazione IVA a cui si applica.  
 
-### <a name="to-specify-translations-for-vat-clauses"></a>Per specificare le traduzioni per le categorie IVA
+### Per specificare le traduzioni per le categorie IVA
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 11.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Categorie IVA**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Traduzioni**.  
 3. Nel campo **Codice lingua** selezionare la lingua verso cui tradurre.  
 4. Nei campi **Descrizione** e **Descrizione 2** immettere il testo tradotto delle descrizioni. Questo testo viene visualizzato nei documenti di report IVA tradotti.  
 
-### <a name="to-specify-extended-text-for-vat-clauses"></a>Per specificare il testo esteso per le clausole IVA
+### Per specificare il testo esteso per le clausole IVA
 
 > [!NOTE]  
 > Se il tuo paese o area richiede un testo più lungo per le clausole IVA rispetto a quanto supportato dalla versione predefinita, puoi specificare il testo più lungo per le clausole IVA come *testo esteso* in modo che venga stampato sui report di vendita e acquisto.  
@@ -280,7 +280,7 @@ Quando vengono utilizzate aliquote IVA non standard in diversi tipi di documenti
 8. Seleziona i campi rilevanti per i tipi di documento su cui desideri stampare il testo esteso.  
 9. Chiudere la pagina.  
 
-## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Creare un setup registrazioni IVA per gestire l'IVA sulle importazioni
+## Creare un setup registrazioni IVA per gestire l'IVA sulle importazioni
 
 La funzionalità relativa all'*IIVA sulle importazioni* viene utilizzata quando è necessario registrare un documento in cui l'intero importo è IVA. Si userà questa funzionalità quando si riceve una fattura con IVA dalle autorità fiscali per merci importate.  
 
@@ -293,7 +293,7 @@ Per impostare i codici per l'IVA sull'importazione, attenersi a questa procedura
 5. Nel campo **Tipologia IVA** selezionare **Sola IVA**.  
 6. Nel campo **Conto IVA Acquisti** immettere il conto C/G da utilizzare per registrare l'IVA da importazione. Tutti gli altri conti sono facoltativi.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Usare l'IVA intracomunitaria per il commercio tra i paesi della UE
+## Usare l'IVA intracomunitaria per il commercio tra i paesi della UE
 
 Per il commercio tre due società nell'Unione Europea, per alcune società è necessario utilizzare l'IVA intracomunitaria. Ad esempio, la regola si applica agli acquisti e alle vendite nei paesi UE.  
 
@@ -303,7 +303,7 @@ Per il commercio tre due società nell'Unione Europea, per alcune società è ne
 > [!TIP]  
 > È possibile verificare che la società sia registrata come soggetto IVA in un altro paese/area geografica UE utilizzando il servizio di convalida partita IVA UE. Il servizio è disponibile gratuitamente in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Verificare i numeri di partita IVA](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countriesregions"></a>Vendite ai paesi UE
+### Vendite ai paesi UE
 
 Sulle vendite a società soggette a IVA in altri paesi UE l'IVA non viene calcolata. È necessario indicare il valore di tali vendite ai paesi UE separatamente nella dichiarazione IVA.  
 
@@ -319,17 +319,17 @@ Per usare questa combinazione delle categorie di registrazione business IVA e ar
 > [!NOTE]  
 > Il campo **Servizio UE** è applicabile solo per le dichiarazioni IVA. Il campo non è correlato alle funzionalità **Dichiarazione di servizio** o **Intrastat per servizi** .
 
-## <a name="vat-rounding-for-documents"></a>Arrotondamento IVA per i documenti
+## Arrotondamento IVA per i documenti
 
 Gli importi nei documenti che non sono ancora stati registrati vengono arrotondati e visualizzati in modo da corrispondere all'arrotondamento finale degli importi effettivamente registrati. L'IVA viene calcolata per un documento completo, cioè l'IVA che viene calcolata è basata sulla somma di tutte le righe con lo stesso identificatore IVA nel documento.  
 
-## <a name="set-up-vat-reporting"></a>Impostazione report IVA
+## Impostazione report IVA
 
 È necessario impostare le informazioni su come le autorità fiscali del proprio paese o area geografica richiedono l'invio dei report IVA. I passaggi seguenti illustrano le informazioni più comunemente utilizzate. Tuttavia, il tuo paese o la tua area geografica potrebbero richiedere altri passaggi. Per ulteriori informazioni, vedi l'articolo pertinente nella sezione *Funzionalità locale* nel pannello a sinistra.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di definizioni di dichiarazione IVA e di nomi delle dichiarazioni IVA](finance-how-setup-vat-statement.md)  
 [Impostare l'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  

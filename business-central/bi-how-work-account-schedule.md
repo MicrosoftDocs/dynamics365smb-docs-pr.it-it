@@ -11,13 +11,13 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Preparare il reporting finanziario con i dati finanziari e le categorie di conti
+# Preparare il reporting finanziario con i dati finanziari e le categorie di conti
 
 La funzionalità **Report finanziari** ti offre informazioni sui dati finanziari mostrati nel piano dei conti. Puoi configurare i report finanziari per analizzare le cifre nei conti di contabilità generale (C/G) e confrontare i movimenti di contabilità generale con i movimenti di budget. La visualizzazione dei risultati nei grafici e nei report nella Gestione ruolo utente, quali il piano del flusso di cassa e i report Conto economico e Conto patrimoniale. Puoi accedere a questi due report, ad esempio, con l'azione **Rendiconti finanziari** nelle home page Manager aziendale e Contabile.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce report finanziari di esempio che puoi utilizzare immediatamente come modelli. Puoi anche impostare report personalizzati per specificare le cifre da confrontare. Puoi ad esempio creare report finanziari per calcolare i margini di profitto usando le dimensioni quali reparti o gruppi di clienti. Il numero di report finanziari che puoi creare è illimitato e non richiede il coinvolgimento di uno sviluppatore.  
 
-## <a name="prerequisites-for-financial-reporting"></a>Prerequisiti per il reporting finanziario
+## Prerequisiti per il reporting finanziario
 
 L'impostazione dei report finanziari richiede una comprensione della struttura del piano dei conti. Esistono tre concetti chiave a cui probabilmente devi prestare attenzione prima di progettare i tuoi report finanziari:
 
@@ -31,7 +31,7 @@ L'impostazione delle dimensioni ti consente di suddividere e analizzare i tuoi d
 
 Se vuoi visualizzare i movimenti di contabilità generale come percentuali dei movimenti di budget, devi creare budget C/G. Per ulteriori informazioni, vedi [Creare budget C/G](finance-how-create-budgets.md).
 
-## <a name="financial-reports"></a>Report finanziari
+## Report finanziari
 
 I report finanziari organizzano i conti dal piano dei conti in modo da semplificare la presentazione dei dati. È possibile impostare vari layout per definire le informazioni che si desidera estrarre dal piano dei conti. I report finanziari inoltre forniscono uno spazio per i calcoli che non possono essere effettuati direttamente nel piano dei conti. Ad esempio, puoi creare subtotali per gruppi di conti e quindi includere quel totale in altri totali. Un altro esempio consiste nel calcolare i margini di profitto su dimensioni come reparti o gruppi di clienti. Inoltre puoi filtrare i movimenti di contabilità generale e i movimenti di budget in base, ad esempio, al saldo periodo o all'importo dare.
 
@@ -63,13 +63,13 @@ Puoi anche usare delle formule per confrontare due o più report finanziari e de
 - Creare tutti i report finanziari necessari, ognuno con un nome univoco.
 - Impostare vari layout di report e stampare i report con le cifre correnti.
 
-## <a name="learning-path-create-financial-reports-in-microsoft-dynamics-365-business-central"></a>Percorso di apprendimento: Creare report finanziari in Microsoft Dynamics 365 Business Central
+## Percorso di apprendimento: Creare report finanziari in Microsoft Dynamics 365 Business Central
 
 Vuoi imparare a creare budget e quindi utilizzare report finanziari, dimensioni e definizioni di riga e di colonna per generare i report finanziari necessari per la maggior parte delle aziende?
 
 Comincia mediante il percorso di apprendimento [Creare report finanziari in Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central).
 
-## <a name="create-a-new-financial-report"></a>Creare un nuovo report finanziario
+## Creare un nuovo report finanziario
 
 Usi i report finanziari per analizzare i conti di contabilità generale (C/G) o per confrontare i movimenti di contabilità generale con i movimenti di budget. Per esempio, è possibile visualizzare i movimenti C/G come percentuali dei movimenti budget.
 
@@ -91,25 +91,25 @@ I report finanziari nella versione standard di [!INCLUDE[prod_short](includes/pr
 > [!NOTE]
 > Quando si apre un report finanziario in modalità Visualizza o Modifica, è disponibile il riquadro Filtro. Non utilizzare il riquadro filtri per impostare i filtri per i dati nel report. Tali filtri possono causare errori o potrebbero non filtrare effettivamente i dati. Utilizza invece i campi nelle Schede dettaglio **Opzioni** e **Dimensioni** per impostare i filtri per il report.
 
-### <a name="create-or-edit-a-row-definition"></a>Creare o modificare una definizione di riga
+### Creare o modificare una definizione di riga
 
 Le definizioni di riga nei report finanziari forniscono un'area per i calcoli che non possono essere effettuati direttamente nel piano dei conti. Ad esempio, puoi creare subtotali per gruppi di conti e quindi includere quel totale in altri totali. Puoi anche calcolare passaggi intermedi che non vengono visualizzati nel report finale.
 
 Per saperne di più, vedi [Definizioni di riga nel reporting finanziario](bi-row-definitions.md).
 
-### <a name="create-or-edit-a-column-definition"></a>Creare o modificare una definizione di colonna
+### Creare o modificare una definizione di colonna
 
 Usa le definizioni di colonna per specificare le colonne da includere nel report. Ad esempio, puoi creare un layout di report che metta a confronto saldo e saldo periodo per lo stesso periodo dell'anno in corso e di quello precedente. In una definizione di colonna possono essere presenti fino a 15 colonne. Ad esempio, più colonne sono utili per visualizzare i budget per 12 mesi con una colonna che mostra il totale.
 
 Per saperne di più, vedi [Definizioni di colonna nel reporting finanziario](bi-column-definitions.md).
 
-## <a name="using-dimensions-in-financial-reports"></a>Utilizzo delle dimensioni nei report finanziari
+## Utilizzo delle dimensioni nei report finanziari
 
 Nelle analisi finanziarie, una dimensione corrisponde ai dati che aggiungi a un movimento come una specie di contrassegno. Tali dati vengono utilizzati per raggruppare movimenti con caratteristiche simili, ad esempio clienti, aree, prodotti e agenti, quindi recuperare facilmente questi gruppi per l'analisi. Puoi usare le dimensioni per i movimenti in registrazioni, documenti e budget.
 
 Ogni dimensione descrive lo stato attivo dell'analisi. Quindi, un'analisi bidimensionale, ad esempio, corrisponde a vendite per area. Utilizzando più di due dimensioni quando crei un movimento, puoi eseguire un'analisi più complessa. Un esempio di analisi complessa è l'esplorazione delle vendite per campagna di vendita, per gruppo di clienti e per area. Ciò ti offre una visione più approfondita della tua attività, ad esempio quanto bene sta operando, dove sta prosperando e dove non lo sta facendo e dove dovresti allocare più risorse. Queste informazioni ti consentono di prendere decisioni più informate. Per ulteriori informazioni, vedi [Usare le dimensioni](finance-dimensions.md).
 
-## <a name="set-up-financial-reports-with-overviews"></a>Impostare report finanziari con panoramiche
+## Impostare report finanziari con panoramiche
 
 Puoi utilizzare un report finanziario per creare un rendiconto che confronti le cifre della contabilità generale con le cifre del budget.
 
@@ -127,11 +127,11 @@ Puoi utilizzare un report finanziario per creare un rendiconto che confronti le 
 
 Ora è possibile copiare e incollare la dichiarazione di budget in un foglio elettronico.  
 
-## <a name="integrate-financial-reports-with-excel"></a>Integra i report finanziari con Excel
+## Integra i report finanziari con Excel
 
 Puoi integrare un report finanziario con un modello di cartella di lavoro Excel, adattare il layout alle tue esigenze e quindi aggiornare il modello Excel con i dati da [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, questa integrazione semplifica la generazione dei rendiconti finanziari mensili e annuali in un formato adatto alle tue esigenze.
 
-### <a name="set-up-excel-integration-for-a-financial-report-create-an-excel-template"></a>Configurare l'integrazione di Excel per un report finanziario (creare un modello Excel)
+### Configurare l'integrazione di Excel per un report finanziario (creare un modello Excel)
 
 Per impostare l'integrazione di Excel per un report finanziario, attieniti alla seguente procedura per creare un modello Excel per un report.
 
@@ -147,7 +147,7 @@ Per impostare l'integrazione di Excel per un report finanziario, attieniti alla 
 1. Salva la cartella di lavoro in OneDrive o in una posizione simile in cui viene eseguito il backup e la versione del file.
 1. Chiudi la cartella di lavoro.
 
-### <a name="run-a-financial-report-with-an-excel-template"></a>Esegui un report finanziario con un modello Excel
+### Esegui un report finanziario con un modello Excel
 
 Per eseguire un report finanziario con un modello Excel, attieniti alla seguente procedura:
 
@@ -158,7 +158,7 @@ Per eseguire un report finanziario con un modello Excel, attieniti alla seguente
 1. Nella pagina **Ricerca nome/valore**, scegli il foglio di lavoro Dati.
 1. [!INCLUDE[prod_short](includes/prod_short.md)] esegue il report finanziario e unisce i dati risultanti con il modello Excel.
 
-## <a name="print-and-save-financial-reports"></a>Stampare e salvare i report finanziari
+## Stampare e salvare i report finanziari
 
 Puoi stampare i report finanziari utilizzando i servizi di stampa del tuo dispositivo. [!INCLUDE[prod_short](includes/prod_short.md)] offre anche opzioni di salvare i report come cartelle di lavoro di Excel, documenti di Word, file PDF e XML.
 
@@ -169,7 +169,7 @@ Puoi stampare i report finanziari utilizzando i servizi di stampa del tuo dispos
     1. L'opzione **(Gestito dal browser)** indica che non esiste una stampante designata per il report. In questo caso, il browser gestisce la stampa e visualizza i passaggi di stampa standard, in cui è possibile scegliere una stampante locale collegata al dispositivo. **(Gestito dal browser)** non è disponibile nell'app per dispositivi mobili [!INCLUDE[prod_short](includes/prod_short.md)] o nell'app per Teams.
 1. Scegliere l'azione **Stampa**.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Pianificare un report finanziario o salvarlo come documento PDF, Word o Excel
+### Pianificare un report finanziario o salvarlo come documento PDF, Word o Excel
 
 Puoi salvare un report finanziario in formti di file come PDF, XML, Word o Excel. [!INCLUDE[prod_short](includes/prod_short.md)] può anche generare report finanziari ricorrenti.
 
@@ -180,7 +180,7 @@ Puoi salvare un report finanziario in formti di file come PDF, XML, Word o Excel
 1. Per generare un report finanziario programmato o ricorrente, compila i campi. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Per i report finanziari ricorrenti, imposta i campi **Prima data/ora di inizio** e **Data/ora di scadenza** con la prima e l'ultima data, rispettivamente, per generare il report finanziario. Inoltre, seleziona in quali giorni viene generato il report impostando il campo **Formula della data di esecuzione successiva** seguendo il formato spiegato nella sezione [Usare le formule data](ui-enter-date-ranges.md#use-date-formulas).
 
 
-## <a name="best-practices-for-working-with-financial-report-definitions"></a>Procedure consigliate per utilizzare definizioni di report finanziari
+## Procedure consigliate per utilizzare definizioni di report finanziari
 
 Le definizioni di report finanziari non hanno una versione. Quando modifichi una definizione di report, la versione precedente viene sostituita quando la modifica viene salvata nel database. L'elenco seguente contiene alcune procedure consigliate per l'utilizzo delle definizioni di report finanziari:
 
@@ -188,7 +188,7 @@ Le definizioni di report finanziari non hanno una versione. Quando modifichi una
 - Prima di modificare una definizione di report, prendine una copia come backup, nel caso in cui la modifica non funzioni come previsto. Puoi semplicemente copiare la definizione (dargli un nome appropriato) o esportarla. Per saperne di più, vedi [Importare o esportare definizioni di report finanziari](#import-or-export-financial-report-definitions).
 - Se hai bisogno di una nuova copia di una definizione che [!INCLUDE[prod_short](includes/prod_short.md)] fornisce, un modo semplice di ottenerne una è creare una nuova società che contenga solo i dati di setup. Quindi, esporta la definizione e importala nella società in cui la definizione necessita di un aggiornamento.
 
-## <a name="import-or-export-financial-report-definitions"></a>Importare o esportare definizioni di report finanziari
+## Importare o esportare definizioni di report finanziari
 
 Puoi importare ed esportare definizioni di report finanziari come pacchetti di configurazione RapidStart. Ad esempio, i pacchetti di configurazione sono utili per condividere le informazioni con altre società. Il pacchetto viene creato in un file .rapidstart, che comprime il contenuto.
 
@@ -205,7 +205,7 @@ Per ulteriori informazioni su come importare o esportare le definizioni di righe
 - [Importare o esportare definizioni di riga di reporting finanziario](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions) o
 - [Importare o esportare definizioni di colonna di reporting finanziario](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Definizioni di riga nel reporting finanziario](bi-row-definitions.md)  
 [Definizioni di colonna nel reporting finanziario](bi-column-definitions.md)  

@@ -9,7 +9,7 @@ ms.date: 04/24/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Creare flussi di lavoro per connettere nei processi aziendali
+# Creare flussi di lavoro per connettere nei processi aziendali
 
 Puoi creare flussi di lavoro che collegano attività nei processi aziendali eseguiti da utenti diversi. Puoi includere le attività di sistema, ad esempio la registrazione automatica, come passaggi nei flussi di lavoro e preceduti o seguiti da task degli utenti. La richiesta e la concessione dell'approvazione per creare nuovi record sono passaggi tipici del flusso di lavoro.  
 
@@ -43,7 +43,7 @@ Un workflow è diviso in tre sezioni:
 
 Le opzioni per gli eventi e per le risposte sono definite dal sistema. Per aggiungere nuove opzioni, dovrai sviluppare un'estensione.
 
-## <a name="to-create-a-workflow"></a>Per creare un flusso di lavoro
+## Per creare un flusso di lavoro
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo**. Verrà aperta la pagina **Workflow**.  
@@ -114,7 +114,7 @@ Le opzioni per gli eventi e per le risposte sono definite dal sistema. Per aggiu
 > [!TIP]  
 > Per esplorare le relazioni tra le tabelle utilizzate nei workflow, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") e immetti **Workflow - Relazioni tabella**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Esempio di creazione di un nuovo flusso di lavoro utilizzando eventi esistenti
+## Esempio di creazione di un nuovo flusso di lavoro utilizzando eventi esistenti
 
 Nell'esempio seguente viene creato un nuovo workflow per approvare una modifica al nome di un fornitore:
 
@@ -173,7 +173,7 @@ La seguente illustrazione fornisce una panoramica del risultato di questa proced
 
 Successivamente, dovrai testare il flusso di lavoro aprendo una scheda fornitore esistente e modificando il nome. Verifica che venga inviata una richiesta di approvazione dopo la modifica del nome del fornitore.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Creare flussi di lavoro da modelli di flussi di lavoro](across-how-to-create-workflows-from-workflow-templates.md)  
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  

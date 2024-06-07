@@ -10,12 +10,12 @@ ms.date: 09/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Programmare processi per regolare e riconciliare il costo dell'inventario
+# Programmare processi per regolare e riconciliare il costo dell'inventario
 
 La programmazione di processi per la rettifica automatica dei costi con la contabilità generale e la registrazione nella contabilità generale sono attivate per impostazione predefinita.
 Tuttavia, poiché i dati si accumulano nel tempo, ciò potrebbe influire sulle prestazioni. Per ridurre il carico sull'applicazione, può essere utile usare i movimenti della coda processi per spostare in background le attività da eseguire.
 
-## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Spostare in background l'attività di rettifica dei costi degli articoli con l'aiuto del setup assistito
+## Spostare in background l'attività di rettifica dei costi degli articoli con l'aiuto del setup assistito
 
 La creazione di movimenti della coda processi può essere complicata, anche per un consulente esperto, quindi abbiamo una guida di installazione assistita per semplificare il processo di rettifica dei costi degli articoli.  
 
@@ -29,7 +29,7 @@ La creazione di movimenti della coda processi può essere complicata, anche per 
 
 5. Selezionare il campo **Visualizzare i movimenti della coda processi al termine dell'operazione** per rivedere e regolare le impostazioni. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Creare un movimento di coda processi per la rettifica e la riconciliazione manuale dei costi di magazzino
+## Creare un movimento di coda processi per la rettifica e la riconciliazione manuale dei costi di magazzino
 
 In alternativa, è possibile creare manualmente i movimenti di coda processi. La procedura seguente mostra come impostare il processo batch **Rettifica costo - Mov. art.** da eseguire automaticamente ogni giorno, ma gli stessi passaggi si applicano al processo batch **Registra costo magazzino in C/G**.  
 
@@ -48,7 +48,7 @@ Per pianificare un'attività per la riconciliazione dell'inventario con la conta
 > [!TIP]
 > Per evitare il blocco, non pianificate le attività per il processo batch **Rettifica costo movimenti articoli**, **Registra costo magazzino in C/GL** codeunit, e le attività per la registrazione delle transazioni di vendita o di acquisto allo stesso tempo. Inoltre, assicuratevi che usino la stessa categoria di coda di processi.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Rettificare i costi degli articoli](inventory-how-adjust-item-costs.md)  
 [Riconciliare i costi del magazzino con la contabilità generale](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

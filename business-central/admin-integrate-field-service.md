@@ -9,7 +9,7 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 
-# <a name="integrate-with-microsoft-dynamics-365-field-service"></a>Integrazione con Microsoft Dynamics 365 Field Service
+# Integrazione con Microsoft Dynamics 365 Field Service
 
 Le organizzazioni di servizi richiedono un'applicazione front-to-back in cui i dati finanziari, l'inventario e l'approvvigionamento siano strettamente collegati alla fornitura dei servizi. Questi generano dati finanziari con ogni transazione. Ogni ordine di lavoro rappresenta costi e ricavi e ogni risorsa genera profitti e perdite. Le interazioni con i clienti aggiungono movimenti nella contabilità generale. L'integrazione tra [!INCLUDE [prod_short](includes/prod_short.md)] e [!INCLUDE [field-service-short](includes/field-service-short.md)] snellisce il processo end-to-end di gestione delle operazioni di servizio e garantisce un flusso regolare di informazioni tra i due sistemi.  
 
@@ -19,27 +19,27 @@ L'integrazione facilita inoltre la fatturazione e l'evasione degli ordini di lav
 
 Grazie all'integrazione di [!INCLUDE [prod_short](includes/prod_short.md)] con [!INCLUDE [field-service-short](includes/field-service-short.md)], non devi inserire i dati manualmente o duplicare gli sforzi. L'integrazione fornisce inoltre una visione completa delle operazioni e dei dati finanziari dei servizi, consentendo un migliore processo decisionale e un'efficienza operativa migliore.
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti
 
 Poiché [!INCLUDE [field-service-short](includes/field-service-short.md)] è basato su Dynamics 365 Sales, devi [configurare una connessione a Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) e [abilitare l'integrazione con Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
 
-### <a name="permissions-and-security-roles-for-user-accounts"></a>Autorizzazioni e ruoli di sicurezza per account utente
+### Autorizzazioni e ruoli di sicurezza per account utente
 
 Quando si installa la soluzione di integrazione, le autorizzazioni per l'account utente di integrazione sono configurate. Se tali autorizzazioni cambiano, potrebbe essere necessario ripristinarle. A tale scopo, reinstalla la soluzione di integrazione selezionando **Ridistribuisci soluzione di integrazione** nella pagina **Setup connessione a Dynamics 365**. Le sezioni seguenti elencano le autorizzazioni e i ruoli di sicurezza distribuiti dalla soluzione per ogni app.
 
-#### <a name="sales"></a>Vendita
+#### Vendita
 
 * Amministratore di integrazione Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]
 * Utente di integrazione Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]
 * Utente disponibilità prodotto Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]
 
-#### <a name="business-central"></a>Business Central
+#### Business Central
 
 Gli utenti che pubblicano registrazioni progetti devono disporre del seguente set di autorizzazioni:
 
 * Integrazione Dynamics 365 Sales
 
-#### <a name="field-service"></a>Settore servizi
+#### Settore servizi
 
 Per utilizzare i dati integrati, gli utenti devono avere il seguente ruolo di sicurezza:
 
@@ -60,7 +60,7 @@ Ad esempio, gli utenti devono avere questo ruolo per connettere gli ordini di la
 > * Devi disporre delle autorizzazioni di **lettura** per la tabella **Connessione Dynamics 365 Business Central** (nav_connection).
 > * Devi disporre delle autorizzazioni di **lettura**, **scrittura** ed **eliminazione** per la tabella **Connessione Dynamics 365 Business Central predefinita** (nav_defaultconnection).
 
-### <a name="other-settings-in-field-service"></a>Altre impostazioni in Field Service
+### Altre impostazioni in Field Service
 
 Nella pagina **Impostazione Field Service**, apporta le seguenti modifiche:
 
@@ -70,7 +70,7 @@ Nella pagina **Impostazione Field Service**, apporta le seguenti modifiche:
 > [!NOTE]
 > L'impostazione di una connessione a [!INCLUDE [field-service-short](includes/field-service-short.md)] rimuove l'associazione tra risorse e prodotti. Per rendere gli articoli di [!INCLUDE [prod_short](includes/prod_short.md)] disponibili in [!INCLUDE [field-service-short](includes/field-service-short.md)], aggiorna il campo **Tipo di prodotto Field Service** in modo che corrisponda al campo **Tipo** in [!INCLUDE [prod_short](includes/prod_short.md)]. Per saperne di più, vai a [Creare un prodotto o un servizio](/dynamics365/field-service/create-product-or-service#create-a-product-or-service).
 
-## <a name="set-up-the-integration-in-business-central"></a>Configurare l'integrazione in Business Central
+## Configurare l'integrazione in Business Central
 
 Dopo aver stabilito una connessione a Dataverse e Sales, puoi configurare la tua integrazione con [!INCLUDE [field-service-short](includes/field-service-short.md)]. Nella pagina **Setup assistito** in [!INCLUDE [prod_short](includes/prod_short.md)], scegli **Configura integrazione con Dynamics 365 Field Service** per eseguire la guida al setup assistito. Questa sezione descrive le impostazioni principali nella guida.
 
@@ -91,7 +91,7 @@ Dopo aver completato la configurazione, esegui una sincronizzazione completa all
 * Le risorse che non sono bloccate, non hanno **Usa foglio presenze** selezionato e hanno **Ore**  specificato come unità di misura nella pagina **Impostazione dell'integrazione di Dynamics 365 Field Service**.
 * Articoli di servizio (richiede l'utilizzo dell'esperienza Premium in [!INCLUDE [prod_short](includes/prod_short.md)]).
 
-## <a name="standard-field-service-entity-mapping-for-synchronization"></a>Mapping delle entità di Field Service standard per la sincronizzazione
+## Mapping delle entità di Field Service standard per la sincronizzazione
 
 La base della sincronizzazione dei dati consiste nel mapping delle tabelle e dei campi in [!INCLUDE [prod_short](includes/prod_short.md)] con tabelle e colonne in Dataverse, di modo che possano scambiarsi i dati. Il mapping avviene tramite tabelle di integrazione. Per ulteriori informazioni sui mapping delle tabelle, vai a [Mapping delle tabelle e dei campi da sincronizzare](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
@@ -103,11 +103,11 @@ Integrazione con [!INCLUDE [field-service-short](includes/field-service-short.md
 * **RESOURCE-BOOKABLERSC** - Mappa le risorse in [!INCLUDE [prod_short](includes/prod_short.md)] alle risorse prenotabili in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 * **SVCITEM-CUSTASSET** - (solo esperienza Premium) Mappa gli articoli di servizio in [!INCLUDE [prod_short](includes/prod_short.md)] alle risorse del cliente in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-## <a name="use-data-in-both-applications"></a>Utilizzare i dati in entrambe le applicazioni
+## Utilizzare i dati in entrambe le applicazioni
 
 Le sezioni seguenti descrivono le funzionalità in cui è possibile utilizzare i dati provenienti da [!INCLUDE [prod_short](includes/prod_short.md)] e [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-### <a name="field-service-1"></a>Settore servizi
+### Settore servizi
 
 Puoi [creare ordini di lavoro](/dynamics365/field-service/create-work-order) utilizzando **Account di servizio** e **Account di fatturazione** da [!INCLUDE [prod_short](includes/prod_short.md)]. Negli ordini di lavoro, devi selezionare **Attività progetto Business Central** nel campo **Progetto esterno**. La selezione di un progetto consente di sincronizzare i prodotti e i servizi dell'ordine di lavoro con l'attività di progetto appropriata in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -120,7 +120,7 @@ Puoi aggiungere articoli del tipo servizio come **Servizi per ordini di lavoro**
 
 Puoi prenotare una risorsa e collegare le **Prenotazioni** ai servizi dell'ordine di lavoro utilizzando una **Risorsa prenotabile** da [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="business-central-1"></a>Business Central
+### Business Central
 
 A seconda delle impostazioni nella pagina **Impostazione dell'integrazione di Field Service**, quando gli ordini di lavoro includono prodotti e servizi, le informazioni sul consumo vengono trasferite e registrate utilizzando una **Registrazione progetti** in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -135,7 +135,7 @@ Utilizza la pagina **Righe di pianificazione progetto** per tenere traccia della
 >
 > Puoi creare una fattura per un articolo di tipo **Servizio** dalla riga di pianificazione del progetto fatturabile e utilizzare la riga di pianificazione del progetto budget per registrare i costi con la risorsa.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Integrazione con Microsoft Dataverse tramite la sincronizzazione dei dati](admin-common-data-service.md)  
 [Mapping delle tabelle e dei campi da sincronizzare](admin-how-to-modify-table-mappings-for-synchronization.md)

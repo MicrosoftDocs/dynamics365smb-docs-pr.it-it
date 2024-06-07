@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-tracing-seriallot-numbers"></a>Procedura dettagliata: Tracciabilità dei numeri seriali/lotto
+# Procedura dettagliata: Tracciabilità dei numeri seriali/lotto
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -19,7 +19,7 @@ Il primo task della gestione dei difetti consiste nell'identificare la provenien
 
 Il secondo task consiste nel determinare se gli articoli tracciati sono pianificati in documenti aperti, ad esempio ordini di vendita non registrati o registrazioni consumi. Questa operazione viene eseguita nella pagina **Trova movimenti**. È possibile utilizzare la funzione Trova movimenti per individuare tutti i tipi di record di database.  
 
-## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
+## Informazioni sulla procedura dettagliata
 
 In questa procedura dettagliata viene illustrato come identificare gli articoli difettosi, il loro fornitore e in quali ubicazioni sono stati utilizzati in modo da poter fare un richiamo sugli ordini o bloccarli.  
 
@@ -29,7 +29,7 @@ In questa procedura dettagliata sono illustrati i task seguenti:
 - Tracciabilità dall'origine all'utilizzo.  
 - Ricerca di tutti i record correnti che contengono il numero seriale/di lotto tracciato  
 
-## <a name="roles"></a>Ruoli
+## Ruoli
 
 Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
 
@@ -38,14 +38,14 @@ Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:
 - Gestore ordini  
 - Rivenditore  
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti
 
 Per completare questa procedura dettagliata, sarà necessario:  
 
 - La società [!INCLUDE[prod_short](includes/prod_short.md)].  
 <!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Scenario
+## Scenario
 
 Luca, il manager qualità, deve occuparsi di un reso vendita dell'articolo 1002, una bicicletta da corsa. Il cliente, Selangorian Ltd., sostiene che alcune delle saldature presenti sul telaio hanno ceduto. I tecnici del controllo qualità confermano che il telaio della bicicletta restituita è effettivamente difettoso. Il manager qualità deve a questo punto determinare:  
 
@@ -58,7 +58,7 @@ I risultati di questo primo task di tracciabilità articolo consentono di identi
 
 I primi due task di gestione dei difetti vengono eseguiti nella pagina **Tracciabilità articolo**. L'ultimo task viene invece eseguito nella pagina **Trova movimenti** in combinazione con la pagina **Tracciabilità articolo**.  
 
-## <a name="prepare-sample-data"></a>Preparazione dei dati di esempio
+## Preparazione dei dati di esempio
 
 È necessario creare i nuovi articoli seguenti:  
 
@@ -67,7 +67,7 @@ I primi due task di gestione dei difetti vengono eseguiti nella pagina **Traccia
 
 Sarà quindi necessario creare diverse transazioni di acquisto, produzione e vendita con i due articoli.  
 
-### <a name="to-create-the-items"></a>Per creare gli articoli
+### Per creare gli articoli  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Articoli**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -104,7 +104,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     A questo punto, acquistare telai da corsa da Custom Metals Incorporated.  
 
-### <a name="to-purchase-components"></a>Per acquistare i componenti
+### Per acquistare i componenti
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini acquisto**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.  
@@ -135,7 +135,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     Quindi, produrre due biciclette da corsa, NS1 e NS2.  
 
-### <a name="to-produce-end-items"></a>Per produrre gli articoli finali
+### Per produrre gli articoli finali
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini di produzione rilasciati**, quindi scegli il collegamento correlato.  
 2. Scegliere il gruppo **Nuovo**.  
@@ -182,7 +182,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     A questo punto, vendere le biciclette. In primo luogo vendere la bicicletta da corsa con NS1 a Selangorian Ltd.  
 
-### <a name="to-sell-the-end-items"></a>Per vendere gli articoli finali
+### Per vendere gli articoli finali
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ordini vendita**, quindi seleziona il collegamento correlato.  
 2.  Scegliere l'azione **Nuovo**, quindi creare un ordine di vendita compilando i campi seguenti.  
@@ -222,11 +222,11 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     I dati necessari per illustrare le funzionalità Tracciabilità articolo e Trova movimenti sono pronti.  
 
-## <a name="tracing-from-usage-to-origin"></a>Tracciabilità dall'utilizzo all'origine
+## Tracciabilità dall'utilizzo all'origine
 
  Il reparto vendite comunica al manager qualità che il numero seriale della bicicletta restituita, l'articolo 1002, è NS1. Con questa informazione di base può determinare dove la bicicletta da corsa finita è stata utilizzata l'ultima volta, in questo caso nella spedizione a Selangorian Ltd. Il manager qualità deve quindi tracciare all'indietro l'origine per stabilire il lotto di provenienza del telaio difettoso e il relativo fornitore.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Per risalire al lotto che includeva il telaio difettoso e al relativo fornitore
+### Per risalire al lotto che includeva il telaio difettoso e al relativo fornitore
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tracciabilità articolo**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Tracciabilità articolo** immettere **NS1** nel campo **Filtro nr. seriale**, quindi immettere **1002** nel campo **Filtro articolo**.  
@@ -253,13 +253,13 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
      Il primo task di gestione dei difetti tramite la pagina **Tracciabilità articolo** è stato completato. Il manager qualità deve ora determinare se altri documenti registrati hanno gestito telai da corsa del LOTTO1.  
 
-## <a name="tracing-from-origin-to-usage"></a>Tracciabilità dall'origine all'utilizzo
+## Tracciabilità dall'origine all'utilizzo
 
  Il manager qualità ha stabilito che i telai da corsa difettosi appartenevano al LOTTO1. Deve ora trovare eventuali altre biciclette prodotte con i telai difettosi in modo da fare un richiamo sull'ordine o bloccarlo.  
 
  Un modo per preparare questo task di analisi nella pagina **Tracciabilità articolo** consiste nell'immettere manualmente LOTTO1 nel campo **Filtro nr. lotto** e 2000 nel campo **Filtro articolo**. Tuttavia, questa procedura dettagliata utilizza la funzione **Analizza opposto - da Riga** .  
 
-### <a name="to-find-all-usage-of-the-faulty-lot"></a>Per trovare tutti gli utilizzi del lotto difettoso
+### Per trovare tutti gli utilizzi del lotto difettoso  
 
 1.  Nella pagina **Tracciabilità articolo** selezionare la riga della ricezione acquisti, l'ultima riga di analisi e scegliere **Analizza opposto - da Riga**.  
 
@@ -277,11 +277,11 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
     Il secondo task di gestione dei difetti tramite la pagina **Tracciabilità articolo** è stato completato. Poiché la pagina **Tracciabilità articolo** è basata unicamente sui movimenti registrati, il manager qualità deve passare alla pagina **Trova movimenti** per assicurarsi che il LOTTO1 non venga utilizzato nei documenti non registrati.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Ricerca di tutti i record di un numero seriale/di lotto
+## Ricerca di tutti i record di un numero seriale/di lotto
 
  Tramite la pagina **Tracciabilità articolo** il manager qualità ha stabilito che i telai da corsa difettosi appartenevano al LOTTO1, ha individuato il loro fornitore e le transazioni registrate in cui sono state utilizzate. Deve ora determinare se il LOTTO1 esiste in documenti aperti passando alla pagina **Trova movimenti** in cui può eseguire una ricerca in tutti i record di database.  
 
-### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Per trovare tutte le occorrenze del LOTTO1 nei record non registrati, ad esempio ordini aperti
+### Per trovare tutte le occorrenze del LOTTO1 nei record non registrati, ad esempio ordini aperti  
 
 1.  Nella pagina **Tracciabilità articolo** selezionare la prima riga di tracciabilità, la ricezione acquisti del LOTTO1.  
 2.  Scegliere l'azione **Trova movimenti**.  
@@ -296,7 +296,7 @@ Sarà quindi necessario creare diverse transazioni di acquisto, produzione e ven
 
  La procedura dettagliata relativa all'utilizzo della pagina **Trova movimenti** per la gestione dei difetti in combinazione con la pagina **Tracciabilità articolo** è stata completata.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare i numeri di serie e di lotto](inventory-how-work-item-tracking.md)  
 [Tracciare gli articoli tracciati](inventory-how-to-trace-item-tracked-items.md)  

@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.custom: bap-template
 ---
 
-# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Condivisione di record e link di pagine di Business Central in Microsoft Teams
+# Condivisione di record e link di pagine di Business Central in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 [!INCLUDE [prod_short](includes/prod_short.md)] offre un paio di modi per condividere i dati da Business Central direttamente in una conversazione Microsoft Teams:
 
 <!-- 
-## <a name="overview"></a>Overview
+## Overview
 In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
 The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
@@ -36,13 +36,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 Le sezioni seguenti descrivono i diversi modi in dettaglio.
 
-## <a name="include-and-view-a-business-central-card-in-a-teams-conversation"></a>Includere e visualizzare una scheda Business Central in una conversazione Teams
+## Includere e visualizzare una scheda Business Central in una conversazione Teams
 
 Con l'applicazione Business Central per Teams, puoi copiare un link da qualsiasi record di Business Central, come un cliente o un ordine di vendita, e incollare il link in una conversazione di Teams. L'app collega Microsoft Teams ai dati aziendali in [!INCLUDE [prod_short](includes/prod_short.md)]\. Poi espande il link in una scheda compatta e interattiva che visualizza le informazioni sul record. Una volta nella conversazione, l'utente e i colleghi possono visualizzare ulteriori dettagli sul record, modificare i dati e intraprendere azioni, senza uscire da Teams.
 
 [![Integrazione di Teams con Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
-### <a name="prerequisites"></a>Prerequisiti
+### Prerequisiti
 
 - Avere accesso a Microsoft Teams.
 - Avere installato l'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams. Per ulteriori informazioni, vedere [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)
@@ -50,7 +50,7 @@ Con l'applicazione Business Central per Teams, puoi copiare un link da qualsiasi
 > [!NOTE]
 > Tutti i partecipanti a una conversazione di Teams saranno in grado di visualizzare le schede per i record di Business Central inviati alla conversazione. Tuttavia per visualizzare maggiori dettagli sui record, utilizzando i pulsanti **Dettagli** o **Apri nuova finestra** in una scheda, sarà necessario accedere a [!INCLUDE [prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedere [Gestione dell'integrazione di Microsoft Teams](admin-teams-integration.md#minimum-requirements-1).
 
-### <a name="include-a-business-central-card-in-a-teams-conversation"></a>Includere una scheda Business Central in una conversazione di Teams
+### Includere una scheda Business Central in una conversazione di Teams
 
 1. Accedere a [!INCLUDE [prod_short](includes/prod_short.md)] utilizzando il browser.
 2. Aprire il record che si desidera condividere.
@@ -79,7 +79,7 @@ Con l'applicazione Business Central per Teams, puoi copiare un link da qualsiasi
     > Dopo che viene visualizzata la scheda e prima di selezionare **Invia** è possibile eliminare l'URL incollato, se desiderato.
 9. Per visualizzare ulteriori dettagli o apportare modifiche al record visualizzato nella scheda, selezionare **Dettagli**. Per ulteriori informazioni, vedere la sezione seguente.
 
-### <a name="view-card-details"></a>Visualizzare i dettagli della scheda
+### Visualizzare i dettagli della scheda
 
 Una volta che una scheda è stata inviata a una conversazione, tutti i partecipanti con le [autorizzazioni adeguate](admin-teams-integration.md#permissions) possono selezionare **Dettagli** per aprire una finestra che visualizza ulteriori informazioni sul record ed eventualmente apportare modifiche al record. Non importa se sei tu a inviare la scheda o a riceverla. La funzionalità **Dettagli** è particolarmente utile per i destinatari, perché fornisce loro rapidamente informazioni concise e mirate sul record.
 
@@ -92,20 +92,20 @@ Ecco un paio di cose da tenere a mente quando si utilizzano i dettagli della sch
 
 Per ulteriori informazioni sull'utilizzo delle schede e sui dettagli delle schede, vedi [Domande frequenti su Teams](teams-faq.md).
 
-## <a name="share-a-link-to-page-from-business-central-to-teams"></a><a name="share-link"></a>Condividi un link alla pagina da Business Central a Teams
+## <a name="share-link"></a>Condividi un link alla pagina da Business Central a Teams
 
 Direttamente dalla maggior parte delle pagine di raccolta, come la pagina degli **articoli**, e dalle pagine dei dettagli, come la scheda degli **articoli**, puoi inviare un link alla pagina a destinatari specifici in una conversazione di Team. Per esempio, puoi condividere un link a una vista filtrata dei tuoi record. I destinatari possono quindi selezionare il link per aprire la pagina in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![Il menu Condividi visualizzato su una scheda.](media/teams-share-link-v2.png "Il menu Condividi visualizzato su una scheda.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites-1"></a>Prerequisiti
+### Prerequisiti
 
 - Avere accesso a Microsoft Teams.
 - (Facoltativo) Avere installato l'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams. 
 
   Con l'app installata, i messaggi che invii con il collegamento includeranno anche una scheda compatta per la pagina. Per ulteriori informazioni su come installare l'app, vedi [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md).
 
-### <a name="share-a-link"></a>Condividi un link
+### Condividi un link
 
 1. In [!INCLUDE [prod_short](includes/prod_short.md)]\, apri la pagina che vuoi condividere.
 2. Nella parte superiore della pagina, scegli l'azione ![!Condividi con altre app sulle pagine.](media/share-icon.png) e poi **Condividi in Teams**.
@@ -116,7 +116,7 @@ Direttamente dalla maggior parte delle pagine di raccolta, come la pagina degli 
    Aggiungi altre informazioni se vuoi, poi scegli **Condividi**.
 6. Il link è stato condiviso. Se vuoi andare alla conversazione, scegli **Vai a Teams**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'integrazione di Business Central e Microsoft Teams](across-teams-overview.md)  
 [Installare l'App [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  

@@ -10,15 +10,15 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="troubleshooting-your-company-hub"></a>Risoluzione dei problemi dell'hub aziendale
+# Risoluzione dei problemi dell'hub aziendale
 
 Anche aggiungere le società al dashboard dell'hub aziendale è facile, ma in questo articolo vengono tratti i problemi che potrebbero verificarsi.  
 
-## <a name="check-errors"></a>Controlla errori
+## Controlla errori
 
 Usare l'azione **Controlla errori** per visualizzare un elenco di errori recenti. È possibile visualizzare ulteriori dettagli per ogni errore e pulire il log eliminando le voci precedenti.  
 
-## <a name="connection-failed"></a>Connessione non riuscita
+## Connessione non riuscita
 
 Ci possono essere un paio di motivi per cui non è possibile connettersi a una società, inclusi i seguenti:
 
@@ -32,13 +32,13 @@ Ci possono essere un paio di motivi per cui non è possibile connettersi a una s
 
   In [!INCLUDE [prod_short](includes/prod_short.md)], un'organizzazione può avere più business unit denominate società ed è possibile che non si disponga dell'accesso a tutte le società. Collaborare con l'amministratore o il cliente in modo che sia possibile accedere alle società con si desidera lavorare.  
 
-## <a name="data-does-not-refresh"></a>I dati non vengono aggiornati
+## I dati non vengono aggiornati
 
 Quando si aggiunge una società o si richiede un aggiornamento dei dati, [!INCLUDE [prod_short](includes/prod_short.md)] recupera i dati. Tuttavia è necessario aggiornare la pagina manualmente, ad esempio con l'azione **Ricarica tutte le società**, aggiornando la pagina del browser, uscendo e quindi rientrando nel dashboard o in altri modi simili.  
 
 Se è stata aggiunta una società, ma non viene visualizzata nell'elenco, è anche possibile utilizzare l'azione **Ricarica tutte le società** per aggiornare l'elenco.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestire il lavoro tra più aziende nell'hub aziendale](company-hub.md)  
 [Aggiungere società all'hub aziendale](company-hub-add-company.md)  

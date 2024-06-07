@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-by-functional-area"></a>Analisi per area funzionale
+# Analisi per area funzionale
 
 Il contenuto generale sull'analisi è disponibile anche in versioni speciali per molte delle aree funzionali di [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -24,7 +24,7 @@ Il contenuto generale sull'analisi è disponibile anche in versioni speciali per
 | Gestione dei cespiti | [Analisi dei cespiti](fa-analytics-overview.md) |
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'analisi](reports-bi-reporting.md)  
 

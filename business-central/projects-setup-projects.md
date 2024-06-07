@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-project-management"></a>Impostazione della gestione progetti
+# Impostazione della gestione progetti
 
 Prima di utilizzare [!INCLUDE[prod_short](includes/prod_short.md)] per gestire i progetti, è necessario impostare risorse, fogli presenze e progetti.
 
@@ -26,7 +26,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 | Consentire alle risorse di indicare l'utilizzo del tempo per un individuo o una macchina e consentire al responsabile di esaminare l'utilizzo e la relativa allocazione. |[Impostare i fogli presenze](projects-how-setup-time-sheets.md) |
 | Creare schede progetto e preparare attività di progetto. Impostare i prezzi per articoli di progetto e le risorse di progetto e definire le categorie di registrazione di progetti. |[Impostare i progetti](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Gestione di progetti](projects-manage-projects.md)  
 [Video: Come creare un progetto in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
