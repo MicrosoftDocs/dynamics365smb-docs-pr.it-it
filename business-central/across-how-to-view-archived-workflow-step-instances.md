@@ -10,7 +10,7 @@ ms.date: 09/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Visualizzare le istanze di fase workflow archiviate
+# <a name="view-archived-workflow-step-instances"></a>Visualizzare le istanze di fase workflow archiviate
 
 Tutte le istanze di fasi workflow vengono salvate nella pagina **Istanze di fasi workflow archiviate**.  
 
@@ -19,7 +19,7 @@ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle
 > [!NOTE]
 > Per visualizzare la cronologia e lo stato dei workflow utilizzando l'integrazione di Power Automate, scegli l'azione **I miei flussi** nella pagina **Power Automate**, quindi scegli un flusso per visualizzarne la cronologia e lo stato di esecuzione.
 
-## Per visualizzare le istanze del passaggio del flusso di lavoro archiviate
+## <a name="to-view-archived-workflow-step-instances"></a>Per visualizzare le istanze del passaggio del flusso di lavoro archiviate
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Aprire il flusso di lavoro per cui si desidera visualizzare tutte le istanze del passaggio del flusso di lavoro archiviate.  
@@ -30,7 +30,7 @@ Nella pagina **Workflow** creare un workflow elencando le fasi interessate nelle
 
    La pagina **Istanze di fasi workflow archiviate** si apre mostrando tutte le istanze di fasi workflow varchiviate. Nel campo **Codice workflow** è possibile visualizzare il workflow a cui appartiene l'istanza di fase workflow archiviata.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Eliminare i workflow di approvazione](across-how-to-delete-workflows.md)  
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  

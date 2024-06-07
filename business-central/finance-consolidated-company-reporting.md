@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Consolidare dati finanziari di molteplici società
+# <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidare dati finanziari di molteplici società
 
 Alcune organizzazioni usano [!INCLUDE [prod_short](includes/prod_short.md)] in più business unit o persone giuridiche. Altre usano [!INCLUDE [prod_short](includes/prod_short.md)] nelle filiali che devono riferire nelle organizzazioni madri. [!INCLUDE [prod_short](includes/prod_short.md)] offre ai contabili strumenti che li aiutano a trasferire i movimenti C/G da due o più società (filiali) a una società consolidata.  
 
@@ -36,11 +36,11 @@ Una società consolidata viene impostata come qualsiasi altra società. Il piano
 > [!TIP]
 > Il consolidamento dei dati finanziari può essere particolarmente pertinente per processi Intercompany. Per ulteriori informazioni sulle funzionalità interaziendali, vai a [Gestione delle transazioni interaziendali](intercompany-manage.md).
 
-## Consolidare i dati
+## <a name="consolidate-data"></a>Consolidare i dati
 
 Prima di eseguire il consolidamento, è una buona idea testare i dati prima di trasferirli alla società consolidata. [!INCLUDE[prod_short](includes/prod_short.md)] cerca le differenze tra le informazioni delle business unit e quelle della società consolidata. Ad esempio, se i numeri di conto o i codici di dimensione sono diversi. Correggi gli eventuali errori rilevati prima di eseguire il report. Puoi verificare il database oppure, se importi dati da un file XML, il file.
 
-### Verificare i dati prima del consolidamento
+### <a name="test-the-data-before-you-consolidate"></a>Verificare i dati prima del consolidamento
 
 1. Aprire la società consolidata.  
 2. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Business unit**, quindi scegli il collegamento correlato.  
@@ -49,7 +49,7 @@ Prima di eseguire il consolidamento, è una buona idea testare i dati prima di t
     * Per verificare un file, scegliere l'azione **Test file**, immettere il nome del file da verificare, quindi scegliere **Stampa**.  
     * Per verificare il database, scegliere **Test database**.  
 
-### Eseguire il consolidamento
+### <a name="run-the-consolidation"></a>Eseguire il consolidamento
 
 Dopo aver testato i dati, è possibile trasferirli alla società consolidata. Una guida al setup assistito ti aiuterà durante il processo.
 
@@ -60,7 +60,7 @@ Dopo aver testato i dati, è possibile trasferirli alla società consolidata. Un
 2. Nella pagina **Business Units** scegli l'azione **Consolida**.  
 3. Compilare i campi necessari.  
 
-## Usare il report Bilancio di verifica consolidato
+## <a name="use-the-consolidated-trial-balance-report"></a>Usare il report Bilancio di verifica consolidato
 
 Il report **Bilancio di verifica consolidato** può fornire una panoramica dello stato finanziario generale dell'attività commerciale. Il report combina i movimenti di contabilità generale di ognuna delle società in una nuova società creata per i dati consolidati. La società consolidata è solo un contenitore per i dati unificati e non presenta dati aziendali dinamici. Le società incluse nella società consolidata diventano **business unit** nel report. Se hai al massimo quattro business unit, puoi anche utilizzare il report **Bil. di verif. consolidato (4)**.  
 
@@ -71,7 +71,7 @@ Il report mostra una riga per ogni conto e segue la struttura del piano dei cont
 * Le eliminazioni eseguite nella società consolidata. Le eliminazioni vengono sempre visualizzate per un periodo corrispondente all'anno fiscale della società consolidata.
 * Il totale per la società consolidata in seguito alle eliminazioni, visualizzato sia come saldo periodo che come saldo alla data.
 
-## Eliminare transazioni ripetute
+## <a name="eliminate-repeated-transactions"></a>Eliminare transazioni ripetute
 
 Dopo avere eseguito il consolidamento delle società, è necessario trovare ed eliminare le transazioni registrate più di una volta nelle società. L'elaborazione delle eliminazioni in seguito al consolidamento è un processo manuale.  
 
@@ -96,7 +96,7 @@ Viene creata una riga per ogni conto secondo la struttura del piano dei conti. U
 * Il testo di registrazione copiato dalle registrazioni generali.
 * Il totale della società consolidata in seguito alle eliminazioni, nel caso vengano registrate.
 
-## Esportare e importare dati consolidati tra database
+## <a name="export-and-import-consolidated-data-between-databases"></a>Esportare e importare dati consolidati tra database
 
 Se i dati di una business unit si trovano in un altro database, puoi eseguire un trasferimento manuale basato su file o automatizzare il processo utilizzando un'API. Per ulteriori informazioni sull'API, vedi [Utilizzare la nostra API per condividere automaticamente i dati tra ambienti](#use-our-api-to-automatically-share-data-across-environments).
 
@@ -116,11 +116,11 @@ I movimenti esportati contengono i seguenti campi: **Nr. conto**, **Data di regi
 3. Il valore delle dimensioni esportato per il movimento sarà il valore delle dimensioni della società consolidata specificato nel campo **Cod. consolidamento** per tale valore. Se nel campo **Cod. consolidamento** non è stato immesso un valore delle dimensioni della società consolidata per tale valore, nella riga verrà esportato il valore delle dimensioni stesso.  
 4. I file XML, inoltre, contengono i tassi di cambio valuta inclusi nel periodo di consolidamento. I tassi sono inclusi in una sezione separata all'inizio del file.  
 
-## Utilizzare la nostra API per condividere automaticamente i dati tra ambienti
+## <a name="use-our-api-to-automatically-share-data-across-environments"></a>Utilizzare la nostra API per condividere automaticamente i dati tra ambienti
 
 [!INCLUDE [prod_short](includes/prod_short.md)] fornisce un'API che ti consente di automatizzare il processo di condivisione dei dati finanziari dalle business unit alla società consolidata. L'API è gratuita e facile da configurare. Ti consente anche di condividere i dati tra ambienti [!INCLUDE [prod_short](includes/prod_short.md)]. Ad esempio, potrebbe essere necessario effettuare la condivisione tra ambienti quando le business unit non si trovano nelle stesse aree geografiche di Azure. Per ulteriori informazioni sull'utilizzo dell'API per automatizzare il processo di consolidamento, vedi [Impostare il consolidamento di una società](finance-consolidated-company-reporting-setup.md#busunit).
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Impostare il consolidamento società](finance-consolidated-company-reporting-setup.md)  
 [Gestione delle transazioni Intercompany](intercompany-manage.md)  

@@ -9,7 +9,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
+# <a name="design-details-assembly-order-posting"></a>Dettagli di progettazione: Registrazione dell'ordine di assemblaggio
 La registrazione dell'ordine di assemblaggio è basata sugli stessi principi della registrazione delle attività analoghe degli ordini di vendita e del consumo di produzione o dell'output. Tuttavia, i principi vengono combinati nel fatto che gli ordini di assemblaggio dispongono di una propria interfaccia utente di registrazione, quella per gli ordini di vendita, mentre l'effettiva registrazione dei movimenti si verifica in background come registrazioni dirette di risorse e articoli, come quella per il consumo di produzione, l'output e la capacità.  
 
 Analogamente alla registrazione dell'ordine di produzione, i componenti consumati e le risorse utilizzate vengono convertiti e resi come articolo di assemblaggio una volta registrato l'ordine di assemblaggio. Per ulteriori informazioni, vedere [Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md). Tuttavia, il flusso dei costi per gli ordini di assemblaggio è meno complesso, soprattutto perché la registrazione dei costi di assemblaggio si verifica solo una volta e pertanto non genera magazzino WIP.  
@@ -32,7 +32,7 @@ Nel seguente diagramma viene mostrato il flusso dei dati di assemblaggio nei mov
 
 ![Flusso dei movimenti correlati all'assemblaggio durante la registrazione.](media/design_details_assembly_posting_2.png "Flusso dei movimenti correlati all'assemblaggio durante la registrazione")  
 
-## Sequenza di registrazione  
+## <a name="posting-sequence"></a>Sequenza di registrazione
 La registrazione di un ordine di assemblaggio viene eseguita nel seguente ordine:  
 
 1.  Le righe dell'ordine di assemblaggio vengono registrate.  
@@ -48,12 +48,12 @@ Nella seguente tabella viene illustrata la sequenza di azioni.
 > [!IMPORTANT]  
 >  A differenza dell'output di produzione, che viene registrato al costo previsto, l'output di assemblaggio viene registrato al costo effettivo.  
 
-## Rettifica costo  
+## <a name="cost-adjustment"></a>Rettifica costo
  Un volta registrato un ordine di assemblaggio, ovvero una volta che i componenti (materiale) e le risorse sono assemblati in un nuovo articolo, dovrebbe essere possibile determinare il costo effettivo di tale articolo di assemblaggio e il costo di magazzino effettivo dei componenti interessati. A tal fine vengono inoltrati i costi dai movimenti registrati dell'origine (i componenti e le risorse) ai movimenti registrati della destinazione (l'articolo di assemblaggio). L'inoltro di costi viene svolto calcolando e generando nuovi movimenti, chiamati movimenti di rettifica, che vengono associati ai movimenti di destinazione.  
 
  I costi di assemblaggio da inoltrare vengono rilevati attraverso il meccanismo di tracciabilità del livello di ordine. Per informazioni su altri meccanismi di rilevazione rettifica, vedere [Dettagli di progettazione: Rettifica costo](design-details-cost-adjustment.md).  
 
-### Rilevazione della rettifica  
+### <a name="detecting-the-adjustment"></a>Rilevazione della rettifica
 La funzione di rilevamento del livello di ordine viene utilizzata in scenari di conversione, produzione e assemblaggio. Le funzioni della funzione sono le seguenti:  
 
 -   La rettifica dei costi viene rilevata contrassegnando l'ordine ogni volta che una risorsa o un materiale viene registrato come utilizzato o consumato.  
@@ -63,7 +63,7 @@ Nel seguente grafico viene visualizzata la struttura del movimento di rettifica 
 
 ![Flusso dei movimenti correlati all'assemblaggio durante la rettifica costi.](media/design_details_assembly_posting_3.png "Flusso dei movimenti correlati all'assemblaggio durante la registrazione")  
 
-### Esecuzione della rettifica  
+### <a name="performing-the-adjustment"></a>Esecuzione della rettifica
 La distribuzione delle rettifiche rilevate dai costi delle risorse e dei materiali nei movimenti di output assemblaggio viene eseguita dal processo batch **Rettifica costo - Movimenti articoli**. Contiene la funzione di rettifica multilivello, che è costituita dai seguenti due elementi:  
 
 -   Rettifica ordine di assemblaggio, che inoltra il costo del materiale e dell'utilizzo delle risorse al movimento di output assemblaggio. Ciò è dovuto alle righe 5 e 6 dell'algoritmo riportato di seguito.  
@@ -76,7 +76,7 @@ La distribuzione delle rettifiche rilevate dai costi delle risorse e dei materia
 
 Per ulteriori informazioni su come i costi dall'assemblaggio e della produzione vengono registrati nella contabilità generale, vedere [Dettagli di progettazione: Registrazione di magazzino](design-details-inventory-posting.md).  
 
-## I costi di assemblaggio sono sempre effettivi  
+## <a name="assembly-costs-are-always-actual"></a>I costi di assemblaggio sono sempre effettivi
  Il concetto WIP (WIP) non si applica alla registrazione dell'ordine di assemblaggio. I costi di assemblaggio vengono registrati solo come costo effettivo, mai come costo previsto. Per ulteriori informazioni, vedere [Dettagli di progettazione: Registrazione costi previsti](design-details-expected-cost-posting.md).  
 
 Ciò è possibile grazie alla seguente struttura dei dati.  
@@ -94,21 +94,21 @@ Inoltre, i campi della categoria di registrazione nella testata ordine di assemb
 
 Di conseguenza, solo i costi effettivi vengono registrati nella contabilità generale e nessun conto provvisorio viene compilato dalla registrazione dell'ordine di assemblaggio. Per ulteriori informazioni, vedere [Dettagli di progettazione: Conti nella contabilità generale](design-details-accounts-in-the-general-ledger.md).  
 
-## Assemblaggio su ordine  
+## <a name="assemble-to-order"></a>Assemblaggio su ordine
 Il movimento contabile articolo che risulta dalla registrazione di una vendita di assemblaggio su ordine è collegato in modo fisso al movimento contabile articolo correlato per l'output di assemblaggio. Di conseguenza, il costo di una vendita di assemblaggio su ordine è derivato dall'ordine di assemblaggio a cui è stato collegato.  
 
 I movimenti contabili articoli di tipo Vendita che derivano dalla registrazione delle quantità di assemblaggio su ordine sono contrassegnati con **Sì** nel campo **Assemblaggio su ordine**.  
 
 La registrazione di righe ordini di vendita in cui una parte è quantità di magazzino e un'ulteriore parte è quantità per l'assemblaggio su ordine dà come risultato movimenti contabili articoli separati, uno per la quantità di magazzino e uno per la quantità per l'assemblaggio su ordine.  
 
-### Date di registrazione
+### <a name="posting-dates"></a>Date di registrazione
 
 In generale, le date di registrazione vengono copiate da un ordine cliente nell'ordine di assemblaggio collegato. La data di registrazione nell'ordine di assemblaggio viene aggiornata automaticamente quando si modifica la data di registrazione nell'ordine cliente direttamente o indirettamente, ad esempio se modifichi la data di registrazione nella spedizione di magazzino, nel prelievo di magazzino o come parte di una registrazione in blocco.
 
 Puoi modificare manualmente la data di registrazione nell'ordine di assemblaggio. Tuttavia, non può essere successiva alla data di registrazione nell'ordine cliente collegato. Il sistema manterrà questa data a meno che non aggiorni la data di registrazione nell'ordine cliente.
 
 
-## Vedi anche  
+## <a name="see-also"></a>Vedi anche
  [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)   
  [Dettagli di progettazione: Registrazione dell'ordine di produzione](design-details-production-order-posting.md)   
  [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  

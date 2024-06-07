@@ -10,7 +10,7 @@ ms.date: 11/10/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Usare i layout di Microsoft Excel
+# <a name="working-with-microsoft-excel-layouts"></a>Usare i layout di Microsoft Excel
 
 I layout di report di Microsoft Excel si basano sulle cartelle di lavoro Excel (file .xlsx). Con i layout, puoi creare report che includono funzionalità di Excel familiari per il riepilogo, l'analisi e la presentazione di dati come formule, tabelle pivot e grafici pivot.
 
@@ -18,7 +18,7 @@ I layout di report di Microsoft Excel si basano sulle cartelle di lavoro Excel (
 
 Questo articolo spiega alcune cose importanti che devi sapere per iniziare a usare i layout di Excel.
 
-## Perché usare i layout di Excel?
+## <a name="why-use-excel-layouts"></a>Perché usare i layout di Excel?
 
 Vantaggi dell'utilizzo dei layout di Excel:
 
@@ -31,14 +31,14 @@ Vantaggi dell'utilizzo dei layout di Excel:
   - [Previsione e analisi](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Usa i componenti aggiuntivi installati e le integrazioni di app, come flussi Power Automate o OneDrive.
 
-## Introduzione
+## <a name="get-started"></a>Introduzione
 
 Ci sono fondamentalmente due attività coinvolte nella creazione di un layout di Excel di un report:
 
 1. Crea il nuovo file di layout di Excel.
 2. Aggiungi il nuovo layout al report.
 
-## Attività 1. Crea il nuovo file di layout di Excel
+## <a name="task-1-create-the-excel-layout-file"></a>Attività 1. Crea il nuovo file di layout di Excel
 
 Esistono tre modi per creare un file di layout Excel per un report.
 
@@ -57,13 +57,13 @@ Segui questi passaggi per creare un layout di Excel da un report, indipendenteme
 
 Se esiste già un layout di Excel per un report, utilizza il layout esistente come punto di partenza. Esistono due approcci per ottenere una copia del layout. Puoi esportare il layout esistente dalla pagina **Layout report** o scaricare il layout dalla pagina di richiesta del report. In entrambi i modi scarichi un file di layout di Excel che include tutti i fogli del file esistente. La differenza è che quando lo scarichi dalla pagina della richiesta, il layout include i dati effettivi. I dati non sono necessari, ma aiutano durante la progettazione del layout.
 
-#### Approccio 1: esportare il layout dalla pagina **Layout report**
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Approccio 1: esportare il layout dalla pagina **Layout report**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Seleziona il layout di Excel dall'elenco, quindi scegli l'azione **Esporta layout** nella parte superiore della pagina.
 3. Apri il file in Excel, apporta le modifiche e salva il file.
 
-#### Approccio 2: scaricare il layout dalla pagina di richiesta di report
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Approccio 2: scaricare il layout dalla pagina di richiesta di report
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Nella pagina **Layout report** seleziona un layout per il report quindi scegli l'azione **Esegui report**.
@@ -76,7 +76,7 @@ Questo è il metodo più avanzato per creare un layout di report di Excel. Poich
 
 ---
 
-## Attività 2. Aggiungi il nuovo file di layout al report
+## <a name="task-2-add-the-excel-layout-to-the-report"></a>Attività 2. Aggiungi il nuovo file di layout al report
 
 Una volta ottenuto il file di layout di Excel, l'attività successiva consiste nell'aggiungerlo come nuovo layout per il report.
 
@@ -106,7 +106,7 @@ Una volta ottenuto il file di layout di Excel, l'attività successiva consiste n
 3. Report metadata 
 -->
 
-## Informazioni sui layout di Excel
+## <a name="understanding-excel-layouts"></a>Informazioni sui layout di Excel
 
 Ci sono alcune cose che dovresti sapere o considerare quando crei o apporti modifiche ai layout di Excel. Ogni layout di Excel deve includere due elementi: un foglio **Dati** e una tabella **Dati**. Questi elementi formano la base del layout definendo i dati aziendali da Business Central con cui puoi lavorare. Puoi pensare al foglio **Dati** come un tipo di contratto per il layout e i dati aziendali. Utilizzerai questi dati come fonte di calcoli e visualizzazioni che desideri presentare in altri fogli.
 
@@ -128,7 +128,7 @@ In sintesi, questo è ciò che dovresti e non dovresti fare sul foglio **Dati**:
 - Non aggiungere colonne a meno che non siano incluse nel set di dati del report.
 - Puoi posizionare i fogli in qualsiasi ordine, con il foglio **Dati** come primo o ultimo.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Modificare il layout del report corrente](ui-how-change-layout-currently-used-report.md)  

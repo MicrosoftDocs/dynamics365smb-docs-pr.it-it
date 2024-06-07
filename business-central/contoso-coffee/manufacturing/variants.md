@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Procedura dettagliata: varianti
+# <a name="walkthrough-variants"></a>Procedura dettagliata: varianti
 
 In questo articolo, ti guideremo attraverso i passaggi per utilizzare i dati demo di Contoso Coffee per apprendere le varianti.
 
-## Scenario
+## <a name="scenario"></a>Scenario
 
 Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessario aggiornare la previsione della domanda per ciascuna variante dell'articolo SP-SCM1006, AutoDripLite. Poiché ha colori diversi, è necessario garantire che venga utilizzata la distinta base (DB) corretta per ciascuna variante. Esegui il prospetto pianificazione per calcolare l'offerta.  
 
-## Passaggi
+## <a name="steps"></a>Passaggi
 
 1. Imposta le unità di stockkeeping per l'articolo SP-SCM1006, AutoDripLite. Assegna una distinta base per SKU con le varianti ROSSO e BIANCO.
 
@@ -98,6 +98,6 @@ Sei l'addetto alla pianificazione della produzione di Contoso Coffee. È necessa
 
     9. Per ogni riga creata, scegli l'azione **Componenti** e rivedi quale vernice viene utilizzata.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Introduzione ai dati demo Contoso Coffee](../contoso-coffee-intro.md)  

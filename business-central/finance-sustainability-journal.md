@@ -11,17 +11,17 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Registrare movimenti di sostenibilità
+# <a name="record-sustainability-entries"></a>Registrare movimenti di sostenibilità
 
 Al momento, l'unico modo per registrare le emissioni di gas serra (GHG) nel registro della sostenibilità consiste nell'utilizzare i giornali di registrazione della sostenibilità.
 
-## Giornali di registrazione della sostenibilità
+## <a name="sustainability-journals"></a>Giornali di registrazione della sostenibilità
 
 I giornali di registrazione della sostenibilità sono progettati per tenere traccia e registrare le attività correlate alla sostenibilità utilizzando la stessa esperienza utente di altre registrazioni in Business Central. Gli utenti che dispongono delle informazioni necessarie possono inserire manualmente le emissioni in un giornale. In alternativa, se non dispongono di queste informazioni, possono utilizzare formule integrate per calcolare accuratamente le emissioni in base a specifici parametri noti che corrispondono a vari tipi di origini e conti.
 
 Le informazioni immesse in un giornale di registrazione sono temporanee e possono essere modificate fintanto che sono nel giornale. Quando si esegue la registrazione, le informazioni vengono trasferite ai movimenti contabili sostenibilità in singoli conti di sostenibilità, dove non possono essere modificate. Si possono tuttavia inserire storni o correzioni dei movimenti.
 
-### Usare batch e definizioni di registrazioni
+### <a name="use-journal-templates-and-batches"></a>Usare batch e definizioni di registrazioni
 
 Per impostazione predefinita, esistono due modelli registrazioni sostenibilità: quello standard e quello ricorrente.
 
@@ -30,13 +30,13 @@ Per ogni definizione registrazioni è possibile impostare le proprie registrazio
 > [!TIP]
 > Se hai molte righe, puoi ridurre il rischio di errori disponendo un batch di registrazioni per ciascun tipo di emissione. In alternativa, puoi utilizzare il batch comune per tutti i tipi di emissione.
 
-### Convalidare i giornali di registrazione della sostenibilità
+### <a name="validate-sustainability-journals"></a>Convalidare i giornali di registrazione della sostenibilità
 
 Nella pagina **Setup sostenibilità** puoi attivare un controllo in background che ti aiuta a prevenire i ritardi nella registrazione. In caso di errori durante l'utilizzo del giornale di registrazione della sostenibilità, la convalida ti avvisa tramite notifica e ti impedisce di registrare il giornale.
 
 Quando abiliti la convalida, la Scheda dettaglio **Verifica registrazione** mostra i problemi nella riga corrente e nell'intero batch. La convalida si attiva quando si carica un batch registrazioni e quando si seleziona un'altra riga di registrazione. Il riquadro **Totale problemi** nella Scheda dettaglio mostra il numero totale dei problemi individuati da [!INCLUDE [prod_short](includes/prod_short.md)]. Puoi selezionare il riquadro per aprire una panoramica dei problemi.
 
-### Utilizzare registrazioni di sostenibilità
+### <a name="work-with-sustainability-journals"></a>Utilizzare registrazioni di sostenibilità
 
 Per iniziare a utilizzare le registrazioni di sostenibilità, segui questi passaggi:
 
@@ -57,7 +57,7 @@ Per iniziare a utilizzare le registrazioni di sostenibilità, segui questi passa
 
 Se la formula che utilizzi è basata sull'opzione **Calcola da contabilità generale** nella categoria del conto di sostenibilità, devi utilizzare l'azione **Raccogli importo da movimenti C/G** prima di registrare il giornale, per calcolare le emissioni in base a questa origine dati. Inoltre, se dopo aver compilato le righe della registrazione hai apportato modifiche ai fattori di emissione, devi selezionare l'azione **Ricalcola** per ottenere l'importo corretto nella registrazione.
 
-### Registrazioni periodiche
+### <a name="recurring-journals"></a>Registrazioni periodiche
 
 Una registrazione periodica è una registrazione di sostenibilità con campi specifici per la gestione di transazioni registrate frequentemente con poche modifiche o nessuna. Alcuni esempi includono le transazioni di sostenibilità come elettricità, calore o altre transazioni simili. Puoi utilizzare le registrazioni periodiche per registrare importi fissi e variabili.
 
@@ -69,7 +69,7 @@ Anche il campo **Frequenza ricorrenza** è importante e deve essere impostato. Q
 
 Il campo **Data di scadenza** determina la data in cui la riga sarà registrata per l'ultima volta. Oltre tale data, la riga non verrà più registrata. Il vantaggio dell'utilizzo del campo **Data di scadenza** è che la riga non viene eliminata immediatamente dal giornale di registrazione. È possibile inserire una data successiva in modo da poter utilizzare la riga in futuro. Se il campo è vuoto, la riga verrà registrata ogni volta fino a quando non verrà eliminata dal giornale di registrazione.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Dati finanziari](finance.md)  
 [Panoramica della gestione della sostenibilità](finance-manage-sustainability.md)  

@@ -9,7 +9,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Introduzione a Commesse e Gestione progetti di Contoso Coffee
+# <a name="introduction-to-contoso-coffee-jobs-and-project-management"></a>Introduzione a Commesse e Gestione progetti di Contoso Coffee
 
 Contoso Coffee è un'azienda fittizia che produce caffettiere di consumo e commerciali. Le app **Contoso Coffee** per Business Central aggiungono dati demo che puoi usare per imparare a usare le funzionalità Commesse e Gestione progetti in Business Central.
 
@@ -22,7 +22,7 @@ Questa app fornisce diversi elementi che vengono utilizzati per le procedure det
 > Prima di eseguire uno qualsiasi degli scenari per Contoso Coffee, registra le righe di registrazione articolo con i saldi di apertura. Per ulteriori requisiti, vedi la sezione [Impostare i dati di Contoso Coffee](#set-up-contoso-coffee-jobs-and-project-management-data).
 >
 > 
-## Configurare dati di Commesse e Gestione progetti di Contoso Coffee
+## <a name="set-up-contoso-coffee-jobs-and-project-management-data"></a>Configurare dati di Commesse e Gestione progetti di Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -47,4 +47,4 @@ Una volta installate le app pertinenti, vai alla pagina [Dati demo commesse Cont
 
 Quando sei pronto, scegli l'azione **Crea dati demo**. Occorrono alcuni minuti per aggiungere i dati al database sottostante, ma poi sei pronto per eseguire i vari scenari.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche

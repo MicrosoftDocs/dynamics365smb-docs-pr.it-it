@@ -8,17 +8,17 @@ ms.date: 02/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Chiusura di conti economici
+# <a name="closing-income-statement-accounts"></a>Chiusura di conti economici
 
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito. In questo caso, eseguire il processo batch **Chiudi conto economico**. Il processo trasferisce i risultati dell'anno in un conto nel conto patrimoniale e chiude i conti economici. A tale scopo creare righe di registrazioni che in seguito sarà possibile contabilizzare.
 
-## Per eseguire il processo batch di chiusura del conto economico
+## <a name="to-run-the-close-income-statement-batch-job"></a>Per eseguire il processo batch di chiusura del conto economico
 
 1. Chiudere l'anno fiscale. È necessario chiudere l'anno fiscale prima di eseguire il processo batch. Per ulteriori informazioni, vedere [Chiudere i periodi contabili](year-close-account-periods.md).
 2. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Chiudi conto economico**, quindi scegli il collegamento correlato.
 3. Scegliere **OK** per eseguire il processo batch.
 
-## Processo batch di chiusura del conto economico
+## <a name="about-the-close-income-statement-batch-job"></a>Processo batch di chiusura del conto economico
 
 Il processo batch elabora tutti i conti del tipo conto economico e crea movimenti che eliminano i rispettivi saldi. Ogni movimento è la somma di tutti i movimenti C/G sul conto nell'anno fiscale. Questi nuovi movimenti vengono inseriti in registrazioni in cui sarà necessario specificare una contropartita e un conto utili non distribuito, nel bilancio patrimoniale prima della registrazione. Dopo la registrazione, in ogni conto economico viene registrato un movimento in modo che il relativo saldo sia uguale a zero e allo stesso tempo il risultato dell'anno viene trasferito al conto patrimoniale.
 
@@ -28,7 +28,7 @@ La data nelle righe che il processo batch inserisce nelle registrazioni è sempr
 
 Il processo batch **Chiudi conto economico** può essere utilizzato più di una volta. Se in seguito alla chiusura dei conti economici il processo batch viene nuovamente eseguito, sarà possibile effettuare registrazioni in un anno fiscale precedente.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Chiusura registri](year-close-books.md)  
 [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md)  

@@ -10,11 +10,11 @@ ms.custom: bap-template
 author: jswymer
 ---
 
-# Rilasciare e riaprire i documenti di vendita e di acquisto
+# <a name="release-and-reopen-sales-and-purchase-documents"></a>Rilasciare e riaprire i documenti di vendita e di acquisto
 
 In questo articolo, scopri come rilasciare o riaprire documenti di vendita e acquisto come ordini, fatture e preventivi. Si rilasciano i documenti di vendita e di acquisto per spostarli alla fase successiva di elaborazione prima che vengano registrati. Quando si rilascia un ordine, questo verrà incluso in tutti i calcoli di disponibilità a partire dalla data prevista per la ricezione degli articoli.
 
-## Rilasciare un documento di acquisto o vendita
+## <a name="release-a-sales-or-purchase-document"></a>Rilasciare un documento di acquisto o vendita
 
 1. Apri il documento che desideri rilasciare come segue:
 
@@ -25,7 +25,7 @@ In questo articolo, scopri come rilasciare o riaprire documenti di vendita e acq
 
    Nel campo **Stato** viene visualizzato **Rilasciato**.
 
-## Riaprire un documento di acquisto o vendita
+## <a name="reopen-a-sales-or-purchase-document"></a>Riaprire un documento di acquisto o vendita
 
 Se un documento di vendita o di acquisto è stato rilasciato è possibile modificarlo riaprendolo.
 
@@ -43,7 +43,7 @@ Ora è possibile apportare modifiche al documento prima di rilasciarlo di nuovo.
 > [!NOTE]
 > Nelle righe del documento che sono già state gestite nella warehouse, è possibile eseguire solo una modifica alla quantità.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
   
 [Vendite](sales-manage-sales.md)  
 [Acquisti](purchasing-manage-purchasing.md)  

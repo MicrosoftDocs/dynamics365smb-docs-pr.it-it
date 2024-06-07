@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica
 
 Nella pagina **Mappatura testo a conto** che si apre dalla pagina **Registrazione riconciliazione pagamenti**, è possibile impostare le mappature tra il testo sui pagamenti e specifici conti debiti, crediti e contropartita in modo da registrare questi pagamenti nei conti specificati durante la registrazione della riconciliazione pagamenti.
 
@@ -23,7 +23,7 @@ I pagamenti registrati in base alla mappa testo a conto non vengono collegati ai
 
 In una riga di registrazione riconciliazione pagamenti dove il pagamento è stato impostato per la registrazione in base alla mappatura testo a conto, il campo **Affidabilità corrispondenza** contiene **Alta - Mappatura testo a conto** e i campi **Tipo conto** e **Nr. conto** contengono i conti mappati.
 
-## Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica
+## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Mappare il testo nei pagamenti ricorrenti a conti per la riconciliazione automatica
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni riconciliazione pagamenti**, quindi scegli il collegamento correlato.
 2. Aprire una registrazione della riconciliazione di pagamento. Per ulteriori informazioni, vedere [Riconciliare i pagamenti utilizzando il collegamento automatico](receivables-how-reconcile-payments-auto-application.md).
@@ -43,7 +43,7 @@ In una riga di registrazione riconciliazione pagamenti dove il pagamento è stat
 
 La volta successiva che si importa un file di rendiconto bancario o si sceglie l'azione **Collega automaticamente** nella pagina **Registrazioni riconciliazione pagamenti**, le righe di registrazione dei pagamenti che contengono il testo di mappatura specificato conterranno i conti mappati nei campi **Tipo conto** e **Nr. conto**. Il campo **Affidabilità corrispondenza** conterrà **Alta - Mappatura testo a conto**. Ciò a condizione che la funzione di collegamento automatico possa fornire solo un'affidabilità di corrispondenza di livello **Basso** o **Medio**.
 
-## Esempio: mappatura testo a conto per oneri bancari
+## <a name="example-text-to-account-mapping-for-bank-fees"></a>Esempio: mappatura testo a conto per oneri bancari
 
 Per registrare sempre le spese relative agli oneri bancari di una banca specifica, MyBank, nel conto di contabilità generale per spese e oneri bancari (conto 60400), compilare una riga nella pagina **Mappatura testo a conto** come segue.
 
@@ -51,7 +51,7 @@ Per registrare sempre le spese relative agli oneri bancari di una banca specific
 | --- | --- | --- | --- | --- |
 | MyBank |VUOTO |60400|Conto C/G |VUOTO |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  

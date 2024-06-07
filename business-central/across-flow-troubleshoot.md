@@ -10,40 +10,40 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Risolvere i problemi dei flussi di lavoro automatizzati di [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="troubleshoot-your--automated-workflows"></a>Risolvere i problemi dei flussi di lavoro automatizzati di [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Quando ti connetti a [!INCLUDE [prod_short](includes/prod_short.md)] insieme a Power Automate per creare flussi di lavoro automatizzati, potrebbero essere visualizzati messaggi di errore. Questo articolo fornisce soluzioni suggerite per problemi ricorrenti.
 
-## Il flusso non viene eseguito su tutti i record creati o modificati
+## <a name="flow-doesnt-run-on-all-records-created-or-changed"></a>Il flusso non viene eseguito su tutti i record creati o modificati
 
-### Problema
+### <a name="problem"></a>Problema
 
 Se un evento crea o modifica molti record, il flusso non viene eseguito su alcuni o tutti i record.
 
-### Causa possibile
+### <a name="possible-cause"></a>Causa possibile
 
 Attualmente esiste un limite al numero di record che un flusso può elaborare. Se vengono creati o modificati più di 1000 record entro 30 secondi, il flusso non viene attivato.
 
 > [!NOTE]
 > Per gli sviluppatori, l'attivazione del flusso viene eseguita tramite notifiche webhook e questa limitazione è dovuta al modo in cui il connettore Business Central gestisce le notifiche `collection`. Per ulteriori informazioni, vedi [Utilizzo dei webhook in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) nella Guida per sviluppatori e amministratori.
 
-## Errore "La risposta dal servizio Business Central è troppo grande"
+## <a name="the-response-from-the-business-central-service-is-too-large-error"></a>Errore "La risposta dal servizio Business Central è troppo grande"
 
-### Problema
+### <a name="problem-1"></a>Problema
 
 Quando si utilizza un'azione che interagisce con i record (come *Crea record (V3)* e *Ottieni record (V3)*), Power Automate potrebbe visualizzare un errore simile a questo:
 
 `The response from the Business Central service is too large`
 
-### Causa possibile
+### <a name="possible-cause-1"></a>Causa possibile
 
 Anche se Business Central non ha limiti prefissati per le dimensioni dei record restituiti dalle API, il connettore Dynamics 365 Business Central per Power Automate può gestire solo record fino a 8 MB.
 
 Tutte le API di Business Central fornite da Microsoft restituiscono record al di sotto di questo limite, ma le API fornite dai partner potrebbero non esserlo. Se visualizzi un errore "La risposta dal servizio Business Central è troppo grande", contatta il partner che ha creato l'API che stai utilizzando.
 
-## Errore "Set di entità non trovato"
+## <a name="entity-set-not-found-error"></a>Errore "Set di entità non trovato"
 
-### Problema
+### <a name="problem-2"></a>Problema
 
 Quando si crea un nuovo flusso Power Automate usando un trigger di approvazione [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio *Quando viene richiesta l'approvazione di un documento di acquisto*, si potrebbe ricevere un messaggio di errore simile al seguente:
 
@@ -51,11 +51,11 @@ Quando si crea un nuovo flusso Power Automate usando un trigger di approvazione 
 
 Il segnaposto, `\<name\>` è il nome del servizio Web mancante, come *workflowWebhookSubscriptions* o *workflowPurchaseDocumentLines*.
 
-### Causa possibile
+### <a name="possible-cause-2"></a>Causa possibile
 
 L'utilizzo di Power Automate per le approvazioni richiede che determinati oggetti pagina e codeunit objects vengano pubblicati come servizi Web. Per impostazione predefinita, la maggior parte degli oggetti richiesti viene pubblicata come servizi Web. In alcuni casi, tuttavia, l'ambiente potrebbe essere stato personalizzato in modo che questi oggetti non vengano più pubblicati.
 
-### Correggi
+### <a name="fix"></a>Correggi
 
 Accedere alla pagina **Servizi Web** e assicurarsi che i seguenti oggetti vengano pubblicati come servizi Web. Dovrebbe esserci una voce nell'elenco per ogni oggetto, con la casella di controllo **Pubblicato** selezionata.  
 
@@ -78,7 +78,7 @@ Accedere alla pagina **Servizi Web** e assicurarsi che i seguenti oggetti vengan
 
 Per ulteriori informazioni sulla pubblicazione di servizi Web, vedi [Pubblicare un servizio Web](across-how-publish-web-service.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare i flussi Power Automate in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Workflow](across-workflow.md)  

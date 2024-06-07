@@ -12,7 +12,7 @@ ms.date: 04/15/2024
 ms.custom: bap-template
 ---
 
-# Riconciliare i conti correnti bancari con Copilot (anteprima)
+# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Riconciliare i conti correnti bancari con Copilot (anteprima)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ Questo articolo spiega come utilizzare l'assistenza per la riconciliazione dei c
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Informazioni sull'assistenza per la riconciliazione dei conti correnti bancari
+## <a name="about-bank-account-reconciliation-assist"></a>Informazioni sull'assistenza per la riconciliazione dei conti correnti bancari
 
 L'assistenza per la riconciliazione dei conti correnti bancari è un insieme di funzionalità basate sull'intelligenza artificiale che ti assistono nella riconciliazione dei conti correnti bancari. L'assistenza per la riconciliazione dei conti correnti bancari ti offre due attività distinte tramite Copilot:
 
@@ -36,14 +36,14 @@ L'assistenza per la riconciliazione dei conti correnti bancari è un insieme di 
   
    Vedi [Registrare importi di transazioni bancarie senza corrispondenze a conti di contabilità generale suggeriti](#post-unmatched-bank-transaction-amounts-to-suggested-general-ledger-accounts).
 
-## Prerequisiti
+## <a name="prerequisites"></a>Prerequisiti
 
 - L'assistenza per la riconciliazione dei conti correnti bancari è attivata. Questa attività è eseguita da un amministratore. [Scopri di più sulla configurazione delle funzionalità di Copilot e IA](enable-ai.md).
 - I conti correnti bancari in Business Central che vuoi riconciliare sono collegati a un conto corrente bancario online o impostati con il formato di importazione dell'estratto conto. 
 - Hai familiarità con la riconciliazione dei conti correnti bancari in Business Central come descritto in [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## Riconciliare i conti correnti bancari con Copilot
+## <a name="reconcile-bank-accounts-with-copilot"></a>Riconciliare i conti correnti bancari con Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -87,7 +87,7 @@ Con questo approccio, puoi utilizzare Copilot per una nuova riconciliazione del 
 1. Esamina le corrispondenze proposte come descritto nella sezione seguente. 
 ---
 
-### Esaminare, salvare o eliminare le corrispondenze proposte
+### <a name="review-save-or-discard-proposed-matches"></a>Esaminare, salvare o eliminare le corrispondenze proposte
 
 Dopo aver eseguito Copilot, la finestra **Riconcilia con Copilot** mostra i risultati dettagliati, incluse eventuali corrispondenze proposte. A questo punto, nessuna corrispondenza proposta da Copilot è stata salvata, quindi ti offre l'opportunità di esaminare le proposte e di salvarle o scartarle come preferisci.
 
@@ -102,7 +102,7 @@ La finestra Copilot è suddivisa in due sezioni. La sezione superiore fornisce a
 |Saldo finale estratto conto|Specifica il saldo finale visualizzato nell'estratto conto per il quale stai eseguendo la riconciliazione|
 |Pubblica se completamente applicato|Attiva questo interruttore se desideri pubblicare automaticamente la riconciliazione del conto corrente bancario quando tutte le righe (100%) hanno corrispondenze e hai selezionato **Conservalo**.|
 
-#### Salvare o eliminare le corrispondenze proposte
+#### <a name="save-or-discard-proposed-matches"></a>Salvare o eliminare le corrispondenze proposte
 
 Nella sezione **Proposte risultanti**, esamina le corrispondenze suggerite riga per riga, quindi intraprendi l'azione appropriata:
 
@@ -113,7 +113,7 @@ Nella sezione **Proposte risultanti**, esamina le corrispondenze suggerite riga 
 - Per pubblicare automaticamente la riconciliazione con corrispondenza completa quando la salvi, attiva l'interruttore **Pubblica se completamente applicato**.  
 - Per salvare le corrispondenze attualmente visualizzate nella finestra di Copilot, seleziona **Conservalo**.
 
-## Registrare importi di transazioni bancarie senza corrispondenze a conti di contabilità generale suggeriti
+## <a name="post-unmatched-bank-transaction-amounts-to-suggested-general-ledger-accounts"></a>Registrare importi di transazioni bancarie senza corrispondenze a conti di contabilità generale suggeriti
 
 In questa sezione, scoprirai come utilizzare Copilot per registrare importi della riga di estratti conto non riconciliati (specificato nel campo **Differenza**) a un account di contabilità generale. Questa attività può essere eseguita solo da una riconciliazione esistente.
 
@@ -150,11 +150,11 @@ In questa sezione, scoprirai come utilizzare Copilot per registrare importi dell
 
       Questo passaggio conferma il trasferimento delle proposte attualmente selezionate dalla contabilità del conto bancario al conto di contabilità generale. Pubblica nuovi pagamenti nei conti C/G proposti e applica le righe corrispondenti ai movimenti contabili C/C bancari risultanti.
 
-## Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 
 [Convalidare la riconciliazione del conto corrente bancario](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Risoluzione dei problemi relativi alle funzionalità di Copilot e IA](ai-copilot-troubleshooting.md)  
 [Domande frequenti sull'intelligenza artificiale responsabile per l'assistenza per la riconciliazione dei conti correnti bancari](faqs-bank-reconciliation.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  

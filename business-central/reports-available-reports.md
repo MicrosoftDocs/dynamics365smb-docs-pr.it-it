@@ -10,73 +10,73 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Panoramica del report
+# <a name="report-overview"></a>Panoramica del report
 
 [!INCLUDE [prod_short](includes/prod_short.md)] viene fornito con molti report integrati che possono essere utilizzati immediatamente per supportare la tua attività.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Report finanziari chiave
+## <a name="key-financial-reports"></a>Report finanziari chiave
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 Per ulteriori informazioni, vedi [Report finanziari e analisi in Business Central](finance-reports.md)
 
-## Report contabilità clienti
+## <a name="accounts-receivable-reports"></a>Report contabilità clienti
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 Per ulteriori informazioni, vedi [Report contabilità clienti e analisi in Business Central](receivables-reports.md)
 
-## Report contabilità fornitori
+## <a name="accounts-payable-reports"></a>Report contabilità fornitori
 
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
 Per ulteriori informazioni, vedi [Report contabilità fornitori e analisi in Business Central](payables-reports.md)
 
-## Report vendite
+## <a name="sales-reports"></a>Report vendite
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
 Per ulteriori informazioni, vedi [Report vendite e analisi in Business Central](sales-reports.md)
 
-## Report di acquisto
+## <a name="purchase-reports"></a>Report di acquisto
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
 Per ulteriori informazioni, vedi [Report di acquisto e analisi in Business Central](purchase-reports.md)
 
-## Report di inventario e whareouse
+## <a name="inventory-and-warehouse-reports"></a>Report di inventario e whareouse
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 Per altre informazioni vedi [Report e analisi di inventario e warehouse in Business Central](inventory-wms-reports.md)
 
-## Report di progetto
+## <a name="project-reports"></a>Report di progetto
 
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
 Per ulteriori informazioni, vedi [Report di progetto e analisi in Business Central](project-reports.md)
 
-## Report cespiti
+## <a name="fixed-assets-reports"></a>Report cespiti
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 Per ulteriori informazioni, vedi [Report cespiti e analisi in Business Central](fa-reports.md)
 
-## Report di assemblaggio
+## <a name="assembly-reports"></a>Report di assemblaggio
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
 Per ulteriori informazioni, vedi [Report di gestione assemblaggio e analisi in Business Central](assembly-reports.md)
 
-## Report di produzione
+## <a name="production-reports"></a>Report di produzione
 
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
 Per ulteriori informazioni, vedi [Report di produzione e analisi in Business Central](production-reports.md)
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzo di report, processi batch e XMLport](ui-work-report.md)  
 [Business Intelligence e creazione di report](reports-bi-reporting.md)  
