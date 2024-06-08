@@ -9,7 +9,7 @@ ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gestire più record di documenti in entrata
+# <a name="manage-many-incoming-document-records"></a>Gestire più record di documenti in entrata
 
 Quando si creano o elaborate i record del documento in entrata, il numero delle righe della pagina **Documenti in entrata** possono aumentare fino a perdere la visibilità di una panoramica. Di conseguenza, è possibile impostare i record del documento in entrata su *Elaborato* per rimuoverli dalla visualizzazione predefinita. Scegliendo l'azione **Mostra tutto** è possibile visualizzare sia i record elaborati che non elaborati.
 
@@ -21,7 +21,7 @@ La casella di controllo **Elaborato** viene selezionata automaticamente sui reco
 > [!NOTE]  
 > Se si apre la pagina **Documenti in entrata** usando l'azione **Documenti in entrata personali** in Gestione ruolo utente, solo i record del documento in entrata non elaborati vengono visualizzati per impostazione predefinita. In questo argomento questa visualizzazione viene indicata come "la visualizzazione predefinita".
 
-## Per rimuovere i record del documento in entrata dalla visualizzazione predefinita
+## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Per rimuovere i record del documento in entrata dalla visualizzazione predefinita
 
 1. Nella pagina **Documenti in entrata** selezionare una o più righe dei record del documento in entrata che si desidera rimuovere dalla visualizzazione predefinita.
 2. Scegliere l'azione **Imposta su elaborato**.
@@ -31,13 +31,13 @@ La casella di controllo **Elaborato** viene selezionata automaticamente sui reco
 > [!NOTE]  
 > È inoltre possibile eseguire questa azione per il singolo record nella pagina **Scheda Documento in entrata**.
 
-## Per visualizzare tutti i record dei documenti in entrata
+## <a name="to-view-all-incoming-document-records"></a>Per visualizzare tutti i record dei documenti in entrata
 
 1. In alternativa, nella pagina **Setup documenti in entrata** scegliere l'azione **Mostra tutto**.
 
 Tutti i record del documento in entrata vengono visualizzati, inclusi quelli in cui non è selezionata la casella di controllo **Elaborato**.
 
-## Per aggiungere i record del documento in entrata alla visualizzazione predefinita
+## <a name="to-add-incoming-document-records-to-the-default-view"></a>Per aggiungere i record del documento in entrata alla visualizzazione predefinita
 
 1. In alternativa, nella pagina **Setup documenti in entrata** scegliere l'azione **Mostra tutto**.
 2. Selezionare una o più righe per i record del documento in entrata che si desidera mostrare nella visualizzazione predefinita.
@@ -46,7 +46,7 @@ Tutti i record del documento in entrata vengono visualizzati, inclusi quelli in 
 > [!NOTE]  
 > È inoltre possibile eseguire questa azione per il singolo record nella pagina **Scheda Documento in entrata**.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
   
 [Creare i record di documenti in entrata](across-how-create-income-document-records.md)
 [Creare i record di documenti in entrata direttamente da documenti e movimenti](across-how-connect-disconnect-income-document-records.md)

@@ -11,7 +11,7 @@ ms.search.form: '7351,'
 ms.service: dynamics-365-business-central
 ---
 
-# Spostare articoli in configurazioni warehouse avanzate che usano prelievo e stoccaggio diretti
+# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Spostare articoli in configurazioni warehouse avanzate che usano prelievo e stoccaggio diretti
 
 È possibile spostare gli articoli tra le collocazioni senza una domanda da un documento di origine. Ad esempio, potresti volerlo fare come parte delle seguenti attività:
 
@@ -37,9 +37,9 @@ Le pagine **Prospetto movimenti**, **Prelievo interno warehouse** e **Stoccaggio
 * Gli stoccaggi utilizzano i modelli di stoccaggio
 * Il prelievo utilizza la valutazione collocazione e la disponibilità
 
-## Prospetto movimenti warehouse
+## <a name="warehouse-movement-worksheet"></a>Prospetto movimenti warehouse
 
-### Per spostare gli articoli con il prospetto movimentazioni warehouse
+### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Per spostare gli articoli con il prospetto movimentazioni warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prospetto movimentazioni**, quindi scegli il collegamento correlato.  
 2. Compila manualmente i campi nelle righe del prospetto o utilizza una delle seguenti azioni per compilare automaticamente le righe:
@@ -56,7 +56,7 @@ Le pagine **Prospetto movimenti**, **Prelievo interno warehouse** e **Stoccaggio
 
 3. Scegli l'azione **Crea movimento** per creare il movimento. Quando il movimento è completo, può essere registrato.  
 
-### Per registrare la movimentazione warehouse
+### <a name="to-register-the-warehouse-movement"></a>Per registrare la movimentazione warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Movimentazioni**, quindi scegli il collegamento correlato.  
 2. Apri il documento di movimento da registrare.  
@@ -72,9 +72,9 @@ Le pagine **Prospetto movimenti**, **Prelievo interno warehouse** e **Stoccaggio
 > [!NOTE]  
 > Per le ubicazioni che utilizzano lo stoccaggio e il prelievo diretti, non è possibile spostare manualmente gli articoli nelle collocazioni di tipo **RICEVI** perché non sono ancora considerati come scorte disponibili. Devi stoccare gli articoli in queste collocazioni prima che siano disponibili per i movimenti.
 
-## Prelievo interno  
+## <a name="internal-pick"></a>Prelievo interno
 
-### Per creare un prelievo interno  
+### <a name="to-create-an-internal-pick"></a>Per creare un prelievo interno
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Prelievo int. whse.**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo**.
@@ -83,7 +83,7 @@ Le pagine **Prospetto movimenti**, **Prelievo interno warehouse** e **Stoccaggio
 5. Scegliere l'azione **Crea prelievo**. Verrà creata un'istruzione di prelievo indirizzata agli impiegati warehouse. In alternativa, scegli l'azione **Rilascia** e crea prelievi warehouse utilizzando la pagina **Prospetto prelievi**. Per saperne di più sui prospetti prelievi, vai a [Creare documenti di prelievo in blocco con i prospetti prelievi](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. Quando il prelievo è completo, può essere registrato.  
 
-### Per registrare il prelievo warehouse
+### <a name="to-register-the-warehouse-pick"></a>Per registrare il prelievo warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 
@@ -95,9 +95,9 @@ Le pagine **Prospetto movimenti**, **Prelievo interno warehouse** e **Stoccaggio
 
 4. Dopo avere prelevato e posizionato gli articoli nell'area di spedizione o nella collocazione di spedizione, scegli l'azione **Registra prelievo**.  
 
-## Stoccaggio interno  
+## <a name="internal-put-away"></a>Stoccaggio interno
 
-### Per creare uno stoccaggio interno  
+### <a name="to-create-an-internal-put-away"></a>Per creare uno stoccaggio interno
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi interni warehouse**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo**.
@@ -111,7 +111,7 @@ Le pagine **Prospetto movimenti**, **Prelievo interno warehouse** e **Stoccaggio
 6. Selezionare l'azione **Crea stoccaggio**. Verrà creata un'istruzione di stoccaggio indirizzata agli impiegati warehouse. In alternativa, scegli l'azione **Rilascia** e crea stoccaggi warehouse utilizzando la pagina **Prospetto stoccaggi**. Per saperne di più sui prospetti stoccaggi, vai a [Creare documenti di stoccaggio in blocco con i prospetti stoccaggi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. Quando lo stoccaggio è completo, può essere registrato.  
 
-### Per registrare lo stoccaggio warehouse
+### <a name="to-register-the-warehouse-put-away"></a>Per registrare lo stoccaggio warehouse
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Stoccaggi**, quindi scegli il collegamento correlato.
 2. Apri lo stoccaggio warehouse pronto per la gestione.  
@@ -134,7 +134,7 @@ Le pagine **Prospetto movimenti**, **Prelievo interno warehouse** e **Stoccaggio
 
 5. Una volta posizionati tutti gli articoli nelle collocazioni, come indicato nelle istruzioni, scegliere l'azione **Registra stoccaggio**.  
 
-## Per registrare un movimento che è già avvenuto
+## <a name="to-register-a-movement-that-has-already-happened"></a>Per registrare un movimento che è già avvenuto
 
 Se è necessario registrare il fatto che gli articoli sono già stati spostati in altre collocazioni senza uno stoccaggio, un prelievo o un movimento, è possibile utilizzare la pagina **Registr. riclassificaz. whse.** per registrare il movimento.
 
@@ -142,7 +142,7 @@ Se è necessario registrare il fatto che gli articoli sono già stati spostati i
 2. Compilare i campi **Nr. articolo**, **Codice Da zona**, **Dal codice collocazione**, **A codice zona** e **A codice collocazione**.  
 3. Scegliere l'azione **Registra**.  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

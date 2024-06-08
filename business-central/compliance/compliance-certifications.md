@@ -9,11 +9,11 @@ ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# Certificazioni
+# <a name="certifications"></a>Certificazioni
 
 Questo argomento contiene informazioni sulle certificazioni in relazione a [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## Certificazioni e accreditamenti di paesi/aree geografiche
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Certificazioni e accreditamenti di paesi/aree geografiche
 
 In alcuni paesi o aree geografiche il software di contabilità deve essere certificato per risultare conforme ai requisiti finanziari e alle normative fiscali locali. In alcuni paesi la certificazione deve essere ottenuta ogni anno mentre in altri è sufficiente ottenerla una sola volta. Di seguito è riportato un elenco dei paesi/aree geografiche in cui Business Central ha ottenuto certificazioni.
 
@@ -28,11 +28,11 @@ In alcuni paesi o aree geografiche il software di contabilità deve essere certi
 > [!NOTE]  
 > Nei paesi/aree geografiche in cui Microsoft non rilascia una versione localizzata, è responsabilità dei partner ottenere la certificazione del prodotto di base Business Central incluse le relative funzioni riguardanti la localizzazione e le normative.
 
-## Altre certificazioni
+## <a name="other-certifications"></a>Altre certificazioni
 
 Come servizio cloud, Business Central ha ottenuto varie certificazioni tra cui ISO 27001 e altre. Per un elenco completo delle certificazioni ottenute, consultare [questa pagina (PDF)](https://aka.ms/d365-compliance-list).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Conformità](compliance-overview.md)  
 [Conformità dell'applicazione](compliance-application-compliance.md)  

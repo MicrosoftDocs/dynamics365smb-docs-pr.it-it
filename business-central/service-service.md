@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Gestione dei servizi
+# <a name="service-management"></a>Gestione dei servizi
 
 > [!NOTE]
 > La funzionalità descritta in questo argomento e negli argomenti secondari è visibile solo se si dispone dell'esperienza **Premium**. Per ulteriori informazioni, vedere [Modifica delle funzionalità visualizzate](ui-experiences.md).
@@ -34,7 +34,7 @@ Nella tabella seguente viene descritta una sequenza di attività, con collegamen
 |Creare e gestire accordi contrattuali tra la propria azienda e i clienti.|[Adempimento dei contratti di assistenza](service-fulfill-service-contracts.md)|  
 |Fornire assistenza ai clienti e fatturare gli ordini di assistenza.|[Fornitura dell'assistenza](service-deliver-service.md)|  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Progetti](projects-how-create-jobs.md)  

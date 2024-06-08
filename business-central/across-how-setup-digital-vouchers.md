@@ -11,7 +11,7 @@ ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
-# Impostare giustificativi digitali
+# <a name="set-up-digital-vouchers"></a>Impostare giustificativi digitali
 
 Gli amministratori possono utilizzare la funzionalità dei voucher digitali per richiedere che i documenti siano allegati a transazioni specifiche quando vengono registrati. Pertanto, questa funzionalità consente un approccio basato sull'origine e fornisce un migliore audit trail. A questo scopo è possibile configurare diversi tipi di imposizione, a seconda dei documenti o dei tipi di registrazione.
 
@@ -20,14 +20,14 @@ Il termine *giustificativo digitale* si riferisce alla forma digitale o elettron
 > [!IMPORTANT]
 > In alcuni paesi e aree geografiche potrebbe non essere possibile configurare alcune opzioni perché configurazioni specifiche potrebbero essere imposte da requisiti legali. Se riscontri tali restrizioni, cerca una spiegazione dettagliata nella pagina della documentazione per il tuo Paese o area geografica.
 
-## Abilitare giustificativi digitali
+## <a name="enable-digital-vouchers"></a>Abilitare giustificativi digitali
 
 Segui questi passaggi per abilitare la funzionalità dei giustificativi digitali.
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi 3.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impostazione giustificativi digitali**, quindi seleziona il collegamento correlato.
 2. Seleziona la casella di controllo **Abilitato**.
 
-## Impostare giustificativi digitali
+## <a name="set-up-digital-vouchers-1"></a>Impostare giustificativi digitali
 
 Puoi utilizzare diverse impostazioni per i seguenti documenti e registrazioni.
 
@@ -47,7 +47,7 @@ Segui questi passaggi per definire il modo in cui la tua organizzazione utilizza
 4. Seleziona la casella di controllo **Genera automaticamente** per generare automaticamente il giustificativo digitale. Ad esempio, se non desideri aggiungere manualmente una fattura di vendita alla transazione, seleziona questa casella di controllo. Quindi non ti resta che registrare il documento. Il sistema crea automaticamente il documento, in base al layout del report, e lo allega alla transazione.
 5. Seleziona la casella di controllo **Ignora se aggiunto manualmente** se non desideri aggiungere un giustificativo digitale generato automaticamente se l'utente ha già aggiunto un allegato manuale.
 
-### Utilizzare codici origine per l'impostazione
+### <a name="use-source-codes-for-setup"></a>Utilizzare codici origine per l'impostazione
 
 Per utilizzare l'imposizione per le registrazioni, ma non per tutti i tipi di transazione, connetti il codice origine specifico per identificare il tipo di movimento: registrazione COGE, registrazione delle vendite o registrazione degli acquisti.
 
@@ -57,7 +57,7 @@ Segui questi passaggi per impostare codici origine specifici pe giustificativi d
 2. Nella pagina **Codici origine movimento giustificativo**, seleziona i codici origine che desideri configurare.
 3. Chiudere la pagina.
 
-## Usare la funzionalità
+## <a name="use-the-functionality"></a>Usare la funzionalità
 
 Apri un documento di acquisto o di vendita e immetti le informazioni nei campi obbligatori. Prima di registrare il documento, devi seguire questi passaggi per allegare un giustificativo digitale.
 
@@ -74,13 +74,13 @@ Se alleghi accidentalmente un giustificativo sbagliato, segui questi passaggi pe
 > [!NOTE]
 > Se l'allegato di un giustificativo digitale è configurato come obbligatorio e tenti di registrare documenti o registrazioni senza allegare un giustificativo, il sistema impedisce la registrazione. Viene visualizzato il seguente messaggio di errore: "Impossibile effettuare la registrazione senza allegare il giustificativo digitale."
 
-### Trovare giustificati allegati nelle transazioni
+### <a name="find-attached-vouchers-in-transactions"></a>Trovare giustificati allegati nelle transazioni
 
 Puoi trovare il giustificativo allegato nel documento registrato o nella pagina **Movimenti C/G** cercando nel riquadro Dettaglio informazioni **File di documento in entrata**.
 
 Non puoi eliminare un documento allegato una volta completata la registrazione. Tuttavia, puoi aggiungere altri allegati una volta completata la registrazione.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione contabile](finance.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

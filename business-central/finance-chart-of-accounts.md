@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Informazioni sul piano dei conti
+# <a name="understanding-the-chart-of-accounts"></a>Informazioni sul piano dei conti
 
 Un piano dei conti (COA) funge da elenco completo dei conti finanziari e dei relativi numeri di riferimento. Un COA comprende in genere due categorie principali di conti:
 
@@ -39,7 +39,7 @@ La composizione del piano dei conti della società è una decisione strategica p
 * Un’azienda tecnologica potrebbe concentrarsi su cespiti immateriali come brevetti e software.
 * Un impianto di produzione monitorerebbe i cespiti e le forniture.
 
-## Pagina Piano dei conti
+## <a name="the-chart-of-accounts-page"></a>Pagina Piano dei conti
 
 Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei conti puoi eseguire operazioni, quali:  
 
@@ -51,11 +51,11 @@ Nel piano dei conti sono visualizzati tutti i conti C/G. Tramite il piano dei co
 
 È possibile aggiungere, modificare o eliminare i conti di contabilità generale. Tuttavia, per evitare le differenze, non è possibile eliminare un conto di contabilità generale se i relativi dati vengono utilizzato nel piano dei conti. Inoltre, puoi bloccare l'eliminazione accidentale dei conti in periodi sensibili. Per ulteriori informazioni sulla protezione dei conti dall'eliminazione, vedi [Eliminazione di conti](finance-setup-chart-accounts.md#delete-accounts).  
 
-## Gerarchia dei codici nei conti C/G
+## <a name="the-code-hierarchy-in-gl-accounts"></a>Gerarchia dei codici nei conti C/G
 
 Le aziende in genere creano una struttura gerarchica nei codici dei conti C/G per riflettere la loro appartenenza nel piano dei conti. Ad esempio, in alcune implementazioni, i codici di conti C/G che iniziano con **1** indicano i conti cespiti, mentre i codici di conti C/G che iniziano con 3 indicano i conti patrimonio netto. In alcune aree esistono normative locali per l'utilizzo di un piano dei conti standard. Per aiutare gli utenti a comprendere questa gerarchia senza la necessità di conoscere la struttura del codice interno, puoi definire intestazioni e totali parziali nel piano dei conti che incapsulano queste strutture interne.
 
-## Progettazione del piano dei conti
+## <a name="designing-your-chart-of-accounts"></a>Progettazione del piano dei conti
 
 Ogni riga nel piano dei conti è un conto C/G di uno dei seguenti tipi:
 
@@ -70,17 +70,17 @@ Un piano dei conti minimalista può essere costituito solo da righe di conti di 
 > [!TIP]
 > Se utilizzi tipi di conto diversi da **Registrazione** nel tuo piano dei conti, puoi definire visualizzazioni diverse per mostrare i conti di registrazione "grezzi" senza i tipi di conto di tipo reporting per totale e intestazioni. Ad esempio, Mostra solo conti di registrazione e Nascondi conti bloccati.
 
-## Utilizzare le dimensioni per semplificare il piano dei conti
+## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Utilizzare le dimensioni per semplificare il piano dei conti
 
 Le dimensioni sono valori che categorizzano i movimenti in modo da poterli seguire e analizzare nei documenti, ad esempio ordini vendita. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene. Quindi, anziché impostare conti di contabilità generale distinti per ogni reparto e progetto, è possibile utilizzare le dimensioni come base per l'analisi ed evitare di dover creare un piano dei conti complesso.
 
 Per ulteriori informazioni sulle dimensioni, vedi [Usare le dimensioni](finance-dimensions.md).
 
-## Ottenere una rapida panoramica delle finanze
+## <a name="get-a-quick-overview-of-your-finances"></a>Ottenere una rapida panoramica delle finanze
 
 La pagina **Piano dei conti** visualizza i conti in una lista gerarchica che offre un accesso veloce alle informazioni chiave per ogni conto. Tuttavia, l'elenco è statico, e se hai molti account potresti dover scorrere per visualizzare diversi account. Se vuoi solo una rapida panoramica delle basi, come i cambiamenti netti e i saldi, la pagina **Sintesi del piano dei conti** è un'utile alternativa. Il layout delle colonne nella pagina è ora lo stesso della pagina **Piano dei conti** (anche se con meno colonne), quindi è facile capire. Puoi espandere o comprimere i livelli gerarchici. Per facilitare il passaggio tra le pagine, la pagina **Panoramica del piano dei conti** è disponibile dalla pagina **Piano dei conti**.
 
-## Accedere per creare e modificare il piano dei conti
+## <a name="access-to-create-and-edit-the-chart-of-accounts"></a>Accedere per creare e modificare il piano dei conti
 
 In una piccola organizzazione, come la società dimostrativa CRONUS, la maggior parte degli utenti può modificare il piano dei conti, ad eccezione degli utenti con una licenza membro del team. Tuttavia, le organizzazioni più grandi in genere utilizzano ruoli e autorizzazioni per limitare l'accesso alla modifica del piano dei conti. Se sei un amministratore o hai il ruolo Manager aziendale o Contabile, puoi controllare le autorizzazioni utente per assicurarti che le persone giuste abbiano accesso alle tabelle pertinenti. Per ulteriori informazioni, vedi [Ottenere una sintesi delle autorizzazioni di un utente](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
@@ -95,7 +95,7 @@ Here are some examples of such standards that have been implemented in localized
 * [Standard chart of accounts in Denmark](localfunctionality/denmark/how-to-set-up-standard-coa.md)
 -->
 
-## Procedure consigliate relative al piano dei conti
+## <a name="chart-of-accounts-best-practices"></a>Procedure consigliate relative al piano dei conti
 
 Ecco alcune procedure consigliate che potresti prendere in considerazione quando sviluppi e mantieni i tuoi piani dei conti:
 
@@ -105,7 +105,7 @@ Ecco alcune procedure consigliate che potresti prendere in considerazione quando
 * Utilizza le dimensioni per semplificare il piano dei conti. Non avere conti C/G specifici per ciascun prodotto o reparto.
 * Aggiungi nuovi conti C/G non appena entrano, ma rimuovi i conti dal tuo piano dei conti solo durante la fine del periodo finanziario.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare o modificare il piano dei conti](finance-setup-chart-accounts.md)  
 [Informazioni sulla contabilità generale](finance-general-ledger.md)

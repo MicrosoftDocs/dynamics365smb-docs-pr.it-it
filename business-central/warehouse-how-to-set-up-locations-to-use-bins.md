@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Impostare ubicazioni per l'utilizzo di collocazioni
+# <a name="set-up-locations-to-use-bins"></a>Impostare ubicazioni per l'utilizzo di collocazioni
 
 Le collocazioni rappresentano la struttura di base del magazzino e possono suggerire dove riporre gli articoli. Dopo avere creato le collocazioni, puoi definire il contenuto o utilizzarle come collocazioni variabili, ovvero prive di contenuto specifico.
 
@@ -28,7 +28,7 @@ Nel prossimo passaggio si progetta il flusso degli articoli nell'ubicazione spec
 > [!NOTE]  
 > È necessario creare i codici collocazione prima di poterli specificare per l'ubicazione. Per ulteriori informazioni, vedere [Creare collocazioni](warehouse-how-to-create-individual-bins.md).  
 
-## Per impostare un'ubicazione per l'utilizzo di collocazioni
+## <a name="to-set-up-a-location-to-use-bins"></a>Per impostare un'ubicazione per l'utilizzo di collocazioni
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
 2. Selezionare l'ubicazione in cui si desidera utilizzare le collocazioni.  
@@ -46,13 +46,13 @@ Nel prossimo passaggio si progetta il flusso degli articoli nell'ubicazione spec
 9. Facoltativo: compila i campi nella scheda dettaglio **Criteri collocazione**. I campi più importanti sono **Criteri capacità collocazione**, **Permettere breakbulk** e **Codice modello stoccaggio**.  
 10. Nella Scheda dettaglio **Warehouse** compilare i campi **Tempo gest. uscita da whse.**, **Tempo gest. entrata in whse.** e **Codice calendario base**. Per ulteriori informazioni, vai a [Impostazione dei calendari di base](across-how-to-assign-base-calendars.md).
 
-## Rifornimento della collocazione di consumo
+## <a name="fill-in-the-consumption-bin"></a>Rifornimento della collocazione di consumo
 
 Il seguente diagramma di flusso illustra in che modo il campo **Cod. collocazione** nelle righe del componente dell'ordine di produzione viene compilato in base al setup dell'ubicazione.
 
 :::image type="content" source="media/binflow.png" alt-text="Campo Codice collocazione nelle righe componenti dell'ordine di produzione.":::
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  
