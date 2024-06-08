@@ -9,11 +9,11 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-capacities"></a>Registrare le capacità
+# Registrare le capacità
 
 Nelle registrazioni delle rettifiche delle capacità vengono registrate le capacità utilizzate che non sono assegnate all'ordine di produzione. La manutenzione, ad esempio, deve essere assegnata alla capacità ma non a un ordine di produzione.  
 
-## <a name="to-post-capacities"></a>Per registrare le capacità
+## Per registrare le capacità  
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni capacità**, quindi scegli il collegamento correlato.  
 2. Immettere la **data di registrazione** e il **nr. di documento** .  
@@ -24,7 +24,7 @@ Nelle registrazioni delle rettifiche delle capacità vengono registrate le capac
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-work-center-ledger-entries"></a>Per visualizzare i movimenti contabili relativi alle aree di produzione:
+## Per visualizzare i movimenti contabili relativi alle aree di produzione:  
 
 Nelle pagine **Scheda area di produzione** e **Scheda centri lavoro**, è possibile visualizzare le capacità registrate come risultato di ordini di produzione chiusi.    
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Aree di produzione**, quindi scegli il collegamento correlato.  
@@ -32,7 +32,7 @@ Nelle pagine **Scheda area di produzione** e **Scheda centri lavoro**, è possib
 
     Nella pagina **Movimenti Contabili Capacità** vengono visualizzati i movimenti registrati relativi all'area di produzione in ordine di registrazione.   
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

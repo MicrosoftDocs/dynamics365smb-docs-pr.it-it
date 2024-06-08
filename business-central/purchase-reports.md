@@ -10,15 +10,15 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-reporting-and-analytics"></a>Report e analisi degli acquisti
+# Report e analisi degli acquisti
 
 Il report di acquisti in  consente ai professionisti di approvvigionamento e aziendali di ottenere approfondimenti e statistiche sulle attività di acquisto attuali e passate.  
 
-## <a name="reports"></a>Report
+## Report
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Attività
+## Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato dell'acquisto:
 
@@ -26,7 +26,7 @@ I seguenti articoli descrivono alcune delle attività chiave per analizzare lo s
 - [Calcolare le date per gli acquisti](purchasing-date-calculation-for-purchases.md)
 - [Visualizzare i movimenti contabili di acquisto](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## <a name="explore-purchase-reports-with-report-explorer"></a>Esplorare i report sull'acquisto con Esplora report
+## Esplorare i report sull'acquisto con Esplora report
 
 Per ottenere una panoramica dei report disponibili per l'acquisto, scegli **Tutti i report** nella home page. Questa azione apre Esplora ruoli, il cui contenuto viene filtrato in base alle funzionalità nell'opzione **Report e analisi**. Sotto l'intestazione **Acquisto** , scegli **Esplora**.
 
@@ -34,7 +34,7 @@ Per ottenere una panoramica dei report disponibili per l'acquisto, scegli **Tutt
 
 Per ulteriori informazioni, vedi [Ricerca di report con Esplora ruoli](ui-role-explorer.md). 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Analisi ad hoc dei dati degli acquisti](ad-hoc-analysis-purchasing.md)  
 [Panoramica dell'analisi degli acquisti](purchasing-analytics-overview.md)   

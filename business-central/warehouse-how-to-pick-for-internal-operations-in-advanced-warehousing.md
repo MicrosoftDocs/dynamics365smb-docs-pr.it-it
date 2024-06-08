@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Prelevare per produzione, assemblaggio o commesse in configurazioni warehouse avanzate
+# Prelevare per produzione, assemblaggio o commesse in configurazioni warehouse avanzate
 
 La modalità di stoccaggio dei componenti di prelievo per le commesse, gli ordini di produzione o di assemblaggio dipende dall'impostazione della warehouse come ubicazione. Per ulteriori informazioni vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -32,7 +32,7 @@ Per prelevare o spostare i componenti per i documenti di origine in modalità pu
 |Ordine di assemblaggio|Modificare lo stato in Rilasciato.|
 |Commesse | Cambia lo stato in Aperto o crea subito una commessa con stato Aperto.|  
 
-## <a name="production"></a>Produzione
+## Produzione
 
 Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di produzione nel flusso verso la produzione.
 
@@ -41,13 +41,13 @@ Per un'ubicazione che utilizza le collocazioni per spostare gli articoli nelle c
 * Per un'ubicazione che utilizza lo stoccaggio e il prelievo diretti, segui i passaggi nell'articolo [Spostare articoli nelle configurazioni warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * Per le altre ubicazioni, segui le indicazioni nell'articolo [Spostare gli articoli internamente nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Assemblaggio
+## Assemblaggio  
 
 Utilizza i documenti **Prelievo warehouse** per spostare i componenti dell'assemblaggio nell'area di assemblaggio.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] supporta tipi di flusso assemblaggio su ordine e assemblaggio per magazzino. Per ulteriori informazioni sull'assemblaggio su ordine nel flusso di warehouse in uscita, vai a [Gestione di articoli assemblaggio su ordine nelle spedizioni warehouse](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Gestione progetti
+## Gestione progetti  
 
 Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di commessa nel flusso verso la gestione progetti.
 
@@ -56,11 +56,11 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 >
 > Le commesse non supportano le configurazioni avanzate in cui l'interruttore **Prelievo e stoccaggio diretti** è attivato.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Controllare se gli articoli sono disponibili per il prelievo
+## Controllare se gli articoli sono disponibili per il prelievo
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Per creare documenti di prelievo in blocco con i prospetti prelievi
+## Per creare documenti di prelievo in blocco con i prospetti prelievi
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
 
@@ -113,7 +113,7 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 
 8. Scegli il pulsante **OK**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Per prelevare articoli per un ordine di produzione, un ordine di assemblaggio, una commessa
+## Per prelevare articoli per un ordine di produzione, un ordine di assemblaggio, una commessa
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 
@@ -149,7 +149,7 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
     * [Assemblare articoli](assembly-how-to-assemble-items.md)
     * [Registrare il consumo o l'uso per i progetti](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Consuntivazione dei componenti di produzione in una configurazione warehouse avanzata
+## Consuntivazione dei componenti di produzione in una configurazione warehouse avanzata
 
 I metodi di consuntivazione influiscono sul flusso dei componenti in produzione. Per ulteriori informazioni vedi [Eseguire la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md). A seconda del metodo di consuntivazione selezionato, è possibile prelevare i componenti per la produzione nei seguenti modi:
 
@@ -157,7 +157,7 @@ I metodi di consuntivazione influiscono sul flusso dei componenti in produzione.
 * Utilizza un documento **Prelievo warehouse** per registrare il prelievo per gli articoli che utilizzano il metodo di consuntivazione **Prelievo + Avanti**, **Prelievo + Indietro**. Il consumo dei componenti avviene automaticamente quando modifichi lo stato dell'ordine di produzione oppure avvii o termini un'operazione. Tutti i componenti obbligatori devono essere disponibili. In caso contrario, la registrazione del consumo della consuntivazione viene interrotta per tale componente.
 * Utilizza un documento **Movimento warehouse** senza riferimento a un documento di origine o altri modi per registrare il movimento di componenti che utilizzano il metodo di consuntivazione **Avanti** o **Indietro**. I componenti vengono automaticamente consumati quando modifichi lo stato dell'ordine di produzione oppure avvii o termini un'operazione. Tutti i componenti obbligatori devono essere disponibili. In caso contrario, la registrazione del consumo della consuntivazione viene interrotta per tale componente. Per ulteriori informazioni vedi [Spostare articoli](warehouse-move-items.md).
 
-### <a name="example"></a>Esempio
+### Esempio
 
 Esiste un ordine di produzione per 15 PZ dell'articolo SP-SCM1004. Alcuni articoli nella lista dei componenti devono essere sottoposti manualmente a consuntivazione nelle registrazioni consumi. Altri articoli possono essere prelevati e sottoposti a consuntivazione automaticamente utilizzando il metodo di consuntivazione **Preleva + Indietro**.  
 
@@ -180,7 +180,7 @@ Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione**
 
 :::image type="content" source="media/binflow.png" alt-text="Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.":::
 
-## <a name="make-to-order-mto-production-components-in-an-advanced-warehouse-configuration"></a>Componenti di produzione Prod. su ordine in una configurazione warehouse avanzata
+## Componenti di produzione Prod. su ordine in una configurazione warehouse avanzata
 
 Negli scenari in cui un articolo prodotto è costituito da materie prime e articoli semilavorati con il criterio di produzione impostato su **Prod. su ordine**, il prelievo in warehouse per tali componenti semilavorati viene aggiunto allo stesso ordine di produzione con il campo **Cod. livello pianificazione** compilato. Si prevede che gli articoli semilavorati siano immediatamente disponibili per il consumo e non richiedano il prelievo, pertanto non sono inclusi nel documento di prelievo in warehouse. I prelievi in warehouse creati includono solo le materie prime per gli articoli prodotti e per gli articoli semilavorati.
 
@@ -188,7 +188,7 @@ Tuttavia, se gli articoli semilavorati sono disponibili in magazzino, il sistema
 Tale impostazione non è compatibile con i prelievi in warehouse e, a seconda della frequenza, per tali articoli semilavorati devi impostare il criterio di produzione **Prod. per Magazzino** o suddividere manualmente la riga componente dell'ordine di produzione quando devi prelevare gli articoli semilavorati prodotti in precedenza.
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 - [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 - [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  

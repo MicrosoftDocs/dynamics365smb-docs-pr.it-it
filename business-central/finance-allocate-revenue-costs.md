@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="allocate-revenue-and-costs-to-multiple-general-ledger-accounts"></a>Allocare ricavi e costi a più conti CoGe
+# Allocare ricavi e costi a più conti CoGe
 
 In questo articolo viene descritto come utilizzare i conti di allocazione per distribuire importi in documenti di vendita e di acquisto e righe di registrazioni COGE in conti C/G diversi. Puoi allocare gli importi tramite una distribuzione fissa o variabile.  
 
@@ -26,7 +26,7 @@ La tabella seguente presenta i metodi di allocazione che puoi utilizzare.
 |Corretto     | Se desideri suddividere le spese in modo ripetuto per un periodo di tempo più lungo, puoi utilizzare un'allocazione fissa. Un'allocazione fissa ti consente di definire la suddivisione dell'allocazione. Questa suddivisione cambierà solo quando cambi l'impostazione nella pagina **Conto allocazione**.        |
 |Variabile     | Per distribuire entrate o uscite in base a valori che cambiano nel tempo, utilizza il metodo di allocazione variabile. Le allocazioni variabili ti consentono di specificare le origini da utilizzare per calcolare le percentuali di allocazione. Questo metodo è utile, ad esempio, per suddividere i costi dei dipendenti in base al numero di dipendenti dei reparti o delle divisioni. Un altro esempio è la distribuzione del costo dell'affitto in base alle riprese dell'impianto di produzione che potrebbero variare nel tempo in base alla linea di produzione. Le allocazioni variabili utilizzano una combinazione di dimensioni e conti statistici per determinare la modalità di distribuzione degli importi in un periodo di tempo. Per ulteriori informazioni sui conti statistici, vedi [Analizzare i dati con i conti statistici](bi-use-statistical-accounts.md). Per ulteriori informazioni sulle dimensioni, vedi [Usare le dimensioni](finance-dimensions.md).        |
 
-## <a name="use-a-fixed-share-or-percentage-method-to-allocate-amounts"></a>Utilizzare un metodo a quota fissa o percentuale per allocare gli importi
+## Utilizzare un metodo a quota fissa o percentuale per allocare gli importi
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Conto allocazione** e quindi scegli il collegamento correlato.  
 1. Nella pagina **Conti allocazione** scegli l'azione **Nuovo**.
@@ -41,7 +41,7 @@ La tabella seguente presenta i metodi di allocazione che puoi utilizzare.
    > Se inserisci l'importo effettivo da destinare a un'allocazione fissa nel campo **Quota**, il campo **Percentuale** mostra l'importo percentuale dell'importo totale.
 1. Ripeti questo processo per ogni account da includere nell'allocazione.
 
-## <a name="use-a-variable-method-to-allocate-amounts"></a>Utilizzare un metodo variabile per allocare importi
+## Utilizzare un metodo variabile per allocare importi
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"), immetti **Conto allocazione** e quindi scegli il collegamento correlato.  
 1. Nella pagina **Conti allocazione** scegli l'azione **Nuovo**.
@@ -54,7 +54,7 @@ La tabella seguente presenta i metodi di allocazione che puoi utilizzare.
 1. Facoltativo: per filtrare in base a valori di dimensione globale specifici, scegli l'azione **Filtri per saldo conto di ripartizione** e quindi specifica i valori di filtro.
 1. Facoltativo: per registrare la riga, scegli l'azione **Dimensioni** e specifica le dimensioni.
 
-## <a name="allocate-amounts-on-the-fly"></a>Allocare importi immediatamente
+## Allocare importi immediatamente
 
 Si creano conti di allocazione per suddividere ricavi e costi per conti C/G e conti bancari. L'automatizzazione dell'allocazione può farti risparmiare tempo. Tuttavia, se desideri utilizzare conti di allocazione, ma non desideri crearli per ogni conto C/G, puoi risparmiare ancora più tempo.
 
@@ -62,14 +62,14 @@ L'opzione Eredita da conto padre ti consente di utilizzare il conto di allocazio
 
 Le allocazioni ad hoc sono facili da impostare. Anziché specificare un conto bancario o C/G nel campo **Tipo di conto di destinazione** nella pagina **Conto allocazione**, scegli l'opzione **Eredita da conto padre**. Lascia vuoto il campo **Numero conto di destinazione**. Quando scegli il conto C/G nel documento o nella riga di registrazione, tale conto viene utilizzato per allocare importi.
 
-## <a name="verify-that-amounts-distribute-correctly-before-you-post-them"></a>Verificare che gli importi siano distribuiti correttamente prima di registrarli
+## Verificare che gli importi siano distribuiti correttamente prima di registrarli
 
 Esistono un paio di modi per verificare che gli importi vengano distribuiti correttamente:
 
 * Nella pagina **Conto allocazione** scegli l'azione **Allocazione test**. Usa il campo **Importo da allocare** per testare importi diversi.
 * Nella pagina **Giornali di contabilità generale**, scegli il giornale e usa l'azione **Anteprima registrazione**.
 
-## <a name="adjust-the-distribution"></a>Rettificare la distribuzione
+## Rettificare la distribuzione
 
 Se trovi qualcosa in un'allocazione che desideri modificare, puoi rettificare l'allocazione prima di registrarla.  
 
@@ -77,7 +77,7 @@ Se trovi qualcosa in un'allocazione che desideri modificare, puoi rettificare l'
 1. Selezionare la riga e quindi l'azione **Ridistribuisci allocazioni conto**.
 1. Nella pagina **Modifica allocazioni**, esegui la rettifica.
 
-## <a name="post-an-allocation-transaction"></a>Registrare una transazione di allocazione
+## Registrare una transazione di allocazione
 
 I passaggi seguenti descrivono come registrare una transazione di allocazione da una registrazione COGE. I passaggi sono uguali per tutti i documenti di acquisto e vendita.
 
@@ -92,6 +92,6 @@ I passaggi seguenti descrivono come registrare una transazione di allocazione da
     1. Nel campo **Nr. conto di allocazione**, scegli il conto di allocazione configurato per utilizzare l'opzione Eredita da conto padre. 
 1. Scegli **Registra**.
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Usare le registrazioni COGE](ui-work-general-journals.md)  

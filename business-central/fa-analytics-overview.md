@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="fixed-assets-analytics"></a>Analisi dei cespiti
+# Analisi dei cespiti
 
 Le aziende con cespiti acquisiscono molti dati su di essi durante le attività quotidiane. Questi dati supportano una preziosa business intelligence (BI) per i gestori di cespiti:
 
@@ -36,7 +36,7 @@ Ogni funzionalità presenta vantaggi e svantaggi, a seconda del tipo di analisi 
 
 In questo articolo vengono descritte le modalità di utilizzo di queste funzionalità analitiche per ottenere informazioni dettagliate sui cespiti.
 
-## <a name="analytics-needs-in-asset-management"></a>Esigenze analitiche nella gestione dei cespiti
+## Esigenze analitiche nella gestione dei cespiti
 
 Quando si pensa alle esigenze di analisi nella gestione dei cespiti, potrebbe essere utile utilizzare un modello basato su utenti tipo che descrive le esigenze di analisi ad alto livello.
 
@@ -52,14 +52,14 @@ Persone che ricoprono ruoli diversi hanno esigenze diverse in termini di dati e 
 |Gestione cespiti/Controller   | Tendenze, sintesi | Report manageriali predefiniti <br> Analisi ad hoc      | 
 |Addetto contabile                      | Dati dettagliati     | Report operativi predefiniti <br> Dati delle attività visualizzate |
 
-## <a name="asset-management-kpis"></a>Indicatori KPI di gestione cespiti
+## Indicatori KPI di gestione cespiti
 
 Un indicatore KPI è un valore misurabile che mostra l'efficacia con cui stai raggiungendo i tuoi obiettivi. Nella gestione dei cespiti, le persone spesso utilizzano i seguenti indicatori KPI per monitorare l'uso dei cespiti della propria organizzazione:
 
 - Fatturato cespiti totale
 - Rendimento dei cespiti
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-fixed-assets"></a>Utilizzare il reporting finanziario per produrre rendiconti finanziari e indicatori KPI relativi ai cespiti
+## Utilizzare il reporting finanziario per produrre rendiconti finanziari e indicatori KPI relativi ai cespiti
 
 La funzionalità **Reporting finanziario** fornisce informazioni dettagliate sui dati finanziari mostrati nel piano dei conti. Puoi configurare i report finanziari per analizzare le cifre nei conti di contabilità generale (C/G) e confrontare i movimenti di contabilità generale con i movimenti di budget. Specificamente per la gestione dei cespiti, puoi impostare report finanziari sui conti C/G utilizzati per tenere traccia delle registrazioni dei cespiti.
 
@@ -67,13 +67,13 @@ Le dimensioni svolgono un ruolo importante nella business intelligence. Una dime
 
 Per ulteriori informazioni sul reporting finanziario, vedi [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-fixed-assets"></a>Reporting finanziario in business unit o persone giuridiche (relative ai cespiti)
+## Reporting finanziario in business unit o persone giuridiche (relative ai cespiti)
 
 Alcune organizzazioni usano [!INCLUDE [prod_short](includes/prod_short.md)] in più business unit o persone giuridiche. Altre usano [!INCLUDE [prod_short](includes/prod_short.md)]nelle filiali che generano report per le organizzazioni padre. [!INCLUDE [prod_short](includes/prod_short.md)] offre ai contabili strumenti che li aiutano a trasferire i movimenti C/G da due o più società (filiali) a una società consolidata. In particolare per la gestione dei cespiti, potresti voler consolidare i movimenti C/G per i tuoi conti cespiti per tenere traccia degli indicatori KPI dei cespiti in business unit o persone giuridiche.
 
 Per ulteriori informazioni, vedi [Consolidamento della società](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Analisi ad hoc dei dati dei cespiti
+## Analisi ad hoc dei dati dei cespiti
 
 A volte, devi solo verificare se i numeri si sommano correttamente o confermare rapidamente una cifra. Le seguenti funzionalità sono ottime per le analisi ad hoc:
 
@@ -94,7 +94,7 @@ Allo stesso modo, puoi usare l'azione **Apri in Excel** per aprire una pagina di
 Per ulteriori informazioni su come eseguire analisi ad hoc sui registri dei cespiti, vedi [Analisi ad hoc dei cespiti](ad-hoc-analysis-fa.md).
 
 
-## <a name="built-in-reports-for-fixed-assets"></a>Report predefiniti per cespiti
+## Report predefiniti per cespiti
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report predefiniti, funzioni di tracciamento e strumenti utili per i revisori o i controllori che generano report sui cespiti.
 
@@ -109,7 +109,7 @@ Per ottenere una panoramica dei report disponibili, scegli **Tutti i report** ne
 
 Per ulteriori informazioni sui report relativi ai cespiti, vedi [Report integrati sui cespiti](fa-reports.md).
 
-## <a name="on-screen-fixed-assets-analytics"></a>Analisi dei cespiti visualizzati
+## Analisi dei cespiti visualizzati
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include varie pagine che forniscono panoramiche sugli acquisti e attività da svolgere. Ecco alcuni esempi per iniziare:
 
@@ -120,7 +120,7 @@ Per ulteriori informazioni sui report relativi ai cespiti, vedi [Report integrat
 - [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 - [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### <a name="show-fixed-asset-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Mostrare movimenti e saldi di contabilità generale relativi ai cespiti dalla pagina Piano dei conti
+### Mostrare movimenti e saldi di contabilità generale relativi ai cespiti dalla pagina Piano dei conti
 
 La pagina Piano dei conti mostra tutti i conti C/G con numeri aggregati nella contabilità generale. Da questa pagina puoi fare cose come:  
 
@@ -134,7 +134,7 @@ Specificamente per i cespiti, puoi creare una visualizzazione nella pagina Piano
 
 Per saperne di più, vedi [Informazioni sul piano dei conti](finance-general-ledger.md#the-chart-of-accounts)
 
-### <a name="analyze-data-by-dimensions-related-to-fixed-assets"></a>Analizzare i dati per dimensioni (relative ai cespiti)
+### Analizzare i dati per dimensioni (relative ai cespiti)
 
 Le dimensioni sono valori che categorizzano i movimenti in modo da poterli seguire e analizzare nei documenti, ad esempio registrazioni di cespiti. Ad esempio, le dimensioni possono indicare il reparto o l'ubicazione di provenienza del movimento.  
 
@@ -142,7 +142,7 @@ Quindi, anziché impostare conti di contabilità generale distinti per ogni repa
 
 Per ulteriori informazioni, vedi [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione dei report finanziari in business unit o persone giuridiche](finance-consolidated-company-reporting.md)  
 [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)  

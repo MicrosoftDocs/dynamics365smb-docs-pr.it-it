@@ -10,7 +10,7 @@ ms.date: 08/23/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-cash-flow-analysis"></a>Impostazione di un'analisi di un flusso di cassa
+# Impostazione di un'analisi di un flusso di cassa
 
 Se si desidera informazioni per decidere quali operazioni effettuare con i contanti, è possibile utilizzare i grafici nella Gestione ruolo utente Contabile:
 
@@ -24,7 +24,7 @@ In questo articolo viene descritta l'origine dei dati nei grafici e, se necessar
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
-## <a name="the-cash-cycle-and-income--expense-charts"></a>Grafici Ciclo di cassa ed Entrate e uscite
+## Grafici Ciclo di cassa ed Entrate e uscite
 
 I grafici **Ciclo di cassa** ed **Entrate e spese** sono pronti per l'utilizzo, in base al piano dei conti e ai report finanziari. I conti sono all'origine dei dati e i report finanziari calcolano la relazione tra le vendite e gli incassi. Vengono forniti alcuni conti e report finanziari. È possibile utilizzarle così come sono, cambiarli e aggiungerne nuovi. Se si aggiungono conti C/G al piano dei conti, ad esempio importandoli da QuickBooks, sarà necessario mapparli ai conti nella pagina **Report finanziari** per i seguenti report:
 
@@ -43,7 +43,7 @@ Immettere i conti nel campo **Totale** per **Totale ricavi**, **Totale contabili
 > [!TIP] 
 > Verifica la mappatura scegliendo l'azione **Panoramica**.  
 
-## <a name="set-up-the-cash-flow-chart"></a>Impostare il grafico Flusso di cassa
+## Impostare il grafico Flusso di cassa
 
 Il grafico Flusso di cassa è basato su:  
 
@@ -54,7 +54,7 @@ Per agevolare l'inizio, vengono forniti determinati conti ed impostazioni del fl
 
 Per configurare i conti, cerca **Piano dei conti di cassa**, seleziona il collegamento e compila i campi. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Ripeti questa procedura per il **setup flusso di cassa**.
 
-## <a name="set-up-cash-flow-forecasts"></a>Impostare le previsioni flusso di cassa
+## Impostare le previsioni flusso di cassa
 
 Nel grafico **Previsione flusso di cassa** sono utilizzati i conti di cassa, le impostazioni del flusso di cassa e le previsioni dei flussi di cassa. Alcuni conti vengono forniti, tuttavia, è possibile impostare il proprio conto utilizzando una guida assistita di setup. La guida aiuta a specificare aspetti, quali la frequenza di aggiornamento della previsione, i conti sui cui basarla, le informazioni su quando effettuare i pagamenti delle imposte e se utilizzare [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
@@ -79,7 +79,7 @@ Per utilizzare una procedura manuale:
 > [!TIP]  
 > Considerare la durata del periodo che il servizio utilizzerà nei suoi calcoli. Più dati immessi, più accurate saranno le previsioni. Inoltre, prestare attenzione a scostamenti ampi nei periodi. Influiranno anche sulle previsioni. Se Azure AI non trova una quantità sufficiente di dati o i dati variano molto, il servizio non farà una previsione.  
 
-## <a name="design-details"></a>Dettagli di progettazione
+## Dettagli di progettazione
 
 Gli abbonamenti per [!INCLUDE[prod_short](includes/prod_short.md)] vengono forniti con l'accesso a diversi servizi Web predittivi in tutte le aree geografiche in cui [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile. Per ulteriori informazioni, vedi Guida alle licenze di Microsoft Dynamics 365 Business Central. La guida è disponibile per il download sul sito Web di [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
@@ -89,11 +89,11 @@ Questi servizi Web sono apolidi, nel senso che utilizzano i dati solo per calcol
 >
 > In alternativa, è possibile utilizzare il proprio servizio Web predittivo. Per ulteriori informazioni, vedere [Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa](#AnchorText).
 
-### <a name="data-required-for-forecast"></a>Dati richiesti per la previsione
+### Dati richiesti per la previsione
 
 Per effettuare previsioni su entrate e spese future, i servizi Web richiedono dati storici su crediti, debiti e tasse.
 
-#### <a name="receivables"></a>Contabilità clienti
+#### Contabilità clienti
 
 I campi **Scadenza**, **Importo (VL)** della pagina **Movimenti contabili clienti**, dove:
 
@@ -102,7 +102,7 @@ I campi **Scadenza**, **Importo (VL)** della pagina **Movimenti contabili client
 
 Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/prod_short.md)] comprime le transazioni per **Scadenza** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa**.
 
-#### <a name="payables"></a>Contabilità fornitori
+#### Contabilità fornitori
 
 I campi **Scadenza**, **Importo (VL)** della pagina **Movimenti contabili fornitori**, dove:
 
@@ -111,7 +111,7 @@ I campi **Scadenza**, **Importo (VL)** della pagina **Movimenti contabili fornit
 
 Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/prod_short.md)] comprime le transazioni per **Scadenza** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa**.
 
-#### <a name="tax"></a>Imposta
+#### Imposta
 
 I campi **Data documento**, **Importo (VAT)** della pagina **Movimenti contabili IVA**, dove:
 
@@ -120,7 +120,7 @@ I campi **Data documento**, **Importo (VAT)** della pagina **Movimenti contabili
 
 Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/prod_short.md)] comprime le transazioni per **Data del documento** in base al valore nel campo **Tipo di periodo** della pagina **Setup flusso di cassa**.
 
-## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"></a>Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa
+## <a name="AnchorText"></a>Creare e utilizzare il proprio servizio Web predittivo per le previsioni di flussi di cassa
 
 È inoltre possibile creare il proprio servizio Web predittivo basato su un modello pubblico denominato **Forecasting model per Microsoft Business Central**. Il modello predittivo è disponibile anche online nella raccolta Azure AI. Attenersi alla seguente procedura per utilizzare il modello:  
 
@@ -133,7 +133,7 @@ Prima di utilizzare il servizio Web predittivo [!INCLUDE[prod_short](includes/pr
 7. Espandi la Scheda dettaglio **Azure per intelligenza artificiale** e quindi compila i campi, inclusi l'URL dell'API e la chiave API forniti da Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Nella Gestione ruolo utente Contabile, nel grafico **Previsione flusso di cassa**, scegli l'azione **Ricalcola previsione**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Analizzare il flusso di cassa dell'azienda](finance-analyze-cash-flow.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  
