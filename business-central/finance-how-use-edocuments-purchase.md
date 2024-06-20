@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Utilizzare documenti elettronici nel processo di acquisto
+# <a name="use-e-documents-in-the-purchases-process"></a>Utilizzare documenti elettronici nel processo di acquisto
 
 Puoi utilizzare documenti elettronici configurati con documenti di acquisto.
 
@@ -26,11 +26,11 @@ Puoi utilizzare i seguenti documenti di acquisto con la funzionalità dei docume
 > [!NOTE]
 > Da [!INCLUDE[prod_short](includes/prod_short.md)] versione 24.0, è possibile connettere gli **Ordini di acquisto** con i **Documenti elettronici** ricevuti.  
 
-## Documenti elettronici per gli acquisti
+## <a name="e-documents-in-purchases"></a>Documenti elettronici per gli acquisti
 
 La ricezione dei documenti elettronici di acquisto in Dynamics 365 Business Central può essere effettuata come processo batch o manualmente.  
 
-### Come impostare i fornitori per utilizzare documenti di acquisto differenti  
+### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>Come impostare i fornitori per utilizzare documenti di acquisto differenti
 
 Segui questi passaggi per configurare i fornitori affinché siano utilizzati correttamente con le fatture elettroniche in entrata: 
 
@@ -47,9 +47,9 @@ Segui questi passaggi per configurare i fornitori affinché siano utilizzati cor
 4. Scegli una delle opzioni che desideri utilizzare per il fornitore selezionato. 
 5. Chiudere la pagina.   
 
-### Per utilizzare fatture di acquisto  
+### <a name="to-work-with-purchase-invoices"></a>Per utilizzare fatture di acquisto
 
-#### Eseguire il processo batch  
+#### <a name="run-the-batch-job"></a>Eseguire il processo batch
 
 > [!NOTE]
 > Questo processo batch è usato per la raccolta automatizzata delle fatture in entrata. Può funzionare solo in un paese o in un'area in cui esiste la funzionalità.  
@@ -77,7 +77,7 @@ Vi sono due errori comuni:
 
 Dopo aver corretto gli errori e gli avvisi, puoi specificare manualmente quando il sistema deve creare una fattura di acquisto in base alla tua impostazione selezionando **Crea documento**.   
 
-#### Importare manualmente le fatture  
+#### <a name="manually-import-invoices"></a>Importare manualmente le fatture
 
 Per importare manualmente documenti elettronici esterni, procedi come segue:
 
@@ -88,9 +88,9 @@ Per importare manualmente documenti elettronici esterni, procedi come segue:
 5. Una volta risolti i problemi, nel gruppo **Importa manualmente**, seleziona **Crea documento**.  
 6. Dopo che il documento è stato creato in [!INCLUDE[prod_short](includes/prod_short.md)], l'utilizzo di un processo batch non modifica il modo in cui lo visualizzi. 
 
-### Domande elettronici con ordini di acquisto  
+### <a name="e-documents-with-purchase-orders"></a>Domande elettronici con ordini di acquisto
 
-#### Per collegare ordini di acquisto con i documenti elettronici ricevuti
+#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>Per collegare ordini di acquisto con i documenti elettronici ricevuti
 
 Se il tuo **Fornitore** ha configurato il campo **Ricevi documento elettronico su** per l'utilizzo con **Ordini di acquisto**, una volta creato il documento elettronico in [!INCLUDE[prod_short](includes/prod_short.md)] (manualmente o da un punto finale esterno), [!INCLUDE[prod_short](includes/prod_short.md)] effettuerà quanto segue:  
 
@@ -100,7 +100,7 @@ Se il tuo **Fornitore** ha configurato il campo **Ricevi documento elettronico s
 
 3. Se l'**Ordine d'acquisto** per questo particolare fornitore non esiste al momento della creazione del nuovo **Documento elettronico**, [!INCLUDE[prod_short](includes/prod_short.md)] creerà un nuovo **Ordine di acquisto**, utilizzando lo stesso modello di creazione già esistente per le nuove **Fatture di acquisto**. Lo **Stato del documento** di questo **Documento elettronico** sarà **Elaborato**, e lo **Stato del documento elettronico** nella pagina secondaria **Stato del servizio** sarà **Documento importato creato**. Questo collegamento sarà visibile nel campo **Documento** in questo specifico **Documento elettronico**.   
 
-#### Righe corrispondenti del documento elettronico ricevuto con ordine di acquisto  
+#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Righe corrispondenti del documento elettronico ricevuto con ordine di acquisto
 
 Puoi abbinare i documenti elettronici ricevuti alle righe degli ordini di acquisto da due aree diverse, ovvero la pagina **Documento elettronico** o la pagina **Ordine di acquisto**. Il modo più semplice di individuare l'**Ordine di acquisto** collegato è usare il riquadro **Ordini di acquisto collegati** come parte di **Attività documento elettronico**. Tutti i documenti non collegati possono essere trovati utilizzando il riquadro **Attesa di fatture elettroniche di acquisto** dove hai un elenco di **Documenti elettronici** che devi rivedere.  
 
@@ -110,7 +110,7 @@ Puoi abbinare i documenti elettronici ricevuti alle righe degli ordini di acquis
 > [!NOTE]
 > Se la percentuale di IVA è diversa tra il documento in entrata e la percentuale IVA della società, i documenti corrispondenti non possono essere utilizzati in un ambiente per più paesi.  
 
-##### Righe corrispondenti nell'ordine di acquisto  
+##### <a name="matching-lines-from-purchase-order"></a>Righe corrispondenti nell'ordine di acquisto
 
 Puoi abbinare le righe dell'elenco **Ordini di acquisto** o di uno degli **Ordini di acquisto** aperti. Per iniziare, utilizza i seguenti passaggi:  
 
@@ -160,7 +160,7 @@ Se desideri aggiungere un po' di tolleranza e consentire la differenza tra le ri
 3. Questa impostazione verrà applicata a tutte le righe corrispondenti, ma ancora una volta considerando la tolleranza per l'importo totale, come per il **Costo unitario diretto** insieme alla **% sconto riga** applicata.  
 4. Chiudere la pagina.   
 
-##### Abbinamento delle righe del documento elettronico  
+##### <a name="matching-lines-from-e-document"></a>Abbinamento delle righe del documento elettronico
 
 Puoi abbinare le righe nella pagina **Documento elettronico**. Per iniziare, utilizza i seguenti passaggi:  
 
@@ -169,7 +169,7 @@ Puoi abbinare le righe nella pagina **Documento elettronico**. Per iniziare, uti
 3. Scegli l'azione **Abbina ordine d'acquisto** per aprire la pagina **Corrispondenza ordine di acquisto**.  
 4. Ripeti gli stessi passaggi che hai utilizzato quando hai iniziato ad eseguire l'abbinamento negli ordini di acquisto.
 
-### Copilota Assistenza per la corrispondenza dei documenti elettronici  
+### <a name="e-document-matching-assistance-copilot"></a>Copilota Assistenza per la corrispondenza dei documenti elettronici
 
 > [!NOTE]
 > Attualmente, il copilota **Assistenza per la corrispondenza dei documenti elettronici** è nello stato di anteprima pronto per la produzione ed è disponibile a livello globale tranne che nel Canada. Funziona solo con la lingua inglese. 
@@ -177,7 +177,7 @@ Puoi abbinare le righe nella pagina **Documento elettronico**. Per iniziare, uti
 > [!NOTE]
 > Copilot è il assistente basato sull'intelligenza artificiale che aiuta le persone all'interno dell'organizzazione a liberare la propria creatività e ad automatizzare le attività noiose. Il copilota **Assistenza per la corrispondenza dei documenti elettronici** aiuta gli utenti ad abbinare facilmente le fatture elettroniche ricevute e le righe degli ordini di acquisto esistenti, utilizzando il modello LLM per trovare righe corrispondenti tra due documenti diversi. 
 
-#### Per attivare il copilota  
+#### <a name="to-activate-the-copilot"></a>Per attivare il copilota
 
 Nel caso in cui non hai attivato il copilota **Assistenza per la corrispondenza dei documenti elettronici**, devi farlo manualmente. Per abilitare il copilota **Assistenza per la corrispondenza dei documenti elettronici**, segui questi passaggi: 
 
@@ -186,7 +186,7 @@ Nel caso in cui non hai attivato il copilota **Assistenza per la corrispondenza 
 
 Una volta attivato il copilota, puoi iniziare a usarlo.
 
-#### Utilizzare il copilota Assistenza per la corrispondenza dei documenti elettronici 
+#### <a name="use-the-e-document-matching-assistance-copilot"></a>Utilizzare il copilota Assistenza per la corrispondenza dei documenti elettronici
 
 Se il copilota è attivato, le azioni esistenti **Mappa righe documento elettronico** negli ordini acquistati e **Abbina ordine di acquisto** nella pagina **Documento elettronico** avranno icone diverse, che simboleggiano la funzionalità dell'intelligenza artificiale. Puoi eseguire queste azioni (assolutamente identiche a quelle degli esempi precedenti dall'elenco degli ordini di acquisto) da uno degli **Ordini d'acquisto** o dal **Documento elettronico**. Tutti i passaggi per l'esecuzione sono uguali, ma quando esegui questa azione, il risultato sarà diverso e dovrai seguire i passaggi:  
 
@@ -231,7 +231,7 @@ Se il copilota è attivato, le azioni esistenti **Mappa righe documento elettron
 > [!NOTE]
 > L'analisi dei prezzi/costi e il controllo della quantità disponibile fanno parte dell'attività di pre-elaborazione.   
 
-## Panoramica degli stati dei documenti elettronici
+## <a name="overview-of-e-document-statuses"></a>Panoramica degli stati dei documenti elettronici
 
 Per avere una migliore panoramica di tutti i documenti elettronici nella società, puoi selezionare la gestione ruolo utente **Contabile** dove esistono gli stati dei documenti elettronici. Lì puoi trovare le attività relative ai documenti elettronici che hanno i seguenti stati:
 
@@ -242,7 +242,7 @@ Per avere una migliore panoramica di tutti i documenti elettronici nella societ�
     - Errore
 
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare documenti elettronici](finance-how-setup-edocuments.md)    
 [Utilizzare un documento elettronico nel processo di vendita](finance-how-use-edocuments.md)   

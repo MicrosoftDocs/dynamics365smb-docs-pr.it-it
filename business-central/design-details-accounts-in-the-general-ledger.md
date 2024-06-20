@@ -10,11 +10,11 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Dettagli di progettazione: conti nella contabilità generale
+# <a name="design-details-accounts-in-the-general-ledger"></a>Dettagli di progettazione: conti nella contabilità generale
 
 Per riconciliare i movimenti di inventario e i movimenti contabili capacità con la contabilità generale, i movimenti di valorizzazione correlati vengono registrati in conti diversi nella contabilità generale. Per ulteriori informazioni, vedere [Dettagli di progettazione: Riconciliazione con la contabilità generale](design-details-reconciliation-with-the-general-ledger.md).  
 
-## Dai contabili inventario  
+## <a name="from-the-inventory-ledger"></a>Dai contabili inventario
 
 Nella seguente tabella viene mostrata la relazione tra i diversi tipi di movimenti di valorizzazione magazzino e i conti e le contropartite nella contabilità generale.  
 
@@ -58,7 +58,7 @@ Nella seguente tabella viene mostrata la relazione tra i diversi tipi di movimen
 |Output assemblaggio|Scostamenti|Costi generali produzione|No|Magazzino|Scost. costi gen. mfg|  
 |Output assemblaggio|Arrotondamento||No|Magazzino|Rettifica magazzino|  
 
-## Dal contabile capacità  
+## <a name="from-the-capacity-ledger"></a>Dal contabile capacità
 
  Nella seguente tabella viene mostrata la relazione tra i diversi tipi di movimenti di valorizzazione capacità e i conti e le contropartite nella contabilità generale. I movimenti contabili capacità rappresentano il tempo di lavoro utilizzato nel lavoro di assemblaggio o di produzione.  
 
@@ -69,13 +69,13 @@ Nella seguente tabella viene mostrata la relazione tra i diversi tipi di movimen
 |Produzione|Centro di lavoro/Area di produzione|Costo Diretto|Conto WIP|Costo diretto collegato|  
 |Produzione|Centro di lavoro/Area di produzione|Costi indiretti|Conto WIP|Costi generali collegati|  
 
-## I costi di assemblaggio sono sempre effettivi  
+## <a name="assembly-costs-are-always-actual"></a>I costi di assemblaggio sono sempre effettivi
 
  Come illustrato nella tabella precedente, le registrazioni di assemblaggio non sono rappresentate nei conti provvisori. Questo perché il concetto di semilavorati (WIP) non si applica alla registrazione di output assemblaggio, a differenza della registrazione dell'output di produzione. I costi di assemblaggio vengono registrati solo come costo effettivo, mai come costo previsto.  
 
  Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-assembly-order-posting.md).  
 
-## Calcolo della quantità da registrare nella contabilità generale  
+## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Calcolo della quantità da registrare nella contabilità generale
 
  I seguenti campi nella tabella **Movimenti valorizzazione** vengono utilizzati per calcolare l'importo del costo previsto che viene registrato nella contabilità generale:  
 
@@ -91,7 +91,7 @@ Nella seguente tabella viene mostrato in che modo vengono calcolati gli importi 
 |Costo effettivo|Importo Costo (Effettivo) - Costo Registrato in C/G|  
 |Costo previsto|Importo Costo (Previsto) - Costo Registrato in C/G|  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 
 [Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)  
 [Dettagli di progettazione: registrazione di magazzino](design-details-inventory-posting.md)  

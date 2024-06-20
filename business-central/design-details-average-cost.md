@@ -11,13 +11,13 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Dettagli di progettazione: costo medio
+# <a name="design-details-average-cost"></a>Dettagli di progettazione: costo medio
 
 Il costo medio di un articolo è calcolato con una media ponderata periodica. La media si basa sul periodo di costo medio specificato in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La data di valutazione viene impostata automaticamente.  
 
-## Impostazione del calcolo del costo medio
+## <a name="setting-up-average-cost-calculation"></a>Impostazione del calcolo del costo medio
 
 Nella seguente tabella vengono descritti i due campi della pagina **Setup magazzino** che devono essere compilati per abilitare il calcolo del costo medio.  
 
@@ -31,7 +31,7 @@ Nella seguente tabella vengono descritti i due campi della pagina **Setup magazz
 >
 > Nella pagina **Periodi contabili** viene mostrato il costo medio del periodo e il tipo di calcolo del costo medio utilizzato per quel periodo, per ogni periodo contabile.  
 
-## Calcolo del costo medio
+## <a name="calculating-average-cost"></a>Calcolo del costo medio
 
  Quando si registra una transazione per un articolo per il quale viene utilizzato il metodo di costing medio, viene creato un movimento nella tabella **Rettifica costo medio cod. spedizioni Intrastat**. Il movimento contiene numero articolo, codice variante e codice ubicazione della transazione. Il movimento contiene inoltre il campo **Data valutazione**, che specifica l'ultima data del costo medio del periodo in cui è stata registrata la transazione.  
 
@@ -47,7 +47,7 @@ Nella seguente tabella vengono descritti i due campi della pagina **Setup magazz
 
  Il costo medio calcolato viene quindi collegato alle riduzioni di magazzino per l'articolo (o articolo, ubicazione e variante) con le date di registrazione nel costo medio del periodo. Per gli aumenti di magazzino collegati in modo fisso alle riduzioni di magazzino nel costo medio del periodo, [!INCLUDE [prod_short](includes/prod_short.md)] trasferisce il costo medio calcolato dall'aumento alla riduzione.  
 
-### Esempio: costo medio del periodo = giorno
+### <a name="example-average-cost-period--day"></a>Esempio: costo medio del periodo = giorno
 
 Nel seguente esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un giorno. Il campo **Tipo calcolo costo medio** della pagina **Setup magazzino** è impostato su **Articolo**.  
 
@@ -85,7 +85,7 @@ La tabella seguente mostra i movimenti contabili per l'articolo di esempio costo
 | 02-02-23 |   Acquisti | 1 | 100.00 | 5 |
 | 02-03-23 |   Vendita | -1 | -100,00 | 6 |
 
-### Esempio: costo medio del periodo = mese
+### <a name="example-average-cost-period--month"></a>Esempio: costo medio del periodo = mese
 
  In questo esempio viene illustrato l'effetto del calcolo del costo medio basato su un periodo di un mese. Il campo **Tipo calcolo costo medio** della pagina **Setup magazzino** è impostato su **Articolo**.  
 
@@ -130,7 +130,7 @@ Il costo medio della voce numero 3 è calcolato nel periodo di costo medio di ge
 
 Per ottenere il costo medio per febbraio, [!INCLUDE [prod_short](includes/prod_short.md)] aggiunge il costo medio di un articolo ricevuto in magazzino (100,00) al costo medio all'inizio del periodo (30,00). La somma (130,00) viene quindi divisa per la quantità totale in magazzino (2). Questo calcolo fornisce il costo medio risultante dell'articolo nel periodo di febbraio (65,00). Tale costo medio viene assegnato alle uscite da magazzino nel periodo (movimenti 4 e 6).  
 
-## Impostazione della data di valutazione
+## <a name="setting-the-valuation-date"></a>Impostazione della data di valutazione
 
  Il campo **Data valutazione** della tabella **Movimenti valorizzazione** determina il costo medio del periodo al quale la voce di dimuzione inventario appartiene. Questa impostazione si applica anche al magazzino dei semilavorati (WIP).  
 
@@ -143,7 +143,7 @@ Per ottenere il costo medio per febbraio, [!INCLUDE [prod_short](includes/prod_s
 | 3 | Precedentemente all'ultima data di valutazione dei movimenti di valorizzazione collegati | Positivo | No | Ultima data di valutazione dei movimenti di valorizzazione collegati |
 | 4 |  | Negativo | Sì | Data di registrazione del movimento di rivalorizzazione |
 
-### Esempio
+### <a name="example"></a>Esempio
 
 Nella seguente tabella di movimenti di valorizzazione vengono illustrati differenti scenari.  
 
@@ -165,7 +165,7 @@ Nella seguente tabella di movimenti di valorizzazione vengono illustrati differe
 
 Se la quantità in magazzino è inferiore a zero dopo la registrazione della riduzione di magazzino, la data di valutazione viene prima impostata sulla data di registrazione della riduzione di magazzino. La data può essere modificata quando viene applicato l'aumento di magazzino, in base alle regole precedentemente descritte nella nota in questa sezione.  
 
-## Ricalcolo del costo medio
+## <a name="recalculating-average-cost"></a>Ricalcolo del costo medio
 
 La valutazione delle diminuzioni delle scorte come media ponderata sarebbe semplice in diversi scenari:
 
@@ -188,7 +188,7 @@ A causa di questa flessibilità, potrebbe essere necessario ricalcolare il costo
 
 Puoi modificare la base di valutazione del magazzino in un periodo contabile modificando i valori nei campi **Costo medio periodo** e **Tipo calcolo costo medio**. Tuttavia, ti consigliamo di usare cautela e di consultare il tuo revisore.  
 
-### Esempio di costo medio ricalcolato
+### <a name="example-of-recalculated-average-cost"></a>Esempio di costo medio ricalcolato
 
 Questo esempio mostra come [!INCLUDE [prod_short](includes/prod_short.md)] ricalcola il costo medio quando pubblichi in una data precedente a una diminuzione dell'inventario. L'esempio si basa su un periodo del costo medio impostato su **Giorno**.  
 
@@ -213,7 +213,7 @@ Nella seguente tabella vengono mostrati i movimenti di valorizzazione presenti p
 | 02-15-20 | -1 | -17,00 | 3 |
 | 02-16-20 | -1 | -17,00 | 4 |
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)  
 [Dettagli di progettazione: metodi di determinazione dei costi](design-details-costing-methods.md)  

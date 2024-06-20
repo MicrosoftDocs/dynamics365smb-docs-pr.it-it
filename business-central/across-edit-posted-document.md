@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Modifica dei documenti registrati
+# <a name="edit-posted-documents"></a>Modifica dei documenti registrati
 
 A volte è necessario aggiornare un documento registrato perché le informazioni rilevanti per il documento sono cambiate. In un documento di vendita registrato, ad esempio, questo può essere il numero di registrazione del pacchetto dell'agente di spedizione. Su un documento di acquisto registrato, questo può essere un testo di riferimento di pagamento.
 
@@ -31,7 +31,7 @@ I seguenti documenti aggiuntivi possono essere modificati nei paesi/aree geograf
 - RU: Nota credito di vendita registrate
 - IT: Spedizione trasferimento registrata, Spedizione assistenza registrata
 
-## Per modificare una spedizione vendita registrata
+## <a name="to-edit-a-posted-sales-shipment"></a>Per modificare una spedizione vendita registrata
 
 Di seguito viene spiegato come modificare una spedizione vendita registrata. I passaggi sono simili per gli altri documenti supportati.
 
@@ -42,7 +42,7 @@ Di seguito viene spiegato come modificare una spedizione vendita registrata. I p
 
 La spedizione vendita registrata viene aggiornata.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Contabilizzazione dei documenti e delle registrazioni](ui-post-documents-journals.md)  
 [Ricerca di movimenti correlati per documenti](ui-find-entries.md)  

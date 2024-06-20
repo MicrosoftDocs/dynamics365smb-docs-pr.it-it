@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Utilizzare le distinte base di assemblaggio
+# <a name="work-with-assembly-boms"></a>Utilizzare le distinte base di assemblaggio
 
 Utilizza le distinte base (DB) di assemblaggio per strutturare gli articoli padre che devono essere assemblati dai componenti con poco o nessun uso di risorse. Una DB di assemblaggio può essere utilizzata, ad esempio, per vendere un articolo padre come kit comprendente articoli componenti.
 
@@ -21,7 +21,7 @@ Una DB di assemblaggio contiene i dati master che definiscono gli articoli compo
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta anche le DB di produzione. Le DB di produzione differiscono dalle DB di assemblaggio in quanto implicano procedure più complesse, tra cui l'utilizzo delle risorse, il ciclo di produzione e i centri di lavoro o produzione. Per ulteriori informazioni sulle differenze vedi [Utilizzare le distinte base](inventory-how-work-BOMs.md) e [Creare le distinte base di produzione](production-how-to-create-production-boms.md).
 
-## Per creare una DB di assemblaggio
+## <a name="to-create-an-assembly-bom"></a>Per creare una DB di assemblaggio
 
 Per definire un articolo padre composto da altri articoli e potenzialmente da risorse richieste per l'assemblaggio, è necessario creare una DB di assemblaggio.  
 
@@ -45,7 +45,7 @@ Esistono due passaggi per creare una DB di assemblaggio:
 > [!TIP]
 > Gli articolo di assemblaggio possono avere diverse varianti impostate in [!INCLUDE[prod_short](includes/prod_short.md)] proprio come qualsiasi altro articolo, aiutandoti a mantenere contenuto l'elenco dei prodotti disponibili. Per ulteriori informazioni sulla funzionalità, vedi [Gestire le varianti di prodotto](inventory-item-variants.md).
 
-## Per modificare le DB di assemblaggio
+## <a name="to-edit-assembly-boms"></a>Per modificare le DB di assemblaggio
 
 È possibile modificare le righe di una distinta base di assemblaggio in qualsiasi momento. Tuttavia, tenere presente che la distinta base potrebbe essere in uso nelle vendite o negli assemblaggi dell'elemento padre, che potrebbero essere influenzati dalla modifica. Scegliere l'azione **Dove-usato** per vedere in quali articoli viene utilizzato e quindi se gli ordini di vendita o di assemblaggio possono essere interessati.
 
@@ -53,7 +53,7 @@ Esistono due passaggi per creare una DB di assemblaggio:
 2. Scegliere il valore **Sì** nella colonna **DB assemblaggio**.
 3. Nella pagina **DB assemblaggio**, scegli l'azione **Modifica elenco**, quindi modifica i campi secondo necessità.
 
-## Per visualizzare i componenti e le risorse con indentazione in base alla struttura DB
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Per visualizzare i componenti e le risorse con indentazione in base alla struttura DB
 
 Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui vengono visualizzati i componenti e tutte le risorse indentate in base alla posizione nella distinta base dell'articolo di assemblaggio.
 
@@ -62,7 +62,7 @@ Nella pagina **DB assemblaggio**, è possibile aprire una pagina distinta in cui
 3. Nella pagina **Scheda articolo** scegli l'azione **Assembla** quindi l'azione **DB assemblaggio**.
 4. Nella pagina **DB assemblaggio** selezionare l'azione **Mostra DB**.
 
-## Per sostituire l'articolo di assemblaggio con i suoi componenti nelle righe del documento
+## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Per sostituire l'articolo di assemblaggio con i suoi componenti nelle righe del documento
 
 Da un documento di vendita e di acquisto contenente un articolo di assemblaggio è possibile utilizzare una funzione speciale per sostituire la riga per l'articolo di assemblaggio con nuove righe per i componenti. Questa funzione è utile, ad esempio, se si intende vendere i componenti come kit che rappresenta l'articolo di assemblaggio.
 
@@ -82,7 +82,7 @@ Tutti i campi nella riga della fattura di vendita per l'articolo di assemblaggio
 > [!NOTE]
 > Il report **Lista prelievo per ordine** viene inoltre modificato per mostrare solo i componenti. Ciò significa che un lavoratore warehouse che preleva l'articolo principale, l'articolo di assemblaggio non lo vedrà nella lista prelievo. Per ulteriori informazioni, vedi [Stampare la lista prelievo](sales-how-print-picking-list.md).
 
-## Per calcolare il costo standard di un articolo di assemblaggio
+## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Per calcolare il costo standard di un articolo di assemblaggio
 
 Si calcola il costo unitario di un articolo di assemblaggio eseguendo il ricalcolo del costo unitario di ciascun componente e risorsa nella DB di assemblaggio dell'articolo.
 
@@ -106,7 +106,7 @@ Il costo unitario di una DB di assemblaggio è sempre uguale al totale dei costi
 
 I costi degli articoli che compongono la DB di assemblaggio vengono copiate dalle schede articoli componenti. Il costo di ogni articolo viene moltiplicato per la quantità e il costo totale viene mostrato nel campo **Costo unitario** nella scheda articolo.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Gestire le varianti di prodotto](inventory-item-variants.md)  

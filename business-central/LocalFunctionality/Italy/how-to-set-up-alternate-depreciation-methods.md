@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Impostare metodi di ammortamento alternativi
+# <a name="set-up-alternate-depreciation-methods"></a>Impostare metodi di ammortamento alternativi
 Di seguito sono indicati alcuni metodi di ammortamento alternativi:  
 
 - Ammortamento anticipato.  
@@ -19,7 +19,7 @@ Di seguito sono indicati alcuni metodi di ammortamento alternativi:
 
 Per impostare questi metodi di ammortamento, è necessario creare tabelle di ammortamento.  
 
-## Per impostare metodi di ammortamento alternativi  
+## <a name="to-set-up-alternate-depreciation-methods"></a>Per impostare metodi di ammortamento alternativi
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Tabelle ammortamento**, quindi scegli il collegamento correlato.  
 2.  Nella pagina **Lista tabelle ammortamento** scegliere l'azione **Nuovo**.  
@@ -44,7 +44,7 @@ Per impostare questi metodi di ammortamento, è necessario creare tabelle di amm
 5.  Nel campo **% totale ammortamento** immettere la percentuale totale di ammortamento.  
 6.  Scegli il pulsante **OK**.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
  [Impostare l'ammortamento dei cespiti](../../fa-how-setup-depreciation.md)   
  [Cespiti italiani](italian-fixed-assets.md)   
  [Creare più schede cespite](how-to-create-multiple-fixed-asset-cards.md)   

@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Comprendere i metodi WIP nella gestione dei progetti
+# <a name="understanding-wip-methods-in-project-management"></a>Comprendere i metodi WIP nella gestione dei progetti
 
 Durante lo svolgimento di un progetto, vengono consumati materiali, risorse ed effettuate altre spese che devono essere registrate nel progetto. La funzionalità WIP (Work in Process) consente di stimare il valore finanziario dei progetti nella contabilità generale nelle varie fasi di un progetto. In molti casi è possibile registrare le spese relative a un progetto prima di fatturarlo. Se sono state registrate solo le spese, il rendiconto finanziario non sarà accurato.
 
@@ -27,7 +27,7 @@ Per tenere traccia del valore nella contabilità generale, è possibile calcolar
 | Percentuale di completamento |Costi riconosciuti = Costi totali utilizzo<br /><br /> Ricavo riconosciuto = Prezzo totale fatturabile x Percentuale di completamento<br /><br /> Percentuale di completamento = Costi totali utilizzo/Costi totali budget<br /> Aquisita nel campo **% completamento costi** nelle righe di attività di progetto<br /><br /> Vendite WIP = Vendite riconosciute - Prezzo fatturato fatturabile |I calcoli della percentuale di completamento riconoscono il ricavo in modo proporzionale in base alla percentuale di completamento, ovvero il rapporto tra i costi totali utilizzo e i costi di budget.<br /><br /> Questo calcolo richiede che il prezzo totale fatturabile e i costi totali budget siano inseriti correttamente per l'intero progetto. |
 | Contratto completato |Importo WIP = Importo costo WIP = Utilizzo (costo totale)<br /><br /> Importo vendita WIP = Fatturabile (prezzo fatturato) |Il ricavo e i costi vengono riconosciuti dal contratto completato solo in seguito al completamento del progetto. Ciò risulta utile qualora le previsioni dei costi e del ricavo del progetto siano particolarmente incerte.<br /><br /> Qualsiasi utilizzo viene registrato in Conto costi WIP (cespiti) e tutte le vendite fatturate vengono registrate in Conto vendite fatturate WIP (passività), fino al completamento del progetto. |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione progetti](projects-manage-projects.md)  
 [Dati finanziari](finance.md)  

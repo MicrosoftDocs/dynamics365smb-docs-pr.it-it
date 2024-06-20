@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Assicurazione di cespiti
+# <a name="insure-fixed-assets"></a>Assicurazione di cespiti
 
 Utilizza la pagina  **Carta di assicurazione**  per impostare una polizza assicurativa a copertura di uno o più cespiti. È possibile assegnare un cespite a una polizza assicurativa oppure più cespiti a una polizza assicurativa.
 
@@ -26,7 +26,7 @@ Se l'interruttore **Registrazione assicurativa automatica** nella pagina **Impos
 
 Dopo aver assegnato un cespite a una polizza assicurativa, il campo **Assicurato** sulla scheda cespite contiene **Sì**. Quando vendi il cespite, l'interruttore viene automaticamente disattivato.
 
-## Per creare o modificare una scheda assicurazione
+## <a name="to-create-or-modify-an-insurance-card"></a>Per creare o modificare una scheda assicurazione
 
 In caso di ricezione di informazioni relative a modifiche dell'importo di copertura, è necessario immettere le nuove informazioni nella pagina **Scheda assicurazione** per assicurarsi che la copertura della polizza venga analizzata correttamente.  
 
@@ -34,7 +34,7 @@ In caso di ricezione di informazioni relative a modifiche dell'importo di copert
 2. Scegliere l'azione **Nuovo** per creare una nuova scheda per una polizza assicurativa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In alternativa, selezionare la polizza assicurativa che si desidera modificare, quindi scegliere l'azione **Modifica**.
 
-## Per assegnare un cespite a una polizza assicurativa mediante la registrazione dalla registrazione assicurazioni
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Per assegnare un cespite a una polizza assicurativa mediante la registrazione dalla registrazione assicurazioni
 
 Assegnare un cespite a una polizza assicurativa mediante la registrazione al registro della copertura assicurativa.  
 
@@ -48,7 +48,7 @@ La seguente procedura illustra come creare manualmente una riga di registrazione
     > [!NOTE]  
     > I movimenti delle registrazioni delle assicurazioni vengono registrati soltanto nelle registrazioni della copertura assicurativa.  
 
-## Per aggiornare il valore dell'assicurazione di un cespite
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Per aggiornare il valore dell'assicurazione di un cespite
 
 Il processo batch **Indice Cespiti** consente di aggiornare il valore dei cespiti coperti da assicurazione.  
 
@@ -63,19 +63,19 @@ Il processo batch **Indice Cespiti** consente di aggiornare il valore dei cespit
 4. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni assicurazioni**, quindi scegli il collegamento correlato.  
 5. Aprire la registrazione assicurazioni appropriata, esaminare i valori creati e registrarli nel registro di copertura assicurativa.  
 
-## Per controllare la copertura assicurativa
+## <a name="to-monitor-insurance-coverage"></a>Per controllare la copertura assicurativa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce le pagine dedicate per statistiche e report da utilizzare per analizzare le polizze assicurative e controllare se i cespiti sono sovra o sotto assicurati.  
 
-### Panoramica delle polizze assicurative
+### <a name="overview-of-insurance-policies"></a>Panoramica delle polizze assicurative
 
 Per una sintesi delle polizze assicurative, visualizzare in anteprima o stampare il report **Assicurazione - Lista**. Nel report vengono visualizzate tutte le polizze e i campi più importanti delle schede assicurative.  
 
-### Copertura assicurativa
+### <a name="insurance-coverage"></a>Copertura assicurativa
 
 Per sapere quale polizza assicurativa copre ogni risorsa e per quale importo, è possibile visualizzare in anteprima o stampare il report **Assicurazione - Totale valori assicurati**.  
 
-#### Sovra/sottocopertura
+#### <a name="overunder-coverage"></a>Sovra/sottocopertura
 
 È possibile verificare se i cespiti sono sovraassicurati o sottoassicurati nei seguenti modi:  
 
@@ -84,18 +84,18 @@ Per sapere quale polizza assicurativa copre ogni risorsa e per quale importo, è
 * Il report **Sopra/sottocopertura**.  
 * Il report **Analisi assicurazioni**.  
 
-### Immobilizzazioni non assicurate
+### <a name="uninsured-fixed-assets"></a>Immobilizzazioni non assicurate
 
 Per verificare se ci si è dimenticati di assegnare un cespite a una polizza assicurativa, è possibile stampare o visualizzare in anteprima il report  **Assicurazione - FA non assicurati** . Questo report visualizza i cespiti per i quali gli importi non vengono registrati nel registro della copertura assicurativa.  
 
-## Per visualizzare i movimenti contabili di copertura assicurativa
+## <a name="to-view-insurance-coverage-ledger-entries"></a>Per visualizzare i movimenti contabili di copertura assicurativa
 
 È possibile visualizzare le voci effettuate nel registro della copertura assicurativa.  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Assicurazione**, quindi scegli il collegamento correlato.  
 2. Selezionare la polizza assicurativa rilevante e scegliere l'azione **Mov.cont. copert. assicurativa**.  
 
-## Per visualizzare il valore totale assicurato dei cespiti
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Per visualizzare il valore totale assicurato dei cespiti
 
 Una pagina matrice mostra i valori assicurativi registrati per ciascuna polizza assicurativa per ciascun cespite risultante dagli importi relativi all'assicurazione registrati.  
 
@@ -105,7 +105,7 @@ Una pagina matrice mostra i valori assicurativi registrati per ciascuna polizza 
 4. Scegliere l'azione **Mostra matrice**.  
 5. Per visualizzare i movimenti contabili sottostanti della copertura assicurativa, selezionare un valore nella matrice.  
 
-## Per correggere i movimenti di copertura assicurativa
+## <a name="to-correct-insurance-coverage-entries"></a>Per correggere i movimenti di copertura assicurativa
 
 Se un cespite è stato attribuito alla polizza assicurativa sbagliata, è possibile correggerlo creando due movimenti di riclassificazione dal giornale di registrazione dell'assicurazione.  
 
@@ -116,7 +116,7 @@ Se un cespite è stato attribuito alla polizza assicurativa sbagliata, è possib
 
 Il cespite viene rimosso dalla polizza assicurativa errata nella seconda riga. Il bene viene assegnato alla polizza assicurativa corretta nella prima riga del giornale.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  

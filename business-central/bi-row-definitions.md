@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# Definizioni di riga nel reporting finanziario
+# <a name="row-definitions-in-financial-reporting"></a>Definizioni di riga nel reporting finanziario
 
 Le definizioni di riga nei report finanziari forniscono un'area per i calcoli che non possono essere effettuati direttamente nel piano dei conti. Ad esempio, puoi creare subtotali per gruppi di conti e quindi includere quel totale in altri totali. Puoi anche calcolare passaggi intermedi che non vengono visualizzati nel report finale.
 
-## Creare o modificare una definizione di riga
+## <a name="create-or-edit-a-row-definition"></a>Creare o modificare una definizione di riga
 
 Segui questi passaggi per creare o modificare una definizione di riga:
 
@@ -29,7 +29,7 @@ Segui questi passaggi per creare o modificare una definizione di riga:
 > [!NOTE]
 > Le colonne definite in ciascuna riga nella definizione di riga rappresentano la colonna tre e le colonne successive nella pagina **Report finanziario**. Le prime due colonne, **Nr. riga** e **Descrizione**, sono fisse.  
 
-## Definizioni di riga integrate
+## <a name="built-in-row-definitions"></a>Definizioni di riga integrate
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fornisce definizioni di riga di esempio che possono aiutarti a iniziare rapidamente a configurare report finanziari che soddisfano le tue esigenze.
 
@@ -45,7 +45,7 @@ Segui questi passaggi per creare o modificare una definizione di riga:
 > [!NOTE]
 > I report finanziari di esempio in [!INCLUDE[prod_short](includes/prod_short.md)] non sono pronti per essere utilizzati immediatamente. A seconda del modo in cui imposti i conti C/G, le dimensioni, le categorie di conti C/G e i budget, modifica le definizioni di riga e di colonna di esempio e i report finanziari che le utilizzano in base alla tua configurazione.
 
-## Usare le categorie di conto C/G per modificare il layout dei rendiconti finanziari
+## <a name="use-gl-account-categories-to-change-the-layout-of-your-financial-statements"></a>Usare le categorie di conto C/G per modificare il layout dei rendiconti finanziari
 
 Le categorie di conto C/G consentono di modificare il layout dei rendiconti finanziari. Ad esempio, dopo aver impostato le categorie di conto nella pagina **Categorie conto C/G**, puoi scegliere l'azione **Genera report finanziari** e aggiornare i report finanziari sottostanti per i report finanziari principali. Alla successiva esecuzione di uno di questi report, ad esempio il report **Conto patrimoniale**, vengono aggiunti nuovi totali e voci secondarie.
 
@@ -56,7 +56,7 @@ Un altro vantaggio derivante dall'utilizzo di categorie di conto C/G rispetto ai
 >
 > Ti consigliamo di creare e strutturare da zero le proprie categorie di conto C/G di livello inferiore, se necessario in una gerarchia, anziché tentare di riorganizzare quelle esistenti. Ad esempio, è possibile ristrutturare il nodo **Passività** per contenere un nuovo nodo **Equità** seguito dai nodi **Passività correnti** e **Debiti a lungo termine**. Per saperne di più, vedi [Mapping dei conti di contabilità generale alle categorie di conti](finance-general-ledger.md#account-categories).
 
-## Procedure consigliate per utilizzare definizioni di riga
+## <a name="best-practices-for-working-with-row-definitions"></a>Procedure consigliate per utilizzare definizioni di riga
 
 Le definizioni di riga non hanno una versione. Quando modifichi una definizione di riga, la versione precedente viene sostituita quando la modifica viene salvata nel database. L'elenco seguente contiene alcune procedure consigliate per l'utilizzo delle definizioni di riga:
 
@@ -64,7 +64,7 @@ Le definizioni di riga non hanno una versione. Quando modifichi una definizione 
 - Prima di modificare una definizione di riga, prendine una copia come backup, nel caso in cui la modifica non funzioni come previsto. Puoi semplicemente copiare la definizione (dargli un nome appropriato) o esportarla. Per saperne di più, vedi [Importare o esportare le definizioni di riga](#import-or-export-financial-reporting-row-definitions).
 - Se hai bisogno di una nuova copia di una definizione che [!INCLUDE[prod_short](includes/prod_short.md)] fornisce, un modo semplice di ottenerne una è creare una nuova società che contenga solo i dati di setup. Quindi, esporta la definizione e importala nella società in cui la definizione necessita di un aggiornamento.
 
-## Importare o esportare definizioni di riga di reporting finanziario
+## <a name="import-or-export-financial-reporting-row-definitions"></a>Importare o esportare definizioni di riga di reporting finanziario
 
 Puoi importare ed esportare definizioni di riga finanziarie come pacchetti di configurazione RapidStart. Ad esempio, i pacchetti di configurazione sono utili per condividere le informazioni con altre società. Il pacchetto viene creato in un file .rapidstart, che comprime il contenuto.
 
@@ -76,7 +76,7 @@ Per importare o esportare definizioni di riga di report finanziari, procedi come
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 4.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Definizioni di riga** e scegli il collegamento correlato.
 1. Scegli la definizione di riga, quindi scegli l'azione **Importa definizione di riga** o **Esporta definizione di riga**, a seconda di cosa vuoi fare.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Definizioni di colonna nel reporting finanziario](bi-column-definitions.md)  
 [Preparare il reporting finanziario](bi-how-work-account-schedule.md)  
