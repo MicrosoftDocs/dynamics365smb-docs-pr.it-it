@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 I campi **Data documento** e **Data di registrazione**  nei documenti di vendita e di acquisto possono aiutarti a rispettare gli standard contabili e a garantire calcoli finanziari accurati. I campi hanno scopi diversi:

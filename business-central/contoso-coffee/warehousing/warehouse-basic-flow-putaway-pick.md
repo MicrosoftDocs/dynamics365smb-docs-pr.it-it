@@ -9,19 +9,20 @@ ms.search.form: null
 ms.date: 02/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a>Procedura dettagliata del flusso in entrata e in uscita nelle configurazioni di warehouse di base
+# Procedura dettagliata del flusso in entrata e in uscita nelle configurazioni di warehouse di base
 
 Questa procedura dettagliata illustra come completare i flussi in entrata e in uscita nella configurazione di base per ordine per ordine. Per ulteriori informazioni, vedi [Panoramica delle diverse opzioni di configurazione](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti  
 Per completare questa procedura, devi diventare un dipendente warehouse presso l'ubicazione *ARGENTO* effettuando i seguenti passaggi:  
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Impiegati warehouse**, quindi scegli il collegamento correlato.  
 2. Selezionare il campo **ID utente** , quindi il proprio account utente nella pagina **Utenti**.  
 3. Nel campo **Codice ubicazione** immetti *ARGENTO*.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Flusso in entrata: ricezione e stoccaggio nelle configurazioni di warehouse di base
+## Flusso in entrata: ricezione e stoccaggio nelle configurazioni di warehouse di base
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], i processi in entrata per la ricezione e lo stoccaggio possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
 
@@ -36,10 +37,10 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse 
 
 Nella seguente procedura dettagliata viene dimostrato il metodo B nella tabella precedente.  
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 Alicia, l'agente di acquisto, crea un ordine di acquisto per diversi chicchi tostati. Quando la consegna arriva al magazzino, John, il magazziniere, ripone gli articoli in collocazioni adatte. Quando John registra lo stoccaggio, gli articoli vengono registrati come ricevuti in magazzino e disponibili per la vendita o altra domanda.  
 
-### <a name="steps"></a>Passaggi
+### Passaggi
 1. Imposta la pagina **Scheda ubicazione** per definire i flussi della warehouse in entrata della società.  
 
     1.  Scegli l'icona ![lampadina che apre la funzione Dimmi 2.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Ubicazioni**, quindi scegli il collegamento correlato.  
@@ -95,7 +96,7 @@ Alicia, l'agente di acquisto, crea un ordine di acquisto per diversi chicchi tos
 
     5.  Scegliere l'azione **Registra**, selezionare l'azione **Ricevi**, quindi il pulsante **OK**.  
 
-### <a name="results"></a>Risultati
+### Risultati 
  - I chicchi tostati sono ora registrati come stoccati in collocazioni specifiche
  - Viene creato lo **stoccaggio magazzino registrato**
  - Viene creato il **carico acquisto registrato**
@@ -103,7 +104,7 @@ Alicia, l'agente di acquisto, crea un ordine di acquisto per diversi chicchi tos
  - Viene aumentato l'articolo **Inventario** della quantità scelta
     
 
-## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a>Flusso in uscita: prelievo e spedizione nelle configurazioni di warehouse di base
+## Flusso in uscita: prelievo e spedizione nelle configurazioni di warehouse di base
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], i processi in uscita per il prelievo e la spedizione possono essere eseguiti in quattro modalità utilizzando diverse funzionalità a seconda del livello di complessità della warehouse.  
 
@@ -118,10 +119,10 @@ Per ulteriori informazioni, vedere [Dettagli di progettazione: Flusso warehouse 
 
 Nella seguente procedura dettagliata viene dimostrato il metodo B nella tabella precedente.
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 Susan, la responsabile degli ordini, crea un ordine di vendita per vari chicchi tostati e lo passa al magazzino. Gianni, il lavoratore warehouse deve assicurarsi che la spedizione sia preparata e consegnata al cliente. Gianni gestisce tutte le attività interessate nella pagina **Prelievo magazzino** che automaticamente punta alle collocazioni in cui vengono archiviati i chicchi tostati.
 
-### <a name="steps-1"></a>Passaggi
+### Passaggi
 Questa è la continuazione di [Flusso in entrata: ricezione e stoccaggio nelle configurazioni di warehouse di base](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Imposta la pagina **Scheda ubicazione** per definire i flussi della warehouse in entrata della società.  
@@ -158,7 +159,7 @@ Questa è la continuazione di [Flusso in entrata: ricezione e stoccaggio nelle c
 
 5. Scegliere l'azione **Registra**, selezionare **Spedizione**, quindi scegliere il pulsante **OK**.  
 
-### <a name="results-1"></a>Risultati
+### Risultati
  - I chicchi tostati sono ora registrati come prelevati da collocazioni specifiche
  - Viene creato il **prelievo magazzino registrato**
  - Viene creata la **spedizione vendita registrata**
@@ -166,7 +167,7 @@ Questa è la continuazione di [Flusso in entrata: ricezione e stoccaggio nelle c
  - Viene diminuito l'articolo **Inventario** della quantità scelta
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Articoli stoccati con stoccaggi magazzino](../../warehouse-how-to-put-items-away-with-inventory-put-aways.md) 
 [Impostare magazzini di base con aree operative](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) 
 [Dettagli di progettazione: flusso di magazzino in entrata](../../design-details-inbound-warehouse-flow.md) 

@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Dopo aver inserito le parole chiave, [!INCLUDE [prod_short](prod_short.md)] avvia la ricerca in background e scorre ogni tabella una alla volta. I risultati della ricerca iniziano a comparire dopo aver terminato ogni tabella. Se inserisci più di una parola chiave, i risultati includeranno solo i record che contengono tutte le parole in uno qualsiasi dei campi selezionati.

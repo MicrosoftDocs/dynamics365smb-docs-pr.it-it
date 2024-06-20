@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Potresti vedere altri utenti nell'elenco **Utenti** a parte quelli della propria azienda. Quando un amministratore con delega di una società partner di rivendita accede a un ambiente [!INCLUDE [prod_short](prod_short.md)] per conto del proprio cliente, vengono automaticamente creati come utenti all'interno di [!INCLUDE [prod_short](prod_short.md)]. In questo modo, le azioni eseguite da un amministratore con delega vengono registrate in [!INCLUDE [prod_short](prod_short.md)], come la pubblicazione di documenti e associati al loro ID utente.  
 

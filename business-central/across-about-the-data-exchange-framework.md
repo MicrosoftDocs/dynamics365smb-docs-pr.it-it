@@ -9,8 +9,9 @@ ms.search.form: '189,'
 ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="about-the-data-exchange-framework"></a>Informazioni sul framework di scambio dei dati
+# Informazioni sul framework di scambio dei dati
 
 È possibile utilizzare il framework di scambio dati per gestire lo scambio di documenti aziendali, file bancari, tassi di cambio valuta e qualsiasi altro file di dati con i propri partner commerciali o le autorità.
 
@@ -22,7 +23,7 @@ In qualità di amministratore o partner Microsoft, è possibile utilizzare il fr
 
  ![Framework di scambio dati &#45; Esporta.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## <a name="electronic-documents"></a>Documenti elettronici
+## Documenti elettronici
 
 In alternativa all'invio di documenti aziendali via e-mail come allegati, è possibile inviarli e riceverli elettronicamente. Un "documento elettronico" è un file conforme agli standard che rappresenta un documento aziendale, come una fattura da un venditore che si può ricevere e convertire in una fattura di acquisto in [!INCLUDE[prod_short](includes/prod_short.md)]. I partner commerciali si scambiano documenti elettronici attraverso servizi esterni di scambio di documenti. Per impostazione predefinita, [!INCLUDE[prod_short](includes/prod_short.md)] supporta l'invio e la ricezione di fatture elettroniche e note di credito nel formato PEPPOL, che è supportato dai maggiori fornitori di servizi di scambio di documenti. Un importante fornitore di servizi di scambio di documenti, Tradeshift, è preconfigurato e pronto per essere impostato per la tua azienda. Per fornire supporto ad altri formati di documenti elettronici, è necessario creare nuove definizioni di scambio dati.  
 
@@ -34,7 +35,7 @@ Per ricevere, ad esempio, la fattura da un fornitore come documento PEPPOL elett
 
   Per ricevere, ad esempio, una fattura come documento elettronico OCR, si elabora la fattura come quando si riceve un documento PEPPOL elettronico. La ricezione e la conversione dei documenti elettronici da OCR vengono eseguite dalla struttura di scambio dei dati, rappresentata dalla definizione di scambio di dati **OCR - Fattura**.  
 
-## <a name="bank-files"></a>File della banca
+## File della banca
 
 I formati dei file per lo scambio di dati bancari con le applicazioni di gestione aziendale variano a seconda del fornitore del file e del paese o regione. [!INCLUDE[prod_short](includes/prod_short.md)] supporta l'importazione e l'esportazione di file bancari dell'Area unica dei pagamenti in euro (SEPA). Inoltre, l'estensione AMC Banking 365 Fundamentals permette di connettersi a un'estensione AMC Banking 365 Fundamentals fornita da un fornitore esterno, AMC Consult. Per maggiori informazioni, vedere [Effettuare pagamenti con l'estensione AMC Banking 365 Fundamentals o il bonifico SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). Per fornire supporto per altri formati di documenti elettronici, è possibile utilizzare il framework di scambio dati.  
 
@@ -46,17 +47,17 @@ Per esportare i bonifici SEPA, scegliere il pulsante **Esporta pagamenti su file
 
  Inoltre, le versioni locali di [!INCLUDE[prod_short](includes/prod_short.md)] supportano vari altri formati di file per l'importazione e l'esportazione dei dati bancari, le transazioni retributive e altri dati. Per ulteriori informazioni, vedere la pagina di destinazione [Funzionalità locale](about-localization.md) nella Guida.  
 
-## <a name="currency-exchange-rates"></a>Tassi di cambio valuta
+## Tassi di cambio valuta
 
 È possibile impostare un servizio esterno per mantenere aggiornati i tassi di cambio delle valute. Il servizio che fornisce i tassi di cambio delle valute aggiornati è abilitato in base a una definizione di scambio di dati. Di conseguenza, la pagina **Setup aggiornamento tasso di cambio in valuta** offre una visualizzazione condensata della pagina **Definizione scambio di dati** per la definizione di scambio dati in questione.  
 
 Per tutti gli scambi di dati in file XML, è possibile preparare le impostazioni di scambio dati caricando il file di schema XML correlato nella pagina **Visualizzatore schema XML**. Qui è possibile selezionare gli elementi dati che si desidera scambiare con [!INCLUDE[prod_short](includes/prod_short.md)], quindi inizializzare la definizione di scambio di dati o generare un oggetto XMLport.
 
-## <a name="intrastat"></a>Intrastat
+## Intrastat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] utilizza Framework di scambio dei dati per i report Intrastat in cui è possibile creare facilmente file con timestamp in diversi formati per l'esportazione. [!INCLUDE[prod_short](includes/prod_short.md)] contiene formati preparati per i paesi o le aree geografiche localizzate e per la versione predefinita. Ma puoi modificare il report predefinito o crearne uno tuo.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Scambio di dati in modalità elettronica](across-data-exchange.md)  
 [Usare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  

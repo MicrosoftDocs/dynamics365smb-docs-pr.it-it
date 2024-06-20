@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analyses-in-purchasing"></a>Analisi ad hoc negli acquisti
+# Analisi ad hoc negli acquisti
 
 In questo articolo viene descritto come analizzare i dati sugli acquisti delle pagine elenco e delle query utilizzando la funzionalità **Analisi dei dati**. La funzionalità ti consente di analizzare i dati direttamente dalla pagina, senza dover eseguire un report o aprire un'altra applicazione come Excel. Analisi dei dati fornisce un modo interattivo e versatile per calcolare, riassumere ed esaminare i dati. Invece di eseguire i report utilizzando opzioni e filtri, puoi aggiungere più schede che rappresentano attività o viste diverse sui dati. Alcuni esempi sono "Fornitori personali" o "Statistiche acquisti" o qualsiasi altra visualizzazione tu possa immaginare. Per ulteriori informazioni su come utilizzare la funzionalità **Analisi dei dati**, vai a [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md).
 
@@ -24,7 +24,7 @@ Utilizza le seguenti pagine di elenco per analisi ad hoc dei processi di acquist
 - [Mov. contabili fornitori](https://businesscentral.dynamics.com/?page=29)
 - [Movimenti C/G](https://businesscentral.dynamics.com/?page=20)
 
-## <a name="ad-hoc-analysis-scenarios-for-purchasing"></a>Scenari di analisi ad hoc per gli acquisti
+## Scenari di analisi ad hoc per gli acquisti
 
 Utilizza la funzione **Analisi dei dati** per un rapido controllo dei fatti e un'analisi ad hoc:
 
@@ -39,7 +39,7 @@ Le sezioni seguenti forniscono esempi di scenari di acquisto in [!INCLUDE [prod_
 | [Panoramica di GRNI](#example-goods-received-not-invoiced-grni-overview) | Ottieni una panoramica Merci ricevute, non fatturate (GRNI) per tutti i fornitori. | [Righe acquisto](https://businesscentral.dynamics.com/?page=518) | **Tipo**, **Importo carichi non fatt. (VL)** (filtro su questi campi), **N. fornitore**, **Nr. documento**, **Nr.** e **Amt. Ric. Non fatturato (LCY)** <br><br> **NOTE:** per aggiungere questi campi, devi personalizzare la pagina. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md). | 
 | [Finanza (Contabilità fornitori)](#example-finance-accounts-payable) | Per vedere ciò che ti devono i tuoi fornitori, magari suddiviso in intervalli di tempo per quando gli importi sono dovuti. | [Mov. contabili fornitori](https://businesscentral.dynamics.com/?page=29) | **Nome fornitore**, **Tipo documento**, **Nr. documento**, **Data scadenza (anno)**, **Data scadenza (mese)** e **Importo residuo**. |
 
-## <a name="example-goods-received-not-invoiced-grni-overview"></a>Esempio: panoramica merci ricevute, non fatturate (GRNI)
+## Esempio: panoramica merci ricevute, non fatturate (GRNI)
 
 Per creare una panoramica di merci ricevute, non fatturate (GRNI) tra i fornitori, procedi come segue:
 
@@ -55,7 +55,7 @@ Per creare una panoramica di merci ricevute, non fatturate (GRNI) tra i fornitor
 1. Per eseguire l'analisi per un determinato anno o trimestre, applica un filtro nel menu **Filtri analisi**. Il menu si trova nella parte destra della pagina, appena sotto il menu **Colonne**.
 1. Rinomina la scheda di analisi in **Merci ricevute, non fatturate (GRNI)** o qualcosa che descriva questa analisi.
 
-## <a name="example-finance-accounts-payable"></a>Esempio: finanza (contabilità fornitori)
+## Esempio: finanza (contabilità fornitori)
 
 Per vedere ciò che devi ai tuoi fornitori, magari suddiviso in intervalli di tempo per quando gli importi sono dovuti, segui questi passaggi:
 
@@ -71,7 +71,7 @@ L'immagine seguente mostra il risultato di questi passaggi.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Esempio di come eseguire l'analisi dei dati nella pagina Movimenti contabili clienti." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-purchasing"></a>Base dati per analisi ad hoc sugli acquisti
+## Base dati per analisi ad hoc sugli acquisti
 
 Quando registri un documento di acquisto, [!INCLUDE [prod_short](includes/prod_short.md)] aggiorna il conto del fornitore, la contabilità generale, i movimenti contabili articoli e i movimenti contabili risorse:
 
@@ -85,7 +85,7 @@ Quando registri un documento di acquisto, [!INCLUDE [prod_short](includes/prod_s
 
 Per ulteriori informazioni, vedi [Registrazione di acquisti](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Registrazione di acquisti](purchasing-how-record-purchases.md#posting-purchases)  
 [Analizzare dati di elenco e query con la modalità di analisi](analysis-mode.md)  

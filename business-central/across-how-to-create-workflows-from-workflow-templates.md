@@ -10,7 +10,7 @@ ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Creare workflow da modelli di workflow
+# Creare workflow da modelli di workflow
 
 Nella pagina **Workflow** crei un workflow creando una serie di fasi workflow nelle righe. Ogni fase consiste di un evento workflow (Evento), moderato dalle condizioni di evento (Condizione) e in una risposta workflow (Risposta), moderata dalle opzioni di risposta. I campi nel righe del workflow forniscono elenchi fissi di valori di eventi e risposte che rappresentano gli scenari che [!INCLUDE [prod_short](includes/prod_short.md)] supporta. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).
 
@@ -25,7 +25,7 @@ Se modifichi un modello di workflow, ma in seguito ti penti della modifica, util
 
 Un altro modo per creare rapidamente un workflow è importarlo, ad esempio, se lo hai esportato da un'altra istanza di [!INCLUDE[prod_short](includes/prod_short.md)]. Ulteriori informazioni in [Importare ed esportare workflow](across-how-to-export-and-import-workflows.md).  
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a>Per creare un flusso di lavoro da un modello di flusso di lavoro
+## Per creare un flusso di lavoro da un modello di flusso di lavoro
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo workflow da modello**. Verrà aperta la pagina **Modelli del workflow**.  
@@ -34,7 +34,7 @@ Un altro modo per creare rapidamente un workflow è importarlo, ad esempio, se l
    Verrà visualizzata la pagina **Workflow** per un nuovo workflow contenente tutte le informazioni del modello selezionato. Il valore nel campo **Codice** ad esempio con "-01" per indicare che questo è il primo workflow che viene creato dal modello di workflow.  
 4. Per personalizzare il workflow, modifica le fasi workflow o aggiungine di nuove. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
 [Importare ed esportare workflow di approvazione](across-how-to-export-and-import-workflows.md)  

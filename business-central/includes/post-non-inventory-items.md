@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Gli addetti al warehouse possono spedire e ricevere articoli non di magazzino insieme a beni fisici in ordini di vendita e di acquisto. Gli articoli non di magazzino sono beni immateriali, come assicurazioni o costi aggiuntivi.

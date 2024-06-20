@@ -8,8 +8,9 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Aggiornamento di un'integrazione con Dynamics 365 Sales
+# Aggiornamento di un'integrazione con Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] si integra con [!INCLUDE[prod_short](includes/cds_long_md.md)], che semplifica la connessione e la sincronizzazione dei dati con altre applicazioni di Dynamics 365, come [!INCLUDE[crm_md](includes/crm_md.md)] o anche le app che crei autonomamente. Se stai effettuando l'integrazione per la prima volta, ti consigliamo di farlo tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. Per ulteriori informazioni, vedi [Integrazione con Dataverse](admin-common-data-service.md).
 
 Se hai già integrato [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)], puoi continuare a sincronizzare i dati utilizzando la tua configurazione. Tuttavia, se aggiorni [!INCLUDE[prod_short](includes/prod_short.md)] o disattivi la tua integrazione [!INCLUDE[crm_md](includes/crm_md.md)], per riattivarla devi connetterti tramite [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
@@ -17,7 +18,7 @@ Se hai già integrato [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_
 > [!NOTE]
 > La riconnessione tramite [!INCLUDE[prod_short](includes/cds_long_md.md)] applicherà le impostazioni di sincronizzazione predefinite e sovrascriverà tutte le configurazioni a tua disposizione. Ad esempio, verranno applicati i mapping di tabella predefiniti.
 
-## <a name="to-upgrade-your-connection-to-use-dataverse"></a>Per aggiornare la connessione per utilizzare Dataverse
+## Per aggiornare la connessione per utilizzare Dataverse
 1. Apri la pagina **Setup connessione a Microsoft Dynamics 365** e disattiva l'opzione **Abilitato**. Quindi chiudi la pagina per disconnetterti da [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Apri la pagina **Setup connessione a Dataverse** e nel campo **Modello proprietà** scegli **Persona**. Quindi scegli l'interruttore **Abilitato** per attivare la connessione a [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
@@ -33,7 +34,7 @@ Se hai già integrato [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_
    > [!IMPORTANT]
    > L'uso dell'azione **Usa impostazione di sincronizzazione predefinita** applicherà le mappature della tabella di integrazione predefinita. Tutte le mappature personalizzate verranno sovrascritte. Se si dispone di mappature personalizzate che si desidera mantenere, è consigliabile esportarle in Excel o parlare con il proprio partner Microsoft di altri metodi per conservare le mappature personalizzate.    
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 [Integrazione con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Integrazione con Microsoft Dataverse](admin-common-data-service.md)
 

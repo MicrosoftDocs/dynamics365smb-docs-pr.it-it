@@ -3,7 +3,7 @@ title: Tieni traccia dei tuoi indicatori KPI aziendali con le metriche Power BI
 description: Ottenere una panoramica dell'utilizzo di Power BI per business intelligence e KPI dai dati di Business Central.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Tieni traccia dei tuoi indicatori KPI aziendali con le metriche Power BI
+# Tieni traccia dei tuoi indicatori KPI aziendali con le metriche Power BI
 
 Se utilizzi Power BI su dati [!INCLUDE[prod_short](includes/prod_short.md)], è facile tenere traccia degli indicatori KPI o delle metriche importanti per te.
 
@@ -32,7 +32,7 @@ Per ulteriori informazioni sulle metriche Power BI, vedi [Introduzione alle metr
 > [!NOTE]
 > A partire dal secondo ciclo di rilascio di Business Central 2023, è possibile incorporare scorecard da metriche di Power BI in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Uso degli indicatori di prestazioni chiave (KPI) per soddisfare gli obiettivi aziendali](analytics-about-kpis.md)  
 [Introduzione a Business Central e Power BI](admin-powerbi.md)  

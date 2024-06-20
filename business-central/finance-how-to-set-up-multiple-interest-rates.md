@@ -8,8 +8,9 @@ ms.search.form: '6, 431, 432, 572'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Imposta più tassi di interesse per il pagamento ritardato
+# Imposta più tassi di interesse per il pagamento ritardato
 
 Puoi utilizzare diversi tassi di interesse in periodi differenti per pagamenti in ritardo nelle transazioni commerciali. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -17,7 +18,7 @@ Ad esempio, un governo specifica il tasso di interesse massimo da imporre ai con
 
 Quando si creano le condizioni di addebito degli interessi e i termini di sollecito, per la penalità di pagamento ritardato, è possibile specificare più tassi di interesse in modo che la penalità sia calcolata in base a tassi di interesse differenti in diversi periodi.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>Per impostare più tassi d'interesse
+## Per impostare più tassi d'interesse
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Condiz. interessi finanziari**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Condiz. interessi finanziari**, selezionare le condizioni di addebito, quindi scegliere l'azione **Tassi di interesse**.  
@@ -29,7 +30,7 @@ Quando si creano le condizioni di addebito degli interessi e i termini di sollec
 
 Quando si emette una nota di addebito interessi, la nota mostra gli addebiti di interessi con più tassi di interesse per un periodo di tempo specifico. La nota contiene anche dettagli relativi a contatti del cliente, società che ha emesso la nota, importo addizionale e importo totale. Il movimento di apertura nella nota è visualizzato in grassetto. Gli addebiti di interessi sono calcolati con più tassi di interesse per un periodo di tempo specifico e vengono stampati dopo il movimento di apertura della nota.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)

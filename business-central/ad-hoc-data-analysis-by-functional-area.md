@@ -11,14 +11,14 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-data-analysis-by-functional-area"></a>Analisi dati ad hoc per area funzionale
+# Analisi dati ad hoc per area funzionale
 
 Il contenuto generale sull'analisi dei dati ad hoc è disponibile anche in versioni speciali per molte delle aree funzionali di [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'analisi ad hoc dei dati](reports-adhoc-analysis.md)   
 [Panoramica dell'analisi](reports-bi-reporting.md)  

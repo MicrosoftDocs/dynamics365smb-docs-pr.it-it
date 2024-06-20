@@ -7,8 +7,9 @@ ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Procedura dettagliata di commesse di base
+# Procedura dettagliata di commesse di base
 
 Questa procedura dettagliata illustra diversi processi principali:
 
@@ -16,13 +17,13 @@ Questa procedura dettagliata illustra diversi processi principali:
 - Registrare spese per tempo e materiali per un progetto
 - Fatturare un progetto
 
-## <a name="adding-a-project-task"></a>Aggiunta di un'attività di progetto
+## Aggiunta di un'attività di progetto
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 
 Simon, il project manager, vuole che venga registrato il tempo speso a insegnare al cliente come utilizzare la macchina per caffè espresso. Simon vuole utilizzare un'attività separata nel processo per installare una macchina commerciale in loco.
 
-### <a name="steps"></a>Passaggi
+### Passaggi
 
 1. Crea l'attività di progetto.
 
@@ -38,17 +39,17 @@ Simon, il project manager, vuole che venga registrato il tempo speso a insegnare
    1. Nell'area Attività, individua l'azione **Indenta attività di progetto**.
    2. Conferma che vuoi indentare le attività selezionando **Sì**.
 
-### <a name="results"></a>Risultati
+### Risultati
 
  - Ora puoi registrare tempi e spese nella nuova attività di progetto
 
-## <a name="record-time-and-material-expenses-to-a-project"></a>Registrare spese per tempo e materiali per un progetto
+## Registrare spese per tempo e materiali per un progetto
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 
 Edgin, il tecnico che installa la macchina, deve registrare il tempo impiegato e i materiali utilizzati durante l'installazione della commessa per la fatturazione. Edgin ha già aggiunto il viaggio e i materiali e ora deve aggiungere il tempo per formare il personale all'uso della macchina.
 
-### <a name="steps-1"></a>Passaggi
+### Passaggi
 
 1. Crea le righe di registrazione progetto supplementari.
 
@@ -64,20 +65,20 @@ Edgin, il tecnico che installa la macchina, deve registrare il tempo impiegato e
    1. Scegli l'azione **Registra**.
    2. Conferma di voler registrare le righe selezionando **Sì**.
 
-### <a name="results-1"></a>Risultati
+### Risultati
 
 - Vengono creati movimenti contabili progetto e movimenti contabili risorse di tipo *Utilizzo*.
 - Vengono creati movimenti contabili articoli per rettificare negativamente l'inventario.
 - Nella scheda progetto, i costi e i prezzi nell'area Attività riflettono i nuovi saldi in attesa di fatturazione
 - Nella scheda progetto, il riquadro Dettagli progetto riflette i totali dei prezzi.
 
-## <a name="creating-a-sales-invoice-for-a-project"></a>Creazione di una fattura di vendita per un progetto
+## Creazione di una fattura di vendita per un progetto
 
-### <a name="scenario-2"></a>Scenario
+### Scenario  
 
 Simon deve creare e registrare una fattura da inviare al cliente con il tempo e le spese relativi al progetto.
 
-### <a name="steps-2"></a>Passaggi
+### Passaggi
 
 1. Crea la fattura di vendita.
 
@@ -92,7 +93,7 @@ Simon deve creare e registrare una fattura da inviare al cliente con il tempo e 
    2. Seleziona l'ultima fattura per aprirla per la revisione.
    3. Scegli l'azione **Registra**.
 
-### <a name="results-2"></a>Risultati
+### Risultati
 
 - Vengono creati movimenti contabili progetto e movimenti contabili risorse di tipo *Vendita*.
 - Nella scheda progetto, i costi e i prezzi nell'area Attività riflettono i nuovi saldi fatturati

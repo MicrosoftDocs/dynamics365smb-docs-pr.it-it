@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales"></a>Vendite
+# Vendite
 
 Si crea una fattura di vendita o un ordine di vendita per registrare il contratto con un cliente per vendere alcuni prodotti con determinate condizioni di consegna e pagamento.
 
@@ -34,7 +34,7 @@ Per tutti i processi di vendita, puoi incorporare un flusso di lavoro di approva
 
 Nella sezione seguente viene descritta una sequenza di task, con collegamenti agli articoli che li descrivono.
 
-## <a name="get-started-with-sales-capabilities"></a>Iniziare con le funzionalità delle vendite
+## Iniziare con le funzionalità delle vendite
 
 Prima di vendere, specifica come vuoi gestire i processi di vendita della tua azienda.
 
@@ -43,7 +43,7 @@ Prima di vendere, specifica come vuoi gestire i processi di vendita della tua az
 | Creare una scheda cliente per ogni cliente a cui si effettua una vendita.|[Registrare nuovi clienti](sales-how-register-new-customers.md) |
 | Configura la modalità di vendita, ad esempio prezzi e sconti, prezzo cliente e gruppi di sconto, venditori, metodi di spedizione e agenti. | [Impostare le vendite](sales-setup-sales.md) |
 
-## <a name="sales-analytics"></a>Analisi delle vendite
+## Analisi delle vendite
 
 In questa sezione vengono descritti gli strumenti analitici che puoi utilizzare per ottenere informazioni dettagliate sui dati delle vendite.
 
@@ -53,7 +53,7 @@ In questa sezione vengono descritti gli strumenti analitici che puoi utilizzare 
 | Esegui analisi ad hoc dei dati delle vendite direttamente nelle pagine di elenco e nelle query. | [Creare report di analisi delle vendite](bi-how-create-analysis-views-reports.md) |
 | Esplora i report delle vendite integrati. | [Report delle vendite predefiniti](sales-reports.md) |
 
-## <a name="quote-to-order-to-sales-invoice"></a>Offerta su ordine nella fattura di vendita
+## Offerta su ordine nella fattura di vendita
 
 La tabella seguente descrive come utilizzare semplici processi di vendita.
 
@@ -74,7 +74,7 @@ Se hai bisogno di processi di vendita più complessi, la tabella seguente elenca
 |Fatturare al cliente una volta per più spedizioni combinando le spedizioni in una sola fattura.|[Combinare le spedizioni in una singola fattura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Vendi gli articoli di assemblaggio che al momento non sono disponibili creando un ordine di assemblaggio. L'ordine di assemblaggio può fornire la quantità totale o parziale dell'ordine cliente.|[Vendere articoli assemblati su ordine](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## <a name="pick-and-ship"></a>Preleva e spedisci
+## Preleva e spedisci
 
 Nella tabella seguente viene descritto come prelevare gli articoli per un ordine cliente e spedirli al cliente.
 
@@ -86,7 +86,7 @@ Nella tabella seguente viene descritto come prelevare gli articoli per un ordine
 |Comunicare ai clienti le date di consegna dell'ordine calcolando la data CTP (Capable-To-Promise) o ATP (Available-To-Promise).|[Calcolare le date per la promessa ordine](sales-how-to-calculate-order-promising-dates.md)|
 | Scopri come tene traccia di un pacco da una spedizione di vendita registrata. | [Rintracciare i colli](sales-how-track-packages.md) |
 
-## <a name="canceled-orders-refunds-and-returns"></a>Ordini annullati, rimborsi e resi
+## Ordini annullati, rimborsi e resi
 
 La seguente tabella descrive come gestire gli ordini annullati, i rimborsi e i resi dei beni.
 
@@ -95,7 +95,7 @@ La seguente tabella descrive come gestire gli ordini annullati, i rimborsi e i r
 | Eseguire un'azione in una fattura di vendita registrata non pagata per creare automaticamente una nota di credito e per annullare la fattura di vendita o per ricrearla in modo da apportare correzioni. |[Correggere o annullare le fatture di vendita non pagate](sales-how-correct-cancel-sales-invoice.md) |
 | Creare una nota di credito vendita per stornare una fattura di vendita registrata specifica per riflettere i prodotti resi dal cliente e l'importo del rimborso. |[Elaborare i resi o gli annullamenti vendite](sales-how-process-sales-returns-cancellations.md) |
 
-## <a name="other-processes-in-sales"></a>Altri processi nelle vendite
+## Altri processi nelle vendite
 
 La tabella seguente descrive come gestire altri processi di vendita.
 
@@ -103,7 +103,7 @@ La tabella seguente descrive come gestire altri processi di vendita.
 | --- | --- |
 |Eliminare la confusione quando due o più record sono presenti per lo stesso cliente.|[Unire record duplicati](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Setup Vendite](sales-setup-sales.md)  
 [Registrare nuovi clienti](sales-how-register-new-customers.md)  

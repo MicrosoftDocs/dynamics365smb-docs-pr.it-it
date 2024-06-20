@@ -8,8 +8,9 @@ ms.search.keywords: 'posting, interface, design'
 ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="design-details-posting-interface-structure"></a>Dettagli di progettazione: struttura dell'interfaccia di registrazione
+# Dettagli di progettazione: struttura dell'interfaccia di registrazione
 Nella struttura dell'interfaccia di registrazione di [!INCLUDE[prod_short](includes/prod_short.md)] esistono diverse procedure globali che utilizzano la stessa struttura:  
   
 * Codice della procedura di chiamata di RunWithoutCheck e di RunWithCheck – interfaccia generica di registrazione per riga registrazioni generali.  
@@ -18,7 +19,7 @@ Nella struttura dell'interfaccia di registrazione di [!INCLUDE[prod_short](inclu
 * UnapplyCustLedgEntry – registrare l'annullamento del collegamento del cliente, chiamato da codeunit 226 CustEntry- Collegare i movimenti registrati  
 * UnapplyVendLedgEntry – registrare l'annullamento del collegamento del fornitore, chiamato da codeunit 227 VendEntry- Collegare i movimenti registrati  
   
-## <a name="see-also"></a>Vedi anche
+## Vedi anche  
 [Dettagli di progettazione: struttura del motore di registrazione](design-details-posting-engine-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

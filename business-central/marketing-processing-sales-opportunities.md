@@ -3,18 +3,18 @@ title: Elaborare le opportunità di vendita nei cicli di vendita
 description: Questo argomento descrive i diversi modi per elaborare le opportunità di vendita nei cicli di vendita e per spostare un'opportunità attraverso le fasi di un ciclo di vendita.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'relationship, prospect'
 ms.date: 12/28/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="process-sales-opportunities"></a>Elaborare le opportunità di vendita
+# Elaborare le opportunità di vendita
 
 Ogni volta che si crea un'opportunità, si possono utilizzare numerose funzionalità per gestire l'opportunità e procedere verso il completamento.
 
-## <a name="view-opportunities"></a>Visualizzare le opportunità
+## Visualizzare le opportunità
 
 Le opportunità di vendita esistenti sono disponibili nella pagina **Lista opportunità**. La tabella seguente descrive le modalità di accesso alla pagina per elaborare le opportunità di vendita.
 
@@ -26,7 +26,7 @@ Le opportunità di vendita esistenti sono disponibili nella pagina **Lista oppor
 
 Ciascuna di queste attività apre la pagina **Lista opportunità**.
 
-## <a name="close-opportunities"></a>Chiudere le opportunità
+## Chiudere le opportunità
 
 È possibile chiudere le opportunità una volta concluse le negoziazioni. Quando si chiude un'opportunità, è possibile specificare se è stata vinta o persa e i motivi per chiuderla. Per specificare un motivo, è necessario impostare codici di chiusura opportunità.
 
@@ -37,7 +37,7 @@ Ciascuna di queste attività apre la pagina **Lista opportunità**.
 
    Nel campo **Codice opportunità chiuse**, è possibile scegliere tra i codici chiusura opportunità esistenti o aggiungere un nuovo codice. Per aggiungere un nuovo codice, dall'elenco a discesa, selezionare **Seleziona da elenco completo** quindi **Nuovo**. Nella nuova riga vuota, compilare i campi **Codice**, **Tipo** e **Descrizione** e quindi il pulsante **OK**.
 
-## <a name="create-quotes-for-opportunities"></a>Creare offerte per opportunità
+## Creare offerte per opportunità
 
 > [!NOTE]
 > È possibile creare offerte di vendita solo da opportunità in cui il tipo di contatto è Società.
@@ -45,7 +45,7 @@ Ciascuna di queste attività apre la pagina **Lista opportunità**.
 1. Nella pagina **Lista opportunità** selezionare l'opportunità e scegliere l'azione **Assegna offerta di vendita**. Verrà visualizzata la pagina **Offerta di vendita**.
 2. Compilare i relativi campi.
 
-## <a name="create-sales-orders-for-opportunities"></a>Creare ordini di vendita per opportunità
+## Creare ordini di vendita per opportunità
 
 È possibile creare ordini di vendita a partire dalle offerte di vendita create per le opportunità. Prima di creare ordini di vendita per i contatti, è necessario creare il contatto come cliente. Per ulteriori informazioni, vedere [Creare contatti](marketing-create-contact-companies.md).
 
@@ -55,7 +55,7 @@ Ciascuna di queste attività apre la pagina **Lista opportunità**.
 
 Quando si gestiscono opportunità di vendita, potrebbe essere necessario creare un'offerta per il contatto al quale è collegata l'opportunità.
 
-## <a name="delete-opportunities"></a>Eliminare opportunità
+## Eliminare opportunità
 
 È possibile rimuovere opportunità, ad esempio dopo aver concluso un'operazione commerciale. Tuttavia, è possibile eliminare solo le opportunità chiuse. Esistono due modi per eliminare le opportunità chiuse. È possibile eliminare le opportunità chiuse dalla pagina **Lista opportunità** oppure è possibile eseguire il processo batch **Elimina opportunità** per eliminare più opportunità in base a criteri specifici.
 
@@ -69,7 +69,7 @@ Per eliminare le opportunità chiuse utilizzando il processo batch **Elimina opp
 
 Una volta eliminata un'opportunità, verrà rimossa dalla pagina **Lista opportunità**.
 
-## <a name="move-an-opportunity-through-sales-cycle-stages"></a>Spostare un'opportunità nelle fasi ciclo di vendita
+## Spostare un'opportunità nelle fasi ciclo di vendita
 
 Se un'opportunità segue un ciclo di vendita, è possibile spostarla in avanti o indietro nelle varie fasi e perfino saltare una fase.
 
@@ -82,7 +82,7 @@ Se un'opportunità segue un ciclo di vendita, è possibile spostarla in avanti o
    * **Aggiorna** consente di modificare le informazioni, ad esempio modificare la valutazione delle possibilità di successo e i valori previsti, senza spostarsi in un'altra fase.
 3. Compilare gli altri campi come appropriato e fare clic sul pulsante **OK**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Creazione e gestione di contatti](marketing-contacts.md)  

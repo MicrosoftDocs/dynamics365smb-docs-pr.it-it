@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Se la tua azienda opera in più di un paese o area, probabilmente è importante poter svolgere operazioni commerciali in più di una valuta. Puoi definire la tua valuta locale (VL) nella pagina **Setup contabilità generale**. Successivamente, la valuta locale verrà rappresentata come valuta vuota in documenti e transazioni. Quando il campo **Valuta** è vuoto, la valuta è VL.
 

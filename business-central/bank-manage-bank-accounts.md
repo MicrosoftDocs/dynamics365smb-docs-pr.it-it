@@ -9,8 +9,9 @@ ms.search.form: '377, 378, 165, 1284'
 ms.date: 10/04/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Gestire e riconciliare i conti bancari
+# Gestire e riconciliare i conti bancari
 
 Una riconciliazione bancaria deve essere completata a intervalli regolari per tutti i conti bancari al fine di garantire che i registri di cassa dell'azienda siano corretti. È possibile farlo confrontando e abbinando i movimenti nei conti bancari interni con le transazioni bancarie presso la banca, quindi registrando i saldi sui conti bancari interni per rendere i totali disponibili ai gestori finanziari. La riconciliazione bancaria è anche un modo pratico per scoprire e risolvere i pagamenti mancanti e gli errori di contabilità.
 
@@ -31,7 +32,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 > [!TIP]
 > Utilizzare la riconciliazione bancaria per verificare che i libri siano aggiornati e non pubblicare la riconciliazione finché non si è soddisfatti della riconciliazione.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)  

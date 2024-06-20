@@ -7,8 +7,9 @@ ms.search.keywords: null
 ms.date: 08/03/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Apertura e condivisione dei file di Business Central in Microsoft OneDrive
+# Apertura e condivisione dei file di Business Central in Microsoft OneDrive
 
 [!INCLUDE[prod_short](includes/prod_short.md)] rende facile archiviare, gestire e condividere i file con altre persone attraverso Microsoft OneDrive for Business. Nella maggior parte delle pagine con file disponibili, come Report elaborati o con file allegati ai record, troverai le azioni **Apri in OneDrive** e **Condividi**.
 
@@ -19,7 +20,7 @@ ms.service: dynamics-365-business-central
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Le azioni Apri in OneDrive e Condividi per gli allegati":::
 
 
-## <a name="open-in-onedrive"></a>Apri in OneDrive
+## Apri in OneDrive
 
 L'azione **Apri in OneDrive** copia il file nel tuo OneDrive e apre il file nelle applicazioni online, come Microsoft Excel online, Microsoft Word online, o Microsoft PowerPoint online. 
 
@@ -31,7 +32,7 @@ Utilizzando le versioni online di queste applicazioni, puoi annotare, modificare
 
 Per altri tipi di file popolari, come PDF, file di testo e immagini, OneDrive fornisce visualizzatori di file che offrono funzioni per la stampa, la condivisione e altro. Se un file non può essere visualizzato in OneDrive, potrebbe essere richiesto di scaricarlo.
 
-## <a name="share"></a>Condividi
+## Condividi
 
 L'azione **Condividi** copia il file nel tuo OneDrive così puoi vedere con chi l'hai già condiviso e condividere il file con altre persone. Quando selezioni l'azione **Condividi** si apre la pagina seguente.
 
@@ -53,7 +54,7 @@ La funzionalità di condivisione in Business Central si basa su OneDrive. Per ul
 > [!NOTE]
 > L'azione **Condividi** non è disponibile nell'app Business Central per dispositivi mobili.
 
-## <a name="first-time-sign-in-from-business-central"></a>Primo accesso da Business Central
+## Primo accesso da Business Central
 
 Quando usi l'azione **Apri in OneDrive** o **Condividi** per la prima volta, [!INCLUDE[prod_short](includes/prod_short.md)] effettua le seguenti operazioni:
 
@@ -64,7 +65,7 @@ Quando usi l'azione **Apri in OneDrive** o **Condividi** per la prima volta, [!I
 
 La prossima volta che usi l'azione **Apri in OneDrive** o **Condividi**, [!INCLUDE[prod_short](includes/prod_short.md)] copia e apre solo il file. 
 
-## <a name="managing-multiple-copies-of-a-file"></a>Gestione di più copie di un file
+## Gestione di più copie di un file
 
 Quando scegli **Apri in OneDrive** o **Condividi**, il file viene copiato da [!INCLUDE[prod_short](includes/prod_short.md)] nella cartella in OneDrive. Se modifichi il file in OneDrive, questo file sarà diverso dal file [!INCLUDE[prod_short](includes/prod_short.md)]. Per aggiornare [!INCLUDE[prod_short](includes/prod_short.md)] con la versione più recente del file, rimuovi il file esistente da [!INCLUDE[prod_short](includes/prod_short.md)] e poi carica la copia più recente.
 
@@ -82,7 +83,7 @@ Se esiste già un file con lo stesso nome in OneDrive, ti verranno offerte le se
 
   Questa opzione mantiene il file esistente così com'è e salva il file selezionato da Business Central con un nome diverso. Il nuovo nome è simile al nome esistente, tranne che con un numero di suffisso come "Elementi (2).xlsx".
 
-## <a name="about-your-business-central-folder-on-onedrive"></a>Informazioni sulla cartella Business Central in OneDrive
+## Informazioni sulla cartella Business Central in OneDrive
 
 La cartella e il suo contenuto sono privati finché non si decide di condividerli con altri. Potresti decidere di condividere il contenuto con uno o più dei tuoi colleghi, o anche con persone al di fuori della tua organizzazione. 
 
@@ -93,7 +94,7 @@ Puoi accedere al tuo OneDrive dalla pagina **Le mie impostazioni** scegliendo il
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Business Central e integrazione OneDrive](across-onedrive-overview.md)  
 [Gestione dell'integrazione di OneDrive con Business Central](admin-onedrive-integration.md)  

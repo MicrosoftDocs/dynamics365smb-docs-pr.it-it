@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 2](../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire"). immetti **Fornitori**, quindi scegli il collegamento correlato.  

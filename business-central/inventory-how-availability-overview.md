@@ -10,8 +10,9 @@ ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 541
 ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="view-the-availability-of-items"></a>Visualizzare la disponibilità di articoli
+# Visualizzare la disponibilità di articoli
 
 Dal contesto di un task di business, è possibile ottenere informazioni avanzate relative al momento e all'ubicazione in cui un articolo è disponibile, ad esempio quando si parla con un cliente per proporre una data di consegna.
 
@@ -33,7 +34,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], i dati relativi alla disponib
 > [!NOTE]  
 >   Di seguito viene descritto come visualizzare le informazioni avanzate sulla disponibilità per articolo dall'elenco articoli e dalla scheda articolo. È inoltre possibile accedere alle informazioni contenute nelle righe dei documenti di vendita, per l'articolo nella riga. Per ulteriori informazioni, vedere [Vendere prodotti](sales-how-sell-products.md).
 
-## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Per visualizzare la disponibilità di un articolo secondo quando verrà ricevuto o spedito
+## Per visualizzare la disponibilità di un articolo secondo quando verrà ricevuto o spedito
 
 Si visualizza la disponibilità di un articolo secondo le transazioni pianificate dell'articolo nella pagina **Disponibilità articolo per evento**.
 
@@ -44,7 +45,7 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
     La pagina **Disponibilità articolo per evento** mostra come le quantità di magazzino dell'articolo si svilupperanno nel tempo in base agli eventi programmati per carico e spedizione. La pagina fornisce una visualizzazione ridotta che mostra una riga di informazioni accumulate per intervallo di tempo in cui le quantità di magazzino cambiano. Gli intervalli di tempo in cui non si è verificato alcun evento non sono visualizzati. È possibile espandere ogni riga per mostrare i dettagli sull'evento o gli eventi che hanno generato la quantità accumulata sulla riga.
 4. Selezionare il valore nel campo **Disponibilità calcolata** per visualizzare i movimenti articoli o documenti aperti che compongono il valore.
 
-## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Per visualizzare la disponibilità di un articolo in diversi periodi di tempo
+## Per visualizzare la disponibilità di un articolo in diversi periodi di tempo
 
 È possibile visualizzare la disponibilità di un articolo nel tempo per periodi specificati nella pagina **Disponibilità art. per periodi**.
 
@@ -55,7 +56,7 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
     La pagina **Disponibilità articolo per periodo** mostra come le quantità di magazzino dell'articolo si svilupperanno nel tempo in base al periodo selezionato, ad esempio giorno, settimana oppure trimestre.
 4. Selezionare il valore nel campo **Disponibilità calcolata** per visualizzare i movimenti articoli o documenti aperti che compongono il valore.
 
-## <a name="to-view-the-availability-of-an-item-at-the-locations-where-its-stored"></a>Per visualizzare la disponibilità di un articolo nelle ubicazioni dove è immagazzinato
+## Per visualizzare la disponibilità di un articolo nelle ubicazioni dove è immagazzinato
 
 È possibile visualizzare la disponibilità di un articolo presso i luoghi diversi dove viene immagazzinato nella pagina **Disp. art. per ubicazione**.
 
@@ -67,7 +68,7 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
 4. Selezionare il valore nel campo **Giacenza disponibile** per visualizzare i movimenti articoli che compongono il valore.
 5. Selezionare il valore nel campo **Disponibilità calcolata** per visualizzare i movimenti articoli o documenti aperti che compongono il valore.
 
-## <a name="to-view-the-availability-of-all-items-by-the-location-where-theyre-stored"></a>Per visualizzare la disponibilità di tutti gli articoli in base all'ubicazione in cui sono immagazzinati
+## Per visualizzare la disponibilità di tutti gli articoli in base all'ubicazione in cui sono immagazzinati
 
 È possibile visualizzare la disponibilità di tutti gli articoli in tutte le ubicazioni nella pagina **Articoli per ubicazione**.
 
@@ -77,7 +78,7 @@ Si visualizza la disponibilità di un articolo secondo le transazioni pianificat
     La pagina **Articoli per ubicazione** mostra per tutti gli articoli le quantità disponibili in ogni ubicazione.
 3. Selezionare il valore nel campo **Giacenza disponibile** per visualizzare i movimenti articoli che compongono il valore.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Per visualizzare la disponibilità di un articolo in base al relativo utilizzo nelle DB di assemblaggio o di produzione
+## Per visualizzare la disponibilità di un articolo in base al relativo utilizzo nelle DB di assemblaggio o di produzione
 
 Se un articolo è parte delle DB di assemblaggio o di produzione, come articolo principale o come componente, è possibile visualizzare il numero di unità che sono necessarie nella pagina **Disponibilità articolo per livello DB**. Nella pagina viene visualizzato il numero delle unità di un articolo padre che è possibile effettuare in base alla disponibilità di articoli figlio nelle righe sottostanti. Ogni articolo che ha una DB di assemblaggio o di produzione è visibile nella pagina come riga comprimibile. È possibile espandere la riga per visualizzare i componenti sottostanti i sottoassemblaggi di livello inferiore con le proprie DB.
 
@@ -90,7 +91,7 @@ In ogni riga della pagina per gli articoli padre e gli articoli figlio, i seguen
 |**Produzione possibile - Padre**|Mostra quante unità di un sottoassemblaggio nell'articolo principale è possibile preparare. Questo campo specifica quante unità dell'articolo padre immediate possono essere assemblate. Il valore è basato sulla disponibilità dell'articolo nella riga.|
 |**Produzione possibile - Articolo principale**|Mostra quante unità dell'articolo principale è possibile preparare. Questo campo specifica quante unità dell'articolo DB nella prima riga possono essere assemblate. Il valore è basato sulla disponibilità dell'articolo nella riga.|
 
-### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Per visualizzare la disponibilità di un articolo in base alla domanda per il relativo articolo principale
+### Per visualizzare la disponibilità di un articolo in base alla domanda per il relativo articolo principale
 
 Nella pagina **Disponibilità articolo per livello DB** vengono visualizzate le informazioni relative all'articolo sulla scheda o la riga del documento per il quale viene aperta la pagina. L'articolo viene indicato sempre nella prima riga. È possibile visualizzare informazioni per altri articoli o per tutti gli articoli modificando il valore nel campo **Filtro articolo**.
 
@@ -99,14 +100,14 @@ Nella pagina **Disponibilità articolo per livello DB** vengono visualizzate le 
 
 Il campo **Collo di bottiglia** specifica quale articolo nella struttura di DB limita la possibilità di produrre una quantità maggiore di quella indicata nel campo **Produzione possibile - Articolo principale**. Ad esempio, l'articolo collo di bottiglia può essere un componente acquistato con una data di carico prevista troppo in ritardo per creare unità aggiuntive dell'articolo principale entro la data presente nel campo **Disponibile entro**.
 
-## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Per visualizzare la disponibilità di un articolo in base alle unità di misura
+## Per visualizzare la disponibilità di un articolo in base alle unità di misura
 
 La pagina **Disponibilità articolo per unità di misura** mostra la disponibilità di un articolo nelle unità di misura in cui è memorizzata.
 
 > [!NOTE]  
 > Per mantenere accurate queste informazioni, è necessario convertire le unità di misura degli articoli. Ad esempio, se si acquista un articolo in un'unità di misura, ad esempio scatole, e si vendono articoli in un'altra unità di misura, ad esempio pezzi, è necessario utilizzare una registrazione magazzino per convertire le unità di misura o articoli "da disimballare". È possibile utilizzare una riga di registrazione magazzino con rettifica negativa per ridurre il livello di magazzino nell'unità di misura di acquisto, ad esempio scatole, e una rettifica positiva per aumentare il livello di magazzino nell'unità di misura di vendita, ad esempio pezzi. 
 
-## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>Per visualizzare la disponibilità di un articolo in base alle varianti
+## Per visualizzare la disponibilità di un articolo in base alle varianti
 
 La pagina **Disponibilità articolo per variante** mostra la disponibilità effettiva e prevista di un articolo raggruppato in base al codice variante.
 
@@ -121,7 +122,7 @@ La pagina **Disponibilità articolo per variante** mostra la disponibilità effe
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="assembly-availability-page"></a>Pagina Disponibilità assemblaggio
+## Pagina Disponibilità assemblaggio
 
 Nella pagina **Disponibilità assemblaggio** sono visualizzate le informazioni dettagliate sulla disponibilità per l'articolo di assemblaggio. La finestra viene aperta:
 
@@ -137,7 +138,7 @@ Nella Scheda dettaglio **Righe** vengono visualizzate le informazioni dettagliat
 
 Se uno o più componenti di assemblaggio non sono disponibili, queste informazioni vengono riflesse nel campo **In grado di assemblare** nella riga in questione come quantità minore della quantità nel campo **Quantità residua** nella Scheda Dettaglio **Dettagli**.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 [Gestione assemblaggio](assembly-assemble-items.md)  

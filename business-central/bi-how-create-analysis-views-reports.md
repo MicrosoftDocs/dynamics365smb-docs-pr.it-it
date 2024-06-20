@@ -9,8 +9,9 @@ ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="create-analysis-reports"></a>Creare report di analisi
+# Creare report di analisi
 
 I direttori vendite devono analizzare il turnover, il margine lordo e altri indicatori di prestazioni vendite principali periodicamente. Gli addetti agli acquisti sono più interessati alle dinamiche dei volumi di acquisto, alle prestazioni dei fornitori e ai prezzi di acquisto. Mentre i responsabili di logistica e magazzino necessitano informazioni sull'indice di rotazione delle giacenze, l'analisi dei movimenti di magazzino e le statistiche sul valore di magazzino. Quindi non esiste un report di analisi valido per tutti.
 
@@ -22,7 +23,7 @@ Il report di analisi è costituito dagli oggetti che si desidera analizzare, ad 
 
 Oltre ai report di analisi, puoi creare e visualizzare informazioni simili nelle visualizzazioni di analisi, che sono basate sulle dimensioni. Per ulteriori informazioni, vedi [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
 
-## <a name="example"></a>Esempio
+## Esempio
 
 Puoi impostare queste righe (oggetti che vuoi analizzare):  
 
@@ -36,7 +37,7 @@ Quindi puoi impostare queste colonne (come vuoi che gli oggetti vengano analizza
 - Vendite mese precedente  
 - Percentuale vendite mese precedente  
 
-## <a name="setting-up-line-and-column-layouts"></a>Impostazione dei layout di riga e di colonna
+## Impostazione dei layout di riga e di colonna
 
 Nella pagina **Report analisi**, è possibile visualizzare layout di riga e colonna diversi che hai impostato:
 
@@ -56,7 +57,7 @@ In base alle righe e alle colonne impostate, il risultato del report viene aggre
 
 È ad esempio possibile impostare un gruppo di layout di riga e svariati gruppi di layout di colonna per visualizzare rispettivamente i report mensili e i report annuali.
 
-## <a name="set-up-analysis-column-templates"></a>Impostare modelli colonne analisi
+## Impostare modelli colonne analisi
 
 La seguente procedura è basata sulle visualizzazioni di analisi per le vendite. I passaggi sono simili a quelli delle visualizzazioni di analisi di magazzino e di acquisto.
 
@@ -73,7 +74,7 @@ Un modello colonne analisi contiene un set di righe, che rappresentano una colon
     > Inoltre, se si seleziona **Mov. articoli** nel campo **Tipo mov. contabile**, i valori effettivi verranno copiati dai movimenti contabili articoli. Se si seleziona **Movimenti budget articoli**, i valori previsti verranno copiati dal budget.  
 5. Scegli **OK** per salvare le modifiche.  
 
-## <a name="set-up-analysis-line-templates"></a>Impostare modelli di righe di analisi
+## Impostare modelli di righe di analisi
 
 La seguente procedura è basata sui report di analisi per le vendite. I passaggi sono simili a quelli dei report di analisi di magazzino e di acquisto.
 
@@ -87,7 +88,7 @@ Un modello righe analisi contiene un set di righe, che rappresentano una riga di
 > [!NOTE]  
 > In alternativa, per creare più righe distinte per ogni articolo, cliente e così via, puoi selezionare il punto di inserimento appropriato e consentire il completamento dei campi necessari della riga. Se necessario, è possibile modificare manualmente le righe. Per inserire righe, scegli l'azione **Inserisci articoli** o **Inserisci gruppi articoli**.  
 
-## <a name="create-a-new-sales-analysis-report"></a>Creare un nuovo report di analisi delle vendite
+## Creare un nuovo report di analisi delle vendite
 
 La seguente procedura è basata sui report di analisi per le vendite. I passaggi sono simili a quelli dei report di analisi di magazzino e di acquisto.
 
@@ -102,7 +103,7 @@ Con i report di analisi puoi valutare in dettaglio la dinamica delle vendite in 
 > [!NOTE]  
 > La creazione di combinazioni di modelli di righe e colonne per i report di analisi e l'assegnazione di nomi univoci sono facoltative. In tal caso, non è necessario selezionare modelli di riga e colonna nella pagina **Report Analisi Vendite**. Dopo aver scelto un nome per il report, è possibile modificare i modelli di righe e colonne in modo indipendente e quindi tornare a selezionare nuovamente il nome del report per ripristinare la combinazione originale.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Business Intelligence finanziario](bi.md)  
 [Finanze](finance.md)  

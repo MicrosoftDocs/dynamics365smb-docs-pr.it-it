@@ -3,7 +3,7 @@ title: Convalidare i numero di partita IVA
 description: 'Consenti a Business Central di convalidare i numeri di partita IVA per i contatti, i clienti e i fornitori, in base al servizio di convalida dei numeri di partita IVA (VIES) dell''Unione europea.'
 author: jswymer
 ms.topic: conceptual
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.search.keywords: 'VAT, posting, tax, value-added tax'
 ms.search.form: '249, 575, 1279'
 ms.date: 06/16/2021
@@ -11,13 +11,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="validate-vat-registration-numbers"></a>Convalidare i numero di partita IVA
+# Convalidare i numero di partita IVA
 
 È importante che le partite IVA per clienti, fornitori e contatti siano valide, qualora si utilizzi [!INCLUDE [prod_short](includes/prod_short.md)] in un paese o area geografica che utilizza l'IVA. Ad esempio, le società cambiano talvolta lo stato di passività fiscale e in alcuni paesi/aree geografiche le autorità fiscali potrebbero chiedere di fornire report, come il report **Lista vendite UE**, che elenca i numeri di partita IVA utilizzati per l'attività.
 
 La Commissione Europea offre un servizio di convalida dei numeri di partita IVA (VIES) tramite il proprio sito Web, che è pubblico e libero. [!INCLUDE [prod_short](includes/prod_short.md)] consente di risparmiare un passaggio e di utilizzare il servizio VIES per convalidare e tracciare i numeri IVA e altre informazioni sulla società per i clienti, i fornitori e i contatti. Il servizio in [!INCLUDE [prod_short](includes/prod_short.md)] è denominato **servizio di convalida partita IVA comunitaria**. Il servizio è disponibile nella pagina **Connessioni servizio** e sarà possibile iniziare a utilizzarlo da subito. La connessione del servizio è gratuita e l'ulteriore registrazione non è necessaria.
 
-## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Configurare il servizio per verificare automaticamente i numeri di partita IVA
+## Configurare il servizio per verificare automaticamente i numeri di partita IVA
 
 Per abilitare **Setup servizio di convalida partita IVA comunitaria**, aprire la voce nella pagina **Connessione servizio**. Se il campo **Endpoint servizio** non è ancora compilato, utilizzare l'azione **Imposta endpoint di default**. Impostare quindi il campo **Abilitato** e sarà possibile proseguire.  
 
@@ -38,7 +38,7 @@ Ci sono un paio di cose da notare sul servizio di convalida dei numeri di partit
 > [!IMPORTANT]
 > È responsabilità dell'utente verificare che i dati siano validi. A volte, i dati con errori vengono restituiti dal servizio di convalida dei numeri di partita IVA VIES. Se la convalida non riesce, convalidare i numeri di partita IVA nel [sito Web](https://ec.europa.eu/taxation_customs/vies/), stampare il risultato o salvarlo in una posizione condivisa, quindi aggiungere il collegamento al record per il cliente, il fornitore o il contatto. Per ulteriori informazioni, vedere [Gestire allegati, collegamenti e note in schede e documenti](ui-how-add-link-to-record.md).
 
-## <a name="validation-templates"></a>Modelli di convalida
+## Modelli di convalida
 
 È possibile utilizzare il servizio VIES anche per controllare altre informazioni sulla società, come l'indirizzo e il numero di partita IVA. Nella pagina **Modelli convalida partita IVA** creare una voce per ogni paese/area geografica per il quale si desidera ottenere un'ulteriore convalida, quindi specificare le informazioni che si desidera vengano convalidate automaticamente.  
 
@@ -49,7 +49,7 @@ Aggiungere ad esempio una voce per la Spagna, per cui si desidera ottenere la co
 
 La volta successiva che si specifica un numero di partita IVA, il servizio convaliderà tale numero e tutti i dati aggiuntivi, come stabilito dai modelli di convalida. Se i valori specificati sono diversi da quelli restituiti dal servizio, verranno visualizzati i dettagli nella pagina **Dettagli convalida**, dove è possibile accettare o reimpostare i valori.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare l'IVA (imposta sul valore aggiunto)](finance-setup-vat.md)  
 [Setup dell'IVA ad esigibilità differita](finance-setup-unrealized-vat.md)  

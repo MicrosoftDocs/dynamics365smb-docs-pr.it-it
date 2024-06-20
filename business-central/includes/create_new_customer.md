@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 11](../media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , immetti **Clienti**, quindi scegli il collegamento correlato.  

@@ -9,8 +9,9 @@ ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="setting-up-banking"></a>Impostazione delle attività bancarie
+# Impostazione delle attività bancarie
 
 Utilizzando le schede di conto corrente bancario è possibile tenere traccia di tutti i conti bancari, in qualsiasi valuta. Dopo avere impostato i conti correnti bancari, è possibile utilizzare anche l'opzione per la stampa di assegni.
 
@@ -24,7 +25,7 @@ Per utilizzare i servizi bancari elettronici per importare gli estratti conto ba
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
