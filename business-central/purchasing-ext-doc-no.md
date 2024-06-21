@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="external-document-numbers-on-purchase-documents"></a>Numeri di documento esterno sui documenti di acquisto
+# Numeri di documento esterno sui documenti di acquisto
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 È inoltre possibile specificare numeri di documento esterno sui documenti di vendita. Per ulteriori informazioni, vedere [Numeri di documento esterno](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Immettere numeri di documento esterni](across-enter-external-document-numbers.md)  
 [Acquisti](purchasing-manage-purchasing.md)  

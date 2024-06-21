@@ -12,15 +12,15 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Gestire i cespiti
+# Gestire i cespiti
 
 La funzionalità relativa ai cespiti di [!INCLUDE[prod_short](includes/prod_short.md)] fornisce una sintesi dei cespiti e garantisce che l'ammortamento periodico venga calcolato in modo corretto. Ti aiuta inoltre a tenere traccia dei costi di manutenzione, gestire le polizze assicurative, registrare transazioni relative a cespiti e generare vari report e statistiche.
 
-## <a name="what-is-a-fixed-asset"></a>Cos'è un cespite?
+## Cos'è un cespite?
 
 I cespiti differiscono dagli altri articoli presenti nel magazzino. Un cespite, noto anche come cespite, è un pezzo tangibile di proprietà, impianti o attrezzature (PP&E) che possiedi o gestisci con l'aspettativa che continui a generare reddito. Una risorsa è fissa quando si tratta di un articolo che la tua azienda non consumerà, venderà o convertirà in contanti entro il successivo anno solare. Le immobilizzazioni sono diverse dalle attività correnti, che sono in contanti o destinate a essere convertite in contanti entro i prossimi 12 mesi. Anche le immobilizzazioni differiscono dal tuo inventario, poiché l'inventario viene generalmente consumato in breve tempo.
 
-## <a name="types-of-fixed-assets"></a>Tipi di immobilizzazioni
+## Tipi di immobilizzazioni
 
 Le aziende in genere investono in alcuni tipi di immobilizzazioni. Alcuni esempi sono:
 
@@ -30,7 +30,7 @@ Le aziende in genere investono in alcuni tipi di immobilizzazioni. Alcuni esempi
 - Macchinario
 - Automezzi
 
-## <a name="understanding-fixed-asset-accounting"></a>Comprendere la contabilità delle immobilizzazioni
+## Comprendere la contabilità delle immobilizzazioni
 
 Contabilità delle immobilizzazioni significa tenere registri finanziari precisi sui tuoi beni capitali. Questi record includono dettagli sulle cinque fasi del ciclo di vita di una risorsa. Dopo l'acquisto iniziale, il ciclo di vita di ciascun cespite include almeno tre delle seguenti fasi:
 
@@ -42,13 +42,13 @@ Contabilità delle immobilizzazioni significa tenere registri finanziari precisi
 
 Gli audit rientrano anche nei controlli dettagliati dei registri contabili della vostra azienda dopo la chiusura dei libri contabili dell'esercizio finanziario. Sia interni che esterni, gli audit sono i luoghi in cui potresti notare incoerenze o differenze tra le tue note e lo stato effettivo delle tue risorse. Gli audit promuovono la trasparenza delle tue risorse e della contabilità se stai perdendo più denaro del previsto.
 
-## <a name="video-overview"></a>Video di panoramica
+## Video di panoramica
 
 Il video seguente illustra le nozioni di base dei cespiti:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="initial-setup-of-fixed-assets"></a>Configurazione iniziale dei cespiti
+## Configurazione iniziale dei cespiti
 
 Per poter gestire i cespiti, devi dapprima completare le seguenti configurazioni:
 
@@ -60,7 +60,7 @@ Per poter gestire i cespiti, devi dapprima completare le seguenti configurazioni
 
 Per ulteriori informazioni, vedi [Configurazione dei cespiti](fa-setup.md).
 
-## <a name="fixed-assets-analytics"></a>Analisi dei cespiti
+## Analisi dei cespiti
 
 In questa sezione vengono descritti gli strumenti analitici che puoi utilizzare per ottenere informazioni dettagliate sui cespiti.
 
@@ -74,7 +74,7 @@ In questa sezione vengono descritti gli strumenti analitici che puoi utilizzare 
 | Visualizzazione dei movimenti contabili di cessione | [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visualizza i valori di cessione previsti. | [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="register-fixed-assets"></a>Registrare i cespiti
+## Registrare i cespiti
 
 Per ogni cespite occorre impostare una scheda che contiene le relative informazioni. Ad esempio, puoi confiugurare edifici e strumenti di produzione come beni principali con una lista dei componenti. Puoi raggruppare i cespiti in vari modi, ad esempio per classe, reparto o ubicazione. Quindi, puoi iniziare ad acquistare, gestire e vendere i cespiti. È possibile anche impostare i cespiti previsti. L'impostazione di budget ti consente di includere qualsiasi vendita e acquisto previsti nei report.
 
@@ -83,7 +83,7 @@ Per ogni cespite occorre impostare una scheda che contiene le relative informazi
 | Gestire budget per cespiti, costi di acquisto previsti, previsioni di cessione dei cespiti e previsioni di ammortamento. |[Gestione dei budget per i cespiti](fa-how-manage-budgets.md) |
 | Creazione di cespiti, assegnazione di metodi di ammortamento, registrazione di acquisti, valori di realizzo e stampa di liste di cespiti. |[Acquisire i cespiti](fa-how-acquire.md) |
 
-## <a name="set-up-depreciations-for-your-fixed-assets"></a>Configurare gli ammortamenti per i cespiti
+## Configurare gli ammortamenti per i cespiti
 
 Per tenere traccia degli ammortamenti dei cespiti e altre transazioni finanziarie per cespiti, imposta uno o più registri beni ammortizzabili per ogni cespite. Ecco alcuni passaggi per ammortizzare i cespiti:
 
@@ -100,7 +100,7 @@ Per tenere traccia degli ammortamenti dei cespiti e altre transazioni finanziari
 | Visualizza i valori del registro ammortamento modificati. | [Visualizzare i valori del registro beni ammortizzabili modificati](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Registra manualmente le transazioni dei cespiti nella pagina **Reg. cespiti in G/L** o **Registraz. cespiti**, a seconda se le transazioni sono per la creazione di rendiconti finanziari o per la gestione interna. | [Impostare l'ammortamento dei cespiti](fa-how-setup-depreciation.md) |
 
-## <a name="fixed-assets-maintenance-and-insurance"></a>Manutenzione e assicurazione dei cespiti
+## Manutenzione e assicurazione dei cespiti
 
 Puoi registrare i costi di manutenzione e la data del prossimo intervento per ogni cespite. Può essere importante tenere traccia delle spese di manutenzione ai fini dell'impostazione del budget e per decidere se un cespite debba essere sostituito. Puoi associare ciascun cespite a una o più polizze assicurative e verificare che i premi della polizza siano allineati al valore dei cespiti.
 
@@ -111,7 +111,7 @@ Puoi registrare i costi di manutenzione e la data del prossimo intervento per og
 | Aggiornare informazioni di assicurazione, registrare costi di acquisto in polizze assicurative, modificare la copertura assicurativa, visualizzare le statistiche di assicurazione e creare liste delle polizze assicurative. |[Assicurazione di cespiti](fa-how-insure.md) |
 | Monitora la copertura assicurativa. | [Monitorare la copertura assicurativa](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Riclassificare, trasferire, suddividere/comobinare, rettificare il valore, svalutare e smaltire i cespiti
+## Riclassificare, trasferire, suddividere/comobinare, rettificare il valore, svalutare e smaltire i cespiti
 
 | A  | Vedere |
 | --- | --- |
@@ -121,7 +121,7 @@ Puoi registrare i costi di manutenzione e la data del prossimo intervento per og
 | Visualizzazione dei movimenti contabili di cessione | [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visualizza i valori di cessione previsti. | [Visualizzare i valori di cessione previsti](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="tips-for-improving-your-fixed-asset-accounting"></a>Suggerimenti per migliorare la contabilità delle immobilizzazioni
+## Suggerimenti per migliorare la contabilità delle immobilizzazioni
 
 Ci sono alcune cose che puoi implementare nella tua strategia contabile per le immobilizzazioni che possono aiutarti a garantire la massimizzazione dei tuoi guadagni.
 
@@ -130,7 +130,7 @@ Ci sono alcune cose che puoi implementare nella tua strategia contabile per le i
 - Tagga le tue risorse. È essenziale monitorare e taggare le tue risorse durante tutto il loro ciclo di vita perché molti fattori possono influenzarne il valore. L'etichettatura aiuta a tenere traccia dei tuoi articoli durante tutte le fasi del loro ciclo di vita e aiuta a prevenire i furti, eliminare gli smarrimenti e supportare le statistiche finanziarie.
 - Automatizza gli insight con il software di contabilità delle immobilizzazioni. L'automazione delle attività manuali per tenere traccia dei dati con il software di contabilità delle immobilizzazioni semplifica il completamento dei processi. La protezione tramite password può aiutare a fornire l'accesso solo alle persone che ne hanno bisogno e che sono addestrate per questo.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di cespiti](fa-setup.md)  
 [Panoramica dell'analisi dei cespiti](fa-analytics-overview.md)  

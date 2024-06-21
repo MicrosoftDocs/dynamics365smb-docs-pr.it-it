@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="inventory-analytics"></a>Analisi dell'inventario
+# Analisi dell'inventario
 
 Le aziende acquisiscono moltissimi dati durante le attività quotidiane che supportano la business Intelligence (BI) per i responsabili di magazzino:
 
@@ -31,7 +31,7 @@ Ognuna di queste funzionalità presenta vantaggi e svantaggi, a seconda del tipo
 
 Questo articolo illustra come utilizzare queste funzionalità analitiche per ottenere informazioni dettagliate sul magazzino.
 
-## <a name="analytics-needs-in-inventory"></a>Esigenze di analisi nel magazzino
+## Esigenze di analisi nel magazzino
 
 Quando pensi alle esigenze di analisi nella gestione del magazzino, potrebbe essere utile utilizzare un modello basato su un utente tipo che descrive diverse esigenze di analisi ad alto livello.
 
@@ -48,14 +48,14 @@ Persone che ricoprono ruoli diversi hanno esigenze diverse in termini di dati e 
 |Addetto al magazzino   | Dati dettagliati     | Report operativi integrati, dati delle attività su schermo |
 
 <!-- 
-## <a name="inventory-kpis"></a>Inventory KPIs
+## Inventory KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-inventory"></a>Utilizzare il reporting finanziario per produrre rendiconti finanziari e indicatori KPI relativi al magazzino
+## Utilizzare il reporting finanziario per produrre rendiconti finanziari e indicatori KPI relativi al magazzino
 
 La funzionalità **Reporting finanziario** fornisce informazioni dettagliate sui dati finanziari mostrati nel piano dei conti. Puoi configurare i report finanziari per analizzare le cifre nei conti di contabilità generale (C/G) e confrontare i movimenti di contabilità generale con i movimenti di budget. Specificamente per la gestione del magazzino, puoi impostare report finanziari sui conti C/G utilizzati per tenere traccia delle registrazioni di magazzino.
 
@@ -63,13 +63,13 @@ Le dimensioni svolgono un ruolo importante nella business intelligence. Una dime
 
 Per ulteriori informazioni sui report finanziari, vedi [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-inventory"></a>Reporting finanziario in business unit o persone giuridiche (relative al magazzino)
+## Reporting finanziario in business unit o persone giuridiche (relative al magazzino)
 
 Alcune organizzazioni usano [!INCLUDE [prod_short](includes/prod_short.md)] in più business unit o persone giuridiche. Altre usano [!INCLUDE [prod_short](includes/prod_short.md)] nelle filiali che devono generare report per le organizzazioni padre. [!INCLUDE [prod_short](includes/prod_short.md)] offre ai contabili strumenti che li aiutano a trasferire i movimenti C/G da due o più società (filiali) a una società consolidata. In particolare per la gestione del magazzino, potresti voler consolidare i movimenti C/G per i tuoi conti di magazzino per tenere traccia degli indicatori KPI di vendita in business unit o persone giuridiche.
 
 Per ulteriori informazioni, vedi [Consolidamento della società](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-inventory-data"></a>Analisi ad hoc dei dati di magazzino
+## Analisi ad hoc dei dati di magazzino
 
 A volte, devi solo verificare se i numeri si sommano correttamente o confermare rapidamente una cifra. Le seguenti funzionalità sono ottime per le analisi ad hoc:
 
@@ -89,7 +89,7 @@ Allo stesso modo, puoi usare l'azione **Apri in Excel** per aprire una pagina di
 
 Per ulteriori informazioni su come eseguire analisi ad hoc sui dati di magazzino, vedi [Analisi ad hoc dei dati di inventario](ad-hoc-analysis-inventory.md).
 
-## <a name="built-in-reports-for-inventory"></a>Report predefiniti per il magazzino
+## Report predefiniti per il magazzino
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report integrati, funzioni di tracciamento e strumenti per aiutare le organizzazioni dedicate al magazzino a creare report sui propri dati.
 
@@ -104,7 +104,7 @@ Per ottenere una panoramica dei report disponibili, scegli **Tutti i report** ne
 
 Per ulteriori informazioni sui report relativi al magazzino, vedi [Report di inventario e warehouse predefiniti](inventory-WMS-reports.md).
 
-## <a name="on-screen-inventory-analytics"></a>Analisi del magazzino visualizzate
+## Analisi del magazzino visualizzate
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include varie pagine che forniscono panoramiche sul magazzino e attività da svolgere. Ecco alcuni esempi per iniziare:
 
@@ -120,7 +120,7 @@ Il modulo delle vendite include anche pagine di analisi relative all'inventario:
 - [Calcolare le date di consegna di ordini di vendita](sales-date-calculation-for-sales.md)
 - [Rintracciare i colli](sales-how-track-packages.md)
 
-### <a name="show-inventory-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Mostrare movimenti e saldi C/G relativi al magazzino dalla pagina Piano dei conti
+### Mostrare movimenti e saldi C/G relativi al magazzino dalla pagina Piano dei conti
 
 La pagina **Piano dei conti** mostra tutti i conti C/G con numeri aggregati registrati nella contabilità generale. Da questa pagina puoi fare cose come:  
 
@@ -134,7 +134,7 @@ Specificamente per la gestione del magazzino, puoi creare una visualizzazione ne
 
 Per saperne di più, vedi [Informazioni sul piano dei conti](finance-general-ledger.md#the-chart-of-accounts)
 
-### <a name="analyze-inventory-data-by-dimensions"></a>Analizzare i dati sul magazzino per dimensioni
+### Analizzare i dati sul magazzino per dimensioni
 
 Le dimensioni sono valori che categorizzano i movimenti in modo da poterli seguire e analizzare nei documenti, ad esempio ordini vendita. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene.  
 
@@ -142,7 +142,7 @@ Quindi, anziché impostare conti di contabilità generale distinti per ogni repa
 
 Per ulteriori informazioni, vedi [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Consolidamento società](finance-consolidated-company-reporting.md)   
 [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)  

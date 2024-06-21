@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-the-e-documents-connector-with-external-endpoints"></a>Impostare il connettore Documenti elettronici con endpoint esterni
+# Impostare il connettore Documenti elettronici con endpoint esterni
 
 Questo articolo spiega come configurare la funzionalità dei documenti elettronici quando è connessa a endpoint esterni.
 
 Prima di utilizzare la funzionalità descritta in questo articolo, installa l'app **Connettore Documenti elettronici con endpoint esterni** nella parte superiore dell'app globale **Documento elettronico di base**. Questa app può essere utilizzata per l'integrazione predefinita con punti di accesso esterni (di terze parti) per automatizzare il flusso di documenti elettronici. Poiché questa app rappresenta solo alcuni dei connettori selezionati, non sei limitato alle integrazioni esistenti al suo interno. La maggior parte dei connettori sarà disponibile su AppSource in futuro.
 
-## <a name="set-up-the-connection"></a>Configurare la connessione
+## Configurare la connessione
 
 Per iniziare la configurazione, segui i passaggi in [Documento elettronico di base](finance-how-setup-edocuments.md). Dopo aver completato questi passaggi, torna a questo articolo e completa i seguenti passaggi:
 
@@ -45,7 +45,7 @@ Per iniziare la configurazione, segui i passaggi in [Documento elettronico di ba
     > [!NOTE]
     > Chiedi al tuo fornitore di servizi tutti i dettagli precedenti per stabilire una connessione con il suo punto di accesso.
 
-## <a name="set-up-company-information"></a>Impostare le informazioni sulla società
+## Impostare le informazioni sulla società
 
 Prima di iniziare a utilizzare i documenti elettronici, aggiorna la pagina **Informazioni società** completando i seguenti passaggi:
 
@@ -60,7 +60,7 @@ Prima di iniziare a utilizzare i documenti elettronici, aggiorna la pagina **Inf
 
 3. Chiudere la pagina.
 
-## <a name="set-up-customers-to-receive-e-documents"></a>Configurare i clienti per ricevere documenti elettronici
+## Configurare i clienti per ricevere documenti elettronici
 
 Per consentire ai clienti di ricevere i tuoi documenti elettronici, completa i seguenti passaggi:
 
@@ -70,11 +70,11 @@ Per consentire ai clienti di ricevere i tuoi documenti elettronici, completa i s
 4. Contrassegna il campo **Usa GLN in documenti elettronici** per indicare se il Global Location Number (GLN) viene utilizzato come numero di identificazione della parte nei documenti elettronici.
 5. Chiudere la pagina.
 
-## <a name="other-setup"></a>Altre configurazioni
+## Altre configurazioni
 
 Prima di iniziare a lavorare con i documenti elettronici, imposta i **flussi di lavoro** dei documenti lettronici e i **profili di invio dei documenti** per utilizzare i tuoi flussi di lavoro. Dopo aver stabilito la connessione al servizio, puoi iniziare a utilizzare la tua soluzione di documenti elettronici.
 
-## <a name="available-service-providers"></a>Provider di servizio disponibili
+## Provider di servizio disponibili
 
 Microsoft desidera incoraggiare i fornitori di punti di accesso ad aggiungere i propri connettori al framework **Documento elettronico di base**.
 
@@ -82,7 +82,7 @@ Attualmente Pagero è l'unico fornitore di punti di accesso coperto da questo si
 
 Aggiorneremo questo elenco non appena avremo nuovi fornitori di punti di accesso per lo scambio di documenti elettronici.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Come impostare documenti elettronici in Business Central](finance-how-setup-edocuments.md)  
 [Come utilizzare documenti elettronici in Business Central](finance-how-use-edocuments.md)  

@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Inviare promemoria per saldi inevasi
+# Inviare promemoria per saldi inevasi
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Vedi anche
+## Vedi anche
 
 [Riscuotere i saldi inevasi](receivables-collect-outstanding-balances.md)  
 [Imposta più tassi di interesse per il pagamento ritardato](finance-how-to-set-up-multiple-interest-rates.md)  

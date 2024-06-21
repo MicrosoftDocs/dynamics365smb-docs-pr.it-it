@@ -12,7 +12,7 @@ ms.collection:
   - get-started
 ---
 
-# <a name="chat-with-copilot-preview"></a>Chat con Copilot (anteprima)
+# Chat con Copilot (anteprima)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ In questo articolo viene descritto come chattare con Copilot per ottenere rispos
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="about-chat-with-copilot"></a>Informazioni su Chat con Copilot
+## Informazioni su Chat con Copilot
 
 Microsoft Copilot è l'assistente basato sull'intelligenza artificiale che aiuta a stimolare la creatività, aumentare la produttività ed eliminare attività noiose. Puoi chattare con Copilot in Business Central per rispondere a domande e trovare dati aziendali esprimendo ciò che stai cercando in linguaggio naturale. Puoi utilizzare la chat per:
 
@@ -34,13 +34,13 @@ Chat con Copilot evita la necessità di navigare nell'interfaccia utente o nella
   
 > [Guarda il video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti
 
 - La funzionalità Chat con Copilot è attivata. Questa attività è eseguita da un amministratore. [Scopri di più sulla configurazione delle funzionalità di Copilot e IA](enable-ai.md).
 - La lingua di visualizzazione in Business Central è impostata su una delle seguenti impostazioni locali inglesi: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Scorpi di più sulla modifica della lingua](ui-change-basic-settings.md#language).
 - L'ambiente Business Central si trova in qualsiasi paese/area geografica ad eccezione del Canada (questa funzionalità non è ancora disponibile in Canada).
 
-## <a name="get-started-using-chat-with-copilot"></a>Iniziare a utilizzare Chat con Copilot
+## Iniziare a utilizzare Chat con Copilot
 
 1. Nell'angolo in alto a destra dello schermo, seleziona l'icona ![Mostra l'icona per Chat con Copilot](media/chat-copilot-icon.png) **Copilot** ![Mostra il colore numero 1](media/callout-number-1.svg).
 
@@ -65,13 +65,13 @@ Chat con Copilot evita la necessità di navigare nell'interfaccia utente o nella
 
    La chat ricorda il contesto, il che significa che non devi ripetere i punti chiave della domanda originale.
 
-## <a name="clear-chat-to-start-over"></a>Cancellare la chat per ricominciare
+## Cancellare la chat per ricominciare
 
 Se desideri passare a un argomento di conversazione diverso con Copilot, seleziona l'icona ![Mostra l'icona di cancellazione della chat](media/clear-chat-icon.png) **Avvia una nuova sessione chat di Copilot** nella parte inferiore del riquadro Copilot sopra la casella delle domande. Questa azione cancella i tuoi ultimi messaggi dalla memoria di Copilot. Ricominciare da capo è spesso utile dopo una lunga conversazione con molti messaggi e può aiutare Copilot a fornire risposte più precise.
 
 La chat viene cancellata anche quando si chiude o si esce da Business Central.
 
-## <a name="tips-for-better-questions"></a>Ottenere il massimo dalle domande
+## <a name="tips"></a>Ottenere il massimo dalle domande
 
 Questa sezione fornisce modalità per migliorare le risposte ottenute da Copilot.
 
@@ -83,7 +83,7 @@ Questa sezione fornisce modalità per migliorare le risposte ottenute da Copilot
 - Se la risposta iniziale non risponde completamente alle tue domande, fai domande di follow-up o riformula l'ultima domanda.
 - Se stai facendo una domanda su un argomento diverso rispetto alla domanda precedente, cancella la sessione di chat corrente per ricominciare.
 
-## <a name="example-prompts"></a>Prompt di esempio
+## Prompt di esempio
 
 Le tue domande a Copilot variano naturalmente a seconda del tuo ruolo, dell'attività attuale, dei processi seguiti dalla tua organizzazione e di come ti esprimi a parole. Di seguito sono riportati esempi che mostrano diversi modi di porre domande nel riquadro chat che possono ispirarti a scrivere le tue domande in base alla tua situazione unica.
 
@@ -103,7 +103,7 @@ Prompt: `How does I save my filterrings to do them later?`
 
 In questo esempio chiedi a Copilot indicazioni su come eseguire alcune attività in Business Central. Di solito Copilot riesce a comprendere l'intento della tua domanda, anche se sono presenti alcuni errori grammaticali, di ortografia o abbreviazioni.
 
-## <a name="provide-feedback-on-answers"></a>Fornire feedback sulle risposte
+## Fornire feedback sulle risposte
 
 Puoi valutare le risposte che ricevi da Copilot utilizzando il pulsante Mi piace (pollice su) per una valutazione buona o il pulsante Non mi piace (pollice giù) per una valutazione scarsa. Quando selezioni il pulsante Non mi piace, puoi scegliere un motivo, tra cui impreciso, inappropriato o altro. Queste informazioni possono aiutarci a migliorare i suggerimenti.
 
@@ -111,7 +111,7 @@ Puoi valutare le risposte che ricevi da Copilot utilizzando il pulsante Mi piace
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
 
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Risolvere i problemi relativi alle funzionalità di Copilot e IA](ai-copilot-troubleshooting.md)  
 [Configurare le funzionalità di Copilot e IA](enable-ai.md)  

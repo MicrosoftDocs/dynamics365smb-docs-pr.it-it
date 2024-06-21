@@ -9,27 +9,27 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-planning-supplies-manually"></a>Procedura dettagliata: Pianificazione manuale degli approvvigionamenti
+# Procedura dettagliata: Pianificazione manuale degli approvvigionamenti
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 La presente procedura dettagliata illustra il processo di pianificazione degli ordini di approvvigionamento per soddisfare una nuova domanda. È possibile avviare la pianificazione dell'approvvigionamento a intervalli fissi, ad esempio ogni mattina o ogni lunedì, oppure su notifica del personale di vendita o di produzione. Nella procedura dettagliata viene impiegata a tal fine la pagina **Pianificazione ordini**, un semplice strumento di pianificazione degli approvvigionamenti che prevede la decisione e l'intervento manuale dell'utente anziché utilizzare parametri predefiniti per la pianificazione automatica.  
 
-## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
+## Informazioni sulla procedura dettagliata  
  In questa procedura dettagliata sono illustrati i task seguenti:  
 
 -   Pianificazione di un ordine di acquisto per componenti di manufacturing  
 -   Pianificazione di un ordine di trasferimento per soddisfare la domanda di vendita  
 -   Pianificazione di un ordine di produzione di un articolo multilivello  
 
-## <a name="roles"></a>Ruoli
+## Ruoli  
  Questa procedura dettagliata comprende task svolti dai ruoli utente seguenti:  
 
 -   Responsabile pianificazione produzione  
 -   Rivenditore  
 -   Gestore degli ordini di vendita  
 
-## <a name="prerequisites"></a>Prerequisiti
+## Prerequisiti  
  Prima di iniziare questa procedura dettagliata, occorre installare [!INCLUDE[prod_short](includes/prod_short.md)]. Le seguenti modifiche devono essere apportate al database:  
 
 -   Eliminare tutti gli ordini di biciclette esistenti  
@@ -38,17 +38,17 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
  Come regola generale, si raccomanda di utilizzare i dati suggeriti nella procedura perché dispongono dei record necessari.  
 
-## <a name="story"></a>Scenario
+## Scenario  
  Eduardo, l'addetto alla pianificazione della produzione di una piccola società , si sta apprestando a pianificare la produzione e gli ordini di acquisto per soddisfare una nuova domanda di vendita.  
 
  Poiché i prodotti hanno pochi livelli di distinta base e il flusso degli ordini è relativamente basso, Eduardo utilizza la pagina **Pianificazione ordini** per creare manualmente gli ordini di approvvigionamento — un livello di prodotto per volta.  
 
  In un ambiente produttivo più complesso, per pianificare gli approvvigionamenti viene utilizzato il prospetto pianificazione, che applica parametri specifici degli articoli come periodo di riprogrammazione, lead time di sicurezza, punto di riordino e calcoli batch della domanda consolidata per tutti i livelli di prodotto.  
 
-## <a name="setting-up-the-sample-data"></a>Impostazione dei dati di esempio
+## Impostazione dei dati di esempio  
  La società di esempio CRONUS standard ha attualmente elevati livelli di domanda non pianificata. Durante le differenti attività di pianificazione di questa procedura dettagliata, sarà necessario deviare dalla realtà del flusso aziendale ignorando le domande con data di scadenza prossima e dedicandosi invece a quelle con data di scadenza più lontana nel tempo.  
 
-## <a name="use-the-order-planning-page"></a>Utilizzare la pagina Pianificazione ordini
+## Utilizzare la pagina Pianificazione ordini  
 
 È possibile accedere alla pagina **Pianificazione ordini** da diverse posizioni:  
 
@@ -57,7 +57,7 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 -   Acquisto, Pianificazione  
 -   È inoltre possibile aprire questa pagina per un ordine di produzione specifico selezionando l'azione **Pianificazione**.
 
-### <a name="to-use-the-order-planning-page"></a>Per utilizzare la pagina Pianificazione ordini
+### Per utilizzare la pagina Pianificazione ordini  
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Pianificazione ordini**, quindi scegli il collegamento correlato.  
 
@@ -81,10 +81,10 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
      Gli ordini che non presentano problemi di disponibilità non sono visualizzati. Se non esistono ordini nel momento in cui il piano viene calcolato, verrà visualizzato un messaggio e non verrà riportata alcuna riga di pianificazione.  
 
-## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Pianificazione di un ordine di acquisto per soddisfare la domanda di componenti
+## Pianificazione di un ordine di acquisto per soddisfare la domanda di componenti  
  In questa procedura viene creato un ordine di acquisto per i componenti necessari per la produzione.  
 
-### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Per pianificare un ordine di acquisto per i componenti necessari per la produzione
+### Per pianificare un ordine di acquisto per i componenti necessari per la produzione  
 
 1.  Espandere la prima riga (fare clic sul simbolo +).  
 2.  Scegliere la prima riga di domanda, con l'articolo **LSU-15**, quindi scegliere l'azione **Mostra documento**.  
@@ -121,10 +121,10 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
      Gli ordini di acquisto sono ora creati e sono salvati come ultimi nella lista degli ordini di acquisto.  
 
-## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Pianificazione di un ordine di trasferimento per soddisfare la domanda di vendita
+## Pianificazione di un ordine di trasferimento per soddisfare la domanda di vendita  
  In questa procedura si pianificherà la domanda per un ordine di vendita. Le righe di domanda rappresentano righe di vendita e non righe di componenti, come nella domanda di produzione.  
 
-### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Per pianificare un ordine di trasferimento per soddisfare la domanda di vendita
+### Per pianificare un ordine di trasferimento per soddisfare la domanda di vendita  
 
 1.  Spostare il puntatore nella riga di pianificazione dell'ordine **2008**.  
 2.  Espandere la riga e spostare il puntatore sulla riga di domanda.  
@@ -149,10 +149,10 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
      L'ordine di trasferimento è ora creato ed è salvato come ultimo nella lista degli ordini di trasferimento aperti.  
 
-## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Pianificazione di un ordine di produzione multilivello per soddisfare la domanda di vendita
+## Pianificazione di un ordine di produzione multilivello per soddisfare la domanda di vendita  
  In questa procedura si pianificherà di soddisfare la domanda di vendita di un articolo con più livelli di produzione, ciascuno dei quali crea una domanda di produzione dipendente.  
 
-### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Per pianificare un ordine di produzione multilivello per soddisfare la domanda di vendita
+### Per pianificare un ordine di produzione multilivello per soddisfare la domanda di vendita  
 
 1.  Selezionare la riga di pianificazione con la domanda di vendita per l'ordine **1001**, creato in precedenza come prerequisito.  
 
@@ -171,7 +171,7 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
  L'addetto alla pianificazione della produzione ha in questo caso il compito di pianificare un ordine di produzione specifico.  
 
-### <a name="to-plan-a-specific-production-order"></a>Per pianificare un ordine di produzione specifico
+### Per pianificare un ordine di produzione specifico  
 
 1.  Aprire l'ordine di produzione **101001** (per dieci biciclette) appena creato utilizzando la funzione **Crea ordini**.  
 2.  Aprire la pagina **Componenti ordine produzione** per controllare che il campanello in più sia riflesso nell'ordine di produzione.  
@@ -221,7 +221,7 @@ La presente procedura dettagliata illustra il processo di pianificazione degli o
 
      Nella pagina **Ord. produzione confermati** esaminare la pianificazione delle ore di inizio e di fine dei singoli ordini definita in base alla struttura del prodotto. I componenti di ultimo livello sono prodotti per primi. Di conseguenza, è necessario pianificare ordini multilivello come dimostrato nel flusso di lavoro di pianificazione.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

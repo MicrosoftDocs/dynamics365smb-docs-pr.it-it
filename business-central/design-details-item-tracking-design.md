@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-item-tracking-design"></a>Dettagli di progettazione: Progettazione tracciabilità articolo
+# Dettagli di progettazione: Progettazione tracciabilità articolo
 
 Tracciabilità articolo in [!INCLUDE[prod_short](includes/prod_short.md)] avviata con [!INCLUDE [navnow_md](includes/navnow_md.md)]. La funzionalità di tracciabilità articolo si trova in una struttura di oggetti separata con collegamenti complessi a documenti registrati e movimenti contabili articoli ed è integrata con il sistema di prenotazione, che gestisce la prenotazione, la tracciabilità degli ordini e la messaggistica di azione. Per ulteriori informazioni, vedi [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md) in Dettagli progettazione: Pianificazione degli approvvigionamenti.  
 
@@ -33,7 +33,7 @@ Codeunit 22, **Reg. magazzino - registra righe**, ora suddivide la registrazione
 
 Per ulteriori informazioni, vedere [Dettagli di progettazione: Struttura di registrazione di tracciabilità articolo](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Dettagli di progettazione: Tracciabilità articolo](design-details-item-tracking.md)
 

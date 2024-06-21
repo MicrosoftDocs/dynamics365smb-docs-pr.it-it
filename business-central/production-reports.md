@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="production-reports-and-analytics-in-business-central"></a>Report di produzione e analisi in Business Central
+# Report di produzione e analisi in Business Central
 
 Il report di produzione in [!INCLUDE [prod_short](includes/prod_short.md)] consente ai professionisti della produzione e aziendali di ottenere approfondimenti e statistiche sulle attività di produzione attuali e passate.  
 
-## <a name="reports"></a>Report
+## Report
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-## <a name="tasks"></a>Attività
+## Attività
 
 I seguenti articoli descrivono alcune delle attività chiave per analizzare lo stato del tuo business:
 
 * [Visualizzare il carico in aree di produzione e centri di lavoro](production-how-to-view-the-load-on-work-centers.md)  
 * [Visualizzare la disponibilità di articoli](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione della produzione](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
