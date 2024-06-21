@@ -9,10 +9,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Definizione di dare e avere
+# <a name="define-debit-and-credit-amounts"></a>Definizione di dare e avere
 I campi **Dare** e **Avere** sono presenti in più registrazioni e tabelle, tra cui **Registrazioni COGE**, la tabella **Mov. contabili clienti** e la tabella **Mov. contabili fornitori**. Gli importi Dare e Avere devono corrispondere nelle registrazioni e nelle tabelle. In caso contrario, non sarà possibile registrarli o salvarli.  
 
-## Per definire gli importi dare e avere  
+## <a name="to-define-debit-and-credit-amounts"></a>Per definire gli importi dare e avere
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.  
 2.  Compilare i campi come indicato nella tabella seguente.  
@@ -27,7 +27,7 @@ I campi **Dare** e **Avere** sono presenti in più registrazioni e tabelle, tra 
 
 3.  Scegliere il pulsante **OK**.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 [Funzionalità locale per l'Italia](italy-local-functionality.md)   
 
 

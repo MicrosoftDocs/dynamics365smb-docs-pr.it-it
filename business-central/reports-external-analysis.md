@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Analizzare i dati negli strumenti di business intelligence
+# <a name="analyze-data-in-business-intelligence-tools"></a>Analizzare i dati negli strumenti di business intelligence
 
 Nel caso in cui preferisci utilizzare strumenti di business intelligence che non sono integrati in [!INCLUDE[prod_short](includes/prod_short.md)], questa pagina fornisce indicazioni su strumenti e metodi per raggiungere questo obiettivo.
 
@@ -22,7 +22,7 @@ Nel caso in cui preferisci utilizzare strumenti di business intelligence che non
 |Estrarre i dati in un data warehouse o in un data lake. |[Estrazione di dati in data warehouse o data lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
 |Leggi i dati di Business Central utilizzando l'API.| [API di Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica di Business Intelligence e creazione di report](reports-use-reports.md)
 

@@ -11,11 +11,11 @@ ms.date: 03/04/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-currencies
 ---
-# Valute in Business Central
+# <a name="currencies-in-business-central"></a>Valute in Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## Valute
+## <a name="currencies"></a>Valute
 
 > [!TIP]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], se stai cercando informazioni in tempo reale su valute estere, tassi di cambio delle valute estere o tassi storici, queste informazioni vanno sotto il nome di valuta. Oltre a questo articolo, vedere anche [Impostare una valuta di dichiarazione aggiuntiva](finance-how-setup-additional-currencies.md).
@@ -24,15 +24,15 @@ ms.custom: bap-currencies
 
 Specifica i codici valuta nell'elenco **Valute**, comprese le informazioni e le impostazioni aggiuntive necessarie per ciascun codice valuta. Per ulteriori informazioni, vedi [Valute](finance-set-up-currencies.md#curr)
 
-### Esempio di una transazione in valuta esigibile
+### <a name="example-of-a-receivable-currency-transaction"></a>Esempio di una transazione in valuta esigibile
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Tassi di cambio
+## <a name="exchange-rates"></a>Tassi di cambio
 
 I tassi di cambio sono lo strumento per calcolare il valore in valuta locale (LCY) di ogni transazione in valuta. Per ulteriori informazioni, vedere [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md).  
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Impostare le valute](finance-set-up-currencies.md)  
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  

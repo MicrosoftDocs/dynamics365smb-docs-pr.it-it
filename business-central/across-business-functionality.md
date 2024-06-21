@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Funzionalità aziendale
+# <a name="business-functionality"></a>Funzionalità aziendale
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offre funzionalità per i comuni processi aziendali nelle piccole e medie società, principalmente all'interno di servizi di vendita all'ingrosso e professionali. Tuttavia, sono supportati anche processi più complessi, ad esempio l'assemblaggio, la produzione, l'assistenza e la gestione warehouse guidata. Scopri come ottenere una versione di valutazione gratuita [qui](trial-signup.md).  
 
@@ -39,7 +39,7 @@ ms.reviewer: bholtorf
 |Abilitare gli utenti allo scambio di dati con origini esterne durante le attività quotidiane, ad esempio l'invio e la ricezione di documenti elettronici, l'importazione e l'esportazione di file della banca e l'aggiornamento dei tassi di cambio delle valute.|[Scambio di dati in modalità elettronica](across-data-exchange.md)|
 |Registra i documenti esterni in [!INCLUDE[prod_short](includes/prod_short.md)], inclusi gli allegati di file, quindi crea manualmente i documenti correlati o converti automaticamente i file in documenti elettronici.|[Documenti in entrata](across-income-documents.md)|
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Amministrazione](admin-setup-and-administration.md)    
 [Informazioni sulle funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analisi delle vendite
+# <a name="sales-analytics"></a>Analisi delle vendite
 
 Le aziende acquisiscono moltissimi dati durante le attività quotidiane che supportano la business Intelligence (BI) per i responsabili vendite:
 
@@ -32,7 +32,7 @@ Ognuna di queste funzionalità presenta vantaggi e svantaggi, a seconda del tipo
 
 Questo articolo illustra come utilizzare queste funzionalità analitiche per ottenere informazioni dettagliate sulle vendite.
 
-## Esigenze di analisi nelle vendite
+## <a name="analytics-needs-in-sales"></a>Esigenze di analisi nelle vendite
 
 Quando pensi alle esigenze di analisi nella gestione delle vendite, potrebbe essere utile utilizzare un modello basato su un utente tipo che descrive diverse esigenze di analisi ad alto livello.
 
@@ -49,14 +49,14 @@ Persone che ricoprono ruoli diversi hanno esigenze diverse in termini di dati e 
 |Manager contabilità/Addetto alle vendite | Dati dettagliati     | Report operativi predefiniti <br> Dati delle attività visualizzate |
 
 <!-- 
-## Sales KPIs
+## <a name="sales-kpis"></a>Sales KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In sales management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Utilizzare il reporting finanziario per produrre rendiconti finanziari e indicatori KPI relativi alle vendite
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-sales"></a>Utilizzare il reporting finanziario per produrre rendiconti finanziari e indicatori KPI relativi alle vendite
 
 La funzionalità **Reporting finanziario** fornisce informazioni dettagliate sui dati finanziari mostrati nel piano dei conti. Puoi configurare i report finanziari per analizzare le cifre nei conti di contabilità generale (C/G) e confrontare i movimenti di contabilità generale con i movimenti di budget. Specificamente per la gestione delle vendite, puoi impostare report finanziari sui conti C/G utilizzati per tenere traccia delle registrazioni delle vendite.
 
@@ -64,13 +64,13 @@ Le dimensioni svolgono un ruolo importante nella business intelligence. Una dime
 
 Per ulteriori informazioni sui report finanziari, vedi [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md).
 
-## Reporting finanziario in business unit o persone giuridiche relative alle vendite
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-sales"></a>Reporting finanziario in business unit o persone giuridiche relative alle vendite
 
 Alcune organizzazioni usano [!INCLUDE [prod_short](includes/prod_short.md)] in più business unit o persone giuridiche. Altre usano [!INCLUDE [prod_short](includes/prod_short.md)] nelle filiali che devono generare report per le organizzazioni padre. [!INCLUDE [prod_short](includes/prod_short.md)] offre ai contabili strumenti che li aiutano a trasferire i movimenti C/G da due o più società (filiali) a una società consolidata. In particolare per la gestione delle vendite, potresti voler consolidare i movimenti C/G per i tuoi conti vendite per tenere traccia degli indicatori KPI di vendita in business unit o persone giuridiche.
 
 Per ulteriori informazioni, vedi [Consolidamento della società](finance-consolidated-company-reporting.md).
 
-## Analisi ad hoc dei dati sulle vendite
+## <a name="ad-hoc-analysis-of-sales-data"></a>Analisi ad hoc dei dati sulle vendite
 
 A volte, devi solo verificare se i numeri si sommano correttamente o confermare rapidamente una cifra. Le seguenti funzionalità sono ottime per le analisi ad hoc:
 
@@ -90,7 +90,7 @@ Allo stesso modo, puoi usare l'azione **Apri in Excel** per aprire una pagina di
 
 Per ulteriori informazioni su come eseguire analisi ad hoc sui dati relativi alle vendite, vedi [Analisi ad hoc dei dati sulle vendite](ad-hoc-analysis-sales.md). 
 
-## Report predefiniti per le vendite
+## <a name="built-in-reports-for-sales"></a>Report predefiniti per le vendite
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include diversi report integrati, funzioni di tracciamento e strumenti per aiutare le organizzazioni dedicate alle vendite a creare report sui propri dati.
 
@@ -105,7 +105,7 @@ I report predefiniti sono disponibili in due versioni:
 
 Per ulteriori informazioni sui report relativi alle vendite, vedi [Report sulle vendite integrati](sales-reports.md).
 
-## Analisi delle vendite visualizzate
+## <a name="on-screen-sales-analytics"></a>Analisi delle vendite visualizzate
 
 [!INCLUDE [prod_short](includes/prod_short.md)] include varie pagine che forniscono panoramiche sulle vendite e attività da svolgere. Ecco alcuni esempi per iniziare:
 
@@ -121,7 +121,7 @@ Per ulteriori informazioni sui report relativi alle vendite, vedi [Report sulle 
 - [Visualizzare le righe degli ordini di vendita programmati registrate e non registrate](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
 
-### Mostrare movimenti e saldi di contabilità generale relativi alle vendite dalla pagina Piano dei conti
+### <a name="show-sales-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Mostrare movimenti e saldi di contabilità generale relativi alle vendite dalla pagina Piano dei conti
 
 La pagina Piano dei conti mostra tutti i conti C/G con numeri aggregati registrati nella contabilità generale. Da questa pagina puoi fare cose come:  
 
@@ -135,7 +135,7 @@ Specificamente per le vendite, puoi creare una visualizzazione nella pagina Pian
 
 Per saperne di più, vedi [Informazioni sul piano dei conti](finance-general-ledger.md#the-chart-of-accounts)
 
-### Analizzare i dati per dimensioni (relative alle vendite)
+### <a name="analyze-data-by-dimensions-related-to-sales"></a>Analizzare i dati per dimensioni (relative alle vendite)
 
 Le dimensioni sono valori che categorizzano i movimenti in modo da poterli seguire e analizzare nei documenti, ad esempio ordini vendita. Ad esempio, le dimensioni possono indicare il progetto o il reparto da cui un movimento proviene.  
 
@@ -143,7 +143,7 @@ Quindi, anziché impostare conti di contabilità generale distinti per ogni repa
 
 Per ulteriori informazioni, vedi [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Consolidamento società](finance-consolidated-company-reporting.md)   
 [Preparare report finanziari con i dati finanziari e le categorie di conti](bi-how-work-account-schedule.md)  

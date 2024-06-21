@@ -10,10 +10,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Creare i report elettronici di transazioni IVA nella versione italiana
+# <a name="create-electronic-vat-transactions-reports-in-the-italian-version"></a>Creare i report elettronici di transazioni IVA nella versione italiana
 È necessario creare una lista di transazioni che includono l'IVA con importi oltre la soglia corrente effettuati entro la data specificata. Inviare il report alle autorità fiscali.  
 
-## Per creare un report di transazioni IVA  
+## <a name="to-create-a-vat-transactions-report"></a>Per creare un report di transazioni IVA
 
 1.  Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](../../media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Report IVA**, quindi scegli il collegamento correlato.  
 2.  Compilare i campi come indicato nella tabella seguente.  
@@ -31,7 +31,7 @@ Le note di credito vengono incluse nel report transazioni IVA se il cliente o il
 
 Dopo avere creato il report IVA, è necessario inviarlo alle autorità fiscali. Per ulteriori informazioni, vedere [Esportare i report di transazioni IVA](how-to-export-vat-transactions-reports.md).  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
  [IVA italiana](italian-vat.md)
 
 

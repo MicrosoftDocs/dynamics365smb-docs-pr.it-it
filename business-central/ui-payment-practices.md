@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 --- 
 
-# Report Procedure di pagamento  
+# <a name="payment-practices-report"></a>Report Procedure di pagamento
 
 Alcuni paesi/aree richiedono che le società generino report sui tempi di pagamento per i propri fornitori come definiti dalle autorità locali. Questo reporting può basarsi su diverse fonti e può ordinare i fornitori in base alle loro dimensioni o ai termini di pagamento definiti, fornendo reporting ai fornitori per quanto segue, come richiesto dalle autorità locali:  
 
@@ -24,7 +24,7 @@ Gli utenti possono selezionare il periodo per il quale desiderano eseguire un ca
 > [!NOTE]
 > Questo reporting è attualmente obbligatorio in alcuni paesi, ma si tratta di una funzionalità globale e può essere utilizzata ovunque. Attualmente, ogni anno le società svedesi con 250 e più dipendenti devono comunicare all'Ufficio svedese di registrazione delle imprese quali tempi di pagamento hanno per gli acquisti da società più piccole di loro. Atti simili esistono nel Regno Unito, in Australia e in Nuova Zelanda.  
 
-## Generare il report 
+## <a name="generate-the-report"></a>Generare il report
 
 Per eseguire il report **Procedure di pagamento**, procedi nel seguente modo:
 
@@ -48,7 +48,7 @@ Per eseguire il report **Procedure di pagamento**, procedi nel seguente modo:
 6. Da tutti i campi calcolati, puoi andare più in profondità per vedere come è stato calcolato questo risultato, aprendo la pagina **Lista dati procedura di pagamento**.
 7. Se desideri stampare il documento, puoi farlo eseguendo l'azione **Stampa**.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Report finanziari](finance-reports.md)  
 [Analisi dei rendiconti finanziari in Microsoft Excel](finance-analyze-excel.md)  

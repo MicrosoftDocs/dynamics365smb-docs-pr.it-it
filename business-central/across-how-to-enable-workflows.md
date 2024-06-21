@@ -10,19 +10,19 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Abilitare i workflow di approvazione
+# <a name="enable-approval-workflows"></a>Abilitare i workflow di approvazione
 
 Dopo avere creato un workflow di approvazione ed essersi assicurati che sia pronto, è necessario abilitarlo.  
 
 Nella pagina **Workflow** crea un workflow elencando le fasi interessate nelle righe. Ogni fase consiste in un evento del flusso di lavoro, moderato dalle condizioni di evento, e in una risposta del flusso di lavoro, moderata dalle opzioni di risposta. È possibile definire le fasi del flusso di lavoro compilando i campi delle righe del flusso di lavoro in base a elenchi fissi di valori di evento e di risposta che rappresentano gli scenari supportati dal codice dell'applicazione. Ulteriori informazioni in [Creare workflow](across-how-to-create-workflows.md).  
 
-## Abilitare un flusso di lavoro
+## <a name="enable-a-workflow"></a>Abilitare un flusso di lavoro
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Flussi di lavoro**, quindi scegli il collegamento correlato.  
 2. Aprire il flusso di lavoro che si desidera abilitare.  
 3. Nella pagina **Workflow**, seleziona la casella di controllo **Abilitato**.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Creare workflow di approvazione](across-how-to-create-workflows.md)  
 [Usare workflow di approvazione](across-use-workflows.md)  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Dettagli di progettazione: Impostazione warehouse
+# <a name="design-details-warehouse-setup"></a>Dettagli di progettazione: Impostazione warehouse
 
 La funzionalità di warehouse in [!INCLUDE[prod_short](includes/prod_short.md)] contiene livelli diversi di complessità, che sono definiti dalle autorizzazioni di licenza nelle funzionalità offerte. Il livello di complessità in una soluzione warehouse è in gran parte definito dall'impostazione di collocazione nelle schede ubicazione, che a sua volta viene controllata dalla licenza perché l'accesso ai campi dell'impostazione di collocazione è definito dalla licenza. Inoltre, gli oggetti applicazione della licenza controllano quale documento dell'interfaccia utente utilizzare per le attività di warehouse supportate.  
 <!--
@@ -44,7 +44,7 @@ Nella seguente tabella viene indicato quali funzionalità sono richieste per def
 
 Per esempi dell'utilizzo dei documenti IU in base al livello di complessità della warehouse, vedere [Dettagli di progettazione: Flusso warehouse in entrata](design-details-inbound-warehouse-flow.md).  
 
-## Collocazione e Contenuto collocazione
+## <a name="bin-and-bin-content"></a>Collocazione e Contenuto collocazione
 
 Una collocazione è un dispositivo di archiviazione progettato per contenere le parti di ricambio. È l'unità contenitore più piccola presente in [!INCLUDE[prod_short](includes/prod_short.md)]. Le quantità di articoli nelle collocazioni vengono denominate contenuto collocazione. Una ricerca dal campo **Articolo** oppure dal campo **Cod. collocazione** nella riga documenti correlata al warehouse visualizza la disponibilità calcolata dell'articolo nella collocazione.  
 
@@ -61,7 +61,7 @@ La proprietà della collocazione predefinita viene utilizzata dal sistema per su
 
 Potrebbe esserci solo una collocazione predefinita per articolo per ubicazione.  
 
-## Tipo collocazione
+## <a name="bin-type"></a>Tipo collocazione
 
 Nelle installazioni WMS è possibile limitare le attività di warehouse consentite per una collocazione assegnando un tipo di collocazione. Sono disponibili i seguenti tipi di collocazione:  
 
@@ -79,7 +79,7 @@ Per tutti i tipi di collocazione, ad eccezione della PICK, PUTPICK e PUTAWAY, no
 > [!NOTE]  
 > Solo il movimento può essere effettuato in collocazioni di tipo RICEVI e CQ. Analogamente, è possibile effettuare solo spostamenti dalle collocazioni di tipo SPED e CQ.  
 
-## Valutazione collocazione
+## <a name="bin-ranking"></a>Valutazione collocazione
 
 Nella gestione avanzata della warehouse, è possibile automatizzare e ottimizzare il modo in cui gli articoli vengono raccolti nei prospetti di prelievo e stoccaggio valutando le collocazioni in modo che gli articoli vengano suggeriti come prelevati o stoccati in base ai criteri di valutazione al fine di ottimizzare lo spazio della warehouse.  
 
@@ -87,7 +87,7 @@ I processi di stoccaggio vengono ottimizzati in base alla valutazione collocazio
 
 La valutazione della collocazione con le informazioni del contenuto collocazione rappresentano le proprietà di base che consentono agli utenti di suddividere in fasce orarie gli articoli nella warehouse.  
 
-## Impostazione della collocazione  
+## <a name="bin-setup"></a>Impostazione della collocazione
 Nella gestione avanzata della warehouse, le collocazioni possono essere impostate con valori di capacità, ad esempio la quantità, la cubatura totale e il peso, per controllare quali articoli sono memorizzati nella collocazione e in che modo.  
 
 In ciascuna scheda articolo è possibile assegnare un'unità di misura (UDM) per l'articolo, ad esempio pezzi, pallet, litri, grammi o scatole. È inoltre possibile avere una UDM di base per un articolo e specificare UDM maggiori basate sull'UDM di base. Ad esempio, è possibile definire un pallet di 16 pezzi, e l'ultima è la UDM di base.  
@@ -99,7 +99,7 @@ Prima di impostare le restrizioni alla capacità per i contenuti della collocazi
 > [!NOTE]  
 > È possibile solo utilizzare più UDM nelle installazioni WMS. In tutte le altre configurazioni il contenuto collocazione può essere solo nell'unità di misura di base. In tutte le transazioni con una UDM superiore alla UDM di base dell'articolo, la quantità viene convertita nella UDM di base.  
 
-## Area
+## <a name="zone"></a>Area
 
 Nella gestione avanzata della warehouse, le collocazioni possono essere raggruppate in zone per gestire la conduzione del flusso di lavoro delle attività di warehouse.  
 
@@ -107,18 +107,18 @@ Un'area potrebbe essere un'area ricevimento o di approvvigionamento e ogni area 
 
 La maggior parte delle proprietà assegnate a una zona sarà assegnata per impostazione predefinita alla collocazione creata da quella specifica zona.  
 
-## Classe  
+## <a name="class"></a>Classe
 Nella gestione avanzata della warehouse, è possibile assegnare codici di classe warehouse ad articoli, collocazioni e zone per controllare dove vengono archiviate le classi degli articoli, ad esempio le merci bloccate. È possibile suddividere una zona in diverse classi warehouse. Ad esempio, gli articoli nella zona di ricezione possono essere memorizzati come bloccati, pericolosi o un'altra classe.  
 
 Quando si utilizzano le classi warehouse e una collocazione di carico o di spedizione predefinita, è necessario compilare manualmente le collocazioni appropriate nelle righe di carico e di spedizione warehouse.  
 
 Nei flussi in entrata, il codice di classe è evidenziato solo nelle righe in entrata dove il codice di classe dell'articolo non corrisponde alla collocazione di carico predefinita. Se le collocazioni predefinite corrette non sono assegnate, la quantità non può essere caricata.  
 
-## Ubicazione
+## <a name="location"></a>Ubicazione
 
 Un'ubicazione è una struttura fisica o un'area in cui viene ricevuta, archiviata e spedita la giacenza, potenzialmente organizzata nelle collocazioni. Un'ubicazione può essere un warehouse, un auto assistenza, una sala esposizione, un impianto o un'area in un impianto.  
 
-## FEFO (First Expired First Out)
+## <a name="first-expired-first-out"></a>FEFO (First Expired First Out)
 
 Se si seleziona la casella di controllo **Prelievo in base a FEFO** nella Scheda dettaglio **Criteri per collocazione** nella scheda ubicazione, gli articoli tracciati vengono prelevati in base alla data di scadenza. Gli articoli con le date di scadenza meno recenti vengono prelevati per primi.  
 
@@ -126,11 +126,11 @@ Le attività di warehouse in tutti i documenti di spostamento e prelievo sono or
 
 Quando si effettuano prelievi tramite il metodo FEFO, gli articoli disponibili la cui scadenza è più imminente vengono raccolti in una lista di tracciabilità articolo temporanea basata sulla data di scadenza. Se due articoli hanno la stessa data di scadenza, viene selezionato automaticamente quello con il numero di lotto o seriale inferiore. Se i numeri di lotto o seriale sono identici, viene selezionato automaticamente l'articolo registrato per primo. Alla lista di tracciabilità articolo FEFO temporanea vengono applicati i criteri standard relativi alla selezione degli articoli nella collocazione, ad esempio Valutazione collocazione e Breakbulk.  
 
-## Modello stoccaggio
+## <a name="put-away-template"></a>Modello stoccaggio
 
 Il modello di stoccaggio può essere assegnato a un articolo e a un'ubicazione. Il modello di stoccaggio specifica un set di regole in ordine di priorità che devono essere rispettate quando si creano gli stoccaggi. Ad esempio, un modello di stoccaggio può richiedere che l'articolo sia posizionato nella collocazione con il contenuto della collocazione corrispondente a UDM e se non è possibile trovare una simile collocazione con abbastanza capacità, allora l'articolo deve essere posizionato in una collocazione vuota.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Dettagli di progettazione: disponibilità nella warehouse](design-details-availability-in-the-warehouse.md)

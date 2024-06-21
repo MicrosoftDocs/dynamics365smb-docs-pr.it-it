@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Selezione dei report per i documenti in Business Central
+# <a name="report-selection-for-documents-in-business-central"></a>Selezione dei report per i documenti in Business Central
 
 Puoi impostare report predefiniti da utilizzare per stampare documenti relativi alle vendite, agli acquisti e all'assistenza, come ordini, offerte e fatture. Ad esempio, se si dispone di un layout specifico per le fatture vendita, è possibile specificare tale report nella pagina **Selezioni report - Vendite** di modo che venga utilizzato per inviare o stampare fatture vendita.  
 
-## Selezioni report disponibili
+## <a name="available-report-selections"></a>Selezioni report disponibili
 
 Le pagine **Selezioni report** specificano quale report verrà stampato nelle diverse situazioni. [!INCLUDE [prod_short](includes/prod_short.md)] fornisce le configurazioni predefinite, ma è possibile modificarle se necessario. È inoltre possibile aggiungere report alle pagine **Selezione report**, ad esempio per stampare più di un report per tipo di documento. 
 
@@ -41,7 +41,7 @@ La versione predefinita di [!INCLUDE [prod_short](includes/prod_short.md)] inclu
 * **Selezione report - Commessa**  
 * **Selezione report - Assistenza**
 
-## Esempio: Selezione report per documenti vendita
+## <a name="example-report-selection-for-sales-documents"></a>Esempio: Selezione report per documenti vendita
 
 La pagina **Selezione report - Vendite** offre i report predefiniti da utilizzare in diversi scenari per ogni tipo di documento correlato. Scegli un tipo di documento nel campo **Utilizzo**, quindi aggiungi o esamina la selezione report. Puoi impostare più di un report e specificare la sequenza in cui i report devono essere inviati o stampati.  
 
@@ -57,7 +57,7 @@ Ad esempio, nelle pagine **Selezione report - Vendite** e **Selezione report - A
 |**Utilizza per allegato e-mail**| Allega il relativo documento all'e-mail.|
 |**Descrizione layout corpo e-mail**|Specifica il layout del corpo dell'e-mail da utilizzare. In genere, è un layout di report personalizzato. |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare testi e-mail riutilizzabili e layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Selezionare un layout degli assegni](finance-how-define-check-layouts.md)  

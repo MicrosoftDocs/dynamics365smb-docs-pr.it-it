@@ -10,7 +10,7 @@ ms.date: 10/10/2023
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Informazioni sul calcolo del costo standard
+# <a name="about-calculating-standard-cost"></a>Informazioni sul calcolo del costo standard
 
 Molte aziende di produzione scelgono una base di valutazione del costo standard. Ciò si applica anche alle società che eseguono la produzione leggera, come assemblaggio e kitting. In un sistema di costi standard il costo unitario di magazzino viene determinato in base a un costo previsto o costo previsto. Gli studi del costo passato e di quello futuro previsto forniscono la base per i costi standard. Questi costi sono congelati fino a quando non si decide di cambiarli. Il costo effettivo per la produzione di un prodotto può essere diverso dai costi standard previsti. Per consentire il controllo della gestione, il costo effettivo viene messo a confronto con il costo standard di un articolo specifico e le differenze, o *scostamenti*, vengono identificate e analizzate.  
 
@@ -22,7 +22,7 @@ I costi standard possono essere gestiti per articoli il cui rifornimento viene e
 |**Assemblaggio**|Costo diretto del materiale, costo di manodopera diretto o fisso e costo generale.|  
 |**Ordine Produzione**|Costo diretto del materiale, costo di manodopera, costo di terzisti e costo generale.|  
 
-## Impostazione dei costi standard
+## <a name="setting-up-standard-costs"></a>Impostazione dei costi standard
 
 Poiché il costo standard di un articolo lavorato o assemblato è costituito da più elementi di costo, ovvero costi relativi a materiale, capacità e terzisti (diretti e generali), i costi standard devono essere stabiliti per ognuno di questi elementi.  
 
@@ -39,7 +39,7 @@ I seguenti elementi di costo principali compongono il costo diretto totale di un
 - Costo capacità.  
 - Costo per conto lavoro solo per gli articoli prodotti.  
 
-### Costi materiale
+### <a name="material-costs"></a>Costi materiale
 
 I costi del materiale sono quelli associati ai subassemblaggi e alle materie prime acquistate. Il costo unitario del materiale può essere costituito da elementi di costo diretti e indiretti.  
 
@@ -57,7 +57,7 @@ Il costo del materiale di un articolo prodotto può essere rappresentato in due 
 |Livello Singolo|L'articolo prodotto è uguale al costo totale di tutti gli articoli acquistati o sottoassemblati nella DB di produzione di tale articolo.|  
 |Livello o multilivello di ricalcolo|L'articolo prodotto è la somme dei costi del materiale di tutti i subassemblaggi nella distinta base dell'articolo in questione e del costo di tutti gli articoli acquistati nella distinta base dell'articolo in questione.|  
 
-### Costi della capacità
+### <a name="capacity-costs"></a>Costi della capacità
 
 I costi capacità sono quelli associati alla manodopera interna e ai costi dei macchinari. È necessario impostare questi costi per ogni risorsa (in gestione assemblaggio) e area di produzione o centro di lavoro nel ciclo (in produzione). Come nel caso dei materiali, è possibile identificare sia elementi diretti che indiretti del costo della capacità. Il costo diretto di un'area di lavoro può ad esempio essere costituito dalla tariffa del reparto produzione stabilita per eseguire una funzione specifica. Il costo indiretto di un'area di lavoro può rappresentare alcune spese generali della fabbrica, ad esempio l'illuminazione, il riscaldamento e così via. Analogamente ai costi del materiale, è possibile esprimere i costi generali capacità come percentuale dei costi indiretti o coefficiente fisso dei costi generali.  
 
@@ -82,13 +82,13 @@ Per specificare il tempo di setup nel ciclo per la pianificazione senza includer
 
 A livello singolo, si tratta del costo della manodopera necessaria per produrre l'articolo finito, specificato nel ciclo dell'articolo di produzione. A più livelli, si tratta del costo della capacità specificato per ogni singolo articolo prodotto incluso nella distinta base dell'articolo principale.  
 
-### Costi dei terzisti
+### <a name="subcontractor-costs"></a>Costi dei terzisti
 
 I costi dei terzisti sono quelli associati ai servizi forniti da terzisti o fornitori esterni di un'azienda. Analogamente ai costi del materiale e della capacità, i costi dei terzisti possono essere costituiti da importi sia di costi diretti che generali. I costi diretti dei terzisti rappresentano l'addebito effettivo per ogni unità di servizio fornito. I costi generali dei terzisti possono, ad esempio, rappresentare i costi di spedizione e di gestione sostenuti dall'azienda in relazione a un ordine in conto lavoro.  
 
 Poiché il conto lavoro rappresenta essenzialmente una capacità esterna, il costo, diretto e indiretto, dei servizi in conto lavoro viene impostato nella scheda area di produzione che rappresenta l'operazione di affidamento in conto lavoro.  
 
-## Aggiornamento dei costi standard
+## <a name="updating-standard-costs"></a>Aggiornamento dei costi standard
 
 Per aggiornare o calcolare il costo standard degli articoli di assemblaggio, utilizzare la funzione dalla scheda articolo.  
 
@@ -99,9 +99,9 @@ Il processo di aggiornamento o del calcolo dei costi standard in genere è costi
 3.  Implementazione dei costi standard che vengono registrati quando si eseguono i processi batch precedenti. I costi standard non saranno effettivi finché non vengono implementati. Usa il processo batch **Implementa modifiche costo std.** che consente di aggiornare il costo standard degli elementi riportati nella tabella Prospetto costo standard.  
 4.  Implementazione delle modifiche per aggiornare il campo **Costo unitario** nella scheda articolo ed eseguire la rivalutazione di magazzino. Per ulteriori informazioni, vedere [Rivalutare il magazzino](inventory-how-revalue-inventory.md).
 
-## Utilizzare processi batch per aggiornare costi standard
+## <a name="use-batch-jobs-to-update-standard-costs"></a>Utilizzare processi batch per aggiornare costi standard
 Le seguenti sezioni descrivono i processi batch che puoi utilizzare per aggiornare costi standard.
-### Suggerisci costo std. articolo
+### <a name="suggest-item-standard-cost"></a>Suggerisci costo std. articolo
 
  Crea suggerimenti per la variazione dei costi e le quote dei costi standard nelle schede articolo. Una volta completato il processo batch, puoi visualizzare il risultato nella finestra Prospetto costo standard.
 
@@ -109,7 +109,7 @@ Le seguenti sezioni descrivono i processi batch che puoi utilizzare per aggiorna
 > Questo processo batch è destinato solo agli articoli acquistati. Se vuoi aggiornare un articolo con una distinta base di produzione o di assemblaggio, devi innanzitutto compilare il prospetto inserendo tutti i componenti e successivamente eseguire il processo batch Roll up del costo standard.
 
 Questo processo batch crea solo suggerimenti. Non implementa le modifiche suggerite. Se i suggerimenti vengono ritenuti soddisfacenti e desideri implementarli, ovvero aggiornarli nelle schede articolo e inserirli in Registrazioni rivalutazioni, seleziona Implementa modifiche costo std. nella finestra Prospetto costo standard.
-#### Opzioni
+#### <a name="options"></a>Opzioni
 
 **Costo Standard**: immetti il fattore di rettifica da utilizzare per aggiornare il costo standard. È anche possibile selezionare un metodo di arrotondamento per il nuovo costo standard. È necessario compilare il campo utilizzando un valore decimale per l'aumento percentuale, ad esempio 1,1.
 
@@ -117,21 +117,21 @@ Questo processo batch crea solo suggerimenti. Non implementa le modifiche sugger
 
 **Coefficiente costi generali**: immetti il fattore di rettifica da utilizzare per aggiornare il coefficiente costi generali. Puoi anche selezionare un metodo di arrotondamento per il nuovo coefficiente costi generali. È necessario compilare il campo utilizzando un valore decimale per l'aumento percentuale, ad esempio 1,1.
 
-### Sugg. costo std centro lav/area prod
+### <a name="suggest-workmach-ctr-std-cost"></a>Sugg. costo std centro lav/area prod
 
 Crea suggerimenti per la variazione dei costi e le quote dei costi standard nelle schede area di produzione, centri lavoro o risorse. Una volta completato il processo batch, puoi vedere il risultato nella finestra **Prospetto costo standard**.
 
 Questo processo batch crea solo suggerimenti. Non implementa le modifiche suggerite. Se i suggerimenti sono soddisfacenti e desideri implementarli, ovvero aggiornarli nel centro di lavoro e nelle schede risorse e inserirli nella finestra Registrazioni rivalutazioni, seleziona **Implementa modifiche costo std.** nella finestra **Prospetto costo standard**.
 
 Se dopo aver eseguito il processo batch desideri controllare l'impatto sulla produzione, o sui reparti assemblaggio, esegui il processo batch **Roll up del costo standard** per aggiornare i costi standard a livello di aree di produzione, centri di lavoro, risorse di assemblaggio e distinte base di produzione.
-#### Opzioni
+#### <a name="options-1"></a>Opzioni
 **Costo Standard**: immetti il fattore di rettifica da utilizzare per aggiornare il costo standard. È anche possibile selezionare un **metodo di arrotondamento** per il nuovo costo standard. È necessario compilare il campo utilizzando un valore decimale per l'aumento percentuale, ad esempio 1,1.
 
 **% costi indiretti**: immetti il fattore di rettifica da utilizzare per aggiornare la percentuale dei costi indiretti. È anche possibile selezionare un metodo di arrotondamento per la nuova percentuale dei costi indiretti. È necessario compilare il campo utilizzando un valore decimale per l'aumento percentuale, ad esempio 1,1.
 
 **Coefficiente costi generali**: immetti il fattore di rettifica da utilizzare per aggiornare il coefficiente costi generali. Puoi anche selezionare un metodo di arrotondamento per il nuovo coefficiente costi generali. È necessario compilare il campo utilizzando un valore decimale per l'aumento percentuale, ad esempio 1,1.
 
-### Registra costo magazzino in C/G
+### <a name="post-inventory-cost-to-gl"></a>Registra costo magazzino in C/G
 
  Registra le modifiche alle quantità e al valore del magazzino nei movimenti contabili articoli e nei movimenti di valorizzazione quando registri transazioni di magazzino, ad esempio spedizioni vendite o carichi di acquisto.
 
@@ -149,7 +149,7 @@ Per fare in modo che non si verifichino errori durante l'elaborazione del proces
  
 > [!IMPORTANT]  
 > Prima di utilizzare questo processo batch, esegui il processo batch **Rettifica costo - Mov. art**. In questo modo, all'esecuzione del processo batch i costi che verranno registrati nella contabilità generale saranno aggiornati.
-#### Opzioni
+#### <a name="options-2"></a>Opzioni
 
 |Opzione  |Descrizione  |
 |--------------|---------|
@@ -157,7 +157,7 @@ Per fare in modo che non si verifichino errori durante l'elaborazione del proces
 |**Nr. Documento**|in questo campo puoi immettere un numero di documento se hai selezionato il metodo di registrazione per categoria di magazzino. Il numero di documento appare nei movimenti registrati.|
 |**Registra**|Seleziona questo campo se vuoi registrare automaticamente il processo batch nella contabilità generale. Se non scegli di registrare il costo di magazzino nella contabilità generale, tramite il processo batch verrà stampato solo un report di test in cui sono riportati i valori che possono essere registrati nella contabilità generale e su cui è presente l'indicazione **Report test (non registrato)**.|
 
-### Roll up del costo standard
+### <a name="roll-up-standard-cost"></a>Roll up del costo standard
 
 Esegue il roll up dei costi standard di articoli assemblati e lavorati. Questi sono influenzati dalla variazione nei costi standard dei componenti suggerita dal processo batch **Suggerisci costo std. articolo**. Inoltre, vengono influenzati dalla variazione del costo standard delle risorse di assemblaggio e della capacità di produzione suggerita dal processo batch **Sugg. costo std centro lav/area prod**.
 
@@ -167,14 +167,14 @@ Quando si effettua il roll-up dopo aver eseguito uno o entrambi i processi batch
 > Questa funzione esegue il roll-up solo del costo standard nelle schede articolo, non nelle schede USK.
 
 Questo processo batch crea solo suggerimenti. Non implementa le modifiche suggerite. Se ritieni i suggerimenti soddisfacenti e desideri implementarli, ovvero aggiornarli nelle schede articolo e inserirli nella finestra **Registrazioni rivalutazioni**, puoi usare il processo batch **Implementa modifiche costo std.**. Puoi accedere a questo processo batch dalla finestra **Prospetto costo standard**.
-#### Opzioni
+#### <a name="options-3"></a>Opzioni
 
 **Data calcolo**: immetti la data relativa alla versione della distinta base di produzione per la quale desideri eseguire il roll-up.
  
-### Implem. modifiche costo std.
+### <a name="implement-standard-cost-change"></a>Implem. modifiche costo std.
 
 Aggiorna il costo standard riportato nella tabella **Articolo** in base alle modifiche suggerite nella tabella **Prospetto costo standard**. I suggerimenti per le modifiche dei costi standard possono essere creati mediante il processo batch **Suggerisci costo std. articolo** e/o **Sugg. costo std centro lav/area prod** e anche essere modificati. Il contenuto di tutti i campi dei suggerimenti di modifica dei costi standard verrà trasferito. Quando implementi i suggerimenti, puoi vedere le modifiche dei costi standard nella scheda articolo e/o nella scheda area di produzione o centro di lavoro. Viene inoltre creata una registrazione di rivalutazione per l'aggiornamento del valore dello stock esistente.
-#### Opzioni
+#### <a name="options-4"></a>Opzioni
 
 **Data di registrazione**: immetti la data in cui deve essere eseguita la rivalutazione.
 
@@ -186,7 +186,7 @@ Aggiorna il costo standard riportato nella tabella **Articolo** in base alle mod
 
 Seleziona **OK** per avviare il processo batch. Se non vuoi eseguire il processo batch subito, seleziona **Annulla** per chiudere la finestra.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Dettagli di progettazione: metodi di determinazione dei costi](design-details-costing-methods.md)  
 [Aggiornare i costi standard](finance-how-to-update-standard-costs.md)  
